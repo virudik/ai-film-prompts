@@ -9,11 +9,11 @@
 - **🛠️ 0** рабочих направлений W: 20 предложений оформлены отдельными сценами.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
 - **Последняя оформленная активная сцена:** 20 — Красота становится знанием.
-- **Последняя полная синхронизация:** **23.10.2026 · космические организации: 20 сцен, 27 уникальных референсов; разработка 23.10, исследование от 22.10.2026**.
+- **Последняя полная синхронизация:** **23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026**.
 
-**Роскосмос, Главкосмос, РКС и НЦ ОМЗ:** 20 разработанных сцен; все 12 дополнительных идей стали сценами 9–20. Всего 27 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций.
+**Роскосмос, Главкосмос, РКС и НЦ ОМЗ:** 20 разработанных сцен; все 12 дополнительных идей стали сценами 9–20. Всего 35 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций.
 
-**Все сцены DRAFT для выбора владельцем.** Изображения созданы и технически просмотрены; художественное одобрение ещё не дано. Для второй части Seedance нужен настоящий результат первой. Очередь не изменялась, видео не запускались. Только подтверждённый Unlimited и 0 кредитов; вкладка Seedance 2.5 сама по себе не подтверждает бесплатную доступность.
+**Все сцены прошли режиссёрскую доработку; художественная приёмка результатов остаётся за владельцем.** 23.10 владелец поручил после доработки занимать свободные слоты по запланированной очереди и оценивать результаты. Добавлена ограниченная очередь: одна выбранная версия на сцену, без автоматических повторов. Для второй части Seedance нужен настоящий результат первой. Подготовленная очередь не означает состоявшуюся отправку; факты запуска — в квитанциях. Только подтверждённый Unlimited и 0 кредитов; вкладка Seedance 2.5 сама по себе не подтверждает бесплатную доступность.
 
 Озвучка и титры ниже предназначены для монтажа поверх чистого видеоряда. Точные официальные логотипы и изображения конкретных аппаратов берутся из согласованных материалов при брендированном выпуске. Текущие изображения — постановочные концепты, не документальные снимки, реальные интерфейсы или технические чертежи.
 
@@ -46,43 +46,46 @@
 
 ## 12 идей развёрнуты в сцены
 
-Сцены **9–20** ниже содержат законченный сюжет, постановку, озвучку для монтажа, изображения и обе версии промта. Шесть существующих сцен получили дополнительные опорные ракурсы. Длительность основного варианта — 30 с по общему правилу проекта; возможности расширения исходных идей указаны в контексте каждой сцены.
+Сцены **9–20** ниже содержат законченный сюжет, постановку, озвучку для монтажа, изображения и обе версии промта. После первого расширения дополнительно созданы 8 кадров для сцен 1/6/9/11/12/14/16/17. Все 20 сюжетов и 60 промтов переработаны: предметное действие, ясная смена планов и проверяемый финал. Длительность основного варианта — 30 с по общему правилу проекта; возможности расширения исходных идей указаны в контексте каждой сцены.
 
 ## Сцены в работе
 
-Все 20 сцен ниже — DRAFT.
+Все 20 сцен ниже — DRAFT до художественной приёмки. Выбранные версии подготовлены к одной бесплатной попытке по очереди.
 
 <a id="scene-1"></a>
 ## Сцена 1 — Роскосмос: Космос работает здесь
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Для широкой аудитории, главной страницы и выставочного экрана. Показать связь космоса с узнаваемой жизнью на Земле. **Постоянная тема · имиджевый ролик.**
 
-**Что происходит:** Камера движется над полями, рекой и городом. Пейзаж становится картографическим взглядом; одна выделенная область помогает увидеть в красивом изображении полезную информацию. Финал возвращает нас к живому земному ландшафту.
+**Что происходит:** От блеска воды камера открывает поля и город. Более близкий воздушный ракурс позволяет выделить одно поле. Контур исчезает, а финальный общий план возвращает участок в живой пейзаж: информация нужна для конкретного места.
 
 **Факт и художественное решение:** НЦ ОМЗ описывает применение ДЗЗ в сельском хозяйстве, природоохранном мониторинге и планировании территорий. Это обобщающий имиджевый замысел, не отчёт о конкретном хозяйстве.
 
 **Источники (проверка 22.10.2026):** [НЦ ОМЗ — о центре](https://ntsomz.ru/o-tsentre/) · [НЦ ОМЗ — «Цифровая Земля»](https://ntsomz.ru/digital-earth/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. @Image2 — `projects/raznoe/references/scenes/scene-1/q01-overhead.png`. Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-1/01-earth-work.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-1/01-earth-work.png" alt="Роскосмос — Космос работает здесь: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Космос работает здесь. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-1/01-earth-work.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-1/01-earth-work.png" alt="Сцена 1, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-1/q01-overhead.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-1/q01-overhead.png" alt="Сцена 1, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Ближе к участку у реки. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Космос кажется далёким. Но его данные помогают изучать поля, реки и города. Взгляд сверху становится знанием, которое работает здесь, на Земле.»
 
 **Финальный титр для монтажа:** «Роскосмос. Космос работает здесь.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Seedance 2.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Участок читается без надписей; контур не меняет географию; два ракурса соединены монтажом, а не деформацией. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="1">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 1 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/q01-overhead.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -90,38 +93,39 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
-Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Image2 — Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot. File: projects/raznoe/references/scenes/scene-1/q01-overhead.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people or animals. Distant buildings remain background architecture. Never introduce a spokesperson, astronaut or identifiable public figure.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Keep the river bend and field boundaries stable. The transition into a map is a designed visual explanation, not a literal rapid flight from orbit. No real spacecraft or technical performance claims.
+Image1 governs the broad landscape. Image2 is a closer illustrative aerial reference, not a pixel-registered orthomap. Keep geography stable within each shot; do not morph between the two stills. Any field outline lies on the image plane and means attention, not a measurement.
 
 START STATE:
-An oblique sunrise aerial over the green foreground fields; the winding river lies beyond them, warm sunlight from upper right.
+Oblique sunrise landscape from Image1; begin close enough to read sunlight on the river, with crops in the near foreground.
 
 TIMELINE:
-[0:00–0:05] Track smoothly but purposefully along diagonal crop rows. Wind moves foliage; establish the river ahead without changing geography.
+[0:00–0:03] Open on a bright moving water reflection, then let the near crop rows enter; the contrast of water and land supplies the hook.
 
-[0:05–0:10] Climb and tilt toward a vertical view. Town and river stay anchored, parallax decreases naturally.
+[0:03–0:08] Glide laterally to reveal the river, fields and distant town together. Establish three readable layers without accelerating.
 
-[0:10–0:15] Use one motivated match cut to a near-vertical map-like view of the same terrain. Settle at the distinctive river bend for the handoff.
+[0:08–0:15] At 8s make a deliberate cut to the closer aerial of Image2. Follow the riverbank toward one existing field; settle on that parcel by 12s and continue a tiny drift through 15s.
 
-[0:15–0:20] Continue from that bend. One thin translucent boundary outlines a single existing field parcel; no numbers or coordinates.
+[0:15–0:20] Continue that drift for the first second. A single thin amber editorial outline traces the chosen field boundary once, leaving its texture visible.
 
-[0:20–0:25] The outline fades. A motivated cut returns to the river at an oblique angle; water shimmer keeps the landscape alive.
+[0:20–0:26] Let the viewer read the parcel, then fade the line completely. Cut back to the wider landscape at 24s; preserve the sunrise direction.
 
-[0:25–0:30] Pull outward to the broad sunrise landscape. Keep subtle living movement until the final frame, resolving the visual journey from a view to useful understanding.
+[0:26–0:30] Ease wider as river shimmer and wind in crops continue. The visible payoff is one useful area understood within a larger living landscape.
 
 END STATE:
-Wide oblique view returns to the same sunlit river, fields and town. Upper sky remains uncluttered for an editorial title; render no letters.
+The original broad sunrise landscape, the selected field still locatable beside the river; water and crops continue moving.
 
 CAMERA / SPACE:
-Coherent low aerial, near-vertical terrain view, returning wide aerial; controlled 35 mm-equivalent perspective. No whip pan or impossible continuous orbital zoom. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+35 mm aerial language. One establishing glide, one explicit cut to a closer high-oblique detail, one return to the broad view. Never pretend either reference is vertical survey imagery. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Natural wind, mist drift and water shimmer. Purposeful readable camera motion; no frozen slideshow or long hero pose.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Amber sunrise, textured crops, soft haze and plausible water reflection; consistent light direction, natural greens.
@@ -141,7 +145,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 1 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/q01-overhead.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -149,32 +153,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
-Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Image2 — Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot. File: projects/raznoe/references/scenes/scene-1/q01-overhead.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people or animals. Distant buildings remain background architecture. Never introduce a spokesperson, astronaut or identifiable public figure.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Keep the river bend and field boundaries stable. The transition into a map is a designed visual explanation, not a literal rapid flight from orbit. No real spacecraft or technical performance claims.
+Image1 governs the broad landscape. Image2 is a closer illustrative aerial reference, not a pixel-registered orthomap. Keep geography stable within each shot; do not morph between the two stills. Any field outline lies on the image plane and means attention, not a measurement.
 
 START STATE:
-An oblique sunrise aerial over the green foreground fields; the winding river lies beyond them, warm sunlight from upper right.
+Oblique sunrise landscape from Image1; begin close enough to read sunlight on the river, with crops in the near foreground.
 
 TIMELINE:
-[0:00–0:05] Track smoothly but purposefully along diagonal crop rows. Wind moves foliage; establish the river ahead without changing geography.
+[0:00–0:03] Open on a bright moving water reflection, then let the near crop rows enter; the contrast of water and land supplies the hook.
 
-[0:05–0:10] Climb and tilt toward a vertical view. Town and river stay anchored, parallax decreases naturally.
+[0:03–0:08] Glide laterally to reveal the river, fields and distant town together. Establish three readable layers without accelerating.
 
-[0:10–0:15] Use one motivated match cut to a near-vertical map-like view of the same terrain. Settle at the distinctive river bend for the handoff.
+[0:08–0:15] At 8s make a deliberate cut to the closer aerial of Image2. Follow the riverbank toward one existing field; settle on that parcel by 12s and continue a tiny drift through 15s.
 
 END STATE:
-Near-vertical view of the same terrain, its distinctive river bend slightly right of centre, with gentle forward drift.
+Closer high-oblique view inspired by Image2; one rectangular field beside the river is centred, without an overlay yet. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-Coherent low aerial, near-vertical terrain view, returning wide aerial; controlled 35 mm-equivalent perspective. No whip pan or impossible continuous orbital zoom. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+35 mm aerial language. One establishing glide, one explicit cut to a closer high-oblique detail, one return to the broad view. Never pretend either reference is vertical survey imagery. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Natural wind, mist drift and water shimmer. Purposeful readable camera motion; no frozen slideshow or long hero pose.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Amber sunrise, textured crops, soft haze and plausible water reflection; consistent light direction, natural greens.
@@ -191,7 +196,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 1 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/q01-overhead.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -199,33 +204,34 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Image2 — Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot. File: projects/raznoe/references/scenes/scene-1/q01-overhead.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people or animals. Distant buildings remain background architecture. Never introduce a spokesperson, astronaut or identifiable public figure.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Keep the river bend and field boundaries stable. The transition into a map is a designed visual explanation, not a literal rapid flight from orbit. No real spacecraft or technical performance claims.
+Image1 governs the broad landscape. Image2 is a closer illustrative aerial reference, not a pixel-registered orthomap. Keep geography stable within each shot; do not morph between the two stills. Any field outline lies on the image plane and means attention, not a measurement.
 
 START STATE:
-Match the final frame and motion of @Video1. Near-vertical view of the same terrain, its distinctive river bend slightly right of centre, with gentle forward drift.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Closer high-oblique view inspired by Image2; one rectangular field beside the river is centred, without an overlay yet.
 
 TIMELINE:
-[0:00–0:05] Continue from that bend. One thin translucent boundary outlines a single existing field parcel; no numbers or coordinates.
+[0:00–0:05] Continue that drift for the first second. A single thin amber editorial outline traces the chosen field boundary once, leaving its texture visible.
 
-[0:05–0:10] The outline fades. A motivated cut returns to the river at an oblique angle; water shimmer keeps the landscape alive.
+[0:05–0:11] Let the viewer read the parcel, then fade the line completely. Cut back to the wider landscape at 9s; preserve the sunrise direction.
 
-[0:10–0:15] Pull outward to the broad sunrise landscape. Keep subtle living movement until the final frame, resolving the visual journey from a view to useful understanding.
+[0:11–0:15] Ease wider as river shimmer and wind in crops continue. The visible payoff is one useful area understood within a larger living landscape.
 
 END STATE:
-Wide oblique view returns to the same sunlit river, fields and town. Upper sky remains uncluttered for an editorial title; render no letters.
+The original broad sunrise landscape, the selected field still locatable beside the river; water and crops continue moving.
 
 CAMERA / SPACE:
-Coherent low aerial, near-vertical terrain view, returning wide aerial; controlled 35 mm-equivalent perspective. No whip pan or impossible continuous orbital zoom. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+35 mm aerial language. One establishing glide, one explicit cut to a closer high-oblique detail, one return to the broad view. Never pretend either reference is vertical survey imagery. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Natural wind, mist drift and water shimmer. Purposeful readable camera motion; no frozen slideshow or long hero pose.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Amber sunrise, textured crops, soft haze and plausible water reflection; consistent light direction, natural greens.
@@ -246,11 +252,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-2"></a>
 ## Сцена 2 — Роскосмос: Земля обретает объём
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Научно-популярный ролик и выставочная демонстрация: за 30 секунд объяснить смысл стереосъёмки через понятное превращение. **Новостной повод · 08.10.2026.**
 
-**Что происходит:** Плоское изображение на выставочном столе становится рельефом. Долины и склоны получают высоту. Небольшой облет позволяет зрителю прочитать объём, а финал показывает модель целиком.
+**Что происходит:** Камера сначала подтверждает, что перед нами плоская модель. На выставочном столе поднимается рельеф, появляется читаемая долина. Низкий боковой ракурс показывает высоту, финальный общий план связывает объём с исходной картой.
 
 **Факт и художественное решение:** Роскосмос 08.10.2026 сообщил о результатах системы стереосъёмки «Аист-2Т». Индекс официальной публикации Ростеха связывает «Аврору» со стереоснимками для трёхмерной модели. Подъём карты — художественная метафора обработки.
 
@@ -259,22 +265,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. @Image2 — `projects/raznoe/references/scenes/scene-2/s02-flat.png`. Flat printed-terrain starting state on the same navy plinth. Image2 controls the opening flat surface; Image1 controls the final raised relief. Keep shared river and city anchors registered.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-2/02-stereo-relief.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-2/02-stereo-relief.png" alt="Роскосмос — Земля обретает объём: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Земля обретает объём. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-2/s02-flat.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-2/s02-flat.png" alt="@Image2 — Плоская поверхность перед подъёмом рельефа" loading="lazy"></a><figcaption>@Image2 — Плоская поверхность перед подъёмом рельефа · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-2/02-stereo-relief.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-2/02-stereo-relief.png" alt="Сцена 2, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-2/s02-flat.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-2/s02-flat.png" alt="Сцена 2, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Flat printed-terrain starting state on the same navy plinth. Image2 controls the opening flat surface; Image1 controls the final raised relief. Keep shared river and city anchors registered.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Плоское изображение показывает, что находится на поверхности. Стереосъёмка добавляет объём. Долины, склоны и высоты складываются в трёхмерное представление местности.»
 
 **Финальный титр для монтажа:** «Аист-2Т. Новый взгляд на рельеф.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Seedance 2.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Начало действительно плоское; город и река не расползаются; после подъёма рельеф больше не пульсирует. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="2">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 2 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе. @Image2 — `projects/raznoe/references/scenes/scene-2/s02-flat.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. @Image2 — `projects/raznoe/references/scenes/scene-2/s02-flat.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -283,38 +291,38 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/scenes/scene-2/02-stereo-relief.png.
 @Image2 — Flat printed-terrain starting state on the same navy plinth. Image2 controls the opening flat surface; Image1 controls the final raised relief. Keep shared river and city anchors registered. File: projects/raznoe/references/scenes/scene-2/s02-flat.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No humans or animals. The terrain exhibit is the hero object; keep building scale, river width and mountain silhouette coherent.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-This is a scientific exhibition model on a plinth, never real mountains growing. Texture remains pinned to terrain coordinates while elevation rises. No exact spacecraft, resolution claims, laser scanning or documentary footage.
+This is an animated exhibition model, never mountains growing in nature. Image2 controls the flat start and Image1 the relief finish. Plinth dimensions, river route and town positions stay fixed; city blocks do not stretch. Texture follows the same terrain patch.
 
 START STATE:
-Camera looks down at the near-left flat portion of the table; the navy plinth clearly identifies it as an exhibit.
+Image2 supplies the flat printed terrain on the navy plinth. A low three-quarter camera sees the thin surface and plinth edge; no mountain is raised yet.
 
 TIMELINE:
-[0:00–0:05] Glide over the flat left-hand aerial texture. Grazing light reveals the table edge and gallery setting.
+[0:00–0:03] Skim the flat printed surface with the plinth edge in view; the almost absent height is immediately clear.
 
-[0:05–0:10] A controlled transition front moves across the tile: texture stays pinned while hills rise, never individual buildings jumping.
+[0:03–0:08] A broad ridge begins rising slowly from the print as an intentional exhibit animation. River and town remain anchored.
 
-[0:10–0:15] Continue the gentle terrain lift; settle above the central river bend for the handoff. Water stays within the valley.
+[0:08–0:15] Complete the rise by 12s, leaving the valley lower than surrounding hills. Ease the camera upward just enough to show the river threading through the relief; retain tiny lateral motion.
 
-[0:15–0:20] Resume the same movement direction, arc around the raised valley by a small angle so parallax explains elevation.
+[0:15–0:20] Continue the same composition for a second, then cut to a lower side angle; parallax now makes the height difference unmistakable.
 
-[0:20–0:25] A raking light change reveals slope and shadows, without lasers or earthquakes. Keep model dimensions and the table edge stable.
+[0:20–0:26] Track across the valley mouth toward the town. Side light describes slopes without an artificial scanning beam.
 
-[0:25–0:30] Widen to the full rectangular exhibit; retain subtle movement and end with a clear view of the finished relief.
+[0:26–0:30] Widen to include the entire navy plinth and completed relief. End with stable geometry and a slow camera ease, not another transformation.
 
 END STATE:
-Three-quarter view of the full completed relief tile, its town and river in their original places, flat-to-volume relationship legible.
+Complete raised relief on the same navy plinth, river valley and town readable together; no further elevation change.
 
 CAMERA / SPACE:
-50 mm product lens, short table-level dolly and at most 25-degree arc. Straight plinth edges and stable perspective; no disorienting full orbit. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm tabletop photography: start low to prove flatness, rise modestly during the designed elevation, then cut lower to reveal real parallax. No orbit exceeding 25 degrees. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Smooth purposeful model transformation. No rubber mountains, floating city blocks or decorative spinning.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Navy gallery, thin cyan perimeter, neutral top light, warm grazing highlights and accurate contact shadows.
@@ -343,32 +351,32 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/scenes/scene-2/02-stereo-relief.png.
 @Image2 — Flat printed-terrain starting state on the same navy plinth. Image2 controls the opening flat surface; Image1 controls the final raised relief. Keep shared river and city anchors registered. File: projects/raznoe/references/scenes/scene-2/s02-flat.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No humans or animals. The terrain exhibit is the hero object; keep building scale, river width and mountain silhouette coherent.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-This is a scientific exhibition model on a plinth, never real mountains growing. Texture remains pinned to terrain coordinates while elevation rises. No exact spacecraft, resolution claims, laser scanning or documentary footage.
+This is an animated exhibition model, never mountains growing in nature. Image2 controls the flat start and Image1 the relief finish. Plinth dimensions, river route and town positions stay fixed; city blocks do not stretch. Texture follows the same terrain patch.
 
 START STATE:
-Camera looks down at the near-left flat portion of the table; the navy plinth clearly identifies it as an exhibit.
+Image2 supplies the flat printed terrain on the navy plinth. A low three-quarter camera sees the thin surface and plinth edge; no mountain is raised yet.
 
 TIMELINE:
-[0:00–0:05] Glide over the flat left-hand aerial texture. Grazing light reveals the table edge and gallery setting.
+[0:00–0:03] Skim the flat printed surface with the plinth edge in view; the almost absent height is immediately clear.
 
-[0:05–0:10] A controlled transition front moves across the tile: texture stays pinned while hills rise, never individual buildings jumping.
+[0:03–0:08] A broad ridge begins rising slowly from the print as an intentional exhibit animation. River and town remain anchored.
 
-[0:10–0:15] Continue the gentle terrain lift; settle above the central river bend for the handoff. Water stays within the valley.
+[0:08–0:15] Complete the rise by 12s, leaving the valley lower than surrounding hills. Ease the camera upward just enough to show the river threading through the relief; retain tiny lateral motion.
 
 END STATE:
-The central river valley has risen into shallow coherent relief. Camera settles above the central bend; cyan perimeter stays fixed.
+The exhibit relief has reached its final height from Image1; camera remains above the near-left edge, river valley unobstructed. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-50 mm product lens, short table-level dolly and at most 25-degree arc. Straight plinth edges and stable perspective; no disorienting full orbit. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm tabletop photography: start low to prove flatness, rise modestly during the designed elevation, then cut lower to reveal real parallax. No orbit exceeding 25 degrees. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Smooth purposeful model transformation. No rubber mountains, floating city blocks or decorative spinning.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Navy gallery, thin cyan perimeter, neutral top light, warm grazing highlights and accurate contact shadows.
@@ -385,7 +393,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 2 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять. @Image2 — `projects/raznoe/references/scenes/scene-2/s02-flat.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. @Image2 — `projects/raznoe/references/scenes/scene-2/s02-flat.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -394,33 +402,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/scenes/scene-2/02-stereo-relief.png.
 @Image2 — Flat printed-terrain starting state on the same navy plinth. Image2 controls the opening flat surface; Image1 controls the final raised relief. Keep shared river and city anchors registered. File: projects/raznoe/references/scenes/scene-2/s02-flat.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; then each @Image controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No humans or animals. The terrain exhibit is the hero object; keep building scale, river width and mountain silhouette coherent.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-This is a scientific exhibition model on a plinth, never real mountains growing. Texture remains pinned to terrain coordinates while elevation rises. No exact spacecraft, resolution claims, laser scanning or documentary footage.
+This is an animated exhibition model, never mountains growing in nature. Image2 controls the flat start and Image1 the relief finish. Plinth dimensions, river route and town positions stay fixed; city blocks do not stretch. Texture follows the same terrain patch.
 
 START STATE:
-Match the final frame and motion of @Video1. The central river valley has risen into shallow coherent relief. Camera settles above the central bend; cyan perimeter stays fixed.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): The exhibit relief has reached its final height from Image1; camera remains above the near-left edge, river valley unobstructed.
 
 TIMELINE:
-[0:00–0:05] Resume the same movement direction, arc around the raised valley by a small angle so parallax explains elevation.
+[0:00–0:05] Continue the same composition for a second, then cut to a lower side angle; parallax now makes the height difference unmistakable.
 
-[0:05–0:10] A raking light change reveals slope and shadows, without lasers or earthquakes. Keep model dimensions and the table edge stable.
+[0:05–0:11] Track across the valley mouth toward the town. Side light describes slopes without an artificial scanning beam.
 
-[0:10–0:15] Widen to the full rectangular exhibit; retain subtle movement and end with a clear view of the finished relief.
+[0:11–0:15] Widen to include the entire navy plinth and completed relief. End with stable geometry and a slow camera ease, not another transformation.
 
 END STATE:
-Three-quarter view of the full completed relief tile, its town and river in their original places, flat-to-volume relationship legible.
+Complete raised relief on the same navy plinth, river valley and town readable together; no further elevation change.
 
 CAMERA / SPACE:
-50 mm product lens, short table-level dolly and at most 25-degree arc. Straight plinth edges and stable perspective; no disorienting full orbit. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm tabletop photography: start low to prove flatness, rise modestly during the designed elevation, then cut lower to reveal real parallax. No orbit exceeding 25 degrees. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Smooth purposeful model transformation. No rubber mountains, floating city blocks or decorative spinning.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Navy gallery, thin cyan perimeter, neutral top light, warm grazing highlights and accurate contact shadows.
@@ -441,11 +449,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-3"></a>
 ## Сцена 3 — Главкосмос: Большой путь малого спутника
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Для университетов, команд малых спутников и технологических заказчиков; заставка к разделу пусковых услуг. **Постоянная тема · B2B-объяснение.**
 
-**Что происходит:** Компактный аппарат аккуратно проверяют в лаборатории. После крупного плана материалов и рук монтаж переносит тот же обобщённый аппарат в иллюстративный орбитальный кадр. Герой — проект заказчика.
+**Что происходит:** Руки снимают опору с аккуратно подготовленного демонстратора. Камера показывает корпус и солнечную панель. Явная монтажная склейка переносит тот же аппарат в условный орбитальный кадр; финал открывает масштаб Земли.
 
 **Факт и художественное решение:** Главкосмос предлагает услуги запуска попутных полезных нагрузок. Референс показывает обобщённый демонстратор, не точное лётное изделие. Сроки, цена и свободные места на запуск не обещаются.
 
@@ -454,22 +462,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. @Image2 — `projects/raznoe/references/scenes/scene-3/s03-orbit.png`. Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-3/03-small-satellite.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/03-small-satellite.png" alt="Главкосмос — Большой путь малого спутника: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Большой путь малого спутника. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-3/s03-orbit.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/s03-orbit.png" alt="@Image2 — Тот же демонстратор на орбите" loading="lazy"></a><figcaption>@Image2 — Тот же демонстратор на орбите · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-3/03-small-satellite.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/03-small-satellite.png" alt="Сцена 3, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-3/s03-orbit.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/s03-orbit.png" alt="Сцена 3, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «У небольшой команды может быть большая космическая задача. Подготовить аппарат, согласовать миссию, пройти путь к запуску. Малый спутник — серьёзный проект.»
 
 **Финальный титр для монтажа:** «Главкосмос. Путь вашей миссии.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Wan 3.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Один и тот же аппарат до/после склейки; нет опоры в космосе, внезапного раскрытия панелей и имитации запуска. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="3">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 3 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе. @Image2 — `projects/raznoe/references/scenes/scene-3/s03-orbit.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. @Image2 — `projects/raznoe/references/scenes/scene-3/s03-orbit.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -478,38 +488,38 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/scenes/scene-3/03-small-satellite.png.
 @Image2 — Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space. File: projects/raznoe/references/scenes/scene-3/s03-orbit.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only two gloved hands of one technician with white cleanroom sleeves. No face or extra person. Keep finger anatomy and the compact rectangular demonstrator proportions consistent.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Hands touch structural edges only. The demonstrator keeps the same design. The orbital image is a declared cinematic concept cut, not footage of a named mission. Do not depict a real deployment mechanism or launch.
+Image1 controls hardware in every shot; Image2 supplies only the orbital environment and light. The cinematic cut implies an idea, not a filmed launch or actual mission. Hands use outer structural rails. In space all supports and lab objects disappear at the cut, not by morphing.
 
 START STATE:
-Three-quarter laboratory close-up, device resting securely on its white fixture, hands lightly stabilizing opposite edges.
+Laboratory three-quarter view from Image1; the satellite rests on its white fixture and two gloved hands steady structural edges.
 
 TIMELINE:
-[0:00–0:05] Slide along aluminium rails and solar cells. Hands keep the device stable on its fixture.
+[0:00–0:03] A gloved fingertip releases the near rail, revealing its fine metal texture; the craft stays supported.
 
-[0:05–0:10] A practical inspection light sweeps once over the gold-foil end; no components are removed.
+[0:03–0:08] The second hand releases and retreats fully. Slide a few centimetres to reveal the rigid blue panel and gold surface.
 
-[0:10–0:15] Hands withdraw. A short dolly reveals the intact device alone; settle on the gold-foil end for the handoff.
+[0:08–0:15] Widen enough to read the whole prepared demonstrator. Keep a controlled highlight across the rail; settle into a clean silhouette for the transition.
 
-[0:15–0:20] Continue from the same laboratory view. Background illumination dims slightly while the camera moves closer.
+[0:15–0:20] Continue the lab shot for one second, then make one unmistakable hard cut to the orbital concept of Image2. Preserve the same body, panel count and orientation family.
 
-[0:20–0:25] One deliberate match cut reveals the same generic device above Earth. This is a montage transition between stages, not teleportation in one physical take.
+[0:20–0:26] Track with the coasting craft as Earth moves slowly behind it. The spacecraft neither spins rapidly nor grows new appendages.
 
-[0:25–0:30] Track alongside the coasting apparatus. Earth drifts gently below; the object remains readable and does not tumble.
+[0:26–0:30] Pull back modestly to reveal more of the curved Earth. Keep the craft readable in the foreground and preserve gentle relative motion.
 
 END STATE:
-The same generic device coasts above a blue curved Earth in an illustrative shot; frame rigid and panels stable.
+The same intact demonstrator coasts against a broad Earth limb; its silhouette remains legible and no laboratory fixture is present.
 
 CAMERA / SPACE:
-85 mm macro then 50 mm three-quarter product view, one declared lab-to-orbit match cut. Restrained relative orbital motion. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+70 mm restrained lab slider; a visible hard montage cut to a distant space camera, followed by a gentle backward drift. Never fly continuously through the ceiling. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Efficient skilled hand movements, no waving. Inertia in the orbital concept is controlled; rigid metal does not flutter.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft cleanroom white with warm rim; orbital sunlight and blue Earth bounce, crinkled metallic foil rather than liquid gold.
@@ -538,32 +548,32 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/scenes/scene-3/03-small-satellite.png.
 @Image2 — Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space. File: projects/raznoe/references/scenes/scene-3/s03-orbit.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only two gloved hands of one technician with white cleanroom sleeves. No face or extra person. Keep finger anatomy and the compact rectangular demonstrator proportions consistent.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Hands touch structural edges only. The demonstrator keeps the same design. The orbital image is a declared cinematic concept cut, not footage of a named mission. Do not depict a real deployment mechanism or launch.
+Image1 controls hardware in every shot; Image2 supplies only the orbital environment and light. The cinematic cut implies an idea, not a filmed launch or actual mission. Hands use outer structural rails. In space all supports and lab objects disappear at the cut, not by morphing.
 
 START STATE:
-Three-quarter laboratory close-up, device resting securely on its white fixture, hands lightly stabilizing opposite edges.
+Laboratory three-quarter view from Image1; the satellite rests on its white fixture and two gloved hands steady structural edges.
 
 TIMELINE:
-[0:00–0:05] Slide along aluminium rails and solar cells. Hands keep the device stable on its fixture.
+[0:00–0:03] A gloved fingertip releases the near rail, revealing its fine metal texture; the craft stays supported.
 
-[0:05–0:10] A practical inspection light sweeps once over the gold-foil end; no components are removed.
+[0:03–0:08] The second hand releases and retreats fully. Slide a few centimetres to reveal the rigid blue panel and gold surface.
 
-[0:10–0:15] Hands withdraw. A short dolly reveals the intact device alone; settle on the gold-foil end for the handoff.
+[0:08–0:15] Widen enough to read the whole prepared demonstrator. Keep a controlled highlight across the rail; settle into a clean silhouette for the transition.
 
 END STATE:
-Both hands have withdrawn; the intact demonstrator remains on its fixture, camera at a clean three-quarter angle toward the gold-foil end.
+Both hands have cleared the demonstrator. Its complete silhouette is readable on the fixture, with the blue panel facing the camera. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-85 mm macro then 50 mm three-quarter product view, one declared lab-to-orbit match cut. Restrained relative orbital motion. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+70 mm restrained lab slider; a visible hard montage cut to a distant space camera, followed by a gentle backward drift. Never fly continuously through the ceiling. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Efficient skilled hand movements, no waving. Inertia in the orbital concept is controlled; rigid metal does not flutter.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft cleanroom white with warm rim; orbital sunlight and blue Earth bounce, crinkled metallic foil rather than liquid gold.
@@ -580,7 +590,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 3 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять. @Image2 — `projects/raznoe/references/scenes/scene-3/s03-orbit.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. @Image2 — `projects/raznoe/references/scenes/scene-3/s03-orbit.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -589,33 +599,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/scenes/scene-3/03-small-satellite.png.
 @Image2 — Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space. File: projects/raznoe/references/scenes/scene-3/s03-orbit.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; then each @Image controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only two gloved hands of one technician with white cleanroom sleeves. No face or extra person. Keep finger anatomy and the compact rectangular demonstrator proportions consistent.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Hands touch structural edges only. The demonstrator keeps the same design. The orbital image is a declared cinematic concept cut, not footage of a named mission. Do not depict a real deployment mechanism or launch.
+Image1 controls hardware in every shot; Image2 supplies only the orbital environment and light. The cinematic cut implies an idea, not a filmed launch or actual mission. Hands use outer structural rails. In space all supports and lab objects disappear at the cut, not by morphing.
 
 START STATE:
-Match the final frame and motion of @Video1. Both hands have withdrawn; the intact demonstrator remains on its fixture, camera at a clean three-quarter angle toward the gold-foil end.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Both hands have cleared the demonstrator. Its complete silhouette is readable on the fixture, with the blue panel facing the camera.
 
 TIMELINE:
-[0:00–0:05] Continue from the same laboratory view. Background illumination dims slightly while the camera moves closer.
+[0:00–0:05] Continue the lab shot for one second, then make one unmistakable hard cut to the orbital concept of Image2. Preserve the same body, panel count and orientation family.
 
-[0:05–0:10] One deliberate match cut reveals the same generic device above Earth. This is a montage transition between stages, not teleportation in one physical take.
+[0:05–0:11] Track with the coasting craft as Earth moves slowly behind it. The spacecraft neither spins rapidly nor grows new appendages.
 
-[0:10–0:15] Track alongside the coasting apparatus. Earth drifts gently below; the object remains readable and does not tumble.
+[0:11–0:15] Pull back modestly to reveal more of the curved Earth. Keep the craft readable in the foreground and preserve gentle relative motion.
 
 END STATE:
-The same generic device coasts above a blue curved Earth in an illustrative shot; frame rigid and panels stable.
+The same intact demonstrator coasts against a broad Earth limb; its silhouette remains legible and no laboratory fixture is present.
 
 CAMERA / SPACE:
-85 mm macro then 50 mm three-quarter product view, one declared lab-to-orbit match cut. Restrained relative orbital motion. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+70 mm restrained lab slider; a visible hard montage cut to a distant space camera, followed by a gentle backward drift. Never fly continuously through the ceiling. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Efficient skilled hand movements, no waving. Inertia in the orbital concept is controlled; rigid metal does not flutter.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft cleanroom white with warm rim; orbital sunlight and blue Earth bounce, crinkled metallic foil rather than liquid gold.
@@ -636,11 +646,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-4"></a>
 ## Сцена 4 — Главкосмос: Прикоснуться к своей миссии
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Для выставочного экрана и соцсетей; история понятна без звука и приглашает к предметному обсуждению космического проекта. **Новостной повод · выставка 08–10.09.2026.**
 
-**Что происходит:** Посетительница выбирает элемент на сенсорном экране, рассматривает обновлённую модель аппарата и поворачивается к консультанту за кадром. Первый интерес становится конкретным вопросом.
+**Что происходит:** Посетительница выбирает один элемент на экране и поворачивает модель коротким движением. Она останавливается на понятном ракурсе, затем отступает к разговору с консультантом. Результат — выбранный предмет обсуждения, а не фиктивно заказанная миссия.
 
 **Факт и художественное решение:** В новости Главкосмоса об Эль-Аламейне описаны сенсорная панель, виртуальный конструктор CubeSat и AR-приложения. Сцена — новый постановочный ролик по этому подходу, не репортаж с выставки и не свидетельство подписания контракта.
 
@@ -649,22 +659,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. @Image2 — `projects/raznoe/references/scenes/scene-4/s04-touch.png`. Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png" alt="Главкосмос — Прикоснуться к своей миссии: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Прикоснуться к своей миссии. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-4/s04-touch.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/s04-touch.png" alt="@Image2 — Касание физического экрана крупным планом" loading="lazy"></a><figcaption>@Image2 — Касание физического экрана крупным планом · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png" alt="Сцена 4, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-4/s04-touch.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/s04-touch.png" alt="Сцена 4, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Понять космический проект проще, когда его можно увидеть. Выбрать конфигурацию, рассмотреть аппарат, задать вопросы. От первого интереса — к обсуждению своей миссии.»
 
 **Финальный титр для монтажа:** «Главкосмос. Начните с вашей задачи.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Seedance 2.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="4">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 4 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе. @Image2 — `projects/raznoe/references/scenes/scene-4/s04-touch.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. @Image2 — `projects/raznoe/references/scenes/scene-4/s04-touch.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -673,38 +685,38 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png.
 @Image2 — Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity. File: projects/raznoe/references/scenes/scene-4/s04-touch.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One featured adult woman with short dark-brown bob, navy jacket and dark trousers, always seen from behind. Face stays hidden. Background adults remain defocused.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One central satellite preview on the same display. Touch remains on physical glass; graphics never leave the screen. No contract signing, real attendee likenesses or invented brand marks.
+Image1 fixes person, room and display; Image2 fixes one credible finger-glass contact. Only one satellite preview changes orientation inside the physical screen. No floating UI, text, purchase, contract or launch confirmation.
 
 START STATE:
-Over-the-shoulder view; visitor at frame left, right hand near the lower edge of the display, satellite preview clearly visible.
+Image1 booth; navy-jacket woman with dark bob seen from behind, central satellite preview on the angled physical screen, right index finger approaching glass.
 
 TIMELINE:
-[0:00–0:05] Dolly toward the visitor and screen. She studies the preview while soft background pedestrian motion continues.
+[0:00–0:03] The fingertip approaches a clear existing on-screen tile; the physical reflection makes the glass immediately readable.
 
-[0:05–0:10] Right index finger taps one component tile once; the preview updates only that element.
+[0:03–0:08] Cut to the touch insert. The finger taps once, releases, and one subtle selection border appears inside the screen.
 
-[0:10–0:15] The preview rotates slightly and settles at three-quarter view. Her hand returns to the glass edge for the handoff.
+[0:08–0:15] Return over the shoulder. One short controlled drag rotates the preview no more than 20 degrees; finger lifts and the model settles at a three-quarter angle.
 
-[0:15–0:20] Continue from the same angle. Within the screen, the preview appears beside a simple text-free Earth-observation image.
+[0:15–0:20] Continue from the actual lifted-finger pose. Her hand lowers to the screen edge without another tap or automatic spin.
 
-[0:20–0:25] She gestures once toward the concept as if asking a question of an adviser outside frame. Reveal no new face.
+[0:20–0:26] She steps half a pace back and turns shoulders toward the off-screen adviser, keeping her face out of view.
 
-[0:25–0:30] Pull back as she steps half a pace away and turns her shoulders slightly. Keep the screen legible without letters and the exhibition alive.
+[0:26–0:30] Frame visitor and selected preview together. A small open-hand invitation toward the display completes the question; the model stays stable.
 
 END STATE:
-Visitor steps half a pace back and angles her shoulders toward an off-screen adviser. The completed concept remains within the display.
+Visitor half a pace back, shoulders turned toward an adviser outside frame; the selected satellite preview remains unchanged on screen.
 
 CAMERA / SPACE:
-35 mm over-the-shoulder dolly, close view of finger-glass contact, return to the same side. No handedness reversal or axis jump. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm over-shoulder establishing shot, one 85 mm touch insert from Image2, then return to the established shoulder angle. Keep visitor left of screen. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Focused curiosity, natural posture and efficient gestures; no exaggerated influencer reaction or theatrical joy.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Blue-white exhibit lights, realistic dark glass reflections and navy fabric; reflections never hide the interaction.
@@ -733,32 +745,32 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png.
 @Image2 — Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity. File: projects/raznoe/references/scenes/scene-4/s04-touch.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One featured adult woman with short dark-brown bob, navy jacket and dark trousers, always seen from behind. Face stays hidden. Background adults remain defocused.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One central satellite preview on the same display. Touch remains on physical glass; graphics never leave the screen. No contract signing, real attendee likenesses or invented brand marks.
+Image1 fixes person, room and display; Image2 fixes one credible finger-glass contact. Only one satellite preview changes orientation inside the physical screen. No floating UI, text, purchase, contract or launch confirmation.
 
 START STATE:
-Over-the-shoulder view; visitor at frame left, right hand near the lower edge of the display, satellite preview clearly visible.
+Image1 booth; navy-jacket woman with dark bob seen from behind, central satellite preview on the angled physical screen, right index finger approaching glass.
 
 TIMELINE:
-[0:00–0:05] Dolly toward the visitor and screen. She studies the preview while soft background pedestrian motion continues.
+[0:00–0:03] The fingertip approaches a clear existing on-screen tile; the physical reflection makes the glass immediately readable.
 
-[0:05–0:10] Right index finger taps one component tile once; the preview updates only that element.
+[0:03–0:08] Cut to the touch insert. The finger taps once, releases, and one subtle selection border appears inside the screen.
 
-[0:10–0:15] The preview rotates slightly and settles at three-quarter view. Her hand returns to the glass edge for the handoff.
+[0:08–0:15] Return over the shoulder. One short controlled drag rotates the preview no more than 20 degrees; finger lifts and the model settles at a three-quarter angle.
 
 END STATE:
-Right index finger released one component tile; preview settled at three-quarter view, visitor still left of frame.
+The preview is stopped at a clear three-quarter orientation; the visitor has lifted the finger just above the glass. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-35 mm over-the-shoulder dolly, close view of finger-glass contact, return to the same side. No handedness reversal or axis jump. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm over-shoulder establishing shot, one 85 mm touch insert from Image2, then return to the established shoulder angle. Keep visitor left of screen. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Focused curiosity, natural posture and efficient gestures; no exaggerated influencer reaction or theatrical joy.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Blue-white exhibit lights, realistic dark glass reflections and navy fabric; reflections never hide the interaction.
@@ -775,7 +787,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 4 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять. @Image2 — `projects/raznoe/references/scenes/scene-4/s04-touch.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. @Image2 — `projects/raznoe/references/scenes/scene-4/s04-touch.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -784,33 +796,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png.
 @Image2 — Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity. File: projects/raznoe/references/scenes/scene-4/s04-touch.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; then each @Image controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One featured adult woman with short dark-brown bob, navy jacket and dark trousers, always seen from behind. Face stays hidden. Background adults remain defocused.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One central satellite preview on the same display. Touch remains on physical glass; graphics never leave the screen. No contract signing, real attendee likenesses or invented brand marks.
+Image1 fixes person, room and display; Image2 fixes one credible finger-glass contact. Only one satellite preview changes orientation inside the physical screen. No floating UI, text, purchase, contract or launch confirmation.
 
 START STATE:
-Match the final frame and motion of @Video1. Right index finger released one component tile; preview settled at three-quarter view, visitor still left of frame.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): The preview is stopped at a clear three-quarter orientation; the visitor has lifted the finger just above the glass.
 
 TIMELINE:
-[0:00–0:05] Continue from the same angle. Within the screen, the preview appears beside a simple text-free Earth-observation image.
+[0:00–0:05] Continue from the actual lifted-finger pose. Her hand lowers to the screen edge without another tap or automatic spin.
 
-[0:05–0:10] She gestures once toward the concept as if asking a question of an adviser outside frame. Reveal no new face.
+[0:05–0:11] She steps half a pace back and turns shoulders toward the off-screen adviser, keeping her face out of view.
 
-[0:10–0:15] Pull back as she steps half a pace away and turns her shoulders slightly. Keep the screen legible without letters and the exhibition alive.
+[0:11–0:15] Frame visitor and selected preview together. A small open-hand invitation toward the display completes the question; the model stays stable.
 
 END STATE:
-Visitor steps half a pace back and angles her shoulders toward an off-screen adviser. The completed concept remains within the display.
+Visitor half a pace back, shoulders turned toward an adviser outside frame; the selected satellite preview remains unchanged on screen.
 
 CAMERA / SPACE:
-35 mm over-the-shoulder dolly, close view of finger-glass contact, return to the same side. No handedness reversal or axis jump. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm over-shoulder establishing shot, one 85 mm touch insert from Image2, then return to the established shoulder angle. Keep visitor left of screen. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Focused curiosity, natural posture and efficient gestures; no exaggerated influencer reaction or theatrical joy.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Blue-white exhibit lights, realistic dark glass reflections and navy fabric; reflections never hide the interaction.
@@ -831,11 +843,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-5"></a>
 ## Сцена 5 — РКС: Всё начинается с точности
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Для молодых инженеров, партнёров и корпоративного сайта; показать материальную работу, которая стоит за космическими данными. **Постоянная тема · инженерный и кадровый ролик.**
 
-**Что происходит:** Оптическое покрытие, обработанный металл, осторожные руки. Оправу устанавливают в прибор, проверяют светом и убирают руки. Финальный макрокадр подчёркивает точность человеческой работы.
+**Что происходит:** Оптическое кольцо опускается в подготовленное посадочное место. Пальцы проверяют внешний край и уходят. Световой блик позволяет рассмотреть собранный узел; итог — физически убедительная посадка детали.
 
 **Факт и художественное решение:** РКС разрабатывает бортовую и наземную аппаратуру. Материал НЦ ОМЗ об «Электро-Л» №5 иллюстрирует роль приборов. Изображение сцены — художественное обобщение, не МСУ-ГС и не техническая документация.
 
@@ -844,22 +856,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. @Image2 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-5/05-space-instrument.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/05-space-instrument.png" alt="РКС — Всё начинается с точности: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Всё начинается с точности. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-5/s05-assembled.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/s05-assembled.png" alt="@Image2 — Собранный прибор, руки убраны" loading="lazy"></a><figcaption>@Image2 — Собранный прибор, руки убраны · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-5/05-space-instrument.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/05-space-instrument.png" alt="Сцена 5, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-5/s05-assembled.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/s05-assembled.png" alt="Сцена 5, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Большие космические задачи начинаются с точной работы. Материалы, оптика, электроника, внимание инженера. За каждым полезным измерением — люди, которые создают приборы.»
 
 **Финальный титр для монтажа:** «РКС. Точность, которая становится знанием.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Wan 3.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Посадка без проникновения твёрдых тел; количество пальцев постоянно; стекло не превращается в жидкость. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="5">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 5 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе. @Image2 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. @Image2 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -868,38 +882,38 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/scenes/scene-5/05-space-instrument.png.
 @Image2 — Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state. File: projects/raznoe/references/scenes/scene-5/s05-assembled.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two gloved hands of one adult technician, white sleeves, face outside frame. Stable finger count and circular optical housing.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One solid lens element in one metal housing. Fingers touch the outer rim only. The ring fits its mount without deforming; circuits do not reconfigure or glow magically.
+One lens disc, one ring and one matching mount. Seating is a single vertical action, no twisting through solid material or changing diameter. Image2 is the final supported state, never the opening. No technical validation is claimed by the assembly gesture.
 
 START STATE:
-Gloved hands hold the black optical ring just above the generic instrument mount; cool reflection in the coated glass.
+Image1 macro: one rigid black ring held just above the receiving mount, two white-gloved hands touching only the outer rim.
 
 TIMELINE:
-[0:00–0:05] Slide focus from machined metal to coated glass. Hands hold the ring steadily above its mount without touching the optical surface.
+[0:00–0:03] A narrow gap between ring and mount is sharply visible; the gloved fingers hold the outer edges steadily.
 
-[0:05–0:10] Lower the ring straight into the mount with one precise motion. Alignment stays coherent and metal does not melt or flex.
+[0:03–0:08] Lower the ring slowly and vertically until it makes gentle contact with the mount. Preserve circular geometry and visible support.
 
-[0:10–0:15] Ring seats cleanly; fingertips pause on the outer housing. Resolve the contact point for the handoff.
+[0:08–0:15] The fingers make one tiny seating check at opposite outer edges, release together, and retreat without passing through glass. By 13s the assembled unit is unobstructed.
 
-[0:15–0:20] Continue from the seated state. Release one side then the other and withdraw both hands from the optical path.
+[0:15–0:20] Continue the retreat if still visible, otherwise retain the actual hand-free state. Move the camera slightly sideways to reveal the seated contact edge.
 
-[0:20–0:25] Rack focus from the near rim to the glass reflection. A controlled light change suggests visual inspection, not a measurement readout.
+[0:20–0:26] Transfer focus once from the contact edge to the coated glass. A practical reflection crosses its surface without emitted light.
 
-[0:25–0:30] Move laterally a few centimetres to reveal the compact assembly. End with living light and a clear craft-focused composition.
+[0:26–0:30] Ease wider to show housing and support as one assembled object. Keep a small reflection drift until the end.
 
 END STATE:
-Hands withdrawn; assembled illustrative instrument in stable macro view, restrained light reflection crossing the glass.
+Completed assembly from Image2 with hands absent; glass, circular housing and underlying support all remain coherent.
 
 CAMERA / SPACE:
-100 mm macro, short slider and controlled rack focus. Optical axis and circular geometry remain stable; no full disassembly or rapid spin. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+100 mm macro. One slow approach, a tiny lateral move to see seating contact, then a restrained wider detail. Keep the optical axis consistent. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Confident careful craft, short decisive actions and a natural verification pause. Device remains physically supported.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool soft cleanroom light, warm narrow edge, believable optical coating colours and black anodized metal.
@@ -928,32 +942,32 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/scenes/scene-5/05-space-instrument.png.
 @Image2 — Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state. File: projects/raznoe/references/scenes/scene-5/s05-assembled.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two gloved hands of one adult technician, white sleeves, face outside frame. Stable finger count and circular optical housing.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One solid lens element in one metal housing. Fingers touch the outer rim only. The ring fits its mount without deforming; circuits do not reconfigure or glow magically.
+One lens disc, one ring and one matching mount. Seating is a single vertical action, no twisting through solid material or changing diameter. Image2 is the final supported state, never the opening. No technical validation is claimed by the assembly gesture.
 
 START STATE:
-Gloved hands hold the black optical ring just above the generic instrument mount; cool reflection in the coated glass.
+Image1 macro: one rigid black ring held just above the receiving mount, two white-gloved hands touching only the outer rim.
 
 TIMELINE:
-[0:00–0:05] Slide focus from machined metal to coated glass. Hands hold the ring steadily above its mount without touching the optical surface.
+[0:00–0:03] A narrow gap between ring and mount is sharply visible; the gloved fingers hold the outer edges steadily.
 
-[0:05–0:10] Lower the ring straight into the mount with one precise motion. Alignment stays coherent and metal does not melt or flex.
+[0:03–0:08] Lower the ring slowly and vertically until it makes gentle contact with the mount. Preserve circular geometry and visible support.
 
-[0:10–0:15] Ring seats cleanly; fingertips pause on the outer housing. Resolve the contact point for the handoff.
+[0:08–0:15] The fingers make one tiny seating check at opposite outer edges, release together, and retreat without passing through glass. By 13s the assembled unit is unobstructed.
 
 END STATE:
-Ring fully seated in its matching mount, both hands lightly bracing the outside rim; no floating gap.
+Ring fully seated as in Image2, fingertips just clear of the rim, supported instrument motionless. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-100 mm macro, short slider and controlled rack focus. Optical axis and circular geometry remain stable; no full disassembly or rapid spin. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+100 mm macro. One slow approach, a tiny lateral move to see seating contact, then a restrained wider detail. Keep the optical axis consistent. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Confident careful craft, short decisive actions and a natural verification pause. Device remains physically supported.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool soft cleanroom light, warm narrow edge, believable optical coating colours and black anodized metal.
@@ -970,7 +984,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 5 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять. @Image2 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. @Image2 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -979,33 +993,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/scenes/scene-5/05-space-instrument.png.
 @Image2 — Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state. File: projects/raznoe/references/scenes/scene-5/s05-assembled.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; then each @Image controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two gloved hands of one adult technician, white sleeves, face outside frame. Stable finger count and circular optical housing.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One solid lens element in one metal housing. Fingers touch the outer rim only. The ring fits its mount without deforming; circuits do not reconfigure or glow magically.
+One lens disc, one ring and one matching mount. Seating is a single vertical action, no twisting through solid material or changing diameter. Image2 is the final supported state, never the opening. No technical validation is claimed by the assembly gesture.
 
 START STATE:
-Match the final frame and motion of @Video1. Ring fully seated in its matching mount, both hands lightly bracing the outside rim; no floating gap.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Ring fully seated as in Image2, fingertips just clear of the rim, supported instrument motionless.
 
 TIMELINE:
-[0:00–0:05] Continue from the seated state. Release one side then the other and withdraw both hands from the optical path.
+[0:00–0:05] Continue the retreat if still visible, otherwise retain the actual hand-free state. Move the camera slightly sideways to reveal the seated contact edge.
 
-[0:05–0:10] Rack focus from the near rim to the glass reflection. A controlled light change suggests visual inspection, not a measurement readout.
+[0:05–0:11] Transfer focus once from the contact edge to the coated glass. A practical reflection crosses its surface without emitted light.
 
-[0:10–0:15] Move laterally a few centimetres to reveal the compact assembly. End with living light and a clear craft-focused composition.
+[0:11–0:15] Ease wider to show housing and support as one assembled object. Keep a small reflection drift until the end.
 
 END STATE:
-Hands withdrawn; assembled illustrative instrument in stable macro view, restrained light reflection crossing the glass.
+Completed assembly from Image2 with hands absent; glass, circular housing and underlying support all remain coherent.
 
 CAMERA / SPACE:
-100 mm macro, short slider and controlled rack focus. Optical axis and circular geometry remain stable; no full disassembly or rapid spin. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+100 mm macro. One slow approach, a tiny lateral move to see seating contact, then a restrained wider detail. Keep the optical axis consistent. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Confident careful craft, short decisive actions and a natural verification pause. Device remains physically supported.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool soft cleanroom light, warm narrow edge, believable optical coating colours and black anodized metal.
@@ -1026,34 +1040,37 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-6"></a>
 ## Сцена 6 — РКС: Увидеть изменения вдоль линии
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Для энергетических компаний и отраслевых событий; за 30 секунд объяснить практический смысл наблюдения за охранными зонами. **Новостной повод · пилот РКС / «Россети Сибирь», сентябрь 2026.**
 
-**Что происходит:** Пролёт вдоль ЛЭП раскрывает масштаб лесной просеки. Высокий ракурс позволяет выделить небольшой участок растительности у её края. Это понятная задача для последующей проверки специалистом.
+**Что происходит:** Просека направляет взгляд вдоль линии. Близкий воздушный план открывает участок лесной кромки, который стоит проверить. После короткого графического выделения камера возвращает его в контекст всей линии.
 
 **Факт и художественное решение:** На ВЭФ-2026 РКС и «Россети Сибирь» договорились о сотрудничестве по ДЗЗ для мониторинга ЛЭП. Описан пилот анализа охранных зон, включая растительность, строения и складирование древесины. Повсеместное внедрение не заявляется.
 
 **Источники (проверка 22.10.2026):** [НЦ ОМЗ — РКС и «Россети Сибирь», ВЭФ-2026](https://ntsomz.ru/rks-i-rosseti-sibir-na-vef-2026/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. @Image2 — `projects/raznoe/references/scenes/scene-6/q06-overhead.png`. Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-6/06-power-corridor.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/06-power-corridor.png" alt="РКС — Увидеть изменения вдоль линии: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Увидеть изменения вдоль линии. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-6/06-power-corridor.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/06-power-corridor.png" alt="Сцена 6, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-6/q06-overhead.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/q06-overhead.png" alt="Сцена 6, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Лесная кромка вдоль просеки. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Длинную линию трудно осмотреть одним взглядом. Космические снимки помогают замечать изменения вокруг неё. Выделить участок, проверить на месте, точнее спланировать работу.»
 
 **Финальный титр для монтажа:** «РКС и «Россети Сибирь». Космические данные для мониторинга ЛЭП. Пилотный проект.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Seedance 2.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="6">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 6 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. @Image2 — `projects/raznoe/references/scenes/scene-6/q06-overhead.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1061,38 +1078,39 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/scenes/scene-6/06-power-corridor.png.
-Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Image2 — Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect. File: projects/raznoe/references/scenes/scene-6/q06-overhead.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people. Preserve the same steel pylon type and continuous suspended conductors. Ordinary civilian power infrastructure.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Camera stays above and beside conductors. Vegetation never grows instantly. Amber outline means an area for human review, not a proven defect, real-time automated alarm or avoided outage.
+Image1 establishes corridor atmosphere; Image2 is an illustrative closer inspection angle, not registered survey data. Keep each shot internally rigid. Amber emphasis means a candidate for human review; no instant tree growth, proven hazard, outage prevention or numerical clearance claim.
 
 START STATE:
-Oblique aerial along the clearing, nearest pylon at left, forest edges extending toward distant hills.
+Image1 oblique aerial outside the conductor corridor, nearest tower left and continuous clearing toward the hills.
 
 TIMELINE:
-[0:00–0:05] Travel along the line from a safe lateral aerial position. Establish tower repetition and the scale of the forest corridor.
+[0:00–0:03] A tower and its continuous conductors enter the foreground as the clearing leads the eye into depth.
 
-[0:05–0:10] Climb gradually to reveal the clearing edges. Wire attachments and tower spacing stay fixed.
+[0:03–0:08] Glide parallel to the corridor from a safe outside offset. Reveal the alternating straight cleared edge and uneven forest canopy.
 
-[0:10–0:15] Match cut to a higher geographic view isolating one section and its right-hand forest edge. Settle smoothly for the handoff.
+[0:08–0:15] Cut to Image2 high-oblique detail at 8s. Ease toward the existing protruding right forest edge; settle on a readable clearing/trees boundary.
 
-[0:15–0:20] Continue at that angle. One thin amber outline traces a small area near the vegetation edge; no risk numbers or hazard symbols.
+[0:15–0:20] Continue motion from the incoming shot. Draw one thin amber bracket around that existing edge section, keeping towers and wires unobscured.
 
-[0:20–0:25] Ease toward the area so its relationship to the corridor becomes clear. The outline stays registered to terrain, not camera.
+[0:20–0:26] Pause the camera drift enough to read the candidate area, then fade the bracket. Make no visual claim that a defect has been confirmed.
 
-[0:25–0:30] Pull back slightly to show adjacent towers. End on a useful question for inspection, without staging a disaster or claiming an accident was prevented.
+[0:26–0:30] Cut to the wider corridor and continue forward gently. The payoff connects the small review area with the route as a whole.
 
 END STATE:
-Same section clearly framed with one subtle review-zone outline near the forest edge; towers and wires remain intact.
+Wide context of the intact corridor, reviewed forest-edge section still locatable; no fault or emergency is depicted.
 
 CAMERA / SPACE:
-Controlled aerial tracking and one geographic match cut. Brisk readable motion, no racing between wires or diving through pylons. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+35 mm aerial, lateral offset outside conductors at all times. Use an explicit cut between the wide and closer illustration; no vertical survey claim. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Light wind and slow cloud movement; no staged worker danger, falling trees or infrastructure failure.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Autumn gold, dark conifers, soft late sun, credible steel and cable sag. No warning-red colour wash.
@@ -1112,7 +1130,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 6 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. @Image2 — `projects/raznoe/references/scenes/scene-6/q06-overhead.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1120,32 +1138,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/scenes/scene-6/06-power-corridor.png.
-Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Image2 — Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect. File: projects/raznoe/references/scenes/scene-6/q06-overhead.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people. Preserve the same steel pylon type and continuous suspended conductors. Ordinary civilian power infrastructure.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Camera stays above and beside conductors. Vegetation never grows instantly. Amber outline means an area for human review, not a proven defect, real-time automated alarm or avoided outage.
+Image1 establishes corridor atmosphere; Image2 is an illustrative closer inspection angle, not registered survey data. Keep each shot internally rigid. Amber emphasis means a candidate for human review; no instant tree growth, proven hazard, outage prevention or numerical clearance claim.
 
 START STATE:
-Oblique aerial along the clearing, nearest pylon at left, forest edges extending toward distant hills.
+Image1 oblique aerial outside the conductor corridor, nearest tower left and continuous clearing toward the hills.
 
 TIMELINE:
-[0:00–0:05] Travel along the line from a safe lateral aerial position. Establish tower repetition and the scale of the forest corridor.
+[0:00–0:03] A tower and its continuous conductors enter the foreground as the clearing leads the eye into depth.
 
-[0:05–0:10] Climb gradually to reveal the clearing edges. Wire attachments and tower spacing stay fixed.
+[0:03–0:08] Glide parallel to the corridor from a safe outside offset. Reveal the alternating straight cleared edge and uneven forest canopy.
 
-[0:10–0:15] Match cut to a higher geographic view isolating one section and its right-hand forest edge. Settle smoothly for the handoff.
+[0:08–0:15] Cut to Image2 high-oblique detail at 8s. Ease toward the existing protruding right forest edge; settle on a readable clearing/trees boundary.
 
 END STATE:
-Higher oblique view centred on one corridor section, with an irregular forest edge near the right side of the clearing.
+Image2 closer high-oblique corridor view; the protruding right forest edge is readable beside the clearing, without an annotation. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-Controlled aerial tracking and one geographic match cut. Brisk readable motion, no racing between wires or diving through pylons. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+35 mm aerial, lateral offset outside conductors at all times. Use an explicit cut between the wide and closer illustration; no vertical survey claim. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Light wind and slow cloud movement; no staged worker danger, falling trees or infrastructure failure.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Autumn gold, dark conifers, soft late sun, credible steel and cable sag. No warning-red colour wash.
@@ -1162,7 +1181,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 6 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. @Image2 — `projects/raznoe/references/scenes/scene-6/q06-overhead.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1170,33 +1189,34 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/scenes/scene-6/06-power-corridor.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Image2 — Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect. File: projects/raznoe/references/scenes/scene-6/q06-overhead.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people. Preserve the same steel pylon type and continuous suspended conductors. Ordinary civilian power infrastructure.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Camera stays above and beside conductors. Vegetation never grows instantly. Amber outline means an area for human review, not a proven defect, real-time automated alarm or avoided outage.
+Image1 establishes corridor atmosphere; Image2 is an illustrative closer inspection angle, not registered survey data. Keep each shot internally rigid. Amber emphasis means a candidate for human review; no instant tree growth, proven hazard, outage prevention or numerical clearance claim.
 
 START STATE:
-Match the final frame and motion of @Video1. Higher oblique view centred on one corridor section, with an irregular forest edge near the right side of the clearing.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Image2 closer high-oblique corridor view; the protruding right forest edge is readable beside the clearing, without an annotation.
 
 TIMELINE:
-[0:00–0:05] Continue at that angle. One thin amber outline traces a small area near the vegetation edge; no risk numbers or hazard symbols.
+[0:00–0:05] Continue motion from the incoming shot. Draw one thin amber bracket around that existing edge section, keeping towers and wires unobscured.
 
-[0:05–0:10] Ease toward the area so its relationship to the corridor becomes clear. The outline stays registered to terrain, not camera.
+[0:05–0:11] Pause the camera drift enough to read the candidate area, then fade the bracket. Make no visual claim that a defect has been confirmed.
 
-[0:10–0:15] Pull back slightly to show adjacent towers. End on a useful question for inspection, without staging a disaster or claiming an accident was prevented.
+[0:11–0:15] Cut to the wider corridor and continue forward gently. The payoff connects the small review area with the route as a whole.
 
 END STATE:
-Same section clearly framed with one subtle review-zone outline near the forest edge; towers and wires remain intact.
+Wide context of the intact corridor, reviewed forest-edge section still locatable; no fault or emergency is depicted.
 
 CAMERA / SPACE:
-Controlled aerial tracking and one geographic match cut. Brisk readable motion, no racing between wires or diving through pylons. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+35 mm aerial, lateral offset outside conductors at all times. Use an explicit cut between the wide and closer illustration; no vertical survey claim. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Light wind and slow cloud movement; no staged worker danger, falling trees or infrastructure failure.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Autumn gold, dark conifers, soft late sun, credible steel and cable sag. No warning-red colour wash.
@@ -1217,11 +1237,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-7"></a>
 ## Сцена 7 — НЦ ОМЗ: Из снимка — в понятное решение
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Для заказчиков данных, региональных специалистов и студентов; объяснить человеческим языком этап работы после космической съёмки. **Постоянная тема · объяснение работы центра.**
 
-**Что происходит:** Изображение реки занимает экран. Камера отъезжает и раскрывает двух аналитиков: они выделяют область, обсуждают её и возвращают внимание к понятной карте.
+**Что происходит:** Сначала виден снимок реки. Отъезд раскрывает аналитиков: один выделяет небольшую зону, другой сверяет её на своём мониторе. Финал оставляет общий предмет анализа, без ложного обещания автоматического решения.
 
 **Факт и художественное решение:** НЦ ОМЗ планирует съёмку, принимает, обрабатывает и предоставляет данные ДЗЗ. Геопортал Федерального фонда поддерживает поиск и заказ материалов. В сцене — условный этап анализа, без обещаний мгновенного результата.
 
@@ -1230,22 +1250,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-7/07-earth-operations.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/07-earth-operations.png" alt="НЦ ОМЗ — Из снимка — в понятное решение: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Из снимка — в понятное решение. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-7/s07-map.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/s07-map.png" alt="@Image2 — Чистая карта для крупных планов" loading="lazy"></a><figcaption>@Image2 — Чистая карта для крупных планов · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-7/07-earth-operations.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/07-earth-operations.png" alt="Сцена 7, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-7/s07-map.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/s07-map.png" alt="Сцена 7, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Космический снимок — начало работы. Данные нужно принять, обработать и представить так, чтобы человек мог разобраться. НЦ ОМЗ помогает превратить наблюдение в полезную информацию.»
 
 **Финальный титр для монтажа:** «НЦ ОМЗ. Данные, с которыми можно работать.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Wan 3.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Одинаковая река на всех экранах; указание соответствует зоне; жест не превращается в готовый научный вывод. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="7">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 7 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1254,38 +1276,38 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/scenes/scene-7/07-earth-operations.png.
 @Image2 — Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two seated adult analysts seen from behind: left, short brown hair and navy shirt; right, dark hair in a low bun and pale-blue shirt. No face reveal, swap or added foreground person.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Large and desktop screens show matching river geography. Map lines stay on screens and remain attached to terrain. No real disaster, measured flood boundary or instant rescue is claimed.
+Image2 is the only terrain plate on every screen. Image1 governs room and analyst silhouettes. A broad editorial selection stays inside the screens and is not a flood measurement, emergency response or automated decision.
 
 START STATE:
-Close on the river image at its central bend, with the physical display frame just visible.
+Close on the central river bend from Image2 within the wall display; a sliver of physical bezel remains visible.
 
 TIMELINE:
-[0:00–0:05] Pull back from the river image to reveal its display frame, connecting the map to a real working environment.
+[0:00–0:03] Begin with the distinctive river bend and a small visible bezel: this is an image being studied.
 
-[0:05–0:10] Continue the dolly to reveal both analysts from behind; they study the same bend on matching screens.
+[0:03–0:08] Pull back to reveal two seated analysts and the desk screens; all displays carry the same terrain orientation.
 
-[0:10–0:15] The right analyst makes one small mouse action. A thin cyan boundary highlights an existing floodplain area; settle into the two-person composition.
+[0:08–0:15] Right analyst raises one hand and indicates a broad bank-side area. A restrained cyan selection appears there, while the left analyst turns slightly toward the corresponding desk region.
 
-[0:15–0:20] Start from the matched room state. The right analyst briefly points toward the boundary without covering the key terrain.
+[0:15–0:20] Continue the actual gesture and lower the right hand. The left analyst makes one mouse movement to centre the same region on the desk screen.
 
-[0:20–0:25] The left analyst leans slightly forward and angles toward the colleague. Keep faces hidden and reactions calm.
+[0:20–0:26] Cut briefly closer to the desk view, retaining its physical frame. Show the selected region clearly without numbers, warnings or a fabricated dashboard.
 
-[0:25–0:30] The pointing hand lowers; gently push toward the map, keeping both shoulder silhouettes at the bottom edge. End on the intelligible result.
+[0:26–0:30] Return to the rear two-person view. Their attention stays on the shared area, completing the transition from image to a focused question.
 
 END STATE:
-Analysts remain seated, the right analyst’s pointing hand lowered, the selected-area map is the visual focus.
+Both analysts seated, pointing hand down, the same selected area visible on both displays; ongoing attentive work.
 
 CAMERA / SPACE:
-28–35 mm dolly from display to room and restrained return push. Rectangular screens, stable river, no invented control wall. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm slider pulling back from a physical screen to the rear-view room; one desk-screen insert then return to the same axis. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Concentrated work, natural breathing and small useful gestures, no panic or cheering.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft daylight from left, gentle blue screen bounce, realistic cloth and matte desks, readable text-free map.
@@ -1314,32 +1336,32 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/scenes/scene-7/07-earth-operations.png.
 @Image2 — Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two seated adult analysts seen from behind: left, short brown hair and navy shirt; right, dark hair in a low bun and pale-blue shirt. No face reveal, swap or added foreground person.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Large and desktop screens show matching river geography. Map lines stay on screens and remain attached to terrain. No real disaster, measured flood boundary or instant rescue is claimed.
+Image2 is the only terrain plate on every screen. Image1 governs room and analyst silhouettes. A broad editorial selection stays inside the screens and is not a flood measurement, emergency response or automated decision.
 
 START STATE:
-Close on the river image at its central bend, with the physical display frame just visible.
+Close on the central river bend from Image2 within the wall display; a sliver of physical bezel remains visible.
 
 TIMELINE:
-[0:00–0:05] Pull back from the river image to reveal its display frame, connecting the map to a real working environment.
+[0:00–0:03] Begin with the distinctive river bend and a small visible bezel: this is an image being studied.
 
-[0:05–0:10] Continue the dolly to reveal both analysts from behind; they study the same bend on matching screens.
+[0:03–0:08] Pull back to reveal two seated analysts and the desk screens; all displays carry the same terrain orientation.
 
-[0:10–0:15] The right analyst makes one small mouse action. A thin cyan boundary highlights an existing floodplain area; settle into the two-person composition.
+[0:08–0:15] Right analyst raises one hand and indicates a broad bank-side area. A restrained cyan selection appears there, while the left analyst turns slightly toward the corresponding desk region.
 
 END STATE:
-Both seated analysts and the large screen are visible; a cyan boundary surrounds one selected floodplain area.
+Room from Image1 revealed; right analyst has indicated one broad river-side area, left analyst follows it on the desk display. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-28–35 mm dolly from display to room and restrained return push. Rectangular screens, stable river, no invented control wall. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm slider pulling back from a physical screen to the rear-view room; one desk-screen insert then return to the same axis. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Concentrated work, natural breathing and small useful gestures, no panic or cheering.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft daylight from left, gentle blue screen bounce, realistic cloth and matte desks, readable text-free map.
@@ -1356,7 +1378,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 7 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1365,33 +1387,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/scenes/scene-7/07-earth-operations.png.
 @Image2 — Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; then each @Image controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two seated adult analysts seen from behind: left, short brown hair and navy shirt; right, dark hair in a low bun and pale-blue shirt. No face reveal, swap or added foreground person.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Large and desktop screens show matching river geography. Map lines stay on screens and remain attached to terrain. No real disaster, measured flood boundary or instant rescue is claimed.
+Image2 is the only terrain plate on every screen. Image1 governs room and analyst silhouettes. A broad editorial selection stays inside the screens and is not a flood measurement, emergency response or automated decision.
 
 START STATE:
-Match the final frame and motion of @Video1. Both seated analysts and the large screen are visible; a cyan boundary surrounds one selected floodplain area.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Room from Image1 revealed; right analyst has indicated one broad river-side area, left analyst follows it on the desk display.
 
 TIMELINE:
-[0:00–0:05] Start from the matched room state. The right analyst briefly points toward the boundary without covering the key terrain.
+[0:00–0:05] Continue the actual gesture and lower the right hand. The left analyst makes one mouse movement to centre the same region on the desk screen.
 
-[0:05–0:10] The left analyst leans slightly forward and angles toward the colleague. Keep faces hidden and reactions calm.
+[0:05–0:11] Cut briefly closer to the desk view, retaining its physical frame. Show the selected region clearly without numbers, warnings or a fabricated dashboard.
 
-[0:10–0:15] The pointing hand lowers; gently push toward the map, keeping both shoulder silhouettes at the bottom edge. End on the intelligible result.
+[0:11–0:15] Return to the rear two-person view. Their attention stays on the shared area, completing the transition from image to a focused question.
 
 END STATE:
-Analysts remain seated, the right analyst’s pointing hand lowered, the selected-area map is the visual focus.
+Both analysts seated, pointing hand down, the same selected area visible on both displays; ongoing attentive work.
 
 CAMERA / SPACE:
-28–35 mm dolly from display to room and restrained return push. Rectangular screens, stable river, no invented control wall. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm slider pulling back from a physical screen to the rear-view room; one desk-screen insert then return to the same axis. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Concentrated work, natural breathing and small useful gestures, no panic or cheering.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft daylight from left, gentle blue screen bounce, realistic cloth and matte desks, readable text-free map.
@@ -1412,11 +1434,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-8"></a>
 ## Сцена 8 — НЦ ОМЗ: У территории есть память
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Для экологической, геоаналитической и образовательной аудитории; маленький визуальный детектив о том, как архив раскрывает изменение. **Свежий инфоповод · пресс-релиз РКС 19.10.2026.**
 
-**Что происходит:** На мониторе два вида условной территории — раньше и позже. Камера приближается, выделение помогает заметить расширившийся участок открытого грунта. Зритель сам видит разницу.
+**Что происходит:** В двух отдельных окнах заметны похожие лес и дорога. Внимание сужается до расширившегося пятна открытого грунта. Контур помогает сравнить состояния, а финал оставляет оба изображения для проверки человеком.
 
 **Факт и художественное решение:** Материал НЦ ОМЗ и пресс-релиз РКС от 19.10.2026 описывают применение архивных снимков для восстановления изменений прошлых лет. Это учебный экологический пример, без реального объекта, обвинения или юридического вывода.
 
@@ -1425,22 +1447,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. @Image2 — `projects/raznoe/references/scenes/scene-8/s08-pair.png`. Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-8/08-land-memory.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-8/08-land-memory.png" alt="НЦ ОМЗ — У территории есть память: постановочный референс" loading="lazy"></a><figcaption>@Image1 — У территории есть память. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-8/s08-pair.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-8/s08-pair.png" alt="@Image2 — Два состояния территории без рамки монитора" loading="lazy"></a><figcaption>@Image2 — Два состояния территории без рамки монитора · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-8/08-land-memory.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-8/08-land-memory.png" alt="Сцена 8, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-8/s08-pair.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-8/s08-pair.png" alt="Сцена 8, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Что изменилось здесь за прошедшее время? Один снимок показывает момент. Архив позволяет сравнить. И увидеть историю территории, которую трудно заметить с земли.»
 
 **Финальный титр для монтажа:** «НЦ ОМЗ. Увидеть изменения во времени.»
 
-**Готовность:** статичный вход существует и просмотрен. Часть 2 Seedance ждёт фактический конец части 1 — до этого она не готова к запуску. Предложенный основной движок: Wan 3.0; окончательный выбор владельца. Очередь не менялась.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Два независимых окна; река не пересекает разделитель; разница читается без выдуманных дат и обвинений. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="8">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 8 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе. @Image2 — `projects/raznoe/references/scenes/scene-8/s08-pair.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. @Image2 — `projects/raznoe/references/scenes/scene-8/s08-pair.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1449,38 +1473,38 @@ Optimized for Wan 3.0 | Civil space science concept film; purposeful storytellin
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/scenes/scene-8/08-land-memory.png.
 @Image2 — Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider. File: projects/raznoe/references/scenes/scene-8/s08-pair.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only one adult analyst’s right hand on the mouse is visible at lower right. No face, suspect, identifiable person or surveillance target.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Two separate before/after views of a fictional place. Preserve river and road shapes within each pane. Emphasize only the land-use difference; do not present the illustration as legal evidence, exact orthophotography or a real archive record.
+The pair is an authored comparison, not registered legal evidence. Preserve each pane as a separate image; river does not join across the divider. Only the bare-soil difference is relevant. No actor, cause, date, ownership or illegality is inferred.
 
 START STATE:
-Wide desk view, paired landscape panes on monitor, warm lamp left, right hand on mouse at lower right.
+Image1 desk; two separate comparison panes from Image2 visible on the monitor, warm lamp left, right mouse hand lower right.
 
 TIMELINE:
-[0:00–0:05] Push from the warm desk toward the monitor. Viewers discover a pair of landscape images, not a live surveillance feed.
+[0:00–0:03] Show both panes immediately; the central divider and similar river/road anchors establish a comparison.
 
-[0:05–0:10] One small mouse movement brings a discreet cursor near the bare-soil patch in the later view.
+[0:03–0:08] Push closer until the small bare-soil patch in the left pane is readable. Mouse cursor pauses beside it, never covering it.
 
-[0:10–0:15] Dolly closer while keeping both panes. River bend and road become clear comparison anchors; settle for the handoff.
+[0:08–0:15] Move attention to the larger corresponding patch in the right pane while keeping both panes visible. Use one short cursor move and no growing-land animation.
 
-[0:15–0:20] Continue from the paired view. A thin amber contour marks only the changed patch in the later image, without calling it illegal or dangerous.
+[0:15–0:20] Continue from the paired view. A thin amber contour appears around the larger right-hand patch, within that pane only.
 
-[0:20–0:25] Reframe gently toward the greener earlier pane, then back toward the later exposed ground. The underlying map pixels do not morph.
+[0:20–0:26] Briefly remove the contour to let the viewer compare raw imagery, then restore it once at low opacity. No flashing alerts.
 
-[0:25–0:30] Pull back enough to reconnect the comparison to the analyst’s desk. End on the visible difference, clarifying a question without making an accusation.
+[0:26–0:30] Ease back enough to include the resting mouse hand and the full screen. Hold the two states together as an open analytical comparison.
 
 END STATE:
-Both panes clearly visible with one restrained outline around the changed patch in the later view. Calm desk and resting mouse hand.
+Paired views clearly framed on the physical monitor; a thin outline marks only the larger patch in the later illustration, hand resting.
 
 CAMERA / SPACE:
-50 mm desk-level dolly and restrained reframing. Never merge the panes into a continuous landscape or zoom into private people or homes. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm desk-to-screen push, then a short lateral reframing and return. Never cross the central divider as though it were one landscape. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-One useful mouse action, relaxed hand. Suspense comes from recognition, not frightened acting.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Warm desk lamp against cool monitor, subtle glass reflections and crisp forest/soil shapes.
@@ -1509,32 +1533,32 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/scenes/scene-8/08-land-memory.png.
 @Image2 — Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider. File: projects/raznoe/references/scenes/scene-8/s08-pair.png.
-Priority: each @Image controls only its named design and staging roles; use the state-specific authority described above. This is a concept image, never documentary evidence or a technical specification.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only one adult analyst’s right hand on the mouse is visible at lower right. No face, suspect, identifiable person or surveillance target.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Two separate before/after views of a fictional place. Preserve river and road shapes within each pane. Emphasize only the land-use difference; do not present the illustration as legal evidence, exact orthophotography or a real archive record.
+The pair is an authored comparison, not registered legal evidence. Preserve each pane as a separate image; river does not join across the divider. Only the bare-soil difference is relevant. No actor, cause, date, ownership or illegality is inferred.
 
 START STATE:
-Wide desk view, paired landscape panes on monitor, warm lamp left, right hand on mouse at lower right.
+Image1 desk; two separate comparison panes from Image2 visible on the monitor, warm lamp left, right mouse hand lower right.
 
 TIMELINE:
-[0:00–0:05] Push from the warm desk toward the monitor. Viewers discover a pair of landscape images, not a live surveillance feed.
+[0:00–0:03] Show both panes immediately; the central divider and similar river/road anchors establish a comparison.
 
-[0:05–0:10] One small mouse movement brings a discreet cursor near the bare-soil patch in the later view.
+[0:03–0:08] Push closer until the small bare-soil patch in the left pane is readable. Mouse cursor pauses beside it, never covering it.
 
-[0:10–0:15] Dolly closer while keeping both panes. River bend and road become clear comparison anchors; settle for the handoff.
+[0:08–0:15] Move attention to the larger corresponding patch in the right pane while keeping both panes visible. Use one short cursor move and no growing-land animation.
 
 END STATE:
-Closer view keeps both panes visible; river and access road are comparison landmarks, bare-soil change easy to locate.
+Both panes remain separate and visible; camera has moved closer so the smaller versus larger bare-soil patch can be compared. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-50 mm desk-level dolly and restrained reframing. Never merge the panes into a continuous landscape or zoom into private people or homes. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm desk-to-screen push, then a short lateral reframing and return. Never cross the central divider as though it were one landscape. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-One useful mouse action, relaxed hand. Suspense comes from recognition, not frightened acting.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Warm desk lamp against cool monitor, subtle glass reflections and crisp forest/soil shapes.
@@ -1551,7 +1575,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 8 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять. @Image2 — `projects/raznoe/references/scenes/scene-8/s08-pair.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. @Image2 — `projects/raznoe/references/scenes/scene-8/s08-pair.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1560,33 +1584,33 @@ Optimized for Seedance 2.0 | Civil space science concept film; purposeful storyt
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/scenes/scene-8/08-land-memory.png.
 @Image2 — Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider. File: projects/raznoe/references/scenes/scene-8/s08-pair.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
-Priority: actual @Video1 continuity first; then each @Image controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only one adult analyst’s right hand on the mouse is visible at lower right. No face, suspect, identifiable person or surveillance target.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Two separate before/after views of a fictional place. Preserve river and road shapes within each pane. Emphasize only the land-use difference; do not present the illustration as legal evidence, exact orthophotography or a real archive record.
+The pair is an authored comparison, not registered legal evidence. Preserve each pane as a separate image; river does not join across the divider. Only the bare-soil difference is relevant. No actor, cause, date, ownership or illegality is inferred.
 
 START STATE:
-Match the final frame and motion of @Video1. Closer view keeps both panes visible; river and access road are comparison landmarks, bare-soil change easy to locate.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Both panes remain separate and visible; camera has moved closer so the smaller versus larger bare-soil patch can be compared.
 
 TIMELINE:
-[0:00–0:05] Continue from the paired view. A thin amber contour marks only the changed patch in the later image, without calling it illegal or dangerous.
+[0:00–0:05] Continue from the paired view. A thin amber contour appears around the larger right-hand patch, within that pane only.
 
-[0:05–0:10] Reframe gently toward the greener earlier pane, then back toward the later exposed ground. The underlying map pixels do not morph.
+[0:05–0:11] Briefly remove the contour to let the viewer compare raw imagery, then restore it once at low opacity. No flashing alerts.
 
-[0:10–0:15] Pull back enough to reconnect the comparison to the analyst’s desk. End on the visible difference, clarifying a question without making an accusation.
+[0:11–0:15] Ease back enough to include the resting mouse hand and the full screen. Hold the two states together as an open analytical comparison.
 
 END STATE:
-Both panes clearly visible with one restrained outline around the changed patch in the later view. Calm desk and resting mouse hand.
+Paired views clearly framed on the physical monitor; a thin outline marks only the larger patch in the later illustration, hand resting.
 
 CAMERA / SPACE:
-50 mm desk-level dolly and restrained reframing. Never merge the panes into a continuous landscape or zoom into private people or homes. Stable spatial relationships and controlled inertia; no random jitter, impossible camera teleport or unmotivated axis crossing.
+50 mm desk-to-screen push, then a short lateral reframing and return. Never cross the central divider as though it were one landscape. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-One useful mouse action, relaxed hand. Suspense comes from recognition, not frightened acting.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Warm desk lamp against cool monitor, subtle glass reflections and crisp forest/soil shapes.
@@ -1607,36 +1631,39 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-9"></a>
 ## Сцена 9 — Роскосмос: Один день Земли с орбиты
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Научпоп и заставка выставки. Завершённая 30-секундная версия идеи 30–60 с; масштаб времени условный.
 
-**Что происходит:** Из тёмной кромки возникает освещённая Земля. Облака медленно меняются, свет проходит по океану, наступает вечер. Камера возвращается к общему виду: один день показан как жизнь единой планеты.
+**Что происходит:** Одна и та же Земля проходит от дневного освещения к вечеру. Контур материков не вращается: меняются только свет и облака. Финал сохраняет полный диск и тонкую атмосферу, показывая наблюдение за изменением во времени.
 
 **Факт и художественное решение:** Метеорологические аппараты наблюдают Землю в разных диапазонах. Здесь день сжат художественно; это не реальная последовательность снимков за конкретную дату.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/apparatura-rks-na-sputnike-elektro-l-5/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`. Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image. @Image2 — `projects/raznoe/references/scenes/scene-9/q09-evening.png`. Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.
 
 **Роли входов:** @Image1: Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-9/s09-earth.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-9/s09-earth.png" alt="@Image1 — Один день Земли с орбиты · опорный вид" loading="lazy"></a><figcaption>@Image1 — Один день Земли с орбиты · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-9/s09-earth.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-9/s09-earth.png" alt="Сцена 9, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-9/q09-evening.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-9/q09-evening.png" alt="Сцена 9, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Земля: вечернее освещение. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Один день. Миллионы перемен. Свет проходит над океанами, облака собираются и расходятся. Взгляд с орбиты помогает увидеть Землю целиком — и заметить, как она меняется.»
 
 **Финальный титр для монтажа:** «Одна планета. Непрерывное наблюдение.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Seedance 2.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Один контур материков и размер Земли; ночь идёт в одном направлении; нет вращения шара как игрушки. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="9">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 9 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`. @Image2 — `projects/raznoe/references/scenes/scene-9/q09-evening.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1644,38 +1671,39 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image. File: projects/raznoe/references/scenes/scene-9/s09-earth.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still. File: projects/raznoe/references/scenes/scene-9/q09-evening.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people, animals or spacecraft. Earth is the only hero object; continent outlines remain attached to the same sphere.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Use a fixed distant viewpoint: do not spin the planet like a toy. Moving sunlight and evolving clouds indicate compressed time; coastlines never morph. This is a designed time study, not a measurement of one real day.
+Image1 is the immutable geographical base. Image2 supplies evening illumination only, never replacement coastlines or a new viewpoint. Time is artistically compressed; this is not a literal measured 24-hour sequence. Clouds evolve gently, day/night boundary advances monotonically from right, no sudden lighting reversal.
 
 START STATE:
-Full Earth disc, Indian Ocean central, Africa left, Asia above, night edge at right; no titles.
+Full Earth disc from Image1, Indian Ocean central, Africa left, Asia above; fixed orientation against subdued black space.
 
 TIMELINE:
-[0:00–0:05] Establish the entire planet with a gentle five-percent camera push. Reveal the thin atmosphere; keep the continental layout fixed.
+[0:00–0:03] Show the whole blue sphere and delicate bright atmospheric edge immediately; subtle cloud motion makes the image alive.
 
-[0:05–0:10] A gradual lighting transition advances the sunlit edge. Cloud systems evolve coherently; never dissolve into unrelated weather.
+[0:03–0:08] Begin a restrained lighting progression from right to left while holding the globe orientation fixed. No cities or spacecraft appear.
 
-[0:10–0:15] Ease toward the Indian Ocean cloud band while retaining the full disc. Settle into a stable intermediate composition.
+[0:08–0:15] Make a very small push while the right-hand night region becomes readable. Preserve the same African and Asian coastlines; end with the full disc visible.
 
-[0:15–0:20] Continue the actual cloud motion. A soft afternoon highlight crosses the ocean; land remains rigid and detailed.
+[0:15–0:20] Continue the actual light progression without resetting it. Ocean brightness decreases gradually near the advancing boundary.
 
-[0:20–0:25] Compress the approach of evening through a controlled lighting dissolve. Only illumination and clouds change, not the shape of the planet.
+[0:20–0:26] Approach the evening mood of Image2 through illumination alone. Keep cloud forms coherent rather than dissolving to a different planet image.
 
-[0:25–0:30] Ease back to the initial framing. Resolve on Earth as a single living system; preserve moving cloud detail through the final frame.
+[0:26–0:30] Ease back to the opening disc scale. End in the evening state with cloud and light movement still perceptible, no restart to daylight.
 
 END STATE:
-The full Earth disc returns to a balanced wide composition, dark space around it and a thin atmospheric rim; clouds still move subtly.
+Evening-light state guided by Image2, same disc size and continent orientation, a thin blue atmosphere and softly evolving clouds.
 
 CAMERA / SPACE:
-Distant virtual observation camera, restrained push and pull only, no rapid orbit, no impossible ground-to-space zoom. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+Fixed distant observation viewpoint with at most a 4 percent push in the first half and matching ease out at the end. No orbital flight or toy spin. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Slow coherent cloud evolution and a readable lighting cycle. Avoid a static poster or frantic time-lapse. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Natural blue ocean, pale atmospheric limb and physically coherent day/night shading; stars subdued. Keep material identity and light direction consistent within each location.
@@ -1695,7 +1723,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 9 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`. @Image2 — `projects/raznoe/references/scenes/scene-9/q09-evening.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1703,32 +1731,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image. File: projects/raznoe/references/scenes/scene-9/s09-earth.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still. File: projects/raznoe/references/scenes/scene-9/q09-evening.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people, animals or spacecraft. Earth is the only hero object; continent outlines remain attached to the same sphere.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Use a fixed distant viewpoint: do not spin the planet like a toy. Moving sunlight and evolving clouds indicate compressed time; coastlines never morph. This is a designed time study, not a measurement of one real day.
+Image1 is the immutable geographical base. Image2 supplies evening illumination only, never replacement coastlines or a new viewpoint. Time is artistically compressed; this is not a literal measured 24-hour sequence. Clouds evolve gently, day/night boundary advances monotonically from right, no sudden lighting reversal.
 
 START STATE:
-Full Earth disc, Indian Ocean central, Africa left, Asia above, night edge at right; no titles.
+Full Earth disc from Image1, Indian Ocean central, Africa left, Asia above; fixed orientation against subdued black space.
 
 TIMELINE:
-[0:00–0:05] Establish the entire planet with a gentle five-percent camera push. Reveal the thin atmosphere; keep the continental layout fixed.
+[0:00–0:03] Show the whole blue sphere and delicate bright atmospheric edge immediately; subtle cloud motion makes the image alive.
 
-[0:05–0:10] A gradual lighting transition advances the sunlit edge. Cloud systems evolve coherently; never dissolve into unrelated weather.
+[0:03–0:08] Begin a restrained lighting progression from right to left while holding the globe orientation fixed. No cities or spacecraft appear.
 
-[0:10–0:15] Ease toward the Indian Ocean cloud band while retaining the full disc. Settle into a stable intermediate composition.
+[0:08–0:15] Make a very small push while the right-hand night region becomes readable. Preserve the same African and Asian coastlines; end with the full disc visible.
 
 END STATE:
-The same full disc remains centred, light has shifted gently and the main ocean cloud band is clearly visible.
+Same centred Earth, still largely sunlit but with a readable evening edge advancing from the right; full disc remains in frame. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-Distant virtual observation camera, restrained push and pull only, no rapid orbit, no impossible ground-to-space zoom. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+Fixed distant observation viewpoint with at most a 4 percent push in the first half and matching ease out at the end. No orbital flight or toy spin. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Slow coherent cloud evolution and a readable lighting cycle. Avoid a static poster or frantic time-lapse. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Natural blue ocean, pale atmospheric limb and physically coherent day/night shading; stars subdued. Keep material identity and light direction consistent within each location.
@@ -1745,7 +1774,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 9 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-9/s09-earth.png`. @Image2 — `projects/raznoe/references/scenes/scene-9/q09-evening.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1753,33 +1782,34 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image. File: projects/raznoe/references/scenes/scene-9/s09-earth.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still. File: projects/raznoe/references/scenes/scene-9/q09-evening.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people, animals or spacecraft. Earth is the only hero object; continent outlines remain attached to the same sphere.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Use a fixed distant viewpoint: do not spin the planet like a toy. Moving sunlight and evolving clouds indicate compressed time; coastlines never morph. This is a designed time study, not a measurement of one real day.
+Image1 is the immutable geographical base. Image2 supplies evening illumination only, never replacement coastlines or a new viewpoint. Time is artistically compressed; this is not a literal measured 24-hour sequence. Clouds evolve gently, day/night boundary advances monotonically from right, no sudden lighting reversal.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: The same full disc remains centred, light has shifted gently and the main ocean cloud band is clearly visible.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Same centred Earth, still largely sunlit but with a readable evening edge advancing from the right; full disc remains in frame.
 
 TIMELINE:
-[0:00–0:05] Continue the actual cloud motion. A soft afternoon highlight crosses the ocean; land remains rigid and detailed.
+[0:00–0:05] Continue the actual light progression without resetting it. Ocean brightness decreases gradually near the advancing boundary.
 
-[0:05–0:10] Compress the approach of evening through a controlled lighting dissolve. Only illumination and clouds change, not the shape of the planet.
+[0:05–0:11] Approach the evening mood of Image2 through illumination alone. Keep cloud forms coherent rather than dissolving to a different planet image.
 
-[0:10–0:15] Ease back to the initial framing. Resolve on Earth as a single living system; preserve moving cloud detail through the final frame.
+[0:11–0:15] Ease back to the opening disc scale. End in the evening state with cloud and light movement still perceptible, no restart to daylight.
 
 END STATE:
-The full Earth disc returns to a balanced wide composition, dark space around it and a thin atmospheric rim; clouds still move subtly.
+Evening-light state guided by Image2, same disc size and continent orientation, a thin blue atmosphere and softly evolving clouds.
 
 CAMERA / SPACE:
-Distant virtual observation camera, restrained push and pull only, no rapid orbit, no impossible ground-to-space zoom. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+Fixed distant observation viewpoint with at most a 4 percent push in the first half and matching ease out at the end. No orbital flight or toy spin. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Slow coherent cloud evolution and a readable lighting cycle. Avoid a static poster or frantic time-lapse. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Natural blue ocean, pale atmospheric limb and physically coherent day/night shading; stars subdued. Keep material identity and light direction consistent within each location.
@@ -1800,37 +1830,39 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-10"></a>
 ## Сцена 10 — Роскосмос: Не видимое глазу
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Первый законченный выпуск научпоп-серии: видимый и условный спектральный вид одной территории. Остальные выпуски можно развивать отдельно.
 
-**Что происходит:** Знакомый пейзаж сверху сменяется условными цветами. Река и границы полей остаются на месте, а различия становятся заметнее. В финале оба вида возвращаются к одной территории.
+**Что происходит:** Зритель сначала узнаёт реку и поля в естественном цвете. Отдельная монтажная склейка показывает условные цвета другой иллюстрации, затем внимание возвращается к обычному виду. Это объяснение способа представления, без ложной точности совмещения.
 
 **Факт и художественное решение:** Многоспектральная съёмка использует разные диапазоны. Красный цвет на концепте — условное отображение, а не диагноз растения, температура или вычисленный индекс.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/apparatura-rks-na-sputnike-elektro-l-5/) · [Официальный источник 2](https://ntsomz.ru/o-tsentre/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-10/s10-visible.png`. @Image2 — `projects/raznoe/references/scenes/scene-10/s10-spectral.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-10/s10-visible.png`. Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village. @Image2 — `projects/raznoe/references/scenes/scene-10/s10-spectral.png`. Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map.
 
 **Роли входов:** @Image1: Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village. @Image2: False-colour palette and presentation only. Register it to the geography of Image1; not a calibrated spectral product or a diagnostic map.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-10/s10-visible.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-10/s10-visible.png" alt="@Image1 — Не видимое глазу · опорный вид" loading="lazy"></a><figcaption>@Image1 — Не видимое глазу · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-10/s10-spectral.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-10/s10-spectral.png" alt="@Image2 — Не видимое глазу · дополнительный вид" loading="lazy"></a><figcaption>@Image2 — Не видимое глазу · дополнительный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-10/s10-visible.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-10/s10-visible.png" alt="Сцена 10, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-10/s10-spectral.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-10/s10-spectral.png" alt="Сцена 10, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Обычный снимок показывает привычные цвета. Другие диапазоны помогают различать то, что глазу заметить труднее. Цвет здесь — способ представить данные. А вывод появляется после анализа.»
 
 **Финальный титр для монтажа:** «Больше диапазонов — больше возможностей для анализа.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Seedance 2.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Явные A/B-склейки; нет попиксельного wipe между несовпадающими иллюстрациями; цвет не выдаётся за диагноз. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="10">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 10 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-10/s10-visible.png`. @Image2 — `projects/raznoe/references/scenes/scene-10/s10-spectral.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-10/s10-visible.png`. @Image2 — `projects/raznoe/references/scenes/scene-10/s10-spectral.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1838,39 +1870,39 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village. File: projects/raznoe/references/scenes/scene-10/s10-visible.png.
-@Image2 — False-colour palette and presentation only. Register it to the geography of Image1; not a calibrated spectral product or a diagnostic map. File: projects/raznoe/references/scenes/scene-10/s10-spectral.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map. File: projects/raznoe/references/scenes/scene-10/s10-spectral.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people or vehicles in close-up. The river bend, rectangular reservoir and upper-right village are the three stable visual anchors.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-A colour-layer wipe is an editorial comparison, not plants changing colour physically. Image1 governs all geometry. Ignore tiny generative differences in Image2; do not infer numeric values or health from colour.
+Image1 and Image2 are separate concept images with small geometric differences. Never morph roads or claim exact registration. False colour illustrates a display convention, not plant health, temperature or a computed index. Retain each reference geometry within its own shot.
 
 START STATE:
-Full-frame near-vertical natural-colour farmland from Image1, reservoir left and village upper right.
+Full-frame natural-colour farmland from Image1; river, rectangular reservoir and village clearly visible.
 
 TIMELINE:
-[0:00–0:05] Move slowly toward the river bend in the natural-colour image. Keep the reservoir and village visible as anchors.
+[0:00–0:03] Present the natural river and green parcels clearly; start a small push toward two adjacent fields.
 
-[0:05–0:10] A clean vertical editorial wipe reveals the false-colour treatment from left to right. Keep every field boundary registered.
+[0:03–0:08] Follow the edge between those fields just enough to read their texture; keep river and reservoir as contextual anchors.
 
-[0:10–0:15] Complete the wipe and make a short restrained push toward two neighbouring parcels. Their textures remain real and coherent.
+[0:08–0:15] At 8s hard-cut to the separate false-colour illustration. Allow a short perceptual pause, then a slight push toward adjacent crimson parcels; no land changes colour physically.
 
-[0:15–0:20] Continue from the false-colour state. Reframe to the dark river and reservoir, showing a distinct material response without numbers.
+[0:15–0:20] Continue within the false-colour shot. Shift framing slightly toward the dark water so different material presentations can be compared.
 
-[0:20–0:25] Slide the comparison boundary back across the same geography. Do not crossfade to a different place or depict physical crop change.
+[0:20–0:26] At 21s hard-cut back to natural colour at the original broad scale. The edit is explicit; no sliding comparison seam or invented alignment.
 
-[0:25–0:30] Return to the broad natural-colour view and retain a small false-colour inset of the same parcel. End with a clear comparison, not a verdict.
+[0:26–0:30] Ease toward the fields once more. End with the familiar landscape and a clearer question about what additional information different bands can offer.
 
 END STATE:
-Natural-colour terrain fills the frame again, with a small restrained false-colour inset aligned to the same parcel; no labels.
+Natural-colour Image1 view restored in a clean full-frame shot, neighbouring parcels still readable; no split overlay or diagnostic verdict.
 
 CAMERA / SPACE:
-Orthographic-like terrain presentation with a small digital push. Editorial wipes stay on the image plane; no flying holographic layers. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+Near-vertical image-plane push under 8 percent. Use hard A/B editorial cuts between independent illustrations; do not wipe or pixel-register the generated pair. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-The comparison boundary supplies the action; terrain itself remains rigid. Hold each revealed state long enough to understand it. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Natural noon image versus restrained crimson/cyan false-colour palette; no neon heat-map glow. Keep material identity and light direction consistent within each location.
@@ -1898,33 +1930,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village. File: projects/raznoe/references/scenes/scene-10/s10-visible.png.
-@Image2 — False-colour palette and presentation only. Register it to the geography of Image1; not a calibrated spectral product or a diagnostic map. File: projects/raznoe/references/scenes/scene-10/s10-spectral.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map. File: projects/raznoe/references/scenes/scene-10/s10-spectral.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people or vehicles in close-up. The river bend, rectangular reservoir and upper-right village are the three stable visual anchors.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-A colour-layer wipe is an editorial comparison, not plants changing colour physically. Image1 governs all geometry. Ignore tiny generative differences in Image2; do not infer numeric values or health from colour.
+Image1 and Image2 are separate concept images with small geometric differences. Never morph roads or claim exact registration. False colour illustrates a display convention, not plant health, temperature or a computed index. Retain each reference geometry within its own shot.
 
 START STATE:
-Full-frame near-vertical natural-colour farmland from Image1, reservoir left and village upper right.
+Full-frame natural-colour farmland from Image1; river, rectangular reservoir and village clearly visible.
 
 TIMELINE:
-[0:00–0:05] Move slowly toward the river bend in the natural-colour image. Keep the reservoir and village visible as anchors.
+[0:00–0:03] Present the natural river and green parcels clearly; start a small push toward two adjacent fields.
 
-[0:05–0:10] A clean vertical editorial wipe reveals the false-colour treatment from left to right. Keep every field boundary registered.
+[0:03–0:08] Follow the edge between those fields just enough to read their texture; keep river and reservoir as contextual anchors.
 
-[0:10–0:15] Complete the wipe and make a short restrained push toward two neighbouring parcels. Their textures remain real and coherent.
+[0:08–0:15] At 8s hard-cut to the separate false-colour illustration. Allow a short perceptual pause, then a slight push toward adjacent crimson parcels; no land changes colour physically.
 
 END STATE:
-False-colour treatment covers the same terrain, with river and reservoir dark and vegetated parcels crimson.
+The false-colour illustration from Image2 fills the frame as a distinct editorial shot; reservoir and river are dark, parcels crimson. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-Orthographic-like terrain presentation with a small digital push. Editorial wipes stay on the image plane; no flying holographic layers. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+Near-vertical image-plane push under 8 percent. Use hard A/B editorial cuts between independent illustrations; do not wipe or pixel-register the generated pair. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-The comparison boundary supplies the action; terrain itself remains rigid. Hold each revealed state long enough to understand it. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Natural noon image versus restrained crimson/cyan false-colour palette; no neon heat-map glow. Keep material identity and light direction consistent within each location.
@@ -1941,7 +1973,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 10 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-10/s10-visible.png`. @Image2 — `projects/raznoe/references/scenes/scene-10/s10-spectral.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-10/s10-visible.png`. @Image2 — `projects/raznoe/references/scenes/scene-10/s10-spectral.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1949,34 +1981,34 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village. File: projects/raznoe/references/scenes/scene-10/s10-visible.png.
-@Image2 — False-colour palette and presentation only. Register it to the geography of Image1; not a calibrated spectral product or a diagnostic map. File: projects/raznoe/references/scenes/scene-10/s10-spectral.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map. File: projects/raznoe/references/scenes/scene-10/s10-spectral.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people or vehicles in close-up. The river bend, rectangular reservoir and upper-right village are the three stable visual anchors.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-A colour-layer wipe is an editorial comparison, not plants changing colour physically. Image1 governs all geometry. Ignore tiny generative differences in Image2; do not infer numeric values or health from colour.
+Image1 and Image2 are separate concept images with small geometric differences. Never morph roads or claim exact registration. False colour illustrates a display convention, not plant health, temperature or a computed index. Retain each reference geometry within its own shot.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: False-colour treatment covers the same terrain, with river and reservoir dark and vegetated parcels crimson.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): The false-colour illustration from Image2 fills the frame as a distinct editorial shot; reservoir and river are dark, parcels crimson.
 
 TIMELINE:
-[0:00–0:05] Continue from the false-colour state. Reframe to the dark river and reservoir, showing a distinct material response without numbers.
+[0:00–0:05] Continue within the false-colour shot. Shift framing slightly toward the dark water so different material presentations can be compared.
 
-[0:05–0:10] Slide the comparison boundary back across the same geography. Do not crossfade to a different place or depict physical crop change.
+[0:05–0:11] At 6s hard-cut back to natural colour at the original broad scale. The edit is explicit; no sliding comparison seam or invented alignment.
 
-[0:10–0:15] Return to the broad natural-colour view and retain a small false-colour inset of the same parcel. End with a clear comparison, not a verdict.
+[0:11–0:15] Ease toward the fields once more. End with the familiar landscape and a clearer question about what additional information different bands can offer.
 
 END STATE:
-Natural-colour terrain fills the frame again, with a small restrained false-colour inset aligned to the same parcel; no labels.
+Natural-colour Image1 view restored in a clean full-frame shot, neighbouring parcels still readable; no split overlay or diagnostic verdict.
 
 CAMERA / SPACE:
-Orthographic-like terrain presentation with a small digital push. Editorial wipes stay on the image plane; no flying holographic layers. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+Near-vertical image-plane push under 8 percent. Use hard A/B editorial cuts between independent illustrations; do not wipe or pixel-register the generated pair. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-The comparison boundary supplies the action; terrain itself remains rigid. Hold each revealed state long enough to understand it. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Natural noon image versus restrained crimson/cyan false-colour palette; no neon heat-map glow. Keep material identity and light direction consistent within each location.
@@ -1997,37 +2029,40 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-11"></a>
 ## Сцена 11 — Роскосмос: Кто делает космос
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Кадровый ролик, 30-секундное ядро будущего фильма 45–60 с. Для документальной версии — реальные сотрудники и площадка; сейчас постановочный персонаж.
 
-**Что происходит:** Инженер проверяет небольшой оптический узел. Точная работа рук сменяется её спокойной оценкой результата. Монтажный переход к земному ландшафту связывает лабораторию с полезной задачей.
+**Что происходит:** Сосредоточенная инженерная работа раскрывается через одно точное движение: внешний регулятор, отпускание рук, осмотр. После завершения действия склейка переносит нас к полям и реке — к смыслу работы, без имитации прямого изображения с этого прибора.
 
 **Факт и художественное решение:** Инженер и лаборатория вымышлены. Связь приборной работы с наблюдением Земли — общий рассказ, без заявления, что показанный демонстратор сделал конкретный снимок.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/o-tsentre/) · [Официальный источник 2](https://ntsomz.ru/apparatura-rks-na-sputnike-elektro-l-5/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. Separate illustrative landscape for the final editorial cut: fields, river and town. Not an output measured by the fictional device. @Image3 — `projects/raznoe/references/scenes/scene-11/q11-hands.png`. Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.
 
 **Роли входов:** @Image1: Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp. @Image2: Separate illustrative landscape for the final editorial cut: fields, river and town. Not an output measured by the fictional device.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-11/s11-engineer.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-11/s11-engineer.png" alt="@Image1 — Кто делает космос · опорный вид" loading="lazy"></a><figcaption>@Image1 — Кто делает космос · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-1/01-earth-work.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-1/01-earth-work.png" alt="@Image2 — Кто делает космос · дополнительный вид" loading="lazy"></a><figcaption>@Image2 — Кто делает космос · дополнительный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-11/s11-engineer.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-11/s11-engineer.png" alt="Сцена 11, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-1/01-earth-work.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-1/01-earth-work.png" alt="Сцена 11, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Separate illustrative landscape for the final editorial cut: fields, river and town. Not an output measured by the fictional device.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-11/q11-hands.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-11/q11-hands.png" alt="Сцена 11, @Image3: постановочный референс" loading="lazy"></a><figcaption>@Image3 — Инженер: руки и внешний регулятор. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Космос начинается с людей. С внимательного взгляда. С точного движения. С проверки, которую нельзя пропустить. За большим результатом — работа тех, кто умеет замечать детали.»
 
 **Финальный титр для монтажа:** «Космос делают люди.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Wan 3.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Белые перчатки и голубой халат неизменны; регулировка понятна; пейзаж показан отдельной монтажной иллюстрацией. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="11">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 11 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Image3 — `projects/raznoe/references/scenes/scene-11/q11-hands.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2036,38 +2071,39 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp. File: projects/raznoe/references/scenes/scene-11/s11-engineer.png.
 @Image2 — Separate illustrative landscape for the final editorial cut: fields, river and town. Not an output measured by the fictional device. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image3 — Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape. File: projects/raznoe/references/scenes/scene-11/q11-hands.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One adult female engineer, dark-brown hair in a low bun, pale-blue lab coat and white gloves, always rear or shoulder view. Keep face hidden and both hands anatomically correct.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One black cylindrical unit stays supported in its silver fixture. Hands touch structural rims only. The lab-to-landscape transition is an explicit montage cut between an illustrative process and its purpose, not a live device readout.
+Image1 governs engineer identity and lab. Image3 is a close view of the same white gloves, pale-blue sleeves, circular unit and silver fixture; use only its hand/prop detail. Image2 is a separate landscape illustration, not data produced by this fictional device. Hands never cross the optical glass.
 
 START STATE:
-Over the left shoulder of the seated engineer, hands steady on the fixture under a practical lamp.
+Rear shoulder view from Image1: female engineer with low dark bun, pale-blue coat and white gloves at the supported black optical unit.
 
 TIMELINE:
-[0:00–0:05] Track a few centimetres beside the shoulder to reveal the careful grip and compact assembly. Keep her face hidden.
+[0:00–0:03] An attentive shoulder lean directs the eye toward the instrument; reveal the white gloves and supported fixture immediately.
 
-[0:05–0:10] She makes one small alignment adjustment at the outer fixture, then stops. No part is removed or inserted through glass.
+[0:03–0:08] Cut to Image3 hand detail. The right glove makes one small turn of the external adjustment knob while the left steadies the fixture edge.
 
-[0:10–0:15] The practical inspection light passes over the outer housing. She releases the fixture and briefly studies the stable object.
+[0:08–0:15] The right hand stops and releases; both hands move clear. Cut back to the rear shoulder view and allow a brief visual inspection through 15s.
 
-[0:15–0:20] Continue the natural posture. A tiny nod and a relaxed hand on the desk complete the human action without celebration.
+[0:15–0:20] Continue the same posture and breathing. The engineer leans back slightly and places one hand on the desk, completing the small task without applause or a success badge.
 
-[0:20–0:25] Make one deliberate editorial cut to the sunlit farmland of Image2. Treat it as a separate illustrative application, not a technical proof.
+[0:20–0:26] At 21s make a clean editorial cut to Image2 farmland. Preserve natural sunlight; no tunnel through glass, beam, screen or live-data implication.
 
-[0:25–0:30] Glide toward the river at a readable pace. Resolve the connection from a small task at the bench to the larger Earth landscape.
+[0:26–0:30] Glide toward the river while fields remain legible. The scale change from a careful hand to a broad landscape provides the emotional resolution.
 
 END STATE:
-Broad sunlit fields and river from Image2, calm continuing wind and water movement, room for an editorial title in the sky.
+Sunrise fields and river from Image2 in a separate landscape shot, continuing subtle aerial and water movement.
 
 CAMERA / SPACE:
-50 mm shoulder-level slider, then one motivated cut to a 35 mm aerial landscape; no continuous flight through the optical device. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm rear shoulder shot, 85 mm hands insert using Image3, return to the same shoulder axis, then one explicit cut to 35 mm aerial landscape. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Precise handwork and a modest verification pause; calm competence, no exaggerated smiles or stiff posing. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft left daylight and warm inspection lamp in the lab; natural warm sunrise in the separate landscape shot. Keep material identity and light direction consistent within each location.
@@ -2087,7 +2123,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 11 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Image3 — `projects/raznoe/references/scenes/scene-11/q11-hands.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2096,32 +2132,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp. File: projects/raznoe/references/scenes/scene-11/s11-engineer.png.
 @Image2 — Separate illustrative landscape for the final editorial cut: fields, river and town. Not an output measured by the fictional device. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image3 — Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape. File: projects/raznoe/references/scenes/scene-11/q11-hands.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One adult female engineer, dark-brown hair in a low bun, pale-blue lab coat and white gloves, always rear or shoulder view. Keep face hidden and both hands anatomically correct.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One black cylindrical unit stays supported in its silver fixture. Hands touch structural rims only. The lab-to-landscape transition is an explicit montage cut between an illustrative process and its purpose, not a live device readout.
+Image1 governs engineer identity and lab. Image3 is a close view of the same white gloves, pale-blue sleeves, circular unit and silver fixture; use only its hand/prop detail. Image2 is a separate landscape illustration, not data produced by this fictional device. Hands never cross the optical glass.
 
 START STATE:
-Over the left shoulder of the seated engineer, hands steady on the fixture under a practical lamp.
+Rear shoulder view from Image1: female engineer with low dark bun, pale-blue coat and white gloves at the supported black optical unit.
 
 TIMELINE:
-[0:00–0:05] Track a few centimetres beside the shoulder to reveal the careful grip and compact assembly. Keep her face hidden.
+[0:00–0:03] An attentive shoulder lean directs the eye toward the instrument; reveal the white gloves and supported fixture immediately.
 
-[0:05–0:10] She makes one small alignment adjustment at the outer fixture, then stops. No part is removed or inserted through glass.
+[0:03–0:08] Cut to Image3 hand detail. The right glove makes one small turn of the external adjustment knob while the left steadies the fixture edge.
 
-[0:10–0:15] The practical inspection light passes over the outer housing. She releases the fixture and briefly studies the stable object.
+[0:08–0:15] The right hand stops and releases; both hands move clear. Cut back to the rear shoulder view and allow a brief visual inspection through 15s.
 
 END STATE:
-The engineer has withdrawn her hands; the checked optical assembly remains supported and centred on the bench.
+Adjustment complete, both hands clear of the glass and resting beside the silver fixture; the engineer observes the supported unit. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-50 mm shoulder-level slider, then one motivated cut to a 35 mm aerial landscape; no continuous flight through the optical device. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm rear shoulder shot, 85 mm hands insert using Image3, return to the same shoulder axis, then one explicit cut to 35 mm aerial landscape. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Precise handwork and a modest verification pause; calm competence, no exaggerated smiles or stiff posing. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft left daylight and warm inspection lamp in the lab; natural warm sunrise in the separate landscape shot. Keep material identity and light direction consistent within each location.
@@ -2138,7 +2175,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 11 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-11/s11-engineer.png`. @Image2 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Image3 — `projects/raznoe/references/scenes/scene-11/q11-hands.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2147,33 +2184,34 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp. File: projects/raznoe/references/scenes/scene-11/s11-engineer.png.
 @Image2 — Separate illustrative landscape for the final editorial cut: fields, river and town. Not an output measured by the fictional device. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image3 — Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape. File: projects/raznoe/references/scenes/scene-11/q11-hands.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One adult female engineer, dark-brown hair in a low bun, pale-blue lab coat and white gloves, always rear or shoulder view. Keep face hidden and both hands anatomically correct.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One black cylindrical unit stays supported in its silver fixture. Hands touch structural rims only. The lab-to-landscape transition is an explicit montage cut between an illustrative process and its purpose, not a live device readout.
+Image1 governs engineer identity and lab. Image3 is a close view of the same white gloves, pale-blue sleeves, circular unit and silver fixture; use only its hand/prop detail. Image2 is a separate landscape illustration, not data produced by this fictional device. Hands never cross the optical glass.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: The engineer has withdrawn her hands; the checked optical assembly remains supported and centred on the bench.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Adjustment complete, both hands clear of the glass and resting beside the silver fixture; the engineer observes the supported unit.
 
 TIMELINE:
-[0:00–0:05] Continue the natural posture. A tiny nod and a relaxed hand on the desk complete the human action without celebration.
+[0:00–0:05] Continue the same posture and breathing. The engineer leans back slightly and places one hand on the desk, completing the small task without applause or a success badge.
 
-[0:05–0:10] Make one deliberate editorial cut to the sunlit farmland of Image2. Treat it as a separate illustrative application, not a technical proof.
+[0:05–0:11] At 6s make a clean editorial cut to Image2 farmland. Preserve natural sunlight; no tunnel through glass, beam, screen or live-data implication.
 
-[0:10–0:15] Glide toward the river at a readable pace. Resolve the connection from a small task at the bench to the larger Earth landscape.
+[0:11–0:15] Glide toward the river while fields remain legible. The scale change from a careful hand to a broad landscape provides the emotional resolution.
 
 END STATE:
-Broad sunlit fields and river from Image2, calm continuing wind and water movement, room for an editorial title in the sky.
+Sunrise fields and river from Image2 in a separate landscape shot, continuing subtle aerial and water movement.
 
 CAMERA / SPACE:
-50 mm shoulder-level slider, then one motivated cut to a 35 mm aerial landscape; no continuous flight through the optical device. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm rear shoulder shot, 85 mm hands insert using Image3, return to the same shoulder axis, then one explicit cut to 35 mm aerial landscape. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Precise handwork and a modest verification pause; calm competence, no exaggerated smiles or stiff posing. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft left daylight and warm inspection lamp in the lab; natural warm sunrise in the separate landscape shot. Keep material identity and light direction consistent within each location.
@@ -2194,36 +2232,39 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-12"></a>
 ## Сцена 12 — Главкосмос: Миссия начинается с вопроса
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** B2B-ролик для первого контакта. 30-секундная самостоятельная версия; расширение до 45 с возможно за счёт интервью, без обещания услуги за фиксированный срок.
 
-**Что происходит:** Три заказчика приходят с разными задачами. На столе — поля, море и спутниковый проект. Консультант помогает собрать вопрос в понятное направление работы; финал открывает путь к обсуждению миссии.
+**Что происходит:** Встреча получает конкретный предмет: клиентка выбирает карточку полей. Консультант выдвигает её вперёд, оставляя море и аппарат как другие варианты. Все смотрят на одну задачу; только затем внимание переходит к демонстрационному макету.
 
 **Факт и художественное решение:** Главкосмос публикует сведения о пусковых и сопутствующих услугах. Эта встреча постановочная: никаких реальных клиентов, договоров, цены, срока или гарантированного запуска.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://glavkosmos.com/ru/) · [Официальный источник 2](https://glavkosmos.com/ru/rideshare-launches/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`. Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background. @Image2 — `projects/raznoe/references/scenes/scene-12/q12-cards.png`. Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.
 
 **Роли входов:** @Image1: Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-12/s12-consultation.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-12/s12-consultation.png" alt="@Image1 — Миссия начинается с вопроса · опорный вид" loading="lazy"></a><figcaption>@Image1 — Миссия начинается с вопроса · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-12/s12-consultation.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-12/s12-consultation.png" alt="Сцена 12, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-12/q12-cards.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-12/q12-cards.png" alt="Сцена 12, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Выбор карточки полей. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Наблюдать Землю? Испытать технологию? Подготовить свой аппарат? У каждой миссии свой первый вопрос. Разобраться в задаче, обсудить требования и наметить дальнейший путь — с этого начинается работа.»
 
 **Финальный титр для монтажа:** «Главкосмос. Начните с вашей задачи.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Wan 3.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Выбрана одна карточка; другие не исчезают; четыре человека сохраняют места после верхнего ракурса. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="12">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 12 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`. @Image2 — `projects/raznoe/references/scenes/scene-12/q12-cards.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2231,38 +2272,39 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background. File: projects/raznoe/references/scenes/scene-12/s12-consultation.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people. File: projects/raznoe/references/scenes/scene-12/q12-cards.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Four adults only, matching Image1: olive-cardigan woman left, grey-jacket man across table, cream-blouse woman right, navy adviser at right foreground. Preserve clothes and seating; favour backs, hands and soft profiles.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Three cards remain distinct physical objects: farmland, ocean and satellite. No documents are signed. The display model is an educational prop and stays under its cover.
+Exactly four people and three physical cards. Image1 controls seats, clothes and room. Image2 controls only the isolated table composition and navy-sleeved hand selecting farmland; its hand side does not reposition the adviser in the wide shot. One selected task, no contract or promise of launch.
 
 START STATE:
-Rear oblique view across the meeting table, three image cards spread between the four seated adults.
+Image1 meeting wide: olive-cardigan woman left, grey-jacket man across, cream-blouse woman right, navy adviser at right foreground; three cards on table.
 
 TIMELINE:
-[0:00–0:05] Dolly toward the three cards, allowing each subject to read visually. Participants keep natural small movements.
+[0:00–0:03] The olive-cardigan customer points once at the farmland card, giving the meeting a clear question immediately.
 
-[0:05–0:10] The left customer points once to the farmland card; the far customer then indicates the ocean card. Hands never overlap.
+[0:03–0:08] Adviser follows her gaze; the other two customers lean slightly toward the same card. No competing simultaneous gestures.
 
-[0:10–0:15] The adviser gently slides the satellite card into the same row and lowers the hand, forming a clear common starting point.
+[0:08–0:15] Cut to the isolated Image2 table insert. The navy-sleeved hand slides the farmland card forward a few centimetres, leaves ocean and satellite behind, and fully withdraws by 13s.
 
-[0:15–0:20] Continue from the ordered row. The adviser traces one short path beside the cards with an open hand, no invisible diagrams.
+[0:15–0:20] Continue the card composition for one second, then cut back to the established wide. Everyone looks toward the selected farmland card; seating is unchanged.
 
-[0:20–0:25] The group follows the gesture toward the covered model. Show interest through posture, not a staged handshake or contract.
+[0:20–0:26] Adviser makes one small open-hand gesture from the chosen card toward the covered demonstrator, connecting a question with a possible discussion path.
 
-[0:25–0:30] Rack focus to the model and ease back enough to keep the people in the composition. End at the beginning of a considered discussion.
+[0:26–0:30] Rack focus gently to the covered model while keeping the group and chosen card in the composition. End on a shared starting point, not a finished agreement.
 
 END STATE:
-Focus passes from the ordered cards to the covered satellite model behind the group, keeping the meeting present in the foreground.
+Re-established wide meeting view with selected farmland card foreground and covered model beyond; group remains engaged in discussion without spoken words.
 
 CAMERA / SPACE:
-50 mm restrained table-level dolly and one focus transfer, staying on the same side of the conversation. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm rear meeting wide. One isolated overhead table insert using Image2, then explicitly return to the original wide angle. The insert has its own orientation; never interpolate bodies across its reversed hand direction. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Useful small gestures, listening and deliberate pauses; no lip-sync speech or exaggerated sales enthusiasm. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Warm wood, soft window light, neutral realistic skin and cloth; restrained reflections on the display cover. Keep material identity and light direction consistent within each location.
@@ -2282,7 +2324,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 12 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`. @Image2 — `projects/raznoe/references/scenes/scene-12/q12-cards.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2290,32 +2332,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background. File: projects/raznoe/references/scenes/scene-12/s12-consultation.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people. File: projects/raznoe/references/scenes/scene-12/q12-cards.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Four adults only, matching Image1: olive-cardigan woman left, grey-jacket man across table, cream-blouse woman right, navy adviser at right foreground. Preserve clothes and seating; favour backs, hands and soft profiles.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Three cards remain distinct physical objects: farmland, ocean and satellite. No documents are signed. The display model is an educational prop and stays under its cover.
+Exactly four people and three physical cards. Image1 controls seats, clothes and room. Image2 controls only the isolated table composition and navy-sleeved hand selecting farmland; its hand side does not reposition the adviser in the wide shot. One selected task, no contract or promise of launch.
 
 START STATE:
-Rear oblique view across the meeting table, three image cards spread between the four seated adults.
+Image1 meeting wide: olive-cardigan woman left, grey-jacket man across, cream-blouse woman right, navy adviser at right foreground; three cards on table.
 
 TIMELINE:
-[0:00–0:05] Dolly toward the three cards, allowing each subject to read visually. Participants keep natural small movements.
+[0:00–0:03] The olive-cardigan customer points once at the farmland card, giving the meeting a clear question immediately.
 
-[0:05–0:10] The left customer points once to the farmland card; the far customer then indicates the ocean card. Hands never overlap.
+[0:03–0:08] Adviser follows her gaze; the other two customers lean slightly toward the same card. No competing simultaneous gestures.
 
-[0:10–0:15] The adviser gently slides the satellite card into the same row and lowers the hand, forming a clear common starting point.
+[0:08–0:15] Cut to the isolated Image2 table insert. The navy-sleeved hand slides the farmland card forward a few centimetres, leaves ocean and satellite behind, and fully withdraws by 13s.
 
 END STATE:
-The adviser has aligned the three cards into a clear row; all participants look toward the same table area.
+The farmland card now sits slightly forward, separate from ocean and satellite cards; adviser hand has withdrawn, participants look at the chosen task. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-50 mm restrained table-level dolly and one focus transfer, staying on the same side of the conversation. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm rear meeting wide. One isolated overhead table insert using Image2, then explicitly return to the original wide angle. The insert has its own orientation; never interpolate bodies across its reversed hand direction. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Useful small gestures, listening and deliberate pauses; no lip-sync speech or exaggerated sales enthusiasm. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Warm wood, soft window light, neutral realistic skin and cloth; restrained reflections on the display cover. Keep material identity and light direction consistent within each location.
@@ -2332,7 +2375,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 12 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-12/s12-consultation.png`. @Image2 — `projects/raznoe/references/scenes/scene-12/q12-cards.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2340,33 +2383,34 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background. File: projects/raznoe/references/scenes/scene-12/s12-consultation.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people. File: projects/raznoe/references/scenes/scene-12/q12-cards.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Four adults only, matching Image1: olive-cardigan woman left, grey-jacket man across table, cream-blouse woman right, navy adviser at right foreground. Preserve clothes and seating; favour backs, hands and soft profiles.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Three cards remain distinct physical objects: farmland, ocean and satellite. No documents are signed. The display model is an educational prop and stays under its cover.
+Exactly four people and three physical cards. Image1 controls seats, clothes and room. Image2 controls only the isolated table composition and navy-sleeved hand selecting farmland; its hand side does not reposition the adviser in the wide shot. One selected task, no contract or promise of launch.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: The adviser has aligned the three cards into a clear row; all participants look toward the same table area.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): The farmland card now sits slightly forward, separate from ocean and satellite cards; adviser hand has withdrawn, participants look at the chosen task.
 
 TIMELINE:
-[0:00–0:05] Continue from the ordered row. The adviser traces one short path beside the cards with an open hand, no invisible diagrams.
+[0:00–0:05] Continue the card composition for one second, then cut back to the established wide. Everyone looks toward the selected farmland card; seating is unchanged.
 
-[0:05–0:10] The group follows the gesture toward the covered model. Show interest through posture, not a staged handshake or contract.
+[0:05–0:11] Adviser makes one small open-hand gesture from the chosen card toward the covered demonstrator, connecting a question with a possible discussion path.
 
-[0:10–0:15] Rack focus to the model and ease back enough to keep the people in the composition. End at the beginning of a considered discussion.
+[0:11–0:15] Rack focus gently to the covered model while keeping the group and chosen card in the composition. End on a shared starting point, not a finished agreement.
 
 END STATE:
-Focus passes from the ordered cards to the covered satellite model behind the group, keeping the meeting present in the foreground.
+Re-established wide meeting view with selected farmland card foreground and covered model beyond; group remains engaged in discussion without spoken words.
 
 CAMERA / SPACE:
-50 mm restrained table-level dolly and one focus transfer, staying on the same side of the conversation. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm rear meeting wide. One isolated overhead table insert using Image2, then explicitly return to the original wide angle. The insert has its own orientation; never interpolate bodies across its reversed hand direction. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Useful small gestures, listening and deliberate pauses; no lip-sync speech or exaggerated sales enthusiasm. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Warm wood, soft window light, neutral realistic skin and cloth; restrained reflections on the display cover. Keep material identity and light direction consistent within each location.
@@ -2387,36 +2431,38 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-13"></a>
 ## Сцена 13 — Главкосмос: CubeSat за тридцать секунд
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Немой выставочный loop с необязательной монтажной озвучкой. Три визуальных акцента: корпус, питание, полезная нагрузка; это ознакомление, не инструкция по сборке.
 
-**Что происходит:** Камера знакомит с компактным демонстратором: сначала рама, затем солнечная панель и оптическое окно. Три детали складываются в целый аппарат. Финал возвращает исходную композицию для повтора.
+**Что происходит:** Три детали демонстратора получают разные акценты: рама держит корпус, солнечная панель отличается материалом, оптическое окно становится третьим фокусом. Финальный общий план собирает их в один аппарат и возвращает композицию к началу.
 
 **Факт и художественное решение:** В выставочной публикации Главкосмоса описан виртуальный CubeSat-конструктор. Наш демонстратор не копирует его интерфейс и не является чертежом или конкретной лётной конфигурацией.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://glavkosmos.com/ru/glavkosmos-to-participate-in-el-alamein-international-airshow-in-egypt/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-13/s13-cubesat.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-13/s13-cubesat.png`. Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background.
 
 **Роли входов:** @Image1: Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-13/s13-cubesat.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-13/s13-cubesat.png" alt="@Image1 — CubeSat за тридцать секунд · опорный вид" loading="lazy"></a><figcaption>@Image1 — CubeSat за тридцать секунд · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-13/s13-cubesat.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-13/s13-cubesat.png" alt="Сцена 13, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Небольшой корпус. Источник энергии. Полезная нагрузка. Компактный аппарат объединяет разные системы ради одной задачи. Миссия определяется не размером модели, а тем, что она должна сделать.»
 
 **Финальный титр для монтажа:** «Малый аппарат. Конкретная задача.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Seedance 2.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Три различимых акцента вместо равномерного вращения; один объектив; начальный и конечный ракурсы пригодны для петли. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="13">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 13 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-13/s13-cubesat.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-13/s13-cubesat.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2424,38 +2470,38 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background. File: projects/raznoe/references/scenes/scene-13/s13-cubesat.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No humans. One consistent small-satellite demonstrator only; do not change the number of rails, faces or optical apertures.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Keep the device fully assembled. Explain by camera and light, not by unexplained flying parts. The near-end board is illustrative, not an actual flight layout. No real 1U/2U specification or performance is claimed.
+One assembled demonstrator throughout. Image1 controls rail count, blue panel placement, gold end and single aperture. Camera and focus reveal function; nothing explodes, unfolds, transmits a beam or becomes a labelled real flight specification.
 
 START STATE:
-Three-quarter full-object studio view, gold near face and blue side panel visible, object held stable against navy background.
+Image1 full three-quarter demonstrator, silver rails, blue side panel, gold near-end board and single black aperture visible against navy.
 
 TIMELINE:
-[0:00–0:05] Make a modest quarter-scale push toward the nearest silver corner rail; preserve the complete object silhouette.
+[0:00–0:03] Open with the complete recognizable object, then bring the nearest silver rail into crisp focus.
 
-[0:05–0:10] Track along the rail to show that it supports the compact body. No component detaches or deforms.
+[0:03–0:08] Track along that rail toward its corner joint. Keep the blue panel visible behind it so the support relationship reads.
 
-[0:10–0:15] Ease across the blue solar-cell face. Grazing light reveals its texture without magical power beams.
+[0:08–0:15] Transfer focus to the blue solar-cell face and move laterally a few centimetres; grazing light reveals its repeating glass texture, with the rail still at the edge.
 
-[0:15–0:20] Continue along the same camera arc to the gold end board and black circular aperture, keeping their exact positions.
+[0:15–0:20] Continue the same camera direction toward the gold near-end board; reveal the single black aperture without rotating the object.
 
-[0:20–0:25] Rack focus from aperture edge to surrounding structure. Reveal how the visible elements belong to one intact object.
+[0:20–0:26] Focus on the aperture rim, then ease outward until rail, panel and aperture are all visible together. Preserve rigid geometry.
 
-[0:25–0:30] Move back to the opening three-quarter composition. Settle at the same scale while retaining a slight highlight drift.
+[0:26–0:30] Return to the opening angle and scale with a soft stop. Retain a tiny light drift; editor may trim the final frames for a clean loop.
 
 END STATE:
-Return to the same full-object angle and scale as the opening; subtle light motion supports an editorial loop.
+Opening full-object angle, scale and lighting restored closely enough for an editorial loop; one gentle highlight remains moving.
 
 CAMERA / SPACE:
-Product-camera slider and short arc under 25 degrees, 85 mm equivalent; no continuous spin or exploded diagram. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+85 mm product photography with three short motivated reframings: rail, panel, aperture. Total arc under 25 degrees; return along the same path for the loop. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Camera and grazing light provide purposeful motion; all solid components remain rigid. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Navy studio, soft white overhead key and narrow warm rim, believable aluminium, solar glass and coated lens. Keep material identity and light direction consistent within each location.
@@ -2483,32 +2529,32 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background. File: projects/raznoe/references/scenes/scene-13/s13-cubesat.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No humans. One consistent small-satellite demonstrator only; do not change the number of rails, faces or optical apertures.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Keep the device fully assembled. Explain by camera and light, not by unexplained flying parts. The near-end board is illustrative, not an actual flight layout. No real 1U/2U specification or performance is claimed.
+One assembled demonstrator throughout. Image1 controls rail count, blue panel placement, gold end and single aperture. Camera and focus reveal function; nothing explodes, unfolds, transmits a beam or becomes a labelled real flight specification.
 
 START STATE:
-Three-quarter full-object studio view, gold near face and blue side panel visible, object held stable against navy background.
+Image1 full three-quarter demonstrator, silver rails, blue side panel, gold near-end board and single black aperture visible against navy.
 
 TIMELINE:
-[0:00–0:05] Make a modest quarter-scale push toward the nearest silver corner rail; preserve the complete object silhouette.
+[0:00–0:03] Open with the complete recognizable object, then bring the nearest silver rail into crisp focus.
 
-[0:05–0:10] Track along the rail to show that it supports the compact body. No component detaches or deforms.
+[0:03–0:08] Track along that rail toward its corner joint. Keep the blue panel visible behind it so the support relationship reads.
 
-[0:10–0:15] Ease across the blue solar-cell face. Grazing light reveals its texture without magical power beams.
+[0:08–0:15] Transfer focus to the blue solar-cell face and move laterally a few centimetres; grazing light reveals its repeating glass texture, with the rail still at the edge.
 
 END STATE:
-Close view along the intact blue solar-cell side and its silver structural rail, camera motion continuing gently.
+Close view of the intact blue side panel and its supporting silver rail; whole-device orientation remains understandable. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-Product-camera slider and short arc under 25 degrees, 85 mm equivalent; no continuous spin or exploded diagram. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+85 mm product photography with three short motivated reframings: rail, panel, aperture. Total arc under 25 degrees; return along the same path for the loop. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Camera and grazing light provide purposeful motion; all solid components remain rigid. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Navy studio, soft white overhead key and narrow warm rim, believable aluminium, solar glass and coated lens. Keep material identity and light direction consistent within each location.
@@ -2525,7 +2571,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 13 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-13/s13-cubesat.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-13/s13-cubesat.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2533,33 +2579,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background. File: projects/raznoe/references/scenes/scene-13/s13-cubesat.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No humans. One consistent small-satellite demonstrator only; do not change the number of rails, faces or optical apertures.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Keep the device fully assembled. Explain by camera and light, not by unexplained flying parts. The near-end board is illustrative, not an actual flight layout. No real 1U/2U specification or performance is claimed.
+One assembled demonstrator throughout. Image1 controls rail count, blue panel placement, gold end and single aperture. Camera and focus reveal function; nothing explodes, unfolds, transmits a beam or becomes a labelled real flight specification.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: Close view along the intact blue solar-cell side and its silver structural rail, camera motion continuing gently.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Close view of the intact blue side panel and its supporting silver rail; whole-device orientation remains understandable.
 
 TIMELINE:
-[0:00–0:05] Continue along the same camera arc to the gold end board and black circular aperture, keeping their exact positions.
+[0:00–0:05] Continue the same camera direction toward the gold near-end board; reveal the single black aperture without rotating the object.
 
-[0:05–0:10] Rack focus from aperture edge to surrounding structure. Reveal how the visible elements belong to one intact object.
+[0:05–0:11] Focus on the aperture rim, then ease outward until rail, panel and aperture are all visible together. Preserve rigid geometry.
 
-[0:10–0:15] Move back to the opening three-quarter composition. Settle at the same scale while retaining a slight highlight drift.
+[0:11–0:15] Return to the opening angle and scale with a soft stop. Retain a tiny light drift; editor may trim the final frames for a clean loop.
 
 END STATE:
-Return to the same full-object angle and scale as the opening; subtle light motion supports an editorial loop.
+Opening full-object angle, scale and lighting restored closely enough for an editorial loop; one gentle highlight remains moving.
 
 CAMERA / SPACE:
-Product-camera slider and short arc under 25 degrees, 85 mm equivalent; no continuous spin or exploded diagram. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+85 mm product photography with three short motivated reframings: rail, panel, aperture. Total arc under 25 degrees; return along the same path for the loop. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Camera and grazing light provide purposeful motion; all solid components remain rigid. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Navy studio, soft white overhead key and narrow warm rim, believable aluminium, solar glass and coated lens. Keep material identity and light direction consistent within each location.
@@ -2580,36 +2626,39 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-14"></a>
 ## Сцена 14 — Главкосмос: Мир встречается на стенде
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Событийный ролик 30 с для сайта и экрана стенда. Сейчас постановочная сцена; репортаж о конкретной выставке требует реальных кадров и точных титров.
 
-**Что происходит:** Посетитель задаёт вопрос у модели спутника. Консультант показывает деталь, другой участник обращается к интерактиву. В финале группа обсуждает одну понятную задачу — без формальных рукопожатий.
+**Что происходит:** Вопрос посетителя получает предметный ответ: консультант указывает на физический макет, крупный план показывает тарелку и панели, затем группа обращается к экрану. Финал объединяет людей, предмет и дальнейший разговор.
 
 **Факт и художественное решение:** Основа — публикация Главкосмоса о выставочных интерактивах в сентябре 2026. Изображённые стенд и люди вымышлены; кадр не подтверждает присутствие или договорённость конкретных организаций.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://glavkosmos.com/ru/glavkosmos-to-participate-in-el-alamein-international-airshow-in-egypt/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`. Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group. @Image2 — `projects/raznoe/references/scenes/scene-14/q14-detail.png`. Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.
 
 **Роли входов:** @Image1: Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-14/s14-booth.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-14/s14-booth.png" alt="@Image1 — Мир встречается на стенде · опорный вид" loading="lazy"></a><figcaption>@Image1 — Мир встречается на стенде · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-14/s14-booth.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-14/s14-booth.png" alt="Сцена 14, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-14/q14-detail.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-14/q14-detail.png" alt="Сцена 14, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Макет: тарелка и солнечные панели. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «На выставке встречаются не только компании. Здесь встречаются вопросы и опыт. Можно рассмотреть модель, попробовать интерактив и обсудить задачу. Так первый интерес становится содержательным разговором.»
 
 **Финальный титр для монтажа:** «Главкосмос. Пространство для диалога.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Wan 3.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Тот же макет с тарелкой и двумя синими крыльями; после вставки группа не меняется местами; предмет не левитирует. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="14">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 14 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`. @Image2 — `projects/raznoe/references/scenes/scene-14/q14-detail.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2617,38 +2666,39 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group. File: projects/raznoe/references/scenes/scene-14/s14-booth.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room. File: projects/raznoe/references/scenes/scene-14/q14-detail.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Three adult visitors seen mainly from rear: tan blazer left, navy woman with dark bob centre, charcoal jacket right. Female adviser in cream blazer beyond the plinth. Keep their exact reference appearance, positions and ordinary natural expressions.
+Exactly four fictional adults: tan-jacket man left, navy-jacket dark-bob woman centre, charcoal-jacket man right, cream-clad female adviser beyond the white plinth. Same clothes and positions on every return to the wide. Hardware: silver body, large front dish and two blue solar wings, never a CubeSat.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Physical model remains supported on its plinth; graphics remain inside the touchscreen. No handshake, signed document, national flag or invented customer logo.
+The model is the silver-bodied dish satellite with two blue solar wings shown in both references, not a CubeSat. Image1 governs people and room. Image2 governs close hardware detail only. Model remains on fixed supports; graphics never leave the touchscreen; no signed agreement.
 
 START STATE:
-Wide rear view of the visitors facing the adviser across the model; left visitor holds one questioning hand slightly raised.
+Image1 exhibition wide: tan-jacket man left with questioning hand, navy dark-bob woman centre, charcoal-jacket man right, cream-clad adviser beyond the plinth.
 
 TIMELINE:
-[0:00–0:05] Dolly toward the plinth while the left visitor finishes one small questioning gesture. Background visitors move unobtrusively.
+[0:00–0:03] The left visitor raises an open questioning hand toward the model, directing attention to a concrete object.
 
-[0:05–0:10] The adviser responds with an open-hand indication beside the blue panel. Keep her face and garment consistent, no audible speech.
+[0:03–0:08] The cream-clad adviser responds with one clear gesture toward the dish, without touching or moving the model.
 
-[0:10–0:15] Focus briefly on the model detail, with the adviser hand stopping clear of it. Settle for the handoff.
+[0:08–0:15] Cut to Image2 model detail at 8s. A short lateral move reveals the dish depth, then the blue wing texture; no hand enters and no part rotates.
 
-[0:15–0:20] Continue from the same side. The centre visitor makes one small touch on the physical screen below the model.
+[0:15–0:20] Continue the hardware movement briefly, then return to the original wide. The questioning visitor lowers the hand; everyone retains position.
 
-[0:20–0:25] The screen changes one simple visual selection; the other visitors lean in slightly, maintaining the same positions.
+[0:20–0:26] Adviser turns an open palm toward the nearby physical screen. The centre visitor follows with a small shoulder turn, while the model remains visible.
 
-[0:25–0:30] Ease back to the group and exhibition. Resolve with a shared visual question and continued natural activity, no staged handshake.
+[0:26–0:30] Ease back to hold people, model and screen in one coherent view. End on ongoing attentive exchange, without handshake or celebratory deal pose.
 
 END STATE:
-The group shares attention between model and screen, framed together in the living exhibition space.
+Original wide group composition with all four people attending to the model and nearby physical screen; exhibition life continues softly behind.
 
 CAMERA / SPACE:
-35 mm human-height dolly, restrained insert focus and return wide; preserve axis and scale of the plinth. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+35–50 mm rear group view, one 85 mm hardware insert, then return to the established group axis. Keep adviser beyond the plinth; no foreground hand in the insert. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Curiosity, attentive listening and one meaningful gesture per person; no silent frozen crowd. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Airy blue-white exhibition lighting with realistic skin, dark glass and metal reflections. Keep material identity and light direction consistent within each location.
@@ -2668,7 +2718,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 14 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`. @Image2 — `projects/raznoe/references/scenes/scene-14/q14-detail.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2676,32 +2726,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group. File: projects/raznoe/references/scenes/scene-14/s14-booth.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room. File: projects/raznoe/references/scenes/scene-14/q14-detail.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Three adult visitors seen mainly from rear: tan blazer left, navy woman with dark bob centre, charcoal jacket right. Female adviser in cream blazer beyond the plinth. Keep their exact reference appearance, positions and ordinary natural expressions.
+Exactly four fictional adults: tan-jacket man left, navy-jacket dark-bob woman centre, charcoal-jacket man right, cream-clad female adviser beyond the white plinth. Same clothes and positions on every return to the wide. Hardware: silver body, large front dish and two blue solar wings, never a CubeSat.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Physical model remains supported on its plinth; graphics remain inside the touchscreen. No handshake, signed document, national flag or invented customer logo.
+The model is the silver-bodied dish satellite with two blue solar wings shown in both references, not a CubeSat. Image1 governs people and room. Image2 governs close hardware detail only. Model remains on fixed supports; graphics never leave the touchscreen; no signed agreement.
 
 START STATE:
-Wide rear view of the visitors facing the adviser across the model; left visitor holds one questioning hand slightly raised.
+Image1 exhibition wide: tan-jacket man left with questioning hand, navy dark-bob woman centre, charcoal-jacket man right, cream-clad adviser beyond the plinth.
 
 TIMELINE:
-[0:00–0:05] Dolly toward the plinth while the left visitor finishes one small questioning gesture. Background visitors move unobtrusively.
+[0:00–0:03] The left visitor raises an open questioning hand toward the model, directing attention to a concrete object.
 
-[0:05–0:10] The adviser responds with an open-hand indication beside the blue panel. Keep her face and garment consistent, no audible speech.
+[0:03–0:08] The cream-clad adviser responds with one clear gesture toward the dish, without touching or moving the model.
 
-[0:10–0:15] Focus briefly on the model detail, with the adviser hand stopping clear of it. Settle for the handoff.
+[0:08–0:15] Cut to Image2 model detail at 8s. A short lateral move reveals the dish depth, then the blue wing texture; no hand enters and no part rotates.
 
 END STATE:
-The left visitor has lowered the hand; the adviser points just beside one model detail without touching or obscuring it.
+Image2 hardware insert: silver body, large front dish, two blue solar wings and their supports on the white plinth; no foreground hand. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-35 mm human-height dolly, restrained insert focus and return wide; preserve axis and scale of the plinth. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+35–50 mm rear group view, one 85 mm hardware insert, then return to the established group axis. Keep adviser beyond the plinth; no foreground hand in the insert. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Curiosity, attentive listening and one meaningful gesture per person; no silent frozen crowd. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Airy blue-white exhibition lighting with realistic skin, dark glass and metal reflections. Keep material identity and light direction consistent within each location.
@@ -2718,7 +2769,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 14 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-14/s14-booth.png`. @Image2 — `projects/raznoe/references/scenes/scene-14/q14-detail.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2726,33 +2777,34 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group. File: projects/raznoe/references/scenes/scene-14/s14-booth.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room. File: projects/raznoe/references/scenes/scene-14/q14-detail.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Three adult visitors seen mainly from rear: tan blazer left, navy woman with dark bob centre, charcoal jacket right. Female adviser in cream blazer beyond the plinth. Keep their exact reference appearance, positions and ordinary natural expressions.
+Exactly four fictional adults: tan-jacket man left, navy-jacket dark-bob woman centre, charcoal-jacket man right, cream-clad female adviser beyond the white plinth. Same clothes and positions on every return to the wide. Hardware: silver body, large front dish and two blue solar wings, never a CubeSat.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Physical model remains supported on its plinth; graphics remain inside the touchscreen. No handshake, signed document, national flag or invented customer logo.
+The model is the silver-bodied dish satellite with two blue solar wings shown in both references, not a CubeSat. Image1 governs people and room. Image2 governs close hardware detail only. Model remains on fixed supports; graphics never leave the touchscreen; no signed agreement.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: The left visitor has lowered the hand; the adviser points just beside one model detail without touching or obscuring it.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Image2 hardware insert: silver body, large front dish, two blue solar wings and their supports on the white plinth; no foreground hand.
 
 TIMELINE:
-[0:00–0:05] Continue from the same side. The centre visitor makes one small touch on the physical screen below the model.
+[0:00–0:05] Continue the hardware movement briefly, then return to the original wide. The questioning visitor lowers the hand; everyone retains position.
 
-[0:05–0:10] The screen changes one simple visual selection; the other visitors lean in slightly, maintaining the same positions.
+[0:05–0:11] Adviser turns an open palm toward the nearby physical screen. The centre visitor follows with a small shoulder turn, while the model remains visible.
 
-[0:10–0:15] Ease back to the group and exhibition. Resolve with a shared visual question and continued natural activity, no staged handshake.
+[0:11–0:15] Ease back to hold people, model and screen in one coherent view. End on ongoing attentive exchange, without handshake or celebratory deal pose.
 
 END STATE:
-The group shares attention between model and screen, framed together in the living exhibition space.
+Original wide group composition with all four people attending to the model and nearby physical screen; exhibition life continues softly behind.
 
 CAMERA / SPACE:
-35 mm human-height dolly, restrained insert focus and return wide; preserve axis and scale of the plinth. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+35–50 mm rear group view, one 85 mm hardware insert, then return to the established group axis. Keep adviser beyond the plinth; no foreground hand in the insert. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Curiosity, attentive listening and one meaningful gesture per person; no silent frozen crowd. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Airy blue-white exhibition lighting with realistic skin, dark glass and metal reflections. Keep material identity and light direction consistent within each location.
@@ -2773,37 +2825,39 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-15"></a>
 ## Сцена 15 — РКС: Как прибор видит погоду
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Научпоп, законченная версия 30 с. Связать прибор, изображение и работу специалиста; для выпуска о конкретной аппаратуре потребуются её разрешённые фотографии.
 
-**Что происходит:** От блика на оптике камера переходит к облачной системе на экране. Синоптик сопоставляет обычный и условный спектральный вид. Финал показывает человека, который разбирается в данных.
+**Что происходит:** Блик в оптическом узле задаёт тему наблюдения. Монтаж переносит нас к метеорологу, который сопоставляет естественное и условное цветовое представление облачности. Финал оставляет обе картинки и человека, принимающего осмысленное решение об анализе.
 
 **Факт и художественное решение:** НЦ ОМЗ сообщает о целевой аппаратуре РКС на «Электро-Л» №5. Изображённые прибор, погодная система и рабочее место — концепты; нет обещания точности прогноза или привязки к реальному шторму.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/apparatura-rks-na-sputnike-elektro-l-5/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. @Image2 — `projects/raznoe/references/scenes/scene-15/s15-weather.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument. @Image2 — `projects/raznoe/references/scenes/scene-15/s15-weather.png`. Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system.
 
 **Роли входов:** @Image1: Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument. @Image2: Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-5/s05-assembled.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/s05-assembled.png" alt="@Image1 — Как прибор видит погоду · опорный вид" loading="lazy"></a><figcaption>@Image1 — Как прибор видит погоду · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-15/s15-weather.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-15/s15-weather.png" alt="@Image2 — Как прибор видит погоду · дополнительный вид" loading="lazy"></a><figcaption>@Image2 — Как прибор видит погоду · дополнительный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-5/s05-assembled.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/s05-assembled.png" alt="Сцена 15, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-15/s15-weather.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-15/s15-weather.png" alt="Сцена 15, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Прибор принимает сигнал. Обработка превращает его в изображение. Разные диапазоны помогают увидеть особенности облаков. А специалист сопоставляет данные, чтобы понять, что происходит в атмосфере.»
 
 **Финальный титр для монтажа:** «РКС. От сигнала — к пониманию погоды.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Wan 3.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Без луча из прибора и ложного прогноза; обе версии облачности связаны; герой в сером трикотаже остаётся со спины. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="15">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 15 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. @Image2 — `projects/raznoe/references/scenes/scene-15/s15-weather.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. @Image2 — `projects/raznoe/references/scenes/scene-15/s15-weather.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2812,38 +2866,38 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument. File: projects/raznoe/references/scenes/scene-5/s05-assembled.png.
 @Image2 — Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system. File: projects/raznoe/references/scenes/scene-15/s15-weather.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Lab macro contains no people. In the separate workstation shot, one adult meteorologist with short dark hair and grey knit sweater is seen from behind, matching Image2.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The optical unit and the office are separate montage locations. No visible beam travels from the lens into space. Cloud imagery is illustrative, not a real forecast; false colours do not imply a specific temperature or severity.
+Image1 is an illustrative optical unit, not a specified Electro-L instrument. Image2 governs workstation and rear-view person. Lens and weather display are separate montage locations. Colours represent different views, not temperature values, danger level or a verified forecast.
 
 START STATE:
-Tight macro of the seated blue-purple glass and black optical housing from Image1, steady practical reflection.
+Macro Image1 completed optical assembly: seated blue-violet glass and black housing, no hands, restrained practical reflection.
 
 TIMELINE:
-[0:00–0:05] Slide slowly across the optical housing toward the glass. Keep the unit fully assembled and physically supported.
+[0:00–0:03] A moving reflection reveals the coated glass; keep its circular rim crisp and supported.
 
-[0:05–0:10] A restrained reflection crosses the coating. Rack focus to its edge without adding magical scanning beams.
+[0:03–0:08] Transfer focus once to the outer housing, then back to the glass. The material is the hook; no emitted beam.
 
-[0:10–0:15] Use one explicit editorial cut to the weather workstation, echoing the curved reflection in the cloud spiral. Establish the specialist.
+[0:08–0:15] Hard-cut at 8s to the rear weather workstation. Establish the large natural cloud image and smaller coloured rendition in the same shot; person studies both.
 
-[0:15–0:20] Continue from the actual room state. A small mouse action highlights the already-present false-colour screen, not a new forecast.
+[0:15–0:20] Continue from the actual posture. The meteorologist indicates one broad cloud region on the smaller screen with a restrained gesture.
 
-[0:20–0:25] The specialist points briefly between corresponding cloud features on the two screens, then lowers the hand.
+[0:20–0:26] Slide slightly to include the corresponding cloud region on the larger view, keeping all graphics confined to screens. No exact numerical comparison appears.
 
-[0:25–0:30] Ease back to include the human and both data views. End with concentrated analysis and subtle screen/cloud motion.
+[0:26–0:30] Ease back as the hand lowers to the desk. Finish with person and both views visible, showing comparison as a human analytical act.
 
 END STATE:
-Both screen views and the meteorologist remain visible; the person rests a hand on the desk after a small comparison gesture.
+Both representations remain on their separate physical screens; meteorologist hand rests after a small comparison gesture, clouds evolve gently.
 
 CAMERA / SPACE:
-100 mm macro followed by a declared cut to 35 mm rear workstation view, no literal flight through the lens. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+100 mm macro with a single focus transfer, hard cut to 50 mm rear workstation, small screen-directed slider, return wide. No imaginary flight through the lens. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Precise camera movement, one mouse action and one useful comparison gesture; clouds evolve gently without changing coastline. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool laboratory coating colours; soft natural office daylight, crisp but non-neon displays. Keep material identity and light direction consistent within each location.
@@ -2872,32 +2926,32 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument. File: projects/raznoe/references/scenes/scene-5/s05-assembled.png.
 @Image2 — Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system. File: projects/raznoe/references/scenes/scene-15/s15-weather.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Lab macro contains no people. In the separate workstation shot, one adult meteorologist with short dark hair and grey knit sweater is seen from behind, matching Image2.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The optical unit and the office are separate montage locations. No visible beam travels from the lens into space. Cloud imagery is illustrative, not a real forecast; false colours do not imply a specific temperature or severity.
+Image1 is an illustrative optical unit, not a specified Electro-L instrument. Image2 governs workstation and rear-view person. Lens and weather display are separate montage locations. Colours represent different views, not temperature values, danger level or a verified forecast.
 
 START STATE:
-Tight macro of the seated blue-purple glass and black optical housing from Image1, steady practical reflection.
+Macro Image1 completed optical assembly: seated blue-violet glass and black housing, no hands, restrained practical reflection.
 
 TIMELINE:
-[0:00–0:05] Slide slowly across the optical housing toward the glass. Keep the unit fully assembled and physically supported.
+[0:00–0:03] A moving reflection reveals the coated glass; keep its circular rim crisp and supported.
 
-[0:05–0:10] A restrained reflection crosses the coating. Rack focus to its edge without adding magical scanning beams.
+[0:03–0:08] Transfer focus once to the outer housing, then back to the glass. The material is the hook; no emitted beam.
 
-[0:10–0:15] Use one explicit editorial cut to the weather workstation, echoing the curved reflection in the cloud spiral. Establish the specialist.
+[0:08–0:15] Hard-cut at 8s to the rear weather workstation. Establish the large natural cloud image and smaller coloured rendition in the same shot; person studies both.
 
 END STATE:
-Workstation from Image2, meteorologist seated left, same ocean cloud spiral clearly visible on the large screen.
+Image2 weather workstation established, grey-knit meteorologist seen from behind, large natural cloud view and smaller false-colour view both legible. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-100 mm macro followed by a declared cut to 35 mm rear workstation view, no literal flight through the lens. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+100 mm macro with a single focus transfer, hard cut to 50 mm rear workstation, small screen-directed slider, return wide. No imaginary flight through the lens. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Precise camera movement, one mouse action and one useful comparison gesture; clouds evolve gently without changing coastline. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool laboratory coating colours; soft natural office daylight, crisp but non-neon displays. Keep material identity and light direction consistent within each location.
@@ -2914,7 +2968,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 15 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. @Image2 — `projects/raznoe/references/scenes/scene-15/s15-weather.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/s05-assembled.png`. @Image2 — `projects/raznoe/references/scenes/scene-15/s15-weather.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2923,33 +2977,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument. File: projects/raznoe/references/scenes/scene-5/s05-assembled.png.
 @Image2 — Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system. File: projects/raznoe/references/scenes/scene-15/s15-weather.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Lab macro contains no people. In the separate workstation shot, one adult meteorologist with short dark hair and grey knit sweater is seen from behind, matching Image2.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The optical unit and the office are separate montage locations. No visible beam travels from the lens into space. Cloud imagery is illustrative, not a real forecast; false colours do not imply a specific temperature or severity.
+Image1 is an illustrative optical unit, not a specified Electro-L instrument. Image2 governs workstation and rear-view person. Lens and weather display are separate montage locations. Colours represent different views, not temperature values, danger level or a verified forecast.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: Workstation from Image2, meteorologist seated left, same ocean cloud spiral clearly visible on the large screen.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Image2 weather workstation established, grey-knit meteorologist seen from behind, large natural cloud view and smaller false-colour view both legible.
 
 TIMELINE:
-[0:00–0:05] Continue from the actual room state. A small mouse action highlights the already-present false-colour screen, not a new forecast.
+[0:00–0:05] Continue from the actual posture. The meteorologist indicates one broad cloud region on the smaller screen with a restrained gesture.
 
-[0:05–0:10] The specialist points briefly between corresponding cloud features on the two screens, then lowers the hand.
+[0:05–0:11] Slide slightly to include the corresponding cloud region on the larger view, keeping all graphics confined to screens. No exact numerical comparison appears.
 
-[0:10–0:15] Ease back to include the human and both data views. End with concentrated analysis and subtle screen/cloud motion.
+[0:11–0:15] Ease back as the hand lowers to the desk. Finish with person and both views visible, showing comparison as a human analytical act.
 
 END STATE:
-Both screen views and the meteorologist remain visible; the person rests a hand on the desk after a small comparison gesture.
+Both representations remain on their separate physical screens; meteorologist hand rests after a small comparison gesture, clouds evolve gently.
 
 CAMERA / SPACE:
-100 mm macro followed by a declared cut to 35 mm rear workstation view, no literal flight through the lens. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+100 mm macro with a single focus transfer, hard cut to 50 mm rear workstation, small screen-directed slider, return wide. No imaginary flight through the lens. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Precise camera movement, one mouse action and one useful comparison gesture; clouds evolve gently without changing coastline. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool laboratory coating colours; soft natural office daylight, crisp but non-neon displays. Keep material identity and light direction consistent within each location.
@@ -2970,36 +3024,39 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-16"></a>
 ## Сцена 16 — РКС: Идея проходит испытание
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** B2B и кадровый ролик, 30-секундное ядро идеи 45 с. Показать проверяемый шаг исследования; не объявлять демонстратор готовым изделием.
 
-**Что происходит:** Исследователь смотрит на макет, выполняет одну настройку и проводит проверку. На экране появляется устойчивый сигнал. Он фиксирует наблюдение и готовит следующий шаг — работа продолжается.
+**Что происходит:** Исследователь меняет одну настройку и повторяет наблюдение. Экран не выдаёт мгновенный знак успеха. Короткая запись фиксирует промежуточный результат; финал возвращает внимание к макету и следующему вопросу.
 
 **Факт и художественное решение:** РНФ и РКС провели экспертную сессию по направлениям развития ДЗЗ 22.09.2026. Лабораторный эпизод вымышленный и не показывает результат конкретного проекта или завершённую разработку.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://www.rscf.ru/news/found/rossiyskiy-nauchnyy-fond-i-rossiyskie-kosmicheskie-sistemy-opredelili-vektor-razvitiya-tekhnologiy-d/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`. Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher. @Image2 — `projects/raznoe/references/scenes/scene-16/q16-adjustment.png`. Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.
 
 **Роли входов:** @Image1: Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-16/s16-testbench.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-16/s16-testbench.png" alt="@Image1 — Идея проходит испытание · опорный вид" loading="lazy"></a><figcaption>@Image1 — Идея проходит испытание · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-16/s16-testbench.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-16/s16-testbench.png" alt="Сцена 16, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-16/q16-adjustment.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-16/q16-adjustment.png" alt="Сцена 16, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Проверка: рука на регуляторе. Созданный концепт.</figcaption></figure>
 </div>
 
-**Закадровый текст для монтажа:** «Идея становится сильнее, когда её можно проверить. Макет. Настройка. Наблюдение. Запись результата. Каждый такой шаг помогает понять, что уже работает и что ещё предстоит изменить.»
+**Закадровый текст для монтажа:** «Идею нужно проверить. Настроить макет. Повторить наблюдение. Записать результат. Здесь важен каждый шаг — в том числе тот, который подсказывает следующий вопрос.»
 
 **Финальный титр для монтажа:** «РКС. Проверять. Понимать. Развивать.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Wan 3.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Синие перчатки; макет закреплён; нет магического test passed; запись и повторный взгляд завершают действие. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="16">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 16 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`. @Image2 — `projects/raznoe/references/scenes/scene-16/q16-adjustment.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3007,38 +3064,39 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher. File: projects/raznoe/references/scenes/scene-16/s16-testbench.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench. File: projects/raznoe/references/scenes/scene-16/q16-adjustment.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One adult researcher with short dark hair, white coat and blue laboratory gloves as in Image1, viewed from rear right. No new face, second scientist or change of gloves.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Prototype stays clamped to its rail. Target cross is a physical test target; the unlabelled waveform is illustrative and contains no measurement claim. A successful observation is not a certificate, flight clearance or finished product.
+Image1 controls researcher, bench and monitor; Image2 is a supported-prototype/external-knob insert with the same blue glove. The displayed trace is illustrative and remains plausible before and after adjustment; it never suddenly becomes a pass signal. No measured improvement or certification is asserted.
 
 START STATE:
-Researcher at the optical bench, supported black prototype facing the target card and a calm unlabelled waveform on the monitor.
+Image1 bench: white-coated dark-haired researcher, blue gloves, black prototype clamped to rail, physical cross target left and unlabelled trace display right.
 
 TIMELINE:
-[0:00–0:05] Track from the closed notebook along the rail to the prototype. Establish the target and its physical alignment.
+[0:00–0:03] Show the physical target, rigid rail and supported prototype in one readable line; researcher leans toward the adjustment.
 
-[0:05–0:10] The researcher makes one small adjustment at an external knob, keeping fingers outside the optical path.
+[0:03–0:08] Cut to Image2. Blue-gloved right hand makes one small turn of the external knob, never entering the optical path or moving the entire assembly.
 
-[0:10–0:15] The hand withdraws. The display trace settles into a repeatable shape without numbers, pass stamps or dramatic colour change.
+[0:08–0:15] Hand stops and withdraws. Return to the established bench view; researcher observes the same kind of trace for a brief pause, with no magical jump to a perfect waveform.
 
-[0:15–0:20] Continue the observation for a brief natural pause; the researcher compares the monitor and target by a small head turn.
+[0:15–0:20] Continue observation. A small gaze shift from target to display indicates comparison and a repeat check, not a victory reaction.
 
-[0:20–0:25] The researcher opens the notebook and makes one short note with marks too small to read. Keep gloved hand anatomy plausible.
+[0:20–0:26] Researcher opens the nearby notebook and makes one short note with marks too small to read; retain blue gloves and plausible grip.
 
-[0:25–0:30] Close the notebook and return focus to the prototype. End with the sense of a documented next step rather than a final triumphant launch.
+[0:26–0:30] Leave the notebook open, return focus to the prototype, and show a slight attentive lean toward the next check. The visible outcome is a recorded observation.
 
 END STATE:
-Researcher closes the notebook after noting the observation, then returns attention to the supported prototype; experiment remains open.
+Open notebook beside the rail with one short illegible note; researcher returns attention to the supported prototype, experiment still in progress.
 
 CAMERA / SPACE:
-50 mm bench-level slider and restrained rack focus between prototype and display, same side of the rail throughout. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm bench-level establishing view, 85 mm knob insert using Image2, return to the same side of the rail, one notebook detail. No reverse axis between target and display. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Deliberate useful motions with a brief observation pause; no repeated knob-twisting or staged cheering. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Practical warm bench lamp against cool daylight, matte metal, glass and believable cables. Keep material identity and light direction consistent within each location.
@@ -3058,7 +3116,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 16 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`. @Image2 — `projects/raznoe/references/scenes/scene-16/q16-adjustment.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3066,32 +3124,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher. File: projects/raznoe/references/scenes/scene-16/s16-testbench.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench. File: projects/raznoe/references/scenes/scene-16/q16-adjustment.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One adult researcher with short dark hair, white coat and blue laboratory gloves as in Image1, viewed from rear right. No new face, second scientist or change of gloves.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Prototype stays clamped to its rail. Target cross is a physical test target; the unlabelled waveform is illustrative and contains no measurement claim. A successful observation is not a certificate, flight clearance or finished product.
+Image1 controls researcher, bench and monitor; Image2 is a supported-prototype/external-knob insert with the same blue glove. The displayed trace is illustrative and remains plausible before and after adjustment; it never suddenly becomes a pass signal. No measured improvement or certification is asserted.
 
 START STATE:
-Researcher at the optical bench, supported black prototype facing the target card and a calm unlabelled waveform on the monitor.
+Image1 bench: white-coated dark-haired researcher, blue gloves, black prototype clamped to rail, physical cross target left and unlabelled trace display right.
 
 TIMELINE:
-[0:00–0:05] Track from the closed notebook along the rail to the prototype. Establish the target and its physical alignment.
+[0:00–0:03] Show the physical target, rigid rail and supported prototype in one readable line; researcher leans toward the adjustment.
 
-[0:05–0:10] The researcher makes one small adjustment at an external knob, keeping fingers outside the optical path.
+[0:03–0:08] Cut to Image2. Blue-gloved right hand makes one small turn of the external knob, never entering the optical path or moving the entire assembly.
 
-[0:10–0:15] The hand withdraws. The display trace settles into a repeatable shape without numbers, pass stamps or dramatic colour change.
+[0:08–0:15] Hand stops and withdraws. Return to the established bench view; researcher observes the same kind of trace for a brief pause, with no magical jump to a perfect waveform.
 
 END STATE:
-The adjustment is complete; hand has moved clear of the optical path, researcher studies the display.
+Small external-knob adjustment complete; blue-gloved hand clear of the optical path, researcher watching the existing display trace. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-50 mm bench-level slider and restrained rack focus between prototype and display, same side of the rail throughout. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm bench-level establishing view, 85 mm knob insert using Image2, return to the same side of the rail, one notebook detail. No reverse axis between target and display. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Deliberate useful motions with a brief observation pause; no repeated knob-twisting or staged cheering. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Practical warm bench lamp against cool daylight, matte metal, glass and believable cables. Keep material identity and light direction consistent within each location.
@@ -3108,7 +3167,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 16 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-16/s16-testbench.png`. @Image2 — `projects/raznoe/references/scenes/scene-16/q16-adjustment.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3116,33 +3175,34 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher. File: projects/raznoe/references/scenes/scene-16/s16-testbench.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench. File: projects/raznoe/references/scenes/scene-16/q16-adjustment.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One adult researcher with short dark hair, white coat and blue laboratory gloves as in Image1, viewed from rear right. No new face, second scientist or change of gloves.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Prototype stays clamped to its rail. Target cross is a physical test target; the unlabelled waveform is illustrative and contains no measurement claim. A successful observation is not a certificate, flight clearance or finished product.
+Image1 controls researcher, bench and monitor; Image2 is a supported-prototype/external-knob insert with the same blue glove. The displayed trace is illustrative and remains plausible before and after adjustment; it never suddenly becomes a pass signal. No measured improvement or certification is asserted.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: The adjustment is complete; hand has moved clear of the optical path, researcher studies the display.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Small external-knob adjustment complete; blue-gloved hand clear of the optical path, researcher watching the existing display trace.
 
 TIMELINE:
-[0:00–0:05] Continue the observation for a brief natural pause; the researcher compares the monitor and target by a small head turn.
+[0:00–0:05] Continue observation. A small gaze shift from target to display indicates comparison and a repeat check, not a victory reaction.
 
-[0:05–0:10] The researcher opens the notebook and makes one short note with marks too small to read. Keep gloved hand anatomy plausible.
+[0:05–0:11] Researcher opens the nearby notebook and makes one short note with marks too small to read; retain blue gloves and plausible grip.
 
-[0:10–0:15] Close the notebook and return focus to the prototype. End with the sense of a documented next step rather than a final triumphant launch.
+[0:11–0:15] Leave the notebook open, return focus to the prototype, and show a slight attentive lean toward the next check. The visible outcome is a recorded observation.
 
 END STATE:
-Researcher closes the notebook after noting the observation, then returns attention to the supported prototype; experiment remains open.
+Open notebook beside the rail with one short illegible note; researcher returns attention to the supported prototype, experiment still in progress.
 
 CAMERA / SPACE:
-50 mm bench-level slider and restrained rack focus between prototype and display, same side of the rail throughout. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm bench-level establishing view, 85 mm knob insert using Image2, return to the same side of the rail, one notebook detail. No reverse axis between target and display. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Deliberate useful motions with a brief observation pause; no repeated knob-twisting or staged cheering. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Practical warm bench lamp against cool daylight, matte metal, glass and believable cables. Keep material identity and light direction consistent within each location.
@@ -3163,36 +3223,39 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-17"></a>
 ## Сцена 17 — РКС: Деталь крупным планом
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Первый выпуск серии о деталях. Полная версия 30 с и самостоятельный монтажный cutdown 15 с из первой половины, без отдельного видеозапуска.
 
-**Что происходит:** Одна небольшая оптическая деталь заполняет экран. Камера различает стекло, покрытие и крепление. Рука уходит, оставляя зрителю ясный образ: точность большого прибора начинается с малой детали.
+**Что происходит:** Первые 15 секунд дают самостоятельный мини-ролик: стекло, крепление, уход руки. Вторая половина раскрывает рабочее место и масштаб детали. Финал показывает не абстрактную драгоценность, а предмет точной инженерной работы.
 
 **Факт и художественное решение:** Это общий инженерный образ. Не называются тип покрытия, спектральная характеристика или реальный артикул; для фильма о конкретном изделии референс заменяется его согласованной фотографией.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/apparatura-rks-na-sputnike-elektro-l-5/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`. Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right. @Image2 — `projects/raznoe/references/scenes/scene-17/q17-context.png`. Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.
 
 **Роли входов:** @Image1: Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-17/s17-detail.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-17/s17-detail.png" alt="@Image1 — Деталь крупным планом · опорный вид" loading="lazy"></a><figcaption>@Image1 — Деталь крупным планом · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-17/s17-detail.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-17/s17-detail.png" alt="Сцена 17, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-17/q17-context.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-17/q17-context.png" alt="Сцена 17, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Оптическая деталь на рабочем месте. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Вблизи привычная деталь открывается заново. Поверхность. Покрытие. Крепление. Ничего случайного. Большой прибор начинается с множества маленьких решений, каждое из которых требует внимания.»
 
 **Финальный титр для монтажа:** «РКС. Внимание к каждой детали.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Wan 3.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Первая половина самостоятельна; второй ракурс расширяет смысл; два винта, круг и покрытие не меняются. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="17">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 17 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`. @Image2 — `projects/raznoe/references/scenes/scene-17/q17-context.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3200,38 +3263,39 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right. File: projects/raznoe/references/scenes/scene-17/s17-detail.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph. File: projects/raznoe/references/scenes/scene-17/q17-context.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Only the white-gloved fingertip of one adult technician appears at the outer rim. No face, bare fingerprints, extra hand or new tools.
+Only a single white-gloved fingertip at the right outer rim in the opening macro. It withdraws in the first half. No person or hand in the later wider bench shot. Same one ring and two screws throughout.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One rigid glass disc in one circular holder, supported on a tray. The moving rainbow is a surface reflection, not emitted light, a measured spectrum or a beam. No disassembly.
+Image1 governs exact ring, two screws and initial fingertip. Image2 supplies a wider illustrative inspection fixture and lamp; do not animate the tray morphing into that fixture. Use an explicit shot change. Rainbow colour is reflected light, never emitted power or a measured spectrum.
 
 START STATE:
-Macro three-quarter view of the complete ring, gloved fingertip resting lightly on its right outer rim.
+Image1 macro of blue-violet glass in one black circular holder with two retaining screws, a single white-gloved fingertip at the right outer rim.
 
 TIMELINE:
-[0:00–0:05] Rack focus from the near metal machining to the blue-violet glass surface. Keep the complete ring recognizable.
+[0:00–0:03] Start with the full circular holder recognizable while focus moves from its machined edge to the coated glass.
 
-[0:05–0:10] A grazing light moves once across the coating, revealing real material texture rather than a glowing power source.
+[0:03–0:08] A practical reflection crosses the surface once, revealing blue-violet material and the two silver screw heads.
 
-[0:10–0:15] The single fingertip slides away from the outer rim and leaves the frame, completing a usable fifteen-second miniature.
+[0:08–0:15] The fingertip slides off the outer rim and leaves by 12s. Ease out just enough to show the complete hand-free ring, completing a standalone 15s miniature.
 
-[0:15–0:20] Continue the same light and camera direction. Ease toward one retaining screw without removing it.
+[0:15–0:20] Continue the actual light direction and a small lateral move toward the near screw; preserve glass and circular geometry.
 
-[0:20–0:25] Rack focus back across the glass to the opposite rim. Hold circular geometry and tray contact stable.
+[0:20–0:26] At 20s cut to the wider Image2 workstation. Reveal the supporting fixture and practical lamp, establishing scale without touching the glass.
 
-[0:25–0:30] Pull back a few centimetres to show the full supported detail. Resolve on a clear crafted object with subtle reflection movement.
+[0:26–0:30] Settle on ring, support and lamp together. A subtle reflection remains alive, ending with the detail clearly situated in careful workshop practice.
 
 END STATE:
-Slightly wider product view of the whole ring on its tray, controlled light alive across the coating, no hand in frame.
+Image2 wider workstation context: same ring and two screws on dark support, simple fixture and practical lamp visible; no hand returns.
 
 CAMERA / SPACE:
-100 mm macro, very short lateral slider and two measured focus transfers; no orbiting through the glass. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+100 mm macro for first half; short side slide and focus transfer. At 20s explicit cut to 65 mm wider bench detail from Image2, not a continuous impossible scale change. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-One careful hand withdrawal, restrained moving reflection and readable focus changes. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool blue-violet coating, warm narrow edge, realistic matte black anodizing and silver screws. Keep material identity and light direction consistent within each location.
@@ -3251,7 +3315,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 17 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`. @Image2 — `projects/raznoe/references/scenes/scene-17/q17-context.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3259,32 +3323,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right. File: projects/raznoe/references/scenes/scene-17/s17-detail.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph. File: projects/raznoe/references/scenes/scene-17/q17-context.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Only the white-gloved fingertip of one adult technician appears at the outer rim. No face, bare fingerprints, extra hand or new tools.
+Only a single white-gloved fingertip at the right outer rim in the opening macro. It withdraws in the first half. No person or hand in the later wider bench shot. Same one ring and two screws throughout.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One rigid glass disc in one circular holder, supported on a tray. The moving rainbow is a surface reflection, not emitted light, a measured spectrum or a beam. No disassembly.
+Image1 governs exact ring, two screws and initial fingertip. Image2 supplies a wider illustrative inspection fixture and lamp; do not animate the tray morphing into that fixture. Use an explicit shot change. Rainbow colour is reflected light, never emitted power or a measured spectrum.
 
 START STATE:
-Macro three-quarter view of the complete ring, gloved fingertip resting lightly on its right outer rim.
+Image1 macro of blue-violet glass in one black circular holder with two retaining screws, a single white-gloved fingertip at the right outer rim.
 
 TIMELINE:
-[0:00–0:05] Rack focus from the near metal machining to the blue-violet glass surface. Keep the complete ring recognizable.
+[0:00–0:03] Start with the full circular holder recognizable while focus moves from its machined edge to the coated glass.
 
-[0:05–0:10] A grazing light moves once across the coating, revealing real material texture rather than a glowing power source.
+[0:03–0:08] A practical reflection crosses the surface once, revealing blue-violet material and the two silver screw heads.
 
-[0:10–0:15] The single fingertip slides away from the outer rim and leaves the frame, completing a usable fifteen-second miniature.
+[0:08–0:15] The fingertip slides off the outer rim and leaves by 12s. Ease out just enough to show the complete hand-free ring, completing a standalone 15s miniature.
 
 END STATE:
-The fingertip has withdrawn; the circular holder and glass remain stable, coating reflection visible across the centre.
+Same complete ring unobstructed; fingertip has fully left, surface reflection crosses the glass while holder stays supported. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-100 mm macro, very short lateral slider and two measured focus transfers; no orbiting through the glass. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+100 mm macro for first half; short side slide and focus transfer. At 20s explicit cut to 65 mm wider bench detail from Image2, not a continuous impossible scale change. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-One careful hand withdrawal, restrained moving reflection and readable focus changes. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool blue-violet coating, warm narrow edge, realistic matte black anodizing and silver screws. Keep material identity and light direction consistent within each location.
@@ -3301,7 +3366,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 17 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-17/s17-detail.png`. @Image2 — `projects/raznoe/references/scenes/scene-17/q17-context.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3309,33 +3374,34 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right. File: projects/raznoe/references/scenes/scene-17/s17-detail.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image2 — Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph. File: projects/raznoe/references/scenes/scene-17/q17-context.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Only the white-gloved fingertip of one adult technician appears at the outer rim. No face, bare fingerprints, extra hand or new tools.
+Only a single white-gloved fingertip at the right outer rim in the opening macro. It withdraws in the first half. No person or hand in the later wider bench shot. Same one ring and two screws throughout.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-One rigid glass disc in one circular holder, supported on a tray. The moving rainbow is a surface reflection, not emitted light, a measured spectrum or a beam. No disassembly.
+Image1 governs exact ring, two screws and initial fingertip. Image2 supplies a wider illustrative inspection fixture and lamp; do not animate the tray morphing into that fixture. Use an explicit shot change. Rainbow colour is reflected light, never emitted power or a measured spectrum.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: The fingertip has withdrawn; the circular holder and glass remain stable, coating reflection visible across the centre.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Same complete ring unobstructed; fingertip has fully left, surface reflection crosses the glass while holder stays supported.
 
 TIMELINE:
-[0:00–0:05] Continue the same light and camera direction. Ease toward one retaining screw without removing it.
+[0:00–0:05] Continue the actual light direction and a small lateral move toward the near screw; preserve glass and circular geometry.
 
-[0:05–0:10] Rack focus back across the glass to the opposite rim. Hold circular geometry and tray contact stable.
+[0:05–0:11] At 5s cut to the wider Image2 workstation. Reveal the supporting fixture and practical lamp, establishing scale without touching the glass.
 
-[0:10–0:15] Pull back a few centimetres to show the full supported detail. Resolve on a clear crafted object with subtle reflection movement.
+[0:11–0:15] Settle on ring, support and lamp together. A subtle reflection remains alive, ending with the detail clearly situated in careful workshop practice.
 
 END STATE:
-Slightly wider product view of the whole ring on its tray, controlled light alive across the coating, no hand in frame.
+Image2 wider workstation context: same ring and two screws on dark support, simple fixture and practical lamp visible; no hand returns.
 
 CAMERA / SPACE:
-100 mm macro, very short lateral slider and two measured focus transfers; no orbiting through the glass. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+100 mm macro for first half; short side slide and focus transfer. At 20s explicit cut to 65 mm wider bench detail from Image2, not a continuous impossible scale change. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-One careful hand withdrawal, restrained moving reflection and readable focus changes. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Cool blue-violet coating, warm narrow edge, realistic matte black anodizing and silver screws. Keep material identity and light direction consistent within each location.
@@ -3356,36 +3422,38 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-18"></a>
 ## Сцена 18 — НЦ ОМЗ: Найти нужный снимок
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Законченный концепт-ролик 30 с о логике поиска. Для точной инструкции 45–60 с нужно записать актуальный геопортал и его настоящие действия; генерация интерфейса эту запись не заменяет.
 
-**Что происходит:** Пользователь выделяет нужную территорию, уточняет период и сравнивает кандидатов. Один снимок становится предметом внимательного просмотра. Финал подчёркивает выбор подходящих данных, а не просто красивой картинки.
+**Что происходит:** Три понятных действия вместо хаотичных кликов: уточнить область, сдвинуть один фильтр, выбрать один из четырёх кандидатов. Избранный снимок увеличивается в том же окне. Финал подтверждает выбор материала, без вымышленной покупки или скачивания.
 
 **Факт и художественное решение:** Официальные материалы описывают поиск, просмотр и заказ данных через геопортал. Текущий экран — условный макет логики; расположение элементов не объявляется реальным интерфейсом.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/federalnyy-fond-dannykh-dzz/) · [Официальный источник 2](https://ntsomz.ru/expocifra_2026/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-18/s18-archive.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-18/s18-archive.png`. Fictional analyst desk and generic text-free map-workflow screen: central terrain, selected rectangle, two sliders and four image cards. Not the real Geoportal UI.
 
 **Роли входов:** @Image1: Fictional analyst desk and generic text-free map-workflow screen: central terrain, selected rectangle, two sliders and four image cards. Not the real Geoportal UI.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-18/s18-archive.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-18/s18-archive.png" alt="@Image1 — Найти нужный снимок · опорный вид" loading="lazy"></a><figcaption>@Image1 — Найти нужный снимок · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-18/s18-archive.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-18/s18-archive.png" alt="Сцена 18, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Fictional analyst desk and generic text-free map-workflow screen: central terrain, selected rectangle, two sliders and four image cards. Not the real Geoportal UI.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Сначала — задача и территория. Затем — подходящий период и сравнение доступных материалов. Нужный снимок выбирают по тому, какую информацию он даст. Поиск заканчивается не картинкой, а осмысленным выбором.»
 
 **Финальный титр для монтажа:** «НЦ ОМЗ. Найти данные для своей задачи.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Wan 3.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Wan 3.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Три действия читаются; четыре миниатюры не размножаются; без фальшивого точного интерфейса и скачивания. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="18">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 18 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-18/s18-archive.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-18/s18-archive.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3393,38 +3461,38 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional analyst desk and generic text-free map-workflow screen: central terrain, selected rectangle, two sliders and four image cards. Not the real Geoportal UI. File: projects/raznoe/references/scenes/scene-18/s18-archive.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only one adult analyst shoulder and hands, navy knitted sleeves. Face stays outside the frame; left hand near keyboard and right hand on mouse.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-All interface graphics remain inside the physical monitor. Do not invent readable controls, account data, download confirmations or actual prices. The existing aerial terrain is a concept preview, not a certified satellite archive record.
+This is a fictional text-free workflow concept, not a recording of the actual Geoportal. Keep one monitor and four thumbnails; all interactions remain within the screen. No invented dates, login, prices, download, order or approval states. Use three purposeful actions only.
 
 START STATE:
-Desk view from Image1; landscape preview, selected region, two blank controls and four thumbnails visible.
+Image1 over-shoulder desk, navy knitted sleeves, right hand on mouse; physical monitor shows region rectangle, two blank sliders and four existing thumbnail cards.
 
 TIMELINE:
-[0:00–0:05] Dolly closer to the screen. The cursor settles on the existing rectangular region, establishing the geographic task.
+[0:00–0:03] Make the already selected geographic rectangle immediately readable; cursor rests on its lower-right corner.
 
-[0:05–0:10] One short drag refines the rectangle slightly without changing the underlying terrain or pretending to measure coordinates.
+[0:03–0:08] One short drag refines that corner slightly; underlying terrain stays rigid and no coordinate readout appears.
 
-[0:10–0:15] The cursor adjusts the lower blank slider once, then highlights one of the four existing candidate cards. Do not render dates.
+[0:08–0:15] Cursor moves to the lower blank slider and shifts it once, then selects the second existing thumbnail. A simple border records that selection; no new cards appear.
 
-[0:15–0:20] Continue from the selected card. Toggle once to a neighbouring candidate, keeping the comparison inside the same screen.
+[0:15–0:20] Continue from the selected thumbnail. Give a brief readable pause; mouse hand stays natural rather than clicking repeatedly.
 
-[0:20–0:25] Return to the first candidate and enlarge it within the main pane. The mouse action is calm and deliberate.
+[0:20–0:26] One deliberate open action enlarges that candidate in the main pane while retaining the thumbnail strip and region context.
 
-[0:25–0:30] Ease back to the desk and resting hand. End on the chosen preview without a purchase, download or approved-request message.
+[0:26–0:30] Ease back to include the resting hand and full monitor. End on the chosen preview, with no purchase or download confirmation.
 
 END STATE:
-Selected candidate is enlarged within the same screen while the region rectangle remains recognizable, analyst hand relaxed.
+Chosen candidate enlarged within the same physical monitor, small thumbnail strip retained and region recognizable; right hand relaxed on mouse.
 
 CAMERA / SPACE:
-50 mm over-shoulder dolly and restrained screen close-up, no inside-the-monitor flight or perspective distortion. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm over-shoulder desk shot with small push to the screen; keep bezel in every close view, no screen-space flight. Return to the hand at the finish. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Three purposeful mouse actions with readable pauses; no random clicking or fast fake scrolling. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft morning window light, navy cloth, matte grey desk and clean monitor reflections. Keep material identity and light direction consistent within each location.
@@ -3452,32 +3520,32 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional analyst desk and generic text-free map-workflow screen: central terrain, selected rectangle, two sliders and four image cards. Not the real Geoportal UI. File: projects/raznoe/references/scenes/scene-18/s18-archive.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only one adult analyst shoulder and hands, navy knitted sleeves. Face stays outside the frame; left hand near keyboard and right hand on mouse.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-All interface graphics remain inside the physical monitor. Do not invent readable controls, account data, download confirmations or actual prices. The existing aerial terrain is a concept preview, not a certified satellite archive record.
+This is a fictional text-free workflow concept, not a recording of the actual Geoportal. Keep one monitor and four thumbnails; all interactions remain within the screen. No invented dates, login, prices, download, order or approval states. Use three purposeful actions only.
 
 START STATE:
-Desk view from Image1; landscape preview, selected region, two blank controls and four thumbnails visible.
+Image1 over-shoulder desk, navy knitted sleeves, right hand on mouse; physical monitor shows region rectangle, two blank sliders and four existing thumbnail cards.
 
 TIMELINE:
-[0:00–0:05] Dolly closer to the screen. The cursor settles on the existing rectangular region, establishing the geographic task.
+[0:00–0:03] Make the already selected geographic rectangle immediately readable; cursor rests on its lower-right corner.
 
-[0:05–0:10] One short drag refines the rectangle slightly without changing the underlying terrain or pretending to measure coordinates.
+[0:03–0:08] One short drag refines that corner slightly; underlying terrain stays rigid and no coordinate readout appears.
 
-[0:10–0:15] The cursor adjusts the lower blank slider once, then highlights one of the four existing candidate cards. Do not render dates.
+[0:08–0:15] Cursor moves to the lower blank slider and shifts it once, then selects the second existing thumbnail. A simple border records that selection; no new cards appear.
 
 END STATE:
-One thumbnail is highlighted after a subtle control adjustment; cursor rests near that candidate.
+One slider adjusted and second thumbnail visibly selected, all four cards still present; cursor resting beside the chosen card. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-50 mm over-shoulder dolly and restrained screen close-up, no inside-the-monitor flight or perspective distortion. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm over-shoulder desk shot with small push to the screen; keep bezel in every close view, no screen-space flight. Return to the hand at the finish. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Three purposeful mouse actions with readable pauses; no random clicking or fast fake scrolling. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft morning window light, navy cloth, matte grey desk and clean monitor reflections. Keep material identity and light direction consistent within each location.
@@ -3494,7 +3562,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 18 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-18/s18-archive.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-18/s18-archive.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3502,33 +3570,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional analyst desk and generic text-free map-workflow screen: central terrain, selected rectangle, two sliders and four image cards. Not the real Geoportal UI. File: projects/raznoe/references/scenes/scene-18/s18-archive.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Only one adult analyst shoulder and hands, navy knitted sleeves. Face stays outside the frame; left hand near keyboard and right hand on mouse.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-All interface graphics remain inside the physical monitor. Do not invent readable controls, account data, download confirmations or actual prices. The existing aerial terrain is a concept preview, not a certified satellite archive record.
+This is a fictional text-free workflow concept, not a recording of the actual Geoportal. Keep one monitor and four thumbnails; all interactions remain within the screen. No invented dates, login, prices, download, order or approval states. Use three purposeful actions only.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: One thumbnail is highlighted after a subtle control adjustment; cursor rests near that candidate.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): One slider adjusted and second thumbnail visibly selected, all four cards still present; cursor resting beside the chosen card.
 
 TIMELINE:
-[0:00–0:05] Continue from the selected card. Toggle once to a neighbouring candidate, keeping the comparison inside the same screen.
+[0:00–0:05] Continue from the selected thumbnail. Give a brief readable pause; mouse hand stays natural rather than clicking repeatedly.
 
-[0:05–0:10] Return to the first candidate and enlarge it within the main pane. The mouse action is calm and deliberate.
+[0:05–0:11] One deliberate open action enlarges that candidate in the main pane while retaining the thumbnail strip and region context.
 
-[0:10–0:15] Ease back to the desk and resting hand. End on the chosen preview without a purchase, download or approved-request message.
+[0:11–0:15] Ease back to include the resting hand and full monitor. End on the chosen preview, with no purchase or download confirmation.
 
 END STATE:
-Selected candidate is enlarged within the same screen while the region rectangle remains recognizable, analyst hand relaxed.
+Chosen candidate enlarged within the same physical monitor, small thumbnail strip retained and region recognizable; right hand relaxed on mouse.
 
 CAMERA / SPACE:
-50 mm over-shoulder dolly and restrained screen close-up, no inside-the-monitor flight or perspective distortion. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+50 mm over-shoulder desk shot with small push to the screen; keep bezel in every close view, no screen-space flight. Return to the hand at the finish. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Three purposeful mouse actions with readable pauses; no random clicking or fast fake scrolling. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Soft morning window light, navy cloth, matte grey desk and clean monitor reflections. Keep material identity and light direction consistent within each location.
@@ -3549,77 +3617,79 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-19"></a>
 ## Сцена 19 — НЦ ОМЗ: Река меняет границы
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Сезонный научпоп 30 с: условная пара состояний до разлива и во время него. Реальное событие не выбрано; даты и площадь не выдумываются.
 
-**Что происходит:** Знакомая излучина видна при низкой воде. Монтажное сравнение показывает ту же пойму во время разлива. Поверх изображения появляется простой контур: зритель видит разницу между снимком и выделенной областью.
+**Что происходит:** Два отдельных иллюстративных состояния показывают низкую и высокую воду. Явная склейка отделяет их и не притворяется точным совмещением. На втором виде широкий контур отмечает область для анализа, затем исчезает, возвращая зрителя к исходному изображению.
 
 **Факт и художественное решение:** Сопоставление изображений и тематическая обработка — разные этапы работы с ДЗЗ. Эта пара создана для объяснения, не является реальными разновременными данными и не используется для расчёта площади затопления.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/o-tsentre/) · [Официальный источник 2](https://ntsomz.ru/digital-earth/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-19/s19-lowwater.png`. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-19/s19-lowwater.png`. Separate illustrative low-water view: river, meadows, settlement and fields; no real date or calibrated geometry. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement.
 
 **Роли входов:** @Image1: Illustrative low-water state and geographic anchor layout: winding channel, settlements, fields and dry meadows. @Image2: Illustrative higher-water state of the same floodplain, reused from scene7 terrain plate. It supplies water extent only; Image1 anchors unchanged geography.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-19/s19-lowwater.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-19/s19-lowwater.png" alt="@Image1 — Река меняет границы · опорный вид" loading="lazy"></a><figcaption>@Image1 — Река меняет границы · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
-<figure><a href="projects/raznoe/references/scenes/scene-7/s07-map.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/s07-map.png" alt="@Image2 — Река меняет границы · дополнительный вид" loading="lazy"></a><figcaption>@Image2 — Река меняет границы · дополнительный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-19/s19-lowwater.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-19/s19-lowwater.png" alt="Сцена 19, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Separate illustrative low-water view: river, meadows, settlement and fields; no real date or calibrated geometry.. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-7/s07-map.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/s07-map.png" alt="Сцена 19, @Image2: постановочный референс" loading="lazy"></a><figcaption>@Image2 — Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Одна территория. Разные состояния реки. Снимки помогают заметить изменение, а тематическая обработка — выделить нужную область. Важно различать то, что видно на изображении, и то, что установлено анализом.»
 
 **Финальный титр для монтажа:** «НЦ ОМЗ. Увидеть изменение. Разобраться в нём.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Seedance 2.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Без мгновенного затопления и ложного совмещения; контур широкий и условный; никаких выдуманных площадей или тревоги. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="19">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 19 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-19/s19-lowwater.png`. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-19/s19-lowwater.png`. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic action, realistic materials and readable visual explanation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative low-water state and geographic anchor layout: winding channel, settlements, fields and dry meadows. File: projects/raznoe/references/scenes/scene-19/s19-lowwater.png.
-@Image2 — Illustrative higher-water state of the same floodplain, reused from scene7 terrain plate. It supplies water extent only; Image1 anchors unchanged geography. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image1 — Separate illustrative low-water view: river, meadows, settlement and fields; no real date or calibrated geometry. File: projects/raznoe/references/scenes/scene-19/s19-lowwater.png.
+@Image2 — Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people, rescue workers, vehicles or identifiable homes. The main river course and surrounding terrain are the stable subjects.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Compare two illustrative dates by an explicit editorial wipe, never by instantly flooding a live landscape. Image1 controls unchanged geography; Image2 controls broad floodplain coverage. Tiny generative differences are not analytic evidence. No exact boundary accuracy, area or safety decision.
+The two generated concepts are not calibrated dates or pixel-registered terrain. Preserve each illustration within its own shot; compare broad states only. Image2 controls its own higher-water shot. Cyan contour is a broad editorial attention area, never a precise flood boundary or safety decision.
 
 START STATE:
-High view of the low-water river and dry floodplain from Image1, same noon light and crop as the comparison view.
+Image1 high view of low-water channel and dry meadows; river bend, settlement and field blocks visible as broad landmarks.
 
 TIMELINE:
-[0:00–0:05] Glide gently across the low-water view, establishing the central river bend, upper settlement and field boundary anchors.
+[0:00–0:03] Establish the dry meadow beside the low-water channel, immediately showing a readable river/floodplain relation.
 
-[0:05–0:10] Pause the geographic camera move and begin a clean editorial wipe toward the higher-water state. No waves rush across land.
+[0:03–0:08] Push gently toward the central bend, retaining the settlement and field blocks as broad context.
 
-[0:10–0:15] Complete the wipe and settle on the same bend. The shallow floodplain water is now visible around the unchanged channel.
+[0:08–0:15] At 8s hard-cut to Image2 higher-water illustration. Let the distinct state read without waves invading land; a tiny camera drift resumes after the cut.
 
-[0:15–0:20] Continue the gentle camera drift. Draw one thin cyan contour around a broad visible floodplain zone, without numbers or warning symbols.
+[0:15–0:20] Continue the higher-water view. A thin cyan editorial contour indicates a broad area of visible floodplain water, not an exact waterline.
 
-[0:20–0:25] Briefly fade the contour out and back in to distinguish the underlying image from the added thematic interpretation.
+[0:20–0:26] Hold briefly, then fade the contour out completely so the viewer can distinguish image content from the added interpretation.
 
-[0:25–0:30] Ease wider and resolve on the river, floodplain and restrained contour together. Leave time for the viewer to understand the comparison.
+[0:26–0:30] Ease wider on the higher-water state. End with the image itself, no red warning, damage spectacle or invented quantity.
 
 END STATE:
-The higher-water image remains with one thin cyan outline around a broad illustrative floodplain zone; original terrain stays legible.
+Higher-water illustration remains at a wider scale after the broad contour fades; channel and surrounding terrain readable without a warning.
 
 CAMERA / SPACE:
-High geographic view with slow registered push; editorial wipe in the image plane. No fast aerial manoeuvres or axis reversal. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+High image-plane view, slight push within each still. Hard A/B cut between separate illustrations; no registered wipe, live flood simulation or morph. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Camera and comparison overlay provide motion; no live flood simulation, destroyed infrastructure or rescue drama. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Matched natural noon colour in both states, muted green land and grey-green water, restrained cyan contour. Keep material identity and light direction consistent within each location.
@@ -3646,34 +3716,34 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic action, realistic materials and readable visual explanation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative low-water state and geographic anchor layout: winding channel, settlements, fields and dry meadows. File: projects/raznoe/references/scenes/scene-19/s19-lowwater.png.
-@Image2 — Illustrative higher-water state of the same floodplain, reused from scene7 terrain plate. It supplies water extent only; Image1 anchors unchanged geography. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image1 — Separate illustrative low-water view: river, meadows, settlement and fields; no real date or calibrated geometry. File: projects/raznoe/references/scenes/scene-19/s19-lowwater.png.
+@Image2 — Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people, rescue workers, vehicles or identifiable homes. The main river course and surrounding terrain are the stable subjects.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Compare two illustrative dates by an explicit editorial wipe, never by instantly flooding a live landscape. Image1 controls unchanged geography; Image2 controls broad floodplain coverage. Tiny generative differences are not analytic evidence. No exact boundary accuracy, area or safety decision.
+The two generated concepts are not calibrated dates or pixel-registered terrain. Preserve each illustration within its own shot; compare broad states only. Image2 controls its own higher-water shot. Cyan contour is a broad editorial attention area, never a precise flood boundary or safety decision.
 
 START STATE:
-High view of the low-water river and dry floodplain from Image1, same noon light and crop as the comparison view.
+Image1 high view of low-water channel and dry meadows; river bend, settlement and field blocks visible as broad landmarks.
 
 TIMELINE:
-[0:00–0:05] Glide gently across the low-water view, establishing the central river bend, upper settlement and field boundary anchors.
+[0:00–0:03] Establish the dry meadow beside the low-water channel, immediately showing a readable river/floodplain relation.
 
-[0:05–0:10] Pause the geographic camera move and begin a clean editorial wipe toward the higher-water state. No waves rush across land.
+[0:03–0:08] Push gently toward the central bend, retaining the settlement and field blocks as broad context.
 
-[0:10–0:15] Complete the wipe and settle on the same bend. The shallow floodplain water is now visible around the unchanged channel.
+[0:08–0:15] At 8s hard-cut to Image2 higher-water illustration. Let the distinct state read without waves invading land; a tiny camera drift resumes after the cut.
 
 END STATE:
-The higher-water state fills the frame after the editorial wipe, river bend and village positions remain registered.
+Image2 higher-water illustration fills the frame after a hard editorial cut, broad floodplain coverage visible; no overlay yet. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-High geographic view with slow registered push; editorial wipe in the image plane. No fast aerial manoeuvres or axis reversal. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+High image-plane view, slight push within each still. Hard A/B cut between separate illustrations; no registered wipe, live flood simulation or morph. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Camera and comparison overlay provide motion; no live flood simulation, destroyed infrastructure or rescue drama. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Matched natural noon colour in both states, muted green land and grey-green water, restrained cyan contour. Keep material identity and light direction consistent within each location.
@@ -3690,42 +3760,42 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 19 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-19/s19-lowwater.png`. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-19/s19-lowwater.png`. @Image2 — `projects/raznoe/references/scenes/scene-7/s07-map.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic action, realistic materials and readable visual explanation
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative low-water state and geographic anchor layout: winding channel, settlements, fields and dry meadows. File: projects/raznoe/references/scenes/scene-19/s19-lowwater.png.
-@Image2 — Illustrative higher-water state of the same floodplain, reused from scene7 terrain plate. It supplies water extent only; Image1 anchors unchanged geography. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Image1 — Separate illustrative low-water view: river, meadows, settlement and fields; no real date or calibrated geometry. File: projects/raznoe/references/scenes/scene-19/s19-lowwater.png.
+@Image2 — Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement. File: projects/raznoe/references/scenes/scene-7/s07-map.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No featured people, rescue workers, vehicles or identifiable homes. The main river course and surrounding terrain are the stable subjects.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Compare two illustrative dates by an explicit editorial wipe, never by instantly flooding a live landscape. Image1 controls unchanged geography; Image2 controls broad floodplain coverage. Tiny generative differences are not analytic evidence. No exact boundary accuracy, area or safety decision.
+The two generated concepts are not calibrated dates or pixel-registered terrain. Preserve each illustration within its own shot; compare broad states only. Image2 controls its own higher-water shot. Cyan contour is a broad editorial attention area, never a precise flood boundary or safety decision.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: The higher-water state fills the frame after the editorial wipe, river bend and village positions remain registered.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Image2 higher-water illustration fills the frame after a hard editorial cut, broad floodplain coverage visible; no overlay yet.
 
 TIMELINE:
-[0:00–0:05] Continue the gentle camera drift. Draw one thin cyan contour around a broad visible floodplain zone, without numbers or warning symbols.
+[0:00–0:05] Continue the higher-water view. A thin cyan editorial contour indicates a broad area of visible floodplain water, not an exact waterline.
 
-[0:05–0:10] Briefly fade the contour out and back in to distinguish the underlying image from the added thematic interpretation.
+[0:05–0:11] Hold briefly, then fade the contour out completely so the viewer can distinguish image content from the added interpretation.
 
-[0:10–0:15] Ease wider and resolve on the river, floodplain and restrained contour together. Leave time for the viewer to understand the comparison.
+[0:11–0:15] Ease wider on the higher-water state. End with the image itself, no red warning, damage spectacle or invented quantity.
 
 END STATE:
-The higher-water image remains with one thin cyan outline around a broad illustrative floodplain zone; original terrain stays legible.
+Higher-water illustration remains at a wider scale after the broad contour fades; channel and surrounding terrain readable without a warning.
 
 CAMERA / SPACE:
-High geographic view with slow registered push; editorial wipe in the image plane. No fast aerial manoeuvres or axis reversal. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+High image-plane view, slight push within each still. Hard A/B cut between separate illustrations; no registered wipe, live flood simulation or morph. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Camera and comparison overlay provide motion; no live flood simulation, destroyed infrastructure or rescue drama. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Matched natural noon colour in both states, muted green land and grey-green water, restrained cyan contour. Keep material identity and light direction consistent within each location.
@@ -3746,36 +3816,38 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-20"></a>
 ## Сцена 20 — НЦ ОМЗ: Красота становится знанием
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","queued_one_attempt","two_engine_versions","reference_first","civil_space","concept_visualization"]} -->
 
 **Контекст использования:** Первый выпуск визуальной серии 30 с. Выбран сюжет дельты; поля, вулканы и лёд остаются возможными отдельными выпусками, не дополнительными неподготовленными сценами.
 
-**Что происходит:** Вначале зритель видит почти абстрактный узор. Камера расширяет масштаб: линии оказываются речными протоками. Один осторожный контур показывает, как наблюдение превращает красивый вид в вопрос для исследования.
+**Что происходит:** Неузнаваемый сначала узор раскрывается как дельта. Камера следует одной протоке до моря, затем отходит шире. Короткая графическая линия помогает проследить ветвь и исчезает: красота становится понятной структурой.
 
 **Факт и художественное решение:** ДЗЗ применяют для изучения природных территорий. Дельта здесь вымышлена: изображение не подтверждает состояние конкретного побережья, загрязнение или изменение русла.
 
 **Источники (сверка 23.10.2026):** [Официальный источник 1](https://ntsomz.ru/o-tsentre/). Исходное исследование — 22.10.2026; новые постановочные решения — 23.10.2026.
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-20/s20-delta.png`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-20/s20-delta.png`. Fictional delta geography: branching dark channels, bronze-green wetlands, pale sandbars and turquoise sea; composition and materials only.
 
 **Роли входов:** @Image1: Fictional delta geography: branching dark channels, bronze-green wetlands, pale sandbars and turquoise sea; composition and materials only.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/scenes/scene-20/s20-delta.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-20/s20-delta.png" alt="@Image1 — Красота становится знанием · опорный вид" loading="lazy"></a><figcaption>@Image1 — Красота становится знанием · опорный вид · созданный концепт, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-20/s20-delta.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-20/s20-delta.png" alt="Сцена 20, @Image1: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Fictional delta geography: branching dark channels, bronze-green wetlands, pale sandbars and turquoise sea; composition and materials only.. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Сначала — узор. Потом — река, протоки и берег. Красота привлекает внимание. Данные помогают задать точный вопрос: как устроена эта территория и что в ней меняется?»
 
 **Финальный титр для монтажа:** «НЦ ОМЗ. Смотреть внимательнее. Понимать больше.»
 
-**Готовность:** статические входы созданы и технически просмотрены. DRAFT / not_approved: художественная приёмка остаётся владельцу. Для части 2 нужен настоящий конец части 1; его пока нет. Для документального фирменного выпуска концепты заменяются согласованными материалами. Очередь не менялась. Основной предложенный движок — Seedance 2.0; запуск отдельно и только после проверки Unlimited / 0 кредитов.
+**Готовность:** изображения просмотрены, все роли и пути закреплены. Выбранный движок очереди: Seedance 2.0. Одна попытка по прямой команде владельца 23.10.2026, только Unlimited / 0 кредитов. Часть 2 Seedance заблокирована до получения последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Одна и та же дельта от крупного к общему; линия следует существующей протоке; новые русла не появляются. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
 <div class="engine-tabs" data-scene="20">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 20 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-20/s20-delta.png`. Тот же текст используется без изменений на Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-20/s20-delta.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3783,38 +3855,38 @@ Optimized for Wan 3.0 | Civil space-science concept film; precise cinematic acti
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional delta geography: branching dark channels, bronze-green wetlands, pale sandbars and turquoise sea; composition and materials only. File: projects/raznoe/references/scenes/scene-20/s20-delta.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people, buildings or animals. Preserve the same branching main channel and sandbar shapes throughout.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The opening abstraction is a tight crop of the same delta, not paint or ink physically turning into land. Overlays are editorial. Do not invent erosion measurements, pollution claims or real coordinates.
+Image1 alone governs the channel network and sandbars. Every revealed channel already belongs to the original geography. A short amber editorial line traces one existing branch only; no flow measurement, pollution detection or erosion claim.
 
 START STATE:
-Tight high-angle crop of a branching channel junction; recognizable material textures but coastline still outside the crop.
+Tight crop of one channel junction within Image1, bronze-green wetland texture and dark branching water; coast outside the initial crop.
 
 TIMELINE:
-[0:00–0:05] Track a short distance along one dark branching channel at tight scale, creating an intriguing near-abstract pattern.
+[0:00–0:03] Follow the dark fork for a short distance at tight scale; the unfamiliar branching pattern creates curiosity.
 
-[0:05–0:10] Pull upward steadily to reveal neighbouring channels. Maintain the same junction instead of crossfading to a different landscape.
+[0:03–0:08] Pull back steadily so neighbouring channels connect visibly to that same fork. Reveal real wetland texture rather than an abstract painting transition.
 
-[0:10–0:15] Continue widening until the pale sandbars and first sea edge become visible. Settle into the readable delta composition.
+[0:08–0:15] Continue widening until pale sandbars and turquoise sea appear. Settle with junction, branch and sea all locatable, retaining tiny drift.
 
-[0:15–0:20] Continue the same camera direction and add one thin amber editorial outline along a single existing branch.
+[0:15–0:20] Continue the incoming camera direction. Trace a thin amber line along one existing branch toward the sea; leave all other branches untouched.
 
-[0:20–0:25] The outline follows that branch toward the sea; never invent new channels or quantify flow. Gentle water texture supplies life.
+[0:20–0:26] Let the line reach the already visible coast, then fade it completely. Water texture stays subtle and no new channel forms.
 
-[0:25–0:30] Reveal the broad delta and turquoise coast. Fade the outline, leaving a beautiful but now understandable landscape.
+[0:26–0:30] Finish the controlled pullback on the complete delta. The viewer can now follow the natural branch without the guide, resolving curiosity into understanding.
 
 END STATE:
-Full reference geography is readable, one restrained branch outline fades away, natural coast and channels remain alive.
+Broad delta and coast from Image1, all annotations gone, chosen branch still traceable by its natural shape and water texture.
 
 CAMERA / SPACE:
-Controlled aerial pullback from detail to wide, slight lateral drift only; no impossible orbit-to-ground zoom or spinning camera. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+One controlled aerial pullback and slight lateral drift along an existing branch. Opening crop is a detail of Image1; never dissolve from ink, change geography or make an orbital zoom. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Clear progressive reveal, subtle water texture and one useful annotation; no static slide show. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Muted bronze-green wetlands, pale sand and turquoise water under warm late-afternoon light, consistent shadows. Keep material identity and light direction consistent within each location.
@@ -3842,32 +3914,32 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional delta geography: branching dark channels, bronze-green wetlands, pale sandbars and turquoise sea; composition and materials only. File: projects/raznoe/references/scenes/scene-20/s20-delta.png.
-Priority: each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+Priority: each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people, buildings or animals. Preserve the same branching main channel and sandbar shapes throughout.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The opening abstraction is a tight crop of the same delta, not paint or ink physically turning into land. Overlays are editorial. Do not invent erosion measurements, pollution claims or real coordinates.
+Image1 alone governs the channel network and sandbars. Every revealed channel already belongs to the original geography. A short amber editorial line traces one existing branch only; no flow measurement, pollution detection or erosion claim.
 
 START STATE:
-Tight high-angle crop of a branching channel junction; recognizable material textures but coastline still outside the crop.
+Tight crop of one channel junction within Image1, bronze-green wetland texture and dark branching water; coast outside the initial crop.
 
 TIMELINE:
-[0:00–0:05] Track a short distance along one dark branching channel at tight scale, creating an intriguing near-abstract pattern.
+[0:00–0:03] Follow the dark fork for a short distance at tight scale; the unfamiliar branching pattern creates curiosity.
 
-[0:05–0:10] Pull upward steadily to reveal neighbouring channels. Maintain the same junction instead of crossfading to a different landscape.
+[0:03–0:08] Pull back steadily so neighbouring channels connect visibly to that same fork. Reveal real wetland texture rather than an abstract painting transition.
 
-[0:10–0:15] Continue widening until the pale sandbars and first sea edge become visible. Settle into the readable delta composition.
+[0:08–0:15] Continue widening until pale sandbars and turquoise sea appear. Settle with junction, branch and sea all locatable, retaining tiny drift.
 
 END STATE:
-Wider view reveals the main delta channel and several branches, with pale sandbars and a first strip of turquoise sea.
+Wider view of that same junction and its connected branches; pale sandbars and first turquoise sea edge have entered the frame. Preserve gentle continuous motion over the final 3 seconds for the next part; no fade or end card.
 
 CAMERA / SPACE:
-Controlled aerial pullback from detail to wide, slight lateral drift only; no impossible orbit-to-ground zoom or spinning camera. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+One controlled aerial pullback and slight lateral drift along an existing branch. Opening crop is a detail of Image1; never dissolve from ink, change geography or make an orbital zoom. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Clear progressive reveal, subtle water texture and one useful annotation; no static slide show. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Muted bronze-green wetlands, pale sand and turquoise water under warm late-afternoon light, consistent shadows. Keep material identity and light direction consistent within each location.
@@ -3884,7 +3956,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 20 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-20/s20-delta.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, изображением не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-20/s20-delta.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3892,33 +3964,33 @@ Optimized for Seedance 2.0 | Civil space-science concept film; precise cinematic
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Fictional delta geography: branching dark channels, bronze-green wetlands, pale sandbars and turquoise sea; composition and materials only. File: projects/raznoe/references/scenes/scene-20/s20-delta.png.
-@Video1 — final 3 seconds of the actual Part 1 result for this scene; absolute authority for the starting pose, camera, lighting and ongoing motion.
-Priority: Actual @Video1 continuity first; each @Image controls only its stated role. Do not let a later concept still reset the actual starting motion. These are authored concept references, not documentary evidence or specifications.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named shot and role. Later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence or specifications.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No people, buildings or animals. Preserve the same branching main channel and sandbar shapes throughout.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The opening abstraction is a tight crop of the same delta, not paint or ink physically turning into land. Overlays are editorial. Do not invent erosion measurements, pollution claims or real coordinates.
+Image1 alone governs the channel network and sandbars. Every revealed channel already belongs to the original geography. A short amber editorial line traces one existing branch only; no flow measurement, pollution detection or erosion claim.
 
 START STATE:
-Match the final frame, camera velocity and lighting of @Video1. Expected narrative state: Wider view reveals the main delta channel and several branches, with pale sandbars and a first strip of turquoise sea.
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff composition (subordinate to actual video): Wider view of that same junction and its connected branches; pale sandbars and first turquoise sea edge have entered the frame.
 
 TIMELINE:
-[0:00–0:05] Continue the same camera direction and add one thin amber editorial outline along a single existing branch.
+[0:00–0:05] Continue the incoming camera direction. Trace a thin amber line along one existing branch toward the sea; leave all other branches untouched.
 
-[0:05–0:10] The outline follows that branch toward the sea; never invent new channels or quantify flow. Gentle water texture supplies life.
+[0:05–0:11] Let the line reach the already visible coast, then fade it completely. Water texture stays subtle and no new channel forms.
 
-[0:10–0:15] Reveal the broad delta and turquoise coast. Fade the outline, leaving a beautiful but now understandable landscape.
+[0:11–0:15] Finish the controlled pullback on the complete delta. The viewer can now follow the natural branch without the guide, resolving curiosity into understanding.
 
 END STATE:
-Full reference geography is readable, one restrained branch outline fades away, natural coast and channels remain alive.
+Broad delta and coast from Image1, all annotations gone, chosen branch still traceable by its natural shape and water texture.
 
 CAMERA / SPACE:
-Controlled aerial pullback from detail to wide, slight lateral drift only; no impossible orbit-to-ground zoom or spinning camera. Preserve coherent space, camera inertia and the stated axis. No unmotivated teleport or random handheld shake.
+One controlled aerial pullback and slight lateral drift along an existing branch. Opening crop is a detail of Image1; never dissolve from ink, change geography or make an orbital zoom. Execute only shots belonging to this part; other reference roles are not instructions to add later actions. Cuts are deliberate; no accidental axis reversal, camera jitter or floating geometry.
 
 PERFORMANCE:
-Clear progressive reveal, subtle water texture and one useful annotation; no static slide show. Keep motion purposeful and legible through the last frame.
+Prioritize the specific visible action in each timed beat. One gesture or focus target at a time; allow readable reactions and settling. Respect physical contact, support and inertia. Keep subtle breathing, environmental motion or light drift through quieter moments; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Muted bronze-green wetlands, pale sand and turquoise water under warm late-afternoon light, consistent shadows. Keep material identity and light direction consistent within each location.

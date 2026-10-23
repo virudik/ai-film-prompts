@@ -1,0 +1,867 @@
+{
+  "work_id": "RAZNOE-QUALITY-20261023",
+  "updated_at": "2026-10-23T00:15:05Z",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "title": "1 — Роскосмос: Космос работает здесь",
+      "selected_engine": "Seedance 2.0",
+      "summary": "От блеска воды камера открывает поля и город. Более близкий воздушный ракурс позволяет выделить одно поле. Контур исчезает, а финальный общий план возвращает участок в живой пейзаж: информация нужна для конкретного места.",
+      "critical_qc": "Участок читается без надписей; контур не меняет географию; два ракурса соединены монтажом, а не деформацией.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.",
+          "path": "projects/raznoe/references/scenes/scene-1/01-earth-work.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot.",
+          "path": "projects/raznoe/references/scenes/scene-1/q01-overhead.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "1 · Wan 3.0",
+          "sha256": "553906f316f1ae7f34241e22d97eb118b4ef50d356149785f01baebcec53be38",
+          "normalized_sha256": "17a3ba04434e81db87656c3f8a18cf4749f0c4aca5bd0d63a4d773e44a43a022",
+          "chars": 4071
+        },
+        {
+          "label": "1 · Seedance 2.0 часть 1",
+          "sha256": "c4d461ced0d430ad2fe232114041cb6dd17f3159dbed200d49d05393a1135962",
+          "normalized_sha256": "f38d5b24f1beee59cab5024604e49103a18edc7cf1e5dfc6e14358794b7fa9b2",
+          "chars": 3818
+        },
+        {
+          "label": "1 · Seedance 2.0 часть 2",
+          "sha256": "754e0bbd9a0bbb0293f65055815404fd46aa2ac312ef3aae22128432ba34c4f3",
+          "normalized_sha256": "acab0fa2bde964a27bb9b48d31370428d96a5fe92b076ce0986746cbcc3d2204",
+          "chars": 4089
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 2,
+      "title": "2 — Роскосмос: Земля обретает объём",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Камера сначала подтверждает, что перед нами плоская модель. На выставочном столе поднимается рельеф, появляется читаемая долина. Низкий боковой ракурс показывает высоту, финальный общий план связывает объём с исходной картой.",
+      "critical_qc": "Начало действительно плоское; город и река не расползаются; после подъёма рельеф больше не пульсирует.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area.",
+          "path": "projects/raznoe/references/scenes/scene-2/02-stereo-relief.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Flat printed-terrain starting state on the same navy plinth. Image2 controls the opening flat surface; Image1 controls the final raised relief. Keep shared river and city anchors registered.",
+          "path": "projects/raznoe/references/scenes/scene-2/s02-flat.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "2 · Wan 3.0",
+          "sha256": "6f88f0617d34fb91b35a9f789605db87872ff2a341bdd8783e0b92c3be210daa",
+          "normalized_sha256": "d14a043a32212f762c5f6de0face305eeb492d45659ffc2b91bb6e81fa77de6c",
+          "chars": 4038
+        },
+        {
+          "label": "2 · Seedance 2.0 часть 1",
+          "sha256": "1b45ac01fbe0bb9d271bb546d368846070ed7944824e91e606667ee53cdbf7a0",
+          "normalized_sha256": "a2e15322a99fa33f295449180694b8805433b78ff2e4dfaf413e42eceab9a13a",
+          "chars": 3840
+        },
+        {
+          "label": "2 · Seedance 2.0 часть 2",
+          "sha256": "24109c77ac7508e0819314b3eb803c4270cda9efa828c9e61941ffedd842a16f",
+          "normalized_sha256": "30d2c3b9b9608f05ab17add33b5e644de19a4987651fdd65d7806d8cebfd83c1",
+          "chars": 4052
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 3,
+      "title": "3 — Главкосмос: Большой путь малого спутника",
+      "selected_engine": "Wan 3.0",
+      "summary": "Руки снимают опору с аккуратно подготовленного демонстратора. Камера показывает корпус и солнечную панель. Явная монтажная склейка переносит тот же аппарат в условный орбитальный кадр; финал открывает масштаб Земли.",
+      "critical_qc": "Один и тот же аппарат до/после склейки; нет опоры в космосе, внезапного раскрытия панелей и имитации запуска.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.",
+          "path": "projects/raznoe/references/scenes/scene-3/03-small-satellite.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space.",
+          "path": "projects/raznoe/references/scenes/scene-3/s03-orbit.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "3 · Wan 3.0",
+          "sha256": "f34016632e0317ba3966712e17643718c9160bace22f522c6ae72987ecd7643d",
+          "normalized_sha256": "83610e52988b3e7c7ae82e250f025f058d76d3c02ee97a8464a9260a5e632cc7",
+          "chars": 4186
+        },
+        {
+          "label": "3 · Seedance 2.0 часть 1",
+          "sha256": "7c1280e2d2428056781e68f8ca0fe8d7cab045ff83b37ae757bb34843167429e",
+          "normalized_sha256": "e9a741645c7fcb9d99e86caa49435d6f0ba8240fa32dc522a70dfb1eca51af97",
+          "chars": 3931
+        },
+        {
+          "label": "3 · Seedance 2.0 часть 2",
+          "sha256": "f7a5c4b396cb54f5a69daf7cba8c1aa000a9489630ef16f08800859bb0078b17",
+          "normalized_sha256": "77409dad0cff5fc3358d3a70c8ee20d58d2a8f5f2ed505cbad0da193a727b4dc",
+          "chars": 4268
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 4,
+      "title": "4 — Главкосмос: Прикоснуться к своей миссии",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Посетительница выбирает один элемент на экране и поворачивает модель коротким движением. Она останавливается на понятном ракурсе, затем отступает к разговору с консультантом. Результат — выбранный предмет обсуждения, а не фиктивно заказанная миссия.",
+      "critical_qc": "Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
+          "path": "projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity.",
+          "path": "projects/raznoe/references/scenes/scene-4/s04-touch.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "4 · Wan 3.0",
+          "sha256": "994b90559ec58026fb39a7017bfffa62b3e67896446a90a93ea9d07a102d8ab7",
+          "normalized_sha256": "29645b85d6c44d954754020000ba21e583954d69401161d274ad79cc8ee9d0aa",
+          "chars": 4013
+        },
+        {
+          "label": "4 · Seedance 2.0 часть 1",
+          "sha256": "b72fcb74fbe2cc8d4cb1796c6b7ebf16a7ba65b3b511f83670f5d2db6e91cb51",
+          "normalized_sha256": "9c9ac407dce5ca9de744548f5cc838b2b15e1e146cd58fe98c203885609d3b04",
+          "chars": 3799
+        },
+        {
+          "label": "4 · Seedance 2.0 часть 2",
+          "sha256": "006612e55fdeecc0904bebafd868e317ba756ff86fd6088d2a31337b9ed7ebc3",
+          "normalized_sha256": "18e563178508d90c9deab975d49d4b21723665a9a536efc857d296341fd7b9db",
+          "chars": 4028
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 5,
+      "title": "5 — РКС: Всё начинается с точности",
+      "selected_engine": "Wan 3.0",
+      "summary": "Оптическое кольцо опускается в подготовленное посадочное место. Пальцы проверяют внешний край и уходят. Световой блик позволяет рассмотреть собранный узел; итог — физически убедительная посадка детали.",
+      "critical_qc": "Посадка без проникновения твёрдых тел; количество пальцев постоянно; стекло не превращается в жидкость.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.",
+          "path": "projects/raznoe/references/scenes/scene-5/05-space-instrument.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state.",
+          "path": "projects/raznoe/references/scenes/scene-5/s05-assembled.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "5 · Wan 3.0",
+          "sha256": "0c35a28df5e101f7bf7c42e02d8cd1b3d121573b29e5dc3f98766b619b03f1e0",
+          "normalized_sha256": "fcaa89d6e1d7141cdfbca1b62081d68ddcd5638c74d1742f6aa7ee1000922eca",
+          "chars": 3953
+        },
+        {
+          "label": "5 · Seedance 2.0 часть 1",
+          "sha256": "bc029c3353f2b1f88c58c9d27738fd228a98454c10696f0d48869f866e68aeac",
+          "normalized_sha256": "d4fcd62b1b49e92fe4c828befecbf8ba0f9ae297fbd1c028d14fc97fd6f9d22a",
+          "chars": 3716
+        },
+        {
+          "label": "5 · Seedance 2.0 часть 2",
+          "sha256": "a5a5d659a2071c30c1d432b6a010517bfe94af26ea026a8924d9565af0a92771",
+          "normalized_sha256": "ade126364fdea8969c58d4436e8f4fb3af8af6ab7038d8ecfeaa9bac91bcf74c",
+          "chars": 3973
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 6,
+      "title": "6 — РКС: Увидеть изменения вдоль линии",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Просека направляет взгляд вдоль линии. Близкий воздушный план открывает участок лесной кромки, который стоит проверить. После короткого графического выделения камера возвращает его в контекст всей линии.",
+      "critical_qc": "Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
+          "path": "projects/raznoe/references/scenes/scene-6/06-power-corridor.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
+          "path": "projects/raznoe/references/scenes/scene-6/q06-overhead.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "6 · Wan 3.0",
+          "sha256": "2391e98a2ff2736bc8676a7dd256442d9cc33912f7f95595e5ced812b00f711e",
+          "normalized_sha256": "5a81ffeca3e130eb98f611ad440f3a042bd98ef3163da869d0420d9d1d4409bd",
+          "chars": 3922
+        },
+        {
+          "label": "6 · Seedance 2.0 часть 1",
+          "sha256": "373f803495531e3e71503939340256ffc7b139b36f9a18a743d005432b36e98f",
+          "normalized_sha256": "89873b1868cbd422e1d3f08fb612fcad8a243df2b338e48b6e668436ff20425d",
+          "chars": 3708
+        },
+        {
+          "label": "6 · Seedance 2.0 часть 2",
+          "sha256": "02fb69d1775773b7c188d1068ae59af170f88158b834f6c6d5a3074e0a1d074a",
+          "normalized_sha256": "1c883ddb696d83b6c8c41f7b00ee2de1cd5465b8fea8819b4dfac3abadeed954",
+          "chars": 4016
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 7,
+      "title": "7 — НЦ ОМЗ: Из снимка — в понятное решение",
+      "selected_engine": "Wan 3.0",
+      "summary": "Сначала виден снимок реки. Отъезд раскрывает аналитиков: один выделяет небольшую зону, другой сверяет её на своём мониторе. Финал оставляет общий предмет анализа, без ложного обещания автоматического решения.",
+      "critical_qc": "Одинаковая река на всех экранах; указание соответствует зоне; жест не превращается в готовый научный вывод.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.",
+          "path": "projects/raznoe/references/scenes/scene-7/07-earth-operations.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location.",
+          "path": "projects/raznoe/references/scenes/scene-7/s07-map.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "7 · Wan 3.0",
+          "sha256": "b0f5ce6866cf2d9bbd8f0860977b795817f26c8c3d25bf1fc3a8d470c2a27664",
+          "normalized_sha256": "2188879e3af2ec8511e7e2cea049c7f47b01c48eb59d806681eb522f42cc4402",
+          "chars": 4042
+        },
+        {
+          "label": "7 · Seedance 2.0 часть 1",
+          "sha256": "860d7144ce46e53290f195dd5670bb4a9c2f58f524c1640048c306ad32316f8f",
+          "normalized_sha256": "2b70d03b061ebf99df2257776540726c99383d68db0d1922013d357193b702e2",
+          "chars": 3794
+        },
+        {
+          "label": "7 · Seedance 2.0 часть 2",
+          "sha256": "e6418cd1eec14427bba4e877c222642210fcc1979a32151e8d6e43d165ca071b",
+          "normalized_sha256": "68ce70fef26f401992e950e9ca3613206bfeb776ea88adb5fcb5375afa493cc3",
+          "chars": 4112
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 8,
+      "title": "8 — НЦ ОМЗ: У территории есть память",
+      "selected_engine": "Wan 3.0",
+      "summary": "В двух отдельных окнах заметны похожие лес и дорога. Внимание сужается до расширившегося пятна открытого грунта. Контур помогает сравнить состояния, а финал оставляет оба изображения для проверки человеком.",
+      "critical_qc": "Два независимых окна; река не пересекает разделитель; разница читается без выдуманных дат и обвинений.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.",
+          "path": "projects/raznoe/references/scenes/scene-8/08-land-memory.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider.",
+          "path": "projects/raznoe/references/scenes/scene-8/s08-pair.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "8 · Wan 3.0",
+          "sha256": "b4e5690c8ffaf5b36aab15714461e147762013ca119227a33ab0b29e3e4f19d1",
+          "normalized_sha256": "17b4ea4cdb572acf47a928147e4a6c346e017c7b1ca87563fd01c05b18063ece",
+          "chars": 4030
+        },
+        {
+          "label": "8 · Seedance 2.0 часть 1",
+          "sha256": "5e4d6c7d34928326890475c748b257c592f9c2941c6820ecb6eafb1edc74b56c",
+          "normalized_sha256": "a91f30c1d24fff919a7dd1309182e0f61c0d40d19ac9e4cd87c50c29322c03cb",
+          "chars": 3815
+        },
+        {
+          "label": "8 · Seedance 2.0 часть 2",
+          "sha256": "14a5b5f39c52b8cb53f4dddc8455e1cc0e2ad85b8b24edc9290711f10db7d555",
+          "normalized_sha256": "32228c2a96b17985f53d4fdd768550c4a8ff41cb99f8d98d2c400a79b9100c45",
+          "chars": 4096
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 9,
+      "title": "9 — Роскосмос: Один день Земли с орбиты",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Одна и та же Земля проходит от дневного освещения к вечеру. Контур материков не вращается: меняются только свет и облака. Финал сохраняет полный диск и тонкую атмосферу, показывая наблюдение за изменением во времени.",
+      "critical_qc": "Один контур материков и размер Земли; ночь идёт в одном направлении; нет вращения шара как игрушки.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image.",
+          "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
+          "path": "projects/raznoe/references/scenes/scene-9/q09-evening.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "9 · Wan 3.0",
+          "sha256": "77b0d8b5a71cbb471e03d4d45a28e20ddafad7bee37eeeb942ccdae2d43266d4",
+          "normalized_sha256": "99c63f797e7a8375317df50c71502dcec871495e8ad259f38cb70fb095c94152",
+          "chars": 4127
+        },
+        {
+          "label": "9 · Seedance 2.0 часть 1",
+          "sha256": "218e5830b53af751e50e057d6ae07ac23248106c349e5748cdf92c14ef0329f4",
+          "normalized_sha256": "052e0a70c21847e1ca793e4b86bbd8be5f16f9f73d267baf9ef00df96cb186c7",
+          "chars": 3894
+        },
+        {
+          "label": "9 · Seedance 2.0 часть 2",
+          "sha256": "86b93790e05dc67c37d152a3412286a49ed47ad2d5ccb52e3b562216def05c81",
+          "normalized_sha256": "4c775ad6bf636218136c90928688aea85fb9c31478933b9abdba190f0b2bf361",
+          "chars": 4217
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 10,
+      "title": "10 — Роскосмос: Не видимое глазу",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Зритель сначала узнаёт реку и поля в естественном цвете. Отдельная монтажная склейка показывает условные цвета другой иллюстрации, затем внимание возвращается к обычному виду. Это объяснение способа представления, без ложной точности совмещения.",
+      "critical_qc": "Явные A/B-склейки; нет попиксельного wipe между несовпадающими иллюстрациями; цвет не выдаётся за диагноз.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village.",
+          "path": "projects/raznoe/references/scenes/scene-10/s10-visible.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map.",
+          "path": "projects/raznoe/references/scenes/scene-10/s10-spectral.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "10 · Wan 3.0",
+          "sha256": "7956b0adc49072cb6d29f32d2dad62463ba4e681852764992a702aca373b0c2a",
+          "normalized_sha256": "e4e04316756436c4521d9f5cf75a0b88833236bf65757b1b0e2c190b1ebf1263",
+          "chars": 4077
+        },
+        {
+          "label": "10 · Seedance 2.0 часть 1",
+          "sha256": "0c08073395bb54ca874fbef6b68a9355807763db453dd903cf9d12a11cde9458",
+          "normalized_sha256": "7b6ed9ac06d36d10998b3602a930c521acd097d769f1297eb484f51f7f062bb3",
+          "chars": 3817
+        },
+        {
+          "label": "10 · Seedance 2.0 часть 2",
+          "sha256": "de614768df94cfb84c0e4f73d34330f73a0a04f53bdaadf22b82e520e91bf0b6",
+          "normalized_sha256": "afc456452093abf4e6f332455cb4c48f663fa634b6b0677bc1cdb456ee7a83d6",
+          "chars": 4202
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 11,
+      "title": "11 — Роскосмос: Кто делает космос",
+      "selected_engine": "Wan 3.0",
+      "summary": "Сосредоточенная инженерная работа раскрывается через одно точное движение: внешний регулятор, отпускание рук, осмотр. После завершения действия склейка переносит нас к полям и реке — к смыслу работы, без имитации прямого изображения с этого прибора.",
+      "critical_qc": "Белые перчатки и голубой халат неизменны; регулировка понятна; пейзаж показан отдельной монтажной иллюстрацией.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp.",
+          "path": "projects/raznoe/references/scenes/scene-11/s11-engineer.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Separate illustrative landscape for the final editorial cut: fields, river and town. Not an output measured by the fictional device.",
+          "path": "projects/raznoe/references/scenes/scene-1/01-earth-work.png"
+        },
+        {
+          "slot": "@Image3",
+          "role": "Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.",
+          "path": "projects/raznoe/references/scenes/scene-11/q11-hands.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "11 · Wan 3.0",
+          "sha256": "b5c4293d59325cd2da572517f01a4e7c5371896075a06ab221fdb608feb133d9",
+          "normalized_sha256": "94f6b747468f35f240e9314971745839cc3b1283fa69ed7778d384cb7244b2ca",
+          "chars": 4475
+        },
+        {
+          "label": "11 · Seedance 2.0 часть 1",
+          "sha256": "cf6b8c3e2dc22ac7fe0ec392dd7b1cd3223041cda5f2f65876e147dc514f3d9a",
+          "normalized_sha256": "55ef36ae0f95bf5c439dfd21e51bac9e722d313ed55095b5b1188500329d2b0a",
+          "chars": 4208
+        },
+        {
+          "label": "11 · Seedance 2.0 часть 2",
+          "sha256": "dd638fd10e3c9ff0f07f5127fb666f4a0605d3c2fcc12da1418ab17780a04c4b",
+          "normalized_sha256": "a9c7b1f3fd3ae1750df299eb750fe8aebd17f75f0493172500c603dfd1aa91d2",
+          "chars": 4559
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 12,
+      "title": "12 — Главкосмос: Миссия начинается с вопроса",
+      "selected_engine": "Wan 3.0",
+      "summary": "Встреча получает конкретный предмет: клиентка выбирает карточку полей. Консультант выдвигает её вперёд, оставляя море и аппарат как другие варианты. Все смотрят на одну задачу; только затем внимание переходит к демонстрационному макету.",
+      "critical_qc": "Выбрана одна карточка; другие не исчезают; четыре человека сохраняют места после верхнего ракурса.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background.",
+          "path": "projects/raznoe/references/scenes/scene-12/s12-consultation.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.",
+          "path": "projects/raznoe/references/scenes/scene-12/q12-cards.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "12 · Wan 3.0",
+          "sha256": "0c458fd3fb11dd75d94923f8bdf63a4dcadee3d5c8c5294cf4316f13717ef282",
+          "normalized_sha256": "9a73724149ce5ef6a39c5563044a35e14bf4da3ecc99d8fb8a1ff1b99f37d11f",
+          "chars": 4404
+        },
+        {
+          "label": "12 · Seedance 2.0 часть 1",
+          "sha256": "3c0ff3a5731f267d013d2e5643a40a7dd548d0a0f0d460e28f705e9bf9b6912c",
+          "normalized_sha256": "d1920a5770a7e40dbf937b9773e02959c50d2838f99f5305472cc71dda0b6fbe",
+          "chars": 4108
+        },
+        {
+          "label": "12 · Seedance 2.0 часть 2",
+          "sha256": "6fd2f187b70123aeeb0f3e404e02c1172e54a47b9644e1ff5faf4de5e69e6372",
+          "normalized_sha256": "02a40b0c70af1d031bacc16d8725e3b03a6ce7c758afabd52f43459936bfc90c",
+          "chars": 4485
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 13,
+      "title": "13 — Главкосмос: CubeSat за тридцать секунд",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Три детали демонстратора получают разные акценты: рама держит корпус, солнечная панель отличается материалом, оптическое окно становится третьим фокусом. Финальный общий план собирает их в один аппарат и возвращает композицию к началу.",
+      "critical_qc": "Три различимых акцента вместо равномерного вращения; один объектив; начальный и конечный ракурсы пригодны для петли.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background.",
+          "path": "projects/raznoe/references/scenes/scene-13/s13-cubesat.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "13 · Wan 3.0",
+          "sha256": "9ccb318d1b81c97f69c7553bc69a0ae307080d2d8646a43a800da17e42b517f4",
+          "normalized_sha256": "c8fa29cb705f53818a26ade9c15cda59ac1b35d3f99999cfbe8429ebc89aaeff",
+          "chars": 3869
+        },
+        {
+          "label": "13 · Seedance 2.0 часть 1",
+          "sha256": "2efde6dff9dbd83502ecf5eaa79defd20e42cdb3f452c767423cc7ec37bd052e",
+          "normalized_sha256": "2557c3b9f54b1c3b380a07b9ba669108715d8542b2de838f9e7ae6cad62cadef",
+          "chars": 3644
+        },
+        {
+          "label": "13 · Seedance 2.0 часть 2",
+          "sha256": "d5701f201e15eddc09414d8077d9ab43b3c33ed104ef2888a61f444545bc2a0c",
+          "normalized_sha256": "7061dada8c062bee5ec7a0385bbe6bdde90932f91bc9bcb46969b9a9eec6581c",
+          "chars": 3964
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 14,
+      "title": "14 — Главкосмос: Мир встречается на стенде",
+      "selected_engine": "Wan 3.0",
+      "summary": "Вопрос посетителя получает предметный ответ: консультант указывает на физический макет, крупный план показывает тарелку и панели, затем группа обращается к экрану. Финал объединяет людей, предмет и дальнейший разговор.",
+      "critical_qc": "Тот же макет с тарелкой и двумя синими крыльями; после вставки группа не меняется местами; предмет не левитирует.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group.",
+          "path": "projects/raznoe/references/scenes/scene-14/s14-booth.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.",
+          "path": "projects/raznoe/references/scenes/scene-14/q14-detail.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "14 · Wan 3.0",
+          "sha256": "f77de65f559817188a3b5ab63083cabe2652a0a5df8483ae0e62465799b89177",
+          "normalized_sha256": "948bd42deba8f7c0c4b2b95f1cffda7b057f2f75a904839ebf6065ac5e8a07ff",
+          "chars": 4308
+        },
+        {
+          "label": "14 · Seedance 2.0 часть 1",
+          "sha256": "671c0c5e97bcf36ac6726dc4b6badd06124e0484eb05fb1f4a244fa64c0511b1",
+          "normalized_sha256": "3cf772101408cfb0ce88096124f5abb4bce42dfe8265e20e84126f83294aaa0f",
+          "chars": 4036
+        },
+        {
+          "label": "14 · Seedance 2.0 часть 2",
+          "sha256": "26fc459c6d4c2e3dbf48b13ec8abdcb957ac478ca8ef5e7feca3211ee4bed1a2",
+          "normalized_sha256": "3c84cf18277071b46911759e9705ad49dbe658b591c49fa496654b6b469e19be",
+          "chars": 4416
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 15,
+      "title": "15 — РКС: Как прибор видит погоду",
+      "selected_engine": "Wan 3.0",
+      "summary": "Блик в оптическом узле задаёт тему наблюдения. Монтаж переносит нас к метеорологу, который сопоставляет естественное и условное цветовое представление облачности. Финал оставляет обе картинки и человека, принимающего осмысленное решение об анализе.",
+      "critical_qc": "Без луча из прибора и ложного прогноза; обе версии облачности связаны; герой в сером трикотаже остаётся со спины.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument.",
+          "path": "projects/raznoe/references/scenes/scene-5/s05-assembled.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system.",
+          "path": "projects/raznoe/references/scenes/scene-15/s15-weather.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "15 · Wan 3.0",
+          "sha256": "bd5bdd311a6c6a303496207461356e5fcde9b9c30348b08be63fec3c6dc36290",
+          "normalized_sha256": "9c6abb40b36ac972352099c68cd1e27cb13f7e4e259bd31d307c7f5d88648dd7",
+          "chars": 4082
+        },
+        {
+          "label": "15 · Seedance 2.0 часть 1",
+          "sha256": "6b7d5ebc98aec3298b2db3eb161bd63f2a094ac682d5c725250c8b2b853b7aee",
+          "normalized_sha256": "1f5c5b27e84510de5a6049c3c9be4743a73ab775fdf4a90a860628840cab3105",
+          "chars": 3838
+        },
+        {
+          "label": "15 · Seedance 2.0 часть 2",
+          "sha256": "4f7ac911d6de4206e745d9ce89813829d34f647faa05d896f3ed352a18bd5d08",
+          "normalized_sha256": "f96c467218ffcfccc1307dc56808539a50aafa9603f0002842e005f0518480d4",
+          "chars": 4243
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 16,
+      "title": "16 — РКС: Идея проходит испытание",
+      "selected_engine": "Wan 3.0",
+      "summary": "Исследователь меняет одну настройку и повторяет наблюдение. Экран не выдаёт мгновенный знак успеха. Короткая запись фиксирует промежуточный результат; финал возвращает внимание к макету и следующему вопросу.",
+      "critical_qc": "Синие перчатки; макет закреплён; нет магического test passed; запись и повторный взгляд завершают действие.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher.",
+          "path": "projects/raznoe/references/scenes/scene-16/s16-testbench.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.",
+          "path": "projects/raznoe/references/scenes/scene-16/q16-adjustment.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "16 · Wan 3.0",
+          "sha256": "1c173a9eab051458365ea94711421ab458bbc6cacbfbbf6c55240415438f1e3b",
+          "normalized_sha256": "0e0191c02df63faa83f849019d3e57f6c093d15c4ea65146196f03bc6062dcdf",
+          "chars": 4247
+        },
+        {
+          "label": "16 · Seedance 2.0 часть 1",
+          "sha256": "12b8f3f9262a15912b8cb5e25933c51e25aa6254c404180aeb638293f8f2d7ae",
+          "normalized_sha256": "2c955472bb2e0952979e5730435e3c9f8719692e7ccce88a74b4656a0ab66ca5",
+          "chars": 3986
+        },
+        {
+          "label": "16 · Seedance 2.0 часть 2",
+          "sha256": "6583458fb94b6c6e888c6ad6bd684fd1a447f8d73a37fbc6057c6b8d5ab91a92",
+          "normalized_sha256": "e0799dca61f1b6a841d647ce5cea9816b300f3c42532a89d809722d59c3ca2fb",
+          "chars": 4277
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 17,
+      "title": "17 — РКС: Деталь крупным планом",
+      "selected_engine": "Wan 3.0",
+      "summary": "Первые 15 секунд дают самостоятельный мини-ролик: стекло, крепление, уход руки. Вторая половина раскрывает рабочее место и масштаб детали. Финал показывает не абстрактную драгоценность, а предмет точной инженерной работы.",
+      "critical_qc": "Первая половина самостоятельна; второй ракурс расширяет смысл; два винта, круг и покрытие не меняются.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right.",
+          "path": "projects/raznoe/references/scenes/scene-17/s17-detail.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.",
+          "path": "projects/raznoe/references/scenes/scene-17/q17-context.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "17 · Wan 3.0",
+          "sha256": "36b40a7317ee81f5768a20661bac454d09b20811263ad434f4415467c7a09cdb",
+          "normalized_sha256": "d89e75c6e6e5d0dc2b1604458fd321744937029646f6f854a1767880a7e082a2",
+          "chars": 4221
+        },
+        {
+          "label": "17 · Seedance 2.0 часть 1",
+          "sha256": "ad9034e98a711fe0896bd0b6571c090e177639cc48d9809b79c2971a2f0e1ca3",
+          "normalized_sha256": "47eac3e22d202e4794f74d017af94b85c00c7723cfbd0e3840f612920102195b",
+          "chars": 3973
+        },
+        {
+          "label": "17 · Seedance 2.0 часть 2",
+          "sha256": "bddf28682d6fc18bcf8aad55e182cbfa20ee0479ab30f35c912d4d67e4b4a598",
+          "normalized_sha256": "575771b4602acc4b35de29123f437893b883258d6b6c63bead6133b14938c955",
+          "chars": 4316
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 18,
+      "title": "18 — НЦ ОМЗ: Найти нужный снимок",
+      "selected_engine": "Wan 3.0",
+      "summary": "Три понятных действия вместо хаотичных кликов: уточнить область, сдвинуть один фильтр, выбрать один из четырёх кандидатов. Избранный снимок увеличивается в том же окне. Финал подтверждает выбор материала, без вымышленной покупки или скачивания.",
+      "critical_qc": "Три действия читаются; четыре миниатюры не размножаются; без фальшивого точного интерфейса и скачивания.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Fictional analyst desk and generic text-free map-workflow screen: central terrain, selected rectangle, two sliders and four image cards. Not the real Geoportal UI.",
+          "path": "projects/raznoe/references/scenes/scene-18/s18-archive.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "18 · Wan 3.0",
+          "sha256": "184cc1b23ac8753c9ed1f1490c104d76cdabbe8336d7a154ccac3ac30a54768c",
+          "normalized_sha256": "6afb525aa645e578e2f2a9cf049019ebfcd12f22fad8e8f5160a2885df06833c",
+          "chars": 3869
+        },
+        {
+          "label": "18 · Seedance 2.0 часть 1",
+          "sha256": "761de10691621d263ae2384b82fe9ebf00bcf8d54786c78ed2f86bd093f1c4b3",
+          "normalized_sha256": "f7f047127f9ba417870cc8ef829d6fa0673702e180667b9fbf3021d9734fe6bd",
+          "chars": 3650
+        },
+        {
+          "label": "18 · Seedance 2.0 часть 2",
+          "sha256": "b89b0ead65c4a94e1f951de2a2447feb0c6cbf7c8c9457d679fbb657dc485111",
+          "normalized_sha256": "5ea424b48e635d94195850aac65712866e322bbc9122b6c32348becba062ba00",
+          "chars": 3943
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 19,
+      "title": "19 — НЦ ОМЗ: Река меняет границы",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Два отдельных иллюстративных состояния показывают низкую и высокую воду. Явная склейка отделяет их и не притворяется точным совмещением. На втором виде широкий контур отмечает область для анализа, затем исчезает, возвращая зрителя к исходному изображению.",
+      "critical_qc": "Без мгновенного затопления и ложного совмещения; контур широкий и условный; никаких выдуманных площадей или тревоги.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Separate illustrative low-water view: river, meadows, settlement and fields; no real date or calibrated geometry.",
+          "path": "projects/raznoe/references/scenes/scene-19/s19-lowwater.png"
+        },
+        {
+          "slot": "@Image2",
+          "role": "Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement.",
+          "path": "projects/raznoe/references/scenes/scene-7/s07-map.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "19 · Wan 3.0",
+          "sha256": "309c140a4def46e467f734da5ee92193fcbfc804a6d6a7e1baaf135799b493b4",
+          "normalized_sha256": "f2c778ff9654f4d114393922f77cd853a1684c3279a29799d82b18042cbdabb9",
+          "chars": 4078
+        },
+        {
+          "label": "19 · Seedance 2.0 часть 1",
+          "sha256": "9b33a54b249fc13c711a08038fcf1a193253458383423660e9758f9419487285",
+          "normalized_sha256": "7e16384ba1e2d738fac12142a3447d80894e2c7dcd2f72c3c8641ff5950582ba",
+          "chars": 3853
+        },
+        {
+          "label": "19 · Seedance 2.0 часть 2",
+          "sha256": "a44cfdebedabc6f76467453f3c88cee3fe32d8f11938fd1a1915887eb6d434c8",
+          "normalized_sha256": "84756b01cd86a09264664be29ba79cbff0bf0998652fa57b1211848bbb6f5c59",
+          "chars": 4215
+        }
+      ],
+      "review_status": "not_generated"
+    },
+    {
+      "scene_id": 20,
+      "title": "20 — НЦ ОМЗ: Красота становится знанием",
+      "selected_engine": "Seedance 2.0",
+      "summary": "Неузнаваемый сначала узор раскрывается как дельта. Камера следует одной протоке до моря, затем отходит шире. Короткая графическая линия помогает проследить ветвь и исчезает: красота становится понятной структурой.",
+      "critical_qc": "Одна и та же дельта от крупного к общему; линия следует существующей протоке; новые русла не появляются.",
+      "refs": [
+        {
+          "slot": "@Image1",
+          "role": "Fictional delta geography: branching dark channels, bronze-green wetlands, pale sandbars and turquoise sea; composition and materials only.",
+          "path": "projects/raznoe/references/scenes/scene-20/s20-delta.png"
+        }
+      ],
+      "blocks": [
+        {
+          "label": "20 · Wan 3.0",
+          "sha256": "ec53ec3732f80cfff05df7cbbd8144bd74ed52d28dade6f8be0bde0cf4d46d4c",
+          "normalized_sha256": "8922e554e473fe01f836bb9815bcd5f21d7d7de32afda6a1dec25402314b4eee",
+          "chars": 3869
+        },
+        {
+          "label": "20 · Seedance 2.0 часть 1",
+          "sha256": "174457b41049f70771e6104c275f32e01aca2aa43d01807009bceb9f3bfb6d6a",
+          "normalized_sha256": "1822f86106a580fd8d0a7bf7851b29d11f385a664708dc2c906f12196aec321e",
+          "chars": 3619
+        },
+        {
+          "label": "20 · Seedance 2.0 часть 2",
+          "sha256": "27a38a51fc03d859b5fb679f9cb1306acc25f328312be1a5b9076059d99d28b3",
+          "normalized_sha256": "4df6e662ade40644fed4ac18e294aa1be6731a3d47c6b2600ba0cde6655a8d33",
+          "chars": 3954
+        }
+      ],
+      "review_status": "not_generated"
+    }
+  ],
+  "new_references": [
+    {
+      "scene": 1,
+      "path": "projects/raznoe/references/scenes/scene-1/q01-overhead.png",
+      "sha256": "da5b5f03cb1320acaf6e0e407320ab6af39591a98a12cc1ac018f06a58fd554e",
+      "role": "Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-1/q01-overhead.image-prompt.txt"
+    },
+    {
+      "scene": 6,
+      "path": "projects/raznoe/references/scenes/scene-6/q06-overhead.png",
+      "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
+      "role": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-6/q06-overhead.image-prompt.txt"
+    },
+    {
+      "scene": 9,
+      "path": "projects/raznoe/references/scenes/scene-9/q09-evening.png",
+      "sha256": "dacfaf564108487c9495814d2d989eb346c639efa6fb5d0cdf2c9597a6bddc2e",
+      "role": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-9/q09-evening.image-prompt.txt"
+    },
+    {
+      "scene": 11,
+      "path": "projects/raznoe/references/scenes/scene-11/q11-hands.png",
+      "sha256": "f7d71fefca33e76ed71dfeb9005f963c577ae56b267c6c14263745566ff17b84",
+      "role": "Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-11/q11-hands.image-prompt.txt"
+    },
+    {
+      "scene": 12,
+      "path": "projects/raznoe/references/scenes/scene-12/q12-cards.png",
+      "sha256": "6accc29cbe99038204c50da6e497024ba2960ecb8d406e61bdcf76de32626164",
+      "role": "Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-12/q12-cards.image-prompt.txt"
+    },
+    {
+      "scene": 14,
+      "path": "projects/raznoe/references/scenes/scene-14/q14-detail.png",
+      "sha256": "0a812719a0ee3fa5556bdf01d8b0c94201f2bd5efd6aaf8d8d64c0ed7784c3bd",
+      "role": "Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-14/q14-detail.image-prompt.txt"
+    },
+    {
+      "scene": 16,
+      "path": "projects/raznoe/references/scenes/scene-16/q16-adjustment.png",
+      "sha256": "f55b8ab179718eee1428f4e0b7c9eb2e1bc0f979c4bb1e7007ffb3fa3f2a9bbc",
+      "role": "Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-16/q16-adjustment.image-prompt.txt"
+    },
+    {
+      "scene": 17,
+      "path": "projects/raznoe/references/scenes/scene-17/q17-context.png",
+      "sha256": "3ab3d91092a0a0a1ffd6c785e4580d0c7797e44220d422f34ab072d4553041ce",
+      "role": "Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.",
+      "prompt_file": "projects/raznoe/references/scenes/scene-17/q17-context.image-prompt.txt"
+    }
+  ],
+  "quality_review_state": "prepared_not_video_reviewed",
+  "rubric": {
+    "scale": "0–5 per dimension; actual video only",
+    "dimensions": [
+      "story_readability",
+      "reference_and_identity_consistency",
+      "motion_and_physical_contacts",
+      "camera_and_editing",
+      "image_artifacts",
+      "audio_and_editability"
+    ],
+    "acceptance": "No critical defect plus every dimension >=3; 4+ average desirable. Technical success is not artistic approval. Record usable time ranges, evidence frames and prompt-specific failures. Never auto-retry."
+  }
+}

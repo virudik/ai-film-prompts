@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-22T23:17:19Z",
+  "updated_at": "2026-10-23T00:15:05Z",
   "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
@@ -696,6 +696,262 @@
           "scenes": [
             20
           ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q01-overhead",
+      "name": "Ближе к участку у реки",
+      "kind": "situation_reference",
+      "scenes": [
+        1
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/q01-overhead.png",
+          "caption": "Ближе к участку у реки",
+          "prompt_file": "projects/raznoe/references/scenes/scene-1/q01-overhead.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "da5b5f03cb1320acaf6e0e407320ab6af39591a98a12cc1ac018f06a58fd554e",
+          "scenes": [
+            1
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-1/01-earth-work.png",
+              "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q06-overhead",
+      "name": "Лесная кромка вдоль просеки",
+      "kind": "situation_reference",
+      "scenes": [
+        6
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-6/q06-overhead.png",
+          "caption": "Лесная кромка вдоль просеки",
+          "prompt_file": "projects/raznoe/references/scenes/scene-6/q06-overhead.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
+          "scenes": [
+            6
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-6/06-power-corridor.png",
+              "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q09-evening",
+      "name": "Земля: вечернее освещение",
+      "kind": "situation_reference",
+      "scenes": [
+        9
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-9/q09-evening.png",
+          "caption": "Земля: вечернее освещение",
+          "prompt_file": "projects/raznoe/references/scenes/scene-9/q09-evening.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "dacfaf564108487c9495814d2d989eb346c639efa6fb5d0cdf2c9597a6bddc2e",
+          "scenes": [
+            9
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png",
+              "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q11-hands",
+      "name": "Инженер: руки и внешний регулятор",
+      "kind": "situation_reference",
+      "scenes": [
+        11
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-11/q11-hands.png",
+          "caption": "Инженер: руки и внешний регулятор",
+          "prompt_file": "projects/raznoe/references/scenes/scene-11/q11-hands.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "f7d71fefca33e76ed71dfeb9005f963c577ae56b267c6c14263745566ff17b84",
+          "scenes": [
+            11
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-11/s11-engineer.png",
+              "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q12-cards",
+      "name": "Выбор карточки полей",
+      "kind": "situation_reference",
+      "scenes": [
+        12
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-12/q12-cards.png",
+          "caption": "Выбор карточки полей",
+          "prompt_file": "projects/raznoe/references/scenes/scene-12/q12-cards.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "6accc29cbe99038204c50da6e497024ba2960ecb8d406e61bdcf76de32626164",
+          "scenes": [
+            12
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-12/s12-consultation.png",
+              "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q14-detail",
+      "name": "Макет: тарелка и солнечные панели",
+      "kind": "situation_reference",
+      "scenes": [
+        14
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-14/q14-detail.png",
+          "caption": "Макет: тарелка и солнечные панели",
+          "prompt_file": "projects/raznoe/references/scenes/scene-14/q14-detail.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "0a812719a0ee3fa5556bdf01d8b0c94201f2bd5efd6aaf8d8d64c0ed7784c3bd",
+          "scenes": [
+            14
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-14/s14-booth.png",
+              "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q16-adjustment",
+      "name": "Проверка: рука на регуляторе",
+      "kind": "situation_reference",
+      "scenes": [
+        16
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-16/q16-adjustment.png",
+          "caption": "Проверка: рука на регуляторе",
+          "prompt_file": "projects/raznoe/references/scenes/scene-16/q16-adjustment.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "f55b8ab179718eee1428f4e0b7c9eb2e1bc0f979c4bb1e7007ffb3fa3f2a9bbc",
+          "scenes": [
+            16
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-16/s16-testbench.png",
+              "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q17-context",
+      "name": "Оптическая деталь на рабочем месте",
+      "kind": "situation_reference",
+      "scenes": [
+        17
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-17/q17-context.png",
+          "caption": "Оптическая деталь на рабочем месте",
+          "prompt_file": "projects/raznoe/references/scenes/scene-17/q17-context.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "3ab3d91092a0a0a1ffd6c785e4580d0c7797e44220d422f34ab072d4553041ce",
+          "scenes": [
+            17
+          ],
+          "source_references": [
+            {
+              "path": "projects/raznoe/references/scenes/scene-17/s17-detail.png",
+              "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
         }
       ]
     }

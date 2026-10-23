@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-22T23:33:18Z",
+  "synced_at": "2026-10-23T00:15:21Z",
   "revision_date": "23.10.2026",
-  "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 27 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
-  "canonical_master_sha256": "27516edd803ac0908ca2e0406972c6e788ec939b6e9fc0b064eb7f1a4e0b767c",
-  "canonical_revision_sha256": "d0ded4a139394499be15826f8c3116d7f7353d3f994adf35b7bbd2921d5f684f",
-  "canonical_master_bytes": 318784,
+  "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
+  "canonical_master_sha256": "a716a209c95d328b740679864cc5228f83b15a236a393edadc91b7d89c6c1955",
+  "canonical_revision_sha256": "0efaf35e3fc0ad15404fd1f913450f45ec10c63c601d2210b592a6ae92a2e63b",
+  "canonical_master_bytes": 372652,
   "scenes": 20,
   "prompt_texts": 60,
   "work_items": [],
@@ -45,7 +45,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.86,
+    "age_hours_at_status_build": 2.561,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -124,7 +124,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.86,
+      "age_hours": 2.561,
       "blocking": false
     },
     "topview_task_map": {
@@ -147,7 +147,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -167,7 +167,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -187,7 +187,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -207,7 +207,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -227,7 +227,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -247,7 +247,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -267,7 +267,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -287,7 +287,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -307,7 +307,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -327,7 +327,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -347,7 +347,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -367,7 +367,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -387,7 +387,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -407,7 +407,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -427,7 +427,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -447,7 +447,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -467,7 +467,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -487,7 +487,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -507,7 +507,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -527,7 +527,7 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
+        "queued_one_attempt",
         "two_engine_versions",
         "reference_first",
         "civil_space",
@@ -538,9 +538,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-22T23:33:18Z",
-    "canonical_master_sha256": "27516edd803ac0908ca2e0406972c6e788ec939b6e9fc0b064eb7f1a4e0b767c",
-    "canonical_revision_sha256": "d0ded4a139394499be15826f8c3116d7f7353d3f994adf35b7bbd2921d5f684f",
+    "synced_at": "2026-10-23T00:15:21Z",
+    "canonical_master_sha256": "a716a209c95d328b740679864cc5228f83b15a236a393edadc91b7d89c6c1955",
+    "canonical_revision_sha256": "0efaf35e3fc0ad15404fd1f913450f45ec10c63c601d2210b592a6ae92a2e63b",
     "scene_count": 20,
     "prompt_count": 60,
     "scene_ids": [
