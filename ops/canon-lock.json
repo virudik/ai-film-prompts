@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "TOPVIEW-FRESHNESS-20261023: repair strict prompt matching and verify monitor publication",
-  "acquired_at": "2026-10-23T03:37:35.096Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T03:50:08.536Z",
+  "task": "MAINTENANCE-20261023-0955",
+  "acquired_at": "2026-10-23T06:53:10.653Z",
+  "expires_at": "2026-10-23T07:23:10.653Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "last_holder": "chatgpt",
-  "release_note": "Strict prompt normalization and complete-history checkout fixed. Real robot cycle and public site verified healthy. Native ChatGPT Images UI blocked by browser host policy; pending access, no bypass."
+  "release_note": null
 }
