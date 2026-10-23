@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-23T00:58:29+00:00",
+ "generated_at": "2026-10-23T01:04:29+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "56337ab95510b322aac903f32d32562359cecedd032c25deee7e6c9be4f68cf4",
-   "bytes": 917391
+   "sha256": "739d12b426d57eb70a15b4cc83d9a7723bf3b4b87780406444f23a75a28ddae1",
+   "bytes": 918821
   }
  ],
  "invariants": [
@@ -282,7 +282,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 34696,
+   "offset": 35635,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -304,7 +304,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 61033,
+   "offset": 61972,
    "chars": 28358,
    "sha256_12": "d7debbf6a70b"
   },
@@ -324,7 +324,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 89391,
+   "offset": 90330,
    "chars": 187821,
    "sha256_12": "32d9ec7ccfb1"
   },
@@ -342,7 +342,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 277212,
+   "offset": 278151,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -364,7 +364,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 293568,
+   "offset": 294507,
    "chars": 24016,
    "sha256_12": "1bcbb827821d"
   },
@@ -388,7 +388,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 317584,
+   "offset": 318523,
    "chars": 28932,
    "sha256_12": "813c8b7e4141"
   },
@@ -410,7 +410,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 346516,
+   "offset": 347455,
    "chars": 27909,
    "sha256_12": "3fe440208828"
   },
@@ -432,7 +432,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 374425,
+   "offset": 375364,
    "chars": 27674,
    "sha256_12": "b0782fd439a7"
   },
@@ -454,7 +454,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 402099,
+   "offset": 403038,
    "chars": 27514,
    "sha256_12": "d9a46173a72c"
   },
@@ -478,7 +478,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 429613,
+   "offset": 430552,
    "chars": 28409,
    "sha256_12": "bfeac7167d01"
   },
@@ -497,7 +497,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 458022,
+   "offset": 458961,
    "chars": 26812,
    "sha256_12": "d95a85c48853"
   },
@@ -519,7 +519,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 484834,
+   "offset": 485773,
    "chars": 24217,
    "sha256_12": "77aea3d96e9e"
   },
@@ -543,7 +543,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 509051,
+   "offset": 509990,
    "chars": 27968,
    "sha256_12": "562af2732315"
   },
@@ -570,7 +570,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 537019,
+   "offset": 537958,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -595,7 +595,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 629948,
+   "offset": 630887,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -623,7 +623,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 659828,
+   "offset": 660767,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -646,7 +646,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 692140,
+   "offset": 693079,
    "chars": 26071,
    "sha256_12": "49ca73f4fd9d"
   },
@@ -669,7 +669,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 718211,
+   "offset": 719150,
    "chars": 23853,
    "sha256_12": "4b28df36c957"
   },
@@ -692,7 +692,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 742064,
+   "offset": 743003,
    "chars": 25982,
    "sha256_12": "1acd2327c68d"
   },
@@ -701,7 +701,7 @@
    "title": "РосКОТмос: аварийная посадка котов на планете ситхов",
    "target_engine": "Seedance 2.0",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -714,9 +714,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 768046,
-   "chars": 25709,
-   "sha256_12": "1dc8ecac6141"
+   "offset": 768985,
+   "chars": 25738,
+   "sha256_12": "2f21fefb4ee1"
   },
   {
    "id": 58,
@@ -740,7 +740,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 793755,
+   "offset": 794723,
    "chars": 27291,
    "sha256_12": "d18fef031798"
   }
