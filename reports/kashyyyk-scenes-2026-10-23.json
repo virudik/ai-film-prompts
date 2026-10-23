@@ -91,10 +91,67 @@
       "exact_master_queue_and_images_verified": true,
       "project_status": "health=ok;24scenes;98prompts;canonical master SHA matches",
       "canon_health": "ok;warnings=0",
-      "pages": "deploying; final public HTTP verification pending",
-      "pages_run": 39982901171
+      "pages": "verified: HTTP200, exact master and both new JPGs, all6queue items",
+      "pages_run": 39983279763,
+      "pages_conclusion": "success",
+      "verified_at": "2026-10-23T16:05:04.442625Z"
     },
-    "unit_tests": "228 tests passed (requests runtime dependency installed)"
+    "unit_tests": "228 tests passed (requests runtime dependency installed)",
+    "public_http_checks": [
+      {
+        "path": "project-status.json",
+        "http": 200,
+        "health": "ok",
+        "scenes": 24,
+        "prompt_texts": 98,
+        "canonical_master_sha256": "b758c1a7df9ad9394e10b87bc80c9d8e7b1f2264fe0553dd67fe60ca66a40ac4"
+      },
+      {
+        "path": "video-prompts.md",
+        "http": 200,
+        "matches_local": true
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "http": 200,
+        "new_items": [
+          [
+            "S59-SEED20-P1",
+            0.5
+          ],
+          [
+            "S59-SEED20-P2",
+            0.51
+          ],
+          [
+            "S60-SEED20-P1",
+            0.6
+          ],
+          [
+            "S60-SEED20-P2",
+            0.61
+          ],
+          [
+            "S61-SEED20-P1",
+            0.7
+          ],
+          [
+            "S61-SEED20-P2",
+            0.71
+          ]
+        ]
+      },
+      {
+        "path": "references/scenes/scene-60/S60-owner-video-final.jpg",
+        "http": 200,
+        "matches_local": true
+      },
+      {
+        "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+        "http": 200,
+        "matches_local": true
+      }
+    ]
   },
   "generation": {
     "submitted": 0,

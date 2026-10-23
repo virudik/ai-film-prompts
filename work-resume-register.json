@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T16:01:18.927200Z",
+  "last_updated_at": "2026-10-23T16:05:04.442625Z",
   "active_work": [
     {
       "work_id": "KASHYYYK-THREE-SCENES-20261023",
       "title": "Посадка, вылет и предыстория дуэли на Кашиике",
-      "status": "published_queued_pages_deploying",
-      "updated_at": "2026-10-23T16:01:18.927200Z",
+      "status": "completed_preparation_queued",
+      "updated_at": "2026-10-23T16:05:04.442625Z",
       "completed": [
         "Scenes 59–61: 9 complete prompts, exact reference stills, saved private 3s continuity clip.",
         "Six Seedance 2.0 queue entries after worms and before dances; P2 requires own P1.",
-        "Published in main commit 2bd171117c4c8d6503dae036b2eb266b7041a010; 228 tests passed; project-status health=ok, 24 scenes, 98 prompts; canon-health warnings=0."
+        "Published in main commit 2bd171117c4c8d6503dae036b2eb266b7041a010; 228 tests passed; project-status health=ok, 24 scenes, 98 prompts; canon-health warnings=0.",
+        "Pages run39983279763 success; public master and both JPGs exact;24scenes98prompts health=ok;all6queue entries visible."
       ],
-      "next_action": "Verify Pages deployment, then existing scheduler selects ready items after worms. No new generations submitted in authoring turn.",
+      "next_action": "Existing scheduler launches ready59/60/61 parts after worms by priority. EachP2 waits actual ownP1 ending/QC; no paid runs, duplicates or automatic retries.",
       "canonical_refs": [
         "reports/current-work-checkpoint.md",
         "ops/topview-launch-queue.json"
