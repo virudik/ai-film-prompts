@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T09:14:49Z",
+  "last_updated_at": "2026-10-23T11:57:34Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-FRESHNESS-20261023",
@@ -39,7 +39,7 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_slots",
-      "updated_at": "2026-10-23T09:14:49Z",
+      "updated_at": "2026-10-23T11:57:34Z",
       "next_action": "Six video slots are occupied after the verified A2 launch. On the next free slot, first save/QC any completed52P1,58P1 or new28 result, then choose the lowest-priority genuinely ready item from the fresh queue. S56P1 remains blocked because actual S42P2 ends with an extra fourth duelist; A3 still waits the NEW A2 final frame. No repeats; Roscosmos paused; fresh full scan and CAS claim before submit.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
@@ -150,9 +150,9 @@
         ]
       },
       "last_live_scan": {
-        "at": "2026-10-23T09:14:49Z",
+        "at": "2026-10-23T11:57:34Z",
         "boards": 13,
-        "pages": 16,
+        "pages": 19,
         "page_size": 100,
         "total": 933,
         "scan_complete": true,
@@ -372,16 +372,16 @@
         "Actual video dependencies58P2/48 remain. S56P1 is blocked: external S42P2 final3s contain a fourth duelist. Prompt mismatch and QC defect are preserved in provenance;42 must not be duplicated or auto-rerendered.",
         "52P2 requires actual new52P1 end;51B requires actual new51A end.49/50/51 launch authorization is active from23Oct."
       ],
-      "last_resume_check": "2026-10-23T09:14:49Z",
+      "last_resume_check": "2026-10-23T11:57:34Z",
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-23T06:53:05.541Z",
+        "last_successful_check_at": "2026-10-23T11:57:34Z",
         "self_heal": {
           "status": "ok_verified",
-          "changed_at": "2026-10-22T11:49:38Z",
+          "changed_at": "2026-10-23T03:49:41Z",
           "latest_observed_workflow_run": {
-            "run_id": 39913815894,
+            "run_id": 39948856683,
             "conclusion": "success",
-            "started_at": "2026-10-23T06:49:00Z"
+            "started_at": "2026-10-23T11:49:58Z"
           },
           "action": "no intervention; fresh self-heal state is ok"
         },
@@ -393,27 +393,27 @@
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-23T06:20:23Z",
-          "age_minutes_at_check": 32.7,
+          "synced_at": "2026-10-23T11:50:23Z",
+          "age_minutes_at_check": 7.2,
           "fresh_within_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
-          "checked_at": "2026-10-23T04:14:00Z",
+          "checked_at": "2026-10-23T02:50:44Z",
           "warn_or_error_count": 0,
           "info_count": 4,
           "latest_observed_workflow_run": {
-            "run_id": 39899277852,
+            "run_id": 39931676649,
             "conclusion": "success",
-            "started_at": "2026-10-23T04:14:00Z"
+            "started_at": "2026-10-23T09:24:51Z"
           }
         },
         "github_mail_audit": {
-          "window": "2026-10-21T17:55:05.245Z through 2026-10-23T06:53:05.541Z (24h overlap from prior successful check; Gmail query covered 2 days)",
+          "window": "2026-10-22T06:53:05.541Z through 2026-10-23T11:57:34Z (24h overlap from prior successful check; Gmail query covered 2 days)",
           "query_pages": 1,
           "searched_message_count": 9,
-          "new_message_count": 6,
-          "deduplicated_known_message_count": 3,
+          "new_message_count": 0,
+          "deduplicated_known_message_count": 9,
           "mail_state_changed": false,
           "message_ids": [
             "1a152b4b26899e21",
@@ -528,72 +528,27 @@
             39881097416,
             39879822455
           ],
-          "newly_processed": [
-            {
-              "message_id": "1a166d970ca52e52",
-              "run_id": 39896221483,
-              "workflow": "Topview robot",
-              "resolved_by_run_id": 39896478536
-            },
-            {
-              "message_id": "1a166c710dcb2e1a",
-              "run_id": 39894437526,
-              "workflow": "Topview robot",
-              "resolved_by_run_id": 39895333878
-            },
-            {
-              "message_id": "1a166b0e4a83653b",
-              "run_id": 39892273218,
-              "workflow": "Validate Control Center",
-              "resolved_by_run_id": 39892371821
-            },
-            {
-              "message_id": "1a166439ec572060",
-              "run_id": 39881097544,
-              "workflow": "AI Film integration recovery tests",
-              "resolved_by_run_id": 39891755166
-            },
-            {
-              "message_id": "1a1664312fb819ac",
-              "run_id": 39881097416,
-              "workflow": "Canon health",
-              "resolved_by_run_id": 39881147638
-            },
-            {
-              "message_id": "1a16637ad15b5353",
-              "run_id": 39879822455,
-              "workflow": "Projects status",
-              "resolved_by_run_id": 39889833199
-            }
-          ],
+          "newly_processed": [],
           "diagnoses": {
-            "topview_robot_39894437526_39896221483": "Two isolated failures were followed by successful scheduled runs; latest observed robot run39913918557 succeeded. No current robot failure.",
-            "validate_control_center_39892273218": "Failure was followed one minute later by successful run39892371821 and later run39892960836.",
-            "integration_39881097544": "Failure was followed by successful integration runs, including39891755166 and39896193519.",
-            "canon_health_39881097416": "Failure was followed immediately by run39881147638 success; current canon-health status=ok with zero warn/error.",
-            "projects_status_39879822455": "Failure was followed by repeated successful runs; current project-status health=ok and fresh within40min."
+            "current": "All nine matched failure notifications were already deduplicated and previously resolved. No new mail candidates."
           },
           "actions_verification": {
-            "checked_at": "2026-10-23T06:53:05.541Z",
+            "checked_at": "2026-10-23T11:57:34Z",
             "current_failure": false,
-            "canonical_run_id": 39913095252,
-            "canonical_run_conclusion": "success",
-            "topview_robot_run_id": 39913918557,
+            "topview_robot_run_id": 39948862668,
             "topview_robot_conclusion": "success",
-            "archive_run_id": 39913404384,
-            "archive_conclusion": "success",
-            "self_heal_run_id": 39913815894,
+            "self_heal_run_id": 39948856683,
             "self_heal_conclusion": "success",
-            "canon_health_run_id": 39899277852,
-            "canon_health_conclusion": "success",
-            "projects_status_run_id": 39899277831,
-            "projects_status_conclusion": "success",
-            "integration_run_id": 39896193519,
-            "integration_conclusion": "success",
-            "validate_control_center_run_id": 39892960836,
-            "validate_control_center_conclusion": "success",
-            "pages_latest_observed_run_id": 39913961008,
-            "pages_latest_observed_status": "in_progress"
+            "canonical_run_id": 39949107863,
+            "canonical_run_conclusion": "success",
+            "pages_run_id": 39949204708,
+            "pages_conclusion": "success",
+            "archive_run_id": 39949469741,
+            "archive_conclusion": "success",
+            "shadow_brief_run_id": 39949313722,
+            "shadow_brief_conclusion": "success",
+            "canon_health_run_id": 39931676649,
+            "canon_health_conclusion": "success"
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap",
@@ -608,12 +563,12 @@
             "1a15e58d2b22a4db",
             "1a15e56069dfd430"
           ],
-          "notes": "Six new GitHub failure notifications were checked against actual Actions history; every failure has a later successful run. No rerun or repair needed. Mail labels/read state were not changed."
+          "notes": "No new GitHub failure notifications. Existing nine message IDs were already processed. Actual latest key workflows are successful; cancelled Pages runs were superseded by successful run39949204708. No rerun or repair. Mail labels/read state unchanged."
         }
       },
-      "current_run_id": "chatgpt-automation-20261022T232059Z-S47P1",
+      "current_run_id": "chatgpt-automation-20261023T1155Z-maintenance",
       "previous_next_action_before_priority_20261023": "6/6 slots occupied. On each free slot run next ready authorized item by canonical priority; skip blocked inputs without reserving a slot. Selected49A-F,50A/B,51A are waiting;52P2 requires actual52P1 end and51B actual51A end. Do not repeat submitted52P1 or28A1. Raznoe paused.",
-      "updated_at": "2026-10-23T06:53:05.541Z"
+      "updated_at": "2026-10-23T11:57:34Z"
     },
     {
       "work_id": "FILM-20261014-REFS-DANCE",

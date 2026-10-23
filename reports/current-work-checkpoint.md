@@ -1,3 +1,13 @@
+# Плановая проверка очереди и автоматики · 2026-10-23T11:57:34Z
+
+Полный скан Topview завершён: **13 досок / 19 страниц / 933 задачи**; 890 success, 37 fail, **6 init**. Активны те же шесть Seedance 2.0 Unlimited/0 на доске **My First Board**: `8a8eadc809004e318c47201b8a463be0`, `4b7b972870a44dfbb29bd6c5e330a633`, `34ff1bf7fe9d47f08de5a635d5626c70`, `56e5e07c85df4af583c62665c51ed563`, `af8e389dc9564607bc6138b408c72da5`, `6598a21c2c684d43b7cede9cfc987107`. Свободных видеослотов **0**; новых результатов, submit, повторов и списаний кредитов нет.
+
+Обслуживание: `self-heal=ok`; открытых owner tasks для ChatGPT/any/Claude и открытых owner decisions Supabase нет; `project-status health=ok`, `synced_at=2026-10-23T11:50:23Z` (свежее 40 минут); `canon-health=ok`, warn/error=0, четыре info не требуют ремонта. Последние проверенные Actions успешны: [Self-heal 39948856683](https://github.com/virudik/ai-film-prompts/actions/runs/39948856683), [Topview robot 39948862668](https://github.com/virudik/ai-film-prompts/actions/runs/39948862668), [Canonical master 39949107863](https://github.com/virudik/ai-film-prompts/actions/runs/39949107863), [Pages 39949204708](https://github.com/virudik/ai-film-prompts/actions/runs/39949204708), [архив 39949469741](https://github.com/virudik/ai-film-prompts/actions/runs/39949469741). Отменённые промежуточные Pages-запуски закрыты последующим успешным Pages run.
+
+Gmail/GitHub: поиск с 24-часовым перекрытием (фактически `newer_than:2d`) вернул 9 релевантных failure-писем; все message ID уже учтены, новых кандидатов **0**. Состояние почты не менялось; rerun/ремонт не запускались.
+
+---
+
 # Запущена S28-A2; S42-P2 проверена для продолжения · 2026-10-23T09:14:49Z
 
 **S28-A2-20261023** отправлена один раз через авторизованный веб-Topview: task `8a8eadc809004e318c47201b8a463be0`, доска **My First Board** (`1a6244cf1ae747ef847d949a80d6133c`), Seedance 2.0 / 15s / 720p / 16:9 / quantity1 / Unlimited / **0 кредитов**. Полный нормализованный канонический prompt и четыре входа в заданном порядке сверены; Create нажат один раз. Квитанция и UI proof: `reports/topview-queue-2026-10-16/S28-A2-20261023-receipt.json`. После запуска полный скан: **13 досок / 16 страниц по100 / 933 задачи**, 890 success, 37 fail, **6 init**; свободных видеослотов 0.
