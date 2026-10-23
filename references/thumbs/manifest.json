@@ -2103,6 +2103,16 @@
    "thumb_bytes": 59480,
    "src_sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873"
   },
+  "references/scenes/scene-47/S47-P1-end-20261023.jpg": {
+   "thumb": "references/thumbs/scenes/scene-47/S47-P1-end-20261023.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 239807,
+   "thumb_bytes": 27412,
+   "src_sha256": "27fd6806c29b2c2c4714a3d230672fd57830c2c5f1159de07a438c881966715b"
+  },
   "references/scenes/scene-47/S47-start-from-S32-result.png": {
    "thumb": "references/thumbs/scenes/scene-47/S47-start-from-S32-result.png.webp",
    "width": 640,
@@ -2322,6 +2332,16 @@
    "src_bytes": 1287497,
    "thumb_bytes": 22376,
    "src_sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a"
+  },
+  "references/scenes/scene-57/S57-P1-end-20261023.jpg": {
+   "thumb": "references/thumbs/scenes/scene-57/S57-P1-end-20261023.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 281669,
+   "thumb_bytes": 35916,
+   "src_sha256": "ce64b22a04a311c75c06c2d7cad411d387d78e44963795342e1314c48cafe9b2"
   },
   "references/scenes/scene-57/S57-crash-avenue.png": {
    "thumb": "references/thumbs/scenes/scene-57/S57-crash-avenue.png.webp",
