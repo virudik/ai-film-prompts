@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T01:54:19.399Z",
+  "updated_at": "2026-10-23T01:55:57.180Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3261,7 +3261,7 @@
       "canonical_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
       "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
       "priority": 400,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3295,7 +3295,62 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "EXPAND-20261023-S28A1",
+        "claimed_at": "2026-10-23T01:55:57.180Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:55:32.105Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 931,
+            "scan_complete": true,
+            "active": [
+              {
+                "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "56e5e07c85df4af583c62665c51ed563",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "af8e389dc9564607bc6138b408c72da5",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "input_hashes_verified": true,
+          "input_order": [
+            "Image1",
+            "Image2",
+            "Image3"
+          ],
+          "model": "Seedance 2.0",
+          "duration": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
       "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test. Owner22Oct2026 authorizes controlled model comparisons AFTER all selected story scenes are finished; see ops/dance-model-comparison.md. A1 remains one Seedance2.0 baseline attempt; no duplicate or automatic model substitution. Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
       "max_credits": 0,
       "review_gate_after_success": "Save and visually assess the A1 baseline. Owner22Oct authorizes the planned separate model comparisons after all story work; prepare canonical items first. Other dance batches/couple variants still require owner evaluation. See ops/dance-model-comparison.md.",
