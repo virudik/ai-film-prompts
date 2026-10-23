@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "QC S42-P2 + launch S28-A2-20261023",
   "acquired_at": "2026-10-23T09:10:34Z",
-  "expires_at": "2026-10-23T09:55:34Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-23T09:22:00Z",
   "rules": "ops/CANON-LOCK.md",
-  "last_holder": "chatgpt"
+  "last_holder": "chatgpt",
+  "release_note": "S28-A2 submitted once as task 8a8eadc809004e318c47201b8a463be0 Unlimited0; post-submit full scan 6/6. S42-P2 external result archived/QC failed continuity due extra fourth duelist; S56 remains blocked. Receipts and evidence committed."
 }
