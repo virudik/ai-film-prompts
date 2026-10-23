@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T18:54:07.396953Z",
+  "last_updated_at": "2026-10-23T20:00:28Z",
   "active_work": [
     {
       "work_id": "WORM-BRIDGE-STATUS-20261023",
@@ -433,9 +433,9 @@
         "Actual video dependencies58P2/48 remain. S56P1 is blocked: external S42P2 final3s contain a fourth duelist. Prompt mismatch and QC defect are preserved in provenance;42 must not be duplicated or auto-rerendered.",
         "52P2 requires actual new52P1 end;51B requires actual new51A end.49/50/51 launch authorization is active from23Oct."
       ],
-      "last_resume_check": "2026-10-23T11:57:34Z",
+      "last_resume_check": "2026-10-23T17:55:00Z",
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-23T11:57:34Z",
+        "last_successful_check_at": "2026-10-23T17:55:00Z",
         "self_heal": {
           "status": "ok_verified",
           "changed_at": "2026-10-23T03:49:41Z",
@@ -470,10 +470,10 @@
           }
         },
         "github_mail_audit": {
-          "window": "2026-10-22T06:53:05.541Z through 2026-10-23T11:57:34Z (24h overlap from prior successful check; Gmail query covered 2 days)",
+          "window": "2026-10-22T11:57:34Z through the 2026-10-23T17:55Z maintenance check (24h overlap retained)",
           "query_pages": 1,
           "searched_message_count": 9,
-          "new_message_count": 0,
+          "new_message_count": 3,
           "deduplicated_known_message_count": 9,
           "mail_state_changed": false,
           "message_ids": [
@@ -529,7 +529,10 @@
             "1a166b0e4a83653b",
             "1a166439ec572060",
             "1a1664312fb819ac",
-            "1a16637ad15b5353"
+            "1a16637ad15b5353",
+            "1a1697b909e6f8a3",
+            "1a168ee65c9813ed",
+            "1a1690dd7aab8ac3"
           ],
           "run_ids": [
             39206350248,
@@ -587,29 +590,40 @@
             39892273218,
             39881097544,
             39881097416,
-            39879822455
+            39879822455,
+            39982636180,
+            39960591566,
+            39989746280,
+            39998584743
           ],
-          "newly_processed": [],
+          "newly_processed": [
+            "1a1697b909e6f8a3",
+            "1a168ee65c9813ed",
+            "1a1690dd7aab8ac3"
+          ],
           "diagnoses": {
-            "current": "All nine matched failure notifications were already deduplicated and previously resolved. No new mail candidates."
+            "current": "No current project failure after checking actual Actions state and later successful runs.",
+            "1a1697b909e6f8a3": "Canon health run39982636180 failed only in the owner-email notification step after a new warning; later Canon health run39989746280 succeeded.",
+            "1a168ee65c9813ed": "Canonical master check run39960591566 failed in Phase4 project buttons; later same-workflow run39998584743 succeeded with all jobs/phases successful.",
+            "1a1690dd7aab8ac3": "Issue #33 closure notification; not a workflow failure candidate."
           },
           "actions_verification": {
-            "checked_at": "2026-10-23T11:57:34Z",
+            "checked_at": "2026-10-23T17:55:00Z",
             "current_failure": false,
-            "topview_robot_run_id": 39948862668,
-            "topview_robot_conclusion": "success",
-            "self_heal_run_id": 39948856683,
-            "self_heal_conclusion": "success",
-            "canonical_run_id": 39949107863,
-            "canonical_run_conclusion": "success",
-            "pages_run_id": 39949204708,
-            "pages_conclusion": "success",
-            "archive_run_id": 39949469741,
-            "archive_conclusion": "success",
-            "shadow_brief_run_id": 39949313722,
-            "shadow_brief_conclusion": "success",
-            "canon_health_run_id": 39931676649,
-            "canon_health_conclusion": "success"
+            "failed_signal_runs": [
+              39982636180,
+              39960591566
+            ],
+            "successful_superseding_runs": [
+              39989746280,
+              39998584743
+            ],
+            "urls": [
+              "https://github.com/virudik/ai-film-prompts/actions/runs/39982636180",
+              "https://github.com/virudik/ai-film-prompts/actions/runs/39960591566",
+              "https://github.com/virudik/ai-film-prompts/actions/runs/39989746280",
+              "https://github.com/virudik/ai-film-prompts/actions/runs/39998584743"
+            ]
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap",
@@ -624,7 +638,7 @@
             "1a15e58d2b22a4db",
             "1a15e56069dfd430"
           ],
-          "notes": "No new GitHub failure notifications. Existing nine message IDs were already processed. Actual latest key workflows are successful; cancelled Pages runs were superseded by successful run39949204708. No rerun or repair. Mail labels/read state unchanged."
+          "notes": "Three new Gmail candidates were read without changing read/archive/labels. Two historical workflow failure signals were already superseded by verified successful runs; issue #33 closure was not an error. No rerun or repair was needed. Job logs were unavailable through the connector, so conclusions use run/job/step metadata and subsequent successful runs."
         }
       },
       "current_run_id": "chatgpt-automation-20261023T1155Z-maintenance",
