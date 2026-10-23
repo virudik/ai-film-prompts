@@ -1,13 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt",
-  "task": "PROJECT-ORGANIZE-20261023: rename Roscosmos, new Raznoe, images and per-board routing",
-  "acquired_at": "2026-10-23T02:29:17.237Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T03:03:26.530Z",
+  "state": "held",
+  "holder": "claude:project-check",
+  "task": "Кот детектив: точные подписи референсов, темы Suno (темп сцен не меняется)",
+  "acquired_at": "2026-10-23T04:11:56Z",
+  "expires_at": "2026-10-23T04:56:56Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
-  "project": "kot-detektiv",
-  "last_holder": "chatgpt",
-  "release_note": "Project organization published and verified; images sorted, board routing recorded, five-project UI and CI checked. No video submissions in this task."
+  "project": "kot-detektiv"
 }
