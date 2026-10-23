@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-22T21:41:43.011Z",
+  "checked_at": "2026-10-23T00:55:56.564Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,14 +9,14 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "a0e01677df72855684def43fc9aefb889e71a3cc",
-      "mirror_sha256": "4e154519ae852fe0f0812670c13925e13ce29989a4083526967b7ae7ff7703e6",
+      "github_blob": "c30f397bc375cb543ba93501f6477ad9203195d4",
+      "mirror_sha256": "9e90b88984e2a0bac319c1fd95e6d1e3042f1b4a45696c8d1f2f5bd9a802bb9d",
       "match": true,
       "drive_copy_sha256": "0d85337db2e5b9e5aa825f9e295deaaf29afa84929f90166726cacf44d29c1a4",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-22T08:38:09.418Z",
       "drive_copy_checked_at": "2026-10-22T08:38:15.359Z",
-      "drive_copy_note": "New canonical handoff; read-only Drive backup may be stale"
+      "drive_copy_note": "Canonical handoff changed 23Oct2026; Drive backup was not refreshed in this launch task."
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -50,8 +50,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "github_blob": "26b6dcc5ebada76cc59b22428019f1f178a38dd2",
-      "mirror_sha256": "8294130ab6664f7099806f0e4c205bd03ee66991b3ff29f5a296c75ff29dd678",
+      "github_blob": "e834c5ba1a5abd3a5b4d9c8f15fcab3aea6b4a71",
+      "mirror_sha256": "78a460bea5818c2f862fa073e8c9cecb6158d7f8fd62bb21b8853ab5cbe2bee4",
       "match": true,
       "drive_copy_sha256": "5e9481a81f8187dad6064c962faef58c74e24e0b466ed4bbb3cf63216d0f0578",
       "drive_copy_match": true,
