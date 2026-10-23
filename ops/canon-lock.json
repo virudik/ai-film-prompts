@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Record verified GitHub notification dedup from 20:55 check",
-  "acquired_at": "2026-10-23T20:00:28Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T20:01:35Z",
+  "task": "Record future Drama Studio and Canvas pilot requested by owner",
+  "acquired_at": "2026-10-23T20:23:57.603Z",
+  "expires_at": "2026-10-23T20:33:57.603Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
