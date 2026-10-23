@@ -51,10 +51,19 @@
       "Generated P2 seamlessness and audio match remain unverified until its actual result."
     ]
   },
+  "new_video_submissions": 0,
+  "prompt_history": [
+    {
+      "label": "59 · Seedance 2.0 часть 2",
+      "sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a",
+      "characters": 8069
+    }
+  ],
   "prompt_change": {
     "label": "59 · Seedance 2.0 часть 2",
-    "sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a",
-    "characters": 8069
-  },
-  "new_video_submissions": 0
+    "sha256": "f21e2df06f191a8d307e15647c0cdf91bf42753a4c6ac748c35e5e1682a1af3b",
+    "characters": 6589,
+    "updated_at": "2026-10-23T21:26:54.103042Z",
+    "scope": "Atmospheric entry and forest only; landing/exit moved toP3/P4 per owner."
+  }
 }

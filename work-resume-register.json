@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T21:13:42.202Z",
+  "last_updated_at": "2026-10-23T21:26:54.103042Z",
   "active_work": [
     {
       "work_id": "S59-OWNER-P1-CONTINUATION",
-      "title": "Сцена59: готовая первая часть владельца и бесшовная посадка",
-      "status": "completed_preparation_published_robot_verified",
-      "updated_at": "2026-10-23T21:13:42.202Z",
+      "title": "Сцена59: готоваяP1 + атмосфера/лес, посадка, выход с корзинкой",
+      "status": "completed_expansion_queued",
+      "updated_at": "2026-10-23T21:26:54.103042Z",
       "completed": [
         "Saved actual ownerP1 ending:3seconds/72frames, exact final frame and provenance.",
         "Cancelled pending duplicate59P1 generation; adapted only59P2 prompt and references to orbital start.",
-        "Published b355e05d36c7c751fad8c4144e810bc69063cce7; Pages40024811881 success; public master, queue, exact final frame and provenance byte-identical. Robot40024742080 reports59P2 ready at21:10:20Z;6/6 slots occupied at21:10:16Z. Integration40024726747, canonical check40024725787 and canon-health40024725791 passed."
+        "Published b355e05d36c7c751fad8c4144e810bc69063cce7; Pages40024811881 success; public master, queue, exact final frame and provenance byte-identical. Robot40024742080 reports59P2 ready at21:10:20Z;6/6 slots occupied at21:10:16Z. Integration40024726747, canonical check40024725787 and canon-health40024725791 passed.",
+        "Owner24Oct expanded59 into three15s continuations; added4 exact mushroom-film frame references, updated30s alternative and queuedP3/P4 with true previous-part dependencies. Source report: references/scenes/scene-59/mushroom-continuation-plan.json."
       ],
-      "next_action": "Existing queue priority0.51: one free59P2 continuation using saved3s clip; never rerender replaced59P1. Check visual/audio seam after real P2 generation; zero new video submissions in this preparation.",
+      "next_action": "Existing queue59P2(.51) ready;59P3(.52) waits actualP2 last3s/finalframe/QC;59P4(.53) waits actualP3. Use original empty left-hand basket and happy anticipation. Skip blocked parts for next ready item. No newP1, no paid generation; assess all actual joins after result.",
       "canonical_refs": [
         "references/scenes/scene-59/owner-P1-continuity.json",
         "references/scenes/scene-59/manifest.json",

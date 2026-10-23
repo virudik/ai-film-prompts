@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-23T21:26:54.103042Z",
+  "scene_id": 59,
+  "owner_source": {
+    "filename": "260917_0001_video_edit_6252.mp4",
+    "library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+    "sha256": "d21f57e8ab2f1473a528a99b6e6ce7012aca5ff237e14fb513a66bce6d4e4236",
+    "duration_seconds": 30.048,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "video_frames": 721
+  },
+  "source_role": "basket, appearance, emotion and forest context; NOT replacement orbitalP1 or new continuity input",
+  "sampled_visual_qc": "Two1fps contact sheets covering30s; full-size8.5s,18s,0s frames and people-free canopy crop inspected. Not continuous audiovisual/audio QC.",
+  "extracted_frames": [
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+      "role": "Серёга, костюм и пустая корзинка в левой руке",
+      "media_type": "image",
+      "sha256": "6724497d1940e0280dd444f15ffa4a07bbc10481b0e7a3099210d38b75cfdb02",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 8.5,
+      "source_frame_zero_based": 204,
+      "derivation": "ffmpeg frame extraction, JPEG; no AI redraw",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+      "role": "Лицо, воротник и плетение корзинки; позу сбора не копировать",
+      "media_type": "image",
+      "sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 18.0,
+      "source_frame_zero_based": 432,
+      "derivation": "ffmpeg frame extraction, JPEG; no AI redraw",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+      "role": "Лес и контекст следующего готового ролика",
+      "media_type": "image",
+      "sha256": "b335bcc8ab4ee291d388832d26e4e1e55b936463d349029a48757ce918953a4d",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 0.0,
+      "source_frame_zero_based": 0,
+      "derivation": "ffmpeg frame extraction, JPEG; no AI redraw",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+      "role": "Кроны и тёплый свет; кроп без персонажа",
+      "media_type": "image",
+      "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 0.0,
+      "source_frame_zero_based": 0,
+      "derivation": "ffmpeg frame extraction; crop x0 y0 width1280 height240",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    }
+  ],
+  "selected_parts": [
+    {
+      "id": "S59-SEED20-P2",
+      "label": "59 · Seedance 2.0 часть 2",
+      "priority": 0.51,
+      "duration_seconds": 15,
+      "prompt_sha256": "f21e2df06f191a8d307e15647c0cdf91bf42753a4c6ac748c35e5e1682a1af3b",
+      "depends_on_completed": []
+    },
+    {
+      "id": "S59-SEED20-P3",
+      "label": "59 · Seedance 2.0 часть 3",
+      "priority": 0.52,
+      "duration_seconds": 15,
+      "prompt_sha256": "376a3e466af94e3947c0605806e39eca40c5d446df560ad4201e29a43abbb2fb",
+      "depends_on_completed": [
+        "S59-SEED20-P2"
+      ]
+    },
+    {
+      "id": "S59-SEED20-P4",
+      "label": "59 · Seedance 2.0 часть 4",
+      "priority": 0.53,
+      "duration_seconds": 15,
+      "prompt_sha256": "b1741c67e6a586c08f228497f7261a4842fdfd83959740bd8aa0c3dff71bc30c",
+      "depends_on_completed": [
+        "S59-SEED20-P3"
+      ]
+    }
+  ],
+  "retired_part1_prompt": "archive/scenes/scene-59/retired-P1-before-owner-video.md",
+  "changes": [
+    "Replaced unsentP2 combined landing/exit with flight-only.",
+    "AddedP3 dynamic landing andP4 left-hand basket exit with happy anticipation.",
+    "Updated30s unused alternative to same story.",
+    "Synthetic images never satisfy actual previous-part continuity gates."
+  ],
+  "new_video_submissions": 0,
+  "qc_after_generation": [
+    "P1→P2 matching camera, ship, planet, velocity and sound.",
+    "P2→P3 full ship clearance, actual final direction, no early landing.",
+    "P3→P4 stable loaded gear, closed hatch, exact door geometry.",
+    "One original basket, empty in left hand throughout exit; readable happy anticipation without face drift.",
+    "P4→owner mushroom film: compare walking axis and light; use normal edit, no unverified pixel-perfect claim."
+  ]
+}

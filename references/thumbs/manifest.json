@@ -2433,6 +2433,46 @@
    "thumb_bytes": 71448,
    "src_sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
   },
+  "references/scenes/scene-59/S59-mushroom-basket-body.jpg": {
+   "thumb": "references/thumbs/scenes/scene-59/S59-mushroom-basket-body.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 132363,
+   "thumb_bytes": 30334,
+   "src_sha256": "6724497d1940e0280dd444f15ffa4a07bbc10481b0e7a3099210d38b75cfdb02"
+  },
+  "references/scenes/scene-59/S59-mushroom-face-weave.jpg": {
+   "thumb": "references/thumbs/scenes/scene-59/S59-mushroom-face-weave.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 123558,
+   "thumb_bytes": 27314,
+   "src_sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45"
+  },
+  "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg": {
+   "thumb": "references/thumbs/scenes/scene-59/S59-mushroom-forest-canopy.jpg.webp",
+   "width": 640,
+   "height": 120,
+   "src_width": 1280,
+   "src_height": 240,
+   "src_bytes": 55590,
+   "thumb_bytes": 13002,
+   "src_sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616"
+  },
+  "references/scenes/scene-59/S59-mushroom-forest-opening.jpg": {
+   "thumb": "references/thumbs/scenes/scene-59/S59-mushroom-forest-opening.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 166335,
+   "thumb_bytes": 36638,
+   "src_sha256": "b335bcc8ab4ee291d388832d26e4e1e55b936463d349029a48757ce918953a4d"
+  },
   "references/scenes/scene-59/S59-owner-P1-final.jpg": {
    "thumb": "references/thumbs/scenes/scene-59/S59-owner-P1-final.jpg.webp",
    "width": 640,

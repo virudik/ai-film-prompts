@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 59,
-  "updated_at": "2026-10-23T21:04:37.842561Z",
-  "status": "owner_supplied_P1_saved_P2_inputs_ready",
+  "updated_at": "2026-10-23T21:26:54.103042Z",
+  "status": "owner_P1_available_three_part_continuation_prepared",
   "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
   "references": [
     {
@@ -19,91 +19,6 @@
       },
       "site_published": {
         "path": "references/full/serega.jpg",
-        "linked_in_master": true,
-        "git_present": true
-      }
-    },
-    {
-      "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
-      "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
-      "role": "vehicle_design_clean_empty_roof",
-      "media_type": "image",
-      "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
-      "dimensions": [
-        1673,
-        940
-      ],
-      "bytes": 1659083,
-      "status": "available",
-      "source_path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-      "derivation": "imagegen precise-object-edit: remove roof figure and red glow, preserve ship design; original frame retained as provenance",
-      "owner_approval": "owner_requested_correction_not_artistic_approval",
-      "assistant_qc": {
-        "status": "usable_for_vehicle_reference",
-        "checked_at": "2026-10-23T16:14:07.518564Z",
-        "scope": "Viewed generated output: empty roof, matching silhouette, panels, glazing and lights; no claim of pixel-identical edit."
-      },
-      "site_published": {
-        "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
-        "linked_in_master": true,
-        "git_present": true
-      }
-    },
-    {
-      "path": "references/scenes/scene-37/S37-cockpit-empty.png",
-      "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
-      "media_type": "image",
-      "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
-      "status": "available",
-      "owner_approval": "not_claimed",
-      "assistant_qc": {
-        "status": "usable_for_assigned_role",
-        "checked_at": "2026-10-23T15:46:54.711992Z",
-        "scope": "Visual reference inspection; does not approve future generated video."
-      },
-      "site_published": {
-        "path": "references/scenes/scene-37/S37-cockpit-empty.png",
-        "linked_in_master": true,
-        "git_present": true,
-        "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
-        "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
-        "owner_approval": "not_claimed",
-        "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
-      },
-      "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
-    },
-    {
-      "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
-      "role": "Кашиик из космоса",
-      "media_type": "image",
-      "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
-      "status": "available",
-      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
-      "assistant_qc": {
-        "status": "usable_for_assigned_role",
-        "checked_at": "2026-10-23T15:46:54.711992Z",
-        "scope": "Visual reference inspection; does not approve future generated video."
-      },
-      "site_published": {
-        "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
-        "linked_in_master": true,
-        "git_present": true
-      }
-    },
-    {
-      "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
-      "role": "лес — только окружение, без персонажей",
-      "media_type": "image",
-      "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
-      "status": "available",
-      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
-      "assistant_qc": {
-        "status": "usable_for_assigned_role",
-        "checked_at": "2026-10-23T15:46:54.711992Z",
-        "scope": "Visual reference inspection; does not approve future generated video."
-      },
-      "site_published": {
-        "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
         "linked_in_master": true,
         "git_present": true
       }
@@ -139,36 +54,6 @@
       }
     },
     {
-      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
-      "asset_id": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
-      "role": "Космос: корабль и Кашиик",
-      "media_type": "image",
-      "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
-      "dimensions": [
-        1672,
-        941
-      ],
-      "bytes": 1952280,
-      "status": "available",
-      "derivation": "imagegen location composite from the clean personal ship baseline and listed location inputs; synthetic helper, not real video frame",
-      "source_paths": [
-        "references/scenes/scene-37/S37-ship-clean-roof.png",
-        "references/scenes/scene-37/S37-forest-planet-reference.png"
-      ],
-      "generation_report": "reports/serega-ship-locations-2026-10-23.json",
-      "owner_approval": "owner_requested_creation_not_artistic_approval",
-      "assistant_qc": {
-        "status": "usable_for_location_and_vehicle_guidance",
-        "checked_at": "2026-10-23T17:13:25.740946Z",
-        "scope": "Viewed generated output; empty roof, one personal craft, recognisable hull and intended environment. No pixel-identical geometry or continuity-frame claim; real video determines axis and opening."
-      },
-      "site_published": {
-        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
-        "linked_in_master": true,
-        "git_present": true
-      }
-    },
-    {
       "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
       "role": "Exact terminal frame of owner-provided59P1",
       "media_type": "image",
@@ -194,6 +79,94 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+      "role": "Серёга, костюм и пустая корзинка в левой руке",
+      "media_type": "image",
+      "sha256": "6724497d1940e0280dd444f15ffa4a07bbc10481b0e7a3099210d38b75cfdb02",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 8.5,
+      "source_frame_zero_based": 204,
+      "derivation": "ffmpeg frame extraction, JPEG; no AI redraw",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+      "role": "Лицо, воротник и плетение корзинки; позу сбора не копировать",
+      "media_type": "image",
+      "sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 18.0,
+      "source_frame_zero_based": 432,
+      "derivation": "ffmpeg frame extraction, JPEG; no AI redraw",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+      "role": "Лес и контекст следующего готового ролика",
+      "media_type": "image",
+      "sha256": "b335bcc8ab4ee291d388832d26e4e1e55b936463d349029a48757ce918953a4d",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 0.0,
+      "source_frame_zero_based": 0,
+      "derivation": "ffmpeg frame extraction, JPEG; no AI redraw",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+      "role": "Кроны и тёплый свет; кроп без персонажа",
+      "media_type": "image",
+      "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+      "status": "available",
+      "source_library_file_id": "libfile_e17c52c81ce0819198c615d0fa4422cd",
+      "source_timestamp_seconds": 0.0,
+      "source_frame_zero_based": 0,
+      "derivation": "ffmpeg frame extraction; crop x0 y0 width1280 height240",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T21:26:54.103042Z",
+        "scope": "Viewed exact full-size extracted image; source contact sheets sampled all30seconds; no continuous audiovisual or audio QC claimed."
+      },
+      "owner_approval": "owner_supplied_design_source_not_generated_result_approval",
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "pending_video": {
@@ -210,7 +183,8 @@
     "qc_status": "usable_for_continuity_input",
     "source_requirement": "Owner supplied existing59P1 replaces pending generation; use actual saved ending.",
     "role": "P2_previous_part_end",
-    "status": "available"
+    "status": "available",
+    "note": "Available P2 source only. P3/P4 have separate unresolved sources in part_inputs."
   },
   "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof.",
   "owner_provided_part1": {
@@ -228,11 +202,263 @@
   "selected_workflow": {
     "part1": "owner_supplied_video_no_rerender",
     "part2": "59 · Seedance 2.0 часть 2",
+    "part3": "59 · Seedance 2.0 часть 3",
+    "part4": "59 · Seedance 2.0 часть 4",
+    "new_generation_seconds": 45,
+    "assembled_duration_approx_seconds": 60,
     "source_continuity": "references/scenes/scene-59/owner-P1-continuity.json",
-    "image4_override": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+    "mushroom_source": "references/scenes/scene-59/mushroom-continuation-plan.json",
     "unused_alternatives": [
-      "59",
-      "59 · Seedance 2.0 часть 1"
+      "59"
+    ],
+    "retired_part1_prompt": "archive/scenes/scene-59/retired-P1-before-owner-video.md"
+  },
+  "part_inputs": {
+    "S59-SEED20-P2": [
+      {
+        "slot": "@Video1",
+        "canonical_role": "owner_supplied_P1_actual_end",
+        "input_status": "available",
+        "required": true,
+        "library_file_id": "libfile_7e1093c34c748191b51f2159106da6fa",
+        "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+        "filename": "S59-owner-P1-last3s.mp4",
+        "sha256": "a4bf2e1d244e11bbcdbb0f724148aa2334cba370e0be9bec738af3017a3062b4",
+        "duration_seconds": 3,
+        "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json",
+        "qc_status": "usable_for_continuity_input",
+        "source_requirement": "Materialize exact saved3s clip by Library ID, verify SHA, upload as Video1. Start from its terminal exterior frame, not earlier cockpit/fly-by. No newP1 required."
+      },
+      {
+        "slot": "@Image1",
+        "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+        "canonical_role": "Actual orbital Part1 terminal frame",
+        "sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947",
+        "required": true,
+        "input_status": "available"
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+        "canonical_role": "People-free forest canopy and warm daylight",
+        "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+        "required": true,
+        "input_status": "available"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+        "canonical_role": "Synthetic destination scale helper; actual video wins",
+        "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+        "required": true,
+        "input_status": "available"
+      }
+    ],
+    "S59-SEED20-P3": [
+      {
+        "slot": "@Video1",
+        "canonical_role": "actual_previous_part_last3s",
+        "required": true,
+        "input_status": "pending_previous_result",
+        "source_item_id": "S59-SEED20-P2",
+        "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+      },
+      {
+        "slot": "@Image1",
+        "canonical_role": "actual_previous_part_final_frame",
+        "required": true,
+        "input_status": "pending_previous_result",
+        "source_item_id": "S59-SEED20-P2",
+        "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+        "canonical_role": "Hull and glade scale helper",
+        "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+        "required": true,
+        "input_status": "available"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+        "canonical_role": "Warm forest light; no people",
+        "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+        "required": true,
+        "input_status": "available"
+      }
+    ],
+    "S59-SEED20-P4": [
+      {
+        "slot": "@Video1",
+        "canonical_role": "actual_previous_part_last3s",
+        "required": true,
+        "input_status": "pending_previous_result",
+        "source_item_id": "S59-SEED20-P3",
+        "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+      },
+      {
+        "slot": "@Image1",
+        "canonical_role": "actual_previous_part_final_frame",
+        "required": true,
+        "input_status": "pending_previous_result",
+        "source_item_id": "S59-SEED20-P3",
+        "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+        "canonical_role": "Exact empty basket left hand, robe and body",
+        "sha256": "6724497d1940e0280dd444f15ffa4a07bbc10481b0e7a3099210d38b75cfdb02",
+        "required": true,
+        "input_status": "available"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+        "canonical_role": "Face, collar and wicker detail; do not copy picking action",
+        "sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45",
+        "required": true,
+        "input_status": "available"
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+        "canonical_role": "Forest and following editorial context only",
+        "sha256": "b335bcc8ab4ee291d388832d26e4e1e55b936463d349029a48757ce918953a4d",
+        "required": true,
+        "input_status": "available"
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/full/serega.jpg",
+        "canonical_role": "Canonical Serega identity",
+        "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+        "required": true,
+        "input_status": "available"
+      }
     ]
-  }
+  },
+  "retired_reference_roles": [
+    {
+      "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "role": "vehicle_design_clean_empty_roof",
+      "media_type": "image",
+      "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+      "dimensions": [
+        1673,
+        940
+      ],
+      "bytes": 1659083,
+      "status": "available",
+      "source_path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "derivation": "imagegen precise-object-edit: remove roof figure and red glow, preserve ship design; original frame retained as provenance",
+      "owner_approval": "owner_requested_correction_not_artistic_approval",
+      "assistant_qc": {
+        "status": "usable_for_vehicle_reference",
+        "checked_at": "2026-10-23T16:14:07.518564Z",
+        "scope": "Viewed generated output: empty roof, matching silhouette, panels, glazing and lights; no claim of pixel-identical edit."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "linked_in_master": false,
+        "git_present": true
+      },
+      "active_use": false
+    },
+    {
+      "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+      "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
+      "media_type": "image",
+      "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+      "status": "available",
+      "owner_approval": "not_claimed",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+        "linked_in_master": false,
+        "git_present": true,
+        "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+        "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
+        "owner_approval": "not_claimed",
+        "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
+      },
+      "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame.",
+      "active_use": false
+    },
+    {
+      "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+      "role": "Кашиик из космоса",
+      "media_type": "image",
+      "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+        "linked_in_master": false,
+        "git_present": true
+      },
+      "active_use": false
+    },
+    {
+      "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+      "role": "лес — только окружение, без персонажей",
+      "media_type": "image",
+      "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+        "linked_in_master": false,
+        "git_present": true
+      },
+      "active_use": false
+    },
+    {
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+      "asset_id": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+      "role": "Космос: корабль и Кашиик",
+      "media_type": "image",
+      "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1952280,
+      "status": "available",
+      "derivation": "imagegen location composite from the clean personal ship baseline and listed location inputs; synthetic helper, not real video frame",
+      "source_paths": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-37/S37-forest-planet-reference.png"
+      ],
+      "generation_report": "reports/serega-ship-locations-2026-10-23.json",
+      "owner_approval": "owner_requested_creation_not_artistic_approval",
+      "assistant_qc": {
+        "status": "usable_for_location_and_vehicle_guidance",
+        "checked_at": "2026-10-23T17:13:25.740946Z",
+        "scope": "Viewed generated output; empty roof, one personal craft, recognisable hull and intended environment. No pixel-identical geometry or continuity-frame claim; real video determines axis and opening."
+      },
+      "site_published": {
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+        "linked_in_master": false,
+        "git_present": true
+      },
+      "active_use": false
+    }
+  ]
 }

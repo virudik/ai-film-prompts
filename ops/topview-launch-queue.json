@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T21:04:37.842561Z",
+  "updated_at": "2026-10-23T21:26:54.103042Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6490,47 +6490,31 @@
         },
         {
           "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "canonical_role": "Серёга — лицо и одежда",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
-          "canonical_role": "Кашиик: посадочная поляна; synthetic location helper; actual continuity video wins",
-          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
-          "canonical_role": "кабина — только геометрия",
-          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
           "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
-          "canonical_role": "Exact final frame of owner-provided59P1; opening globe, ship and framing",
+          "canonical_role": "Actual orbital Part1 terminal frame",
           "sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
-          "canonical_role": "лес — только окружение, без персонажей",
-          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+          "slot": "@Image2",
+          "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+          "canonical_role": "People-free forest canopy and warm daylight",
+          "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+          "canonical_role": "Synthetic destination scale helper; actual video wins",
+          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
           "required": true,
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a",
-      "normalized_prompt_sha256": "a3672f340a5809fb1cacbdf7d1ef74246e8fdc79f8e9b79e1217ecf0e11c4f66",
+      "canonical_prompt_sha256": "f21e2df06f191a8d307e15647c0cdf91bf42753a4c6ac748c35e5e1682a1af3b",
+      "normalized_prompt_sha256": "6209e009801af3af48f585fb377138409ba9ee94c8004b884fa8b90e633a1ec1",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
@@ -6538,12 +6522,177 @@
       "board_name": "My First Board",
       "blocker": null,
       "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
-      "updated_at": "2026-10-23T21:04:37.842561Z",
+      "updated_at": "2026-10-23T21:26:54.103042Z",
       "owner_source_override": {
         "at": "2026-10-23T21:04:37.842561Z",
         "decision": "Owner attachment replaces first-part generation; continue its true ending. Prior P1 submit/complete dependency is satisfied by supplied video, not a fabricated Topview success.",
         "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
         "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json"
+      },
+      "owner_expansion": {
+        "at": "2026-10-23T21:26:54.103042Z",
+        "decision": "Owner requests three separate continuations after existingP1: atmosphere/forest, landing, basket exit. Prior single15s landing/exit prompt replaced before submission.",
+        "previous_unsubmitted_prompt_sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a"
+      }
+    },
+    {
+      "id": "S59-SEED20-P3",
+      "scene_id": 59,
+      "prompt_id": "S59-SEED20-P3",
+      "canonical_block_label": "59 · Seedance 2.0 часть 3",
+      "priority": 0.52,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_missing_continuity_input",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S59-SEED20-P2"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "actual_previous_part_last3s",
+          "required": true,
+          "input_status": "pending_previous_result",
+          "source_item_id": "S59-SEED20-P2",
+          "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+        },
+        {
+          "slot": "@Image1",
+          "canonical_role": "actual_previous_part_final_frame",
+          "required": true,
+          "input_status": "pending_previous_result",
+          "source_item_id": "S59-SEED20-P2",
+          "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+          "canonical_role": "Hull and glade scale helper",
+          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+          "canonical_role": "Warm forest light; no people",
+          "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "376a3e466af94e3947c0605806e39eca40c5d446df560ad4201e29a43abbb2fb",
+      "normalized_prompt_sha256": "24f3ed9bc739dd190387c2db80cdb011112f90f80855c493f307e51f2e1be0a4",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner24Oct2026: expand scene59 continuation into three15s parts within existing queue. One website Unlimited0 attempt per selected part; no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": "Wait actual59P2 result, last3s/finalframe and continuity QC",
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "updated_at": "2026-10-23T21:26:54.103042Z",
+      "owner_expansion": {
+        "at": "2026-10-23T21:26:54.103042Z",
+        "decision": "Owner requests three separate continuations after existingP1: atmosphere/forest, landing, basket exit. Prior single15s landing/exit prompt replaced before submission.",
+        "previous_unsubmitted_prompt_sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a"
+      }
+    },
+    {
+      "id": "S59-SEED20-P4",
+      "scene_id": 59,
+      "prompt_id": "S59-SEED20-P4",
+      "canonical_block_label": "59 · Seedance 2.0 часть 4",
+      "priority": 0.53,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_missing_continuity_input",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S59-SEED20-P3"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "actual_previous_part_last3s",
+          "required": true,
+          "input_status": "pending_previous_result",
+          "source_item_id": "S59-SEED20-P3",
+          "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+        },
+        {
+          "slot": "@Image1",
+          "canonical_role": "actual_previous_part_final_frame",
+          "required": true,
+          "input_status": "pending_previous_result",
+          "source_item_id": "S59-SEED20-P3",
+          "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+          "canonical_role": "Exact empty basket left hand, robe and body",
+          "sha256": "6724497d1940e0280dd444f15ffa4a07bbc10481b0e7a3099210d38b75cfdb02",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+          "canonical_role": "Face, collar and wicker detail; do not copy picking action",
+          "sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+          "canonical_role": "Forest and following editorial context only",
+          "sha256": "b335bcc8ab4ee291d388832d26e4e1e55b936463d349029a48757ce918953a4d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Canonical Serega identity",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "b1741c67e6a586c08f228497f7261a4842fdfd83959740bd8aa0c3dff71bc30c",
+      "normalized_prompt_sha256": "482326a7bf5d6842a46cb317ef29879696ea9d6007135361db076affb31631a4",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner24Oct2026: expand scene59 continuation into three15s parts within existing queue. One website Unlimited0 attempt per selected part; no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": "Wait actual59P3 result, last3s/finalframe and continuity QC",
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "updated_at": "2026-10-23T21:26:54.103042Z",
+      "owner_expansion": {
+        "at": "2026-10-23T21:26:54.103042Z",
+        "decision": "Owner requests three separate continuations after existingP1: atmosphere/forest, landing, basket exit. Prior single15s landing/exit prompt replaced before submission.",
+        "previous_unsubmitted_prompt_sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a"
       }
     },
     {
@@ -8106,5 +8255,20 @@
     "at": "2026-10-23T17:13:25.740946Z",
     "rule": "Use matched ship-in-location refs for each prompt. No new video submission or retry authorized by this image task. Pending entries updated; submitted receipts remain unchanged.",
     "report": "reports/serega-ship-locations-2026-10-23.json"
+  },
+  "owner_instruction_20261024_scene59": {
+    "at": "2026-10-23T21:26:54.103042Z",
+    "source": "current owner message plus260917_0001_video_edit_6252.mp4",
+    "sequence": [
+      "owner_supplied59P1",
+      "S59-SEED20-P2",
+      "S59-SEED20-P3",
+      "S59-SEED20-P4"
+    ],
+    "queue_position": "Existing59 block after worms/62, before60; priorities0.51/0.52/0.53",
+    "blocked_skip": "If own previous result/QC missing, skip to next authorized ready item; do not reserve a free slot.",
+    "basket": "Use owner film basket in left hand, initially empty; happy anticipation on exit.",
+    "retired_P1_prompt": "archive/scenes/scene-59/retired-P1-before-owner-video.md",
+    "independent_scene60": true
   }
 }

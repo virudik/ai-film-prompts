@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "9d2fc261fd972cb9cb2fd2d21af602217674aaec5ea014eea59b794f59e85bc7",
+  "source_queue_sha256": "da6c92e6c231626b1f94049af34620567b55311e9f9d03cfe4aa3a12c9665ee2",
   "source_task_map_sha256": "76877cd18035a03bfe04927ad2a504e34b19f8c39d4a3476be9326fe60a7a3bb",
   "topview_checked_at": "2026-10-23T21:20:20Z",
   "items": [
@@ -275,15 +275,6 @@
       "queue_state": "blocked_inputs"
     },
     {
-      "id": "S59-SEED20-P2",
-      "scene_id": 59,
-      "part_label": "Часть 2",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
-    },
-    {
       "id": "S60-SEED20-P1",
       "scene_id": 60,
       "part_label": "Часть 1",
@@ -335,6 +326,33 @@
       "code": "waiting_result",
       "ready": false,
       "text": "@Video1: ждёт результат 62 · Seedance 2.0 часть 1 (ещё не запущен)",
+      "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S59-SEED20-P2",
+      "scene_id": 59,
+      "part_label": "Часть 2",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S59-SEED20-P3",
+      "scene_id": 59,
+      "part_label": "Часть 3",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "@Video1: ждёт результат 59 · Seedance 2.0 часть 2 (ещё не запущен); @Image1: ждёт результат 59 · Seedance 2.0 часть 2 (ещё не запущен)",
+      "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S59-SEED20-P4",
+      "scene_id": 59,
+      "part_label": "Часть 4",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "@Video1: ждёт результат 59 · Seedance 2.0 часть 3 (ещё не запущен); @Image1: ждёт результат 59 · Seedance 2.0 часть 3 (ещё не запущен)",
       "queue_state": "blocked_inputs"
     }
   ],
