@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-23T01:20:43Z",
+  "checked_at": "2026-10-23T01:30:50Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -65,8 +65,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2147,
-      "wait_seconds": 68682,
+      "queue_count": 2129,
+      "wait_seconds": 68073,
       "process_seconds": null
     },
     {
@@ -78,21 +78,12 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1032,
-      "wait_seconds": 25480,
+      "queue_count": 1012,
+      "wait_seconds": 24872,
       "process_seconds": null
     }
   ],
   "unknown_new": [
-    {
-      "task_id": "0da875de0b384971836be2e3a05d0c0b",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "success",
-      "created_at": "2026-10-23 01:11:03",
-      "model": "Seedance 2.0",
-      "unlimited": false,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-fantasy action c"
-    },
     {
       "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -259,7 +250,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-23T01:00:49Z",
-    "monitor_age_minutes": 20,
+    "monitor_age_minutes": 30,
     "monitor_occupied": 6,
     "robot_occupied": 2,
     "consistent": false,
