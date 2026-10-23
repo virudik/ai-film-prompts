@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T02:00:54.604Z",
+  "last_updated_at": "2026-10-23T02:20:22.376Z",
   "active_work": [
     {
       "work_id": "PROJECT-AUDIT-20261023",
@@ -18,9 +18,9 @@
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-      "status": "waiting_for_slots",
-      "updated_at": "2026-10-23T02:00:54.604Z",
-      "next_action": "6/6 slots occupied. On each free slot run next ready authorized item by canonical priority; skip blocked inputs without reserving a slot. Selected49A-F,50A/B,51A are waiting;52P2 requires actual52P1 end and51B actual51A end. Do not repeat submitted52P1 or28A1. Raznoe paused.",
+      "status": "updating_owner_priority",
+      "updated_at": "2026-10-23T02:20:22.376Z",
+      "next_action": "Persist52P2/58P2 first; prepare remaining Seedance28 items from current canonical manifest, preserving real dependencies, no duplicate Wan alternatives; then49/50/51. Refresh all slots; mandatory new28 QC. This checkpoint records intent, not completion.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
@@ -202,6 +202,22 @@
           "no automatic retries or reactivation of submitted/superseded alternatives",
           "Raznoe remains paused"
         ]
+      },
+      "owner_priority_20261023": {
+        "at": "2026-10-23T02:20:22.376Z",
+        "quote": "тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+        "primary": [
+          "S52-SEED20-P2",
+          "S58-SEED20-P2"
+        ],
+        "fallback_scenes": [
+          28,
+          49,
+          50,
+          51
+        ],
+        "quality": "Review new28 results for energy, recognizable identity, anatomy, physical contact and usable intervals; no assumed approval or automatic retries.",
+        "source": "Direct owner current chat"
       }
     },
     {
