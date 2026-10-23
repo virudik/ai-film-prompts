@@ -1,8 +1,23 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T14:05:00Z",
+  "last_updated_at": "2026-10-23T15:35:12.504082Z",
   "active_work": [
+    {
+      "work_id": "KASHYYYK-THREE-SCENES-20261023",
+      "title": "Посадка, вылет и предыстория дуэли на Кашиике",
+      "status": "preparing",
+      "updated_at": "2026-10-23T15:35:12.504082Z",
+      "completed": [
+        "Вложения прочитаны по кадрам; личности разрешены по реестру; новые ID59–61 свободны"
+      ],
+      "next_action": "Prepare exact source references and nine complete prompts, queue59–61 after worm block, validate and publish.",
+      "canonical_refs": [
+        "reports/current-work-checkpoint.md",
+        "ops/topview-launch-queue.json"
+      ],
+      "authorization": "Direct owner current chat23Oct2026; one Unlimited0 attempt per selected Seedance2.0 part; existing ready-skip applies."
+    },
     {
       "work_id": "TOPVIEW-FRESHNESS-20261023",
       "title": "Восстановить публикацию Topview и проверить общий экран изображений",
