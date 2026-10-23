@@ -91,7 +91,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-10-23T22:50:18Z",
+      "checked_at": "2026-10-23T23:00:22Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -107,22 +107,19 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-23T22:50:21Z",
-    "completed_at": "2026-10-23T22:50:21Z",
-    "health": "ok",
+    "started_at": "2026-10-23T23:00:34Z",
+    "completed_at": "2026-10-23T23:00:34Z",
+    "health": "degraded",
     "phases_completed": [
-      "role_check",
-      "topview_scan_api",
-      "task_map_master_consistency",
-      "telemetry_publish",
-      "project_status_health_ok",
-      "checkpoint_last"
+      "topview_scan"
     ],
-    "phases_missing": [],
+    "phases_missing": [
+      "telemetry_publish"
+    ],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "hold: detail_failed:56e5e07c"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -181,7 +178,7 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-23T22:50:21Z",
+  "last_completed_cycle_at": "2026-10-23T23:00:34Z",
   "last_successful_cycle_at": "2026-10-23T22:50:21Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -197,7 +194,7 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-23T22:50:21Z"
+    "robot": "2026-10-23T23:00:34Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
