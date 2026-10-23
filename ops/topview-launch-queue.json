@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T02:24:26.305Z",
+  "updated_at": "2026-10-23T09:12:00Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -7038,7 +7038,7 @@
       "canonical_prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
       "normalized_prompt_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
       "priority": 1.02,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -7085,7 +7085,39 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-20261023T0912Z-S28-A2",
+        "claimed_at": "2026-10-23T09:12:00Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "account_scan": {
+          "checked_at": "2026-10-23T09:12:00Z",
+          "boards": 13,
+          "pages": 19,
+          "total_tasks": 932,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 932-task scan; zero exact normalized current S28-A2 prompt matches; historical different-revision task remains excluded.",
+        "preflight": {
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_chars": 6030,
+          "prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+          "prompt_normalized_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+          "input_count": 4,
+          "input_sha_verified": true
+        }
+      },
       "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
       "blocker": null,
