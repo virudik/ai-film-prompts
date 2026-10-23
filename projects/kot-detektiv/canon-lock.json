@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:project-check",
   "task": "Кот детектив: динамичные версии сцен 1–21 отдельной вкладкой (старые не меняются)",
   "acquired_at": "2026-10-23T23:03:57Z",
-  "expires_at": "2026-10-23T23:48:57Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-23T23:07:54Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "kot-detektiv"
 }
