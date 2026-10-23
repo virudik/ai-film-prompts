@@ -1,11 +1,10 @@
 {
   "schema_version": 1,
-  "state": "released",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "SEREGIUS-READY-SKIP-20261023: persist owner rule and launch S57P1",
-  "acquired_at": "2026-10-23T00:49:39.882Z",
-  "expires_at": "2026-10-23T00:56:59.452Z",
-  "released_at": "2026-10-23T00:56:59.452Z",
-  "rules": "ops/CANON-LOCK.md",
-  "release_note": "S57P1 submitted Unlimited0, six slots occupied; ready-skip rule persisted in queue, launch runbook, main handoff plus seven-file certificate, and existing automation."
+  "task": "AUDIT-20261023: automation dedup and S58P1 launch; inspect new results",
+  "acquired_at": "2026-10-23T01:09:07.912Z",
+  "expires_at": "2026-10-23T01:54:07.912Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md"
 }
