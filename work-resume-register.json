@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T03:50:08.536Z",
+  "last_updated_at": "2026-10-23T06:53:05.541Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-FRESHNESS-20261023",
@@ -39,7 +39,7 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_slots",
-      "updated_at": "2026-10-23T02:25:21.662Z",
+      "updated_at": "2026-10-23T06:53:05.541Z",
       "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
@@ -143,45 +143,58 @@
         ]
       },
       "last_live_scan": {
-        "at": "2026-10-23T02:21:03.061Z",
+        "at": "2026-10-23T06:53:05.541Z",
         "boards": 13,
         "pages": 19,
         "total": 932,
         "scan_complete": true,
+        "status_counts": {
+          "success": 889,
+          "fail": 37,
+          "init": 6
+        },
         "active": [
           {
             "id": "4b7b972870a44dfbb29bd6c5e330a633",
             "status": "init",
-            "credits": 0
+            "credits": 0,
+            "item_id": "S28-A1-TEST-20261017"
           },
           {
             "id": "34ff1bf7fe9d47f08de5a635d5626c70",
             "status": "init",
-            "credits": 0
+            "credits": 0,
+            "item_id": "S52-SEED20-P1"
           },
           {
             "id": "56e5e07c85df4af583c62665c51ed563",
             "status": "init",
-            "credits": 0
+            "credits": 0,
+            "item_id": "S47-SEED20-P2"
           },
           {
             "id": "af8e389dc9564607bc6138b408c72da5",
             "status": "init",
-            "credits": 0
+            "credits": 0,
+            "item_id": "S57-SEED20-P2"
           },
           {
             "id": "6598a21c2c684d43b7cede9cfc987107",
             "status": "init",
-            "credits": 0
+            "credits": 0,
+            "item_id": "S58-SEED20-P1"
           },
           {
             "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
             "status": "init",
-            "credits": 0
+            "credits": 0,
+            "item_id": "S42-SEED20-P2"
           }
         ],
         "occupied_slots": 6,
-        "free_slots": 0
+        "free_slots": 0,
+        "board_name": "My First Board",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
       },
       "owner_paid_attribution": {
         "task_id": "0da875de0b384971836be2e3a05d0c0b",
@@ -335,57 +348,16 @@
         "Actual video dependencies58P2/56/48 remain; existing42P2 variant differs from canonical, reconcile before another submission.",
         "52P2 requires actual new52P1 end;51B requires actual new51A end.49/50/51 launch authorization is active from23Oct."
       ],
-      "last_resume_check": {
-        "at": "2026-10-23T02:21:03.061Z",
-        "boards": 13,
-        "pages": 19,
-        "total": 932,
-        "scan_complete": true,
-        "active": [
-          {
-            "id": "4b7b972870a44dfbb29bd6c5e330a633",
-            "status": "init",
-            "credits": 0
-          },
-          {
-            "id": "34ff1bf7fe9d47f08de5a635d5626c70",
-            "status": "init",
-            "credits": 0
-          },
-          {
-            "id": "56e5e07c85df4af583c62665c51ed563",
-            "status": "init",
-            "credits": 0
-          },
-          {
-            "id": "af8e389dc9564607bc6138b408c72da5",
-            "status": "init",
-            "credits": 0
-          },
-          {
-            "id": "6598a21c2c684d43b7cede9cfc987107",
-            "status": "init",
-            "credits": 0
-          },
-          {
-            "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
-            "status": "init",
-            "credits": 0
-          }
-        ],
-        "occupied_slots": 6,
-        "free_slots": 0
-      },
+      "last_resume_check": "2026-10-23T06:53:05.541Z",
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-22T17:55:05.245Z",
+        "last_successful_check_at": "2026-10-23T06:53:05.541Z",
         "self_heal": {
           "status": "ok_verified",
           "changed_at": "2026-10-22T11:49:38Z",
           "latest_observed_workflow_run": {
-            "run_id": 39825967587,
+            "run_id": 39913815894,
             "conclusion": "success",
-            "started_at": "2026-10-22T17:49:01Z",
-            "head_sha": "b9af32b9d026ca897ad87d553c8c0d2712c48280"
+            "started_at": "2026-10-23T06:49:00Z"
           },
           "action": "no intervention; fresh self-heal state is ok"
         },
@@ -397,26 +369,26 @@
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-22T17:50:42Z",
-          "age_minutes_at_check": 4.4,
+          "synced_at": "2026-10-23T06:20:23Z",
+          "age_minutes_at_check": 32.7,
           "fresh_within_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
-          "checked_at": "2026-10-22T12:56:54Z",
+          "checked_at": "2026-10-23T04:14:00Z",
           "warn_or_error_count": 0,
-          "info_count": 6,
+          "info_count": 4,
           "latest_observed_workflow_run": {
-            "run_id": 39818214724,
+            "run_id": 39899277852,
             "conclusion": "success",
-            "started_at": "2026-10-22T16:55:54Z"
+            "started_at": "2026-10-23T04:14:00Z"
           }
         },
         "github_mail_audit": {
-          "window": "2026-10-21T12:00:17.968Z through 2026-10-22T17:55:05.245Z (24h overlap from prior successful check; Gmail query covered 2 days)",
+          "window": "2026-10-21T17:55:05.245Z through 2026-10-23T06:53:05.541Z (24h overlap from prior successful check; Gmail query covered 2 days)",
           "query_pages": 1,
-          "searched_message_count": 3,
-          "new_message_count": 0,
+          "searched_message_count": 9,
+          "new_message_count": 6,
           "deduplicated_known_message_count": 3,
           "mail_state_changed": false,
           "message_ids": [
@@ -466,7 +438,13 @@
             "1a15a42474d989a0",
             "1a15f048f80630d3",
             "1a15e58d2b22a4db",
-            "1a15e56069dfd430"
+            "1a15e56069dfd430",
+            "1a166d970ca52e52",
+            "1a166c710dcb2e1a",
+            "1a166b0e4a83653b",
+            "1a166439ec572060",
+            "1a1664312fb819ac",
+            "1a16637ad15b5353"
           ],
           "run_ids": [
             39206350248,
@@ -518,62 +496,100 @@
             39596166449,
             39637090346,
             39648758027,
-            39643202942
+            39643202942,
+            39896221483,
+            39894437526,
+            39892273218,
+            39881097544,
+            39881097416,
+            39879822455
           ],
-          "resolved_by_subsequent_success": {
-            "canon_health": 39237799284,
-            "integration_recovery": 39234540789,
-            "topview_robot": 39249933835,
-            "drive_archive": 39249301254,
-            "canon_health_20261019": 39372056514,
-            "drive_archive_20261019": 39383195312,
-            "pages_build_20261020": 39417828784,
-            "drive_archive_20261020": 39418380463,
-            "canon_health_20261020_publish_race": 39470879540,
-            "canon_health_20261021": 39637090346,
-            "topview_robot_shadow_publish_20261021": 39648758027
-          },
+          "newly_processed": [
+            {
+              "message_id": "1a166d970ca52e52",
+              "run_id": 39896221483,
+              "workflow": "Topview robot",
+              "resolved_by_run_id": 39896478536
+            },
+            {
+              "message_id": "1a166c710dcb2e1a",
+              "run_id": 39894437526,
+              "workflow": "Topview robot",
+              "resolved_by_run_id": 39895333878
+            },
+            {
+              "message_id": "1a166b0e4a83653b",
+              "run_id": 39892273218,
+              "workflow": "Validate Control Center",
+              "resolved_by_run_id": 39892371821
+            },
+            {
+              "message_id": "1a166439ec572060",
+              "run_id": 39881097544,
+              "workflow": "AI Film integration recovery tests",
+              "resolved_by_run_id": 39891755166
+            },
+            {
+              "message_id": "1a1664312fb819ac",
+              "run_id": 39881097416,
+              "workflow": "Canon health",
+              "resolved_by_run_id": 39881147638
+            },
+            {
+              "message_id": "1a16637ad15b5353",
+              "run_id": 39879822455,
+              "workflow": "Projects status",
+              "resolved_by_run_id": 39889833199
+            }
+          ],
           "diagnoses": {
-            "canon_health": "Five failure notices were transient queue/master warnings for scenes57/58 plus a concurrent push; current canon-health has zero warn/error and later runs succeeded.",
-            "drive_archive": "Run39329935816 archived and verified data but failed to persist the index because of a rebase conflict; later scheduled run39383195312 completed every step successfully.",
-            "pages_build_20261020": "Four cancelled Pages runs were superseded by newer pushes; each cancellation was followed by a successful Pages run. Latest completed Pages run39417828784 succeeded; a newer run39419006393 was in progress at read time.",
-            "canon_health_20261020_publish_race": "Run39462198805 computed status=ok/warnings=0 but failed publishing canon-health.json after a concurrent push left git rebase conflicts across retries. Workflow fixed in commit8d1a879 to reset from fresh origin/main and recompute on every attempt; replacement run39470879540 succeeded.",
-            "canon_health_20261021": "Two notification messages referenced the same run39596166449; its handoff-age warning was removed and later run39637090346 succeeded with current canon-health clean.",
-            "topview_robot_shadow_publish_20261021": "Run39623230312 completed the full Topview scan successfully; only the shadow-status commit failed on a concurrent-push rebase conflict. Later scheduled robot runs, including39648758027, succeeded."
+            "topview_robot_39894437526_39896221483": "Two isolated failures were followed by successful scheduled runs; latest observed robot run39913918557 succeeded. No current robot failure.",
+            "validate_control_center_39892273218": "Failure was followed one minute later by successful run39892371821 and later run39892960836.",
+            "integration_39881097544": "Failure was followed by successful integration runs, including39891755166 and39896193519.",
+            "canon_health_39881097416": "Failure was followed immediately by run39881147638 success; current canon-health status=ok with zero warn/error.",
+            "projects_status_39879822455": "Failure was followed by repeated successful runs; current project-status health=ok and fresh within40min."
           },
           "actions_verification": {
-            "checked_at": "2026-10-22T17:55:05.245Z",
+            "checked_at": "2026-10-23T06:53:05.541Z",
             "current_failure": false,
-            "canonical_run_id": 39826397008,
+            "canonical_run_id": 39913095252,
             "canonical_run_conclusion": "success",
-            "topview_robot_run_id": 39826107082,
+            "topview_robot_run_id": 39913918557,
             "topview_robot_conclusion": "success",
-            "archive_run_id": 39825400301,
+            "archive_run_id": 39913404384,
             "archive_conclusion": "success",
-            "self_heal_run_id": 39825967587,
+            "self_heal_run_id": 39913815894,
             "self_heal_conclusion": "success",
-            "canon_health_run_id": 39818214724,
+            "canon_health_run_id": 39899277852,
             "canon_health_conclusion": "success",
-            "integration_run_id": 39752876116,
+            "projects_status_run_id": 39899277831,
+            "projects_status_conclusion": "success",
+            "integration_run_id": 39896193519,
             "integration_conclusion": "success",
-            "pages_latest_completed_run_id": 39826220620,
-            "pages_latest_completed_conclusion": "success",
-            "shadow_brief_run_id": 39825186215,
-            "shadow_brief_conclusion": "success"
+            "validate_control_center_run_id": 39892960836,
+            "validate_control_center_conclusion": "success",
+            "pages_latest_observed_run_id": 39913961008,
+            "pages_latest_observed_status": "in_progress"
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap",
           "latest_query_message_ids": [
+            "1a166d970ca52e52",
+            "1a166c710dcb2e1a",
+            "1a166b0e4a83653b",
+            "1a166439ec572060",
+            "1a1664312fb819ac",
+            "1a16637ad15b5353",
             "1a15f048f80630d3",
             "1a15e58d2b22a4db",
             "1a15e56069dfd430"
           ],
-          "notes": "No new failure notification message IDs. Current core workflow runs checked and successful; no rerun or repair was needed."
+          "notes": "Six new GitHub failure notifications were checked against actual Actions history; every failure has a later successful run. No rerun or repair needed. Mail labels/read state were not changed."
         }
       },
       "current_run_id": "chatgpt-automation-20261022T232059Z-S47P1",
       "previous_next_action_before_priority_20261023": "6/6 slots occupied. On each free slot run next ready authorized item by canonical priority; skip blocked inputs without reserving a slot. Selected49A-F,50A/B,51A are waiting;52P2 requires actual52P1 end and51B actual51A end. Do not repeat submitted52P1 or28A1. Raznoe paused.",
-      "updated_at": "2026-10-23T02:25:21.662Z"
+      "updated_at": "2026-10-23T06:53:05.541Z"
     },
     {
       "work_id": "FILM-20261014-REFS-DANCE",
