@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-23T21:23:37+00:00",
+ "generated_at": "2026-10-23T21:30:35+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "e652da0bd7ff4ce8724dec85c77612071d3a93ade0919c1f3cfab0ea03224fdd",
-   "bytes": 1084643
+   "sha256": "d2b3db6e7dd3ef37865d963c4dda45c50ae012d53e16b44e2bc584b3358babab",
+   "bytes": 1090373
   }
  ],
  "invariants": [
@@ -192,7 +192,7 @@
  "runtime": {
   "project_health": "ok",
   "scenes": 25,
-  "prompt_texts": 101,
+  "prompt_texts": 102,
   "scene_ids": [
    13,
    16,
@@ -286,7 +286,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 36643,
+   "offset": 36496,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -308,7 +308,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 62980,
+   "offset": 62833,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -328,7 +328,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 91517,
+   "offset": 91370,
    "chars": 187850,
    "sha256_12": "8c7b3a3e40e7"
   },
@@ -346,7 +346,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 279367,
+   "offset": 279220,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -368,7 +368,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 295723,
+   "offset": 295576,
    "chars": 24016,
    "sha256_12": "1bcbb827821d"
   },
@@ -392,7 +392,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 319739,
+   "offset": 319592,
    "chars": 33943,
    "sha256_12": "e8edb2707452"
   },
@@ -414,7 +414,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 353682,
+   "offset": 353535,
    "chars": 32478,
    "sha256_12": "75a349656500"
   },
@@ -436,7 +436,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 386160,
+   "offset": 386013,
    "chars": 32687,
    "sha256_12": "533d29334264"
   },
@@ -458,7 +458,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 418847,
+   "offset": 418700,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -482,7 +482,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 451344,
+   "offset": 451197,
    "chars": 28588,
    "sha256_12": "fe1fdb023a69"
   },
@@ -501,7 +501,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 479932,
+   "offset": 479785,
    "chars": 26812,
    "sha256_12": "d95a85c48853"
   },
@@ -523,7 +523,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 506744,
+   "offset": 506597,
    "chars": 24396,
    "sha256_12": "89801383aa30"
   },
@@ -547,7 +547,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 531140,
+   "offset": 530993,
    "chars": 28429,
    "sha256_12": "5927c1ae8d09"
   },
@@ -574,7 +574,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 559569,
+   "offset": 559422,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -599,7 +599,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 652498,
+   "offset": 652351,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -627,7 +627,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 682378,
+   "offset": 682231,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -651,7 +651,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 714690,
+   "offset": 714543,
    "chars": 31624,
    "sha256_12": "73f7d37605a6"
   },
@@ -675,7 +675,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 746314,
+   "offset": 746167,
    "chars": 29558,
    "sha256_12": "5c03141af4d6"
   },
@@ -698,7 +698,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 775872,
+   "offset": 775725,
    "chars": 26377,
    "sha256_12": "c686a6b85f06"
   },
@@ -720,7 +720,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 802249,
+   "offset": 802102,
    "chars": 25917,
    "sha256_12": "be57e7a48f22"
   },
@@ -746,20 +746,20 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 828166,
+   "offset": 828019,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
   {
    "id": 59,
-   "title": "Кашиик: Серёга садится среди гигантских деревьев",
+   "title": "Кашиик: динамичное прибытие и предвкушение грибной прогулки",
    "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
-   "duration_s": 30,
+   "duration_s": 60,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 3,
+   "prompts": 4,
    "refs": [
     "@Image1",
     "@Image2",
@@ -767,9 +767,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 855694,
-   "chars": 29969,
-   "sha256_12": "72368786ff0c"
+   "offset": 855547,
+   "chars": 35288,
+   "sha256_12": "23df59b3344e"
   },
   {
    "id": 60,
@@ -789,7 +789,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 885663,
+   "offset": 890835,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -809,7 +809,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 918674,
+   "offset": 923846,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -831,7 +831,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 943520,
+   "offset": 948692,
    "chars": 29242,
    "sha256_12": "d0819038f9c5"
   }
