@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-22T21:45:30Z",
+  "synced_at": "2026-10-23T00:52:44Z",
   "revision_date": "21.10.2026",
   "master_declared_last_full_sync": "21.10.2026 · новые ситуации по изображениям, отдельные событийная и графическая заставки, обновлённый трейлер",
   "canonical_master_sha256": "91868683e435be50e7b3b1a0a0935ebcac842d906a7c7d563615afed0cabf1f6",
@@ -47,7 +47,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.063,
+    "age_hours_at_status_build": 3.184,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -126,7 +126,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.063,
+      "age_hours": 3.184,
       "blocking": false
     },
     "topview_task_map": {
@@ -549,7 +549,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "21.10.2026",
-    "synced_at": "2026-10-22T21:45:30Z",
+    "synced_at": "2026-10-23T00:52:44Z",
     "canonical_master_sha256": "91868683e435be50e7b3b1a0a0935ebcac842d906a7c7d563615afed0cabf1f6",
     "canonical_revision_sha256": "777c00c9c37ff87135d2b1b8eab45d889b71a85e60ec9bc1a5a9f4d789b2ccb6",
     "scene_count": 22,
