@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T16:14:07.518564Z",
+  "updated_at": "2026-10-23T17:13:25.740946Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4149,8 +4149,8 @@
       "scene_id": 52,
       "prompt_id": "S52-SEED20-P2",
       "canonical_block_label": "52 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "66165f7d933ab0af2a26c8d729e033940dee9e606c8f160ee9f7121834a907ca",
-      "normalized_prompt_sha256": "9b786f7fe0857e3eeb238106c6986698d7356bcce52cfd9034491dfa1e66bfe2",
+      "canonical_prompt_sha256": "85364fcb6371a4feee97f8d85ba1ccf84c54bb3f0fd35a1d03fafe44d4e8a6bf",
+      "normalized_prompt_sha256": "e3fc6485d4316a4e90b3266746cca58f552257ed75b71228ec32a16d498ef15c",
       "priority": 0,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -4183,11 +4183,11 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
-          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
           "required": true,
           "input_status": "available",
-          "canonical_role": "personal ship: cleaned empty roof; vehicle design only"
+          "canonical_role": "Татуин: окраина космопорта; synthetic location helper; actual continuity video wins"
         }
       ],
       "task_id": null,
@@ -6484,9 +6484,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
-          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
-          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+          "canonical_role": "Кашиик: посадочная поляна; synthetic location helper; actual continuity video wins",
+          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
           "required": true,
           "input_status": "available"
         },
@@ -6500,9 +6500,9 @@
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
-          "canonical_role": "Кашиик из космоса",
-          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+          "canonical_role": "Космос: корабль и Кашиик; synthetic location helper; actual continuity video wins",
+          "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
           "required": true,
           "input_status": "available"
         },
@@ -6515,8 +6515,8 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "e9c083a9f34c1a00d5941c25294addd5f1c614bd6a4f53104f59037b041dc405",
-      "normalized_prompt_sha256": "28c3923dd863e61ff50deab17d100051daaf378376e7c5387c09ba53a7d16058",
+      "canonical_prompt_sha256": "b38d592623031ef7a969b5540e55ab66ca283de4cd8323199d7caae18ae91d4b",
+      "normalized_prompt_sha256": "3663aa5b17c976706e69a271cef6965bb536e4683eb7bd8205f1b2bb5b99fe58",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
@@ -6568,9 +6568,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
-          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
-          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+          "canonical_role": "Кашиик: посадочная поляна; synthetic location helper; actual continuity video wins",
+          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
           "required": true,
           "input_status": "available"
         },
@@ -6599,8 +6599,8 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "3385aaea8d4a687cd7671d82f16f521d2c87d48b91c83d2e1d5aba019d843c55",
-      "normalized_prompt_sha256": "65f518b53d2db27ee8aed9b01371af70a1a2386d018d743e65f0cc2d2776e21e",
+      "canonical_prompt_sha256": "7f7cd8c6a3aa79d81ec8a6b71d5aed5c7d2951a34be43a2eb2205216bd113bd6",
+      "normalized_prompt_sha256": "1cf304bd451ba9dff370db7a24e872b88ca06139f8842031d8c4fe8cf71f7c62",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
@@ -6653,9 +6653,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
-          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
-          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png",
+          "canonical_role": "Кашиик: соседняя поляна после боя; synthetic location helper; actual continuity video wins",
+          "sha256": "d4e374dbf47048c55e4040358aa2cf8b210f6f6133647a125cd32059dd07649a",
           "required": true,
           "input_status": "available"
         },
@@ -6676,8 +6676,8 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "4daecb36570a6dfc114032b4205ea859b5dea2dbb677a10499dd2ad54425fc8f",
-      "normalized_prompt_sha256": "1ad3027d7a7e6dcae0f48cca42234afdf569771a4487d68afffbf605cee7af23",
+      "canonical_prompt_sha256": "0e77a3a6510fde47a25b19fa6955588b3ee42fae6d95f164f0a721721c015613",
+      "normalized_prompt_sha256": "671c3594299a3999ae460d247bcd3f80018e72f7081e490f9a94da3f503bf41c",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
@@ -6729,9 +6729,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
-          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
-          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png",
+          "canonical_role": "Кашиик: соседняя поляна после боя; synthetic location helper; actual continuity video wins",
+          "sha256": "d4e374dbf47048c55e4040358aa2cf8b210f6f6133647a125cd32059dd07649a",
           "required": true,
           "input_status": "available"
         },
@@ -6753,15 +6753,15 @@
         },
         {
           "slot": "@Image5",
-          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
-          "canonical_role": "Кашиик",
-          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+          "canonical_role": "Космос: корабль и Кашиик; synthetic location helper; actual continuity video wins",
+          "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
           "required": true,
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "084955553f6880db9f1d558435fac31caf076151c993f25c2c23dc9499750b92",
-      "normalized_prompt_sha256": "f937480db1dfedfe559132c44daad91ccb65637d5dd9e6069aaebe03b7980e0b",
+      "canonical_prompt_sha256": "70ab23d0f6599e3e507c35c97da8c9a8dfade2221bcf94554099350525726a18",
+      "normalized_prompt_sha256": "088a8123f5dcb4086b5584064c75539a26a818191a9431ff76b140ad094f359b",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
@@ -7904,5 +7904,10 @@
       "S60-SEED20-P2"
     ],
     "submitted_receipts": "Unchanged; edits do not alter already submitted video jobs."
+  },
+  "owner_instruction_20261023_ship_locations": {
+    "at": "2026-10-23T17:13:25.740946Z",
+    "rule": "Use matched ship-in-location refs for each prompt. No new video submission or retry authorized by this image task. Pending entries updated; submitted receipts remain unchanged.",
+    "report": "reports/serega-ship-locations-2026-10-23.json"
   }
 }

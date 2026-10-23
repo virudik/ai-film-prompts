@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 59,
-  "updated_at": "2026-10-23T16:14:07.518564Z",
+  "updated_at": "2026-10-23T17:13:25.740946Z",
   "status": "first_part_inputs_ready_second_part_waits_own_result",
   "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
   "references": [
@@ -102,6 +102,66 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+      "asset_id": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+      "role": "Кашиик: посадочная поляна",
+      "media_type": "image",
+      "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2950563,
+      "status": "available",
+      "derivation": "imagegen location composite from the clean personal ship baseline and listed location inputs; synthetic helper, not real video frame",
+      "source_paths": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-61/S61-owner-video-opening.jpg"
+      ],
+      "generation_report": "reports/serega-ship-locations-2026-10-23.json",
+      "owner_approval": "owner_requested_creation_not_artistic_approval",
+      "assistant_qc": {
+        "status": "usable_for_location_and_vehicle_guidance",
+        "checked_at": "2026-10-23T17:13:25.740946Z",
+        "scope": "Viewed generated output; empty roof, one personal craft, recognisable hull and intended environment. No pixel-identical geometry or continuity-frame claim; real video determines axis and opening."
+      },
+      "site_published": {
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+      "asset_id": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+      "role": "Космос: корабль и Кашиик",
+      "media_type": "image",
+      "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1952280,
+      "status": "available",
+      "derivation": "imagegen location composite from the clean personal ship baseline and listed location inputs; synthetic helper, not real video frame",
+      "source_paths": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-37/S37-forest-planet-reference.png"
+      ],
+      "generation_report": "reports/serega-ship-locations-2026-10-23.json",
+      "owner_approval": "owner_requested_creation_not_artistic_approval",
+      "assistant_qc": {
+        "status": "usable_for_location_and_vehicle_guidance",
+        "checked_at": "2026-10-23T17:13:25.740946Z",
+        "scope": "Viewed generated output; empty roof, one personal craft, recognisable hull and intended environment. No pixel-identical geometry or continuity-frame claim; real video determines axis and opening."
+      },
+      "site_published": {
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "pending_video": {
@@ -110,5 +170,6 @@
     "status": "required_not_available",
     "required": true,
     "qc": "Actual final3s of ownP1 only; save private video, SHA256, frame and continuity review before launch."
-  }
+  },
+  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof."
 }

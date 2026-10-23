@@ -2442,6 +2442,106 @@
    "src_bytes": 133736,
    "thumb_bytes": 29596,
    "src_sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594"
+  },
+  "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2063740,
+   "thumb_bytes": 26590,
+   "src_sha256": "6665f9eee6b605b39a11fec3ba0dd6c0820f61ba6b60aa514f60832b1ea15583"
+  },
+  "references/scenes/ship-locations/Serega-ship-hangar.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-hangar.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2330508,
+   "thumb_bytes": 39022,
+   "src_sha256": "3df175a61b02971bcec6235afae20461df5a7029976bcbde92aae5911d07a7ed"
+  },
+  "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-kashyyyk-departure.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2829535,
+   "thumb_bytes": 53506,
+   "src_sha256": "d4e374dbf47048c55e4040358aa2cf8b210f6f6133647a125cd32059dd07649a"
+  },
+  "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-kashyyyk-landing.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2950563,
+   "thumb_bytes": 57910,
+   "src_sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833"
+  },
+  "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-kashyyyk-space.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1952280,
+   "thumb_bytes": 25082,
+   "src_sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d"
+  },
+  "references/scenes/ship-locations/Serega-ship-naboo-day.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-naboo-day.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2600834,
+   "thumb_bytes": 45738,
+   "src_sha256": "5ecb85e9e274f430732a1f9299c6818e8051c5ca36ecf09ee032b8646327ab74"
+  },
+  "references/scenes/ship-locations/Serega-ship-naboo-evening.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-naboo-evening.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2807821,
+   "thumb_bytes": 54250,
+   "src_sha256": "e83c75fe3df2c0bec4455f4232c2114a47bbdd83b64a2b8dd6477cb16c55dc18"
+  },
+  "references/scenes/ship-locations/Serega-ship-sith-ruins.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-sith-ruins.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 940,
+   "src_bytes": 2378044,
+   "thumb_bytes": 49634,
+   "src_sha256": "1407fbea18ff9263fec84c8d936daea904d145ce130cbf40832ece0406558251"
+  },
+  "references/scenes/ship-locations/Serega-ship-tatooine-canyon.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-tatooine-canyon.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2503018,
+   "thumb_bytes": 49400,
+   "src_sha256": "5fb97db99450cc579a314bd194a675be00d41ecbafb649584c50c313117467fe"
+  },
+  "references/scenes/ship-locations/Serega-ship-tatooine-town.png": {
+   "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-tatooine-town.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2561427,
+   "thumb_bytes": 43000,
+   "src_sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01"
   }
  }
 }

@@ -1,0 +1,305 @@
+{
+  "work_id": "SEREGA-SHIP-LOCATIONS-20261023",
+  "created_at": "2026-10-23T16:59:20.281312+00:00",
+  "status": "validated_ready_to_publish",
+  "assets": [
+    {
+      "key": "naboo-day",
+      "title": "Набу: дневной отлёт",
+      "scenes": [
+        37
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-39/S39-shore-film-part2-14m27s.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 supplies lakeshore layout only: remove both people and replace sunset with clear bright daytime. Place the single craft just lifting one metre above the grass beside the sandy bank; lake and rounded treeline extend behind it. Daylit dark grey hull, gentle grass downwash, all hatches closed and gear retracting. Three-quarter side view, nose screen-right; calm readable establishing image, no motion blur.",
+      "path": "references/scenes/ship-locations/Serega-ship-naboo-day.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "5ecb85e9e274f430732a1f9299c6818e8051c5ca36ecf09ee032b8646327ab74",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "naboo-evening",
+      "title": "Набу: вечерняя посадка",
+      "scenes": [
+        39
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+        "references/scenes/scene-39/S39-camp-film-part2-14m16s.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 supplies exact sandy lake edge, green bank and low warm evening light. Image3 supplies ONLY the two fish-filled crates and stone fire ring; remove both sleeping men and remove flames/night lighting. Park the craft on its landing feet on the grassy bank several metres from the small abandoned fishing camp; narrow short side ramp lowered to ground. Lake beyond, small rocky islet offshore. Three-quarter side view with ship nose screen-right; complete craft, no people, no city.",
+      "path": "references/scenes/ship-locations/Serega-ship-naboo-evening.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "e83c75fe3df2c0bec4455f4232c2114a47bbdd83b64a2b8dd6477cb16c55dc18",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "sith-ruins",
+      "title": "Планета ситхов: площадка у храма",
+      "scenes": [
+        40,
+        41
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-27/S27-Image5-topview-source.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 is the absolute location authority: retain the ancient ochre-red ruined temple, wide stair, colossal hooded stone statues, broken columns and golden-orange dusty sunset. Place the craft on three short landing feet in the broad clear plaza at the foot of the stairs, safely clear of statues. Single side hatch and short ramp open to the dusty ground, no person or cargo outside. All statue heads intact in this reusable pre-event layout. Ground-level three-quarter side shot, ship occupies about half image width, temple scale remains monumental.",
+      "path": "references/scenes/ship-locations/Serega-ship-sith-ruins.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "1407fbea18ff9263fec84c8d936daea904d145ce130cbf40832ece0406558251",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "flagship-space",
+      "title": "Космос: у имперского флагмана",
+      "scenes": [
+        41,
+        52
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 is the absolute design authority for the HUGE imperial flagship, entirely distinct from the small personal craft in Image1. Deep black space, restrained stars. Small personal craft in the near foreground lower left, clearly legible side-three-quarter silhouette, nose toward a brightly illuminated recessed underside docking opening of the immense flagship across the upper right background. Flagship hundreds of times larger, original bridge towers and wedge silhouette unchanged. No planets, battle, damage, other small ships or people. Landing gear and side hatch closed. Cinematic practical white hull light, no giant new engine shapes.",
+      "path": "references/scenes/ship-locations/Serega-ship-flagship-space.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "6665f9eee6b605b39a11fec3ba0dd6c0820f61ba6b60aa514f60832b1ea15583",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "hangar",
+      "title": "Ангар: личный корабль Серёги",
+      "scenes": [
+        52
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-28/H28A-ceremony.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 supplies ONLY exact grey hangar structure, ribbed walls, white vertical luminaires, amber floor guides and open view into black space. Remove the raised-wing shuttle and any other ship from that frame; this is a clear nearby bay, not the damaged-shuttle action area. Place ONLY the small dark-grey personal craft from Image1 on landing feet inside the bay, full side-three-quarter view, side hatch open and short ramp touching the hangar floor. Nose screen-right. Preserve uncluttered boarding clearance. Working white and amber lighting, not disco. No technicians or figures.",
+      "path": "references/scenes/ship-locations/Serega-ship-hangar.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "3df175a61b02971bcec6235afae20461df5a7029976bcbde92aae5911d07a7ed",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "tatooine-town",
+      "title": "Татуин: окраина космопорта",
+      "scenes": [
+        52,
+        53
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Put the craft on landing feet on a broad pale-sand flat just OUTSIDE a small Tatooine desert spaceport town. Harsh bright desert sun, bleached sky, slight heat haze. Low sand-coloured adobe buildings with thick rounded walls, smooth domed roofs, small round windows and arched doorways, narrow dusty alleys, a few thin aerials and moisture vaporators; no modern towers or temple ruins. Single side hatch open with short ramp resting on sand; town approximately 60 metres behind the ship. Nose screen-right, clear entire wedge silhouette, realistic grounded shadow. No people or other craft.",
+      "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "tatooine-canyon",
+      "title": "Татуин: проход через каньон",
+      "scenes": [
+        53
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Show the same craft flying low through a huge pale-orange sandstone canyon on Tatooine, dark stratified vertical walls and a winding sandy floor. Broad safe clearances to both walls; the full recognizable hull is exposed in three-quarter side view, nose screen-right. Harsh warm desert daylight from the open sky above, realistic bounce light, no storm, water, trees, buildings or other craft. Landing gear retracted, side hatch tightly closed. Crisp dynamic bank of only ten degrees; no blur, no exaggerated redesign. This is a later flight-state reference, not the parked starting frame.",
+      "path": "references/scenes/ship-locations/Serega-ship-tatooine-canyon.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "5fb97db99450cc579a314bd194a675be00d41ecbafb649584c50c313117467fe",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "kashyyyk-landing",
+      "title": "Кашиик: посадочная поляна",
+      "scenes": [
+        59
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-61/S61-owner-video-opening.jpg"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 supplies ONLY cool blue-grey forest atmosphere, gigantic dark trunks, broad buttress roots, damp leaves, moss and filtered canopy light. Remove every person and sword. Open a physically ample natural glade between the giant trees and place the same craft on landing feet there, hatch closed, enough clear sky overhead for a landing. Full side-three-quarter hull visible, nose screen-right, no trees intersecting it. Cold grey-green daylight, faint low mist, dark damp leaf floor. No wreckage, fallen fighters or settlement.",
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "kashyyyk-departure",
+      "title": "Кашиик: соседняя поляна после боя",
+      "scenes": [
+        60
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-60/S60-owner-video-final.jpg"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 supplies ONLY the warm grey forest haze, straight tall reddish trunks, brown leaf-and-needle ground and overcast natural light. Do not reproduce any person, body, sword or fallen battle log. This is an ADJACENT spacious undamaged glade, not the fight clearing. Park the same craft on landing feet, side hatch open and short ramp grounded, nose screen-right. Clear walking path enters from foreground left to the ramp. A wide gap between tree crowns above permits takeoff. No people anywhere, roof empty, full recognizable ship silhouette.",
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "d4e374dbf47048c55e4040358aa2cf8b210f6f6133647a125cd32059dd07649a",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    },
+    {
+      "key": "kashyyyk-space",
+      "title": "Космос: корабль и Кашиик",
+      "scenes": [
+        37,
+        40,
+        60,
+        59
+      ],
+      "references": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-37/S37-forest-planet-reference.png"
+      ],
+      "prompt": "Use case: compositing. Make one cinematic photoreal 16:9 location reference still for a film. Image1 is the absolute design authority for the SMALL personal spacecraft: keep the identical broad flat low-profile dark-grey wedge hull, panel layout, recessed cockpit glazing, horizontal warm light strip and roof protrusions. Do not redesign it as a fighter, shuttle or star destroyer. Show the complete recognizable craft with room around its silhouette; approximately 12–16 metres long. The roof, canopy, wings and exterior hull are EMPTY. No people, silhouettes, creatures or weapons anywhere on it. No people elsewhere. Do not import the city from Image1. Sharp legible material details; realistic scene-specific light and shadows; no captions, split panels or collage. Image2 supplies the exact forest planet design: blue-green globe, dense forested continents, white cloud bands and thin blue atmosphere. Put the same SMALL spacecraft in foreground left in a complete readable side-three-quarter view, with the planet distant in the right background occupying at most one third of frame height. Neutral transit composition, usable for approach or departure; no long trail assigning a direction. Deep black space, sparse stars, physically consistent sunlight on ship and planet. Gear retracted and side hatch closed. No other ships, no city, roof empty.",
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+      "status": "generated_visually_reviewed",
+      "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+      "assistant_qc": "Usable for location/design guidance; empty roof. Actual video controls continuity and direction; not pixel-identical geometry."
+    }
+  ],
+  "updated_at": "2026-10-23T17:13:25.740946Z",
+  "changed_blocks": [
+    "37",
+    "37 · Seedance 2.0 часть 1",
+    "37 · Seedance 2.0 часть 2",
+    "39",
+    "39 · Seedance 2.0 часть 1",
+    "39 · Seedance 2.0 часть 2",
+    "40",
+    "40 · Seedance 2.0 часть 1",
+    "40 · Seedance 2.0 часть 2",
+    "41",
+    "41 · Seedance 2.0 часть 1",
+    "41 · Seedance 2.0 часть 2",
+    "52",
+    "52 · Seedance 2.0 часть 1",
+    "52 · Seedance 2.0 часть 2",
+    "53",
+    "53 · Seedance 2.0 часть 1",
+    "53 · Seedance 2.0 часть 2",
+    "59",
+    "59 · Seedance 2.0 часть 1",
+    "59 · Seedance 2.0 часть 2",
+    "60",
+    "60 · Seedance 2.0 часть 1",
+    "60 · Seedance 2.0 часть 2"
+  ],
+  "pending_queue_updated": [
+    "S52-SEED20-P2",
+    "S59-SEED20-P1",
+    "S59-SEED20-P2",
+    "S60-SEED20-P1",
+    "S60-SEED20-P2"
+  ],
+  "input_slots": {
+    "37": {
+      "@Image4": "naboo-day",
+      "@Image6": "kashyyyk-space"
+    },
+    "37 · Seedance 2.0 часть 1": {
+      "@Image2": "naboo-day"
+    },
+    "37 · Seedance 2.0 часть 2": {
+      "@Image2": "kashyyyk-space"
+    },
+    "39": {
+      "@Image3": "naboo-evening"
+    },
+    "39 · Seedance 2.0 часть 1": {
+      "@Image2": "naboo-evening"
+    },
+    "39 · Seedance 2.0 часть 2": {
+      "@Image2": "naboo-evening"
+    },
+    "40": {
+      "@Image4": "sith-ruins",
+      "@Image6": "kashyyyk-space"
+    },
+    "40 · Seedance 2.0 часть 1": {
+      "@Image4": "sith-ruins",
+      "@Image6": "kashyyyk-space"
+    },
+    "40 · Seedance 2.0 часть 2": {
+      "@Image3": "sith-ruins"
+    },
+    "41": {
+      "@Image4": "sith-ruins",
+      "@Image6": "flagship-space"
+    },
+    "41 · Seedance 2.0 часть 1": {
+      "@Image4": "sith-ruins"
+    },
+    "41 · Seedance 2.0 часть 2": {
+      "@Image3": "flagship-space"
+    },
+    "52": {
+      "@Image2": "hangar",
+      "@Image6": "tatooine-town"
+    },
+    "52 · Seedance 2.0 часть 1": {
+      "@Image2": "hangar"
+    },
+    "52 · Seedance 2.0 часть 2": {
+      "@Image2": "tatooine-town"
+    },
+    "53": {
+      "@Image2": "tatooine-town",
+      "@Image5": "tatooine-canyon"
+    },
+    "53 · Seedance 2.0 часть 1": {
+      "@Image2": "tatooine-town",
+      "@Image5": "tatooine-canyon"
+    },
+    "53 · Seedance 2.0 часть 2": {
+      "@Image2": "tatooine-canyon"
+    },
+    "59": {
+      "@Image2": "kashyyyk-landing",
+      "@Image4": "kashyyyk-space"
+    },
+    "59 · Seedance 2.0 часть 1": {
+      "@Image2": "kashyyyk-landing",
+      "@Image4": "kashyyyk-space"
+    },
+    "59 · Seedance 2.0 часть 2": {
+      "@Image2": "kashyyyk-landing"
+    },
+    "60": {
+      "@Image2": "kashyyyk-departure",
+      "@Image6": "kashyyyk-space"
+    },
+    "60 · Seedance 2.0 часть 1": {
+      "@Image2": "kashyyyk-departure"
+    },
+    "60 · Seedance 2.0 часть 2": {
+      "@Image2": "kashyyyk-departure",
+      "@Image5": "kashyyyk-space"
+    }
+  },
+  "master_sha256": "ce54dd900198406044bb581979c59506e255c688fe0dd0fca79b2675787edff3",
+  "video_submissions": 0,
+  "scope": "Ten synthetic spacecraft/location references for eight existing scenes; no changes to scene order or submitted jobs.",
+  "validation": {
+    "unit_tests": "228 passed",
+    "site_contract": "ok",
+    "thumbnails": "254 current;10new",
+    "instructions": "7/7",
+    "project_status": "health=ok;24scenes;98prompts",
+    "prompt_scope": "24changed/74unchanged",
+    "pending_queue": "5inputsets/hashes verified;all other items unchanged",
+    "visual_qc": "10outputs viewed;empty roof;one personal craft each, enormous flagship distinct",
+    "limitations": "Synthetic guidance; hull details are not pixel-identical. Actual continuity videos control starting frame, direction and state."
+  }
+}

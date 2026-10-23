@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-23T16:14:07.518564Z",
+  "updated_at": "2026-10-23T17:13:25.740946Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -159,6 +159,95 @@
       },
       "owner_approval": "not_recorded",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/ship-locations/Serega-ship-flagship-space.png",
+      "asset_id": "references/scenes/ship-locations/Serega-ship-flagship-space.png",
+      "role": "Космос: у имперского флагмана",
+      "media_type": "image",
+      "sha256": "6665f9eee6b605b39a11fec3ba0dd6c0820f61ba6b60aa514f60832b1ea15583",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2063740,
+      "status": "available",
+      "derivation": "imagegen location composite from the clean personal ship baseline and listed location inputs; synthetic helper, not real video frame",
+      "source_paths": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png"
+      ],
+      "generation_report": "reports/serega-ship-locations-2026-10-23.json",
+      "owner_approval": "owner_requested_creation_not_artistic_approval",
+      "assistant_qc": {
+        "status": "usable_for_location_and_vehicle_guidance",
+        "checked_at": "2026-10-23T17:13:25.740946Z",
+        "scope": "Viewed generated output; empty roof, one personal craft, recognisable hull and intended environment. No pixel-identical geometry or continuity-frame claim; real video determines axis and opening."
+      },
+      "site_published": {
+        "path": "references/scenes/ship-locations/Serega-ship-flagship-space.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/ship-locations/Serega-ship-hangar.png",
+      "asset_id": "references/scenes/ship-locations/Serega-ship-hangar.png",
+      "role": "Ангар: личный корабль Серёги",
+      "media_type": "image",
+      "sha256": "3df175a61b02971bcec6235afae20461df5a7029976bcbde92aae5911d07a7ed",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2330508,
+      "status": "available",
+      "derivation": "imagegen location composite from the clean personal ship baseline and listed location inputs; synthetic helper, not real video frame",
+      "source_paths": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "references/scenes/scene-28/H28A-ceremony.png"
+      ],
+      "generation_report": "reports/serega-ship-locations-2026-10-23.json",
+      "owner_approval": "owner_requested_creation_not_artistic_approval",
+      "assistant_qc": {
+        "status": "usable_for_location_and_vehicle_guidance",
+        "checked_at": "2026-10-23T17:13:25.740946Z",
+        "scope": "Viewed generated output; empty roof, one personal craft, recognisable hull and intended environment. No pixel-identical geometry or continuity-frame claim; real video determines axis and opening."
+      },
+      "site_published": {
+        "path": "references/scenes/ship-locations/Serega-ship-hangar.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+      "asset_id": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+      "role": "Татуин: окраина космопорта",
+      "media_type": "image",
+      "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2561427,
+      "status": "available",
+      "derivation": "imagegen location composite from the clean personal ship baseline and listed location inputs; synthetic helper, not real video frame",
+      "source_paths": [
+        "references/scenes/scene-37/S37-ship-clean-roof.png"
+      ],
+      "generation_report": "reports/serega-ship-locations-2026-10-23.json",
+      "owner_approval": "owner_requested_creation_not_artistic_approval",
+      "assistant_qc": {
+        "status": "usable_for_location_and_vehicle_guidance",
+        "checked_at": "2026-10-23T17:13:25.740946Z",
+        "scope": "Viewed generated output; empty roof, one personal craft, recognisable hull and intended environment. No pixel-identical geometry or continuity-frame claim; real video determines axis and opening."
+      },
+      "site_published": {
+        "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "identity_refs": [
@@ -299,5 +388,6 @@
       "path": "references/scenes/scene-52/S52-start-from-S44-20261023.jpg",
       "sha256": "af5da03014371c3f56edfa6d3f611cd7e1693bc875bc07856db5328af0f2dc1a"
     }
-  }
+  },
+  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof."
 }
