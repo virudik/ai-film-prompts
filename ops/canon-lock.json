@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "MAINTENANCE-20261023-0955",
   "acquired_at": "2026-10-23T06:53:10.653Z",
-  "expires_at": "2026-10-23T07:23:10.653Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-23T06:54:09.408Z",
   "rules": "ops/CANON-LOCK.md",
   "last_holder": "chatgpt",
-  "release_note": null
+  "release_note": "09:55 maintenance completed: full 13-board Topview scan found 6/6 active, no submit; self-heal/tasks/project/canon checks healthy; six new GitHub failure notices verified resolved by later successful runs."
 }
