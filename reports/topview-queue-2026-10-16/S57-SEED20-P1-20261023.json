@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "item_id": "S57-SEED20-P1",
+  "task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+  "project": "seregius",
+  "submitted_at": "2026-10-23 00:52:11Z",
+  "verified_at": "2026-10-23T00:53:29.817Z",
+  "status": "init",
+  "source": "one Topview website Create click",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "credits_cost": 0,
+  "use_unlimited_mode": true,
+  "canonical_block_label": "57 · Seedance 2.0 часть 1",
+  "canonical_prompt_sha256": "530ff96228e5d22de60405cbcf0d9faa1cf549d7c92a6596c688409ab023c45e",
+  "normalized_prompt_sha256": "5dce3308689560c429b785f7c0c61568615b4c87576a8e4020a1533fe9d99ff7",
+  "full_normalized_prompt_match": true,
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/e1NgMRjcmwsbth7vdPoVU.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/My5Fws3K7QYUNJwSFCTb9.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/G3EEK2lTxNYKSpU0XGZSs.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/sb4rxfjNbh1zly0RDffvW.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/8iCqdLIOwAfqOiP9X1eMN.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/mTRypTBNNacl2K9H6y9ns.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image6"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 1 of 2: the battle-damaged RosKOTmos ship falls onto the Sith planet, the cats panic in the cockpit, the ship knocks down an avenue of columns like dominoes\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  — the owner-selected RosKOTmos ship design: exact elongated broad hull of worn white and light-grey segmented plating, angular multi-pane forward cockpit with sloped amber-glazed windows, a big red swoosh arrow along the flank, a narrow dark-navy lower band, the round cat-astronaut emblem with the РОСКОТМОС wordmark on the flank behind the cockpit, a small dorsal fin, the rear engine nacelles with blue-white exhausts. Vehicle design only; ignore the starfield.\n<<<Image2>>>  — the crash site: a long straight processional avenue of tall carved ochre-stone columns and colossal hooded stone statues on flat dusty ground at the outskirts of the ruin city. Layout, scale and stone of the avenue.\n<<<Image3>>>  — the ruin city of the same planet: ochre-red carved stone, hooded statues, a stepped temple, red rock spires, golden-orange sunset haze. Palette, light and distant skyline only.\n<<<Image4>>>  — the cats' exact warm cockpit: amber practical lights, dense physical consoles, rear-cabin depth; RYZHIK's seat on frame-left, LUCHIK's on frame-right in the front view. Interior geometry and light only.\n<<<Image5>>>  — absolute identity of LUCHIK.\n<<<Image6>>>  — absolute identity of RYZHIK.\nPriority: <<<Image5>>>  and <<<Image6>>>  control the cats; <<<Image1>>>  the ship; <<<Image2>>>  the avenue; <<<Image4>>>  the cockpit; <<<Image3>>>  palette and skyline.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nLUCHIK (<<<Image5>>> ), the PILOT: fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings.\nRYZHIK (<<<Image6>>> ), the NAVIGATOR: fluffy ginger long-haired tabby with a warm orange coat, darker stripes and a lighter muzzle and chest.\nReal photoreal domestic cats at ordinary adult cat scale relative to the seats and consoles; never giant or half-human, no human hands. Lightsabers stowed and unlit. No people anywhere.\n\nSHIP / CRASH LOCK — CRITICAL:\nOne and the same ship from <<<Image1>>>  in every exterior shot: same silhouette, paint, emblem position and scale. Already damaged from a space battle: the right rear nacelle trails orange flame and black smoke, the left one coughs and dies. It gets dented, scraped and dusty and loses one loose hull panel, but stays in ONE piece: no explosion, no breaking apart. An ancient column is about as tall as the ship is long.\n\nLOCATION LOCK:\nA dry, dusty canyon world at golden-orange sunset: the avenue of <<<Image2>>>  with the ruin city of <<<Image3>>>  on the horizon. Fine dust and a few ember sparks. No lava, vegetation, water, people or other ships.\n\nSTART STATE:\nHigh above the ruins in orange sunset haze, the damaged ship is already falling at a shallow angle, a black smoke trail behind it.\n\nTIMELINE:\n[0:00–0:04] — COMING IN HOT\nFast tracking shot alongside, left to right: the ship plunges through the haze nose-down, wobbling; black smoke pours from the burning right nacelle; a loose hull panel peels off and tumbles past the camera; the left engine coughs twice and dies.\n\n[0:04–0:08] — COCKPIT CHAOS\nCut inside the <<<Image4>>>  cockpit, front three-quarter view, red warning lights flashing over the warm amber, everything shaking: LUCHIK on frame-right hauls back on the yoke with both front paws, hind legs braced, ears flat; RYZHIK on frame-left, fur fully puffed, slaps three buttons at once, then clamps both front paws over his eyes. A loose cable sparks. Both yowl.\n\n[0:08–0:15] — DOMINOES\nCut to a low wide angle down the avenue: the ship skims in a few metres above the ground and its belly clips the first column, which snaps and falls into the next; tall columns topple one after another like dominoes, each with a heavy dusty thud. The ship bounces once off the ground belly-first in a burst of dust and keeps sliding fast toward a colossal hooded statue with an outstretched stone arm.\n\nEND STATE:\nExterior, low side angle: the ship sliding fast on its belly down the avenue in a cloud of dust, the line of fallen columns behind it, the colossal hooded statue with its outstretched stone arm right ahead. Smoke still pouring from the right nacelle.\n\nCAMERA / SPACE:\nTwo motivated cuts (into 0:04 and 0:08). Screen direction left to right. Fast tracking and low angles for real weight and scale; comedy from timing and real physics, not cartoon squash or wild shake. In the cockpit both faces readable.\n\nPERFORMANCE:\nThe cats are deadly serious and fully committed: flattened ears, puffed fur, wide eyes, bottle-brush tails, no mugging. The ship moves with real mass and inertia.\n\nLIGHTING / MATERIALS:\nLow golden-orange sunset, long column shadows, backlit dust; orange firelight and black smoke; red alarm light over warm amber in the cockpit; scratched painted metal; ochre stone breaking into heavy chunks.\n\nAUDIO:\nRising wind howl, an engine cough and wheeze, alarm beeps and sparks, two cats yowling, the crack of each column and heavy thuds in a rhythmic domino sequence, a metallic belly-flop bang, screeching metal on stone. No dialogue, narrator or music.\n\nNEGATIVE PROMPT:\nexplosion, fireball, ship breaking apart, ship stopping in this part, cats outside the ship, people, other ships, new ship design, ship changing shape or paint, missing emblem, garbled lettering, giant cats, human hands, identity swap, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "boardTaskId": "20bf2d185da546aa8aba3b1d4508d0d8",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "inputs": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-57/S57-crash-avenue.png",
+      "required": true,
+      "input_status": "available",
+      "source_item_id": "S57-AVENUE-IMAGE",
+      "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+      "source_kind": "chatgpt_imagegen_saved_reference"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+      "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image6",
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "ui_evidence": "reports/evidence/S57-P1-submitted-20261023.jpg",
+  "owner_rule": {
+    "at": "2026-10-23T00:50:35.353Z",
+    "source": "Direct owner message 2026-10-23",
+    "quote": "Запускай корабль, если сцена ждёт результат предыдущей то можно запускать следующую на очереди при свободном слоте. Зафиксируй это правило",
+    "rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
+    "explicit_launch": "S57-SEED20-P1",
+    "supersedes": "20Oct19:37 blanket ordering hold on57/58 until every worm part has been submitted",
+    "preserve": [
+      "existing relative priorities",
+      "actual Video1 dependencies and QC",
+      "owner approval / dance review gates",
+      "one free attempt per item; no paid or automatic retries",
+      "Raznoe paused_by_owner; only Seregius launch scope"
+    ],
+    "affected_items": [
+      "S57-SEED20-P1",
+      "S57-SEED20-P2",
+      "S58-SEED20-P1",
+      "S58-SEED20-P2"
+    ]
+  },
+  "rule_commit": "bbb2bb9e642bac14349e514e24a3b62102f4d471",
+  "global_scan_after_submit": {
+    "at": "2026-10-23T00:52:51.881Z",
+    "boards": 13,
+    "pages": 19,
+    "total": 925,
+    "active": [
+      {
+        "id": "20bf2d185da546aa8aba3b1d4508d0d8",
+        "status": "init",
+        "unlimited": true,
+        "credits": 0
+      },
+      {
+        "id": "439dd6d829c64f16b6491e0177cc1619",
+        "status": "init",
+        "unlimited": true,
+        "credits": 0
+      },
+      {
+        "id": "790a7017632045a58d83ccc0891c44ac",
+        "status": "init",
+        "unlimited": true,
+        "credits": 0
+      },
+      {
+        "id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+        "status": "init",
+        "unlimited": true,
+        "credits": 0
+      },
+      {
+        "id": "2175458eede64d0881ad70897155459a",
+        "status": "init",
+        "unlimited": true,
+        "credits": 0
+      },
+      {
+        "id": "a1ca4c36e31d45c5b4b72df7777d2592",
+        "status": "init",
+        "unlimited": true,
+        "credits": 0
+      }
+    ]
+  },
+  "artistic_approval": false
+}

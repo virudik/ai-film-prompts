@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T00:40:49.801Z",
+  "last_updated_at": "2026-10-23T00:53:29.817Z",
   "active_work": [
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_topview_results",
-      "updated_at": "2026-10-23T00:40:49.801Z",
-      "next_action": "Следить за5подтверждёнными бесплатными задачами. После success42P1 сохранить реальный QCконец→42P2→56P1/P2→48P1/P2, затем57/58 по явным зависимостям. Независимые47P2 и другие готовые — только по queue priority.44blockedна неверном крыле43; танцы после всех сюжетных результатов и ownerreview. Разное не запускать.",
+      "updated_at": "2026-10-23T00:53:29.817Z",
+      "next_action": "Продолжать бесплатные запуски по текущему priority среди готовых пунктов. Если сцена ждёт предыдущий результат, пропустить её и заполнить слот следующей готовой. S57P1 уже отправлена; 58P1 — следующий готовый независимый кандидат, если ранние продолжения ещё не готовы. Настоящие входы, QC, запрет повторов, танцевальные согласования и пауза Разного сохраняются.",
       "task_ids": [
+        "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
         "790a7017632045a58d83ccc0891c44ac",
         "7863a2b3e8e54ca8a5d37468fc77d49f",
@@ -34,14 +35,43 @@
           "task_id": "439dd6d829c64f16b6491e0177cc1619",
           "credits": 0,
           "receipt": "reports/topview-queue-2026-10-16/S53-SEED20-P2-20261023.json"
+        },
+        {
+          "item_id": "S57-SEED20-P1",
+          "task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+          "credits": 0,
+          "receipt": "reports/topview-queue-2026-10-16/S57-SEED20-P1-20261023.json"
         }
       ],
       "canonical_refs": [
         "ops/topview-launch-queue.json",
         "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
-        "reports/topview-quality-2026-10-23/review-summary.md"
+        "reports/topview-quality-2026-10-23/review-summary.md",
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "reports/topview-queue-2026-10-16/ready-scene-rule-20261023.json"
       ],
-      "automation_id": "6acae6ab433481919e88665c520b8ef2"
+      "automation_id": "6acae6ab433481919e88665c520b8ef2",
+      "owner_rule": {
+        "at": "2026-10-23T00:50:35.353Z",
+        "source": "Direct owner message 2026-10-23",
+        "quote": "Запускай корабль, если сцена ждёт результат предыдущей то можно запускать следующую на очереди при свободном слоте. Зафиксируй это правило",
+        "rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
+        "explicit_launch": "S57-SEED20-P1",
+        "supersedes": "20Oct19:37 blanket ordering hold on57/58 until every worm part has been submitted",
+        "preserve": [
+          "existing relative priorities",
+          "actual Video1 dependencies and QC",
+          "owner approval / dance review gates",
+          "one free attempt per item; no paid or automatic retries",
+          "Raznoe paused_by_owner; only Seregius launch scope"
+        ],
+        "affected_items": [
+          "S57-SEED20-P1",
+          "S57-SEED20-P2",
+          "S58-SEED20-P1",
+          "S58-SEED20-P2"
+        ]
+      }
     },
     {
       "work_id": "CONTINUE-001",
