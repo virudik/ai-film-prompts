@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Record verified scene59 publication checkpoint",
-  "acquired_at": "2026-10-23T21:13:22.950Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T21:13:42.202Z",
+  "task": "Expand scene59 continuation into flight, landing and mushroom-basket exit",
+  "acquired_at": "2026-10-23T21:20:18.084Z",
+  "expires_at": "2026-10-23T22:05:18.084Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
