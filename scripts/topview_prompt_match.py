@@ -65,13 +65,16 @@ def master_blocks(text):
 def label_for(scene, heading, index_in_scene):
     if scene == 20:
         m = re.search(r"Песня Маши\s+(\d+)", heading)
-        return f"20 · песня {m.group(1)}" if m else "20"
+        if m:
+            return f"20 · песня {m.group(1)}"     # other projects' scene 20 takes the general rules below
     # Alternative engine versions of one scene (site tabs, see PROMPT-STYLE-GUIDE §7А):
     # "#### 37 · Seedance 2.5 · 30 с", "#### 16 · Wan 3.0", "#### 49 · Wan 3.0 часть 2 · 49C + 49D",
     # "#### 42 · Seedance 2.0 часть 1". The scene's first block keeps the bare label "N".
     m = re.match(rf"{scene}\s*·\s*(Wan 3\.0|Seedance 2\.5|Seedance 2\.0)(?:\s+часть\s+(\d+))?", heading)
     if m and index_in_scene > 0:
-        return f"{scene} · {m.group(1)}" + (f" часть {m.group(2)}" if m.group(2) else "")
+        # Optional «⚡ динамичная» tab (Кот детектив, owner 23.10.2026) keeps a distinct label.
+        dyn = " · динамичная" if re.search(r"динамичн", heading, re.I) else ""
+        return f"{scene} · {m.group(1)}" + (f" часть {m.group(2)}" if m.group(2) else "") + dyn
     if scene == 28:
         m = re.match(r"([ABC]\d+)\b", heading)
         return f"28 {m.group(1)}" if m else "28"

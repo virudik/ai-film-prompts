@@ -61,6 +61,15 @@ class PromptMatch(unittest.TestCase):
         if project.get("canonical_master_sha256") == hashlib.sha256(MASTER.encode("utf-8")).hexdigest():
             self.assertEqual(len(labels), project["prompt_texts"])
 
+    def test_dynamic_tab_labels_are_distinct(self):
+        # Кот детектив keeps its old prompts and adds «⚡ динамичная» tabs (owner 23.10.2026).
+        text = (ROOT / "projects/kot-detektiv/video-prompts.md").read_text(encoding="utf-8")
+        labels = [l for l, _ in pm.master_blocks(text)]
+        self.assertEqual(len(labels), len(set(labels)))
+        for want in ("3", "3 · Seedance 2.0 часть 1", "3 · Wan 3.0 · динамичная",
+                     "3 · Seedance 2.0 часть 1 · динамичная", "3 · Seedance 2.0 часть 2 · динамичная"):
+            self.assertIn(want, labels)
+
     def test_topview_flavoured_text_matches_normalized(self):
         label, body = next((l, b) for l, b in BLOCKS if l == SINGLE)
         topview = pm.re.sub(r"@Image(\d)", r"<<<Image\1>>>", body).replace("\n", "\r\n")
