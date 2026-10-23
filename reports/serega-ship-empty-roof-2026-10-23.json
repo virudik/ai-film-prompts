@@ -184,8 +184,36 @@
     "project_status": "health=ok;24scenes98prompts",
     "instruction_certification": "7/7",
     "image_visual_qc": "Empty roof; matching apparent hull design, framing, panels, glazing and lights. Synthetic edited reference, not an original video frame.",
-    "publication": "pending",
+    "publication": "verified",
     "unit_tests": "228 passed"
   },
-  "publication": "pending"
+  "publication": {
+    "commit": "0e35238d4c048884e6fb992e8efc8bf06e1151ed",
+    "pages_run": 39990104565,
+    "pages_result": "success",
+    "verified_at": "2026-10-23T16:53:44.635081Z",
+    "public_http": [
+      {
+        "path": "video-prompts.md",
+        "http": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "http": 200,
+        "exact": true
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "http": 200,
+        "exact": true
+      },
+      {
+        "path": "project-status.json",
+        "http": 200,
+        "health": "ok",
+        "canonical_master_sha256": "83defcc9feaa50c0a3ac4aff8395a42e33ffa3cf98b2caa0271bbc56d00bde57"
+      }
+    ]
+  }
 }
