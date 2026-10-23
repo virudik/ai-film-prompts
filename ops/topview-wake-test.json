@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "test_id": "wake-20261023-1792793840600",
+  "test_id": "wake-reply-20261023-1792794144853",
   "read_only": true,
-  "requested_at": "2026-10-23T22:17:20.600Z",
+  "requested_at": "2026-10-23T22:22:24.853Z",
   "expected_new_submissions": 0,
   "issue_number": 18,
-  "automation_id": "6adbdbedfb388191ad24e3294eba29bd"
+  "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
+  "reason": "Retest exact observed reply subject prefix after filter update; no video"
 }
