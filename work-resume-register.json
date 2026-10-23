@@ -1,27 +1,8 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T02:47:17Z",
+  "last_updated_at": "2026-10-23T03:03:26.530Z",
   "active_work": [
-    {
-      "work_id": "PROJECT-ORGANIZE-20261023",
-      "title": "Переименование Роскосмос, новое Разное, сортировка изображений и доски проектов",
-      "status": "prepared_verified_pending_publish",
-      "updated_at": "2026-10-23T02:47:17Z",
-      "next_action": "Publish changes to main, verify deployed project switcher and references, then release all4locks.",
-      "scope": "No video submissions; existing Seregius priorities and pauses preserved.",
-      "completed": [
-        "307 project images sorted; destination readback verified all IDs.",
-        "5 projects and board routing prepared; old raznoe identity retained; new misc empty.",
-        "Existing Film automation updated and exact prompt/schedule readback verified.",
-        "219 unit tests, project and site validation passed."
-      ],
-      "canonical_refs": [
-        "projects/projects.json",
-        "projects/README.md",
-        "reports/project-organization-2026-10-23.json"
-      ]
-    },
     {
       "work_id": "PROJECT-AUDIT-20261023",
       "title": "Сверка прерываний, изображений и дублей автоматизации",
@@ -132,7 +113,7 @@
           "actual Video1 dependencies and QC",
           "owner approval / dance review gates",
           "one free attempt per item; no paid or automatic retries",
-          "Raznoe paused_by_owner; only Seregius launch scope"
+          "Roscosmos (raznoe) paused_by_owner; new Raznoe (misc) not authorized; only Seregius launch scope"
         ],
         "affected_items": [
           "S57-SEED20-P1",
@@ -1717,5 +1698,46 @@
     "No invented task completions, approvals, renders or background progress",
     "Only owner decisions can authorize creative changes, approvals and renders",
     "Keep one writer for canonical changes; update with material work checkpoint"
+  ],
+  "completed_work": [
+    {
+      "work_id": "PROJECT-ORGANIZE-20261023",
+      "title": "Переименование Роскосмос, новое Разное, сортировка изображений и доски проектов",
+      "status": "completed_verified",
+      "updated_at": "2026-10-23T03:03:26.530Z",
+      "next_action": "No remaining organization action. Continue Seregius separately from the preserved live queue.",
+      "scope": "No video submissions; existing Seregius priorities and pauses preserved.",
+      "completed": [
+        "307 unique project images moved with stable IDs and all destination pages read back: Seregius 220, Roscosmos 35, Kotmonavty 28, Kot detektiv 24; new Raznoe empty.",
+        "Published five-project registry, old raznoe renamed Roscosmos with content preserved, new misc scaffold and named Topview board routing.",
+        "Updated current instructions, handoff, existing Film automation and Notion pointer; automation exact prompt and schedule readback verified.",
+        "219 unit tests and project/site validators passed; certificate 7/7 and brief 15/15 valid; canon health ok, zero warnings.",
+        "GitHub Pages deployment 39892371877 and site validation 39892371821 succeeded for 696051af2ac86f250ff2c557e287f2d2bbce6b17.",
+        "Public browser verified five project options, Roscosmos 20 scenes/60 prompts and its reference gallery, separate empty Raznoe master and reference gallery; fixed stale project-switcher cache.",
+        "All four organization canon locks released in this completion commit."
+      ],
+      "canonical_refs": [
+        "projects/projects.json",
+        "projects/README.md",
+        "reports/project-organization-2026-10-23.json"
+      ],
+      "completed_at": "2026-10-23T03:03:26.530Z",
+      "ui_verified_urls": [
+        "https://virudik.github.io/ai-film-prompts/index.html?p=raznoe",
+        "https://virudik.github.io/ai-film-prompts/references.html?p=raznoe",
+        "https://virudik.github.io/ai-film-prompts/index.html?p=misc",
+        "https://virudik.github.io/ai-film-prompts/references.html?p=misc"
+      ],
+      "publication_commits": [
+        "299dee028049d4194f93f161e884fa4b3d73b491",
+        "f4e8cfbbe0086c89546d554aedc8745d2d35de71",
+        "696051af2ac86f250ff2c557e287f2d2bbce6b17"
+      ],
+      "limitations": [
+        "9 old generated images without confirmed project assignment (including 4 charts), user uploads and service screenshots left unchanged.",
+        "Native Images UI project filtering was not separately inspected; actual folder membership and stable IDs verified by listing.",
+        "Local Playwright suite unavailable due to missing Chromium and failed download; public cloud browser smoke verified actual deployed pages. Lazy-loaded reference gallery not fully reviewed pixel by pixel."
+      ]
+    }
   ]
 }

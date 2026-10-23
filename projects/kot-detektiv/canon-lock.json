@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "PROJECT-ORGANIZE-20261023: rename Roscosmos, new Raznoe, images and per-board routing",
   "acquired_at": "2026-10-23T02:29:17.237Z",
-  "expires_at": "2026-10-23T03:59:17.237Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-23T03:03:26.530Z",
   "rules": "ops/CANON-LOCK.md",
-  "project": "kot-detektiv"
+  "project": "kot-detektiv",
+  "last_holder": "chatgpt",
+  "release_note": "Project organization published and verified; images sorted, board routing recorded, five-project UI and CI checked. No video submissions in this task."
 }
