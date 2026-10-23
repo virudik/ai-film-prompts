@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Record Slack membership validation mismatch",
   "acquired_at": "2026-10-23T23:19:00.694Z",
-  "expires_at": "2026-10-23T23:29:00.694Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-23T23:19:23.529Z",
   "rules": "ops/CANON-LOCK.md"
 }

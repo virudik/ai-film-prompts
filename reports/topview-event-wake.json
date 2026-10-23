@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T23:17:57.305Z",
+  "updated_at": "2026-10-23T23:19:23.529Z",
   "status": "blocked_event_execution_unconfirmed",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -135,8 +135,8 @@
         "Slack"
       ],
       "installation_suggested": true,
-      "live_test": "awaiting_trigger_configuration_and_user_marker",
-      "next_step": "Update existing event task with diagnostic Slack trigger, retain Gmail, then ask owner to send exact marker. No robot delivery configured.",
+      "live_test": "blocked_before_subscription",
+      "next_step": "Service requests official ChatGPT Slack app reconnect for workspace Vint. Do not ask owner to re-add existing bot blindly. No test marker needed until subscription saves.",
       "connected": true,
       "workspace_name": "Vint",
       "workspace_id": "T0CBMHB1CS1",
@@ -164,7 +164,7 @@
   },
   "slack_test": {
     "test_id": "TOPVIEW_SLACK_TEST_20261024_01",
-    "status": "prepared_subscription_pending",
+    "status": "blocked_membership_validation_mismatch",
     "workspace_id": "T0CBMHB1CS1",
     "channel_id": "C0CBQT4H50E",
     "channel_name": "all-vint",
@@ -173,7 +173,20 @@
     "membership_verified_at": "2026-10-23T23:17:57.305Z",
     "joined_at": "2026-10-23T23:15:05Z",
     "new_submissions": 0,
-    "scope": "Human-authored marker tests Slack->ChatGPT execution only; robot->Slack delivery not implemented."
+    "scope": "Human-authored marker tests Slack->ChatGPT execution only; robot->Slack delivery not implemented.",
+    "subscription_saved": false,
+    "setup_errors": {
+      "attempts": 2,
+      "variants": [
+        "connector_type:slack",
+        "explicit installed connector_id"
+      ],
+      "message": "I couldn't create an immediate Slack monitor because @ChatGPT isn't in all-vint.",
+      "readback": "Original Gmail prompt unchanged, task enabled, no Slack branch saved.",
+      "conflicting_evidence": "Slack member IDs include U0CBQTGARUN; profile verifies name ChatGPT and Bot:Yes; channel join message timestamp 2026-10-23T23:15:05Z.",
+      "reconnect_url": "https://chatgpt.com/slack-ai-app-install",
+      "cause": "not established"
+    }
   },
   "slack_test_ack": null
 }
