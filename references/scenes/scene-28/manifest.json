@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-19T22:10:17.227022Z",
+  "updated_at": "2026-10-23T02:24:26.305Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -765,13 +765,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "ready_single_test",
+      "launch_readiness": "submitted",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "6f5a8629275dbe61673a7f8ec6099385df7458187914aeefdd5537f1a8abe367",
       "previous_prompt_sha256_before_20261020": "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
       "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "submitted",
+      "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+      "queue_item_id": "S28-A1-TEST-20261017"
     },
     {
       "prompt_id": "A2",
@@ -808,13 +810,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "57802b65a93af3477e594b9c99f381ccd2cbf5a0de1e10cef29b5ffca8177148",
       "previous_prompt_sha256_before_20261020": "e223a577967009cbe0a7ceb5e91e6ad42870b6a388d061a6338b51b9a2667b82",
       "normalized_prompt_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A2-20261023"
     },
     {
       "prompt_id": "A3",
@@ -851,13 +856,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "blocked_inputs",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "748a154f80e34cdfcaaf5fcc87e156193368f78913ec2d6919f1fd252ea13156",
       "previous_prompt_sha256_before_20261020": "0a160ab4e05c72a4692727b2f8e743ba811b554ca07f3641597b9b401624267b",
       "normalized_prompt_sha256": "cbe0afde2d8d2b67e4eb124d58507241d56191d5169e854335e96a95a8563d08",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A3-20261023"
     },
     {
       "prompt_id": "A4",
@@ -888,13 +896,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "856568f2ff303b18fe86b7e57a70e6febd27862fa71d0f138ef4f3037238983c",
       "previous_prompt_sha256_before_20261020": "b7b943b0548eccffc0acdb3854ae7858125adea21b77a2294080e4b7ede17549",
       "normalized_prompt_sha256": "049c875aa140294a4688f60b71f8a85c369c6b2f1ece6f2c25c2547e19ad6829",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A4-20261023"
     },
     {
       "prompt_id": "A5",
@@ -925,13 +936,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "f186f3bbd0b74b3550cf71c8d96fc0496d9399122b319d92f2e11c41e2acae86",
       "previous_prompt_sha256_before_20261020": "cb21c145f80319354712d12e607d38d353fe0b741354223bbc131ca5b724f592",
       "normalized_prompt_sha256": "23968b7f8f02216eebf4fd73b452cd1ea380ee384dd986654738f47d2e987d60",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A5-20261023"
     },
     {
       "prompt_id": "A6",
@@ -968,13 +982,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "4daa1e7cb1ed19b11283ffbf46fa004972ce815317a7403697689aad89f22f0d",
       "previous_prompt_sha256_before_20261020": "8a0b003fa2b7d892307c5e16112105f4767097a8517f956e0b5fa7d22490d609",
       "normalized_prompt_sha256": "1c16e00128b6056ff227a1d96ebf2d5845ac495c3d97795e2d129af87534d9cc",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A6-20261023"
     },
     {
       "prompt_id": "A7",
@@ -1011,13 +1028,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "3cea8e301789cdcc58b68467a6c15f3ab6482deecab9a7eabe59275794f1f50a",
       "previous_prompt_sha256_before_20261020": "f06e2769a5999ed1bfea7f204462a993473e7d795373c22e4ccd1b8ea3db8c6d",
       "normalized_prompt_sha256": "429bd0bca0433837bb6c2f1ce301eae3ad68350c9b4227e86e2b022feb4b6b06",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A7-20261023"
     },
     {
       "prompt_id": "A8",
@@ -1054,13 +1074,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "ebd8ac8af5b2439ee57f5d1659b586a4b40e82f3acda1cf24ee8d6ef9082392c",
       "previous_prompt_sha256_before_20261020": "11a2c49ddfb8aa326d111c4867047921134e152e47a29efbe19f34f829d8c7d2",
       "normalized_prompt_sha256": "a6d21f8dff84e95b4b76bf6f740dd4113fad2825b0a997b811fd1cae290bd4eb",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A8-20261023"
     },
     {
       "prompt_id": "A9",
@@ -1097,13 +1120,16 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "6b75c1a46bd6db6b1aada644a8a40714f6d63da050699546949221cdfebddeff",
       "previous_prompt_sha256_before_20261020": "bd307f9996dc4ad876e136db5f6d7192c1b4b6529468ea435eef3d0bcc9b0061",
       "normalized_prompt_sha256": "370f1172ee26db465ab3c419b06420331ad9f84e860a21b4ef7767982c68cc43",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A9-20261023"
     },
     {
       "prompt_id": "A10",
@@ -1122,13 +1148,16 @@
       },
       "start_frame": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "end_frame": null,
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "da4da644b25c55f1ff8fdae596e378bdb6d146c00cd1142d6de84f979d908b6d",
       "previous_prompt_sha256_before_20261020": "f187c61a780dc8d35455b14a5b738e1c57d70aedd79fe5a0987f9a302643f311",
       "normalized_prompt_sha256": "c47dc07ecebb2ac6473307dd83fdfab38c98a2a1f0901832b898f517cdf46718",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A10-20261023"
     },
     {
       "prompt_id": "B1",
@@ -1557,11 +1586,14 @@
           "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
         }
       },
-      "launch_readiness": "blocked_test_review",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261020": "2db2e390ae902a7dde491ed1a4ba6af2ef691a3db9f6f9ba2de40707c6b2ba64",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_test_review",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A11-20261023"
     },
     {
       "prompt_id": "A12",
@@ -1601,11 +1633,14 @@
           "source_requirement": "Actual new A11 result ending; save trim, task ID, SHA and continuity QC. No old B2/C28 or generated still substitute."
         }
       },
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "blocked_inputs",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261020": "1cdc474f15e072277f7b48f7bba071a63e09ab9eee2e76e4ce87d006e23ef4df",
       "motion_revision": "2026-10-20 owner00:55MSK",
-      "generation_state": "not_submitted_by_this_revision"
+      "generation_state": "authorized_not_submitted",
+      "previous_launch_readiness_20261023": "blocked_continuity",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "queue_item_id": "S28-A12-20261023"
     },
     {
       "prompt_id": "B11",
@@ -1788,7 +1823,7 @@
     "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
     "note": "Six verified web submissions, unlimited=true and creditsCost=0. Future/browser-session availability must be checked live."
   },
-  "launch_gate": "Existing ONE15s A1 test after story and owner review before any other dance/music submission; variants are not additional launch authorization.",
+  "launch_gate": "Owner23Oct: selected Seedance A1-A12 authorized as fallback after52P2/58P2. Follow fresh queue priorities; real A3<-A2 image and A12<-A11 video required. Evaluate every new28 result; no implicit editorial approval, no automatic retry, no duplicate Wan.",
   "couple_variant_20261020": {
     "source": "reports/peacemaker-s2-couple-2026-10-20.md",
     "seedance_parts": [
@@ -1800,10 +1835,11 @@
       "L28",
       "S28"
     ],
-    "state": "prompts_prepared_no_generation",
+    "state": "seedance_A11_A12_authorized_20261023",
     "remaining": [
       "Actual A11 ending before A12",
       "Evaluate physical support, faces, hand clearance and choreography in generated output"
-    ]
+    ],
+    "wan_launch_state": "alternative_not_selected"
   }
 }

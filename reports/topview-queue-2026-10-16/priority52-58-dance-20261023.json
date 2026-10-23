@@ -1,0 +1,118 @@
+{
+  "at": "2026-10-23T02:20:22.376Z",
+  "quote": "тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+  "primary": [
+    "S52-SEED20-P2",
+    "S58-SEED20-P2"
+  ],
+  "fallback_scenes": [
+    28,
+    49,
+    50,
+    51
+  ],
+  "quality": "Review new28 results for energy, recognizable identity, anatomy, physical contact and usable intervals; no assumed approval or automatic retries.",
+  "source": "Direct owner current chat",
+  "selected_scene28": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "A10",
+    "A11",
+    "A12"
+  ],
+  "model_scene28": "Seedance 2.0, one current-revision attempt per A item; A1 already submitted",
+  "real_dependencies": [
+    "52P2<-52P1",
+    "58P2<-58P1",
+    "28A3<-new28A2 final image",
+    "28A12<-new28A11 final clip",
+    "51B<-51A"
+  ],
+  "preserved": [
+    "Unlimited0 only",
+    "no duplicate submitted current-revision prompt",
+    "no automatic retry",
+    "Raznoe paused",
+    "model comparisons remain separate"
+  ],
+  "quality_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+  "completed_at": "2026-10-23T02:25:21.662Z",
+  "added_queue_items": [
+    "S28-A2-20261023",
+    "S28-A3-20261023",
+    "S28-A4-20261023",
+    "S28-A5-20261023",
+    "S28-A6-20261023",
+    "S28-A7-20261023",
+    "S28-A8-20261023",
+    "S28-A9-20261023",
+    "S28-A10-20261023",
+    "S28-A11-20261023",
+    "S28-A12-20261023"
+  ],
+  "validation": {
+    "canonical_prompts_verified": 11,
+    "available_input_hashes_verified": true,
+    "real_missing_inputs": [
+      "A3@Image4 from newA2",
+      "A12@Video1 from newA11"
+    ],
+    "existing_task_duplicate_scan": "all932tasks, no normalized match to current A2-A12",
+    "new_submissions": 0,
+    "credits_spent": 0
+  },
+  "last_live_scan": {
+    "at": "2026-10-23T02:21:03.061Z",
+    "boards": 13,
+    "pages": 19,
+    "total": 932,
+    "scan_complete": true,
+    "active": [
+      {
+        "id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "56e5e07c85df4af583c62665c51ed563",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "af8e389dc9564607bc6138b408c72da5",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "6598a21c2c684d43b7cede9cfc987107",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+        "status": "init",
+        "credits": 0
+      }
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0
+  },
+  "automation": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "updated": true,
+    "exact_prompt_readback": true,
+    "schedule_changed": false
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T02:00:54.604Z",
+  "updated_at": "2026-10-23T02:24:26.305Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1662,7 +1662,7 @@
       "canonical_block_label": "49A",
       "canonical_prompt_sha256": "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705",
       "normalized_prompt_sha256": "b646081705c3489ee55571178df304b7c5dd5fb06fb414369fde0f6f5e3e201e",
-      "priority": 610,
+      "priority": 1.2,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1744,7 +1744,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 610
     },
     {
       "id": "S49B",
@@ -1753,7 +1754,7 @@
       "canonical_block_label": "49B",
       "canonical_prompt_sha256": "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc",
       "normalized_prompt_sha256": "a66cdb578c8a5164e9fe2a3345865802c41c098fda509967c7183fed57626753",
-      "priority": 611,
+      "priority": 1.21,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1841,7 +1842,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 611
     },
     {
       "id": "S49C",
@@ -1850,7 +1852,7 @@
       "canonical_block_label": "49C",
       "canonical_prompt_sha256": "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c",
       "normalized_prompt_sha256": "cb7410fa217d291d30f792ca251f3dedcc0c3e997b3e5e58c6b3e4d20e9cb696",
-      "priority": 612,
+      "priority": 1.22,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1938,7 +1940,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 612
     },
     {
       "id": "S49D",
@@ -1947,7 +1950,7 @@
       "canonical_block_label": "49D",
       "canonical_prompt_sha256": "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34",
       "normalized_prompt_sha256": "ce1cf54b4daea1ca1a77fecc61c46e7e3cf3292595e2a5b82d85250f96058c10",
-      "priority": 613,
+      "priority": 1.23,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2029,7 +2032,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 613
     },
     {
       "id": "S49E",
@@ -2038,7 +2042,7 @@
       "canonical_block_label": "49E",
       "canonical_prompt_sha256": "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0",
       "normalized_prompt_sha256": "403a10b1b3e1838ccde6af17e44cca332b9cd268f71d88bc35325d335bb060d1",
-      "priority": 614,
+      "priority": 1.24,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2120,7 +2124,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 614
     },
     {
       "id": "S49F",
@@ -2129,7 +2134,7 @@
       "canonical_block_label": "49F",
       "canonical_prompt_sha256": "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca",
       "normalized_prompt_sha256": "883c1370ba51c225a7f0d86531b93a0e954568e08d8d35954e91274fd71d6373",
-      "priority": 615,
+      "priority": 1.25,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2229,7 +2234,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 615
     },
     {
       "id": "S51A",
@@ -2238,7 +2244,7 @@
       "canonical_block_label": "51A",
       "canonical_prompt_sha256": "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070",
       "normalized_prompt_sha256": "a78f505b54c837e8778164378d4929062a0066c982647ad77f9fdae45bb3124c",
-      "priority": 618,
+      "priority": 1.4,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2344,7 +2350,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 618
     },
     {
       "id": "S51B",
@@ -2353,7 +2360,7 @@
       "canonical_block_label": "51B",
       "canonical_prompt_sha256": "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
       "normalized_prompt_sha256": "d00c891b5cc39dbd3bf72aa24f8a61aeb3e31e90d9eb15af2f5b2cba85eb228d",
-      "priority": 619,
+      "priority": 1.41,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -2471,7 +2478,8 @@
         "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency. Also requires the actual QC-checked ending of new51A, not merely submitted51A.",
         "state": "blocked_test_review"
       },
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 619
     },
     {
       "id": "S45-R1-20261017",
@@ -3260,7 +3268,7 @@
       "canonical_block_label": "28 A1",
       "canonical_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
       "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
-      "priority": 400,
+      "priority": 1.01,
       "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -3298,7 +3306,7 @@
       "claim": null,
       "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test. Owner22Oct2026 authorizes controlled model comparisons AFTER all selected story scenes are finished; see ops/dance-model-comparison.md. A1 remains one Seedance2.0 baseline attempt; no duplicate or automatic model substitution. Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
       "max_credits": 0,
-      "review_gate_after_success": "Save and visually assess A1. Owner23Oct explicitly authorized selected49A-F/50A-B/51A-B without waiting for A1 review. Additional model-comparison variants remain a separate future phase in ops/dance-model-comparison.md.",
+      "review_gate_after_success": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
       "previous_prompt_sha256": [
         "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20"
       ],
@@ -3420,7 +3428,10 @@
         "full_normalized_prompt_match": true,
         "useUnlimitMode": true,
         "creditsCost": 0
-      }
+      },
+      "priority_before_20261023_primary": 400,
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
     },
     {
       "id": "S55",
@@ -3684,7 +3695,7 @@
       "canonical_block_label": "50A",
       "canonical_prompt_sha256": "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
       "normalized_prompt_sha256": "00290b1069a0d368fe95bb971c17a83a4d027f272d23c9e57bc1e81d9e44ecd7",
-      "priority": 616,
+      "priority": 1.3,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -3770,7 +3781,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 616
     },
     {
       "id": "S50B",
@@ -3779,7 +3791,7 @@
       "canonical_block_label": "50B",
       "canonical_prompt_sha256": "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
       "normalized_prompt_sha256": "f3d73adda08441afc120f031b1e525fe4e2b09c96c0487628a9287cb704af97a",
-      "priority": 617,
+      "priority": 1.31,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -3866,7 +3878,8 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 617
     },
     {
       "id": "S37-SEED20-P1",
@@ -5466,7 +5479,7 @@
       "canonical_block_label": "52 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "3dc4d562c555cf700c3fe97be3c0c651dfbbdd2deb2a2ee387d62d0313d688cb",
       "normalized_prompt_sha256": "333a32b2b12f6e0a380f8df93935621124fe5bca803186e9d638935a3413fc7c",
-      "priority": 20.1,
+      "priority": 0,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5525,7 +5538,8 @@
         "blocker": "Actual ending of S52-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
         "state": "blocked_inputs"
       },
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z"
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 20.1
     },
     {
       "id": "S53-SEED20-P1",
@@ -6911,7 +6925,7 @@
       "canonical_block_label": "58 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
       "normalized_prompt_sha256": "fe800e723b4b3355ca6febe6901aaad3237b43a9f62eeafaef5edf776f773abe",
-      "priority": 4.31,
+      "priority": 0.1,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -7013,7 +7027,658 @@
         "S48-SEED20-P1",
         "S48-SEED20-P2"
       ],
-      "ordering_rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot."
+      "ordering_rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
+      "priority_before_20261023_primary": 4.31
+    },
+    {
+      "id": "S28-A2-20261023",
+      "scene_id": 28,
+      "prompt_id": "A2",
+      "canonical_block_label": "28 A2",
+      "canonical_prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+      "normalized_prompt_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+      "priority": 1.02,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/P28-pair-facing.webp",
+          "sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7",
+          "role": "pose_composition_helper",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "historical_different_revision_task_id": "e471e35fc7454fe5a2a89e06fac3f122"
+    },
+    {
+      "id": "S28-A3-20261023",
+      "scene_id": 28,
+      "prompt_id": "A3",
+      "canonical_block_label": "28 A3",
+      "canonical_prompt_sha256": "0a3bfbe2cc90e877c9c7a68d5220bc870cd082bc0522dcfe43ab2c1f45edc6ce",
+      "normalized_prompt_sha256": "cbe0afde2d8d2b67e4eb124d58507241d56191d5169e854335e96a95a8563d08",
+      "priority": 1.03,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S28-A2-20261023"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "required": true,
+          "canonical_role": "continuity_frame",
+          "input_status": "required_not_available",
+          "source_item_id": "S28-A2-20261023",
+          "source_requirement": "Actual clean final frame from new A2 with dropped hands; preserve task ID/SHA/QC. No old B2/C28 substitute."
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": "Actual clean final frame from new A2 with dropped hands; preserve task ID/SHA/QC. No old B2/C28 substitute.",
+      "launch_readiness": "blocked_inputs",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A4-20261023",
+      "scene_id": 28,
+      "prompt_id": "A4",
+      "canonical_block_label": "28 A4",
+      "canonical_prompt_sha256": "59a3173102b1f175977f23e68d85ae78918861af19fca243ec372517c903a6f9",
+      "normalized_prompt_sha256": "049c875aa140294a4688f60b71f8a85c369c6b2f1ece6f2c25c2547e19ad6829",
+      "priority": 1.04,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A5-20261023",
+      "scene_id": 28,
+      "prompt_id": "A5",
+      "canonical_block_label": "28 A5",
+      "canonical_prompt_sha256": "b07695b0f8895ac1046929263efb2cf27d16499542bd23eaa19110edd4f19a65",
+      "normalized_prompt_sha256": "23968b7f8f02216eebf4fd73b452cd1ea380ee384dd986654738f47d2e987d60",
+      "priority": 1.05,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A6-20261023",
+      "scene_id": 28,
+      "prompt_id": "A6",
+      "canonical_block_label": "28 A6",
+      "canonical_prompt_sha256": "c1f2d7ad68c35f09f09a6c32463920971ff1b220ff4edc34a3847126fa452067",
+      "normalized_prompt_sha256": "1c16e00128b6056ff227a1d96ebf2d5845ac495c3d97795e2d129af87534d9cc",
+      "priority": 1.06,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/masha-laguna.webp",
+          "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/lesha.jpg",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/vitalik.jpg",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A7-20261023",
+      "scene_id": 28,
+      "prompt_id": "A7",
+      "canonical_block_label": "28 A7",
+      "canonical_prompt_sha256": "7aa2598060614992f4fe9ab1e6b312d1f9de3f41012fa4b2233a84badd75a271",
+      "normalized_prompt_sha256": "429bd0bca0433837bb6c2f1ce301eae3ad68350c9b4227e86e2b022feb4b6b06",
+      "priority": 1.07,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A8-20261023",
+      "scene_id": 28,
+      "prompt_id": "A8",
+      "canonical_block_label": "28 A8",
+      "canonical_prompt_sha256": "1e2860fac56f47b8c5ba0d44ff57785862de7f335316659a79cc93ff2f704e20",
+      "normalized_prompt_sha256": "a6d21f8dff84e95b4b76bf6f740dd4113fad2825b0a997b811fd1cae290bd4eb",
+      "priority": 1.08,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/L28-carry.webp",
+          "sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120",
+          "role": "pose_composition_helper",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A9-20261023",
+      "scene_id": 28,
+      "prompt_id": "A9",
+      "canonical_block_label": "28 A9",
+      "canonical_prompt_sha256": "43b12c821fd71780e03bf8b5b6953ce075a58e7bb362729e7376888f61902b07",
+      "normalized_prompt_sha256": "370f1172ee26db465ab3c419b06420331ad9f84e860a21b4ef7767982c68cc43",
+      "priority": 1.09,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/S28-shoulder.png",
+          "sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912",
+          "role": "pose_composition_helper",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A10-20261023",
+      "scene_id": 28,
+      "prompt_id": "A10",
+      "canonical_block_label": "28 A10",
+      "canonical_prompt_sha256": "2080653ecb276bc28913a58705149d02f9c14c10d631a70450467fb592721657",
+      "normalized_prompt_sha256": "c47dc07ecebb2ac6473307dd83fdfab38c98a2a1f0901832b898f517cdf46718",
+      "priority": 1.1,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_to_video",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+          "role": "pose_composition_helper",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A11-20261023",
+      "scene_id": 28,
+      "prompt_id": "A11",
+      "canonical_block_label": "28 A11",
+      "canonical_prompt_sha256": "c8de91dcecde79ce0226e60fba70966e357910fcc3f5bbb8bd83db6f037ea626",
+      "normalized_prompt_sha256": "3c2e5360b093cdbadd3395a412be203dfd7385ad27234097b8f8df2a52f312ec",
+      "priority": 1.11,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S28-A12-20261023",
+      "scene_id": 28,
+      "prompt_id": "A12",
+      "canonical_block_label": "28 A12",
+      "canonical_prompt_sha256": "92a522646faf6e8d5e386706626899bae5c038c407a9c3776ac905e5f38817a4",
+      "normalized_prompt_sha256": "c38739532c46a1b73fd8feac7fa910f4a2369da9bd4e4c343bea1b7bb72be47a",
+      "priority": 1.12,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S28-A11-20261023"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S28-A11-20261023",
+          "source_requirement": "Actual final3seconds of new A11; preserve task ID/SHA/QC. No synthetic or old B2/C28 substitute."
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": "Actual final3seconds of new A11; preserve task ID/SHA/QC. No synthetic or old B2/C28 substitute.",
+      "launch_readiness": "blocked_inputs",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
     }
   ],
   "already_submitted": {
@@ -7034,7 +7699,12 @@
     "S16-SEED20-P2": "cd37ab3fd3ab4e1782b295ace2a3b1d4"
   },
   "not_selected_alternatives": {
-    "scene28": [
+    "scene28": [],
+    "scene27": [
+      "S27-part-1"
+    ],
+    "reason": "Selected28 Seedance A1-A12 authorized23Oct, current revision one attempt each. Wan B variants and other model comparisons are not automatically relaunched. Other scenes retain their current selections.",
+    "previous_scene28_20261023": [
       "A3",
       "A4",
       "A5",
@@ -7043,11 +7713,7 @@
       "A8",
       "A9",
       "A10"
-    ],
-    "scene27": [
-      "S27-part-1"
-    ],
-    "reason": "Alternatives are not a command to render every duplicate. Owner18Oct03:09 selected Seedance2.0 for future dance/action: nine story pairs now selected; A-series after ONE A1 test remains owner-review-gated. Previously submitted Wan results remain historical."
+    ]
   },
   "excluded_completed_scenes": [
     33,
@@ -7202,7 +7868,7 @@
   "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
   "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
   "last_live_scan": {
-    "at": "2026-10-23T01:59:48.572Z",
+    "at": "2026-10-23T02:21:03.061Z",
     "boards": 13,
     "pages": 19,
     "total": 932,
@@ -7710,5 +8376,51 @@
       "no automatic retries or reactivation of submitted/superseded alternatives",
       "Raznoe remains paused"
     ]
+  },
+  "owner_instruction_20261023_priority": {
+    "at": "2026-10-23T02:20:22.376Z",
+    "quote": "тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+    "primary": [
+      "S52-SEED20-P2",
+      "S58-SEED20-P2"
+    ],
+    "fallback_scenes": [
+      28,
+      49,
+      50,
+      51
+    ],
+    "quality": "Review new28 results for energy, recognizable identity, anatomy, physical contact and usable intervals; no assumed approval or automatic retries.",
+    "source": "Direct owner current chat",
+    "selected_scene28": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "model_scene28": "Seedance 2.0, one current-revision attempt per A item; A1 already submitted",
+    "real_dependencies": [
+      "52P2<-52P1",
+      "58P2<-58P1",
+      "28A3<-new28A2 final image",
+      "28A12<-new28A11 final clip",
+      "51B<-51A"
+    ],
+    "preserved": [
+      "Unlimited0 only",
+      "no duplicate submitted current-revision prompt",
+      "no automatic retry",
+      "Raznoe paused",
+      "model comparisons remain separate"
+    ],
+    "quality_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
   }
 }
