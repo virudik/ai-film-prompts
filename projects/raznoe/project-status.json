@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-23T02:41:50Z",
+  "synced_at": "2026-10-23T02:51:07Z",
   "revision_date": "23.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
   "canonical_master_sha256": "91a1af693a15f1ad1317c5611edcc8dd2048dd5003016f528b23f32a087618ac",
@@ -40,17 +40,17 @@
   "latest_scene": 20,
   "reserved_scene_ids": [],
   "instruction_sync": {
-    "health": "stale",
-    "snapshot_at": "2026-10-23T02:41:50.686Z",
+    "health": "ok",
+    "snapshot_at": "2026-10-23T02:49:25.419Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": -0.0,
+    "age_hours_at_status_build": 0.028,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "11cc71e146293f7db0447e33eb200039ee7ecf9f",
-        "mirror_sha256": "fd710d89efd9989d6f5dc7f9c6dbffdb231fdfcc97c1b9e30a11cee3f0f49dc1",
+        "github_blob": "a119d1661b049ad886c622b2b6cf8f99148196b5",
+        "mirror_sha256": "1c731e457e43c18e8f954580c59780d1d340fc7c9682d1a4b44002c075205107",
         "match": true,
         "drive_copy_sha256": "0d85337db2e5b9e5aa825f9e295deaaf29afa84929f90166726cacf44d29c1a4",
         "drive_copy_match": false,
@@ -123,8 +123,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "stale",
-      "age_hours": -0.0,
+      "state": "ok",
+      "age_hours": 0.028,
       "blocking": false
     },
     "topview_task_map": {
@@ -538,7 +538,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-23T02:41:50Z",
+    "synced_at": "2026-10-23T02:51:07Z",
     "canonical_master_sha256": "91a1af693a15f1ad1317c5611edcc8dd2048dd5003016f528b23f32a087618ac",
     "canonical_revision_sha256": "8e819fbabd3b90d6ca42c5121d64c6c94fc61faf3b4174854c7c0eff00c6b66b",
     "scene_count": 20,
@@ -568,7 +568,7 @@
     "work_items": [],
     "slow_scenes": [],
     "health": "ok",
-    "instruction_sync_health": "stale"
+    "instruction_sync_health": "ok"
   },
   "health": "ok",
   "checks": {
@@ -601,7 +601,8 @@
     "scene_meta_allowed_fields_valid": true,
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
-    "scene_meta_target_engine_valid": true
+    "scene_meta_target_engine_valid": true,
+    "instruction_mirrors_match_drive": true
   },
   "project": "raznoe",
   "project_name": "Роскосмос"
