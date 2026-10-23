@@ -86,7 +86,14 @@
     "P2_require_actual_own_P1": true,
     "site_contract": "passed",
     "project_status_build": "health=ok;24scenes98prompts;all checks true",
-    "publication": "pending",
+    "publication": {
+      "canonical_commit": "2bd171117c4c8d6503dae036b2eb266b7041a010",
+      "exact_master_queue_and_images_verified": true,
+      "project_status": "health=ok;24scenes;98prompts;canonical master SHA matches",
+      "canon_health": "ok;warnings=0",
+      "pages": "deploying; final public HTTP verification pending",
+      "pages_run": 39982901171
+    },
     "unit_tests": "228 tests passed (requests runtime dependency installed)"
   },
   "generation": {
