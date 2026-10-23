@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T22:55:20.823Z",
+  "updated_at": "2026-10-23T23:17:57.305Z",
   "status": "blocked_event_execution_unconfirmed",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -128,14 +128,22 @@
     "checked_at": "2026-10-23T22:55:20.823Z",
     "slack": {
       "catalog_available": true,
-      "installed": false,
+      "installed": true,
       "connected_event_sources": [
         "GitHub",
-        "Gmail"
+        "Gmail",
+        "Slack"
       ],
       "installation_suggested": true,
-      "live_test": "not_run",
-      "next_step": "Install and authorize Slack; identify intended channel; verify @ChatGPT membership, actual event schema and bot-message delivery before read-only test."
+      "live_test": "awaiting_trigger_configuration_and_user_marker",
+      "next_step": "Update existing event task with diagnostic Slack trigger, retain Gmail, then ask owner to send exact marker. No robot delivery configured.",
+      "connected": true,
+      "workspace_name": "Vint",
+      "workspace_id": "T0CBMHB1CS1",
+      "bot_messages_supported_by_schema": true,
+      "channel_id": "C0CBQT4H50E",
+      "channel_name": "all-vint",
+      "chatgpt_membership_verified": true
     },
     "custom_mcp_events": {
       "officially_documented": true,
@@ -153,5 +161,19 @@
     "conclusion": "Both routes still depend on ChatGPT event execution; removing Gmail does not establish that the execution blocker is resolved.",
     "new_automations": 0,
     "new_submissions": 0
-  }
+  },
+  "slack_test": {
+    "test_id": "TOPVIEW_SLACK_TEST_20261024_01",
+    "status": "prepared_subscription_pending",
+    "workspace_id": "T0CBMHB1CS1",
+    "channel_id": "C0CBQT4H50E",
+    "channel_name": "all-vint",
+    "owner_user_id": "U0CBWH0DXKN",
+    "chatgpt_bot_user_id": "U0CBQTGARUN",
+    "membership_verified_at": "2026-10-23T23:17:57.305Z",
+    "joined_at": "2026-10-23T23:15:05Z",
+    "new_submissions": 0,
+    "scope": "Human-authored marker tests Slack->ChatGPT execution only; robot->Slack delivery not implemented."
+  },
+  "slack_test_ack": null
 }
