@@ -245,10 +245,10 @@ pjs_text = (root / "projects.js").read_text(encoding="utf-8")
 pc = subprocess.run(["node", "--check", str(root / "projects.js")], text=True, capture_output=True)
 if pc.returncode:
     raise SystemExit("projects.js: " + (pc.stderr or pc.stdout))
-for page in ("index.html", "film.html", "references.html"):
+for page in ("index.html", "film.html", "references.html", "videos.html"):
     ptxt = (root / page).read_text(encoding="utf-8")
     first = re.search(r"<script\b[^>]*>", ptxt)
-    if not first or 'src="projects.js"' not in first.group(0):
+    if not first or not re.search(r'\bsrc="projects\.js(?:\?[^"<>]*)?"', first.group(0)):
         raise SystemExit(page + ": projects.js must be the first script (it routes data requests per project)")
     if "data-project-switch" not in ptxt:
         raise SystemExit(page + ": project switcher placeholder missing")
