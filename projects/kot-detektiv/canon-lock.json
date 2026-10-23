@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:project-check",
-  "task": "Кот детектив: точные подписи референсов, темы Suno (темп сцен не меняется)",
-  "acquired_at": "2026-10-23T04:11:56Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T04:14:33Z",
+  "task": "Кот детектив: динамичные версии сцен 1–21 отдельной вкладкой (старые не меняются)",
+  "acquired_at": "2026-10-23T23:03:57Z",
+  "expires_at": "2026-10-23T23:48:57Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "kot-detektiv"
 }
