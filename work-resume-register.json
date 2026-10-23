@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T20:00:28Z",
+  "last_updated_at": "2026-10-23T20:24:36.991Z",
   "active_work": [
     {
       "work_id": "WORM-BRIDGE-STATUS-20261023",
@@ -1101,6 +1101,23 @@
         "at": "2026-10-23T00:40:49.801Z",
         "text": "Разное не запускать. Сначала доделаем серёгиуса всего по плану"
       }
+    },
+    {
+      "work_id": "TOPVIEW-STUDIO-PILOT-20261023",
+      "title": "Будущий пилот Drama Studio и Canvas для следующего проекта",
+      "status": "planned_after_current_seregius_queue",
+      "updated_at": "2026-10-23T20:24:36.991Z",
+      "authorization": "Owner23Oct2026: record checking and trying these modes in future plans; no launch now.",
+      "next_action": "After finishing current Seregius queue, recheck model/Unlimited/pricing per web and Plugin/MCP/Skill route; prepare a small scene + actual-result continuation pilot, compare quality, references, 6-slot scheduling, telemetry and export with My First Board.",
+      "constraints": [
+        "Current Seregius queue remains My First Board; no migration or launch from this planning entry.",
+        "Do not assume Unlimited availability or zero price; paid pilot needs separately authorized budget.",
+        "Preserve true P1→P2 continuity and exact character references; record observed results rather than marketing promises."
+      ],
+      "canonical_refs": [
+        "film-backlog.md",
+        "reports/topview-workflows-2026-10-23.md"
+      ]
     }
   ],
   "rules": [
