@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T00:24:18Z",
+  "updated_at": "2026-10-23T00:34:16.389Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4059,7 +4059,7 @@
       "canonical_prompt_sha256": "48230d568f3657aa24c61b3a72375fb004774f882317e9231d51a11602d1e2ac",
       "normalized_prompt_sha256": "f56f817befcc3cd65621300515653cc5d03e352a4a9d1ed0a29eb39a157d763e",
       "priority": 5.1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4129,7 +4129,37 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "seregius-only-20261023-S39P2",
+        "claimed_at": "2026-10-23T00:34:16.389Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "full_prompt_normalized_match": true,
+          "inputs_sha256_verified": true,
+          "global_scan": {
+            "at": "2026-10-23T00:33:40.599Z",
+            "total": 921,
+            "boards": 13,
+            "pages": 19,
+            "active": [
+              {
+                "id": "2175458eede64d0881ad70897155459a",
+                "status": "init"
+              },
+              {
+                "id": "a1ca4c36e31d45c5b4b72df7777d2592",
+                "status": "init"
+              }
+            ]
+          },
+          "ui_free_unlimited": true,
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1
+        }
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S39",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
@@ -6976,5 +7006,11 @@
     "plan": "ops/dance-model-comparison.md",
     "decision": "Все выбранные сюжетные сцены завершить до танцевальных сравнений; не только отправить. Seedance2.0 базовый A1, MiniMaxH3 первый сравнительный вариант, затем Wan3.0 и Seedance2.5 только если доступен Unlimited0.",
     "new_submissions": 0
+  },
+  "owner_instruction_20261023_seregius_only": {
+    "at": "2026-10-23T00:34:16.389Z",
+    "text": "Разное не запускать. Сначала доделаем серёгиуса всего по плану",
+    "source": "direct owner message",
+    "hold_raznoe": true
   }
 }
