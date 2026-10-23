@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Owner correction: no Serega on personal ship roof; prompts and clean reference",
-  "acquired_at": "2026-10-23T16:10:49.014442Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T16:53:44.635081Z",
+  "task": "Create and integrate ten location-specific spacecraft references",
+  "acquired_at": "2026-10-23T17:10:54.014Z",
+  "expires_at": "2026-10-23T17:55:54.014Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
