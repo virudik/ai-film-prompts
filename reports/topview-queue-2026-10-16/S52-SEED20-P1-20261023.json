@@ -171,5 +171,10 @@
       "no automatic retries or reactivation of submitted/superseded alternatives",
       "Raznoe remains paused"
     ]
+  },
+  "ui_proof": {
+    "library_file_id": "libfile_bc44a39b08848191aa4b1c872ad3f88f",
+    "file_id": "file_000000001fd081f6985fe975691f5bc1",
+    "path": "/AI Film Серёгиус/52-and-28-submitted.jpg"
   }
 }

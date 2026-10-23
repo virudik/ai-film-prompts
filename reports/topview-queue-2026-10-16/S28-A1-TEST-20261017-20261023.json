@@ -1,0 +1,162 @@
+{
+  "item_id": "S28-A1-TEST-20261017",
+  "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+  "submitted_at": "2026-10-23 01:58:44Z",
+  "verified_at": "2026-10-23T02:00:54.604Z",
+  "canonical_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
+  "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
+  "full_normalized_prompt_match": true,
+  "creditsCost": 0,
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Zl9YWJ6nWgSi6iaS2NGQJ.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/GIVtPQj1AzN94MXUjeW8f.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/PZNQ8yFPhXUeask8b8GNF.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  is H28B: exact hangar geometry and already active disco lighting ONLY, not its distant empty-room framing. <<<Image2>>>  is absolute SEREGA face/body/costume identity; <<<Image3>>>  is absolute YULIA face/body/costume identity. Individual sheets override all location details for appearance. Exactly two adults, one person per sheet. No other cast.\nPriority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA is the pale older Chancellor with a balding crown, sparse light hair and a long deep-purple robe. YULIA has the exact referenced face, long chestnut hair, dark black-grey armor, shoulder pieces, gloves and a long black cloak. Preserve both faces and builds; no beautification or costume redesign. Hands stay empty; no lightsabers.\n\nLOCATION / SPACE — CRITICAL:\nPhotoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.\n\nSTART STATE:\nSerega frame-left and Yulia frame-right, about1.4metres apart, facing camera and ready to step. H28B lights already ON. The first foot push and torso accent happen immediately; no lighting or hangar establishing shot.\n\nTIMELINE:\n[0:00–0:03] — DRIVE IN\nImmediately take two broad side steps out and back with springy knee bends; counter-swing the forearms below the face. Serega left and Yulia right mirror each other, actually shifting their full weight.\n\n[0:03–0:07] — KICK AND ANSWER\nEach alternates two low forward kick-steps with a grounded heel-toe rebound. One leads a bold shoulder sweep and the other answers on the next beat. Robes swing clear of planted feet; no high kicks into a partner.\n\n[0:07–0:11] — TURN AND RECONNECT\nExecute a brisk outward quarter-turn on two steps and return toward one another through a short heel-toe shuffle. Add one chest accent on landing; immediately flow into the approach.\n\n[0:11–0:14.5] — CLOSE THE PHRASE\nTake two emphatic inward steps with rolling shoulder accents, turn face-to-face and arrive about 60 cm apart. Let both arms finish their arcs and drop to the sides as the last step lands.\n\n[0:14.5–0:15] — HANDOFF\nOnly the last half-second resolves into the hands-down face-to-face position. Keep natural breath and cloth settling.\n\nEND STATE:\nSerega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis. H28B disco lighting is established and steady at the last frame.\n\nCAMERA / SPACE:\nOne continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.\n\nPERFORMANCE:\nCommitted, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.\n\nLIGHTING / MATERIALS:\nH28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.\n\nAUDIO:\nQuiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.\n\nNEGATIVE PROMPT:\nRapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Extra dancers, duplicated sheet views, swapped identities, reversed screen positions, face drift, new hairstyle, wardrobe change, extra arms or fingers, skating without weight transfer, tangled cloak, weapons, heavy floor mirror images, moving architecture, abrupt light flashes, exaggerated facial comedy, singing, subtitles, credits, logos, watermark, camera shake or cuts. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "boardTaskId": "4b7b972870a44dfbb29bd6c5e330a633",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "role": "location",
+      "required": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "role": "identity",
+      "required": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "role": "identity",
+      "required": true
+    }
+  ],
+  "preflight": {
+    "global_scan": {
+      "at": "2026-10-23T01:55:32.105Z",
+      "boards": 13,
+      "pages": 19,
+      "total": 931,
+      "scan_complete": true,
+      "active": [
+        {
+          "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+          "status": "init",
+          "credits": 0
+        },
+        {
+          "id": "56e5e07c85df4af583c62665c51ed563",
+          "status": "init",
+          "credits": 0
+        },
+        {
+          "id": "af8e389dc9564607bc6138b408c72da5",
+          "status": "init",
+          "credits": 0
+        },
+        {
+          "id": "6598a21c2c684d43b7cede9cfc987107",
+          "status": "init",
+          "credits": 0
+        },
+        {
+          "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+          "status": "init",
+          "credits": 0
+        }
+      ]
+    },
+    "full_normalized_prompt_match": true,
+    "input_hashes_verified": true,
+    "input_order": [
+      "Image1",
+      "Image2",
+      "Image3"
+    ],
+    "model": "Seedance 2.0",
+    "duration": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "credits": 0,
+    "owner_decisions_open": 0
+  },
+  "owner_authorization": {
+    "at": "2026-10-23T01:51:09.796Z",
+    "quote": "52 28 49 50 51 можно добавить в очередь и запускать",
+    "source": "Direct owner message in current chat",
+    "scope": [
+      "S28-A1-TEST-20261017",
+      "S49A",
+      "S49B",
+      "S49C",
+      "S49D",
+      "S49E",
+      "S49F",
+      "S50A",
+      "S50B",
+      "S51A",
+      "S51B",
+      "S52-SEED20-P1",
+      "S52-SEED20-P2"
+    ],
+    "supersedes": [
+      "story-completion hold for28 A1",
+      "A1 owner-review gate for49/50/51",
+      "owner-choice scheduling hold for52; genuine usable44 output still required"
+    ],
+    "preserve": [
+      "one free website attempt per selected item",
+      "Unlimited 0 credits",
+      "existing relative priority and ready-skip",
+      "real Video1 dependencies and QC",
+      "no automatic retries or reactivation of submitted/superseded alternatives",
+      "Raznoe remains paused"
+    ]
+  },
+  "ui_proof": {
+    "library_file_id": "libfile_bc44a39b08848191aa4b1c872ad3f88f",
+    "file_id": "file_000000001fd081f6985fe975691f5bc1",
+    "path": "/AI Film Серёгиус/52-and-28-submitted.jpg"
+  }
+}

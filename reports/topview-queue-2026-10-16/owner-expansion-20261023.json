@@ -29,5 +29,66 @@
     "real Video1 dependencies and QC",
     "no automatic retries or reactivation of submitted/superseded alternatives",
     "Raznoe remains paused"
-  ]
+  ],
+  "completed_at": "2026-10-23T02:00:54.604Z",
+  "submissions": [
+    {
+      "item_id": "S52-SEED20-P1",
+      "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+      "receipt": "reports/topview-queue-2026-10-16/S52-SEED20-P1-20261023.json"
+    },
+    {
+      "item_id": "S28-A1-TEST-20261017",
+      "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+      "receipt": "reports/topview-queue-2026-10-16/S28-A1-TEST-20261017-20261023.json"
+    }
+  ],
+  "last_live_scan": {
+    "at": "2026-10-23T01:59:48.572Z",
+    "boards": 13,
+    "pages": 19,
+    "total": 932,
+    "scan_complete": true,
+    "active": [
+      {
+        "id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "56e5e07c85df4af583c62665c51ed563",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "af8e389dc9564607bc6138b408c72da5",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "6598a21c2c684d43b7cede9cfc987107",
+        "status": "init",
+        "credits": 0
+      },
+      {
+        "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+        "status": "init",
+        "credits": 0
+      }
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0
+  },
+  "automation_verified": true,
+  "ui_proof": {
+    "library_file_id": "libfile_bc44a39b08848191aa4b1c872ad3f88f",
+    "file_id": "file_000000001fd081f6985fe975691f5bc1",
+    "path": "/AI Film Серёгиус/52-and-28-submitted.jpg"
+  },
+  "next_action": "6/6 slots occupied. On each free slot run next ready authorized item by canonical priority; skip blocked inputs without reserving a slot. Selected49A-F,50A/B,51A are waiting;52P2 requires actual52P1 end and51B actual51A end. Do not repeat submitted52P1 or28A1. Raznoe paused."
 }
