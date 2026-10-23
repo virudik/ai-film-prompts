@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T00:36:56.248Z",
+  "updated_at": "2026-10-23T00:37:42.062Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4320,7 +4320,7 @@
       "canonical_prompt_sha256": "da6486dbbf12cd1aac8b757b7db7b0a9ff1145c8dfc1bd39bf862783bb9a1fff",
       "normalized_prompt_sha256": "55e4827d746b6f4c31362eb33b82c95b8d621084cf4edd9527e59baa11779eb7",
       "priority": 6.1,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4375,7 +4375,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "790a7017632045a58d83ccc0891c44ac",
       "claim": {
         "run_id": "seregius-only-20261023-S40P2",
         "claimed_at": "2026-10-23T00:36:56.248Z",
@@ -4419,7 +4419,14 @@
       ],
       "blocker": null,
       "launch_readiness": "actual_continuity_input_verified",
-      "continuity_qc_report": "reports/topview-quality-2026-10-23/S40-SEED20-P1-review.json"
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S40-SEED20-P1-review.json",
+      "submitted_at": "2026-10-23 00:37:04Z",
+      "receipt": "reports/topview-queue-2026-10-16/S40-SEED20-P2-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
     },
     {
       "id": "S42-SEED20-P1",

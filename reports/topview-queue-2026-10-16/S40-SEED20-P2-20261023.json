@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "item_id": "S40-SEED20-P2",
+  "task_id": "790a7017632045a58d83ccc0891c44ac",
+  "project": "seregius",
+  "submitted_at": "2026-10-23 00:37:04Z",
+  "verified_at": "2026-10-23T00:37:42.062Z",
+  "status": "init",
+  "source": "one Topview website Create click",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "credits_cost": 0,
+  "use_unlimited_mode": true,
+  "canonical_block_label": "40 · Seedance 2.0 часть 2",
+  "canonical_prompt_sha256": "da6486dbbf12cd1aac8b757b7db7b0a9ff1145c8dfc1bd39bf862783bb9a1fff",
+  "normalized_prompt_sha256": "55e4827d746b6f4c31362eb33b82c95b8d621084cf4edd9527e59baa11779eb7",
+  "full_normalized_prompt_match": true,
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/5PZ1gYWQGehomf4ZzxHzx.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/SsNCRNHJaoMqc6xdH2o75.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/KpfW57j8mpfK3rDuKcsEz.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action dark space-fantasy, fast aerial action into a tense stop | Part 2 of 2: knife-edge pass between two colossal hooded statues, hard flare landing on the temple plaza, Serega freezes at an unseen saber hum\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — the last seconds of Part 1's result: the craft diving through orange haze toward the two colossal hooded statues. Absolute authority for the START STATE, the craft's position, direction and the light.\n<<<Image1>>>  — absolute identity of SEREGA.\n<<<Image2>>>  — the exact ancient ruin city: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, broken pillars, golden-orange sunset haze. Architecture, palette and light of the landing site.\n<<<Image3>>>  — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.\nPriority: <<<Video1>>>  controls the start; <<<Image1>>>  controls Serega's face and costume; <<<Image3>>>  the hull; <<<Image2>>>  the ruins.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\n<<<Image1>>>  is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight but intact; a lightsaber hilt hangs at his belt. He is the only person in the scene. No cats, Jedi, Sith or droids. His face is shown only in the final shot, medium framing, even sunset light.\n\nVEHICLE / LANDING LOCK — CRITICAL:\nThe same craft as in <<<Video1>>>  and <<<Image3>>> : same silhouette, colour, engine glow and scale. Access only through its single side hatch with a short fold-down boarding ramp. One knife-edge pass between the statues and one hard landing on its landing gear; it never touches a statue and is never damaged. No other ships, no crash, no cockpit shots in this part.\n\nLOCATION LOCK:\nA dry, dusty canyon world with the ruin city of <<<Image2>>> ; fine dust and rare ember-like sparks drift near the ground. Two colossal hooded statues stand close together at the edge of the temple plaza with a narrow gap between them. No lava, vegetation or water.\n\nSTART STATE:\nExactly the last frame of <<<Video1>>> : the craft diving fast toward the two colossal hooded statues above the ruin city in orange sunset haze.\n\nTIMELINE:\n[0:00–0:04] — KNIFE-EDGE\nContinuing <<<Video1>>> , then a cut to a low wide angle on the plaza looking up into the narrow gap between the statues: the craft rolls ninety degrees onto its side and screams through the gap, wingtips metres from the carved hoods, and roars just over the camera; whip-pan with it. Grit showers from the statues' shoulders.\n\n[0:04–0:08] — HARD FLARE\nContinuous with the whip-pan: the craft snaps level, flares nose-up with engines blasting downward and drops onto its landing gear on the dusty stone plaza at the foot of the wide temple stair with a heavy jolt. A ring of dust bursts outward toward camera; engines spool down.\n\n[0:08–0:15] — NOT ALONE\nCut to medium-wide frontal through swirling dust: the side hatch drops open, the short ramp slaps down. Serega strides briskly down it and takes three quick steps toward the stair, then stops dead: a low lightsaber ignition hum sounds off-screen ahead. Push in to a medium shot, even light on his face for the last three seconds: eyes narrow, he looks hard ahead past the camera toward the top of the steps; his hand goes to the hilt at his belt without drawing it. Hold.\n\nEND STATE:\nSerega stands alone on the dusty plaza in front of his parked craft, looking ahead off-screen toward the top of the temple stair, hand on the unlit hilt, dust drifting in the sunset light. Nobody else is visible.\n\nCAMERA / SPACE:\nTwo motivated action cuts (into the low statue angle and into 0:08). Screen direction continues <<<Video1>>> . Low angles for the statues' scale, one fly-by over the camera, one whip-pan on motion; the final frontal shot is stable. Never reveal what he is looking at.\n\nPERFORMANCE:\nFace cool and serious, movements fast and decisive; at the hum an instant alert stillness, not fear. No speech, no smile, no look into the lens.\n\nLIGHTING / MATERIALS:\nLow golden-orange sunset through dusty air, long statue shadows on weathered ochre stone, warm glints on the dark-grey hull, backlit dust after the landing.\n\nAUDIO:\nDoppler howl as the craft knifes past the statues and over the camera, falling grit, the heavy jolt of the gear, engines spooling down, hatch hiss and ramp clank, quick footsteps on grit, then one low lightsaber ignition hum off-screen ahead and wind across stone. No dialogue, narrator or music.\n\nNEGATIVE PROMPT:\ncats, Jedi, Sith, any other person, revealing the source of the saber hum, ignited saber in Serega's hand, craft clipping a statue, ship damage, crash, second ship, cockpit interior, temple interior, ancient computer, lava, vegetation, water, map module, hologram, new ship design, melting or morphing face, tiny unrecognisable face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/yKqJ7d1wUs2sZqOK4MnkS.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "790a7017632045a58d83ccc0891c44ac",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "inputs": [
+    {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S40-SEED20-P1",
+      "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+      "path": "references/scenes/scene-40/S40-P1-last3s-20261023.mp4",
+      "sha256": "50ff924777368a960e8f38488056553c933bc3672c55871c743456f0810cabb6",
+      "duration_seconds": 3,
+      "source_task_id": "1751294fbf5f49dbb00a0f44401486ca",
+      "source_archive_file_id": "1YgnDvlYvzcwvZETY0mcHX8em44QsWTyc",
+      "source_range_seconds": [
+        12.041666666666666,
+        15.041666666666666
+      ],
+      "qc_status": "usable_continuity_input_not_editorial_approval",
+      "provenance_report": "reports/topview-quality-2026-10-23/S40-SEED20-P1-review.json"
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "ui_evidence": "reports/evidence/S40-P2-submitted-20261023.jpg",
+  "artistic_approval": false
+}
