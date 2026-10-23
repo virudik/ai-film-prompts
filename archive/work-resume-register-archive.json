@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
+  "completed_work": [
+    {
+      "work_id": "FILM-20261020-STORY-ACTIVITY-AUDIT",
+      "title": "Аудит активности остальных 54 сюжетных промптов: предложения",
+      "status": "completed",
+      "verified_at": "2026-10-19T22:54:14.950Z",
+      "owner_instruction": "20.10.2026 01:24 МСК: Можно проверить и предложить сделать сцену более активной где это покажется необходимым",
+      "source_master_blob": "495a1905ad2ed941f14ae2b9a9b4fc10224ace3e",
+      "done": [
+        "Проверены действие, тайминг, исполнение и ограничения всех54 остальных текстов18сцен;38 танцевальных/музыкальных относятся к предыдущей завершённой редактуре.",
+        "Подготовлены адресные предложения:56 финальная стойка;48 ловля модуля;42 живое усилие при сохранении гэга;33/54 необязательное уплотнение;16 только резервная заметка, сцена принята.",
+        "Сохранены намеренные паузы13/36/43/44/55, настороженный финал40 и показ записки в перелётах. Master и очередь при повторном чтении имеют те же git-blob, что в начале аудита.",
+        "Промпты/manifest/референсы/задачи не менялись; новых генераций и расходов нет. Это оценка текста, без нового просмотра видео и live-скана Topview.",
+        "20Oct01:32 owner authorized worm/battle revisions;12blocks16/42/56/48 implemented in FILM-20261020-WORM-SEEDANCE. Optional33/54 suggestions not applied."
+      ],
+      "next_actions": [
+        "Получить решение владельца по конкретным предложениям отчёта; до этого не применять их к master/очереди.",
+        "При последующей разрешённой правке — свежие main, lock, precheckpoint, согласование всех затронутых вариантов/стыков и SHA только будущих пунктов."
+      ],
+      "constraints": [
+        "Аудит и предложения, без изменения промптов, очереди, референсов, отправок и расходов.",
+        "Сохранить сюжетную тишину, комедийные паузы, диалоги и continuity."
+      ],
+      "pre_checkpoint_commit": "3575935feb2343526de6ea9698f5d651459f5247",
+      "report": "reports/story-activity-audit-2026-10-20.md"
+    },
+    {
+      "work_id": "FILM-20261018-SUNO-TWO",
+      "title": "Warcraft и структура референса: две новые песни",
+      "status": "completed",
+      "verified_at": "2026-10-17T23:59:00.683Z",
+      "done": [
+        "Оба текста/Styles сохранены",
+        "Warcraft: точная форма,3:40, одинCreate",
+        "Warcraft: два полных результата3:40/3:39",
+        "Мне домой: форма сверена,3:34, одинCreate23:49:28.977UTC",
+        "18Oct02:58МСК: все4версии песен готовы,8полных результатов V6-MINI. «Я ненадолго»5:31/5:33; короткая3:39/3:39; «Дайте мне в Варкрафт»3:40/3:39; «Мне домой»3:34/3:34. ПоследниеID e431d61b-3adb-4f0b-88d6-15aa21d541d4 и5119841c-23b9-471a-9f40-3151e3b0cf46. В текущем списке также6минутныхV6PREVIEW; их не считать полными песнями. CAPTCHA больше не блокирует, незавершённых авторизованных музыкальных запусков нет. Новые генерации не запускать без нового задания. Владелец выбирает после прослушивания; агент аудио не оценивал. ОчередьTopview в этом цикле не проверялась/не менялась."
+      ],
+      "blockers": [],
+      "next_actions": [
+        "Владелец прослушивает и выбирает; новых запусков не требуется."
+      ],
+      "canonical_refs": [
+        "music/seregius-daite-mne-v-warcraft.md",
+        "music/seregius-mne-domoi.md",
+        "reports/suno-two-versions-2026-10-18.json"
+      ]
+    },
+    {
+      "work_id": "FILM-20261018-SUNO-SHORT",
+      "title": "Короткая версия песни Серёгиуса",
+      "status": "completed",
+      "verified_at": "2026-10-17T23:45:27.809Z",
+      "done": [
+        "Сокращены текст и структура; файл сохранён; Custom Duration3:40; форма сверена; один Create.",
+        "Два полных результата по3:39 подтверждены в Suno."
+      ],
+      "blockers": [],
+      "next_actions": [
+        "Владелец выбирает из двух готовых3:39"
+      ],
+      "canonical_refs": [
+        "music/seregius-ya-nenadolgo-short.md",
+        "reports/suno-short-attempt-2026-10-18.json"
+      ]
+    },
+    {
+      "work_id": "FILM-20261018-SUNO-SONG",
+      "title": "Песня Серёгиуса «Я ненадолго»",
+      "status": "completed",
+      "verified_at": "2026-10-17T23:27:19.157Z",
+      "authorization": "Owner18Oct02:06 asked to write film-story lyrics with Flares of the Blazing Sun reference and save in GitHub;02:08 asked about creation through Suno.",
+      "done": [
+        "Original Russian lyrics with Suno section tags and Styles prepared; current film decisions incorporated; screenshot reference identified.",
+        "Suno Create opened in built-in cloud browser and redirected to sign-in; no audio submission or spend.",
+        "Owner18Oct02:15 authorized launch; signed in; free v6-mini selected, exact full lyrics/styles verified, one Create23:18:27.828UTC. Cloudflare CAPTCHA blocks submission confirmation; no songID yet.",
+        "18.10.2026, около02:26МСК: CAPTCHA больше не блокирует. В Suno появились два полных результата V6-MINI: [5:31](https://suno.com/song/90e74195-917a-4c5a-a31a-54b41e2cf754) и [5:33](https://suno.com/song/46dfb6a8-af6d-4f67-962c-f3700c738755). Также видны два минутных V6 PREVIEW. Страницы полных песен открыты и проверены. Звучание ещё не оценено; нужен выбор владельца после прослушивания. Дополнительного Create агент не нажимал. Квитанция: reports/suno-song-attempt-2026-10-18.json.\n"
+      ],
+      "next_actions": [
+        "Владелец прослушивает два полных варианта и выбирает; качество ещё не оценивалось."
+      ],
+      "blockers": [],
+      "canonical_refs": [
+        "music/seregius-ya-nenadolgo.md"
+      ],
+      "constraints": [
+        "Do not modify film canon or replace49–51music without owner decision.",
+        "No subscription purchase or paid-credit spend without appropriate authorization; never claim original-track melody/structure was exactly reproduced."
+      ]
+    },
+    {
+      "work_id": "FILM-20261015-NEXT-B6",
+      "title": "Аудит референсов, инструкция веб-запуска и один следующий B6",
+      "status": "completed",
+      "verified_at": "2026-10-16T00:10:00Z",
+      "done": [
+        "47/47 уникальных изображений проверены по SHA256",
+        "B6: четыре исходника повторно просмотрены, промт совпал с manifest",
+        "При 5/6 занятых unlimited-слотах B6 единожды отправлен через авторизованный веб-Topview",
+        "Task 2bccc8a3521b411cb7bd51f9c8ba1119 подтверждён read-only: Wan 3.0, 30с, 720p, 16:9, 4 входа, unlimited=true, creditsCost=0",
+        "Полный нормализованный промпт совпал с master; receipt сохранён в reports/scene28-b6-launch-2026-10-16.json"
+      ],
+      "next_actions": [
+        "Не повторять B6; дождаться технического результата и отдельной редакционной оценки владельцем",
+        "Штатный робот обновляет телеметрию; approval/slow/heartbeat вручную не менять"
+      ],
+      "constraints": [
+        "Один B6, ноль кредитов, без MCP/Canvas submit",
+        "Не повторять A1/B1/A2/B2/B4/B5",
+        "Не менять approval/slow/роль робота"
+      ],
+      "canonical_refs": [
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "ops/pending-topview-launch.json",
+        "reports/reference-readiness-2026-10-15.md",
+        "reports/scene28-b6-launch-2026-10-16.json"
+      ],
+      "verification": {
+        "publication_commit": "8c31966e1462ae05a431fefbfa3632ad2a12b6ea",
+        "receipt_commit": "85d5551e424a213814cee216d53e9afbe9202fea",
+        "video_submission": "submitted and verified",
+        "active_slots_after": 6,
+        "free_slots_after": 0
+      },
+      "new_topview_task_ids": [
+        "2bccc8a3521b411cb7bd51f9c8ba1119"
+      ],
+      "submitted_variant": {
+        "variant": "B6",
+        "scene_id": 28,
+        "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
+        "model": "Wan 3.0",
+        "duration_s": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "credits_cost": 0,
+        "unlimited": true,
+        "submitted_at": "2026-10-16T00:09:14Z",
+        "status_at_verification": "init",
+        "prompt_sha256": "7d496352552b87c52ec2b13f401ab3902ccb822a72cafbaf92e5e53c02230dbc",
+        "prompt_match": "normalized full match with canonical master",
+        "reference_order": [
+          "H28B",
+          "masha-laguna",
+          "lesha",
+          "vitalik"
+        ]
+      }
+    },
+    {
+      "work_id": "FILM-20261016-S25-FORWARD-BATTLE",
+      "title": "Scene 25: окно, бой по курсу, нервные коты",
+      "status": "completed",
+      "verified_at": "2026-10-16",
+      "authorization": "Explicit owner request 16.10.2026 to add supplied frame to site and amend Scene 25 prompt",
+      "done": [
+        "Owner source preserved as web-optimized scene25 rear-forward window reference, exact cockpit @Image4 kept authoritative",
+        "Canonical Scene25 prompt revised for forward flight, camera-side identity continuity and feline combat vocals",
+        "Scene25 manifest + gallery + master updated together; no video launch, no spend"
+      ],
+      "next_actions": [
+        "Verify GitHub Pages deployment/read-back for Scene25 image and prompt",
+        "Future Topview rerender only on separate owner command"
+      ],
+      "canonical_refs": [
+        "video-prompts.md#scene-25",
+        "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp",
+        "references/scenes/scene-25/manifest.json",
+        "NEW-CHAT-HANDOFF.md"
+      ],
+      "constraints": [
+        "No new Scene ID, no model change, no automatic rerender or paid credits"
+      ]
+    },
+    {
+      "work_id": "FILM-20261015-DANCE-EXTRA",
+      "title": "Два дополнительных танца — B4/B5",
+      "status": "completed",
+      "verified_at": "2026-10-15T13:04:07Z",
+      "authorization": "Прямая команда владельца 15.10.2026 15:58 МСК: запустить ещё две оставшиеся части танца в свободные слоты.",
+      "done": [
+        "Выбраны независимые B4 (Паша/Саша) и B5 (Артём/Илюша); референсы H28B и точные individual sheets сверены",
+        "Оба запуска через веб-Topview подтверждены read-only API: Wan 3.0, 30с, 720p, 16:9, unlimited, creditsCost=0",
+        "Все шесть задач Scene 28 находятся в init; новые полные промты нормализованно совпали с master и штатным robot classifier"
+      ],
+      "new_topview_task_ids": [
+        "d3844e4199d64abebe323be430a5cb35",
+        "f88eee8ea93242309b71621e354ccac2"
+      ],
+      "submitted_variants": [
+        {
+          "variant": "B4",
+          "scene_id": 28,
+          "task_id": "d3844e4199d64abebe323be430a5cb35",
+          "model": "Wan 3.0",
+          "duration_s": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-15T13:01:27Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "67c8e28fb08d16faf42e04ecc769cfd7b0113e651f310e10f89cf9adb3d4c949",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28B",
+            "pasha",
+            "sasha"
+          ]
+        },
+        {
+          "variant": "B5",
+          "scene_id": 28,
+          "task_id": "f88eee8ea93242309b71621e354ccac2",
+          "model": "Wan 3.0",
+          "duration_s": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-15T13:02:41Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "d51440cf709f8831c1a1330c2b99cfc8e2453207c1f330ef7d858e36d8021963",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28B",
+            "artem",
+            "ilyusha"
+          ]
+        }
+      ],
+      "next_actions": [
+        "Не повторять A1/A2/B1/B2/B4/B5 — шесть задач уже отправлены",
+        "A3/B3 ждут реальный чистый C28 из части 2; другие части не запускать без команды владельца",
+        "Штатный робот должен принять B4/B5 при следующем скане; ручной heartbeat не писать"
+      ],
+      "canonical_refs": [
+        "reports/scene28-launch-2026-10-15.json",
+        "reports/evidence/scene28-six-slots-2026-10-15.jpg"
+      ],
+      "blockers": []
+    },
+    {
+      "work_id": "FILM-20261014-REFS-DANCE",
+      "title": "Принять изменения Клода, новые референсы, запуск танцев",
+      "status": "completed",
+      "verified_at": "2026-10-15T12:50:33Z",
+      "authorization": "Прямая команда владельца 14.10.2026 в текущем чате: принять изменения, создать фото и запустить танцы в свободные слоты по плану.",
+      "done": [
+        "Полный приём свежего main; preflight D7 15/15, исходные 138 тестов проходят",
+        "Созданы 3 фото helpers 36/37, визуальный QC, сохранены на Drive и в references; выгружены 2 настоящих кадра корабля/кабины и 35-секундный источник",
+        "Исправлены остаточные противоречия D7; исторические Scene IDs убраны из active списков персонажей с сохранением в variants",
+        "Подготовлены A1/A2/B1/B2 (fallback B1/B2/B4/B5) по точным текстам master",
+        "Сохранён и визуально проверен последний кадр Scene 35 (900/900) как кандидат для 38; Drive 1aJMkSYAVHBfip3Y_9g-GgkSg6zhQtiDL; текущая 38 не изменялась",
+        "Публикация референсов и правок подтверждена: commit 57faa5528249716760f12e4bf589e4e23beef065; 31/31 файлов Pages совпали побайтно; CI и Pages success",
+        "14.10.2026 через веб-Topview отправлены A1 (Seedance 2.0, 15с) и B1 (Wan 3.0, 30с): unlimited=true, creditsCost=0, 720p, 16:9; фактические промты нормализованно совпали с master",
+        "15.10.2026 отправлены A2 и B2 в веб-Topview: unlimited=true, creditsCost=0; все четыре фактических промта нормализованно совпали с master, robot classifier подтверждает Scene 28; proof сохранён",
+        "Штатный робот сам принял A2/B2: каноническая телеметрия 15.10 12:50:13 UTC подтверждает все 4 задачи Scene 28, 4/6 занятых слота; ручной heartbeat не использовался"
+      ],
+      "next_actions": [
+        "Не повторять A1/A2/B1/B2: все четыре запуска подтверждены; дождаться фактических результатов и отдельной оценки владельцем",
+        "A3/B3 возможны только после выбора чистого конечного кадра C28 из части 2 и команды владельца",
+        "Пакеты 36/37 ещё требуют выбранный конец Scene 17 и отдельный вид лесной планеты; это зависимости следующего этапа, не разрешение на запуск"
+      ],
+      "constraints": [
+        "Никаких платных Topview MCP/Canvas submit",
+        "Не дублировать 35/38; не объявлять запуск без task ID",
+        "A3/B3 только после фактического C28 из части 2",
+        "Не менять approval/slow автоматически"
+      ],
+      "new_topview_task_ids": [
+        "fec838b4f63b452c8c76fe50f8e0fdad",
+        "e471e35fc7454fe5a2a89e06fac3f122",
+        "721cfbef2af0479da57f0a52479d2f54",
+        "762b3091b3e44b8599a0a58b91a253c5"
+      ],
+      "canonical_refs": [
+        "reports/acceptance-and-references-2026-10-14.md",
+        "references/scenes/scene-36/manifest.json",
+        "references/scenes/scene-37/manifest.json",
+        "NEW-CHAT-HANDOFF.md",
+        "reports/scene28-launch-2026-10-15.json",
+        "reports/evidence/scene28-free-queue-2026-10-15.jpg"
+      ],
+      "blockers": [],
+      "recovered_local_commit": "8b8e51f",
+      "verification": {
+        "tests_passed": 144,
+        "site_contract": "passed",
+        "publication": "verified",
+        "publication_commit": "57faa5528249716760f12e4bf589e4e23beef065",
+        "pages_exact_files": "31/31",
+        "ci": "success",
+        "latest_observation": "GitHub robot canonical telemetry 2026-10-15T12:50:13Z: A1/A2/B1/B2 mapped to Scene 28; all init; occupied_slots=4, free_slots=2, project health=ok."
+      },
+      "submitted_variants": [
+        {
+          "variant": "A1",
+          "scene_id": 28,
+          "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
+          "model": "Seedance 2.0",
+          "duration_s": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-14T19:10:09Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "8c78e522a0b99d3f836f3c60415f5ab6a66314329869d8e9a4793e4b70cbf2a9",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28A",
+            "serega",
+            "yulya",
+            "H28B"
+          ]
+        },
+        {
+          "variant": "A2",
+          "scene_id": 28,
+          "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+          "model": "Seedance 2.0",
+          "duration_s": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-15T12:46:56Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "edd38979f7150a8ac681d5acb67a69453365619f38c3269dfe1b8650ab9368b5",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28B",
+            "serega",
+            "yulya",
+            "P28"
+          ]
+        },
+        {
+          "variant": "B1",
+          "scene_id": 28,
+          "task_id": "721cfbef2af0479da57f0a52479d2f54",
+          "model": "Wan 3.0",
+          "duration_s": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-14T19:11:19Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "bad367c25df2845e64727c9c08f2cbc407ca7a141e54912d6b1a4cbd6625bc0e",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28A",
+            "serega",
+            "yulya",
+            "H28B"
+          ]
+        },
+        {
+          "variant": "B2",
+          "scene_id": 28,
+          "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+          "model": "Wan 3.0",
+          "duration_s": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-15T12:47:47Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "a6f602b448ca0452f49183cbf35a5437ad02e3d9cf9b21efd32aa7dc870cc124",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28B",
+            "serega",
+            "yulya",
+            "P28"
+          ]
+        }
+      ]
+    }
+  ],
+  "trimmed_done": [
+    {
+      "work_id": "CONTINUE-001",
+      "done": [
+        "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
+        "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
+        "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161",
+        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
+        "18Oct04:53 resume: full read-only11board/17page/907task scan confirmed6/6 active; no launches. Seven instruction certificate hashes refreshed after handoff drift (882a0539); full editorial intake still pending. See reports/resume-2026-10-18-0453.json.",
+        "18Oct10:06MSK: S43-R1 submitted via free Topview website, task70ba69f8c44e4898ab587fbffeaeca01; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/17page/908task scan:6active,0free.",
+        "18Oct20:03MSK: S54 submitted via free Topview website, task1e4928fa04ed4a0396d1d2ea4f5934bb; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/16page/909task scan:6active,0free.",
+        "19Oct06:03MSK: S36 submitted exactly once via free Topview website, task e33891d4568a4a90b31ff3c67f5a7100; Wan3/30s/720p/16:9/qty1/6refs/Unlimited0. Canonical text and references verified; task readback differs only by Topview token padding around the @Image1–@Image3 en-dash. Post-submit full11board/16page/910task scan:6active,0free.",
+        "19Oct13:15MSK owner explicitly authorized44 BOTH Wan30s and Seedance2.0 2x15s. Existing exact master blocks/3image hashes verified; queue and manifest now contain3 bounded tasks. Preparation blocker removed, actual-video blockers retained. No submissions in this update.",
+        "19Oct13:22MSK: existing automation6acae6ab433481919e88665c520b8ef2 expanded and exact prompt readback verified; HH:55 unchanged. Maintenance09:55/14:55/20:55, open tasks chatgpt/any/claude, explicit Claude-only→needs_owner, GitHub error email diagnosis, Sunday08:55 cleanup. Topview blocker or completed queue does not disable maintenance; fresh main authoritative.",
+        "19Oct13:27MSK: owner required checkpoint BEFORE major tasks as well as after. Preliminary checkpoint committed3c4586c and read back before protocol edit. Explicit before/after rule added to ops/CONTINUE-PROTOCOL.md; same files/work ID, evidence and next action, no recursive checkpoints.",
+        "19Oct14:55MSK: complete Topview scan found 5 active Unlimited videos and one free slot. S37 Seedance2.0 settings and four exact input SHAs were verified, but cloud-browser import could not transfer supported files; no claim/Create/task/credits. Generation phase marked blocked_browser only.",
+        "19Oct14:55MSK maintenance: self-heal/project/canon healthy, no open owner tasks. First 7-day Gmail audit read 37 GitHub failure notices without modifying mail state; all Canon health, integration recovery, Topview robot and Drive archive failures were resolved by later successful Actions."
+      ]
+    },
+    {
+      "work_id": "FILM-20261015-ALL-READY",
+      "done": [
+        "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
+        "Новый вид лесной планеты и настоящий последний кадр результата 17 сохранены commit b2a780b37091d6fac319cbc1d9ba5e566557364d",
+        "36/37 подключены к шести реальным файлам каждый, READY; для 13 исправлена последовательная нумерация",
+        "Создана ограниченная очередь 16 следующих попыток; уже отправленные и принятые исключены",
+        "Публикация ca7b83669061e70c469f4c91523b46b61faa06a3; 13/13 файлов Pages совпадают, обе 36/37 READY, ревизия 16.10, health=ok; 144 теста прошли",
+        "То же задание расширено и включено; фактический запуск проверки 16.10 07:58 МСК, 6/6 слотов заняты; новых submit не было",
+        "Notion-указатель обновлён на очередь вместо старого одного B6",
+        "16.10 10:50 МСК полный скан 11 досок: B1 завершён, активных unlimited 5/6 и свободен 1 слот; B7 не отправлен — разрешённый cloud browser получил Topview Cloudflare Error 1010, платный/API обход не использован",
+        "17Oct owner story-first command applied: new corrected zero-credit43–46 attempts queued separately; review of old/new dances and actual43–46 results saved; fullscan12:41UTC six active, no new submit.",
+        "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved.",
+        "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
+        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate."
+      ]
+    },
+    {
+      "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
+      "done": [
+        "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
+        "40 added first among new scenes; dance prompts untouched.",
+        "B7 submitted once 17:26:19 UTC, task979f07acffe04750961515f4baf21a3f; full prompt match, Wan3/30s/720p/unlimited/0 credits. 6/6 slots occupied.",
+        "Shared shuttle43/44 close reference saved after QC;43 READY and queued;44 remains blocked on actual result43.",
+        "47: genuine final frame899 of archived Scene32 extracted and visually checked, saved with source SHA/provenance, mapped as Image6; READY and queued priority106. No Topview submission; six active slots.",
+        "Scene41: Actual film part1 11:22; whole grey wedge cruiser, superstructure, bridge spheres and lit hull openings visible; no people, no black frame, no AI replacement. Saved original frame/provenance/thumbnail, READY and queued. No generation.",
+        "Scene42: Genuine last decoded frame899/899 of accepted Scene16, source SHA verified. Three duelists crouch amid dust; Artem left, Serega centre, Ilyusha right; huge worm behind. Dust is native footage; individual sheets control identity. Saved original frame/provenance/thumbnail, READY and queued. No generation.",
+        "Scene39: Real camp shot from part2 14:16: two fish-filled imperial crates and caught fish by stone-ring fire. Use objects only, exclude both sleepers and night lighting. Actual shore geometry and sunset are separate Image4; no invented empty-film frame. Saved original frame/provenance/thumbnail, READY and queued. No generation.",
+        "49A–F: five prop-only photos QC passed and saved with original identity precedence; all six prompts READY and queued.",
+        "51A/B: original-cast pre-impact helper plus49A/B instrument photos linked; READY, queued after50 and51A respectively. Pose saved in commit73921df097e7ef5a56872fb92b64d22e2028a480.",
+        "50 remains DRAFT: image generator moderation_blocked, no asset or Topview submission.",
+        "Scene28 prompt bytes unchanged; six existing Topview tasks remain init. Historical rerun queue entries held under latest no-rerun instruction.",
+        "Git readback, Pages master and six new PNGs verified byte-identical; integration recovery tests/sync/Pages success; evidence reports/reference-readiness-2026-10-17.json. Existing hourly queue automation enabled and updated; no new Topview task while all six slots occupied.",
+        "Owner17.10 requested durable in-progress handoff checkpoints. Current completed/remaining plan, exact source/task IDs and recovery steps recorded in reports/current-work-checkpoint.md and top handoff block. Live Topview check still six init tasks; no submit.",
+        "17.10 full11-board572-video scan:6init, no free slots and no36/37 prompt matches/mapped tasks. Corrected mistaken rerun hold on36/37: restored first authorized submissions at220/221, dances first and37 after36. Full prompt/input hashes checked; no submit.",
+        "Owner repeated full reference task17.10: audited13scenes/40unique existing input files, Git/master/SHA and prompt hashes match; report reference-input-audit-2026-10-17.json. One calmer static-audience image request50 rejected output moderation_blocked again, no image or Topview launch.",
+        "Owner17.10: Scene46 satelliteABC reference created/QC/saved immediately (6249eea), linked as Image3 in master/manifest/queue; prompt hashes updated. All other prompt blocks unchanged; no video generation.",
+        "46: опубликованы спутники A/B/C и @Image3; публичные PNG/master совпали побайтно, Pages38983258900 success. Доказательство reports/scene46-satellites-verification-2026-10-17.json. По239метаданным старых изображений готовая аудитория50 вH28B не найдена;50 остаётсяDRAFT.",
+        "**Уточнение владельца17.10 02:58МСК — выполненный этап:** новая версия спутников46 по мотивам Ресурс-П/Канопус-В сохранена как `S46-roskotmos-resurs-kanopus.png` и подключена в @Image3; прежний файл сохранён. Первый корабль найден в Library, сохранён как `S45-roskotmos-ship-first-option.png` и показан кандидатом рядом со вторым; владелец выбирает, поэтому только45/46 удержаны `blocked_owner_decision`, остальные готовые сцены продолжаются. Для50 извлечён настоящий кадр12с из taskb60d82ff9ccf40d7a08d8cbe5e2e9ca7, добавлен как @Image3 только для внешности вуки. Готовая толпаH28B ещё нужна; DRAFT. Nano Banana на сайте не отправлена: локальный браузер timeout, облачный без входа. Промт сохранён `references/scenes/scene-50/S50-fans-image-prompt.txt`. Следующий шаг: безлимитная Nano Banana с H28B+этим кадром после доступности сайта; не создавать платный Canvas. Аудит усиления прочих рефов — `reports/reference-followup-2026-10-17.md`.",
+        "Владелец выбрал ПЕРВЫЙ корабль: подключён в45/46, выборочный hold снят. Задний ракурс выбранного корабля добавлен в45;49A получил отдельный игровой хват. Два новых кадра вуки от владельца сохранены оригиналами и подключены в50 как species-only @Image3/4; готовая толпаH28B ещё не заявляется. A1/B1 скачаны для разбора; промты28 не менялись, перезапусков нет. Следующее:49B–F игровые позы;51 исправить хват замаха на обе руки за гриф;43 шарнир;44/48/B3 требуют настоящие финалы43/42/B2. Все новые изображения — helpers с приоритетом исходных identity/дизайнов.",
+        "Постановочные референсы игры 49B,49C созданы, визуально проверены и подключены отдельными слотами в master/manifest/очереди. Это игровой хват, не замах; лица и точный дизайн инструментов по исходным рефам. Промты28 не менялись; новых видео submit нет. Остаток проверять по текущим manifest; общий49F, исправление51 и шарнир43 в работе.",
+        "Постановочные референсы игры 49D,49E созданы, визуально проверены и подключены отдельными слотами в master/manifest/очереди. Это игровой хват, не замах; лица и точный дизайн инструментов по исходным рефам. Промты28 не менялись; новых видео submit нет. Остаток проверять по текущим manifest; общий49F, исправление51 и шарнир43 в работе.",
+        "Постановочные референсы игры 49F созданы, визуально проверены и подключены отдельными слотами в master/manifest/очереди. Это игровой хват, не замах; лица и точный дизайн инструментов по исходным рефам. Промты28 не менялись; новых видео submit нет. Остаток проверять по текущим manifest; общий49F, исправление51 и шарнир43 в работе.",
+        "49A–F теперь имеют отдельные игровые постановки, включая полный ансамбль9+1+2.51A/B подключают новый S51-neck-grip-windup: ОБЕ руки за узкий гриф у головки, корпус поднят и ударяет пол первым; в51A прописан переход от игрового хвата к замаху. Старый ошибочный помощник оставлен в истории, в inputs не используется. Промты28 неизменны; разборA1/B1 отдельно, без rerun. Осталось43 шарнир, толпа50 по новым кадрам;44/48/B3 только настоящие финалы.",
+        "Первый корабль выбран и подключён45/46; задний ракурс45, игровые позы49A–E и полный состав49F, отдельный хват ОБЕИМИ руками за гриф для замаха51A/B, деталь шарнира43 готовы и подключены. Два кадра вуки владельца подключены50; подтверждены исходные Topview extract-task и SHA. Разбор готовых A1/B1: reports/dance-review-2026-10-17.md;28 не менялись, rerun нет. Референс толпы50 пока НЕ готов: сайт Nano Banana Pro16:9/2K, Unlimited free отказал17.10 01:14:09UTC из-за заполненных concurrent slots, task не создан, кредитов0. Подготовленный запрос и receipt сохранены.44/48/B3 требуют настоящие финалы43/42/B2.",
+        "17Oct05:29MSK resume: matched external existing tasks43/44/45/46 exactly and reconciled queue to prevent duplicates; robot terminal prompt-resolver fix prepared and27tests passed. No assistant paid generation. See reports/resume-2026-10-17-0530.json.",
+        "17Oct02:52UTC slot check: A2 task e471e35fc7454fe5a2a89e06fac3f122 reached success; active Unlimited count 5/6. B2 remains init, so B3 still blocked. B8 is next ready item. Scheduled environment could not submit: connected local browser unavailable and cloud Topview board showed Login. No claim/upload/Create/credits.",
+        "B8 отправлен17.10 03:06:04UTC через сайт Topview: task5333994f739f4a8b813a6a36dcb7e140, Unlimited=true,0credits,Wan3.0/30s/720p/16:9,4проверенных входа; полный нормализованный промт совпал с master. Claim закрыт submitted, повторять нельзя. A2 готова; B2/B4/B5/B6/B7/B8 занимают6слотов. Следующие B9→B10;B3 только после настоящего B2/C28. Робот восстановился: штатный цикл02:50:18UTC health=ok после fix549452b (27тестов). Вне этой сессии уже отправлены43/44/45/46, не дублировать; второй46 task07f5e7a57b484035a1cee4d5479b1474 также точно совпал с master и success, paid12 — только наблюдение, не наш запуск и не одобрение.43 готов: следующий шаг извлечь настоящий финальный кадр для44; существующий44 не перезапускать. Толпа50 ещё отсутствует,42→48 иB2→B3 ждут результатов. Фоновая автоматизация отключилась из-за отсутствия входа в своей среде; рабочий чат авторизован, это не подтверждает вход следующего фонового запуска.",
+        "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически. Файл references/scenes/scene-44/S44-start-from-S43-result.png; manifest/sourceSHA/thumb/master link saved. Automation resumed, same hourly schedule; scheduled-session access unverified.",
+        "17Oct06:59UTC: B2 task762b3091b3e44b8599a0a58b91a253c5 reached success at06:20:26UTC; live account now5/6 Unlimited. Scheduled environment has no authenticated owner Topview session, so the real result/C28 could not be downloaded or QC'd. No claim/upload/submit/credits.",
+        "17.10 после14:23МСК: полный скан11досок/898задач —4активных Unlimited,2свободных; B2 иB4success. C28 извлечён из финала B2, QC пройден, PNG/thumb/provenance/SHA/manifest/master ссылка сохранены; B3 разблокирован и следующий (priority5), затемB9. Промты28 не менялись. В рабочем браузере Topview авторизован; краткий Login при загрузке исчез после гидратации. Новых submit на этом checkpoint нет. Следующий шаг: B3 точные4входа→полный UI prompt match→CAS claim→один бесплатный submit→receipt, затемB9 при свободном слоте.50 остаётся в очереди подготовки;44continuity требует владельца,48ждёт42.",
+        "17Oct14:32MSK owner requested handoff. C28 from actual B2 saved in commit325b29d6e640ad0f07fb47af3d5525564e79a866, Pages exact SHA verified; B3 ready. B3/B9/B10 NOT submitted, no claim, no Create. Detailed transfer at top of existing checkpoint/handoff.",
+        "17.10 приём D7: 15/15, SHA 8 источников совпали; shared chat сверён с main. Полный скан 11 досок/17 страниц/898 задач: 4 активных Unlimited (B5–B8), 2 свободных. Проверены SHA всех входов B3/B9/B10 и полных промтов; точных нормализованных дублей нет. Локальный Chrome Topview авторизован. Выбраны Wan3/30s/720p/16:9/qty1/Безлимитный режим — бесплатно. Видимый Импорт успешно открыл filechooser (multiple=true), но setFiles заблокирован отсутствующим разрешением расширения Allow access to file URLs. Это конкретный блокер рабочего Chrome, не отсутствие входа. Ни один референс не загрузился; промт не вставлен; claim/Create/submit отсутствуют. Кредиты не потрачены. После включения разрешения владельцем: свежий main/слоты/решения, импорт B3, полный UI match, CAS-claim, один submit; затем B9/B10. Автоматика остаётся выключенной до восстановления импорта.",
+        "17.10 через встроенный браузер B3 отправлен один раз 12:00:12 UTC: task 56c0ea656f484b0cb8464233fe097e0d. Wan 3.0,30s,720p,16:9,qty1,Unlimited=true,creditsCost=0. Все четыре полных входа загружены в порядке manifest; SHA и полный нормализованный промпт совпали. CAS claim b04fe2b подтверждён перед единственным Create. Блокер импорта рабочего чата снят. До отправки полный скан11досок/17страниц/898задач:4active, дублей B3/B9/B10 нет. Далее B9 в оставшийся свободный слот; B10 после освобождения."
+      ]
+    },
+    {
+      "work_id": "FILM-20261017-OWNER-FIXES",
+      "done": [
+        "Prepared owner-directed revisions in canonical master with exact reference maps and finite free queue",
+        "20dance prompts updated; ONLY15s A1 new test authorized, B10 blocked_test_review",
+        "Three independent story bridges52/53/54 READY with existing exact identities and real source frames",
+        "Ship selected from successful45 video; FOUR engines retained45/46; asteroid field excluded",
+        "Actual room/desk frames saved for54; existing Warcraft game footage reused in edit",
+        "Primary-source Wan3.0/Seedance research saved; model equality and sole-cause claims rejected",
+        "Owner confirmed continuation; canonical master/refs/queue published and read back, CI148 tests and Pages passed; research report published through f105f84. Checkpoint refreshed without new generation.",
+        "17Oct16:54MSK owner requested inheritable autonomous continuation; explicit procedure added to handoff, project guide and continue protocol; same automation enabled verified, no duplicate task.",
+        "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved.",
+        "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
+        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate."
+      ]
+    },
+    {
+      "work_id": "FILM-20261020-WORM-SEEDANCE",
+      "done": [
+        "Свежие main/очередь/manifests прочитаны. Полный live-скан11досок/17страниц/911задач:5 активных Unlimited видео,1свободный слот. S55 success."
+      ]
+    }
+  ]
+}

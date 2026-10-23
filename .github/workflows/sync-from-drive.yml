@@ -241,7 +241,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -uo pipefail
-          git fetch -q origin main && git reset -q --hard origin/main || exit 0
+          # The job checkout is shallow (depth 1): without history the guard knows only the newest
+          # master and calls every older-but-genuine Drive copy "drift" (false issue #33, 22.10.2026).
+          git fetch -q --shallow-since="10 days ago" origin main && git reset -q --hard origin/main || exit 0
           curl -sL --fail --retry 3 "https://drive.usercontent.google.com/download?id=1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj&export=download&confirm=t" -o /tmp/drive-copy.md || { echo "Drive copy unreachable; skip"; exit 0; }
           if grep -qi '<!doctype html\|accounts.google.com' /tmp/drive-copy.md; then echo "Drive returned HTML; skip"; exit 0; fi
           python3 - <<'PY' > /tmp/drift.txt
@@ -250,7 +252,7 @@ jobs:
           if drive.startswith(b"\xef\xbb\xbf"):
               drive = drive[3:]
           h = hashlib.sha256(drive).hexdigest()
-          revs = subprocess.run(["git", "log", "-n", "60", "--format=%H", "--", "video-prompts.md"], capture_output=True, text=True).stdout.split()
+          revs = subprocess.run(["git", "log", "-n", "200", "--format=%H", "--", "video-prompts.md"], capture_output=True, text=True).stdout.split()
           known = set()
           for r in revs:
               b = subprocess.run(["git", "show", f"{r}:video-prompts.md"], capture_output=True).stdout

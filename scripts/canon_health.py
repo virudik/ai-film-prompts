@@ -28,6 +28,10 @@ INSTRUCTION_MAX_BYTES = 60_000
 NOW_BLOCK_MAX_DAYS = 3
 OPS_REVIEW_DAYS = 14
 TASK_MAX_DAYS = 3
+# Service files of the agents (owner decision 23.10.2026): they only grow; the weekly cleanup trims them
+# with scripts/trim_service_files.py. Over the limit = warn, so the cleanup also runs outside Sunday.
+SERVICE_FILES_MAX_BYTES = {"reports/current-work-checkpoint.md": 80_000, "work-resume-register.json": 100_000,
+                           "ops/topview-launch-queue.json": 400_000}
 # Names that live outside the repository (generated Project files / Library copies) or are mentioned as removed.
 EXTERNAL_REFS = {"00-START-HERE.md", "CHARACTERS.md", "CURRENT-STATE.json", "CURRENT-STATE.md", "READ-FIRST.txt",
                  "SHIFT-HANDOFF.md", "SITE-STATUS.md", "TAKEOVER-BRIEF.md", "PROGRESS.md", "claude/CURRENT-STATE.md"}
@@ -199,6 +203,17 @@ def check(root, now):
         if plock.get("state") == "held" and pexp and now - pexp > timedelta(hours=2):
             add("info", "lock-expired", f"{name}: замок проекта ({plock.get('holder')}) истёк {pexp:%d.%m %H:%M} UTC "
                 "и не снят; он считается свободным, но запись стоит убрать.", pr.get("lock"))
+
+    # 8. Service files (checkpoint, resume register, launch queue) of every project must stay trimmed
+    bases = [""] + [str(pr.get("root") or "").strip("/") + "/" for pr in reg.get("projects", [])
+                    if str(pr.get("root") or ".").strip("/") not in ("", ".")]
+    for base in bases:
+        for rel, limit in SERVICE_FILES_MAX_BYTES.items():
+            t = read(root, base + rel)
+            if t is not None and len(t.encode("utf-8")) > limit:
+                add("warn", "service-file-size", f"{base + rel}: {len(t.encode('utf-8')) // 1000} КБ (предел {limit // 1000} КБ): "
+                    "старые записи перенести в архив — python3 scripts/trim_service_files.py . --write "
+                    "(раздел хендофа «Как чистить», п. 8).", base + rel)
 
     warn = sum(p["level"] == "warn" for p in problems)
     return {"schema_version": 1, "checked_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),

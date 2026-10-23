@@ -51,7 +51,7 @@ Workflow (`.github/workflows/`):
 
 Внешний запуск, токен и запасные расписания — `SYNC-RUNBOOK.md` «Запуск автоматики снаружи»; SQL без секретов — `ops/supabase/`; справка — `ops/ROBOT-TRIGGER.md`.
 
-Ключевые скрипты: `scripts/cert_github.py` (сертификат инструкций), `scripts/monitor_role.py` (роль писателя: `claude` / `chatgpt` / `robot`), `scripts/monitor_status.py` (честная запись цикла), `scripts/master_scene_edit.py` (правка блока сцены), `scripts/master_slow_edit.py` (минимальная правка slow-меток и таблицы; одна метка на сцену), `scripts/topview_prompt_match.py` (привязка задача → сцена только по точному или нормализованному совпадению промта), `scripts/canon_lock.py` (замок канона), `scripts/continue_preflight.py` (проверка перед «Продолжай»).
+Ключевые скрипты: `scripts/cert_github.py` (сертификат инструкций), `scripts/monitor_role.py` (роль писателя: `claude` / `chatgpt` / `robot`), `scripts/monitor_status.py` (честная запись цикла), `scripts/master_scene_edit.py` (правка блока сцены), `scripts/master_slow_edit.py` (минимальная правка slow-меток и таблицы; одна метка на сцену), `scripts/topview_prompt_match.py` (привязка задача → сцена только по точному или нормализованному совпадению промта), `scripts/canon_lock.py` (замок канона), `scripts/continue_preflight.py` (проверка перед «Продолжай»), `scripts/trim_service_files.py` (недельный перенос старых записей checkpoint, register и очереди в `archive/`).
 
 ## Кнопки владельца
 
