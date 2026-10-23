@@ -1,8 +1,19 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T03:03:26.530Z",
+  "last_updated_at": "2026-10-23T03:39:37.210Z",
   "active_work": [
+    {
+      "work_id": "TOPVIEW-FRESHNESS-20261023",
+      "title": "Восстановить публикацию Topview и проверить общий экран изображений",
+      "status": "fix_validated_awaiting_live_cycle",
+      "updated_at": "2026-10-23T03:39:37.210Z",
+      "next_action": "Verify real robot publish and Pages, record evidence and release canon lock. Native Images UI blocked by browser host policy; do not claim verified.",
+      "canonical_refs": [
+        "ops/ROBOT-TELEMETRY.md",
+        "reports/current-work-checkpoint.md"
+      ]
+    },
     {
       "work_id": "PROJECT-AUDIT-20261023",
       "title": "Сверка прерываний, изображений и дублей автоматизации",

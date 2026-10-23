@@ -80,6 +80,29 @@ class PromptMatch(unittest.TestCase):
         self.assertEqual(pm.classify(edited, BLOCKS)[:2], (SINGLE, "high"))
         self.assertEqual(pm.classify("A cat walks along a wall.", BLOCKS)[1], "low")
 
+    def test_slash_padding_only_between_reference_tokens(self):
+        self.assertEqual(pm.normalise("<<<Image3>>> /<<<Image4>>> identities"),
+                         pm.normalise("@Image3/@Image4 identities"))
+        self.assertEqual(pm.normalise("@Video1 / @Audio2 / @Image3"),
+                         pm.normalise("@Video1/@Audio2/@Image3"))
+        for changed in ("@Image4/@Image3", "@Image3/@Image5", "@Image3–@Image4"):
+            self.assertNotEqual(pm.normalise(changed), pm.normalise("@Image3/@Image4"))
+        self.assertNotEqual(pm.normalise("left /right"), pm.normalise("left/right"))
+        self.assertNotEqual(pm.normalise("@Image3 / helper"), pm.normalise("@Image3/helper"))
+
+    def test_s58_submission_receipt_resolves_without_lowering_match_threshold(self):
+        import robot_telemetry as rt
+        receipt = json.loads((ROOT / "reports/topview-queue-2026-10-16/S58-SEED20-P1-20261023.json").read_text())
+        prompt = receipt["parameters"]["positivePrompt"]
+        label = "58 · Seedance 2.0 часть 1"
+        # A real provider serialization previously blocked every telemetry publish.
+        self.assertEqual(pm.classify(prompt, BLOCKS)[:2], (label, "normalized"))
+        resolver = rt.make_resolver(lambda tid: (prompt, "Seedance 2.0"))
+        self.assertEqual(resolver(receipt["task_id"], MASTER, {58})["label"], label)
+        altered = prompt.replace("No explosion in this part.", "An explosion in this part.")
+        self.assertIsNone(rt.make_resolver(lambda tid: (altered, "Seedance 2.0"))(receipt["task_id"], MASTER, {58}))
+        self.assertIsNone(resolver(receipt["task_id"], MASTER, {57}))
+
     def test_main_prints_only_task_id_scene_and_confidence_and_uses_get_detail_only(self):
         fake = Fake({"a" * 32: dict(BLOCKS)[SINGLE]})
         out = io.StringIO()

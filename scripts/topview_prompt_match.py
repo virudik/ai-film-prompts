@@ -91,8 +91,9 @@ def normalise(s):
     s = re.sub(r"<<<\s*(Image|Video|Audio)\s*(\d+)\s*>>>", lambda m: "@" + m.group(1).capitalize() + m.group(2), s, flags=re.I)
     s = re.sub(r"@(image|video|audio)\s*(\d+)", lambda m: "@" + m.group(1).capitalize() + m.group(2), s, flags=re.I)
     s = re.sub(r"\s+", " ", s).strip()
-    # Topview also pads a token next to a dash: "@Image1 –@Image3" for canonical "@Image1–@Image3".
-    s = re.sub(r"(@(?:Image|Video|Audio)\d+) ?([–—]) ?(?=@(?:Image|Video|Audio)\d)", r"\1\2", s)
+    # Topview pads separators BETWEEN reference tokens: "@Image1 –@Image3" or
+    # "@Image3 /@Image4". Preserve the separator, token IDs/order and all prose.
+    s = re.sub(r"(@(?:Image|Video|Audio)\d+) ?([–—/]) ?(?=@(?:Image|Video|Audio)\d)", r"\1\2", s)
     return re.sub(r"\(\s+", "(", re.sub(r"\s+([,);.:])", r"\1", s))   # Topview pads image tokens: "<<<Image1>>> ,"
 
 
