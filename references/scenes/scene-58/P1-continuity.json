@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "scene_id": 58,
+  "prepared_at": "2026-10-23T21:52:22.645409Z",
+  "source": {
+    "task_id": "6598a21c2c684d43b7cede9cfc987107",
+    "status": "success",
+    "resource_id": "55cbe753ded44690b3f977e0fc3236f4",
+    "original_sha256": "c57912f45b2864e00cbe4b2f5190d9bfcc895b2bf280cb2998a395e6791b4a00",
+    "original_bytes": 11723054,
+    "backup_drive_file_id": "1aXAwnh8E3yxcpgiueGFmNXEh44znqLfr",
+    "video_frames": 361,
+    "fps": 24,
+    "video_duration_seconds": 15.041666667
+  },
+  "trim": {
+    "slot": "@Video1",
+    "required": true,
+    "canonical_role": "previous_part_end",
+    "input_status": "available",
+    "source_item_id": "S58-SEED20-P1",
+    "source_task_id": "6598a21c2c684d43b7cede9cfc987107",
+    "source_kind": "actual_topview_result_trim",
+    "library_file_id": "libfile_f09877860c448191864e81ccb549113b",
+    "filename": "S58-P1-last3s.mp4",
+    "sha256": "2f046a56149f4820268d198992938fbd1c484dfc4b14298e18f5d071dc0f9815",
+    "duration_seconds": 3,
+    "provenance_path": "references/scenes/scene-58/P1-continuity.json",
+    "assistant_qc": {
+      "status": "passed_for_continuation_input",
+      "checked_at": "2026-10-23T21:52:22.645409Z",
+      "method": "Whole source sampled1fps; final3seconds sampled4fps; exact full-size final frame.",
+      "observations": [
+        "Exactly two cats, Luchik screen-left and Ryzhik screen-right, running toward camera away from burning wreck.",
+        "Natural four-legged motion, no visible injury or extra people/cats in sampled ending.",
+        "Ochre ruins and golden-orange sunset retained; wreck stays behind.",
+        "No main explosion yet. The next side tracking view can reveal the obstacle ahead."
+      ],
+      "limitations": "Sampled visual continuity review only, not continuous audiovisual playback or frame-by-frame QA. Fur appears less long than identity sheets. Future generated join and artistic approval remain unverified.",
+      "owner_approval": "not_recorded"
+    },
+    "source_frame_start_inclusive": 289,
+    "source_frame_end_inclusive": 360,
+    "source_start_seconds": 12.041666667,
+    "source_end_seconds": 15.041666667,
+    "frame_count": 72,
+    "width": 1280,
+    "height": 720,
+    "audio": "AAC from same source interval; not auditioned"
+  },
+  "final_frame": {
+    "path": "references/scenes/scene-58/S58-P1-final.jpg",
+    "sha256": "e935288a4918892e8840a954bc62cc0edafe11bbc2d54711d0cdd5432b3868d5",
+    "source_frame_index": 360,
+    "source_time_seconds": 15,
+    "width": 1280,
+    "height": 720
+  },
+  "assistant_qc": {
+    "status": "passed_for_continuation_input",
+    "checked_at": "2026-10-23T21:52:22.645409Z",
+    "method": "Whole source sampled1fps; final3seconds sampled4fps; exact full-size final frame.",
+    "observations": [
+      "Exactly two cats, Luchik screen-left and Ryzhik screen-right, running toward camera away from burning wreck.",
+      "Natural four-legged motion, no visible injury or extra people/cats in sampled ending.",
+      "Ochre ruins and golden-orange sunset retained; wreck stays behind.",
+      "No main explosion yet. The next side tracking view can reveal the obstacle ahead."
+    ],
+    "limitations": "Sampled visual continuity review only, not continuous audiovisual playback or frame-by-frame QA. Fur appears less long than identity sheets. Future generated join and artistic approval remain unverified.",
+    "owner_approval": "not_recorded"
+  },
+  "canonical_p2_prompt_unchanged": true,
+  "owner_approval": "not_recorded"
+}

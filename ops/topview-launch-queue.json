@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T21:26:54.103042Z",
+  "updated_at": "2026-10-23T21:52:22.645409Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5640,7 +5640,7 @@
       "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
       "normalized_prompt_sha256": "fe800e723b4b3355ca6febe6901aaad3237b43a9f62eeafaef5edf776f773abe",
       "priority": 0.1,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5661,9 +5661,28 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S58-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_task_id": "6598a21c2c684d43b7cede9cfc987107",
+          "source_kind": "actual_topview_result_trim",
+          "library_file_id": "libfile_f09877860c448191864e81ccb549113b",
+          "filename": "S58-P1-last3s.mp4",
+          "sha256": "2f046a56149f4820268d198992938fbd1c484dfc4b14298e18f5d071dc0f9815",
+          "duration_seconds": 3,
+          "provenance_path": "references/scenes/scene-58/P1-continuity.json",
+          "assistant_qc": {
+            "status": "passed_for_continuation_input",
+            "checked_at": "2026-10-23T21:52:22.645409Z",
+            "method": "Whole source sampled1fps; final3seconds sampled4fps; exact full-size final frame.",
+            "observations": [
+              "Exactly two cats, Luchik screen-left and Ryzhik screen-right, running toward camera away from burning wreck.",
+              "Natural four-legged motion, no visible injury or extra people/cats in sampled ending.",
+              "Ochre ruins and golden-orange sunset retained; wreck stays behind.",
+              "No main explosion yet. The next side tracking view can reveal the obstacle ahead."
+            ],
+            "limitations": "Sampled visual continuity review only, not continuous audiovisual playback or frame-by-frame QA. Fur appears less long than identity sheets. Future generated join and artistic approval remain unverified.",
+            "owner_approval": "not_recorded"
+          }
         },
         {
           "slot": "@Image1",
@@ -5712,8 +5731,8 @@
       "task_id": null,
       "claim": null,
       "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
-      "blocker": "Actual ending of S58-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
       "created_at": "2026-10-19T23:43:06Z",
       "required_saved_reference_assets": [
         {
@@ -5742,7 +5761,8 @@
         "S48-SEED20-P2"
       ],
       "ordering_rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
-      "priority_before_20261023_primary": 4.31
+      "priority_before_20261023_primary": 4.31,
+      "continuity_prepared_at": "2026-10-23T21:52:22.645409Z"
     },
     {
       "id": "S28-A2-20261023",

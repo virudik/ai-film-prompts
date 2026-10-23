@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 58,
-  "updated_at": "2026-10-20T00:48:14.900872Z",
+  "updated_at": "2026-10-23T21:52:22.645409Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "reference_images_ready",
   "references": [
@@ -260,6 +260,38 @@
         1672,
         941
       ]
+    },
+    {
+      "path": "references/scenes/scene-58/S58-P1-final.jpg",
+      "asset_id": "references/scenes/scene-58/S58-P1-final.jpg",
+      "sha256": "e935288a4918892e8840a954bc62cc0edafe11bbc2d54711d0cdd5432b3868d5",
+      "media_type": "image",
+      "role": "actual_P1_final_frame_provenance",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "extracted_actual_video_frame",
+        "source_task_id": "6598a21c2c684d43b7cede9cfc987107",
+        "source_frame_index": 360,
+        "record_path": "references/scenes/scene-58/P1-continuity.json"
+      },
+      "assistant_qc": {
+        "status": "passed_for_continuation_input",
+        "checked_at": "2026-10-23T21:52:22.645409Z",
+        "method": "Whole source sampled1fps; final3seconds sampled4fps; exact full-size final frame.",
+        "observations": [
+          "Exactly two cats, Luchik screen-left and Ryzhik screen-right, running toward camera away from burning wreck.",
+          "Natural four-legged motion, no visible injury or extra people/cats in sampled ending.",
+          "Ochre ruins and golden-orange sunset retained; wreck stays behind.",
+          "No main explosion yet. The next side tracking view can reveal the obstacle ahead."
+        ],
+        "limitations": "Sampled visual continuity review only, not continuous audiovisual playback or frame-by-frame QA. Fur appears less long than identity sheets. Future generated join and artistic approval remain unverified.",
+        "owner_approval": "not_recorded"
+      },
+      "dimensions": [
+        1280,
+        720
+      ]
     }
   ],
   "identity_refs": [
@@ -278,7 +310,35 @@
     "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
     "references/scenes/scene-58/S58-emblem-at-cats-paws.png"
   ],
-  "video_refs": [],
+  "video_refs": [
+    {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S58-SEED20-P1",
+      "source_task_id": "6598a21c2c684d43b7cede9cfc987107",
+      "source_kind": "actual_topview_result_trim",
+      "library_file_id": "libfile_f09877860c448191864e81ccb549113b",
+      "filename": "S58-P1-last3s.mp4",
+      "sha256": "2f046a56149f4820268d198992938fbd1c484dfc4b14298e18f5d071dc0f9815",
+      "duration_seconds": 3,
+      "provenance_path": "references/scenes/scene-58/P1-continuity.json",
+      "assistant_qc": {
+        "status": "passed_for_continuation_input",
+        "checked_at": "2026-10-23T21:52:22.645409Z",
+        "method": "Whole source sampled1fps; final3seconds sampled4fps; exact full-size final frame.",
+        "observations": [
+          "Exactly two cats, Luchik screen-left and Ryzhik screen-right, running toward camera away from burning wreck.",
+          "Natural four-legged motion, no visible injury or extra people/cats in sampled ending.",
+          "Ochre ruins and golden-orange sunset retained; wreck stays behind.",
+          "No main explosion yet. The next side tracking view can reveal the obstacle ahead."
+        ],
+        "limitations": "Sampled visual continuity review only, not continuous audiovisual playback or frame-by-frame QA. Fur appears less long than identity sheets. Future generated join and artistic approval remain unverified.",
+        "owner_approval": "not_recorded"
+      }
+    }
+  ],
   "approved": [],
   "rejected": [],
   "topview_source_provenance": null,
@@ -423,7 +483,7 @@
       "canonical_block_label": "58 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
       "local_numbering": true,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
       "slots": [
@@ -431,9 +491,28 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S58-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_task_id": "6598a21c2c684d43b7cede9cfc987107",
+          "source_kind": "actual_topview_result_trim",
+          "library_file_id": "libfile_f09877860c448191864e81ccb549113b",
+          "filename": "S58-P1-last3s.mp4",
+          "sha256": "2f046a56149f4820268d198992938fbd1c484dfc4b14298e18f5d071dc0f9815",
+          "duration_seconds": 3,
+          "provenance_path": "references/scenes/scene-58/P1-continuity.json",
+          "assistant_qc": {
+            "status": "passed_for_continuation_input",
+            "checked_at": "2026-10-23T21:52:22.645409Z",
+            "method": "Whole source sampled1fps; final3seconds sampled4fps; exact full-size final frame.",
+            "observations": [
+              "Exactly two cats, Luchik screen-left and Ryzhik screen-right, running toward camera away from burning wreck.",
+              "Natural four-legged motion, no visible injury or extra people/cats in sampled ending.",
+              "Ochre ruins and golden-orange sunset retained; wreck stays behind.",
+              "No main explosion yet. The next side tracking view can reveal the obstacle ahead."
+            ],
+            "limitations": "Sampled visual continuity review only, not continuous audiovisual playback or frame-by-frame QA. Fur appears less long than identity sheets. Future generated join and artistic approval remain unverified.",
+            "owner_approval": "not_recorded"
+          }
         },
         {
           "slot": "@Image1",
@@ -484,10 +563,10 @@
     }
   ],
   "site_published": true,
-  "last_qc_at": "2026-10-20T00:48:14.900872Z",
-  "last_qc_scope": "Owner chose first crash image; three stage-specific helpers generated separately, visually checked and saved before next generation. Exact identities/design stay authoritative; real P1 ending still mandatory for P2.",
+  "last_qc_at": "2026-10-23T21:52:22.645409Z",
+  "last_qc_scope": "Actual S58P1 ending prepared and sampled visually for S58P2; full provenance in P1-continuity.json. No editorial approval.",
   "remaining": [
-    "Actual S58-SEED20-P1 ending video for part2: save source/provenance/SHA and QC."
+    "Generate S58P2 through authorized Unlimited0 website route, then assess actual join and result."
   ],
   "technical_success_is_editorial_approval": false,
   "invariants": [
