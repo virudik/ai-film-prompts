@@ -1,8 +1,23 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T02:25:21.662Z",
+  "last_updated_at": "2026-10-23T02:34:15.473Z",
   "active_work": [
+    {
+      "work_id": "PROJECT-ORGANIZE-20261023",
+      "title": "Переименование Роскосмос, новое Разное, сортировка изображений и доски проектов",
+      "status": "in_progress",
+      "updated_at": "2026-10-23T02:34:15.473Z",
+      "next_action": "Complete image moves with stable Library IDs; rename human-facing old Raznoe to Roscosmos preserving raznoe paths; create misc project; save board routing, update existing automation, validate and verify site.",
+      "scope": "No video submissions; existing Seregius priorities and pauses preserved.",
+      "completed": [
+        "Four project folders created; old35-image folder moved/renamed to /AI Film/🚀 Роскосмос; Seregius Scene Reference Packs moved into its folder. No images regenerated."
+      ],
+      "canonical_refs": [
+        "projects/projects.json",
+        "projects/README.md"
+      ]
+    },
     {
       "work_id": "PROJECT-AUDIT-20261023",
       "title": "Сверка прерываний, изображений и дублей автоматизации",
