@@ -108,5 +108,15 @@
     "raznoe"
   ],
   "launch_order_note": "Если готовы элементы очередей нескольких проектов, а слот один: сначала проект выше в launch_order, внутри проекта — наименьший priority. Порядок меняет владелец («в проекте X запускать первым»).",
-  "detection_note": "Алиасы — подстроки в нижнем регистре (ё и е различаются как написаны, сравнение делает scripts/projects.py detect). «Коты», «РосКОТмос», «Лучик» есть и в Серёгиусе, поэтому проектом их не считать."
+  "detection_note": "Алиасы — подстроки в нижнем регистре (ё и е различаются как написаны, сравнение делает scripts/projects.py detect). «Коты», «РосКОТмос», «Лучик» есть и в Серёгиусе, поэтому проектом их не считать.",
+  "launch_scope_override": {
+    "updated_at": "2026-10-23T00:40:49.801Z",
+    "allowed_projects": [
+      "seregius"
+    ],
+    "owner_quote": "Разное не запускать. Сначала доделаем серёгиуса всего по плану",
+    "preserve_launch_order": true,
+    "raznoe_resume_requires": "New explicit owner decision",
+    "reason": "Owner directs completing Seregius before launching other projects."
+  }
 }

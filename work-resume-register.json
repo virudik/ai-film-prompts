@@ -1,8 +1,48 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T00:25:41.394Z",
+  "last_updated_at": "2026-10-23T00:40:49.801Z",
   "active_work": [
+    {
+      "work_id": "SEREGIUS-PLAN-20261023",
+      "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+      "status": "waiting_for_topview_results",
+      "updated_at": "2026-10-23T00:40:49.801Z",
+      "next_action": "Следить за5подтверждёнными бесплатными задачами. После success42P1 сохранить реальный QCконец→42P2→56P1/P2→48P1/P2, затем57/58 по явным зависимостям. Независимые47P2 и другие готовые — только по queue priority.44blockedна неверном крыле43; танцы после всех сюжетных результатов и ownerreview. Разное не запускать.",
+      "task_ids": [
+        "439dd6d829c64f16b6491e0177cc1619",
+        "790a7017632045a58d83ccc0891c44ac",
+        "7863a2b3e8e54ca8a5d37468fc77d49f",
+        "2175458eede64d0881ad70897155459a",
+        "a1ca4c36e31d45c5b4b72df7777d2592"
+      ],
+      "new_submissions": [
+        {
+          "item_id": "S39-SEED20-P2",
+          "task_id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+          "credits": 0,
+          "receipt": "reports/topview-queue-2026-10-16/S39-SEED20-P2-20261023.json"
+        },
+        {
+          "item_id": "S40-SEED20-P2",
+          "task_id": "790a7017632045a58d83ccc0891c44ac",
+          "credits": 0,
+          "receipt": "reports/topview-queue-2026-10-16/S40-SEED20-P2-20261023.json"
+        },
+        {
+          "item_id": "S53-SEED20-P2",
+          "task_id": "439dd6d829c64f16b6491e0177cc1619",
+          "credits": 0,
+          "receipt": "reports/topview-queue-2026-10-16/S53-SEED20-P2-20261023.json"
+        }
+      ],
+      "canonical_refs": [
+        "ops/topview-launch-queue.json",
+        "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
+        "reports/topview-quality-2026-10-23/review-summary.md"
+      ],
+      "automation_id": "6acae6ab433481919e88665c520b8ef2"
+    },
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
@@ -1386,16 +1426,20 @@
     },
     {
       "work_id": "RAZNOE-QUALITY-20261023",
-      "title": "Доработка Разного, свободные слоты по очереди и оценка",
-      "status": "in_progress",
-      "next_action": "После публикации входов отправить готовые S39-P2, S40-P2, S53-P2 по приоритетам и первый готовый Raznoe при свободном слоте; S44 blocked_continuity_qc: оба крыла подняты в реальном S43. Только free GUI, CAS и receipt.",
+      "title": "Разное:20сцен/60промтов/35референсов готовы; запуск запрещён владельцем",
+      "status": "prepared_launches_paused_by_owner",
+      "next_action": "Не запускать Разное. Сначала завершить весь Серёгиус по сохранённому плану. Все29пунктов Разного paused_by_owner; новый запуск только после явного решения владельца.",
       "canonical_refs": [
         "projects/raznoe/reports/current-work-checkpoint.md",
         "projects/raznoe/reports/quality-revision-2026-10-23.json",
         "reports/topview-quality-2026-10-23/review-summary.md",
         "ops/topview-launch-queue.json"
       ],
-      "content_commit": "30d271760603220b0c3f290bc9789822d75e7524"
+      "content_commit": "30d271760603220b0c3f290bc9789822d75e7524",
+      "owner_instruction": {
+        "at": "2026-10-23T00:40:49.801Z",
+        "text": "Разное не запускать. Сначала доделаем серёгиуса всего по плану"
+      }
     }
   ],
   "rules": [
