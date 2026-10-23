@@ -1,42 +1,42 @@
 {
-  "checked_at": "2026-10-22T08:38:15Z",
+  "checked_at": "2026-10-23T08:34:28Z",
   "mode": "sync",
   "summary": {
-    "written": 2,
-    "current": 8
+    "written": 6,
+    "current": 4
   },
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "34ff519bcbf9ae71d98f38063651f984613a1f7b81874723b8ab2d7f2b223bdd",
+      "github_sha256": "5ec7ba9e1e7ecc0021e5f324d74d603012fbfe1e806f6313145c6a0c21f38d13",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "34ff519bcbf9ae71d98f38063651f984613a1f7b81874723b8ab2d7f2b223bdd",
+      "drive_sha256": "5ec7ba9e1e7ecc0021e5f324d74d603012fbfe1e806f6313145c6a0c21f38d13",
       "status": "written",
-      "drive_modified": "2026-10-22T08:38:05.778Z"
+      "drive_modified": "2026-10-23T08:34:08.433Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "0d85337db2e5b9e5aa825f9e295deaaf29afa84929f90166726cacf44d29c1a4",
+      "github_sha256": "1c731e457e43c18e8f954580c59780d1d340fc7c9682d1a4b44002c075205107",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "0d85337db2e5b9e5aa825f9e295deaaf29afa84929f90166726cacf44d29c1a4",
+      "drive_sha256": "1c731e457e43c18e8f954580c59780d1d340fc7c9682d1a4b44002c075205107",
       "status": "written",
-      "drive_modified": "2026-10-22T08:38:09.418Z"
+      "drive_modified": "2026-10-23T08:34:13.174Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
-      "github_sha256": "2dbffced5a4231eb27d9bd1475cbc327b63b2c50c8736705e4fbbc51fa205e24",
+      "github_sha256": "67832b3ea70ddd89bbdfaacb1053b21196682bec8d52e3762d1e8bc70881566c",
       "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_sha256": "2dbffced5a4231eb27d9bd1475cbc327b63b2c50c8736705e4fbbc51fa205e24",
-      "status": "current",
-      "drive_modified": "2026-10-21T08:36:16.141Z"
+      "drive_sha256": "67832b3ea70ddd89bbdfaacb1053b21196682bec8d52e3762d1e8bc70881566c",
+      "status": "written",
+      "drive_modified": "2026-10-23T08:34:15.480Z"
     },
     {
       "name": "AI-PROJECT-GUIDE.md",
-      "github_sha256": "39ebed74e4a6bcd1b20cfb9d3378fc8de9b6a5459196d6737eb5ab443a485edd",
+      "github_sha256": "85dcec9db1d62abecade19eabd17a5c6052c200c0c494b0e564c2f87c0dc61c9",
       "file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_sha256": "39ebed74e4a6bcd1b20cfb9d3378fc8de9b6a5459196d6737eb5ab443a485edd",
-      "status": "current",
-      "drive_modified": "2026-10-20T08:34:05.399Z"
+      "drive_sha256": "85dcec9db1d62abecade19eabd17a5c6052c200c0c494b0e564c2f87c0dc61c9",
+      "status": "written",
+      "drive_modified": "2026-10-23T08:34:18.442Z"
     },
     {
       "name": "PROMPT-STYLE-GUIDE.md",
@@ -48,11 +48,11 @@
     },
     {
       "name": "USER-GUIDE.md",
-      "github_sha256": "5e9481a81f8187dad6064c962faef58c74e24e0b466ed4bbb3cf63216d0f0578",
+      "github_sha256": "fdf69c01f28c16424c8b00821b0b3b33543907d7e7999c061fc5fb64cd9810be",
       "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_sha256": "5e9481a81f8187dad6064c962faef58c74e24e0b466ed4bbb3cf63216d0f0578",
-      "status": "current",
-      "drive_modified": "2026-10-21T08:36:19.662Z"
+      "drive_sha256": "fdf69c01f28c16424c8b00821b0b3b33543907d7e7999c061fc5fb64cd9810be",
+      "status": "written",
+      "drive_modified": "2026-10-23T08:34:22.796Z"
     },
     {
       "name": "README-AI-SYNC.md",
@@ -64,11 +64,11 @@
     },
     {
       "name": "BACKUP-AI-RUNBOOK.md",
-      "github_sha256": "2167ce1ba9077c141bb74e431ebfca3eac14865a01b62d647b76f07ff18eda0d",
+      "github_sha256": "448939a091b8611643b31836eb1497a8e49c6bce5ecf3456ae434f03860d67b7",
       "file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_sha256": "2167ce1ba9077c141bb74e431ebfca3eac14865a01b62d647b76f07ff18eda0d",
-      "status": "current",
-      "drive_modified": "2026-10-18T08:03:09.182Z"
+      "drive_sha256": "448939a091b8611643b31836eb1497a8e49c6bce5ecf3456ae434f03860d67b7",
+      "status": "written",
+      "drive_modified": "2026-10-23T08:34:25.899Z"
     },
     {
       "name": "film-backlog.md",
