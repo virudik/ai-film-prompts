@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T09:12:00Z",
+  "updated_at": "2026-10-23T09:14:49Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4778,7 +4778,7 @@
       "canonical_prompt_sha256": "6ca3ede5527f807dfec68ad02200531307e9efb0ffc67bcda55127ccb8c9ad58",
       "normalized_prompt_sha256": "27cbc48c01640d2403155d6d35d8047b44e7b2ad24e0cca0bd887c7b25fb450f",
       "priority": 2.1,
-      "state": "blocked_inputs",
+      "state": "completed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4836,7 +4836,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
       "claim": null,
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S42",
@@ -4844,8 +4844,19 @@
       "depends_on_completed": [
         "S42-SEED20-P1"
       ],
-      "blocker": "Existing S42-P2 variant bf27bb8615eb4ad5a44a86ec2efcd3be is already running. Its full prompt differs materially from current canonical P2; reconcile actual result before considering another submission.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": null,
+      "launch_readiness": "completed_external_variant_qc_failed_continuity",
+      "completed_at": "2026-10-23T08:33:58Z",
+      "result_reconciliation": {
+        "status": "completed_qc_blocked_continuity",
+        "canonical_prompt_match": false,
+        "note": "Already-submitted external P2 variant differs materially from the current canonical text. Do not duplicate. QC found four people in the final3s instead of exactly three, including an extra bald purple-robed figure with a blue blade. The genuine ending is preserved but blocked as S56 input; this is not owner artistic approval.",
+        "source_sha256": "35e6e25f856581cf9bb25c08925cc6d8fcb5063f3a372a09732976467f3721fa",
+        "archive_file_id": "1D-86VeGYe-FwP14v3W866vJqacUT2a0_",
+        "archive_url": "https://drive.google.com/file/d/1D-86VeGYe-FwP14v3W866vJqacUT2a0_/view",
+        "last_3_seconds_sha256": "32369ece9036ba8c41fe35ea5b0cf87858b948c5de97fe6742a60643103674ce",
+        "qc_report": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-review.json"
+      },
       "previous_prompt_sha256": [
         "9d9f51153e025523e9ce2befbf37f19ada36f16842bd1296f8380259a6407355"
       ],
@@ -5796,9 +5807,16 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_scene_end",
-          "input_status": "required_not_available",
+          "input_status": "available_actual_result_qc_failed",
           "source_item_id": "S42-SEED20-P2",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "source_task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+          "source_sha256": "35e6e25f856581cf9bb25c08925cc6d8fcb5063f3a372a09732976467f3721fa",
+          "source_archive_file_id": "1D-86VeGYe-FwP14v3W866vJqacUT2a0_",
+          "source_archive_url": "https://drive.google.com/file/d/1D-86VeGYe-FwP14v3W866vJqacUT2a0_/view",
+          "source_range_seconds": "12.104-15.104",
+          "trimmed_sha256": "32369ece9036ba8c41fe35ea5b0cf87858b948c5de97fe6742a60643103674ce",
+          "continuity_qc": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-review.json"
         },
         {
           "slot": "@Image1",
@@ -5844,8 +5862,8 @@
       "depends_on_completed": [
         "S42-SEED20-P2"
       ],
-      "blocker": "Actual ending of S42-SEED20-P2 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": "Actual S42-P2 ending task bf27bb8615eb4ad5a44a86ec2efcd3be failed continuity QC: the final3s contain four people instead of exactly three, including an extra bald purple-robed figure with a blue blade. Do not use for S56 and do not auto-rerender42; owner decision is required.",
+      "launch_readiness": "blocked_continuity_extra_character",
       "previous_prompt_sha256": [
         "13828410599570dd69f05732b11785ca8706cc0f15d023f682a9cd0e7bc8b54d"
       ],
@@ -7038,7 +7056,7 @@
       "canonical_prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
       "normalized_prompt_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
       "priority": 1.02,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -7084,7 +7102,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "8a8eadc809004e318c47201b8a463be0",
       "claim": {
         "run_id": "chatgpt-20261023T0912Z-S28-A2",
         "claimed_at": "2026-10-23T09:12:00Z",
@@ -7116,8 +7134,35 @@
           "prompt_normalized_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
           "input_count": 4,
           "input_sha_verified": true
+        },
+        "post_submit": {
+          "clicked_once": true,
+          "ui_toast": "Задачи успешно отправлены; Успешно создано задач: 1",
+          "task_id_verified": "8a8eadc809004e318c47201b8a463be0",
+          "prompt_normalized_match": true,
+          "input_count": 4,
+          "settings_verified": true,
+          "unlimited": true,
+          "credits": 0,
+          "global_scan": {
+            "checked_at": "2026-10-23T09:14:49Z",
+            "boards": 13,
+            "pages": 16,
+            "page_size": 100,
+            "total_tasks": 933,
+            "status_counts": {
+              "success": 890,
+              "fail": 37,
+              "init": 6
+            },
+            "occupied_video_slots": 6,
+            "free_video_slots": 0,
+            "complete": true
+          }
         }
       },
+      "submitted_at": "2026-10-23T09:11:44Z",
+      "receipt": "reports/topview-queue-2026-10-16/S28-A2-20261023-receipt.json",
       "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
       "blocker": null,

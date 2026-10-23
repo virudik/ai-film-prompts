@@ -1,0 +1,58 @@
+{
+  "work_id": "FILM-QUALITY-20261023",
+  "scene_id": 42,
+  "source_item_id": "S42-SEED20-P2-external-variant",
+  "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+  "completed_at": "2026-10-23 08:33:58",
+  "reviewed_at": "2026-10-23T09:14:49Z",
+  "source_sha256": "35e6e25f856581cf9bb25c08925cc6d8fcb5063f3a372a09732976467f3721fa",
+  "source_archive": {
+    "archived_at": "2026-10-23T08:45:54Z",
+    "drive_url": "https://drive.google.com/file/d/1D-86VeGYe-FwP14v3W866vJqacUT2a0_/view",
+    "file_id": "1D-86VeGYe-FwP14v3W866vJqacUT2a0_",
+    "md5": "d8d03c4d06e76ac2b4131a7c42a4a71d",
+    "sha256": "35e6e25f856581cf9bb25c08925cc6d8fcb5063f3a372a09732976467f3721fa",
+    "size_bytes": 11724552,
+    "archive_scene_id_observed": 16,
+    "expected_scene_id": 42,
+    "metadata_note": "The robot archive index currently labels this task as scene16. The original file identity, task id and SHA are verified; the robot-owned archive index was not manually rewritten."
+  },
+  "source_video": {
+    "duration_seconds": 15.104,
+    "container": "MP4",
+    "video": "H.264 1280x720 24fps",
+    "audio": "AAC stereo 32kHz"
+  },
+  "canonical_prompt_match": false,
+  "prompt_reconciliation": "This already-submitted external P2 variant differs materially from the current canonical P2 text. It is not represented as an exact canonical-prompt submission and must not be duplicated. Its actual result is selected only as the genuine operational continuation source after QC.",
+  "review_scope": "Visual frame sequence sampled at 2fps across the complete 15.104s source plus the complete final 3s sampled at 4fps and a full-resolution final frame; technical media/audio probe. Audio stream was not listened to; no full-frame-rate motion certification. Preliminary assistant continuity assessment, not owner approval.",
+  "audio_reviewed": false,
+  "audio_probe": {
+    "stream_present": true,
+    "mean_volume_db": -18.3,
+    "max_volume_db": -4.2
+  },
+  "owner_approved": false,
+  "visual_score": 2,
+  "continuity": "blocked_extra_fourth_duelist",
+  "summary": "Действие энергичное, гигантский червь и география пустыни читаются, но финальные3с непригодны для S56: вместо ровно трёх людей в кадре постоянно четыре. Справа появляется лишний лысый персонаж в тёмно-фиолетовой мантии с синим клинком, дублирующий образ Серёги; каноническая тройка и цвета оружия нарушены.",
+  "defects": [
+    "12.104–15.104s: одновременно видны четыре человека вместо трёх; лишний лысый персонаж в тёмно-фиолетовой мантии стоит frame-right.",
+    "В финале два синих клинка наряду с красным и зелёным; требуемая география Artem-left / Serega-centre / Ilyusha-right нарушена.",
+    "Полный просмотр в реальном времени со звуком не выполнялся; микродефекты между выборочными кадрами не исключены.",
+    "Отправленный внешний вариант не совпадает с текущим каноническим текстом P2; это явно сохранено в provenance."
+  ],
+  "usable": "Отдельные боевые планы, червь и фон могут быть рассмотрены для монтажа владельцем, но настоящий финал нельзя использовать как старт S56: лишний четвёртый персонаж закрепит ошибку. Автоматический повтор42 не разрешён.",
+  "continuation_source": {
+    "kind": "actual_last_3_seconds",
+    "status": "preserved_qc_failed_not_authorized_for_S56",
+    "source_range_seconds": "12.104-15.104",
+    "sha256": "32369ece9036ba8c41fe35ea5b0cf87858b948c5de97fe6742a60643103674ce",
+    "storage_note": "The derived MP4 is not committed to the public repository. Retrieve the verified original by Drive file_id and trim the stated range; verify both source and derived SHA before submit."
+  },
+  "evidence": {
+    "contact_sheet": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-contact.jpg",
+    "final_3s_sheet": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-final3s.jpg",
+    "final_frame": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-end.jpg"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "item_id": "S28-A2-20261023",
+  "scene_id": 28,
+  "prompt_id": "A2",
+  "task_id": "8a8eadc809004e318c47201b8a463be0",
+  "status_at_receipt": "init",
+  "submitted_at": "2026-10-23T09:11:44Z",
+  "verified_at": "2026-10-23T09:14:49Z",
+  "route": "free_web_gui",
+  "board": {
+    "name": "My First Board",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+  },
+  "settings": {
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "mode": "omni_reference",
+    "unlimited": true,
+    "credits": 0
+  },
+  "prompt": {
+    "source": "video-prompts.md",
+    "canonical_block_label": "28 A2",
+    "chars": 6030,
+    "sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+    "normalized_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+    "match": "exact canonical normalized prompt; Topview mention-token rendering accounts for display character count differences"
+  },
+  "inputs": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-28/P28-pair-facing.webp",
+      "sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7"
+    }
+  ],
+  "pre_submit_scan": {
+    "checked_at": "2026-10-23T09:12:00Z",
+    "boards": 13,
+    "pages": 19,
+    "total_tasks": 932,
+    "occupied_video_slots": 5,
+    "free_video_slots": 1,
+    "complete": true,
+    "dedup": "zero exact normalized current S28-A2 prompt matches; historical different revision excluded"
+  },
+  "post_submit_scan": {
+    "checked_at": "2026-10-23T09:14:49Z",
+    "boards": 13,
+    "pages": 16,
+    "page_size": 100,
+    "total_tasks": 933,
+    "status_counts": {
+      "success": 890,
+      "fail": 37,
+      "init": 6
+    },
+    "occupied_video_slots": 6,
+    "free_video_slots": 0,
+    "complete": true
+  },
+  "ui_proof": "reports/topview-queue-2026-10-16/S28-A2-20261023-ui-proof.png",
+  "owner_approved": false,
+  "notes": "Create clicked once. Topview displayed successful submission toast; read-only task reconciliation verified task id, exact normalized prompt, four ordered inputs, settings, Unlimited and zero credits. Technical submission confirmation is not artistic acceptance."
+}

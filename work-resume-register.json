@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T06:53:05.541Z",
+  "last_updated_at": "2026-10-23T09:14:49Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-FRESHNESS-20261023",
@@ -39,8 +39,8 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_slots",
-      "updated_at": "2026-10-23T06:53:05.541Z",
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
+      "updated_at": "2026-10-23T09:14:49Z",
+      "next_action": "Six video slots are occupied after the verified A2 launch. On the next free slot, first save/QC any completed52P1,58P1 or new28 result, then choose the lowest-priority genuinely ready item from the fresh queue. S56P1 remains blocked because actual S42P2 ends with an extra fourth duelist; A3 still waits the NEW A2 final frame. No repeats; Roscosmos paused; fresh full scan and CAS claim before submit.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
@@ -52,7 +52,8 @@
         "af8e389dc9564607bc6138b408c72da5",
         "56e5e07c85df4af583c62665c51ed563",
         "34ff1bf7fe9d47f08de5a635d5626c70",
-        "4b7b972870a44dfbb29bd6c5e330a633"
+        "4b7b972870a44dfbb29bd6c5e330a633",
+        "8a8eadc809004e318c47201b8a463be0"
       ],
       "new_submissions": [
         {
@@ -108,6 +109,12 @@
           "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
           "credits": 0,
           "receipt": "reports/topview-queue-2026-10-16/S28-A1-TEST-20261017-20261023.json"
+        },
+        {
+          "item_id": "S28-A2-20261023",
+          "task_id": "8a8eadc809004e318c47201b8a463be0",
+          "credits": 0,
+          "receipt": "reports/topview-queue-2026-10-16/S28-A2-20261023-receipt.json"
         }
       ],
       "canonical_refs": [
@@ -143,13 +150,14 @@
         ]
       },
       "last_live_scan": {
-        "at": "2026-10-23T06:53:05.541Z",
+        "at": "2026-10-23T09:14:49Z",
         "boards": 13,
-        "pages": 19,
-        "total": 932,
+        "pages": 16,
+        "page_size": 100,
+        "total": 933,
         "scan_complete": true,
         "status_counts": {
-          "success": 889,
+          "success": 890,
           "fail": 37,
           "init": 6
         },
@@ -185,16 +193,31 @@
             "item_id": "S58-SEED20-P1"
           },
           {
-            "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+            "id": "8a8eadc809004e318c47201b8a463be0",
             "status": "init",
             "credits": 0,
-            "item_id": "S42-SEED20-P2"
+            "item_id": "S28-A2-20261023"
           }
         ],
         "occupied_slots": 6,
         "free_slots": 0,
         "board_name": "My First Board",
         "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      "s42_p2_continuity_qc": {
+        "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+        "status": "completed_qc_blocked_continuity",
+        "canonical_prompt_match": false,
+        "source_sha256": "35e6e25f856581cf9bb25c08925cc6d8fcb5063f3a372a09732976467f3721fa",
+        "last_3_seconds_sha256": "32369ece9036ba8c41fe35ea5b0cf87858b948c5de97fe6742a60643103674ce",
+        "archive_file_id": "1D-86VeGYe-FwP14v3W866vJqacUT2a0_",
+        "review_scope": "complete source sampled2fps plus complete final3s sampled4fps and final frame; audio stream probed but not listened",
+        "continuity": "blocked_extra_fourth_duelist",
+        "owner_approved": false,
+        "report": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-review.json",
+        "archive_metadata_anomaly": "robot index labels scene_id16; recorded, not manually rewritten",
+        "critical_defect": "12.104-15.104s contain four people instead of exactly three; extra bald purple-robed figure at frame-right with a blue blade",
+        "dependent_item": "S56-SEED20-P1 remains blocked; no automatic rerender42"
       },
       "owner_paid_attribution": {
         "task_id": "0da875de0b384971836be2e3a05d0c0b",
@@ -325,10 +348,11 @@
         "23Oct02:22MSK: S47-P1 submitted exactly once via free Topview website, task 2175458eede64d0881ad70897155459a; Seedance2.0/15s/720p/16:9/qty1/6images/Unlimited0. Full normalized prompt exact. Post-submit scan13boards/19pages/921tasks:2active.",
         "23Oct:35 Raznoe images restored into native image_gen folder; S57P2 and S47P2 submitted once Unlimited0 with actual3s P1 clips. Owner confirmed15-credit S57P1 alternate was their launch. Free-ready rule preserved.",
         "23Oct: owner authorized selected52/28/49/50/51.52P1 34ff1bf7fe9d47f08de5a635d5626c70 and28A1 4b7b972870a44dfbb29bd6c5e330a633 submitted once Unlimited0; exact prompts verified.6/6slots occupied; existing automation updated and read back.",
-        "23Oct:52P2/58P2 promoted first;11 existing Seedance28 A2-A12 prompt blocks registered as bounded queue items, realA3/A12 dependencies preserved; new28 QC mandatory; existing automation updated.6/6occupied, no submission in this turn."
+        "23Oct:52P2/58P2 promoted first;11 existing Seedance28 A2-A12 prompt blocks registered as bounded queue items, realA3/A12 dependencies preserved; new28 QC mandatory; existing automation updated.6/6occupied, no submission in this turn.",
+        "23Oct09:14UTC: S28-A2 current revision submitted once through free web Topview, task8a8eadc809004e318c47201b8a463be0, Seedance2.0/15s/720p/16:9/4refs/Unlimited0; exact normalized prompt and post-submit 6/6 scan verified. External S42-P2 bf27 completed; original/last3s SHA saved, but QC found a fourth duelist in the final3s, so S56P1 remains blocked. No owner artistic approval or automatic rerender."
       ],
       "next_actions": [
-        "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit."
+        "Six video slots are occupied. On the next free slot, first QC any completed52P1/58P1/new28 result, then use fresh queue priority among genuinely ready items. S56P1 remains blocked by the extra fourth duelist in actual S42P2; A3 waits NEW A2 final frame. No repeats; Roscosmos paused; fresh full scan and CAS claim before submit."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -342,13 +366,13 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
+      "next_action": "Six video slots are occupied after A2. On the next free slot, first QC completed52P1/58P1/new28 results, then follow the lowest-priority ready item from the fresh queue. S56P1 remains blocked by the extra fourth duelist in actual S42P2; A3 waits NEW A2 final frame. No repeats; Roscosmos paused; fresh full scan and CAS claim before submit.",
       "blockers": [
         "S44: actual43 ends with both wings raised, invalid for required left wing at45deg; no auto-retry.",
-        "Actual video dependencies58P2/56/48 remain; existing42P2 variant differs from canonical, reconcile before another submission.",
+        "Actual video dependencies58P2/48 remain. S56P1 is blocked: external S42P2 final3s contain a fourth duelist. Prompt mismatch and QC defect are preserved in provenance;42 must not be duplicated or auto-rerendered.",
         "52P2 requires actual new52P1 end;51B requires actual new51A end.49/50/51 launch authorization is active from23Oct."
       ],
-      "last_resume_check": "2026-10-23T06:53:05.541Z",
+      "last_resume_check": "2026-10-23T09:14:49Z",
       "maintenance_checks": {
         "last_successful_check_at": "2026-10-23T06:53:05.541Z",
         "self_heal": {
