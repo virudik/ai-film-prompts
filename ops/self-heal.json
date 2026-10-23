@@ -1,16 +1,8 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "fixing",
-  "problems": {
-    "run-failed-topview-robot": {
-      "text": "Последний запуск «робот Topview» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/40035072366",
-      "since": "2026-10-23T22:49:25Z",
-      "fixes": 1,
-      "last_fix_at": "2026-10-23T22:49:25Z",
-      "escalated_at": null
-    }
-  },
+  "status": "ok",
+  "problems": {},
   "log": [
     {
       "at": "2026-10-21T06:07:40Z",
@@ -95,7 +87,13 @@
       "kind": "resolved",
       "key": "run-failed-canon-health",
       "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/40032704322"
+    },
+    {
+      "at": "2026-10-23T23:19:30Z",
+      "kind": "resolved",
+      "key": "run-failed-topview-robot",
+      "text": "Прошло: Последний запуск «робот Topview» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/40035072366"
     }
   ],
-  "changed_at": "2026-10-23T22:49:25Z"
+  "changed_at": "2026-10-23T23:19:30Z"
 }
