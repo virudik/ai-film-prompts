@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "held",
-  "holder": "claude:project-check",
-  "task": "Котмонавты: динамика сцен 1–21, надпись только где виден корабль, подписи референсов, темы Suno",
-  "acquired_at": "2026-10-22T09:19:37Z",
-  "expires_at": "2026-10-22T10:04:37Z",
+  "holder": "chatgpt",
+  "task": "PROJECT-ORGANIZE-20261023: rename Roscosmos, new Raznoe, images and per-board routing",
+  "acquired_at": "2026-10-23T02:29:17.237Z",
+  "expires_at": "2026-10-23T03:59:17.237Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "kotmonavty"
