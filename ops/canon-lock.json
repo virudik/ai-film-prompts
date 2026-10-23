@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Fix false telemetry collision after scene edits and verify real robot cycle",
-  "acquired_at": "2026-10-23T18:51:32Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T18:52:18Z",
+  "task": "Save final verified worm bridge and robot recovery checkpoint",
+  "acquired_at": "2026-10-23T18:53:34Z",
+  "expires_at": "2026-10-23T19:03:34Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
