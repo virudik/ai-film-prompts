@@ -19,7 +19,7 @@
     "inserted_into_film=true requires reviewed=true and accepted=true.",
     "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-10-22T22:50:31Z",
+  "updated_at": "2026-10-23T03:43:12Z",
   "scenes": {
     "3": {
       "result_received": true,
@@ -463,7 +463,7 @@
     },
     "39": {
       "result_received": true,
-      "result_received_at": "2026-10-22T22:38:51Z",
+      "result_received_at": "2026-10-23T01:07:46Z",
       "reviewed": null,
       "reviewed_at": null,
       "accepted": null,
@@ -471,12 +471,12 @@
       "inserted_into_film": null,
       "montage_note": null,
       "last_human_update_at": null,
-      "selected_result_task_id": "008058a4705c45c089256116427153d4",
+      "selected_result_task_id": "7863a2b3e8e54ca8a5d37468fc77d49f",
       "result_url": null
     },
     "40": {
       "result_received": true,
-      "result_received_at": "2026-10-22T22:39:16Z",
+      "result_received_at": "2026-10-23T01:05:15Z",
       "reviewed": null,
       "reviewed_at": null,
       "accepted": null,
@@ -484,7 +484,7 @@
       "inserted_into_film": null,
       "montage_note": null,
       "last_human_update_at": null,
-      "selected_result_task_id": "1751294fbf5f49dbb00a0f44401486ca",
+      "selected_result_task_id": "790a7017632045a58d83ccc0891c44ac",
       "result_url": null
     },
     "41": {
@@ -501,15 +501,17 @@
       "result_url": null
     },
     "42": {
-      "result_received": false,
-      "result_received_at": null,
+      "result_received": true,
+      "result_received_at": "2026-10-23T01:10:29Z",
       "reviewed": null,
       "reviewed_at": null,
       "accepted": null,
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+      "result_url": null
     },
     "43": {
       "result_received": true,
@@ -564,15 +566,17 @@
       "result_url": null
     },
     "47": {
-      "result_received": false,
-      "result_received_at": null,
+      "result_received": true,
+      "result_received_at": "2026-10-23T01:06:41Z",
       "reviewed": null,
       "reviewed_at": null,
       "accepted": null,
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": "2175458eede64d0881ad70897155459a",
+      "result_url": null
     },
     "48": {
       "result_received": false,
@@ -631,7 +635,7 @@
     },
     "53": {
       "result_received": true,
-      "result_received_at": "2026-10-22T22:40:45Z",
+      "result_received_at": "2026-10-23T01:07:34Z",
       "reviewed": null,
       "reviewed_at": null,
       "accepted": null,
@@ -639,7 +643,7 @@
       "inserted_into_film": null,
       "montage_note": null,
       "last_human_update_at": null,
-      "selected_result_task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+      "selected_result_task_id": "439dd6d829c64f16b6491e0177cc1619",
       "result_url": null
     },
     "54": {
@@ -680,15 +684,17 @@
       "last_human_update_at": null
     },
     "57": {
-      "result_received": false,
-      "result_received_at": null,
+      "result_received": true,
+      "result_received_at": "2026-10-23T01:04:37Z",
       "reviewed": null,
       "reviewed_at": null,
       "accepted": null,
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+      "result_url": null
     },
     "58": {
       "result_received": false,

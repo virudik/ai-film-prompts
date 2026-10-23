@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-23T02:51:06Z",
+  "synced_at": "2026-10-23T03:43:18Z",
   "revision_date": "23.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "739d12b426d57eb70a15b4cc83d9a7723bf3b4b87780406444f23a75a28ddae1",
-  "canonical_revision_sha256": "21ce520ebc6c1a875c18399800ec5e75ae07e9221ed09c4827462bf744480053",
-  "canonical_master_bytes": 918821,
+  "canonical_master_sha256": "5ec7ba9e1e7ecc0021e5f324d74d603012fbfe1e806f6313145c6a0c21f38d13",
+  "canonical_revision_sha256": "8e6871dbdf1a3b90b36922f3a0a2002dbdb04ed77524352eff99346b0b4e191a",
+  "canonical_master_bytes": 922958,
   "scenes": 21,
   "prompt_texts": 89,
   "work_items": [
@@ -27,6 +27,7 @@
   "work_items_count": 11,
   "slow_scenes": [
     16,
+    28,
     36,
     37,
     39,
@@ -34,10 +35,12 @@
     42,
     44,
     47,
+    52,
     53,
-    57
+    57,
+    58
   ],
-  "slow_scenes_count": 10,
+  "slow_scenes_count": 13,
   "scene_ids": [
     13,
     16,
@@ -106,7 +109,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.028,
+    "age_hours_at_status_build": 0.898,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -185,7 +188,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.028,
+      "age_hours": 0.898,
       "blocking": false
     },
     "topview_task_map": {
@@ -247,7 +250,7 @@
         "ceremony_to_disco",
         "character_identity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "33": {
       "target_engine": "Wan 3",
@@ -571,7 +574,7 @@
         "story_bridge",
         "continuity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "53": {
       "target_engine": "Seedance 2.0",
@@ -672,14 +675,14 @@
         "action",
         "comedy"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     }
   },
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-23T02:51:06Z",
-    "canonical_master_sha256": "739d12b426d57eb70a15b4cc83d9a7723bf3b4b87780406444f23a75a28ddae1",
-    "canonical_revision_sha256": "21ce520ebc6c1a875c18399800ec5e75ae07e9221ed09c4827462bf744480053",
+    "synced_at": "2026-10-23T03:43:18Z",
+    "canonical_master_sha256": "5ec7ba9e1e7ecc0021e5f324d74d603012fbfe1e806f6313145c6a0c21f38d13",
+    "canonical_revision_sha256": "8e6871dbdf1a3b90b36922f3a0a2002dbdb04ed77524352eff99346b0b4e191a",
     "scene_count": 21,
     "prompt_count": 89,
     "scene_ids": [
@@ -720,6 +723,7 @@
     ],
     "slow_scenes": [
       16,
+      28,
       36,
       37,
       39,
@@ -727,8 +731,10 @@
       42,
       44,
       47,
+      52,
       53,
-      57
+      57,
+      58
     ],
     "health": "ok",
     "instruction_sync_health": "ok"

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-23T01:00:49Z",
+  "updated_at": "2026-10-23T03:43:12Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -15,23 +15,23 @@
     "Owner-confirmed releases are stored as owner_released_task_ids. A released but still active Topview task stays in active_by_scene and the 6-slot public count until provider-terminal; do not re-add it to canonical slow."
   ],
   "active_by_scene": {
-    "57": [
-      "20bf2d185da546aa8aba3b1d4508d0d8"
+    "52": [
+      "34ff1bf7fe9d47f08de5a635d5626c70"
+    ],
+    "28": [
+      "4b7b972870a44dfbb29bd6c5e330a633"
     ],
     "47": [
-      "2175458eede64d0881ad70897155459a"
+      "56e5e07c85df4af583c62665c51ed563"
     ],
-    "53": [
-      "439dd6d829c64f16b6491e0177cc1619"
+    "58": [
+      "6598a21c2c684d43b7cede9cfc987107"
     ],
-    "39": [
-      "7863a2b3e8e54ca8a5d37468fc77d49f"
+    "57": [
+      "af8e389dc9564607bc6138b408c72da5"
     ],
-    "40": [
-      "790a7017632045a58d83ccc0891c44ac"
-    ],
-    "42": [
-      "a1ca4c36e31d45c5b4b72df7777d2592"
+    "16": [
+      "bf27bb8615eb4ad5a44a86ec2efcd3be"
     ]
   },
   "processed_tasks": [
@@ -500,6 +500,48 @@
       "final_status": "success",
       "finished_at": "2026-10-22T22:41:27Z",
       "part": "Seedance 2.0 часть 2"
+    },
+    {
+      "task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+      "scene_id": 57,
+      "final_status": "success",
+      "finished_at": "2026-10-23T01:04:37Z",
+      "part": "Seedance 2.0 часть 1"
+    },
+    {
+      "task_id": "2175458eede64d0881ad70897155459a",
+      "scene_id": 47,
+      "final_status": "success",
+      "finished_at": "2026-10-23T01:06:41Z",
+      "part": "Seedance 2.0 часть 1"
+    },
+    {
+      "task_id": "439dd6d829c64f16b6491e0177cc1619",
+      "scene_id": 53,
+      "final_status": "success",
+      "finished_at": "2026-10-23T01:07:34Z",
+      "part": "Seedance 2.0 часть 2"
+    },
+    {
+      "task_id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+      "scene_id": 39,
+      "final_status": "success",
+      "finished_at": "2026-10-23T01:07:46Z",
+      "part": "Seedance 2.0 часть 2"
+    },
+    {
+      "task_id": "790a7017632045a58d83ccc0891c44ac",
+      "scene_id": 40,
+      "final_status": "success",
+      "finished_at": "2026-10-23T01:05:15Z",
+      "part": "Seedance 2.0 часть 2"
+    },
+    {
+      "task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+      "scene_id": 42,
+      "final_status": "success",
+      "finished_at": "2026-10-23T01:10:29Z",
+      "part": "Seedance 2.0 часть 1"
     }
   ],
   "retention": {
@@ -508,12 +550,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-23T01:00:49Z",
+  "last_scan_at": "2026-10-23T03:43:12Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
-    "last_successful_scan_at": "2026-10-23T01:00:49Z",
+    "last_successful_scan_at": "2026-10-23T03:43:12Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 612,
     "overlap_hours": 6,
@@ -522,26 +564,26 @@
     "total_video_tasks": 595,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-22T19:00:49.000Z",
+    "overlap_from": "2026-10-22T21:43:12.000Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 12,
     "project_board_total_video_tasks": 399,
     "scope": "all_owned_board_counts_plus_project_latest_100_with_direct_active_verification",
     "last_full_scan_at": "2026-10-22T20:31:46Z",
     "board_task_counts": {
+      "6b246f75715f43be945f17b06bff9d88": 16,
+      "c934cec563ea45e1b37d12657821ebd5": 0,
       "1cb8d0f6d11440ce9740bbafab36a6a5": 0,
       "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
       "86c6cb46bf76400f93fea9c82d8e9b0f": 0,
-      "1a66054a659e4fe094646c0fa00eeb2f": 0,
       "db4b4d6d0abc4cb4b278ea80738639f2": 32,
       "24a69085fab4497b9c1a52536252b63d": 20,
       "0aafc553d8a049d2bc21221511293830": 5,
       "9f8ec3c1d7294675bfb87fa75577dec2": 64,
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
-      "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 658
+      "1a6244cf1ae747ef847d949a80d6133c": 665
     },
     "scan_mode": "light",
     "last_light_scan_at": "2026-10-13T19:02:02.187Z"

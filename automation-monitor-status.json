@@ -89,7 +89,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-10-23T03:30:43Z",
+      "checked_at": "2026-10-23T03:43:12Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -105,19 +105,22 @@
       "blocking": false
     }
   },
-  "health": "degraded",
+  "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-23T03:30:48Z",
-    "completed_at": "2026-10-23T03:30:48Z",
-    "health": "degraded",
+    "started_at": "2026-10-23T03:43:18Z",
+    "completed_at": "2026-10-23T03:43:18Z",
+    "health": "ok",
     "phases_completed": [
-      "topview_scan"
+      "role_check",
+      "topview_scan_api",
+      "task_map_master_consistency",
+      "telemetry_publish",
+      "project_status_health_ok",
+      "checkpoint_last"
     ],
-    "phases_missing": [
-      "telemetry_publish"
-    ],
+    "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "hold: unmapped_active:6598a21c"
+    "note": "GitHub robot: 6 из 6 слотов занято, новых 6, завершено 6."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -176,8 +179,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-23T03:30:48Z",
-  "last_successful_cycle_at": "2026-10-23T01:00:55Z",
+  "last_completed_cycle_at": "2026-10-23T03:43:18Z",
+  "last_successful_cycle_at": "2026-10-23T03:43:18Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -192,13 +195,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-23T03:30:48Z"
+    "robot": "2026-10-23T03:43:18Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-23T01:00:55Z"
+    "robot": "2026-10-23T03:43:18Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
