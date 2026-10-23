@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T22:27:51.191Z",
+  "last_updated_at": "2026-10-23T22:44:49.765Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "implemented_mail_verified_event_execution_unconfirmed",
-      "updated_at": "2026-10-23T22:27:51.191Z",
+      "status": "blocked_event_execution_unconfirmed",
+      "updated_at": "2026-10-23T22:44:49.765Z",
       "owner_quote": "Сохранив как подстраховку часовую проверку попробуй реализовать данную 10 минутную",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
@@ -16,12 +16,13 @@
         "Test bot comment6375856180 at22:18:29UTC and actual Gmail1a16ad875d0bbd98 at22:18:52UTC verified; no event run recorded yet.",
         "Integration recovery CI40032704173 passed. Archived5 completed register entries verbatim to meet size limit.",
         "Three read-only test notifications delivered. Final comment6375949642 at22:25:14UTC -> Gmail1a16ade9dad3d27a at22:25:36UTC; observed sender/subject regex verified, explicit Gmail connector configured.",
-        "Final test workflow40033440836, canon health40033440831 and Pages40033440789 succeeded. No videos created; hourly fallback unchanged."
+        "Final test workflow40033440836, canon health40033440831 and Pages40033440789 succeeded. No videos created; hourly fallback unchanged.",
+        "Five bot messages delivered; last workflow40035192750 -> comment6376175230 -> Gmail1a16aed853506d6f (22s). Authenticated UI confirms active trigger. Manual event Run now unsupported; independent-task event conversion rejected twice by service. Diagnostic6adbe1e7057c8190a5500374c9816975 disabled, no runs. Subscription refreshed; still no actual event run/ACK. Hourly actual completed run verified. Zero video submissions."
       ],
-      "next_action": "Check event automation6adbdbedfb388191ad24e3294eba29bd for actual recorded execution and reports/topview-event-wake.json test_ack; do not claim end-to-end success without it. If still null, investigate Gmail event delivery/runtime; no further duplicate automations or repeated test comments without new evidence. Hourly fallback continues launch priority1.",
+      "next_action": "Inspect actual event history/ACK on next resumption. If absent, service-side diagnosis is required. Do not add duplicate schedules, trigger test spam, fabricate ACK, or claim end-to-end readiness.",
       "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
       "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
-      "test_id": "wake-source-20261023-1792794282988",
+      "test_id": "wake-renew-20261023-1792795264274",
       "canonical_refs": [
         "ops/TOPVIEW-EVENT-WAKE.md",
         "reports/topview-event-wake.json"
@@ -29,9 +30,10 @@
       "new_submissions": 0,
       "blocker": {
         "stage": "Gmail event -> ChatGPT automation execution",
-        "evidence": "Three bot test comments and their Gmail deliveries verified; automation enabled with exact sender/subject filters and explicit connected Gmail source. No recorded event execution or test_ack as of checked_at.",
-        "cause": "not established",
-        "fallback": "Existing hourly automation remains enabled, unchanged."
+        "evidence": "Five bot test comments and matching Gmail deliveries verified. Main event task enabled; last_run/latest_result and test_ack remain null at checked_at. Latest test follows subscription pause/resume and exact subject-only filter. No evidence of event handler execution.",
+        "cause": "Not established; no supported service-side event delivery diagnostics available in current tools.",
+        "fallback": "Hourly task enabled and unchanged; recorded completed run 2026-10-23T21:55:00Z -> 22:01:16Z.",
+        "next_action": "Inspect actual event history/ACK on next resumption. If absent, service-side diagnosis is required. Do not add duplicate schedules, trigger test spam, fabricate ACK, or claim end-to-end readiness."
       }
     },
     {

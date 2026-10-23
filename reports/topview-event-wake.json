@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T22:41:04.274Z",
-  "status": "renewed_subscription_test_pending",
+  "updated_at": "2026-10-23T22:44:49.765Z",
+  "status": "blocked_event_execution_unconfirmed",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -10,8 +10,18 @@
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
   "verification": {
     "checked_by": "interactive_chatgpt",
-    "checked_at": "2026-10-23T22:41:04.274Z",
+    "checked_at": "2026-10-23T22:44:49.765Z",
+    "offline_tests_passed": 30,
+    "test_workflow_run_id": 40035192750,
+    "canon_health_run_id": 40035192736,
+    "comment_id": 6376175230,
+    "comment_created_at": "2026-10-23T22:41:31Z",
+    "email_message_id": "1a16aed853506d6f",
+    "email_received_at": "2026-10-23T22:41:53Z",
+    "email_matches_test_and_comment": true,
     "event_run_confirmed": false,
+    "event_last_run": null,
+    "event_latest_result": null,
     "new_submissions": 0
   },
   "previous_tests": [
@@ -86,9 +96,10 @@
   ],
   "blocker": {
     "stage": "Gmail event -> ChatGPT automation execution",
-    "evidence": "Three bot test comments and their Gmail deliveries verified; automation enabled with exact sender/subject filters and explicit connected Gmail source. No recorded event execution or test_ack as of checked_at.",
-    "cause": "not established",
-    "fallback": "Existing hourly automation remains enabled, unchanged."
+    "evidence": "Five bot test comments and matching Gmail deliveries verified. Main event task enabled; last_run/latest_result and test_ack remain null at checked_at. Latest test follows subscription pause/resume and exact subject-only filter. No evidence of event handler execution.",
+    "cause": "Not established; no supported service-side event delivery diagnostics available in current tools.",
+    "fallback": "Hourly task enabled and unchanged; recorded completed run 2026-10-23T21:55:00Z -> 22:01:16Z.",
+    "next_action": "Inspect actual event history/ACK on next resumption. If absent, service-side diagnosis is required. Do not add duplicate schedules, trigger test spam, fabricate ACK, or claim end-to-end readiness."
   },
   "manual_run_now": {
     "at": "2026-10-23T22:30:54.051Z",
@@ -104,5 +115,13 @@
       "result": "Task service twice rejected conversion to event trigger. Readback confirmed unchanged schedule. Test disabled; never ran.",
       "note": "Updating standalone through automation tool also bound conversation_id to current chat; no further standalone tests without supported route."
     }
+  },
+  "hourly_verified": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "is_enabled": true,
+    "last_run_id": "b35af063-1de0-832c-b342-f00da9fb5c6e",
+    "scheduled_for": "2026-10-23T21:55:00Z",
+    "completed_at": "2026-10-23T22:01:16.280862Z",
+    "recorded_status": "completed"
   }
 }
