@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:project-check",
-  "task": "Сайт и робот: вкладка «⚡ Динамичная» для промтов (Кот детектив)",
-  "acquired_at": "2026-10-23T23:03:59Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T23:07:56Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "Prepare Slack event read-only test",
+  "acquired_at": "2026-10-23T23:17:16.823Z",
+  "expires_at": "2026-10-23T23:27:16.823Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
