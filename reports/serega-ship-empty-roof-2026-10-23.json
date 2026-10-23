@@ -1,0 +1,191 @@
+{
+  "recorded_at": "2026-10-23T16:14:07.518564Z",
+  "work_id": "SEREGA-SHIP-EMPTY-ROOF-20261023",
+  "scenes": [
+    37,
+    39,
+    40,
+    41,
+    52,
+    53,
+    59,
+    60
+  ],
+  "blocks_changed": 24,
+  "pending_items_updated": [
+    "S52-SEED20-P2",
+    "S59-SEED20-P1",
+    "S59-SEED20-P2",
+    "S60-SEED20-P1",
+    "S60-SEED20-P2"
+  ],
+  "source_frame": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+  "clean_reference": "references/scenes/scene-37/S37-ship-clean-roof.png",
+  "clean_sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+  "method": "Built-in imagegen precise-object-edit",
+  "original_retained": true,
+  "diagnosis": "Source frame contains a roof figure; plausible contributor, not proof of the generation cause.",
+  "submitted_jobs_modified": 0,
+  "generations_relaunched": 0,
+  "canonical_master_sha256": "83defcc9feaa50c0a3ac4aff8395a42e33ffa3cf98b2caa0271bbc56d00bde57",
+  "prompt_changes": [
+    {
+      "label": "37",
+      "before_sha256": "7e21c0c2e5f0619682ce1ea6426c1f9a3b9c371cbc2141c71e447bfdbd192c2c",
+      "after_sha256": "80b2539922a3eaff46bc6d9e08a232d78c51d5ab71e9923056283daf9db1e02c",
+      "characters": 8994
+    },
+    {
+      "label": "37 · Seedance 2.0 часть 1",
+      "before_sha256": "8791feaa54e426357664e0cc7f060c82ac249754b8a04bd03931207106725ff0",
+      "after_sha256": "4b57e4cce3e942a64f1a4fe05904d236247a33716dfcc06eb816691ccbefed9f",
+      "characters": 6522
+    },
+    {
+      "label": "37 · Seedance 2.0 часть 2",
+      "before_sha256": "32fc2e20555db48e1725a6a2570ee23eba3de9c7762aeb23c25ddf992c67c88f",
+      "after_sha256": "0b021e56e7861e3a661434d58bd9bdb37721d5b70353ce7f464870ec912128b8",
+      "characters": 6611
+    },
+    {
+      "label": "39",
+      "before_sha256": "0b4cc2ff1c1b88f9f50cea972f1632e09438d005d58b1bd03a7855649edf92a8",
+      "after_sha256": "72244d34427fbfc47f9ee263051cc608fd4de58c56bc826b94dce0ce5e92bf40",
+      "characters": 9006
+    },
+    {
+      "label": "39 · Seedance 2.0 часть 1",
+      "before_sha256": "c4488e22f0d4a04d64f9cfdcfc6a6e0d6c3212b1c6b1bf929b75553e8d6a3286",
+      "after_sha256": "c4ea4ce5d1133a52c781a5495db638583e00ca7239b82d9400f60afe656cadb4",
+      "characters": 6582
+    },
+    {
+      "label": "39 · Seedance 2.0 часть 2",
+      "before_sha256": "48230d568f3657aa24c61b3a72375fb004774f882317e9231d51a11602d1e2ac",
+      "after_sha256": "c47b144202b632b859f8812458ca279f61ff5c25f7a03b18e140d0a6238283de",
+      "characters": 6250
+    },
+    {
+      "label": "40",
+      "before_sha256": "d5c08c49c81167452fcb4db776bce66b47e31240af420a856dbf0aa57a4d2d83",
+      "after_sha256": "598c6458a305cb1251822a41cca1f639fa0259727a665871b4c13793bbbea0eb",
+      "characters": 9034
+    },
+    {
+      "label": "40 · Seedance 2.0 часть 1",
+      "before_sha256": "8c73d00c7235e53e07ba8081755af3571887b26d857419aa2e17b3f61760fac3",
+      "after_sha256": "6066c73ae1139d142364fc96a3a49810c68965166bb9591c068665334f8f1e09",
+      "characters": 6584
+    },
+    {
+      "label": "40 · Seedance 2.0 часть 2",
+      "before_sha256": "da6486dbbf12cd1aac8b757b7db7b0a9ff1145c8dfc1bd39bf862783bb9a1fff",
+      "after_sha256": "14e325792a0698057352f7717a1bc394b161d86a7774809c05f358bfeecbc34e",
+      "characters": 6019
+    },
+    {
+      "label": "41",
+      "before_sha256": "6b2b417bfefc62cd5ac35b24b6e1f0df8e0a4c79dfa1540edae2cbf7ffbe4dc9",
+      "after_sha256": "76beccd877abb053dcc563ea25b6704fdfc8495d59dc8f2201df8f96a41d25df",
+      "characters": 9089
+    },
+    {
+      "label": "41 · Seedance 2.0 часть 1",
+      "before_sha256": "0bbe0220df1cc81e19bd86c5a1152bd16b1a72f77370f3cfa02cbaa68d88b697",
+      "after_sha256": "255b021cae94cea34a86fffcf41155bc840a54d3aa0afdc56bd5bc12d4903c69",
+      "characters": 6589
+    },
+    {
+      "label": "41 · Seedance 2.0 часть 2",
+      "before_sha256": "8f00fc786d428f00927d1bbdfd618899ca961e343f97d0c1cf433fd9d438488b",
+      "after_sha256": "de6da8ac3f2d44a4c194515eb2d5167788468700fccfe6d5f5a786dafc74b28b",
+      "characters": 6602
+    },
+    {
+      "label": "52",
+      "before_sha256": "60e3e71873bf1bf73c9aba215a656ff7fc6658b508f7c0b2820d5ad89fae0c49",
+      "after_sha256": "40ce78dc849f3e199a73f37d58a7519001014999067d4703f3213461db08e564",
+      "characters": 9192
+    },
+    {
+      "label": "52 · Seedance 2.0 часть 1",
+      "before_sha256": "f77f5ee9a8174c1d296b6fd5806b971103d3f5a18c987323d2c03bacff03cc7e",
+      "after_sha256": "5221ca1d4f4760d12fbefea18276012375b760d9e943cae924f0ef8200aff5cb",
+      "characters": 6663
+    },
+    {
+      "label": "52 · Seedance 2.0 часть 2",
+      "before_sha256": "3dc4d562c555cf700c3fe97be3c0c651dfbbdd2deb2a2ee387d62d0313d688cb",
+      "after_sha256": "66165f7d933ab0af2a26c8d729e033940dee9e606c8f160ee9f7121834a907ca",
+      "characters": 5647
+    },
+    {
+      "label": "53",
+      "before_sha256": "94f9a0252aa352aed5d195429a00f3c66aed220a07943def187c198979383704",
+      "after_sha256": "b9134ba462966fb6fee7181f91a7ee71001d59452fc550a3076284ab2b009723",
+      "characters": 8714
+    },
+    {
+      "label": "53 · Seedance 2.0 часть 1",
+      "before_sha256": "c14747d44b305245ef2316e2255c0e853ed33b72bf873dd48d880d853d53f305",
+      "after_sha256": "2c6952b35e1748afeea1839633ff29429950efe575a3236620f7ce1d2e4e0316",
+      "characters": 6317
+    },
+    {
+      "label": "53 · Seedance 2.0 часть 2",
+      "before_sha256": "b7d51de51a28a893e915b306e8d0116f67f4483e4301cd117cd633126492b0cf",
+      "after_sha256": "df2e2edac226d85ba3c9c072b632dc770e2da675289e6d65cd1d9a60880d00d4",
+      "characters": 5591
+    },
+    {
+      "label": "59",
+      "before_sha256": "d747e4dc98d0ab1bbd1a1576ddc5f2429f07d776be69bbdc0cd54d7e5d48a4d0",
+      "after_sha256": "b482672c306863a4659e48e998b57275cfd8c46c863a008ade6ae9103b72aeaa",
+      "characters": 7101
+    },
+    {
+      "label": "59 · Seedance 2.0 часть 1",
+      "before_sha256": "a62fe8759b612c3f5da49a871c284cb8d4c8b02ce21ace724abbf82635e99f1c",
+      "after_sha256": "e9c083a9f34c1a00d5941c25294addd5f1c614bd6a4f53104f59037b041dc405",
+      "characters": 6025
+    },
+    {
+      "label": "59 · Seedance 2.0 часть 2",
+      "before_sha256": "14bececbce84bd8f245b6876c54583b4b8edb8544893c17fd741b92a7894e254",
+      "after_sha256": "3385aaea8d4a687cd7671d82f16f521d2c87d48b91c83d2e1d5aba019d843c55",
+      "characters": 6289
+    },
+    {
+      "label": "60",
+      "before_sha256": "baa6e1752b490891d422f65e9b35c2c3d2bbb78aae071fb9124a067def7b85f7",
+      "after_sha256": "226af304e88a1b63b06a2295f451387bfcf2e630be873addfa3c41d8dd7a190f",
+      "characters": 9053
+    },
+    {
+      "label": "60 · Seedance 2.0 часть 1",
+      "before_sha256": "2439de9a42a28986f35919436ba9a8a6e09a145bfa8135d97b757d630d863f5a",
+      "after_sha256": "4daecb36570a6dfc114032b4205ea859b5dea2dbb677a10499dd2ad54425fc8f",
+      "characters": 7541
+    },
+    {
+      "label": "60 · Seedance 2.0 часть 2",
+      "before_sha256": "97cfd185bb9344604742f750c7b8eabb62c4b6899ff422339b1ad0592284d256",
+      "after_sha256": "084955553f6880db9f1d558435fac31caf076151c993f25c2c23dc9499750b92",
+      "characters": 6842
+    }
+  ],
+  "validation": {
+    "changed_blocks": 24,
+    "untouched_blocks": 74,
+    "submitted_items_unchanged": true,
+    "pending_hashes_and_images_verified": true,
+    "queue_priorities_unchanged": true,
+    "site_contract": "passed",
+    "project_status": "health=ok;24scenes98prompts",
+    "instruction_certification": "7/7",
+    "image_visual_qc": "Empty roof; matching apparent hull design, framing, panels, glazing and lights. Synthetic edited reference, not an original video frame.",
+    "publication": "pending",
+    "unit_tests": "228 passed"
+  },
+  "publication": "pending"
+}

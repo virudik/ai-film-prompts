@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 37,
-  "updated_at": "2026-10-17T20:06:28.563093Z",
+  "updated_at": "2026-10-23T16:14:07.518564Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -170,34 +170,30 @@
       "drive_file_id": "1Pk0f3nUiJc6odPG1tZZoceP6LMLaT76_"
     },
     {
-      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-      "asset_id": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-      "role": "film_source_frame",
+      "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "role": "vehicle_design_clean_empty_roof",
       "media_type": "image",
-      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
-      "bytes": 462691,
-      "owner_approval": "not_recorded",
+      "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+      "dimensions": [
+        1673,
+        940
+      ],
+      "bytes": 1659083,
+      "status": "available",
+      "source_path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "derivation": "imagegen precise-object-edit: remove roof figure and red glow, preserve ship design; original frame retained as provenance",
+      "owner_approval": "owner_requested_correction_not_artistic_approval",
       "assistant_qc": {
-        "status": "passed",
-        "checked_at": "2026-10-14T00:21:57Z",
-        "evidence": "Фактический кадр ч. 1, 09:03: только корпус корабля."
+        "status": "usable_for_vehicle_reference",
+        "checked_at": "2026-10-23T16:14:07.518564Z",
+        "scope": "Viewed generated output: empty roof, matching silhouette, panels, glazing and lights; no claim of pixel-identical edit."
       },
       "site_published": {
-        "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+        "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
         "linked_in_master": true,
         "git_present": true
-      },
-      "source": {
-        "kind": "film_extraction",
-        "note": "Фактический кадр ч. 1, 09:03: только корпус корабля.",
-        "library_file_id": "libfile_a2f484bf8708819199576f1eade27487",
-        "source_title": "Серёгиус-копия часть 1.mp4"
-      },
-      "dimensions": [
-        854,
-        480
-      ],
-      "drive_file_id": "1QBfAt4ngDh2xppYE00BsmUAug3Ok_cmz"
+      }
     },
     {
       "asset_id": "drive:1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m",

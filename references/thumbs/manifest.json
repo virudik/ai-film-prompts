@@ -1933,6 +1933,16 @@
    "thumb_bytes": 10802,
    "src_sha256": "54c8a14eff2119a6a1c841e452429203a72a4894b72041fdb40b1a1dd9ca6738"
   },
+  "references/scenes/scene-37/S37-ship-clean-roof.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-ship-clean-roof.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1673,
+   "src_height": 940,
+   "src_bytes": 1659083,
+   "thumb_bytes": 23228,
+   "src_sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396"
+  },
   "references/scenes/scene-37/S37-ship-source-part1-09m03s.png": {
    "thumb": "references/thumbs/scenes/scene-37/S37-ship-source-part1-09m03s.png.webp",
    "width": 640,

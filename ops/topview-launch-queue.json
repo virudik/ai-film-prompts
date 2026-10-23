@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T15:46:54.711992Z",
+  "updated_at": "2026-10-23T16:14:07.518564Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4149,8 +4149,8 @@
       "scene_id": 52,
       "prompt_id": "S52-SEED20-P2",
       "canonical_block_label": "52 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "3dc4d562c555cf700c3fe97be3c0c651dfbbdd2deb2a2ee387d62d0313d688cb",
-      "normalized_prompt_sha256": "333a32b2b12f6e0a380f8df93935621124fe5bca803186e9d638935a3413fc7c",
+      "canonical_prompt_sha256": "66165f7d933ab0af2a26c8d729e033940dee9e606c8f160ee9f7121834a907ca",
+      "normalized_prompt_sha256": "9b786f7fe0857e3eeb238106c6986698d7356bcce52cfd9034491dfa1e66bfe2",
       "priority": 0,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -4183,10 +4183,11 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
           "required": true,
-          "input_status": "available"
+          "input_status": "available",
+          "canonical_role": "personal ship: cleaned empty roof; vehicle design only"
         }
       ],
       "task_id": null,
@@ -4211,7 +4212,8 @@
         "state": "blocked_inputs"
       },
       "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
-      "priority_before_20261023_primary": 20.1
+      "priority_before_20261023_primary": 20.1,
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
     },
     {
       "id": "S53-SEED20-P1",
@@ -6482,9 +6484,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "canonical_role": "личный корабль — только корпус",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
           "required": true,
           "input_status": "available"
         },
@@ -6513,14 +6515,15 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "a62fe8759b612c3f5da49a871c284cb8d4c8b02ce21ace724abbf82635e99f1c",
-      "normalized_prompt_sha256": "0db64fb1e7d2eb4002bcc1547e93485f294f103eb3e2cbf2b183f423a936ccd4",
+      "canonical_prompt_sha256": "e9c083a9f34c1a00d5941c25294addd5f1c614bd6a4f53104f59037b041dc405",
+      "normalized_prompt_sha256": "28c3923dd863e61ff50deab17d100051daaf378376e7c5387c09ba53a7d16058",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": null
+      "blocker": null,
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
     },
     {
       "id": "S59-SEED20-P2",
@@ -6565,9 +6568,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "canonical_role": "личный корабль — только корпус",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
           "required": true,
           "input_status": "available"
         },
@@ -6596,14 +6599,15 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "14bececbce84bd8f245b6876c54583b4b8edb8544893c17fd741b92a7894e254",
-      "normalized_prompt_sha256": "0d99e6b9fd9ac6a29cd0ff66ce522bb54844271b76adf60879357d9e341676bb",
+      "canonical_prompt_sha256": "3385aaea8d4a687cd7671d82f16f521d2c87d48b91c83d2e1d5aba019d843c55",
+      "normalized_prompt_sha256": "65f518b53d2db27ee8aed9b01371af70a1a2386d018d743e65f0cc2d2776e21e",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Wait actual S59-SEED20-P1 ending and continuity QC."
+      "blocker": "Wait actual S59-SEED20-P1 ending and continuity QC.",
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
     },
     {
       "id": "S60-SEED20-P1",
@@ -6649,9 +6653,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "canonical_role": "корабль",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
           "required": true,
           "input_status": "available"
         },
@@ -6672,14 +6676,15 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "2439de9a42a28986f35919436ba9a8a6e09a145bfa8135d97b757d630d863f5a",
-      "normalized_prompt_sha256": "fd2632cbb1a3568c78931e7aa95ef1311b395aa6e8aad07bbb5ce1b25014fc64",
+      "canonical_prompt_sha256": "4daecb36570a6dfc114032b4205ea859b5dea2dbb677a10499dd2ad54425fc8f",
+      "normalized_prompt_sha256": "1ad3027d7a7e6dcae0f48cca42234afdf569771a4487d68afffbf605cee7af23",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": null
+      "blocker": null,
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
     },
     {
       "id": "S60-SEED20-P2",
@@ -6724,9 +6729,9 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "canonical_role": "корабль",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "canonical_role": "personal ship: cleaned empty roof; vehicle design only",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
           "required": true,
           "input_status": "available"
         },
@@ -6755,14 +6760,15 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "97cfd185bb9344604742f750c7b8eabb62c4b6899ff422339b1ad0592284d256",
-      "normalized_prompt_sha256": "5aeaf5a0fee95f16d558c05a2286deec4238cbff0c61c4817c8b5f1d5bf3a54d",
+      "canonical_prompt_sha256": "084955553f6880db9f1d558435fac31caf076151c993f25c2c23dc9499750b92",
+      "normalized_prompt_sha256": "f937480db1dfedfe559132c44daad91ccb65637d5dd9e6069aaebe03b7980e0b",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Wait actual S60-SEED20-P1 ending and continuity QC."
+      "blocker": "Wait actual S60-SEED20-P1 ending and continuity QC.",
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
     },
     {
       "id": "S61-SEED20-P1",
@@ -7873,5 +7879,30 @@
       "references/scenes/scene-60/source-continuity.json",
       "references/scenes/scene-61/source-continuity.json"
     ]
+  },
+  "owner_instruction_20261023_ship_roof": {
+    "recorded_at": "2026-10-23T16:14:07.518564Z",
+    "source": "Direct owner current chat",
+    "quote": "И в сценах с кораблем Сереги на крыше его не должно быть. В некоторых видео так делалось почему-то",
+    "rule": "No Serega on roof/canopy/wings/exterior hull. Seated inside enclosed cockpit during movement; ground-side hatch/ramp access while parked. Use clean ship image for future submissions. Reject defective previous-part endings; no automatic reruns.",
+    "scenes": [
+      37,
+      39,
+      40,
+      41,
+      52,
+      53,
+      59,
+      60
+    ],
+    "clean_reference": "references/scenes/scene-37/S37-ship-clean-roof.png",
+    "updated_pending_items": [
+      "S52-SEED20-P2",
+      "S59-SEED20-P1",
+      "S59-SEED20-P2",
+      "S60-SEED20-P1",
+      "S60-SEED20-P2"
+    ],
+    "submitted_receipts": "Unchanged; edits do not alter already submitted video jobs."
   }
 }

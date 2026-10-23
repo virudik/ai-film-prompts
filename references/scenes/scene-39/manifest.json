@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 39,
-  "updated_at": "2026-10-17T20:06:28.563093Z",
+  "updated_at": "2026-10-23T16:14:07.518564Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -58,30 +58,30 @@
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
-      "dimensions": [
-        854,
-        480
-      ],
-      "drive_file_id": "1QBfAt4ngDh2xppYE00BsmUAug3Ok_cmz",
-      "library_file_id": null,
-      "role": "vehicle",
-      "asset_id": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-      "bytes": 462691,
+      "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "role": "vehicle_design_clean_empty_roof",
       "media_type": "image",
-      "owner_approval": "not_recorded",
+      "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+      "dimensions": [
+        1673,
+        940
+      ],
+      "bytes": 1659083,
+      "status": "available",
+      "source_path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "derivation": "imagegen precise-object-edit: remove roof figure and red glow, preserve ship design; original frame retained as provenance",
+      "owner_approval": "owner_requested_correction_not_artistic_approval",
       "assistant_qc": {
-        "status": "reused_existing_asset",
-        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
-        "checked_at": "2026-10-16"
+        "status": "usable_for_vehicle_reference",
+        "checked_at": "2026-10-23T16:14:07.518564Z",
+        "scope": "Viewed generated output: empty roof, matching silhouette, panels, glazing and lights; no claim of pixel-identical edit."
       },
       "site_published": {
-        "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+        "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
         "linked_in_master": true,
         "git_present": true
-      },
-      "reused_from_existing_pack": true
+      }
     },
     {
       "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",

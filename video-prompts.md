@@ -2832,7 +2832,7 @@ Seedance 2.0 task `e6a5cf9a3d04413e943c9bbbff9e1f73` технически зав
 
 **Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сама37 заканчивается до посадки и не стыкуется с кадрами лесной пары. **Новое решение23.10:** после37 через монтажную склейку добавлена самостоятельная посадка59; прежнее решение пропустить посадку отменено. Готовый эпизод с грибами сохраняется. Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`). **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход над озером и штопор вертикально сквозь грозовую тучу с молниями. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег Набу, где Серёга сел в 39, ч. 2 14:27</a> (только место; двух бегущих не переносить); @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">новый референс лесной планеты</a>.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег Набу, где Серёга сел в 39, ч. 2 14:27</a> (только место; двух бегущих не переносить); @Image4 — <a href="references/scenes/scene-37/S37-ship-clean-roof.png">корпус корабля Канцлера, ч. 1 09:03</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">новый референс лесной планеты</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -2845,7 +2845,7 @@ Seedance 2.0 task `e6a5cf9a3d04413e943c9bbbff9e1f73` технически зав
 <figure><a href="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" alt="S37-cockpit-bread-milk-helper.png" loading="lazy"></a><figcaption>Кабина с Серёгой и рисунками хлеба и молока; модельный лист приоритетнее helper.</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-lakeside-takeoff-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-lakeside-takeoff-helper.png" alt="S37-lakeside-takeoff-helper.png" loading="lazy"></a><figcaption>Взлёт того же плоского корабля у озера; корпус из ч. 1 09:03.</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="S37-cockpit-source-part1-09m25s.png" loading="lazy"></a><figcaption>Фактический кадр ч. 1, 09:25: только геометрия кабины; бой и посторонних не переносить.</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="S37-ship-source-part1-09m03s.png" loading="lazy"></a><figcaption>Фактический кадр ч. 1, 09:03: только корпус корабля.</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="Корабль Серёги: крыша без человека" loading="lazy"></a><figcaption>Очищенный референс по кадру ч. 1, 09:03: фигура на крыше удалена; исходник сохранён.</figcaption></figure>
 </div>
 
 [Скачать @Video1 — фактический отрывок ч. 1, 09:20–09:55](https://drive.google.com/file/d/1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m/view). Архивный источник геометрии; в текущий запуск не загружается, вместо него используются реальные кадры @Image4 и @Image5.
@@ -2867,13 +2867,16 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3.0 | Photoreal live-action space-opera action cinema | Serega blasts off the Naboo lakeshore, rips a low pass over the lake, corkscrews up through a thunderhead, and the map module points him to a distant forest planet
 
 REFERENCES / AUTHORITY ORDER:
-@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image4 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons in it.
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact map module prop.
 @Image3 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners are NOT part of the shot, and its low evening sun is replaced by bright clear daylight.
 @Image6 — the created destination-planet reference: blue-green globe, dense green forested continents, white cloud bands, thin blue atmosphere. Planet design only; show it small and distant, not at the reference's large framing.
 Priority: @Image4 controls the hull; @Image5 controls the cockpit; @Image1 controls Serega's face and costume; @Image2 controls the prop; @Image3 controls the lakeshore; @Image6 controls the destination planet.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the frame. No pilot droid, co-pilot, cats or other Jedi. His face appears only in the cockpit, in medium shots with even light; never a tiny blurred face during the fast flight.
@@ -2935,9 +2938,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`.
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`; @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png`.
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`; @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png`.
 
 #### 37 · Seedance 2.0 часть 1
 
@@ -2947,10 +2950,13 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | P
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA.
-@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; ignore the city and the person on its roof.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
 @Image4 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners are NOT part of the shot, and its low evening sun is replaced by bright clear daylight.
 Priority: @Image1 face and costume; @Image2 hull; @Image3 cockpit; @Image4 lakeshore.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the scene. No pilot droid, co-pilot, cats or other Jedi. His face appears only in the cockpit, in a medium shot with even light.
@@ -3007,11 +3013,14 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | P
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the craft rolling into the dark base of the thunderhead above the Naboo lake, lightning inside the cloud. Absolute START authority.
 @Image1 — absolute identity of SEREGA.
-@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; ignore the city and the person on its roof.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
 @Image4 — the exact map module prop.
 @Image5 — the destination-planet reference: blue-green globe, dense green forested continents, white cloud bands, thin blue atmosphere. Planet design only; small and distant.
 Priority: @Video1 start; @Image1 face and costume; @Image2 hull; @Image3 cockpit; @Image4 prop; @Image5 destination planet.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the scene. No pilot droid, co-pilot, cats or other Jedi. His face appears only in the cockpit, in a medium shot with even light.
@@ -3101,7 +3110,7 @@ Seedance 2.0 task `008058a4705c45c089256116427153d4` технически зав
 
 - @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
 - @Image2 — <a href="references/scenes/scene-19/S19-Image1-topview-source.png">пейзаж Набу: озеро, луг, дворец на дальнем берегу</a> (только пейзаж; рыбаков с кадра не переносить);
-- @Image3 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
+- @Image3 — <a href="references/scenes/scene-37/S37-ship-clean-roof.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
 - @Image4 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег перед прыжком, ч. 2 14:27</a>, только геометрия и вечерний свет.
 - @Image5 — <a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png">стоянка с ящиками рыбы, ч. 2 14:16</a>, только реквизит; людей и ночной свет не переносить.
 - @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (короткий план со стикером «хлеб и молоко», решение владельца 17.10);
@@ -3109,7 +3118,7 @@ Seedance 2.0 task `008058a4705c45c089256116427153d4` технически зав
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image2 — озеро Набу"></a><figcaption>@Image2 — озеро Набу</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image3 — корпус корабля Канцлера"></a><figcaption>@Image3 — корпус корабля Канцлера</figcaption></figure><figure><a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-camp-film-part2-14m16s.png.webp" alt="@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16"></a><figcaption>@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16</figcaption></figure><figure><a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-shore-film-part2-14m27s.png.webp" alt="@Image4 — берег перед прыжком"></a><figcaption>@Image4 — берег, ч. 2 14:27</figcaption></figure></div>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="@Image3 — корпус корабля Канцлера"></a><figcaption>@Image3 — корпус корабля Канцлера</figcaption></figure><figure><a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-camp-film-part2-14m16s.png.webp" alt="@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16"></a><figcaption>@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16</figcaption></figure><figure><a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-shore-film-part2-14m27s.png.webp" alt="@Image4 — берег перед прыжком"></a><figcaption>@Image4 — берег, ч. 2 14:27</figcaption></figure></div>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
@@ -3125,13 +3134,16 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3.0 | Photoreal live-action space-opera action cinema | Serega skims the evening Naboo lake at wave-top height, banks hard around a rocky islet, slams down by the abandoned fishing camp and strides into the lake after the Jedi
 
 REFERENCES / AUTHORITY ORDER:
-@Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image3 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image4 — genuine film frame of the exact lakeshore immediately BEFORE the two fishermen jump: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and evening light only; remove the two runners. The empty post-jump state is the new scene.
 @Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered caught fish and stone-ring fire spot. Props only; remove the sleeping people and do not copy its night lighting or lit fire. The camp is now deserted.
 @Image6 — genuine cockpit of the same craft: seats, console, windows and interior geometry ONLY, for one short beat.
 @Image2 — Naboo landscape look: blue lake, bright green lakeshore meadow, rounded trees, a pale domed palace on the far shore. Landscape and architecture only; the two fishermen in this image are NOT part of the shot.
 @Image1 — absolute identity of SEREGA.
 Priority: @Image3 controls the vehicle; @Image4 controls the location layout and light; @Image2 fills in landscape detail where @Image4 is ambiguous; @Image1 controls Serega's face and costume; @Image6 controls the cockpit interior.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry at the start of the scene. He is the only person in the entire scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face is read only in medium shots with even warm light; never a tiny blurred face during the fast flight.
@@ -3197,9 +3209,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image5 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image6 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image5 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image6 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image4 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image5 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image4 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image5 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
 
 #### 39 · Seedance 2.0 часть 1
 
@@ -3209,12 +3221,15 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | P
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA.
-@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; ignore the city and the person on its roof.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine cockpit of the same craft: interior geometry ONLY; no fight, people or weapons from it.
 @Image4 — genuine film frame of the exact lakeshore: sandy bank, grass edges, treeline, evening sun and water geometry. Layout and evening light only; no runners.
 @Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered fish and stone-ring fire spot. Props only; no people, no night light, no fire.
 @Image6 — Naboo landscape look: blue lake, green meadow, rounded trees, a pale domed palace on the far shore, fishing rods and brown bottles. Landscape and those props only; no fishermen.
 Priority: @Image1 face and costume; @Image2 vehicle; @Image3 cockpit; @Image4 location and light; @Image6 landscape detail; @Image5 camp props.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry. He is the only person in the scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face appears only in the cockpit, in a medium shot with even warm light.
@@ -3274,11 +3289,14 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera action comedy | P
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the craft parked on the evening meadow beside the abandoned camp, hatch closed, the lake beside it. Absolute authority for the START STATE, the craft's position, the camp layout and the light.
 @Image1 — absolute identity of SEREGA.
-@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine film frame of the exact lakeshore: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and light only; remove the two runners.
 @Image4 — genuine earlier camp frame: the exact two fish-filled crates, scattered fish and stone-ring fire spot. Props only; remove the sleeping people, no night lighting, no lit fire.
 @Image5 — Naboo landscape look: blue lake, green meadow, rounded trees, pale domed palace on the far shore, fishing rods and brown bottles. Landscape and those props only; the two fishermen are NOT part of the shot.
 Priority: @Video1 controls the start; @Image1 controls Serega's face and costume; @Image2 controls the vehicle; @Image3 controls the shore; @Image4 and @Image5 control the camp props.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry until he enters the water. He is the only person in the scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face is read in a medium shot with even warm light for at least two seconds.
@@ -3368,7 +3386,7 @@ Seedance 2.0 task `1751294fbf5f49dbb00a0f44401486ca` технически зав
 - @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
 - @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
 - @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">точные руины планеты ситхов</a>;
-- @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
+- @Image4 — <a href="references/scenes/scene-37/S37-ship-clean-roof.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
 - @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних);
 - @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">лесная планета, созданный референс из Scene 37</a>.
 
@@ -3376,7 +3394,7 @@ Seedance 2.0 task `1751294fbf5f49dbb00a0f44401486ca` технически зав
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image2 — модуль карты"></a><figcaption>@Image2 — модуль карты</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины планеты ситхов"></a><figcaption>@Image3 — руины планеты ситхов</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image4 — корпус корабля Канцлера"></a><figcaption>@Image4 — корпус корабля Канцлера</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="@Image4 — корпус корабля Канцлера"></a><figcaption>@Image4 — корпус корабля Канцлера</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="@Image6 — лесная планета"></a><figcaption>@Image6 — лесная планета</figcaption></figure></div>
 
@@ -3393,13 +3411,16 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3.0 | Photoreal live-action dark space-fantasy, fast aerial action | Serega dives through dust, knifes between two colossal statues, slams down at the Sith temple and freezes at an unseen saber hum
 
 REFERENCES / AUTHORITY ORDER:
-@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof in this source frame are not part of the shot. Do not design a new ship.
+@Image4 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons visible in this source frame.
 @Image3 — the exact ancient ruin city of the destination planet: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, broken pillars, red rock spires, low golden-orange sunset haze. Absolute authority for architecture, palette and light of the landing site.
 @Image6 — the forest planet Serega has just left: blue-green globe, dense green forested continents, white cloud bands and thin blue atmosphere. Planet design only; show it small and receding in the side window, not at the reference image's large framing scale.
 @Image2 — the exact map module prop design.
 @Image1 — absolute identity of SEREGA.
 Priority: @Image4 controls the hull; @Image5 controls the cockpit; @Image3 controls the destination world; @Image6 controls the receding forest planet; @Image2 controls the prop; @Image1 controls Serega's face and costume.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight but intact; a lightsaber hilt hangs at his belt. He is the only person in the scene. His face is shown only in the cockpit and the final shot, medium framing, even light.
@@ -3465,9 +3486,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (лесная планета).
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-37/S37-ship-clean-roof.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (лесная планета).
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image3 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус).
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image3 — `references/scenes/scene-37/S37-ship-clean-roof.png` (корпус).
 
 #### 40 · Seedance 2.0 часть 1
 
@@ -3479,10 +3500,13 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact map module prop design.
 @Image3 — the exact ancient ruin city of the destination planet: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, red rock spires, low golden-orange sunset haze. Architecture, palette and light only.
-@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image4 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
 @Image6 — the forest planet Serega has just left: blue-green globe, green continents, white cloud bands. Planet design only; small and receding in the side window.
 Priority: @Image1 controls Serega's face and costume; @Image4 the hull; @Image5 the cockpit; @Image3 the destination world; @Image6 the receding planet; @Image2 the prop.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight; a lightsaber hilt at his belt. He is the only person in the scene. His face appears only in the cockpit, medium framing, even light.
@@ -3540,8 +3564,11 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the craft diving through orange haze toward the two colossal hooded statues. Absolute authority for the START STATE, the craft's position, direction and the light.
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact ancient ruin city: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, broken pillars, golden-orange sunset haze. Architecture, palette and light of the landing site.
-@Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image3 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 Priority: @Video1 controls the start; @Image1 controls Serega's face and costume; @Image3 the hull; @Image2 the ruins.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight but intact; a lightsaber hilt hangs at his belt. He is the only person in the scene. No cats, Jedi, Sith or droids. His face is shown only in the final shot, medium framing, even sunset light.
@@ -3622,7 +3649,7 @@ Wan 3.0 task `bf3465e1c4de4a869f4bba5f2eed5acf` технически завер�
 - @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
 - @Image2 — <a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png">древний ПК в нише храма — последний кадр Scene 35</a> (только ПК: блок, CRT, клавиатура);
 - @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">руины планеты ситхов</a>;
-- @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
+- @Image4 — <a href="references/scenes/scene-37/S37-ship-clean-roof.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
 - @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних);
 - @Image6 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">крейсер Канцлера снаружи, настоящий кадр ч. 1, 11:22</a>.
 
@@ -3630,7 +3657,7 @@ Wan 3.0 task `bf3465e1c4de4a869f4bba5f2eed5acf` технически завер�
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" target="_blank" rel="noopener"><img src="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" alt="@Image2 — древний ПК"></a><figcaption>@Image2 — древний ПК</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины планеты ситхов"></a><figcaption>@Image3 — руины планеты ситхов</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image4 — корпус корабля Канцлера"></a><figcaption>@Image4 — корпус корабля Канцлера</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="@Image4 — корпус корабля Канцлера"></a><figcaption>@Image4 — корпус корабля Канцлера</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure><figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-41/S41-cruiser-film-part1-11m22s.png.webp" alt="@Image6 — крейсер, настоящий кадр ч. 1 11:22"></a><figcaption>@Image6 — крейсер, настоящий кадр ч. 1 11:22</figcaption></figure></div>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
@@ -3648,11 +3675,14 @@ Optimized for Wan 3.0 | Photoreal live-action space-fantasy action, deadpan | Se
 REFERENCES / AUTHORITY ORDER:
 @Image2 — genuine frame of the temple niche: the exact yellowed beige 1990s system unit, the heavy beige CRT monitor and the keyboard. Absolute authority for the shape, colour, wear and dust of these three objects; the niche and the kneeling figure are not part of this shot.
 @Image3 — the exact ancient ruin city outside the temple: ochre-red carved stone, colossal hooded statues, the wide temple stair, golden-orange sunset haze.
-@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image4 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
 @Image6 — Serega's huge imperial flagship exactly as already shown earlier in the film: silhouette, colour, scale and hangar. Use the flagship only.
 @Image1 — absolute identity of SEREGA.
 Priority: @Image2 controls the computer objects; @Image3 controls the ruins; @Image4 controls the hull; @Image5 controls the cockpit; @Image6 controls the flagship; @Image1 controls Serega's face and costume.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the scene. His face is shown only in medium framing with even light; never a tiny face during the flight action.
@@ -3718,9 +3748,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина).
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-37/S37-ship-clean-roof.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина).
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус); @Image4 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image5 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png` (крейсер/флагман).
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-37/S37-ship-clean-roof.png` (корпус); @Image4 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image5 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png` (крейсер/флагман).
 
 #### 41 · Seedance 2.0 часть 1
 
@@ -3732,9 +3762,12 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA.
 @Image2 — genuine frame of the temple niche: the exact yellowed beige 1990s system unit, the heavy beige CRT monitor and the keyboard. Shape, colour, wear and dust of these three objects only; the niche and the kneeling figure are not part of this shot.
 @Image3 — the exact ancient ruin city outside the temple: ochre-red carved stone, colossal hooded statues, the wide temple stair, golden-orange sunset haze.
-@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image4 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
 Priority: @Image1 controls Serega's face and costume; @Image2 the computer; @Image3 the ruins; @Image4 the hull; @Image5 the cockpit.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the scene. His face is shown in medium framing with even light; never a tiny face during the action.
@@ -3792,10 +3825,13 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the craft climbing steeply away from the ruins into the orange sky. Absolute authority for the START STATE, the craft and its direction.
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact yellowed beige 1990s system unit, heavy beige CRT monitor and keyboard. These objects only; not the niche or the kneeling figure.
-@Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image3 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image4 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
 @Image5 — Serega's huge imperial flagship exactly as shown earlier in the film: silhouette, colour, scale and hangar. Use the flagship only.
 Priority: @Video1 controls the start; @Image1 Serega's face and costume; @Image2 the computer; @Image3 the hull; @Image4 the cockpit; @Image5 the flagship.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the scene. His face appears only in the cockpit, medium framing, even light.
@@ -6211,11 +6247,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** После поломки шаттла 43–44, до татуинской ветки (кантина 33:50 → погоня → 16/42/48). **Правка владельца 17.10, 23:58:** посадка не у руин с червём, а на окраине татуинского города: в фильме Серёга на Татуине сначала появляется в кантине, руины — конец блока. Вход в личный корабль везде одинаковый: боковой люк с короткой рампой. **Владелец 18.10, 00:17:** кадра города нет — город задан описанием в промте (TATOOINE TOWN LOCK), отдельного слота нет. Из негатива убрано «missing pilot» (пилот — сам Серёга); бесплатный интерфейс принимает видео + несколько изображений (владелец); сейчас входов шесть: видео + 5 изображений. Бесшовное начало по настоящему концу НОВОЙ44: Серёга ещё смотрит на техников, на полу одно отвалившееся крыло, на шаттле пустое крепление. Он переводит взгляд с повреждения на личный корабль, молча решает пересесть и идёт к нему. Камера раскрывает второй, уже припаркованный корабль плавным движением; первый не превращается во второй и не ремонтируется. Показываем пересадку, перелёт и посадку. Точный старт нельзя подготовить до результата44; новая поломка здесь не происходит. В монтаже сохранить реакцию на поломку, пересадку и ясный показ записки; сокращать прежде всего внешние планы перелёта. **Динамика (владелец 18.10.2026):** сцена переписана активнее — слалом под корпусом разрушителя, бреющий полёт над дюнами с хвостом песка и жёсткая посадка у окраины города. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
-**Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
+**Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-clean-roof.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image2 — личный корабль, настоящий кадр фильма" loading="lazy"></a><figcaption>@Image2 — личный корабль, настоящий кадр фильма</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="@Image2 — личный корабль, настоящий кадр фильма" loading="lazy"></a><figcaption>@Image2 — личный корабль, настоящий кадр фильма</figcaption></figure>
 <figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image3 — ангар разрушителя H28A" loading="lazy"></a><figcaption>@Image3 — ангар разрушителя H28A</figcaption></figure>
 <figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" alt="@Image4 — разрушитель, настоящий кадр фильма" loading="lazy"></a><figcaption>@Image4 — разрушитель, настоящий кадр фильма</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина личного корабля" loading="lazy"></a><figcaption>@Image5 — кабина личного корабля</figcaption></figure>
@@ -6238,11 +6274,14 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, fast kinetic f
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, the empty wing root, the right wing raised, hangar light and camera axis. Absolute opening-state authority. Continue from that final frame without replaying the fall.
 @Image1 — absolute identity of SEREGA: face, age, body and purple robe.
-@Image2 — genuine film frame of Serega's OWN flat wedge-shaped dark-grey craft: exact hull, proportions, colour, engines and scale. Vehicle design only; ignore the source city, the person on its roof and any other ships.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — the destroyer's hangar architecture and white/amber working light only. Its intact raised-wing shuttle is NOT the damage authority: keep the broken shuttle exactly as @Video1 shows it. No disco lights.
-@Image4 — genuine film exterior of the enormous grey wedge-shaped destroyer: silhouette, scale, ribbed underside and hangar opening. The departure vessel, not Serega's craft.
+@Image4 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image5 — genuine cockpit of the same small craft: seats, console, forward windows and interior geometry only, for one short interior beat.
 Priority: @Video1 controls the opening and the permanent shuttle damage; @Image1 Serega; @Image2 the personal craft; @Image3–@Image5 their assigned places; the Tatooine town is defined by the TATOOINE TOWN LOCK text. The two ships always remain distinct.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile, in motion and across cuts.
@@ -6308,9 +6347,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Video1 — последние секунды исправленной 44 (одно отвалившееся крыло, пустое крепление, три техника); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-28/H28A-ceremony.png`; @Image4 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
+**Входы части 1:** @Video1 — последние секунды исправленной 44 (одно отвалившееся крыло, пустое крепление, три техника); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-28/H28A-ceremony.png`; @Image4 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
 
-**Входы части 2:** @Video1 — конец части 1 (корабль уходит из-под кормы разрушителя в космос); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`.
+**Входы части 2:** @Video1 — конец части 1 (корабль уходит из-под кормы разрушителя в космос); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`.
 
 #### 52 · Seedance 2.0 часть 1
 
@@ -6321,11 +6360,14 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kine
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, the empty wing root, hangar light and camera axis. Absolute opening authority; continue its final frame, never replay the fall.
 @Image1 — absolute identity of SEREGA: face, age, body and purple robe.
-@Image2 — Serega's OWN flat wedge-shaped dark-grey craft: hull, proportions, colour, engines. Vehicle design only; ignore the city and the person on its roof.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — the destroyer's hangar architecture and white/amber working light only; its intact shuttle is not the damage authority.
 @Image4 — the enormous grey wedge-shaped destroyer exterior: silhouette, scale, ribbed underside, hangar opening.
 @Image5 — the craft's genuine cockpit: interior geometry only.
 Priority: @Video1 opening and shuttle damage; @Image1 Serega; @Image2 the personal craft; @Image3–@Image5 their places. The two ships always remain distinct.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; same face and robe in profile, in motion and across cuts.
@@ -6382,8 +6424,11 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kine
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the personal craft flying left-to-right in black space just clear of the destroyer's stern. Absolute START authority for the craft's look, colour and screen direction.
 @Image1 — absolute identity of SEREGA: face, age, body and purple robe.
-@Image2 — Serega's OWN flat wedge-shaped dark-grey craft: hull, proportions, colour, engines, scale. Vehicle design only; ignore the source city, the person on its roof and other ships.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 Priority: @Video1 controls the opening frame; @Image1 controls Serega; @Image2 controls the craft. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega, the only person aboard; no co-pilot, crew, cats, Jedi or droids.
@@ -6451,11 +6496,11 @@ Seedance 2.0 task `4b323d19cf444009a3b3fc4b3c3b3aed` технически зав
 
 **Контекст использования:** После того как Серёга забрал татуинский фрагмент в 48; перед прибытием на Набу в 39. Отдельный взлёт с Татуина, которого пока нет. Короткая временная склейка переносит действие от поля боя к личному кораблю, который ждёт там же, где сел в 52, — на окраине татуинского города (правка владельца 17.10, 23:58; руины с червём — место боя, не стоянка); точного финального кадра 48 для такой самостоятельной связки не требуется. Набу не оказывается соседним небесным телом: сцена заканчивается уходом от Татуина, посадка на Набу остаётся в 39. **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход по узкому каньону у города и вертикальный взлёт мимо двух солнц. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль</a>; @Image3 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">настоящая кабина</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">один модуль карты</a>. Город Татуина задан описанием в промте (владелец 18.10, 00:17: кадра нет).
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-clean-roof.png">личный корабль</a>; @Image3 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">настоящая кабина</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">один модуль карты</a>. Город Татуина задан описанием в промте (владелец 18.10, 00:17: кадра нет).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image2 — личный корабль" loading="lazy"></a><figcaption>@Image2 — личный корабль</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="@Image2 — личный корабль" loading="lazy"></a><figcaption>@Image2 — личный корабль</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image3 — настоящая кабина" loading="lazy"></a><figcaption>@Image3 — настоящая кабина</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image4 — один модуль карты" loading="lazy"></a><figcaption>@Image4 — один модуль карты</figcaption></figure>
 </div>
@@ -6476,10 +6521,13 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, fast kinetic f
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity and costume of SEREGA.
-@Image2 — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour and proportions. Vehicle design only; ignore the source city's people and buildings.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — its genuine cockpit: seats, console, forward windows and hard interior geometry ONLY. Do not import the fight, other people, poses or weapons visible in that source frame.
 @Image4 — exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm-amber segmented strips. Prop geometry only.
 Priority: @Image1 controls Serega; @Image2 the exterior of the craft; @Image3 the cockpit; @Image4 the prop. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds after the desert fight. Exactly one Serega; same face and robe in every cockpit shot. No co-pilot, crew, cats, Jedi, droids or new accessories.
@@ -6543,9 +6591,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`.
 
-**Входы части 2:** @Video1 — конец части 1 (корабль несётся по каньону к выходу); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
+**Входы части 2:** @Video1 — конец части 1 (корабль несётся по каньону к выходу); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
 
 #### 53 · Seedance 2.0 часть 1
 
@@ -6555,10 +6603,13 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kine
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity and costume of SEREGA.
-@Image2 — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour, proportions. Vehicle design only; ignore the source city's people and buildings.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.
 @Image4 — exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm-amber segmented strips. Prop geometry only.
 Priority: @Image1 Serega; @Image2 the craft exterior; @Image3 the cockpit; @Image4 the prop. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds after the desert fight. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.
@@ -6616,9 +6667,12 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kine
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the craft racing low through the sandstone canyon toward its bright mouth. Absolute START authority for the craft, the canyon, light and screen direction.
 @Image1 — absolute identity and costume of SEREGA.
-@Image2 — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour, proportions. Vehicle design only; ignore the source city's people and buildings.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.
 Priority: @Video1 the opening; @Image1 Serega; @Image2 the craft exterior; @Image3 the cockpit.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.
@@ -7467,11 +7521,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
 
-**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — лицо и одежда"></a><figcaption>Серёга — лицо и одежда</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="личный корабль — только корпус"></a><figcaption>личный корабль — только корпус</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="личный корабль — только корпус"></a><figcaption>личный корабль — только корпус</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="кабина — только геометрия"></a><figcaption>кабина — только геометрия</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="Кашиик из космоса"></a><figcaption>Кашиик из космоса</figcaption></figure>
 <figure><a href="references/scenes/scene-61/S61-owner-video-opening.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-61/S61-owner-video-opening.jpg" alt="лес — только окружение, без персонажей"></a><figcaption>лес — только окружение, без персонажей</figcaption></figure>
@@ -7483,7 +7537,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы30с:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Входы30с:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7491,11 +7545,14 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | A forceful Ka
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute SEREGA identity, body and costume.
-@Image2 — genuine personal-craft exterior: hull geometry, scale and design only. Ignore the city and the figure on its roof.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
 @Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
 @Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
 Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
@@ -7556,9 +7613,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="sd20x2">
 
-**Входы части1:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Входы части1:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
-**Входы части2:** @Video1 — последние3с нового результата59P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Входы части2:** @Video1 — последние3с нового результата59P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
 #### 59 · Seedance 2.0 часть 1
 
@@ -7568,11 +7625,14 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part1 of
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute SEREGA identity, body and costume.
-@Image2 — genuine personal-craft exterior: hull geometry, scale and design only. Ignore the city and the figure on its roof.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
 @Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
 @Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
 Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
@@ -7629,12 +7689,15 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part2 of
 REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last3seconds of this scene's Part1; absolute opening position, trajectory, gear state and lighting. Continue its last frame; no replay.
 @Image1 — absolute SEREGA identity, body and costume.
-@Image2 — genuine personal-craft exterior: hull geometry, scale and design only. Ignore the city and the figure on its roof.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
 @Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
 @Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
 Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
 At the opening @Video1 overrides the stills for moment-to-moment state.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
@@ -7698,11 +7761,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
 
-**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (удаляющийся Кашиик). **Видеореференс:** последние3с сохранены отдельно в исходном проекте; источник/идентификатор/SHA — [source-continuity.json](references/scenes/scene-60/source-continuity.json).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (удаляющийся Кашиик). **Видеореференс:** последние3с сохранены отдельно в исходном проекте; источник/идентификатор/SHA — [source-continuity.json](references/scenes/scene-60/source-continuity.json).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — точная внешность"></a><figcaption>Серёга — точная внешность</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="личный корабль"></a><figcaption>личный корабль</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-clean-roof.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-clean-roof.png" alt="личный корабль"></a><figcaption>личный корабль</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="кабина"></a><figcaption>кабина</figcaption></figure>
 <figure><a href="references/scenes/scene-60/S60-owner-video-final.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-60/S60-owner-video-final.jpg" alt="настоящий последний кадр первого видео"></a><figcaption>настоящий последний кадр первого видео</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="модуль карты"></a><figcaption>модуль карты</figcaption></figure>
@@ -7715,7 +7778,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы30с:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (удаляющийся Кашиик).
+**Входы30с:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (удаляющийся Кашиик).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7724,12 +7787,15 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | Direct contin
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the supplied battle video's actual final3seconds: Serega has just thrown the Wookiees, Lesha lies left, Vitalik reclines right with the blue saber still glowing. Begin from its LAST frame, after the hit; never replay the punch, shockwave or fall.
 @Image1 — SEREGA exact identity and purple robe; no appearance reset against the opening video.
-@Image2 — the genuine flat dark-grey personal-craft exterior; vehicle geometry only, ignore the city and the roof figure.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine cockpit architecture, controls and seats only; ignore the source fight, other person, sabers and city.
 @Image4 — exact final frame of the supplied battle video: initial blocking, fallen bodies, broken trunks and warm grey forest haze. This is an OPENING state, never the later boarding or flight state.
 @Image5 — exact map-module prop; only shown during the later cockpit navigation beat, not an extra exchange in the forest.
 @Image6 — Kashyyyk globe and atmosphere for the departure exterior and receding planet through the side window.
 Priority: @Video1 controls the opening action state and existing opponents; @Image1 the lead identity; @Image2/@Image3 the craft; @Image4 supports the exact start; @Image5 the prop; @Image6 the planet.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
@@ -7791,9 +7857,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="sd20x2">
 
-**Входы части1:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (точный старт).
+**Входы части1:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (точный старт).
 
-**Входы части2:** @Video1 — последние3с нового результата60P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик).
+**Входы части2:** @Video1 — последние3с нового результата60P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик).
 
 #### 60 · Seedance 2.0 часть 1
 
@@ -7804,10 +7870,13 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part1 of
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the supplied battle video's actual final3seconds: Serega has just thrown the Wookiees, Lesha lies left, Vitalik reclines right with the blue saber still glowing. Begin from its LAST frame, after the hit; never replay the punch, shockwave or fall.
 @Image1 — SEREGA exact identity and purple robe; no appearance reset against the opening video.
-@Image2 — the genuine flat dark-grey personal-craft exterior; vehicle geometry only, ignore the city and the roof figure.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine cockpit architecture, controls and seats only; ignore the source fight, other person, sabers and city.
 @Image4 — exact final frame of the supplied battle video: initial blocking, fallen bodies, broken trunks and warm grey forest haze. This is an OPENING state, never the later boarding or flight state.
 Priority: @Video1 fixes the entire opening, @Image1 fixes Serega, @Image2 the hull, @Image3 the cabin, @Image4 the exact first-frame composition.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
@@ -7865,11 +7934,14 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part2 of
 REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last3seconds of THIS scene's generated Part1, with Serega aboard and the ship first lifting. Continue its last frame; do not use the earlier battle-video ending here.
 @Image1 — SEREGA exact identity and purple robe.
-@Image2 — the genuine personal-craft hull only; ignore the city and roof figure.
+@Image2 — cleaned vehicle-only reference derived from the original film frame: the same flat wedge-shaped dark-grey craft, exact hull silhouette, proportions, colour, engines and scale. The roof is empty. Use vehicle design only; ignore the source city.
 @Image3 — genuine cockpit geometry only; ignore source people, weapons and combat.
 @Image4 — exact map-module prop for the final navigation beat.
 @Image5 — Kashyyyk planet appearance, receding after the climb.
 Priority: @Video1 controls initial state and movement; @Image1 the sole pilot; @Image2/@Image3 the ship; @Image4 the module; @Image5 the planet.
+
+SHIP OCCUPANCY — CRITICAL:
+The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
