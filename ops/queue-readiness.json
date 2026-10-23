@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_queue_sha256": "9d2fc261fd972cb9cb2fd2d21af602217674aaec5ea014eea59b794f59e85bc7",
-  "source_task_map_sha256": "294e2cce4e1d07f928f4c1b9de69911c6c20818cf36d143494329b3bd8121aee",
-  "topview_checked_at": "2026-10-23T20:40:16Z",
+  "source_task_map_sha256": "97d383a8f59eca5d23a81e79b7c59b921c9afcfbea1fd807db97064764fa53b6",
+  "topview_checked_at": "2026-10-23T21:10:16Z",
   "items": [
     {
       "id": "S13-S13",
@@ -275,6 +275,15 @@
       "queue_state": "blocked_inputs"
     },
     {
+      "id": "S59-SEED20-P2",
+      "scene_id": 59,
+      "part_label": "Часть 2",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
       "id": "S60-SEED20-P1",
       "scene_id": 60,
       "part_label": "Часть 1",
@@ -327,17 +336,8 @@
       "ready": false,
       "text": "@Video1: ждёт результат 62 · Seedance 2.0 часть 1 (ещё не запущен)",
       "queue_state": "blocked_inputs"
-    },
-    {
-      "id": "S59-SEED20-P2",
-      "scene_id": 59,
-      "part_label": "Часть 2",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-23T21:05:12.846323Z"
+  "checked_at": "2026-10-23T21:10:20.812462Z"
 }
