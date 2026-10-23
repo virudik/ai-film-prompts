@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-23T18:01:51+00:00",
+ "generated_at": "2026-10-23T18:39:52+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,50 +10,50 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "80852b6a2c9efc457653d3908e97938d847dc8e50a1e884b7834f6077edb2bae",
-   "bytes": 34937
+   "sha256": "970b1df27dbc8882726629409fb30de41b7295c6bef44c8bddc40d466d763fb1",
+   "bytes": 35457
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "67832b3ea70ddd89bbdfaacb1053b21196682bec8d52e3762d1e8bc70881566c",
-   "bytes": 120921
+   "sha256": "3bf193dc33bc2cebbae3249f9658e43b9765dfb3e97efccd64a4181a3f498c1e",
+   "bytes": 121699
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "85dcec9db1d62abecade19eabd17a5c6052c200c0c494b0e564c2f87c0dc61c9",
-   "bytes": 32802
+   "sha256": "ee45b98ea0aec4cf843375bc2b2e4c435e8122cb223dba9158d40373e1d692da",
+   "bytes": 33580
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "ced0977348f3a1012127737481538bb4fb416878bcc1e68a7b9ef680660993cf",
-   "bytes": 66116
+   "sha256": "a5776e53da04d3c29256d39098696480e169686d64987ad077cb243e245abeb9",
+   "bytes": 66894
   },
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "fdf69c01f28c16424c8b00821b0b3b33543907d7e7999c061fc5fb64cd9810be",
-   "bytes": 74228
+   "sha256": "ccbdaca872d6fe00c32e1f90f011c16791a6b9d85552512421ef897d996b7c4b",
+   "bytes": 75006
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "482008e6d020da35376883ccd2b9fc9ad89955e36d3d554e4169ef41263d8a44",
-   "bytes": 15500
+   "sha256": "21803210ef2491ea3109faa979bc8eba6bfb82bfc6dcbe5de2784cc49034b441",
+   "bytes": 16278
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
    "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "448939a091b8611643b31836eb1497a8e49c6bce5ecf3456ae434f03860d67b7",
-   "bytes": 17729
+   "sha256": "d462c5410f5b4f936ece7962d3547d3ef27a90beb9439431ee09168b4ab75df4",
+   "bytes": 18509
   },
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "ce54dd900198406044bb581979c59506e255c688fe0dd0fca79b2675787edff3",
-   "bytes": 1042419
+   "sha256": "637c8fec78ea23949af38c6b012ad47c277580c902b04586a6b1d8df20fcf3d9",
+   "bytes": 1081897
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22760,
-  "above_marker_chars": 22760,
+  "chars": 23082,
+  "above_marker_chars": 23082,
   "recent_sections_below_marker": [],
-  "sha256_12": "8ed850bd7667",
+  "sha256_12": "4d379219e6d1",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 24,
-  "prompt_texts": 98,
+  "scenes": 25,
+  "prompt_texts": 101,
   "scene_ids": [
    13,
    16,
@@ -217,9 +217,10 @@
    58,
    59,
    60,
-   61
+   61,
+   62
   ],
-  "latest_scene": 61,
+  "latest_scene": 62,
   "reserved": [
    1,
    2,
@@ -285,7 +286,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 36432,
+   "offset": 36614,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -307,7 +308,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 62769,
+   "offset": 62951,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -327,7 +328,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 91306,
+   "offset": 91488,
    "chars": 187850,
    "sha256_12": "8c7b3a3e40e7"
   },
@@ -345,7 +346,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 279156,
+   "offset": 279338,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -367,7 +368,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 295512,
+   "offset": 295694,
    "chars": 24016,
    "sha256_12": "1bcbb827821d"
   },
@@ -391,9 +392,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 319528,
-   "chars": 33315,
-   "sha256_12": "875228f34276"
+   "offset": 319710,
+   "chars": 33943,
+   "sha256_12": "e8edb2707452"
   },
   {
    "id": 39,
@@ -413,9 +414,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 352843,
-   "chars": 31866,
-   "sha256_12": "bff855d4afde"
+   "offset": 353653,
+   "chars": 32478,
+   "sha256_12": "75a349656500"
   },
   {
    "id": 40,
@@ -435,9 +436,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 384709,
-   "chars": 32229,
-   "sha256_12": "756af206310a"
+   "offset": 386131,
+   "chars": 32687,
+   "sha256_12": "533d29334264"
   },
   {
    "id": 41,
@@ -457,9 +458,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 416938,
-   "chars": 31870,
-   "sha256_12": "dabaa98850c0"
+   "offset": 418818,
+   "chars": 32497,
+   "sha256_12": "809d46f72e41"
   },
   {
    "id": 42,
@@ -481,7 +482,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 448808,
+   "offset": 451315,
    "chars": 28588,
    "sha256_12": "fe1fdb023a69"
   },
@@ -500,7 +501,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 477396,
+   "offset": 479903,
    "chars": 26812,
    "sha256_12": "d95a85c48853"
   },
@@ -522,7 +523,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 504208,
+   "offset": 506715,
    "chars": 24396,
    "sha256_12": "89801383aa30"
   },
@@ -546,7 +547,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 528604,
+   "offset": 531111,
    "chars": 28429,
    "sha256_12": "5927c1ae8d09"
   },
@@ -573,7 +574,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 557033,
+   "offset": 559540,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -598,7 +599,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 649962,
+   "offset": 652469,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -626,7 +627,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 679842,
+   "offset": 682349,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -650,9 +651,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 712154,
-   "chars": 30992,
-   "sha256_12": "6051c22f6767"
+   "offset": 714661,
+   "chars": 31624,
+   "sha256_12": "73f7d37605a6"
   },
   {
    "id": 53,
@@ -674,9 +675,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 743146,
-   "chars": 28893,
-   "sha256_12": "83d3fc1dd5bb"
+   "offset": 746285,
+   "chars": 29558,
+   "sha256_12": "5c03141af4d6"
   },
   {
    "id": 56,
@@ -697,7 +698,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 772039,
+   "offset": 775843,
    "chars": 26377,
    "sha256_12": "c686a6b85f06"
   },
@@ -719,7 +720,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 798416,
+   "offset": 802220,
    "chars": 25917,
    "sha256_12": "be57e7a48f22"
   },
@@ -745,7 +746,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 824333,
+   "offset": 828137,
    "chars": 27349,
    "sha256_12": "27c0bddef568"
   },
@@ -766,9 +767,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 851682,
-   "chars": 27217,
-   "sha256_12": "4204febf165a"
+   "offset": 855486,
+   "chars": 27914,
+   "sha256_12": "582a6379c31c"
   },
   {
    "id": 60,
@@ -788,9 +789,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 878899,
-   "chars": 32237,
-   "sha256_12": "8713ffb4e12e"
+   "offset": 883400,
+   "chars": 33011,
+   "sha256_12": "a68354642ec8"
   },
   {
    "id": 61,
@@ -808,9 +809,31 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 911136,
-   "chars": 24817,
-   "sha256_12": "4b2ceeede4f2"
+   "offset": 916411,
+   "chars": 24846,
+   "sha256_12": "3c9040f5ef19"
+  },
+  {
+   "id": 62,
+   "title": "Татуин: после погони — обратно к противостоянию",
+   "target_engine": "Seedance 2.0",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 941257,
+   "chars": 29242,
+   "sha256_12": "d0819038f9c5"
   }
  ],
  "read_sets": {
