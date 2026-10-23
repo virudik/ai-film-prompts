@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "AUDIT-20261023: automation dedup and S58P1 launch; inspect new results",
   "acquired_at": "2026-10-23T01:09:07.912Z",
-  "expires_at": "2026-10-23T01:54:07.912Z",
-  "released_at": null,
-  "rules": "ops/CANON-LOCK.md"
+  "expires_at": null,
+  "released_at": "2026-10-23T01:17:12.044Z",
+  "rules": "ops/CANON-LOCK.md",
+  "release_note": "Audit and automation dedup verified; S58P1 verified Unlimited0 receipt; six previous results ready for QC; gallery issue and additional submissions honestly checkpointed."
 }

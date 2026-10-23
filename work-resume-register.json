@@ -1,21 +1,33 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T00:53:29.817Z",
+  "last_updated_at": "2026-10-23T01:17:12.044Z",
   "active_work": [
+    {
+      "work_id": "PROJECT-AUDIT-20261023",
+      "title": "Сверка прерываний, изображений и дублей автоматизации",
+      "status": "audit_complete_gallery_cause_unresolved",
+      "updated_at": "2026-10-23T01:17:12.044Z",
+      "next_action": "Audit delivered; gallery visibility remains unresolved, images are safely published on project site. Do not claim gallery repaired.",
+      "canonical_refs": [
+        "reports/project-audit-2026-10-23.json"
+      ],
+      "automation_changes_verified": true
+    },
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-      "status": "waiting_for_topview_results",
-      "updated_at": "2026-10-23T00:53:29.817Z",
-      "next_action": "Продолжать бесплатные запуски по текущему priority среди готовых пунктов. Если сцена ждёт предыдущий результат, пропустить её и заполнить слот следующей готовой. S57P1 уже отправлена; 58P1 — следующий готовый независимый кандидат, если ранние продолжения ещё не готовы. Настоящие входы, QC, запрет повторов, танцевальные согласования и пауза Разного сохраняются.",
+      "status": "results_ready_for_qc",
+      "updated_at": "2026-10-23T01:17:12.044Z",
+      "next_action": "User requested audit report before further production. S58P1 submitted6598a21c2c684d43b7cede9cfc987107 Unlimited0, do not repeat. Six earlier original tasks now success and require actual video/audio QC, archive and real final inputs before42P2/57P2/47P2. Reconcile additional tasks0da875de0b384971836be2e3a05d0c0b (S57P1 duplicate,15credits,unknown initiator) andbf27bb8615eb4ad5a44a86ec2efcd3be. Free-ready rule and Raznoe hold unchanged.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
         "790a7017632045a58d83ccc0891c44ac",
         "7863a2b3e8e54ca8a5d37468fc77d49f",
         "2175458eede64d0881ad70897155459a",
-        "a1ca4c36e31d45c5b4b72df7777d2592"
+        "a1ca4c36e31d45c5b4b72df7777d2592",
+        "6598a21c2c684d43b7cede9cfc987107"
       ],
       "new_submissions": [
         {
@@ -41,6 +53,12 @@
           "task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
           "credits": 0,
           "receipt": "reports/topview-queue-2026-10-16/S57-SEED20-P1-20261023.json"
+        },
+        {
+          "item_id": "S58-SEED20-P1",
+          "task_id": "6598a21c2c684d43b7cede9cfc987107",
+          "credits": 0,
+          "receipt": "reports/topview-queue-2026-10-16/S58-SEED20-P1-20261023.json"
         }
       ],
       "canonical_refs": [
@@ -48,7 +66,8 @@
         "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
         "reports/topview-quality-2026-10-23/review-summary.md",
         "ops/TOPVIEW-FREE-LAUNCH.md",
-        "reports/topview-queue-2026-10-16/ready-scene-rule-20261023.json"
+        "reports/topview-queue-2026-10-16/ready-scene-rule-20261023.json",
+        "reports/project-audit-2026-10-23.json"
       ],
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
       "owner_rule": {

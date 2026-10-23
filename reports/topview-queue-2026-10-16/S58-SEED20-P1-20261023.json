@@ -1,0 +1,191 @@
+{
+  "work_id": "AUDIT-S58-P1-20261023",
+  "item_id": "S58-SEED20-P1",
+  "verified_at": "2026-10-23T01:17:12.044Z",
+  "task_id": "6598a21c2c684d43b7cede9cfc987107",
+  "created_at": "2026-10-23 01:14:57Z",
+  "submit_count": 1,
+  "mode": "website Unlimited",
+  "credits_cost": 0,
+  "model": "Seedance 2.0",
+  "duration": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "inputs": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+      "required": true,
+      "input_status": "available",
+      "source_item_id": "S58-WRECK-IMAGE",
+      "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
+      "source_kind": "chatgpt_imagegen_saved_reference"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-57/S57-crash-avenue.png",
+      "required": true,
+      "input_status": "available",
+      "source_item_id": "S57-AVENUE-IMAGE",
+      "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+      "source_kind": "chatgpt_imagegen_saved_reference"
+    },
+    {
+      "slot": "@Image6",
+      "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+      "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "task_input_order": [
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Lkc8iLoWwlyySXrKim6Qb.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image1"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/piwk50RetrIC0xDryYKyg.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image2"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/DkJf4SG5Xyzw1pm8dhaC5.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image3"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ed0zUADZcwaIchjBqLaOz.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image4"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/btijzxa1iTh3Oo26A0wyy.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image5"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/cJoD0pHrGkS2bNS16soU0.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image6"
+    }
+  ],
+  "prompt_verification": {
+    "canonical_raw_sha256": "e444f7d9449437bf4063bae70937d4bdc0497f3434167193ac847fc8df4983b2",
+    "canonical_normalized_sha256": "7fd1182b95e5ab78cce137387ab5086bbf875469667a27edcdc22bced65c7be9",
+    "task_normalized_sha256": "40c2285199a13b9d21db64995983d196d5883a3b75d094f1fb192e5415506660",
+    "existing_matcher_equal": false,
+    "full_text_equal_after_mention_slash_padding": true,
+    "note": "Only serialized padding surrounding the slash between @Image3/@Image4 differs; all words, punctuation, order and references preserved. Existing helper does not normalize slash padding. No creative prompt change."
+  },
+  "proof_path": "reports/evidence/S58-P1-submitted-20261023.jpg",
+  "preflight_scan": {
+    "at": "2026-10-23T01:12:38.225Z",
+    "boards": 13,
+    "pages": 19,
+    "tasks": 926,
+    "active": [
+      {
+        "id": "0da875de0b384971836be2e3a05d0c0b",
+        "status": "running"
+      }
+    ],
+    "duplicates": []
+  },
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Lkc8iLoWwlyySXrKim6Qb.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/piwk50RetrIC0xDryYKyg.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/DkJf4SG5Xyzw1pm8dhaC5.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ed0zUADZcwaIchjBqLaOz.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/btijzxa1iTh3Oo26A0wyy.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/cJoD0pHrGkS2bNS16soU0.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image6"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 1 of 2: the jammed hatch is kicked out, two cats burst out of the smoke and run while the crashed RosKOTmos ship falls apart behind them\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  — START FRAME and crash-site authority: the crashed RosKOTmos ship lying tilted on its belly at the end of a ploughed trench in the dusty avenue, nose pressed into the carved statue pedestal, right engine nacelle burning with black smoke, toppled columns behind it, a fallen hooded stone head beside the tail. Position, damage, surroundings and light at the start.\n<<<Image2>>>  — the RosKOTmos ship design: elongated worn white hull, amber-glazed multi-pane cockpit, big red swoosh, dark-navy band, round cat-astronaut emblem with the РОСКОТМОС wordmark, small dorsal fin. Design and emblem only.\n<<<Image3>>>  — absolute identity of LUCHIK.\n<<<Image4>>>  — absolute identity of RYZHIK.\n<<<Image5>>>  — the avenue of tall carved ochre-stone columns and colossal hooded statues, temple far away. Surroundings only.\n<<<Image6>>>  — escape pose/composition helper ONLY: LUCHIK screen-left half a stride ahead, RYZHIK screen-right, natural four-legged gallop away from the open doorway. Use only after the hatch opens. IGNORE its later explosion and advanced rear-engine damage in this part; individual <<<Image3>>> /<<<Image4>>>  identities override helper faces.\nPriority: <<<Image3>>>  and <<<Image4>>>  control the cats; <<<Image1>>>  the wreck and start; <<<Image2>>>  the design and emblem; <<<Image5>>>  the surroundings; <<<Image6>>>  supplies running posture and the doorway, not the start or explosion timing.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nLUCHIK (<<<Image3>>> ): fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; white fur streaked grey with soot.\nRYZHIK (<<<Image4>>> ): fluffy ginger long-haired tabby with a warm orange coat, darker stripes and a lighter muzzle and chest; dusty, tail bottle-brushed.\nReal photoreal domestic cats at ordinary adult cat scale, running on four legs with real feline movement; never giant, half-human or on hind legs, no human hands. Lightsabers stowed and unlit. Both unhurt. No people.\n\nSHIP / WRECK LOCK — CRITICAL:\nThe same ship as <<<Image1>>>  and <<<Image2>>> : same paint, red swoosh and emblem. It falls apart in heavy believable stages: the burning right nacelle tears loose and rolls away, a landing strut buckles and the hull drops on one side, the dorsal fin topples, a crack opens along the red swoosh. No explosion in this part.\n\nLOCATION LOCK:\nThe dusty avenue at golden-orange sunset as in <<<Image1>>>  and <<<Image5>>> . Fine dust and ember sparks. No lava, vegetation, water or people.\n\nSTART STATE:\nExactly <<<Image1>>> : the wreck smoking at the end of the trench, side hatch closed, no one outside. The open-hatch helper is a later beat, never the opening frame.\n\nTIMELINE:\n[0:00–0:05] — JAMMED HATCH\nMedium exterior on the side hatch behind the cockpit: smoke seeps from its seams. A muffled thump from inside, a second thump and the hatch bulges; on the third thump it pops off its hinges and slaps flat into the dust; a thick puff of black smoke rolls out.\n\n[0:05–0:10] — OUT OF THE SMOKE\nCut to a low tracking shot at cat height: LUCHIK bursts out of the smoke at a full sprint, ears back; RYZHIK right behind him. Half a second after RYZHIK passes, a burning hull panel crashes down exactly where he just was; he doesn't look back.\n\n[0:10–0:15] — IT FALLS APART\nCut to a wide frontal angle, the cats running straight toward camera; behind them the ship falls apart: the burning right nacelle tears loose and rolls away, a landing strut buckles and the hull drops on one side, the dorsal fin topples, a crack opens along the red swoosh.\n\nEND STATE:\nWide frontal: both cats in full gallop toward camera, a fallen column just ahead of them; behind them the half-collapsed ship, the loose nacelle rolling, smoke and flames rising.\n\nCAMERA / SPACE:\nTwo motivated cuts (into 0:05 and 0:10). The cats run away from the ship toward the camera. Low cat-height tracking at real speed; comedy from timing and physics, not cartoon squash or speed ramps.\n\nPERFORMANCE:\nReal cats in an emergency, deadly serious: flattened ears, puffed fur, full-stretch gallops. No mugging or human gestures.\n\nLIGHTING / MATERIALS:\nLow golden-orange sunset, long shadows; orange firelight and black smoke; soot on fur, dented scorched painted metal, sparks and dust kicked up by paws.\n\nAUDIO:\nCrackling fire, three muffled thumps and a metal slap, galloping paws on grit, a burning panel crashing down, groaning and tearing metal, a nacelle rolling with a grinding clatter. No dialogue, narrator or music.\n\nNEGATIVE PROMPT:\ncats hurt, cats on fire, cats on hind legs, giant cats, half-human cats, human hands, identity swap, extra cats, people, explosion, fireball, ship design change, emblem changed or garbled, lightsabers ignited, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "boardTaskId": "6598a21c2c684d43b7cede9cfc987107",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "auto_review_note": "Ambiguous mode-menu click was rejected. Screenshot established Unlimited already selected and Credit Mode unselected; no mode change executed. Single Create returned useUnlimitMode=true and creditsCost=0."
+}
