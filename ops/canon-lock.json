@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:chatgpt-review",
-  "task": "Решения 42/44, правило без пустых коммитов, недельная чистка служебных файлов, починка drive-drift",
-  "acquired_at": "2026-10-23T13:48:07Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T13:57:36Z",
+  "task": "56 P1 и 48 P1 со склейки (без @Video1 предыдущей сцены), очередь",
+  "acquired_at": "2026-10-23T14:17:04Z",
+  "expires_at": "2026-10-23T15:17:04Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
