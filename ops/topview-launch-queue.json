@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T00:35:46.471Z",
+  "updated_at": "2026-10-23T00:36:56.248Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4320,7 +4320,7 @@
       "canonical_prompt_sha256": "da6486dbbf12cd1aac8b757b7db7b0a9ff1145c8dfc1bd39bf862783bb9a1fff",
       "normalized_prompt_sha256": "55e4827d746b6f4c31362eb33b82c95b8d621084cf4edd9527e59baa11779eb7",
       "priority": 6.1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4376,7 +4376,41 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "seregius-only-20261023-S40P2",
+        "claimed_at": "2026-10-23T00:36:56.248Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "full_prompt_normalized_match": true,
+          "inputs_sha256_verified": true,
+          "global_scan": {
+            "at": "2026-10-23T00:36:00.492Z",
+            "total": 922,
+            "boards": 13,
+            "pages": 19,
+            "active": [
+              {
+                "id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+                "status": "init"
+              },
+              {
+                "id": "2175458eede64d0881ad70897155459a",
+                "status": "init"
+              },
+              {
+                "id": "a1ca4c36e31d45c5b4b72df7777d2592",
+                "status": "init"
+              }
+            ]
+          },
+          "ui_free_unlimited": true,
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1
+        }
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S40",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
