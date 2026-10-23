@@ -2412,6 +2412,26 @@
    "src_bytes": 2843034,
    "thumb_bytes": 71448,
    "src_sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
+  },
+  "references/scenes/scene-60/S60-owner-video-final.jpg": {
+   "thumb": "references/thumbs/scenes/scene-60/S60-owner-video-final.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 127298,
+   "thumb_bytes": 27054,
+   "src_sha256": "a7cc6bdc65f50434cabfaec5a42a0f15f26704ed21adbc38101ef1c5860c33e5"
+  },
+  "references/scenes/scene-61/S61-owner-video-opening.jpg": {
+   "thumb": "references/thumbs/scenes/scene-61/S61-owner-video-opening.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 133736,
+   "thumb_bytes": 29596,
+   "src_sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594"
   }
  }
 }

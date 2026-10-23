@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "scene_id": 61,
+  "purpose": "Prequel END composition and environment from second owner video; not a P1 starting pose",
+  "source_filename": "1000014023.mp4",
+  "source_library_file_id": "libfile_db9448aae32c81919c1d735715a24de5",
+  "source_sha256": "4365ecd7450a8b9b843fc5c23332e520ed7e14218cf26414ef0b74754b1f191a",
+  "source_duration_seconds": 30.022993,
+  "frame": {
+    "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+    "at_seconds": 0,
+    "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594"
+  },
+  "qc": {
+    "status": "usable_for_ending_composition",
+    "scope": "15 full-video sampled frames at2s and full-resolution first decoded frame; dialogue not transcribed or reused",
+    "identities": "Vitalik foreground left with blue saber; Lesha center-left behind with purple saber; Serega right with red saber. Exactly3 human principals. Cool blue-grey forest haze, huge rooted trunks.",
+    "editorial_approval": false
+  }
+}

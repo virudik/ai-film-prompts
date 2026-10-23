@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**21 сцена к генерации/доработке · 89 полных текстов промта**
+**24 сцены к генерации/доработке · 98 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 13** сцен сейчас в медленной генерации: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 57, 58** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 58 — коты выбегают из подбитого горящего корабля РосКОТмоса (20.10.2026, DRAFT до картинок-референсов от ChatGPT, Seedance 2.0, без речи). Предыдущая: 57 — аварийная посадка РосКОТмоса на планете ситхов: корабль сбивает колонны и статуи (20.10.2026, DRAFT, то же). Место: 46 → 57 → 58 → 40 → 26. Предыдущая: 56 — Татуин: бой в движении между 42 и 48 (18.10.2026, DRAFT до результата 42, 30s Wan 3.0, без речи). Предыдущая: 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 61 — ковбойское сближение Серёги, Виталика и Лёши перед вторым видео владельца. Новые59–61 (23.10.2026): посадка на Кашиик; вылет как прямое продолжение первого видео; предыстория дуэли. По3 автономных текста:30с и2×15с. Входы P1 готовы; P2 ждут настоящие результаты своих P1. В очередь после червей, перед танцами.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **23.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **23.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **21 актуальная сцена и 89 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **23.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **24 актуальные сцены и 98 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -85,6 +85,9 @@
 | 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. Начинается склейкой, без видео 42 (владелец 23.10). |
 | 57 | [РосКОТмос: аварийная посадка котов на планете ситхов](#scene-57) | корабль РосКОТмоса (первый референс); аллея колонн и статуй (готово); руины ситхов; кабина 24/25; Лучик, Рыжик | Владелец 20.10: подбитый корабль котов падает на окраину руин и сбивает колонны (домино) и статую, её голова катится следом и «клонк» бьёт в хвост. Комично, но реалистично. READY: картинки готовы; часть2 после реального результата части1.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 58 | [РосКОТмос: коты выбегают из горящего корабля](#scene-58) | обломки в аллее (готово); корабль РосКОТмоса; Лучик, Рыжик | Владелец 20.10: люк вышибают изнутри, коты вылетают из дыма, корабль разваливается, небольшой огненный шар; эмблема падает им под лапы; над ними проносится тень корабля Серёги, коты бегут к храму. Дальше 40 → 26. READY: картинки готовы; часть2 после реального результата части1.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
+| 59 | [Кашиик: Серёга садится среди гигантских деревьев](#scene-59) | Серёга — лицо и одежда; личный корабль — только корпус; кабина — только геометрия; Кашиик из космоса; лес — только окружение, без персонажей | Корабль выныривает из облаков, проходит S-образным манёвром между огромными стволами, разворачивается на торможении над поляной и тяжело садится в вихре листьев. Серёга быстро спускается по рампе и уходит в лес. P1 готова по входам; P2 после собственной P1. |
+| 60 | [Кашиик: Серёга уходит после боя и взлетает](#scene-60) | Серёга — точная внешность; личный корабль; кабина; настоящий последний кадр первого видео; модуль карты; удаляющийся Кашиик | Из настоящего финального кадра Серёга разворачивается, быстро идёт к своему кораблю на соседней поляне и садится в кабину. Корабль поднимает вихрь листьев, уходит крутым виражом над кронами, пробивает облачный слой и выходит в космос. Модуль указывает следующий курс; Кашиик удаляется за боковым окном. P1 готова по входам; P2 после собственной P1. |
+| 61 | [Кашиик: ковбойское сближение перед дуэлью](#scene-61) | Серёга — красный меч; Виталик — синий меч; Лёша — фиолетовый меч; точный финал перед вторым видео и лес | Серёга, Виталик и Лёша сосредоточенно сближаются по дугам, оценивают стойки и руки противников. Виталик и Лёша обходят с двух углов, каждый коротко прокручивает свой меч; Серёга отвечает вращением красного клинка. Ложное движение заставляет всех перестроиться, и они занимают точную позицию начала второго видео. Сам бой ещё не начинается. P1 готова по входам; P2 после собственной P1. |
 
 ---
 
@@ -2827,7 +2830,7 @@ Seedance 2.0 task `af627d97836d4832a1a4ad8cf24fa921` технически зав
 
 Seedance 2.0 task `e6a5cf9a3d04413e943c9bbbff9e1f73` технически завершён 21.10.2026 15:57:26 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
-**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`). **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход над озером и штопор вертикально сквозь грозовую тучу с молниями. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
+**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сама37 заканчивается до посадки и не стыкуется с кадрами лесной пары. **Новое решение23.10:** после37 через монтажную склейку добавлена самостоятельная посадка59; прежнее решение пропустить посадку отменено. Готовый эпизод с грибами сохраняется. Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`). **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход над озером и штопор вертикально сквозь грозовую тучу с молниями. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
 **Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег Набу, где Серёга сел в 39, ч. 2 14:27</a> (только место; двух бегущих не переносить); @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">новый референс лесной планеты</a>.
 
@@ -7443,6 +7446,702 @@ Galloping paws, a muffled whoomp of the small fireball, crackling fire, a cat sn
 
 NEGATIVE PROMPT:
 cats hurt, cats on fire, cats on hind legs, giant cats, half-human cats, human hands, identity swap, extra cats, people, Serega, showing the other craft clearly, huge explosion, frame-filling fireball, emblem changed or garbled, lightsabers ignited, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-59"></a>
+
+## Сцена 59 — Кашиик: Серёга садится среди гигантских деревьев
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","kashyyyk","travel","action","landing","bread_and_milk"]} -->
+
+**Контекст использования:** Самостоятельная посадка после37, через монтажную склейку, без ожидания нового результата37. Прямая команда владельца23.10 отменяет прежнее решение не генерировать посадку на Кашиике. Корабль только личный корабль Серёги. Площадка — отдельная поляна, не поле будущего боя. Посадка и вылет60 независимы:60 не использует результат59.
+
+**Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
+
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — лицо и одежда"></a><figcaption>Серёга — лицо и одежда</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="личный корабль — только корпус"></a><figcaption>личный корабль — только корпус</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="кабина — только геометрия"></a><figcaption>кабина — только геометрия</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="Кашиик из космоса"></a><figcaption>Кашиик из космоса</figcaption></figure>
+<figure><a href="references/scenes/scene-61/S61-owner-video-opening.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-61/S61-owner-video-opening.jpg" alt="лес — только окружение, без персонажей"></a><figcaption>лес — только окружение, без персонажей</figcaption></figure>
+</div>
+
+**Что происходит:** Корабль выныривает из облаков, проходит S-образным манёвром между огромными стволами, разворачивается на торможении над поляной и тяжело садится в вихре листьев. Серёга быстро спускается по рампе и уходит в лес.
+
+<div class="engine-tabs" data-scene="59">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы30с:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | A forceful Kashyyyk descent, S-bank between giant trunks, controlled braking landing and Serega's purposeful exit
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute SEREGA identity, body and costume.
+@Image2 — genuine personal-craft exterior: hull geometry, scale and design only. Ignore the city and the figure on its roof.
+@Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
+@Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
+@Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
+Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+
+VEHICLE / GEOGRAPHY LOCK — CRITICAL:
+One personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of @Image2. No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.
+The landing site is a natural open glade beside the forest trail, large enough for the whole craft and clear of living trunks. No lake, village, paved pad or city. Move from upper canopy to the glade through a broad existing opening; never tunnel through branches. The battle clearing is elsewhere along the trail.
+
+COCKPIT / PROP LOCK:
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.
+No map exchange, mushroom basket or additional passenger is shown.
+
+START STATE:
+The craft is already descending through a break in cloud above Kashyyyk's immense forest, nose toward frame-right. Serega is seated alone at the controls. No hyperspace tunnel or slow orbital introduction.
+
+TIMELINE:
+[0:00–0:05] — DROP THROUGH THE CLOUD
+A wide tracking shot catches the dark wedge dropping out of low cloud over a sea of huge treetops. It banks hard into a broad gap between the tallest crowns; mist ribbons peel across the hull.
+
+[0:05–0:09] — PICK THE GAP
+Cut inside: medium three-quarter view of Serega. His eyes track the opening, his hands make one sharp correction; the yellow bread-and-milk note remains readable beside his right hand. The immense trunks sweep past the windows.
+
+[0:09–0:15] — THREAD AND LEVEL
+Cut to a low exterior tracking shot. The craft makes a fast S-bank through two widely spaced trunks, with clear hull clearance, then levels toward the glade. Leaf litter stirs under its wash; the gear unfolds before touchdown.
+
+[0:15–0:21] — BRAKING ARC
+Continue the incoming motion: the craft yaws through one controlled braking arc above the glade, nose remaining to frame-right at the end. Reverse thrust throws a broad rolling wave of leaves; trees bow slightly from wash, not from collision.
+
+[0:21–0:25] — WEIGHT ON THE GROUND
+Cut low beside one landing strut. The foot presses into the damp soil, suspension compresses once, the other feet settle; the engine note drops as the hull becomes still. The side hatch opens and its ramp meets the ground.
+
+[0:25–0:30] — INTO THE FOREST
+Cut to a medium side tracking shot. Serega takes the ramp in three purposeful steps, robe swinging, turns sharply onto the trail and strides into the trunks. Keep his face readable before he turns; finish with the parked craft visible behind him.
+
+END STATE:
+The intact craft rests on its gear in the open glade, nose frame-right, side ramp lowered. Serega has stepped off and is moving down the forest trail; no other person, saber or battle is visible.
+
+CAMERA / SPACE:
+Four motivated cuts: cockpit at5s, exterior at9s, gear at21s, exit at25s. One coherent glade, stable horizon on ground, controlled bank during flight. Use wide shots for hull clearance and medium shots for Serega; no tiny facial close-up during a fast fly-by. Maintain the nose-to-frame-right approach and final parking orientation.
+
+PERFORMANCE:
+Decisive pilot movements and quick ground strides; cold concentrated expression, no grin, no triumphant pose. Ship and camera keep moving until the necessary touchdown; no slow motion or speed ramps.
+
+LIGHTING / MATERIALS:
+Cool diffuse daylight filtered through cloud and forest haze; restrained warm console light on natural skin. Wet bark, moss, airborne leaves, heavy woven purple cloth and weathered dark-grey metal, with real motion blur.
+
+AUDIO:
+Wind pressure on the descending hull, turbine howl and Doppler on the bank, leaves rattling in the downwash, a deep braking surge, gear clunks and one heavy damp touchdown, hatch hydraulics, bootsteps and cloth. No dialogue, narration or music.
+
+NEGATIVE PROMPT:
+extra humans, Vitalik, Lesha, Wookiees, cats, pilot duplicates, copied roof figure, Darth Vader, lightsabers, city, lake, space battle, tree collision, phasing hull, transforming ship, changing cockpit, giant cockpit, floating steps, teleporting pilot, ship already parked at the opening, unmotivated flips, static hero pose, slow motion, face drift, cartoon render, text overlays, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Входы части1:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+
+**Входы части2:** @Video1 — последние3с нового результата59P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+
+#### 59 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part1 of2: cloud break, cockpit correction and fast S-bank into the landing glade
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute SEREGA identity, body and costume.
+@Image2 — genuine personal-craft exterior: hull geometry, scale and design only. Ignore the city and the figure on its roof.
+@Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
+@Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
+@Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
+Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+
+VEHICLE / GEOGRAPHY LOCK — CRITICAL:
+One personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of @Image2. No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.
+The landing site is a natural open glade beside the forest trail, large enough for the whole craft and clear of living trunks. No lake, village, paved pad or city. Move from upper canopy to the glade through a broad existing opening; never tunnel through branches. The battle clearing is elsewhere along the trail.
+
+COCKPIT / PROP LOCK:
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.
+No map exchange, mushroom basket or additional passenger is shown.
+
+START STATE:
+The craft is already descending through a break in cloud above Kashyyyk's immense forest, nose toward frame-right. Serega is seated alone at the controls. No hyperspace tunnel or slow orbital introduction.
+
+TIMELINE:
+[0:00–0:05] — DROP THROUGH THE CLOUD
+A wide tracking shot catches the dark wedge dropping out of low cloud over a sea of huge treetops. It banks hard into a broad gap between the tallest crowns; mist ribbons peel across the hull.
+
+[0:05–0:09] — PICK THE GAP
+Cut inside: medium three-quarter view of Serega. His eyes track the opening, his hands make one sharp correction; the yellow bread-and-milk note remains readable beside his right hand. The immense trunks sweep past the windows.
+
+[0:09–0:15] — THREAD AND LEVEL
+Cut to a low exterior tracking shot. The craft makes a fast S-bank through two widely spaced trunks, with clear hull clearance, then levels toward the glade. Leaf litter stirs under its wash; the gear unfolds before touchdown.
+
+END STATE:
+The level craft has cleared the last wide trunk gap and is flying low toward the open glade, nose frame-right, gear deploying. Landing has not happened yet.
+
+CAMERA / SPACE:
+Two cuts into5s and9s; keep rightward travel, coherent clearances and readable medium cockpit face. End in motion before landing.
+
+PERFORMANCE:
+Decisive pilot movements and quick ground strides; cold concentrated expression, no grin, no triumphant pose. Ship and camera keep moving until the necessary touchdown; no slow motion or speed ramps.
+
+LIGHTING / MATERIALS:
+Cool diffuse daylight filtered through cloud and forest haze; restrained warm console light on natural skin. Wet bark, moss, airborne leaves, heavy woven purple cloth and weathered dark-grey metal, with real motion blur.
+
+AUDIO:
+Wind pressure on the descending hull, turbine howl and Doppler on the bank, leaves rattling in the downwash, a deep braking surge, gear clunks and one heavy damp touchdown, hatch hydraulics, bootsteps and cloth. No dialogue, narration or music.
+
+NEGATIVE PROMPT:
+extra humans, Vitalik, Lesha, Wookiees, cats, pilot duplicates, copied roof figure, Darth Vader, lightsabers, city, lake, space battle, tree collision, phasing hull, transforming ship, changing cockpit, giant cockpit, floating steps, teleporting pilot, ship already parked at the opening, unmotivated flips, static hero pose, slow motion, face drift, cartoon render, text overlays, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 59 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part2 of2: braking arc, heavy touchdown and Serega exits into the forest
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last3seconds of this scene's Part1; absolute opening position, trajectory, gear state and lighting. Continue its last frame; no replay.
+@Image1 — absolute SEREGA identity, body and costume.
+@Image2 — genuine personal-craft exterior: hull geometry, scale and design only. Ignore the city and the figure on its roof.
+@Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
+@Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
+@Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
+Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
+At the opening @Video1 overrides the stills for moment-to-moment state.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+
+VEHICLE / GEOGRAPHY LOCK — CRITICAL:
+One personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of @Image2. No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.
+The landing site is a natural open glade beside the forest trail, large enough for the whole craft and clear of living trunks. No lake, village, paved pad or city. Move from upper canopy to the glade through a broad existing opening; never tunnel through branches. The battle clearing is elsewhere along the trail.
+
+COCKPIT / PROP LOCK:
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.
+No map exchange, mushroom basket or additional passenger is shown.
+
+START STATE:
+Exactly the last frame of @Video1: the craft is entering the open glade, level, gear deploying; finish any remaining gear extension before ground contact.
+
+TIMELINE:
+[0:00–0:06] — BRAKING ARC
+Continue the incoming motion: the craft yaws through one controlled braking arc above the glade, nose remaining to frame-right at the end. Reverse thrust throws a broad rolling wave of leaves; trees bow slightly from wash, not from collision.
+
+[0:06–0:10] — WEIGHT ON THE GROUND
+Cut low beside one landing strut. The foot presses into the damp soil, suspension compresses once, the other feet settle; the engine note drops as the hull becomes still. The side hatch opens and its ramp meets the ground.
+
+[0:10–0:15] — INTO THE FOREST
+Cut to a medium side tracking shot. Serega takes the ramp in three purposeful steps, robe swinging, turns sharply onto the trail and strides into the trunks. Keep his face readable before he turns; finish with the parked craft visible behind him.
+
+END STATE:
+The intact craft rests on its gear in the open glade, nose frame-right, side ramp lowered. Serega has stepped off and is moving down the forest trail; no other person, saber or battle is visible.
+
+CAMERA / SPACE:
+Continue the true Part1 camera motion, then cut at6s to the gear and10s to the exit. Never reset the craft to the cloud descent.
+
+PERFORMANCE:
+Decisive pilot movements and quick ground strides; cold concentrated expression, no grin, no triumphant pose. Ship and camera keep moving until the necessary touchdown; no slow motion or speed ramps.
+
+LIGHTING / MATERIALS:
+Cool diffuse daylight filtered through cloud and forest haze; restrained warm console light on natural skin. Wet bark, moss, airborne leaves, heavy woven purple cloth and weathered dark-grey metal, with real motion blur.
+
+AUDIO:
+Wind pressure on the descending hull, turbine howl and Doppler on the bank, leaves rattling in the downwash, a deep braking surge, gear clunks and one heavy damp touchdown, hatch hydraulics, bootsteps and cloth. No dialogue, narration or music.
+
+NEGATIVE PROMPT:
+extra humans, Vitalik, Lesha, Wookiees, cats, pilot duplicates, copied roof figure, Darth Vader, lightsabers, city, lake, space battle, tree collision, phasing hull, transforming ship, changing cockpit, giant cockpit, floating steps, teleporting pilot, ship already parked at the opening, unmotivated flips, static hero pose, slow motion, face drift, cartoon render, text overlays, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-60"></a>
+
+## Сцена 60 — Кашиик: Серёга уходит после боя и взлетает
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","kashyyyk","travel","action","continuity","bread_and_milk"]} -->
+
+**Контекст использования:** Прямое продолжение ПЕРВОГО вложения1000014024.mp4, а не результата новой посадки59. Стартовый видеореференс — настоящие27–30с исходника, отдельно сохранён; источник и SHA в source-continuity.json. Лёша слева, Виталик справа, синий меч горит; не повторять удар и не поднимать поверженных. Корабль раскрывается в соседней поляне. Финал совместим с40; корзинка с грибами уже в кабине, как в40/41, новая передача карты не добавляется. Подготовлен видеовход части1; часть2 ждёт именно новый результат60P1.
+
+**Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
+
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (удаляющийся Кашиик). **Видеореференс:** последние3с сохранены отдельно в исходном проекте; источник/идентификатор/SHA — [source-continuity.json](references/scenes/scene-60/source-continuity.json).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — точная внешность"></a><figcaption>Серёга — точная внешность</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="личный корабль"></a><figcaption>личный корабль</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="кабина"></a><figcaption>кабина</figcaption></figure>
+<figure><a href="references/scenes/scene-60/S60-owner-video-final.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-60/S60-owner-video-final.jpg" alt="настоящий последний кадр первого видео"></a><figcaption>настоящий последний кадр первого видео</figcaption></figure>
+<figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="модуль карты"></a><figcaption>модуль карты</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="удаляющийся Кашиик"></a><figcaption>удаляющийся Кашиик</figcaption></figure>
+</div>
+
+**Что происходит:** Из настоящего финального кадра Серёга разворачивается, быстро идёт к своему кораблю на соседней поляне и садится в кабину. Корабль поднимает вихрь листьев, уходит крутым виражом над кронами, пробивает облачный слой и выходит в космос. Модуль указывает следующий курс; Кашиик удаляется за боковым окном.
+
+<div class="engine-tabs" data-scene="60">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы30с:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (удаляющийся Кашиик).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | Direct continuation of the owner video: Serega walks out of the battle clearing, boards and launches spectacularly from Kashyyyk
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the supplied battle video's actual final3seconds: Serega has just thrown the Wookiees, Lesha lies left, Vitalik reclines right with the blue saber still glowing. Begin from its LAST frame, after the hit; never replay the punch, shockwave or fall.
+@Image1 — SEREGA exact identity and purple robe; no appearance reset against the opening video.
+@Image2 — the genuine flat dark-grey personal-craft exterior; vehicle geometry only, ignore the city and the roof figure.
+@Image3 — genuine cockpit architecture, controls and seats only; ignore the source fight, other person, sabers and city.
+@Image4 — exact final frame of the supplied battle video: initial blocking, fallen bodies, broken trunks and warm grey forest haze. This is an OPENING state, never the later boarding or flight state.
+@Image5 — exact map-module prop; only shown during the later cockpit navigation beat, not an extra exchange in the forest.
+@Image6 — Kashyyyk globe and atmosphere for the departure exterior and receding planet through the side window.
+Priority: @Video1 controls the opening action state and existing opponents; @Image1 the lead identity; @Image2/@Image3 the craft; @Image4 supports the exact start; @Image5 the prop; @Image6 the planet.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+OPENING BACKGROUND CONTINUITY: LESHA lies frame-left, brown wavy hair and moustache, purple tunic, long grey robe and ochre boots. VITALIK reclines against the stump frame-right, stockier build, short light-brown hair, dark armour and the exact exposed-arm battle costume visible in @Video1. Do not restore sleeves, stand either up or change their faces. Fallen brown-furred Wookiees stay at the foreground edges, as the source shows; they exit the camera's view when it follows Serega.
+
+VEHICLE / SPACE LOCK — CRITICAL:
+One personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of @Image2. No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.
+The craft is parked in an adjacent open glade offscreen beyond the battle clearing, not secretly behind a thin trunk. A continuous retreating tracking move along the trail reveals it, without placing it inside the already established clearing. Everyone left behind stays on the ground; no chase or renewed duel.
+
+COCKPIT / STORY PROPS:
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.
+One small round wicker basket with brown forest mushrooms is already secured on the cockpit floor beside the pilot's seat, matching the following travel scene. It is revealed with the cabin, not conjured into his hands. The single map module stays concealed in his robe until the navigation beat; nobody gives him another one here.
+
+START STATE:
+Exactly the LAST frame of @Video1 and @Image4: Serega centered, hands lowered, Lesha prone left, Vitalik by the stump right with blue blade glowing; fallen Wookiees near the bottom edges. No red blade is visible. Trees, debris and diffuse warm haze are unchanged.
+
+TIMELINE:
+[0:00–0:04] — LEAVE THE AFTERMATH
+Continue the final camera and posture without replaying the blow. Serega flicks his eyes once toward the motionless opponents, turns decisively toward the clear trail and strides away. The camera retreats in front of him; the fallen people remain where they were.
+
+[0:04–0:09] — REVEAL AND BOARD
+The tracking move reaches the adjacent open glade and reveals his parked dark-grey craft in one coherent space, side ramp down. He accelerates into three quick ramp steps and enters the visible hatch; no jump onto the roof or walking through metal.
+
+[0:09–0:15] — CLOSE AND LIFT
+Cut to a medium cockpit angle as he drops into the seat and snaps the controls. Give the yellow grocery note a readable beat; the secured mushroom basket is visible below. The hatch seals before movement. Cut outside as the landing feet unload and the craft rises clear of the glade in a concentrated spiral of leaves.
+
+[0:15–0:20] — BREAK ABOVE THE CROWNS
+Continue the lift into a steep climbing turn through a broad existing gap. A crane-like chase shot rises with the hull past enormous trunks, then the ship bursts above the treetops, shedding leaf fragments; no branches are struck.
+
+[0:20–0:25] — PUNCH THROUGH THE CEILING
+Cut wide over the forest. The craft pitches up hard, tears through a low cloud shelf and accelerates into the thinning blue atmosphere; the forest falls away beneath it. Sell speed with parallax and Doppler, not a repeated corkscrew or a hyperspace tunnel.
+
+[0:25–0:30] — THE NEXT COURSE
+Cut inside, face readable. Serega lifts the small map module and turns it toward the forward window; its glow strengthens toward the offscreen destination. He pockets it and makes one precise course correction. The green forest globe recedes through the side window; engines settle into an accelerating hum.
+
+END STATE:
+Serega seated alone in the genuine cockpit in open space, the small green Kashyyyk globe receding through a side window. He has returned the map module inside his robe after finding the onward course toward the Sith planet. Yellow note to his right, mushroom basket on the floor. No hyperjump: an editorial cut can continue directly into Scene40's space opening.
+
+CAMERA / SPACE:
+No cut for the first9seconds: preserve the source axis, retreat with Serega and reveal the neighbouring glade. Four motivated cuts thereafter: cockpit9s, lift about13s, high wide20s, cockpit25s. Exterior travel remains coherent; final cockpit framing matches the existing interior design. No camera orbit that swaps the fallen opponents.
+
+PERFORMANCE:
+Cold concentrated face, quick purposeful strides and compact decisive hand movements. No victory pose or comic smile. The dynamic contrast is the immobile defeated group behind him against his urgent departure and the craft's accelerating climb.
+
+LIGHTING / MATERIALS:
+Opening matches the source's soft warm-grey woodland haze exactly. Natural forest light gradually opens into bright sky, then cold space light; no instant time-of-day change. Heavy robe, rough bark, damp debris, weathered hull; skin remains natural and evenly readable in cockpit close coverage.
+
+AUDIO:
+Carry the source forest ambience through the opening, not its preceding impact. Fast boots and robe swish, ramp clangs, hatch seal, switches, turbine build and thruster roar, leaf storm, Doppler climb, muted cockpit engine hum and one quiet module tone. No dialogue, cheering, narration or music.
+
+NEGATIVE PROMPT:
+replayed battle, new shockwave, revived opponents, pursuit, new people, replacing defeated faces, restored sleeves on Vitalik at the start, duplicated Wookiees, red saber appearing, teleporting ship, ship inside a tree, wrong spacecraft, craft changes shape, boarding through roof or hull, open hatch during flight, passenger, copied Vader, spilled mushrooms, extra map exchange, hyperspace tunnel, ship already in space at start, face drift, slow motion, static hero pose, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Входы части1:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (точный старт).
+
+**Входы части2:** @Video1 — последние3с нового результата60P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик).
+
+#### 60 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part1 of2: exact post-battle continuation, boarding and first lift from the glade
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the supplied battle video's actual final3seconds: Serega has just thrown the Wookiees, Lesha lies left, Vitalik reclines right with the blue saber still glowing. Begin from its LAST frame, after the hit; never replay the punch, shockwave or fall.
+@Image1 — SEREGA exact identity and purple robe; no appearance reset against the opening video.
+@Image2 — the genuine flat dark-grey personal-craft exterior; vehicle geometry only, ignore the city and the roof figure.
+@Image3 — genuine cockpit architecture, controls and seats only; ignore the source fight, other person, sabers and city.
+@Image4 — exact final frame of the supplied battle video: initial blocking, fallen bodies, broken trunks and warm grey forest haze. This is an OPENING state, never the later boarding or flight state.
+Priority: @Video1 fixes the entire opening, @Image1 fixes Serega, @Image2 the hull, @Image3 the cabin, @Image4 the exact first-frame composition.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+OPENING BACKGROUND CONTINUITY: LESHA lies frame-left, brown wavy hair and moustache, purple tunic, long grey robe and ochre boots. VITALIK reclines against the stump frame-right, stockier build, short light-brown hair, dark armour and the exact exposed-arm battle costume visible in @Video1. Do not restore sleeves, stand either up or change their faces. Fallen brown-furred Wookiees stay at the foreground edges, as the source shows; they exit the camera's view when it follows Serega.
+
+VEHICLE / SPACE LOCK — CRITICAL:
+One personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of @Image2. No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.
+The craft is parked in an adjacent open glade offscreen beyond the battle clearing, not secretly behind a thin trunk. A continuous retreating tracking move along the trail reveals it, without placing it inside the already established clearing. Everyone left behind stays on the ground; no chase or renewed duel.
+
+COCKPIT / STORY PROPS:
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.
+One small round wicker basket with brown forest mushrooms is already secured on the cockpit floor beside the pilot's seat, matching the following travel scene. It is revealed with the cabin, not conjured into his hands. The single map module stays concealed in his robe until the navigation beat; nobody gives him another one here.
+
+START STATE:
+Exactly the LAST frame of @Video1 and @Image4: Serega centered, hands lowered, Lesha prone left, Vitalik by the stump right with blue blade glowing; fallen Wookiees near the bottom edges. No red blade is visible. Trees, debris and diffuse warm haze are unchanged.
+
+TIMELINE:
+[0:00–0:04] — LEAVE THE AFTERMATH
+Continue the final camera and posture without replaying the blow. Serega flicks his eyes once toward the motionless opponents, turns decisively toward the clear trail and strides away. The camera retreats in front of him; the fallen people remain where they were.
+
+[0:04–0:09] — REVEAL AND BOARD
+The tracking move reaches the adjacent open glade and reveals his parked dark-grey craft in one coherent space, side ramp down. He accelerates into three quick ramp steps and enters the visible hatch; no jump onto the roof or walking through metal.
+
+[0:09–0:15] — CLOSE AND LIFT
+Cut to a medium cockpit angle as he drops into the seat and snaps the controls. Give the yellow grocery note a readable beat; the secured mushroom basket is visible below. The hatch seals before movement. Cut outside as the landing feet unload and the craft rises clear of the glade in a concentrated spiral of leaves.
+
+END STATE:
+Serega is alone in his pilot seat, side hatch sealed; the intact personal craft has lifted just above the glade, nose toward the broad upward exit between the crowns. Basket secured on the floor; note fixed to the right console; module still concealed.
+
+CAMERA / SPACE:
+Keep the first9seconds continuous from the source; cut into the cockpit at9s and back outside about13s. End on the first clear lift, leaving the full climb for the next part.
+
+PERFORMANCE:
+Cold concentrated face, quick purposeful strides and compact decisive hand movements. No victory pose or comic smile. The dynamic contrast is the immobile defeated group behind him against his urgent departure and the craft's accelerating climb.
+
+LIGHTING / MATERIALS:
+Opening matches the source's soft warm-grey woodland haze exactly. Natural forest light gradually opens into bright sky, then cold space light; no instant time-of-day change. Heavy robe, rough bark, damp debris, weathered hull; skin remains natural and evenly readable in cockpit close coverage.
+
+AUDIO:
+Carry the source forest ambience through the opening, not its preceding impact. Fast boots and robe swish, ramp clangs, hatch seal, switches, turbine build and thruster roar, leaf storm, Doppler climb, muted cockpit engine hum and one quiet module tone. No dialogue, cheering, narration or music.
+
+NEGATIVE PROMPT:
+replayed battle, new shockwave, revived opponents, pursuit, new people, replacing defeated faces, restored sleeves on Vitalik at the start, duplicated Wookiees, red saber appearing, teleporting ship, ship inside a tree, wrong spacecraft, craft changes shape, boarding through roof or hull, open hatch during flight, passenger, copied Vader, spilled mushrooms, extra map exchange, hyperspace tunnel, ship already in space at start, face drift, slow motion, static hero pose, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 60 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part2 of2: climbing turn out of the forest, cloud breakthrough and onward navigation in space
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last3seconds of THIS scene's generated Part1, with Serega aboard and the ship first lifting. Continue its last frame; do not use the earlier battle-video ending here.
+@Image1 — SEREGA exact identity and purple robe.
+@Image2 — the genuine personal-craft hull only; ignore the city and roof figure.
+@Image3 — genuine cockpit geometry only; ignore source people, weapons and combat.
+@Image4 — exact map-module prop for the final navigation beat.
+@Image5 — Kashyyyk planet appearance, receding after the climb.
+Priority: @Video1 controls initial state and movement; @Image1 the sole pilot; @Image2/@Image3 the ship; @Image4 the module; @Image5 the planet.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+
+VEHICLE / SPACE LOCK — CRITICAL:
+One personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of @Image2. No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.
+The craft is parked in an adjacent open glade offscreen beyond the battle clearing, not secretly behind a thin trunk. A continuous retreating tracking move along the trail reveals it, without placing it inside the already established clearing. Everyone left behind stays on the ground; no chase or renewed duel.
+
+COCKPIT / STORY PROPS:
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.
+One small round wicker basket with brown forest mushrooms is already secured on the cockpit floor beside the pilot's seat, matching the following travel scene. It is revealed with the cabin, not conjured into his hands. The single map module stays concealed in his robe until the navigation beat; nobody gives him another one here.
+
+START STATE:
+Exactly the last frame of @Video1: the intact craft has just lifted from the glade, Serega already aboard and hatch sealed. Continue the real trajectory, never return to boarding.
+
+TIMELINE:
+[0:00–0:05] — BREAK ABOVE THE CROWNS
+Continue the lift into a steep climbing turn through a broad existing gap. A crane-like chase shot rises with the hull past enormous trunks, then the ship bursts above the treetops, shedding leaf fragments; no branches are struck.
+
+[0:05–0:10] — PUNCH THROUGH THE CEILING
+Cut wide over the forest. The craft pitches up hard, tears through a low cloud shelf and accelerates into the thinning blue atmosphere; the forest falls away beneath it. Sell speed with parallax and Doppler, not a repeated corkscrew or a hyperspace tunnel.
+
+[0:10–0:15] — THE NEXT COURSE
+Cut inside, face readable. Serega lifts the small map module and turns it toward the forward window; its glow strengthens toward the offscreen destination. He pockets it and makes one precise course correction. The green forest globe recedes through the side window; engines settle into an accelerating hum.
+
+END STATE:
+Serega seated alone in the genuine cockpit in open space, the small green Kashyyyk globe receding through a side window. He has returned the map module inside his robe after finding the onward course toward the Sith planet. Yellow note to his right, mushroom basket on the floor. No hyperjump: an editorial cut can continue directly into Scene40's space opening.
+
+CAMERA / SPACE:
+Continue the actual Part1 exterior motion, cut wide at5s and to the cockpit at10s. The forest planet recedes on the same side of the ship after the climb; no unmotivated reversal.
+
+PERFORMANCE:
+Cold concentrated face, quick purposeful strides and compact decisive hand movements. No victory pose or comic smile. The dynamic contrast is the immobile defeated group behind him against his urgent departure and the craft's accelerating climb.
+
+LIGHTING / MATERIALS:
+Opening matches the source's soft warm-grey woodland haze exactly. Natural forest light gradually opens into bright sky, then cold space light; no instant time-of-day change. Heavy robe, rough bark, damp debris, weathered hull; skin remains natural and evenly readable in cockpit close coverage.
+
+AUDIO:
+Carry the source forest ambience through the opening, not its preceding impact. Fast boots and robe swish, ramp clangs, hatch seal, switches, turbine build and thruster roar, leaf storm, Doppler climb, muted cockpit engine hum and one quiet module tone. No dialogue, cheering, narration or music.
+
+NEGATIVE PROMPT:
+replayed battle, new shockwave, revived opponents, pursuit, new people, replacing defeated faces, restored sleeves on Vitalik at the start, duplicated Wookiees, red saber appearing, teleporting ship, ship inside a tree, wrong spacecraft, craft changes shape, boarding through roof or hull, open hatch during flight, passenger, copied Vader, spilled mushrooms, extra map exchange, hyperspace tunnel, ship already in space at start, face drift, slow motion, static hero pose, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-61"></a>
+
+## Сцена 61 — Кашиик: ковбойское сближение перед дуэлью
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","vitalik","lesha","kashyyyk","action","continuity","standoff"]} -->
+
+**Контекст использования:** Предыстория ВТОРОГО вложения1000014023.mp4. В кадре именно трое: Серёга, Виталик, Лёша; вуки не добавляются. Слово «ковбойское» задаёт ритм и напряжение, а не шляпы или оружие. Первый кадр существующего видео сохранён как целевой КОНЕЦ новой сцены, не старт. Сцена независима от новых59/60 по входам; её P2 ждёт собственную P1. Без речи: существующий диалог не повторяется и не заменяется.
+
+**Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
+
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — красный меч); @Image2 — `references/full/vitalik.jpg` (Виталик — синий меч); @Image3 — `references/full/lesha.jpg` (Лёша — фиолетовый меч); @Image4 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (точный финал перед вторым видео и лес).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — красный меч"></a><figcaption>Серёга — красный меч</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="Виталик — синий меч"></a><figcaption>Виталик — синий меч</figcaption></figure>
+<figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="Лёша — фиолетовый меч"></a><figcaption>Лёша — фиолетовый меч</figcaption></figure>
+<figure><a href="references/scenes/scene-61/S61-owner-video-opening.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-61/S61-owner-video-opening.jpg" alt="точный финал перед вторым видео и лес"></a><figcaption>точный финал перед вторым видео и лес</figcaption></figure>
+</div>
+
+**Что происходит:** Серёга, Виталик и Лёша сосредоточенно сближаются по дугам, оценивают стойки и руки противников. Виталик и Лёша обходят с двух углов, каждый коротко прокручивает свой меч; Серёга отвечает вращением красного клинка. Ложное движение заставляет всех перестроиться, и они занимают точную позицию начала второго видео. Сам бой ещё не начинается.
+
+<div class="engine-tabs" data-scene="61">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы30с:** @Image1 — `references/full/serega.jpg` (Серёга — красный меч); @Image2 — `references/full/vitalik.jpg` (Виталик — синий меч); @Image3 — `references/full/lesha.jpg` (Лёша — фиолетовый меч); @Image4 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (точный финал перед вторым видео и лес).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | A tense three-person western-style circling approach that leads exactly into the owner's existing forest confrontation
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute SEREGA face, build and purple robe.
+@Image2 — absolute VITALIK face, stockier build and black Jedi costume with dark leather panels, belt and boots.
+@Image3 — absolute LESHA face, moustache, wavy brown hair, purple tunic, long grey hooded robe and ochre boots.
+@Image4 — FIRST frame of the existing duel video, used here as ENDING composition and exact forest/light authority: Vitalik foreground-left, Lesha behind him center-left, Serega right. Do not begin in this final close grouping; reach it through the timed approach.
+Priority: individual @Image1–@Image3 control the three identities; @Image4 controls forest, the final camera axis, spacing and sword poses. It represents a later endpoint, never a fourth character.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+VITALIK (@Image2): stocky adult man, short light-brown hair, broad clean-shaven face with light stubble, black tunic and dark leather/armour panels, brown belt, brown trousers, tall boots; ONE BLUE lightsaber.
+LESHA (@Image3): slim adult man, wavy brown hair and a distinct brown moustache, purple tunic and trousers under a long grey hooded robe, brown belt and ochre boots; ONE PURPLE lightsaber.
+Serega carries ONE RED lightsaber. Exactly these three adult humans; never mix faces, bodies, clothes or blade colours.
+
+STANDOFF / GEOGRAPHY LOCK — CRITICAL:
+The exact cool, dim Kashyyyk woodland of @Image4: giant rooted trunks, moss, damp dark leaf litter and blue-grey shafts through thin haze. Three men close into a broad triangle; Vitalik and Lesha cooperate against Serega, not against one another. Maintain several metres of clearance during every blade rotation. Each hilt stays in its owner's right hand with a stable grip; one controlled outward wrist roll per performer, not tossed or endlessly spinning blades. No blade contacts a body, trunk or another blade. This is the suspense BEFORE the supplied confrontation, not an alternate fight.
+
+ENDING LOCK:
+End at @Image4: Vitalik in foreground-left in three-quarter/back view facing right, his blue blade lowered diagonally toward frame-right; Lesha behind him center-left, purple blade lowered clear of his robe; Serega at frame-right facing the pair, red blade angled down toward frame-left. Reproduce the reference camera height, spacing, giant trunk and haze. Keep slight breathing and cloth motion; no freeze frame.
+
+START STATE:
+Wide moving view in the same forest clearing before the supplied video. Serega is right, Vitalik left and closer to camera, Lesha deeper left; they are farther apart than @Image4, about7–9metres across. All three sabers already lit and carried low, all faces focused on their opponents.
+
+TIMELINE:
+[0:00–0:05] — BOOTS AND DISTANCE
+Begin low, tracking beside three separate sets of boots stepping over wet leaves and roots, then rise into the wide triangle. Serega takes a measured lateral step right; the pair advances from left, spreading slightly. Sabers stay low; the camera reveals everyone clearly.
+
+[0:05–0:10] — VITALIK TESTS THE LINE
+Cut to a medium moving three-quarter shot of Vitalik with Serega visible across the gap. Vitalik makes one compact outward wrist roll of his blue blade, regrips firmly and takes two deliberate diagonal steps. His eyes stay on Serega's shoulders and sword hand.
+
+[0:10–0:15] — LESHA CLOSES THE OTHER ANGLE
+Cut to Lesha in medium three-quarter. He advances along a short flank arc without crossing Vitalik's path, makes one restrained outward purple-blade rotation clear of his coat and settles into a low guard. Serega tracks both men with a small turn of his torso and one retreating side-step.
+
+[0:15–0:20] — RED ANSWER
+Continue the measured motion, then medium coverage of Serega: an unblinking glance from Vitalik to Lesha, one crisp red-blade wrist roll outward, then a low ready guard. He takes two lateral steps around the near edge of the great rooted trunk, forcing both opponents to adjust.
+
+[0:20–0:26] — THE FEINT
+Cut to a wide view from the established side. Vitalik abruptly shifts his weight forward as a testing feint, without swinging; Serega turns his blade a few degrees and plants his rear foot. Lesha takes the opening flank step and stops short of striking. All three keep the moving triangle intact, leaves scuffing beneath their boots.
+
+[0:26–0:30] — THE LAST STEP BEFORE WORDS
+The wide camera eases into the exact @Image4 axis while the three finish their approach. Vitalik steps into foreground-left, Lesha remains behind center-left, Serega settles right. Their swords lower into the reference angles. Only the last half-second lands on the source composition, with breathing and cloth still alive.
+
+END STATE:
+Exact @Image4 blocking, camera height, blade ownership, lowered blade angles, cool haze and spacing, reached on the last step. Vitalik foreground-left, Lesha behind center-left, Serega right. No strike, dialogue, injury or Force attack has occurred; the supplied video can follow as the next shot.
+
+CAMERA / SPACE:
+Four motivated cuts at5s,10s,about17s and20s; the last wide move reaches the reference composition without a further cut. Grounded low tracks and medium facial coverage evoke a western standoff; no western costume change. Never cross the triangle's screen axis or use a full orbit that swaps the pair with Serega. No isolated glamour montage that loses the three-person geography.
+
+PERFORMANCE:
+Concentrated appraisal, restrained threat: eyes assess sword hand, feet and shoulders; small jaw tension, controlled breathing, actual planted steps and weight transfer. Measured circling with quick weapon accents, not aimless wandering, swagger, grinning or dancing. No spoken line, no wink; suspense comes from shrinking distance and reaction.
+
+LIGHTING / MATERIALS:
+Exact cool blue-grey forest light and thin mist of @Image4. Red, blue and purple blades give restrained local spill on hands and wet leaves, never recolour the whole face. Natural skin, real cloth weight, bark, moss and grounded boot contact; no rain or sudden sunset.
+
+AUDIO:
+Wet leaf crunches and boot scuffs, short cloth and leather creaks, breath, distinct saber hums and brief Doppler swishes on each of the three controlled rolls, subdued forest wind. A small pause in the footfalls at the feint sharpens the tension. No dialogue, score, whistles, gunshots, narrator or captions.
+
+NEGATIVE PROMPT:
+fourth person, Wookiees, cats, crowd, swapped faces, duplicated model-sheet views, changing blade colours, extra swords, double-bladed saber, throwing or releasing a hilt, saber through body or cloth, impact, strike, actual fight, Force push, levitation, injury, dialogue from the following video, cowboy hats, guns, spurs, desert, dancing, repeated mechanical spinning, posing for several seconds, full camera orbit, wrong final formation, mirrored screen positions, slow motion, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Входы части1:** @Image1 — `references/full/serega.jpg` (Серёга — красный меч); @Image2 — `references/full/vitalik.jpg` (Виталик — синий меч); @Image3 — `references/full/lesha.jpg` (Лёша — фиолетовый меч); @Image4 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (точный финал перед вторым видео и лес).
+
+**Входы части2:** @Video1 — последние3с нового результата61P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга — красный меч); @Image2 — `references/full/vitalik.jpg` (Виталик — синий меч); @Image3 — `references/full/lesha.jpg` (Лёша — фиолетовый меч); @Image4 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (точный финал перед вторым видео и лес).
+
+#### 61 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part1 of2: the three opponents close into a moving triangle; blue and purple blades make controlled rolls
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute SEREGA face, build and purple robe.
+@Image2 — absolute VITALIK face, stockier build and black Jedi costume with dark leather panels, belt and boots.
+@Image3 — absolute LESHA face, moustache, wavy brown hair, purple tunic, long grey hooded robe and ochre boots.
+@Image4 — FIRST frame of the existing duel video, used here as ENDING composition and exact forest/light authority: Vitalik foreground-left, Lesha behind him center-left, Serega right. Do not begin in this final close grouping; reach it through the timed approach.
+Priority: individual @Image1–@Image3 control the three identities; @Image4 controls forest, the final camera axis, spacing and sword poses. It represents a later endpoint, never a fourth character.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+VITALIK (@Image2): stocky adult man, short light-brown hair, broad clean-shaven face with light stubble, black tunic and dark leather/armour panels, brown belt, brown trousers, tall boots; ONE BLUE lightsaber.
+LESHA (@Image3): slim adult man, wavy brown hair and a distinct brown moustache, purple tunic and trousers under a long grey hooded robe, brown belt and ochre boots; ONE PURPLE lightsaber.
+Serega carries ONE RED lightsaber. Exactly these three adult humans; never mix faces, bodies, clothes or blade colours.
+
+STANDOFF / GEOGRAPHY LOCK — CRITICAL:
+The exact cool, dim Kashyyyk woodland of @Image4: giant rooted trunks, moss, damp dark leaf litter and blue-grey shafts through thin haze. Three men close into a broad triangle; Vitalik and Lesha cooperate against Serega, not against one another. Maintain several metres of clearance during every blade rotation. Each hilt stays in its owner's right hand with a stable grip; one controlled outward wrist roll per performer, not tossed or endlessly spinning blades. No blade contacts a body, trunk or another blade. This is the suspense BEFORE the supplied confrontation, not an alternate fight.
+
+PART1 TARGET — CRITICAL:
+The three close only to a broad4–5metre triangle in this part: Vitalik nearer left, Lesha deeper left, Serega right. @Image4 controls the forest and the eventual confrontation axis, not the distance at the end of this part. Keep the triangle broader than that reference; do not begin the later dialogue or strike. The three are still moving at the last frame.
+
+START STATE:
+Wide moving view in the same forest clearing before the supplied video. Serega is right, Vitalik left and closer to camera, Lesha deeper left; they are farther apart than @Image4, about7–9metres across. All three sabers already lit and carried low, all faces focused on their opponents.
+
+TIMELINE:
+[0:00–0:05] — BOOTS AND DISTANCE
+Begin low, tracking beside three separate sets of boots stepping over wet leaves and roots, then rise into the wide triangle. Serega takes a measured lateral step right; the pair advances from left, spreading slightly. Sabers stay low; the camera reveals everyone clearly.
+
+[0:05–0:10] — VITALIK TESTS THE LINE
+Cut to a medium moving three-quarter shot of Vitalik with Serega visible across the gap. Vitalik makes one compact outward wrist roll of his blue blade, regrips firmly and takes two deliberate diagonal steps. His eyes stay on Serega's shoulders and sword hand.
+
+[0:10–0:15] — LESHA CLOSES THE OTHER ANGLE
+Cut to Lesha in medium three-quarter. He advances along a short flank arc without crossing Vitalik's path, makes one restrained outward purple-blade rotation clear of his coat and settles into a low guard. Serega tracks both men with a small turn of his torso and one retreating side-step.
+
+END STATE:
+The three have closed to a broad triangular standoff about4–5metres across, Vitalik nearer left, Lesha deeper left, Serega right. Vitalik and Lesha have each completed one separate safe outward blade roll; Serega has not yet rolled his red blade. Nobody has attacked; all three still shifting their feet.
+
+CAMERA / SPACE:
+Two motivated cuts at5s and10s. Keep Serega on the right and the approaching pair on the left; show their mutual distance. The @Image4 final grouping is not yet reached.
+
+PERFORMANCE:
+Concentrated appraisal, restrained threat: eyes assess sword hand, feet and shoulders; small jaw tension, controlled breathing, actual planted steps and weight transfer. Measured circling with quick weapon accents, not aimless wandering, swagger, grinning or dancing. No spoken line, no wink; suspense comes from shrinking distance and reaction.
+
+LIGHTING / MATERIALS:
+Exact cool blue-grey forest light and thin mist of @Image4. Red, blue and purple blades give restrained local spill on hands and wet leaves, never recolour the whole face. Natural skin, real cloth weight, bark, moss and grounded boot contact; no rain or sudden sunset.
+
+AUDIO:
+Wet leaf crunches and boot scuffs, short cloth and leather creaks, breath, distinct saber hums and brief Doppler swishes on each of the three controlled rolls, subdued forest wind. A small pause in the footfalls at the feint sharpens the tension. No dialogue, score, whistles, gunshots, narrator or captions.
+
+NEGATIVE PROMPT:
+fourth person, Wookiees, cats, crowd, swapped faces, duplicated model-sheet views, changing blade colours, extra swords, double-bladed saber, throwing or releasing a hilt, saber through body or cloth, impact, strike, actual fight, Force push, levitation, injury, dialogue from the following video, cowboy hats, guns, spurs, desert, dancing, repeated mechanical spinning, posing for several seconds, full camera orbit, wrong final formation, mirrored screen positions, slow motion, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 61 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part2 of2: Serega's red-blade answer, a testing feint and the exact start position of the existing video
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last3seconds of this scene's Part1, fixing current positions, foot motion and light. Begin from its last frame.
+@Image1 — absolute SEREGA face, build and purple robe.
+@Image2 — absolute VITALIK face, stockier build and black Jedi costume with dark leather panels, belt and boots.
+@Image3 — absolute LESHA face, moustache, wavy brown hair, purple tunic, long grey hooded robe and ochre boots.
+@Image4 — FIRST frame of the existing duel video, used here as ENDING composition and exact forest/light authority: Vitalik foreground-left, Lesha behind him center-left, Serega right. Do not begin in this final close grouping; reach it through the timed approach.
+Priority: individual @Image1–@Image3 control the three identities; @Image4 controls forest, the final camera axis, spacing and sword poses. It represents a later endpoint, never a fourth character.
+@Video1 is the opening authority; @Image4 is the ending authority. Do not confuse them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+VITALIK (@Image2): stocky adult man, short light-brown hair, broad clean-shaven face with light stubble, black tunic and dark leather/armour panels, brown belt, brown trousers, tall boots; ONE BLUE lightsaber.
+LESHA (@Image3): slim adult man, wavy brown hair and a distinct brown moustache, purple tunic and trousers under a long grey hooded robe, brown belt and ochre boots; ONE PURPLE lightsaber.
+Serega carries ONE RED lightsaber. Exactly these three adult humans; never mix faces, bodies, clothes or blade colours.
+
+STANDOFF / GEOGRAPHY LOCK — CRITICAL:
+The exact cool, dim Kashyyyk woodland of @Image4: giant rooted trunks, moss, damp dark leaf litter and blue-grey shafts through thin haze. Three men close into a broad triangle; Vitalik and Lesha cooperate against Serega, not against one another. Maintain several metres of clearance during every blade rotation. Each hilt stays in its owner's right hand with a stable grip; one controlled outward wrist roll per performer, not tossed or endlessly spinning blades. No blade contacts a body, trunk or another blade. This is the suspense BEFORE the supplied confrontation, not an alternate fight.
+
+ENDING LOCK:
+End at @Image4: Vitalik in foreground-left in three-quarter/back view facing right, his blue blade lowered diagonally toward frame-right; Lesha behind him center-left, purple blade lowered clear of his robe; Serega at frame-right facing the pair, red blade angled down toward frame-left. Reproduce the reference camera height, spacing, giant trunk and haze. Keep slight breathing and cloth motion; no freeze frame.
+
+START STATE:
+Exactly the last frame of @Video1: a still-moving triangle, pair left and Serega right, blades lit, no clash yet.
+
+TIMELINE:
+[0:00–0:05] — RED ANSWER
+Continue the measured motion, then medium coverage of Serega: an unblinking glance from Vitalik to Lesha, one crisp red-blade wrist roll outward, then a low ready guard. He takes two lateral steps around the near edge of the great rooted trunk, forcing both opponents to adjust.
+
+[0:05–0:11] — THE FEINT
+Cut to a wide view from the established side. Vitalik abruptly shifts his weight forward as a testing feint, without swinging; Serega turns his blade a few degrees and plants his rear foot. Lesha takes the opening flank step and stops short of striking. All three keep the moving triangle intact, leaves scuffing beneath their boots.
+
+[0:11–0:15] — THE LAST STEP BEFORE WORDS
+The wide camera eases into the exact @Image4 axis while the three finish their approach. Vitalik steps into foreground-left, Lesha remains behind center-left, Serega settles right. Their swords lower into the reference angles. Only the last half-second lands on the source composition, with breathing and cloth still alive.
+
+END STATE:
+Exact @Image4 blocking, camera height, blade ownership, lowered blade angles, cool haze and spacing, reached on the last step. Vitalik foreground-left, Lesha behind center-left, Serega right. No strike, dialogue, injury or Force attack has occurred; the supplied video can follow as the next shot.
+
+CAMERA / SPACE:
+Continue the real Part1 movement; cut to Serega about2s and to the wide at5s. From11s travel into the exact @Image4 composition. Stay on the original side of the confrontation.
+
+PERFORMANCE:
+Concentrated appraisal, restrained threat: eyes assess sword hand, feet and shoulders; small jaw tension, controlled breathing, actual planted steps and weight transfer. Measured circling with quick weapon accents, not aimless wandering, swagger, grinning or dancing. No spoken line, no wink; suspense comes from shrinking distance and reaction.
+
+LIGHTING / MATERIALS:
+Exact cool blue-grey forest light and thin mist of @Image4. Red, blue and purple blades give restrained local spill on hands and wet leaves, never recolour the whole face. Natural skin, real cloth weight, bark, moss and grounded boot contact; no rain or sudden sunset.
+
+AUDIO:
+Wet leaf crunches and boot scuffs, short cloth and leather creaks, breath, distinct saber hums and brief Doppler swishes on each of the three controlled rolls, subdued forest wind. A small pause in the footfalls at the feint sharpens the tension. No dialogue, score, whistles, gunshots, narrator or captions.
+
+NEGATIVE PROMPT:
+fourth person, Wookiees, cats, crowd, swapped faces, duplicated model-sheet views, changing blade colours, extra swords, double-bladed saber, throwing or releasing a hilt, saber through body or cloth, impact, strike, actual fight, Force push, levitation, injury, dialogue from the following video, cowboy hats, guns, spurs, desert, dancing, repeated mechanical spinning, posing for several seconds, full camera orbit, wrong final formation, mirrored screen positions, slow motion, cartoon, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

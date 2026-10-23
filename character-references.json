@@ -29,7 +29,10 @@
         51,
         52,
         53,
-        56
+        56,
+        59,
+        60,
+        61
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -361,7 +364,9 @@
       "scenes": [
         13,
         28,
-        49
+        49,
+        60,
+        61
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -403,7 +408,9 @@
       "scenes": [
         13,
         28,
-        49
+        49,
+        60,
+        61
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",

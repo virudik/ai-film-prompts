@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T15:35:12.504082Z",
+  "last_updated_at": "2026-10-23T15:46:54.711992Z",
   "active_work": [
     {
       "work_id": "KASHYYYK-THREE-SCENES-20261023",
       "title": "Посадка, вылет и предыстория дуэли на Кашиике",
-      "status": "preparing",
-      "updated_at": "2026-10-23T15:35:12.504082Z",
+      "status": "prepared_pending_validation",
+      "updated_at": "2026-10-23T15:46:54.711992Z",
       "completed": [
-        "Вложения прочитаны по кадрам; личности разрешены по реестру; новые ID59–61 свободны"
+        "Three scenes59–61 written,9blocks;2source frames and saved3s input;6queue entries after worms; manifests, film placement and roster updated"
       ],
-      "next_action": "Prepare exact source references and nine complete prompts, queue59–61 after worm block, validate and publish.",
+      "next_action": "Validate9blocks/input hashes/site; publish exact canon and verify Pages.",
       "canonical_refs": [
         "reports/current-work-checkpoint.md",
         "ops/topview-launch-queue.json"

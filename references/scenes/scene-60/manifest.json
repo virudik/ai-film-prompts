@@ -1,0 +1,133 @@
+{
+  "schema_version": 2,
+  "scene_id": 60,
+  "updated_at": "2026-10-23T15:46:54.711992Z",
+  "status": "first_part_inputs_ready_second_part_waits_own_result",
+  "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "role": "Серёга — точная внешность",
+      "media_type": "image",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "role": "личный корабль",
+      "media_type": "image",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "role": "кабина",
+      "media_type": "image",
+      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-60/S60-owner-video-final.jpg",
+      "role": "настоящий последний кадр первого видео",
+      "media_type": "image",
+      "sha256": "a7cc6bdc65f50434cabfaec5a42a0f15f26704ed21adbc38101ef1c5860c33e5",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-60/S60-owner-video-final.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "role": "модуль карты",
+      "media_type": "image",
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+      "role": "удаляющийся Кашиик",
+      "media_type": "image",
+      "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+      "status": "available",
+      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-23T15:46:54.711992Z",
+        "scope": "Visual reference inspection; does not approve future generated video."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "media_type": "video",
+      "role": "P1_previous_video_end",
+      "library_file_id": "libfile_97c44619738081918d864c40ae4b2110",
+      "filename": "S60-source-ending-27-30s.mp4",
+      "sha256": "1874b5d4423a33c24d8d6c4c868e21e9d370d6079addcc303fa0ba6fc3e03e67",
+      "status": "available",
+      "provenance_file": "references/scenes/scene-60/source-continuity.json"
+    }
+  ],
+  "pending_video": {
+    "role": "P2_previous_part_end",
+    "source_item_id": "S60-SEED20-P1",
+    "status": "required_not_available",
+    "required": true,
+    "qc": "Actual final3s of ownP1 only; save private video, SHA256, frame and continuity review before launch."
+  }
+}

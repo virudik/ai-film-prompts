@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "scene_id": 60,
+  "purpose": "Actual continuity input for independent Kashyyyk departure",
+  "source_filename": "1000014024.mp4",
+  "source_library_file_id": "libfile_f98eb34bded48191927a0bf1b2fd2e36",
+  "source_sha256": "a53867b1e262a48775992ee31ccd155840c2b334ce677202fd5e907708dc85b7",
+  "source_duration_seconds": 30.08,
+  "trim_seconds": [
+    27,
+    30
+  ],
+  "filename": "S60-source-ending-27-30s.mp4",
+  "library_file_id": "libfile_97c44619738081918d864c40ae4b2110",
+  "sha256": "1874b5d4423a33c24d8d6c4c868e21e9d370d6079addcc303fa0ba6fc3e03e67",
+  "size_bytes": 1859051,
+  "duration_seconds": 3,
+  "reproduction": "ffmpeg -ss 27 -i source.mp4 -t 3 -map 0:v:0 -map 0:a:0 -c:v libx264 -crf 18 -preset fast -c:a aac -movflags +faststart S60-source-ending-27-30s.mp4",
+  "qc": {
+    "status": "usable_for_continuity",
+    "scope": "15 full-video sampled frames at2s, six ending frames at0.5s, full-resolution final decoded frame; no continuous audiovisual review claimed",
+    "end_state": "Serega center, Lesha prone frame-left, Vitalik reclining against stump frame-right with lit blue saber; fallen Wookiees foreground; warm grey forest haze; Serega hands down, no red blade visible. Continue final frame, never replay preceding hit.",
+    "editorial_approval": false
+  },
+  "frame": {
+    "path": "references/scenes/scene-60/S60-owner-video-final.jpg",
+    "at_seconds": 29.958333,
+    "sha256": "a7cc6bdc65f50434cabfaec5a42a0f15f26704ed21adbc38101ef1c5860c33e5"
+  }
+}

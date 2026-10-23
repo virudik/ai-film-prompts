@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "work_id": "KASHYYYK-THREE-SCENES-20261023",
+  "recorded_at": "2026-10-23T15:46:54.711992Z",
+  "scene_ids": [
+    59,
+    60,
+    61
+  ],
+  "request_fulfilled_scope": "9 new complete prompt blocks, exact video-derived reference frames, private3s continuity clip,6Seedance2.0 queue items, film order and character usage. No generation submitted.",
+  "prompt_blocks": [
+    {
+      "label": "59",
+      "characters": 6383,
+      "sha256": "d747e4dc98d0ab1bbd1a1576ddc5f2429f07d776be69bbdc0cd54d7e5d48a4d0"
+    },
+    {
+      "label": "59 · Seedance 2.0 часть 1",
+      "characters": 5307,
+      "sha256": "a62fe8759b612c3f5da49a871c284cb8d4c8b02ce21ace724abbf82635e99f1c"
+    },
+    {
+      "label": "59 · Seedance 2.0 часть 2",
+      "characters": 5571,
+      "sha256": "14bececbce84bd8f245b6876c54583b4b8edb8544893c17fd741b92a7894e254"
+    },
+    {
+      "label": "60",
+      "characters": 8332,
+      "sha256": "baa6e1752b490891d422f65e9b35c2c3d2bbb78aae071fb9124a067def7b85f7"
+    },
+    {
+      "label": "60 · Seedance 2.0 часть 1",
+      "characters": 6820,
+      "sha256": "2439de9a42a28986f35919436ba9a8a6e09a145bfa8135d97b757d630d863f5a"
+    },
+    {
+      "label": "60 · Seedance 2.0 часть 2",
+      "characters": 6080,
+      "sha256": "97cfd185bb9344604742f750c7b8eabb62c4b6899ff422339b1ad0592284d256"
+    },
+    {
+      "label": "61",
+      "characters": 7701,
+      "sha256": "3a4e4d3e498fbe2d7c9bdd2d02808b7b684aff8453f83c06f12131d44816ec08"
+    },
+    {
+      "label": "61 · Seedance 2.0 часть 1",
+      "characters": 6416,
+      "sha256": "88c01d29c0b36a00c1dc310af4b7fc51758c39d4c215addce24eed85cd11f6e0"
+    },
+    {
+      "label": "61 · Seedance 2.0 часть 2",
+      "characters": 6592,
+      "sha256": "b51d64915c7d0ec50850841aa3dd4885c3bf18ec4f4a930ed0b3e187198deed8"
+    }
+  ],
+  "queue_priorities": {
+    "S59-SEED20-P1": 0.5,
+    "S59-SEED20-P2": 0.51,
+    "S60-SEED20-P1": 0.6,
+    "S60-SEED20-P2": 0.61,
+    "S61-SEED20-P1": 0.7,
+    "S61-SEED20-P2": 0.71
+  },
+  "source_videos": [
+    "references/scenes/scene-60/source-continuity.json",
+    "references/scenes/scene-61/source-continuity.json"
+  ],
+  "assistant_review_scope": "Sampled frames every2seconds across both30s videos; first/last full-resolution frames; source60 last3s reviewed at2fps. No continuous audiovisual review or approval of source clips claimed.",
+  "creative_choices": [
+    "59 dynamic S-bank and braking arc; no duplicated Naboo corkscrew",
+    "60 preserves exact defeated positions, leaves battle behind, reveals nearby ship, retains basket/note/map continuity to40",
+    "61 all3known humans, measured moving triangle, controlled saber rolls and feint; no combat or copied dialogue before target opening"
+  ],
+  "validation": {
+    "status": "prompt_reference_queue_checks_passed",
+    "checked_at": "2026-10-23T15:55:54.469236Z",
+    "original_prompt_bodies_unchanged": 89,
+    "new_blocks": 9,
+    "new_queue_items": 6,
+    "reference_slots_exact": true,
+    "image_sha256_verified": true,
+    "priority_after_worms_before_titles": true,
+    "all_P1_independent": true,
+    "P2_require_actual_own_P1": true,
+    "site_contract": "passed",
+    "project_status_build": "health=ok;24scenes98prompts;all checks true",
+    "publication": "pending",
+    "unit_tests": "228 tests passed (requests runtime dependency installed)"
+  },
+  "generation": {
+    "submitted": 0,
+    "credits": 0
+  },
+  "canonical_master_sha256": "b758c1a7df9ad9394e10b87bc80c9d8e7b1f2264fe0553dd67fe60ca66a40ac4"
+}

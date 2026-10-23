@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T14:05:00Z",
+  "updated_at": "2026-10-23T15:46:54.711992Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "B7",
@@ -6450,6 +6450,457 @@
       "launch_readiness": "blocked_inputs",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+    },
+    {
+      "id": "S59-SEED20-P1",
+      "scene_id": 59,
+      "prompt_id": "S59-SEED20-P1",
+      "canonical_block_label": "59 · Seedance 2.0 часть 1",
+      "priority": 0.5,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга — лицо и одежда",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "canonical_role": "личный корабль — только корпус",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "canonical_role": "кабина — только геометрия",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+          "canonical_role": "Кашиик из космоса",
+          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+          "canonical_role": "лес — только окружение, без персонажей",
+          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "a62fe8759b612c3f5da49a871c284cb8d4c8b02ce21ace724abbf82635e99f1c",
+      "normalized_prompt_sha256": "0db64fb1e7d2eb4002bcc1547e93485f294f103eb3e2cbf2b183f423a936ccd4",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": null
+    },
+    {
+      "id": "S59-SEED20-P2",
+      "scene_id": 59,
+      "prompt_id": "S59-SEED20-P2",
+      "canonical_block_label": "59 · Seedance 2.0 часть 2",
+      "priority": 0.51,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S59-SEED20-P1"
+      ],
+      "depends_on_completed": [
+        "S59-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "required": true,
+          "source_item_id": "S59-SEED20-P1",
+          "source_requirement": "Actual last3s of newly generated59P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга — лицо и одежда",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "canonical_role": "личный корабль — только корпус",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "canonical_role": "кабина — только геометрия",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+          "canonical_role": "Кашиик из космоса",
+          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+          "canonical_role": "лес — только окружение, без персонажей",
+          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "14bececbce84bd8f245b6876c54583b4b8edb8544893c17fd741b92a7894e254",
+      "normalized_prompt_sha256": "0d99e6b9fd9ac6a29cd0ff66ce522bb54844271b76adf60879357d9e341676bb",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": "Wait actual S59-SEED20-P1 ending and continuity QC."
+    },
+    {
+      "id": "S60-SEED20-P1",
+      "scene_id": 60,
+      "prompt_id": "S60-SEED20-P1",
+      "canonical_block_label": "60 · Seedance 2.0 часть 1",
+      "priority": 0.6,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_video_end",
+          "input_status": "available",
+          "required": true,
+          "library_file_id": "libfile_97c44619738081918d864c40ae4b2110",
+          "source_library_file_id": "libfile_f98eb34bded48191927a0bf1b2fd2e36",
+          "filename": "S60-source-ending-27-30s.mp4",
+          "sha256": "1874b5d4423a33c24d8d6c4c868e21e9d370d6079addcc303fa0ba6fc3e03e67",
+          "duration_seconds": 3,
+          "provenance_file": "references/scenes/scene-60/source-continuity.json",
+          "source_requirement": "Materialize the already saved exact3s clip by Library ID, verify SHA256, then upload to webTopview as Video1; source is owner video1000014024.mp4, NOT Scene59."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "canonical_role": "корабль",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "canonical_role": "кабина",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-60/S60-owner-video-final.jpg",
+          "canonical_role": "точный старт",
+          "sha256": "a7cc6bdc65f50434cabfaec5a42a0f15f26704ed21adbc38101ef1c5860c33e5",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "2439de9a42a28986f35919436ba9a8a6e09a145bfa8135d97b757d630d863f5a",
+      "normalized_prompt_sha256": "fd2632cbb1a3568c78931e7aa95ef1311b395aa6e8aad07bbb5ce1b25014fc64",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": null
+    },
+    {
+      "id": "S60-SEED20-P2",
+      "scene_id": 60,
+      "prompt_id": "S60-SEED20-P2",
+      "canonical_block_label": "60 · Seedance 2.0 часть 2",
+      "priority": 0.61,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S60-SEED20-P1"
+      ],
+      "depends_on_completed": [
+        "S60-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "required": true,
+          "source_item_id": "S60-SEED20-P1",
+          "source_requirement": "Actual last3s of newly generated60P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "canonical_role": "корабль",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "canonical_role": "кабина",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "canonical_role": "модуль",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+          "canonical_role": "Кашиик",
+          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "97cfd185bb9344604742f750c7b8eabb62c4b6899ff422339b1ad0592284d256",
+      "normalized_prompt_sha256": "5aeaf5a0fee95f16d558c05a2286deec4238cbff0c61c4817c8b5f1d5bf3a54d",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": "Wait actual S60-SEED20-P1 ending and continuity QC."
+    },
+    {
+      "id": "S61-SEED20-P1",
+      "scene_id": 61,
+      "prompt_id": "S61-SEED20-P1",
+      "canonical_block_label": "61 · Seedance 2.0 часть 1",
+      "priority": 0.7,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга — красный меч",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/vitalik.jpg",
+          "canonical_role": "Виталик — синий меч",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/lesha.jpg",
+          "canonical_role": "Лёша — фиолетовый меч",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+          "canonical_role": "точный финал перед вторым видео и лес",
+          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "88c01d29c0b36a00c1dc310af4b7fc51758c39d4c215addce24eed85cd11f6e0",
+      "normalized_prompt_sha256": "d9a4ca5128928cd74f707a9d2e173c9530c442fac31b62f73fc29a9415be8656",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": null
+    },
+    {
+      "id": "S61-SEED20-P2",
+      "scene_id": 61,
+      "prompt_id": "S61-SEED20-P2",
+      "canonical_block_label": "61 · Seedance 2.0 часть 2",
+      "priority": 0.71,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S61-SEED20-P1"
+      ],
+      "depends_on_completed": [
+        "S61-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "required": true,
+          "source_item_id": "S61-SEED20-P1",
+          "source_requirement": "Actual last3s of newly generated61P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга — красный меч",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/vitalik.jpg",
+          "canonical_role": "Виталик — синий меч",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/lesha.jpg",
+          "canonical_role": "Лёша — фиолетовый меч",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+          "canonical_role": "точный финал перед вторым видео и лес",
+          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "b51d64915c7d0ec50850841aa3dd4885c3bf18ec4f4a930ed0b3e187198deed8",
+      "normalized_prompt_sha256": "e62a3481d4d151300e333e446f3f686efd121fe96bef3bec5db9e714c5e1e1f4",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": "Wait actual S61-SEED20-P1 ending and continuity QC."
     }
   ],
   "already_submitted": {
@@ -7388,5 +7839,36 @@
       "normalized_prompt_sha256": "5c028afd686ad0543691141c28d13ae9f2e4d75e2f49f3c2cd4ef856fedb7ee3"
     }
   ],
-  "archived_items_file": "archive/ops/topview-launch-queue-archive.json"
+  "archived_items_file": "archive/ops/topview-launch-queue-archive.json",
+  "owner_instruction_20261023_kashyyyk": {
+    "at": "2026-10-23T15:46:54.711992Z",
+    "source": "Direct owner current chat; recorded_at, not invented original message timestamp",
+    "quote": "Сделать 2 независимые сцены. Серёга садится на кашиик и улетает с кашиика. Вторая прямое продолжение первого видео. Сделай динамично и зрелищно. И третья сцена предыстория второго видео ковбойское сближение всех персонажей. Они сосредоточенно ходят вокруг оценивая противников, крутя мечами и готовясь к схватке. И добавь их в очередь после червей.",
+    "scene_ids": [
+      59,
+      60,
+      61
+    ],
+    "launch_order_after_worms": [
+      59,
+      60,
+      61
+    ],
+    "priority_range": [
+      0.5,
+      0.71
+    ],
+    "supersedes": "Earlier no-Kashyyyk-landing story note only; 52P2/58P2 keep top priorities.",
+    "independence": "59P1,60P1,61P1 do not depend on each other.60P1 uses supplied first-video ending;61 ends at supplied second-video opening. EveryP2 still waits own generatedP1.",
+    "preserve": [
+      "ready-skip; blocked scene reserves no slot",
+      "My First Board; Unlimited0 only",
+      "no duplicate or automatic retry",
+      "Roscosmos paused"
+    ],
+    "source_manifest": [
+      "references/scenes/scene-60/source-continuity.json",
+      "references/scenes/scene-61/source-continuity.json"
+    ]
+  }
 }
