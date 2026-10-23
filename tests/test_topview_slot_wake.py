@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from robot_telemetry import published_event_text
+from robot_telemetry import published_event_text, slot_wake_signal, wake_issue_title, wake_issue_body
 
 
 class WakeTextTests(unittest.TestCase):
@@ -29,6 +29,23 @@ class WakeTextTests(unittest.TestCase):
         for decision in ('hold', 'noop'):
             self.assertEqual(published_event_text(self.event(), self.plan(decision=decision)), 'original result')
         self.assertEqual(published_event_text(self.event('failure'), self.plan()), 'original result')
+
+
+    def test_v2_signal_and_new_issue_subject(self):
+        sig = slot_wake_signal(self.event(), self.plan(local=3, foreign=1))
+        self.assertEqual(sig, {'event_id': 'result:abc', 'observed_at': '2026-10-23T22:00:00Z',
+                               'free_slots_global': 2})
+        title = wake_issue_title(sig)
+        self.assertTrue(title.startswith('TOPVIEW_SLOT_WAKE_V2 '))
+        self.assertIn('result:abc', title)
+        body = wake_issue_body(sig)
+        for expected in ('@virudik', 'TOPVIEW_SLOT_WAKE_V2', 'event_id: result:abc', 'free_slots_global: 2'):
+            self.assertIn(expected, body)
+
+    def test_v2_never_signals_without_a_free_slot_or_on_hold(self):
+        self.assertIsNone(slot_wake_signal(self.event(), self.plan(5, 1)))
+        self.assertIsNone(slot_wake_signal(self.event(), self.plan(decision='hold')))
+        self.assertIsNone(slot_wake_signal(self.event('failure'), self.plan()))
 
 
 if __name__ == '__main__':

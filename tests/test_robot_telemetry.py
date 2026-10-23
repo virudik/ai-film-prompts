@@ -41,9 +41,14 @@ def steady():
 class FakeNotifier:
     def __init__(self):
         self.posts = []
+        self.wakes = []
 
     def post(self, title, text):
         self.posts.append((title, text))
+        return True
+
+    def wake(self, signal):
+        self.wakes.append(signal)
         return True
 
 
@@ -296,10 +301,14 @@ class PublishTests(Base):
         self.assertIn("Сцена 30", self.n.posts[0][0])
         self.assertIn("TOPVIEW_SLOT_WAKE_V1", self.n.posts[0][1])
         self.assertIn("@virudik", self.n.posts[0][1])
+        # V2: exactly one new-issue wake with the stable event id
+        self.assertEqual([w["event_id"] for w in self.n.wakes], ["result:" + fx.ACTIVE_TASK])
+        self.assertEqual(self.n.wakes[0]["free_slots_global"], 6)
         # same scan again: nothing new to publish or announce
         before = self.head()
         self.assertEqual(self.go(scan([], fin), now=datetime(2026, 10, 11, 12, 5, tzinfo=timezone.utc)), 0)
         self.assertEqual(len(self.n.posts), 1)
+        self.assertEqual(len(self.n.wakes), 1)
         self.assertEqual(self.head(), before)
 
     def test_stale_active_row_of_an_already_processed_task_is_repaired_once(self):

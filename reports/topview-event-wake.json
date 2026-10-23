@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T23:19:23.529Z",
+  "updated_at": "2026-10-24T00:05:00Z",
   "status": "blocked_event_execution_unconfirmed",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -188,5 +188,17 @@
       "cause": "not established"
     }
   },
-  "slack_test_ack": null
+  "slack_test_ack": null,
+  "v2_new_thread": {
+    "prepared_at": "2026-10-24T00:05:00Z",
+    "prepared_by": "claude:slot-wake",
+    "hypothesis": "Gmail trigger may fire only on the first message of a new thread; all five V1 mails were in one Gmail thread 1a16ad875d0bbd98 (test 1 opened it while the filter still expected a subject without 'Re:').",
+    "robot": "new issue per slot event, label topview-slot-wake, title 'TOPVIEW_SLOT_WAKE_V2 · свободно N · result:<taskID>'; V1 issue18 comment kept",
+    "trigger_filter_needed": "^\\[virudik/ai-film-prompts\\] TOPVIEW_(SLOT_WAKE|WAKE_TEST)_V2 ",
+    "test_id": "wake-v2-newthread-20261024-01",
+    "test_enabled": false,
+    "test_ack": null,
+    "status": "waiting_for_chatgpt_filter_change",
+    "new_submissions": 0
+  }
 }

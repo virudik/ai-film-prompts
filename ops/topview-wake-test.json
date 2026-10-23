@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "test_id": "wake-renew-20261023-1792795264274",
+  "enabled": false,
+  "channel": "new_issue",
+  "test_id": "wake-v2-newthread-20261024-01",
   "read_only": true,
-  "requested_at": "2026-10-23T22:41:04.274Z",
+  "requested_at": null,
   "expected_new_submissions": 0,
-  "issue_number": 18,
   "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
-  "reason": "Verify pause/resume event subscription and simple exact observed subject regex; no video"
+  "reason": "V2: new issue = new Gmail thread; tests whether the Gmail trigger fires only on new threads. Enable after the ChatGPT trigger filter is switched to the V2 subject."
 }
