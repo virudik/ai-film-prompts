@@ -27,7 +27,7 @@
     },
     {
       "tag": "@Image4",
-      "role": "Отдельная опора монтажа: KM-ring-chase.png",
+      "role": "Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца",
       "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
       "sha256": "9ff3ec56daa9491c3071801dd1ac92b710e28b6fc22fae77491ebdc75b1a683a"
     },
@@ -57,7 +57,7 @@
     },
     {
       "tag": "@Image9",
-      "role": "Отдельная опора монтажа: ship-exterior-front.png",
+      "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
       "path": "projects/kotmonavty/references/ship-exterior-front.png",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
     }
@@ -86,7 +86,7 @@
         },
         {
           "tag": "@Image4",
-          "role": "Отдельная опора монтажа: KM-ring-chase.png",
+          "role": "Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца",
           "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
           "sha256": "9ff3ec56daa9491c3071801dd1ac92b710e28b6fc22fae77491ebdc75b1a683a"
         },
@@ -116,7 +116,7 @@
         },
         {
           "tag": "@Image9",
-          "role": "Отдельная опора монтажа: ship-exterior-front.png",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }
@@ -146,7 +146,7 @@
         },
         {
           "tag": "@Image4",
-          "role": "Отдельная опора монтажа: KM-ring-chase.png",
+          "role": "Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца",
           "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
           "sha256": "9ff3ec56daa9491c3071801dd1ac92b710e28b6fc22fae77491ebdc75b1a683a"
         },
@@ -176,7 +176,7 @@
         },
         {
           "tag": "@Image9",
-          "role": "Отдельная опора монтажа: ship-exterior-front.png",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }
@@ -206,7 +206,7 @@
         },
         {
           "tag": "@Image4",
-          "role": "Отдельная опора монтажа: KM-ring-chase.png",
+          "role": "Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца",
           "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
           "sha256": "9ff3ec56daa9491c3071801dd1ac92b710e28b6fc22fae77491ebdc75b1a683a"
         },
@@ -236,7 +236,7 @@
         },
         {
           "tag": "@Image9",
-          "role": "Отдельная опора монтажа: ship-exterior-front.png",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }

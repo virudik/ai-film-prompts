@@ -21,13 +21,13 @@
     },
     {
       "tag": "@Image3",
-      "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+      "role": "Ключевой кадр: красная буря, коты у полузасыпанного маяка с лучом вверх, корабль за ними — место и фаза",
       "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
       "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed"
     },
     {
       "tag": "@Image4",
-      "role": "Исходная техника или эмблема — неизменный дизайн",
+      "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
       "path": "projects/kotmonavty/references/ship-exterior-front.png",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
     }
@@ -50,13 +50,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: красная буря, коты у полузасыпанного маяка с лучом вверх, корабль за ними — место и фаза",
           "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
           "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed"
         },
         {
           "tag": "@Image4",
-          "role": "Исходная техника или эмблема — неизменный дизайн",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }
@@ -80,13 +80,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: красная буря, коты у полузасыпанного маяка с лучом вверх, корабль за ними — место и фаза",
           "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
           "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed"
         },
         {
           "tag": "@Image4",
-          "role": "Исходная техника или эмблема — неизменный дизайн",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }
@@ -110,13 +110,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: красная буря, коты у полузасыпанного маяка с лучом вверх, корабль за ними — место и фаза",
           "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
           "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed"
         },
         {
           "tag": "@Image4",
-          "role": "Исходная техника или эмблема — неизменный дизайн",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }

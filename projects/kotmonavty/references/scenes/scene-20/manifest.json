@@ -21,13 +21,13 @@
     },
     {
       "tag": "@Image3",
-      "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+      "role": "Ключевой кадр: шторм, коты идут по мокрым мосткам от корабля на плавучем космопорте — место и направление",
       "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
       "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab"
     },
     {
       "tag": "@Image4",
-      "role": "Исходная техника или эмблема — неизменный дизайн",
+      "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
       "path": "projects/kotmonavty/references/ship-exterior-front.png",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
     }
@@ -50,13 +50,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: шторм, коты идут по мокрым мосткам от корабля на плавучем космопорте — место и направление",
           "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
           "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab"
         },
         {
           "tag": "@Image4",
-          "role": "Исходная техника или эмблема — неизменный дизайн",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }
@@ -80,13 +80,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: шторм, коты идут по мокрым мосткам от корабля на плавучем космопорте — место и направление",
           "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
           "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab"
         },
         {
           "tag": "@Image4",
-          "role": "Исходная техника или эмблема — неизменный дизайн",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }
@@ -110,13 +110,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: шторм, коты идут по мокрым мосткам от корабля на плавучем космопорте — место и направление",
           "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
           "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab"
         },
         {
           "tag": "@Image4",
-          "role": "Исходная техника или эмблема — неизменный дизайн",
+          "role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         }
