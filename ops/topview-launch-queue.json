@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T01:35:19.591Z",
+  "updated_at": "2026-10-23T01:36:36.133Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4780,7 +4780,7 @@
       "canonical_prompt_sha256": "912df9aac9818879e48a5ee8951e0a494e3d9a9859e520da03f6acd14d2d2852",
       "normalized_prompt_sha256": "de94103dc0f6a115f46993440ead02f7aa92af26fd21c4d163cc5f7c2b039410",
       "priority": 36.1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4849,7 +4849,57 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "CONTINUE-20261023-S47-P2",
+        "claimed_at": "2026-10-23T01:36:36.133Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:36:26.884Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 929,
+            "active": [
+              {
+                "id": "af8e389dc9564607bc6138b408c72da5",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              },
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "all_input_sha256_verified": true,
+          "input_order": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ],
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "max_credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S47",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
