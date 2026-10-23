@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "14:55 MSK Topview + automation + GitHub mail checkpoint",
   "acquired_at": "2026-10-23T11:56:30Z",
-  "expires_at": "2026-10-23T12:16:30Z",
-  "released_at": null,
-  "rules": "ops/CANON-LOCK.md"
+  "expires_at": null,
+  "released_at": "2026-10-23T11:58:18Z",
+  "rules": "ops/CANON-LOCK.md",
+  "last_holder": "chatgpt",
+  "release_note": "13-board/19-page Topview scan: 933 tasks, 6 init and 6/6 occupied. Maintenance healthy; no open owner tasks/decisions, no new GitHub failure mail, latest key Actions successful. Checkpoint/register updated; no submit, retry, repair, or credits."
 }
