@@ -1,10 +1,25 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T22:17:20.600Z",
-  "status": "awaiting_end_to_end_test",
+  "updated_at": "2026-10-23T22:20:52.344Z",
+  "status": "mail_delivered_event_run_pending",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-20261023-1792793840600",
   "test_ack": null,
-  "events": []
+  "events": [],
+  "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
+  "verification": {
+    "checked_by": "interactive_chatgpt",
+    "checked_at": "2026-10-23T22:20:52.344Z",
+    "offline_tests_passed": 30,
+    "integration_run_id": 40032704173,
+    "test_workflow_run_id": 40032704119,
+    "comment_id": 6375856180,
+    "comment_created_at": "2026-10-23T22:18:29Z",
+    "email_message_id": "1a16ad875d0bbd98",
+    "email_received_at": "2026-10-23T22:18:52Z",
+    "email_matches_test_and_comment": true,
+    "event_run_confirmed": false,
+    "new_submissions": 0
+  }
 }

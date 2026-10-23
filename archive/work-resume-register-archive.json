@@ -3,6 +3,120 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "FILM-20261020-S57-S58-AFTER-WORM",
+      "title": "Серёгиус: 57 и 58 после всей цепочки червя",
+      "status": "completed",
+      "verified_at": "2026-10-20T16:41:48.448Z",
+      "completed_at": "2026-10-20T16:41:48.448Z",
+      "authorization": "Владелец 20.10.2026 19:37:46 МСК: «После всех сцен с червём поставь 57 и 58 в очередь. Они готовы полностью?»",
+      "pre_checkpoint_commit": "21ae880acd91b0a91fcc6f849d70567ce3f4475c",
+      "done": [
+        "Очередь16→42→56→48→57→58;57/58 защищены depends_on_submitted на все8частей червя.",
+        "4 SHA промтов совпали с master;10 уникальных файлов есть в текущем Git tree и SHA в queue/manifests согласованы. Записанные QC прочитаны, новый визуальный QC не выполнялся.",
+        "57P1 и58P1 имеют все картинки. Обе P2 ждут реальные проверенные окончания своих P1. Seedance2.0,2×15с,0кредитов.",
+        "Обновлено то же часовое задание6acae6ab433481919e88665c520b8ef2 без изменения расписания; новых запусков нет."
+      ],
+      "next_actions": [],
+      "production_next_action": "Дождаться реальных продолжений цепочки16/42/56/48 и отправки всех8выбранных частей; затем57/58 по priority и собственным реальным P1→P2 зависимостям.",
+      "canonical_refs": [
+        "ops/topview-launch-queue.json",
+        "references/scenes/scene-57/manifest.json",
+        "references/scenes/scene-58/manifest.json",
+        "reports/current-work-checkpoint.md"
+      ]
+    },
+    {
+      "work_id": "FILM-20261020-PRESENTATION-CORRECTIONS",
+      "title": "Уточнение ролей, реального запуска, кнопок, расписаний и безопасности презентации",
+      "status": "completed",
+      "started_at": "2026-10-20T14:59:17.885Z",
+      "authorization": "Владелец 20.10.2026 17:57 МСК: исправить слайды 2/10/13/15/16/17/18/20/22/24, добавить Безопасность, сохранить стиль и картинки, выдать новую PDF.",
+      "done": [
+        "Свежий main 8aeb7719f10ccef95c2241af65e9956d93e4df81 проверен. launch-autonomy: 3 chat / 0 schedule, checked_at 2026-10-20T10:17:22Z.",
+        "Исправлены только слайды2/10/13/15/16/17/18/20/22/24. Добавлен26 Безопасность; остальные15слайдов полностью совпали с исходными по содержимому и структуре, изображения сохранены.",
+        "Запуск отделён от телеметрии: Topview→GitHub, ChatGPT из открытого чата; две роли агентов, все запрошенные кнопки/адреса задач/Driveплеер/расписания/сертификат/канон-замки отражены.",
+        "Новый PDF26 сохранён отдельно от исходного. Все26страниц проверены на точное совпадение с финальными PNG1920x1080; визуально проверены изменённые слайды и PDF."
+      ],
+      "next_actions": [],
+      "blockers": [],
+      "completed_at": "2026-10-20T15:13:38.501Z",
+      "verified_at": "2026-10-20T15:13:38.501Z",
+      "artifact_url": "https://chatgpt.com/space/page_47cafbc9fbec8191bd831d7fb56fdcf6",
+      "presentation_sequence": 15,
+      "pdf_library_file_id": "libfile_6a6a214863fc8191909ae4688978846b",
+      "pdf_filename": "AI-Film-Control-Center-Updated-2026-10-20.pdf",
+      "pdf_pages": 26,
+      "pre_checkpoint_commit": "e36aefefcebb3eef4f37800442bed3af9a6c626a",
+      "report": "reports/control-center-presentation-2026-10-20.md"
+    },
+    {
+      "work_id": "FILM-20261020-CONTROL-CENTER-PRESENTATION",
+      "title": "Рекламная презентация контрольного центра всех четырёх проектов",
+      "status": "completed",
+      "started_at": "2026-10-20T04:39:24.977Z",
+      "authorization": "Владелец 20.10.2026 07:38 МСК: презентация сайта, функций, синхронизаций, создания сцен/промтов/роликов, референсов и автоматизации; со скриншотами, схемами и графиками, человеческим языком.",
+      "done": [
+        "Создана и сохранена редактируемая презентация из 25 слайдов: https://chatgpt.com/space/page_47cafbc9fbec8191bd831d7fb56fdcf6",
+        "Проверены GitHub main (снимок ced261c), действующее расписание HH:55 и реальные экраны сайта; 6 скриншотов и 6 проектных изображений включены в слайды.",
+        "Добавлены схемы создания сцен, подготовки референсов, продолжений, синхронизаций и контрольных точек; 2 редактируемых графика.",
+        "Все 25 слайдов визуально проверены; исправлены перекрытия и направление стрелок, исправленные слайды перечитаны и отрендерены. Документ сохранён, sequence=9.",
+        "Разделены обязанности роботов, агента и владельца, указаны условия запуска Unlimited/0 credits и необходимость финального монтажа."
+      ],
+      "next_actions": [],
+      "constraints": [
+        "Рекламные тезисы подтверждать кодом, правилами и текущим состоянием; не обещать полностью автономное создание фильма.",
+        "Без запусков генераций, расходов, редакционного одобрения или изменения общих правил."
+      ],
+      "blockers": [],
+      "completed_at": "2026-10-20T04:54:25.371Z",
+      "verified_at": "2026-10-20T04:54:25.371Z",
+      "artifact_url": "https://chatgpt.com/space/page_47cafbc9fbec8191bd831d7fb56fdcf6",
+      "report": "reports/control-center-presentation-2026-10-20.md"
+    },
+    {
+      "work_id": "FILM-20261020-S58-ACTION-REFS",
+      "title": "Выбранный старт58 и три активных референса Seedance",
+      "status": "completed",
+      "verified_at": "2026-10-20T00:48:14.900872Z",
+      "done": [
+        "Owner-selected first crash still preserved as separate original.",
+        "Three new helpers generated, QC and Git saved one at a time.",
+        "Three scene58 prompts and mappings/queue SHA synchronized; 92 other blocks unchanged."
+      ],
+      "next_actions": [
+        "Verify publication, then existing free Seedance queue; P2 only with genuine P1 ending."
+      ],
+      "receipt": "reports/scene58-action-references-2026-10-20.json",
+      "constraints": [
+        "P2 starts from real P1 ending, not any generated helper.",
+        "Blast/open-hatch/landed-panel temporal gates encoded.",
+        "Individual cats and original first ship/emblem outrank helper variations.",
+        "57/58 remain Seedance2.0 before dance; other queue priorities unchanged."
+      ]
+    },
+    {
+      "work_id": "FILM-20261020-S57-S58-IMAGES",
+      "title": "Бесплатные референсы аварии РосКОТмоса57/58",
+      "status": "completed",
+      "verified_at": "2026-10-20T00:32:46.672587Z",
+      "done": [
+        "Two missing references generated with built-in imagegen; first original ship/cats/cockpit preserved.",
+        "Original PNGs saved immediately in GitHub with provenance/SHA/QC; master galleries and all image slots updated.",
+        "Topview image attempts completed externally; P1 waiting for video slot, P2 true continuation inputs preserved.",
+        "Existing hourly automation updated; video57/58 before dance dependencies preserved."
+      ],
+      "next_actions": [
+        "Free video slots: exact queued Seedance2.0 prompts; before every launch fresh lock/main/inputs/anti-duplicate checks.",
+        "After P1 result, visually check and save the genuine ending for P2."
+      ],
+      "constraints": [
+        "No duplicate Topview image launch.",
+        "QC of references is not owner acceptance.",
+        "Part2 inputs must be actual video results; existing free-only authorization and priorities remain."
+      ],
+      "receipt": "reports/scene57-58-reference-completion-2026-10-20.json"
+    },
+    {
       "work_id": "FILM-20261020-STORY-ACTIVITY-AUDIT",
       "title": "Аудит активности остальных 54 сюжетных промптов: предложения",
       "status": "completed",
