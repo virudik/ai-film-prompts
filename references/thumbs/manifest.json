@@ -2453,16 +2453,6 @@
    "thumb_bytes": 27314,
    "src_sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45"
   },
-  "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg": {
-   "thumb": "references/thumbs/scenes/scene-59/S59-mushroom-forest-canopy.jpg.webp",
-   "width": 640,
-   "height": 120,
-   "src_width": 1280,
-   "src_height": 240,
-   "src_bytes": 55590,
-   "thumb_bytes": 13002,
-   "src_sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616"
-  },
   "references/scenes/scene-59/S59-mushroom-forest-opening.jpg": {
    "thumb": "references/thumbs/scenes/scene-59/S59-mushroom-forest-opening.jpg.webp",
    "width": 640,
