@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T00:53:29.817Z",
+  "updated_at": "2026-10-23T01:12:38.671Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6368,7 +6368,7 @@
       "canonical_prompt_sha256": "e444f7d9449437bf4063bae70937d4bdc0497f3434167193ac847fc8df4983b2",
       "normalized_prompt_sha256": "7fd1182b95e5ab78cce137387ab5086bbf875469667a27edcdc22bced65c7be9",
       "priority": 4.3,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -6429,7 +6429,25 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "AUDIT-S58-P1-20261023",
+        "claimed_by": "chatgpt",
+        "claimed_at": "2026-10-23T01:12:38.671Z",
+        "scope": "one website Unlimited0 submission",
+        "preflight_full_scan": {
+          "at": "2026-10-23T01:12:38.225Z",
+          "boards": 13,
+          "pages": 19,
+          "tasks": 926,
+          "active": [
+            {
+              "id": "0da875de0b384971836be2e3a05d0c0b",
+              "status": "running"
+            }
+          ],
+          "duplicates": []
+        }
+      },
       "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
       "launch_readiness": "reference_inputs_available",
       "created_at": "2026-10-19T23:43:06Z",
