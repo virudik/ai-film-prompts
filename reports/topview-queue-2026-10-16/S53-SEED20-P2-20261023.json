@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "item_id": "S53-SEED20-P2",
+  "task_id": "439dd6d829c64f16b6491e0177cc1619",
+  "project": "seregius",
+  "submitted_at": "2026-10-23 00:38:40Z",
+  "verified_at": "2026-10-23T00:39:55.636Z",
+  "status": "init",
+  "source": "one Topview website Create click",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "credits_cost": 0,
+  "use_unlimited_mode": true,
+  "canonical_block_label": "53 · Seedance 2.0 часть 2",
+  "canonical_prompt_sha256": "b7d51de51a28a893e915b306e8d0116f67f4483e4301cd117cd633126492b0cf",
+  "normalized_prompt_sha256": "076064df6bebba63b3bbf018f9db4572bbfdf92be6a605704c829245a9024ec3",
+  "full_normalized_prompt_match": true,
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/imEZJopTRk3xH6wxVN3Ov.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/MM3bgUs8er4Lm4LgTiieR.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/LFqgssooqciNz9dmczMay.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kinetic flight, serious and purposeful | Part 2 of 2: Serega's craft bursts out of the canyon into a vertical climb past Tatooine's two suns, sets course and accelerates into space\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — the last seconds of Part 1's result: the craft racing low through the sandstone canyon toward its bright mouth. Absolute START authority for the craft, the canyon, light and screen direction.\n<<<Image1>>>  — absolute identity and costume of SEREGA.\n<<<Image2>>>  — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour, proportions. Vehicle design only; ignore the source city's people and buildings.\n<<<Image3>>>  — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.\nPriority: <<<Video1>>>  the opening; <<<Image1>>>  Serega; <<<Image2>>>  the craft exterior; <<<Image3>>>  the cockpit.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA (the Chancellor), <<<Image1>>> : pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.\n\nPROP / VEHICLE LOCK — CRITICAL:\nOne craft, one Serega. The single Tatooine map module stays hidden in the inner fold of his robe the whole time: never visible, no hologram, no map display. No computer or mushroom basket aboard. The craft never touches the rock, never lands again.\nBREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.\n\nSKY LOCK:\nExactly two suns, close together in Tatooine's pale sky. The canyon is natural ochre sandstone, no ruins. Naboo never appears.\n\nSTART STATE:\nExactly the last frame of <<<Video1>>> : the craft racing low and fast through the narrow canyon toward its bright mouth, Serega aboard.\n\nTIMELINE:\n[0:00–0:03] — CANYON MOUTH\nContinue <<<Video1>>> : the craft rips through the last bend toward the bright canyon mouth, sand spraying behind.\n\n[0:03–0:09] — STRAIGHT UP PAST THE TWO SUNS\nHard cut, low angle from the canyon rim: the craft bursts out of the mouth and pulls into a near-vertical climb, engines blazing, shooting straight up across the two suns with a quick flare; the sky deepens from pale blue to dark indigo.\n\n[0:09–0:12] — COURSE SET\nCockpit medium shot, cooler even light on his recognisable face, stars outside. The yellow note stays sharp beside his right hand. One sharp course-selection press, then he shoves the thrust lever fully forward. No hologram, no readable destination text.\n\n[0:12–0:15] — ONWARD\nExterior rear three-quarter view: the tan curve of Tatooine below, the two suns glinting on its rim; the craft kicks into full acceleration and streaks away into black space. Hold a clean cut point.\n\nEND STATE:\nSerega and the hidden Tatooine fragment have left Tatooine in his own craft, accelerating through open space toward a separate arrival scene.\n\nCAMERA / SPACE:\nThree hard action cuts: climb, cockpit, space. Speed in wide exteriors: whip-pan at the canyon mouth, low upward angle for the climb, rear chase in space. Face only in the medium cockpit shot with even light. Credible ship scale; the climb is compressed by cuts, not morphing terrain.\n\nPERFORMANCE:\nFast, decisive, cool focused face; one sharp press and a hard shove of the thrust lever. No speech, no smile, no look into the lens.\n\nLIGHTING / MATERIALS:\nHard canyon light bands, two-sun lens flare, darkening sky, worn dark-grey hull, dusty purple robe; cooler cockpit light in space. No lighting-driven change of his face.\n\nAUDIO:\nEngine roar echoing between canyon walls, a strained rising engine scream through the vertical climb thinning into the silence of space, a sharp switch click and a final thrust surge. No dialogue, narrator, music, captions or spoken navigation.\n\nNEGATIVE PROMPT:\nvisible map module, hologram map, more than two suns, Naboo beside Tatooine, landing, crash into rock, formal winged shuttle, wrong or duplicate ship, co-pilot, cats, sandworm, ruins, space battle, asteroids, melting face, tiny face during fast motion, costume change, text overlay, watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/VFrEQIcfqUWWjTWMMMcYE.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "439dd6d829c64f16b6491e0177cc1619",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "inputs": [
+    {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S53-SEED20-P1",
+      "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+      "path": "references/scenes/scene-53/S53-P1-last3s-20261023.mp4",
+      "sha256": "3b7f8d348f2ee5f094f8d55e9c4702653d72c5b01d8e1f0d0b94e9ac31d8a533",
+      "duration_seconds": 3,
+      "source_task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+      "source_archive_file_id": "1K-bp1oJ1dBQLZhJDfZRumeFACdnC9ZYT",
+      "source_range_seconds": [
+        12.041666666666666,
+        15.041666666666666
+      ],
+      "qc_status": "usable_continuity_input_not_editorial_approval",
+      "provenance_report": "reports/topview-quality-2026-10-23/S53-SEED20-P1-review.json"
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "ui_evidence": "reports/evidence/S53-P2-submitted-20261023.jpg",
+  "artistic_approval": false
+}
