@@ -2,9 +2,9 @@
   "schema_version": 1,
   "state": "held",
   "holder": "chatgpt",
-  "task": "Create and integrate ten location-specific spacecraft references",
-  "acquired_at": "2026-10-23T17:10:54.014Z",
-  "expires_at": "2026-10-23T17:55:54.014Z",
+  "task": "Verify and close location-specific spacecraft reference publication",
+  "acquired_at": "2026-10-23T18:08:52.253Z",
+  "expires_at": "2026-10-23T18:28:52.253Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
