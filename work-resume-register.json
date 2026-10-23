@@ -1,21 +1,25 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T02:34:15.473Z",
+  "last_updated_at": "2026-10-23T02:47:17Z",
   "active_work": [
     {
       "work_id": "PROJECT-ORGANIZE-20261023",
       "title": "Переименование Роскосмос, новое Разное, сортировка изображений и доски проектов",
-      "status": "in_progress",
-      "updated_at": "2026-10-23T02:34:15.473Z",
-      "next_action": "Complete image moves with stable Library IDs; rename human-facing old Raznoe to Roscosmos preserving raznoe paths; create misc project; save board routing, update existing automation, validate and verify site.",
+      "status": "prepared_verified_pending_publish",
+      "updated_at": "2026-10-23T02:47:17Z",
+      "next_action": "Publish changes to main, verify deployed project switcher and references, then release all4locks.",
       "scope": "No video submissions; existing Seregius priorities and pauses preserved.",
       "completed": [
-        "Four project folders created; old35-image folder moved/renamed to /AI Film/🚀 Роскосмос; Seregius Scene Reference Packs moved into its folder. No images regenerated."
+        "307 project images sorted; destination readback verified all IDs.",
+        "5 projects and board routing prepared; old raznoe identity retained; new misc empty.",
+        "Existing Film automation updated and exact prompt/schedule readback verified.",
+        "219 unit tests, project and site validation passed."
       ],
       "canonical_refs": [
         "projects/projects.json",
-        "projects/README.md"
+        "projects/README.md",
+        "reports/project-organization-2026-10-23.json"
       ]
     },
     {
@@ -35,7 +39,7 @@
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_slots",
       "updated_at": "2026-10-23T02:25:21.662Z",
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit.",
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
@@ -324,7 +328,7 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit.",
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "blockers": [
         "S44: actual43 ends with both wings raised, invalid for required left wing at45deg; no auto-retry.",
         "Actual video dependencies58P2/56/48 remain; existing42P2 variant differs from canonical, reconcile before another submission.",
@@ -894,7 +898,7 @@
         "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit.",
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -1100,7 +1104,7 @@
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit.",
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "blockers": [
         "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
@@ -1177,7 +1181,7 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit.",
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "last_observed_topview": {
         "checked_at": "2026-10-19T17:54:52Z",
         "boards": 11,
@@ -1311,7 +1315,7 @@
         "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged.",
         "20Oct: owner requested active revision of all38 dance/music prompts; A11/A12/B11 included, same launch gate. See FILM-20261020-ACTIVE-MUSIC and reports/dance-music-energy-2026-10-20.md."
       ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit.",
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "blockers": [
         "Existing energetic test has no task ID yet and waits after story dependencies; do not describe it as already generating.",
         "New couple variants A11/A12/B11 held for test review; A12 still needs actual A11 ending."
@@ -1359,7 +1363,7 @@
         "51B now requires actual new51A ending; no synthetic continuity substitute.",
         "Local semantic/structure/hash checks, master health and site validator passed; no submissions or spending."
       ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit.",
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
       "constraints": [
         "Existing one-test then owner-review gate remains.",
         "No submissions, credits, automatic approval or new scenes.",
@@ -1692,9 +1696,9 @@
     },
     {
       "work_id": "RAZNOE-QUALITY-20261023",
-      "title": "Разное:20сцен/60промтов/35референсов готовы; запуск запрещён владельцем",
+      "title": "Роскосмос:20сцен/60промтов/35референсов готовы; запуск запрещён владельцем",
       "status": "prepared_launches_paused_by_owner",
-      "next_action": "Не запускать Разное. Сначала завершить весь Серёгиус по сохранённому плану. Все29пунктов Разного paused_by_owner; новый запуск только после явного решения владельца.",
+      "next_action": "Не запускать Роскосмос. Сначала завершить весь Серёгиус по сохранённому плану. Все29пунктов Роскосмоса paused_by_owner; новый запуск только после явного решения владельца.",
       "canonical_refs": [
         "projects/raznoe/reports/current-work-checkpoint.md",
         "projects/raznoe/reports/quality-revision-2026-10-23.json",

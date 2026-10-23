@@ -5,9 +5,11 @@
   "read_by": "claude:переключатель проектов (Topview MCP, только чтение)",
   "board": {
     "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
-    "name": "Лёха кот",
+    "name": "Кот детектив",
     "url": "https://www.topview.ai/board/d3bdcbe509594dcf82f8eddcaabe17fe",
-    "task_count": 11
+    "task_count": 11,
+    "previous_name": "Лёха кот",
+    "name_verified_at": "2026-10-23T02:39:52Z"
   },
   "note": "Все 11 задач прочитаны через Topview MCP 20.10.2026. Входные картинки перенесены без изменений: 9 S3-путей → 7 уникальных оригиналов; также сохранены 3 стоп-кадра. Происхождение и SHA — references/manifest.json. MP4 в GitHub не помещались; генерации не запускались.",
   "style_lock": "Cinematic Cozy Detective Noir, anthropomorphic animal detectives, Victorian London, warm amber lighting, realistic fluffy fur, tweed clothing, dark wooden interiors, investigation boards with photos and red strings, rainy cobblestone streets, gas lamps in fog; only animals, no people; no subtitles, no watermarks.",

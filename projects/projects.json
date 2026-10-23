@@ -25,7 +25,15 @@
       "references": "character-references.json",
       "queue": "ops/topview-launch-queue.json",
       "lock": "ops/canon-lock.json",
-      "status": "project-status.json"
+      "status": "project-status.json",
+      "topview_board": {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "name": "My First Board"
+      },
+      "library_images_folder": {
+        "id": "6adac72f751481919bc7bf7f07d18c8c",
+        "path": "/AI Film/🎬 Серёгиус"
+      }
     },
     {
       "id": "kotmonavty",
@@ -47,7 +55,15 @@
       "references": "projects/kotmonavty/character-references.json",
       "queue": "projects/kotmonavty/ops/topview-launch-queue.json",
       "lock": "projects/kotmonavty/canon-lock.json",
-      "status": "projects/kotmonavty/project-status.json"
+      "status": "projects/kotmonavty/project-status.json",
+      "topview_board": {
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+        "name": "Котмонавты"
+      },
+      "library_images_folder": {
+        "id": "6adac7315828819192774d15c5dc45e6",
+        "path": "/AI Film/🐱🚀 Котмонавты"
+      }
     },
     {
       "id": "kot-detektiv",
@@ -74,22 +90,23 @@
       "status": "projects/kot-detektiv/project-status.json",
       "topview_board": {
         "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
-        "name": "Лёха кот"
+        "name": "Кот детектив"
+      },
+      "library_images_folder": {
+        "id": "6adac73372008191af44b1853c8163cc",
+        "path": "/AI Film/🕵️🐈 Кот детектив"
       }
     },
     {
       "id": "raznoe",
-      "name": "Разное",
-      "emoji": "🎲",
+      "name": "Роскосмос",
+      "emoji": "🚀",
       "root": "projects/raznoe",
       "state": "active",
-      "description": "Независимые ролики, не связанные с фильмами.",
+      "description": "Ролики о Роскосмосе, Главкосмосе, РКС и НЦ ОМЗ; прежний проект «Разное».",
       "aliases": [
-        "разное",
-        "разном",
-        "разного",
-        "независимый ролик",
-        "независимые ролики",
+        "роскосмос",
+        "roscosmos",
         "raznoe"
       ],
       "master": "projects/raznoe/video-prompts.md",
@@ -98,14 +115,60 @@
       "references": "projects/raznoe/character-references.json",
       "queue": "projects/raznoe/ops/topview-launch-queue.json",
       "lock": "projects/raznoe/canon-lock.json",
-      "status": "projects/raznoe/project-status.json"
+      "status": "projects/raznoe/project-status.json",
+      "renamed_from": {
+        "name": "Разное",
+        "emoji": "🎲",
+        "at": "2026-10-23T02:39:52Z",
+        "note": "Старые id, пути, решения и ссылки сохраняются; новое Разное имеет id misc."
+      },
+      "topview_board": {
+        "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+        "name": "Роскосмос"
+      },
+      "library_images_folder": {
+        "id": "6adab6f0b5dc8191bdde4f33ad0836f3",
+        "path": "/AI Film/🚀 Роскосмос"
+      }
+    },
+    {
+      "id": "misc",
+      "name": "Разное",
+      "emoji": "🎲",
+      "root": "projects/misc",
+      "state": "active",
+      "description": "Новые независимые ролики, не относящиеся к другим проектам.",
+      "aliases": [
+        "разное",
+        "разном",
+        "разного",
+        "независимый ролик",
+        "независимые ролики",
+        "misc"
+      ],
+      "master": "projects/misc/video-prompts.md",
+      "handoff": "projects/misc/HANDOFF.md",
+      "instructions": "projects/misc/INSTRUCTIONS.md",
+      "references": "projects/misc/character-references.json",
+      "queue": "projects/misc/ops/topview-launch-queue.json",
+      "lock": "projects/misc/canon-lock.json",
+      "status": "projects/misc/project-status.json",
+      "topview_board": {
+        "board_id": "c934cec563ea45e1b37d12657821ebd5",
+        "name": "Разное"
+      },
+      "library_images_folder": {
+        "id": "6adac73583608191aa3ef3227e7c45e3",
+        "path": "/AI Film/🎲 Разное"
+      }
     }
   ],
   "launch_order": [
     "seregius",
     "kotmonavty",
     "kot-detektiv",
-    "raznoe"
+    "raznoe",
+    "misc"
   ],
   "launch_order_note": "Если готовы элементы очередей нескольких проектов, а слот один: сначала проект выше в launch_order, внутри проекта — наименьший priority. Порядок меняет владелец («в проекте X запускать первым»).",
   "detection_note": "Алиасы — подстроки в нижнем регистре (ё и е различаются как написаны, сравнение делает scripts/projects.py detect). «Коты», «РосКОТмос», «Лучик» есть и в Серёгиусе, поэтому проектом их не считать.",
@@ -117,6 +180,8 @@
     "owner_quote": "Разное не запускать. Сначала доделаем серёгиуса всего по плану",
     "preserve_launch_order": true,
     "raznoe_resume_requires": "New explicit owner decision",
-    "reason": "Owner directs completing Seregius before launching other projects."
-  }
+    "reason": "Owner directs completing Seregius before launching other projects.",
+    "rename_note": "Историческая цитата «Разное не запускать» относится к raznoe, ныне Роскосмос. Новое Разное (misc) пустое и разрешения на запуск не имеет. allowed_projects остаётся seregius."
+  },
+  "board_routing_rule": "Каждый проект запускается только в собственной доске по точной паре name/board_id ниже. Серёгиус остаётся My First Board. Перед submit сверить обе величины в интерфейсе; при несовпадении блокировать этот проект, не использовать другую доску. Общий скан слотов по всем доскам сохраняется."
 }

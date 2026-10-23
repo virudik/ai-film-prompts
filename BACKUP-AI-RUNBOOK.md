@@ -59,7 +59,7 @@
 
 ## Scene Reference Pack — восстановление
 
-Правила reference-first, QC по одному кадру, save-before-next и контрольных точек — `SYNC-RUNBOOK.md` «Scene Reference Pack automation». Принятый референс хранится в `references/scenes/scene-N/` в `main` (если им реально пользуется сцена) с manifest; рабочие копии пакета — на Drive в «Scene Reference Packs/Scene N — Reference Pack» и в Library `/AI Film/Scene Reference Packs/Scene N`. Если Topview — единственный оставшийся источник, точные входные изображения задачи восстанавливаются через мост ниже, а не повторной загрузкой владельцем.
+Правила reference-first, QC по одному кадру, save-before-next и контрольных точек — `SYNC-RUNBOOK.md` «Scene Reference Pack automation». Принятый референс хранится в `references/scenes/scene-N/` в `main` (если им реально пользуется сцена) с manifest; рабочие копии пакета — на Drive в «Scene Reference Packs/Scene N — Reference Pack» и в Library `/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene N`. Если Topview — единственный оставшийся источник, точные входные изображения задачи восстанавливаются через мост ниже, а не повторной загрузкой владельцем.
 
 **Topview exact-input binary recovery bridge** (проверен 07.10 на 30 уникальных входах). Когда метаданные задачи Topview дают только S3 / source-пути, а `download_topview_canvas_nodes` возвращает короткоживущие авторизованные URL, точные байты источника можно сохранить без повторной загрузки владельцем:
 1. создать / использовать авторизованный Topview Canvas и добавить точные S3-источники входов задачи как media nodes;

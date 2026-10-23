@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-23T00:15:21Z",
+  "synced_at": "2026-10-23T02:41:50Z",
   "revision_date": "23.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
-  "canonical_master_sha256": "a716a209c95d328b740679864cc5228f83b15a236a393edadc91b7d89c6c1955",
-  "canonical_revision_sha256": "0efaf35e3fc0ad15404fd1f913450f45ec10c63c601d2210b592a6ae92a2e63b",
-  "canonical_master_bytes": 372652,
+  "canonical_master_sha256": "91a1af693a15f1ad1317c5611edcc8dd2048dd5003016f528b23f32a087618ac",
+  "canonical_revision_sha256": "8e819fbabd3b90d6ca42c5121d64c6c94fc61faf3b4174854c7c0eff00c6b66b",
+  "canonical_master_bytes": 372904,
   "scenes": 20,
   "prompt_texts": 60,
   "work_items": [],
@@ -40,28 +40,28 @@
   "latest_scene": 20,
   "reserved_scene_ids": [],
   "instruction_sync": {
-    "health": "ok",
-    "snapshot_at": "2026-10-22T21:41:43.011Z",
+    "health": "stale",
+    "snapshot_at": "2026-10-23T02:41:50.686Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 2.561,
+    "age_hours_at_status_build": -0.0,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "a0e01677df72855684def43fc9aefb889e71a3cc",
-        "mirror_sha256": "4e154519ae852fe0f0812670c13925e13ce29989a4083526967b7ae7ff7703e6",
+        "github_blob": "11cc71e146293f7db0447e33eb200039ee7ecf9f",
+        "mirror_sha256": "fd710d89efd9989d6f5dc7f9c6dbffdb231fdfcc97c1b9e30a11cee3f0f49dc1",
         "match": true,
         "drive_copy_sha256": "0d85337db2e5b9e5aa825f9e295deaaf29afa84929f90166726cacf44d29c1a4",
-        "drive_copy_match": true,
+        "drive_copy_match": false,
         "drive_copy_modified_at": "2026-10-22T08:38:09.418Z",
         "drive_copy_checked_at": "2026-10-22T08:38:15.359Z",
-        "drive_copy_note": "New canonical handoff; read-only Drive backup may be stale"
+        "drive_copy_note": "Canonical handoff changed 23Oct2026; Drive backup was not refreshed in this launch task."
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "github_blob": "fc364fa1aeab46631ffef5c8632740d0b373bc50",
-        "mirror_sha256": "b04f0e15a5cea6d0cef77a61023eb1a75146b8d87547bbede6b9df6f29387094",
+        "github_blob": "a84004f958d152b4ae2292363dca4310c1fd674b",
+        "mirror_sha256": "67832b3ea70ddd89bbdfaacb1053b21196682bec8d52e3762d1e8bc70881566c",
         "match": true,
         "drive_copy_sha256": "2dbffced5a4231eb27d9bd1475cbc327b63b2c50c8736705e4fbbc51fa205e24",
         "drive_copy_match": true,
@@ -70,8 +70,8 @@
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "github_blob": "ea07c1f316d4f1d99f8187a485bf5e6542e236e4",
-        "mirror_sha256": "39ebed74e4a6bcd1b20cfb9d3378fc8de9b6a5459196d6737eb5ab443a485edd",
+        "github_blob": "98b2e187608cf50b55052615178dea9ebd759a2d",
+        "mirror_sha256": "85dcec9db1d62abecade19eabd17a5c6052c200c0c494b0e564c2f87c0dc61c9",
         "match": true,
         "drive_copy_sha256": "39ebed74e4a6bcd1b20cfb9d3378fc8de9b6a5459196d6737eb5ab443a485edd",
         "drive_copy_match": true,
@@ -90,8 +90,8 @@
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "github_blob": "26b6dcc5ebada76cc59b22428019f1f178a38dd2",
-        "mirror_sha256": "8294130ab6664f7099806f0e4c205bd03ee66991b3ff29f5a296c75ff29dd678",
+        "github_blob": "18a8af174c76b24007ba4dc80f7a750237805b40",
+        "mirror_sha256": "fdf69c01f28c16424c8b00821b0b3b33543907d7e7999c061fc5fb64cd9810be",
         "match": true,
         "drive_copy_sha256": "5e9481a81f8187dad6064c962faef58c74e24e0b466ed4bbb3cf63216d0f0578",
         "drive_copy_match": true,
@@ -110,8 +110,8 @@
       },
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-        "github_blob": "2290d9d6b735e7bb48294cc05fa135be3c23780c",
-        "mirror_sha256": "2167ce1ba9077c141bb74e431ebfca3eac14865a01b62d647b76f07ff18eda0d",
+        "github_blob": "b7f2efd9c7f45c4652f0cc9798d5d0e3ea8b9c66",
+        "mirror_sha256": "448939a091b8611643b31836eb1497a8e49c6bce5ecf3456ae434f03860d67b7",
         "match": true,
         "drive_copy_sha256": "2167ce1ba9077c141bb74e431ebfca3eac14865a01b62d647b76f07ff18eda0d",
         "drive_copy_match": true,
@@ -123,8 +123,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "ok",
-      "age_hours": 2.561,
+      "state": "stale",
+      "age_hours": -0.0,
       "blocking": false
     },
     "topview_task_map": {
@@ -538,9 +538,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-23T00:15:21Z",
-    "canonical_master_sha256": "a716a209c95d328b740679864cc5228f83b15a236a393edadc91b7d89c6c1955",
-    "canonical_revision_sha256": "0efaf35e3fc0ad15404fd1f913450f45ec10c63c601d2210b592a6ae92a2e63b",
+    "synced_at": "2026-10-23T02:41:50Z",
+    "canonical_master_sha256": "91a1af693a15f1ad1317c5611edcc8dd2048dd5003016f528b23f32a087618ac",
+    "canonical_revision_sha256": "8e819fbabd3b90d6ca42c5121d64c6c94fc61faf3b4174854c7c0eff00c6b66b",
     "scene_count": 20,
     "prompt_count": 60,
     "scene_ids": [
@@ -568,7 +568,7 @@
     "work_items": [],
     "slow_scenes": [],
     "health": "ok",
-    "instruction_sync_health": "ok"
+    "instruction_sync_health": "stale"
   },
   "health": "ok",
   "checks": {
@@ -601,9 +601,8 @@
     "scene_meta_allowed_fields_valid": true,
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
-    "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": true
+    "scene_meta_target_engine_valid": true
   },
   "project": "raznoe",
-  "project_name": "Разное"
+  "project_name": "Роскосмос"
 }

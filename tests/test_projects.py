@@ -85,6 +85,27 @@ class RegistryTests(unittest.TestCase):
             self.assertEqual(st["health"], "ok", (pid, [k for k, v in st["checks"].items() if not v]))
             self.assertEqual(st["project"], pid)
 
+    def test_launch_queues_use_distinct_project_boards(self):
+        items = prj.projects(ROOT, include_root=True)
+        ids = [p['topview_board']['board_id'] for p in items]
+        self.assertEqual(len(ids), len(set(ids)))
+        for p in items:
+            board = p['topview_board']
+            self.assertEqual(board['name'], 'My First Board' if p['id'] == 'seregius' else p['name'])
+            queue = json.loads((ROOT / p['queue']).read_text())
+            self.assertEqual((queue['board_id'], queue['board_name']), (board['board_id'], board['name']))
+
+    def test_rename_preserves_old_project_and_new_project_starts_empty(self):
+        self.assertEqual(prj.get(ROOT, 'raznoe')['name'], 'Роскосмос')
+        self.assertEqual(prj.get(ROOT, 'raznoe')['root'], 'projects/raznoe')
+        self.assertEqual(prj.project_of_row({'value': 'project:raznoe'}), 'raznoe')
+        q = json.loads((ROOT / prj.get(ROOT, 'raznoe')['queue']).read_text())
+        self.assertEqual(q['state'], 'paused_by_owner')
+        self.assertTrue(all(x['state'] == 'paused_by_owner' for x in q['items']))
+        fresh = prj.get(ROOT, 'misc')
+        self.assertEqual(json.loads((ROOT / fresh['queue']).read_text())['items'], [])
+        self.assertEqual(json.loads((ROOT / fresh['status']).read_text())['scenes'], 0)
+
 
 class DetectTests(unittest.TestCase):
     reg = prj.load(ROOT)
@@ -96,7 +117,8 @@ class DetectTests(unittest.TestCase):
         self.assertEqual(self.d("В проекте Котмонавты сделай сцену взлёта")["project"], "kotmonavty")
         self.assertEqual(self.d("в коте детективе добавь сцену в кабинете")["project"], "kot-detektiv")
         self.assertEqual(self.d("Для Кот-детектива перенеси картинки")["project"], "kot-detektiv")
-        self.assertEqual(self.d("в разном сделай ролик про море")["project"], "raznoe")
+        self.assertEqual(self.d("в разном сделай ролик про море")["project"], "misc")
+        self.assertEqual(self.d("в Роскосмосе поправь сцену 3")["project"], "raznoe")
         self.assertEqual(self.d("в Серёгиусе поправь сцену 44")["project"], "seregius")
 
     def test_no_project_means_seregius(self):

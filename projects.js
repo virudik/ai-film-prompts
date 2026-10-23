@@ -10,7 +10,8 @@ var PROJECTS=[
  {id:'seregius',name:'Серёгиус',emoji:'🎬',root:'',about:'основной фильм'},
  {id:'kotmonavty',name:'Котмонавты',emoji:'🐱🚀',root:'projects/kotmonavty/',about:'спин-офф про котов'},
  {id:'kot-detektiv',name:'Кот детектив',emoji:'🕵️🐈',root:'projects/kot-detektiv/',about:'кот-сыщик'},
- {id:'raznoe',name:'Разное',emoji:'🎲',root:'projects/raznoe/',about:'независимые ролики'}
+ {id:'raznoe',name:'Роскосмос',emoji:'🚀',root:'projects/raznoe/',about:'космические организации'},
+ {id:'misc',name:'Разное',emoji:'🎲',root:'projects/misc/',about:'независимые ролики'}
 ];
 var ROOT='seregius',SLOTS=6;
 var API_HOST='https://vzohfatqzyioydtgjiyd.supabase.co/functions/v1/owner-decision';

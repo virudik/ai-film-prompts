@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project": "misc",
+  "queue_id": "MISC-QUEUE",
+  "updated_at": "2026-10-23T02:39:52Z",
+  "state": "awaiting_owner_selection",
+  "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
+  "selection_policy": "Только выбранные и разрешённые владельцем готовые пункты; общий launch_scope_override; Unlimited и 0 кредитов.",
+  "board_id": "c934cec563ea45e1b37d12657821ebd5",
+  "board_name": "Разное",
+  "board_routing_rule": "projects/README.md",
+  "receipts_directory": "projects/misc/reports",
+  "items": [],
+  "already_submitted": {},
+  "owner_site_actions": []
+}

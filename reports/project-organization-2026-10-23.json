@@ -1,0 +1,2166 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-23T02:46:24.816Z",
+  "owner_request": "Проектные изображения разложить по проектам; прежнее Разное → Роскосмос; новое Разное; отдельная доска каждому проекту.",
+  "counts": {
+    "seregius": 220,
+    "raznoe": 35,
+    "kotmonavty": 28,
+    "kot-detektiv": 24,
+    "misc": 0
+  },
+  "total_unique_images": 307,
+  "verification": "All five destination folders listed recursively to cursor exhaustion;307 unique stable IDs. All individual moves succeeded. No regeneration, re-upload or deletion.",
+  "scope_note": "9 generated root images without confirmed project ownership (including4charts), user uploads and service screenshots remain untouched. Native client Images filter UI not inspected.",
+  "items": [
+    {
+      "library_file_id": "libfile_a52f7ce797208191b14b088c906d8353",
+      "name": "s15-weather.png",
+      "path": "/AI Film/🚀 Роскосмос/s15-weather.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_2c2319523a0c8191a4872b92e5a9e575",
+      "name": "s18-archive.png",
+      "path": "/AI Film/🚀 Роскосмос/s18-archive.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_e4d44851a90081919d75e48b350869a4",
+      "name": "q11-hands.png",
+      "path": "/AI Film/🚀 Роскосмос/q11-hands.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_ddd3bae8d0e4819188f27eec727100d1",
+      "name": "s20-delta.png",
+      "path": "/AI Film/🚀 Роскосмос/s20-delta.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_b6e44b2829b0819192d8d5df546d4557",
+      "name": "s16-testbench.png",
+      "path": "/AI Film/🚀 Роскосмос/s16-testbench.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_b233f3557e2881919bb2928ec4ec074d",
+      "name": "s19-lowwater.png",
+      "path": "/AI Film/🚀 Роскосмос/s19-lowwater.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_279114c9a7d0819181205629f6d85254",
+      "name": "q14-detail.png",
+      "path": "/AI Film/🚀 Роскосмос/q14-detail.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_a91652986b708191835a44b04ff70766",
+      "name": "q12-cards.png",
+      "path": "/AI Film/🚀 Роскосмос/q12-cards.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_aebddda93e0481918f34fede36686e4b",
+      "name": "s10-spectral.png",
+      "path": "/AI Film/🚀 Роскосмос/s10-spectral.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_75b4b6b52ac48191be152a9cf1f12b83",
+      "name": "q06-overhead.png",
+      "path": "/AI Film/🚀 Роскосмос/q06-overhead.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_e23d3742811881919892d9a06dc1d45c",
+      "name": "q09-evening.png",
+      "path": "/AI Film/🚀 Роскосмос/q09-evening.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_ca3d35c59b80819199ccca98787c5159",
+      "name": "q01-overhead.png",
+      "path": "/AI Film/🚀 Роскосмос/q01-overhead.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_56cd9ccd1854819193284801efb3b625",
+      "name": "s17-detail.png",
+      "path": "/AI Film/🚀 Роскосмос/s17-detail.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_cabde674f60c8191bff6bcbf81b22003",
+      "name": "q17-context.png",
+      "path": "/AI Film/🚀 Роскосмос/q17-context.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_ce645108e7f8819185c93bb1b5eb3516",
+      "name": "q16-adjustment.png",
+      "path": "/AI Film/🚀 Роскосмос/q16-adjustment.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_7564ae2392fc819198dbe898ba4a4f7e",
+      "name": "s07-map.png",
+      "path": "/AI Film/🚀 Роскосмос/s07-map.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_3e40f8ea9a9481919cc46b1b74073e38",
+      "name": "06-power-corridor.png",
+      "path": "/AI Film/🚀 Роскосмос/06-power-corridor.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_4e0d0770e0a881918e37d0e558d8441b",
+      "name": "01-earth-work.png",
+      "path": "/AI Film/🚀 Роскосмос/01-earth-work.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_b315c10393c481919ac9b51b2633356f",
+      "name": "s05-assembled.png",
+      "path": "/AI Film/🚀 Роскосмос/s05-assembled.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_3435f3f859e48191ace87c07105e8a8f",
+      "name": "s08-pair.png",
+      "path": "/AI Film/🚀 Роскосмос/s08-pair.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_bed1345f91448191abac9f9ac6eb7aa7",
+      "name": "s09-earth.png",
+      "path": "/AI Film/🚀 Роскосмос/s09-earth.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_92d406cd2b388191b56e51c225c6da4b",
+      "name": "05-space-instrument.png",
+      "path": "/AI Film/🚀 Роскосмос/05-space-instrument.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_14f115b43fe8819185f4b7ee7a12116f",
+      "name": "s13-cubesat.png",
+      "path": "/AI Film/🚀 Роскосмос/s13-cubesat.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_fe83ac46c0a88191a3634a2f1df2ed49",
+      "name": "s10-visible.png",
+      "path": "/AI Film/🚀 Роскосмос/s10-visible.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_1c3d0896ae30819180048efcb45154c0",
+      "name": "s03-orbit.png",
+      "path": "/AI Film/🚀 Роскосмос/s03-orbit.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_cf8d53c9e82c81918bd598ef2175f4e5",
+      "name": "04-mission-exhibit.png",
+      "path": "/AI Film/🚀 Роскосмос/04-mission-exhibit.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_f42d8b836d1081919ec2065b5a15d243",
+      "name": "02-stereo-relief.png",
+      "path": "/AI Film/🚀 Роскосмос/02-stereo-relief.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_ebfe6f245dcc81919bc5d42593a7f487",
+      "name": "08-land-memory.png",
+      "path": "/AI Film/🚀 Роскосмос/08-land-memory.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_8e3cf3b017b48191b3cc712c1d67ae8e",
+      "name": "s02-flat.png",
+      "path": "/AI Film/🚀 Роскосмос/s02-flat.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_54b56e22a5b48191be98f9b96f5b6f4d",
+      "name": "s14-booth.png",
+      "path": "/AI Film/🚀 Роскосмос/s14-booth.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_f312d92e5ce0819185f25e9195e573c6",
+      "name": "07-earth-operations.png",
+      "path": "/AI Film/🚀 Роскосмос/07-earth-operations.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_754efd6bebfc81918adb3f881a0a3bf3",
+      "name": "s04-touch.png",
+      "path": "/AI Film/🚀 Роскосмос/s04-touch.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_86adf97806008191b6f780685339a2c1",
+      "name": "s11-engineer.png",
+      "path": "/AI Film/🚀 Роскосмос/s11-engineer.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_584ed715d0208191b085b555d3fa65c3",
+      "name": "s12-consultation.png",
+      "path": "/AI Film/🚀 Роскосмос/s12-consultation.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_dd6a7e6d42e48191aea7cf6bb20506ff",
+      "name": "03-small-satellite.png",
+      "path": "/AI Film/🚀 Роскосмос/03-small-satellite.png",
+      "type": "image_gen",
+      "project": "raznoe"
+    },
+    {
+      "library_file_id": "libfile_2cd0b2afb6408191860b01dea754ea3b",
+      "name": "Коты у чёрной дыры.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты у чёрной дыры.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_9b91d6e127e48191b58c1c1aee4ae7c7",
+      "name": "Космокоты мчатся к кораблю.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Космокоты мчатся к кораблю.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_58f66a05910c8191a094fafc4fee6d4b",
+      "name": "Коты размораживают древний навигационный ключ.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты размораживают древний навигационный ключ.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_c4576a5d9b808191a76dcc55d8806456",
+      "name": "Кошачий прыжок над звездным маглевом.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Кошачий прыжок над звездным маглевом.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_ea7c8d1a98b88191914f26325f2a7840",
+      "name": "Кошачья экспедиция к древним вратам.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Кошачья экспедиция к древним вратам.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_64a1f8a1cd708191843087a48065f235",
+      "name": "Коты на троне галактического совета.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты на троне галактического совета.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_10f4b418716c8191b0b70eb0d712bc18",
+      "name": "Кошки перед гигантским космическим глазом.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Кошки перед гигантским космическим глазом.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_8d109ee4384c81919a9d46fb65c8d81b",
+      "name": "Коты-исследователи у маяка на красной луне.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты-исследователи у маяка на красной луне.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_ca683c2442388191853b64eed2415fb8",
+      "name": "Коты и сияющая рыба под инопланетным куполом.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты и сияющая рыба под инопланетным куполом.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_595e40d07d6881919a784e7a9975ef67",
+      "name": "Лучик и Рыжик на орбитальной свалке.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Лучик и Рыжик на орбитальной свалке.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_233b93ccd3908191991432b000dcc7b1",
+      "name": "Кошачий старт в космическом ангаре.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Кошачий старт в космическом ангаре.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_3391d61c87488191aad96f4923470ac8",
+      "name": "Лучик и Рыжик у тревожной кнопки.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Лучик и Рыжик у тревожной кнопки.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_8b866405ed788191ae1e243afd6333b9",
+      "name": "Надпись РОСКОТМОС под эмблемой.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Надпись РОСКОТМОС под эмблемой.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_e3e530c6fae881919ebb976b1a699f81",
+      "name": "Роскотмос на борту котмонавтов.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Роскотмос на борту котмонавтов.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_a8c34e2043288191913dab19bd1925b7",
+      "name": "Суровые коты на космотаможне.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Суровые коты на космотаможне.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_ee36fff985708191b05fb346cfc4cf08",
+      "name": "Коты в невесомости ловят молоко.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты в невесомости ловят молоко.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_91adac8f819c81919a4f3cf06a581ff7",
+      "name": "Коты в космобаре: молоко и компас.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты в космобаре: молоко и компас.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_ce3ffa4112f481918d1afd46661b8639",
+      "name": "Кошачий прыжок через звёздный мост.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Кошачий прыжок через звёздный мост.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_002cf400e98c8191b8183613736a7362",
+      "name": "Лучик и Рыжик у древней звёздной двери.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Лучик и Рыжик у древней звёздной двери.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_bd5c91d9f2388191a452e706dd343f92",
+      "name": "Кошачий манёвр сквозь орбитальные обломки.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Кошачий манёвр сквозь орбитальные обломки.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_bf8c6e2f65108191b5be993d7a202e28",
+      "name": "Звёздный компас позвал дронов.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Звёздный компас позвал дронов.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_b671ce673e288191a7b0eed37c3978d6",
+      "name": "Суровые коты пьют молоко в космобаре.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Суровые коты пьют молоко в космобаре.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_4bede6715f608191947e497fa90b6025",
+      "name": "Космическая эмблема Роскотмоса — Котмонавты.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Космическая эмблема Роскотмоса — Котмонавты.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_b4170127b9908191a76afef7bc92e253",
+      "name": "Котонавты: два героя среди звезд.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Котонавты: два героя среди звезд.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_59426fa6045c8191be90f8d8d1576e76",
+      "name": "Коты пробуждают древний звёздный атлас.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты пробуждают древний звёздный атлас.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_e3d73316946081918883f0ab700901ec",
+      "name": "Погоня у разрушенного орбитального кольца.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Погоня у разрушенного орбитального кольца.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_5e6aae4c81748191a8616746e039beb9",
+      "name": "Коты, молоко и звездный компас.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Коты, молоко и звездный компас.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_563f825215008191a87fb8893051c71b",
+      "name": "Котонавты пьют молоко в космобаре.png",
+      "path": "/AI Film/🐱🚀 Котмонавты/Котонавты пьют молоко в космобаре.png",
+      "type": "image",
+      "project": "kotmonavty"
+    },
+    {
+      "library_file_id": "libfile_49a5005cf9f48191b6dd3cbc111a8c66",
+      "name": "Тайна безмолвного колокола.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна безмолвного колокола.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_e1f729840b6081918c4b722f56d44488",
+      "name": "Тень серебряного ключа на аукционе.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тень серебряного ключа на аукционе.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_6817013dcbb48191a5022cfa87f34815",
+      "name": "Кот-детектив и погасший фонарь.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Кот-детектив и погасший фонарь.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_c89c0a945cd481919b3443bb9ffd2d09",
+      "name": "Тайна пустой лодки.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна пустой лодки.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_f12f69ff8d188191b131855e1e54a66c",
+      "name": "Тайна погасшего фонаря.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна погасшего фонаря.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_ed8c77251248819180ca826d7a291a99",
+      "name": "Кошачий след в марионеточной мастерской.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Кошачий след в марионеточной мастерской.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_7e4990be36888191a5179e162673b737",
+      "name": "Сухое досье в затопленном архиве.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Сухое досье в затопленном архиве.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_e93d0297ad388191a80ace3a37a1b838",
+      "name": "Красная нить на лондонских крышах.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Красная нить на лондонских крышах.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_44d6f638ef488191ab5b826f055b744c",
+      "name": "Тайна в пустой оперной ложе.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна в пустой оперной ложе.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_5140b7e772988191a7f65d05841d5ac4",
+      "name": "Тайна красной нити в викторианской оранжерее.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна красной нити в викторианской оранжерее.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_f62cd4929e08819198ba3e6235c38323",
+      "name": "Невозможный след у запертого чемодана.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Невозможный след у запертого чемодана.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_ec354028d6748191a674f97321ebc4bc",
+      "name": "След в заброшенной обсерватории.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/След в заброшенной обсерватории.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_54fc8e7480808191ae625a0c54bb5ea8",
+      "name": "Тайна пустой кареты.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна пустой кареты.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_0e5ed40a09ac8191babed70a1506f378",
+      "name": "Ночная карта к стеклянной обсерватории.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Ночная карта к стеклянной обсерватории.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_3f9a6fdcac94819190362518a787933e",
+      "name": "Красная лента в гигантских часах.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Красная лента в гигантских часах.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_52e5e3a973c481919512108032feedca",
+      "name": "Следы исчезают у Темзы.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Следы исчезают у Темзы.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_22ac2965436c819192f62117b4baf868",
+      "name": "Красная печать на двух объявлениях.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Красная печать на двух объявлениях.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_3f01c1327328819199388525db57a4bc",
+      "name": "Запечатанная записка и остановившиеся часы.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Запечатанная записка и остановившиеся часы.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_eaddd165410c819197b67d4a4238499e",
+      "name": "Кот-детектив: тайна остановленных часов.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Кот-детектив: тайна остановленных часов.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_1e0a9fa1d9e8819193d26d10bf2e176d",
+      "name": "Кот-детектив в туманном Лондоне.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Кот-детектив в туманном Лондоне.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_6b56b2ae21e0819182233a7a015e3994",
+      "name": "Тайна в викторианской часовой башне.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна в викторианской часовой башне.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_0c27a539e12c8191908c00981d9f268a",
+      "name": "Тайна красной нити.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна красной нити.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_d88b0115bfdc8191b6d938136136ae0f",
+      "name": "Тайна остановившихся часов.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Тайна остановившихся часов.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_fd529d5a19d48191a72fd68f540dfb75",
+      "name": "Викторианские сыщики на каменной лестнице.png",
+      "path": "/AI Film/🕵️🐈 Кот детектив/Викторианские сыщики на каменной лестнице.png",
+      "type": "image",
+      "project": "kot-detektiv"
+    },
+    {
+      "library_file_id": "libfile_6eae5d2de25081919ea2f0f5b03e119e",
+      "name": "ЛУЧИК и РЫЖИК у обломка РОСКОТМОС.png",
+      "path": "/AI Film/🎬 Серёгиус/ЛУЧИК и РЫЖИК у обломка РОСКОТМОС.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1e1dc9560a488191aa042fd976d4cf28",
+      "name": "Два кота спасаются от взрыва космолёта.png",
+      "path": "/AI Film/🎬 Серёгиус/Два кота спасаются от взрыва космолёта.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_15c460d3347081919b46f2056e4853b5",
+      "name": "Повреждённый звездолёт у каменных статуй.png",
+      "path": "/AI Film/🎬 Серёгиус/Повреждённый звездолёт у каменных статуй.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_2fd73074093c8191a7a928c425864210",
+      "name": "Космолёт у постамента с закрытым люком.png",
+      "path": "/AI Film/🎬 Серёгиус/Космолёт у постамента с закрытым люком.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_ced00b6f759481919e71dab55742c850",
+      "name": "Кошачий звездолёт после крушения среди руин.png",
+      "path": "/AI Film/🎬 Серёгиус/Кошачий звездолёт после крушения среди руин.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_fd5539c70d6081918c27436a6c5f3f9a",
+      "name": "Аллея древних статуй на закате.png",
+      "path": "/AI Film/🎬 Серёгиус/Аллея древних статуй на закате.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f3c1469ed6f88191a08bccca40300b77",
+      "name": "Три спутника РосКОТмоса над Землёй.png",
+      "path": "/AI Film/🎬 Серёгиус/Три спутника РосКОТмоса над Землёй.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_34a50836eb488191a635a728a05cb4c9",
+      "name": "Три спутника РОСКОТМОС над голубой планетой.png",
+      "path": "/AI Film/🎬 Серёгиус/Три спутника РОСКОТМОС над голубой планетой.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3aceab4f3de8819183a8a1774f2a4f4b",
+      "name": "Три рок-героя перед финальным аккордом.png",
+      "path": "/AI Film/🎬 Серёгиус/Три рок-героя перед финальным аккордом.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9f49a20ea428819189f29e3bfb785de8",
+      "name": "Два мини-пульта для кошачьих лап.png",
+      "path": "/AI Film/🎬 Серёгиус/Два мини-пульта для кошачьих лап.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_0c8570aef6248191a2b3fb882b2ea8ca",
+      "name": "Серебристо-синяя арфа с шестью струнами.png",
+      "path": "/AI Film/🎬 Серёгиус/Серебристо-синяя арфа с шестью струнами.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_e05d23ad629881919c4261e91585f35d",
+      "name": "Кристальная арфа и янтарный синтезатор.png",
+      "path": "/AI Film/🎬 Серёгиус/Кристальная арфа и янтарный синтезатор.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a4ba6afee7c081918a8726389154d873",
+      "name": "Три футуристических инструмента в космоангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Три футуристических инструмента в космоангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_48f6f17c55848191a0e75c4a2fbd2c04",
+      "name": "Три инопланетных инструмента в космоангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Три инопланетных инструмента в космоангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_e5a90c8d6cd88191a21a0a32bea2f8be",
+      "name": "Два инопланетных инструмента в ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Два инопланетных инструмента в ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3d2ee21982708191a6ab88a9e130e4e2",
+      "name": "Белый шаттл в ангаре имперского крейсера.png",
+      "path": "/AI Film/🎬 Серёгиус/Белый шаттл в ангаре имперского крейсера.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_86588a421510819188c38ad462197b39",
+      "name": "Космофрейтер РОСКОТМОС в янтарном свете.png",
+      "path": "/AI Film/🎬 Серёгиус/Космофрейтер РОСКОТМОС в янтарном свете.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_78c8d1c987b08191a0e9b51392911380",
+      "name": "Космический рок-концерт в ангаре(3).png",
+      "path": "/AI Film/🎬 Серёгиус/Космический рок-концерт в ангаре(3).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_452c377cf264819195229578e06fc823",
+      "name": "Галактический рок-концерт в ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Галактический рок-концерт в ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a7e9ffac890c81918dc63939abb856d0",
+      "name": "Космический рок-концерт в ангаре(2).png",
+      "path": "/AI Film/🎬 Серёгиус/Космический рок-концерт в ангаре(2).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9479ec7cca8081919ff8c67927e92407",
+      "name": "Космический рок-концерт в ангаре(1).png",
+      "path": "/AI Film/🎬 Серёгиус/Космический рок-концерт в ангаре(1).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_484791ce9f348191b638956326325268",
+      "name": "Неоновый концерт в космическом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Неоновый концерт в космическом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_ab0f58dc22c88191b0efbf40253a5f54",
+      "name": "Космический рок-концерт в ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Космический рок-концерт в ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_77f35700c7dc819186ac2ff6652f0dbd",
+      "name": "image-gen-5.png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-5.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_890c1dce96a881918a1dc90933a33f14",
+      "name": "image-gen-4(4).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-4(4).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6e84b6457ec48191869fafab40ea2f56",
+      "name": "image-gen-3(5).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-3(5).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_bf592ed8f86c819192cea4cf17160bed",
+      "name": "image-gen-2(9).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(9).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9553785983c081918d82c71137b0566b",
+      "name": "image-gen-1(9).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(9).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_741734b21c048191be98ec071d9b2c1c",
+      "name": "Звездолёт Роскотмоса в глубоком космосе.png",
+      "path": "/AI Film/🎬 Серёгиус/Звездолёт Роскотмоса в глубоком космосе.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_bbbab9a62d388191b549f7ffd45edc7d",
+      "name": "Лесная планета в звёздном безмолвии.png",
+      "path": "/AI Film/🎬 Серёгиус/Лесная планета в звёздном безмолвии.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_31e085a6bfe88191b6f59b90d1e76458",
+      "name": "Лесная планета в глубоком космосе.png",
+      "path": "/AI Film/🎬 Серёгиус/Лесная планета в глубоком космосе.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b0de9152fcc481919cbcb425f43ee11c",
+      "name": "Низкий корабль над лугом Набу.png",
+      "path": "/AI Film/🎬 Серёгиус/Низкий корабль над лугом Набу.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8271ddb674988191b49022901e31ad0b",
+      "name": "Серёга в кабине перед вылетом.png",
+      "path": "/AI Film/🎬 Серёгиус/Серёга в кабине перед вылетом.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8c55c61c1ab8819184a9198dd3982f6c",
+      "name": "Серега идет к водопаду в пещере.png",
+      "path": "/AI Film/🎬 Серёгиус/Серега идет к водопаду в пещере.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_5e472aeb0f9881918dfbe4fddbcc41b0",
+      "name": "S35-Scene34-last-frame-candidate.png",
+      "path": "/AI Film/🎬 Серёгиус/S35-Scene34-last-frame-candidate.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_7293c6d3444c8191af0f5ef154259a5f",
+      "name": "H28B-disco.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/H28B-disco.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_354dfaba5ec48191b1c5cdbe1074e21e",
+      "name": "H28A-ceremony.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/H28A-ceremony.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_81fe9359d8d88191b67cb8cfe28e0ca4",
+      "name": "Синяя Маша-Лагуна у озера.png",
+      "path": "/AI Film/🎬 Серёгиус/Синяя Маша-Лагуна у озера.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8f36affed3e881919665eafcad7400b6",
+      "name": "Маша-Лагуна идёт вдоль озера.png",
+      "path": "/AI Film/🎬 Серёгиус/Маша-Лагуна идёт вдоль озера.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a3a5698d287c8191ba8e147bb8e1f391",
+      "name": "Маша-Лагуна у дворцового озера.png",
+      "path": "/AI Film/🎬 Серёгиус/Маша-Лагуна у дворцового озера.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d2490b015bac81918a97fbe3245acab0",
+      "name": "Два кота с саблями в руинах.png",
+      "path": "/AI Film/🎬 Серёгиус/Два кота с саблями в руинах.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_58d422b098d88191949c3dc2de18b6db",
+      "name": "Два кота со световыми мечами в руинах.png",
+      "path": "/AI Film/🎬 Серёгиус/Два кота со световыми мечами в руинах.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_e26f3d6c6e788191b988f8878d344c79",
+      "name": "Передача карты в мокрой пещере.png",
+      "path": "/AI Film/🎬 Серёгиус/Передача карты в мокрой пещере.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c0096bfbcc588191bd9ef1a96c322876",
+      "name": "Песчаный гигант за древними каменными вратами.png",
+      "path": "/AI Film/🎬 Серёгиус/Песчаный гигант за древними каменными вратами.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8f2f2520121481919504c96df3502a65",
+      "name": "Трое у древних врат пустыни.png",
+      "path": "/AI Film/🎬 Серёгиус/Трое у древних врат пустыни.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_ba52cc2f5f748191b1e803456b20400e",
+      "name": "S20-close-performance.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 20/S20-close-performance.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_98734aff46388191b328b1acb23ed141",
+      "name": "S20-side-walk-profile.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 20/S20-side-walk-profile.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c714c0d40698819195d83b280d48211b",
+      "name": "S20-wide-standing.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 20/S20-wide-standing.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8b2ddd7ded648191a65889f802889c74",
+      "name": "S27-three-subject-scale.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 27/S27-three-subject-scale.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_670887bf91888191b62e94e57956a369",
+      "name": "S17-map-handoff.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 17/S17-map-handoff.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b07ba3643d188191bb5fe93c49cae694",
+      "name": "S16-worm-scale.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 16/S16-worm-scale.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_08fd90eedd34819193093332c6d50645",
+      "name": "S16-three-character-standoff.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 16/S16-three-character-standoff.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4b1ac17114d88191838cefc607315ee9",
+      "name": "Песчаные врата с древним обелиском.png",
+      "path": "/AI Film/🎬 Серёгиус/Песчаные врата с древним обелиском.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9d5ba47f26a88191a6f3a0b3eeb4bd04",
+      "name": "Алеся в центре космического ансамбля.png",
+      "path": "/AI Film/🎬 Серёгиус/Алеся в центре космического ансамбля.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d82c3d6f827881918a6b238ad0dfa62c",
+      "name": "Модельный лист Алеси: человеко-эвок.png",
+      "path": "/AI Film/🎬 Серёгиус/Модельный лист Алеси: человеко-эвок.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_76714b680284819191cf08b850edfb71",
+      "name": "S16-desert-location-clean.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 16/S16-desert-location-clean.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a7657555aac081918923f62de24b76e8",
+      "name": "G28-full-ensemble-Alesya-v2.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/G28-full-ensemble-Alesya-v2.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_2cfa63cd49148191a4891a7994aeb295",
+      "name": "Ale28-Alesya-model-sheet.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/Ale28-Alesya-model-sheet.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_28b73449fc2c8191be13c4542f965c73",
+      "name": "Три героя отдыхают на чешуйчатых сиденьях.png",
+      "path": "/AI Film/🎬 Серёгиус/Три героя отдыхают на чешуйчатых сиденьях.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b7a4666a30e8819197cf0a817496e08c",
+      "name": "Лучик в тёплом городском свете.png",
+      "path": "/AI Film/🎬 Серёгиус/Лучик в тёплом городском свете.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1eadd7d335f08191bb25d15b8a81b90d",
+      "name": "Закатный совет с котом.png",
+      "path": "/AI Film/🎬 Серёгиус/Закатный совет с котом.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_39f45af784cc819196451ea4d576523d",
+      "name": "S17-post-battle-seated.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 17/S17-post-battle-seated.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_996eafedef88819185b1d745e9cb33ff",
+      "name": "S17-cave-Video1-frame-003s.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 17/S17-cave-Video1-frame-003s.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_34bf3f99b85c8191877f57c551650d04",
+      "name": "S10-Image3-jedi-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 10/S10-Image3-jedi-source.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9094f60808588191ac9be6b654923bbf",
+      "name": "S10-Image2-han-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 10/S10-Image2-han-source.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8dab02fb0c48819187251f2d32a69480",
+      "name": "S10-Image1-cantina-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 10/S10-Image1-cantina-source.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_cc524b23891c8191b00f940621c3c286",
+      "name": "S13-luchik-closeup.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 13/S13-luchik-closeup.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_5fbcf1ad3c0c8191a559cd5bc6c2513f",
+      "name": "S13-council-lap.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 13/S13-council-lap.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6b3d14d95780819192abdcec5093e4be",
+      "name": "Девять человек и два кота.png",
+      "path": "/AI Film/🎬 Серёгиус/Девять человек и два кота.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_e6a1f12baad881918cdc7835c371f156",
+      "name": "Девять фигур в неоновом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Девять фигур в неоновом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_67636acd28f88191a90e91584a012fc7",
+      "name": "Трое в космическом дискоангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Трое в космическом дискоангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_195fa23d88e0819192201b4251952469",
+      "name": "Четверо мужчин в неоновом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Четверо мужчин в неоновом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a5e28d7bb2f881918d4bc88e210f8b11",
+      "name": "Равновесие на плече в ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Равновесие на плече в ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_450880ede838819183a6f83da7637ff0",
+      "name": "Странный дуэт в неоновом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Странный дуэт в неоновом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c8525fe566208191a02c7c670bc72833",
+      "name": "Поддержка на плече в ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Поддержка на плече в ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6e1d0db2a3e48191a5f60b25fcba8267",
+      "name": "Торжественный танец на плече.png",
+      "path": "/AI Film/🎬 Серёгиус/Торжественный танец на плече.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9bb03932efd88191b9954652e8236952",
+      "name": "G28-full-ensemble.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/G28-full-ensemble.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_191faba127e88191b512b672c3930ddb",
+      "name": "G28-human-assembly.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Composition references — review only/G28-human-assembly.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a20327a6c89c819188e056c279be8509",
+      "name": "T28-trio.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/T28-trio.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_64acba59322881918b187bd148bdc90c",
+      "name": "J28-four-jedi.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/J28-four-jedi.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d0e480b09c308191ac53747285e13aab",
+      "name": "S28-shoulder.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/S28-shoulder.png",
+      "type": "image_gen",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_55ba68200a148191bd9f696c1f434ef1",
+      "name": "S27-Image5-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 27/S27-Image5-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a363625c6b2c8191853d26f9f17ce123",
+      "name": "S27-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 27/S27-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b4d6a3c8000c8191ac52e33e7bb8f213",
+      "name": "S26-Image4-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 26/S26-Image4-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_2d5da5bfffe881918be6d60de93c1d1c",
+      "name": "S26-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 26/S26-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_940f50239ce48191a2876302d3000744",
+      "name": "S24-Image3-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 24/S24-Image3-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1a8cb5659f5481919a747b6289910a6a",
+      "name": "S23-Image4-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 23/S23-Image4-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6cc8de46d4f88191972d6604c4d91974",
+      "name": "S23-Image3-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 23/S23-Image3-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3550dfbbc6608191a68138f23bfafdd5",
+      "name": "S23-Image2-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 23/S23-Image2-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d4e5030a04ac81918fee32cbe440699b",
+      "name": "S23-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 23/S23-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_5c923a120dd08191bb9daa003c8ecec1",
+      "name": "S22-Image2-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 22/S22-Image2-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b795ca91e02c819199f9286ae15fe13a",
+      "name": "S22-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 22/S22-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a2804cb425988191b2707c7e4db67111",
+      "name": "S21-Image4-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 21/S21-Image4-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_ff1860cc6074819181e86033a25ebd1b",
+      "name": "S21-Image3-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 21/S21-Image3-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_5bf7ce44cccc8191a6f426ca80e09b1e",
+      "name": "S21-Image2-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 21/S21-Image2-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4074422f671c81918111dbecb07e6dc0",
+      "name": "S21-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 21/S21-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d092f0ae9b448191905fcd4d6bca3c03",
+      "name": "S20-Image2-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 20/S20-Image2-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d499a94a6b8c8191a8d88021d1224a94",
+      "name": "S20-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 20/S20-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c7564acce1708191a351434f1536f594",
+      "name": "S19-Image5-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 19/S19-Image5-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a612f3667b188191bbb3bd4d1ce2c2f3",
+      "name": "S19-Image4-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 19/S19-Image4-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_ef70e9dfdee88191a78a5fd943a09c82",
+      "name": "S19-Image3-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 19/S19-Image3-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_fe887ce1b6bc8191a0d33d84460c1980",
+      "name": "S19-Image2-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 19/S19-Image2-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d0521cf568fc8191a297579db43c1e88",
+      "name": "S19-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 19/S19-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_03e8512aec548191908ce3e31462aadd",
+      "name": "S17-Image4-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 17/S17-Image4-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1ebde8704d5881918afe58bd76172315",
+      "name": "S17-Image3-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 17/S17-Image3-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_96e8332fcbc081918348859ca2c385a7",
+      "name": "S17-Image2-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 17/S17-Image2-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_96d6a86d1d1481919ccca7a132fc4bc9",
+      "name": "S17-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 17/S17-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_301e35a8334c819195594452c3d1c271",
+      "name": "S13-Image4-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 13/S13-Image4-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c931bbb37bb481919292b31784747e03",
+      "name": "S13-Image3-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 13/S13-Image3-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c37ae329279081919bc7447c5bba911c",
+      "name": "S13-Image1-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 13/S13-Image1-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_454ef0e3239081918b5882871eabfd57",
+      "name": "S13-Image2-topview-source.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 13/S13-Image2-topview-source.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_0933840dbe70819186723d50507b52ab",
+      "name": "TEST-S13-Image1-slide.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 13/TEST-S13-Image1-slide.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a99da00cd8088191abfdfa739f765b5b",
+      "name": "image-gen-2(8).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(8).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b63bea3f86a08191b41a2723b1f91f45",
+      "name": "image-gen-1(8).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(8).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_e9a5aee2ec8c8191a6de9a203d5a9156",
+      "name": "R28B-third-row-cats.webp",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Composition references — review only/R28B-third-row-cats.webp",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_27a45f69abcc81918950fd22ec679c20",
+      "name": "R28A-second-row.webp",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Composition references — review only/R28A-second-row.webp",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_70e4f7e7f5988191af76b6f2131822fc",
+      "name": "F28-face-gesture.webp",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/F28-face-gesture.webp",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8dee3819050c81919c817ef420c70285",
+      "name": "L28-carry.webp",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/L28-carry.webp",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d5983db0a00c819182f3081812ca3fff",
+      "name": "P28-pair-facing.webp",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Approved references/P28-pair-facing.webp",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_58c54e6c03c48191bd52034727c69c27",
+      "name": "group_candidates_contact.jpg",
+      "path": "/AI Film/🎬 Серёгиус/group_candidates_contact.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_71debd5fedc0819197c4a82c4ff54a73",
+      "name": "CONTACT_SHEET.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/CONTACT_SHEET.jpg",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f2f5576db27c8191a224dcca582c1933",
+      "name": "G28_preview_16.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_16.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6e64e881d8348191b927fe92e508cbb9",
+      "name": "G28_preview_15.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_15.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b7a82f00bfa0819194773ba3091892f9",
+      "name": "G28_preview_14.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_14.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_31a80292e3748191b9089cb32168e697",
+      "name": "G28_preview_13.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_13.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_cecf501faad4819185cba945e0d17ffa",
+      "name": "G28_preview_12.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_12.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_742e9b7544dc81918c7be6d49c299b35",
+      "name": "G28_preview_11.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_11.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_195a640f6324819191204471b836cc33",
+      "name": "G28_preview_10.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_10.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_85b336f8b8b0819191e331337d24f86b",
+      "name": "G28_preview_09.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_09.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_d9e00201b9088191a1561ae1e46241dc",
+      "name": "G28_preview_08.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_08.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3cbbf65138c88191931c2ff84dd4aad3",
+      "name": "G28_preview_07.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_07.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6b33d1e1e848819192796d959c149beb",
+      "name": "G28_preview_06.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_06.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f914396709448191a67e213e08f89cb1",
+      "name": "G28_preview_05.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_05.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f38344a91db48191a7ae4db13afb5d34",
+      "name": "G28_preview_04.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_04.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_07203f8fec988191bcd1e130bb66adb9",
+      "name": "G28_preview_03.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_03.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f23e77f80a088191af3fa9b9e9928f21",
+      "name": "G28_preview_02.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_02.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4c126c5128948191a853bf66be5b066f",
+      "name": "G28_preview_01.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/Recovered group previews/G28_preview_01.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3c5842c88524819190ecb275c613141c",
+      "name": "image-gen-2(7).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(7).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c888dd64c90481918854add115dadb44",
+      "name": "image-gen-1(7).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(7).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_109809338a108191a362ae4cf0a63baf",
+      "name": "image-gen-2(6).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(6).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_62f7d3540868819181533f41effae466",
+      "name": "image-gen-1(6).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(6).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_7f5ec61c4a708191b9dff78f938436c9",
+      "name": "Неоновый ангар: страж и воительница.png",
+      "path": "/AI Film/🎬 Серёгиус/Неоновый ангар: страж и воительница.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_2f5236ba19808191a508edb8432aeb0c",
+      "name": "image-gen-4(3).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-4(3).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_ef707c2b4b248191807b7fa18b3a0e38",
+      "name": "image-gen-3(4).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-3(4).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_0e1a6b7b53548191a41c574001f9d89a",
+      "name": "image-gen-2(5).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(5).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_7a8ad65cb2b48191a99d06e939cbcdbb",
+      "name": "image-gen-1(5).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(5).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_70b9b9b6199c81919ddd1df3096df44e",
+      "name": "Космическая вечеринка в лаунже.png",
+      "path": "/AI Film/🎬 Серёгиус/Космическая вечеринка в лаунже.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b053003e77f0819187e6aac8fcda1cc0",
+      "name": "Спасение в космическом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Спасение в космическом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_57132cca13fc8191b8fa23c2a0b43df2",
+      "name": "Космическая вечеринка у галактики.png",
+      "path": "/AI Film/🎬 Серёгиус/Космическая вечеринка у галактики.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_713e9a0df98c81918494bf2995b6d87f",
+      "name": "Романтика на космическом мостике.png",
+      "path": "/AI Film/🎬 Серёгиус/Романтика на космическом мостике.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_63691b641184819183e33fab632ad437",
+      "name": "Космический лаунж: герои и коты.png",
+      "path": "/AI Film/🎬 Серёгиус/Космический лаунж: герои и коты.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_206f0075658881919335abdd6126d753",
+      "name": "Герои на фоне космического ангара.png",
+      "path": "/AI Film/🎬 Серёгиус/Герои на фоне космического ангара.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_8cba0c2ea76081918022eedcf80a98cd",
+      "name": "Командный портрет экипажа звездолёта.png",
+      "path": "/AI Film/🎬 Серёгиус/Командный портрет экипажа звездолёта.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1c7e7e1cdad8819182f3df22fa5240a4",
+      "name": "Танец среди звёзд и неона.png",
+      "path": "/AI Film/🎬 Серёгиус/Танец среди звёзд и неона.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4148cfd3c40881919f3bbca081eb5135",
+      "name": "Космический экипаж и два кота.png",
+      "path": "/AI Film/🎬 Серёгиус/Космический экипаж и два кота.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3ee185ab18a08191a6a7abfe6699022f",
+      "name": "Космическая вечеринка в полном составе.png",
+      "path": "/AI Film/🎬 Серёгиус/Космическая вечеринка в полном составе.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_87443a7cead08191b4d5a6b706325b35",
+      "name": "Космическая вечеринка с друзьями и котами.png",
+      "path": "/AI Film/🎬 Серёгиус/Космическая вечеринка с друзьями и котами.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_22187b1e15008191ba294a9eebb269eb",
+      "name": "Космическая вечеринка с селфи и котами.png",
+      "path": "/AI Film/🎬 Серёгиус/Космическая вечеринка с селфи и котами.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_fc5e0e0df4f481918bbe344ea02036f0",
+      "name": "Романтический танец у иллюминатора.png",
+      "path": "/AI Film/🎬 Серёгиус/Романтический танец у иллюминатора.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_15329ee1227c819198d6fff0bc887176",
+      "name": "Свидание среди звёздных огней.png",
+      "path": "/AI Film/🎬 Серёгиус/Свидание среди звёздных огней.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_29361dded9fc81918098d471a5babcdf",
+      "name": "Праздничный портрет экипажа в космобаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Праздничный портрет экипажа в космобаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_2e881a67c15881918edb0d7e982bb770",
+      "name": "Кинематографический коллаж космической вечеринки.png",
+      "path": "/AI Film/🎬 Серёгиус/Кинематографический коллаж космической вечеринки.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_07445b1452a48191be7be29838d6041c",
+      "name": "Серега несет Юлю в неоновом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Серега несет Юлю в неоновом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1af68d831e8c81919e6cc6a20849768f",
+      "name": "Имперская встреча в космическом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Имперская встреча в космическом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a3d16ada1a6c819195461ae52adfda7f",
+      "name": "Встреча в космическом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Встреча в космическом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_bd6ea81a09ac8191879fd881cae65b9e",
+      "name": "Референс-пак сцены 28: персонажи и локации.png",
+      "path": "/AI Film/🎬 Серёгиус/Референс-пак сцены 28: персонажи и локации.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_2d8e772ea98c8191a76b12b0ea6a172e",
+      "name": "Референс-пак сцены 28: персонажи и ангар.png",
+      "path": "/AI Film/🎬 Серёгиус/Референс-пак сцены 28: персонажи и ангар.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9b0cfcb36b488191955f1d24088ac31e",
+      "name": "H28B-disco-materialized.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/H28B-disco-materialized.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_2fa44dd9c4588191839ebcb2056a70d7",
+      "name": "H28A-ceremony-materialized.png",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/H28A-ceremony-materialized.png",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_168584bb8d3c8191876eb1d853da41b1",
+      "name": "ryzhik.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/ryzhik.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6db6dce7d9b4819190691e7b35d10fa6",
+      "name": "luchik.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/luchik.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_98ec75c21c908191bbc6119a56020e05",
+      "name": "masha-laguna.webp",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/masha-laguna.webp",
+      "type": null,
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1c5dd93a5dd48191b884fed687e314ae",
+      "name": "vitalik.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/vitalik.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b2cdfbc101cc8191a4a5967015946b78",
+      "name": "lesha.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/lesha.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_21f7b10047188191881e729ceb757105",
+      "name": "ilyusha.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/ilyusha.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_cb2792b279c48191a899d848702855ab",
+      "name": "artem.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/artem.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3ce2abb4a2148191bd130cfc5fb26fc6",
+      "name": "sasha.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/sasha.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b236e009b43c8191a783ffa1e4f4d78d",
+      "name": "pasha.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/pasha.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4c090545bf548191889736d805764786",
+      "name": "yulya.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/yulya.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "name": "serega.jpg",
+      "path": "/AI Film/🎬 Серёгиус/Scene Reference Packs/Scene 28/serega.jpg",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9d6480f3afe48191be71dc2ef9deaa4e",
+      "name": "image-gen-3(3).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-3(3).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_e9a1a8e8df348191920d129d4da8e8b3",
+      "name": "image-gen-2(4).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(4).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_a884bb5f455881918c2e26e259a0a178",
+      "name": "image-gen-1(4).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(4).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b245de2cdbd48191b273b9c526c0ec5c",
+      "name": "image-gen-4(2).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-4(2).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9b299883eb508191933f105ec6df69d7",
+      "name": "image-gen-3(2).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-3(2).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_631bc0c3b20c8191abe73a9466672d7c",
+      "name": "image-gen-2(3).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(3).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b6adc641a90c819182a059af6a7c590f",
+      "name": "image-gen-1(3).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(3).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_310e244d214081919589adcca85bed85",
+      "name": "image-gen-2(2).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(2).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_0e09ff98383c819189963143b72f318c",
+      "name": "image-gen-1(2).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(2).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_dadf5c8d1eb08191aa3f46a9080e105d",
+      "name": "image-gen-4(1).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-4(1).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4f243c92b654819198d6ad4f420d9fad",
+      "name": "image-gen-3(1).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-3(1).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6dab9a4f5748819191d297f8adeda0ef",
+      "name": "image-gen-2(1).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2(1).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_5f9c9acf4b2c81919d4f6479f5cdb2ad",
+      "name": "image-gen-1(1).png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1(1).png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_efe7190766d881918e83916731b5f9c0",
+      "name": "image-gen-4.png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-4.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_94409c9ccb8c8191b60e56d5584e89e5",
+      "name": "image-gen-3.png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-3.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4b0c50365c1c8191ac676491c34973d4",
+      "name": "image-gen-2.png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-2.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_7d27a009b9f88191b8269b6d31645729",
+      "name": "image-gen-1.png",
+      "path": "/AI Film/🎬 Серёгиус/image-gen-1.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1924efc100ec8191b70587c937cea530",
+      "name": "Коты-джедаи среди древних руин.png",
+      "path": "/AI Film/🎬 Серёгиус/Коты-джедаи среди древних руин.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_1b3ba01650e88191bb7bac56cb963e8d",
+      "name": "Герои среди древних руин.png",
+      "path": "/AI Film/🎬 Серёгиус/Герои среди древних руин.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c0edd53e40d08191ab9457128fe171e0",
+      "name": "Древние стражи на закате.png",
+      "path": "/AI Film/🎬 Серёгиус/Древние стражи на закате.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_5d134a9bcb4c8191984f55fa7b7139d0",
+      "name": "Древний храм в каньоне на закате.png",
+      "path": "/AI Film/🎬 Серёгиус/Древний храм в каньоне на закате.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_3dda4834b99481918f3054d6ce366213",
+      "name": "Кошачий экипаж в космическом ангаре.png",
+      "path": "/AI Film/🎬 Серёгиус/Кошачий экипаж в космическом ангаре.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_99b47b0c61b88191beb5684daf08f224",
+      "name": "Кошачий экипаж: взлёт в космос.png",
+      "path": "/AI Film/🎬 Серёгиус/Кошачий экипаж: взлёт в космос.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f2179a59c8108191a7829bd84285df66",
+      "name": "Кошачий экипаж в момент старта.png",
+      "path": "/AI Film/🎬 Серёгиус/Кошачий экипаж в момент старта.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_e6e146a8e7508191a6c687dc514a86eb",
+      "name": "Коты-астронавты в кабине звездолёта.png",
+      "path": "/AI Film/🎬 Серёгиус/Коты-астронавты в кабине звездолёта.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4739134e12f08191afcfcec298c869ff",
+      "name": "Кошки-пилоты на космическом старте.png",
+      "path": "/AI Film/🎬 Серёгиус/Кошки-пилоты на космическом старте.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c278357fb708819189a835c8ad706812",
+      "name": "Кошачий экипаж на взлёте.png",
+      "path": "/AI Film/🎬 Серёгиус/Кошачий экипаж на взлёте.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b30eb141b3488191b8bd4b3e4b5fe565",
+      "name": "Стражи далёкой галактики.png",
+      "path": "/AI Film/🎬 Серёгиус/Стражи далёкой галактики.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_21cb522e12b481919a805bbce8d13dfd",
+      "name": "Космическая сага: Сериус.png",
+      "path": "/AI Film/🎬 Серёгиус/Космическая сага: Сериус.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_4ba5afa550088191bd4530ac76d33ec9",
+      "name": "Звёздная империя над Землёй.png",
+      "path": "/AI Film/🎬 Серёгиус/Звёздная империя над Землёй.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_afcbeb1bb0d481919f47bcb9ceeb7c33",
+      "name": "Подземная кантина на пустынной планете.png",
+      "path": "/AI Film/🎬 Серёгиус/Подземная кантина на пустынной планете.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_54051693f60c8191949342c613c22798",
+      "name": "Пыльная кантina на Татуине.png",
+      "path": "/AI Film/🎬 Серёгиус/Пыльная кантina на Татуине.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f3aaaa27a42c8191b951eb2ba1a400d2",
+      "name": "Джабба за пиршеством в кантине.png",
+      "path": "/AI Film/🎬 Серёгиус/Джабба за пиршеством в кантине.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_c1c650eb952881918e85b19db7840035",
+      "name": "Церемония награждения на арене.png",
+      "path": "/AI Film/🎬 Серёгиус/Церемония награждения на арене.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_6db55a2e1de48191b480b6331c945f4b",
+      "name": "Торжественная передача трофея.png",
+      "path": "/AI Film/🎬 Серёгиус/Торжественная передача трофея.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_073897f7f2408191a0428e3729f5e3c2",
+      "name": "Покоритель разрушенного мира.png",
+      "path": "/AI Film/🎬 Серёгиус/Покоритель разрушенного мира.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_9108da5895388191a3f2d8d2235b416c",
+      "name": "Цифровой сториборд для сплошного кадра.png",
+      "path": "/AI Film/🎬 Серёгиус/Цифровой сториборд для сплошного кадра.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_fb01ad407ef48191a6167f27304fe198",
+      "name": "Сцена: Сплошной сплетающийся спуск на Корускант.png",
+      "path": "/AI Film/🎬 Серёгиус/Сцена: Сплошной сплетающийся спуск на Корускант.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_f193d7f99af48191956c1ef346b36b87",
+      "name": "План съёмки по сплошному сплёту.png",
+      "path": "/AI Film/🎬 Серёгиус/План съёмки по сплошному сплёту.png",
+      "type": "image",
+      "project": "seregius"
+    },
+    {
+      "library_file_id": "libfile_b47390afb6b88191af29bced3a79fe9a",
+      "name": "Сценарий падения на Корусант.png",
+      "path": "/AI Film/🎬 Серёгиус/Сценарий падения на Корусант.png",
+      "type": "image",
+      "project": "seregius"
+    }
+  ]
+}

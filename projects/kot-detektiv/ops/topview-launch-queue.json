@@ -9,5 +9,8 @@
   "receipts_directory": "projects/kot-detektiv/reports",
   "items": [],
   "already_submitted": {},
-  "owner_site_actions": []
+  "owner_site_actions": [],
+  "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+  "board_name": "Кот детектив",
+  "board_routing_rule": "projects/README.md — отдельная доска проекта; перед submit сверять name и board_id, fallback запрещён."
 }

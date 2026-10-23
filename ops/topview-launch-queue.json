@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Raznoe paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "B7",
@@ -8328,7 +8328,7 @@
       "actual Video1 dependencies and QC",
       "owner approval / dance review gates",
       "one free attempt per item; no paid or automatic retries",
-      "Raznoe paused_by_owner; only Seregius launch scope"
+      "Roscosmos paused_by_owner; only Seregius launch scope"
     ],
     "affected_items": [
       "S57-SEED20-P1",
@@ -8374,7 +8374,7 @@
       "existing relative priority and ready-skip",
       "real Video1 dependencies and QC",
       "no automatic retries or reactivation of submitted/superseded alternatives",
-      "Raznoe remains paused"
+      "Roscosmos remains paused"
     ]
   },
   "owner_instruction_20261023_priority": {
@@ -8418,9 +8418,11 @@
       "Unlimited0 only",
       "no duplicate submitted current-revision prompt",
       "no automatic retry",
-      "Raznoe paused",
+      "Roscosmos paused",
       "model comparisons remain separate"
     ],
     "quality_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
-  }
+  },
+  "board_name": "My First Board",
+  "board_routing_rule": "projects/README.md — отдельная доска проекта; перед submit сверять name и board_id, fallback запрещён."
 }

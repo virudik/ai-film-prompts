@@ -52,13 +52,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Участок читается без надписей; контур не меняет географию; два ракурса соединены монтажом, а не деформацией.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -116,13 +116,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Участок читается без надписей; контур не меняет географию; два ракурса соединены монтажом, а не деформацией.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -170,13 +170,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Начало действительно плоское; город и река не расползаются; после подъёма рельеф больше не пульсирует.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -234,13 +234,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Начало действительно плоское; город и река не расползаются; после подъёма рельеф больше не пульсирует.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -288,13 +288,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Один и тот же аппарат до/после склейки; нет опоры в космосе, внезапного раскрытия панелей и имитации запуска.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -342,13 +342,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -406,13 +406,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -460,13 +460,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Посадка без проникновения твёрдых тел; количество пальцев постоянно; стекло не превращается в жидкость.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -514,13 +514,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -578,13 +578,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -632,13 +632,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Одинаковая река на всех экранах; указание соответствует зоне; жест не превращается в готовый научный вывод.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -686,13 +686,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Два независимых окна; река не пересекает разделитель; разница читается без выдуманных дат и обвинений.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -740,13 +740,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Один контур материков и размер Земли; ночь идёт в одном направлении; нет вращения шара как игрушки.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -804,13 +804,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Один контур материков и размер Земли; ночь идёт в одном направлении; нет вращения шара как игрушки.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -858,13 +858,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Явные A/B-склейки; нет попиксельного wipe между несовпадающими иллюстрациями; цвет не выдаётся за диагноз.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -922,13 +922,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Явные A/B-склейки; нет попиксельного wipe между несовпадающими иллюстрациями; цвет не выдаётся за диагноз.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -984,13 +984,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Белые перчатки и голубой халат неизменны; регулировка понятна; пейзаж показан отдельной монтажной иллюстрацией.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1038,13 +1038,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Выбрана одна карточка; другие не исчезают; четыре человека сохраняют места после верхнего ракурса.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1084,13 +1084,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Три различимых акцента вместо равномерного вращения; один объектив; начальный и конечный ракурсы пригодны для петли.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1140,13 +1140,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Три различимых акцента вместо равномерного вращения; один объектив; начальный и конечный ракурсы пригодны для петли.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1194,13 +1194,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Тот же макет с тарелкой и двумя синими крыльями; после вставки группа не меняется местами; предмет не левитирует.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1248,13 +1248,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Без луча из прибора и ложного прогноза; обе версии облачности связаны; герой в сером трикотаже остаётся со спины.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1302,13 +1302,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Синие перчатки; макет закреплён; нет магического test passed; запись и повторный взгляд завершают действие.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1356,13 +1356,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Первая половина самостоятельна; второй ракурс расширяет смысл; два винта, круг и покрытие не меняются.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1402,13 +1402,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Три действия читаются; четыре миниатюры не размножаются; без фальшивого точного интерфейса и скачивания.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1456,13 +1456,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Без мгновенного затопления и ложного совмещения; контур широкий и условный; никаких выдуманных площадей или тревоги.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1520,13 +1520,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Без мгновенного затопления и ложного совмещения; контур широкий и условный; никаких выдуманных площадей или тревоги.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1566,13 +1566,13 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Одна и та же дельта от крупного к общему; линия следует существующей протоке; новые русла не появляются.",
       "state_before_owner_hold": "waiting_for_slot",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     },
@@ -1622,26 +1622,30 @@
       "claim": null,
       "submitted_at": null,
       "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
       "quality_criteria": "Одна и та же дельта от крупного к общему; линия следует существующей протоке; новые русла не появляются.",
       "state_before_owner_hold": "blocked_inputs",
       "owner_hold": {
         "set_at": "2026-10-23T00:32:42.941Z",
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
       }
     }
   ],
   "already_submitted": {},
   "owner_site_actions": [],
-  "authorization": "Owner23Oct2026: improve all Raznoe scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-  "ordering_assumption": "Existing cross-project launch_order preserved. Raznoe previously had no queued items: use ascending scene numbers; second part follows actual first-part result. Other ready scenes may use slots while a continuation waits.",
+  "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+  "ordering_assumption": "Existing cross-project launch_order preserved. Roscosmos previously had no queued items: use ascending scene numbers; second part follows actual first-part result. Other ready scenes may use slots while a continuation waits.",
   "quality_manifest": "projects/raznoe/reports/quality-revision-2026-10-23.json",
   "owner_hold": {
     "set_at": "2026-10-23T00:32:42.941Z",
     "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-    "reason": "Finish all Seregius work according to plan before considering Raznoe launches.",
+    "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
     "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-  }
+  },
+  "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+  "board_name": "Роскосмос",
+  "board_routing_rule": "projects/README.md — отдельная доска проекта; перед submit сверять name и board_id, fallback запрещён.",
+  "project_name": "Роскосмос"
 }
