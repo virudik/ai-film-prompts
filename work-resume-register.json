@@ -1,17 +1,26 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T03:39:37.210Z",
+  "last_updated_at": "2026-10-23T03:50:08.536Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-FRESHNESS-20261023",
       "title": "Восстановить публикацию Topview и проверить общий экран изображений",
-      "status": "fix_validated_awaiting_live_cycle",
-      "updated_at": "2026-10-23T03:39:37.210Z",
-      "next_action": "Verify real robot publish and Pages, record evidence and release canon lock. Native Images UI blocked by browser host policy; do not claim verified.",
+      "status": "site_recovered_images_ui_blocked",
+      "updated_at": "2026-10-23T03:50:08.536Z",
+      "next_action": "Only native ChatGPT Images UI remains unverified. Resume that check if authorized access becomes available; do not bypass the browser host restriction or repeat folder-only checks as proof. Existing Seregius queue work can continue independently.",
       "canonical_refs": [
         "ops/ROBOT-TELEMETRY.md",
+        "reports/topview-freshness-repair-2026-10-23.json",
         "reports/current-work-checkpoint.md"
+      ],
+      "completed": [
+        "Fixed strict reference-token normalization without accepting semantic prompt changes.",
+        "Fixed shallow checkout and stale queued checkout; real robot cycle healthy at 2026-10-23T03:43:18Z.",
+        "Verified deployed UI: synced, no Topview stale warning, 6/6 slots."
+      ],
+      "blocked": [
+        "Native Images UI: browser host policy denied chatgpt.com; Browser connector then removed."
       ]
     },
     {

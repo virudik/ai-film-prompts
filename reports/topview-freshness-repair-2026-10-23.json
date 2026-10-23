@@ -1,0 +1,101 @@
+{
+  "work_id": "TOPVIEW-FRESHNESS-20261023",
+  "verified_at": "2026-10-23T03:50:08.536Z",
+  "status": "site_recovered_images_ui_blocked",
+  "root_causes": [
+    {
+      "cause": "Topview added slash padding between Image3/Image4, making the strict matcher reject S58P1",
+      "task_id": "6598a21c2c684d43b7cede9cfc987107",
+      "live_parameters_match_saved_receipt": true,
+      "fix_commit": "e196d2cfde7b202d07753f34b75f584c78ab53a5"
+    },
+    {
+      "cause": "Shallow checkout treated a code-only commit as creating all telemetry files and falsely triggered 50-minute other-writer guard; queued checkout also used a stale trigger revision",
+      "fix": "Full history and current branch checkout; actual collision guard unchanged",
+      "fix_commit": "7d2787bfa329666c67209fd6fa439ef157d8cda0"
+    }
+  ],
+  "validation": {
+    "prompt_match_tests": 8,
+    "robot_telemetry_tests": 27,
+    "monitor_role_tests": 19,
+    "integration_run": 39896193519,
+    "integration_conclusion": "success",
+    "controlled_history_experiment": {
+      "depth1": "false skip on code-only commit",
+      "full_history": "run"
+    },
+    "robot_run": 39896478536,
+    "robot_conclusion": "success",
+    "topview_checked_at": "2026-10-23T03:43:12Z",
+    "cycle": {
+      "started_at": "2026-10-23T03:43:18Z",
+      "completed_at": "2026-10-23T03:43:18Z",
+      "health": "ok",
+      "phases_completed": [
+        "role_check",
+        "topview_scan_api",
+        "task_map_master_consistency",
+        "telemetry_publish",
+        "project_status_health_ok",
+        "checkpoint_last"
+      ],
+      "phases_missing": [],
+      "runner": "robot_scheduled_task",
+      "note": "GitHub robot: 6 из 6 слотов занято, новых 6, завершено 6."
+    },
+    "pages_run": 39896760665,
+    "pages_conclusion": "success",
+    "public_ui": {
+      "url": "https://virudik.github.io/ai-film-prompts/index.html",
+      "health": "✓ ПРОЕКТ СИНХРОНИЗИРОВАН",
+      "capacity": "занято 6 из 6 · свободно 0",
+      "topview_age_display": "6 мин",
+      "stale_warning_present": false
+    }
+  },
+  "active_tasks": [
+    {
+      "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+      "scene_id": 52,
+      "part": "Seedance 2.0 часть 1"
+    },
+    {
+      "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+      "scene_id": 28,
+      "part": "A1"
+    },
+    {
+      "task_id": "56e5e07c85df4af583c62665c51ed563",
+      "scene_id": 47,
+      "part": "Seedance 2.0 часть 2"
+    },
+    {
+      "task_id": "6598a21c2c684d43b7cede9cfc987107",
+      "scene_id": 58,
+      "part": "Seedance 2.0 часть 1"
+    },
+    {
+      "task_id": "af8e389dc9564607bc6138b408c72da5",
+      "scene_id": 57,
+      "part": "Seedance 2.0 часть 2"
+    },
+    {
+      "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+      "scene_id": 16,
+      "part": "Seedance 2.0 часть 2"
+    }
+  ],
+  "images_ui": {
+    "verified": false,
+    "reason": "Connected browser host policy denied chatgpt.com navigation. Browser connector subsequently removed; no alternative surface used to bypass restriction.",
+    "prior_folder_membership_verified": 307,
+    "remaining": "Inspect the native Images screen only after authorized browser access becomes available. Folder counts do not prove native screen visibility."
+  },
+  "scope": {
+    "new_video_submissions": 0,
+    "new_schedules": 0,
+    "changed_monitor_roles": false,
+    "manual_timestamp_replacement": false
+  }
+}
