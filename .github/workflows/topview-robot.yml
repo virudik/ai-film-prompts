@@ -35,6 +35,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          # The role guard checks changed paths in recent commits. Depth 1 makes
+          # the checkout commit look like it created every telemetry file.
+          fetch-depth: 0
+          # A queued dispatch must scan the latest branch, not its stale trigger SHA.
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
