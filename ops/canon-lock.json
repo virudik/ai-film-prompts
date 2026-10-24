@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:slot-wake",
-  "task": "Record wake alternatives comparison",
-  "acquired_at": "2026-10-24T00:59:29Z",
-  "expires_at": null,
-  "released_at": "2026-10-24T00:59:32Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "Repair corrupted S42 final PNG and thumbnail workflow",
+  "acquired_at": "2026-10-24T06:55:25Z",
+  "expires_at": "2026-10-24T07:40:25Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
