@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T23:53:53Z",
+  "checked_at": "2026-10-24T00:16:44Z",
   "status": "ok",
   "warnings": 0,
-  "info": 5,
+  "info": 4,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
@@ -23,12 +23,6 @@
       "code": "instruction-size",
       "text": "USER-GUIDE.md: 75 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/TOPVIEW-EVENT-WAKE.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/TOPVIEW-EVENT-WAKE.md"
     },
     {
       "level": "info",
