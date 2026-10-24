@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-24T19:43:29+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-24T20:13:31+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 75006 B · `ccbdaca872d6fe00`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16278 B · `21803210ef2491ea`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18509 B · `d462c5410f5b4f93`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1091007 B · `6cf0a4e7ad8aa4b6`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1091439 B · `cd4bcc2eec478b5c`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -60,7 +60,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28, 49, 50] | dd53d5db138f |
 | 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Seedance 2.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [44] | 73f7d37605a6 |
 | 53 | Взлёт Серёги с Татуина: курс на Набу | Seedance 2.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [48, 39] | 5c03141af4d6 |
-| 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | c686a6b85f06 |
+| 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | be481db171a4 |
 | 57 | РосКОТмос: аварийная посадка котов на планете ситхов | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | c12ca1c3d38d |
 | 58 | РосКОТмос: коты выбегают из горящего корабля | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [57] | a2719cef0c5c |
 | 59 | Кашиик: динамичное прибытие и предвкушение грибной прогулки | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 23df59b3344e |

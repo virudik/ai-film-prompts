@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-24T19:43:29+00:00",
+ "generated_at": "2026-10-24T20:13:31+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "6cf0a4e7ad8aa4b602f824e28c0f5a53f58422e47b6097c8a69a96fb9a171cb8",
-   "bytes": 1091007
+   "sha256": "cd4bcc2eec478b5c113ae7351615b7fe72625d846893ea9438bca7aa4fd4ebad",
+   "bytes": 1091439
   }
  ],
  "invariants": [
@@ -286,7 +286,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 36741,
+   "offset": 36999,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -308,7 +308,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 63078,
+   "offset": 63336,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -328,7 +328,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 91615,
+   "offset": 91873,
    "chars": 187850,
    "sha256_12": "8c7b3a3e40e7"
   },
@@ -346,7 +346,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 279465,
+   "offset": 279723,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -368,7 +368,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 295821,
+   "offset": 296079,
    "chars": 24016,
    "sha256_12": "1bcbb827821d"
   },
@@ -392,7 +392,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 319837,
+   "offset": 320095,
    "chars": 33943,
    "sha256_12": "e8edb2707452"
   },
@@ -414,7 +414,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 353780,
+   "offset": 354038,
    "chars": 32478,
    "sha256_12": "75a349656500"
   },
@@ -436,7 +436,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 386258,
+   "offset": 386516,
    "chars": 32687,
    "sha256_12": "533d29334264"
   },
@@ -458,7 +458,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 418945,
+   "offset": 419203,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -482,7 +482,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 451442,
+   "offset": 451700,
    "chars": 28588,
    "sha256_12": "fe1fdb023a69"
   },
@@ -501,7 +501,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 480030,
+   "offset": 480288,
    "chars": 26812,
    "sha256_12": "d95a85c48853"
   },
@@ -523,7 +523,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 506842,
+   "offset": 507100,
    "chars": 24396,
    "sha256_12": "89801383aa30"
   },
@@ -547,7 +547,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 531238,
+   "offset": 531496,
    "chars": 28429,
    "sha256_12": "5927c1ae8d09"
   },
@@ -574,7 +574,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 559667,
+   "offset": 559925,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -599,7 +599,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 652596,
+   "offset": 652854,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -627,7 +627,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 682476,
+   "offset": 682734,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -651,7 +651,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 714788,
+   "offset": 715046,
    "chars": 31624,
    "sha256_12": "73f7d37605a6"
   },
@@ -675,7 +675,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 746412,
+   "offset": 746670,
    "chars": 29558,
    "sha256_12": "5c03141af4d6"
   },
@@ -684,7 +684,7 @@
    "title": "Татуин: бой в движении — червь требует внимания",
    "target_engine": "Seedance 2.0",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -698,9 +698,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 775970,
-   "chars": 26377,
-   "sha256_12": "c686a6b85f06"
+   "offset": 776228,
+   "chars": 26406,
+   "sha256_12": "be481db171a4"
   },
   {
    "id": 57,
@@ -720,7 +720,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 802347,
+   "offset": 802634,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -746,7 +746,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 828443,
+   "offset": 828730,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -767,7 +767,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 855971,
+   "offset": 856258,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -789,7 +789,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 891259,
+   "offset": 891546,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -809,7 +809,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 924270,
+   "offset": 924557,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -831,7 +831,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 949116,
+   "offset": 949403,
    "chars": 29242,
    "sha256_12": "d0819038f9c5"
   }
