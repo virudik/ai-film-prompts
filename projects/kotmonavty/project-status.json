@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-24T10:52:05Z",
+  "synced_at": "2026-10-24T13:52:25Z",
   "revision_date": "23.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · динамика сцен 1–21 по задаче владельца, точные подписи референсов, правило надписи только там, где корабль виден снаружи",
   "canonical_master_sha256": "6655c1c974c7126776bb9cbc7168fe2807d2fb4f0f8acf74f49f0599b495220f",
@@ -47,7 +47,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 2.703,
+    "age_hours_at_status_build": 5.709,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -126,7 +126,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 2.703,
+      "age_hours": 5.709,
       "blocking": false
     },
     "topview_task_map": {
@@ -549,7 +549,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-24T10:52:05Z",
+    "synced_at": "2026-10-24T13:52:25Z",
     "canonical_master_sha256": "6655c1c974c7126776bb9cbc7168fe2807d2fb4f0f8acf74f49f0599b495220f",
     "canonical_revision_sha256": "17d5bdf445070f11b09d02a42c39b67c4dceb4f42902ca54b1f4f2ff2af8efe5",
     "scene_count": 22,
