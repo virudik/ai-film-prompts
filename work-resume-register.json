@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-24T20:05:26.573Z",
+  "last_updated_at": "2026-10-24T20:07:10.925Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -41,7 +41,7 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "standing_priority_active",
-      "updated_at": "2026-10-24T20:05:26.573Z",
+      "updated_at": "2026-10-24T20:07:10.925Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -59,15 +59,36 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-24T12:02:31Z",
+        "checked_at": "2026-10-24T20:07:10.925Z",
+        "self_heal": "ok",
+        "owner_tasks_open": 0,
+        "project_status": {
+          "health": "ok",
+          "synced_at": "2026-10-24T19:40:30Z"
+        },
+        "canon_health": {
+          "status": "ok",
+          "warnings": 0
+        },
         "gmail_message_ids": [
-          "1a16d4bbc1865676"
+          "1a16aec6761940ac",
+          "1a16ad9943a7d091",
+          "1a16ad87ba40f48a",
+          "1a16a10415e61d13",
+          "1a169ecc33f15bbf"
         ],
-        "github_runs": [
-          40092143524,
-          40092261987
+        "github_failed_run_ids": [
+          40035072366,
+          40032704322,
+          40005092976,
+          39999733864
         ],
-        "result": "launch-autonomy last_claim accounting fixed and tested; self-heal ok; owner tasks none; canon health ok; no Topview slot"
+        "resolution_runs": [
+          40035072366,
+          40128186418,
+          40032704173
+        ],
+        "result": "All failure notifications resolved by verified successful retry/subsequent run and fresh healthy files; no repair or rerun needed. Slot wake messages 1a16f6e3d298b9c2/1a16f6e396e8f9c3 were handled by the verified S56-P1 submission."
       },
       "last_topview_scan": {
         "at": "2026-10-24T20:04:09.342Z",
