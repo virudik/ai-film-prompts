@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "item_id": "S56-SEED20-P1",
+  "task_id": "b15165813c0848939edbe8b3d3aed182",
+  "project": "seregius",
+  "submitted_at": "2026-10-24 20:02:22Z",
+  "verified_at": "2026-10-24T20:04:26.859Z",
+  "status": "init",
+  "source": "one Topview website Create click",
+  "board_name": "My First Board",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "credits_cost": 0,
+  "use_unlimited_mode": true,
+  "canonical_block_label": "56 · Seedance 2.0 часть 1",
+  "canonical_prompt_sha256": "3c06afb7c7d5d88637b2255b0c779ee1a57a323781c8028e01c0cd571f2fe80a",
+  "normalized_prompt_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
+  "full_normalized_prompt_match": true,
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/xa0oYkvkzmLNz43SSj4eK.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/o9547SrsXWpbcg75wdp0g.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/vMhR3nfZ7Hp5HzUtfb13i.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/zsyPSYUbmytSgPJODXfYq.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Fs8DnsQpW5EdUoibgMafi.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast physical action with a deadpan running gag | Part 1 of 2: the duel breaks loose, two Jedi press the Chancellor and the ground slides away under them while the ignored worm snaps and ploughs past\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  — absolute identity of SEREGA.\n<<<Image2>>>  — absolute identity of ILYUSHA, the Hooded Jedi.\n<<<Image3>>>  — absolute identity of ARTEM, the Bearded Jedi.\n<<<Image4>>>  — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; the damage already done is described in START STATE.\n<<<Image5>>>  — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.\nPriority: <<<Image1>>> –<<<Image3>>>  control the three identities; <<<Image4>>>  controls the location; <<<Image5>>>  controls the worm; the START STATE text controls the positions and the damage already done.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA (the Chancellor), <<<Image1>>> : pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; RED lightsaber.\nILYUSHA, <<<Image2>>> : moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.\nARTEM, <<<Image3>>> : heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; GREEN lightsaber.\nExactly three people. No other characters, no vehicles.\n\nWORM / DESTRUCTION LOCK — CRITICAL:\nThe same colossal worm from <<<Image5>>>  for the whole clip, always far larger than the gate piers. Damage only accumulates: the smashed left gate pier and the broken obelisk from the previous scene stay broken; the toppled obelisk top lies on its side as a long stone block; nothing rebuilds. The worm strikes near the fighters but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.\n\nPROP LOCK:\nExactly ONE small palm-sized map module with two warm-amber glowing strips stays tucked in Artem's wide belt for the whole clip. It never falls out.\n\nSTART STATE:\nThe scene opens on a hard cut on motion from the previous scene; no previous video is used. The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, all pushing hard; the colossal worm's gaping maw hangs over them in falling dust. The ruins are already damaged: the left gate pier smashed into slabs, the right gate pier standing, the central obelisk broken in half with its top half lying on its side as a long stone block.\n\nTIMELINE:\n[0:00–0:04] — BREAK\nOpening on the locked blades, already in motion: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.\n\n[0:04–0:09] — TWO AGAINST ONE\nCut on motion to a brisk lateral tracking medium-wide on the same side of the axis: Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges; each face gets a clear medium beat as he turns to it.\n\n[0:09–0:13] — THE GROUND MOVES\nCut to a low wide angle: the worm ploughs a trench straight through the fighting ground behind them. The sand slides away under their feet; still fencing, all three skid down the collapsing slope.\n\n[0:13–0:15] — THE LEAP\nLow angle as Ilyusha leaps across the opening trench in mid-swing and lands beside Serega, blue meeting red at once. Keep the camera on the three continuously fencing and adjusting their footing at the foot of the slope, the long toppled obelisk block right behind Serega.\n\nEND STATE:\nThe three still fencing at the foot of the fresh collapsed slope, Artem frame-left, Serega centre with the long toppled obelisk block just behind him, Ilyusha frame-right; the worm's body sliding away along its new trench in the background; the module still glowing in Artem's belt.\n\nCAMERA / SPACE:\nThe scene opens on a cut on motion straight into the blade lock, medium-wide at eye level. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a brisk lateral tracking shot, a low wide angle for the collapsing ground, a low angle for the leap. Keep the worm partly in frame for scale in every wide shot. Faces read in medium shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.\n\nPERFORMANCE:\nFast, athletic, fully committed swordplay with real weight: slides, skids, a leap and a Force shove. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.\n\nLIGHTING / MATERIALS:\nHarsh warm desert sunlight, dry haze, sand sheets and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes; the module's small amber glow reads at Artem's belt.\n\nAUDIO:\nSaber hums, crackling clashes and whooshes in the foreground, boots sliding and thudding on sand, a dull Force shove thump; the worm's jaws snapping shut, its roar and the hiss of sliding sand behind, slightly lower in the mix; exertion breaths only. No dialogue, narrator or music.\n\nNEGATIVE PROMPT:\nworm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "boardTaskId": "b15165813c0848939edbe8b3d3aed182",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "inputs": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/artem.jpg",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-16/S16-worm-scale.png",
+      "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "ui_evidence": "reports/evidence/S56-P1-submitted-20261024.jpg",
+  "global_scan_after_submit": {
+    "at": "2026-10-24T20:04:09.342Z",
+    "boards": 13,
+    "pages": 28,
+    "total": 935,
+    "status_counts": {
+      "success": 892,
+      "fail": 37,
+      "init": 6
+    },
+    "active": [
+      {
+        "id": "b15165813c0848939edbe8b3d3aed182",
+        "status": "init",
+        "board": "My First Board",
+        "unlimited": true,
+        "credits": 0,
+        "created": "2026-10-24 20:02:22",
+        "model": "Seedance 2.0"
+      },
+      {
+        "id": "8b6a8ce102ea416e88d3c14fa558c513",
+        "status": "init",
+        "board": "My First Board",
+        "unlimited": true,
+        "credits": 0,
+        "created": "2026-10-23 21:54:57",
+        "model": "Seedance 2.0"
+      },
+      {
+        "id": "8a8eadc809004e318c47201b8a463be0",
+        "status": "init",
+        "board": "My First Board",
+        "unlimited": true,
+        "credits": 0,
+        "created": "2026-10-23 09:11:44",
+        "model": "Seedance 2.0"
+      },
+      {
+        "id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "status": "init",
+        "board": "My First Board",
+        "unlimited": true,
+        "credits": 0,
+        "created": "2026-10-23 01:58:44",
+        "model": "Seedance 2.0"
+      },
+      {
+        "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "status": "init",
+        "board": "My First Board",
+        "unlimited": true,
+        "credits": 0,
+        "created": "2026-10-23 01:54:00",
+        "model": "Seedance 2.0"
+      },
+      {
+        "id": "56e5e07c85df4af583c62665c51ed563",
+        "status": "init",
+        "board": "My First Board",
+        "unlimited": true,
+        "credits": 0,
+        "created": "2026-10-23 01:36:53",
+        "model": "Seedance 2.0"
+      }
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0
+  },
+  "artistic_approval": false
+}
