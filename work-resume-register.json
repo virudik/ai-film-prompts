@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T23:19:23.529Z",
+  "last_updated_at": "2026-10-24T12:02:31Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -41,21 +41,33 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "standing_priority_active",
-      "updated_at": "2026-10-23T22:06:44.749Z",
+      "updated_at": "2026-10-24T12:02:31Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
         "Recorded priority in launch runbook and continuation protocol; maintain all duplicate/credit/continuity/lock checks.",
-        "Last recorded cycle b35af063-1de0-832c-b342-f00da9fb5c6e completed22:01:16UTC, confirmed6active and existing58P2; did not itself submit58P2."
+        "Last recorded cycle b35af063-1de0-832c-b342-f00da9fb5c6e completed22:01:16UTC, confirmed6active and existing58P2; did not itself submit58P2.",
+        "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled."
       ],
-      "next_action": "First check global slots and fill every available slot with authorized ready items. While6occupied prepare real continuity inputs by priority, currently42P2 has source success awaiting preparation/QC. Check current state before action; do not launch twice or promise instant background polling.",
+      "next_action": "At the next cycle, fresh-read main and scan every Topview board/page first. If all 6 remain occupied, prepare only real continuity inputs whose sources are success. If a slot is confirmed free, use the next ready authorized item by live priority; scheduled claims must start chatgpt-scheduled-.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
       ],
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
       "automation_schedule": "hourly HH:55 Europe/Moscow",
-      "new_automations": 0
+      "new_automations": 0,
+      "last_phase_ab_check": {
+        "checked_at": "2026-10-24T12:02:31Z",
+        "gmail_message_ids": [
+          "1a16d4bbc1865676"
+        ],
+        "github_runs": [
+          40092143524,
+          40092261987
+        ],
+        "result": "launch-autonomy last_claim accounting fixed and tested; self-heal ok; owner tasks none; canon health ok; no Topview slot"
+      }
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
@@ -421,7 +433,7 @@
           "sha256": "b989960cd653d8984bc937b55cf6ab27ea08cac053b313bb977ad095b6292d82",
           "bytes": 751841,
           "frame_index_zero_based": 360,
-          "timestamp_seconds": 15.0,
+          "timestamp_seconds": 15,
           "repair_reason": "Repository PNG was corrupt; regenerated losslessly from the verified source video.",
           "repair_commit": "10a2a173895da13274a51bccb605e35b1b0a202c",
           "verification_run_id": 40072339332,

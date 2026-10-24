@@ -1,3 +1,13 @@
+# 14:55-проверка: исправлен учёт запусков в launch-autonomy · 2026-10-24T12:02:31Z
+
+Полный повторный Topview-контроль подтвердил 13 досок, 934 задачи и те же шесть активных видеозадач на точной доске Серёгиуса `My First Board` (`1a6244cf1ae747ef847d949a80d6133c`). Свободного слота нет; новых результатов и отправок нет.
+
+Письмо GitHub `1a16d4bbc1865676` привело к подтверждённому дефекту отчёта `reports/launch-autonomy.json`: `scripts/launch_autonomy_check.py` читал только активный `claim`, хотя после проверенной отправки очередь очищает `claim` и сохраняет доказательство в `last_claim`. Поэтому S58-P2 task `8b6a8ce102ea416e88d3c14fa558c513` не попал в список запусков. Исправление опубликовано в commits `c90f09d5f18039d3dc7c845906034a9208cb3d55` и `1e4a4d5a44fcec0a9741802305985f0bad17c81b`; четыре целевых unit-теста прошли. Исторический generic `run_id` не переименован без доказательства; будущие фоновые claims обязаны использовать префикс `chatgpt-scheduled-` по `ops/CONTINUE-PROTOCOL.md`.
+
+Self-heal — `ok`, открытых owner-tasks нет, canon-health — `ok` (0 warnings), актуальные GitHub Actions Canon health и master check завершились success. Обработанное письмо не изменялось.
+
+---
+
 # GitHub: повреждённый финальный кадр S42-P1 восстановлен · 2026-10-24T06:56:42Z
 
 Письмо GitHub `1a16b01c1104d66c` указало на падение Build reference thumbnails [40037397757](https://github.com/virudik/ai-film-prompts/actions/runs/40037397757) в commit `bca2f14`: Pillow подтвердил повреждённый PNG `references/scenes/scene-42/S42-P1-end.png`. Источник Topview task `a1ca4c36e31d45c5b4b72df7777d2592` повторно скачан и побайтно совпал с ранее проверенным видео: SHA256 `a5d63d901f33a4dd122bc53432f3e34214b4d8f3d075098eb5b76dedad20ad9f`, 9740275 байт, 15.069002с. Финальный декодированный кадр 360 @15.000000с восстановлен без генеративных изменений: SHA256 `b989960cd653d8984bc937b55cf6ab27ea08cac053b313bb977ad095b6292d82`, 751841 байт, 1280×720; PNG/CRC и полный размер проверены. Исправление опубликовано commit `10a2a173895da13274a51bccb605e35b1b0a202c`; новый Build reference thumbnails [40072339332](https://github.com/virudik/ai-film-prompts/actions/runs/40072339332) завершился success, canon health [40072339403](https://github.com/virudik/ai-film-prompts/actions/runs/40072339403) — success. Континуитет и owner approval не переоценивались. Письмо не менялось.
