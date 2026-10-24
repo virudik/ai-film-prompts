@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-24T20:02:09.275Z",
+  "updated_at": "2026-10-24T20:04:54.596Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4464,7 +4464,7 @@
       "canonical_prompt_sha256": "3c06afb7c7d5d88637b2255b0c779ee1a57a323781c8028e01c0cd571f2fe80a",
       "normalized_prompt_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
       "priority": 0.3,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4512,45 +4512,14 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "run_id": "chatgpt-s56p1-20261024T200209275Z",
-        "claimed_at": "2026-10-24T20:02:09.275Z",
-        "actor": "ChatGPT Work",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "account_scan": {
-          "checked_at": "2026-10-24T20:02:09.275Z",
-          "boards": 13,
-          "pages": 28,
-          "total_tasks": 934,
-          "complete": true,
-          "occupied_video_slots": 5,
-          "free_video_slots": 1
-        },
-        "dedup": "Fresh complete 13-board/28-page/934-task account scan; 5 active video tasks, one free slot; no existing S56-SEED20-P1 task in canonical queue.",
-        "ui_verified": {
-          "board_name": "My First Board",
-          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-          "model": "Seedance 2.0",
-          "duration_seconds": 15,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "quantity": 1,
-          "unlimited": true,
-          "credits": 0,
-          "prompt_length": 6724,
-          "prompt_normalized_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
-          "input_sha_verified": true,
-          "input_count": 5
-        }
-      },
+      "task_id": "b15165813c0848939edbe8b3d3aed182",
+      "claim": null,
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S56",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
       "depends_on_completed": [],
       "blocker": null,
-      "launch_readiness": "authorized_inputs_available",
+      "launch_readiness": "submitted_verified",
       "previous_prompt_sha256": [
         "13828410599570dd69f05732b11785ca8706cc0f15d023f682a9cd0e7bc8b54d",
         "df3205e4364bd51b9cd5309201ee3ac8f259de3cfa3980ace3f05940194d3619"
@@ -4591,7 +4560,42 @@
           }
         ]
       },
-      "owner_launch_authorized_at": "2026-10-23T14:16:11Z"
+      "owner_launch_authorized_at": "2026-10-23T14:16:11Z",
+      "submitted_at": "2026-10-24 20:02:22Z",
+      "submission_verified_at": "2026-10-24T20:04:54.596Z",
+      "receipt_path": "reports/topview-queue-2026-10-16/S56-SEED20-P1-20261024.json",
+      "ui_evidence": "reports/evidence/S56-P1-submitted-20261024.jpg",
+      "last_claim": {
+        "run_id": "chatgpt-s56p1-20261024T200209275Z",
+        "claimed_at": "2026-10-24T20:02:09.275Z",
+        "account_scan": {
+          "checked_at": "2026-10-24T20:02:09.275Z",
+          "boards": 13,
+          "pages": 28,
+          "total_tasks": 934,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 13-board/28-page/934-task account scan; 5 active video tasks, one free slot; no existing S56-SEED20-P1 task in canonical queue.",
+        "ui_verified": {
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 6724,
+          "prompt_normalized_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
+          "input_sha_verified": true,
+          "input_count": 5
+        },
+        "claimed_by": "chatgpt",
+        "scope": "one website Unlimited0 submission"
+      }
     },
     {
       "id": "S56-SEED20-P2",
