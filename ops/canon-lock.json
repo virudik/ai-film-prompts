@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:slot-wake",
-  "task": "Fix status header of ops/TOPVIEW-EVENT-WAKE.md",
-  "acquired_at": "2026-10-24T00:16:06Z",
-  "expires_at": null,
-  "released_at": "2026-10-24T00:16:10Z",
+  "task": "Record wake alternatives comparison",
+  "acquired_at": "2026-10-24T00:59:29Z",
+  "expires_at": "2026-10-24T01:14:29Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
