@@ -23,7 +23,7 @@ class LaunchAutonomyTest(unittest.TestCase):
         self.assertEqual([x["source"] for x in ll], ["chat", "schedule"])
         self.assertEqual(lac.verdict(ll, [], []), "schedule_launched")
 
-    def test_idle_free_slots_detected(self):
+    def test_reads_last_claim_after_verified_submission(self):\n        q = {"items": [{"id": "S58", "scene_id": 58, "state": "submitted", "claim": None,\n                         "last_claim": {"run_id": "chatgpt-scheduled-S58",\n                                        "claimed_at": "2026-10-18T04:00:00Z"}}]}\n        ll = lac.launches(q, NOW - timedelta(hours=24))\n        self.assertEqual(len(ll), 1)\n        self.assertEqual(ll[0]["item"], "S58")\n        self.assertEqual(ll[0]["source"], "schedule")\n\n    def test_idle_free_slots_detected(self):
         log = ["2026-10-18T02:00:00+00:00\tGitHub robot: Topview telemetry — 5/6 slots, +0 new, 1 finished",
                "2026-10-18T03:00:00+00:00\tGitHub robot: Topview telemetry — 6/6 slots, +0 new, 0 finished"]
         free = lac.free_slot_observations(log)

@@ -4,7 +4,7 @@
 usage: launch_autonomy_check.py <repo> [--hours 24] [--notify]
 
 Reads only repository data:
-  * ops/topview-launch-queue.json — submitted items and their claim.run_id / claimed_at.
+  * ops/topview-launch-queue.json — submitted items and their active claim or preserved last_claim.
     A launch made by the scheduled automation has a run_id starting with "chatgpt-scheduled"
     (ops/CONTINUE-PROTOCOL.md); any other run_id is a working chat.
   * git log of the GitHub robot — "Topview telemetry — N/6 slots" messages show whether a slot was free.
@@ -35,7 +35,7 @@ def iso(dt):
 def launches(queue, since):
     out = []
     for it in queue.get("items") or []:
-        claim = it.get("claim") or {}
+        claim = it.get("claim") or it.get("last_claim") or {}
         at = parse(claim.get("claimed_at"))
         if it.get("state") != "submitted" or not at or at < since:
             continue
