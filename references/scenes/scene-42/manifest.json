@@ -174,13 +174,16 @@
       "role": "actual_P1_final_frame_provenance",
       "media_type": "image",
       "status": "available",
-      "sha256": "568b4a1d005c6afbb4776e87d5d8f0b395abff1312f48b3039757fd2a735e167",
-      "bytes": 1226205,
+      "sha256": "b989960cd653d8984bc937b55cf6ab27ea08cac053b313bb977ad095b6292d82",
+      "bytes": 751841,
       "dimensions": "1280x720",
       "provenance": {
         "source_item_id": "S42-SEED20-P1",
         "source_task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
         "source_video_sha256": "a5d63d901f33a4dd122bc53432f3e34214b4d8f3d075098eb5b76dedad20ad9f",
+        "frame_index_zero_based": 360,
+        "timestamp_seconds": 15.0,
+        "extraction": "ffmpeg exact decoded frame at 15.000000s; lossless PNG re-encode",
         "qc_report": "reports/topview-quality-2026-10-24/S42-P1-continuity-review.json"
       },
       "assistant_qc": {
@@ -515,8 +518,8 @@
     },
     "actual_final_frame": {
       "path": "references/scenes/scene-42/S42-P1-end.png",
-      "sha256": "568b4a1d005c6afbb4776e87d5d8f0b395abff1312f48b3039757fd2a735e167",
-      "bytes": 1226205
+      "sha256": "b989960cd653d8984bc937b55cf6ab27ea08cac053b313bb977ad095b6292d82",
+      "bytes": 751841
     },
     "continuity_qc": "passed_for_S42_P2_input",
     "owner_approved": false,

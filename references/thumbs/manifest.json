@@ -2003,6 +2003,16 @@
    "thumb_bytes": 25624,
    "src_sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552"
   },
+  "references/scenes/scene-42/S42-P1-end.png": {
+   "thumb": "references/thumbs/scenes/scene-42/S42-P1-end.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 751841,
+   "thumb_bytes": 21206,
+   "src_sha256": "b989960cd653d8984bc937b55cf6ab27ea08cac053b313bb977ad095b6292d82"
+  },
   "references/scenes/scene-42/S42-start-from-S16-result.png": {
    "thumb": "references/thumbs/scenes/scene-42/S42-start-from-S16-result.png.webp",
    "width": 640,

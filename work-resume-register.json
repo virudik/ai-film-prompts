@@ -418,8 +418,11 @@
         },
         "actual_final_frame": {
           "path": "references/scenes/scene-42/S42-P1-end.png",
-          "sha256": "568b4a1d005c6afbb4776e87d5d8f0b395abff1312f48b3039757fd2a735e167",
-          "bytes": 1226205
+          "sha256": "b989960cd653d8984bc937b55cf6ab27ea08cac053b313bb977ad095b6292d82",
+          "bytes": 751841,
+          "frame_index_zero_based": 360,
+          "timestamp_seconds": 15.0,
+          "repair_reason": "Repository PNG was corrupt; regenerated losslessly from the verified source video."
         },
         "review_scope": "Complete source sampled at 2 fps, final 3 s sampled at 4 fps, full-resolution final frame; audio stream probed but not listened; no full-frame-rate certification.",
         "continuity": "passed_for_S42_P2_input",
