@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt",
-  "task": "Record verified S42 thumbnail repair",
-  "acquired_at": "2026-10-24T07:03:00Z",
-  "expires_at": "2026-10-24T07:48:00Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-24T07:04:00Z",
   "rules": "ops/CANON-LOCK.md"
 }

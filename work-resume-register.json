@@ -422,7 +422,12 @@
           "bytes": 751841,
           "frame_index_zero_based": 360,
           "timestamp_seconds": 15.0,
-          "repair_reason": "Repository PNG was corrupt; regenerated losslessly from the verified source video."
+          "repair_reason": "Repository PNG was corrupt; regenerated losslessly from the verified source video.",
+          "repair_commit": "10a2a173895da13274a51bccb605e35b1b0a202c",
+          "verification_run_id": 40072339332,
+          "verification_conclusion": "success",
+          "source_failure_message_id": "1a16b01c1104d66c",
+          "source_failure_run_id": 40037397757
         },
         "review_scope": "Complete source sampled at 2 fps, final 3 s sampled at 4 fps, full-resolution final frame; audio stream probed but not listened; no full-frame-rate certification.",
         "continuity": "passed_for_S42_P2_input",
