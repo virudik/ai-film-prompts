@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-24T20:07:10.925Z",
+  "last_updated_at": "2026-10-24T21:08:02.222Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -41,16 +41,17 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "standing_priority_active",
-      "updated_at": "2026-10-24T20:07:10.925Z",
+      "updated_at": "2026-10-24T21:08:02.222Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
         "Recorded priority in launch runbook and continuation protocol; maintain all duplicate/credit/continuity/lock checks.",
         "Last recorded cycle b35af063-1de0-832c-b342-f00da9fb5c6e completed22:01:16UTC, confirmed6active and existing58P2; did not itself submit58P2.",
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
-        "22:55 MSK cycle: full 13-board/28-page scan found one free slot; skipped non-ready52P2/42P2 and submitted next ready S56-P1 once as task b15165813c0848939edbe8b3d3aed182, Seedance2.0/15s/720p/16:9/Unlimited0. Post-scan935 tasks/6 active/0 free."
+        "22:55 MSK cycle: full 13-board/28-page scan found one free slot; skipped non-ready52P2/42P2 and submitted next ready S56-P1 once as task b15165813c0848939edbe8b3d3aed182, Seedance2.0/15s/720p/16:9/Unlimited0. Post-scan935 tasks/6 active/0 free.",
+        "00:00 MSK cycle: full 13-board/28-page scan confirmed935 tasks/6 active/0 free. Re-downloaded actual S42-P1 task a1ca4c36e31d45c5b4b72df7777d2592, found the GitHub last3s file truncated, and deterministically restored the exact canonical 1804607-byte clip SHA dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61. Readiness now marks S42-P2 ready; no video submitted."
       ],
-      "next_action": "All 6 video slots are occupied. On each cycle fresh-scan first. Prepare only real continuity for success sources; S56-P2 waits for actual S56-P1 result/QC. S42-P2 remains blocked until its canonical continuity file and expected SHA agree; never substitute or retry automatically.",
+      "next_action": "All 6 video slots are occupied. On each cycle fresh-scan first. S42-P2 continuity now exactly matches the canonical SHA and is ready; launch it after S52-P2 only if S52-P2 remains blocked and a slot is confirmed free. S56-P2 still waits for actual S56-P1 result/QC. Never substitute or retry automatically.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -91,7 +92,7 @@
         "result": "All failure notifications resolved by verified successful retry/subsequent run and fresh healthy files; no repair or rerun needed. Slot wake messages 1a16f6e3d298b9c2/1a16f6e396e8f9c3 were handled by the verified S56-P1 submission."
       },
       "last_topview_scan": {
-        "at": "2026-10-24T20:04:09.342Z",
+        "at": "2026-10-24T21:02:20Z",
         "boards": 13,
         "pages": 28,
         "total": 935,
@@ -163,8 +164,8 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_results_and_slots",
-      "updated_at": "2026-10-24T20:05:26.573Z",
-      "next_action": "Six slots are occupied. Await actual S56-P1 task b15165813c0848939edbe8b3d3aed182, then archive/QC and prepare only its real end for S56-P2. S42-P2 is not launch-ready while fresh queue-readiness reports prepare_continuity and the saved file does not match the expected canonical SHA. Fresh full scan and CAS claim before any future submit; no repeats.",
+      "updated_at": "2026-10-24T21:08:02.222Z",
+      "next_action": "Six slots are occupied. Await actual S56-P1 task b15165813c0848939edbe8b3d3aed182, then archive/QC and prepare only its real end for S56-P2. S42-P2 is now ready after exact restoration of the canonical continuity clip; at the next free slot, launch it only if higher-priority S52-P2 still lacks a verified real input. Fresh full scan and CAS claim before any future submit; no repeats.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
