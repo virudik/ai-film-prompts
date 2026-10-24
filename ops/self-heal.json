@@ -1,8 +1,16 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "pages-lag": {
+      "text": "Сайт показывает статус от 2026-10-24T18:00:22Z, а в main уже 2026-10-24T18:50:22Z (отставание 50 мин).",
+      "since": "2026-10-24T18:51:35Z",
+      "fixes": 1,
+      "last_fix_at": "2026-10-24T18:51:35Z",
+      "escalated_at": null
+    }
+  },
   "log": [
     {
       "at": "2026-10-21T06:07:40Z",
@@ -93,7 +101,13 @@
       "kind": "resolved",
       "key": "run-failed-topview-robot",
       "text": "Прошло: Последний запуск «робот Topview» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/40035072366"
+    },
+    {
+      "at": "2026-10-24T18:51:35Z",
+      "kind": "fixed",
+      "key": "pages-lag",
+      "text": "Нашёл: Сайт показывает статус от 2026-10-24T18:00:22Z, а в main уже 2026-10-24T18:50:22Z (отставание 50 мин). Сделал: пересобрал сайт на GitHub Pages."
     }
   ],
-  "changed_at": "2026-10-23T23:19:30Z"
+  "changed_at": "2026-10-24T18:51:35Z"
 }
