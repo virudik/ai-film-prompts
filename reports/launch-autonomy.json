@@ -1,90 +1,18 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T10:23:28Z",
+  "checked_at": "2026-10-24T09:43:39Z",
   "window_hours": 24,
   "verdict": "free_slots_idle_no_schedule_launch",
-  "launches": [
-    {
-      "item": "S16-SEED20-P2",
-      "scene_id": 16,
-      "claimed_at": "2026-10-22T21:52:55Z",
-      "run_id": "chatgpt-chat-2026-10-22T215255721Z-S16P2",
-      "source": "chat"
-    },
-    {
-      "item": "S42-SEED20-P1",
-      "scene_id": 42,
-      "claimed_at": "2026-10-22T23:11:00Z",
-      "run_id": "chatgpt-automation-20261022T231100Z-S42P1",
-      "source": "chat"
-    },
-    {
-      "item": "S47-SEED20-P1",
-      "scene_id": 47,
-      "claimed_at": "2026-10-22T23:20:59Z",
-      "run_id": "chatgpt-automation-20261022T232059Z-S47P1",
-      "source": "chat"
-    },
-    {
-      "item": "S39-SEED20-P2",
-      "scene_id": 39,
-      "claimed_at": "2026-10-23T00:34:16Z",
-      "run_id": "seregius-only-20261023-S39P2",
-      "source": "chat"
-    },
-    {
-      "item": "S40-SEED20-P2",
-      "scene_id": 40,
-      "claimed_at": "2026-10-23T00:36:56Z",
-      "run_id": "seregius-only-20261023-S40P2",
-      "source": "chat"
-    },
-    {
-      "item": "S53-SEED20-P2",
-      "scene_id": 53,
-      "claimed_at": "2026-10-23T00:38:32Z",
-      "run_id": "seregius-only-20261023-S53P2",
-      "source": "chat"
-    },
-    {
-      "item": "S57-SEED20-P1",
-      "scene_id": 57,
-      "claimed_at": "2026-10-23T00:52:03Z",
-      "run_id": "seregius-ready-skip-20261023-S57P1",
-      "source": "chat"
-    },
-    {
-      "item": "S28-A2-20261023",
-      "scene_id": 28,
-      "claimed_at": "2026-10-23T09:12:00Z",
-      "run_id": "chatgpt-20261023T0912Z-S28-A2",
-      "source": "chat"
-    }
-  ],
+  "launches": [],
   "launches_by_schedule": 0,
-  "launches_by_chat": 8,
+  "launches_by_chat": 0,
   "free_slot_observations": [
     {
-      "at": "2026-10-23T08:40:22Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-10-22T23:58:19Z",
-      "occupied": 2,
-      "capacity": 6
-    },
-    {
-      "at": "2026-10-22T22:50:35Z",
-      "occupied": 0,
-      "capacity": 6
-    },
-    {
-      "at": "2026-10-22T21:01:01Z",
+      "at": "2026-10-23T21:20:27Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 17,
+  "ready_items_waiting": 24,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
 }
