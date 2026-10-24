@@ -14,6 +14,8 @@
 
 **Тест без видео.** `ops/topview-wake-test.json` с `channel: new_issue` → workflow `topview-wake-test.yml` открывает issue `TOPVIEW_WAKE_TEST_V2 · <test_id>` (повтор того же test_id ничего не создаёт). `enabled: false`, пока ChatGPT не сменил фильтр. ACK — `test_ack` в отчёте: test_id, issue_number, email_message_id, run_id/время запуска задания, verified_at, lock_outcome, new_submissions=0.
 
+**Сравнение альтернатив (24.10, по просьбе владельца).** Порядок проверки: V2 Gmail → Agent Relay как готовый сервер MCP Events (3 сессии ChatGPT уже подключены, подписка Off; робот → входящий webhook Agent Relay → событие в чат ChatGPT; free-план 5 агентов) → Slack (заблокирован ошибкой проверки членства) → свой MCP Events сервер → исполнитель на ПК владельца. GitHub-триггер ChatGPT поддерживает комментарии PR, но не issue; можно ли от бота — не проверено. Topview MCP/плагин не подходят: на страницах topview.ai/ru/mcp и /plugin сказано «Unlimited не поддерживает автоматизированные рабочие процессы» — через MCP/плагин/Skill только кредиты, событий нет. Эта же фраза — риск для любой автоматической отправки в Unlimited (в т.ч. браузерной); решение о риске — за владельцем.
+
 **Критерий готовности (не выдавать письмо или зелёный workflow за готовность):**
 1. Тест V2 → ACK без ручного «Продолжай».
 2. Повтор: тот же test_id ещё раз → нового issue нет; повторная доставка письма → обработчик видит test_id в отчёте и ничего не делает.
