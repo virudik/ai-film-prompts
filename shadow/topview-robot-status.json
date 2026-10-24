@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-24T20:00:15Z",
+  "checked_at": "2026-10-24T20:10:18Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -22,11 +22,11 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 667
+      "1a6244cf1ae747ef847d949a80d6133c": 668
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 7,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -43,14 +43,14 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 667
+      "1a6244cf1ae747ef847d949a80d6133c": 668
     },
     "last_full_scan_at": "2026-10-24T19:40:18Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 5,
-    "free": 1,
+    "occupied": 6,
+    "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
@@ -65,8 +65,8 @@
       "model": "Seedance 2.0",
       "scene_id": 52,
       "mapping": "task_map",
-      "queue_count": 3620,
-      "wait_seconds": 154128,
+      "queue_count": 3602,
+      "wait_seconds": 153526,
       "process_seconds": null
     },
     {
@@ -78,8 +78,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 4341,
-      "wait_seconds": 197328,
+      "queue_count": 4323,
+      "wait_seconds": 196725,
       "process_seconds": null
     },
     {
@@ -91,8 +91,8 @@
       "model": "Seedance 2.0",
       "scene_id": 47,
       "mapping": "task_map",
-      "queue_count": 2751,
-      "wait_seconds": 102288,
+      "queue_count": 2733,
+      "wait_seconds": 101685,
       "process_seconds": null
     },
     {
@@ -104,8 +104,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 5062,
-      "wait_seconds": 240528,
+      "queue_count": 5044,
+      "wait_seconds": 239925,
       "process_seconds": null
     },
     {
@@ -117,12 +117,35 @@
       "model": "Seedance 2.0",
       "scene_id": 58,
       "mapping": "task_map",
-      "queue_count": 5927,
-      "wait_seconds": 292368,
+      "queue_count": 5909,
+      "wait_seconds": 291765,
+      "process_seconds": null
+    },
+    {
+      "task_id": "b15165813c0848939edbe8b3d3aed182",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "created_at": "2026-10-24 20:02:22",
+      "model": "Seedance 2.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 6630,
+      "wait_seconds": 334964,
       "process_seconds": null
     }
   ],
-  "unknown_new": [],
+  "unknown_new": [
+    {
+      "task_id": "b15165813c0848939edbe8b3d3aed182",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "created_at": "2026-10-24 20:02:22",
+      "model": "Seedance 2.0",
+      "unlimited": true,
+      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, "
+    }
+  ],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -143,11 +166,23 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-24T19:40:18Z",
-    "monitor_age_minutes": 20,
+    "monitor_age_minutes": 30,
     "monitor_occupied": 5,
-    "robot_occupied": 5,
-    "consistent": true,
+    "robot_occupied": 6,
+    "consistent": false,
     "monitor_may_lag": false,
-    "differences": []
+    "differences": [
+      {
+        "type": "only_in_robot",
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "scene_id": null,
+        "mapping": "unknown_new"
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 5,
+        "robot": 6
+      }
+    ]
   }
 }
