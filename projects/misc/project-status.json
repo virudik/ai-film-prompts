@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/misc/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-25T04:02:27Z",
+  "synced_at": "2026-10-25T07:12:27Z",
   "revision_date": "23.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · создан новый пустой проект",
   "canonical_master_sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
@@ -20,16 +20,16 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-24T08:09:53.727Z",
+    "snapshot_at": "2026-10-25T06:00:08.551Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 19.876,
+    "age_hours_at_status_build": 1.205,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "de11c502911a483b3ab5a5a2167afe59269e7eae",
-        "mirror_sha256": "ca5edc7e927659364beb4ca1ac5458f3fb2278213a938b3ec3fbacf92fc20e18",
+        "github_blob": "66488d90286b2ad11981f0b718ef49c0670ff104",
+        "mirror_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
         "match": true,
         "drive_copy_sha256": "ca5edc7e927659364beb4ca1ac5458f3fb2278213a938b3ec3fbacf92fc20e18",
         "drive_copy_match": true,
@@ -103,7 +103,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 19.876,
+      "age_hours": 1.205,
       "blocking": false
     },
     "topview_task_map": {
@@ -116,7 +116,7 @@
   "scene_meta": {},
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-25T04:02:27Z",
+    "synced_at": "2026-10-25T07:12:27Z",
     "canonical_master_sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
     "canonical_revision_sha256": "19e0c43a5f224064e5495be32aa65cc324267229d88dde69609fb1240401c43b",
     "scene_count": 0,
