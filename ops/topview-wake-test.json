@@ -8,7 +8,7 @@
   "expected_new_submissions": 0,
   "automation_id": "6adc585e7ac08191bb93825117dc7213",
   "reason": "Robot-origin Agent Relay DM (robot identity, secret AGENT_RELAY_TOKEN) → existing Relay handler → ACK, no video. Enable after the secret is set and the handler accepts the robot sender.",
-  "resend_same_test": false,
+  "resend_same_test": true,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
     "channel": "new_issue",
