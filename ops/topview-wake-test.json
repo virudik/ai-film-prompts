@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "enabled": false,
+  "enabled": true,
   "channel": "relay",
-  "test_id": "wake-relay-resume-20261025-01",
+  "test_id": "wake-relay-hourly-lock-20261025-01",
   "read_only": true,
-  "requested_at": "2026-10-25T20:22:15.517Z",
+  "requested_at": "2026-10-25T20:54:33.528Z",
   "expected_new_submissions": 0,
   "automation_id": "6adc585e7ac08191bb93825117dc7213",
-  "reason": "Delivery, deduplication and pause/resume tests passed. Idle until existing one-shot coordinator runs final controlled hourly/event lock acceptance at23:54MSK.",
+  "reason": "Controlled shared canon lock acceptance: both genuine hourly and relay event handlers must respect coordinator-held lock; NO video/claim/ACK.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
