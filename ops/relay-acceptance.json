@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "status": "blocked",
+  "status": "mutex_passed_waiting_after_lock_ack",
   "enabled": false,
-  "updated_at": "2026-10-25T21:15:27.006Z",
+  "updated_at": "2026-10-25T21:57:35.129Z",
   "coordinator_automation_id": "6adbe1e7057c8190a5500374c9816975",
   "existing_automation_reused": true,
   "scheduled_for": "2026-10-25T20:54:00Z",
@@ -38,7 +38,7 @@
   "tested_by": "existing one-shot diagnostic automation",
   "new_submissions": 0,
   "final_result": "Bot-origin delivery, duplicate suppression, pause/resume and post-lock ACK passed. Both hourly and Relay task last_run_time fell inside a continuously held foreign canon lock; no mutex ACK or queue mutation. However independently verified per-run IDs/completed_at for the two automation runs are unavailable, so strict production acceptance is not certified.",
-  "blocker": "Cannot independently verify exact completed_at/run IDs for BOTH hourly and Relay event automation runs during the controlled lock window; run_overlap also unverified. Do not substitute last_run_time metadata for completed run receipts.",
+  "blocker": "Awaiting genuine after-lock ACK for bounded completion test",
   "evidence_observed": {
     "controlled_lock": {
       "task": "relay-mutex-coordinator-6adbe1e7057c8190a5500374c9816975-2026-10-25T20:54:14.637Z",
@@ -78,5 +78,59 @@
       "new_submissions": 0
     },
     "production_enabled": false
+  },
+  "completion_attempt": {
+    "owner_request": "Понятно чего мы этим добиваемся? Доделай",
+    "initial_checkpoint_commit": "79ecedddb4f65248a8b59f9daf1007546099abf3",
+    "method": "Complete only missing mutex proof with exact latest-run metadata captured before next event. Existing prior acceptance evidence retained.",
+    "mutex": {
+      "status": "passed",
+      "verified_at": "2026-10-25T21:57:35.129Z",
+      "evidence_source": "Automations.peek run_details.last_run captured before sending the next event",
+      "test_id": "wake-relay-lock-receipts-20261025-02",
+      "issue_number": 41,
+      "event_id": "evt_bcd90219e95a3caafbc779048f4dc886",
+      "message_id": "240231618063925248",
+      "delivered_at": "2026-10-25T21:54:41.000Z",
+      "github_actions_run_id": 40237650269,
+      "github_job_id": 121302546150,
+      "coordinator": "interactive ChatGPT work session; existing hourly and event tasks unchanged",
+      "lock": {
+        "task": "chatgpt-cloud-beb26cfe80f8-relay-acceptance-completion",
+        "acquired_at": "2026-10-25T21:53:21.144Z",
+        "released_at": "2026-10-25T21:57:35.129Z",
+        "acquire_commit": "0bf5f6b356ae854d5b702590a43100010c598305"
+      },
+      "event_run": {
+        "id": "b350f9e2-e4d8-832d-b091-4696f4e1b2d4",
+        "recorded_status": "completed",
+        "scheduled_for": "2026-10-25T21:55:48.874049Z",
+        "started_at": "2026-10-25T21:55:50.650599Z",
+        "completed_at": "2026-10-25T21:56:28.497272Z",
+        "chat_ref": {
+          "type": "chatgpt",
+          "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+        }
+      },
+      "hourly_run": {
+        "id": "8a6b234f-92e8-8324-89e7-216d05a1e7cf",
+        "recorded_status": "no_update",
+        "scheduled_for": "2026-10-25T21:55:00Z",
+        "started_at": "2026-10-25T21:54:00.302994Z",
+        "completed_at": "2026-10-25T21:54:31.555087Z",
+        "chat_ref": null
+      },
+      "run_lifetimes_overlapped": false,
+      "event_result": "Actual handler reported foreign lock; no lock takeover, canonical ACK, reply, queue changes or video submissions.",
+      "hourly_result": "no_update; exact completed receipt within held lock",
+      "queue_blob_before": "bc0d451d47bdee95e37058b7eeb553da12c42955",
+      "queue_blob_after": "bc0d451d47bdee95e37058b7eeb553da12c42955",
+      "mutex_ack_count": 0,
+      "new_submissions": 0,
+      "claim_changes": 0,
+      "credits_spent": 0,
+      "not_claimed": "Run lifetimes did not overlap; both completed within the same continuously held foreign lock."
+    },
+    "after_lock_test_id": "wake-relay-after-lock-receipts-20261025-02"
   }
 }

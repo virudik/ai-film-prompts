@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T21:53:45.775Z",
+  "last_updated_at": "2026-10-25T21:57:35.129Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "completing_missing_mutex_run_receipts",
-      "updated_at": "2026-10-25T21:53:45.775Z",
+      "status": "mutex_passed_waiting_after_lock_ack",
+      "updated_at": "2026-10-25T21:57:35.129Z",
       "owner_quote": "Подключай",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
@@ -25,9 +25,10 @@
         "25Oct: reused Claude bridge a817eaf; checked official OpenAPI, hardened receipt validation/idempotency/token origin. Existing Relay handler updated with source/issue/dedup/lock checks and readback. Hourly prompt/schedule unchanged. Production gate remains false.",
         "25Oct: owner clicked Approve; Agent Relay UI confirms Device approved. CLI token exchange blocked by environment policy for agentrelay.com; local cloud auth file absent. Roster has no topview-robot. Hourly enabled and unchanged; 08:55UTC run observed in progress.",
         "25Oct20:27UTC: real robot-origin GitHub→Relay→ChatGPT ACK verified (37.25s to start); duplicate no_update/one reply; pause/resume genuine second ACK. Secret validated by workflow40229781483. Production stays false pending one-shot shared-lock test; hourly unchanged; no video/claims/credits.",
-        "25Oct final Relay lock test: issue39 and both automation last_run_time under foreign lock; queue unchanged, no ACK/Create. Lock released. Issue40 real after-lock event ACK verified. production=false pending independent run completion receipts; diagnostic stopped."
+        "25Oct final Relay lock test: issue39 and both automation last_run_time under foreign lock; queue unchanged, no ACK/Create. Lock released. Issue40 real after-lock event ACK verified. production=false pending independent run completion receipts; diagnostic stopped.",
+        "Bounded completion: independently verified both actual hourly/event completed run IDs and times inside same unique foreign lock; event explicitly refused writes; queue unchanged, no ACK/claim/Create/credits. Run lifetimes did not overlap."
       ],
-      "next_action": "Bounded missing-proof completion: existing robot test under unique lock plus normal hourly run; capture exact last_run IDs/start/completed before next event, then genuine after-lock ACK. No videos/claims/credits; preserve hourly and all prior evidence.",
+      "next_action": "Verify genuine after-lock ACK for wake-relay-after-lock-receipts-20261025-02, then enable production under own lock and update instructions/certificate.",
       "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
       "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
       "test_id": "wake-v2-newthread-20261024-01",
@@ -37,8 +38,8 @@
       ],
       "new_submissions": 0,
       "blocker": {
-        "stage": "mutex event historical receipt",
-        "cause": "Exact old hourly receipt recovered; historical event receipt unavailable through current peek (latest only). Production false until new bounded proof is complete.",
+        "stage": "after-lock recovery",
+        "cause": "Awaiting genuine after-lock ACK for bounded completion test",
         "production_enabled": false
       },
       "alternatives_status": "Agent Relay selected and enabled. Gmail V2 tested and paused. Hourly6acae6ab433481919e88665c520b8ef2 preserved; no new automation.",

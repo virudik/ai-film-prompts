@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T21:15:27.006Z",
-  "status": "relay_mutex_behavior_observed_but_strict_acceptance_blocked",
+  "updated_at": "2026-10-25T21:57:35.129Z",
+  "status": "relay_mutex_passed_awaiting_after_lock_ack",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -326,7 +326,7 @@
     "test_ack_reference": "robot_relay.test_acks"
   },
   "robot_relay": {
-    "status": "transport_and_mutex_readonly_checked_production_blocked_run_completion_evidence",
+    "status": "mutex_completed_exact_run_receipts_awaiting_after_lock_ack",
     "production_ready": false,
     "source_bridge_commit": "a817eaf35efeaac65c94a1dd19d2601b36cc3632",
     "handler_updated_at": "2026-10-25T08:44:59Z",
@@ -415,7 +415,7 @@
       "checked_at": "2026-10-25T08:58:21.396Z",
       "resolved_by": "Owner completed supported device login and dedicated robot registration in local Windows runtime; prior cloud network restriction remains unchanged."
     },
-    "next_action": "Obtain independently verified hourly and event run IDs/completed_at for 25Oct20:55 UTC mutex test. Only then reconsider production_enabled, without repeating tests or altering hourly fallback.",
+    "next_action": "Verify genuine after-lock ACK for wake-relay-after-lock-receipts-20261025-02, then enable production under own lock and update instructions/certificate.",
     "secret_confirmation": {
       "source": "owner_statement",
       "confirmed_at": "2026-10-25T20:13:50.950Z",
@@ -517,6 +517,63 @@
       "strict_acceptance_blocker": "Both automation run completion times and actual run IDs unavailable; confirmed last_run_time is not a completed-run receipt.",
       "evidence": "ops/relay-acceptance.json",
       "final_checked_at": "2026-10-25T21:15:27.006Z"
+    },
+    "mutex_completion": {
+      "status": "passed",
+      "verified_at": "2026-10-25T21:57:35.129Z",
+      "evidence_source": "Automations.peek run_details.last_run captured before sending the next event",
+      "test_id": "wake-relay-lock-receipts-20261025-02",
+      "issue_number": 41,
+      "event_id": "evt_bcd90219e95a3caafbc779048f4dc886",
+      "message_id": "240231618063925248",
+      "delivered_at": "2026-10-25T21:54:41.000Z",
+      "github_actions_run_id": 40237650269,
+      "github_job_id": 121302546150,
+      "coordinator": "interactive ChatGPT work session; existing hourly and event tasks unchanged",
+      "lock": {
+        "task": "chatgpt-cloud-beb26cfe80f8-relay-acceptance-completion",
+        "acquired_at": "2026-10-25T21:53:21.144Z",
+        "released_at": "2026-10-25T21:57:35.129Z",
+        "acquire_commit": "0bf5f6b356ae854d5b702590a43100010c598305"
+      },
+      "event_run": {
+        "id": "b350f9e2-e4d8-832d-b091-4696f4e1b2d4",
+        "recorded_status": "completed",
+        "scheduled_for": "2026-10-25T21:55:48.874049Z",
+        "started_at": "2026-10-25T21:55:50.650599Z",
+        "completed_at": "2026-10-25T21:56:28.497272Z",
+        "chat_ref": {
+          "type": "chatgpt",
+          "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+        }
+      },
+      "hourly_run": {
+        "id": "8a6b234f-92e8-8324-89e7-216d05a1e7cf",
+        "recorded_status": "no_update",
+        "scheduled_for": "2026-10-25T21:55:00Z",
+        "started_at": "2026-10-25T21:54:00.302994Z",
+        "completed_at": "2026-10-25T21:54:31.555087Z",
+        "chat_ref": null
+      },
+      "run_lifetimes_overlapped": false,
+      "event_result": "Actual handler reported foreign lock; no lock takeover, canonical ACK, reply, queue changes or video submissions.",
+      "hourly_result": "no_update; exact completed receipt within held lock",
+      "queue_blob_before": "bc0d451d47bdee95e37058b7eeb553da12c42955",
+      "queue_blob_after": "bc0d451d47bdee95e37058b7eeb553da12c42955",
+      "mutex_ack_count": 0,
+      "new_submissions": 0,
+      "claim_changes": 0,
+      "credits_spent": 0,
+      "not_claimed": "Run lifetimes did not overlap; both completed within the same continuously held foreign lock."
+    },
+    "recovered_historical_hourly_receipt": {
+      "verified_at": "2026-10-25T21:53:45.775Z",
+      "id": "d46cab06-3af4-832d-ac79-d10a80e47cc0",
+      "recorded_status": "no_update",
+      "scheduled_for": "2026-10-25T20:55:00Z",
+      "started_at": "2026-10-25T20:56:40.387509Z",
+      "completed_at": "2026-10-25T20:57:29.252304Z",
+      "chat_ref": null
     }
   }
 }
