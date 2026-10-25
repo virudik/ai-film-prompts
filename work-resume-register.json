@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T09:52:54.366Z",
+  "last_updated_at": "2026-10-25T10:05:13.364Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -1223,22 +1223,6 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
-    },
-    {
-      "work_id": "DANCE-PROMPT-AUDIT-20261025",
-      "title": "Проверка длины промтов старых танцев по всем найденным роликам",
-      "status": "in_progress",
-      "updated_at": "2026-10-25T09:52:54.366Z",
-      "owner_quote": "Проверь все мои предыдущие танцы 3 в таверне татуине и много на мостика карабля на доске топвюв. изучи этот вопрос",
-      "completed": [
-        "Read current preflight and canonical state; scanned all449 board video tasks.",
-        "Selected17 old outputs (3 cantina,13 bridge,1 solo) and11 completed newer outputs; exact task prompts/settings fetched."
-      ],
-      "next_action": "Download and inspect all selected videos, compare submitted prompts and confounds; save evidence report. No new generation or queue changes.",
-      "canonical_refs": [
-        "reports/current-work-checkpoint.md"
-      ],
-      "new_submissions": 0
     }
   ],
   "rules": [
@@ -1248,6 +1232,28 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "DANCE-PROMPT-AUDIT-20261025",
+      "title": "Проверка длины промтов старых танцев по всем найденным роликам",
+      "status": "completed",
+      "updated_at": "2026-10-25T10:05:13.364Z",
+      "owner_quote": "Проверь все мои предыдущие танцы 3 в таверне татуине и много на мостика карабля на доске топвюв. изучи этот вопрос",
+      "completed": [
+        "Read current preflight and canonical state; scanned all449 board video tasks.",
+        "Selected17 old outputs (3 cantina,13 bridge,1 solo) and11 completed newer outputs; exact task prompts/settings fetched.",
+        "Downloaded and visually reviewed28 original videos as full-duration1fps sequences:3 cantina,13 bridge,1 solo,11 newer outputs. Exact prompts and metadata archived;28 MP4 hashes recorded.",
+        "Found121-char joyful solo and8859-char lively cantina; old new-dance prompts explicitly constrain motion with holds/small steps. Length effect not causally established. Same6 tango prompts/inputs produce differing sequences.",
+        "Saved4 compact evidence sheets and short-prompt draft; proposed controlled comparison. Current23Oct A1/A2 excluded as not complete. Queue/master/automations unchanged; new submissions0, claim0, spend0."
+      ],
+      "next_action": "Audit complete. Proposed short/detailed comparison is a draft, not a new queue item or automatic permission for repeats.",
+      "canonical_refs": [
+        "reports/dance-prompt-audit-2026-10-25.md",
+        "reports/dance-prompt-audit-2026-10-25/inventory.json",
+        "ops/dance-model-comparison.md"
+      ],
+      "new_submissions": 0,
+      "completed_at": "2026-10-25T10:05:13.364Z"
+    },
     {
       "work_id": "SITH-TEMPLE-QUEUE-20261025",
       "title": "Сцена63: храм с собственными статуями Серёги; музыка перед всеми танцами",
@@ -1460,45 +1466,6 @@
       },
       "previous_next_action_before_priority_20261023": "Continue the existing story-first queue, then ONE revised A1 Seedance2.0 test and owner review before further dance/music. Verify generated energy, anatomy, faces and physical contact; do not infer visual success from prompt QA.",
       "updated_at": "2026-10-23T02:25:21.662Z"
-    },
-    {
-      "work_id": "TAKEOVER-20261023",
-      "title": "Приём смены и сверка незавершённой записи S16-P2",
-      "status": "completed",
-      "verified_at": "2026-10-22T22:29:58.164Z",
-      "next_action": "Приём смены завершён. Продолжать от S16-P2: дождаться результата, выполнить QC и подготовить настоящий конец для S42-P1; не создавать дубль S16-P2.",
-      "canonical_refs": [
-        "reports/current-work-checkpoint.md",
-        "deep-audit-status.json",
-        "character-references.json"
-      ],
-      "completed_at": "2026-10-22T22:29:58.164Z",
-      "result": "Канон c131f7363d6136d7f0abdfaf302467f8b3b708a6 опубликован: Pages и Canon health success; character registry, launch queue, checkpoint и project-status побайтно совпали с опубликованным сайтом. Короткий D7 и техническая сверка завершены. Полный редакционный/аудиовизуальный аудит не заявляется."
-    },
-    {
-      "work_id": "MONITOR-20261023",
-      "title": "Проверка GitHub всех проектов и свободный слот Серёгиуса",
-      "status": "completed",
-      "verified_at": "2026-10-22T22:24:45Z",
-      "pre_checkpoint_commit": "aa2d9e106926f1129cbb2a3256f5e9326a95e11b",
-      "done": [
-        "Полный скан 13 досок/19 страниц/918 задач: 5 активных Unlimited0, свободен 1 слот.",
-        "Последний automation20:55UTC остановлен Auto-review; точная причина не раскрыта. Enabled=true не означает работоспособный автозапуск.",
-        "Причина старой даты: projects.py игнорировал все изменения времени, а общий периодический цикл не обновлял статусы проектов.",
-        "Исправление: проекты валидируются общим sync-from-drive; действительный heartbeat180мин; 217 unit tests, site contract, canon health и brief15/15 прошли.",
-        "S16-P1 оригинал и последние3сек сохранены в Library; последний кадр/контактный лист просмотрены; это технический QC, не приёмка.",
-        "S16-P2 ready input: actual 12–15s of S16-P1 saved with SHA/provenance/Library IDs, real end frame and QC contact sheet in Git.",
-        "23Oct takeover: project-check fix 46b64e0f is published; all four project statuses health=ok.",
-        "S16-P2 launch reconciled by direct read-only task evidence: cd37ab3fd3ab4e1782b295ace2a3b1d4, Seedance2.0/15s/720p/16:9/Unlimited0. No duplicate submit; receipt saved."
-      ],
-      "next_action": "Дождаться фактического результата S16-P2; проверить и сохранить настоящий конец для S42-P1, затем 42→56→48→57→58 по зависимостям и свежим слотам. S16-P2 не отправлять повторно. Танцевальное сравнение только после завершения выбранного сюжета.",
-      "blockers": [],
-      "canonical_refs": [
-        "reports/monitor-slot-checkpoint-2026-10-23.md",
-        "ops/topview-launch-queue.json",
-        "projects/README.md",
-        "reports/topview-queue-2026-10-16/S16-SEED20-P2-20261023-reconciled.json"
-      ]
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json"
