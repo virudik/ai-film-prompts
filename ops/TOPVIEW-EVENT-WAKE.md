@@ -42,6 +42,8 @@
 
 Код готов, ждёт ключа. При подтверждённом свободном слоте робот (`topview-robot.yml` → `robot_telemetry.py`) открывает issue `TOPVIEW_SLOT_WAKE_V2 · свободно N · result:<taskID>` (метка `topview-slot-wake`, без @упоминания — письма больше не нужны) и сразу шлёт **одну DM** в Relay-инбокс `chatgpt@cloud-239644772681871360` от собственной Relay-личности робота (`scripts/relay_wake.py`, `POST /v1/dm`, адрес и база — `ops/relay-wake.json`). В DM: маркер, `event_id`, ссылка на issue, `observed_at`, `free_slots_global`; поле `data` дублирует их. Нет секрета или `enabled:false` — тихий no-op, сбой Relay не ломает телеметрию (видно в notice `robot-wake`). Комментарий V1 в issue18 сохранён.
 
+**Не терять сигнал после hold (26.10, Claude).** Если завершение задачи робот впервые увидел в цикле hold, результат объявляется (и попадает в `robot_notified_keys`), но ничего не публикуется. Раньше из-за этого Relay-сигнал терялся до часовой проверки. Теперь отправленные пробуждения учитываются отдельно (`notification_state.robot_wake_keys`), и сигнал уходит на ближайшей успешной публикации, один раз на результат. Тест: `test_result_first_seen_in_a_hold_still_wakes_on_the_next_publish`.
+
 **Ключ.** GitHub secret `AGENT_RELAY_TOKEN` = агентский токен (`at_live_*`) отдельной личности робота (например `topview-robot`, type `system`) в workspace владельца Agent Relay. Ставит владелец сам: Settings → Secrets and variables → Actions. В чат и канон токен не попадает. Если адрес инбокса ChatGPT сменится — поправить `ops/relay-wake.json`.
 
 **Обработчик 6adc585e…** должен принимать DM от личности робота (кроме владельца), сверять issue (репозиторий, автор github-actions[bot], метка, маркер, event_id/test_id) и дедупить по event_id/test_id до любого ответа и записи.

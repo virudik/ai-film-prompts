@@ -360,6 +360,16 @@ class PublishTests(Base):
         self.assertEqual(self.go(s, now=datetime(2026, 10, 11, 12, 10, tzinfo=timezone.utc)), 0)
         self.assertEqual((self.head(), len(self.n.posts)), (head, 1))
 
+    def test_result_first_seen_in_a_hold_still_wakes_on_the_next_publish(self):
+        # 25.10.2026: the hold cycle marks the result notified; the Relay wake must not be lost with it
+        fin = [{"task_id": fx.ACTIVE_TASK, "scene_id": 30, "final_status": "success", "completed_at": "2026-10-11 10:30:00"}]
+        self.assertEqual(self.go(scan([active(UNKNOWN_TASK, None, "init")], fin)), 0)
+        self.assertEqual(self.n.wakes, [])
+        self.assertEqual(self.go(scan([], fin), now=datetime(2026, 10, 11, 12, 10, tzinfo=timezone.utc)), 0)
+        self.assertEqual([w["event_id"] for w in self.n.wakes], ["result:" + fx.ACTIVE_TASK])
+        self.assertEqual(self.go(scan([], fin), now=datetime(2026, 10, 11, 12, 20, tzinfo=timezone.utc)), 0)
+        self.assertEqual(len(self.n.wakes), 1)                            # once per result, never again
+
     def test_new_scene_without_ledger_row_does_not_block_publishing(self):
         # 16.10.2026: scenes 39–40 had no ledger row, the validator refused every robot publish for 3 h
         led = self.load("review-ledger.json")
