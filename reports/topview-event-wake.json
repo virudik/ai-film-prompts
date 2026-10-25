@@ -704,6 +704,29 @@
         "backups": "Drive/Project/Library pending normal refresh; non-blocking",
         "new_submissions": 0
       }
+    },
+    "handler_event_receipts": {
+      "updated_at": "2026-10-25T22:38:02.384Z",
+      "automation_id": "6adc585e7ac08191bb93825117dc7213",
+      "automation_updated_at": "2026-10-25T22:37:01.500701+00:00",
+      "prompt_sha256": "87f9c35e0194c0a6b129bf8d1495dacd04619669c57c7153c7a5c2a708c3b7b6",
+      "prompt_readback_exact": true,
+      "subscription_id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+      "active_subscriptions": 1,
+      "accepted_event_prefixes": [
+        "result:",
+        "slots:"
+      ],
+      "record_no_update": true,
+      "foreign_lock_policy": "no_write; blocked_lock/receipt_not_saved, no false ACK",
+      "verification": {
+        "targeted_tests_passed": 20,
+        "live_slots_event_verified": false,
+        "synthetic_production_event_sent": false,
+        "new_submissions": 0,
+        "new_automations": 0
+      },
+      "checkpoint_commit": "055ca56e7dfd8c18261f444e4d68847d32f85393"
     }
   }
 }

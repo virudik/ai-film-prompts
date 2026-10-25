@@ -1,24 +1,8 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T22:35:54.003Z",
+  "last_updated_at": "2026-10-25T22:38:02.384Z",
   "active_work": [
-    {
-      "work_id": "RELAY-SLOTS-ACK-20261026",
-      "title": "Учёт каждого обработанного Relay slots/event_id",
-      "status": "in_progress",
-      "updated_at": "2026-10-25T22:35:54.003Z",
-      "completed": [
-        "Verified robot slots re-wake implementation and outdated result-only live handler prompt."
-      ],
-      "next_action": "Update existing Relay handler, verify readback, document event receipt contract and run targeted checks.",
-      "canonical_refs": [
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "reports/topview-event-wake.json"
-      ],
-      "new_automations": 0,
-      "new_submissions": 0
-    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -1444,6 +1428,25 @@
         "Native Images UI project filtering was not separately inspected; actual folder membership and stable IDs verified by listing.",
         "Local Playwright suite unavailable due to missing Chromium and failed download; public cloud browser smoke verified actual deployed pages. Lazy-loaded reference gallery not fully reviewed pixel by pixel."
       ]
+    },
+    {
+      "work_id": "RELAY-SLOTS-ACK-20261026",
+      "title": "Учёт каждого обработанного Relay slots/event_id",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-25T22:38:02.384Z",
+      "completed": [
+        "Existing Relay handler accepts result and slots IDs; every verified handled ID requires a durable receipt including no_update.",
+        "Exact live prompt readback passed; one active relay.message subscription retained.",
+        "20 targeted tests passed; events[] and original ACKs unchanged; no new automation, synthetic production signal, video or claim."
+      ],
+      "next_action": "On first genuine slots event verify the handler-authored receipt; live slots event remains unverified.",
+      "canonical_refs": [
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "reports/topview-event-wake.json"
+      ],
+      "new_automations": 0,
+      "new_submissions": 0,
+      "pre_checkpoint_commit": "055ca56e7dfd8c18261f444e4d68847d32f85393"
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json"
