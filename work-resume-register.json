@@ -1,27 +1,8 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T10:52:22.646Z",
+  "last_updated_at": "2026-10-25T11:02:48.852Z",
   "active_work": [
-    {
-      "work_id": "PROMPT-REFRESH-20261025",
-      "title": "Переработать38промтов28/49–51 и стандарт подробности",
-      "status": "publication_verification",
-      "updated_at": "2026-10-25T10:52:22.646Z",
-      "owner_quote": "Редактируй промты и инструкции",
-      "completed": [
-        "Full instruction preflight; current owner decisions empty.",
-        "Prompt standard v2.3 and AI/USER pointers published with readback.",
-        "38 prompts rewritten;22 pending queue hashes and4manifest maps reconciled; all submitted items/receipts and priorities/dependencies preserved.",
-        "Local master validator health=ok; no video submissions or charges."
-      ],
-      "next_action": "Verify final tests, publish master/handoff, confirm canonical sync and Pages/readback, update Notion pointer, release lock.",
-      "canonical_refs": [
-        "reports/prompt-refresh-2026-10-25.md",
-        "reports/prompt-refresh-2026-10-25.json",
-        "PROMPT-STYLE-GUIDE.md"
-      ]
-    },
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
@@ -886,11 +867,12 @@
         "Prepared Scene 50 with 2 standalone 15-second Seedance 2.0 prompts for Wookiee headbanging and controlled mosh pit",
         "Added existing real reference gallery only, manifest with pending photo QC, no video render authorization",
         "Fixed scene-part labelling in scripts/topview_prompt_match.py for 49A–49F and 50A–50B, plus explicit integration assertions after catching CI regression",
-        "18Oct Claude owner decision: WookieeV2 selected and alreadylinked50A/B and51A/B; no more fan image creation. Use current manifests/master."
+        "18Oct Claude owner decision: WookieeV2 selected and alreadylinked50A/B and51A/B; no more fan image creation. Use current manifests/master.",
+        "25Oct: all12variants49/50 revised and published; manifests/queue aligned. reports/prompt-refresh-2026-10-25.md"
       ],
       "next_actions": [
-        "Continue music50A/B after story/dance-test gates and49F by current queue; existing reference packs retained.",
-        "Do not recreate saved fan candidates or wait for owner selection:variant2chosen."
+        "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+        "Saved fan variant2 is selected; do not recreate references. Review each new result."
       ],
       "canonical_refs": [
         "video-prompts.md#scene-49",
@@ -902,7 +884,8 @@
         "No old invented concert arena photos",
         "No paid/automatic Topview generation",
         "No changed original faces or wardrobe"
-      ]
+      ],
+      "updated_at": "2026-10-25T11:01:11.434Z"
     },
     {
       "work_id": "FILM-20261016-ROCK-51",
@@ -913,12 +896,12 @@
       "done": [
         "Created full 51A/B standalone 15-second production prompts for Seedance 2.0",
         "Canonical H28B exact-location and Serega/Yulya/Pasha original identity references linked",
-        "Registered DRAFT stage and Topview matcher unique 51A/51B labels"
+        "Registered DRAFT stage and Topview matcher unique 51A/51B labels",
+        "25Oct: all3prompts revised/published; pose/prop refs retained, no video submissions."
       ],
       "next_actions": [
-        "Verify integration tests, canonical status health=ok and GitHub Pages successful publication",
-        "Later create photographic instrument/pose reference(s) with visual QC and save to scene51 GitHub manifest",
-        "Promote DRAFT to READY only after evidence; no automatic Topview runs"
+        "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+        "51A images already saved;51B waits real51A end and continuity QC. Keep neck grip and body-first impact."
       ],
       "canonical_refs": [
         "video-prompts.md#scene-51",
@@ -928,7 +911,8 @@
       "constraints": [
         "No wrong faces or other arena",
         "No unapproved video launch, deletion, approval or credit spending"
-      ]
+      ],
+      "updated_at": "2026-10-25T11:01:11.434Z"
     },
     {
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
@@ -1033,7 +1017,7 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
+      "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
       "last_observed_topview": {
         "checked_at": "2026-10-19T17:54:52Z",
         "boards": 11,
@@ -1061,7 +1045,7 @@
         "S37-SEED20-P2 requires the genuine S37 Part1 result/end frame with provenance, SHA and QC."
       ],
       "previous_next_action_before_priority_20261023": "Wait for genuine S37 Part1 success; archive generated result/end frame with provenance/SHA/QC before S37-SEED20-P2. Continue other authorized ready items only after a fresh complete scan shows a free Unlimited/0 slot.",
-      "updated_at": "2026-10-23T02:25:21.662Z",
+      "updated_at": "2026-10-25T11:01:11.434Z",
       "done_archived_points": 11,
       "done_archive": "archive/work-resume-register-archive.json"
     },
@@ -1105,7 +1089,7 @@
         "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged.",
         "20Oct: owner requested active revision of all38 dance/music prompts; A11/A12/B11 included, same launch gate. See FILM-20261020-ACTIVE-MUSIC and reports/dance-music-energy-2026-10-20.md."
       ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
+      "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
       "blockers": [
         "Existing energetic test has no task ID yet and waits after story dependencies; do not describe it as already generating.",
         "New couple variants A11/A12/B11 held for test review; A12 still needs actual A11 ending."
@@ -1136,7 +1120,7 @@
         "plan": "ops/dance-model-comparison.md"
       },
       "previous_next_action_before_priority_20261023": "Сначала завершить выбранные сюжетные сцены; затем A1 как базовый тест и согласованное сравнение по ops/dance-model-comparison.md. Парные A11/A12/B11 остаются подготовленными вариантами до оценки владельцем.",
-      "updated_at": "2026-10-23T02:25:21.662Z"
+      "updated_at": "2026-10-25T11:01:11.434Z"
     },
     {
       "work_id": "FILM-20261020-WORM-SEEDANCE",
@@ -1190,7 +1174,7 @@
         "Updated existing automation6acae6ab433481919e88665c520b8ef2; prompt read-back verified; hourly HH:55 schedule and enabled state preserved.",
         "22Oct account UI check: free selected Unlimited confirmed for Seedance2.0/Mini720p, Wan3.0 720p, MiniMaxH3 768p and2K; image models also checked. See reports/topview-unlimited-account-2026-10-22.json. No launches."
       ],
-      "next_action": "Продолжать сюжетную очередь по свежему main. Когда все выбранные сюжетные сцены доделаны, подготовить сравнимые канонические модельные варианты, повторно проверить бесплатность2.5 и выполнить согласованный танцевальный тест без дубляA1.",
+      "next_action": "Current38prompt revision published (reports/prompt-refresh-2026-10-25.md). Continue selected queue and collect outcomes28/49/50/51. Additional controlled model/length tests remain a separate future proposal, not extra queue items.",
       "blockers": [
         "Сюжетные сцены ещё не завершены.",
         "Seedance2.5 сейчас не доступен в проверенном бесплатном режиме.",
@@ -1207,7 +1191,8 @@
       "pre_checkpoint_commit": "bfa4dd71724fd5fe6ff2d26cf24e9d711f6c49e2",
       "new_submissions": 0,
       "plan_commit": "cd8ec6dbfa05b80d22294f70effcf04834547b7f",
-      "automation_verified_at": "2026-10-22T08:49:40.533Z"
+      "automation_verified_at": "2026-10-22T08:49:40.533Z",
+      "updated_at": "2026-10-25T11:01:11.434Z"
     },
     {
       "work_id": "RAZNOE-QUALITY-20261023",
@@ -1251,6 +1236,31 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "PROMPT-REFRESH-20261025",
+      "title": "Переработать38промтов28/49–51 и стандарт подробности",
+      "status": "completed_verified",
+      "updated_at": "2026-10-25T11:02:48.852Z",
+      "owner_quote": "Редактируй промты и инструкции",
+      "completed": [
+        "Full instruction preflight; current owner decisions empty.",
+        "Prompt standard v2.3 and AI/USER pointers published with readback.",
+        "38 prompts rewritten;22 pending queue hashes and4manifest maps reconciled; all submitted items/receipts and priorities/dependencies preserved.",
+        "Local master validator health=ok; no video submissions or charges.",
+        "253 tests passed; master/site contracts and canon health passed.",
+        "Main readback verified all14published files; live Pages master/guides/queue SHA matched; project health ok, certificate7/7.",
+        "Canonical sync and integration CI succeeded; takeover brief valid15/15; Notion pointer updated/read back.",
+        "Local browser-specific regression could not run: missing Chromium and invalid official download ZIP; no UI code changed."
+      ],
+      "next_action": "Review the next actual renders of the revised selected queue. No extra tests authorized by this edit.",
+      "canonical_refs": [
+        "reports/prompt-refresh-2026-10-25.md",
+        "reports/prompt-refresh-2026-10-25.json",
+        "PROMPT-STYLE-GUIDE.md"
+      ],
+      "completed_at": "2026-10-25T11:02:48.852Z",
+      "commit": "a9b531ed658f89f822627dad5581ca90c96c4898"
+    },
     {
       "work_id": "DANCE-PROMPT-AUDIT-20261025",
       "title": "Проверка длины промтов старых танцев по всем найденным роликам",
@@ -1422,69 +1432,6 @@
         "Native Images UI project filtering was not separately inspected; actual folder membership and stable IDs verified by listing.",
         "Local Playwright suite unavailable due to missing Chromium and failed download; public cloud browser smoke verified actual deployed pages. Lazy-loaded reference gallery not fully reviewed pixel by pixel."
       ]
-    },
-    {
-      "work_id": "FILM-20261020-ACTIVE-MUSIC",
-      "title": "Активная постановка всех танцевальных и музыкальных промптов28/49–51",
-      "status": "completed",
-      "verified_at": "2026-10-19T22:11:47.682314Z",
-      "owner_instruction": "20.10.2026 00:55:34 МСК: Доведи промты до нужного активного результата",
-      "scope": "Edit current prompts in existing master28/49/50/51, both engine alternatives; preserve identities/location/props/start-end continuity and submitted receipts. Update pending queue hashes/mappings without unlocking or launching extra tests.",
-      "baseline": "Previous audit:28 already more active but repetitive robot gestures and stretched30s alternatives;49 contains sparse action and holds;51 slow wind-up;50 active. A11/A12/B11 prepared. One energetic15s test remains awaiting submission after story.",
-      "done": [
-        "Revised38 existing prompts in28/49/50/51; both engine alternatives;54 other prompts unchanged,92 total.",
-        "Concrete continuous motion, differentiated choreography, live playing, shorter final accents; all identity blocks and image assignments preserved.",
-        "Updated11 pending queue hashes and38 manifest mappings; submitted/superseded entries and one-test owner-review gate unchanged.",
-        "51B now requires actual new51A ending; no synthetic continuity substitute.",
-        "Local semantic/structure/hash checks, master health and site validator passed; no submissions or spending."
-      ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
-      "constraints": [
-        "Existing one-test then owner-review gate remains.",
-        "No submissions, credits, automatic approval or new scenes.",
-        "Already-submitted prompt hashes/receipts remain historical; changes apply only to future renders."
-      ],
-      "canonical_refs": [
-        "video-prompts.md",
-        "reports/dance-music-energy-2026-10-20.md",
-        "ops/topview-launch-queue.json",
-        "references/scenes/scene-28/manifest.json",
-        "references/scenes/scene-49/manifest.json",
-        "references/scenes/scene-50/manifest.json",
-        "references/scenes/scene-51/manifest.json"
-      ],
-      "pre_checkpoint_commit": "2c969de7fece479de5a122375c317c2078683d21",
-      "publication_verification": {
-        "checked_at": "2026-10-19T22:15:49.150Z",
-        "editorial_commit": "7c39f7768ab2a97f22b630dfea15903c9ae1bbc1",
-        "all_11_files_read_back_exact": true,
-        "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
-        "master_workflow": {
-          "run_id": 39333352160,
-          "conclusion": "success"
-        },
-        "integration_tests": {
-          "run_id": 39333352055,
-          "conclusion": "success"
-        },
-        "canon_health": {
-          "run_id": 39333352205,
-          "status": "ok",
-          "warnings": 0
-        },
-        "pages": {
-          "run_id": 39333442980,
-          "conclusion": "success",
-          "head": "1389190d3d6c5beabcbec16870c801e676563e9b",
-          "deployed_master_matches": true
-        },
-        "project_status": {
-          "health": "ok",
-          "synced_at": "2026-10-19T22:13:16Z"
-        }
-      },
-      "previous_next_action_before_priority_20261023": "Continue the existing story-first queue, then ONE revised A1 Seedance2.0 test and owner review before further dance/music. Verify generated energy, anatomy, faces and physical contact; do not infer visual success from prompt QA.",
-      "updated_at": "2026-10-23T02:25:21.662Z"
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json"

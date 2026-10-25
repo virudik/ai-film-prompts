@@ -365,5 +365,94 @@
       "warnings": 0
     },
     "local_browser_test": "not_run: Chromium missing; official browser download returned invalid/truncated ZIP. No UI code changed."
+  },
+  "publication": {
+    "commit": "a9b531ed658f89f822627dad5581ca90c96c4898",
+    "canonical_sync_run": 40186831274,
+    "canonical_sync": "success",
+    "integration_ci_run": 40186831290,
+    "integration_ci": "success",
+    "canon_health_ci_run": 40186831305,
+    "canon_health_ci": "success",
+    "main_readback_all_14_files": true,
+    "live_readback_at": "2026-10-25T11:01:11.434Z",
+    "live_paths": [
+      {
+        "path": "video-prompts.md",
+        "http": 200,
+        "sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
+        "matches_local": true
+      },
+      {
+        "path": "PROMPT-STYLE-GUIDE.md",
+        "http": 200,
+        "sha256": "4a713f6bec09e2e5a489515e3348928ea1e7dd8731a95ae1181395e3fb8f4418",
+        "matches_local": true
+      },
+      {
+        "path": "AI-PROJECT-GUIDE.md",
+        "http": 200,
+        "sha256": "3454d27dd6fd5d636835b7d885588596cd6a350e7c9567f7efd50e7b57fa93c7",
+        "matches_local": true
+      },
+      {
+        "path": "USER-GUIDE.md",
+        "http": 200,
+        "sha256": "1751b0c8e0417e7b97ac10d110b4bc147464588f28cd8f600a1b8d480bc1177a",
+        "matches_local": true
+      },
+      {
+        "path": "NEW-CHAT-HANDOFF.md",
+        "http": 200,
+        "sha256": "99608da4158b2cd819f7262afd2a32ab8536d0b4ba214340f5a302ac1894bd10",
+        "matches_local": true
+      },
+      {
+        "path": "reports/prompt-refresh-2026-10-25.md",
+        "http": 200,
+        "sha256": "b2afd74af2ec6a87ebc8c86eb6ce9c7a02cf0d0c746d1a9178389a0e5c4dfd30",
+        "matches_local": true
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "http": 200,
+        "sha256": "24d37bf2c7643477f8e3576a94f68bfa03e0e2a86bef3acd54e89ba6850efb27",
+        "matches_local": true
+      },
+      {
+        "path": "project-status.json",
+        "http": 200,
+        "sha256": "8fae8e4217c477985e4bdc9fa9a28c02aaf69cb209f20be351a296ddd9ec79ef",
+        "matches_local": true,
+        "state": {
+          "health": "ok",
+          "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
+          "synced_at": "2026-10-25T10:57:13Z"
+        }
+      },
+      {
+        "path": "instruction-sync-status.json",
+        "http": 200,
+        "sha256": "9505d48dcd35fe64a6716a6c8ab63420bb05643d644c73178597d35801eb5323",
+        "matches_local": true,
+        "state": {
+          "health": "ok",
+          "all_match": true
+        }
+      },
+      {
+        "path": "ops/queue-readiness.json",
+        "http": 200,
+        "sha256": "fec7941dbb1d0e206cd065d9800fdf1bdd58a352fbe70e9f44bbf459494e67f1",
+        "matches_local": true,
+        "state": {
+          "source_queue_sha256": "24d37bf2c7643477f8e3576a94f68bfa03e0e2a86bef3acd54e89ba6850efb27"
+        }
+      }
+    ],
+    "notion_pointer_updated": true,
+    "takeover_brief_valid": true,
+    "takeover_anchors": 15,
+    "backups": "Drive/Library/Project not refreshed in this editorial cycle; canonical GitHub and Notion pointer verified."
   }
 }

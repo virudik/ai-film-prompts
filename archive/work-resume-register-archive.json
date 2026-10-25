@@ -3,6 +3,69 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "FILM-20261020-ACTIVE-MUSIC",
+      "title": "Активная постановка всех танцевальных и музыкальных промптов28/49–51",
+      "status": "completed",
+      "verified_at": "2026-10-19T22:11:47.682314Z",
+      "owner_instruction": "20.10.2026 00:55:34 МСК: Доведи промты до нужного активного результата",
+      "scope": "Edit current prompts in existing master28/49/50/51, both engine alternatives; preserve identities/location/props/start-end continuity and submitted receipts. Update pending queue hashes/mappings without unlocking or launching extra tests.",
+      "baseline": "Previous audit:28 already more active but repetitive robot gestures and stretched30s alternatives;49 contains sparse action and holds;51 slow wind-up;50 active. A11/A12/B11 prepared. One energetic15s test remains awaiting submission after story.",
+      "done": [
+        "Revised38 existing prompts in28/49/50/51; both engine alternatives;54 other prompts unchanged,92 total.",
+        "Concrete continuous motion, differentiated choreography, live playing, shorter final accents; all identity blocks and image assignments preserved.",
+        "Updated11 pending queue hashes and38 manifest mappings; submitted/superseded entries and one-test owner-review gate unchanged.",
+        "51B now requires actual new51A ending; no synthetic continuity substitute.",
+        "Local semantic/structure/hash checks, master health and site validator passed; no submissions or spending."
+      ],
+      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
+      "constraints": [
+        "Existing one-test then owner-review gate remains.",
+        "No submissions, credits, automatic approval or new scenes.",
+        "Already-submitted prompt hashes/receipts remain historical; changes apply only to future renders."
+      ],
+      "canonical_refs": [
+        "video-prompts.md",
+        "reports/dance-music-energy-2026-10-20.md",
+        "ops/topview-launch-queue.json",
+        "references/scenes/scene-28/manifest.json",
+        "references/scenes/scene-49/manifest.json",
+        "references/scenes/scene-50/manifest.json",
+        "references/scenes/scene-51/manifest.json"
+      ],
+      "pre_checkpoint_commit": "2c969de7fece479de5a122375c317c2078683d21",
+      "publication_verification": {
+        "checked_at": "2026-10-19T22:15:49.150Z",
+        "editorial_commit": "7c39f7768ab2a97f22b630dfea15903c9ae1bbc1",
+        "all_11_files_read_back_exact": true,
+        "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
+        "master_workflow": {
+          "run_id": 39333352160,
+          "conclusion": "success"
+        },
+        "integration_tests": {
+          "run_id": 39333352055,
+          "conclusion": "success"
+        },
+        "canon_health": {
+          "run_id": 39333352205,
+          "status": "ok",
+          "warnings": 0
+        },
+        "pages": {
+          "run_id": 39333442980,
+          "conclusion": "success",
+          "head": "1389190d3d6c5beabcbec16870c801e676563e9b",
+          "deployed_master_matches": true
+        },
+        "project_status": {
+          "health": "ok",
+          "synced_at": "2026-10-19T22:13:16Z"
+        }
+      },
+      "previous_next_action_before_priority_20261023": "Continue the existing story-first queue, then ONE revised A1 Seedance2.0 test and owner review before further dance/music. Verify generated energy, anatomy, faces and physical contact; do not infer visual success from prompt QA.",
+      "updated_at": "2026-10-23T02:25:21.662Z"
+    },
+    {
       "work_id": "TAKEOVER-20261023",
       "title": "Приём смены и сверка незавершённой записи S16-P2",
       "status": "completed",
