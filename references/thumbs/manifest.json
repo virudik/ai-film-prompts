@@ -2543,6 +2543,16 @@
    "thumb_bytes": 26648,
    "src_sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff"
   },
+  "references/scenes/scene-63/S63-temple-gallery.png": {
+   "thumb": "references/thumbs/scenes/scene-63/S63-temple-gallery.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2583199,
+   "thumb_bytes": 57242,
+   "src_sha256": "91dbf09828daac7cba958dda5566c09edf0b78baeac77f5ac46e3733e9ba57c8"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
