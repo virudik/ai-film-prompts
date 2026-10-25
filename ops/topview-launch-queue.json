@@ -20,183 +20,6 @@
   "selection_policy": "LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
-      "id": "B7",
-      "scene_id": 28,
-      "prompt_id": "B7",
-      "canonical_block_label": "28 B7",
-      "canonical_prompt_sha256": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e",
-      "normalized_prompt_sha256": "fcc7bf170b24912b011cb5bb9420f345d85ed0a35527eaa467a9ad199e74741f",
-      "priority": 10,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "role": "location",
-          "required": true,
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/luchik.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/ryzhik.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
-          "role": "identity",
-          "required": true,
-          "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f"
-        }
-      ],
-      "task_id": "979f07acffe04750961515f4baf21a3f",
-      "claim": {
-        "run_id": "chatgpt-20261016-B7-1792152654924",
-        "claimed_at": "2026-10-16T12:10:54.924Z",
-        "actor": "ChatGPT Work",
-        "route": "free_web_gui",
-        "resumed_at": "2026-10-16T17:26:11.229Z",
-        "reconciliation": "Complete 11-board/571-video scan: no B7 task; last new video remains B6; previous attempt did not click Create. Resume same single claim."
-      },
-      "submitted_at": "2026-10-16T17:26:19Z",
-      "receipt": "reports/topview-queue-2026-10-16/B7-receipt.json"
-    },
-    {
-      "id": "B8",
-      "scene_id": 28,
-      "prompt_id": "B8",
-      "canonical_block_label": "28 B8",
-      "canonical_prompt_sha256": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57",
-      "normalized_prompt_sha256": "a7f56eb53f13c6e0dc2c2282a1dacd4d16132eff8260bf0b80f413e5d7ead84c",
-      "priority": 11,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "role": "location",
-          "required": true,
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/full/serega.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/full/yulya.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-28/L28-carry.webp",
-          "role": "pose_composition_helper",
-          "required": true,
-          "sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120"
-        }
-      ],
-      "task_id": "5333994f739f4a8b813a6a36dcb7e140",
-      "claim": {
-        "run_id": "chatgpt-B8-20261017-1792206338241",
-        "claimed_at": "2026-10-17T03:05:38.241Z",
-        "actor": "ChatGPT Work",
-        "route": "free_web_gui",
-        "preflight": "Fresh11board full scan;5Unlimited active; no normalized B8 duplicate;4SHA verified; full UI text normalized match;Wan3/30s/720p/16:9/quantity1/Unlimited free"
-      },
-      "submitted_at": "2026-10-17T03:06:04Z",
-      "receipt": "reports/topview-queue-2026-10-17/B8-receipt.json"
-    },
-    {
-      "id": "B9",
-      "scene_id": 28,
-      "prompt_id": "B9",
-      "canonical_block_label": "28 B9",
-      "canonical_prompt_sha256": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
-      "normalized_prompt_sha256": "a06db2f570776e41a0002f491dd88ae332a3ef6bb0a202ffbc53eec3f60bf812",
-      "priority": 12,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "role": "location",
-          "required": true,
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/full/serega.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/full/yulya.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-28/S28-shoulder.png",
-          "role": "pose_composition_helper",
-          "required": true,
-          "sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912"
-        }
-      ],
-      "task_id": "0d1f17c226834bfbb851d76ed32f9877",
-      "claim": {
-        "run_id": "chatgpt-cloud-20261017-B9-1792238596080",
-        "claimed_at": "2026-10-17T12:03:16.079Z",
-        "actor": "ChatGPT Work",
-        "route": "free_web_gui"
-      },
-      "submitted_at": "2026-10-17T12:03:25Z",
-      "receipt": "reports/topview-queue-2026-10-16/B9-receipt.json"
-    },
-    {
       "id": "S36-S36",
       "scene_id": 36,
       "prompt_id": "S36",
@@ -385,338 +208,6 @@
       "task_id": null,
       "claim": null,
       "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision."
-    },
-    {
-      "id": "B3",
-      "scene_id": 28,
-      "prompt_id": "B3",
-      "canonical_block_label": "28 B3",
-      "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
-      "normalized_prompt_sha256": "4434b34269f7bf4893813a6f31e7483b04654d2af6b94011f2fad06347b8138b",
-      "priority": 5,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "role": "location",
-          "required": true,
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/full/serega.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/full/yulya.jpg",
-          "role": "identity",
-          "required": true,
-          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-28/C28-from-B2-result.png",
-          "role": "continuity_frame",
-          "required": true,
-          "sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a"
-        }
-      ],
-      "task_id": "56c0ea656f484b0cb8464233fe097e0d",
-      "claim": {
-        "run_id": "chatgpt-cloud-20261017-B3-1792238396276",
-        "claimed_at": "2026-10-17T11:59:56.276Z",
-        "actor": "ChatGPT Work",
-        "route": "free_web_gui"
-      },
-      "reference_prepared_at": "2026-10-17T11:27:13.271Z",
-      "submitted_at": "2026-10-17T12:00:12Z",
-      "receipt": "reports/topview-queue-2026-10-16/B3-receipt.json"
-    },
-    {
-      "id": "S45",
-      "scene_id": 45,
-      "prompt_id": "S45",
-      "canonical_block_label": "45",
-      "canonical_prompt_sha256": "11d6edda9fb32ccbbba41af99ff6db675ae5e636841953bde11920bdec6cc74f",
-      "normalized_prompt_sha256": "c2b768237b311ebae44162d4988b6d004a104717e6f84f8ac4d7b815eb624b59",
-      "priority": 102,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
-          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
-          "required": true
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
-          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
-          "required": true
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
-          "required": true
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
-          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
-          "required": true
-        }
-      ],
-      "task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
-      "claim": null,
-      "submitted_at": "2026-10-17T02:21:41Z",
-      "submission_origin": "observed_external_existing_task",
-      "reconciled_at": "2026-10-17T02:36:21.036342+00:00",
-      "external_submission_note": "Read-only observation, not submitted by this assistant. Unique normalized full master prompt match. Paid mode is historical observation, NOT authorization for paid launches. Source input correctness and editorial acceptance are not inferred; do not duplicate.",
-      "observed_use_unlimit_mode": false,
-      "observed_credits_cost": 12
-    },
-    {
-      "id": "S46",
-      "scene_id": 46,
-      "prompt_id": "S46",
-      "canonical_block_label": "46",
-      "canonical_prompt_sha256": "ee19f17476ccacfe64a2eb65ac6fd2f84c3a14f363eb0734e2bbc8ce06499827",
-      "normalized_prompt_sha256": "2ad2e4e0c2f681250403d618bbeaa96f0aab406973e5b2c06957071f22eb6cce",
-      "priority": 103,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
-          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
-          "required": true
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
-          "required": true
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png",
-          "sha256": "19abdd4f8758e1774f454a5cc8a18ab3fe5fec86e339c0913c74c37dc64e28a0",
-          "required": true
-        }
-      ],
-      "task_id": "6ada672ccc5e48d2b1438c0aa18af945",
-      "claim": null,
-      "submitted_at": "2026-10-17T02:16:20Z",
-      "submission_origin": "observed_external_existing_task",
-      "reconciled_at": "2026-10-17T02:36:21.036342+00:00",
-      "external_submission_note": "Read-only observation, not submitted by this assistant. Unique normalized full master prompt match. Paid mode is historical observation, NOT authorization for paid launches. Source input correctness and editorial acceptance are not inferred; do not duplicate.",
-      "observed_use_unlimit_mode": false,
-      "observed_credits_cost": 12
-    },
-    {
-      "id": "S43",
-      "scene_id": 43,
-      "prompt_id": "S43",
-      "canonical_block_label": "43",
-      "canonical_prompt_sha256": "7c6e9571715a5630c6448c919cb632fc492a90a67289ba50959f2afffa25a504",
-      "normalized_prompt_sha256": "7004f6e6d3837783702707153441629f4a31572473edd3c21dd9cae78411c304",
-      "priority": 101,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "S40",
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-28/H28A-ceremony.png",
-          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b",
-          "required": true
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
-          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
-          "required": true
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
-          "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a",
-          "required": true
-        }
-      ],
-      "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
-      "claim": null,
-      "submitted_at": "2026-10-17T02:24:00Z",
-      "submission_origin": "observed_external_existing_task",
-      "reconciled_at": "2026-10-17T02:36:21.036342+00:00",
-      "external_submission_note": "Read-only observation, not submitted by this assistant. Unique normalized full master prompt match. Paid mode is historical observation, NOT authorization for paid launches. Source input correctness and editorial acceptance are not inferred; do not duplicate.",
-      "observed_use_unlimit_mode": false,
-      "observed_credits_cost": 12
-    },
-    {
-      "id": "S41",
-      "scene_id": 41,
-      "prompt_id": "S41",
-      "canonical_block_label": "41",
-      "canonical_prompt_sha256": "6b2b417bfefc62cd5ac35b24b6e1f0df8e0a4c79dfa1540edae2cbf7ffbe4dc9",
-      "normalized_prompt_sha256": "bdf412dc6250c863a0ed68106dbe34f6d0f3b6b48e2dd6cb2d6a9695e54f5db0",
-      "priority": 0,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
-          "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
-          "required": true
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
-          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
-          "required": true
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
-          "required": true
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
-          "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
-          "required": true
-        }
-      ],
-      "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
-      "claim": {
-        "run_id": "chatgpt-s41-20261018000041",
-        "claimed_at": "2026-10-18T00:03:27.211Z",
-        "actor": "ChatGPT Work",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "account_scan": {
-          "checked_at": "2026-10-18T00:03:21.670Z",
-          "boards": 11,
-          "pages": 17,
-          "total_tasks": 906,
-          "complete": true,
-          "occupied_video_slots": 5,
-          "free_video_slots": 1
-        },
-        "dedup": "Fresh full 906-task account scan: zero exact normalized S41 prompt matches",
-        "ui_verified": {
-          "model": "Wan 3.0",
-          "duration_seconds": 30,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "quantity": 1,
-          "unlimited": true,
-          "credits": 0,
-          "prompt_length": 8454,
-          "prompt_exact": true,
-          "input_sha_verified": true,
-          "input_count": 6
-        }
-      },
-      "priority_owner_override": {
-        "requested_at": "2026-10-17T19:52:55Z",
-        "source": "Explicit owner sequence",
-        "sequence_index": 0
-      },
-      "previous_prompt_sha256": [
-        "cf3906a41263b80e7a2f6cf7d270e7055de1051f4152339093efb633bd18d290",
-        "89bcd69778be59c919495b35198965dd06e00ef93e6b6298a3e79ec148bd2957"
-      ],
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "submitted_at": "2026-10-18T00:03:43Z",
-      "receipt": "reports/topview-queue-2026-10-18/S41-receipt.json",
-      "verified_at": "2026-10-18T00:04:10Z"
     },
     {
       "id": "S49A",
@@ -1737,83 +1228,6 @@
       }
     },
     {
-      "id": "S50-FANS-IMAGE",
-      "scene_id": 50,
-      "prompt_id": "S50-FANS-IMAGE",
-      "media_type": "image",
-      "prompt_source_path": "references/scenes/scene-50/S50-fans-image-prompt.txt",
-      "prompt_source": "UTF-8 full file stripped of final newline; exact standalone image prompt",
-      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
-      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
-      "priority": 0,
-      "state": "submitted",
-      "model": "Nano Banana Pro",
-      "resolution": "2K",
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "image_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
-        },
-        {
-          "slot": "Image2",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
-        },
-        {
-          "slot": "Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
-        }
-      ],
-      "task_id": "48657a07dac542b0a3340e44c15b933f",
-      "claim": {
-        "run_id": "chatgpt-working-s50-1792262460343",
-        "claimed_at": "2026-10-17T18:41:00.343Z",
-        "holder": "chatgpt",
-        "ui_verified": {
-          "model": "Nano Banana Pro",
-          "resolution": "2K",
-          "aspect_ratio": "16:9",
-          "quantity": 1,
-          "mode": "unlimited",
-          "credits": 0,
-          "prompt_length": 1037,
-          "full_prompt_match": true,
-          "input_sha_verified": true,
-          "input_count": 3
-        },
-        "account_scan": {
-          "at": "2026-10-17T18:38:18.492Z",
-          "boards": 11,
-          "pages": 17,
-          "total": 902,
-          "complete": true
-        }
-      },
-      "previous_attempt_created_task": false,
-      "authorization": "Explicit owner17Oct16:11MSK: FIRST next free slot Wookiee fans. Existing harmless prepared image request.",
-      "on_success": "Download actual image, visual QC, save full file+thumbnail+provenance+SHA+manifest+master link; only then READY50A/B and add their finite video items after story. Do not treat technical success as owner approval.",
-      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
-      "submitted_at": "2026-10-17T18:41:12Z",
-      "verified_at": "2026-10-17T18:42:37.941Z",
-      "receipt_path": "reports/topview-queue-2026-10-16/S50-FANS-IMAGE-20261017.json",
-      "credits_cost": 0,
-      "use_unlimit_mode": true,
-      "variant_number": 1,
-      "variant_group": "S50-FANS-THREE-20261017",
-      "result_status": "success",
-      "result_checked_at": "2026-10-17T19:40:49.110Z",
-      "archived_result_path": "references/scenes/scene-50/S50-fans-48657a07.png",
-      "owner_selection": "not_selected_20261017_2358"
-    },
-    {
       "id": "S54",
       "scene_id": 54,
       "prompt_id": "S54",
@@ -2060,261 +1474,6 @@
       "priority_before_20261023_primary": 400,
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
-    },
-    {
-      "id": "S55",
-      "scene_id": 55,
-      "prompt_id": "S55",
-      "canonical_block_label": "55",
-      "canonical_prompt_sha256": "bfc55bdbbff305b6c88f8599e077eb1f989f439521ccd603b31f32a56f99b0ae",
-      "normalized_prompt_sha256": "f0e648b6616aa079a00288de8941b265331dc0c58f2a833e3f855dc01de45078",
-      "priority": 5,
-      "state": "submitted",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "S50-FANS-IMAGE",
-        "S50-FANS-IMAGE-V2",
-        "S50-FANS-IMAGE-V3"
-      ],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "role": "identity",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/full/yulya.jpg",
-          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
-          "role": "identity",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-54/S54-room-opening-actual.png",
-          "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
-          "role": "location",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-54/S54-room-side-actual.png",
-          "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
-          "role": "composition",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "task_id": "86741d99f7634e3b97e8b139996b83b0",
-      "claim": {
-        "run_id": "chatgpt-s55-1792265804265",
-        "claimed_at": "2026-10-17T19:36:44.265Z",
-        "holder": "chatgpt",
-        "account_scan": {
-          "checked_at": "2026-10-17T19:34:12.587Z",
-          "boards": 11,
-          "pages": 17,
-          "total_tasks": 905,
-          "complete": true,
-          "occupied_slots": 5,
-          "free_slots": 1,
-          "active_unlimited_task_ids": [
-            "0d1f17c226834bfbb851d76ed32f9877",
-            "56c0ea656f484b0cb8464233fe097e0d",
-            "5333994f739f4a8b813a6a36dcb7e140",
-            "979f07acffe04750961515f4baf21a3f",
-            "2bccc8a3521b411cb7bd51f9c8ba1119"
-          ]
-        },
-        "ui_verified": {
-          "model": "Wan 3.0",
-          "duration_seconds": 30,
-          "resolution": 720,
-          "aspect_ratio": "16:9",
-          "quantity": 1,
-          "unlimited": true,
-          "credits": 0,
-          "prompt_length": 5079,
-          "prompt_exact": true,
-          "input_sha_verified": true,
-          "input_count": 4
-        },
-        "dedup": "Full905-task account scan: no same story55 prompt or existing task; owner_decisions43–55 open none"
-      },
-      "authorization": "Direct owner 17Oct2026 21:12 MSK: new Scene 55, queue it early, right after the Wookiee fans image (S50-FANS-IMAGE).",
-      "max_credits": 0,
-      "submitted_at": "2026-10-17T19:36:53Z",
-      "verified_at": "2026-10-17T19:40:49.110Z",
-      "credits_cost": 0,
-      "use_unlimit_mode": true,
-      "receipt_path": "reports/topview-queue-2026-10-16/S55-20261017.json"
-    },
-    {
-      "id": "S50-FANS-IMAGE-V2",
-      "scene_id": 50,
-      "prompt_id": "S50-FANS-IMAGE-V2",
-      "media_type": "image",
-      "prompt_source_path": "references/scenes/scene-50/S50-fans-image-prompt.txt",
-      "prompt_source": "UTF-8 full file stripped of final newline; exact standalone image prompt",
-      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
-      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
-      "priority": 1,
-      "state": "submitted",
-      "model": "Nano Banana Pro",
-      "resolution": "2K",
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "image_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [
-        "S50-FANS-IMAGE"
-      ],
-      "references": [
-        {
-          "slot": "Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
-        },
-        {
-          "slot": "Image2",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
-        },
-        {
-          "slot": "Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
-        }
-      ],
-      "task_id": "1c48a62d14d14d348a5c49fe5cdb5e70",
-      "claim": {
-        "run_id": "chatgpt-s50v2-1792263919905",
-        "claimed_at": "2026-10-17T19:05:19.905Z",
-        "holder": "chatgpt",
-        "account_scan": {
-          "checked_at": "2026-10-17T19:04:45.908Z",
-          "boards": 11,
-          "pages": 17,
-          "total_tasks": 903,
-          "complete": true,
-          "occupied_slots": 5,
-          "free_slots": 1,
-          "active_unlimited_task_ids": [
-            "0d1f17c226834bfbb851d76ed32f9877",
-            "56c0ea656f484b0cb8464233fe097e0d",
-            "5333994f739f4a8b813a6a36dcb7e140",
-            "979f07acffe04750961515f4baf21a3f",
-            "2bccc8a3521b411cb7bd51f9c8ba1119"
-          ]
-        },
-        "ui_verified": {
-          "prompt_length": 1037,
-          "full_prompt_match": true,
-          "model": "Nano Banana Pro",
-          "resolution": "2K",
-          "aspect_ratio": "16:9",
-          "quantity": 1,
-          "mode": "unlimited",
-          "credits": 0,
-          "input_count": 3,
-          "input_files": "Same uploaded files/order/SHA as verified original task48657a07dac542b0a3340e44c15b933f"
-        },
-        "dedup": "Full scan found original assigned task only; explicitly authorized second alternative"
-      },
-      "previous_attempt_created_task": false,
-      "authorization": "Direct owner17Oct2026 21:45:30MSK: three free Wookiee fan image launches total for choice; includes first task48657a07dac542b0a3340e44c15b933f. This is one separately authorized alternative, not an automatic retry.",
-      "on_success": "Download actual original, visually inspect and archive each alternative separately with task ID/SHA/provenance. Present three alternatives for owner selection; do not overwrite the first or auto-approve. Only selected suitable frame used for50A/B.",
-      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
-      "variant_number": 2,
-      "variant_group": "S50-FANS-THREE-20261017",
-      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth.",
-      "submitted_at": "2026-10-17T19:05:26Z",
-      "verified_at": "2026-10-17T19:07:34.210Z",
-      "credits_cost": 0,
-      "use_unlimit_mode": true,
-      "submission_origin": "working_chat_single_gui_create",
-      "receipt_path": "reports/topview-queue-2026-10-16/S50-FANS-IMAGE-V2-20261017.json",
-      "result_status": "success",
-      "result_checked_at": "2026-10-17T19:40:49.110Z",
-      "archived_result_path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
-      "owner_selection": "selected_20261017_2358"
-    },
-    {
-      "id": "S50-FANS-IMAGE-V3",
-      "scene_id": 50,
-      "prompt_id": "S50-FANS-IMAGE-V3",
-      "media_type": "image",
-      "prompt_source_path": "references/scenes/scene-50/S50-fans-image-prompt.txt",
-      "prompt_source": "UTF-8 full file stripped of final newline; exact standalone image prompt",
-      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
-      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
-      "priority": 2,
-      "state": "submitted",
-      "model": "Nano Banana Pro",
-      "resolution": "2K",
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "image_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [
-        "S50-FANS-IMAGE-V2"
-      ],
-      "references": [
-        {
-          "slot": "Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
-        },
-        {
-          "slot": "Image2",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
-        },
-        {
-          "slot": "Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
-        }
-      ],
-      "task_id": "792d7b8a3912484bb34907e219f9c188",
-      "claim": null,
-      "previous_attempt_created_task": false,
-      "authorization": "Direct owner17Oct2026 21:45:30MSK: three free Wookiee fan image launches total for choice; includes first task48657a07dac542b0a3340e44c15b933f. This is one separately authorized alternative, not an automatic retry.",
-      "on_success": "Download actual original, visually inspect and archive each alternative separately with task ID/SHA/provenance. Present three alternatives for owner selection; do not overwrite the first or auto-approve. Only selected suitable frame used for50A/B.",
-      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
-      "variant_number": 3,
-      "variant_group": "S50-FANS-THREE-20261017",
-      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth.",
-      "submitted_at": "2026-10-17T19:05:44Z",
-      "verified_at": "2026-10-17T19:07:34.210Z",
-      "credits_cost": 0,
-      "use_unlimit_mode": true,
-      "submission_origin": "observed_concurrent_submission_creator_unverified",
-      "receipt_path": "reports/topview-queue-2026-10-16/S50-FANS-IMAGE-V3-20261017.json",
-      "reconciliation": {
-        "observed_at": "2026-10-17T19:07:34.210Z",
-        "reason": "Third fan image appeared19:05:44UTC during this cycle; same uploaded input paths, same prompt except bare Image 1→Image1 spacing; zero credits. Count against owner-authorized alternative; do not submit another V3. No click for this task by working chat.",
-        "prompt_difference": "Two occurrences of Image 1 have space removed",
-        "owner_approval": "not_granted"
-      },
-      "result_status": "success",
-      "result_checked_at": "2026-10-17T19:40:49.110Z",
-      "archived_result_path": "references/scenes/scene-50/S50-fans-792d7b8a.png",
-      "owner_selection": "not_selected_20261017_2358"
     },
     {
       "id": "S50A",
@@ -8045,6 +7204,135 @@
     "recorded_by": "claude:chatgpt-review"
   },
   "archived_items": [
+    {
+      "id": "B7",
+      "scene_id": 28,
+      "prompt_id": "B7",
+      "canonical_block_label": "28 B7",
+      "state": "submitted",
+      "task_id": "979f07acffe04750961515f4baf21a3f",
+      "submitted_at": "2026-10-16T17:26:19Z",
+      "canonical_prompt_sha256": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e",
+      "normalized_prompt_sha256": "fcc7bf170b24912b011cb5bb9420f345d85ed0a35527eaa467a9ad199e74741f"
+    },
+    {
+      "id": "B8",
+      "scene_id": 28,
+      "prompt_id": "B8",
+      "canonical_block_label": "28 B8",
+      "state": "submitted",
+      "task_id": "5333994f739f4a8b813a6a36dcb7e140",
+      "submitted_at": "2026-10-17T03:06:04Z",
+      "canonical_prompt_sha256": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57",
+      "normalized_prompt_sha256": "a7f56eb53f13c6e0dc2c2282a1dacd4d16132eff8260bf0b80f413e5d7ead84c"
+    },
+    {
+      "id": "B9",
+      "scene_id": 28,
+      "prompt_id": "B9",
+      "canonical_block_label": "28 B9",
+      "state": "submitted",
+      "task_id": "0d1f17c226834bfbb851d76ed32f9877",
+      "submitted_at": "2026-10-17T12:03:25Z",
+      "canonical_prompt_sha256": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
+      "normalized_prompt_sha256": "a06db2f570776e41a0002f491dd88ae332a3ef6bb0a202ffbc53eec3f60bf812"
+    },
+    {
+      "id": "B3",
+      "scene_id": 28,
+      "prompt_id": "B3",
+      "canonical_block_label": "28 B3",
+      "state": "submitted",
+      "task_id": "56c0ea656f484b0cb8464233fe097e0d",
+      "submitted_at": "2026-10-17T12:00:12Z",
+      "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
+      "normalized_prompt_sha256": "4434b34269f7bf4893813a6f31e7483b04654d2af6b94011f2fad06347b8138b"
+    },
+    {
+      "id": "S45",
+      "scene_id": 45,
+      "prompt_id": "S45",
+      "canonical_block_label": "45",
+      "state": "submitted",
+      "task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
+      "submitted_at": "2026-10-17T02:21:41Z",
+      "canonical_prompt_sha256": "11d6edda9fb32ccbbba41af99ff6db675ae5e636841953bde11920bdec6cc74f",
+      "normalized_prompt_sha256": "c2b768237b311ebae44162d4988b6d004a104717e6f84f8ac4d7b815eb624b59"
+    },
+    {
+      "id": "S46",
+      "scene_id": 46,
+      "prompt_id": "S46",
+      "canonical_block_label": "46",
+      "state": "submitted",
+      "task_id": "6ada672ccc5e48d2b1438c0aa18af945",
+      "submitted_at": "2026-10-17T02:16:20Z",
+      "canonical_prompt_sha256": "ee19f17476ccacfe64a2eb65ac6fd2f84c3a14f363eb0734e2bbc8ce06499827",
+      "normalized_prompt_sha256": "2ad2e4e0c2f681250403d618bbeaa96f0aab406973e5b2c06957071f22eb6cce"
+    },
+    {
+      "id": "S43",
+      "scene_id": 43,
+      "prompt_id": "S43",
+      "canonical_block_label": "43",
+      "state": "submitted",
+      "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
+      "submitted_at": "2026-10-17T02:24:00Z",
+      "canonical_prompt_sha256": "7c6e9571715a5630c6448c919cb632fc492a90a67289ba50959f2afffa25a504",
+      "normalized_prompt_sha256": "7004f6e6d3837783702707153441629f4a31572473edd3c21dd9cae78411c304"
+    },
+    {
+      "id": "S41",
+      "scene_id": 41,
+      "prompt_id": "S41",
+      "canonical_block_label": "41",
+      "state": "submitted",
+      "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
+      "submitted_at": "2026-10-18T00:03:43Z",
+      "canonical_prompt_sha256": "6b2b417bfefc62cd5ac35b24b6e1f0df8e0a4c79dfa1540edae2cbf7ffbe4dc9",
+      "normalized_prompt_sha256": "bdf412dc6250c863a0ed68106dbe34f6d0f3b6b48e2dd6cb2d6a9695e54f5db0"
+    },
+    {
+      "id": "S50-FANS-IMAGE",
+      "scene_id": 50,
+      "prompt_id": "S50-FANS-IMAGE",
+      "state": "submitted",
+      "task_id": "48657a07dac542b0a3340e44c15b933f",
+      "submitted_at": "2026-10-17T18:41:12Z",
+      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4"
+    },
+    {
+      "id": "S55",
+      "scene_id": 55,
+      "prompt_id": "S55",
+      "canonical_block_label": "55",
+      "state": "submitted",
+      "task_id": "86741d99f7634e3b97e8b139996b83b0",
+      "submitted_at": "2026-10-17T19:36:53Z",
+      "canonical_prompt_sha256": "bfc55bdbbff305b6c88f8599e077eb1f989f439521ccd603b31f32a56f99b0ae",
+      "normalized_prompt_sha256": "f0e648b6616aa079a00288de8941b265331dc0c58f2a833e3f855dc01de45078"
+    },
+    {
+      "id": "S50-FANS-IMAGE-V2",
+      "scene_id": 50,
+      "prompt_id": "S50-FANS-IMAGE-V2",
+      "state": "submitted",
+      "task_id": "1c48a62d14d14d348a5c49fe5cdb5e70",
+      "submitted_at": "2026-10-17T19:05:26Z",
+      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4"
+    },
+    {
+      "id": "S50-FANS-IMAGE-V3",
+      "scene_id": 50,
+      "prompt_id": "S50-FANS-IMAGE-V3",
+      "state": "submitted",
+      "task_id": "792d7b8a3912484bb34907e219f9c188",
+      "submitted_at": "2026-10-17T19:05:44Z",
+      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4"
+    },
     {
       "id": "B10",
       "scene_id": 28,

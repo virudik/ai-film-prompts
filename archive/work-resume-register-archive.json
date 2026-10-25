@@ -502,6 +502,12 @@
     {
       "work_id": "CONTINUE-001",
       "done": [
+        "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once via signed-in Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6images/Unlimited0; raw and normalized current master prompt exact. Post-submit full11board/16page/913task scan:6active,0free."
+      ]
+    },
+    {
+      "work_id": "CONTINUE-001",
+      "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
         "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161",
