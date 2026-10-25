@@ -50,7 +50,7 @@ function render(){
  const rules=reg?.non_character_reference_rules||[];
  document.getElementById('rules').innerHTML='<b>Правило референсов:</b> '+esc(rules.join(' · '));
 }
-Promise.all([fetch('character-references.json',{cache:'no-store'}).then(r=>r.json()),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null)]).then(([x,m])=>{reg=x;thumbs=m?.items||null;render()}).catch(e=>document.getElementById('grid').innerHTML='<div class="empty">Не удалось загрузить character-references.json</div>');
+Promise.all([fetch('character-references.json',{cache:'no-store'}).then(r=>r.json()),fetch('references/thumbs/manifest.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([x,m])=>{reg=x;thumbs=m?.items||null;render()}).catch(e=>document.getElementById('grid').innerHTML='<div class="empty">Не удалось загрузить character-references.json</div>');
 document.getElementById('q').addEventListener('input',render);
 document.getElementById('lightboxClose').onclick=closeLightbox;
 document.getElementById('lightbox').addEventListener('click',e=>{if(e.target.id==='lightbox')closeLightbox()});
@@ -85,7 +85,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('button[data-ref]
  if(b.dataset.ref==='ok')arm(b,()=>send('ok',path));
  if(b.dataset.ref==='redraw'){const c=w.querySelector('textarea').value.trim();if(c.length<3){toast('Напишите, что поправить');return}send('redraw',path+' | '+c,()=>{w.querySelector('.refform').classList.remove('open')})}});
 const fresh=u=>fetch(u+'?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
-Promise.all([fresh('references/reference-review.json'),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null),fresh('project-status.json')]).then(([rv,m,st])=>{
+Promise.all([fresh('references/reference-review.json'),fetch('references/thumbs/manifest.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fresh('project-status.json')]).then(([rv,m,st])=>{
  (rv?.reviews||[]).forEach(r=>{REV[r.path]=r});THUMBS=m?.items||{};STATUS=st;renderScenes();decorateCharacters()});
 new MutationObserver(()=>decorateCharacters()).observe(document.getElementById('grid'),{childList:true});
 new MutationObserver(()=>decorateCharacters()).observe(document.getElementById('assets'),{childList:true});
