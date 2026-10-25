@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Relay recovery test signal",
-  "acquired_at": "2026-10-25T20:22:09.780Z",
-  "expires_at": null,
-  "released_at": "2026-10-25T20:22:15.517Z",
+  "task": "chatgpt-event-evt_1f3dc7fcc8129aa214fa7958a7c1596a: ACK wake-relay-resume-20261025-01",
+  "acquired_at": "2026-10-25T20:25:27.249Z",
+  "expires_at": "2026-10-25T20:40:27.249Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
