@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-25T09:38:58+00:00",
+ "generated_at": "2026-10-25T10:41:48+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -28,8 +28,8 @@
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "a5776e53da04d3c29256d39098696480e169686d64987ad077cb243e245abeb9",
-   "bytes": 66894
+   "sha256": "4a713f6bec09e2e5a489515e3348928ea1e7dd8731a95ae1181395e3fb8f4418",
+   "bytes": 71958
   },
   {
    "file": "USER-GUIDE.md",
