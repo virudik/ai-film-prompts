@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Relay recovery test staging",
   "acquired_at": "2026-10-25T20:21:39.685Z",
-  "expires_at": "2026-10-25T20:31:39.686Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-25T20:21:43.055Z",
   "rules": "ops/CANON-LOCK.md"
 }
