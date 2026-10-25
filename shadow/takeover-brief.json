@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-25T12:38:39+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-25T13:21:56+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "d3029fb37a5afe79c947beecf1b01d7e13f09f797d4ad92bb8168c771e2b4261",
-   "bytes": 1021541
+   "sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
+   "bytes": 1060989
   }
  ],
  "invariants": [
@@ -287,7 +287,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 37250,
+   "offset": 37222,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -309,7 +309,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 63587,
+   "offset": 63559,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -327,11 +327,12 @@
     "@Image1",
     "@Image2",
     "@Image3",
-    "@Image4"
+    "@Image4",
+    "@Image5"
    ],
-   "offset": 92124,
-   "chars": 129459,
-   "sha256_12": "0ee74579509c"
+   "offset": 92096,
+   "chars": 131514,
+   "sha256_12": "769ec591c531"
   },
   {
    "id": 33,
@@ -347,7 +348,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 221583,
+   "offset": 223610,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -369,7 +370,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 237939,
+   "offset": 239966,
    "chars": 24016,
    "sha256_12": "1bcbb827821d"
   },
@@ -393,7 +394,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 261955,
+   "offset": 263982,
    "chars": 33943,
    "sha256_12": "e8edb2707452"
   },
@@ -415,7 +416,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 295898,
+   "offset": 297925,
    "chars": 32478,
    "sha256_12": "75a349656500"
   },
@@ -437,7 +438,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 328376,
+   "offset": 330403,
    "chars": 32687,
    "sha256_12": "533d29334264"
   },
@@ -459,7 +460,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 361063,
+   "offset": 363090,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -483,7 +484,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 393560,
+   "offset": 395587,
    "chars": 28588,
    "sha256_12": "fe1fdb023a69"
   },
@@ -502,7 +503,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 422148,
+   "offset": 424175,
    "chars": 26812,
    "sha256_12": "d95a85c48853"
   },
@@ -524,7 +525,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 448960,
+   "offset": 450987,
    "chars": 24396,
    "sha256_12": "89801383aa30"
   },
@@ -548,7 +549,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 473356,
+   "offset": 475383,
    "chars": 28429,
    "sha256_12": "5927c1ae8d09"
   },
@@ -575,9 +576,9 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 501785,
-   "chars": 74955,
-   "sha256_12": "1cfcd4c7537f"
+   "offset": 503812,
+   "chars": 74983,
+   "sha256_12": "17eb4aa1f7b0"
   },
   {
    "id": 50,
@@ -600,13 +601,13 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 576740,
+   "offset": 578795,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
   {
    "id": 51,
-   "title": "Финальные титры: рок-финал с разбиванием инопланетных инструментов",
+   "title": "Финальные титры: каждый разбивает свой инструмент",
    "target_engine": "Seedance 2.0",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -617,20 +618,18 @@
     49,
     50
    ],
-   "prompts": 3,
+   "prompts": 12,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
     "@Image4",
     "@Image5",
-    "@Image6",
-    "@Image7",
-    "@Image8"
+    "@Image6"
    ],
-   "offset": 596461,
-   "chars": 23503,
-   "sha256_12": "efdc808de0fc"
+   "offset": 598516,
+   "chars": 60422,
+   "sha256_12": "6f56178b944d"
   },
   {
    "id": 52,
@@ -652,7 +651,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 619964,
+   "offset": 658938,
    "chars": 31624,
    "sha256_12": "73f7d37605a6"
   },
@@ -676,7 +675,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 651588,
+   "offset": 690562,
    "chars": 29558,
    "sha256_12": "5c03141af4d6"
   },
@@ -699,7 +698,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 681146,
+   "offset": 720120,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -721,7 +720,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 707552,
+   "offset": 746526,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -747,7 +746,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 733648,
+   "offset": 772622,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -768,7 +767,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 761176,
+   "offset": 800150,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -790,7 +789,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 796464,
+   "offset": 835438,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -810,7 +809,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 829475,
+   "offset": 868449,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -832,7 +831,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 854321,
+   "offset": 893295,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -852,7 +851,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 883592,
+   "offset": 922566,
    "chars": 23430,
    "sha256_12": "d1ee8151d77d"
   }

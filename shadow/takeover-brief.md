@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-25T12:38:39+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-25T13:21:56+00:00. Валиден при генерации: **False**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 75375 B · `1751b0c8e0417e7b`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16278 B · `21803210ef2491ea`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18509 B · `d462c5410f5b4f93`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1021541 B · `d3029fb37a5afe79`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1060989 B · `da4b477ad97066d3`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -44,7 +44,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 |---|---|---|---|---|---|---|---|
 | 13 | Совет джедаев: говорящий кот Лучик | Wan 3 | NEEDS_RERENDER/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 53146e9d1886 |
 | 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 1cb49f8adfc7 |
-| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 23 | @Image1 @Image2 @Image3 @Image4 | [] | 0ee74579509c |
+| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 23 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 769ec591c531 |
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 | [] | 9ed4ad5f905c |
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 1bcbb827821d |
 | 37 | Отлёт Серёги с Набу к лесной планете | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | e8edb2707452 |
@@ -55,9 +55,9 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 | [] | d95a85c48853 |
 | 47 | Красная точка: Серёга уходит от котов хитростью | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 89801383aa30 |
 | 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 5927c1ae8d09 |
-| 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | 1cfcd4c7537f |
+| 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | 17eb4aa1f7b0 |
 | 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image8 | [28, 49] | 6ac559c15d25 |
-| 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28, 49, 50] | efdc808de0fc |
+| 51 | Финальные титры: каждый разбивает свой инструмент | Seedance 2.0 | DRAFT/IDLE | 12 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [28, 49, 50] | 6f56178b944d |
 | 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Seedance 2.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [44] | 73f7d37605a6 |
 | 53 | Взлёт Серёги с Татуина: курс на Набу | Seedance 2.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [48, 39] | 5c03141af4d6 |
 | 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | be481db171a4 |
