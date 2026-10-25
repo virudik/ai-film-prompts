@@ -648,6 +648,61 @@
         "launch_queue_unchanged": true,
         "original_genuine_acks_unchanged": true,
         "first_real_event_submit_verified": false
+      },
+      "post_publish_verification": {
+        "verified_at": "2026-10-25T22:09:34.541Z",
+        "production_commit": "928f7bff211b3dee62505fa6502d9ae269cf9aa3",
+        "integration_ci_run": 40238552224,
+        "canon_health_ci_run": 40238552203,
+        "canonical_sync_ci_run": 40238552131,
+        "pages_ci_run": 40238593726,
+        "ci_conclusions": "success",
+        "project_health": "ok",
+        "instruction_hashes": "7/7 exact",
+        "takeover_invariants": "15/15; valid",
+        "pages_readback": [
+          {
+            "file": "ops/relay-wake.json",
+            "http": 200,
+            "matches_main": true,
+            "sha256": "6e9594cb96b9faba1d25d4a642a636f7738fd09c53f2da58acfbbc76b4f2cb64",
+            "production_enabled": true
+          },
+          {
+            "file": "instruction-sync-status.json",
+            "http": 200,
+            "matches_main": true,
+            "sha256": "b151824c70369d862ddf3ac76d35ea107daf2a7bc1be51cc5d9687a460d95bf8"
+          },
+          {
+            "file": "NEW-CHAT-HANDOFF.md",
+            "http": 200,
+            "matches_main": true,
+            "sha256": "3e40d570fbe81a3312695804754853d51f051b2a7eac06210fbd13815f529978"
+          },
+          {
+            "file": "SYNC-RUNBOOK.md",
+            "http": 200,
+            "matches_main": true,
+            "sha256": "33c8f2a5161aa004ab461debd0112bbfc02a37ec8887bf4620a513feb0a89014"
+          },
+          {
+            "file": "project-status.json",
+            "http": 200,
+            "matches_main": true,
+            "sha256": "c65c53ccb73390cf3cd3711333b54c7b92cd020c75ceeb1aaeacc5d92769a60a"
+          },
+          {
+            "file": "index.html",
+            "http": 200,
+            "matches_main": true,
+            "sha256": "3f46c5ea69e56091c9c05bc8bb3ea0ae39e94ccbfb2ca1b786c36802e73dddf5"
+          }
+        ],
+        "notion_pointer_refreshed": true,
+        "notion_page_id": "3e1fe763-7762-81d5-8c4e-dce504d7c5ec",
+        "backups": "Drive/Project/Library pending normal refresh; non-blocking",
+        "new_submissions": 0
       }
     }
   }
