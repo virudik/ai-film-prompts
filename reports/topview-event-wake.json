@@ -372,6 +372,25 @@
         "source": "Agent Relay webhook",
         "runner": "chatgpt_event_trigger",
         "new_submissions": 0
+      },
+      {
+        "test_id": "wake-relay-after-lock-20261025-01",
+        "issue_number": 40,
+        "event_id": "evt_679ae70e04801a13e203f3b07d534c2f",
+        "message_id": "240220095395590144",
+        "actual_sender": "topview-robot",
+        "sender_agent_id": "240204876611608576",
+        "sender_address": "topview-robot@direct",
+        "sender_address_verification": "get_event sender and senderAgentId matched fresh config; exact sender name resolved to configured address in fresh Relay roster",
+        "target_inbox": "chatgpt@cloud-239644772681871360",
+        "run_id": null,
+        "run_id_unavailable_reason": "Webhook runtime supplied event and start time, but no actual run ID.",
+        "run_started_at": "2026-10-25T21:10:12Z",
+        "verified_at": "2026-10-25T21:11:26.736Z",
+        "lock_outcome": "acquired_via_contents_sha_CAS; released_atomically_with_ACK",
+        "source": "Agent Relay webhook",
+        "runner": "chatgpt_event_trigger",
+        "new_submissions": 0
       }
     ],
     "new_submissions": 0,
