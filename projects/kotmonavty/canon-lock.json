@@ -1,11 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:project-check",
-  "task": "Котмонавты: динамика сцен 1–21, надпись только где виден корабль, подписи референсов, темы Suno",
-  "acquired_at": "2026-10-23T04:07:50Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T04:11:53Z",
-  "rules": "ops/CANON-LOCK.md",
-  "project": "kotmonavty"
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "weekly service-file and handoff cleanup 2026-10-25",
+  "acquired_at": "2026-10-25T05:58:55.959Z",
+  "expires_at": "2026-10-25T06:43:55.959Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md"
 }
