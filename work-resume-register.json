@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T11:02:48.852Z",
+  "last_updated_at": "2026-10-25T12:11:51.162Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -47,7 +47,7 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "standing_priority_active",
-      "updated_at": "2026-10-24T21:08:02.222Z",
+      "updated_at": "2026-10-25T12:11:51.162Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -55,9 +55,10 @@
         "Last recorded cycle b35af063-1de0-832c-b342-f00da9fb5c6e completed22:01:16UTC, confirmed6active and existing58P2; did not itself submit58P2.",
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
         "22:55 MSK cycle: full 13-board/28-page scan found one free slot; skipped non-ready52P2/42P2 and submitted next ready S56-P1 once as task b15165813c0848939edbe8b3d3aed182, Seedance2.0/15s/720p/16:9/Unlimited0. Post-scan935 tasks/6 active/0 free.",
-        "00:00 MSK cycle: full 13-board/28-page scan confirmed935 tasks/6 active/0 free. Re-downloaded actual S42-P1 task a1ca4c36e31d45c5b4b72df7777d2592, found the GitHub last3s file truncated, and deterministically restored the exact canonical 1804607-byte clip SHA dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61. Readiness now marks S42-P2 ready; no video submitted."
+        "00:00 MSK cycle: full 13-board/28-page scan confirmed935 tasks/6 active/0 free. Re-downloaded actual S42-P1 task a1ca4c36e31d45c5b4b72df7777d2592, found the GitHub last3s file truncated, and deterministically restored the exact canonical 1804607-byte clip SHA dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61. Readiness now marks S42-P2 ready; no video submitted.",
+        "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun."
       ],
-      "next_action": "All 6 video slots are occupied. On each cycle fresh-scan first. S42-P2 continuity now exactly matches the canonical SHA and is ready; launch it after S52-P2 only if S52-P2 remains blocked and a slot is confirmed free. S56-P2 still waits for actual S56-P1 result/QC. Never substitute or retry automatically.",
+      "next_action": "At the next confirmed free slot, choose the lowest-priority-number item that is actually ready in the freshly reread queue/manifests; current first candidate is S42-P2, but revalidate source/QC/prompt/refs/board/Unlimited0 immediately before claim. Never reserve a slot for a blocked item or repeat an existing task.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -66,51 +67,48 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-24T20:07:10.925Z",
+        "checked_at": "2026-10-25T12:11:51.162Z",
         "self_heal": "ok",
         "owner_tasks_open": 0,
+        "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-24T19:40:30Z"
+          "synced_at": "2026-10-25T11:30:19Z",
+          "fresh_under_40_minutes_at_first_read": true
         },
         "canon_health": {
           "status": "ok",
-          "warnings": 0
+          "warnings": 0,
+          "checked_at": "2026-10-25T10:41:37Z"
         },
         "gmail_message_ids": [
-          "1a16aec6761940ac",
-          "1a16ad9943a7d091",
-          "1a16ad87ba40f48a",
-          "1a16a10415e61d13",
-          "1a169ecc33f15bbf"
+          "1a1723e71e9729f0",
+          "1a17268b7f2883be"
         ],
         "github_failed_run_ids": [
-          40035072366,
-          40032704322,
-          40005092976,
-          39999733864
+          40177989810,
+          40181114191
         ],
+        "failure_job_ids": [
+          121122739583,
+          121132192749
+        ],
+        "resolution_commit": "a024f8a33ad411e81c379d5138a28fcaa6ecf5e5",
         "resolution_runs": [
-          40035072366,
-          40128186418,
-          40032704173
+          40186831274,
+          40186831290
         ],
-        "result": "All failure notifications resolved by verified successful retry/subsequent run and fresh healthy files; no repair or rerun needed. Slot wake messages 1a16f6e3d298b9c2/1a16f6e396e8f9c3 were handled by the verified S56-P1 submission."
+        "result": "Resolved before this audit: both warnings removed, canon-health ok/0 warnings, later canonical sync and integration jobs succeeded; no repair or rerun needed."
       },
       "last_topview_scan": {
-        "at": "2026-10-24T21:02:20Z",
+        "at": "2026-10-25T12:11:51.162Z",
+        "method": "full_ui_all_boards_all_loaded_lists",
         "boards": 13,
-        "pages": 28,
-        "total": 935,
-        "status_counts": {
-          "success": 892,
-          "fail": 37,
-          "init": 6
-        },
         "occupied_slots": 6,
         "free_slots": 0,
         "board_name": "My First Board",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "other_boards_with_active_queue": 0
       }
     },
     {
