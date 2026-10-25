@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:event-ab-test",
-  "task": "Gmail V2 and Agent Relay delivery test",
-  "acquired_at": "2026-10-25T08:25:18.749Z",
-  "expires_at": "2026-10-25T08:35:18.749Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-25T08:27:12.062Z",
   "rules": "ops/CANON-LOCK.md"
 }

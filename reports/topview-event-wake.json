@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T08:15:02.868Z",
-  "status": "both_signals_delivered_waiting_event_ack",
+  "updated_at": "2026-10-25T08:27:12.062Z",
+  "status": "agent_relay_selected_transport_verified_robot_bridge_pending",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -196,9 +196,9 @@
     "robot": "new issue per slot event, label topview-slot-wake, title 'TOPVIEW_SLOT_WAKE_V2 · свободно N · result:<taskID>'; V1 issue18 comment kept",
     "trigger_filter_needed": "^\\[virudik/ai-film-prompts\\] TOPVIEW_(SLOT_WAKE|WAKE_TEST)_V2 ",
     "test_id": "wake-v2-newthread-20261024-01",
-    "test_enabled": true,
+    "test_enabled": false,
     "test_ack": null,
-    "status": "email_delivered_waiting_event_ack",
+    "status": "no_run_after_new_thread",
     "new_submissions": 0,
     "trigger_filter_requested": "^\\[virudik/ai-film-prompts\\] TOPVIEW_(SLOT_WAKE|WAKE_TEST)_V2 ",
     "filter_update_accepted_at": "2026-10-25T08:07:02.036119+00:00",
@@ -214,12 +214,18 @@
     "email_received_at": "2026-10-25T08:09:52Z",
     "subject_regex_matches": true,
     "actual_from": "notifications@github.com",
-    "observation_deadline": "2026-10-25T08:24:52Z"
+    "observation_deadline": "2026-10-25T08:24:52Z",
+    "checked_at": "2026-10-25T08:24:53.789Z",
+    "observation_seconds": 901.789,
+    "last_run_recorded": null,
+    "latest_result_recorded": null,
+    "automation_paused": true,
+    "cause": "not_established; API accepted trigger, but independent structured-filter readback and pending-event UI are unavailable"
   },
   "relay_test": {
     "test_id": "wake-relay-20261025-0807",
     "marker": "TOPVIEW_RELAY_WAKE_TEST_V1",
-    "status": "dm_delivered_waiting_event_ack",
+    "status": "received_readonly_test_passed",
     "automation_id": "6adc585e7ac08191bb93825117dc7213",
     "conversation_id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096",
     "target_inbox": "chatgpt@cloud-239644772681871360",
@@ -257,15 +263,51 @@
       "OAuth connector permits only chatgpt sender, not as_person",
       "OAuth self-DM rejected"
     ],
-    "automatic_handler_run_observed": false
+    "automatic_handler_run_observed": true,
+    "verified_at": "2026-10-25T08:27:12.062Z",
+    "observed_run": {
+      "id": "6ccb7614-2678-832b-b8f1-d3e7c781d14d",
+      "scheduled_for": "2026-10-25T08:13:17.050366Z",
+      "started_at": "2026-10-25T08:13:19.108603Z",
+      "completed_at": "2026-10-25T08:14:46.857555Z",
+      "status": "completed",
+      "source": "automations.peek, independently verified by interactive comparison run"
+    },
+    "message_to_handler_start_seconds": 27.108603,
+    "reply_visibly_verified": true,
+    "duplicate_test": {
+      "event_id": "evt_53aeb959bc096e039ffb15951746dfe5",
+      "message_id": "240026434417713152",
+      "received_at": "2026-10-25T08:19:21Z",
+      "run_id": "70be9a65-d8e4-8327-92a2-d85e24f8f960",
+      "run_status": "no_update",
+      "started_at": "2026-10-25T08:19:46.054240Z",
+      "completed_at": "2026-10-25T08:20:15.570352Z",
+      "ack_unchanged": true,
+      "total_test_messages": 2,
+      "total_replies": 1,
+      "new_submissions": 0,
+      "status": "passed_observed"
+    },
+    "robot_to_relay_verified": false
   },
   "comparison": {
     "requested_at": "2026-10-25T08:08:58.589Z",
     "owner_quote": "Gmail V2 и Agent Relay протестируй оба и выбери более удобный из них оставив часовую",
-    "status": "in_progress",
+    "status": "completed_transport_comparison",
     "hourly_automation_id": "6acae6ab433481919e88665c520b8ef2",
     "hourly_enabled_verified": true,
     "hourly_modified": false,
-    "new_submissions": 0
+    "new_submissions": 0,
+    "completed_at": "2026-10-25T08:27:12.062Z",
+    "selected": "Agent Relay",
+    "rationale": "Actual webhook-triggered run and genuine ACK verified; 27.1s message-to-handler start. Duplicate same test_id produced no_update without another reply or ACK change. Gmail V2 new-thread event still has no recorded run or ACK during observation. Hourly remains unchanged. Robot-to-Relay bridge not configured or claimed.",
+    "gmail_event_task_enabled": false,
+    "relay_event_task_enabled": true,
+    "production_ready": false,
+    "remaining": "Connect authenticated GitHub robot/provider delivery to the existing Relay inbox, then verify a robot-origin read-only event with lock/dedup before adding a production launch branch. No paid agent runtimes or duplicate monitor.",
+    "hourly_schedule": "HH:55 Europe/Moscow",
+    "new_automations": 0,
+    "credits_spent": 0
   }
 }

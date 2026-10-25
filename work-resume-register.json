@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T08:15:02.868Z",
+  "last_updated_at": "2026-10-25T08:27:12.062Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "ab_test_in_progress",
-      "updated_at": "2026-10-25T08:15:02.868Z",
+      "status": "agent_relay_selected_transport_verified_robot_bridge_pending",
+      "updated_at": "2026-10-25T08:27:12.062Z",
       "owner_quote": "Gmail V2 и Agent Relay протестируй оба и выбери более удобный из них оставив часовую",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
@@ -19,9 +19,10 @@
         "Final test workflow40033440836, canon health40033440831 and Pages40033440789 succeeded. No videos created; hourly fallback unchanged.",
         "Five bot messages delivered; last workflow40035192750 -> comment6376175230 -> Gmail1a16aed853506d6f (22s). Authenticated UI confirms active trigger. Manual event Run now unsupported; independent-task event conversion rejected twice by service. Diagnostic6adbe1e7057c8190a5500374c9816975 disabled, no runs. Subscription refreshed; still no actual event run/ACK. Hourly actual completed run verified. Zero video submissions.",
         "25Oct: existing Gmail task switched to V2 subject filter; API accepted, prompt readback matches. Existing Relay task augmented with read-only diagnostic and read back. Hourly task preserved.",
-        "25Oct: Gmail V2 issue35 -> new Gmail thread1a1721be0f229453 at08:09:52Z, exact subject regex/actual sender verified. Relay DM from vitalikrudik via signed-in dashboard -> evt_9cd2fcb751a05ff6afbc4b740a9fb8a2 at08:12:52Z. Both manually readable; no event run/ACK yet. No videos/credits."
+        "25Oct: Gmail V2 issue35 -> new Gmail thread1a1721be0f229453 at08:09:52Z, exact subject regex/actual sender verified. Relay DM from vitalikrudik via signed-in dashboard -> evt_9cd2fcb751a05ff6afbc4b740a9fb8a2 at08:12:52Z. Both manually readable; no event run/ACK yet. No videos/credits.",
+        "25Oct A/B complete: Gmail V2 issue35/new thread delivered08:09:52Z; no recorded run/ACK at08:24:53Z (>15min), event task paused. Relay event triggered run6ccb7614-2678-832b-b8f1-d3e7c781d14d in27.1s and genuine ACK; duplicate test triggered no_update run70be9a65-d8e4-8327-92a2-d85e24f8f960, ACK unchanged and total replies1. Selected Relay; hourly unchanged; zero video submissions/credits."
       ],
-      "next_action": "Observe actual automation history/report at or after Gmail08:24:52Z and Relay08:27:52Z. Only event runs may write test_ack. Then choose channel based on evidence, preserve hourly task.",
+      "next_action": "Connect authenticated GitHub robot/provider delivery to the existing Relay inbox, then verify a robot-origin read-only event with lock/dedup before adding a production launch branch. No paid agent runtimes or duplicate monitor.",
       "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
       "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
       "test_id": "wake-v2-newthread-20261024-01",
@@ -30,8 +31,12 @@
         "reports/topview-event-wake.json"
       ],
       "new_submissions": 0,
-      "blocker": null,
-      "alternatives_status": "Gmail V2 and existing Relay subscription being tested by owner request; Slack not retried.",
+      "blocker": {
+        "stage": "GitHub robot -> Agent Relay inbox",
+        "cause": "Bridge not configured/verified; available Relay connector cannot provision provider subscriptions or send as another identity. Dashboard diagnostic proved human DM -> event execution.",
+        "next_action": "Configure a narrowly scoped authenticated source, then run one bot-origin no-video test. Do not call the whole free-slot pipeline ready."
+      },
+      "alternatives_status": "Agent Relay selected and enabled. Gmail V2 tested and paused. Hourly6acae6ab433481919e88665c520b8ef2 preserved; no new automation.",
       "relay_test_id": "wake-relay-20261025-0807"
     },
     {

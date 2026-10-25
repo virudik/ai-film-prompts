@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "channel": "new_issue",
   "test_id": "wake-v2-newthread-20261024-01",
   "read_only": true,
   "requested_at": "2026-10-25T08:09:03.155Z",
   "expected_new_submissions": 0,
   "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
-  "reason": "V2: new issue = new Gmail thread; tests whether the Gmail trigger fires only on new threads. Enable after the ChatGPT trigger filter is switched to the V2 subject."
+  "reason": "V2 new-thread email delivered; no recorded event run/ACK after 15min. Agent Relay selected after genuine webhook run+ACK and duplicate suppression. Test disabled; hourly fallback preserved.",
+  "completed_at": "2026-10-25T08:27:12.062Z",
+  "result": "no_run_after_new_thread"
 }
