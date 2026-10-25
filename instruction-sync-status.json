@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-25T09:30:30.199Z",
+  "checked_at": "2026-10-25T10:41:00.255Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -13,7 +13,7 @@
       "mirror_sha256": "fd1e2870fe5a841e2540366589dfdcf5cfc8970be0b87be3d6811d10a2abc4ed",
       "match": true,
       "drive_copy_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-25T08:26:34.792Z",
       "drive_copy_checked_at": "2026-10-25T08:26:42.959Z",
       "drive_copy_note": "Canonical handoff changed 23Oct2026; Drive backup was not refreshed in this launch task."
@@ -24,7 +24,7 @@
       "mirror_sha256": "b4aafb5467821135aa641a567047ba6209e77150fcaf115904a735ebe29d4c24",
       "match": true,
       "drive_copy_sha256": "3bf193dc33bc2cebbae3249f9658e43b9765dfb3e97efccd64a4181a3f498c1e",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-24T08:09:35.825Z",
       "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
@@ -40,11 +40,11 @@
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "github_blob": "a691d45e2e1b2245821bd181a453814636e50a3a",
-      "mirror_sha256": "a5776e53da04d3c29256d39098696480e169686d64987ad077cb243e245abeb9",
+      "github_blob": "18350b0c9d964dffb1861f4ef805d8c1e5b1cd75",
+      "mirror_sha256": "4a713f6bec09e2e5a489515e3348928ea1e7dd8731a95ae1181395e3fb8f4418",
       "match": true,
       "drive_copy_sha256": "a5776e53da04d3c29256d39098696480e169686d64987ad077cb243e245abeb9",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-24T08:09:41.321Z",
       "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
