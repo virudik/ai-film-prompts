@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-25T08:48:56+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-25T09:33:30+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "adafdbcec07d726f44d3f45ed2e11418327aa8157a721d12f881fc7cd644cea1",
-   "bytes": 34836
+   "sha256": "fd1e2870fe5a841e2540366589dfdcf5cfc8970be0b87be3d6811d10a2abc4ed",
+   "bytes": 34981
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "cd4bcc2eec478b5c113ae7351615b7fe72625d846893ea9438bca7aa4fd4ebad",
-   "bytes": 1091439
+   "sha256": "9038afa5cd758adf2cda6fd70b7933a988ffa474f1bdbf0d35a13b0c155fd80c",
+   "bytes": 1118387
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22673,
-  "above_marker_chars": 22673,
+  "chars": 22736,
+  "above_marker_chars": 22736,
   "recent_sections_below_marker": [],
-  "sha256_12": "23a27674113a",
+  "sha256_12": "5f42a33c851b",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -286,7 +286,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 36999,
+   "offset": 37250,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -308,7 +308,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 63336,
+   "offset": 63587,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -328,9 +328,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 91873,
-   "chars": 187850,
-   "sha256_12": "8c7b3a3e40e7"
+   "offset": 92124,
+   "chars": 188598,
+   "sha256_12": "13919e8a764d"
   },
   {
    "id": 33,
@@ -346,7 +346,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 279723,
+   "offset": 280722,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -368,7 +368,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 296079,
+   "offset": 297078,
    "chars": 24016,
    "sha256_12": "1bcbb827821d"
   },
@@ -392,7 +392,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 320095,
+   "offset": 321094,
    "chars": 33943,
    "sha256_12": "e8edb2707452"
   },
@@ -414,7 +414,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 354038,
+   "offset": 355037,
    "chars": 32478,
    "sha256_12": "75a349656500"
   },
@@ -436,7 +436,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 386516,
+   "offset": 387515,
    "chars": 32687,
    "sha256_12": "533d29334264"
   },
@@ -458,7 +458,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 419203,
+   "offset": 420202,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -482,7 +482,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 451700,
+   "offset": 452699,
    "chars": 28588,
    "sha256_12": "fe1fdb023a69"
   },
@@ -501,7 +501,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 480288,
+   "offset": 481287,
    "chars": 26812,
    "sha256_12": "d95a85c48853"
   },
@@ -523,7 +523,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 507100,
+   "offset": 508099,
    "chars": 24396,
    "sha256_12": "89801383aa30"
   },
@@ -547,7 +547,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 531496,
+   "offset": 532495,
    "chars": 28429,
    "sha256_12": "5927c1ae8d09"
   },
@@ -574,7 +574,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 559925,
+   "offset": 560924,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -599,7 +599,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 652854,
+   "offset": 653853,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -627,7 +627,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 682734,
+   "offset": 683733,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -651,7 +651,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 715046,
+   "offset": 716045,
    "chars": 31624,
    "sha256_12": "73f7d37605a6"
   },
@@ -675,7 +675,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 746670,
+   "offset": 747669,
    "chars": 29558,
    "sha256_12": "5c03141af4d6"
   },
@@ -698,7 +698,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 776228,
+   "offset": 777227,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -720,7 +720,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 802634,
+   "offset": 803633,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -746,7 +746,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 828730,
+   "offset": 829729,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -767,7 +767,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 856258,
+   "offset": 857257,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -789,7 +789,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 891546,
+   "offset": 892545,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -809,7 +809,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 924557,
+   "offset": 925556,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -831,9 +831,29 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 949403,
-   "chars": 29242,
-   "sha256_12": "d0819038f9c5"
+   "offset": 950402,
+   "chars": 29271,
+   "sha256_12": "7b405dfdc4b9"
+  },
+  {
+   "id": 63,
+   "title": "Храм ситхов: великие люди все на одно лицо",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 979673,
+   "chars": 23431,
+   "sha256_12": "c73530bfd1a3"
   }
  ],
  "read_sets": {
