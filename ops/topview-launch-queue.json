@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-25T09:29:18.695660Z",
+  "updated_at": "2026-10-25T10:48:10.341Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -214,8 +214,8 @@
       "scene_id": 49,
       "prompt_id": "S49A",
       "canonical_block_label": "49A",
-      "canonical_prompt_sha256": "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705",
-      "normalized_prompt_sha256": "b646081705c3489ee55571178df304b7c5dd5fb06fb414369fde0f6f5e3e201e",
+      "canonical_prompt_sha256": "b74caf4a80ca0a8d76ed98321bb6a8d02aa3f61a413ac5b5153ea5cb8f771b64",
+      "normalized_prompt_sha256": "6fa07769f2c70692798ab7d9577505cb6a5fad224eb5c459f5e76e332e719f54",
       "priority": 1.2,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -264,7 +264,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4"
+        "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
+        "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
@@ -299,15 +300,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 610
+      "priority_before_20261023_primary": 610,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S49B",
       "scene_id": 49,
       "prompt_id": "S49B",
       "canonical_block_label": "49B",
-      "canonical_prompt_sha256": "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc",
-      "normalized_prompt_sha256": "a66cdb578c8a5164e9fe2a3345865802c41c098fda509967c7183fed57626753",
+      "canonical_prompt_sha256": "b390dadd6e48a741701a428a296c2bb87d51206c4bdc6dc8754ac5efafdaaf34",
+      "normalized_prompt_sha256": "3edf9ae3cad12f77878d3f0a02291115e8840080a70508596b70cfb525c83752",
       "priority": 1.21,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -362,7 +364,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f"
+        "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
+        "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
@@ -397,15 +400,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 611
+      "priority_before_20261023_primary": 611,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S49C",
       "scene_id": 49,
       "prompt_id": "S49C",
       "canonical_block_label": "49C",
-      "canonical_prompt_sha256": "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c",
-      "normalized_prompt_sha256": "cb7410fa217d291d30f792ca251f3dedcc0c3e997b3e5e58c6b3e4d20e9cb696",
+      "canonical_prompt_sha256": "b6e6ba4ceef6f05dfb27c6c0868a1e1745413724b3d198acf2551f05ad7225eb",
+      "normalized_prompt_sha256": "de237d64873ef423b874e18c98aab51d9bd7ea7580fa1afd411e0d4726540bc6",
       "priority": 1.22,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -460,7 +464,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec"
+        "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
+        "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
@@ -495,15 +500,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 612
+      "priority_before_20261023_primary": 612,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S49D",
       "scene_id": 49,
       "prompt_id": "S49D",
       "canonical_block_label": "49D",
-      "canonical_prompt_sha256": "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34",
-      "normalized_prompt_sha256": "ce1cf54b4daea1ca1a77fecc61c46e7e3cf3292595e2a5b82d85250f96058c10",
+      "canonical_prompt_sha256": "40d101fb51e1e72bc7295e7b63ccf51672f9d8374fc68b413dd33db554f2efe1",
+      "normalized_prompt_sha256": "6e9d808b7e164c81b92f8cba3082e087baf8d860603fbc486c83af351e5f2db4",
       "priority": 1.23,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -552,7 +558,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d"
+        "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
+        "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
@@ -587,15 +594,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 613
+      "priority_before_20261023_primary": 613,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S49E",
       "scene_id": 49,
       "prompt_id": "S49E",
       "canonical_block_label": "49E",
-      "canonical_prompt_sha256": "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0",
-      "normalized_prompt_sha256": "403a10b1b3e1838ccde6af17e44cca332b9cd268f71d88bc35325d335bb060d1",
+      "canonical_prompt_sha256": "f2af0965a9e26c82c58d3deba9b5f3fb087e56bfa0e7c71e72e0899da60c1f0a",
+      "normalized_prompt_sha256": "1bf936fdb90ac5061936e4f3d3b7f9dc4d96e4250c86c79fc019d4a256b67c93",
       "priority": 1.24,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -644,7 +652,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd"
+        "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
+        "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
@@ -679,15 +688,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 614
+      "priority_before_20261023_primary": 614,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S49F",
       "scene_id": 49,
       "prompt_id": "S49F",
       "canonical_block_label": "49F",
-      "canonical_prompt_sha256": "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca",
-      "normalized_prompt_sha256": "883c1370ba51c225a7f0d86531b93a0e954568e08d8d35954e91274fd71d6373",
+      "canonical_prompt_sha256": "a6e99b637c780951b02c37b835f29da52e82788734078fce2785e19ba735fc46",
+      "normalized_prompt_sha256": "1fd4833511697ea10d42f09041acdcb55d92614e2169616d96652aab525b586c",
       "priority": 1.25,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -754,7 +764,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df"
+        "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
+        "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
@@ -789,15 +800,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 615
+      "priority_before_20261023_primary": 615,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S51A",
       "scene_id": 51,
       "prompt_id": "S51A",
       "canonical_block_label": "51A",
-      "canonical_prompt_sha256": "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070",
-      "normalized_prompt_sha256": "a78f505b54c837e8778164378d4929062a0066c982647ad77f9fdae45bb3124c",
+      "canonical_prompt_sha256": "dbcba8d77020836c536c19e6e5c1665633a2e5a57f75447e253350157a6ca110",
+      "normalized_prompt_sha256": "c8c003f71027fa616ebaac1af42408bb297cbbd00973fe4793a9d338f09d925f",
       "priority": 1.4,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -864,7 +876,8 @@
       "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
       "previous_prompt_sha256": [
         "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
-        "c5bf6d9c8fa066f6159f5e99a7d47d93a0ed2db69bd6aeb492e385c3cf8084f4"
+        "c5bf6d9c8fa066f6159f5e99a7d47d93a0ed2db69bd6aeb492e385c3cf8084f4",
+        "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
       "owner_review_required_after_item": null,
@@ -905,15 +918,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 618
+      "priority_before_20261023_primary": 618,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S51B",
       "scene_id": 51,
       "prompt_id": "S51B",
       "canonical_block_label": "51B",
-      "canonical_prompt_sha256": "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
-      "normalized_prompt_sha256": "d00c891b5cc39dbd3bf72aa24f8a61aeb3e31e90d9eb15af2f5b2cba85eb228d",
+      "canonical_prompt_sha256": "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
+      "normalized_prompt_sha256": "33e7c19e3382c1779ea2509bbf2b07c9597ef414c246e057061a57ca26fbb06f",
       "priority": 1.41,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -989,7 +1003,8 @@
       "claim": null,
       "previous_prompt_sha256": [
         "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
-        "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf"
+        "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf",
+        "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
       "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
@@ -1033,7 +1048,8 @@
         "state": "blocked_test_review"
       },
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 619
+      "priority_before_20261023_primary": 619,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S43-R1-20261017",
@@ -1482,8 +1498,8 @@
       "scene_id": 50,
       "prompt_id": "S50A",
       "canonical_block_label": "50A",
-      "canonical_prompt_sha256": "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
-      "normalized_prompt_sha256": "00290b1069a0d368fe95bb971c17a83a4d027f272d23c9e57bc1e81d9e44ecd7",
+      "canonical_prompt_sha256": "799f99805cfa40b3b11b76cee7c1d97cef09cb5772bbc056821aa65e411de8ae",
+      "normalized_prompt_sha256": "3913225837276f24b230a96dbff64a067fb42d0f91f9dcfd77ba852be338a74a",
       "priority": 1.3,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1536,7 +1552,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "7261abddf45cf89f920e0d4685d890349019fac59ba8f99c84c8674719e2929a"
+        "7261abddf45cf89f920e0d4685d890349019fac59ba8f99c84c8674719e2929a",
+        "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70).",
@@ -1571,15 +1588,16 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 616
+      "priority_before_20261023_primary": 616,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S50B",
       "scene_id": 50,
       "prompt_id": "S50B",
       "canonical_block_label": "50B",
-      "canonical_prompt_sha256": "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
-      "normalized_prompt_sha256": "f3d73adda08441afc120f031b1e525fe4e2b09c96c0487628a9287cb704af97a",
+      "canonical_prompt_sha256": "79b240f1f5d656af25a5b76d33d75f82d4a23323e72e55bccb139efa32ff0e17",
+      "normalized_prompt_sha256": "05d737ef7554d6ce3d0164b8177594975a792c5d13b7abb1a7a61c71e9faabf9",
       "priority": 1.31,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1632,7 +1650,8 @@
       "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
-        "841cf59d3a649c3519c542bb0b08974f1795a65fd2d938c60ddc9b5a8efea7fd"
+        "841cf59d3a649c3519c542bb0b08974f1795a65fd2d938c60ddc9b5a8efea7fd",
+        "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70).",
@@ -1668,7 +1687,8 @@
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
-      "priority_before_20261023_primary": 617
+      "priority_before_20261023_primary": 617,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S37-SEED20-P1",
@@ -5145,8 +5165,8 @@
       "scene_id": 28,
       "prompt_id": "A3",
       "canonical_block_label": "28 A3",
-      "canonical_prompt_sha256": "0a3bfbe2cc90e877c9c7a68d5220bc870cd082bc0522dcfe43ab2c1f45edc6ce",
-      "normalized_prompt_sha256": "cbe0afde2d8d2b67e4eb124d58507241d56191d5169e854335e96a95a8563d08",
+      "canonical_prompt_sha256": "c1995971f3c018e4af1cd4a5b3d47caca6d710972a8f0216e47e774108262029",
+      "normalized_prompt_sha256": "ed30e7dd3478a82decfac4b2dfc27f51f4ea954072070e800bf9ac1bf3c09cf0",
       "priority": 2.03,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -5204,15 +5224,19 @@
       "launch_readiness": "blocked_inputs",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "0a3bfbe2cc90e877c9c7a68d5220bc870cd082bc0522dcfe43ab2c1f45edc6ce"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A4-20261023",
       "scene_id": 28,
       "prompt_id": "A4",
       "canonical_block_label": "28 A4",
-      "canonical_prompt_sha256": "59a3173102b1f175977f23e68d85ae78918861af19fca243ec372517c903a6f9",
-      "normalized_prompt_sha256": "049c875aa140294a4688f60b71f8a85c369c6b2f1ece6f2c25c2547e19ad6829",
+      "canonical_prompt_sha256": "daef3177300a02d2d5fdc4236cdede179326c40e298811c70c8501bd4861ec3b",
+      "normalized_prompt_sha256": "56e47304ec94935658835291c86d471607a8565e6420768625afe99da67bc09b",
       "priority": 2.04,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5260,15 +5284,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "59a3173102b1f175977f23e68d85ae78918861af19fca243ec372517c903a6f9"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A5-20261023",
       "scene_id": 28,
       "prompt_id": "A5",
       "canonical_block_label": "28 A5",
-      "canonical_prompt_sha256": "b07695b0f8895ac1046929263efb2cf27d16499542bd23eaa19110edd4f19a65",
-      "normalized_prompt_sha256": "23968b7f8f02216eebf4fd73b452cd1ea380ee384dd986654738f47d2e987d60",
+      "canonical_prompt_sha256": "e916c743dc93fb8711c0e53b866351fdb54ff3c67ec6031dec36d54f89d1a48c",
+      "normalized_prompt_sha256": "e7957dbc4b8a5cad6cff4545e2640d7d56fc51094dec712fd0b028599673a094",
       "priority": 2.05,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5316,15 +5344,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "b07695b0f8895ac1046929263efb2cf27d16499542bd23eaa19110edd4f19a65"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A6-20261023",
       "scene_id": 28,
       "prompt_id": "A6",
       "canonical_block_label": "28 A6",
-      "canonical_prompt_sha256": "c1f2d7ad68c35f09f09a6c32463920971ff1b220ff4edc34a3847126fa452067",
-      "normalized_prompt_sha256": "1c16e00128b6056ff227a1d96ebf2d5845ac495c3d97795e2d129af87534d9cc",
+      "canonical_prompt_sha256": "fd55e69175b5c3a2f58dddf933a064e8a89b59f8a4b5c569690a0c311f5122e3",
+      "normalized_prompt_sha256": "f0d3a579836d34dafe312196f89cc440488936fc093fa29890f7055929620fd0",
       "priority": 2.06,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5380,15 +5412,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "c1f2d7ad68c35f09f09a6c32463920971ff1b220ff4edc34a3847126fa452067"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A7-20261023",
       "scene_id": 28,
       "prompt_id": "A7",
       "canonical_block_label": "28 A7",
-      "canonical_prompt_sha256": "7aa2598060614992f4fe9ab1e6b312d1f9de3f41012fa4b2233a84badd75a271",
-      "normalized_prompt_sha256": "429bd0bca0433837bb6c2f1ce301eae3ad68350c9b4227e86e2b022feb4b6b06",
+      "canonical_prompt_sha256": "6378e7df098a2eeebfa94aa44efc58142db12441d1d92c75fb843c295d40ec05",
+      "normalized_prompt_sha256": "f82c805ff717df64f4fa0023d807f20563ba5a787fade2477dd306062334d0b5",
       "priority": 2.07,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5444,15 +5480,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "7aa2598060614992f4fe9ab1e6b312d1f9de3f41012fa4b2233a84badd75a271"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A8-20261023",
       "scene_id": 28,
       "prompt_id": "A8",
       "canonical_block_label": "28 A8",
-      "canonical_prompt_sha256": "1e2860fac56f47b8c5ba0d44ff57785862de7f335316659a79cc93ff2f704e20",
-      "normalized_prompt_sha256": "a6d21f8dff84e95b4b76bf6f740dd4113fad2825b0a997b811fd1cae290bd4eb",
+      "canonical_prompt_sha256": "f90af37b3c76e644cbcb229e22cee44e3dae2d66117569ea3b34f2a35eb6115f",
+      "normalized_prompt_sha256": "774e2e6d50442fe23c3793d5ff9480a09867933847b0e91e51fb256f305cf0b9",
       "priority": 2.08,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5508,15 +5548,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "1e2860fac56f47b8c5ba0d44ff57785862de7f335316659a79cc93ff2f704e20"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A9-20261023",
       "scene_id": 28,
       "prompt_id": "A9",
       "canonical_block_label": "28 A9",
-      "canonical_prompt_sha256": "43b12c821fd71780e03bf8b5b6953ce075a58e7bb362729e7376888f61902b07",
-      "normalized_prompt_sha256": "370f1172ee26db465ab3c419b06420331ad9f84e860a21b4ef7767982c68cc43",
+      "canonical_prompt_sha256": "a1a3c7517af29fcf7f230e448e1035c35a9540c5c2c060f79e69e5fcda9041e7",
+      "normalized_prompt_sha256": "28a46edb6101074b4b53fc8d88efcbcdb612f9a3746bfbda7a21112783fd3879",
       "priority": 2.09,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5572,15 +5616,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "43b12c821fd71780e03bf8b5b6953ce075a58e7bb362729e7376888f61902b07"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A10-20261023",
       "scene_id": 28,
       "prompt_id": "A10",
       "canonical_block_label": "28 A10",
-      "canonical_prompt_sha256": "2080653ecb276bc28913a58705149d02f9c14c10d631a70450467fb592721657",
-      "normalized_prompt_sha256": "c47dc07ecebb2ac6473307dd83fdfab38c98a2a1f0901832b898f517cdf46718",
+      "canonical_prompt_sha256": "25cf257621c6edf5404e0e076aa04aaaba95418e209daf75057f03866fa86e6a",
+      "normalized_prompt_sha256": "5ebc25e577f492bccd1d1b3e619479dec44771688afd159dd58387ef453b1c28",
       "priority": 2.1,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5612,15 +5660,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "2080653ecb276bc28913a58705149d02f9c14c10d631a70450467fb592721657"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A11-20261023",
       "scene_id": 28,
       "prompt_id": "A11",
       "canonical_block_label": "28 A11",
-      "canonical_prompt_sha256": "c8de91dcecde79ce0226e60fba70966e357910fcc3f5bbb8bd83db6f037ea626",
-      "normalized_prompt_sha256": "3c2e5360b093cdbadd3395a412be203dfd7385ad27234097b8f8df2a52f312ec",
+      "canonical_prompt_sha256": "06097b50e8c62f3e7218a790edd829eb51ee0acc6212c7a6c21808a77f1ab2c0",
+      "normalized_prompt_sha256": "acb4abe9b166539428320d11216cdf161f29461a8cb8c4723864237a272cac3b",
       "priority": 2.11,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5668,15 +5720,19 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "c8de91dcecde79ce0226e60fba70966e357910fcc3f5bbb8bd83db6f037ea626"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A12-20261023",
       "scene_id": 28,
       "prompt_id": "A12",
       "canonical_block_label": "28 A12",
-      "canonical_prompt_sha256": "92a522646faf6e8d5e386706626899bae5c038c407a9c3776ac905e5f38817a4",
-      "normalized_prompt_sha256": "c38739532c46a1b73fd8feac7fa910f4a2369da9bd4e4c343bea1b7bb72be47a",
+      "canonical_prompt_sha256": "204076574666f7a095cb7ddc21347e83c215f8b41d8958da147f3bc846163379",
+      "normalized_prompt_sha256": "96f4a2a73522c3848243378dd0169951f03f079e46091ff7a80da23e93c4fb67",
       "priority": 2.12,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -5734,7 +5790,11 @@
       "launch_readiness": "blocked_inputs",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "editorial_completion": false
+      "editorial_completion": false,
+      "previous_prompt_sha256": [
+        "92a522646faf6e8d5e386706626899bae5c038c407a9c3776ac905e5f38817a4"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S59-SEED20-P2",
@@ -6530,8 +6590,8 @@
       "scene_id": 28,
       "prompt_id": "A1",
       "canonical_block_label": "28 A1",
-      "canonical_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
-      "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
+      "canonical_prompt_sha256": "0da433bbc5b5d32352f0e88fe119bff0b4acaaa003fbebdc1e609079d9f5d67b",
+      "normalized_prompt_sha256": "53baa8b6e74719d69102846994e48de9e6f7f5bd6a11a84537450fc2fa762524",
       "priority": 2.01,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -6570,7 +6630,8 @@
       "max_credits": 0,
       "review_gate_after_success": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
       "previous_prompt_sha256": [
-        "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20"
+        "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
+        "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "depends_on_completed": [
@@ -6650,15 +6711,16 @@
       "rerender_authorized": true,
       "rerender_authorized_at": "2026-10-25T09:29:18.695660Z",
       "rerender_reason": "Owner25Oct: старые варианты были неудачные, их не учитывать отработанными",
-      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item."
+      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item.",
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
       "id": "S28-A2-R2-20261025",
       "scene_id": 28,
       "prompt_id": "A2",
       "canonical_block_label": "28 A2",
-      "canonical_prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
-      "normalized_prompt_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+      "canonical_prompt_sha256": "ccb820faa2125c4b4060004847135a3eabbdbbc66967c84bff930d48b217eb3e",
+      "normalized_prompt_sha256": "e170b9e16134a20c3194cf6a2d7535a1b02a2da4f2396b97235fcce4d442add8",
       "priority": 2.02,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -6722,7 +6784,11 @@
       "rerender_authorized": true,
       "rerender_authorized_at": "2026-10-25T09:29:18.695660Z",
       "rerender_reason": "Owner25Oct: старые варианты были неудачные, их не учитывать отработанными",
-      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item."
+      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item.",
+      "previous_prompt_sha256": [
+        "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce"
+      ],
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     }
   ],
   "already_submitted": {
@@ -7962,5 +8028,34 @@
     "decision": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
     "old_dance_results_count_as_completed": false,
     "parallel_duplicate_policy": "Active old A1/A2 remain physical tasks; their separately authorized rerenders wait terminal+QC; do not cancel, fabricate completion, or submit simultaneously."
+  },
+  "prompt_revision_20261025": {
+    "report": "reports/prompt-refresh-2026-10-25.md",
+    "updated_items": [
+      "S49A",
+      "S49B",
+      "S49C",
+      "S49D",
+      "S49E",
+      "S49F",
+      "S51A",
+      "S51B",
+      "S50A",
+      "S50B",
+      "S28-A3-20261023",
+      "S28-A4-20261023",
+      "S28-A5-20261023",
+      "S28-A6-20261023",
+      "S28-A7-20261023",
+      "S28-A8-20261023",
+      "S28-A9-20261023",
+      "S28-A10-20261023",
+      "S28-A11-20261023",
+      "S28-A12-20261023",
+      "S28-A1-R2-20261025",
+      "S28-A2-R2-20261025"
+    ],
+    "new_submissions": 0,
+    "existing_submitted_items_unchanged": true
   }
 }

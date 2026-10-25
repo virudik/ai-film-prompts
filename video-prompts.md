@@ -709,7 +709,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
-**Редакция активности · 20.10.2026, 00:55 МСК:** по прямой команде владельца все текущие промпты этой сцены переработаны на активное исполнение с первого кадра, непрерывные связки и короткий финальный акцент. В30с версиях сохранена плотность движения, без растягивания нескольких жестов на весь клип. Это новая редакция для будущих генераций; уже отправленные задачи используют прежний текст, дословно сохранённый в git и receipts. Основной движок — Seedance2.0, альтернативная вкладка30с не является разрешением на запуск. Порядок и разрешение на новые попытки обновлены решением владельца25.10 ниже. Текстовая готовность не доказывает качество видео. Разбор и проверки: [активность28/49–51](reports/dance-music-energy-2026-10-20.md).
+**Редакция исполнения · 25.10.2026:** по команде владельца после аудита танцев сокращены повторы и пошаговая хореография; свободное исполнение сочетается с точными гэгами, хватом, опорами и реальными стыками. Обновлены все варианты этой сцены. Это промты будущих разрешённых запусков: уже отправленные задачи используют прежний текст, дословно в git/receipts; их результат оценивается по нему. Качество новой редакции предстоит проверить по роликам. Стандарт — [§5А](PROMPT-STYLE-GUIDE.md); [отчёт о правке](reports/prompt-refresh-2026-10-25.md).
 
 **Действующее решение владельца ·25.10.2026:** сначала сюжетная очередь и новый храм63, затем49 →50 →51, после них весь выбранный танцевальный комплект A1–A12 на Seedance2.0. Старые неудачные результаты не засчитывать как выполненную работу. A1/A2 уже находятся в активной генерации; не отменять и не дублировать их параллельно. Повторные попытки A1/A2 отдельно стоят после музыки и ждут завершения прежней попытки/проверки, затем выполняются по явному разрешению владельца. Технический success не означает приёмку. Прежний лимит «один тест, затем разрешение владельца» снят этой командой; проверка качества каждого результата и реальные входы A3/A12 обязательны. Wan B1–B11 — альтернативный комплект тех же номеров, не дополнительные танцы и не разрешение удваивать генерации.
 
@@ -739,7 +739,7 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 
 **Контекст использования:** отдельная внесюжетная кода ПОСЛЕ сюжетного финала, под финальные титры. Девять людей/гуманоидов, Алеся и два кота из вкладки «Персонажи» исполняют нелепую хореографию с абсолютно серьёзными лицами. Отсылка к заставкам «Миротворца» — серьёзная подача нелепой хореографии. По запросу пользователя добавлены мотивы второй заставки: повторные движения руками у лица, кружение на руках и перенос на плече; здесь они поставлены для наших персонажей и ангара. Центральная пара — Серёга и Юля. Сцена не меняет сюжетный финал, Warcraft или историю карты.
 
-**Редакция 08.10.2026:** по запросу пользователя подготовлены ДВЕ законченные версии одного номера: **Seedance 2.0 — 10×15 с** и **Wan 3.0 — 10×30 с**, всего 20 автономных промтов. Старый вариант Seedance 2.5 заменён этими версиями. Каждый блок содержит собственные референсы, внешность, действие, свет, начало/конец и ограничения. Это альтернативы: не требуется генерировать оба комплекта.
+**Редакция 08.10.2026:** по запросу пользователя подготовлены ДВЕ законченные версии одного номера: **Seedance 2.0 — исходные 10×15 с** и **Wan 3.0 — исходные 10×30 с**; после добавления дуэта20.10 текущий состав — A1–A12 и B1–B11, 23 автономных промта. Старый вариант Seedance 2.5 заменён этими версиями. Каждый блок содержит собственные референсы, внешность, действие, свет, начало/конец и ограничения. Это альтернативы: не требуется генерировать оба комплекта.
 
 **Правка 16.10.2026:** из A8–A10 и B8–B10 убраны операторские и монтажные пометки («use only after…», «editorial cut / freeze»); их заменили нейтральным описанием начала и конца клипа. Механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
 
@@ -876,51 +876,34 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is H28B: exact hangar geometry and already active disco lighting ONLY, not its distant empty-room framing. @Image2 is absolute SEREGA face/body/costume identity; @Image3 is absolute YULIA face/body/costume identity. Individual sheets override all location details for appearance. Exactly two adults, one person per sheet. No other cast.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B architecture and established disco light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Exactly two adults; each multi-view sheet is one person. Individual sheets control appearance, not the room image.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA is the pale older Chancellor with a balding crown, sparse light hair and a long deep-purple robe. YULIA has the exact referenced face, long chestnut hair, dark black-grey armor, shoulder pieces, gloves and a long black cloak. Preserve both faces and builds; no beautification or costume redesign. Hands stay empty; no lightsabers.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Serega frame-left and Yulia frame-right, about1.4metres apart, facing camera and ready to step. H28B lights already ON. The first foot push and torso accent happen immediately; no lighting or hangar establishing shot.
 
-TIMELINE:
-[0:00–0:03] — DRIVE IN
-Immediately take two broad side steps out and back with springy knee bends; counter-swing the forearms below the face. Serega left and Yulia right mirror each other, actually shifting their full weight.
-
-[0:03–0:07] — KICK AND ANSWER
-Each alternates two low forward kick-steps with a grounded heel-toe rebound. One leads a bold shoulder sweep and the other answers on the next beat. Robes swing clear of planted feet; no high kicks into a partner.
-
-[0:07–0:11] — TURN AND RECONNECT
-Execute a brisk outward quarter-turn on two steps and return toward one another through a short heel-toe shuffle. Add one chest accent on landing; immediately flow into the approach.
-
-[0:11–0:14.5] — CLOSE THE PHRASE
-Take two emphatic inward steps with rolling shoulder accents, turn face-to-face and arrive about 60 cm apart. Let both arms finish their arcs and drop to the sides as the last step lands.
-
-[0:14.5–0:15] — HANDOFF
-Only the last half-second resolves into the hands-down face-to-face position. Keep natural breath and cloth settling.
+STORY FLOW:
+Serega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Toward the end they dance inward and turn face-to-face, finishing about 60 cm apart with both hands down. Reach that handoff only on the last beat.
 
 END STATE:
 Serega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis. H28B disco lighting is established and steady at the last frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Extra dancers, duplicated sheet views, swapped identities, reversed screen positions, face drift, new hairstyle, wardrobe change, extra arms or fingers, skating without weight transfer, tangled cloak, weapons, heavy floor mirror images, moving architecture, abrupt light flashes, exaggerated facial comedy, singing, subtitles, credits, logos, watermark, camera shake or cuts. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -935,51 +918,34 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the supplied H28B hangar location/H28B light design only. @Image2 is the absolute SEREGA face/body/costume reference. @Image3 is the absolute YULIA face/body/costume reference. @Image4 controls this two-person pose, camera angle and framing only. Identity sheets override the pair composition for individual appearance. Exactly two people; each multi-view sheet represents one person.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: P28 face-to-face pose, axis and framing only; individual sheets override its faces. Exactly two adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: exact pale older face, balding crown with sparse light hair, long deep-purple Chancellor robe. YULIA: exact face and build, long chestnut hair, black-grey armor and shoulder pieces, gloves, long black cloak. Do not restyle either person or obscure their eyes. Each person's right hand has five stable fingers; Yulia keeps her approved glove. Never merge a glove or fingers into skin.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons. Keep Yulia's gloves and separate natural fingers clear during the cheek gesture.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Medium waist-up two-shot, Serega left facing right, Yulia right facing left, about 60 cm face separation. Both right hands begin down. Preserve the P28 pose/axis but give the performers energetic intent.
 
-TIMELINE:
-[0:00–0:03] — SHARED GROOVE
-Facing each other at the original 60 cm gap, begin two alternating knee bends with an outward shoulder sweep. Both right hands stay clear until the first face pass.
-
-[0:03–0:07] — FIRST EXCHANGE
-Serega makes one decisive outside-cheek pass with the backs of softly grouped right fingers, then fully withdraws; Yulia answers only after his hand clears. The waiting partner keeps a gentle heel pulse and attentive head inclination. Never hide eyes, nose or mouth.
-
-[0:07–0:11] — BODY ANSWER
-With hands below chins, perform a shared chest accent, two quick in-place heel-toe changes and opposing shoulder rolls. Finish facing each other on the same marks without closing the gap.
-
-[0:11–0:14.5] — SECOND EXCHANGE
-Repeat one outside-cheek pass each, Serega then Yulia, maintaining the lower-body pulse. Exactly four passes total, soft contact without rubbing or slapping. Both hands withdraw fully on the final step.
-
-[0:14.5–0:15] — CLEAR HANDOFF
-Finish face-to-face, hands down and separated from both faces, for the last half-second only.
+STORY FLOW:
+Keep a lively shared groove while facing one another. Serega passes the backs of his softly grouped right fingers along the OUTSIDE of Yulia's cheek, withdraws completely, then she answers with the same right-hand gesture. A playful full-body response separates this exchange from its repeat: two exchanges, four cheek passes total. Let the footwork, shoulders and timing flow naturally between passes. Touch is light, never a slap; hands stay outside the eyes, nose and mouth. Finish at the original gap with both hands fully down.
 
 END STATE:
 The same two people face one another at the original60cm gap, both hands fully lowered and clear of either face. Resolve on the last half-second only, with breath and cloth still moving. H28B lighting and axis unchanged.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous medium two-shot on the established axis, faces and both right-hand paths fully visible. Frame to include torso and knee rhythm; use a small smooth lateral drift, never move between the partners or crop the face gesture.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Hand covering eyes, grabbing face, palm wipe across nose, cheek stretching, melted fingers, fingers fused to skin, extra hand, left-hand substitutions, simultaneous face-touching, a fifth pass, changing face, changed hair, incorrect costume, kiss, embrace, sliding separation, extra person, weapons, shake, cuts, subtitles, text, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -994,51 +960,34 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 defines the supplied H28B hangar architecture, floor and light. @Image2 is the exact SEREGA identity/costume sheet. @Image3 is the exact YULIA identity/costume sheet. @Image4 defines only the face-to-face orientation and the arms-down pose AFTER the cheek gesture; it does not set this wider framing. Preserve the individual identities above all other image information. Exactly two people.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: genuine C28 frame from the preceding cheek-gesture result, fixing hands-down pose and left/right orientation only; use the wider camera below. Individual sheets control appearance. Exactly two adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: pale older Chancellor, balding crown, sparse light hair, long deep-purple robe and the exact referenced face/build. YULIA: exact face/build, long chestnut hair, black-grey armor with shoulder pieces and gloves, long black cloak. Empty hands, unchanged clothing; both feet remain grounded and anatomically correct.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Start from the genuine C28 orientation only: Serega left facing right, Yulia right facing left, hands already down and faces about 60 cm apart. C28 does not prescribe distant framing or identity.
 
-TIMELINE:
-[0:00–0:03] — SEPARATE WITH WEIGHT
-From the real hands-down facing pose, immediately take two backward heel-toe steps, chest angled toward the partner. Each planted foot visibly pushes the body away.
-
-[0:03–0:07] — TRAVELLING ANSWER
-Continue two more quick retreating steps each until their total separation reaches about two metres. Open the inside arm toward the partner, then sweep it low while turning the shoulders outward; do not glide.
-
-[0:07–0:11] — REBOUND IN PLACE
-At the new marks, two rhythmic side lunges alternate with a quarter-turn toward the partner and back. Arms counterbalance the torso; retain left/right lanes and the two-metre spacing.
-
-[0:11–0:14.5] — FRONT ACCENT
-Pivot toward camera through two weighted steps, rebound through the knees and strike one low outward arm accent. Keep the phrase moving until the final foot lands.
-
-[0:14.5–0:15] — GRAPHIC END
-Resolve into the original front-facing low-arm pose for only the final half-second.
+STORY FLOW:
+From the genuine hands-down C28 pose, dance backwards away from one another with springy, weighted footwork until the gap is about two metres. Their inside arms reach toward each other across the empty space, then open into a mock-grand dance exchange. Let lively steps, torso turns and broad low gestures flow naturally in the two separate lanes. In the closing phrase both turn toward camera and land the low angular arm pose for a graphic match-cut.
 
 END STATE:
 Serega left, Yulia right, about two metres apart, facing the camera in the same low angular arm pose. This pose supplies the graphic match-cut to the next dancing pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Hands touching face, attached hands during separation, stretched arms, pulled skin, reversed directions, crossing positions, sliding into each other, floating, ice-skating blades, wheels, conveyor belts, teleportation, foot distortion, identity swap, duplicate bodies, heavy mirrored doubles, weapons, slapstick faces, cuts, generated credits, text, logos or watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1053,51 +1002,34 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the supplied empty hangar environment, framing family and the H28B lighting design only. @Image2 is the exact PASHA identity/costume sheet. @Image3 is the exact SASHA identity/costume sheet. Each sheet supplies one person, not a cast of its multiple views. Individual sheets control faces and clothes above all environment information. Exactly two Jedi, empty hands and no lightsabers.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: PASHA exact identity/costume. @Image3: SASHA exact identity/costume. Individual sheets outrank environment details; each sheet is one person. Exactly these two Jedi, empty hands, no lightsabers.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 PASHA has the exact referenced clean-shaven face and build, dark navy Jedi tunic, brown belt, dark trousers and tall boots. SASHA has the exact referenced bearded face, round glasses, cream inner tunic and dark burgundy-brown outer robe. Keep Sasha's glasses stable and present. Do not transfer beard, glasses, hair or costume between them.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Pasha left and Sasha right, front-facing, hands in a low angular pose, individual lanes separated by visible air.
 
-TIMELINE:
-[0:00–0:03] — MIRRORED SIDE DRIVE
-Pasha left and Sasha right immediately perform wide side-close-side steps in their separate lanes, knees bending deeply enough to show full weight transfer. Their arms sweep low in opposite directions.
-
-[0:03–0:07] — CALL AND RESPONSE
-Pasha delivers two low kick-steps and a torso lean; Sasha answers with the same phrase one beat later while Pasha keeps a heel-toe groove. Keep glasses steady and both faces readable.
-
-[0:07–0:11] — TURNING DUEL
-They quarter-turn toward one another on planted steps, briefly lean away in mock-serious rivalry, then rebound to face camera with a broad shoulder sweep. No crossing lanes or touching.
-
-[0:11–0:14.5] — RETURN DRIVE
-Two quick diagonal steps out and back return both to the initial marks; finish with a shared knee rebound and low forearm strike, not marching in place.
-
-[0:14.5–0:15] — END BEAT
-The initial low-arm pose appears only during the last half-second.
+STORY FLOW:
+Pasha and Sasha throw themselves into a gloriously overconfident dance duel, faces as solemn as an official ceremony. They trade broad angular phrases, lively travelling footwork and playful body answers, alternately leading and echoing one another. Let the choreography develop naturally; keep Pasha left, Sasha right, visible air between them and glasses stable. End back at their original marks, front-facing in the low angular arm pose, only on the last beat.
 
 END STATE:
 Pasha remains left and Sasha right on their initial marks, facing camera in the angular low-arm pose, ready for a graphic match-cut to another pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Four Jedi, background dancers, duplicated people, identity blending, missing glasses, glasses deformation, beard transfer, navy/burgundy clothing swap, extra fingers, arms through robes, acrobatics, weapons, smiling, mugging, glossy game render, changing hangar geometry, abrupt unplanned light changes, strong mirrored doubles, camera shake, edits, text, credits, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1112,51 +1044,34 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 defines only the supplied H28B hangar architecture, floor markings, lighting and background. @Image2 is the exact ARTEM identity/costume model sheet. @Image3 is the exact ILYUSHA identity/costume model sheet. Individual sheets override all other appearance information. Each multi-view sheet describes one person. Exactly these two performers, no other people or animals.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: ARTEM exact identity/costume. @Image3: ILYUSHA exact identity/costume. Individual sheets outrank environment details; each sheet is one person. Exactly these two performers, no other cast.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 ARTEM has the exact referenced heavier build, short beard, cream-beige tunic, brown outer robe, broad belt and brown boots. ILYUSHA has the exact referenced face, moustache, chestnut hair, olive-green tunic, deep-red hooded cloak and brown boots. Preserve the sheet's hood placement and face visibility. Do not swap beard, moustache, colors or builds. Hands empty, no sabers.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Artem left and Ilyusha right, front-facing on separate marks, elbows low and ready for the first sharp beat.
 
-TIMELINE:
-[0:00–0:03] — DIAGONAL SHUFFLE
-Artem left and Ilyusha right immediately drive two diagonal shuffle steps forward within separate lanes, with low arm sweeps and visibly weighted robe motion.
-
-[0:03–0:07] — OPPOSING TORSO GROOVE
-Artem leans left while Ilyusha leans right, then reverse through a deep knee rebound. Add alternating low kick-steps; each step lands before the next direction change.
-
-[0:07–0:11] — TURN AND TRAVEL BACK
-Each makes one brisk outward quarter-turn, then takes two backward shuffles to the original mark and faces front again. Arms counterbalance naturally; heads return to clear three-quarter/front views.
-
-[0:11–0:14.5] — COMIC UNISON
-Two broad elbow-open shoulder rolls flow into a shared torso dip and springy return. Make the full-body phrase conspicuously committed, with solemn faces.
-
-[0:14.5–0:15] — END BEAT
-Land in the original front-facing low-hand stance for the final half-second.
+STORY FLOW:
+Artem and Ilyusha dance with exuberant whole-body commitment and completely straight faces. Artem's weighty swagger meets Ilyusha's quicker, springier answer; they catch each other's rhythm and briefly fall into absurdly grand unison. Allow natural steps, turns and arm phrases instead of a repeated mechanical loop. Keep their separate left/right lanes and real foot contact. Return to the original front-facing, low-arm marks on the closing beat.
 
 END STATE:
 Both stand at their original marks, arms low, looking directly at camera. Their posture reads as a solemn ceremonial punctuation to the same dance motif. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Extra performers, identity change, beard/moustache swapping, red cloak on Artem, brown robe replacing Ilyusha's cloak, giant shoulders, human duplication from sheets, tangled limbs, fused hands, cloak morphing, acrobatics, weapons, facial mugging, changing location, moving shuttle, mirrored doubles, cartoon motion, unstable camera, cuts, titles, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1171,52 +1086,35 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the supplied H28B hangar architecture/H28B light design only. @Image2 is the absolute MASHA-LAGUNA identity/design sheet. @Image3 is the absolute LESHA identity/costume sheet. @Image4 is the absolute VITALIK identity/costume sheet. Preserve these three separate identities; multiple sheet views never create extra performers. Exactly three characters.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: MASHA-LAGUNA exact identity/design. @Image3: LESHA exact identity/costume. @Image4: VITALIK exact identity/costume. Each sheet supplies one distinct performer and controls that person above the room image. Exactly three characters.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MASHA-LAGUNA is the tall slender adult aquatic-blue woman with the exact human face, long light-blue tentacle-like head strands and black ornamental crown, neck collar and upper-back structure. Her exact floor-length light-blue costume has an OPAQUE, continuous smooth torso covering the entire chest and abdomen. The torso is costume material, not bare skin: no nipples, areolae, navel, anatomical breast-tip relief, cutouts or transparency. Preserve the reference silhouette without adding new clothing panels or changing the long hem.
 LESHA is the exact slimmer moustached man in a purple inner tunic, long grey hooded robe, brown belt and light boots. VITALIK is the exact heavier-built man in a black tunic, dark leather/armor panels, brown trousers and tall boots. Do not blend their faces, builds or costumes. All hands are empty.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Masha centre, Lesha left, Vitalik right, a compact staggered trio with three unobstructed faces. No cast beyond these three.
 
-TIMELINE:
-[0:00–0:03] — RIPPLE START
-Masha centre starts a sweeping forearm-and-shoulder phrase with short firm steps under her intact costume; Lesha left and Vitalik right answer one beat later with wider side steps.
-
-[0:03–0:07] — SIDE-TO-SIDE GROOVE
-The trio travels one short step sideways and returns, then reverses. Masha uses shoulder turns and torso sway within her closed hem; the men add low kick-steps without entering her space.
-
-[0:07–0:11] — CONTRASTING ANSWERS
-Masha sends a strong arm sweep left then right; each man answers with a quarter-turn and grounded rebound while the others keep the pulse. Maintain three separate silhouettes.
-
-[0:11–0:14.5] — UNISON RETURN
-All face front and perform two emphatic knee-and-shoulder accents with low opening arms. Return to their original staggered marks through actual steps.
-
-[0:14.5–0:15] — END BEAT
-Masha centre, Lesha left, Vitalik right, arms low only on the final half-second.
+STORY FLOW:
+Masha leads an expansive, absurdly majestic dance phrase; Lesha and Vitalik answer on either side, passing the energy through the trio. Let their shoulders, arms and footwork develop into a lively shared groove with serious faces. Masha's stride stays inside her intact closed hem; her upper body and head strands carry the larger expression. The men move freely in their own lanes, without crossing her silhouette. Return to the same staggered trio, facing camera with low arms on the last beat.
 
 END STATE:
 Masha centre, Lesha left, Vitalik right, all facing camera, arms held low and faces clear. No new entrants. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Nipples, areolae, navel, bare chest, bare abdomen, see-through costume, anatomical torso embossing, shortened dress, slit, mermaid tail, new tentacles, ordinary hair on Masha, identity blending, duplicated people, transferred robes, extra limbs, hands through costume, dancing crowd, weapons, sexualized dance, smiling, lip movement, changing hangar, cuts, captions, credits, logo, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1231,51 +1129,34 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 defines the supplied H28B hangar geometry, light and floor only. @Image2 defines the exact LUCHIK feline identity; @Image3 defines the exact RYZHIK feline identity. Individual cat sheets outrank the location for face, fur, size and anatomy. @Image4 is the absolute ALESYA identity: the small brown-furred Ewok-like adult woman with her exact human face, brown hood, round ears and compact furry body. Exactly THREE subjects: Alesya plus two ordinary domestic cats. No extra people or animals. Do not turn cats into Ewoks or Alesya into a cat.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: LUCHIK exact feline identity. @Image3: RYZHIK exact feline identity. @Image4: ALESYA exact adult face, brown hood and small furry body. Individual references control appearance above the location. Exactly Alesya and two ordinary domestic cats; never mix their species.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. Alesya is about one metre tall; the cats remain normal house cats well below her waist. Preserve her adult face from Image4, hood and short furry limbs. Alesya has no spear or other weapon. No lightsabers in this dance.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Alesya centre, Luchik left, Ryzhik right, all three fully visible from a low close camera. Cats ordinary house-cat scale; Alesya about one metre tall with her exact adult face.
 
-TIMELINE:
-[0:00–0:03] — CONDUCT AND TROT
-Alesya immediately makes two broad conducting strokes with side steps. Both cats take brisk natural steps toward their closer marks on all fours, ears alert and tails balancing.
-
-[0:03–0:07] — FELINE ANSWER
-Luchik makes one short sideways pounce, lands on four paws and turns toward Ryzhik; Ryzhik answers with one short pounce in his own lane. Alesya continues conducting with grounded knee bounces.
-
-[0:07–0:11] — ARC AND RETURN
-Each cat trots a short separate arc back toward its mark. Alesya rotates her shoulders left and right, answering their motion with low sweeping forearms. No human knee drives or upright dancing for cats.
-
-[0:11–0:14.5] — LAST RUN OF ACCENTS
-The cats take two brisk approach steps, turn their heads toward camera and plant their paws. Alesya finishes a broad conducting flourish with two weighted steps back to centre.
-
-[0:14.5–0:15] — END BEAT
-Alesya lowers her arms; Luchik left and Ryzhik right remain natural quadrupeds. Resolve only on the last half-second.
+STORY FLOW:
+Alesya conducts with tremendous solemn authority, dancing enthusiastically as the two cats playfully respond around her. Let the cats trot, turn and make short natural pounces in their own floor lanes; tails balance them and every landing is feline. Alesya follows their antics with expressive conducting gestures and buoyant steps. Keep the interplay alive without human choreography for the cats. Finish with Alesya centre, arms low, Luchik left and Ryzhik right naturally on all fours, looking toward camera.
 
 END STATE:
 Alesya remains centre with her original adult face and low arms. Both cats stand naturally on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-Low close three-subject composition at cat-eye height, enough vertical space for Alesya. Natural 50mm perspective, one small smooth tracking move follows the short pounces; retain all three faces and whole natural cat bodies. Hangar architecture is secondary, no distant wide shot.
+One continuous low full-body three-subject view. Keep Alesya and both entire cats close and readable, including paws and floor contact. Smooth small lateral tracking; preserve their left/centre/right lanes and real relative scale.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze. Cats perform only the specified natural feline movements; their energy never requires human dance anatomy.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Giant or waist-high cats, human limbs on cats, human hands on cats, bipedal cats, cat-headed people, costumes on cats, Alesya face drift, changed hood, giant Ewok, extra Ewoks, spear, extra cats, merged fur patterns, grey/ginger swapping, duplicate paws, extra tails, elastic bodies, levitation, lip-sync speech, saber props, humans in background, moving architecture, rapid strobing, mirror doubles, cartoon fur, shaky camera, cuts, text, credits, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Human hands or upright dancing on cats, giant cats, child face or adult-human scale for Alesya.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1290,58 +1171,38 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
-@Image2 = absolute SEREGA identity/costume sheet.
-@Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked L28 two-person supported-pose reference: exact opening body arrangement, support points ONLY; use the closer camera specified below. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: checked L28 opening cradle pose and support points only, not identity or distant framing. The individual sheets override the helper. Exactly two full-size adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
+
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
 Keep the initial two support points fixed through every step. Supporting arms stay visibly outside bodies, no floating partner, fused limbs, grip swap, jump, throw or transition into a different carry. Cloth follows real inertia and remains clear of feet. This is energetic planted movement, not an acrobatic lift.
-
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain tall graphite ribs, white wall strips, satin dark floor, flush Imperial medallion, two amber guide lines and cyan/magenta floor borders. The rear opening, stationary planet and deep frame-right parked shuttle retain the reference geometry. Colored floor accents and overhead beams remain STEADY throughout this interaction; constant soft neutral-white face light, natural exposure, no strobe or colored face flicker. Reflections are faint, never a second pair. No other cast, crowds, machinery, platforms or new furniture. The performance is utterly serious, like a state ceremony.
 
 START STATE:
 SEREGA already holds YULIA in a stable two-arm cradle across the front of his torso: his left forearm supports her upper back and his right forearm supports her thighs above the knees. Her head is toward his left shoulder; her bent legs extend to his right. She keeps her torso compact, one gloved hand resting on his upper shoulder, without covering his neck or face. Both heads remain separate and visible. His feet begin shoulder-width apart on the hangar floor.
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
-TIMELINE:
-[0:00–0:03] — SUPPORTED TRAVEL
-Already in the exact cradle support, Serega immediately takes four buoyant, compact side-close steps along a short lateral line. Knees absorb each landing; Yulia actively lifts her chest and answers with a shoulder accent without changing the grip.
-
-[0:03–0:07] — GROUNDED HALF-TURN
-Make one clockwise half-turn viewed from above in four brisk planted pivot steps. His legs carry the whole supported pair; she remains connected to both forearms, not rotating independently.
-
-[0:07–0:11] — LATERAL RETURN
-Keeping the new orientation and the same support points, he takes a side-close-side-close phrase along a short parallel line. Yulia answers with a clear head-and-shoulder accent; heads never collide.
-
-[0:11–0:14.5] — WEIGHTED FINISH
-Two compact forward steps and a planted knee rebound complete the phrase. Both retain solemn faces; his support arms never become dancing arms.
-
-[0:14.5–0:15] — SUPPORTED END
-Resolve securely in the same cradle after exactly one half-turn, for only the last half-second; no dismount.
+STORY FLOW:
+Already in the cradle, Serega carries Yulia through buoyant grounded dance steps. She actively balances and answers him with her shoulders and expression while both remain solemn. Include ONE clockwise half-turn viewed from above, made by his planted walking/pivot steps; the supported pair turns together. Continue a lively compact travelling phrase after the turn, preserving both forearm supports. Finish in that same cradle after the half-turn; no pickup, dismount, throw or change of carry.
 
 END STATE:
 The same pair remains in the cradle hold after ONE half-turn. Keep the support points fixed and faces solemn. The shoulder pose belongs to a separate later shot; do not morph into it here. H28B light and the hangar remain unchanged through the final frame.
 
 CAMERA / SPACE:
-Closer medium-full supported-pair composition, natural 50mm perspective: the combined supported silhouette fills at least 80% of image height, heads large and separate. Include supporting hands and the carrier feet. Smooth short backward tracking for forward steps, no orbit to fake rotation. Keep both faces clear in three-quarter view as physically possible, no large empty headroom or distant hangar view.
+One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Incorrect support geometry, missing support hand, detached grip, extra arms/legs/fingers, fused bodies, face swap, changing scale, child-sized partner, broken joints, floating feet, gliding carrier, weightless partner, duplicated people, mirrored doubles, tangled cloaks, body passing through armor, lift during camera cut, pickup transition, shoulder transfer, throw, drop, jump, weapons, smiles, changing room, facial color flicker, strobe, camera shake, cuts within this clip, captions, credits, text, logos or watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Floating partner, hidden or changing supports, merged heads.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1356,58 +1217,38 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
-@Image2 = absolute SEREGA identity/costume sheet.
-@Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked S28 two-person supported-pose reference: exact opening body arrangement, support points ONLY; use the closer camera specified below. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: checked S28 opening right-shoulder side-saddle pose and support points only, not identity or distant framing. The individual sheets override the helper. Exactly two full-size adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
+
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
 Keep the initial two support points fixed through every step. Supporting arms stay visibly outside bodies, no floating partner, fused limbs, grip swap, jump, throw or transition into a different carry. Cloth follows real inertia and remains clear of feet. This is energetic planted movement, not an acrobatic lift.
-
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain tall graphite ribs, white wall strips, satin dark floor, flush Imperial medallion, two amber guide lines and cyan/magenta floor borders. The rear opening, stationary planet and deep frame-right parked shuttle retain the reference geometry. Colored floor accents and overhead beams remain STEADY throughout this interaction; constant soft neutral-white face light, natural exposure, no strobe or colored face flicker. Reflections are faint, never a second pair. No other cast, crowds, machinery, platforms or new furniture. The performance is utterly serious, like a state ceremony.
 
 START STATE:
 YULIA is already seated upright SIDE-SADDLE on SEREGA's RIGHT shoulder, exactly as the approved pose reference: both bent legs hang together in front of the right side of his torso. His right forearm supports her thighs, while his left hand stabilizes her lower legs. Her torso stays upright and slightly balanced toward him; one gloved hand lightly rests on his shoulder away from his face. Their heads are separate with an unobstructed outline. His stance is broad and grounded, their cloaks hang separately. She is one full-size adult, not miniaturized.
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
-TIMELINE:
-[0:00–0:03] — PARADE GROOVE
-Already in the exact right-shoulder seated support, Serega begins four compact heel-to-toe steps in a shallow forward diagonal. His upper body remains stable and both grips stay fixed.
-
-[0:03–0:07] — SIDE PHRASE
-He takes a grounded side-close-side-close phrase, knees absorbing weight without bouncing Yulia off the shoulder. She answers with one free forearm sweep and head inclination; her supporting hand stays on his shoulder.
-
-[0:07–0:11] — RETURNING PHRASE
-Four purposeful steps along the opposite shallow diagonal complete the travelling shape. Yulia keeps her upright balance and gives two crisp shoulder accents; no spin, grip change or other carry.
-
-[0:11–0:14.5] — FINAL ACCENTS
-Two firm heel-toe steps and a small grounded knee rebound bring the pair to a clear front three-quarter angle. Her free hand opens outward, then settles below her face.
-
-[0:14.5–0:15] — SUPPORTED END
-Keep the exact side-saddle support for the final half-second only. No dismount or extra people.
+STORY FLOW:
+Serega dances forward and sideways in a compact, purposeful parade-like groove, carrying Yulia securely on his RIGHT shoulder. Let the footwork vary naturally while his torso and support remain steady. She contributes with her free forearm and shoulders, the other hand staying on his shoulder. Their absurd confidence stays completely serious. End in the same side-saddle support at a clear front three-quarter angle. No pickup, dismount, spin, bouncing her off the shoulder or change of grip.
 
 END STATE:
 Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. Resolve only on the last half-second; do not generate the dismount or extra cast. H28B light and the hangar remain unchanged through the final frame.
 
 CAMERA / SPACE:
-Closer medium-full supported-pair composition, natural 50mm perspective: the combined supported silhouette fills at least 80% of image height, heads large and separate. Include supporting hands and the carrier feet. Smooth short backward tracking for forward steps, no orbit to fake rotation. Keep both faces clear in three-quarter view as physically possible, no large empty headroom or distant hangar view.
+One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Incorrect support geometry, missing support hand, detached grip, extra arms/legs/fingers, fused bodies, face swap, changing scale, child-sized partner, broken joints, floating feet, gliding carrier, weightless partner, duplicated people, mirrored doubles, tangled cloaks, body passing through armor, lift during camera cut, pickup transition, shoulder transfer, throw, drop, jump, weapons, smiles, changing room, facial color flicker, strobe, camera shake, cuts within this clip, captions, credits, text, logos or watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Floating partner, hidden or changing supports, merged heads.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1422,53 +1263,36 @@ Mode: image-to-video from exact first frame | Duration: 15s | Resolution: 720p |
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the already checked twelve-subject GROUP MASTER and the exact first frame. Preserve its identities, complete head count, costumes, row positions, cat scale, hangar geometry, steady H28B light and opening camera. A short later camera move is specified below. It was assembled from the approved individual character sheets; animate those existing people, do not invent or recompose a cast. Exactly NINE adult human/humanoid characters, ONE small ALESYA Ewok-like character with her exact adult human face, and TWO ordinary cats. No new references are needed for this animation input.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1 is the checked G28 GROUP MASTER assembled from the approved individual sheets, and the exact FIRST FRAME: animate its existing twelve subjects, identities, costumes, scale and staggered row positions. It controls this image-to-video shot; do not recast or recompose it. Nine adult humans/humanoids, one small Alesya with her adult face, two ordinary cats. Keep its H28B space and opening camera.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Front human row: SEREGA, pale older balding man in deep-purple robe, left; YULIA, long chestnut hair and dark armor/black cloak, right. Second row left to right: PASHA, clean-shaven/navy Jedi; SASHA, beard/round glasses/cream-burgundy robe; ARTEM, heavier bearded man/cream-brown robes; ILYUSHA, moustache/olive tunic/deep-red cloak. Rear row left to right: LESHA, slimmer moustached man/purple inner tunic/grey robe; MASHA-LAGUNA, aquatic-blue woman/long blue head strands/black crown-collar/back ornament/opaque floor-length blue costume; VITALIK, heavier man/black tunic/dark leather panels/brown trousers. Preserve every face exactly as visible in @Image1.
 ALESYA stands at front centre: small brown-furred body, brown hood, round ears and exact adult human face from the source sheet; no spear. Keep her distinct from the two cats and smaller than the adults.
 LUCHIK, fluffy white-grey cat, is on the floor front-left; RYZHIK, fluffy ginger tabby, is front-right. Both remain on all fours at ordinary domestic-cat scale, their standing heads below a nearby adult knee. Masha's chest and abdomen remain covered by one smooth opaque blue costume surface: no nipples, areolae, navel or anatomical relief. No weapons.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Match the exact group master first frame: same twelve identities, staggered rows, low arms and natural quadruped cats. All faces are visible in the row gaps. Movement starts immediately from that pose; retain upper-corner room for later titles without generating text.
 
-TIMELINE:
-[0:00–0:03] — ENSEMBLE START
-Animate the exact first-frame cast immediately: the adults and Alesya make a synchronized outward forearm sweep and weighted knee rebound. Cats take one natural short step; no one waits through an establishing shot.
-
-[0:03–0:07] — ROW RIPPLE
-A shoulder-and-torso wave passes front to middle to rear row while the other rows keep a low foot pulse. Faces remain visible through the original staggered gaps; no row changes.
-
-[0:07–0:11] — FULL-BODY UNISON
-Human performers alternate low side toe-taps and torso turns within their own footprints, opening and closing forearms below faces. Masha keeps steps inside her intact hem. Alesya conducts; cats turn heads and flick tails on all fours.
-
-[0:11–0:14.5] — CLOSING PHRASE
-Two shared knee rebounds and a broad low arm sweep resolve back toward the original silhouette. Every row continues its weight transfer until the final beat; no cast rearrangement.
-
-[0:14.5–0:15] — FINAL PUNCTUATION
-Return to the original low pose only for the last half-second, preserving all twelve identities.
+STORY FLOW:
+The exact first-frame ensemble bursts into an exuberant deadpan dance together. Let a broad shoulder-and-arm wave pass front to middle to rear while the other rows keep dancing; develop it into lively shared whole-body phrases. Preserve the staggered rows and face gaps. Masha moves within her closed hem; Alesya conducts from front centre; the cats contribute natural steps, head turns and tails on all fours. Build to the original low parade silhouette on the final beat, with all twelve still present.
 
 END STATE:
 The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Resolve into this pose only on the final half-second; cloth, breath and tails settle naturally. H28B disco lighting is established and steady at the last frame.
 
 CAMERA / SPACE:
-Start with the exact group master framing; during the first three seconds smoothly push closer until the group fills the frame, keeping every head, Alesya and both cats visible. Then hold that closer composition. Do not demand individual close-ups and all twelve full bodies simultaneously. Row positions and eye visibility are fixed; no large empty hangar margins.
+Begin at the exact @Image1 first frame. One continuous frontal ensemble view with a modest smooth push that keeps all twelve subjects, feet and row gaps in frame. Preserve upper-corner room for later titles without generating any text.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze. Cats perform only the specified natural feline movements; their energy never requires human dance anatomy.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, Missing or extra person, duplicated face, merged rows, costume swap, changed glasses, changed cat colors, human-scale cats, humanoid cats, bipedal cats, Masha torso anatomy, nipples, navel, exposed abdomen, new weapons, crossing arms over faces, row migration, changed formations, mirror doubles, moving architecture, lip sync, generated titles, captions, logos, watermark, cartoon or game-render look. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Human hands or upright dancing on cats, giant cats, child face or adult-human scale for Alesya.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1483,16 +1307,13 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B, exact environment and established disco lighting only.
-@Image2 — absolute SEREGA identity, proportions and costume.
-@Image3 — absolute YULIA identity, proportions and costume.
-Priority: each individual identity sheet controls only its own person; the location cannot change their appearance. No identity blending. The partners remain full-size adults.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Each individual sheet controls only its own person and outranks the environment. Exactly two full-size adults; no extra sheet-view copies.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: the exact pale older Chancellor from @Image2, balding crown with sparse light hair, approved build, long deep-purple robe. YULIA: the exact adult woman from @Image3, long chestnut hair, dark black-grey armor with shoulder pieces, gloves and a long black cloak. Preserve their real faces, ages, heights and body proportions through profile and movement. No beautification, recasting, costume changes or weapons. Each reference sheet shows multiple views of ONE person; exactly two adults appear.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
 
-HANGAR / PARTNER GEOMETRY — CRITICAL:
-Photoreal live-action in the H28B Imperial hangar: fixed graphite ribs, white wall strips, satin dark floor, flush starburst medallion, amber guide lines, cyan/magenta floor borders, rear space opening and parked shuttle deep frame-right. Location establishes architecture and light, not a distant camera. No other dancers. Preserve a single action axis, Serega's starting mark frame-left, Yulia's frame-right. Dance together with visible shared weight and anticipation; never two unrelated solo routines.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
 The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his left forearm supports Yulia's upper back/ribcage, his right supports both thighs just above her knees. Her head stays toward his left side and her feet toward his right. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
@@ -1501,38 +1322,26 @@ START STATE:
 Both stand on the floor, Serega frame-left facing diagonally right and Yulia frame-right facing diagonally left, about one metre apart. Hands clear, both faces readable, H28B lights already established. Begin the approach immediately, no entrance or light-switching prelude.
 
 TIMELINE:
-[0:00–0:03] — APPROACH IN RHYTHM
-Both immediately take two decisive steps together with a shared knee pulse. Yulia turns her side toward his chest; he establishes the visible upper-back and thigh supports before her feet leave the floor.
+[0:00–0:05] APPROACH AND SUPPORT. Dance together immediately. Yulia turns her side toward his chest; Serega visibly secures her upper back and thighs before her feet leave the floor. He lifts through his legs; she extends both legs together and opens her arms like wings once stable.
 
-[0:03–0:05] — OPEN HORIZONTAL
-Serega rises through his legs. Yulia extends both legs together and opens both arms into the broad wing shape, keeping an active torso. Flow straight into the travelling turn, no suspended display pose.
+[0:05–0:09] TURN. Carry the broad horizontal wing shape through ONE clockwise half-turn viewed from above, using grounded steps. Their bodies travel as one supported unit; do not fake the turn with the camera.
 
-[0:05–0:09] — TURN TOGETHER
-Four brisk grounded pivot steps make one clockwise half-turn viewed from above. Both bodies travel as one supported unit; Yulia keeps her wing line alive through the turn. Do not orbit the camera to fake rotation.
-
-[0:09–0:12] — LOWER IN MOTION
-He bends his knees and lowers her feet to the floor with both support points intact until she bears her own weight. She closes the wing shape as her feet land; no pause halfway down.
-
-[0:12–0:15] — RECONNECT
-Both take two short rhythmic steps onto Serega-left/Yulia-right marks and turn face-to-face. One shared knee rebound flows into arms lowered at about60cm separation. Resolve only on the last half-second.
+[0:09–0:15] LOWER AND RECONNECT. Lower her feet to the floor, retaining both supports until she bears her own weight. They dance back onto Serega-left/Yulia-right marks and face one another about 60 cm apart, hands down on the last beat. Natural connecting steps are free; the support sequence is fixed.
 
 END STATE:
 Both stand fully on the floor, Serega left facing right and Yulia right facing left, roughly 60 cm apart. Yulia has regained her own balance; both arms are down and no hand is attached to the other person. Unchanged light, costume, action axis and floor marks.
 
 CAMERA / SPACE:
-A clear full-body two-shot, natural 40–50mm perspective. The pair occupies most of the frame, with enough lateral room for the horizontal support and both sets of feet. A short smooth lateral track reveals both faces and support hands during the half-turn without orbiting or crossing the axis. Do not crop the carrier feet or the extended legs. Ease into a waist-up two-shot only after both partners are standing again. No cuts across the pickup or lowering.
+One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze. During the supported lift, energy comes from the carrier's grounded steps and the passenger's active extended silhouette; never speed up into a throw or unsupported swing.
-
-LIGHTING / MATERIALS:
-Disco accents are already on, steady cyan/magenta around the floor and behind the pair. A constant soft neutral-white key lights faces, eyes and hands. Preserve pores, fabric weave, age and armor finish; natural motion blur only. Cloaks trail with inertia, stay separate and do not catch beneath feet. Faint floor reflections, no mirrored extra performers.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Wrong people, blended faces, changed age or hair, costume drift, extra dancers, duplicate sheet bodies, shrinking the adult woman, distorted limbs or fingers, hands fused to cheek or armor, stretched arms, broken joints, weightless lift, floating carrier, spinning in place without footwork, body intersection, shoulder-saddle seating, limp cradle carry, dropped partner, toss, neck grip, slap, face wiping across eyes/nose, kiss, unrelated robotic solos, repeated tiny steps, slow motion, long idle hold, camera roll, sudden orbit, empty-hangar wide shot, face-obscuring blur, strobe, changing architecture, dialogue, song, captions, credits, logos, watermark.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Floating partner, hidden or changing supports, merged heads.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1547,54 +1356,34 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B, exact environment and established disco lighting only.
-@Image2 — absolute SEREGA identity, proportions and costume.
-@Image3 — absolute YULIA identity, proportions and costume.
-Priority: each individual identity sheet controls only its own person; the location cannot change their appearance. No identity blending. The partners remain full-size adults.
-@Video1 — actual final seconds of the preceding A11 result: standing handoff, framing and exact floor positions only. Individual sheets retain face/costume authority; continue the same bodies and movement.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Video1: actual final seconds of A11, controlling the starting pose, movement, framing and floor positions. Continue those same two bodies; individual sheets retain appearance authority.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: the exact pale older Chancellor from @Image2, balding crown with sparse light hair, approved build, long deep-purple robe. YULIA: the exact adult woman from @Image3, long chestnut hair, dark black-grey armor with shoulder pieces, gloves and a long black cloak. Preserve their real faces, ages, heights and body proportions through profile and movement. No beautification, recasting, costume changes or weapons. Each reference sheet shows multiple views of ONE person; exactly two adults appear.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
 
-HANGAR / PARTNER GEOMETRY — CRITICAL:
-Photoreal live-action in the H28B Imperial hangar: fixed graphite ribs, white wall strips, satin dark floor, flush starburst medallion, amber guide lines, cyan/magenta floor borders, rear space opening and parked shuttle deep frame-right. Location establishes architecture and light, not a distant camera. No other dancers. Preserve a single action axis, Serega's starting mark frame-left, Yulia's frame-right. Dance together with visible shared weight and anticipation; never two unrelated solo routines.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Both stand fully on the floor, Serega left facing right and Yulia right facing left, roughly 60 cm apart. Yulia has regained her own balance; both arms are down and no hand is attached to the other person. Unchanged light, costume, action axis and floor marks.
 
-TIMELINE:
-[0:00–0:03] — SHARED FOOTWORK
-Match the actual A11 ending. Two quick heel-toe weight changes and an opposing torso lean begin immediately without changing the gap or screen sides; eyes stay on the partner.
-
-[0:03–0:06] — YULIA FRAMES HIS FACE
-Yulia makes one flowing two-hand fan outside Serega's jaw and temples, opens outward and lowers both hands. He inclines his head; both keep a gentle knee pulse. No palms over eyes, nose or mouth.
-
-[0:06–0:09] — SEREGA ANSWERS
-Only after her hands clear, Serega mirrors one two-hand fan outside her face, opens outward and lowers. She answers with a head inclination; weight shifts continue beneath the hand phrase. Exactly one fan per partner.
-
-[0:09–0:12] — TRAVELLING RELEASE
-Both take two decisive backward heel-toe steps, travelling about70cm each, shoulders opening away and inside arms reaching toward one another across empty air. Show push-off and landing, not skating.
-
-[0:12–0:15] — LOW REBOUND FINISH
-At two metres separation, rebound once through the knees into opposing outward low lunges, still looking toward the partner. Reach remains across an empty gap. Final punctuation lasts only the last half-second.
+STORY FLOW:
+Continue the actual A11 ending immediately with a shared rhythmic weight shift. Yulia makes ONE flowing two-hand fan OUTSIDE Serega's jaw and temples, opens outward and lowers both hands. Only after they clear, he answers with ONE matching two-hand fan outside her face and lowers his hands. Keep eyes, nose and mouth visible; hands never pass through a head. They then dance backwards about 70 cm each, opening their shoulders away while their inside hands reach across empty air. At about two metres separation, land opposing low outward lunges on the closing beat, still looking at one another. Keep natural movement between these essential actions.
 
 END STATE:
 Both stand two metres apart, Serega left and Yulia right, each in a low outward lunge with their inside hand extended toward the other across an empty air gap. They look at one another with solemn faces; feet planted, hands not touching, cloaks settling.
 
 CAMERA / SPACE:
-Start by matching the supplied Video1 final framing and axis. A restrained push makes both faces and all four hands readable during the exchange; then track smoothly back to a full-body two-shot BEFORE the retreat. Keep faces clear, both feet visible during travel, and lateral space for both lunges. One continuous readable phrase, no reverse angle or camera orbit.
+One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze. The face-framing fans are sequential, one by each partner, with continuing gentle foot and knee rhythm beneath them.
-
-LIGHTING / MATERIALS:
-Disco accents are already on, steady cyan/magenta around the floor and behind the pair. A constant soft neutral-white key lights faces, eyes and hands. Preserve pores, fabric weave, age and armor finish; natural motion blur only. Cloaks trail with inertia, stay separate and do not catch beneath feet. Faint floor reflections, no mirrored extra performers.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Wrong people, blended faces, changed age or hair, costume drift, extra dancers, duplicate sheet bodies, shrinking the adult woman, distorted limbs or fingers, hands fused to cheek or armor, stretched arms, broken joints, weightless lift, floating carrier, spinning in place without footwork, body intersection, shoulder-saddle seating, limp cradle carry, dropped partner, toss, neck grip, slap, face wiping across eyes/nose, kiss, unrelated robotic solos, repeated tiny steps, slow motion, long idle hold, camera roll, sudden orbit, empty-hangar wide shot, face-obscuring blur, strobe, changing architecture, dialogue, song, captions, credits, logos, watermark.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1615,57 +1404,34 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is H28B: exact hangar geometry and already active disco lighting ONLY, not its distant empty-room framing. @Image2 is absolute SEREGA face/body/costume identity; @Image3 is absolute YULIA face/body/costume identity. Individual sheets override all location details for appearance. Exactly two adults, one person per sheet. No other cast.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B architecture and established disco light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Exactly two adults; each multi-view sheet is one person. Individual sheets control appearance, not the room image.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA is the pale older Chancellor with a balding crown, sparse light hair and a long deep-purple robe. YULIA has the exact referenced face, long chestnut hair, dark black-grey armor, shoulder pieces, gloves and a long black cloak. Preserve both faces and builds; no beautification or costume redesign. Hands stay empty; no lightsabers.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Serega frame-left and Yulia frame-right, about1.4metres apart, facing camera and ready to step. H28B lights already ON. The first foot push and torso accent happen immediately; no lighting or hangar establishing shot.
 
-TIMELINE:
-[0:00–0:04] — DRIVE IN
-Immediately take two broad side steps out and back with springy knee bends; counter-swing the forearms below the face. Serega left and Yulia right mirror each other, actually shifting their full weight.
-
-[0:04–0:09] — KICK AND ANSWER
-Each alternates two low forward kick-steps with a grounded heel-toe rebound. One leads a bold shoulder sweep and the other answers on the next beat. Robes swing clear of planted feet; no high kicks into a partner.
-
-[0:09–0:14] — TURN AND RECONNECT
-Execute a brisk outward quarter-turn on two steps and return toward one another through a short heel-toe shuffle. Add one chest accent on landing; immediately flow into the approach.
-
-[0:14–0:20] — SECOND PARTNER PHRASE
-Continue at the same brisk pulse: repeat the kick-step pattern with the other foot leading, shoulders answering in opposite directions. Add one low side lunge each and rebound immediately; do not slow or hold the earlier accent.
-
-[0:20–0:26] — TRAVELLING VARIATION
-Take two side-close steps outward and two back within separate lanes, then a quarter-turn toward the partner and return. Keep the feet and torso active throughout; finish ready for the inward approach.
-
-[0:26–0:29.5] — CLOSE THE PHRASE
-Take two emphatic inward steps with rolling shoulder accents, turn face-to-face and arrive about 60 cm apart. Let both arms finish their arcs and drop to the sides as the last step lands.
-
-[0:29.5–0:30] — HANDOFF
-Only the last half-second resolves into the hands-down face-to-face position. Keep natural breath and cloth settling.
+STORY FLOW:
+Serega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Toward the end they dance inward and turn face-to-face, finishing about 60 cm apart with both hands down. Reach that handoff only on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 Serega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis. H28B disco lighting is established and steady at the last frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Extra dancers, duplicated sheet views, swapped identities, reversed screen positions, face drift, new hairstyle, wardrobe change, extra arms or fingers, skating without weight transfer, tangled cloak, weapons, heavy floor mirror images, moving architecture, abrupt light flashes, exaggerated facial comedy, singing, subtitles, credits, logos, watermark, camera shake or cuts. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1680,57 +1446,34 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the supplied H28B hangar location/H28B light design only. @Image2 is the absolute SEREGA face/body/costume reference. @Image3 is the absolute YULIA face/body/costume reference. @Image4 controls this two-person pose, camera angle and framing only. Identity sheets override the pair composition for individual appearance. Exactly two people; each multi-view sheet represents one person.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: P28 face-to-face pose, axis and framing only; individual sheets override its faces. Exactly two adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: exact pale older face, balding crown with sparse light hair, long deep-purple Chancellor robe. YULIA: exact face and build, long chestnut hair, black-grey armor and shoulder pieces, gloves, long black cloak. Do not restyle either person or obscure their eyes. Each person's right hand has five stable fingers; Yulia keeps her approved glove. Never merge a glove or fingers into skin.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons. Keep Yulia's gloves and separate natural fingers clear during the cheek gesture.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Medium waist-up two-shot, Serega left facing right, Yulia right facing left, about 60 cm face separation. Both right hands begin down. Preserve the P28 pose/axis but give the performers energetic intent.
 
-TIMELINE:
-[0:00–0:04] — SHARED GROOVE
-Facing each other at the original 60 cm gap, begin two alternating knee bends with an outward shoulder sweep. Both right hands stay clear until the first face pass.
-
-[0:04–0:09] — FIRST EXCHANGE
-Serega makes one decisive outside-cheek pass with the backs of softly grouped right fingers, then fully withdraws; Yulia answers only after his hand clears. The waiting partner keeps a gentle heel pulse and attentive head inclination. Never hide eyes, nose or mouth.
-
-[0:09–0:14] — BODY ANSWER
-With hands below chins, perform a shared chest accent, two quick in-place heel-toe changes and opposing shoulder rolls. Finish facing each other on the same marks without closing the gap.
-
-[0:14–0:20] — FOOTWORK RESPONSE
-Between the two pairs of face passes, continue an alternating heel-toe groove and broad shoulder circles. They take one short step outward and one back to the same 60 cm face-to-face marks; no extra cheek gestures.
-
-[0:20–0:26] — BODY COUNTERPOINT
-One leans back as the other inclines forward, then reverse with hands safely below faces. Two chest accents flow into another heel-toe phrase, returning to the same axis for the remaining two face passes.
-
-[0:26–0:29.5] — SECOND EXCHANGE
-Repeat one outside-cheek pass each, Serega then Yulia, maintaining the lower-body pulse. Exactly four passes total, soft contact without rubbing or slapping. Both hands withdraw fully on the final step.
-
-[0:29.5–0:30] — CLEAR HANDOFF
-Finish face-to-face, hands down and separated from both faces, for the last half-second only.
+STORY FLOW:
+Keep a lively shared groove while facing one another. Serega passes the backs of his softly grouped right fingers along the OUTSIDE of Yulia's cheek, withdraws completely, then she answers with the same right-hand gesture. A playful full-body response separates this exchange from its repeat: two exchanges, four cheek passes total. Let the footwork, shoulders and timing flow naturally between passes. Touch is light, never a slap; hands stay outside the eyes, nose and mouth. Finish at the original gap with both hands fully down. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 The same two people face one another at the original60cm gap, both hands fully lowered and clear of either face. Resolve on the last half-second only, with breath and cloth still moving. H28B lighting and axis unchanged.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous medium two-shot on the established axis, faces and both right-hand paths fully visible. Frame to include torso and knee rhythm; use a small smooth lateral drift, never move between the partners or crop the face gesture.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Hand covering eyes, grabbing face, palm wipe across nose, cheek stretching, melted fingers, fingers fused to skin, extra hand, left-hand substitutions, simultaneous face-touching, a fifth pass, changing face, changed hair, incorrect costume, kiss, embrace, sliding separation, extra person, weapons, shake, cuts, subtitles, text, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1745,57 +1488,34 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 defines the supplied H28B hangar architecture, floor and light. @Image2 is the exact SEREGA identity/costume sheet. @Image3 is the exact YULIA identity/costume sheet. @Image4 defines only the face-to-face orientation and the arms-down pose AFTER the cheek gesture; it does not set this wider framing. Preserve the individual identities above all other image information. Exactly two people.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: genuine C28 frame from the preceding cheek-gesture result, fixing hands-down pose and left/right orientation only; use the wider camera below. Individual sheets control appearance. Exactly two adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: pale older Chancellor, balding crown, sparse light hair, long deep-purple robe and the exact referenced face/build. YULIA: exact face/build, long chestnut hair, black-grey armor with shoulder pieces and gloves, long black cloak. Empty hands, unchanged clothing; both feet remain grounded and anatomically correct.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Start from the genuine C28 orientation only: Serega left facing right, Yulia right facing left, hands already down and faces about 60 cm apart. C28 does not prescribe distant framing or identity.
 
-TIMELINE:
-[0:00–0:04] — SEPARATE WITH WEIGHT
-From the real hands-down facing pose, immediately take two backward heel-toe steps, chest angled toward the partner. Each planted foot visibly pushes the body away.
-
-[0:04–0:09] — TRAVELLING ANSWER
-Continue two more quick retreating steps each until their total separation reaches about two metres. Open the inside arm toward the partner, then sweep it low while turning the shoulders outward; do not glide.
-
-[0:09–0:14] — REBOUND IN PLACE
-At the new marks, two rhythmic side lunges alternate with a quarter-turn toward the partner and back. Arms counterbalance the torso; retain left/right lanes and the two-metre spacing.
-
-[0:14–0:20] — TURNING ANSWER
-At the established two-metre separation, one takes two short side steps and returns while the other answers with the opposite shoulder sweep, then exchange roles. Keep their original left/right ordering.
-
-[0:20–0:26] — LOW LUNGE PHRASE
-Alternate two outward low lunges with brisk heel-toe returns on the same marks. Reach the inside arm across the empty gap, then open toward camera; no renewed approach or extra separation.
-
-[0:26–0:29.5] — FRONT ACCENT
-Pivot toward camera through two weighted steps, rebound through the knees and strike one low outward arm accent. Keep the phrase moving until the final foot lands.
-
-[0:29.5–0:30] — GRAPHIC END
-Resolve into the original front-facing low-arm pose for only the final half-second.
+STORY FLOW:
+From the genuine hands-down C28 pose, dance backwards away from one another with springy, weighted footwork until the gap is about two metres. Their inside arms reach toward each other across the empty space, then open into a mock-grand dance exchange. Let lively steps, torso turns and broad low gestures flow naturally in the two separate lanes. In the closing phrase both turn toward camera and land the low angular arm pose for a graphic match-cut. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 Serega left, Yulia right, about two metres apart, facing the camera in the same low angular arm pose. This pose supplies the graphic match-cut to the next dancing pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Hands touching face, attached hands during separation, stretched arms, pulled skin, reversed directions, crossing positions, sliding into each other, floating, ice-skating blades, wheels, conveyor belts, teleportation, foot distortion, identity swap, duplicate bodies, heavy mirrored doubles, weapons, slapstick faces, cuts, generated credits, text, logos or watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1810,57 +1530,34 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the supplied empty hangar environment, framing family and the H28B lighting design only. @Image2 is the exact PASHA identity/costume sheet. @Image3 is the exact SASHA identity/costume sheet. Each sheet supplies one person, not a cast of its multiple views. Individual sheets control faces and clothes above all environment information. Exactly two Jedi, empty hands and no lightsabers.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: PASHA exact identity/costume. @Image3: SASHA exact identity/costume. Individual sheets outrank environment details; each sheet is one person. Exactly these two Jedi, empty hands, no lightsabers.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 PASHA has the exact referenced clean-shaven face and build, dark navy Jedi tunic, brown belt, dark trousers and tall boots. SASHA has the exact referenced bearded face, round glasses, cream inner tunic and dark burgundy-brown outer robe. Keep Sasha's glasses stable and present. Do not transfer beard, glasses, hair or costume between them.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Pasha left and Sasha right, front-facing, hands in a low angular pose, individual lanes separated by visible air.
 
-TIMELINE:
-[0:00–0:04] — MIRRORED SIDE DRIVE
-Pasha left and Sasha right immediately perform wide side-close-side steps in their separate lanes, knees bending deeply enough to show full weight transfer. Their arms sweep low in opposite directions.
-
-[0:04–0:09] — CALL AND RESPONSE
-Pasha delivers two low kick-steps and a torso lean; Sasha answers with the same phrase one beat later while Pasha keeps a heel-toe groove. Keep glasses steady and both faces readable.
-
-[0:09–0:14] — TURNING DUEL
-They quarter-turn toward one another on planted steps, briefly lean away in mock-serious rivalry, then rebound to face camera with a broad shoulder sweep. No crossing lanes or touching.
-
-[0:14–0:20] — REVERSE THE LEAD
-Sasha now leads the low kick-step phrase and Pasha answers. Both keep moving through the exchange; faces stay serious and their silhouettes separate.
-
-[0:20–0:26] — DIAGONAL VARIATION
-Two short diagonal steps forward and two back, shoulder sweeps answering each landing, then a quarter-turn toward each other and back. Return on the beat, no slow stretch of the earlier phrase.
-
-[0:26–0:29.5] — RETURN DRIVE
-Two quick diagonal steps out and back return both to the initial marks; finish with a shared knee rebound and low forearm strike, not marching in place.
-
-[0:29.5–0:30] — END BEAT
-The initial low-arm pose appears only during the last half-second.
+STORY FLOW:
+Pasha and Sasha throw themselves into a gloriously overconfident dance duel, faces as solemn as an official ceremony. They trade broad angular phrases, lively travelling footwork and playful body answers, alternately leading and echoing one another. Let the choreography develop naturally; keep Pasha left, Sasha right, visible air between them and glasses stable. End back at their original marks, front-facing in the low angular arm pose, only on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 Pasha remains left and Sasha right on their initial marks, facing camera in the angular low-arm pose, ready for a graphic match-cut to another pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Four Jedi, background dancers, duplicated people, identity blending, missing glasses, glasses deformation, beard transfer, navy/burgundy clothing swap, extra fingers, arms through robes, acrobatics, weapons, smiling, mugging, glossy game render, changing hangar geometry, abrupt unplanned light changes, strong mirrored doubles, camera shake, edits, text, credits, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1875,57 +1572,34 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 defines only the supplied H28B hangar architecture, floor markings, lighting and background. @Image2 is the exact ARTEM identity/costume model sheet. @Image3 is the exact ILYUSHA identity/costume model sheet. Individual sheets override all other appearance information. Each multi-view sheet describes one person. Exactly these two performers, no other people or animals.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: ARTEM exact identity/costume. @Image3: ILYUSHA exact identity/costume. Individual sheets outrank environment details; each sheet is one person. Exactly these two performers, no other cast.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 ARTEM has the exact referenced heavier build, short beard, cream-beige tunic, brown outer robe, broad belt and brown boots. ILYUSHA has the exact referenced face, moustache, chestnut hair, olive-green tunic, deep-red hooded cloak and brown boots. Preserve the sheet's hood placement and face visibility. Do not swap beard, moustache, colors or builds. Hands empty, no sabers.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Artem left and Ilyusha right, front-facing on separate marks, elbows low and ready for the first sharp beat.
 
-TIMELINE:
-[0:00–0:04] — DIAGONAL SHUFFLE
-Artem left and Ilyusha right immediately drive two diagonal shuffle steps forward within separate lanes, with low arm sweeps and visibly weighted robe motion.
-
-[0:04–0:09] — OPPOSING TORSO GROOVE
-Artem leans left while Ilyusha leans right, then reverse through a deep knee rebound. Add alternating low kick-steps; each step lands before the next direction change.
-
-[0:09–0:14] — TURN AND TRAVEL BACK
-Each makes one brisk outward quarter-turn, then takes two backward shuffles to the original mark and faces front again. Arms counterbalance naturally; heads return to clear three-quarter/front views.
-
-[0:14–0:20] — HEAVY AND LIGHT
-Artem makes a broad grounded side lunge; Ilyusha answers with two quicker shuffles in his own lane. Swap the rhythmic emphasis on the next phrase without changing their body builds.
-
-[0:20–0:26] — REVERSE DIAGONALS
-Travel two short steps backward diagonally and return forward, torso and low arms swinging together. Add an outward quarter-turn and rebound to face camera before the closing phrase.
-
-[0:26–0:29.5] — COMIC UNISON
-Two broad elbow-open shoulder rolls flow into a shared torso dip and springy return. Make the full-body phrase conspicuously committed, with solemn faces.
-
-[0:29.5–0:30] — END BEAT
-Land in the original front-facing low-hand stance for the final half-second.
+STORY FLOW:
+Artem and Ilyusha dance with exuberant whole-body commitment and completely straight faces. Artem's weighty swagger meets Ilyusha's quicker, springier answer; they catch each other's rhythm and briefly fall into absurdly grand unison. Allow natural steps, turns and arm phrases instead of a repeated mechanical loop. Keep their separate left/right lanes and real foot contact. Return to the original front-facing, low-arm marks on the closing beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 Both stand at their original marks, arms low, looking directly at camera. Their posture reads as a solemn ceremonial punctuation to the same dance motif. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Extra performers, identity change, beard/moustache swapping, red cloak on Artem, brown robe replacing Ilyusha's cloak, giant shoulders, human duplication from sheets, tangled limbs, fused hands, cloak morphing, acrobatics, weapons, facial mugging, changing location, moving shuttle, mirrored doubles, cartoon motion, unstable camera, cuts, titles, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1940,58 +1614,35 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the supplied H28B hangar architecture/H28B light design only. @Image2 is the absolute MASHA-LAGUNA identity/design sheet. @Image3 is the absolute LESHA identity/costume sheet. @Image4 is the absolute VITALIK identity/costume sheet. Preserve these three separate identities; multiple sheet views never create extra performers. Exactly three characters.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: MASHA-LAGUNA exact identity/design. @Image3: LESHA exact identity/costume. @Image4: VITALIK exact identity/costume. Each sheet supplies one distinct performer and controls that person above the room image. Exactly three characters.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MASHA-LAGUNA is the tall slender adult aquatic-blue woman with the exact human face, long light-blue tentacle-like head strands and black ornamental crown, neck collar and upper-back structure. Her exact floor-length light-blue costume has an OPAQUE, continuous smooth torso covering the entire chest and abdomen. The torso is costume material, not bare skin: no nipples, areolae, navel, anatomical breast-tip relief, cutouts or transparency. Preserve the reference silhouette without adding new clothing panels or changing the long hem.
 LESHA is the exact slimmer moustached man in a purple inner tunic, long grey hooded robe, brown belt and light boots. VITALIK is the exact heavier-built man in a black tunic, dark leather/armor panels, brown trousers and tall boots. Do not blend their faces, builds or costumes. All hands are empty.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Masha centre, Lesha left, Vitalik right, a compact staggered trio with three unobstructed faces. No cast beyond these three.
 
-TIMELINE:
-[0:00–0:04] — RIPPLE START
-Masha centre starts a sweeping forearm-and-shoulder phrase with short firm steps under her intact costume; Lesha left and Vitalik right answer one beat later with wider side steps.
-
-[0:04–0:09] — SIDE-TO-SIDE GROOVE
-The trio travels one short step sideways and returns, then reverses. Masha uses shoulder turns and torso sway within her closed hem; the men add low kick-steps without entering her space.
-
-[0:09–0:14] — CONTRASTING ANSWERS
-Masha sends a strong arm sweep left then right; each man answers with a quarter-turn and grounded rebound while the others keep the pulse. Maintain three separate silhouettes.
-
-[0:14–0:20] — REVERSE RIPPLE
-Pass the arm-and-shoulder phrase from Vitalik through Masha to Lesha, while each keeps stepping in place. Masha uses the approved hem-limited stride and expressive upper body.
-
-[0:20–0:26] — THREE-WAY ANSWER
-The two men lean outward and rebound as Masha makes a broad downward conducting sweep; then all step sideways and back in unison. Keep their staggered arrangement and distinct identities.
-
-[0:26–0:29.5] — UNISON RETURN
-All face front and perform two emphatic knee-and-shoulder accents with low opening arms. Return to their original staggered marks through actual steps.
-
-[0:29.5–0:30] — END BEAT
-Masha centre, Lesha left, Vitalik right, arms low only on the final half-second.
+STORY FLOW:
+Masha leads an expansive, absurdly majestic dance phrase; Lesha and Vitalik answer on either side, passing the energy through the trio. Let their shoulders, arms and footwork develop into a lively shared groove with serious faces. Masha's stride stays inside her intact closed hem; her upper body and head strands carry the larger expression. The men move freely in their own lanes, without crossing her silhouette. Return to the same staggered trio, facing camera with low arms on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 Masha centre, Lesha left, Vitalik right, all facing camera, arms held low and faces clear. No new entrants. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-One continuous smooth full-body two-shot/trio shot, natural40–50mm perspective, bodies filling most of the frame with feet and hand arcs visible. A short lateral track follows the modest travel without crossing the action axis; keep the established left/right ordering. Only ease closer after the final travelling step, never crop the footwork that creates the energy. Faces remain readable in front/three-quarter phases; no distant hangar reveal, fast orbit or shake.
+One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Nipples, areolae, navel, bare chest, bare abdomen, see-through costume, anatomical torso embossing, shortened dress, slit, mermaid tail, new tentacles, ordinary hair on Masha, identity blending, duplicated people, transferred robes, extra limbs, hands through costume, dancing crowd, weapons, sexualized dance, smiling, lip movement, changing hangar, cuts, captions, credits, logo, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2006,57 +1657,34 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 defines the supplied H28B hangar geometry, light and floor only. @Image2 defines the exact LUCHIK feline identity; @Image3 defines the exact RYZHIK feline identity. Individual cat sheets outrank the location for face, fur, size and anatomy. @Image4 is the absolute ALESYA identity: the small brown-furred Ewok-like adult woman with her exact human face, brown hood, round ears and compact furry body. Exactly THREE subjects: Alesya plus two ordinary domestic cats. No extra people or animals. Do not turn cats into Ewoks or Alesya into a cat.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: LUCHIK exact feline identity. @Image3: RYZHIK exact feline identity. @Image4: ALESYA exact adult face, brown hood and small furry body. Individual references control appearance above the location. Exactly Alesya and two ordinary domestic cats; never mix their species.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. Alesya is about one metre tall; the cats remain normal house cats well below her waist. Preserve her adult face from Image4, hood and short furry limbs. Alesya has no spear or other weapon. No lightsabers in this dance.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Alesya centre, Luchik left, Ryzhik right, all three fully visible from a low close camera. Cats ordinary house-cat scale; Alesya about one metre tall with her exact adult face.
 
-TIMELINE:
-[0:00–0:04] — CONDUCT AND TROT
-Alesya immediately makes two broad conducting strokes with side steps. Both cats take brisk natural steps toward their closer marks on all fours, ears alert and tails balancing.
-
-[0:04–0:09] — FELINE ANSWER
-Luchik makes one short sideways pounce, lands on four paws and turns toward Ryzhik; Ryzhik answers with one short pounce in his own lane. Alesya continues conducting with grounded knee bounces.
-
-[0:09–0:14] — ARC AND RETURN
-Each cat trots a short separate arc back toward its mark. Alesya rotates her shoulders left and right, answering their motion with low sweeping forearms. No human knee drives or upright dancing for cats.
-
-[0:14–0:20] — SECOND CAT PHRASE
-The cats trot a short parallel path outward and turn back naturally, one after the other; Alesya continues side steps and alternating conducting sweeps. They never stand on hind legs or cross each other.
-
-[0:20–0:26] — RETURNING PLAY
-Each cat makes one small natural pounce toward its own mark and shakes its tail on landing. Alesya answers with a broad low arm flourish and grounded shoulder rhythm; movement continues into the closing approach.
-
-[0:26–0:29.5] — LAST RUN OF ACCENTS
-The cats take two brisk approach steps, turn their heads toward camera and plant their paws. Alesya finishes a broad conducting flourish with two weighted steps back to centre.
-
-[0:29.5–0:30] — END BEAT
-Alesya lowers her arms; Luchik left and Ryzhik right remain natural quadrupeds. Resolve only on the last half-second.
+STORY FLOW:
+Alesya conducts with tremendous solemn authority, dancing enthusiastically as the two cats playfully respond around her. Let the cats trot, turn and make short natural pounces in their own floor lanes; tails balance them and every landing is feline. Alesya follows their antics with expressive conducting gestures and buoyant steps. Keep the interplay alive without human choreography for the cats. Finish with Alesya centre, arms low, Luchik left and Ryzhik right naturally on all fours, looking toward camera. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 Alesya remains centre with her original adult face and low arms. Both cats stand naturally on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 CAMERA / SPACE:
-Low close three-subject composition at cat-eye height, enough vertical space for Alesya. Natural 50mm perspective, one small smooth tracking move follows the short pounces; retain all three faces and whole natural cat bodies. Hangar architecture is secondary, no distant wide shot.
+One continuous low full-body three-subject view. Keep Alesya and both entire cats close and readable, including paws and floor contact. Smooth small lateral tracking; preserve their left/centre/right lanes and real relative scale.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze. Cats perform only the specified natural feline movements; their energy never requires human dance anatomy.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Giant or waist-high cats, human limbs on cats, human hands on cats, bipedal cats, cat-headed people, costumes on cats, Alesya face drift, changed hood, giant Ewok, extra Ewoks, spear, extra cats, merged fur patterns, grey/ginger swapping, duplicate paws, extra tails, elastic bodies, levitation, lip-sync speech, saber props, humans in background, moving architecture, rapid strobing, mirror doubles, cartoon fur, shaky camera, cuts, text, credits, logos, watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Human hands or upright dancing on cats, giant cats, child face or adult-human scale for Alesya.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2071,64 +1699,38 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
-@Image2 = absolute SEREGA identity/costume sheet.
-@Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked L28 two-person supported-pose reference: exact opening body arrangement, support points ONLY; use the closer camera specified below. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: checked L28 opening cradle pose and support points only, not identity or distant framing. The individual sheets override the helper. Exactly two full-size adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
+
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
 Keep the initial two support points fixed through every step. Supporting arms stay visibly outside bodies, no floating partner, fused limbs, grip swap, jump, throw or transition into a different carry. Cloth follows real inertia and remains clear of feet. This is energetic planted movement, not an acrobatic lift.
-
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain tall graphite ribs, white wall strips, satin dark floor, flush Imperial medallion, two amber guide lines and cyan/magenta floor borders. The rear opening, stationary planet and deep frame-right parked shuttle retain the reference geometry. Colored floor accents and overhead beams remain STEADY throughout this interaction; constant soft neutral-white face light, natural exposure, no strobe or colored face flicker. Reflections are faint, never a second pair. No other cast, crowds, machinery, platforms or new furniture. The performance is utterly serious, like a state ceremony.
 
 START STATE:
 SEREGA already holds YULIA in a stable two-arm cradle across the front of his torso: his left forearm supports her upper back and his right forearm supports her thighs above the knees. Her head is toward his left shoulder; her bent legs extend to his right. She keeps her torso compact, one gloved hand resting on his upper shoulder, without covering his neck or face. Both heads remain separate and visible. His feet begin shoulder-width apart on the hangar floor.
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
-TIMELINE:
-[0:00–0:04] — SUPPORTED TRAVEL
-Already in the exact cradle support, Serega immediately takes four buoyant, compact side-close steps along a short lateral line. Knees absorb each landing; Yulia actively lifts her chest and answers with a shoulder accent without changing the grip.
-
-[0:04–0:09] — GROUNDED HALF-TURN
-Make one clockwise half-turn viewed from above in four brisk planted pivot steps. His legs carry the whole supported pair; she remains connected to both forearms, not rotating independently.
-
-[0:09–0:14] — LATERAL RETURN
-Keeping the new orientation and the same support points, he takes a side-close-side-close phrase along a short parallel line. Yulia answers with a clear head-and-shoulder accent; heads never collide.
-
-[0:14–0:20] — REPEATED TRAVEL
-Keep the completed half-turn orientation. Take another side-close phrase and its return, both forearm supports fixed, Yulia actively balancing with controlled shoulders. No extra rotation or shoulder transfer.
-
-[0:20–0:26] — DIAGONAL PHRASE
-Take two short diagonal steps outward and two back with a resilient walking rhythm. The pair moves as one supported unit; no jumps, stamp shock or unsupported arm flourish.
-
-[0:26–0:29.5] — WEIGHTED FINISH
-Two compact forward steps and a planted knee rebound complete the phrase. Both retain solemn faces; his support arms never become dancing arms.
-
-[0:29.5–0:30] — SUPPORTED END
-Resolve securely in the same cradle after exactly one half-turn, for only the last half-second; no dismount.
+STORY FLOW:
+Already in the cradle, Serega carries Yulia through buoyant grounded dance steps. She actively balances and answers him with her shoulders and expression while both remain solemn. Include ONE clockwise half-turn viewed from above, made by his planted walking/pivot steps; the supported pair turns together. Continue a lively compact travelling phrase after the turn, preserving both forearm supports. Finish in that same cradle after the half-turn; no pickup, dismount, throw or change of carry. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 The same pair remains in the cradle hold after ONE half-turn. Keep the support points fixed and faces solemn. The shoulder pose belongs to a separate later shot; do not morph into it here. H28B light and the hangar remain unchanged through the final frame.
 
 CAMERA / SPACE:
-Closer medium-full supported-pair composition, natural 50mm perspective: the combined supported silhouette fills at least 80% of image height, heads large and separate. Include supporting hands and the carrier feet. Smooth short backward tracking for forward steps, no orbit to fake rotation. Keep both faces clear in three-quarter view as physically possible, no large empty headroom or distant hangar view.
+One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Incorrect support geometry, missing support hand, detached grip, extra arms/legs/fingers, fused bodies, face swap, changing scale, child-sized partner, broken joints, floating feet, gliding carrier, weightless partner, duplicated people, mirrored doubles, tangled cloaks, body passing through armor, lift during camera cut, pickup transition, shoulder transfer, throw, drop, jump, weapons, smiles, changing room, facial color flicker, strobe, camera shake, cuts within this clip, captions, credits, text, logos or watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Floating partner, hidden or changing supports, merged heads.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2143,64 +1745,38 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
-@Image2 = absolute SEREGA identity/costume sheet.
-@Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked S28 two-person supported-pose reference: exact opening body arrangement, support points ONLY; use the closer camera specified below. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Image4: checked S28 opening right-shoulder side-saddle pose and support points only, not identity or distant framing. The individual sheets override the helper. Exactly two full-size adults.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
+
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
 Keep the initial two support points fixed through every step. Supporting arms stay visibly outside bodies, no floating partner, fused limbs, grip swap, jump, throw or transition into a different carry. Cloth follows real inertia and remains clear of feet. This is energetic planted movement, not an acrobatic lift.
-
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain tall graphite ribs, white wall strips, satin dark floor, flush Imperial medallion, two amber guide lines and cyan/magenta floor borders. The rear opening, stationary planet and deep frame-right parked shuttle retain the reference geometry. Colored floor accents and overhead beams remain STEADY throughout this interaction; constant soft neutral-white face light, natural exposure, no strobe or colored face flicker. Reflections are faint, never a second pair. No other cast, crowds, machinery, platforms or new furniture. The performance is utterly serious, like a state ceremony.
 
 START STATE:
 YULIA is already seated upright SIDE-SADDLE on SEREGA's RIGHT shoulder, exactly as the approved pose reference: both bent legs hang together in front of the right side of his torso. His right forearm supports her thighs, while his left hand stabilizes her lower legs. Her torso stays upright and slightly balanced toward him; one gloved hand lightly rests on his shoulder away from his face. Their heads are separate with an unobstructed outline. His stance is broad and grounded, their cloaks hang separately. She is one full-size adult, not miniaturized.
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
-TIMELINE:
-[0:00–0:04] — PARADE GROOVE
-Already in the exact right-shoulder seated support, Serega begins four compact heel-to-toe steps in a shallow forward diagonal. His upper body remains stable and both grips stay fixed.
-
-[0:04–0:09] — SIDE PHRASE
-He takes a grounded side-close-side-close phrase, knees absorbing weight without bouncing Yulia off the shoulder. She answers with one free forearm sweep and head inclination; her supporting hand stays on his shoulder.
-
-[0:09–0:14] — RETURNING PHRASE
-Four purposeful steps along the opposite shallow diagonal complete the travelling shape. Yulia keeps her upright balance and gives two crisp shoulder accents; no spin, grip change or other carry.
-
-[0:14–0:20] — REVERSE TRAVEL
-Repeat the shallow diagonal walking pattern with the opposite foot leading, the carrier torso steady. Yulia answers through her free forearm and head, keeping the seated balance.
-
-[0:20–0:26] — SIDE RETURN
-One side-close phrase and its return maintain a lively walking pulse with fixed supports. Do not manufacture speed by bouncing the passenger, turning fast or changing the grip.
-
-[0:26–0:29.5] — FINAL ACCENTS
-Two firm heel-toe steps and a small grounded knee rebound bring the pair to a clear front three-quarter angle. Her free hand opens outward, then settles below her face.
-
-[0:29.5–0:30] — SUPPORTED END
-Keep the exact side-saddle support for the final half-second only. No dismount or extra people.
+STORY FLOW:
+Serega dances forward and sideways in a compact, purposeful parade-like groove, carrying Yulia securely on his RIGHT shoulder. Let the footwork vary naturally while his torso and support remain steady. She contributes with her free forearm and shoulders, the other hand staying on his shoulder. Their absurd confidence stays completely serious. End in the same side-saddle support at a clear front three-quarter angle. No pickup, dismount, spin, bouncing her off the shoulder or change of grip. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. Resolve only on the last half-second; do not generate the dismount or extra cast. H28B light and the hangar remain unchanged through the final frame.
 
 CAMERA / SPACE:
-Closer medium-full supported-pair composition, natural 50mm perspective: the combined supported silhouette fills at least 80% of image height, heads large and separate. Include supporting hands and the carrier feet. Smooth short backward tracking for forward steps, no orbit to fake rotation. Keep both faces clear in three-quarter view as physically possible, no large empty headroom or distant hangar view.
+One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Incorrect support geometry, missing support hand, detached grip, extra arms/legs/fingers, fused bodies, face swap, changing scale, child-sized partner, broken joints, floating feet, gliding carrier, weightless partner, duplicated people, mirrored doubles, tangled cloaks, body passing through armor, lift during camera cut, pickup transition, shoulder transfer, throw, drop, jump, weapons, smiles, changing room, facial color flicker, strobe, camera shake, cuts within this clip, captions, credits, text, logos or watermark. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Floating partner, hidden or changing supports, merged heads.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2215,59 +1791,36 @@ Mode: image-to-video from exact first frame | Duration: 30s | Resolution: 720p |
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is the already checked twelve-subject GROUP MASTER and the exact first frame. Preserve its identities, complete head count, costumes, row positions, cat scale, hangar geometry, steady H28B light and opening camera. A short later camera move is specified below. It was assembled from the approved individual character sheets; animate those existing people, do not invent or recompose a cast. Exactly NINE adult human/humanoid characters, ONE small ALESYA Ewok-like character with her exact adult human face, and TWO ordinary cats. No new references are needed for this animation input.
-Priority: the identity authority specified above outranks pose helpers; environment controls only place and light, and support poses never recast a person.
+@Image1 is the checked G28 GROUP MASTER assembled from the approved individual sheets, and the exact FIRST FRAME: animate its existing twelve subjects, identities, costumes, scale and staggered row positions. It controls this image-to-video shot; do not recast or recompose it. Nine adult humans/humanoids, one small Alesya with her adult face, two ordinary cats. Keep its H28B space and opening camera.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Front human row: SEREGA, pale older balding man in deep-purple robe, left; YULIA, long chestnut hair and dark armor/black cloak, right. Second row left to right: PASHA, clean-shaven/navy Jedi; SASHA, beard/round glasses/cream-burgundy robe; ARTEM, heavier bearded man/cream-brown robes; ILYUSHA, moustache/olive tunic/deep-red cloak. Rear row left to right: LESHA, slimmer moustached man/purple inner tunic/grey robe; MASHA-LAGUNA, aquatic-blue woman/long blue head strands/black crown-collar/back ornament/opaque floor-length blue costume; VITALIK, heavier man/black tunic/dark leather panels/brown trousers. Preserve every face exactly as visible in @Image1.
 ALESYA stands at front centre: small brown-furred body, brown hood, round ears and exact adult human face from the source sheet; no spear. Keep her distinct from the two cats and smaller than the adults.
 LUCHIK, fluffy white-grey cat, is on the floor front-left; RYZHIK, fluffy ginger tabby, is front-right. Both remain on all fours at ordinary domestic-cat scale, their standing heads below a nearby adult knee. Masha's chest and abdomen remain covered by one smooth opaque blue costume surface: no nipples, areolae, navel or anatomical relief. No weapons.
 
-LOCATION / SPACE — CRITICAL:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 START STATE:
 Match the exact group master first frame: same twelve identities, staggered rows, low arms and natural quadruped cats. All faces are visible in the row gaps. Movement starts immediately from that pose; retain upper-corner room for later titles without generating text.
 
-TIMELINE:
-[0:00–0:04] — ENSEMBLE START
-Animate the exact first-frame cast immediately: the adults and Alesya make a synchronized outward forearm sweep and weighted knee rebound. Cats take one natural short step; no one waits through an establishing shot.
-
-[0:04–0:09] — ROW RIPPLE
-A shoulder-and-torso wave passes front to middle to rear row while the other rows keep a low foot pulse. Faces remain visible through the original staggered gaps; no row changes.
-
-[0:09–0:14] — FULL-BODY UNISON
-Human performers alternate low side toe-taps and torso turns within their own footprints, opening and closing forearms below faces. Masha keeps steps inside her intact hem. Alesya conducts; cats turn heads and flick tails on all fours.
-
-[0:14–0:20] — REVERSE ROW WAVE
-Send the same torso-and-forearm phrase back from rear to front row while every other performer keeps a low knee pulse. Preserve gaps and all twelve subjects.
-
-[0:20–0:26] — ENSEMBLE VARIATION
-Alternate low toe-taps and opposing shoulder turns in unison, then open low arms on a shared accent. Cats take one natural step and settle onto four paws; Alesya conducts without leaving her centre mark.
-
-[0:26–0:29.5] — CLOSING PHRASE
-Two shared knee rebounds and a broad low arm sweep resolve back toward the original silhouette. Every row continues its weight transfer until the final beat; no cast rearrangement.
-
-[0:29.5–0:30] — FINAL PUNCTUATION
-Return to the original low pose only for the last half-second, preserving all twelve identities.
+STORY FLOW:
+The exact first-frame ensemble bursts into an exuberant deadpan dance together. Let a broad shoulder-and-arm wave pass front to middle to rear while the other rows keep dancing; develop it into lively shared whole-body phrases. Preserve the staggered rows and face gaps. Masha moves within her closed hem; Alesya conducts from front centre; the cats contribute natural steps, head turns and tails on all fours. Build to the original low parade silhouette on the final beat, with all twelve still present. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
 
 END STATE:
 The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Resolve into this pose only on the final half-second; cloth, breath and tails settle naturally. H28B disco lighting is established and steady at the last frame.
 
 CAMERA / SPACE:
-Start with the exact group master framing; during the first three seconds smoothly push closer until the group fills the frame, keeping every head, Alesya and both cats visible. Then hold that closer composition. Do not demand individual close-ups and all twelve full bodies simultaneously. Row positions and eye visibility are fixed; no large empty hangar margins.
+Begin at the exact @Image1 first frame. One continuous frontal ensemble view with a modest smooth push that keeps all twelve subjects, feet and row gaps in frame. Preserve upper-corner room for later titles without generating any text.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze. Cats perform only the specified natural feline movements; their energy never requires human dance anatomy.
-
-LIGHTING / MATERIALS:
-H28B disco lighting is fully established at frame zero. Existing cyan/magenta floor borders and ceiling accents remain steady; the hangar geometry does not move. Constant soft neutral-white key and fill illuminate faces; keep skin texture, eyes, age and costume colour readable throughout movement. Real heavy cloth, metal armour and grounded foot contact, faint floor reflections. No lighting prelude, strobe or coloured facial flicker.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, Missing or extra person, duplicated face, merged rows, costume swap, changed glasses, changed cat colors, human-scale cats, humanoid cats, bipedal cats, Masha torso anatomy, nipples, navel, exposed abdomen, new weapons, crossing arms over faces, row migration, changed formations, mirror doubles, moving architecture, lip sync, generated titles, captions, logos, watermark, cartoon or game-render look. No tiny distant human faces, empty-hangar establishing shot, slow-motion movement, prolonged idle pose, motion-blurred identity or frozen facial mask.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Human hands or upright dancing on cats, giant cats, child face or adult-human scale for Alesya.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2282,16 +1835,13 @@ Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | A
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B, exact environment and established disco lighting only.
-@Image2 — absolute SEREGA identity, proportions and costume.
-@Image3 — absolute YULIA identity, proportions and costume.
-Priority: each individual identity sheet controls only its own person; the location cannot change their appearance. No identity blending. The partners remain full-size adults.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Each individual sheet controls only its own person and outranks the environment. Exactly two full-size adults; no extra sheet-view copies.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: the exact pale older Chancellor from @Image2, balding crown with sparse light hair, approved build, long deep-purple robe. YULIA: the exact adult woman from @Image3, long chestnut hair, dark black-grey armor with shoulder pieces, gloves and a long black cloak. Preserve their real faces, ages, heights and body proportions through profile and movement. No beautification, recasting, costume changes or weapons. Each reference sheet shows multiple views of ONE person; exactly two adults appear.
+SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
 
-HANGAR / PARTNER GEOMETRY — CRITICAL:
-Photoreal live-action in the H28B Imperial hangar: fixed graphite ribs, white wall strips, satin dark floor, flush starburst medallion, amber guide lines, cyan/magenta floor borders, rear space opening and parked shuttle deep frame-right. Location establishes architecture and light, not a distant camera. No other dancers. Preserve a single action axis, Serega's starting mark frame-left, Yulia's frame-right. Dance together with visible shared weight and anticipation; never two unrelated solo routines.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
 The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his left forearm supports Yulia's upper back/ribcage, his right supports both thighs just above her knees. Her head stays toward his left side and her feet toward his right. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
@@ -2300,53 +1850,28 @@ START STATE:
 Both stand on the floor, Serega frame-left facing diagonally right and Yulia frame-right facing diagonally left, about one metre apart. Hands clear, both faces readable, H28B lights already established. Begin the approach immediately, no entrance or light-switching prelude.
 
 TIMELINE:
-[0:00–0:03] — APPROACH IN RHYTHM
-Both immediately take two decisive steps together with a shared knee pulse. Yulia turns her side toward his chest; he establishes the visible upper-back and thigh supports before her feet leave the floor.
+[0:00–0:05] APPROACH AND SUPPORT. Dance together immediately. Yulia turns her side toward his chest; Serega visibly secures her upper back and thighs before her feet leave the floor. He lifts through his legs; she extends both legs together and opens her arms like wings once stable.
 
-[0:03–0:05] — OPEN HORIZONTAL
-Serega rises through his legs. Yulia extends both legs together and opens both arms into the broad wing shape, keeping an active torso. Flow straight into the travelling turn, no suspended display pose.
+[0:05–0:09] TURN. Carry the broad horizontal wing shape through ONE clockwise half-turn viewed from above, using grounded steps. Their bodies travel as one supported unit; do not fake the turn with the camera.
 
-[0:05–0:09] — TURN TOGETHER
-Four brisk grounded pivot steps make one clockwise half-turn viewed from above. Both bodies travel as one supported unit; Yulia keeps her wing line alive through the turn. Do not orbit the camera to fake rotation.
+[0:09–0:15] LOWER AND RECONNECT. Lower her feet to the floor, retaining both supports until she bears her own weight. They dance back onto Serega-left/Yulia-right marks and face one another about 60 cm apart, hands down around the midpoint. Natural connecting steps are free; the support sequence is fixed.
 
-[0:09–0:12] — LOWER IN MOTION
-He bends his knees and lowers her feet to the floor with both support points intact until she bears her own weight. She closes the wing shape as her feet land; no pause halfway down.
-
-[0:12–0:15] — RECONNECT
-Both take two short rhythmic steps onto Serega-left/Yulia-right marks and turn face-to-face. One shared knee rebound flows into arms lowered at about60cm separation. Resolve only on the last half-second.
-
-[0:15–0:18] — SHARED FOOTWORK
-Continue from the standing hands-down handoff just reached. Two quick heel-toe weight changes and an opposing torso lean begin immediately without changing the gap or screen sides; eyes stay on the partner.
-
-[0:18–0:21] — YULIA FRAMES HIS FACE
-Yulia makes one flowing two-hand fan outside Serega's jaw and temples, opens outward and lowers both hands. He inclines his head; both keep a gentle knee pulse. No palms over eyes, nose or mouth.
-
-[0:21–0:24] — SEREGA ANSWERS
-Only after her hands clear, Serega mirrors one two-hand fan outside her face, opens outward and lowers. She answers with a head inclination; weight shifts continue beneath the hand phrase. Exactly one fan per partner.
-
-[0:24–0:27] — TRAVELLING RELEASE
-Both take two decisive backward heel-toe steps, travelling about70cm each, shoulders opening away and inside arms reaching toward one another across empty air. Show push-off and landing, not skating.
-
-[0:27–0:30] — LOW REBOUND FINISH
-At two metres separation, rebound once through the knees into opposing outward low lunges, still looking toward the partner. Reach remains across an empty gap. Final punctuation lasts only the last half-second.
+[0:15–0:30] FACE EXCHANGE AND RELEASE. Continue directly from that standing position with a shared rhythmic weight shift. Yulia makes ONE flowing two-hand fan OUTSIDE Serega's jaw and temples, opens outward and lowers both hands. Only after they clear, he answers with ONE matching two-hand fan outside her face and lowers his hands. Keep eyes, nose and mouth visible; hands never pass through a head. They then dance backwards about 70 cm each, opening their shoulders away while their inside hands reach across empty air. At about two metres separation, land opposing low outward lunges on the closing beat, still looking at one another. Keep natural movement between these essential actions.
 
 END STATE:
 Both stand two metres apart, Serega left and Yulia right, each in a low outward lunge with their inside hand extended toward the other across an empty air gap. They look at one another with solemn faces; feet planted, hands not touching, cloaks settling.
 
 CAMERA / SPACE:
-A clear full-body two-shot, natural 40–50mm perspective. The pair occupies most of the frame, with enough lateral room for the horizontal support and both sets of feet. A short smooth lateral track reveals both faces and support hands during the half-turn without orbiting or crossing the axis. Do not crop the carrier feet or the extended legs. Ease into a waist-up two-shot only after both partners are standing again. No cuts across the pickup or lowering. For the face exchange use a waist-up two-shot; smoothly widen before the outward steps. Keep the same axis throughout.
+One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed, buoyant full-body dance with completely serious faces. The humour comes from partners answering one another with unexpectedly grand movement, not grimacing. Keep a brisk even underlying pulse at normal real-time speed: feet push off and land, knees absorb weight, torso and arms follow each step. Accents are momentary changes of direction inside the phrase, not stops between instructions. Use the specified travel and partner response, not an endless elbow-pumping robot loop. Preserve recognizable faces through turns; brief natural profiles are allowed. No slow motion, speed ramps, prolonged opening pose or multi-second final freeze. During the supported lift, energy comes from the carrier's grounded steps and the passenger's active extended silhouette; never speed up into a throw or unsupported swing.
-
-LIGHTING / MATERIALS:
-Disco accents are already on, steady cyan/magenta around the floor and behind the pair. A constant soft neutral-white key lights faces, eyes and hands. Preserve pores, fabric weave, age and armor finish; natural motion blur only. Cloaks trail with inertia, stay separate and do not catch beneath feet. Faint floor reflections, no mirrored extra performers.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
 
 AUDIO:
-Quiet foot contacts, cloth movement, breath and hangar room tone only. No dialogue, vocals or generated musical score; movement follows its own even pulse without waiting for an audible cue.
+Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
 
 NEGATIVE PROMPT:
-Wrong people, blended faces, changed age or hair, costume drift, extra dancers, duplicate sheet bodies, shrinking the adult woman, distorted limbs or fingers, hands fused to cheek or armor, stretched arms, broken joints, weightless lift, floating carrier, spinning in place without footwork, body intersection, shoulder-saddle seating, limp cradle carry, dropped partner, toss, neck grip, slap, face wiping across eyes/nose, kiss, unrelated robotic solos, repeated tiny steps, slow motion, long idle hold, camera roll, sudden orbit, empty-hangar wide shot, face-obscuring blur, strobe, changing architecture, dialogue, song, captions, credits, logos, watermark.
+Identity swaps, extra cast, skating feet, fused limbs, weapons, strobe or coloured face flicker, slow motion, prolonged poses, camera cuts, generated titles or watermark. Floating partner, hidden or changing supports, merged heads.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -4995,7 +4520,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 49 — Финальные титры: все играют космический рок на инопланетных инструментах
 
-**Редакция активности · 20.10.2026, 00:55 МСК:** по прямой команде владельца все текущие промпты этой сцены переработаны на активное исполнение с первого кадра, непрерывные связки и короткий финальный акцент. В30с версиях сохранена плотность движения, без растягивания нескольких жестов на весь клип. Это новая редакция для будущих генераций; уже отправленные задачи используют прежний текст, дословно сохранённый в git и receipts. Основной движок — Seedance2.0, альтернативная вкладка30с не является разрешением на запуск. Сначала один15с тест A1 после сюжетной очереди и оценка владельца, затем решение об остальных танцах/музыке. Текстовая готовность не доказывает качество видео. Разбор и проверки: [активность28/49–51](reports/dance-music-energy-2026-10-20.md).
+**Редакция исполнения · 25.10.2026:** по команде владельца после аудита танцев сокращены повторы и пошаговая хореография; свободное исполнение сочетается с точными гэгами, хватом, опорами и реальными стыками. Обновлены все варианты этой сцены. Это промты будущих разрешённых запусков: уже отправленные задачи используют прежний текст, дословно в git/receipts; их результат оценивается по нему. Качество новой редакции предстоит проверить по роликам. Стандарт — [§5А](PROMPT-STYLE-GUIDE.md); [отчёт о правке](reports/prompt-refresh-2026-10-25.md).
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28}],"tags":["dance_credits","alien_rock_band","imperial_hangar","same_H28B","identity_lock","instrument_ensemble","montage_insert"]} -->
 
@@ -5032,60 +4557,46 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous. A wildly pompous face-to-face melodic alien-guitar duet. The two rivals radiate serious rock-star grandeur.
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Серёга; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Юля; exact face, hair, build and costume as described below.
 @Image4 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 @Image5 — PLAYING GRIP / POSE ONLY: left hand frets the physical neck, right hand picks strings above the body bridge, supported by a strap; do not use a two-handed smash grip. Original identities @Image2–3 and prop design @Image4 retain priority.
-Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Серёга (@Image2) — SEREGA, pale older male Chancellor with sparse light hair and a bald crown, reserved mature face, EXACT long dark-purple robe from individual sheet.
 Юля (@Image3) — YULYA, long chestnut hair, exact adult female face; charcoal-black fitted armour, shoulder plates, gloves and long dark cape.
-Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+Preserve each exact face, age, build and approved outfit; do not blend or recast the performers.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
-Серёга: blue-ringed black-metal alien lead guitar, six clearly defined taut luminous strings, one physical neck and resonant blue energy core
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Серёга: blue-ringed black-metal alien lead guitar, six clearly defined taut luminous strings, one physical neck and resonant blue energy core
 Юля: silver-and-violet four-string alien bass with slim nacelle-like resonator, physical frets and hand-sized body
-Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Exactly Серёга, Юля are already performing in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — RIFF ALREADY RUNNING
-Serega left and Yulya right play from frame zero: continuous picking and fretting, two alternating planted knee bends, shoulders driving the accents. No arrival or held opening chord.
-
-[0:04–0:08] — PARTNER CHALLENGE
-Serega takes one broad side step and leans into a short lead phrase; Yulya answers with two bass accents and a diagonal step toward him. Both continue playing between answers, straps carrying the instruments.
-
-[0:08–0:12] — BACK-TO-BACK RHYTHM
-They quarter-turn outward without swapping sides, then rebound toward one another through two grounded steps. Keep necks in separate arcs and hands fretting/picking throughout, with a sharp head-and-shoulder accent on each return.
-
-[0:12–0:15] — SHARED FINISH
-Two forceful synchronized downstrokes and knee rebounds build into a final shared accent. Raise necks slightly while keeping real hand contact; only the final half-second resolves the pose.
+STORY FLOW:
+Serega left and Yulya right are already playing an exuberant alien-rock guitar duel. They challenge and answer one another through the music, leaning into riffs, stepping with the groove and turning out and back without swapping sides. Let their performance develop naturally with pompous, utterly serious rock-star faces. Keep the straps supporting the instruments, left hands fretting and right hands picking at the bridges; necks move through separate arcs. Build to a shared closing accent, still visibly playing.
 
 END STATE:
-The same named performers remain at their assigned instruments and marks within H28B, faces, costumes and props unchanged. They land the closing accent only during the final half-second; breath, fur/cloth and instrumental resonance continue naturally.
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
 
 CAMERA / SPACE:
-One continuous cinematic shot, natural40–50mm perspective, framed close enough to read faces and actual playing contact. A smooth short lateral track follows the performers' modest weight shifts; show feet when they travel and preserve clear instrument lanes. Energy comes from the performance, not rapid camera moves. Keep the original screen sides and fixed H28B landmarks; no empty-room reveal or flying orbit.
+One continuous medium-full view of the named players, natural 40–50mm perspective. A short smooth lateral track follows their movement; keep faces, instruments, playing hands and useful footwork visible. Preserve screen sides and the fixed H28B geography.
 
 PERFORMANCE:
-Play from the first frame with a brisk, even hard-rock pulse and visible continuous physical effort. Finger/paw contact causes notes and light pulses; hands remain on their assigned playable surfaces between accents. Human players shift weight through their knees and torso, answer one another and recover naturally after emphatic hits; keep proud, comically serious faces. Stationary instruments stay planted. Cats use only natural supported feline movements. Energy must come from actual playing and body motion, not camera speed or flashing lights. No slow motion, statue poses, waiting for a cue or multi-second held ending.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
 
 NEGATIVE PROMPT:
-Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5110,63 +4621,49 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous. A three-person, extremely confident and slightly absurdly majestic rock rhythm break: heavy gravibass, alien electric guitar and orbital-ring percussion.
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Паша; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Саша; exact face, hair, build and costume as described below.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Артём; exact face, hair, build and costume as described below.
 @Image5 — PROP DESIGN ONLY: Pasha bronze four-amber-string gravibass, Sasha cobalt six-string rhythm guitar and Artem three-ring percussion.
 @Image6 — PLAYING GRIP / POSE ONLY: Pasha left and Sasha centre use left hand fretting and right hand picking at the body bridge; Artem right holds one stick in each hand over separate rings. This is not a smash grip. Individual originals and separate prop designs override any helper deviations.
-Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Паша (@Image2) — PASHA, adult man in dark navy Jedi tunic with brown belt, dark trousers and high boots; exact adult face and build from his sheet.
 Саша (@Image3) — SASHA, bearded adult man with distinctive round glasses, cream under-tunic and burgundy-brown robe; exact face and glasses.
 Артём (@Image4) — ARTEM, heavier-built bearded man, cream/beige tunic beneath brown outer robe, wide belt and boots, unmodified facial hair.
-Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+Preserve each exact face, age, build and approved outfit; do not blend or recast the performers.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
-Паша: heavy bronze gravibass with four distinct amber light-strings, conventional playable fingerboard and solid body
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Паша: heavy bronze gravibass with four distinct amber light-strings, conventional playable fingerboard and solid body
 Саша: compact twin-rail cobalt alien rhythm guitar with glowing pickups and six playable strings
 Артём: standing metallic three-ring kinetic-percussion console struck by two short sticks; amber impact halos, solid supporting stand
-Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Exactly Паша, Саша, Артём are already performing in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — DRIVING RHYTHM
-Pasha left immediately plucks an insistent repeating bass pattern; Sasha centre chops offbeat chords; Artem right alternates physical stick strikes on his three fixed rings. Knees and shoulders carry the fast pulse from the first frame.
-
-[0:04–0:08] — CALL THROUGH THE TRIO
-Artem sends a short left-right ring fill to Sasha's emphatic strum; Pasha answers with a clearly fretted bass run. Guitarists step out and back within their lanes while the percussion stand remains planted.
-
-[0:08–0:12] — LOCKED GROOVE
-Pasha and Sasha lean forward and rebound on alternating beats, still playing. Artem continues alternating strokes, then adds one wider two-ring accent with visible contact. No musician freezes while another leads.
-
-[0:12–0:15] — THREE-WAY ACCENT
-A brisk final run of bass, chords and ring hits converges on one shared downbeat. Robes keep their inertia; faces and instruments remain readable. Final pose resolves only during the last half-second.
+STORY FLOW:
+Pasha left drives the gravibass, Sasha centre answers with forceful rhythm-guitar chords, Artem right fires back on the three-ring percussion. They enjoy a vigorous call-and-response groove, bodies naturally following the music. The guitarists can step and lean within their lanes while continuously fretting and picking; Artem keeps one stick in each hand, making visible strikes on the separate fixed rings. Let the interaction and playing gestures vary naturally. Converge on one emphatic closing downbeat.
 
 END STATE:
-The same named performers remain at their assigned instruments and marks within H28B, faces, costumes and props unchanged. They land the closing accent only during the final half-second; breath, fur/cloth and instrumental resonance continue naturally.
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
 
 CAMERA / SPACE:
-One continuous cinematic shot, natural40–50mm perspective, framed close enough to read faces and actual playing contact. A smooth short lateral track follows the performers' modest weight shifts; show feet when they travel and preserve clear instrument lanes. Energy comes from the performance, not rapid camera moves. Keep the original screen sides and fixed H28B landmarks; no empty-room reveal or flying orbit.
+One continuous medium-full view of the named players, natural 40–50mm perspective. A short smooth lateral track follows their movement; keep faces, instruments, playing hands and useful footwork visible. Preserve screen sides and the fixed H28B geography.
 
 PERFORMANCE:
-Play from the first frame with a brisk, even hard-rock pulse and visible continuous physical effort. Finger/paw contact causes notes and light pulses; hands remain on their assigned playable surfaces between accents. Human players shift weight through their knees and torso, answer one another and recover naturally after emphatic hits; keep proud, comically serious faces. Stationary instruments stay planted. Cats use only natural supported feline movements. Energy must come from actual playing and body motion, not camera speed or flashing lights. No slow motion, statue poses, waiting for a cue or multi-second held ending.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
 
 NEGATIVE PROMPT:
-Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5191,63 +4688,49 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous. Three different alien instruments create a monumental hard-rock break without changing the already established Jedi costumes.
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Илюша; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Лёша; exact face, hair, build and costume as described below.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Виталик; exact face, hair, build and costume as described below.
 @Image5 — PROP DESIGN ONLY: Lesha curved black/brass wind synth, Ilyusha blue compact drums with two ring cymbals and Vitalik black orange/red bass.
 @Image6 — PLAYING GRIP / POSE ONLY: Lesha left has the mouthpiece at his lips, hands on upper/lower keys; Ilyusha rear-centre sits with two sticks and feet at pedal/floor; Vitalik right frets with left hand, picks with right. Individual originals and separate prop designs override any helper deviations.
-Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Илюша (@Image2) — ILYUSHA, chestnut tousled hair, moustache, olive-green Jedi tunic and deep-red hooded cloak, brown boots.
 Лёша (@Image3) — LESHA, moustache, purple inner tunic under long hooded grey robe, brown belt and pale boots.
 Виталик (@Image4) — VITALIK, broad sturdy adult man in black tunic and dark leather/armour panels, brown trousers, tall boots, exact individual face.
-Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+Preserve each exact face, age, build and approved outfit; do not blend or recast the performers.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
-Илюша: compact futuristic drum kit with blue-edged rigid drum membranes, one kick drum and two ring-cymbals; real sticks
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Илюша: compact futuristic drum kit with blue-edged rigid drum membranes, one kick drum and two ring-cymbals; real sticks
 Лёша: black-brass spiral alien wind synthesizer, real curved tube and mouthpiece, turquoise sound-ring at the bell
 Виталик: large black low-frequency bass with orange-red luminous strings and one round sub-bass resonator
-Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Exactly Илюша, Лёша, Виталик are already performing in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — FULL BAND DRIVE
-Ilyusha immediately plays alternating membrane strikes from his seat; Vitalik picks a driving bass pattern with full knee-and-torso rebounds; Lesha articulates rhythmic wind-synth notes with the mouthpiece at his lips and keys under his fingers.
-
-[0:04–0:08] — PERCUSSION ANSWER
-A short drum fill travels across the physical kit while Vitalik takes two compact side steps and back, picking continuously. Lesha rocks heel-to-toe and angles the bell with his torso, keeping mouthpiece contact.
-
-[0:08–0:12] — RISING PHRASE
-Drums return to a strong pulse, bass repeats with sharper accents, and Lesha makes a forward lean and recovery while playing. No headbanging that disconnects the mouthpiece and no seated drummer leaving the kit.
-
-[0:12–0:15] — FINAL HIT
-The drummer builds a short roll into a double contact, Vitalik strikes the low accent, and Lesha raises the bell within playable range. Bodies rebound naturally; no clean hold longer than the final half-second.
+STORY FLOW:
+Ilyusha rear-centre drives the beat from his drum seat, Vitalik right answers with his heavy bass, and Lesha left plays a rising wind-synth phrase. They throw themselves into the groove with solemn rock grandeur, responding naturally to each other. Ilyusha remains seated at the real kit, sticks contacting membranes and ring cymbals; Vitalik frets left-handed and picks right-handed. Lesha keeps the mouthpiece at his lips and hands on upper/lower keys, moving the bell with his torso rather than disconnecting it to headbang. Build into a shared accent.
 
 END STATE:
-The same named performers remain at their assigned instruments and marks within H28B, faces, costumes and props unchanged. They land the closing accent only during the final half-second; breath, fur/cloth and instrumental resonance continue naturally.
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
 
 CAMERA / SPACE:
-One continuous cinematic shot, natural40–50mm perspective, framed close enough to read faces and actual playing contact. A smooth short lateral track follows the performers' modest weight shifts; show feet when they travel and preserve clear instrument lanes. Energy comes from the performance, not rapid camera moves. Keep the original screen sides and fixed H28B landmarks; no empty-room reveal or flying orbit.
+One continuous medium-full view of the named players, natural 40–50mm perspective. A short smooth lateral track follows their movement; keep faces, instruments, playing hands and useful footwork visible. Preserve screen sides and the fixed H28B geography.
 
 PERFORMANCE:
-Play from the first frame with a brisk, even hard-rock pulse and visible continuous physical effort. Finger/paw contact causes notes and light pulses; hands remain on their assigned playable surfaces between accents. Human players shift weight through their knees and torso, answer one another and recover naturally after emphatic hits; keep proud, comically serious faces. Stationary instruments stay planted. Cats use only natural supported feline movements. Energy must come from actual playing and body motion, not camera speed or flashing lights. No slow motion, statue poses, waiting for a cue or multi-second held ending.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
 
 NEGATIVE PROMPT:
-Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5271,60 +4754,46 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous. An intentionally overdramatic two-performer instrumental interlude: crystalline resonance harp and small illuminated alien keyboard, preserving the approved Laguna and Ewok designs.
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Маша Лагуна; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Алеся; exact face, hair, build and costume as described below.
 @Image4 — PROP DESIGN ONLY: Masha silver harp with six blue anchored strings and Alesya small two-tier amber/violet keyboard; preserve her original small scale.
 @Image5 — PLAYING HAND CONTACT / SCALE ONLY: Masha plucks separate anchored harp strings with both hands; tiny adult Alesya reaches the two low keyboard tiers naturally. Preserve original small scale. Individual originals and separate prop designs override any helper deviations.
-Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Маша Лагуна (@Image2) — MASHA LAGUNA, exact blue humanoid face and long light-blue tentacle-like head strands, completely opaque full-length blue costume with smooth enclosed torso, dark head and back details; no exposed body modifications.
 Алеся (@Image3) — ALESYA, very short Ewok-sized character with approved adult human face, brown fur and round ears inside her brown hood, NO spear.
-Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+Preserve each exact face, age, build and approved outfit; do not blend or recast the performers. Alesya is about one metre tall, with an adult face; Masha's chest and abdomen stay covered by a smooth opaque costume surface.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
-Маша Лагуна: fixed slender silver-and-blue crystalline string-harp, six physically anchored light-arcs plucked by both hands
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Маша Лагуна: fixed slender silver-and-blue crystalline string-harp, six physically anchored light-arcs plucked by both hands
 Алеся: small stable two-tier amber-violet alien synthesizer on a low stool-height stand, real tactile keys
-Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Exactly Маша Лагуна, Алеся are already performing in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — STRINGS AND KEYS IN MOTION
-Masha plays alternating brisk plucks across the six anchored strings; tiny Alesya answers with a two-handed key pattern. Masha sways through her torso with short grounded foot shifts under the intact hem; Alesya bounces through her knees at the fixed low keyboard.
-
-[0:04–0:08] — MUSICAL CHALLENGE
-Masha makes a sweeping run across real strings with alternating hands, then recoils through her shoulders; Alesya answers with an ascending run on the lower tier and returns to the pulse. Neither leaves the instrument or waits motionless.
-
-[0:08–0:12] — CROSS-RHYTHM
-Masha leans toward the harp and opens back as her hands continue plucking; Alesya alternates two chord clusters between the tiers with clear finger contacts. Head strands and fur follow the movements, instruments remain stationary.
-
-[0:12–0:15] — JOINED ACCENT
-They build a short synchronized flourish, then hit one final musical accent with a firm torso-and-knee rebound. Hands remain near the playable surfaces; last half-second only for the finishing shape, no restrained ceremonial wave.
+STORY FLOW:
+Masha and tiny Alesya perform an absurdly majestic, energetic harp-and-synth duet. Masha sweeps through brisk plucked phrases on the six anchored strings; Alesya answers with lively playing across her two low keyboard tiers. Let their shoulders and bodies follow the music with proud serious faces, hands actually contacting strings and keys. Instruments and stands remain fixed. Masha steps within her intact opaque hem; Alesya stays about one metre tall and reaches the keyboard naturally. Build together into a bright closing flourish.
 
 END STATE:
-The same named performers remain at their assigned instruments and marks within H28B, faces, costumes and props unchanged. They land the closing accent only during the final half-second; breath, fur/cloth and instrumental resonance continue naturally.
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
 
 CAMERA / SPACE:
-One continuous cinematic shot, natural40–50mm perspective, framed close enough to read faces and actual playing contact. A smooth short lateral track follows the performers' modest weight shifts; show feet when they travel and preserve clear instrument lanes. Energy comes from the performance, not rapid camera moves. Keep the original screen sides and fixed H28B landmarks; no empty-room reveal or flying orbit.
+One continuous medium-full view of the named players, natural 40–50mm perspective. A short smooth lateral track follows their movement; keep faces, instruments, playing hands and useful footwork visible. Preserve screen sides and the fixed H28B geography.
 
 PERFORMANCE:
-Play from the first frame with a brisk, even hard-rock pulse and visible continuous physical effort. Finger/paw contact causes notes and light pulses; hands remain on their assigned playable surfaces between accents. Human players shift weight through their knees and torso, answer one another and recover naturally after emphatic hits; keep proud, comically serious faces. Stationary instruments stay planted. Cats use only natural supported feline movements. Energy must come from actual playing and body motion, not camera speed or flashing lights. No slow motion, statue poses, waiting for a cue or multi-second held ending.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
 
 NEGATIVE PROMPT:
-Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5348,60 +4817,46 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous. Two real unclothed cats become a comically serious percussion duo, while remaining ordinary small domestic cats; no anthropomorphic hands, clothes or standing upright.
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Лучик; exact fur pattern, size and natural cat body as described below; no clothes.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Рыжик; exact fur pattern, size and natural cat body as described below; no clothes.
 @Image4 — PROP DESIGN ONLY: Luchik four blue floor pads in a 2x2 layout and Ryzhik three amber circular floor pads; ordinary domestic-cat scale.
 @Image5 — PLAYING PAW CONTACT ONLY: natural cat bodies, hind paws on real floor; reachable front paws on separate low blue/amber pads. No human hands or upright standing. Individual originals and separate prop designs override any helper deviations.
-Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Лучик (@Image2) — LUCHIK, natural small white-and-grey long-haired domestic cat: white muzzle/chest/paws, grey crown and back, exact real fur and cat limbs; no clothes.
 Рыжик (@Image3) — RYZHIK, natural small long-haired orange tabby with darker striped fur and paler chest, exact real cat scale and cat paws; no clothes.
 Both are real domestic cats: cat-sized, four-legged, natural fur, no clothes, no human hands, no standing upright. No face blending or substitutions.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise paw interaction, visible pads, stable prop continuity. Assigned instruments: 
-Лучик: low cat-sized broad blue touch-percussion pad, four paw-sized pressure surfaces
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Лучик: low cat-sized broad blue touch-percussion pad, four paw-sized pressure surfaces
 Рыжик: low cat-sized amber touch-percussion pad, three separate circular strike zones
-Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Exactly Лучик, Рыжик are already performing in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — PAWS FROM FRAME ZERO
-At floor level, Luchik left and Ryzhik right immediately alternate reachable front-paw taps on their separate blue and amber pads. Hindquarters stay supported on the real floor; each paw visibly lifts, contacts and releases.
-
-[0:04–0:08] — CAT CALL AND RESPONSE
-Luchik makes two brisk taps on adjacent blue pads; Ryzhik answers on two amber pads while Luchik keeps a simple beat. Ears swivel and heads follow the partner; no human wrists, fingers or upright stance.
-
-[0:08–0:12] — PLAYFUL BUILD
-Both repeat their own tapping pattern with more pronounced natural shoulder and head movement. Tails counterbalance; their hind paws never leave the floor. Pads light only at real contacts, one cat per controller.
-
-[0:12–0:15] — JOINT BEAT
-A short alternating exchange lands on one synchronized paw contact. Both lift their heads alertly while paws settle naturally near the pads; end on the last beat without a multi-second statue pose.
+STORY FLOW:
+Luchik left and Ryzhik right play a comically serious paw-percussion duet, tapping their own reachable blue and amber pads with lively natural forepaw movements. Let the exchange feel playful and spontaneous: one cat answers the other while ears, heads and tails react. Hindquarters remain supported on the floor, paws visibly lift, contact and release; pads light at contact. They are real small cats, never upright drummers with human hands. End on a joint paw accent with alert heads and natural settling.
 
 END STATE:
-The same named performers remain at their assigned instruments and marks within H28B, faces, costumes and props unchanged. They land the closing accent only during the final half-second; breath, fur/cloth and instrumental resonance continue naturally.
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
 
 CAMERA / SPACE:
-One continuous floor-level two-cat shot with both whole natural bodies, hind paws and separate controllers visible. A short smooth lateral move follows the paw exchange; no human-height camera, giant cats or crop that hides support. Their coats and faces remain clear and the original hangar floor grounds their scale.
+One continuous low floor-level two-cat view, both entire cats and their own pads visible. A modest smooth push keeps paw contacts and natural body support readable.
 
 PERFORMANCE:
-Brisk playful feline percussion at normal real-time speed: alternate natural paw taps with visible lift/contact/release, grounded hindquarters, alert head turns and balancing tails. No human dance anatomy, upright stance, statue pose, slow motion or camera-made fake energy.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Natural cat meows and tiny rhythmic growls permitted between distinct percussion hits; no human words from cats.
+Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar. No spoken dialogue, lyrics, stage announcements or human singing. Natural cat meows and tiny rhythmic growls permitted between distinct percussion hits; no human words from cats.
 
 NEGATIVE PROMPT:
-Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark. Human hands or upright bodies on cats, giant cats.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5428,7 +4883,7 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous. A master-wide shot combining the already established 9+1+2 people/Ewok/cats into one deliberately absurdly pompous cosmic rock-band finale, with accurate approved ensemble geography.
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — approved G28-full-ensemble-Alesya-v2: ABSOLUTE ALL-CAST IDENTITY, original wardrobe, true tiny Ewok and domestic-cat scales, and overall ensemble composition. NOT a reference for new concert props.
 @Image3 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 @Image4 — PROP DESIGN ONLY: Pasha bronze four-amber-string gravibass, Sasha cobalt six-string rhythm guitar and Artem three-ring percussion.
@@ -5436,7 +4891,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image6 — PROP DESIGN ONLY: Masha silver harp with six blue anchored strings and Alesya small two-tier amber/violet keyboard; preserve her original small scale.
 @Image7 — PROP DESIGN ONLY: Luchik four blue floor pads in a 2x2 layout and Ryzhik three amber circular floor pads; ordinary domestic-cat scale.
 @Image8 — FULL BAND PLAYING POSES / FIXED POSITIONS ONLY: same complete approved cast and relative scale; keep these instrument assignments and clear spatial arrangement throughout. Original @Image2 retains absolute identity/costume authority, @Image3–7 retain prop authority. Individual originals and separate prop designs override any helper deviations.
-Priority: @Image2 is the authority for every character's face, costume and size; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Серёга — SEREGA, pale older male Chancellor with sparse light hair and a bald crown, reserved mature face, EXACT long dark-purple robe from individual sheet.
@@ -5453,46 +4908,33 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 Рыжик — RYZHIK, natural small long-haired orange tabby with darker striped fur and paler chest, exact real cat scale and cat paws; no clothes.
 No face blending, substitutions or extra people. Cats stay small, four-legged and unclothed.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28: same floor, shuttle and imperial insignia; never another arena or stage. Instruments are rigid and PLAYABLE, with visible strings, keys and pads. Assigned instruments: Серёга: black-metal lead guitar with six blue luminous strings; Юля: silver-violet four-string bass; Паша: bronze gravibass with four amber strings; Саша: cobalt rhythm guitar; Артём: standing three-ring percussion console with two sticks; Илюша: compact drum kit with blue-edged drums; Лёша: black-brass spiral wind synthesizer with a turquoise bell ring; Виталик: large black bass with orange-red strings; Маша Лагуна: silver-blue crystalline harp; Алеся: small two-tier amber-violet synthesizer on a low stand; Лучик: low blue paw pad; Рыжик: low amber paw pad.
-Instrument light is small and local; instruments never morph into swords, limbs or faces. Everyone keeps the established layout and scale.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Серёга: black-metal lead guitar with six blue luminous strings; Юля: silver-violet four-string bass; Паша: bronze gravibass with four amber strings; Саша: cobalt rhythm guitar; Артём: standing three-ring percussion console with two sticks; Илюша: compact drum kit with blue-edged drums; Лёша: black-brass spiral wind synthesizer with a turquoise bell ring; Виталик: large black bass with orange-red strings; Маша Лагуна: silver-blue crystalline harp; Алеся: small two-tier amber-violet synthesizer on a low stand; Лучик: low blue paw pad; Рыжик: low amber paw pad.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 The canonical full Scene 28 ensemble from @Image2 stands in the actual H28B dance-floor positions, already playing their assigned alien instruments. The camera sees enough of floor architecture to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — ENSEMBLE ALREADY PLAYING
-The exact approved lineup is already performing: front guitars strum and rebound through knees, percussion keeps visible strikes, harp and keyboard hands move, cats tap low pads. Hold each original floor position and identity; no motionless cast reveal.
-
-[0:04–0:08] — PASS THE ACCENT
-A clear accented phrase passes from front guitarists to the rhythm section and then the synth/harp players; all others continue a simpler supporting pulse. Show readable group rhythm rather than demanding twelve simultaneous intricate solos.
-
-[0:08–0:12] — FULL-BODY UNISON
-The standing humans lean into two shared downbeats and rebound while still playing; the seated drummer remains at his kit, Masha keeps her closed hem, Alesya uses her low keys, and cats remain naturally floor-supported. Instruments never change owners.
-
-[0:12–0:15] — FINAL SURGE
-Everyone builds one short collective flourish into the final chord. Neck angles rise within separate lanes, heads and torsos recover on the accent, fur and robes follow. The original lineup resolves only on the last half-second.
+STORY FLOW:
+The full twelve-subject band is already performing exuberantly in its approved arrangement. Let musical accents pass naturally between the front guitars, rhythm section and harp/keyboard while the rest keep a simpler supporting groove. Serious rock-star faces contrast with wholehearted body movement. Each musician keeps their assigned instrument and space; the drummer stays seated, wind player keeps mouthpiece contact, Masha moves within her closed hem, Alesya reaches her low keys, and the cats tap floor pads with natural forepaws. Build one collective closing flourish; no twelve simultaneous intricate solos or frozen cast reveal.
 
 END STATE:
-The exact full lineup remains in its original H28B positions, all twelve identities and instruments intact. Finish on the final half-second accent with natural body recovery and cloth/fur motion; no multi-second held tableau.
+The full twelve-subject lineup finishes in its approved H28B arrangement, identities and assigned instruments intact. The final accent is brief, with natural recovery and ringing resonance.
 
 CAMERA / SPACE:
-One continuous 15s wide shot with a small controlled dolly-in; steady 28–35mm lens, no orbit, no side switching. Keep the hangar entrance and the shuttle fixed at frame-right. Every player keeps a consistent spot.
+One continuous frontal full-band wide, natural 28–35mm perspective with a modest smooth push. Preserve the @Image8 arrangement, all twelve distinct subjects, visible faces and each instrument; do not crop the cats or invent a closer cast.
 
 PERFORMANCE:
-Play from the first frame with a brisk, even hard-rock pulse and visible continuous physical effort. Finger/paw contact causes notes and light pulses; hands remain on their assigned playable surfaces between accents. Human players shift weight through their knees and torso, answer one another and recover naturally after emphatic hits; keep proud, comically serious faces. Stationary instruments stay planted. Cats use only natural supported feline movements. Energy must come from actual playing and body motion, not camera speed or flashing lights. No slow motion, statue poses, waiting for a cue or multi-second held ending.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+Native original instrumental cinematic hard rock, driving and heroic: fast steady four-beat drum pulse, crunchy distorted guitars, deep bass and bright futuristic synth accents, with big dramatic hits on every accent; each note synchronized precisely with the fingers or paws that play it. Original music only, no recognizable published melody. Natural reverb of the large metal hangar. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
 
 NEGATIVE PROMPT:
-Wrong faces, extra performers, different hangar, concert arena, wrong clothes, mutated anatomy, extra fingers/paws, changing character count, impossible playing, morphing instruments, identity blending, adult-sized Ewok, giant cats, cartoon or CGI plastic look, split-screen, cuts, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark. Human hands or upright bodies on cats, giant cats.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5515,7 +4957,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous | Serega and Yulya's face-to-face guitar duel hands the beat to the heavy rhythm section of Pasha, Sasha and Artem
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Серёга; exact face, hair, build, costume.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Юля; exact face, hair, build, costume.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Паша; exact face, hair, build, costume.
@@ -5524,7 +4966,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image7 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 @Image8 — PROP DESIGN ONLY: Pasha bronze four-amber-string gravibass, Sasha cobalt six-string rhythm guitar and Artem three-ring percussion.
 @Image9 — PLAYING GRIP / POSE ONLY: left hand frets, right hand picks at the body bridge (Pasha left, Sasha centre; the same strap-supported grip for Serega and Yulya); Artem right holds one stick in each hand over separate rings. Not a smash grip. Originals and prop designs override helper deviations.
-Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Серёга (@Image2) — SEREGA, pale older male Chancellor with sparse light hair and a bald crown, reserved mature face, EXACT long dark-purple robe from individual sheet.
@@ -5534,63 +4976,39 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 Артём (@Image6) — ARTEM, heavier-built bearded man, cream/beige tunic beneath brown outer robe, wide belt and boots, unmodified facial hair.
 Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or substitutions. Exactly these five people.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments:
-Серёга: blue-ringed black-metal alien lead guitar, six clearly defined taut luminous strings, one physical neck and resonant blue energy core
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Серёга: blue-ringed black-metal alien lead guitar, six clearly defined taut luminous strings, one physical neck and resonant blue energy core
 Юля: silver-and-violet four-string alien bass with slim nacelle-like resonator, physical frets and hand-sized body
 Паша: heavy bronze gravibass with four distinct amber light-strings, conventional playable fingerboard and solid body
 Саша: compact twin-rail cobalt alien rhythm guitar with glowing pickups and six playable strings
 Артём: standing metallic three-ring kinetic-percussion console struck by two short sticks; amber impact halos, solid supporting stand
-Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Serega and Yulya face each other near the imperial floor circle of H28B in a medium-wide shot, already in playing position. Pasha, Sasha and Artem continue playing with their instruments on their own spot of the same floor, outside the opening frame. Enough floor architecture is visible to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — RIFF ALREADY RUNNING
-Serega left and Yulya right play from frame zero: continuous picking and fretting, two alternating planted knee bends, shoulders driving the accents. No arrival or held opening chord.
+STORY FLOW:
+[0:00–0:15] Serega left and Yulya right are already playing an exuberant alien-rock guitar duel. They challenge and answer one another through the music, leaning into riffs, stepping with the groove and turning out and back without swapping sides. Let their performance develop naturally with pompous, utterly serious rock-star faces. Keep the straps supporting the instruments, left hands fretting and right hands picking at the bridges; necks move through separate arcs. Build to a shared closing accent, still visibly playing.
 
-[0:04–0:08] — PARTNER CHALLENGE
-Serega takes one broad side step and leans into a short lead phrase; Yulya answers with two bass accents and a diagonal step toward him. Both continue playing between answers, straps carrying the instruments.
-
-[0:08–0:12] — BACK-TO-BACK RHYTHM
-They quarter-turn outward without swapping sides, then rebound toward one another through two grounded steps. Keep necks in separate arcs and hands fretting/picking throughout, with a sharp head-and-shoulder accent on each return.
-
-[0:12–0:15] — SHARED FINISH
-Two forceful synchronized downstrokes and knee rebounds build into a final shared accent. Raise necks slightly while keeping real hand contact; only the final half-second resolves the pose.
-
-[0:15–0:19] — DRIVING RHYTHM
-Pasha left immediately plucks an insistent repeating bass pattern; Sasha centre chops offbeat chords; Artem right alternates physical stick strikes on his three fixed rings. Knees and shoulders carry the fast pulse from the first frame.
-
-[0:19–0:23] — CALL THROUGH THE TRIO
-Artem sends a short left-right ring fill to Sasha's emphatic strum; Pasha answers with a clearly fretted bass run. Guitarists step out and back within their lanes while the percussion stand remains planted.
-
-[0:23–0:27] — LOCKED GROOVE
-Pasha and Sasha lean forward and rebound on alternating beats, still playing. Artem continues alternating strokes, then adds one wider two-ring accent with visible contact. No musician freezes while another leads.
-
-[0:27–0:30] — THREE-WAY ACCENT
-A brisk final run of bass, chords and ring hits converges on one shared downbeat. Robes keep their inertia; faces and instruments remain readable. Final pose resolves only during the last half-second.
+[0:15–0:30] On the musical accent, cut once to the other established setup in the SAME hangar. Pasha left drives the gravibass, Sasha centre answers with forceful rhythm-guitar chords, Artem right fires back on the three-ring percussion. They enjoy a vigorous call-and-response groove, bodies naturally following the music. The guitarists can step and lean within their lanes while continuously fretting and picking; Artem keeps one stick in each hand, making visible strikes on the separate fixed rings. Let the interaction and playing gestures vary naturally. Converge on one emphatic closing downbeat.
 
 END STATE:
-Pasha, Sasha and Artem complete their final accent in place within H28B, instruments intact, faces and costumes unchanged; resolve only on the last half-second, with natural body and cloth recovery.
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
 
 CAMERA / SPACE:
-Two setups joined by one motivated hard cut on the 0:15 downbeat. Duet: low-angle medium-wide, a quick sideways slide during the riff duel, push-in to a medium two-shot for the power pose. Trio: steady low-angle sideways tracking in the same floor geometry, ending frontal medium-wide on all three. 28–50mm lens feeling; faces in medium shots with even light, speed from tracking and playing hands, never whip pans across faces. No orbit through people, no side switching. Hangar entrance and shuttle fixed at frame-right in both setups; every player keeps a consistent spot.
+Two setups joined by one motivated hard cut on the 0:15 downbeat. Duet: low-angle medium-wide, a quick sideways slide during the riff duel, a small push keeping both faces and instruments visible. Trio: steady low-angle sideways tracking in the same floor geometry, ending frontal medium-wide on all three still playing. 28–50mm lens feeling; faces in medium shots with even light, speed from tracking and playing hands, never whip pans across faces. No orbit through people, no side switching. Hangar entrance and shuttle fixed at frame-right in both setups; every player keeps a consistent spot.
 
 PERFORMANCE:
-Fast live hard-rock playing with continuous real finger/paw contact. Human players shift weight through knees and torso and answer each other; proud serious faces, no mugging. Fixed instruments remain planted; cats stay naturally supported. Accents flow into the next phrase, not a pose. Normal real-time speed, no slow motion, cue-waiting or multi-second freeze.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Original fast driving hard rock with steady drums, bass, guitars and the assigned alien instruments. Visible contacts match accents; one continuous musical pulse across the shot transition, with natural hangar reverb. No recognizable published melody.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion and breath.
+Original fast driving hard rock with steady drums, bass, guitars and the assigned alien instruments. Visible contacts match accents; one continuous musical pulse across the shot transition, with natural hangar reverb. No recognizable published melody. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion and breath.
 
 NEGATIVE PROMPT:
-Wrong faces, extra performers, different hangar, concert arena, wrong clothes, mutated anatomy, duplicated fingers, impossible playing, swapped or liquefied instruments, holograms, identity blending, melting faces, slow motion, cartoon or CGI plastic look, collage, split-screen, random jump cuts, cut to another location, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5607,7 +5025,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous | Ilyusha, Lesha and Vitalik's heavy break crashes into a cosmic harp-and-synth passage by Masha Laguna and tiny Alesya
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Илюша; exact face, hair, build, costume.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Лёша; exact face, hair, build, costume.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Виталик; exact face, hair, build, costume.
@@ -5616,7 +5034,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image7 — PROP DESIGN ONLY: Lesha curved black/brass wind synth, Ilyusha blue compact drums with two ring cymbals and Vitalik black orange/red bass.
 @Image8 — PROP DESIGN ONLY: Masha silver harp with six blue anchored strings and Alesya small two-tier amber/violet keyboard; preserve her original small scale.
 @Image9 — PLAYING HAND CONTACT / SCALE ONLY: Masha plucks separate anchored harp strings with both hands; tiny adult Alesya reaches the two low keyboard tiers naturally. Preserve original small scale. Individual originals and separate prop designs override any helper deviations.
-Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Илюша (@Image2) — ILYUSHA, chestnut tousled hair, moustache, olive-green Jedi tunic and deep-red hooded cloak, brown boots.
@@ -5624,66 +5042,42 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 Виталик (@Image4) — VITALIK, broad sturdy adult man in black tunic and dark leather/armour panels, brown trousers, tall boots, exact individual face.
 Маша Лагуна (@Image5) — MASHA LAGUNA, exact blue humanoid face and long light-blue tentacle-like head strands, completely opaque full-length blue costume with smooth enclosed torso, dark head and back details; no exposed body modifications.
 Алеся (@Image6) — ALESYA, very short Ewok-sized character with approved adult human face, brown fur and round ears inside her brown hood, NO spear.
-Every performer retains approved age, face, hair, original outfit and anatomy. No face blending or substitutions. Exactly these five performers.
+Every performer retains approved age, face, hair, original outfit and anatomy. No face blending or substitutions. Exactly these five performers. Alesya is about one metre tall, with an adult face; Masha's chest and abdomen stay covered by a smooth opaque costume surface.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments:
-Илюша: compact futuristic drum kit with blue-edged rigid drum membranes, one kick drum and two ring-cymbals; real sticks
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Илюша: compact futuristic drum kit with blue-edged rigid drum membranes, one kick drum and two ring-cymbals; real sticks
 Лёша: black-brass spiral alien wind synthesizer, real curved tube and mouthpiece, turquoise sound-ring at the bell
 Виталик: large black low-frequency bass with orange-red luminous strings and one round sub-bass resonator
 Маша Лагуна: fixed slender silver-and-blue crystalline string-harp, six physically anchored light-arcs plucked by both hands
 Алеся: small stable two-tier amber-violet alien synthesizer on a low stool-height stand, real tactile keys
 Playing contact: Lesha keeps the mouthpiece at his lips, hands on upper/lower keys; Ilyusha sits with two sticks, feet at pedal/floor; Vitalik frets with left hand, picks with right.
-Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Ilyusha, Lesha and Vitalik in a medium-wide shot within H28B, already in playing position; Masha Laguna and Alesya continue playing at their instruments elsewhere on the same floor, outside the opening frame. Enough floor architecture is visible to register the SAME hangar.
 
-TIMELINE:
-[0:00–0:04] — FULL BAND DRIVE
-Ilyusha immediately plays alternating membrane strikes from his seat; Vitalik picks a driving bass pattern with full knee-and-torso rebounds; Lesha articulates rhythmic wind-synth notes with the mouthpiece at his lips and keys under his fingers.
+STORY FLOW:
+[0:00–0:15] Ilyusha rear-centre drives the beat from his drum seat, Vitalik right answers with his heavy bass, and Lesha left plays a rising wind-synth phrase. They throw themselves into the groove with solemn rock grandeur, responding naturally to each other. Ilyusha remains seated at the real kit, sticks contacting membranes and ring cymbals; Vitalik frets left-handed and picks right-handed. Lesha keeps the mouthpiece at his lips and hands on upper/lower keys, moving the bell with his torso rather than disconnecting it to headbang. Build into a shared accent.
 
-[0:04–0:08] — PERCUSSION ANSWER
-A short drum fill travels across the physical kit while Vitalik takes two compact side steps and back, picking continuously. Lesha rocks heel-to-toe and angles the bell with his torso, keeping mouthpiece contact.
-
-[0:08–0:12] — RISING PHRASE
-Drums return to a strong pulse, bass repeats with sharper accents, and Lesha makes a forward lean and recovery while playing. No headbanging that disconnects the mouthpiece and no seated drummer leaving the kit.
-
-[0:12–0:15] — FINAL HIT
-The drummer builds a short roll into a double contact, Vitalik strikes the low accent, and Lesha raises the bell within playable range. Bodies rebound naturally; no clean hold longer than the final half-second.
-
-[0:15–0:19] — STRINGS AND KEYS IN MOTION
-Masha plays alternating brisk plucks across the six anchored strings; tiny Alesya answers with a two-handed key pattern. Masha sways through her torso with short grounded foot shifts under the intact hem; Alesya bounces through her knees at the fixed low keyboard.
-
-[0:19–0:23] — MUSICAL CHALLENGE
-Masha makes a sweeping run across real strings with alternating hands, then recoils through her shoulders; Alesya answers with an ascending run on the lower tier and returns to the pulse. Neither leaves the instrument or waits motionless.
-
-[0:23–0:27] — CROSS-RHYTHM
-Masha leans toward the harp and opens back as her hands continue plucking; Alesya alternates two chord clusters between the tiers with clear finger contacts. Head strands and fur follow the movements, instruments remain stationary.
-
-[0:27–0:30] — JOINED ACCENT
-They build a short synchronized flourish, then hit one final musical accent with a firm torso-and-knee rebound. Hands remain near the playable surfaces; last half-second only for the finishing shape, no restrained ceremonial wave.
+[0:15–0:30] On the musical accent, cut once to the other established setup in the SAME hangar. Masha and tiny Alesya perform an absurdly majestic, energetic harp-and-synth duet. Masha sweeps through brisk plucked phrases on the six anchored strings; Alesya answers with lively playing across her two low keyboard tiers. Let their shoulders and bodies follow the music with proud serious faces, hands actually contacting strings and keys. Instruments and stands remain fixed. Masha steps within her intact opaque hem; Alesya stays about one metre tall and reaches the keyboard naturally. Build together into a bright closing flourish.
 
 END STATE:
-Masha Laguna and Alesya complete their final musical accent at their instruments within H28B, Alesya still tiny beside Masha, faces and costumes unchanged; resolve only on the last half-second, with natural body and cloth recovery.
+The same performers finish their musical phrase in the established positions, identities and instruments intact. The final accent is brief; breath, cloth/fur and instrumental resonance continue.
 
 CAMERA / SPACE:
 Two setups joined by one motivated hard cut on the 0:15 double impact. Trio: low-angle medium-wide moving closer during the build, always wide enough for all three. Duo: two-shot with a slight push-in that never scales Alesya up to human height. 28–50mm lens feeling; faces in medium shots with even light, speed from hands and sticks, never whip pans across faces. No orbit through people, no side switching. Hangar entrance and shuttle fixed at frame-right; every player keeps a consistent spot.
 
 PERFORMANCE:
-Fast live hard-rock playing with continuous real finger/paw contact. Human players shift weight through knees and torso and answer each other; proud serious faces, no mugging. Fixed instruments remain planted; cats stay naturally supported. Accents flow into the next phrase, not a pose. Normal real-time speed, no slow motion, cue-waiting or multi-second freeze.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Original fast driving hard rock with steady drums, bass, guitars and the assigned alien instruments. Visible contacts match accents; one continuous musical pulse across the shot transition, with natural hangar reverb. No recognizable published melody.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion and breath.
+Original fast driving hard rock with steady drums, bass, guitars and the assigned alien instruments. Visible contacts match accents; one continuous musical pulse across the shot transition, with natural hangar reverb. No recognizable published melody. No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion and breath.
 
 NEGATIVE PROMPT:
-Wrong faces, extra performers, different hangar, concert arena, wrong clothes, mutated anatomy, duplicated fingers, impossible playing, swapped or liquefied instruments, hologram walls, identity blending, melting faces, stretched adult-sized Ewok, slow motion, cartoon or CGI plastic look, collage, split-screen, random jump cuts, cut to another location, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5700,7 +5094,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous | Luchik and Ryzhik's deadly serious paw-drum duet rises into the full 9+1+2 band's grand cosmic rock finale
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B: PRIMARY EXACT LOCATION, the established imperial hangar/dance floor, not a new arena: big rear opening into space, shuttle at frame-right, wall lights, imperial floor circle, fixed pillars and industrial walls; blue, magenta/violet light with sparse amber accents.
+@Image1: exact H28B hangar architecture and established light only, not performer identity.
 @Image2 — approved G28-full-ensemble-Alesya-v2: ABSOLUTE ALL-CAST IDENTITY, original wardrobe, true tiny Ewok and domestic-cat scales, and overall ensemble composition. NOT a reference for new concert props.
 @Image3 — ABSOLUTE IDENTITY: Лучик; exact fur pattern, size and natural cat body; no clothes.
 @Image4 — ABSOLUTE IDENTITY: Рыжик; exact fur pattern, size and natural cat body; no clothes.
@@ -5709,7 +5103,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image7 — PROP DESIGN ONLY: Pasha bronze four-amber-string gravibass, Sasha cobalt six-string rhythm guitar and Artem three-ring percussion.
 @Image8 — PROP DESIGN ONLY: Lesha curved black/brass wind synth, Ilyusha blue compact drums with two ring cymbals and Vitalik black orange/red bass.
 @Image9 — FULL BAND PLAYING POSES / FIXED POSITIONS ONLY: cast arrangement, relative scale and instrument assignments, incl. Masha's harp, Alesya's small keyboard and both cats at their pads in the front corners. @Image2–4 keep identity authority, @Image5–8 prop authority.
-Priority: @Image2 rules every face, costume and size, @Image3–4 the cats in close shots; @Image1 locks the hangar. Instruments are new props only.
+Priority: each identity reference controls its own performer; location, prop and pose references control only their stated roles.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Серёга — SEREGA, pale older male Chancellor with sparse light hair and a bald crown, reserved mature face, long dark-purple robe.
@@ -5726,58 +5120,35 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 Рыжик (@Image4) — RYZHIK, natural small long-haired orange tabby with darker striped fur and paler chest.
 Both are real domestic cats: cat-sized, four-legged, natural fur, no clothes, no human hands, no standing upright. No face blending, substitutions or extra people.
 
-LOCATION / PROP / SCALE LOCK — CRITICAL:
-Same exact H28B-disco from Scene 28: same floor, shuttle and imperial insignia; never another arena or stage. Instruments are rigid and PLAYABLE, with visible strings, keys and pads. Assigned instruments: Серёга: black-metal lead guitar with six blue luminous strings; Юля: silver-violet four-string bass; Паша: bronze gravibass with four amber strings; Саша: cobalt rhythm guitar; Артём: standing three-ring percussion console with two sticks; Илюша: compact drum kit with blue-edged drums; Лёша: black-brass spiral wind synthesizer with a turquoise bell ring; Виталик: large black bass with orange-red strings; Маша Лагуна: silver-blue crystalline harp; Алеся: small two-tier amber-violet synthesizer on a low stand; Лучик: low blue paw pad; Рыжик: low amber paw pad.
-Instrument light is small and local; instruments never morph into swords, limbs or faces. Everyone keeps the established layout and scale.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+
+INSTRUMENTS / CONTACT:
+One assigned rigid, playable instrument per performer; fixed stands remain planted. Серёга: black-metal lead guitar with six blue luminous strings; Юля: silver-violet four-string bass; Паша: bronze gravibass with four amber strings; Саша: cobalt rhythm guitar; Артём: standing three-ring percussion console with two sticks; Илюша: compact drum kit with blue-edged drums; Лёша: black-brass spiral wind synthesizer with a turquoise bell ring; Виталик: large black bass with orange-red strings; Маша Лагуна: silver-blue crystalline harp; Алеся: small two-tier amber-violet synthesizer on a low stand; Лучик: low blue paw pad; Рыжик: low amber paw pad.
+Playing hands or paws contact the actual strings, keys, membranes or pads; instrument light stays local. No ownership changes.
 
 START STATE:
 Low camera at FLOOR height near the imperial dance-floor emblem: LUCHIK on the left at his low four-pad blue controller, RYZHIK on the right at his three-pad amber controller, hind paws on the real floor, front paws on reachable pads. The band's boots and stands are soft and out of focus behind them.
 
-TIMELINE:
-[0:00–0:04] — PAWS FROM FRAME ZERO
-At floor level, Luchik left and Ryzhik right immediately alternate reachable front-paw taps on their separate blue and amber pads. Hindquarters stay supported on the real floor; each paw visibly lifts, contacts and releases.
+STORY FLOW:
+[0:00–0:15] Luchik left and Ryzhik right play a comically serious paw-percussion duet, tapping their own reachable blue and amber pads with lively natural forepaw movements. Let the exchange feel playful and spontaneous: one cat answers the other while ears, heads and tails react. Hindquarters remain supported on the floor, paws visibly lift, contact and release; pads light at contact. They are real small cats, never upright drummers with human hands. End on a joint paw accent with alert heads and natural settling.
 
-[0:04–0:08] — CAT CALL AND RESPONSE
-Luchik makes two brisk taps on adjacent blue pads; Ryzhik answers on two amber pads while Luchik keeps a simple beat. Ears swivel and heads follow the partner; no human wrists, fingers or upright stance.
-
-[0:08–0:12] — PLAYFUL BUILD
-Both repeat their own tapping pattern with more pronounced natural shoulder and head movement. Tails counterbalance; their hind paws never leave the floor. Pads light only at real contacts, one cat per controller.
-
-[0:12–0:15] — JOINT BEAT
-A short alternating exchange lands on one synchronized paw contact. Both lift their heads alertly while paws settle naturally near the pads; end on the last beat without a multi-second statue pose.
-
-[0:15–0:19] — ENSEMBLE ALREADY PLAYING
-The exact approved lineup is already performing: front guitars strum and rebound through knees, percussion keeps visible strikes, harp and keyboard hands move, cats tap low pads. Hold each original floor position and identity; no motionless cast reveal.
-
-[0:19–0:23] — PASS THE ACCENT
-A clear accented phrase passes from front guitarists to the rhythm section and then the synth/harp players; all others continue a simpler supporting pulse. Show readable group rhythm rather than demanding twelve simultaneous intricate solos.
-
-[0:23–0:27] — FULL-BODY UNISON
-The standing humans lean into two shared downbeats and rebound while still playing; the seated drummer remains at his kit, Masha keeps her closed hem, Alesya uses her low keys, and cats remain naturally floor-supported. Instruments never change owners.
-
-[0:27–0:30] — FINAL SURGE
-Everyone builds one short collective flourish into the final chord. Neck angles rise within separate lanes, heads and torsos recover on the accent, fur and robes follow. The original lineup resolves only on the last half-second.
+[0:15–0:30] On the musical accent, cut once to the other established setup in the SAME hangar. The full twelve-subject band is already performing exuberantly in its approved arrangement. Let musical accents pass naturally between the front guitars, rhythm section and harp/keyboard while the rest keep a simpler supporting groove. Serious rock-star faces contrast with wholehearted body movement. Each musician keeps their assigned instrument and space; the drummer stays seated, wind player keeps mouthpiece contact, Masha moves within her closed hem, Alesya reaches her low keys, and the cats tap floor pads with natural forepaws. Build one collective closing flourish; no twelve simultaneous intricate solos or frozen cast reveal.
 
 END STATE:
-The exact full lineup remains in its original H28B positions, all twelve identities and instruments intact. Finish on the final half-second accent with natural body recovery and cloth/fur motion; no multi-second held tableau.
+The full twelve-subject lineup finishes in its approved H28B arrangement, identities and assigned instruments intact. The final accent is brief, with natural recovery and ringing resonance.
 
 CAMERA / SPACE:
 Two setups in the same H28B hall joined by one motivated cut on the0:15 musical accent. First a floor-level two-cat view with both bodies and pads visible; then a frontal full-band wide with all twelve subjects and their original positions intact. A smooth modest push in each setup; no instant crane flight or camera through performers. Keep spatial landmarks and screen direction coherent.
 
 PERFORMANCE:
-Fast live hard-rock playing with continuous real finger/paw contact. Human players shift weight through knees and torso and answer each other; proud serious faces, no mugging. Fixed instruments remain planted; cats stay naturally supported. Accents flow into the next phrase, not a pose. Normal real-time speed, no slow motion, cue-waiting or multi-second freeze.
-
-LIGHTING / MATERIALS:
-Exact Scene 28 hangar with bluish and magenta disco lighting and isolated amber practicals. Modest stage haze, textured metal panels, real reflective floor, existing shuttle and distant stars. Glowing instruments add local light only.
+Proud, deadpan rock-star grandeur with energetic natural playing at normal speed. Keep the groove alive between accents; improvisation concerns performance, not cast, instrument design or grip.
 
 AUDIO:
-Original fast driving hard rock with steady drums, bass, guitars and the assigned alien instruments. Visible contacts match accents; one continuous musical pulse across the shot transition, with natural hangar reverb. No recognizable published melody.
-
-DIALOGUE / VOCALS:
-No spoken dialogue, lyrics or human singing. Natural cat meows and tiny rhythmic growls between percussion hits; no human words from cats.
+Original fast driving hard rock with steady drums, bass, guitars and the assigned alien instruments. Visible contacts match accents; one continuous musical pulse across the shot transition, with natural hangar reverb. No recognizable published melody. No spoken dialogue, lyrics or human singing. Natural cat meows and tiny rhythmic growls between percussion hits; no human words from cats.
 
 NEGATIVE PROMPT:
-Wrong faces, extra performers, different hangar, concert arena, wrong clothes, mutated anatomy, extra fingers/paws, changing character count, impossible playing, morphing instruments, identity blending, melting faces, adult-sized Ewok, giant cats, floating cats, cats in clothes or standing upright, slow motion, cartoon or CGI plastic look, split-screen, subtitles, camera shake, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Face or costume swaps, added performers, missed hand/paw contacts, liquid or swapped instruments, new concert arena, strobe, slow motion, long pose holds, random cuts, subtitles or watermark. Human hands or upright bodies on cats, giant cats.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5793,7 +5164,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 50 — Финальные титры: вуки-фанаты слэмятся и трясут гривами
 
-**Редакция активности · 20.10.2026, 00:55 МСК:** по прямой команде владельца все текущие промпты этой сцены переработаны на активное исполнение с первого кадра, непрерывные связки и короткий финальный акцент. В30с версиях сохранена плотность движения, без растягивания нескольких жестов на весь клип. Это новая редакция для будущих генераций; уже отправленные задачи используют прежний текст, дословно сохранённый в git и receipts. Основной движок — Seedance2.0, альтернативная вкладка30с не является разрешением на запуск. Сначала один15с тест A1 после сюжетной очереди и оценка владельца, затем решение об остальных танцах/музыке. Текстовая готовность не доказывает качество видео. Разбор и проверки: [активность28/49–51](reports/dance-music-energy-2026-10-20.md).
+**Редакция исполнения · 25.10.2026:** по команде владельца после аудита танцев сокращены повторы и пошаговая хореография; свободное исполнение сочетается с точными гэгами, хватом, опорами и реальными стыками. Обновлены все варианты этой сцены. Это промты будущих разрешённых запусков: уже отправленные задачи используют прежний текст, дословно в git/receipts; их результат оценивается по нему. Качество новой редакции предстоит проверить по роликам. Стандарт — [§5А](PROMPT-STYLE-GUIDE.md); [отчёт о правке](reports/prompt-refresh-2026-10-25.md).
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49}],"tags":["dance_credits","wookiee_crowd","rock_headbang","safe_mosh_pit","same_H28B","montage_insert"]} -->
 
@@ -5834,58 +5205,34 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED CROWD OF WOOKIEE FANS intensely enjoying the alien rock band in the same Scene 28 hangar. First fan-wave: synchronized headbanging.
+Optimized for Seedance 2.0 | Photoreal exuberant Wookiee rock fans in the established Imperial hangar
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
-@Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
-@Image3 — owner-supplied video frame at00:03.400: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore all its human subjects, interior, lighting, black bars and composition. Do not clone one face across the crowd.
-@Image4 — owner-supplied close view at00:14.833: Wookiee muzzle, eyes, long layered fur and bandolier detail ONLY. Ignore the humans, table, background and framing.
-@Image5 — the chosen staged frame of this exact Wookiee fan crowd in H28B: their fur colours, bandoliers, raised-arms rock-fan energy, crowd density and placement on the dance floor. Crowd look and staging ONLY; never a new arena, never band identities.
-Priority: @Image1 determines architecture and camera geography. @Image5 sets the look, energy and density of the Wookiee crowd; @Image3–@Image4 refine Wookiee anatomy. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
+@Image1: exact H28B hangar/light and fixed geography. @Image2: approved band identities/costumes only if visible far beyond the crowd; never copy musicians into the audience. @Image3 and @Image4: Wookiee species anatomy, muzzle, eyes, fur and optional bandoliers only; ignore their humans, interiors, framing and black bars. @Image5: the chosen Wookiee fan crowd, fur colours, bandoliers, density and placement. Priority: @Image1 owns location; @Image5 owns crowd staging; @Image3–4 refine Wookiee anatomy; @Image2 owns the distant band.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
 
-LOCATION / CROWD SAFETY LOCK — CRITICAL:
-The exact original H28B disco hangar; floor emblem remains fixed and the ship is STILL at frame-right. Audience fills the actual open space IN FRONT of the existing group performing at the back of the same hall. Do NOT create a new raised concert stage or move the group or shuttle. All contact is controlled playful dance-crowd shoulder-to-shoulder bouncing; no injury, crush, fall, impact against architecture or knocked-over children/cats. Plenty of plausible standing space between Wookiees.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room. Audience occupies the open floor in front of the distant band; no raised stage. Real layered fur catches the practical light.
 
 START STATE:
 From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. The front rows are ready to catch a huge downbeat, elbows and claws kept clear.
 
-TIMELINE:
-[0:00–0:04] — HEADBANG FROM FIRST BEAT
-Eight to twelve distinguishable front-row Wookiees immediately bend necks, shoulders and knees into a strong headbang and rebound. Further rows keep the pulse; long fur follows with real inertia.
-
-[0:04–0:08] — WAVE THROUGH ROWS
-A repeated headbang wave travels left to right across the crowd. Fans alternate planted stomps with raised-arm accents, continuing movement between wave peaks; keep muzzles recognizable on the upward phase.
-
-[0:08–0:12] — FRONT-ROW ANSWER
-A front-row pair answers with two emphatic headbang cycles and low arm pumps while others maintain simpler rhythmic sways. Feet remain grounded; hair does not become an opaque flickering mass.
-
-[0:12–0:15] — CONTINUE THE SURGE
-The whole visible crowd lands two strong shared stomps and recoils into another headbang. Finish on a readable upstroke with movement still alive, no two-second frozen cheering pose.
+STORY FLOW:
+The Wookiees are already joyfully headbanging to the fast rock music. A broad surge of shaggy manes and raised arms travels across the front rows and spreads through the crowd. Let individual fans stomp, sway, roar and answer their neighbours naturally, slightly offset within the shared beat. Heavy fur follows real neck, shoulder and body motion; faces reappear clearly on upstrokes. Keep the exuberant crowd moving through the final frame.
 
 END STATE:
-The same Wookiee crowd remains upright in the unchanged H28B, continuously swaying, cheering and recovering from the last stomp/headbang. The band stays beyond them. Finish on a readable phase of live movement, not a frozen crowd or motionless fur.
+The same upright crowd continues cheering and moving in H28B, band beyond them. End on a readable living phase, not a frozen cheering pose.
 
 CAMERA / SPACE:
-One continuous physically consistent shot in the SAME H28B hall. Moderate eye-level dolly that ends slightly lower on the lead two fans. Keep the floor, walls, stage zone and fixed shuttle consistent. No stadium, canyon, forest, balcony or cosmic floating platform. Fur motions must respect gravity and real body mass.
-
-PERFORMANCE:
-Joyful hard-rock enthusiasm at normal real-time speed. Each headbang uses neck, shoulders, knees and a planted weight transfer; mane follows with believable inertia. Keep a repeated even pulse between the larger accents. The circle travels through actual footwork, light shoulder brushes and immediate rebounds. No stopped poses, slow-motion hair shot, crowd crush, falls or aggressive attacks.
-
-LIGHTING / MATERIALS:
-Same approved Scene 28 magenta, blue and amber disco spotlights moving on real metal/fur surfaces; the same floor reflections, controlled haze and industrial lamps. Dense detailed authentic fur with physically believable strand movement.
+One smooth eye-level tracking shot along the edge of the crowd, looking toward the existing band area. Keep the nearer fans large enough to read muzzles, fur and planted movement. No flight through bodies or camera shake.
 
 AUDIO:
-Deep cheers and distinct Wookiee growls, happy roars, claps, footfalls and a fast, driving, heroic original hard-rock beat from the distant band. Rhythmic whooshes of their fur movement; no recognizable copyrighted song recreated.
-
-DIALOGUE / VOCALS:
-Wookiee roars and growls only. No spoken languages, narrators, chant lyrics, subtitles, voiceover or identifiable lines from a known film.
+Original fast driving hard rock from the distant band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
 
 NEGATIVE PROMPT:
-Wrong hangar, invented concert arena, different dance floor, new shuttle, missing imperial emblem, crowd of humans, bear suits, cartoon fur, cloned heads, giant mismatched monsters, band members replaced by Wookiees, violent fight, injuries, crowd crush, stampede, broken equipment, furry limbs morphing, invisible legs, duplicated fingers, temporal flicker, teleporting audience, aggressive mosh punches, camera warp, subtitles, music lyrics, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Human audience or human-faced Wookiees, cloned heads, bear suits, morphing fur/limbs, violent attacks, falls or crowd crush, broken equipment, new arena, slow motion, strobe, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5897,58 +5244,34 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED CROWD OF WOOKIEE FANS intensely enjoying the alien rock band in the same Scene 28 hangar. Second fan-wave: controlled, playful heavy-metal mosh pit.
+Optimized for Seedance 2.0 | Photoreal exuberant Wookiee rock fans in the established Imperial hangar
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
-@Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
-@Image3 — owner-supplied video frame at00:03.400: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore all its human subjects, interior, lighting, black bars and composition. Do not clone one face across the crowd.
-@Image4 — owner-supplied close view at00:14.833: Wookiee muzzle, eyes, long layered fur and bandolier detail ONLY. Ignore the humans, table, background and framing.
-@Image5 — the chosen staged frame of this exact Wookiee fan crowd in H28B: their fur colours, bandoliers, raised-arms rock-fan energy, crowd density and placement on the dance floor. Crowd look and staging ONLY; never a new arena, never band identities.
-Priority: @Image1 determines architecture and camera geography. @Image5 sets the look, energy and density of the Wookiee crowd; @Image3–@Image4 refine Wookiee anatomy. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
+@Image1: exact H28B hangar/light and fixed geography. @Image2: approved band identities/costumes only if visible far beyond the crowd; never copy musicians into the audience. @Image3 and @Image4: Wookiee species anatomy, muzzle, eyes, fur and optional bandoliers only; ignore their humans, interiors, framing and black bars. @Image5: the chosen Wookiee fan crowd, fur colours, bandoliers, density and placement. Priority: @Image1 owns location; @Image5 owns crowd staging; @Image3–4 refine Wookiee anatomy; @Image2 owns the distant band.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
 
-LOCATION / CROWD SAFETY LOCK — CRITICAL:
-The exact original H28B disco hangar; floor emblem remains fixed and the ship is STILL at frame-right. Audience fills the actual open space IN FRONT of the existing group performing at the back of the same hall. Do NOT create a new raised concert stage or move the group or shuttle. All contact is controlled playful dance-crowd shoulder-to-shoulder bouncing; no injury, crush, fall, impact against architecture or knocked-over children/cats. Plenty of plausible standing space between Wookiees.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room. Audience occupies the open floor in front of the distant band; no raised stage. Real layered fur catches the practical light.
 
 START STATE:
 From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. An open circular pocket in the crowd is beginning to form as two safe groups dance toward one another.
 
-TIMELINE:
-[0:00–0:04] — OPEN WHILE DANCING
-Already moving, four to six fans take outward side steps to open a small circular pocket; the perimeter keeps nodding and stomping. No standing setup phase.
-
-[0:04–0:08] — CIRCLE WITH WEIGHT
-Fans travel around the pocket in one shared direction with springy walking steps, light shoulder brushes and immediate rebounds into their own paths. Keep a clear perimeter and visible foot plants.
-
-[0:08–0:12] — CALL AND REBOUND
-Two fans exchange a playful shoulder brush, separate and keep circling; others answer with headbangs and raised forearms. No pile-up, fall, punch or contact near heads.
-
-[0:12–0:15] — SHARED DOWNBEATS
-The circle broadens slightly as fans turn toward the band and land two shared stomps with broad mane swings. They continue swaying and cheering through the last frame; no stopped crowd tableau.
+STORY FLOW:
+Already dancing, fans open a small circular pocket. They move around it in one shared direction with springy steps, playful light shoulder brushes and immediate rebounds into their own paths. Let their reactions, headbanging and raised-arm cheers vary naturally. The perimeter keeps dancing with enough room for everyone; this is delighted concert play, not a fight. Finish with the fans turning their energy toward the band while the circle remains alive.
 
 END STATE:
-The same Wookiee crowd remains upright in the unchanged H28B, continuously swaying, cheering and recovering from the last stomp/headbang. The band stays beyond them. Finish on a readable phase of live movement, not a frozen crowd or motionless fur.
+The same upright crowd continues cheering and moving in H28B, band beyond them. End on a readable living phase, not a frozen cheering pose.
 
 CAMERA / SPACE:
-One continuous physically consistent shot in the SAME H28B hall. Wide master view of the compact circular pit with a gentle shoulder-height orbit of at most 30 degrees, no teleporting. Keep the floor, walls, stage zone and fixed shuttle consistent. No stadium, canyon, forest, balcony or cosmic floating platform. Fur motions must respect gravity and real body mass.
-
-PERFORMANCE:
-Joyful hard-rock enthusiasm at normal real-time speed. Each headbang uses neck, shoulders, knees and a planted weight transfer; mane follows with believable inertia. Keep a repeated even pulse between the larger accents. The circle travels through actual footwork, light shoulder brushes and immediate rebounds. No stopped poses, slow-motion hair shot, crowd crush, falls or aggressive attacks.
-
-LIGHTING / MATERIALS:
-Same approved Scene 28 magenta, blue and amber disco spotlights moving on real metal/fur surfaces; the same floor reflections, controlled haze and industrial lamps. Dense detailed authentic fur with physically believable strand movement.
+One continuous medium-wide view of the compact circle and its moving perimeter, with a short smooth lateral drift. Keep the whole pocket and actual footwork readable, fixed H28B geography behind.
 
 AUDIO:
-Deep cheers and distinct Wookiee growls, happy roars, claps, footfalls and a fast, driving, heroic original hard-rock beat from the distant band. Rhythmic whooshes of their fur movement; no recognizable copyrighted song recreated.
-
-DIALOGUE / VOCALS:
-Wookiee roars and growls only. No spoken languages, narrators, chant lyrics, subtitles, voiceover or identifiable lines from a known film.
+Original fast driving hard rock from the distant band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
 
 NEGATIVE PROMPT:
-Wrong hangar, invented concert arena, different dance floor, new shuttle, missing imperial emblem, crowd of humans, bear suits, cartoon fur, cloned heads, giant mismatched monsters, band members replaced by Wookiees, violent fight, injuries, crowd crush, stampede, broken equipment, furry limbs morphing, invisible legs, duplicated fingers, temporal flicker, teleporting audience, aggressive mosh punches, camera warp, subtitles, music lyrics, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Human audience or human-faced Wookiees, cloned heads, bear suits, morphing fur/limbs, violent attacks, falls or crowd crush, broken equipment, new arena, slow motion, strobe, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -5968,70 +5291,36 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal funny epic concert crowd scene, a PACKED CROWD OF WOOKIEE FANS in the same Scene 28 hangar | A synchronized headbang wave of shaggy manes grows into a happy, controlled heavy-metal mosh circle
+Optimized for Wan 3.0 | Photoreal exuberant Wookiee rock fans in the established Imperial hangar
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
-@Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
-@Image3 — owner-supplied video frame at 00:03.400: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore all its human subjects, interior, lighting, black bars and composition. Do not clone one face across the crowd.
-@Image4 — owner-supplied close view at 00:14.833: Wookiee muzzle, eyes, long layered fur and bandolier detail ONLY. Ignore the humans, table, background and framing.
-@Image5 — the chosen staged frame of this exact Wookiee fan crowd in H28B: their fur colours, bandoliers, raised-arms rock-fan energy, crowd density and placement on the dance floor. Crowd look and staging ONLY; never a new arena, never band identities.
-Priority: @Image1 determines architecture and camera geography. @Image5 sets the look, energy and density of the Wookiee crowd; @Image3–@Image4 refine Wookiee anatomy. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
+@Image1: exact H28B hangar/light and fixed geography. @Image2: approved band identities/costumes only if visible far beyond the crowd; never copy musicians into the audience. @Image3 and @Image4: Wookiee species anatomy, muzzle, eyes, fur and optional bandoliers only; ignore their humans, interiors, framing and black bars. @Image5: the chosen Wookiee fan crowd, fur colours, bandoliers, density and placement. Priority: @Image1 owns location; @Image5 owns crowd staging; @Image3–4 refine Wookiee anatomy; @Image2 owns the distant band.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
 
-LOCATION / CROWD SAFETY LOCK — CRITICAL:
-The exact original H28B disco hangar; floor emblem remains fixed and the ship is STILL at frame-right. Audience fills the actual open space IN FRONT of the existing group performing at the back of the same hall. Do NOT create a new raised concert stage or move the group or shuttle. All contact is controlled playful dance-crowd shoulder-to-shoulder bouncing; no injury, crush, fall, impact against architecture or knocked-over children/cats. Plenty of plausible standing space between Wookiees.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room. Audience occupies the open floor in front of the distant band; no raised stage. Real layered fur catches the practical light.
 
 START STATE:
 From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. The front rows are ready to catch a huge downbeat, elbows and claws kept clear.
 
-TIMELINE:
-[0:00–0:04] — HEADBANG FROM FIRST BEAT
-Eight to twelve distinguishable front-row Wookiees immediately bend necks, shoulders and knees into a strong headbang and rebound. Further rows keep the pulse; long fur follows with real inertia.
+STORY FLOW:
+[0:00–0:15] The Wookiees are already joyfully headbanging to the fast rock music. A broad surge of shaggy manes and raised arms travels across the front rows and spreads through the crowd. Let individual fans stomp, sway, roar and answer their neighbours naturally, slightly offset within the shared beat. Heavy fur follows real neck, shoulder and body motion; faces reappear clearly on upstrokes. Keep the exuberant crowd moving through the final frame.
 
-[0:04–0:08] — WAVE THROUGH ROWS
-A repeated headbang wave travels left to right across the crowd. Fans alternate planted stomps with raised-arm accents, continuing movement between wave peaks; keep muzzles recognizable on the upward phase.
-
-[0:08–0:12] — FRONT-ROW ANSWER
-A front-row pair answers with two emphatic headbang cycles and low arm pumps while others maintain simpler rhythmic sways. Feet remain grounded; hair does not become an opaque flickering mass.
-
-[0:12–0:15] — CONTINUE THE SURGE
-The whole visible crowd lands two strong shared stomps and recoils into another headbang. Finish on a readable upstroke with movement still alive, no two-second frozen cheering pose.
-
-[0:15–0:19] — OPEN WHILE DANCING
-Already moving, four to six fans take outward side steps to open a small circular pocket; the perimeter keeps nodding and stomping. No standing setup phase.
-
-[0:19–0:23] — CIRCLE WITH WEIGHT
-Fans travel around the pocket in one shared direction with springy walking steps, light shoulder brushes and immediate rebounds into their own paths. Keep a clear perimeter and visible foot plants.
-
-[0:23–0:27] — CALL AND REBOUND
-Two fans exchange a playful shoulder brush, separate and keep circling; others answer with headbangs and raised forearms. No pile-up, fall, punch or contact near heads.
-
-[0:27–0:30] — SHARED DOWNBEATS
-The circle broadens slightly as fans turn toward the band and land two shared stomps with broad mane swings. They continue swaying and cheering through the last frame; no stopped crowd tableau.
+[0:15–0:30] Cut once on the downbeat to the small pocket in the same crowd. Already dancing, fans open a small circular pocket. They move around it in one shared direction with springy steps, playful light shoulder brushes and immediate rebounds into their own paths. Let their reactions, headbanging and raised-arm cheers vary naturally. The perimeter keeps dancing with enough room for everyone; this is delighted concert play, not a fight. Finish with the fans turning their energy toward the band while the circle remains alive.
 
 END STATE:
-The same Wookiee crowd remains upright in the unchanged H28B, continuously swaying, cheering and recovering from the last stomp/headbang. The band stays beyond them. Finish on a readable phase of live movement, not a frozen crowd or motionless fur.
+The same upright crowd continues cheering and moving in H28B, band beyond them. End on a readable living phase, not a frozen cheering pose.
 
 CAMERA / SPACE:
-Two setups in the SAME H28B hall joined by one motivated cut on the 0:15 downbeat. First: eye-level dolly along the edge of the crowd that ends lower on the lead two fans. Second: wide master of the compact circle pit with a shoulder-height orbit of at most 30 degrees, no teleporting. Energy comes from the crowd's rhythm and fur motion; muzzles read in medium shots, the fast mosh stays in the wide. Keep the floor, walls, stage zone and fixed shuttle consistent. No stadium, canyon, forest, balcony or cosmic floating platform. Fur motions respect gravity and real body mass.
-
-PERFORMANCE:
-Joyful hard-rock enthusiasm at normal real-time speed. Each headbang uses neck, shoulders, knees and a planted weight transfer; mane follows with believable inertia. Keep a repeated even pulse between the larger accents. The circle travels through actual footwork, light shoulder brushes and immediate rebounds. No stopped poses, slow-motion hair shot, crowd crush, falls or aggressive attacks.
-
-LIGHTING / MATERIALS:
-Same approved Scene 28 magenta, blue and amber disco spotlights moving on real metal/fur surfaces; the same floor reflections, controlled haze and industrial lamps. Dense detailed authentic fur with physically believable strand movement.
+Two coherent setups in the same hangar, one cut at the midpoint: eye-level tracking beside the headbanging front rows, then a medium-wide view of the small mosh circle. Natural 35–50mm perspective, readable faces and real footwork; no camera flight through bodies.
 
 AUDIO:
-Deep cheers and distinct Wookiee growls, happy roars, claps, footfalls and a fast, driving, heroic original hard-rock beat from the distant band, continuous across the cut. Rhythmic whooshes of their fur movement, heavy stomps on the metal floor on every downbeat; no recognizable copyrighted song recreated.
-
-DIALOGUE / VOCALS:
-Wookiee roars and growls only. No spoken languages, narrators, chant lyrics, subtitles, voiceover or identifiable lines from a known film.
+Original fast driving hard rock from the distant band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
 
 NEGATIVE PROMPT:
-Wrong hangar, invented concert arena, different dance floor, new shuttle, missing imperial emblem, crowd of humans, bear suits, cartoon fur, cloned heads, giant mismatched monsters, band members replaced by Wookiees, violent fight, injuries, crowd crush, stampede, broken equipment, furry limbs morphing, invisible legs, duplicated fingers, temporal flicker, teleporting audience, aggressive mosh punches, slow motion, camera warp, subtitles, music lyrics, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Human audience or human-faced Wookiees, cloned heads, bear suits, morphing fur/limbs, violent attacks, falls or crowd crush, broken equipment, new arena, slow motion, strobe, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -6047,7 +5336,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 51 — Финальные титры: рок-финал с разбиванием инопланетных инструментов
 
-**Редакция активности · 20.10.2026, 00:55 МСК:** по прямой команде владельца все текущие промпты этой сцены переработаны на активное исполнение с первого кадра, непрерывные связки и короткий финальный акцент. В30с версиях сохранена плотность движения, без растягивания нескольких жестов на весь клип. Это новая редакция для будущих генераций; уже отправленные задачи используют прежний текст, дословно сохранённый в git и receipts. Основной движок — Seedance2.0, альтернативная вкладка30с не является разрешением на запуск. Сначала один15с тест A1 после сюжетной очереди и оценка владельца, затем решение об остальных танцах/музыке. Текстовая готовность не доказывает качество видео. Разбор и проверки: [активность28/49–51](reports/dance-music-energy-2026-10-20.md).
+**Редакция исполнения · 25.10.2026:** по команде владельца после аудита танцев сокращены повторы и пошаговая хореография; свободное исполнение сочетается с точными гэгами, хватом, опорами и реальными стыками. Обновлены все варианты этой сцены. Это промты будущих разрешённых запусков: уже отправленные задачи используют прежний текст, дословно в git/receipts; их результат оценивается по нему. Качество новой редакции предстоит проверить по роликам. Стандарт — [§5А](PROMPT-STYLE-GUIDE.md); [отчёт о правке](reports/prompt-refresh-2026-10-25.md).
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","wookiee_fans","montage_insert"]} -->
 
@@ -6066,7 +5355,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-51/S51-neck-grip-windup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51-neck-grip-windup.png.webp" alt="@Image7 — замах: обе руки за гриф" loading="lazy"></a><figcaption>@Image7 — замах: обе руки за гриф</figcaption></figure>
 </div>
 
-**Что происходит:** После общего выступления группа даёт последний мощный аккорд. Серёга, Юля и Паша пафосно замахиваются и разбивают часть своих инопланетных инструментов о пол или стойки. Летят безопасные обломки корпусов и искры, но без травм, крови или чрезмерной жести. Коты не находятся в опасной зоне удара и только реагируют на финал. Толпа вуки ревёт, трясёт гривами и вскидывает лапы. Сцена должна монтироваться с танцами Scene 28, выступлением Scene 49 и фанатами Scene 50.
+**Что происходит:** После общего выступления группа даёт последний мощный аккорд. Серёга, Юля и Паша пафосно замахиваются и разбивают свои три инопланетных инструмента корпусами о отдельные пустые участки пола. Летят безопасные обломки корпусов и искры, но без травм, крови или чрезмерной жести. Коты не находятся в опасной зоне удара и только реагируют на финал. Толпа вуки ревёт, трясёт гривами и вскидывает лапы. Сцена должна монтироваться с танцами Scene 28, выступлением Scene 49 и фанатами Scene 50.
 
 <div class="engine-tabs" data-scene="51">
 
@@ -6078,18 +5367,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal cinematic hard-rock finale insert, same exact Scene 28 H28B hangar, same approved cast and wardrobe as Scene 49, ending just BEFORE any destruction: the wind-up to the instrument smash.
+Optimized for Seedance 2.0 | Photoreal pompous live-rock finale with clear physical cause and effect
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — ABSOLUTE EXACT H28B hangar from Scene 28 and 49; preserve the original imperial emblem on the dance floor, shuttle at frame-right, space opening, blue/magenta and amber practical lights, same walls and floor.
-@Image2 — EXACT SEREGA face and deep purple Chancellor robe from his approved individual reference.
-@Image3 — EXACT YULYA face and her dark armoured costume, long chestnut hair, shoulder pieces and cape.
-@Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
-@Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
-@Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
-@Image7 — CORRECT TWO-HANDED NECK GRIP / POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. BOTH hands wrap the narrow neck/fretboard near the headstock, heavy instrument BODY raised above/behind shoulder and headstock protruding below lower hand. No hand grasps the wide body. The body, not the headstock, is the striking end. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
-@Image8 — the chosen Wookiee fan crowd frame from the previous fan scene: Wookiee look, fur colours, bandoliers and raised-arms fan energy for the audience in the far rear ONLY. It never overrides the hangar, the three musicians or the instruments.
-Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
+@Image1: exact H28B hangar/light. @Image2: SEREGA exact identity/costume. @Image3: YULYA exact identity/costume. @Image4: PASHA exact identity/costume. @Image5: Serega's black/blue six-string lead guitar and Yulya's silver/violet four-string bass, prop design only. @Image6: ONLY Pasha's bronze four-amber-string gravibass; ignore its other instruments. @Image7: neck grip, pre-impact pose and spacing only, Serega left, Yulya centre, Pasha right. @Image8: Wookiee audience look and energy, far rear only. Priority: individual sheets own people, @Image1 owns location, @Image5–6 own props; the pose/crowd helpers cannot redesign any of them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
@@ -6097,48 +5378,31 @@ YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armou
 PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
 Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
 
-GRIP / CONTACT LOCK:
-Playing grip belongs only to the final chord: left hand frets, right hand picks near the bridge, instrument supported at waist. For the smash, BOTH hands securely clasp the narrow NECK near the headstock, never the body; shoulder straps are clear. The raised HEAVY BODY swings down and contacts the floor FIRST; headstock stays beside the hands. Maintain distinct hand/neck contact during the swing. No treating a guitar body as a handle.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
-LOCATION / INSTRUMENT / SAFETY LOCK — CRITICAL:
-Only the same H28B hangar. One original assigned physical instrument per person. All breakaway effects in part 51B happen at real contact with the unoccupied floor, not in the air. Neither the fans nor the cats are in the instrument-swing area. No new raised concert stage, arena or spaceship.
+GRIP / CONTACT — CRITICAL:
+During playing, left hand frets and right hand picks near the bridge, strap supporting the instrument. Before the wind-up, slip the strap clear while controlling its weight. Then BOTH hands grip the narrow NECK near the headstock, one above the other; headstock protrudes below the lower hand, the heavy BODY rises above/behind the shoulder. The BODY is the striking end, never a handhold. Keep separate swing lanes and empty floor impact patches, audience well behind and cats/Alesya outside them.
 
 START STATE:
 Same original three characters and three intact alien instruments, in their Scene 49 positions inside H28B. Serega at frame-left, Yulya midframe and Pasha frame-right, with clear empty floor areas in front. The Wookiee fans cheer well behind them. The fixed shuttle is on the right.
 
-TIMELINE:
-[0:00–0:04] — FINALE RIFF
-All three play a fast insistent riff from the first frame, strumming and fretting while shifting weight through bent knees. Serega left, Yulya centre and Pasha right remain in separate lanes; fans headbang behind.
+STORY FLOW:
+[0:00–0:08] Play a vigorous final riff with natural rock-star movement and serious faces, answering each other without leaving the three lanes. Culminate in the last chord; hands remain in the playing grip until it sounds.
 
-[0:04–0:08] — LAST PLAYING PHRASE
-Two synchronized leaning accents and a short vigorous riff culminate in the final played chord. Hands stay in the correct playing grip until that chord; no opening pose or extended dramatic pause.
-
-[0:08–0:11] — STRAP AND GRIP CHANGE
-As the chord rings, each slips the strap clear while controlling the instrument, then places BOTH hands one above the other around its narrow neck near the headstock. The heavy body hangs away from knees; no hand holds the body as a handle.
-
-[0:11–0:15] — COMMITTED WIND-UP
-Take a firm braced step and lift the heavy body above/behind the shoulder using the two-handed NECK grip. Each aims at a different empty floor patch. Rise into the pre-impact position continuously; settle only for the last half-second. All instruments remain intact; no impact yet.
+[0:08–0:15] As the chord rings, free the straps and establish the two-handed neck grips. Brace through the legs and raise the heavy bodies into three separate wind-ups. Make the change practical and continuous, reaching the intact pre-impact position on the last beat; no strike or debris yet.
 
 END STATE:
 All three instruments are INTACT at the top of their separate pre-impact wind-ups, both hands on each narrow neck, heavy bodies raised above/behind shoulders. Resolve for only the final half-second. NO impact, debris or destruction yet; preserve clear left/centre/right spacing.
 
 CAMERA / SPACE:
-One continuous smooth medium-full trio shot in H28B, natural40–50mm perspective. Keep playing hands and faces visible, then widen gradually during the strap release and neck regrip to show raised instrument bodies, feet and separate empty impact patches. No cut across grip changes, no prolonged push toward a motionless pose.
-
-PERFORMANCE:
-Committed live rock playing followed by a practical strap release, two-handed neck regrip and firm continuous wind-up. Proud solemn faces, visible weight transfer and bodily effort at normal real-time speed. End before impact; no prolonged suspense pose, slow-motion preparation or destruction in this part.
-
-LIGHTING / MATERIALS:
-Same H28B blue-magenta disco wash with small amber practicals and mild haze. Metallic surfaces, robes, fur and instruments catch real highlights. No redesign.
+One continuous medium-full view of the trio, natural 40–50mm perspective, preserving left/centre/right lanes. Frame wide enough for all raised instruments, both hands and empty floor contact areas; do not hide a grip change or impact with a cut or crop. A small later lateral drift may reveal the cheering audience while retaining the trio.
 
 AUDIO:
-Original driving hard-rock riff and drum pulse through the active playing phrase, one final chord at the playing-to-regrip transition, then ringing instrument decay with Wookiee cheers, strap movement, boots and breath. The rhythmic energy continues through the preparation; no long silent suspense gap, lyrics or dialogue.
-
-DIALOGUE / VOCALS:
-No speech. Wookiee cheering/roaring only. Cats may give brief natural reaction sounds but no human-like voices.
+Original driving hard-rock riff into the last chord, ringing over strap release and wind-up; Wookiee cheers behind. No impact sounds before contact, no speech, lyrics or published melody.
 
 NEGATIVE PROMPT:
-Wrong hangar, wrong faces, different costumes, different stage, smashing already happens too early, new arena, cartoon look, blood, injuries, human crowd instead of Wookiees, cats in danger, duplicated instruments, black bars, subtitles, watermarks. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Body used as a handle, headstock-first strike, fracture before contact, repeated smash or restored instrument, overlapping swing lanes, injured performers or fans, uncontrolled explosions, identity/prop swaps, slow motion, long suspense hold, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -6152,19 +5416,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal cinematic hard-rock destruction payoff in the exact same H28B hangar: the triumphant instrument-smash moment.
+Optimized for Seedance 2.0 | Photoreal pompous live-rock finale with clear physical cause and effect
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — ABSOLUTE EXACT H28B hangar from Scene 28 and 49; preserve the original imperial emblem on the dance floor, shuttle at frame-right, space opening, blue/magenta and amber practical lights, same walls and floor.
-@Image2 — EXACT SEREGA face and deep purple Chancellor robe from his approved individual reference.
-@Image3 — EXACT YULYA face and her dark armoured costume, long chestnut hair, shoulder pieces and cape.
-@Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
-@Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
-@Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
-@Image7 — CORRECT TWO-HANDED NECK GRIP / POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. BOTH hands wrap the narrow neck/fretboard near the headstock, heavy instrument BODY raised above/behind shoulder and headstock protruding below lower hand. No hand grasps the wide body. The body, not the headstock, is the striking end. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
-@Image8 — the chosen Wookiee fan crowd frame from the previous fan scene: Wookiee look, fur colours, bandoliers and raised-arms fan energy for the audience in the far rear ONLY. It never overrides the hangar, the three musicians or the instruments.
-Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
-@Video1 — actual ending of51A: exact pre-impact pose, grip, spacing, camera axis and intact instrument state only. Individual images still control identities and prop design.
+@Image1: exact H28B hangar/light. @Image2: SEREGA exact identity/costume. @Image3: YULYA exact identity/costume. @Image4: PASHA exact identity/costume. @Image5: Serega's black/blue six-string lead guitar and Yulya's silver/violet four-string bass, prop design only. @Image6: ONLY Pasha's bronze four-amber-string gravibass; ignore its other instruments. @Image7: neck grip, pre-impact pose and spacing only, Serega left, Yulya centre, Pasha right. @Image8: Wookiee audience look and energy, far rear only. Priority: individual sheets own people, @Image1 owns location, @Image5–6 own props; the pose/crowd helpers cannot redesign any of them. @Video1: actual end of 51A, fixing intact instrument state, pre-impact grip, spacing, camera and direction; continue it without resetting the pose.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
@@ -6172,51 +5427,29 @@ YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armou
 PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
 Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
 
-GRIP / CONTACT LOCK:
-Playing grip belongs only to the final chord: left hand frets, right hand picks near the bridge, instrument supported at waist. For the smash, BOTH hands securely clasp the narrow NECK near the headstock, never the body; shoulder straps are clear. The raised HEAVY BODY swings down and contacts the floor FIRST; headstock stays beside the hands. Maintain distinct hand/neck contact during the swing. No treating a guitar body as a handle.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
-LOCATION / INSTRUMENT / SAFETY LOCK — CRITICAL:
-Only the same H28B hangar. One original assigned physical instrument per person. All breakaway effects in part 51B happen at real contact with the unoccupied floor, not in the air. Neither the fans nor the cats are in the instrument-swing area. No new raised concert stage, arena or spaceship.
-
-SAFETY / TONE:
-No blood, no bodily harm, no limbs struck by debris, no dangerous attack behavior. The instrument-smash is theatrical stage action only. Keep it triumphant and absurdly pompous.
+GRIP / CONTACT — CRITICAL:
+Start with straps already clear. BOTH hands stay on each narrow NECK near the headstock, one above the other; headstock below the lower hand, heavy BODY above/behind shoulder. The BODY strikes the floor first, never the headstock. Retain separate swing lanes and empty impact patches; audience far behind, cats/Alesya outside. Do not return to playing grip.
 
 START STATE:
 Continue the actual @Video1 ending without a pose reset: Serega left, Yulya centre, Pasha right, intact instruments at the top of separate wind-ups, two-handed neck grips and straps clear. The three empty impact patches and audience distance remain exactly as established.
 
-TIMELINE:
-[0:00–0:03] — DECISIVE CONTACT
-Continue the actual pre-impact pose immediately into ONE downward swing per instrument. Both hands stay on the neck; the heavy BODY hits its own empty floor patch first, with recoil and fragments only after contact. No slow-motion suspended swing.
-
-[0:03–0:07] — RECOIL AND ANSWER
-Each bends through the knees with the recoil, then steps back clear of the fragments, holding the remaining neck away from others. They exchange a proud head-and-shoulder accent as the Wookiees erupt behind them.
-
-[0:07–0:11] — ROCK CELEBRATION
-The three deliver two emphatic grounded stomps with torso rebounds and raise their broken necks to chest/shoulder height in victory, never swinging them at people. Fans headbang, pump arms and roar continuously beyond the empty impact zone.
-
-[0:11–0:15] — LIVING FINALE
-Another shared stomp and broad upper-body accent drives the final surge. Instruments remain broken and debris stays on the floor. Faces turn toward camera; resolve only on the final half-second while fans and cloth still move.
+STORY FLOW:
+Continue the actual wind-up immediately into ONE weighted downswing per instrument. Both hands stay on its neck; each heavy BODY hits its own empty floor patch FIRST. Fracture and brief local sparks occur only after contact. Recoil through the knees and step back clear of the fragments, keeping the remaining necks away from people. Then celebrate naturally with proud rock-star swagger as the Wookiees erupt behind: let gestures and footwork develop freely. Each instrument stays broken, debris stays down, and no second smash occurs. End with the musicians facing camera on a living triumphant accent.
 
 END STATE:
 Three original instruments each fractured only ONCE on distinct real floor contacts. Broken bodies and fragments stay on their separate floor patches; the three uninjured musicians hold the remaining necks away from others. Final accent resolves only in the last half-second, with fans still cheering and bodies recovering naturally in the same H28B.
 
 CAMERA / SPACE:
-Single continuous physically coherent shot. Keep enough architecture visible to confirm the same H28B hangar and same shuttle orientation. No cut to a different venue. No chaotic handheld collapse.
-
-PERFORMANCE:
-Start with the already established neck grips and complete one decisive weighted swing per instrument, then rebound into moving celebration. Proud solemn faces, visible recoil, planted steps and continuous fan response. No repeated strap release, second wind-up, repeated destructive loop, slow motion or prolonged victory pose.
-
-LIGHTING / MATERIALS:
-Same magenta-blue disco lighting, amber practicals, reflective floor, haze and real metal textures from Scene 28 / 49 / 50. Spark effects are brief and local.
+One continuous medium-full view of the trio, natural 40–50mm perspective, preserving left/centre/right lanes. Frame wide enough for all raised instruments, both hands and empty floor contact areas; do not hide a grip change or impact with a cut or crop. A small later lateral drift may reveal the cheering audience while retaining the trio.
 
 AUDIO:
-Original driving, heroic hard-rock final hit on the impact, destructive crunches, shattering instrument shells, metallic clang, crowd roar, Wookiee cheers and room echo. No lyrics, no spoken dialogue.
-
-DIALOGUE / VOCALS:
-No speech. Wookiee roars only. No subtitles or narration.
+Ringing rock chord into physical crunches exactly at floor contacts, with a continuing fast drum pulse and exuberant Wookiee roars. No dialogue, lyrics or published melody.
 
 NEGATIVE PROMPT:
-Wrong location, new arena, wrong cast, gore, injuries, fire engulfing the set, cats under debris, broken body parts, random explosions, different costumes, crowd crush, cartoon rendering, black bars, text overlays, watermarks. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Body used as a handle, headstock-first strike, fracture before contact, repeated smash or restored instrument, overlapping swing lanes, injured performers or fans, uncontrolled explosions, identity/prop swaps, slow motion, long suspense hold, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -6232,24 +5465,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Входы:** @Image1 — `references/scenes/scene-28/H28B-disco.png`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/full/yulya.jpg`; @Image4 — `references/full/pasha.jpg`; @Image5 — `references/scenes/scene-49/S49A-lead-and-bass.png`; @Image6 — `references/scenes/scene-49/S49B-rhythm-instruments.png`; @Image7 — `references/scenes/scene-51/S51-neck-grip-windup.png`; @Image8 — `references/scenes/scene-50/S50-fans-1c48a62d.png`.
 
-*51A+51B одним роликом: аккорд, пауза, замах без заморозки и сразу удар; заканчивается победным табло 51B.*
+*51A+51B одним роликом: последний аккорд, освобождение ремней, перехват грифа двумя руками, замах и удар; затем живая победная реакция51B.*
 
 #### 51 · Wan 3.0 · 30 с
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal cinematic hard-rock finale, same exact Scene 28 H28B hangar | One last unison chord, a pompous pause, a two-handed wind-up and the triumphant smash of three alien instruments
+Optimized for Wan 3.0 | Photoreal pompous live-rock finale with clear physical cause and effect
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — ABSOLUTE EXACT H28B hangar from Scene 28 and 49; preserve the original imperial emblem on the dance floor, shuttle at frame-right, space opening, blue/magenta and amber practical lights, same walls and floor.
-@Image2 — EXACT SEREGA face and deep purple Chancellor robe from his approved individual reference.
-@Image3 — EXACT YULYA face and her dark armoured costume, long chestnut hair, shoulder pieces and cape.
-@Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
-@Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
-@Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
-@Image7 — CORRECT TWO-HANDED NECK GRIP / POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. BOTH hands wrap the narrow neck/fretboard near the headstock, heavy instrument BODY raised above/behind shoulder and headstock protruding below lower hand. No hand grasps the wide body. The body, not the headstock, is the striking end. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
-@Image8 — the chosen Wookiee fan crowd frame from the previous fan scene: Wookiee look, fur colours, bandoliers and raised-arms fan energy for the audience in the far rear ONLY. It never overrides the hangar, the three musicians or the instruments.
-Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
+@Image1: exact H28B hangar/light. @Image2: SEREGA exact identity/costume. @Image3: YULYA exact identity/costume. @Image4: PASHA exact identity/costume. @Image5: Serega's black/blue six-string lead guitar and Yulya's silver/violet four-string bass, prop design only. @Image6: ONLY Pasha's bronze four-amber-string gravibass; ignore its other instruments. @Image7: neck grip, pre-impact pose and spacing only, Serega left, Yulya centre, Pasha right. @Image8: Wookiee audience look and energy, far rear only. Priority: individual sheets own people, @Image1 owns location, @Image5–6 own props; the pose/crowd helpers cannot redesign any of them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
@@ -6257,60 +5482,33 @@ YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armou
 PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
 Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
 
-GRIP / CONTACT LOCK:
-Playing grip belongs only to the final chord: left hand frets, right hand picks near the bridge, instrument supported at waist. For the smash, BOTH hands securely clasp the narrow NECK near the headstock, never the body; shoulder straps are clear. The raised HEAVY BODY swings down and contacts the floor FIRST; headstock stays beside the hands. Maintain distinct hand/neck contact during the swing. No treating a guitar body as a handle.
+SCENE / LIGHT:
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
-LOCATION / INSTRUMENT / SAFETY LOCK — CRITICAL:
-Only the same H28B hangar. One original assigned physical instrument per person. All breakaway effects happen at real contact with the unoccupied floor, not in the air. Neither the fans nor the cats are in the instrument-swing area. No new raised concert stage, arena or spaceship. No blood, no bodily harm, no limbs struck by debris, no dangerous attack behavior: the smash is theatrical stage action only, triumphant and absurdly pompous.
+GRIP / CONTACT — CRITICAL:
+During playing, left hand frets and right hand picks near the bridge, strap supporting the instrument. Before the wind-up, slip the strap clear while controlling its weight. Then BOTH hands grip the narrow NECK near the headstock, one above the other; headstock protrudes below the lower hand, the heavy BODY rises above/behind the shoulder. The BODY is the striking end, never a handhold. Keep separate swing lanes and empty floor impact patches, audience well behind and cats/Alesya outside them.
 
 START STATE:
 Same original three characters and three intact alien instruments, in their Scene 49 positions inside H28B. Serega at frame-left, Yulya midframe and Pasha frame-right, with clear empty floor areas in front. The Wookiee fans cheer well behind them. The fixed shuttle is on the right.
 
-TIMELINE:
-[0:00–0:04] — FINALE RIFF
-All three play a fast insistent riff from the first frame, strumming and fretting while shifting weight through bent knees. Serega left, Yulya centre and Pasha right remain in separate lanes; fans headbang behind.
+STORY FLOW:
+[0:00–0:08] Play a vigorous final riff with natural rock-star movement and serious faces, answering each other without leaving the three lanes. Culminate in the last chord; hands remain in the playing grip until it sounds.
 
-[0:04–0:08] — LAST PLAYING PHRASE
-Two synchronized leaning accents and a short vigorous riff culminate in the final played chord. Hands stay in the correct playing grip until that chord; no opening pose or extended dramatic pause.
+[0:08–0:15] As the chord rings, free the straps and establish the two-handed neck grips. Brace through the legs and raise the heavy bodies into three separate wind-ups. Make the change practical and continuous, reaching the intact pre-impact position around the midpoint; flow straight into the strike.
 
-[0:08–0:11] — STRAP AND GRIP CHANGE
-As the chord rings, each slips the strap clear while controlling the instrument, then places BOTH hands one above the other around its narrow neck near the headstock. The heavy body hangs away from knees; no hand holds the body as a handle.
-
-[0:11–0:15] — COMMITTED WIND-UP
-Take a firm braced step and lift the heavy body above/behind the shoulder using the two-handed NECK grip. Each aims at a different empty floor patch. Rise into the pre-impact position continuously; settle only for the last half-second. All instruments remain intact; no impact yet.
-
-[0:15–0:18] — DECISIVE CONTACT
-Continue the pre-impact pose just reached immediately into ONE downward swing per instrument. Both hands stay on the neck; the heavy BODY hits its own empty floor patch first, with recoil and fragments only after contact. No slow-motion suspended swing.
-
-[0:18–0:22] — RECOIL AND ANSWER
-Each bends through the knees with the recoil, then steps back clear of the fragments, holding the remaining neck away from others. They exchange a proud head-and-shoulder accent as the Wookiees erupt behind them.
-
-[0:22–0:26] — ROCK CELEBRATION
-The three deliver two emphatic grounded stomps with torso rebounds and raise their broken necks to chest/shoulder height in victory, never swinging them at people. Fans headbang, pump arms and roar continuously beyond the empty impact zone.
-
-[0:26–0:30] — LIVING FINALE
-Another shared stomp and broad upper-body accent drives the final surge. Instruments remain broken and debris stays on the floor. Faces turn toward camera; resolve only on the final half-second while fans and cloth still move.
+[0:15–0:30] Continue that wind-up immediately into ONE weighted downswing per instrument. Both hands stay on its neck; each heavy BODY hits its own empty floor patch FIRST. Fracture and brief local sparks occur only after contact. Recoil through the knees and step back clear of the fragments, keeping the remaining necks away from people. Then celebrate naturally with proud rock-star swagger as the Wookiees erupt behind: let gestures and footwork develop freely. Each instrument stays broken, debris stays down, and no second smash occurs. End with the musicians facing camera on a living triumphant accent.
 
 END STATE:
 Three original instruments each fractured only ONCE on distinct real floor contacts. Broken bodies and fragments stay on their separate floor patches; the three uninjured musicians hold the remaining necks away from others. Final accent resolves only in the last half-second, with fans still cheering and bodies recovering naturally in the same H28B.
 
 CAMERA / SPACE:
-One continuous smooth medium-full view of the trio in their separate lanes, natural40–50mm perspective. Keep faces, both hands and full instruments readable. Widen gradually during the grip change so raised bodies and empty floor contact patches remain in frame; do not crop or cut across hand-to-neck transfer or impact. After the swing, a modest lateral move reveals the cheering fans while retaining all three musicians. Fixed H28B geography, no whip pan, aerial reveal or camera-made fake speed.
-
-PERFORMANCE:
-A committed live rock finale at normal real-time speed: vigorous continuous playing, practical strap release and two-handed neck regrip, decisive weighted swing, then moving celebration. Proud solemn faces, clear body effort and recoil. No slow careful ceremonial wind-up, prolonged suspense pose, slow motion or repeated destructive loops.
-
-LIGHTING / MATERIALS:
-Same H28B blue-magenta disco wash with small amber practicals and mild haze, reflective floor and real metal textures from Scene 28 / 49 / 50. Robes, fur and instruments catch real highlights; spark effects are brief and local. No redesign.
+One continuous medium-full view of the trio, natural 40–50mm perspective, preserving left/centre/right lanes. Frame wide enough for all raised instruments, both hands and empty floor contact areas; do not hide a grip change or impact with a cut or crop. A small later lateral drift may reveal the cheering audience while retaining the trio.
 
 AUDIO:
-Original driving hard-rock riff and drum pulse through the playing, a final chord ringing over the grip change, then synchronized drum hits and physical crunches at the actual impacts. Wookiee roars and the continuing rhythm carry the moving celebration. No long silent suspense, published melody, lyrics or dialogue.
-
-DIALOGUE / VOCALS:
-No speech. Wookiee cheering/roaring only. Cats may give brief natural reaction sounds but no human-like voices. No subtitles or narration.
+Original driving hard-rock riff and pulse, last chord ringing over the grip change, physical crunches only at actual impacts, then Wookiee roars and continuing rhythm. No speech, lyrics or published melody.
 
 NEGATIVE PROMPT:
-Wrong hangar, wrong faces, different costumes, different stage, new arena, wrong cast, hands gripping the instrument body, smashing with the headstock, smashing in mid-air, instrument breaking more than once, gore, blood, injuries, fire engulfing the set, random explosions, cats in danger, human crowd instead of Wookiees, duplicated instruments, slow motion, melting faces, cartoon rendering, subtitles, text overlays, watermarks, black bars. Slow motion, speed ramps, prolonged idle pose, disconnected gesture-then-wait timing, repeated frozen tableau, motion-smear faces, camera motion substituted for performer movement.
+Body used as a handle, headstock-first strike, fracture before contact, repeated smash or restored instrument, overlapping swing lanes, injured performers or fans, uncontrolled explosions, identity/prop swaps, slow motion, long suspense hold, subtitles or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

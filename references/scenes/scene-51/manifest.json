@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-19T22:10:17.227022Z",
+  "updated_at": "2026-10-25T10:48:10.341Z",
   "status": "DRAFT",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "references": [
@@ -174,8 +174,8 @@
     {
       "prompt": "51A",
       "status": "READY",
-      "canonical_prompt_sha256": "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070",
-      "characters": 7451,
+      "canonical_prompt_sha256": "dbcba8d77020836c536c19e6e5c1665633a2e5a57f75447e253350157a6ca110",
+      "characters": 4889,
       "slots": [
         {
           "slot": "@Image1",
@@ -227,18 +227,20 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
-      "normalized_prompt_sha256": "a78f505b54c837e8778164378d4929062a0066c982647ad77f9fdae45bb3124c",
+      "normalized_prompt_sha256": "c8c003f71027fa616ebaac1af42408bb297cbbd00973fe4793a9d338f09d925f",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review"
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070",
+      "queue_item_id": "S51A"
     },
     {
       "prompt": "51B",
       "status": "DRAFT",
-      "canonical_prompt_sha256": "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
-      "characters": 7487,
+      "canonical_prompt_sha256": "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
+      "characters": 5030,
       "slots": [
         {
           "slot": "@Image1",
@@ -298,12 +300,14 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
-      "normalized_prompt_sha256": "d00c891b5cc39dbd3bf72aa24f8a61aeb3e31e90d9eb15af2f5b2cba85eb228d",
+      "normalized_prompt_sha256": "33e7c19e3382c1779ea2509bbf2b07c9597ef414c246e057061a57ca26fbb06f",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_continuity"
+      "launch_readiness": "blocked_inputs",
+      "previous_prompt_sha256_before_20261025": "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
+      "queue_item_id": "S51B"
     },
     {
       "prompt": "51 · Wan 3.0",
@@ -359,15 +363,16 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "e227f6f3892d6d186ba5ef5d567a0f51f592564702a439e2f6fe1140da4c6327",
-      "normalized_prompt_sha256": "7929e3d089fabd305ec205b863b9d7e00399bec5047f0514eb9e8fd26a9c5f7d",
-      "characters": 9202,
+      "canonical_prompt_sha256": "36338e834d59c4e9e3546521949310dbb4d8332b00811ad0b25b9458073ea3ab",
+      "normalized_prompt_sha256": "e941ad02a8a7421fd567de9c22f17f3fbc5b43484ed1255825d0c753af76f10d",
+      "characters": 5579,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review",
-      "status": "READY"
+      "launch_readiness": "unselected_alternative",
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "e227f6f3892d6d186ba5ef5d567a0f51f592564702a439e2f6fe1140da4c6327"
     }
   ],
   "site_published": {
@@ -383,10 +388,10 @@
     "Safety for cats, tiny Ewok and fans",
     "Only owner-authorized queue; unlimited website, zero credits, one submit per item; no automatic editorial approval."
   ],
-  "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
+  "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
   "superseded_pose_note": "Owner17Oct clarified smash grip: former S51-pre-impact-pose body-grip helper retained only as history, no longer an input; neck-grip windup now used.",
-  "launch_gate": "Existing ONE15s A1 test after story and owner review before any other dance/music submission; variants are not additional launch authorization.",
+  "launch_gate": "Owner25Oct: follow live queue after story priorities, then63→49→50→51→28 A1–A12. Skip only genuinely blocked items. Existing A1/A2 must terminate and pass review before their authorized R2 attempts. A3 requires fresh A2-R2 frame; A12 requires A11 video; 51B requires 51A video. Wan versions are unselected alternatives. No implicit approval or extra retries.",
   "video_refs": [
     {
       "slot": "@Video1",
@@ -396,5 +401,9 @@
       "source_item_id": "S51A",
       "source_requirement": "Actual new51A result ending, intact instruments and two-handed neck grip; save provenance, trim, SHA256 and continuity QC. Submission or pose helper alone is insufficient."
     }
-  ]
+  ],
+  "prompt_revision_20261025": {
+    "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
+    "report": "reports/prompt-refresh-2026-10-25.md"
+  }
 }

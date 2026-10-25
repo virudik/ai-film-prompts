@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-19T22:10:17.227022Z",
+  "updated_at": "2026-10-25T10:48:10.341Z",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "ready",
   "references": [
@@ -110,9 +110,9 @@
   "prompt_reference_mapping": [
     {
       "prompt_id": "50A",
-      "canonical_prompt_sha256": "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
-      "characters": 6743,
-      "launch_readiness": "blocked_test_review",
+      "canonical_prompt_sha256": "799f99805cfa40b3b11b76cee7c1d97cef09cb5772bbc056821aa65e411de8ae",
+      "characters": 3644,
+      "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
           "slot": "@Image1",
@@ -147,18 +147,20 @@
       ],
       "prompt": "50A",
       "previous_prompt_sha256_before_20261020": "836877c4238947b15280dca301df8c20925747bc9d6734f084c20596618142dd",
-      "normalized_prompt_sha256": "00290b1069a0d368fe95bb971c17a83a4d027f272d23c9e57bc1e81d9e44ecd7",
+      "normalized_prompt_sha256": "3913225837276f24b230a96dbff64a067fb42d0f91f9dcfd77ba852be338a74a",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "status": "READY"
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
+      "queue_item_id": "S50A"
     },
     {
       "prompt_id": "50B",
-      "canonical_prompt_sha256": "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
-      "characters": 6763,
-      "launch_readiness": "blocked_test_review",
+      "canonical_prompt_sha256": "79b240f1f5d656af25a5b76d33d75f82d4a23323e72e55bccb139efa32ff0e17",
+      "characters": 3655,
+      "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
           "slot": "@Image1",
@@ -193,12 +195,14 @@
       ],
       "prompt": "50B",
       "previous_prompt_sha256_before_20261020": "8e962cd7c5f6bc2c278367784ec0112591badd39fae7a60297063eb72d94019d",
-      "normalized_prompt_sha256": "f3d73adda08441afc120f031b1e525fe4e2b09c96c0487628a9287cb704af97a",
+      "normalized_prompt_sha256": "05d737ef7554d6ce3d0164b8177594975a792c5d13b7abb1a7a61c71e9faabf9",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "status": "READY"
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
+      "queue_item_id": "S50B"
     },
     {
       "prompt": "50 · Wan 3.0",
@@ -236,15 +240,16 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "b56e23b0c7260e77d3559fb9b18e75174ee05fb0bb5f6cc11f3ff773506c5748",
-      "normalized_prompt_sha256": "121853321e31d993bb4cee2fd1592c65cc6af345c78ecb7c219a8f2fa4377f8c",
-      "characters": 7943,
+      "canonical_prompt_sha256": "cc4c4dee80eec9786ddb0492751479a0b914feb14b8f6a6c5151190875fcc984",
+      "normalized_prompt_sha256": "95362b94ba018f9781e1b1d55b68ba1329061ea140c527781845cbb14fcbedab",
+      "characters": 4211,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review",
-      "status": "READY"
+      "launch_readiness": "unselected_alternative",
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "b56e23b0c7260e77d3559fb9b18e75174ee05fb0bb5f6cc11f3ff773506c5748"
     }
   ],
   "site_published": {
@@ -295,7 +300,7 @@
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   },
-  "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
+  "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
   "generated_fan_candidates": [
     {
       "variant": 1,
@@ -380,9 +385,13 @@
     }
   ],
   "selection_status": "owner_selected_variant_2_20261017",
-  "launch_gate": "Existing ONE15s A1 test after story and owner review before any other dance/music submission; variants are not additional launch authorization.",
+  "launch_gate": "Owner25Oct: follow live queue after story priorities, then63→49→50→51→28 A1–A12. Skip only genuinely blocked items. Existing A1/A2 must terminate and pass review before their authorized R2 attempts. A3 requires fresh A2-R2 frame; A12 requires A11 video; 51B requires 51A video. Wan versions are unselected alternatives. No implicit approval or extra retries.",
   "previous_remaining_before_20261020": [
     "Owner selection among three archived fan image candidates; then apply selected reference mapping to50A/B and validate READY. No new image generation authorized/needed."
   ],
-  "selection_evidence": "Current master and launch queue both select S50-fans-1c48a62d.png; reused unchanged, no new approval inferred."
+  "selection_evidence": "Current master and launch queue both select S50-fans-1c48a62d.png; reused unchanged, no new approval inferred.",
+  "prompt_revision_20261025": {
+    "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
+    "report": "reports/prompt-refresh-2026-10-25.md"
+  }
 }

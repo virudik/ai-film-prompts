@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-19T22:10:17.227022Z",
+  "updated_at": "2026-10-25T10:48:10.341Z",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -434,8 +434,8 @@
     {
       "prompt": "49A",
       "status": "READY",
-      "canonical_prompt_sha256": "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705",
-      "characters": 7200,
+      "canonical_prompt_sha256": "b74caf4a80ca0a8d76ed98321bb6a8d02aa3f61a413ac5b5153ea5cb8f771b64",
+      "characters": 4960,
       "slots": [
         {
           "slot": "@Image1",
@@ -469,18 +469,20 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
-      "normalized_prompt_sha256": "b646081705c3489ee55571178df304b7c5dd5fb06fb414369fde0f6f5e3e201e",
+      "normalized_prompt_sha256": "6fa07769f2c70692798ab7d9577505cb6a5fad224eb5c459f5e76e332e719f54",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review"
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705",
+      "queue_item_id": "S49A"
     },
     {
       "prompt": "49B",
       "status": "READY",
-      "canonical_prompt_sha256": "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc",
-      "characters": 7664,
+      "canonical_prompt_sha256": "b390dadd6e48a741701a428a296c2bb87d51206c4bdc6dc8754ac5efafdaaf34",
+      "characters": 5376,
       "slots": [
         {
           "slot": "@Image1",
@@ -520,18 +522,20 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
-      "normalized_prompt_sha256": "a66cdb578c8a5164e9fe2a3345865802c41c098fda509967c7183fed57626753",
+      "normalized_prompt_sha256": "3edf9ae3cad12f77878d3f0a02291115e8840080a70508596b70cfb525c83752",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review"
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc",
+      "queue_item_id": "S49B"
     },
     {
       "prompt": "49C",
       "status": "READY",
-      "canonical_prompt_sha256": "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c",
-      "characters": 7618,
+      "canonical_prompt_sha256": "b6e6ba4ceef6f05dfb27c6c0868a1e1745413724b3d198acf2551f05ad7225eb",
+      "characters": 5363,
       "slots": [
         {
           "slot": "@Image1",
@@ -571,18 +575,20 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
-      "normalized_prompt_sha256": "cb7410fa217d291d30f792ca251f3dedcc0c3e997b3e5e58c6b3e4d20e9cb696",
+      "normalized_prompt_sha256": "de237d64873ef423b874e18c98aab51d9bd7ea7580fa1afd411e0d4726540bc6",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review"
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c",
+      "queue_item_id": "S49C"
     },
     {
       "prompt": "49D",
       "status": "READY",
-      "canonical_prompt_sha256": "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34",
-      "characters": 7556,
+      "canonical_prompt_sha256": "40d101fb51e1e72bc7295e7b63ccf51672f9d8374fc68b413dd33db554f2efe1",
+      "characters": 5312,
       "slots": [
         {
           "slot": "@Image1",
@@ -616,18 +622,20 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
-      "normalized_prompt_sha256": "ce1cf54b4daea1ca1a77fecc61c46e7e3cf3292595e2a5b82d85250f96058c10",
+      "normalized_prompt_sha256": "6e9d808b7e164c81b92f8cba3082e087baf8d860603fbc486c83af351e5f2db4",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review"
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34",
+      "queue_item_id": "S49D"
     },
     {
       "prompt": "49E",
       "status": "READY",
-      "canonical_prompt_sha256": "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0",
-      "characters": 6758,
+      "canonical_prompt_sha256": "f2af0965a9e26c82c58d3deba9b5f3fb087e56bfa0e7c71e72e0899da60c1f0a",
+      "characters": 5030,
       "slots": [
         {
           "slot": "@Image1",
@@ -661,18 +669,20 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
-      "normalized_prompt_sha256": "403a10b1b3e1838ccde6af17e44cca332b9cd268f71d88bc35325d335bb060d1",
+      "normalized_prompt_sha256": "1bf936fdb90ac5061936e4f3d3b7f9dc4d96e4250c86c79fc019d4a256b67c93",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review"
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0",
+      "queue_item_id": "S49E"
     },
     {
       "prompt": "49F",
       "status": "READY",
-      "canonical_prompt_sha256": "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca",
-      "characters": 9163,
+      "canonical_prompt_sha256": "a6e99b637c780951b02c37b835f29da52e82788734078fce2785e19ba735fc46",
+      "characters": 7598,
       "slots": [
         {
           "slot": "@Image1",
@@ -724,12 +734,14 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
-      "normalized_prompt_sha256": "883c1370ba51c225a7f0d86531b93a0e954568e08d8d35954e91274fd71d6373",
+      "normalized_prompt_sha256": "1fd4833511697ea10d42f09041acdcb55d92614e2169616d96652aab525b586c",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review"
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca",
+      "queue_item_id": "S49F"
     },
     {
       "prompt": "49 · Wan 3.0 часть 1",
@@ -800,15 +812,16 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "672d08c2bcca4d942d28776425932a62cfb6c21dd62f64872638452c8d3a43a3",
-      "normalized_prompt_sha256": "fc0e1085e943ed004ddc23822115cae184a74c90bcd6940276726544bf723161",
-      "characters": 8925,
+      "canonical_prompt_sha256": "470913c43667d2246bf2bea7372b1a163709e106bf6374caee94d197e3fdeb97",
+      "normalized_prompt_sha256": "654326e7d8601def02d61b0de4e85b84f8412eceb113207aee998c153e67544c",
+      "characters": 7014,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review",
-      "status": "READY"
+      "launch_readiness": "unselected_alternative",
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "672d08c2bcca4d942d28776425932a62cfb6c21dd62f64872638452c8d3a43a3"
     },
     {
       "prompt": "49 · Wan 3.0 часть 2",
@@ -879,15 +892,16 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "b68957307d362044fd7495cba5b59676cfdc003a712e35e6039875f3e5143934",
-      "normalized_prompt_sha256": "98e4642e6d9275e9de991e2de989de7ddc824104d887d60338d995e1f5806fcc",
-      "characters": 9264,
+      "canonical_prompt_sha256": "794024b05c186c244be1e5c050fd492e2a5fa0b804c22f9d1d4da3acf61fc718",
+      "normalized_prompt_sha256": "b26e04cae41c31917b0946179aac1ee39e7ebc8a26e4c3ef71b630b7638c9331",
+      "characters": 7294,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review",
-      "status": "READY"
+      "launch_readiness": "unselected_alternative",
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "b68957307d362044fd7495cba5b59676cfdc003a712e35e6039875f3e5143934"
     },
     {
       "prompt": "49 · Wan 3.0 часть 3",
@@ -958,15 +972,16 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "73cfd17617b0faa1d6c5d747618ef74e12a47b41c4f501e8f6994102a4eb1370",
-      "normalized_prompt_sha256": "c748c3bdc8ec16b0e1bded4967e6effb23de39304e6536333c492280fa71dfa7",
-      "characters": 9517,
+      "canonical_prompt_sha256": "12366217fb33dcf935785474c9ac18ae9ed4c7dc0e749af55ebab2095c2584b8",
+      "normalized_prompt_sha256": "122753d65885c7ff1662357c93f7553b15cd3d9a041d652e78194a9940fc4d4d",
+      "characters": 7964,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-20 owner00:55MSK",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_test_review",
-      "status": "READY"
+      "launch_readiness": "unselected_alternative",
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "73cfd17617b0faa1d6c5d747618ef74e12a47b41c4f501e8f6994102a4eb1370"
     }
   ],
   "site_published": {
@@ -982,7 +997,11 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
+  "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
-  "launch_gate": "Existing ONE15s A1 test after story and owner review before any other dance/music submission; variants are not additional launch authorization."
+  "launch_gate": "Owner25Oct: follow live queue after story priorities, then63→49→50→51→28 A1–A12. Skip only genuinely blocked items. Existing A1/A2 must terminate and pass review before their authorized R2 attempts. A3 requires fresh A2-R2 frame; A12 requires A11 video; 51B requires 51A video. Wan versions are unselected alternatives. No implicit approval or extra retries.",
+  "prompt_revision_20261025": {
+    "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
+    "report": "reports/prompt-refresh-2026-10-25.md"
+  }
 }
