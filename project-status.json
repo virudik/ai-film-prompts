@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-25T08:50:34Z",
-  "revision_date": "24.10.2026",
+  "synced_at": "2026-10-25T09:33:33Z",
+  "revision_date": "25.10.2026",
   "master_declared_last_full_sync": "24.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "cd4bcc2eec478b5c113ae7351615b7fe72625d846893ea9438bca7aa4fd4ebad",
-  "canonical_revision_sha256": "6455d6b17e8aa240e77aeba9d48c329e0abcd45dd44d25770a9d12877367a54a",
-  "canonical_master_bytes": 1091439,
-  "scenes": 25,
-  "prompt_texts": 102,
+  "canonical_master_sha256": "9038afa5cd758adf2cda6fd70b7933a988ffa474f1bdbf0d35a13b0c155fd80c",
+  "canonical_revision_sha256": "bb77198915b1cc349ca6bf17df4ffe0734a3d6cf943da68d4742a5020c802c41",
+  "canonical_master_bytes": 1118387,
+  "scenes": 26,
+  "prompt_texts": 105,
   "work_items": [
     "W5",
     "W6",
@@ -67,9 +67,10 @@
     59,
     60,
     61,
-    62
+    62,
+    63
   ],
-  "latest_scene": 62,
+  "latest_scene": 63,
   "reserved_scene_ids": [
     1,
     2,
@@ -110,16 +111,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-25T08:48:31.022Z",
+    "snapshot_at": "2026-10-25T09:30:30.199Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.034,
+    "age_hours_at_status_build": 0.051,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "9cd8410a9bdad281b31e26fec1d6fc62a8783ba8",
-        "mirror_sha256": "adafdbcec07d726f44d3f45ed2e11418327aa8157a721d12f881fc7cd644cea1",
+        "github_blob": "3852cf46e4870e8958d40b166a521f128a6a6a3e",
+        "mirror_sha256": "fd1e2870fe5a841e2540366589dfdcf5cfc8970be0b87be3d6811d10a2abc4ed",
         "match": true,
         "drive_copy_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
         "drive_copy_match": true,
@@ -193,7 +194,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.034,
+      "age_hours": 0.051,
       "blocking": false
     },
     "topview_task_map": {
@@ -239,7 +240,7 @@
     },
     "28": {
       "target_engine": "Seedance 2.0",
-      "production_state": "READY",
+      "production_state": "NEEDS_RERENDER",
       "duration_s": 15,
       "dialogue": {
         "enabled": false,
@@ -761,15 +762,33 @@
         "action"
       ],
       "render_state": "IDLE"
+    },
+    "63": {
+      "target_engine": "Wan 3",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "serega",
+        "sith_temple",
+        "statues",
+        "admiration",
+        "visual_comedy"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "24.10.2026",
-    "synced_at": "2026-10-25T08:50:34Z",
-    "canonical_master_sha256": "cd4bcc2eec478b5c113ae7351615b7fe72625d846893ea9438bca7aa4fd4ebad",
-    "canonical_revision_sha256": "6455d6b17e8aa240e77aeba9d48c329e0abcd45dd44d25770a9d12877367a54a",
-    "scene_count": 25,
-    "prompt_count": 102,
+    "revision_date": "25.10.2026",
+    "synced_at": "2026-10-25T09:33:33Z",
+    "canonical_master_sha256": "9038afa5cd758adf2cda6fd70b7933a988ffa474f1bdbf0d35a13b0c155fd80c",
+    "canonical_revision_sha256": "bb77198915b1cc349ca6bf17df4ffe0734a3d6cf943da68d4742a5020c802c41",
+    "scene_count": 26,
+    "prompt_count": 105,
     "scene_ids": [
       13,
       16,
@@ -795,7 +814,8 @@
       59,
       60,
       61,
-      62
+      62,
+      63
     ],
     "work_items": [
       "W5",
