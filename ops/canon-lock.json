@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt-cloud-beb26cfe80f8-relay-retention",
-  "task": "Bound Relay event receipts with archive and exact dedup index",
-  "acquired_at": "2026-10-25T22:48:52.055Z",
-  "expires_at": null,
-  "released_at": "2026-10-25T22:56:39.805Z",
+  "state": "held",
+  "holder": "chatgpt-cloud-beb26cfe80f8-cleanup",
+  "task": "Safe root cleanup, Relay history, lossless operation journal and work-register retention",
+  "acquired_at": "2026-10-25T23:11:36.207Z",
+  "expires_at": "2026-10-25T23:56:36.207Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
