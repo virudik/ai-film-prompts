@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-25T10:49:07.270Z",
+  "checked_at": "2026-10-25T10:49:49.740Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -50,11 +50,11 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "github_blob": "27570613e85b6dc255bb5a05b0984e11fcc67880",
-      "mirror_sha256": "ccbdaca872d6fe00c32e1f90f011c16791a6b9d85552512421ef897d996b7c4b",
+      "github_blob": "e0c1c0e5c65658b4e8175bc794e01ec0d9de2342",
+      "mirror_sha256": "1751b0c8e0417e7b97ac10d110b4bc147464588f28cd8f600a1b8d480bc1177a",
       "match": true,
       "drive_copy_sha256": "ccbdaca872d6fe00c32e1f90f011c16791a6b9d85552512421ef897d996b7c4b",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-24T08:09:43.959Z",
       "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
