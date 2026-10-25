@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-25T13:10:48.355886Z",
+  "updated_at": "2026-10-25T13:36:26.001872Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -666,7 +666,11 @@
         "path": "references/scenes/scene-28/H28-horizontal-lift.png",
         "thumbnail": "references/thumbs/scenes/scene-28/H28-horizontal-lift.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     },
     {
@@ -704,7 +708,11 @@
         "path": "references/scenes/scene-28/F28-two-hand-face-fan.png",
         "thumbnail": "references/thumbs/scenes/scene-28/F28-two-hand-face-fan.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     }
   ],
@@ -1850,10 +1858,14 @@
       "references/masha-laguna.webp",
       "references/luchik.jpg",
       "references/ryzhik.jpg",
-      "references/scenes/scene-28/C28-from-B2-result.png"
+      "references/scenes/scene-28/C28-from-B2-result.png",
+      "references/scenes/scene-28/H28-horizontal-lift.png",
+      "references/scenes/scene-28/F28-two-hand-face-fan.png"
     ],
-    "status": "existing_gallery_in_published_master",
-    "manifest_publication": "included_with_this_repository_version"
+    "status": "verified_current_revision",
+    "manifest_publication": "included_with_this_repository_version",
+    "verified_at": "2026-10-25T13:36:26.001872Z",
+    "verification_report": "reports/music-reference-completion-2026-10-25.json"
   },
   "last_qc_at": "2026-10-08T09:58:58.592675Z",
   "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",

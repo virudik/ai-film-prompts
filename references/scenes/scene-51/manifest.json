@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-25T13:10:48.355886Z",
+  "updated_at": "2026-10-25T13:36:26.001872Z",
   "status": "READY",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "references": [
@@ -88,7 +88,11 @@
         "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51A-own-instrument-setup.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     },
     {
@@ -170,7 +174,11 @@
         "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51B-own-instrument-setup.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     },
     {
@@ -229,7 +237,11 @@
         "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51C-own-instrument-setup.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     },
     {
@@ -280,7 +292,11 @@
         "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51D-own-instrument-setup.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     },
     {
@@ -337,7 +353,11 @@
         "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51E-own-instrument-setup.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     },
     {
@@ -394,7 +414,11 @@
         "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51F-own-instrument-setup.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending_readback"
+        "publication_status": "verified_published",
+        "git_present": true,
+        "verified_at": "2026-10-25T13:36:26.001872Z",
+        "gallery_verified": true,
+        "thumbnail_loaded": true
       }
     }
   ],
@@ -952,7 +976,17 @@
   "site_published": {
     "scene_anchor": "#scene-51",
     "linked_in_master": true,
-    "status": "pending_current_revision_readback"
+    "status": "verified_current_revision",
+    "gallery_paths": [
+      "references/scenes/scene-51/S51A-own-instrument-setup.png",
+      "references/scenes/scene-51/S51B-own-instrument-setup.png",
+      "references/scenes/scene-51/S51C-own-instrument-setup.png",
+      "references/scenes/scene-51/S51D-own-instrument-setup.png",
+      "references/scenes/scene-51/S51E-own-instrument-setup.png",
+      "references/scenes/scene-51/S51F-own-instrument-setup.png"
+    ],
+    "verified_at": "2026-10-25T13:36:26.001872Z",
+    "verification_report": "reports/music-reference-completion-2026-10-25.json"
   },
   "invariants": [
     "Identity sheets override invented details",

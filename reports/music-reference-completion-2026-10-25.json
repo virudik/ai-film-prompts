@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T13:10:48.355886Z",
+  "updated_at": "2026-10-25T13:36:26.001872Z",
   "master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
   "copyable_prompts": 114,
   "new_images": 8,
@@ -617,6 +617,31 @@
     "site_contract": "passed",
     "thumbnails_current": 275,
     "mapping_and_hash_checks": "passed;8 revised/new queue entries;all4scene mappings",
-    "publication": "pending_readback"
+    "publication": "verified_published;31 exact file readbacks;8 gallery images and6 scene51 images loaded"
+  },
+  "publication": {
+    "verified_at": "2026-10-25T13:36:26.001872Z",
+    "status": "verified_published",
+    "main_content_commit": "3ac6bd0c84dfc9df4659f8606e583f09f16c9fdf",
+    "character_links_commit": "1451849aff9921823db2f6daada822e094088e33",
+    "gallery_cache_fix_commit": "9a3990eee4c95cc882bfc5a53ec08fc030278266",
+    "deployed_head_observed": "ae1e75110b20dc3a863dc88efd7b574b05fb694b",
+    "pages_run_id": 40197913881,
+    "pages_conclusion": "success",
+    "exact_git_readback_files": 31,
+    "gallery_url": "https://virudik.github.io/ai-film-prompts/references.html",
+    "scene_url": "https://virudik.github.io/ai-film-prompts/index.html#scene-51",
+    "gallery_new_thumbnails_loaded": 8,
+    "thumbnail_natural_width": 640,
+    "scene51_new_thumbnails_loaded": 6,
+    "full_originals_opened_in_gallery": [
+      "S51A-own-instrument-setup.png",
+      "H28-horizontal-lift.png"
+    ],
+    "full_original_natural_width": 1672,
+    "screenshot": "reports/evidence/music-final-six-parts-20261025.jpg",
+    "gallery_fix": "Both thumbnail-manifest fetches now use fresh query and cache:no-store. After reload all eight new thumbnails appeared and loaded. This verifies the site gallery only, not historical ChatGPT Space/native Images issues.",
+    "new_video_submissions": 0,
+    "topview_credit_spend": 0
   }
 }
