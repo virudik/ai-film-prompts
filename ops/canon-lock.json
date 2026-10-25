@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Connect verified Topview robot identity and run genuine Agent Relay delivery acceptance test",
-  "acquired_at": "2026-10-25T20:13:25.500Z",
-  "expires_at": null,
-  "released_at": "2026-10-25T20:13:50.950Z",
+  "task": "Relay webhook evt_58943c1ffaf7d583e38e37aa91d5ed57 / wake-relay-robot-20261025-01",
+  "acquired_at": "2026-10-25T20:16:09.643Z",
+  "expires_at": "2026-10-25T20:31:09.643Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
