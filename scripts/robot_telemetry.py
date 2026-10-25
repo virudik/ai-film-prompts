@@ -22,6 +22,7 @@ contradicts itself — in doubt it HOLDS, records an honest `degraded` cycle onc
 usage: robot_telemetry.py [--root DIR] [--mode shadow|on] [--scan shadow/topview-robot-status.json]
 """
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -44,6 +45,9 @@ PREVIEW = "shadow/robot-cycle-preview.json"
 MAX_EVENTS = 40
 MAX_SCAN_AGE_MIN = 15
 MAX_ATTEMPTS = 4
+REWAKE_MIN = 20               # a free slot with ready queue items re-wakes the executor at most this often
+REWAKE_MAX = 3                # ... and at most this many times per unchanged set of active tasks (then: hourly check)
+ACTIONABLE = ("ready", "prepare_continuity")   # ops/queue-readiness.json codes the executor can act on now
 ACTIVE = {"init", "queued", "running", "processing"}
 TERMINAL = {"success", "fail", "failed", "cancelled"}
 # backendModelCode of the Topview video config (topview_get_generation_config, 13.10.2026)
@@ -502,6 +506,11 @@ class GhNotifier:
                                              "observed_at": signal["observed_at"],
                                              "free_slots_global": signal["free_slots_global"]})
         print(f"::notice title=robot-wake::issue #{number}; relay {status} ({detail})")
+        if status in ("error", "no_token"):      # visible to the owner; the bounded re-wake retries later
+            self.post("Робот Topview: сигнал свободного слота не доставлен в Agent Relay",
+                      f"Issue #{number}, событие `{signal['event_id']}`: `{status}` ({detail}). "
+                      f"Робот повторит сигнал не раньше чем через {REWAKE_MIN} мин, пока слот свободен; "
+                      "часовая проверка ChatGPT остаётся страховкой. Ничего не запускалось.")
         q = subprocess.run(["gh", "api", "-X", "GET", "repos/{owner}/{repo}/issues", "-f", "state=open",
                             "-f", f"labels={WAKE_LABEL}", "-f", "per_page=50", "--jq", ".[].number"],
                            text=True, capture_output=True, env=env)
@@ -682,6 +691,88 @@ def mark_woken(root, keys):
     path.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def slot_state(root):
+    """Account-wide occupancy from the published telemetry (all projects) and actionable queue items."""
+    root = Path(root)
+    ts = read_json(root / "topview-status.json", {}) or {}
+    prj = read_json(root / PROJECTS_TELEMETRY, {}) or {}
+    film = [t.get("task_id") for t in ts.get("active_tasks", []) if t.get("task_id")]
+    foreign = [t.get("task_id") for t in prj.get("active", []) if t.get("task_id")]
+    occupied = max(int(ts.get("occupied_slots") or 0), len(film)) + len(foreign)
+    qr = read_json(root / "ops/queue-readiness.json", {}) or {}
+    actionable = [i.get("id") for i in qr.get("items", []) if i.get("code") in ACTIONABLE]
+    episode = hashlib.sha1(",".join(sorted(film + foreign)).encode()).hexdigest()[:8]
+    return {"checked_at": ts.get("checked_at"), "free": max(0, 6 - occupied), "episode": episode,
+            "actionable": actionable}
+
+
+def note_wake(root, episode, now, *, event_id=None, rewake=False, silence_reported=None):
+    """Remember the last wake (result or re-wake) so re-wakes stay bounded per set of active tasks."""
+    path = Path(root) / "automation-monitor-status.json"
+    d = read_json(path, {})
+    ns = d.setdefault("notification_state", {})
+    rw = ns.get("robot_rewake") or {}
+    count = (rw.get("count", 0) if rw.get("episode") == episode else 0) + (1 if rewake else 0)
+    ns["robot_rewake"] = {"episode": episode, "count": count if rewake else 0, "last_at": now_z(now),
+                          "last_event_id": event_id,
+                          "silence_reported": silence_reported or rw.get("silence_reported")}
+    path.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return count
+
+
+def handler_acked(root, event_id):
+    """The executor records every handled event id in reports/topview-event-wake.json (ops/TOPVIEW-EVENT-WAKE.md)."""
+    try:
+        return event_id in (Path(root) / "reports/topview-event-wake.json").read_text(encoding="utf-8")
+    except OSError:
+        return False
+
+
+def rewake_due(root, now, observed_at=None):
+    """A slot stays free although the queue has actionable items: the first wake was lost, the executor was
+    paused/over quota, or the slot freed without a result (cancel, vanished task). Returns the signal or None."""
+    st = slot_state(root)
+    observed_at = observed_at or st["checked_at"]   # noop cycles: this scan matched the published telemetry
+    age = minutes_since(observed_at, now)
+    if not st["free"] or not st["actionable"] or age is None or age > 20:
+        return None
+    ns = (read_json(Path(root) / "automation-monitor-status.json", {}) or {}).get("notification_state") or {}
+    rw = ns.get("robot_rewake") or {}
+    count = rw.get("count", 0) if rw.get("episode") == st["episode"] else 0
+    since = minutes_since(rw.get("last_at"), now)
+    if count >= REWAKE_MAX or (since is not None and since < REWAKE_MIN):
+        return None
+    return {"event_id": f"slots:{st['episode']}:{count + 1}", "observed_at": observed_at,
+            "free_slots_global": st["free"], "episode": st["episode"], "ready": len(st["actionable"])}
+
+
+def maybe_rewake(root, git, notifier, now, observed_at=None):
+    sig = rewake_due(root, now, observed_at)
+    if not sig:
+        return False
+    ns = (read_json(Path(root) / "automation-monitor-status.json", {}) or {}).get("notification_state") or {}
+    prev = (ns.get("robot_rewake") or {}).get("last_event_id")
+    silent = prev and not handler_acked(root, prev) and (ns.get("robot_rewake") or {}).get("silence_reported") != prev
+    note_wake(root, sig["episode"], now, event_id=sig["event_id"], rewake=True,
+              silence_reported=prev if silent else None)
+    if git.commit(f"GitHub robot: re-wake executor — {sig['free_slots_global']} free slot(s), "
+                  f"{sig['ready']} ready item(s)", ["automation-monitor-status.json"]) is None:
+        return False
+    if not git.push() or not git.head_is_on_remote():
+        git.reset()
+        print("::warning title=robot-wake::re-wake state not pushed; next cycle retries")
+        return False
+    if silent:                    # once per unanswered signal: the executor may be paused, over quota or unsubscribed
+        notifier.post("Робот Topview: исполнитель не ответил на сигнал свободного слота",
+                      f"Сигнал `{prev}` не отмечен в `reports/topview-event-wake.json` за {REWAKE_MIN}+ мин, "
+                      f"слот всё ещё свободен, в очереди готово: {sig['ready']}. Робот шлёт повтор `{sig['event_id']}`. "
+                      "Проверить задание ChatGPT 6adc585e… (включено? подписка Relay жива?). "
+                      "Часовая проверка остаётся страховкой. Ничего не запускалось.")
+    notifier.wake(sig)
+    print(f"::notice title=robot-wake::re-wake {sig['event_id']}")
+    return True
+
+
 def wake_dm_text(signal, issue_url):
     """Agent Relay DM: plain data for the executor, verified against the issue and fresh main."""
     return (f"{WAKE_MARKER}\nevent_id: {signal['event_id']}\nissue: {issue_url}\n"
@@ -719,6 +810,7 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
 
         if d == "noop":
             print("::notice title=robot-telemetry::nothing changed; telemetry is fresh")
+            maybe_rewake(root, git, notifier, now, scan.get("checked_at"))
             return 0
 
         if d == "hold":
@@ -796,6 +888,9 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
             mark_notified(root, [e["key"] for e in fresh])
             wake_events = wake_candidates(root, plan)
             mark_woken(root, [e["key"] for e in wake_events])
+            sent = [w for w in (slot_wake_signal(e, plan) for e in wake_events) if w]
+            if sent:
+                note_wake(root, slot_state(root)["episode"], now, event_id=sent[-1]["event_id"])
         except (ValueError, subprocess.CalledProcessError, AssertionError, KeyError) as e:
             git.reset()
             print(f"::error title=robot-telemetry::publish validation failed ({type(e).__name__}: {str(e)[:160]}); telemetry not committed")
@@ -819,8 +914,10 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
         for e in fresh:
             notifier.post(e["title"], published_event_text(e, plan))
         wakes = [w for w in (slot_wake_signal(e, plan) for e in wake_events) if w]
-        if wakes:                 # one new mail thread per cycle is enough: the handler fills every free slot
+        if wakes:                 # one wake per cycle is enough: the handler fills every free slot
             notifier.wake(wakes[-1])
+        else:
+            maybe_rewake(root, git, notifier, now, scan.get("checked_at"))
         print(f"::notice title=robot-telemetry::published {summary}; commit {commit[:7]}")
         return 0
     print("::error title=robot-telemetry::push rejected 4 times; will retry next run")
