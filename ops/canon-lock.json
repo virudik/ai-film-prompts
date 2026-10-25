@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-10-25T08:27:12.062Z",
+  "state": "held",
+  "holder": "claude:slot-wake",
+  "task": "Robot → Agent Relay DM bridge (read-only test channel)",
+  "acquired_at": "2026-10-25T08:31:57Z",
+  "expires_at": "2026-10-25T09:16:57Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
