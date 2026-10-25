@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T21:57:35.129Z",
-  "status": "relay_mutex_passed_awaiting_after_lock_ack",
-  "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
+  "updated_at": "2026-10-25T22:02:56.119Z",
+  "status": "relay_production_enabled",
+  "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
   "test_ack": null,
@@ -94,13 +94,7 @@
       }
     }
   ],
-  "blocker": {
-    "stage": "Gmail event -> ChatGPT automation execution",
-    "evidence": "Five bot test comments and matching Gmail deliveries verified. Main event task enabled; last_run/latest_result and test_ack remain null at checked_at. Latest test follows subscription pause/resume and exact subject-only filter. No evidence of event handler execution.",
-    "cause": "Not established; no supported service-side event delivery diagnostics available in current tools.",
-    "fallback": "Hourly task enabled and unchanged; recorded completed run 2026-10-23T21:55:00Z -> 22:01:16Z.",
-    "next_action": "Inspect actual event history/ACK on next resumption. If absent, service-side diagnosis is required. Do not add duplicate schedules, trigger test spam, fabricate ACK, or claim end-to-end readiness."
-  },
+  "blocker": null,
   "manual_run_now": {
     "at": "2026-10-23T22:30:54.051Z",
     "reason": "Run now is available only for ordinary cloud-scheduled tasks."
@@ -326,8 +320,8 @@
     "test_ack_reference": "robot_relay.test_acks"
   },
   "robot_relay": {
-    "status": "mutex_completed_exact_run_receipts_awaiting_after_lock_ack",
-    "production_ready": false,
+    "status": "production_enabled_acceptance_passed",
+    "production_ready": true,
     "source_bridge_commit": "a817eaf35efeaac65c94a1dd19d2601b36cc3632",
     "handler_updated_at": "2026-10-25T08:44:59Z",
     "handler_prompt_readback": true,
@@ -434,7 +428,7 @@
       "checked_at": "2026-10-25T08:58:21.396Z",
       "resolved_by": "Owner completed supported device login and dedicated robot registration in local Windows runtime; prior cloud network restriction remains unchanged."
     },
-    "next_action": "Verify genuine after-lock ACK for wake-relay-after-lock-receipts-20261025-02, then enable production under own lock and update instructions/certificate.",
+    "next_action": "Use existing robot Relay path for verified published free-slot results; hourly fallback remains enabled. Verify first actual slot-triggered launch by task ID and receipt, never infer it from read-only tests.",
     "secret_confirmation": {
       "source": "owner_statement",
       "confirmed_at": "2026-10-25T20:13:50.950Z",
@@ -535,7 +529,9 @@
       "production_enabled": false,
       "strict_acceptance_blocker": "Both automation run completion times and actual run IDs unavailable; confirmed last_run_time is not a completed-run receipt.",
       "evidence": "ops/relay-acceptance.json",
-      "final_checked_at": "2026-10-25T21:15:27.006Z"
+      "final_checked_at": "2026-10-25T21:15:27.006Z",
+      "historical_attempt": true,
+      "superseded_by": "robot_relay.mutex_completion"
     },
     "mutex_completion": {
       "status": "passed",
@@ -593,6 +589,66 @@
       "started_at": "2026-10-25T20:56:40.387509Z",
       "completed_at": "2026-10-25T20:57:29.252304Z",
       "chat_ref": null
+    },
+    "production_acceptance": {
+      "status": "passed",
+      "verified_at": "2026-10-25T22:02:56.119Z",
+      "production_enabled": true,
+      "delivery": "robot_relay.delivery_acceptance",
+      "duplicate": "robot_relay.duplicate_acceptance",
+      "pause_resume": "robot_relay.recovery_acceptance",
+      "mutex": "robot_relay.mutex_completion",
+      "after_lock": {
+        "status": "passed",
+        "test_id": "wake-relay-after-lock-receipts-20261025-02",
+        "event_id": "evt_b56ed165b1a81dae4a7267075522e977",
+        "message_id": "240232498431336448",
+        "issue_number": 42,
+        "ack_verified_at": "2026-10-25T22:00:10.638Z",
+        "ack_commit": "6051253ed246428aebb76772149f740419eaa6a4",
+        "automation_run": {
+          "id": "652ee7c1-cd04-8332-b65f-d20b90698499",
+          "recorded_status": "completed",
+          "scheduled_for": "2026-10-25T21:59:03.409333Z",
+          "started_at": "2026-10-25T21:59:05.527320Z",
+          "completed_at": "2026-10-25T22:00:50.534858Z",
+          "chat_ref": {
+            "type": "chatgpt",
+            "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+          }
+        },
+        "github_actions_run_id": 40237910851,
+        "github_job_id": 121303344401,
+        "ack_written_by": "genuine event handler; original ACK unchanged"
+      },
+      "automation_state": {
+        "hourly_enabled": true,
+        "relay_enabled": true,
+        "diagnostic_enabled": false,
+        "gmail_enabled": false,
+        "hourly_prompt_unchanged": true,
+        "hourly_schedule_unchanged": true,
+        "handler_prompt_unchanged": true
+      },
+      "new_automations": 0,
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "scope": "Existing owner-authorized Seregius queue only; website Unlimited 0; hourly fallback unchanged.",
+      "limits": "Acceptance proves robot delivery, event execution, deduplication, pause/resume and lock discipline. No video Create was performed; first real slot-triggered generation must be verified by its own receipt.",
+      "validation": {
+        "checked_at": "2026-10-25T22:04:46.838Z",
+        "unit_tests_passed": 253,
+        "unit_test_runtime_seconds": 38.183,
+        "site_contract": "ok",
+        "canon_health": "ok",
+        "canon_health_warnings": 0,
+        "instruction_certificate": "7/7 byte hashes match",
+        "d7_brief_valid": true,
+        "d7_anchors": "15/15",
+        "launch_queue_unchanged": true,
+        "original_genuine_acks_unchanged": true,
+        "first_real_event_submit_verified": false
+      }
     }
   }
 }

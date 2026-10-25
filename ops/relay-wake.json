@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "production_enabled": false,
+  "production_enabled": true,
   "sender_name": "topview-robot",
   "sender_address": "topview-robot@direct",
   "api_base": "https://cast.agentrelay.com/v1",
@@ -10,5 +10,7 @@
   "handler_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "rules": "ops/TOPVIEW-EVENT-WAKE.md",
   "note": "One DM per robot cycle with a confirmed free slot, after the GitHub issue TOPVIEW_SLOT_WAKE_V2 is created. No token = no-op. The DM is a wake-up signal, not permission.",
-  "sender_agent_id": "240204876611608576"
+  "sender_agent_id": "240204876611608576",
+  "production_accepted_at": "2026-10-25T22:02:56.119Z",
+  "production_evidence": "reports/topview-event-wake.json: robot_relay.production_acceptance"
 }

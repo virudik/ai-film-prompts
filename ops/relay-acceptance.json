@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "status": "mutex_passed_waiting_after_lock_ack",
+  "status": "passed",
   "enabled": false,
-  "updated_at": "2026-10-25T21:57:35.129Z",
+  "updated_at": "2026-10-25T22:02:56.119Z",
   "coordinator_automation_id": "6adbe1e7057c8190a5500374c9816975",
   "existing_automation_reused": true,
   "scheduled_for": "2026-10-25T20:54:00Z",
@@ -33,51 +33,65 @@
   "on_finish": "Disable this existing one-shot diagnostic only; no recurring schedule or new monitor.",
   "prompt_readback_verified": true,
   "new_automations": 0,
-  "finished_at": "2026-10-25T21:15:27.006Z",
-  "production_ready": false,
-  "tested_by": "existing one-shot diagnostic automation",
+  "finished_at": "2026-10-25T22:02:56.119Z",
+  "production_ready": true,
+  "tested_by": "Existing event and hourly automations; bounded interactive completion with independently captured run receipts",
   "new_submissions": 0,
-  "final_result": "Bot-origin delivery, duplicate suppression, pause/resume and post-lock ACK passed. Both hourly and Relay task last_run_time fell inside a continuously held foreign canon lock; no mutex ACK or queue mutation. However independently verified per-run IDs/completed_at for the two automation runs are unavailable, so strict production acceptance is not certified.",
-  "blocker": "Awaiting genuine after-lock ACK for bounded completion test",
+  "final_result": "All required read-only acceptance checks passed. Exact hourly/event runs completed under the same foreign lock without queue/ACK/claim/Create; run lifetimes did not overlap. Genuine after-lock ACK confirmed. Production enabled, hourly unchanged.",
+  "blocker": null,
   "evidence_observed": {
     "controlled_lock": {
-      "task": "relay-mutex-coordinator-6adbe1e7057c8190a5500374c9816975-2026-10-25T20:54:14.637Z",
-      "acquired_at": "2026-10-25T20:54:14.637Z",
-      "released_at": "2026-10-25T21:07:36.624Z"
+      "task": "chatgpt-cloud-beb26cfe80f8-relay-acceptance-completion",
+      "acquired_at": "2026-10-25T21:53:21.144Z",
+      "released_at": "2026-10-25T21:57:35.129Z",
+      "acquire_commit": "0bf5f6b356ae854d5b702590a43100010c598305"
     },
     "event_under_lock": {
-      "issue": 39,
-      "event_id": "evt_baa78d15bc78f1649a42366ce41cc7a0",
-      "message_id": "240216661865590784",
-      "delivered_at": "2026-10-25T20:55:15.000Z",
-      "github_actions_run_id": 40232973847,
-      "github_job_id": 121288452057,
-      "automation_last_run_time": "2026-10-25T20:57:47.361222Z",
-      "automation_last_updated": "2026-10-25T20:57:47.585940Z",
-      "automation_run_id": null,
-      "automation_completed_at": null
+      "id": "b350f9e2-e4d8-832d-b091-4696f4e1b2d4",
+      "recorded_status": "completed",
+      "scheduled_for": "2026-10-25T21:55:48.874049Z",
+      "started_at": "2026-10-25T21:55:50.650599Z",
+      "completed_at": "2026-10-25T21:56:28.497272Z",
+      "chat_ref": {
+        "type": "chatgpt",
+        "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+      }
     },
     "hourly_under_lock": {
-      "automation_last_run_time": "2026-10-25T20:57:29.809691Z",
-      "automation_last_updated": "2026-10-25T20:57:51.670743Z",
-      "automation_run_id": null,
-      "automation_completed_at": null
+      "id": "8a6b234f-92e8-8324-89e7-216d05a1e7cf",
+      "recorded_status": "no_update",
+      "scheduled_for": "2026-10-25T21:55:00Z",
+      "started_at": "2026-10-25T21:54:00.302994Z",
+      "completed_at": "2026-10-25T21:54:31.555087Z",
+      "chat_ref": null
     },
-    "no_mutex_ack_observed": true,
     "queue_sha_before_and_after": "bc0d451d47bdee95e37058b7eeb553da12c42955",
-    "run_lifetimes_overlapped": null,
+    "no_mutex_ack_observed": true,
+    "run_lifetimes_overlapped": false,
     "after_lock": {
-      "issue": 40,
-      "event_id": "evt_679ae70e04801a13e203f3b07d534c2f",
-      "message_id": "240220095395590144",
-      "delivered_at": "2026-10-25T21:08:53.000Z",
-      "verified_ack_at": "2026-10-25T21:11:26.736Z",
-      "github_actions_run_id": 40234060755,
-      "github_job_id": 121291724360,
-      "ack_written_by": "genuine event handler",
-      "new_submissions": 0
+      "status": "passed",
+      "test_id": "wake-relay-after-lock-receipts-20261025-02",
+      "event_id": "evt_b56ed165b1a81dae4a7267075522e977",
+      "message_id": "240232498431336448",
+      "issue_number": 42,
+      "ack_verified_at": "2026-10-25T22:00:10.638Z",
+      "ack_commit": "6051253ed246428aebb76772149f740419eaa6a4",
+      "automation_run": {
+        "id": "652ee7c1-cd04-8332-b65f-d20b90698499",
+        "recorded_status": "completed",
+        "scheduled_for": "2026-10-25T21:59:03.409333Z",
+        "started_at": "2026-10-25T21:59:05.527320Z",
+        "completed_at": "2026-10-25T22:00:50.534858Z",
+        "chat_ref": {
+          "type": "chatgpt",
+          "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+        }
+      },
+      "github_actions_run_id": 40237910851,
+      "github_job_id": 121303344401,
+      "ack_written_by": "genuine event handler; original ACK unchanged"
     },
-    "production_enabled": false
+    "production_enabled": true
   },
   "completion_attempt": {
     "owner_request": "Понятно чего мы этим добиваемся? Доделай",
@@ -131,6 +145,134 @@
       "credits_spent": 0,
       "not_claimed": "Run lifetimes did not overlap; both completed within the same continuously held foreign lock."
     },
-    "after_lock_test_id": "wake-relay-after-lock-receipts-20261025-02"
-  }
+    "after_lock_test_id": "wake-relay-after-lock-receipts-20261025-02",
+    "after_lock": {
+      "status": "passed",
+      "test_id": "wake-relay-after-lock-receipts-20261025-02",
+      "event_id": "evt_b56ed165b1a81dae4a7267075522e977",
+      "message_id": "240232498431336448",
+      "issue_number": 42,
+      "ack_verified_at": "2026-10-25T22:00:10.638Z",
+      "ack_commit": "6051253ed246428aebb76772149f740419eaa6a4",
+      "automation_run": {
+        "id": "652ee7c1-cd04-8332-b65f-d20b90698499",
+        "recorded_status": "completed",
+        "scheduled_for": "2026-10-25T21:59:03.409333Z",
+        "started_at": "2026-10-25T21:59:05.527320Z",
+        "completed_at": "2026-10-25T22:00:50.534858Z",
+        "chat_ref": {
+          "type": "chatgpt",
+          "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+        }
+      },
+      "github_actions_run_id": 40237910851,
+      "github_job_id": 121303344401,
+      "ack_written_by": "genuine event handler; original ACK unchanged"
+    },
+    "production_acceptance": {
+      "status": "passed",
+      "verified_at": "2026-10-25T22:02:56.119Z",
+      "production_enabled": true,
+      "delivery": "robot_relay.delivery_acceptance",
+      "duplicate": "robot_relay.duplicate_acceptance",
+      "pause_resume": "robot_relay.recovery_acceptance",
+      "mutex": "robot_relay.mutex_completion",
+      "after_lock": {
+        "status": "passed",
+        "test_id": "wake-relay-after-lock-receipts-20261025-02",
+        "event_id": "evt_b56ed165b1a81dae4a7267075522e977",
+        "message_id": "240232498431336448",
+        "issue_number": 42,
+        "ack_verified_at": "2026-10-25T22:00:10.638Z",
+        "ack_commit": "6051253ed246428aebb76772149f740419eaa6a4",
+        "automation_run": {
+          "id": "652ee7c1-cd04-8332-b65f-d20b90698499",
+          "recorded_status": "completed",
+          "scheduled_for": "2026-10-25T21:59:03.409333Z",
+          "started_at": "2026-10-25T21:59:05.527320Z",
+          "completed_at": "2026-10-25T22:00:50.534858Z",
+          "chat_ref": {
+            "type": "chatgpt",
+            "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+          }
+        },
+        "github_actions_run_id": 40237910851,
+        "github_job_id": 121303344401,
+        "ack_written_by": "genuine event handler; original ACK unchanged"
+      },
+      "automation_state": {
+        "hourly_enabled": true,
+        "relay_enabled": true,
+        "diagnostic_enabled": false,
+        "gmail_enabled": false,
+        "hourly_prompt_unchanged": true,
+        "hourly_schedule_unchanged": true,
+        "handler_prompt_unchanged": true
+      },
+      "new_automations": 0,
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "scope": "Existing owner-authorized Seregius queue only; website Unlimited 0; hourly fallback unchanged.",
+      "limits": "Acceptance proves robot delivery, event execution, deduplication, pause/resume and lock discipline. No video Create was performed; first real slot-triggered generation must be verified by its own receipt.",
+      "validation": {
+        "checked_at": "2026-10-25T22:04:46.838Z",
+        "unit_tests_passed": 253,
+        "unit_test_runtime_seconds": 38.183,
+        "site_contract": "ok",
+        "canon_health": "ok",
+        "canon_health_warnings": 0,
+        "instruction_certificate": "7/7 byte hashes match",
+        "d7_brief_valid": true,
+        "d7_anchors": "15/15",
+        "launch_queue_unchanged": true,
+        "original_genuine_acks_unchanged": true,
+        "first_real_event_submit_verified": false
+      }
+    }
+  },
+  "prior_attempt_result": {
+    "finished_at": "2026-10-25T21:15:27.006Z",
+    "final_result": "Bot-origin delivery, duplicate suppression, pause/resume and post-lock ACK passed. Both hourly and Relay task last_run_time fell inside a continuously held foreign canon lock; no mutex ACK or queue mutation. However independently verified per-run IDs/completed_at for the two automation runs are unavailable, so strict production acceptance is not certified.",
+    "evidence_observed": {
+      "controlled_lock": {
+        "task": "relay-mutex-coordinator-6adbe1e7057c8190a5500374c9816975-2026-10-25T20:54:14.637Z",
+        "acquired_at": "2026-10-25T20:54:14.637Z",
+        "released_at": "2026-10-25T21:07:36.624Z"
+      },
+      "event_under_lock": {
+        "issue": 39,
+        "event_id": "evt_baa78d15bc78f1649a42366ce41cc7a0",
+        "message_id": "240216661865590784",
+        "delivered_at": "2026-10-25T20:55:15.000Z",
+        "github_actions_run_id": 40232973847,
+        "github_job_id": 121288452057,
+        "automation_last_run_time": "2026-10-25T20:57:47.361222Z",
+        "automation_last_updated": "2026-10-25T20:57:47.585940Z",
+        "automation_run_id": null,
+        "automation_completed_at": null
+      },
+      "hourly_under_lock": {
+        "automation_last_run_time": "2026-10-25T20:57:29.809691Z",
+        "automation_last_updated": "2026-10-25T20:57:51.670743Z",
+        "automation_run_id": null,
+        "automation_completed_at": null
+      },
+      "no_mutex_ack_observed": true,
+      "queue_sha_before_and_after": "bc0d451d47bdee95e37058b7eeb553da12c42955",
+      "run_lifetimes_overlapped": null,
+      "after_lock": {
+        "issue": 40,
+        "event_id": "evt_679ae70e04801a13e203f3b07d534c2f",
+        "message_id": "240220095395590144",
+        "delivered_at": "2026-10-25T21:08:53.000Z",
+        "verified_ack_at": "2026-10-25T21:11:26.736Z",
+        "github_actions_run_id": 40234060755,
+        "github_job_id": 121291724360,
+        "ack_written_by": "genuine event handler",
+        "new_submissions": 0
+      },
+      "production_enabled": false
+    }
+  },
+  "production_enabled": true
 }

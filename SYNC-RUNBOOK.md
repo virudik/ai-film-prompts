@@ -39,7 +39,7 @@
 
 Робот не заменяет (остаётся за агентом / владельцем): привязку задачи без точного совпадения промта; выполнение текстовых `owner_task` (робот их только доставляет во входящие); применение `tv_mark_status(result_ok)`; «Не нужна» при зависимых сценах; ИИ-часть суточной проверки инструкций; копии в Notion / Library / Project.
 
-**Сигнал свободного слота (25.10.2026).** Выбран Agent Relay, Gmail V2 paused; существующий робот посылает DM после проверенной публикации и создания бот-issue. Отдельный agent token — только GitHub secret AGENT_RELAY_TOKEN; HTTP2xx не доказательство исполнения. Обработчик сверяет sender/issue/ID/свежесть, дедуп, общий замок/claim и Unlimited0. До bot-origin ACK `production_enabled:false`; часовая страховка6acae6ab… сохранена. Полная процедура и фактическая готовность — `ops/TOPVIEW-EVENT-WAKE.md`, `reports/topview-event-wake.json`.
+**Сигнал свободного слота (26.10.2026).** Agent Relay включён после полной приёмки; Gmail V2 paused. Существующий робот после проверенной публикации результата со свободным слотом создаёт бот-issue и посылает DM; отдельный agent token хранится только в GitHub secret AGENT_RELAY_TOKEN. Обработчик проверяет sender/issue/ID/свежесть, дедуп, общий замок/CAS claim и Unlimited0. Часовая страховка6acae6ab… сохранена. Рабочий флаг и откат — `ops/relay-wake.json`; процедура и доказательства — `ops/TOPVIEW-EVENT-WAKE.md`, `reports/topview-event-wake.json`. Квитанции run ID/start/completed сохранять до следующего события: peek показывает только последний run; HTTP2xx или last_run_time не заменяют исполнение.
 
 ### Запуск автоматики снаружи (решение владельца 13.10.2026)
 

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "channel": "relay",
   "test_id": "wake-relay-after-lock-receipts-20261025-02",
   "read_only": true,
   "requested_at": "2026-10-25T21:57:35.129Z",
   "expected_new_submissions": 0,
   "automation_id": "6adc585e7ac08191bb93825117dc7213",
-  "reason": "Final after-lock recovery check following independently recorded event and ordinary hourly completed runs under the same unique foreign lock. True event handler writes ACK; no claim/Create/video/credits.",
+  "reason": "Acceptance complete: exact mutex receipts and genuine after-lock ACK verified; production enabled. Diagnostic stopped; hourly fallback unchanged.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",
