@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-25T10:40:18Z",
+  "synced_at": "2026-10-25T10:41:47Z",
   "revision_date": "25.10.2026",
   "master_declared_last_full_sync": "24.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "9cee9f6d814701837333f3e07cdb98bbe080a2d46b93653a9f1d2a389d21e8f2",
@@ -111,11 +111,11 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-25T09:30:30.199Z",
+    "snapshot_at": "2026-10-25T10:41:00.255Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.163,
+    "age_hours_at_status_build": 0.013,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -123,7 +123,7 @@
         "mirror_sha256": "fd1e2870fe5a841e2540366589dfdcf5cfc8970be0b87be3d6811d10a2abc4ed",
         "match": true,
         "drive_copy_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
-        "drive_copy_match": true,
+        "drive_copy_match": false,
         "drive_copy_modified_at": "2026-10-25T08:26:34.792Z",
         "drive_copy_checked_at": "2026-10-25T08:26:42.959Z",
         "drive_copy_note": "Canonical handoff changed 23Oct2026; Drive backup was not refreshed in this launch task."
@@ -134,7 +134,7 @@
         "mirror_sha256": "b4aafb5467821135aa641a567047ba6209e77150fcaf115904a735ebe29d4c24",
         "match": true,
         "drive_copy_sha256": "3bf193dc33bc2cebbae3249f9658e43b9765dfb3e97efccd64a4181a3f498c1e",
-        "drive_copy_match": true,
+        "drive_copy_match": false,
         "drive_copy_modified_at": "2026-10-24T08:09:35.825Z",
         "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
       },
@@ -150,11 +150,11 @@
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-        "github_blob": "a691d45e2e1b2245821bd181a453814636e50a3a",
-        "mirror_sha256": "a5776e53da04d3c29256d39098696480e169686d64987ad077cb243e245abeb9",
+        "github_blob": "18350b0c9d964dffb1861f4ef805d8c1e5b1cd75",
+        "mirror_sha256": "4a713f6bec09e2e5a489515e3348928ea1e7dd8731a95ae1181395e3fb8f4418",
         "match": true,
         "drive_copy_sha256": "a5776e53da04d3c29256d39098696480e169686d64987ad077cb243e245abeb9",
-        "drive_copy_match": true,
+        "drive_copy_match": false,
         "drive_copy_modified_at": "2026-10-24T08:09:41.321Z",
         "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
       },
@@ -194,7 +194,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.163,
+      "age_hours": 0.013,
       "blocking": false
     },
     "topview_task_map": {
@@ -784,7 +784,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "25.10.2026",
-    "synced_at": "2026-10-25T10:40:18Z",
+    "synced_at": "2026-10-25T10:41:47Z",
     "canonical_master_sha256": "9cee9f6d814701837333f3e07cdb98bbe080a2d46b93653a9f1d2a389d21e8f2",
     "canonical_revision_sha256": "301107d82033af8bda400b3fe5e92c1ee8c0e0b33688c0e4faffc3399d723f55",
     "scene_count": 26,
