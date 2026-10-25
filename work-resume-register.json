@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T12:11:51.162Z",
+  "last_updated_at": "2026-10-25T12:33:25.030Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -1085,12 +1085,13 @@
         "Added A11/A12 Seedance2.0 2x15s and B11 30s textual alternative in existing scene28; previous89 prompts unchanged; total92.",
         "Three exact image inputs verified; old seated/crouched pose helpers excluded; A12 requires actual new A11 ending.",
         "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged.",
-        "20Oct: owner requested active revision of all38 dance/music prompts; A11/A12/B11 included, same launch gate. See FILM-20261020-ACTIVE-MUSIC and reports/dance-music-energy-2026-10-20.md."
+        "20Oct: owner requested active revision of all38 dance/music prompts; A11/A12/B11 included, same launch gate. See FILM-20261020-ACTIVE-MUSIC and reports/dance-music-energy-2026-10-20.md.",
+        "25Oct: owner confirmed exact DC link; TV Guide sampled lift and two-hand face gesture again. Canonical wrapper/manifest now identify A11→A12 as this duet and separate A8/A9 variants. Copyable prompts and queue unchanged; generated similarity not yet evaluated."
       ],
       "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
       "blockers": [
-        "Existing energetic test has no task ID yet and waits after story dependencies; do not describe it as already generating.",
-        "New couple variants A11/A12/B11 held for test review; A12 still needs actual A11 ending."
+        "A11 waits for a real free slot under the authorized queue priority; no new test-review gate.",
+        "A12 requires the actual new A11 ending with provenance and QC. B11 remains an unselected alternative."
       ],
       "canonical_refs": [
         "video-prompts.md",
@@ -1118,7 +1119,17 @@
         "plan": "ops/dance-model-comparison.md"
       },
       "previous_next_action_before_priority_20261023": "Сначала завершить выбранные сюжетные сцены; затем A1 как базовый тест и согласованное сравнение по ops/dance-model-comparison.md. Парные A11/A12/B11 остаются подготовленными вариантами до оценки владельцем.",
-      "updated_at": "2026-10-25T11:01:11.434Z"
+      "updated_at": "2026-10-25T12:33:25.030Z",
+      "owner_reference_20261025": {
+        "url": "https://www.youtube.com/watch?v=xS11-GIemXY",
+        "decision": "Main choreography/performance reference; Serega/Yulia couple uses A11→A12. Existing prompt texts and queue preserved.",
+        "report": "reports/peacemaker-s2-couple-2026-10-20.md",
+        "reference_check_at": "2026-10-25T12:33:25.030Z"
+      },
+      "previous_blockers_before_reference_20261025": [
+        "Existing energetic test has no task ID yet and waits after story dependencies; do not describe it as already generating.",
+        "New couple variants A11/A12/B11 held for test review; A12 still needs actual A11 ending."
+      ]
     },
     {
       "work_id": "FILM-20261020-WORM-SEEDANCE",

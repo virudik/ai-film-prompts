@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-25T10:48:10.341Z",
+  "updated_at": "2026-10-25T12:33:25.030Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -634,7 +634,7 @@
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
+  "canonical_master_sha256": "d3029fb37a5afe79c947beecf1b01d7e13f09f797d4ad92bb8168c771e2b4261",
   "identity_refs": [
     "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
     "references/full/serega.jpg",
@@ -1881,5 +1881,26 @@
   "prompt_revision_20261025": {
     "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
     "report": "reports/prompt-refresh-2026-10-25.md"
+  },
+  "creative_reference_20261025": {
+    "owner_quote": "Танец будет похож на это. И сцена Сереги и Юли как у миротворца и блондинки",
+    "url": "https://www.youtube.com/watch?v=xS11-GIemXY",
+    "role": "creative choreography and performance reference; not a supplied generation input",
+    "couple_blocks": [
+      "28 A11",
+      "28 A12"
+    ],
+    "unselected_alternative": "28 B11",
+    "review_criteria": [
+      "Энергичная, намеренно нелепая пластика при абсолютно серьёзных лицах; согласованные акценты пары и ансамбля.",
+      "Серёга и Юля узнаваемы по своим модельным листам, в собственных костюмах и H28B-ангаре.",
+      "Для дуэта A11/A12: горизонтальная вытянутая поддержка с раскрытыми руками, читаемые реальные опоры и возвращение Юли на собственные ноги.",
+      "Двухручный жест у лица читается без закрытых глаз/рта, слипшихся кистей и проникновения рук в голову.",
+      "Реальная непрерывность A11→A12; общая живость не компенсирует потерянную поддержку или неверную позу."
+    ],
+    "viewing_scope": "TV Guide mirror: sampled frames around52.71s horizontal lift and57.71s two-hand face gesture, plus short playback. Not full continuous analysis or audio/BPM verification.",
+    "report": "reports/peacemaker-s2-couple-2026-10-20.md",
+    "prompt_texts_unchanged": true,
+    "reference_assets_unchanged": true
   }
 }
