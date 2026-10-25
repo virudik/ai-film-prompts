@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T20:13:50.950Z",
-  "status": "relay_robot_delivery_test_requested",
+  "updated_at": "2026-10-25T20:31:34.981Z",
+  "status": "relay_transport_verified_final_mutex_test_scheduled",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -301,11 +301,11 @@
     "new_submissions": 0,
     "completed_at": "2026-10-25T08:27:12.062Z",
     "selected": "Agent Relay",
-    "rationale": "Actual webhook-triggered run and genuine ACK verified; 27.1s message-to-handler start. Duplicate same test_id produced no_update without another reply or ACK change. Gmail V2 new-thread event still has no recorded run or ACK during observation. Hourly remains unchanged. Robot-to-Relay bridge not configured or claimed.",
+    "rationale": "Agent Relay robot-origin delivery and genuine event ACK verified, duplicate suppressed, pause/resume recovered. Gmail V2 remains paused. Hourly remains unchanged.",
     "gmail_event_task_enabled": false,
     "relay_event_task_enabled": true,
     "production_ready": false,
-    "remaining": "Connect authenticated GitHub robot/provider delivery to the existing Relay inbox, then verify a robot-origin read-only event with lock/dedup before adding a production launch branch. No paid agent runtimes or duplicate monitor.",
+    "remaining": "Existing one-shot diagnostic at23:54MSK checks both actual event and hourly runs against one controlled foreign-lock interval, then genuine after-lock ACK. Enable production only after all evidence; otherwise keep false and report blocker. Hourly unchanged.",
     "hourly_schedule": "HH:55 Europe/Moscow",
     "new_automations": 0,
     "credits_spent": 0
@@ -316,19 +316,17 @@
     "code": "scripts/relay_wake.py; robot_telemetry GhNotifier.wake sends one DM after the V2 issue; topview-wake-test.yml channel=relay",
     "config": "ops/relay-wake.json (api_base https://cast.agentrelay.com/v1, address chatgpt@cloud-239644772681871360)",
     "credential": "GitHub secret AGENT_RELAY_TOKEN = agent token of a dedicated robot identity in the owner's Agent Relay workspace (set by the owner; never in chat or canon)",
-    "status": "robot_registered_test_requested",
+    "status": "transport_verified_final_mutex_test_scheduled",
     "test_id": "wake-relay-robot-20261025-01",
     "test_ack": null,
     "open_checks": [
-      "robot-origin DM → run → ACK",
-      "resend same test_id → no_update",
-      "race with hourly HH:55 → one lock holder, no claim",
-      "pause handler → DM → resume → next DM ACK; missed one stale/no action"
+      "Controlled common-lock test with actual hourly and event runs; genuine after-lock ACK; production gate still false."
     ],
-    "new_submissions": 0
+    "new_submissions": 0,
+    "test_ack_reference": "robot_relay.test_acks"
   },
   "robot_relay": {
-    "status": "robot_registered_test_requested",
+    "status": "transport_verified_final_mutex_test_scheduled",
     "production_ready": false,
     "source_bridge_commit": "a817eaf35efeaac65c94a1dd19d2601b36cc3632",
     "handler_updated_at": "2026-10-25T08:44:59Z",
@@ -398,14 +396,87 @@
       "checked_at": "2026-10-25T08:58:21.396Z",
       "resolved_by": "Owner completed supported device login and dedicated robot registration in local Windows runtime; prior cloud network restriction remains unchanged."
     },
-    "next_action": "Observe genuine robot-origin event run and ACK; then duplicate, recovery, and hourly-lock acceptance checks. Interactive chat must not write ACK.",
+    "next_action": "Existing one-shot diagnostic at23:54MSK checks both actual event and hourly runs against one controlled foreign-lock interval, then genuine after-lock ACK. Enable production only after all evidence; otherwise keep false and report blocker. Hourly unchanged.",
     "secret_confirmation": {
       "source": "owner_statement",
       "confirmed_at": "2026-10-25T20:13:50.950Z",
-      "validated_by_workflow": false
+      "validated_by_workflow": true,
+      "workflow_run_id": 40229781483,
+      "workflow_job_id": 121278821455,
+      "message_id": "240206431618260992",
+      "verified_at": "2026-10-25T20:31:34.981Z"
     },
     "sender_verified_at": "2026-10-25T20:13:50.950Z",
     "sender_workspace_id": "f1070bbe-6780-41b8-85a4-9af98418476c",
-    "test_requested_at": "2026-10-25T20:13:50.950Z"
+    "test_requested_at": "2026-10-25T20:13:50.950Z",
+    "sender_agent_id": "240204876611608576",
+    "delivery_acceptance": {
+      "status": "passed",
+      "test_id": "wake-relay-robot-20261025-01",
+      "issue_number": 36,
+      "event_id": "evt_58943c1ffaf7d583e38e37aa91d5ed57",
+      "message_id": "240206431618260992",
+      "delivered_at": "2026-10-25T20:14:36.000Z",
+      "independently_verified_run_id": "1f9aef12-ef3c-8328-94e1-ca706069b7c6",
+      "run_started_at": "2026-10-25T20:15:13.248370Z",
+      "run_completed_at": "2026-10-25T20:17:04.074874Z",
+      "delivery_to_start_seconds": 37.24837,
+      "ack_commit": "25848056b2ffba9b7ac78664ed16f9d84ec59eff",
+      "reply_message_id": "240207017258672128",
+      "ack_written_by": "existing genuine event handler",
+      "verified_at": "2026-10-25T20:31:34.981Z"
+    },
+    "duplicate_acceptance": {
+      "status": "passed",
+      "test_id": "wake-relay-robot-20261025-01",
+      "issue_number": 36,
+      "event_id": "evt_37465a92ec3a32863c1fb5247c3dedcf",
+      "message_id": "240207335445434368",
+      "run_id": "248ed18f-b838-8324-b420-9fd81f6ff128",
+      "run_started_at": "2026-10-25T20:18:40.553645Z",
+      "run_completed_at": "2026-10-25T20:19:10.876424Z",
+      "recorded_status": "no_update",
+      "ack_unchanged": true,
+      "total_replies_for_test": 1,
+      "new_issue": false,
+      "new_submissions": 0,
+      "verified_at": "2026-10-25T20:31:34.981Z"
+    },
+    "recovery_acceptance": {
+      "status": "passed",
+      "paused_at": "2026-10-25T20:19:39.342Z",
+      "pause_test_id": "wake-relay-pause-20261025-01",
+      "pause_issue_number": 37,
+      "pause_event_id": "evt_282cccd8002f42321e0c07dd9c74e7a9",
+      "pause_message_id": "240207947080945664",
+      "pause_delivered_at": "2026-10-25T20:20:37.000Z",
+      "paused_task_readback": false,
+      "paused_last_run_unchanged": true,
+      "paused_test_ack_absent": true,
+      "paused_test_reply_absent": true,
+      "resumed_at": "2026-10-25T20:21:59.652Z",
+      "test_id": "wake-relay-resume-20261025-01",
+      "issue_number": 38,
+      "event_id": "evt_1f3dc7fcc8129aa214fa7958a7c1596a",
+      "message_id": "240208522155560960",
+      "independently_verified_run_id": "384fe0e8-fef8-8324-b224-b8268cbef03c",
+      "run_started_at": "2026-10-25T20:23:48.669937Z",
+      "run_completed_at": "2026-10-25T20:26:18.754453Z",
+      "ack_commit": "dea00caf10505b18897154bdda0b555ae3a58389",
+      "reply_message_id": "240209344582078464",
+      "hourly_unchanged": true,
+      "new_submissions": 0,
+      "verified_at": "2026-10-25T20:31:34.981Z"
+    },
+    "hourly_mutex_acceptance": {
+      "status": "scheduled_not_passed",
+      "coordinator_automation_id": "6adbe1e7057c8190a5500374c9816975",
+      "scheduled_for": "2026-10-25T20:54:00Z",
+      "local_time": "2026-10-25 23:54 Europe/Moscow",
+      "hourly_scheduled_for": "2026-10-25T20:55:00Z",
+      "plan": "ops/relay-acceptance.json",
+      "reused_existing_disabled_diagnostic": true,
+      "new_automations": 0
+    }
   }
 }

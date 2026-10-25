@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T13:16:17.677438Z",
+  "last_updated_at": "2026-10-25T20:31:34.981Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "postponed_owner_until_pc",
-      "updated_at": "2026-10-25T09:15:54.952Z",
+      "status": "transport_verified_final_acceptance_scheduled",
+      "updated_at": "2026-10-25T20:31:34.981Z",
       "owner_quote": "Подключай",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
@@ -23,9 +23,10 @@
         "25Oct A/B complete: Gmail V2 issue35/new thread delivered08:09:52Z; no recorded run/ACK at08:24:53Z (>15min), event task paused. Relay event triggered run6ccb7614-2678-832b-b8f1-d3e7c781d14d in27.1s and genuine ACK; duplicate test triggered no_update run70be9a65-d8e4-8327-92a2-d85e24f8f960, ACK unchanged and total replies1. Selected Relay; hourly unchanged; zero video submissions/credits.",
         "25Oct: owner authorized connection. Fresh main includes Claude bridge a817eaf; reuse and verify it, do not create duplicate workflow or monitor.",
         "25Oct: reused Claude bridge a817eaf; checked official OpenAPI, hardened receipt validation/idempotency/token origin. Existing Relay handler updated with source/issue/dedup/lock checks and readback. Hourly prompt/schedule unchanged. Production gate remains false.",
-        "25Oct: owner clicked Approve; Agent Relay UI confirms Device approved. CLI token exchange blocked by environment policy for agentrelay.com; local cloud auth file absent. Roster has no topview-robot. Hourly enabled and unchanged; 08:55UTC run observed in progress."
+        "25Oct: owner clicked Approve; Agent Relay UI confirms Device approved. CLI token exchange blocked by environment policy for agentrelay.com; local cloud auth file absent. Roster has no topview-robot. Hourly enabled and unchanged; 08:55UTC run observed in progress.",
+        "25Oct20:27UTC: real robot-origin GitHub→Relay→ChatGPT ACK verified (37.25s to start); duplicate no_update/one reply; pause/resume genuine second ACK. Secret validated by workflow40229781483. Production stays false pending one-shot shared-lock test; hourly unchanged; no video/claims/credits."
       ],
-      "next_action": "Resume in an explicitly permitted runtime after network policy is resolved through the supported environment controls. Then register dedicated robot identity, provision protected GitHub secret, confirm sender and run genuine no-video event test.",
+      "next_action": "Existing one-shot diagnostic at23:54MSK checks both actual event and hourly runs against one controlled foreign-lock interval, then genuine after-lock ACK. Enable production only after all evidence; otherwise keep false and report blocker. Hourly unchanged.",
       "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
       "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
       "test_id": "wake-v2-newthread-20261024-01",
@@ -34,14 +35,15 @@
         "reports/topview-event-wake.json"
       ],
       "new_submissions": 0,
-      "blocker": {
-        "stage": "CLI token exchange",
-        "cause": "Environment network policy blocks agentrelay.com, after successful user device approval. No stored CLI authentication.",
-        "next_action": "Resume in an explicitly permitted runtime after network policy is resolved through the supported environment controls. Then register dedicated robot identity, provision protected GitHub secret, confirm sender and run genuine no-video event test."
-      },
+      "blocker": null,
       "alternatives_status": "Agent Relay selected and enabled. Gmail V2 tested and paused. Hourly6acae6ab433481919e88665c520b8ef2 preserved; no new automation.",
-      "relay_test_id": "wake-relay-20261025-0807",
-      "owner_pause_20261025": "Продолжим как доберусь до пк. Continue Relay connection only after owner returns to PC; hourly task unchanged."
+      "relay_test_id": "wake-relay-robot-20261025-01",
+      "owner_pause_20261025": "Продолжим как доберусь до пк. Continue Relay connection only after owner returns to PC; hourly task unchanged.",
+      "relay_handler_id": "6adc585e7ac08191bb93825117dc7213",
+      "final_acceptance_automation_id": "6adbe1e7057c8190a5500374c9816975",
+      "final_acceptance_scheduled_for": "2026-10-25T20:54:00Z",
+      "production_ready": false,
+      "owner_resume_20261025": "Владелец вернулся к ПК, выполнил локальную регистрацию и подтвердил «Секрет сохранён». Пауза до ПК снята."
     },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",

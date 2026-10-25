@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Record genuine robot Relay tests and schedule final hourly-overlap acceptance in existing diagnostic task",
   "acquired_at": "2026-10-25T20:27:58.146Z",
-  "expires_at": "2026-10-25T20:42:58.146Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-25T20:32:04.830Z",
   "rules": "ops/CANON-LOCK.md"
 }
