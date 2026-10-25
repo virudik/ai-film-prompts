@@ -706,10 +706,10 @@
       }
     },
     "handler_event_receipts": {
-      "updated_at": "2026-10-25T22:38:02.384Z",
+      "updated_at": "2026-10-25T22:54:17.907Z",
       "automation_id": "6adc585e7ac08191bb93825117dc7213",
-      "automation_updated_at": "2026-10-25T22:37:01.500701+00:00",
-      "prompt_sha256": "87f9c35e0194c0a6b129bf8d1495dacd04619669c57c7153c7a5c2a708c3b7b6",
+      "automation_updated_at": "2026-10-25T22:53:11.994287+00:00",
+      "prompt_sha256": "76dc0c523d874b479a925ac726a03e3098c9b2b2574da23a6eb48b1c7a6e12be",
       "prompt_readback_exact": true,
       "subscription_id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
       "active_subscriptions": 1,
@@ -727,6 +727,39 @@
         "new_automations": 0
       },
       "checkpoint_commit": "055ca56e7dfd8c18261f444e4d68847d32f85393"
+    },
+    "event_retention": {
+      "configured_at": "2026-10-25T22:54:17.907Z",
+      "keep_completed_events": 100,
+      "completed_max_age_days": 30,
+      "preserve_unresolved": true,
+      "archive_path": "archive/reports/topview-event-wake-archive.json",
+      "archive_created_only_on_move": true,
+      "dedup_index": "archived_event_ids",
+      "dedup_match": "exact",
+      "weekly_cleanup": "scripts/trim_service_files.py",
+      "per_event_cleanup": "python3 scripts/trim_service_files.py . --relay-only --write",
+      "same_commit_as_receipt": true,
+      "service_size_warning_bytes": 200000,
+      "automation_id": "6adc585e7ac08191bb93825117dc7213",
+      "prompt_readback_exact": true,
+      "hourly_prompt_and_schedule_unchanged": true,
+      "checkpoint_commit": "fe12b0b43dcfded237cb96b1b6200a39aa5e8514",
+      "new_automations": 0,
+      "new_submissions": 0,
+      "live_slots_event_verified": false,
+      "verification": {
+        "test_cases_passed": 276,
+        "retention_tests": 14,
+        "actual_receipts_moved": 0,
+        "real_events_unchanged": true,
+        "original_test_acks_unchanged": true,
+        "real_archive_created": false,
+        "atomic_file_writes": true,
+        "site_contract": "ok",
+        "canon_health": "ok",
+        "brief_anchors": "15/15"
+      }
     }
   }
 }

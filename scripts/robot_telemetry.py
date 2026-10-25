@@ -721,11 +721,20 @@ def note_wake(root, episode, now, *, event_id=None, rewake=False, silence_report
 
 
 def handler_acked(root, event_id):
-    """The executor records every handled event id in reports/topview-event-wake.json (ops/TOPVIEW-EVENT-WAKE.md)."""
-    try:
-        return event_id in (Path(root) / "reports/topview-event-wake.json").read_text(encoding="utf-8")
-    except OSError:
+    """Exact receipt IDs only, including compact IDs retained after archiving completed events."""
+    if not isinstance(event_id, str) or not event_id:
         return False
+    try:
+        data = json.loads((Path(root) / "reports/topview-event-wake.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return False
+    if not isinstance(data, dict):
+        return False
+    events = data.get("events", [])
+    archived = data.get("archived_event_ids", [])
+    return ((isinstance(events, list) and any(isinstance(e, dict) and e.get("event_id") == event_id
+                                             for e in events))
+            or (isinstance(archived, list) and event_id in archived))
 
 
 def rewake_due(root, now, observed_at=None):

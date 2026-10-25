@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt-cloud-beb26cfe80f8-relay-retention",
   "task": "Bound Relay event receipts with archive and exact dedup index",
   "acquired_at": "2026-10-25T22:48:52.055Z",
-  "expires_at": "2026-10-25T23:33:52.055Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-25T22:56:39.805Z",
   "rules": "ops/CANON-LOCK.md"
 }

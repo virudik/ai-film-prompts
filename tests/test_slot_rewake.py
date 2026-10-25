@@ -146,6 +146,16 @@ class RewakeTests(unittest.TestCase):
         self.assertTrue(rt.maybe_rewake(self.root, g, n, t, z(t)))
         self.assertEqual(n.posts, [])
 
+    def test_archived_answer_is_not_reported_as_silence(self):
+        g, n = FakeGit(), FakeNotifier()
+        (self.root / 'reports').mkdir()
+        (self.root / 'reports' / 'topview-event-wake.json').write_text(
+            json.dumps({'events': [], 'archived_event_ids': ['slots:older:1']}))
+        rt.note_wake(self.root, rt.slot_state(self.root)['episode'], NOW, event_id='slots:older:1')
+        t = NOW + timedelta(minutes=rt.REWAKE_MIN)
+        self.assertTrue(rt.maybe_rewake(self.root, g, n, t, z(t)))
+        self.assertEqual(n.posts, [])
+
 
 if __name__ == '__main__':
     unittest.main()

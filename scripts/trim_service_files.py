@@ -14,14 +14,21 @@ short. Nothing is deleted and nothing live is touched:
   than SUBMITTED_DAYS, go to archive/ops/topview-launch-queue-archive.json. A short stub of each stays in
   `archived_items` (id, scene, block label, state, task ID, prompt SHA), so duplicate checks and the
   site's «▶ запущена» badges keep working. Waiting, claimed, blocked and held items are never moved.
+* reports/topview-event-wake.json (root only) — keeps at most 100 completed receipts from the last
+  30 days, plus every unresolved/blocked/unknown receipt. Only explicitly non-retryable, known terminal
+  outcomes with valid past checked_at are archived verbatim. archived_event_ids preserves exact IDs
+  for deduplication and robot ACK checks; diagnostic ACKs and other report fields are untouched.
 
 The same is done for every project in projects/projects.json under its own folder.
 Run: python3 scripts/trim_service_files.py .            (dry run, prints what would move)
      python3 scripts/trim_service_files.py . --write    (writes; commit under the canon lock)
+     python3 scripts/trim_service_files.py . --relay-only --write (same event-receipt commit)
 """
 import argparse
 import json
+import os
 import re
+import tempfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -29,6 +36,12 @@ KEEP_SECTIONS = 5
 KEEP_COMPLETED = 10
 KEEP_DONE = 10
 SUBMITTED_DAYS = 7
+KEEP_RELAY_EVENTS = 100
+RELAY_DAYS = 30
+RELAY_REPORT = "reports/topview-event-wake.json"
+RELAY_ARCHIVE = "archive/reports/topview-event-wake-archive.json"
+RELAY_TERMINAL = frozenset({"submitted", "launched", "completed", "success", "done",
+                            "no_update", "stale", "invalid_timestamp", "skipped", "processed", "handled"})
 CHECKPOINT = "reports/current-work-checkpoint.md"
 REGISTER = "work-resume-register.json"
 QUEUE = "ops/topview-launch-queue.json"
@@ -176,6 +189,95 @@ def trim_queue(queue, archive, now, archive_rel=QUEUE_ARCHIVE, days=SUBMITTED_DA
     return queue, archive, len(old)
 
 
+# ----------------------------------------------------------------------------- relay receipts
+def relay_completed_at(event, now):
+    """Ambiguous or unfinished records stay live regardless of age or file size."""
+    if not isinstance(event, dict) or not isinstance(event.get("event_id"), str) or not event["event_id"]:
+        return None
+    if (event.get("retryable") is not False or not isinstance(event.get("outcome"), str)
+            or event["outcome"] not in RELAY_TERMINAL):
+        return None
+    checked = parse_time(event.get("checked_at"))
+    return checked if checked is not None and checked <= now else None
+
+
+def trim_relay_events(data, archive, now, archive_rel=RELAY_ARCHIVE,
+                      keep=KEEP_RELAY_EVENTS, days=RELAY_DAYS):
+    """Return live/archive/count, or None. Never infer successful processing from arbitrary text."""
+    if keep < 0 or days < 0:
+        raise ValueError("Relay retention bounds must be non-negative")
+    if not isinstance(data, dict) or not isinstance(data.get("events", []), list):
+        raise ValueError("Invalid Relay receipt report; refusing to archive")
+    events = data.get("events", [])
+    index = data.get("archived_event_ids", [])
+    if not isinstance(index, list) or any(not isinstance(x, str) or not x for x in index):
+        raise ValueError("Invalid archived_event_ids; refusing to replace the dedup index")
+    completed = {i: relay_completed_at(e, now) for i, e in enumerate(events)}
+    # If any attempt for an ID is unresolved, keep all its versions and do not mark it archived.
+    protected = {e.get("event_id") for i, e in enumerate(events)
+                 if isinstance(e, dict) and isinstance(e.get("event_id"), str) and completed[i] is None}
+    eligible = sorted((i for i, t in completed.items() if t is not None
+                       and events[i]["event_id"] not in protected),
+                      key=lambda i: (completed[i], i), reverse=True)
+    cutoff = now - timedelta(days=days)
+    retained = {i for i in eligible[:keep] if completed[i] >= cutoff}
+    moving = set(eligible) - retained
+    if not moving:
+        return None
+    old = [events[i] for i in eligible if i in moving]
+    archive = archive if archive is not None else {"schema_version": 1,
+        "description": "Completed Relay event receipts, preserved verbatim. History only; never relaunch.",
+        "events": []}
+    if not isinstance(archive, dict) or not isinstance(archive.get("events"), list):
+        raise ValueError("Invalid Relay archive; refusing to overwrite it")
+    archived = list(archive["events"])
+    # A crash after writing the archive but before the live file must be safe to retry.
+    # Preserve differing versions of the same ID; suppress only identical records.
+    additions = []
+    for event in old:
+        if event not in archived and event not in additions:
+            additions.append(event)
+    live = dict(data)
+    live.update(events=[e for i, e in enumerate(events) if i not in moving],
+                archived_event_ids=sorted(set(index) | {e["event_id"] for e in old}),
+                events_archive=archive_rel)
+    return live, dict(archive, events=additions + archived), len(old)
+
+
+def run_relay(root, write, now):
+    path = Path(root) / RELAY_REPORT
+    if not path.is_file():
+        return []
+    data = load_json(path)
+    # Ordinary cycles don't load the growing archive at all.
+    if trim_relay_events(data, None, now) is None:
+        return []
+    arch = Path(root) / RELAY_ARCHIVE
+    res = trim_relay_events(data, load_json(arch) if arch.is_file() else None, now)
+    if write:
+        dump_relay_json(arch, res[1])  # persist original details before removing them from the live file
+        dump_relay_json(path, res[0])
+    return ["seregius: Relay → архив {} событий; точные ID сохранены".format(res[2])]
+
+
+def dump_relay_json(path, data):
+    """Replace complete files atomically; an interrupted archive write must not truncate history."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=path.parent,
+                                         prefix=path.name + ".", suffix=".tmp", delete=False) as f:
+            temp = Path(f.name)
+            json.dump(data, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(temp, path)
+    finally:
+        if temp is not None:
+            temp.unlink(missing_ok=True)
+
+
 # ----------------------------------------------------------------------------- driver
 def bases(root):
     yield "", root
@@ -187,9 +289,11 @@ def bases(root):
                 yield pid, root / "projects" / pid
 
 
-def run(root, write=False, now=None):
+def run(root, write=False, now=None, relay_only=False):
     now = now or datetime.now(timezone.utc)
-    report = []
+    report = run_relay(root, write, now)
+    if relay_only:
+        return report
     for pid, base in bases(Path(root)):
         name = pid or "seregius"
         prefix = "" if not pid else "projects/{}/".format(pid)
@@ -230,8 +334,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("repo")
     ap.add_argument("--write", action="store_true")
+    ap.add_argument("--relay-only", action="store_true", help="only Relay receipts; no queue or project changes")
     a = ap.parse_args()
-    rep = run(a.repo, a.write)
+    rep = run(a.repo, a.write, relay_only=a.relay_only)
     print("\n".join(rep) if rep else "нечего переносить")
 
 

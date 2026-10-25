@@ -120,6 +120,9 @@ class CanonHealthServiceSizeTests(unittest.TestCase):
             write(d, "reports/current-work-checkpoint.md", "x" * 1000)
             res = ch.check(root, NOW)
             self.assertNotIn("service-file-size", [p["code"] for p in res["problems"]])
+            write(d, tsf.RELAY_REPORT, "x" * 210_000)
+            res = ch.check(root, NOW)
+            self.assertIn("service-file-size", [p["code"] for p in res["problems"]])
 
 
 if __name__ == "__main__":

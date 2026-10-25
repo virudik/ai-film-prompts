@@ -31,7 +31,8 @@ TASK_MAX_DAYS = 3
 # Service files of the agents (owner decision 23.10.2026): they only grow; the weekly cleanup trims them
 # with scripts/trim_service_files.py. Over the limit = warn, so the cleanup also runs outside Sunday.
 SERVICE_FILES_MAX_BYTES = {"reports/current-work-checkpoint.md": 80_000, "work-resume-register.json": 100_000,
-                           "ops/topview-launch-queue.json": 400_000}
+                           "ops/topview-launch-queue.json": 400_000,
+                           "reports/topview-event-wake.json": 200_000}
 # Names that live outside the repository (generated Project files / Library copies) or are mentioned as removed.
 EXTERNAL_REFS = {"00-START-HERE.md", "CHARACTERS.md", "CURRENT-STATE.json", "CURRENT-STATE.md", "READ-FIRST.txt",
                  "SHIFT-HANDOFF.md", "SITE-STATUS.md", "TAKEOVER-BRIEF.md", "PROGRESS.md", "claude/CURRENT-STATE.md"}
@@ -209,6 +210,8 @@ def check(root, now):
                     if str(pr.get("root") or ".").strip("/") not in ("", ".")]
     for base in bases:
         for rel, limit in SERVICE_FILES_MAX_BYTES.items():
+            if base and rel == "reports/topview-event-wake.json":
+                continue  # Relay receipt journal is global, not a per-project file.
             t = read(root, base + rel)
             if t is not None and len(t.encode("utf-8")) > limit:
                 add("warn", "service-file-size", f"{base + rel}: {len(t.encode('utf-8')) // 1000} КБ (предел {limit // 1000} КБ): "

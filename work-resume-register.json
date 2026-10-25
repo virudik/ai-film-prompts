@@ -1,25 +1,8 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T22:49:14.340Z",
+  "last_updated_at": "2026-10-25T22:56:39.805Z",
   "active_work": [
-    {
-      "work_id": "RELAY-RETENTION-20261026",
-      "title": "Архивация Relay с защитой от повторов",
-      "status": "in_progress",
-      "updated_at": "2026-10-25T22:49:14.340Z",
-      "completed": [
-        "Verified live relay prompt, existing cleanup and current empty events list."
-      ],
-      "next_action": "Implement bounded Relay retention, exact dedup and archive-aware handler; test then publish.",
-      "canonical_refs": [
-        "scripts/trim_service_files.py",
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "reports/topview-event-wake.json"
-      ],
-      "new_submissions": 0,
-      "new_automations": 0
-    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -1234,6 +1217,28 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "RELAY-RETENTION-20261026",
+      "title": "Архивация Relay с защитой от повторов",
+      "status": "completed_verified",
+      "updated_at": "2026-10-25T22:56:39.805Z",
+      "completed": [
+        "Relay retention: 100 completed / 30 days; preserve unresolved, blocked, unknown, invalid dates.",
+        "Archive verbatim with atomic writes and permanent exact archived_event_ids; robot lookup no longer uses substrings.",
+        "Existing handler prompt updated/read back; weekly and same-commit relay-only cleanup; hourly unchanged.",
+        "276 unit tests, site contract, canon-health and 15/15 brief verified; real events list empty, no fabricated receipts."
+      ],
+      "next_action": "Normal operation; verify the first genuine slots event and any future actual archival separately.",
+      "canonical_refs": [
+        "scripts/trim_service_files.py",
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "reports/topview-event-wake.json"
+      ],
+      "new_submissions": 0,
+      "new_automations": 0,
+      "completed_at": "2026-10-25T22:56:39.805Z",
+      "pre_checkpoint_commit": "fe12b0b43dcfded237cb96b1b6200a39aa5e8514"
+    },
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",

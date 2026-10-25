@@ -40,7 +40,7 @@
 
 ### Новое с последней чистки (дописывать сюда, одной строкой с датой)
 
-- **26.10:** Relay handler принимает `slots:…` и сохраняет каждый обработанный event_id, включая `no_update`; readback OK, живой тест впереди: `ops/TOPVIEW-EVENT-WAKE.md`.
+- **26.10:** Relay сохраняет `slots:…`/`no_update`; включена архивация завершённых событий с индексом ID. Контракт: `ops/TOPVIEW-EVENT-WAKE.md`; живой slots-тест впереди.
 
 - **25.10:** промты28/49–51 переработаны; структура по задаче, свобода исполнения и точность гэгов — `PROMPT-STYLE-GUIDE.md` §5А; детали — `reports/prompt-refresh-2026-10-25.md`.
 - **26.10:** Relay включён после приёмки; часовая страховка сохранена. Доказательства и следующий шаг — `ops/TOPVIEW-EVENT-WAKE.md`, checkpoint. Порядок63→49→50→51→28 и точные зависимости — живая очередь.
@@ -138,7 +138,7 @@
 5. Проверки: `python3 scripts/cert_github.py .`, `python3 -m unittest discover -s tests`, `python3 scripts/validate_site.py`, `python3 scripts/canon_health.py .`, бриф приёма `scripts/build_takeover_brief.py` — valid и все якоря.
 6. Творческое и спорное не решать: одним вопросом владельцу в итоге чистки.
 7. **Проекты** (`projects/projects.json`): каждый `projects/<id>/HANDOFF.md` — по тем же правилам, под замком проекта; цель до 12 КБ; контрольные точки ДО/ПОСЛЕ из хендофа — в `projects/<id>/reports/current-work-checkpoint.md`, разобранное — дословно в `projects/<id>/archive/handoff-log.md`; «Сейчас» сверить с `projects/<id>/project-status.json`. Проверка — `python3 scripts/projects.py . validate`.
-8. **Служебные файлы** (владелец 23.10.2026): checkpoint, `work-resume-register.json` и очередь запуска (корень и проекты) — `python3 scripts/trim_service_files.py . --write`: старое и законченное дословно уходит в `archive/`, в очереди остаётся короткая запись `archived_items`; ожидающее, заблокированное и удержанное не трогается. Правила — в шапке скрипта; без скриптов — вручную по ним.
+8. **Служебные файлы** (26.10): `python3 scripts/trim_service_files.py . --write` архивирует завершённые checkpoint/register/queue (корень и проекты), теперь и Relay. В очереди остаются `archived_items`, в Relay — `archived_event_ids` (до100 свежих завершённых событий/30дней). Незавершённое не трогать. Политика — шапка скрипта, Relay — `ops/TOPVIEW-EVENT-WAKE.md`; без скрипта соблюдать те же правила.
 
 ## Предыдущая история
 
