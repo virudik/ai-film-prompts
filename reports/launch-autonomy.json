@@ -1,14 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T09:43:39Z",
+  "checked_at": "2026-10-25T09:59:56Z",
   "window_hours": 24,
   "verdict": "free_slots_idle_no_schedule_launch",
-  "launches": [],
+  "launches": [
+    {
+      "item": "S56-SEED20-P1",
+      "scene_id": 56,
+      "claimed_at": "2026-10-24T20:02:09Z",
+      "run_id": "chatgpt-s56p1-20261024T200209275Z",
+      "source": "chat"
+    }
+  ],
   "launches_by_schedule": 0,
-  "launches_by_chat": 0,
+  "launches_by_chat": 1,
   "free_slot_observations": [
     {
-      "at": "2026-10-23T21:20:27Z",
+      "at": "2026-10-24T19:40:31Z",
       "occupied": 5,
       "capacity": 6
     }
