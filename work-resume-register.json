@@ -6,8 +6,8 @@
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "connecting_robot_relay",
-      "updated_at": "2026-10-25T08:37:45.025Z",
+      "status": "relay_bridge_prepared_sender_authorization_pending",
+      "updated_at": "2026-10-25T08:44:59Z",
       "owner_quote": "Подключай",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
@@ -21,9 +21,10 @@
         "25Oct: existing Gmail task switched to V2 subject filter; API accepted, prompt readback matches. Existing Relay task augmented with read-only diagnostic and read back. Hourly task preserved.",
         "25Oct: Gmail V2 issue35 -> new Gmail thread1a1721be0f229453 at08:09:52Z, exact subject regex/actual sender verified. Relay DM from vitalikrudik via signed-in dashboard -> evt_9cd2fcb751a05ff6afbc4b740a9fb8a2 at08:12:52Z. Both manually readable; no event run/ACK yet. No videos/credits.",
         "25Oct A/B complete: Gmail V2 issue35/new thread delivered08:09:52Z; no recorded run/ACK at08:24:53Z (>15min), event task paused. Relay event triggered run6ccb7614-2678-832b-b8f1-d3e7c781d14d in27.1s and genuine ACK; duplicate test triggered no_update run70be9a65-d8e4-8327-92a2-d85e24f8f960, ACK unchanged and total replies1. Selected Relay; hourly unchanged; zero video submissions/credits.",
-        "25Oct: owner authorized connection. Fresh main includes Claude bridge a817eaf; reuse and verify it, do not create duplicate workflow or monitor."
+        "25Oct: owner authorized connection. Fresh main includes Claude bridge a817eaf; reuse and verify it, do not create duplicate workflow or monitor.",
+        "25Oct: reused Claude bridge a817eaf; checked official OpenAPI, hardened receipt validation/idempotency/token origin. Existing Relay handler updated with source/issue/dedup/lock checks and readback. Hourly prompt/schedule unchanged. Production gate remains false."
       ],
-      "next_action": "Audit existing Claude bridge a817eaf, prepare authenticated robot delivery and extend existing Relay handler for bot-origin diagnostic. Verify actual event ACK before production activation.",
+      "next_action": "Complete pending CLI device authorization; create a dedicated topview-robot system identity without LLM runtime, install its agent token as AGENT_RELAY_TOKEN in protected GitHub Actions secret; verify sender address, run bot-origin no-video test and actual event ACK before production.",
       "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
       "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
       "test_id": "wake-v2-newthread-20261024-01",
@@ -33,9 +34,9 @@
       ],
       "new_submissions": 0,
       "blocker": {
-        "stage": "GitHub robot -> Agent Relay inbox",
-        "cause": "Bridge not configured/verified; available Relay connector cannot provision provider subscriptions or send as another identity. Dashboard diagnostic proved human DM -> event execution.",
-        "next_action": "Configure a narrowly scoped authenticated source, then run one bot-origin no-video test. Do not call the whole free-slot pipeline ready."
+        "stage": "robot sender authorization",
+        "cause": "CLI device approval is required; dedicated identity/token not yet created.",
+        "next_action": "Complete pending CLI device authorization; create a dedicated topview-robot system identity without LLM runtime, install its agent token as AGENT_RELAY_TOKEN in protected GitHub Actions secret; verify sender address, run bot-origin no-video test and actual event ACK before production."
       },
       "alternatives_status": "Agent Relay selected and enabled. Gmail V2 tested and paused. Hourly6acae6ab433481919e88665c520b8ef2 preserved; no new automation.",
       "relay_test_id": "wake-relay-20261025-0807"

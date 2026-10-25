@@ -39,6 +39,8 @@
 
 Робот не заменяет (остаётся за агентом / владельцем): привязку задачи без точного совпадения промта; выполнение текстовых `owner_task` (робот их только доставляет во входящие); применение `tv_mark_status(result_ok)`; «Не нужна» при зависимых сценах; ИИ-часть суточной проверки инструкций; копии в Notion / Library / Project.
 
+**Сигнал свободного слота (25.10.2026).** Выбран Agent Relay, Gmail V2 paused; существующий робот посылает DM после проверенной публикации и создания бот-issue. Отдельный agent token — только GitHub secret AGENT_RELAY_TOKEN; HTTP2xx не доказательство исполнения. Обработчик сверяет sender/issue/ID/свежесть, дедуп, общий замок/claim и Unlimited0. До bot-origin ACK `production_enabled:false`; часовая страховка6acae6ab… сохранена. Полная процедура и фактическая готовность — `ops/TOPVIEW-EVENT-WAKE.md`, `reports/topview-event-wake.json`.
+
 ### Запуск автоматики снаружи (решение владельца 13.10.2026)
 
 GitHub `schedule:` ненадёжен (по истории запусков 12–13.10 паузы по 5–7 ч вместо 30 мин у `topview-robot`, `sync-from-drive` и суточной копии Drive). Поэтому workflow запускает Supabase (проект `ai-film-comments`) `pg_cron` + `pg_net` через GitHub `workflow_dispatch` (функция `public.dispatch_github_workflow`):

@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import relay_wake                                           # noqa: E402
 from robot_telemetry import wake_dm_text                    # noqa: E402
 
-CFG = {'enabled': True, 'api_base': 'https://relay.example/v1/', 'address': 'chatgpt@cloud-1'}
+CFG = {'enabled': True, 'api_base': 'https://cast.agentrelay.com/v1/', 'address': 'chatgpt@cloud-1'}
 
 
 class Resp(io.BytesIO):
@@ -38,13 +38,13 @@ class RelayWakeTests(unittest.TestCase):
 
         def opener(req, timeout):
             seen.append(req)
-            return Resp(b'{"id": "m1"}')
+            return Resp(b'{"ok":true,"data":{"message":{"id":"12345"}}}')
         status, detail = relay_wake.send_dm(self.repo(CFG), 'TOPVIEW_SLOT_WAKE_V2 test', {'event_id': 'result:a'},
                                             token='at_live_x', opener=opener)
-        self.assertEqual((status, detail), ('sent', 'message_id=m1'))
+        self.assertEqual((status, detail), ('sent', 'message_id=12345'))
         self.assertEqual(len(seen), 1)
         req = seen[0]
-        self.assertEqual(req.full_url, 'https://relay.example/v1/dm')
+        self.assertEqual(req.full_url, 'https://cast.agentrelay.com/v1/dm')
         self.assertEqual(req.get_method(), 'POST')
         self.assertEqual(req.get_header('Authorization'), 'Bearer at_live_x')
         self.assertEqual(json.loads(req.data), {'address': 'chatgpt@cloud-1', 'text': 'TOPVIEW_SLOT_WAKE_V2 test',
@@ -64,10 +64,38 @@ class RelayWakeTests(unittest.TestCase):
 
         def net_err(req, timeout):
             raise urllib.error.URLError('down')
-        st, detail = relay_wake.send_dm(self.repo(CFG), 't', token='x', opener=http_err)
+        st, detail = relay_wake.send_dm(self.repo(CFG), 't', token='at_live_x', opener=http_err)
         self.assertEqual(st, 'error')
         self.assertIn('404', detail)
-        self.assertEqual(relay_wake.send_dm(self.repo(CFG), 't', token='x', opener=net_err)[0], 'error')
+        self.assertEqual(relay_wake.send_dm(self.repo(CFG), 't', token='at_live_x', opener=net_err)[0], 'error')
+
+    def test_false_success_and_missing_receipt_are_errors(self):
+        for payload in (b'{"ok":false}', b'{}', b'[]', b'{"ok":true,"data":{}}', b'not-json'):
+            with self.subTest(payload=payload):
+                result = relay_wake.send_dm(self.repo(CFG), 't', token='at_live_x',
+                                            opener=lambda *a, **k: Resp(payload))
+                self.assertEqual(result[0], 'error')
+
+    def test_same_request_has_same_idempotency_key(self):
+        a = relay_wake.build_request(CFG, 'at_live_x', 't', {'event_id':'result:a'})
+        b = relay_wake.build_request(CFG, 'at_live_x', 't', {'event_id':'result:a'})
+        c = relay_wake.build_request(CFG, 'at_live_x', 't', {'event_id':'result:b'})
+        self.assertEqual(a.get_header('Idempotency-key'), b.get_header('Idempotency-key'))
+        self.assertNotEqual(a.get_header('Idempotency-key'), c.get_header('Idempotency-key'))
+
+    def test_wrong_host_and_admin_token_never_reach_network(self):
+        def boom(*a, **k):
+            raise AssertionError('must not call the network')
+        for cfg, token in ((dict(CFG, api_base='https://other.example/v1'), 'at_live_x'),
+                           (CFG, 'rk_live_admin')):
+            result = relay_wake.send_dm(self.repo(cfg), 't', token=token, opener=boom)
+            self.assertEqual(result[0], 'error')
+
+    def test_error_body_does_not_leak_token(self):
+        def fail(req, timeout):
+            raise urllib.error.HTTPError(req.full_url, 401, 'bad', {}, io.BytesIO(b'at_live_secret'))
+        result = relay_wake.send_dm(self.repo(CFG), 't', token='at_live_secret', opener=fail)
+        self.assertEqual(result, ('error', 'HTTP 401'))
 
     def test_dm_text_carries_marker_event_and_issue(self):
         text = wake_dm_text({'event_id': 'result:abc', 'observed_at': 'T', 'free_slots_global': 1},

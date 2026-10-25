@@ -25,6 +25,14 @@
 
 **Тест без видео.** `ops/topview-wake-test.json`: `channel: relay`, `test_id: wake-relay-robot-20261025-01`, `enabled:false`. После секрета и разрешения отправителя — `enabled:true` → workflow создаёт issue `TOPVIEW_RELAY_WAKE_TEST_V1 · <test_id>` и шлёт DM; повтор того же test_id ничего не шлёт, а `resend_same_test:true` шлёт DM повторно без нового issue (проверка дедупа). Готовность — те же 4 пункта: ACK от событийного запуска; повтор → `no_update`; гонка с HH:55 → один держатель замка, ни одного claim; пауза обработчика → DM → снятие паузы → следующая DM даёт ACK, пропущенная не запускает действий.
 
+## Проверка моста и обработчик · ChatGPT, 25.10.2026
+
+Мост Claude a817eaf сохранён; второго workflow/монитора нет. Сверен официальный OpenAPI https://github.com/AgentWorkforce/relaycast/blob/main/openapi.yaml: `address` поддерживается, ответ `/dm` имеет envelope `ok/data/message/id`. Исправлен разбор квитанции: HTTP2xx без `ok=true` и настоящего message_id — ошибка. Добавлен стабильный Idempotency-Key для одинакового запроса; запрещены redirect, другой API origin и workspace/admin token; ошибки не печатают upstream body/секреты. Сетевой успех по-прежнему не означает ACK событийного запуска.
+
+Существующий handler6adc585e7ac08191bb93825117dc7213 дополнен веткой робота; полный prompt проверен readback. Он до любых действий проверяет фактического sender_name/sender_address из `ops/relay-wake.json`, бот-issue/label/marker/ID, свежесть, дедуп и общий замок/CAS. Тест пишет `robot_relay.test_acks[]` только из настоящего события; без Create/claim. Старый human-DM тест и обычные Relay-сообщения сохранены. `production_enabled:false` и пустой sender_address удерживают реальные запуски до регистрации личности и фактического bot-origin ACK. Это предохранитель только событийного пути; часовая страховка неизменна.
+
+Следующий шаг: штатно авторизовать CLI в существующем workspace, зарегистрировать отдельную system-личность `topview-robot`, безопасно поместить её agent token в GitHub Actions secret AGENT_RELAY_TOKEN, проверить точный sender_address и тест без видео. Не публиковать токен, не использовать общий workspace key как credential робота, не создавать платный runtime. Текущий статус подключения и доказательства — `reports/topview-event-wake.json`.
+
 ### Историческая подготовка и проверки
 
 Разделы ниже фиксируют предыдущие варианты V1/V2/Slack и не переопределяют текущий выбор выше.

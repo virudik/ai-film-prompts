@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T08:55:00Z",
+  "updated_at": "2026-10-25T08:44:59Z",
   "status": "agent_relay_selected_transport_verified_robot_bridge_pending",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -326,5 +326,25 @@
       "pause handler → DM → resume → next DM ACK; missed one stale/no action"
     ],
     "new_submissions": 0
+  },
+  "robot_relay": {
+    "status": "sender_authorization_pending",
+    "production_ready": false,
+    "source_bridge_commit": "a817eaf35efeaac65c94a1dd19d2601b36cc3632",
+    "handler_updated_at": "2026-10-25T08:44:59Z",
+    "handler_prompt_readback": true,
+    "sender_name_planned": "topview-robot",
+    "sender_address": null,
+    "secret_configured": false,
+    "test_acks": [],
+    "new_submissions": 0,
+    "blocker": "CLI device authorization pending; no robot agent token or real bot-origin ACK yet.",
+    "validation": {
+      "unit_tests_passed": 253,
+      "initial_suite_import_error": "requests missing in isolated runtime; installed locally, previously blocked archive module then passed 5 tests",
+      "relay_tests_passed": 8,
+      "site_contract": "ok",
+      "diff_check": "ok"
+    }
   }
 }

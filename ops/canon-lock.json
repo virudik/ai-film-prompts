@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Connect GitHub robot to Agent Relay",
   "acquired_at": "2026-10-25T08:37:11.466Z",
-  "expires_at": "2026-10-25T09:22:11.466Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-25T08:46:52.588Z",
   "rules": "ops/CANON-LOCK.md"
 }
