@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T22:05:48Z",
+  "checked_at": "2026-10-25T22:39:46Z",
   "status": "ok",
   "warnings": 0,
   "info": 3,
@@ -9,7 +9,7 @@
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "SYNC-RUNBOOK.md: 122 КБ, проверить на повторы.",
+      "text": "SYNC-RUNBOOK.md: 123 КБ, проверить на повторы.",
       "file": "SYNC-RUNBOOK.md"
     },
     {
