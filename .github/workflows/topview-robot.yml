@@ -77,6 +77,8 @@ jobs:
           TOPVIEW_UID: ${{ vars.TOPVIEW_UID }}
           ROBOT_TELEMETRY: ${{ vars.ROBOT_TELEMETRY || 'on' }}
           GH_TOKEN: ${{ github.token }}
+          # Agent Relay DM to the subscribed ChatGPT inbox on a confirmed free slot (ops/relay-wake.json); unset = no-op
+          AGENT_RELAY_TOKEN: ${{ secrets.AGENT_RELAY_TOKEN }}
         run: |
           set -uo pipefail
           python3 scripts/robot_telemetry.py --mode "$ROBOT_TELEMETRY" || echo "::warning title=robot-telemetry::exited with code $?"

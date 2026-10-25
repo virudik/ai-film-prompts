@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T08:27:12.062Z",
+  "updated_at": "2026-10-25T08:55:00Z",
   "status": "agent_relay_selected_transport_verified_robot_bridge_pending",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -309,5 +309,22 @@
     "hourly_schedule": "HH:55 Europe/Moscow",
     "new_automations": 0,
     "credits_spent": 0
+  },
+  "robot_relay_bridge": {
+    "prepared_at": "2026-10-25T08:55:00Z",
+    "prepared_by": "claude:slot-wake",
+    "code": "scripts/relay_wake.py; robot_telemetry GhNotifier.wake sends one DM after the V2 issue; topview-wake-test.yml channel=relay",
+    "config": "ops/relay-wake.json (api_base https://cast.agentrelay.com/v1, address chatgpt@cloud-239644772681871360)",
+    "credential": "GitHub secret AGENT_RELAY_TOKEN = agent token of a dedicated robot identity in the owner's Agent Relay workspace (set by the owner; never in chat or canon)",
+    "status": "waiting_for_secret_and_handler_sender_allowlist",
+    "test_id": "wake-relay-robot-20261025-01",
+    "test_ack": null,
+    "open_checks": [
+      "robot-origin DM → run → ACK",
+      "resend same test_id → no_update",
+      "race with hourly HH:55 → one lock holder, no claim",
+      "pause handler → DM → resume → next DM ACK; missed one stale/no action"
+    ],
+    "new_submissions": 0
   }
 }

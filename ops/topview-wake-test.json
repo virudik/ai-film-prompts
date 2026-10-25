@@ -1,13 +1,18 @@
 {
   "schema_version": 1,
   "enabled": false,
-  "channel": "new_issue",
-  "test_id": "wake-v2-newthread-20261024-01",
+  "channel": "relay",
+  "test_id": "wake-relay-robot-20261025-01",
   "read_only": true,
-  "requested_at": "2026-10-25T08:09:03.155Z",
+  "requested_at": null,
   "expected_new_submissions": 0,
-  "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
-  "reason": "V2 new-thread email delivered; no recorded event run/ACK after 15min. Agent Relay selected after genuine webhook run+ACK and duplicate suppression. Test disabled; hourly fallback preserved.",
-  "completed_at": "2026-10-25T08:27:12.062Z",
-  "result": "no_run_after_new_thread"
+  "automation_id": "6adc585e7ac08191bb93825117dc7213",
+  "reason": "Robot-origin Agent Relay DM (robot identity, secret AGENT_RELAY_TOKEN) → existing Relay handler → ACK, no video. Enable after the secret is set and the handler accepts the robot sender.",
+  "resend_same_test": false,
+  "previous": {
+    "test_id": "wake-v2-newthread-20261024-01",
+    "channel": "new_issue",
+    "result": "no_run_after_new_thread",
+    "completed_at": "2026-10-25T08:27:12.062Z"
+  }
 }

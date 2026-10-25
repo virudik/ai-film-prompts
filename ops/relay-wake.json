@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "api_base": "https://cast.agentrelay.com/v1",
+  "address": "chatgpt@cloud-239644772681871360",
+  "secret": "AGENT_RELAY_TOKEN (GitHub Actions secret; Agent Relay agent token of the robot identity, at_live_*)",
+  "handler_automation_id": "6adc585e7ac08191bb93825117dc7213",
+  "rules": "ops/TOPVIEW-EVENT-WAKE.md",
+  "note": "One DM per robot cycle with a confirmed free slot, after the GitHub issue TOPVIEW_SLOT_WAKE_V2 is created. No token = no-op. The DM is a wake-up signal, not permission."
+}

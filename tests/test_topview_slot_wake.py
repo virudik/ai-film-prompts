@@ -39,8 +39,9 @@ class WakeTextTests(unittest.TestCase):
         self.assertTrue(title.startswith('TOPVIEW_SLOT_WAKE_V2 '))
         self.assertIn('result:abc', title)
         body = wake_issue_body(sig)
-        for expected in ('@virudik', 'TOPVIEW_SLOT_WAKE_V2', 'event_id: result:abc', 'free_slots_global: 2'):
+        for expected in ('TOPVIEW_SLOT_WAKE_V2', 'event_id: result:abc', 'free_slots_global: 2'):
             self.assertIn(expected, body)
+        self.assertNotIn('@virudik', body)   # Relay wakes the executor; no extra e-mail per event
 
     def test_v2_never_signals_without_a_free_slot_or_on_hold(self):
         self.assertIsNone(slot_wake_signal(self.event(), self.plan(5, 1)))
