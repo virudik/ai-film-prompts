@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "status": "scheduled",
-  "enabled": true,
-  "updated_at": "2026-10-25T20:31:34.981Z",
+  "status": "blocked",
+  "enabled": false,
+  "updated_at": "2026-10-25T21:15:27.006Z",
   "coordinator_automation_id": "6adbe1e7057c8190a5500374c9816975",
   "existing_automation_reused": true,
   "scheduled_for": "2026-10-25T20:54:00Z",
@@ -32,5 +32,51 @@
   "on_failure": "Disable test config, release only own lock, keep production false, record exact blocker.",
   "on_finish": "Disable this existing one-shot diagnostic only; no recurring schedule or new monitor.",
   "prompt_readback_verified": true,
-  "new_automations": 0
+  "new_automations": 0,
+  "finished_at": "2026-10-25T21:15:27.006Z",
+  "production_ready": false,
+  "tested_by": "existing one-shot diagnostic automation",
+  "new_submissions": 0,
+  "final_result": "Bot-origin delivery, duplicate suppression, pause/resume and post-lock ACK passed. Both hourly and Relay task last_run_time fell inside a continuously held foreign canon lock; no mutex ACK or queue mutation. However independently verified per-run IDs/completed_at for the two automation runs are unavailable, so strict production acceptance is not certified.",
+  "blocker": "Cannot independently verify exact completed_at/run IDs for BOTH hourly and Relay event automation runs during the controlled lock window; run_overlap also unverified. Do not substitute last_run_time metadata for completed run receipts.",
+  "evidence_observed": {
+    "controlled_lock": {
+      "task": "relay-mutex-coordinator-6adbe1e7057c8190a5500374c9816975-2026-10-25T20:54:14.637Z",
+      "acquired_at": "2026-10-25T20:54:14.637Z",
+      "released_at": "2026-10-25T21:07:36.624Z"
+    },
+    "event_under_lock": {
+      "issue": 39,
+      "event_id": "evt_baa78d15bc78f1649a42366ce41cc7a0",
+      "message_id": "240216661865590784",
+      "delivered_at": "2026-10-25T20:55:15.000Z",
+      "github_actions_run_id": 40232973847,
+      "github_job_id": 121288452057,
+      "automation_last_run_time": "2026-10-25T20:57:47.361222Z",
+      "automation_last_updated": "2026-10-25T20:57:47.585940Z",
+      "automation_run_id": null,
+      "automation_completed_at": null
+    },
+    "hourly_under_lock": {
+      "automation_last_run_time": "2026-10-25T20:57:29.809691Z",
+      "automation_last_updated": "2026-10-25T20:57:51.670743Z",
+      "automation_run_id": null,
+      "automation_completed_at": null
+    },
+    "no_mutex_ack_observed": true,
+    "queue_sha_before_and_after": "bc0d451d47bdee95e37058b7eeb553da12c42955",
+    "run_lifetimes_overlapped": null,
+    "after_lock": {
+      "issue": 40,
+      "event_id": "evt_679ae70e04801a13e203f3b07d534c2f",
+      "message_id": "240220095395590144",
+      "delivered_at": "2026-10-25T21:08:53.000Z",
+      "verified_ack_at": "2026-10-25T21:11:26.736Z",
+      "github_actions_run_id": 40234060755,
+      "github_job_id": 121291724360,
+      "ack_written_by": "genuine event handler",
+      "new_submissions": 0
+    },
+    "production_enabled": false
+  }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "channel": "relay",
   "test_id": "wake-relay-after-lock-20261025-01",
   "read_only": true,
   "requested_at": "2026-10-25T21:08:12.743Z",
   "expected_new_submissions": 0,
   "automation_id": "6adc585e7ac08191bb93825117dc7213",
-  "reason": "Verify fresh genuine robot-origin event ACK after coordinator releases canon lock; no Topview video/claim.",
+  "reason": "Final one-time Relay acceptance diagnostic stopped. Read-only transport and after-lock ACK verified; production remains disabled pending independent per-run completion metadata.",
   "resend_same_test": false,
   "previous": {
     "test_id": "wake-v2-newthread-20261024-01",

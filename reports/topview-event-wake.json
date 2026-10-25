@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T20:31:34.981Z",
-  "status": "relay_transport_verified_final_mutex_test_scheduled",
+  "updated_at": "2026-10-25T21:15:27.006Z",
+  "status": "relay_mutex_behavior_observed_but_strict_acceptance_blocked",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -305,7 +305,7 @@
     "gmail_event_task_enabled": false,
     "relay_event_task_enabled": true,
     "production_ready": false,
-    "remaining": "Existing one-shot diagnostic at23:54MSK checks both actual event and hourly runs against one controlled foreign-lock interval, then genuine after-lock ACK. Enable production only after all evidence; otherwise keep false and report blocker. Hourly unchanged.",
+    "remaining": "Final mutual exclusion behavior and after-lock ACK observed; only precise independent scheduled-run completion receipts remain to certify production readiness.",
     "hourly_schedule": "HH:55 Europe/Moscow",
     "new_automations": 0,
     "credits_spent": 0
@@ -326,7 +326,7 @@
     "test_ack_reference": "robot_relay.test_acks"
   },
   "robot_relay": {
-    "status": "transport_verified_final_mutex_test_scheduled",
+    "status": "transport_and_mutex_readonly_checked_production_blocked_run_completion_evidence",
     "production_ready": false,
     "source_bridge_commit": "a817eaf35efeaac65c94a1dd19d2601b36cc3632",
     "handler_updated_at": "2026-10-25T08:44:59Z",
@@ -415,7 +415,7 @@
       "checked_at": "2026-10-25T08:58:21.396Z",
       "resolved_by": "Owner completed supported device login and dedicated robot registration in local Windows runtime; prior cloud network restriction remains unchanged."
     },
-    "next_action": "Existing one-shot diagnostic at23:54MSK checks both actual event and hourly runs against one controlled foreign-lock interval, then genuine after-lock ACK. Enable production only after all evidence; otherwise keep false and report blocker. Hourly unchanged.",
+    "next_action": "Obtain independently verified hourly and event run IDs/completed_at for 25Oct20:55 UTC mutex test. Only then reconsider production_enabled, without repeating tests or altering hourly fallback.",
     "secret_confirmation": {
       "source": "owner_statement",
       "confirmed_at": "2026-10-25T20:13:50.950Z",
@@ -488,14 +488,35 @@
       "verified_at": "2026-10-25T20:31:34.981Z"
     },
     "hourly_mutex_acceptance": {
-      "status": "scheduled_not_passed",
+      "status": "observed_both_automation_last_runs_within_foreign_lock_but_completion_unverified",
       "coordinator_automation_id": "6adbe1e7057c8190a5500374c9816975",
       "scheduled_for": "2026-10-25T20:54:00Z",
       "local_time": "2026-10-25 23:54 Europe/Moscow",
       "hourly_scheduled_for": "2026-10-25T20:55:00Z",
       "plan": "ops/relay-acceptance.json",
       "reused_existing_disabled_diagnostic": true,
-      "new_automations": 0
+      "new_automations": 0,
+      "lock_task": "relay-mutex-coordinator-6adbe1e7057c8190a5500374c9816975-2026-10-25T20:54:14.637Z",
+      "lock_acquired_at": "2026-10-25T20:54:14.637Z",
+      "lock_released_at": "2026-10-25T21:07:36.624Z",
+      "event_issue": 39,
+      "event_id": "evt_baa78d15bc78f1649a42366ce41cc7a0",
+      "event_delivered_at": "2026-10-25T20:55:15.000Z",
+      "event_last_run_time": "2026-10-25T20:57:47.361222Z",
+      "event_completed_at": null,
+      "hourly_last_run_time": "2026-10-25T20:57:29.809691Z",
+      "hourly_completed_at": null,
+      "run_overlap": null,
+      "queue_sha_unchanged": "bc0d451d47bdee95e37058b7eeb553da12c42955",
+      "new_submissions": 0,
+      "mutex_ack_count": 0,
+      "after_lock_test_id": "wake-relay-after-lock-20261025-01",
+      "after_lock_event_id": "evt_679ae70e04801a13e203f3b07d534c2f",
+      "after_lock_ack_at": "2026-10-25T21:11:26.736Z",
+      "production_enabled": false,
+      "strict_acceptance_blocker": "Both automation run completion times and actual run IDs unavailable; confirmed last_run_time is not a completed-run receipt.",
+      "evidence": "ops/relay-acceptance.json",
+      "final_checked_at": "2026-10-25T21:15:27.006Z"
     }
   }
 }
