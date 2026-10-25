@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24T00:05:00Z",
-  "status": "blocked_event_execution_unconfirmed",
+  "updated_at": "2026-10-25T08:08:58.589Z",
+  "status": "ab_test_prepared",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -198,7 +198,35 @@
     "test_id": "wake-v2-newthread-20261024-01",
     "test_enabled": false,
     "test_ack": null,
-    "status": "waiting_for_chatgpt_filter_change",
+    "status": "filter_update_accepted_waiting_signal",
+    "new_submissions": 0,
+    "trigger_filter_requested": "^\\[virudik/ai-film-prompts\\] TOPVIEW_(SLOT_WAKE|WAKE_TEST)_V2 ",
+    "filter_update_accepted_at": "2026-10-25T08:07:02.036119+00:00",
+    "prompt_readback_verified": true,
+    "structured_filter_readback": "not_exposed_by_automation_peek; API accepted exact requested trigger"
+  },
+  "relay_test": {
+    "test_id": "wake-relay-20261025-0807",
+    "marker": "TOPVIEW_RELAY_WAKE_TEST_V1",
+    "status": "prepared",
+    "automation_id": "6adc585e7ac08191bb93825117dc7213",
+    "conversation_id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096",
+    "target_inbox": "chatgpt@cloud-239644772681871360",
+    "sender_mode": "as_person",
+    "test_ack": null,
+    "new_submissions": 0,
+    "prepared_at": "2026-10-25T08:08:58.589Z",
+    "prompt_readback_verified": true,
+    "scope": "existing subscribed chat, not this interactive chat",
+    "success_criterion": "actual event run plus genuine event-written ACK; enqueue/manual read/HTTP200 alone insufficient"
+  },
+  "comparison": {
+    "requested_at": "2026-10-25T08:08:58.589Z",
+    "owner_quote": "Gmail V2 и Agent Relay протестируй оба и выбери более удобный из них оставив часовую",
+    "status": "in_progress",
+    "hourly_automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "hourly_enabled_verified": true,
+    "hourly_modified": false,
     "new_submissions": 0
   }
 }

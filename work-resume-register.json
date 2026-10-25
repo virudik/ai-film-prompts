@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-24T21:08:02.222Z",
+  "last_updated_at": "2026-10-25T08:08:58.589Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "blocked_event_execution_unconfirmed",
-      "updated_at": "2026-10-23T23:19:23.529Z",
-      "owner_quote": "Сохранив как подстраховку часовую проверку попробуй реализовать данную 10 минутную",
+      "status": "ab_test_in_progress",
+      "updated_at": "2026-10-25T08:08:58.589Z",
+      "owner_quote": "Gmail V2 и Agent Relay протестируй оба и выбери более удобный из них оставив часовую",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
         "Added wake marker and owner mention only to verified post-publish result notifications when global slots are free.",
@@ -17,25 +17,21 @@
         "Integration recovery CI40032704173 passed. Archived5 completed register entries verbatim to meet size limit.",
         "Three read-only test notifications delivered. Final comment6375949642 at22:25:14UTC -> Gmail1a16ade9dad3d27a at22:25:36UTC; observed sender/subject regex verified, explicit Gmail connector configured.",
         "Final test workflow40033440836, canon health40033440831 and Pages40033440789 succeeded. No videos created; hourly fallback unchanged.",
-        "Five bot messages delivered; last workflow40035192750 -> comment6376175230 -> Gmail1a16aed853506d6f (22s). Authenticated UI confirms active trigger. Manual event Run now unsupported; independent-task event conversion rejected twice by service. Diagnostic6adbe1e7057c8190a5500374c9816975 disabled, no runs. Subscription refreshed; still no actual event run/ACK. Hourly actual completed run verified. Zero video submissions."
+        "Five bot messages delivered; last workflow40035192750 -> comment6376175230 -> Gmail1a16aed853506d6f (22s). Authenticated UI confirms active trigger. Manual event Run now unsupported; independent-task event conversion rejected twice by service. Diagnostic6adbe1e7057c8190a5500374c9816975 disabled, no runs. Subscription refreshed; still no actual event run/ACK. Hourly actual completed run verified. Zero video submissions.",
+        "25Oct: existing Gmail task switched to V2 subject filter; API accepted, prompt readback matches. Existing Relay task augmented with read-only diagnostic and read back. Hourly task preserved."
       ],
-      "next_action": "Owner reconnects official ChatGPT Slack app to Vint via service-provided https://chatgpt.com/slack-ai-app-install. Then reverify membership and retry existing task update once; do not send test marker until update succeeds. Preserve hourly fallback.",
+      "next_action": "Enable prepared Gmail V2 test as separate locked CAS commit, release lock, send one Relay DM to own existing inbox; observe genuine event run/ACK for both. Do not fabricate ACK. Decide after delivery+15min.",
       "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
       "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
-      "test_id": "wake-renew-20261023-1792795264274",
+      "test_id": "wake-v2-newthread-20261024-01",
       "canonical_refs": [
         "ops/TOPVIEW-EVENT-WAKE.md",
         "reports/topview-event-wake.json"
       ],
       "new_submissions": 0,
-      "blocker": {
-        "stage": "Gmail event -> ChatGPT automation execution",
-        "evidence": "Five bot test comments and matching Gmail deliveries verified. Main event task enabled; last_run/latest_result and test_ack remain null at checked_at. Latest test follows subscription pause/resume and exact subject-only filter. No evidence of event handler execution.",
-        "cause": "Not established; no supported service-side event delivery diagnostics available in current tools.",
-        "fallback": "Hourly task enabled and unchanged; recorded completed run 2026-10-23T21:55:00Z -> 22:01:16Z.",
-        "next_action": "Inspect actual event history/ACK on next resumption. If absent, service-side diagnosis is required. Do not add duplicate schedules, trigger test spam, fabricate ACK, or claim end-to-end readiness."
-      },
-      "alternatives_status": "Slack connected, bot membership verified in #all-vint; automation service rejects membership twice. Original Gmail task unchanged. Subscription not saved; no live test."
+      "blocker": null,
+      "alternatives_status": "Gmail V2 and existing Relay subscription being tested by owner request; Slack not retried.",
+      "relay_test_id": "wake-relay-20261025-0807"
     },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
