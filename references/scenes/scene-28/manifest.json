@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-25T12:33:25.030Z",
+  "updated_at": "2026-10-25T13:10:48.355886Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -630,11 +630,87 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-28/H28-horizontal-lift.png",
+      "asset_id": "references/scenes/scene-28/H28-horizontal-lift.png",
+      "role": "pose_composition_helper",
+      "sha256": "62a77088f1b2b18bcc43ddfb7f004e6063df086e08fb9a8a54d71ef14ae072aa",
+      "bytes": 2336225,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_with_authority_constraints",
+        "checked_at": "2026-10-25T13:10:48.355886Z",
+        "evidence": "Extended almost straight legs, two visible supports, own faces/costumes, hangar. Anatomical right arm supports upper back; left thighs. Far wing partly behind man: use pose for support, not exact arm silhouette."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/full/serega.jpg",
+          "references/full/yulya.jpg",
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "generated_at": "2026-10-25T13:10:48.355886Z"
+      },
+      "applies_to": [
+        "A11",
+        "B11"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-28/H28-horizontal-lift.png",
+        "thumbnail": "references/thumbs/scenes/scene-28/H28-horizontal-lift.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
+    },
+    {
+      "path": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+      "asset_id": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+      "role": "pose_composition_helper",
+      "sha256": "7388672175f216aa2f2fec142456d8d4782dfbc15e828d93c5eb6f5c07aa108c",
+      "bytes": 2150314,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_with_authority_constraints",
+        "checked_at": "2026-10-25T13:10:48.355886Z",
+        "evidence": "Two distinct Yulia gloved hands frame Serega face; his arms down. Neutral expressions, faces visible. Video must keep a clear air gap, not press cheeks."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/full/serega.jpg",
+          "references/full/yulya.jpg",
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "generated_at": "2026-10-25T13:10:48.355886Z"
+      },
+      "applies_to": [
+        "A12",
+        "B11"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+        "thumbnail": "references/thumbs/scenes/scene-28/F28-two-hand-face-fan.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
     }
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "d3029fb37a5afe79c947beecf1b01d7e13f09f797d4ad92bb8168c771e2b4261",
+  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
   "identity_refs": [
     "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
     "references/full/serega.jpg",
@@ -1591,9 +1667,9 @@
     {
       "prompt_id": "A11",
       "canonical_heading": "A11 · Короткий дуэт — 1/2: горизонтальная поддержка и поворот",
-      "canonical_prompt_sha256": "06097b50e8c62f3e7218a790edd829eb51ee0acc6212c7a6c21808a77f1ab2c0",
-      "normalized_prompt_sha256": "acb4abe9b166539428320d11216cdf161f29461a8cb8c4723864237a272cac3b",
-      "characters": 4672,
+      "canonical_prompt_sha256": "b1d5559ca6fa5955ffee8849a241a2c9ba72e76383b73b273f0cb4d126497982",
+      "normalized_prompt_sha256": "e8e540bc731335d205749b8b4666cf83eefcad559f7de0f52555d8cfffe86736",
+      "characters": 4941,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1617,6 +1693,13 @@
           "role": "identity",
           "status": "available",
           "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/H28-horizontal-lift.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available",
+          "sha256": "62a77088f1b2b18bcc43ddfb7f004e6063df086e08fb9a8a54d71ef14ae072aa"
         }
       },
       "launch_readiness": "authorized_inputs_available",
@@ -1627,14 +1710,16 @@
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
       "queue_item_id": "S28-A11-20261023",
-      "previous_prompt_sha256_before_20261025": "c8de91dcecde79ce0226e60fba70966e357910fcc3f5bbb8bd83db6f037ea626"
+      "previous_prompt_sha256_before_20261025": "c8de91dcecde79ce0226e60fba70966e357910fcc3f5bbb8bd83db6f037ea626",
+      "previous_prompt_sha256_before_pose_refs": "06097b50e8c62f3e7218a790edd829eb51ee0acc6212c7a6c21808a77f1ab2c0",
+      "pose_revision_20261025": "Exact horizontal support and two-hand face gesture now have separate helpers. A12 still requires actual A11 video."
     },
     {
       "prompt_id": "A12",
       "canonical_heading": "A12 · Короткий дуэт — 2/2: жест у лица и расхождение",
-      "canonical_prompt_sha256": "204076574666f7a095cb7ddc21347e83c215f8b41d8958da147f3bc846163379",
-      "normalized_prompt_sha256": "96f4a2a73522c3848243378dd0169951f03f079e46091ff7a80da23e93c4fb67",
-      "characters": 3767,
+      "canonical_prompt_sha256": "b3a0294e37d06e4e6c8414fc0f9b5218581525d3bb4ffe540ad3820636c4b68c",
+      "normalized_prompt_sha256": "b2816fdcfaa9d8814115b7e80ada466a696553f8f522442c02703778919934a8",
+      "characters": 3993,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1665,6 +1750,13 @@
           "status": "required_not_available",
           "source_prompt_id": "A11",
           "source_requirement": "Actual new A11 result ending; save trim, task ID, SHA and continuity QC. No old B2/C28 or generated still substitute."
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available",
+          "sha256": "7388672175f216aa2f2fec142456d8d4782dfbc15e828d93c5eb6f5c07aa108c"
         }
       },
       "launch_readiness": "blocked_inputs",
@@ -1675,14 +1767,16 @@
       "previous_launch_readiness_20261023": "blocked_continuity",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
       "queue_item_id": "S28-A12-20261023",
-      "previous_prompt_sha256_before_20261025": "92a522646faf6e8d5e386706626899bae5c038c407a9c3776ac905e5f38817a4"
+      "previous_prompt_sha256_before_20261025": "92a522646faf6e8d5e386706626899bae5c038c407a9c3776ac905e5f38817a4",
+      "previous_prompt_sha256_before_pose_refs": "204076574666f7a095cb7ddc21347e83c215f8b41d8958da147f3bc846163379",
+      "pose_revision_20261025": "Exact horizontal support and two-hand face gesture now have separate helpers. A12 still requires actual A11 video."
     },
     {
       "prompt_id": "B11",
       "canonical_heading": "B11 · Короткий дуэт — полная версия на 30 секунд",
-      "canonical_prompt_sha256": "479d519a36257622a6429feb7ed9d279c11d3112967c1dfd0987520ed3a8bb68",
-      "normalized_prompt_sha256": "2679ade6371fed7bce5084a6a9d377e17abb52f6b64408c5f038bf504f93fd36",
-      "characters": 5360,
+      "canonical_prompt_sha256": "a92628127a87fdb8e2e08a319aab28862a6d6ae2cb34852bbbabab6a84c9eaf5",
+      "normalized_prompt_sha256": "d52a4921f60c75348fb47d0fc6ffeedb30b717d57ce74f40e2bad9dd59bba2e7",
+      "characters": 5765,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1706,6 +1800,20 @@
           "role": "identity",
           "status": "available",
           "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/H28-horizontal-lift.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available",
+          "sha256": "62a77088f1b2b18bcc43ddfb7f004e6063df086e08fb9a8a54d71ef14ae072aa"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available",
+          "sha256": "7388672175f216aa2f2fec142456d8d4782dfbc15e828d93c5eb6f5c07aa108c"
         }
       },
       "launch_readiness": "unselected_alternative",
@@ -1713,7 +1821,9 @@
       "previous_prompt_sha256_before_20261020": "8577393816d2fb3b312a59316967708670ea792f668b52fd69740d7b59fbffd2",
       "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "previous_prompt_sha256_before_20261025": "87a47d5ce9cd8c1a7e368191bcd38e808f5397808b9dc17e0bf6fe295c34fe65"
+      "previous_prompt_sha256_before_20261025": "87a47d5ce9cd8c1a7e368191bcd38e808f5397808b9dc17e0bf6fe295c34fe65",
+      "previous_prompt_sha256_before_pose_refs": "479d519a36257622a6429feb7ed9d279c11d3112967c1dfd0987520ed3a8bb68",
+      "pose_revision_20261025": "Exact horizontal support and two-hand face gesture now have separate helpers. A12 still requires actual A11 video."
     }
   ],
   "site_published": {
@@ -1859,7 +1969,7 @@
     "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
     "note": "Six verified web submissions, unlimited=true and creditsCost=0. Future/browser-session availability must be checked live."
   },
-  "launch_gate": "Owner25Oct: follow live queue after story priorities, then63→49→50→51→28 A1–A12. Skip only genuinely blocked items. Existing A1/A2 must terminate and pass review before their authorized R2 attempts. A3 requires fresh A2-R2 frame; A12 requires A11 video; 51B requires 51A video. Wan versions are unselected alternatives. No implicit approval or extra retries.",
+  "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
   "couple_variant_20261020": {
     "source": "reports/peacemaker-s2-couple-2026-10-20.md",
     "seedance_parts": [
@@ -1902,5 +2012,13 @@
     "report": "reports/peacemaker-s2-couple-2026-10-20.md",
     "prompt_texts_unchanged": true,
     "reference_assets_unchanged": true
+  },
+  "duet_pose_revision_20261025": {
+    "report": "reports/music-reference-completion-2026-10-25.md",
+    "owner_approval_inferred": false,
+    "new_assets": [
+      "references/scenes/scene-28/H28-horizontal-lift.png",
+      "references/scenes/scene-28/F28-two-hand-face-fan.png"
+    ]
   }
 }

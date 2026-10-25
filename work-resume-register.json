@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T12:33:25.030Z",
+  "last_updated_at": "2026-10-25T13:16:17.677438Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -869,7 +869,7 @@
         "25Oct: all12variants49/50 revised and published; manifests/queue aligned. reports/prompt-refresh-2026-10-25.md"
       ],
       "next_actions": [
-        "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+        "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51A–F are independent, all inputs available. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
         "Saved fan variant2 is selected; do not recreate references. Review each new result."
       ],
       "canonical_refs": [
@@ -883,34 +883,43 @@
         "No paid/automatic Topview generation",
         "No changed original faces or wardrobe"
       ],
-      "updated_at": "2026-10-25T11:01:11.434Z"
+      "updated_at": "2026-10-25T11:01:11.434Z",
+      "previous_next_action_before_all_twelve": [
+        "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+        "Saved fan variant2 is selected; do not recreate references. Review each new result."
+      ]
     },
     {
       "work_id": "FILM-20261016-ROCK-51",
       "title": "Scene 51 — рок-финал: разбивание инопланетных инструментов",
-      "status": "in_progress",
+      "status": "six_parts_prepared_queued",
       "verified_at": "2026-10-16",
       "authorization": "Explicit owner command in Project chat: follow handoff and publish Scene 51 on website",
       "done": [
         "Created full 51A/B standalone 15-second production prompts for Seedance 2.0",
         "Canonical H28B exact-location and Serega/Yulya/Pasha original identity references linked",
         "Registered DRAFT stage and Topview matcher unique 51A/51B labels",
-        "25Oct: all3prompts revised/published; pose/prop refs retained, no video submissions."
+        "25Oct: all3prompts revised/published; pose/prop refs retained, no video submissions.",
+        "25Oct owner expansion: eight new references overall, six pair-specific51 setups and12 complete51 prompts; all12 musicians covered, six selected15s entries, no new submissions."
       ],
       "next_actions": [
-        "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
-        "51A images already saved;51B waits real51A end and continuity QC. Keep neck grip and body-first impact."
+        "Launch six independent S51A–F by fresh queue after50/before28. Each15s contains two sequential own-instrument breakages. All refs available;51B no longer needs51A. Review actual contact, breakage and identities; no extra retries or credits."
       ],
       "canonical_refs": [
         "video-prompts.md#scene-51",
         "references/scenes/scene-51/manifest.json",
-        "NEW-CHAT-HANDOFF.md"
+        "NEW-CHAT-HANDOFF.md",
+        "reports/music-reference-completion-2026-10-25.md"
       ],
       "constraints": [
         "No wrong faces or other arena",
         "No unapproved video launch, deletion, approval or credit spending"
       ],
-      "updated_at": "2026-10-25T11:01:11.434Z"
+      "updated_at": "2026-10-25T13:16:17.677438Z",
+      "previous_next_action_before_all_twelve": [
+        "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+        "51A images already saved;51B waits real51A end and continuity QC. Keep neck grip and body-first impact."
+      ]
     },
     {
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
@@ -1015,7 +1024,7 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+      "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51A–F are independent, all inputs available. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
       "last_observed_topview": {
         "checked_at": "2026-10-19T17:54:52Z",
         "boards": 11,
@@ -1045,7 +1054,8 @@
       "previous_next_action_before_priority_20261023": "Wait for genuine S37 Part1 success; archive generated result/end frame with provenance/SHA/QC before S37-SEED20-P2. Continue other authorized ready items only after a fresh complete scan shows a free Unlimited/0 slot.",
       "updated_at": "2026-10-25T11:01:11.434Z",
       "done_archived_points": 11,
-      "done_archive": "archive/work-resume-register-archive.json"
+      "done_archive": "archive/work-resume-register-archive.json",
+      "previous_next_action_before_all_twelve": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches."
     },
     {
       "work_id": "FILM-20261018-SOUNDTRACK",
@@ -1086,9 +1096,10 @@
         "Three exact image inputs verified; old seated/crouched pose helpers excluded; A12 requires actual new A11 ending.",
         "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged.",
         "20Oct: owner requested active revision of all38 dance/music prompts; A11/A12/B11 included, same launch gate. See FILM-20261020-ACTIVE-MUSIC and reports/dance-music-energy-2026-10-20.md.",
-        "25Oct: owner confirmed exact DC link; TV Guide sampled lift and two-hand face gesture again. Canonical wrapper/manifest now identify A11→A12 as this duet and separate A8/A9 variants. Copyable prompts and queue unchanged; generated similarity not yet evaluated."
+        "25Oct: owner confirmed exact DC link; TV Guide sampled lift and two-hand face gesture again. Canonical wrapper/manifest now identify A11→A12 as this duet and separate A8/A9 variants. Copyable prompts and queue unchanged; generated similarity not yet evaluated.",
+        "25Oct: generated distinct horizontal support and two-hand face-fan stills; mapped into A11/A12/B11 and updated selected pending hashes. A12 real-video dependency preserved."
       ],
-      "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+      "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51A–F are independent, all inputs available. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
       "blockers": [
         "A11 waits for a real free slot under the authorized queue priority; no new test-review gate.",
         "A12 requires the actual new A11 ending with provenance and QC. B11 remains an unselected alternative."
@@ -1119,7 +1130,7 @@
         "plan": "ops/dance-model-comparison.md"
       },
       "previous_next_action_before_priority_20261023": "Сначала завершить выбранные сюжетные сцены; затем A1 как базовый тест и согласованное сравнение по ops/dance-model-comparison.md. Парные A11/A12/B11 остаются подготовленными вариантами до оценки владельцем.",
-      "updated_at": "2026-10-25T12:33:25.030Z",
+      "updated_at": "2026-10-25T13:16:17.677438Z",
       "owner_reference_20261025": {
         "url": "https://www.youtube.com/watch?v=xS11-GIemXY",
         "decision": "Main choreography/performance reference; Serega/Yulia couple uses A11→A12. Existing prompt texts and queue preserved.",
@@ -1129,7 +1140,8 @@
       "previous_blockers_before_reference_20261025": [
         "Existing energetic test has no task ID yet and waits after story dependencies; do not describe it as already generating.",
         "New couple variants A11/A12/B11 held for test review; A12 still needs actual A11 ending."
-      ]
+      ],
+      "previous_next_action_before_all_twelve": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches."
     },
     {
       "work_id": "FILM-20261020-WORM-SEEDANCE",

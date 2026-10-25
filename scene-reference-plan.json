@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-25T09:29:18.695660Z",
+  "updated_at": "2026-10-25T13:16:17.677438Z",
   "drive_root_folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
   "rules": {
     "save_before_next_generation": true,
@@ -296,18 +296,19 @@
       "library_path": "/AI Film/Scene Reference Packs/Scene 28",
       "priority": "highest",
       "needed": [
-        "C28_from_actual_clean_part_2_result"
+        "actual_A2_R2_end_for_A3",
+        "actual_A11_end_for_A12"
       ],
       "topview_task_ids": [],
-      "status": "ready",
+      "status": "ready_except_real_continuity",
       "manifest": "references/scenes/scene-28/manifest.json",
       "remaining": [
-        "A1/A2 Seedance 2.0 15s and B1/B2 Wan 3.0 30s are owner-authorized A/B candidates; launch only via signed-in Topview website with verified unlimited zero-credit mode. If Seedance is not unlimited, owner fallback is B1/B2/B4/B5. A3/B3 require actual C28 from part 2."
+        "A3 waits actual A2-R2 end; A12 waits actual A11 end. Old C28 fromB2 is historical, not replacement."
       ],
-      "reference_count": 24,
-      "checked_at": "2026-10-11T18:26:33Z",
+      "reference_count": 27,
+      "checked_at": "2026-10-25T13:16:17.677438Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 20,
+      "prompt_mapping_count": 23,
       "canonical_state": "active",
       "c28": {
         "path": "references/scenes/scene-28/C28-from-B2-result.png",
@@ -512,15 +513,56 @@
       "remaining": [],
       "topview_task_ids": [],
       "checked_at": "2026-10-25T09:29:18.695660Z"
+    },
+    "49": {
+      "manifest": "references/scenes/scene-49/manifest.json",
+      "canonical_state": "active",
+      "reference_count": 25,
+      "prompt_mapping_count": 9,
+      "checked_at": "2026-10-25T13:16:17.677438Z",
+      "status": "ready",
+      "needed": [],
+      "remaining": []
+    },
+    "50": {
+      "manifest": "references/scenes/scene-50/manifest.json",
+      "canonical_state": "active",
+      "reference_count": 6,
+      "prompt_mapping_count": 3,
+      "checked_at": "2026-10-25T13:16:17.677438Z",
+      "status": "ready",
+      "needed": [],
+      "remaining": []
+    },
+    "51": {
+      "manifest": "references/scenes/scene-51/manifest.json",
+      "canonical_state": "active",
+      "reference_count": 24,
+      "prompt_mapping_count": 12,
+      "checked_at": "2026-10-25T13:16:17.677438Z",
+      "status": "ready",
+      "needed": [],
+      "remaining": []
     }
   },
-  "canonical_master_sha256": "9cee9f6d814701837333f3e07cdb98bbe080a2d46b93653a9f1d2a389d21e8f2",
+  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
   "manifest_contract_complete": true,
-  "total_prompt_mappings": 58,
+  "total_prompt_mappings": 88,
   "source_of_truth": "GitHub main/video-prompts.md; derived reference index",
-  "active_prompt_mappings": 51,
-  "manifest_count": 25,
-  "active_manifest_count": 18,
-  "historical_manifest_count": 7,
-  "generation_authorization": "This derived index does not authorize generation. Existing owner decisions and a live unlimited website preflight are required."
+  "active_prompt_mappings": 81,
+  "manifest_count": 30,
+  "active_manifest_count": 22,
+  "historical_manifest_count": 8,
+  "generation_authorization": "This derived index does not authorize generation. Existing owner decisions and a live unlimited website preflight are required.",
+  "latest_scoped_audit": {
+    "scenes": [
+      28,
+      49,
+      50,
+      51
+    ],
+    "at": "2026-10-25T13:16:17.677438Z",
+    "report": "reports/music-reference-completion-2026-10-25.md",
+    "other_entries_revalidated": false
+  }
 }

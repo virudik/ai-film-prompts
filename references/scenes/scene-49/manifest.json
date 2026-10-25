@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-25T10:48:10.341Z",
+  "updated_at": "2026-10-25T13:10:48.355886Z",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -997,9 +997,9 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
+  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
-  "launch_gate": "Owner25Oct: follow live queue after story priorities, then63→49→50→51→28 A1–A12. Skip only genuinely blocked items. Existing A1/A2 must terminate and pass review before their authorized R2 attempts. A3 requires fresh A2-R2 frame; A12 requires A11 video; 51B requires 51A video. Wan versions are unselected alternatives. No implicit approval or extra retries.",
+  "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
   "prompt_revision_20261025": {
     "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
     "report": "reports/prompt-refresh-2026-10-25.md"

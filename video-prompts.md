@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**26 сцен к генерации/доработке · 105 полных текстов промта**
+**26 сцен к генерации/доработке · 114 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 14** сцен сейчас в медленной генерации: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 56, 57, 58** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -16,7 +16,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **24.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **26 актуальных сцен и 105 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **24.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **26 актуальных сцен и 114 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -80,8 +80,8 @@
 | 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. READY: настоящий последний кадр 32 подключён.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). Начинается склейкой, без видео 56 (владелец 23.10). |
 | 49 | [Финальные титры: космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
-| 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B и 51A/51B. |
-| 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, выбранные вуки-фанаты 50 (вариант 2) | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
+| 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B; реакции монтируются с рок-финалом51. |
+| 51 | [Финальные титры: каждый разбивает свой инструмент](#scene-51) | Точный H28B; все12 музыкантов в6 отдельных парах, собственные инструменты49 | READY: шесть самостоятельных15s 51A–F; шесть альтернатив30s. Каждому свой контакт и видимая поломка; очередь после50 перед28. |
 | 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Video1 = настоящий конец44; @Image1 = Серёга; @Image2 = личный корабль; @Image3 = H28A; @Image4 = разрушитель; @Image5 = кабина | Продолжая44, Серёга видит упавшее крыло, решает пересесть, идёт к личному кораблю. В кабине ясно виден стикер с хлебом и молоком; вылет и посадка на окраине татуинского города, откуда он идёт к кантине. DRAFT до настоящего конца44, город — по описанию, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = один модуль карты; город — по описанию | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. Начинается склейкой, без видео 42 (владелец 23.10).<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
@@ -1300,16 +1300,21 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28-horizontal-lift.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/H28-horizontal-lift.png.webp" alt="A11 / B11 — вытянутая поддержка; обе опоры видны" loading="lazy"></a><figcaption>A11 / B11 — вытянутая поддержка; обе опоры видны</figcaption></figure>
+<figure><a href="references/scenes/scene-28/F28-two-hand-face-fan.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/F28-two-hand-face-fan.png.webp" alt="A12 / B11 — две руки Юли у лица Серёги" loading="lazy"></a><figcaption>A12 / B11 — две руки Юли у лица Серёги</figcaption></figure>
+</div>
+
 #### A11 · Короткий дуэт — 1/2: горизонтальная поддержка и поворот
 
-**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли.
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = [вытянутая горизонтальная поддержка](references/scenes/scene-28/H28-horizontal-lift.png); помощник позы, не стартовый кадр.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Each individual sheet controls only its own person and outranks the environment. Exactly two full-size adults; no extra sheet-view copies.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Each individual sheet controls only its own person and outranks the environment. Exactly two full-size adults; no extra sheet-view copies. @Image4 is a MID-ACTION horizontal-lift pose helper only, not the first frame. Individual sheets override its facial details; begin standing as START STATE requires.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
@@ -1318,7 +1323,7 @@ SCENE / LIGHT:
 Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
-The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his left forearm supports Yulia's upper back/ribcage, his right supports both thighs just above her knees. Her head stays toward his left side and her feet toward his right. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
+The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his anatomical RIGHT forearm supports Yulia's upper back/ribcage and his anatomical LEFT forearm supports both thighs just above her knees. In the front view of @Image4 her head is screen-left and her feet screen-right; these body-relative supports stay fixed during the turn. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
 
 START STATE:
 Both stand on the floor, Serega frame-left facing diagonally right and Yulia frame-right facing diagonally left, about one metre apart. Hands clear, both faces readable, H28B lights already established. Begin the approach immediately, no entrance or light-switching prelude.
@@ -1351,14 +1356,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### A12 · Короткий дуэт — 2/2: жест у лица и расхождение
 
-**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Video1 = настоящий конец нового A11; до его получения эта часть DRAFT.
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Video1 = настоящий конец нового A11; до его получения эта часть DRAFT · @Image4 = [двухручный жест у лица](references/scenes/scene-28/F28-two-hand-face-fan.png); помощник позы, не замена @Video1.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Video1: actual final seconds of A11, controlling the starting pose, movement, framing and floor positions. Continue those same two bodies; individual sheets retain appearance authority.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. @Video1: actual final seconds of A11, controlling the starting pose, movement, framing and floor positions. Continue those same two bodies; individual sheets retain appearance authority. @Image4 shows ONLY the mid-action two-hand fan: Yulia frames Serega's face with both open palms outside his cheeks. It does not replace @Video1 or its standing start; Serega's answering gesture reverses roles, not identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
@@ -1393,9 +1398,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 </div>
 
-<div class="engine-pane" data-engine="wan30" data-duration="10 × 30 с">
+<div class="engine-pane" data-engine="wan30" data-duration="11 × 30 с">
 
-### Версия B — Wan 3.0, десять роликов по 30 секунд
+### Версия B — Wan 3.0, одиннадцать роликов по 30 секунд
 
 #### B1 · Танец 1 — Серёга и Юля задают устав
 
@@ -1830,14 +1835,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### B11 · Короткий дуэт — полная версия на 30 секунд
 
-**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли.
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = [горизонтальная поддержка](references/scenes/scene-28/H28-horizontal-lift.png) · @Image5 = [двухручный жест](references/scenes/scene-28/F28-two-hand-face-fan.png); помощники промежуточных поз.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Photoreal live-action committed partner and ensemble dance, solemn faces and lively full-body motion
 
 REFERENCES / AUTHORITY ORDER:
-@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Each individual sheet controls only its own person and outranks the environment. Exactly two full-size adults; no extra sheet-view copies.
+@Image1: H28B location/light only. @Image2: SEREGA exact identity/costume. @Image3: YULIA exact identity/costume. Each individual sheet controls only its own person and outranks the environment. Exactly two full-size adults; no extra sheet-view copies. @Image4 is a MID-ACTION horizontal-lift pose helper only, not the first frame. Individual sheets override its facial details; begin standing as START STATE requires. @Image5 is the mid-action two-hand face-fan helper: Yulia's palms frame Serega's face; his later answer reverses roles, not identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact adult face and build, long chestnut hair, black-grey armour, shoulder pieces, gloves and long black cloak. Preserve their individual faces, ages and full adult proportions. Empty hands except for the specified partner support; no weapons.
@@ -1846,7 +1851,7 @@ SCENE / LIGHT:
 Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
 
 SUPPORT / PHYSICS — CRITICAL:
-The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his left forearm supports Yulia's upper back/ribcage, his right supports both thighs just above her knees. Her head stays toward his left side and her feet toward his right. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
+The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his anatomical RIGHT forearm supports Yulia's upper back/ribcage and his anatomical LEFT forearm supports both thighs just above her knees. In the front view of @Image4 her head is screen-left and her feet screen-right; these body-relative supports stay fixed during the turn. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
 
 START STATE:
 Both stand on the floor, Serega frame-left facing diagonally right and Yulia frame-right facing diagonally left, about one metre apart. Hands clear, both faces readable, H28B lights already established. Begin the approach immediately, no entrance or light-switching prelude.
@@ -4526,7 +4531,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28}],"tags":["dance_credits","alien_rock_band","imperial_hangar","same_H28B","identity_lock","instrument_ensemble","montage_insert"]} -->
 
-**Контекст использования:** По прямому решению владельца 16.10.2026 — отдельная музыкальная сцена для монтажа вперемешку с танцами Scene 28. Это не новый зал: **тот же самый H28B-disco ангар с имперской эмблемой на полу и шаттлом справа**. Пафосные мини-составы по 2–3 человека, каждый музыкальный клип снимается на 15 секунд с монтажно пригодными 3–6-секундными фрагментами. В конце общий ансамбль 9 взрослых людей + Алеся + Лучик и Рыжик (как утверждено в Scene 28). **READY:** пять отдельных фотографий инструментов прошли визуальный QC и сохранены с manifest; каждый состав использует свой набор, общий 49F — все пять. Лица, костюмы и масштабы задают исходные identity-файлы и G28 v2. Запуск — по очереди после танцев, только безлимит / 0 кредитов. Неверные предыдущие AI-картинки отвергнуты: не использовать их как референсы. Внешность брать только из individual identity-файлов и G28-v2, костюмы не менять. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, уточнены приметы героев, 49F сокращена (9 146 → 7 360 знаков).
+**Контекст использования:** По прямому решению владельца 16.10.2026 — отдельная музыкальная сцена для монтажа вперемешку с танцами Scene 28. Это не новый зал: **тот же самый H28B-disco ангар с имперской эмблемой на полу и шаттлом справа**. Пафосные мини-составы по 2–3 человека, каждый музыкальный клип снимается на 15 секунд с монтажно пригодными 3–6-секундными фрагментами. В конце общий ансамбль 9 взрослых людей + Алеся + Лучик и Рыжик (как утверждено в Scene 28). **READY:** пять отдельных фотографий инструментов прошли визуальный QC и сохранены с manifest; каждый состав использует свой набор, общий 49F — все пять. Лица, костюмы и масштабы задают исходные identity-файлы и G28 v2. Запуск — по действующей очереди перед танцами, после сцены63, только безлимит / 0 кредитов. Неверные предыдущие AI-картинки отвергнуты: не использовать их как референсы. Внешность брать только из individual identity-файлов и G28-v2, костюмы не менять. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, уточнены приметы героев, 49F сокращена (9 146 → 7 360 знаков).
 
 **Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B, **главная неизменная локация**</a> · персональные @Image2–@Image4 — ссылки в соответствующих подсценах · для общего финала @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">утверждённый состав G28 v2</a>. Фотографии инструментов подключены отдельными слотами после визуального QC. Номера @Image локальны каждому copy-paste промту.
 
@@ -5336,181 +5341,486 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <a id="scene-51"></a>
 
-## Сцена 51 — Финальные титры: рок-финал с разбиванием инопланетных инструментов
+## Сцена 51 — Финальные титры: каждый разбивает свой инструмент
 
-**Редакция исполнения · 25.10.2026:** по команде владельца после аудита танцев сокращены повторы и пошаговая хореография; свободное исполнение сочетается с точными гэгами, хватом, опорами и реальными стыками. Обновлены все варианты этой сцены. Это промты будущих разрешённых запусков: уже отправленные задачи используют прежний текст, дословно в git/receipts; их результат оценивается по нему. Качество новой редакции предстоит проверить по роликам. Стандарт — [§5А](PROMPT-STYLE-GUIDE.md); [отчёт о правке](reports/prompt-refresh-2026-10-25.md).
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","montage_insert"]} -->
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","wookiee_fans","montage_insert"]} -->
+**Редакция владельца · 25.10.2026:** рок-финал расширен на всех 12 музыкантов. Шесть самостоятельных роликов по 15 секунд, по два исполнителя с последовательными сольными акцентами: каждому видны подготовка, контакт и поломка именно его инструмента. Суммарно 90 секунд исходного материала; в монтаже можно оставить лучшие короткие фрагменты. Для каждой пары есть самостоятельная альтернатива Wan 3.0 на 30 секунд, в очередь она не добавлена. Старый вариант «51A замах троих →51B удар троих» заменён до отправки; его история сохранена в git и отчёте. Теперь **51B не ждёт видео51A**: это другая самостоятельная пара. Все шесть частей ждут только свободный слот по очереди.
 
-**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: активная финальная фраза, последний общий аккорд, смена хвата и замах без затянутой паузы, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге; их внешний вид — выбранный владельцем кадр толпы 50, вариант 2 (@Image8 в 51A/51B, 17.10). **Изображения READY:** фотографии инструментов 49A/49B и замах: обе руки за гриф прошли QC и подключены. Постановка задаёт только позы: исходные лица/костюмы и отдельные фотографии инструментов имеют приоритет. Запуск по очереди после50 и оценки теста; для51B дополнительно нужен настоящий конец нового51A с QC, поэтому видеовход51B пока DRAFT. Автоматических повторов нет. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
+**Площадка и порядок:** собственные лица, одежда и ангар H28B. Сюжетные приоритеты →63→49→50→51A–F→танцы28. Реакции выбранных вуки остаются отдельными роликами50 и монтажными перебивками, а не перегружают каждый удар. Коты получают свой финал и не стоят в зоне замаха людей. Музыкальный выбор для28/49–51 прежний: «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33), добавляется на монтаже; генерация не копирует запись.
 
-**Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">оригинальный H28B-ангар</a>; @Image2 = <a href="references/full/serega.jpg">Серёга</a>; @Image3 = <a href="references/full/yulya.jpg">Юля</a>; @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Абсолютный приоритет сохранения настоящих лиц и костюмов, а также геометрии H28B. <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2</a> — вспомогательный референс состава Scene 49, не слот генерации.
+**Критерий результата:** все12 исполнителей по отдельности ломают своё. Гитары/басы — корпусом о пол при хвате двумя руками за гриф; перкуссия — падение и разрушение рамы; барабаны — порванная мембрана и развал установки; духовой — сломанная труба/раструб; арфа — сломанная рама и ослабшие струны; клавиши — расколотый корпус и выпавшие клавиши; у каждого кота — сломанный собственный контроллер. Погасшие огни, брошенный целый инструмент или облако искр без видимого контакта не засчитываются. Технический успех генерации не означает приёмку владельцем.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точный ангар H28B" loading="lazy"></a><figcaption>@Image1 — точный ангар H28B</figcaption></figure>
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image2 — Серёга" loading="lazy"></a><figcaption>@Image2 — Серёга</figcaption></figure>
-<figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image3 — Юля" loading="lazy"></a><figcaption>@Image3 — Юля</figcaption></figure>
-<figure><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="@Image4 — Паша" loading="lazy"></a><figcaption>@Image4 — Паша</figcaption></figure>
-<figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="G28 v2 — вспомогательный общий состав" loading="lazy"></a><figcaption>G28 v2 — вспомогательный общий состав</figcaption></figure>
-<figure><a href="references/scenes/scene-49/S49A-lead-and-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
-<figure><a href="references/scenes/scene-49/S49B-rhythm-instruments.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49B-rhythm-instruments.png.webp" alt="@Image6 — инструменты" loading="lazy"></a><figcaption>@Image6 — инструменты</figcaption></figure>
-<figure><a href="references/scenes/scene-51/S51-neck-grip-windup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51-neck-grip-windup.png.webp" alt="@Image7 — замах: обе руки за гриф" loading="lazy"></a><figcaption>@Image7 — замах: обе руки за гриф</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51A-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51A-own-instrument-setup.png.webp" alt="51A — Серёга и Юля — гитара и бас; целые инструменты перед действием" loading="lazy"></a><figcaption>51A — Серёга и Юля — гитара и бас; целые инструменты перед действием</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51B-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51B-own-instrument-setup.png.webp" alt="51B — Паша и Саша — бронзовый бас и кобальтовая гитара; целые инструменты перед действием" loading="lazy"></a><figcaption>51B — Паша и Саша — бронзовый бас и кобальтовая гитара; целые инструменты перед действием</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51C-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51C-own-instrument-setup.png.webp" alt="51C — Артём и Илюша — перкуссия и барабаны; целые инструменты перед действием" loading="lazy"></a><figcaption>51C — Артём и Илюша — перкуссия и барабаны; целые инструменты перед действием</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51D-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51D-own-instrument-setup.png.webp" alt="51D — Лёша и Виталик — духовой синтезатор и тяжёлый бас; целые инструменты перед действием" loading="lazy"></a><figcaption>51D — Лёша и Виталик — духовой синтезатор и тяжёлый бас; целые инструменты перед действием</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51E-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51E-own-instrument-setup.png.webp" alt="51E — Маша Лагуна и Алеся — арфа и клавиши; целые инструменты перед действием" loading="lazy"></a><figcaption>51E — Маша Лагуна и Алеся — арфа и клавиши; целые инструменты перед действием</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51F-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51F-own-instrument-setup.png.webp" alt="51F — Лучик и Рыжик — кошачьи музыкальные пэды; целые инструменты перед действием" loading="lazy"></a><figcaption>51F — Лучик и Рыжик — кошачьи музыкальные пэды; целые инструменты перед действием</figcaption></figure>
 </div>
-
-**Что происходит:** После общего выступления группа даёт последний мощный аккорд. Серёга, Юля и Паша пафосно замахиваются и разбивают свои три инопланетных инструмента корпусами о отдельные пустые участки пола. Летят безопасные обломки корпусов и искры, но без травм, крови или чрезмерной жести. Коты не находятся в опасной зоне удара и только реагируют на финал. Толпа вуки ревёт, трясёт гривами и вскидывает лапы. Сцена должна монтироваться с танцами Scene 28, выступлением Scene 49 и фанатами Scene 50.
 
 <div class="engine-tabs" data-scene="51">
 
-<div class="engine-pane" data-engine="sd20x2" data-main="1">
+<div class="engine-pane" data-engine="sd20x2" data-main="1" data-duration="6 × 15 с">
 
-### 51A · Последний аккорд и замах · 15 с
+### 51A · Серёга и Юля — гитара и бас · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a> · @Image8 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранные вуки-фанаты, вариант 2</a>. Других людей не добавлять.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [serega](references/full/serega.jpg) · @Image3 = [yulya](references/full/yulya.jpg) · @Image4 = [S49A-lead-and-bass](references/scenes/scene-49/S49A-lead-and-bass.png) · @Image5 = [S51A-own-instrument-setup](references/scenes/scene-51/S51A-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal pompous live-rock finale with clear physical cause and effect
+Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
-REFERENCES / AUTHORITY ORDER:
-@Image1: exact H28B hangar/light. @Image2: SEREGA exact identity/costume. @Image3: YULYA exact identity/costume. @Image4: PASHA exact identity/costume. @Image5: Serega's black/blue six-string lead guitar and Yulya's silver/violet four-string bass, prop design only. @Image6: ONLY Pasha's bronze four-amber-string gravibass; ignore its other instruments. @Image7: neck grip, pre-impact pose and spacing only, Serega left, Yulya centre, Pasha right. @Image8: Wookiee audience look and energy, far rear only. Priority: individual sheets own people, @Image1 owns location, @Image5–6 own props; the pose/crowd helpers cannot redesign any of them.
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT SEREGA: exact mature face, balding light hair, original build and long deep-purple robe. RIGHT YULIA: exact adult face/build, long chestnut hair, dark armour, gloves and cape.
 
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
-YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armoured outfit, gloves and cape; plays her slender silver-and-violet alien FOUR-STRING BASS with rigid playable neck.
-PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
-Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
+INSTRUMENT OWNERSHIP:
+Serega owns the black spiked SIX-blue-string lead guitar with circular blue core. Yulia owns the slender silver-violet FOUR-string nacelle bass. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
 
-SCENE / LIGHT:
-Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
 
-GRIP / CONTACT — CRITICAL:
-During playing, left hand frets and right hand picks near the bridge, strap supporting the instrument. Before the wind-up, slip the strap clear while controlling its weight. Then BOTH hands grip the narrow NECK near the headstock, one above the other; headstock protrudes below the lower hand, the heavy BODY rises above/behind the shoulder. The BODY is the striking end, never a handhold. Keep separate swing lanes and empty floor impact patches, audience well behind and cats/Alesya outside them.
+ACTION:
+Serega first: both hands wrap the narrow neck near the headstock, headstock below hands, heavy body raised above his shoulder. He drives the BODY in one continuous downward arc into his own empty floor patch; the body visibly splits at contact, blue ring comes loose, strings slacken while the neck stays in his hands. Yulia then performs her own powerful body-first strike with her silver-violet bass, both hands on its narrow neck; its nacelle casing splits and a violet side panel falls. Her bass does not turn into his guitar.
+Two successive solo accents: first performer roughly the first six seconds, second performer the next six, then a brief shared reaction. No simultaneous competing impacts. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
 
-START STATE:
-Same original three characters and three intact alien instruments, in their Scene 49 positions inside H28B. Serega at frame-left, Yulya midframe and Pasha frame-right, with clear empty floor areas in front. The Wookiee fans cheer well behind them. The fixed shuttle is on the right.
-
-STORY FLOW:
-[0:00–0:08] Play a vigorous final riff with natural rock-star movement and serious faces, answering each other without leaving the three lanes. Culminate in the last chord; hands remain in the playing grip until it sounds.
-
-[0:08–0:15] As the chord rings, free the straps and establish the two-handed neck grips. Brace through the legs and raise the heavy bodies into three separate wind-ups. Make the change practical and continuous, reaching the intact pre-impact position on the last beat; no strike or debris yet.
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
-All three instruments are INTACT at the top of their separate pre-impact wind-ups, both hands on each narrow neck, heavy bodies raised above/behind shoulders. Resolve for only the final half-second. NO impact, debris or destruction yet; preserve clear left/centre/right spacing.
-
-CAMERA / SPACE:
-One continuous medium-full view of the trio, natural 40–50mm perspective, preserving left/centre/right lanes. Frame wide enough for all raised instruments, both hands and empty floor contact areas; do not hide a grip change or impact with a cut or crop. A small later lateral drift may reveal the cheering audience while retaining the trio.
+Both keep their own broken necks lowered beside them; distinct blue and violet broken bodies remain on their separate floor patches. End after a brief proud deadpan reaction, no long hold.
 
 AUDIO:
-Original driving hard-rock riff into the last chord, ringing over strap release and wind-up; Wookiee cheers behind. No impact sounds before contact, no speech, lyrics or published melody.
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
 
-NEGATIVE PROMPT:
-Body used as a handle, headstock-first strike, fracture before contact, repeated smash or restored instrument, overlapping swing lanes, injured performers or fans, uncontrolled explosions, identity/prop swaps, slow motion, long suspense hold, subtitles or watermark.
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
-### 51B · Разбивают инструменты — рок-кульминация · 15 с
+### 51B · Паша и Саша — бронзовый бас и кобальтовая гитара · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a> · @Image8 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранные вуки-фанаты, вариант 2</a>. Других людей не добавлять.
-
-**Непрерывность:** @Video1 = настоящий конец нового51A; до его получения и QC часть51B остаётся DRAFT по видеовходу, даже при готовых изображениях.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [pasha](references/full/pasha.jpg) · @Image3 = [sasha](references/full/sasha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S51B-own-instrument-setup](references/scenes/scene-51/S51B-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal pompous live-rock finale with clear physical cause and effect
+Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
-REFERENCES / AUTHORITY ORDER:
-@Image1: exact H28B hangar/light. @Image2: SEREGA exact identity/costume. @Image3: YULYA exact identity/costume. @Image4: PASHA exact identity/costume. @Image5: Serega's black/blue six-string lead guitar and Yulya's silver/violet four-string bass, prop design only. @Image6: ONLY Pasha's bronze four-amber-string gravibass; ignore its other instruments. @Image7: neck grip, pre-impact pose and spacing only, Serega left, Yulya centre, Pasha right. @Image8: Wookiee audience look and energy, far rear only. Priority: individual sheets own people, @Image1 owns location, @Image5–6 own props; the pose/crowd helpers cannot redesign any of them. @Video1: actual end of 51A, fixing intact instrument state, pre-impact grip, spacing, camera and direction; continue it without resetting the pose.
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT PASHA: exact adult face, short hair, navy Jedi tunic and boots. RIGHT SASHA: exact adult face, beard, round spectacles, cream tunic and burgundy-brown robe.
 
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
-YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armoured outfit, gloves and cape; plays her slender silver-and-violet alien FOUR-STRING BASS with rigid playable neck.
-PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
-Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
+INSTRUMENT OWNERSHIP:
+Pasha owns the circular bronze FOUR-amber-string gravibass, LEFT prop in @Image4. Sasha owns the cobalt SIX-string twin-rail rhythm guitar, CENTER prop in @Image4. Do not add its third percussion prop. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
 
-SCENE / LIGHT:
-Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
 
-GRIP / CONTACT — CRITICAL:
-Start with straps already clear. BOTH hands stay on each narrow NECK near the headstock, one above the other; headstock below the lower hand, heavy BODY above/behind shoulder. The BODY strikes the floor first, never the headstock. Retain separate swing lanes and empty impact patches; audience far behind, cats/Alesya outside. Do not return to playing grip.
+ACTION:
+Pasha first: both hands clasp the narrow neck near the headstock, heavy circular body raised above his shoulder. He swings BODY-FIRST into his own empty floor patch; the bronze resonator casing cracks into large connected pieces, the amber strings go slack. Sasha then gives his own cobalt guitar a decisive body-first floor strike using the same two-handed neck grip; its two blue body rails break away from the central body. Each headstock stays below his hands through the wind-up; no strumming grip during a smash.
+Two successive solo accents: first performer roughly the first six seconds, second performer the next six, then a brief shared reaction. No simultaneous competing impacts. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
 
-START STATE:
-Continue the actual @Video1 ending without a pose reset: Serega left, Yulya centre, Pasha right, intact instruments at the top of separate wind-ups, two-handed neck grips and straps clear. The three empty impact patches and audience distance remain exactly as established.
-
-STORY FLOW:
-Continue the actual wind-up immediately into ONE weighted downswing per instrument. Both hands stay on its neck; each heavy BODY hits its own empty floor patch FIRST. Fracture and brief local sparks occur only after contact. Recoil through the knees and step back clear of the fragments, keeping the remaining necks away from people. Then celebrate naturally with proud rock-star swagger as the Wookiees erupt behind: let gestures and footwork develop freely. Each instrument stays broken, debris stays down, and no second smash occurs. End with the musicians facing camera on a living triumphant accent.
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
-Three original instruments each fractured only ONCE on distinct real floor contacts. Broken bodies and fragments stay on their separate floor patches; the three uninjured musicians hold the remaining necks away from others. Final accent resolves only in the last half-second, with fans still cheering and bodies recovering naturally in the same H28B.
-
-CAMERA / SPACE:
-One continuous medium-full view of the trio, natural 40–50mm perspective, preserving left/centre/right lanes. Frame wide enough for all raised instruments, both hands and empty floor contact areas; do not hide a grip change or impact with a cut or crop. A small later lateral drift may reveal the cheering audience while retaining the trio.
+Pasha and Sasha stand over two distinct broken instruments, each retaining only his own neck, with bronze pieces left and cobalt pieces right. End after a brief proud deadpan reaction, no long hold.
 
 AUDIO:
-Ringing rock chord into physical crunches exactly at floor contacts, with a continuing fast drum pulse and exuberant Wookiee roars. No dialogue, lyrics or published melody.
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
 
-NEGATIVE PROMPT:
-Body used as a handle, headstock-first strike, fracture before contact, repeated smash or restored instrument, overlapping swing lanes, injured performers or fans, uncontrolled explosions, identity/prop swaps, slow motion, long suspense hold, subtitles or watermark.
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
----
+### 51C · Артём и Илюша — перкуссия и барабаны · 15 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [artem](references/full/artem.jpg) · @Image3 = [ilyusha](references/full/ilyusha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image6 = [S51C-own-instrument-setup](references/scenes/scene-51/S51C-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5: assigned instruments only. @Image6 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT ARTEM: exact stocky adult face/build, light-brown hair/beard, beige-and-brown Jedi clothes. RIGHT ILYUSHA: exact adult face, moustache, tousled brown hair, olive-green tunic and deep-red cloak.
+
+INSTRUMENT OWNERSHIP:
+Artem owns ONLY the THREE amber-ring percussion console at RIGHT of @Image4, tripod and two short sticks. Ilyusha owns ONLY the compact black/blue drum kit at CENTER of @Image5: kick drum, toms/snare and TWO blue-ring cymbals. Other props in those sheets are not present. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image6; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Artem first: with his sticks already set aside, both hands push the solid outer console frame away from him. Its tripod pivots forward; the ring assembly hits the empty floor visibly, breaking the support frame and dislodging two amber ring pads. Ilyusha then delivers an emphatic two-stick final snare hit that visibly tears the drumhead. He rises into a forward boot shove against his OWN kick-drum shell; the kit falls forward away from him, a drum shell splits and its own cymbal stands fold down. Show the hand/foot contacts that cause the collapse. No guitar appears and no damage happens before contact.
+Two successive solo accents: first performer roughly the first six seconds, second performer the next six, then a brief shared reaction. No simultaneous competing impacts. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+The three-ring console is broken on the left; Ilyusha's collapsed drum kit on the right has a torn head, split shell and fallen stands. Both musicians remain upright behind their own equipment. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+### 51D · Лёша и Виталик — духовой синтезатор и тяжёлый бас · 15 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [lesha](references/full/lesha.jpg) · @Image3 = [vitalik](references/full/vitalik.jpg) · @Image4 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image5 = [S51D-own-instrument-setup](references/scenes/scene-51/S51D-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT LESHA: exact slim adult face, moustache, purple inner tunic, long grey robe and pale boots. RIGHT VITALIK: exact sturdy adult face/build, black tunic/leather panels, brown trousers and tall boots.
+
+INSTRUMENT OWNERSHIP:
+Lesha owns the black/brass curved wind synthesizer with turquoise-ring bell, LEFT in @Image4. Vitalik owns the large black bass with FOUR orange-red strings and circular sub-bass resonator, RIGHT in @Image4. The drum kit in the prop sheet is absent. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Lesha first: mouthpiece is clear of his face and neck strap released. Both hands grip the solid upper tube; he drives its bell end down onto his own empty floor patch. The bell visibly buckles on contact and its tube breaks at the curved joint, leaving a recognisable black/brass wreck and loose turquoise ring. Vitalik then swings his OWN bass body-first into his separate floor patch, both hands around the narrow neck near the headstock. Its heavy black resonator casing splits and an orange-red ring section falls; the neck remains in his hands.
+Two successive solo accents: first performer roughly the first six seconds, second performer the next six, then a brief shared reaction. No simultaneous competing impacts. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+Lesha lowers the broken upper tube; Vitalik lowers his broken bass neck. Their differently coloured wrecks stay separate on the floor. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+### 51E · Маша Лагуна и Алеся — арфа и клавиши · 15 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [masha-laguna](references/masha-laguna.webp) · @Image3 = [Ale28-Alesya-model-sheet](references/scenes/scene-28/Ale28-Alesya-model-sheet.png) · @Image4 = [S49D-harp-small-synth](references/scenes/scene-49/S49D-harp-small-synth.png) · @Image5 = [S51E-own-instrument-setup](references/scenes/scene-51/S51E-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT MASHA LAGUNA: exact blue adult humanoid face and long pale-blue head tentacles, dark head/collar details, fully opaque smooth blue full-length costume. RIGHT ALESYA: approximately one-metre-tall brown-furred Ewok body with round ears and hood, exact approved ADULT human female face, no spear. Preserve the adult/one-metre height ratio; no child or full-height Alesya.
+
+INSTRUMENT OWNERSHIP:
+Masha owns the tall silver-blue crystalline harp with SIX anchored strings. Alesya owns the SMALL two-tier amber/violet keyboard on its LOW stand; top keys below her chest. No ordinary full-size piano. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Masha first: both hands grip her harp's solid outer frame, not its strings. She tips and drives the harp sideways AWAY from her into clear floor. Show the curved frame hitting first, cracking into two large pieces and releasing the six strings into slack strands; this is visible breakage, not simply lying an intact harp down. Alesya then plants her furry feet and gives her OWN low keyboard stand a vigorous two-handed forward shove. Both tiers tip together away from her; their housings hit the floor, split open and scatter several keys. She stays one metre tall and never lifts an adult-size piano overhead.
+Two successive solo accents: first performer roughly the first six seconds, second performer the next six, then a brief shared reaction. No simultaneous competing impacts. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+Masha and Alesya stand behind their own clearly broken harp and keyboard; loose strings, split cases and fallen keys remain visible. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+### 51F · Лучик и Рыжик — кошачьи музыкальные пэды · 15 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [luchik](references/luchik.jpg) · @Image3 = [ryzhik](references/ryzhik.jpg) · @Image4 = [S49E-cat-paw-controllers](references/scenes/scene-49/S49E-cat-paw-controllers.png) · @Image5 = [S51F-own-instrument-setup](references/scenes/scene-51/S51F-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT LUCHIK: exact long white-grey fur pattern, white muzzle/chest/paws and grey crown/back. RIGHT RYZHIK: exact long orange tabby coat, darker stripes and pale chest. Both real domestic-sized quadruped cats, natural paws and tails, no clothes, human hands, upright humanoid posture or lightsabers. Identity sheets control fur/faces only, not their upright source pose.
+
+INSTRUMENT OWNERSHIP:
+Luchik owns ONLY the low black controller with FOUR BLUE square pads in a 2x2 grid. Ryzhik owns ONLY the separate low black controller with THREE AMBER circular pads. Each is about a cat's body length. Lightweight breakaway stage housings, not indestructible metal blocks. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Luchik first: from a natural four-legged crouch he makes a short forceful forward pounce, both front paws landing on his OWN blue controller. The lid visibly caves and splits along its seam at paw contact; two blue pad plates pop loose to the sides. He steps back onto clear floor. Ryzhik then gives his OWN amber controller a separate short pounce and emphatic two-paw shove; its rim cracks, three-pad lid separates from the housing and one amber pad rolls a short distance. Keep all motion recognisably feline. The broken housings stay visibly broken; merely switching lights off does not fulfil the action.
+Two successive solo accents: first performer roughly the first six seconds, second performer the next six, then a brief shared reaction. No simultaneous competing impacts. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Low cat-eye-level medium-wide shot showing all paws and both controllers. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+Both cats remain unharmed and quadrupedal behind their own visibly broken blue and amber controllers, alert and solemn; a tiny self-satisfied tail flick closes the joke. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
 
 </div>
 
-<div class="engine-pane" data-engine="wan30">
+<div class="engine-pane" data-engine="wan30" data-duration="6 × 30 с">
 
-Та же сцена (51A + 51B) одним роликом 30 с на Wan 3.0.
+**Альтернативы, не дополнительные запуски:** те же пары и те же результаты, больше времени на подготовку и реакцию.
 
-**Входы:** @Image1 — `references/scenes/scene-28/H28B-disco.png`; @Image2 — `references/full/serega.jpg`; @Image3 — `references/full/yulya.jpg`; @Image4 — `references/full/pasha.jpg`; @Image5 — `references/scenes/scene-49/S49A-lead-and-bass.png`; @Image6 — `references/scenes/scene-49/S49B-rhythm-instruments.png`; @Image7 — `references/scenes/scene-51/S51-neck-grip-windup.png`; @Image8 — `references/scenes/scene-50/S50-fans-1c48a62d.png`.
+#### 51 · Wan 3.0 часть 1 · Серёга и Юля — гитара и бас · 30 с
 
-*51A+51B одним роликом: последний аккорд, освобождение ремней, перехват грифа двумя руками, замах и удар; затем живая победная реакция51B.*
-
-#### 51 · Wan 3.0 · 30 с
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [serega](references/full/serega.jpg) · @Image3 = [yulya](references/full/yulya.jpg) · @Image4 = [S49A-lead-and-bass](references/scenes/scene-49/S49A-lead-and-bass.png) · @Image5 = [S51A-own-instrument-setup](references/scenes/scene-51/S51A-own-instrument-setup.png).
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal pompous live-rock finale with clear physical cause and effect
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
 
-REFERENCES / AUTHORITY ORDER:
-@Image1: exact H28B hangar/light. @Image2: SEREGA exact identity/costume. @Image3: YULYA exact identity/costume. @Image4: PASHA exact identity/costume. @Image5: Serega's black/blue six-string lead guitar and Yulya's silver/violet four-string bass, prop design only. @Image6: ONLY Pasha's bronze four-amber-string gravibass; ignore its other instruments. @Image7: neck grip, pre-impact pose and spacing only, Serega left, Yulya centre, Pasha right. @Image8: Wookiee audience look and energy, far rear only. Priority: individual sheets own people, @Image1 owns location, @Image5–6 own props; the pose/crowd helpers cannot redesign any of them.
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT SEREGA: exact mature face, balding light hair, original build and long deep-purple robe. RIGHT YULIA: exact adult face/build, long chestnut hair, dark armour, gloves and cape.
 
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
-YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armoured outfit, gloves and cape; plays her slender silver-and-violet alien FOUR-STRING BASS with rigid playable neck.
-PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
-Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
+INSTRUMENT OWNERSHIP:
+Serega owns the black spiked SIX-blue-string lead guitar with circular blue core. Yulia owns the slender silver-violet FOUR-string nacelle bass. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
 
-SCENE / LIGHT:
-Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor with its Imperial medallion, amber guide lines and cyan/magenta borders. Rear space opening and parked shuttle deep frame-right stay fixed. Existing disco light is on from frame zero; steady neutral-white face fill keeps skin and costume colours readable. Real cloth, metal and faint floor reflections; no new stage or room.
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
 
-GRIP / CONTACT — CRITICAL:
-During playing, left hand frets and right hand picks near the bridge, strap supporting the instrument. Before the wind-up, slip the strap clear while controlling its weight. Then BOTH hands grip the narrow NECK near the headstock, one above the other; headstock protrudes below the lower hand, the heavy BODY rises above/behind the shoulder. The BODY is the striking end, never a handhold. Keep separate swing lanes and empty floor impact patches, audience well behind and cats/Alesya outside them.
+ACTION:
+Serega first: both hands wrap the narrow neck near the headstock, headstock below hands, heavy body raised above his shoulder. He drives the BODY in one continuous downward arc into his own empty floor patch; the body visibly splits at contact, blue ring comes loose, strings slacken while the neck stays in his hands. Yulia then performs her own powerful body-first strike with her silver-violet bass, both hands on its narrow neck; its nacelle casing splits and a violet side panel falls. Her bass does not turn into his guitar.
+Give each performer a complete, unhurried but energetic preparation, impact and reaction in turn. Allow roughly twelve seconds each, then a short shared reaction; use extra time for expressive performance, not extra smashes or slow motion. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
 
-START STATE:
-Same original three characters and three intact alien instruments, in their Scene 49 positions inside H28B. Serega at frame-left, Yulya midframe and Pasha frame-right, with clear empty floor areas in front. The Wookiee fans cheer well behind them. The fixed shuttle is on the right.
-
-STORY FLOW:
-[0:00–0:08] Play a vigorous final riff with natural rock-star movement and serious faces, answering each other without leaving the three lanes. Culminate in the last chord; hands remain in the playing grip until it sounds.
-
-[0:08–0:15] As the chord rings, free the straps and establish the two-handed neck grips. Brace through the legs and raise the heavy bodies into three separate wind-ups. Make the change practical and continuous, reaching the intact pre-impact position around the midpoint; flow straight into the strike.
-
-[0:15–0:30] Continue that wind-up immediately into ONE weighted downswing per instrument. Both hands stay on its neck; each heavy BODY hits its own empty floor patch FIRST. Fracture and brief local sparks occur only after contact. Recoil through the knees and step back clear of the fragments, keeping the remaining necks away from people. Then celebrate naturally with proud rock-star swagger as the Wookiees erupt behind: let gestures and footwork develop freely. Each instrument stays broken, debris stays down, and no second smash occurs. End with the musicians facing camera on a living triumphant accent.
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
-Three original instruments each fractured only ONCE on distinct real floor contacts. Broken bodies and fragments stay on their separate floor patches; the three uninjured musicians hold the remaining necks away from others. Final accent resolves only in the last half-second, with fans still cheering and bodies recovering naturally in the same H28B.
-
-CAMERA / SPACE:
-One continuous medium-full view of the trio, natural 40–50mm perspective, preserving left/centre/right lanes. Frame wide enough for all raised instruments, both hands and empty floor contact areas; do not hide a grip change or impact with a cut or crop. A small later lateral drift may reveal the cheering audience while retaining the trio.
+Both keep their own broken necks lowered beside them; distinct blue and violet broken bodies remain on their separate floor patches. End after a brief proud deadpan reaction, no long hold.
 
 AUDIO:
-Original driving hard-rock riff and pulse, last chord ringing over the grip change, physical crunches only at actual impacts, then Wookiee roars and continuing rhythm. No speech, lyrics or published melody.
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
 
-NEGATIVE PROMPT:
-Body used as a handle, headstock-first strike, fracture before contact, repeated smash or restored instrument, overlapping swing lanes, injured performers or fans, uncontrolled explosions, identity/prop swaps, slow motion, long suspense hold, subtitles or watermark.
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 51 · Wan 3.0 часть 2 · Паша и Саша — бронзовый бас и кобальтовая гитара · 30 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [pasha](references/full/pasha.jpg) · @Image3 = [sasha](references/full/sasha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S51B-own-instrument-setup](references/scenes/scene-51/S51B-own-instrument-setup.png).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT PASHA: exact adult face, short hair, navy Jedi tunic and boots. RIGHT SASHA: exact adult face, beard, round spectacles, cream tunic and burgundy-brown robe.
+
+INSTRUMENT OWNERSHIP:
+Pasha owns the circular bronze FOUR-amber-string gravibass, LEFT prop in @Image4. Sasha owns the cobalt SIX-string twin-rail rhythm guitar, CENTER prop in @Image4. Do not add its third percussion prop. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Pasha first: both hands clasp the narrow neck near the headstock, heavy circular body raised above his shoulder. He swings BODY-FIRST into his own empty floor patch; the bronze resonator casing cracks into large connected pieces, the amber strings go slack. Sasha then gives his own cobalt guitar a decisive body-first floor strike using the same two-handed neck grip; its two blue body rails break away from the central body. Each headstock stays below his hands through the wind-up; no strumming grip during a smash.
+Give each performer a complete, unhurried but energetic preparation, impact and reaction in turn. Allow roughly twelve seconds each, then a short shared reaction; use extra time for expressive performance, not extra smashes or slow motion. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+Pasha and Sasha stand over two distinct broken instruments, each retaining only his own neck, with bronze pieces left and cobalt pieces right. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 51 · Wan 3.0 часть 3 · Артём и Илюша — перкуссия и барабаны · 30 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [artem](references/full/artem.jpg) · @Image3 = [ilyusha](references/full/ilyusha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image6 = [S51C-own-instrument-setup](references/scenes/scene-51/S51C-own-instrument-setup.png).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5: assigned instruments only. @Image6 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT ARTEM: exact stocky adult face/build, light-brown hair/beard, beige-and-brown Jedi clothes. RIGHT ILYUSHA: exact adult face, moustache, tousled brown hair, olive-green tunic and deep-red cloak.
+
+INSTRUMENT OWNERSHIP:
+Artem owns ONLY the THREE amber-ring percussion console at RIGHT of @Image4, tripod and two short sticks. Ilyusha owns ONLY the compact black/blue drum kit at CENTER of @Image5: kick drum, toms/snare and TWO blue-ring cymbals. Other props in those sheets are not present. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image6; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Artem first: with his sticks already set aside, both hands push the solid outer console frame away from him. Its tripod pivots forward; the ring assembly hits the empty floor visibly, breaking the support frame and dislodging two amber ring pads. Ilyusha then delivers an emphatic two-stick final snare hit that visibly tears the drumhead. He rises into a forward boot shove against his OWN kick-drum shell; the kit falls forward away from him, a drum shell splits and its own cymbal stands fold down. Show the hand/foot contacts that cause the collapse. No guitar appears and no damage happens before contact.
+Give each performer a complete, unhurried but energetic preparation, impact and reaction in turn. Allow roughly twelve seconds each, then a short shared reaction; use extra time for expressive performance, not extra smashes or slow motion. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+The three-ring console is broken on the left; Ilyusha's collapsed drum kit on the right has a torn head, split shell and fallen stands. Both musicians remain upright behind their own equipment. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 51 · Wan 3.0 часть 4 · Лёша и Виталик — духовой синтезатор и тяжёлый бас · 30 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [lesha](references/full/lesha.jpg) · @Image3 = [vitalik](references/full/vitalik.jpg) · @Image4 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image5 = [S51D-own-instrument-setup](references/scenes/scene-51/S51D-own-instrument-setup.png).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT LESHA: exact slim adult face, moustache, purple inner tunic, long grey robe and pale boots. RIGHT VITALIK: exact sturdy adult face/build, black tunic/leather panels, brown trousers and tall boots.
+
+INSTRUMENT OWNERSHIP:
+Lesha owns the black/brass curved wind synthesizer with turquoise-ring bell, LEFT in @Image4. Vitalik owns the large black bass with FOUR orange-red strings and circular sub-bass resonator, RIGHT in @Image4. The drum kit in the prop sheet is absent. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Lesha first: mouthpiece is clear of his face and neck strap released. Both hands grip the solid upper tube; he drives its bell end down onto his own empty floor patch. The bell visibly buckles on contact and its tube breaks at the curved joint, leaving a recognisable black/brass wreck and loose turquoise ring. Vitalik then swings his OWN bass body-first into his separate floor patch, both hands around the narrow neck near the headstock. Its heavy black resonator casing splits and an orange-red ring section falls; the neck remains in his hands.
+Give each performer a complete, unhurried but energetic preparation, impact and reaction in turn. Allow roughly twelve seconds each, then a short shared reaction; use extra time for expressive performance, not extra smashes or slow motion. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+Lesha lowers the broken upper tube; Vitalik lowers his broken bass neck. Their differently coloured wrecks stay separate on the floor. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 51 · Wan 3.0 часть 5 · Маша Лагуна и Алеся — арфа и клавиши · 30 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [masha-laguna](references/masha-laguna.webp) · @Image3 = [Ale28-Alesya-model-sheet](references/scenes/scene-28/Ale28-Alesya-model-sheet.png) · @Image4 = [S49D-harp-small-synth](references/scenes/scene-49/S49D-harp-small-synth.png) · @Image5 = [S51E-own-instrument-setup](references/scenes/scene-51/S51E-own-instrument-setup.png).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT MASHA LAGUNA: exact blue adult humanoid face and long pale-blue head tentacles, dark head/collar details, fully opaque smooth blue full-length costume. RIGHT ALESYA: approximately one-metre-tall brown-furred Ewok body with round ears and hood, exact approved ADULT human female face, no spear. Preserve the adult/one-metre height ratio; no child or full-height Alesya.
+
+INSTRUMENT OWNERSHIP:
+Masha owns the tall silver-blue crystalline harp with SIX anchored strings. Alesya owns the SMALL two-tier amber/violet keyboard on its LOW stand; top keys below her chest. No ordinary full-size piano. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Masha first: both hands grip her harp's solid outer frame, not its strings. She tips and drives the harp sideways AWAY from her into clear floor. Show the curved frame hitting first, cracking into two large pieces and releasing the six strings into slack strands; this is visible breakage, not simply lying an intact harp down. Alesya then plants her furry feet and gives her OWN low keyboard stand a vigorous two-handed forward shove. Both tiers tip together away from her; their housings hit the floor, split open and scatter several keys. She stays one metre tall and never lifts an adult-size piano overhead.
+Give each performer a complete, unhurried but energetic preparation, impact and reaction in turn. Allow roughly twelve seconds each, then a short shared reaction; use extra time for expressive performance, not extra smashes or slow motion. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Medium-wide full-body view showing both performers, their hands/feet, the whole instruments and floor contact zones. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+Masha and Alesya stand behind their own clearly broken harp and keyboard; loose strings, split cases and fallen keys remain visible. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 51 · Wan 3.0 часть 6 · Лучик и Рыжик — кошачьи музыкальные пэды · 30 с
+
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [luchik](references/luchik.jpg) · @Image3 = [ryzhik](references/ryzhik.jpg) · @Image4 = [S49E-cat-paw-controllers](references/scenes/scene-49/S49E-cat-paw-controllers.png) · @Image5 = [S51F-own-instrument-setup](references/scenes/scene-51/S51F-own-instrument-setup.png).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
+
+REFERENCES / IDENTITY:
+@Image1 is H28B location/light only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+LEFT LUCHIK: exact long white-grey fur pattern, white muzzle/chest/paws and grey crown/back. RIGHT RYZHIK: exact long orange tabby coat, darker stripes and pale chest. Both real domestic-sized quadruped cats, natural paws and tails, no clothes, human hands, upright humanoid posture or lightsabers. Identity sheets control fur/faces only, not their upright source pose.
+
+INSTRUMENT OWNERSHIP:
+Luchik owns ONLY the low black controller with FOUR BLUE square pads in a 2x2 grid. Ryzhik owns ONLY the separate low black controller with THREE AMBER circular pads. Each is about a cat's body length. Lightweight breakaway stage housings, not indestructible metal blocks. Keep each prop with its original owner. No exchanges or replacement by a generic guitar.
+
+LOCATION / START:
+Exact H28B Imperial disco hangar: graphite ribs, white wall strips, dark satin floor and Imperial medallion, amber guide lanes, cyan/magenta light, rear space opening, parked shuttle deep frame-right. Neutral-white face/fur fill. Start with both performers and their INTACT own instruments in the preparation shown by @Image5; no entrance, replay of the concert or long frozen opening. Separate empty impact lanes with clear space between them; only this pair is foreground. Shoulder straps are already released for swings.
+
+ACTION:
+Luchik first: from a natural four-legged crouch he makes a short forceful forward pounce, both front paws landing on his OWN blue controller. The lid visibly caves and splits along its seam at paw contact; two blue pad plates pop loose to the sides. He steps back onto clear floor. Ryzhik then gives his OWN amber controller a separate short pounce and emphatic two-paw shove; its rim cracks, three-pad lid separates from the housing and one amber pad rolls a short distance. Keep all motion recognisably feline. The broken housings stay visibly broken; merely switching lights off does not fulfil the action.
+Give each performer a complete, unhurried but energetic preparation, impact and reaction in turn. Allow roughly twelve seconds each, then a short shared reaction; use extra time for expressive performance, not extra smashes or slow motion. The second performer reacts rhythmically while awaiting their turn; natural connecting movements are free. Committed oversized rock-star energy, solemn concentration rather than mugging. Real-time decisive movement, no slow motion or pauses waiting for an instruction.
+
+CAMERA / PHYSICS:
+Low cat-eye-level medium-wide shot showing all paws and both controllers. A restrained lateral follow can favour the active performer. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
+
+END STATE:
+Both cats remain unharmed and quadrupedal behind their own visibly broken blue and amber controllers, alert and solemn; a tiny self-satisfied tail flick closes the joke. End after a brief proud deadpan reaction, no long hold.
+
+AUDIO:
+Distinct physical impact, casing crack, falling parts and hangar reverb, a short original rock-coda tail. No dialogue, lyrics, recognisable copyrighted melody or crowd cutaway. Final chosen music is added in editing.
+
+NEGATIVE:
+Identity drift, swapped props, invisible impact, intact instrument after smash, spontaneous damage, exploding instruments, extra limbs, fused fingers, extra cast, violent fight, slow motion, repeated strikes, fake static zoom, captions or watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

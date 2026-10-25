@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T09:29:18.695660Z",
+  "updated_at": "2026-10-25T13:16:17.677438Z",
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "authority_note": "Topview task-input provenance only; canonical story/prompt authority remains Drive.",
   "scenes": {
@@ -262,6 +262,34 @@
         "fps": "30/1",
         "time_seconds": 29.966666666666665,
         "extraction": "ffmpeg select=eq(n\\,899),1280x720,unmodified decoded frame"
+      },
+      "H28-horizontal-lift": {
+        "path": "references/scenes/scene-28/H28-horizontal-lift.png",
+        "sha256": "62a77088f1b2b18bcc43ddfb7f004e6063df086e08fb9a8a54d71ef14ae072aa",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/full/serega.jpg",
+            "references/full/yulya.jpg",
+            "references/scenes/scene-28/H28B-disco.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z"
+        }
+      },
+      "F28-two-hand-face-fan": {
+        "path": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+        "sha256": "7388672175f216aa2f2fec142456d8d4782dfbc15e828d93c5eb6f5c07aa108c",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/full/serega.jpg",
+            "references/full/yulya.jpg",
+            "references/scenes/scene-28/H28B-disco.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z"
+        }
       }
     },
     "44": {
@@ -311,6 +339,100 @@
       "location_style_source": "references/scenes/scene-27/S27-Image5-topview-source.png",
       "owner_approval": "not_recorded",
       "assistant_qc": "visual inspection passed for staging roles"
+    },
+    "51": {
+      "S51A-own-instrument-setup": {
+        "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+        "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/scenes/scene-28/H28B-disco.png",
+            "references/full/serega.jpg",
+            "references/full/yulya.jpg",
+            "references/scenes/scene-49/S49A-lead-and-bass.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z"
+        }
+      },
+      "S51B-own-instrument-setup": {
+        "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+        "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/scenes/scene-28/H28B-disco.png",
+            "references/full/pasha.jpg",
+            "references/full/sasha.jpg",
+            "references/scenes/scene-49/S49B-rhythm-instruments.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z"
+        }
+      },
+      "S51C-own-instrument-setup": {
+        "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+        "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/scenes/scene-28/H28B-disco.png",
+            "references/full/artem.jpg",
+            "references/full/ilyusha.jpg",
+            "references/scenes/scene-49/S49B-rhythm-instruments.png",
+            "references/scenes/scene-49/S49C-drums-wind-bass.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z",
+          "correction": "Second generated version: remove spare sticks, neutral serious face. Original generation retained outside active refs."
+        }
+      },
+      "S51D-own-instrument-setup": {
+        "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+        "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/scenes/scene-28/H28B-disco.png",
+            "references/full/lesha.jpg",
+            "references/full/vitalik.jpg",
+            "references/scenes/scene-49/S49C-drums-wind-bass.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z"
+        }
+      },
+      "S51E-own-instrument-setup": {
+        "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+        "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/scenes/scene-28/H28B-disco.png",
+            "references/masha-laguna.webp",
+            "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+            "references/scenes/scene-49/S49D-harp-small-synth.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z"
+        }
+      },
+      "S51F-own-instrument-setup": {
+        "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+        "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
+        "provenance": {
+          "kind": "AI-helper",
+          "generator": "ChatGPT built-in image generation",
+          "source_reference_paths": [
+            "references/scenes/scene-28/H28B-disco.png",
+            "references/luchik.jpg",
+            "references/ryzhik.jpg",
+            "references/scenes/scene-49/S49E-cat-paw-controllers.png"
+          ],
+          "generated_at": "2026-10-25T13:10:48.355886Z"
+        }
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-25T10:48:10.341Z",
+  "updated_at": "2026-10-25T13:10:48.355886Z",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "ready",
   "references": [
@@ -300,7 +300,7 @@
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   },
-  "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
+  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
   "generated_fan_candidates": [
     {
       "variant": 1,
@@ -385,7 +385,7 @@
     }
   ],
   "selection_status": "owner_selected_variant_2_20261017",
-  "launch_gate": "Owner25Oct: follow live queue after story priorities, then63→49→50→51→28 A1–A12. Skip only genuinely blocked items. Existing A1/A2 must terminate and pass review before their authorized R2 attempts. A3 requires fresh A2-R2 frame; A12 requires A11 video; 51B requires 51A video. Wan versions are unselected alternatives. No implicit approval or extra retries.",
+  "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
   "previous_remaining_before_20261020": [
     "Owner selection among three archived fan image candidates; then apply selected reference mapping to50A/B and validate READY. No new image generation authorized/needed."
   ],

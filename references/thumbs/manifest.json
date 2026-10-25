@@ -1753,6 +1753,16 @@
    "thumb_bytes": 42426,
    "src_sha256": "e2fc7fa3897846d59e00bc95d657e94ddf802c05330874b1e566d40ccb90d3ce"
   },
+  "references/scenes/scene-28/F28-two-hand-face-fan.png": {
+   "thumb": "references/thumbs/scenes/scene-28/F28-two-hand-face-fan.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2150314,
+   "thumb_bytes": 35302,
+   "src_sha256": "7388672175f216aa2f2fec142456d8d4782dfbc15e828d93c5eb6f5c07aa108c"
+  },
   "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png": {
    "thumb": "references/thumbs/scenes/scene-28/G28-full-ensemble-Alesya-v2.png.webp",
    "width": 640,
@@ -1772,6 +1782,16 @@
    "src_bytes": 2412133,
    "thumb_bytes": 49826,
    "src_sha256": "443e5c60fd36be73006b53755def99ff6c2c18b2150777a595deeda89977375b"
+  },
+  "references/scenes/scene-28/H28-horizontal-lift.png": {
+   "thumb": "references/thumbs/scenes/scene-28/H28-horizontal-lift.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2336225,
+   "thumb_bytes": 44388,
+   "src_sha256": "62a77088f1b2b18bcc43ddfb7f004e6063df086e08fb9a8a54d71ef14ae072aa"
   },
   "references/scenes/scene-28/H28A-ceremony.png": {
    "thumb": "references/thumbs/scenes/scene-28/H28A-ceremony.png.webp",
@@ -2342,6 +2362,66 @@
    "src_bytes": 2682585,
    "thumb_bytes": 62012,
    "src_sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb"
+  },
+  "references/scenes/scene-51/S51A-own-instrument-setup.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51A-own-instrument-setup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2359633,
+   "thumb_bytes": 46366,
+   "src_sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00"
+  },
+  "references/scenes/scene-51/S51B-own-instrument-setup.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51B-own-instrument-setup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2340353,
+   "thumb_bytes": 49134,
+   "src_sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e"
+  },
+  "references/scenes/scene-51/S51C-own-instrument-setup.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51C-own-instrument-setup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2405762,
+   "thumb_bytes": 57982,
+   "src_sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931"
+  },
+  "references/scenes/scene-51/S51D-own-instrument-setup.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51D-own-instrument-setup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2413841,
+   "thumb_bytes": 50768,
+   "src_sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d"
+  },
+  "references/scenes/scene-51/S51E-own-instrument-setup.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51E-own-instrument-setup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2415049,
+   "thumb_bytes": 52174,
+   "src_sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e"
+  },
+  "references/scenes/scene-51/S51F-own-instrument-setup.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51F-own-instrument-setup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2392746,
+   "thumb_bytes": 49320,
+   "src_sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849"
   },
   "references/scenes/scene-52/S52-start-from-S44-20261023.jpg": {
    "thumb": "references/thumbs/scenes/scene-52/S52-start-from-S44-20261023.jpg.webp",

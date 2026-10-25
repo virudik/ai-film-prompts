@@ -1,0 +1,622 @@
+{
+  "updated_at": "2026-10-25T13:10:48.355886Z",
+  "master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
+  "copyable_prompts": 114,
+  "new_images": 8,
+  "new_video_submissions": 0,
+  "pairs": [
+    {
+      "part": "51A",
+      "performers": [
+        "Serega",
+        "Yulia"
+      ],
+      "pose": "references/scenes/scene-51/S51A-own-instrument-setup.png"
+    },
+    {
+      "part": "51B",
+      "performers": [
+        "Pasha",
+        "Sasha"
+      ],
+      "pose": "references/scenes/scene-51/S51B-own-instrument-setup.png"
+    },
+    {
+      "part": "51C",
+      "performers": [
+        "Artem",
+        "Ilyusha"
+      ],
+      "pose": "references/scenes/scene-51/S51C-own-instrument-setup.png"
+    },
+    {
+      "part": "51D",
+      "performers": [
+        "Lesha",
+        "Vitalik"
+      ],
+      "pose": "references/scenes/scene-51/S51D-own-instrument-setup.png"
+    },
+    {
+      "part": "51E",
+      "performers": [
+        "Masha Laguna",
+        "Alesya"
+      ],
+      "pose": "references/scenes/scene-51/S51E-own-instrument-setup.png"
+    },
+    {
+      "part": "51F",
+      "performers": [
+        "Luchik",
+        "Ryzhik"
+      ],
+      "pose": "references/scenes/scene-51/S51F-own-instrument-setup.png"
+    }
+  ],
+  "prompts": [
+    {
+      "label": "28 A11",
+      "old_sha256": "06097b50e8c62f3e7218a790edd829eb51ee0acc6212c7a6c21808a77f1ab2c0",
+      "new_sha256": "b1d5559ca6fa5955ffee8849a241a2c9ba72e76383b73b273f0cb4d126497982",
+      "characters": 4941
+    },
+    {
+      "label": "28 A12",
+      "old_sha256": "204076574666f7a095cb7ddc21347e83c215f8b41d8958da147f3bc846163379",
+      "new_sha256": "b3a0294e37d06e4e6c8414fc0f9b5218581525d3bb4ffe540ad3820636c4b68c",
+      "characters": 3993
+    },
+    {
+      "label": "28 B11",
+      "old_sha256": "479d519a36257622a6429feb7ed9d279c11d3112967c1dfd0987520ed3a8bb68",
+      "new_sha256": "a92628127a87fdb8e2e08a319aab28862a6d6ae2cb34852bbbabab6a84c9eaf5",
+      "characters": 5765
+    },
+    {
+      "label": "51A",
+      "old_sha256": "dbcba8d77020836c536c19e6e5c1665633a2e5a57f75447e253350157a6ca110",
+      "new_sha256": "1972b823a52e91c15b253785aa7c243b71ed059f409ed88c256fb465a9f7efc1",
+      "characters": 3900
+    },
+    {
+      "label": "51B",
+      "old_sha256": "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
+      "new_sha256": "59bea6beabb716e5426a8485684bb8ac3c68537b63e1d2ca180f733ad7a2b2ec",
+      "characters": 3936
+    },
+    {
+      "label": "51C",
+      "old_sha256": null,
+      "new_sha256": "8617541232b986ea5830fe952dfad1fc184fed6dfc18c6572c14a52b49c37a2c",
+      "characters": 4222
+    },
+    {
+      "label": "51D",
+      "old_sha256": null,
+      "new_sha256": "739bacf170d1f83a624b8f1ba61a1339f2669e90d345d02ae81d202d387673c2",
+      "characters": 4047
+    },
+    {
+      "label": "51E",
+      "old_sha256": null,
+      "new_sha256": "2bd2393ac915a40ee5b3df0186e39acf97796a5606509053339bff6a85856002",
+      "characters": 4232
+    },
+    {
+      "label": "51F",
+      "old_sha256": null,
+      "new_sha256": "822a56de5c8a7387915f3f2dc9e89318c8cd965ec8d2766893e6f04ec4c85e31",
+      "characters": 4290
+    },
+    {
+      "label": "51 · Wan 3.0 часть 1",
+      "old_sha256": null,
+      "new_sha256": "0d995b8660d9e482233fba57fe22cdf67a553ddd6ea14a55eed8b02ce82aedcd",
+      "characters": 3963
+    },
+    {
+      "label": "51 · Wan 3.0 часть 2",
+      "old_sha256": null,
+      "new_sha256": "66a1bb4616462f6b4b72bad90259eba12df1d6ea5b61865009b36d672569af41",
+      "characters": 3999
+    },
+    {
+      "label": "51 · Wan 3.0 часть 3",
+      "old_sha256": null,
+      "new_sha256": "26a709bf7ebc1a84a69e8ba3180889eae4f77b8af35d334174986d3b870795ee",
+      "characters": 4285
+    },
+    {
+      "label": "51 · Wan 3.0 часть 4",
+      "old_sha256": null,
+      "new_sha256": "ccda43915d4d1d67da0516e1eb652ebe20039f1ca64069b4f9be9c873daf96d1",
+      "characters": 4110
+    },
+    {
+      "label": "51 · Wan 3.0 часть 5",
+      "old_sha256": null,
+      "new_sha256": "d45dd1ca036966d6aa99d98c60ba531db8bf0c46f67ca09f9d36cd96e91e5c9e",
+      "characters": 4295
+    },
+    {
+      "label": "51 · Wan 3.0 часть 6",
+      "old_sha256": null,
+      "new_sha256": "8327351dcf106cfb72ad0519fd692f07fd365411f3a5c7d2c5ced6dcbcf6fa97",
+      "characters": 4353
+    }
+  ],
+  "superseded_unsubmitted_queue": [
+    {
+      "id": "S51A",
+      "scene_id": 51,
+      "prompt_id": "S51A",
+      "canonical_block_label": "51A",
+      "canonical_prompt_sha256": "dbcba8d77020836c536c19e6e5c1665633a2e5a57f75447e253350157a6ca110",
+      "normalized_prompt_sha256": "c8c003f71027fa616ebaac1af42408bb297cbbd00973fe4793a9d338f09d925f",
+      "priority": 1.4,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
+      "previous_prompt_sha256": [
+        "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
+        "c5bf6d9c8fa066f6159f5e99a7d47d93a0ed2db69bd6aeb492e385c3cf8084f4",
+        "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070"
+      ],
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "owner_review_required_after_item": null,
+      "blocker": null,
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "authorization_before_20261023_expansion": null,
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "previous_gates_20261023": {
+        "depends_on_submitted": [
+          "B7",
+          "B8",
+          "B9",
+          "B3",
+          "S49F",
+          "S50A",
+          "S50B",
+          "S43-R1-20261017",
+          "S44-R1-20261017",
+          "S36-S36",
+          "S37-SEED20-P2",
+          "S39-SEED20-P2",
+          "S40-SEED20-P2",
+          "S41",
+          "S42-SEED20-P2",
+          "S47-SEED20-P2",
+          "S48-SEED20-P2",
+          "S52-SEED20-P2",
+          "S53-SEED20-P2",
+          "S54",
+          "S28-A1-TEST-20261017",
+          "S57-SEED20-P2",
+          "S58-SEED20-P2"
+        ],
+        "depends_on_completed": [],
+        "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+        "state": "blocked_test_review"
+      },
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "priority_before_20261023_primary": 618,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
+    },
+    {
+      "id": "S51B",
+      "scene_id": 51,
+      "prompt_id": "S51B",
+      "canonical_block_label": "51B",
+      "canonical_prompt_sha256": "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
+      "normalized_prompt_sha256": "33e7c19e3382c1779ea2509bbf2b07c9597ef414c246e057061a57ca26fbb06f",
+      "priority": 1.41,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S51A"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
+        },
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S51A",
+          "source_requirement": "Actual new51A result ending, intact instruments and two-handed neck grip; save provenance, trim, SHA256 and continuity QC. Submission or pose helper alone is insufficient."
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "previous_prompt_sha256": [
+        "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
+        "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf",
+        "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf"
+      ],
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
+      "owner_review_required_after_item": null,
+      "blocker": "Actual new51A result ending, saved and QC checked, is still required.",
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "depends_on_completed": [
+        "S51A"
+      ],
+      "launch_readiness": "blocked_continuity",
+      "authorization_before_20261023_expansion": null,
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "previous_gates_20261023": {
+        "depends_on_submitted": [
+          "B7",
+          "B8",
+          "B9",
+          "B3",
+          "S51A",
+          "S43-R1-20261017",
+          "S44-R1-20261017",
+          "S36-S36",
+          "S37-SEED20-P2",
+          "S39-SEED20-P2",
+          "S40-SEED20-P2",
+          "S41",
+          "S42-SEED20-P2",
+          "S47-SEED20-P2",
+          "S48-SEED20-P2",
+          "S52-SEED20-P2",
+          "S53-SEED20-P2",
+          "S54",
+          "S28-A1-TEST-20261017",
+          "S57-SEED20-P2",
+          "S58-SEED20-P2"
+        ],
+        "depends_on_completed": [
+          "S51A"
+        ],
+        "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency. Also requires the actual QC-checked ending of new51A, not merely submitted51A.",
+        "state": "blocked_test_review"
+      },
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "priority_before_20261023_primary": 619,
+      "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
+    }
+  ],
+  "superseded_scene51_mapping": [
+    {
+      "prompt": "51A",
+      "status": "READY",
+      "canonical_prompt_sha256": "dbcba8d77020836c536c19e6e5c1665633a2e5a57f75447e253350157a6ca110",
+      "characters": 4889,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
+      "normalized_prompt_sha256": "c8c003f71027fa616ebaac1af42408bb297cbbd00973fe4793a9d338f09d925f",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "authorized_inputs_available",
+      "previous_prompt_sha256_before_20261025": "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070",
+      "queue_item_id": "S51A"
+    },
+    {
+      "prompt": "51B",
+      "status": "DRAFT",
+      "canonical_prompt_sha256": "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
+      "characters": 5030,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
+        },
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S51A",
+          "source_requirement": "Actual new51A result ending, intact instruments and two-handed neck grip; save provenance, trim, SHA256 and continuity QC. Submission or pose helper alone is insufficient."
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
+      "normalized_prompt_sha256": "33e7c19e3382c1779ea2509bbf2b07c9597ef414c246e057061a57ca26fbb06f",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_inputs",
+      "previous_prompt_sha256_before_20261025": "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
+      "queue_item_id": "S51B"
+    },
+    {
+      "prompt": "51 · Wan 3.0",
+      "canonical_block_label": "51 · Wan 3.0",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": null,
+      "canonical_prompt_sha256": "36338e834d59c4e9e3546521949310dbb4d8332b00811ad0b25b9458073ea3ab",
+      "normalized_prompt_sha256": "e941ad02a8a7421fd567de9c22f17f3fbc5b43484ed1255825d0c753af76f10d",
+      "characters": 5579,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "unselected_alternative",
+      "status": "READY",
+      "previous_prompt_sha256_before_20261025": "e227f6f3892d6d186ba5ef5d567a0f51f592564702a439e2f6fe1140da4c6327"
+    }
+  ],
+  "image_qc_owner_approval": false,
+  "video_quality": "Not rendered; prompt and still-reference QC only.",
+  "validation_status": "passed",
+  "image_generation_attempts": 10,
+  "final_new_reference_files": 8,
+  "image_attempt_note": "Eight new subjects, one output moderation failure for percussion setup, one successful correction of percussion setup. No Topview credit spending.",
+  "validation": {
+    "unit_tests": 253,
+    "unit_result": "passed",
+    "master_health": "ok",
+    "master_scenes": 26,
+    "master_prompt_blocks": 114,
+    "unchanged_original_prompt_blocks": 99,
+    "site_contract": "passed",
+    "thumbnails_current": 275,
+    "mapping_and_hash_checks": "passed;8 revised/new queue entries;all4scene mappings",
+    "publication": "pending_readback"
+  }
+}

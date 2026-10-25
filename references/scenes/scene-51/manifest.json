@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-25T10:48:10.341Z",
-  "status": "DRAFT",
+  "updated_at": "2026-10-25T13:10:48.355886Z",
+  "status": "READY",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "references": [
     {
@@ -19,50 +19,6 @@
       "path": "references/full/yulya.jpg",
       "role": "identity",
       "qc": "approved individual original"
-    },
-    {
-      "path": "references/full/pasha.jpg",
-      "role": "identity",
-      "qc": "approved individual original"
-    },
-    {
-      "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
-      "role": "ensemble_composition_helper",
-      "qc": "approved Scene28 group reference; not a slot"
-    },
-    {
-      "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
-      "asset_id": "references/scenes/scene-51/S51-pre-impact-pose.png",
-      "role": "pose_composition_helper",
-      "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
-      "bytes": 2682585,
-      "dimensions": [
-        1672,
-        941
-      ],
-      "media_type": "image",
-      "owner_approval": "not_recorded",
-      "assistant_qc": {
-        "status": "passed",
-        "checked_at": "2026-10-16T23:07:28.783738+00:00",
-        "evidence": "Three separate intact props, all feet visible, separated wind-up zones, matching original outfits and H28B architecture. Pose helper ONLY: individual originals override facial details; S49A/S49B instrument photos override this helper's prop/body/strings variation. No owner approval inferred."
-      },
-      "provenance": {
-        "kind": "AI-helper",
-        "generator": "ChatGPT built-in image generation",
-        "source_reference_paths": [
-          "references/scenes/scene-28/H28B-disco.png",
-          "references/full/serega.jpg",
-          "references/full/yulya.jpg",
-          "references/full/pasha.jpg",
-          "references/scenes/scene-49/S49A-lead-and-bass.png"
-        ],
-        "prompt": "Three original foreground performers in exact H28B: Serega left, Yulya center, Pasha right, separate theatrical pre-impact wind-ups holding intact blue lead guitar, violet bass and bronze gravibass above empty floor."
-      },
-      "applies_to": [
-        "51A",
-        "51B"
-      ]
     },
     {
       "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
@@ -97,6 +53,56 @@
       ]
     },
     {
+      "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+      "asset_id": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+      "role": "pose_composition_helper",
+      "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
+      "bytes": 2359633,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_with_authority_constraints",
+        "checked_at": "2026-10-25T13:10:48.355886Z",
+        "evidence": "Two correct owners and recognisable intact assigned props, appropriate scale, clear contact setup and separate lanes. Individual sheets/prop photos remain authority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/serega.jpg",
+          "references/full/yulya.jpg",
+          "references/scenes/scene-49/S49A-lead-and-bass.png"
+        ],
+        "generated_at": "2026-10-25T13:10:48.355886Z"
+      },
+      "applies_to": [
+        "51A",
+        "51 · Wan 3.0 часть 1"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51A-own-instrument-setup.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
+    },
+    {
+      "path": "references/full/pasha.jpg",
+      "role": "identity",
+      "qc": "approved individual original"
+    },
+    {
+      "path": "references/full/sasha.jpg",
+      "asset_id": "references/full/sasha.jpg",
+      "role": "identity",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102"
+    },
+    {
       "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
       "asset_id": "references/scenes/scene-49/S49B-rhythm-instruments.png",
       "role": "prop",
@@ -129,11 +135,68 @@
       ]
     },
     {
-      "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
-      "asset_id": "references/scenes/scene-51/S51-neck-grip-windup.png",
-      "role": "smash_grip_pose",
-      "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
-      "bytes": 2547772,
+      "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+      "asset_id": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+      "role": "pose_composition_helper",
+      "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
+      "bytes": 2340353,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_with_authority_constraints",
+        "checked_at": "2026-10-25T13:10:48.355886Z",
+        "evidence": "Two correct owners and recognisable intact assigned props, appropriate scale, clear contact setup and separate lanes. Individual sheets/prop photos remain authority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/pasha.jpg",
+          "references/full/sasha.jpg",
+          "references/scenes/scene-49/S49B-rhythm-instruments.png"
+        ],
+        "generated_at": "2026-10-25T13:10:48.355886Z"
+      },
+      "applies_to": [
+        "51B",
+        "51 · Wan 3.0 часть 2"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51B-own-instrument-setup.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
+    },
+    {
+      "path": "references/full/artem.jpg",
+      "asset_id": "references/full/artem.jpg",
+      "role": "identity",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+    },
+    {
+      "path": "references/full/ilyusha.jpg",
+      "asset_id": "references/full/ilyusha.jpg",
+      "role": "identity",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+    },
+    {
+      "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+      "asset_id": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+      "role": "prop",
+      "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e"
+    },
+    {
+      "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+      "asset_id": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+      "role": "pose_composition_helper",
+      "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
+      "bytes": 2405762,
       "dimensions": [
         1672,
         941
@@ -142,40 +205,210 @@
       "owner_approval": "not_recorded",
       "assistant_qc": {
         "status": "passed",
-        "checked_at": "2026-10-17T01:00:12.422477+00:00",
-        "evidence": "All3 original adults/costumes, intact assigned blue/violet/bronze instruments. Each both hands on narrow neck, heavy body raised, headstock below hands; clear non-overlapping lanes and floor. No damage yet."
+        "checked_at": "2026-10-25T13:16:17.677438Z",
+        "evidence": "Correct two musicians, original outfits, three amber console rings, blue drum kit. Revision removes spare snare sticks and Artem smile; Ilyusha holds exactly two sticks, all props intact. Individual identity and prop sheets remain authority."
       },
       "provenance": {
         "kind": "AI-helper",
         "generator": "ChatGPT built-in image generation",
         "source_reference_paths": [
-          "references/full/serega.jpg",
-          "references/full/yulya.jpg",
-          "references/full/pasha.jpg",
-          "references/scenes/scene-49/S49A-lead-and-bass.png",
-          "references/scenes/scene-49/S49B-rhythm-instruments.png"
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/artem.jpg",
+          "references/full/ilyusha.jpg",
+          "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "references/scenes/scene-49/S49C-drums-wind-bass.png"
         ],
-        "prompt": "Create one photoreal 16:9 cinematic STAGED ROCK INSTRUMENT-SMASH WIND-UP pose reference, all three instruments still INTACT. Exact H28B shown in the two instrument reference images4/5, same hangar/floor/emblem/shuttle right. Exactly three adults: Serega LEFT identityimage1 purple robe, Yulya CENTER identityimage2 blackarmor/cape, Pasha RIGHT identityimage3 navytunic. Preserve exact faces/builds/hair/clothes. Image4 exact Serega blue ring SIX-string guitar and Yulya silver-violet FOUR-string bass; image5 ONLY Pasha round bronze FOUR amber-string bass. CRITICAL HAND GRIP: both hands of EACH musician clasp the NARROW WOOD/METAL NECK/FRETBOARD near the HEADSTOCK, hands adjacent with small gap, thumbs wrapped securely. The headstock sticks out BELOW their lower hand. The long neck extends UP diagonally from their hands, and the LARGE HEAVY GUITAR BODY sits HIGH ABOVE/BEHIND that person's shoulder, ready to arc downward BODY-FIRST into a clear floor patch. Instruments are INVERTED relative to playing, NOT held by their bodies, NOT normal strumming grip, NO hand touching the wide body. Show neck through both hands clearly. No shoulder straps around neck during swing. Three non-overlapping swing lanes, sturdy wide planted stance, space between people, floor impact zones empty, no crowd/cats here. All instruments entirely visible with top margin, no cropping, no impact/debris yet. Confident theatrical faces, no fighting anyone. The purpose is accurate two-handed neck grip for a rock stage prop smash. Single wide full-body frame, neutralface light, existingcyan/magenta lights, real texture, no text/labels/panels/bars."
+        "generated_at": "2026-10-25T13:10:48.355886Z",
+        "correction": "Second generated version: remove spare sticks, neutral serious face. Original generation retained outside active refs."
       },
       "applies_to": [
-        "51A",
-        "51B"
-      ]
+        "51C",
+        "51 · Wan 3.0 часть 3"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51C-own-instrument-setup.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
+    },
+    {
+      "path": "references/full/lesha.jpg",
+      "asset_id": "references/full/lesha.jpg",
+      "role": "identity",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
+    },
+    {
+      "path": "references/full/vitalik.jpg",
+      "asset_id": "references/full/vitalik.jpg",
+      "role": "identity",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    },
+    {
+      "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+      "asset_id": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+      "role": "pose_composition_helper",
+      "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
+      "bytes": 2413841,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_with_authority_constraints",
+        "checked_at": "2026-10-25T13:10:48.355886Z",
+        "evidence": "Two correct owners and recognisable intact assigned props, appropriate scale, clear contact setup and separate lanes. Individual sheets/prop photos remain authority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/lesha.jpg",
+          "references/full/vitalik.jpg",
+          "references/scenes/scene-49/S49C-drums-wind-bass.png"
+        ],
+        "generated_at": "2026-10-25T13:10:48.355886Z"
+      },
+      "applies_to": [
+        "51D",
+        "51 · Wan 3.0 часть 4"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51D-own-instrument-setup.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
+    },
+    {
+      "path": "references/masha-laguna.webp",
+      "asset_id": "references/masha-laguna.webp",
+      "role": "identity",
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0"
+    },
+    {
+      "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "asset_id": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "role": "identity",
+      "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f"
+    },
+    {
+      "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
+      "asset_id": "references/scenes/scene-49/S49D-harp-small-synth.png",
+      "role": "prop",
+      "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463"
+    },
+    {
+      "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+      "asset_id": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+      "role": "pose_composition_helper",
+      "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
+      "bytes": 2415049,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_with_authority_constraints",
+        "checked_at": "2026-10-25T13:10:48.355886Z",
+        "evidence": "Two correct owners and recognisable intact assigned props, appropriate scale, clear contact setup and separate lanes. Individual sheets/prop photos remain authority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/masha-laguna.webp",
+          "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "references/scenes/scene-49/S49D-harp-small-synth.png"
+        ],
+        "generated_at": "2026-10-25T13:10:48.355886Z"
+      },
+      "applies_to": [
+        "51E",
+        "51 · Wan 3.0 часть 5"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51E-own-instrument-setup.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
+    },
+    {
+      "path": "references/luchik.jpg",
+      "asset_id": "references/luchik.jpg",
+      "role": "identity",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+    },
+    {
+      "path": "references/ryzhik.jpg",
+      "asset_id": "references/ryzhik.jpg",
+      "role": "identity",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+    },
+    {
+      "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+      "asset_id": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+      "role": "prop",
+      "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5"
+    },
+    {
+      "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+      "asset_id": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+      "role": "pose_composition_helper",
+      "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
+      "bytes": 2392746,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_with_authority_constraints",
+        "checked_at": "2026-10-25T13:10:48.355886Z",
+        "evidence": "Two correct owners and recognisable intact assigned props, appropriate scale, clear contact setup and separate lanes. Individual sheets/prop photos remain authority. Natural quadruped domestic cats, four blue squares and three amber circles; no human hands."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/luchik.jpg",
+          "references/ryzhik.jpg",
+          "references/scenes/scene-49/S49E-cat-paw-controllers.png"
+        ],
+        "generated_at": "2026-10-25T13:10:48.355886Z"
+      },
+      "applies_to": [
+        "51F",
+        "51 · Wan 3.0 часть 6"
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51F-own-instrument-setup.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending_readback"
+      }
     }
   ],
   "approved": [],
-  "rejected": [
-    "Wrong generated people and new arena versions, prohibited"
-  ],
-  "remaining": [
-    "Actual new51A result ending for51B; preserve intact instruments and two-handed neck grips, provenance/SHA/continuity QC required."
-  ],
+  "rejected": [],
+  "remaining": [],
   "prompt_reference_mapping": [
     {
       "prompt": "51A",
+      "canonical_block_label": "51A",
       "status": "READY",
-      "canonical_prompt_sha256": "dbcba8d77020836c536c19e6e5c1665633a2e5a57f75447e253350157a6ca110",
-      "characters": 4889,
+      "canonical_prompt_sha256": "1972b823a52e91c15b253785aa7c243b71ed059f409ed88c256fb465a9f7efc1",
+      "normalized_prompt_sha256": "fe2620006ff75d242faa1b86cbcdcbd1b306219a6f3673b47492e319549177d9",
+      "characters": 3900,
       "slots": [
         {
           "slot": "@Image1",
@@ -197,50 +430,30 @@
         },
         {
           "slot": "@Image4",
-          "path": "references/full/pasha.jpg",
-          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
           "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
           "required": true
         },
         {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
-          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
-          "required": true
-        },
-        {
-          "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
-          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
-          "required": true
-        },
-        {
-          "slot": "@Image8",
-          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
-          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+          "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
           "required": true
         }
       ],
-      "previous_prompt_sha256_before_20261020": "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
-      "normalized_prompt_sha256": "c8c003f71027fa616ebaac1af42408bb297cbbd00973fe4793a9d338f09d925f",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
-      "previous_prompt_sha256_before_20261025": "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070",
       "queue_item_id": "S51A"
     },
     {
-      "prompt": "51B",
-      "status": "DRAFT",
-      "canonical_prompt_sha256": "832c3251dd7a355faab70444f25945c57406d1792e9b4efa0defb03d33de334f",
-      "characters": 5030,
+      "prompt": "51 · Wan 3.0 часть 1",
+      "canonical_block_label": "51 · Wan 3.0 часть 1",
+      "status": "READY",
+      "canonical_prompt_sha256": "0d995b8660d9e482233fba57fe22cdf67a553ddd6ea14a55eed8b02ce82aedcd",
+      "normalized_prompt_sha256": "409a724f20e5ba8938772c27f9f3914992f6538c2b4a1e0a8ec928ffa383fcc0",
+      "characters": 3963,
       "slots": [
         {
           "slot": "@Image1",
@@ -262,56 +475,74 @@
         },
         {
           "slot": "@Image4",
-          "path": "references/full/pasha.jpg",
-          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
           "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
           "required": true
         },
         {
-          "slot": "@Image6",
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+          "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
+          "required": true
+        }
+      ],
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "unselected_alternative"
+    },
+    {
+      "prompt": "51B",
+      "canonical_block_label": "51B",
+      "status": "READY",
+      "canonical_prompt_sha256": "59bea6beabb716e5426a8485684bb8ac3c68537b63e1d2ca180f733ad7a2b2ec",
+      "normalized_prompt_sha256": "f780d76ce7fd613add43ce08b7ff408573c363d133a37fdfaa0101c92564c10e",
+      "characters": 3936,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
           "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
           "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
           "required": true
         },
         {
-          "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
-          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+          "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
           "required": true
-        },
-        {
-          "slot": "@Image8",
-          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
-          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
-          "required": true
-        },
-        {
-          "slot": "@Video1",
-          "required": true,
-          "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
-          "source_item_id": "S51A",
-          "source_requirement": "Actual new51A result ending, intact instruments and two-handed neck grip; save provenance, trim, SHA256 and continuity QC. Submission or pose helper alone is insufficient."
         }
       ],
-      "previous_prompt_sha256_before_20261020": "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
-      "normalized_prompt_sha256": "33e7c19e3382c1779ea2509bbf2b07c9597ef414c246e057061a57ca26fbb06f",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "blocked_inputs",
-      "previous_prompt_sha256_before_20261025": "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
+      "launch_readiness": "authorized_inputs_available",
       "queue_item_id": "S51B"
     },
     {
-      "prompt": "51 · Wan 3.0",
-      "canonical_block_label": "51 · Wan 3.0",
+      "prompt": "51 · Wan 3.0 часть 2",
+      "canonical_block_label": "51 · Wan 3.0 часть 2",
+      "status": "READY",
+      "canonical_prompt_sha256": "66a1bb4616462f6b4b72bad90259eba12df1d6ea5b61865009b36d672569af41",
+      "normalized_prompt_sha256": "4b22e86b5bc31e4182931d54d6dc5060990641e4e28d09eabccd1b09b65cda74",
+      "characters": 3999,
       "slots": [
         {
           "slot": "@Image1",
@@ -321,66 +552,407 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/full/yulya.jpg",
-          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
-          "required": true
-        },
-        {
-          "slot": "@Image4",
           "path": "references/full/pasha.jpg",
           "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
           "required": true
         },
         {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
-          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "slot": "@Image3",
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
           "required": true
         },
         {
-          "slot": "@Image6",
+          "slot": "@Image4",
           "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
           "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
           "required": true
         },
         {
-          "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
-          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
-          "required": true
-        },
-        {
-          "slot": "@Image8",
-          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
-          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+          "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
           "required": true
         }
       ],
-      "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "36338e834d59c4e9e3546521949310dbb4d8332b00811ad0b25b9458073ea3ab",
-      "normalized_prompt_sha256": "e941ad02a8a7421fd567de9c22f17f3fbc5b43484ed1255825d0c753af76f10d",
-      "characters": 5579,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "unselected_alternative",
+      "launch_readiness": "unselected_alternative"
+    },
+    {
+      "prompt": "51C",
+      "canonical_block_label": "51C",
       "status": "READY",
-      "previous_prompt_sha256_before_20261025": "e227f6f3892d6d186ba5ef5d567a0f51f592564702a439e2f6fe1140da4c6327"
+      "canonical_prompt_sha256": "8617541232b986ea5830fe952dfad1fc184fed6dfc18c6572c14a52b49c37a2c",
+      "normalized_prompt_sha256": "ff6bdff53a7d15bf3c596d10f88158e8faeb325c60e03086cd1843cb98bed1c9",
+      "characters": 4222,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+          "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
+          "required": true
+        }
+      ],
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "authorized_inputs_available",
+      "queue_item_id": "S51C"
+    },
+    {
+      "prompt": "51 · Wan 3.0 часть 3",
+      "canonical_block_label": "51 · Wan 3.0 часть 3",
+      "status": "READY",
+      "canonical_prompt_sha256": "26a709bf7ebc1a84a69e8ba3180889eae4f77b8af35d334174986d3b870795ee",
+      "normalized_prompt_sha256": "e9e30d6a212f7c419154a26b0d359685070876ebdcb96dd1a4abe60fbaf5e012",
+      "characters": 4285,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+          "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
+          "required": true
+        }
+      ],
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "unselected_alternative"
+    },
+    {
+      "prompt": "51D",
+      "canonical_block_label": "51D",
+      "status": "READY",
+      "canonical_prompt_sha256": "739bacf170d1f83a624b8f1ba61a1339f2669e90d345d02ae81d202d387673c2",
+      "normalized_prompt_sha256": "b1267f9b736b8b537d8ff2cfc34b6485f1fa3870bf443f12d0838a851ff10d35",
+      "characters": 4047,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/lesha.jpg",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/vitalik.jpg",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+          "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
+          "required": true
+        }
+      ],
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "authorized_inputs_available",
+      "queue_item_id": "S51D"
+    },
+    {
+      "prompt": "51 · Wan 3.0 часть 4",
+      "canonical_block_label": "51 · Wan 3.0 часть 4",
+      "status": "READY",
+      "canonical_prompt_sha256": "ccda43915d4d1d67da0516e1eb652ebe20039f1ca64069b4f9be9c873daf96d1",
+      "normalized_prompt_sha256": "a73025f44ca838e449c9f9ff194e8010a4b3258a6fc48c15718cab0b603f654e",
+      "characters": 4110,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/lesha.jpg",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/vitalik.jpg",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+          "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
+          "required": true
+        }
+      ],
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "unselected_alternative"
+    },
+    {
+      "prompt": "51E",
+      "canonical_block_label": "51E",
+      "status": "READY",
+      "canonical_prompt_sha256": "2bd2393ac915a40ee5b3df0186e39acf97796a5606509053339bff6a85856002",
+      "normalized_prompt_sha256": "ed559b5973ea0c6bab664c61a647dc94cfd6cc96a07d4c914d72c847c8ece9c4",
+      "characters": 4232,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/masha-laguna.webp",
+          "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
+          "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+          "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
+          "required": true
+        }
+      ],
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "authorized_inputs_available",
+      "queue_item_id": "S51E"
+    },
+    {
+      "prompt": "51 · Wan 3.0 часть 5",
+      "canonical_block_label": "51 · Wan 3.0 часть 5",
+      "status": "READY",
+      "canonical_prompt_sha256": "d45dd1ca036966d6aa99d98c60ba531db8bf0c46f67ca09f9d36cd96e91e5c9e",
+      "normalized_prompt_sha256": "01afe2b7455c085367da745196329c6072c84a5e26d1589cd9ca89db2da8a182",
+      "characters": 4295,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/masha-laguna.webp",
+          "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
+          "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+          "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
+          "required": true
+        }
+      ],
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "unselected_alternative"
+    },
+    {
+      "prompt": "51F",
+      "canonical_block_label": "51F",
+      "status": "READY",
+      "canonical_prompt_sha256": "822a56de5c8a7387915f3f2dc9e89318c8cd965ec8d2766893e6f04ec4c85e31",
+      "normalized_prompt_sha256": "1ad2267a94e09afea5365051d5d662af1fa890416a5cc468308087f4a1b23b9f",
+      "characters": 4290,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+          "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+          "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
+          "required": true
+        }
+      ],
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "authorized_inputs_available",
+      "queue_item_id": "S51F"
+    },
+    {
+      "prompt": "51 · Wan 3.0 часть 6",
+      "canonical_block_label": "51 · Wan 3.0 часть 6",
+      "status": "READY",
+      "canonical_prompt_sha256": "8327351dcf106cfb72ad0519fd692f07fd365411f3a5c7d2c5ced6dcbcf6fa97",
+      "normalized_prompt_sha256": "8e8acea762aa82febef2d83d81818e80651d6f13ec46c1a4e3cdd10dca5901ec",
+      "characters": 4353,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+          "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+          "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
+          "required": true
+        }
+      ],
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "unselected_alternative"
     }
   ],
   "site_published": {
     "scene_anchor": "#scene-51",
     "linked_in_master": true,
-    "status": "verified",
-    "verified_at": "2026-10-16T23:11:53.447848+00:00",
-    "evidence": "reports/reference-readiness-2026-10-17.json"
+    "status": "pending_current_revision_readback"
   },
   "invariants": [
     "Identity sheets override invented details",
@@ -388,22 +960,78 @@
     "Safety for cats, tiny Ewok and fans",
     "Only owner-authorized queue; unlimited website, zero credits, one submit per item; no automatic editorial approval."
   ],
-  "canonical_master_sha256": "4e8709401356d7a67d158e4207b405bd0b400a330630062bbf03175ff89abe8e",
-  "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
-  "superseded_pose_note": "Owner17Oct clarified smash grip: former S51-pre-impact-pose body-grip helper retained only as history, no longer an input; neck-grip windup now used.",
-  "launch_gate": "Owner25Oct: follow live queue after story priorities, then63→49→50→51→28 A1–A12. Skip only genuinely blocked items. Existing A1/A2 must terminate and pass review before their authorized R2 attempts. A3 requires fresh A2-R2 frame; A12 requires A11 video; 51B requires 51A video. Wan versions are unselected alternatives. No implicit approval or extra retries.",
-  "video_refs": [
-    {
-      "slot": "@Video1",
-      "required": true,
-      "canonical_role": "previous_part_end",
-      "input_status": "required_not_available",
-      "source_item_id": "S51A",
-      "source_requirement": "Actual new51A result ending, intact instruments and two-handed neck grip; save provenance, trim, SHA256 and continuity QC. Submission or pose helper alone is insufficient."
-    }
-  ],
+  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
+  "last_qc_at": "2026-10-25T13:19:17.275849Z",
+  "superseded_pose_note": "Old three-musician S51 helpers remain in the gallery/history but are not loaded into the six-pair revision.",
+  "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
+  "video_refs": [],
   "prompt_revision_20261025": {
     "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
     "report": "reports/prompt-refresh-2026-10-25.md"
+  },
+  "instrument_ownership": [
+    {
+      "part": "51A",
+      "performers": [
+        "Serega",
+        "Yulia"
+      ],
+      "rule": "Serega owns the black spiked SIX-blue-string lead guitar with circular blue core. Yulia owns the slender silver-violet FOUR-string nacelle bass."
+    },
+    {
+      "part": "51B",
+      "performers": [
+        "Pasha",
+        "Sasha"
+      ],
+      "rule": "Pasha owns the circular bronze FOUR-amber-string gravibass, LEFT prop in @Image4. Sasha owns the cobalt SIX-string twin-rail rhythm guitar, CENTER prop in @Image4. Do not add its third percussion prop."
+    },
+    {
+      "part": "51C",
+      "performers": [
+        "Artem",
+        "Ilyusha"
+      ],
+      "rule": "Artem owns ONLY the THREE amber-ring percussion console at RIGHT of @Image4, tripod and two short sticks. Ilyusha owns ONLY the compact black/blue drum kit at CENTER of @Image5: kick drum, toms/snare and TWO blue-ring cymbals. Other props in those sheets are not present."
+    },
+    {
+      "part": "51D",
+      "performers": [
+        "Lesha",
+        "Vitalik"
+      ],
+      "rule": "Lesha owns the black/brass curved wind synthesizer with turquoise-ring bell, LEFT in @Image4. Vitalik owns the large black bass with FOUR orange-red strings and circular sub-bass resonator, RIGHT in @Image4. The drum kit in the prop sheet is absent."
+    },
+    {
+      "part": "51E",
+      "performers": [
+        "Masha Laguna",
+        "Alesya"
+      ],
+      "rule": "Masha owns the tall silver-blue crystalline harp with SIX anchored strings. Alesya owns the SMALL two-tier amber/violet keyboard on its LOW stand; top keys below her chest. No ordinary full-size piano."
+    },
+    {
+      "part": "51F",
+      "performers": [
+        "Luchik",
+        "Ryzhik"
+      ],
+      "rule": "Luchik owns ONLY the low black controller with FOUR BLUE square pads in a 2x2 grid. Ryzhik owns ONLY the separate low black controller with THREE AMBER circular pads. Each is about a cat's body length. Lightweight breakaway stage housings, not indestructible metal blocks."
+    }
+  ],
+  "revision_20261025_all_twelve": {
+    "report": "reports/music-reference-completion-2026-10-25.md",
+    "parts": 6,
+    "selected_duration_seconds": 15,
+    "wan_alternatives": 6,
+    "video_dependency_required": false,
+    "owner_approval_inferred": false
+  },
+  "previous_site_publication": {
+    "scene_anchor": "#scene-51",
+    "linked_in_master": true,
+    "status": "verified",
+    "verified_at": "2026-10-16T23:11:53.447848+00:00",
+    "evidence": "reports/reference-readiness-2026-10-17.json"
   }
 }
