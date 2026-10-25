@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T08:58:21.396Z",
-  "status": "relay_bridge_prepared_cli_network_blocked",
+  "updated_at": "2026-10-25T20:13:50.950Z",
+  "status": "relay_robot_delivery_test_requested",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -316,7 +316,7 @@
     "code": "scripts/relay_wake.py; robot_telemetry GhNotifier.wake sends one DM after the V2 issue; topview-wake-test.yml channel=relay",
     "config": "ops/relay-wake.json (api_base https://cast.agentrelay.com/v1, address chatgpt@cloud-239644772681871360)",
     "credential": "GitHub secret AGENT_RELAY_TOKEN = agent token of a dedicated robot identity in the owner's Agent Relay workspace (set by the owner; never in chat or canon)",
-    "status": "waiting_for_secret_and_handler_sender_allowlist",
+    "status": "robot_registered_test_requested",
     "test_id": "wake-relay-robot-20261025-01",
     "test_ack": null,
     "open_checks": [
@@ -328,17 +328,17 @@
     "new_submissions": 0
   },
   "robot_relay": {
-    "status": "device_approved_cli_network_blocked",
+    "status": "robot_registered_test_requested",
     "production_ready": false,
     "source_bridge_commit": "a817eaf35efeaac65c94a1dd19d2601b36cc3632",
     "handler_updated_at": "2026-10-25T08:44:59Z",
     "handler_prompt_readback": true,
     "sender_name_planned": "topview-robot",
-    "sender_address": null,
-    "secret_configured": false,
+    "sender_address": "topview-robot@direct",
+    "secret_configured": true,
     "test_acks": [],
     "new_submissions": 0,
-    "blocker": "User approved device. CLI could not complete token exchange because environment network policy blocked agentrelay.com. No robot identity/token created; no bot-origin ACK. Do not request repeated Approve or retry via another transport to bypass the restriction.",
+    "blocker": null,
     "validation": {
       "unit_tests_passed": 253,
       "initial_suite_import_error": "requests missing in isolated runtime; installed locally, previously blocked archive module then passed 5 tests",
@@ -356,8 +356,17 @@
       "status": "blocked_by_environment_network_policy",
       "error": "Network access to \"https://agentrelay.com:443\" was blocked by policy.",
       "stored_cloud_auth": false,
-      "checked_at": "2026-10-25T08:58:21.396Z"
+      "checked_at": "2026-10-25T08:58:21.396Z",
+      "resolved_by": "Owner completed supported device login and dedicated robot registration in local Windows runtime; prior cloud network restriction remains unchanged."
     },
-    "next_action": "Resume in an explicitly permitted runtime after network policy is resolved through the supported environment controls. Then register dedicated robot identity, provision protected GitHub secret, confirm sender and run genuine no-video event test."
+    "next_action": "Observe genuine robot-origin event run and ACK; then duplicate, recovery, and hourly-lock acceptance checks. Interactive chat must not write ACK.",
+    "secret_confirmation": {
+      "source": "owner_statement",
+      "confirmed_at": "2026-10-25T20:13:50.950Z",
+      "validated_by_workflow": false
+    },
+    "sender_verified_at": "2026-10-25T20:13:50.950Z",
+    "sender_workspace_id": "f1070bbe-6780-41b8-85a4-9af98418476c",
+    "test_requested_at": "2026-10-25T20:13:50.950Z"
   }
 }
