@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-25T06:00:08.551Z",
+  "checked_at": "2026-10-25T08:26:42.959Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -12,10 +12,10 @@
       "github_blob": "66488d90286b2ad11981f0b718ef49c0670ff104",
       "mirror_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
       "match": true,
-      "drive_copy_sha256": "ca5edc7e927659364beb4ca1ac5458f3fb2278213a938b3ec3fbacf92fc20e18",
+      "drive_copy_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
       "drive_copy_match": true,
-      "drive_copy_modified_at": "2026-10-24T08:09:33.131Z",
-      "drive_copy_checked_at": "2026-10-24T08:09:53.727Z",
+      "drive_copy_modified_at": "2026-10-25T08:26:34.792Z",
+      "drive_copy_checked_at": "2026-10-25T08:26:42.959Z",
       "drive_copy_note": "Canonical handoff changed 23Oct2026; Drive backup was not refreshed in this launch task."
     },
     "SYNC-RUNBOOK.md": {
@@ -26,7 +26,7 @@
       "drive_copy_sha256": "3bf193dc33bc2cebbae3249f9658e43b9765dfb3e97efccd64a4181a3f498c1e",
       "drive_copy_match": true,
       "drive_copy_modified_at": "2026-10-24T08:09:35.825Z",
-      "drive_copy_checked_at": "2026-10-24T08:09:53.727Z"
+      "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
@@ -36,7 +36,7 @@
       "drive_copy_sha256": "ee45b98ea0aec4cf843375bc2b2e4c435e8122cb223dba9158d40373e1d692da",
       "drive_copy_match": true,
       "drive_copy_modified_at": "2026-10-24T08:09:38.779Z",
-      "drive_copy_checked_at": "2026-10-24T08:09:53.727Z"
+      "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
@@ -46,7 +46,7 @@
       "drive_copy_sha256": "a5776e53da04d3c29256d39098696480e169686d64987ad077cb243e245abeb9",
       "drive_copy_match": true,
       "drive_copy_modified_at": "2026-10-24T08:09:41.321Z",
-      "drive_copy_checked_at": "2026-10-24T08:09:53.727Z"
+      "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
@@ -56,7 +56,7 @@
       "drive_copy_sha256": "ccbdaca872d6fe00c32e1f90f011c16791a6b9d85552512421ef897d996b7c4b",
       "drive_copy_match": true,
       "drive_copy_modified_at": "2026-10-24T08:09:43.959Z",
-      "drive_copy_checked_at": "2026-10-24T08:09:53.727Z"
+      "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
@@ -66,7 +66,7 @@
       "drive_copy_sha256": "21803210ef2491ea3109faa979bc8eba6bfb82bfc6dcbe5de2784cc49034b441",
       "drive_copy_match": true,
       "drive_copy_modified_at": "2026-10-24T08:09:46.510Z",
-      "drive_copy_checked_at": "2026-10-24T08:09:53.727Z"
+      "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
@@ -76,7 +76,7 @@
       "drive_copy_sha256": "d462c5410f5b4f936ece7962d3547d3ef27a90beb9439431ee09168b4ab75df4",
       "drive_copy_match": true,
       "drive_copy_modified_at": "2026-10-24T08:09:48.885Z",
-      "drive_copy_checked_at": "2026-10-24T08:09:53.727Z"
+      "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     }
   },
   "semantic_check": {
