@@ -2543,6 +2543,16 @@
    "thumb_bytes": 26648,
    "src_sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff"
   },
+  "references/scenes/scene-63/S63-admiring-portrait.png": {
+   "thumb": "references/thumbs/scenes/scene-63/S63-admiring-portrait.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2520819,
+   "thumb_bytes": 60316,
+   "src_sha256": "628cac50c182c29e43579996a8de6c7df4a99298e648aa55f49d8d273205a6ca"
+  },
   "references/scenes/scene-63/S63-temple-gallery.png": {
    "thumb": "references/thumbs/scenes/scene-63/S63-temple-gallery.png.webp",
    "width": 640,
