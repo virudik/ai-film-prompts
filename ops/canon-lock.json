@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "chatgpt-cloud-beb26cfe80f8-relay-production-finalize",
-  "acquired_at": "2026-10-25T22:01:09.718Z",
-  "expires_at": null,
-  "released_at": "2026-10-25T22:04:46.838Z",
+  "task": "chatgpt-cloud-beb26cfe80f8-relay-verification-receipt",
+  "acquired_at": "2026-10-25T22:09:32.050Z",
+  "expires_at": "2026-10-25T22:14:32.050Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
