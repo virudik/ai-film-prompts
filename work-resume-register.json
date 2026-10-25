@@ -1,8 +1,28 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T22:56:39.805Z",
+  "last_updated_at": "2026-10-25T23:11:55.711Z",
   "active_work": [
+    {
+      "work_id": "PROJECT-CLEANUP-20261026",
+      "title": "Безопасная чистка и архивирование служебных файлов",
+      "status": "in_progress",
+      "updated_at": "2026-10-25T23:11:55.711Z",
+      "owner_request": "Делай — первые четыре пункта аудита",
+      "completed": [
+        "Read-only audit completed; existing data and archive contracts checked."
+      ],
+      "next_action": "Implement lossless journal retention and register fixes; verify dependencies before root cleanup; separate Relay history; tests and publication.",
+      "canonical_refs": [
+        "scripts/trim_service_files.py",
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "topview-operation-journal.json"
+      ],
+      "constraints": [
+        "No media cleanup, new generation, schedule change or fabricated production receipts.",
+        "Preserve all unfinished work and dependency IDs; root scope only."
+      ]
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
