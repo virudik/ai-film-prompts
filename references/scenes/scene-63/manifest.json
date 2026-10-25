@@ -128,7 +128,7 @@
   "rejected": [],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "9038afa5cd758adf2cda6fd70b7933a988ffa474f1bdbf0d35a13b0c155fd80c",
+  "canonical_master_sha256": "9cee9f6d814701837333f3e07cdb98bbe080a2d46b93653a9f1d2a389d21e8f2",
   "pending_video": {
     "role": "alternative_P2_previous_part_end",
     "source_item_id": "S63-SEED20-P1",
@@ -174,7 +174,7 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "576918d987b8072c28139105f4b0d187aa97e398545ea16e504bf6dc976c91b3"
+      "canonical_prompt_sha256": "38c6e28082513e992d9d935a956e3483c06928f311c4d85dc0e4c23f27b8d708"
     },
     {
       "prompt": "63 · Seedance 2.0 часть 1",

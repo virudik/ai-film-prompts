@@ -1477,41 +1477,6 @@
         "projects/README.md",
         "reports/topview-queue-2026-10-16/S16-SEED20-P2-20261023-reconciled.json"
       ]
-    },
-    {
-      "work_id": "RAZNOE-SPACE-20261022",
-      "project": "raznoe",
-      "title": "Роскосмос, Главкосмос, РКС и НЦ ОМЗ: идеи, 8 сцен и референсы",
-      "status": "completed",
-      "verified_at": "2026-10-22T21:33:10.637Z",
-      "done": [
-        "Изучены официальные материалы и новости четырёх организаций; источники и ограничения доступа записаны с датой проверки 22.10.2026.",
-        "Опубликованы 8 DRAFT-сцен, 24 самостоятельных промта (30с и 2×15с на сцену), 12 дополнительных идей и 8 просмотренных референсных изображений.",
-        "Точные исходные изображения восстановлены из Git blobs без перегенерации; канонические scene-N пути связаны с мастер-промтами и реестром, старые оригиналы сохранены как provenance.",
-        "projects status: health=ok, 8 сцен/24 промта; projects validate и git diff --check прошли. Проверены SHA изображений, ссылки и явные зависимости @Video1.",
-        "Pages deploy 39857435757, thumbnails 39857326277, projects status 39857326324, canon health 39857326254 завершились success.",
-        "На живом сайте подтверждены 8 карточек сцен/8 картинок, синхронизация и переключение Seedance 2×15с; в разделе референсов отображены 8 assets. Публичный thumbnail manifest содержит все 8 canonical scene paths.",
-        "Видео не запускались; очередь не изменялась; редакционное одобрение не выставлялось."
-      ],
-      "next_action": "Подготовка и публикация завершены. Владелец может выбрать идеи и доработать черновики; запуск — отдельный этап.",
-      "constraints": [
-        "Не запускать видео и не менять очередь",
-        "0 кредитов"
-      ],
-      "canonical_refs": [
-        "projects/raznoe/video-prompts.md",
-        "projects/raznoe/space-organizations-research.md",
-        "projects/raznoe/character-references.json",
-        "projects/raznoe/reports/space-organizations-manifest-2026-10-22.json",
-        "projects/raznoe/reports/current-work-checkpoint.md"
-      ],
-      "blockers": [],
-      "completed_at": "2026-10-22T21:33:10.637Z",
-      "next_actions": [],
-      "content_commit": "e13405e677dc9d2f3a0b4ec06e7f298a29ab513a",
-      "gallery_commit": "e29de42bc2319617dfe28618f35f583191e639bb",
-      "site_url": "https://virudik.github.io/ai-film-prompts/?p=raznoe",
-      "references_url": "https://virudik.github.io/ai-film-prompts/references.html?p=raznoe"
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json"

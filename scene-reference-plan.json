@@ -514,7 +514,7 @@
       "checked_at": "2026-10-25T09:29:18.695660Z"
     }
   },
-  "canonical_master_sha256": "9038afa5cd758adf2cda6fd70b7933a988ffa474f1bdbf0d35a13b0c155fd80c",
+  "canonical_master_sha256": "9cee9f6d814701837333f3e07cdb98bbe080a2d46b93653a9f1d2a389d21e8f2",
   "manifest_contract_complete": true,
   "total_prompt_mappings": 58,
   "source_of_truth": "GitHub main/video-prompts.md; derived reference index",
