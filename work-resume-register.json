@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T08:27:12.062Z",
+  "last_updated_at": "2026-10-25T09:15:54.952Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "relay_bridge_prepared_cli_network_blocked",
-      "updated_at": "2026-10-25T08:58:21.396Z",
+      "status": "postponed_owner_until_pc",
+      "updated_at": "2026-10-25T09:15:54.952Z",
       "owner_quote": "Подключай",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
@@ -40,7 +40,8 @@
         "next_action": "Resume in an explicitly permitted runtime after network policy is resolved through the supported environment controls. Then register dedicated robot identity, provision protected GitHub secret, confirm sender and run genuine no-video event test."
       },
       "alternatives_status": "Agent Relay selected and enabled. Gmail V2 tested and paused. Hourly6acae6ab433481919e88665c520b8ef2 preserved; no new automation.",
-      "relay_test_id": "wake-relay-20261025-0807"
+      "relay_test_id": "wake-relay-20261025-0807",
+      "owner_pause_20261025": "Продолжим как доберусь до пк. Continue Relay connection only after owner returns to PC; hourly task unchanged."
     },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -1221,6 +1222,24 @@
       "canonical_refs": [
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
+      ]
+    },
+    {
+      "work_id": "SITH-TEMPLE-QUEUE-20261025",
+      "title": "Сцена63: храм с собственными статуями Серёги; музыка перед всеми танцами",
+      "status": "in_progress",
+      "updated_at": "2026-10-25T09:15:54.952Z",
+      "authorization": "Owner25Oct: create temple scene and reference images; queue before dances/music; 49→50→51 before all dances; old unsuccessful dances do not count completed.",
+      "next_action": "Generate exact-identity three reference frames, write30s+2×15s prompts, add63 then49/50/51 then all dance parts/rerenders; preserve receipts and true dependencies; publish and verify.",
+      "canonical_refs": [
+        "video-prompts.md",
+        "ops/topview-launch-queue.json",
+        "references/scenes/scene-63/manifest.json"
+      ],
+      "constraints": [
+        "No Topview credits; queue update/reference production only in this turn",
+        "Old dance receipts retained; failed takes not completed editorially",
+        "Relay postponed by owner until PC; hourly task unchanged"
       ]
     }
   ],
