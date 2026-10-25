@@ -6,9 +6,9 @@
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
       "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "agent_relay_selected_transport_verified_robot_bridge_pending",
-      "updated_at": "2026-10-25T08:27:12.062Z",
-      "owner_quote": "Gmail V2 и Agent Relay протестируй оба и выбери более удобный из них оставив часовую",
+      "status": "connecting_robot_relay",
+      "updated_at": "2026-10-25T08:37:45.025Z",
+      "owner_quote": "Подключай",
       "completed": [
         "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
         "Added wake marker and owner mention only to verified post-publish result notifications when global slots are free.",
@@ -20,9 +20,10 @@
         "Five bot messages delivered; last workflow40035192750 -> comment6376175230 -> Gmail1a16aed853506d6f (22s). Authenticated UI confirms active trigger. Manual event Run now unsupported; independent-task event conversion rejected twice by service. Diagnostic6adbe1e7057c8190a5500374c9816975 disabled, no runs. Subscription refreshed; still no actual event run/ACK. Hourly actual completed run verified. Zero video submissions.",
         "25Oct: existing Gmail task switched to V2 subject filter; API accepted, prompt readback matches. Existing Relay task augmented with read-only diagnostic and read back. Hourly task preserved.",
         "25Oct: Gmail V2 issue35 -> new Gmail thread1a1721be0f229453 at08:09:52Z, exact subject regex/actual sender verified. Relay DM from vitalikrudik via signed-in dashboard -> evt_9cd2fcb751a05ff6afbc4b740a9fb8a2 at08:12:52Z. Both manually readable; no event run/ACK yet. No videos/credits.",
-        "25Oct A/B complete: Gmail V2 issue35/new thread delivered08:09:52Z; no recorded run/ACK at08:24:53Z (>15min), event task paused. Relay event triggered run6ccb7614-2678-832b-b8f1-d3e7c781d14d in27.1s and genuine ACK; duplicate test triggered no_update run70be9a65-d8e4-8327-92a2-d85e24f8f960, ACK unchanged and total replies1. Selected Relay; hourly unchanged; zero video submissions/credits."
+        "25Oct A/B complete: Gmail V2 issue35/new thread delivered08:09:52Z; no recorded run/ACK at08:24:53Z (>15min), event task paused. Relay event triggered run6ccb7614-2678-832b-b8f1-d3e7c781d14d in27.1s and genuine ACK; duplicate test triggered no_update run70be9a65-d8e4-8327-92a2-d85e24f8f960, ACK unchanged and total replies1. Selected Relay; hourly unchanged; zero video submissions/credits.",
+        "25Oct: owner authorized connection. Fresh main includes Claude bridge a817eaf; reuse and verify it, do not create duplicate workflow or monitor."
       ],
-      "next_action": "Connect authenticated GitHub robot/provider delivery to the existing Relay inbox, then verify a robot-origin read-only event with lock/dedup before adding a production launch branch. No paid agent runtimes or duplicate monitor.",
+      "next_action": "Audit existing Claude bridge a817eaf, prepare authenticated robot delivery and extend existing Relay handler for bot-origin diagnostic. Verify actual event ACK before production activation.",
       "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
       "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
       "test_id": "wake-v2-newthread-20261024-01",
