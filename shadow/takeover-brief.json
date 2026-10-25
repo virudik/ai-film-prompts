@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-25T13:21:56+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-25T13:23:00+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -192,7 +192,7 @@
  "runtime": {
   "project_health": "ok",
   "scenes": 26,
-  "prompt_texts": 105,
+  "prompt_texts": 114,
   "scene_ids": [
    13,
    16,
@@ -609,7 +609,7 @@
    "id": 51,
    "title": "Финальные титры: каждый разбивает свой инструмент",
    "target_engine": "Seedance 2.0",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 15,
    "dialogue": null,
