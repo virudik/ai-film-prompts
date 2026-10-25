@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-25T10:49:37+00:00",
+ "generated_at": "2026-10-25T10:50:22+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -34,8 +34,8 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "ccbdaca872d6fe00c32e1f90f011c16791a6b9d85552512421ef897d996b7c4b",
-   "bytes": 75006
+   "sha256": "1751b0c8e0417e7b97ac10d110b4bc147464588f28cd8f600a1b8d480bc1177a",
+   "bytes": 75375
   },
   {
    "file": "README-AI-SYNC.md",
