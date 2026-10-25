@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T09:40:02.205Z",
+  "last_updated_at": "2026-10-25T09:52:54.366Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -1223,6 +1223,22 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
+    },
+    {
+      "work_id": "DANCE-PROMPT-AUDIT-20261025",
+      "title": "Проверка длины промтов старых танцев по всем найденным роликам",
+      "status": "in_progress",
+      "updated_at": "2026-10-25T09:52:54.366Z",
+      "owner_quote": "Проверь все мои предыдущие танцы 3 в таверне татуине и много на мостика карабля на доске топвюв. изучи этот вопрос",
+      "completed": [
+        "Read current preflight and canonical state; scanned all449 board video tasks.",
+        "Selected17 old outputs (3 cantina,13 bridge,1 solo) and11 completed newer outputs; exact task prompts/settings fetched."
+      ],
+      "next_action": "Download and inspect all selected videos, compare submitted prompts and confounds; save evidence report. No new generation or queue changes.",
+      "canonical_refs": [
+        "reports/current-work-checkpoint.md"
+      ],
+      "new_submissions": 0
     }
   ],
   "rules": [
