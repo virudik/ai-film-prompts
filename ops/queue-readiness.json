@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "24d37bf2c7643477f8e3576a94f68bfa03e0e2a86bef3acd54e89ba6850efb27",
+  "source_queue_sha256": "8a0dd9ed0db875203ff0e8d738ff220cda3a7bfa12887395038002948e07c7d9",
   "source_task_map_sha256": "e795f6b432abae89beac0d28aef417085ccbfdac79478a3ac10fc92aa360fae4",
   "topview_checked_at": "2026-10-25T13:10:23Z",
   "items": [
@@ -80,10 +80,46 @@
       "id": "S51B",
       "scene_id": 51,
       "part_label": "51B",
-      "code": "waiting_result",
-      "ready": false,
-      "text": "@Video1: ждёт результат 51A (ещё не запущен)",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S51C",
+      "scene_id": 51,
+      "part_label": "51C",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S51D",
+      "scene_id": 51,
+      "part_label": "51D",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S51E",
+      "scene_id": 51,
+      "part_label": "51E",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S51F",
+      "scene_id": 51,
+      "part_label": "51F",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S50A",
@@ -366,5 +402,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-25T13:10:38.218054Z"
+  "checked_at": "2026-10-25T13:22:00.165082Z"
 }
