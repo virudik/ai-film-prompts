@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-25T09:33:57+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-25T09:37:45+00:00. Валиден при генерации: **False**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 75006 B · `ccbdaca872d6fe00`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16278 B · `21803210ef2491ea`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18509 B · `d462c5410f5b4f93`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1118387 B · `9038afa5cd758adf`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1118461 B · `9cee9f6d81470183`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -44,7 +44,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 |---|---|---|---|---|---|---|---|
 | 13 | Совет джедаев: говорящий кот Лучик | Wan 3 | NEEDS_RERENDER/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 53146e9d1886 |
 | 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 1cb49f8adfc7 |
-| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 23 | @Image1 @Image2 @Image3 @Image4 | [] | 13919e8a764d |
+| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 23 | @Image1 @Image2 @Image3 @Image4 | [] | 3e88219a6e69 |
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 | [] | 9ed4ad5f905c |
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 1bcbb827821d |
 | 37 | Отлёт Серёги с Набу к лесной планете | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | e8edb2707452 |
@@ -67,7 +67,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 60 | Кашиик: Серёга уходит после боя и взлетает | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | a68354642ec8 |
 | 61 | Кашиик: ковбойское сближение перед дуэлью | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 3c9040f5ef19 |
 | 62 | Татуин: после погони — обратно к противостоянию | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 7b405dfdc4b9 |
-| 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | c73530bfd1a3 |
+| 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | d1ee8151d77d |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
