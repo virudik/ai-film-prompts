@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "relay-after-lock-coordinator-6adbe1e7-2026-10-25T21:07:54.228Z",
   "acquired_at": "2026-10-25T21:07:54.228Z",
-  "expires_at": "2026-10-25T21:09:54.228Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-25T21:08:12.743Z",
   "rules": "ops/CANON-LOCK.md"
 }
