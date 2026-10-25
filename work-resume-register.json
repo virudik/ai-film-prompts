@@ -1,8 +1,25 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T22:38:02.384Z",
+  "last_updated_at": "2026-10-25T22:49:14.340Z",
   "active_work": [
+    {
+      "work_id": "RELAY-RETENTION-20261026",
+      "title": "Архивация Relay с защитой от повторов",
+      "status": "in_progress",
+      "updated_at": "2026-10-25T22:49:14.340Z",
+      "completed": [
+        "Verified live relay prompt, existing cleanup and current empty events list."
+      ],
+      "next_action": "Implement bounded Relay retention, exact dedup and archive-aware handler; test then publish.",
+      "canonical_refs": [
+        "scripts/trim_service_files.py",
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "reports/topview-event-wake.json"
+      ],
+      "new_submissions": 0,
+      "new_automations": 0
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
