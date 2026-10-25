@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T08:44:59Z",
-  "status": "agent_relay_selected_transport_verified_robot_bridge_pending",
+  "updated_at": "2026-10-25T08:58:21.396Z",
+  "status": "relay_bridge_prepared_cli_network_blocked",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
   "test_id": "wake-renew-20261023-1792795264274",
@@ -328,7 +328,7 @@
     "new_submissions": 0
   },
   "robot_relay": {
-    "status": "sender_authorization_pending",
+    "status": "device_approved_cli_network_blocked",
     "production_ready": false,
     "source_bridge_commit": "a817eaf35efeaac65c94a1dd19d2601b36cc3632",
     "handler_updated_at": "2026-10-25T08:44:59Z",
@@ -338,13 +338,26 @@
     "secret_configured": false,
     "test_acks": [],
     "new_submissions": 0,
-    "blocker": "CLI device authorization pending; no robot agent token or real bot-origin ACK yet.",
+    "blocker": "User approved device. CLI could not complete token exchange because environment network policy blocked agentrelay.com. No robot identity/token created; no bot-origin ACK. Do not request repeated Approve or retry via another transport to bypass the restriction.",
     "validation": {
       "unit_tests_passed": 253,
       "initial_suite_import_error": "requests missing in isolated runtime; installed locally, previously blocked archive module then passed 5 tests",
       "relay_tests_passed": 8,
       "site_contract": "ok",
       "diff_check": "ok"
-    }
+    },
+    "device_approval": {
+      "observed_at": "2026-10-25T08:58:21.396Z",
+      "source": "Agent Relay device authorization UI",
+      "result": "Device approved",
+      "user_confirmation": "Нажал"
+    },
+    "cli_token_exchange": {
+      "status": "blocked_by_environment_network_policy",
+      "error": "Network access to \"https://agentrelay.com:443\" was blocked by policy.",
+      "stored_cloud_auth": false,
+      "checked_at": "2026-10-25T08:58:21.396Z"
+    },
+    "next_action": "Resume in an explicitly permitted runtime after network policy is resolved through the supported environment controls. Then register dedicated robot identity, provision protected GitHub secret, confirm sender and run genuine no-video event test."
   }
 }
