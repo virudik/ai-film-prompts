@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-25T10:41:00.255Z",
+  "checked_at": "2026-10-25T10:49:07.270Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -30,11 +30,11 @@
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "github_blob": "46540924861435361792519413341ed47d233304",
-      "mirror_sha256": "ee45b98ea0aec4cf843375bc2b2e4c435e8122cb223dba9158d40373e1d692da",
+      "github_blob": "987c184ecdc747d8cd85e1bf2d6aaa80fa2b2935",
+      "mirror_sha256": "3454d27dd6fd5d636835b7d885588596cd6a350e7c9567f7efd50e7b57fa93c7",
       "match": true,
       "drive_copy_sha256": "ee45b98ea0aec4cf843375bc2b2e4c435e8122cb223dba9158d40373e1d692da",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-24T08:09:38.779Z",
       "drive_copy_checked_at": "2026-10-25T08:26:42.959Z"
     },
