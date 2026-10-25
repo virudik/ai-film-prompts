@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-25T09:29:18.695660Z",
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "authority_note": "Topview task-input provenance only; canonical story/prompt authority remains Drive.",
   "scenes": {
@@ -274,6 +274,43 @@
       "path": "references/scenes/scene-44/S44-start-from-S43-result.png",
       "continuity_check": "blocked_wing_geometry",
       "owner_approval": false
+    },
+    "63": {
+      "source": "ChatGPT image_gen,25Oct2026",
+      "task_id": null,
+      "found": false,
+      "topview_generation": false,
+      "input_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-63/S63-temple-gallery.png",
+          "sha256": "91dbf09828daac7cba958dda5566c09edf0b78baeac77f5ac46e3733e9ba57c8",
+          "role": "Первый зал: четыре древние статуи Серёги"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-63/S63-admiring-portrait.png",
+          "sha256": "628cac50c182c29e43579996a8de6c7df4a99298e648aa55f49d8d273205a6ca",
+          "role": "Сходство живого лица и каменного портрета; восхищение"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-63/S63-throne-hall.png",
+          "sha256": "182d6a8e9a0013ebad26ecb18eb7b7396b63342887da52e672fa36a2adf6a7c7",
+          "role": "Второй зал: властная статуя Серёги на троне"
+        }
+      ],
+      "input_videos": [],
+      "identity_authority": "references/full/serega.jpg",
+      "location_style_source": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "owner_approval": "not_recorded",
+      "assistant_qc": "visual inspection passed for staging roles"
     }
   }
 }

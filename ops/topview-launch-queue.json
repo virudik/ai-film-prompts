@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-24T20:04:54.596Z",
+  "updated_at": "2026-10-25T09:29:18.695660Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "S36-S36",
@@ -261,14 +261,14 @@
       ],
       "task_id": null,
       "claim": null,
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -298,7 +298,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 610
     },
     {
@@ -359,14 +359,14 @@
       ],
       "task_id": null,
       "claim": null,
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -396,7 +396,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 611
     },
     {
@@ -457,14 +457,14 @@
       ],
       "task_id": null,
       "claim": null,
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -494,7 +494,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 612
     },
     {
@@ -549,14 +549,14 @@
       ],
       "task_id": null,
       "claim": null,
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -586,7 +586,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 613
     },
     {
@@ -641,14 +641,14 @@
       ],
       "task_id": null,
       "claim": null,
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -678,7 +678,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 614
     },
     {
@@ -751,14 +751,14 @@
       ],
       "task_id": null,
       "claim": null,
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -788,7 +788,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 615
     },
     {
@@ -867,11 +867,11 @@
         "c5bf6d9c8fa066f6159f5e99a7d47d93a0ed2db69bd6aeb492e385c3cf8084f4"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -904,7 +904,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 618
     },
     {
@@ -993,7 +993,7 @@
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
       "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": "Actual new51A result ending, saved and QC checked, is still required.",
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "depends_on_completed": [
@@ -1001,7 +1001,7 @@
       ],
       "launch_readiness": "blocked_continuity",
       "authorization_before_20261023_expansion": null,
-      "authorization": " Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
           "B7",
@@ -1032,7 +1032,7 @@
         "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency. Also requires the actual QC-checked ending of new51A, not merely submitted51A.",
         "state": "blocked_test_review"
       },
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 619
     },
     {
@@ -1473,7 +1473,9 @@
       },
       "priority_before_20261023_primary": 400,
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false,
+      "owner_note_20261025": "Still active technically; not editorially complete. Preserve task and receipt. Owner authorized a separate new attempt after music; never run concurrently with this task."
     },
     {
       "id": "S50A",
@@ -1528,10 +1530,10 @@
       "task_id": null,
       "claim": null,
       "max_credits": 0,
-      "authorization": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70). Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "added_at": "2026-10-17T21:04:19Z",
       "added_by": "claude:scene-review",
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "7261abddf45cf89f920e0d4685d890349019fac59ba8f99c84c8674719e2929a"
@@ -1568,7 +1570,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 616
     },
     {
@@ -1624,10 +1626,10 @@
       "task_id": null,
       "claim": null,
       "max_credits": 0,
-      "authorization": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70). Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
       "added_at": "2026-10-17T21:04:19Z",
       "added_by": "claude:scene-review",
-      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "owner_review_required_after_item": null,
       "blocker": null,
       "previous_prompt_sha256": [
         "841cf59d3a649c3519c542bb0b08974f1795a65fd2d938c60ddc9b5a8efea7fd"
@@ -1665,7 +1667,7 @@
       },
       "depends_on_completed": [],
       "launch_readiness": "authorized_inputs_available",
-      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "priority_before_20261023_primary": 617
     },
     {
@@ -5134,7 +5136,9 @@
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
-      "historical_different_revision_task_id": "e471e35fc7454fe5a2a89e06fac3f122"
+      "historical_different_revision_task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+      "editorial_completion": false,
+      "owner_note_20261025": "Still active technically; not editorially complete. Preserve task and receipt. Owner authorized a separate new attempt after music; never run concurrently with this task."
     },
     {
       "id": "S28-A3-20261023",
@@ -5143,7 +5147,7 @@
       "canonical_block_label": "28 A3",
       "canonical_prompt_sha256": "0a3bfbe2cc90e877c9c7a68d5220bc870cd082bc0522dcfe43ab2c1f45edc6ce",
       "normalized_prompt_sha256": "cbe0afde2d8d2b67e4eb124d58507241d56191d5169e854335e96a95a8563d08",
-      "priority": 1.03,
+      "priority": 2.03,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5156,7 +5160,7 @@
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [
-        "S28-A2-20261023"
+        "S28-A2-R2-20261025"
       ],
       "references": [
         {
@@ -5188,18 +5192,19 @@
           "required": true,
           "canonical_role": "continuity_frame",
           "input_status": "required_not_available",
-          "source_item_id": "S28-A2-20261023",
-          "source_requirement": "Actual clean final frame from new A2 with dropped hands; preserve task ID/SHA/QC. No old B2/C28 substitute."
+          "source_item_id": "S28-A2-R2-20261025",
+          "source_requirement": "Actual clean final frame of newly authorized A2-R2 with dropped hands; preserve task/SHA/QC. Old unsuccessful A2/B2/C28 cannot close this input."
         }
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
-      "blocker": "Actual clean final frame from new A2 with dropped hands; preserve task ID/SHA/QC. No old B2/C28 substitute.",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "blocker": "Ждёт проверенный финальный кадр новой A2-R2; старые неудачные варианты не использовать.",
       "launch_readiness": "blocked_inputs",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A4-20261023",
@@ -5208,7 +5213,7 @@
       "canonical_block_label": "28 A4",
       "canonical_prompt_sha256": "59a3173102b1f175977f23e68d85ae78918861af19fca243ec372517c903a6f9",
       "normalized_prompt_sha256": "049c875aa140294a4688f60b71f8a85c369c6b2f1ece6f2c25c2547e19ad6829",
-      "priority": 1.04,
+      "priority": 2.04,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5249,12 +5254,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A5-20261023",
@@ -5263,7 +5269,7 @@
       "canonical_block_label": "28 A5",
       "canonical_prompt_sha256": "b07695b0f8895ac1046929263efb2cf27d16499542bd23eaa19110edd4f19a65",
       "normalized_prompt_sha256": "23968b7f8f02216eebf4fd73b452cd1ea380ee384dd986654738f47d2e987d60",
-      "priority": 1.05,
+      "priority": 2.05,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5304,12 +5310,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A6-20261023",
@@ -5318,7 +5325,7 @@
       "canonical_block_label": "28 A6",
       "canonical_prompt_sha256": "c1f2d7ad68c35f09f09a6c32463920971ff1b220ff4edc34a3847126fa452067",
       "normalized_prompt_sha256": "1c16e00128b6056ff227a1d96ebf2d5845ac495c3d97795e2d129af87534d9cc",
-      "priority": 1.06,
+      "priority": 2.06,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5367,12 +5374,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A7-20261023",
@@ -5381,7 +5389,7 @@
       "canonical_block_label": "28 A7",
       "canonical_prompt_sha256": "7aa2598060614992f4fe9ab1e6b312d1f9de3f41012fa4b2233a84badd75a271",
       "normalized_prompt_sha256": "429bd0bca0433837bb6c2f1ce301eae3ad68350c9b4227e86e2b022feb4b6b06",
-      "priority": 1.07,
+      "priority": 2.07,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5430,12 +5438,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A8-20261023",
@@ -5444,7 +5453,7 @@
       "canonical_block_label": "28 A8",
       "canonical_prompt_sha256": "1e2860fac56f47b8c5ba0d44ff57785862de7f335316659a79cc93ff2f704e20",
       "normalized_prompt_sha256": "a6d21f8dff84e95b4b76bf6f740dd4113fad2825b0a997b811fd1cae290bd4eb",
-      "priority": 1.08,
+      "priority": 2.08,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5493,12 +5502,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A9-20261023",
@@ -5507,7 +5517,7 @@
       "canonical_block_label": "28 A9",
       "canonical_prompt_sha256": "43b12c821fd71780e03bf8b5b6953ce075a58e7bb362729e7376888f61902b07",
       "normalized_prompt_sha256": "370f1172ee26db465ab3c419b06420331ad9f84e860a21b4ef7767982c68cc43",
-      "priority": 1.09,
+      "priority": 2.09,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5556,12 +5566,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A10-20261023",
@@ -5570,7 +5581,7 @@
       "canonical_block_label": "28 A10",
       "canonical_prompt_sha256": "2080653ecb276bc28913a58705149d02f9c14c10d631a70450467fb592721657",
       "normalized_prompt_sha256": "c47dc07ecebb2ac6473307dd83fdfab38c98a2a1f0901832b898f517cdf46718",
-      "priority": 1.1,
+      "priority": 2.1,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5595,12 +5606,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A11-20261023",
@@ -5609,7 +5621,7 @@
       "canonical_block_label": "28 A11",
       "canonical_prompt_sha256": "c8de91dcecde79ce0226e60fba70966e357910fcc3f5bbb8bd83db6f037ea626",
       "normalized_prompt_sha256": "3c2e5360b093cdbadd3395a412be203dfd7385ad27234097b8f8df2a52f312ec",
-      "priority": 1.11,
+      "priority": 2.11,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5650,12 +5662,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S28-A12-20261023",
@@ -5664,7 +5677,7 @@
       "canonical_block_label": "28 A12",
       "canonical_prompt_sha256": "92a522646faf6e8d5e386706626899bae5c038c407a9c3776ac905e5f38817a4",
       "normalized_prompt_sha256": "c38739532c46a1b73fd8feac7fa910f4a2369da9bd4e4c343bea1b7bb72be47a",
-      "priority": 1.12,
+      "priority": 2.12,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5715,12 +5728,13 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
-      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "blocker": "Actual final3seconds of new A11; preserve task ID/SHA/QC. No synthetic or old B2/C28 substitute.",
       "launch_readiness": "blocked_inputs",
       "result_review_required": true,
-      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false
     },
     {
       "id": "S59-SEED20-P2",
@@ -6444,6 +6458,271 @@
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "blocker": "Wait actual S62-SEED20-P1 ending and continuity QC."
+    },
+    {
+      "id": "S63-WAN30",
+      "scene_id": 63,
+      "prompt_id": "S63-WAN30",
+      "canonical_block_label": "63",
+      "canonical_prompt_sha256": "576918d987b8072c28139105f4b0d187aa97e398545ea16e504bf6dc976c91b3",
+      "normalized_prompt_sha256": "ef5fc0734bb0bddcc5b5d9c2e6fbb34dac9f685b9538437e591a56a71a391353",
+      "priority": 0.8,
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 1080,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "reference_to_video",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "Точный модельный лист Серёги: лицо и одежда",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-63/S63-temple-gallery.png",
+          "sha256": "91dbf09828daac7cba958dda5566c09edf0b78baeac77f5ac46e3733e9ba57c8",
+          "role": "Первый зал: четыре древние статуи Серёги",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-63/S63-admiring-portrait.png",
+          "sha256": "628cac50c182c29e43579996a8de6c7df4a99298e648aa55f49d8d273205a6ca",
+          "role": "Сходство живого лица и каменного портрета; восхищение",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-63/S63-throne-hall.png",
+          "sha256": "182d6a8e9a0013ebad26ecb18eb7b7396b63342887da52e672fa36a2adf6a7c7",
+          "role": "Второй зал: властная статуя Серёги на троне",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": null,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "result_review_required": true,
+      "result_review_policy": "Inspect continuous walking, exact living identity, all statue faces/costume silhouettes, rigid stone faces/hands/robes, one living person, readable admiration, connected halls, no bars. Never equate technical success with acceptance."
+    },
+    {
+      "id": "S28-A1-R2-20261025",
+      "scene_id": 28,
+      "prompt_id": "A1",
+      "canonical_block_label": "28 A1",
+      "canonical_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
+      "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
+      "priority": 2.01,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true
+        }
+      ],
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "max_credits": 0,
+      "review_gate_after_success": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "previous_prompt_sha256": [
+        "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "depends_on_completed": [
+        "S28-A1-TEST-20261017"
+      ],
+      "launch_readiness": "waiting_previous_attempt_terminal_and_qc",
+      "blocker": "Прежняя попытка A1 ещё занимает слот; дождаться terminal и QC, затем снять этот технический запрет параллельного дубля. Повтор разрешён владельцем25.10; старый результат не закрывает новый пункт.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "last_claim": {
+        "run_id": "EXPAND-20261023-S28A1",
+        "claimed_at": "2026-10-23T01:55:57.180Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:55:32.105Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 931,
+            "scan_complete": true,
+            "active": [
+              {
+                "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "56e5e07c85df4af583c62665c51ed563",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "af8e389dc9564607bc6138b408c72da5",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "input_hashes_verified": true,
+          "input_order": [
+            "Image1",
+            "Image2",
+            "Image3"
+          ],
+          "model": "Seedance 2.0",
+          "duration": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      },
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false,
+      "task_id": null,
+      "claim": null,
+      "rerender_of_item_id": "S28-A1-TEST-20261017",
+      "rerender_of_task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+      "rerender_authorized": true,
+      "rerender_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "rerender_reason": "Owner25Oct: старые варианты были неудачные, их не учитывать отработанными",
+      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item."
+    },
+    {
+      "id": "S28-A2-R2-20261025",
+      "scene_id": 28,
+      "prompt_id": "A2",
+      "canonical_block_label": "28 A2",
+      "canonical_prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+      "normalized_prompt_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+      "priority": 2.02,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S28-A2-20261023"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/P28-pair-facing.webp",
+          "sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7",
+          "role": "pose_composition_helper",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "authorization": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+      "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "blocker": "Прежняя попытка A2 ещё занимает слот; дождаться terminal и QC, затем снять этот технический запрет параллельного дубля. Повтор разрешён владельцем25.10; старый результат не закрывает новый пункт.",
+      "launch_readiness": "waiting_previous_attempt_terminal_and_qc",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "editorial_completion": false,
+      "task_id": null,
+      "claim": null,
+      "rerender_of_item_id": "S28-A2-20261023",
+      "rerender_of_task_id": "8a8eadc809004e318c47201b8a463be0",
+      "rerender_authorized": true,
+      "rerender_authorized_at": "2026-10-25T09:29:18.695660Z",
+      "rerender_reason": "Owner25Oct: старые варианты были неудачные, их не учитывать отработанными",
+      "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item."
     }
   ],
   "already_submitted": {
@@ -6468,7 +6747,7 @@
     "scene27": [
       "S27-part-1"
     ],
-    "reason": "Selected28 Seedance A1-A12 authorized23Oct, current revision one attempt each. Wan B variants and other model comparisons are not automatically relaunched. Other scenes retain their current selections.",
+    "reason": "All distinct selected dances are Seedance2.0 A1–A12; Wan B1–B11 retell the same choreography and remain unselected alternatives. Owner25Oct authorizes new A1/A2 attempts and all remaining A parts after63/49/50/51; historical failures never count complete.",
     "previous_scene28_20261023": [
       "A3",
       "A4",
@@ -7668,5 +7947,20 @@
     "basket": "Use owner film basket in left hand, initially empty; happy anticipation on exit.",
     "retired_P1_prompt": "archive/scenes/scene-59/retired-P1-before-owner-video.md",
     "independent_scene60": true
+  },
+  "owner_instruction_20261025_temple_music_dances": {
+    "at": "2026-10-25T09:29:18.695660Z",
+    "source": "current direct owner message",
+    "order": [
+      "existing_story_ready_items",
+      "S63-WAN30",
+      "49A–49F",
+      "50A–50B",
+      "51A–51B",
+      "28 A1–A12"
+    ],
+    "decision": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview.",
+    "old_dance_results_count_as_completed": false,
+    "parallel_duplicate_policy": "Active old A1/A2 remain physical tasks; their separately authorized rerenders wait terminal+QC; do not cancel, fabricate completion, or submit simultaneously."
   }
 }

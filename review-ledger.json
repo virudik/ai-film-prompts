@@ -19,7 +19,7 @@
     "inserted_into_film=true requires reviewed=true and accepted=true.",
     "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-10-24T19:40:18Z",
+  "updated_at": "2026-10-25T09:29:18.695660Z",
   "scenes": {
     "3": {
       "result_received": true,
@@ -318,11 +318,16 @@
       "reviewed_at": "2026-10-19T12:02:35Z",
       "accepted": false,
       "needs_redo": true,
-      "inserted_into_film": null,
-      "montage_note": null,
-      "last_human_update_at": "2026-10-19T12:02:35Z",
+      "inserted_into_film": false,
+      "montage_note": "25.10: старые неудачные танцы не засчитывать отработанными. Весь выбранный комплект A1–A12 после63/49/50/51; новые результаты отдельно проверить. Уже активные A1/A2 не отменять и не объявлять просмотренными.",
+      "last_human_update_at": "2026-10-25T09:29:18.695660Z",
       "selected_result_task_id": "0d1f17c226834bfbb851d76ed32f9877",
-      "result_url": null
+      "result_url": null,
+      "owner_decision_20261025": {
+        "source": "direct owner message",
+        "old_failed_takes_completed": false,
+        "active_unviewed_takes_not_judged": true
+      }
     },
     "29": {
       "result_received": false,
@@ -752,6 +757,15 @@
       "inserted_into_film": null,
       "montage_note": null,
       "last_human_update_at": null
+    },
+    "63": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": false,
+      "montage_note": "Новая сцена храма; пока только промты и референсы, видео не отправлено."
     }
   }
 }

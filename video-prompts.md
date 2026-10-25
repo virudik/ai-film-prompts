@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**25 сцен к генерации/доработке · 102 полных текста промта**
+**26 сцен к генерации/доработке · 105 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 14** сцен сейчас в медленной генерации: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 56, 57, 58** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 62 — мост от падения после погони к противостоянию перед червём. Три полных промта:30с и2×15с; входы P1 готовы, P2 после своего результата. Новые59–61 сохраняются после блока с червями.
+- **Последняя оформленная активная сцена:** 63 — заброшенный храм со статуями с лицом и одеждой Серёги;3 новых референса,30с и2×15с. В очереди63 →49 →50 →51 → все танцы28 после действующего сюжетного блока. Неудачные старые танцы не считаются выполненными.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **24.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **24.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **24 актуальные сцены и 98 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **24.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **26 актуальных сцен и 105 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -91,6 +91,7 @@
 | 60 | [Кашиик: Серёга уходит после боя и взлетает](#scene-60) | Серёга — точная внешность; личный корабль; кабина; настоящий последний кадр первого видео; модуль карты; удаляющийся Кашиик | Из настоящего финального кадра Серёга разворачивается, быстро идёт к своему кораблю на соседней поляне и садится в кабину. Корабль поднимает вихрь листьев, уходит крутым виражом над кронами, пробивает облачный слой и выходит в космос. Модуль указывает следующий курс; Кашиик удаляется за боковым окном. P1 готова по входам; P2 после собственной P1. |
 | 61 | [Кашиик: ковбойское сближение перед дуэлью](#scene-61) | Серёга — красный меч; Виталик — синий меч; Лёша — фиолетовый меч; точный финал перед вторым видео и лес | Серёга, Виталик и Лёша сосредоточенно сближаются по дугам, оценивают стойки и руки противников. Виталик и Лёша обходят с двух углов, каждый коротко прокручивает свой меч; Серёга отвечает вращением красного клинка. Ложное движение заставляет всех перестроиться, и они занимают точную позицию начала второго видео. Сам бой ещё не начинается. P1 готова по входам; P2 после собственной P1. |
 | 62 | [Татуин: после погони — обратно к противостоянию](#scene-62) | Настоящий конец первого видео, начало второго как целевой финал; Серёга, Артём, Илюша, красная машина | Подъём после падения, остановка машины и возвращение Серёги, точная расстановка перед вторым роликом. P1 готова; P2 после собственной P1. |
+| 63 | [Храм ситхов: великие люди все на одно лицо](#scene-63) | Серёга, галерея собственных каменных статуй, портрет, тронный зал | Проходит по залам и искренне восхищается.30с Wan3.0, входы готовы; альтернативные2×15с. |
 
 ---
 
@@ -708,9 +709,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
-**Редакция активности · 20.10.2026, 00:55 МСК:** по прямой команде владельца все текущие промпты этой сцены переработаны на активное исполнение с первого кадра, непрерывные связки и короткий финальный акцент. В30с версиях сохранена плотность движения, без растягивания нескольких жестов на весь клип. Это новая редакция для будущих генераций; уже отправленные задачи используют прежний текст, дословно сохранённый в git и receipts. Основной движок — Seedance2.0, альтернативная вкладка30с не является разрешением на запуск. Сначала один15с тест A1 после сюжетной очереди и оценка владельца, затем решение об остальных танцах/музыке. Текстовая готовность не доказывает качество видео. Разбор и проверки: [активность28/49–51](reports/dance-music-energy-2026-10-20.md).
+**Редакция активности · 20.10.2026, 00:55 МСК:** по прямой команде владельца все текущие промпты этой сцены переработаны на активное исполнение с первого кадра, непрерывные связки и короткий финальный акцент. В30с версиях сохранена плотность движения, без растягивания нескольких жестов на весь клип. Это новая редакция для будущих генераций; уже отправленные задачи используют прежний текст, дословно сохранённый в git и receipts. Основной движок — Seedance2.0, альтернативная вкладка30с не является разрешением на запуск. Порядок и разрешение на новые попытки обновлены решением владельца25.10 ниже. Текстовая готовность не доказывает качество видео. Разбор и проверки: [активность28/49–51](reports/dance-music-energy-2026-10-20.md).
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"tags":["end_credits","dance","ensemble","10_part_sequence","two_engine_versions","ceremony_to_disco","character_identity"]} -->
+**Действующее решение владельца ·25.10.2026:** сначала сюжетная очередь и новый храм63, затем49 →50 →51, после них весь выбранный танцевальный комплект A1–A12 на Seedance2.0. Старые неудачные результаты не засчитывать как выполненную работу. A1/A2 уже находятся в активной генерации; не отменять и не дублировать их параллельно. Повторные попытки A1/A2 отдельно стоят после музыки и ждут завершения прежней попытки/проверки, затем выполняются по явному разрешению владельца. Технический success не означает приёмку. Прежний лимит «один тест, затем разрешение владельца» снят этой командой; проверка качества каждого результата и реальные входы A3/A12 обязательны. Wan B1–B11 — альтернативный комплект тех же номеров, не дополнительные танцы и не разрешение удваивать генерации.
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"NEEDS_RERENDER","duration_s":15,"dialogue":{"enabled":false,"language":null},"tags":["end_credits","dance","ensemble","10_part_sequence","two_engine_versions","ceremony_to_disco","character_identity"]} -->
 
 Wan 3.0 task `0d1f17c226834bfbb851d76ed32f9877` технически завершён 19.10.2026 11:52:11 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
@@ -740,11 +743,11 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 
 **Правка 16.10.2026:** из A8–A10 и B8–B10 убраны операторские и монтажные пометки («use only after…», «editorial cut / freeze»); их заменили нейтральным описанием начала и конца клипа. Механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
 
-**Готовность:** H28A/H28B сохранены как две версии света одной локации. Существуют 11 ранее утверждённых individual character sheets; 08.10 добавлен проверенный модельный лист Алеси по двум входным фото из указанной пользователем Topview-задачи. Дополнительно сохранены удачные постановочные кадры **P28** (пара лицом к лицу), **L28** (Серёга несёт Юлю) и **F28** (взаимный жест у лица). **R28A/R28B** сохранены отдельно только как вспомогательные кадры композиции/расстановки: individual character sheets всегда имеют приоритет внешности, а ошибки лица/кошачьей пластики из этих helpers нельзя переносить в генерацию. **C28** формируется только из чистого результата части 2; **S28** исправлен и сохранён: Юля сидит боком на правом плече, правая рука Серёги поддерживает бёдра, левая — голени; **G28** собран и проверен по individual sheets: девять людей/гуманоидов, маленькая Алеся и два обычных кота, без дублей. Scene 28: входы сохранены; новые танцы после команды 17.10 ограничены одним тестом A1, остальное ждёт его оценки. Части 1–2 имеют все входы; часть 3 запускается только после выбора C28 из чистого результата части 2. Видеогенерации прежней редакции уже запускались; фактические задачи и состояния — в очереди и телеметрии. Готовность текстов не означает готовность всех визуальных входов.
+**Готовность:** H28A/H28B сохранены как две версии света одной локации. Существуют 11 ранее утверждённых individual character sheets; 08.10 добавлен проверенный модельный лист Алеси по двум входным фото из указанной пользователем Topview-задачи. Дополнительно сохранены удачные постановочные кадры **P28** (пара лицом к лицу), **L28** (Серёга несёт Юлю) и **F28** (взаимный жест у лица). **R28A/R28B** сохранены отдельно только как вспомогательные кадры композиции/расстановки: individual character sheets всегда имеют приоритет внешности, а ошибки лица/кошачьей пластики из этих helpers нельзя переносить в генерацию. **C28** формируется только из чистого результата части 2; **S28** исправлен и сохранён: Юля сидит боком на правом плече, правая рука Серёги поддерживает бёдра, левая — голени; **G28** собран и проверен по individual sheets: девять людей/гуманоидов, маленькая Алеся и два обычных кота, без дублей. Scene28: входы сохранены; актуальное разрешение25.10 охватывает весь выбранный комплект A1–A12 после49–51. Части 1–2 имеют все входы; часть 3 запускается только после выбора C28 из чистого результата части 2. Видеогенерации прежней редакции уже запускались; фактические задачи и состояния — в очереди и телеметрии. Готовность текстов не означает готовность всех визуальных входов.
 
 **Драматургия:** имперская строевая церемония постепенно превращается в дискотеку, но никто этого не признаёт. Строгая имперская композиция уже освещена H28B-диско с первого кадра; отдельного светового пролога нет. Танец всё нелепее, лица всё так же официальны. В конце все попадают в общий парадный силуэт только на последний короткий акцент. Декорация не превращается в другую комнату: дискотечное оборудование встроено в тот же имперский ангар.
 
-**Правка владельца 17.10.2026, 16:11 МСК:** A1–A10/B1–B10 переработаны на энергичные странные движения и более крупные фигуры. Сначала разрешён ровно один 15-секундный тест A1 на Seedance 2.0; остальные новые танцевальные запуски ждут оценки теста. Существующие B3/B5–B9 продолжают генерироваться по прежним заданиям; эти правки не изменяют уже отправленные задачи. Старые тексты и хеши сохранены в git и receipts. Для A1/B1 три входа: H28B + Серёга + Юля; свет уже включён, пауза перед танцем убрана.
+**Правка владельца 17.10.2026, 16:11 МСК:** A1–A10/B1–B10 переработаны на энергичные странные движения и более крупные фигуры. Исторический лимит17.10 «один15с тест A1» отменён прямой командой25.10; качество новых результатов всё равно проверять. Существующие B3/B5–B9 продолжают генерироваться по прежним заданиям; эти правки не изменяют уже отправленные задачи. Старые тексты и хеши сохранены в git и receipts. Для A1/B1 три входа: H28B + Серёга + Юля; свет уже включён, пауза перед танцем убрана.
 
 **Короткий парный вариант · 20.10.2026:** по просьбе владельца добавлен отдельный дуэт Серёги и Юли: **A11→A12 (Seedance 2.0, 2×15 с)** или **B11 (Wan 3.0 / Seedance 2.5, 30 с)**. Это альтернатива парным вставкам длинного номера, а не обязательные дополнительные 30 секунд. Горизонтальная поддержка с раскрытыми руками → пол-оборота → постановка на ноги → один взаимный двухручный жест у лица → расхождение. Тайминг адаптирован для наших персонажей, не является покадровой копией. Разбор наблюдений и ограничений просмотра: [парный танец](reports/peacemaker-s2-couple-2026-10-20.md). Существующие A1–A10/B1–B10 и история их запусков сохранены; теперь в сцене 23 автономных блока. Для нового дуэта не подключать L28/S28: они закрепляют другую, сидячую/согнутую позу. Три существующих входа A11/B11 проверены; A12 требует настоящий результат A11. Подготовка текста не означает запуск или принятие; новые варианты автоматически не добавлены к разрешённой очереди.
 
@@ -8606,6 +8609,213 @@ Dry sand scuffs, short strained breaths, cloth rustle, offscreen engine decelera
 
 NEGATIVE PROMPT:
 worm emergence, giant mouth, collapsing pillar, sand geyser, repeated fall, replayed chase, attack or saber clash, early duel, red blade lit, injury or blood, fourth person, clones, face swaps, extra hilts, changing blade colours, levitating recovery, teleportation, car through people, driver on roof, car visible in final composition, spaceship, cats, modern city, western costume, static tableau, slow motion, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-63"></a>
+
+## Сцена 63 — Храм ситхов: великие люди все на одно лицо
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","sith_temple","statues","admiration","visual_comedy"]} -->
+
+**Контекст использования:** самостоятельная внутренняя сцена на планете ситхов. Предлагаемое монтажное место — после наружного исследования33, перед дальнейшими событиями в храме; это не требование получить кадр33. Место запуска отдельно: после текущего сюжетного блока59–61, затем63 →49 →50 →51 → все танцы28. Только одна выбранная30с попытка Wan3.0 в My First Board; альтернативные15с части не означают ещё два запуска.
+
+**Что происходит:** Серёга идёт по огромному заброшенному храму. На постаментах древние ситхи в разных пафосных властных позах, но у каждого его лицо и точная копия его одежды, высеченная в камне. Он искренне любуется скульптурами, чуть улыбается и одобрительно кивает. Через арку попадает в соседний зал: там самый величественный «он» восседает на троне. Серёга с ещё большим удовольствием рассматривает шедевр и идёт дальше. Ни реплики, ни подмигивания: смешно от его серьёзного восхищения собой.
+
+**Готовность:** четыре изображения доступны. Выбранная30с версия и P1 альтернативы не ждут предыдущего видео. Только P2 альтернативы требует настоящий конец собственной63P1. Статуи неподвижны; единственный живой человек — Серёга. Одежда статуй повторяет крой его робы, но целиком каменная.
+
+**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-63/S63-temple-gallery.png` (Первый зал: четыре древние статуи Серёги); @Image3 — `references/scenes/scene-63/S63-admiring-portrait.png` (Сходство живого лица и каменного портрета; восхищение); @Image4 — `references/scenes/scene-63/S63-throne-hall.png` (Второй зал: властная статуя Серёги на троне).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
+<figure><a href="references/scenes/scene-63/S63-temple-gallery.png" target="_blank" rel="noopener"><img src="references/scenes/scene-63/S63-temple-gallery.png" alt="Первый зал: четыре древние статуи Серёги"></a><figcaption>@Image2 — Первый зал: четыре древние статуи Серёги</figcaption></figure>
+<figure><a href="references/scenes/scene-63/S63-admiring-portrait.png" target="_blank" rel="noopener"><img src="references/scenes/scene-63/S63-admiring-portrait.png" alt="Сходство живого лица и каменного портрета; восхищение"></a><figcaption>@Image3 — Сходство живого лица и каменного портрета; восхищение</figcaption></figure>
+<figure><a href="references/scenes/scene-63/S63-throne-hall.png" target="_blank" rel="noopener"><img src="references/scenes/scene-63/S63-throne-hall.png" alt="Второй зал: властная статуя Серёги на троне"></a><figcaption>@Image4 — Второй зал: властная статуя Серёги на троне</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="63">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** В очереди выбран Wan3.0.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal solemn temple exploration with understated visual comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact individual Serega model sheet; highest authority for the living face and clothing AND the sculpted likeness/costume of every statue.
+@Image2 — first gallery layout, monumental scale, weathered stone material and warm sunset direction.
+@Image3 — medium admiration/likeness framing only; never overrides @Image1 identity.
+@Image4 — connected inner throne hall and fixed seated-statue end composition.
+These are reference photographs for staging, not frames to display in sequence. Generate real movement between them. The statues remain stone throughout.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in @Image1, mature pale face with its real proportions, bald crown and sparse light hair at the sides, faint short stubble. Same floor-length deep dark-purple robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One living person only. No anonymous emperor face, added beard, beauty filter or caricature. His natural skin and moving cloth are distinct from the sculptures.
+
+LOCATION / STATUE LOCK — CRITICAL:
+Two connected interior halls of the same abandoned Sith temple: ochre/red-brown sandstone, square columns, cracked tiled floor, eroded carvings, rubble confined to edges, damaged high roof and gold evening light through openings. No outdoor city detour. The first gallery has four monumental standing statues on bases, in different proud commanding poses: hands behind back, one imperious outstretched arm, crossed arms, hands on a pedestal. The inner hall has a huge seated ruler on a stone throne, flanked by two standing statues. EVERY statue has Serega's exact face, bald crown/sparse hair pattern and the SAME robe, folded collar, sleeves and sash silhouette as @Image1. Their heads are uncovered. Faces, blank eyes, hair, hands and clothes are ALL rigid homogeneous weathered ochre stone: pits, chisel marks and old cracks; no skin or actual purple cloth on statues. They are entirely inanimate and never blink, breathe, turn, smile or move. Preserve distinct poses and fixed bases; never clone the living man or transform him into stone.
+
+PROPS / STORY LOCK — CRITICAL:
+Empty hands; no drawn saber, basket, map, computer, ship, companions or summoned objects in this gallery passage. This is an autonomous interior insert, not a replay of the exterior exploration. His admiration is sincere; the film never explains the resemblance in dialogue. Do not stage a supernatural encounter or battle.
+
+START STATE:
+Serega is already inside the first gallery, entering from the left side of the aisle. He is mid-step, looking ahead; the nearest statue is just coming into his eye line.
+
+TIMELINE:
+[0:00–0:06] — THE GALLERY
+A low eye-level 28mm lateral dolly travels beside Serega as he walks steadily between immense bases. Parallax reveals the first commanding statue above him, its carved face unmistakably his own. He lifts his eyes and slows only slightly, never freezes.
+[0:06–0:12] — EXCELLENT TASTE
+Cut on his upward glance to a 50mm medium three-quarter view like @Image3. Real Serega and his huge stone likeness share the frame. His mouth corners lift into a small sincerely pleased smile. He makes one quiet approving nod and keeps walking; the statue does nothing.
+[0:12–0:18] — AN ENTIRE DYNASTY
+Resume a moving 35mm side view. Two successive column gaps reveal different fixed sovereign poses with the same face and carved robe. He looks from the crossed-arm statue to the imperious outstretched-hand statue with growing appreciation, then crosses the visible connecting arch into the next hall.
+[0:18–0:24] — THE THRONE
+Camera follows through the arch and widens with him, revealing @Image4: the largest self-portrait seated imperiously on a throne between two standing portraits. He takes two more steps along the open aisle, raises his chin and visibly savours this discovery.
+[0:24–0:30] — A CONNOISSEUR MOVES ON
+Medium tracking reaction: an unforced admiring smile, one last appreciative look up at the seated face. He turns his eyes toward the next doorway and continues out toward frame right while the camera glides slightly wider, leaving the mighty stone ruler behind. No final freeze or statue movement.
+
+END STATE:
+He is moving toward the next interior doorway at frame right, smiling faintly; the throne sculpture and its two attendants remain immobile in the inner hall. No new story object is discovered.
+
+CAMERA / SPACE:
+Keep the living man progressing left-to-right through the gallery and arch into the inner hall. Eye-line cuts connect his look to the fixed sculpture he is actually passing. Use 28–35mm moving architecture shots and a 50mm medium reaction with readable face; camera remains physically outside stone. One coherent connected floor plan, visible foot contact and natural walking speed. No fast orbit, wide-angle face distortion, montage of still photographs or slideshow transitions.
+
+PERFORMANCE:
+Natural continuous walking, real weight transfer and robe response. He admires the sculptures as magnificent works of art: eyes lead the upward gaze, eyebrows soften and rise slightly, then a restrained delighted smile and one small approving nod. His dignity and the solemn framing make the resemblance funny. No mugging, wink at camera, pointing gag, belly laugh, fear, overacting or copying every statue pose. Only living Serega changes expression.
+
+LIGHTING / MATERIALS:
+Warm low sunset through the broken high roof; gold shafts and drifting dust, ochre stone in deep brown shadow, soft reflected light keeps Serega's eyes readable. Pitted matte stone with old erosion; purple cloth folds move on the living man only. Photoreal feature-film skin and material detail, stable light direction across cuts.
+
+AUDIO:
+Measured bootfalls on grit and tile with long temple reverberation, soft cloth movement, breathing, faint wind through the broken roof. Quiet solemn atmosphere. No speech, narrator, chanting, laughter track, vocals or generated music; no subtitles or written explanations.
+
+NEGATIVE PROMPT:
+living statues, statue blink, moving stone lips or cloth, flesh on sculptures, coloured pupils on statues, purple fabric on statues, anonymous hooded Sith faces, different portrait identities, extra living Seregas, twins, face swap, costume change, stone transformation, ghosts, monsters, battle, red glowing eyes, lava, black basalt arena, modern museum, display labels, computer, ship, basket, ignited weapon, extra limbs, sliding feet, teleportation, frozen living actor, slideshow, comic exaggeration, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Альтернатива2×15с:** P1 использует те же4 картинки; P2 дополнительно настоящий конец своей P1, с проверкой стыка. Сейчас эти две части не выбраны к отдельному запуску.
+
+#### 63 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal solemn temple exploration with understated visual comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact individual Serega model sheet; highest authority for the living face and clothing AND the sculpted likeness/costume of every statue.
+@Image2 — first gallery layout, monumental scale, weathered stone material and warm sunset direction.
+@Image3 — medium admiration/likeness framing only; never overrides @Image1 identity.
+@Image4 — connected inner throne hall and fixed seated-statue end composition.
+These are reference photographs for staging, not frames to display in sequence. Generate real movement between them. The statues remain stone throughout.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in @Image1, mature pale face with its real proportions, bald crown and sparse light hair at the sides, faint short stubble. Same floor-length deep dark-purple robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One living person only. No anonymous emperor face, added beard, beauty filter or caricature. His natural skin and moving cloth are distinct from the sculptures.
+
+LOCATION / STATUE LOCK — CRITICAL:
+Two connected interior halls of the same abandoned Sith temple: ochre/red-brown sandstone, square columns, cracked tiled floor, eroded carvings, rubble confined to edges, damaged high roof and gold evening light through openings. No outdoor city detour. The first gallery has four monumental standing statues on bases, in different proud commanding poses: hands behind back, one imperious outstretched arm, crossed arms, hands on a pedestal. The inner hall has a huge seated ruler on a stone throne, flanked by two standing statues. EVERY statue has Serega's exact face, bald crown/sparse hair pattern and the SAME robe, folded collar, sleeves and sash silhouette as @Image1. Their heads are uncovered. Faces, blank eyes, hair, hands and clothes are ALL rigid homogeneous weathered ochre stone: pits, chisel marks and old cracks; no skin or actual purple cloth on statues. They are entirely inanimate and never blink, breathe, turn, smile or move. Preserve distinct poses and fixed bases; never clone the living man or transform him into stone.
+
+PROPS / STORY LOCK — CRITICAL:
+Empty hands; no drawn saber, basket, map, computer, ship, companions or summoned objects in this gallery passage. This is an autonomous interior insert, not a replay of the exterior exploration. His admiration is sincere; the film never explains the resemblance in dialogue. Do not stage a supernatural encounter or battle.
+
+START STATE:
+Serega is already inside the first gallery at the left side of the aisle, mid-step, approaching the first statue in @Image2.
+
+TIMELINE:
+[0:00–0:05] — FIRST PORTRAIT
+28mm lateral track beside his continuous left-to-right walk. A column clears the commanding statue on its base; the face and carved collar are unmistakably his. He looks up, eyebrows rising with interest.
+[0:05–0:10] — SINCERE ADMIRATION
+Cut on his gaze to the medium 50mm two-subject framing of @Image3. Living face and huge stone portrait are visible together. A small sincerely delighted smile develops; he gives one restrained approving nod while continuing forward, not posing for camera.
+[0:10–0:15] — ANOTHER GREAT RULER
+Return to a moving 35mm side view. He passes the next differently posed self-portrait and approaches the visible arch between halls. End mid-stride just before crossing the arch, head beginning to turn toward the room beyond. No throne reveal yet.
+
+END STATE:
+Serega is mid-stride immediately before the connecting arch, body moving right, head beginning its turn into the inner hall. Preserve this actual moving state for Part2.
+
+CAMERA / SPACE:
+Keep the living man progressing left-to-right through the gallery and arch into the inner hall. Eye-line cuts connect his look to the fixed sculpture he is actually passing. Use 28–35mm moving architecture shots and a 50mm medium reaction with readable face; camera remains physically outside stone. One coherent connected floor plan, visible foot contact and natural walking speed. No fast orbit, wide-angle face distortion, montage of still photographs or slideshow transitions.
+
+PERFORMANCE:
+Natural continuous walking, real weight transfer and robe response. He admires the sculptures as magnificent works of art: eyes lead the upward gaze, eyebrows soften and rise slightly, then a restrained delighted smile and one small approving nod. His dignity and the solemn framing make the resemblance funny. No mugging, wink at camera, pointing gag, belly laugh, fear, overacting or copying every statue pose. Only living Serega changes expression.
+
+LIGHTING / MATERIALS:
+Warm low sunset through the broken high roof; gold shafts and drifting dust, ochre stone in deep brown shadow, soft reflected light keeps Serega's eyes readable. Pitted matte stone with old erosion; purple cloth folds move on the living man only. Photoreal feature-film skin and material detail, stable light direction across cuts.
+
+AUDIO:
+Measured bootfalls on grit and tile with long temple reverberation, soft cloth movement, breathing, faint wind through the broken roof. Quiet solemn atmosphere. No speech, narrator, chanting, laughter track, vocals or generated music; no subtitles or written explanations.
+
+NEGATIVE PROMPT:
+living statues, statue blink, moving stone lips or cloth, flesh on sculptures, coloured pupils on statues, purple fabric on statues, anonymous hooded Sith faces, different portrait identities, extra living Seregas, twins, face swap, costume change, stone transformation, ghosts, monsters, battle, red glowing eyes, lava, black basalt arena, modern museum, display labels, computer, ship, basket, ignited weapon, extra limbs, sliding feet, teleportation, frozen living actor, slideshow, comic exaggeration, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 63 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal solemn temple exploration with understated visual comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of THIS scene63 Part1, fixing the moving start state, geography and light. Continue its final frame; do not substitute a generated still or an unrelated scene.
+@Image1 — exact individual Serega model sheet; highest authority for the living face and clothing AND the sculpted likeness/costume of every statue.
+@Image2 — first gallery layout, monumental scale, weathered stone material and warm sunset direction.
+@Image3 — medium admiration/likeness framing only; never overrides @Image1 identity.
+@Image4 — connected inner throne hall and fixed seated-statue end composition.
+These are reference photographs for staging, not frames to display in sequence. Generate real movement between them. The statues remain stone throughout.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in @Image1, mature pale face with its real proportions, bald crown and sparse light hair at the sides, faint short stubble. Same floor-length deep dark-purple robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One living person only. No anonymous emperor face, added beard, beauty filter or caricature. His natural skin and moving cloth are distinct from the sculptures.
+
+LOCATION / STATUE LOCK — CRITICAL:
+Two connected interior halls of the same abandoned Sith temple: ochre/red-brown sandstone, square columns, cracked tiled floor, eroded carvings, rubble confined to edges, damaged high roof and gold evening light through openings. No outdoor city detour. The first gallery has four monumental standing statues on bases, in different proud commanding poses: hands behind back, one imperious outstretched arm, crossed arms, hands on a pedestal. The inner hall has a huge seated ruler on a stone throne, flanked by two standing statues. EVERY statue has Serega's exact face, bald crown/sparse hair pattern and the SAME robe, folded collar, sleeves and sash silhouette as @Image1. Their heads are uncovered. Faces, blank eyes, hair, hands and clothes are ALL rigid homogeneous weathered ochre stone: pits, chisel marks and old cracks; no skin or actual purple cloth on statues. They are entirely inanimate and never blink, breathe, turn, smile or move. Preserve distinct poses and fixed bases; never clone the living man or transform him into stone.
+
+PROPS / STORY LOCK — CRITICAL:
+Empty hands; no drawn saber, basket, map, computer, ship, companions or summoned objects in this gallery passage. This is an autonomous interior insert, not a replay of the exterior exploration. His admiration is sincere; the film never explains the resemblance in dialogue. Do not stage a supernatural encounter or battle.
+
+START STATE:
+Begin on the exact final frame of @Video1. Continue the existing step, camera direction, robe motion and head turn at the connecting arch with no restart or opening tableau.
+
+TIMELINE:
+[0:00–0:04] — THROUGH THE ARCH
+Continue the previous moving shot seamlessly. He completes the step through the arch; camera follows beside him with physically continuous parallax and no replay of the nod or first gallery.
+[0:04–0:09] — THE GREATEST PORTRAIT
+The new angle opens to the throne hall in @Image4. Reveal the huge seated self-portrait with rigid hands on its armrests and its two differently posed attendants. He takes two steps, looks up at the seated face, and his restrained pleased smile grows with unmistakable admiration.
+[0:09–0:15] — SATISFIED VISITOR
+A motivated medium 50mm reaction shows the approving eyes and small smile; then the camera glides wider as he resumes his purposeful walk toward the next doorway at frame right. The giant seated sculpture stays completely motionless. End in movement, with the temple continuing beyond frame.
+
+END STATE:
+Serega moves toward the next doorway at frame right with a faint satisfied smile. The seated statue and two attendants remain fixed in the inner hall; no supernatural event or new prop.
+
+CAMERA / SPACE:
+Keep the living man progressing left-to-right through the gallery and arch into the inner hall. Eye-line cuts connect his look to the fixed sculpture he is actually passing. Use 28–35mm moving architecture shots and a 50mm medium reaction with readable face; camera remains physically outside stone. One coherent connected floor plan, visible foot contact and natural walking speed. No fast orbit, wide-angle face distortion, montage of still photographs or slideshow transitions.
+
+PERFORMANCE:
+Natural continuous walking, real weight transfer and robe response. He admires the sculptures as magnificent works of art: eyes lead the upward gaze, eyebrows soften and rise slightly, then a restrained delighted smile and one small approving nod. His dignity and the solemn framing make the resemblance funny. No mugging, wink at camera, pointing gag, belly laugh, fear, overacting or copying every statue pose. Only living Serega changes expression.
+
+LIGHTING / MATERIALS:
+Warm low sunset through the broken high roof; gold shafts and drifting dust, ochre stone in deep brown shadow, soft reflected light keeps Serega's eyes readable. Pitted matte stone with old erosion; purple cloth folds move on the living man only. Photoreal feature-film skin and material detail, stable light direction across cuts.
+
+AUDIO:
+Measured bootfalls on grit and tile with long temple reverberation, soft cloth movement, breathing, faint wind through the broken roof. Quiet solemn atmosphere. No speech, narrator, chanting, laughter track, vocals or generated music; no subtitles or written explanations.
+
+NEGATIVE PROMPT:
+living statues, statue blink, moving stone lips or cloth, flesh on sculptures, coloured pupils on statues, purple fabric on statues, anonymous hooded Sith faces, different portrait identities, extra living Seregas, twins, face swap, costume change, stone transformation, ghosts, monsters, battle, red glowing eyes, lava, black basalt arena, modern museum, display labels, computer, ship, basket, ignited weapon, extra limbs, sliding feet, teleportation, frozen living actor, slideshow, comic exaggeration, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

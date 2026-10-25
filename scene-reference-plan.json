@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-14T09:57:15Z",
+  "updated_at": "2026-10-25T09:29:18.695660Z",
   "drive_root_folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
   "rules": {
     "save_before_next_generation": true,
@@ -499,9 +499,22 @@
         "Real43 final saved; both wings raised, requires owner continuity decision. Existing44 task must not be resubmitted."
       ],
       "checked_at": "2026-10-17T03:14:11.933Z"
+    },
+    "63": {
+      "priority": "ready_before_music_and_dances",
+      "status": "ready",
+      "manifest": "references/scenes/scene-63/manifest.json",
+      "reference_count": 4,
+      "generated_reference_count": 3,
+      "prompt_mapping_count": 3,
+      "manifest_schema_version": 2,
+      "canonical_state": "active",
+      "remaining": [],
+      "topview_task_ids": [],
+      "checked_at": "2026-10-25T09:29:18.695660Z"
     }
   },
-  "canonical_master_sha256": "1c2bc2ab2d9cab08748f927972c91f88261f713eeedb6f03dabe61cc46a839ae",
+  "canonical_master_sha256": "9038afa5cd758adf2cda6fd70b7933a988ffa474f1bdbf0d35a13b0c155fd80c",
   "manifest_contract_complete": true,
   "total_prompt_mappings": 58,
   "source_of_truth": "GitHub main/video-prompts.md; derived reference index",

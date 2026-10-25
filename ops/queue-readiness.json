@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "35415bed3d917c03fa244d0990a4a0afdd962859611d09e98624541371bced96",
+  "source_queue_sha256": "ca1aec6a3f69d8992c546c46250c5123521187573b2f72f7f181066c51def566",
   "source_task_map_sha256": "5de12926d1cf65db73d866bf2b96be1c290acb6d3648e583a7e72e198c45d35b",
   "topview_checked_at": "2026-10-25T08:50:30Z",
   "items": [
@@ -172,7 +172,7 @@
       "part_label": "28 A3",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Image4: ждёт результат 28 A2",
+      "text": "@Image4: ждёт результат 28 A2 (ещё не запущен)",
       "queue_state": "blocked_inputs"
     },
     {
@@ -336,8 +336,35 @@
       "ready": false,
       "text": "@Video1: ждёт результат 62 · Seedance 2.0 часть 1 (ещё не запущен)",
       "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S63-WAN30",
+      "scene_id": 63,
+      "part_label": "63",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S28-A1-R2-20261025",
+      "scene_id": 28,
+      "part_label": "28 A1",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "Ждёт подтверждённый результат S28-A1-TEST-20261017",
+      "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S28-A2-R2-20261025",
+      "scene_id": 28,
+      "part_label": "28 A2",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "Ждёт подтверждённый результат S28-A2-20261023",
+      "queue_state": "blocked_inputs"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-25T08:50:34.934483Z"
+  "checked_at": "2026-10-25T09:29:54.435353Z"
 }
