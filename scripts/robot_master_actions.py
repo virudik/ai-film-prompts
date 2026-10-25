@@ -38,6 +38,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import master_scene_edit as mse          # noqa: E402
 import master_slow_edit as slow_edit     # noqa: E402
 import process_owner_decisions as pod    # noqa: E402
+import operation_journal                 # noqa: E402
 
 CLAIM = pod.CLAIM
 RETIRE = ("in_film", "scene_not_needed")
@@ -108,6 +109,9 @@ def load_state(root):
         st[name] = json.loads(st[name])
     ps = root / "project-status.json"
     st["project-status.json"] = json.loads(ps.read_text(encoding="utf-8-sig")) if ps.exists() else {}
+    archive = root / operation_journal.ARCHIVE
+    if archive.exists():
+        st[operation_journal.ARCHIVE] = json.loads(archive.read_text(encoding="utf-8"))
     return st
 
 
@@ -145,7 +149,6 @@ def drop_task_telemetry(st, scene, task_id, stamp):
         "outcome": "owner_stopped_waiting_physical_topview_task_unchanged",
         "verification": "explicit owner panel decision; physical slot counts and provider task status unchanged"
     })
-    journal["events"] = journal["events"][-journal.get("retention_max_events", 500):]
 
 
 # --------------------------------------------------------------------------- planning
@@ -385,6 +388,11 @@ def evaluate(rows, st, *, now=None):
         g.verdict = "apply"
 
     files = {}
+    if serialise(operation_journal.JOURNAL, st[operation_journal.JOURNAL]) != original[operation_journal.JOURNAL]:
+        retained = operation_journal.trim(st[operation_journal.JOURNAL], st.get(operation_journal.ARCHIVE))
+        if retained:
+            st[operation_journal.JOURNAL], archive = retained
+            files[operation_journal.ARCHIVE] = dumps(archive)
     for n in FILES:
         new = serialise(n, st[n])
         if new != original[n]:
@@ -539,10 +547,11 @@ def run(root, store, git, *, mode, now=None, sync=True):
         tmp_master = root / ".robot-master.tmp"
         tmp_status = root / ".robot-status.tmp"
         try:
-            for name, text in files.items():
+            for name, text in sorted(files.items()):
                 if name == "video-prompts.md":
                     tmp_master.write_text(text, encoding="utf-8", newline="")
                 else:
+                    (root / name).parent.mkdir(parents=True, exist_ok=True)
                     (root / name).write_text(text, encoding="utf-8", newline="")
             master_for_check = tmp_master if "video-prompts.md" in files else root / "video-prompts.md"
             status, bad = build_status(root, master_for_check, tmp_status, synced_at)

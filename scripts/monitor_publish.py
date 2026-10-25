@@ -23,6 +23,7 @@ Never approves, reruns or deletes anything; editorial fields are not touched.
 import json, sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+import operation_journal
 
 
 def main():
@@ -65,8 +66,7 @@ def main():
     j["events"].append({"timestamp": T, "operation": cyc.get("operation", "claude_monitor_hourly_cycle"), "scene_id": None,
                         "task_fingerprint": None, "previous_status": cyc.get("previous_status", ""), "new_status": cyc.get("new_status", ""),
                         "source_checkpoint": T, "outcome": "canonical_and_telemetry_verified_pending_public_readback", "verification": cyc.get("verification", "")})
-    j["events"] = j["events"][-j.get("retention_max_events", 500):]
-    save("topview-operation-journal.json", j)
+    operation_journal.write(repo, j)
 
     t = load("topview-status.json")
     t["checked_at"] = T

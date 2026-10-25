@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-25T22:56:39.918Z",
+  "checked_at": "2026-10-25T23:18:16.521Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "c8fcab70f927e64c25311a147964b0a73fe01d6a",
-      "mirror_sha256": "5d436cf89ef92f4eb3677d250eee6f183299d6f2dd3c738333973f269bdff7cd",
+      "github_blob": "85d8386895581555ba9c46812e627f6d670aae2f",
+      "mirror_sha256": "d13c26a403d990e1582d391e62879922f0364e89f0a4719a501b7c02df9ad19f",
       "match": true,
       "drive_copy_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
       "drive_copy_match": false,
@@ -20,8 +20,8 @@
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "github_blob": "4a5b1ba42e89d8269f53c1d151491e1c4046311d",
-      "mirror_sha256": "fdfb712c5139f4f644b089a6c4e771be784263dce278f8dffeb4c6ced0e988b7",
+      "github_blob": "177568db8bcfc9fb7a317cf448d8a0a8e6ad60f6",
+      "mirror_sha256": "33b534470b678806ea1758bfbff529331286305792c263435d577057d18ba3ff",
       "match": true,
       "drive_copy_sha256": "3bf193dc33bc2cebbae3249f9658e43b9765dfb3e97efccd64a4181a3f498c1e",
       "drive_copy_match": false,

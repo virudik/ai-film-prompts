@@ -65,6 +65,20 @@ class RegisterTests(unittest.TestCase):
         reg = {"active_work": [{"work_id": "A", "status": "in_progress", "done": ["x"]}], "completed_work": []}
         self.assertIsNone(tsf.trim_register(reg, None))
 
+    def test_both_history_fields_keep_pending_work_and_are_idempotent(self):
+        work = {"work_id": "A", "status": "in_progress", "done": list(range(13)),
+                "completed": list(range(14)), "next_action": "Wait for real result", "blockers": ["input"]}
+        live, archive, moved, _ = tsf.trim_register({"active_work": [work]}, None)
+        self.assertEqual(moved, 0)
+        result = live["active_work"][0]
+        for key, cut in (("done", 3), ("completed", 4)):
+            saved = next(x[key] for x in archive["trimmed_done"] if key in x)
+            self.assertEqual(saved + result[key], work[key])
+            self.assertEqual(result[key + "_archived_points"], cut)
+        self.assertEqual(result["blockers"], work["blockers"])
+        self.assertEqual(result["next_action"], work["next_action"])
+        self.assertIsNone(tsf.trim_register(live, archive))
+
 
 class QueueTests(unittest.TestCase):
     def queue(self):
@@ -80,7 +94,7 @@ class QueueTests(unittest.TestCase):
             {"id": "NODATE", "scene_id": 6, "state": "submitted"}]}
 
     def test_moves_only_finished_and_old(self):
-        q, arch, n = tsf.trim_queue(self.queue(), None, NOW)
+        q, arch, n = tsf.trim_queue(self.queue(), None, NOW, terminal_task_ids={"t" * 32})
         self.assertEqual([i["id"] for i in q["items"]], ["W", "BL", "H", "NEW", "NODATE"])
         self.assertEqual(n, 3)
         self.assertEqual({i["id"] for i in arch["items"]}, {"SUP", "CAN", "OLD"})
@@ -103,6 +117,23 @@ class QueueTests(unittest.TestCase):
             self.assertEqual(pq["archived_items_file"], "projects/p1/" + tsf.QUEUE_ARCHIVE)
             self.assertTrue((Path(d) / "projects/p1" / tsf.CHECKPOINT_ARCHIVE).is_file())
             self.assertEqual(tsf.run(d, write=True, now=NOW), [])
+
+    def test_active_or_unconfirmed_submitted_tasks_stay_live(self):
+        result = tsf.trim_queue(self.queue(), None, NOW, active_task_ids={"t" * 32}, terminal_task_ids={"t" * 32})
+        self.assertIn("OLD", [x["id"] for x in result[0]["items"]])
+        result = tsf.trim_queue(self.queue(), None, NOW)
+        self.assertIn("OLD", [x["id"] for x in result[0]["items"]])
+
+    def test_root_only_never_changes_project_files(self):
+        with tempfile.TemporaryDirectory() as d:
+            write(d, tsf.QUEUE, self.queue())
+            write(d, "projects/projects.json", {"projects": [{"id": "p1"}]})
+            project = "projects/p1/" + tsf.QUEUE
+            write(d, project, self.queue())
+            before = (Path(d) / project).read_bytes()
+            tsf.run(d, write=True, now=NOW, root_only=True)
+            self.assertEqual((Path(d) / project).read_bytes(), before)
+            self.assertFalse((Path(d) / "projects/p1" / tsf.QUEUE_ARCHIVE).exists())
 
 
 class CanonHealthServiceSizeTests(unittest.TestCase):

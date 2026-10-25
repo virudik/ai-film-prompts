@@ -1,28 +1,8 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T23:11:55.711Z",
+  "last_updated_at": "2026-10-25T23:21:43.952564Z",
   "active_work": [
-    {
-      "work_id": "PROJECT-CLEANUP-20261026",
-      "title": "Безопасная чистка и архивирование служебных файлов",
-      "status": "in_progress",
-      "updated_at": "2026-10-25T23:11:55.711Z",
-      "owner_request": "Делай — первые четыре пункта аудита",
-      "completed": [
-        "Read-only audit completed; existing data and archive contracts checked."
-      ],
-      "next_action": "Implement lossless journal retention and register fixes; verify dependencies before root cleanup; separate Relay history; tests and publication.",
-      "canonical_refs": [
-        "scripts/trim_service_files.py",
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "topview-operation-journal.json"
-      ],
-      "constraints": [
-        "No media cleanup, new generation, schedule change or fabricated production receipts.",
-        "Preserve all unfinished work and dependency IDs; root scope only."
-      ]
-    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -131,18 +111,6 @@
       "blocked": [
         "Native Images UI: browser host policy denied chatgpt.com; Browser connector then removed."
       ]
-    },
-    {
-      "work_id": "PROJECT-AUDIT-20261023",
-      "title": "Сверка прерываний, изображений и дублей автоматизации",
-      "status": "gallery_restored_verified",
-      "updated_at": "2026-10-23T01:39:54.809Z",
-      "next_action": "35 originals restored and native listing verified as image_gen. Technical historical root cause not established. No image regeneration or further duplicate upload needed.",
-      "canonical_refs": [
-        "reports/project-audit-2026-10-23.json"
-      ],
-      "automation_changes_verified": true,
-      "gallery_repair_report": "reports/image-gallery-repair-2026-10-23.json"
     },
     {
       "work_id": "SEREGIUS-PLAN-20261023",
@@ -496,7 +464,7 @@
         "24Oct: genuine S42-P1 result was verified against the private archive, actual final3s and final frame were saved with SHA/provenance, and sampled continuity QC confirmed exactly Artem-left/green, Serega-centre/red, Ilyusha-right/blue. S42-P2 is ready at priority0.2; this is technical input QC, not owner approval."
       ],
       "next_actions": [
-        "Six video slots were occupied in the current full scan. S52-P2 remains first only after actual S52-P1 success/QC; otherwise S42-P2 is the next ready item with a genuine P1 ending. S56-P1 and S48-P1 are independent ready openings under the owner cut. Fresh full scan and CAS claim before submit; no repeats; Roscosmos paused."
+        "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -510,10 +478,10 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Six video slots were occupied in the current full scan. S52-P2 remains first only after actual S52-P1 success/QC; otherwise S42-P2 is the next ready item with a genuine P1 ending. S56-P1 and S48-P1 are independent ready openings under the owner cut. Fresh full scan and CAS claim before submit; no repeats; Roscosmos paused.",
+      "next_action": "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries.",
       "blockers": [
         "S44: actual43 ends with both wings raised, invalid for required left wing at45deg; no auto-retry.",
-        "52P2 requires actual new52P1 end;51B requires actual new51A end.49/50/51 launch authorization is active from23Oct.",
+        "52P2 requires actual new52P1 end; current51A–F are independent.49/50/51 launch authorization is active from23Oct.",
         "S52P2 still waits for actual S52P1 success and QC. S42P2 is ready with actual P1 last3s; S56P1 and S48P1 are independent ready openings under the owner cut."
       ],
       "last_resume_check": "2026-10-23T17:55:00Z",
@@ -726,9 +694,10 @@
       },
       "current_run_id": "chatgpt-automation-20261023T1155Z-maintenance",
       "previous_next_action_before_priority_20261023": "6/6 slots occupied. On each free slot run next ready authorized item by canonical priority; skip blocked inputs without reserving a slot. Selected49A-F,50A/B,51A are waiting;52P2 requires actual52P1 end and51B actual51A end. Do not repeat submitted52P1 or28A1. Raznoe paused.",
-      "updated_at": "2026-10-23T23:03:02.413Z",
+      "updated_at": "2026-10-25T23:17:11.868890Z",
       "done_archived_points": 14,
-      "done_archive": "archive/work-resume-register-archive.json"
+      "done_archive": "archive/work-resume-register-archive.json",
+      "resume_history_archive": "archive/work-resume-register-archive.json"
     },
     {
       "work_id": "FILM-20261015-ALL-READY",
@@ -749,7 +718,7 @@
         "23Oct01:59MSK: full13-board/19-page/919-task scan found all six prior active tasks success and0active. S16-P2 original preserved in Library, genuine final PNG/contact sheet saved with SHA/QC; S42-P1 now has exact actual @Image6 and is waiting_for_slot. No editorial approval inferred."
       ],
       "next_actions": [
-        "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit."
+        "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -775,7 +744,7 @@
         "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
+      "next_action": "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -830,9 +799,10 @@
         "open_owner_tasks_chatgpt_any": 0
       },
       "previous_next_action_before_priority_20261023": "S42-P1 готова с настоящим концом S16-P2. Перед единственным Create: fresh main/owner decisions, полный скан, lock/CAS claim, точные6изображений и полный prompt, Seedance2.0/15s/720p/16:9/qty1/Unlimited0. Затем42P2→56→48→57→58 только по настоящим результатам.",
-      "updated_at": "2026-10-23T02:25:21.662Z",
+      "updated_at": "2026-10-25T23:17:11.868890Z",
       "done_archived_points": 12,
-      "done_archive": "archive/work-resume-register-archive.json"
+      "done_archive": "archive/work-resume-register-archive.json",
+      "resume_history_archive": "archive/work-resume-register-archive.json"
     },
     {
       "work_id": "FILM-20261016-ALIEN-ROCK-WOOKIEES",
@@ -919,7 +889,7 @@
         "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md."
       ],
       "next_actions": [
-        "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit."
+        "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries."
       ],
       "canonical_refs": [
         "references/scenes/scene-45/manifest.json",
@@ -936,7 +906,7 @@
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
-      "next_action": "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Roscosmos (raznoe) paused; new Raznoe (misc) has no launch authorization. Fresh full scan and CAS claim before any submit.",
+      "next_action": "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries.",
       "blockers": [
         "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
@@ -969,9 +939,10 @@
         ]
       },
       "previous_next_action_before_priority_20261023": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
-      "updated_at": "2026-10-23T02:25:21.662Z",
+      "updated_at": "2026-10-25T23:17:11.868890Z",
       "done_archived_points": 34,
-      "done_archive": "archive/work-resume-register-archive.json"
+      "done_archive": "archive/work-resume-register-archive.json",
+      "resume_history_archive": "archive/work-resume-register-archive.json"
     },
     {
       "work_id": "FILM-20261017-OWNER-FIXES",
@@ -991,7 +962,7 @@
         "19Oct14:05:18UTC: S37-SEED20-P1 submitted exactly once via authenticated Topview website, taske6a5cf9a3d04413e943c9bbbff9e1f73; Seedance2.0/15s/720p/16:9/qty1/4inputs/Unlimited0, exact normalized prompt verified. Post-scan11boards/17pages/911tasks/6active/0free."
       ],
       "next_actions": [
-        "At every free slot first52P2 then58P2 if actual P1 ends are saved/QC checked; otherwise next ready28(A2-A12),49A-F,50A-B,51A-B in that order. A1 already submitted. Review each new28 result when available before further28 dispatch in that cycle; no automatic retries. A3 waits NEW A2 frame; A12 waits NEW A11 clip;51B waits51A. Raznoe paused. Fresh full scan and CAS claim before any submit."
+        "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries."
       ],
       "canonical_refs": [
         "video-prompts.md",
@@ -1004,7 +975,7 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51A–F are independent, all inputs available. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+      "next_action": "Continue by fresh ops/topview-launch-queue.json priorities and actual input/QC readiness; respect current owner decisions, one-attempt limits and all canonical references/blockers. Current selected S51A–F are independent; no old 51B→51A gate. Recheck all slots, prompt SHA, real inputs and CAS immediately before any authorized Unlimited0 submit; no other-project launches or automatic retries.",
       "last_observed_topview": {
         "checked_at": "2026-10-19T17:54:52Z",
         "boards": 11,
@@ -1032,10 +1003,11 @@
         "S37-SEED20-P2 requires the genuine S37 Part1 result/end frame with provenance, SHA and QC."
       ],
       "previous_next_action_before_priority_20261023": "Wait for genuine S37 Part1 success; archive generated result/end frame with provenance/SHA/QC before S37-SEED20-P2. Continue other authorized ready items only after a fresh complete scan shows a free Unlimited/0 slot.",
-      "updated_at": "2026-10-25T11:01:11.434Z",
+      "updated_at": "2026-10-25T23:17:11.868890Z",
       "done_archived_points": 11,
       "done_archive": "archive/work-resume-register-archive.json",
-      "previous_next_action_before_all_twelve": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches."
+      "previous_next_action_before_all_twelve": "Follow fresh ops/topview-launch-queue.json priority/readiness: story →63→49→50→51→28 A1–A12. Skip genuinely blocked inputs without reserving a slot. Preserve active A1/A2; authorized R2 waits for terminal state and review. A3 needs fresh A2-R2 frame; A12 needs A11 video;51B needs51A video. Use25Oct prompt SHA, saved inputs, fresh scan and CAS claim. No extra retries, Wan alternatives or other-project launches.",
+      "resume_history_archive": "archive/work-resume-register-archive.json"
     },
     {
       "work_id": "FILM-20261018-SOUNDTRACK",
@@ -1238,6 +1210,46 @@
   ],
   "completed_work": [
     {
+      "work_id": "PROJECT-CLEANUP-20261026",
+      "title": "Безопасная чистка и архивирование служебных файлов",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-25T23:21:43.952564Z",
+      "owner_request": "Делай — первые четыре пункта аудита",
+      "completed": [
+        "Root checkpoint/history safely archived; two provider-success queue items archived with exact task IDs and prompt hashes; remaining items/readiness unchanged.",
+        "17 prior active works reviewed: one completed restoration closed,16 ongoing/planned retained; done and completed histories both bounded; obsolete resume order archived in4 entries.",
+        "Historical Relay setup moved verbatim; all current operational rules and original receipt/dedup data retained.",
+        "Operation journal has lossless500-event retention in both publishers, same CAS commit, archive-first writes and safe interrupted/rejected-push retry; archive starts at first real overflow.",
+        "285 tests passed; site/health/certificate/D7 checks passed. No new automation, video, claim, credit use or media modifications."
+      ],
+      "next_action": "Normal authorized project work from fresh main. First real journal overflow and Relay slots-event require their own production evidence; do not fabricate them.",
+      "canonical_refs": [
+        "reports/service-cleanup-2026-10-26.json",
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "ops/ROBOT-TELEMETRY.md"
+      ],
+      "constraints": [
+        "No media cleanup, new generation, schedule change or fabricated production receipts.",
+        "Preserve all unfinished work and dependency IDs; root scope only."
+      ],
+      "completed_at": "2026-10-25T23:21:43.952564Z",
+      "pre_checkpoint_commit": "6cf99f26c6267c065e580a904e13efd96d0c119c"
+    },
+    {
+      "work_id": "PROJECT-AUDIT-20261023",
+      "title": "Сверка прерываний, изображений и дублей автоматизации",
+      "status": "completed_verified",
+      "updated_at": "2026-10-25T23:17:11.868890Z",
+      "next_action": "No further restoration required. Unverified Images-tab rendering remains separately open in TOPVIEW-FRESHNESS-20261023; root cause remains unknown.",
+      "canonical_refs": [
+        "reports/project-audit-2026-10-23.json"
+      ],
+      "automation_changes_verified": true,
+      "gallery_repair_report": "reports/image-gallery-repair-2026-10-23.json",
+      "previous_status": "gallery_restored_verified",
+      "completed_at": "2026-10-25T23:17:11.868890Z"
+    },
+    {
       "work_id": "RELAY-RETENTION-20261026",
       "title": "Архивация Relay с защитой от повторов",
       "status": "completed_verified",
@@ -1258,6 +1270,25 @@
       "new_automations": 0,
       "completed_at": "2026-10-25T22:56:39.805Z",
       "pre_checkpoint_commit": "fe12b0b43dcfded237cb96b1b6200a39aa5e8514"
+    },
+    {
+      "work_id": "RELAY-SLOTS-ACK-20261026",
+      "title": "Учёт каждого обработанного Relay slots/event_id",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-25T22:38:02.384Z",
+      "completed": [
+        "Existing Relay handler accepts result and slots IDs; every verified handled ID requires a durable receipt including no_update.",
+        "Exact live prompt readback passed; one active relay.message subscription retained.",
+        "20 targeted tests passed; events[] and original ACKs unchanged; no new automation, synthetic production signal, video or claim."
+      ],
+      "next_action": "On first genuine slots event verify the handler-authored receipt; live slots event remains unverified.",
+      "canonical_refs": [
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "reports/topview-event-wake.json"
+      ],
+      "new_automations": 0,
+      "new_submissions": 0,
+      "pre_checkpoint_commit": "055ca56e7dfd8c18261f444e4d68847d32f85393"
     },
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -1383,112 +1414,6 @@
         "reports/topview-workflows-2026-10-23.md",
         "references/scenes/scene-62/source-continuity.json"
       ]
-    },
-    {
-      "work_id": "SEREGA-SHIP-LOCATIONS-20261023",
-      "title": "Корабль Серёги в каждой локации",
-      "status": "completed_published_verified",
-      "updated_at": "2026-10-23T18:09:39.160Z",
-      "completed": [
-        "10 generated and visually reviewed location stills;24 prompts in8scenes;5pending queue references/hashes.",
-        "Published1cc20aa;Pages40000090869 success;22/22public master/queue/images/thumbs exactHTTP200;healthok24/98;new galleries present in public browser DOM."
-      ],
-      "next_action": "Continue existing queue with new per-location inputs; retain actual P1 ending/QC dependencies. This reference task made no video submissions.",
-      "canonical_refs": [
-        "reports/serega-ship-locations-2026-10-23.json"
-      ]
-    },
-    {
-      "work_id": "SEREGA-SHIP-EMPTY-ROOF-20261023",
-      "title": "Серёга внутри кабины, крыша корабля пуста",
-      "status": "completed_published_verified",
-      "updated_at": "2026-10-23T16:53:44.635081Z",
-      "completed": [
-        "24 prompts across scenes37/39/40/41/52/53/59/60;clean ship image;5pending queue entries updated;submitted receipts unchanged;228tests passed.",
-        "Public master, clean PNG and queue exact HTTP200; project-status health=ok and SHA matches; Pages39990104565 success."
-      ],
-      "next_action": "Continue existing queue. Reject previous-part endings with Serega on ship roof; record blocker, no automatic rerun.",
-      "canonical_refs": [
-        "reports/serega-ship-empty-roof-2026-10-23.json",
-        "PROMPT-STYLE-GUIDE.md",
-        "ops/topview-launch-queue.json"
-      ]
-    },
-    {
-      "work_id": "KASHYYYK-THREE-SCENES-20261023",
-      "title": "Посадка, вылет и предыстория дуэли на Кашиике",
-      "status": "completed_preparation_queued",
-      "updated_at": "2026-10-23T16:05:04.442625Z",
-      "completed": [
-        "Scenes 59–61: 9 complete prompts, exact reference stills, saved private 3s continuity clip.",
-        "Six Seedance 2.0 queue entries after worms and before dances; P2 requires own P1.",
-        "Published in main commit 2bd171117c4c8d6503dae036b2eb266b7041a010; 228 tests passed; project-status health=ok, 24 scenes, 98 prompts; canon-health warnings=0.",
-        "Pages run39983279763 success; public master and both JPGs exact;24scenes98prompts health=ok;all6queue entries visible."
-      ],
-      "next_action": "Existing scheduler launches ready59/60/61 parts after worms by priority. EachP2 waits actual ownP1 ending/QC; no paid runs, duplicates or automatic retries.",
-      "canonical_refs": [
-        "reports/current-work-checkpoint.md",
-        "ops/topview-launch-queue.json"
-      ],
-      "authorization": "Direct owner current chat23Oct2026; one Unlimited0 attempt per selected Seedance2.0 part; existing ready-skip applies."
-    },
-    {
-      "work_id": "PROJECT-ORGANIZE-20261023",
-      "title": "Переименование Роскосмос, новое Разное, сортировка изображений и доски проектов",
-      "status": "completed_verified",
-      "updated_at": "2026-10-23T03:03:26.530Z",
-      "next_action": "No remaining organization action. Continue Seregius separately from the preserved live queue.",
-      "scope": "No video submissions; existing Seregius priorities and pauses preserved.",
-      "completed": [
-        "307 unique project images moved with stable IDs and all destination pages read back: Seregius 220, Roscosmos 35, Kotmonavty 28, Kot detektiv 24; new Raznoe empty.",
-        "Published five-project registry, old raznoe renamed Roscosmos with content preserved, new misc scaffold and named Topview board routing.",
-        "Updated current instructions, handoff, existing Film automation and Notion pointer; automation exact prompt and schedule readback verified.",
-        "219 unit tests and project/site validators passed; certificate 7/7 and brief 15/15 valid; canon health ok, zero warnings.",
-        "GitHub Pages deployment 39892371877 and site validation 39892371821 succeeded for 696051af2ac86f250ff2c557e287f2d2bbce6b17.",
-        "Public browser verified five project options, Roscosmos 20 scenes/60 prompts and its reference gallery, separate empty Raznoe master and reference gallery; fixed stale project-switcher cache.",
-        "All four organization canon locks released in this completion commit."
-      ],
-      "canonical_refs": [
-        "projects/projects.json",
-        "projects/README.md",
-        "reports/project-organization-2026-10-23.json"
-      ],
-      "completed_at": "2026-10-23T03:03:26.530Z",
-      "ui_verified_urls": [
-        "https://virudik.github.io/ai-film-prompts/index.html?p=raznoe",
-        "https://virudik.github.io/ai-film-prompts/references.html?p=raznoe",
-        "https://virudik.github.io/ai-film-prompts/index.html?p=misc",
-        "https://virudik.github.io/ai-film-prompts/references.html?p=misc"
-      ],
-      "publication_commits": [
-        "299dee028049d4194f93f161e884fa4b3d73b491",
-        "f4e8cfbbe0086c89546d554aedc8745d2d35de71",
-        "696051af2ac86f250ff2c557e287f2d2bbce6b17"
-      ],
-      "limitations": [
-        "9 old generated images without confirmed project assignment (including 4 charts), user uploads and service screenshots left unchanged.",
-        "Native Images UI project filtering was not separately inspected; actual folder membership and stable IDs verified by listing.",
-        "Local Playwright suite unavailable due to missing Chromium and failed download; public cloud browser smoke verified actual deployed pages. Lazy-loaded reference gallery not fully reviewed pixel by pixel."
-      ]
-    },
-    {
-      "work_id": "RELAY-SLOTS-ACK-20261026",
-      "title": "Учёт каждого обработанного Relay slots/event_id",
-      "status": "completed_verified_configuration",
-      "updated_at": "2026-10-25T22:38:02.384Z",
-      "completed": [
-        "Existing Relay handler accepts result and slots IDs; every verified handled ID requires a durable receipt including no_update.",
-        "Exact live prompt readback passed; one active relay.message subscription retained.",
-        "20 targeted tests passed; events[] and original ACKs unchanged; no new automation, synthetic production signal, video or claim."
-      ],
-      "next_action": "On first genuine slots event verify the handler-authored receipt; live slots event remains unverified.",
-      "canonical_refs": [
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "reports/topview-event-wake.json"
-      ],
-      "new_automations": 0,
-      "new_submissions": 0,
-      "pre_checkpoint_commit": "055ca56e7dfd8c18261f444e4d68847d32f85393"
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json"

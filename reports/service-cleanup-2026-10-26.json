@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "work_id": "PROJECT-CLEANUP-20261026",
+  "checked_at": "2026-10-25T23:18:14.161244Z",
+  "authorization": "Делай — first four safe cleanup improvements",
+  "source_checkpoint_commit": "6cf99f26c6267c065e580a904e13efd96d0c119c",
+  "scope": "Root only; no media, provider actions, schedule changes or other-project writes.",
+  "before_bytes": {
+    "reports/current-work-checkpoint.md": 54170,
+    "work-resume-register.json": 97651,
+    "ops/topview-launch-queue.json": 374534,
+    "ops/TOPVIEW-EVENT-WAKE.md": 47321
+  },
+  "after_bytes": {
+    "reports/current-work-checkpoint.md": 16012,
+    "work-resume-register.json": 93228,
+    "ops/topview-launch-queue.json": 368856,
+    "ops/TOPVIEW-EVENT-WAKE.md": 14649
+  },
+  "checkpoint_sections_archived": 19,
+  "queue_items_archived": [
+    {
+      "item_id": "S43-R1-20261017",
+      "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+      "terminal_evidence": {
+        "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+        "scene_id": 43,
+        "final_status": "success",
+        "finished_at": "2026-10-20T17:20:19Z"
+      },
+      "physically_active": false,
+      "stub_preserves_ids_and_hashes": true
+    },
+    {
+      "item_id": "S54",
+      "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "terminal_evidence": {
+        "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
+        "scene_id": 54,
+        "final_status": "success",
+        "finished_at": "2026-10-20T22:19:01Z"
+      },
+      "physically_active": false,
+      "stub_preserves_ids_and_hashes": true
+    }
+  ],
+  "queue_readiness_rows_unchanged": true,
+  "remaining_queue_items_unchanged": true,
+  "active_work_review": [
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "prior_status": "standing_priority_active",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "ops/CONTINUE-PROTOCOL.md"
+      ]
+    },
+    {
+      "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
+      "prior_status": "submitted_verified",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "reports/topview-queue-2026-10-16/S58-SEED20-P2-20261023.json",
+        "references/scenes/scene-58/P1-continuity.json",
+        "ops/topview-launch-queue.json"
+      ]
+    },
+    {
+      "work_id": "TOPVIEW-FRESHNESS-20261023",
+      "prior_status": "site_recovered_images_ui_blocked",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "ops/ROBOT-TELEMETRY.md",
+        "reports/topview-freshness-repair-2026-10-23.json",
+        "reports/current-work-checkpoint.md"
+      ]
+    },
+    {
+      "work_id": "PROJECT-AUDIT-20261023",
+      "prior_status": "gallery_restored_verified",
+      "disposition": "completed_verified",
+      "reason": "35 originals restored and listing read back. Separate unverified Images UI remains open in TOPVIEW-FRESHNESS-20261023; original cause still unknown.",
+      "evidence": [
+        "reports/project-audit-2026-10-23.json"
+      ]
+    },
+    {
+      "work_id": "SEREGIUS-PLAN-20261023",
+      "prior_status": "waiting_for_results_and_slots",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "ops/topview-launch-queue.json",
+        "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
+        "reports/topview-quality-2026-10-23/review-summary.md",
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "reports/topview-queue-2026-10-16/ready-scene-rule-20261023.json",
+        "reports/project-audit-2026-10-23.json",
+        "reports/topview-quality-2026-10-23/S57-S47-continuity.json",
+        "reports/image-gallery-repair-2026-10-23.json"
+      ]
+    },
+    {
+      "work_id": "CONTINUE-001",
+      "prior_status": "in_progress",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "NEW-CHAT-HANDOFF.md",
+        "ops/CONTINUE-PROTOCOL.md",
+        "shadow/takeover-brief.md",
+        "work-resume-register.json",
+        "USER-GUIDE.md"
+      ],
+      "resume_pointer_refreshed": true
+    },
+    {
+      "work_id": "FILM-20261015-ALL-READY",
+      "prior_status": "in_progress",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "ops/topview-launch-queue.json",
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "reports/reference-readiness-2026-10-16.md",
+        "reports/story-and-generation-review-2026-10-17.md",
+        "reports/dance-review-2026-10-17.md"
+      ],
+      "resume_pointer_refreshed": true
+    },
+    {
+      "work_id": "FILM-20261016-ALIEN-ROCK-WOOKIEES",
+      "prior_status": "in_progress",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "video-prompts.md#scene-49",
+        "video-prompts.md#scene-50",
+        "references/scenes/scene-49/manifest.json",
+        "references/scenes/scene-50/manifest.json"
+      ]
+    },
+    {
+      "work_id": "FILM-20261016-ROCK-51",
+      "prior_status": "six_parts_prepared_queued",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "video-prompts.md#scene-51",
+        "references/scenes/scene-51/manifest.json",
+        "NEW-CHAT-HANDOFF.md",
+        "reports/music-reference-completion-2026-10-25.md"
+      ]
+    },
+    {
+      "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
+      "prior_status": "in_progress",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "references/scenes/scene-45/manifest.json",
+        "references/scenes/scene-46/manifest.json",
+        "ops/topview-launch-queue.json",
+        "reports/story-and-generation-review-2026-10-17.md",
+        "reports/dance-review-2026-10-17.md"
+      ],
+      "resume_pointer_refreshed": true
+    },
+    {
+      "work_id": "FILM-20261017-OWNER-FIXES",
+      "prior_status": "in_progress",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "video-prompts.md",
+        "ops/topview-launch-queue.json",
+        "reports/owner-fixes-2026-10-17.md",
+        "reports/owner-fixes-verification-2026-10-17.json",
+        "NEW-CHAT-HANDOFF.md",
+        "AI-PROJECT-GUIDE.md",
+        "ops/CONTINUE-PROTOCOL.md"
+      ],
+      "resume_pointer_refreshed": true
+    },
+    {
+      "work_id": "FILM-20261018-SOUNDTRACK",
+      "prior_status": "awaiting_owner_generation",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "music/README.md",
+        "music/soundtrack-plan.md",
+        "music/soundtrack-cue-sheet.csv",
+        "music/soundtrack-pilot-prompts.md",
+        "music/suno-soundtrack-prompts.md"
+      ]
+    },
+    {
+      "work_id": "FILM-20261020-COUPLE-DANCE",
+      "prior_status": "queued_seedance_A11_A12",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "video-prompts.md",
+        "references/scenes/scene-28/manifest.json",
+        "reports/peacemaker-s2-couple-2026-10-20.md",
+        "reports/current-work-checkpoint.md"
+      ]
+    },
+    {
+      "work_id": "FILM-20261020-WORM-SEEDANCE",
+      "prior_status": "in_progress",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": []
+    },
+    {
+      "work_id": "FILM-20261022-DANCE-MODEL-COMPARISON",
+      "prior_status": "waiting_story_completion",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "ops/dance-model-comparison.md",
+        "ops/topview-launch-queue.json",
+        "reports/seedance25-free-check-2026-10-22.jpg",
+        "reports/current-work-checkpoint.md",
+        "reports/topview-unlimited-account-2026-10-22.json"
+      ]
+    },
+    {
+      "work_id": "RAZNOE-QUALITY-20261023",
+      "prior_status": "prepared_launches_paused_by_owner",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "projects/raznoe/reports/current-work-checkpoint.md",
+        "projects/raznoe/reports/quality-revision-2026-10-23.json",
+        "reports/topview-quality-2026-10-23/review-summary.md",
+        "ops/topview-launch-queue.json"
+      ]
+    },
+    {
+      "work_id": "TOPVIEW-STUDIO-PILOT-20261023",
+      "prior_status": "planned_after_current_seregius_queue",
+      "disposition": "keep_active",
+      "reason": "Outstanding result, QC, owner input, standing duty or future work; not proven complete.",
+      "evidence": [
+        "film-backlog.md",
+        "reports/topview-workflows-2026-10-23.md"
+      ]
+    }
+  ],
+  "resume_history_preserved": "archive/work-resume-register-archive.json",
+  "relay_history_preserved_verbatim": true,
+  "relay_receipts_and_dedup_index_unchanged": true,
+  "operation_journal": {
+    "keep": 500,
+    "archive": "archive/ops/topview-operation-journal-archive.json",
+    "existing_events": 432,
+    "live_data_changed": false,
+    "archive_creation": "First real overflow; no synthetic production events."
+  },
+  "validation": {
+    "tests": 285,
+    "result": "passed",
+    "site": "passed",
+    "canon_health": "ok,0warnings",
+    "certificate": "7/7 github canonical instructions match",
+    "takeover_brief": "valid,15/15 anchors",
+    "production_overflow": "Not yet reached; offline evidence does not substitute for a live overflow.",
+    "publishing": "Single CAS commit with archives and lock release; verify remote bytes and CI/Pages after publication."
+  },
+  "completed_work_archive_added": 4
+}

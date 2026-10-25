@@ -17,6 +17,8 @@ on:
       - 'tests/test_topview_prompt_match.py'
       - 'scripts/topview_prompt_match.py'
       - 'scripts/monitor_publish.py'
+      - 'scripts/operation_journal.py'
+      - 'tests/test_operation_journal.py'
       - 'tests/test_owner_decisions.py'
       - 'scripts/process_owner_decisions.py'
       - 'scripts/robot_master_actions.py'
@@ -55,4 +57,4 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Run offline canonical and monitor failover regression tests
-        run: python3 -m unittest -v tests/test_recovery_integration.py tests/test_revision_date.py tests/test_monitor_failover.py tests/test_owner_decisions.py tests/test_topview_light_check.py tests/test_master_actions.py tests/test_topview_api_scan.py tests/test_topview_prompt_match.py tests/test_drive_copy.py tests/test_robot_telemetry.py tests/test_topview_video_archive.py tests/test_trim_service_files.py tests/test_slot_rewake.py tests/test_relay_retention.py
+        run: python3 -m unittest -v tests/test_recovery_integration.py tests/test_revision_date.py tests/test_monitor_failover.py tests/test_owner_decisions.py tests/test_topview_light_check.py tests/test_master_actions.py tests/test_topview_api_scan.py tests/test_topview_prompt_match.py tests/test_drive_copy.py tests/test_robot_telemetry.py tests/test_topview_video_archive.py tests/test_trim_service_files.py tests/test_slot_rewake.py tests/test_relay_retention.py tests/test_operation_journal.py

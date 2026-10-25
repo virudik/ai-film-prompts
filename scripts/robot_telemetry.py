@@ -853,6 +853,8 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
             master_text = rma.read_raw(root / "video-prompts.md")
             files = ["topview-task-map.json", "topview-operation-journal.json", "topview-status.json",
                      "topview-checkpoint.json", "review-ledger.json", "automation-monitor-status.json"]
+            if (root / rma.operation_journal.ARCHIVE).exists():
+                files.append(rma.operation_journal.ARCHIVE)
             if plan.get("projects") is not None and (root / "projects").is_dir():
                 (root / PROJECTS_TELEMETRY).write_text(json.dumps(plan["projects"], ensure_ascii=False, indent=2) + "\n",
                                                       encoding="utf-8")

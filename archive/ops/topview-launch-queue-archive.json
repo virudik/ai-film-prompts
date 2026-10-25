@@ -3,6 +3,158 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S43-R1-20261017",
+      "scene_id": 43,
+      "prompt_id": "S43",
+      "canonical_block_label": "43",
+      "canonical_prompt_sha256": "7677ed0d37da72bf30d831d1855349c9e68f9e97fc1a81bc147a09f4b4ab587a",
+      "normalized_prompt_sha256": "8716593f86d24a2e11950d105eb19ea180895059f29fc9ed92a47df7cb5aedbb",
+      "priority": 1,
+      "state": "submitted",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
+          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "input_status": "available",
+          "canonical_role": "vehicle_design_helper"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
+          "input_status": "available",
+          "canonical_role": "mechanical_detail_helper",
+          "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a"
+        }
+      ],
+      "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+      "claim": {
+        "run_id": "chatgpt-scheduled-20261018-S43-1792307162774",
+        "claimed_at": "2026-10-18T07:06:02.774Z",
+        "actor": "ChatGPT Work scheduled automation",
+        "route": "free_web_gui",
+        "preflight": "Fresh complete 11-board/17-page/907-task scan; 5 active videos; no normalized prompt duplicate; 4 reference SHA-256 values verified; UI prompt length 9330 and canonical raw/normalized SHA matched; Wan 3.0/Omni-reference/30s/720p/16:9/quantity1/Unlimited free"
+      },
+      "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+      "previous_task_ids": [
+        "1b8f85b65ff24b13bcdbbeea3af3c096"
+      ],
+      "attempt": "one_corrected_attempt_authorized_20261017",
+      "max_credits": 0,
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 1
+      },
+      "owner_continuity_fix_2255": {
+        "at": "2026-10-17T19:57:44.144973Z",
+        "source": "Owner17Oct22:55:56MSK",
+        "requirements": [
+          "Wait until ramp fully lowered and stationary; visible doorway and continuous feet-on-ramp descent; no hull penetration",
+          "Left wing remains jammed45degrees"
+        ]
+      },
+      "submitted_at": "2026-10-18T07:06:32Z",
+      "receipt": "reports/topview-queue-2026-10-18/S43-R1-20261017-receipt.json"
+    },
+    {
+      "id": "S54",
+      "scene_id": 54,
+      "prompt_id": "S54",
+      "canonical_block_label": "54",
+      "canonical_prompt_sha256": "65ecd138694d2c6d1b377f0119c8c666472bce81d4923964de1682e86043d6d1",
+      "normalized_prompt_sha256": "bb86fcd28b6e0f8dc539c1e7b92731da453b962c8adfe047350c60c46c4427a2",
+      "priority": 2,
+      "state": "submitted",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+          "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
+          "role": "prop",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+          "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-54/S54-room-side-actual.png",
+          "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+          "role": "composition",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "claim": {
+        "run_id": "chatgpt-scheduled-20261018-S54-1792342990362",
+        "claimed_at": "2026-10-18T17:03:10.362Z",
+        "actor": "ChatGPT Work scheduled automation",
+        "route": "free_web_gui",
+        "preflight": "Fresh complete 11-board/16-page/908-task scan; 5 active videos; no S54 normalized prompt duplicate; 4 reference SHA-256 values verified; UI prompt canonical raw/normalized SHA matched; Wan 3.0/Omni-reference/30s/720p/16:9/quantity1/Unlimited free"
+      },
+      "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
+      "max_credits": 0,
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 2
+      },
+      "previous_prompt_sha256": [
+        "d132a313e6b199d862d9dd940df75c95792bad0bd24f83196d0e1030a1d19c47"
+      ],
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "submitted_at": "2026-10-18T17:03:22Z",
+      "receipt": "reports/topview-queue-2026-10-18/S54-receipt.json"
+    },
+    {
       "id": "B7",
       "scene_id": 28,
       "prompt_id": "B7",

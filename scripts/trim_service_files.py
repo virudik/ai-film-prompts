@@ -9,9 +9,10 @@ short. Nothing is deleted and nothing live is touched:
   top); older sections go on top of archive/checkpoints/current-work-checkpoint-archive.md.
 * work-resume-register.json — finished entries leave `active_work` for `completed_work`;
   `completed_work` keeps the newest KEEP_COMPLETED, the rest go to archive/work-resume-register-archive.json;
-  a live entry keeps the last KEEP_DONE points of its `done` list, older points go to the same archive.
+  a live entry keeps the last KEEP_DONE points of each `done` / `completed` list; older points go to the same archive.
 * ops/topview-launch-queue.json — superseded / cancelled items, and submitted / completed items older
-  than SUBMITTED_DAYS, go to archive/ops/topview-launch-queue-archive.json. A short stub of each stays in
+  than SUBMITTED_DAYS, go to archive/ops/topview-launch-queue-archive.json. Submitted tasks additionally
+  require a recorded provider terminal result; all physically active task IDs stay live. A short stub stays in
   `archived_items` (id, scene, block label, state, task ID, prompt SHA), so duplicate checks and the
   site's «▶ запущена» badges keep working. Waiting, claimed, blocked and held items are never moved.
 * reports/topview-event-wake.json (root only) — keeps at most 100 completed receipts from the last
@@ -22,6 +23,7 @@ short. Nothing is deleted and nothing live is touched:
 The same is done for every project in projects/projects.json under its own folder.
 Run: python3 scripts/trim_service_files.py .            (dry run, prints what would move)
      python3 scripts/trim_service_files.py . --write    (writes; commit under the canon lock)
+     python3 scripts/trim_service_files.py . --root-only --write (root lock only; no project writes)
      python3 scripts/trim_service_files.py . --relay-only --write (same event-receipt commit)
 """
 import argparse
@@ -121,7 +123,8 @@ def work_time(w):
 def trim_register(reg, archive, archive_rel=REGISTER_ARCHIVE, keep=KEEP_COMPLETED, keep_done=KEEP_DONE):
     active = reg.get("active_work") or []
     done = [w for w in active if FINISHED_WORK.match(str(w.get("status") or ""))]
-    long_done = [w for w in active if w not in done and isinstance(w.get("done"), list) and len(w["done"]) > keep_done]
+    long_done = [w for w in active if w not in done and any(
+        isinstance(w.get(key), list) and len(w[key]) > keep_done for key in ("done", "completed"))]
     if not done and not long_done and len(reg.get("completed_work") or []) <= keep:
         return None
     reg = dict(reg)
@@ -132,11 +135,14 @@ def trim_register(reg, archive, archive_rel=REGISTER_ARCHIVE, keep=KEEP_COMPLETE
             continue
         if w in long_done:
             w = dict(w)
-            cut = len(w["done"]) - keep_done
-            trimmed.append({"work_id": w.get("work_id"), "done": w["done"][:cut]})
-            w["done"] = w["done"][cut:]
-            w["done_archived_points"] = int(w.get("done_archived_points") or 0) + cut
-            w["done_archive"] = archive_rel
+            for key in ("done", "completed"):
+                if not isinstance(w.get(key), list) or len(w[key]) <= keep_done:
+                    continue
+                cut = len(w[key]) - keep_done
+                trimmed.append({"work_id": w.get("work_id"), key: w[key][:cut]})
+                w[key] = w[key][cut:]
+                w[key + "_archived_points"] = int(w.get(key + "_archived_points") or 0) + cut
+                w[key + "_archive"] = archive_rel
         live.append(w)
     reg["active_work"] = live
     completed = sorted(done + list(reg.get("completed_work") or []), key=work_time, reverse=True)
@@ -172,9 +178,11 @@ def movable(it, now, days=SUBMITTED_DAYS):
     return False
 
 
-def trim_queue(queue, archive, now, archive_rel=QUEUE_ARCHIVE, days=SUBMITTED_DAYS):
+def trim_queue(queue, archive, now, archive_rel=QUEUE_ARCHIVE, days=SUBMITTED_DAYS,
+               active_task_ids=(), terminal_task_ids=()):
     items = queue.get("items") or []
-    old = [it for it in items if movable(it, now, days)]
+    old = [it for it in items if movable(it, now, days) and it.get("task_id") not in active_task_ids
+           and (it.get("state") != "submitted" or it.get("task_id") in terminal_task_ids)]
     if not old:
         return None
     queue = dict(queue)
@@ -289,12 +297,14 @@ def bases(root):
                 yield pid, root / "projects" / pid
 
 
-def run(root, write=False, now=None, relay_only=False):
+def run(root, write=False, now=None, relay_only=False, root_only=False):
     now = now or datetime.now(timezone.utc)
     report = run_relay(root, write, now)
     if relay_only:
         return report
     for pid, base in bases(Path(root)):
+        if root_only and pid:
+            continue
         name = pid or "seregius"
         prefix = "" if not pid else "projects/{}/".format(pid)
         cp = base / CHECKPOINT
@@ -306,8 +316,8 @@ def run(root, write=False, now=None, relay_only=False):
                 report.append("{}: checkpoint → архив {} разделов".format(name, res[2]))
                 if write:
                     arch.parent.mkdir(parents=True, exist_ok=True)
-                    cp.write_text(res[0], encoding="utf-8")
                     arch.write_text(res[1], encoding="utf-8")
+                    cp.write_text(res[0], encoding="utf-8")
         rp = base / REGISTER
         if rp.is_file():
             arch = base / REGISTER_ARCHIVE
@@ -315,18 +325,26 @@ def run(root, write=False, now=None, relay_only=False):
             if res:
                 report.append("{}: register — {} законченных из active_work, {} записей в архив".format(name, res[2], res[3]))
                 if write:
-                    dump_json(rp, res[0])
                     if res[3]:
                         dump_json(arch, res[1])
+                    dump_json(rp, res[0])
         qp = base / QUEUE
         if qp.is_file():
             arch = base / QUEUE_ARCHIVE
-            res = trim_queue(load_json(qp), load_json(arch) if arch.is_file() else None, now, prefix + QUEUE_ARCHIVE)
+            tm_path, tv_path = base / "topview-task-map.json", base / "topview-status.json"
+            tm = load_json(tm_path) if tm_path.is_file() else {}
+            tv = load_json(tv_path) if tv_path.is_file() else {}
+            active_ids = {tid for ids in tm.get("active_by_scene", {}).values() for tid in ids}
+            active_ids.update(t.get("task_id") for t in tv.get("active_tasks", []))
+            terminal_ids = {t.get("task_id") for t in tm.get("processed_tasks", [])
+                            if t.get("final_status") in ("success", "fail", "failed", "cancelled", "canceled")}
+            res = trim_queue(load_json(qp), load_json(arch) if arch.is_file() else None, now, prefix + QUEUE_ARCHIVE,
+                             active_task_ids=active_ids, terminal_task_ids=terminal_ids)
             if res:
                 report.append("{}: очередь → архив {} пунктов".format(name, res[2]))
                 if write:
-                    dump_json(qp, res[0])
                     dump_json(arch, res[1])
+                    dump_json(qp, res[0])
     return report
 
 
@@ -335,8 +353,9 @@ def main():
     ap.add_argument("repo")
     ap.add_argument("--write", action="store_true")
     ap.add_argument("--relay-only", action="store_true", help="only Relay receipts; no queue or project changes")
+    ap.add_argument("--root-only", action="store_true", help="root files only; never write other projects")
     a = ap.parse_args()
-    rep = run(a.repo, a.write, relay_only=a.relay_only)
+    rep = run(a.repo, a.write, relay_only=a.relay_only, root_only=a.root_only)
     print("\n".join(rep) if rep else "нечего переносить")
 
 
