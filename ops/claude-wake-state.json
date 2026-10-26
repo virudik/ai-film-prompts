@@ -1,10 +1,11 @@
 {
   "fired": {
     "0948c546-0ea2-4443-9429-6dcf43bddc81": {
-      "status": "reserved",
+      "status": "sent",
       "attempts": 1,
       "at": "2026-10-26T00:56:15Z",
-      "to": "claude"
+      "to": "claude",
+      "detail": "https://claude.ai/code/cse_01Ro2f8HYPUx3VGVjxo2nYm9"
     }
   },
   "schema_version": 1,
