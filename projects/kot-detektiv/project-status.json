@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kot-detektiv/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-26T00:22:31Z",
+  "synced_at": "2026-10-26T03:22:37Z",
   "revision_date": "24.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · в сценах 1–21 добавлена вкладка «⚡ Динамичная» (старые промты сохранены без изменений)",
   "canonical_master_sha256": "02d4f2db561018a1d4783de181515808ef47017065bef23a44af2e9e02bd2368",
@@ -43,16 +43,16 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-25T23:18:16.521Z",
+    "snapshot_at": "2026-10-26T01:20:42.893Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.071,
+    "age_hours_at_status_build": 2.032,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "85d8386895581555ba9c46812e627f6d670aae2f",
-        "mirror_sha256": "d13c26a403d990e1582d391e62879922f0364e89f0a4719a501b7c02df9ad19f",
+        "github_blob": "29564cf5206f6141a7fd05bfb1f7db49606b9b52",
+        "mirror_sha256": "9c9ea7423039e8db34e3f4a5e13788ac6930c116c4cb095647cda6e661695b5a",
         "match": true,
         "drive_copy_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
         "drive_copy_match": false,
@@ -62,8 +62,8 @@
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "github_blob": "177568db8bcfc9fb7a317cf448d8a0a8e6ad60f6",
-        "mirror_sha256": "33b534470b678806ea1758bfbff529331286305792c263435d577057d18ba3ff",
+        "github_blob": "5540cec264e23a046a2642d78dad0a8e50ce5523",
+        "mirror_sha256": "a8bc2d36a06ccea58ee62d3c9f3676f0b899044887003a63ed00648e17db3afd",
         "match": true,
         "drive_copy_sha256": "3bf193dc33bc2cebbae3249f9658e43b9765dfb3e97efccd64a4181a3f498c1e",
         "drive_copy_match": false,
@@ -92,8 +92,8 @@
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "github_blob": "e0c1c0e5c65658b4e8175bc794e01ec0d9de2342",
-        "mirror_sha256": "1751b0c8e0417e7b97ac10d110b4bc147464588f28cd8f600a1b8d480bc1177a",
+        "github_blob": "00a24aabd79cefa07e0abe054cde9b65e46189af",
+        "mirror_sha256": "68707981d8ff6f6e4f6c46d2fb0a262ec7cb5089cb847f14aff02a4fab1e6497",
         "match": true,
         "drive_copy_sha256": "ccbdaca872d6fe00c32e1f90f011c16791a6b9d85552512421ef897d996b7c4b",
         "drive_copy_match": false,
@@ -126,7 +126,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.071,
+      "age_hours": 2.032,
       "blocking": false
     },
     "topview_task_map": {
@@ -549,7 +549,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.10.2026",
-    "synced_at": "2026-10-26T00:22:31Z",
+    "synced_at": "2026-10-26T03:22:37Z",
     "canonical_master_sha256": "02d4f2db561018a1d4783de181515808ef47017065bef23a44af2e9e02bd2368",
     "canonical_revision_sha256": "654d39872a14b7542379c2147e3d93aef8859227571d01f573c9475c6031b8e0",
     "scene_count": 22,
