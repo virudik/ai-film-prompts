@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kot-detektiv/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-25T21:22:27Z",
+  "synced_at": "2026-10-26T00:22:31Z",
   "revision_date": "24.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · в сценах 1–21 добавлена вкладка «⚡ Динамичная» (старые промты сохранены без изменений)",
   "canonical_master_sha256": "02d4f2db561018a1d4783de181515808ef47017065bef23a44af2e9e02bd2368",
@@ -43,16 +43,16 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-25T10:55:07.334Z",
+    "snapshot_at": "2026-10-25T23:18:16.521Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 10.455,
+    "age_hours_at_status_build": 1.071,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "be410fcf021099288f0d927a8b90ca664127b453",
-        "mirror_sha256": "99608da4158b2cd819f7262afd2a32ab8536d0b4ba214340f5a302ac1894bd10",
+        "github_blob": "85d8386895581555ba9c46812e627f6d670aae2f",
+        "mirror_sha256": "d13c26a403d990e1582d391e62879922f0364e89f0a4719a501b7c02df9ad19f",
         "match": true,
         "drive_copy_sha256": "d0de310fc7b53a20a9a140e240f9fc5e58e4fa9ce54a620d78d5988b3cb37566",
         "drive_copy_match": false,
@@ -62,8 +62,8 @@
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "github_blob": "32d873958ac60b9e0f5e2e2cbd8f8bf733557757",
-        "mirror_sha256": "b4aafb5467821135aa641a567047ba6209e77150fcaf115904a735ebe29d4c24",
+        "github_blob": "177568db8bcfc9fb7a317cf448d8a0a8e6ad60f6",
+        "mirror_sha256": "33b534470b678806ea1758bfbff529331286305792c263435d577057d18ba3ff",
         "match": true,
         "drive_copy_sha256": "3bf193dc33bc2cebbae3249f9658e43b9765dfb3e97efccd64a4181a3f498c1e",
         "drive_copy_match": false,
@@ -126,7 +126,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 10.455,
+      "age_hours": 1.071,
       "blocking": false
     },
     "topview_task_map": {
@@ -549,7 +549,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.10.2026",
-    "synced_at": "2026-10-25T21:22:27Z",
+    "synced_at": "2026-10-26T00:22:31Z",
     "canonical_master_sha256": "02d4f2db561018a1d4783de181515808ef47017065bef23a44af2e9e02bd2368",
     "canonical_revision_sha256": "654d39872a14b7542379c2147e3d93aef8859227571d01f573c9475c6031b8e0",
     "scene_count": 22,
