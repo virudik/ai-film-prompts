@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:slot-wake",
   "task": "Claude auto-wake: set fire_url",
   "acquired_at": "2026-10-26T00:43:54Z",
-  "expires_at": "2026-10-26T00:53:54Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-26T00:43:57Z",
   "rules": "ops/CANON-LOCK.md"
 }
