@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:slot-wake",
-  "task": "OWNER-TASKS: example pipeline new scene",
-  "acquired_at": "2026-10-26T01:39:10Z",
-  "expires_at": null,
-  "released_at": "2026-10-26T01:39:14Z",
+  "state": "held",
+  "holder": "claude:scene-review",
+  "task": "OWNER-TASKS: how a Claude thread waits for ChatGPT's answer",
+  "acquired_at": "2026-10-26T09:58:32Z",
+  "expires_at": "2026-10-26T10:43:32Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
