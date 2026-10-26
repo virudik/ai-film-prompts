@@ -1,34 +1,8 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-26T10:39:04.464448+00:00",
+  "last_updated_at": "2026-10-26T10:48:26.003Z",
   "active_work": [
-    {
-      "work_id": "INSTRUCTION-RECONCILE-20261026",
-      "title": "Согласование инструкций, автоматизаций и архива входящих",
-      "status": "implementation_validated",
-      "updated_at": "2026-10-26T10:39:04.464448+00:00",
-      "owner_quote": "Исправь и сделай что нужно",
-      "scope": "Six findings from 26Oct instruction audit; preserve schedules, Relay subscription, scenes, queue and other projects.",
-      "completed": [
-        "Fresh canonical rules and automation prompts audited; separate canon lock acquired and read back.",
-        "Normalized certificate generation with a strict schema; archived legacy metadata verbatim and refreshed actual bootstrap hashes.",
-        "Added lossless closed-inbox archival before removal with atomic writes and a shared CAS commit; 6 failure/retry/preservation tests passed.",
-        "Aligned delegation, 3-hour rule, same-thread responses, telemetry role and canon-lock exceptions; updated three Project Instructions templates.",
-        "Removed stale scene dependencies and historical queue snapshots from active guidance; preserved cancelled history in archive.",
-        "Updated both existing Automations prompts and verified exact readback, enabled states, hourly schedule and the same single Relay subscription.",
-        "Added weekly live-settings consistency procedure/checker and CI tests. Full offline suite: 305 passed; subsequent focused checks: 13 passed; site validator and canon-health ok; D7 valid 15/15."
-      ],
-      "next_action": "Publish implementation; verify GitHub Actions, exact remote files and Pages; record receipts and release canon lock. Project settings UI remains separately unverified.",
-      "canonical_refs": [
-        "ops/OWNER-TASKS.md",
-        "ops/CANON-LOCK.md",
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "ops/AUTOMATION-CONSISTENCY.md",
-        "reports/instruction-consistency.json"
-      ],
-      "blockers": []
-    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -1251,6 +1225,36 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "INSTRUCTION-RECONCILE-20261026",
+      "title": "Согласование инструкций, автоматизаций и архива входящих",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-26T10:48:26.003Z",
+      "owner_quote": "Исправь и сделай что нужно",
+      "scope": "Six findings from 26Oct instruction audit; preserve schedules, Relay subscription, scenes, queue and other projects.",
+      "completed": [
+        "Fresh canonical rules and automation prompts audited; separate canon lock acquired and read back.",
+        "Normalized certificate generation with a strict schema; archived legacy metadata verbatim and refreshed actual bootstrap hashes.",
+        "Added lossless closed-inbox archival before removal with atomic writes and a shared CAS commit; 6 failure/retry/preservation tests passed.",
+        "Aligned delegation, 3-hour rule, same-thread responses, telemetry role and canon-lock exceptions; updated three Project Instructions templates.",
+        "Removed stale scene dependencies and historical queue snapshots from active guidance; preserved cancelled history in archive.",
+        "Updated both existing Automations prompts and verified exact readback, enabled states, hourly schedule and the same single Relay subscription.",
+        "Added weekly live-settings consistency procedure/checker and CI tests. Full offline suite: 305 passed; subsequent focused checks: 13 passed; site validator and canon-health ok; D7 valid 15/15.",
+        "Published implementation 70afa416; exact readback of 28 files, five GitHub Actions checks successful, descendant Pages deployment successful with six exact HTTP readbacks; Notion pointer read back."
+      ],
+      "next_action": "Normal authorized project work from fresh main. Weekly consistency check is integrated. Installed ChatGPT/Claude Project settings remain unverified; the first real archive transfer must keep its own production evidence.",
+      "canonical_refs": [
+        "ops/OWNER-TASKS.md",
+        "ops/CANON-LOCK.md",
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "ops/AUTOMATION-CONSISTENCY.md",
+        "reports/instruction-consistency.json",
+        "reports/instruction-reconciliation-2026-10-26.json"
+      ],
+      "blockers": [],
+      "completed_at": "2026-10-26T10:48:26.003Z",
+      "implementation_commit": "70afa4169afb194b744edef5ec1245a0c59e0e46"
+    },
     {
       "work_id": "PROJECT-CLEANUP-20261026",
       "title": "Безопасная чистка и архивирование служебных файлов",

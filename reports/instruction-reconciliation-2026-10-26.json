@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "work_id": "INSTRUCTION-RECONCILE-20261026",
-  "updated_at": "2026-10-26T10:39:04.464448+00:00",
-  "status": "implementation_validated",
+  "updated_at": "2026-10-26T10:48:26.003Z",
+  "status": "completed_verified_configuration",
   "owner_request": "Исправь и сделай что нужно",
   "validation": {
     "unit_tests_passed": 305,
@@ -26,5 +26,78 @@
     "Real archive is created only when eligible closed tasks exist; fixtures tested failure and retry.",
     "No new generation, queue change or automation created."
   ],
-  "post_publish": "pending"
+  "post_publish": {
+    "implementation_readback": {
+      "commit": "70afa4169afb194b744edef5ec1245a0c59e0e46",
+      "files": 28,
+      "exact": true,
+      "at": "2026-10-26T10:40:55.584Z"
+    },
+    "github_actions": [
+      {
+        "id": 40309260326,
+        "name": "Shadow pilot takeover brief (not canonical)",
+        "head_sha": "70afa4169afb194b744edef5ec1245a0c59e0e46",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40309260326"
+      },
+      {
+        "id": 40309260238,
+        "name": "Validate Control Center",
+        "head_sha": "70afa4169afb194b744edef5ec1245a0c59e0e46",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40309260238"
+      },
+      {
+        "id": 40309260302,
+        "name": "AI Film integration recovery tests",
+        "head_sha": "70afa4169afb194b744edef5ec1245a0c59e0e46",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40309260302"
+      },
+      {
+        "id": 40309260255,
+        "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+        "head_sha": "70afa4169afb194b744edef5ec1245a0c59e0e46",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40309260255"
+      },
+      {
+        "id": 40309260242,
+        "name": "Canon health (stale, oversized and broken canon parts)",
+        "head_sha": "70afa4169afb194b744edef5ec1245a0c59e0e46",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40309260242"
+      }
+    ],
+    "pages": {
+      "deployment_run": 40309495975,
+      "commit": "7192189d1680fb7297957acb9b20cb4b020a73c4",
+      "conclusion": "success",
+      "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40309495975",
+      "checked_at": "2026-10-26T10:47:28.539148+00:00",
+      "http_status": 200,
+      "exact_files": [
+        "index.html",
+        "instruction-sync-status.json",
+        "ops/OWNER-TASKS.md",
+        "ops/AUTOMATION-CONSISTENCY.md",
+        "USER-GUIDE.md",
+        "reports/instruction-consistency.json"
+      ],
+      "note": "Implementation Pages run 40309261689 was superseded/cancelled; the descendant deployment succeeded and six deployed files matched that commit exactly."
+    },
+    "notion_handoff": {
+      "page_id": "3e1fe763-7762-81d5-8c4e-dce504d7c5ec",
+      "updated_and_read_back": true
+    },
+    "canon_lock": "released in the same final checkpoint commit"
+  },
+  "completed_at": "2026-10-26T10:48:26.003Z",
+  "implementation_commit": "70afa4169afb194b744edef5ec1245a0c59e0e46"
 }

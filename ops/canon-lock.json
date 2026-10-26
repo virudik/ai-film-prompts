@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "INSTRUCTION-RECONCILE-20261026: owner-authorized docs, automation consistency and agent task archive",
   "acquired_at": "2026-10-26T10:23:39.568Z",
-  "expires_at": "2026-10-26T11:08:39.568Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-26T10:48:26.003Z",
   "rules": "ops/CANON-LOCK.md"
 }
