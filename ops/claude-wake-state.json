@@ -1,0 +1,12 @@
+{
+  "fired": {
+    "0948c546-0ea2-4443-9429-6dcf43bddc81": {
+      "status": "reserved",
+      "attempts": 1,
+      "at": "2026-10-26T00:56:15Z",
+      "to": "claude"
+    }
+  },
+  "schema_version": 1,
+  "updated_at": "2026-10-26T00:56:15Z"
+}
