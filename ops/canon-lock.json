@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:slot-wake",
   "task": "OWNER-TASKS: example pipeline new scene",
   "acquired_at": "2026-10-26T01:39:10Z",
-  "expires_at": "2026-10-26T01:49:10Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-26T01:39:14Z",
   "rules": "ops/CANON-LOCK.md"
 }
