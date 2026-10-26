@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-26T01:08:34.048Z",
+  "updated_at": "2026-10-26T01:10:35.873Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2645,7 +2645,7 @@
       "canonical_prompt_sha256": "6ca3ede5527f807dfec68ad02200531307e9efb0ffc67bcda55127ccb8c9ad58",
       "normalized_prompt_sha256": "27cbc48c01640d2403155d6d35d8047b44e7b2ad24e0cca0bd887c7b25fb450f",
       "priority": 0.2,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2715,7 +2715,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "4a1061e175054da2810ffef8ad9d31cd",
       "claim": {
         "run_id": "chatgpt-s42p2-20261026T010834048Z",
         "holder": "chatgpt",
@@ -2757,6 +2757,45 @@
             "Image4",
             "Image5"
           ]
+        },
+        "submission": {
+          "clicked_at": "2026-10-26T01:08:48Z",
+          "click_count": 1,
+          "result": "confirmed",
+          "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+          "verified_at": "2026-10-26T01:10:35.873Z",
+          "task_status": "init",
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Seedance 2.0",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "input_names": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ],
+          "input_count": 6,
+          "use_unlimit_mode": true,
+          "credits_cost": 0,
+          "normalized_prompt_sha256": "27cbc48c01640d2403155d6d35d8047b44e7b2ad24e0cca0bd887c7b25fb450f",
+          "normalized_prompt_match": true,
+          "ui_detail_url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=4a1061e175054da2810ffef8ad9d31cd"
+        },
+        "post_submit_scan": {
+          "checked_at": "2026-10-26T01:10:35.873Z",
+          "complete": false,
+          "scope": "My First Board plus arithmetic from complete 2026-10-26T00:40:15Z all-board scan",
+          "board_queued_videos": 6,
+          "occupied_video_slots": 6,
+          "free_video_slots": 0,
+          "evidence": "Five pre-existing active tasks from complete global scan remained visible; new sixth S42-P2 queue card appeared and opened by task ID."
         }
       },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry. Owner 23.10.2026 16:43 MSK «переснимаем» authorizes one free attempt of the canonical 42 P2 now.",
