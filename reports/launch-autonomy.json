@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T09:59:56Z",
+  "checked_at": "2026-10-26T11:23:11Z",
   "window_hours": 24,
   "verdict": "free_slots_idle_no_schedule_launch",
   "launches": [
     {
-      "item": "S56-SEED20-P1",
-      "scene_id": 56,
-      "claimed_at": "2026-10-24T20:02:09Z",
-      "run_id": "chatgpt-s56p1-20261024T200209275Z",
+      "item": "S42-SEED20-P2",
+      "scene_id": 42,
+      "claimed_at": "2026-10-26T01:08:34Z",
+      "run_id": "chatgpt-s42p2-20261026T010834048Z",
       "source": "chat"
     }
   ],
@@ -16,11 +16,11 @@
   "launches_by_chat": 1,
   "free_slot_observations": [
     {
-      "at": "2026-10-24T19:40:31Z",
+      "at": "2026-10-26T00:40:20Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 24,
+  "ready_items_waiting": 28,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
 }
