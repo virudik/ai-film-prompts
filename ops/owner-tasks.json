@@ -39,12 +39,12 @@
       "to": "claude",
       "source": "site",
       "text": "Проверка автозапуска Claude: закрыть как сделано, больше ничего не делать",
-      "status": "taken",
+      "status": "done",
       "taken_by": "claude:auto-wake",
       "taken_at": "2026-10-26T00:57:52Z",
-      "result": null,
-      "result_commit": null,
-      "closed_at": null
+      "result": "Проверка автозапуска Claude пройдена: задача получена через авто-пробуждение и закрыта без других действий.",
+      "result_commit": "f604c71",
+      "closed_at": "2026-10-26T00:57:57Z"
     }
   ]
 }
