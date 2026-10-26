@@ -171,7 +171,7 @@ jobs:
 
             # No-op aware publish: a status that differs only by volatile check
             # timestamps is not committed again until the heartbeat is due, so the
-            # public "last check" never ages past the 240-minute freshness limit
+            # public "last check" stays inside the owner-required 40-minute freshness limit
             # (scripts/check_public_freshness.py) while half of the empty Pages
             # deploys disappear. Any content change is always committed at once.
             MASTER_CHANGED=0
@@ -180,7 +180,7 @@ jobs:
           import json, os
           from datetime import datetime, timezone
           VOLATILE = {"synced_at", "age_hours", "age_hours_at_status_build"}
-          HEARTBEAT_MIN = 180  # owner decision D5 (10.10.2026): pulse every 3 h, freshness limit 4 h
+          HEARTBEAT_MIN = 30  # owner decision 26.10.2026: keep committed project-status within 40 minutes
           def strip(x):
               if isinstance(x, dict):
                   return {k: strip(v) for k, v in x.items() if k not in VOLATILE}
@@ -290,7 +290,7 @@ jobs:
           read -r STATE DETAIL < <(python3 - <<'PY'
           import json
           from datetime import datetime, timezone
-          LIMIT_MIN = 240  # temporary (owner 11.10 06:00): monitor every 3 h until weekly limit reset Fri 16.10; restore 180 with hourly schedule
+          LIMIT_MIN = 40  # owner decision 26.10.2026: project/status monitor freshness ceiling
           now = datetime.now(timezone.utc)
           def age_key(v):
               try:
