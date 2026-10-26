@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "fire_url": null,
+  "targets": ["claude"],
+  "secret": "CLAUDE_FIRE_TOKEN (GitHub Actions secret; API token of the Claude scheduled task «AI Film: задачи для Claude с сайта»)",
+  "doc": "ops/OWNER-TASKS.md — «Автозапуск Claude»; script scripts/claude_task_wake.py; owner decision 26.10.2026"
+}
