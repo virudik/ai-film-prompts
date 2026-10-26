@@ -4,13 +4,15 @@
 Owner decision 26.10.2026 (thread «Наладить быстрое заполнение слотов Topview»): a site task «кому: Claude»
 (or another target listed in the config) wakes Claude by itself instead of waiting for a manual chat.
 
-Config (no secrets): ops/claude-wake.json {enabled, fire_url, targets}. Credential: GitHub secret
+Config (no secrets): ops/claude-wake.json {enabled, fire_url, targets, any_after_hours}. Credential: GitHub secret
 CLAUDE_FIRE_TOKEN (the scheduled task's own API token, scoped to firing that one task).
 
 Rules:
 - one fire per robot run covers every new task; a task id is fired at most once (status "error" is retried
   up to MAX_ATTEMPTS times, ~30 min apart);
 - the reservation is pushed to main BEFORE the request, so a rejected push or a parallel run never fires twice;
+- fallback: a task «кому: любой» that nobody took within `any_after_hours` (config) also wakes Claude;
+- tasks may come from the site robot, the self-heal robot or another agent (ChatGPT, source "chatgpt");
 - the fire text carries only task ids (the routine re-reads ops/owner-tasks.json from main; the text is data);
 - without the token, without fire_url or with enabled=false this is a clean no-op.
 """
@@ -55,13 +57,29 @@ def dumps(obj):
     return json.dumps(obj, ensure_ascii=False, indent=2) + "\n"
 
 
-def due_tasks(inbox, state, targets):
-    """Open tasks for the configured targets that were never fired (or failed fewer than MAX_ATTEMPTS times)."""
+def _created(t):
+    raw = str(t.get("created_at") or "").replace("Z", "+00:00")
+    try:
+        dt = datetime.fromisoformat(raw)
+    except ValueError:
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+
+
+def due_tasks(inbox, state, targets, now=None, any_after_hours=None):
+    """Open tasks that should wake Claude and were never fired (or failed fewer than MAX_ATTEMPTS times):
+    `to` in targets, or — fallback — `to: any` still open `any_after_hours` after creation (nobody took it)."""
     fired = state.get("fired") or {}
     out = []
     for t in inbox.get("tasks") or []:
         tid = t.get("id")
-        if not tid or t.get("status") != "open" or t.get("to") not in targets:
+        if not tid or t.get("status") != "open":
+            continue
+        wanted = t.get("to") in targets
+        if not wanted and any_after_hours and t.get("to") == "any" and now is not None:
+            created = _created(t)
+            wanted = created is not None and (now - created).total_seconds() >= float(any_after_hours) * 3600
+        if not wanted:
             continue
         rec = fired.get(tid)
         if rec and (rec.get("status") != "error" or int(rec.get("attempts") or 0) >= MAX_ATTEMPTS):
@@ -146,7 +164,7 @@ def run(root, git, *, token, now=None, sync=True, opener=None):
             git.sync()
         now_ = now or datetime.now(timezone.utc)
         state = read_json(root, STATE, {})
-        tasks = due_tasks(read_json(root, INBOX, {}), state, targets)
+        tasks = due_tasks(read_json(root, INBOX, {}), state, targets, now_, cfg.get("any_after_hours"))
         if not tasks:
             print("claude-wake: no new tasks")
             return 0

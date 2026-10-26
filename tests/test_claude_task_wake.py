@@ -152,5 +152,27 @@ class ClaudeWakeTest(unittest.TestCase):
         self.assertEqual(op.requests, [])
 
 
+    def test_any_task_wakes_claude_only_after_nobody_took_it(self):
+        self.cfg({'enabled': True, 'fire_url': URL, 'targets': ['claude'], 'any_after_hours': 3})
+        fresh = dict(task('a1', to='any'), created_at='2026-10-26T08:30:00+00:00')
+        old = dict(task('a2', to='any'), created_at='2026-10-26T06:59:00Z')
+        taken = dict(task('a3', to='any', status='taken'), created_at='2026-10-25T06:00:00Z')
+        nodate = task('a4', to='any')
+        self.inbox(fresh, old, taken, nodate)
+        op = Opener(OK)
+        self.go(op)
+        self.assertEqual(len(op.requests), 1)
+        text = json.loads(op.requests[0].data)['text']
+        self.assertIn('a2', text)
+        for tid in ('a1', 'a3', 'a4'):
+            self.assertNotIn(tid, text)
+
+    def test_task_added_by_chatgpt_wakes_claude(self):
+        self.inbox(dict(task('chatgpt-202610260900-refs', to='claude'), source='chatgpt'))
+        op = Opener(OK)
+        self.go(op)
+        self.assertEqual(len(op.requests), 1)
+
+
 if __name__ == '__main__':
     unittest.main()
