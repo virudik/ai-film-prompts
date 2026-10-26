@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-25T23:21:43.952564Z",
+  "last_updated_at": "2026-10-26T00:52:17Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -69,6 +69,16 @@
         "board_name": "My First Board",
         "board_id": "1a6244cf1ae747ef847d949a80d6133c",
         "other_boards_with_active_queue": 0
+      },
+      "last_relay_event": {
+        "event_id": "result:56e5e07c85df4af583c62665c51ed563",
+        "issue_number": 43,
+        "checked_at": "2026-10-26T00:52:17Z",
+        "outcome": "blocked_browser",
+        "reason": "Browser extension tool returned Unknown tool(browser.js). Cloud browser authenticated and showed five queued tasks on My First Board, but input calls repeatedly timed out; the sequential full-scan call then timed out and reset the browser kernel. Complete all-board/all-page scan and preflight were not completed. No queue claim or Create attempted.",
+        "retryable": true,
+        "new_submissions": 0,
+        "receipt": "reports/topview-event-wake.json"
       }
     },
     {
