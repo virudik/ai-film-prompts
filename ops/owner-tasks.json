@@ -39,9 +39,9 @@
       "to": "claude",
       "source": "site",
       "text": "Проверка автозапуска Claude: закрыть как сделано, больше ничего не делать",
-      "status": "open",
-      "taken_by": null,
-      "taken_at": null,
+      "status": "taken",
+      "taken_by": "claude:auto-wake",
+      "taken_at": "2026-10-26T00:57:52Z",
       "result": null,
       "result_commit": null,
       "closed_at": null
