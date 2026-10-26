@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "PROJECT-STATUS-FRESHNESS-20261026: align heartbeat/watchdog with owner 40-minute limit",
   "acquired_at": "2026-10-26T12:00:38.917Z",
-  "expires_at": "2026-10-26T12:45:38.917Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-26T12:03:15.095Z",
   "rules": "ops/CANON-LOCK.md"
 }

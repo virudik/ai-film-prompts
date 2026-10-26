@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-26T10:48:26.003Z",
+  "last_updated_at": "2026-10-26T12:03:15.095Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "standing_priority_active",
-      "updated_at": "2026-10-26T01:11:16.152Z",
+      "updated_at": "2026-10-26T12:03:15.095Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -28,19 +28,28 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-25T12:11:51.162Z",
+        "checked_at": "2026-10-26T12:03:15.095Z",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-25T11:30:19Z",
-          "fresh_under_40_minutes_at_first_read": true
+          "initial_synced_at": "2026-10-26T11:11:40Z",
+          "initial_age_minutes": 43,
+          "fresh_under_40_minutes_at_first_read": false,
+          "cause": "sync-from-drive.yml retained obsolete 180-minute heartbeat and 240-minute watchdog thresholds",
+          "repair_commit": "734723cd3105567c500245f1837ab588fa46c4c8",
+          "verified_run_id": 40319346147,
+          "verified_run_conclusion": "success",
+          "refreshed_commit": "30bf17216aea4ee32174d04ab5e72dc7f4406c7f",
+          "synced_at_after_repair": "2026-10-26T12:01:38Z",
+          "fresh_under_40_minutes_after_repair": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0,
-          "checked_at": "2026-10-25T10:41:37Z"
+          "checked_at": "2026-10-26T10:42:27Z",
+          "info": 3
         },
         "gmail_message_ids": [
           "1a1723e71e9729f0",
@@ -50,31 +59,33 @@
           40177989810,
           40181114191
         ],
-        "failure_job_ids": [
-          121122739583,
-          121132192749
-        ],
-        "resolution_commit": "a024f8a33ad411e81c379d5138a28fcaa6ecf5e5",
-        "resolution_runs": [
-          40186831274,
-          40186831290
-        ],
-        "result": "Resolved before this audit: both warnings removed, canon-health ok/0 warnings, later canonical sync and integration jobs succeeded; no repair or rerun needed."
+        "deduplicated_from_previous_check": true,
+        "latest_verified_canon_health_success_run": 40310296463,
+        "result": "No new failure email. The two matching messages were already recorded and resolved; later Canon health runs remain successful. Project-status freshness mismatch was repaired and verified."
       },
       "last_topview_scan": {
-        "at": "2026-10-26T01:11:16.152Z",
-        "method": "complete 2026-10-26T00:40:15Z all-board/all-page baseline plus immediate post-submit My First Board UI verification",
+        "at": "2026-10-26T12:03:15.095Z",
+        "method": "complete all-board/all-page robot snapshot at 2026-10-26T11:11:34Z plus live authenticated My First Board UI verification in this cycle",
         "boards": 13,
         "pages": 14,
-        "total_tasks_before_submit": 612,
-        "pre_submit_complete": true,
-        "post_submit_complete_all_boards": false,
+        "total_tasks": 613,
+        "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
         "board_name": "My First Board",
         "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "new_task_id": "4a1061e175054da2810ffef8ad9d31cd",
-        "evidence": "reports/topview-queue-2026-10-16/S42-SEED20-P2-20261026.json"
+        "active_task_ids": [
+          "34ff1bf7fe9d47f08de5a635d5626c70",
+          "4a1061e175054da2810ffef8ad9d31cd",
+          "4b7b972870a44dfbb29bd6c5e330a633",
+          "8a8eadc809004e318c47201b8a463be0",
+          "8b6a8ce102ea416e88d3c14fa558c513",
+          "b15165813c0848939edbe8b3d3aed182"
+        ],
+        "new_task_id": null,
+        "new_submissions": 0,
+        "credits_spent": 0,
+        "evidence": "topview-status.json and live authenticated board UI"
       },
       "last_relay_event": {
         "event_id": "result:56e5e07c85df4af583c62665c51ed563",
