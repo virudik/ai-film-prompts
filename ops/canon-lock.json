@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt-cloud-beb26cfe80f8-cleanup",
-  "task": "Safe root cleanup, Relay history, lossless operation journal and work-register retention",
-  "acquired_at": "2026-10-25T23:11:36.207Z",
-  "expires_at": null,
-  "released_at": "2026-10-25T23:21:43.952564Z",
+  "state": "held",
+  "holder": "claude:slot-wake",
+  "task": "Claude auto-wake robot for inbox tasks",
+  "acquired_at": "2026-10-26T00:34:35Z",
+  "expires_at": "2026-10-26T00:54:35Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
