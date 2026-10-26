@@ -12,7 +12,7 @@ Do not assume local clones, old chat history, attachments, backup copies or prio
 
 1. `shadow/takeover-brief.md` — must say «Валиден при генерации: True» with all 15 rules ✓; otherwise do the full takeover;
 2. `shadow/current-checkpoint.md` in full (verbatim top blocks of `NEW-CHAT-HANDOFF.md`);
-3. live `project-status.json`, `topview-status.json`, `instruction-sync-status.json`, `automation-monitor-status.json`, `monitor-role.json` and open owner tasks in Supabase `owner_decisions`;
+3. live `project-status.json`, `topview-status.json`, `instruction-sync-status.json`, `automation-monitor-status.json`, `monitor-role.json`, `ops/canon-lock.json`, `ops/owner-tasks.json` and open owner tasks in Supabase `owner_decisions`;
 4. the full sections your task needs («Что читать под задачу» in the brief): prompt work → `PROMPT-STYLE-GUIDE.md` + the target scene and 1–2 nearby current master scenes; story/editing → `film-analysis.md`, `film-backlog.md`, relevant Notion `Кино`.
 
 **Full takeover** is mandatory when the brief is invalid or shows `✕ ANCHOR MISSING`; when the task edits any of the 7 instructions or materially changes workflow / site / authority / recovery; for recovery after an incident; when the task touches sync, schedules, slot semantics or rules shared by several scenes; when in doubt; or when the owner asks for a full takeover. Read the seven canonical instruction documents from `main` in this order:
@@ -41,7 +41,8 @@ Before any write, confirm the environment can read/write this repository, run va
 - Master edit: `minimal commit → SYNC-TRIGGER.txt → validator project-status.health=ok → Pages → verification`.
 - Instruction edit: `minimal commit → python3 scripts/cert_github.py . → tests → push → verification`.
 - A rejected push means another writer: re-read and redo from scratch; never replay a stale prepared edit after a timeout or uncertain result.
-- One writer at a time: `scripts/monitor_role.py` and `monitor-role.json` decide which monitor writes; do not edit canon concurrently with ChatGPT.
+- Canon edits require the live root or project lock from `ops/CANON-LOCK.md`; acquire, verify, then release your own lock. `monitor-role.json` only selects the telemetry writer; it does not grant or deny permission to edit canon. Inbox tasks and reference-review metadata use the explicit no-lock exceptions in that protocol.
+- Agent coordination and responses to the same Claude thread follow `ops/OWNER-TASKS.md`; task state in GitHub is authoritative, Relay is the notification channel.
 - Do not declare completion until read-back and verification pass.
 
 ## 5. Backup copies

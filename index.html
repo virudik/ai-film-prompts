@@ -693,7 +693,7 @@ function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true
  status=s;
  runtimeTopview=buildTopviewRuntime(tv);
  const instruction=s.instruction_sync?.health||s.audit_fingerprint?.instruction_sync_health||'unknown';
- const semanticHealth=instructionDetail?.semantic_check?.health||'ok';
+ const semanticHealth=instructionDetail?.semantic_check?.health||'not_checked';
  const syncMs=Date.parse(s.synced_at||'');
  const syncAgeMin=Number.isFinite(syncMs)?(Date.now()-syncMs)/60000:Infinity;
  const heartbeatFresh=syncAgeMin<=SYNC_STALE_MIN;
@@ -708,7 +708,7 @@ function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true
  const topviewFresh=topviewAgeMin<=STALE_MIN;
  const topviewContractHealthy=topviewSlowMatches&&topviewSlotsMatch;
  const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;
- const semanticWarning=authoritativeHealthy&&semanticHealth!=='ok';
+ const semanticWarning=authoritativeHealthy&&!['ok','not_checked'].includes(semanticHealth);
  const workflowWarning=authoritativeHealthy&&unresolvedWorkflowFailure;
  const staleWarning=authoritativeHealthy&&!heartbeatFresh;
  const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);
@@ -749,7 +749,7 @@ function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true
  else $('statusMessage').textContent=instruction==='ok'?'Семь канонических инструкций GitHub main проверены. Drive — резервная копия. Монитор подтверждает работу реальными завершёнными циклами.':instruction==='stale'?'Канон GitHub согласован. Дата отдельной проверки инструкций устарела; требуется обновить сертификат GitHub, это не ошибка master.':instruction==='error'?'Обнаружена ошибка проверки канонических инструкций GitHub main. Необходимо проверить файлы и сертификат; Drive не переопределяет канон.':'Рабочие данные синхронизированы; отдельная авторизованная проверка инструкций пока недоступна.';
  const fp=s.audit_fingerprint||{};
  const wfState=latestCompleted?(latestCompleted.conclusion||'unknown'):'нет данных CI';
- const rows=[['ревизия',fp.revision_date||s.revision_date],['проверка GitHub',fp.synced_at||s.synced_at],['Topview snapshot',runtimeTopview.checkedAt||'—'],['Topview slots',runtimeTopview.occupied+' / '+runtimeTopview.capacity],['GitHub workflow',wfState],['последний сбой синхронизации',ci?.last_failure_at||'сбоев не зафиксировано'],['монитор: последний цикл',monCycle?.completed_at||'—'],['SHA-256 master',fp.canonical_master_sha256||s.canonical_master_sha256],['ID сцен',(fp.scene_ids||s.scene_ids||[]).join(', ')],['рабочие направления',(s.work_items_count??(s.work_items||[]).length)+' всего'],['медленная генерация',runtimeSceneMultiplicityLabel()],['состояние',fp.health||s.health],['инструкции',fp.instruction_sync_health||instruction],['семантическая проверка',semanticHealth]];
+ const rows=[['ревизия',fp.revision_date||s.revision_date],['проверка GitHub',fp.synced_at||s.synced_at],['Topview snapshot',runtimeTopview.checkedAt||'—'],['Topview slots',runtimeTopview.occupied+' / '+runtimeTopview.capacity],['GitHub workflow',wfState],['последний сбой синхронизации',ci?.last_failure_at||'сбоев не зафиксировано'],['монитор: последний цикл',monCycle?.completed_at||'—'],['SHA-256 master',fp.canonical_master_sha256||s.canonical_master_sha256],['ID сцен',(fp.scene_ids||s.scene_ids||[]).join(', ')],['рабочие направления',(s.work_items_count??(s.work_items||[]).length)+' всего'],['медленная генерация',runtimeSceneMultiplicityLabel()],['состояние',fp.health||s.health],['инструкции',fp.instruction_sync_health||instruction],['семантическая проверка',semanticHealth==='not_checked'?'не проверена':semanticHealth]];
  if(telemetryContext){
   rows.push(['проверено страницей',telemetryContext.lastReadAt||'—']);
   if(telemetryContext.publishedMasterChanged){

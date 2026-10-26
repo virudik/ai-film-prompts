@@ -56,7 +56,7 @@ INVARIANTS = [
      "PROMPT-STYLE-GUIDE.md", r"^## 16A\. Автономность", ["prompt"]),
     ("INV-MATERIAL-CHANGE", "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → cert_github.py certificate → push to main → Notion pointer → backup copies (best-effort).",
      "SYNC-RUNBOOK.md", r"^## 9\. Material Change Documentation Rule", ["handoff"]),
-    ("INV-NO-CREDITS", "No paid generation or credit spending without the canonical workflow and owner permission; launches only on owner command.",
+    ("INV-NO-CREDITS", "Agents may launch only owner-authorized queue items via the website in Unlimited mode at zero credits. Paid Topview launches are performed only by the owner.",
      "SYNC-RUNBOOK.md", r"^## Scene Reference Pack automation", ["credit"]),
     ("INV-LIBRARY-NONBLOCKING", "Library is best-effort, never a completion gate.", "SYNC-RUNBOOK.md", r"^## LIBRARY RECOVERY", ["Library"]),
     ("INV-DONE", "Never say «готово» before the relevant read-back/verification passed.", "SYNC-RUNBOOK.md", r"^## 14\. Verification before final answer", ["verif"]),

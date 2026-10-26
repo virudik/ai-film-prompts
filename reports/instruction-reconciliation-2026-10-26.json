@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "work_id": "INSTRUCTION-RECONCILE-20261026",
+  "updated_at": "2026-10-26T10:39:04.464448+00:00",
+  "status": "implementation_validated",
+  "owner_request": "Исправь и сделай что нужно",
+  "validation": {
+    "unit_tests_passed": 305,
+    "followup_tests_passed": 13,
+    "site": "ok",
+    "canon_health_warnings": 0,
+    "D7_anchors": "15/15",
+    "automations_readback": "exact",
+    "relay_subscription_preserved": true
+  },
+  "changes": [
+    "Normalized certificate generation with a strict schema; archived legacy metadata verbatim and refreshed actual bootstrap hashes.",
+    "Added lossless closed-inbox archival before removal with atomic writes and a shared CAS commit; 6 failure/retry/preservation tests passed.",
+    "Aligned delegation, 3-hour rule, same-thread responses, telemetry role and canon-lock exceptions; updated three Project Instructions templates.",
+    "Removed stale scene dependencies and historical queue snapshots from active guidance; preserved cancelled history in archive.",
+    "Updated both existing Automations prompts and verified exact readback, enabled states, hourly schedule and the same single Relay subscription.",
+    "Added weekly live-settings consistency procedure/checker and CI tests. Full offline suite: 305 passed; subsequent focused checks: 13 passed; site validator and canon-health ok; D7 valid 15/15."
+  ],
+  "limitations": [
+    "Project Instructions templates updated in GitHub; installed Project settings UI not verified.",
+    "Real archive is created only when eligible closed tasks exist; fixtures tested failure and retry.",
+    "No new generation, queue change or automation created."
+  ],
+  "post_publish": "pending"
+}

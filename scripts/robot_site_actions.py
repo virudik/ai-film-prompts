@@ -35,9 +35,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import canon_lock                          # noqa: E402
 import process_owner_decisions as pod      # noqa: E402
 import projects as prj                     # noqa: E402
+from operation_journal import atomic_json  # noqa: E402
 
 QUEUE = "ops/topview-launch-queue.json"
 INBOX = "ops/owner-tasks.json"
+INBOX_ARCHIVE = "archive/ops/owner-tasks-archive.json"
 REF_REVIEW = "references/reference-review.json"
 LOCK = canon_lock.LOCK
 QUEUE_ACTIONS = ("queue_up", "queue_down", "queue_remove", "queue_add")
@@ -187,13 +189,26 @@ def parse_ref_note(note):
     return path.strip(), comment.strip()
 
 
-def prune_inbox(inbox, open_ids, now):
-    """Closed tasks stay 14 days for the record, then leave the inbox (their Supabase row keeps the history)."""
+def prune_inbox(inbox, open_ids, now, archive):
+    """Archive exact closed records before removal, including tasks with no Supabase row."""
+    if not isinstance(archive, dict) or not isinstance(archive.get("tasks"), list):
+        raise ValueError("Invalid owner task archive; keep inbox unchanged")
+    saved = {}
+    for task in archive["tasks"]:
+        if not task.get("id") or task["id"] in saved:
+            raise ValueError("Invalid/duplicate task ID in archive")
+        saved[task["id"]] = task
     keep = []
     for t in inbox.get("tasks", []):
         closed = canon_lock.parse(t.get("closed_at"))
         if t.get("status") in INBOX_DONE and closed and closed < now - timedelta(days=KEEP_CLOSED_DAYS) \
                 and t.get("id") not in open_ids:
+            tid = t.get("id")
+            if not tid or (tid in saved and saved[tid] != t):
+                raise ValueError("Task archive conflict; fresh-read before retry")
+            if tid not in saved:
+                archive["tasks"].append(copy.deepcopy(t))
+                saved[tid] = t
             continue
         keep.append(t)
     inbox["tasks"] = keep
@@ -207,6 +222,8 @@ def plan(rows, files, now):
     queue, inbox, review = (copy.deepcopy(files[QUEUE]), copy.deepcopy(files[INBOX]), copy.deepcopy(files[REF_REVIEW]))
     lock = files.get(LOCK) or {}
     before = {QUEUE: dumps(files[QUEUE]), INBOX: dumps(files[INBOX]), REF_REVIEW: dumps(files[REF_REVIEW])}
+    archive = copy.deepcopy(files.get(INBOX_ARCHIVE, {"schema_version": 1, "tasks": []}))
+    before_archive = dumps(archive)
     acks = []
     in_inbox = {t.get("id"): t for t in inbox.get("tasks", [])}
     lock_busy = canon_lock.is_held(lock, now)
@@ -291,8 +308,11 @@ def plan(rows, files, now):
                 acks.append((row, "applied", note))
 
     open_ids = {r["id"] for r in rows if r.get("status") in ("pending", "in_progress")}
-    prune_inbox(inbox, open_ids, now)
+    prune_inbox(inbox, open_ids, now, archive)
     new_files = {}
+    # Archive first, then compact inbox; both are published in the same CAS commit.
+    if dumps(archive) != before_archive:
+        new_files[INBOX_ARCHIVE] = dumps(archive)
     for name, obj in ((QUEUE, queue), (INBOX, inbox), (REF_REVIEW, review)):
         text = dumps(obj)
         if text != before[name]:
@@ -317,6 +337,7 @@ class SupabaseStore:
 
 def load_files(root):
     return {QUEUE: read_json(root, QUEUE, {}), INBOX: read_json(root, INBOX, EMPTY_INBOX),
+            INBOX_ARCHIVE: read_json(root, INBOX_ARCHIVE, {"schema_version": 1, "tasks": []}),
             REF_REVIEW: read_json(root, REF_REVIEW, EMPTY_REVIEW), LOCK: read_json(root, LOCK, {})}
 
 
@@ -339,8 +360,7 @@ def run(root, store, git, *, now=None, sync=True, dry=False):
             return 0
         if new_files:
             for name, text in new_files.items():
-                (root / name).parent.mkdir(parents=True, exist_ok=True)
-                (root / name).write_text(text, encoding="utf-8")
+                atomic_json(root / name, json.loads(text))
             what = ", ".join(sorted({r["action"] for r, _, _ in acks})) or "inbox"
             commit = git.commit(f"Owner panel robot: site buttons ({what})", sorted(new_files))
             if commit and not git.push():

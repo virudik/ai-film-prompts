@@ -1,23 +1,31 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-26T10:24:59.409Z",
+  "last_updated_at": "2026-10-26T10:39:04.464448+00:00",
   "active_work": [
     {
       "work_id": "INSTRUCTION-RECONCILE-20261026",
       "title": "Согласование инструкций, автоматизаций и архива входящих",
-      "status": "in_progress",
-      "updated_at": "2026-10-26T10:24:59.409Z",
+      "status": "implementation_validated",
+      "updated_at": "2026-10-26T10:39:04.464448+00:00",
       "owner_quote": "Исправь и сделай что нужно",
       "scope": "Six findings from 26Oct instruction audit; preserve schedules, Relay subscription, scenes, queue and other projects.",
       "completed": [
-        "Fresh canonical rules and automation prompts audited; separate canon lock acquired and read back."
+        "Fresh canonical rules and automation prompts audited; separate canon lock acquired and read back.",
+        "Normalized certificate generation with a strict schema; archived legacy metadata verbatim and refreshed actual bootstrap hashes.",
+        "Added lossless closed-inbox archival before removal with atomic writes and a shared CAS commit; 6 failure/retry/preservation tests passed.",
+        "Aligned delegation, 3-hour rule, same-thread responses, telemetry role and canon-lock exceptions; updated three Project Instructions templates.",
+        "Removed stale scene dependencies and historical queue snapshots from active guidance; preserved cancelled history in archive.",
+        "Updated both existing Automations prompts and verified exact readback, enabled states, hourly schedule and the same single Relay subscription.",
+        "Added weekly live-settings consistency procedure/checker and CI tests. Full offline suite: 305 passed; subsequent focused checks: 13 passed; site validator and canon-health ok; D7 valid 15/15."
       ],
-      "next_action": "Implement certificate normalization, lossless inbox archive and rule consistency checks; update docs and existing automation prompts; verify and publish.",
+      "next_action": "Publish implementation; verify GitHub Actions, exact remote files and Pages; record receipts and release canon lock. Project settings UI remains separately unverified.",
       "canonical_refs": [
         "ops/OWNER-TASKS.md",
         "ops/CANON-LOCK.md",
-        "ops/TOPVIEW-EVENT-WAKE.md"
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "ops/AUTOMATION-CONSISTENCY.md",
+        "reports/instruction-consistency.json"
       ],
       "blockers": []
     },

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-26T10:37:52.188421+00:00",
+  "status": "ok",
+  "scope": "Selected consistency invariants only; full semantic review and runtime success are separate.",
+  "live_automations": "checked",
+  "automation_observations": [
+    {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "updated_at": "2026-10-26T10:34:14.686166+00:00",
+      "prompt_sha256": "a315a17744eedc210effd11724dee7fa09059594a27aa8fce2e2ae6d6fe6d4c2"
+    },
+    {
+      "id": "6adc585e7ac08191bb93825117dc7213",
+      "updated_at": "2026-10-26T10:34:20.869935+00:00",
+      "prompt_sha256": "d9463066dce70e0a0b0a0581004cfcf749d0833bbbe14ca49736af2b8de3a04f"
+    }
+  ],
+  "problems": []
+}

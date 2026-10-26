@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-26T01:21:56+00:00",
+ "generated_at": "2026-10-26T10:37:52+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,20 +10,20 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "9c9ea7423039e8db34e3f4a5e13788ac6930c116c4cb095647cda6e661695b5a",
-   "bytes": 34998
+   "sha256": "94af7d09a865e289bf2b49c7cf9e9bead9f5d786b04d4ae7630b8ac5eea655c8",
+   "bytes": 34632
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "a8bc2d36a06ccea58ee62d3c9f3676f0b899044887003a63ed00648e17db3afd",
-   "bytes": 124151
+   "sha256": "953139f747bd31ad748e23a57371b5c0a41fcf3d35c28731d4367e687d7d88ab",
+   "bytes": 125173
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "3454d27dd6fd5d636835b7d885588596cd6a350e7c9567f7efd50e7b57fa93c7",
-   "bytes": 33755
+   "sha256": "ac66ec9c0650b93fb6f5846df7a28a141af143061dc9eb34cb84345edb7932c4",
+   "bytes": 33853
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
@@ -34,8 +34,8 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "68707981d8ff6f6e4f6c46d2fb0a262ec7cb5089cb847f14aff02a4fab1e6497",
-   "bytes": 75687
+   "sha256": "e837e06b18b9e2af739af5cae2f8233f5a4d26920897bce66c9aaebc4dce0708",
+   "bytes": 77885
   },
   {
    "file": "README-AI-SYNC.md",
@@ -155,7 +155,7 @@
   },
   {
    "id": "INV-NO-CREDITS",
-   "rule": "No paid generation or credit spending without the canonical workflow and owner permission; launches only on owner command.",
+   "rule": "Agents may launch only owner-authorized queue items via the website in Unlimited mode at zero credits. Paid Topview launches are performed only by the owner.",
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## Scene Reference Pack automation",
    "anchor_ok": true,
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22849,
-  "above_marker_chars": 22849,
+  "chars": 22638,
+  "above_marker_chars": 22638,
   "recent_sections_below_marker": [],
-  "sha256_12": "aa1f03ba1d8a",
+  "sha256_12": "b4176000a8ef",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
