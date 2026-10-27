@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T22:30:37+00:00",
+  "last_updated_at": "2026-10-27T22:51:24+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -679,6 +679,59 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
+    },
+    {
+      "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
+      "project": "seregius",
+      "title": "Татуин: дыня и сумка, лазерный совок и бесшовный пролёт69→70→65",
+      "status": "in_progress",
+      "created_at": "2026-10-27T22:51:23Z",
+      "updated_at": "2026-10-27T22:51:24+00:00",
+      "owner_quote": "в сцене 68 «Жилищник» бестолково гоняет песок и обметает кучу стороной, а в сцене 69 (раз маша уже с дыней в руках) Маша отдаёт дворнику дыню и сумку, отнимает метлу и убирает всё в совок. Так даже лучше. В лазерный совок добавь и сделай референсные картинки этих действий. Реф картинки кучи нужны? Другие какие-нибудь рефы нужны? Добавить связную бесшовную сцену пролета камеры от сцены 69 к сцене 65 где Серёга в кантине выпивает с боба цветом и компанией",
+      "previous_resume_focus": {
+        "work_id": "SEREGIUS-PLAN-20261023",
+        "project": "seregius",
+        "set_at": "2026-10-27T22:30:37+00:00",
+        "reason": "Explicitly selected by the authorized task writer"
+      },
+      "completed": [
+        "Проверены существующие источники и сохранён план новых изображений и связности до генерации"
+      ],
+      "next_action": "Сгенерировать и проверить пять запланированных новых/обновлённых референсов; затем согласовать реквизит67–69 и переход69→70→65 в промптах, манифестах и очереди, опубликовать и проверить сайт. Видеогенераций в этой подготовительной работе не выполнять.",
+      "canonical_refs": [
+        "reports/tatooine-props-bridge-2026-10-28.json",
+        "video-prompts.md",
+        "ops/topview-launch-queue.json"
+      ],
+      "constraints": [
+        "Открытый Work: подготовка изображений, промптов и публикации; без запуска видео",
+        "Реальные стыки и QC обязательны",
+        "Роскосмос остаётся на паузе",
+        "Без платных действий и художественных одобрений"
+      ],
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-27T22:51:24+00:00",
+        "last_completed": "Existing prompts and reference sources inspected; requested changes and output paths recorded before image generation",
+        "next_action": "Сгенерировать и проверить пять запланированных новых/обновлённых референсов; затем согласовать реквизит67–69 и переход69→70→65 в промптах, манифестах и очереди, опубликовать и проверить сайт. Видеогенераций в этой подготовительной работе не выполнять.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# Татуин — дыня, лазерный совок и пролёт к кантине · 28.10.2026",
+          "sha256": "82af9cb847550edf1d6488fb723d82765703f32c99c1fabce06695b4b992969c"
+        },
+        "evidence": [
+          {
+            "file": "reports/tatooine-props-bridge-2026-10-28.json",
+            "sha256": "24e2583c36fb7f48e8fa445afb1dc49a6da084775c1a9b9cfbb4dcf6dc53bd6c"
+          }
+        ],
+        "read_next": [
+          "ops/OWNER-TASKS.md",
+          "ops/TOPVIEW-FREE-LAUNCH.md",
+          "reports/tatooine-props-bridge-2026-10-28.json"
+        ],
+        "blockers": []
+      }
     }
   ],
   "rules": [
@@ -1012,9 +1065,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-PLAN-20261023",
+    "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
     "project": "seregius",
-    "set_at": "2026-10-27T22:30:37+00:00",
+    "set_at": "2026-10-27T22:51:24+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

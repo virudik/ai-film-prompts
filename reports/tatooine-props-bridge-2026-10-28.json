@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
+  "project": "seregius",
+  "status": "in_progress",
+  "stage": "upfront_checkpoint_before_images",
+  "created_at": "2026-10-27T22:51:23Z",
+  "checked_at": "2026-10-27T22:51:23Z",
+  "source_head": "0aceff850d88ee34670e486b9ccf733c3dc1fc1a",
+  "owner_request": "в сцене 68 «Жилищник» бестолково гоняет песок и обметает кучу стороной, а в сцене 69 (раз маша уже с дыней в руках) Маша отдаёт дворнику дыню и сумку, отнимает метлу и убирает всё в совок. Так даже лучше. В лазерный совок добавь и сделай референсные картинки этих действий. Реф картинки кучи нужны? Другие какие-нибудь рефы нужны? Добавить связную бесшовную сцену пролета камеры от сцены 69 к сцене 65 где Серёга в кантине выпивает с боба цветом и компанией",
+  "owner_request_provenance": "Exact direct owner message supplied by the root chat; spelling retained verbatim",
+  "scope": {
+    "reference_work_in_open_chat": true,
+    "planned_outputs": 5,
+    "planned_new_images": 3,
+    "planned_image_updates": 2,
+    "planned_story_chain": [
+      52,
+      66,
+      67,
+      68,
+      69,
+      70,
+      65
+    ],
+    "selected_model": "Wan 3.0",
+    "duration_seconds": 30,
+    "scene52_scope": "P7 only; P1–P6 stay Seedance2.0",
+    "before_music_and_dance": [
+      49,
+      50,
+      51,
+      28
+    ],
+    "video_launches_in_this_work": false
+  },
+  "planned_outputs": [
+    {
+      "path": "references/scenes/scene-69/S69-light-dustpan.png",
+      "operation": "create",
+      "purpose": "Отдельный лазерный совок в одном дизайне со световой метлой68",
+      "status": "planned",
+      "before_sha256": null,
+      "result_sha256": null,
+      "generated_at": null,
+      "published_commit": null
+    },
+    {
+      "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+      "operation": "create",
+      "purpose": "Передача одной дыни и одной сумки бригадиру; Маша принимает его метлу",
+      "status": "planned",
+      "before_sha256": null,
+      "result_sha256": null,
+      "generated_at": null,
+      "published_commit": null
+    },
+    {
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "operation": "update",
+      "purpose": "Маша в фоне несёт дыню и сумку; погашенный совок установлен рядом с четырёхглазым; кучку обметают стороной",
+      "status": "planned",
+      "before_sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+      "result_sha256": null,
+      "generated_at": null,
+      "published_commit": null
+    },
+    {
+      "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "operation": "update",
+      "purpose": "Маша метёт в лазерный совок; одна дыня и одна сумка у бригадира",
+      "status": "planned",
+      "before_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+      "result_sha256": null,
+      "generated_at": null,
+      "published_commit": null
+    },
+    {
+      "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+      "operation": "create",
+      "purpose": "География открытого входа в кантину и непрерывный путь камеры к столу65",
+      "status": "planned",
+      "before_sha256": null,
+      "result_sha256": null,
+      "generated_at": null,
+      "published_commit": null
+    }
+  ],
+  "planned_canonical_changes": [
+    "67: after payment retrieve the same pale-blue ribbed melon and leave with one brown satchel; preserve the argument",
+    "68: Masha approaches with the same melon and satchel; crew still sweep around the same pile; establish the inactive laser dustpan",
+    "69: sequential bag/forearm, melon, broom exchange; sweep the same pile and sand into the laser dustpan; retrieve both melon and bag before leaving",
+    "70: new seamless camera flight from the real end of69 through the open cantina entrance toward the established table65",
+    "65: continue the real end of70 before the toast; preserve Serega/Boba/Gamorrean/Twilek/IG-11 and the silent drinking action",
+    "Queue: prepare new70 and link existing65 after its real result; preserve existing task IDs, claims and genuine video dependencies; retain story priority before music/dance"
+  ],
+  "continuity_constraints": [
+    "Exactly one persistent pale-blue ribbed melon and one brown satchel, with traceable transfers and no extra arms",
+    "68 leaves the original pile untouched;69 removes that pile once into the dustpan",
+    "Individual character sheets and actual previous video endings outrank composition helpers",
+    "Laser dustpan matches the cyan light broom; remains a cleaning tool and holds swept material",
+    "One actual final-three-second video per seam; no synthetic substitution and no claim of a produced result",
+    "65 opens before the toast and does not repeat the camera flight from70"
+  ],
+  "input_snapshot": [
+    {
+      "path": "video-prompts.md",
+      "sha256": "86a4a6ab4902862724ff41caf7f931c843c8f856b41322a4d7e73c123bd17a5e",
+      "bytes": 1067993
+    },
+    {
+      "path": "ops/topview-launch-queue.json",
+      "sha256": "3e633c1fbc1894a7e7e9db6bc99941cf77e9a976034fefb7d46276fe26a53f7e",
+      "bytes": 398673
+    },
+    {
+      "path": "reports/tatooine-chain-2026-10-28.json",
+      "sha256": "2486c4f4ac78c44d2e34ced739c1f859fd035bf357d9a73410803444073f1a0e",
+      "bytes": 17999
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "bytes": 2247428
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+      "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173",
+      "bytes": 2831340
+    },
+    {
+      "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+      "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+      "bytes": 2629946
+    },
+    {
+      "path": "references/scenes/scene-68/S68-light-broom.png",
+      "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+      "bytes": 3555635
+    },
+    {
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+      "bytes": 2698328
+    },
+    {
+      "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+      "bytes": 2660163
+    },
+    {
+      "path": "references/scenes/scene-65/S65-bar-table.png",
+      "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+      "bytes": 2250737
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+      "bytes": 6607132
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "bytes": 155182
+    }
+  ],
+  "generated_assets": [],
+  "published_assets": [],
+  "pending_assets": [
+    "references/scenes/scene-69/S69-light-dustpan.png",
+    "references/scenes/scene-69/S69-melon-bag-handoff.png",
+    "references/scenes/scene-68/S68-crew-sweeping-street.png",
+    "references/scenes/scene-69/S69-masha-masterclass.png",
+    "references/scenes/scene-70/S70-cantina-entrance.png"
+  ],
+  "video_launches": 0,
+  "queue_items_added": 0,
+  "paid_actions": 0,
+  "owner_approvals_added": 0,
+  "publication": {
+    "status": "not_started",
+    "content_commit": null,
+    "public_readback_verified": false
+  },
+  "progress": {
+    "last_completed": "Existing prompts and reference sources inspected; requested changes and output paths recorded before image generation",
+    "next_action": "Сгенерировать и проверить пять запланированных новых/обновлённых референсов; затем согласовать реквизит67–69 и переход69→70→65 в промптах, манифестах и очереди, опубликовать и проверить сайт. Видеогенераций в этой подготовительной работе не выполнять.",
+    "blockers": []
+  }
+}
