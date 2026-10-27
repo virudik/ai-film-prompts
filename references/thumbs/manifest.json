@@ -2913,6 +2913,16 @@
    "thumb_bytes": 20906,
    "src_sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
   },
+  "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png": {
+   "thumb": "references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2247428,
+   "thumb_bytes": 26674,
+   "src_sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+  },
   "references/scenes/scene-67/S67-fruit-stall.png": {
    "thumb": "references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp",
    "width": 640,
