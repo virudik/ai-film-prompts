@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project kot-detektiv`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-10-27T19:05:11+00:00
+Состояние: needs_recovery
+Проверено: 2026-10-27T19:07:18+00:00
 Задача: KD-WAIT-OWNER — Кот детектив — ожидание решения владельца
 
 Последний подтверждённый этап: 22 DRAFT-сцены, 129 промтов с динамичными вариантами; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.
@@ -56,4 +56,5 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- brief was invalid at generation
+- master vs project-status sha256 mismatch
