@@ -6726,8 +6726,8 @@
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P2",
       "canonical_block_label": "52 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "853a0c40f0fc19337356373d0ca741c07575385d9356d131c1f54c5d5acfcf13",
-      "normalized_prompt_sha256": "ea911e7b4bb43ca9bbc5548de9dae09df2391771c04f77e050de87239aca412f",
+      "canonical_prompt_sha256": "e0ddcdfe3d8bbab38ce91e27c953fb752e42a4250c734de09a6b1766079793ed",
+      "normalized_prompt_sha256": "562275cad8eacd90c005f076d897496f2662524b59ce826719ef502352f3cf4a",
       "priority": 0.01,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -6801,15 +6801,16 @@
       "blocker": "Await actual S52-R2-SEED20-P1 success, archive its original, prepare true end and pass full continuity QC before launch.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
-      "created_at": "2026-10-27T11:25:33.064Z"
+      "created_at": "2026-10-27T11:25:33.064Z",
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
     },
     {
       "id": "S52-R2-SEED20-P3",
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P3",
       "canonical_block_label": "52 · Seedance 2.0 часть 3",
-      "canonical_prompt_sha256": "6dda64d647b3dea074c22f5daa14e56273e424e6abfd2545d7df685eda058fb0",
-      "normalized_prompt_sha256": "ed5f2485d439ffddf1e13b8518ff763af16682ca493851ae804a2905b36c1514",
+      "canonical_prompt_sha256": "bdfd1c0b25537dd45273493e9fe5352432762fd7c9afeaaef3b49cb92fe51ff2",
+      "normalized_prompt_sha256": "7f66b63b08f9f7979223b060edd7f3eeb08e2a2b7aa971936ffd0c00da967157",
       "priority": 0.02,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -6862,6 +6863,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "exact large cruiser design from Topview: triangular grey hull, stepped superstructure, raised wide bridge and TWO spherical domes"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose."
         }
       ],
       "task_id": null,
@@ -6875,15 +6884,16 @@
       "blocker": "Await actual S52-R2-SEED20-P2 success, archive its original, prepare true end and pass full continuity QC before launch.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
-      "created_at": "2026-10-27T11:25:33.064Z"
+      "created_at": "2026-10-27T11:25:33.064Z",
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
     },
     {
       "id": "S52-R2-SEED20-P4",
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P4",
       "canonical_block_label": "52 · Seedance 2.0 часть 4",
-      "canonical_prompt_sha256": "bdecf439362a35de7f844d7c8a8b61f851a5232345acc1caa071888a124f16bc",
-      "normalized_prompt_sha256": "2bedd6ec0af66823d7f8ec333ba94f29ef50e15b409662eaca29023f6ea5862d",
+      "canonical_prompt_sha256": "7e5090cb813e7674685edded32fe0943dd0edbb7ba1e7b5699545438381c5eba",
+      "normalized_prompt_sha256": "58024750d0b0b87fdfd6fda8e5026ecd9a6f8ead56efaa1dbb569f50ea0b126a",
       "priority": 0.03,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -6936,6 +6946,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose."
         }
       ],
       "task_id": null,
@@ -6949,15 +6967,16 @@
       "blocker": "Await actual S52-R2-SEED20-P3 success, archive its original, prepare true end and pass full continuity QC before launch.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
-      "created_at": "2026-10-27T11:25:33.064Z"
+      "created_at": "2026-10-27T11:25:33.064Z",
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
     },
     {
       "id": "S52-R2-SEED20-P5",
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P5",
       "canonical_block_label": "52 · Seedance 2.0 часть 5",
-      "canonical_prompt_sha256": "9f6695e5639eaf76167c5904293e4569884f725458789adb41e2dfa8e56ba7dc",
-      "normalized_prompt_sha256": "2410787e7c807186728f7edebf29e979aa65e1c10a47fca8fe26f48f44ba8ec0",
+      "canonical_prompt_sha256": "b2302826a9bd92a99744424028f3c5fa1e1f9866fb2f1a637a2b198eddcc410a",
+      "normalized_prompt_sha256": "ffd1ebeaf9e33f4dbf3160e2bef1b8ae5368d3323c0bf6b98a05fdd62028e536",
       "priority": 0.04,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -7010,6 +7029,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose."
         }
       ],
       "task_id": null,
@@ -7023,15 +7050,16 @@
       "blocker": "Await actual S52-R2-SEED20-P4 success, archive its original, prepare true end and pass full continuity QC before launch.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
-      "created_at": "2026-10-27T11:25:33.064Z"
+      "created_at": "2026-10-27T11:25:33.064Z",
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
     },
     {
       "id": "S52-R2-SEED20-P6",
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P6",
       "canonical_block_label": "52 · Seedance 2.0 часть 6",
-      "canonical_prompt_sha256": "12d9d7077dcc026c1c3033401b39214fcd2c0ef2aea92a9be04b5ab3ad4c7fd8",
-      "normalized_prompt_sha256": "ef265a9f7010c24bab284533b588a7ddaf768b7fe597ae21071c9af7c5e0f7af",
+      "canonical_prompt_sha256": "2cf83b4fbb045f8d5d22feb9c1b93e2cf31601ceed65807d226cd7b5b8cd7fa9",
+      "normalized_prompt_sha256": "ef0d0d344ae9829084dcefb6739f730509c21275acd1bcb73cc973592431fd60",
       "priority": 0.05,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -7097,15 +7125,16 @@
       "blocker": "Await actual S52-R2-SEED20-P5 success, archive its original, prepare true end and pass full continuity QC before launch.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
-      "created_at": "2026-10-27T11:25:33.064Z"
+      "created_at": "2026-10-27T11:25:33.064Z",
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
     },
     {
       "id": "S52-R2-SEED20-P7",
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P7",
       "canonical_block_label": "52 · Seedance 2.0 часть 7",
-      "canonical_prompt_sha256": "346b8fd12d6140222afc56b67b6dcffae224920a950a64c1578f4940b96aa2b0",
-      "normalized_prompt_sha256": "306c628b6694a7de700276207f7146974fef6683f56caa66a2a953cc339d00e7",
+      "canonical_prompt_sha256": "062f640c83e1387dd8babf675aef1be68e650f62833bb865e51f38173bbb0cc6",
+      "normalized_prompt_sha256": "9812e0b397fd5edc32a4018324ea0dba1153b41859c05469757686c5e734df06",
       "priority": 0.06,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -7145,11 +7174,27 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
-          "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+          "path": "references/scenes/scene-66/S66-alien-dog.png",
+          "sha256": null,
           "required": true,
-          "input_status": "available",
-          "canonical_role": "town architecture and daylight only; do not bring the parked ship into the streets"
+          "input_status": "required_not_available",
+          "canonical_role": "exact alien dog design from scene 66 (drawn by the open ChatGPT Work chat)"
+        },
+        {
+          "slot": "@Image4",
+          "path": null,
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "GIRL A appearance — owner reference, to be added by the owner"
+        },
+        {
+          "slot": "@Image5",
+          "path": null,
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "GIRL B appearance — owner reference, to be added by the owner"
         }
       ],
       "task_id": null,
@@ -7160,10 +7205,11 @@
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
       "launch_readiness": "blocked_continuity",
-      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, prepare true end and pass full continuity QC before launch. Also needs S66 alien dog reference (ChatGPT Work) and both girls' owner references.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
-      "created_at": "2026-10-27T11:25:33.064Z"
+      "created_at": "2026-10-27T11:25:33.064Z",
+      "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
     }
   ],
   "already_submitted": {

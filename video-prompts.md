@@ -78,9 +78,9 @@
 | 62 | [Татуин: после погони — обратно к противостоянию](#scene-62) | Настоящий конец первого видео, начало второго как целевой финал; Серёга, Артём, Илюша, красная машина | Подъём после падения, остановка машины и возвращение Серёги, точная расстановка перед вторым роликом. P1 готова; P2 после собственной P1. |
 | 63 | [Храм ситхов: великие люди все на одно лицо](#scene-63) | Серёга, галерея собственных каменных статуй, портрет, тронный зал | Проходит по залам и искренне восхищается.30с Wan3.0, входы готовы; альтернативные2×15с. |
 | 64 | [Звёздный разрушитель: Серёга пританцовывает по коридору](#scene-64) | Серёга; коридор разрушителя; офицеры у стены | Серёга в прекрасном настроении пританцовывая идёт по коридору; имперские офицеры жмутся к стенам и провожают его странным, но испуганным взглядом. Владелец 27.10; DRAFT, ждёт референсы. |
-| 65 | [Татуин: Серёга выпивает в баре с Бобой Феттом и компанией](#scene-65) | Серёга; кантина (S10); стол с Бобой Феттом, гаморреанцем, тви'леком и IG-11 | Серёга пьёт с Бобой Феттом, гаморреанцем, тви'леком-наёмником и IG-11: тост «Ну, за Татуин!», гэги с выпивкой у шлема и дроида. Владелец 27.10; DRAFT, ждёт референсы. |
-| 66 | [Татуин: две девочки и инопланетная собака](#scene-66) | девочки (референсы — владелец); инопланетная собака; улица Татуина | Две девочки выгуливают на поводке инопланетную собаку; посреди улицы она садится какать, прохожие возмущаются. Владелец 27.10; DRAFT, ждёт референсы. |
-| 67 | [Татуин: девушка ругается с продавцом фруктов](#scene-67) | девушка (референс — владелец); прилавок с инопланетными фруктами; продавец | Девушка на татуинском рынке покупает фрукты и бурно ругается с четырёхруким инопланетным продавцом из-за цены. Владелец 27.10; DRAFT, ждёт референсы. |
+| 65 | [Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией](#scene-65) | Серёга; кантина (S10); стол с Бобой Феттом, гаморреанцем, тви'леком и IG-11 | Серёга молча пьёт с Бобой Феттом, гаморреанцем и тви'леком-наёмником; IG-11 вместо выпивки капает на себя из маслёнки. Владелец 27.10; DRAFT, ждёт референсы. |
+| 66 | [Татуин: две девочки и инопланетная собака](#scene-66) | конец 52 ч.7; девочки (референсы — владелец); инопланетная собака; улица; прилавок 67 | Продолжение 52 ч.7: собака садится какать посреди улицы, прохожие возмущаются, а девочки как ни в чём не бывало идут дальше — к прилавку 67. Владелец 27.10; DRAFT, ждёт референсы. |
+| 67 | [Татуин: девушка яростно ругается с продавцом фруктов](#scene-67) | конец 66; девушка (референс — владелец); прилавок; четырёхрукий продавец | Продолжение 66: девушка на рынке Татуина очень бурно ругается с четырёхруким продавцом из-за цены. Владелец 27.10; DRAFT, ждёт референсы. |
 
 ---
 
@@ -4472,6 +4472,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Очередь:** `S52-R2-SEED20-P1` … `P7`, priority0.00–0.06, на месте прежнего приоритетного52P2. Если ранняя часть ждёт свой результат, запускать следующую фактически готовую разрешённую сцену общей очереди. Видеозапуски — только Unlimited0 после полного preflight.
 
+**Улучшения владельца 27.10 (части2–7, обе версии):** у каждого полёта свой фирменный манёвр (2 — вираж с переворотом на выходе из ангара; 3 — бочка под носом крейсера и прыжок в гиперпространство; 4 — выход из гиперпространства, штопор и пролёт через каньон; 5 — разворот на180° перед посадкой); короткие вставки кабины с лицом Серёги и запиской «хлеб и молоко» в3–5; два солнца Татуина в4–7. Часть1 не менялась.
+
+**Связка (владелец 27.10):** часть7 → **66** → **67** идут подряд бесшовно. В конце7 Серёгу обгоняют/встречают девочки с инопланетной собакой, камера переходит на них;66 начинается с настоящих последних3с части7, 67 — с последних3с 66. Поэтому часть7 ждёт ещё и референсы собаки (ChatGPT) и девочек (владелец).
+
+**Монтаж:** 105с исходника — много; брать лучшие6–9с из каждой части (≈50–60с).
+
 **Что происходит:**
 
 |Часть|Действие|Опорный момент|
@@ -4482,7 +4488,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 |4|Подлёт к городу|Спуск, банк над дюнами, бреющий проход и раскрытие города.|
 |5|Посадка|Торможение, шасси, пыль, тяжёлое касание, осадка и остановка.|
 |6|Выход к городу|После полной остановки — та же боковая рампа и путь к улице.|
-|7|Прогулка|Живые улочки, навесы, купола, осмотр города на ходу и подход к дальнейшей кантине.|
+|7|Прогулка|Живые улочки, навесы, купола; навстречу девочки с инопланетной собакой, камера переходит на них → бесшовно сцена66.|
 
 **Референсы действий** — синтетические ориентиры композиции; исходник крейсера взят из существующего Topview task `85dab256ad994a72a34946ef70aaaf69`. Все SHA и происхождение: `reports/scene52-reference-pack-2026-10-27.json`.
 
@@ -4593,7 +4599,7 @@ END STATE:
 The whole personal craft has physically cleared the hangar aperture into black space and is accelerating along the outside of the cruiser. Gear fully stowed, hatch closed; maintain one readable outbound direction.
 
 CAMERA / PERFORMANCE:
-Four motivated camera positions: cockpit, low lift-off, lateral doorway passage, external tracking. Fast parallax and a restrained bank create excitement; no unexplained cut from a stationary ship straight into space.
+Four motivated camera positions: cockpit, low lift-off, lateral doorway passage, external tracking. Fast parallax and a signature move — a hard banking climb-out through the hangar mouth, then a snap roll back to level — create excitement; no unexplained cut from a stationary ship straight into space.
 
 LIGHT / MATERIALS:
 Cool hangar practicals, warm doorway light, believable reflective metal, fabric texture and the blue planet beyond the bay.
@@ -4610,7 +4616,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Wan 3.0 часть 3 — Облёт нужного крейсера
 
-**Входы:** @Video1 — настоящие последние3с результата части2 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P3-cruiser-flyby.jpg`; @Image4 — `references/scenes/scene-52/S52-cruiser-topview.jpg`.
+**Входы:** @Video1 — настоящие последние3с результата части2 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P3-cruiser-flyby.jpg`; @Image4 — `references/scenes/scene-52/S52-cruiser-topview.jpg`; @Image5 — `references/scenes/scene-37/S37-cockpit-bread-milk-helper.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4622,6 +4628,7 @@ REFERENCES / AUTHORITY:
 @Image2 — absolute personal-craft design; ignore its old city background.
 @Image3 — synthetic action/composition helper for this part; not an actual video start or identity source.
 @Image4 — exact large cruiser design from Topview: triangular grey hull, stepped superstructure, raised wide bridge and TWO spherical domes.
+@Image5 — ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4630,6 +4637,9 @@ SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown
 SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
+COCKPIT INSERT:
+The brief cockpit cut shows the same cockpit: Serega alone in the left pilot seat, second seat empty, hatch sealed. One pale-yellow note with simple black loaf-left / milk-carton-right drawings stays flat on the blank console panel to the pilot RIGHT and trembles with the vibration; no text overlay.
+
 CRUISER LOCK:
 @Image4 is the exact cruiser, not a generic Star Destroyer: preserve the broad grey wedge, layered stepped centre, raised wide bridge with two spherical domes and lit edge trenches. It is vastly larger than the personal craft. Maintain visible safe space between ships and consistent scale through every cut; no battle.
 
@@ -4637,13 +4647,13 @@ START STATE:
 Continue the actual exterior ending after the whole personal craft has cleared the hangar. Keep its direction and momentum against the same cruiser.
 
 STORY FLOW:
-Continue departure and establish the cruiser scale in a wide tracking reveal. Follow the smaller craft along the near-side hull trench, changing from a broad silhouette to a closer parallax view of the passing hull. It drops below the bow line, banks around the forward corner with safe clearance, and climbs back into open space on a continuous outward arc. Finish with acceleration away from the receding cruiser. Use four motivated views that preserve the route and craft identity; sustain speed, not a slow beauty orbit.
+Continue departure and establish the cruiser scale in a wide tracking reveal. Follow the smaller craft along the near-side hull trench, changing from a broad silhouette to a closer parallax view of the passing hull. A short cockpit cut shows Serega's face under G-force, hand firm on the throttle, the bread/milk note trembling on the right panel. Signature move: it drops below the bow line and makes a full barrel roll around the forward corner with clear separation, then climbs back into open space. Finish with acceleration away from the receding cruiser as the starfield stretches into a hyperspace jump. Use four motivated views that preserve the route and craft identity; sustain speed, not a slow beauty orbit.
 
 END STATE:
-The personal craft completes its outward arc past the cruiser bow and accelerates into clear black space; the enormous cruiser recedes behind. The small ship remains recognizably the same flat design.
+The personal craft rolls out past the cruiser bow, accelerates into clear space and jumps into hyperspace: the starfield stretches into streaks and the craft vanishes forward. The enormous cruiser recedes behind. The small ship remains recognizably the same flat design.
 
 CAMERA / PERFORMANCE:
-Wide scale reveal, parallel hull tracking, low bow-clearance view, outward chase angle. Show a real gap between ships. Cruiser windows and hull plates establish scale; the personal craft must never become a second capital ship.
+Wide scale reveal, parallel hull tracking, low bow-clearance view, brief cockpit insert, outward chase angle into the hyperspace jump. Show a real gap between ships. Cruiser windows and hull plates establish scale; the personal craft must never become a second capital ship.
 
 LIGHT / MATERIALS:
 Cool raking starlight, readable grey hull detail, deep black space and restrained warm propulsion glow.
@@ -4660,7 +4670,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Wan 3.0 часть 4 — Подлёт к городу на Татуине
 
-**Входы:** @Video1 — настоящие последние3с результата части3 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P4-tatooine-approach.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`.
+**Входы:** @Video1 — настоящие последние3с результата части3 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P4-tatooine-approach.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-bread-milk-helper.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4672,6 +4682,7 @@ REFERENCES / AUTHORITY:
 @Image2 — absolute personal-craft design; ignore its old city background.
 @Image3 — synthetic action/composition helper for this part; not an actual video start or identity source.
 @Image4 — same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight.
+@Image5 — ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4680,23 +4691,26 @@ SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown
 SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
+COCKPIT INSERT:
+The brief cockpit cut shows the same cockpit: Serega alone in the left pilot seat, second seat empty, hatch sealed. One pale-yellow note with simple black loaf-left / milk-carton-right drawings stays flat on the blank console panel to the pilot RIGHT and trembles with the vibration; no text overlay.
+
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
-Begin with the actual end of the outward departure in black space, matching craft orientation and motion. A motivated match cut may mark elapsed interplanetary travel before the atmospheric descent.
+Begin with the actual hyperspace-jump ending of Part 3. The same craft drops out of hyperspace above the desert planet: streaks snap back to stars, the tan planet and its twin suns fill the view.
 
 STORY FLOW:
-Continue the outward space vector briefly, then use a clear travel match cut to a high atmospheric descent over the desert planet. Follow a sweeping descending bank toward the dune field, then a low fast pass above the dunes with a thin sand wake. The town gradually reveals beyond the last crest. Track the ship as it selects the open outskirts field, arcs toward it and begins slowing on a shallow approach. End airborne and aligned; reserve touchdown for the following part. Additional time expands the travel and geographic reveal while preserving speed.
+The craft drops out of hyperspace above the desert planet with its twin suns and dives into the atmosphere. A short cockpit cut shows Serega's calm face as the cockpit shakes, the bread/milk note trembling on the right panel. Signature move: a steep corkscrew descent, levelling out just above the dune crests and slicing through a narrow rock canyon, then a low fast pass above the dunes with a thin sand wake. The town gradually reveals beyond the last crest. Track the ship as it selects the open outskirts field, arcs toward it and begins slowing on a shallow approach. End airborne and aligned; reserve touchdown for the following part. Additional time expands the travel and geographic reveal while preserving speed.
 
 END STATE:
 The same craft has revealed the town and aligned with an open sandy landing field on its outskirts. It is still airborne on a shallow controlled approach, hatch closed, landing gear still stowed.
 
 CAMERA / PERFORMANCE:
-Orbital-to-atmospheric match cut, dynamic trailing three-quarter descent, low side tracking over dunes, wider town reveal. One motivated change of travel time, then continuous local geography.
+Hyperspace exit and atmospheric dive, brief cockpit insert, dynamic trailing three-quarter descent, low side tracking over dunes, wider town reveal. One motivated change of travel time, then continuous local geography.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Engine note shifts into atmospheric roar, air rushing over the hull, low-flight doppler and windblown sand; town ambience faint in the distance. No dialogue. No narrator, intelligible extra speech, music or captions.
@@ -4710,7 +4724,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Wan 3.0 часть 5 — Подробная посадка
 
-**Входы:** @Video1 — настоящие последние3с результата части4 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P5-tatooine-landing.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`.
+**Входы:** @Video1 — настоящие последние3с результата части4 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P5-tatooine-landing.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-bread-milk-helper.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4722,6 +4736,7 @@ REFERENCES / AUTHORITY:
 @Image2 — absolute personal-craft design; ignore its old city background.
 @Image3 — synthetic action/composition helper for this part; not an actual video start or identity source.
 @Image4 — same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight.
+@Image5 — ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4730,14 +4745,17 @@ SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown
 SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
+COCKPIT INSERT:
+The brief cockpit cut shows the same cockpit: Serega alone in the left pilot seat, second seat empty, hatch sealed. One pale-yellow note with simple black loaf-left / milk-carton-right drawings stays flat on the blank console panel to the pilot RIGHT and trembles with the vibration; no text overlay.
+
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
 Continue the actual approach ending: the same personal craft is airborne toward the chosen open field outside the established town; preserve heading, sun direction and city landmarks.
 
 STORY FLOW:
-Continue the approach with a readable braking arc, nose lifting slightly as speed falls. Deploy the original landing supports while the craft lowers over the open field. Track down toward ground level: repulsor wash pushes dust outward without hiding the whole ship. Show feet, sand contact and weight transfer clearly, then a single heavy settling movement of the hull. Let the engine tone fade while rolling dust gradually reveals the craft and the surrounding outskirts. Keep the approach and touchdown dynamic; use the final seconds for the physical aftermath, hatch still closed.
+Signature move: a fast flare with a 180-degree yaw swing, the craft pivoting into position as speed falls; a short cockpit cut shows Serega's hand pulling back the throttle beside the bread/milk note. Deploy the original landing supports while the craft lowers over the open field. Track down toward ground level: repulsor wash pushes dust outward without hiding the whole ship. Show feet, sand contact and weight transfer clearly, then a single heavy settling movement of the hull. Let the engine tone fade while rolling dust gradually reveals the craft and the surrounding outskirts. Keep the approach and touchdown dynamic; use the final seconds for the physical aftermath, hatch still closed.
 
 END STATE:
 The craft rests stably on all landing supports on the sandy field, engines settled, dust thinning, hatch/ramp still closed. Town and side doorway remain on the established sides for the exit.
@@ -4746,7 +4764,7 @@ CAMERA / PERFORMANCE:
 Moving side approach, low three-quarter braking, close-medium landing-foot contact, wider settled ship. Match the motion at cuts; no cut that skips touchdown. Keep safe clearance from buildings and residents.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Strong braking thrust, gear motors, rolling sand, distinct weighted landing thump, suspension creak and engines winding down into desert wind. No dialogue. No narrator, intelligible extra speech, music or captions.
@@ -4781,7 +4799,7 @@ SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
 Continue the real stationary landing ending: all landing supports bear weight, the side hatch is closed, dust is settling and the town remains in the same direction.
@@ -4796,7 +4814,7 @@ CAMERA / PERFORMANCE:
 Side doorway view, medium three-quarter exit with readable face and feet, tracking departure toward the town. The camera may move around him but never invents a roof exit or cuts him through solid hull.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Hatch seal, ramp motor, boots on metal then sand, robe rustle, dry wind and the first distant market sounds. No dialogue. No narrator, intelligible extra speech, music or captions.
@@ -4810,7 +4828,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Wan 3.0 часть 7 — Прогулка по городу Татуина
 
-**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`.
+**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — девочка 1 (референс добавит владелец); @Image5 — девочка 2 (референс добавит владелец).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4820,29 +4838,31 @@ REFERENCES / AUTHORITY:
 @Video1 — actual final3seconds of the NEW Scene52 part6 result; establishes the exact starting state, direction, speed, camera and light.
 @Image1 — exact Serega identity, face, proportions and costume.
 @Image2 — synthetic street-walking composition and town lane; individual identity sheet wins.
-@Image3 — town architecture and daylight only; do not bring the parked ship into the streets.
+@Image3 — exact alien dog creature design from scene 66: stocky sandy-orange body, frog-like head, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+@Image4 — GIRL A appearance (owner reference). @Image5 — GIRL B appearance (owner reference). Two different girls, never merged.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown hair at the sides, broad familiar face and build. Exact face and proportions from @Image1; long deep-plum robe, thick folded scarf-like collar, black inner clothing and boots, hood down. Understated serious expression, purposeful moving body; do not beautify, age-shift, change the robe or blend his face with background residents.
+GIRL A and GIRL B: exact faces, hair, clothes and ages strictly from @Image4 and @Image5; GIRL A holds the leash. ALIEN DOG: exactly @Image3.
 
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
 Continue the actual end of Serega walking away from the parked ship toward the town entrance, retaining stride, robe, empty hands and direction. The ship stays outside the streets.
 
 STORY FLOW:
-Continue his arrival in the first lane, then accompany a purposeful walk through the spaceport town. Move between medium frontal tracking and side views as he briefly observes the unfamiliar shopfronts, awnings, vaporator towers and residents. His expression stays understated but his walk and robe remain alive. He passes ordinary stalls without buying anything, rounds a corner and heads toward a shaded arched entrance that leads toward the later cantina sequence. Finish outside, with one clear route through the town and no new subplot.
+Continue his arrival in the first lane, then accompany a purposeful walk through the spaceport town. Move between medium frontal tracking and side views as he briefly observes the unfamiliar shopfronts, awnings, vaporator towers and residents. His expression stays understated but his walk and robe remain alive. He passes ordinary stalls without buying anything. Two girls walking a stocky sandy-orange alien dog on a red leash come toward him; he steps aside with one short deadpan glance as they pass. The camera hands off from Serega to the girls and follows them and the dog deeper into the market street while he continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
 
 END STATE:
-Serega has crossed the town lane and approaches a shaded arched entrance on the route toward the later cantina sequence. Remain outside; no shopping, purchase or new interior scene.
+The camera now follows the two girls and the alien dog walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
 
 CAMERA / PERFORMANCE:
-Three motivated walking views: medium frontal tracking, side tracking that opens the street, over-shoulder approach. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
+Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and the dog. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Boots on dusty ground, soft cloth movement, desert wind, indistinct market chatter and distant mechanical spaceport hum; no intelligible dialogue, narrator or music. No narrator, intelligible extra speech, music or captions.
@@ -4948,7 +4968,7 @@ END STATE:
 The whole personal craft has physically cleared the hangar aperture into black space and is accelerating along the outside of the cruiser. Gear fully stowed, hatch closed; maintain one readable outbound direction.
 
 CAMERA / PERFORMANCE:
-Four motivated camera positions: cockpit, low lift-off, lateral doorway passage, external tracking. Fast parallax and a restrained bank create excitement; no unexplained cut from a stationary ship straight into space.
+Four motivated camera positions: cockpit, low lift-off, lateral doorway passage, external tracking. Fast parallax and a signature move — a hard banking climb-out through the hangar mouth, then a snap roll back to level — create excitement; no unexplained cut from a stationary ship straight into space.
 
 LIGHT / MATERIALS:
 Cool hangar practicals, warm doorway light, believable reflective metal, fabric texture and the blue planet beyond the bay.
@@ -4965,7 +4985,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Seedance 2.0 часть 3 — Облёт нужного крейсера
 
-**Входы:** @Video1 — настоящие последние3с результата части2 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P3-cruiser-flyby.jpg`; @Image4 — `references/scenes/scene-52/S52-cruiser-topview.jpg`.
+**Входы:** @Video1 — настоящие последние3с результата части2 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P3-cruiser-flyby.jpg`; @Image4 — `references/scenes/scene-52/S52-cruiser-topview.jpg`; @Image5 — `references/scenes/scene-37/S37-cockpit-bread-milk-helper.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4977,6 +4997,7 @@ REFERENCES / AUTHORITY:
 @Image2 — absolute personal-craft design; ignore its old city background.
 @Image3 — synthetic action/composition helper for this part; not an actual video start or identity source.
 @Image4 — exact large cruiser design from Topview: triangular grey hull, stepped superstructure, raised wide bridge and TWO spherical domes.
+@Image5 — ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4985,6 +5006,9 @@ SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown
 SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
+COCKPIT INSERT:
+The brief cockpit cut shows the same cockpit: Serega alone in the left pilot seat, second seat empty, hatch sealed. One pale-yellow note with simple black loaf-left / milk-carton-right drawings stays flat on the blank console panel to the pilot RIGHT and trembles with the vibration; no text overlay.
+
 CRUISER LOCK:
 @Image4 is the exact cruiser, not a generic Star Destroyer: preserve the broad grey wedge, layered stepped centre, raised wide bridge with two spherical domes and lit edge trenches. It is vastly larger than the personal craft. Maintain visible safe space between ships and consistent scale through every cut; no battle.
 
@@ -4992,13 +5016,13 @@ START STATE:
 Continue the actual exterior ending after the whole personal craft has cleared the hangar. Keep its direction and momentum against the same cruiser.
 
 STORY FLOW:
-0–3s: a wide exterior reveal establishes the huge cruiser and much smaller personal craft. 3–7s: tracking pass along the near-side hull trench with window rows and plating racing behind the small ship. 7–11s: it banks in a clean, safe arc under and around the bow; camera swings to reveal the ship clearing the edge with black-space separation. 11–15s: outward accelerating departure, cruiser shrinking behind it. The manoeuvre is one coherent route, not disconnected random spins.
+0–3s: a wide exterior reveal establishes the huge cruiser and much smaller personal craft. 3–6s: tracking pass along the near-side hull trench with window rows and plating racing behind the small ship. 6–8s: brief cockpit cut: Serega's face under G-force, hand firm on the throttle, the bread/milk note trembling on the right panel. 8–11s: signature move — a full barrel roll under the bow, skimming past the hull edge with clear black-space separation. 11–15s: outward acceleration, cruiser shrinking behind; the starfield stretches into hyperspace streaks and the craft jumps to lightspeed. The manoeuvre is one coherent route, not disconnected random spins.
 
 END STATE:
-The personal craft completes its outward arc past the cruiser bow and accelerates into clear black space; the enormous cruiser recedes behind. The small ship remains recognizably the same flat design.
+The personal craft rolls out past the cruiser bow, accelerates into clear space and jumps into hyperspace: the starfield stretches into streaks and the craft vanishes forward. The enormous cruiser recedes behind. The small ship remains recognizably the same flat design.
 
 CAMERA / PERFORMANCE:
-Wide scale reveal, parallel hull tracking, low bow-clearance view, outward chase angle. Show a real gap between ships. Cruiser windows and hull plates establish scale; the personal craft must never become a second capital ship.
+Wide scale reveal, parallel hull tracking, low bow-clearance view, brief cockpit insert, outward chase angle into the hyperspace jump. Show a real gap between ships. Cruiser windows and hull plates establish scale; the personal craft must never become a second capital ship.
 
 LIGHT / MATERIALS:
 Cool raking starlight, readable grey hull detail, deep black space and restrained warm propulsion glow.
@@ -5015,7 +5039,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Seedance 2.0 часть 4 — Подлёт к городу на Татуине
 
-**Входы:** @Video1 — настоящие последние3с результата части3 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P4-tatooine-approach.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`.
+**Входы:** @Video1 — настоящие последние3с результата части3 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P4-tatooine-approach.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-bread-milk-helper.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5027,6 +5051,7 @@ REFERENCES / AUTHORITY:
 @Image2 — absolute personal-craft design; ignore its old city background.
 @Image3 — synthetic action/composition helper for this part; not an actual video start or identity source.
 @Image4 — same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight.
+@Image5 — ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5035,23 +5060,26 @@ SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown
 SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
+COCKPIT INSERT:
+The brief cockpit cut shows the same cockpit: Serega alone in the left pilot seat, second seat empty, hatch sealed. One pale-yellow note with simple black loaf-left / milk-carton-right drawings stays flat on the blank console panel to the pilot RIGHT and trembles with the vibration; no text overlay.
+
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
-Begin with the actual end of the outward departure in black space, matching craft orientation and motion. A motivated match cut may mark elapsed interplanetary travel before the atmospheric descent.
+Begin with the actual hyperspace-jump ending of Part 3. The same craft drops out of hyperspace above the desert planet: streaks snap back to stars, the tan planet and its twin suns fill the view.
 
 STORY FLOW:
-0–2s: briefly continue the real outbound space vector. 2–4s: a motivated travel match cut introduces the warm desert planet and descending craft, without an in-shot teleport. 4–9s: bank through a descending turn over dune crests; strong sand parallax and a thin lifting wake convey speed. 9–12s: the craft levels into a fast low pass and the dome-roofed spaceport unfolds ahead. 12–15s: swing into a controlled approach toward the clearly visible empty outskirts field. Do not land in this part.
+0–2s: the craft drops out of hyperspace above the planet, streaks snapping back to stars. 2–4s: it dives into the atmosphere, heat shimmer on the nose. 4–6s: brief cockpit cut: Serega's calm face as the cockpit shakes, the bread/milk note trembling on the right panel. 6–9s: signature move — a steep corkscrew descent, levelling out just above the dune crests and slicing through a narrow rock canyon with strong parallax and a sand wake. 9–12s: the craft levels into a fast low pass and the dome-roofed spaceport unfolds ahead. 12–15s: swing into a controlled approach toward the clearly visible empty outskirts field. Do not land in this part.
 
 END STATE:
 The same craft has revealed the town and aligned with an open sandy landing field on its outskirts. It is still airborne on a shallow controlled approach, hatch closed, landing gear still stowed.
 
 CAMERA / PERFORMANCE:
-Orbital-to-atmospheric match cut, dynamic trailing three-quarter descent, low side tracking over dunes, wider town reveal. One motivated change of travel time, then continuous local geography.
+Hyperspace exit and atmospheric dive, brief cockpit insert, dynamic trailing three-quarter descent, low side tracking over dunes, wider town reveal. One motivated change of travel time, then continuous local geography.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Engine note shifts into atmospheric roar, air rushing over the hull, low-flight doppler and windblown sand; town ambience faint in the distance. No dialogue. No narrator, intelligible extra speech, music or captions.
@@ -5065,7 +5093,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Seedance 2.0 часть 5 — Подробная посадка
 
-**Входы:** @Video1 — настоящие последние3с результата части4 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P5-tatooine-landing.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`.
+**Входы:** @Video1 — настоящие последние3с результата части4 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-clean-roof.png`; @Image3 — `references/scenes/scene-52/S52-P5-tatooine-landing.jpg`; @Image4 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-bread-milk-helper.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5077,6 +5105,7 @@ REFERENCES / AUTHORITY:
 @Image2 — absolute personal-craft design; ignore its old city background.
 @Image3 — synthetic action/composition helper for this part; not an actual video start or identity source.
 @Image4 — same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight.
+@Image5 — ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5085,14 +5114,17 @@ SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown
 SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
+COCKPIT INSERT:
+The brief cockpit cut shows the same cockpit: Serega alone in the left pilot seat, second seat empty, hatch sealed. One pale-yellow note with simple black loaf-left / milk-carton-right drawings stays flat on the blank console panel to the pilot RIGHT and trembles with the vibration; no text overlay.
+
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
 Continue the actual approach ending: the same personal craft is airborne toward the chosen open field outside the established town; preserve heading, sun direction and city landmarks.
 
 STORY FLOW:
-0–4s: energetic nose-up braking reduces forward speed; the original landing supports deploy below the hull. 4–8s: the craft descends and repulsor wash drives a low ring of sand outward while the hull remains readable. 8–11s: show the landing feet contacting the ground, suspension taking the weight and the body settling once. 11–15s: thrust dies back and dust reveals the stable ship and the same town backdrop. A heavy controlled touchdown, never a crash or repeated bounce.
+0–3s: signature move — a fast flare with a 180-degree yaw swing, the craft pivoting into position; the original landing supports deploy below the hull. 3–4s: brief cockpit cut: Serega's hand pulling back the throttle beside the bread/milk note on the right panel. 4–8s: the craft descends and repulsor wash drives a low ring of sand outward while the hull remains readable. 8–11s: show the landing feet contacting the ground, suspension taking the weight and the body settling once. 11–15s: thrust dies back and dust reveals the stable ship and the same town backdrop. A heavy controlled touchdown, never a crash or repeated bounce.
 
 END STATE:
 The craft rests stably on all landing supports on the sandy field, engines settled, dust thinning, hatch/ramp still closed. Town and side doorway remain on the established sides for the exit.
@@ -5101,7 +5133,7 @@ CAMERA / PERFORMANCE:
 Moving side approach, low three-quarter braking, close-medium landing-foot contact, wider settled ship. Match the motion at cuts; no cut that skips touchdown. Keep safe clearance from buildings and residents.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Strong braking thrust, gear motors, rolling sand, distinct weighted landing thump, suspension creak and engines winding down into desert wind. No dialogue. No narrator, intelligible extra speech, music or captions.
@@ -5136,7 +5168,7 @@ SHIP / OCCUPANCY LOCK:
 One low broad dark-graphite personal wedge craft, shallow angular cockpit glazing, original hull panels, horizontal warm side lights and exactly FOUR original main rear engines. Preserve its exact proportions from @Image2. No tall dorsal fin or folding Lambda wings. One side hatch with a short folding ramp. Whenever the craft moves Serega is fully inside the closed cockpit, hatch/ramp sealed, roof and exterior empty. Gear only deploys for landing and retracts after lift-off.
 
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
 Continue the real stationary landing ending: all landing supports bear weight, the side hatch is closed, dust is settling and the town remains in the same direction.
@@ -5151,7 +5183,7 @@ CAMERA / PERFORMANCE:
 Side doorway view, medium three-quarter exit with readable face and feet, tracking departure toward the town. The camera may move around him but never invents a roof exit or cuts him through solid hull.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Hatch seal, ramp motor, boots on metal then sand, robe rustle, dry wind and the first distant market sounds. No dialogue. No narrator, intelligible extra speech, music or captions.
@@ -5165,7 +5197,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Seedance 2.0 часть 7 — Прогулка по городу Татуина
 
-**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`.
+**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — девочка 1 (референс добавит владелец); @Image5 — девочка 2 (референс добавит владелец).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5175,29 +5207,31 @@ REFERENCES / AUTHORITY:
 @Video1 — actual final3seconds of the NEW Scene52 part6 result; establishes the exact starting state, direction, speed, camera and light.
 @Image1 — exact Serega identity, face, proportions and costume.
 @Image2 — synthetic street-walking composition and town lane; individual identity sheet wins.
-@Image3 — town architecture and daylight only; do not bring the parked ship into the streets.
+@Image3 — exact alien dog creature design from scene 66: stocky sandy-orange body, frog-like head, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+@Image4 — GIRL A appearance (owner reference). @Image5 — GIRL B appearance (owner reference). Two different girls, never merged.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown hair at the sides, broad familiar face and build. Exact face and proportions from @Image1; long deep-plum robe, thick folded scarf-like collar, black inner clothing and boots, hood down. Understated serious expression, purposeful moving body; do not beautify, age-shift, change the robe or blend his face with background residents.
+GIRL A and GIRL B: exact faces, hair, clothes and ages strictly from @Image4 and @Image5; GIRL A holds the leash. ALIEN DOG: exactly @Image3.
 
 TOWN / GEOGRAPHY:
-The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm desert daylight, consistent sun direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
+The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
 
 START STATE:
 Continue the actual end of Serega walking away from the parked ship toward the town entrance, retaining stride, robe, empty hands and direction. The ship stays outside the streets.
 
 STORY FLOW:
-0–3s: follow the same stride into the first dusty lane. 3–8s: a medium frontal tracking shot shows Serega walking through the living town, glancing at awnings and unfamiliar surroundings without stopping. 8–12s: a lateral view reveals domed buildings, residents moving naturally in the background and the lane turning toward a shaded arch. 12–15s: an over-shoulder movement follows him toward that arch, ready to cut to the later cantina story.
+0–3s: follow the same stride into the first dusty lane. 3–7s: a medium frontal tracking shot shows Serega walking through the living town, glancing at awnings and unfamiliar surroundings without stopping. 7–11s: ahead, two girls come down the lane walking a stocky sandy-orange alien dog on a red leash; Serega steps aside with one short deadpan glance as they pass him. 11–15s: the camera hands off: it turns with the girls and follows them and the dog deeper into the busy market street, while Serega continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
 
 END STATE:
-Serega has crossed the town lane and approaches a shaded arched entrance on the route toward the later cantina sequence. Remain outside; no shopping, purchase or new interior scene.
+The camera now follows the two girls and the alien dog walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
 
 CAMERA / PERFORMANCE:
-Three motivated walking views: medium frontal tracking, side tracking that opens the street, over-shoulder approach. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
+Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and the dog. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
 
 LIGHT / MATERIALS:
-Consistent harsh warm desert sunlight, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
+Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
 
 AUDIO:
 Boots on dusty ground, soft cloth movement, desert wind, indistinct market chatter and distant mechanical spaceport hum; no intelligible dialogue, narrator or music. No narrator, intelligible extra speech, music or captions.
@@ -7372,26 +7406,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 </div>
 
 <a id="scene-65"></a>
-## Сцена 65 — Татуин: Серёга выпивает в баре с Бобой Феттом и компанией
+## Сцена 65 — Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested","awaiting_references"]} -->
 
-**Контекст использования:** владелец 27.10.2026. Татуинская кантина. Предлагаемое место — сразу после прогулки 52 (часть 7 заканчивается у арки, ведущей к кантине). Место — предложение, решает владелец.
+**Контекст использования:** владелец 27.10.2026. Татуинская кантина. Место в фильме решает владелец (предложение — после связки 52→66→67, Серёга уходил к арке).
 
-**Что происходит:** Серёга сидит за круглым столом в татуинской кантине с Бобой Феттом, гаморреанцем, наёмником-тви'леком и дроидом IG-11. Бармен ставит кружки. Серёга поднимает свою и коротко говорит: «Ну, за Татуин!» Все чокаются. Гаморреанец осушает кружку залпом и с хрюканьем грохает ею по столу, кружки подпрыгивают. Боба Фетт чуть приподнимает низ шлема и пьёт, не показывая лица. IG-11 поднимает стакан, сканирует его и аккуратно отставляет. Тви'лек смеётся и хлопает Серёгу по плечу. Серёга невозмутимо допивает, ставит кружку и жестом заказывает ещё раунд.
+**Что происходит:** Серёга сидит за круглым столом в татуинской кантине с Бобой Феттом, гаморреанцем, наёмником-тви'леком и дроидом IG-11. Бармен ставит кружки. Серёга не говорит ни слова: молча поднимает кружку на пару сантиметров, все чокаются. Гаморреанец осушает кружку залпом и грохает ею по столу. Боба Фетт чуть приподнимает низ шлема и пьёт, не показывая лица. IG-11 достаёт маленькую маслёнку и с довольным жужжанием капает маслом себе на локоть и шейный шарнир. Тви'лек смеётся и хлопает Серёгу по плечу. Серёга невозмутимо допивает и молча показывает бармену два пальца — ещё раунд. Гаморреанец с любопытством нюхает маслёнку, IG-11 отодвигает её.
 
-**Реплика:** «Ну, за Татуин!» — Серёга, спокойно, на русском.
+**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-65/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с), по указанию владельца: Wan делает персонажей, защищённых авторским правом.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-65/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с), по указанию владельца: Wan делает персонажей, защищённых авторским правом. Реплика на русском — ещё одна причина выбрать Wan.
-
-**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11; ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост: кружки сходятся над столом; ещё не нарисован).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11; ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11; ещё не нарисован).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
 <figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="Кантина: арки, лампа, столы (только локация)"></a><figcaption>@Image2 — Кантина: арки, лампа, столы (только локация)</figcaption></figure>
 </div>
 
-**Режиссёрский контроль:** Боба Фетт не снимает шлем, IG-11 не пьёт; трое из исходника кантины (S10) в кадр не попадают; одна реплика по-русски.
+**Режиссёрский контроль:** Серёга не говорит ни слова; Боба Фетт не снимает шлем; IG-11 не пьёт, а смазывает себя из маслёнки; трое из исходника кантины (S10) в кадр не попадают.
 
 <div class="engine-tabs" data-scene="65">
 
@@ -7399,7 +7431,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7409,7 +7441,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
 @Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
 @Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
-@Image4 — medium toast composition: raised mugs meeting over the table centre; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
+@Image4 — medium composition: raised mugs meeting over the table centre, the droid's oil can among them; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -7417,38 +7449,38 @@ SEREGA: exactly the man in the Serega model sheet: mature pale face with its rea
 BOBA FETT: the famous Mandalorian bounty hunter in dented green-and-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack, cape; helmet always on, face never shown.
 GAMORREAN: hulking green pig-faced Gamorrean guard with tusks, small eyes, leather and fur harness.
 TWI'LEK MERCENARY: male blue-skinned Twi'lek with two long head-tails, worn leather jacket and blaster holster, sly grin.
-IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves.
+IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves; holds a small old-fashioned metal oil can.
 
 LOCATION / STORY LOCK — CRITICAL:
-One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; bartender only brings mugs. Drinks are mugs and one small glass for IG-11. Friendly drinking, no fight, no blasters drawn. Boba Fett never removes the helmet; IG-11 never actually drinks.
+One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; the bartender only brings mugs. Friendly drinking, no fight, no blasters drawn. Serega says NOTHING the whole scene. Boba Fett never removes the helmet. IG-11 never drinks: it only drips oil from its oil can onto its own joints.
 
 START STATE:
-The five already sit at the round table; the bartender is setting down the last mug in front of Serega.
+The five already sit at the round table; the bartender is setting down the last mug in front of Serega; IG-11 is pulling a small oil can from its bandolier.
 
 TIMELINE:
-[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; Gamorrean grabs his immediately; Twi'lek slides one to IG-11, who receives a small glass instead.
-[0:05–0:10] THE TOAST — Medium on Serega: he lifts his mug and says calmly in Russian: «Ну, за Татуин!» Cut on motion to the over-table view: all five vessels clink in the centre, foam splashes.
-[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it on the table so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 raises the glass, its sensor ring spins, scanning, and it sets the glass down untouched.
-[0:16–0:23] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega finishes his drink in one steady deadpan motion and wipes his mouth; the Gamorrean roars with laughter and bangs the table again.
-[0:23–0:30] ANOTHER ROUND — Wider shot: Serega raises two fingers toward the bar without looking, ordering another round; the Gamorrean nods enthusiastically, Boba Fett gives one slow approving nod, IG-11 pushes its untouched glass to the Gamorrean, who drinks that too. Cantina life continues behind.
+[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; the Gamorrean grabs his immediately; IG-11 sets its small oil can on the table instead of a mug.
+[0:05–0:10] SILENT TOAST — Medium on Serega: without a word he lifts his mug a couple of centimetres and gives one small nod. Cut on motion to the over-table view: four mugs and the oil can clink in the centre, foam splashes.
+[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 tilts the oil can and drips oil onto its own elbow and neck joints, servos whirring contentedly, head ring blinking.
+[0:16–0:23] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega, still silent, finishes his drink in one steady deadpan motion; the Gamorrean bangs the table again, roaring with laughter.
+[0:23–0:30] ANOTHER ROUND — Wider shot: Serega silently raises two fingers toward the bar without looking; Boba Fett gives one slow approving nod; the Gamorrean leans over and curiously sniffs IG-11's oil can, and IG-11 calmly slides it out of his reach. Cantina life continues behind.
 
 END STATE:
-Serega signals for another round; the company is relaxed and amused; IG-11's glass now in the Gamorrean's hand.
+Serega silently signals for another round; IG-11 keeps its oil can out of the Gamorrean's reach; the company is relaxed and amused.
 
 CAMERA / SPACE:
-Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, and a wider closing shot. Cut on gestures: lift, clink, slam, slap.
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap.
 
 PERFORMANCE:
-Serega: calm, deadpan, quietly in charge of the toast; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise and mechanical. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Serega: completely silent, calm, deadpan; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise, mechanical, quietly pleased with its oil. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs and armour, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
+Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs, armour and the droid's oily joints, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
 
 AUDIO:
-Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr and scan chirp, table thumps. One Russian line by Serega: «Ну, за Татуин!» No other intelligible speech, no narrator, no subtitles; no generated music.
+Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr, oil-can squeak, table thumps. Serega says nothing. No intelligible speech, no narrator, no subtitles; no generated music.
 
 NEGATIVE PROMPT:
-Boba Fett unmasked, IG-11 drinking, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+Serega speaking, Boba Fett unmasked, IG-11 drinking from a glass or mug, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7462,7 +7494,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 65 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7472,7 +7504,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
 @Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
 @Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
-@Image4 — medium toast composition: raised mugs meeting over the table centre; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
+@Image4 — medium composition: raised mugs meeting over the table centre, the droid's oil can among them; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -7480,36 +7512,36 @@ SEREGA: exactly the man in the Serega model sheet: mature pale face with its rea
 BOBA FETT: the famous Mandalorian bounty hunter in dented green-and-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack, cape; helmet always on, face never shown.
 GAMORREAN: hulking green pig-faced Gamorrean guard with tusks, small eyes, leather and fur harness.
 TWI'LEK MERCENARY: male blue-skinned Twi'lek with two long head-tails, worn leather jacket and blaster holster, sly grin.
-IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves.
+IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves; holds a small old-fashioned metal oil can.
 
 LOCATION / STORY LOCK — CRITICAL:
-One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; bartender only brings mugs. Drinks are mugs and one small glass for IG-11. Friendly drinking, no fight, no blasters drawn. Boba Fett never removes the helmet; IG-11 never actually drinks.
+One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; the bartender only brings mugs. Friendly drinking, no fight, no blasters drawn. Serega says NOTHING the whole scene. Boba Fett never removes the helmet. IG-11 never drinks: it only drips oil from its oil can onto its own joints.
 
 START STATE:
-The five already sit at the round table; the bartender is setting down the last mug in front of Serega.
+The five already sit at the round table; the bartender is setting down the last mug in front of Serega; IG-11 is pulling a small oil can from its bandolier.
 
 TIMELINE:
-[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; Gamorrean grabs his immediately; Twi'lek slides one to IG-11, who receives a small glass instead.
-[0:05–0:10] THE TOAST — Medium on Serega: he lifts his mug and says calmly in Russian: «Ну, за Татуин!» Cut on motion to the over-table view: all five vessels clink in the centre, foam splashes.
-[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it on the table so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 raises the glass, its sensor ring spins, scanning, and it sets the glass down untouched.
+[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; the Gamorrean grabs his immediately; IG-11 sets its small oil can on the table instead of a mug.
+[0:05–0:10] SILENT TOAST — Medium on Serega: without a word he lifts his mug a couple of centimetres and gives one small nod. Cut on motion to the over-table view: four mugs and the oil can clink in the centre, foam splashes.
+[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 tilts the oil can and drips oil onto its own elbow and neck joints, servos whirring contentedly, head ring blinking.
 
 END STATE:
-Mugs just clinked over the table centre and the Gamorrean has slammed his empty mug down; Boba Fett starts lifting his helmet edge. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+Mugs and the oil can just clinked over the table centre; the Gamorrean has slammed his empty mug down; IG-11 starts tilting the oil can toward its elbow. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
 
 CAMERA / SPACE:
-Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, and a wider closing shot. Cut on gestures: lift, clink, slam, slap. Execute only the beats of this part.
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap. Execute only the beats of this part.
 
 PERFORMANCE:
-Serega: calm, deadpan, quietly in charge of the toast; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise and mechanical. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Serega: completely silent, calm, deadpan; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise, mechanical, quietly pleased with its oil. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs and armour, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
+Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs, armour and the droid's oily joints, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
 
 AUDIO:
-Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr and scan chirp, table thumps. One Russian line by Serega: «Ну, за Татуин!» No other intelligible speech, no narrator, no subtitles; no generated music.
+Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr, oil-can squeak, table thumps. Serega says nothing. No intelligible speech, no narrator, no subtitles; no generated music.
 
 NEGATIVE PROMPT:
-Boba Fett unmasked, IG-11 drinking, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+Serega speaking, Boba Fett unmasked, IG-11 drinking from a glass or mug, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7517,7 +7549,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 65 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7528,7 +7560,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
 @Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
 @Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
-@Image4 — medium toast composition: raised mugs meeting over the table centre; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
+@Image4 — medium composition: raised mugs meeting over the table centre, the droid's oil can among them; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -7536,35 +7568,35 @@ SEREGA: exactly the man in the Serega model sheet: mature pale face with its rea
 BOBA FETT: the famous Mandalorian bounty hunter in dented green-and-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack, cape; helmet always on, face never shown.
 GAMORREAN: hulking green pig-faced Gamorrean guard with tusks, small eyes, leather and fur harness.
 TWI'LEK MERCENARY: male blue-skinned Twi'lek with two long head-tails, worn leather jacket and blaster holster, sly grin.
-IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves.
+IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves; holds a small old-fashioned metal oil can.
 
 LOCATION / STORY LOCK — CRITICAL:
-One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; bartender only brings mugs. Drinks are mugs and one small glass for IG-11. Friendly drinking, no fight, no blasters drawn. Boba Fett never removes the helmet; IG-11 never actually drinks.
+One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; the bartender only brings mugs. Friendly drinking, no fight, no blasters drawn. Serega says NOTHING the whole scene. Boba Fett never removes the helmet. IG-11 never drinks: it only drips oil from its oil can onto its own joints.
 
 START STATE:
-Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Mugs just clinked over the table centre and the Gamorrean has slammed his empty mug down; Boba Fett starts lifting his helmet edge.
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Mugs and the oil can just clinked over the table centre; the Gamorrean has slammed his empty mug down; IG-11 starts tilting the oil can toward its elbow.
 
 TIMELINE:
-[0:00–0:07] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega finishes his drink in one steady deadpan motion and wipes his mouth; the Gamorrean roars with laughter and bangs the table again.
-[0:07–0:15] ANOTHER ROUND — Wider shot: Serega raises two fingers toward the bar without looking, ordering another round; the Gamorrean nods enthusiastically, Boba Fett gives one slow approving nod, IG-11 pushes its untouched glass to the Gamorrean, who drinks that too. Cantina life continues behind.
+[0:00–0:07] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega, still silent, finishes his drink in one steady deadpan motion; the Gamorrean bangs the table again, roaring with laughter.
+[0:07–0:15] ANOTHER ROUND — Wider shot: Serega silently raises two fingers toward the bar without looking; Boba Fett gives one slow approving nod; the Gamorrean leans over and curiously sniffs IG-11's oil can, and IG-11 calmly slides it out of his reach. Cantina life continues behind.
 
 END STATE:
-Serega signals for another round; the company is relaxed and amused; IG-11's glass now in the Gamorrean's hand.
+Serega silently signals for another round; IG-11 keeps its oil can out of the Gamorrean's reach; the company is relaxed and amused.
 
 CAMERA / SPACE:
-Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, and a wider closing shot. Cut on gestures: lift, clink, slam, slap. Execute only the beats of this part.
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap. Execute only the beats of this part.
 
 PERFORMANCE:
-Serega: calm, deadpan, quietly in charge of the toast; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise and mechanical. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Serega: completely silent, calm, deadpan; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise, mechanical, quietly pleased with its oil. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs and armour, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
+Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs, armour and the droid's oily joints, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
 
 AUDIO:
-Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr and scan chirp, table thumps. One Russian line by Serega: «Ну, за Татуин!» No other intelligible speech, no narrator, no subtitles; no generated music.
+Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr, oil-can squeak, table thumps. Serega says nothing. No intelligible speech, no narrator, no subtitles; no generated music.
 
 NEGATIVE PROMPT:
-Boba Fett unmasked, IG-11 drinking, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+Serega speaking, Boba Fett unmasked, IG-11 drinking from a glass or mug, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7577,19 +7609,17 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-66"></a>
 ## Сцена 66 — Татуин: две девочки и инопланетная собака
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["tatooine","street","visual_comedy","creature","awaiting_owner_refs","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":52}],"tags":["tatooine","street","visual_comedy","creature","awaiting_owner_refs","owner_requested","chain_52_66_67","awaiting_references"]} -->
 
-**Контекст использования:** владелец 27.10.2026. Бытовая комедийная сценка на улице татуинского города (тот же город, что в 52). Внешность девочек владелец добавит позже. Место в фильме решает владелец (предложение — рядом с прогулкой 52 / рынком 67).
+**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67, бесшовно:** начинается с настоящих последних 3 с части 7 сцены 52 (камера уже ведёт девочек с собакой), заканчивается у фруктового прилавка, где начинается 67. Внешность девочек владелец добавит позже.
 
-**Что происходит:** Две девочки идут по оживлённой улице Татуина и ведут на поводке смешную инопланетную собаку. Посреди улицы собака резко упирается, садится и делает свои дела. Вокруг поднимается возмущение: джава визжит, торговец машет руками и кричит на своём языке, дроид неодобрительно пищит, пролетающий спидер тормозит и объезжает. Одна девочка закрывает лицо от стыда, вторая говорит «Ой, извините! Мы уберём!» и быстро убирает за собакой совком в пакет. Собака гордо трусит дальше, девочки спешат за ней.
+**Что происходит:** Камера продолжает вести двух девочек с инопланетной собакой по оживлённой улице Татуина (Серёга только что ушёл из кадра). Посреди улицы собака резко упирается, садится и делает свои дела. Вокруг поднимается возмущение: джава визжит, торговец машет руками и кричит на своём языке, дроид неодобрительно пищит, спидер тормозит и объезжает. Девочки не обращают на это никакого внимания: никто не извиняется и ничего не убирает. Собака заканчивает, девочки спокойно идут дальше, будто так и должно быть, мимо фруктового прилавка, где девушка начинает спорить с четырёхруким продавцом.
 
-**Реплика:** «Ой, извините! Мы уберём!» — девочка 2, на русском.
+**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-66/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с). Запуск — только после настоящего результата 52 ч.7 и референсов девочек.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-66/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с): короткая русская реплика и антураж «Звёздных войн».
+**Референсы:** @Video1 — последние 3 с 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (Инопланетная собака: дизайн существа; ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Улица: собака посреди дороги, прохожие возмущаются; ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (Фруктовый прилавок из 67 (конец сцены); ещё не нарисован).
 
-**Референсы:** @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (Инопланетная собака: дизайн существа; ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Улица: собака посреди дороги, прохожие возмущаются; ещё не нарисован).
-
-**Режиссёрский контроль:** Внешность девочек — только по референсам владельца (пока их нет, сцену не запускать). Момент «какания» комичный и без крупного плана.
+**Режиссёрский контроль:** Связка: начало — конец 52 ч.7, финал — прилавок 67. Девочки не извиняются и не убирают. Внешность — только по референсам владельца (пока их нет, не запускать). Момент «какания» без крупного плана.
 
 <div class="engine-tabs" data-scene="66">
 
@@ -7597,17 +7627,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
+@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Seedance 2.0), where the camera has just turned to follow the girls and the dog. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
 @Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
 @Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
 @Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image5 — the fruit stall of scene 67 for the closing shot only; same stall geography. File: references/scenes/scene-67/S67-fruit-stall.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -7615,35 +7647,35 @@ GIRL A and GIRL B: exact appearance strictly from their own owner references (@I
 ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh sunlight, dusty street. One leash from the dog to GIRL A's hand. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged but nobody touches the girls or the dog. GIRL B cleans up with a small scoop and a bag; the street is clean afterwards.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where a young woman stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
 
 START STATE:
-The two girls walk side by side down the street, GIRL A holding the leash, the alien dog trotting happily ahead.
+Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and the alien dog down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
 
 TIMELINE:
-[0:00–0:06] THE WALK — 35mm tracking shot ahead of them: the girls chat as the alien dog trots proudly, sniffing at a fruit crate and a passing droid. Busy street life all around.
-[0:06–0:11] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A is jerked to a halt. The dog turns around once and squats, looking straight ahead with total dignity.
-[0:11–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves all his hands, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
-[0:17–0:24] SORRY! — GIRL A covers her face in embarrassment; GIRL B quickly pulls out a scoop and a bag, says in Russian: «Ой, извините! Мы уберём!» and cleans up in two swift moves, waving an apology to the crowd.
-[0:24–0:30] MOVING ON — The dog trots off with its head high, pulling GIRL A along; GIRL B hurries after them holding the bag at arm's length. Passers-by grumble and slowly return to their business.
+[0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as the alien dog trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
+[0:05–0:10] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. The dog turns once and squats, looking straight ahead with total dignity.
+[0:10–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves his arms, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
+[0:17–0:24] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. The dog finishes and kicks a little sand backward.
+[0:24–0:30] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: a young woman at the counter faces a four-armed vendor raising fingers on all his hands. End on the stall, the argument about to start.
 
 END STATE:
-The girls and the dog walk away down the street; GIRL B carries the closed bag; the crowd returns to normal.
+The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where the young woman faces the four-armed vendor. Scene 67 continues from this exact frame.
 
 CAMERA / SPACE:
-One street axis: the girls walk away from the near end. Alternate 35mm tracking, low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, medium on the girls. Faces readable; cut on the stop, the jumps back and the speeder swerve.
+One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve.
 
 PERFORMANCE:
-Girls: natural, lively, embarrassed then practical; the dog proud and oblivious; crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Girls: casual, unbothered, as if this happens every day; the dog proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Harsh warm double-sun desert daylight, consistent sun direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
+Harsh warm light of Tatooine's twin suns, double soft shadows, consistent direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
 
 AUDIO:
-Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles. One Russian line by GIRL B: «Ой, извините! Мы уберём!» No other intelligible speech, no narrator, no subtitles, no generated music.
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+apology, cleaning up, scoop, bag, embarrassed girls, graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7657,17 +7689,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 66 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
+@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Seedance 2.0), where the camera has just turned to follow the girls and the dog. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
 @Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
 @Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
 @Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image5 — the fruit stall of scene 67 for the closing shot only; same stall geography. File: references/scenes/scene-67/S67-fruit-stall.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -7675,33 +7709,33 @@ GIRL A and GIRL B: exact appearance strictly from their own owner references (@I
 ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh sunlight, dusty street. One leash from the dog to GIRL A's hand. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged but nobody touches the girls or the dog. GIRL B cleans up with a small scoop and a bag; the street is clean afterwards.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where a young woman stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
 
 START STATE:
-The two girls walk side by side down the street, GIRL A holding the leash, the alien dog trotting happily ahead.
+Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and the alien dog down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
 
 TIMELINE:
-[0:00–0:06] THE WALK — 35mm tracking shot ahead of them: the girls chat as the alien dog trots proudly, sniffing at a fruit crate and a passing droid. Busy street life all around.
-[0:06–0:11] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A is jerked to a halt. The dog turns around once and squats, looking straight ahead with total dignity.
-[0:11–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves all his hands, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
+[0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as the alien dog trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
+[0:05–0:10] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. The dog turns once and squats, looking straight ahead with total dignity.
+[0:10–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves his arms, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
 
 END STATE:
-The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A frozen with the taut leash. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A stands calmly holding the taut leash. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
 
 CAMERA / SPACE:
-One street axis: the girls walk away from the near end. Alternate 35mm tracking, low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, medium on the girls. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
+One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
 
 PERFORMANCE:
-Girls: natural, lively, embarrassed then practical; the dog proud and oblivious; crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Girls: casual, unbothered, as if this happens every day; the dog proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Harsh warm double-sun desert daylight, consistent sun direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
+Harsh warm light of Tatooine's twin suns, double soft shadows, consistent direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
 
 AUDIO:
-Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles. One Russian line by GIRL B: «Ой, извините! Мы уберём!» No other intelligible speech, no narrator, no subtitles, no generated music.
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+apology, cleaning up, scoop, bag, embarrassed girls, graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7709,7 +7743,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 66 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7721,6 +7755,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
 @Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
 @Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image5 — the fruit stall of scene 67 for the closing shot only; same stall geography. File: references/scenes/scene-67/S67-fruit-stall.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -7728,32 +7763,32 @@ GIRL A and GIRL B: exact appearance strictly from their own owner references (@I
 ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh sunlight, dusty street. One leash from the dog to GIRL A's hand. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged but nobody touches the girls or the dog. GIRL B cleans up with a small scoop and a bag; the street is clean afterwards.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where a young woman stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
 
 START STATE:
-Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A frozen with the taut leash.
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A stands calmly holding the taut leash.
 
 TIMELINE:
-[0:00–0:07] SORRY! — GIRL A covers her face in embarrassment; GIRL B quickly pulls out a scoop and a bag, says in Russian: «Ой, извините! Мы уберём!» and cleans up in two swift moves, waving an apology to the crowd.
-[0:07–0:15] MOVING ON — The dog trots off with its head high, pulling GIRL A along; GIRL B hurries after them holding the bag at arm's length. Passers-by grumble and slowly return to their business.
+[0:00–0:07] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. The dog finishes and kicks a little sand backward.
+[0:07–0:15] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: a young woman at the counter faces a four-armed vendor raising fingers on all his hands. End on the stall, the argument about to start.
 
 END STATE:
-The girls and the dog walk away down the street; GIRL B carries the closed bag; the crowd returns to normal.
+The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where the young woman faces the four-armed vendor. Scene 67 continues from this exact frame.
 
 CAMERA / SPACE:
-One street axis: the girls walk away from the near end. Alternate 35mm tracking, low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, medium on the girls. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
+One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
 
 PERFORMANCE:
-Girls: natural, lively, embarrassed then practical; the dog proud and oblivious; crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Girls: casual, unbothered, as if this happens every day; the dog proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Harsh warm double-sun desert daylight, consistent sun direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
+Harsh warm light of Tatooine's twin suns, double soft shadows, consistent direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
 
 AUDIO:
-Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles. One Russian line by GIRL B: «Ой, извините! Мы уберём!» No other intelligible speech, no narrator, no subtitles, no generated music.
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+apology, cleaning up, scoop, bag, embarrassed girls, graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7764,21 +7799,21 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 </div>
 
 <a id="scene-67"></a>
-## Сцена 67 — Татуин: девушка ругается с продавцом фруктов
+## Сцена 67 — Татуин: девушка яростно ругается с продавцом фруктов
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["tatooine","market","visual_comedy","dialogue_ru","awaiting_owner_refs","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":66}],"tags":["tatooine","market","visual_comedy","dialogue_ru","awaiting_owner_refs","owner_requested","chain_52_66_67","awaiting_references"]} -->
 
-**Контекст использования:** владелец 27.10.2026. Бытовая комедийная сценка на рынке татуинского города (тот же город, что в 52). Внешность девушки владелец добавит позже. Место в фильме решает владелец.
+**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67, бесшовно:** начинается с настоящих последних 3 с сцены 66, где камера остановилась на прилавке. Внешность девушки владелец добавит позже.
 
-**Что происходит:** Девушка выбирает инопланетные фрукты на рынке Татуина. Продавец, четырёхрукий инопланетянин, называет цену, показывая на всех руках пальцы. Девушка возмущается: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» Продавец отвечает громко на своём языке и бьёт по весам. Они активно спорят, наклоняясь друг к другу через прилавок. Девушка тычет в помятый фрукт, продавец всплёскивает всеми руками и подкидывает ей в пакет лишний фрукт. Она платит меньше монет, чем он просил, и уходит, продолжая ворчать; продавец ворчит ей вслед, потом расплывается в улыбке перед следующим покупателем.
+**Что происходит:** Девушка у прилавка с инопланетными фруктами держит голубую дыню. Четырёхрукий продавец называет цену, показывая пальцы на всех руках. Девушка взрывается: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» и грохает дыню на прилавок. Начинается настоящий скандал: продавец орёт на своём языке и лупит по весам, она тычет в помятый бок дыни: «Они же мятые! Ты сам посмотри!», оба кричат друг на друга нос к носу, прохожие останавливаются поглазеть. Девушка хватает сумку: «Всё, к соседу пойду!» — продавец двумя руками закидывает ей в сумку лишние фрукты, двумя другими умоляет остаться. Она швыряет на прилавок меньше монет: «И то много!» — и уходит, продолжая ругаться через плечо; продавец орёт ей вслед, потом расплывается в улыбке перед следующим покупателем.
 
-**Реплика:** «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» — девушка, на русском; продавец отвечает на инопланетном языке.
+**Реплика:** «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» · «Они же мятые! Ты сам посмотри!» · «Всё, к соседу пойду!» · «И то много!» — девушка, на русском; продавец отвечает на инопланетном языке.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-67/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с): русская речь лучше у Wan.
+**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-67/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с): русская речь лучше у Wan. Запуск — только после настоящего результата 66 и референса девушки.
 
-**Референсы:** @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин; ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами; ещё не нарисован).
+**Референсы:** @Video1 — последние 3 с 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин; ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами; ещё не нарисован).
 
-**Режиссёрский контроль:** Внешность девушки — только по референсу владельца (пока его нет, сцену не запускать). Спор громкий, но без насилия.
+**Режиссёрский контроль:** Связка: начало — конец 66 (прилавок). Ругань очень бурная, но без насилия. Внешность девушки — только по референсу владельца (пока его нет, не запускать).
 
 <div class="engine-tabs" data-scene="67">
 
@@ -7786,13 +7821,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать при запуске); @Image1 — Девушка — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — `references/scenes/scene-67/S67-vendor.png` (ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
+@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 66, ending on this fruit stall. File: references/scenes/scene-66/S66-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
 @Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
 @Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
@@ -7803,35 +7839,35 @@ YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face,
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
-One fruit stall from @Image3 in the same Tatooine town as scene 52. The counter stays between them the whole time. The argument is loud and animated but harmless: no hitting, no throwing at each other, no weapons. Coins change hands once. The vendor always has exactly four arms.
+One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with the dog from scene 66 are already gone.
 
 START STATE:
-The young woman stands at the stall holding a pale-blue ribbed melon, the vendor behind the counter with his scale.
+Begin on the exact final frame of @Video1 (end of scene 66): the camera rests on the fruit stall; the young woman holds a pale-blue ribbed melon; the vendor raises fingers on all four hands. Continue with no reset.
 
 TIMELINE:
-[0:00–0:05] THE PRICE — 35mm over-shoulder on the counter: she weighs the melon in her hands, asks with her eyes; the vendor proudly shows a price by raising fingers on all four hands.
-[0:05–0:11] OUTRAGE — Medium on her: she says in Russian, loud and indignant: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slaps the melon onto the counter.
-[0:11–0:17] THE FIGHT — Fast shot/reverse cuts: the vendor shouts back in an alien language, slams one hand on the scale, throws two other hands up; she leans across the counter, points at the bruised melon, counts on her fingers; both lean closer, nose to nose.
-[0:17–0:24] THE DEAL — The vendor throws all four arms up in defeat, tosses an extra spiky orange pod into her bag; she slaps down fewer coins than he wanted, snatches the bag.
-[0:24–0:30] STILL GRUMBLING — She walks off still muttering and shaking her head; the vendor grumbles after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
+[0:00–0:04] THE PRICE — 35mm over-shoulder on the counter: the vendor proudly shows the price on all four hands; her eyes go wide.
+[0:04–0:09] EXPLOSION — Medium on her: she shouts in Russian, furious: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slams the melon onto the counter so the fruit bounces.
+[0:09–0:15] SHOUTING MATCH — Fast shot/reverse cuts on every line: the vendor yells back in an alien language, bangs the scale with one hand and waves the other three; she jabs at the bruised melon: «Они же мятые! Ты сам посмотри!»; both lean across the counter nose to nose, shouting over each other; passers-by stop to stare.
+[0:15–0:22] THE WALK-OUT BLUFF — She grabs her bag: «Всё, к соседу пойду!»; the vendor panics, two hands throwing extra spiky orange pods into her bag, two hands pleading.
+[0:22–0:30] STILL FURIOUS — She slaps down fewer coins than he wanted: «И то много!», snatches the bag and marches off still yelling over her shoulder; the vendor shouts after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
 
 END STATE:
-She walks away with her bag; the vendor greets the next shopper with a wide smile.
+She marches off still yelling over her shoulder with her bag; the vendor greets the next shopper with a wide smile.
 
 CAMERA / SPACE:
-Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, medium singles, fast shot/reverse during the argument and a wider exit shot. Cut on slaps, gestures and the toss.
+Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, punchy medium singles, very fast shot/reverse during the argument (a cut on every shout) and a wider exit shot. Cut on slaps, gestures and the toss.
 
 PERFORMANCE:
-Both very animated: big gestures, leaning in, eye-rolling; she is sharp and determined, he theatrical; comic, never aggressive. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Both extremely animated and loud: big gestures, leaning in, shouting over each other; she is sharp, furious and relentless, he theatrical and desperate; comic, never violent. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Harsh warm desert daylight filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent sun direction; photoreal skin, fabric, fruit and creature texture.
+Harsh warm light of Tatooine's twin suns filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent direction; photoreal skin, fabric, fruit and creature texture.
 
 AUDIO:
-Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» plus indistinct grumbling at the end. No narrator, no subtitles, no generated music.
+Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!», «Они же мятые! Ты сам посмотри!», «Всё, к соседу пойду!», «И то много!» plus angry muttering at the end. No narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with the dog, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7845,13 +7881,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 67 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать при запуске); @Image1 — Девушка — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — `references/scenes/scene-67/S67-vendor.png` (ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
+@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 66, ending on this fruit stall. File: references/scenes/scene-66/S66-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
 @Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
 @Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
@@ -7862,33 +7899,33 @@ YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face,
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
-One fruit stall from @Image3 in the same Tatooine town as scene 52. The counter stays between them the whole time. The argument is loud and animated but harmless: no hitting, no throwing at each other, no weapons. Coins change hands once. The vendor always has exactly four arms.
+One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with the dog from scene 66 are already gone.
 
 START STATE:
-The young woman stands at the stall holding a pale-blue ribbed melon, the vendor behind the counter with his scale.
+Begin on the exact final frame of @Video1 (end of scene 66): the camera rests on the fruit stall; the young woman holds a pale-blue ribbed melon; the vendor raises fingers on all four hands. Continue with no reset.
 
 TIMELINE:
-[0:00–0:05] THE PRICE — 35mm over-shoulder on the counter: she weighs the melon in her hands, asks with her eyes; the vendor proudly shows a price by raising fingers on all four hands.
-[0:05–0:11] OUTRAGE — Medium on her: she says in Russian, loud and indignant: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slaps the melon onto the counter.
-[0:11–0:17] THE FIGHT — Fast shot/reverse cuts: the vendor shouts back in an alien language, slams one hand on the scale, throws two other hands up; she leans across the counter, points at the bruised melon, counts on her fingers; both lean closer, nose to nose.
+[0:00–0:04] THE PRICE — 35mm over-shoulder on the counter: the vendor proudly shows the price on all four hands; her eyes go wide.
+[0:04–0:09] EXPLOSION — Medium on her: she shouts in Russian, furious: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slams the melon onto the counter so the fruit bounces.
+[0:09–0:15] SHOUTING MATCH — Fast shot/reverse cuts on every line: the vendor yells back in an alien language, bangs the scale with one hand and waves the other three; she jabs at the bruised melon: «Они же мятые! Ты сам посмотри!»; both lean across the counter nose to nose, shouting over each other; passers-by stop to stare.
 
 END STATE:
-Both lean across the counter nose to nose mid-argument; she points at the bruised melon; his hand is on the scale. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+Both lean across the counter nose to nose, shouting; she points at the bruised melon; his hand slams the scale; passers-by staring. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
 
 CAMERA / SPACE:
-Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, medium singles, fast shot/reverse during the argument and a wider exit shot. Cut on slaps, gestures and the toss. Execute only the beats of this part.
+Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, punchy medium singles, very fast shot/reverse during the argument (a cut on every shout) and a wider exit shot. Cut on slaps, gestures and the toss. Execute only the beats of this part.
 
 PERFORMANCE:
-Both very animated: big gestures, leaning in, eye-rolling; she is sharp and determined, he theatrical; comic, never aggressive. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Both extremely animated and loud: big gestures, leaning in, shouting over each other; she is sharp, furious and relentless, he theatrical and desperate; comic, never violent. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Harsh warm desert daylight filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent sun direction; photoreal skin, fabric, fruit and creature texture.
+Harsh warm light of Tatooine's twin suns filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent direction; photoreal skin, fabric, fruit and creature texture.
 
 AUDIO:
-Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» plus indistinct grumbling at the end. No narrator, no subtitles, no generated music.
+Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!», «Они же мятые! Ты сам посмотри!», «Всё, к соседу пойду!», «И то много!» plus angry muttering at the end. No narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with the dog, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7896,7 +7933,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 67 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девушка — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — `references/scenes/scene-67/S67-vendor.png` (ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7914,32 +7951,32 @@ YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face,
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
-One fruit stall from @Image3 in the same Tatooine town as scene 52. The counter stays between them the whole time. The argument is loud and animated but harmless: no hitting, no throwing at each other, no weapons. Coins change hands once. The vendor always has exactly four arms.
+One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with the dog from scene 66 are already gone.
 
 START STATE:
-Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Both lean across the counter nose to nose mid-argument; she points at the bruised melon; his hand is on the scale.
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Both lean across the counter nose to nose, shouting; she points at the bruised melon; his hand slams the scale; passers-by staring.
 
 TIMELINE:
-[0:00–0:07] THE DEAL — The vendor throws all four arms up in defeat, tosses an extra spiky orange pod into her bag; she slaps down fewer coins than he wanted, snatches the bag.
-[0:07–0:15] STILL GRUMBLING — She walks off still muttering and shaking her head; the vendor grumbles after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
+[0:00–0:07] THE WALK-OUT BLUFF — She grabs her bag: «Всё, к соседу пойду!»; the vendor panics, two hands throwing extra spiky orange pods into her bag, two hands pleading.
+[0:07–0:15] STILL FURIOUS — She slaps down fewer coins than he wanted: «И то много!», snatches the bag and marches off still yelling over her shoulder; the vendor shouts after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
 
 END STATE:
-She walks away with her bag; the vendor greets the next shopper with a wide smile.
+She marches off still yelling over her shoulder with her bag; the vendor greets the next shopper with a wide smile.
 
 CAMERA / SPACE:
-Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, medium singles, fast shot/reverse during the argument and a wider exit shot. Cut on slaps, gestures and the toss. Execute only the beats of this part.
+Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, punchy medium singles, very fast shot/reverse during the argument (a cut on every shout) and a wider exit shot. Cut on slaps, gestures and the toss. Execute only the beats of this part.
 
 PERFORMANCE:
-Both very animated: big gestures, leaning in, eye-rolling; she is sharp and determined, he theatrical; comic, never aggressive. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Both extremely animated and loud: big gestures, leaning in, shouting over each other; she is sharp, furious and relentless, he theatrical and desperate; comic, never violent. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Harsh warm desert daylight filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent sun direction; photoreal skin, fabric, fruit and creature texture.
+Harsh warm light of Tatooine's twin suns filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent direction; photoreal skin, fabric, fruit and creature texture.
 
 AUDIO:
-Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» plus indistinct grumbling at the end. No narrator, no subtitles, no generated music.
+Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!», «Они же мятые! Ты сам посмотри!», «Всё, к соседу пойду!», «И то много!» plus angry muttering at the end. No narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with the dog, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
