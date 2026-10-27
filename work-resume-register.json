@@ -1,25 +1,30 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T10:51:05.186Z",
+  "last_updated_at": "2026-10-27T11:01:19.481Z",
   "active_work": [
     {
       "work_id": "S52-SEVEN-PARTS-20261027",
       "title": "Сцена52: семь частей, все референсы и место в очереди",
-      "status": "references_ready_prompts_pending",
-      "updated_at": "2026-10-27T10:51:05.186Z",
+      "status": "handoff_ready_prompts_queue_pending",
+      "updated_at": "2026-10-27T11:01:19.481Z",
       "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
       "completed": [
         "Owner accepted seven-part scope; exact existing Seedance2.5 repair ending already saved; old unsubmitted P2 held.",
         "Seven action images generated/visually QC checked; fly-by scale corrected. Exact Topview cruiser85dab256ad994a72a34946ef70aaaf69 retrieved and saved as a production JPEG with original source SHA/resource provenance."
       ],
-      "next_action": "Write seven autonomous Seedance2.0 parts and same-story Wan3/Seedance2.5 alternates; archive old52 section and supersede old unsubmitted P2; new R2 items at priorities0.00–0.06 with real-result gates. Publish master, queue and site.",
+      "next_action": "Resume reports/scene52-seven-parts-handoff-2026-10-27.md: write7autonomous selected Seedance2.0 prompts + alternate version, archive/replace old52 master, wire manifest and create7R2 queue items at0.00–0.06 with actual-result dependencies; validate/publish. Do not regenerate saved images.",
       "canonical_refs": [
         "reports/scene52-rebuild-2026-10-27.json",
         "references/scenes/scene-52/manifest.json",
         "ops/topview-launch-queue.json",
-        "reports/scene52-reference-pack-2026-10-27.json"
-      ]
+        "reports/scene52-reference-pack-2026-10-27.json",
+        "reports/scene52-seven-parts-handoff-2026-10-27.md"
+      ],
+      "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
+      "reference_commit": "1a08dd012f0d69f67d8b81a8592301a6566deb63",
+      "new_video_submissions": 0,
+      "new_queue_items_created": false
     },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -37,7 +42,7 @@
         "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun.",
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch."
       ],
-      "next_action": "Freshly check slots and choose only ready authorized items by live queue priority. Owner27Oct holds old S52-P2 for rebuild from S44 Seedance2.5; do not launch it. Never repeat S52-P1/S48-P1. See reports/scene52-rebuild-2026-10-27.json.",
+      "next_action": "Fresh slots/live queue only; old S52-P2 remains held. Seven-part52 references are published but new prompts and R2 queue items are pending: reports/scene52-seven-parts-handoff-2026-10-27.md. Never repeat existing submitted52/48.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -582,10 +587,10 @@
         "reason": "Current saved S42-P1-last3s.mp4 does not match the queue's expected canonical SHA/size. Do not submit S42-P2 until provenance and canonical input agree."
       },
       "scene52_owner_revision": {
-        "at": "2026-10-27T10:08:38.722Z",
-        "report": "reports/scene52-rebuild-2026-10-27.md",
-        "status": "split_proposal_ready",
-        "next_action": "Use selected existing S44 Seedance2.5 ending; settle five core parts + optional city exit, then prepare new per-part prompts/reference pack. Old S52-P2 held; no revised launch yet."
+        "at": "2026-10-27T11:01:19.481Z",
+        "status": "seven_refs_complete_prompts_queue_pending",
+        "report": "reports/scene52-seven-parts-handoff-2026-10-27.md",
+        "next_action": "Owner approved7mandatory parts. Continue S52-SEVEN-PARTS-20261027 handoff; old P2 held, new R2 items not yet created."
       }
     },
     {

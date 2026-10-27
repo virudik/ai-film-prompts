@@ -2,8 +2,8 @@
   "schema_version": 1,
   "work_id": "S52-OWNER-REVIEW-20261027",
   "scene_id": 52,
-  "updated_at": "2026-10-27T10:51:05.186Z",
-  "status": "review_complete_split_proposal_ready",
+  "updated_at": "2026-10-27T11:01:19.481Z",
+  "status": "references_complete_handoff_prompts_queue_pending",
   "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
   "current_s52_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
   "selected_s44_task_id": "3c01baad89544304aaa803725f6aae4b",
@@ -101,7 +101,7 @@
     "prior_qc_limit": "No person on roof in last3s is insufficient to validate correct ship identity or the whole scene. Historical QC preserved; owner hold supersedes continuation readiness."
   },
   "proposal": {
-    "status": "creative_proposal_not_launch_authorization",
+    "status": "superseded_by_owner_seven_part_followup",
     "scene_id": 52,
     "parts": [
       {
@@ -192,7 +192,7 @@
       "New Seedance2.0 action parts need individual prompts/reference slots under current prompt-style rules; old 2x15s text must not simply be requeued."
     ]
   },
-  "next_action": "Review proposed five core parts plus optional exit with owner; then prepare new prompt/reference pack under current rules. Old P2 stays held until revised sequence has explicit scope and launch readiness.",
+  "next_action": "Continue exact pending stages in reports/scene52-seven-parts-handoff-2026-10-27.md; approved7part scope replaces old5+optional proposal.",
   "validation": {
     "new_generation_submitted": false,
     "signed_media_urls_saved": false,
@@ -224,7 +224,7 @@
     "at": "2026-10-27T10:30:12.657Z",
     "quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
     "approved_parts": 7,
-    "status": "seven_references_qc_complete_prompts_pending",
+    "status": "seven_references_published_prompts_queue_pending",
     "plan": [
       "Verify cruiser source, prepare/view seven action images.",
       "Write seven Seedance2.0 parts and matching alternate model versions under canonical rules.",
@@ -232,6 +232,56 @@
       "Publish reference packs/master/queue with QC, hashes, checkpoint and readback."
     ],
     "new_generation_submitted": false,
-    "reference_report": "reports/scene52-reference-pack-2026-10-27.json"
+    "reference_report": "reports/scene52-reference-pack-2026-10-27.json",
+    "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
+    "approved_sequence": [
+      "Посадка в личный корабль",
+      "Взлёт из ангара",
+      "Облёт нужного крейсера",
+      "Подлёт к городу Татуина",
+      "Подробная посадка у города",
+      "Выход из корабля к городу",
+      "Прогулка по городу Татуина"
+    ]
+  },
+  "handoff": {
+    "at": "2026-10-27T11:01:19.481Z",
+    "requested_by_owner": true,
+    "path": "reports/scene52-seven-parts-handoff-2026-10-27.md",
+    "completed": [
+      "7action images + exact Topview cruiser source published/QC/readback",
+      "Selected S44 Seedance2.5 true ending already saved",
+      "Old unsubmitted P2 held"
+    ],
+    "pending": [
+      "7autonomous selected video prompts and corresponding alternate version",
+      "Replace scene52 master section after archival and publish reference gallery",
+      "Update manifest prompt mappings and create7new R2 queue items with real continuity gates",
+      "Validate and publish changed master/queue/site"
+    ],
+    "proposed_priorities": [
+      0,
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06
+    ],
+    "new_queue_items_created": false,
+    "new_video_submissions": 0,
+    "validation": {
+      "unit_tests": 305,
+      "unit_test_result": "passed",
+      "site_validator": "passed",
+      "canon_health": "ok",
+      "canon_health_warnings": 0,
+      "takeover_brief_valid": true,
+      "takeover_anchors": "15/15",
+      "reference_sha_checks": 8,
+      "handoff_links_checked": 9,
+      "master_video_prompts_modified": false,
+      "launch_queue_modified_during_handoff": false
+    }
   }
 }

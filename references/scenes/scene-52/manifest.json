@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-27T10:51:05.186Z",
+  "updated_at": "2026-10-27T11:01:19.481Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -644,7 +644,7 @@
     "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
     "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
   },
-  "remaining": "Owner review27Oct supersedes old P2 readiness. Selected S44 Seedance2.5 actual end saved. Five core parts plus optional exit proposed; prepare new per-part prompts/references after final structure decision. Old P2 stays blocked_owner_decision.",
+  "remaining": "Seven mandatory parts approved;7action images and exact Topview cruiser reference published. New video prompts, master gallery, prompt reference mappings and7R2 queue items still pending. Old P2 held. Continue reports/scene52-seven-parts-handoff-2026-10-27.md.",
   "actual_continuity_20261023": {
     "at": "2026-10-23T01:51:09.796Z",
     "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
@@ -795,7 +795,7 @@
   },
   "seven_part_reference_pack": {
     "report": "reports/scene52-reference-pack-2026-10-27.json",
-    "status": "images_ready_prompts_pending",
+    "status": "images_published_prompt_mapping_and_queue_pending",
     "source_cruiser": {
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "task_id": "85dab256ad994a72a34946ef70aaaf69",
@@ -812,6 +812,9 @@
       "bytes": 1537686,
       "derivation": "Production JPEG export quality97/subsampling0, original dimensions unchanged; original Topview PNG identified by task/resource and original SHA. No generative edits."
     },
-    "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет"
-  }
+    "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
+    "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
+    "published_commit": "1a08dd012f0d69f67d8b81a8592301a6566deb63"
+  },
+  "prompt_mapping_status": "Existing mappings are historical old52; replace only together with new seven-part master prompts."
 }

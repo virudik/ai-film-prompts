@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "work_id": "S52-SEVEN-PARTS-20261027",
-  "status": "seven_images_created_qc_passed_prompts_pending",
+  "status": "seven_images_qc_complete_handoff_prompts_queue_pending",
   "generator": "built-in image_gen",
   "source_cruiser": {
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -137,5 +137,7 @@
       "Future video results still require ship, identity, physics and continuity review; image QC is not owner artistic acceptance."
     ]
   },
-  "updated_at": "2026-10-27T10:51:05.186Z"
+  "updated_at": "2026-10-27T10:51:05.186Z",
+  "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
+  "published_commit": "1a08dd012f0d69f67d8b81a8592301a6566deb63"
 }
