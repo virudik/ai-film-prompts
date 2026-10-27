@@ -6,14 +6,14 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**23.10.2026 · 20 сцен к генерации/доработке · 60 полных текстов промта**
+**27.10.2026 · 25 сцен к генерации/доработке · 75 полных текстов промта**
 
 - **🛠️ 0** рабочих направлений W: 20 предложений оформлены отдельными сценами.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя оформленная активная сцена:** 20 — Красота становится знанием.
+- **Последняя оформленная активная сцена:** 25 — ЦПК: Невесомость на глубине.
 - **Последняя полная синхронизация:** **23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026**.
 
-**Роскосмос, Главкосмос, РКС и НЦ ОМЗ:** 20 разработанных сцен; все 12 дополнительных идей стали сценами 9–20. Всего 35 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций.
+**Роскосмос, Главкосмос, РКС, НЦ ОМЗ и ЦПК:** 25 разработанных сцен; все 12 дополнительных идей стали сценами 9–20; **27.10.2026 добавлены 5 сцен ЦПК имени Ю.А. Гагарина (21–25)** — по пять на каждую организацию, по новостям ЦПК 23–26.10.2026 и его постоянным темам. Референсы к ним рисует открытый чат ChatGPT Work; до этого сцены 21–25 не запускать. Всего 35 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций.
 
 **Все сцены прошли режиссёрскую доработку; художественная приёмка результатов остаётся за владельцем.** 23.10 владелец поручил после доработки занимать свободные слоты по запланированной очереди и оценивать результаты. Добавлена ограниченная очередь: одна выбранная версия на сцену, без автоматических повторов. Для второй части Seedance нужен настоящий результат первой. Подготовленная очередь не означает состоявшуюся отправку; факты запуска — в квитанциях. Только подтверждённый Unlimited и 0 кредитов; вкладка Seedance 2.5 сама по себе не подтверждает бесплатную доступность.
 
@@ -45,6 +45,11 @@
 | 18 | [Найти нужный снимок](#scene-18) | НЦ ОМЗ | Развёрнутая идея · 23.10.2026 |
 | 19 | [Река меняет границы](#scene-19) | НЦ ОМЗ | Развёрнутая идея · 23.10.2026 |
 | 20 | [Красота становится знанием](#scene-20) | НЦ ОМЗ | Развёрнутая идея · 23.10.2026 |
+| 21 | [Космос начинается на Земле](#scene-21) | ЦПК | Постоянная тема · имиджевый ролик |
+| 22 | [Шлюзование в виртуальной реальности](#scene-22) | ЦПК | Новостной повод · 26.10.2026 |
+| 23 | [Робот снаружи, руки на тренажёре](#scene-23) | ЦПК | Новостной повод · 23.10.2026 |
+| 24 | [Если спускаемый аппарат сел на воду](#scene-24) | ЦПК | Новостной повод · водные «выживания» 2026 |
+| 25 | [Невесомость на глубине](#scene-25) | ЦПК | Постоянная тема · объяснение установки |
 
 ## 12 идей развёрнуты в сцены
 
@@ -52,7 +57,7 @@
 
 ## Сцены в работе
 
-Все 20 сцен ниже — DRAFT до художественной приёмки. Выбранные версии подготовлены к одной бесплатной попытке по очереди.
+Все 25 сцен ниже — DRAFT до художественной приёмки. Выбранные версии сцен 1–20 подготовлены к одной бесплатной попытке по очереди; сцены 21–25 ждут референсы и в очередь не поставлены.
 
 <a id="scene-1"></a>
 ## Сцена 1 — Роскосмос: Космос работает здесь
@@ -4002,6 +4007,966 @@ Original curious marimba and soft strings building to a restrained resolution, g
 
 NEGATIVE PROMPT:
 Ink physically becoming land, new channels appearing, fake pollution detection, coordinates, scientific labels, dramatic tidal wave. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated objects or static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+</div>
+
+<a id="scene-21"></a>
+## Сцена 21 — ЦПК: Космос начинается на Земле
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+
+**Контекст использования:** Имиджевый ролик о Центре подготовки космонавтов: за 30 секунд показать, что путь на орбиту проходит через перегрузки и тренажёры на Земле. **Постоянная тема.**
+
+**Что происходит:** Центрифуга уже раскручена: длинное плечо проносится через кадр, внутри кабины — лицо слушателя под перегрузкой. Плечо останавливается, слушатель выбирается из кабины. Жёсткая склейка: он же в тесном макете спускаемого аппарата тренажёра «Союз», работает тумблерами, гасит учебную тревогу и коротко кивает.
+
+**Факт и художественное решение:** ФГБУ «НИИ ЦПК имени Ю.А. Гагарина» отвечает за отбор, подготовку и реабилитацию космонавтов. На официальном сайте среди установок названы центрифуга ЦФ-18, комплексы тренажёров ТПК «Союз» и РС МКС, гидролаборатория, барокамера и самолёт Ил-76МДК. Слушатель вымышлен; интерьеры — постановочные концепты, без надписей и эмблем.
+
+**Источники (проверка 27.10.2026):** [ЦПК — официальный сайт, раздел о Центре и установках](https://www.gctc.ru/) · [Википедия — ЦПК имени Ю.А. Гагарина](https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8_%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%BE%D0%B2_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%AE._%D0%90._%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B0).
+
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-21/c21-centrifuge.png` (ещё не нарисован). Large circular centrifuge hall: a long horizontal steel arm with an enclosed white gondola at its end; the same fictional trainee (adult man, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches) seen through the open gondola hatch. Controls the hall, arm, gondola and the trainee's face and overall. @Image2 — `projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png` (ещё не нарисован). Cramped bell-shaped descent-module simulator cabin: three reclined seats, curved padded walls, a control panel of generic unlabelled switches and dark display screens; the same trainee in the centre seat wearing a light headset. Controls the simulator interior only. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-21/*.image-prompt.txt`.
+
+**Закадровый текст для монтажа:** «Путь на орбиту начинается на Земле. Перегрузки, тренажёры, сотни часов подготовки. Здесь учатся быть космонавтами.»
+
+**Финальный титр для монтажа:** «ЦПК имени Ю.А. Гагарина. Космос начинается на Земле.»
+
+**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Плечо центрифуги вращается горизонтально и не отрывается; один и тот же слушатель в синем комбинезоне в обоих местах; никаких надписей и эмблем. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
+
+<div class="engine-tabs" data-scene="21">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 21 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-21/c21-centrifuge.png`. @Image2 — `projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Large circular centrifuge hall: a long horizontal steel arm with an enclosed white gondola at its end; the same fictional trainee (adult man, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches) seen through the open gondola hatch. Controls the hall, arm, gondola and the trainee's face and overall. File: projects/raznoe/references/scenes/scene-21/c21-centrifuge.png.
+@Image2 — Cramped bell-shaped descent-module simulator cabin: three reclined seats, curved padded walls, a control panel of generic unlabelled switches and dark display screens; the same trainee in the centre seat wearing a light headset. Controls the simulator interior only. File: projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+One fictional adult male trainee, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches; @Image1 defines his face, build and overall in every shot. A second person appears only as an unnamed instructor's hand. Not a portrait of any real cosmonaut.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The centrifuge arm rotates in the horizontal plane at constant height; the gondola stays attached and upright. The simulator is a ground mock-up with no window views of space. No readable text, numbers, flags or agency emblems anywhere.
+
+START STATE:
+@Image1 hall: the long centrifuge arm is already spinning; camera low at floor level near the arm's path.
+
+TIMELINE:
+[0:00–0:03] The arm sweeps past the low camera fast and close, gondola blurring; a whoosh of air lifts dust from the floor.
+
+[0:03–0:08] Inside the gondola: the trainee's cheeks pull under rising G-load, jaw set; he steadies his breathing and presses a hand-held button on cue as light bands race across his face.
+
+[0:08–0:15] Outside: the arm decelerates and stops at the platform; the hatch swings open and the trainee climbs out steadily, rolling his shoulders, and strides along the platform.
+
+[0:15–0:20] Hard cut to @Image2: he slides into the centre seat of the cramped simulator, snaps the straps tight; an instructor's hand taps the hatch rim.
+
+[0:20–0:26] His fingers flip a row of guarded switches; an amber warning lamp flashes, his eyes snap to the displays and he answers with a quick confident sequence until the lamp goes out.
+
+[0:26–0:30] Push in to his face lit by steady green panel glow; he exhales and gives one small confident nod. Hold.
+
+END STATE:
+The trainee in the simulator seat, calm face lit by green panel glow, one small nod completed; cabin steady.
+
+CAMERA / SPACE:
+Energetic but controlled: low tracking past the moving arm, tight in-gondola close-up, then a hard cut to tight 35mm cabin coverage with a short push-in. Cuts land on motion; no axis jumps or shaky camera.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Cool white hall light with racing light bands inside the gondola; warm-beige simulator cabin with green and amber panel glow.
+
+AUDIO:
+Original driving electronic pulse, rising rotor hum and whoosh, switch clicks, one warning beep. No speech, no vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Gondola detaching, arm tilting vertically, flying sparks, real-person likeness, readable labels, flags, agency logos, windows to space in the simulator, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 21 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-21/c21-centrifuge.png`. @Image2 — `projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Large circular centrifuge hall: a long horizontal steel arm with an enclosed white gondola at its end; the same fictional trainee (adult man, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches) seen through the open gondola hatch. Controls the hall, arm, gondola and the trainee's face and overall. File: projects/raznoe/references/scenes/scene-21/c21-centrifuge.png.
+@Image2 — Cramped bell-shaped descent-module simulator cabin: three reclined seats, curved padded walls, a control panel of generic unlabelled switches and dark display screens; the same trainee in the centre seat wearing a light headset. Controls the simulator interior only. File: projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+One fictional adult male trainee, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches; @Image1 defines his face, build and overall in every shot. A second person appears only as an unnamed instructor's hand. Not a portrait of any real cosmonaut.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The centrifuge arm rotates in the horizontal plane at constant height; the gondola stays attached and upright. The simulator is a ground mock-up with no window views of space. No readable text, numbers, flags or agency emblems anywhere.
+
+START STATE:
+@Image1 hall: the long centrifuge arm is already spinning; camera low at floor level near the arm's path.
+
+TIMELINE:
+[0:00–0:03] The arm sweeps past the low camera fast and close, gondola blurring; a whoosh of air lifts dust from the floor.
+
+[0:03–0:08] Inside the gondola: the trainee's cheeks pull under rising G-load, jaw set; he steadies his breathing and presses a hand-held button on cue as light bands race across his face.
+
+[0:08–0:15] Outside: the arm decelerates and stops at the platform; the hatch swings open and the trainee climbs out steadily, rolling his shoulders, and strides along the platform.
+
+END STATE:
+The trainee strides along the centrifuge platform away from the stopped gondola, overall and face clearly visible. Preserve continuous motion over the final 3 seconds for the next part; no fade or end card.
+
+CAMERA / SPACE:
+Energetic but controlled: low tracking past the moving arm, tight in-gondola close-up, then a hard cut to tight 35mm cabin coverage with a short push-in. Cuts land on motion; no axis jumps or shaky camera. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Cool white hall light with racing light bands inside the gondola; warm-beige simulator cabin with green and amber panel glow.
+
+AUDIO:
+Original driving electronic pulse, rising rotor hum and whoosh, switch clicks, one warning beep. No speech, no vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Gondola detaching, arm tilting vertically, flying sparks, real-person likeness, readable labels, flags, agency logos, windows to space in the simulator, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 21 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-21/c21-centrifuge.png`. @Image2 — `projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Large circular centrifuge hall: a long horizontal steel arm with an enclosed white gondola at its end; the same fictional trainee (adult man, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches) seen through the open gondola hatch. Controls the hall, arm, gondola and the trainee's face and overall. File: projects/raznoe/references/scenes/scene-21/c21-centrifuge.png.
+@Image2 — Cramped bell-shaped descent-module simulator cabin: three reclined seats, curved padded walls, a control panel of generic unlabelled switches and dark display screens; the same trainee in the centre seat wearing a light headset. Controls the simulator interior only. File: projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named role. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+One fictional adult male trainee, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches; @Image1 defines his face, build and overall in every shot. A second person appears only as an unnamed instructor's hand. Not a portrait of any real cosmonaut.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The centrifuge arm rotates in the horizontal plane at constant height; the gondola stays attached and upright. The simulator is a ground mock-up with no window views of space. No readable text, numbers, flags or agency emblems anywhere.
+
+START STATE:
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff (subordinate to actual video): The trainee strides along the centrifuge platform away from the stopped gondola, overall and face clearly visible.
+
+TIMELINE:
+[0:00–0:05] Hard cut to @Image2: he slides into the centre seat of the cramped simulator, snaps the straps tight; an instructor's hand taps the hatch rim.
+
+[0:05–0:11] His fingers flip a row of guarded switches; an amber warning lamp flashes, his eyes snap to the displays and he answers with a quick confident sequence until the lamp goes out.
+
+[0:11–0:15] Push in to his face lit by steady green panel glow; he exhales and gives one small confident nod. Hold.
+
+END STATE:
+The trainee in the simulator seat, calm face lit by green panel glow, one small nod completed; cabin steady.
+
+CAMERA / SPACE:
+Energetic but controlled: low tracking past the moving arm, tight in-gondola close-up, then a hard cut to tight 35mm cabin coverage with a short push-in. Cuts land on motion; no axis jumps or shaky camera. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Cool white hall light with racing light bands inside the gondola; warm-beige simulator cabin with green and amber panel glow.
+
+AUDIO:
+Original driving electronic pulse, rising rotor hum and whoosh, switch clicks, one warning beep. No speech, no vocals; leave room for an editorial voice-over. Continue sound perspective naturally from @Video1 without a restarted fanfare.
+
+NEGATIVE PROMPT:
+Gondola detaching, arm tilting vertically, flying sparks, real-person likeness, readable labels, flags, agency logos, windows to space in the simulator, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+</div>
+
+<a id="scene-22"></a>
+## Сцена 22 — ЦПК: Шлюзование в виртуальной реальности
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+
+**Контекст использования:** Новостной ролик: как космонавты готовятся к выходу в открытый космос на стенде скафандра «Орлан-МК» с виртуальной реальностью. **Новостной повод · 26.10.2026.**
+
+**Что происходит:** Реальный зал и виртуальный шлюз чередуются склейками по жесту. Двое слушателей в шлемах виртуальной реальности тянутся контроллерами, а в виртуальном шлюзе белая перчатка берётся за поручень. Давление сбрасывается, люк открывается к Земле, затем обратное шлюзование, и в зале слушатель поднимает шлем на лоб.
+
+**Факт и художественное решение:** 26.10.2026 ЦПК сообщил: основной экипаж МКС-76 на функционально-моделирующем стенде скафандра «Орлан-МК» с виртуальной реальностью отработал прямое и обратное шлюзование шлюзового отсека МИМ2 «Поиск»: надевание скафандра, проверку герметичности, сброс давления, выход и выравнивание давления. Дальше — тренажёр «Выход-2». В ролике постановочные исполнители, не изображающие конкретных космонавтов.
+
+**Источники (проверка 27.10.2026):** [ЦПК, 26.10.2026 — шлюзование на стенде «Орлан-МК»](https://www.gctc.ru/main.php?id=7798).
+
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png` (ещё не нарисован). Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png` (ещё не нарисован). Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-22/*.image-prompt.txt`.
+
+**Закадровый текст для монтажа:** «Перед выходом в открытый космос каждое движение отрабатывают на Земле. Скафандр, герметичность, давление, люк. Шаг за шагом — сначала в виртуальной реальности.»
+
+**Финальный титр для монтажа:** «ЦПК. Выход начинается с тренировки.»
+
+**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Виртуальные кадры и реальный зал не смешиваются в одном кадре; полосы скафандров не меняются местами; давление показано только стрелкой и дымкой. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
+
+<div class="engine-tabs" data-scene="22">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 22 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png`. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. File: projects/raznoe/references/scenes/scene-22/c22-vr-stand.png.
+@Image2 — Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. File: projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Real hall: two fictional trainees from @Image1 (grey-haired man and younger bearded man, royal-blue overalls, VR headsets). Virtual airlock: two white EVA suits from @Image2, red-striped and blue-striped, visors down so no faces. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The virtual airlock is a training simulation: same hatch, handrails and suit stripes every time it appears. Pressure is shown only by a needle dial and faint haze, never numbers. The real hall never shows a real spacewalk. No readable text, flags or agency emblems.
+
+START STATE:
+@Image1 hall: both trainees already in VR headsets at the stand, hands moving with controllers.
+
+TIMELINE:
+[0:00–0:03] Fast dolly into the hall toward the two trainees, their controllers sweeping through the air in sync.
+
+[0:03–0:08] Match cut on the reaching hand: in the @Image2 airlock a white glove grips a handrail and pulls the suit forward; the blue-striped suit checks the partner's chest panel with a tap.
+
+[0:08–0:15] Back in the hall the trainee twists a controller like a valve; cut to the airlock: a needle dial sweeps down, faint haze clears, the round hatch unlocks with a jolt and swings outward, revealing Earth's bright blue limb.
+
+[0:15–0:20] The red-striped suit pulls itself to the hatch rim hand over hand, Earth sliding below; the tether clicks onto a handrail.
+
+[0:20–0:26] Reverse: back inside, the hatch swings shut and locks, haze returns as pressure equalises, the partner gives a thumbs-up.
+
+[0:26–0:30] Hall: the grey-haired trainee pushes the headset up onto his forehead, breathes out and glances at his partner; a short nod. Hold.
+
+END STATE:
+Real hall: the grey-haired trainee with the headset pushed up on his forehead, the bearded partner beside him, both calm; stand and desk visible.
+
+CAMERA / SPACE:
+Brisk intercutting on matching gestures between real hall (35mm, smooth dolly) and virtual airlock (wide 24mm, slow drift). Every cut lands on motion; no axis reversals.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Bright neutral hall daylight with cool screen glow; in the airlock, hard sunlight through the hatch and deep shadows.
+
+AUDIO:
+Original tense electronic pulse, controller clicks, valve hiss, hatch latch thunk, muffled suit breathing in the virtual shots. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Real spacewalk claims, faces visible inside EVA visors, unsecured floating trainees in the hall, readable labels or numbers, flags, agency logos, game-like HUD, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 22 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png`. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. File: projects/raznoe/references/scenes/scene-22/c22-vr-stand.png.
+@Image2 — Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. File: projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Real hall: two fictional trainees from @Image1 (grey-haired man and younger bearded man, royal-blue overalls, VR headsets). Virtual airlock: two white EVA suits from @Image2, red-striped and blue-striped, visors down so no faces. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The virtual airlock is a training simulation: same hatch, handrails and suit stripes every time it appears. Pressure is shown only by a needle dial and faint haze, never numbers. The real hall never shows a real spacewalk. No readable text, flags or agency emblems.
+
+START STATE:
+@Image1 hall: both trainees already in VR headsets at the stand, hands moving with controllers.
+
+TIMELINE:
+[0:00–0:03] Fast dolly into the hall toward the two trainees, their controllers sweeping through the air in sync.
+
+[0:03–0:08] Match cut on the reaching hand: in the @Image2 airlock a white glove grips a handrail and pulls the suit forward; the blue-striped suit checks the partner's chest panel with a tap.
+
+[0:08–0:15] Back in the hall the trainee twists a controller like a valve; cut to the airlock: a needle dial sweeps down, faint haze clears, the round hatch unlocks with a jolt and swings outward, revealing Earth's bright blue limb.
+
+END STATE:
+Virtual airlock: the round hatch has just swung open onto Earth's blue limb; the red-striped suit is moving toward it. Preserve continuous motion over the final 3 seconds for the next part; no fade or end card.
+
+CAMERA / SPACE:
+Brisk intercutting on matching gestures between real hall (35mm, smooth dolly) and virtual airlock (wide 24mm, slow drift). Every cut lands on motion; no axis reversals. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Bright neutral hall daylight with cool screen glow; in the airlock, hard sunlight through the hatch and deep shadows.
+
+AUDIO:
+Original tense electronic pulse, controller clicks, valve hiss, hatch latch thunk, muffled suit breathing in the virtual shots. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Real spacewalk claims, faces visible inside EVA visors, unsecured floating trainees in the hall, readable labels or numbers, flags, agency logos, game-like HUD, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 22 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png`. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. File: projects/raznoe/references/scenes/scene-22/c22-vr-stand.png.
+@Image2 — Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. File: projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named role. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Real hall: two fictional trainees from @Image1 (grey-haired man and younger bearded man, royal-blue overalls, VR headsets). Virtual airlock: two white EVA suits from @Image2, red-striped and blue-striped, visors down so no faces. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The virtual airlock is a training simulation: same hatch, handrails and suit stripes every time it appears. Pressure is shown only by a needle dial and faint haze, never numbers. The real hall never shows a real spacewalk. No readable text, flags or agency emblems.
+
+START STATE:
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff (subordinate to actual video): Virtual airlock: the round hatch has just swung open onto Earth's blue limb; the red-striped suit is moving toward it.
+
+TIMELINE:
+[0:00–0:05] The red-striped suit pulls itself to the hatch rim hand over hand, Earth sliding below; the tether clicks onto a handrail.
+
+[0:05–0:11] Reverse: back inside, the hatch swings shut and locks, haze returns as pressure equalises, the partner gives a thumbs-up.
+
+[0:11–0:15] Hall: the grey-haired trainee pushes the headset up onto his forehead, breathes out and glances at his partner; a short nod. Hold.
+
+END STATE:
+Real hall: the grey-haired trainee with the headset pushed up on his forehead, the bearded partner beside him, both calm; stand and desk visible.
+
+CAMERA / SPACE:
+Brisk intercutting on matching gestures between real hall (35mm, smooth dolly) and virtual airlock (wide 24mm, slow drift). Every cut lands on motion; no axis reversals. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Bright neutral hall daylight with cool screen glow; in the airlock, hard sunlight through the hatch and deep shadows.
+
+AUDIO:
+Original tense electronic pulse, controller clicks, valve hiss, hatch latch thunk, muffled suit breathing in the virtual shots. No speech or vocals; leave room for an editorial voice-over. Continue sound perspective naturally from @Video1 without a restarted fanfare.
+
+NEGATIVE PROMPT:
+Real spacewalk claims, faces visible inside EVA visors, unsecured floating trainees in the hall, readable labels or numbers, flags, agency logos, game-like HUD, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+</div>
+
+<a id="scene-23"></a>
+## Сцена 23 — ЦПК: Робот снаружи, руки на тренажёре
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+
+**Контекст использования:** Новостной ролик о тренировке управления манипулятором ERA на тренажёре «Дон-ERA»: инструктор вводит отказ, экипаж доводит работу вручную. **Новостной повод · 23.10.2026.**
+
+**Что происходит:** На мониторах длинная белая рука-робот ползёт по модулю станции. Слушатели вводят команды, захват идёт к мишени базовой точки. Инструктор нажимает клавишу, и рука резко замирает. Экипаж переходит на ручное управление и аккуратно стыкует захват с базовой точкой.
+
+**Факт и художественное решение:** 23.10.2026 ЦПК сообщил: дублирующий экипаж МКС-77 тренировался на «Дон-ERA» управлять манипулятором ERA, установленным на модуле «Наука». Команды подаются с лэптопа, движение контролируется по камерам станции и манипулятора. Инструктор моделировал отказ плечевого сустава (дальше — ручной режим) и сбой распознавания мишени базовой точки (ручная стыковка). Исполнители и интерфейсы постановочные.
+
+**Источники (проверка 27.10.2026):** [ЦПК, 23.10.2026 — тренировка на «Дон-ERA»](https://www.gctc.ru/main.php?id=7793).
+
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png` (ещё не нарисован). Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png` (ещё не нарисован). Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-23/*.image-prompt.txt`.
+
+**Закадровый текст для монтажа:** «Манипулятор работает снаружи станции, а управляют им изнутри. На тренажёре инструктор создаёт отказ — и экипаж учится доводить работу вручную, до автоматизма.»
+
+**Финальный титр для монтажа:** «ЦПК. Готовы к нештатной ситуации.»
+
+**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Одна и та же рука и модуль на мониторе и в космосе; один захват всегда закреплён; отказ показан остановкой и красной лампой, без текста. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
+
+<div class="engine-tabs" data-scene="23">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 23 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png`. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. File: projects/raznoe/references/scenes/scene-23/c23-console.png.
+@Image2 — Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. File: projects/raznoe/references/scenes/scene-23/c23-era-arm.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Room: two fictional trainees from @Image1 (shaved-head man and fair-haired man, royal-blue overalls) and an instructor in a dark polo shirt. Exterior: the robotic arm from @Image2. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The arm always keeps one gripper anchored while the other moves; it never floats free. Monitor images show the same arm and module as the exterior shots. Fault is shown only by the arm stopping and a red indicator lamp, no error text. No readable text, numbers, flags or agency emblems.
+
+START STATE:
+@Image1 room: monitors already show the arm creeping along the module; trainees lean toward the screens.
+
+TIMELINE:
+[0:00–0:03] Start tight on a monitor: the arm's free gripper glides along the module; pull back fast to reveal both trainees' faces lit by the screens.
+
+[0:03–0:08] Fingers type a command on the laptop; cut to the @Image2 exterior: the arm's elbow bends and the free gripper swings toward the base-point fixture.
+
+[0:08–0:15] Behind them the instructor taps one key; on the monitor the arm halts with a jerk and a red lamp flashes on the desk. The trainees exchange a quick glance, the shaved-head man reports into his headset mic, then grips the hand controller.
+
+[0:15–0:20] Manual drive: exterior shot, the gripper inches toward the target fixture; on the monitor the camera view sways slightly as he corrects.
+
+[0:20–0:26] Fine corrections, eyes locked on the screen; the gripper aligns and latches onto the fixture with a solid clunk; the arm holds steady.
+
+[0:26–0:30] Room: he releases the controller and exhales, his partner taps the desk once, the instructor gives a short approving nod. Hold.
+
+END STATE:
+Room: both trainees relaxed at the desk, controller released, monitor showing the gripper latched on the fixture; instructor nodding behind.
+
+CAMERA / SPACE:
+Snappy cuts on motion between screen-lit faces (35mm), hands (macro inserts) and smooth exterior orbital shots (wide). Short push-ins at the fault and the latch. No axis jumps.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Dim room with blue screen glow and one red indicator flash; hard orbital sunlight outside.
+
+AUDIO:
+Original tense minimal electronic pulse, keyboard clicks, a short alert tone, servo whine, a solid latch clunk. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Arm floating free, both grippers released, explosions or sparks, error text on screens, readable labels or numbers, flags, agency logos, real-person likeness, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 23 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png`. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. File: projects/raznoe/references/scenes/scene-23/c23-console.png.
+@Image2 — Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. File: projects/raznoe/references/scenes/scene-23/c23-era-arm.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Room: two fictional trainees from @Image1 (shaved-head man and fair-haired man, royal-blue overalls) and an instructor in a dark polo shirt. Exterior: the robotic arm from @Image2. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The arm always keeps one gripper anchored while the other moves; it never floats free. Monitor images show the same arm and module as the exterior shots. Fault is shown only by the arm stopping and a red indicator lamp, no error text. No readable text, numbers, flags or agency emblems.
+
+START STATE:
+@Image1 room: monitors already show the arm creeping along the module; trainees lean toward the screens.
+
+TIMELINE:
+[0:00–0:03] Start tight on a monitor: the arm's free gripper glides along the module; pull back fast to reveal both trainees' faces lit by the screens.
+
+[0:03–0:08] Fingers type a command on the laptop; cut to the @Image2 exterior: the arm's elbow bends and the free gripper swings toward the base-point fixture.
+
+[0:08–0:15] Behind them the instructor taps one key; on the monitor the arm halts with a jerk and a red lamp flashes on the desk. The trainees exchange a quick glance, the shaved-head man reports into his headset mic, then grips the hand controller.
+
+END STATE:
+Room: the shaved-head trainee has just gripped the hand controller after the red lamp flashed; the arm on the monitor is frozen mid-reach. Preserve continuous motion over the final 3 seconds for the next part; no fade or end card.
+
+CAMERA / SPACE:
+Snappy cuts on motion between screen-lit faces (35mm), hands (macro inserts) and smooth exterior orbital shots (wide). Short push-ins at the fault and the latch. No axis jumps. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Dim room with blue screen glow and one red indicator flash; hard orbital sunlight outside.
+
+AUDIO:
+Original tense minimal electronic pulse, keyboard clicks, a short alert tone, servo whine, a solid latch clunk. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Arm floating free, both grippers released, explosions or sparks, error text on screens, readable labels or numbers, flags, agency logos, real-person likeness, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 23 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png`. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. File: projects/raznoe/references/scenes/scene-23/c23-console.png.
+@Image2 — Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. File: projects/raznoe/references/scenes/scene-23/c23-era-arm.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named role. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Room: two fictional trainees from @Image1 (shaved-head man and fair-haired man, royal-blue overalls) and an instructor in a dark polo shirt. Exterior: the robotic arm from @Image2. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The arm always keeps one gripper anchored while the other moves; it never floats free. Monitor images show the same arm and module as the exterior shots. Fault is shown only by the arm stopping and a red indicator lamp, no error text. No readable text, numbers, flags or agency emblems.
+
+START STATE:
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff (subordinate to actual video): Room: the shaved-head trainee has just gripped the hand controller after the red lamp flashed; the arm on the monitor is frozen mid-reach.
+
+TIMELINE:
+[0:00–0:05] Manual drive: exterior shot, the gripper inches toward the target fixture; on the monitor the camera view sways slightly as he corrects.
+
+[0:05–0:11] Fine corrections, eyes locked on the screen; the gripper aligns and latches onto the fixture with a solid clunk; the arm holds steady.
+
+[0:11–0:15] Room: he releases the controller and exhales, his partner taps the desk once, the instructor gives a short approving nod. Hold.
+
+END STATE:
+Room: both trainees relaxed at the desk, controller released, monitor showing the gripper latched on the fixture; instructor nodding behind.
+
+CAMERA / SPACE:
+Snappy cuts on motion between screen-lit faces (35mm), hands (macro inserts) and smooth exterior orbital shots (wide). Short push-ins at the fault and the latch. No axis jumps. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Dim room with blue screen glow and one red indicator flash; hard orbital sunlight outside.
+
+AUDIO:
+Original tense minimal electronic pulse, keyboard clicks, a short alert tone, servo whine, a solid latch clunk. No speech or vocals; leave room for an editorial voice-over. Continue sound perspective naturally from @Video1 without a restarted fanfare.
+
+NEGATIVE PROMPT:
+Arm floating free, both grippers released, explosions or sparks, error text on screens, readable labels or numbers, flags, agency logos, real-person likeness, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+</div>
+
+<a id="scene-24"></a>
+## Сцена 24 — ЦПК: Если спускаемый аппарат сел на воду
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+
+**Контекст использования:** Ролик о тренировке экипажа на случай приводнения: переодеться в тесноте, покинуть спускаемый аппарат на воде, держаться вместе и дождаться помощи. **Новостной повод · водные «выживания» 2026.**
+
+**Что происходит:** Макет спускаемого аппарата качается на волне. Внутри экипаж быстро и слаженно натягивает оранжевые гидрокостюмы. Люк открывается, первый выбирается на край и прыгает в воду, за ним остальные. Цепочкой они плывут к надувному плоту, втаскивают друг друга и поднимают сигнальный факел.
+
+**Факт и художественное решение:** В 2026 году ЦПК провёл водные «выживания»: теоретическую подготовку к действиям экипажа при приводнении спускаемого аппарата, «сухую», «короткую» и «длинную» тренировки. Их прошли дублирующий экипаж МКС-76, основной экипаж и кандидаты в космонавты (по заголовкам новостей ЦПК). Подробности упражнений в ролике — обобщённая постановка, не репортаж конкретной тренировки.
+
+**Источники (проверка 27.10.2026):** [ЦПК — Водные «выживания» 2026](https://www.gctc.ru/main.php?id=7732) · [ЦПК — дублирующий экипаж МКС-76 на выживании на воде](https://www.gctc.ru/main.php?id=7724).
+
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png` (ещё не нарисован). Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png` (ещё не нарисован). Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-24/*.image-prompt.txt`.
+
+**Закадровый текст для монтажа:** «Спускаемый аппарат может приводниться. Поэтому экипаж учится покидать его на воде: переодеться в тесноте, выбраться через люк, держаться вместе и дождаться помощи.»
+
+**Финальный титр для монтажа:** «ЦПК. Готовы к любой посадке.»
+
+**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Макет держится на плаву и не меняет форму; трое одних и тех же людей в кабине и в воде; сигнал — дымовой факел, без огня на воде. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
+
+<div class="engine-tabs" data-scene="24">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 24 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png`. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. File: projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png.
+@Image2 — Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. File: projects/raznoe/references/scenes/scene-24/c24-raft.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Three fictional crew members from @Image2 (dark-haired man, fair-haired man, woman with short brown hair) in bright orange hooded survival suits, the same faces inside the cabin and in the water. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The mock-up keeps the same shape and dark hull from @Image1; it floats upright and never sinks. Swell stays moderate; safety divers and the support vessel stay nearby. The signal is a hand-held orange smoke flare, no fire on the water. No readable text, flags or agency emblems.
+
+START STATE:
+@Image1: the mock-up floating upright in swell, hatch closed, camera low at the waterline.
+
+TIMELINE:
+[0:00–0:03] Low at the waterline: a wave slaps the mock-up's hull, it rolls and rights itself; spray hits the lens.
+
+[0:03–0:08] Inside the cramped cabin: the three crew pull the orange suits over their overalls, elbows bumping in the tight space, quick and coordinated; sweat on foreheads.
+
+[0:08–0:15] The top hatch pops open, grey daylight floods in; the dark-haired man climbs out, sits on the rim, checks the sea and signals the others up.
+
+[0:15–0:20] He drops feet-first into the sea with a splash, the suit's collar bobs him up; the fair-haired man and the woman follow one after another.
+
+[0:20–0:26] They link into a chain, swim to the orange raft and haul each other aboard; the safety diver watches nearby.
+
+[0:26–0:30] On the raft the woman raises an orange smoke flare; wide shot: mock-up, raft and support vessel together. Hold.
+
+END STATE:
+All three crew in the orange raft beside the floating mock-up, orange smoke drifting, support vessel in the distance.
+
+CAMERA / SPACE:
+Waterline and over-water handheld-feel shots with stabilised motion, tight cabin coverage, quick cuts on movement (hatch opening, jump, haul aboard). End on a wider rising shot.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Overcast soft daylight, grey-green water; harsh contrast when the hatch opens onto the dim cabin.
+
+AUDIO:
+Original urgent rhythmic score with low drums, waves slapping, suit fabric rustle, hatch clank, splashes, flare hiss. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Sinking capsule, storm waves, drowning or panic, fire on the water, sharks, readable labels or numbers, flags, agency logos, real-person likeness, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 24 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png`. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. File: projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png.
+@Image2 — Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. File: projects/raznoe/references/scenes/scene-24/c24-raft.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Three fictional crew members from @Image2 (dark-haired man, fair-haired man, woman with short brown hair) in bright orange hooded survival suits, the same faces inside the cabin and in the water. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The mock-up keeps the same shape and dark hull from @Image1; it floats upright and never sinks. Swell stays moderate; safety divers and the support vessel stay nearby. The signal is a hand-held orange smoke flare, no fire on the water. No readable text, flags or agency emblems.
+
+START STATE:
+@Image1: the mock-up floating upright in swell, hatch closed, camera low at the waterline.
+
+TIMELINE:
+[0:00–0:03] Low at the waterline: a wave slaps the mock-up's hull, it rolls and rights itself; spray hits the lens.
+
+[0:03–0:08] Inside the cramped cabin: the three crew pull the orange suits over their overalls, elbows bumping in the tight space, quick and coordinated; sweat on foreheads.
+
+[0:08–0:15] The top hatch pops open, grey daylight floods in; the dark-haired man climbs out, sits on the rim, checks the sea and signals the others up.
+
+END STATE:
+The dark-haired crew member sits on the rim of the open hatch in his orange suit, looking out over the swell; the others' hands appear below him. Preserve continuous motion over the final 3 seconds for the next part; no fade or end card.
+
+CAMERA / SPACE:
+Waterline and over-water handheld-feel shots with stabilised motion, tight cabin coverage, quick cuts on movement (hatch opening, jump, haul aboard). End on a wider rising shot. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Overcast soft daylight, grey-green water; harsh contrast when the hatch opens onto the dim cabin.
+
+AUDIO:
+Original urgent rhythmic score with low drums, waves slapping, suit fabric rustle, hatch clank, splashes, flare hiss. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Sinking capsule, storm waves, drowning or panic, fire on the water, sharks, readable labels or numbers, flags, agency logos, real-person likeness, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 24 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png`. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. File: projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png.
+@Image2 — Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. File: projects/raznoe/references/scenes/scene-24/c24-raft.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named role. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Three fictional crew members from @Image2 (dark-haired man, fair-haired man, woman with short brown hair) in bright orange hooded survival suits, the same faces inside the cabin and in the water. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+The mock-up keeps the same shape and dark hull from @Image1; it floats upright and never sinks. Swell stays moderate; safety divers and the support vessel stay nearby. The signal is a hand-held orange smoke flare, no fire on the water. No readable text, flags or agency emblems.
+
+START STATE:
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff (subordinate to actual video): The dark-haired crew member sits on the rim of the open hatch in his orange suit, looking out over the swell; the others' hands appear below him.
+
+TIMELINE:
+[0:00–0:05] He drops feet-first into the sea with a splash, the suit's collar bobs him up; the fair-haired man and the woman follow one after another.
+
+[0:05–0:11] They link into a chain, swim to the orange raft and haul each other aboard; the safety diver watches nearby.
+
+[0:11–0:15] On the raft the woman raises an orange smoke flare; wide shot: mock-up, raft and support vessel together. Hold.
+
+END STATE:
+All three crew in the orange raft beside the floating mock-up, orange smoke drifting, support vessel in the distance.
+
+CAMERA / SPACE:
+Waterline and over-water handheld-feel shots with stabilised motion, tight cabin coverage, quick cuts on movement (hatch opening, jump, haul aboard). End on a wider rising shot. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Overcast soft daylight, grey-green water; harsh contrast when the hatch opens onto the dim cabin.
+
+AUDIO:
+Original urgent rhythmic score with low drums, waves slapping, suit fabric rustle, hatch clank, splashes, flare hiss. No speech or vocals; leave room for an editorial voice-over. Continue sound perspective naturally from @Video1 without a restarted fanfare.
+
+NEGATIVE PROMPT:
+Sinking capsule, storm waves, drowning or panic, fire on the water, sharks, readable labels or numbers, flags, agency logos, real-person likeness, slow motion, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+</div>
+
+<a id="scene-25"></a>
+## Сцена 25 — ЦПК: Невесомость на глубине
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+
+**Контекст использования:** Познавательный ролик о гидролаборатории: как под водой отрабатывают выход в открытый космос. **Постоянная тема.**
+
+**Что происходит:** Платформа со слушателем в белом скафандре опускается в огромный бассейн. Под водой страхующие водолазы уравновешивают скафандр. Слушатель перехватывает поручни на полноразмерном макете модуля, выполняет операцию инструментом на страховочном фале, и в широком кадре бассейн выглядит как космос.
+
+**Факт и художественное решение:** Среди установок ЦПК на официальном сайте названа гидролаборатория: в ней на макетах модулей станции отрабатывают выход в открытый космос в скафандре со страхующими водолазами. Размеры, глубина и модели макетов в ролике не заявляются; исполнители вымышлены.
+
+**Источники (проверка 27.10.2026):** [ЦПК — официальный сайт, установки Центра](https://www.gctc.ru/) · [Роскосмос о гидролаборатории ЦПК (ПРОКОСМОС)](https://vk.ru/@prokosmos_ru-v-roskosmose-rasskazali-o-gidrolaboratorii-cpk).
+
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png` (ещё не нарисован). Underwater: vast indoor pool with clear blue water, a full-size white station-module mock-up on the bottom, one figure in a white EVA suit (visor up enough to show a fictional man's face behind glass) holding handrails, two scuba safety divers in black. Controls the underwater space, mock-up, suit and divers. @Image2 — `projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png` (ещё не нарисован). Poolside: the same white EVA suit with its wearer standing on a steel lift platform hanging from a gantry crane, being lowered into the blue water; technicians in dark polo shirts at the railing. Controls the poolside and lowering rig. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-25/*.image-prompt.txt`.
+
+**Закадровый текст для монтажа:** «Чтобы почувствовать работу в невесомости, космонавты уходят под воду. Тот же скафандр, те же поручни, тот же порядок действий — только вокруг не космос, а гидролаборатория.»
+
+**Финальный титр для монтажа:** «ЦПК. Открытый космос — на глубине.»
+
+**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+
+**Режиссёрский контроль:** Всё время видно, что это бассейн: вода, пузыри, дно; один и тот же белый скафандр; водолазы рядом. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
+
+<div class="engine-tabs" data-scene="25">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 25 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png`. @Image2 — `projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при выбранном пункте очереди и подтверждённой бесплатности.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Underwater: vast indoor pool with clear blue water, a full-size white station-module mock-up on the bottom, one figure in a white EVA suit (visor up enough to show a fictional man's face behind glass) holding handrails, two scuba safety divers in black. Controls the underwater space, mock-up, suit and divers. File: projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png.
+@Image2 — Poolside: the same white EVA suit with its wearer standing on a steel lift platform hanging from a gantry crane, being lowered into the blue water; technicians in dark polo shirts at the railing. Controls the poolside and lowering rig. File: projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+One fictional trainee in the white EVA suit from @Image1/@Image2 (face faintly visible behind the visor), two safety divers in black wetsuits, two poolside technicians. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+This is a pool, not space: water, bubbles and the pool floor are always physically present. The suit is the same white suit in every shot; divers stay close. Movement is slow-resistance underwater motion but purposeful. No readable text, numbers, flags or agency emblems.
+
+START STATE:
+@Image2 poolside: the suited trainee on the lift platform, platform already starting to lower, water at boot level.
+
+TIMELINE:
+[0:00–0:03] Poolside: the crane hums and the platform drops into the water, a ring of ripples racing outward; technicians pay out the safety lines.
+
+[0:03–0:08] Underwater cut: an explosion of bubbles as the suit submerges; the two divers sweep in and clip small weights to balance him.
+
+[0:08–0:15] The trainee grabs the first handrail on the @Image1 module mock-up and moves hand over hand along it, his tether clipping from rail to rail.
+
+[0:15–0:20] Task: he swings a tethered tool, fits it to a large fastener and turns it firmly; the diver's camera follows.
+
+[0:20–0:26] Wide underwater: the white suit traverses the module silhouette while light rays fall from the surface; for a moment it looks like space.
+
+[0:26–0:30] Low angle looking up through the water to the bright surface lights; the trainee holds the handrail, a diver gives the OK sign. Hold.
+
+END STATE:
+Low-angle underwater shot: the suited trainee holding the handrail, diver making the OK sign, bright surface lights above.
+
+CAMERA / SPACE:
+Smooth underwater tracking shots with gentle drift, fast cuts on the splash and tool turn, one dramatic wide and a low-angle hero shot. Poolside opening in wide 28mm.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Bright industrial poolside light; underwater blue with sun-like rays from the surface lights and drifting particles.
+
+AUDIO:
+Original expansive electronic score with low pulses, crane hum, splash, muffled underwater bubbles and regulator breathing, tool clicks. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Claims of real space, sea creatures, murky water, panic, suit leaking, readable labels or numbers, flags, agency logos, real-person likeness, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 25 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png`. @Image2 — `projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Underwater: vast indoor pool with clear blue water, a full-size white station-module mock-up on the bottom, one figure in a white EVA suit (visor up enough to show a fictional man's face behind glass) holding handrails, two scuba safety divers in black. Controls the underwater space, mock-up, suit and divers. File: projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png.
+@Image2 — Poolside: the same white EVA suit with its wearer standing on a steel lift platform hanging from a gantry crane, being lowered into the blue water; technicians in dark polo shirts at the railing. Controls the poolside and lowering rig. File: projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png.
+Priority: each image only for its named role; later-shot stills must not reset the opening state. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+One fictional trainee in the white EVA suit from @Image1/@Image2 (face faintly visible behind the visor), two safety divers in black wetsuits, two poolside technicians. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+This is a pool, not space: water, bubbles and the pool floor are always physically present. The suit is the same white suit in every shot; divers stay close. Movement is slow-resistance underwater motion but purposeful. No readable text, numbers, flags or agency emblems.
+
+START STATE:
+@Image2 poolside: the suited trainee on the lift platform, platform already starting to lower, water at boot level.
+
+TIMELINE:
+[0:00–0:03] Poolside: the crane hums and the platform drops into the water, a ring of ripples racing outward; technicians pay out the safety lines.
+
+[0:03–0:08] Underwater cut: an explosion of bubbles as the suit submerges; the two divers sweep in and clip small weights to balance him.
+
+[0:08–0:15] The trainee grabs the first handrail on the @Image1 module mock-up and moves hand over hand along it, his tether clipping from rail to rail.
+
+END STATE:
+Underwater: the suited trainee moves hand over hand along the module's handrails, tether clipping, divers close beside him. Preserve continuous motion over the final 3 seconds for the next part; no fade or end card.
+
+CAMERA / SPACE:
+Smooth underwater tracking shots with gentle drift, fast cuts on the splash and tool turn, one dramatic wide and a low-angle hero shot. Poolside opening in wide 28mm. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Bright industrial poolside light; underwater blue with sun-like rays from the surface lights and drifting particles.
+
+AUDIO:
+Original expansive electronic score with low pulses, crane hum, splash, muffled underwater bubbles and regulator breathing, tool clicks. No speech or vocals; leave room for an editorial voice-over.
+
+NEGATIVE PROMPT:
+Claims of real space, sea creatures, murky water, panic, suit leaking, readable labels or numbers, flags, agency logos, real-person likeness, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 25 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png`. @Image2 — `projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Cosmonaut training concept film; dynamic purposeful storytelling, photoreal materials
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Underwater: vast indoor pool with clear blue water, a full-size white station-module mock-up on the bottom, one figure in a white EVA suit (visor up enough to show a fictional man's face behind glass) holding handrails, two scuba safety divers in black. Controls the underwater space, mock-up, suit and divers. File: projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png.
+@Image2 — Poolside: the same white EVA suit with its wearer standing on a steel lift platform hanging from a gantry crane, being lowered into the blue water; technicians in dark polo shirts at the railing. Controls the poolside and lowering rig. File: projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png.
+@Video1 — final 3 seconds of the actual Part 1 result of THIS scene; absolute authority for starting camera, pose, prop state, lighting and ongoing motion.
+Priority: actual @Video1 continuity first, then each image only for its named role. These are authored concepts, not documentary evidence, real people or specifications.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+One fictional trainee in the white EVA suit from @Image1/@Image2 (face faintly visible behind the visor), two safety divers in black wetsuits, two poolside technicians. Not portraits of real cosmonauts.
+
+GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+This is a pool, not space: water, bubbles and the pool floor are always physically present. The suit is the same white suit in every shot; divers stay close. Movement is slow-resistance underwater motion but purposeful. No readable text, numbers, flags or agency emblems.
+
+START STATE:
+Start on the actual last frame and moving state of @Video1, without replay, dissolve or reset. Expected handoff (subordinate to actual video): Underwater: the suited trainee moves hand over hand along the module's handrails, tether clipping, divers close beside him.
+
+TIMELINE:
+[0:00–0:05] Task: he swings a tethered tool, fits it to a large fastener and turns it firmly; the diver's camera follows.
+
+[0:05–0:11] Wide underwater: the white suit traverses the module silhouette while light rays fall from the surface; for a moment it looks like space.
+
+[0:11–0:15] Low angle looking up through the water to the bright surface lights; the trainee holds the handrail, a diver gives the OK sign. Hold.
+
+END STATE:
+Low-angle underwater shot: the suited trainee holding the handrail, diver making the OK sign, bright surface lights above.
+
+CAMERA / SPACE:
+Smooth underwater tracking shots with gentle drift, fast cuts on the splash and tool turn, one dramatic wide and a low-angle hero shot. Poolside opening in wide 28mm. Execute only shots belonging to this part; other reference roles are not instructions to add later actions.
+
+PERFORMANCE:
+Prioritize the specific visible action in each timed beat. Bodies, hands and machines stay purposefully in motion; cut on movement, allow brief readable reactions. Respect physical contact, support and inertia. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Bright industrial poolside light; underwater blue with sun-like rays from the surface lights and drifting particles.
+
+AUDIO:
+Original expansive electronic score with low pulses, crane hum, splash, muffled underwater bubbles and regulator breathing, tool clicks. No speech or vocals; leave room for an editorial voice-over. Continue sound perspective naturally from @Video1 without a restarted fanfare.
+
+NEGATIVE PROMPT:
+Claims of real space, sea creatures, murky water, panic, suit leaking, readable labels or numbers, flags, agency logos, real-person likeness, static slideshow. No accidental text, subtitles, invented logos, watermark, unstable geometry, plastic skin, duplicated people or decorative border.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-27T11:32:31Z",
-  "revision_date": "23.10.2026",
+  "synced_at": "2026-10-27T13:17:05Z",
+  "revision_date": "27.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
-  "canonical_master_sha256": "91a1af693a15f1ad1317c5611edcc8dd2048dd5003016f528b23f32a087618ac",
-  "canonical_revision_sha256": "8e819fbabd3b90d6ca42c5121d64c6c94fc61faf3b4174854c7c0eff00c6b66b",
-  "canonical_master_bytes": 372904,
-  "scenes": 20,
-  "prompt_texts": 60,
+  "canonical_master_sha256": "b14585c94cc0e821d338b770ddcadb8888531184d664c6ceafb3392e90ff64a6",
+  "canonical_revision_sha256": "6e8e158e3fb1b9944d6e6c05a0841f7ab88ef81eeda542fbaff5bfb540237bce",
+  "canonical_master_bytes": 466743,
+  "scenes": 25,
+  "prompt_texts": 75,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
@@ -35,25 +35,30 @@
     17,
     18,
     19,
-    20
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
   ],
-  "latest_scene": 20,
+  "latest_scene": 25,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-27T11:01:19.636Z",
+    "snapshot_at": "2026-10-27T11:42:10.292Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.52,
+    "age_hours_at_status_build": 1.582,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "94af7d09a865e289bf2b49c7cf9e9bead9f5d786b04d4ae7630b8ac5eea655c8",
         "drive_copy_checked_at": "2026-10-27T09:01:41.170Z",
         "drive_copy_modified_at": "2026-10-27T09:01:28.502Z",
-        "github_blob": "530ec35f207dbdd2e5646bbd37b90576a236ae78",
-        "mirror_sha256": "c17aea48642ad0d5ffb93317884082dc026ceb818eb5dbffa3b2f6a25dfc52d0",
+        "github_blob": "f8c435a00fb37654bdc5ea6869b0841e4b333e72",
+        "mirror_sha256": "f8e4f0538131b88a42246c6699809386c88b08be621c74dc34f1fb62834f6e20",
         "match": true,
         "drive_copy_match": false
       },
@@ -123,7 +128,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.52,
+      "age_hours": 1.582,
       "blocking": false
     },
     "topview_task_map": {
@@ -533,15 +538,120 @@
         "concept_visualization"
       ],
       "render_state": "IDLE"
+    },
+    "21": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "awaiting_references",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "cosmonaut_training",
+        "cpk"
+      ],
+      "render_state": "IDLE"
+    },
+    "22": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "awaiting_references",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "cosmonaut_training",
+        "cpk"
+      ],
+      "render_state": "IDLE"
+    },
+    "23": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "awaiting_references",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "cosmonaut_training",
+        "cpk"
+      ],
+      "render_state": "IDLE"
+    },
+    "24": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "awaiting_references",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "cosmonaut_training",
+        "cpk"
+      ],
+      "render_state": "IDLE"
+    },
+    "25": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "awaiting_references",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "cosmonaut_training",
+        "cpk"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "23.10.2026",
-    "synced_at": "2026-10-27T11:32:31Z",
-    "canonical_master_sha256": "91a1af693a15f1ad1317c5611edcc8dd2048dd5003016f528b23f32a087618ac",
-    "canonical_revision_sha256": "8e819fbabd3b90d6ca42c5121d64c6c94fc61faf3b4174854c7c0eff00c6b66b",
-    "scene_count": 20,
-    "prompt_count": 60,
+    "revision_date": "27.10.2026",
+    "synced_at": "2026-10-27T13:17:05Z",
+    "canonical_master_sha256": "b14585c94cc0e821d338b770ddcadb8888531184d664c6ceafb3392e90ff64a6",
+    "canonical_revision_sha256": "6e8e158e3fb1b9944d6e6c05a0841f7ab88ef81eeda542fbaff5bfb540237bce",
+    "scene_count": 25,
+    "prompt_count": 75,
     "scene_ids": [
       1,
       2,
@@ -562,7 +672,12 @@
       17,
       18,
       19,
-      20
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
     ],
     "work_items": [],
     "slow_scenes": [],
