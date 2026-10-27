@@ -1,8 +1,24 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T10:08:38.722Z",
+  "last_updated_at": "2026-10-27T10:30:12.657Z",
   "active_work": [
+    {
+      "work_id": "S52-SEVEN-PARTS-20261027",
+      "title": "Сцена52: семь частей, все референсы и место в очереди",
+      "status": "reference_preparation_in_progress",
+      "updated_at": "2026-10-27T10:30:12.657Z",
+      "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
+      "completed": [
+        "Owner accepted seven-part scope; exact existing Seedance2.5 repair ending already saved; old unsubmitted P2 held."
+      ],
+      "next_action": "Verify exact cruiser source, create and visually QC seven action images, then replace selected prompts/queue and publish. Existing leading queue priority retained; true-result dependencies required.",
+      "canonical_refs": [
+        "reports/scene52-rebuild-2026-10-27.json",
+        "references/scenes/scene-52/manifest.json",
+        "ops/topview-launch-queue.json"
+      ]
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",

@@ -219,5 +219,18 @@
         720
       ]
     }
+  },
+  "owner_followup": {
+    "at": "2026-10-27T10:30:12.657Z",
+    "quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
+    "approved_parts": 7,
+    "status": "reference_preparation_in_progress",
+    "plan": [
+      "Verify cruiser source, prepare/view seven action images.",
+      "Write seven Seedance2.0 parts and matching alternate model versions under canonical rules.",
+      "Replace unsubmitted old P2 with revised chain at its existing leading priority; dependencies use actual preceding results.",
+      "Publish reference packs/master/queue with QC, hashes, checkpoint and readback."
+    ],
+    "new_generation_submitted": false
   }
 }
