@@ -292,52 +292,40 @@
     "scope": "Complete seven selected prompts and corresponding alternate version, canonical scene/reference mappings and seven-item priority queue; preserve prior images."
   },
   "latest_slot_check": {
-    "at": "2026-10-27T11:30:32.497Z",
+    "at": "2026-10-27T11:40:51.714Z",
     "tasks": [
       {
         "id": "4a1061e175054da2810ffef8ad9d31cd",
-        "code": "200",
         "status": "init",
-        "board": "1a6244cf1ae747ef847d949a80d6133c",
-        "media": "video"
+        "code": "200"
       },
       {
         "id": "4b7b972870a44dfbb29bd6c5e330a633",
-        "code": "200",
         "status": "init",
-        "board": "1a6244cf1ae747ef847d949a80d6133c",
-        "media": "video"
+        "code": "200"
       },
       {
         "id": "8a8eadc809004e318c47201b8a463be0",
-        "code": "200",
         "status": "init",
-        "board": "1a6244cf1ae747ef847d949a80d6133c",
-        "media": "video"
+        "code": "200"
       },
       {
         "id": "8b6a8ce102ea416e88d3c14fa558c513",
-        "code": "200",
         "status": "init",
-        "board": "1a6244cf1ae747ef847d949a80d6133c",
-        "media": "video"
+        "code": "200"
       },
       {
         "id": "8d7ff1e2de63478693778de29e0dd56e",
-        "code": "200",
         "status": "init",
-        "board": "1a6244cf1ae747ef847d949a80d6133c",
-        "media": "video"
+        "code": "200"
       },
       {
         "id": "b15165813c0848939edbe8b3d3aed182",
-        "code": "200",
         "status": "init",
-        "board": "1a6244cf1ae747ef847d949a80d6133c",
-        "media": "video"
+        "code": "200"
       }
     ],
-    "scope": "Six known active video task details verified live; not a full historical scan of all boards."
+    "scope": "Six known active video task details; not a full all-board scan."
   },
   "implementation": {
     "at": "2026-10-27T11:28:14.550Z",
@@ -439,5 +427,15 @@
       "thumbnails_current": 285,
       "checked_at": "2026-10-27T11:31:56.280Z"
     }
+  },
+  "final_delivery": {
+    "implementation_commit": "bfe1a32e1e3cb085b9cddcba262d9e5167491adc",
+    "exact_readback_files": 19,
+    "pages_commit": "d5eb5bc7c0115ebee8c28f7a30aac06aec2966f5",
+    "pages_run_id": 40497158044,
+    "pages_conclusion": "success",
+    "public_readback": "master, queue, manifest52, handoff and project-status exact; health ok",
+    "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z",
+    "remaining": "Actual video generation, full result QC, actual end preparation and priority-based continuation of the common film queue."
   }
 }

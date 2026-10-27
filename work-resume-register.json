@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T11:28:14.550Z",
+  "last_updated_at": "2026-10-27T11:41:47.758Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -235,7 +235,7 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_results_and_slots",
-      "updated_at": "2026-10-27T11:28:14.550Z",
+      "updated_at": "2026-10-27T11:41:47.758Z",
       "next_action": "At free slots use live priority and real readiness: new S52-R2-P1 is prepared at0.00; its successors need actual new results/QC. Old52P2 superseded. Continue actual S56/S48 and other result/QC work; no repeated submissions. See queue and scene52 completion report.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
@@ -582,8 +582,12 @@
           "S52-R2-SEED20-P6",
           "S52-R2-SEED20-P7"
         ],
-        "report": "reports/scene52-rebuild-2026-10-27.json"
-      }
+        "report": "reports/scene52-rebuild-2026-10-27.json",
+        "implementation_commit": "bfe1a32e1e3cb085b9cddcba262d9e5167491adc",
+        "pages_verified": true,
+        "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
+      },
+      "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md"
     },
     {
       "work_id": "CONTINUE-001",
