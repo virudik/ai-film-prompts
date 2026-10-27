@@ -58,7 +58,7 @@
 | 58 · Seedance 2.0 часть 1 — РосКОТмос: коты выбегают из горящего корабля | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Seedance 2.0 | task `6598a21c2c684d43b7cede9cfc987107`; ждёт решения владельца в панели сайта |
 | 57 · Seedance 2.0 часть 2 — РосКОТмос: аварийная посадка котов на планете ситхов | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Seedance 2.0 | task `af8e389dc9564607bc6138b408c72da5`; ждёт решения владельца в панели сайта |
 | 16 · Seedance 2.0 часть 2 — Татуин: гигантский пустынный червь и бой на руинах | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Seedance 2.0 | task `bf27bb8615eb4ad5a44a86ec2efcd3be`; ждёт решения владельца в панели сайта |
-| 28 · A2 · Танец 2 — Четыре взаимных жеста у лица | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `8a8eadc809004e318c47201b8a463be0`; ждать terminal и проверить результат отдельно |
+| 28 · A2 · Танец 2 — Взаимные жесты у лица | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `8a8eadc809004e318c47201b8a463be0`; ждать terminal и проверить результат отдельно |
 | 58 · Seedance 2.0 часть 2 — РосКОТмос: коты выбегают из горящего корабля | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `8b6a8ce102ea416e88d3c14fa558c513`; ждать terminal и проверить результат отдельно |
 | 56 · Seedance 2.0 часть 1 — Татуин: бой в движении — червь требует внимания | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `b15165813c0848939edbe8b3d3aed182`; ждать terminal и проверить результат отдельно |
 | 42 · Seedance 2.0 часть 2 — Татуин: бой на фоне червя — червь им не интересен | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `4a1061e175054da2810ffef8ad9d31cd`; ждать terminal и проверить результат отдельно |
@@ -713,6 +713,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Редакция исполнения · 25.10.2026:** по команде владельца после аудита танцев сокращены повторы и пошаговая хореография; свободное исполнение сочетается с точными гэгами, хватом, опорами и реальными стыками. Обновлены все варианты этой сцены. Это промты будущих разрешённых запусков: уже отправленные задачи используют прежний текст, дословно в git/receipts; их результат оценивается по нему. Качество новой редакции предстоит проверить по роликам. Стандарт — [§5А](PROMPT-STYLE-GUIDE.md); [отчёт о правке](reports/prompt-refresh-2026-10-25.md).
 
+**Общий вариант Claude и ChatGPT · 27.10.2026 (решение владельца «Вносить сейчас»):** в A1–A10/B1–B10 названы 2–3 своих фирменных движения на номер, связки модель придумывает сама; в свободные номера, A10/B10 и A12 вписан темп «быстрая дискотека ~120 BPM, акцент всем телом на каждую долю или через одну» (подсказка энергии, не обещание синхрона; в поддержки A8/A9/A11 и B8/B9/B11 не добавлен); A2/B2 — один обмен, два касания у щеки, остальное танец; небольшие подскоки разрешены только в номерах без поддержек, касаний и котов; монтаж — резка на движении каждые 2–4 с. Wan B1–B11 по-прежнему запас. Уже отправленные A1/A2 идут по своему прежнему тексту; повторные попытки и A3–A12 — по этой редакции. [Предложение и ответ ChatGPT](https://github.com/virudik/ai-film-prompts/blob/main/ops/owner-tasks.json) — задача claude-202610261000-scene28-dance-review.
+
 **Действующее решение владельца ·25.10.2026:** сначала сюжетная очередь и новый храм63, затем49 →50 →51, после них весь выбранный танцевальный комплект A1–A12 на Seedance2.0. Старые неудачные результаты не засчитывать как выполненную работу. A1/A2 уже находятся в активной генерации; не отменять и не дублировать их параллельно. Повторные попытки A1/A2 отдельно стоят после музыки и ждут завершения прежней попытки/проверки, затем выполняются по явному разрешению владельца. Технический success не означает приёмку. Прежний лимит «один тест, затем разрешение владельца» снят этой командой; проверка качества каждого результата и реальные входы A3/A12 обязательны. Wan B1–B11 — альтернативный комплект тех же номеров, не дополнительные танцы и не разрешение удваивать генерации.
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"NEEDS_RERENDER","duration_s":15,"dialogue":{"enabled":false,"language":null},"tags":["end_credits","dance","ensemble","10_part_sequence","two_engine_versions","ceremony_to_disco","character_identity"]} -->
@@ -780,7 +782,7 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 
 **Световая партитура после правки 17.10:** H28B уже включён с первого кадра; стабильные цветные акценты на фоне и постоянный нейтральный свет на лицах. Световой пролог и длительные ожидания удалены; движение начинается сразу.
 
-**Общий мотив:** широкий шаг с переносом веса → ответ партнёра корпусом и руками → короткий поворот/смена направления → продолжение связки. У каждой пары своя пластика; серьёзные лица сохраняются, финальная фиксация занимает только последний короткий акцент. Никаких улыбок, подмигиваний, эротических жестов, прыжков, бросков партнёра или оружия. Исключение из прежнего запрета поддержек: две отдельные контролируемые парные вставки 8–9, по новой команде пользователя. Маша двигается в пределах своего длинного цельного закрытого костюма; коты остаются обычными четвероногими котами.
+**Общий мотив:** широкий шаг с переносом веса → ответ партнёра корпусом и руками → короткий поворот/смена направления → продолжение связки. У каждой пары своя пластика; серьёзные лица сохраняются, финальная фиксация занимает только последний короткий акцент. Никаких улыбок, подмигиваний, эротических жестов, бросков партнёра или оружия. Небольшие подскоки (27.10) разрешены только в номерах без поддержек, касаний и котов — 1, 3, 4, 5 и 6 (кроме Маши); в 2 и 7–12 прыжков нет. Исключение из прежнего запрета поддержек: две отдельные контролируемые парные вставки 8–9, по новой команде пользователя. Маша двигается в пределах своего длинного цельного закрытого костюма; коты остаются обычными четвероногими котами.
 
 **Алеся:** маленький коричневый эвок с точным взрослым человеческим лицом Алеси, мехом, круглыми ушами и коричневым капюшоном. [Развёрнутый Ale28](references/scenes/scene-28/Ale28-Alesya-model-sheet.png). Источник — обе входные фотографии задачи `dd7ccc1b23334ea0b54455a6605e12ea`. В танце без копья: отдельный номер 7 и общий финал 10.
 
@@ -806,7 +808,7 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 | Часть | Кто в кадре | Содержание и свет | Ориентир для монтажа |
 |---:|---|---|---:|
 | 1 | Серёга + Юля | Официальная стойка → танцпол и лучи → сближение. | 8 с |
-| 2 | Серёга + Юля | Четыре взаимных прохода рукой у внешней щеки, строго по очереди; затем обе руки опущены. Свет стабильный. | 10 с |
+| 2 | Серёга + Юля | Два взаимных прохода рукой у внешней щеки, по одному у каждого, вокруг них танец; затем обе руки опущены. Свет стабильный. | 10 с |
 | 3 | Серёга + Юля | Разъезд скользящими шагами назад в противоположные стороны с сохранением взгляда. | 8 с |
 | 4 | Паша + Саша | Зеркальный джедайский устав. | 8 с |
 | 5 | Артём + Илюша | Тяжеловесная вариация общего рисунка. | 8 с |
@@ -816,7 +818,7 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 | 9 | Серёга + Юля | Новая склейка: она уже сидит боком на его правом плече; два парадных шага и замер. | 9 с |
 | 10 | Все 12 | Общий акцент и торжественно нелепая финальная поза. | 4 с + 10 с стоп-кадра |
 
-Это даёт около 90 секунд. Короткие окна — ориентир: выбирать чистые целые движения и при необходимости расширить монтаж до 95–105 с, не ускорять силой взаимодействия рук/тел. Точные склейки выставить по выбранному аудиофайлу: генерационные 15/30 секунд не обязаны совпадать с музыкальными фразами. При ~120 BPM 15 секунд — примерно 30 долей, не целое число четырёхдольных тактов; обрезать на сильную долю и использовать запас. Касание и ноги не исправлять агрессивным optical flow. Для финальных 11 персонажей достаточно нескольких чистых секунд; длинный хвост Wan — запас для выбора, не просьба всё время усложнять танец.
+Это даёт около 90 секунд. Короткие окна — ориентир: выбирать чистые целые движения и при необходимости расширить монтаж до 95–105 с, не ускорять силой взаимодействия рук/тел. Точные склейки выставить по выбранному аудиофайлу: генерационные 15/30 секунд не обязаны совпадать с музыкальными фразами. При ~120 BPM 15 секунд — примерно 30 долей, не целое число четырёхдольных тактов; обрезать на сильную долю и использовать запас. Касание и ноги не исправлять агрессивным optical flow. **Монтаж (27.10):** резать на движении каждые 2–4 с и чередовать пары/группы, как в заставке «Миротворца», а не держать номер 7–10 с подряд; таблица выше — доля номера в общем хронометраже, не длина одного куска. Каждый исходный клип остаётся одним непрерывным планом. Для финальных 11 персонажей достаточно нескольких чистых секунд; длинный хвост Wan — запас для выбора, не просьба всё время усложнять танец.
 
 ### Выбор модели и порядок работы
 
@@ -892,7 +894,7 @@ START STATE:
 Serega frame-left and Yulia frame-right, about1.4metres apart, facing camera and ready to step. H28B lights already ON. The first foot push and torso accent happen immediately; no lighting or hangar establishing shot.
 
 STORY FLOW:
-Serega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Toward the end they dance inward and turn face-to-face, finishing about 60 cm apart with both hands down. Reach that handoff only on the last beat.
+Serega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Toward the end they dance inward and turn face-to-face, finishing about 60 cm apart with both hands down. Reach that handoff only on the last beat. Signature moves to recur and vary (link them freely): a sharp synchronized head snap toward camera, a wide double-arm windmill, and a sideways shuffle-slide punctuated by a hip bump; each may add one small two-foot parade hop.
 
 END STATE:
 Serega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis. H28B disco lighting is established and steady at the last frame.
@@ -901,7 +903,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -913,7 +915,7 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
-#### A2 · Танец 2 — Четыре взаимных жеста у лица
+#### A2 · Танец 2 — Взаимные жесты у лица
 
 **Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = сохранённый P28 (только постановка пары).
 
@@ -934,7 +936,7 @@ START STATE:
 Medium waist-up two-shot, Serega left facing right, Yulia right facing left, about 60 cm face separation. Both right hands begin down. Preserve the P28 pose/axis but give the performers energetic intent.
 
 STORY FLOW:
-Keep a lively shared groove while facing one another. Serega passes the backs of his softly grouped right fingers along the OUTSIDE of Yulia's cheek, withdraws completely, then she answers with the same right-hand gesture. A playful full-body response separates this exchange from its repeat: two exchanges, four cheek passes total. Let the footwork, shoulders and timing flow naturally between passes. Touch is light, never a slap; hands stay outside the eyes, nose and mouth. Finish at the original gap with both hands fully down.
+Keep a lively shared groove while facing one another. Serega passes the backs of his softly grouped right fingers along the OUTSIDE of Yulia's cheek, withdraws completely, then she answers with the same right-hand gesture. One exchange only: two cheek passes total. Before, between and after the passes they keep dancing with full bodies; let the footwork, shoulders and timing flow naturally. Touch is light, never a slap; hands stay outside the eyes, nose and mouth. Finish at the original gap with both hands fully down. Signature moves before, between and after the passes (link them freely): a crisp shoulder shimmy, a quick side chassé and back, and a stiff military salute that melts into a hip sway. No hops during the facing exchange.
 
 END STATE:
 The same two people face one another at the original60cm gap, both hands fully lowered and clear of either face. Resolve on the last half-second only, with breath and cloth still moving. H28B lighting and axis unchanged.
@@ -943,7 +945,7 @@ CAMERA / SPACE:
 One continuous medium two-shot on the established axis, faces and both right-hand paths fully visible. Frame to include torso and knee rhythm; use a small smooth lateral drift, never move between the partners or crop the face gesture.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -976,7 +978,7 @@ START STATE:
 Start from the genuine C28 orientation only: Serega left facing right, Yulia right facing left, hands already down and faces about 60 cm apart. C28 does not prescribe distant framing or identity.
 
 STORY FLOW:
-From the genuine hands-down C28 pose, dance backwards away from one another with springy, weighted footwork until the gap is about two metres. Their inside arms reach toward each other across the empty space, then open into a mock-grand dance exchange. Let lively steps, torso turns and broad low gestures flow naturally in the two separate lanes. In the closing phrase both turn toward camera and land the low angular arm pose for a graphic match-cut.
+From the genuine hands-down C28 pose, dance backwards away from one another with springy, weighted footwork until the gap is about two metres. Their inside arms reach toward each other across the empty space, then open into a mock-grand dance exchange. Let lively steps, torso turns and broad low gestures flow naturally in the two separate lanes. In the closing phrase both turn toward camera and land the low angular arm pose for a graphic match-cut. Signature moves to recur and vary (link them freely): springy backward heel-skips, a broad swimming arm stroke across the gap, and a sharp quarter-turn ending in a pointed finger at the partner; each may add one small hop in their own lane.
 
 END STATE:
 Serega left, Yulia right, about two metres apart, facing the camera in the same low angular arm pose. This pose supplies the graphic match-cut to the next dancing pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -985,7 +987,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1018,7 +1020,7 @@ START STATE:
 Pasha left and Sasha right, front-facing, hands in a low angular pose, individual lanes separated by visible air.
 
 STORY FLOW:
-Pasha and Sasha throw themselves into a gloriously overconfident dance duel, faces as solemn as an official ceremony. They trade broad angular phrases, lively travelling footwork and playful body answers, alternately leading and echoing one another. Let the choreography develop naturally; keep Pasha left, Sasha right, visible air between them and glasses stable. End back at their original marks, front-facing in the low angular arm pose, only on the last beat.
+Pasha and Sasha throw themselves into a gloriously overconfident dance duel, faces as solemn as an official ceremony. They trade broad angular phrases, lively travelling footwork and playful body answers, alternately leading and echoing one another. Let the choreography develop naturally; keep Pasha left, Sasha right, visible air between them and glasses stable. End back at their original marks, front-facing in the low angular arm pose, only on the last beat. Signature moves to recur and vary (link them freely): mirrored lunges with flat karate-chop palms like imaginary lightsabers (empty hands), a crisp heel spin, and a pointed-toe side kick; they may land one synchronized small hop.
 
 END STATE:
 Pasha remains left and Sasha right on their initial marks, facing camera in the angular low-arm pose, ready for a graphic match-cut to another pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1027,7 +1029,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1060,7 +1062,7 @@ START STATE:
 Artem left and Ilyusha right, front-facing on separate marks, elbows low and ready for the first sharp beat.
 
 STORY FLOW:
-Artem and Ilyusha dance with exuberant whole-body commitment and completely straight faces. Artem's weighty swagger meets Ilyusha's quicker, springier answer; they catch each other's rhythm and briefly fall into absurdly grand unison. Allow natural steps, turns and arm phrases instead of a repeated mechanical loop. Keep their separate left/right lanes and real foot contact. Return to the original front-facing, low-arm marks on the closing beat.
+Artem and Ilyusha dance with exuberant whole-body commitment and completely straight faces. Artem's weighty swagger meets Ilyusha's quicker, springier answer; they catch each other's rhythm and briefly fall into absurdly grand unison. Allow natural steps, turns and arm phrases instead of a repeated mechanical loop. Keep their separate left/right lanes and real foot contact. Return to the original front-facing, low-arm marks on the closing beat. Signature moves to recur and vary (link them freely): Artem's heavy stomp-and-clap, a rolling shoulder chug, and a deep bouncing sumo squat; Ilyusha answers with quick springy hops and sharp arm punches to the beat.
 
 END STATE:
 Both stand at their original marks, arms low, looking directly at camera. Their posture reads as a solemn ceremonial punctuation to the same dance motif. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1069,7 +1071,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1103,7 +1105,7 @@ START STATE:
 Masha centre, Lesha left, Vitalik right, a compact staggered trio with three unobstructed faces. No cast beyond these three.
 
 STORY FLOW:
-Masha leads an expansive, absurdly majestic dance phrase; Lesha and Vitalik answer on either side, passing the energy through the trio. Let their shoulders, arms and footwork develop into a lively shared groove with serious faces. Masha's stride stays inside her intact closed hem; her upper body and head strands carry the larger expression. The men move freely in their own lanes, without crossing her silhouette. Return to the same staggered trio, facing camera with low arms on the last beat.
+Masha leads an expansive, absurdly majestic dance phrase; Lesha and Vitalik answer on either side, passing the energy through the trio. Let their shoulders, arms and footwork develop into a lively shared groove with serious faces. Masha's stride stays inside her intact closed hem; her upper body and head strands carry the larger expression. The men move freely in their own lanes, without crossing her silhouette. Return to the same staggered trio, facing camera with low arms on the last beat. Signature moves to recur and vary (link them freely): Masha's flowing double-arm wave with a head-strand toss, the men's late-arriving disco point to the ceiling and down to the floor, and the men's sideways grapevine; the men may add a small hop, Masha never jumps.
 
 END STATE:
 Masha centre, Lesha left, Vitalik right, all facing camera, arms held low and faces clear. No new entrants. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1112,7 +1114,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1145,7 +1147,7 @@ START STATE:
 Alesya centre, Luchik left, Ryzhik right, all three fully visible from a low close camera. Cats ordinary house-cat scale; Alesya about one metre tall with her exact adult face.
 
 STORY FLOW:
-Alesya conducts with tremendous solemn authority, dancing enthusiastically as the two cats playfully respond around her. Let the cats trot, turn and make short natural pounces in their own floor lanes; tails balance them and every landing is feline. Alesya follows their antics with expressive conducting gestures and buoyant steps. Keep the interplay alive without human choreography for the cats. Finish with Alesya centre, arms low, Luchik left and Ryzhik right naturally on all fours, looking toward camera.
+Alesya conducts with tremendous solemn authority, dancing enthusiastically as the two cats playfully respond around her. Let the cats trot, turn and make short natural pounces in their own floor lanes; tails balance them and every landing is feline. Alesya follows their antics with expressive conducting gestures and buoyant steps. Keep the interplay alive without human choreography for the cats. Finish with Alesya centre, arms low, Luchik left and Ryzhik right naturally on all fours, looking toward camera. Signature moves to recur and vary (link them freely): Alesya's big double-arm conducting downbeat, a fast high-knee march on the spot, and a grand sweeping bow-and-rise. No jumping near the cats.
 
 END STATE:
 Alesya remains centre with her original adult face and low arms. Both cats stand naturally on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1154,7 +1156,7 @@ CAMERA / SPACE:
 One continuous low full-body three-subject view. Keep Alesya and both entire cats close and readable, including paws and floor contact. Smooth small lateral tracking; preserve their left/centre/right lanes and real relative scale.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1191,7 +1193,7 @@ SEREGA already holds YULIA in a stable two-arm cradle across the front of his to
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 STORY FLOW:
-Already in the cradle, Serega carries Yulia through buoyant grounded dance steps. She actively balances and answers him with her shoulders and expression while both remain solemn. Include ONE clockwise half-turn viewed from above, made by his planted walking/pivot steps; the supported pair turns together. Continue a lively compact travelling phrase after the turn, preserving both forearm supports. Finish in that same cradle after the half-turn; no pickup, dismount, throw or change of carry.
+Already in the cradle, Serega carries Yulia through buoyant grounded dance steps. She actively balances and answers him with her shoulders and expression while both remain solemn. Include ONE clockwise half-turn viewed from above, made by his planted walking/pivot steps; the supported pair turns together. Continue a lively compact travelling phrase after the turn, preserving both forearm supports. Finish in that same cradle after the half-turn; no pickup, dismount, throw or change of carry. Signature moves within the fixed cradle (link them freely): Serega's grounded stomp-steps with a shoulder bounce, Yulia's free arm opening into a sharp wing flourish, and a synchronized head snap of both toward camera. No hops.
 
 END STATE:
 The same pair remains in the cradle hold after ONE half-turn. Keep the support points fixed and faces solemn. The shoulder pose belongs to a separate later shot; do not morph into it here. H28B light and the hangar remain unchanged through the final frame.
@@ -1237,7 +1239,7 @@ YULIA is already seated upright SIDE-SADDLE on SEREGA's RIGHT shoulder, exactly 
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 STORY FLOW:
-Serega dances forward and sideways in a compact, purposeful parade-like groove, carrying Yulia securely on his RIGHT shoulder. Let the footwork vary naturally while his torso and support remain steady. She contributes with her free forearm and shoulders, the other hand staying on his shoulder. Their absurd confidence stays completely serious. End in the same side-saddle support at a clear front three-quarter angle. No pickup, dismount, spin, bouncing her off the shoulder or change of grip.
+Serega dances forward and sideways in a compact, purposeful parade-like groove, carrying Yulia securely on his RIGHT shoulder. Let the footwork vary naturally while his torso and support remain steady. She contributes with her free forearm and shoulders, the other hand staying on his shoulder. Their absurd confidence stays completely serious. End in the same side-saddle support at a clear front three-quarter angle. No pickup, dismount, spin, bouncing her off the shoulder or change of grip. Signature moves within the fixed shoulder support (link them freely): Serega's planted high-knee parade march, Yulia's free-arm royal wave snapping into a crisp salute, and a synchronized head snap of both toward camera. No hops.
 
 END STATE:
 Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. Resolve only on the last half-second; do not generate the dismount or extra cast. H28B light and the hangar remain unchanged through the final frame.
@@ -1281,7 +1283,7 @@ START STATE:
 Match the exact group master first frame: same twelve identities, staggered rows, low arms and natural quadruped cats. All faces are visible in the row gaps. Movement starts immediately from that pose; retain upper-corner room for later titles without generating text.
 
 STORY FLOW:
-The exact first-frame ensemble bursts into an exuberant deadpan dance together. Let a broad shoulder-and-arm wave pass front to middle to rear while the other rows keep dancing; develop it into lively shared whole-body phrases. Preserve the staggered rows and face gaps. Masha moves within her closed hem; Alesya conducts from front centre; the cats contribute natural steps, head turns and tails on all fours. Build to the original low parade silhouette on the final beat, with all twelve still present.
+The exact first-frame ensemble bursts into an exuberant deadpan dance together. Let a broad shoulder-and-arm wave pass front to middle to rear while the other rows keep dancing; develop it into lively shared whole-body phrases. Preserve the staggered rows and face gaps. Masha moves within her closed hem; Alesya conducts from front centre; the cats contribute natural steps, head turns and tails on all fours. Build to the original low parade silhouette on the final beat, with all twelve still present. Signature moves to recur and vary (link them freely): the shoulder-and-arm wave rippling through the rows, a shared stomp-clap on the downbeat, and a synchronized head snap to camera. No jumps.
 
 END STATE:
 The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Resolve into this pose only on the final half-second; cloth, breath and tails settle naturally. H28B disco lighting is established and steady at the last frame.
@@ -1290,7 +1292,7 @@ CAMERA / SPACE:
 Begin at the exact @Image1 first frame. One continuous frontal ensemble view with a modest smooth push that keeps all twelve subjects, feet and row gaps in frame. Preserve upper-corner room for later titles without generating any text.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1386,7 +1388,7 @@ CAMERA / SPACE:
 One continuous medium-full view showing both faces, complete bodies, feet and support/hand contact. Smooth short lateral following, staying on the same action axis; no orbit that fakes performer rotation and no crop hiding a grip or foot landing.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1425,7 +1427,7 @@ START STATE:
 Serega frame-left and Yulia frame-right, about1.4metres apart, facing camera and ready to step. H28B lights already ON. The first foot push and torso accent happen immediately; no lighting or hangar establishing shot.
 
 STORY FLOW:
-Serega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Toward the end they dance inward and turn face-to-face, finishing about 60 cm apart with both hands down. Reach that handoff only on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Serega and Yulia launch straight into an exuberant, deliberately absurd partner dance with utterly official faces. They answer and outdo each other with broad whole-body phrases, lively footwork and flowing arm swings. Let their steps and transitions develop naturally, with real push-offs and robe inertia; keep their left/right lanes. Toward the end they dance inward and turn face-to-face, finishing about 60 cm apart with both hands down. Reach that handoff only on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves to recur and vary (link them freely): a sharp synchronized head snap toward camera, a wide double-arm windmill, and a sideways shuffle-slide punctuated by a hip bump; each may add one small two-foot parade hop.
 
 END STATE:
 Serega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis. H28B disco lighting is established and steady at the last frame.
@@ -1434,7 +1436,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1446,7 +1448,7 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
-#### B2 · Танец 2 — Четыре взаимных жеста у лица
+#### B2 · Танец 2 — Взаимные жесты у лица
 
 **Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = сохранённый P28 (только постановка пары).
 
@@ -1467,7 +1469,7 @@ START STATE:
 Medium waist-up two-shot, Serega left facing right, Yulia right facing left, about 60 cm face separation. Both right hands begin down. Preserve the P28 pose/axis but give the performers energetic intent.
 
 STORY FLOW:
-Keep a lively shared groove while facing one another. Serega passes the backs of his softly grouped right fingers along the OUTSIDE of Yulia's cheek, withdraws completely, then she answers with the same right-hand gesture. A playful full-body response separates this exchange from its repeat: two exchanges, four cheek passes total. Let the footwork, shoulders and timing flow naturally between passes. Touch is light, never a slap; hands stay outside the eyes, nose and mouth. Finish at the original gap with both hands fully down. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Keep a lively shared groove while facing one another. Serega passes the backs of his softly grouped right fingers along the OUTSIDE of Yulia's cheek, withdraws completely, then she answers with the same right-hand gesture. One exchange only: two cheek passes total. Before, between and after the passes they keep dancing with full bodies; let the footwork, shoulders and timing flow naturally. Touch is light, never a slap; hands stay outside the eyes, nose and mouth. Finish at the original gap with both hands fully down. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves before, between and after the passes (link them freely): a crisp shoulder shimmy, a quick side chassé and back, and a stiff military salute that melts into a hip sway. No hops during the facing exchange.
 
 END STATE:
 The same two people face one another at the original60cm gap, both hands fully lowered and clear of either face. Resolve on the last half-second only, with breath and cloth still moving. H28B lighting and axis unchanged.
@@ -1476,7 +1478,7 @@ CAMERA / SPACE:
 One continuous medium two-shot on the established axis, faces and both right-hand paths fully visible. Frame to include torso and knee rhythm; use a small smooth lateral drift, never move between the partners or crop the face gesture.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1509,7 +1511,7 @@ START STATE:
 Start from the genuine C28 orientation only: Serega left facing right, Yulia right facing left, hands already down and faces about 60 cm apart. C28 does not prescribe distant framing or identity.
 
 STORY FLOW:
-From the genuine hands-down C28 pose, dance backwards away from one another with springy, weighted footwork until the gap is about two metres. Their inside arms reach toward each other across the empty space, then open into a mock-grand dance exchange. Let lively steps, torso turns and broad low gestures flow naturally in the two separate lanes. In the closing phrase both turn toward camera and land the low angular arm pose for a graphic match-cut. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+From the genuine hands-down C28 pose, dance backwards away from one another with springy, weighted footwork until the gap is about two metres. Their inside arms reach toward each other across the empty space, then open into a mock-grand dance exchange. Let lively steps, torso turns and broad low gestures flow naturally in the two separate lanes. In the closing phrase both turn toward camera and land the low angular arm pose for a graphic match-cut. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves to recur and vary (link them freely): springy backward heel-skips, a broad swimming arm stroke across the gap, and a sharp quarter-turn ending in a pointed finger at the partner; each may add one small hop in their own lane.
 
 END STATE:
 Serega left, Yulia right, about two metres apart, facing the camera in the same low angular arm pose. This pose supplies the graphic match-cut to the next dancing pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1518,7 +1520,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1551,7 +1553,7 @@ START STATE:
 Pasha left and Sasha right, front-facing, hands in a low angular pose, individual lanes separated by visible air.
 
 STORY FLOW:
-Pasha and Sasha throw themselves into a gloriously overconfident dance duel, faces as solemn as an official ceremony. They trade broad angular phrases, lively travelling footwork and playful body answers, alternately leading and echoing one another. Let the choreography develop naturally; keep Pasha left, Sasha right, visible air between them and glasses stable. End back at their original marks, front-facing in the low angular arm pose, only on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Pasha and Sasha throw themselves into a gloriously overconfident dance duel, faces as solemn as an official ceremony. They trade broad angular phrases, lively travelling footwork and playful body answers, alternately leading and echoing one another. Let the choreography develop naturally; keep Pasha left, Sasha right, visible air between them and glasses stable. End back at their original marks, front-facing in the low angular arm pose, only on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves to recur and vary (link them freely): mirrored lunges with flat karate-chop palms like imaginary lightsabers (empty hands), a crisp heel spin, and a pointed-toe side kick; they may land one synchronized small hop.
 
 END STATE:
 Pasha remains left and Sasha right on their initial marks, facing camera in the angular low-arm pose, ready for a graphic match-cut to another pair. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1560,7 +1562,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1593,7 +1595,7 @@ START STATE:
 Artem left and Ilyusha right, front-facing on separate marks, elbows low and ready for the first sharp beat.
 
 STORY FLOW:
-Artem and Ilyusha dance with exuberant whole-body commitment and completely straight faces. Artem's weighty swagger meets Ilyusha's quicker, springier answer; they catch each other's rhythm and briefly fall into absurdly grand unison. Allow natural steps, turns and arm phrases instead of a repeated mechanical loop. Keep their separate left/right lanes and real foot contact. Return to the original front-facing, low-arm marks on the closing beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Artem and Ilyusha dance with exuberant whole-body commitment and completely straight faces. Artem's weighty swagger meets Ilyusha's quicker, springier answer; they catch each other's rhythm and briefly fall into absurdly grand unison. Allow natural steps, turns and arm phrases instead of a repeated mechanical loop. Keep their separate left/right lanes and real foot contact. Return to the original front-facing, low-arm marks on the closing beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves to recur and vary (link them freely): Artem's heavy stomp-and-clap, a rolling shoulder chug, and a deep bouncing sumo squat; Ilyusha answers with quick springy hops and sharp arm punches to the beat.
 
 END STATE:
 Both stand at their original marks, arms low, looking directly at camera. Their posture reads as a solemn ceremonial punctuation to the same dance motif. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1602,7 +1604,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1636,7 +1638,7 @@ START STATE:
 Masha centre, Lesha left, Vitalik right, a compact staggered trio with three unobstructed faces. No cast beyond these three.
 
 STORY FLOW:
-Masha leads an expansive, absurdly majestic dance phrase; Lesha and Vitalik answer on either side, passing the energy through the trio. Let their shoulders, arms and footwork develop into a lively shared groove with serious faces. Masha's stride stays inside her intact closed hem; her upper body and head strands carry the larger expression. The men move freely in their own lanes, without crossing her silhouette. Return to the same staggered trio, facing camera with low arms on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Masha leads an expansive, absurdly majestic dance phrase; Lesha and Vitalik answer on either side, passing the energy through the trio. Let their shoulders, arms and footwork develop into a lively shared groove with serious faces. Masha's stride stays inside her intact closed hem; her upper body and head strands carry the larger expression. The men move freely in their own lanes, without crossing her silhouette. Return to the same staggered trio, facing camera with low arms on the last beat. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves to recur and vary (link them freely): Masha's flowing double-arm wave with a head-strand toss, the men's late-arriving disco point to the ceiling and down to the floor, and the men's sideways grapevine; the men may add a small hop, Masha never jumps.
 
 END STATE:
 Masha centre, Lesha left, Vitalik right, all facing camera, arms held low and faces clear. No new entrants. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1645,7 +1647,7 @@ CAMERA / SPACE:
 One continuous smooth full-body view, natural 40–50mm perspective. Keep faces, feet and complete hand arcs readable, bodies filling most of the frame. A short lateral track follows travel without crossing the axis or changing screen sides. Energy comes from the performers; no distant establishing reveal.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1678,7 +1680,7 @@ START STATE:
 Alesya centre, Luchik left, Ryzhik right, all three fully visible from a low close camera. Cats ordinary house-cat scale; Alesya about one metre tall with her exact adult face.
 
 STORY FLOW:
-Alesya conducts with tremendous solemn authority, dancing enthusiastically as the two cats playfully respond around her. Let the cats trot, turn and make short natural pounces in their own floor lanes; tails balance them and every landing is feline. Alesya follows their antics with expressive conducting gestures and buoyant steps. Keep the interplay alive without human choreography for the cats. Finish with Alesya centre, arms low, Luchik left and Ryzhik right naturally on all fours, looking toward camera. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Alesya conducts with tremendous solemn authority, dancing enthusiastically as the two cats playfully respond around her. Let the cats trot, turn and make short natural pounces in their own floor lanes; tails balance them and every landing is feline. Alesya follows their antics with expressive conducting gestures and buoyant steps. Keep the interplay alive without human choreography for the cats. Finish with Alesya centre, arms low, Luchik left and Ryzhik right naturally on all fours, looking toward camera. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves to recur and vary (link them freely): Alesya's big double-arm conducting downbeat, a fast high-knee march on the spot, and a grand sweeping bow-and-rise. No jumping near the cats.
 
 END STATE:
 Alesya remains centre with her original adult face and low arms. Both cats stand naturally on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
@@ -1687,7 +1689,7 @@ CAMERA / SPACE:
 One continuous low full-body three-subject view. Keep Alesya and both entire cats close and readable, including paws and floor contact. Smooth small lateral tracking; preserve their left/centre/right lanes and real relative scale.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
@@ -1724,7 +1726,7 @@ SEREGA already holds YULIA in a stable two-arm cradle across the front of his to
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 STORY FLOW:
-Already in the cradle, Serega carries Yulia through buoyant grounded dance steps. She actively balances and answers him with her shoulders and expression while both remain solemn. Include ONE clockwise half-turn viewed from above, made by his planted walking/pivot steps; the supported pair turns together. Continue a lively compact travelling phrase after the turn, preserving both forearm supports. Finish in that same cradle after the half-turn; no pickup, dismount, throw or change of carry. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Already in the cradle, Serega carries Yulia through buoyant grounded dance steps. She actively balances and answers him with her shoulders and expression while both remain solemn. Include ONE clockwise half-turn viewed from above, made by his planted walking/pivot steps; the supported pair turns together. Continue a lively compact travelling phrase after the turn, preserving both forearm supports. Finish in that same cradle after the half-turn; no pickup, dismount, throw or change of carry. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves within the fixed cradle (link them freely): Serega's grounded stomp-steps with a shoulder bounce, Yulia's free arm opening into a sharp wing flourish, and a synchronized head snap of both toward camera. No hops.
 
 END STATE:
 The same pair remains in the cradle hold after ONE half-turn. Keep the support points fixed and faces solemn. The shoulder pose belongs to a separate later shot; do not morph into it here. H28B light and the hangar remain unchanged through the final frame.
@@ -1770,7 +1772,7 @@ YULIA is already seated upright SIDE-SADDLE on SEREGA's RIGHT shoulder, exactly 
 This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 STORY FLOW:
-Serega dances forward and sideways in a compact, purposeful parade-like groove, carrying Yulia securely on his RIGHT shoulder. Let the footwork vary naturally while his torso and support remain steady. She contributes with her free forearm and shoulders, the other hand staying on his shoulder. Their absurd confidence stays completely serious. End in the same side-saddle support at a clear front three-quarter angle. No pickup, dismount, spin, bouncing her off the shoulder or change of grip. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+Serega dances forward and sideways in a compact, purposeful parade-like groove, carrying Yulia securely on his RIGHT shoulder. Let the footwork vary naturally while his torso and support remain steady. She contributes with her free forearm and shoulders, the other hand staying on his shoulder. Their absurd confidence stays completely serious. End in the same side-saddle support at a clear front three-quarter angle. No pickup, dismount, spin, bouncing her off the shoulder or change of grip. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves within the fixed shoulder support (link them freely): Serega's planted high-knee parade march, Yulia's free-arm royal wave snapping into a crisp salute, and a synchronized head snap of both toward camera. No hops.
 
 END STATE:
 Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. Resolve only on the last half-second; do not generate the dismount or extra cast. H28B light and the hangar remain unchanged through the final frame.
@@ -1814,7 +1816,7 @@ START STATE:
 Match the exact group master first frame: same twelve identities, staggered rows, low arms and natural quadruped cats. All faces are visible in the row gaps. Movement starts immediately from that pose; retain upper-corner room for later titles without generating text.
 
 STORY FLOW:
-The exact first-frame ensemble bursts into an exuberant deadpan dance together. Let a broad shoulder-and-arm wave pass front to middle to rear while the other rows keep dancing; develop it into lively shared whole-body phrases. Preserve the staggered rows and face gaps. Masha moves within her closed hem; Alesya conducts from front centre; the cats contribute natural steps, head turns and tails on all fours. Build to the original low parade silhouette on the final beat, with all twelve still present. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds.
+The exact first-frame ensemble bursts into an exuberant deadpan dance together. Let a broad shoulder-and-arm wave pass front to middle to rear while the other rows keep dancing; develop it into lively shared whole-body phrases. Preserve the staggered rows and face gaps. Masha moves within her closed hem; Alesya conducts from front centre; the cats contribute natural steps, head turns and tails on all fours. Build to the original low parade silhouette on the final beat, with all twelve still present. Sustain the full 30 seconds with evolving variations at the same brisk pace; do not slow or stretch the actions into long holds. Signature moves to recur and vary (link them freely): the shoulder-and-arm wave rippling through the rows, a shared stomp-clap on the downbeat, and a synchronized head snap to camera. No jumps.
 
 END STATE:
 The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Resolve into this pose only on the final half-second; cloth, breath and tails settle naturally. H28B disco lighting is established and steady at the last frame.
@@ -1823,7 +1825,7 @@ CAMERA / SPACE:
 Begin at the exact @Image1 first frame. One continuous frontal ensemble view with a modest smooth push that keeps all twelve subjects, feet and row gaps in frame. Preserve upper-corner room for later titles without generating any text.
 
 PERFORMANCE:
-Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau.
+Committed energetic dancing at normal real-time speed with completely serious faces. Partners respond to each other; movement flows through accents without stopping to wait for the next instruction. Facial restraint does not mean a rigid body. The ending is a brief punctuation, not a held tableau. Fast disco pulse around 120 BPM, with a decisive full-body accent every beat or two; this sets the energy, not exact music sync.
 
 AUDIO:
 Foot contacts, cloth, breath and quiet hangar room tone. No speech, singing or generated score; the dancing has a brisk internal pulse and does not wait for an audible cue.
