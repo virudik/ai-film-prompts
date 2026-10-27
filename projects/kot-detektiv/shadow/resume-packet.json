@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-10-27T19:10:40+00:00",
-  "source_head": "bbcfb4c205d9df159391498f75c3b3356f1cc50f",
-  "source_fingerprint": "f4069505b6f18b58c20fa2805eafc153b9e37e3eca62811d0943d66f32c1fc72",
+  "checked_at": "2026-10-27T19:12:54+00:00",
+  "source_head": "344b05dc8f98c4c6ec164d9bb012eac7449599ee",
+  "source_fingerprint": "2db428c9ec7fdb193d82dad1291f1c9ee07119ed55e98da9917be60e78c0b9db",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -203,7 +203,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "0a4592eed2af04d27eb89bc78779a4bde1b257491eac26609d3385774c28538b",
+      "sha256": "0949d0119d27608df9c6832baa9116e0ba4da50ac04ddafa93cbf43c121680c9",
       "bytes": 19850
     },
     {
@@ -263,13 +263,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "8a0d554aef30c582697bd59be4b384479005f11e7485de01e9fb10c4861bff5a",
+      "sha256": "4507fdea265f3210ce0301d4b88199212a233e611c70f766f9a694d0f2bc4eac",
       "bytes": 22297
     },
     {
       "file": "video-prompts.md",
-      "sha256": "7edc8947d751763d56d59f7dd449dd5b3ebd10f18e5798a081e98cbe978317ad",
-      "bytes": 1004026
+      "sha256": "0f8dc9a0b982ae32316f8de00bccb7a7b92c8d8001021ab5152a640c90aa5da6",
+      "bytes": 1004433
     }
   ],
   "packet_bytes": 5355
