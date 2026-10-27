@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "OPEN-WORK-REFS-RELAY-20261027",
   "project": "seregius",
-  "checked_at": "2026-10-27T21:34:40Z",
+  "checked_at": "2026-10-27T21:40:15Z",
   "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
   "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
   "owner_tasks": [
@@ -285,9 +285,10 @@
       "other_prompt_blocks_unchanged": true,
       "idempotent_second_pass": true
     },
-    "status": "integrated_and_locally_verified",
+    "status": "published_and_exact_readback_verified",
     "helper_images": "S67 market-quarrel and S68/S69 compositions remain gallery/helpers only, never prompt/queue inputs.",
-    "launch_states": "Existing states preserved for64/65;52P7 and66–69 remain blocked on actual video continuity and any missing image. No submit, claim or approval changes."
+    "launch_states": "Existing states preserved for64/65;52P7 and66–69 remain blocked on actual video continuity and any missing image. No submit, claim or approval changes.",
+    "commit": "3f10718369a67789cf0696cd3300cebc2e11915f"
   },
   "validation": {
     "checked_at": "2026-10-27T21:34:40Z",
@@ -310,5 +311,189 @@
     "video_launches": 0,
     "queue_items_added": 0,
     "owner_approvals_added": 0
+  },
+  "pages_readback": {
+    "checked_at": "2026-10-27T21:39:41+00:00",
+    "base_url": "https://virudik.github.io/ai-film-prompts/",
+    "source_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+    "files": [
+      {
+        "path": "video-prompts.md",
+        "http": 200,
+        "sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+        "expected_sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+        "match": true
+      },
+      {
+        "path": "character-references.json",
+        "http": 200,
+        "sha256": "fe9a3cfd70733eff03830427945890f9c9897bc38c0d405675ac3cd5820b0088",
+        "expected_sha256": "fe9a3cfd70733eff03830427945890f9c9897bc38c0d405675ac3cd5820b0088",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-66/S66-street-outrage.png",
+        "http": 200,
+        "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+        "expected_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",
+        "http": 200,
+        "sha256": "7a680c1fe30bebcc3ad812da600d8ab2e5e8677777cc79f88e8d06b949b9f032",
+        "expected_sha256": "7a680c1fe30bebcc3ad812da600d8ab2e5e8677777cc79f88e8d06b949b9f032",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+        "http": 200,
+        "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+        "expected_sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp",
+        "http": 200,
+        "sha256": "1cf7a30fc95be4779e4f23af7f71ef97e53f7522df3979640e0c87e9799cf016",
+        "expected_sha256": "1cf7a30fc95be4779e4f23af7f71ef97e53f7522df3979640e0c87e9799cf016",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/scenes/scene-68/S68-light-broom.png",
+        "http": 200,
+        "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+        "expected_sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/thumbs/scenes/scene-68/S68-light-broom.png.webp",
+        "http": 200,
+        "sha256": "9b20433a98a00a8610f09cedd0512007ad0939bfd1fea9f4607ac5efe0fce813",
+        "expected_sha256": "9b20433a98a00a8610f09cedd0512007ad0939bfd1fea9f4607ac5efe0fce813",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+        "http": 200,
+        "sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+        "expected_sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp",
+        "http": 200,
+        "sha256": "bfbcc34da214e3b4b6ae4d29da983976aea4bb04933a1802a5c35469c648a109",
+        "expected_sha256": "bfbcc34da214e3b4b6ae4d29da983976aea4bb04933a1802a5c35469c648a109",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+        "http": 200,
+        "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+        "expected_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      },
+      {
+        "path": "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
+        "http": 200,
+        "sha256": "bd3c280a8e5ce150a194e13dad6718042249078906f453b954ee503dcb2e5707",
+        "expected_sha256": "bd3c280a8e5ce150a194e13dad6718042249078906f453b954ee503dcb2e5707",
+        "match": true,
+        "verified_at": "2026-10-27T21:38:45+00:00"
+      }
+    ],
+    "all_match": true
+  },
+  "ci_verification": {
+    "checked_at": "2026-10-27T21:40:00.584Z",
+    "source_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+    "required_checks_passed": true,
+    "checks": [
+      {
+        "id": 40588127317,
+        "name": "Canon health (stale, oversized and broken canon parts)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127317"
+      },
+      {
+        "id": 40588127341,
+        "name": "Reconcile review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127341"
+      },
+      {
+        "id": 40588127351,
+        "name": "Build reference thumbnails",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127351"
+      },
+      {
+        "id": 40588127339,
+        "name": "Validate review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127339"
+      },
+      {
+        "id": 40588127348,
+        "name": "Shadow pilot takeover brief (not canonical)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127348"
+      },
+      {
+        "id": 40588127399,
+        "name": "AI Film integration recovery tests",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127399"
+      },
+      {
+        "id": 40588127325,
+        "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127325"
+      }
+    ],
+    "pages_deployment": {
+      "id": 40588241329,
+      "head_sha": "e76cd7d9e799eeed07f3450a5dba5a9dcf9f0bf7",
+      "conclusion": "success",
+      "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588241329"
+    },
+    "note": "Initial Pages run for the content commit was superseded by its automatic descendant; successful deployment and exact public-file SHA readback verified."
+  },
+  "owner_task_status": {
+    "claude-202610272340-s68-69-refs": {
+      "status": "done",
+      "result_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+      "closed_at": "2026-10-27T21:40:15Z"
+    },
+    "claude-202610271320-cpk-refs": {
+      "status": "taken",
+      "result_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+      "remaining": "standalone Stitch PNG blocked by generator"
+    }
   }
 }
