@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-27T15:41:17+00:00",
-  "source_head": "6eff2664e1720c4facf703c87265b0b89eac06f0",
-  "source_fingerprint": "b1d8281d2d342c9d1e03695f00b67cc08a839bd46476b26b18f6ec96c4ea3a3b",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-27T15:50:25+00:00",
+  "source_head": "9c4300f24c3d0203a7bc568994b76dafcd26cd4a",
+  "source_fingerprint": "1360a3e8d8b8b17580c06459c428acb5089f0e8074fe5232a608ac8346a4253b",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "continue-multi-20261027-current-work",
@@ -31,7 +31,10 @@
     },
     "source_head": "dcba3bfce1be1ccece4eca431297390dfd061220"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
@@ -442,13 +445,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "45cb08f957d2bcb786d97a4709f82eeabc56e7d9141353f6372380043cb554d0",
-      "bytes": 20493
+      "sha256": "aa29505da9b1e5e1b4984c679ad1e3d38cae493c410a20966c6fe36b64659ec3",
+      "bytes": 22182
     },
     {
       "file": "video-prompts.md",
-      "sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
-      "bytes": 903928
+      "sha256": "99938cf94c0856686b83a4fd654d377170b480a4b61bc39fc5525b60d257aaab",
+      "bytes": 983266
     },
     {
       "file": "work-resume-register.json",
@@ -456,5 +459,5 @@
       "bytes": 58776
     }
   ],
-  "packet_bytes": 11684
+  "packet_bytes": 11652
 }

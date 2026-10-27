@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-27T14:13:53+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-27T15:50:25+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
-   "bytes": 903928
+   "sha256": "99938cf94c0856686b83a4fd654d377170b480a4b61bc39fc5525b60d257aaab",
+   "bytes": 983266
   }
  ],
  "invariants": [
@@ -288,7 +288,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 32881,
+   "offset": 34361,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -310,7 +310,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 59218,
+   "offset": 60698,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -331,7 +331,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 87755,
+   "offset": 89235,
    "chars": 139450,
    "sha256_12": "d913dff42477"
   },
@@ -349,7 +349,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 227205,
+   "offset": 228685,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -371,7 +371,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 243561,
+   "offset": 245041,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -393,7 +393,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 267548,
+   "offset": 269028,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -417,7 +417,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 300045,
+   "offset": 301525,
    "chars": 28588,
    "sha256_12": "e13906f96ded"
   },
@@ -441,7 +441,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 328633,
+   "offset": 330113,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
@@ -468,7 +468,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 357091,
+   "offset": 358571,
    "chars": 74983,
    "sha256_12": "17eb4aa1f7b0"
   },
@@ -493,7 +493,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 432074,
+   "offset": 433554,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
@@ -519,7 +519,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 451795,
+   "offset": 453275,
    "chars": 60421,
    "sha256_12": "f3bfb2c4c6d1"
   },
@@ -540,7 +540,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 512216,
+   "offset": 513696,
    "chars": 72775,
    "sha256_12": "ddc8cd507408"
   },
@@ -563,7 +563,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 584991,
+   "offset": 586471,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -585,7 +585,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 611397,
+   "offset": 612877,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -611,7 +611,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 637493,
+   "offset": 638973,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -632,7 +632,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 665021,
+   "offset": 666501,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -654,7 +654,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 700309,
+   "offset": 701789,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -674,7 +674,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 733320,
+   "offset": 734800,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -696,7 +696,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 758166,
+   "offset": 759646,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -716,9 +716,87 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 787437,
-   "chars": 23430,
-   "sha256_12": "d1ee8151d77d"
+   "offset": 788917,
+   "chars": 23453,
+   "sha256_12": "44a6503cbd40"
+  },
+  {
+   "id": 64,
+   "title": "Звёздный разрушитель: Серёга пританцовывает по коридору",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 812370,
+   "chars": 18653,
+   "sha256_12": "da77943a7c75"
+  },
+  {
+   "id": 65,
+   "title": "Татуин: Серёга выпивает в баре с Бобой Феттом и компанией",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 831023,
+   "chars": 19841,
+   "sha256_12": "14558081a1a1"
+  },
+  {
+   "id": 66,
+   "title": "Татуин: две девочки и инопланетная собака",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 850864,
+   "chars": 16390,
+   "sha256_12": "10c9ac1861f3"
+  },
+  {
+   "id": 67,
+   "title": "Татуин: девушка ругается с продавцом фруктов",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 867254,
+   "chars": 14920,
+   "sha256_12": "9f3337d9a983"
   }
  ],
  "read_sets": {

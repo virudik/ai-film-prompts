@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-27T14:13:53+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-27T15:50:25+00:00. Валиден при генерации: **False**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 80102 B · `1429253208039887`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16692 B · `353e9e8fee391b9d`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18925 B · `a6bf924b43892379`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 903928 B · `d730bd7b6a8125b3`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 983266 B · `99938cf94c085668`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -61,7 +61,11 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 60 | Кашиик: Серёга уходит после боя и взлетает | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | a68354642ec8 |
 | 61 | Кашиик: ковбойское сближение перед дуэлью | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 3c9040f5ef19 |
 | 62 | Татуин: после погони — обратно к противостоянию | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 7b405dfdc4b9 |
-| 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | d1ee8151d77d |
+| 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 44a6503cbd40 |
+| 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | None | None/None | 3 | @Image1 @Image2 @Image3 | [] | da77943a7c75 |
+| 65 | Татуин: Серёга выпивает в баре с Бобой Феттом и компанией | None | None/None | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 14558081a1a1 |
+| 66 | Татуин: две девочки и инопланетная собака | None | None/None | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 10c9ac1861f3 |
+| 67 | Татуин: девушка ругается с продавцом фруктов | None | None/None | 3 | @Image1 @Image2 @Image3 | [] | 9f3337d9a983 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
