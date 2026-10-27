@@ -4018,7 +4018,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-21"></a>
 ## Сцена 21 — ЦПК: Космос начинается на Земле
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
 
 **Контекст использования:** Имиджевый ролик о Центре подготовки космонавтов: за 30 секунд показать, что путь на орбиту проходит через перегрузки и тренажёры на Земле. **Постоянная тема.**
 
@@ -4028,9 +4028,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК — официальный сайт, раздел о Центре и установках](https://www.gctc.ru/) · [Википедия — ЦПК имени Ю.А. Гагарина](https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8_%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%BE%D0%B2_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%AE._%D0%90._%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B0).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-21/c21-centrifuge.png`. Large circular centrifuge hall: a long horizontal steel arm with an enclosed white gondola at its end; the same fictional trainee (adult man, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches) seen through the open gondola hatch. Controls the hall, arm, gondola and the trainee's face and overall. @Image2 — `projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png` (ещё не нарисован). Cramped bell-shaped descent-module simulator cabin: three reclined seats, curved padded walls, a control panel of generic unlabelled switches and dark display screens; the same trainee in the centre seat wearing a light headset. Controls the simulator interior only. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-21/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-21/c21-centrifuge.png`. Large circular centrifuge hall: a long horizontal steel arm with an enclosed white gondola at its end; the same fictional trainee (adult man, late 30s, short dark hair, clean-shaven, royal-blue training overall with plain unlabelled patches) seen through the open gondola hatch. Controls the hall, arm, gondola and the trainee's face and overall. @Image2 — `projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png`. Cramped bell-shaped descent-module simulator cabin: three reclined seats, curved padded walls, a control panel of generic unlabelled switches and dark display screens; the same trainee in the centre seat wearing a light headset. Controls the simulator interior only. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-21/*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png" alt="Сцена 21, @Image2: ЦПК: тот же слушатель в тренажёре Союза" loading="lazy"></a><figcaption>@Image2 — ЦПК: тот же слушатель в тренажёре Союза. Созданный концепт.</figcaption></figure>
 <figure><a href="projects/raznoe/references/scenes/scene-21/c21-centrifuge.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-21/c21-centrifuge.png" alt="Сцена 21, @Image1: ЦПК: центрифуга и слушатель" loading="lazy"></a><figcaption>@Image1 — ЦПК: центрифуга и слушатель. Созданный концепт.</figcaption></figure>
 </div>
 
@@ -4038,7 +4039,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Финальный титр для монтажа:** «ЦПК имени Ю.А. Гагарина. Космос начинается на Земле.»
 
-**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+**Готовность:** тексты промтов готовы 27.10.2026. Оба референса нарисованы открытым ChatGPT Work, сохранены в галерее и реестре; технически проверены. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
 
 **Режиссёрский контроль:** Плечо центрифуги вращается горизонтально и не отрывается; один и тот же слушатель в синем комбинезоне в обоих местах; никаких надписей и эмблем. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
