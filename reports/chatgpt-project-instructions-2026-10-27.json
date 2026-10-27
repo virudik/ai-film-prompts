@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "work_id": "PROJECT-UI-INSTRUCTIONS-20261027",
+  "project_id": "g-p-6ab4a1b8a4508191a9953fc23845b22b",
+  "project_name": "AI Film Серёгиус",
+  "checked_at": "2026-10-27T09:31:21.685Z",
+  "status": "installed_and_read_back",
+  "source": "USER-GUIDE.md — Project Instructions, template 2",
+  "source_base_commit": "da2871178cee216c350b4a66f9b4e2145fde5404",
+  "method": "Saved through ChatGPT Project Settings, navigated to Projects, reopened settings and compared the full textbox value to the intended template. SHA-256 matched the independently prepared canonical template.",
+  "before_sha256": "cc0dd732c072f5257ab71b1f7dfc660605b8775e4dd25d4adc3875297dd28f12",
+  "installed_sha256": "d9be327ead513c89c7b0f7bb67ea3b2ad398413a90ea1c3173404e411ac838b4",
+  "installed_characters": 7915,
+  "exact_match": true,
+  "previous_text": "archive/ops/chatgpt-project-instructions-before-2026-10-27.txt",
+  "screenshot": "reports/chatgpt-project-instructions-2026-10-27.jpg",
+  "changes": [
+    "Replace verbal canon permission with current canon lock protocol.",
+    "Replace obsolete Scene28-before39–47 ordering with live priority and skip blocked dependencies.",
+    "Align agent delegation, strictly >3h Claude rule, same-thread response and weekly consistency pointer.",
+    "Add projects scope, Relay event receipts including slots/no_update and keep independent checks running during a Topview blocker.",
+    "Preserve continuation protocol, Unlimited0, owner approval and no duplicate submissions."
+  ],
+  "limitations": [
+    "Installed Claude Project settings not inspected.",
+    "This is a configuration readback, not proof of execution by a future chat."
+  ],
+  "validation": {
+    "unit_tests_passed": 305,
+    "site_contract": "ok",
+    "instruction_consistency": "ok; live automations not rechecked in this UI-only change",
+    "D7_anchors": "15/15",
+    "ui_readback": "exact SHA-256 and full string equality after reopening",
+    "canon_health_warnings": 0
+  },
+  "updated_at": "2026-10-27T09:35:10.298311+00:00"
+}
