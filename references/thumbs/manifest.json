@@ -993,6 +993,26 @@
    "thumb_bytes": 51244,
    "src_sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f"
   },
+  "projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2383707,
+   "thumb_bytes": 37750,
+   "src_sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b"
+  },
+  "projects/raznoe/references/scenes/scene-24/c24-raft.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-24/c24-raft.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2420732,
+   "thumb_bytes": 42698,
+   "src_sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f"
+  },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
