@@ -2853,6 +2853,16 @@
    "thumb_bytes": 63418,
    "src_sha256": "182d6a8e9a0013ebad26ecb18eb7b7396b63342887da52e672fa36a2adf6a7c7"
   },
+  "references/scenes/scene-64/S64-corridor.png": {
+   "thumb": "references/thumbs/scenes/scene-64/S64-corridor.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2045286,
+   "thumb_bytes": 30490,
+   "src_sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
