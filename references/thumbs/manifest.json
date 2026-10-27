@@ -953,6 +953,16 @@
    "thumb_bytes": 44174,
    "src_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e"
   },
+  "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2418039,
+   "thumb_bytes": 47210,
+   "src_sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21"
+  },
   "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-22/c22-vr-stand.png.webp",
    "width": 640,
