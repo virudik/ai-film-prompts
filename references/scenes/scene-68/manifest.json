@@ -120,7 +120,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T21:30:18Z",
+  "updated_at": "2026-10-27T22:25:11Z",
   "last_qc_at": "2026-10-27T21:23:11+00:00",
   "pose_composition_helpers": [
     "references/scenes/scene-68/S68-crew-sweeping-street.png"
@@ -128,9 +128,9 @@
   "prompt_reference_mapping": [
     {
       "label": "68",
-      "canonical_prompt_sha256": "3b2f50576dcfe9dbadcde6fda32030e85dba6539bc8da8a5595897d14407ca57",
-      "normalized_prompt_sha256": "3010590d5cb394edd021e174c3d57bf008fbbe37aa3b91e9eb94a4e911e89538",
-      "characters": 6269,
+      "canonical_prompt_sha256": "a93ffc53f0af992b671a9f948e6e02e92bcbec24927b31ad5ae9e5cef7d05ec0",
+      "normalized_prompt_sha256": "42b14ec5df5e6f46abfc638ffb41f109e1e4415173a306038e330fb7fffbc2e0",
+      "characters": 6399,
       "slots": [
         {
           "slot": "@Video1",
@@ -178,9 +178,9 @@
     },
     {
       "label": "68 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "6542de524a2197d236e6bec7a3d8c497b32cfe06d9e1fd1cff0cd1297ab00a7e",
-      "normalized_prompt_sha256": "c987f06940faff8b0fb66a8126685a27cb0455582213d4f3c02297df998834a4",
-      "characters": 5796,
+      "canonical_prompt_sha256": "f4b6237c5f2a3a6dea5a6009bd489a27a0d7fcbc4b19e0c567ee25e3f482dc7a",
+      "normalized_prompt_sha256": "70ebfc878968976ed9e79931421dbf4dd3b1bcb0db57121513a27d2d6433c815",
+      "characters": 5926,
       "slots": [
         {
           "slot": "@Video1",

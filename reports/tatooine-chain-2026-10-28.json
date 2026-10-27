@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "SEREGIUS-PLAN-20261023",
+  "source_head": "73975581564892dd15c869af73763855d1bf0cf8",
+  "owner_request": "В связности сцен уже есть что Стич накакал а Жилищник убирает за ним после? Какашка вроде нарисована у них. Прописана же связность и бесшовность новых татуинских сцен ? Опиши как это будет происходить. Серёга идёт по улицам татуина после камера переключатся на девочек со стичем, после на ругающуюся Машу с продавцом а после на Жилищник подметающий какашку. Так ведь? В очереди на запуск вроде так прописано? Запускать их в ван3 версии промтов. До танцевально музыкальных сцен в очереди",
+  "owner_decisions_live_readback": {
+    "applied": 127,
+    "superseded": 4,
+    "pending": 0
+  },
+  "patch_receipt": {
+    "changed_prompt_blocks": [
+      "52 · Wan 3.0 часть 7",
+      "66",
+      "66 · Seedance 2.0 часть 1",
+      "66 · Seedance 2.0 часть 2",
+      "68",
+      "68 · Seedance 2.0 часть 1"
+    ],
+    "queue_bytes_after": 398673,
+    "stable_item_id": "S52-R2-SEED20-P7",
+    "selected_block": "52 · Wan 3.0 часть 7",
+    "invariants": {
+      "queue_ids_order_priorities_states_claims_limits_authorizations_preserved": true,
+      "P1_P6_items_and_prompt_bodies_unchanged": true,
+      "real_video_source_ids_paths_statuses_preserved": true,
+      "all21_image_slots_exact_sha_available": true,
+      "66_P1_ending_preserved": true,
+      "66_melon_handoff_matches67": true,
+      "68_same_place_return_and_around_pile_preserved": true,
+      "69_entire_scene_unchanged": true,
+      "other_queue_items_unchanged": true,
+      "selected_chain_Wan30_and_altP7_Seed15_unqueued": true,
+      "manifest_mappings_hashes_consistent": true,
+      "all_scene_meta_valid_and52_mixed_model120s": true,
+      "source_QC_and_approval_unchanged": true,
+      "ready_skip_unchanged_no_music_gate_added": true,
+      "new_scene_order_tail_matches_numeric_priorities": true,
+      "queue_under400KB": true,
+      "no_launches_or_new_queue_items": true,
+      "idempotent_second_pass": true
+    },
+    "mode": "apply",
+    "files": [
+      {
+        "path": "video-prompts.md",
+        "before_sha256": "b315b880851c58b25ceda879d53d2e4051db93ed8d9b961421693c508ec37355",
+        "after_sha256": "86a4a6ab4902862724ff41caf7f931c843c8f856b41322a4d7e73c123bd17a5e",
+        "added_lines": 34,
+        "removed_lines": 34
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "before_sha256": "36a34368446ae7a28964f2949472e38c58af871e4ce908a0038401cd1dfe9013",
+        "after_sha256": "3e633c1fbc1894a7e7e9db6bc99941cf77e9a976034fefb7d46276fe26a53f7e",
+        "added_lines": 19,
+        "removed_lines": 16
+      },
+      {
+        "path": "references/scenes/scene-52/manifest.json",
+        "before_sha256": "1076d25f48c66a38a15d5b668a72adf722c6d47885c3baac62ff92e1a313ea19",
+        "after_sha256": "b7b79edcb155fb93805429ad1c5916c91298b8cc477ea3b71446343ea1acbf46",
+        "added_lines": 18,
+        "removed_lines": 15
+      },
+      {
+        "path": "references/scenes/scene-66/manifest.json",
+        "before_sha256": "d551e331910de90cd99062d6f1c56f7c315c6f98f964da83216afe797fcd318a",
+        "after_sha256": "771cb857defd76827d3cbbfca9b81fac590779bfaf65e25777f26f9d5a381f4b",
+        "added_lines": 14,
+        "removed_lines": 12
+      },
+      {
+        "path": "references/scenes/scene-68/manifest.json",
+        "before_sha256": "558c03c3d572a05aaab088ebf832ea4dde8b6e609c234d2935f80cb7a943825d",
+        "after_sha256": "85f0ac2d633efed159dbcb9c79d314cdee1671a55558115e68993edd56dfa629",
+        "added_lines": 7,
+        "removed_lines": 7
+      }
+    ]
+  },
+  "checked_at": "2026-10-27T22:25:55Z",
+  "status": "configured_pending_public_readback",
+  "selected_chain": [
+    {
+      "id": "S52-R2-SEED20-P7",
+      "scene_id": 52,
+      "canonical_block_label": "52 · Wan 3.0 часть 7",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.06,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "depends_on_completed": [
+        "S52-R2-SEED20-P6"
+      ],
+      "task_id": null,
+      "claim": null,
+      "video1": {
+        "slot": "@Video1",
+        "required": true,
+        "input_status": "pending_actual_result",
+        "canonical_role": "previous_new_part_end",
+        "source_item_id": "S52-R2-SEED20-P6",
+        "planned_path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4"
+      }
+    },
+    {
+      "id": "S66-WAN30",
+      "scene_id": 66,
+      "canonical_block_label": "66",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.92,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "depends_on_completed": [
+        "S52-R2-SEED20-P7"
+      ],
+      "task_id": null,
+      "claim": null,
+      "video1": {
+        "slot": "@Video1",
+        "required": true,
+        "input_status": "pending_actual_result",
+        "canonical_role": "previous_chain_link_end",
+        "source_item_id": "S52-R2-SEED20-P7",
+        "planned_path": "references/scenes/scene-52/S52-R2-P7-last3s.mp4",
+        "source_model": "Wan 3.0"
+      }
+    },
+    {
+      "id": "S67-WAN30",
+      "scene_id": 67,
+      "canonical_block_label": "67",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.93,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "depends_on_completed": [
+        "S66-WAN30"
+      ],
+      "task_id": null,
+      "claim": null,
+      "video1": {
+        "slot": "@Video1",
+        "required": true,
+        "input_status": "pending_actual_result",
+        "canonical_role": "previous_chain_link_end",
+        "source_item_id": "S66-WAN30",
+        "planned_path": "references/scenes/scene-66/S66-last3s.mp4"
+      }
+    },
+    {
+      "id": "S68-WAN30",
+      "scene_id": 68,
+      "canonical_block_label": "68",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.94,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "depends_on_completed": [
+        "S67-WAN30"
+      ],
+      "task_id": null,
+      "claim": null,
+      "video1": {
+        "slot": "@Video1",
+        "required": true,
+        "input_status": "pending_actual_result",
+        "canonical_role": "previous_chain_link_end",
+        "source_item_id": "S67-WAN30",
+        "planned_path": "references/scenes/scene-67/S67-last3s.mp4"
+      }
+    },
+    {
+      "id": "S69-WAN30",
+      "scene_id": 69,
+      "canonical_block_label": "69",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.95,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "depends_on_completed": [
+        "S68-WAN30"
+      ],
+      "task_id": null,
+      "claim": null,
+      "video1": {
+        "slot": "@Video1",
+        "required": true,
+        "input_status": "pending_actual_result",
+        "canonical_role": "previous_chain_link_end",
+        "source_item_id": "S68-WAN30",
+        "planned_path": "references/scenes/scene-68/S68-last3s.mp4"
+      }
+    }
+  ],
+  "story_chain": [
+    {
+      "scene": "52.7",
+      "action": "Серёга идёт по улице; Алина и Даша со Стичем проходят навстречу. Камера передаёт внимание им, Серёга уходит к затенённой арке.",
+      "handoff": "Девочки и Стич продолжают шаг, без остановки."
+    },
+    {
+      "scene": "66",
+      "action": "Стич оставляет маленькую кучку; прохожие возмущены, девочки не извиняются и не убирают. Камера провожает их мимо фруктового прилавка и остаётся на Маше с четырёхруким продавцом.",
+      "handoff": "Маша держит голубую ребристую дыню, продавец показывает цену пальцами четырёх рук."
+    },
+    {
+      "scene": "67",
+      "action": "Маша бурно торгуется, платит и уходит с сумкой. Продавец переключается на следующего покупателя.",
+      "handoff": "Тот же прилавок и продолжающееся движение; камера поднимается над навесом."
+    },
+    {
+      "scene": "68",
+      "action": "Камера возвращается к тому же месту, где Стич оставил кучку. Трое работников Жилищника гоняют песок и обметают кучку стороной. Маша замечает это и идёт к бригаде.",
+      "handoff": "Маша уже движется к ним, бригада ещё не понимает её намерений."
+    },
+    {
+      "scene": "69",
+      "action": "Маша отнимает метлу, отдаёт сумку бригадиру и сметает песок вместе с кучкой Стича в совок. Возвращает метлу, забирает сумку и уходит; бригада неумело повторяет её движения."
+    }
+  ],
+  "image_evidence": {
+    "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+    "sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+    "visual_observation": "Маленькая тёмная кучка видна на переднем плане внутри обметённого круга; исходное изображение не менялось."
+  },
+  "continuity": {
+    "method": "Each successor consumes the true last 3 seconds of its actual predecessor; preserve frame, geometry, camera, light, motion and prop state. Generated stills are reference helpers, never replacements for the video ending.",
+    "actual_video_continuity_verified": false,
+    "reason": "New required predecessor results and last3s cuts are still pending. Written continuity is configured; actual seamlessness requires result QC.",
+    "internal_editing": "Reaction and dialogue cuts inside a clip remain allowed; this is not claimed to be one uninterrupted take.",
+    "tightened_details": [
+      "P6 Seedance result can feed the selected P7 Wan 3 shot without rerendering P1–6.",
+      "Blue ribbed melon is fixed across the 66→67 handoff.",
+      "68 returns to the same site and same pile left in 66.",
+      "68 leaves the pile;69 Masha cleans it."
+    ]
+  },
+  "queue_order": {
+    "all_five_before_pending_music_and_dance": true,
+    "chain_priorities": [
+      0.06,
+      0.92,
+      0.93,
+      0.94,
+      0.95
+    ],
+    "first_pending_music_priority": 1.2,
+    "music_then_dance": [
+      49,
+      50,
+      51,
+      28
+    ],
+    "ready_skip_preserved": true,
+    "meaning": "Priority governs selection among genuinely ready authorized items. A continuation waiting for its predecessor does not reserve a free slot; the next ready item may use it, per the owner rule of23Oct.",
+    "new_items": 0,
+    "new_submissions": 0,
+    "paid_actions": 0,
+    "editorial_approvals": 0,
+    "stable_p7_id": "S52-R2-SEED20-P7 is retained as an opaque historical ID; actual selected model and canonical block are Wan 3.0."
+  },
+  "local_validation": {
+    "checked_at": "2026-10-27T22:25:54.729Z",
+    "source": "Direct local tool observations on the applied Tatooine patch",
+    "site_contract": "passed",
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0
+    },
+    "continue_preflight": {
+      "ready_for_short": true,
+      "ready_for_resume": true,
+      "execution_authorized": false,
+      "reasons": []
+    },
+    "targeted_tests": {
+      "queue_readiness": {
+        "passed": 7,
+        "seconds": 0.006
+      },
+      "prompt_match": {
+        "passed": 9,
+        "seconds": 1.852
+      },
+      "total_passed": 16
+    },
+    "patch_invariants": 18,
+    "independent_read_only_review": "passed; no blocking findings",
+    "video_launches": 0,
+    "new_queue_items": 0
+  }
+}

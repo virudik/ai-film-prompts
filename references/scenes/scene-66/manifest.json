@@ -126,7 +126,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T22:07:16Z",
+  "updated_at": "2026-10-27T22:25:11Z",
   "identity_refs": [
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
@@ -137,9 +137,9 @@
   "prompt_reference_mapping": [
     {
       "label": "66",
-      "canonical_prompt_sha256": "c0ef2994be22af0b6af2f86b8c7d9acc07a57bcd05464b208e980b90e6546b0c",
-      "normalized_prompt_sha256": "1c15c73c3d263e69d46f967456d678b1e92a05ad99e2be13e189ef748ac20ef2",
-      "characters": 6447,
+      "canonical_prompt_sha256": "653e3c50bee8859ca09dadb957fa1c3cbf077058d7448d2d61408d0afcf8019b",
+      "normalized_prompt_sha256": "c2e35ecdba89e787c70a82f3522325b6b58d1dd3f73a38597d3896278c707501",
+      "characters": 6545,
       "slots": [
         {
           "slot": "@Video1",
@@ -147,7 +147,8 @@
           "input_status": "pending_actual_result",
           "canonical_role": "previous_chain_link_end",
           "source_item_id": "S52-R2-SEED20-P7",
-          "planned_path": "references/scenes/scene-52/S52-R2-P7-last3s.mp4"
+          "planned_path": "references/scenes/scene-52/S52-R2-P7-last3s.mp4",
+          "source_model": "Wan 3.0"
         },
         {
           "slot": "@Image1",
@@ -195,9 +196,9 @@
     },
     {
       "label": "66 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "ef678c576691ce29d76490d6b38151ce0802d919685f612b89b2c927fb778afc",
-      "normalized_prompt_sha256": "9ce7ac0a6b50f8d412a283096b9ee5de4fc84bf5dae09582430931c27c0568e0",
-      "characters": 5919,
+      "canonical_prompt_sha256": "b236100b4fe37c4e77c4a369da1455bb9a586294e9a5814b14abfd1501d2d49b",
+      "normalized_prompt_sha256": "04d8280c2835ef956a5e9a8e0ce90c9e6239ff8802b0dfa9ac423191fae43965",
+      "characters": 5951,
       "slots": [
         {
           "slot": "@Video1",
@@ -205,7 +206,8 @@
           "input_status": "pending_actual_result",
           "canonical_role": "previous_chain_link_end",
           "source_item_id": "S52-R2-SEED20-P7",
-          "planned_path": "references/scenes/scene-52/S52-R2-P7-last3s.mp4"
+          "planned_path": "references/scenes/scene-52/S52-R2-P7-last3s.mp4",
+          "source_model": "Wan 3.0"
         },
         {
           "slot": "@Image1",
@@ -252,9 +254,9 @@
     },
     {
       "label": "66 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "823a533336a550e259a98800d460d5395a54e0f7de01c6fe48d660d4fec4ba6f",
-      "normalized_prompt_sha256": "5a36c38c9f675be4af9b2e192a2f307c590b3585dbdb90c9452a78f7e8e1a63a",
-      "characters": 5719,
+      "canonical_prompt_sha256": "10eab015fd741296050d5af58289abe75a9402f32b2eb669b31582ee902628f2",
+      "normalized_prompt_sha256": "4b7ac7838fa404512b69aa5ca654c71a410206f02accc959bd0f34485967f7a7",
+      "characters": 5822,
       "slots": [
         {
           "slot": "@Video1",

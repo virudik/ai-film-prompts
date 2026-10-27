@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-27T22:07:16Z",
+  "updated_at": "2026-10-27T22:25:11Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -575,7 +575,7 @@
     "derivation": "ffmpeg select frame n=720 from original, lossless PNG."
   },
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "b315b880851c58b25ceda879d53d2e4051db93ed8d9b961421693c508ec37355",
+  "canonical_master_sha256": "86a4a6ab4902862724ff41caf7f931c843c8f856b41322a4d7e73c123bd17a5e",
   "bread_milk_continuity": {
     "owner_request": "2026-10-17T20:03:11Z",
     "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
@@ -584,7 +584,7 @@
     "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
     "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
   },
-  "remaining": "Seven selected prompts and alternate version prepared; R2P1 waits a free slot, R2P2–P7 wait actual preceding results and full QC. New videos not submitted.",
+  "remaining": "P1 waits a free slot; P2–P6 Seedance2.0 and P7 Wan3.0 wait actual selected predecessor results and full QC. No new videos submitted by this model-selection patch.",
   "actual_continuity_20261023": {
     "at": "2026-10-23T01:51:09.796Z",
     "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
@@ -774,7 +774,7 @@
       "S52-R2-SEED20-P7"
     ]
   },
-  "prompt_mapping_status": "Seven selected new prompt blocks mapped; first input available, successors require real new results.",
+  "prompt_mapping_status": "Seven selected blocks: P1–P6 Seedance2.0/15s, P7 Wan3.0/30s. Stable queue IDs retained; successors require real results and QC.",
   "historical_prompt_reference_mapping_before_seven_parts": [
     {
       "prompt": "main",
@@ -1198,10 +1198,10 @@
     },
     {
       "prompt_id": "S52-R2-SEED20-P7",
-      "label": "52 · Seedance 2.0 часть 7",
-      "canonical_prompt_sha256": "72356646a0d67a5f7c12c367140899a758343c7a5927c941b6a6304b8f5cc263",
-      "normalized_prompt_sha256": "e0f5b63668f2864697882e3962d7e1369bee2a7428930a25ca65e6b042aaa1d6",
-      "characters": 4737,
+      "label": "52 · Wan 3.0 часть 7",
+      "canonical_prompt_sha256": "b8b9e0f345035304ad823841f0932028c07cd514bcf1df03ef2a5345856252b6",
+      "normalized_prompt_sha256": "a8cc7100913aacc62cfa2d434543f3c82f13c83e2b1a2c687cf76924054dc7d9",
+      "characters": 5022,
       "launch_readiness": "blocked_continuity",
       "slots": [
         {
@@ -1252,7 +1252,9 @@
           "input_status": "available",
           "canonical_role": "Даша: развёртка в одежде Татуина"
         }
-      ]
+      ],
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30
     }
   ],
   "old_video_refs_before_seven_parts": [
@@ -1671,12 +1673,11 @@
       "video_source": "actual previous part5 of this alternate chain, not the15s result by default"
     },
     {
-      "label": "52 · Wan 3.0 часть 7",
-      "duration_seconds": 30,
-      "model_text": "Wan 3.0",
-      "also_usable_by_explicit_owner_selection": "Seedance 2.5",
+      "label": "52 · Seedance 2.0 часть 7",
+      "duration_seconds": 15,
+      "model_text": "Seedance 2.0",
       "queued": false,
-      "canonical_prompt_sha256": "7854075acdb9c105eb2df2e95e84130e315aae69ce9bb8e212aa72719653de3d",
+      "canonical_prompt_sha256": "72356646a0d67a5f7c12c367140899a758343c7a5927c941b6a6304b8f5cc263",
       "images": [
         {
           "slot": "@Image1",
@@ -1719,7 +1720,9 @@
           "canonical_role": "Даша: развёртка в одежде Татуина"
         }
       ],
-      "video_source": "actual previous part6 of this alternate chain, not the15s result by default"
+      "video_source": "actual selected S52-R2-SEED20-P6 Seedance2.0 result; this15s P7 is an unqueued alternative",
+      "normalized_prompt_sha256": "e0f5b63668f2864697882e3962d7e1369bee2a7428930a25ca65e6b042aaa1d6",
+      "characters": 4737
     }
   ]
 }

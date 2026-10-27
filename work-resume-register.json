@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T22:14:11+00:00",
+  "last_updated_at": "2026-10-27T22:25:55+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -270,7 +270,7 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-27T22:14:11+00:00",
+      "updated_at": "2026-10-27T22:25:55+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
       "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
       "constraints": [
@@ -282,13 +282,13 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T22:14:11+00:00",
-        "last_completed": "Сцена52: семь частей, промпты, референсы и очередь подготовлены. Механизм «Продолжай» и квитанции внедрены во всех пяти проектах; исходящая смена сохранена. Реальная приёмка новым чатом остаётся открытой. Подготовка OPEN-WORK-REFS-RELAY-20261027 завершена:18/18 ролей,25 разных изображений; опубликовано и проверено, обе owner tasks done.",
+        "verified_at": "2026-10-27T22:25:55+00:00",
+        "last_completed": "Татуинская цепочка52P7→66→67→68→69 согласована; все пять звеньев выбраны Wan3/30с перед49–51/28. Локальная настройка завершена; следующий шаг этого поручения — публикация и точный readback сайта.",
         "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Серёгиус — возврат к сохранённому плану · 28.10.2026",
-          "sha256": "5ec7bd42d4e893eb06912bf8cbf73c1e953ca18996c8f8625bfbbac7c1516a8a"
+          "anchor": "# Татуин — связность и выбранные версии Wan 3 · 28.10.2026",
+          "sha256": "dcd08e1cafd814f48be07383ecc3cfbafc34c01a91cc020b3119d00a475e1c81"
         },
         "evidence": [
           {
@@ -302,6 +302,10 @@
           {
             "file": "reports/open-work-refs-relay-2026-10-27.json",
             "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b"
+          },
+          {
+            "file": "reports/tatooine-chain-2026-10-28.json",
+            "sha256": "4edde22198fe2afde61d346d253b142bb9355ec9622a3d175645eb468530c0f1"
           }
         ],
         "read_next": [
@@ -1010,7 +1014,7 @@
   "resume_focus": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-27T22:14:11+00:00",
+    "set_at": "2026-10-27T22:25:55+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "36a34368446ae7a28964f2949472e38c58af871e4ce908a0038401cd1dfe9013",
+  "source_queue_sha256": "3e633c1fbc1894a7e7e9db6bc99941cf77e9a976034fefb7d46276fe26a53f7e",
   "source_task_map_sha256": "1f199af161e159fde4f05c075a0c4695fe26ed6b930241ab40f00fb6c05d86ac",
   "topview_checked_at": "2026-10-27T21:30:46Z",
   "items": [
@@ -442,7 +442,7 @@
       "part_label": "66",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Video1: ждёт результат 52 · Seedance 2.0 часть 7 (ещё не запущен)",
+      "text": "@Video1: ждёт результат 52 · Wan 3.0 часть 7 (ещё не запущен)",
       "queue_state": "blocked_inputs"
     },
     {
@@ -474,5 +474,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-27T22:07:43.605752Z"
+  "checked_at": "2026-10-27T22:25:13.386518Z"
 }
