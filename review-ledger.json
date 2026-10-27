@@ -19,7 +19,7 @@
     "inserted_into_film=true requires reviewed=true and accepted=true.",
     "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-10-27T13:33:16Z",
+  "updated_at": "2026-10-27T20:35:05.152533Z",
   "scenes": {
     "3": {
       "result_received": true,
@@ -803,6 +803,28 @@
       "last_human_update_at": null
     },
     "67": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "68": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null
+    },
+    "69": {
       "result_received": false,
       "result_received_at": null,
       "reviewed": null,
