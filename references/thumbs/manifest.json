@@ -2913,6 +2913,16 @@
    "thumb_bytes": 20906,
    "src_sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
   },
+  "references/scenes/scene-67/S67-Masha-R-market-quarrel.png": {
+   "thumb": "references/thumbs/scenes/scene-67/S67-Masha-R-market-quarrel.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2831340,
+   "thumb_bytes": 69104,
+   "src_sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173"
+  },
   "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png": {
    "thumb": "references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp",
    "width": 640,
