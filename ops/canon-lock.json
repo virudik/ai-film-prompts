@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "PHASE-AB-20261027-1455: slots, health and GitHub mail accounting",
   "acquired_at": "2026-10-27T11:55:23.147Z",
-  "expires_at": "2026-10-27T12:40:23.147Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-27T11:56:17.373Z",
   "rules": "ops/CANON-LOCK.md"
 }
