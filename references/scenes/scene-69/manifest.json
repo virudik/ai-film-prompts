@@ -102,13 +102,81 @@
       ],
       "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
       "usage": "prompt_reference"
+    },
+    {
+      "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+      "asset_id": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+      "caption": "Передача покупок: дыня и сумка у бригадира, метла переходит Маше",
+      "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2718142,
+      "role": "Физика передачи реквизита в сцене 69; индивидуальные развёртки и реальный видео-стык выше по приоритету",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (built-in)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T23:02:05Z",
+      "updated_at": "2026-10-27T23:02:05Z",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T23:02:05Z",
+        "scope": "Root visually inspected the actual generated frame: exactly Masha and the same three workers; Masha has no bag or strap and takes one broom with both hands; foreman supports one bruised blue melon in his RIGHT hand with one satchel hanging from his RIGHT forearm, and releases the broom with his LEFT hand. Generator mirrored the requested foreman hand assignment; canonical video prompts are adapted to the actual reference, since the owner did not prescribe left/right. Anatomy and ownership read clearly. Purple worker parks his broom and picks up the dustpan; this helper defines the transfer pose, while the dedicated dustpan reference governs tool geometry. Single original small pile remains on the ground, no cleanup yet. Technical QC is not editorial approval."
+      },
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "actual_ratio": "1672:941",
+        "matches_16_9": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      },
+      "site_published": {
+        "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+        "linked_in_master": true,
+        "git_present": false,
+        "status": "local_worktree_pending_publication_readback",
+        "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
+      },
+      "prompt_file": "references/scenes/scene-69/S69-melon-bag-handoff.image-prompt.txt",
+      "prompt_sha256": "44d596b6d59f7d0fcde9f6c55c3dfd51438345e4732c45f68c3d36ba03e8659f",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+          "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173"
+        },
+        {
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        }
+      ],
+      "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
+      "usage": "action_pose_reference"
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T22:54:22Z",
-  "last_qc_at": "2026-10-27T22:54:22Z",
+  "updated_at": "2026-10-27T23:02:05Z",
+  "last_qc_at": "2026-10-27T23:02:05Z",
   "pose_composition_helpers": [
     "references/scenes/scene-69/S69-masha-masterclass.png"
   ],

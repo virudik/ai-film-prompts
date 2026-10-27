@@ -5,7 +5,7 @@
   "status": "in_progress",
   "stage": "references_and_story_in_progress",
   "created_at": "2026-10-27T22:51:23Z",
-  "checked_at": "2026-10-27T22:54:23Z",
+  "checked_at": "2026-10-27T23:02:05Z",
   "source_head": "0aceff850d88ee34670e486b9ccf733c3dc1fc1a",
   "owner_request": "в сцене 68 «Жилищник» бестолково гоняет песок и обметает кучу стороной, а в сцене 69 (раз маша уже с дыней в руках) Маша отдаёт дворнику дыню и сумку, отнимает метлу и убирает всё в совок. Так даже лучше. В лазерный совок добавь и сделай референсные картинки этих действий. Реф картинки кучи нужны? Другие какие-нибудь рефы нужны? Добавить связную бесшовную сцену пролета камеры от сцены 69 к сцене 65 где Серёга в кантине выпивает с боба цветом и компанией",
   "owner_request_provenance": "Exact direct owner message supplied by the root chat; spelling retained verbatim",
@@ -49,20 +49,20 @@
       "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
       "operation": "create",
       "purpose": "Передача одной дыни и одной сумки бригадиру; Маша принимает его метлу",
-      "status": "planned",
+      "status": "generated_qc_passed_pending_final_publication",
       "before_sha256": null,
-      "result_sha256": null,
-      "generated_at": null,
+      "result_sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+      "generated_at": "2026-10-27T23:02:05Z",
       "published_commit": null
     },
     {
       "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
       "operation": "update",
       "purpose": "Маша в фоне несёт дыню и сумку; погашенный совок установлен рядом с четырёхглазым; кучку обметают стороной",
-      "status": "planned",
+      "status": "generated_qc_passed_pending_final_publication",
       "before_sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
-      "result_sha256": null,
-      "generated_at": null,
+      "result_sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "generated_at": "2026-10-27T22:57:20Z",
       "published_commit": null
     },
     {
@@ -204,12 +204,119 @@
       "visual_qc": "Root visually inspected the generated PNG: exactly one complete dustpan, worn black hinged handle, rigid shallow metal tray, unobstructed open front, restrained cyan collecting floor and lip, warm sand. Whole tool visible; practical receptacle matches the broom design. No people, duplicate tools or text.",
       "thumbnail": "references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp",
       "usage": "prompt_reference"
+    },
+    {
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2643205,
+      "caption": "Жилищник обметает кучку; Маша подходит с дыней и сумкой",
+      "checked_at": "2026-10-27T22:57:20Z",
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "actual_ratio": "1672:941",
+        "matches_16_9": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      },
+      "qc": "usable_for_assigned_role",
+      "owner_approval": "not_recorded",
+      "integration_stage": "full",
+      "persistence_state": "local_worktree_only_uncommitted",
+      "publication_status": "pending_readback",
+      "prompt_file": "references/scenes/scene-68/S68-crew-sweeping-street.image-prompt.txt",
+      "prompt_sha256": "ec3774239f55263ab6dedbce457d725c3b0846674f6c0a29c471a5f56980c07a",
+      "source_output_name": "exec-6bb5f656-1250-4f85-9400-4416c2ea79c2.png",
+      "source_output_sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769"
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+          "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173"
+        },
+        {
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        }
+      ],
+      "visual_qc": "Root visually inspected: same three crew members, faces, orange vests and two-line Cyrillic text; original small pile remains intact inside the swept ring; Masha carries one bruised blue ribbed melon and one brown bag; one unused dustpan rests beside the purple worker with folded handle. Geography, camera and warm lighting match the preceding reference. Dustpan's cyan edge has a very faint residual glint, but is visibly unused; prompt68 explicitly requires off state. No duplicated actors or props.",
+      "thumbnail": "references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp",
+      "usage": "pose_composition_helper_only_not_prompt_input",
+      "previous_sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769"
+    },
+    {
+      "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+      "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2718142,
+      "caption": "Передача покупок: дыня и сумка у бригадира, метла переходит Маше",
+      "checked_at": "2026-10-27T23:02:05Z",
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "actual_ratio": "1672:941",
+        "matches_16_9": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      },
+      "qc": "usable_for_assigned_role",
+      "owner_approval": "not_recorded",
+      "integration_stage": "full",
+      "persistence_state": "local_worktree_only_uncommitted",
+      "publication_status": "pending_readback",
+      "prompt_file": "references/scenes/scene-69/S69-melon-bag-handoff.image-prompt.txt",
+      "prompt_sha256": "44d596b6d59f7d0fcde9f6c55c3dfd51438345e4732c45f68c3d36ba03e8659f",
+      "source_output_name": "exec-3bd2a8d0-2048-4b61-8a2a-bdb5649a8f2e.png",
+      "source_output_sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+          "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173"
+        },
+        {
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        }
+      ],
+      "visual_qc": "Root visually inspected the actual generated frame: exactly Masha and the same three workers; Masha has no bag or strap and takes one broom with both hands; foreman supports one bruised blue melon in his RIGHT hand with one satchel hanging from his RIGHT forearm, and releases the broom with his LEFT hand. Generator mirrored the requested foreman hand assignment; canonical video prompts are adapted to the actual reference, since the owner did not prescribe left/right. Anatomy and ownership read clearly. Purple worker parks his broom and picks up the dustpan; this helper defines the transfer pose, while the dedicated dustpan reference governs tool geometry. Single original small pile remains on the ground, no cleanup yet.",
+      "thumbnail": "references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp",
+      "usage": "action_pose_reference"
     }
   ],
   "published_assets": [],
   "pending_assets": [
-    "references/scenes/scene-69/S69-melon-bag-handoff.png",
-    "references/scenes/scene-68/S68-crew-sweeping-street.png",
     "references/scenes/scene-69/S69-masha-masterclass.png",
     "references/scenes/scene-70/S70-cantina-entrance.png"
   ],
@@ -223,8 +330,67 @@
     "public_readback_verified": false
   },
   "progress": {
-    "last_completed": "Созданы и визуально проверены 1/5 новых или обновлённых изображений; оригинальные PNG и промпты сохранены. Видео не запускались.",
+    "last_completed": "Созданы и визуально проверены 3/5 новых или обновлённых изображений; оригинальные PNG и промпты сохранены. Видео не запускались.",
     "next_action": "Завершить оставшиеся референсы и согласовать67–70/65, проверить очередь и опубликованный сайт. Реальные видео и QC стыков остаются обязательны перед запуском.",
     "blockers": []
-  }
+  },
+  "asset_history": [
+    {
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "previous_sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+      "replacement_sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "replaced_at": "2026-10-27T22:57:20Z",
+      "previous_bytes": 2698328,
+      "previous_prompt_sha256": "c5605d0c15046d5e5a358de1889151170766783c0b7bc41dcdcc3f190e18b675",
+      "previous_manifest_entry": {
+        "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+        "asset_id": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+        "caption": "Бригада метёт песок навстречу друг другу, Маша наблюдает",
+        "sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 2698328,
+        "role": "Бригада метёт песок навстречу друг другу, Маша наблюдает",
+        "media_type": "image",
+        "status": "available",
+        "owner_approval": "not_recorded",
+        "generation_method": "ChatGPT imagegen (open Work)",
+        "project_id": "seregius",
+        "created_at": "2026-10-27T21:23:11+00:00",
+        "assistant_qc": {
+          "status": "usable_for_assigned_role",
+          "checked_at": "2026-10-27T21:23:11+00:00",
+          "scope": "Root visually inspected matching three crew identities and cyan brooms, Tatooine street, Masha likeness/costume in background, opposing sand strokes and untouched small road pile. Targeted refinement corrected purple alien to show a second vest back; both visible two-line vest inscriptions match the crew reference. Technical QC is not editorial approval."
+        },
+        "site_published": {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "linked_in_master": true,
+          "git_present": true
+        },
+        "prompt_file": "references/scenes/scene-68/S68-crew-sweeping-street.image-prompt.txt",
+        "reference_inputs": [
+          {
+            "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+            "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+          },
+          {
+            "path": "references/scenes/scene-68/S68-light-broom.png",
+            "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d"
+          },
+          {
+            "path": "references/scenes/scene-66/S66-street-outrage.png",
+            "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
+          },
+          {
+            "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+            "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+          }
+        ],
+        "usage": "pose_composition_helper_only_not_prompt_input"
+      },
+      "reason": "Owner-requested Tatooine prop/action continuity update"
+    }
+  ]
 }
