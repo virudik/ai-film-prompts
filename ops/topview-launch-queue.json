@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T06:42:11.566Z",
+  "updated_at": "2026-10-27T11:25:33.064Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3331,7 +3331,7 @@
       "canonical_prompt_sha256": "85364fcb6371a4feee97f8d85ba1ccf84c54bb3f0fd35a1d03fafe44d4e8a6bf",
       "normalized_prompt_sha256": "e3fc6485d4316a4e90b3266746cca58f552257ed75b71228ec32a16d498ef15c",
       "priority": 0,
-      "state": "blocked_owner_decision",
+      "state": "superseded_owner_seven_parts",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3390,8 +3390,8 @@
       "depends_on_completed": [
         "S52-SEED20-P1"
       ],
-      "blocker": "Owner27Oct2026 rejected using the current S52 result as the basis for continuation and selected S44 Seedance2.5 ending. Old P2 must not launch; review and replace the sequence before any new authorized submission.",
-      "launch_readiness": "blocked_owner_revision",
+      "blocker": "Replaced by owner-approved seven-part R2 sequence from selected S44 Seedance2.5 ending.",
+      "launch_readiness": "superseded",
       "authorization_before_20261023_expansion": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
@@ -3418,7 +3418,7 @@
         "known_source_defect": "During cockpit frames the yellow bread/milk note is attached to Serega's chest instead of the blank right console panel; the defect is recorded and is not visible in the exterior P2 continuity opening."
       },
       "continuity_prepared_at": "2026-10-27T06:42:11.566Z",
-      "updated_at": "2026-10-27T09:56:07.089Z",
+      "updated_at": "2026-10-27T11:25:33.064Z",
       "owner_revision_20261027": {
         "at": "2026-10-27T09:56:07.089Z",
         "previous_state": "waiting_for_slot",
@@ -3427,7 +3427,17 @@
         "reason": "Owner says Scene52 result is wrong, proposes separate boarding/takeoff/cruiser fly-by/Tatooine arrival clips, and selects Scene44 Seedance2.5 ending as the new start.",
         "source_task_id": "3c01baad89544304aaa803725f6aae4b",
         "source_model": "Seedance 2.5"
-      }
+      },
+      "superseded_at": "2026-10-27T11:25:33.064Z",
+      "superseded_by": [
+        "S52-R2-SEED20-P1",
+        "S52-R2-SEED20-P2",
+        "S52-R2-SEED20-P3",
+        "S52-R2-SEED20-P4",
+        "S52-R2-SEED20-P5",
+        "S52-R2-SEED20-P6",
+        "S52-R2-SEED20-P7"
+      ]
     },
     {
       "id": "S53-SEED20-P1",
@@ -6571,6 +6581,551 @@
         "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
+    },
+    {
+      "id": "S52-R2-SEED20-P1",
+      "scene_id": 52,
+      "prompt_id": "S52-R2-SEED20-P1",
+      "canonical_block_label": "52 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "df7801b482ac0ceecdf228d7dbc5d20db76a41dad78523fd455f9cfaa8988ba5",
+      "normalized_prompt_sha256": "7883cd39a373778088f479ee2099ed6e4437fe79ffc7233690f9b35af25d4880",
+      "priority": 0.0,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Video1",
+          "path": "references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4",
+          "sha256": "67d37583c8c7bd0d1d903a15639d4f032e9e047babbf833353e2ef88a621c04a",
+          "bytes": 1026899,
+          "duration_seconds": 3,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 649,
+          "source_end_frame_exclusive": 721,
+          "source_start_seconds": 27.041666666666668,
+          "source_end_seconds": 30.041666666666668,
+          "derivation": "ffmpeg trim by video frames 649:721; setpts; matching audio atrim; H264 CRF16/AAC192k. Actual result footage, not a synthetic recreation.",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "selected_existing_S44_Seedance25_end",
+          "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+          "source_model": "Seedance 2.5",
+          "source_original_sha256": "8e6f3045c2f27ad290d8deeb0d93ab8ceae3154ee5b43337681d4aa8e5373f29",
+          "qc_report": "reports/scene52-rebuild-2026-10-27.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact Serega identity, face, proportions and costume"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "absolute personal-craft design; ignore its old city background"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-52/S52-P1-boarding.jpg",
+          "sha256": "74ca7081d56feb13bef53267533cf93c3cbb83732161ae9ceb7cec959555b321",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "synthetic action/composition helper for this part; not an actual video start or identity source"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "empty cockpit geometry and seats; only Serega occupies the left pilot seat"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "depends_on_completed": [],
+      "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
+      "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
+      "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
+      "source_revision": "scene52-seven-parts-2026-10-27",
+      "created_at": "2026-10-27T11:25:33.064Z",
+      "input_qc": {
+        "checked_at": "2026-10-27T11:25:33.064Z",
+        "result": "pass_for_owner_selected_opening",
+        "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+        "scope": "Full 30s source sampled at1fps; actual last frame inspected at1280x720; clip duration/frame count verified.",
+        "artistic_acceptance": false,
+        "qc_report": "reports/scene52-rebuild-2026-10-27.json"
+      }
+    },
+    {
+      "id": "S52-R2-SEED20-P2",
+      "scene_id": 52,
+      "prompt_id": "S52-R2-SEED20-P2",
+      "canonical_block_label": "52 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "853a0c40f0fc19337356373d0ca741c07575385d9356d131c1f54c5d5acfcf13",
+      "normalized_prompt_sha256": "ea911e7b4bb43ca9bbc5548de9dae09df2391771c04f77e050de87239aca412f",
+      "priority": 0.01,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_new_part_end",
+          "source_item_id": "S52-R2-SEED20-P1",
+          "planned_path": "references/scenes/scene-52/S52-R2-P1-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact Serega identity, face, proportions and costume"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "absolute personal-craft design; ignore its old city background"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+          "sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "synthetic action/composition helper for this part; not an actual video start or identity source"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "empty cockpit geometry and seats; only Serega occupies the left pilot seat"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "depends_on_completed": [
+        "S52-R2-SEED20-P1"
+      ],
+      "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
+      "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
+      "launch_readiness": "blocked_continuity",
+      "blocker": "Await actual S52-R2-SEED20-P1 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
+      "source_revision": "scene52-seven-parts-2026-10-27",
+      "created_at": "2026-10-27T11:25:33.064Z"
+    },
+    {
+      "id": "S52-R2-SEED20-P3",
+      "scene_id": 52,
+      "prompt_id": "S52-R2-SEED20-P3",
+      "canonical_block_label": "52 · Seedance 2.0 часть 3",
+      "canonical_prompt_sha256": "6dda64d647b3dea074c22f5daa14e56273e424e6abfd2545d7df685eda058fb0",
+      "normalized_prompt_sha256": "ed5f2485d439ffddf1e13b8518ff763af16682ca493851ae804a2905b36c1514",
+      "priority": 0.02,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_new_part_end",
+          "source_item_id": "S52-R2-SEED20-P2",
+          "planned_path": "references/scenes/scene-52/S52-R2-P2-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact Serega identity, face, proportions and costume"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "absolute personal-craft design; ignore its old city background"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+          "sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "synthetic action/composition helper for this part; not an actual video start or identity source"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+          "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact large cruiser design from Topview: triangular grey hull, stepped superstructure, raised wide bridge and TWO spherical domes"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "depends_on_completed": [
+        "S52-R2-SEED20-P2"
+      ],
+      "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
+      "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
+      "launch_readiness": "blocked_continuity",
+      "blocker": "Await actual S52-R2-SEED20-P2 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
+      "source_revision": "scene52-seven-parts-2026-10-27",
+      "created_at": "2026-10-27T11:25:33.064Z"
+    },
+    {
+      "id": "S52-R2-SEED20-P4",
+      "scene_id": 52,
+      "prompt_id": "S52-R2-SEED20-P4",
+      "canonical_block_label": "52 · Seedance 2.0 часть 4",
+      "canonical_prompt_sha256": "bdecf439362a35de7f844d7c8a8b61f851a5232345acc1caa071888a124f16bc",
+      "normalized_prompt_sha256": "2bedd6ec0af66823d7f8ec333ba94f29ef50e15b409662eaca29023f6ea5862d",
+      "priority": 0.03,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_new_part_end",
+          "source_item_id": "S52-R2-SEED20-P3",
+          "planned_path": "references/scenes/scene-52/S52-R2-P3-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact Serega identity, face, proportions and costume"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "absolute personal-craft design; ignore its old city background"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+          "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "synthetic action/composition helper for this part; not an actual video start or identity source"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "depends_on_completed": [
+        "S52-R2-SEED20-P3"
+      ],
+      "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
+      "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
+      "launch_readiness": "blocked_continuity",
+      "blocker": "Await actual S52-R2-SEED20-P3 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
+      "source_revision": "scene52-seven-parts-2026-10-27",
+      "created_at": "2026-10-27T11:25:33.064Z"
+    },
+    {
+      "id": "S52-R2-SEED20-P5",
+      "scene_id": 52,
+      "prompt_id": "S52-R2-SEED20-P5",
+      "canonical_block_label": "52 · Seedance 2.0 часть 5",
+      "canonical_prompt_sha256": "9f6695e5639eaf76167c5904293e4569884f725458789adb41e2dfa8e56ba7dc",
+      "normalized_prompt_sha256": "2410787e7c807186728f7edebf29e979aa65e1c10a47fca8fe26f48f44ba8ec0",
+      "priority": 0.04,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_new_part_end",
+          "source_item_id": "S52-R2-SEED20-P4",
+          "planned_path": "references/scenes/scene-52/S52-R2-P4-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact Serega identity, face, proportions and costume"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "absolute personal-craft design; ignore its old city background"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+          "sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "synthetic action/composition helper for this part; not an actual video start or identity source"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "depends_on_completed": [
+        "S52-R2-SEED20-P4"
+      ],
+      "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
+      "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
+      "launch_readiness": "blocked_continuity",
+      "blocker": "Await actual S52-R2-SEED20-P4 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
+      "source_revision": "scene52-seven-parts-2026-10-27",
+      "created_at": "2026-10-27T11:25:33.064Z"
+    },
+    {
+      "id": "S52-R2-SEED20-P6",
+      "scene_id": 52,
+      "prompt_id": "S52-R2-SEED20-P6",
+      "canonical_block_label": "52 · Seedance 2.0 часть 6",
+      "canonical_prompt_sha256": "12d9d7077dcc026c1c3033401b39214fcd2c0ef2aea92a9be04b5ab3ad4c7fd8",
+      "normalized_prompt_sha256": "ef265a9f7010c24bab284533b588a7ddaf768b7fe597ae21071c9af7c5e0f7af",
+      "priority": 0.05,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_new_part_end",
+          "source_item_id": "S52-R2-SEED20-P5",
+          "planned_path": "references/scenes/scene-52/S52-R2-P5-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact Serega identity, face, proportions and costume"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "absolute personal-craft design; ignore its old city background"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-52/S52-P6-disembark.jpg",
+          "sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "synthetic action/composition helper for this part; not an actual video start or identity source"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "same town architecture, grounded ship scale and side doorway; parked gear/hatch state must not leak into flight"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "depends_on_completed": [
+        "S52-R2-SEED20-P5"
+      ],
+      "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
+      "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
+      "launch_readiness": "blocked_continuity",
+      "blocker": "Await actual S52-R2-SEED20-P5 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
+      "source_revision": "scene52-seven-parts-2026-10-27",
+      "created_at": "2026-10-27T11:25:33.064Z"
+    },
+    {
+      "id": "S52-R2-SEED20-P7",
+      "scene_id": 52,
+      "prompt_id": "S52-R2-SEED20-P7",
+      "canonical_block_label": "52 · Seedance 2.0 часть 7",
+      "canonical_prompt_sha256": "346b8fd12d6140222afc56b67b6dcffae224920a950a64c1578f4940b96aa2b0",
+      "normalized_prompt_sha256": "306c628b6694a7de700276207f7146974fef6683f56caa66a2a953cc339d00e7",
+      "priority": 0.06,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_new_part_end",
+          "source_item_id": "S52-R2-SEED20-P6",
+          "planned_path": "references/scenes/scene-52/S52-R2-P6-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "exact Serega identity, face, proportions and costume"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+          "sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "synthetic street-walking composition and town lane; individual identity sheet wins"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "town architecture and daylight only; do not bring the parked ship into the streets"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "depends_on_completed": [
+        "S52-R2-SEED20-P6"
+      ],
+      "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
+      "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
+      "launch_readiness": "blocked_continuity",
+      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, prepare true end and pass full continuity QC before launch.",
+      "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
+      "source_revision": "scene52-seven-parts-2026-10-27",
+      "created_at": "2026-10-27T11:25:33.064Z"
     }
   ],
   "already_submitted": {
@@ -7964,5 +8519,24 @@
     "at": "2026-10-27T09:56:07.089Z",
     "quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
     "scope": "Scene52 only: stop old unsubmitted P2, inspect actual outputs and develop a split proposal using the selected Scene44 Seedance2.5 source. No new render submitted by this checkpoint."
+  },
+  "owner_instruction_20261027_scene52_seven_parts": {
+    "at": "2026-10-27T11:25:33.064Z",
+    "work_id": "S52-SEVEN-PARTS-20261027",
+    "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
+    "resume_quote": "Сам доделать сможешь может. Там осталось то",
+    "selected_ids": [
+      "S52-R2-SEED20-P1",
+      "S52-R2-SEED20-P2",
+      "S52-R2-SEED20-P3",
+      "S52-R2-SEED20-P4",
+      "S52-R2-SEED20-P5",
+      "S52-R2-SEED20-P6",
+      "S52-R2-SEED20-P7"
+    ],
+    "priority_rule": "Replace old priority0 S52P2 with new chain0.00–0.06. If a successor awaits actual input, skip to the next ready authorized item; do not reserve slots. Other items retain their priorities.",
+    "old_p2": "superseded_owner_seven_parts",
+    "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+    "new_submissions": 0
   }
 }

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "work_id": "S52-OWNER-REVIEW-20261027",
   "scene_id": 52,
-  "updated_at": "2026-10-27T11:01:19.481Z",
-  "status": "finishing_prompts_master_queue",
+  "updated_at": "2026-10-27T11:31:56.280Z",
+  "status": "seven_part_preparation_complete_queued",
   "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
   "current_s52_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
   "selected_s44_task_id": "3c01baad89544304aaa803725f6aae4b",
@@ -59,7 +59,7 @@
       "scope": "Usable source for planning a new opening. Does not approve the entire repair scene or assume the wing attachment is perfectly resolved."
     }
   },
-  "scope": "Review existing result and selected repair ending; pause obsolete continuation; prepare a concrete split proposal. New prompt blocks and renders are not yet created.",
+  "scope": "Existing result reviewed; selected S44 source and seven action references saved; seven selected prompts plus alternate version integrated into master; seven R2 queue items created. New videos remain pending.",
   "review": {
     "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
     "model": "Seedance 2.0",
@@ -101,7 +101,7 @@
     "prior_qc_limit": "No person on roof in last3s is insufficient to validate correct ship identity or the whole scene. Historical QC preserved; owner hold supersedes continuation readiness."
   },
   "proposal": {
-    "status": "superseded_by_owner_seven_part_followup",
+    "status": "historical_superseded_by_owner_seven_parts",
     "scene_id": 52,
     "parts": [
       {
@@ -192,7 +192,7 @@
       "New Seedance2.0 action parts need individual prompts/reference slots under current prompt-style rules; old 2x15s text must not simply be requeued."
     ]
   },
-  "next_action": "Continue exact pending stages in reports/scene52-seven-parts-handoff-2026-10-27.md; approved7part scope replaces old5+optional proposal.",
+  "next_action": "At a real free slot launch ready authorized R2P1 after full live preflight. Each successor requires the actual previous new result, archival, true end and full visual QC; skip blocked items for other ready authorized scenes.",
   "validation": {
     "new_generation_submitted": false,
     "signed_media_urls_saved": false,
@@ -224,7 +224,7 @@
     "at": "2026-10-27T10:30:12.657Z",
     "quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
     "approved_parts": 7,
-    "status": "seven_references_published_prompts_queue_pending",
+    "status": "seven_part_preparation_complete_queued",
     "plan": [
       "Verify cruiser source, prepare/view seven action images.",
       "Write seven Seedance2.0 parts and matching alternate model versions under canonical rules.",
@@ -253,12 +253,6 @@
       "Selected S44 Seedance2.5 true ending already saved",
       "Old unsubmitted P2 held"
     ],
-    "pending": [
-      "7autonomous selected video prompts and corresponding alternate version",
-      "Replace scene52 master section after archival and publish reference gallery",
-      "Update manifest prompt mappings and create7new R2 queue items with real continuity gates",
-      "Validate and publish changed master/queue/site"
-    ],
     "proposed_priorities": [
       0,
       0.01,
@@ -282,7 +276,15 @@
       "handoff_links_checked": 9,
       "master_video_prompts_modified": false,
       "launch_queue_modified_during_handoff": false
-    }
+    },
+    "status": "historical_handoff_completed_by_same_chat",
+    "pending_at_handoff": [
+      "7autonomous selected video prompts and corresponding alternate version",
+      "Replace scene52 master section after archival and publish reference gallery",
+      "Update manifest prompt mappings and create7new R2 queue items with real continuity gates",
+      "Validate and publish changed master/queue/site"
+    ],
+    "completed_by_resume_at": "2026-10-27T11:28:14.550Z"
   },
   "resume_owner_request": {
     "at": "2026-10-27T11:13:05.193Z",
@@ -290,7 +292,7 @@
     "scope": "Complete seven selected prompts and corresponding alternate version, canonical scene/reference mappings and seven-item priority queue; preserve prior images."
   },
   "latest_slot_check": {
-    "at": "2026-10-27T11:12:13.118Z",
+    "at": "2026-10-27T11:30:32.497Z",
     "tasks": [
       {
         "id": "4a1061e175054da2810ffef8ad9d31cd",
@@ -336,5 +338,106 @@
       }
     ],
     "scope": "Six known active video task details verified live; not a full historical scan of all boards."
+  },
+  "implementation": {
+    "at": "2026-10-27T11:28:14.550Z",
+    "master_sha256": "54dc2f1e3adbc48bc2718affd456177d182cdfcebbdbcc793c24aa2ff3bb9e24",
+    "archived_previous_scene": "archive/prompts/scene52-before-seven-parts-2026-10-27.md",
+    "archive_sha256": "1e8fd366d8912e67fafaf005cef265fb41ed66fdc4678e591522e12e7481f377",
+    "selected_prompts": [
+      {
+        "part": 1,
+        "label": "52 · Seedance 2.0 часть 1",
+        "characters": 4672
+      },
+      {
+        "part": 2,
+        "label": "52 · Seedance 2.0 часть 2",
+        "characters": 4418
+      },
+      {
+        "part": 3,
+        "label": "52 · Seedance 2.0 часть 3",
+        "characters": 4192
+      },
+      {
+        "part": 4,
+        "label": "52 · Seedance 2.0 часть 4",
+        "characters": 4373
+      },
+      {
+        "part": 5,
+        "label": "52 · Seedance 2.0 часть 5",
+        "characters": 4349
+      },
+      {
+        "part": 6,
+        "label": "52 · Seedance 2.0 часть 6",
+        "characters": 4149
+      },
+      {
+        "part": 7,
+        "label": "52 · Seedance 2.0 часть 7",
+        "characters": 3633
+      }
+    ],
+    "alternate_prompts": 7,
+    "selected_queue_ids": [
+      "S52-R2-SEED20-P1",
+      "S52-R2-SEED20-P2",
+      "S52-R2-SEED20-P3",
+      "S52-R2-SEED20-P4",
+      "S52-R2-SEED20-P5",
+      "S52-R2-SEED20-P6",
+      "S52-R2-SEED20-P7"
+    ],
+    "priorities": [
+      0.0,
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06
+    ],
+    "new_submissions": 0,
+    "scope": "Only scene52 replaced plus declared prompt total114→125; other scene text and all other queue items preserved.",
+    "ready_item": "S52-R2-SEED20-P1",
+    "waiting_actual_previous_results": [
+      "S52-R2-SEED20-P2",
+      "S52-R2-SEED20-P3",
+      "S52-R2-SEED20-P4",
+      "S52-R2-SEED20-P5",
+      "S52-R2-SEED20-P6",
+      "S52-R2-SEED20-P7"
+    ],
+    "old_p2_state": "superseded_owner_seven_parts",
+    "source_s44_task": "3c01baad89544304aaa803725f6aae4b",
+    "full_source_artistic_acceptance": false,
+    "historical_submitted_items_unchanged": true,
+    "validation": {
+      "master_scope": "scene52_and_declared_prompt_total114_to125",
+      "old_section_archive": "exact",
+      "historical_and_other_queue_items": "unchanged",
+      "unique_prompt_blocks": 14,
+      "selected_items": 7,
+      "actual_reference_sha_checks": 30,
+      "real_future_dependencies": 6,
+      "gallery_links": 16,
+      "new_video_submissions": 0,
+      "unit_tests": {
+        "tests": 305,
+        "result": "passed",
+        "seconds": 62.292
+      },
+      "site_validator": "passed",
+      "project_health": "ok",
+      "failed_project_checks": [],
+      "canon_health_warnings": 0,
+      "takeover_brief_valid": true,
+      "takeover_anchors": "15/15",
+      "thumbnails_current": 285,
+      "checked_at": "2026-10-27T11:31:56.280Z"
+    }
   }
 }

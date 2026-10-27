@@ -1,31 +1,8 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T11:13:05.193Z",
+  "last_updated_at": "2026-10-27T11:28:14.550Z",
   "active_work": [
-    {
-      "work_id": "S52-SEVEN-PARTS-20261027",
-      "title": "Сцена52: семь частей, все референсы и место в очереди",
-      "status": "finishing_prompts_master_queue",
-      "updated_at": "2026-10-27T11:13:05.193Z",
-      "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
-      "completed": [
-        "Owner accepted seven-part scope; exact existing Seedance2.5 repair ending already saved; old unsubmitted P2 held.",
-        "Seven action images generated/visually QC checked; fly-by scale corrected. Exact Topview cruiser85dab256ad994a72a34946ef70aaaf69 retrieved and saved as a production JPEG with original source SHA/resource provenance."
-      ],
-      "next_action": "Owner asked same chat to finish: write prompts, replace scene52 after archive, create7R2items0.00–0.06, validate/publish/readback. Seven images already saved; six live video tasks confirmed occupied.",
-      "canonical_refs": [
-        "reports/scene52-rebuild-2026-10-27.json",
-        "references/scenes/scene-52/manifest.json",
-        "ops/topview-launch-queue.json",
-        "reports/scene52-reference-pack-2026-10-27.json",
-        "reports/scene52-seven-parts-handoff-2026-10-27.md"
-      ],
-      "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "reference_commit": "1a08dd012f0d69f67d8b81a8592301a6566deb63",
-      "new_video_submissions": 0,
-      "new_queue_items_created": false
-    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -258,8 +235,8 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_results_and_slots",
-      "updated_at": "2026-10-27T10:08:38.722Z",
-      "next_action": "Await actual S56-P1, then archive/QC and prepare its real end for S56-P2. Before any submit use fresh global scan and live queue priority; S42-P2 was already submitted and old S52-P2 is held by owner27Oct. Do not repeat either. See current receipts/queue.",
+      "updated_at": "2026-10-27T11:28:14.550Z",
+      "next_action": "At free slots use live priority and real readiness: new S52-R2-P1 is prepared at0.00; its successors need actual new results/QC. Old52P2 superseded. Continue actual S56/S48 and other result/QC work; no repeated submissions. See queue and scene52 completion report.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
@@ -591,6 +568,21 @@
         "status": "seven_refs_complete_prompts_queue_pending",
         "report": "reports/scene52-seven-parts-handoff-2026-10-27.md",
         "next_action": "Owner approved7mandatory parts. Continue S52-SEVEN-PARTS-20261027 handoff; old P2 held, new R2 items not yet created."
+      },
+      "scene52_seven_part_preparation": {
+        "at": "2026-10-27T11:28:14.550Z",
+        "work_id": "S52-SEVEN-PARTS-20261027",
+        "state": "complete_queued_videos_pending",
+        "selected_ids": [
+          "S52-R2-SEED20-P1",
+          "S52-R2-SEED20-P2",
+          "S52-R2-SEED20-P3",
+          "S52-R2-SEED20-P4",
+          "S52-R2-SEED20-P5",
+          "S52-R2-SEED20-P6",
+          "S52-R2-SEED20-P7"
+        ],
+        "report": "reports/scene52-rebuild-2026-10-27.json"
       }
     },
     {
@@ -1357,6 +1349,41 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "S52-SEVEN-PARTS-20261027",
+      "title": "Сцена52: семь частей, все референсы и место в очереди",
+      "status": "completed_preparation_queued",
+      "updated_at": "2026-10-27T11:28:14.550Z",
+      "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
+      "completed": [
+        "Owner accepted seven-part scope; exact existing Seedance2.5 repair ending already saved; old unsubmitted P2 held.",
+        "Seven action images generated/visually QC checked; fly-by scale corrected. Exact Topview cruiser85dab256ad994a72a34946ef70aaaf69 retrieved and saved as a production JPEG with original source SHA/resource provenance.",
+        "Seven selected15s prompts plus seven30s alternatives integrated; original scene archived; references and manifest mapped by exact SHA.",
+        "Seven new R2 items0.00–0.06 created: first ready for slot, six blocked on real predecessor results. Historical submitted items and other priorities preserved."
+      ],
+      "next_action": "Preparation complete. Actual renders, source-end preparation/QC and slot-driven launches continue under SEREGIUS-PLAN-20261023 and live queue.",
+      "canonical_refs": [
+        "reports/scene52-rebuild-2026-10-27.json",
+        "references/scenes/scene-52/manifest.json",
+        "ops/topview-launch-queue.json",
+        "reports/scene52-reference-pack-2026-10-27.json",
+        "reports/scene52-seven-parts-handoff-2026-10-27.md"
+      ],
+      "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
+      "reference_commit": "1a08dd012f0d69f67d8b81a8592301a6566deb63",
+      "new_video_submissions": 0,
+      "new_queue_items_created": true,
+      "completed_at": "2026-10-27T11:28:14.550Z",
+      "selected_queue_ids": [
+        "S52-R2-SEED20-P1",
+        "S52-R2-SEED20-P2",
+        "S52-R2-SEED20-P3",
+        "S52-R2-SEED20-P4",
+        "S52-R2-SEED20-P5",
+        "S52-R2-SEED20-P6",
+        "S52-R2-SEED20-P7"
+      ]
+    },
     {
       "work_id": "S52-OWNER-REVIEW-20261027",
       "title": "Проверка сцены52 и подготовка выбранного конца44",
