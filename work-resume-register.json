@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T13:41:13+00:00",
+  "last_updated_at": "2026-10-27T14:03:47+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -616,6 +616,41 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
+    },
+    {
+      "work_id": "CONTINUE-MULTIPROJECT-20261027",
+      "title": "Продолжай: все проекты и квитанция приёма",
+      "status": "in_progress",
+      "project": "seregius",
+      "authorization": "Прямая команда владельца 27.10.2026",
+      "started_at": "2026-10-27T14:03:47.252Z",
+      "done": [
+        "Свежий main, проектные инструкции и состояния, пять замков"
+      ],
+      "next_action": "Реализовать проектные пакеты и квитанцию приёма, затем проверить все пять проектов.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-27T14:03:47+00:00",
+        "last_completed": "Прочитаны состояния пяти проектов и получены замки",
+        "next_action": "Реализовать проектные пакеты и квитанцию приёма, затем проверить все пять проектов.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# Продолжай — ДО: все проекты и квитанция приёма · 27.10.2026",
+          "sha256": "21d42ab6fd61f38ca50affba927d5c1ea37d6c1a7bc24d5f0970ca23588433f5"
+        },
+        "evidence": [
+          {
+            "file": "projects/projects.json",
+            "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4"
+          }
+        ],
+        "read_next": [
+          "ops/CONTINUE-PROTOCOL.md",
+          "projects/README.md"
+        ],
+        "blockers": []
+      },
+      "updated_at": "2026-10-27T14:03:47+00:00"
     }
   ],
   "rules": [
@@ -825,9 +860,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-PLAN-20261023",
+    "work_id": "CONTINUE-MULTIPROJECT-20261027",
     "project": "seregius",
-    "set_at": "2026-10-27T13:22:04+00:00",
+    "set_at": "2026-10-27T14:03:47+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }
