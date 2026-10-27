@@ -654,6 +654,29 @@
       "variants": [],
       "reference_priority": "Individual Ale28 overrides composition helpers for identity; source photos remain provenance.",
       "mapping_confidence": "owner_identified_source_task_and_visual_QC"
+    },
+    {
+      "id": "alina",
+      "name": "Алина",
+      "aliases": [],
+      "scenes": [
+        52,
+        66
+      ],
+      "model_sheet": {
+        "source": "Generated from owner-provided photo(s), 27.10.2026; visual QC only, owner approval pending",
+        "primary": "Алина · Татуин · развёртка",
+        "additional": [],
+        "public_image": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "full_image": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "full_image_source": "generated_from_owner_photos",
+        "web_preview_display_max": 480
+      },
+      "outfit_variant": "Светлые волосы с боковым пробором в низком хвосте, лицо и возраст по фото1 владельца. Кремовая туника, оливковый жилет, пыльно-бирюзовый шарф, свободные песочные брюки и коричневые ботинки.",
+      "variants": [],
+      "reference_priority": "Exact owner source photos are identity authority; individual Tatooine sheet fixes costume and outranks scene compositions.",
+      "mapping_confidence": "owner_named_photos_in_order",
+      "editorial_status": "not_approved"
     }
   ],
   "non_character_reference_rules": [
@@ -668,7 +691,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-27T19:08:22+00:00",
+  "updated_at": "2026-10-27T19:12:21+00:00",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [

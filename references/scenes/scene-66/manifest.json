@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 66,
+  "references": [
+    {
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "caption": "Алина: развёртка в одежде Татуина",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1989143,
+      "role": "Алина: развёртка в одежде Татуина",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (open Work)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T19:12:21+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T19:12:21+00:00",
+        "scope": "Visual inspection of subject, composition, identity where supplied, anatomy, 16:9 and no lettering/logos. Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-66/S66-Alina-tatooine-sheet.image-prompt.txt",
+      "identity_source_photos": [
+        {
+          "owner_attachment": "260906_0003_image_edit_8755.png",
+          "sha256": "f2ff9408701f79b8ac515055153e9def94633026d7937b14aa933a6ebe0e66a5"
+        }
+      ],
+      "character_id": "alina"
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "technical_success_is_editorial_approval": false,
+  "updated_at": "2026-10-27T19:12:21+00:00",
+  "identity_refs": [
+    "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+  ]
+}

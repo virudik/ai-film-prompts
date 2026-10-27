@@ -7625,6 +7625,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Режиссёрский контроль:** Связка: начало — конец 52 ч.7, финал — прилавок 67. Девочки не извиняются и не убирают. Внешность — только по референсам владельца (пока их нет, не запускать). Момент «какания» без крупного плана.
 
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="Алина: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Алина: развёртка в одежде Татуина</figcaption></figure>
+</div>
+
 <div class="engine-tabs" data-scene="66">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
