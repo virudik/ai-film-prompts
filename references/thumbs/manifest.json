@@ -943,6 +943,16 @@
    "thumb_bytes": 37880,
    "src_sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138"
   },
+  "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2291182,
+   "thumb_bytes": 44174,
+   "src_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e"
+  },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
