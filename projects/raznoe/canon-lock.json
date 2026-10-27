@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Open Work beb26cfe80f8: CPK reference c25-hydrolab-pool",
-  "acquired_at": "2026-10-27T18:43:21.183Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T18:44:37+00:00",
+  "task": "Open Work beb26cfe80f8: CPK reference c25-suit-lowering",
+  "acquired_at": "2026-10-27T18:45:00.099Z",
+  "expires_at": "2026-10-27T19:30:00.099Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
