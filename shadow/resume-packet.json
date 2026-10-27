@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-27T19:00:34+00:00",
-  "source_head": "81b1c98434243a12372c3d1bb14176cb76e2c910",
-  "source_fingerprint": "5510ecad578dd25b5001d1f41d2ed9947d41958bf35f4ca010967a498014dc99",
+  "checked_at": "2026-10-27T19:02:32+00:00",
+  "source_head": "4b4fda4cb79aaf3a65841bd109780987ee67e391",
+  "source_fingerprint": "ed3cf56a8bebf17565ed238da901fae8cf283349b7e153e5d2c58305757f6654",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -33,31 +33,10 @@
   },
   "reasons": [
     "brief was invalid at generation",
-    "master vs project-status sha256 mismatch"
+    "master vs project-status sha256 mismatch",
+    "recovery evidence changed: references/scenes/scene-65/manifest.json"
   ],
-  "selected_work": {
-    "work_id": "OPEN-WORK-REFS-RELAY-20261027",
-    "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
-    "status": "in_progress",
-    "last_completed": "10 ЦПК + 2 S64 + стол S65 сохранены; технический QC, без художественного принятия",
-    "next_action": "S65-toast-closeup, затем оставшиеся изображения, Relay и Продолжай",
-    "verified_at": "2026-10-27T18:59:31+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "references/scenes/scene-65/manifest.json",
-        "sha256": "8420f46d0aa2c1a69ffcc105ec2a1778d57f39bf97dda749c1c21170b22218ef"
-      }
-    ],
-    "read_next": [
-      "ops/OWNER-TASKS.md"
-    ],
-    "checkpoint": {
-      "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
-      "sha256": "77ecde5a1c639c1ab43535a25afe29d0a110b0f6ac3450e3c1fdf7b2f4337477"
-    }
-  },
+  "selected_work": null,
   "checkpoint_text": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026\n\nwork_id: OPEN-WORK-REFS-RELAY-20261027\nПроверено: 2026-10-27T18:59:31+00:00. Выполняет открытая сессия Work beb26cfe80f8; это локальный session_id, ID чата среда не раскрыла.\n\nКоманда владельца: лично нарисовать 18 референсов задачи claude-202610271320-cpk-refs; по новым фото также развёртки Алины (фото1), Даши (фото2–3) и Маши Р (фото4) в татуинской одежде и сценические кадры. Собака теперь Стич. Последнее уточнение отменяет старое ожидание фотографий. В очередь ничего не добавлять, видео не запускать. Починить повтор при временном сбое браузера в Relay 6adc585e; расширить Продолжай на задачи только открытого Work.\n\nДоказано: 10/10 PNG ЦПК 21–25 опубликованы, реестр/галереи/манифесты и handoff Роскосмоса обновлены (итог 15111686b215e7e88a852a3c4f8e7046a37ce5c6). Пауза и очередь Роскосмоса сохранены. S64-коридор и офицеры опубликованы (57e8e3c2, c4501d29); S65-стол сохранён текущим согласованным коммитом, точная внешность Серёги взята из references/full/serega.jpg. Художественное принятие не выставлено.\n\nОсталось: тост S65, Стич/улица S66, прилавок/продавец S67, три индивидуальные развёртки и сценические кадры; затем маппинг/SHA/available только существующих изображений, при этом реальные видеостыки остаются зависимостями. После изображений исправить протокол и живой prompt Relay с сохранением подписки и readback; добавить открытые Work-задачи в Продолжай; проверки, итоговый result_commit и status done. Начатые или сохранённые изображения не рисовать повторно. Следующий шаг — S65-toast-closeup.image-prompt.txt.\n\nБлокеры: постоянных нет. CLI git push не авторизован; запись успешно выполняется GitHub-коннектором с FF/CAS и readback. Первая генерация S65 отклонена инструментом; спокойная композиция без оружия успешно получена. Созданий видео, смен расписания и фальшивых Relay ACK нет.\n",
   "invariants": [
     {
@@ -151,9 +130,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "ops/OWNER-TASKS.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -403,13 +380,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "87077b0b8be74274a1e02bbf4fc884fc041701f178a5cf8d6c27d61f71aa3869",
+      "sha256": "fd1f15785f494c5cd31bc2da44de4f3bb655c13938d1f2d0214185aabedbe41a",
       "bytes": 19850
-    },
-    {
-      "file": "references/scenes/scene-65/manifest.json",
-      "sha256": "8420f46d0aa2c1a69ffcc105ec2a1778d57f39bf97dda749c1c21170b22218ef",
-      "bytes": 1477
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -428,13 +400,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "7b92d5eb401180ea7204bdfd4a47b99f693591dee317631f6a051ae30a804e2a",
+      "sha256": "9ac8bb0b944b9135cfd0bef1c9d3ee44c88a7583606b79b9cc16375913837f71",
       "bytes": 22298
     },
     {
       "file": "video-prompts.md",
-      "sha256": "3caf1a1b4afc641db346fd18f044d867eedb4caf64b035d02490ecb1b6295533",
-      "bytes": 1003027
+      "sha256": "abc42e149aa7a29ee3f53cb2942d9591263e8a9e1c727c8b226aefb520de0c44",
+      "bytes": 1003336
     },
     {
       "file": "work-resume-register.json",
@@ -442,5 +414,5 @@
       "bytes": 61657
     }
   ],
-  "packet_bytes": 7226
+  "packet_bytes": 7009
 }

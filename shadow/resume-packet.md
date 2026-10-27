@@ -3,11 +3,11 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-10-27T19:00:34+00:00
-Задача: OPEN-WORK-REFS-RELAY-20261027 — 18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи
+Проверено: 2026-10-27T19:02:32+00:00
+Задача: не определена — 
 
-Последний подтверждённый этап: 10 ЦПК + 2 S64 + стол S65 сохранены; технический QC, без художественного принятия
-Следующий шаг: S65-toast-closeup, затем оставшиеся изображения, Relay и Продолжай
+Последний подтверждённый этап: нет доказательств
+Следующий шаг: восстановить конкретный пробел
 
 ## Контрольная точка
 
@@ -44,7 +44,6 @@ work_id: OPEN-WORK-REFS-RELAY-20261027
 
 ## Прочитать под задачу
 
-- `ops/OWNER-TASKS.md`
 
 ## Перед действием
 
@@ -61,3 +60,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 - brief was invalid at generation
 - master vs project-status sha256 mismatch
+- recovery evidence changed: references/scenes/scene-65/manifest.json
