@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-27T13:22:04.533Z",
+  "work_id": "CONTINUE-001",
+  "status": "implemented_locally_verified",
+  "baseline": {
+    "commit": "cff85f016e8917cd86dc4542390aeab86268da98",
+    "preflight_false_ready_cases": [
+      "missing shadow checkpoint",
+      "changed shadow checkpoint",
+      "missing work checkpoint"
+    ],
+    "register_bytes": 98358,
+    "canonical_instruction_bytes": 379911
+  },
+  "implemented": [
+    "explicit resume_focus; no timestamp selection",
+    "checkpoint section and evidence SHA256 validation",
+    "compact reproducible recovery packet with live-check requirements",
+    "task/claim reconciliation without resubmission",
+    "continuation readiness indicator based on actual fetched source hashes",
+    "unfinished checkpoint pinning in weekly cleanup",
+    "CAS conflict rebuild in existing shadow workflow; no additional scheduler",
+    "historical work snapshots archived and linked to current plan"
+  ],
+  "validation": {
+    "targeted_recovery_tests": 26,
+    "full_suite": {
+      "passed": 331,
+      "command": "PYTHONPATH=test-deps python -m unittest discover -s tests -p 'test_*.py'"
+    },
+    "site": {
+      "static_contract": "passed",
+      "indicator_logic": "passed",
+      "visual_public_readback": "pending_publication"
+    },
+    "instruction_template": {
+      "characters": 7915,
+      "sha256": "d9be327ead513c89c7b0f7bb67ea3b2ad398413a90ea1c3173404e411ac838b4",
+      "unchanged": true
+    }
+  },
+  "project_instruction_receipt": "reports/chatgpt-project-instructions-2026-10-27.json",
+  "real_new_project_chat_test": {
+    "status": "pending_next_actual_chat",
+    "reason": "Installed instructions and offline tests do not prove execution by a future conversation.",
+    "tracking_issue": "https://github.com/virudik/ai-film-prompts/issues/9"
+  },
+  "limits": [
+    "Does not bypass ChatGPT conversation limits or expose remaining context",
+    "Packet grants no external action permission",
+    "Fresh main, owner decisions, locks, real slot and input/QC checks remain mandatory"
+  ],
+  "rollback": "Revert implementation commit under canon lock; if packet is invalid use full canonical takeover.",
+  "backup_copies": {
+    "drive": "stale_after_canonical_update; existing periodic copy workflow will refresh",
+    "project_instructions": "installed template unchanged; follows current protocol",
+    "library": "noncanonical snapshot workflow updated; no claim of automatic upload"
+  }
+}

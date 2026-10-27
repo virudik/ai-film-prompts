@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'continue-status.js'
       - 'scripts/validate_site.py'
       - 'film.html'
       - 'references.html'
@@ -21,3 +22,5 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: python3 scripts/validate_site.py
+      - run: node --check continue-status.js
+      - run: node tests/continue_status_check.js

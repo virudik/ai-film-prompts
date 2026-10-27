@@ -1,9 +1,8 @@
 name: Shadow pilot takeover brief (not canonical)
 
-# Owner decision D1 (09.10.2026): 7-day shadow pilot of a derived takeover brief.
-# NOT CANONICAL — takeover still follows NEW-CHAT-HANDOFF.md in full. No own schedule:
-# runs when canonical mirrors/status change and after each master sync run.
-# Commits only when shadow/ content changes (generated_at is ignored).
+# D7 accepted 14.10; Continue recovery upgrade 27.10. Derived views only.
+# Same existing workflow, no new schedule. Rebuild after a CAS conflict; never
+# rebase stale generated snapshots over newer canonical data.
 
 on:
   workflow_dispatch:
@@ -23,6 +22,15 @@ on:
       - 'video-prompts.md'
       - 'instruction-sync-status.json'
       - 'scripts/build_takeover_brief.py'
+      - 'scripts/continue_preflight.py'
+      - 'scripts/resume_state.py'
+      - 'scripts/build_resume_packet.py'
+      - 'work-resume-register.json'
+      - 'reports/**'
+      - 'ops/CONTINUE-PROTOCOL.md'
+      - 'ops/topview-launch-queue.json'
+      - 'project-status.json'
+      - 'monitor-role.json'
       - '.github/workflows/shadow-brief.yml'
 
 permissions:
@@ -42,21 +50,30 @@ jobs:
           ref: main
           fetch-depth: 1
 
-      - name: Build shadow brief
-        run: python3 scripts/build_takeover_brief.py . shadow
-
-      - name: Commit only on content change
+      - name: Build and publish verified recovery views from fresh main
         run: |
-          if git diff --quiet -- shadow/ && [ -z "$(git ls-files --others --exclude-standard shadow/)" ]; then
-            echo "shadow brief unchanged — no commit"
-            exit 0
-          fi
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add shadow/
-          git commit -m "Shadow pilot: refresh takeover brief (not canonical)"
           for i in 1 2 3 4 5; do
-            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
-            sleep $((i * 5))
+            git fetch -q origin main
+            git reset --hard origin/main
+            python3 scripts/build_takeover_brief.py . shadow
+            python3 scripts/build_resume_packet.py .
+            git add shadow/takeover-brief.json shadow/takeover-brief.md shadow/current-checkpoint.md shadow/resume-packet.json shadow/resume-packet.md
+            if git diff --cached --quiet; then
+              echo "recovery views unchanged — no commit"
+              exit 0
+            fi
+            git commit -m "Refresh verified Continue recovery views"
+            if git push -q origin HEAD:main; then
+              git fetch -q origin main
+              for f in shadow/takeover-brief.json shadow/takeover-brief.md shadow/current-checkpoint.md shadow/resume-packet.json shadow/resume-packet.md; do
+                test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"
+              done
+              exit 0
+            fi
+            sleep $((i * 3))
           done
-          echo "push failed after retries" && exit 1
+          echo "Concurrent changes prevented publication; no stale snapshot pushed" >&2
+          exit 1

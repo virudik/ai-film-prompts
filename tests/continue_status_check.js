@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict');
+const {assess,safePath}=require('../continue-status.js');
+const files=['work-resume-register.json','reports/current-work-checkpoint.md','shadow/current-checkpoint.md','shadow/takeover-brief.json','ops/topview-launch-queue.json'];
+const now=Date.now(), hashes=Object.fromEntries(files.map(p=>[p,'a'.repeat(64)]));
+const p={schema_version:1,generator:'continue-2.0',ready_for_resume:true,execution_authorized:false,selected_work:{work_id:'x'},checked_at:new Date(now).toISOString(),sources:files.map(file=>({file,sha256:hashes[file]}))};
+assert.equal(assess(p,hashes,now).ready,true);
+assert.equal(assess(p,{},now).ready,false);
+assert.equal(assess({...p,ready_for_resume:false},hashes,now).ready,false);
+assert.equal(assess({...p,execution_authorized:true},hashes,now).ready,false);
+assert.equal(assess({...p,checked_at:new Date(now+3600000).toISOString()},hashes,now).ready,false);
+assert.equal(assess({...p,sources:p.sources.slice(1)},hashes,now).ready,false);
+assert.equal(assess(null,hashes,now).ready,false);
+for(const s of ['../secret','https://evil.test/x','//evil','/absolute','a/../b'])assert.equal(safePath(s),false);
+console.log('Continue indicator: ready, stale, missing, unsafe and future-time cases passed.');

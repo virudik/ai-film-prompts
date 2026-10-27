@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "generator": "continue-2.0",
+  "checked_at": "2026-10-27T13:27:50+00:00",
+  "source_head": "9d09bb2dd2451023c35b832460ff3846c5a39686",
+  "source_fingerprint": "237430be8a0e5b1766c5a86da42f0ce0e4c6424830c7f08cf6d46a6f4ec64abd",
+  "status": "ready",
+  "ready_for_resume": true,
+  "execution_authorized": false,
+  "reasons": [],
+  "selected_work": {
+    "work_id": "SEREGIUS-PLAN-20261023",
+    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+    "status": "waiting_for_results_and_slots",
+    "last_completed": "Сцена 52: семь частей, промты, референсы и очередь R2P1–P7 подготовлены и опубликованы.",
+    "next_action": "По свежему main проверить готовые результаты, решения владельца и общие слоты. Продолжить разрешённую очередь Серёгиуса по фактической готовности: новая S52-R2-P1 при свободном слоте; P2–P7 только после реального результата и QC предшественника. Существующие task ID не отправлять повторно.",
+    "verified_at": "2026-10-27T13:22:04+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "reports/scene52-rebuild-2026-10-27.json",
+        "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
+      }
+    ],
+    "read_next": [
+      "reports/scene52-seven-parts-handoff-2026-10-27.md",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/OWNER-TASKS.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# Серёгиус: продолжение производства после подготовки 52",
+      "sha256": "680a328e1c3ed6ab92a9e558779e7ea35c34fb14b0515cfa59fdbd4de9252ced"
+    }
+  },
+  "checkpoint_text": "# Серёгиус: продолжение производства после подготовки 52\n\nwork_id: SEREGIUS-PLAN-20261023\nВремя: 2026-10-27T13:22:04.533Z\nПоследний подтверждённый этап: сцена 52 перестроена на семь частей; 7 основных промтов, альтернативы, референсы и очередь R2P1–P7 опубликованы и проверены ранее. Выбран конец ремонта крыла из Scene44 Seedance2.5. Доказательство: reports/scene52-rebuild-2026-10-27.json; инструкция сменщику: reports/scene52-seven-parts-handoff-2026-10-27.md.\nЭто завершённая подготовка, а не готовые семь видео. Далее — живые результаты/QC, реальные видеовходы продолжений и разрешённые запуски по свежей очереди. P1 запускается только в подтверждённый свободный слот; P2–P7 требуют результата предшественника. Старый S52-P2 заменён. Повторов task ID и автоматических повторных попыток нет; Роскосмос на паузе. Слоты из старых записей не использовать.\n",
+  "invariants": [
+    {
+      "id": "INV-AUTH",
+      "rule": "Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-ONE-MASTER",
+      "rule": "One master: video-prompts.md in GitHub main; no v2/final/copy.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-FRESH-WRITE",
+      "rule": "Before any master write: fresh git pull of main; minimal commit → SYNC-TRIGGER → validator health=ok → Pages → verification; rejected push = another writer, redo from scratch.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SERIAL-DOCS",
+      "rule": "Instruction edits: fresh pull → minimal commit → scripts/cert_github.py → push → verify; never replay a stale write.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SCENE-ID",
+      "rule": "Scene IDs stable; retired IDs never reused; rerender keeps the same Scene ID.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-SUCCESS-NOT-APPROVAL",
+      "rule": "Topview technical success ≠ editorial approval; never auto approve/rerun/delete/close.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 10\\. Topview telemetry"
+    },
+    {
+      "id": "INV-SLOTS",
+      "rule": "Slot capacity 6; one active task = one slot; a terminal task frees its slot at once; canonical slow is cleared only by an explicit owner button (11.10.2026), never by a technical terminal.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Точное ТЗ — Topview slow slots"
+    },
+    {
+      "id": "INV-ONE-MONITOR",
+      "rule": "One writer, decided by monitor-role.json + scripts/monitor_role.py: since 13.10.2026 the GitHub robot (topview-robot.yml → robot_telemetry.py, every 10 min via Supabase pg_cron) is primary, ChatGPT is standby and takes over only after 180 min without a verified healthy robot cycle; the Claude monitor is off; kill switch ROBOT_TELEMETRY=shadow. Old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-NO-FAKE-TIME",
+      "rule": "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Background connector degradation"
+    },
+    {
+      "id": "INV-OWNER-BOUNDARY",
+      "rule": "Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 14\\. Поведение нового сменщика"
+    },
+    {
+      "id": "INV-PROMPT-AUTONOMY",
+      "rule": "Every copyable prompt is self-contained: identity lock, reference roles/priority, camera/space, timeline, native audio, negatives, FRAME FILL.",
+      "owner_doc": "PROMPT-STYLE-GUIDE.md",
+      "anchor": "^## 16A\\. Автономность"
+    },
+    {
+      "id": "INV-MATERIAL-CHANGE",
+      "rule": "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → cert_github.py certificate → push to main → Notion pointer → backup copies (best-effort).",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 9\\. Material Change Documentation Rule"
+    },
+    {
+      "id": "INV-NO-CREDITS",
+      "rule": "Agents may launch only owner-authorized queue items via the website in Unlimited mode at zero credits. Paid Topview launches are performed only by the owner.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## Scene Reference Pack automation"
+    },
+    {
+      "id": "INV-LIBRARY-NONBLOCKING",
+      "rule": "Library is best-effort, never a completion gate.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## LIBRARY RECOVERY"
+    },
+    {
+      "id": "INV-DONE",
+      "rule": "Never say «готово» before the relevant read-back/verification passed.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 14\\. Verification before final answer"
+    }
+  ],
+  "read_next": [
+    "reports/scene52-seven-parts-handoff-2026-10-27.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/OWNER-TASKS.md"
+  ],
+  "live_checks_required": [
+    "Fresh main and canon lock before writing",
+    "Open owner_decisions and agent inbox; do not infer approval from this packet",
+    "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
+  ],
+  "queue_recovery": {
+    "unresolved": [],
+    "existing_task_count": 39,
+    "existing_tasks": [
+      {
+        "item_id": "S44-R1-20261017",
+        "task_id": "42f5f94e994a4768a4618c5cda3fa4d1"
+      },
+      {
+        "item_id": "S28-A1-TEST-20261017",
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633"
+      },
+      {
+        "item_id": "S37-SEED20-P2",
+        "task_id": "af627d97836d4832a1a4ad8cf24fa921"
+      },
+      {
+        "item_id": "S39-SEED20-P1",
+        "task_id": "008058a4705c45c089256116427153d4"
+      },
+      {
+        "item_id": "S39-SEED20-P2",
+        "task_id": "7863a2b3e8e54ca8a5d37468fc77d49f"
+      },
+      {
+        "item_id": "S40-SEED20-P1",
+        "task_id": "1751294fbf5f49dbb00a0f44401486ca"
+      },
+      {
+        "item_id": "S40-SEED20-P2",
+        "task_id": "790a7017632045a58d83ccc0891c44ac"
+      },
+      {
+        "item_id": "S42-SEED20-P1",
+        "task_id": "a1ca4c36e31d45c5b4b72df7777d2592"
+      },
+      {
+        "item_id": "S42-SEED20-P2",
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd"
+      },
+      {
+        "item_id": "S47-SEED20-P1",
+        "task_id": "2175458eede64d0881ad70897155459a"
+      },
+      {
+        "item_id": "S47-SEED20-P2",
+        "task_id": "56e5e07c85df4af583c62665c51ed563"
+      },
+      {
+        "item_id": "S48-SEED20-P1",
+        "task_id": "8d7ff1e2de63478693778de29e0dd56e"
+      },
+      {
+        "item_id": "S52-SEED20-P1",
+        "task_id": "34ff1bf7fe9d47f08de5a635d5626c70"
+      },
+      {
+        "item_id": "S53-SEED20-P1",
+        "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed"
+      },
+      {
+        "item_id": "S53-SEED20-P2",
+        "task_id": "439dd6d829c64f16b6491e0177cc1619"
+      },
+      {
+        "item_id": "S56-SEED20-P1",
+        "task_id": "b15165813c0848939edbe8b3d3aed182"
+      },
+      {
+        "item_id": "S16-SEED20-P2",
+        "task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4"
+      },
+      {
+        "item_id": "S57-SEED20-P1",
+        "task_id": "20bf2d185da546aa8aba3b1d4508d0d8"
+      },
+      {
+        "item_id": "S57-SEED20-P2",
+        "task_id": "af8e389dc9564607bc6138b408c72da5"
+      },
+      {
+        "item_id": "S58-SEED20-P1",
+        "task_id": "6598a21c2c684d43b7cede9cfc987107"
+      },
+      {
+        "item_id": "S58-SEED20-P2",
+        "task_id": "8b6a8ce102ea416e88d3c14fa558c513"
+      },
+      {
+        "item_id": "S28-A2-20261023",
+        "task_id": "8a8eadc809004e318c47201b8a463be0"
+      },
+      {
+        "item_id": "S36-S36",
+        "task_id": "e33891d4568a4a90b31ff3c67f5a7100"
+      },
+      {
+        "item_id": "S37-SEED20-P1",
+        "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73"
+      },
+      {
+        "item_id": "S16-SEED20-P1",
+        "task_id": "30cfaf12ad944cd6944416623397e41c"
+      },
+      {
+        "item_id": "S43-R1-20261017",
+        "task_id": "70ba69f8c44e4898ab587fbffeaeca01"
+      },
+      {
+        "item_id": "S54",
+        "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb"
+      },
+      {
+        "item_id": "B7",
+        "task_id": "979f07acffe04750961515f4baf21a3f"
+      },
+      {
+        "item_id": "B8",
+        "task_id": "5333994f739f4a8b813a6a36dcb7e140"
+      },
+      {
+        "item_id": "B9",
+        "task_id": "0d1f17c226834bfbb851d76ed32f9877"
+      },
+      {
+        "item_id": "B3",
+        "task_id": "56c0ea656f484b0cb8464233fe097e0d"
+      },
+      {
+        "item_id": "S45",
+        "task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b"
+      },
+      {
+        "item_id": "S46",
+        "task_id": "6ada672ccc5e48d2b1438c0aa18af945"
+      },
+      {
+        "item_id": "S43",
+        "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096"
+      },
+      {
+        "item_id": "S41",
+        "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf"
+      },
+      {
+        "item_id": "S50-FANS-IMAGE",
+        "task_id": "48657a07dac542b0a3340e44c15b933f"
+      },
+      {
+        "item_id": "S55",
+        "task_id": "86741d99f7634e3b97e8b139996b83b0"
+      },
+      {
+        "item_id": "S50-FANS-IMAGE-V2",
+        "task_id": "1c48a62d14d14d348a5c49fe5cdb5e70"
+      },
+      {
+        "item_id": "S50-FANS-IMAGE-V3",
+        "task_id": "792d7b8a3912484bb34907e219f9c188"
+      }
+    ],
+    "next_candidates": [
+      {
+        "item_id": "S52-R2-SEED20-P1",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S62-SEED20-P1",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S59-SEED20-P2",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      }
+    ],
+    "rule": "Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry."
+  },
+  "sources": [
+    {
+      "file": "AI-PROJECT-GUIDE.md",
+      "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+      "bytes": 34298
+    },
+    {
+      "file": "BACKUP-AI-RUNBOOK.md",
+      "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+      "bytes": 18925
+    },
+    {
+      "file": "NEW-CHAT-HANDOFF.md",
+      "sha256": "0fa3f6b0ad96bd57c50eb2cd9833c8e5a2c6aafbfefd4c9346a4e1ceb0c0cf9a",
+      "bytes": 34532
+    },
+    {
+      "file": "PROMPT-STYLE-GUIDE.md",
+      "sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
+      "bytes": 72372
+    },
+    {
+      "file": "README-AI-SYNC.md",
+      "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+      "bytes": 16692
+    },
+    {
+      "file": "SYNC-RUNBOOK.md",
+      "sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
+      "bytes": 125587
+    },
+    {
+      "file": "USER-GUIDE.md",
+      "sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
+      "bytes": 80102
+    },
+    {
+      "file": "instruction-sync-status.json",
+      "sha256": "a08f66d7ee37eb09bd3a14bc8fa60c226a47dbc11fefd9940057e875af0b175b",
+      "bytes": 5141
+    },
+    {
+      "file": "monitor-role.json",
+      "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+      "bytes": 4486
+    },
+    {
+      "file": "ops/CONTINUE-PROTOCOL.md",
+      "sha256": "b58f9676204a482836e83ffb2900e8ed4ed6fccc76e9282a6562a2405a071daa",
+      "bytes": 28268
+    },
+    {
+      "file": "ops/topview-launch-queue.json",
+      "sha256": "71b1bc16068b69fccf5661ae9d9695cb329288cb9f980ff38c94e24c0cb86991",
+      "bytes": 391963
+    },
+    {
+      "file": "project-status.json",
+      "sha256": "ae24083b31681c5812a7549a172bc56adf67775b55b519d7aa62fa9873b7c7a3",
+      "bytes": 18771
+    },
+    {
+      "file": "reports/current-work-checkpoint.md",
+      "sha256": "00ddc9ec4b981d4adfcc15ed9aa1b26343e8508e639dbc10a64a91ecec1bce31",
+      "bytes": 8646
+    },
+    {
+      "file": "reports/scene52-rebuild-2026-10-27.json",
+      "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72",
+      "bytes": 20084
+    },
+    {
+      "file": "shadow/current-checkpoint.md",
+      "sha256": "130a951111ce587d8916fca544c4850c0e2654da2ccabd67627d48ffd112cecf",
+      "bytes": 34333
+    },
+    {
+      "file": "shadow/takeover-brief.json",
+      "sha256": "bf93dcfac4e1f29688f7677307b2d1203ce57ddff8f4a3ee537eb40df171dbd6",
+      "bytes": 23321
+    },
+    {
+      "file": "video-prompts.md",
+      "sha256": "2da47ef349122575154cd6522f5536b5ab13535a12e357b7a7fd5af1b986ce29",
+      "bytes": 1112657
+    },
+    {
+      "file": "work-resume-register.json",
+      "sha256": "bdd47a4d46907e719d9788f6c5e0ac485e20834de3e787b8bde27e1e00eec92c",
+      "bytes": 54923
+    }
+  ],
+  "packet_bytes": 6098
+}

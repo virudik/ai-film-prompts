@@ -200,7 +200,7 @@ def main(repo, out):
              "valid_at_generation": valid, "validity_mismatches": mismatches,
              "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
              "sources": sources, "invariants": inv, "current_checkpoint": {"source": "NEW-CHAT-HANDOFF.md",
-             "chars": len(current_full), "above_marker_chars": len(current), "recent_sections_below_marker": [r.splitlines()[0] for r in recent], "sha256_12": sha(current_full.encode())[:12],
+             "chars": len(current_full), "above_marker_chars": len(current), "recent_sections_below_marker": [r.splitlines()[0] for r in recent], "sha256": sha(current_full.encode()), "sha256_12": sha(current_full.encode())[:12],
              "extra_current_sections": [x.group(0) for x in CURRENT_POINTER.finditer(h)]},
              "runtime": runtime, "scene_index": scenes, "read_sets": READ_SETS,
              "full_fallback_triggers": FULL_FALLBACK_TRIGGERS}

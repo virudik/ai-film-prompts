@@ -6,7 +6,7 @@ This tool moves old, already finished entries VERBATIM into archive files and le
 short. Nothing is deleted and nothing live is touched:
 
 * reports/current-work-checkpoint.md — keeps the newest KEEP_SECTIONS top-level sections (newest on
-  top); older sections go on top of archive/checkpoints/current-work-checkpoint-archive.md.
+  top), plus recovery checkpoints pinned by unfinished work; other older sections go on top of archive/checkpoints/current-work-checkpoint-archive.md.
 * work-resume-register.json — finished entries leave `active_work` for `completed_work`;
   `completed_work` keeps the newest KEEP_COMPLETED, the rest go to archive/work-resume-register-archive.json;
   a live entry keeps the last KEEP_DONE points of each `done` / `completed` list; older points go to the same archive.
@@ -93,13 +93,16 @@ def split_sections(text):
     return "".join(pre), ["".join(s) for s in sections]
 
 
-def trim_checkpoint(text, archive_text, archive_rel, keep=KEEP_SECTIONS):
+def trim_checkpoint(text, archive_text, archive_rel, keep=KEEP_SECTIONS, protected_anchors=()):
     pre, sections = split_sections(text)
     pointer = POINTER.format(archive_rel)
     sections = [s.replace(pointer, "").rstrip() + "\n" for s in sections]
     if len(sections) <= keep:
         return None
-    live, old = sections[:keep], sections[keep:]
+    live = [s for i, s in enumerate(sections) if i < keep or s.splitlines()[0] in protected_anchors]
+    old = [s for i, s in enumerate(sections) if i >= keep and s.splitlines()[0] not in protected_anchors]
+    if not old:
+        return None
     body_live = "\n".join(live).rstrip()
     if body_live.endswith("\n---"):
         body_live = body_live[:-4].rstrip()
@@ -310,8 +313,14 @@ def run(root, write=False, now=None, relay_only=False, root_only=False):
         cp = base / CHECKPOINT
         if cp.is_file():
             arch = base / CHECKPOINT_ARCHIVE
+            reg_path = base / REGISTER
+            reg = load_json(reg_path) if reg_path.is_file() else {}
+            protected = {(w.get("recovery") or {}).get("checkpoint", {}).get("anchor")
+                         for w in reg.get("active_work", [])
+                         if not FINISHED_WORK.match(str(w.get("status") or ""))}
             res = trim_checkpoint(cp.read_text(encoding="utf-8"),
-                                  arch.read_text(encoding="utf-8") if arch.is_file() else "", prefix + CHECKPOINT_ARCHIVE)
+                                  arch.read_text(encoding="utf-8") if arch.is_file() else "", prefix + CHECKPOINT_ARCHIVE,
+                                  protected_anchors=protected)
             if res:
                 report.append("{}: checkpoint → архив {} разделов".format(name, res[2]))
                 if write:
