@@ -8,19 +8,35 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from resume_project import context
 from continue_preflight import evaluate
 from resume_state import REGISTER, CHECKPOINT, QUEUE, digest, local_file, operation_guidance, verify_recovery
 
 GENERATOR = "continue-2.0"
 
 
-def build(root, work_id=None):
+def build(root, work_id=None, project="seregius"):
     root = Path(root)
-    result = evaluate(root, work_id)
+    ctx = context(root, project)
+    result = evaluate(root, work_id, project=project)
     sources = []
-    paths = {REGISTER, CHECKPOINT, QUEUE, "ops/CONTINUE-PROTOCOL.md",
+    paths = {ctx["register"], ctx["checkpoint"], ctx["queue"], ctx["handoff"], ctx["instructions"], ctx["master"], ctx["status"], "ops/CONTINUE-PROTOCOL.md",
              "shadow/takeover-brief.json", "shadow/current-checkpoint.md",
              "project-status.json", "instruction-sync-status.json", "monitor-role.json"}
+    if project != "seregius":
+        paths.update(["projects/projects.json", "projects/README.md"])
+    receipt = None
+    if (root / ctx["receipts"]).exists():
+        paths.add(ctx["receipts"])
+        try:
+            ledger = json.loads(local_file(root, ctx["receipts"]).read_bytes())
+            if ledger.get("project") != project or not isinstance(ledger.get("receipts"), list):
+                raise ValueError("receipt project/history mismatch")
+            if ledger["receipts"]:
+                r = ledger["receipts"][0]
+                receipt = {k: r.get(k) for k in ("receipt_id", "project", "work_id", "chat", "accepted_at", "outcome", "first_action", "source_head")}
+        except (OSError, ValueError, KeyError, TypeError, AttributeError) as e:
+            result["reasons"].append("invalid handoff receipts: " + str(e))
     checkpoint_text, queue, invariants = "", {}, []
     try:
         brief = json.loads(local_file(root, "shadow/takeover-brief.json").read_bytes())
@@ -29,11 +45,11 @@ def build(root, work_id=None):
             paths.add(s["file"])
         invariants = [{"id": i["id"], "rule": i["rule"], "owner_doc": i["owner_doc"],
                        "anchor": i["anchor"]} for i in brief.get("invariants", [])]
-        reg = json.loads(local_file(root, REGISTER).read_bytes())
-        recovery = verify_recovery(root, reg, work_id)
+        reg = json.loads(local_file(root, ctx["register"]).read_bytes())
+        recovery = verify_recovery(root, reg, work_id, project)
         checkpoint_text = recovery["checkpoint_text"]
         paths.update(s["file"] for s in recovery["sources"])
-        queue = json.loads(local_file(root, QUEUE).read_bytes())
+        queue = json.loads(local_file(root, ctx["queue"]).read_bytes())
     except (OSError, ValueError, KeyError, TypeError, AttributeError) as e:
         result["reasons"].append("recovery packet source invalid: " + str(e))
     for p in sorted(paths):
@@ -64,12 +80,12 @@ def build(root, work_id=None):
     except (OSError, subprocess.CalledProcessError):
         head = None
     return {
-        "schema_version": 1, "generator": GENERATOR,
+        "schema_version": 1, "generator": GENERATOR, "project": project, "project_name": ctx["name"],
         "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source_head": head, "source_fingerprint": digest(json.dumps(sources, sort_keys=True).encode()),
         "status": "needs_recovery" if result["reasons"] else "ready",
         "ready_for_resume": not result["reasons"], "execution_authorized": False,
-        "reasons": result["reasons"], "selected_work": result.get("selected_work"),
+        "handoff_receipt": receipt, "reasons": result["reasons"], "selected_work": result.get("selected_work"),
         "checkpoint_text": checkpoint_text, "invariants": invariants,
         "read_next": (result.get("selected_work") or {}).get("read_next", []),
         "live_checks_required": ["Fresh main and canon lock before writing",
@@ -85,7 +101,7 @@ def build(root, work_id=None):
 
 def markdown(packet):
     w = packet.get("selected_work") or {}
-    lines = ["# Продолжай — пакет восстановления Серёгиуса", "",
+    lines = ["# Продолжай — пакет восстановления: " + packet.get("project_name", "Серёгиус"), "",
              "Производный навигатор. Сначала свежий main и `scripts/continue_preflight.py`; разрешением на запуск не является.",
              "", "Состояние: " + packet["status"], "Проверено: " + packet["checked_at"],
              "Задача: " + str(w.get("work_id", "не определена")) + " — " + str(w.get("title", "")),
@@ -104,8 +120,9 @@ def markdown(packet):
     return "\n".join(lines) + "\n"
 
 
-def write(root, out="shadow", work_id=None):
-    packet = build(root, work_id)
+def write(root, out=None, work_id=None, project="seregius"):
+    packet = build(root, work_id, project)
+    out = out or context(root, project)["packet_dir"]
     out = Path(root) / out
     out.mkdir(parents=True, exist_ok=True)
     dest = out / "resume-packet.json"
@@ -127,8 +144,14 @@ def write(root, out="shadow", work_id=None):
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("repo", nargs="?", default=".")
-    p.add_argument("--out", default="shadow")
+    p.add_argument("--out")
+    p.add_argument("--project", default="seregius")
+    p.add_argument("--all-projects", action="store_true")
     p.add_argument("--work-id")
     a = p.parse_args()
-    result = write(a.repo, a.out, a.work_id)
-    print(json.dumps({k: result[k] for k in ("status", "reasons", "packet_bytes")}, ensure_ascii=False))
+    projects = [p["id"] for p in json.loads((Path(a.repo) / "projects/projects.json").read_bytes())["projects"]] if a.all_projects else [a.project]
+    if a.all_projects and (a.out or a.work_id):
+        p.error("--all-projects cannot share --out or --work-id")
+    for project in projects:
+        result = write(a.repo, a.out, a.work_id, project)
+        print(json.dumps({k: result[k] for k in ("project", "status", "reasons", "packet_bytes")}, ensure_ascii=False))

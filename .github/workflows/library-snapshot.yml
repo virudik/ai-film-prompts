@@ -28,7 +28,7 @@ jobs:
           python3 -m unittest -v tests/test_continue_preflight.py
           mkdir -p snapshot
           python3 scripts/build_takeover_brief.py . shadow
-          python3 scripts/build_resume_packet.py .
+          python3 scripts/build_resume_packet.py . --all-projects
           python3 scripts/continue_preflight.py . --output snapshot/continue-preflight.json
           for file in NEW-CHAT-HANDOFF.md SYNC-RUNBOOK.md AI-PROJECT-GUIDE.md PROMPT-STYLE-GUIDE.md USER-GUIDE.md README-AI-SYNC.md BACKUP-AI-RUNBOOK.md video-prompts.md; do
             cp "$file" snapshot/
@@ -38,6 +38,7 @@ jobs:
           cp work-resume-register.json snapshot/
           cp reports/current-work-checkpoint.md snapshot/WORK-CHECKPOINT.md
           cp shadow/resume-packet.md shadow/resume-packet.json snapshot/
+          python3 scripts/snapshot_recovery_projects.py . snapshot
           git rev-parse HEAD > snapshot/GITHUB-MAIN-COMMIT.txt
           (cd snapshot && sha256sum *.md *.json > FILE-SHA256SUMS.txt)
       - uses: actions/upload-artifact@v5

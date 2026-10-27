@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "receipts": [
+    {
+      "schema_version": 1,
+      "receipt_id": "continue-multi-20261027-current-work",
+      "project": "seregius",
+      "work_id": "CONTINUE-MULTIPROJECT-20261027",
+      "source_head": "dcba3bfce1be1ccece4eca431297390dfd061220",
+      "takeover_kind": "current_chat_task_acceptance",
+      "started_at": "2026-10-27T13:56:43Z",
+      "accepted_at": "2026-10-27T14:15:53.461Z",
+      "chat": {
+        "agent": "chatgpt",
+        "label": "Текущий ChatGPT Work — Продолжай: все проекты и квитанция (27.10.2026)",
+        "session_id": "work-dbcaa6ee-3f43-40ac-bc62-acb19d667f43",
+        "chat_id": null,
+        "identity_status": "unavailable",
+        "identity_note": "Среда не раскрыла ID/URL текущего чата; session_id — идентификатор записи этого запуска, не ChatGPT conversation ID."
+      },
+      "checks": [
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub connector read/write and local checks available. No Topview execution needed or attempted in this task."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "CONTINUE-MULTIPROJECT-20261027: original checkpoint saved/read back in 445f3524a425adc0faf68642b66073ccc44ee021; project states read separately."
+        },
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "GitHub main fetched, base dcba3bfce1be1ccece4eca431297390dfd061220; remote changes compared, only derived packets overlapped and were rebuilt."
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "Full takeover carried forward in this chat; seven canonical instruction hashes/15 anchors verified; project HANDOFF/INSTRUCTIONS and updated CONTINUE-PROTOCOL read."
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase query 2026-10-27: pending/open/in_progress returned zero rows. Current two-point owner request authorizes this change."
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "ops/owner-tasks.json read: only open task claude-202610271320-cpk-refs, raznoe, open Work chat only. Kept separate from current infrastructure request."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Root and four project locks acquired as chatgpt in 09d50d6; own expiry 2026-10-27T14:47Z, verified locally."
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-10-27T14:15:53.461Z",
+        "state": "completed",
+        "description": "Продолжил принятую задачу с выделения проектных путей и раздельных focus/idle; реализовал проверку пяти пакетов и прогнал тесты изоляции/квитанций.",
+        "evidence": "scripts/resume_project.py; scripts/resume_state.py; scripts/handoff_receipt.py; tests/test_project_recovery.py. Это приём текущей задачи этим чатом, не тест будущего нового чата."
+      },
+      "request_sha256": "920eeae73abc1da902317072f0da4edd9db4fd8dbad5981ac0c34eea720fb94b",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+          "bytes": 34298
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+          "bytes": 18925
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "fe78047403d0b122c0f0890da01c0d5f9335613c6a49ad75a2dc6dca73f1c44d",
+          "bytes": 34641
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
+          "bytes": 72372
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+          "bytes": 16692
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
+          "bytes": 125587
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
+          "bytes": 80102
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "e2d0dcd3572b4d98572005b9b0ac3dcdc59fcef15c277ba70950e3a0c2cdc93e",
+          "bytes": 5141
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "76eb22e3e8ed4a15e8eb3f1fbae73f5b11038bf67f53669e65d5661f5330046c",
+          "bytes": 38152
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "a408cf28f108415c6acd5f40cf838a6edd24ec5fa904b2b4b7b3a7bcf48b441e",
+          "bytes": 392902
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "a9cfeabf71c24b4d142544b186ca799105b0be6b9390daf005bdb564394604ed",
+          "bytes": 17822
+        },
+        {
+          "file": "projects/projects.json",
+          "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
+          "bytes": 8453
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "273117edefe7260698be4e1e4774d74f832fe9871ce8410a0db105f7a3c3b5e6",
+          "bytes": 11905
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "a2350ad9f09b868936cf0860f362f1f387d9167cb6f3a5f74d80ad7299d070c7",
+          "bytes": 34442
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "45cb08f957d2bcb786d97a4709f82eeabc56e7d9141353f6372380043cb554d0",
+          "bytes": 20493
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
+          "bytes": 903928
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "e5dd23f170c93788f1814e597499757dc6b93e6a43174d6230185366de6f3f26",
+          "bytes": 56663
+        }
+      ],
+      "source_fingerprint": "44689708a761ad61f8e6d866b457cf19d9013e8388b918feca01fe2e55134066",
+      "recorded_at": "2026-10-27T14:15:53+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    }
+  ],
+  "note": "Нет записи — нет подтверждённого приёма новым чатом. Миграция пакета квитанцию не создаёт."
+}

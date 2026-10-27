@@ -10,7 +10,7 @@ on:
     # GITHUB_TOKEN writes do not trigger push workflows. Rebuild after the
     # existing telemetry writer too, so its fresh project-status cannot leave
     # the recovery packet stale until the next half-hour canonical check.
-    workflows: ['Canonical master check and owner buttons (GitHub main; Drive is only a copy)', 'Topview robot (scan + telemetry writer)']
+    workflows: ['Canonical master check and owner buttons (GitHub main; Drive is only a copy)', 'Topview robot (scan + telemetry writer)', 'Projects status']
     types: [completed]
   push:
     branches: [main]
@@ -27,6 +27,17 @@ on:
       - 'scripts/build_takeover_brief.py'
       - 'scripts/continue_preflight.py'
       - 'scripts/resume_state.py'
+      - 'scripts/resume_project.py'
+      - 'scripts/handoff_receipt.py'
+      - 'projects/projects.json'
+      - 'projects/README.md'
+      - 'projects/*/HANDOFF.md'
+      - 'projects/*/INSTRUCTIONS.md'
+      - 'projects/*/work-resume-register.json'
+      - 'projects/*/reports/**'
+      - 'projects/*/video-prompts.md'
+      - 'projects/*/project-status.json'
+      - 'projects/*/ops/topview-launch-queue.json'
       - 'scripts/build_resume_packet.py'
       - 'work-resume-register.json'
       - 'reports/**'
@@ -62,8 +73,8 @@ jobs:
             git fetch -q origin main
             git reset --hard origin/main
             python3 scripts/build_takeover_brief.py . shadow
-            python3 scripts/build_resume_packet.py .
-            git add shadow/takeover-brief.json shadow/takeover-brief.md shadow/current-checkpoint.md shadow/resume-packet.json shadow/resume-packet.md
+            python3 scripts/build_resume_packet.py . --all-projects
+            git add shadow/takeover-brief.json shadow/takeover-brief.md shadow/current-checkpoint.md shadow/resume-packet.json shadow/resume-packet.md projects/*/shadow/resume-packet.json projects/*/shadow/resume-packet.md
             if git diff --cached --quiet; then
               echo "recovery views unchanged — no commit"
               exit 0
@@ -71,7 +82,7 @@ jobs:
             git commit -m "Refresh verified Continue recovery views"
             if git push -q origin HEAD:main; then
               git fetch -q origin main
-              for f in shadow/takeover-brief.json shadow/takeover-brief.md shadow/current-checkpoint.md shadow/resume-packet.json shadow/resume-packet.md; do
+              for f in shadow/takeover-brief.json shadow/takeover-brief.md shadow/current-checkpoint.md shadow/resume-packet.json shadow/resume-packet.md projects/*/shadow/resume-packet.json projects/*/shadow/resume-packet.md; do
                 test "$(git rev-parse HEAD:$f)" = "$(git rev-parse origin/main:$f)"
               done
               exit 0

@@ -11,6 +11,8 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from resume_project import context
+
 REGISTER = "work-resume-register.json"
 CHECKPOINT = "reports/current-work-checkpoint.md"
 QUEUE = "ops/topview-launch-queue.json"
@@ -49,7 +51,7 @@ def section(text, anchor):
     return "\n".join(lines) + "\n"
 
 
-def select_work(register, work_id=None):
+def select_work(register, work_id=None, project="seregius"):
     active = register.get("active_work")
     if not isinstance(active, list) or not all(isinstance(w, dict) for w in active):
         raise ValueError("invalid active work list")
@@ -58,10 +60,15 @@ def select_work(register, work_id=None):
         raise ValueError("missing or duplicate work ID")
     focus = register.get("resume_focus")
     if not work_id:
-        if not isinstance(focus, dict) or focus.get("project") != "seregius":
+        if not isinstance(focus, dict) or focus.get("project") != project:
             raise ValueError("explicit resume focus is missing")
         work_id = focus.get("work_id")
+    if register.get("project", "seregius") != project:
+        raise ValueError("register belongs to another project")
     by_id = {w["work_id"]: w for w in active}
+    idle = register.get("idle_state")
+    if not active and isinstance(idle, dict) and idle.get("status") == "waiting_for_owner":
+        by_id[idle["work_id"]] = idle
     seen = set()
     while work_id:
         if work_id in seen:
@@ -93,11 +100,12 @@ def operation_guidance(item):
             "recovery_action": action, "submit_authorized": False}
 
 
-def verify_recovery(root, register, work_id=None):
+def verify_recovery(root, register, work_id=None, project="seregius"):
     reasons, sources = [], []
     selected, checkpoint_text = None, ""
     try:
-        w = select_work(register, work_id)
+        ctx = context(root, project)
+        w = select_work(register, work_id, project)
         r = w.get("recovery")
         if not isinstance(r, dict) or r.get("schema_version") != 1:
             raise ValueError("selected work has no verified recovery record")
@@ -110,15 +118,15 @@ def verify_recovery(root, register, work_id=None):
         if when.tzinfo is None:
             raise ValueError("recovery timestamp has no timezone")
         cp = r.get("checkpoint")
-        if not isinstance(cp, dict) or cp.get("file") != CHECKPOINT:
+        if not isinstance(cp, dict) or cp.get("file") != ctx["checkpoint"]:
             raise ValueError("recovery checkpoint must use the canonical checkpoint file")
-        raw = local_file(root, CHECKPOINT).read_bytes()
+        raw = local_file(root, ctx["checkpoint"]).read_bytes()
         checkpoint_text = section(raw.decode("utf-8-sig"), cp.get("anchor"))
         if "work_id: " + w["work_id"] not in checkpoint_text:
             raise ValueError("checkpoint belongs to another work ID")
         if digest(checkpoint_text.encode()) != cp.get("sha256"):
             raise ValueError("selected checkpoint hash mismatch")
-        sources.append({"file": CHECKPOINT, "sha256": digest(raw)})
+        sources.append({"file": ctx["checkpoint"], "sha256": digest(raw)})
         evidence = r.get("evidence")
         if not isinstance(evidence, list) or not evidence:
             raise ValueError("last completed step has no evidence")
@@ -140,13 +148,14 @@ def verify_recovery(root, register, work_id=None):
             "sources": sources, "reasons": reasons}
 
 
-def capture(root, work_id, anchor, last_completed, next_action, evidence, read_next=(), focus=False):
+def capture(root, work_id, anchor, last_completed, next_action, evidence, read_next=(), focus=False, project="seregius"):
     """Called by the writer after verifying a stage, in the same canon transaction."""
     root = Path(root)
-    path = local_file(root, REGISTER)
+    ctx = context(root, project)
+    path = local_file(root, ctx["register"])
     reg = json.loads(path.read_text(encoding="utf-8-sig"))
-    w = select_work(reg, work_id)
-    text = section(local_file(root, CHECKPOINT).read_text(encoding="utf-8-sig"), anchor)
+    w = select_work(reg, work_id, project)
+    text = section(local_file(root, ctx["checkpoint"]).read_text(encoding="utf-8-sig"), anchor)
     if "work_id: " + w["work_id"] not in text:
         raise ValueError("checkpoint work ID does not match")
     if not evidence or not last_completed.strip() or not next_action.strip():
@@ -154,12 +163,12 @@ def capture(root, work_id, anchor, last_completed, next_action, evidence, read_n
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     w["recovery"] = {"schema_version": 1, "verified_at": now,
         "last_completed": last_completed, "next_action": next_action,
-        "checkpoint": {"file": CHECKPOINT, "anchor": anchor, "sha256": digest(text.encode())},
+        "checkpoint": {"file": ctx["checkpoint"], "anchor": anchor, "sha256": digest(text.encode())},
         "evidence": [{"file": p, "sha256": digest(local_file(root, p).read_bytes())} for p in evidence],
         "read_next": list(read_next), "blockers": []}
     w["next_action"], w["updated_at"] = next_action, now
     if focus:
-        reg["resume_focus"] = {"work_id": w["work_id"], "project": "seregius",
+        reg["resume_focus"] = {"work_id": w["work_id"], "project": project,
                                "set_at": now, "reason": "Explicitly selected by the authorized task writer"}
     reg["last_updated_at"] = now
     path.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -174,10 +183,11 @@ def main():
     p.add_argument("--next-action", required=True)
     p.add_argument("--evidence", action="append", required=True)
     p.add_argument("--read-next", action="append", default=[])
+    p.add_argument("--project", default="seregius")
     p.add_argument("--focus", action="store_true")
     args = p.parse_args()
     capture(args.repo, args.capture, args.anchor, args.last_completed, args.next_action,
-            args.evidence, args.read_next, args.focus)
+            args.evidence, args.read_next, args.focus, args.project)
 
 
 if __name__ == "__main__":

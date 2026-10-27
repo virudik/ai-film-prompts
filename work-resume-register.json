@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T14:03:47+00:00",
+  "last_updated_at": "2026-10-27T14:16:54+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -627,30 +627,29 @@
       "done": [
         "Свежий main, проектные инструкции и состояния, пять замков"
       ],
-      "next_action": "Реализовать проектные пакеты и квитанцию приёма, затем проверить все пять проектов.",
+      "next_action": "Опубликовать изменения, выполнить readback и проверить UI всех проектов; затем вернуть фокус к плану фильма.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T14:03:47+00:00",
-        "last_completed": "Прочитаны состояния пяти проектов и получены замки",
-        "next_action": "Реализовать проектные пакеты и квитанцию приёма, затем проверить все пять проектов.",
+        "verified_at": "2026-10-27T14:16:54+00:00",
+        "last_completed": "Механизм реализован для пяти проектов, проектные тесты и проверки проходят",
+        "next_action": "Опубликовать изменения, выполнить readback и проверить UI всех проектов; затем вернуть фокус к плану фильма.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Продолжай — ДО: все проекты и квитанция приёма · 27.10.2026",
-          "sha256": "21d42ab6fd61f38ca50affba927d5c1ea37d6c1a7bc24d5f0970ca23588433f5"
+          "anchor": "# Продолжай — проектные пакеты и квитанция реализованы · 27.10.2026",
+          "sha256": "d3055871efe137a12df7e294c11978a9235fb41f402ad9732b6ad199119e384b"
         },
         "evidence": [
           {
-            "file": "projects/projects.json",
-            "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4"
+            "file": "reports/continue-multiproject-2026-10-27.json",
+            "sha256": "6c89cd0cae59dbb63edae0110b9dbef66ab48948409d6908b9c482e179c343ff"
           }
         ],
         "read_next": [
-          "ops/CONTINUE-PROTOCOL.md",
-          "projects/README.md"
+          "ops/CONTINUE-PROTOCOL.md"
         ],
         "blockers": []
       },
-      "updated_at": "2026-10-27T14:03:47+00:00"
+      "updated_at": "2026-10-27T14:16:54+00:00"
     }
   ],
   "rules": [
@@ -862,7 +861,7 @@
   "resume_focus": {
     "work_id": "CONTINUE-MULTIPROJECT-20261027",
     "project": "seregius",
-    "set_at": "2026-10-27T14:03:47+00:00",
+    "set_at": "2026-10-27T14:16:54+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

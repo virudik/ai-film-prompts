@@ -21,3 +21,7 @@
 2. Если понадобится кабина сзади в хорошем качестве — нарисовать ChatGPT (задача в очередь проекта, тип reference_preparation) по `ship-interior-cockpit.png` и `ship-interior-window.webp`.
 
 ## Новое с последней чистки (дописывать сюда, одной строкой с датой)
+
+## Продолжай и приём смены · 27.10.2026
+
+Свой фокус/idle — `projects/kotmonavty/work-resume-register.json`, пакет — `projects/kotmonavty/shadow/resume-packet.md`. Проверка: `python3 scripts/continue_preflight.py . --project kotmonavty`. Читать общие правила и проектные HANDOFF/INSTRUCTIONS; не наследовать работу Серёгиуса. Реальный принимающий чат сохраняет квитанцию в `projects/kotmonavty/reports/handoff-receipts.json` по `ops/CONTINUE-PROTOCOL.md` (какой чат, проверки, первое действие). Готовый пакет не снимает паузу и не означает состоявшийся приём.

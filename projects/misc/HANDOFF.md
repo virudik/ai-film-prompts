@@ -7,3 +7,7 @@
 ## Продолжить
 
 Принять новые материалы владельца, затем подготовить сцены с 1 по общим правилам. Очередь пуста, разрешения на запуск нет. Доска — «Разное», точный ID в `projects/projects.json`. Изображения сохранять в своей папке. Состояние — `reports/current-work-checkpoint.md` и `work-resume-register.json`.
+
+## Продолжай и приём смены · 27.10.2026
+
+Свой фокус/idle — `projects/misc/work-resume-register.json`, пакет — `projects/misc/shadow/resume-packet.md`. Проверка: `python3 scripts/continue_preflight.py . --project misc`. Читать общие правила и проектные HANDOFF/INSTRUCTIONS; не наследовать работу Серёгиуса. Реальный принимающий чат сохраняет квитанцию в `projects/misc/reports/handoff-receipts.json` по `ops/CONTINUE-PROTOCOL.md` (какой чат, проверки, первое действие). Готовый пакет не снимает паузу и не означает состоявшийся приём.

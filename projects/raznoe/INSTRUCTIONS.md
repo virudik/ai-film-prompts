@@ -11,3 +11,7 @@
 ## Доска и изображения (23.10.2026)
 
 Запускать проект только в доске Topview **Роскосмос** (`1cb8d0f6d11440ce9740bbafab36a6a5`). Проверять название и ID перед отправкой; другая доска не является запасным вариантом. Изображения — `/AI Film/🚀 Роскосмос`. Общие правила и ограничения запуска — `projects/README.md`.
+
+## Продолжай и приём смены · 27.10.2026
+
+Свой фокус/idle — `projects/raznoe/work-resume-register.json`, пакет — `projects/raznoe/shadow/resume-packet.md`. Проверка: `python3 scripts/continue_preflight.py . --project raznoe`. Читать общие правила и проектные HANDOFF/INSTRUCTIONS; не наследовать работу Серёгиуса. Реальный принимающий чат сохраняет квитанцию в `projects/raznoe/reports/handoff-receipts.json` по `ops/CONTINUE-PROTOCOL.md` (какой чат, проверки, первое действие). Готовый пакет не снимает паузу и не означает состоявшийся приём.

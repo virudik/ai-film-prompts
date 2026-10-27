@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "generator": "continue-2.0",
+  "project": "kotmonavty",
+  "project_name": "Котмонавты",
+  "checked_at": "2026-10-27T14:13:53+00:00",
+  "source_head": "445f3524a425adc0faf68642b66073ccc44ee021",
+  "source_fingerprint": "27a774d1b38e95184fd50a9eaf30199fed1c10bf174271ecaea4a55a1c7e9f4e",
+  "status": "ready",
+  "ready_for_resume": true,
+  "execution_authorized": false,
+  "handoff_receipt": null,
+  "reasons": [],
+  "selected_work": {
+    "work_id": "KM-WAIT-OWNER",
+    "title": "Котмонавты — ожидание решения владельца",
+    "status": "waiting_for_owner",
+    "last_completed": "22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.",
+    "next_action": "Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.",
+    "verified_at": "2026-10-27T14:07:47+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "projects/kotmonavty/HANDOFF.md",
+        "sha256": "9aac6ca6ced776e3794ad44af5e82c66077be70bd61b4196a15ea40b0315e227"
+      },
+      {
+        "file": "projects/kotmonavty/INSTRUCTIONS.md",
+        "sha256": "154bffc5bb9f72048cc475951cc5be3133a1f9f209be8bd32d56fa6c4cfe37b5"
+      }
+    ],
+    "read_next": [
+      "projects/kotmonavty/HANDOFF.md",
+      "projects/kotmonavty/INSTRUCTIONS.md",
+      "ops/OWNER-TASKS.md"
+    ],
+    "checkpoint": {
+      "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
+      "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
+      "sha256": "6979dd6490234bf274112c5a8fad1ae88f1e43be12578832970ec68db1496940"
+    }
+  },
+  "checkpoint_text": "# Продолжай — проверенная точка проекта · 27.10.2026\n\nwork_id: KM-WAIT-OWNER\nПроверено: 2026-10-27T14:07:47.150Z\n22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.\nСледующий шаг: Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.\nМеханизм перенесён; отдельный новый чат ещё не принимал смену.\n",
+  "invariants": [
+    {
+      "id": "INV-AUTH",
+      "rule": "Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-ONE-MASTER",
+      "rule": "One master: video-prompts.md in GitHub main; no v2/final/copy.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-FRESH-WRITE",
+      "rule": "Before any master write: fresh git pull of main; minimal commit → SYNC-TRIGGER → validator health=ok → Pages → verification; rejected push = another writer, redo from scratch.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SERIAL-DOCS",
+      "rule": "Instruction edits: fresh pull → minimal commit → scripts/cert_github.py → push → verify; never replay a stale write.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SCENE-ID",
+      "rule": "Scene IDs stable; retired IDs never reused; rerender keeps the same Scene ID.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-SUCCESS-NOT-APPROVAL",
+      "rule": "Topview technical success ≠ editorial approval; never auto approve/rerun/delete/close.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 10\\. Topview telemetry"
+    },
+    {
+      "id": "INV-SLOTS",
+      "rule": "Slot capacity 6; one active task = one slot; a terminal task frees its slot at once; canonical slow is cleared only by an explicit owner button (11.10.2026), never by a technical terminal.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Точное ТЗ — Topview slow slots"
+    },
+    {
+      "id": "INV-ONE-MONITOR",
+      "rule": "One writer, decided by monitor-role.json + scripts/monitor_role.py: since 13.10.2026 the GitHub robot (topview-robot.yml → robot_telemetry.py, every 10 min via Supabase pg_cron) is primary, ChatGPT is standby and takes over only after 180 min without a verified healthy robot cycle; the Claude monitor is off; kill switch ROBOT_TELEMETRY=shadow. Old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-NO-FAKE-TIME",
+      "rule": "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Background connector degradation"
+    },
+    {
+      "id": "INV-OWNER-BOUNDARY",
+      "rule": "Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 14\\. Поведение нового сменщика"
+    },
+    {
+      "id": "INV-PROMPT-AUTONOMY",
+      "rule": "Every copyable prompt is self-contained: identity lock, reference roles/priority, camera/space, timeline, native audio, negatives, FRAME FILL.",
+      "owner_doc": "PROMPT-STYLE-GUIDE.md",
+      "anchor": "^## 16A\\. Автономность"
+    },
+    {
+      "id": "INV-MATERIAL-CHANGE",
+      "rule": "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → cert_github.py certificate → push to main → Notion pointer → backup copies (best-effort).",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 9\\. Material Change Documentation Rule"
+    },
+    {
+      "id": "INV-NO-CREDITS",
+      "rule": "Agents may launch only owner-authorized queue items via the website in Unlimited mode at zero credits. Paid Topview launches are performed only by the owner.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## Scene Reference Pack automation"
+    },
+    {
+      "id": "INV-LIBRARY-NONBLOCKING",
+      "rule": "Library is best-effort, never a completion gate.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## LIBRARY RECOVERY"
+    },
+    {
+      "id": "INV-DONE",
+      "rule": "Never say «готово» before the relevant read-back/verification passed.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 14\\. Verification before final answer"
+    }
+  ],
+  "read_next": [
+    "projects/kotmonavty/HANDOFF.md",
+    "projects/kotmonavty/INSTRUCTIONS.md",
+    "ops/OWNER-TASKS.md"
+  ],
+  "live_checks_required": [
+    "Fresh main and canon lock before writing",
+    "Open owner_decisions and agent inbox; do not infer approval from this packet",
+    "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
+  ],
+  "queue_recovery": {
+    "unresolved": [],
+    "existing_task_count": 0,
+    "existing_tasks": [],
+    "next_candidates": [],
+    "rule": "Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry."
+  },
+  "sources": [
+    {
+      "file": "AI-PROJECT-GUIDE.md",
+      "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+      "bytes": 34298
+    },
+    {
+      "file": "BACKUP-AI-RUNBOOK.md",
+      "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+      "bytes": 18925
+    },
+    {
+      "file": "NEW-CHAT-HANDOFF.md",
+      "sha256": "fe78047403d0b122c0f0890da01c0d5f9335613c6a49ad75a2dc6dca73f1c44d",
+      "bytes": 34641
+    },
+    {
+      "file": "PROMPT-STYLE-GUIDE.md",
+      "sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
+      "bytes": 72372
+    },
+    {
+      "file": "README-AI-SYNC.md",
+      "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+      "bytes": 16692
+    },
+    {
+      "file": "SYNC-RUNBOOK.md",
+      "sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
+      "bytes": 125587
+    },
+    {
+      "file": "USER-GUIDE.md",
+      "sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
+      "bytes": 80102
+    },
+    {
+      "file": "instruction-sync-status.json",
+      "sha256": "e2d0dcd3572b4d98572005b9b0ac3dcdc59fcef15c277ba70950e3a0c2cdc93e",
+      "bytes": 5141
+    },
+    {
+      "file": "monitor-role.json",
+      "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+      "bytes": 4486
+    },
+    {
+      "file": "ops/CONTINUE-PROTOCOL.md",
+      "sha256": "76eb22e3e8ed4a15e8eb3f1fbae73f5b11038bf67f53669e65d5661f5330046c",
+      "bytes": 38152
+    },
+    {
+      "file": "project-status.json",
+      "sha256": "a9cfeabf71c24b4d142544b186ca799105b0be6b9390daf005bdb564394604ed",
+      "bytes": 17822
+    },
+    {
+      "file": "projects/README.md",
+      "sha256": "89cfc9d51a53abdada7024265d8fb71b68ddc8e1fae07262c34f80f44cc5311e",
+      "bytes": 16708
+    },
+    {
+      "file": "projects/kotmonavty/HANDOFF.md",
+      "sha256": "9aac6ca6ced776e3794ad44af5e82c66077be70bd61b4196a15ea40b0315e227",
+      "bytes": 4452
+    },
+    {
+      "file": "projects/kotmonavty/INSTRUCTIONS.md",
+      "sha256": "154bffc5bb9f72048cc475951cc5be3133a1f9f209be8bd32d56fa6c4cfe37b5",
+      "bytes": 10990
+    },
+    {
+      "file": "projects/kotmonavty/ops/topview-launch-queue.json",
+      "sha256": "800f9b935a057d41e6be80fa4d16e42a544d341f6ea00c0d4f80e3795c199072",
+      "bytes": 1078
+    },
+    {
+      "file": "projects/kotmonavty/project-status.json",
+      "sha256": "db6d1fa4fa2fa11cfbc9cbb713d6887b3d19e8256c77edcfc05e6ca5e5e68fed",
+      "bytes": 16921
+    },
+    {
+      "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
+      "sha256": "e0dd898afc126a27eb7b16a0bf249d7fc3f5863b7530c7a9855ed9977c2d4512",
+      "bytes": 3281
+    },
+    {
+      "file": "projects/kotmonavty/reports/handoff-receipts.json",
+      "sha256": "9cec19c2bc96595cdbd4e90e2d21ba33275519775a7362710c65627df1cfc109",
+      "bytes": 252
+    },
+    {
+      "file": "projects/kotmonavty/video-prompts.md",
+      "sha256": "6655c1c974c7126776bb9cbc7168fe2807d2fb4f0f8acf74f49f0599b495220f",
+      "bytes": 437944
+    },
+    {
+      "file": "projects/kotmonavty/work-resume-register.json",
+      "sha256": "ec89862fd52da34eb8a5292ca2ecd8b5ccb79bb8fee13c225deac74caf325194",
+      "bytes": 11784
+    },
+    {
+      "file": "projects/projects.json",
+      "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
+      "bytes": 8453
+    },
+    {
+      "file": "shadow/current-checkpoint.md",
+      "sha256": "a2350ad9f09b868936cf0860f362f1f387d9167cb6f3a5f74d80ad7299d070c7",
+      "bytes": 34442
+    },
+    {
+      "file": "shadow/takeover-brief.json",
+      "sha256": "45cb08f957d2bcb786d97a4709f82eeabc56e7d9141353f6372380043cb554d0",
+      "bytes": 20493
+    },
+    {
+      "file": "video-prompts.md",
+      "sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
+      "bytes": 903928
+    }
+  ],
+  "packet_bytes": 5242
+}

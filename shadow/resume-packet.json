@@ -1,38 +1,61 @@
 {
   "schema_version": 1,
   "generator": "continue-2.0",
-  "checked_at": "2026-10-27T14:04:37+00:00",
-  "source_head": "445f3524a425adc0faf68642b66073ccc44ee021",
-  "source_fingerprint": "95f21b0b33e319e413a9ed708461724c1a404bc77094d7d5424a7d0216c1e0f5",
+  "project": "seregius",
+  "project_name": "Серёгиус",
+  "checked_at": "2026-10-27T14:16:55+00:00",
+  "source_head": "dcba3bfce1be1ccece4eca431297390dfd061220",
+  "source_fingerprint": "6fe8fa3f5b44d313f6138d3980b3b51b6cb095bf97cf0a9a4fa8a7ffd4eff583",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
+  "handoff_receipt": {
+    "receipt_id": "continue-multi-20261027-current-work",
+    "project": "seregius",
+    "work_id": "CONTINUE-MULTIPROJECT-20261027",
+    "chat": {
+      "agent": "chatgpt",
+      "label": "Текущий ChatGPT Work — Продолжай: все проекты и квитанция (27.10.2026)",
+      "session_id": "work-dbcaa6ee-3f43-40ac-bc62-acb19d667f43",
+      "chat_id": null,
+      "identity_status": "unavailable",
+      "identity_note": "Среда не раскрыла ID/URL текущего чата; session_id — идентификатор записи этого запуска, не ChatGPT conversation ID."
+    },
+    "accepted_at": "2026-10-27T14:15:53.461Z",
+    "outcome": "accepted",
+    "first_action": {
+      "at": "2026-10-27T14:15:53.461Z",
+      "state": "completed",
+      "description": "Продолжил принятую задачу с выделения проектных путей и раздельных focus/idle; реализовал проверку пяти пакетов и прогнал тесты изоляции/квитанций.",
+      "evidence": "scripts/resume_project.py; scripts/resume_state.py; scripts/handoff_receipt.py; tests/test_project_recovery.py. Это приём текущей задачи этим чатом, не тест будущего нового чата."
+    },
+    "source_head": "dcba3bfce1be1ccece4eca431297390dfd061220"
+  },
   "reasons": [],
   "selected_work": {
     "work_id": "CONTINUE-MULTIPROJECT-20261027",
     "title": "Продолжай: все проекты и квитанция приёма",
     "status": "in_progress",
-    "last_completed": "Прочитаны состояния пяти проектов и получены замки",
-    "next_action": "Реализовать проектные пакеты и квитанцию приёма, затем проверить все пять проектов.",
-    "verified_at": "2026-10-27T14:03:47+00:00",
+    "last_completed": "Механизм реализован для пяти проектов, проектные тесты и проверки проходят",
+    "next_action": "Опубликовать изменения, выполнить readback и проверить UI всех проектов; затем вернуть фокус к плану фильма.",
+    "verified_at": "2026-10-27T14:16:54+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "projects/projects.json",
-        "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4"
+        "file": "reports/continue-multiproject-2026-10-27.json",
+        "sha256": "6c89cd0cae59dbb63edae0110b9dbef66ab48948409d6908b9c482e179c343ff"
       }
     ],
     "read_next": [
-      "ops/CONTINUE-PROTOCOL.md",
-      "projects/README.md"
+      "ops/CONTINUE-PROTOCOL.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Продолжай — ДО: все проекты и квитанция приёма · 27.10.2026",
-      "sha256": "21d42ab6fd61f38ca50affba927d5c1ea37d6c1a7bc24d5f0970ca23588433f5"
+      "anchor": "# Продолжай — проектные пакеты и квитанция реализованы · 27.10.2026",
+      "sha256": "d3055871efe137a12df7e294c11978a9235fb41f402ad9732b6ad199119e384b"
     }
   },
-  "checkpoint_text": "# Продолжай — ДО: все проекты и квитанция приёма · 27.10.2026\n\nwork_id: CONTINUE-MULTIPROJECT-20261027\nВремя: 2026-10-27T14:03:47.252Z. Команда владельца: распространить механизм на остальные проекты; добавить квитанцию — какой чат принял, что проверил, с какого действия продолжил.\nПроверено: Серёгиус имеет пакет; у четырёх остальных его нет. Котмонавты и Кот детектив ждут выбора владельца, Разное пустое. Роскосмос: видео на паузе, подготовка референсов ЦПК остаётся отдельной задачей открытого Work-чата. Все пять замков взяты для этой инфраструктурной работы. Новых видеозапусков нет.\nПлан: обособленные фокус/idle, checkpoint и пакет каждого проекта; проверка изоляции и пауз; квитанция реального приёма с идентичностью чата, проверками и первым выполненным действием; сайт, существующий workflow, тесты, main/readback, снятие замков. Нельзя выдавать миграцию файлов за приём смены пятью чатами.\nСледующий шаг: реализовать проектные пути и квитанцию, затем проверить все пять проектов.\n",
+  "checkpoint_text": "# Продолжай — проектные пакеты и квитанция реализованы · 27.10.2026\n\nwork_id: CONTINUE-MULTIPROJECT-20261027\nПроверено: 2026-10-27T14:16:54.417Z\nУ всех пяти проектов собственные фокус/idle, пакет, checkpoint и журнал. Добавлены квитанция реального приёма, отказ при чужом проекте/непроверенных шагах, дедупликация и архив после 20 записей. Индикатор и существующий workflow охватывают все проекты. Тесты и проверки пройдены; подробности reports/continue-multiproject-2026-10-27.json. Сохранена одна квитанция принятия текущей задачи этим Work-чатом с честной недоступностью точного ID; это не проверка будущего нового чата.\nОсталось: публикация и readback, CI, проверка интерфейса всех проектов, возврат фокуса к Серёгиусу, снятие пяти замков.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -126,8 +149,7 @@
     }
   ],
   "read_next": [
-    "ops/CONTINUE-PROTOCOL.md",
-    "projects/README.md"
+    "ops/CONTINUE-PROTOCOL.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -333,8 +355,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "0fa3f6b0ad96bd57c50eb2cd9833c8e5a2c6aafbfefd4c9346a4e1ceb0c0cf9a",
-      "bytes": 34532
+      "sha256": "fe78047403d0b122c0f0890da01c0d5f9335613c6a49ad75a2dc6dca73f1c44d",
+      "bytes": 34641
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -358,7 +380,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a08f66d7ee37eb09bd3a14bc8fa60c226a47dbc11fefd9940057e875af0b175b",
+      "sha256": "e2d0dcd3572b4d98572005b9b0ac3dcdc59fcef15c277ba70950e3a0c2cdc93e",
       "bytes": 5141
     },
     {
@@ -368,8 +390,8 @@
     },
     {
       "file": "ops/CONTINUE-PROTOCOL.md",
-      "sha256": "b58f9676204a482836e83ffb2900e8ed4ed6fccc76e9282a6562a2405a071daa",
-      "bytes": 28268
+      "sha256": "76eb22e3e8ed4a15e8eb3f1fbae73f5b11038bf67f53669e65d5661f5330046c",
+      "bytes": 38152
     },
     {
       "file": "ops/topview-launch-queue.json",
@@ -382,23 +404,28 @@
       "bytes": 17822
     },
     {
-      "file": "projects/projects.json",
-      "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
-      "bytes": 8453
+      "file": "reports/continue-multiproject-2026-10-27.json",
+      "sha256": "6c89cd0cae59dbb63edae0110b9dbef66ab48948409d6908b9c482e179c343ff",
+      "bytes": 991
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "273117edefe7260698be4e1e4774d74f832fe9871ce8410a0db105f7a3c3b5e6",
-      "bytes": 11905
+      "sha256": "ce734c96f9d248e4c90e0fd94ab381f63478dc11439138030be136ffb8a73a83",
+      "bytes": 13133
+    },
+    {
+      "file": "reports/handoff-receipts.json",
+      "sha256": "ff71f3788d2a327e86558ed2176b2dc05aa8f2d03399bb86363d0b83c190e293",
+      "bytes": 7177
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "130a951111ce587d8916fca544c4850c0e2654da2ccabd67627d48ffd112cecf",
-      "bytes": 34333
+      "sha256": "a2350ad9f09b868936cf0860f362f1f387d9167cb6f3a5f74d80ad7299d070c7",
+      "bytes": 34442
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "f9b24ebf44763416d4ef3396783a3a2653a518560f788520bf8489a1257d2ad5",
+      "sha256": "45cb08f957d2bcb786d97a4709f82eeabc56e7d9141353f6372380043cb554d0",
       "bytes": 20493
     },
     {
@@ -408,9 +435,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "e5dd23f170c93788f1814e597499757dc6b93e6a43174d6230185366de6f3f26",
-      "bytes": 56663
+      "sha256": "0cff52c3f84696e5949ed5d91c5d7e5b7590129e602401ff3e680c7ddd4d57b4",
+      "bytes": 56782
     }
   ],
-  "packet_bytes": 5897
+  "packet_bytes": 5460
 }

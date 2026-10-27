@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "generator": "continue-2.0",
+  "project": "misc",
+  "project_name": "Разное",
+  "checked_at": "2026-10-27T14:13:53+00:00",
+  "source_head": "445f3524a425adc0faf68642b66073ccc44ee021",
+  "source_fingerprint": "9f0f85218d3e334a588bb99ab53fb79a90f5537892ee863699874318079dc9b9",
+  "status": "ready",
+  "ready_for_resume": true,
+  "execution_authorized": false,
+  "handoff_receipt": null,
+  "reasons": [],
+  "selected_work": {
+    "work_id": "MISC-WAIT-MATERIALS",
+    "title": "Разное — ожидание решения владельца",
+    "status": "waiting_for_owner",
+    "last_completed": "Пустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe.",
+    "next_action": "Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.",
+    "verified_at": "2026-10-27T14:07:47+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "projects/misc/HANDOFF.md",
+        "sha256": "191efed14b28e7ed699c45784adc93c38dbaff44ef66acdd780e8439fb1fcf24"
+      },
+      {
+        "file": "projects/misc/INSTRUCTIONS.md",
+        "sha256": "7b2c02811232159eb7071961b90d1302bae4d02880ba5a4748a3fd4c887397aa"
+      }
+    ],
+    "read_next": [
+      "projects/misc/HANDOFF.md",
+      "projects/misc/INSTRUCTIONS.md",
+      "ops/OWNER-TASKS.md"
+    ],
+    "checkpoint": {
+      "file": "projects/misc/reports/current-work-checkpoint.md",
+      "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
+      "sha256": "dcf2118ee7158cdbf27283c2153209dcefdb9979069d2e7c08fa2f542badc2e3"
+    }
+  },
+  "checkpoint_text": "# Продолжай — проверенная точка проекта · 27.10.2026\n\nwork_id: MISC-WAIT-MATERIALS\nПроверено: 2026-10-27T14:07:47.150Z\nПустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe.\nСледующий шаг: Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.\nМеханизм перенесён; отдельный новый чат ещё не принимал смену.\n",
+  "invariants": [
+    {
+      "id": "INV-AUTH",
+      "rule": "Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-ONE-MASTER",
+      "rule": "One master: video-prompts.md in GitHub main; no v2/final/copy.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-FRESH-WRITE",
+      "rule": "Before any master write: fresh git pull of main; minimal commit → SYNC-TRIGGER → validator health=ok → Pages → verification; rejected push = another writer, redo from scratch.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SERIAL-DOCS",
+      "rule": "Instruction edits: fresh pull → minimal commit → scripts/cert_github.py → push → verify; never replay a stale write.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-SCENE-ID",
+      "rule": "Scene IDs stable; retired IDs never reused; rerender keeps the same Scene ID.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 3\\. Master"
+    },
+    {
+      "id": "INV-SUCCESS-NOT-APPROVAL",
+      "rule": "Topview technical success ≠ editorial approval; never auto approve/rerun/delete/close.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 10\\. Topview telemetry"
+    },
+    {
+      "id": "INV-SLOTS",
+      "rule": "Slot capacity 6; one active task = one slot; a terminal task frees its slot at once; canonical slow is cleared only by an explicit owner button (11.10.2026), never by a technical terminal.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Точное ТЗ — Topview slow slots"
+    },
+    {
+      "id": "INV-ONE-MONITOR",
+      "rule": "One writer, decided by monitor-role.json + scripts/monitor_role.py: since 13.10.2026 the GitHub robot (topview-robot.yml → robot_telemetry.py, every 10 min via Supabase pg_cron) is primary, ChatGPT is standby and takes over only after 180 min without a verified healthy robot cycle; the Claude monitor is off; kill switch ROBOT_TELEMETRY=shadow. Old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off.",
+      "owner_doc": "NEW-CHAT-HANDOFF.md",
+      "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ"
+    },
+    {
+      "id": "INV-NO-FAKE-TIME",
+      "rule": "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^### Background connector degradation"
+    },
+    {
+      "id": "INV-OWNER-BOUNDARY",
+      "rule": "Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources.",
+      "owner_doc": "AI-PROJECT-GUIDE.md",
+      "anchor": "^## 14\\. Поведение нового сменщика"
+    },
+    {
+      "id": "INV-PROMPT-AUTONOMY",
+      "rule": "Every copyable prompt is self-contained: identity lock, reference roles/priority, camera/space, timeline, native audio, negatives, FRAME FILL.",
+      "owner_doc": "PROMPT-STYLE-GUIDE.md",
+      "anchor": "^## 16A\\. Автономность"
+    },
+    {
+      "id": "INV-MATERIAL-CHANGE",
+      "rule": "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → cert_github.py certificate → push to main → Notion pointer → backup copies (best-effort).",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 9\\. Material Change Documentation Rule"
+    },
+    {
+      "id": "INV-NO-CREDITS",
+      "rule": "Agents may launch only owner-authorized queue items via the website in Unlimited mode at zero credits. Paid Topview launches are performed only by the owner.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## Scene Reference Pack automation"
+    },
+    {
+      "id": "INV-LIBRARY-NONBLOCKING",
+      "rule": "Library is best-effort, never a completion gate.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## LIBRARY RECOVERY"
+    },
+    {
+      "id": "INV-DONE",
+      "rule": "Never say «готово» before the relevant read-back/verification passed.",
+      "owner_doc": "SYNC-RUNBOOK.md",
+      "anchor": "^## 14\\. Verification before final answer"
+    }
+  ],
+  "read_next": [
+    "projects/misc/HANDOFF.md",
+    "projects/misc/INSTRUCTIONS.md",
+    "ops/OWNER-TASKS.md"
+  ],
+  "live_checks_required": [
+    "Fresh main and canon lock before writing",
+    "Open owner_decisions and agent inbox; do not infer approval from this packet",
+    "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
+  ],
+  "queue_recovery": {
+    "unresolved": [],
+    "existing_task_count": 0,
+    "existing_tasks": [],
+    "next_candidates": [],
+    "rule": "Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry."
+  },
+  "sources": [
+    {
+      "file": "AI-PROJECT-GUIDE.md",
+      "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+      "bytes": 34298
+    },
+    {
+      "file": "BACKUP-AI-RUNBOOK.md",
+      "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+      "bytes": 18925
+    },
+    {
+      "file": "NEW-CHAT-HANDOFF.md",
+      "sha256": "fe78047403d0b122c0f0890da01c0d5f9335613c6a49ad75a2dc6dca73f1c44d",
+      "bytes": 34641
+    },
+    {
+      "file": "PROMPT-STYLE-GUIDE.md",
+      "sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
+      "bytes": 72372
+    },
+    {
+      "file": "README-AI-SYNC.md",
+      "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+      "bytes": 16692
+    },
+    {
+      "file": "SYNC-RUNBOOK.md",
+      "sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
+      "bytes": 125587
+    },
+    {
+      "file": "USER-GUIDE.md",
+      "sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
+      "bytes": 80102
+    },
+    {
+      "file": "instruction-sync-status.json",
+      "sha256": "e2d0dcd3572b4d98572005b9b0ac3dcdc59fcef15c277ba70950e3a0c2cdc93e",
+      "bytes": 5141
+    },
+    {
+      "file": "monitor-role.json",
+      "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+      "bytes": 4486
+    },
+    {
+      "file": "ops/CONTINUE-PROTOCOL.md",
+      "sha256": "76eb22e3e8ed4a15e8eb3f1fbae73f5b11038bf67f53669e65d5661f5330046c",
+      "bytes": 38152
+    },
+    {
+      "file": "project-status.json",
+      "sha256": "a9cfeabf71c24b4d142544b186ca799105b0be6b9390daf005bdb564394604ed",
+      "bytes": 17822
+    },
+    {
+      "file": "projects/README.md",
+      "sha256": "89cfc9d51a53abdada7024265d8fb71b68ddc8e1fae07262c34f80f44cc5311e",
+      "bytes": 16708
+    },
+    {
+      "file": "projects/misc/HANDOFF.md",
+      "sha256": "191efed14b28e7ed699c45784adc93c38dbaff44ef66acdd780e8439fb1fcf24",
+      "bytes": 1715
+    },
+    {
+      "file": "projects/misc/INSTRUCTIONS.md",
+      "sha256": "7b2c02811232159eb7071961b90d1302bae4d02880ba5a4748a3fd4c887397aa",
+      "bytes": 2014
+    },
+    {
+      "file": "projects/misc/ops/topview-launch-queue.json",
+      "sha256": "bcb99dcdd32620f2b4696db1499106086c91e2541af0be6f339c563e6ac59b7f",
+      "bytes": 645
+    },
+    {
+      "file": "projects/misc/project-status.json",
+      "sha256": "bd5294a2ba8c0317dec7f0b7cb81e420866746ea88db88b3b29c37d1cbe73f5a",
+      "bytes": 7251
+    },
+    {
+      "file": "projects/misc/reports/current-work-checkpoint.md",
+      "sha256": "6f6dd611e97467a0853ab15dcbf3c9a2bfb60e2e4a9f9d75c95d1794f519bd00",
+      "bytes": 1129
+    },
+    {
+      "file": "projects/misc/reports/handoff-receipts.json",
+      "sha256": "939986cd3b05cbea43ccdbe0127fb84c9f84ef503a5b09c55b73e4bf1ec8de05",
+      "bytes": 246
+    },
+    {
+      "file": "projects/misc/video-prompts.md",
+      "sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
+      "bytes": 1093
+    },
+    {
+      "file": "projects/misc/work-resume-register.json",
+      "sha256": "02b56b9916739e256fb27472711e98cc19c17a4b1d8425ad113912e99fdcb41c",
+      "bytes": 2660
+    },
+    {
+      "file": "projects/projects.json",
+      "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
+      "bytes": 8453
+    },
+    {
+      "file": "shadow/current-checkpoint.md",
+      "sha256": "a2350ad9f09b868936cf0860f362f1f387d9167cb6f3a5f74d80ad7299d070c7",
+      "bytes": 34442
+    },
+    {
+      "file": "shadow/takeover-brief.json",
+      "sha256": "45cb08f957d2bcb786d97a4709f82eeabc56e7d9141353f6372380043cb554d0",
+      "bytes": 20493
+    },
+    {
+      "file": "video-prompts.md",
+      "sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
+      "bytes": 903928
+    }
+  ],
+  "packet_bytes": 5108
+}

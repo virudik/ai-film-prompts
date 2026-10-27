@@ -316,7 +316,7 @@ def run(root, write=False, now=None, relay_only=False, root_only=False):
             reg_path = base / REGISTER
             reg = load_json(reg_path) if reg_path.is_file() else {}
             protected = {(w.get("recovery") or {}).get("checkpoint", {}).get("anchor")
-                         for w in reg.get("active_work", [])
+                         for w in reg.get("active_work", []) + ([reg["idle_state"]] if isinstance(reg.get("idle_state"), dict) else [])
                          if not FINISHED_WORK.match(str(w.get("status") or ""))}
             res = trim_checkpoint(cp.read_text(encoding="utf-8"),
                                   arch.read_text(encoding="utf-8") if arch.is_file() else "", prefix + CHECKPOINT_ARCHIVE,

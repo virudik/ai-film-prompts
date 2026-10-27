@@ -21,3 +21,7 @@
 2. Ролики доски «Кот детектив» (прежнее название «Лёха кот») — превращать ли какие-то в сцены мастера, решает владелец (новые сцены из Topview без его ответа не заводить).
 
 ## Новое с последней чистки (дописывать сюда, одной строкой с датой)
+
+## Продолжай и приём смены · 27.10.2026
+
+Свой фокус/idle — `projects/kot-detektiv/work-resume-register.json`, пакет — `projects/kot-detektiv/shadow/resume-packet.md`. Проверка: `python3 scripts/continue_preflight.py . --project kot-detektiv`. Читать общие правила и проектные HANDOFF/INSTRUCTIONS; не наследовать работу Серёгиуса. Реальный принимающий чат сохраняет квитанцию в `projects/kot-detektiv/reports/handoff-receipts.json` по `ops/CONTINUE-PROTOCOL.md` (какой чат, проверки, первое действие). Готовый пакет не снимает паузу и не означает состоявшийся приём.

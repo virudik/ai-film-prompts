@@ -1,6 +1,53 @@
 {
   "schema_version": 1,
   "project": "misc",
-  "last_updated_at": "2026-10-23T02:39:52Z",
-  "active_work": []
+  "last_updated_at": "2026-10-27T14:07:47+00:00",
+  "active_work": [],
+  "idle_state": {
+    "work_id": "MISC-WAIT-MATERIALS",
+    "project": "misc",
+    "title": "Разное — ожидание решения владельца",
+    "status": "waiting_for_owner",
+    "constraints": [
+      "Действующие ограничения запуска и решения владельца сохраняются"
+    ],
+    "done": [
+      "Пустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe."
+    ],
+    "next_action": "Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.",
+    "recovery": {
+      "schema_version": 1,
+      "verified_at": "2026-10-27T14:07:47+00:00",
+      "last_completed": "Пустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe.",
+      "next_action": "Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.",
+      "checkpoint": {
+        "file": "projects/misc/reports/current-work-checkpoint.md",
+        "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
+        "sha256": "dcf2118ee7158cdbf27283c2153209dcefdb9979069d2e7c08fa2f542badc2e3"
+      },
+      "evidence": [
+        {
+          "file": "projects/misc/HANDOFF.md",
+          "sha256": "191efed14b28e7ed699c45784adc93c38dbaff44ef66acdd780e8439fb1fcf24"
+        },
+        {
+          "file": "projects/misc/INSTRUCTIONS.md",
+          "sha256": "7b2c02811232159eb7071961b90d1302bae4d02880ba5a4748a3fd4c887397aa"
+        }
+      ],
+      "read_next": [
+        "projects/misc/HANDOFF.md",
+        "projects/misc/INSTRUCTIONS.md",
+        "ops/OWNER-TASKS.md"
+      ],
+      "blockers": []
+    },
+    "updated_at": "2026-10-27T14:07:47+00:00"
+  },
+  "resume_focus": {
+    "project": "misc",
+    "work_id": "MISC-WAIT-MATERIALS",
+    "set_at": "2026-10-27T14:07:47.150Z",
+    "reason": "Миграция подтверждённого состояния; не запуск и не квитанция нового чата"
+  }
 }

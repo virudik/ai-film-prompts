@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from resume_project import context
 from resume_state import verify_recovery, local_file
 from build_takeover_brief import DOCS, MASTER, INVARIANTS, section
 
@@ -24,7 +25,8 @@ def load(root, name):
     return json.loads((root / name).read_text(encoding="utf-8-sig"))
 
 
-def _evaluate(root, work_id=None, include_work=False):
+def _evaluate(root, work_id=None, include_work=False, project="seregius"):
+    ctx = context(root, project)
     root = Path(root)
     reasons, warnings = [], []
     try:
@@ -32,7 +34,7 @@ def _evaluate(root, work_id=None, include_work=False):
         status = load(root, "project-status.json")
         cert = load(root, "instruction-sync-status.json")
         roles = load(root, "monitor-role.json")
-        work = load(root, "work-resume-register.json")
+        work = load(root, ctx["register"])
         if not all(isinstance(x, dict) for x in (brief, status, cert, roles, work)):
             raise ValueError("required JSON must be an object")
     except (OSError, ValueError) as e:
@@ -110,7 +112,13 @@ def _evaluate(root, work_id=None, include_work=False):
         reasons.append("unknown monitor authority")
     if roles.get("primary") != "robot":
         warnings.append("telemetry role changed: consult live monitor-role before acting")
-    recovery = verify_recovery(root, work, work_id)
+    if project != "seregius":
+        ps = load(root, ctx["status"])
+        if ps.get("health") != "ok" or ps.get("canonical_master_sha256") != sha(local_file(root, ctx["master"]).read_bytes()):
+            reasons.append("project master/status mismatch: " + project)
+        for key in ("handoff", "instructions", "checkpoint", "queue"):
+            local_file(root, ctx[key])
+    recovery = verify_recovery(root, work, work_id, project)
     reasons.extend(recovery["reasons"])
     warnings += [
         "Always query live owner_decisions; stale cached state is not approval",
@@ -118,7 +126,7 @@ def _evaluate(root, work_id=None, include_work=False):
         "A checkpoint is a recovery aid, not retained chat memory",
     ]
     return {
-        "schema_version": 2,
+        "schema_version": 2, "project": project,
         "mode": "full" if reasons else "short",
         "ready_for_short": not reasons,
         "ready_for_resume": not reasons,
@@ -145,9 +153,9 @@ def _evaluate(root, work_id=None, include_work=False):
     }
 
 
-def evaluate(root, work_id=None, include_work=False):
+def evaluate(root, work_id=None, include_work=False, project="seregius"):
     try:
-        return _evaluate(root, work_id, include_work)
+        return _evaluate(root, work_id, include_work, project)
     except (OSError, ValueError, TypeError, KeyError, AttributeError) as e:
         return {"schema_version": 2, "mode": "full", "ready_for_short": False,
                 "ready_for_resume": False, "execution_authorized": False,
@@ -158,12 +166,13 @@ def evaluate(root, work_id=None, include_work=False):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("repo", nargs="?", default=".")
+    p.add_argument("--project", default="seregius")
     p.add_argument("--output", default="")
     p.add_argument("--work-id", help="Explicit user-requested task; never inferred from update time")
     p.add_argument("--include-work", action="store_true", help="Include the full historical register")
     p.add_argument("--require-short", action="store_true", help="Return nonzero if short recovery fails")
     args = p.parse_args()
-    result = evaluate(Path(args.repo), args.work_id, args.include_work)
+    result = evaluate(Path(args.repo), args.work_id, args.include_work, args.project)
     content = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
     if args.output:
         dest = Path(args.output)

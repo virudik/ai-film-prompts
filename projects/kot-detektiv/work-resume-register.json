@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "kot-detektiv",
-  "last_updated_at": "2026-10-21T14:18:39.616Z",
+  "last_updated_at": "2026-10-27T14:07:47+00:00",
   "active_work": [],
   "completed_work": [
     {
@@ -136,5 +136,52 @@
       "completed_at": "2026-10-20T03:46:04.766Z",
       "content_commit": "ecc96c528156f4781296ef8485d46d8872e52be3"
     }
-  ]
+  ],
+  "idle_state": {
+    "work_id": "KD-WAIT-OWNER",
+    "project": "kot-detektiv",
+    "title": "Кот детектив — ожидание решения владельца",
+    "status": "waiting_for_owner",
+    "constraints": [
+      "Действующие ограничения запуска и решения владельца сохраняются"
+    ],
+    "done": [
+      "22 DRAFT-сцены, 129 промтов с динамичными вариантами; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась."
+    ],
+    "next_action": "Сверить свежие решения о сюжете, варианте промтов и первых сценах. До выбора владельца — ожидание без добавления в очередь и без запусков.",
+    "recovery": {
+      "schema_version": 1,
+      "verified_at": "2026-10-27T14:07:47+00:00",
+      "last_completed": "22 DRAFT-сцены, 129 промтов с динамичными вариантами; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.",
+      "next_action": "Сверить свежие решения о сюжете, варианте промтов и первых сценах. До выбора владельца — ожидание без добавления в очередь и без запусков.",
+      "checkpoint": {
+        "file": "projects/kot-detektiv/reports/current-work-checkpoint.md",
+        "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
+        "sha256": "d7c16b81c8ab66063a0291b379dd4c8312ca207cf3d94241e9131f252fd79f73"
+      },
+      "evidence": [
+        {
+          "file": "projects/kot-detektiv/HANDOFF.md",
+          "sha256": "823949b68d14e32cd374824b656135099c7aa8254d5c042d418bf8452b2d9745"
+        },
+        {
+          "file": "projects/kot-detektiv/INSTRUCTIONS.md",
+          "sha256": "9940f287b16c620edfde8373d84d052ec495245abefacfdc264c08ba11d9a7c7"
+        }
+      ],
+      "read_next": [
+        "projects/kot-detektiv/HANDOFF.md",
+        "projects/kot-detektiv/INSTRUCTIONS.md",
+        "ops/OWNER-TASKS.md"
+      ],
+      "blockers": []
+    },
+    "updated_at": "2026-10-27T14:07:47+00:00"
+  },
+  "resume_focus": {
+    "project": "kot-detektiv",
+    "work_id": "KD-WAIT-OWNER",
+    "set_at": "2026-10-27T14:07:47.150Z",
+    "reason": "Миграция подтверждённого состояния; не запуск и не квитанция нового чата"
+  }
 }

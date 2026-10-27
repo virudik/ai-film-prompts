@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "kotmonavty",
   "active_work": [],
-  "last_updated_at": "2026-10-21T14:18:39.616Z",
+  "last_updated_at": "2026-10-27T14:07:47+00:00",
   "completed_work": [
     {
       "work_id": "KM-20261021-ORIGINAL-WORDMARK",
@@ -110,5 +110,52 @@
       "content_commit": "98b2f375b2bcfe79d334a20eb8fc0ce693a22056",
       "verified_at": "2026-10-20T20:59:36Z"
     }
-  ]
+  ],
+  "idle_state": {
+    "work_id": "KM-WAIT-OWNER",
+    "project": "kotmonavty",
+    "title": "Котмонавты — ожидание решения владельца",
+    "status": "waiting_for_owner",
+    "constraints": [
+      "Действующие ограничения запуска и решения владельца сохраняются"
+    ],
+    "done": [
+      "22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась."
+    ],
+    "next_action": "Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.",
+    "recovery": {
+      "schema_version": 1,
+      "verified_at": "2026-10-27T14:07:47+00:00",
+      "last_completed": "22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.",
+      "next_action": "Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.",
+      "checkpoint": {
+        "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
+        "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
+        "sha256": "6979dd6490234bf274112c5a8fad1ae88f1e43be12578832970ec68db1496940"
+      },
+      "evidence": [
+        {
+          "file": "projects/kotmonavty/HANDOFF.md",
+          "sha256": "9aac6ca6ced776e3794ad44af5e82c66077be70bd61b4196a15ea40b0315e227"
+        },
+        {
+          "file": "projects/kotmonavty/INSTRUCTIONS.md",
+          "sha256": "154bffc5bb9f72048cc475951cc5be3133a1f9f209be8bd32d56fa6c4cfe37b5"
+        }
+      ],
+      "read_next": [
+        "projects/kotmonavty/HANDOFF.md",
+        "projects/kotmonavty/INSTRUCTIONS.md",
+        "ops/OWNER-TASKS.md"
+      ],
+      "blockers": []
+    },
+    "updated_at": "2026-10-27T14:07:47+00:00"
+  },
+  "resume_focus": {
+    "project": "kotmonavty",
+    "work_id": "KM-WAIT-OWNER",
+    "set_at": "2026-10-27T14:07:47.150Z",
+    "reason": "Миграция подтверждённого состояния; не запуск и не квитанция нового чата"
+  }
 }

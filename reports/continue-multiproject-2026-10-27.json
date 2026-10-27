@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "work_id": "CONTINUE-MULTIPROJECT-20261027",
+  "updated_at": "2026-10-27T14:16:54.417Z",
+  "status": "implemented_pending_publication_verification",
+  "projects": [
+    "seregius",
+    "kotmonavty",
+    "kot-detektiv",
+    "raznoe",
+    "misc"
+  ],
+  "checks": {
+    "full_suite_before_final_small_changes": "398 test executions passed (included inherited duplicates, subsequently removed)",
+    "project_specific_final": "16 passed",
+    "site_contract": "passed",
+    "js_indicator": "passed",
+    "project_validation": "passed",
+    "instruction_consistency": "ok",
+    "canon_health": "ok, warnings=0",
+    "project_preflights": "5/5 ready"
+  },
+  "real_next_new_chat_acceptance": "pending; issue #9 remains open",
+  "receipt": "reports/handoff-receipts.json",
+  "current_chat_identity": "Exact conversation ID unavailable; receipt explicitly labels this and records a separate local session ID.",
+  "publication": null,
+  "public_ui": null,
+  "launches": 0
+}
