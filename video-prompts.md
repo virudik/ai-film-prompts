@@ -7627,6 +7627,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="Алина: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Алина: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" alt="Даша: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image2 — Даша: развёртка в одежде Татуина</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="66">

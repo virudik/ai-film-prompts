@@ -38,13 +38,54 @@
         }
       ],
       "character_id": "alina"
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "caption": "Даша: развёртка в одежде Татуина",
+      "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2045183,
+      "role": "Даша: развёртка в одежде Татуина",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (open Work)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T19:15:42+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T19:15:42+00:00",
+        "scope": "Visual inspection of subject, composition, identity where supplied, anatomy, 16:9 and no lettering/logos. Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.image-prompt.txt",
+      "identity_source_photos": [
+        {
+          "owner_attachment": "b1d60caa-c831-43a6-9999-1dc95cfc27cd.jpg",
+          "sha256": "55df134721335af50cd36bd96d71bda62b4980674fba2ed68b935781db26c77a"
+        },
+        {
+          "owner_attachment": "b6815963-d9ff-47fc-8404-cc6774b4b763.jpg",
+          "sha256": "b2bd9a9b7ed48035453bf04751f91e18e7c2c9a0edd721f58575446b7c586b6b"
+        }
+      ],
+      "character_id": "dasha"
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T19:12:21+00:00",
+  "updated_at": "2026-10-27T19:15:42+00:00",
   "identity_refs": [
-    "references/scenes/scene-66/S66-Alina-tatooine-sheet.png"
+    "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+    "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png"
   ]
 }
