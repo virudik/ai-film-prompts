@@ -1,8 +1,23 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T09:35:10.298311+00:00",
+  "last_updated_at": "2026-10-27T09:56:07.089Z",
   "active_work": [
+    {
+      "work_id": "S52-OWNER-REVIEW-20261027",
+      "title": "Пересборка сцены52 от конца ремонта Seedance2.5",
+      "status": "review_in_progress",
+      "updated_at": "2026-10-27T09:56:07.089Z",
+      "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
+      "completed": [
+        "Exact S52 and S44 Seedance2.5 source task IDs verified via Topview; old unsubmitted S52 P2 placed on owner hold."
+      ],
+      "next_action": "Review downloaded originals and Kashyyyk split; prepare a separate-action proposal with exact source provenance. No new rendering yet.",
+      "canonical_refs": [
+        "reports/scene52-rebuild-2026-10-27.json",
+        "ops/topview-launch-queue.json"
+      ]
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",

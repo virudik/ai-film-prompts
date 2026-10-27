@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "work_id": "S52-OWNER-REVIEW-20261027",
+  "scene_id": 52,
+  "updated_at": "2026-10-27T09:56:07.089Z",
+  "status": "review_in_progress",
+  "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
+  "current_s52_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+  "selected_s44_task_id": "3c01baad89544304aaa803725f6aae4b",
+  "selected_s44_model": "Seedance 2.5",
+  "old_p2_state": "blocked_owner_decision",
+  "new_generation_submitted": false
+}

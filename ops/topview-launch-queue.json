@@ -3331,7 +3331,7 @@
       "canonical_prompt_sha256": "85364fcb6371a4feee97f8d85ba1ccf84c54bb3f0fd35a1d03fafe44d4e8a6bf",
       "normalized_prompt_sha256": "e3fc6485d4316a4e90b3266746cca58f552257ed75b71228ec32a16d498ef15c",
       "priority": 0,
-      "state": "waiting_for_slot",
+      "state": "blocked_owner_decision",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3390,8 +3390,8 @@
       "depends_on_completed": [
         "S52-SEED20-P1"
       ],
-      "blocker": null,
-      "launch_readiness": "authorized_inputs_available",
+      "blocker": "Owner27Oct2026 rejected using the current S52 result as the basis for continuation and selected S44 Seedance2.5 ending. Old P2 must not launch; review and replace the sequence before any new authorized submission.",
+      "launch_readiness": "blocked_owner_revision",
       "authorization_before_20261023_expansion": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
@@ -3418,7 +3418,16 @@
         "known_source_defect": "During cockpit frames the yellow bread/milk note is attached to Serega's chest instead of the blank right console panel; the defect is recorded and is not visible in the exterior P2 continuity opening."
       },
       "continuity_prepared_at": "2026-10-27T06:42:11.566Z",
-      "updated_at": "2026-10-27T06:42:11.566Z"
+      "updated_at": "2026-10-27T09:56:07.089Z",
+      "owner_revision_20261027": {
+        "at": "2026-10-27T09:56:07.089Z",
+        "previous_state": "waiting_for_slot",
+        "previous_launch_readiness": "authorized_inputs_available",
+        "previous_blocker": null,
+        "reason": "Owner says Scene52 result is wrong, proposes separate boarding/takeoff/cruiser fly-by/Tatooine arrival clips, and selects Scene44 Seedance2.5 ending as the new start.",
+        "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+        "source_model": "Seedance 2.5"
+      }
     },
     {
       "id": "S53-SEED20-P1",
@@ -7950,5 +7959,10 @@
     ],
     "removed_dependency": "S51B no longer continues S51A: unsubmitted scene redesigned as independent pairs. A12 still waits A11.",
     "new_video_submissions": 0
+  },
+  "owner_instruction_20261027_scene52": {
+    "at": "2026-10-27T09:56:07.089Z",
+    "quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
+    "scope": "Scene52 only: stop old unsubmitted P2, inspect actual outputs and develop a split proposal using the selected Scene44 Seedance2.5 source. No new render submitted by this checkpoint."
   }
 }
