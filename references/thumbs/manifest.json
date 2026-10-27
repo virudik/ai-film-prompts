@@ -2883,6 +2883,16 @@
    "thumb_bytes": 42622,
    "src_sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
   },
+  "references/scenes/scene-65/S65-toast-closeup.png": {
+   "thumb": "references/thumbs/scenes/scene-65/S65-toast-closeup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2199608,
+   "thumb_bytes": 46478,
+   "src_sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
