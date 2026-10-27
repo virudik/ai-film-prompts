@@ -2893,6 +2893,16 @@
    "thumb_bytes": 46478,
    "src_sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552"
   },
+  "references/scenes/scene-67/S67-fruit-stall.png": {
+   "thumb": "references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2757718,
+   "thumb_bytes": 65380,
+   "src_sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
