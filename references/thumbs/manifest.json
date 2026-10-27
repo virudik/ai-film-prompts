@@ -1023,6 +1023,16 @@
    "thumb_bytes": 48522,
    "src_sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7"
   },
+  "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2531929,
+   "thumb_bytes": 72494,
+   "src_sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06"
+  },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
