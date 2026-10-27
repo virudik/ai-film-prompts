@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-27T16:27:39+00:00",
-  "source_head": "4d439070e84c77fc82842e71d213811a0764f4fd",
-  "source_fingerprint": "45e3f512c93c8c0dca463c9f357001271a1070066f69e741b3bd0b61d063215c",
+  "checked_at": "2026-10-27T16:31:18+00:00",
+  "source_head": "798f490c25c6ebc403058451f61719bbb38503f5",
+  "source_fingerprint": "968ee93f57a8ba298a71be40192efc2ff76e484142432a493398b4504fce9246",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -163,8 +163,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "5609080b954d7e7b734055b734fe8324917dcd238de5d99c8cf69a8b0531f9c4",
-      "bytes": 35829
+      "sha256": "d49bdd4283a196da4e30fb04380451983301a361a857c32f5dda48f693429475",
+      "bytes": 34911
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -188,7 +188,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "2253451fa3103e35d269d1d3d26475f61abb51cfc333f287a498e3af82297986",
+      "sha256": "a4177123c46d8cc0e011039bee1a6725d1197477dcf9104527fade00826e15d8",
       "bytes": 5141
     },
     {
@@ -203,7 +203,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "8002edb56c57868515e023a7de4bd3f446746239e726404961bcca3b3473f93c",
+      "sha256": "9fc4266bdc05a1a23a9c7f7b2ccdfe3570f75338fc0b167bf057a6b75f8c897c",
       "bytes": 19850
     },
     {
@@ -258,12 +258,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "402d1d751cfd60b9208bbb7d769a86a342e3c3742ad164f4f5c9bfaa47c41b16",
-      "bytes": 35630
+      "sha256": "686232b3f9edc4b2ddc7c8b95af03ca0a33770d2327a2dcdd628ef4b1efc9e93",
+      "bytes": 34712
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "41bc44172d72d5ae63bbb0737060bd216fae3354c57bbc555239a001ce545c4e",
+      "sha256": "b2a804664f9f48c0e6fc52856d96d5dbcdfe3615c33a06a2286b73c774fd3f00",
       "bytes": 22297
     },
     {
