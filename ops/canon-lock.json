@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "OPEN-WORK-REFS-RELAY-20261027: recover checkpoint",
-  "acquired_at": "2026-10-27T20:50:54.015Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T20:52:36+00:00",
+  "task": "open Work: S66 Stitch reference and prompt correction",
+  "acquired_at": "2026-10-27T20:54:12.822Z",
+  "expires_at": "2026-10-27T21:39:12.822Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
