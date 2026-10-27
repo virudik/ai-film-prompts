@@ -88,22 +88,24 @@
       "result:bf27bb8615eb4ad5a44a86ec2efcd3be",
       "result:6598a21c2c684d43b7cede9cfc987107",
       "result:af8e389dc9564607bc6138b408c72da5",
-      "result:56e5e07c85df4af583c62665c51ed563"
+      "result:56e5e07c85df4af583c62665c51ed563",
+      "result:34ff1bf7fe9d47f08de5a635d5626c70"
     ],
     "robot_wake_keys": [
-      "result:56e5e07c85df4af583c62665c51ed563"
+      "result:56e5e07c85df4af583c62665c51ed563",
+      "result:34ff1bf7fe9d47f08de5a635d5626c70"
     ],
     "robot_rewake": {
-      "episode": "14d7d42d",
-      "count": 1,
-      "last_at": "2026-10-26T01:00:25Z",
-      "last_event_id": "slots:14d7d42d:1",
+      "episode": "c3b54902",
+      "count": 0,
+      "last_at": "2026-10-27T05:33:00Z",
+      "last_event_id": "result:34ff1bf7fe9d47f08de5a635d5626c70",
       "silence_reported": null
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-10-27T05:30:17Z",
+      "checked_at": "2026-10-27T05:32:57Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -121,8 +123,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-27T05:30:20Z",
-    "completed_at": "2026-10-27T05:30:20Z",
+    "started_at": "2026-10-27T05:33:00Z",
+    "completed_at": "2026-10-27T05:33:00Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -134,7 +136,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -193,8 +195,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-27T05:30:20Z",
-  "last_successful_cycle_at": "2026-10-27T05:30:20Z",
+  "last_completed_cycle_at": "2026-10-27T05:33:00Z",
+  "last_successful_cycle_at": "2026-10-27T05:33:00Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -209,13 +211,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-27T05:30:20Z"
+    "robot": "2026-10-27T05:33:00Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-27T05:30:20Z"
+    "robot": "2026-10-27T05:33:00Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
