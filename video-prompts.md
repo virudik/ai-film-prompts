@@ -7228,10 +7228,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-64/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с): по указанию владельца Wan лучше делает узнаваемых персонажей и антураж «Звёздных войн».
 
-**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-64/S64-corridor.png` (Коридор звёздного разрушителя: геометрия и свет; ещё не нарисован); @Image3 — `references/scenes/scene-64/S64-officers-reaction.png` (Офицеры у стены: странный и испуганный взгляд; ещё не нарисован).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-64/S64-corridor.png` (Коридор звёздного разрушителя: геометрия и свет); @Image3 — `references/scenes/scene-64/S64-officers-reaction.png` (Офицеры у стены: странный и испуганный взгляд; ещё не нарисован).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
+<figure><a href="references/scenes/scene-64/S64-corridor.png" target="_blank" rel="noopener"><img src="references/scenes/scene-64/S64-corridor.png" alt="Коридор звёздного разрушителя" loading="lazy"></a><figcaption>@Image2 — Коридор звёздного разрушителя</figcaption></figure>
 </div>
 
 **Режиссёрский контроль:** Офицеры боятся, а не смеются; танец на ходу, без остановки и без «сценического номера»; в конце двери закрываются за Серёгой.
