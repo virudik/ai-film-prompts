@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 65,
+  "references": [
+    {
+      "path": "references/scenes/scene-65/S65-bar-table.png",
+      "asset_id": "references/scenes/scene-65/S65-bar-table.png",
+      "caption": "Серёга и компания за столом кантины",
+      "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2250737,
+      "role": "Серёга и компания за столом кантины",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (open Work)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T18:59:30+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T18:59:30+00:00",
+        "scope": "Visual inspection of subject, composition, identity where supplied, anatomy, 16:9 and no lettering/logos. Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-65/S65-bar-table.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-65/S65-bar-table.image-prompt.txt"
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "technical_success_is_editorial_approval": false,
+  "updated_at": "2026-10-27T18:59:30+00:00"
+}

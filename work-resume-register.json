@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T18:12:14Z",
+  "last_updated_at": "2026-10-27T18:59:31+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -640,6 +640,46 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
+    },
+    {
+      "work_id": "OPEN-WORK-REFS-RELAY-20261027",
+      "project": "seregius",
+      "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
+      "status": "in_progress",
+      "updated_at": "2026-10-27T18:59:31+00:00",
+      "owner_task_id": "claude-202610271320-cpk-refs",
+      "owner_quote": "Её выполняешь именно ты, открытый чат. Ничего не запускай.",
+      "completed": [
+        "10 PNG ЦПК опубликованы",
+        "S64: оба референса опубликованы",
+        "S65: стол с точным Серёгой сохранён"
+      ],
+      "next_action": "S65-toast-closeup, затем оставшиеся изображения, Relay и Продолжай",
+      "canonical_refs": [
+        "ops/owner-tasks.json",
+        "references/scenes/scene-65/manifest.json"
+      ],
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-27T18:59:31+00:00",
+        "last_completed": "10 ЦПК + 2 S64 + стол S65 сохранены; технический QC, без художественного принятия",
+        "next_action": "S65-toast-closeup, затем оставшиеся изображения, Relay и Продолжай",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
+          "sha256": "77ecde5a1c639c1ab43535a25afe29d0a110b0f6ac3450e3c1fdf7b2f4337477"
+        },
+        "evidence": [
+          {
+            "file": "references/scenes/scene-65/manifest.json",
+            "sha256": "8420f46d0aa2c1a69ffcc105ec2a1778d57f39bf97dda749c1c21170b22218ef"
+          }
+        ],
+        "read_next": [
+          "ops/OWNER-TASKS.md"
+        ],
+        "blockers": []
+      }
     }
   ],
   "rules": [
@@ -901,9 +941,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-PLAN-20261023",
+    "work_id": "OPEN-WORK-REFS-RELAY-20261027",
     "project": "seregius",
-    "set_at": "2026-10-27T14:30:50.735Z",
-    "reason": "Requested multi-project rollout and receipts completed; return to the existing authorized film plan, not monitor timestamps."
+    "set_at": "2026-10-27T18:59:31+00:00",
+    "reason": "Explicitly selected by the authorized task writer"
   }
 }

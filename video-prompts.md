@@ -7418,11 +7418,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-65/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с), по указанию владельца: Wan делает персонажей, защищённых авторским правом.
 
-**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11; ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11; ещё не нарисован).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11; ещё не нарисован).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
 <figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="Кантина: арки, лампа, столы (только локация)"></a><figcaption>@Image2 — Кантина: арки, лампа, столы (только локация)</figcaption></figure>
+<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank" rel="noopener"><img src="references/scenes/scene-65/S65-bar-table.png" alt="Серёга и компания за столом кантины" loading="lazy"></a><figcaption>@Image2 — Серёга и компания за столом кантины</figcaption></figure>
 </div>
 
 **Режиссёрский контроль:** Серёга не говорит ни слова; Боба Фетт не снимает шлем; IG-11 не пьёт, а смазывает себя из маслёнки; трое из исходника кантины (S10) в кадр не попадают.
