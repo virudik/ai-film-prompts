@@ -5,6 +5,6 @@
   "task": "Shorten handoff line (size warn)",
   "acquired_at": "2026-10-27T16:27:25Z",
   "expires_at": null,
-  "released_at": "2026-10-27T16:28:36Z",
+  "released_at": "2026-10-27T16:28:44Z",
   "rules": "ops/CANON-LOCK.md"
 }
