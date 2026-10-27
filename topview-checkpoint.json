@@ -1,28 +1,30 @@
 {
   "schema_version": 1,
   "purpose": "Stable commit marker written LAST after topview-status.json and topview-task-map.json have both been verified. Integration tests trigger on this file, not on intermediate telemetry commits.",
-  "committed_at": "2026-10-27T05:33:00.787Z",
-  "checked_at": "2026-10-27T05:32:57Z",
-  "occupied_slots": 5,
+  "committed_at": "2026-10-27T06:20:20.342Z",
+  "checked_at": "2026-10-27T06:20:15Z",
+  "occupied_slots": 6,
   "active_task_ids": [
     "4a1061e175054da2810ffef8ad9d31cd",
     "4b7b972870a44dfbb29bd6c5e330a633",
     "8a8eadc809004e318c47201b8a463be0",
     "8b6a8ce102ea416e88d3c14fa558c513",
+    "8d7ff1e2de63478693778de29e0dd56e",
     "b15165813c0848939edbe8b3d3aed182"
   ],
   "active_scene_ids": [
     28,
     42,
+    48,
     56,
     58
   ],
-  "task_map_updated_at": "2026-10-27T05:32:57Z",
-  "task_map_last_scan_at": "2026-10-27T05:32:57Z",
+  "task_map_updated_at": "2026-10-27T06:20:15Z",
+  "task_map_last_scan_at": "2026-10-27T06:20:15Z",
   "canonical_validation": {
-    "verified_at": "2026-10-27T05:33:00Z",
+    "verified_at": "2026-10-27T06:20:19Z",
     "health": "ok",
-    "canonical_master_sha256": "c6c683e9c03e200ed6e173351a745755760b786239db1fabcd1e40da3c7fe253",
+    "canonical_master_sha256": "28299e1c6bb890f4968902258999d38d4f2d22bedcfc0421c9ba74741aa1d622",
     "all_project_checks_true": true
   }
 }
