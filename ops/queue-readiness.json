@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "71b1bc16068b69fccf5661ae9d9695cb329288cb9f980ff38c94e24c0cb86991",
+  "source_queue_sha256": "a408cf28f108415c6acd5f40cf838a6edd24ec5fa904b2b4b7b3a7bcf48b441e",
   "source_task_map_sha256": "ce253e1461357c6b8a5c976e3b5e7e2e2e1fd73aa704a7cc23796e4627f12646",
   "topview_checked_at": "2026-10-27T13:10:20Z",
   "items": [
@@ -155,24 +155,6 @@
       "code": "waiting_result",
       "ready": false,
       "text": "@Video1: ждёт результат 56 · Seedance 2.0 часть 1",
-      "queue_state": "blocked_inputs"
-    },
-    {
-      "id": "S44-SEED20-P1",
-      "scene_id": 44,
-      "part_label": "Часть 1",
-      "code": "owner_hold",
-      "ready": false,
-      "text": "По решению владельца: сначала оценка результата 52P1; запуск 44 отложен; @Video1: исходный результат получен, но не прошёл проверку стыка",
-      "queue_state": "blocked_inputs"
-    },
-    {
-      "id": "S44-SEED20-P2",
-      "scene_id": 44,
-      "part_label": "Часть 2",
-      "code": "owner_hold",
-      "ready": false,
-      "text": "По решению владельца: сначала оценка результата 52P1; запуск 44 отложен; @Video1: ждёт результат 44 · Seedance 2.0 часть 1 (ещё не запущен)",
       "queue_state": "blocked_inputs"
     },
     {
@@ -438,5 +420,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-27T13:10:26.397748Z"
+  "checked_at": "2026-10-27T13:38:07.554730Z"
 }

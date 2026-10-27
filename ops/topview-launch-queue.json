@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T12:17:53Z",
+  "updated_at": "2026-10-27T13:38:06.555911+00:00",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3913,10 +3913,10 @@
       "duration_seconds": 15,
       "prompt_text_resolution": 720,
       "priority": 7.1,
-      "state": "blocked_inputs",
+      "state": "superseded_owner_in_film",
       "task_id": null,
       "claim": null,
-      "launch_readiness": "blocked_continuity_qc",
+      "launch_readiness": "not_selected",
       "references": [
         {
           "slot": "@Image1",
@@ -3961,6 +3961,14 @@
         "at": "2026-10-23T13:43:36Z",
         "quote": "1 переснимаем. 2 посмотрим результат запущенной  и ещё не готовой сцены.",
         "meaning": "Decide 44 after the owner sees the result of the running S52-SEED20-P1 (task 34ff1bf7c…, started from the end of the Wan 44 result 42f5f94e…). Until then: do not launch, cancel or rerender 44."
+      },
+      "prior_state_before_owner_in_film": "blocked_inputs",
+      "closure": {
+        "reason": "Owner marked scene44 in film; never launch obsolete unsubmitted alternatives. Historical fields and source inputs are retained.",
+        "owner_decision_id": "c3a958df-e912-4fa4-ac2f-6d5d4e39272d",
+        "owner_decision_at": "2026-10-27T13:30:45.717539Z",
+        "applied_commit": "ebd504a9",
+        "checked_at": "2026-10-27T13:38:06.555883+00:00"
       }
     },
     {
@@ -3981,10 +3989,10 @@
       "duration_seconds": 15,
       "prompt_text_resolution": 720,
       "priority": 7.2,
-      "state": "blocked_inputs",
+      "state": "superseded_owner_in_film",
       "task_id": null,
       "claim": null,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "not_selected",
       "references": [
         {
           "slot": "@Image1",
@@ -4027,6 +4035,14 @@
         "at": "2026-10-23T13:43:36Z",
         "quote": "1 переснимаем. 2 посмотрим результат запущенной  и ещё не готовой сцены.",
         "meaning": "Decide 44 after the owner sees the result of the running S52-SEED20-P1 (task 34ff1bf7c…, started from the end of the Wan 44 result 42f5f94e…). Until then: do not launch, cancel or rerender 44."
+      },
+      "prior_state_before_owner_in_film": "blocked_inputs",
+      "closure": {
+        "reason": "Owner marked scene44 in film; never launch obsolete unsubmitted alternatives. Historical fields and source inputs are retained.",
+        "owner_decision_id": "c3a958df-e912-4fa4-ac2f-6d5d4e39272d",
+        "owner_decision_at": "2026-10-27T13:30:45.717539Z",
+        "applied_commit": "ebd504a9",
+        "checked_at": "2026-10-27T13:38:06.555905+00:00"
       }
     },
     {

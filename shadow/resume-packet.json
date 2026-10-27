@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "generator": "continue-2.0",
-  "checked_at": "2026-10-27T13:33:42+00:00",
-  "source_head": "61c2638b7c29d714016464bd184e6d0df50191cb",
-  "source_fingerprint": "44d57836b8508545c7f9f0cf8407d11cdb3b6fcfd42cd894f5d898c6d5c3220c",
+  "checked_at": "2026-10-27T13:41:13+00:00",
+  "source_head": "dff2aeb6f7cceeaff3d2e70cf6d6bd85b6d8027f",
+  "source_fingerprint": "197c9bf8ce650a2bcd28639192a54dc394c195dcfe9905d78c0636cf821c0a12",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -375,8 +375,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "71b1bc16068b69fccf5661ae9d9695cb329288cb9f980ff38c94e24c0cb86991",
-      "bytes": 391963
+      "sha256": "a408cf28f108415c6acd5f40cf838a6edd24ec5fa904b2b4b7b3a7bcf48b441e",
+      "bytes": 392902
     },
     {
       "file": "project-status.json",
@@ -385,8 +385,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "00ddc9ec4b981d4adfcc15ed9aa1b26343e8508e639dbc10a64a91ecec1bce31",
-      "bytes": 8646
+      "sha256": "dcebd833fe1e9eb614d36a82374038470f7b1e513a87b903742b0375f5b11ae6",
+      "bytes": 10185
     },
     {
       "file": "reports/scene52-rebuild-2026-10-27.json",
@@ -410,8 +410,8 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "bdd47a4d46907e719d9788f6c5e0ac485e20834de3e787b8bde27e1e00eec92c",
-      "bytes": 54923
+      "sha256": "3c6d6c68bf729df6cfdd6b14807f2d33bb6b3343790e7b4bbf894a67def56814",
+      "bytes": 54902
     }
   ],
   "packet_bytes": 6098

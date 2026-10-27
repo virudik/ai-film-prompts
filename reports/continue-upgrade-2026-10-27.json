@@ -2,7 +2,7 @@
   "schema_version": 1,
   "checked_at": "2026-10-27T13:22:04.533Z",
   "work_id": "CONTINUE-001",
-  "status": "implemented_locally_verified",
+  "status": "implemented_and_verified",
   "baseline": {
     "commit": "cff85f016e8917cd86dc4542390aeab86268da98",
     "preflight_false_ready_cases": [
@@ -32,12 +32,60 @@
     "site": {
       "static_contract": "passed",
       "indicator_logic": "passed",
-      "visual_public_readback": "pending_publication"
+      "visual_public_readback": {
+        "status": "passed",
+        "url": "https://virudik.github.io/ai-film-prompts/",
+        "checked_at": "2026-10-27T13:41:13.507Z",
+        "observed": [
+          "Продолжение: готово",
+          "correct SEREGIUS-PLAN-20261023 title, saved Scene52 stage and next action",
+          "6.0 KB packet shown",
+          "details opens and refresh works",
+          "root indicator hidden on kotmonavty"
+        ],
+        "pages_run_id": 40513094048
+      }
     },
     "instruction_template": {
       "characters": 7915,
       "sha256": "d9be327ead513c89c7b0f7bb67ea3b2ad398413a90ea1c3173404e411ac838b4",
       "unchanged": true
+    },
+    "implementation_readback": {
+      "files": 36,
+      "mismatches": 0,
+      "commit": "737d3bcb88874541a97e39eb973fc56be1feb3e8"
+    },
+    "github_actions": [
+      {
+        "run_id": 40512515198,
+        "name": "integration recovery tests",
+        "conclusion": "success"
+      },
+      {
+        "run_id": 40512515271,
+        "name": "Validate Control Center",
+        "conclusion": "success"
+      },
+      {
+        "run_id": 40512515505,
+        "name": "Canonical master check",
+        "conclusion": "success"
+      },
+      {
+        "run_id": 40512515186,
+        "name": "Project and Library snapshot",
+        "conclusion": "success"
+      },
+      {
+        "run_id": 40513148126,
+        "name": "Recovery packet regeneration",
+        "conclusion": "success"
+      }
+    ],
+    "post_owner_decision_targeted_tests": {
+      "passed": 33,
+      "scope": "queue readiness and recovery after scene44 queue closure"
     }
   },
   "project_instruction_receipt": "reports/chatgpt-project-instructions-2026-10-27.json",
@@ -56,5 +104,23 @@
     "drive": "stale_after_canonical_update; existing periodic copy workflow will refresh",
     "project_instructions": "installed template unchanged; follows current protocol",
     "library": "noncanonical snapshot workflow updated; no claim of automatic upload"
-  }
+  },
+  "verified_at": "2026-10-27T13:41:13.507Z",
+  "implementation_commit": "737d3bcb88874541a97e39eb973fc56be1feb3e8",
+  "workflow_followup_commit": "a2de8154228b38e894f750c90c4cda9830dc2e55",
+  "post_publication_owner_decision": {
+    "owner_decision_id": "c3a958df-e912-4fa4-ac2f-6d5d4e39272d",
+    "action": "in_film",
+    "scene_id": 44,
+    "applied_by_robot_commit": "ebd504a9",
+    "obsolete_unsubmitted_items_closed": [
+      "S44-SEED20-P1",
+      "S44-SEED20-P2"
+    ],
+    "submitted_task_ids_preserved": true,
+    "scene52_video_input_unchanged": true,
+    "canon_health_warning_resolved_locally": true
+  },
+  "notion_pointer": "updated 27.10; GitHub main remains canonical",
+  "tracking_issue": "https://github.com/virudik/ai-film-prompts/issues/9"
 }

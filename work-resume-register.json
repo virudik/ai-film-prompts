@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T13:27:50+00:00",
+  "last_updated_at": "2026-10-27T13:41:13+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -292,7 +292,7 @@
       "title": "Бесшовный переход между чатами AI Film",
       "status": "implemented_pending_real_new_chat_check",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "updated_at": "2026-10-27T13:27:50+00:00",
+      "updated_at": "2026-10-27T13:41:13+00:00",
       "owner_authorization": {
         "quote": "внеси все улучшения",
         "at": "2026-10-27T12:57:38.222Z",
@@ -316,18 +316,18 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T13:27:50+00:00",
-        "last_completed": "Техническое обновление выполнено; 331 тест, статическая проверка сайта и логика индикатора прошли. Настоящий новый чат ещё не проверен.",
+        "verified_at": "2026-10-27T13:41:13+00:00",
+        "last_completed": "Улучшения опубликованы и проверены: 331 тест, серверные проверки, точный readback 36 файлов и рабочий индикатор на публичном сайте.",
         "next_action": "При следующем настоящем новом чате проверить команду «Продолжай» и записать выбранную задачу/первое действие в issue #9; текущая техническая доработка завершена.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Продолжай: техническое обновление 27.10.2026",
-          "sha256": "3ca010fae2bb11751ca231a9924b509f7445f58989440955da15538e3fde5fd3"
+          "anchor": "# Продолжай: публикация и проверка 27.10.2026",
+          "sha256": "f89ad3b20f575533d74ab9e991063d63479c6c37415f017d067fcf256a1cf737"
         },
         "evidence": [
           {
             "file": "reports/continue-upgrade-2026-10-27.json",
-            "sha256": "e5062d81e9778105cd954c5232887e5dc2c7d75cb70c43c4a62b72108a81c711"
+            "sha256": "945679f0b9d3f16a90b568bd815120d96d63e3e57e4347a8c3401c03eed50b02"
           }
         ],
         "read_next": [

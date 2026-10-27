@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:continue-upgrade",
   "task": "CONTINUE-001: recovery integrity, focus, compact bundle, site readiness and tests",
   "acquired_at": "2026-10-27T12:56:54.048Z",
-  "expires_at": "2026-10-27T14:13:06.884Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-27T13:41:13.507Z",
   "rules": "ops/CANON-LOCK.md"
 }
