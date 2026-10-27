@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-27T18:41:30+00:00",
+  "updated_at": "2026-10-27T18:44:37+00:00",
   "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
@@ -1172,6 +1172,34 @@
           "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f",
           "scenes": [
             24
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c25-hydrolab-pool",
+      "name": "ЦПК: тренировка под водой в гидролаборатории",
+      "kind": "situation_reference",
+      "scenes": [
+        25
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png",
+          "caption": "ЦПК: тренировка под водой в гидролаборатории",
+          "prompt_file": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:44:37+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+          "scenes": [
+            25
           ],
           "width": 1672,
           "height": 941,
