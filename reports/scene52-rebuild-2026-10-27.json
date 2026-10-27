@@ -3,7 +3,7 @@
   "work_id": "S52-OWNER-REVIEW-20261027",
   "scene_id": 52,
   "updated_at": "2026-10-27T11:01:19.481Z",
-  "status": "references_complete_handoff_prompts_queue_pending",
+  "status": "finishing_prompts_master_queue",
   "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
   "current_s52_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
   "selected_s44_task_id": "3c01baad89544304aaa803725f6aae4b",
@@ -283,5 +283,58 @@
       "master_video_prompts_modified": false,
       "launch_queue_modified_during_handoff": false
     }
+  },
+  "resume_owner_request": {
+    "at": "2026-10-27T11:13:05.193Z",
+    "quote": "Сам доделать сможешь может. Там осталось то",
+    "scope": "Complete seven selected prompts and corresponding alternate version, canonical scene/reference mappings and seven-item priority queue; preserve prior images."
+  },
+  "latest_slot_check": {
+    "at": "2026-10-27T11:12:13.118Z",
+    "tasks": [
+      {
+        "id": "4a1061e175054da2810ffef8ad9d31cd",
+        "code": "200",
+        "status": "init",
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "media": "video"
+      },
+      {
+        "id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "code": "200",
+        "status": "init",
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "media": "video"
+      },
+      {
+        "id": "8a8eadc809004e318c47201b8a463be0",
+        "code": "200",
+        "status": "init",
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "media": "video"
+      },
+      {
+        "id": "8b6a8ce102ea416e88d3c14fa558c513",
+        "code": "200",
+        "status": "init",
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "media": "video"
+      },
+      {
+        "id": "8d7ff1e2de63478693778de29e0dd56e",
+        "code": "200",
+        "status": "init",
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "media": "video"
+      },
+      {
+        "id": "b15165813c0848939edbe8b3d3aed182",
+        "code": "200",
+        "status": "init",
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "media": "video"
+      }
+    ],
+    "scope": "Six known active video task details verified live; not a full historical scan of all boards."
   }
 }

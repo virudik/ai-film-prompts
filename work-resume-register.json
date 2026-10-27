@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T11:01:19.481Z",
+  "last_updated_at": "2026-10-27T11:13:05.193Z",
   "active_work": [
     {
       "work_id": "S52-SEVEN-PARTS-20261027",
       "title": "Сцена52: семь частей, все референсы и место в очереди",
-      "status": "handoff_ready_prompts_queue_pending",
-      "updated_at": "2026-10-27T11:01:19.481Z",
+      "status": "finishing_prompts_master_queue",
+      "updated_at": "2026-10-27T11:13:05.193Z",
       "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет",
       "completed": [
         "Owner accepted seven-part scope; exact existing Seedance2.5 repair ending already saved; old unsubmitted P2 held.",
         "Seven action images generated/visually QC checked; fly-by scale corrected. Exact Topview cruiser85dab256ad994a72a34946ef70aaaf69 retrieved and saved as a production JPEG with original source SHA/resource provenance."
       ],
-      "next_action": "Resume reports/scene52-seven-parts-handoff-2026-10-27.md: write7autonomous selected Seedance2.0 prompts + alternate version, archive/replace old52 master, wire manifest and create7R2 queue items at0.00–0.06 with actual-result dependencies; validate/publish. Do not regenerate saved images.",
+      "next_action": "Owner asked same chat to finish: write prompts, replace scene52 after archive, create7R2items0.00–0.06, validate/publish/readback. Seven images already saved; six live video tasks confirmed occupied.",
       "canonical_refs": [
         "reports/scene52-rebuild-2026-10-27.json",
         "references/scenes/scene-52/manifest.json",
