@@ -80,8 +80,8 @@
       }
     ]
   },
-  "checked_at": "2026-10-27T22:25:55Z",
-  "status": "configured_pending_public_readback",
+  "checked_at": "2026-10-27T22:30:37Z",
+  "status": "published_and_exact_readback_verified",
   "selected_chain": [
     {
       "id": "S52-R2-SEED20-P7",
@@ -296,5 +296,138 @@
     "independent_read_only_review": "passed; no blocking findings",
     "video_launches": 0,
     "new_queue_items": 0
+  },
+  "content_commit": "71056a649105eb5fca6d482ce024363b559894c6",
+  "pages_readback": {
+    "source_commit": "71056a649105eb5fca6d482ce024363b559894c6",
+    "base_url": "https://virudik.github.io/ai-film-prompts/",
+    "checked_at": "2026-10-27T22:30:12+00:00",
+    "all_match": true,
+    "files": [
+      {
+        "path": "video-prompts.md",
+        "http": 200,
+        "sha256": "86a4a6ab4902862724ff41caf7f931c843c8f856b41322a4d7e73c123bd17a5e",
+        "expected_sha256": "86a4a6ab4902862724ff41caf7f931c843c8f856b41322a4d7e73c123bd17a5e",
+        "match": true
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "http": 200,
+        "sha256": "3e633c1fbc1894a7e7e9db6bc99941cf77e9a976034fefb7d46276fe26a53f7e",
+        "expected_sha256": "3e633c1fbc1894a7e7e9db6bc99941cf77e9a976034fefb7d46276fe26a53f7e",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-52/manifest.json",
+        "http": 200,
+        "sha256": "b7b79edcb155fb93805429ad1c5916c91298b8cc477ea3b71446343ea1acbf46",
+        "expected_sha256": "b7b79edcb155fb93805429ad1c5916c91298b8cc477ea3b71446343ea1acbf46",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-66/manifest.json",
+        "http": 200,
+        "sha256": "771cb857defd76827d3cbbfca9b81fac590779bfaf65e25777f26f9d5a381f4b",
+        "expected_sha256": "771cb857defd76827d3cbbfca9b81fac590779bfaf65e25777f26f9d5a381f4b",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-68/manifest.json",
+        "http": 200,
+        "sha256": "85f0ac2d633efed159dbcb9c79d314cdee1671a55558115e68993edd56dfa629",
+        "expected_sha256": "85f0ac2d633efed159dbcb9c79d314cdee1671a55558115e68993edd56dfa629",
+        "match": true
+      }
+    ]
+  },
+  "ci_verification": {
+    "source_commit": "71056a649105eb5fca6d482ce024363b559894c6",
+    "checked_at": "2026-10-27T22:30:33+00:00",
+    "required_checks_passed": true,
+    "checks": [
+      {
+        "id": 40594845913,
+        "name": "Canon health (stale, oversized and broken canon parts)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594845913",
+        "updated_at": "2026-10-27T22:26:53Z"
+      },
+      {
+        "id": 40594845856,
+        "name": "Validate review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594845856",
+        "updated_at": "2026-10-27T22:27:13Z"
+      },
+      {
+        "id": 40594845944,
+        "name": "Build reference thumbnails",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594845944",
+        "updated_at": "2026-10-27T22:27:18Z"
+      },
+      {
+        "id": 40594845969,
+        "name": "Reconcile review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594845969",
+        "updated_at": "2026-10-27T22:27:26Z"
+      },
+      {
+        "id": 40594845966,
+        "name": "Shadow pilot takeover brief (not canonical)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594845966",
+        "updated_at": "2026-10-27T22:27:27Z"
+      },
+      {
+        "id": 40594845753,
+        "name": "AI Film integration recovery tests",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594845753",
+        "updated_at": "2026-10-27T22:27:36Z"
+      },
+      {
+        "id": 40594845998,
+        "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594845998",
+        "updated_at": "2026-10-27T22:27:50Z"
+      }
+    ],
+    "content_commit_pages_run": {
+      "id": 40594844978,
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "head_sha": "71056a649105eb5fca6d482ce024363b559894c6",
+      "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594844978",
+      "updated_at": "2026-10-27T22:27:53Z"
+    },
+    "note": "Public exact readback is verified separately; cancelled workflow runs are not treated as successful deployments.",
+    "pages_deployment": {
+      "id": 40594956568,
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "650fb940d4b6ab533b3fda062709265e5450669b",
+      "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40594956568",
+      "updated_at": "2026-10-27T22:29:59Z"
+    },
+    "public_exact_readback_files": 5
   }
 }
