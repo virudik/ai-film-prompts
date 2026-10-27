@@ -2963,6 +2963,16 @@
    "thumb_bytes": 74752,
    "src_sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72"
   },
+  "references/scenes/scene-68/S68-sweepers-crew.png": {
+   "thumb": "references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2629946,
+   "thumb_bytes": 57336,
+   "src_sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
