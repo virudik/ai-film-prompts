@@ -1013,6 +1013,16 @@
    "thumb_bytes": 42698,
    "src_sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f"
   },
+  "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2437870,
+   "thumb_bytes": 48522,
+   "src_sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7"
+  },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
