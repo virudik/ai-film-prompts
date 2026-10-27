@@ -65,5 +65,120 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T18:55:24+00:00"
+  "updated_at": "2026-10-27T21:30:18Z",
+  "prompt_reference_mapping": [
+    {
+      "label": "64",
+      "canonical_prompt_sha256": "2ae1f1a144baf2410cbc553c66a67083af2766477cdd6c1711b6807a7e5d83e7",
+      "normalized_prompt_sha256": "5edacb999d63f7e3f2ff8365fb1ee852868d98d5316ff94e6da55c5985bd9447",
+      "characters": 5375,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-64/S64-corridor.png",
+          "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Коридор звёздного разрушителя"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-64/S64-officers-reaction.png",
+          "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Офицеры: испуг и недоумение"
+        }
+      ],
+      "prompt_id": "S64-WAN30",
+      "launch_readiness": "reference_inputs_available"
+    },
+    {
+      "label": "64 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "314b5e34765552928661c49e4e68ff5c9929f3448acdd665c715f7ca263553bd",
+      "normalized_prompt_sha256": "92f9f82cafbc967a3a40d6def4234bd9c878a2b680cd77a8dfffdaa466963062",
+      "characters": 4990,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-64/S64-corridor.png",
+          "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Коридор звёздного разрушителя"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-64/S64-officers-reaction.png",
+          "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Офицеры: испуг и недоумение"
+        }
+      ],
+      "queued": false
+    },
+    {
+      "label": "64 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "c81c37b506da9524360db510ba75eaef279cf929860f3b29b37780cde6798906",
+      "normalized_prompt_sha256": "73fe0f63a146b3527bde5da9141117051a7afcd4f915cb17db1af272304cdb4d",
+      "characters": 4836,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "actual_this_scene_seedance_part1_end",
+          "source_block_label": "64 · Seedance 2.0 часть 1"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-64/S64-corridor.png",
+          "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Коридор звёздного разрушителя"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-64/S64-officers-reaction.png",
+          "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Офицеры: испуг и недоумение"
+        }
+      ],
+      "queued": false
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-64/S64-corridor.png"
+  ]
 }

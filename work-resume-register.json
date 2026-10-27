@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T21:28:18+00:00",
+  "last_updated_at": "2026-10-27T21:34:40+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -646,7 +646,7 @@
       "project": "seregius",
       "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
       "status": "in_progress",
-      "updated_at": "2026-10-27T21:28:18+00:00",
+      "updated_at": "2026-10-27T21:34:40+00:00",
       "owner_task_id": "claude-202610271320-cpk-refs",
       "owner_quote": "Её выполняешь именно ты, открытый чат. Ничего не запускай.",
       "completed": [
@@ -654,25 +654,25 @@
         "Алина, Даша, Маша Р: sheets и спор Маши сохранены; повтор не нужен",
         "Фактический checkpoint восстановлен после полного приёма"
       ],
-      "next_action": "Завершить интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.",
+      "next_action": "Проверить публикацию Pages и закрыть выполненную задачу68–69; исходная задача17/18 остаётся с blocked imagegen отдельного Стича",
       "canonical_refs": [
         "ops/owner-tasks.json",
         "references/scenes/scene-65/manifest.json"
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T21:28:18+00:00",
-        "last_completed": "references/scenes/scene-69/S69-masha-masterclass.png создан и прошёл визуальный QC; сохранение в текущем коммите",
-        "next_action": "Завершить интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.",
+        "verified_at": "2026-10-27T21:34:40+00:00",
+        "last_completed": "Пять новых кадров сохранены;25 файлов проверены; входы52P7/64–69 и правила Relay/Work-only согласованы",
+        "next_action": "Проверить публикацию Pages и закрыть выполненную задачу68–69; исходная задача17/18 остаётся с blocked imagegen отдельного Стича",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
-          "sha256": "01dc502412957b3e76bcc65434f69f8a072be6d3245445853185b909e08d3fb6"
+          "sha256": "f683fd5764f121cbdca68ce85d11890e66fa22d9d0cf0b513c83cfed806a2c0a"
         },
         "evidence": [
           {
             "file": "reports/open-work-refs-relay-2026-10-27.json",
-            "sha256": "17d91e99db63b3d5319699376edee8b8a847b3f0c2961d4c152580688db14eef"
+            "sha256": "babbcc9831dbadb9a5a5025a20fa9a581394482aca26df1681972c419113c4be"
           }
         ],
         "read_next": [

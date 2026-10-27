@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T20:45:00Z",
+  "updated_at": "2026-10-27T21:30:18Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6674,8 +6674,8 @@
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P7",
       "canonical_block_label": "52 · Seedance 2.0 часть 7",
-      "canonical_prompt_sha256": "062f640c83e1387dd8babf675aef1be68e650f62833bb865e51f38173bbb0cc6",
-      "normalized_prompt_sha256": "9812e0b397fd5edc32a4018324ea0dba1153b41859c05469757686c5e734df06",
+      "canonical_prompt_sha256": "555b5db329fd5e86f3f1275d966e85e33642d01e487af95231c20ac97a0d87c5",
+      "normalized_prompt_sha256": "a449601963a82647374cde577a87b3ae1087f30da7418ef5aadf097548775e0f",
       "priority": 0.06,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -6719,23 +6719,23 @@
           "sha256": null,
           "required": true,
           "input_status": "required_not_available",
-          "canonical_role": "exact alien dog design from scene 66 (drawn by the open ChatGPT Work chat)"
+          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
         },
         {
           "slot": "@Image4",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL A appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Алина: развёртка в одежде Татуина"
         },
         {
           "slot": "@Image5",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL B appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Даша: развёртка в одежде Татуина"
         }
       ],
       "task_id": null,
@@ -6746,7 +6746,7 @@
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
       "launch_readiness": "blocked_continuity",
-      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, prepare true end and pass full continuity QC before launch. Also needs S66 alien dog reference (ChatGPT Work) and both girls' owner references.",
+      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P6-last3s.mp4 and pass continuity QC. Missing required image references: references/scenes/scene-66/S66-alien-dog.png.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",
@@ -6761,7 +6761,7 @@
       "normalized_prompt_sha256": "5edacb999d63f7e3f2ff8365fb1ee852868d98d5316ff94e6da55c5985bd9447",
       "priority": 0.9,
       "state": "blocked_inputs",
-      "launch_readiness": "blocked_references",
+      "launch_readiness": "reference_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -6786,23 +6786,23 @@
         {
           "slot": "@Image2",
           "path": "references/scenes/scene-64/S64-corridor.png",
-          "sha256": null,
+          "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Коридор звёздного разрушителя: геометрия и свет"
+          "input_status": "available",
+          "canonical_role": "Коридор звёздного разрушителя"
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-64/S64-officers-reaction.png",
-          "sha256": null,
+          "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Офицеры у стены: странный и испуганный взгляд"
+          "input_status": "available",
+          "canonical_role": "Офицеры: испуг и недоумение"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs).",
+      "blocker": "All required image references are saved with source-manifest QC. Current OPEN-WORK-REFS-RELAY-20261027 pass is limited to references and instructions: no video launch. Existing queue state remains blocked; do not automatically clear this launch blocker in this pass.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -6820,7 +6820,7 @@
       "normalized_prompt_sha256": "8ff45d7c358bd37fd3d76cad4b942d23f6e94cce50607c1e645983880c61e6a5",
       "priority": 0.91,
       "state": "blocked_inputs",
-      "launch_readiness": "blocked_references",
+      "launch_readiness": "reference_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -6853,23 +6853,23 @@
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-65/S65-bar-table.png",
-          "sha256": null,
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11"
+          "input_status": "available",
+          "canonical_role": "Серёга и компания за столом кантины"
         },
         {
           "slot": "@Image4",
           "path": "references/scenes/scene-65/S65-toast-closeup.png",
-          "sha256": null,
+          "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Тост и маслёнка IG-11"
+          "input_status": "available",
+          "canonical_role": "Молчаливый тост и маслёнка IG-11"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs).",
+      "blocker": "All required image references are saved with source-manifest QC. Current OPEN-WORK-REFS-RELAY-20261027 pass is limited to references and instructions: no video launch. Existing queue state remains blocked; do not automatically clear this launch blocker in this pass.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -6883,8 +6883,8 @@
       "scene_id": 66,
       "prompt_id": "S66-WAN30",
       "canonical_block_label": "66",
-      "canonical_prompt_sha256": "5c803e025b64a4abd537a7b21ac5423664d329e0362161f591c8f7ef15ca65dd",
-      "normalized_prompt_sha256": "476e1a292b8d88519cbf0310d3adc9e2f6beabde730abe07c23783b099fb89e8",
+      "canonical_prompt_sha256": "da4f3ddfc406b65eb303c023a0804c84ffe1986a204fb5cd8247fa6af2fb76a9",
+      "normalized_prompt_sha256": "b53b9f0c4e2a697c4db5bc35495a3eac4c9f79e3b30e0665d8eba039f74c644b",
       "priority": 0.92,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -6913,19 +6913,19 @@
         },
         {
           "slot": "@Image1",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL A appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Алина: развёртка в одежде Татуина"
         },
         {
           "slot": "@Image2",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL B appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Даша: развёртка в одежде Татуина"
         },
         {
           "slot": "@Image3",
@@ -6933,28 +6933,36 @@
           "sha256": null,
           "required": true,
           "input_status": "required_not_available",
-          "canonical_role": "Инопланетная собака: дизайн существа"
+          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
         },
         {
           "slot": "@Image4",
           "path": "references/scenes/scene-66/S66-street-outrage.png",
-          "sha256": null,
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Улица: собака посреди дороги, прохожие возмущаются"
+          "input_status": "available",
+          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
         },
         {
           "slot": "@Image5",
           "path": "references/scenes/scene-67/S67-fruit-stall.png",
-          "sha256": null,
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Фруктовый прилавок из 67 (конец сцены)"
+          "input_status": "available",
+          "canonical_role": "Татуин: прилавок с инопланетными фруктами"
+        },
+        {
+          "slot": "@Image6",
+          "required": true,
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина; only at the end, continuity to scene 67"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S52-R2-SEED20-P7 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P7-last3s.mp4 and pass continuity QC. Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs). Needs the owner's own appearance references.",
+      "blocker": "Await actual S52-R2-SEED20-P7 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P7-last3s.mp4 and pass continuity QC. Missing required image references: references/scenes/scene-66/S66-alien-dog.png.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -6968,8 +6976,8 @@
       "scene_id": 67,
       "prompt_id": "S67-WAN30",
       "canonical_block_label": "67",
-      "canonical_prompt_sha256": "23f6379f93c28a8732473b6730a326f76a271b05b930193aa995154e6e5693cc",
-      "normalized_prompt_sha256": "b530bf80b77a6810d8f2523367da887780ae9e3a1e6c5350b0d17c9c6ab76d23",
+      "canonical_prompt_sha256": "3634694f244cadf18d69345839d27a0a28f383208f63d1bbee20dc85db0b838d",
+      "normalized_prompt_sha256": "baf13df80fecaa7b502552a476b123db94a7eecea660a2d2b57e87863cf17bd2",
       "priority": 0.93,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -6998,32 +7006,32 @@
         },
         {
           "slot": "@Image1",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "YOUNG WOMAN appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
         },
         {
           "slot": "@Image2",
           "path": "references/scenes/scene-67/S67-vendor.png",
-          "sha256": null,
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Продавец: четырёхрукий инопланетянин"
+          "input_status": "available",
+          "canonical_role": "Четырёхрукий торговец фруктами"
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-67/S67-fruit-stall.png",
-          "sha256": null,
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Прилавок с инопланетными фруктами"
+          "input_status": "available",
+          "canonical_role": "Татуин: прилавок с инопланетными фруктами"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S66-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-66/S66-last3s.mp4 and pass continuity QC. Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs). Needs the owner's own appearance references.",
+      "blocker": "Await actual S66-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-66/S66-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -7069,26 +7077,26 @@
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-68/S68-sweepers-crew.png",
-          "sha256": null,
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме"
+          "input_status": "available",
+          "canonical_role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян"
         },
         {
           "slot": "@Image2",
           "path": "references/scenes/scene-68/S68-light-broom.png",
-          "sha256": null,
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
           "required": true,
-          "input_status": "required_not_available",
+          "input_status": "available",
           "canonical_role": "Световая метла: реквизит"
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-66/S66-street-outrage.png",
-          "sha256": null,
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Та же улица Татуина (из 66)"
+          "input_status": "available",
+          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
         },
         {
           "slot": "@Image4",
@@ -7096,12 +7104,12 @@
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Маша Р (девушка из 67): развёртка в одежде Татуина"
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S67-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-67/S67-last3s.mp4 and pass continuity QC. Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs): S68-sweepers-crew.png, S68-light-broom.png, S66-street-outrage.png.",
+      "blocker": "Await actual S67-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-67/S67-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -7149,36 +7157,36 @@
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Маша Р (девушка из 67): развёртка в одежде Татуина"
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
         },
         {
           "slot": "@Image2",
           "path": "references/scenes/scene-68/S68-sweepers-crew.png",
-          "sha256": null,
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме"
+          "input_status": "available",
+          "canonical_role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян"
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-68/S68-light-broom.png",
-          "sha256": null,
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
           "required": true,
-          "input_status": "required_not_available",
+          "input_status": "available",
           "canonical_role": "Световая метла: реквизит"
         },
         {
           "slot": "@Image4",
           "path": "references/scenes/scene-66/S66-street-outrage.png",
-          "sha256": null,
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Та же улица Татуина (из 66)"
+          "input_status": "available",
+          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
         }
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S68-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-68/S68-last3s.mp4 and pass continuity QC. Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs): S68-sweepers-crew.png, S68-light-broom.png, S66-street-outrage.png.",
+      "blocker": "Await actual S68-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-68/S68-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",

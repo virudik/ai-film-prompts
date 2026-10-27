@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "checked_at": "2026-10-27T20:30:16.395Z",
+  "checked_at": "2026-10-27T21:30:53.464Z",
   "verification_mode": "github_canonical_blob_check",
   "verification_scope": "Exact local canonical bytes only; not a semantic audit or proof of scheduler execution.",
   "source_of_truth": "github",
@@ -13,8 +13,8 @@
       "drive_copy_sha256": "94af7d09a865e289bf2b49c7cf9e9bead9f5d786b04d4ae7630b8ac5eea655c8",
       "drive_copy_checked_at": "2026-10-27T09:01:41.170Z",
       "drive_copy_modified_at": "2026-10-27T09:01:28.502Z",
-      "github_blob": "a80ad6b3f26e8a07e19528f35116b7ed2cf9eed2",
-      "mirror_sha256": "2b73b687a3d8dc31fe71b95a0beb41d5f651bd23d158269246454941bf864ba5",
+      "github_blob": "91bafda0dc9955a6168cd81eafd7c48487fe6c93",
+      "mirror_sha256": "eabff782b481321328ce624b67c73f7f0d9d2090f9ca9bae55a9d11cf8adc6e5",
       "match": true,
       "drive_copy_match": false
     },
@@ -53,8 +53,8 @@
       "drive_copy_sha256": "e837e06b18b9e2af739af5cae2f8233f5a4d26920897bce66c9aaebc4dce0708",
       "drive_copy_checked_at": "2026-10-27T09:01:41.170Z",
       "drive_copy_modified_at": "2026-10-27T09:01:37.264Z",
-      "github_blob": "f17686e95e4850ea66b1752d5c2f645f902de790",
-      "mirror_sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
+      "github_blob": "0ef46ec63c326da7f8edcfde1ace6fc1ab416503",
+      "mirror_sha256": "374354dd235fa5ebfe37d20203c81c29c77559ea681081dabe1a4374d39119f3",
       "match": true,
       "drive_copy_match": false
     },

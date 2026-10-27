@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-27T11:31:56.280Z",
+  "updated_at": "2026-10-27T21:30:18Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -506,7 +506,9 @@
     }
   ],
   "identity_refs": [
-    "references/full/serega.jpg"
+    "references/full/serega.jpg",
+    "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+    "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png"
   ],
   "location_refs": [
     "references/scenes/scene-28/H28A-ceremony.png",
@@ -529,7 +531,7 @@
     "derivation": "ffmpeg select frame n=720 from original, lossless PNG."
   },
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "a77f0fbf690568633c6192246bc789fbd182e4efe589c2ddf31028d720cedae0",
+  "canonical_master_sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
   "bread_milk_continuity": {
     "owner_request": "2026-10-17T20:03:11Z",
     "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
@@ -1153,9 +1155,9 @@
     {
       "prompt_id": "S52-R2-SEED20-P7",
       "label": "52 · Seedance 2.0 часть 7",
-      "canonical_prompt_sha256": "062f640c83e1387dd8babf675aef1be68e650f62833bb865e51f38173bbb0cc6",
-      "normalized_prompt_sha256": "9812e0b397fd5edc32a4018324ea0dba1153b41859c05469757686c5e734df06",
-      "characters": 4311,
+      "canonical_prompt_sha256": "555b5db329fd5e86f3f1275d966e85e33642d01e487af95231c20ac97a0d87c5",
+      "normalized_prompt_sha256": "a449601963a82647374cde577a87b3ae1087f30da7418ef5aadf097548775e0f",
+      "characters": 4575,
       "launch_readiness": "blocked_continuity",
       "slots": [
         {
@@ -1188,23 +1190,23 @@
           "sha256": null,
           "required": true,
           "input_status": "required_not_available",
-          "canonical_role": "exact alien dog design from scene 66 (drawn by the open ChatGPT Work chat)"
+          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
         },
         {
           "slot": "@Image4",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL A appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Алина: развёртка в одежде Татуина"
         },
         {
           "slot": "@Image5",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL B appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Даша: развёртка в одежде Татуина"
         }
       ]
     }
@@ -1630,7 +1632,7 @@
       "model_text": "Wan 3.0",
       "also_usable_by_explicit_owner_selection": "Seedance 2.5",
       "queued": false,
-      "canonical_prompt_sha256": "257e0f53394a30699b3893768745cd08fed3f29fa1800efa3abc2ef62311d84d",
+      "canonical_prompt_sha256": "7d1636f59d12c28adfa9979382f7993bce938aa8879f7acd8552f74c9033e405",
       "images": [
         {
           "slot": "@Image1",
@@ -1654,23 +1656,23 @@
           "sha256": null,
           "required": true,
           "input_status": "required_not_available",
-          "canonical_role": "exact alien dog design from scene 66 (drawn by the open ChatGPT Work chat)"
+          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
         },
         {
           "slot": "@Image4",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL A appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Алина: развёртка в одежде Татуина"
         },
         {
           "slot": "@Image5",
-          "path": null,
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "GIRL B appearance — owner reference, to be added by the owner"
+          "input_status": "available",
+          "canonical_role": "Даша: развёртка в одежде Татуина"
         }
       ],
       "video_source": "actual previous part6 of this alternate chain, not the15s result by default"

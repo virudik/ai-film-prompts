@@ -4476,7 +4476,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Улучшения владельца 27.10 (части2–7, обе версии):** у каждого полёта свой фирменный манёвр (2 — вираж с переворотом на выходе из ангара; 3 — бочка под носом крейсера и прыжок в гиперпространство; 4 — выход из гиперпространства, штопор и пролёт через каньон; 5 — разворот на180° перед посадкой); короткие вставки кабины с лицом Серёги и запиской «хлеб и молоко» в3–5; два солнца Татуина в4–7. Часть1 не менялась.
 
-**Связка (владелец 27.10):** часть7 → **66** → **67** идут подряд бесшовно. В конце7 Серёгу обгоняют/встречают девочки с инопланетной собакой, камера переходит на них;66 начинается с настоящих последних3с части7, 67 — с последних3с 66. Поэтому часть7 ждёт ещё и референсы собаки (ChatGPT) и девочек (владелец).
+**Связка (владелец 27.10):** часть7 → **66** → **67** идут подряд бесшовно. В конце7 Серёгу обгоняют/встречают Алина и Даша со Стичем, камера переходит на них;66 начинается с настоящих последних3с части7, 67 — с последних3с 66. Алина и Даша привязаны по индивидуальным развёрткам из фото владельца; питомец — Стич. Референс Стича ещё не сохранён; настоящий видеостык P6→P7 также ожидается.
 
 **Монтаж:** 105с исходника — много; брать лучшие6–9с из каждой части (≈50–60с).
 
@@ -4490,7 +4490,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 |4|Подлёт к городу|Спуск, банк над дюнами, бреющий проход и раскрытие города.|
 |5|Посадка|Торможение, шасси, пыль, тяжёлое касание, осадка и остановка.|
 |6|Выход к городу|После полной остановки — та же боковая рампа и путь к улице.|
-|7|Прогулка|Живые улочки, навесы, купола; навстречу девочки с инопланетной собакой, камера переходит на них → бесшовно сцена66.|
+|7|Прогулка|Живые улочки, навесы, купола; навстречу Алина и Даша со Стичем, камера переходит на них → бесшовно сцена66.|
 
 **Референсы действий** — синтетические ориентиры композиции; исходник крейсера взят из существующего Topview task `85dab256ad994a72a34946ef70aaaf69`. Все SHA и происхождение: `reports/scene52-reference-pack-2026-10-27.json`.
 
@@ -4503,6 +4503,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-52/S52-P6-disembark.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-52/S52-P6-disembark.jpg.webp" alt="52.6 · Выход из корабля к городу" loading="lazy"></a><figcaption>52.6 · Выход из корабля к городу · AI-референс</figcaption></figure>
 <figure><a href="references/scenes/scene-52/S52-P7-town-walk.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-52/S52-P7-town-walk.jpg.webp" alt="52.7 · Прогулка по городу Татуина" loading="lazy"></a><figcaption>52.7 · Прогулка по городу Татуина · AI-референс</figcaption></figure>
 <figure><a href="references/scenes/scene-52/S52-cruiser-topview.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-52/S52-cruiser-topview.jpg.webp" alt="Нужный крейсер из Topview" loading="lazy"></a><figcaption>Исходник крейсера · Topview</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-Alina-tatooine-sheet.png.webp" alt="52.7 · @Image4 — Алина: развёртка в одежде Татуина" loading="lazy"></a><figcaption>52.7 · @Image4 — Алина: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-Dasha-tatooine-sheet.png.webp" alt="52.7 · @Image5 — Даша: развёртка в одежде Татуина" loading="lazy"></a><figcaption>52.7 · @Image5 — Даша: развёртка в одежде Татуина</figcaption></figure>
 </div>
 
 **Постоянные входы:** [Серёга](references/full/serega.jpg) · [личный корабль](references/scenes/scene-37/S37-ship-clean-roof.png) · [пустая кабина](references/scenes/scene-37/S37-cockpit-empty.png) · [рисунок и место записки](references/scenes/scene-37/S37-cockpit-bread-milk-helper.png) · [город и стоянка](references/scenes/ship-locations/Serega-ship-tatooine-town.png) · [реальный конец44 Seedance2.5](references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4).
@@ -4830,7 +4832,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Wan 3.0 часть 7 — Прогулка по городу Татуина
 
-**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — девочка 1 (референс добавит владелец); @Image5 — девочка 2 (референс добавит владелец).
+**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png` (Алина: развёртка в одежде Татуина); @Image5 — `references/scenes/scene-66/S66-Dasha-tatooine-sheet.png` (Даша: развёртка в одежде Татуина).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4840,13 +4842,14 @@ REFERENCES / AUTHORITY:
 @Video1 — actual final3seconds of the NEW Scene52 part6 result; establishes the exact starting state, direction, speed, camera and light.
 @Image1 — exact Serega identity, face, proportions and costume.
 @Image2 — synthetic street-walking composition and town lane; individual identity sheet wins.
-@Image3 — exact alien dog creature design from scene 66: stocky sandy-orange body, frog-like head, floppy fin ears, three blunt horns, curly tail, red harness and leash.
-@Image4 — GIRL A appearance (owner reference). @Image5 — GIRL B appearance (owner reference). Two different girls, never merged.
+@Image3 — exact STITCH design from scene 66: recognisable blue-furred alien pet, broad black nose, large dark eyes and oversized ears, red harness and leash. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
+@Image5 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png. Two different girls, never merged.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown hair at the sides, broad familiar face and build. Exact face and proportions from @Image1; long deep-plum robe, thick folded scarf-like collar, black inner clothing and boots, hood down. Understated serious expression, purposeful moving body; do not beautify, age-shift, change the robe or blend his face with background residents.
-GIRL A and GIRL B: exact faces, hair, clothes and ages strictly from @Image4 and @Image5; GIRL A holds the leash. ALIEN DOG: exactly @Image3.
+GIRL A (ALINA) and GIRL B (DASHA): exact faces, hair, clothes and ages strictly from @Image4 and @Image5; ALINA holds the leash. STITCH: exactly @Image3, in the red harness.
 
 TOWN / GEOGRAPHY:
 The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
@@ -4855,10 +4858,10 @@ START STATE:
 Continue the actual end of Serega walking away from the parked ship toward the town entrance, retaining stride, robe, empty hands and direction. The ship stays outside the streets.
 
 STORY FLOW:
-Continue his arrival in the first lane, then accompany a purposeful walk through the spaceport town. Move between medium frontal tracking and side views as he briefly observes the unfamiliar shopfronts, awnings, vaporator towers and residents. His expression stays understated but his walk and robe remain alive. He passes ordinary stalls without buying anything. Two girls walking a stocky sandy-orange alien dog on a red leash come toward him; he steps aside with one short deadpan glance as they pass. The camera hands off from Serega to the girls and follows them and the dog deeper into the market street while he continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
+Continue his arrival in the first lane, then accompany a purposeful walk through the spaceport town. Move between medium frontal tracking and side views as he briefly observes the unfamiliar shopfronts, awnings, vaporator towers and residents. His expression stays understated but his walk and robe remain alive. He passes ordinary stalls without buying anything. Two girls walking Stitch on a red leash come toward him; he steps aside with one short deadpan glance as they pass. The camera hands off from Serega to the girls and follows them and the dog deeper into the market street while he continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
 
 END STATE:
-The camera now follows the two girls and the alien dog walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
+The camera now follows the two girls and Stitch walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
 
 CAMERA / PERFORMANCE:
 Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and the dog. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
@@ -5199,7 +5202,7 @@ Fill the complete frame edge-to-edge. No letterboxing, pillarboxing, black bars,
 
 #### 52 · Seedance 2.0 часть 7 — Прогулка по городу Татуина
 
-**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — девочка 1 (референс добавит владелец); @Image5 — девочка 2 (референс добавит владелец).
+**Входы:** @Video1 — настоящие последние3с результата части6 этой выбранной версии; ещё ожидаются; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-52/S52-P7-town-walk.jpg`; @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png` (Алина: развёртка в одежде Татуина); @Image5 — `references/scenes/scene-66/S66-Dasha-tatooine-sheet.png` (Даша: развёртка в одежде Татуина).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5209,13 +5212,14 @@ REFERENCES / AUTHORITY:
 @Video1 — actual final3seconds of the NEW Scene52 part6 result; establishes the exact starting state, direction, speed, camera and light.
 @Image1 — exact Serega identity, face, proportions and costume.
 @Image2 — synthetic street-walking composition and town lane; individual identity sheet wins.
-@Image3 — exact alien dog creature design from scene 66: stocky sandy-orange body, frog-like head, floppy fin ears, three blunt horns, curly tail, red harness and leash.
-@Image4 — GIRL A appearance (owner reference). @Image5 — GIRL B appearance (owner reference). Two different girls, never merged.
+@Image3 — exact STITCH design from scene 66: recognisable blue-furred alien pet, broad black nose, large dark eyes and oversized ears, red harness and leash. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
+@Image5 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png. Two different girls, never merged.
 Actual video controls the opening motion and physical state. Individual identity and vehicle-design images control their own subjects; action images are composition helpers, never replacement video endings.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: one pale mature middle-aged man with a balding crown, sparse light-brown hair at the sides, broad familiar face and build. Exact face and proportions from @Image1; long deep-plum robe, thick folded scarf-like collar, black inner clothing and boots, hood down. Understated serious expression, purposeful moving body; do not beautify, age-shift, change the robe or blend his face with background residents.
-GIRL A and GIRL B: exact faces, hair, clothes and ages strictly from @Image4 and @Image5; GIRL A holds the leash. ALIEN DOG: exactly @Image3.
+GIRL A (ALINA) and GIRL B (DASHA): exact faces, hair, clothes and ages strictly from @Image4 and @Image5; ALINA holds the leash. STITCH: exactly @Image3, in the red harness.
 
 TOWN / GEOGRAPHY:
 The SAME lived-in Tatooine spaceport across arrival, landing and walking: pale sand, low sand-coloured adobe buildings with rounded thick walls and domed roofs, arched doorways, small round windows, tan fabric awnings, narrow dusty lanes, slim moisture-vaporator towers, dunes and distant dry ridges. Harsh warm daylight from Tatooine's TWIN SUNS: two small suns in the sky, double soft shadows, consistent direction. The landing field is OUTSIDE town. No ancient worm ruins, obelisks or sandworm.
@@ -5224,10 +5228,10 @@ START STATE:
 Continue the actual end of Serega walking away from the parked ship toward the town entrance, retaining stride, robe, empty hands and direction. The ship stays outside the streets.
 
 STORY FLOW:
-0–3s: follow the same stride into the first dusty lane. 3–7s: a medium frontal tracking shot shows Serega walking through the living town, glancing at awnings and unfamiliar surroundings without stopping. 7–11s: ahead, two girls come down the lane walking a stocky sandy-orange alien dog on a red leash; Serega steps aside with one short deadpan glance as they pass him. 11–15s: the camera hands off: it turns with the girls and follows them and the dog deeper into the busy market street, while Serega continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
+0–3s: follow the same stride into the first dusty lane. 3–7s: a medium frontal tracking shot shows Serega walking through the living town, glancing at awnings and unfamiliar surroundings without stopping. 7–11s: ahead, two girls come down the lane walking Stitch on a red leash; Serega steps aside with one short deadpan glance as they pass him. 11–15s: the camera hands off: it turns with the girls and follows them and the dog deeper into the busy market street, while Serega continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
 
 END STATE:
-The camera now follows the two girls and the alien dog walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
+The camera now follows the two girls and Stitch walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
 
 CAMERA / PERFORMANCE:
 Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and the dog. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
@@ -7222,20 +7226,20 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-64"></a>
 ## Сцена 64 — Звёздный разрушитель: Серёга пританцовывает по коридору
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","star_destroyer","visual_comedy","dance_walk","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","star_destroyer","visual_comedy","dance_walk","owner_requested"]} -->
 
 **Контекст использования:** владелец 27.10.2026. Самостоятельная комедийная вставка на борту имперского крейсера. Предлагаемое место в монтаже — перед ремонтом в ангаре 43–44 и пересадкой 52 (Серёга идёт к ангару в хорошем настроении). Место — предложение, окончательно решает владелец.
 
 **Что происходит:** Серёга в отличном настроении идёт по длинному коридору звёздного разрушителя и пританцовывает: щёлкает пальцами, покачивает плечами, делает скользящий шаг, крутится на каблуке и подпрыгивает на ходу. Имперские офицеры и штурмовик впереди замирают, прижимаются к стене и смотрят на него странно, но со страхом: никто не смеет ни остановить его, ни улыбнуться. Один офицер роняет планшет и не решается его поднять. Серёга не замечает произведённого эффекта и уходит в раздвижные двери; офицеры за его спиной переглядываются и выдыхают.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-64/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с): по указанию владельца Wan лучше делает узнаваемых персонажей и антураж «Звёздных войн».
+**Готовность:** DRAFT. Все обязательные изображения сохранены; технический QC референсов подтверждён манифестами. Главная версия — Wan 3.0 (30 с), по выбору владельца. В существующей очереди — после 63, до музыкальных и танцевальных номеров 49–51 и 28. Текущий проход OPEN-WORK-REFS-RELAY-20261027 ограничен референсами и инструкциями: видео не запускать. Исходное состояние очереди blocked_inputs сохранено; автоматически снимать блокер запуска в этом проходе нельзя. Художественное одобрение не выставлено.
 
 **Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-64/S64-corridor.png` (Коридор звёздного разрушителя: геометрия и свет); @Image3 — `references/scenes/scene-64/S64-officers-reaction.png` (Офицеры у стены: странный и испуганный взгляд).
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
-<figure><a href="references/scenes/scene-64/S64-corridor.png" target="_blank" rel="noopener"><img src="references/scenes/scene-64/S64-corridor.png" alt="Коридор звёздного разрушителя" loading="lazy"></a><figcaption>@Image2 — Коридор звёздного разрушителя</figcaption></figure>
-<figure><a href="references/scenes/scene-64/S64-officers-reaction.png" target="_blank" rel="noopener"><img src="references/scenes/scene-64/S64-officers-reaction.png" alt="Офицеры: испуг и недоумение" loading="lazy"></a><figcaption>@Image3 — Офицеры: испуг и недоумение</figcaption></figure>
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/serega.jpg.webp" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
+<figure><a href="references/scenes/scene-64/S64-corridor.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-64/S64-corridor.png.webp" alt="Коридор звёздного разрушителя" loading="lazy"></a><figcaption>@Image2 — Коридор звёздного разрушителя</figcaption></figure>
+<figure><a href="references/scenes/scene-64/S64-officers-reaction.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-64/S64-officers-reaction.png.webp" alt="Офицеры: испуг и недоумение" loading="lazy"></a><figcaption>@Image3 — Офицеры: испуг и недоумение</figcaption></figure>
 </div>
 
 **Режиссёрский контроль:** Офицеры боятся, а не смеются; танец на ходу, без остановки и без «сценического номера»; в конце двери закрываются за Серёгой.
@@ -7412,21 +7416,21 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-65"></a>
 ## Сцена 65 — Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested"]} -->
 
 **Контекст использования:** владелец 27.10.2026. Татуинская кантина. Место в фильме решает владелец (предложение — после связки 52→66→67, Серёга уходил к арке).
 
 **Что происходит:** Серёга сидит за круглым столом в татуинской кантине с Бобой Феттом, гаморреанцем, наёмником-тви'леком и дроидом IG-11. Бармен ставит кружки. Серёга не говорит ни слова: молча поднимает кружку на пару сантиметров, все чокаются. Гаморреанец осушает кружку залпом и грохает ею по столу. Боба Фетт чуть приподнимает низ шлема и пьёт, не показывая лица. IG-11 достаёт маленькую маслёнку и с довольным жужжанием капает маслом себе на локоть и шейный шарнир. Тви'лек смеётся и хлопает Серёгу по плечу. Серёга невозмутимо допивает и молча показывает бармену два пальца — ещё раунд. Гаморреанец с любопытством нюхает маслёнку, IG-11 отодвигает её.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-65/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с), по указанию владельца: Wan делает персонажей, защищённых авторским правом.
+**Готовность:** DRAFT. Все обязательные изображения сохранены; технический QC референсов подтверждён манифестами. Главная версия — Wan 3.0 (30 с), по выбору владельца. В существующей очереди — после 63, до музыкальных и танцевальных номеров 49–51 и 28. Текущий проход OPEN-WORK-REFS-RELAY-20261027 ограничен референсами и инструкциями: видео не запускать. Исходное состояние очереди blocked_inputs сохранено; автоматически снимать блокер запуска в этом проходе нельзя. Художественное одобрение не выставлено.
 
 **Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11).
 
 <div class="scene-ref-gallery">
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="Кантина: арки, лампа, столы (только локация)"></a><figcaption>@Image2 — Кантина: арки, лампа, столы (только локация)</figcaption></figure>
-<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank" rel="noopener"><img src="references/scenes/scene-65/S65-bar-table.png" alt="Серёга и компания за столом кантины" loading="lazy"></a><figcaption>@Image2 — Серёга и компания за столом кантины</figcaption></figure>
-<figure><a href="references/scenes/scene-65/S65-toast-closeup.png" target="_blank" rel="noopener"><img src="references/scenes/scene-65/S65-toast-closeup.png" alt="Молчаливый тост и маслёнка IG-11" loading="lazy"></a><figcaption>@Image3 — Молчаливый тост и маслёнка IG-11</figcaption></figure>
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/serega.jpg.webp" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-10/S10-Image1-cantina-source.png.webp" alt="Кантина: арки, лампа, столы (только локация)"></a><figcaption>@Image2 — Кантина: арки, лампа, столы (только локация)</figcaption></figure>
+<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-65/S65-bar-table.png.webp" alt="Серёга и компания за столом кантины" loading="lazy"></a><figcaption>@Image3 — Серёга и компания за столом кантины</figcaption></figure>
+<figure><a href="references/scenes/scene-65/S65-toast-closeup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-65/S65-toast-closeup.png.webp" alt="Молчаливый тост и маслёнка IG-11" loading="lazy"></a><figcaption>@Image4 — Молчаливый тост и маслёнка IG-11</figcaption></figure>
 </div>
 
 **Режиссёрский контроль:** Серёга не говорит ни слова; Боба Фетт не снимает шлем; IG-11 не пьёт, а смазывает себя из маслёнки; трое из исходника кантины (S10) в кадр не попадают.
@@ -7437,7 +7441,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (ещё не нарисован).
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7500,7 +7504,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 65 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (ещё не нарисован).
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7555,7 +7559,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 65 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7613,24 +7617,26 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 </div>
 
 <a id="scene-66"></a>
-## Сцена 66 — Татуин: две девочки и инопланетная собака
+## Сцена 66 — Татуин: Алина, Даша и Стич
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":52}],"tags":["tatooine","street","visual_comedy","creature","awaiting_owner_refs","owner_requested","chain_52_66_67","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":52}],"tags":["tatooine","street","visual_comedy","creature","owner_requested","chain_52_66_67","awaiting_references"]} -->
 
-**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с части 7 сцены 52 (камера уже ведёт девочек с собакой), заканчивается у фруктового прилавка, где начинается 67. Внешность девочек владелец добавит позже.
+**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с части 7 сцены 52 (камера уже ведёт девочек с собакой), заканчивается у фруктового прилавка, где начинается 67. Алина и Даша — по индивидуальным татуинским развёрткам, созданным по фото владельца.
 
-**Что происходит:** Камера продолжает вести двух девочек с инопланетной собакой по оживлённой улице Татуина (Серёга только что ушёл из кадра). Посреди улицы собака резко упирается, садится и делает свои дела. Вокруг поднимается возмущение: джава визжит, торговец машет руками и кричит на своём языке, дроид неодобрительно пищит, спидер тормозит и объезжает. Девочки не обращают на это никакого внимания: никто не извиняется и ничего не убирает. Собака заканчивает, девочки спокойно идут дальше, будто так и должно быть, мимо фруктового прилавка, где девушка начинает спорить с четырёхруким продавцом.
+**Что происходит:** Камера продолжает вести Алину и Дашу со Стичем по оживлённой улице Татуина (Серёга только что ушёл из кадра). Посреди улицы собака резко упирается, садится и делает свои дела. Вокруг поднимается возмущение: джава визжит, торговец машет руками и кричит на своём языке, дроид неодобрительно пищит, спидер тормозит и объезжает. Девочки не обращают на это никакого внимания: никто не извиняется и ничего не убирает. Собака заканчивает, девочки спокойно идут дальше, будто так и должно быть, мимо фруктового прилавка, где девушка начинает спорить с четырёхруким продавцом.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-66/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с). Запуск — только после настоящего результата 52 ч.7 и референсов девочек.
+**Готовность:** DRAFT. Промпты и доступные референсы сохранены. Главная версия — Wan 3.0 (30 с). Запуск ждёт настоящие последние 3 с результата 52 части 7 и проверку стыка. Ещё не сохранены: `references/scenes/scene-66/S66-alien-dog.png`. Порядок существующей цепочки 52 ч.7 → 66 → 67 → 68 → 69 сохранён, до музыкальных и танцевальных номеров 49–51 и 28. Художественное одобрение не выставлено.
 
-**Референсы:** @Video1 — последние 3 с 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (Инопланетная собака: дизайн существа; ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Улица: собака посреди дороги, прохожие возмущаются); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (Фруктовый прилавок из 67 (конец сцены); ещё не нарисован).
+**Референсы:** @Video1 — последние 3 с 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png` (Алина: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-66/S66-Dasha-tatooine-sheet.png` (Даша: развёртка в одежде Татуина); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (Стич: дизайн персонажа; ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Улица: собака посреди дороги, прохожие возмущаются); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (Фруктовый прилавок из 67 (конец сцены)); @Image6 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р в финале, переход к 67).
 
-**Режиссёрский контроль:** Связка: начало — конец 52 ч.7, финал — прилавок 67. Девочки не извиняются и не убирают. Внешность — только по референсам владельца (пока их нет, не запускать). Момент «какания» без крупного плана.
+**Режиссёрский контроль:** Связка: начало — конец 52 ч.7, финал — прилавок 67. Девочки не извиняются и не убирают. Внешность Алины, Даши и Маши Р — по их индивидуальным развёрткам из фото владельца. Момент «какания» без крупного плана.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-66/S66-street-outrage.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-street-outrage.png.webp" alt="Улица Татуина: Алина, Даша, Стич и реакции прохожих" loading="lazy"></a><figcaption>@Image4 — Улица Татуина: Алина, Даша, Стич и реакции прохожих</figcaption></figure>
-<figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="Алина: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Алина: развёртка в одежде Татуина</figcaption></figure>
-<figure><a href="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" alt="Даша: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image2 — Даша: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-Alina-tatooine-sheet.png.webp" alt="Алина: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Алина: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-Dasha-tatooine-sheet.png.webp" alt="Даша: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image2 — Даша: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-fruit-stall.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp" alt="@Image5 — Татуин: прилавок с инопланетными фруктами" loading="lazy"></a><figcaption>@Image5 — Татуин: прилавок с инопланетными фруктами</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp" alt="@Image6 — Маша Р: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image6 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="66">
@@ -7639,7 +7645,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png` (Алина: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-66/S66-Dasha-tatooine-sheet.png` (Даша: развёртка в одежде Татуина); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png`; @Image6 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р в финале, переход к 67).
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7647,32 +7653,34 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema,
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Seedance 2.0), where the camera has just turned to follow the girls and the dog. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
-@Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
-@Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
-@Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
-@Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image1 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
+@Image2 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png.
+@Image3 — exact STITCH design: blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — street geography and crowd-reaction composition; same town as scene 52; individual sheets @Image1 and @Image2 override faces in this composition. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image5 — the fruit stall of scene 67 for the closing shot only; same stall geography. File: references/scenes/scene-67/S67-fruit-stall.png.
+@Image6 — exact MASHA R: face, hair, age and Tatooine costume from her individual sheet; only the woman at the fruit stall in the closing shot. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-GIRL A and GIRL B: exact appearance strictly from their own owner references (@Image1, @Image2): faces, hair, clothes and ages as shown there; two different girls, never merged.
-ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+GIRL A (ALINA) and GIRL B (DASHA): exact appearance strictly from @Image1 and @Image2: faces, hair, clothes and ages as shown there; two different girls, never merged.
+STITCH: recognisable Stitch from Lilo & Stitch, blue fur, broad black nose, huge dark eyes and oversized ears, short sturdy body; exact design from @Image3, with the red harness and leash. Keep the owner's selected character; no orange skin, scales or horns.
+MASHA R (closing shot only): exactly the woman in @Image6, with her individual face, hair, age and costume; she is the same person as in scene 67.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where a young woman stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where Masha R stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
 
 START STATE:
-Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and the alien dog down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
+Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and Stitch down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
 
 TIMELINE:
-[0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as the alien dog trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
+[0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as Stitch trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
 [0:05–0:10] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. The dog turns once and squats, looking straight ahead with total dignity.
 [0:10–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves his arms, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
 [0:17–0:24] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. The dog finishes and kicks a little sand backward.
-[0:24–0:30] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: a young woman at the counter faces a four-armed vendor raising fingers on all his hands. End on the stall, the argument about to start.
+[0:24–0:30] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: Masha R at the counter faces a four-armed vendor raising fingers on all his hands. End on the stall, the argument about to start.
 
 END STATE:
-The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where the young woman faces the four-armed vendor. Scene 67 continues from this exact frame.
+The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where Masha R faces the four-armed vendor. Scene 67 continues from this exact frame.
 
 CAMERA / SPACE:
 One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve.
@@ -7701,7 +7709,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 66 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png` (Алина: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-66/S66-Dasha-tatooine-sheet.png` (Даша: развёртка в одежде Татуина); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png`; @Image6 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р в финале, переход к 67).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7709,25 +7717,27 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic c
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Seedance 2.0), where the camera has just turned to follow the girls and the dog. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
-@Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
-@Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
-@Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
-@Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image1 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
+@Image2 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png.
+@Image3 — exact STITCH design: blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — street geography and crowd-reaction composition; same town as scene 52; individual sheets @Image1 and @Image2 override faces in this composition. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image5 — the fruit stall of scene 67 for the closing shot only; same stall geography. File: references/scenes/scene-67/S67-fruit-stall.png.
+@Image6 — exact MASHA R: face, hair, age and Tatooine costume from her individual sheet; only the woman at the fruit stall in the closing shot. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-GIRL A and GIRL B: exact appearance strictly from their own owner references (@Image1, @Image2): faces, hair, clothes and ages as shown there; two different girls, never merged.
-ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+GIRL A (ALINA) and GIRL B (DASHA): exact appearance strictly from @Image1 and @Image2: faces, hair, clothes and ages as shown there; two different girls, never merged.
+STITCH: recognisable Stitch from Lilo & Stitch, blue fur, broad black nose, huge dark eyes and oversized ears, short sturdy body; exact design from @Image3, with the red harness and leash. Keep the owner's selected character; no orange skin, scales or horns.
+MASHA R (closing shot only): exactly the woman in @Image6, with her individual face, hair, age and costume; she is the same person as in scene 67.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where a young woman stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where Masha R stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
 
 START STATE:
-Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and the alien dog down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
+Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and Stitch down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
 
 TIMELINE:
-[0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as the alien dog trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
+[0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as Stitch trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
 [0:05–0:10] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. The dog turns once and squats, looking straight ahead with total dignity.
 [0:10–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves his arms, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
 
@@ -7755,7 +7765,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 66 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-66/S66-Alina-tatooine-sheet.png` (Алина: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-66/S66-Dasha-tatooine-sheet.png` (Даша: развёртка в одежде Татуина); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png`; @Image6 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р в финале, переход к 67).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7763,29 +7773,31 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic c
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last 3 seconds of THIS scene 66 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
-@Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
-@Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
-@Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
-@Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image1 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
+@Image2 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png.
+@Image3 — exact STITCH design: blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — street geography and crowd-reaction composition; same town as scene 52; individual sheets @Image1 and @Image2 override faces in this composition. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image5 — the fruit stall of scene 67 for the closing shot only; same stall geography. File: references/scenes/scene-67/S67-fruit-stall.png.
+@Image6 — exact MASHA R: face, hair, age and Tatooine costume from her individual sheet; only the woman at the fruit stall in the closing shot. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-GIRL A and GIRL B: exact appearance strictly from their own owner references (@Image1, @Image2): faces, hair, clothes and ages as shown there; two different girls, never merged.
-ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+GIRL A (ALINA) and GIRL B (DASHA): exact appearance strictly from @Image1 and @Image2: faces, hair, clothes and ages as shown there; two different girls, never merged.
+STITCH: recognisable Stitch from Lilo & Stitch, blue fur, broad black nose, huge dark eyes and oversized ears, short sturdy body; exact design from @Image3, with the red harness and leash. Keep the owner's selected character; no orange skin, scales or horns.
+MASHA R (closing shot only): exactly the woman in @Image6, with her individual face, hair, age and costume; she is the same person as in scene 67.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where a young woman stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image5, where Masha R stands at the counter facing a four-armed vendor; the argument of scene 67 is only just beginning.
 
 START STATE:
 Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A stands calmly holding the taut leash.
 
 TIMELINE:
 [0:00–0:07] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. The dog finishes and kicks a little sand backward.
-[0:07–0:15] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: a young woman at the counter faces a four-armed vendor raising fingers on all his hands. End on the stall, the argument about to start.
+[0:07–0:15] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: Masha R at the counter faces a four-armed vendor raising fingers on all his hands. End on the stall, the argument about to start.
 
 END STATE:
-The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where the young woman faces the four-armed vendor. Scene 67 continues from this exact frame.
+The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where Masha R faces the four-armed vendor. Scene 67 continues from this exact frame.
 
 CAMERA / SPACE:
 One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
@@ -7813,25 +7825,25 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-67"></a>
 ## Сцена 67 — Татуин: девушка яростно ругается с продавцом фруктов
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":66}],"tags":["tatooine","market","visual_comedy","dialogue_ru","awaiting_owner_refs","owner_requested","chain_52_66_67","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":66}],"tags":["tatooine","market","visual_comedy","dialogue_ru","owner_requested","chain_52_66_67"]} -->
 
-**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с сцены 66, где камера остановилась на прилавке. Внешность девушки владелец добавит позже.
+**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с сцены 66, где камера остановилась на прилавке. Маша Р — по индивидуальной татуинской развёртке, созданной по фото владельца.
 
 **Что происходит:** Девушка у прилавка с инопланетными фруктами держит голубую дыню. Четырёхрукий продавец называет цену, показывая пальцы на всех руках. Девушка взрывается: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» и грохает дыню на прилавок. Начинается настоящий скандал: продавец орёт на своём языке и лупит по весам, она тычет в помятый бок дыни: «Они же мятые! Ты сам посмотри!», оба кричат друг на друга нос к носу, прохожие останавливаются поглазеть. Девушка хватает сумку: «Всё, к соседу пойду!» — продавец двумя руками закидывает ей в сумку лишние фрукты, двумя другими умоляет остаться. Она швыряет на прилавок меньше монет: «И то много!» — и уходит, продолжая ругаться через плечо; продавец орёт ей вслед, потом расплывается в улыбке перед следующим покупателем.
 
 **Реплика:** «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» · «Они же мятые! Ты сам посмотри!» · «Всё, к соседу пойду!» · «И то много!» — девушка, на русском; продавец отвечает на инопланетном языке.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-67/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с): русская речь лучше у Wan. Запуск — только после настоящего результата 66 и референса девушки.
+**Готовность:** DRAFT. Промпты и доступные референсы сохранены. Главная версия — Wan 3.0 (30 с). Запуск ждёт настоящие последние 3 с результата 66 и проверку стыка. Все обязательные изображения доступны; синтетические кадры не заменяют ожидаемый видеостык. Порядок существующей цепочки 52 ч.7 → 66 → 67 → 68 → 69 сохранён, до музыкальных и танцевальных номеров 49–51 и 28. Художественное одобрение не выставлено.
 
-**Референсы:** @Video1 — последние 3 с 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами).
+**Референсы:** @Video1 — последние 3 с 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами).
 
-**Режиссёрский контроль:** Связка: начало — конец 66 (прилавок). Ругань очень бурная, но без насилия. Внешность девушки — только по референсу владельца (пока его нет, не запускать).
+**Режиссёрский контроль:** Связка: начало — конец 66 (прилавок). Ругань очень бурная, но без насилия. Маша Р — строго по её индивидуальной развёртке из фото владельца, с сохранением возраста.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-67/S67-fruit-stall.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-fruit-stall.png" alt="Татуин: прилавок с инопланетными фруктами" loading="lazy"></a><figcaption>@Image2 — Татуин: прилавок с инопланетными фруктами</figcaption></figure>
-<figure><a href="references/scenes/scene-67/S67-vendor.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-vendor.png" alt="Четырёхрукий торговец фруктами" loading="lazy"></a><figcaption>@Image3 — Четырёхрукий торговец фруктами</figcaption></figure>
-<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="Маша Р: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
-<figure><a href="references/scenes/scene-67/S67-Masha-R-market-quarrel.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-market-quarrel.png" alt="Маша Р спорит о цене с четырёхруким продавцом" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша Р спорит о цене с четырёхруким продавцом</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-fruit-stall.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp" alt="Татуин: прилавок с инопланетными фруктами" loading="lazy"></a><figcaption>@Image3 — Татуин: прилавок с инопланетными фруктами</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-vendor.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-vendor.png.webp" alt="Четырёхрукий торговец фруктами" loading="lazy"></a><figcaption>@Image2 — Четырёхрукий торговец фруктами</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp" alt="Маша Р: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-market-quarrel.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-Masha-R-market-quarrel.png.webp" alt="Маша Р спорит о цене с четырёхруким продавцом" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша Р спорит о цене с четырёхруким продавцом</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="67">
@@ -7840,7 +7852,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать при запуске); @Image1 — Девушка — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — `references/scenes/scene-67/S67-vendor.png` (ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7848,13 +7860,13 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema,
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 66, ending on this fruit stall. File: references/scenes/scene-66/S66-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
-@Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image1 — exact MASHA R: face, long wavy auburn hair with bangs, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
 @Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face, hair, clothes and age as shown there.
+MASHA R (the woman at the stall): exact appearance strictly from @Image1: face, hair, clothes and adult age as shown there; no beautifying, age shift or face blending.
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
@@ -7900,7 +7912,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 67 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать при запуске); @Image1 — Девушка — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — `references/scenes/scene-67/S67-vendor.png` (ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7908,13 +7920,13 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic c
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 66, ending on this fruit stall. File: references/scenes/scene-66/S66-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
-@Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image1 — exact MASHA R: face, long wavy auburn hair with bangs, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
 @Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face, hair, clothes and age as shown there.
+MASHA R (the woman at the stall): exact appearance strictly from @Image1: face, hair, clothes and adult age as shown there; no beautifying, age shift or face blending.
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
@@ -7952,7 +7964,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 67 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девушка — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — `references/scenes/scene-67/S67-vendor.png` (ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7960,13 +7972,13 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic c
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last 3 seconds of THIS scene 67 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
-@Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image1 — exact MASHA R: face, long wavy auburn hair with bangs, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
 @Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face, hair, clothes and age as shown there.
+MASHA R (the woman at the stall): exact appearance strictly from @Image1: face, hair, clothes and adult age as shown there; no beautifying, age shift or face blending.
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
@@ -8008,21 +8020,22 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-68"></a>
 ## Сцена 68 — Татуин: «ГБУ Жилищник района Татуина» метёт улицу световыми мётлами
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":67}],"tags":["tatooine","street","visual_comedy","owner_requested","chain_52_66_67","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":67}],"tags":["tatooine","street","visual_comedy","owner_requested","chain_52_66_67"]} -->
 
 **Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с сцены 67 (продавец встречает следующего покупателя), кончается тем, что девушка из 67 замечает бригаду и идёт к ней; 69 продолжает с этого кадра.
 
 **Что происходит:** Камера поднимается над навесом фруктового прилавка и плывёт по улице к бригаде из трёх инопланетян в форме «ГБУ Жилищник района Татуина». Они разом включают световые мётлы и с важным видом «убирают» улицу: один метёт песок вправо, другой тут же гонит его обратно, кучку сдувает пролетающий спидер, ветер насыпает новый песок, кучу собаки из 66 они старательно обметают стороной. Бригадир крутит метлу, как световой меч, пыль летит прямо на джаву. Бригада гордо застывает над улицей, которая стала грязнее, чем была, а вдали девушка из 67 с сумкой останавливается, видит это, мрачнеет и решительно идёт к ним.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-68/*.image-prompt.txt`). В очереди Topview (владелец 27.10): сразу после 67, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с), как у всей связки. Запуск — только после настоящего результата 67 и референсов бригады, метлы и улицы.
+**Готовность:** DRAFT. Промпты и доступные референсы сохранены. Главная версия — Wan 3.0 (30 с). Запуск ждёт настоящие последние 3 с результата 67 и проверку стыка. Все обязательные изображения доступны; синтетические кадры не заменяют ожидаемый видеостык. Порядок существующей цепочки 52 ч.7 → 66 → 67 → 68 → 69 сохранён, до музыкальных и танцевальных номеров 49–51 и 28. Художественное одобрение не выставлено.
 
-**Референсы:** @Video1 — последние 3 с 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66); ещё не нарисован); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина).
+**Референсы:** @Video1 — последние 3 с 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина).
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-68/S68-crew-sweeping-street.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp" alt="Бригада метёт песок навстречу друг другу, Маша наблюдает" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Бригада метёт песок навстречу друг другу, Маша наблюдает</figcaption></figure>
-<figure><a href="references/scenes/scene-68/S68-light-broom.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-light-broom.png.webp" alt="Световая метла: чёрная рукоять и голубые энергетические прутья" loading="lazy"></a><figcaption>@Image2 — Световая метла: чёрная рукоять и голубые энергетические прутья</figcaption></figure>
-<figure><a href="references/scenes/scene-68/S68-sweepers-crew.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp" alt="Бригада ГБУ Жилищник района Татуина" loading="lazy"></a><figcaption>@Image1 — Бригада ГБУ Жилищник района Татуина</figcaption></figure>
-<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="Маша Р (девушка из 67): развёртка в одежде Татуина"></a><figcaption>@Image4 — Маша Р (девушка из 67): развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-68/S68-crew-sweeping-street.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp" alt="Бригада метёт песок навстречу друг другу, Маша наблюдает" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Бригада метёт улицу, Маша Р наблюдает издали</figcaption></figure>
+<figure><a href="references/scenes/scene-68/S68-light-broom.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-light-broom.png.webp" alt="Световая метла: чёрная рукоять и голубые энергетические прутья" loading="lazy"></a><figcaption>@Image2 — Световая метла: реквизит</figcaption></figure>
+<figure><a href="references/scenes/scene-68/S68-sweepers-crew.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp" alt="Бригада ГБУ Жилищник района Татуина" loading="lazy"></a><figcaption>@Image1 — Бригада «ГБУ Жилищник района Татуина»: трое инопланетян</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp" alt="Маша Р (девушка из 67): развёртка в одежде Татуина"></a><figcaption>@Image4 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-street-outrage.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-street-outrage.png.webp" alt="@Image3 — Улица Татуина: Алина, Даша, Стич и реакции прохожих" loading="lazy"></a><figcaption>@Image3 — Улица Татуина: Алина, Даша, Стич и реакции прохожих</figcaption></figure>
 </div>
 
 **Режиссёрский контроль:** Связка: начало — конец 67 (продавец у прилавка), финал — девушка идёт к бригаде, 69 продолжает. Ровно трое в одинаковой форме, надпись на спине «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА». Мётлы — инструмент, не оружие. Маша Р — строго по развёртке S67-Masha-R-tatooine-sheet.
@@ -8207,7 +8220,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-69"></a>
 ## Сцена 69 — Татуин: девушка отнимает метлу и показывает «Жилищнику», как надо мести
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":68}],"tags":["tatooine","street","visual_comedy","dialogue_ru","owner_requested","chain_52_66_67","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":68}],"tags":["tatooine","street","visual_comedy","dialogue_ru","owner_requested","chain_52_66_67"]} -->
 
 **Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с сцены 68, где девушка идёт к бригаде.
 
@@ -8215,13 +8228,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Реплика:** «Вы что творите?! Кто так метёт?!» · «Вы же песок туда-сюда гоняете!» · «Дай сюда!» · «Вот так надо! Учитесь!» — девушка, на русском; бригадир отвечает на инопланетном языке.
 
-**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-69/*.image-prompt.txt`). В очереди Topview (владелец 27.10): сразу после 67, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с): русская речь лучше у Wan. Запуск — только после настоящего результата 68 и референсов бригады, метлы и улицы.
+**Готовность:** DRAFT. Промпты и доступные референсы сохранены. Главная версия — Wan 3.0 (30 с). Запуск ждёт настоящие последние 3 с результата 68 и проверку стыка. Все обязательные изображения доступны; синтетические кадры не заменяют ожидаемый видеостык. Порядок существующей цепочки 52 ч.7 → 66 → 67 → 68 → 69 сохранён, до музыкальных и танцевальных номеров 49–51 и 28. Художественное одобрение не выставлено.
 
-**Референсы:** @Video1 — последние 3 с 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66); ещё не нарисован).
+**Референсы:** @Video1 — последние 3 с 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)).
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-69/S69-masha-masterclass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp" alt="Маша показывает дворникам, как мести световой метлой" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша показывает дворникам, как мести световой метлой</figcaption></figure>
-<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="Маша Р (девушка из 67): развёртка в одежде Татуина"></a><figcaption>@Image1 — Маша Р (девушка из 67): развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-69/S69-masha-masterclass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp" alt="Маша показывает дворникам, как мести световой метлой" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша Р показывает бригаде, как мести</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp" alt="Маша Р (девушка из 67): развёртка в одежде Татуина"></a><figcaption>@Image1 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-68/S68-sweepers-crew.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp" alt="@Image2 — Бригада «ГБУ Жилищник района Татуина»: трое инопланетян" loading="lazy"></a><figcaption>@Image2 — Бригада «ГБУ Жилищник района Татуина»: трое инопланетян</figcaption></figure>
+<figure><a href="references/scenes/scene-68/S68-light-broom.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-light-broom.png.webp" alt="@Image3 — Световая метла: реквизит" loading="lazy"></a><figcaption>@Image3 — Световая метла: реквизит</figcaption></figure>
+<figure><a href="references/scenes/scene-66/S66-street-outrage.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-street-outrage.png.webp" alt="@Image4 — Улица Татуина: Алина, Даша, Стич и реакции прохожих" loading="lazy"></a><figcaption>@Image4 — Улица Татуина: Алина, Даша, Стич и реакции прохожих</figcaption></figure>
 </div>
 
 **Режиссёрский контроль:** Связка: начало — конец 68 (девушка идёт к бригаде). Она орёт и отнимает метлу, но никого не бьёт. Метёт по-настоящему ловко и быстро. Маша Р — строго по развёртке S67-Masha-R-tatooine-sheet.

@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-27T21:28:20+00:00",
+ "generated_at": "2026-10-27T21:34:41+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "2b73b687a3d8dc31fe71b95a0beb41d5f651bd23d158269246454941bf864ba5",
-   "bytes": 34925
+   "sha256": "eabff782b481321328ce624b67c73f7f0d9d2090f9ca9bae55a9d11cf8adc6e5",
+   "bytes": 34967
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -34,8 +34,8 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
-   "bytes": 80102
+   "sha256": "374354dd235fa5ebfe37d20203c81c29c77559ea681081dabe1a4374d39119f3",
+   "bytes": 80567
   },
   {
    "file": "README-AI-SYNC.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "10e695ed60b8684cc767cc5f468346d333ac97db91f23e79662a793747821ba1",
-   "bytes": 1057525
+   "sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+   "bytes": 1063741
   }
  ],
  "invariants": [
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22875,
-  "above_marker_chars": 22875,
+  "chars": 22909,
+  "above_marker_chars": 22909,
   "recent_sections_below_marker": [],
-  "sha256": "34073651ff129722dd8c2873c3b5344e224bf3f8477fefbc056995aa53e54fed",
-  "sha256_12": "34073651ff12",
+  "sha256": "fab12867091febaa18d01483fc5f1e390ed1b72547b2fb02f10c502f5db0baff",
+  "sha256_12": "fab12867091f",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -547,8 +547,8 @@
     "@Image5"
    ],
    "offset": 514704,
-   "chars": 80429,
-   "sha256_12": "7ec0a934d336"
+   "chars": 81938,
+   "sha256_12": "a44b891139cd"
   },
   {
    "id": 56,
@@ -569,7 +569,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 595133,
+   "offset": 596642,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -591,7 +591,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 621539,
+   "offset": 623048,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -617,7 +617,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 647635,
+   "offset": 649144,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -638,7 +638,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 675163,
+   "offset": 676672,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -660,7 +660,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 710451,
+   "offset": 711960,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -680,7 +680,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 743462,
+   "offset": 744971,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -702,7 +702,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 768308,
+   "offset": 769817,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -722,7 +722,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 797579,
+   "offset": 799088,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -741,9 +741,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 821032,
-   "chars": 19229,
-   "sha256_12": "a7573f3dcf7b"
+   "offset": 822541,
+   "chars": 19287,
+   "sha256_12": "2ea33bc36871"
   },
   {
    "id": 65,
@@ -761,13 +761,13 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 840261,
-   "chars": 21388,
-   "sha256_12": "b688c16a3b5b"
+   "offset": 841828,
+   "chars": 21357,
+   "sha256_12": "bf6f250c0d7e"
   },
   {
    "id": 66,
-   "title": "Татуин: две девочки и инопланетная собака",
+   "title": "Татуин: Алина, Даша и Стич",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -782,11 +782,12 @@
     "@Image2",
     "@Image3",
     "@Image4",
-    "@Image5"
+    "@Image5",
+    "@Image6"
    ],
-   "offset": 861649,
-   "chars": 21735,
-   "sha256_12": "9bb54dc1aba4"
+   "offset": 863185,
+   "chars": 24580,
+   "sha256_12": "70aa4ee76051"
   },
   {
    "id": 67,
@@ -805,9 +806,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 883384,
-   "chars": 19490,
-   "sha256_12": "128945b3c12a"
+   "offset": 887765,
+   "chars": 19834,
+   "sha256_12": "4521dc90f385"
   },
   {
    "id": 68,
@@ -827,9 +828,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 902874,
-   "chars": 23117,
-   "sha256_12": "78778482ee9c"
+   "offset": 907599,
+   "chars": 23325,
+   "sha256_12": "a34c57c3b147"
   },
   {
    "id": 69,
@@ -849,9 +850,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 925991,
-   "chars": 21863,
-   "sha256_12": "772b82384167"
+   "offset": 930924,
+   "chars": 22734,
+   "sha256_12": "e7c5271b7162"
   }
  ],
  "read_sets": {

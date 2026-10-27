@@ -707,7 +707,9 @@
       "aliases": [],
       "scenes": [
         66,
-        67
+        67,
+        68,
+        69
       ],
       "model_sheet": {
         "source": "Generated from owner-provided photo(s), 27.10.2026; visual QC only, owner approval pending",
@@ -737,7 +739,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-27T21:28:17+00:00",
+  "updated_at": "2026-10-27T21:30:18Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -906,7 +908,8 @@
       "name": "Татуин: прилавок с инопланетными фруктами",
       "kind": "scene_reference",
       "scenes": [
-        67
+        67,
+        66
       ],
       "editorial_status": "not_approved",
       "images": [

@@ -65,5 +65,144 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T19:01:33+00:00"
+  "updated_at": "2026-10-27T21:30:18Z",
+  "prompt_reference_mapping": [
+    {
+      "label": "65",
+      "canonical_prompt_sha256": "d962d042d6301596abb1c07b13c1073d2f53539577ccf28a12dd91f4b58a9c68",
+      "normalized_prompt_sha256": "8ff45d7c358bd37fd3d76cad4b942d23f6e94cce50607c1e645983880c61e6a5",
+      "characters": 5794,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Кантина: арки, лампа, столы (только локация)"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Серёга и компания за столом кантины"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-toast-closeup.png",
+          "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Молчаливый тост и маслёнка IG-11"
+        }
+      ],
+      "prompt_id": "S65-WAN30",
+      "launch_readiness": "reference_inputs_available"
+    },
+    {
+      "label": "65 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "d1a1f9082ab04bbeb109472d02321c8e8148d49409cfd003d1e4460dbba70500",
+      "normalized_prompt_sha256": "2f1b6c5a947a37e380243c3de8af1cd826a66730172cbfcb60bf4a665b2882f7",
+      "characters": 5434,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Кантина: арки, лампа, столы (только локация)"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Серёга и компания за столом кантины"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-toast-closeup.png",
+          "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Молчаливый тост и маслёнка IG-11"
+        }
+      ],
+      "queued": false
+    },
+    {
+      "label": "65 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "f1aaed1a4e844962f22ca235bad87957f89a4e2a44a22707c5ac71113a6c9191",
+      "normalized_prompt_sha256": "e3da11e205b13237780445f4bd6a0fbae184311efae8a6c809fefd08014336df",
+      "characters": 5374,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "actual_this_scene_seedance_part1_end",
+          "source_block_label": "65 · Seedance 2.0 часть 1"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Кантина: арки, лампа, столы (только локация)"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Серёга и компания за столом кантины"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-toast-closeup.png",
+          "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Молчаливый тост и маслёнка IG-11"
+        }
+      ],
+      "queued": false
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-10/S10-Image1-cantina-source.png"
+  ]
 }

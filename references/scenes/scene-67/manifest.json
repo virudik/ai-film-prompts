@@ -130,8 +130,139 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T19:26:39+00:00",
+  "updated_at": "2026-10-27T21:30:18Z",
   "identity_refs": [
     "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+  ],
+  "prompt_reference_mapping": [
+    {
+      "label": "67",
+      "canonical_prompt_sha256": "3634694f244cadf18d69345839d27a0a28f383208f63d1bbee20dc85db0b838d",
+      "normalized_prompt_sha256": "baf13df80fecaa7b502552a476b123db94a7eecea660a2d2b57e87863cf17bd2",
+      "characters": 5147,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S66-WAN30",
+          "planned_path": "references/scenes/scene-66/S66-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Четырёхрукий торговец фруктами"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Татуин: прилавок с инопланетными фруктами"
+        }
+      ],
+      "prompt_id": "S67-WAN30",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "label": "67 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "fdf3deccee5bf057bcb1b6771aa02e91d51b7e89db836b706c8fce4bab6f0dd3",
+      "normalized_prompt_sha256": "8eccf2bcfd28abc29af9e69965db7da4d8c130b848cff4a53767343c2b60fa2d",
+      "characters": 4788,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S66-WAN30",
+          "planned_path": "references/scenes/scene-66/S66-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Четырёхрукий торговец фруктами"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Татуин: прилавок с инопланетными фруктами"
+        }
+      ],
+      "queued": false
+    },
+    {
+      "label": "67 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "01cda8894e228387fe908a71da4d8c19df7b96a37a608bd76877d6037d2a37e0",
+      "normalized_prompt_sha256": "91c3e2d3588f76e08bb1ddf603ff78e9e9f5c696cbba38a4bc3e727660e2f563",
+      "characters": 4439,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "actual_this_scene_seedance_part1_end",
+          "source_block_label": "67 · Seedance 2.0 часть 1"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Четырёхрукий торговец фруктами"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Татуин: прилавок с инопланетными фруктами"
+        }
+      ],
+      "queued": false
+    }
+  ],
+  "location_refs": [
+    "references/scenes/scene-67/S67-fruit-stall.png"
+  ],
+  "pose_composition_helpers": [
+    "references/scenes/scene-67/S67-Masha-R-market-quarrel.png"
   ]
 }

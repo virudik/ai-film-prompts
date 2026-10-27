@@ -55,9 +55,168 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T21:28:17+00:00",
+  "updated_at": "2026-10-27T21:30:18Z",
   "last_qc_at": "2026-10-27T21:28:17+00:00",
   "pose_composition_helpers": [
     "references/scenes/scene-69/S69-masha-masterclass.png"
+  ],
+  "prompt_reference_mapping": [
+    {
+      "label": "69",
+      "canonical_prompt_sha256": "92dfb607b6cb89c44c1fb70be6927e1bc18fe25b8ea704ddadd286f2d51d5a25",
+      "normalized_prompt_sha256": "073f20f52f0853e50a1530aa48698fa6435fd1f550e87be9b0313bb31f749e86",
+      "characters": 5941,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S68-WAN30",
+          "planned_path": "references/scenes/scene-68/S68-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Световая метла: реквизит"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+        }
+      ],
+      "prompt_id": "S69-WAN30",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "label": "69 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "d78ff5b47f585f88109215fe6622d29a07bef2967df7e0193c36ae8e8d52e637",
+      "normalized_prompt_sha256": "336f8a9fa0d07ed7ba6af26c87273094b3299788a9c4f8a258619637eebf2e2c",
+      "characters": 5523,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S68-WAN30",
+          "planned_path": "references/scenes/scene-68/S68-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Световая метла: реквизит"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+        }
+      ],
+      "queued": false
+    },
+    {
+      "label": "69 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "60ada72dd0b93564c111863e2b9ba33b268b48c6f1b250bc7ed56887c5062ebc",
+      "normalized_prompt_sha256": "643b41488f196d0b6422d7d2453b6ca4be214635b9098d076b17643c1427e0f6",
+      "characters": 5371,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "actual_this_scene_seedance_part1_end",
+          "source_block_label": "69 · Seedance 2.0 часть 1"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Световая метла: реквизит"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+        }
+      ],
+      "queued": false
+    }
+  ],
+  "identity_refs": [
+    "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+    "references/scenes/scene-68/S68-sweepers-crew.png"
+  ],
+  "location_refs": [
+    "references/scenes/scene-66/S66-street-outrage.png"
+  ],
+  "prop_refs": [
+    "references/scenes/scene-68/S68-light-broom.png"
   ]
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "OPEN-WORK-REFS-RELAY-20261027",
   "project": "seregius",
-  "checked_at": "2026-10-27T21:28:17+00:00",
+  "checked_at": "2026-10-27T21:34:40Z",
   "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
   "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
   "owner_tasks": [
@@ -163,13 +163,44 @@
     "resolved_by": "Verified current existing assets against manifest SHA and reconstructed actual last completed stage; no repeated generation"
   },
   "relay_retry": {
-    "status": "pending",
+    "status": "existing_automation_updated_exact_readback",
+    "automation_id": "6adc585e7ac08191bb93825117dc7213",
+    "updated_at": "2026-10-27T21:30:23.823663+00:00",
+    "checked_at": "2026-10-27T21:30:48.999Z",
     "requested_retries": "1-2",
     "pause_seconds_approx": 60,
-    "submit_retry_allowed": false
+    "submit_retry_allowed": false,
+    "source_prompt_sha256": "d9463066dce70e0a0b0a0581004cfcf749d0833bbbe14ca49736af2b8de3a04f",
+    "applied_prompt_sha256": "9753e14ea64c9850d8ab3138856962c8ebf7538103ff6081bc2c138bc85f7025",
+    "enabled": true,
+    "schedule_unchanged": true,
+    "title_unchanged": true,
+    "single_existing_subscription": [
+      {
+        "id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+        "event": "relay.message",
+        "arguments": {},
+        "active": true
+      }
+    ],
+    "hourly_unchanged": true,
+    "hourly_prompt_sha256": "a315a17744eedc210effd11724dee7fa09059594a27aa8fce2e2ae6d6fe6d4c2",
+    "future_browser_retry_execution_tested": false,
+    "no_test_event_sent": true
   },
   "open_work_continue": {
-    "status": "pending"
+    "status": "canonical_rules_updated",
+    "files": [
+      "ops/CONTINUE-PROTOCOL.md",
+      "ops/OWNER-TASKS.md",
+      "ops/TOPVIEW-EVENT-WAKE.md",
+      "NEW-CHAT-HANDOFF.md",
+      "USER-GUIDE.md"
+    ],
+    "open_work_includes_work_only_tasks": true,
+    "scheduled_handlers_exclude_work_only_tasks": true,
+    "existing_focus_preserved": true,
+    "project_instructions_ui": "not_checked; canonical USER-GUIDE template updated, actual Project settings text not separately inspected"
   },
   "video_launches": 0,
   "queue_items_added": 0,
@@ -189,5 +220,95 @@
       "last_attempt_at": "2026-10-27T21:12:16+00:00",
       "last_attempt": "Identity-preserving separate portrait using successful street PNG as reference; same output moderation category other, no image returned."
     }
-  ]
+  ],
+  "status": "independent_work_complete_stitch_blocked",
+  "asset_commits": {
+    "references/scenes/scene-66/S66-street-outrage.png": "d37618698eed31fc873bb51db18a65fa3e626e5a",
+    "references/scenes/scene-68/S68-sweepers-crew.png": "e40e6c7c164eeab48c5aa055a620ee00787f7332",
+    "references/scenes/scene-68/S68-light-broom.png": "8a41d055d4c91c3673d02deadbc99b5ebaf396d2",
+    "references/scenes/scene-68/S68-crew-sweeping-street.png": "6ee8fb5f49f23bf95a2c0d8b6f32562634bb9c00",
+    "references/scenes/scene-69/S69-masha-masterclass.png": "8aa9e97f4b579b6693752d142fd3eb4c61fa7183"
+  },
+  "counts": {
+    "initial_request_available": 17,
+    "initial_request_total": 18,
+    "cpk_available": 10,
+    "cpk_total": 10,
+    "s64_67_available": 7,
+    "s64_67_total": 8,
+    "additional_character_sheets": 3,
+    "additional_s67_composition": 1,
+    "new_s68_69_task_assets_available": 5,
+    "new_s68_69_task_assets_total": 5,
+    "all_distinct_verified_assets": 25,
+    "new_images_this_pass": 5
+  },
+  "integration": {
+    "changed_prompt_blocks": [
+      "52 · Wan 3.0 часть 7",
+      "52 · Seedance 2.0 часть 7",
+      "66",
+      "66 · Seedance 2.0 часть 1",
+      "66 · Seedance 2.0 часть 2",
+      "67",
+      "67 · Seedance 2.0 часть 1",
+      "67 · Seedance 2.0 часть 2"
+    ],
+    "changed_existing_queue_items": [
+      "S52-R2-SEED20-P7",
+      "S64-WAN30",
+      "S65-WAN30",
+      "S66-WAN30",
+      "S67-WAN30",
+      "S68-WAN30",
+      "S69-WAN30"
+    ],
+    "missing_new_images": [
+      "references/scenes/scene-66/S66-alien-dog.png"
+    ],
+    "existing_images_without_source_manifest_record": [],
+    "invariants": {
+      "queue_item_ids_and_order_unchanged": true,
+      "other_queue_items_unchanged": true,
+      "master_lf": true,
+      "composition_images_not_queue_inputs": true,
+      "composition_images_not_prompt_inputs": true,
+      "no_launch_or_claim_changes": true,
+      "s64_s65_queue_states_unchanged": true,
+      "video_dependencies_unchanged": true,
+      "available_refs_exist_with_exact_sha": true,
+      "max_six_images_and_one_video": true,
+      "existing_manifest_records_qc_provenance_unchanged": true,
+      "manifest_approval_arrays_unchanged": true,
+      "existing_registry_approval_and_image_records_unchanged": true,
+      "other_master_scenes_unchanged": true,
+      "other_prompt_blocks_unchanged": true,
+      "idempotent_second_pass": true
+    },
+    "status": "integrated_and_locally_verified",
+    "helper_images": "S67 market-quarrel and S68/S69 compositions remain gallery/helpers only, never prompt/queue inputs.",
+    "launch_states": "Existing states preserved for64/65;52P7 and66–69 remain blocked on actual video continuity and any missing image. No submit, claim or approval changes."
+  },
+  "validation": {
+    "checked_at": "2026-10-27T21:34:40Z",
+    "unit_tests": {
+      "status": "passed",
+      "count": 348,
+      "seconds": 46.004,
+      "environment_note": "First run lacked requests; installed only into /tmp/seregius-testdeps, then full suite passed."
+    },
+    "site_contract": "passed",
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0
+    },
+    "instruction_bytes": "7/7 certified",
+    "instruction_consistency_live_snapshot": "passed",
+    "integration_invariants": 16,
+    "independent_read_only_review": "passed",
+    "idempotent_integration_and_rules": true,
+    "video_launches": 0,
+    "queue_items_added": 0,
+    "owner_approvals_added": 0
+  }
 }
