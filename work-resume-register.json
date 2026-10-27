@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T21:05:22+00:00",
+  "last_updated_at": "2026-10-27T21:12:16+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -646,7 +646,7 @@
       "project": "seregius",
       "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
       "status": "in_progress",
-      "updated_at": "2026-10-27T21:05:22+00:00",
+      "updated_at": "2026-10-27T21:12:16+00:00",
       "owner_task_id": "claude-202610271320-cpk-refs",
       "owner_quote": "Её выполняешь именно ты, открытый чат. Ничего не запускай.",
       "completed": [
@@ -654,31 +654,37 @@
         "Алина, Даша, Маша Р: sheets и спор Маши сохранены; повтор не нужен",
         "Фактический checkpoint восстановлен после полного приёма"
       ],
-      "next_action": "Создать отдельного Стича по удачному кадру улицы; затем4кадра68/69, интеграция и Relay/Work-only",
+      "next_action": "Создать бригаду и метлу68, затем две композиции68/69; завершить интеграцию и Relay/Work-only",
       "canonical_refs": [
         "ops/owner-tasks.json",
         "references/scenes/scene-65/manifest.json"
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T21:05:22+00:00",
-        "last_completed": "Улица66 создана по развёрткам; 17/18 исходных PNG существуют, отдельный Стич ждёт успешного генератора",
-        "next_action": "Создать отдельного Стича по удачному кадру улицы; затем4кадра68/69, интеграция и Relay/Work-only",
+        "verified_at": "2026-10-27T21:12:16+00:00",
+        "last_completed": "Улица66 сохранена и проверена; отдельный Стич отклонён imagegen в третьей попытке, файл отсутствует",
+        "next_action": "Создать бригаду и метлу68, затем две композиции68/69; завершить интеграцию и Relay/Work-only",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
-          "sha256": "0e07a865282445aeb153a32b8fb8701481d42835fb049b3c5832386860abe323"
+          "sha256": "87a301aa7325893d552efa618364884ecc8be00d88a9a5fb5e5ecce61117ac76"
         },
         "evidence": [
           {
             "file": "reports/open-work-refs-relay-2026-10-27.json",
-            "sha256": "2a5b8bd4ee6b72f553028f28555d896feec0aec5cbfd48732e2bb38cd905a5bc"
+            "sha256": "d389cf39b41191a95d8f045bb62b9cc0751b01faf96b2543a1e44bff561beb90"
           }
         ],
         "read_next": [
           "ops/OWNER-TASKS.md"
         ],
-        "blockers": []
+        "blockers": [
+          {
+            "path": "references/scenes/scene-66/S66-alien-dog.png",
+            "status": "tool_output_moderation_blocked",
+            "reason": "Built-in imagegen rejected output with category other; no specific explanation returned. No successful image or PNG exists."
+          }
+        ]
       },
       "additional_owner_task_ids": [
         "claude-202610272340-s68-69-refs"
