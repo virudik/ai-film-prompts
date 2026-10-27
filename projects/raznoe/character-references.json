@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-27T18:39:21+00:00",
+  "updated_at": "2026-10-27T18:41:30+00:00",
   "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
@@ -1142,6 +1142,34 @@
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
           "sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b",
+          "scenes": [
+            24
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c24-raft",
+      "name": "ЦПК: экипаж и спасательный плот",
+      "kind": "situation_reference",
+      "scenes": [
+        24
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-24/c24-raft.png",
+          "caption": "ЦПК: экипаж и спасательный плот",
+          "prompt_file": "projects/raznoe/references/scenes/scene-24/c24-raft.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:41:30+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f",
           "scenes": [
             24
           ],

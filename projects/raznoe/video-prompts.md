@@ -4609,7 +4609,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-24"></a>
 ## Сцена 24 — ЦПК: Если спускаемый аппарат сел на воду
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
 
 **Контекст использования:** Ролик о тренировке экипажа на случай приводнения: переодеться в тесноте, покинуть спускаемый аппарат на воде, держаться вместе и дождаться помощи. **Новостной повод · водные «выживания» 2026.**
 
@@ -4619,9 +4619,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК — Водные «выживания» 2026](https://www.gctc.ru/main.php?id=7732) · [ЦПК — дублирующий экипаж МКС-76 на выживании на воде](https://www.gctc.ru/main.php?id=7724).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png`. Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png` (ещё не нарисован). Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-24/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png`. Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png`. Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-24/*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-24/c24-raft.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-24/c24-raft.png" alt="Сцена 24, @Image2: ЦПК: экипаж и спасательный плот" loading="lazy"></a><figcaption>@Image2 — ЦПК: экипаж и спасательный плот. Созданный концепт.</figcaption></figure>
 <figure><a href="projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png" alt="Сцена 24, @Image1: ЦПК: спускаемый аппарат на море" loading="lazy"></a><figcaption>@Image1 — ЦПК: спускаемый аппарат на море. Созданный концепт.</figcaption></figure>
 </div>
 
@@ -4629,7 +4630,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Финальный титр для монтажа:** «ЦПК. Готовы к любой посадке.»
 
-**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+**Готовность:** тексты промтов готовы 27.10.2026. Оба референса нарисованы открытым ChatGPT Work, сохранены в галерее и реестре; технически проверены. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
 
 **Режиссёрский контроль:** Макет держится на плаву и не меняет форму; трое одних и тех же людей в кабине и в воде; сигнал — дымовой факел, без огня на воде. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
