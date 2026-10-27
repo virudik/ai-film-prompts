@@ -953,6 +953,16 @@
    "thumb_bytes": 44174,
    "src_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e"
   },
+  "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-22/c22-vr-stand.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 940,
+   "src_bytes": 2375027,
+   "thumb_bytes": 57892,
+   "src_sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626"
+  },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
