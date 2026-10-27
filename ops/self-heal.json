@@ -1,16 +1,8 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "escalated",
-  "problems": {
-    "run-failed-canon-health": {
-      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/40542539886",
-      "since": "2026-10-27T16:49:39Z",
-      "fixes": 1,
-      "last_fix_at": "2026-10-27T16:49:39Z",
-      "escalated_at": "2026-10-27T17:20:36Z"
-    }
-  },
+  "status": "ok",
+  "problems": {},
   "log": [
     {
       "at": "2026-10-21T06:07:40Z",
@@ -125,7 +117,13 @@
       "kind": "escalated",
       "key": "run-failed-canon-health",
       "text": "Не чинится само: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/40542539886 Передал агенту (задача в списке под очередью)."
+    },
+    {
+      "at": "2026-10-27T18:19:36Z",
+      "kind": "resolved",
+      "key": "run-failed-canon-health",
+      "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/40542539886"
     }
   ],
-  "changed_at": "2026-10-27T17:20:36Z"
+  "changed_at": "2026-10-27T18:19:36Z"
 }
