@@ -4,6 +4,163 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "seregius-open-work-20261027-c8084d939274",
+      "project": "seregius",
+      "work_id": "OPEN-WORK-REFS-RELAY-20261027",
+      "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
+      "chat": {
+        "agent": "chatgpt",
+        "label": "Открытый Work: продолжение референсов, Relay и D7",
+        "session_id": "c8084d939274",
+        "chat_id": null,
+        "identity_status": "unavailable"
+      },
+      "started_at": "2026-10-27T20:45:19Z",
+      "accepted_at": "2026-10-27T20:52:36+00:00",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "git clone/pull --ff-only main; source_head 1876317fe9983cd884d2f1e5d168af1e9b0a4370"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "Full intake: all seven instructions read in canonical order by read-only full-intake auditor at ef6191db; root read task-specific master/lock/inbox/recovery; byte SHA match. Initial short preflight rejected stale scene65 evidence."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "Verified 20 existing PNG SHA against current manifests/tree; recovered actual stage in reports/open-work-refs-relay-2026-10-27.json; capture and --require-short pass with no reasons."
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "Fresh ops/owner-tasks.json: cpk-refs taken by ChatGPT; new s68-69-refs open Work-only. No existing PNG repeated."
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase SELECT: 127 applied,4 superseded;0 open/pending/in_progress/needs_owner at20:49Z."
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub read and lock CAS update confirmed; git clone/pull available; built-in imagegen exposed; Supabase SELECT succeeds. This task prohibits video launches."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "ops/canon-lock.json held by chatgpt; read-back after lock commit1876317fe9983cd884d2f1e5d168af1e9b0a4370."
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-10-27T20:52:36+00:00",
+        "description": "Восстановлена фактическая контрольная точка и проверены20сохранённых изображений; повтор уже выполненных генераций исключён.",
+        "state": "completed",
+        "evidence": "reports/open-work-refs-relay-2026-10-27.json; reports/current-work-checkpoint.md; continue_preflight --require-short passed"
+      },
+      "request_sha256": "682a688d7e197bf7090c9c86b8a4c6902c47c2dc8a4f86b955fe4caf5fb05e29",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+          "bytes": 34298
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+          "bytes": 18925
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "2b73b687a3d8dc31fe71b95a0beb41d5f651bd23d158269246454941bf864ba5",
+          "bytes": 34925
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
+          "bytes": 72372
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+          "bytes": 16692
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
+          "bytes": 125587
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
+          "bytes": 80102
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "c5f6fcc2be01dab9ed3e148f99e58f45d8c9aa5ff8aa1a486028be8ac3834648",
+          "bytes": 5141
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "76eb22e3e8ed4a15e8eb3f1fbae73f5b11038bf67f53669e65d5661f5330046c",
+          "bytes": 38152
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "cfac37f3a474a10ea9c7d258195c30d5128dc88c0521b19fdf142112a7788810",
+          "bytes": 396580
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "32e9e620ff62937fff2111539d1b2b8f8e4b41b429cb8f7d3519e17e65f9944b",
+          "bytes": 20900
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "8879a856134fcbe7a60ea8a5370c31729db8c05e4da4d3047cc744c7bda4f199",
+          "bytes": 17576
+        },
+        {
+          "file": "reports/open-work-refs-relay-2026-10-27.json",
+          "sha256": "8002240f8ec1a9288784b9756c02077fc439a11fdffffa4a3f838c9027d2be38",
+          "bytes": 5792
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "34073651ff129722dd8c2873c3b5344e224bf3f8477fefbc056995aa53e54fed",
+          "bytes": 34726
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "db979a4d034066245c9ced32072e6bc014042a0baa13b9c7dea4ed2add19efc5",
+          "bytes": 23277
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "a77f0fbf690568633c6192246bc789fbd182e4efe589c2ddf31028d720cedae0",
+          "bytes": 1056055
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "9e2c05ceb8523ea678120990af5f1c1afe46708c52bb544f07c3d140e3f5ac89",
+          "bytes": 62076
+        }
+      ],
+      "source_fingerprint": "4ea1926dfc991c8a6cb7a93660a3a7dd722b437e933ea38a5ebcc8ed3c590d33",
+      "recorded_at": "2026-10-27T20:52:36+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "continue-multi-20261027-current-work",
       "project": "seregius",
       "work_id": "CONTINUE-MULTIPROJECT-20261027",

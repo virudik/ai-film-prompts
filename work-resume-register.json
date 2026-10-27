@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T18:59:31+00:00",
+  "last_updated_at": "2026-10-27T20:51:54+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -646,40 +646,44 @@
       "project": "seregius",
       "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
       "status": "in_progress",
-      "updated_at": "2026-10-27T18:59:31+00:00",
+      "updated_at": "2026-10-27T20:51:54+00:00",
       "owner_task_id": "claude-202610271320-cpk-refs",
       "owner_quote": "Её выполняешь именно ты, открытый чат. Ничего не запускай.",
       "completed": [
-        "10 PNG ЦПК опубликованы",
-        "S64: оба референса опубликованы",
-        "S65: стол с точным Серёгой сохранён"
+        "10/10 ЦПК и 6/8 исходных Серёгиус сохранены и SHA проверены",
+        "Алина, Даша, Маша Р: sheets и спор Маши сохранены; повтор не нужен",
+        "Фактический checkpoint восстановлен после полного приёма"
       ],
-      "next_action": "S65-toast-closeup, затем оставшиеся изображения, Relay и Продолжай",
+      "next_action": "Создать S66-alien-dog (Стич), затем улицу66 и4 кадра68/69, связать входы; Relay retry и Work-only продолжение",
       "canonical_refs": [
         "ops/owner-tasks.json",
         "references/scenes/scene-65/manifest.json"
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T18:59:31+00:00",
-        "last_completed": "10 ЦПК + 2 S64 + стол S65 сохранены; технический QC, без художественного принятия",
-        "next_action": "S65-toast-closeup, затем оставшиеся изображения, Relay и Продолжай",
+        "verified_at": "2026-10-27T20:51:54+00:00",
+        "last_completed": "16/18 исходных +4 дополнительных изображения проверены по файлам/SHA; checkpoint восстановлен",
+        "next_action": "Создать S66-alien-dog (Стич), затем улицу66 и4 кадра68/69, связать входы; Relay retry и Work-only продолжение",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
-          "sha256": "77ecde5a1c639c1ab43535a25afe29d0a110b0f6ac3450e3c1fdf7b2f4337477"
+          "sha256": "879b9f55e559795f1a2f31b1e4ce9917a897e87ddf3603f5da2d79e19645a519"
         },
         "evidence": [
           {
-            "file": "references/scenes/scene-65/manifest.json",
-            "sha256": "8420f46d0aa2c1a69ffcc105ec2a1778d57f39bf97dda749c1c21170b22218ef"
+            "file": "reports/open-work-refs-relay-2026-10-27.json",
+            "sha256": "8002240f8ec1a9288784b9756c02077fc439a11fdffffa4a3f838c9027d2be38"
           }
         ],
         "read_next": [
-          "ops/OWNER-TASKS.md"
+          "ops/OWNER-TASKS.md",
+          "ops/CONTINUE-PROTOCOL.md"
         ],
         "blockers": []
-      }
+      },
+      "additional_owner_task_ids": [
+        "claude-202610272340-s68-69-refs"
+      ]
     }
   ],
   "rules": [

@@ -3,39 +3,59 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-27T20:35:11+00:00",
-  "source_head": "3c34091fea1dbac452aba3aff2129d97fae2d088",
-  "source_fingerprint": "64a66198bca42234f14940958a68a665c48d2f7ac0c55e312b6ec100c45cd112",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-27T20:52:36+00:00",
+  "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
+  "source_fingerprint": "5b5c7cd7088064561d12fbf333b3d0e0036801c30b98bb3d9b2fc9998c24e9c4",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
-    "receipt_id": "continue-multi-20261027-current-work",
+    "receipt_id": "seregius-open-work-20261027-c8084d939274",
     "project": "seregius",
-    "work_id": "CONTINUE-MULTIPROJECT-20261027",
+    "work_id": "OPEN-WORK-REFS-RELAY-20261027",
     "chat": {
       "agent": "chatgpt",
-      "label": "Текущий ChatGPT Work — Продолжай: все проекты и квитанция (27.10.2026)",
-      "session_id": "work-dbcaa6ee-3f43-40ac-bc62-acb19d667f43",
+      "label": "Открытый Work: продолжение референсов, Relay и D7",
+      "session_id": "c8084d939274",
       "chat_id": null,
-      "identity_status": "unavailable",
-      "identity_note": "Среда не раскрыла ID/URL текущего чата; session_id — идентификатор записи этого запуска, не ChatGPT conversation ID."
+      "identity_status": "unavailable"
     },
-    "accepted_at": "2026-10-27T14:15:53.461Z",
+    "accepted_at": "2026-10-27T20:52:36+00:00",
     "outcome": "accepted",
     "first_action": {
-      "at": "2026-10-27T14:15:53.461Z",
+      "at": "2026-10-27T20:52:36+00:00",
+      "description": "Восстановлена фактическая контрольная точка и проверены20сохранённых изображений; повтор уже выполненных генераций исключён.",
       "state": "completed",
-      "description": "Продолжил принятую задачу с выделения проектных путей и раздельных focus/idle; реализовал проверку пяти пакетов и прогнал тесты изоляции/квитанций.",
-      "evidence": "scripts/resume_project.py; scripts/resume_state.py; scripts/handoff_receipt.py; tests/test_project_recovery.py. Это приём текущей задачи этим чатом, не тест будущего нового чата."
+      "evidence": "reports/open-work-refs-relay-2026-10-27.json; reports/current-work-checkpoint.md; continue_preflight --require-short passed"
     },
-    "source_head": "dcba3bfce1be1ccece4eca431297390dfd061220"
+    "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
-  "reasons": [
-    "recovery evidence changed: references/scenes/scene-65/manifest.json"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026\n\nwork_id: OPEN-WORK-REFS-RELAY-20261027\nПроверено: 2026-10-27T18:59:31+00:00. Выполняет открытая сессия Work beb26cfe80f8; это локальный session_id, ID чата среда не раскрыла.\n\nКоманда владельца: лично нарисовать 18 референсов задачи claude-202610271320-cpk-refs; по новым фото также развёртки Алины (фото1), Даши (фото2–3) и Маши Р (фото4) в татуинской одежде и сценические кадры. Собака теперь Стич. Последнее уточнение отменяет старое ожидание фотографий. В очередь ничего не добавлять, видео не запускать. Починить повтор при временном сбое браузера в Relay 6adc585e; расширить Продолжай на задачи только открытого Work.\n\nДоказано: 10/10 PNG ЦПК 21–25 опубликованы, реестр/галереи/манифесты и handoff Роскосмоса обновлены (итог 15111686b215e7e88a852a3c4f8e7046a37ce5c6). Пауза и очередь Роскосмоса сохранены. S64-коридор и офицеры опубликованы (57e8e3c2, c4501d29); S65-стол сохранён текущим согласованным коммитом, точная внешность Серёги взята из references/full/serega.jpg. Художественное принятие не выставлено.\n\nОсталось: тост S65, Стич/улица S66, прилавок/продавец S67, три индивидуальные развёртки и сценические кадры; затем маппинг/SHA/available только существующих изображений, при этом реальные видеостыки остаются зависимостями. После изображений исправить протокол и живой prompt Relay с сохранением подписки и readback; добавить открытые Work-задачи в Продолжай; проверки, итоговый result_commit и status done. Начатые или сохранённые изображения не рисовать повторно. Следующий шаг — S65-toast-closeup.image-prompt.txt.\n\nБлокеры: постоянных нет. CLI git push не авторизован; запись успешно выполняется GitHub-коннектором с FF/CAS и readback. Первая генерация S65 отклонена инструментом; спокойная композиция без оружия успешно получена. Созданий видео, смен расписания и фальшивых Relay ACK нет.\n",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "OPEN-WORK-REFS-RELAY-20261027",
+    "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
+    "status": "in_progress",
+    "last_completed": "16/18 исходных +4 дополнительных изображения проверены по файлам/SHA; checkpoint восстановлен",
+    "next_action": "Создать S66-alien-dog (Стич), затем улицу66 и4 кадра68/69, связать входы; Relay retry и Work-only продолжение",
+    "verified_at": "2026-10-27T20:51:54+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "reports/open-work-refs-relay-2026-10-27.json",
+        "sha256": "8002240f8ec1a9288784b9756c02077fc439a11fdffffa4a3f838c9027d2be38"
+      }
+    ],
+    "read_next": [
+      "ops/OWNER-TASKS.md",
+      "ops/CONTINUE-PROTOCOL.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
+      "sha256": "879b9f55e559795f1a2f31b1e4ce9917a897e87ddf3603f5da2d79e19645a519"
+    }
+  },
+  "checkpoint_text": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026\n\nwork_id: OPEN-WORK-REFS-RELAY-20261027\nПроверено: 2026-10-27T20:51:54+00:00. Продолжение открытым Work, session_id c8084d939274 (локальный идентификатор, не ID чата).\n\nКоманда владельца: лично завершить 18 референсов claude-202610271320-cpk-refs и развёртки/сценические кадры по фото Алины, Даши и Маши Р. Собака — Стич. Пункт2: при временном сбое браузера повторить чтение/восстановление 1–2 раза с паузой около минуты; при неудаче записать причину и следующий шаг для нового события или часового задания. Пункт3: «Продолжай» в открытом Work включает открытые задачи с меткой «ВЫПОЛНЯЕТ ТОЛЬКО ОТКРЫТЫЙ ЧАТ ChatGPT Work». Видео не запускать, новых пунктов очереди не добавлять.\n\nИсходное состояние проверено по main 1876317fe9983cd884d2f1e5d168af1e9b0a4370: 16/18 исходных PNG уже существуют (10 ЦПК, по2 для64/65/67), также сохранены три развёртки и спор Маши с продавцом — всего20 файлов. SHA всех перечислены и сверены в reports/open-work-refs-relay-2026-10-27.json. S65-toast, S67 и развёртки НЕ рисовать повторно. Прежняя recovery-ссылка отстала от manifest65; выполнен полный приём7инструкций и восстановлена фактическая стадия. Supabase: открытых решений0; робот основной, свежая телеметрия6/6, monitor_role=skip. Художественное принятие не выставлено.\n\nОсталось шесть уникальных изображений: Стич и улица66; бригада/метла68; дополнительные композиции68/69 (новая задача claude-202610272340-s68-69-refs по команде владельца27.10 23:37МСК). Каждый кадр: QC, manifest/галерея, commit/readback до следующего. Затем связать все существующие входы и SHA, исправить устаревшие ожидания фото и оранжевую собаку в52P7/66; @Video1 остаются настоящими будущими результатами. Дополнительные композиции68/69 — только галереи, без новых входов промпта/очереди.\n\nПосле картинок: Relay retry и live prompt существующего6adc585e с сохранением одной подписки; правило открытого Work в CONTINUE/OWNER-TASKS/шаблоне; сертификат/тесты/Pages/readback, закрытие двух задач с result_commit. Следующий шаг: скорректировать .image-prompt по решению «Стич», создать S66-alien-dog.png штатным imagegen.\n\nБлокеры: нет постоянных. Запись — GitHub connector FF/CAS под замком; исходный бриф восстановлен по проверенным фактам. Сохранённая настройка не доказывает будущий успешный browser retry. Никаких новых video submit/approval/Relay ACK.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -128,7 +148,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/OWNER-TASKS.md",
+    "ops/CONTINUE-PROTOCOL.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -383,13 +406,18 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "d73dc180a43a961fc03aec1c78b588dcdedbbdae93c5433fef0f65e29ccf5641",
-      "bytes": 16820
+      "sha256": "8879a856134fcbe7a60ea8a5370c31729db8c05e4da4d3047cc744c7bda4f199",
+      "bytes": 17576
     },
     {
       "file": "reports/handoff-receipts.json",
-      "sha256": "ff71f3788d2a327e86558ed2176b2dc05aa8f2d03399bb86363d0b83c190e293",
-      "bytes": 7177
+      "sha256": "c4038c942e39de0317f6e61802659ab7fd994b318a5feb8caa64db1ecfdd65e4",
+      "bytes": 13684
+    },
+    {
+      "file": "reports/open-work-refs-relay-2026-10-27.json",
+      "sha256": "8002240f8ec1a9288784b9756c02077fc439a11fdffffa4a3f838c9027d2be38",
+      "bytes": 5792
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -408,9 +436,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "d3384a0fc782a07ffb8471c94f66c4ba467f469f9437917f2633b3defc27b317",
-      "bytes": 61657
+      "sha256": "9e2c05ceb8523ea678120990af5f1c1afe46708c52bb544f07c3d140e3f5ac89",
+      "bytes": 62076
     }
   ],
-  "packet_bytes": 6932
+  "packet_bytes": 8122
 }

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "work_id": "OPEN-WORK-REFS-RELAY-20261027",
+  "project": "seregius",
+  "checked_at": "2026-10-27T20:51:54+00:00",
+  "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
+  "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
+  "owner_tasks": [
+    "claude-202610271320-cpk-refs",
+    "claude-202610272340-s68-69-refs"
+  ],
+  "existing_verified_assets": [
+    {
+      "path": "references/scenes/scene-64/S64-corridor.png",
+      "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-64/S64-officers-reaction.png",
+      "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-65/S65-bar-table.png",
+      "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-65/S65-toast-closeup.png",
+      "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-67/S67-fruit-stall.png",
+      "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-67/S67-vendor.png",
+      "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "status": "existing_verified"
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+      "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-21/c21-centrifuge.png",
+      "sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png",
+      "sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
+      "sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png",
+      "sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-23/c23-console.png",
+      "sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-23/c23-era-arm.png",
+      "sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png",
+      "sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-24/c24-raft.png",
+      "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png",
+      "sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+      "status": "existing_verified"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png",
+      "sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
+      "status": "existing_verified"
+    }
+  ],
+  "pending_assets": [
+    "references/scenes/scene-66/S66-alien-dog.png",
+    "references/scenes/scene-66/S66-street-outrage.png",
+    "references/scenes/scene-68/S68-sweepers-crew.png",
+    "references/scenes/scene-68/S68-light-broom.png",
+    "references/scenes/scene-68/S68-crew-sweeping-street.png",
+    "references/scenes/scene-69/S69-masha-masterclass.png"
+  ],
+  "generated_assets": [],
+  "owner_decisions_readback": {
+    "at": "2026-10-27T20:51:54+00:00",
+    "pending": 0,
+    "applied": 127,
+    "superseded": 4,
+    "source": "Supabase SELECT public.owner_decisions"
+  },
+  "recovery_issue": {
+    "cause": "Saved scene-65 manifest evidence predates later image commits",
+    "resolved_by": "Verified current existing assets against manifest SHA and reconstructed actual last completed stage; no repeated generation"
+  },
+  "relay_retry": {
+    "status": "pending",
+    "requested_retries": "1-2",
+    "pause_seconds_approx": 60,
+    "submit_retry_allowed": false
+  },
+  "open_work_continue": {
+    "status": "pending"
+  },
+  "video_launches": 0,
+  "queue_items_added": 0,
+  "owner_approval": "not_recorded"
+}
