@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-27T19:28:33+00:00",
+ "generated_at": "2026-10-27T20:35:11+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "d49bdd4283a196da4e30fb04380451983301a361a857c32f5dda48f693429475",
-   "bytes": 34911
+   "sha256": "2b73b687a3d8dc31fe71b95a0beb41d5f651bd23d158269246454941bf864ba5",
+   "bytes": 34925
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "603499d2b291018e23ef4be012d600b81797eb9f7bf68ad84d3b321abe2a34cb",
-   "bytes": 1005653
+   "sha256": "a77f0fbf690568633c6192246bc789fbd182e4efe589c2ddf31028d720cedae0",
+   "bytes": 1056055
   }
  ],
  "invariants": [
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22865,
-  "above_marker_chars": 22865,
+  "chars": 22875,
+  "above_marker_chars": 22875,
   "recent_sections_below_marker": [],
-  "sha256": "686232b3f9edc4b2ddc7c8b95af03ca0a33770d2327a2dcdd628ef4b1efc9e93",
-  "sha256_12": "686232b3f9ed",
+  "sha256": "34073651ff129722dd8c2873c3b5344e224bf3f8477fefbc056995aa53e54fed",
+  "sha256_12": "34073651ff12",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -192,8 +192,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 24,
-  "prompt_texts": 119,
+  "scenes": 26,
+  "prompt_texts": 125,
   "scene_ids": [
    13,
    16,
@@ -218,9 +218,11 @@
    64,
    65,
    66,
-   67
+   67,
+   68,
+   69
   ],
-  "latest_scene": 67,
+  "latest_scene": 69,
   "reserved": [
    1,
    2,
@@ -292,7 +294,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 34555,
+   "offset": 35369,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -314,7 +316,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 60892,
+   "offset": 61706,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -335,7 +337,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 89429,
+   "offset": 90243,
    "chars": 139450,
    "sha256_12": "d913dff42477"
   },
@@ -353,7 +355,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 228879,
+   "offset": 229693,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -375,7 +377,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 245235,
+   "offset": 246049,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -397,7 +399,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 269222,
+   "offset": 270036,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -421,7 +423,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 301719,
+   "offset": 302533,
    "chars": 28588,
    "sha256_12": "e13906f96ded"
   },
@@ -445,7 +447,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 330307,
+   "offset": 331121,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
@@ -472,7 +474,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 358765,
+   "offset": 359579,
    "chars": 74983,
    "sha256_12": "17eb4aa1f7b0"
   },
@@ -497,7 +499,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 433748,
+   "offset": 434562,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
@@ -523,7 +525,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 453469,
+   "offset": 454283,
    "chars": 60421,
    "sha256_12": "f3bfb2c4c6d1"
   },
@@ -544,7 +546,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 513890,
+   "offset": 514704,
    "chars": 80429,
    "sha256_12": "7ec0a934d336"
   },
@@ -567,7 +569,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 594319,
+   "offset": 595133,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -589,7 +591,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 620725,
+   "offset": 621539,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -615,7 +617,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 646821,
+   "offset": 647635,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -636,7 +638,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 674349,
+   "offset": 675163,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -658,7 +660,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 709637,
+   "offset": 710451,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -678,7 +680,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 742648,
+   "offset": 743462,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -700,7 +702,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 767494,
+   "offset": 768308,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -720,7 +722,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 796765,
+   "offset": 797579,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -739,7 +741,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 820218,
+   "offset": 821032,
    "chars": 19229,
    "sha256_12": "a7573f3dcf7b"
   },
@@ -759,7 +761,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 839447,
+   "offset": 840261,
    "chars": 21388,
    "sha256_12": "b688c16a3b5b"
   },
@@ -782,9 +784,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 860835,
-   "chars": 21455,
-   "sha256_12": "dbbd0619f732"
+   "offset": 861649,
+   "chars": 21465,
+   "sha256_12": "f20ac94fc56f"
   },
   {
    "id": 67,
@@ -803,9 +805,53 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 882290,
-   "chars": 19373,
-   "sha256_12": "b1d94c1881ea"
+   "offset": 883114,
+   "chars": 19490,
+   "sha256_12": "128945b3c12a"
+  },
+  {
+   "id": 68,
+   "title": "Татуин: «ГБУ Жилищник района Татуина» метёт улицу световыми мётлами",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    67
+   ],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 902604,
+   "chars": 22252,
+   "sha256_12": "e6249f00e866"
+  },
+  {
+   "id": 69,
+   "title": "Татуин: девушка отнимает метлу и показывает «Жилищнику», как надо мести",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [
+    68
+   ],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 924856,
+   "chars": 21684,
+   "sha256_12": "a3533f8e7c78"
   }
  ],
  "read_sets": {
