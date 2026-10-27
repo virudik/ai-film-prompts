@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:scene-review",
-  "task": "Scene 52 improvements + 52P7->66->67 link; 65-67 owner edits (27.10)",
-  "acquired_at": "2026-10-27T16:19:38Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T16:26:26Z",
+  "task": "Shorten handoff line (size warn)",
+  "acquired_at": "2026-10-27T16:27:25Z",
+  "expires_at": "2026-10-27T16:42:25Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
