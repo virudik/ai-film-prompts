@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-27T13:22:04+00:00",
+ "generated_at": "2026-10-27T13:33:42+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "2da47ef349122575154cd6522f5536b5ab13535a12e357b7a7fd5af1b986ce29",
-   "bytes": 1112657
+   "sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
+   "bytes": 903928
   }
  ],
  "invariants": [
@@ -192,27 +192,21 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 26,
-  "prompt_texts": 125,
+  "scenes": 20,
+  "prompt_texts": 107,
   "scene_ids": [
    13,
    16,
    28,
    33,
    36,
-   37,
-   39,
-   40,
    41,
    42,
-   44,
-   47,
    48,
    49,
    50,
    51,
    52,
-   53,
    56,
    57,
    58,
@@ -254,10 +248,16 @@
    32,
    34,
    35,
+   37,
    38,
+   39,
+   40,
    43,
+   44,
    45,
    46,
+   47,
+   53,
    54,
    55
   ],
@@ -288,7 +288,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 37754,
+   "offset": 32881,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -310,7 +310,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 64091,
+   "offset": 59218,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -331,7 +331,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 92628,
+   "offset": 87755,
    "chars": 139450,
    "sha256_12": "d913dff42477"
   },
@@ -349,7 +349,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 232078,
+   "offset": 227205,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -358,7 +358,7 @@
    "title": "После пещеры: Серёга уходит с фрагментом карты",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -371,77 +371,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 248434,
-   "chars": 24016,
-   "sha256_12": "1bcbb827821d"
-  },
-  {
-   "id": 37,
-   "title": "Отлёт Серёги с Набу к лесной планете",
-   "target_engine": "Seedance 2.0",
-   "state": "READY",
-   "render_state": "SLOW_PENDING",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    36
-   ],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 272450,
-   "chars": 33943,
-   "sha256_12": "e8edb2707452"
-  },
-  {
-   "id": 39,
-   "title": "Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков",
-   "target_engine": "Seedance 2.0",
-   "state": "READY",
-   "render_state": "SLOW_PENDING",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 306393,
-   "chars": 32478,
-   "sha256_12": "75a349656500"
-  },
-  {
-   "id": 40,
-   "title": "Серёга прилетает на планету ситхов: посадка у руин",
-   "target_engine": "Seedance 2.0",
-   "state": "READY",
-   "render_state": "SLOW_PENDING",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 338871,
-   "chars": 32687,
-   "sha256_12": "533d29334264"
+   "offset": 243561,
+   "chars": 23987,
+   "sha256_12": "ee119b556282"
   },
   {
    "id": 41,
@@ -461,7 +393,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 371558,
+   "offset": 267548,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -485,50 +417,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 404055,
+   "offset": 300045,
    "chars": 28588,
-   "sha256_12": "fe1fdb023a69"
-  },
-  {
-   "id": 44,
-   "title": "Ангар крейсера: ремонт крыла, и оно отваливается",
-   "target_engine": "Wan 3",
-   "state": "DRAFT",
-   "render_state": "SLOW_PENDING",
-   "duration_s": 30,
-   "dialogue": "ru",
-   "depends_on": [],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3"
-   ],
-   "offset": 432643,
-   "chars": 26812,
-   "sha256_12": "d95a85c48853"
-  },
-  {
-   "id": 47,
-   "title": "Красная точка: Серёга уходит от котов хитростью",
-   "target_engine": "Seedance 2.0",
-   "state": "READY",
-   "render_state": "SLOW_PENDING",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 459455,
-   "chars": 24575,
-   "sha256_12": "75689e945138"
+   "sha256_12": "e13906f96ded"
   },
   {
    "id": 48,
@@ -550,7 +441,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 484030,
+   "offset": 328633,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
@@ -577,7 +468,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 512488,
+   "offset": 357091,
    "chars": 74983,
    "sha256_12": "17eb4aa1f7b0"
   },
@@ -602,7 +493,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 587471,
+   "offset": 432074,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
@@ -628,7 +519,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 607192,
+   "offset": 451795,
    "chars": 60421,
    "sha256_12": "f3bfb2c4c6d1"
   },
@@ -640,9 +531,7 @@
    "render_state": "SLOW_PENDING",
    "duration_s": 105,
    "dialogue": null,
-   "depends_on": [
-    44
-   ],
+   "depends_on": [],
    "prompts": 14,
    "refs": [
     "@Image1",
@@ -651,33 +540,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 667613,
-   "chars": 72806,
-   "sha256_12": "11aecfa31e23"
-  },
-  {
-   "id": 53,
-   "title": "Взлёт Серёги с Татуина: курс на Набу",
-   "target_engine": "Seedance 2.0",
-   "state": "DRAFT",
-   "render_state": "SLOW_PENDING",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    48,
-    39
-   ],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5"
-   ],
-   "offset": 740419,
-   "chars": 29558,
-   "sha256_12": "5c03141af4d6"
+   "offset": 512216,
+   "chars": 72775,
+   "sha256_12": "ddc8cd507408"
   },
   {
    "id": 56,
@@ -698,7 +563,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 769977,
+   "offset": 584991,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -720,7 +585,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 796383,
+   "offset": 611397,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -746,7 +611,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 822479,
+   "offset": 637493,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -767,7 +632,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 850007,
+   "offset": 665021,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -789,7 +654,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 885295,
+   "offset": 700309,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -809,7 +674,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 918306,
+   "offset": 733320,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -831,7 +696,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 943152,
+   "offset": 758166,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -851,7 +716,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 972423,
+   "offset": 787437,
    "chars": 23430,
    "sha256_12": "d1ee8151d77d"
   }

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "generator": "continue-2.0",
-  "checked_at": "2026-10-27T13:27:50+00:00",
-  "source_head": "9d09bb2dd2451023c35b832460ff3846c5a39686",
-  "source_fingerprint": "237430be8a0e5b1766c5a86da42f0ce0e4c6424830c7f08cf6d46a6f4ec64abd",
+  "checked_at": "2026-10-27T13:33:42+00:00",
+  "source_head": "61c2638b7c29d714016464bd184e6d0df50191cb",
+  "source_fingerprint": "44d57836b8508545c7f9f0cf8407d11cdb3b6fcfd42cd894f5d898c6d5c3220c",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -380,8 +380,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "ae24083b31681c5812a7549a172bc56adf67775b55b519d7aa62fa9873b7c7a3",
-      "bytes": 18771
+      "sha256": "ca070dfff3e22990c9427b6a6322e4a332aba4e45edeb6fd4efa39c27ff4b001",
+      "bytes": 17822
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -400,13 +400,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "bf93dcfac4e1f29688f7677307b2d1203ce57ddff8f4a3ee537eb40df171dbd6",
-      "bytes": 23321
+      "sha256": "f9b24ebf44763416d4ef3396783a3a2653a518560f788520bf8489a1257d2ad5",
+      "bytes": 20493
     },
     {
       "file": "video-prompts.md",
-      "sha256": "2da47ef349122575154cd6522f5536b5ab13535a12e357b7a7fd5af1b986ce29",
-      "bytes": 1112657
+      "sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
+      "bytes": 903928
     },
     {
       "file": "work-resume-register.json",
