@@ -137,7 +137,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T22:57:20Z",
+  "updated_at": "2026-10-27T23:08:29Z",
   "last_qc_at": "2026-10-27T22:57:20Z",
   "pose_composition_helpers": [
     "references/scenes/scene-68/S68-crew-sweeping-street.png"
@@ -145,9 +145,9 @@
   "prompt_reference_mapping": [
     {
       "label": "68",
-      "canonical_prompt_sha256": "a93ffc53f0af992b671a9f948e6e02e92bcbec24927b31ad5ae9e5cef7d05ec0",
-      "normalized_prompt_sha256": "42b14ec5df5e6f46abfc638ffb41f109e1e4415173a306038e330fb7fffbc2e0",
-      "characters": 6399,
+      "canonical_prompt_sha256": "88f904be3ef1a84e854ae01162f411aa9b49c2ea8bbd0f97a1457ffb126f2f00",
+      "normalized_prompt_sha256": "7915ebcc74d3190c1e4eb6389f1d391889bda488668ab0c13d338319bc9c990e",
+      "characters": 7061,
       "slots": [
         {
           "slot": "@Video1",
@@ -188,6 +188,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
         }
       ],
       "prompt_id": "S68-WAN30",
@@ -195,9 +203,9 @@
     },
     {
       "label": "68 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "f4b6237c5f2a3a6dea5a6009bd489a27a0d7fcbc4b19e0c567ee25e3f482dc7a",
-      "normalized_prompt_sha256": "70ebfc878968976ed9e79931421dbf4dd3b1bcb0db57121513a27d2d6433c815",
-      "characters": 5926,
+      "canonical_prompt_sha256": "007a2bd4676c5574a7e9feefaab247b9d78ddf57f1b7a4a581c26cdc64df3f23",
+      "normalized_prompt_sha256": "4873a9be14c96d22f9a3b2b1e684609a2671ec0091071565b6bd261f4eeb14bc",
+      "characters": 6335,
       "slots": [
         {
           "slot": "@Video1",
@@ -238,15 +246,23 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
         }
       ],
       "queued": false
     },
     {
       "label": "68 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "62e107278ca02c482ced979cdf480767b492f870c47bbfc6169679225600b075",
-      "normalized_prompt_sha256": "bbf7145dd5a5a9677f5c33b45d1df881c37c7cca45cddbdcb26131a4ea27dc1b",
-      "characters": 5409,
+      "canonical_prompt_sha256": "d2bc9fc9680a862a89ff766afac736d93376ad408323cb650c154d6173060035",
+      "normalized_prompt_sha256": "3c17334a0fe88c6d915b3e8fe728d66ccfbc3e33ca2a656643c8d5a78cc52d5f",
+      "characters": 6071,
       "slots": [
         {
           "slot": "@Video1",
@@ -286,6 +302,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
         }
       ],
       "queued": false
@@ -299,6 +323,7 @@
     "references/scenes/scene-66/S66-street-outrage.png"
   ],
   "prop_refs": [
-    "references/scenes/scene-68/S68-light-broom.png"
+    "references/scenes/scene-68/S68-light-broom.png",
+    "references/scenes/scene-69/S69-light-dustpan.png"
   ]
 }

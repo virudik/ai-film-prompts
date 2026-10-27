@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T22:25:11Z",
+  "updated_at": "2026-10-27T23:08:29Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "LATEST28Oct2026 owner:52P7→66→67→68→69 Wan3.0/30s;52P1–P6 stay Seedance2.0. Before49→50→51→28; ready-skip unchanged. LATEST27Oct2026 20:25Z owner: scenes68→69 (ГБУ Жилищник) at0.94/0.95 right after67; chain52P7→66→67→68→69 seamless and in order. LATEST27Oct2026 owner: new scenes 64→65→66→67 at priorities0.90–0.93, after63 and before49/50/51 and dances28; chain52P7→66→67 seamless (real last3s of previous link as @Video1). Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "LATEST28Oct2026 owner:52P7→66→67→68→69→70→65 Wan3.0/30s;52P1–P6 stay Seedance2.0. Before49→50→51→28; ready-skip unchanged. LATEST27Oct2026 20:25Z owner: scenes68→69 (ГБУ Жилищник) at0.94/0.95 right after67; chain52P7→66→67→68→69 seamless and in order. LATEST27Oct2026 owner: new scenes 64→65→66→67 at priorities0.90–0.93, after63 and before49/50/51 and dances28; chain52P7→66→67 seamless (real last3s of previous link as @Video1). Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "S13-S13",
@@ -6818,11 +6818,11 @@
       "scene_id": 65,
       "prompt_id": "S65-WAN30",
       "canonical_block_label": "65",
-      "canonical_prompt_sha256": "d962d042d6301596abb1c07b13c1073d2f53539577ccf28a12dd91f4b58a9c68",
-      "normalized_prompt_sha256": "8ff45d7c358bd37fd3d76cad4b942d23f6e94cce50607c1e645983880c61e6a5",
-      "priority": 0.91,
+      "canonical_prompt_sha256": "111aa2995fb6d8b807aa1f035cb94a88ab9e3d549553a399d7de73a43180b2fd",
+      "normalized_prompt_sha256": "35818383f73dcf836145ef9d02be52beb1029c5f36400be6da4f4d9c6e32abca",
+      "priority": 0.97,
       "state": "blocked_inputs",
-      "launch_readiness": "reference_inputs_available",
+      "launch_readiness": "blocked_continuity",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -6834,8 +6834,18 @@
       "max_new_submissions": 1,
       "max_credits": 0,
       "depends_on_submitted": [],
-      "depends_on_completed": [],
+      "depends_on_completed": [
+        "S70-WAN30"
+      ],
       "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S70-WAN30",
+          "planned_path": "references/scenes/scene-70/S70-last3s.mp4"
+        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -6871,7 +6881,7 @@
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "All required image references are saved with source-manifest QC. Current OPEN-WORK-REFS-RELAY-20261027 pass is limited to references and instructions: no video launch. Existing queue state remains blocked; do not automatically clear this launch blocker in this pass.",
+      "blocker": "Await actual S70-WAN30 result, archive original, cut true last3s and pass continuity QC; images cannot replace the video.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
@@ -6971,8 +6981,8 @@
       "scene_id": 67,
       "prompt_id": "S67-WAN30",
       "canonical_block_label": "67",
-      "canonical_prompt_sha256": "3634694f244cadf18d69345839d27a0a28f383208f63d1bbee20dc85db0b838d",
-      "normalized_prompt_sha256": "baf13df80fecaa7b502552a476b123db94a7eecea660a2d2b57e87863cf17bd2",
+      "canonical_prompt_sha256": "e34f954166d139977b9fd1a153c217a00ab18917f36b7db281bc02a2733bb481",
+      "normalized_prompt_sha256": "c89f4d6fe1e3bcf0b524e27fbc4751c6826b072efc49788006f2b24a779468b0",
       "priority": 0.93,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -7041,8 +7051,8 @@
       "scene_id": 68,
       "prompt_id": "S68-WAN30",
       "canonical_block_label": "68",
-      "canonical_prompt_sha256": "a93ffc53f0af992b671a9f948e6e02e92bcbec24927b31ad5ae9e5cef7d05ec0",
-      "normalized_prompt_sha256": "42b14ec5df5e6f46abfc638ffb41f109e1e4415173a306038e330fb7fffbc2e0",
+      "canonical_prompt_sha256": "88f904be3ef1a84e854ae01162f411aa9b49c2ea8bbd0f97a1457ffb126f2f00",
+      "normalized_prompt_sha256": "7915ebcc74d3190c1e4eb6389f1d391889bda488668ab0c13d338319bc9c990e",
       "priority": 0.94,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -7100,6 +7110,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Маша Р: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
         }
       ],
       "task_id": null,
@@ -7118,8 +7136,8 @@
       "scene_id": 69,
       "prompt_id": "S69-WAN30",
       "canonical_block_label": "69",
-      "canonical_prompt_sha256": "92dfb607b6cb89c44c1fb70be6927e1bc18fe25b8ea704ddadd286f2d51d5a25",
-      "normalized_prompt_sha256": "073f20f52f0853e50a1530aa48698fa6435fd1f550e87be9b0313bb31f749e86",
+      "canonical_prompt_sha256": "77ef1690215e5c35cfeccca6f87efbff52a49b9c744cad73730856e3141e7e0a",
+      "normalized_prompt_sha256": "a28de630a675cb926f2fad95b6c2974bc788546c5c8fd201ee26d5603879e084",
       "priority": 0.95,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -7177,6 +7195,22 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: собирает песок и кучу Стича",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Физика последовательной передачи дыни, сумки и метлы; не identity",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
         }
       ],
       "task_id": null,
@@ -7189,7 +7223,8 @@
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
       "created_at": "2026-10-27T20:25:32Z"
-    }
+    },
+    {"id":"S70-WAN30","scene_id":70,"prompt_id":"S70-WAN30","canonical_block_label":"70","canonical_prompt_sha256":"dd773a44c33c9087c088a5518929d91b8f563cd60379ab009247eee552d1a9d2","normalized_prompt_sha256":"d4869f09366d3d22cfaa0df91822132ada5a25889904cb7f94dbe180fee4c0f5","priority":0.96,"state":"blocked_inputs","launch_readiness":"blocked_continuity","model":"Wan 3.0","selected_model":"Wan 3.0","duration_seconds":30,"actual_resolution":720,"prompt_text_resolution":720,"aspect_ratio":"16:9","quantity":1,"mode":"omni_reference","max_new_submissions":1,"max_credits":0,"depends_on_submitted":[],"depends_on_completed":["S69-WAN30"],"references":[{"slot":"@Video1","required":true,"input_status":"pending_actual_result","canonical_role":"previous_chain_link_end","source_item_id":"S69-WAN30","planned_path":"references/scenes/scene-69/S69-last3s.mp4"},{"slot":"@Image1","path":"references/full/serega.jpg","required":true,"input_status":"available","canonical_role":"Exact Serega identity and costume","sha256":"0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"},{"slot":"@Image2","path":"references/scenes/scene-70/S70-cantina-entrance.png","required":true,"input_status":"available","canonical_role":"Open cantina entrance and connected street approach","sha256":"ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9"},{"slot":"@Image3","path":"references/scenes/scene-65/S65-bar-table.png","required":true,"input_status":"available","canonical_role":"Cantina interior and fixed five-person seating; identity sheet wins","sha256":"f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"}],"task_id":null,"claim":null,"blocker":"Await actual S69-WAN30 result, archive original, cut true last3s and pass continuity QC.","board_id":"1a6244cf1ae747ef847d949a80d6133c","board_name":"My First Board","authorization":"Owner28Oct: prepare continuous69→70→65 bridge, Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.","result_review_required":true,"result_review_policy":"Verify continuous real69→street→open doorway→table→65 handoffs, exact identities and prop motion. Success is not acceptance.","created_at":"2026-10-27T23:08:29Z"}
   ],
   "already_submitted": {
     "A1": "fec838b4f63b452c8c76fe50f8e0fdad",
@@ -7383,11 +7418,12 @@
     47,
     63,
     64,
-    65,
     66,
     67,
     68,
     69,
+    70,
+    65,
     49,
     50,
     51,
@@ -8400,78 +8436,9 @@
       "scene_id": 59,
       "prompt_id": "S59-SEED20-P1",
       "canonical_block_label": "59 · Seedance 2.0 часть 1",
-      "priority": 0.5,
       "state": "cancelled_owner_replaced_by_existing_video",
-      "launch_readiness": "not_selected_owner_supplied_P1",
-      "model": "Seedance 2.0",
-      "selected_model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 0,
-      "max_credits": 0,
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "canonical_role": "Серёга — лицо и одежда",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
-          "canonical_role": "Кашиик: посадочная поляна; synthetic location helper; actual continuity video wins",
-          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
-          "canonical_role": "кабина — только геометрия",
-          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
-          "canonical_role": "Космос: корабль и Кашиик; synthetic location helper; actual continuity video wins",
-          "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
-          "canonical_role": "лес — только окружение, без персонажей",
-          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
       "canonical_prompt_sha256": "8a63b85e08d677577fc99a88545964bd1b9a3356e61aaad7ed88777c9b514d1d",
-      "normalized_prompt_sha256": "97c47db6426aaeae27a2ac78247a4d1c7651d057bdaa00ff93fd612770352571",
-      "task_id": null,
-      "claim": null,
-      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "blocker": "Do not regenerate: owner supplied existing Part1.",
-      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
-      "cancelled_at": "2026-10-23T21:04:37.842561Z",
-      "replacement": {
-        "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
-        "source_sha256": "82870299533d01246ba3ae308184e16b2008aff24002bc2a89a4db34d9c550c5",
-        "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json"
-      }
+      "normalized_prompt_sha256": "97c47db6426aaeae27a2ac78247a4d1c7651d057bdaa00ff93fd612770352571"
     }
   ],
   "archived_items_file": "archive/ops/topview-launch-queue-archive.json",

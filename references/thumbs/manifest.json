@@ -3009,9 +3009,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2660163,
-   "thumb_bytes": 64364,
-   "src_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
+   "src_bytes": 2649311,
+   "thumb_bytes": 63184,
+   "src_sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201"
   },
   "references/scenes/scene-69/S69-melon-bag-handoff.png": {
    "thumb": "references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp",
@@ -3022,6 +3022,16 @@
    "src_bytes": 2718142,
    "thumb_bytes": 66102,
    "src_sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
+  },
+  "references/scenes/scene-70/S70-cantina-entrance.png": {
+   "thumb": "references/thumbs/scenes/scene-70/S70-cantina-entrance.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2322750,
+   "thumb_bytes": 53110,
+   "src_sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9"
   },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",

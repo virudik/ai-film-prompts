@@ -3,9 +3,9 @@
   "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
   "project": "seregius",
   "status": "in_progress",
-  "stage": "references_and_story_in_progress",
+  "stage": "verified_locally_pending_publication",
   "created_at": "2026-10-27T22:51:23Z",
-  "checked_at": "2026-10-27T23:02:05Z",
+  "checked_at": "2026-10-27T23:13:11Z",
   "source_head": "0aceff850d88ee34670e486b9ccf733c3dc1fc1a",
   "owner_request": "в сцене 68 «Жилищник» бестолково гоняет песок и обметает кучу стороной, а в сцене 69 (раз маша уже с дыней в руках) Маша отдаёт дворнику дыню и сумку, отнимает метлу и убирает всё в совок. Так даже лучше. В лазерный совок добавь и сделай референсные картинки этих действий. Реф картинки кучи нужны? Другие какие-нибудь рефы нужны? Добавить связную бесшовную сцену пролета камеры от сцены 69 к сцене 65 где Серёга в кантине выпивает с боба цветом и компанией",
   "owner_request_provenance": "Exact direct owner message supplied by the root chat; spelling retained verbatim",
@@ -32,7 +32,8 @@
       51,
       28
     ],
-    "video_launches_in_this_work": false
+    "video_launches_in_this_work": false,
+    "actual_output_count": 5
   },
   "planned_outputs": [
     {
@@ -69,20 +70,20 @@
       "path": "references/scenes/scene-69/S69-masha-masterclass.png",
       "operation": "update",
       "purpose": "Маша метёт в лазерный совок; одна дыня и одна сумка у бригадира",
-      "status": "planned",
+      "status": "generated_qc_passed_pending_final_publication",
       "before_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
-      "result_sha256": null,
-      "generated_at": null,
+      "result_sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+      "generated_at": "2026-10-27T23:08:17Z",
       "published_commit": null
     },
     {
       "path": "references/scenes/scene-70/S70-cantina-entrance.png",
       "operation": "create",
       "purpose": "География открытого входа в кантину и непрерывный путь камеры к столу65",
-      "status": "planned",
+      "status": "generated_qc_passed_pending_final_publication",
       "before_sha256": null,
-      "result_sha256": null,
-      "generated_at": null,
+      "result_sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+      "generated_at": "2026-10-27T23:08:31Z",
       "published_commit": null
     }
   ],
@@ -313,25 +314,127 @@
       "visual_qc": "Root visually inspected the actual generated frame: exactly Masha and the same three workers; Masha has no bag or strap and takes one broom with both hands; foreman supports one bruised blue melon in his RIGHT hand with one satchel hanging from his RIGHT forearm, and releases the broom with his LEFT hand. Generator mirrored the requested foreman hand assignment; canonical video prompts are adapted to the actual reference, since the owner did not prescribe left/right. Anatomy and ownership read clearly. Purple worker parks his broom and picks up the dustpan; this helper defines the transfer pose, while the dedicated dustpan reference governs tool geometry. Single original small pile remains on the ground, no cleanup yet.",
       "thumbnail": "references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp",
       "usage": "action_pose_reference"
+    },
+    {
+      "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2649311,
+      "caption": "Маша убирает кучку и песок в лазерный совок; покупки держит бригадир",
+      "checked_at": "2026-10-27T23:08:17Z",
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "actual_ratio": "1672:941",
+        "matches_16_9": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      },
+      "qc": "usable_for_assigned_role",
+      "owner_approval": "not_recorded",
+      "integration_stage": "full",
+      "persistence_state": "local_worktree_only_uncommitted",
+      "publication_status": "pending_readback",
+      "prompt_file": "references/scenes/scene-69/S69-masha-masterclass.image-prompt.txt",
+      "prompt_sha256": "079dbc7bae5c4aeb6cdc184b0623b2273cf4968a21f98ab50af178e393c88a70",
+      "source_output_name": "exec-ff59b91e-aad0-4e53-ad46-f4f7555d6919.png",
+      "source_output_sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+          "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
+        },
+        {
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
+        }
+      ],
+      "visual_qc": "Root visually inspected: same Masha and three workers; Masha has no bag or melon and grips one broom with both hands. Foreman supports one bruised pale-blue melon with both hands; one bag hangs from his right forearm. Purple worker steadies the cyan open-front dustpan with both hands on its rim; his broom is parked. Sand and the single small dark clump are at the collecting lip during the sweeping action, with cleared ground behind. New image uses a rim grip rather than the requested handle grip; video wording permits a physically valid two-handed hold, and the dedicated prop reference governs geometry. Exact green worker vest text retained. This remains a gallery composition helper, not an extra prompt input.",
+      "thumbnail": "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
+      "usage": "pose_composition_helper_only_not_prompt_input",
+      "previous_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
+    },
+    {
+      "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+      "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2322750,
+      "caption": "Открытый вход в кантину: непрерывный путь камеры к столу Серёги",
+      "checked_at": "2026-10-27T23:08:31Z",
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "actual_ratio": "1672:941",
+        "matches_16_9": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      },
+      "qc": "usable_for_assigned_role",
+      "owner_approval": "not_recorded",
+      "integration_stage": "full",
+      "persistence_state": "local_worktree_only_uncommitted",
+      "publication_status": "pending_readback",
+      "prompt_file": "references/scenes/scene-70/S70-cantina-entrance.image-prompt.txt",
+      "prompt_sha256": "72dcab34849b3822c4cdb9c469b8e8a7be52335fd68c43be50cf791c0f9ace20",
+      "source_output_name": "exec-e637c6e0-d46f-4137-ae67-ad6245961bff.png",
+      "source_output_sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
+        },
+        {
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        },
+        {
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        }
+      ],
+      "visual_qc": "Root visually inspected the generated PNG: broad fully open sandstone arch, clear street-to-interior threshold, warm daylight to amber lantern transition, a plausible eye-level camera path to the round table. Exactly five foreground seated principals in order Boba Fett with helmet, Gamorrean, Serega in purple robe, blue male Twilek, IG-11. No replacement actors, no raised toast. Individual Serega sheet controls identity; this image supplies geometry and seating, while actual video and prompts control mug/oil-can timing. Stools are below the camera route; no wall crossing is required.",
+      "thumbnail": "references/thumbs/scenes/scene-70/S70-cantina-entrance.png.webp",
+      "usage": "location_and_staging_reference"
     }
   ],
   "published_assets": [],
-  "pending_assets": [
-    "references/scenes/scene-69/S69-masha-masterclass.png",
-    "references/scenes/scene-70/S70-cantina-entrance.png"
-  ],
+  "pending_assets": [],
   "video_launches": 0,
-  "queue_items_added": 0,
+  "queue_items_added": 1,
   "paid_actions": 0,
   "owner_approvals_added": 0,
   "publication": {
-    "status": "not_started",
+    "status": "pending_content_commit",
     "content_commit": null,
     "public_readback_verified": false
   },
   "progress": {
-    "last_completed": "Созданы и визуально проверены 3/5 новых или обновлённых изображений; оригинальные PNG и промпты сохранены. Видео не запускались.",
-    "next_action": "Завершить оставшиеся референсы и согласовать67–70/65, проверить очередь и опубликованный сайт. Реальные видео и QC стыков остаются обязательны перед запуском.",
+    "last_completed": "Готовы все5изображений; исправлены67–69, добавлена70 и продолжение65. Очередь69→70→65 — Wan3/30с перед музыкой/танцами; 348тестов и113проверок пройдены.",
+    "next_action": "Опубликовать готовый набор и проверить точные публичные файлы/Actions; затем завершить работу и вернуть фокус общему плану. Видео не запускались; реальные стыки/QC обязательны.",
     "blockers": []
   },
   "asset_history": [
@@ -391,6 +494,231 @@
         "usage": "pose_composition_helper_only_not_prompt_input"
       },
       "reason": "Owner-requested Tatooine prop/action continuity update"
+    },
+    {
+      "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "previous_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+      "replacement_sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+      "replaced_at": "2026-10-27T23:08:17Z",
+      "previous_bytes": 2660163,
+      "previous_prompt_sha256": "4e91b1e5550d6cb2827e003fbda93843b97545f5d90fda594f1673ce74dd49b4",
+      "previous_manifest_entry": {
+        "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+        "asset_id": "references/scenes/scene-69/S69-masha-masterclass.png",
+        "caption": "Маша показывает дворникам, как мести световой метлой",
+        "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 2660163,
+        "role": "Маша показывает дворникам, как мести световой метлой",
+        "media_type": "image",
+        "status": "available",
+        "owner_approval": "not_recorded",
+        "generation_method": "ChatGPT imagegen (open Work)",
+        "project_id": "seregius",
+        "created_at": "2026-10-27T21:28:17+00:00",
+        "assistant_qc": {
+          "status": "usable_for_assigned_role",
+          "checked_at": "2026-10-27T21:28:17+00:00",
+          "scope": "Root visually inspected Masha likeness/hair/costume against her sheet, confident sweeping into the purple alien dustpan, matching original crew and broom, foreman holding the only satchel, readable exact two-line Cyrillic on green alien vest. Targeted refinement removed duplicate bag and exposed green vest back. Technical QC is not editorial approval."
+        },
+        "site_published": {
+          "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+          "linked_in_master": true,
+          "git_present": true
+        },
+        "prompt_file": "references/scenes/scene-69/S69-masha-masterclass.image-prompt.txt",
+        "reference_inputs": [
+          {
+            "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+            "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+          },
+          {
+            "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+            "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+          },
+          {
+            "path": "references/scenes/scene-68/S68-light-broom.png",
+            "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d"
+          },
+          {
+            "path": "references/scenes/scene-66/S66-street-outrage.png",
+            "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
+          }
+        ],
+        "usage": "pose_composition_helper_only_not_prompt_input"
+      },
+      "reason": "Owner-requested Tatooine prop/action continuity update"
     }
-  ]
+  ],
+  "canonical_integration": {
+    "changed_prompt_labels": [
+      "65",
+      "65 · Seedance 2.0 часть 1",
+      "65 · Seedance 2.0 часть 2",
+      "67",
+      "67 · Seedance 2.0 часть 2",
+      "68",
+      "68 · Seedance 2.0 часть 1",
+      "68 · Seedance 2.0 часть 2",
+      "69",
+      "69 · Seedance 2.0 часть 1",
+      "69 · Seedance 2.0 часть 2",
+      "70",
+      "70 · Seedance 2.0 часть 1",
+      "70 · Seedance 2.0 часть 2"
+    ],
+    "scene_count": 27,
+    "prompt_count": 128,
+    "queue_bytes": 398799,
+    "queue_headroom": 1201,
+    "pending_assets": [],
+    "capacity": {
+      "changed": true,
+      "target": "S59-SEED20-P1",
+      "saved_bytes": 3483,
+      "queue_bytes_after": 395190,
+      "headroom_to_400000": 4810,
+      "invariants": {
+        "all_live_items_exactly_unchanged": true,
+        "full_cancelled_record_preserved": true,
+        "canonical_stub_keys_only": true,
+        "all_stub_ids_and_order_unchanged": true,
+        "other_history_unchanged": true,
+        "no_age_or_terminal_gate_relaxed": true,
+        "no_states_claims_tasks_or_approvals_changed": true
+      }
+    },
+    "invariants": {
+      "only_allowed_files": true,
+      "all_existing_live_ids_and_relative_order_retained": true,
+      "unrelated_live_items_exactly_unchanged": true,
+      "task_ids_claims_states_approvals_unchanged": true,
+      "real_video_inputs_pending_no_invented_video_sha": true,
+      "same_melon_bag_67_68_69": true,
+      "pile_untouched68_collected69": true,
+      "ready_skip_preserved": true,
+      "no_video_launch_or_credit_permission": true,
+      "new70_has_three_autonomous_blocks": true,
+      "queue_under_400000": true,
+      "idempotent_second_pass": true
+    },
+    "mode": "apply",
+    "files": [
+      {
+        "path": "references/scenes/scene-65/manifest.json",
+        "before_sha256": "00136b39d9d57ade395243305823cbab651dd1eca4878356dc421841a1449ab6",
+        "after_sha256": "78e16f541cb3d72828227fcb1d308a528267c7b132a3b8ba702c41bbedcca1ab",
+        "added_lines": 27,
+        "removed_lines": 11
+      },
+      {
+        "path": "references/scenes/scene-67/manifest.json",
+        "before_sha256": "94a05c4587a7a156cdb9ca2659bde72ecda4deb9a2c374f300e622ab7e75e045",
+        "after_sha256": "da2f5884fe0e00872680983845ef991644315954170e2a31f94e25e23c81de17",
+        "added_lines": 7,
+        "removed_lines": 7
+      },
+      {
+        "path": "references/scenes/scene-68/manifest.json",
+        "before_sha256": "3ff1fca9bba6b41ce6355257ca2a80fcd63e63a557262e4f6c30381fe2903549",
+        "after_sha256": "ade614e1b62fa3b05a7625442fe04728bb0067388eaeb6b599ca0f480a0e371a",
+        "added_lines": 36,
+        "removed_lines": 11
+      },
+      {
+        "path": "references/scenes/scene-69/manifest.json",
+        "before_sha256": "d6e3cb8cef82128eb0349fe85431b416d7cb784938ba870683b5e5a3014ed621",
+        "after_sha256": "7fc42fa5087bd383e141d71a5be32436e253ae1c2b6b899354d53a9fa0b83f82",
+        "added_lines": 58,
+        "removed_lines": 10
+      },
+      {
+        "path": "references/scenes/scene-70/manifest.json",
+        "before_sha256": null,
+        "after_sha256": "02819e0d1ee6f0f4db6960d2fbb373144839a88151c8e29bf1be8527cded7cb7",
+        "added_lines": 142,
+        "removed_lines": 0
+      },
+      {
+        "path": "NEW-CHAT-HANDOFF.md",
+        "before_sha256": "eabff782b481321328ce624b67c73f7f0d9d2090f9ca9bae55a9d11cf8adc6e5",
+        "after_sha256": "0f1d02eff9b071b96c6db8369fae32120aa5079f4ed6708384b01121db093b2f",
+        "added_lines": 1,
+        "removed_lines": 0
+      },
+      {
+        "path": "video-prompts.md",
+        "before_sha256": "1304a156be3cda41319dffef86eeb834026acc218eb0c523551816c38c4c3be9",
+        "after_sha256": "25a6f308af0a34ac17c6bc55aa7b0b051d46ecb89e645f81f6027cc8d9a0c3fe",
+        "added_lines": 353,
+        "removed_lines": 201
+      },
+      {
+        "path": "archive/ops/topview-launch-queue-archive.json",
+        "before_sha256": "6df68fafcd596dce3c4f7d5455f4b5387eb1053433fa14a414c0b31346ec4c4d",
+        "after_sha256": "b51d1d00afe7f5999e95daa4f9e950036e461ad768b9f6e400502c9a77cc7ca6",
+        "added_lines": 78,
+        "removed_lines": 0
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "before_sha256": "3e633c1fbc1894a7e7e9db6bc99941cf77e9a976034fefb7d46276fe26a53f7e",
+        "after_sha256": "090df3e44e4e1fb72b0519c8f3e344ab7dc96e6b13d6c0d6dc0e52247ae4ebe6",
+        "added_lines": 53,
+        "removed_lines": 86
+      }
+    ]
+  },
+  "generation_notes": [
+    "Five final PNG outputs: three new assets and two requested updates; actual image bytes are preserved.",
+    "An initial handoff request was rejected by the tool argument limit of five reference paths, before generation; rerun with five actual sources.",
+    "The first entrance call was interrupted during a runtime reset and yielded no recoverable output; one retry produced the inspected final entrance.",
+    "The handoff reference mirrored the foreman hand assignment; video prompts match the actual right-forearm/right-palm bag-and-melon arrangement.",
+    "The cleanup helper uses a two-handed rim grip; video prompts permit a physically valid two-handed dustpan hold and use the dedicated prop design."
+  ],
+  "reference_sufficiency": {
+    "separate_pile_reference_needed": false,
+    "reason": "Original pile is visible in68 and retained in the new setup/action images; exact position and removal are bound by actual previous videos and prompts.",
+    "new_character_sheets_needed": false,
+    "existing_identity_references_reused": true
+  },
+  "verified_asset_commits": [
+    {
+      "commit": "5b1fe4b59db021a26980128bc62289983da2f770",
+      "assets": [
+        "references/scenes/scene-69/S69-light-dustpan.png"
+      ],
+      "readback": "exact Git blob match"
+    },
+    {
+      "commit": "d6322722f0228489dc2c3d4f06c22d26997ffc11",
+      "assets": [
+        "references/scenes/scene-68/S68-crew-sweeping-street.png",
+        "references/scenes/scene-69/S69-melon-bag-handoff.png"
+      ],
+      "readback": "exact Git blob match and local byte comparison"
+    }
+  ],
+  "validation": {
+    "full_unit_suite": {
+      "passed": 348,
+      "failed": 0,
+      "duration_seconds": 45.842
+    },
+    "task_invariants": {
+      "passed": 113,
+      "failed": 0,
+      "source": "/tmp/tatooine_props_verify.py"
+    },
+    "site_contract": "passed",
+    "instruction_consistency": "passed",
+    "master_health": "ok",
+    "queue_bytes": 398799,
+    "scene_count": 27,
+    "prompt_count": 128,
+    "video_qc": "pending_real_results_not_claimed"
+  }
 }

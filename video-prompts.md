@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**26 сцен к генерации/доработке · 125 полных текстов промта**
+**27 сцен к генерации/доработке · 128 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 8** сцен сейчас в медленной генерации: **16, 28, 42, 48, 52, 56, 57, 58** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 69 — Татуин: девушка отнимает метлу и показывает «Жилищнику», как надо. 27.10 владелец добавил 64–69 (коридор разрушителя, бар с Бобой Феттом, девочки с инопланетной собакой, рынок, «ГБУ Жилищник района Татуина» со световыми мётлами): DRAFT, изображения сохранены;66–69 ждут настоящие видеостыки и QC,64–65 — полный preflight; в очереди после63, до музыкальных и танцевальных номеров49–51/28 (владелец 27.10); связка 52 ч.7 → 66 → 67 → 68 → 69 бесшовная. Прежняя запись: 63 — заброшенный храм со статуями с лицом и одеждой Серёги;3 новых референса,30с и2×15с. В очереди63 →49 →50 →51 → все танцы28 после действующего сюжетного блока. Неудачные старые танцы не считаются выполненными.
+- **Последняя оформленная активная сцена:** 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **27.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **27.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **26 актуальных сцен и 125 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **27.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 128 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -78,11 +78,12 @@
 | 62 | [Татуин: после погони — обратно к противостоянию](#scene-62) | Настоящий конец первого видео, начало второго как целевой финал; Серёга, Артём, Илюша, красная машина | Подъём после падения, остановка машины и возвращение Серёги, точная расстановка перед вторым роликом. P1 готова; P2 после собственной P1. |
 | 63 | [Храм ситхов: великие люди все на одно лицо](#scene-63) | Серёга, галерея собственных каменных статуй, портрет, тронный зал | Проходит по залам и искренне восхищается.30с Wan3.0, входы готовы; альтернативные2×15с. |
 | 64 | [Звёздный разрушитель: Серёга пританцовывает по коридору](#scene-64) | Серёга; коридор разрушителя; офицеры у стены | Серёга в прекрасном настроении пританцовывая идёт по коридору; имперские офицеры жмутся к стенам и провожают его странным, но испуганным взглядом. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; перед запуском — полный preflight. |
-| 65 | [Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией](#scene-65) | Серёга; кантина (S10); стол с Бобой Феттом, гаморреанцем, тви'леком и IG-11 | Серёга молча пьёт с Бобой Феттом, гаморреанцем и тви'леком-наёмником; IG-11 вместо выпивки капает на себя из маслёнки. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; перед запуском — полный preflight. |
+| 65 | [Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией](#scene-65) | настоящий конец70; Серёга; кантина; стол и компания | Продолжает подлёт70 к столику: молчаливый тост, маслёнка IG-11. Wan3.0,30с; после70, до49–51/28. Ждёт настоящий конец70 и QC; DRAFT. |
 | 66 | [Татуин: две девочки и инопланетная собака](#scene-66) | конец 52 ч.7; Алина и Даша (развёртки сохранены); инопланетная собака; улица; прилавок 67 | Продолжение 52 ч.7: собака садится какать посреди улицы, прохожие возмущаются, а девочки как ни в чём не бывало идут дальше — к прилавку 67. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; ждёт настоящий конец 52 ч.7 (Wan3.0) и QC. |
 | 67 | [Татуин: девушка яростно ругается с продавцом фруктов](#scene-67) | конец 66; Маша Р (развёртка сохранена); прилавок; четырёхрукий продавец | Продолжение 66: девушка на рынке Татуина очень бурно ругается с четырёхруким продавцом из-за цены. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; ждёт настоящий конец 66 и QC. |
 | 68 | [Татуин: «ГБУ Жилищник района Татуина» метёт улицу световыми мётлами](#scene-68) | конец 67; бригада в форме «ГБУ Жилищник района Татуина»; световая метла; та же улица; Маша Р | Продолжение 67: трое инопланетян в форме «ГБУ Жилищник района Татуина» бестолково метут песок световыми мётлами; в конце их замечает девушка из 67. Владелец 27.10; в очереди после 67, до танцев; изображения готовы; ждёт настоящий конец 67 и QC. |
-| 69 | [Татуин: девушка отнимает метлу и показывает «Жилищнику», как надо](#scene-69) | конец 68; Маша Р; бригада «Жилищника»; световая метла; та же улица | Продолжение 68: девушка подлетает к бригаде, орёт, что метут неправильно, отнимает метлу и показывает, как надо. Владелец 27.10; в очереди после 67, до танцев; изображения готовы; ждёт настоящий конец 68 и QC. |
+| 69 | [Татуин: Маша показывает «Жилищнику», как надо мести](#scene-69) | конец68; Маша; бригада; световая метла; улица; лазерный совок; передача дыни и сумки | Маша передаёт бригадиру дыню и сумку, берёт метлу, собирает песок и кучу Стича в лазерный совок, возвращает метлу и забирает покупки. Финал→70. Wan3.0,30с; ждёт настоящий конец68 и QC; DRAFT. |
+| 70 | [Татуин: пролёт с улицы к столику Серёги в кантине](#scene-70) | настоящий конец69; Серёга; вход кантины; стол65 | Один непрерывный пролёт улица→открытая дверь→стол; бармен опускает кружку, IG-11 достаёт маслёнку,65 продолжает. Wan3.0,30с; после69 и перед65. Ждёт настоящий конец69 и QC; DRAFT. |
 
 ---
 
@@ -7417,15 +7418,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-65"></a>
 ## Сцена 65 — Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":70}],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested"]} -->
 
-**Контекст использования:** владелец 27.10.2026. Татуинская кантина. Место в фильме решает владелец (предложение — после связки 52→66→67, Серёга уходил к арке).
+**Контекст использования:** владелец 28.10.2026. Финал связки 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65: камера из улицы непрерывным пролётом70 приходит к столику Серёги;65 продолжает настоящий конец70. Тост и маслёнка начинаются здесь, без повторного входа в кантину.
 
 **Что происходит:** Серёга сидит за круглым столом в татуинской кантине с Бобой Феттом, гаморреанцем, наёмником-тви'леком и дроидом IG-11. Бармен ставит кружки. Серёга не говорит ни слова: молча поднимает кружку на пару сантиметров, все чокаются. Гаморреанец осушает кружку залпом и грохает ею по столу. Боба Фетт чуть приподнимает низ шлема и пьёт, не показывая лица. IG-11 достаёт маленькую маслёнку и с довольным жужжанием капает маслом себе на локоть и шейный шарнир. Тви'лек смеётся и хлопает Серёгу по плечу. Серёга невозмутимо допивает и молча показывает бармену два пальца — ещё раунд. Гаморреанец с любопытством нюхает маслёнку, IG-11 отодвигает её.
 
-**Готовность:** DRAFT. Все обязательные изображения сохранены; технический QC референсов подтверждён манифестами. Главная версия — Wan 3.0 (30 с), по выбору владельца. В существующей очереди — после 63, до музыкальных и танцевальных номеров 49–51 и 28. Текущий проход OPEN-WORK-REFS-RELAY-20261027 ограничен референсами и инструкциями: видео не запускать. Исходное состояние очереди blocked_inputs сохранено; автоматически снимать блокер запуска в этом проходе нельзя. Художественное одобрение не выставлено.
+**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата70 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
-**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11).
+**Референсы:** @Video1 — последние3с настоящего70 (`references/scenes/scene-70/S70-last3s.mp4`); @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост и маслёнка IG-11).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/serega.jpg.webp" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
@@ -7442,13 +7443,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+**Входы:** @Video1 — последние3с настоящего70 (`references/scenes/scene-70/S70-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of scene 70 (S70-WAN30). File: references/scenes/scene-70/S70-last3s.mp4. Absolute authority for the exact starting frame, camera, lighting, positions and ongoing gestures. Continue that real approach and action seamlessly; no restart or replay.
 @Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
 @Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
 @Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
@@ -7466,10 +7468,10 @@ LOCATION / STORY LOCK — CRITICAL:
 One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; the bartender only brings mugs. Friendly drinking, no fight, no blasters drawn. Serega says NOTHING the whole scene. Boba Fett never removes the helmet. IG-11 never drinks: it only drips oil from its oil can onto its own joints.
 
 START STATE:
-The five already sit at the round table; the bartender is setting down the last mug in front of Serega; IG-11 is pulling a small oil can from its bandolier.
+Continue the exact last frame of @Video1 (scene 70), preserving the arriving camera, fixed seating and every hand/prop position. Expected handoff, subordinate to the actual video: the five are already seated; the bartender is lowering the last mug in front of Serega, and IG-11 has begun drawing its small oil can from its bandolier. Finish these ongoing actions without repeating the approach or delivery.
 
 TIMELINE:
-[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; the Gamorrean grabs his immediately; IG-11 sets its small oil can on the table instead of a mug.
+[0:00–0:05] FINISH THE ARRIVAL — Continue the real camera move from scene 70 toward the same table, with no new establishing approach. The bartender finishes lowering the last mug already in motion; the Gamorrean takes his own mug, and IG-11 completes drawing its small oil can and sets it down instead of a mug.
 [0:05–0:10] SILENT TOAST — Medium on Serega: without a word he lifts his mug a couple of centimetres and gives one small nod. Cut on motion to the over-table view: four mugs and the oil can clink in the centre, foam splashes.
 [0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 tilts the oil can and drips oil onto its own elbow and neck joints, servos whirring contentedly, head ring blinking.
 [0:16–0:23] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega, still silent, finishes his drink in one steady deadpan motion; the Gamorrean bangs the table again, roaring with laughter.
@@ -7479,7 +7481,7 @@ END STATE:
 Serega silently signals for another round; IG-11 keeps its oil can out of the Gamorrean's reach; the company is relaxed and amused.
 
 CAMERA / SPACE:
-Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap.
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Continue scene 70's arriving lens and camera direction through the first three seconds, then use medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap.
 
 PERFORMANCE:
 Serega: completely silent, calm, deadpan; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise, mechanical, quietly pleased with its oil. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
@@ -7505,13 +7507,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 65 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+**Входы:** @Video1 — последние3с настоящего70 (`references/scenes/scene-70/S70-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of scene 70 (S70-WAN30). File: references/scenes/scene-70/S70-last3s.mp4. Absolute authority for the exact starting frame, camera, lighting, positions and ongoing gestures. Continue that real approach and action seamlessly; no restart or replay.
 @Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
 @Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
 @Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
@@ -7529,18 +7532,18 @@ LOCATION / STORY LOCK — CRITICAL:
 One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; the bartender only brings mugs. Friendly drinking, no fight, no blasters drawn. Serega says NOTHING the whole scene. Boba Fett never removes the helmet. IG-11 never drinks: it only drips oil from its oil can onto its own joints.
 
 START STATE:
-The five already sit at the round table; the bartender is setting down the last mug in front of Serega; IG-11 is pulling a small oil can from its bandolier.
+Continue the exact last frame of @Video1 (scene 70), preserving the arriving camera, fixed seating and every hand/prop position. Expected handoff, subordinate to the actual video: the five are already seated; the bartender is lowering the last mug in front of Serega, and IG-11 has begun drawing its small oil can from its bandolier. Finish these ongoing actions without repeating the approach or delivery.
 
 TIMELINE:
-[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; the Gamorrean grabs his immediately; IG-11 sets its small oil can on the table instead of a mug.
+[0:00–0:05] FINISH THE ARRIVAL — Continue the real camera move from scene 70 toward the same table, with no new establishing approach. The bartender finishes lowering the last mug already in motion; the Gamorrean takes his own mug, and IG-11 completes drawing its small oil can and sets it down instead of a mug.
 [0:05–0:10] SILENT TOAST — Medium on Serega: without a word he lifts his mug a couple of centimetres and gives one small nod. Cut on motion to the over-table view: four mugs and the oil can clink in the centre, foam splashes.
-[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 tilts the oil can and drips oil onto its own elbow and neck joints, servos whirring contentedly, head ring blinking.
+[0:10–0:15] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 starts tilting its oil can toward its elbow, servos humming; continue this unfinished motion into Part 2.
 
 END STATE:
 Mugs and the oil can just clinked over the table centre; the Gamorrean has slammed his empty mug down; IG-11 starts tilting the oil can toward its elbow. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
 
 CAMERA / SPACE:
-Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, a close insert of oil dripping on the droid joint and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap. Execute only the beats of this part.
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Continue scene 70's arriving lens and camera direction through the first three seconds, then use medium singles with readable faces, an over-table toast angle, a close insert of the oil can beginning to tilt toward the droid's elbow and a wider closing shot. Cut on gestures: lift, clink, slam, drip, slap. Execute only the beats of this part.
 
 PERFORMANCE:
 Serega: completely silent, calm, deadpan; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise, mechanical, quietly pleased with its oil. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
@@ -7588,7 +7591,7 @@ START STATE:
 Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Mugs and the oil can just clinked over the table centre; the Gamorrean has slammed his empty mug down; IG-11 starts tilting the oil can toward its elbow.
 
 TIMELINE:
-[0:00–0:07] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega, still silent, finishes his drink in one steady deadpan motion; the Gamorrean bangs the table again, roaring with laughter.
+[0:00–0:07] COMPANY — Continuing the actual incoming gesture, IG-11 drips oil onto its elbow and neck joints with a pleased servo whirr; the Twi'lek laughs and slaps Serega on the shoulder; Serega, still silent, finishes his drink in one steady deadpan motion; the Gamorrean bangs the table again, roaring with laughter.
 [0:07–0:15] ANOTHER ROUND — Wider shot: Serega silently raises two fingers toward the bar without looking; Boba Fett gives one slow approving nod; the Gamorrean leans over and curiously sniffs IG-11's oil can, and IG-11 calmly slides it out of his reach. Cantina life continues behind.
 
 END STATE:
@@ -7825,13 +7828,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":66}],"tags":["tatooine","market","visual_comedy","dialogue_ru","owner_requested","chain_52_66_67"]} -->
 
-**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с сцены 66, где камера остановилась на прилавке. Маша Р — по индивидуальной татуинской развёртке, созданной по фото владельца.
+**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65, бесшовно:** начинается с настоящих последних 3 с сцены 66, где камера остановилась на прилавке. Маша Р — по индивидуальной татуинской развёртке, созданной по фото владельца.
 
-**Что происходит:** Девушка у прилавка с инопланетными фруктами держит голубую дыню. Четырёхрукий продавец называет цену, показывая пальцы на всех руках. Девушка взрывается: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» и грохает дыню на прилавок. Начинается настоящий скандал: продавец орёт на своём языке и лупит по весам, она тычет в помятый бок дыни: «Они же мятые! Ты сам посмотри!», оба кричат друг на друга нос к носу, прохожие останавливаются поглазеть. Девушка хватает сумку: «Всё, к соседу пойду!» — продавец двумя руками закидывает ей в сумку лишние фрукты, двумя другими умоляет остаться. Она швыряет на прилавок меньше монет: «И то много!» — и уходит, продолжая ругаться через плечо; продавец орёт ей вслед, потом расплывается в улыбке перед следующим покупателем.
+**Что происходит:** Девушка у прилавка с инопланетными фруктами держит голубую дыню. Четырёхрукий продавец называет цену, показывая пальцы на всех руках. Девушка взрывается: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» и грохает дыню на прилавок. Начинается настоящий скандал: продавец орёт на своём языке и лупит по весам, она тычет в помятый бок дыни: «Они же мятые! Ты сам посмотри!», оба кричат друг на друга нос к носу, прохожие останавливаются поглазеть. Девушка хватает сумку: «Всё, к соседу пойду!» — продавец двумя руками закидывает ей в сумку лишние фрукты, двумя другими умоляет остаться. Она швыряет на прилавок меньше монет: «И то много!» — забирает ту же голубую ребристую дыню с прилавка, поддерживает её у корпуса одной рукой, надевает длинную лямку сумки на левое плечо и уходит, продолжая ругаться через плечо; продавец орёт ей вслед, потом расплывается в улыбке перед следующим покупателем.
 
 **Реплика:** «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» · «Они же мятые! Ты сам посмотри!» · «Всё, к соседу пойду!» · «И то много!» — девушка, на русском; продавец отвечает на инопланетном языке.
 
-**Готовность:** DRAFT. Промпты и доступные референсы сохранены. Главная версия — Wan 3.0 (30 с). Запуск ждёт настоящие последние 3 с результата 66 и проверку стыка. Все обязательные изображения доступны; синтетические кадры не заменяют ожидаемый видеостык. Порядок существующей цепочки 52 ч.7 → 66 → 67 → 68 → 69 сохранён, до музыкальных и танцевальных номеров 49–51 и 28. Художественное одобрение не выставлено.
+**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата66 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
 **Референсы:** @Video1 — последние 3 с 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р: развёртка в одежде Татуина); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами).
 
@@ -7878,10 +7881,10 @@ TIMELINE:
 [0:04–0:09] EXPLOSION — Medium on her: she shouts in Russian, furious: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slams the melon onto the counter so the fruit bounces.
 [0:09–0:15] SHOUTING MATCH — Fast shot/reverse cuts on every line: the vendor yells back in an alien language, bangs the scale with one hand and waves the other three; she jabs at the bruised melon: «Они же мятые! Ты сам посмотри!»; both lean across the counter nose to nose, shouting over each other; passers-by stop to stare.
 [0:15–0:22] THE WALK-OUT BLUFF — She grabs her bag: «Всё, к соседу пойду!»; the vendor panics, two hands throwing extra spiky orange pods into her bag, two hands pleading.
-[0:22–0:30] STILL FURIOUS — She slaps down fewer coins than he wanted: «И то много!», snatches the bag and marches off still yelling over her shoulder; the vendor shouts after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
+[0:22–0:30] STILL FURIOUS — She slaps down fewer coins than he wanted: «И то много!», takes the SAME pale-blue ribbed melon from the counter, cradles it in one arm and puts the shopping bag's long strap over her left shoulder, then marches off still yelling over her shoulder; the vendor shouts after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
 
 END STATE:
-She marches off still yelling over her shoulder with her bag; the vendor greets the next shopper with a wide smile. Scene 68 continues from this exact frame.
+She marches off still yelling over her shoulder, carrying the same pale-blue ribbed melon in one arm and her shopping bag by its long strap on her left shoulder; the vendor greets the next shopper with a wide smile. She carries both through scene 68 and into scene 69. Scene 68 continues from this exact frame.
 
 CAMERA / SPACE:
 Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, punchy medium singles, very fast shot/reverse during the argument (a cut on every shout) and a wider exit shot. Cut on slaps, gestures and the toss.
@@ -7987,10 +7990,10 @@ Begin on the exact final frame of @Video1 and continue its motion with no replay
 
 TIMELINE:
 [0:00–0:07] THE WALK-OUT BLUFF — She grabs her bag: «Всё, к соседу пойду!»; the vendor panics, two hands throwing extra spiky orange pods into her bag, two hands pleading.
-[0:07–0:15] STILL FURIOUS — She slaps down fewer coins than he wanted: «И то много!», snatches the bag and marches off still yelling over her shoulder; the vendor shouts after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
+[0:07–0:15] STILL FURIOUS — She slaps down fewer coins than he wanted: «И то много!», takes the SAME pale-blue ribbed melon from the counter, cradles it in one arm and puts the shopping bag's long strap over her left shoulder, then marches off still yelling over her shoulder; the vendor shouts after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
 
 END STATE:
-She marches off still yelling over her shoulder with her bag; the vendor greets the next shopper with a wide smile. Scene 68 continues from this exact frame.
+She marches off still yelling over her shoulder, carrying the same pale-blue ribbed melon in one arm and her shopping bag by its long strap on her left shoulder; the vendor greets the next shopper with a wide smile. She carries both through scene 68 and into scene 69. Scene 68 continues from this exact frame.
 
 CAMERA / SPACE:
 Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, punchy medium singles, very fast shot/reverse during the argument (a cut on every shout) and a wider exit shot. Cut on slaps, gestures and the toss. Execute only the beats of this part.
@@ -8020,15 +8023,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":67}],"tags":["tatooine","street","visual_comedy","owner_requested","chain_52_66_67"]} -->
 
-**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с сцены 67 (продавец встречает следующего покупателя), кончается тем, что девушка из 67 замечает бригаду и идёт к ней; 69 продолжает с этого кадра.
+**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65, бесшовно:** начинается с настоящих последних 3 с сцены 67 (продавец встречает следующего покупателя), кончается тем, что девушка из 67 замечает бригаду и идёт к ней; 69 продолжает с этого кадра.
 
-**Что происходит:** Камера поднимается над навесом фруктового прилавка и плывёт по улице к бригаде из трёх инопланетян в форме «ГБУ Жилищник района Татуина». Они разом включают световые мётлы и с важным видом «убирают» улицу: один метёт песок вправо, другой тут же гонит его обратно, кучку сдувает пролетающий спидер, ветер насыпает новый песок, кучу собаки из 66 они старательно обметают стороной. Бригадир крутит метлу, как световой меч, пыль летит прямо на джаву. Бригада гордо застывает над улицей, которая стала грязнее, чем была, а вдали девушка из 67 с сумкой останавливается, видит это, мрачнеет и решительно идёт к ним.
+**Что происходит:** Камера поднимается над навесом фруктового прилавка и плывёт по улице к бригаде из трёх инопланетян в форме «ГБУ Жилищник района Татуина». Они разом включают световые мётлы и с важным видом «убирают» улицу: один метёт песок вправо, другой тут же гонит его обратно, кучку сдувает пролетающий спидер, ветер насыпает новый песок, кучу собаки из 66 они старательно обметают стороной. Бригадир крутит метлу, как световой меч, пыль летит прямо на джаву. Бригада гордо застывает над улицей, которая стала грязнее, чем была, а вдали Маша из 67 с той же голубой ребристой дыней у корпуса и сумкой на левом плече останавливается, видит это, мрачнеет и решительно идёт к ним. У ног четырёхглазого стоит выключенный лазерный совок; в этой сцене им не пользуются и кучу Стича не убирают.
 
-**Готовность:** DRAFT. Промпты и доступные референсы сохранены. Главная версия — Wan 3.0 (30 с). Запуск ждёт настоящие последние 3 с результата 67 и проверку стыка. Все обязательные изображения доступны; синтетические кадры не заменяют ожидаемый видеостык. Порядок существующей цепочки 52 ч.7 → 66 → 67 → 68 → 69 сохранён, до музыкальных и танцевальных номеров 49–51 и 28. Художественное одобрение не выставлено.
+**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата67 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. В68 совок только стоит выключенным; в69 вся уборка идёт в него. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
-**Референсы:** @Video1 — последние 3 с 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина).
+**Референсы:** @Video1 — последние 3 с 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image5 — `references/scenes/scene-69/S69-light-dustpan.png` (лазерный совок, пока выключен и стоит у ног четырёхглазого).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-69/S69-light-dustpan.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp" alt="Лазерный совок: в 68 лежит выключенным рядом с четырёхглазым" loading="lazy"></a><figcaption>@Image5 — Лазерный совок: в 68 лежит выключенным рядом с четырёхглазым</figcaption></figure>
 <figure><a href="references/scenes/scene-68/S68-crew-sweeping-street.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp" alt="Жилищник обметает кучку; Маша подходит с дыней и сумкой" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Жилищник обметает кучку; Маша подходит с дыней и сумкой</figcaption></figure>
 <figure><a href="references/scenes/scene-68/S68-light-broom.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-light-broom.png.webp" alt="Световая метла: чёрная рукоять и голубые энергетические прутья" loading="lazy"></a><figcaption>@Image2 — Световая метла: реквизит</figcaption></figure>
 <figure><a href="references/scenes/scene-68/S68-sweepers-crew.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp" alt="Бригада ГБУ Жилищник района Татуина" loading="lazy"></a><figcaption>@Image1 — Бригада «ГБУ Жилищник района Татуина»: трое инопланетян</figcaption></figure>
@@ -8044,7 +8048,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8056,15 +8060,16 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
 @Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, the young woman of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SWEEPER CREW: exactly the three aliens in the crew reference: FOREMAN tall thin blue-grey with long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple four-eyed alien with tiny legs. Identical uniform: bright orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps, gloves; the white Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» exactly as in the reference. Exactly three crew members.
 LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a fan of glowing cyan energy bristles that hum and leave short light trails; a harmless cleaning tool, never a weapon.
-MASHA R (the young woman of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair, Tatooine costume, with her shopping bag.
+MASHA R (the young woman of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair and Tatooine costume; the SAME pale-blue ribbed melon from scene 67 cradled in one arm, her shopping bag's long strap on her left shoulder.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. The young woman appears only at the very end, far in the background.
+The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. The young woman appears only at the very end, far in the background.
 
 START STATE:
 Begin on the exact final frame of @Video1 (end of scene 67): the four-armed vendor smiling at the next shopper at the fruit stall. Continue with no reset: the camera immediately rises over the awning and glides back along the same street to the exact spot where Stitch left the pile in scene 66.
@@ -8074,10 +8079,10 @@ TIMELINE:
 [0:05–0:11] IGNITION — Low heroic angle: all three ignite their light brooms in unison, cyan bristles snap on with a hum; they turn their backs and the print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» reads for a beat; they start sweeping with pompous energy.
 [0:11–0:18] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND the dog's pile from scene 66.
 [0:18–0:24] SHOW-OFF — The foreman twirls his broom like a lightsaber with cyan light trails, the reptilian leans on his broom and yawns, the four-eyed one sweeps a dust cloud straight onto a passing Jawa, who coughs and shakes his fist.
-[0:24–0:30] SHE SEES THEM — The crew strike a proud pose over the street, now sandier than before. Rack focus to the background: the young woman from scene 67 with her shopping bag stops dead, takes it in, her face darkens, and she starts striding toward them fast. End on her charging closer, the crew still oblivious.
+[0:24–0:30] SHE SEES THEM — The crew strike a proud pose over the street, now sandier than before. Rack focus to the background: the young woman from scene 67, the same pale-blue ribbed melon cradled in one arm and her shopping bag on her left shoulder, stops dead, takes it in, her face darkens, and she starts striding toward them fast. End on her charging closer, the crew still oblivious.
 
 END STATE:
-The crew stand proudly on the sandy street, unaware; the young woman from scene 67 strides toward them from the background, furious. Scene 69 continues from this exact frame.
+The crew stand proudly on the sandy street, unaware; the young woman from scene 67 strides toward them from the background, furious, with the same pale-blue ribbed melon in one arm and the shopping bag on her left shoulder. The inactive laser dustpan remains beside the purple worker; Stitch's pile is untouched. Scene 69 continues from this exact frame.
 
 CAMERA / SPACE:
 Continuous street axis from the fruit stall of scene 67. Crane-up and glide, a low heroic ignition shot, quick 35mm cuts on each sweep and gust, a 50mm on the foreman's twirl, and a final rack focus to the young woman in the background. Cut on motion; keep the uniforms and back print readable.
@@ -8106,7 +8111,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 68 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8118,23 +8123,24 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
 @Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, the young woman of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SWEEPER CREW: exactly the three aliens in the crew reference: FOREMAN tall thin blue-grey with long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple four-eyed alien with tiny legs. Identical uniform: bright orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps, gloves; the white Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» exactly as in the reference. Exactly three crew members.
 LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a fan of glowing cyan energy bristles that hum and leave short light trails; a harmless cleaning tool, never a weapon.
-MASHA R (the young woman of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair, Tatooine costume, with her shopping bag.
+MASHA R (the young woman of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair and Tatooine costume; the SAME pale-blue ribbed melon from scene 67 cradled in one arm, her shopping bag's long strap on her left shoulder.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. The young woman appears only at the very end, far in the background.
+The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. The young woman appears only at the very end, far in the background.
 
 START STATE:
 Begin on the exact final frame of @Video1 (end of scene 67): the four-armed vendor smiling at the next shopper at the fruit stall. Continue with no reset: the camera immediately rises over the awning and glides back along the same street to the exact spot where Stitch left the pile in scene 66.
 
 TIMELINE:
 [0:00–0:05] HANDOFF — Crane up over the fruit-stall awning and glide back along the same street, over heads and a droid, to the exact spot where Stitch left the pile in scene 66, discovering the three-alien crew in orange vests standing in a row.
-[0:05–0:11] IGNITION — Low heroic angle: all three ignite their light brooms in unison, cyan bristles snap on with a hum; they turn their backs and the print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» reads for a beat; they start sweeping with pompous energy.
-[0:11–0:18] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND the dog's pile from scene 66.
+[0:05–0:09] IGNITION — Low heroic angle: all three ignite their light brooms in unison, cyan bristles snap on with a hum; they turn their backs and the print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» reads for a beat; they start sweeping with pompous energy.
+[0:09–0:15] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND the dog's pile from scene 66.
 
 END STATE:
 The landspeeder has just blown the four-eyed alien's pile away and a gust pours fresh sand over the swept spot; the crew sweep around the dog's pile. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
@@ -8160,7 +8166,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 68 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8172,25 +8178,26 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
 @Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, the young woman of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SWEEPER CREW: exactly the three aliens in the crew reference: FOREMAN tall thin blue-grey with long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple four-eyed alien with tiny legs. Identical uniform: bright orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps, gloves; the white Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» exactly as in the reference. Exactly three crew members.
 LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a fan of glowing cyan energy bristles that hum and leave short light trails; a harmless cleaning tool, never a weapon.
-MASHA R (the young woman of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair, Tatooine costume, with her shopping bag.
+MASHA R (the young woman of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair and Tatooine costume; the SAME pale-blue ribbed melon from scene 67 cradled in one arm, her shopping bag's long strap on her left shoulder.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. The young woman appears only at the very end, far in the background.
+The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. The young woman appears only at the very end, far in the background.
 
 START STATE:
 Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The landspeeder has just blown the four-eyed alien's pile away and a gust pours fresh sand over the swept spot; the crew sweep around the dog's pile.
 
 TIMELINE:
 [0:00–0:07] SHOW-OFF — The foreman twirls his broom like a lightsaber with cyan light trails, the reptilian leans on his broom and yawns, the four-eyed one sweeps a dust cloud straight onto a passing Jawa, who coughs and shakes his fist.
-[0:07–0:15] SHE SEES THEM — The crew strike a proud pose over the street, now sandier than before. Rack focus to the background: the young woman from scene 67 with her shopping bag stops dead, takes it in, her face darkens, and she starts striding toward them fast. End on her charging closer, the crew still oblivious.
+[0:07–0:15] SHE SEES THEM — The crew strike a proud pose over the street, now sandier than before. Rack focus to the background: the young woman from scene 67, the same pale-blue ribbed melon cradled in one arm and her shopping bag on her left shoulder, stops dead, takes it in, her face darkens, and she starts striding toward them fast. End on her charging closer, the crew still oblivious.
 
 END STATE:
-The crew stand proudly on the sandy street, unaware; the young woman from scene 67 strides toward them from the background, furious. Scene 69 continues from this exact frame.
+The crew stand proudly on the sandy street, unaware; the young woman from scene 67 strides toward them from the background, furious, with the same pale-blue ribbed melon in one arm and the shopping bag on her left shoulder. The inactive laser dustpan remains beside the purple worker; Stitch's pile is untouched. Scene 69 continues from this exact frame.
 
 CAMERA / SPACE:
 Continuous street axis from the fruit stall of scene 67. Crane-up and glide, a low heroic ignition shot, quick 35mm cuts on each sweep and gust, a 50mm on the foreman's twirl, and a final rack focus to the young woman in the background. Cut on motion; keep the uniforms and back print readable. Execute only the beats of this part.
@@ -8220,27 +8227,27 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":68}],"tags":["tatooine","street","visual_comedy","dialogue_ru","owner_requested","chain_52_66_67"]} -->
 
-**Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69, бесшовно:** начинается с настоящих последних 3 с сцены 68, где девушка идёт к бригаде.
+**Контекст использования:** владелец 28.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65, бесшовно:** настоящий конец 68 → уборка Маши → пролёт 70 к кантине. Дыня и сумка непрерывно идут из 67 через 68; лазерный совок появляется выключенным в 68 и используется здесь.
 
-**Что происходит:** Девушка из 67 подлетает к бригаде «ГБУ Жилищник района Татуина»: «Вы что творите?! Кто так метёт?!» Бригада замирает. «Вы же песок туда-сюда гоняете!» Бригадир пытается что-то объяснить на своём языке, она обрывает: «Дай сюда!», отнимает у него световую метлу и суёт ему свою сумку. Дальше мастер-класс: быстрые точные взмахи в одну сторону, песок сходится в одну аккуратную кучу, она одним движением отправляет её в совок четырёхглазого, заодно и кучу собаки. Прохожие останавливаются, бригада разевает рты. «Вот так надо! Учитесь!» — она возвращает метлу, забирает сумку и уходит, ещё ворча. Бригада переглядывается и пытается повторить её движения, стукаясь мётлами.
+**Что происходит:** Маша с той же голубой ребристой дыней и сумкой подлетает к бригаде: «Вы что творите?! Кто так метёт?! Вы же песок туда-сюда гоняете!» На «Дай сюда!» сначала вешает длинную лямку сумки на правое предплечье бригадира, потом кладёт дыню в его правую ладонь у корпуса и забирает метлу из его левой руки. Бригадир поддерживает дыню обеими руками, сумка остаётся на предплечье. Четырёхглазый паркует свою метлу и обеими руками ставит включённый лазерный совок к земле. Маша ловко сметает песок и оставленную Стичем кучу в этот совок: «Вот так надо! Учитесь!» Последовательно возвращает метлу, забирает дыню и сумку и уходит. Четырёхглазый сначала ставит наполненный совок, затем берёт свою метлу; бригада пытается повторить её движения. Финальное движение камеры продолжает70.
 
 **Реплика:** «Вы что творите?! Кто так метёт?!» · «Вы же песок туда-сюда гоняете!» · «Дай сюда!» · «Вот так надо! Учитесь!» — девушка, на русском; бригадир отвечает на инопланетном языке.
 
-**Готовность:** DRAFT. Промпты и доступные референсы сохранены. Главная версия — Wan 3.0 (30 с). Запуск ждёт настоящие последние 3 с результата 68 и проверку стыка. Все обязательные изображения доступны; синтетические кадры не заменяют ожидаемый видеостык. Порядок существующей цепочки 52 ч.7 → 66 → 67 → 68 → 69 сохранён, до музыкальных и танцевальных номеров 49–51 и 28. Художественное одобрение не выставлено.
+**Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата68 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. В68 совок только стоит выключенным; в69 вся уборка идёт в него. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
-**Референсы:** @Video1 — последние 3 с 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)).
+**Референсы:** @Video1 — последние 3 с 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image5 — `references/scenes/scene-69/S69-light-dustpan.png` (лазерный совок); @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png` (физика передачи дыни, сумки и метлы).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-69/S69-melon-bag-handoff.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp" alt="Передача покупок: дыня и сумка у бригадира, метла переходит Маше" loading="lazy"></a><figcaption>@Image6 — Передача покупок: дыня и сумка у бригадира, метла переходит Маше</figcaption></figure>
 <figure><a href="references/scenes/scene-69/S69-light-dustpan.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp" alt="Лазерный совок — открытый лоток с голубой кромкой" loading="lazy"></a><figcaption>@Image5 — Лазерный совок — открытый лоток с голубой кромкой</figcaption></figure>
-<figure><a href="references/scenes/scene-69/S69-masha-masterclass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp" alt="Маша показывает дворникам, как мести световой метлой" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша Р показывает бригаде, как мести</figcaption></figure>
+<figure><a href="references/scenes/scene-69/S69-masha-masterclass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp" alt="Маша убирает кучку и песок в лазерный совок; покупки держит бригадир" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша убирает кучку и песок в лазерный совок; покупки держит бригадир</figcaption></figure>
 <figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp" alt="Маша Р (девушка из 67): развёртка в одежде Татуина"></a><figcaption>@Image1 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
 <figure><a href="references/scenes/scene-68/S68-sweepers-crew.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp" alt="@Image2 — Бригада «ГБУ Жилищник района Татуина»: трое инопланетян" loading="lazy"></a><figcaption>@Image2 — Бригада «ГБУ Жилищник района Татуина»: трое инопланетян</figcaption></figure>
 <figure><a href="references/scenes/scene-68/S68-light-broom.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-light-broom.png.webp" alt="@Image3 — Световая метла: реквизит" loading="lazy"></a><figcaption>@Image3 — Световая метла: реквизит</figcaption></figure>
 <figure><a href="references/scenes/scene-66/S66-street-outrage.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-street-outrage.png.webp" alt="@Image4 — Улица Татуина: Алина, Даша, Стич и реакции прохожих" loading="lazy"></a><figcaption>@Image4 — Улица Татуина: Алина, Даша, Стич и реакции прохожих</figcaption></figure>
 </div>
 
-**Режиссёрский контроль:** Связка: начало — конец 68 (девушка идёт к бригаде). Она орёт и отнимает метлу, но никого не бьёт. Метёт по-настоящему ловко и быстро. Маша Р — строго по развёртке S67-Masha-R-tatooine-sheet.
+**Режиссёрский контроль:** ровно одна Маша, одна дыня, одна сумка, три дворника, три метлы и один лазерный совок. Передача с физической опорой и свободной ладонью; Маша убирает всю локальную кучу песка и кучу Стича в совок, никого не бьёт. Покупки возвращаются к ней перед уходом. Настоящий финал69 →70; технический QC референсов не означает художественную приёмку видео.
 
 <div class="engine-tabs" data-scene="69">
 
@@ -8248,55 +8255,51 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 68, the young woman striding toward the sweeper crew. File: references/scenes/scene-68/S68-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
-@Image1 — exact MASHA R, the young woman of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
-@Image2 — exact sweeper crew: three alien bodies, identical uniform and the Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА»; highest authority for the crew. File: references/scenes/scene-68/S68-sweepers-crew.png.
-@Image3 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image4 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
-Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+@Video1 — the actual last 3 seconds of scene 68 (S68-WAN30). File: references/scenes/scene-68/S68-last3s.mp4. The exact final frame, camera, light, positions and ongoing motion control the start; continue seamlessly, never replay or reset.
+@Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
+@Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
+@Image4 — the same street geography only; exclude its girls and dog. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image5 — exact laser dustpan design: handle, collecting lip and cyan energy collecting surface; a cleaning tool, never a weapon. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — successive handoff staging for melon, bag and broom only; individual sheets and separate prop references outrank its faces, costumes and designs. File: references/scenes/scene-69/S69-melon-bag-handoff.png.
+These are visual references, not a slideshow. The real previous video controls the start; identity sheets control likeness; prop references control tools; the handoff image explains support and grip only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-MASHA R (the young woman of scenes 67–68): exactly the woman in her model sheet @Image1: face, hair, Tatooine costume, with her shopping bag. One Masha only, no beautifying or face blending.
-SWEEPER CREW: exactly the three aliens in the crew reference: FOREMAN tall thin blue-grey with long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple four-eyed alien with tiny legs. Identical uniform: bright orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps, gloves; the white Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» exactly as in the reference. Exactly three crew members.
-LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a fan of glowing cyan energy bristles that hum and leave short light trails; a harmless cleaning tool, never a weapon.
+MASHA R: the same adult woman as @Image1, with long wavy copper-red hair and bangs, her exact face and age, terracotta long tunic, light-sand scarf, dark trousers and brown boots. One woman only; no beautifying or face blending. The shopping bag has one long strap, and the SAME pale-blue ribbed melon from scene 67 remains a separate, single fruit.
+SWEEPER CREW: exactly three aliens from @Image2: a tall thin blue-grey FOREMAN with a long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple FOUR-EYED worker with tiny legs. Orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps and gloves; preserve the exact Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА».
+TOOLS: the light broom and laser dustpan match their separate prop references. The cyan glow belongs to harmless cleaning tools; solid tool geometry and real hand contact. Hold the dustpan steady with both hands; its dedicated prop reference controls the design. Exactly one bag, one melon, one dustpan and three crew brooms.
 
-LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–68 (@Image4 geography), harsh light of twin suns. She shouts and takes the broom but never hits or pushes anyone; the broom stays a cleaning tool. Her sweeping is genuinely skilled and dynamic: fast, rhythmic strokes in one direction, all sand gathered into one neat pile, flicked into the four-eyed alien's dustpan; the dog's pile goes in with one clean non-graphic flick. Exactly three crew members; the back print stays readable.
+LOCATION / STORY LOCK:
+The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. The dog and girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
 
 START STATE:
-Begin on the exact final frame of @Video1 (end of scene 68): the young woman striding toward the sweeper crew with her bag, the crew still posing proudly. Continue with no reset.
+Begin on the exact last frame of @Video1: Masha approaches the crew with the same pale-blue ribbed melon cradled in one arm and the shopping bag's strap on her left shoulder. The crew still pose with their brooms; the inactive laser dustpan is beside the purple worker's feet. Stitch's pile remains untouched. The actual previous result takes priority over this expected composition.
 
 TIMELINE:
-[0:00–0:05] CHARGE — She storms into frame, bag swinging, and shouts in Russian: «Вы что творите?! Кто так метёт?!» The crew freeze mid-pose, brooms humming.
-[0:05–0:10] SCOLDING — Fast shot/reverse: she jabs at the sand everywhere: «Вы же песок туда-сюда гоняете!»; the foreman tries to explain in alien gibberish with big gestures; she cuts him off with a raised palm.
-[0:10–0:16] TAKEOVER — «Дай сюда!» She snatches the foreman's light broom; the cyan bristles flare in her hands; she shoves her shopping bag into his arms.
-[0:16–0:24] MASTERCLASS — Dynamic tracking: she sweeps with fast, precise, rhythmic strokes in one direction, cyan light trails, sand rolling into one neat pile; one sharp flick sends the pile and the dog's pile into the four-eyed alien's dustpan. Passers-by stop and stare; the crew's jaws drop.
-[0:24–0:30] LESSON OVER — «Вот так надо! Учитесь!» She pushes the broom back to the foreman, grabs her bag and marches off still grumbling; the three look at each other, then all try to copy her strokes at once and clumsily bang their brooms together.
+[0:00–0:04] CHARGE — She strides up and shouts naturally in Russian: «Вы что творите?! Кто так метёт?!» The crew freeze, brooms humming.
+[0:04–0:08] SCOLDING — She gestures at the sand: «Вы же песок туда-сюда гоняете!» The foreman starts a short alien explanation; she cuts him off.
+[0:08–0:15] HANDOFF — «Дай сюда!» Without hitting anyone, Masha first lifts her bag's long strap from her shoulder onto the foreman's right forearm, leaving his palm free. She then transfers the melon onto his right palm against his torso. Only after he supports both purchases does he release his broom from his left hand into hers; she takes its handle in both hands. His newly freed left hand joins his right under the melon while the bag stays on his forearm. Beside them, the purple worker parks his own broom, lifts the laser dustpan with both hands, activates its cyan collecting surface and places its lip against the ground. Show these successive transfers clearly, with no duplicate fruit, bag, broom or extra hands.
+[0:15–0:21] MASTERCLASS — She sweeps with fast, precise strokes in one direction, drawing the local sand into one neat pile. The purple worker holds the laser dustpan steady with both hands, its lip flush with the ground. She sweeps the sand and then Stitch's untouched pile over that lip into the SAME pan with a clean non-graphic flick. The material visibly crosses the lip and remains collected; no vaporizing, teleporting, burning or second waste pile. Passers-by stop; the crew stare at her skill.
+[0:21–0:30] RETURN AND EXIT — «Вот так надо! Учитесь!» The foreman cradles the melon on his right palm against his torso again, freeing his left hand. Masha returns the broom into that left hand, then takes the melon, settles it in one arm, and with her free hand lifts the bag strap off his right forearm onto her own left shoulder. She marches away still grumbling. The purple worker first parks the filled dustpan upright without spilling it, then retrieves his own broom; the three start to imitate her strokes and clack their brooms once. The final wide view gently begins to rise, continuing toward the next scene without a cut or freeze in the last three seconds.
 
 END STATE:
-She walks away grumbling with her bag; the crew clumsily try to copy her technique and bang their brooms together.
+Masha walks away still grumbling, the SAME pale-blue ribbed melon cradled in one arm and her shopping bag back on her left shoulder. The foreman has his broom again; the purple worker has parked the filled laser dustpan upright without spilling it and recovered his broom. The small street patch and Stitch's former pile location are clean; the crew begin their clumsy imitation. The camera widens and begins a gentle rising move, keeping the actual street direction and motion alive for scene 70.
 
-CAMERA / SPACE:
-Fixed street geography from scene 68. A fast push-in on her charge, punchy shot/reverse during the scolding (a cut on every shout), a close insert on the broom snatch, a dynamic 35mm tracking move around her during the masterclass, and a wider final shot of her leaving and the crew fumbling.
+CAMERA / PERFORMANCE:
+Preserve the incoming camera and street direction. Use clear medium coverage for the sequential transfers, a brief readable insert of the forearm strap and palm support, and a dynamic low tracking move for the actual sweeping. Cut only on motivated action; never hide a prop transfer in a jump cut. Masha is furious and precise, the crew pompous then stunned; keep physical weight, breathing and natural reactions. Russian lines belong only to Masha, with natural pronunciation and accurate lip sync. Do not rush the transfers or multiply hands to complete them.
 
-PERFORMANCE:
-She is furious, sharp and unstoppable, then expertly precise with the broom; the crew go from pompous to stunned to clumsy imitation; comic, never violent. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
-
-LIGHTING / MATERIALS:
-Harsh warm light of Tatooine's twin suns, double soft shadows, dust in the air, cyan broom glow on her face and the sand; photoreal skin, fabric, reflective stripes and creature texture.
-
-AUDIO:
-Light-broom hum and crisp swishes, sand hiss, the foreman's alien gibberish, street hubbub, dustpan clank, brooms clacking together. Russian lines by the young woman only: «Вы что творите?! Кто так метёт?!», «Вы же песок туда-сюда гоняете!», «Дай сюда!», «Вот так надо! Учитесь!» plus angry indistinct grumbling. No narrator, no subtitles, no generated music.
+LIGHTING / AUDIO:
+Harsh warm twin-sun light, dusty air, cyan glow on sand and gloves, photoreal skin, fabric and alien textures. Broom swishes, laser-tool hum, sand hiss into the pan, brief alien muttering, street footsteps and the final broom clack. Preserve incoming ambience; Masha's supplied lines and indistinct grumbling only. No narration, subtitles or generated music.
 
 NEGATIVE PROMPT:
-hitting, pushing, broom used as a weapon, cutting or burning, calm polite talk, extra women, extra crew members, missing or misspelled back print, graphic close-up of excrement, Serega, the girls with the dog, face swap, clothes change, cartoon, subtitles, watermark.
+extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or dog returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8310,53 +8313,49 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 69 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+Optimized for Seedance 2.0 | Photoreal live-action space-opera comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 68, the young woman striding toward the sweeper crew. File: references/scenes/scene-68/S68-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
-@Image1 — exact MASHA R, the young woman of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
-@Image2 — exact sweeper crew: three alien bodies, identical uniform and the Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА»; highest authority for the crew. File: references/scenes/scene-68/S68-sweepers-crew.png.
-@Image3 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image4 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
-Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+@Video1 — the actual last 3 seconds of scene 68 (S68-WAN30). File: references/scenes/scene-68/S68-last3s.mp4. The exact final frame, camera, light, positions and ongoing motion control the start; continue seamlessly, never replay or reset.
+@Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
+@Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
+@Image4 — the same street geography only; exclude its girls and dog. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image5 — exact laser dustpan design: handle, collecting lip and cyan energy collecting surface; a cleaning tool, never a weapon. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — successive handoff staging for melon, bag and broom only; individual sheets and separate prop references outrank its faces, costumes and designs. File: references/scenes/scene-69/S69-melon-bag-handoff.png.
+These are visual references, not a slideshow. The real previous video controls the start; identity sheets control likeness; prop references control tools; the handoff image explains support and grip only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-MASHA R (the young woman of scenes 67–68): exactly the woman in her model sheet @Image1: face, hair, Tatooine costume, with her shopping bag. One Masha only, no beautifying or face blending.
-SWEEPER CREW: exactly the three aliens in the crew reference: FOREMAN tall thin blue-grey with long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple four-eyed alien with tiny legs. Identical uniform: bright orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps, gloves; the white Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» exactly as in the reference. Exactly three crew members.
-LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a fan of glowing cyan energy bristles that hum and leave short light trails; a harmless cleaning tool, never a weapon.
+MASHA R: the same adult woman as @Image1, with long wavy copper-red hair and bangs, her exact face and age, terracotta long tunic, light-sand scarf, dark trousers and brown boots. One woman only; no beautifying or face blending. The shopping bag has one long strap, and the SAME pale-blue ribbed melon from scene 67 remains a separate, single fruit.
+SWEEPER CREW: exactly three aliens from @Image2: a tall thin blue-grey FOREMAN with a long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple FOUR-EYED worker with tiny legs. Orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps and gloves; preserve the exact Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА».
+TOOLS: the light broom and laser dustpan match their separate prop references. The cyan glow belongs to harmless cleaning tools; solid tool geometry and real hand contact. Hold the dustpan steady with both hands; its dedicated prop reference controls the design. Exactly one bag, one melon, one dustpan and three crew brooms.
 
-LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–68 (@Image4 geography), harsh light of twin suns. She shouts and takes the broom but never hits or pushes anyone; the broom stays a cleaning tool. Her sweeping is genuinely skilled and dynamic: fast, rhythmic strokes in one direction, all sand gathered into one neat pile, flicked into the four-eyed alien's dustpan; the dog's pile goes in with one clean non-graphic flick. Exactly three crew members; the back print stays readable.
+LOCATION / STORY LOCK:
+The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. The dog and girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. This first part ends with the handoff complete and the pile still untouched; the sweeping happens in Part 2. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
 
 START STATE:
-Begin on the exact final frame of @Video1 (end of scene 68): the young woman striding toward the sweeper crew with her bag, the crew still posing proudly. Continue with no reset.
+Begin on the exact last frame of @Video1: Masha approaches the crew with the same pale-blue ribbed melon cradled in one arm and the shopping bag's strap on her left shoulder. The crew still pose with their brooms; the inactive laser dustpan is beside the purple worker's feet. Stitch's pile remains untouched. The actual previous result takes priority over this expected composition.
 
 TIMELINE:
-[0:00–0:05] CHARGE — She storms into frame, bag swinging, and shouts in Russian: «Вы что творите?! Кто так метёт?!» The crew freeze mid-pose, brooms humming.
-[0:05–0:10] SCOLDING — Fast shot/reverse: she jabs at the sand everywhere: «Вы же песок туда-сюда гоняете!»; the foreman tries to explain in alien gibberish with big gestures; she cuts him off with a raised palm.
-[0:10–0:16] TAKEOVER — «Дай сюда!» She snatches the foreman's light broom; the cyan bristles flare in her hands; she shoves her shopping bag into his arms.
+[0:00–0:04] CHARGE — She strides up and shouts naturally in Russian: «Вы что творите?! Кто так метёт?!» The crew freeze, brooms humming.
+[0:04–0:08] SCOLDING — She gestures at the sand: «Вы же песок туда-сюда гоняете!» The foreman starts a short alien explanation; she cuts him off.
+[0:08–0:15] HANDOFF — «Дай сюда!» Without hitting anyone, Masha first lifts her bag's long strap from her shoulder onto the foreman's right forearm, leaving his palm free. She then transfers the melon onto his right palm against his torso. Only after he supports both purchases does he release his broom from his left hand into hers; she takes its handle in both hands. His newly freed left hand joins his right under the melon while the bag stays on his forearm. Beside them, the purple worker parks his own broom, lifts the laser dustpan with both hands, activates its cyan collecting surface and places its lip against the ground. Show these successive transfers clearly, with no duplicate fruit, bag, broom or extra hands.
 
 END STATE:
-She has just snatched the foreman's light broom, cyan bristles flaring, and shoved her shopping bag into his arms; the other two stare. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+Masha holds the foreman's one light broom in both hands. The foreman supports the SAME pale-blue ribbed melon with both hands against his torso; the shopping bag hangs by its long strap over his right forearm, not in his palms. The purple four-eyed worker has parked his own broom securely beside him and holds the activated laser dustpan with both hands, its open collecting lip flat on the ground facing Masha. The reptilian retains his own broom. Stitch's pile is still on the ground. Continue natural movement through the final three seconds for Part 2; no freeze or fade.
 
-CAMERA / SPACE:
-Fixed street geography from scene 68. A fast push-in on her charge, punchy shot/reverse during the scolding (a cut on every shout), a close insert on the broom snatch, a dynamic 35mm tracking move around her during the masterclass, and a wider final shot of her leaving and the crew fumbling. Execute only the beats of this part.
+CAMERA / PERFORMANCE:
+Preserve the incoming camera and street direction. Use clear medium coverage of the scolding and sequential handoff, a brief readable insert of the forearm strap and palm support, then the purple worker setting the activated pan against the ground. End with all ownership fixed and the tools ready; the cleaning has not begun. Cut only on motivated action; never hide a prop transfer in a jump cut. Masha is furious and precise, the crew pompous then stunned; keep physical weight, breathing and natural reactions. Russian lines belong only to Masha, with natural pronunciation and accurate lip sync. Do not rush the transfers or multiply hands to complete them.
 
-PERFORMANCE:
-She is furious, sharp and unstoppable, then expertly precise with the broom; the crew go from pompous to stunned to clumsy imitation; comic, never violent. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
-
-LIGHTING / MATERIALS:
-Harsh warm light of Tatooine's twin suns, double soft shadows, dust in the air, cyan broom glow on her face and the sand; photoreal skin, fabric, reflective stripes and creature texture.
-
-AUDIO:
-Light-broom hum and crisp swishes, sand hiss, the foreman's alien gibberish, street hubbub, dustpan clank, brooms clacking together. Russian lines by the young woman only: «Вы что творите?! Кто так метёт?!», «Вы же песок туда-сюда гоняете!», «Дай сюда!», «Вот так надо! Учитесь!» plus angry indistinct grumbling. No narrator, no subtitles, no generated music.
+LIGHTING / AUDIO:
+Harsh warm twin-sun light, dusty air, cyan glow on sand and gloves, photoreal skin, fabric and alien textures. Low broom hum, bag-strap and clothing movement, the dustpan activating with a soft cyan-tool hum, brief alien muttering and street footsteps. Preserve incoming ambience; Masha's supplied lines and indistinct grumbling only. No narration, subtitles or generated music.
 
 NEGATIVE PROMPT:
-hitting, pushing, broom used as a weapon, cutting or burning, calm polite talk, extra women, extra crew members, missing or misspelled back print, graphic close-up of excrement, Serega, the girls with the dog, face swap, clothes change, cartoon, subtitles, watermark.
+extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or dog returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8364,52 +8363,212 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 69 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image3 — `references/scenes/scene-68/S68-light-broom.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-69/S69-melon-bag-handoff.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+Optimized for Seedance 2.0 | Photoreal live-action space-opera comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — actual last 3 seconds of THIS scene 69 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
-@Image1 — exact MASHA R, the young woman of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
-@Image2 — exact sweeper crew: three alien bodies, identical uniform and the Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА»; highest authority for the crew. File: references/scenes/scene-68/S68-sweepers-crew.png.
-@Image3 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image4 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
-Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+@Video1 — the actual last 3 seconds of THIS scene 69 Seedance 2.0 Part 1. Its exact last frame, camera, light, positions and ongoing motion control the start; continue seamlessly, never replay or reset.
+@Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
+@Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
+@Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
+@Image4 — the same street geography only; exclude its girls and dog. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image5 — exact laser dustpan design: handle, collecting lip and cyan energy collecting surface; a cleaning tool, never a weapon. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — successive handoff staging for melon, bag and broom only; individual sheets and separate prop references outrank its faces, costumes and designs. File: references/scenes/scene-69/S69-melon-bag-handoff.png.
+These are visual references, not a slideshow. The real previous video controls the start; identity sheets control likeness; prop references control tools; the handoff image explains support and grip only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-MASHA R (the young woman of scenes 67–68): exactly the woman in her model sheet @Image1: face, hair, Tatooine costume, with her shopping bag. One Masha only, no beautifying or face blending.
-SWEEPER CREW: exactly the three aliens in the crew reference: FOREMAN tall thin blue-grey with long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple four-eyed alien with tiny legs. Identical uniform: bright orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps, gloves; the white Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» exactly as in the reference. Exactly three crew members.
-LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a fan of glowing cyan energy bristles that hum and leave short light trails; a harmless cleaning tool, never a weapon.
+MASHA R: the same adult woman as @Image1, with long wavy copper-red hair and bangs, her exact face and age, terracotta long tunic, light-sand scarf, dark trousers and brown boots. One woman only; no beautifying or face blending. The shopping bag has one long strap, and the SAME pale-blue ribbed melon from scene 67 remains a separate, single fruit.
+SWEEPER CREW: exactly three aliens from @Image2: a tall thin blue-grey FOREMAN with a long neck and drooping antennae; a short stocky green reptilian with a thick tail; a round purple FOUR-EYED worker with tiny legs. Orange vests with silver reflective stripes over dark-blue overalls, dark-blue caps and gloves; preserve the exact Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА».
+TOOLS: the light broom and laser dustpan match their separate prop references. The cyan glow belongs to harmless cleaning tools; solid tool geometry and real hand contact. Hold the dustpan steady with both hands; its dedicated prop reference controls the design. Exactly one bag, one melon, one dustpan and three crew brooms.
 
-LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–68 (@Image4 geography), harsh light of twin suns. She shouts and takes the broom but never hits or pushes anyone; the broom stays a cleaning tool. Her sweeping is genuinely skilled and dynamic: fast, rhythmic strokes in one direction, all sand gathered into one neat pile, flicked into the four-eyed alien's dustpan; the dog's pile goes in with one clean non-graphic flick. Exactly three crew members; the back print stays readable.
+LOCATION / STORY LOCK:
+The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. The dog and girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. The initial handoff has already happened in the real input; do not repeat it. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
 
 START STATE:
-Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): She has just snatched the foreman's light broom, cyan bristles flaring, and shoved her shopping bag into his arms; the other two stare.
+Continue the exact final frame of @Video1 without reset. Expected handoff, subordinate to the actual video: Masha holds the foreman's one light broom in both hands. The foreman supports the SAME pale-blue ribbed melon with both hands against his torso; the shopping bag hangs by its long strap over his right forearm, not in his palms. The purple four-eyed worker has parked his own broom securely beside him and holds the activated laser dustpan with both hands, its open collecting lip flat on the ground facing Masha. The reptilian retains his own broom. Stitch's pile is still on the ground.
 
 TIMELINE:
-[0:00–0:07] MASTERCLASS — Dynamic tracking: she sweeps with fast, precise, rhythmic strokes in one direction, cyan light trails, sand rolling into one neat pile; one sharp flick sends the pile and the dog's pile into the four-eyed alien's dustpan. Passers-by stop and stare; the crew's jaws drop.
-[0:07–0:15] LESSON OVER — «Вот так надо! Учитесь!» She pushes the broom back to the foreman, grabs her bag and marches off still grumbling; the three look at each other, then all try to copy her strokes at once and clumsily bang their brooms together.
+[0:00–0:06] MASTERCLASS — She sweeps with fast, precise strokes in one direction, drawing the local sand into one neat pile. The purple worker holds the laser dustpan steady with both hands, its lip flush with the ground. She sweeps the sand and then Stitch's untouched pile over that lip into the SAME pan with a clean non-graphic flick. The material visibly crosses the lip and remains collected; no vaporizing, teleporting, burning or second waste pile. Passers-by stop; the crew stare at her skill.
+[0:06–0:15] RETURN AND EXIT — «Вот так надо! Учитесь!» The foreman cradles the melon on his right palm against his torso again, freeing his left hand. Masha returns the broom into that left hand, then takes the melon, settles it in one arm, and with her free hand lifts the bag strap off his right forearm onto her own left shoulder. She marches away still grumbling. The purple worker first parks the filled dustpan upright without spilling it, then retrieves his own broom; the three start to imitate her strokes and clack their brooms once. The final wide view gently begins to rise, continuing toward the next scene without a cut or freeze in the last three seconds.
 
 END STATE:
-She walks away grumbling with her bag; the crew clumsily try to copy her technique and bang their brooms together.
+Masha walks away still grumbling, the SAME pale-blue ribbed melon cradled in one arm and her shopping bag back on her left shoulder. The foreman has his broom again; the purple worker has parked the filled laser dustpan upright without spilling it and recovered his broom. The small street patch and Stitch's former pile location are clean; the crew begin their clumsy imitation. The camera widens and begins a gentle rising move, keeping the actual street direction and motion alive for scene 70.
 
-CAMERA / SPACE:
-Fixed street geography from scene 68. A fast push-in on her charge, punchy shot/reverse during the scolding (a cut on every shout), a close insert on the broom snatch, a dynamic 35mm tracking move around her during the masterclass, and a wider final shot of her leaving and the crew fumbling. Execute only the beats of this part.
+CAMERA / PERFORMANCE:
+Preserve the incoming camera and street direction. Use clear medium coverage for the sequential transfers, a brief readable insert of the forearm strap and palm support, and a dynamic low tracking move for the actual sweeping. Cut only on motivated action; never hide a prop transfer in a jump cut. Masha is furious and precise, the crew pompous then stunned; keep physical weight, breathing and natural reactions. Russian lines belong only to Masha, with natural pronunciation and accurate lip sync. Do not rush the transfers or multiply hands to complete them.
 
-PERFORMANCE:
-She is furious, sharp and unstoppable, then expertly precise with the broom; the crew go from pompous to stunned to clumsy imitation; comic, never violent. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
-
-LIGHTING / MATERIALS:
-Harsh warm light of Tatooine's twin suns, double soft shadows, dust in the air, cyan broom glow on her face and the sand; photoreal skin, fabric, reflective stripes and creature texture.
-
-AUDIO:
-Light-broom hum and crisp swishes, sand hiss, the foreman's alien gibberish, street hubbub, dustpan clank, brooms clacking together. Russian lines by the young woman only: «Вы что творите?! Кто так метёт?!», «Вы же песок туда-сюда гоняете!», «Дай сюда!», «Вот так надо! Учитесь!» plus angry indistinct grumbling. No narrator, no subtitles, no generated music.
+LIGHTING / AUDIO:
+Harsh warm twin-sun light, dusty air, cyan glow on sand and gloves, photoreal skin, fabric and alien textures. Broom swishes, laser-tool hum, sand hiss into the pan, brief alien muttering, street footsteps and the final broom clack. Preserve incoming ambience; Masha's supplied lines and indistinct grumbling only. No narration, subtitles or generated music.
 
 NEGATIVE PROMPT:
-hitting, pushing, broom used as a weapon, cutting or burning, calm polite talk, extra women, extra crew members, missing or misspelled back print, graphic close-up of excrement, Serega, the girls with the dog, face swap, clothes change, cartoon, subtitles, watermark.
+extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or dog returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+<a id="scene-70"></a>
+
+## Сцена 70 — Татуин: бесшовный пролёт с улицы к столику Серёги в кантине
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":69}],"tags":["serega","tatooine","cantina","story_bridge","continuous_take","owner_requested"]} -->
+
+**Контекст использования:** владелец 28.10.2026. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65. Отдельный непрерывный пролёт возвращает камеру от законченного уличного гега к Серёге в той же татуинской кантине. Scene ID65 сохраняется;70 в монтаже и очереди идёт перед ней.
+
+**Референсы:** @Video1 — последние3с настоящего69 (`references/scenes/scene-69/S69-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
+
+**Что происходит:** Из настоящего финала69 камера плавно поднимается над убранной улицей, проходит по той же короткой рыночной улочке к открытой арке кантины, снижается и физически входит через дверь. Янтарный интерьер раскрывается непрерывно; камера подлетает к круглому столику, где Серёга уже сидит с Бобой Феттом, гаморреанцем, синим твилеком и IG-11. Бармен начинает опускать последнюю кружку перед Серёгой, дроид достаёт маслёнку.65 продолжает это движение и сам тост.
+
+**Готовность:** DRAFT. Выбрана Wan3.0,30с; Seedance2.0,2×15с — подготовленная альтернатива вне очереди. Для запуска нужны настоящий конец69 и проверка непрерывного стыка; для65 — настоящий конец70. Никакое изображение не заменяет ожидаемые видеовходы. Художественная приёмка и новый видеозапуск этой правкой не выполняются.
+
+**Режиссёрский контроль:** один непрерывный пролёт по связному пространству и через открытый дверной проём, без монтажной маскировки и прохода сквозь стены. За столом ровно пятеро; Серёга молчит, Боба в шлеме, IG-11 с маслёнкой. Тост остаётся65. Последние3с70 сохраняют движение камеры и рук.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/serega.jpg.webp" alt="Серёга — точная внешность и фиолетовая роба" loading="lazy"></a><figcaption>@Image1 — Серёга — точная внешность и фиолетовая роба</figcaption></figure>
+<figure><a href="references/scenes/scene-70/S70-cantina-entrance.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-70/S70-cantina-entrance.png.webp" alt="Открытый вход в кантину: непрерывный путь камеры к столу Серёги" loading="lazy"></a><figcaption>@Image2 — Открытый вход в кантину: непрерывный путь камеры к столу Серёги</figcaption></figure>
+<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-65/S65-bar-table.png.webp" alt="Кантина и неизменная рассадка компании" loading="lazy"></a><figcaption>@Image3 — Кантина и неизменная рассадка компании</figcaption></figure>
+</div>
+
+<div class="engine-tabs" data-scene="70">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** Выбрана Wan3.0.
+
+**Входы:** @Video1 — последние3с настоящего69 (`references/scenes/scene-69/S69-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, one continuous travelling shot
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual final 3 seconds of scene 69 (S69-WAN30). File: references/scenes/scene-69/S69-last3s.mp4. Absolute authority for the start: exact framing, movement, light, street geography, people and prop state. Continue the final frame; do not replay the cleanup or substitute a generated still.
+@Image1 — exact Serega identity and robe; highest authority for his face, proportions and costume. File: references/full/serega.jpg.
+@Image2 — architecture and street approach of the open cantina entrance only; it cannot change people or reset the actual video. File: references/scenes/scene-70/S70-cantina-entrance.png.
+@Image3 — cantina interior, round table and fixed five-person seating only; Serega's individual sheet outranks the group helper. Use tableware and oil can as designs, not a demand to copy their already-completed gestures. File: references/scenes/scene-65/S65-bar-table.png.
+The real video owns the starting frame and motion; the entrance establishes a reachable doorway; the table image establishes the destination. Create one coherent connecting space, not three still images or a dissolve between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+STREET HANDOFF: Masha is the departing copper-red-haired woman in a terracotta tunic and sand scarf from the real video; the same melon is in one arm and her bag on her left shoulder. The three orange-vest workers retain the actual video's blue-grey long-necked, green reptilian and purple four-eyed designs. They remain on the street and leave the frame as the camera moves away; the collected waste remains in the parked laser dustpan.
+SEREGA: the exact mature pale man in @Image1, balding crown with sparse light-brown side hair, faint short stubble and broad familiar build; floor-length deep dark-plum robe, folded collar and hood down, wide sleeves, black undersleeves, broad waist sash and dark boots. One Serega, already seated inside; no age shift, face blending or costume change.
+BOBA FETT: dented green-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack and cape; helmet on, face hidden. GAMORREAN: hulking green pig-faced guard, tusks and leather/fur harness. TWI'LEK: blue-skinned male mercenary, two long head-tails, worn leather jacket and holster. IG-11: tall thin silver-grey droid, cylindrical sensor-ring head, long mechanical arms and bandolier with a small metal oil can. Exactly these five at the table; a bartender may serve them but never joins the seating.
+
+START STATE:
+Begin on the exact last frame and rising movement of @Video1. The cleaned patch and departing Masha remain where the real video left them; the crew and filled laser dustpan stay behind. Continue the existing camera direction before gently lifting above pedestrian height. The actual frame, not an imagined matching composition, determines the start.
+
+STORY FLOW:
+[0:00–0:15] STREET TO DOOR — Continue the final rising move from the cleaned street, glide above pedestrians and awnings along the SAME short connected market lane, then descend smoothly to the open cantina doorway from @Image2. Reveal the entrance by real camera movement; keep visible street-to-doorway geography and avoid a large aerial detour.
+[0:15–0:25] THROUGH THE CANTINA — Travel physically through the open doorway, staying below the lintel and between the jambs. Adapt exposure smoothly from warm twin-sun daylight to dim amber lamps, then glide through a clear aisle toward the round table from @Image3. Pass patrons naturally without crossing bodies, walls or furniture. Reveal Serega already seated with his four companions; keep their seating fixed and decelerate into a gentle seated-eye-level approach.
+[0:25–0:30] TABLE HANDOFF — At the table, the bartender begins lowering the last mug toward Serega while IG-11 begins pulling the oil can from its bandolier. The company breathes, glances and shifts naturally; Serega remains silently composed. Keep the final camera and hand movements alive for the continuation, without beginning the toast.
+
+END STATE:
+The continuous camera approaches the same round table at seated eye level, still gently moving. Boba Fett and the Gamorrean are left of Serega, Serega central, the blue Twi'lek and IG-11 to his right. The bartender is lowering the final mug in front of Serega; IG-11 starts drawing the small oil can from its bandolier. Hands and props remain in motion through the last three seconds, ready for scene 65 to continue the actual final frame. No toast, drinking gag, oil application, freeze or fade yet.
+
+CAMERA / GEOGRAPHY:
+One physically continuous, smoothly stabilized travelling shot with controlled inertia and the incoming lens character. Rise, travel, descend, pass through the OPEN door, cross the aisle and approach the table in that causal order. Keep a clear collision-free route; no roof/wall pass-through, teleportation, hidden cut, whip transition, sudden scale change or unexplained relocation. Do not send Masha or the crew into the cantina. Serega is discovered already seated, never walking in or duplicated outside. The actual camera direction at each real-video handoff wins over any helper image.
+
+LIGHT / PERFORMANCE / AUDIO:
+Street daylight, dusty sandstone and awnings become warm practical lantern light, haze and metallic table reflections inside; make the exposure shift gradual through the doorway. Natural background movement, weight shifts and breathing, not a frozen tableau. Street footsteps, broom noise and indistinct grumbling recede behind; alien cantina chatter, room tone and a quiet mug contact grow with the camera's approach. Preserve continuous ambience; no intelligible dialogue, narration, subtitles or generated music. Serega is silent, Boba stays masked and IG-11 does not drink.
+
+NEGATIVE PROMPT:
+hard cuts, fades, slideshow, camera through solid surfaces, impossible doorway, changing table layout, extra table guests, duplicated Serega, face blending, costume drift, Boba unmasked, IG-11 drinking, replayed cleanup, toast before scene 65, cartoon, readable signs, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Seedance2.0 · 2×15с — альтернатива вне очереди.** Обе части сохраняют те же крайние состояния.
+
+#### 70 · Seedance 2.0 часть 1
+
+**Входы:** @Video1 — последние3с настоящего69 (`references/scenes/scene-69/S69-last3s.mp4`); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, one continuous travelling shot
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual final 3 seconds of scene 69 (S69-WAN30). File: references/scenes/scene-69/S69-last3s.mp4. Absolute authority for the start: exact framing, movement, light, street geography, people and prop state. Continue the final frame; do not replay the cleanup or substitute a generated still.
+@Image1 — exact Serega identity and robe; highest authority for his face, proportions and costume. File: references/full/serega.jpg.
+@Image2 — architecture and street approach of the open cantina entrance only; it cannot change people or reset the actual video. File: references/scenes/scene-70/S70-cantina-entrance.png.
+@Image3 — cantina interior, round table and fixed five-person seating only; Serega's individual sheet outranks the group helper. Use tableware and oil can as designs, not a demand to copy their already-completed gestures. File: references/scenes/scene-65/S65-bar-table.png.
+The real video owns the starting frame and motion; the entrance establishes a reachable doorway; the table image establishes the destination. Create one coherent connecting space, not three still images or a dissolve between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+STREET HANDOFF: Masha is the departing copper-red-haired woman in a terracotta tunic and sand scarf from the real video; the same melon is in one arm and her bag on her left shoulder. The three orange-vest workers retain the actual video's blue-grey long-necked, green reptilian and purple four-eyed designs. They remain on the street and leave the frame as the camera moves away; the collected waste remains in the parked laser dustpan.
+SEREGA: the exact mature pale man in @Image1, balding crown with sparse light-brown side hair, faint short stubble and broad familiar build; floor-length deep dark-plum robe, folded collar and hood down, wide sleeves, black undersleeves, broad waist sash and dark boots. One Serega, already seated inside; no age shift, face blending or costume change.
+BOBA FETT: dented green-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack and cape; helmet on, face hidden. GAMORREAN: hulking green pig-faced guard, tusks and leather/fur harness. TWI'LEK: blue-skinned male mercenary, two long head-tails, worn leather jacket and holster. IG-11: tall thin silver-grey droid, cylindrical sensor-ring head, long mechanical arms and bandolier with a small metal oil can. Exactly these five at the table; a bartender may serve them but never joins the seating.
+
+START STATE:
+Begin on the exact last frame and rising movement of @Video1. The cleaned patch and departing Masha remain where the real video left them; the crew and filled laser dustpan stay behind. Continue the existing camera direction before gently lifting above pedestrian height. The actual frame, not an imagined matching composition, determines the start.
+
+STORY FLOW:
+[0:00–0:15] STREET TO DOOR — Continue the final rising move from the cleaned street, glide above pedestrians and awnings along the SAME short connected market lane, then descend smoothly to the open cantina doorway from @Image2. Reveal the entrance by real camera movement; keep visible street-to-doorway geography and avoid a large aerial detour. End just outside the open threshold, still moving forward, for the next part to enter.
+
+END STATE:
+The moving camera has descended from the same street to eye level just outside the open sandstone cantina doorway; warm amber interior and a clear route through the threshold are visible ahead. It is still advancing toward the opening, without crossing solid architecture, cutting or stopping. Continue the move through the last three seconds for Part 2; no fade or frozen ending.
+
+CAMERA / GEOGRAPHY:
+One physically continuous, smoothly stabilized travelling shot with controlled inertia and the incoming lens character. Rise, travel along the same short street and descend to the open doorway; finish just outside its threshold. The interior/table references establish the destination for the next part, not an instruction to reach the table early. Keep a clear collision-free route; no roof/wall pass-through, teleportation, hidden cut, whip transition, sudden scale change or unexplained relocation. Do not send Masha or the crew into the cantina. Serega is discovered already seated, never walking in or duplicated outside. The actual camera direction at each real-video handoff wins over any helper image.
+
+LIGHT / PERFORMANCE / AUDIO:
+Street daylight, dusty sandstone and awnings become warm practical lantern light, haze and metallic table reflections inside; make the exposure shift gradual through the doorway. Natural background movement, weight shifts and breathing, not a frozen tableau. Street footsteps, broom noise and indistinct grumbling recede behind; alien cantina chatter, room tone and a quiet mug contact grow with the camera's approach. Preserve continuous ambience; no intelligible dialogue, narration, subtitles or generated music. Serega is silent, Boba stays masked and IG-11 does not drink.
+
+NEGATIVE PROMPT:
+hard cuts, fades, slideshow, camera through solid surfaces, impossible doorway, changing table layout, extra table guests, duplicated Serega, face blending, costume drift, Boba unmasked, IG-11 drinking, replayed cleanup, toast before scene 65, cartoon, readable signs, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 70 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — последние3с настоящего результата70 Seedance2.0 части1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-70/S70-cantina-entrance.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, one continuous travelling shot
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual final 3 seconds of THIS scene 70 Seedance 2.0 Part 1. Absolute authority for the exact framing, forward motion, light and doorway geometry. Continue its final frame without reset or replay.
+@Image1 — exact Serega identity and robe; highest authority for his face, proportions and costume. File: references/full/serega.jpg.
+@Image2 — architecture and street approach of the open cantina entrance only; it cannot change people or reset the actual video. File: references/scenes/scene-70/S70-cantina-entrance.png.
+@Image3 — cantina interior, round table and fixed five-person seating only; Serega's individual sheet outranks the group helper. Use tableware and oil can as designs, not a demand to copy their already-completed gestures. File: references/scenes/scene-65/S65-bar-table.png.
+The real video owns the starting frame and motion; the entrance establishes a reachable doorway; the table image establishes the destination. Create one coherent connecting space, not three still images or a dissolve between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: the exact mature pale man in @Image1, balding crown with sparse light-brown side hair, faint short stubble and broad familiar build; floor-length deep dark-plum robe, folded collar and hood down, wide sleeves, black undersleeves, broad waist sash and dark boots. One Serega, already seated inside; no age shift, face blending or costume change.
+BOBA FETT: dented green-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack and cape; helmet on, face hidden. GAMORREAN: hulking green pig-faced guard, tusks and leather/fur harness. TWI'LEK: blue-skinned male mercenary, two long head-tails, worn leather jacket and holster. IG-11: tall thin silver-grey droid, cylindrical sensor-ring head, long mechanical arms and bandolier with a small metal oil can. Exactly these five at the table; a bartender may serve them but never joins the seating.
+
+START STATE:
+Continue the exact final frame of @Video1. Expected handoff, subordinate to the actual video: The moving camera has descended from the same street to eye level just outside the open sandstone cantina doorway; warm amber interior and a clear route through the threshold are visible ahead. It is still advancing toward the opening, without crossing solid architecture, cutting or stopping.
+
+STORY FLOW:
+[0:00–0:10] THROUGH THE CANTINA — Travel physically through the open doorway, staying below the lintel and between the jambs. Adapt exposure smoothly from warm twin-sun daylight to dim amber lamps, then glide through a clear aisle toward the round table from @Image3. Pass patrons naturally without crossing bodies, walls or furniture. Reveal Serega already seated with his four companions; keep their seating fixed and decelerate into a gentle seated-eye-level approach.
+[0:10–0:15] TABLE HANDOFF — At the table, the bartender begins lowering the last mug toward Serega while IG-11 begins pulling the oil can from its bandolier. The company breathes, glances and shifts naturally; Serega remains silently composed. Keep the final camera and hand movements alive for the continuation, without beginning the toast.
+
+END STATE:
+The continuous camera approaches the same round table at seated eye level, still gently moving. Boba Fett and the Gamorrean are left of Serega, Serega central, the blue Twi'lek and IG-11 to his right. The bartender is lowering the final mug in front of Serega; IG-11 starts drawing the small oil can from its bandolier. Hands and props remain in motion through the last three seconds, ready for scene 65 to continue the actual final frame. No toast, drinking gag, oil application, freeze or fade yet.
+
+CAMERA / GEOGRAPHY:
+One physically continuous, smoothly stabilized travelling shot with controlled inertia and the incoming lens character. Continue forward through the OPEN doorway, cross the clear aisle and approach the table in that causal order; do not repeat the street rise or exterior approach. Keep a clear collision-free route; no roof/wall pass-through, teleportation, hidden cut, whip transition, sudden scale change or unexplained relocation. Do not send Masha or the crew into the cantina. Serega is discovered already seated, never walking in or duplicated outside. The actual camera direction at each real-video handoff wins over any helper image.
+
+LIGHT / PERFORMANCE / AUDIO:
+Street daylight, dusty sandstone and awnings become warm practical lantern light, haze and metallic table reflections inside; make the exposure shift gradual through the doorway. Natural background movement, weight shifts and breathing, not a frozen tableau. Street footsteps, broom noise and indistinct grumbling recede behind; alien cantina chatter, room tone and a quiet mug contact grow with the camera's approach. Preserve continuous ambience; no intelligible dialogue, narration, subtitles or generated music. Serega is silent, Boba stays masked and IG-11 does not drink.
+
+NEGATIVE PROMPT:
+hard cuts, fades, slideshow, camera through solid surfaces, impossible doorway, changing table layout, extra table guests, duplicated Serega, face blending, costume drift, Boba unmasked, IG-11 drinking, replayed cleanup, toast before scene 65, cartoon, readable signs, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

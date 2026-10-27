@@ -6,50 +6,71 @@
     {
       "path": "references/scenes/scene-69/S69-masha-masterclass.png",
       "asset_id": "references/scenes/scene-69/S69-masha-masterclass.png",
-      "caption": "Маша показывает дворникам, как мести световой метлой",
-      "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+      "caption": "Маша убирает кучку и песок в лазерный совок; покупки держит бригадир",
+      "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
       "dimensions": [
         1672,
         941
       ],
-      "bytes": 2660163,
-      "role": "Маша показывает дворникам, как мести световой метлой",
+      "bytes": 2649311,
+      "role": "Дополнительная композиция уборки сцены 69",
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_recorded",
-      "generation_method": "ChatGPT imagegen (open Work)",
+      "generation_method": "ChatGPT imagegen (built-in)",
       "project_id": "seregius",
       "created_at": "2026-10-27T21:28:17+00:00",
       "assistant_qc": {
         "status": "usable_for_assigned_role",
-        "checked_at": "2026-10-27T21:28:17+00:00",
-        "scope": "Root visually inspected Masha likeness/hair/costume against her sheet, confident sweeping into the purple alien dustpan, matching original crew and broom, foreman holding the only satchel, readable exact two-line Cyrillic on green alien vest. Targeted refinement removed duplicate bag and exposed green vest back. Technical QC is not editorial approval."
+        "checked_at": "2026-10-27T23:08:17Z",
+        "scope": "Root visually inspected: same Masha and three workers; Masha has no bag or melon and grips one broom with both hands. Foreman supports one bruised pale-blue melon with both hands; one bag hangs from his right forearm. Purple worker steadies the cyan open-front dustpan with both hands on its rim; his broom is parked. Sand and the single small dark clump are at the collecting lip during the sweeping action, with cleared ground behind. New image uses a rim grip rather than the requested handle grip; video wording permits a physically valid two-handed hold, and the dedicated prop reference governs geometry. Exact green worker vest text retained. This remains a gallery composition helper, not an extra prompt input. Technical QC is not editorial approval."
       },
       "site_published": {
         "path": "references/scenes/scene-69/S69-masha-masterclass.png",
         "linked_in_master": true,
-        "git_present": true
+        "git_present": false,
+        "status": "local_worktree_pending_publication_readback",
+        "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201"
       },
       "prompt_file": "references/scenes/scene-69/S69-masha-masterclass.image-prompt.txt",
       "reference_inputs": [
+        {
+          "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+          "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
+        },
         {
           "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
         },
         {
-          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
-          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
         },
         {
-          "path": "references/scenes/scene-68/S68-light-broom.png",
-          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d"
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
         },
         {
-          "path": "references/scenes/scene-66/S66-street-outrage.png",
-          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
         }
       ],
-      "usage": "pose_composition_helper_only_not_prompt_input"
+      "usage": "pose_composition_helper_only_not_prompt_input",
+      "updated_at": "2026-10-27T23:08:17Z",
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "actual_ratio": "1672:941",
+        "matches_16_9": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      },
+      "prompt_sha256": "079dbc7bae5c4aeb6cdc184b0623b2273cf4968a21f98ab50af178e393c88a70",
+      "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
+      "replaces_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
     },
     {
       "path": "references/scenes/scene-69/S69-light-dustpan.png",
@@ -175,17 +196,17 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T23:02:05Z",
-  "last_qc_at": "2026-10-27T23:02:05Z",
+  "updated_at": "2026-10-27T23:08:29Z",
+  "last_qc_at": "2026-10-27T23:08:17Z",
   "pose_composition_helpers": [
     "references/scenes/scene-69/S69-masha-masterclass.png"
   ],
   "prompt_reference_mapping": [
     {
       "label": "69",
-      "canonical_prompt_sha256": "92dfb607b6cb89c44c1fb70be6927e1bc18fe25b8ea704ddadd286f2d51d5a25",
-      "normalized_prompt_sha256": "073f20f52f0853e50a1530aa48698fa6435fd1f550e87be9b0313bb31f749e86",
-      "characters": 5941,
+      "canonical_prompt_sha256": "77ef1690215e5c35cfeccca6f87efbff52a49b9c744cad73730856e3141e7e0a",
+      "normalized_prompt_sha256": "a28de630a675cb926f2fad95b6c2974bc788546c5c8fd201ee26d5603879e084",
+      "characters": 7755,
       "slots": [
         {
           "slot": "@Video1",
@@ -226,6 +247,22 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: собирает песок и кучу Стича",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Физика последовательной передачи дыни, сумки и метлы; не identity",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
         }
       ],
       "prompt_id": "S69-WAN30",
@@ -233,9 +270,9 @@
     },
     {
       "label": "69 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "d78ff5b47f585f88109215fe6622d29a07bef2967df7e0193c36ae8e8d52e637",
-      "normalized_prompt_sha256": "336f8a9fa0d07ed7ba6af26c87273094b3299788a9c4f8a258619637eebf2e2c",
-      "characters": 5523,
+      "canonical_prompt_sha256": "a236d6324eba88b6d99a04e917218bd02bdab03624981b41c0e78b7bb6adb670",
+      "normalized_prompt_sha256": "13c780c1b443ad6bf16661b2599005a287cb642fe77b0cf537f4ff1ec033a238",
+      "characters": 6879,
       "slots": [
         {
           "slot": "@Video1",
@@ -276,15 +313,31 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: собирает песок и кучу Стича",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Физика последовательной передачи дыни, сумки и метлы; не identity",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
         }
       ],
       "queued": false
     },
     {
       "label": "69 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "60ada72dd0b93564c111863e2b9ba33b268b48c6f1b250bc7ed56887c5062ebc",
-      "normalized_prompt_sha256": "643b41488f196d0b6422d7d2453b6ca4be214635b9098d076b17643c1427e0f6",
-      "characters": 5371,
+      "canonical_prompt_sha256": "80b927e6fd87387e95ce5e31e756eae3eceec55b3931574b4211fe447548cf79",
+      "normalized_prompt_sha256": "f004fbd3f25003c936a67d2ee458eb6d28ce013aa132b6fa479f9ea05d8e06bf",
+      "characters": 6988,
       "slots": [
         {
           "slot": "@Video1",
@@ -324,6 +377,22 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Лазерный совок: собирает песок и кучу Стича",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Физика последовательной передачи дыни, сумки и метлы; не identity",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
         }
       ],
       "queued": false

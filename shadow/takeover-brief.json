@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-27T23:02:06+00:00",
+ "generated_at": "2026-10-27T23:13:26+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "eabff782b481321328ce624b67c73f7f0d9d2090f9ca9bae55a9d11cf8adc6e5",
-   "bytes": 34967
+   "sha256": "f6c3b65160e6a6516b8c7d44abbb4a964a912009f672b6d0b15c720ec3e7aaa1",
+   "bytes": 34948
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "78166417a891af2b56566f0a26cd9d1a70ef7d34c620afb8b38cb50fbbc81c2a",
-   "bytes": 1068922
+   "sha256": "08f9d2184889543108e2dd2401c4a523c955632353209976d3e3d22623977242",
+   "bytes": 1104020
   }
  ],
  "invariants": [
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22909,
-  "above_marker_chars": 22909,
+  "chars": 22939,
+  "above_marker_chars": 22939,
   "recent_sections_below_marker": [],
-  "sha256": "fab12867091febaa18d01483fc5f1e390ed1b72547b2fb02f10c502f5db0baff",
-  "sha256_12": "fab12867091f",
+  "sha256": "fd4e2110e276a5967df456abf5c813e521733834fd0f5a9344e3d4f05406896f",
+  "sha256_12": "fd4e2110e276",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -192,8 +192,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 26,
-  "prompt_texts": 125,
+  "scenes": 27,
+  "prompt_texts": 128,
   "scene_ids": [
    13,
    16,
@@ -220,9 +220,10 @@
    66,
    67,
    68,
-   69
+   69,
+   70
   ],
-  "latest_scene": 69,
+  "latest_scene": 70,
   "reserved": [
    1,
    2,
@@ -294,7 +295,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 35666,
+   "offset": 35622,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -316,7 +317,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 62003,
+   "offset": 61959,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -337,7 +338,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 90540,
+   "offset": 90496,
    "chars": 139450,
    "sha256_12": "d913dff42477"
   },
@@ -355,7 +356,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 229990,
+   "offset": 229946,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -377,7 +378,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 246346,
+   "offset": 246302,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -399,7 +400,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 270333,
+   "offset": 270289,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -423,7 +424,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 302830,
+   "offset": 302786,
    "chars": 28588,
    "sha256_12": "e13906f96ded"
   },
@@ -447,7 +448,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 331418,
+   "offset": 331374,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
@@ -474,7 +475,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 359876,
+   "offset": 359832,
    "chars": 74983,
    "sha256_12": "17eb4aa1f7b0"
   },
@@ -499,7 +500,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 434859,
+   "offset": 434815,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
@@ -525,7 +526,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 454580,
+   "offset": 454536,
    "chars": 60421,
    "sha256_12": "f3bfb2c4c6d1"
   },
@@ -546,7 +547,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 515001,
+   "offset": 514957,
    "chars": 83465,
    "sha256_12": "9204875f95bd"
   },
@@ -569,7 +570,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 598466,
+   "offset": 598422,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -591,7 +592,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 624872,
+   "offset": 624828,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -617,7 +618,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 650968,
+   "offset": 650924,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -638,7 +639,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 678496,
+   "offset": 678452,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -660,7 +661,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 713784,
+   "offset": 713740,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -680,7 +681,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 746795,
+   "offset": 746751,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -702,7 +703,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 771641,
+   "offset": 771597,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -722,7 +723,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 800912,
+   "offset": 800868,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -741,7 +742,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 824365,
+   "offset": 824321,
    "chars": 19287,
    "sha256_12": "2ea33bc36871"
   },
@@ -753,7 +754,9 @@
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    70
+   ],
    "prompts": 3,
    "refs": [
     "@Image1",
@@ -761,9 +764,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 843652,
-   "chars": 21357,
-   "sha256_12": "bf6f250c0d7e"
+   "offset": 843608,
+   "chars": 23165,
+   "sha256_12": "febd843371c0"
   },
   {
    "id": 66,
@@ -784,7 +787,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 865009,
+   "offset": 866773,
    "chars": 25514,
    "sha256_12": "daf1314436a2"
   },
@@ -805,9 +808,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 890523,
-   "chars": 19834,
-   "sha256_12": "4521dc90f385"
+   "offset": 892287,
+   "chars": 20516,
+   "sha256_12": "37e9ed3a1212"
   },
   {
    "id": 68,
@@ -825,11 +828,12 @@
     "@Image1",
     "@Image2",
     "@Image3",
-    "@Image4"
+    "@Image4",
+    "@Image5"
    ],
-   "offset": 910357,
-   "chars": 23595,
-   "sha256_12": "8a34abe6bfef"
+   "offset": 912803,
+   "chars": 26220,
+   "sha256_12": "6f4c48bbe23f"
   },
   {
    "id": 69,
@@ -851,9 +855,30 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 933952,
-   "chars": 23450,
-   "sha256_12": "f4e392cfbea6"
+   "offset": 939023,
+   "chars": 29279,
+   "sha256_12": "edebc3fb364c"
+  },
+  {
+   "id": 70,
+   "title": "Татуин: бесшовный пролёт с улицы к столику Серёги в кантине",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    69
+   ],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 968302,
+   "chars": 22040,
+   "sha256_12": "a7980241093b"
   }
  ],
  "read_sets": {

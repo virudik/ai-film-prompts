@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "3e633c1fbc1894a7e7e9db6bc99941cf77e9a976034fefb7d46276fe26a53f7e",
+  "source_queue_sha256": "090df3e44e4e1fb72b0519c8f3e344ab7dc96e6b13d6c0d6dc0e52247ae4ebe6",
   "source_task_map_sha256": "41b4dda66d954b42f4d7ec7b1ec8acae03759a1b2bfe98fecf5e98404b8caf30",
   "topview_checked_at": "2026-10-27T22:30:24Z",
   "items": [
@@ -431,9 +431,9 @@
       "id": "S65-WAN30",
       "scene_id": 65,
       "part_label": "65",
-      "code": "preflight_required",
+      "code": "waiting_result",
       "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
+      "text": "@Video1: ждёт результат 70 (ещё не запущен)",
       "queue_state": "blocked_inputs"
     },
     {
@@ -471,8 +471,17 @@
       "ready": false,
       "text": "@Video1: ждёт результат 68 (ещё не запущен)",
       "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S70-WAN30",
+      "scene_id": 70,
+      "part_label": "70",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "@Video1: ждёт результат 69 (ещё не запущен)",
+      "queue_state": "blocked_inputs"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-27T22:30:30.877248Z"
+  "checked_at": "2026-10-27T23:10:40.985909Z"
 }

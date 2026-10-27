@@ -3,6 +3,84 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S59-SEED20-P1",
+      "scene_id": 59,
+      "prompt_id": "S59-SEED20-P1",
+      "canonical_block_label": "59 · Seedance 2.0 часть 1",
+      "priority": 0.5,
+      "state": "cancelled_owner_replaced_by_existing_video",
+      "launch_readiness": "not_selected_owner_supplied_P1",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 0,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга — лицо и одежда",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+          "canonical_role": "Кашиик: посадочная поляна; synthetic location helper; actual continuity video wins",
+          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+          "canonical_role": "кабина — только геометрия",
+          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+          "canonical_role": "Космос: корабль и Кашиик; synthetic location helper; actual continuity video wins",
+          "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+          "canonical_role": "лес — только окружение, без персонажей",
+          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "8a63b85e08d677577fc99a88545964bd1b9a3356e61aaad7ed88777c9b514d1d",
+      "normalized_prompt_sha256": "97c47db6426aaeae27a2ac78247a4d1c7651d057bdaa00ff93fd612770352571",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": "Do not regenerate: owner supplied existing Part1.",
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "cancelled_at": "2026-10-23T21:04:37.842561Z",
+      "replacement": {
+        "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+        "source_sha256": "82870299533d01246ba3ae308184e16b2008aff24002bc2a89a4db34d9c550c5",
+        "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json"
+      }
+    },
+    {
       "scene_id": 44,
       "prompt_id": "S44",
       "canonical_block_label": "44",

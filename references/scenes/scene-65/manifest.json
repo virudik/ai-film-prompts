@@ -65,14 +65,22 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T21:30:18Z",
+  "updated_at": "2026-10-27T23:08:29Z",
   "prompt_reference_mapping": [
     {
       "label": "65",
-      "canonical_prompt_sha256": "d962d042d6301596abb1c07b13c1073d2f53539577ccf28a12dd91f4b58a9c68",
-      "normalized_prompt_sha256": "8ff45d7c358bd37fd3d76cad4b942d23f6e94cce50607c1e645983880c61e6a5",
-      "characters": 5794,
+      "canonical_prompt_sha256": "111aa2995fb6d8b807aa1f035cb94a88ab9e3d549553a399d7de73a43180b2fd",
+      "normalized_prompt_sha256": "35818383f73dcf836145ef9d02be52beb1029c5f36400be6da4f4d9c6e32abca",
+      "characters": 6501,
       "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S70-WAN30",
+          "planned_path": "references/scenes/scene-70/S70-last3s.mp4"
+        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -107,14 +115,22 @@
         }
       ],
       "prompt_id": "S65-WAN30",
-      "launch_readiness": "reference_inputs_available"
+      "launch_readiness": "blocked_continuity"
     },
     {
       "label": "65 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "d1a1f9082ab04bbeb109472d02321c8e8148d49409cfd003d1e4460dbba70500",
-      "normalized_prompt_sha256": "2f1b6c5a947a37e380243c3de8af1cd826a66730172cbfcb60bf4a665b2882f7",
-      "characters": 5434,
+      "canonical_prompt_sha256": "79f91a6282fa5deee8f099954eaf1ea4c75ae081a0c56d667e42b65511359a6d",
+      "normalized_prompt_sha256": "03ba6c1d78694792fa0457686dee2e3adba81e640d3c55c3403df5fa04c34263",
+      "characters": 6153,
       "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S70-WAN30",
+          "planned_path": "references/scenes/scene-70/S70-last3s.mp4"
+        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -152,9 +168,9 @@
     },
     {
       "label": "65 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "f1aaed1a4e844962f22ca235bad87957f89a4e2a44a22707c5ac71113a6c9191",
-      "normalized_prompt_sha256": "e3da11e205b13237780445f4bd6a0fbae184311efae8a6c809fefd08014336df",
-      "characters": 5374,
+      "canonical_prompt_sha256": "384a615c1f5cabe194e162ca2c4a7573b0cc4a29b2bf241f454fccffb2aae6d1",
+      "normalized_prompt_sha256": "ded4953d09b62febab874067d79d864328b14e59e406e45e93fd367615b247b0",
+      "characters": 5489,
       "slots": [
         {
           "slot": "@Video1",

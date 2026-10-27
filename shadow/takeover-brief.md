@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-27T23:02:06+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-27T23:13:26+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34967 B · `eabff782b4813213`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34948 B · `f6c3b65160e6a651`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 125587 B · `fd2c8389816df3e0`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 34298 B · `e4b282b861e67590`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 72372 B · `a5813bc631df9432`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 80567 B · `374354dd235fa5eb`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16692 B · `353e9e8fee391b9d`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18925 B · `a6bf924b43892379`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1068922 B · `78166417a891af2b`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1104020 B · `08f9d21848895431`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 26 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69]); промтов 125; последний ID 69; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
+- health ok; сцен 27 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]); промтов 128; последний ID 70; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -63,11 +63,12 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 62 | Татуин: после погони — обратно к противостоянию | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 7b405dfdc4b9 |
 | 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 44a6503cbd40 |
 | 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 2ea33bc36871 |
-| 65 | Татуин: Серёга молча выпивает в баре с Бобой Феттом и компан | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | bf6f250c0d7e |
+| 65 | Татуин: Серёга молча выпивает в баре с Бобой Феттом и компан | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [70] | febd843371c0 |
 | 66 | Татуин: Алина, Даша и Стич | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [52] | daf1314436a2 |
-| 67 | Татуин: девушка яростно ругается с продавцом фруктов | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 4521dc90f385 |
-| 68 | Татуин: «ГБУ Жилищник района Татуина» метёт улицу световыми  | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [67] | 8a34abe6bfef |
-| 69 | Татуин: девушка отнимает метлу и показывает «Жилищнику», как | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [68] | f4e392cfbea6 |
+| 67 | Татуин: девушка яростно ругается с продавцом фруктов | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 37e9ed3a1212 |
+| 68 | Татуин: «ГБУ Жилищник района Татуина» метёт улицу световыми  | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [67] | 6f4c48bbe23f |
+| 69 | Татуин: девушка отнимает метлу и показывает «Жилищнику», как | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [68] | edebc3fb364c |
+| 70 | Татуин: бесшовный пролёт с улицы к столику Серёги в кантине | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [69] | a7980241093b |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
@@ -91,4 +92,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (22909 симв., sha `fab12867091f`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (22939 симв., sha `fd4e2110e276`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ

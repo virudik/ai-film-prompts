@@ -34,7 +34,9 @@
         60,
         61,
         62,
-        63
+        63,
+        65,
+        70
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -739,7 +741,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-27T23:02:05Z",
+  "updated_at": "2026-10-27T23:09:44Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -828,7 +830,8 @@
       "name": "Серёга и компания за столом кантины",
       "kind": "scene_reference",
       "scenes": [
-        65
+        65,
+        70
       ],
       "editorial_status": "not_approved",
       "images": [
@@ -1248,7 +1251,7 @@
     },
     {
       "id": "S69-masha-masterclass",
-      "name": "Маша показывает дворникам, как мести световой метлой",
+      "name": "Маша убирает кучку и песок в лазерный совок; покупки держит бригадир",
       "kind": "scene_reference",
       "scenes": [
         69
@@ -1258,50 +1261,71 @@
         {
           "path": "references/scenes/scene-69/S69-masha-masterclass.png",
           "asset_id": "references/scenes/scene-69/S69-masha-masterclass.png",
-          "caption": "Маша показывает дворникам, как мести световой метлой",
-          "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+          "caption": "Маша убирает кучку и песок в лазерный совок; покупки держит бригадир",
+          "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
           "dimensions": [
             1672,
             941
           ],
-          "bytes": 2660163,
-          "role": "Маша показывает дворникам, как мести световой метлой",
+          "bytes": 2649311,
+          "role": "Дополнительная композиция уборки сцены 69",
           "media_type": "image",
           "status": "available",
           "owner_approval": "not_recorded",
-          "generation_method": "ChatGPT imagegen (open Work)",
+          "generation_method": "ChatGPT imagegen (built-in)",
           "project_id": "seregius",
           "created_at": "2026-10-27T21:28:17+00:00",
           "assistant_qc": {
             "status": "usable_for_assigned_role",
-            "checked_at": "2026-10-27T21:28:17+00:00",
-            "scope": "Root visually inspected Masha likeness/hair/costume against her sheet, confident sweeping into the purple alien dustpan, matching original crew and broom, foreman holding the only satchel, readable exact two-line Cyrillic on green alien vest. Targeted refinement removed duplicate bag and exposed green vest back. Technical QC is not editorial approval."
+            "checked_at": "2026-10-27T23:08:17Z",
+            "scope": "Root visually inspected: same Masha and three workers; Masha has no bag or melon and grips one broom with both hands. Foreman supports one bruised pale-blue melon with both hands; one bag hangs from his right forearm. Purple worker steadies the cyan open-front dustpan with both hands on its rim; his broom is parked. Sand and the single small dark clump are at the collecting lip during the sweeping action, with cleared ground behind. New image uses a rim grip rather than the requested handle grip; video wording permits a physically valid two-handed hold, and the dedicated prop reference governs geometry. Exact green worker vest text retained. This remains a gallery composition helper, not an extra prompt input. Technical QC is not editorial approval."
           },
           "site_published": {
             "path": "references/scenes/scene-69/S69-masha-masterclass.png",
             "linked_in_master": true,
-            "git_present": true
+            "git_present": false,
+            "status": "local_worktree_pending_publication_readback",
+            "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201"
           },
           "prompt_file": "references/scenes/scene-69/S69-masha-masterclass.image-prompt.txt",
           "reference_inputs": [
+            {
+              "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+              "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
+            },
             {
               "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
               "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
             },
             {
-              "path": "references/scenes/scene-68/S68-sweepers-crew.png",
-              "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+              "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+              "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
             },
             {
-              "path": "references/scenes/scene-68/S68-light-broom.png",
-              "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d"
+              "path": "references/scenes/scene-69/S69-light-dustpan.png",
+              "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
             },
             {
-              "path": "references/scenes/scene-66/S66-street-outrage.png",
-              "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
+              "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+              "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
             }
           ],
-          "usage": "pose_composition_helper_only_not_prompt_input"
+          "usage": "pose_composition_helper_only_not_prompt_input",
+          "updated_at": "2026-10-27T23:08:17Z",
+          "aspect_check": {
+            "requested": "16:9",
+            "actual_dimensions": [
+              1672,
+              941
+            ],
+            "actual_ratio": "1672:941",
+            "matches_16_9": true,
+            "original_bytes_preserved": true,
+            "cropped_or_resized": false
+          },
+          "prompt_sha256": "079dbc7bae5c4aeb6cdc184b0623b2273cf4968a21f98ab50af178e393c88a70",
+          "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
+          "replaces_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
         }
       ]
     },
@@ -1446,6 +1470,77 @@
         }
       ],
       "name": "Передача покупок: дыня и сумка у бригадира, метла переходит Маше",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "S70-cantina-entrance",
+      "kind": "scene_reference",
+      "scenes": [
+        70
+      ],
+      "images": [
+        {
+          "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+          "asset_id": "references/scenes/scene-70/S70-cantina-entrance.png",
+          "caption": "Открытый вход в кантину: непрерывный путь камеры к столу Серёги",
+          "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 2322750,
+          "role": "География перехода 69→70→65; архитектура входа, путь камеры и расположение компании",
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT imagegen (built-in)",
+          "project_id": "seregius",
+          "created_at": "2026-10-27T23:08:31Z",
+          "updated_at": "2026-10-27T23:08:31Z",
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-27T23:08:31Z",
+            "scope": "Root visually inspected the generated PNG: broad fully open sandstone arch, clear street-to-interior threshold, warm daylight to amber lantern transition, a plausible eye-level camera path to the round table. Exactly five foreground seated principals in order Boba Fett with helmet, Gamorrean, Serega in purple robe, blue male Twilek, IG-11. No replacement actors, no raised toast. Individual Serega sheet controls identity; this image supplies geometry and seating, while actual video and prompts control mug/oil-can timing. Stools are below the camera route; no wall crossing is required. Technical QC is not editorial approval."
+          },
+          "aspect_check": {
+            "requested": "16:9",
+            "actual_dimensions": [
+              1672,
+              941
+            ],
+            "actual_ratio": "1672:941",
+            "matches_16_9": true,
+            "original_bytes_preserved": true,
+            "cropped_or_resized": false
+          },
+          "site_published": {
+            "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+            "linked_in_master": true,
+            "git_present": false,
+            "status": "local_worktree_pending_publication_readback",
+            "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9"
+          },
+          "prompt_file": "references/scenes/scene-70/S70-cantina-entrance.image-prompt.txt",
+          "prompt_sha256": "72dcab34849b3822c4cdb9c469b8e8a7be52335fd68c43be50cf791c0f9ace20",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+              "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
+            },
+            {
+              "path": "references/scenes/scene-65/S65-bar-table.png",
+              "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+            },
+            {
+              "path": "references/full/serega.jpg",
+              "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+            }
+          ],
+          "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
+          "usage": "location_and_staging_reference"
+        }
+      ],
+      "name": "Открытый вход в кантину: непрерывный путь камеры к столу Серёги",
       "editorial_status": "not_approved"
     }
   ]
