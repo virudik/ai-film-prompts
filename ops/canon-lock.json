@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "open Work: S66 Stitch reference and prompt correction",
-  "acquired_at": "2026-10-27T20:54:12.822Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T20:57:10+00:00",
+  "task": "open Work: S66 street reference",
+  "acquired_at": "2026-10-27T20:58:31.918Z",
+  "expires_at": "2026-10-27T21:43:31.918Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
