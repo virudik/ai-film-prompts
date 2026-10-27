@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-27T21:31:18+00:00",
-  "source_head": "aeee22232c0c4bc2f142f69b53e86e83245b85e4",
-  "source_fingerprint": "25163678a899ab6ef8835733612bbefd7831bf1e4301fab189f220ffd04d2ec9",
+  "checked_at": "2026-10-27T21:36:51+00:00",
+  "source_head": "3f10718369a67789cf0696cd3300cebc2e11915f",
+  "source_fingerprint": "6bb647401f00ab3727370ac046e2a8c1dfa24628fd94fc36cae8b918105c0bc5",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -163,8 +163,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "2b73b687a3d8dc31fe71b95a0beb41d5f651bd23d158269246454941bf864ba5",
-      "bytes": 34925
+      "sha256": "eabff782b481321328ce624b67c73f7f0d9d2090f9ca9bae55a9d11cf8adc6e5",
+      "bytes": 34967
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -183,12 +183,12 @@
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "1429253208039887d7bf41a4da7500a44b0e823bf13704ca839d6d698ebaadbb",
-      "bytes": 80102
+      "sha256": "374354dd235fa5ebfe37d20203c81c29c77559ea681081dabe1a4374d39119f3",
+      "bytes": 80567
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "c5f6fcc2be01dab9ed3e148f99e58f45d8c9aa5ff8aa1a486028be8ac3834648",
+      "sha256": "2616812a5ee6ca3df66287400202e24a0392655352343cb045252b241c7a5bb9",
       "bytes": 5141
     },
     {
@@ -198,13 +198,13 @@
     },
     {
       "file": "ops/CONTINUE-PROTOCOL.md",
-      "sha256": "76eb22e3e8ed4a15e8eb3f1fbae73f5b11038bf67f53669e65d5661f5330046c",
-      "bytes": 38152
+      "sha256": "9eb0b29037b547dd8553326ce34ef4ba6f90fed5c4c08bd342883852277e6ec9",
+      "bytes": 40928
     },
     {
       "file": "project-status.json",
-      "sha256": "765bc4ae9db8286fcecaad6d670b63457fd47d04e03432f93cc8a04f1e01c9fa",
-      "bytes": 20898
+      "sha256": "8b24fabbc4d1da942f44b738cbb110252567207e41e58a31579bcafe208fb421",
+      "bytes": 20683
     },
     {
       "file": "projects/README.md",
@@ -258,18 +258,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "34073651ff129722dd8c2873c3b5344e224bf3f8477fefbc056995aa53e54fed",
-      "bytes": 34726
+      "sha256": "fab12867091febaa18d01483fc5f1e390ed1b72547b2fb02f10c502f5db0baff",
+      "bytes": 34768
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0ac5f153fa72dccfd3e179f4261e065d7f0b3cc90fe9359bf042dac17c2ad1da",
-      "bytes": 23277
+      "sha256": "a4a143001d2f35cfb9f342977b756bb8553261748b52d5af710d7003f1ea52b1",
+      "bytes": 23262
     },
     {
       "file": "video-prompts.md",
-      "sha256": "10e695ed60b8684cc767cc5f468346d333ac97db91f23e79662a793747821ba1",
-      "bytes": 1057525
+      "sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+      "bytes": 1063741
     }
   ],
   "packet_bytes": 5133
