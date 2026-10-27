@@ -7623,11 +7623,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-66/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с). Запуск — только после настоящего результата 52 ч.7 и референсов девочек.
 
-**Референсы:** @Video1 — последние 3 с 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (Инопланетная собака: дизайн существа; ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Улица: собака посреди дороги, прохожие возмущаются; ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (Фруктовый прилавок из 67 (конец сцены); ещё не нарисован).
+**Референсы:** @Video1 — последние 3 с 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (Инопланетная собака: дизайн существа; ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Улица: собака посреди дороги, прохожие возмущаются); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (Фруктовый прилавок из 67 (конец сцены); ещё не нарисован).
 
 **Режиссёрский контроль:** Связка: начало — конец 52 ч.7, финал — прилавок 67. Девочки не извиняются и не убирают. Внешность — только по референсам владельца (пока их нет, не запускать). Момент «какания» без крупного плана.
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-66/S66-street-outrage.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-66/S66-street-outrage.png.webp" alt="Улица Татуина: Алина, Даша, Стич и реакции прохожих" loading="lazy"></a><figcaption>@Image4 — Улица Татуина: Алина, Даша, Стич и реакции прохожих</figcaption></figure>
 <figure><a href="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Alina-tatooine-sheet.png" alt="Алина: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Алина: развёртка в одежде Татуина</figcaption></figure>
 <figure><a href="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-66/S66-Dasha-tatooine-sheet.png" alt="Даша: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image2 — Даша: развёртка в одежде Татуина</figcaption></figure>
 </div>
@@ -7638,7 +7639,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7700,7 +7701,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 66 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 52 часть 7 (`references/scenes/scene-52/S52-R2-P7-last3s.mp4`, вырезать при запуске); @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7754,7 +7755,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 66 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девочка 1 — внешность (референс добавит владелец) (ждёт референс владельца); @Image2 — Девочка 2 — внешность (референс добавит владелец) (ждёт референс владельца); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`; @Image5 — `references/scenes/scene-67/S67-fruit-stall.png` (ещё не нарисован).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8029,7 +8030,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8091,7 +8092,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 68 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8145,7 +8146,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 68 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8227,7 +8228,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8289,7 +8290,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 69 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящего результата 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8343,7 +8344,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 69 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (ещё не нарисован).
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (ещё не нарисован); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on

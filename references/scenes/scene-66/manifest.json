@@ -78,14 +78,58 @@
         }
       ],
       "character_id": "dasha"
+    },
+    {
+      "path": "references/scenes/scene-66/S66-street-outrage.png",
+      "asset_id": "references/scenes/scene-66/S66-street-outrage.png",
+      "caption": "Улица Татуина: Алина, Даша, Стич и реакции прохожих",
+      "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2654214,
+      "role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (open Work)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T21:05:05+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T21:05:05+00:00",
+        "scope": "Root visually inspected: exactly two girls matching Alina and Dasha sheets; distinct faces, correct ages and costumes; recognizable blue Stitch, red harness and one leash; coherent market and twin-sun light; readable crowd reaction; no graphic detail, text or logo; full-frame landscape. Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-66/S66-street-outrage.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-66/S66-street-outrage.image-prompt.txt",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+        },
+        {
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656"
+        }
+      ]
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T19:15:42+00:00",
+  "updated_at": "2026-10-27T21:05:05+00:00",
   "identity_refs": [
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png"
-  ]
+  ],
+  "last_qc_at": "2026-10-27T21:05:05+00:00"
 }

@@ -2913,6 +2913,16 @@
    "thumb_bytes": 20906,
    "src_sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
   },
+  "references/scenes/scene-66/S66-street-outrage.png": {
+   "thumb": "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2654214,
+   "thumb_bytes": 63832,
+   "src_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
+  },
   "references/scenes/scene-67/S67-Masha-R-market-quarrel.png": {
    "thumb": "references/thumbs/scenes/scene-67/S67-Masha-R-market-quarrel.png.webp",
    "width": 640,
