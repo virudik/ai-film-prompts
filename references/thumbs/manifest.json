@@ -2423,6 +2423,16 @@
    "thumb_bytes": 49320,
    "src_sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849"
   },
+  "references/scenes/scene-52/S52-P1-boarding.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P1-boarding.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 771152,
+   "thumb_bytes": 41506,
+   "src_sha256": "74ca7081d56feb13bef53267533cf93c3cbb83732161ae9ceb7cec959555b321"
+  },
   "references/scenes/scene-52/S52-P1-final-frame-20261027.png": {
    "thumb": "references/thumbs/scenes/scene-52/S52-P1-final-frame-20261027.png.webp",
    "width": 640,
@@ -2432,6 +2442,76 @@
    "src_bytes": 408843,
    "thumb_bytes": 14010,
    "src_sha256": "40d96286c3e5cd6b7153d62279ef6485376cde7922e9abb1680ac6a929bb779f"
+  },
+  "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P2-hangar-takeoff.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 748652,
+   "thumb_bytes": 42038,
+   "src_sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd"
+  },
+  "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P3-cruiser-flyby.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 664765,
+   "thumb_bytes": 34714,
+   "src_sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce"
+  },
+  "references/scenes/scene-52/S52-P4-tatooine-approach.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P4-tatooine-approach.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 760397,
+   "thumb_bytes": 43966,
+   "src_sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7"
+  },
+  "references/scenes/scene-52/S52-P5-tatooine-landing.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P5-tatooine-landing.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 682341,
+   "thumb_bytes": 43328,
+   "src_sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27"
+  },
+  "references/scenes/scene-52/S52-P6-disembark.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P6-disembark.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 840685,
+   "thumb_bytes": 53546,
+   "src_sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd"
+  },
+  "references/scenes/scene-52/S52-P7-town-walk.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P7-town-walk.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 859473,
+   "thumb_bytes": 57004,
+   "src_sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5"
+  },
+  "references/scenes/scene-52/S52-cruiser-topview.jpg": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-cruiser-topview.jpg.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 2752,
+   "src_height": 1536,
+   "src_bytes": 1537686,
+   "thumb_bytes": 19744,
+   "src_sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218"
   },
   "references/scenes/scene-52/S52-start-from-S44-20261023.jpg": {
    "thumb": "references/thumbs/scenes/scene-52/S52-start-from-S44-20261023.jpg.webp",
