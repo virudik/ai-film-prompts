@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-27T10:08:38.722Z",
+  "updated_at": "2026-10-27T10:51:05.186Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -273,6 +273,231 @@
         "checked_at": "2026-10-27T10:08:38.722Z",
         "scope": "Serega foreground left looking toward technicians; one seated technician on floor, one on ladder, one standing further right; large wing panel angled down behind him. Preserve actual pose, axis and damage."
       }
+    },
+    {
+      "part": 1,
+      "path": "references/scenes/scene-52/S52-P1-boarding.jpg",
+      "sha256": "74ca7081d56feb13bef53267533cf93c3cbb83732161ae9ceb7cec959555b321",
+      "bytes": 771152,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "dab2973c4733d107b0b08d90960d67d7ca21f84f448040a74e3c66936dc0f909",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true,
+      "asset_id": "references/scenes/scene-52/S52-P1-boarding.jpg",
+      "media_type": "image",
+      "role": "action_composition_part_1",
+      "owner_approval": "creation_requested_not_final_artistic_acceptance",
+      "assistant_qc": {
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "status": "passed_as_composition_helper",
+        "scope": "Visual inspection of generated full image; identity/design refs and actual previous result remain authority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-52/S52-P1-boarding.jpg",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "part": 2,
+      "path": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+      "sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd",
+      "bytes": 748652,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "16a048e55848ae6639749e7e7ac6ae43f72f816fce20de5074f51ca4ab2c7e13",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true,
+      "asset_id": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+      "media_type": "image",
+      "role": "action_composition_part_2",
+      "owner_approval": "creation_requested_not_final_artistic_acceptance",
+      "assistant_qc": {
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "status": "passed_as_composition_helper",
+        "scope": "Visual inspection of generated full image; identity/design refs and actual previous result remain authority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "part": 3,
+      "path": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+      "sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce",
+      "bytes": 664765,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "17050127a8d5dd938b9c4892a98b6086c8f4a8f755ed9aea73f0f1c5e52e3f70",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true,
+      "asset_id": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+      "media_type": "image",
+      "role": "action_composition_part_3",
+      "owner_approval": "creation_requested_not_final_artistic_acceptance",
+      "assistant_qc": {
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "status": "passed_as_composition_helper",
+        "scope": "Visual inspection of generated full image; identity/design refs and actual previous result remain authority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "part": 4,
+      "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+      "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+      "bytes": 760397,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "5851664e0f38a3453ea64a9afd5a49387e1f4fe4336007d375685b9f9ce6f2e9",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true,
+      "asset_id": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+      "media_type": "image",
+      "role": "action_composition_part_4",
+      "owner_approval": "creation_requested_not_final_artistic_acceptance",
+      "assistant_qc": {
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "status": "passed_as_composition_helper",
+        "scope": "Visual inspection of generated full image; identity/design refs and actual previous result remain authority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "part": 5,
+      "path": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+      "sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27",
+      "bytes": 682341,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "352af32cb5753b28417173ff3b99c8984d8230f9b06046a5e840544e1ae860b7",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true,
+      "asset_id": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+      "media_type": "image",
+      "role": "action_composition_part_5",
+      "owner_approval": "creation_requested_not_final_artistic_acceptance",
+      "assistant_qc": {
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "status": "passed_as_composition_helper",
+        "scope": "Visual inspection of generated full image; identity/design refs and actual previous result remain authority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "part": 6,
+      "path": "references/scenes/scene-52/S52-P6-disembark.jpg",
+      "sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd",
+      "bytes": 840685,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "d9925b08a203504f83de1c4a85b02b82788fbaf6b32bd01f895ab9c0122f9602",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true,
+      "asset_id": "references/scenes/scene-52/S52-P6-disembark.jpg",
+      "media_type": "image",
+      "role": "action_composition_part_6",
+      "owner_approval": "creation_requested_not_final_artistic_acceptance",
+      "assistant_qc": {
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "status": "passed_as_composition_helper",
+        "scope": "Visual inspection of generated full image; identity/design refs and actual previous result remain authority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-52/S52-P6-disembark.jpg",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "part": 7,
+      "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+      "sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+      "bytes": 859473,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "caba2560194e6f002a8353d72aa7f844f86a370966a4a6ebe5adbf58d83ffd55",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true,
+      "asset_id": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+      "media_type": "image",
+      "role": "action_composition_part_7",
+      "owner_approval": "creation_requested_not_final_artistic_acceptance",
+      "assistant_qc": {
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "status": "passed_as_composition_helper",
+        "scope": "Visual inspection of generated full image; identity/design refs and actual previous result remain authority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+      "asset_id": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+      "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+      "bytes": 1537686,
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "media_type": "image",
+      "role": "cruiser_design_exact_topview_source",
+      "source_task_id": "85dab256ad994a72a34946ef70aaaf69",
+      "source_resource_id": "6562f30e60e04b0b9c8a828c8e36a347",
+      "provenance": {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "task_id": "85dab256ad994a72a34946ef70aaaf69",
+        "resource_id": "6562f30e60e04b0b9c8a828c8e36a347",
+        "original_sha256": "fbb2580282b72c5dc9c42481df0491a26a19b48f43f9a9110c7b67d82ca5549e",
+        "original_bytes": 12687056,
+        "original_dimensions": [
+          2752,
+          1536
+        ],
+        "prompt": "Сделай его немного потемнее ",
+        "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+        "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+        "bytes": 1537686,
+        "derivation": "Production JPEG export quality97/subsampling0, original dimensions unchanged; original Topview PNG identified by task/resource and original SHA. No generative edits."
+      },
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-27T10:51:05.186Z",
+        "scope": "Original Topview darkened cruiser visually compared to existing film frame; same wedge, stepped superstructure and two bridge domes."
+      },
+      "owner_approval": "owner_requested_existing_cruiser_not_new_design"
     }
   ],
   "identity_refs": [
@@ -567,5 +792,26 @@
     },
     "historical_continuity_records": "Preserved as history; neither old Wan44 start nor old S52P1 end is selected for the revised sequence.",
     "new_generation_submitted": false
+  },
+  "seven_part_reference_pack": {
+    "report": "reports/scene52-reference-pack-2026-10-27.json",
+    "status": "images_ready_prompts_pending",
+    "source_cruiser": {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "85dab256ad994a72a34946ef70aaaf69",
+      "resource_id": "6562f30e60e04b0b9c8a828c8e36a347",
+      "original_sha256": "fbb2580282b72c5dc9c42481df0491a26a19b48f43f9a9110c7b67d82ca5549e",
+      "original_bytes": 12687056,
+      "original_dimensions": [
+        2752,
+        1536
+      ],
+      "prompt": "Сделай его немного потемнее ",
+      "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+      "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+      "bytes": 1537686,
+      "derivation": "Production JPEG export quality97/subsampling0, original dimensions unchanged; original Topview PNG identified by task/resource and original SHA. No generative edits."
+    },
+    "owner_quote": "6 выход из корабля к городу 7 прогулка по городу татуина. Всем действиям сделать референсных изображений включая корабль в ангаре, облёт нужного крейсера(фото его есть в топвюв) и города на татуине. Полеты и посадка динамичные и захватывающие. И в очереди где это всё будет"
   }
 }

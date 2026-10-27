@@ -3,6 +3,53 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "PROMPT-REFRESH-20261025",
+      "title": "Переработать38промтов28/49–51 и стандарт подробности",
+      "status": "completed_verified",
+      "updated_at": "2026-10-25T11:02:48.852Z",
+      "owner_quote": "Редактируй промты и инструкции",
+      "completed": [
+        "Full instruction preflight; current owner decisions empty.",
+        "Prompt standard v2.3 and AI/USER pointers published with readback.",
+        "38 prompts rewritten;22 pending queue hashes and4manifest maps reconciled; all submitted items/receipts and priorities/dependencies preserved.",
+        "Local master validator health=ok; no video submissions or charges.",
+        "253 tests passed; master/site contracts and canon health passed.",
+        "Main readback verified all14published files; live Pages master/guides/queue SHA matched; project health ok, certificate7/7.",
+        "Canonical sync and integration CI succeeded; takeover brief valid15/15; Notion pointer updated/read back.",
+        "Local browser-specific regression could not run: missing Chromium and invalid official download ZIP; no UI code changed."
+      ],
+      "next_action": "Review the next actual renders of the revised selected queue. No extra tests authorized by this edit.",
+      "canonical_refs": [
+        "reports/prompt-refresh-2026-10-25.md",
+        "reports/prompt-refresh-2026-10-25.json",
+        "PROMPT-STYLE-GUIDE.md"
+      ],
+      "completed_at": "2026-10-25T11:02:48.852Z",
+      "commit": "a9b531ed658f89f822627dad5581ca90c96c4898"
+    },
+    {
+      "work_id": "DANCE-PROMPT-AUDIT-20261025",
+      "title": "Проверка длины промтов старых танцев по всем найденным роликам",
+      "status": "completed",
+      "updated_at": "2026-10-25T10:05:13.364Z",
+      "owner_quote": "Проверь все мои предыдущие танцы 3 в таверне татуине и много на мостика карабля на доске топвюв. изучи этот вопрос",
+      "completed": [
+        "Read current preflight and canonical state; scanned all449 board video tasks.",
+        "Selected17 old outputs (3 cantina,13 bridge,1 solo) and11 completed newer outputs; exact task prompts/settings fetched.",
+        "Downloaded and visually reviewed28 original videos as full-duration1fps sequences:3 cantina,13 bridge,1 solo,11 newer outputs. Exact prompts and metadata archived;28 MP4 hashes recorded.",
+        "Found121-char joyful solo and8859-char lively cantina; old new-dance prompts explicitly constrain motion with holds/small steps. Length effect not causally established. Same6 tango prompts/inputs produce differing sequences.",
+        "Saved4 compact evidence sheets and short-prompt draft; proposed controlled comparison. Current23Oct A1/A2 excluded as not complete. Queue/master/automations unchanged; new submissions0, claim0, spend0."
+      ],
+      "next_action": "Audit complete. Proposed short/detailed comparison is a draft, not a new queue item or automatic permission for repeats.",
+      "canonical_refs": [
+        "reports/dance-prompt-audit-2026-10-25.md",
+        "reports/dance-prompt-audit-2026-10-25/inventory.json",
+        "ops/dance-model-comparison.md"
+      ],
+      "new_submissions": 0,
+      "completed_at": "2026-10-25T10:05:13.364Z"
+    },
+    {
       "work_id": "SITH-TEMPLE-QUEUE-20261025",
       "title": "Сцена63: храм с собственными статуями Серёги; музыка перед всеми танцами",
       "status": "completed",

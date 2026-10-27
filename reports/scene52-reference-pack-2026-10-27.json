@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "work_id": "S52-SEVEN-PARTS-20261027",
+  "status": "seven_images_created_qc_passed_prompts_pending",
+  "generator": "built-in image_gen",
+  "source_cruiser": {
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "task_id": "85dab256ad994a72a34946ef70aaaf69",
+    "resource_id": "6562f30e60e04b0b9c8a828c8e36a347",
+    "original_sha256": "fbb2580282b72c5dc9c42481df0491a26a19b48f43f9a9110c7b67d82ca5549e",
+    "original_bytes": 12687056,
+    "original_dimensions": [
+      2752,
+      1536
+    ],
+    "prompt": "Сделай его немного потемнее ",
+    "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+    "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+    "bytes": 1537686,
+    "derivation": "Production JPEG export quality97/subsampling0, original dimensions unchanged; original Topview PNG identified by task/resource and original SHA. No generative edits."
+  },
+  "assets": [
+    {
+      "part": 1,
+      "path": "references/scenes/scene-52/S52-P1-boarding.jpg",
+      "sha256": "74ca7081d56feb13bef53267533cf93c3cbb83732161ae9ceb7cec959555b321",
+      "bytes": 771152,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "dab2973c4733d107b0b08d90960d67d7ca21f84f448040a74e3c66936dc0f909",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true
+    },
+    {
+      "part": 2,
+      "path": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+      "sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd",
+      "bytes": 748652,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "16a048e55848ae6639749e7e7ac6ae43f72f816fce20de5074f51ca4ab2c7e13",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true
+    },
+    {
+      "part": 3,
+      "path": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+      "sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce",
+      "bytes": 664765,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "17050127a8d5dd938b9c4892a98b6086c8f4a8f755ed9aea73f0f1c5e52e3f70",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true
+    },
+    {
+      "part": 4,
+      "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+      "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+      "bytes": 760397,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "5851664e0f38a3453ea64a9afd5a49387e1f4fe4336007d375685b9f9ce6f2e9",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true
+    },
+    {
+      "part": 5,
+      "path": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+      "sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27",
+      "bytes": 682341,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "352af32cb5753b28417173ff3b99c8984d8230f9b06046a5e840544e1ae860b7",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true
+    },
+    {
+      "part": 6,
+      "path": "references/scenes/scene-52/S52-P6-disembark.jpg",
+      "sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd",
+      "bytes": 840685,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "d9925b08a203504f83de1c4a85b02b82788fbaf6b32bd01f895ab9c0122f9602",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true
+    },
+    {
+      "part": 7,
+      "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+      "sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+      "bytes": 859473,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generated_png_sha256": "caba2560194e6f002a8353d72aa7f844f86a370966a4a6ebe5adbf58d83ffd55",
+      "export": "JPEG quality96 subsampling0, unchanged dimensions/composition; generated PNG preserved by imagegen output.",
+      "synthetic": true
+    }
+  ],
+  "image_prompts": {
+    "1": "Use case: identity-preserve / compositing. Create ONE photorealistic cinematic 16:9 production reference still for Scene52 part1: Serega boarding his OWN flat personal spaceship in a large Imperial hangar. Image1 is the exact personal craft design; image2 is its established hangar placement, landing gear, single side doorway and short folding ramp; image3 is Serega exact face, thinning light-brown hair and deep plum layered robe identity; image4 is the previous repair scene's real ending, only for hangar lighting and the separate BROKEN winged Lambda shuttle in the distant background. Main foreground subject: the same broad dark graphite very LOW flat wedge craft from images1/2, shallow angular canopy, warm thin side lights, original hull paneling, no tall dorsal fin, no folding wings, no person on roof. Preserve the existing side hatch and ramp exactly. Serega, adult pale middle-aged man, is midway UP that ramp, side/three-quarter view, his right foot on the next ramp tread, head turned slightly toward the doorway, stern deadpan face readable at medium scale, hands relaxed; only ONE Serega. Make him human-sized relative to the doorway. In the far background on another service position show the pale Lambda shuttle from image4 with its detached wing panel on the floor and small repair crew, clearly a SECOND DIFFERENT ship; no blending of designs. Wide 35mm ground-level 3/4 framing with the personal craft nose pointing screen right and entire ramp visible, the hangar's open starfield/planet aperture and vertical practical strip lights. Real metal, believable scale, cool hangar light and warm ramp light. Keep the ship cleanly readable and the action immediately understandable. No text, arrows, collage, border, watermark, extra main characters, lightsabers or weapons in Serega's hands.",
+    "2": "Use case: precise-object-edit / cinematic compositing. ONE photorealistic 16:9 reference still for Scene52 part2, an exciting physical takeoff from the SAME hangar. Image1 is the exact personal craft design authority. Image2 is the exact hangar and ground layout. Reposition the SAME broad low dark graphite wedge craft so it is visibly flying 2-3 metres above the hangar floor, accelerating toward the huge open space aperture. It must have the same shallow angular cockpit glazing, flush low roof, original panel seams and horizontal warm side lights; no tall fin, no Lambda folding wings. Side hatch and ramp completely CLOSED and flush; landing gear retracting naturally into the belly, not dragging on floor. Camera is a dynamic rear-side three-quarter tracking view at low altitude: enough side/top is visible to identify the craft from the references, rear propulsion glow stays attached to original engine positions, the open hangar aperture and blue planet limb ahead. The floor drops visibly beneath the ship with strong parallax lines and subtle heat distortion; directional background motion blur only, crisp ship silhouette. Serega remains fully inside the enclosed cockpit and is not visible on any exterior surface. No other foreground ships, no explosion, no laser battle, no decorative giant engine or extra propulsion pods. Film-grade metal and practical illumination, exhilarating forward momentum, physically credible clearance at the doorway. No text, diagram, montage, letterboxing or watermark.",
+    "3": "Use case: precise-object-edit / cinematic compositing. Produce ONE photorealistic 16:9 film reference still for Scene52 part3: a thrilling external fly-by of the EXACT cruiser in Image1, with Serega's EXACT personal craft from Image2. Image1 is the absolute cruiser-design authority, not generic inspiration: preserve its immense grey triangular wedge hull, layered stepped central superstructure, raised wide bridge platform with TWO spherical domes, edge trenches and lit windows, matching bow and proportions. Image2 is a DIFFERENT MUCH SMALLER personal craft: low flat dark graphite wedge, shallow angular canopy, warm horizontal edge lights; keep this craft recognizable with no dorsal fin and no Lambda wings. Composition: the giant cruiser fills the upper and right background, sharp and readable in its entirety; the small craft is near the camera in the lower-left foreground, banking along the cruiser's near-side trench on a clear SAFE outward arc around the bow. Give spectacular depth with huge hull plates and tiny cruiser windows diminishing behind it; the personal craft is tens of metres long while the cruiser is over a kilometre, never equal-sized. The small craft occupies about one fifth of frame width because it is much closer to camera; its flight arc follows the cruiser, not an attack. Tilted tracking-camera composition, strong parallax, black starfield and cool raking starlight, restrained warm engine glow and the exact dark metal design. Closed ramp/hatch, fully stowed gear; pilot entirely inside, nobody on roof or exterior. Only these two main ships, no battle, explosions, energy ribbons or lasers. Do not substitute a different Star Destroyer, redesign the bridge tower, or merge the two ships. No captions, borders, collage, arrows or watermark.",
+    "4": "Use case: cinematic compositing. ONE photorealistic 16:9 film production reference still for Scene52 part4: exhilarating descent toward a Tatooine desert spaceport town. Image1 is the ABSOLUTE design authority for Serega's personal low flat dark graphite wedge spaceship. Image2 establishes the EXACT destination town: preserve its sun-bleached sand-coloured rounded adobe walls, clustered domed roofs, arch doorways, slim moisture-vaporator towers, fabric market awnings and surrounding dunes. Show the same ship in a fast descending BANKED TURN over a dune crest, its nose aiming toward the outskirts of that town in the middle distance. Three-quarter trailing aerial camera, strong diagonal composition and clear readable ship silhouette, expansive golden dunes sweeping below, hot atmospheric haze over the adobe city, a visible open sandy landing field outside town. The city is a LIVED-IN SPACEPORT, no ancient ruins. Ship fully airborne several tens of metres above the sand, all landing gear stowed, side hatch/ramp closed flush. Maintain the exact broad low hull, shallow canopy and side light strips, no tall fin or folding wings, no extra engines; no rider or silhouette on roof. Directional background blur and sand lifting behind the low flight track communicate speed, but no fire or crash. Camera sees both destination and flight direction without being a top-down map. Harsh late-morning desert sunlight, blue pale sky, realistic granular sand and weathered surfaces. No text, arrows, collage, border, watermark, fight, worm or weapons. Serega is inside the cockpit and unseen.",
+    "5": "Use case: cinematic compositing. ONE photorealistic cinematic 16:9 reference still for Scene52 part5, an exciting HEAVY CONTROLLED LANDING at the outskirts of the established Tatooine town. Image1 locks the exact broad flat dark graphite personal wedge ship and canopy/hull design. Image2 locks its grounded scale, single side hatch, original landing supports, and the sand-coloured domed town architecture. Image3 establishes the approach geography, dunes and town. Show the LAST MOMENT BEFORE TOUCHDOWN: same craft about half a metre above a flat sandy landing field OUTSIDE the town, nose slightly raised from forceful braking, original landing feet fully lowered and level, side hatch/ramp completely closed. Warm afternoon/noon desert light consistent with the references. Repulsor wash drives a dramatic LOW ring of rolling sand outward under the hull, leaving the entire silhouette and landing feet visible. One near landing foot is just about to touch the ground; meaningful weight and deceleration, no crash, no flying debris hitting buildings. Low dynamic three-quarter camera near ground, nose toward screen right, town buildings, vaporator towers and awnings in background clearly the same settlement. Crisp ship, some dust motion blur, a safe open gap to buildings. No human on roof, canopy or hull; pilot remains fully inside. Do not open the ramp during motion. No tall Lambda fin, no folding wings, no extra engines, no worms or ruins. No text, collage, arrows, watermark or black bars.",
+    "6": "Use case: identity-preserve cinematic compositing. Create ONE photorealistic 16:9 film production reference for Scene52 part6, Serega EXITING his stationary personal craft and heading toward the established Tatooine town. Image1 is his exact identity/model sheet: pale middle-aged man with thinning light-brown hair, rounded broad face, stern deadpan expression, long deep-plum layered robe and thick folded scarf-like collar, black inner clothes and boots, hood down. Image2 establishes exact ship design, ONE side hatch and short ramp, grounded position and the adobe town. Image3 is the landing location/light. The landing is now complete: same flat dark graphite wedge ship RESTING on all original landing feet, engines off, thin remaining dust settling. ONE Serega is stepping OFF the bottom of the same open side ramp onto sand, body turning to walk toward the nearby town; both legs and the contact with ramp/ground physically clear, hands empty. Use a medium-wide front three-quarter view where his face is readable and the doorway directly behind him proves he has exited through the side, never through roof or glass. Ship spans background left, the town street entrance, pale adobe domes, arched doorways, vaporator towers and tan awnings are visible toward the right. Match original scale: human-sized side doorway, no giant person, no shrunken craft. Consistent harsh golden desert daylight and weathered realistic materials. No duplicate person, no one on roof, no Lambda wings or tall fin, no lightsaber, shopping bag, basket, written signs, captions, diagram or watermark. Emphasize clear transition from parked ship to walking into town.",
+    "7": "Use case: identity-preserve cinematic compositing. Create ONE photorealistic 16:9 production reference still for Scene52 part7: Serega walking through the SAME Tatooine town seen in the supplied location images. Image1 is the exact Serega identity authority: pale mature middle-aged man with sparse light-brown hair at sides, balding crown, broad familiar face/build, long dark-plum robe with thick folded scarf collar over black inner clothes, hood down, no facial redesign. Image2 defines the settlement's rounded sun-baked sand-coloured adobe walls and domes, arch doorways, slim moisture-vaporator towers, ochre cloth market awnings and weathered textures. Image3 fixes Serega after exiting the ship and the same daylight/costume. Street-level medium-wide tracking composition: one full-body Serega walks naturally toward camera and slightly screen right, robe moving with his stride, turns his head a little to inspect the unfamiliar spaceport street, serious understated expression, readable face. A winding dusty market lane stretches behind him with domed roofs, archways, awning shade, clay vessels and ordinary spaceport crates, a few unobtrusive small distant robed residents. This is a lively believable Tatooine settlement, not empty ancient ruins or a medieval castle. A shaded arched street entrance further along suggests the route toward a cantina, but no interior is shown. The ship remains parked outside town and is NOT visible in this street shot. Hands empty, no purchases, no milk cartons, no bread bag, no basket or lightsaber. Same strong warm desert sun, cool soft awning shadows, heat haze, cinematic natural skin and fabric. One Serega only; no named supporting characters or new plot action, no written sign, caption, collage, border or watermark.",
+    "3_revision": "Precise correction of Image1, a cinematic 16:9 fly-by reference. KEEP the existing large grey cruiser, its exact bridge with two spherical domes, stepped superstructure, lighting and starfield. The SMALL personal craft in the foreground is MUCH TOO LARGE and appears nearly touching the cruiser. Correct ONLY that craft's size/position and the space behind it: remove the current oversized foreground craft and replace it with the exact same personal craft at about ONE QUARTER of its present linear size, around 15-20 percent of total image width, in the LOWER LEFT against black space. Leave a CLEAR BLACK-SPACE GAP between its hull and the giant cruiser's side: it is flying, never docked or touching. Show the small craft banking dynamically, entire silhouette visible, shallow angular canopy and warm edge lights recognizable from Image2. The cruiser should read as a kilometre-scale capital ship, the personal craft tens of metres long. Closed hatch, stowed gear, empty roof, no person outside, no extra ships. Preserve the giant cruiser's shape and two-domed bridge exactly; do not shrink the cruiser to make room. This is one coherent live-action frame, not a diagram. No text or labels."
+  },
+  "qc": {
+    "method": "Every generated full-resolution result visually inspected; fly-by scale corrected with a second imagegen edit.",
+    "passed": [
+      "Personal craft remains low flat wedge; damaged Lambda is separate in boarding reference.",
+      "Takeoff and flight references close the side hatch; no exterior rider.",
+      "Fly-by uses exact Topview cruiser design with two bridge domes; corrected smaller craft separated by visible space.",
+      "Landing gear deployed only at landing; ramp closed during motion.",
+      "Exit and walking references preserve Serega face/robe; town architecture and daylight coherent."
+    ],
+    "limits": [
+      "Synthetic action references are composition/design helpers, not actual video continuation frames.",
+      "Boarding face is profile/small; individual identity sheet remains authority.",
+      "Future video results still require ship, identity, physics and continuity review; image QC is not owner artistic acceptance."
+    ]
+  },
+  "updated_at": "2026-10-27T10:51:05.186Z"
+}
