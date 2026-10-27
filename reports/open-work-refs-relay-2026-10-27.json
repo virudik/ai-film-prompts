@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "OPEN-WORK-REFS-RELAY-20261027",
   "project": "seregius",
-  "checked_at": "2026-10-27T21:40:15Z",
+  "checked_at": "2026-10-27T21:56:08Z",
   "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
   "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
   "owner_tasks": [
@@ -209,16 +209,18 @@
     {
       "path": "references/scenes/scene-66/S66-alien-dog.png",
       "status": "tool_output_moderation_blocked",
-      "attempts": 3,
+      "attempts": 4,
       "request_ids": [
         "fd91e9a1-e1a6-4bf9-b008-4578ce7230ae",
         "8e2e940e-429c-41d6-bf50-28df2d4f0b1f",
-        "7b6367ae-d976-4bd6-9dd3-df8fe3d07780"
+        "7b6367ae-d976-4bd6-9dd3-df8fe3d07780",
+        "c1d2866a-9d67-477e-88b3-4b76a79c01bd"
       ],
       "reason": "Built-in imagegen rejected output with category other; no specific explanation returned. No successful image or PNG exists.",
-      "followup": "No further portrait attempts in this pass; finish independent authorized assets and infrastructure. Keep standalone Stitch unavailable.",
-      "last_attempt_at": "2026-10-27T21:12:16+00:00",
-      "last_attempt": "Identity-preserving separate portrait using successful street PNG as reference; same output moderation category other, no image returned."
+      "followup": "Stop automatic retries of the unchanged moderation-blocked request. Complete the remaining asset when a suitable standalone image is supplied or the generator restriction is resolved; do not claim availability or silently switch services.",
+      "last_attempt_at": "2026-10-27T21:56:08Z",
+      "last_attempt": "After the owner explicitly asked to finish, repeated the same canonical standalone Stitch prompt with the same existing street reference. Output rejected: moderation_blocked, category other. No image returned.",
+      "last_attempt_time_basis": "Recorded after the tool response; tool did not provide a server timestamp."
     }
   ],
   "status": "independent_work_complete_stitch_blocked",
@@ -495,5 +497,14 @@
       "result_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
       "remaining": "standalone Stitch PNG blocked by generator"
     }
+  },
+  "latest_continuation": {
+    "owner_request": "Доделывай",
+    "recorded_at": "2026-10-27T21:56:08Z",
+    "attempt_request_id": "c1d2866a-9d67-477e-88b3-4b76a79c01bd",
+    "result": "tool_output_moderation_blocked",
+    "new_image_created": false,
+    "same_canonical_prompt": true,
+    "remaining_assets": 1
   }
 }
