@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "OPEN-WORK-REFS-RELAY-20261027",
   "project": "seregius",
-  "checked_at": "2026-10-27T21:56:08Z",
+  "checked_at": "2026-10-27T22:02:28Z",
   "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
   "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
   "owner_tasks": [
@@ -506,5 +506,16 @@
     "new_image_created": false,
     "same_canonical_prompt": true,
     "remaining_assets": 1
+  },
+  "reuse_existing_stitch": {
+    "status": "authorized_preparing",
+    "owner_quote": "Есть же фото Стича с девочками, её недостаточно? из этой фотки сделать нельзя ?",
+    "recorded_at": "2026-10-27T22:02:28Z",
+    "source_path": "references/scenes/scene-66/S66-street-outrage.png",
+    "source_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+    "decision": "Use the existing unchanged frame as the Stitch identity reference; the owner accepts this source. Separate newly generated PNG is no longer a prerequisite. Do not manufacture or claim a missing standalone file.",
+    "planned_mapping": "52P7 Image3 uses shared image. Scene66 Image3 combines Stitch and street; old duplicate street slot removed, fruit becomes Image4 and Masha Image5.",
+    "new_image_generation": false,
+    "new_video_generation": false
   }
 }
