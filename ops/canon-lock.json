@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:scene-review",
-  "task": "Shorten handoff line (size warn)",
-  "acquired_at": "2026-10-27T16:27:25Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T16:28:44Z",
+  "task": "Queue scenes 64-67 before dances (owner 27.10)",
+  "acquired_at": "2026-10-27T16:32:54Z",
+  "expires_at": "2026-10-27T17:17:54Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
