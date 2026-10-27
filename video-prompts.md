@@ -7828,6 +7828,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-67/S67-fruit-stall.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-fruit-stall.png" alt="Татуин: прилавок с инопланетными фруктами" loading="lazy"></a><figcaption>@Image2 — Татуин: прилавок с инопланетными фруктами</figcaption></figure>
 <figure><a href="references/scenes/scene-67/S67-vendor.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-vendor.png" alt="Четырёхрукий торговец фруктами" loading="lazy"></a><figcaption>@Image3 — Четырёхрукий торговец фруктами</figcaption></figure>
 <figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="Маша Р: развёртка в одежде Татуина" loading="lazy"></a><figcaption>@Image1 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-Masha-R-market-quarrel.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-market-quarrel.png" alt="Маша Р спорит о цене с четырёхруким продавцом" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша Р спорит о цене с четырёхруким продавцом</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="67">
