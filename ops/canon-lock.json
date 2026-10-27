@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "S52-OWNER-REVIEW-20261027: pause old P2, review actual videos and plan split from Seedance2.5 S44",
-  "acquired_at": "2026-10-27T09:54:53.944Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T10:10:25.216Z",
+  "task": "S52-SEVEN-PARTS-20261027: seven action references, revised prompts and queue",
+  "acquired_at": "2026-10-27T10:29:39.626Z",
+  "expires_at": "2026-10-27T11:14:39.626Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
