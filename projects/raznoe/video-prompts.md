@@ -4412,7 +4412,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-23"></a>
 ## Сцена 23 — ЦПК: Робот снаружи, руки на тренажёре
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
 
 **Контекст использования:** Новостной ролик о тренировке управления манипулятором ERA на тренажёре «Дон-ERA»: инструктор вводит отказ, экипаж доводит работу вручную. **Новостной повод · 23.10.2026.**
 
@@ -4422,9 +4422,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК, 23.10.2026 — тренировка на «Дон-ERA»](https://www.gctc.ru/main.php?id=7793).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png`. Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png` (ещё не нарисован). Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-23/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png`. Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png`. Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-23/*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-23/c23-era-arm.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-23/c23-era-arm.png" alt="Сцена 23, @Image2: ЦПК: манипулятор на орбитальном модуле" loading="lazy"></a><figcaption>@Image2 — ЦПК: манипулятор на орбитальном модуле. Созданный концепт.</figcaption></figure>
 <figure><a href="projects/raznoe/references/scenes/scene-23/c23-console.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-23/c23-console.png" alt="Сцена 23, @Image1: ЦПК: пульт тренажёра манипулятора" loading="lazy"></a><figcaption>@Image1 — ЦПК: пульт тренажёра манипулятора. Созданный концепт.</figcaption></figure>
 </div>
 
@@ -4432,7 +4433,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Финальный титр для монтажа:** «ЦПК. Готовы к нештатной ситуации.»
 
-**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+**Готовность:** тексты промтов готовы 27.10.2026. Оба референса нарисованы открытым ChatGPT Work, сохранены в галерее и реестре; технически проверены. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
 
 **Режиссёрский контроль:** Одна и та же рука и модуль на мониторе и в космосе; один захват всегда закреплён; отказ показан остановкой и красной лампой, без текста. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 

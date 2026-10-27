@@ -18,7 +18,23 @@
       "width": 1672,
       "height": 941,
       "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-23/c23-era-arm.png",
+      "caption": "ЦПК: манипулятор на орбитальном модуле",
+      "prompt_file": "projects/raznoe/references/scenes/scene-23/c23-era-arm.image-prompt.txt",
+      "created_by": "ChatGPT imagegen (open Work)",
+      "created_at": "2026-10-27T18:37:31+00:00",
+      "source_type": "ai_generated_concept",
+      "editorial_status": "not_approved",
+      "sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f",
+      "scenes": [
+        23
+      ],
+      "width": 1672,
+      "height": 941,
+      "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
     }
   ],
-  "updated_at": "2026-10-27T18:31:57+00:00"
+  "updated_at": "2026-10-27T18:37:31+00:00"
 }
