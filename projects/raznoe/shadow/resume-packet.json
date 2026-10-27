@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-27T18:45:04+00:00",
-  "source_head": "608b06f215c7375ef3e383ec9e17fc5e620b52ff",
-  "source_fingerprint": "b52fa357175273738372f10680690fb94055d7d7ac8bba9db81ceb80eba99483",
+  "checked_at": "2026-10-27T18:51:26+00:00",
+  "source_head": "59b7f8dd5de8f816c970e434d8f7df950bcb544c",
+  "source_fingerprint": "16b70beaad3e3fbb351ed9dea2bcbab7770215eee09454e5cd77b1d8ab4aedda",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -188,13 +188,13 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "82a628da8f5dd303735b2cd70bb5e5bb7cbb126cc38288f035f625e3b4ea29fb",
-      "bytes": 6551
+      "sha256": "e25cb63023268dc6578d3e30f53f41146bb4752575ca17ad9a53906d98f05d29",
+      "bytes": 7004
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "359a83fd60d7028665045c96aaea2e4e30ee772569383b9a0007fc6a690eb744",
-      "bytes": 3051
+      "sha256": "3387705e97832d05cf69b84408028a86942f5ae83bd7e96531db71206f37aa58",
+      "bytes": 3272
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
@@ -203,8 +203,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "8e08c1dbbfa153bdcc2a1f7bd7d52178fd7a08864a96a6287ce685844320b374",
-      "bytes": 19314
+      "sha256": "35e5660b1fb45f5fd8a1e900caf63d25c08651864a0bb7b7e6e40985b7dfad9e",
+      "bytes": 19283
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
@@ -218,8 +218,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "0ca8d59b06661d5773e76b046d21f7bdf8766bee85641dc9d9252ac936c18864",
-      "bytes": 471166
+      "sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
+      "bytes": 471570
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
