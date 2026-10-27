@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-27T06:42:11.566Z",
+  "updated_at": "2026-10-27T10:08:38.722Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -253,6 +253,26 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027.png",
+      "asset_id": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027.png",
+      "media_type": "image",
+      "role": "selected_revised_opening_actual_final_frame",
+      "sha256": "e65b0118def2dabc6ca2ace13fd86834ad895e324248ab15226dd72d8bbc0b36",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 1317663,
+      "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+      "owner_approval": "source_selected_not_whole_scene_approval",
+      "thumbnail_path": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027-thumb.jpg",
+      "assistant_qc": {
+        "status": "viewed_actual_last_frame",
+        "checked_at": "2026-10-27T10:08:38.722Z",
+        "scope": "Serega foreground left looking toward technicians; one seated technician on floor, one on ladder, one standing further right; large wing panel angled down behind him. Preserve actual pose, axis and damage."
+      }
     }
   ],
   "identity_refs": [
@@ -276,16 +296,46 @@
       "target_item": "S52-SEED20-P2",
       "source_item": "S52-SEED20-P1",
       "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
-      "status": "available_qc_passed_for_continuity",
+      "status": "held_owner_revision_not_current_input",
       "actual_video_required": true,
       "path": "references/scenes/scene-52/S52-P1-last3s-20261027.mp4",
       "sha256": "284cd066382a4e1d15ee72e133028c77da837072faef57d793a72570a72496d8",
-      "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json"
+      "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json",
+      "historical_status_before_owner_revision": "available_qc_passed_for_continuity"
+    },
+    {
+      "slot": "@Video1",
+      "target": "proposed revised S52 opening; no queue item created",
+      "status": "owner_selected_existing_source_prepared",
+      "actual_video_required": true,
+      "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+      "path": "references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4",
+      "sha256": "67d37583c8c7bd0d1d903a15639d4f032e9e047babbf833353e2ef88a621c04a",
+      "bytes": 1026899,
+      "duration_seconds": 3,
+      "fps": 24,
+      "frames": 72,
+      "source_start_frame_zero_based": 649,
+      "source_end_frame_exclusive": 721,
+      "source_start_seconds": 27.041666666666668,
+      "source_end_seconds": 30.041666666666668,
+      "derivation": "ffmpeg trim by video frames 649:721; setpts; matching audio atrim; H264 CRF16/AAC192k. Actual result footage, not a synthetic recreation."
     }
   ],
   "approved": [],
   "rejected": [],
-  "start_frame": null,
+  "start_frame": {
+    "path": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027.png",
+    "sha256": "e65b0118def2dabc6ca2ace13fd86834ad895e324248ab15226dd72d8bbc0b36",
+    "bytes": 1317663,
+    "source_frame_zero_based": 720,
+    "source_timestamp_seconds": 30,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "derivation": "ffmpeg select frame n=720 from original, lossless PNG."
+  },
   "end_frame": {
     "path": "references/scenes/scene-52/S52-P1-final-frame-20261027.png",
     "sha256": "40d96286c3e5cd6b7153d62279ef6485376cde7922e9abb1680ac6a929bb779f",
@@ -369,7 +419,7 @@
     "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
     "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
   },
-  "remaining": "S52-P2 real input prepared and continuity-QC passed; waiting for a free video slot. P1 artistic/owner approval is not implied; audio was not listened.",
+  "remaining": "Owner review27Oct supersedes old P2 readiness. Selected S44 Seedance2.5 actual end saved. Five core parts plus optional exit proposed; prepare new per-part prompts/references after final structure decision. Old P2 stays blocked_owner_decision.",
   "actual_continuity_20261023": {
     "at": "2026-10-23T01:51:09.796Z",
     "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
@@ -461,5 +511,61 @@
       "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70"
     },
     "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json"
+  },
+  "owner_revision_20261027": {
+    "status": "review_complete_split_proposal_ready",
+    "report": "reports/scene52-rebuild-2026-10-27.json",
+    "old_p2_state": "blocked_owner_decision",
+    "selected_source": {
+      "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+      "source_model": "Seedance 2.5",
+      "source_model_id": "seedance-2.5",
+      "source_original_sha256": "8e6f3045c2f27ad290d8deeb0d93ab8ceae3154ee5b43337681d4aa8e5373f29",
+      "source_original_size_bytes": 21684722,
+      "source_video_duration_seconds": 30.041667,
+      "source_video_frames": 721,
+      "source_fps": 24,
+      "source_drive_file_id": "1fZKoxoDTeMeyHeFLK48KuCuLgEtmRpU-",
+      "selected_by_owner": true,
+      "selection_scope": "Use this existing repair ending as start of revised S52; not approval of all S44 or authorization of new renders.",
+      "clip": {
+        "path": "references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4",
+        "sha256": "67d37583c8c7bd0d1d903a15639d4f032e9e047babbf833353e2ef88a621c04a",
+        "bytes": 1026899,
+        "duration_seconds": 3,
+        "fps": 24,
+        "frames": 72,
+        "source_start_frame_zero_based": 649,
+        "source_end_frame_exclusive": 721,
+        "source_start_seconds": 27.041666666666668,
+        "source_end_seconds": 30.041666666666668,
+        "derivation": "ffmpeg trim by video frames 649:721; setpts; matching audio atrim; H264 CRF16/AAC192k. Actual result footage, not a synthetic recreation."
+      },
+      "final_frame": {
+        "path": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027.png",
+        "sha256": "e65b0118def2dabc6ca2ace13fd86834ad895e324248ab15226dd72d8bbc0b36",
+        "bytes": 1317663,
+        "source_frame_zero_based": 720,
+        "source_timestamp_seconds": 30,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "derivation": "ffmpeg select frame n=720 from original, lossless PNG."
+      },
+      "thumbnail": {
+        "path": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027-thumb.jpg",
+        "sha256": "8452d1c60d37a91413330b8506b9d33f09d5de943161cdc6dc31694807feaa26"
+      },
+      "qc": {
+        "method": "Full 30s source sampled at1fps; actual last frame inspected at1280x720; clip duration/frame count verified.",
+        "audio_listened": false,
+        "continuous_full_frame_rate_playback": false,
+        "observed": "Serega foreground left looking toward technicians; one seated technician on floor, one on ladder, one standing further right; large wing panel angled down behind him. Preserve actual pose, axis and damage.",
+        "scope": "Usable source for planning a new opening. Does not approve the entire repair scene or assume the wing attachment is perfectly resolved."
+      }
+    },
+    "historical_continuity_records": "Preserved as history; neither old Wan44 start nor old S52P1 end is selected for the revised sequence.",
+    "new_generation_submitted": false
   }
 }

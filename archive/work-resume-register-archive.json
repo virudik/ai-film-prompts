@@ -3,6 +3,30 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "SITH-TEMPLE-QUEUE-20261025",
+      "title": "Сцена63: храм с собственными статуями Серёги; музыка перед всеми танцами",
+      "status": "completed",
+      "updated_at": "2026-10-25T09:40:02.205Z",
+      "authorization": "Owner25Oct: create temple scene and reference images; queue before dances/music; 49→50→51 before all dances; old unsuccessful dances do not count completed.",
+      "next_action": "Regular queue executor continues by priority and actual readiness; scene63 ready for one Wan3.0 30s720p Unlimited0 attempt in My First Board. Review each new result; never parallel duplicate A1/A2 rerenders.",
+      "canonical_refs": [
+        "video-prompts.md",
+        "ops/topview-launch-queue.json",
+        "references/scenes/scene-63/manifest.json"
+      ],
+      "constraints": [
+        "No Topview credits; queue update/reference production only in this turn",
+        "Old dance receipts retained; failed takes not completed editorially",
+        "Relay postponed by owner until PC; hourly task unchanged"
+      ],
+      "completed_at": "2026-10-25T09:40:02.205Z",
+      "done": [
+        "Scene63: full30s + two15s prompts;3 new generated references saved in GitHub, manifest/SHA, thumbnails and both galleries.",
+        "Order63→49→50→51→all selected A1–A12 after current story priorities. Old failed dances not complete; A1/A2 explicit new attempts wait own active predecessor terminal/QC. History retained; A3 follows fresh A2-R2.",
+        "Live gallery visually verified25Oct: all3 scene63 thumbnails loaded640×360; scene page opens. Local253 tests and live integration/canonical/reference checks passed; project26scenes105prompts healthok, canon-health0warnings. No new video submission."
+      ]
+    },
+    {
       "work_id": "S59-OWNER-P1-CONTINUATION",
       "title": "Сцена59: готоваяP1 + атмосфера/лес, посадка, выход с корзинкой",
       "status": "completed_expansion_queued",

@@ -2,12 +2,222 @@
   "schema_version": 1,
   "work_id": "S52-OWNER-REVIEW-20261027",
   "scene_id": 52,
-  "updated_at": "2026-10-27T09:56:07.089Z",
-  "status": "review_in_progress",
+  "updated_at": "2026-10-27T10:08:38.722Z",
+  "status": "review_complete_split_proposal_ready",
   "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
   "current_s52_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
   "selected_s44_task_id": "3c01baad89544304aaa803725f6aae4b",
   "selected_s44_model": "Seedance 2.5",
   "old_p2_state": "blocked_owner_decision",
-  "new_generation_submitted": false
+  "new_generation_submitted": false,
+  "source_selection": {
+    "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+    "source_model": "Seedance 2.5",
+    "source_model_id": "seedance-2.5",
+    "source_original_sha256": "8e6f3045c2f27ad290d8deeb0d93ab8ceae3154ee5b43337681d4aa8e5373f29",
+    "source_original_size_bytes": 21684722,
+    "source_video_duration_seconds": 30.041667,
+    "source_video_frames": 721,
+    "source_fps": 24,
+    "source_drive_file_id": "1fZKoxoDTeMeyHeFLK48KuCuLgEtmRpU-",
+    "selected_by_owner": true,
+    "selection_scope": "Use this existing repair ending as start of revised S52; not approval of all S44 or authorization of new renders.",
+    "clip": {
+      "path": "references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4",
+      "sha256": "67d37583c8c7bd0d1d903a15639d4f032e9e047babbf833353e2ef88a621c04a",
+      "bytes": 1026899,
+      "duration_seconds": 3,
+      "fps": 24,
+      "frames": 72,
+      "source_start_frame_zero_based": 649,
+      "source_end_frame_exclusive": 721,
+      "source_start_seconds": 27.041666666666668,
+      "source_end_seconds": 30.041666666666668,
+      "derivation": "ffmpeg trim by video frames 649:721; setpts; matching audio atrim; H264 CRF16/AAC192k. Actual result footage, not a synthetic recreation."
+    },
+    "final_frame": {
+      "path": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027.png",
+      "sha256": "e65b0118def2dabc6ca2ace13fd86834ad895e324248ab15226dd72d8bbc0b36",
+      "bytes": 1317663,
+      "source_frame_zero_based": 720,
+      "source_timestamp_seconds": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "derivation": "ffmpeg select frame n=720 from original, lossless PNG."
+    },
+    "thumbnail": {
+      "path": "references/scenes/scene-52/S52-start-from-S44-seed25-20261027-thumb.jpg",
+      "sha256": "8452d1c60d37a91413330b8506b9d33f09d5de943161cdc6dc31694807feaa26"
+    },
+    "qc": {
+      "method": "Full 30s source sampled at1fps; actual last frame inspected at1280x720; clip duration/frame count verified.",
+      "audio_listened": false,
+      "continuous_full_frame_rate_playback": false,
+      "observed": "Serega foreground left looking toward technicians; one seated technician on floor, one on ladder, one standing further right; large wing panel angled down behind him. Preserve actual pose, axis and damage.",
+      "scope": "Usable source for planning a new opening. Does not approve the entire repair scene or assume the wing attachment is perfectly resolved."
+    }
+  },
+  "scope": "Review existing result and selected repair ending; pause obsolete continuation; prepare a concrete split proposal. New prompt blocks and renders are not yet created.",
+  "review": {
+    "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+    "model": "Seedance 2.0",
+    "video_duration_seconds": 15.041667,
+    "original_sha256": "e646e809d6e3fdaf93264d790432504ad92af4525a38f89a0b2448882cb62ca7",
+    "method": "Visual frame sampling across the original at2fps, existing last3s contact at4fps and source reference comparison; not full-frame-rate playback; audio not listened.",
+    "defects": [
+      {
+        "time_seconds_approx": [
+          2.5,
+          5
+        ],
+        "finding": "Boards a tall-fin/winged Lambda-like shuttle instead of the separate flat dark personal craft."
+      },
+      {
+        "time_seconds_approx": [
+          5.5,
+          7
+        ],
+        "finding": "Bread/milk note is on Serega chest instead of blank right cockpit panel."
+      },
+      {
+        "time_seconds_approx": [
+          7,
+          8
+        ],
+        "finding": "Abrupt cut to exterior; physical lift-off and crossing the hangar opening are not established."
+      },
+      {
+        "time_seconds_approx": [
+          8,
+          15
+        ],
+        "finding": "Exterior continues the wrong winged craft; route/vehicle continuity does not deliver the intended flight."
+      }
+    ],
+    "not_a_defect_of_p1": "Tatooine was planned for old P2, so its absence from the current P1 is not itself a generation error.",
+    "prior_qc": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json",
+    "prior_qc_limit": "No person on roof in last3s is insufficient to validate correct ship identity or the whole scene. Historical QC preserved; owner hold supersedes continuation readiness."
+  },
+  "proposal": {
+    "status": "creative_proposal_not_launch_authorization",
+    "scene_id": 52,
+    "parts": [
+      {
+        "part": "52A",
+        "required": true,
+        "duration_proposal_seconds": 15,
+        "action": "Пересадка в личный корабль",
+        "beats": [
+          "Точная поза и взгляд из выбранного конца44; короткая реакция на техников.",
+          "Мотивированная смена ракурса раскрывает отдельный плоский личный корабль; сломанный Lambda остаётся позади.",
+          "Серёга проходит через один боковой люк с короткой рампой и садится в кабине."
+        ],
+        "end_anchor": "Серёга внутри правильной кабины; записка хлеб/молоко на правой панели, не на одежде."
+      },
+      {
+        "part": "52B",
+        "required": true,
+        "duration_proposal_seconds": 15,
+        "action": "Взлёт и выход из ангара",
+        "beats": [
+          "Короткий запуск в кабине; корабль ощутимо отрывается от пола.",
+          "Набирает высоту в ангаре и физически пересекает его проём.",
+          "Камера снаружи принимает тот же корабль у края корпуса крейсера."
+        ],
+        "end_anchor": "Тот же корабль полностью снаружи; понятное направление полёта."
+      },
+      {
+        "part": "52C",
+        "required": true,
+        "duration_proposal_seconds": 15,
+        "action": "Облёт крейсера снаружи",
+        "beats": [
+          "Общий план показывает разницу масштабов личного корабля и крейсера.",
+          "Управляемый проход вдоль борта с уходом под корпус и виражом за оконечностью.",
+          "Удаление в открытый космос; ясная траектория без телепортации."
+        ],
+        "end_anchor": "Читаемый силуэт личного корабля, тот же цвет, фонарь и двигатели."
+      },
+      {
+        "part": "52D",
+        "required": true,
+        "duration_proposal_seconds": 15,
+        "action": "Спуск к Татуину и раскрытие города",
+        "beats": [
+          "Атмосферный спуск и переход к жаркому пустынному горизонту.",
+          "Бреющий проход над дюнами; город постепенно появляется впереди.",
+          "Заход к свободной площадке на окраине с видимым ориентиром следующего кадра."
+        ],
+        "end_anchor": "Город и место посадки в одной географии; шасси/высота/курс переходят в52E."
+      },
+      {
+        "part": "52E",
+        "required": true,
+        "duration_proposal_seconds": 15,
+        "action": "Подробная посадка у города",
+        "beats": [
+          "Читаемое торможение и выпуск шасси при снижении.",
+          "Пыль расходится от тяги; корабль тяжело касается грунта и оседает на опорах.",
+          "Двигатели стихают, пыль открывает корабль и окраину города."
+        ],
+        "end_anchor": "Устойчиво стоящий корабль, сохранены сторона люка, город и освещение."
+      },
+      {
+        "part": "52F",
+        "required": false,
+        "duration_proposal_seconds": 15,
+        "action": "Отдельный выход к городу",
+        "beats": [
+          "Боковой люк и та же короткая рампа открываются после остановки.",
+          "Серёга спускается и проходит мимо носа к городским улицам.",
+          "Короткий переход к дальнейшей ветке с кантиной."
+        ],
+        "end_anchor": "Серёга идёт в город; этот фрагмент можно сократить при монтаже."
+      }
+    ],
+    "core_parts": 5,
+    "optional_exit_part": 1,
+    "raw_duration_seconds_core": 75,
+    "raw_duration_seconds_with_exit": 90,
+    "duration_note": "Generation lengths proposed for separate clips; final edit may be shorter. Part labels here are planning labels, not new Scene IDs or queue IDs.",
+    "kashyyyk_analogy": "Use separate approach/landing/exit stages as in Scene59, but preserve Tatooine dunes, heat haze, domed adobe town, dusty outskirts. Do not copy forest choreography.",
+    "tatooine_town_lock": "Existing S52 town: pale sand, low sand-coloured rounded adobe walls and domed roofs, arched doorways, narrow dusty streets, a few slim moisture-vaporator towers. Outskirts, not worm ruins.",
+    "reference_requirements": [
+      "Use clean S37 personal-ship roof reference and empty cockpit; old submitted P1 used earlier sources.",
+      "Prepare a boarding composition that clearly separates damaged Lambda from flat personal craft, including one side hatch/ramp.",
+      "Use ship-location images only as synthetic design/location helpers, never as actual previous-video endings.",
+      "Each seamless successor requires actual previous result end plus visual QC for ship design, direction, light, landing gear/hatch and character position.",
+      "New Seedance2.0 action parts need individual prompts/reference slots under current prompt-style rules; old 2x15s text must not simply be requeued."
+    ]
+  },
+  "next_action": "Review proposed five core parts plus optional exit with owner; then prepare new prompt/reference pack under current rules. Old P2 stays held until revised sequence has explicit scope and launch readiness.",
+  "validation": {
+    "new_generation_submitted": false,
+    "signed_media_urls_saved": false,
+    "historical_inputs_preserved": true,
+    "unit_tests": {
+      "tests": 305,
+      "result": "passed"
+    },
+    "site_validator": "passed",
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0
+    },
+    "takeover_brief": {
+      "valid": true,
+      "anchors": 15,
+      "anchors_ok": 15
+    },
+    "clip_ffprobe": {
+      "video_frames": 72,
+      "duration_seconds": 3,
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  }
 }

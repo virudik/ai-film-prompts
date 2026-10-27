@@ -1,28 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T09:56:07.089Z",
+  "last_updated_at": "2026-10-27T10:08:38.722Z",
   "active_work": [
-    {
-      "work_id": "S52-OWNER-REVIEW-20261027",
-      "title": "Пересборка сцены52 от конца ремонта Seedance2.5",
-      "status": "review_in_progress",
-      "updated_at": "2026-10-27T09:56:07.089Z",
-      "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
-      "completed": [
-        "Exact S52 and S44 Seedance2.5 source task IDs verified via Topview; old unsubmitted S52 P2 placed on owner hold."
-      ],
-      "next_action": "Review downloaded originals and Kashyyyk split; prepare a separate-action proposal with exact source provenance. No new rendering yet.",
-      "canonical_refs": [
-        "reports/scene52-rebuild-2026-10-27.json",
-        "ops/topview-launch-queue.json"
-      ]
-    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "all_slots_occupied_phase_ab_ok",
-      "updated_at": "2026-10-27T07:05:35.552Z",
+      "updated_at": "2026-10-27T10:08:38.722Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -34,7 +19,7 @@
         "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun.",
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch."
       ],
-      "next_action": "6/6 occupied after 13-board scan. S52-P2 priority0 has real P1 last3s + continuity QC; on a confirmed free slot, fresh-scan and run all Unlimited0/CAS checks. P1 defect recorded; no artistic approval; audio not listened. Never repeat S52-P1/S48-P1.",
+      "next_action": "Freshly check slots and choose only ready authorized items by live queue priority. Owner27Oct holds old S52-P2 for rebuild from S44 Seedance2.5; do not launch it. Never repeat S52-P1/S48-P1. See reports/scene52-rebuild-2026-10-27.json.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -250,8 +235,8 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_results_and_slots",
-      "updated_at": "2026-10-24T21:08:02.222Z",
-      "next_action": "Six slots are occupied. Await actual S56-P1 task b15165813c0848939edbe8b3d3aed182, then archive/QC and prepare only its real end for S56-P2. S42-P2 is now ready after exact restoration of the canonical continuity clip; at the next free slot, launch it only if higher-priority S52-P2 still lacks a verified real input. Fresh full scan and CAS claim before any future submit; no repeats.",
+      "updated_at": "2026-10-27T10:08:38.722Z",
+      "next_action": "Await actual S56-P1, then archive/QC and prepare its real end for S56-P2. Before any submit use fresh global scan and live queue priority; S42-P2 was already submitted and old S52-P2 is held by owner27Oct. Do not repeat either. See current receipts/queue.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
@@ -577,6 +562,12 @@
         "queue_readiness": "prepare_continuity",
         "ready": false,
         "reason": "Current saved S42-P1-last3s.mp4 does not match the queue's expected canonical SHA/size. Do not submit S42-P2 until provenance and canonical input agree."
+      },
+      "scene52_owner_revision": {
+        "at": "2026-10-27T10:08:38.722Z",
+        "report": "reports/scene52-rebuild-2026-10-27.md",
+        "status": "split_proposal_ready",
+        "next_action": "Use selected existing S44 Seedance2.5 ending; settle five core parts + optional city exit, then prepare new per-part prompts/reference pack. Old S52-P2 held; no revised launch yet."
       }
     },
     {
@@ -1344,6 +1335,26 @@
   ],
   "completed_work": [
     {
+      "work_id": "S52-OWNER-REVIEW-20261027",
+      "title": "Проверка сцены52 и подготовка выбранного конца44",
+      "status": "completed_review_proposal_ready",
+      "updated_at": "2026-10-27T10:08:38.722Z",
+      "owner_quote": "Сцена 52 проверь видео получившееся. в нём всё не так. может разбить её на несколько посадка в корабль взлет облёт крейсера снаружи, посадка на татуин у города подробно (наподобие как мы делали для сцен с посадкой на кашиике но по своему). . и для начала используем другую версию концовки ремонта крыла (ту что от сиденс2.5)",
+      "completed": [
+        "Reviewed actual S52P1 and S44 Seedance2.5 sources; defects and limits recorded.",
+        "Old S52P2 held; exact final72frames and frame720 of selected S44 saved with SHA/provenance.",
+        "Five core clips plus optional exit proposed; new prompts/renders not claimed."
+      ],
+      "next_action": "Creative proposal in reports/scene52-rebuild-2026-10-27.md; further revised52 work is tracked in SEREGIUS-PLAN-20261023.",
+      "canonical_refs": [
+        "reports/scene52-rebuild-2026-10-27.md",
+        "reports/scene52-rebuild-2026-10-27.json",
+        "references/scenes/scene-52/manifest.json",
+        "ops/topview-launch-queue.json"
+      ],
+      "completed_at": "2026-10-27T10:08:38.722Z"
+    },
+    {
       "work_id": "PROJECT-UI-INSTRUCTIONS-20261027",
       "title": "Синхронизация внутренних инструкций ChatGPT Project",
       "status": "completed_verified_configuration",
@@ -1531,30 +1542,6 @@
       ],
       "new_submissions": 0,
       "completed_at": "2026-10-25T10:05:13.364Z"
-    },
-    {
-      "work_id": "SITH-TEMPLE-QUEUE-20261025",
-      "title": "Сцена63: храм с собственными статуями Серёги; музыка перед всеми танцами",
-      "status": "completed",
-      "updated_at": "2026-10-25T09:40:02.205Z",
-      "authorization": "Owner25Oct: create temple scene and reference images; queue before dances/music; 49→50→51 before all dances; old unsuccessful dances do not count completed.",
-      "next_action": "Regular queue executor continues by priority and actual readiness; scene63 ready for one Wan3.0 30s720p Unlimited0 attempt in My First Board. Review each new result; never parallel duplicate A1/A2 rerenders.",
-      "canonical_refs": [
-        "video-prompts.md",
-        "ops/topview-launch-queue.json",
-        "references/scenes/scene-63/manifest.json"
-      ],
-      "constraints": [
-        "No Topview credits; queue update/reference production only in this turn",
-        "Old dance receipts retained; failed takes not completed editorially",
-        "Relay postponed by owner until PC; hourly task unchanged"
-      ],
-      "completed_at": "2026-10-25T09:40:02.205Z",
-      "done": [
-        "Scene63: full30s + two15s prompts;3 new generated references saved in GitHub, manifest/SHA, thumbnails and both galleries.",
-        "Order63→49→50→51→all selected A1–A12 after current story priorities. Old failed dances not complete; A1/A2 explicit new attempts wait own active predecessor terminal/QC. History retained; A3 follows fresh A2-R2.",
-        "Live gallery visually verified25Oct: all3 scene63 thumbnails loaded640×360; scene page opens. Local253 tests and live integration/canonical/reference checks passed; project26scenes105prompts healthok, canon-health0warnings. No new video submission."
-      ]
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json"
