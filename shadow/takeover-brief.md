@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-27T19:18:23+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-27T19:21:43+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 80102 B · `1429253208039887`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16692 B · `353e9e8fee391b9d`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18925 B · `a6bf924b43892379`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1004796 B · `bbd0df55e9b415df`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1005169 B · `c32cfccca91c3536`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -65,7 +65,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | a7573f3dcf7b |
 | 65 | Татуин: Серёга молча выпивает в баре с Бобой Феттом и компан | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | b688c16a3b5b |
 | 66 | Татуин: две девочки и инопланетная собака | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [52] | dbbd0619f732 |
-| 67 | Татуин: девушка яростно ругается с продавцом фруктов | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 5a4112e7c5dc |
+| 67 | Татуин: девушка яростно ругается с продавцом фруктов | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 8b8f3a2199c4 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
