@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T06:16:16Z",
+  "last_updated_at": "2026-10-27T06:26:53Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "all_slots_occupied_after_S48_P1",
-      "updated_at": "2026-10-27T06:16:16Z",
+      "updated_at": "2026-10-27T06:26:53Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -19,7 +19,7 @@
         "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun.",
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch."
       ],
-      "next_action": "All six video slots are occupied after verified S48-P1 task 8d7ff1e2de63478693778de29e0dd56e. Do not resubmit. While occupied, prepare real continuity/QC only from actual success results; S52-P2 needs real S52-P1 ending/QC and S48-P2 needs real S48-P1 ending/QC. At the next cycle fresh-read main and perform a complete global scan before any launch.",
+      "next_action": "All six video slots are occupied, confirmed by a fresh UI review of all 13 boards through the end of each list. S48-P1 task 8d7ff1e2de63478693778de29e0dd56e was submitted by a concurrent pass; this Relay event run made no Create/claim. Do not repeat S48-P1. Next event: fresh main and complete global scan; dependent parts require their real result and continuity/QC.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -64,59 +64,114 @@
         "result": "No new failure email. The two matching messages were already recorded and resolved; later Canon health runs remain successful. Project-status freshness mismatch was repaired and verified."
       },
       "last_topview_scan": {
-        "at": "2026-10-26T12:03:15.095Z",
-        "method": "complete all-board/all-page robot snapshot at 2026-10-26T11:11:34Z plus live authenticated My First Board UI verification in this cycle",
+        "checked_at": "2026-10-27T06:26:33.898Z",
+        "method": "Authenticated Topview website UI; all 13 board lists loaded through their end/empty indicator, main board rechecked after concurrent submission. Active IDs cross-checked against robot snapshot at 2026-10-27T06:20:15Z.",
         "boards": 13,
-        "pages": 14,
-        "total_tasks": 613,
         "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
-        "board_name": "My First Board",
         "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "main_board_items": 670,
+        "total_board_items": 937,
+        "board_item_counts": [
+          16,
+          0,
+          0,
+          11,
+          0,
+          32,
+          20,
+          5,
+          64,
+          37,
+          23,
+          59,
+          670
+        ],
         "active_task_ids": [
-          "34ff1bf7fe9d47f08de5a635d5626c70",
           "4a1061e175054da2810ffef8ad9d31cd",
           "4b7b972870a44dfbb29bd6c5e330a633",
           "8a8eadc809004e318c47201b8a463be0",
           "8b6a8ce102ea416e88d3c14fa558c513",
+          "8d7ff1e2de63478693778de29e0dd56e",
           "b15165813c0848939edbe8b3d3aed182"
         ],
-        "new_task_id": null,
         "new_submissions": 0,
-        "credits_spent": 0,
-        "evidence": "topview-status.json and live authenticated board UI"
+        "credits_spent": 0
       },
       "last_relay_event": {
-        "event_id": "result:34ff1bf7fe9d47f08de5a635d5626c70",
-        "issue_number": 65,
-        "message_id": "240709376517173248",
-        "relay_event_id": "evt_aab00fea315daa5440e777adfaafc7c2",
-        "checked_at": "2026-10-27T05:37:03Z",
-        "outcome": "blocked_browser",
-        "reason": "Browser extension returned Unknown tool(browser.js). Cloud browser authenticated successfully and showed five queued tasks on My First Board; during sequential scrolling for the required complete scan the tool timed out after 31 seconds and reset its kernel. All-board/all-page scan and preflight were not completed. No queue claim or Create attempted.",
+        "event_id": "slots:c3b54902:1",
+        "issue_number": 66,
+        "message_id": "240716289822048256",
+        "relay_event_id": "evt_d4c801f3e508ae1d9169430e8bc5e042",
+        "relay_reminder_event_ids": [
+          "evt_466ba5c58dd9eec11ee103c352951c3d"
+        ],
+        "outcome": "no_update",
+        "reason": "The original free-slot signal was superseded by a concurrent verified S48-P1 submission (task 8d7ff1e2de63478693778de29e0dd56e). Fresh authenticated website review now shows all six global video slots occupied. This event run made no queue claim or Create; it did not launch S48-P1.",
         "task_ids": [],
-        "retryable": true,
+        "retryable": false,
         "source": "Agent Relay webhook",
         "runner": "chatgpt_event_trigger",
         "run_id": null,
         "run_id_unavailable_reason": "Runtime did not expose an actual run ID.",
-        "run_started_at": "2026-10-27T05:33:42Z",
+        "run_started_at": "2026-10-27T06:01:21Z",
         "actual_sender": "topview-robot",
         "sender_agent_id": "240204876611608576",
         "sender_address": "topview-robot@direct",
         "target_inbox": "chatgpt@cloud-239644772681871360",
-        "observed_at": "2026-10-27T05:32:57Z",
-        "source_result": {
-          "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
-          "scene_id": 52,
-          "final_status": "success",
-          "finished_at": "2026-10-27T05:31:26Z"
-        },
+        "observed_at": "2026-10-27T06:00:21Z",
         "new_submissions": 0,
         "claim_changes": 0,
-        "scan_complete": false,
-        "lock_outcome": "acquired_via_contents_sha_CAS; released_atomically_with_receipt"
+        "credits_spent": 0,
+        "lock_outcome": "acquired_via_contents_sha_CAS; released_atomically_with_receipt",
+        "concurrent_submission": {
+          "item_id": "S48-SEED20-P1",
+          "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+          "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P1-20261027.json",
+          "commit": "36220460ec2fd5b247e38bcd8cc2ff20cf42577d",
+          "created_by_this_run": false
+        },
+        "scan_complete": true,
+        "scan": {
+          "checked_at": "2026-10-27T06:26:33.898Z",
+          "method": "Authenticated Topview website UI; all 13 board lists loaded through their end/empty indicator, main board rechecked after concurrent submission. Active IDs cross-checked against robot snapshot at 2026-10-27T06:20:15Z.",
+          "boards": 13,
+          "complete": true,
+          "occupied_slots": 6,
+          "free_slots": 0,
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "board_name": "My First Board",
+          "main_board_items": 670,
+          "total_board_items": 937,
+          "board_item_counts": [
+            16,
+            0,
+            0,
+            11,
+            0,
+            32,
+            20,
+            5,
+            64,
+            37,
+            23,
+            59,
+            670
+          ],
+          "active_task_ids": [
+            "4a1061e175054da2810ffef8ad9d31cd",
+            "4b7b972870a44dfbb29bd6c5e330a633",
+            "8a8eadc809004e318c47201b8a463be0",
+            "8b6a8ce102ea416e88d3c14fa558c513",
+            "8d7ff1e2de63478693778de29e0dd56e",
+            "b15165813c0848939edbe8b3d3aed182"
+          ],
+          "new_submissions": 0,
+          "credits_spent": 0
+        },
+        "checked_at": "2026-10-27T06:26:53Z"
       },
       "last_observed_topview": {
         "checked_at": "2026-10-27T06:16:16Z",
