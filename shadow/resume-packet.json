@@ -1,39 +1,38 @@
 {
   "schema_version": 1,
   "generator": "continue-2.0",
-  "checked_at": "2026-10-27T13:41:13+00:00",
-  "source_head": "dff2aeb6f7cceeaff3d2e70cf6d6bd85b6d8027f",
-  "source_fingerprint": "197c9bf8ce650a2bcd28639192a54dc394c195dcfe9905d78c0636cf821c0a12",
+  "checked_at": "2026-10-27T14:04:37+00:00",
+  "source_head": "445f3524a425adc0faf68642b66073ccc44ee021",
+  "source_fingerprint": "95f21b0b33e319e413a9ed708461724c1a404bc77094d7d5424a7d0216c1e0f5",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
   "reasons": [],
   "selected_work": {
-    "work_id": "SEREGIUS-PLAN-20261023",
-    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-    "status": "waiting_for_results_and_slots",
-    "last_completed": "Сцена 52: семь частей, промты, референсы и очередь R2P1–P7 подготовлены и опубликованы.",
-    "next_action": "По свежему main проверить готовые результаты, решения владельца и общие слоты. Продолжить разрешённую очередь Серёгиуса по фактической готовности: новая S52-R2-P1 при свободном слоте; P2–P7 только после реального результата и QC предшественника. Существующие task ID не отправлять повторно.",
-    "verified_at": "2026-10-27T13:22:04+00:00",
+    "work_id": "CONTINUE-MULTIPROJECT-20261027",
+    "title": "Продолжай: все проекты и квитанция приёма",
+    "status": "in_progress",
+    "last_completed": "Прочитаны состояния пяти проектов и получены замки",
+    "next_action": "Реализовать проектные пакеты и квитанцию приёма, затем проверить все пять проектов.",
+    "verified_at": "2026-10-27T14:03:47+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/scene52-rebuild-2026-10-27.json",
-        "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
+        "file": "projects/projects.json",
+        "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4"
       }
     ],
     "read_next": [
-      "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "ops/TOPVIEW-FREE-LAUNCH.md",
-      "ops/OWNER-TASKS.md"
+      "ops/CONTINUE-PROTOCOL.md",
+      "projects/README.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Серёгиус: продолжение производства после подготовки 52",
-      "sha256": "680a328e1c3ed6ab92a9e558779e7ea35c34fb14b0515cfa59fdbd4de9252ced"
+      "anchor": "# Продолжай — ДО: все проекты и квитанция приёма · 27.10.2026",
+      "sha256": "21d42ab6fd61f38ca50affba927d5c1ea37d6c1a7bc24d5f0970ca23588433f5"
     }
   },
-  "checkpoint_text": "# Серёгиус: продолжение производства после подготовки 52\n\nwork_id: SEREGIUS-PLAN-20261023\nВремя: 2026-10-27T13:22:04.533Z\nПоследний подтверждённый этап: сцена 52 перестроена на семь частей; 7 основных промтов, альтернативы, референсы и очередь R2P1–P7 опубликованы и проверены ранее. Выбран конец ремонта крыла из Scene44 Seedance2.5. Доказательство: reports/scene52-rebuild-2026-10-27.json; инструкция сменщику: reports/scene52-seven-parts-handoff-2026-10-27.md.\nЭто завершённая подготовка, а не готовые семь видео. Далее — живые результаты/QC, реальные видеовходы продолжений и разрешённые запуски по свежей очереди. P1 запускается только в подтверждённый свободный слот; P2–P7 требуют результата предшественника. Старый S52-P2 заменён. Повторов task ID и автоматических повторных попыток нет; Роскосмос на паузе. Слоты из старых записей не использовать.\n",
+  "checkpoint_text": "# Продолжай — ДО: все проекты и квитанция приёма · 27.10.2026\n\nwork_id: CONTINUE-MULTIPROJECT-20261027\nВремя: 2026-10-27T14:03:47.252Z. Команда владельца: распространить механизм на остальные проекты; добавить квитанцию — какой чат принял, что проверил, с какого действия продолжил.\nПроверено: Серёгиус имеет пакет; у четырёх остальных его нет. Котмонавты и Кот детектив ждут выбора владельца, Разное пустое. Роскосмос: видео на паузе, подготовка референсов ЦПК остаётся отдельной задачей открытого Work-чата. Все пять замков взяты для этой инфраструктурной работы. Новых видеозапусков нет.\nПлан: обособленные фокус/idle, checkpoint и пакет каждого проекта; проверка изоляции и пауз; квитанция реального приёма с идентичностью чата, проверками и первым выполненным действием; сайт, существующий workflow, тесты, main/readback, снятие замков. Нельзя выдавать миграцию файлов за приём смены пятью чатами.\nСледующий шаг: реализовать проектные пути и квитанцию, затем проверить все пять проектов.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,9 +126,8 @@
     }
   ],
   "read_next": [
-    "reports/scene52-seven-parts-handoff-2026-10-27.md",
-    "ops/TOPVIEW-FREE-LAUNCH.md",
-    "ops/OWNER-TASKS.md"
+    "ops/CONTINUE-PROTOCOL.md",
+    "projects/README.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -380,18 +378,18 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "ca070dfff3e22990c9427b6a6322e4a332aba4e45edeb6fd4efa39c27ff4b001",
+      "sha256": "a9cfeabf71c24b4d142544b186ca799105b0be6b9390daf005bdb564394604ed",
       "bytes": 17822
     },
     {
-      "file": "reports/current-work-checkpoint.md",
-      "sha256": "dcebd833fe1e9eb614d36a82374038470f7b1e513a87b903742b0375f5b11ae6",
-      "bytes": 10185
+      "file": "projects/projects.json",
+      "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
+      "bytes": 8453
     },
     {
-      "file": "reports/scene52-rebuild-2026-10-27.json",
-      "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72",
-      "bytes": 20084
+      "file": "reports/current-work-checkpoint.md",
+      "sha256": "273117edefe7260698be4e1e4774d74f832fe9871ce8410a0db105f7a3c3b5e6",
+      "bytes": 11905
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -410,9 +408,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "3c6d6c68bf729df6cfdd6b14807f2d33bb6b3343790e7b4bbf894a67def56814",
-      "bytes": 54902
+      "sha256": "e5dd23f170c93788f1814e597499757dc6b93e6a43174d6230185366de6f3f26",
+      "bytes": 56663
     }
   ],
-  "packet_bytes": 6098
+  "packet_bytes": 5897
 }
