@@ -4225,7 +4225,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК, 26.10.2026 — шлюзование на стенде «Орлан-МК»](https://www.gctc.ru/main.php?id=7798).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png` (ещё не нарисован). Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png` (ещё не нарисован). Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-22/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png`. Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png` (ещё не нарисован). Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-22/*.image-prompt.txt`.
+
+<div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-22/c22-vr-stand.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-22/c22-vr-stand.png" alt="Сцена 22, @Image1: ЦПК: VR-стенд и два слушателя" loading="lazy"></a><figcaption>@Image1 — ЦПК: VR-стенд и два слушателя. Созданный концепт.</figcaption></figure>
+</div>
 
 **Закадровый текст для монтажа:** «Перед выходом в открытый космос каждое движение отрабатывают на Земле. Скафандр, герметичность, давление, люк. Шаг за шагом — сначала в виртуальной реальности.»
 

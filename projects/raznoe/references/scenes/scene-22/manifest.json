@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 22,
+  "assets": [
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png",
+      "caption": "ЦПК: VR-стенд и два слушателя",
+      "prompt_file": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.image-prompt.txt",
+      "created_by": "ChatGPT imagegen (open Work)",
+      "created_at": "2026-10-27T18:26:42+00:00",
+      "source_type": "ai_generated_concept",
+      "editorial_status": "not_approved",
+      "sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+      "scenes": [
+        22
+      ],
+      "width": 1672,
+      "height": 940,
+      "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+    }
+  ],
+  "updated_at": "2026-10-27T18:26:42+00:00"
+}
