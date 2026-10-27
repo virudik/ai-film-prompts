@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "OPEN-WORK-REFS-RELAY-20261027",
   "project": "seregius",
-  "checked_at": "2026-10-27T20:51:54+00:00",
+  "checked_at": "2026-10-27T20:57:10+00:00",
   "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
   "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
   "owner_tasks": [
@@ -142,5 +142,18 @@
   },
   "video_launches": 0,
   "queue_items_added": 0,
-  "owner_approval": "not_recorded"
+  "owner_approval": "not_recorded",
+  "image_generation_blockers": [
+    {
+      "path": "references/scenes/scene-66/S66-alien-dog.png",
+      "status": "tool_output_moderation_blocked",
+      "attempts": 2,
+      "request_ids": [
+        "fd91e9a1-e1a6-4bf9-b008-4578ce7230ae",
+        "8e2e940e-429c-41d6-bf50-28df2d4f0b1f"
+      ],
+      "reason": "Built-in imagegen rejected output with category other; no specific explanation returned. No successful image or PNG exists.",
+      "followup": "Continue distinct authorized images and infrastructure; do not claim this reference available."
+    }
+  ]
 }
