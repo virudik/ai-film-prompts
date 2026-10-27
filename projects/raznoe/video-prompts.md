@@ -4619,7 +4619,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК — Водные «выживания» 2026](https://www.gctc.ru/main.php?id=7732) · [ЦПК — дублирующий экипаж МКС-76 на выживании на воде](https://www.gctc.ru/main.php?id=7724).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png` (ещё не нарисован). Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png` (ещё не нарисован). Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-24/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png`. Bell-shaped spacecraft descent-module training mock-up floating in a grey-green sea with gentle swell, top hatch closed, support vessel with a crane and a small crew boat nearby, overcast sky. Controls the mock-up, sea and vessels. @Image2 — `projects/raznoe/references/scenes/scene-24/c24-raft.png` (ещё не нарисован). Three fictional crew members in bright orange water-survival suits with hoods in the water beside the same floating mock-up; one climbs into an orange inflatable raft; a safety diver in black at a distance. Controls the crew's look, suits and raft. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-24/*.image-prompt.txt`.
+
+<div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png" alt="Сцена 24, @Image1: ЦПК: спускаемый аппарат на море" loading="lazy"></a><figcaption>@Image1 — ЦПК: спускаемый аппарат на море. Созданный концепт.</figcaption></figure>
+</div>
 
 **Закадровый текст для монтажа:** «Спускаемый аппарат может приводниться. Поэтому экипаж учится покидать его на воде: переодеться в тесноте, выбраться через люк, держаться вместе и дождаться помощи.»
 
