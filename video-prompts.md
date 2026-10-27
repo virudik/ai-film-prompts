@@ -8220,6 +8220,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:** @Video1 — последние 3 с 68 (`references/scenes/scene-68/S68-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image2 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image3 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66); ещё не нарисован).
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-69/S69-masha-masterclass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp" alt="Маша показывает дворникам, как мести световой метлой" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Маша показывает дворникам, как мести световой метлой</figcaption></figure>
 <figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" alt="Маша Р (девушка из 67): развёртка в одежде Татуина"></a><figcaption>@Image1 — Маша Р (девушка из 67): развёртка в одежде Татуина</figcaption></figure>
 </div>
 

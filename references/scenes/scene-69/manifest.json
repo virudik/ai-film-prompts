@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 69,
+  "references": [
+    {
+      "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "asset_id": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "caption": "Маша показывает дворникам, как мести световой метлой",
+      "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2660163,
+      "role": "Маша показывает дворникам, как мести световой метлой",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (open Work)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T21:28:17+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T21:28:17+00:00",
+        "scope": "Root visually inspected Masha likeness/hair/costume against her sheet, confident sweeping into the purple alien dustpan, matching original crew and broom, foreman holding the only satchel, readable exact two-line Cyrillic on green alien vest. Targeted refinement removed duplicate bag and exposed green vest back. Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-69/S69-masha-masterclass.image-prompt.txt",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
+        }
+      ],
+      "usage": "pose_composition_helper_only_not_prompt_input"
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "technical_success_is_editorial_approval": false,
+  "updated_at": "2026-10-27T21:28:17+00:00",
+  "last_qc_at": "2026-10-27T21:28:17+00:00",
+  "pose_composition_helpers": [
+    "references/scenes/scene-69/S69-masha-masterclass.png"
+  ]
+}

@@ -2993,6 +2993,16 @@
    "thumb_bytes": 57336,
    "src_sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
   },
+  "references/scenes/scene-69/S69-masha-masterclass.png": {
+   "thumb": "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2660163,
+   "thumb_bytes": 64364,
+   "src_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
