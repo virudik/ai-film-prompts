@@ -668,7 +668,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-27T19:01:33+00:00",
+  "updated_at": "2026-10-27T19:05:47+00:00",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -829,6 +829,46 @@
             "git_present": true
           },
           "prompt_file": "references/scenes/scene-65/S65-toast-closeup.image-prompt.txt"
+        }
+      ]
+    },
+    {
+      "id": "S67-fruit-stall",
+      "name": "Татуин: прилавок с инопланетными фруктами",
+      "kind": "scene_reference",
+      "scenes": [
+        67
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "asset_id": "references/scenes/scene-67/S67-fruit-stall.png",
+          "caption": "Татуин: прилавок с инопланетными фруктами",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 2757718,
+          "role": "Татуин: прилавок с инопланетными фруктами",
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT imagegen (open Work)",
+          "project_id": "seregius",
+          "created_at": "2026-10-27T19:05:47+00:00",
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-27T19:05:47+00:00",
+            "scope": "Visual inspection of subject, composition, identity where supplied, anatomy, 16:9 and no lettering/logos. Technical QC is not editorial approval."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-67/S67-fruit-stall.png",
+            "linked_in_master": true,
+            "git_present": true
+          },
+          "prompt_file": "references/scenes/scene-67/S67-fruit-stall.image-prompt.txt"
         }
       ]
     }
