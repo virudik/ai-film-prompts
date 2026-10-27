@@ -18,7 +18,7 @@ work_id: INSTRUCTION-RECONCILE-20261026. Владелец: «Исправь и �
 ---
 
 <!-- relay-current-status -->
-**Relay · 2026-10-26T00:52:17Z:** issue #43, `result:56e5e07c85df4af583c62665c51ed563` — прежний transient `blocked_browser` преодолён в следующем часовом цикле. Полный свежий скан 13 досок/14 страниц подтвердил 5/6 занятых и один свободный слот. После точного preflight S42-P2 отправлен один раз Unlimited0 как task `4a1061e175054da2810ffef8ad9d31cd`; UI подтвердил шестую очередь. Receipt: `reports/topview-queue-2026-10-16/S42-SEED20-P2-20261026.json`. Повторов и платных запусков нет; расписания сохранены.
+**Relay · 2026-10-27T05:37:03Z:** issue #65, `result:34ff1bf7fe9d47f08de5a635d5626c70` — `blocked_browser`, retryable. Авторизованный UI показал пять очередей на My First Board; полный обход досок/страниц прерван таймаутом и сбросом браузерной сессии. Глобальная занятость не подтверждена. Create/claim=0; S52-P1 success проверен по свежему task-map, S52-P2 требует реального continuity/QC. Следующий запуск: новый полный скан и свежий preflight; чужие/старые отправки не повторять. Квитанция: reports/topview-event-wake.json.
 <!-- /relay-current-status -->
 
 # Topview S42-P2 — подтверждённый бесплатный запуск · 2026-10-26T01:11:41.613Z

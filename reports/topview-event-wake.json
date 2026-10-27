@@ -34,6 +34,37 @@
       "claim_changes": 0,
       "scan_complete": false,
       "lock_outcome": "acquired_via_contents_sha_CAS; released_atomically_with_receipt"
+    },
+    {
+      "event_id": "result:34ff1bf7fe9d47f08de5a635d5626c70",
+      "issue_number": 65,
+      "message_id": "240709376517173248",
+      "relay_event_id": "evt_aab00fea315daa5440e777adfaafc7c2",
+      "checked_at": "2026-10-27T05:37:03Z",
+      "outcome": "blocked_browser",
+      "reason": "Browser extension returned Unknown tool(browser.js). Cloud browser authenticated successfully and showed five queued tasks on My First Board; during sequential scrolling for the required complete scan the tool timed out after 31 seconds and reset its kernel. All-board/all-page scan and preflight were not completed. No queue claim or Create attempted.",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "Runtime did not expose an actual run ID.",
+      "run_started_at": "2026-10-27T05:33:42Z",
+      "actual_sender": "topview-robot",
+      "sender_agent_id": "240204876611608576",
+      "sender_address": "topview-robot@direct",
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "observed_at": "2026-10-27T05:32:57Z",
+      "source_result": {
+        "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "scene_id": 52,
+        "final_status": "success",
+        "finished_at": "2026-10-27T05:31:26Z"
+      },
+      "new_submissions": 0,
+      "claim_changes": 0,
+      "scan_complete": false,
+      "lock_outcome": "acquired_via_contents_sha_CAS; released_atomically_with_receipt"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
