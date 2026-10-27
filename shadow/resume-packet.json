@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-27T14:19:25+00:00",
-  "source_head": "44b3e72f2f522f3d437ac9e89131e1e4436f98b9",
-  "source_fingerprint": "1986e0a34e80197b2d858b874505d15e6659646b473f63ab90b8af7813e7029b",
+  "checked_at": "2026-10-27T14:30:51+00:00",
+  "source_head": "5589ee788edc0c2bc3ffb1851ee5a4dd3c505538",
+  "source_fingerprint": "cd82a3b205e8e912dfb0e55cd43bae66b463d6e2a3f5ef477a5ed9e1801c1071",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -33,29 +33,31 @@
   },
   "reasons": [],
   "selected_work": {
-    "work_id": "CONTINUE-MULTIPROJECT-20261027",
-    "title": "Продолжай: все проекты и квитанция приёма",
-    "status": "in_progress",
-    "last_completed": "Механизм реализован для пяти проектов, проектные тесты и проверки проходят",
-    "next_action": "Опубликовать изменения, выполнить readback и проверить UI всех проектов; затем вернуть фокус к плану фильма.",
-    "verified_at": "2026-10-27T14:16:54+00:00",
+    "work_id": "SEREGIUS-PLAN-20261023",
+    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+    "status": "waiting_for_results_and_slots",
+    "last_completed": "Сцена 52: семь частей, промты, референсы и очередь R2P1–P7 подготовлены и опубликованы.",
+    "next_action": "По свежему main проверить готовые результаты, решения владельца и общие слоты. Продолжить разрешённую очередь Серёгиуса по фактической готовности: новая S52-R2-P1 при свободном слоте; P2–P7 только после реального результата и QC предшественника. Существующие task ID не отправлять повторно.",
+    "verified_at": "2026-10-27T13:22:04+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/continue-multiproject-2026-10-27.json",
-        "sha256": "6c89cd0cae59dbb63edae0110b9dbef66ab48948409d6908b9c482e179c343ff"
+        "file": "reports/scene52-rebuild-2026-10-27.json",
+        "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
       }
     ],
     "read_next": [
-      "ops/CONTINUE-PROTOCOL.md"
+      "reports/scene52-seven-parts-handoff-2026-10-27.md",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/OWNER-TASKS.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Продолжай — проектные пакеты и квитанция реализованы · 27.10.2026",
-      "sha256": "d3055871efe137a12df7e294c11978a9235fb41f402ad9732b6ad199119e384b"
+      "anchor": "# Серёгиус: продолжение производства после подготовки 52",
+      "sha256": "680a328e1c3ed6ab92a9e558779e7ea35c34fb14b0515cfa59fdbd4de9252ced"
     }
   },
-  "checkpoint_text": "# Продолжай — проектные пакеты и квитанция реализованы · 27.10.2026\n\nwork_id: CONTINUE-MULTIPROJECT-20261027\nПроверено: 2026-10-27T14:16:54.417Z\nУ всех пяти проектов собственные фокус/idle, пакет, checkpoint и журнал. Добавлены квитанция реального приёма, отказ при чужом проекте/непроверенных шагах, дедупликация и архив после 20 записей. Индикатор и существующий workflow охватывают все проекты. Тесты и проверки пройдены; подробности reports/continue-multiproject-2026-10-27.json. Сохранена одна квитанция принятия текущей задачи этим Work-чатом с честной недоступностью точного ID; это не проверка будущего нового чата.\nОсталось: публикация и readback, CI, проверка интерфейса всех проектов, возврат фокуса к Серёгиусу, снятие пяти замков.\n",
+  "checkpoint_text": "# Серёгиус: продолжение производства после подготовки 52\n\nwork_id: SEREGIUS-PLAN-20261023\nВремя: 2026-10-27T13:22:04.533Z\nПоследний подтверждённый этап: сцена 52 перестроена на семь частей; 7 основных промтов, альтернативы, референсы и очередь R2P1–P7 опубликованы и проверены ранее. Выбран конец ремонта крыла из Scene44 Seedance2.5. Доказательство: reports/scene52-rebuild-2026-10-27.json; инструкция сменщику: reports/scene52-seven-parts-handoff-2026-10-27.md.\nЭто завершённая подготовка, а не готовые семь видео. Далее — живые результаты/QC, реальные видеовходы продолжений и разрешённые запуски по свежей очереди. P1 запускается только в подтверждённый свободный слот; P2–P7 требуют результата предшественника. Старый S52-P2 заменён. Повторов task ID и автоматических повторных попыток нет; Роскосмос на паузе. Слоты из старых записей не использовать.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -149,7 +151,9 @@
     }
   ],
   "read_next": [
-    "ops/CONTINUE-PROTOCOL.md"
+    "reports/scene52-seven-parts-handoff-2026-10-27.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/OWNER-TASKS.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -404,19 +408,19 @@
       "bytes": 17822
     },
     {
-      "file": "reports/continue-multiproject-2026-10-27.json",
-      "sha256": "6c89cd0cae59dbb63edae0110b9dbef66ab48948409d6908b9c482e179c343ff",
-      "bytes": 991
-    },
-    {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "ce734c96f9d248e4c90e0fd94ab381f63478dc11439138030be136ffb8a73a83",
-      "bytes": 13133
+      "sha256": "221256ae1d43ff10a3989c7a45e5c446f96427e088859e2df640ea7a8e5d6657",
+      "bytes": 15077
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "ff71f3788d2a327e86558ed2176b2dc05aa8f2d03399bb86363d0b83c190e293",
       "bytes": 7177
+    },
+    {
+      "file": "reports/scene52-rebuild-2026-10-27.json",
+      "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72",
+      "bytes": 20084
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -435,9 +439,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "0cff52c3f84696e5949ed5d91c5d7e5b7590129e602401ff3e680c7ddd4d57b4",
-      "bytes": 56782
+      "sha256": "34d2129375c20fe59c2878a52cfdc4903d9209dcef361a89e407f3c8a067139c",
+      "bytes": 58011
     }
   ],
-  "packet_bytes": 5460
+  "packet_bytes": 6126
 }

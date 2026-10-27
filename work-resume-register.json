@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T14:16:54+00:00",
+  "last_updated_at": "2026-10-27T14:30:50.735Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -300,7 +300,8 @@
       },
       "done": [
         "Явный фокус, проверка SHA контрольных точек/доказательств, компактный пакет, индикатор сайта и защита незавершённых checkpoint от чистки реализованы.",
-        "Автоматические тесты восстановления проверяют отсутствие повторных отправок. Реальный будущий чат отдельно не проверен."
+        "Автоматические тесты восстановления проверяют отсутствие повторных отправок. Реальный будущий чат отдельно не проверен.",
+        "27.10: mechanism and receipt extended to all five projects; report reports/continue-multiproject-2026-10-27.json. Next real new-chat acceptance is still pending."
       ],
       "next_action": "При следующем настоящем новом чате проверить команду «Продолжай» и записать выбранную задачу/первое действие в issue #9; текущая техническая доработка завершена.",
       "canonical_refs": [
@@ -616,18 +617,31 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
-    },
+    }
+  ],
+  "rules": [
+    "Only verified GitHub commits, GitHub issue URLs, project statuses and owner_decisions can be cited as evidence",
+    "No invented task completions, approvals, renders or background progress",
+    "Only owner decisions can authorize creative changes, approvals and renders",
+    "Keep one writer for canonical changes; update with material work checkpoint"
+  ],
+  "completed_work": [
     {
       "work_id": "CONTINUE-MULTIPROJECT-20261027",
       "title": "Продолжай: все проекты и квитанция приёма",
-      "status": "in_progress",
+      "status": "completed",
       "project": "seregius",
       "authorization": "Прямая команда владельца 27.10.2026",
       "started_at": "2026-10-27T14:03:47.252Z",
       "done": [
-        "Свежий main, проектные инструкции и состояния, пять замков"
+        "Свежий main, проектные инструкции и состояния, пять замков",
+        "Пять проектных пакетов, фокус/idle и журналы опубликованы",
+        "Квитанция текущей задачи сохранена; точный ID чата честно недоступен",
+        "347 полных тестов и 43 финальных целевых проверки прошли; CI success",
+        "Проверен публичный UI всех пяти проектов, раскрытие/обновление и квитанция",
+        "Реальный следующий новый чат остаётся отдельной проверкой issue #9"
       ],
-      "next_action": "Опубликовать изменения, выполнить readback и проверить UI всех проектов; затем вернуть фокус к плану фильма.",
+      "next_action": null,
       "recovery": {
         "schema_version": 1,
         "verified_at": "2026-10-27T14:16:54+00:00",
@@ -649,16 +663,21 @@
         ],
         "blockers": []
       },
-      "updated_at": "2026-10-27T14:16:54+00:00"
-    }
-  ],
-  "rules": [
-    "Only verified GitHub commits, GitHub issue URLs, project statuses and owner_decisions can be cited as evidence",
-    "No invented task completions, approvals, renders or background progress",
-    "Only owner decisions can authorize creative changes, approvals and renders",
-    "Keep one writer for canonical changes; update with material work checkpoint"
-  ],
-  "completed_work": [
+      "updated_at": "2026-10-27T14:16:54+00:00",
+      "completed_at": "2026-10-27T14:30:50.735Z",
+      "verified_at": "2026-10-27T14:30:50.735Z",
+      "next_actions": [],
+      "report": "reports/continue-multiproject-2026-10-27.json",
+      "content_commits": {
+        "feature_commit": "76bac6895b87a5e8d6cacca4bfd07ee3af4a95c4",
+        "guard_commit": "5589ee788edc0c2bc3ffb1851ee5a4dd3c505538",
+        "exact_blob_readback_files": [
+          56,
+          4
+        ],
+        "final_report_and_locks": "same final CAS transaction; verify after publication"
+      }
+    },
     {
       "work_id": "S52-SEVEN-PARTS-20261027",
       "title": "Сцена52: семь частей, все референсы и место в очереди",
@@ -859,9 +878,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "CONTINUE-MULTIPROJECT-20261027",
+    "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-27T14:16:54+00:00",
-    "reason": "Explicitly selected by the authorized task writer"
+    "set_at": "2026-10-27T14:30:50.735Z",
+    "reason": "Requested multi-project rollout and receipts completed; return to the existing authorized film plan, not monitor timestamps."
   }
 }

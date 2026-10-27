@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "work_id": "CONTINUE-MULTIPROJECT-20261027",
-  "updated_at": "2026-10-27T14:16:54.417Z",
-  "status": "implemented_pending_publication_verification",
+  "updated_at": "2026-10-27T14:30:50.735Z",
+  "status": "completed_implementation_verified",
   "projects": [
     "seregius",
     "kotmonavty",
@@ -11,19 +11,49 @@
     "misc"
   ],
   "checks": {
-    "full_suite_before_final_small_changes": "398 test executions passed (included inherited duplicates, subsequently removed)",
-    "project_specific_final": "16 passed",
+    "project_specific_final": "17 passed within targeted run",
     "site_contract": "passed",
     "js_indicator": "passed",
     "project_validation": "passed",
     "instruction_consistency": "ok",
     "canon_health": "ok, warnings=0",
-    "project_preflights": "5/5 ready"
+    "project_preflights": "5/5 ready",
+    "full_suite": "347 passed",
+    "final_targeted_regression": "43 passed after foreign-entry/queue rejection and project-aware reading routes"
   },
   "real_next_new_chat_acceptance": "pending; issue #9 remains open",
   "receipt": "reports/handoff-receipts.json",
   "current_chat_identity": "Exact conversation ID unavailable; receipt explicitly labels this and records a separate local session ID.",
-  "publication": null,
-  "public_ui": null,
-  "launches": 0
+  "publication": {
+    "feature_commit": "76bac6895b87a5e8d6cacca4bfd07ee3af4a95c4",
+    "guard_commit": "5589ee788edc0c2bc3ffb1851ee5a4dd3c505538",
+    "exact_blob_readback_files": [
+      56,
+      4
+    ],
+    "final_report_and_locks": "same final CAS transaction; verify after publication"
+  },
+  "public_ui": {
+    "verified_at": "2026-10-27T14:30:50.735Z",
+    "deployment_run": 40520543527,
+    "deployment": "success",
+    "seregius": "ready; actual current-task receipt, unavailable exact chat ID explicitly shown; refresh works",
+    "kotmonavty": "ready, waiting for owner; own stage and journal",
+    "kot-detektiv": "ready, waiting for owner; own stage and journal",
+    "raznoe": "ready; CPK reference-preparation handoff; video pause shown",
+    "misc": "ready, waiting for materials; own packet and journal links",
+    "visual_review": "expanded root panel inspected; no overlap or clipping"
+  },
+  "launches": 0,
+  "ci": {
+    "integration": 40520543779,
+    "site": 40520543628,
+    "snapshot": 40519838950,
+    "projects_status": 40519838914,
+    "canonical": 40520421031,
+    "shadow_regeneration": 40520657959,
+    "all": "success"
+  },
+  "continuation_focus": "SEREGIUS-PLAN-20261023",
+  "locks": "released in same transaction"
 }

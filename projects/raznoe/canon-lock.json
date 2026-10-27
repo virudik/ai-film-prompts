@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Продолжай: все проекты и квитанция приёма смены",
   "acquired_at": "2026-10-27T14:02:07.229Z",
-  "expires_at": "2026-10-27T14:47:07.229Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-27T14:30:50.735Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }

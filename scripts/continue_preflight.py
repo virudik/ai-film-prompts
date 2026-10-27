@@ -140,9 +140,11 @@ def _evaluate(root, work_id=None, include_work=False, project="seregius"):
                   "shadow/current-checkpoint.md verbatim",
                   "project-status.json + topview-status.json + instruction-sync-status.json",
                   "automation-monitor-status.json + monitor-role.json",
-                  "shadow/resume-packet.md + selected register entry; full register only if needed",
+                  ctx["packet_dir"] + "/resume-packet.md + " + ctx["register"] + " selected entry; full register only if needed",
                   "open owner_decisions via Supabase",
-                  "full task-specific sections from D7 read_sets"]),
+                  "full task-specific sections from D7 read_sets"]) +
+                 ([ctx[k] for k in ("handoff", "instructions", "status", "checkpoint", "queue", "lock")]
+                  if project != "seregius" else []),
         "selected_work": recovery["selected_work"],
         "active_work": (work.get("active_work", []) if include_work else [
             {k: w.get(k) for k in ("work_id", "title", "status", "continuation_work_id") if w.get(k)}

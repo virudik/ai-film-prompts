@@ -42,6 +42,8 @@ class ProjectRecoveryTests(unittest.TestCase):
         r=preflight.evaluate(self.root,project=self.pid)
         self.assertTrue(r['ready_for_resume'],r['reasons'])
         self.assertEqual(r['selected_work']['work_id'],'IDLE-OTHER')
+        self.assertIn(self.prefix+'HANDOFF.md',r['read'])
+        self.assertIn('--project other',packet.markdown(packet.build(self.root,project=self.pid)))
         p=packet.build(self.root,project=self.pid)
         self.assertFalse(p['execution_authorized'])
         self.assertEqual(p['queue_recovery']['next_candidates'],[])

@@ -104,7 +104,7 @@ def build(root, work_id=None, project="seregius"):
 def markdown(packet):
     w = packet.get("selected_work") or {}
     lines = ["# Продолжай — пакет восстановления: " + packet.get("project_name", "Серёгиус"), "",
-             "Производный навигатор. Сначала свежий main и `scripts/continue_preflight.py`; разрешением на запуск не является.",
+             "Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project " + packet.get("project", "seregius") + "`; разрешением на запуск не является.",
              "", "Состояние: " + packet["status"], "Проверено: " + packet["checked_at"],
              "Задача: " + str(w.get("work_id", "не определена")) + " — " + str(w.get("title", "")),
              "", "Последний подтверждённый этап: " + str(w.get("last_completed", "нет доказательств")),
