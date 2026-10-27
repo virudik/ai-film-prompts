@@ -2993,6 +2993,16 @@
    "thumb_bytes": 57336,
    "src_sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46"
   },
+  "references/scenes/scene-69/S69-light-dustpan.png": {
+   "thumb": "references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3220063,
+   "thumb_bytes": 81002,
+   "src_sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+  },
   "references/scenes/scene-69/S69-masha-masterclass.png": {
    "thumb": "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
    "width": 640,

@@ -3,9 +3,9 @@
   "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
   "project": "seregius",
   "status": "in_progress",
-  "stage": "upfront_checkpoint_before_images",
+  "stage": "references_and_story_in_progress",
   "created_at": "2026-10-27T22:51:23Z",
-  "checked_at": "2026-10-27T22:51:23Z",
+  "checked_at": "2026-10-27T22:54:23Z",
   "source_head": "0aceff850d88ee34670e486b9ccf733c3dc1fc1a",
   "owner_request": "в сцене 68 «Жилищник» бестолково гоняет песок и обметает кучу стороной, а в сцене 69 (раз маша уже с дыней в руках) Маша отдаёт дворнику дыню и сумку, отнимает метлу и убирает всё в совок. Так даже лучше. В лазерный совок добавь и сделай референсные картинки этих действий. Реф картинки кучи нужны? Другие какие-нибудь рефы нужны? Добавить связную бесшовную сцену пролета камеры от сцены 69 к сцене 65 где Серёга в кантине выпивает с боба цветом и компанией",
   "owner_request_provenance": "Exact direct owner message supplied by the root chat; spelling retained verbatim",
@@ -39,10 +39,10 @@
       "path": "references/scenes/scene-69/S69-light-dustpan.png",
       "operation": "create",
       "purpose": "Отдельный лазерный совок в одном дизайне со световой метлой68",
-      "status": "planned",
+      "status": "generated_qc_passed_pending_final_publication",
       "before_sha256": null,
-      "result_sha256": null,
-      "generated_at": null,
+      "result_sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+      "generated_at": "2026-10-27T22:54:22Z",
       "published_commit": null
     },
     {
@@ -164,10 +164,50 @@
       "bytes": 155182
     }
   ],
-  "generated_assets": [],
+  "generated_assets": [
+    {
+      "path": "references/scenes/scene-69/S69-light-dustpan.png",
+      "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 3220063,
+      "caption": "Лазерный совок — открытый лоток с голубой кромкой",
+      "checked_at": "2026-10-27T22:54:22Z",
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "actual_ratio": "1672:941",
+        "matches_16_9": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      },
+      "qc": "usable_for_assigned_role",
+      "owner_approval": "not_recorded",
+      "integration_stage": "full",
+      "persistence_state": "local_worktree_only_uncommitted",
+      "publication_status": "pending_readback",
+      "prompt_file": "references/scenes/scene-69/S69-light-dustpan.image-prompt.txt",
+      "prompt_sha256": "ee55e356c91bb9dd5b9bc6c452d9dd642ed02fdd63f4949159d8d1e518d9ddc9",
+      "source_output_name": "exec-11a6ee69-906a-4d57-a814-43a2aa08e8e6.png",
+      "source_output_sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d"
+        }
+      ],
+      "visual_qc": "Root visually inspected the generated PNG: exactly one complete dustpan, worn black hinged handle, rigid shallow metal tray, unobstructed open front, restrained cyan collecting floor and lip, warm sand. Whole tool visible; practical receptacle matches the broom design. No people, duplicate tools or text.",
+      "thumbnail": "references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp",
+      "usage": "prompt_reference"
+    }
+  ],
   "published_assets": [],
   "pending_assets": [
-    "references/scenes/scene-69/S69-light-dustpan.png",
     "references/scenes/scene-69/S69-melon-bag-handoff.png",
     "references/scenes/scene-68/S68-crew-sweeping-street.png",
     "references/scenes/scene-69/S69-masha-masterclass.png",
@@ -183,8 +223,8 @@
     "public_readback_verified": false
   },
   "progress": {
-    "last_completed": "Existing prompts and reference sources inspected; requested changes and output paths recorded before image generation",
-    "next_action": "Сгенерировать и проверить пять запланированных новых/обновлённых референсов; затем согласовать реквизит67–69 и переход69→70→65 в промптах, манифестах и очереди, опубликовать и проверить сайт. Видеогенераций в этой подготовительной работе не выполнять.",
+    "last_completed": "Созданы и визуально проверены 1/5 новых или обновлённых изображений; оригинальные PNG и промпты сохранены. Видео не запускались.",
+    "next_action": "Завершить оставшиеся референсы и согласовать67–70/65, проверить очередь и опубликованный сайт. Реальные видео и QC стыков остаются обязательны перед запуском.",
     "blockers": []
   }
 }
