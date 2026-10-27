@@ -83,9 +83,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/40542539886 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt",
-      "taken_at": "2026-10-27T18:02:48Z"
+      "taken_at": "2026-10-27T18:02:48Z",
+      "result": "Причина подтверждена: canon-health и публикация статуса были успешны, workflow падал только на намеренном шаге уведомления о новом warning. Штатной root-only чисткой очередь уменьшена 411538→396075 байт, canon-health=ok/warnings0; 348 тестов, site/projects/cert/D7 прошли, readback main выполнен.",
+      "result_commit": "dff803dab9a3530395f39a47366e324f0757483a",
+      "closed_at": "2026-10-27T18:13:33Z"
     }
   ]
 }
