@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:scene-review",
-  "task": "Drawing task for scenes 68-69 (owner 27.10)",
-  "acquired_at": "2026-10-27T20:37:50Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T20:39:04Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "OPEN-WORK-REFS-RELAY-20261027: recover checkpoint",
+  "acquired_at": "2026-10-27T20:50:54.015Z",
+  "expires_at": "2026-10-27T21:35:54.015Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
