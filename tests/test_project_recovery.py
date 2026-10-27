@@ -65,6 +65,16 @@ class ProjectRecoveryTests(unittest.TestCase):
         self.js(self.prefix+state.REGISTER,reg)
         self.assertFalse(preflight.evaluate(self.root,project=self.pid)['ready_for_resume'])
 
+    def test_copied_foreign_entry_and_queue_rejected(self):
+        reg=self.read(self.prefix+state.REGISTER)
+        reg['idle_state']['project']='seregius'
+        self.js(self.prefix+state.REGISTER,reg)
+        self.assertFalse(preflight.evaluate(self.root,project=self.pid)['ready_for_resume'])
+        reg['idle_state']['project']=self.pid
+        self.js(self.prefix+state.REGISTER,reg)
+        self.js(self.prefix+state.QUEUE,{'project':'seregius','items':[]})
+        self.assertFalse(packet.build(self.root,project=self.pid)['ready_for_resume'])
+
     def test_changed_project_master_invalidates(self):
         self.put(self.prefix+'video-prompts.md',b'changed')
         self.assertFalse(preflight.evaluate(self.root,project=self.pid)['ready_for_resume'])

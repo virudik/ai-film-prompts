@@ -50,6 +50,8 @@ def build(root, work_id=None, project="seregius"):
         checkpoint_text = recovery["checkpoint_text"]
         paths.update(s["file"] for s in recovery["sources"])
         queue = json.loads(local_file(root, ctx["queue"]).read_bytes())
+        if isinstance(queue, dict) and queue.get("project", project) != project:
+            raise ValueError("launch queue belongs to another project")
     except (OSError, ValueError, KeyError, TypeError, AttributeError) as e:
         result["reasons"].append("recovery packet source invalid: " + str(e))
     for p in sorted(paths):

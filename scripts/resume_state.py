@@ -77,6 +77,8 @@ def select_work(register, work_id=None, project="seregius"):
         w = by_id.get(work_id)
         if not w or FINISHED.match(str(w.get("status", ""))):
             raise ValueError("resume target is missing or finished: " + str(work_id))
+        if w.get("project", project) != project:
+            raise ValueError("selected work belongs to another project")
         if not w.get("continuation_work_id"):
             return w
         work_id = w["continuation_work_id"]

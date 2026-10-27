@@ -47,7 +47,9 @@ function render(packet, result) {
  if(uncertain)el('p','Отправок без подтверждённого результата: '+uncertain+'. Перед продолжением нужно сверить существующие задачи.',details);
  const receipt=packet?.handoff_receipt;
  if(receipt){
-  el('p','Последний приём: '+(receipt.chat?.label||'не указан')+' · '+receipt.accepted_at+' · '+receipt.outcome,details);
+  const label=receipt.work_id===w?.work_id?'Последняя квитанция этой работы: ':'Последняя квитанция другой работы: ';
+  const outcome={accepted:'принято',waiting_for_owner:'ожидание владельца',blocked:'приём заблокирован'}[receipt.outcome]||receipt.outcome;
+  el('p',label+(receipt.chat?.label||'не указан')+' · '+receipt.accepted_at+' · '+outcome,details);
   if(receipt.chat?.chat_id)el('small','Чат: '+receipt.chat.chat_id,details);
   else el('small','Точный ID чата недоступен; сессия: '+(receipt.chat?.session_id||'не указана'),details);
   el('p','Работа '+receipt.work_id+'. Первое действие: '+(receipt.first_action?.description||''),details);
