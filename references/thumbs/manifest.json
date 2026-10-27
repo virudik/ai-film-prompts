@@ -933,6 +933,16 @@
    "thumb_bytes": 67292,
    "src_sha256": "62dc05563d259efc5bd9213f5772f58f8b77e8a5022a146aac79cbed004d1d89"
   },
+  "projects/raznoe/references/scenes/scene-21/c21-centrifuge.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-21/c21-centrifuge.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2422971,
+   "thumb_bytes": 37880,
+   "src_sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138"
+  },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
