@@ -2443,6 +2443,16 @@
    "thumb_bytes": 21136,
    "src_sha256": "af5da03014371c3f56edfa6d3f611cd7e1693bc875bc07856db5328af0f2dc1a"
   },
+  "references/scenes/scene-52/S52-start-from-S44-seed25-20261027.png": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-start-from-S44-seed25-20261027.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1317663,
+   "thumb_bytes": 19910,
+   "src_sha256": "e65b0118def2dabc6ca2ace13fd86834ad895e324248ab15226dd72d8bbc0b36"
+  },
   "references/scenes/scene-54/S54-room-opening-actual.png": {
    "thumb": "references/thumbs/scenes/scene-54/S54-room-opening-actual.png.webp",
    "width": 640,
