@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-27T20:30:52Z",
+  "synced_at": "2026-10-27T20:33:12Z",
   "revision_date": "27.10.2026",
   "master_declared_last_full_sync": "27.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "603499d2b291018e23ef4be012d600b81797eb9f7bf68ad84d3b321abe2a34cb",
-  "canonical_revision_sha256": "ef3ab2121689b0c36847a2cb0d7938787efe7fbac2eb693e5acad12ec511d07a",
-  "canonical_master_bytes": 1005653,
-  "scenes": 24,
-  "prompt_texts": 119,
+  "canonical_master_sha256": "a77f0fbf690568633c6192246bc789fbd182e4efe589c2ddf31028d720cedae0",
+  "canonical_revision_sha256": "7281efd16314f61ec9f29113f662c7e635155606b65ce30b1b5df511ed1c0e82",
+  "canonical_master_bytes": 1056055,
+  "scenes": 26,
+  "prompt_texts": 125,
   "work_items": [
     "W5",
     "W6",
@@ -60,9 +60,11 @@
     64,
     65,
     66,
-    67
+    67,
+    68,
+    69
   ],
-  "latest_scene": 67,
+  "latest_scene": 69,
   "reserved_scene_ids": [
     1,
     2,
@@ -109,19 +111,19 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-27T16:27:27.704Z",
+    "snapshot_at": "2026-10-27T20:30:16.395Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 4.057,
+    "age_hours_at_status_build": 0.049,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "94af7d09a865e289bf2b49c7cf9e9bead9f5d786b04d4ae7630b8ac5eea655c8",
         "drive_copy_checked_at": "2026-10-27T09:01:41.170Z",
         "drive_copy_modified_at": "2026-10-27T09:01:28.502Z",
-        "github_blob": "274a0f9fded0a48993d76dc38927c05327b4e50d",
-        "mirror_sha256": "d49bdd4283a196da4e30fb04380451983301a361a857c32f5dda48f693429475",
+        "github_blob": "a80ad6b3f26e8a07e19528f35116b7ed2cf9eed2",
+        "mirror_sha256": "2b73b687a3d8dc31fe71b95a0beb41d5f651bd23d158269246454941bf864ba5",
         "match": true,
         "drive_copy_match": false
       },
@@ -191,7 +193,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 4.057,
+      "age_hours": 0.049,
       "blocking": false
     },
     "topview_task_map": {
@@ -732,15 +734,64 @@
         "awaiting_references"
       ],
       "render_state": "IDLE"
+    },
+    "68": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 67
+        }
+      ],
+      "tags": [
+        "tatooine",
+        "street",
+        "visual_comedy",
+        "owner_requested",
+        "chain_52_66_67",
+        "awaiting_references"
+      ],
+      "render_state": "IDLE"
+    },
+    "69": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 68
+        }
+      ],
+      "tags": [
+        "tatooine",
+        "street",
+        "visual_comedy",
+        "dialogue_ru",
+        "owner_requested",
+        "chain_52_66_67",
+        "awaiting_references"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "27.10.2026",
-    "synced_at": "2026-10-27T20:30:52Z",
-    "canonical_master_sha256": "603499d2b291018e23ef4be012d600b81797eb9f7bf68ad84d3b321abe2a34cb",
-    "canonical_revision_sha256": "ef3ab2121689b0c36847a2cb0d7938787efe7fbac2eb693e5acad12ec511d07a",
-    "scene_count": 24,
-    "prompt_count": 119,
+    "synced_at": "2026-10-27T20:33:12Z",
+    "canonical_master_sha256": "a77f0fbf690568633c6192246bc789fbd182e4efe589c2ddf31028d720cedae0",
+    "canonical_revision_sha256": "7281efd16314f61ec9f29113f662c7e635155606b65ce30b1b5df511ed1c0e82",
+    "scene_count": 26,
+    "prompt_count": 125,
     "scene_ids": [
       13,
       16,
@@ -765,7 +816,9 @@
       64,
       65,
       66,
-      67
+      67,
+      68,
+      69
     ],
     "work_items": [
       "W5",
