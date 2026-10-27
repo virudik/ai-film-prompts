@@ -3,43 +3,17 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-27T15:41:17+00:00",
-  "source_head": "6eff2664e1720c4facf703c87265b0b89eac06f0",
-  "source_fingerprint": "aec0d2d7880ea36ed6fb6aa2d48768392f809322bdd8d718c54f4f6184cf8917",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-27T15:43:29+00:00",
+  "source_head": "b8aa99d31ede7f73c5749ed0bc856f923dd783da",
+  "source_fingerprint": "a8a3508300c4ff3ff1680c90001fc5e92915c2e1462b53f6be400a9c620d6e1e",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "RAZNOE-CPK-REFS-20261027",
-    "title": "Роскосмос — подготовка референсов ЦПК",
-    "status": "awaiting_owner_handoff",
-    "last_completed": "В main подготовлены 25 сцен / 75 промтов и тексты для 10 референсов ЦПК сцен 21–25. Изображения ЦПК ещё не нарисованы; 29 прежних элементов очереди paused_by_owner.",
-    "next_action": "Открытому ChatGPT Work проверить передачу владельцем задачи claude-202610271320-cpk-refs и её актуальный статус, затем выполнить разрешённую подготовку 10 референсов по image-prompt.txt. Плановым задачам её не брать; видео остаются на паузе.",
-    "verified_at": "2026-10-27T14:07:47+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/raznoe/HANDOFF.md",
-        "sha256": "07bb0f6dcb77307ad6c9e254340eabd59eba4113d36cffe1c6ca84bb824b6158"
-      },
-      {
-        "file": "projects/raznoe/INSTRUCTIONS.md",
-        "sha256": "359a83fd60d7028665045c96aaea2e4e30ee772569383b9a0007fc6a690eb744"
-      }
-    ],
-    "read_next": [
-      "projects/raznoe/HANDOFF.md",
-      "projects/raznoe/INSTRUCTIONS.md",
-      "ops/OWNER-TASKS.md"
-    ],
-    "checkpoint": {
-      "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
-      "sha256": "7bd47acfac5c6a4efaed26dcc1140c6a83b0219e38623ab7fce790333a7e3ac6"
-    }
-  },
+  "reasons": [
+    "recovery evidence changed: projects/raznoe/HANDOFF.md"
+  ],
+  "selected_work": null,
   "checkpoint_text": "# Продолжай — проверенная точка проекта · 27.10.2026\n\nwork_id: RAZNOE-CPK-REFS-20261027\nПроверено: 2026-10-27T14:07:47.150Z\nВ main подготовлены 25 сцен / 75 промтов и тексты для 10 референсов ЦПК сцен 21–25. Изображения ЦПК ещё не нарисованы; 29 прежних элементов очереди paused_by_owner.\nСледующий шаг: Открытому ChatGPT Work проверить передачу владельцем задачи claude-202610271320-cpk-refs и её актуальный статус, затем выполнить разрешённую подготовку 10 референсов по image-prompt.txt. Плановым задачам её не брать; видео остаются на паузе.\nМеханизм перенесён; отдельный новый чат ещё не принимал смену.\n",
   "invariants": [
     {
@@ -133,11 +107,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/raznoe/HANDOFF.md",
-    "projects/raznoe/INSTRUCTIONS.md",
-    "ops/OWNER-TASKS.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -218,8 +188,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "07bb0f6dcb77307ad6c9e254340eabd59eba4113d36cffe1c6ca84bb824b6158",
-      "bytes": 5858
+      "sha256": "82a628da8f5dd303735b2cd70bb5e5bb7cbb126cc38288f035f625e3b4ea29fb",
+      "bytes": 6551
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -228,13 +198,13 @@
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
-      "sha256": "5083e68a01efc0be1f8a458973eb3ba2bc7aebebebd791d50f8a895c3b9d9ff7",
-      "bytes": 87227
+      "sha256": "beea0068588b5c091ba84d96b3548407ac368835f6fd6da53c35b2c2c8400f1d",
+      "bytes": 93416
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "0b1c0595037ff3336433849389a0a0ab3eeb2398ca601de5a2fbafbd8cbba632",
-      "bytes": 19433
+      "sha256": "5a96764948c0734c143839f07521ea5da1604cb2c827dab2aea9da73d8491fd1",
+      "bytes": 19438
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
@@ -248,8 +218,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "b14585c94cc0e821d338b770ddcadb8888531184d664c6ceafb3392e90ff64a6",
-      "bytes": 466743
+      "sha256": "bfc48fff188e8d8dab0597557f22d29dc95ba6e92129a615f8c4038f7c21acd0",
+      "bytes": 467270
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
@@ -272,5 +242,5 @@
       "bytes": 903928
     }
   ],
-  "packet_bytes": 5625
+  "packet_bytes": 4841
 }
