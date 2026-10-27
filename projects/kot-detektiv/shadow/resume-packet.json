@@ -3,14 +3,17 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-10-27T18:31:16+00:00",
-  "source_head": "ce08ff8488960e0b162f6023d4649a1d125abf85",
-  "source_fingerprint": "59334685db98190c5d339a82c206ab5306289026a6da41dc57c326bb725475e3",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-27T18:54:45+00:00",
+  "source_head": "b38e3b7f89e16f1cc2e95dbd62644a00cf0ff166",
+  "source_fingerprint": "39ec7b6bc90d064fc7ac60edef61e332dbed4b765bfd144dc036b6d1888e99c2",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "KD-WAIT-OWNER",
     "title": "Кот детектив — ожидание решения владельца",
@@ -263,14 +266,14 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "47dc8bbcf3b8aabd46fac1db733bf64272dc24cc2976872da7b30582e0d49bd7",
-      "bytes": 22297
+      "sha256": "6738ddb02f825af26102585887541edc17c51047d79f58215de39bbcd98fdb61",
+      "bytes": 22298
     },
     {
       "file": "video-prompts.md",
-      "sha256": "37e65491a499ef46da68d81d9f1aae71707960a761468aee6370cdb33531bd18",
-      "bytes": 1002098
+      "sha256": "5b388fd2f0622a5d922ed628b6ac77ff95467fe6d41f608a12bcf80df25cfc04",
+      "bytes": 1002399
     }
   ],
-  "packet_bytes": 5355
+  "packet_bytes": 5323
 }

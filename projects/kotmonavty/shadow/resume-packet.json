@@ -3,14 +3,17 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-27T18:45:03+00:00",
-  "source_head": "608b06f215c7375ef3e383ec9e17fc5e620b52ff",
-  "source_fingerprint": "3b462f079a378c9cf9295370ca483a779fdb87b5f3e58e8952a0338deb6515d2",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-27T18:54:45+00:00",
+  "source_head": "b38e3b7f89e16f1cc2e95dbd62644a00cf0ff166",
+  "source_fingerprint": "b208676ad8b11bd244295a65553d1003b582d26ac3ac1b4f3db5483d78ec8d89",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "KM-WAIT-OWNER",
     "title": "Котмонавты — ожидание решения владельца",
@@ -263,14 +266,14 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "47dc8bbcf3b8aabd46fac1db733bf64272dc24cc2976872da7b30582e0d49bd7",
-      "bytes": 22297
+      "sha256": "6738ddb02f825af26102585887541edc17c51047d79f58215de39bbcd98fdb61",
+      "bytes": 22298
     },
     {
       "file": "video-prompts.md",
-      "sha256": "37e65491a499ef46da68d81d9f1aae71707960a761468aee6370cdb33531bd18",
-      "bytes": 1002098
+      "sha256": "5b388fd2f0622a5d922ed628b6ac77ff95467fe6d41f608a12bcf80df25cfc04",
+      "bytes": 1002399
     }
   ],
-  "packet_bytes": 5273
+  "packet_bytes": 5241
 }
