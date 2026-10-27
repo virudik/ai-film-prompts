@@ -4422,7 +4422,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК, 23.10.2026 — тренировка на «Дон-ERA»](https://www.gctc.ru/main.php?id=7793).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png` (ещё не нарисован). Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png` (ещё не нарисован). Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-23/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-23/c23-console.png`. Simulator workstation: two fictional trainees in royal-blue overalls seated at a desk with a rugged laptop, a hand controller and three monitors showing exterior station camera views; an instructor at a separate desk behind. Controls the room, the trainees and the monitors' framing. @Image2 — `projects/raznoe/references/scenes/scene-23/c23-era-arm.png` (ещё не нарисован). Photoreal exterior: a long white symmetric robotic arm with grippers at both ends moving across a white station module; a round base-point fixture with a target mark near the free gripper; Earth below. Controls the arm, module and fixture. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-23/*.image-prompt.txt`.
+
+<div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-23/c23-console.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-23/c23-console.png" alt="Сцена 23, @Image1: ЦПК: пульт тренажёра манипулятора" loading="lazy"></a><figcaption>@Image1 — ЦПК: пульт тренажёра манипулятора. Созданный концепт.</figcaption></figure>
+</div>
 
 **Закадровый текст для монтажа:** «Манипулятор работает снаружи станции, а управляют им изнутри. На тренажёре инструктор создаёт отказ — и экипаж учится доводить работу вручную, до автоматизма.»
 
