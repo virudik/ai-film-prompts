@@ -2963,6 +2963,16 @@
    "thumb_bytes": 74752,
    "src_sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72"
   },
+  "references/scenes/scene-68/S68-light-broom.png": {
+   "thumb": "references/thumbs/scenes/scene-68/S68-light-broom.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3555635,
+   "thumb_bytes": 88226,
+   "src_sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d"
+  },
   "references/scenes/scene-68/S68-sweepers-crew.png": {
    "thumb": "references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp",
    "width": 640,

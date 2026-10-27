@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T21:15:10+00:00",
+  "last_updated_at": "2026-10-27T21:17:08+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -646,7 +646,7 @@
       "project": "seregius",
       "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
       "status": "in_progress",
-      "updated_at": "2026-10-27T21:15:10+00:00",
+      "updated_at": "2026-10-27T21:17:08+00:00",
       "owner_task_id": "claude-202610271320-cpk-refs",
       "owner_quote": "Её выполняешь именно ты, открытый чат. Ничего не запускай.",
       "completed": [
@@ -654,25 +654,25 @@
         "Алина, Даша, Маша Р: sheets и спор Маши сохранены; повтор не нужен",
         "Фактический checkpoint восстановлен после полного приёма"
       ],
-      "next_action": "Продолжить независимые референсы: references/scenes/scene-68/S68-light-broom.png, references/scenes/scene-68/S68-crew-sweeping-street.png, references/scenes/scene-69/S69-masha-masterclass.png; затем интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.",
+      "next_action": "Продолжить независимые референсы: references/scenes/scene-68/S68-crew-sweeping-street.png, references/scenes/scene-69/S69-masha-masterclass.png; затем интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.",
       "canonical_refs": [
         "ops/owner-tasks.json",
         "references/scenes/scene-65/manifest.json"
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T21:15:10+00:00",
-        "last_completed": "references/scenes/scene-68/S68-sweepers-crew.png создан и прошёл визуальный QC; сохранение в текущем коммите",
-        "next_action": "Продолжить независимые референсы: references/scenes/scene-68/S68-light-broom.png, references/scenes/scene-68/S68-crew-sweeping-street.png, references/scenes/scene-69/S69-masha-masterclass.png; затем интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.",
+        "verified_at": "2026-10-27T21:17:08+00:00",
+        "last_completed": "references/scenes/scene-68/S68-light-broom.png создан и прошёл визуальный QC; сохранение в текущем коммите",
+        "next_action": "Продолжить независимые референсы: references/scenes/scene-68/S68-crew-sweeping-street.png, references/scenes/scene-69/S69-masha-masterclass.png; затем интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
-          "sha256": "d4dd97ceb3d69bb555ead67054a45d76f9e108310ffd4dd795c71a002d806645"
+          "sha256": "32a373a3315adaefeae68518b51c1f0a13e2d75796d90afc874bf87fd5ccb57e"
         },
         "evidence": [
           {
             "file": "reports/open-work-refs-relay-2026-10-27.json",
-            "sha256": "8b11bac4bd15193867017305b69f62a2b1657350064f29d79a323dd33c08c4f3"
+            "sha256": "731b7e3a893895520233a924481f64a7b49639a218e0257728cfddf5254515c4"
           }
         ],
         "read_next": [
