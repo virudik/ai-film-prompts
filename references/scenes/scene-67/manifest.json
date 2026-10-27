@@ -60,10 +60,49 @@
         "git_present": true
       },
       "prompt_file": "references/scenes/scene-67/S67-vendor.image-prompt.txt"
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "caption": "Маша Р: развёртка в одежде Татуина",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2247428,
+      "role": "Маша Р: развёртка в одежде Татуина",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (open Work)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T19:19:54+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T19:19:54+00:00",
+        "scope": "Visual inspection of subject, composition, identity where supplied, anatomy, 16:9 and no lettering/logos. Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.image-prompt.txt",
+      "identity_source_photos": [
+        {
+          "owner_attachment": "999adf49-a5f6-4fcf-a263-0998edc7d6d1.jpg",
+          "sha256": "568f7c1abd0458139f822aa6762dd34ebad3bb20f6765cf0ac93809d1e6f374b"
+        }
+      ],
+      "character_id": "masha-r"
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T19:08:22+00:00"
+  "updated_at": "2026-10-27T19:19:54+00:00",
+  "identity_refs": [
+    "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+  ]
 }
