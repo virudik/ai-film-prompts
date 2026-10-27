@@ -19,7 +19,7 @@
         "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun.",
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch."
       ],
-      "next_action": "Fresh complete UI scan of all 13 Topview boards found 6/6 active video slots, all on My First Board. No Create/claim/cost this cycle. S52-P2 priority 0 now has the actual S52-P1 final 3s archived and continuity-QC passed; launch it at the next confirmed free slot only after a new full scan and standard prompt/ref/Unlimited0/CAS checks. S52-P1 has a bread/milk-note placement defect, is not artistically accepted, and audio was not listened. Never repeat S52-P1 or S48-P1.",
+      "next_action": "6/6 occupied after 13-board scan. S52-P2 priority0 has real P1 last3s + continuity QC; on a confirmed free slot, fresh-scan and run all Unlimited0/CAS checks. P1 defect recorded; no artistic approval; audio not listened. Never repeat S52-P1/S48-P1.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
