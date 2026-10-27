@@ -529,7 +529,7 @@
     "derivation": "ffmpeg select frame n=720 from original, lossless PNG."
   },
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "f2a7b233e8f50ccb8400c3b1abc8ac73e2e38a1f13e56b30ed6a5eed2e2af665",
+  "canonical_master_sha256": "37e65491a499ef46da68d81d9f1aae71707960a761468aee6370cdb33531bd18",
   "bread_milk_continuity": {
     "owner_request": "2026-10-17T20:03:11Z",
     "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",

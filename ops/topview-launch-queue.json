@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T13:38:06.555911+00:00",
+  "updated_at": "2026-10-27T16:45:00Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "LATEST27Oct2026 owner: new scenes 64→65→66→67 at priorities0.90–0.93, after63 and before49/50/51 and dances28; chain52P7→66→67 seamless (real last3s of previous link as @Video1). Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "S13-S13",
@@ -7210,6 +7210,286 @@
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",
       "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67."
+    },
+    {
+      "id": "S64-WAN30",
+      "scene_id": 64,
+      "prompt_id": "S64-WAN30",
+      "canonical_block_label": "64",
+      "canonical_prompt_sha256": "2ae1f1a144baf2410cbc553c66a67083af2766477cdd6c1711b6807a7e5d83e7",
+      "normalized_prompt_sha256": "5edacb999d63f7e3f2ff8365fb1ee852868d98d5316ff94e6da55c5985bd9447",
+      "priority": 0.9,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_references",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-64/S64-corridor.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Коридор звёздного разрушителя: геометрия и свет"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-64/S64-officers-reaction.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Офицеры у стены: странный и испуганный взгляд"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": "Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs).",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner27Oct2026 16:31Z: «Новые сцены в очереди до музыкально танцевальных номеров и их бесшовную связку не забывать». New scenes 64–67 go after 63 and before 49/50/51 and dances 28. Seamless chain 52P7→66→67: each continuation starts from the real last 3 s of the previous link. One free Unlimited render each; no paid path, no automatic retry; skip while blocked.",
+      "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
+      "result_review_required": true,
+      "result_review_policy": "Check exact identities from references, the scene's gag as written (Офицеры боятся, а не смеются; танец на ходу, без остановки и без «сценического номера»; в конце двери закрываются за Серёгой.), dynamic camera, no extra characters. Never equate technical success with acceptance.",
+      "created_at": "2026-10-27T16:31:40Z"
+    },
+    {
+      "id": "S65-WAN30",
+      "scene_id": 65,
+      "prompt_id": "S65-WAN30",
+      "canonical_block_label": "65",
+      "canonical_prompt_sha256": "d962d042d6301596abb1c07b13c1073d2f53539577ccf28a12dd91f4b58a9c68",
+      "normalized_prompt_sha256": "8ff45d7c358bd37fd3d76cad4b942d23f6e94cce50607c1e645983880c61e6a5",
+      "priority": 0.91,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_references",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Точный модельный лист Серёги: лицо и одежда"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Кантина: арки, лампа, столы (только локация)"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-toast-closeup.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Тост и маслёнка IG-11"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": "Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs).",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner27Oct2026 16:31Z: «Новые сцены в очереди до музыкально танцевальных номеров и их бесшовную связку не забывать». New scenes 64–67 go after 63 and before 49/50/51 and dances 28. Seamless chain 52P7→66→67: each continuation starts from the real last 3 s of the previous link. One free Unlimited render each; no paid path, no automatic retry; skip while blocked.",
+      "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
+      "result_review_required": true,
+      "result_review_policy": "Check exact identities from references, the scene's gag as written (Серёга не говорит ни слова; Боба Фетт не снимает шлем; IG-11 не пьёт, а смазывает себя из маслёнки; трое из исходника кантины (S10) в кадр не попадают.), dynamic camera, no extra characters. Never equate technical success with acceptance.",
+      "created_at": "2026-10-27T16:31:40Z"
+    },
+    {
+      "id": "S66-WAN30",
+      "scene_id": 66,
+      "prompt_id": "S66-WAN30",
+      "canonical_block_label": "66",
+      "canonical_prompt_sha256": "5c803e025b64a4abd537a7b21ac5423664d329e0362161f591c8f7ef15ca65dd",
+      "normalized_prompt_sha256": "476e1a292b8d88519cbf0310d3adc9e2f6beabde730abe07c23783b099fb89e8",
+      "priority": 0.92,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S52-R2-SEED20-P7"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S52-R2-SEED20-P7",
+          "planned_path": "references/scenes/scene-52/S52-R2-P7-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": null,
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "GIRL A appearance — owner reference, to be added by the owner"
+        },
+        {
+          "slot": "@Image2",
+          "path": null,
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "GIRL B appearance — owner reference, to be added by the owner"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-alien-dog.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Инопланетная собака: дизайн существа"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Улица: собака посреди дороги, прохожие возмущаются"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Фруктовый прилавок из 67 (конец сцены)"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": "Await actual S52-R2-SEED20-P7 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P7-last3s.mp4 and pass continuity QC. Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs). Needs the owner's own appearance references.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner27Oct2026 16:31Z: «Новые сцены в очереди до музыкально танцевальных номеров и их бесшовную связку не забывать». New scenes 64–67 go after 63 and before 49/50/51 and dances 28. Seamless chain 52P7→66→67: each continuation starts from the real last 3 s of the previous link. One free Unlimited render each; no paid path, no automatic retry; skip while blocked.",
+      "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
+      "result_review_required": true,
+      "result_review_policy": "Check exact identities from references, the scene's gag as written (Связка: начало — конец 52 ч.7, финал — прилавок 67. Девочки не извиняются и не убирают. Внешность — только по референсам владельца (пока их нет, не запускать). Момент «какания» без крупного плана.), dynamic camera, no extra characters. Start must continue the previous link's real last frame seamlessly. Never equate technical success with acceptance.",
+      "created_at": "2026-10-27T16:31:40Z"
+    },
+    {
+      "id": "S67-WAN30",
+      "scene_id": 67,
+      "prompt_id": "S67-WAN30",
+      "canonical_block_label": "67",
+      "canonical_prompt_sha256": "17f236f74aa8f7cf48496db0455bb4632afd01f7a99730aeb77000d752e4d90f",
+      "normalized_prompt_sha256": "3c03c0ae318feb24aa3a7aa88691ad4a849a260820d7d39454aff3e2b7753832",
+      "priority": 0.93,
+      "state": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [
+        "S66-WAN30"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "previous_chain_link_end",
+          "source_item_id": "S66-WAN30",
+          "planned_path": "references/scenes/scene-66/S66-last3s.mp4"
+        },
+        {
+          "slot": "@Image1",
+          "path": null,
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "YOUNG WOMAN appearance — owner reference, to be added by the owner"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Продавец: четырёхрукий инопланетянин"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": null,
+          "required": true,
+          "input_status": "required_not_available",
+          "canonical_role": "Прилавок с инопланетными фруктами"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "blocker": "Await actual S66-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-66/S66-last3s.mp4 and pass continuity QC. Needs reference images drawn by the open ChatGPT Work chat (task claude-202610271320-cpk-refs). Needs the owner's own appearance references.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner27Oct2026 16:31Z: «Новые сцены в очереди до музыкально танцевальных номеров и их бесшовную связку не забывать». New scenes 64–67 go after 63 and before 49/50/51 and dances 28. Seamless chain 52P7→66→67: each continuation starts from the real last 3 s of the previous link. One free Unlimited render each; no paid path, no automatic retry; skip while blocked.",
+      "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
+      "result_review_required": true,
+      "result_review_policy": "Check exact identities from references, the scene's gag as written (Связка: начало — конец 66 (прилавок). Ругань очень бурная, но без насилия. Внешность девушки — только по референсу владельца (пока его нет, не запускать).), dynamic camera, no extra characters. Start must continue the previous link's real last frame seamlessly. Never equate technical success with acceptance.",
+      "created_at": "2026-10-27T16:31:40Z"
     }
   ],
   "already_submitted": {
@@ -7402,6 +7682,11 @@
     52,
     53,
     47,
+    63,
+    64,
+    65,
+    66,
+    67,
     28,
     49,
     50,
