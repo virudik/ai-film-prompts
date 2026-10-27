@@ -3,6 +3,349 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S39-SEED20-P1",
+      "scene_id": 39,
+      "prompt_id": "S39-SEED20-P1",
+      "canonical_block_label": "39 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "c4488e22f0d4a04d64f9cfdcfc6a6e0d6c3212b1c6b1bf929b75553e8d6a3286",
+      "normalized_prompt_sha256": "96703e313539eee67782048dc8e485499e18a5d8619e3a4a000a43e5338a2871",
+      "priority": 5,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+          "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-39/S39-camp-film-part2-14m16s.png",
+          "sha256": "9ff37a92265bb8fba12680fb55096bc7e59e6b7f4b6bfbd1972e0974407f31e3",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+          "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "008058a4705c45c089256116427153d4",
+      "claim": {
+        "run_id": "chatgpt-automation-20261020T080324908Z-S39-SEED20-P1",
+        "claimed_at": "2026-10-20T08:03:35.146Z",
+        "actor": "ChatGPT Work",
+        "route": "free_web_gui",
+        "preflight": "Fresh complete 11-board/16-page/912-task scan; 5 active Unlimited videos; no normalized S39-P1 duplicate; 6 input SHA verified in exact order; UI reconstructed prompt raw+normalized SHA exact; Seedance2.0/15s/720p/16:9/quantity1/Unlimited free"
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S39",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "submitted_at": "2026-10-20T08:04:19Z",
+      "receipt": "reports/topview-queue-2026-10-20/S39-SEED20-P1-receipt.json"
+    },
+    {
+      "id": "S52-SEED20-P2",
+      "scene_id": 52,
+      "prompt_id": "S52-SEED20-P2",
+      "canonical_block_label": "52 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "85364fcb6371a4feee97f8d85ba1ccf84c54bb3f0fd35a1d03fafe44d4e8a6bf",
+      "normalized_prompt_sha256": "e3fc6485d4316a4e90b3266746cca58f552257ed75b71228ec32a16d498ef15c",
+      "priority": 0,
+      "state": "superseded_owner_seven_parts",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S52-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "path": "references/scenes/scene-52/S52-P1-last3s-20261027.mp4",
+          "sha256": "284cd066382a4e1d15ee72e133028c77da837072faef57d793a72570a72496d8",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "previous_part_end",
+          "source_item_id": "S52-SEED20-P1",
+          "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+          "source_original_sha256": "e646e809d6e3fdaf93264d790432504ad92af4525a38f89a0b2448882cb62ca7",
+          "source_drive_file_id": "1a17mcY4FhE94SyycdMguIk8evOMRhDMw",
+          "trim": {
+            "start_seconds": 12.041667,
+            "end_seconds": 15.041667,
+            "duration_seconds": 3,
+            "video_fps": 24,
+            "video_frames": 72,
+            "audio_frames": 95
+          },
+          "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Татуин: окраина космопорта; synthetic location helper; actual continuity video wins"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry. Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "replaces_unsubmitted_item": "S52",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S52-SEED20-P1"
+      ],
+      "blocker": "Replaced by owner-approved seven-part R2 sequence from selected S44 Seedance2.5 ending.",
+      "launch_readiness": "superseded",
+      "authorization_before_20261023_expansion": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "previous_gates_20261023": {
+        "depends_on_submitted": [
+          "S52-SEED20-P1"
+        ],
+        "depends_on_completed": [
+          "S52-SEED20-P1"
+        ],
+        "blocker": "Actual ending of S52-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+        "state": "blocked_inputs"
+      },
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "priority_before_20261023_primary": 20.1,
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "input_qc": {
+        "checked_at": "2026-10-27T06:42:11.566Z",
+        "result": "pass_for_continuity_input",
+        "rule": "Serega must not be on roof, canopy, wings or exterior hull.",
+        "observed": "Final three seconds show the craft exterior in black space; Serega is not visible on the exterior hull.",
+        "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json",
+        "review_scope": "Full 15.04 s source sampled at 2 fps; final 3 s sampled at 4 fps; final frame inspected full-resolution. Audio stream exists but was not listened to. This is not continuous full-frame-rate or owner review.",
+        "artistic_acceptance": false,
+        "known_source_defect": "During cockpit frames the yellow bread/milk note is attached to Serega's chest instead of the blank right console panel; the defect is recorded and is not visible in the exterior P2 continuity opening."
+      },
+      "continuity_prepared_at": "2026-10-27T06:42:11.566Z",
+      "updated_at": "2026-10-27T11:25:33.064Z",
+      "owner_revision_20261027": {
+        "at": "2026-10-27T09:56:07.089Z",
+        "previous_state": "waiting_for_slot",
+        "previous_launch_readiness": "authorized_inputs_available",
+        "previous_blocker": null,
+        "reason": "Owner says Scene52 result is wrong, proposes separate boarding/takeoff/cruiser fly-by/Tatooine arrival clips, and selects Scene44 Seedance2.5 ending as the new start.",
+        "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+        "source_model": "Seedance 2.5"
+      },
+      "superseded_at": "2026-10-27T11:25:33.064Z",
+      "superseded_by": [
+        "S52-R2-SEED20-P1",
+        "S52-R2-SEED20-P2",
+        "S52-R2-SEED20-P3",
+        "S52-R2-SEED20-P4",
+        "S52-R2-SEED20-P5",
+        "S52-R2-SEED20-P6",
+        "S52-R2-SEED20-P7"
+      ]
+    },
+    {
+      "scene_id": 44,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "authorization": "Direct owner19Oct2026 13:15:58MSK: «44 сделать и так и так. Потом проверим как лучше получится». Authorizes BOTH one Wan3.0 30s version and one Seedance2.0 version split into two15s parts, free website Unlimited0 only. Compare actual results; owner chooses, no automatic acceptance or retry.",
+      "comparison_group": "S44-COMPARE-20261019",
+      "id": "S44-SEED20-P1",
+      "prompt_id": "S44-SEED20-P1",
+      "canonical_block_label": "44 · Seedance 2.0 часть 1",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "prompt_text_resolution": 720,
+      "priority": 7.1,
+      "state": "superseded_owner_in_film",
+      "task_id": null,
+      "claim": null,
+      "launch_readiness": "not_selected",
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b"
+        },
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_scene_end",
+          "input_status": "pending_new_S43_result",
+          "required": true,
+          "source_item_id": "S43-R1-20261017",
+          "source_task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+          "source_requirement": "Use the same actual corrected S43 ending for Wan and Seedance P1. Left wing jammed about45deg, right wing raised, ramp down. Save provenance, trim and SHA256; old both-wings-raised S43 is invalid."
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
+          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "input_status": "available",
+          "canonical_role": "vehicle_design_helper"
+        }
+      ],
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "depends_on_completed": [
+        "S43-R1-20261017"
+      ],
+      "blocker": "QC23Oct: actual corrected S43 task70ba69f8c44e4898ab587fbffeaeca01 ends with BOTH wings raised, contrary to required left wing jammed45deg. Genuine input is available but invalid for current44; do not substitute or auto-retry.",
+      "canonical_prompt_sha256": "32896b0fdca18d7b9f29e271cbd9912593b8b444ac224008578f38fd6f73ab1c",
+      "normalized_prompt_sha256": "772d909308cae741a98f400201f8daa1f2e8d55922daededf7620f31e2dc9ee6",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S43-R1-20261017-review.json",
+      "owner_decision_20261023": {
+        "at": "2026-10-23T13:43:36Z",
+        "quote": "1 переснимаем. 2 посмотрим результат запущенной  и ещё не готовой сцены.",
+        "meaning": "Decide 44 after the owner sees the result of the running S52-SEED20-P1 (task 34ff1bf7c…, started from the end of the Wan 44 result 42f5f94e…). Until then: do not launch, cancel or rerender 44."
+      },
+      "prior_state_before_owner_in_film": "blocked_inputs",
+      "closure": {
+        "reason": "Owner marked scene44 in film; never launch obsolete unsubmitted alternatives. Historical fields and source inputs are retained.",
+        "owner_decision_id": "c3a958df-e912-4fa4-ac2f-6d5d4e39272d",
+        "owner_decision_at": "2026-10-27T13:30:45.717539Z",
+        "applied_commit": "ebd504a9",
+        "checked_at": "2026-10-27T13:38:06.555883+00:00"
+      }
+    },
+    {
+      "scene_id": 44,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "authorization": "Direct owner19Oct2026 13:15:58MSK: «44 сделать и так и так. Потом проверим как лучше получится». Authorizes BOTH one Wan3.0 30s version and one Seedance2.0 version split into two15s parts, free website Unlimited0 only. Compare actual results; owner chooses, no automatic acceptance or retry.",
+      "comparison_group": "S44-COMPARE-20261019",
+      "id": "S44-SEED20-P2",
+      "prompt_id": "S44-SEED20-P2",
+      "canonical_block_label": "44 · Seedance 2.0 часть 2",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "prompt_text_resolution": 720,
+      "priority": 7.2,
+      "state": "superseded_owner_in_film",
+      "task_id": null,
+      "claim": null,
+      "launch_readiness": "not_selected",
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b"
+        },
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "required": true,
+          "source_item_id": "S44-SEED20-P1",
+          "source_requirement": "Actual S44 Seedance P1 end only; left wing still attached at45deg after hammer impact. Save provenance, trim, SHA256 and QC. Do not use Wan output or S43 in place of this part1 result."
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
+          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "input_status": "available",
+          "canonical_role": "vehicle_design_helper"
+        }
+      ],
+      "depends_on_submitted": [
+        "S44-SEED20-P1"
+      ],
+      "depends_on_completed": [
+        "S44-SEED20-P1"
+      ],
+      "blocker": "Actual Seedance S44 part1 ending must be saved and QC checked; use that result only, with hammer impact and left wing still attached at45deg.",
+      "canonical_prompt_sha256": "16c92f4ea239f97cfb947e720b4ba6a418907ffb86b93a8a2884f566537a70c7",
+      "normalized_prompt_sha256": "48516c60bad0cbd321d7f27a51a56509d485c8b20ae1cd5558bba336edcb0a3c",
+      "owner_decision_20261023": {
+        "at": "2026-10-23T13:43:36Z",
+        "quote": "1 переснимаем. 2 посмотрим результат запущенной  и ещё не готовой сцены.",
+        "meaning": "Decide 44 after the owner sees the result of the running S52-SEED20-P1 (task 34ff1bf7c…, started from the end of the Wan 44 result 42f5f94e…). Until then: do not launch, cancel or rerender 44."
+      },
+      "prior_state_before_owner_in_film": "blocked_inputs",
+      "closure": {
+        "reason": "Owner marked scene44 in film; never launch obsolete unsubmitted alternatives. Historical fields and source inputs are retained.",
+        "owner_decision_id": "c3a958df-e912-4fa4-ac2f-6d5d4e39272d",
+        "owner_decision_at": "2026-10-27T13:30:45.717539Z",
+        "applied_commit": "ebd504a9",
+        "checked_at": "2026-10-27T13:38:06.555905+00:00"
+      }
+    },
+    {
       "id": "S36-S36",
       "scene_id": 36,
       "prompt_id": "S36",
