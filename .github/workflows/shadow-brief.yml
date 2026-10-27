@@ -7,7 +7,10 @@ name: Shadow pilot takeover brief (not canonical)
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ['Canonical master check and owner buttons (GitHub main; Drive is only a copy)']
+    # GITHUB_TOKEN writes do not trigger push workflows. Rebuild after the
+    # existing telemetry writer too, so its fresh project-status cannot leave
+    # the recovery packet stale until the next half-hour canonical check.
+    workflows: ['Canonical master check and owner buttons (GitHub main; Drive is only a copy)', 'Topview robot (scan + telemetry writer)']
     types: [completed]
   push:
     branches: [main]
