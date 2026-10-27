@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "prepare-continuity-S52-P2-20261027T0639Z",
-  "acquired_at": "2026-10-27T06:39:00Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T06:42:11.566Z",
+  "task": "trim-resume-register-20261027",
+  "acquired_at": "2026-10-27T06:43:24.881Z",
+  "expires_at": "2026-10-27T07:28:24.881Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
