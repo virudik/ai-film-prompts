@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T21:30:18Z",
+  "updated_at": "2026-10-27T22:07:16Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6674,8 +6674,8 @@
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P7",
       "canonical_block_label": "52 · Seedance 2.0 часть 7",
-      "canonical_prompt_sha256": "555b5db329fd5e86f3f1275d966e85e33642d01e487af95231c20ac97a0d87c5",
-      "normalized_prompt_sha256": "a449601963a82647374cde577a87b3ae1087f30da7418ef5aadf097548775e0f",
+      "canonical_prompt_sha256": "72356646a0d67a5f7c12c367140899a758343c7a5927c941b6a6304b8f5cc263",
+      "normalized_prompt_sha256": "e0f5b63668f2864697882e3962d7e1369bee2a7428930a25ca65e6b042aaa1d6",
       "priority": 0.06,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -6715,11 +6715,11 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-alien-dog.png",
-          "sha256": null,
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
+          "input_status": "available",
+          "canonical_role": "Стич на переднем плане общего уличного кадра: точная внешность, красная шлейка и поводок; использовать только для Стича, индивидуальные развёртки @Image4/@Image5 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -6746,7 +6746,7 @@
       "authorization": "Owner27Oct approved seven separate scene52 parts, all action references and asked this chat to finish prompts/site/queue; replaces held old52 continuation. Existing free-launch authorization for selected52 retained. One selected Unlimited0 render per new part; no paid path, duplicate alternative or automatic retry.",
       "owner_launch_authorized_at": "2026-10-27T11:25:33.064Z",
       "launch_readiness": "blocked_continuity",
-      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P6-last3s.mp4 and pass continuity QC. Missing required image references: references/scenes/scene-66/S66-alien-dog.png.",
+      "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P6-last3s.mp4 and pass continuity QC.",
       "input_qc_rule": "Verify exact personal craft identity/scale, face/robe where visible, closed hatch in motion, empty roof, physical departure/landing, motion axis and lighting; no synthetic replacement or propagation of a wrong craft. Success alone does not pass QC.",
       "source_revision": "scene52-seven-parts-2026-10-27",
       "created_at": "2026-10-27T11:25:33.064Z",
@@ -6883,8 +6883,8 @@
       "scene_id": 66,
       "prompt_id": "S66-WAN30",
       "canonical_block_label": "66",
-      "canonical_prompt_sha256": "da4f3ddfc406b65eb303c023a0804c84ffe1986a204fb5cd8247fa6af2fb76a9",
-      "normalized_prompt_sha256": "b53b9f0c4e2a697c4db5bc35495a3eac4c9f79e3b30e0665d8eba039f74c644b",
+      "canonical_prompt_sha256": "c0ef2994be22af0b6af2f86b8c7d9acc07a57bcd05464b208e980b90e6546b0c",
+      "normalized_prompt_sha256": "1c15c73c3d263e69d46f967456d678b1e92a05ad99e2be13e189ef748ac20ef2",
       "priority": 0.92,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -6929,22 +6929,14 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-alien-dog.png",
-          "sha256": null,
-          "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
-        },
-        {
-          "slot": "@Image4",
           "path": "references/scenes/scene-66/S66-street-outrage.png",
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
-          "slot": "@Image5",
+          "slot": "@Image4",
           "path": "references/scenes/scene-67/S67-fruit-stall.png",
           "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
           "required": true,
@@ -6952,7 +6944,7 @@
           "canonical_role": "Татуин: прилавок с инопланетными фруктами"
         },
         {
-          "slot": "@Image6",
+          "slot": "@Image5",
           "required": true,
           "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
@@ -6962,7 +6954,7 @@
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await actual S52-R2-SEED20-P7 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P7-last3s.mp4 and pass continuity QC. Missing required image references: references/scenes/scene-66/S66-alien-dog.png.",
+      "blocker": "Await actual S52-R2-SEED20-P7 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P7-last3s.mp4 and pass continuity QC.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",

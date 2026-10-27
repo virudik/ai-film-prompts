@@ -126,19 +126,20 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T21:30:18Z",
+  "updated_at": "2026-10-27T22:07:16Z",
   "identity_refs": [
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
-    "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
+    "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+    "references/scenes/scene-66/S66-street-outrage.png"
   ],
   "last_qc_at": "2026-10-27T21:05:05+00:00",
   "prompt_reference_mapping": [
     {
       "label": "66",
-      "canonical_prompt_sha256": "da4f3ddfc406b65eb303c023a0804c84ffe1986a204fb5cd8247fa6af2fb76a9",
-      "normalized_prompt_sha256": "b53b9f0c4e2a697c4db5bc35495a3eac4c9f79e3b30e0665d8eba039f74c644b",
-      "characters": 6374,
+      "canonical_prompt_sha256": "c0ef2994be22af0b6af2f86b8c7d9acc07a57bcd05464b208e980b90e6546b0c",
+      "normalized_prompt_sha256": "1c15c73c3d263e69d46f967456d678b1e92a05ad99e2be13e189ef748ac20ef2",
+      "characters": 6447,
       "slots": [
         {
           "slot": "@Video1",
@@ -166,22 +167,14 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-alien-dog.png",
-          "sha256": null,
-          "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
-        },
-        {
-          "slot": "@Image4",
           "path": "references/scenes/scene-66/S66-street-outrage.png",
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
-          "slot": "@Image5",
+          "slot": "@Image4",
           "path": "references/scenes/scene-67/S67-fruit-stall.png",
           "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
           "required": true,
@@ -189,7 +182,7 @@
           "canonical_role": "Татуин: прилавок с инопланетными фруктами"
         },
         {
-          "slot": "@Image6",
+          "slot": "@Image5",
           "required": true,
           "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
@@ -202,9 +195,9 @@
     },
     {
       "label": "66 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "0dc244de4f9e89aae9663fd23d2090df14c0189cd76fef26081f795b8d8f0ead",
-      "normalized_prompt_sha256": "ca70c61047076ff2b08efa5a02f3a945553f6eb9fecf7f7ddbb64773658f8764",
-      "characters": 5846,
+      "canonical_prompt_sha256": "ef678c576691ce29d76490d6b38151ce0802d919685f612b89b2c927fb778afc",
+      "normalized_prompt_sha256": "9ce7ac0a6b50f8d412a283096b9ee5de4fc84bf5dae09582430931c27c0568e0",
+      "characters": 5919,
       "slots": [
         {
           "slot": "@Video1",
@@ -232,22 +225,14 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-alien-dog.png",
-          "sha256": null,
-          "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
-        },
-        {
-          "slot": "@Image4",
           "path": "references/scenes/scene-66/S66-street-outrage.png",
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
-          "slot": "@Image5",
+          "slot": "@Image4",
           "path": "references/scenes/scene-67/S67-fruit-stall.png",
           "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
           "required": true,
@@ -255,7 +240,7 @@
           "canonical_role": "Татуин: прилавок с инопланетными фруктами"
         },
         {
-          "slot": "@Image6",
+          "slot": "@Image5",
           "required": true,
           "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
@@ -267,9 +252,9 @@
     },
     {
       "label": "66 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "1b0c451b34606ba4f969499dbb04c03b344b1e915e8c3010a470a6c9e2b7a268",
-      "normalized_prompt_sha256": "4678e2dd38f56ac65fee4017a2d72e1169724ef4adcfa21e610f3ddc3cc035e6",
-      "characters": 5646,
+      "canonical_prompt_sha256": "823a533336a550e259a98800d460d5395a54e0f7de01c6fe48d660d4fec4ba6f",
+      "normalized_prompt_sha256": "5a36c38c9f675be4af9b2e192a2f307c590b3585dbdb90c9452a78f7e8e1a63a",
+      "characters": 5719,
       "slots": [
         {
           "slot": "@Video1",
@@ -296,22 +281,14 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-alien-dog.png",
-          "sha256": null,
-          "required": true,
-          "input_status": "required_not_available",
-          "canonical_role": "Стич: точный дизайн персонажа в красной шлейке"
-        },
-        {
-          "slot": "@Image4",
           "path": "references/scenes/scene-66/S66-street-outrage.png",
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих"
+          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
-          "slot": "@Image5",
+          "slot": "@Image4",
           "path": "references/scenes/scene-67/S67-fruit-stall.png",
           "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
           "required": true,
@@ -319,7 +296,7 @@
           "canonical_role": "Татуин: прилавок с инопланетными фруктами"
         },
         {
-          "slot": "@Image6",
+          "slot": "@Image5",
           "required": true,
           "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",

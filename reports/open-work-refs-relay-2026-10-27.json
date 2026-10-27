@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "OPEN-WORK-REFS-RELAY-20261027",
   "project": "seregius",
-  "checked_at": "2026-10-27T22:02:28Z",
+  "checked_at": "2026-10-27T22:07:17Z",
   "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
   "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
   "owner_tasks": [
@@ -111,9 +111,7 @@
       "status": "existing_verified"
     }
   ],
-  "pending_assets": [
-    "references/scenes/scene-66/S66-alien-dog.png"
-  ],
+  "pending_assets": [],
   "generated_assets": [
     {
       "path": "references/scenes/scene-66/S66-street-outrage.png",
@@ -208,7 +206,7 @@
   "image_generation_blockers": [
     {
       "path": "references/scenes/scene-66/S66-alien-dog.png",
-      "status": "tool_output_moderation_blocked",
+      "status": "resolved",
       "attempts": 4,
       "request_ids": [
         "fd91e9a1-e1a6-4bf9-b008-4578ce7230ae",
@@ -216,14 +214,20 @@
         "7b6367ae-d976-4bd6-9dd3-df8fe3d07780",
         "c1d2866a-9d67-477e-88b3-4b76a79c01bd"
       ],
-      "reason": "Built-in imagegen rejected output with category other; no specific explanation returned. No successful image or PNG exists.",
-      "followup": "Stop automatic retries of the unchanged moderation-blocked request. Complete the remaining asset when a suitable standalone image is supplied or the generator restriction is resolved; do not claim availability or silently switch services.",
+      "reason": "The separate-generation requirement is retired; existing unchanged street image supplies Stitch identity.",
+      "followup": "No further standalone generation needed. Preserve the four historical refusals as history; the generator itself was not changed.",
       "last_attempt_at": "2026-10-27T21:56:08Z",
       "last_attempt": "After the owner explicitly asked to finish, repeated the same canonical standalone Stitch prompt with the same existing street reference. Output rejected: moderation_blocked, category other. No image returned.",
-      "last_attempt_time_basis": "Recorded after the tool response; tool did not provide a server timestamp."
+      "last_attempt_time_basis": "Recorded after the tool response; tool did not provide a server timestamp.",
+      "historical_generation_status": "tool_output_moderation_blocked",
+      "historical_failure_reason": "Built-in imagegen rejected output with category other; no specific explanation returned. No successful image or PNG exists.",
+      "resolved_at": "2026-10-27T22:07:17Z",
+      "resolution": "owner_authorized_reuse_of_existing_image",
+      "resolved_source_path": "references/scenes/scene-66/S66-street-outrage.png",
+      "resolved_source_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
     }
   ],
-  "status": "independent_work_complete_stitch_blocked",
+  "status": "reference_requirements_fulfilled_pending_final_readback",
   "asset_commits": {
     "references/scenes/scene-66/S66-street-outrage.png": "d37618698eed31fc873bb51db18a65fa3e626e5a",
     "references/scenes/scene-68/S68-sweepers-crew.png": "e40e6c7c164eeab48c5aa055a620ee00787f7332",
@@ -243,7 +247,13 @@
     "new_s68_69_task_assets_available": 5,
     "new_s68_69_task_assets_total": 5,
     "all_distinct_verified_assets": 25,
-    "new_images_this_pass": 5
+    "new_images_this_pass": 5,
+    "original_requested_png_files_available": 17,
+    "reference_requirements_fulfilled": 18,
+    "reference_requirements_total": 18,
+    "s64_67_reference_requirements_fulfilled": 8,
+    "standalone_requirements_resolved_by_reuse": 1,
+    "count_semantics": "initial_request_available=17 and s64_67_available=7 count unique original requested PNG files. All18 requested reference roles are fulfilled:17 original files plus reuse of the street PNG for the Stitch role. No18th standalone PNG is claimed."
   },
   "integration": {
     "changed_prompt_blocks": [
@@ -265,9 +275,7 @@
       "S68-WAN30",
       "S69-WAN30"
     ],
-    "missing_new_images": [
-      "references/scenes/scene-66/S66-alien-dog.png"
-    ],
+    "missing_new_images": [],
     "existing_images_without_source_manifest_record": [],
     "invariants": {
       "queue_item_ids_and_order_unchanged": true,
@@ -290,7 +298,25 @@
     "status": "published_and_exact_readback_verified",
     "helper_images": "S67 market-quarrel and S68/S69 compositions remain gallery/helpers only, never prompt/queue inputs.",
     "launch_states": "Existing states preserved for64/65;52P7 and66–69 remain blocked on actual video continuity and any missing image. No submit, claim or approval changes.",
-    "commit": "3f10718369a67789cf0696cd3300cebc2e11915f"
+    "commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+    "stitch_reuse": {
+      "status": "locally_verified",
+      "queue_items_changed": [
+        "S52-R2-SEED20-P7",
+        "S66-WAN30"
+      ],
+      "scene66_slots": {
+        "@Image1": "Alina sheet",
+        "@Image2": "Dasha sheet",
+        "@Image3": "existing Stitch and street frame",
+        "@Image4": "fruit stall",
+        "@Image5": "Masha sheet"
+      },
+      "duplicate_image_upload_removed": true,
+      "real_video_continuity_required": true,
+      "new_queue_items": 0,
+      "video_launches": 0
+    }
   },
   "validation": {
     "checked_at": "2026-10-27T21:34:40Z",
@@ -508,7 +534,7 @@
     "remaining_assets": 1
   },
   "reuse_existing_stitch": {
-    "status": "authorized_preparing",
+    "status": "integrated_locally_verified",
     "owner_quote": "Есть же фото Стича с девочками, её недостаточно? из этой фотки сделать нельзя ?",
     "recorded_at": "2026-10-27T22:02:28Z",
     "source_path": "references/scenes/scene-66/S66-street-outrage.png",
@@ -516,6 +542,22 @@
     "decision": "Use the existing unchanged frame as the Stitch identity reference; the owner accepts this source. Separate newly generated PNG is no longer a prerequisite. Do not manufacture or claim a missing standalone file.",
     "planned_mapping": "52P7 Image3 uses shared image. Scene66 Image3 combines Stitch and street; old duplicate street slot removed, fruit becomes Image4 and Masha Image5.",
     "new_image_generation": false,
-    "new_video_generation": false
+    "new_video_generation": false,
+    "applied_at": "2026-10-27T22:07:17Z",
+    "source_pixels_unchanged": true,
+    "standalone_file_created": false,
+    "assistant_visual_qc": "Stitch is fully visible in foreground; blue fur, large ears, face, full body and red harness are clear. Identity authority is limited to Stitch; individual human sheets override faces. The existing frame also supplies the street geography."
+  },
+  "reference_requirement_resolution": {
+    "requested_path": "references/scenes/scene-66/S66-alien-dog.png",
+    "resolved_path": "references/scenes/scene-66/S66-street-outrage.png",
+    "reason": "Owner asked to use the existing Stitch-with-girls frame. The existing unchanged frame supplies the required creature identity; a separate generation is unnecessary.",
+    "reuse_authorized_by": "direct user clarification on 28.10.2026 Europe/Moscow",
+    "editorial_approval": "not_recorded",
+    "new_file_created": false,
+    "queue_items": [
+      "S52-R2-SEED20-P7",
+      "S66-WAN30"
+    ]
   }
 }
