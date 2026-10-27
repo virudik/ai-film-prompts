@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-review",
   "task": "Scenes 68-69 (Жилищник) chained after 67, owner 27.10",
   "acquired_at": "2026-10-27T20:28:43Z",
-  "expires_at": "2026-10-27T21:13:43Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-27T20:34:18Z",
   "rules": "ops/CANON-LOCK.md"
 }
