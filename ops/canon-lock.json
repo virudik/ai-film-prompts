@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt",
-  "task": "PHASE-AB-20261027-1455: slots, health and GitHub mail accounting",
-  "acquired_at": "2026-10-27T11:55:23.147Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T11:56:17.373Z",
+  "state": "held",
+  "holder": "claude:scene-review",
+  "task": "Scene 28: shared Claude+ChatGPT dance variant (owner 27.10)",
+  "acquired_at": "2026-10-27T12:14:12Z",
+  "expires_at": "2026-10-27T12:59:12Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
