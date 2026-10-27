@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "scene_id": 52,
+  "item_id": "S52-SEED20-P1",
+  "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+  "checked_at": "2026-10-27T06:42:11.566Z",
+  "source": {
+    "original_filename": "34ff1bf7fe9d47f08de5a635d5626c70.mp4",
+    "sha256": "e646e809d6e3fdaf93264d790432504ad92af4525a38f89a0b2448882cb62ca7",
+    "md5": "b491bab8d66668233103ead19fbe9717",
+    "size_bytes": 11721641,
+    "duration_seconds": 15.041667,
+    "video": "H.264 1280x720 24fps",
+    "audio": "AAC stereo; stream present, not listened",
+    "drive_file_id": "1a17mcY4FhE94SyycdMguIk8evOMRhDMw",
+    "drive_url": "https://drive.google.com/file/d/1a17mcY4FhE94SyycdMguIk8evOMRhDMw/view?usp=drivesdk"
+  },
+  "review_scope": {
+    "full_source": "sampled at 2 fps",
+    "ending": "last 3 seconds sampled at 4 fps",
+    "final_frame": "full-resolution",
+    "audio_listened": false,
+    "continuous_full_frame_rate_view": false
+  },
+  "continuity_for_S52_P2": {
+    "result": "pass",
+    "rule": "Reject if Serega is on the roof, canopy, wings or exterior hull.",
+    "finding": "Craft exterior in black space; Serega is not visible on the exterior.",
+    "clip": {
+      "path": "references/scenes/scene-52/S52-P1-last3s-20261027.mp4",
+      "sha256": "284cd066382a4e1d15ee72e133028c77da837072faef57d793a72570a72496d8",
+      "start_seconds": 12.041667,
+      "end_seconds": 15.041667,
+      "duration_seconds": 3,
+      "video_frames": 72,
+      "audio_frames": 95
+    },
+    "final_frame": {
+      "path": "references/scenes/scene-52/S52-P1-final-frame-20261027.png",
+      "sha256": "40d96286c3e5cd6b7153d62279ef6485376cde7922e9abb1680ac6a929bb779f"
+    }
+  },
+  "artistic_findings": {
+    "accepted": false,
+    "owner_approved": false,
+    "defects": [
+      {
+        "severity": "material_scene_deviation",
+        "finding": "The yellow bread/milk note appears attached to Serega's chest during cockpit frames instead of the blank right console panel.",
+        "propagation_to_p2_opening": "not visible in the exterior continuity clip"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "reports/topview-quality-2026-10-27/S52-SEED20-P1-contact-2fps.jpg",
+      "sha256": "3576b977e66dfdd7a3ff64070ec1b8b9f8d8c74c00e875988c02de4c507239c3"
+    },
+    {
+      "path": "reports/topview-quality-2026-10-27/S52-SEED20-P1-last3s-4fps.jpg",
+      "sha256": "7911736a0b117856b4098579fc2d4ab8b27fc2ba98cf0f32f3c705c3517fcff5"
+    }
+  ]
+}

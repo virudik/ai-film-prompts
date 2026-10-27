@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-23T18:26:35.912877Z",
+  "updated_at": "2026-10-27T06:42:11.566Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -270,12 +270,28 @@
       "source_item": "S44-R1-20261017",
       "status": "pending_result",
       "actual_video_required": true
+    },
+    {
+      "slot": "@Video1",
+      "target_item": "S52-SEED20-P2",
+      "source_item": "S52-SEED20-P1",
+      "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+      "status": "available_qc_passed_for_continuity",
+      "actual_video_required": true,
+      "path": "references/scenes/scene-52/S52-P1-last3s-20261027.mp4",
+      "sha256": "284cd066382a4e1d15ee72e133028c77da837072faef57d793a72570a72496d8",
+      "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json"
     }
   ],
   "approved": [],
   "rejected": [],
   "start_frame": null,
-  "end_frame": null,
+  "end_frame": {
+    "path": "references/scenes/scene-52/S52-P1-final-frame-20261027.png",
+    "sha256": "40d96286c3e5cd6b7153d62279ef6485376cde7922e9abb1680ac6a929bb779f",
+    "source_item": "S52-SEED20-P1",
+    "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70"
+  },
   "prompt_reference_mapping": [
     {
       "prompt": "main",
@@ -353,7 +369,7 @@
     "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
     "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
   },
-  "remaining": "P1 source available. P2 still requires actual P1 ending; owner approval not implied.",
+  "remaining": "S52-P2 real input prepared and continuity-QC passed; waiting for a free video slot. P1 artistic/owner approval is not implied; audio was not listened.",
   "actual_continuity_20261023": {
     "at": "2026-10-23T01:51:09.796Z",
     "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
@@ -397,5 +413,53 @@
       "sha256": "af5da03014371c3f56edfa6d3f611cd7e1693bc875bc07856db5328af0f2dc1a"
     }
   },
-  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof."
+  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof.",
+  "actual_p1_continuity_20261027": {
+    "at": "2026-10-27T06:42:11.566Z",
+    "source_item_id": "S52-SEED20-P1",
+    "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+    "source_original_sha256": "e646e809d6e3fdaf93264d790432504ad92af4525a38f89a0b2448882cb62ca7",
+    "source_original_size_bytes": 11721641,
+    "source_duration_seconds": 15.041667,
+    "source_drive_file_id": "1a17mcY4FhE94SyycdMguIk8evOMRhDMw",
+    "continuity_pass": true,
+    "owner_approval": false,
+    "audio_reviewed": false,
+    "method": "Full source sampled at 2fps, final3s sampled at4fps, final full-resolution frame; audio not listened; not continuous full-frame-rate review.",
+    "observed": [
+      "Final three seconds show the craft exterior against black space.",
+      "Serega is not visible on the roof, canopy, wings or exterior hull."
+    ],
+    "deviations": [
+      "In cockpit frames the yellow bread/milk note is attached to Serega's chest instead of the blank right console panel."
+    ],
+    "video_ref": {
+      "slot": "@Video1",
+      "path": "references/scenes/scene-52/S52-P1-last3s-20261027.mp4",
+      "sha256": "284cd066382a4e1d15ee72e133028c77da837072faef57d793a72570a72496d8",
+      "required": true,
+      "input_status": "available",
+      "canonical_role": "previous_part_end",
+      "source_item_id": "S52-SEED20-P1",
+      "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+      "source_original_sha256": "e646e809d6e3fdaf93264d790432504ad92af4525a38f89a0b2448882cb62ca7",
+      "source_drive_file_id": "1a17mcY4FhE94SyycdMguIk8evOMRhDMw",
+      "trim": {
+        "start_seconds": 12.041667,
+        "end_seconds": 15.041667,
+        "duration_seconds": 3,
+        "video_fps": 24,
+        "video_frames": 72,
+        "audio_frames": 95
+      },
+      "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json"
+    },
+    "end_frame": {
+      "path": "references/scenes/scene-52/S52-P1-final-frame-20261027.png",
+      "sha256": "40d96286c3e5cd6b7153d62279ef6485376cde7922e9abb1680ac6a929bb779f",
+      "source_item": "S52-SEED20-P1",
+      "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70"
+    },
+    "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json"
+  }
 }

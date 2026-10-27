@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T06:16:16Z",
+  "updated_at": "2026-10-27T06:42:11.566Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3587,7 +3587,7 @@
       "canonical_prompt_sha256": "85364fcb6371a4feee97f8d85ba1ccf84c54bb3f0fd35a1d03fafe44d4e8a6bf",
       "normalized_prompt_sha256": "e3fc6485d4316a4e90b3266746cca58f552257ed75b71228ec32a16d498ef15c",
       "priority": 0,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3603,11 +3603,24 @@
       "references": [
         {
           "slot": "@Video1",
+          "path": "references/scenes/scene-52/S52-P1-last3s-20261027.mp4",
+          "sha256": "284cd066382a4e1d15ee72e133028c77da837072faef57d793a72570a72496d8",
           "required": true,
+          "input_status": "available",
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
           "source_item_id": "S52-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+          "source_original_sha256": "e646e809d6e3fdaf93264d790432504ad92af4525a38f89a0b2448882cb62ca7",
+          "source_drive_file_id": "1a17mcY4FhE94SyycdMguIk8evOMRhDMw",
+          "trim": {
+            "start_seconds": 12.041667,
+            "end_seconds": 15.041667,
+            "duration_seconds": 3,
+            "video_fps": 24,
+            "video_frames": 72,
+            "audio_frames": 95
+          },
+          "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json"
         },
         {
           "slot": "@Image1",
@@ -3633,8 +3646,8 @@
       "depends_on_completed": [
         "S52-SEED20-P1"
       ],
-      "blocker": "Actual52P1 end required; no synthetic substitution.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
       "authorization_before_20261023_expansion": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "previous_gates_20261023": {
         "depends_on_submitted": [
@@ -3648,7 +3661,20 @@
       },
       "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
       "priority_before_20261023_primary": 20.1,
-      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "input_qc": {
+        "checked_at": "2026-10-27T06:42:11.566Z",
+        "result": "pass_for_continuity_input",
+        "rule": "Serega must not be on roof, canopy, wings or exterior hull.",
+        "observed": "Final three seconds show the craft exterior in black space; Serega is not visible on the exterior hull.",
+        "source_task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "qc_report": "reports/topview-quality-2026-10-27/S52-SEED20-P1-review.json",
+        "review_scope": "Full 15.04 s source sampled at 2 fps; final 3 s sampled at 4 fps; final frame inspected full-resolution. Audio stream exists but was not listened to. This is not continuous full-frame-rate or owner review.",
+        "artistic_acceptance": false,
+        "known_source_defect": "During cockpit frames the yellow bread/milk note is attached to Serega's chest instead of the blank right console panel; the defect is recorded and is not visible in the exterior P2 continuity opening."
+      },
+      "continuity_prepared_at": "2026-10-27T06:42:11.566Z",
+      "updated_at": "2026-10-27T06:42:11.566Z"
     },
     {
       "id": "S53-SEED20-P1",
