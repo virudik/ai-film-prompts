@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-27T16:23:27Z",
+  "synced_at": "2026-10-27T16:27:00Z",
   "revision_date": "27.10.2026",
   "master_declared_last_full_sync": "27.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "99938cf94c0856686b83a4fd654d377170b480a4b61bc39fc5525b60d257aaab",
-  "canonical_revision_sha256": "6f111254c68e35b30425f7a7a8bbbc6bf1929cdd0e0bab1e468bd215bd56f064",
-  "canonical_master_bytes": 983266,
+  "canonical_master_sha256": "f2a7b233e8f50ccb8400c3b1abc8ac73e2e38a1f13e56b30ed6a5eed2e2af665",
+  "canonical_revision_sha256": "5f9d387fdb47871e52f5ba2c160c025388ba60ec843e184e15d506d860dabb55",
+  "canonical_master_bytes": 1001563,
   "scenes": 24,
   "prompt_texts": 119,
   "work_items": [
@@ -109,19 +109,19 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-27T14:13:53.030Z",
+    "snapshot_at": "2026-10-27T16:24:44.787Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 2.159,
+    "age_hours_at_status_build": 0.038,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "94af7d09a865e289bf2b49c7cf9e9bead9f5d786b04d4ae7630b8ac5eea655c8",
         "drive_copy_checked_at": "2026-10-27T09:01:41.170Z",
         "drive_copy_modified_at": "2026-10-27T09:01:28.502Z",
-        "github_blob": "966378614678ad63038e39ddd567d1ad385445cb",
-        "mirror_sha256": "fe78047403d0b122c0f0890da01c0d5f9335613c6a49ad75a2dc6dca73f1c44d",
+        "github_blob": "92b468195464a49d85a3fda2caf62d2d6f94b318",
+        "mirror_sha256": "5609080b954d7e7b734055b734fe8324917dcd238de5d99c8cf69a8b0531f9c4",
         "match": true,
         "drive_copy_match": false
       },
@@ -191,7 +191,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 2.159,
+      "age_hours": 0.038,
       "blocking": false
     },
     "topview_task_map": {
@@ -666,8 +666,8 @@
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
-        "enabled": true,
-        "language": "ru"
+        "enabled": false,
+        "language": null
       },
       "dependencies": [],
       "tags": [
@@ -686,10 +686,15 @@
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
-        "enabled": true,
-        "language": "ru"
+        "enabled": false,
+        "language": null
       },
-      "dependencies": [],
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 52
+        }
+      ],
       "tags": [
         "tatooine",
         "street",
@@ -697,6 +702,7 @@
         "creature",
         "awaiting_owner_refs",
         "owner_requested",
+        "chain_52_66_67",
         "awaiting_references"
       ],
       "render_state": "IDLE"
@@ -709,7 +715,12 @@
         "enabled": true,
         "language": "ru"
       },
-      "dependencies": [],
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 66
+        }
+      ],
       "tags": [
         "tatooine",
         "market",
@@ -717,6 +728,7 @@
         "dialogue_ru",
         "awaiting_owner_refs",
         "owner_requested",
+        "chain_52_66_67",
         "awaiting_references"
       ],
       "render_state": "IDLE"
@@ -724,9 +736,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.10.2026",
-    "synced_at": "2026-10-27T16:23:27Z",
-    "canonical_master_sha256": "99938cf94c0856686b83a4fd654d377170b480a4b61bc39fc5525b60d257aaab",
-    "canonical_revision_sha256": "6f111254c68e35b30425f7a7a8bbbc6bf1929cdd0e0bab1e468bd215bd56f064",
+    "synced_at": "2026-10-27T16:27:00Z",
+    "canonical_master_sha256": "f2a7b233e8f50ccb8400c3b1abc8ac73e2e38a1f13e56b30ed6a5eed2e2af665",
+    "canonical_revision_sha256": "5f9d387fdb47871e52f5ba2c160c025388ba60ec843e184e15d506d860dabb55",
     "scene_count": 24,
     "prompt_count": 119,
     "scene_ids": [
