@@ -21,6 +21,8 @@ work_id: OPEN-WORK-REFS-RELAY-20261027
 
 Сохранён новый референс: `references/scenes/scene-68/S68-light-broom.png`, SHA256 `7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d`; QC композиции/идентичности выполнен, художественное принятие не выставлено.
 
+Сохранён новый референс: `references/scenes/scene-68/S68-crew-sweeping-street.png`, SHA256 `cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769`; QC композиции/идентичности выполнен, художественное принятие не выставлено.
+
 
 # Цикл 20:55 МСК — слоты, self-heal и проверки A/B · 2026-10-27T18:12:14Z
 

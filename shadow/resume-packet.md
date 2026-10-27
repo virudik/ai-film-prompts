@@ -3,11 +3,11 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-10-27T21:17:09+00:00
+Проверено: 2026-10-27T21:23:12+00:00
 Задача: OPEN-WORK-REFS-RELAY-20261027 — 18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи
 
-Последний подтверждённый этап: references/scenes/scene-68/S68-light-broom.png создан и прошёл визуальный QC; сохранение в текущем коммите
-Следующий шаг: Продолжить независимые референсы: references/scenes/scene-68/S68-crew-sweeping-street.png, references/scenes/scene-69/S69-masha-masterclass.png; затем интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.
+Последний подтверждённый этап: references/scenes/scene-68/S68-crew-sweeping-street.png создан и прошёл визуальный QC; сохранение в текущем коммите
+Следующий шаг: Продолжить независимые референсы: references/scenes/scene-69/S69-masha-masterclass.png; затем интеграцию входов, Relay и Work-only протокол. Отдельный Стич остаётся заблокирован генератором; повторно в этом проходе не рисовать.
 
 ## Контрольная точка
 
@@ -33,6 +33,8 @@ work_id: OPEN-WORK-REFS-RELAY-20261027
 Сохранён новый референс: `references/scenes/scene-68/S68-sweepers-crew.png`, SHA256 `72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46`; QC композиции/идентичности выполнен, художественное принятие не выставлено.
 
 Сохранён новый референс: `references/scenes/scene-68/S68-light-broom.png`, SHA256 `7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d`; QC композиции/идентичности выполнен, художественное принятие не выставлено.
+
+Сохранён новый референс: `references/scenes/scene-68/S68-crew-sweeping-street.png`, SHA256 `cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769`; QC композиции/идентичности выполнен, художественное принятие не выставлено.
 
 ## Обязательные правила
 
