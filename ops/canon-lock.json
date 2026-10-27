@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-review",
   "task": "Queue scenes 64-67 before dances (owner 27.10)",
   "acquired_at": "2026-10-27T16:32:54Z",
-  "expires_at": "2026-10-27T17:17:54Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-27T16:36:14Z",
   "rules": "ops/CANON-LOCK.md"
 }
