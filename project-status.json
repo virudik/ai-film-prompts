@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-27T13:31:08Z",
+  "synced_at": "2026-10-27T13:33:18Z",
   "revision_date": "27.10.2026",
   "master_declared_last_full_sync": "27.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "922edc1f8aa8505775cb8024c5d7b13b949fb930dd52bcb9960ac82284409286",
-  "canonical_revision_sha256": "d1028637eb019715c9d58ab36eb2a7b0dcb8cf85d180432d3c27bcd6bf2f2d60",
-  "canonical_master_bytes": 1019787,
-  "scenes": 23,
-  "prompt_texts": 116,
+  "canonical_master_sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
+  "canonical_revision_sha256": "4d38928d5436c0de60674f4665dadf299fb7f6b9c5c44555f674b2c34cb442d2",
+  "canonical_master_bytes": 903928,
+  "scenes": 20,
+  "prompt_texts": 107,
   "work_items": [
     "W5",
     "W6",
@@ -28,10 +28,6 @@
   "slow_scenes": [
     16,
     28,
-    36,
-    37,
-    39,
-    40,
     42,
     48,
     52,
@@ -39,16 +35,13 @@
     57,
     58
   ],
-  "slow_scenes_count": 12,
+  "slow_scenes_count": 8,
   "scene_ids": [
     13,
     16,
     28,
     33,
     36,
-    37,
-    39,
-    40,
     41,
     42,
     48,
@@ -97,7 +90,10 @@
     32,
     34,
     35,
+    37,
     38,
+    39,
+    40,
     43,
     44,
     45,
@@ -113,7 +109,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.151,
+    "age_hours_at_status_build": 0.187,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -191,7 +187,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.151,
+      "age_hours": 0.187,
       "blocking": false
     },
     "topview_task_map": {
@@ -291,71 +287,7 @@
         "depart",
         "continuity"
       ],
-      "render_state": "SLOW_PENDING"
-    },
-    "37": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 36
-        }
-      ],
-      "tags": [
-        "serega",
-        "travel",
-        "naboo",
-        "forest_planet",
-        "map",
-        "bread_and_milk",
-        "continuity"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
-    "39": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "serega",
-        "travel",
-        "landing",
-        "naboo",
-        "lake",
-        "continuity"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
-    "40": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "serega",
-        "travel",
-        "landing",
-        "sith_planet",
-        "map",
-        "bread_and_milk",
-        "continuity"
-      ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "41": {
       "target_engine": "Wan 3",
@@ -709,20 +641,17 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.10.2026",
-    "synced_at": "2026-10-27T13:31:08Z",
-    "canonical_master_sha256": "922edc1f8aa8505775cb8024c5d7b13b949fb930dd52bcb9960ac82284409286",
-    "canonical_revision_sha256": "d1028637eb019715c9d58ab36eb2a7b0dcb8cf85d180432d3c27bcd6bf2f2d60",
-    "scene_count": 23,
-    "prompt_count": 116,
+    "synced_at": "2026-10-27T13:33:18Z",
+    "canonical_master_sha256": "d730bd7b6a8125b32484ecf60ac69f0a8655c47e2c535d6b891c8079e8a59a68",
+    "canonical_revision_sha256": "4d38928d5436c0de60674f4665dadf299fb7f6b9c5c44555f674b2c34cb442d2",
+    "scene_count": 20,
+    "prompt_count": 107,
     "scene_ids": [
       13,
       16,
       28,
       33,
       36,
-      37,
-      39,
-      40,
       41,
       42,
       48,
@@ -755,10 +684,6 @@
     "slow_scenes": [
       16,
       28,
-      36,
-      37,
-      39,
-      40,
       42,
       48,
       52,
