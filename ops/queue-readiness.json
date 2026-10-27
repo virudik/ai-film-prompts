@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "434504c217a06271b51da3e106a2dc5e5cff390906b2ed4335d22d10212bd1c1",
+  "source_queue_sha256": "cfac37f3a474a10ea9c7d258195c30d5128dc88c0521b19fdf142112a7788810",
   "source_task_map_sha256": "432be123226d08611a9e2b4f002c50061477b4da6b782b190b3ae77448fc734a",
   "topview_checked_at": "2026-10-27T20:30:47Z",
   "items": [
@@ -453,8 +453,26 @@
       "ready": false,
       "text": "@Video1: ждёт результат 66 (ещё не запущен); @Image1: нужен референс или проверка его файла/SHA256; @Image2: нужен референс или проверка его файла/SHA256; @Image3: нужен референс или проверка его файла/SHA256",
       "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S68-WAN30",
+      "scene_id": 68,
+      "part_label": "68",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "@Video1: ждёт результат 67 (ещё не запущен); @Image1: нужен референс или проверка его файла/SHA256; @Image2: нужен референс или проверка его файла/SHA256; @Image3: нужен референс или проверка его файла/SHA256",
+      "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S69-WAN30",
+      "scene_id": 69,
+      "part_label": "69",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "@Video1: ждёт результат 68 (ещё не запущен); @Image2: нужен референс или проверка его файла/SHA256; @Image3: нужен референс или проверка его файла/SHA256; @Image4: нужен референс или проверка его файла/SHA256",
+      "queue_state": "blocked_inputs"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-27T20:30:53.414074Z"
+  "checked_at": "2026-10-27T20:35:31.849223Z"
 }
