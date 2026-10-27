@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**20 сцен к генерации/доработке · 107 полных текстов промта**
+**24 сцены к генерации/доработке · 119 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 8** сцен сейчас в медленной генерации: **16, 28, 42, 48, 52, 56, 57, 58** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 63 — заброшенный храм со статуями с лицом и одеждой Серёги;3 новых референса,30с и2×15с. В очереди63 →49 →50 →51 → все танцы28 после действующего сюжетного блока. Неудачные старые танцы не считаются выполненными.
+- **Последняя оформленная активная сцена:** 67 — Татуин: девушка ругается с продавцом фруктов. 27.10 владелец добавил 64–67 (коридор разрушителя, бар с Бобой Феттом, девочки с инопланетной собакой, рынок): DRAFT, ждут референсы от открытого чата ChatGPT Work, в очередь не поставлены. Прежняя запись: 63 — заброшенный храм со статуями с лицом и одеждой Серёги;3 новых референса,30с и2×15с. В очереди63 →49 →50 →51 → все танцы28 после действующего сюжетного блока. Неудачные старые танцы не считаются выполненными.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **27.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **27.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **20 актуальных сцен и 107 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **27.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **24 актуальные сцены и 119 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -77,6 +77,10 @@
 | 61 | [Кашиик: ковбойское сближение перед дуэлью](#scene-61) | Серёга — красный меч; Виталик — синий меч; Лёша — фиолетовый меч; точный финал перед вторым видео и лес | Серёга, Виталик и Лёша сосредоточенно сближаются по дугам, оценивают стойки и руки противников. Виталик и Лёша обходят с двух углов, каждый коротко прокручивает свой меч; Серёга отвечает вращением красного клинка. Ложное движение заставляет всех перестроиться, и они занимают точную позицию начала второго видео. Сам бой ещё не начинается. P1 готова по входам; P2 после собственной P1. |
 | 62 | [Татуин: после погони — обратно к противостоянию](#scene-62) | Настоящий конец первого видео, начало второго как целевой финал; Серёга, Артём, Илюша, красная машина | Подъём после падения, остановка машины и возвращение Серёги, точная расстановка перед вторым роликом. P1 готова; P2 после собственной P1. |
 | 63 | [Храм ситхов: великие люди все на одно лицо](#scene-63) | Серёга, галерея собственных каменных статуй, портрет, тронный зал | Проходит по залам и искренне восхищается.30с Wan3.0, входы готовы; альтернативные2×15с. |
+| 64 | [Звёздный разрушитель: Серёга пританцовывает по коридору](#scene-64) | Серёга; коридор разрушителя; офицеры у стены | Серёга в прекрасном настроении пританцовывая идёт по коридору; имперские офицеры жмутся к стенам и провожают его странным, но испуганным взглядом. Владелец 27.10; DRAFT, ждёт референсы. |
+| 65 | [Татуин: Серёга выпивает в баре с Бобой Феттом и компанией](#scene-65) | Серёга; кантина (S10); стол с Бобой Феттом, гаморреанцем, тви'леком и IG-11 | Серёга пьёт с Бобой Феттом, гаморреанцем, тви'леком-наёмником и IG-11: тост «Ну, за Татуин!», гэги с выпивкой у шлема и дроида. Владелец 27.10; DRAFT, ждёт референсы. |
+| 66 | [Татуин: две девочки и инопланетная собака](#scene-66) | девочки (референсы — владелец); инопланетная собака; улица Татуина | Две девочки выгуливают на поводке инопланетную собаку; посреди улицы она садится какать, прохожие возмущаются. Владелец 27.10; DRAFT, ждёт референсы. |
+| 67 | [Татуин: девушка ругается с продавцом фруктов](#scene-67) | девушка (референс — владелец); прилавок с инопланетными фруктами; продавец | Девушка на татуинском рынке покупает фрукты и бурно ругается с четырёхруким инопланетным продавцом из-за цены. Владелец 27.10; DRAFT, ждёт референсы. |
 
 ---
 
@@ -7170,6 +7174,772 @@ Measured bootfalls on grit and tile with long temple reverberation, soft cloth m
 
 NEGATIVE PROMPT:
 living statues, statue blink, moving stone lips or cloth, flesh on sculptures, coloured pupils on statues, purple fabric on statues, anonymous hooded Sith faces, different portrait identities, extra living Seregas, twins, face swap, costume change, stone transformation, ghosts, monsters, battle, red glowing eyes, lava, black basalt arena, modern museum, display labels, computer, ship, basket, ignited weapon, extra limbs, sliding feet, teleportation, frozen living actor, slideshow, comic exaggeration, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+<a id="scene-64"></a>
+## Сцена 64 — Звёздный разрушитель: Серёга пританцовывает по коридору
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","star_destroyer","visual_comedy","dance_walk","owner_requested","awaiting_references"]} -->
+
+**Контекст использования:** владелец 27.10.2026. Самостоятельная комедийная вставка на борту имперского крейсера. Предлагаемое место в монтаже — перед ремонтом в ангаре 43–44 и пересадкой 52 (Серёга идёт к ангару в хорошем настроении). Место — предложение, окончательно решает владелец.
+
+**Что происходит:** Серёга в отличном настроении идёт по длинному коридору звёздного разрушителя и пританцовывает: щёлкает пальцами, покачивает плечами, делает скользящий шаг, крутится на каблуке и подпрыгивает на ходу. Имперские офицеры и штурмовик впереди замирают, прижимаются к стене и смотрят на него странно, но со страхом: никто не смеет ни остановить его, ни улыбнуться. Один офицер роняет планшет и не решается его поднять. Серёга не замечает произведённого эффекта и уходит в раздвижные двери; офицеры за его спиной переглядываются и выдыхают.
+
+**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-64/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с): по указанию владельца Wan лучше делает узнаваемых персонажей и антураж «Звёздных войн».
+
+**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-64/S64-corridor.png` (Коридор звёздного разрушителя: геометрия и свет; ещё не нарисован); @Image3 — `references/scenes/scene-64/S64-officers-reaction.png` (Офицеры у стены: странный и испуганный взгляд; ещё не нарисован).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
+</div>
+
+**Режиссёрский контроль:** Офицеры боятся, а не смеются; танец на ходу, без остановки и без «сценического номера»; в конце двери закрываются за Серёгой.
+
+<div class="engine-tabs" data-scene="64">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
+
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-64/S64-corridor.png`; @Image3 — `references/scenes/scene-64/S64-officers-reaction.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
+@Image2 — Imperial Star Destroyer corridor geometry, glossy black floor, grey wall panels, ceiling light strips and blast doors; location and light only. File: references/scenes/scene-64/S64-corridor.png.
+@Image3 — reaction composition: officers pressed to the wall, wide eyes, stiff posture; never overrides Serega identity. File: references/scenes/scene-64/S64-officers-reaction.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
+IMPERIAL OFFICERS: three or four Imperial officers in classic olive-grey Imperial uniforms with rank plaques, caps and black boots, plus one white-armoured stormtrooper. Ordinary human faces, all distinct, none resembles Serega.
+
+LOCATION / STORY LOCK — CRITICAL:
+One long straight Imperial Star Destroyer corridor from @Image2: glossy black floor, grey panels, ceiling light strips, sliding blast doors at the far end. Serega dances while walking forward along the centre; officers and the stormtrooper stay against the side walls. Officers are frightened of him: they never block, touch, salute mockingly, laugh or smile. No weapons drawn, no lightsaber, no Force effects, no battle. His hands are empty. The dance is joyful walking dance, not a stage show.
+
+START STATE:
+Serega enters the corridor from the near end in mid-stride, already in a cheerful mood, snapping his fingers; the officers ahead are still at their posts along the walls.
+
+TIMELINE:
+[0:00–0:06] HAPPY STRIDE — Low 28mm tracking shot moving backwards ahead of him. Serega walks with a bouncy step, snapping his fingers on the beat, shoulders rolling, a small satisfied smile. Ahead the first officer turns from a wall console, sees him and straightens rigidly against the panel.
+[0:06–0:12] THE MOVES — Cut on motion to a side tracking 35mm view. He does a sliding side step, a quick heel spin with the robe flaring out, and a little hop-skip without breaking forward motion. Two officers flatten against the wall as he passes; their heads turn to follow him, eyes wide.
+[0:12–0:18] FEAR AND CONFUSION — Medium 50mm reaction from the officers' side: one officer drops his datapad with a clatter, looks down at it and does not dare to bend for it; the stormtrooper freezes mid-step and slowly shifts back to the wall. Serega's shimmying back recedes past them.
+[0:18–0:24] FINALE PASS — Frontal medium shot of Serega: a shoulder shimmy, two quick finger-point beats to nobody in particular, a final spin as the blast doors ahead slide open for him. He never looks at the frightened crew.
+[0:24–0:30] EXHALE — Wide shot from behind the officers: Serega dances through the open doors, which slide shut behind him. In the sudden quiet the officers slowly peel off the wall, exchange one long baffled, frightened look; one finally picks up the datapad. End on their silent exchange.
+
+END STATE:
+The blast doors are closed behind Serega. Officers stand away from the wall, baffled and uneasy; datapad back in hand. Serega is gone.
+
+CAMERA / SPACE:
+Keep one corridor axis: Serega moves away from the near end toward the far blast doors. Alternate 28mm backward tracking, side tracking, 50mm reactions of officers and a wide finale. Faces readable in medium shots; cut on spins and steps.
+
+PERFORMANCE:
+Serega dances happily but in character: dignified, absorbed in his own good mood, body loose and rhythmic, no mugging to camera. Officers: rigid, frightened, puzzled; tiny reactions (swallow, eyes following, step back), never laughter. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Cool white ceiling strips, reflections in the glossy black floor, grey panel texture, warm plum fabric reading clearly against grey; photoreal feature-film skin and material detail.
+
+AUDIO:
+Bootfalls tapping in rhythm, finger snaps, robe swish, Serega quietly humming a cheerful wordless tune, ship hum, a datapad clatter, blast-door hiss. No speech, no narrator, no generated music track, no subtitles.
+
+NEGATIVE PROMPT:
+officers laughing, smiling or dancing along, salute, arrest, blasters drawn, lightsaber, Force lightning, battle, extra Seregas, face swap, robe change, cartoon, sliding feet, frozen pose, slideshow, logo, watermark, subtitles.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Альтернатива2×15с.** P2 требует настоящие последние3с своей P1; не выбрана к запуску.
+
+#### 64 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-64/S64-corridor.png`; @Image3 — `references/scenes/scene-64/S64-officers-reaction.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
+@Image2 — Imperial Star Destroyer corridor geometry, glossy black floor, grey wall panels, ceiling light strips and blast doors; location and light only. File: references/scenes/scene-64/S64-corridor.png.
+@Image3 — reaction composition: officers pressed to the wall, wide eyes, stiff posture; never overrides Serega identity. File: references/scenes/scene-64/S64-officers-reaction.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
+IMPERIAL OFFICERS: three or four Imperial officers in classic olive-grey Imperial uniforms with rank plaques, caps and black boots, plus one white-armoured stormtrooper. Ordinary human faces, all distinct, none resembles Serega.
+
+LOCATION / STORY LOCK — CRITICAL:
+One long straight Imperial Star Destroyer corridor from @Image2: glossy black floor, grey panels, ceiling light strips, sliding blast doors at the far end. Serega dances while walking forward along the centre; officers and the stormtrooper stay against the side walls. Officers are frightened of him: they never block, touch, salute mockingly, laugh or smile. No weapons drawn, no lightsaber, no Force effects, no battle. His hands are empty. The dance is joyful walking dance, not a stage show.
+
+START STATE:
+Serega enters the corridor from the near end in mid-stride, already in a cheerful mood, snapping his fingers; the officers ahead are still at their posts along the walls.
+
+TIMELINE:
+[0:00–0:06] HAPPY STRIDE — Low 28mm tracking shot moving backwards ahead of him. Serega walks with a bouncy step, snapping his fingers on the beat, shoulders rolling, a small satisfied smile. Ahead the first officer turns from a wall console, sees him and straightens rigidly against the panel.
+[0:06–0:12] THE MOVES — Cut on motion to a side tracking 35mm view. He does a sliding side step, a quick heel spin with the robe flaring out, and a little hop-skip without breaking forward motion. Two officers flatten against the wall as he passes; their heads turn to follow him, eyes wide.
+[0:12–0:18] FEAR AND CONFUSION — Medium 50mm reaction from the officers' side: one officer drops his datapad with a clatter, looks down at it and does not dare to bend for it; the stormtrooper freezes mid-step and slowly shifts back to the wall. Serega's shimmying back recedes past them.
+
+END STATE:
+Serega mid-move in the corridor centre with officers pressed against the walls; one datapad on the floor; he is still dancing forward toward the blast doors. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+
+CAMERA / SPACE:
+Keep one corridor axis: Serega moves away from the near end toward the far blast doors. Alternate 28mm backward tracking, side tracking, 50mm reactions of officers and a wide finale. Faces readable in medium shots; cut on spins and steps. Execute only the beats of this part.
+
+PERFORMANCE:
+Serega dances happily but in character: dignified, absorbed in his own good mood, body loose and rhythmic, no mugging to camera. Officers: rigid, frightened, puzzled; tiny reactions (swallow, eyes following, step back), never laughter. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Cool white ceiling strips, reflections in the glossy black floor, grey panel texture, warm plum fabric reading clearly against grey; photoreal feature-film skin and material detail.
+
+AUDIO:
+Bootfalls tapping in rhythm, finger snaps, robe swish, Serega quietly humming a cheerful wordless tune, ship hum, a datapad clatter, blast-door hiss. No speech, no narrator, no generated music track, no subtitles.
+
+NEGATIVE PROMPT:
+officers laughing, smiling or dancing along, salute, arrest, blasters drawn, lightsaber, Force lightning, battle, extra Seregas, face swap, robe change, cartoon, sliding feet, frozen pose, slideshow, logo, watermark, subtitles.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 64 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-64/S64-corridor.png`; @Image3 — `references/scenes/scene-64/S64-officers-reaction.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of THIS scene 64 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
+@Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
+@Image2 — Imperial Star Destroyer corridor geometry, glossy black floor, grey wall panels, ceiling light strips and blast doors; location and light only. File: references/scenes/scene-64/S64-corridor.png.
+@Image3 — reaction composition: officers pressed to the wall, wide eyes, stiff posture; never overrides Serega identity. File: references/scenes/scene-64/S64-officers-reaction.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
+IMPERIAL OFFICERS: three or four Imperial officers in classic olive-grey Imperial uniforms with rank plaques, caps and black boots, plus one white-armoured stormtrooper. Ordinary human faces, all distinct, none resembles Serega.
+
+LOCATION / STORY LOCK — CRITICAL:
+One long straight Imperial Star Destroyer corridor from @Image2: glossy black floor, grey panels, ceiling light strips, sliding blast doors at the far end. Serega dances while walking forward along the centre; officers and the stormtrooper stay against the side walls. Officers are frightened of him: they never block, touch, salute mockingly, laugh or smile. No weapons drawn, no lightsaber, no Force effects, no battle. His hands are empty. The dance is joyful walking dance, not a stage show.
+
+START STATE:
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Serega mid-move in the corridor centre with officers pressed against the walls; one datapad on the floor; he is still dancing forward toward the blast doors.
+
+TIMELINE:
+[0:00–0:07] FINALE PASS — Frontal medium shot of Serega: a shoulder shimmy, two quick finger-point beats to nobody in particular, a final spin as the blast doors ahead slide open for him. He never looks at the frightened crew.
+[0:07–0:15] EXHALE — Wide shot from behind the officers: Serega dances through the open doors, which slide shut behind him. In the sudden quiet the officers slowly peel off the wall, exchange one long baffled, frightened look; one finally picks up the datapad. End on their silent exchange.
+
+END STATE:
+The blast doors are closed behind Serega. Officers stand away from the wall, baffled and uneasy; datapad back in hand. Serega is gone.
+
+CAMERA / SPACE:
+Keep one corridor axis: Serega moves away from the near end toward the far blast doors. Alternate 28mm backward tracking, side tracking, 50mm reactions of officers and a wide finale. Faces readable in medium shots; cut on spins and steps. Execute only the beats of this part.
+
+PERFORMANCE:
+Serega dances happily but in character: dignified, absorbed in his own good mood, body loose and rhythmic, no mugging to camera. Officers: rigid, frightened, puzzled; tiny reactions (swallow, eyes following, step back), never laughter. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Cool white ceiling strips, reflections in the glossy black floor, grey panel texture, warm plum fabric reading clearly against grey; photoreal feature-film skin and material detail.
+
+AUDIO:
+Bootfalls tapping in rhythm, finger snaps, robe swish, Serega quietly humming a cheerful wordless tune, ship hum, a datapad clatter, blast-door hiss. No speech, no narrator, no generated music track, no subtitles.
+
+NEGATIVE PROMPT:
+officers laughing, smiling or dancing along, salute, arrest, blasters drawn, lightsaber, Force lightning, battle, extra Seregas, face swap, robe change, cartoon, sliding feet, frozen pose, slideshow, logo, watermark, subtitles.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+<a id="scene-65"></a>
+## Сцена 65 — Татуин: Серёга выпивает в баре с Бобой Феттом и компанией
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["serega","tatooine","cantina","visual_comedy","copyright_characters","owner_requested","awaiting_references"]} -->
+
+**Контекст использования:** владелец 27.10.2026. Татуинская кантина. Предлагаемое место — сразу после прогулки 52 (часть 7 заканчивается у арки, ведущей к кантине). Место — предложение, решает владелец.
+
+**Что происходит:** Серёга сидит за круглым столом в татуинской кантине с Бобой Феттом, гаморреанцем, наёмником-тви'леком и дроидом IG-11. Бармен ставит кружки. Серёга поднимает свою и коротко говорит: «Ну, за Татуин!» Все чокаются. Гаморреанец осушает кружку залпом и с хрюканьем грохает ею по столу, кружки подпрыгивают. Боба Фетт чуть приподнимает низ шлема и пьёт, не показывая лица. IG-11 поднимает стакан, сканирует его и аккуратно отставляет. Тви'лек смеётся и хлопает Серёгу по плечу. Серёга невозмутимо допивает, ставит кружку и жестом заказывает ещё раунд.
+
+**Реплика:** «Ну, за Татуин!» — Серёга, спокойно, на русском.
+
+**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-65/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с), по указанию владельца: Wan делает персонажей, защищённых авторским правом. Реплика на русском — ещё одна причина выбрать Wan.
+
+**Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png` (Кантина: арки, лампа, столы (только локация)); @Image3 — `references/scenes/scene-65/S65-bar-table.png` (Стол: Серёга, Боба Фетт, гаморреанец, тви'лек, IG-11; ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-toast-closeup.png` (Тост: кружки сходятся над столом; ещё не нарисован).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Точный модельный лист Серёги: лицо и одежда"></a><figcaption>@Image1 — Точный модельный лист Серёги: лицо и одежда</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="Кантина: арки, лампа, столы (только локация)"></a><figcaption>@Image2 — Кантина: арки, лампа, столы (только локация)</figcaption></figure>
+</div>
+
+**Режиссёрский контроль:** Боба Фетт не снимает шлем, IG-11 не пьёт; трое из исходника кантины (S10) в кадр не попадают; одна реплика по-русски.
+
+<div class="engine-tabs" data-scene="65">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
+
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
+@Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
+@Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
+@Image4 — medium toast composition: raised mugs meeting over the table centre; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
+BOBA FETT: the famous Mandalorian bounty hunter in dented green-and-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack, cape; helmet always on, face never shown.
+GAMORREAN: hulking green pig-faced Gamorrean guard with tusks, small eyes, leather and fur harness.
+TWI'LEK MERCENARY: male blue-skinned Twi'lek with two long head-tails, worn leather jacket and blaster holster, sly grin.
+IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves.
+
+LOCATION / STORY LOCK — CRITICAL:
+One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; bartender only brings mugs. Drinks are mugs and one small glass for IG-11. Friendly drinking, no fight, no blasters drawn. Boba Fett never removes the helmet; IG-11 never actually drinks.
+
+START STATE:
+The five already sit at the round table; the bartender is setting down the last mug in front of Serega.
+
+TIMELINE:
+[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; Gamorrean grabs his immediately; Twi'lek slides one to IG-11, who receives a small glass instead.
+[0:05–0:10] THE TOAST — Medium on Serega: he lifts his mug and says calmly in Russian: «Ну, за Татуин!» Cut on motion to the over-table view: all five vessels clink in the centre, foam splashes.
+[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it on the table so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 raises the glass, its sensor ring spins, scanning, and it sets the glass down untouched.
+[0:16–0:23] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega finishes his drink in one steady deadpan motion and wipes his mouth; the Gamorrean roars with laughter and bangs the table again.
+[0:23–0:30] ANOTHER ROUND — Wider shot: Serega raises two fingers toward the bar without looking, ordering another round; the Gamorrean nods enthusiastically, Boba Fett gives one slow approving nod, IG-11 pushes its untouched glass to the Gamorrean, who drinks that too. Cantina life continues behind.
+
+END STATE:
+Serega signals for another round; the company is relaxed and amused; IG-11's glass now in the Gamorrean's hand.
+
+CAMERA / SPACE:
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, and a wider closing shot. Cut on gestures: lift, clink, slam, slap.
+
+PERFORMANCE:
+Serega: calm, deadpan, quietly in charge of the toast; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise and mechanical. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs and armour, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
+
+AUDIO:
+Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr and scan chirp, table thumps. One Russian line by Serega: «Ну, за Татуин!» No other intelligible speech, no narrator, no subtitles; no generated music.
+
+NEGATIVE PROMPT:
+Boba Fett unmasked, IG-11 drinking, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Альтернатива2×15с.** P2 требует настоящие последние3с своей P1; не выбрана к запуску.
+
+#### 65 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
+@Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
+@Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
+@Image4 — medium toast composition: raised mugs meeting over the table centre; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
+BOBA FETT: the famous Mandalorian bounty hunter in dented green-and-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack, cape; helmet always on, face never shown.
+GAMORREAN: hulking green pig-faced Gamorrean guard with tusks, small eyes, leather and fur harness.
+TWI'LEK MERCENARY: male blue-skinned Twi'lek with two long head-tails, worn leather jacket and blaster holster, sly grin.
+IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves.
+
+LOCATION / STORY LOCK — CRITICAL:
+One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; bartender only brings mugs. Drinks are mugs and one small glass for IG-11. Friendly drinking, no fight, no blasters drawn. Boba Fett never removes the helmet; IG-11 never actually drinks.
+
+START STATE:
+The five already sit at the round table; the bartender is setting down the last mug in front of Serega.
+
+TIMELINE:
+[0:00–0:05] ROUND ARRIVES — 35mm push-in across the noisy cantina to the table. The bartender sets down mugs; Gamorrean grabs his immediately; Twi'lek slides one to IG-11, who receives a small glass instead.
+[0:05–0:10] THE TOAST — Medium on Serega: he lifts his mug and says calmly in Russian: «Ну, за Татуин!» Cut on motion to the over-table view: all five vessels clink in the centre, foam splashes.
+[0:10–0:16] DRINKING GAGS — Quick motivated cuts: the Gamorrean downs the whole mug in one go, grunts and slams it on the table so all mugs jump; Boba Fett lifts the lower edge of his helmet just enough to sip, face hidden; IG-11 raises the glass, its sensor ring spins, scanning, and it sets the glass down untouched.
+
+END STATE:
+Mugs just clinked over the table centre and the Gamorrean has slammed his empty mug down; Boba Fett starts lifting his helmet edge. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+
+CAMERA / SPACE:
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, and a wider closing shot. Cut on gestures: lift, clink, slam, slap. Execute only the beats of this part.
+
+PERFORMANCE:
+Serega: calm, deadpan, quietly in charge of the toast; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise and mechanical. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs and armour, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
+
+AUDIO:
+Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr and scan chirp, table thumps. One Russian line by Serega: «Ну, за Татуин!» No other intelligible speech, no narrator, no subtitles; no generated music.
+
+NEGATIVE PROMPT:
+Boba Fett unmasked, IG-11 drinking, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 65 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-10/S10-Image1-cantina-source.png`; @Image3 — `references/scenes/scene-65/S65-bar-table.png`; @Image4 — `references/scenes/scene-65/S65-toast-closeup.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of THIS scene 65 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
+@Image1 — exact individual Serega model sheet; highest authority for his face, proportions and clothing. File: references/full/serega.jpg.
+@Image2 — cantina location only: sandstone arches, hanging lamp, round metal tables, alien patrons in background; ignore and exclude all three people at its table. File: references/scenes/scene-10/S10-Image1-cantina-source.png.
+@Image3 — group seating composition at one round table; each character's own design lock below wins over this helper. File: references/scenes/scene-65/S65-bar-table.png.
+@Image4 — medium toast composition: raised mugs meeting over the table centre; staging helper only. File: references/scenes/scene-65/S65-toast-closeup.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exactly the man in the Serega model sheet: mature pale face with its real proportions, balding crown and sparse light-brown hair at the sides, faint short stubble, broad familiar build. Floor-length deep dark-plum robe, broad folded collar with hood down, wide outer sleeves, black undersleeves, broad waist sash and dark boots. One Serega only. No beautifying, age shift, added beard, costume change or face blending with extras.
+BOBA FETT: the famous Mandalorian bounty hunter in dented green-and-grey Mandalorian armour, T-visor helmet with rangefinder, jetpack, cape; helmet always on, face never shown.
+GAMORREAN: hulking green pig-faced Gamorrean guard with tusks, small eyes, leather and fur harness.
+TWI'LEK MERCENARY: male blue-skinned Twi'lek with two long head-tails, worn leather jacket and blaster holster, sly grin.
+IG-11: the tall thin silver-grey assassin droid with a cylindrical sensor-ring head, long arms, bandolier; mechanical precise moves.
+
+LOCATION / STORY LOCK — CRITICAL:
+One round metal table in the Tatooine cantina from @Image2 (location only). Seating stays fixed: Boba Fett, Gamorrean, Serega in the centre, Twi'lek, IG-11. Exactly five at the table; bartender only brings mugs. Drinks are mugs and one small glass for IG-11. Friendly drinking, no fight, no blasters drawn. Boba Fett never removes the helmet; IG-11 never actually drinks.
+
+START STATE:
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Mugs just clinked over the table centre and the Gamorrean has slammed his empty mug down; Boba Fett starts lifting his helmet edge.
+
+TIMELINE:
+[0:00–0:07] COMPANY — The Twi'lek laughs and slaps Serega on the shoulder; Serega finishes his drink in one steady deadpan motion and wipes his mouth; the Gamorrean roars with laughter and bangs the table again.
+[0:07–0:15] ANOTHER ROUND — Wider shot: Serega raises two fingers toward the bar without looking, ordering another round; the Gamorrean nods enthusiastically, Boba Fett gives one slow approving nod, IG-11 pushes its untouched glass to the Gamorrean, who drinks that too. Cantina life continues behind.
+
+END STATE:
+Serega signals for another round; the company is relaxed and amused; IG-11's glass now in the Gamorrean's hand.
+
+CAMERA / SPACE:
+Table geography fixed (Boba left of Serega, Twi'lek and IG-11 right). Alternate 35mm push-in, medium singles with readable faces, an over-table toast angle, and a wider closing shot. Cut on gestures: lift, clink, slam, slap. Execute only the beats of this part.
+
+PERFORMANCE:
+Serega: calm, deadpan, quietly in charge of the toast; the comedy comes from his composure amid wild company. Gamorrean loud and physical; Twi'lek laughing; Boba Fett minimal, deliberate; IG-11 precise and mechanical. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Dim amber cantina, hanging lamp pool over the table, haze, warm reflections on metal mugs and armour, cool rim light from the arches; photoreal skin, armour scratches and droid metal.
+
+AUDIO:
+Cantina chatter in alien languages, clinking mugs, Gamorrean grunts and laughter, droid servo whirr and scan chirp, table thumps. One Russian line by Serega: «Ну, за Татуин!» No other intelligible speech, no narrator, no subtitles; no generated music.
+
+NEGATIVE PROMPT:
+Boba Fett unmasked, IG-11 drinking, extra people at the table, fight, blasters drawn, Han Solo, Chewbacca, Obi-Wan, people from the location source image, extra Seregas, face swap, robe change, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+<a id="scene-66"></a>
+## Сцена 66 — Татуин: две девочки и инопланетная собака
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["tatooine","street","visual_comedy","creature","awaiting_owner_refs","owner_requested","awaiting_references"]} -->
+
+**Контекст использования:** владелец 27.10.2026. Бытовая комедийная сценка на улице татуинского города (тот же город, что в 52). Внешность девочек владелец добавит позже. Место в фильме решает владелец (предложение — рядом с прогулкой 52 / рынком 67).
+
+**Что происходит:** Две девочки идут по оживлённой улице Татуина и ведут на поводке смешную инопланетную собаку. Посреди улицы собака резко упирается, садится и делает свои дела. Вокруг поднимается возмущение: джава визжит, торговец машет руками и кричит на своём языке, дроид неодобрительно пищит, пролетающий спидер тормозит и объезжает. Одна девочка закрывает лицо от стыда, вторая говорит «Ой, извините! Мы уберём!» и быстро убирает за собакой совком в пакет. Собака гордо трусит дальше, девочки спешат за ней.
+
+**Реплика:** «Ой, извините! Мы уберём!» — девочка 2, на русском.
+
+**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-66/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с): короткая русская реплика и антураж «Звёздных войн».
+
+**Референсы:** @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png` (Инопланетная собака: дизайн существа; ещё не нарисован); @Image4 — `references/scenes/scene-66/S66-street-outrage.png` (Улица: собака посреди дороги, прохожие возмущаются; ещё не нарисован).
+
+**Режиссёрский контроль:** Внешность девочек — только по референсам владельца (пока их нет, сцену не запускать). Момент «какания» комичный и без крупного плана.
+
+<div class="engine-tabs" data-scene="66">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
+
+**Входы:** @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+GIRL A and GIRL B: exact appearance strictly from their own owner references (@Image1, @Image2): faces, hair, clothes and ages as shown there; two different girls, never merged.
+ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh sunlight, dusty street. One leash from the dog to GIRL A's hand. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged but nobody touches the girls or the dog. GIRL B cleans up with a small scoop and a bag; the street is clean afterwards.
+
+START STATE:
+The two girls walk side by side down the street, GIRL A holding the leash, the alien dog trotting happily ahead.
+
+TIMELINE:
+[0:00–0:06] THE WALK — 35mm tracking shot ahead of them: the girls chat as the alien dog trots proudly, sniffing at a fruit crate and a passing droid. Busy street life all around.
+[0:06–0:11] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A is jerked to a halt. The dog turns around once and squats, looking straight ahead with total dignity.
+[0:11–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves all his hands, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
+[0:17–0:24] SORRY! — GIRL A covers her face in embarrassment; GIRL B quickly pulls out a scoop and a bag, says in Russian: «Ой, извините! Мы уберём!» and cleans up in two swift moves, waving an apology to the crowd.
+[0:24–0:30] MOVING ON — The dog trots off with its head high, pulling GIRL A along; GIRL B hurries after them holding the bag at arm's length. Passers-by grumble and slowly return to their business.
+
+END STATE:
+The girls and the dog walk away down the street; GIRL B carries the closed bag; the crowd returns to normal.
+
+CAMERA / SPACE:
+One street axis: the girls walk away from the near end. Alternate 35mm tracking, low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, medium on the girls. Faces readable; cut on the stop, the jumps back and the speeder swerve.
+
+PERFORMANCE:
+Girls: natural, lively, embarrassed then practical; the dog proud and oblivious; crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm double-sun desert daylight, consistent sun direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
+
+AUDIO:
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles. One Russian line by GIRL B: «Ой, извините! Мы уберём!» No other intelligible speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Альтернатива2×15с.** P2 требует настоящие последние3с своей P1; не выбрана к запуску.
+
+#### 66 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+GIRL A and GIRL B: exact appearance strictly from their own owner references (@Image1, @Image2): faces, hair, clothes and ages as shown there; two different girls, never merged.
+ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh sunlight, dusty street. One leash from the dog to GIRL A's hand. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged but nobody touches the girls or the dog. GIRL B cleans up with a small scoop and a bag; the street is clean afterwards.
+
+START STATE:
+The two girls walk side by side down the street, GIRL A holding the leash, the alien dog trotting happily ahead.
+
+TIMELINE:
+[0:00–0:06] THE WALK — 35mm tracking shot ahead of them: the girls chat as the alien dog trots proudly, sniffing at a fruit crate and a passing droid. Busy street life all around.
+[0:06–0:11] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A is jerked to a halt. The dog turns around once and squats, looking straight ahead with total dignity.
+[0:11–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves all his hands, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
+
+END STATE:
+The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A frozen with the taut leash. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+
+CAMERA / SPACE:
+One street axis: the girls walk away from the near end. Alternate 35mm tracking, low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, medium on the girls. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
+
+PERFORMANCE:
+Girls: natural, lively, embarrassed then practical; the dog proud and oblivious; crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm double-sun desert daylight, consistent sun direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
+
+AUDIO:
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles. One Russian line by GIRL B: «Ой, извините! Мы уберём!» No other intelligible speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 66 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девочка 1 — внешность (референс добавит владелец); @Image2 — Девочка 2 — внешность (референс добавит владелец); @Image3 — `references/scenes/scene-66/S66-alien-dog.png`; @Image4 — `references/scenes/scene-66/S66-street-outrage.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of THIS scene 66 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
+@Image1 — GIRL A appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image2 — GIRL B appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image3 — exact alien dog creature design: body, colours, head, tail, harness; highest authority for the creature. File: references/scenes/scene-66/S66-alien-dog.png.
+@Image4 — street geography and crowd-reaction composition; same town as scene 52; girls are placeholders only. File: references/scenes/scene-66/S66-street-outrage.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+GIRL A and GIRL B: exact appearance strictly from their own owner references (@Image1, @Image2): faces, hair, clothes and ages as shown there; two different girls, never merged.
+ALIEN DOG: exactly the creature in @Image3: stocky sandy-orange body, beige back scales, frog-like head with big round eyes, floppy fin ears, three blunt horns, curly tail, red harness and leash.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh sunlight, dusty street. One leash from the dog to GIRL A's hand. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged but nobody touches the girls or the dog. GIRL B cleans up with a small scoop and a bag; the street is clean afterwards.
+
+START STATE:
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A frozen with the taut leash.
+
+TIMELINE:
+[0:00–0:07] SORRY! — GIRL A covers her face in embarrassment; GIRL B quickly pulls out a scoop and a bag, says in Russian: «Ой, извините! Мы уберём!» and cleans up in two swift moves, waving an apology to the crowd.
+[0:07–0:15] MOVING ON — The dog trots off with its head high, pulling GIRL A along; GIRL B hurries after them holding the bag at arm's length. Passers-by grumble and slowly return to their business.
+
+END STATE:
+The girls and the dog walk away down the street; GIRL B carries the closed bag; the crowd returns to normal.
+
+CAMERA / SPACE:
+One street axis: the girls walk away from the near end. Alternate 35mm tracking, low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, medium on the girls. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
+
+PERFORMANCE:
+Girls: natural, lively, embarrassed then practical; the dog proud and oblivious; crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm double-sun desert daylight, consistent sun direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
+
+AUDIO:
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles. One Russian line by GIRL B: «Ой, извините! Мы уберём!» No other intelligible speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+<a id="scene-67"></a>
+## Сцена 67 — Татуин: девушка ругается с продавцом фруктов
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["tatooine","market","visual_comedy","dialogue_ru","awaiting_owner_refs","owner_requested","awaiting_references"]} -->
+
+**Контекст использования:** владелец 27.10.2026. Бытовая комедийная сценка на рынке татуинского города (тот же город, что в 52). Внешность девушки владелец добавит позже. Место в фильме решает владелец.
+
+**Что происходит:** Девушка выбирает инопланетные фрукты на рынке Татуина. Продавец, четырёхрукий инопланетянин, называет цену, показывая на всех руках пальцы. Девушка возмущается: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» Продавец отвечает громко на своём языке и бьёт по весам. Они активно спорят, наклоняясь друг к другу через прилавок. Девушка тычет в помятый фрукт, продавец всплёскивает всеми руками и подкидывает ей в пакет лишний фрукт. Она платит меньше монет, чем он просил, и уходит, продолжая ворчать; продавец ворчит ей вслед, потом расплывается в улыбке перед следующим покупателем.
+
+**Реплика:** «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» — девушка, на русском; продавец отвечает на инопланетном языке.
+
+**Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-67/*.image-prompt.txt`). В очередь Topview не поставлена: сначала референсы, затем решение о месте в очереди. Главная версия — Wan 3.0 (30 с): русская речь лучше у Wan.
+
+**Референсы:** @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин; ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами; ещё не нарисован).
+
+**Режиссёрский контроль:** Внешность девушки — только по референсу владельца (пока его нет, сцену не запускать). Спор громкий, но без насилия.
+
+<div class="engine-tabs" data-scene="67">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
+
+**Входы:** @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
+@Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face, hair, clothes and age as shown there.
+VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
+
+LOCATION / STORY LOCK — CRITICAL:
+One fruit stall from @Image3 in the same Tatooine town as scene 52. The counter stays between them the whole time. The argument is loud and animated but harmless: no hitting, no throwing at each other, no weapons. Coins change hands once. The vendor always has exactly four arms.
+
+START STATE:
+The young woman stands at the stall holding a pale-blue ribbed melon, the vendor behind the counter with his scale.
+
+TIMELINE:
+[0:00–0:05] THE PRICE — 35mm over-shoulder on the counter: she weighs the melon in her hands, asks with her eyes; the vendor proudly shows a price by raising fingers on all four hands.
+[0:05–0:11] OUTRAGE — Medium on her: she says in Russian, loud and indignant: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slaps the melon onto the counter.
+[0:11–0:17] THE FIGHT — Fast shot/reverse cuts: the vendor shouts back in an alien language, slams one hand on the scale, throws two other hands up; she leans across the counter, points at the bruised melon, counts on her fingers; both lean closer, nose to nose.
+[0:17–0:24] THE DEAL — The vendor throws all four arms up in defeat, tosses an extra spiky orange pod into her bag; she slaps down fewer coins than he wanted, snatches the bag.
+[0:24–0:30] STILL GRUMBLING — She walks off still muttering and shaking her head; the vendor grumbles after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
+
+END STATE:
+She walks away with her bag; the vendor greets the next shopper with a wide smile.
+
+CAMERA / SPACE:
+Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, medium singles, fast shot/reverse during the argument and a wider exit shot. Cut on slaps, gestures and the toss.
+
+PERFORMANCE:
+Both very animated: big gestures, leaning in, eye-rolling; she is sharp and determined, he theatrical; comic, never aggressive. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm desert daylight filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent sun direction; photoreal skin, fabric, fruit and creature texture.
+
+AUDIO:
+Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» plus indistinct grumbling at the end. No narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Альтернатива2×15с.** P2 требует настоящие последние3с своей P1; не выбрана к запуску.
+
+#### 67 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
+@Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face, hair, clothes and age as shown there.
+VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
+
+LOCATION / STORY LOCK — CRITICAL:
+One fruit stall from @Image3 in the same Tatooine town as scene 52. The counter stays between them the whole time. The argument is loud and animated but harmless: no hitting, no throwing at each other, no weapons. Coins change hands once. The vendor always has exactly four arms.
+
+START STATE:
+The young woman stands at the stall holding a pale-blue ribbed melon, the vendor behind the counter with his scale.
+
+TIMELINE:
+[0:00–0:05] THE PRICE — 35mm over-shoulder on the counter: she weighs the melon in her hands, asks with her eyes; the vendor proudly shows a price by raising fingers on all four hands.
+[0:05–0:11] OUTRAGE — Medium on her: she says in Russian, loud and indignant: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» and slaps the melon onto the counter.
+[0:11–0:17] THE FIGHT — Fast shot/reverse cuts: the vendor shouts back in an alien language, slams one hand on the scale, throws two other hands up; she leans across the counter, points at the bruised melon, counts on her fingers; both lean closer, nose to nose.
+
+END STATE:
+Both lean across the counter nose to nose mid-argument; she points at the bruised melon; his hand is on the scale. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+
+CAMERA / SPACE:
+Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, medium singles, fast shot/reverse during the argument and a wider exit shot. Cut on slaps, gestures and the toss. Execute only the beats of this part.
+
+PERFORMANCE:
+Both very animated: big gestures, leaning in, eye-rolling; she is sharp and determined, he theatrical; comic, never aggressive. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm desert daylight filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent sun direction; photoreal skin, fabric, fruit and creature texture.
+
+AUDIO:
+Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» plus indistinct grumbling at the end. No narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 67 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png`; @Image3 — `references/scenes/scene-67/S67-fruit-stall.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of THIS scene 67 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
+@Image1 — YOUNG WOMAN appearance — owner's reference, to be added; until then do not launch. File: owner reference image (provided at launch).
+@Image2 — exact alien vendor design: four arms, face, skin, apron; highest authority for the vendor. File: references/scenes/scene-67/S67-vendor.png.
+@Image3 — market stall geography, fruit designs and light; same town as scene 52. File: references/scenes/scene-67/S67-fruit-stall.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+YOUNG WOMAN: exact appearance strictly from her owner reference (@Image1): face, hair, clothes and age as shown there.
+VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
+
+LOCATION / STORY LOCK — CRITICAL:
+One fruit stall from @Image3 in the same Tatooine town as scene 52. The counter stays between them the whole time. The argument is loud and animated but harmless: no hitting, no throwing at each other, no weapons. Coins change hands once. The vendor always has exactly four arms.
+
+START STATE:
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Both lean across the counter nose to nose mid-argument; she points at the bruised melon; his hand is on the scale.
+
+TIMELINE:
+[0:00–0:07] THE DEAL — The vendor throws all four arms up in defeat, tosses an extra spiky orange pod into her bag; she slaps down fewer coins than he wanted, snatches the bag.
+[0:07–0:15] STILL GRUMBLING — She walks off still muttering and shaking her head; the vendor grumbles after her, counts the coins, then instantly switches to a wide welcoming smile for the next shopper.
+
+END STATE:
+She walks away with her bag; the vendor greets the next shopper with a wide smile.
+
+CAMERA / SPACE:
+Fixed counter geography: she on the street side, he behind the counter. Alternate 35mm over-shoulder, medium singles, fast shot/reverse during the argument and a wider exit shot. Cut on slaps, gestures and the toss. Execute only the beats of this part.
+
+PERFORMANCE:
+Both very animated: big gestures, leaning in, eye-rolling; she is sharp and determined, he theatrical; comic, never aggressive. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Harsh warm desert daylight filtered through the tan awning, vivid colours of alien fruit, dust motes, consistent sun direction; photoreal skin, fabric, fruit and creature texture.
+
+AUDIO:
+Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by the young woman only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!» plus indistinct grumbling at the end. No narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
