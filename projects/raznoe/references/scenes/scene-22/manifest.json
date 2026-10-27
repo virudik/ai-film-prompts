@@ -18,7 +18,23 @@
       "width": 1672,
       "height": 940,
       "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
+      "caption": "ЦПК: виртуальный шлюз и два скафандра",
+      "prompt_file": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.image-prompt.txt",
+      "created_by": "ChatGPT imagegen (open Work)",
+      "created_at": "2026-10-27T18:29:05+00:00",
+      "source_type": "ai_generated_concept",
+      "editorial_status": "not_approved",
+      "sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+      "scenes": [
+        22
+      ],
+      "width": 1672,
+      "height": 941,
+      "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
     }
   ],
-  "updated_at": "2026-10-27T18:26:42+00:00"
+  "updated_at": "2026-10-27T18:29:05+00:00"
 }

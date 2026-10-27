@@ -4215,7 +4215,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-22"></a>
 ## Сцена 22 — ЦПК: Шлюзование в виртуальной реальности
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
 
 **Контекст использования:** Новостной ролик: как космонавты готовятся к выходу в открытый космос на стенде скафандра «Орлан-МК» с виртуальной реальностью. **Новостной повод · 26.10.2026.**
 
@@ -4225,9 +4225,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК, 26.10.2026 — шлюзование на стенде «Орлан-МК»](https://www.gctc.ru/main.php?id=7798).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png`. Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png` (ещё не нарисован). Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-22/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-22/c22-vr-stand.png`. Bright training hall: two fictional trainees in royal-blue overalls wearing VR headsets and holding hand controllers, standing inside a waist-high metal frame stand beside a white spacesuit torso mock-up with a chest control panel; instructor desk with monitors behind. Controls the real hall, both trainees and the stand. @Image2 — `projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png`. Photoreal virtual view of a cylindrical airlock interior with handrails and a round outer hatch half open onto Earth's blue limb and black space; two white EVA suits, one with red stripes and one with blue stripes. Controls only the virtual airlock and suits. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-22/*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png" alt="Сцена 22, @Image2: ЦПК: виртуальный шлюз и два скафандра" loading="lazy"></a><figcaption>@Image2 — ЦПК: виртуальный шлюз и два скафандра. Созданный концепт.</figcaption></figure>
 <figure><a href="projects/raznoe/references/scenes/scene-22/c22-vr-stand.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-22/c22-vr-stand.png" alt="Сцена 22, @Image1: ЦПК: VR-стенд и два слушателя" loading="lazy"></a><figcaption>@Image1 — ЦПК: VR-стенд и два слушателя. Созданный концепт.</figcaption></figure>
 </div>
 
@@ -4235,7 +4236,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Финальный титр для монтажа:** «ЦПК. Выход начинается с тренировки.»
 
-**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+**Готовность:** тексты промтов готовы 27.10.2026. Оба референса нарисованы открытым ChatGPT Work, сохранены в галерее и реестре; технически проверены. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
 
 **Режиссёрский контроль:** Виртуальные кадры и реальный зал не смешиваются в одном кадре; полосы скафандров не меняются местами; давление показано только стрелкой и дымкой. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 

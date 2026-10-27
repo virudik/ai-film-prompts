@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-27T18:26:42+00:00",
+  "updated_at": "2026-10-27T18:29:05+00:00",
   "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
@@ -1035,6 +1035,34 @@
           ],
           "width": 1672,
           "height": 940,
+          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c22-virtual-airlock",
+      "name": "ЦПК: виртуальный шлюз и два скафандра",
+      "kind": "situation_reference",
+      "scenes": [
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
+          "caption": "ЦПК: виртуальный шлюз и два скафандра",
+          "prompt_file": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:29:05+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+          "scenes": [
+            22
+          ],
+          "width": 1672,
+          "height": 941,
           "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
         }
       ]
