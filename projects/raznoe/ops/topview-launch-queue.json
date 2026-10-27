@@ -60,7 +60,8 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 1 (пункт RAZ-S01-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S01-SEED20-P2",
@@ -124,7 +125,8 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 1 (пункт RAZ-S01-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S02-SEED20-P1",
@@ -178,7 +180,8 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 2 (пункт RAZ-S02-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S02-SEED20-P2",
@@ -242,72 +245,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 2 (пункт RAZ-S02-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S03-WAN30",
+      "id": "RAZ-S03-SEED20-P1",
       "scene_id": 3,
-      "prompt_id": "RAZ-S03-WAN30",
+      "prompt_id": "RAZ-S03-SEED20-P1",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "3 · Wan 3.0",
-      "canonical_prompt_sha256": "f34016632e0317ba3966712e17643718c9160bace22f522c6ae72987ecd7643d",
-      "normalized_prompt_sha256": "83610e52988b3e7c7ae82e250f025f058d76d3c02ee97a8464a9260a5e632cc7",
-      "priority": 30,
-      "state": "paused_by_owner",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-3/03-small-satellite.png",
-          "sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b",
-          "canonical_role": "Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-3/s03-orbit.png",
-          "sha256": "59950fffca8623a24b77475a6caf8b70c8b4600bea25a94ef2ab63716feb111e",
-          "canonical_role": "Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space.",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "depends_on_completed": [],
-      "blocker": null,
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Один и тот же аппарат до/после склейки; нет опоры в космосе, внезапного раскрытия панелей и имитации запуска.",
-      "state_before_owner_hold": "waiting_for_slot",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S04-SEED20-P1",
-      "scene_id": 4,
-      "prompt_id": "RAZ-S04-SEED20-P1",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "4 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "b72fcb74fbe2cc8d4cb1796c6b7ebf16a7ba65b3b511f83670f5d2db6e91cb51",
-      "normalized_prompt_sha256": "9c9ac407dce5ca9de744548f5cc838b2b15e1e146cd58fe98c203885609d3b04",
-      "priority": 41,
+      "canonical_block_label": "3 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "38baf0e8dc85b25222b25089004d33ab968224db6a26ab71f2ebc9370b4c7ab0",
+      "normalized_prompt_sha256": "f8b9e13ffd7ada8e54a6f8922b6ef4e5a17150357c40ff7a1a2f28f2bda43474",
+      "priority": 31,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -321,405 +271,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png",
-          "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
-          "canonical_role": "Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-4/s04-touch.png",
-          "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
-          "canonical_role": "Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity.",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "depends_on_completed": [],
-      "blocker": null,
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются.",
-      "state_before_owner_hold": "waiting_for_slot",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S04-SEED20-P2",
-      "scene_id": 4,
-      "prompt_id": "RAZ-S04-SEED20-P2",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "4 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "006612e55fdeecc0904bebafd868e317ba756ff86fd6088d2a31337b9ed7ebc3",
-      "normalized_prompt_sha256": "18e563178508d90c9deab975d49d4b21723665a9a536efc857d296341fd7b9db",
-      "priority": 42,
-      "state": "paused_by_owner",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png",
-          "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
-          "canonical_role": "Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-4/s04-touch.png",
-          "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
-          "canonical_role": "Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Video1",
-          "path": null,
-          "required": true,
-          "input_status": "missing",
-          "canonical_role": "actual_final_3_seconds_of_part1",
-          "source_item_id": "RAZ-S04-SEED20-P1"
-        }
-      ],
-      "depends_on_completed": [
-        "RAZ-S04-SEED20-P1"
-      ],
-      "blocker": "Needs actual final 3 seconds of own Part 1, reviewed and stored with source task and SHA.",
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются.",
-      "state_before_owner_hold": "blocked_inputs",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S05-WAN30",
-      "scene_id": 5,
-      "prompt_id": "RAZ-S05-WAN30",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "5 · Wan 3.0",
-      "canonical_prompt_sha256": "0c35a28df5e101f7bf7c42e02d8cd1b3d121573b29e5dc3f98766b619b03f1e0",
-      "normalized_prompt_sha256": "fcaa89d6e1d7141cdfbca1b62081d68ddcd5638c74d1742f6aa7ee1000922eca",
-      "priority": 50,
-      "state": "paused_by_owner",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-5/05-space-instrument.png",
-          "sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f",
-          "canonical_role": "Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-5/s05-assembled.png",
-          "sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d",
-          "canonical_role": "Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state.",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "depends_on_completed": [],
-      "blocker": null,
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Посадка без проникновения твёрдых тел; количество пальцев постоянно; стекло не превращается в жидкость.",
-      "state_before_owner_hold": "waiting_for_slot",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S06-SEED20-P1",
-      "scene_id": 6,
-      "prompt_id": "RAZ-S06-SEED20-P1",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "6 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "373f803495531e3e71503939340256ffc7b139b36f9a18a743d005432b36e98f",
-      "normalized_prompt_sha256": "89873b1868cbd422e1d3f08fb612fcad8a243df2b338e48b6e668436ff20425d",
-      "priority": 61,
-      "state": "paused_by_owner",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-6/06-power-corridor.png",
-          "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
-          "canonical_role": "Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-6/q06-overhead.png",
-          "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
-          "canonical_role": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "depends_on_completed": [],
-      "blocker": null,
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария.",
-      "state_before_owner_hold": "waiting_for_slot",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S06-SEED20-P2",
-      "scene_id": 6,
-      "prompt_id": "RAZ-S06-SEED20-P2",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "6 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "02fb69d1775773b7c188d1068ae59af170f88158b834f6c6d5a3074e0a1d074a",
-      "normalized_prompt_sha256": "1c883ddb696d83b6c8c41f7b00ee2de1cd5465b8fea8819b4dfac3abadeed954",
-      "priority": 62,
-      "state": "paused_by_owner",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-6/06-power-corridor.png",
-          "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
-          "canonical_role": "Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-6/q06-overhead.png",
-          "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
-          "canonical_role": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Video1",
-          "path": null,
-          "required": true,
-          "input_status": "missing",
-          "canonical_role": "actual_final_3_seconds_of_part1",
-          "source_item_id": "RAZ-S06-SEED20-P1"
-        }
-      ],
-      "depends_on_completed": [
-        "RAZ-S06-SEED20-P1"
-      ],
-      "blocker": "Needs actual final 3 seconds of own Part 1, reviewed and stored with source task and SHA.",
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария.",
-      "state_before_owner_hold": "blocked_inputs",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S07-WAN30",
-      "scene_id": 7,
-      "prompt_id": "RAZ-S07-WAN30",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "7 · Wan 3.0",
-      "canonical_prompt_sha256": "b0f5ce6866cf2d9bbd8f0860977b795817f26c8c3d25bf1fc3a8d470c2a27664",
-      "normalized_prompt_sha256": "2188879e3af2ec8511e7e2cea049c7f47b01c48eb59d806681eb522f42cc4402",
-      "priority": 70,
-      "state": "paused_by_owner",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-7/07-earth-operations.png",
-          "sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08",
-          "canonical_role": "Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-7/s07-map.png",
-          "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
-          "canonical_role": "Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location.",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "depends_on_completed": [],
-      "blocker": null,
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Одинаковая река на всех экранах; указание соответствует зоне; жест не превращается в готовый научный вывод.",
-      "state_before_owner_hold": "waiting_for_slot",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S08-WAN30",
-      "scene_id": 8,
-      "prompt_id": "RAZ-S08-WAN30",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "8 · Wan 3.0",
-      "canonical_prompt_sha256": "b4e5690c8ffaf5b36aab15714461e147762013ca119227a33ab0b29e3e4f19d1",
-      "normalized_prompt_sha256": "17b4ea4cdb572acf47a928147e4a6c346e017c7b1ca87563fd01c05b18063ece",
-      "priority": 80,
-      "state": "paused_by_owner",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-8/08-land-memory.png",
-          "sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca",
-          "canonical_role": "Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-8/s08-pair.png",
-          "sha256": "e7c57e06c2eb84ebc9c45ce5eabcb22d3c3eb6d5f0c0575edd5f2081d5b56a5f",
-          "canonical_role": "Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider.",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "depends_on_completed": [],
-      "blocker": null,
-      "task_id": null,
-      "claim": null,
-      "submitted_at": null,
-      "receipt": null,
-      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-      "quality_criteria": "Два независимых окна; река не пересекает разделитель; разница читается без выдуманных дат и обвинений.",
-      "state_before_owner_hold": "waiting_for_slot",
-      "owner_hold": {
-        "set_at": "2026-10-23T00:32:42.941Z",
-        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
-        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
-        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
-    },
-    {
-      "id": "RAZ-S09-SEED20-P1",
-      "scene_id": 9,
-      "prompt_id": "RAZ-S09-SEED20-P1",
-      "project": "raznoe",
-      "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "9 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "218e5830b53af751e50e057d6ae07ac23248106c349e5748cdf92c14ef0329f4",
-      "normalized_prompt_sha256": "052e0a70c21847e1ca793e4b86bbd8be5f16f9f73d267baf9ef00df96cb186c7",
-      "priority": 91,
-      "state": "paused_by_owner",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png",
+          "path": "projects/raznoe/references/scenes/scene-3/s09-earth.png",
           "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72",
           "canonical_role": "Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image.",
           "required": true,
@@ -727,7 +279,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-9/q09-evening.png",
+          "path": "projects/raznoe/references/scenes/scene-3/q09-evening.png",
           "sha256": "dacfaf564108487c9495814d2d989eb346c639efa6fb5d0cdf2c9597a6bddc2e",
           "canonical_role": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
           "required": true,
@@ -748,18 +300,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 9 (пункт RAZ-S09-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S09-SEED20-P2",
-      "scene_id": 9,
-      "prompt_id": "RAZ-S09-SEED20-P2",
+      "id": "RAZ-S03-SEED20-P2",
+      "scene_id": 3,
+      "prompt_id": "RAZ-S03-SEED20-P2",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "9 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "86b93790e05dc67c37d152a3412286a49ed47ad2d5ccb52e3b562216def05c81",
-      "normalized_prompt_sha256": "4c775ad6bf636218136c90928688aea85fb9c31478933b9abdba190f0b2bf361",
-      "priority": 92,
+      "canonical_block_label": "3 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "b946edc779973e8443225409680a69badb2b2b2ef2aea01d4101cafef257a5b0",
+      "normalized_prompt_sha256": "2295abdb7e8e5d402f00c59444e7dff7f3117ed6fbf1138d6c254f1cb7703e42",
+      "priority": 32,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -773,7 +326,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png",
+          "path": "projects/raznoe/references/scenes/scene-3/s09-earth.png",
           "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72",
           "canonical_role": "Planet silhouette, continent layout, cloud texture and colour palette; fictional orbital-view illustration, not an actual dated satellite image.",
           "required": true,
@@ -781,7 +334,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-9/q09-evening.png",
+          "path": "projects/raznoe/references/scenes/scene-3/q09-evening.png",
           "sha256": "dacfaf564108487c9495814d2d989eb346c639efa6fb5d0cdf2c9597a6bddc2e",
           "canonical_role": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
           "required": true,
@@ -797,7 +350,7 @@
         }
       ],
       "depends_on_completed": [
-        "RAZ-S09-SEED20-P1"
+        "RAZ-S03-SEED20-P1"
       ],
       "blocker": "Needs actual final 3 seconds of own Part 1, reviewed and stored with source task and SHA.",
       "task_id": null,
@@ -812,18 +365,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 9 (пункт RAZ-S09-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S10-SEED20-P1",
-      "scene_id": 10,
-      "prompt_id": "RAZ-S10-SEED20-P1",
+      "id": "RAZ-S04-SEED20-P1",
+      "scene_id": 4,
+      "prompt_id": "RAZ-S04-SEED20-P1",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "10 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "0c08073395bb54ca874fbef6b68a9355807763db453dd903cf9d12a11cde9458",
-      "normalized_prompt_sha256": "7b6ed9ac06d36d10998b3602a930c521acd097d769f1297eb484f51f7f062bb3",
-      "priority": 101,
+      "canonical_block_label": "4 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "efba69c89c56402b22498663bcca6ca8680bde03f467b26ab978199a0c637a3e",
+      "normalized_prompt_sha256": "d93685b8aa41da55cb3a50b181650d979e6d2da989fe0f26f39f6f9a97f2ead7",
+      "priority": 41,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -837,7 +391,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-10/s10-visible.png",
+          "path": "projects/raznoe/references/scenes/scene-4/s10-visible.png",
           "sha256": "5179074aeb3d87f4f7b9f8e4300adf266fbac84831e42a479dfbe8ce50232570",
           "canonical_role": "Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village.",
           "required": true,
@@ -845,7 +399,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-10/s10-spectral.png",
+          "path": "projects/raznoe/references/scenes/scene-4/s10-spectral.png",
           "sha256": "65de380107e0204f45ed0aaa014206c36451229470c5a6577a1ecceb874eddef",
           "canonical_role": "Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map.",
           "required": true,
@@ -866,18 +420,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 10 (пункт RAZ-S10-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S10-SEED20-P2",
-      "scene_id": 10,
-      "prompt_id": "RAZ-S10-SEED20-P2",
+      "id": "RAZ-S04-SEED20-P2",
+      "scene_id": 4,
+      "prompt_id": "RAZ-S04-SEED20-P2",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "10 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "de614768df94cfb84c0e4f73d34330f73a0a04f53bdaadf22b82e520e91bf0b6",
-      "normalized_prompt_sha256": "afc456452093abf4e6f332455cb4c48f663fa634b6b0677bc1cdb456ee7a83d6",
-      "priority": 102,
+      "canonical_block_label": "4 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "80643a02ecb3fceff63d01060f5e4fcfaa2f1b87036278149022370c7a1c08ec",
+      "normalized_prompt_sha256": "e898cb862f2a55d79312ffb753f544f4e32bb865c53bfa35794eb62304cfaf8e",
+      "priority": 42,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -891,7 +446,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-10/s10-visible.png",
+          "path": "projects/raznoe/references/scenes/scene-4/s10-visible.png",
           "sha256": "5179074aeb3d87f4f7b9f8e4300adf266fbac84831e42a479dfbe8ce50232570",
           "canonical_role": "Natural-colour terrain and immutable spatial layout: river, reservoir, roads, crop parcels and village.",
           "required": true,
@@ -899,7 +454,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-10/s10-spectral.png",
+          "path": "projects/raznoe/references/scenes/scene-4/s10-spectral.png",
           "sha256": "65de380107e0204f45ed0aaa014206c36451229470c5a6577a1ecceb874eddef",
           "canonical_role": "Separate false-colour concept illustration, used only in its own editorial shot. Not a pixel-registered counterpart, calibrated spectral product or diagnostic map.",
           "required": true,
@@ -915,7 +470,7 @@
         }
       ],
       "depends_on_completed": [
-        "RAZ-S10-SEED20-P1"
+        "RAZ-S04-SEED20-P1"
       ],
       "blocker": "Needs actual final 3 seconds of own Part 1, reviewed and stored with source task and SHA.",
       "task_id": null,
@@ -930,18 +485,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 10 (пункт RAZ-S10-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S11-WAN30",
-      "scene_id": 11,
-      "prompt_id": "RAZ-S11-WAN30",
+      "id": "RAZ-S05-WAN30",
+      "scene_id": 5,
+      "prompt_id": "RAZ-S05-WAN30",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "11 · Wan 3.0",
-      "canonical_prompt_sha256": "b5c4293d59325cd2da572517f01a4e7c5371896075a06ab221fdb608feb133d9",
-      "normalized_prompt_sha256": "94f6b747468f35f240e9314971745839cc3b1283fa69ed7778d384cb7244b2ca",
-      "priority": 110,
+      "canonical_block_label": "5 · Wan 3.0",
+      "canonical_prompt_sha256": "ed7452330111722efccbff1b6b78c8c88e7015e5c545bd2f50394d213037a586",
+      "normalized_prompt_sha256": "cff38fb235aac82f22e8ad924340f15f6389eb0183dbebfda66a743ad34878d5",
+      "priority": 50,
       "state": "paused_by_owner",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -955,7 +511,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-11/s11-engineer.png",
+          "path": "projects/raznoe/references/scenes/scene-5/s11-engineer.png",
           "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60",
           "canonical_role": "Rear-view engineer, pale-blue lab coat, white gloves, black cylindrical optical assembly in a square silver fixture, workbench and lamp.",
           "required": true,
@@ -971,7 +527,7 @@
         },
         {
           "slot": "@Image3",
-          "path": "projects/raznoe/references/scenes/scene-11/q11-hands.png",
+          "path": "projects/raznoe/references/scenes/scene-5/q11-hands.png",
           "sha256": "f7d71fefca33e76ed71dfeb9005f963c577ae56b267c6c14263745566ff17b84",
           "canonical_role": "Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.",
           "required": true,
@@ -992,18 +548,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 11 (пункт RAZ-S11-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S12-WAN30",
-      "scene_id": 12,
-      "prompt_id": "RAZ-S12-WAN30",
+      "id": "RAZ-S06-WAN30",
+      "scene_id": 6,
+      "prompt_id": "RAZ-S06-WAN30",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "12 · Wan 3.0",
-      "canonical_prompt_sha256": "0c458fd3fb11dd75d94923f8bdf63a4dcadee3d5c8c5294cf4316f13717ef282",
-      "normalized_prompt_sha256": "9a73724149ce5ef6a39c5563044a35e14bf4da3ecc99d8fb8a1ff1b99f37d11f",
-      "priority": 120,
+      "canonical_block_label": "6 · Wan 3.0",
+      "canonical_prompt_sha256": "7310637fb3fd50e1f7479fccf23a6d72a377c13c7caa437728ff2b1a74b2a7d2",
+      "normalized_prompt_sha256": "e86fdfa011bb736ff8fac9c07a16f2c1ab8990c269aa5c0779224fd9cccf13ad",
+      "priority": 60,
       "state": "paused_by_owner",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1017,7 +574,182 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-12/s12-consultation.png",
+          "path": "projects/raznoe/references/scenes/scene-6/03-small-satellite.png",
+          "sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b",
+          "canonical_role": "Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-6/s03-orbit.png",
+          "sha256": "59950fffca8623a24b77475a6caf8b70c8b4600bea25a94ef2ab63716feb111e",
+          "canonical_role": "Final orbital composition of the same demonstrator. Image1 governs exact hardware design; Image2 supplies Earth background and orbital light after the explicit montage cut. Never import the lab fixture into space.",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "depends_on_completed": [],
+      "blocker": null,
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Один и тот же аппарат до/после склейки; нет опоры в космосе, внезапного раскрытия панелей и имитации запуска.",
+      "state_before_owner_hold": "waiting_for_slot",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 3 (пункт RAZ-S03-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S07-SEED20-P1",
+      "scene_id": 7,
+      "prompt_id": "RAZ-S07-SEED20-P1",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "7 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "b2b4224cf87877737ee9f89c4899b32921896c4ee780e4e88f883f0ed6ab5486",
+      "normalized_prompt_sha256": "cf416ebf66c2b014fcc0c1d21b7d901767f4d519491507c310cb79454aa9fe0c",
+      "priority": 71,
+      "state": "paused_by_owner",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-7/04-mission-exhibit.png",
+          "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
+          "canonical_role": "Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-7/s04-touch.png",
+          "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
+          "canonical_role": "Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity.",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "depends_on_completed": [],
+      "blocker": null,
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются.",
+      "state_before_owner_hold": "waiting_for_slot",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 4 (пункт RAZ-S04-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S07-SEED20-P2",
+      "scene_id": 7,
+      "prompt_id": "RAZ-S07-SEED20-P2",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "7 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "f061241d75b4586c6eb94e0e93a834f82425db2f6c432896de5c455f77d5f1e5",
+      "normalized_prompt_sha256": "917d08a56b8496bdbb23a0925dca0238bf82cc2435645081dae43120f2a39268",
+      "priority": 72,
+      "state": "paused_by_owner",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-7/04-mission-exhibit.png",
+          "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
+          "canonical_role": "Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-7/s04-touch.png",
+          "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
+          "canonical_role": "Close contact of the right index finger and physical glass, same navy sleeve and satellite preview. Supporting interaction pose only; Image1 controls room geography and person identity.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Video1",
+          "path": null,
+          "required": true,
+          "input_status": "missing",
+          "canonical_role": "actual_final_3_seconds_of_part1",
+          "source_item_id": "RAZ-S04-SEED20-P1"
+        }
+      ],
+      "depends_on_completed": [
+        "RAZ-S07-SEED20-P1"
+      ],
+      "blocker": "Needs actual final 3 seconds of own Part 1, reviewed and stored with source task and SHA.",
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Касание и реакция согласованы; модель не выходит из экрана; лицо/одежда и рука не меняются.",
+      "state_before_owner_hold": "blocked_inputs",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 4 (пункт RAZ-S04-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S08-WAN30",
+      "scene_id": 8,
+      "prompt_id": "RAZ-S08-WAN30",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "8 · Wan 3.0",
+      "canonical_prompt_sha256": "86bf45dc736202b5c46fc7af1d116e1fb7ea0ebbd8142178fd2396fb6b216044",
+      "normalized_prompt_sha256": "874ae09dde8b294894b584bea18d4cec70e78197864df67c43d28f486f52e3b1",
+      "priority": 80,
+      "state": "paused_by_owner",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-8/s12-consultation.png",
           "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba",
           "canonical_role": "Meeting-room geography, four fictional adults, three image cards on table and covered demonstration satellite in background.",
           "required": true,
@@ -1025,7 +757,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-12/q12-cards.png",
+          "path": "projects/raznoe/references/scenes/scene-8/q12-cards.png",
           "sha256": "6accc29cbe99038204c50da6e497024ba2960ecb8d406e61bdcf76de32626164",
           "canonical_role": "Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.",
           "required": true,
@@ -1046,18 +778,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 12 (пункт RAZ-S12-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S13-SEED20-P1",
-      "scene_id": 13,
-      "prompt_id": "RAZ-S13-SEED20-P1",
+      "id": "RAZ-S09-SEED20-P1",
+      "scene_id": 9,
+      "prompt_id": "RAZ-S09-SEED20-P1",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "13 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "2efde6dff9dbd83502ecf5eaa79defd20e42cdb3f452c767423cc7ec37bd052e",
-      "normalized_prompt_sha256": "2557c3b9f54b1c3b380a07b9ba669108715d8542b2de838f9e7ae6cad62cadef",
-      "priority": 131,
+      "canonical_block_label": "9 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "13ad1fe91604877c82dcdea3edd943e0d4de4959105f30bbde5d69b64c9908e6",
+      "normalized_prompt_sha256": "7d81c3cbf2ee6248537e0bd76f9a42306bcf0e6705b63f61858eb8408d8c8686",
+      "priority": 91,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1071,7 +804,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-13/s13-cubesat.png",
+          "path": "projects/raznoe/references/scenes/scene-9/s13-cubesat.png",
           "sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e",
           "canonical_role": "Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background.",
           "required": true,
@@ -1092,18 +825,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 13 (пункт RAZ-S13-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S13-SEED20-P2",
-      "scene_id": 13,
-      "prompt_id": "RAZ-S13-SEED20-P2",
+      "id": "RAZ-S09-SEED20-P2",
+      "scene_id": 9,
+      "prompt_id": "RAZ-S09-SEED20-P2",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "13 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "d5701f201e15eddc09414d8077d9ab43b3c33ed104ef2888a61f444545bc2a0c",
-      "normalized_prompt_sha256": "7061dada8c062bee5ec7a0385bbe6bdde90932f91bc9bcb46969b9a9eec6581c",
-      "priority": 132,
+      "canonical_block_label": "9 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "27bc02facfcf4803087e616c239e2e5a2e216727c3d040f55fffd31444ad5723",
+      "normalized_prompt_sha256": "f2356151184bb6d3fcef3abef73ce248afb1a777b42baab47c87150564d7abb5",
+      "priority": 92,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1117,7 +851,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-13/s13-cubesat.png",
+          "path": "projects/raznoe/references/scenes/scene-9/s13-cubesat.png",
           "sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e",
           "canonical_role": "Exact fictional demonstrator design: rigid silver rectangular rails, blue solar-cell faces, gold near-end board and one circular black optical aperture; navy studio background.",
           "required": true,
@@ -1133,7 +867,7 @@
         }
       ],
       "depends_on_completed": [
-        "RAZ-S13-SEED20-P1"
+        "RAZ-S09-SEED20-P1"
       ],
       "blocker": "Needs actual final 3 seconds of own Part 1, reviewed and stored with source task and SHA.",
       "task_id": null,
@@ -1148,18 +882,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 13 (пункт RAZ-S13-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S14-WAN30",
-      "scene_id": 14,
-      "prompt_id": "RAZ-S14-WAN30",
+      "id": "RAZ-S10-WAN30",
+      "scene_id": 10,
+      "prompt_id": "RAZ-S10-WAN30",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "14 · Wan 3.0",
-      "canonical_prompt_sha256": "f77de65f559817188a3b5ab63083cabe2652a0a5df8483ae0e62465799b89177",
-      "normalized_prompt_sha256": "948bd42deba8f7c0c4b2b95f1cffda7b057f2f75a904839ebf6065ac5e8a07ff",
-      "priority": 140,
+      "canonical_block_label": "10 · Wan 3.0",
+      "canonical_prompt_sha256": "22b7a3ef135a34e4dcabbe9d865a88f8821da3edd52e84aaf430cd6d48593fb8",
+      "normalized_prompt_sha256": "c11e2baf4c5db733eb2fe8eb028d1c9594633b01863702f3e0a4e51190b6efd7",
+      "priority": 100,
       "state": "paused_by_owner",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1173,7 +908,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-14/s14-booth.png",
+          "path": "projects/raznoe/references/scenes/scene-10/s14-booth.png",
           "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc",
           "canonical_role": "Fictional exhibit architecture, white plinth, silver-blue satellite demonstration model, touchscreen and the four-person group.",
           "required": true,
@@ -1181,7 +916,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-14/q14-detail.png",
+          "path": "projects/raznoe/references/scenes/scene-10/q14-detail.png",
           "sha256": "0a812719a0ee3fa5556bdf01d8b0c94201f2bd5efd6aaf8d8d64c0ed7784c3bd",
           "canonical_role": "Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.",
           "required": true,
@@ -1202,18 +937,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 14 (пункт RAZ-S14-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S15-WAN30",
-      "scene_id": 15,
-      "prompt_id": "RAZ-S15-WAN30",
+      "id": "RAZ-S11-WAN30",
+      "scene_id": 11,
+      "prompt_id": "RAZ-S11-WAN30",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "15 · Wan 3.0",
-      "canonical_prompt_sha256": "bd5bdd311a6c6a303496207461356e5fcde9b9c30348b08be63fec3c6dc36290",
-      "normalized_prompt_sha256": "9c6abb40b36ac972352099c68cd1e27cb13f7e4e259bd31d307c7f5d88648dd7",
-      "priority": 150,
+      "canonical_block_label": "11 · Wan 3.0",
+      "canonical_prompt_sha256": "c9b561d80f0ac7e4d9e942a080eefcebe7f63900b23673be87301c1683eba272",
+      "normalized_prompt_sha256": "d0dbc9373183633faaf0dfbf82877cbe44d007ceecc1b7fa365a3ff556dfdae5",
+      "priority": 110,
       "state": "paused_by_owner",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1227,7 +963,182 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-5/s05-assembled.png",
+          "path": "projects/raznoe/references/scenes/scene-11/05-space-instrument.png",
+          "sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f",
+          "canonical_role": "Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-11/s05-assembled.png",
+          "sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d",
+          "canonical_role": "Completed seated assembly and hand-free final state. Image1 controls original materials and design; Image2 specifies the correctly seated final housing, not the opening state.",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "depends_on_completed": [],
+      "blocker": null,
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Посадка без проникновения твёрдых тел; количество пальцев постоянно; стекло не превращается в жидкость.",
+      "state_before_owner_hold": "waiting_for_slot",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 5 (пункт RAZ-S05-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S12-SEED20-P1",
+      "scene_id": 12,
+      "prompt_id": "RAZ-S12-SEED20-P1",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "12 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "531b8f106d07355620f98e5bb8b9d7a6420d79eb916644b70e6fb06a54ba2272",
+      "normalized_prompt_sha256": "a1407e2a2f03617350a2ead7957ba6d7dc3b9fe7fc2a899f9f470edecaee3681",
+      "priority": 121,
+      "state": "paused_by_owner",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-12/06-power-corridor.png",
+          "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
+          "canonical_role": "Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-12/q06-overhead.png",
+          "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
+          "canonical_role": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "depends_on_completed": [],
+      "blocker": null,
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария.",
+      "state_before_owner_hold": "waiting_for_slot",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 6 (пункт RAZ-S06-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S12-SEED20-P2",
+      "scene_id": 12,
+      "prompt_id": "RAZ-S12-SEED20-P2",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "12 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "e4e4702070bf70dcb54ad7dd457a9994a7384ff63608d7ca75690f4f0ecd4519",
+      "normalized_prompt_sha256": "ecbdc207893fd97118c7aeef0e29139b1901a7f226735f1a0f0b5f92c6a2cb24",
+      "priority": 122,
+      "state": "paused_by_owner",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-12/06-power-corridor.png",
+          "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
+          "canonical_role": "Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-12/q06-overhead.png",
+          "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
+          "canonical_role": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Video1",
+          "path": null,
+          "required": true,
+          "input_status": "missing",
+          "canonical_role": "actual_final_3_seconds_of_part1",
+          "source_item_id": "RAZ-S06-SEED20-P1"
+        }
+      ],
+      "depends_on_completed": [
+        "RAZ-S12-SEED20-P1"
+      ],
+      "blocker": "Needs actual final 3 seconds of own Part 1, reviewed and stored with source task and SHA.",
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Провода непрерывны, опоры не множатся; лес не растёт на глазах; выделен участок для проверки, а не авария.",
+      "state_before_owner_hold": "blocked_inputs",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 6 (пункт RAZ-S06-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S13-WAN30",
+      "scene_id": 13,
+      "prompt_id": "RAZ-S13-WAN30",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "13 · Wan 3.0",
+      "canonical_prompt_sha256": "47ffd5c8f6a87d4f29d15dbcf801834855e4c8e4aaa173cd43e1aa074f1eb6ed",
+      "normalized_prompt_sha256": "b8d5905f6c5f7001a67790e2466838fee3c3d4e8ca2d71a02c005dfe80e6642f",
+      "priority": 130,
+      "state": "paused_by_owner",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-11/s05-assembled.png",
           "sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d",
           "canonical_role": "Fictional completed optical assembly, macro material and lens reference only; not an exact Electro-L instrument.",
           "required": true,
@@ -1235,7 +1146,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-15/s15-weather.png",
+          "path": "projects/raznoe/references/scenes/scene-13/s15-weather.png",
           "sha256": "3ec9122cb8a2f69b807ccce6e54464aec3e072c5a58b400ed3b22f9cf432564f",
           "canonical_role": "Rear-view meteorologist and workstation; large natural-colour cloud spiral, smaller false-colour rendering of the same illustrative weather system.",
           "required": true,
@@ -1256,18 +1167,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 15 (пункт RAZ-S15-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S16-WAN30",
-      "scene_id": 16,
-      "prompt_id": "RAZ-S16-WAN30",
+      "id": "RAZ-S14-WAN30",
+      "scene_id": 14,
+      "prompt_id": "RAZ-S14-WAN30",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "16 · Wan 3.0",
-      "canonical_prompt_sha256": "1c173a9eab051458365ea94711421ab458bbc6cacbfbbf6c55240415438f1e3b",
-      "normalized_prompt_sha256": "0e0191c02df63faa83f849019d3e57f6c093d15c4ea65146196f03bc6062dcdf",
-      "priority": 160,
+      "canonical_block_label": "14 · Wan 3.0",
+      "canonical_prompt_sha256": "d2143bb50e5a96b6aea22476db7500eaf298267f331efeafa4e37f43036ce052",
+      "normalized_prompt_sha256": "040b989be1882be78612ad056e787b5796da4cc4ae2d65035952bd3d7e60234e",
+      "priority": 140,
       "state": "paused_by_owner",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1281,7 +1193,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-16/s16-testbench.png",
+          "path": "projects/raznoe/references/scenes/scene-14/s16-testbench.png",
           "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261",
           "canonical_role": "Fictional optics test bench, silver rail, black prototype, target cross, waveform display and rear-view researcher.",
           "required": true,
@@ -1289,7 +1201,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-16/q16-adjustment.png",
+          "path": "projects/raznoe/references/scenes/scene-14/q16-adjustment.png",
           "sha256": "f55b8ab179718eee1428f4e0b7c9eb2e1bc0f979c4bb1e7007ffb3fa3f2a9bbc",
           "canonical_role": "Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.",
           "required": true,
@@ -1310,18 +1222,19 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 16 (пункт RAZ-S16-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
-      "id": "RAZ-S17-WAN30",
-      "scene_id": 17,
-      "prompt_id": "RAZ-S17-WAN30",
+      "id": "RAZ-S15-WAN30",
+      "scene_id": 15,
+      "prompt_id": "RAZ-S15-WAN30",
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
-      "canonical_block_label": "17 · Wan 3.0",
-      "canonical_prompt_sha256": "36b40a7317ee81f5768a20661bac454d09b20811263ad434f4415467c7a09cdb",
-      "normalized_prompt_sha256": "d89e75c6e6e5d0dc2b1604458fd321744937029646f6f854a1767880a7e082a2",
-      "priority": 170,
+      "canonical_block_label": "15 · Wan 3.0",
+      "canonical_prompt_sha256": "e9844114eaa955a8384e9902a36ffaf1a948ffc4a626404f2fa998bb233b2cdd",
+      "normalized_prompt_sha256": "4df78872167b9e73ba5355c513235538c519da805e142098785a6fb5470ccd3f",
+      "priority": 150,
       "state": "paused_by_owner",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1335,7 +1248,7 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "projects/raznoe/references/scenes/scene-17/s17-detail.png",
+          "path": "projects/raznoe/references/scenes/scene-15/s17-detail.png",
           "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6",
           "canonical_role": "Exact fictional blue-violet optical filter in a black round holder, two visible retaining screws, dark tray and one white gloved fingertip at right.",
           "required": true,
@@ -1343,7 +1256,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-17/q17-context.png",
+          "path": "projects/raznoe/references/scenes/scene-15/q17-context.png",
           "sha256": "3ab3d91092a0a0a1ffd6c785e4580d0c7797e44220d422f34ab072d4553041ce",
           "canonical_role": "Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.",
           "required": true,
@@ -1364,7 +1277,118 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 17 (пункт RAZ-S17-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S16-WAN30",
+      "scene_id": 16,
+      "prompt_id": "RAZ-S16-WAN30",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "16 · Wan 3.0",
+      "canonical_prompt_sha256": "aff1f1b05dfd7687536c821beacbbda2880fc07b4f026aa2a2e3a7239d15f49b",
+      "normalized_prompt_sha256": "1f468050b0078c861967e59b11090b8c36003f4d179be67cec8064aedea811e7",
+      "priority": 160,
+      "state": "paused_by_owner",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-16/07-earth-operations.png",
+          "sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08",
+          "canonical_role": "Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-16/s07-map.png",
+          "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
+          "canonical_role": "Clean illustrative terrain plate for every screen and the opening close-up. Image2 controls river geometry; Image1 controls the office, people and light. Insert the same plate into screens without a new location.",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "depends_on_completed": [],
+      "blocker": null,
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Одинаковая река на всех экранах; указание соответствует зоне; жест не превращается в готовый научный вывод.",
+      "state_before_owner_hold": "waiting_for_slot",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 7 (пункт RAZ-S07-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
+    },
+    {
+      "id": "RAZ-S17-WAN30",
+      "scene_id": 17,
+      "prompt_id": "RAZ-S17-WAN30",
+      "project": "raznoe",
+      "canonical_master": "projects/raznoe/video-prompts.md",
+      "canonical_block_label": "17 · Wan 3.0",
+      "canonical_prompt_sha256": "4647b73abbe3ae1816c0d4d3017c47965be1bd077cc1346a323288a2cda3287c",
+      "normalized_prompt_sha256": "fe7e5f2a96483b1918972db3dda7ce26a9dcc7dd48cb4843ac1bdabbbb6fdd20",
+      "priority": 170,
+      "state": "paused_by_owner",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/raznoe/references/scenes/scene-17/08-land-memory.png",
+          "sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca",
+          "canonical_role": "Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/raznoe/references/scenes/scene-17/s08-pair.png",
+          "sha256": "e7c57e06c2eb84ebc9c45ce5eabcb22d3c3eb6d5f0c0575edd5f2081d5b56a5f",
+          "canonical_role": "Clean two-pane before/after concept plate for the monitor. Image2 controls repeated comparison geography; Image1 controls desk, monitor and hand. Keep two separate aligned panes, never a continuous river across the divider.",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "depends_on_completed": [],
+      "blocker": null,
+      "task_id": null,
+      "claim": null,
+      "submitted_at": null,
+      "receipt": null,
+      "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
+      "quality_criteria": "Два независимых окна; река не пересекает разделитель; разница читается без выдуманных дат и обвинений.",
+      "state_before_owner_hold": "waiting_for_slot",
+      "owner_hold": {
+        "set_at": "2026-10-23T00:32:42.941Z",
+        "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
+        "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
+        "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
+      },
+      "renumbered_20261027": "прежний ID сцены 8 (пункт RAZ-S08-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S18-WAN30",
@@ -1410,7 +1434,8 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 18 (пункт RAZ-S18-WAN30); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S19-SEED20-P1",
@@ -1419,8 +1444,8 @@
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
       "canonical_block_label": "19 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "9b33a54b249fc13c711a08038fcf1a193253458383423660e9758f9419487285",
-      "normalized_prompt_sha256": "7e16384ba1e2d738fac12142a3447d80894e2c7dcd2f72c3c8641ff5950582ba",
+      "canonical_prompt_sha256": "27b6b3dae46f4eb173da4cfa0f3045435870d8ea1c0211f7522dc7829ed53693",
+      "normalized_prompt_sha256": "feb20c6cf635af157a7800db321ba87dc521995ed27ad40ba214e4ec00af0974",
       "priority": 191,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
@@ -1443,7 +1468,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-7/s07-map.png",
+          "path": "projects/raznoe/references/scenes/scene-16/s07-map.png",
           "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
           "canonical_role": "Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement.",
           "required": true,
@@ -1464,7 +1489,8 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 19 (пункт RAZ-S19-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S19-SEED20-P2",
@@ -1473,8 +1499,8 @@
       "project": "raznoe",
       "canonical_master": "projects/raznoe/video-prompts.md",
       "canonical_block_label": "19 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "a44cfdebedabc6f76467453f3c88cee3fe32d8f11938fd1a1915887eb6d434c8",
-      "normalized_prompt_sha256": "84756b01cd86a09264664be29ba79cbff0bf0998652fa57b1211848bbb6f5c59",
+      "canonical_prompt_sha256": "7ca44042ec0655c84d5ce37cccec515d1edc2641c005471f7de47a3c09ba0c71",
+      "normalized_prompt_sha256": "e4e163394eddb29fff7d587cc2bfef1952dcc1fdb385c0788fd4097df3e6fe41",
       "priority": 192,
       "state": "paused_by_owner",
       "model": "Seedance 2.0",
@@ -1497,7 +1523,7 @@
         },
         {
           "slot": "@Image2",
-          "path": "projects/raznoe/references/scenes/scene-7/s07-map.png",
+          "path": "projects/raznoe/references/scenes/scene-16/s07-map.png",
           "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
           "canonical_role": "Separate higher-water illustration for an explicit editorial cut. Its own geography governs its shot; no pixel registration to Image1 or numerical flood measurement.",
           "required": true,
@@ -1528,7 +1554,8 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 19 (пункт RAZ-S19-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S20-SEED20-P1",
@@ -1574,7 +1601,8 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 20 (пункт RAZ-S20-SEED20-P1); номера перестроены по организациям по решению владельца 27.10.2026"
     },
     {
       "id": "RAZ-S20-SEED20-P2",
@@ -1630,13 +1658,14 @@
         "source": "Owner message 2026-10-23: «Разное не запускать. Сначала доделаем серёгиуса всего по плану»",
         "reason": "Finish all Seregius work according to plan before considering Roscosmos launches.",
         "resume_requires": "Fresh explicit owner authorization; do not auto-resume merely because a slot is free."
-      }
+      },
+      "renumbered_20261027": "прежний ID сцены 20 (пункт RAZ-S20-SEED20-P2); номера перестроены по организациям по решению владельца 27.10.2026"
     }
   ],
   "already_submitted": {},
   "owner_site_actions": [],
   "authorization": "Owner23Oct2026: improve all Roscosmos scenes/prompts/references, then fill free Topview slots in the planned order and assess results. One selected free attempt per scene/part; no automatic retries or paid generation.",
-  "ordering_assumption": "Existing cross-project launch_order preserved. Roscosmos previously had no queued items: use ascending scene numbers; second part follows actual first-part result. Other ready scenes may use slots while a continuation waits.",
+  "ordering_assumption": "Existing cross-project launch_order preserved. Roscosmos previously had no queued items: use ascending scene numbers; second part follows actual first-part result. Other ready scenes may use slots while a continuation waits. 27.10.2026: scene IDs renumbered by organization (owner); priority = new scene number ×10 + part.",
   "quality_manifest": "projects/raznoe/reports/quality-revision-2026-10-23.json",
   "owner_hold": {
     "set_at": "2026-10-23T00:32:42.941Z",

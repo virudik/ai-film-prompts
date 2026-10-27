@@ -16,7 +16,7 @@
       "kind": "situation_reference",
       "scenes": [
         1,
-        11
+        5
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.",
@@ -69,13 +69,13 @@
       "name": "Главкосмос — Большой путь малого спутника",
       "kind": "situation_reference",
       "scenes": [
-        3
+        6
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-3/03-small-satellite.png",
+          "path": "projects/raznoe/references/scenes/scene-6/03-small-satellite.png",
           "caption": "Большой путь малого спутника",
           "prompt_file": "projects/raznoe/references/space-organizations/03-small-satellite.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
@@ -95,13 +95,13 @@
       "name": "Главкосмос — Прикоснуться к своей миссии",
       "kind": "situation_reference",
       "scenes": [
-        4
+        7
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png",
+          "path": "projects/raznoe/references/scenes/scene-7/04-mission-exhibit.png",
           "caption": "Прикоснуться к своей миссии",
           "prompt_file": "projects/raznoe/references/space-organizations/04-mission-exhibit.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
@@ -121,13 +121,13 @@
       "name": "РКС — Всё начинается с точности",
       "kind": "situation_reference",
       "scenes": [
-        5
+        11
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-5/05-space-instrument.png",
+          "path": "projects/raznoe/references/scenes/scene-11/05-space-instrument.png",
           "caption": "Всё начинается с точности",
           "prompt_file": "projects/raznoe/references/space-organizations/05-space-instrument.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
@@ -147,13 +147,13 @@
       "name": "РКС — Увидеть изменения вдоль линии",
       "kind": "situation_reference",
       "scenes": [
-        6
+        12
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-6/06-power-corridor.png",
+          "path": "projects/raznoe/references/scenes/scene-12/06-power-corridor.png",
           "caption": "Увидеть изменения вдоль линии",
           "prompt_file": "projects/raznoe/references/space-organizations/06-power-corridor.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
@@ -173,13 +173,13 @@
       "name": "НЦ ОМЗ — Из снимка — в понятное решение",
       "kind": "situation_reference",
       "scenes": [
-        7
+        16
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-7/07-earth-operations.png",
+          "path": "projects/raznoe/references/scenes/scene-16/07-earth-operations.png",
           "caption": "Из снимка — в понятное решение",
           "prompt_file": "projects/raznoe/references/space-organizations/07-earth-operations.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
@@ -199,13 +199,13 @@
       "name": "НЦ ОМЗ — У территории есть память",
       "kind": "situation_reference",
       "scenes": [
-        8
+        17
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-8/08-land-memory.png",
+          "path": "projects/raznoe/references/scenes/scene-17/08-land-memory.png",
           "caption": "У территории есть память",
           "prompt_file": "projects/raznoe/references/space-organizations/08-land-memory.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
@@ -250,15 +250,15 @@
       "name": "Тот же демонстратор на орбите",
       "kind": "situation_reference",
       "scenes": [
-        3
+        6
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-3/s03-orbit.png",
+          "path": "projects/raznoe/references/scenes/scene-6/s03-orbit.png",
           "caption": "Тот же демонстратор на орбите",
-          "prompt_file": "projects/raznoe/references/scenes/scene-3/s03-orbit.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-6/s03-orbit.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -275,15 +275,15 @@
       "name": "Касание физического экрана крупным планом",
       "kind": "situation_reference",
       "scenes": [
-        4
+        7
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-4/s04-touch.png",
+          "path": "projects/raznoe/references/scenes/scene-7/s04-touch.png",
           "caption": "Касание физического экрана крупным планом",
-          "prompt_file": "projects/raznoe/references/scenes/scene-4/s04-touch.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-7/s04-touch.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -300,16 +300,16 @@
       "name": "Собранный прибор, руки убраны",
       "kind": "situation_reference",
       "scenes": [
-        5,
-        15
+        11,
+        13
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-5/s05-assembled.png",
+          "path": "projects/raznoe/references/scenes/scene-11/s05-assembled.png",
           "caption": "Собранный прибор, руки убраны",
-          "prompt_file": "projects/raznoe/references/scenes/scene-5/s05-assembled.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-11/s05-assembled.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -327,16 +327,16 @@
       "name": "Чистая карта для крупных планов",
       "kind": "situation_reference",
       "scenes": [
-        7,
+        16,
         19
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-7/s07-map.png",
+          "path": "projects/raznoe/references/scenes/scene-16/s07-map.png",
           "caption": "Чистая карта для крупных планов",
-          "prompt_file": "projects/raznoe/references/scenes/scene-7/s07-map.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-16/s07-map.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -354,15 +354,15 @@
       "name": "Два состояния территории без рамки монитора",
       "kind": "situation_reference",
       "scenes": [
-        8
+        17
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-8/s08-pair.png",
+          "path": "projects/raznoe/references/scenes/scene-17/s08-pair.png",
           "caption": "Два состояния территории без рамки монитора",
-          "prompt_file": "projects/raznoe/references/scenes/scene-8/s08-pair.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-17/s08-pair.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -379,15 +379,15 @@
       "name": "Один день Земли с орбиты",
       "kind": "situation_reference",
       "scenes": [
-        9
+        3
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png",
+          "path": "projects/raznoe/references/scenes/scene-3/s09-earth.png",
           "caption": "Один день Земли с орбиты",
-          "prompt_file": "projects/raznoe/references/scenes/scene-9/s09-earth.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-3/s09-earth.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -404,15 +404,15 @@
       "name": "Не видимое глазу",
       "kind": "situation_reference",
       "scenes": [
-        10
+        4
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-10/s10-visible.png",
+          "path": "projects/raznoe/references/scenes/scene-4/s10-visible.png",
           "caption": "Не видимое глазу",
-          "prompt_file": "projects/raznoe/references/scenes/scene-10/s10-visible.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-4/s10-visible.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -429,15 +429,15 @@
       "name": "Кто делает космос",
       "kind": "situation_reference",
       "scenes": [
-        11
+        5
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-11/s11-engineer.png",
+          "path": "projects/raznoe/references/scenes/scene-5/s11-engineer.png",
           "caption": "Кто делает космос",
-          "prompt_file": "projects/raznoe/references/scenes/scene-11/s11-engineer.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-5/s11-engineer.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -454,15 +454,15 @@
       "name": "Миссия начинается с вопроса",
       "kind": "situation_reference",
       "scenes": [
-        12
+        8
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-12/s12-consultation.png",
+          "path": "projects/raznoe/references/scenes/scene-8/s12-consultation.png",
           "caption": "Миссия начинается с вопроса",
-          "prompt_file": "projects/raznoe/references/scenes/scene-12/s12-consultation.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-8/s12-consultation.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -479,15 +479,15 @@
       "name": "CubeSat за тридцать секунд",
       "kind": "situation_reference",
       "scenes": [
-        13
+        9
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-13/s13-cubesat.png",
+          "path": "projects/raznoe/references/scenes/scene-9/s13-cubesat.png",
           "caption": "CubeSat за тридцать секунд",
-          "prompt_file": "projects/raznoe/references/scenes/scene-13/s13-cubesat.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-9/s13-cubesat.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -504,15 +504,15 @@
       "name": "Мир встречается на стенде",
       "kind": "situation_reference",
       "scenes": [
-        14
+        10
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-14/s14-booth.png",
+          "path": "projects/raznoe/references/scenes/scene-10/s14-booth.png",
           "caption": "Мир встречается на стенде",
-          "prompt_file": "projects/raznoe/references/scenes/scene-14/s14-booth.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-10/s14-booth.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -529,15 +529,15 @@
       "name": "Как прибор видит погоду",
       "kind": "situation_reference",
       "scenes": [
-        15
+        13
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-15/s15-weather.png",
+          "path": "projects/raznoe/references/scenes/scene-13/s15-weather.png",
           "caption": "Как прибор видит погоду",
-          "prompt_file": "projects/raznoe/references/scenes/scene-15/s15-weather.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-13/s15-weather.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -554,15 +554,15 @@
       "name": "Идея проходит испытание",
       "kind": "situation_reference",
       "scenes": [
-        16
+        14
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-16/s16-testbench.png",
+          "path": "projects/raznoe/references/scenes/scene-14/s16-testbench.png",
           "caption": "Идея проходит испытание",
-          "prompt_file": "projects/raznoe/references/scenes/scene-16/s16-testbench.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-14/s16-testbench.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -579,15 +579,15 @@
       "name": "Деталь крупным планом",
       "kind": "situation_reference",
       "scenes": [
-        17
+        15
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-17/s17-detail.png",
+          "path": "projects/raznoe/references/scenes/scene-15/s17-detail.png",
           "caption": "Деталь крупным планом",
-          "prompt_file": "projects/raznoe/references/scenes/scene-17/s17-detail.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-15/s17-detail.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -604,15 +604,15 @@
       "name": "Не видимое глазу — условные спектральные цвета",
       "kind": "situation_reference",
       "scenes": [
-        10
+        4
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-10/s10-spectral.png",
+          "path": "projects/raznoe/references/scenes/scene-4/s10-spectral.png",
           "caption": "Не видимое глазу — условные спектральные цвета",
-          "prompt_file": "projects/raznoe/references/scenes/scene-10/s10-spectral.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-4/s10-spectral.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -736,15 +736,15 @@
       "name": "Лесная кромка вдоль просеки",
       "kind": "situation_reference",
       "scenes": [
-        6
+        12
       ],
       "editorial_status": "not_approved",
       "notes": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-6/q06-overhead.png",
+          "path": "projects/raznoe/references/scenes/scene-12/q06-overhead.png",
           "caption": "Лесная кромка вдоль просеки",
-          "prompt_file": "projects/raznoe/references/scenes/scene-6/q06-overhead.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-12/q06-overhead.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -755,7 +755,7 @@
           ],
           "source_references": [
             {
-              "path": "projects/raznoe/references/scenes/scene-6/06-power-corridor.png",
+              "path": "projects/raznoe/references/scenes/scene-12/06-power-corridor.png",
               "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8"
             }
           ],
@@ -768,15 +768,15 @@
       "name": "Земля: вечернее освещение",
       "kind": "situation_reference",
       "scenes": [
-        9
+        3
       ],
       "editorial_status": "not_approved",
       "notes": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-9/q09-evening.png",
+          "path": "projects/raznoe/references/scenes/scene-3/q09-evening.png",
           "caption": "Земля: вечернее освещение",
-          "prompt_file": "projects/raznoe/references/scenes/scene-9/q09-evening.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-3/q09-evening.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -787,7 +787,7 @@
           ],
           "source_references": [
             {
-              "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png",
+              "path": "projects/raznoe/references/scenes/scene-3/s09-earth.png",
               "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72"
             }
           ],
@@ -800,15 +800,15 @@
       "name": "Инженер: руки и внешний регулятор",
       "kind": "situation_reference",
       "scenes": [
-        11
+        5
       ],
       "editorial_status": "not_approved",
       "notes": "Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-11/q11-hands.png",
+          "path": "projects/raznoe/references/scenes/scene-5/q11-hands.png",
           "caption": "Инженер: руки и внешний регулятор",
-          "prompt_file": "projects/raznoe/references/scenes/scene-11/q11-hands.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-5/q11-hands.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -819,7 +819,7 @@
           ],
           "source_references": [
             {
-              "path": "projects/raznoe/references/scenes/scene-11/s11-engineer.png",
+              "path": "projects/raznoe/references/scenes/scene-5/s11-engineer.png",
               "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60"
             }
           ],
@@ -832,15 +832,15 @@
       "name": "Выбор карточки полей",
       "kind": "situation_reference",
       "scenes": [
-        12
+        8
       ],
       "editorial_status": "not_approved",
       "notes": "Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-12/q12-cards.png",
+          "path": "projects/raznoe/references/scenes/scene-8/q12-cards.png",
           "caption": "Выбор карточки полей",
-          "prompt_file": "projects/raznoe/references/scenes/scene-12/q12-cards.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-8/q12-cards.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -851,7 +851,7 @@
           ],
           "source_references": [
             {
-              "path": "projects/raznoe/references/scenes/scene-12/s12-consultation.png",
+              "path": "projects/raznoe/references/scenes/scene-8/s12-consultation.png",
               "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba"
             }
           ],
@@ -864,15 +864,15 @@
       "name": "Макет: тарелка и солнечные панели",
       "kind": "situation_reference",
       "scenes": [
-        14
+        10
       ],
       "editorial_status": "not_approved",
       "notes": "Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-14/q14-detail.png",
+          "path": "projects/raznoe/references/scenes/scene-10/q14-detail.png",
           "caption": "Макет: тарелка и солнечные панели",
-          "prompt_file": "projects/raznoe/references/scenes/scene-14/q14-detail.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-10/q14-detail.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -883,7 +883,7 @@
           ],
           "source_references": [
             {
-              "path": "projects/raznoe/references/scenes/scene-14/s14-booth.png",
+              "path": "projects/raznoe/references/scenes/scene-10/s14-booth.png",
               "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc"
             }
           ],
@@ -896,15 +896,15 @@
       "name": "Проверка: рука на регуляторе",
       "kind": "situation_reference",
       "scenes": [
-        16
+        14
       ],
       "editorial_status": "not_approved",
       "notes": "Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-16/q16-adjustment.png",
+          "path": "projects/raznoe/references/scenes/scene-14/q16-adjustment.png",
           "caption": "Проверка: рука на регуляторе",
-          "prompt_file": "projects/raznoe/references/scenes/scene-16/q16-adjustment.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-14/q16-adjustment.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -915,7 +915,7 @@
           ],
           "source_references": [
             {
-              "path": "projects/raznoe/references/scenes/scene-16/s16-testbench.png",
+              "path": "projects/raznoe/references/scenes/scene-14/s16-testbench.png",
               "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261"
             }
           ],
@@ -928,15 +928,15 @@
       "name": "Оптическая деталь на рабочем месте",
       "kind": "situation_reference",
       "scenes": [
-        17
+        15
       ],
       "editorial_status": "not_approved",
       "notes": "Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.",
       "images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-17/q17-context.png",
+          "path": "projects/raznoe/references/scenes/scene-15/q17-context.png",
           "caption": "Оптическая деталь на рабочем месте",
-          "prompt_file": "projects/raznoe/references/scenes/scene-17/q17-context.image-prompt.txt",
+          "prompt_file": "projects/raznoe/references/scenes/scene-15/q17-context.image-prompt.txt",
           "created_by": "ChatGPT imagegen",
           "created_at": "2026-10-23",
           "source_type": "ai_generated_concept",
@@ -947,7 +947,7 @@
           ],
           "source_references": [
             {
-              "path": "projects/raznoe/references/scenes/scene-17/s17-detail.png",
+              "path": "projects/raznoe/references/scenes/scene-15/s17-detail.png",
               "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6"
             }
           ],
