@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_id": "OPEN-WORK-REFS-RELAY-20261027",
   "project": "seregius",
-  "checked_at": "2026-10-27T22:07:17Z",
+  "checked_at": "2026-10-27T22:14:11Z",
   "initial_source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370",
   "scope": "Finish existing 18 references and four extra character/composition refs; new owner-authorized scenes 68/69; Relay retry and open Work-only continue. No video launches or new queue items.",
   "owner_tasks": [
@@ -227,7 +227,7 @@
       "resolved_source_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b"
     }
   ],
-  "status": "reference_requirements_fulfilled_pending_final_readback",
+  "status": "completed_with_existing_reference_reuse",
   "asset_commits": {
     "references/scenes/scene-66/S66-street-outrage.png": "d37618698eed31fc873bb51db18a65fa3e626e5a",
     "references/scenes/scene-68/S68-sweepers-crew.png": "e40e6c7c164eeab48c5aa055a620ee00787f7332",
@@ -253,7 +253,8 @@
     "reference_requirements_total": 18,
     "s64_67_reference_requirements_fulfilled": 8,
     "standalone_requirements_resolved_by_reuse": 1,
-    "count_semantics": "initial_request_available=17 and s64_67_available=7 count unique original requested PNG files. All18 requested reference roles are fulfilled:17 original files plus reuse of the street PNG for the Stitch role. No18th standalone PNG is claimed."
+    "count_semantics": "initial_request_available=17 and s64_67_available=7 count unique original requested PNG files. All18 requested reference roles are fulfilled:17 original files plus reuse of the street PNG for the Stitch role. No18th standalone PNG is claimed.",
+    "new_images_this_reuse_pass": 0
   },
   "integration": {
     "changed_prompt_blocks": [
@@ -297,10 +298,10 @@
     },
     "status": "published_and_exact_readback_verified",
     "helper_images": "S67 market-quarrel and S68/S69 compositions remain gallery/helpers only, never prompt/queue inputs.",
-    "launch_states": "Existing states preserved for64/65;52P7 and66–69 remain blocked on actual video continuity and any missing image. No submit, claim or approval changes.",
+    "launch_states": "Existing states preserved for64/65;52P7 and66–69 remain blocked on actual video continuity. No submit, claim or approval changes.",
     "commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
     "stitch_reuse": {
-      "status": "locally_verified",
+      "status": "published_and_exact_readback_verified",
       "queue_items_changed": [
         "S52-R2-SEED20-P7",
         "S66-WAN30"
@@ -315,48 +316,128 @@
       "duplicate_image_upload_removed": true,
       "real_video_continuity_required": true,
       "new_queue_items": 0,
-      "video_launches": 0
+      "video_launches": 0,
+      "content_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+      "verified_at": "2026-10-27T22:14:11Z"
     }
   },
   "validation": {
-    "checked_at": "2026-10-27T21:34:40Z",
-    "unit_tests": {
-      "status": "passed",
-      "count": 348,
-      "seconds": 46.004,
-      "environment_note": "First run lacked requests; installed only into /tmp/seregius-testdeps, then full suite passed."
+    "checked_at": "2026-10-27T22:14:11Z",
+    "scope": "Final closure of the applied existing-reference reuse; the earlier 348-test run is retained verbatim in validation_history.",
+    "reuse_patch": {
+      "changed_prompt_blocks": [
+        "52 · Seedance 2.0 часть 7",
+        "52 · Wan 3.0 часть 7",
+        "66",
+        "66 · Seedance 2.0 часть 1",
+        "66 · Seedance 2.0 часть 2"
+      ],
+      "queue_items": [
+        "S52-R2-SEED20-P7",
+        "S66-WAN30"
+      ],
+      "source": {
+        "path": "references/scenes/scene-66/S66-street-outrage.png",
+        "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+        "new_image_created": false
+      },
+      "invariants": {
+        "five_prompt_blocks_only": true,
+        "queue_order_and_other_items_unchanged": true,
+        "queue_states_claims_authorizations_limits_dependencies_unchanged": true,
+        "actual_Video1_sources_unchanged": true,
+        "all_target_image_roles_have_exact_file_hashes": true,
+        "no_duplicate_image_in_scene66": true,
+        "source_QC_provenance_and_approvals_unchanged": true,
+        "original_failed_prompt_preserved": true,
+        "no_standalone_DOG_PNG_created": true,
+        "scene52_gallery_uses_original_shared_source": true,
+        "idempotent_second_pass": true
+      },
+      "mode": "apply",
+      "files": [
+        {
+          "path": "video-prompts.md",
+          "before_sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+          "after_sha256": "b315b880851c58b25ceda879d53d2e4051db93ed8d9b961421693c508ec37355",
+          "added_lines": 31,
+          "removed_lines": 33,
+          "bom_preserved": true
+        },
+        {
+          "path": "ops/topview-launch-queue.json",
+          "before_sha256": "d9c5106a25b90fc8502d4e00317a2cf7a793c78d88a8e2cfaac9912d32902c44",
+          "after_sha256": "36a34368446ae7a28964f2949472e38c58af871e4ce908a0038401cd1dfe9013",
+          "added_lines": 17,
+          "removed_lines": 25,
+          "bom_preserved": true
+        },
+        {
+          "path": "references/scenes/scene-52/manifest.json",
+          "before_sha256": "533f1df936f5231ef2ca6e4b7c84a4f1e5239c106b501714812cd27cf0e7e9e8",
+          "after_sha256": "1076d25f48c66a38a15d5b668a72adf722c6d47885c3baac62ff92e1a313ea19",
+          "added_lines": 61,
+          "removed_lines": 17,
+          "bom_preserved": true
+        },
+        {
+          "path": "references/scenes/scene-66/manifest.json",
+          "before_sha256": "43e3aff2bbe52104a498977bcb39f590ba48ab2cf3a7286c853ae78f0676162c",
+          "after_sha256": "d551e331910de90cd99062d6f1c56f7c315c6f98f964da83216afe797fcd318a",
+          "added_lines": 27,
+          "removed_lines": 50,
+          "bom_preserved": true
+        },
+        {
+          "path": "character-references.json",
+          "before_sha256": "fe9a3cfd70733eff03830427945890f9c9897bc38c0d405675ac3cd5820b0088",
+          "after_sha256": "ce5ba99b3e1e106e404fbb64a420565f3c70c5a9f93ebb4145ffe158b15ce96b",
+          "added_lines": 3,
+          "removed_lines": 2,
+          "bom_preserved": true
+        },
+        {
+          "path": "references/scenes/scene-66/S66-alien-dog.image-prompt.txt",
+          "before_sha256": "5b3a21cd00f843db109baded1e8ea9a8b5fa4f396c6a99cc4a78ac9134ea2078",
+          "after_sha256": "9d036f45e065f1418ebba3c662ed8d67bd4cad309875444ebf0bb09b3ef5f564",
+          "added_lines": 4,
+          "removed_lines": 0,
+          "bom_preserved": true
+        }
+      ]
     },
-    "site_contract": "passed",
-    "canon_health": {
-      "status": "ok",
-      "warnings": 0
+    "local_checks": {
+      "observed_at_utc_minute": "2026-10-27 22:07 UTC",
+      "site_contract": "passed",
+      "canon_health": {
+        "status": "ok",
+        "warnings": 0
+      },
+      "continue_preflight": "passed",
+      "evidence_basis": "Directly observed by the root agent for this reuse patch and supplied in the closure instruction; not rerun by this closure script."
     },
-    "instruction_bytes": "7/7 certified",
-    "instruction_consistency_live_snapshot": "passed",
-    "integration_invariants": 16,
-    "independent_read_only_review": "passed",
-    "idempotent_integration_and_rules": true,
+    "unit_tests_rerun_for_closure": false,
     "video_launches": 0,
     "queue_items_added": 0,
     "owner_approvals_added": 0
   },
   "pages_readback": {
-    "checked_at": "2026-10-27T21:39:41+00:00",
+    "checked_at": "2026-10-27T22:12:27+00:00",
     "base_url": "https://virudik.github.io/ai-film-prompts/",
-    "source_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+    "source_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
     "files": [
       {
         "path": "video-prompts.md",
         "http": 200,
-        "sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
-        "expected_sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+        "sha256": "b315b880851c58b25ceda879d53d2e4051db93ed8d9b961421693c508ec37355",
+        "expected_sha256": "b315b880851c58b25ceda879d53d2e4051db93ed8d9b961421693c508ec37355",
         "match": true
       },
       {
         "path": "character-references.json",
         "http": 200,
-        "sha256": "fe9a3cfd70733eff03830427945890f9c9897bc38c0d405675ac3cd5820b0088",
-        "expected_sha256": "fe9a3cfd70733eff03830427945890f9c9897bc38c0d405675ac3cd5820b0088",
+        "sha256": "ce5ba99b3e1e106e404fbb64a420565f3c70c5a9f93ebb4145ffe158b15ce96b",
+        "expected_sha256": "ce5ba99b3e1e106e404fbb64a420565f3c70c5a9f93ebb4145ffe158b15ce96b",
         "match": true
       },
       {
@@ -443,74 +524,158 @@
     "all_match": true
   },
   "ci_verification": {
-    "checked_at": "2026-10-27T21:40:00.584Z",
-    "source_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
-    "required_checks_passed": true,
-    "checks": [
+    "source_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+    "checked_at": "2026-10-27T22:12:45.159Z",
+    "validation_runs": [
       {
-        "id": 40588127317,
-        "name": "Canon health (stale, oversized and broken canon parts)",
-        "status": "completed",
-        "conclusion": "success",
-        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
-        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127317"
-      },
-      {
-        "id": 40588127341,
-        "name": "Reconcile review ledger",
-        "status": "completed",
-        "conclusion": "success",
-        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
-        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127341"
-      },
-      {
-        "id": 40588127351,
-        "name": "Build reference thumbnails",
-        "status": "completed",
-        "conclusion": "success",
-        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
-        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127351"
-      },
-      {
-        "id": 40588127339,
-        "name": "Validate review ledger",
-        "status": "completed",
-        "conclusion": "success",
-        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
-        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127339"
-      },
-      {
-        "id": 40588127348,
+        "id": 40592467815,
         "name": "Shadow pilot takeover brief (not canonical)",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
-        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127348"
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467815",
+        "updated_at": "2026-10-27T22:09:16Z"
       },
       {
-        "id": 40588127399,
+        "id": 40592467987,
+        "name": "Validate review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467987",
+        "updated_at": "2026-10-27T22:09:13Z"
+      },
+      {
+        "id": 40592467863,
+        "name": "Build reference thumbnails",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467863",
+        "updated_at": "2026-10-27T22:09:17Z"
+      },
+      {
+        "id": 40592467975,
+        "name": "Reconcile review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467975",
+        "updated_at": "2026-10-27T22:09:15Z"
+      },
+      {
+        "id": 40592467977,
+        "name": "Canon health (stale, oversized and broken canon parts)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467977",
+        "updated_at": "2026-10-27T22:08:53Z"
+      },
+      {
+        "id": 40592467782,
         "name": "AI Film integration recovery tests",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
-        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127399"
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467782",
+        "updated_at": "2026-10-27T22:09:36Z"
       },
       {
-        "id": 40588127325,
+        "id": 40592467962,
         "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
         "status": "completed",
         "conclusion": "success",
-        "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
-        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127325"
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467962",
+        "updated_at": "2026-10-27T22:09:54Z"
       }
     ],
-    "pages_deployment": {
-      "id": 40588241329,
-      "head_sha": "e76cd7d9e799eeed07f3450a5dba5a9dcf9f0bf7",
-      "conclusion": "success",
-      "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588241329"
+    "validation_all_passed": true,
+    "content_commit_pages_run": {
+      "id": 40592466553,
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+      "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592466553",
+      "updated_at": "2026-10-27T22:09:48Z"
     },
-    "note": "Initial Pages run for the content commit was superseded by its automatic descendant; successful deployment and exact public-file SHA readback verified."
+    "pages_deployment": {
+      "id": 40592565799,
+      "status": "completed",
+      "conclusion": "cancelled",
+      "head_sha": "39ecf00ab3971d56a6ad5e7e4a91cb045bac035b",
+      "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592565799",
+      "note": "Superseded by a later bot commit during deployment; public content matches the required commit exactly at 2026-10-27T22:12:27+00:00."
+    },
+    "required_checks_passed": true,
+    "checks": [
+      {
+        "id": 40592467815,
+        "name": "Shadow pilot takeover brief (not canonical)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467815",
+        "updated_at": "2026-10-27T22:09:16Z"
+      },
+      {
+        "id": 40592467987,
+        "name": "Validate review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467987",
+        "updated_at": "2026-10-27T22:09:13Z"
+      },
+      {
+        "id": 40592467863,
+        "name": "Build reference thumbnails",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467863",
+        "updated_at": "2026-10-27T22:09:17Z"
+      },
+      {
+        "id": 40592467975,
+        "name": "Reconcile review ledger",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467975",
+        "updated_at": "2026-10-27T22:09:15Z"
+      },
+      {
+        "id": 40592467977,
+        "name": "Canon health (stale, oversized and broken canon parts)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467977",
+        "updated_at": "2026-10-27T22:08:53Z"
+      },
+      {
+        "id": 40592467782,
+        "name": "AI Film integration recovery tests",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467782",
+        "updated_at": "2026-10-27T22:09:36Z"
+      },
+      {
+        "id": 40592467962,
+        "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40592467962",
+        "updated_at": "2026-10-27T22:09:54Z"
+      }
+    ],
+    "publication_verified_by_exact_public_readback": true
   },
   "owner_task_status": {
     "claude-202610272340-s68-69-refs": {
@@ -519,22 +684,29 @@
       "closed_at": "2026-10-27T21:40:15Z"
     },
     "claude-202610271320-cpk-refs": {
-      "status": "taken",
-      "result_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
-      "remaining": "standalone Stitch PNG blocked by generator"
+      "status": "done",
+      "result_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+      "closed_at": "2026-10-27T22:12:58Z",
+      "result": "Все 18 референсных ролей выполнены: ЦПК 10/10 и Серёгиус 64–67 8/8; сохранены 17 исходных PNG, а роль Стича по уточнению владельца обеспечена существующим S66-street-outrage.png. Промпты, входы, миниатюры и сайт опубликованы и проверены; отдельный S66-alien-dog.png не создавался, видео не запускались, очередь не расширялась; полный отчёт — reports/open-work-refs-relay-2026-10-27.json."
     }
   },
   "latest_continuation": {
-    "owner_request": "Доделывай",
-    "recorded_at": "2026-10-27T21:56:08Z",
-    "attempt_request_id": "c1d2866a-9d67-477e-88b3-4b76a79c01bd",
-    "result": "tool_output_moderation_blocked",
+    "owner_request": "Есть же фото Стича с девочками, её недостаточно? из этой фотки сделать нельзя ?",
+    "recorded_at": "2026-10-27T22:02:28Z",
+    "completed_at": "2026-10-27T22:14:11Z",
+    "result": "completed_with_existing_reference_reuse",
+    "source_path": "references/scenes/scene-66/S66-street-outrage.png",
+    "source_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
     "new_image_created": false,
-    "same_canonical_prompt": true,
-    "remaining_assets": 1
+    "standalone_file_created": false,
+    "new_video_created": false,
+    "remaining_assets": 0,
+    "reference_requirements_fulfilled": 18,
+    "distinct_verified_assets": 25,
+    "content_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d"
   },
   "reuse_existing_stitch": {
-    "status": "integrated_locally_verified",
+    "status": "published_and_exact_readback_verified",
     "owner_quote": "Есть же фото Стича с девочками, её недостаточно? из этой фотки сделать нельзя ?",
     "recorded_at": "2026-10-27T22:02:28Z",
     "source_path": "references/scenes/scene-66/S66-street-outrage.png",
@@ -546,7 +718,9 @@
     "applied_at": "2026-10-27T22:07:17Z",
     "source_pixels_unchanged": true,
     "standalone_file_created": false,
-    "assistant_visual_qc": "Stitch is fully visible in foreground; blue fur, large ears, face, full body and red harness are clear. Identity authority is limited to Stitch; individual human sheets override faces. The existing frame also supplies the street geography."
+    "assistant_visual_qc": "Stitch is fully visible in foreground; blue fur, large ears, face, full body and red harness are clear. Identity authority is limited to Stitch; individual human sheets override faces. The existing frame also supplies the street geography.",
+    "content_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+    "verified_at": "2026-10-27T22:14:11Z"
   },
   "reference_requirement_resolution": {
     "requested_path": "references/scenes/scene-66/S66-alien-dog.png",
@@ -559,5 +733,232 @@
       "S52-R2-SEED20-P7",
       "S66-WAN30"
     ]
-  }
+  },
+  "continuation_history": [
+    {
+      "owner_request": "Доделывай",
+      "recorded_at": "2026-10-27T21:56:08Z",
+      "attempt_request_id": "c1d2866a-9d67-477e-88b3-4b76a79c01bd",
+      "result": "tool_output_moderation_blocked",
+      "new_image_created": false,
+      "same_canonical_prompt": true,
+      "remaining_assets": 1
+    }
+  ],
+  "pages_readback_history": [
+    {
+      "checked_at": "2026-10-27T21:39:41+00:00",
+      "base_url": "https://virudik.github.io/ai-film-prompts/",
+      "source_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+      "files": [
+        {
+          "path": "video-prompts.md",
+          "http": 200,
+          "sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+          "expected_sha256": "dff5c07f7b63ea23b70cd8fa21c0a4fec142e825ba82c16341d066d7b27e206e",
+          "match": true
+        },
+        {
+          "path": "character-references.json",
+          "http": 200,
+          "sha256": "fe9a3cfd70733eff03830427945890f9c9897bc38c0d405675ac3cd5820b0088",
+          "expected_sha256": "fe9a3cfd70733eff03830427945890f9c9897bc38c0d405675ac3cd5820b0088",
+          "match": true
+        },
+        {
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "http": 200,
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "expected_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",
+          "http": 200,
+          "sha256": "7a680c1fe30bebcc3ad812da600d8ab2e5e8677777cc79f88e8d06b949b9f032",
+          "expected_sha256": "7a680c1fe30bebcc3ad812da600d8ab2e5e8677777cc79f88e8d06b949b9f032",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "http": 200,
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "expected_sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp",
+          "http": 200,
+          "sha256": "1cf7a30fc95be4779e4f23af7f71ef97e53f7522df3979640e0c87e9799cf016",
+          "expected_sha256": "1cf7a30fc95be4779e4f23af7f71ef97e53f7522df3979640e0c87e9799cf016",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "http": 200,
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "expected_sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/thumbs/scenes/scene-68/S68-light-broom.png.webp",
+          "http": 200,
+          "sha256": "9b20433a98a00a8610f09cedd0512007ad0939bfd1fea9f4607ac5efe0fce813",
+          "expected_sha256": "9b20433a98a00a8610f09cedd0512007ad0939bfd1fea9f4607ac5efe0fce813",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "http": 200,
+          "sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+          "expected_sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp",
+          "http": 200,
+          "sha256": "bfbcc34da214e3b4b6ae4d29da983976aea4bb04933a1802a5c35469c648a109",
+          "expected_sha256": "bfbcc34da214e3b4b6ae4d29da983976aea4bb04933a1802a5c35469c648a109",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+          "http": 200,
+          "sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+          "expected_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        },
+        {
+          "path": "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
+          "http": 200,
+          "sha256": "bd3c280a8e5ce150a194e13dad6718042249078906f453b954ee503dcb2e5707",
+          "expected_sha256": "bd3c280a8e5ce150a194e13dad6718042249078906f453b954ee503dcb2e5707",
+          "match": true,
+          "verified_at": "2026-10-27T21:38:45+00:00"
+        }
+      ],
+      "all_match": true
+    }
+  ],
+  "ci_verification_history": [
+    {
+      "checked_at": "2026-10-27T21:40:00.584Z",
+      "source_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+      "required_checks_passed": true,
+      "checks": [
+        {
+          "id": 40588127317,
+          "name": "Canon health (stale, oversized and broken canon parts)",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127317"
+        },
+        {
+          "id": 40588127341,
+          "name": "Reconcile review ledger",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127341"
+        },
+        {
+          "id": 40588127351,
+          "name": "Build reference thumbnails",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127351"
+        },
+        {
+          "id": 40588127339,
+          "name": "Validate review ledger",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127339"
+        },
+        {
+          "id": 40588127348,
+          "name": "Shadow pilot takeover brief (not canonical)",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127348"
+        },
+        {
+          "id": 40588127399,
+          "name": "AI Film integration recovery tests",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127399"
+        },
+        {
+          "id": 40588127325,
+          "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "3f10718369a67789cf0696cd3300cebc2e11915f",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588127325"
+        }
+      ],
+      "pages_deployment": {
+        "id": 40588241329,
+        "head_sha": "e76cd7d9e799eeed07f3450a5dba5a9dcf9f0bf7",
+        "conclusion": "success",
+        "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40588241329"
+      },
+      "note": "Initial Pages run for the content commit was superseded by its automatic descendant; successful deployment and exact public-file SHA readback verified."
+    }
+  ],
+  "validation_history": [
+    {
+      "checked_at": "2026-10-27T21:34:40Z",
+      "unit_tests": {
+        "status": "passed",
+        "count": 348,
+        "seconds": 46.004,
+        "environment_note": "First run lacked requests; installed only into /tmp/seregius-testdeps, then full suite passed."
+      },
+      "site_contract": "passed",
+      "canon_health": {
+        "status": "ok",
+        "warnings": 0
+      },
+      "instruction_bytes": "7/7 certified",
+      "instruction_consistency_live_snapshot": "passed",
+      "integration_invariants": 16,
+      "independent_read_only_review": "passed",
+      "idempotent_integration_and_rules": true,
+      "video_launches": 0,
+      "queue_items_added": 0,
+      "owner_approvals_added": 0
+    }
+  ],
+  "owner_task_status_history": [
+    {
+      "claude-202610272340-s68-69-refs": {
+        "status": "done",
+        "result_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "closed_at": "2026-10-27T21:40:15Z"
+      },
+      "claude-202610271320-cpk-refs": {
+        "status": "taken",
+        "result_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+        "remaining": "standalone Stitch PNG blocked by generator"
+      }
+    }
+  ],
+  "completed_at": "2026-10-27T22:14:11Z",
+  "content_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d"
 }

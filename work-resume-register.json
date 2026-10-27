@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T22:07:17+00:00",
+  "last_updated_at": "2026-10-27T22:14:11+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -270,7 +270,7 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-27T14:46:23+00:00",
+      "updated_at": "2026-10-27T22:14:11+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
       "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
       "constraints": [
@@ -282,13 +282,13 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T14:46:23+00:00",
-        "last_completed": "Сцена52: семь частей, промпты, референсы и очередь подготовлены. Механизм «Продолжай» и квитанции внедрены во всех пяти проектах; исходящая смена сохранена. Реальная приёмка новым чатом остаётся открытой.",
+        "verified_at": "2026-10-27T22:14:11+00:00",
+        "last_completed": "Сцена52: семь частей, промпты, референсы и очередь подготовлены. Механизм «Продолжай» и квитанции внедрены во всех пяти проектах; исходящая смена сохранена. Реальная приёмка новым чатом остаётся открытой. Подготовка OPEN-WORK-REFS-RELAY-20261027 завершена:18/18 ролей,25 разных изображений; опубликовано и проверено, обе owner tasks done.",
         "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Передача смены по просьбе владельца · 27.10.2026",
-          "sha256": "179401b9aa64b5baec4f8021ff58d5efc935d60577ee71770711bb5214f91958"
+          "anchor": "# Серёгиус — возврат к сохранённому плану · 28.10.2026",
+          "sha256": "5ec7bd42d4e893eb06912bf8cbf73c1e953ca18996c8f8625bfbbac7c1516a8a"
         },
         "evidence": [
           {
@@ -298,6 +298,10 @@
           {
             "file": "reports/continue-multiproject-2026-10-27.json",
             "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d"
+          },
+          {
+            "file": "reports/open-work-refs-relay-2026-10-27.json",
+            "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b"
           }
         ],
         "read_next": [
@@ -308,7 +312,38 @@
           "ops/OWNER-TASKS.md"
         ],
         "blockers": []
-      }
+      },
+      "recovery_history": [
+        {
+          "schema_version": 1,
+          "verified_at": "2026-10-27T14:46:23+00:00",
+          "last_completed": "Сцена52: семь частей, промпты, референсы и очередь подготовлены. Механизм «Продолжай» и квитанции внедрены во всех пяти проектах; исходящая смена сохранена. Реальная приёмка новым чатом остаётся открытой.",
+          "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# Передача смены по просьбе владельца · 27.10.2026",
+            "sha256": "179401b9aa64b5baec4f8021ff58d5efc935d60577ee71770711bb5214f91958"
+          },
+          "evidence": [
+            {
+              "file": "reports/scene52-rebuild-2026-10-27.json",
+              "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
+            },
+            {
+              "file": "reports/continue-multiproject-2026-10-27.json",
+              "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d"
+            }
+          ],
+          "read_next": [
+            "ops/CONTINUE-PROTOCOL.md",
+            "reports/handoff-receipts.json",
+            "reports/scene52-seven-parts-handoff-2026-10-27.md",
+            "ops/TOPVIEW-FREE-LAUNCH.md",
+            "ops/OWNER-TASKS.md"
+          ],
+          "blockers": []
+        }
+      ]
     },
     {
       "work_id": "CONTINUE-001",
@@ -640,50 +675,6 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
-    },
-    {
-      "work_id": "OPEN-WORK-REFS-RELAY-20261027",
-      "project": "seregius",
-      "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
-      "status": "in_progress",
-      "updated_at": "2026-10-27T22:07:17+00:00",
-      "owner_task_id": "claude-202610271320-cpk-refs",
-      "owner_quote": "Её выполняешь именно ты, открытый чат. Ничего не запускай.",
-      "completed": [
-        "10/10 ЦПК и все8 референсных ролей Серёгиуса обеспечены:17 отдельных исходных PNG и повторное использование улицы для Стича",
-        "25 разных изображений сохранены; развёртки и дополнительные композиции готовы",
-        "Relay retry, Work-only продолжение и интеграция изображений выполнены"
-      ],
-      "next_action": "Опубликовать повторное использование Стича, проверить сайт и закрыть исходную задачу и текущую работу",
-      "canonical_refs": [
-        "ops/owner-tasks.json",
-        "references/scenes/scene-66/manifest.json",
-        "reports/open-work-refs-relay-2026-10-27.json"
-      ],
-      "recovery": {
-        "schema_version": 1,
-        "verified_at": "2026-10-27T22:07:17+00:00",
-        "last_completed": "Все18 референсных ролей обеспечены: существующий кадр подключён как Стич; отдельная генерация снята",
-        "next_action": "Опубликовать повторное использование Стича, проверить сайт и закрыть исходную задачу и текущую работу",
-        "checkpoint": {
-          "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
-          "sha256": "55098c91965e6ce04719447593325ed081d88b35e382da115946d95ac81e9bf1"
-        },
-        "evidence": [
-          {
-            "file": "reports/open-work-refs-relay-2026-10-27.json",
-            "sha256": "454e1e8b183e4b7b10cbdcbe70e32b54a9f9badabf9ed03fb1cc2bc7ba70212d"
-          }
-        ],
-        "read_next": [
-          "ops/OWNER-TASKS.md"
-        ],
-        "blockers": []
-      },
-      "additional_owner_task_ids": [
-        "claude-202610272340-s68-69-refs"
-      ]
     }
   ],
   "rules": [
@@ -693,6 +684,78 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "OPEN-WORK-REFS-RELAY-20261027",
+      "project": "seregius",
+      "title": "18 референсов, персонажи по фото, повтор Relay и открытые Work-задачи",
+      "status": "completed",
+      "updated_at": "2026-10-27T22:14:11+00:00",
+      "owner_task_id": "claude-202610271320-cpk-refs",
+      "owner_quote": "Её выполняешь именно ты, открытый чат. Ничего не запускай.",
+      "completed": [
+        "10/10 ЦПК и все8 референсных ролей Серёгиуса обеспечены:17 отдельных исходных PNG и повторное использование улицы для Стича",
+        "25 разных изображений сохранены; развёртки и дополнительные композиции готовы",
+        "Relay retry, Work-only продолжение и интеграция изображений выполнены",
+        "Повторное использование Стича опубликовано; Pages12/12 и CI7/7 success; исходная задача закрыта done."
+      ],
+      "next_action": "Подготовка и публикация завершены; дальнейшее разрешённое производство продолжается под SEREGIUS-PLAN-20261023 после свежих проверок. Готовые референсы и повторную генерацию Стича не повторять.",
+      "canonical_refs": [
+        "ops/owner-tasks.json",
+        "references/scenes/scene-66/manifest.json",
+        "reports/open-work-refs-relay-2026-10-27.json"
+      ],
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-27T22:14:11+00:00",
+        "last_completed": "Все18 референсных ролей выполнены;17 исходных PNG плюс повторное использование Стича,25 разных изображений. Публикация и Pages12/12,CI7/7 подтверждены; обе owner tasks done.",
+        "next_action": "Подготовка и публикация завершены; дальнейшее разрешённое производство продолжается под SEREGIUS-PLAN-20261023 после свежих проверок. Готовые референсы и повторную генерацию Стича не повторять.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
+          "sha256": "14ca8373e7ec8d816d1ae8ad529cbc4146a36b51f64f174b93ea0ae30303e44e"
+        },
+        "evidence": [
+          {
+            "file": "reports/open-work-refs-relay-2026-10-27.json",
+            "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b"
+          }
+        ],
+        "read_next": [
+          "ops/OWNER-TASKS.md"
+        ],
+        "blockers": []
+      },
+      "additional_owner_task_ids": [
+        "claude-202610272340-s68-69-refs"
+      ],
+      "recovery_history": [
+        {
+          "schema_version": 1,
+          "verified_at": "2026-10-27T22:07:17+00:00",
+          "last_completed": "Все18 референсных ролей обеспечены: существующий кадр подключён как Стич; отдельная генерация снята",
+          "next_action": "Опубликовать повторное использование Стича, проверить сайт и закрыть исходную задачу и текущую работу",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# Референсы, Relay и Продолжай — открытый Work · 27.10.2026",
+            "sha256": "55098c91965e6ce04719447593325ed081d88b35e382da115946d95ac81e9bf1"
+          },
+          "evidence": [
+            {
+              "file": "reports/open-work-refs-relay-2026-10-27.json",
+              "sha256": "454e1e8b183e4b7b10cbdcbe70e32b54a9f9badabf9ed03fb1cc2bc7ba70212d"
+            }
+          ],
+          "read_next": [
+            "ops/OWNER-TASKS.md"
+          ],
+          "blockers": []
+        }
+      ],
+      "completed_at": "2026-10-27T22:14:11Z",
+      "verified_at": "2026-10-27T22:14:11Z",
+      "content_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+      "report": "reports/open-work-refs-relay-2026-10-27.json"
+    },
     {
       "work_id": "CONTINUE-MULTIPROJECT-20261027",
       "title": "Продолжай: все проекты и квитанция приёма",
@@ -945,9 +1008,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "OPEN-WORK-REFS-RELAY-20261027",
+    "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-27T18:59:31+00:00",
+    "set_at": "2026-10-27T22:14:11+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }
