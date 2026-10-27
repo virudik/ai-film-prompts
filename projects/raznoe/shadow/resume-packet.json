@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-27T18:04:48+00:00",
-  "source_head": "33d4afc464bd2b41f1e857ba65ed28c78998976a",
-  "source_fingerprint": "05f19945b490a0c4a3f3fb3f4304cd53035d9122c6befc6e8adf5b7f390892ca",
+  "checked_at": "2026-10-27T18:23:50+00:00",
+  "source_head": "de024ddf5a394b5be359b63e2727b15d55bdac32",
+  "source_fingerprint": "83d49132aaa97b3abde6e95eb27b0e7e4cbf9e94f9802d55e67523d53cd17749",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -203,7 +203,7 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "5a96764948c0734c143839f07521ea5da1604cb2c827dab2aea9da73d8491fd1",
+      "sha256": "e6a3a04d9c3995698babc3c776b35e9cdd39f13cae66d6499922052f7fff5f67",
       "bytes": 19438
     },
     {
@@ -218,8 +218,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "bfc48fff188e8d8dab0597557f22d29dc95ba6e92129a615f8c4038f7c21acd0",
-      "bytes": 467270
+      "sha256": "1897a34cfc049c70ebcd9308926c454009a33aec20b7ffed3e25f1b952df7f51",
+      "bytes": 467694
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
