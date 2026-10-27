@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-27T13:30:17Z",
+  "synced_at": "2026-10-27T13:31:08Z",
   "revision_date": "27.10.2026",
   "master_declared_last_full_sync": "27.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "2da47ef349122575154cd6522f5536b5ab13535a12e357b7a7fd5af1b986ce29",
-  "canonical_revision_sha256": "a729b8f7d0ced15a939633255371a483c19c63efc00acd6e87c288d3428954fa",
-  "canonical_master_bytes": 1112657,
-  "scenes": 26,
-  "prompt_texts": 125,
+  "canonical_master_sha256": "922edc1f8aa8505775cb8024c5d7b13b949fb930dd52bcb9960ac82284409286",
+  "canonical_revision_sha256": "d1028637eb019715c9d58ab36eb2a7b0dcb8cf85d180432d3c27bcd6bf2f2d60",
+  "canonical_master_bytes": 1019787,
+  "scenes": 23,
+  "prompt_texts": 116,
   "work_items": [
     "W5",
     "W6",
@@ -33,16 +33,13 @@
     39,
     40,
     42,
-    44,
-    47,
     48,
     52,
-    53,
     56,
     57,
     58
   ],
-  "slow_scenes_count": 15,
+  "slow_scenes_count": 12,
   "scene_ids": [
     13,
     16,
@@ -54,14 +51,11 @@
     40,
     41,
     42,
-    44,
-    47,
     48,
     49,
     50,
     51,
     52,
-    53,
     56,
     57,
     58,
@@ -105,8 +99,11 @@
     35,
     38,
     43,
+    44,
     45,
     46,
+    47,
+    53,
     54,
     55
   ],
@@ -116,7 +113,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.137,
+    "age_hours_at_status_build": 0.151,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -194,7 +191,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.137,
+      "age_hours": 0.151,
       "blocking": false
     },
     "topview_task_map": {
@@ -406,47 +403,6 @@
       ],
       "render_state": "SLOW_PENDING"
     },
-    "44": {
-      "target_engine": "Wan 3",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [],
-      "tags": [
-        "serega",
-        "imperial_cruiser",
-        "hangar",
-        "shuttle",
-        "technicians",
-        "comedy",
-        "dialogue",
-        "speaker_ownership"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
-    "47": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "serega",
-        "cats",
-        "sith_planet",
-        "saber_duel",
-        "red_dot",
-        "comedy",
-        "continuity"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
     "48": {
       "target_engine": "Seedance 2.0",
       "production_state": "READY",
@@ -567,44 +523,13 @@
         "enabled": false,
         "language": null
       },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 44
-        }
-      ],
+      "dependencies": [],
       "tags": [
         "serega",
         "travel",
         "story_bridge",
         "continuity",
         "seven_parts"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
-    "53": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 48
-        },
-        {
-          "type": "related_to",
-          "scene": 39
-        }
-      ],
-      "tags": [
-        "serega",
-        "travel",
-        "story_bridge",
-        "continuity"
       ],
       "render_state": "SLOW_PENDING"
     },
@@ -784,11 +709,11 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.10.2026",
-    "synced_at": "2026-10-27T13:30:17Z",
-    "canonical_master_sha256": "2da47ef349122575154cd6522f5536b5ab13535a12e357b7a7fd5af1b986ce29",
-    "canonical_revision_sha256": "a729b8f7d0ced15a939633255371a483c19c63efc00acd6e87c288d3428954fa",
-    "scene_count": 26,
-    "prompt_count": 125,
+    "synced_at": "2026-10-27T13:31:08Z",
+    "canonical_master_sha256": "922edc1f8aa8505775cb8024c5d7b13b949fb930dd52bcb9960ac82284409286",
+    "canonical_revision_sha256": "d1028637eb019715c9d58ab36eb2a7b0dcb8cf85d180432d3c27bcd6bf2f2d60",
+    "scene_count": 23,
+    "prompt_count": 116,
     "scene_ids": [
       13,
       16,
@@ -800,14 +725,11 @@
       40,
       41,
       42,
-      44,
-      47,
       48,
       49,
       50,
       51,
       52,
-      53,
       56,
       57,
       58,
@@ -838,11 +760,8 @@
       39,
       40,
       42,
-      44,
-      47,
       48,
       52,
-      53,
       56,
       57,
       58
