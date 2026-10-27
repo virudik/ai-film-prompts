@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-review",
   "task": "Renumber Roscosmos scenes by organization (owner 27.10)",
   "acquired_at": "2026-10-27T15:39:56Z",
-  "expires_at": "2026-10-27T16:24:56Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-27T15:43:02Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
