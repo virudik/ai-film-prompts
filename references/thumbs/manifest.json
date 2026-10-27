@@ -2423,6 +2423,16 @@
    "thumb_bytes": 49320,
    "src_sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849"
   },
+  "references/scenes/scene-52/S52-P1-final-frame-20261027.png": {
+   "thumb": "references/thumbs/scenes/scene-52/S52-P1-final-frame-20261027.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 408843,
+   "thumb_bytes": 14010,
+   "src_sha256": "40d96286c3e5cd6b7153d62279ef6485376cde7922e9abb1680ac6a929bb779f"
+  },
   "references/scenes/scene-52/S52-start-from-S44-20261023.jpg": {
    "thumb": "references/thumbs/scenes/scene-52/S52-start-from-S44-20261023.jpg.webp",
    "width": 640,
