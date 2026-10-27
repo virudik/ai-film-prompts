@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "e43d32597a6cb48efc6c85f0253a6cc87b75c5d05bd800f43f54301db497f16c",
+  "source_queue_sha256": "36a8dd5aff0a0c057b159160909902e7cfc4c2e9389a3d67990e922038bee595",
   "source_task_map_sha256": "438eff7febdb225f29e8b6a5c42f0a978e9e67c66cf2cc906c19c05855e8abbe",
   "topview_checked_at": "2026-10-27T05:32:57Z",
   "items": [
@@ -140,21 +140,12 @@
       "queue_state": "waiting_for_slot"
     },
     {
-      "id": "S48-SEED20-P1",
-      "scene_id": 48,
-      "part_label": "Часть 1",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "claimed"
-    },
-    {
       "id": "S48-SEED20-P2",
       "scene_id": 48,
       "part_label": "Часть 2",
       "code": "waiting_result",
       "ready": false,
-      "text": "@Video1: ждёт результат 48 · Seedance 2.0 часть 1 (ещё не запущен)",
+      "text": "@Video1: ждёт результат 48 · Seedance 2.0 часть 1",
       "queue_state": "blocked_inputs"
     },
     {
@@ -393,5 +384,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-27T06:15:05.611971Z"
+  "checked_at": "2026-10-27T06:19:29.657970Z"
 }
