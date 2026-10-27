@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-27T06:16:05Z",
+  "updated_at": "2026-10-27T06:16:16Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3114,7 +3114,7 @@
       "canonical_prompt_sha256": "498b43c0d48fb7617d087c05aece4924cd31d2bc1a97540332beb2785c1cec44",
       "normalized_prompt_sha256": "26a58671ddbc0f7461d31778b0c77a946044c67d7915995b5ba5154eb0b257b4",
       "priority": 0.4,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3169,7 +3169,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "8d7ff1e2de63478693778de29e0dd56e",
       "claim": {
         "run_id": "chatgpt-s48-20261027T0614Z",
         "claimed_at": "2026-10-27T06:16:05Z",
@@ -3217,6 +3217,44 @@
             "Image5",
             "Image6"
           ]
+        },
+        "claim_commit": "da5c867e4259be487cbc32bb4502460ab385e1d2",
+        "post_submit": {
+          "verified_at": "2026-10-27T06:16:16Z",
+          "status": "init",
+          "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+          "task_name": "261027_0001_video_edit_2645",
+          "full_normalized_prompt_match": true,
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "input_names": [
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5",
+            "Image6"
+          ],
+          "unlimited": true,
+          "credits_cost": 0,
+          "account_scan": {
+            "live_main_board_queue_cards": 6,
+            "complete_pre_submit_global_scan_active": 5,
+            "verified_new_tasks": 1,
+            "active_video_tasks": 6,
+            "free_video_slots": 0,
+            "active_task_ids": [
+              "4a1061e175054da2810ffef8ad9d31cd",
+              "4b7b972870a44dfbb29bd6c5e330a633",
+              "8a8eadc809004e318c47201b8a463be0",
+              "8b6a8ce102ea416e88d3c14fa558c513",
+              "b15165813c0848939edbe8b3d3aed182",
+              "8d7ff1e2de63478693778de29e0dd56e"
+            ],
+            "note": "Post-submit live My First Board count plus the complete pre-submit global scan and the single verified new task; a second all-page traversal was not repeated."
+          }
         }
       },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
@@ -3256,7 +3294,24 @@
           }
         ]
       },
-      "owner_launch_authorized_at": "2026-10-23T14:16:11Z"
+      "owner_launch_authorized_at": "2026-10-23T14:16:11Z",
+      "submitted_at": "2026-10-27T06:16:10Z",
+      "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P1-20261027.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "ui_metadata_verified": true,
+        "input_count": 6,
+        "input_order": [
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4",
+          "Image5",
+          "Image6"
+        ]
+      }
     },
     {
       "id": "S48-SEED20-P2",
