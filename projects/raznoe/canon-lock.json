@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:scene-review",
-  "task": "Роскосмос: 5 сцен ЦПК (21–25), owner 27.10",
-  "acquired_at": "2026-10-27T13:16:51Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T13:18:33Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "Продолжай: все проекты и квитанция приёма смены",
+  "acquired_at": "2026-10-27T14:02:07.229Z",
+  "expires_at": "2026-10-27T14:47:07.229Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
