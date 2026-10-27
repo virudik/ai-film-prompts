@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-27T00:30:18Z",
+  "checked_at": "2026-10-27T00:40:20Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -65,8 +65,8 @@
       "model": "Seedance 2.0",
       "scene_id": 52,
       "mapping": "task_map",
-      "queue_count": 738,
-      "wait_seconds": 17441,
+      "queue_count": 718,
+      "wait_seconds": 16839,
       "process_seconds": null
     },
     {
@@ -78,8 +78,8 @@
       "model": "Seedance 2.0",
       "scene_id": 42,
       "mapping": "task_map",
-      "queue_count": 5248,
-      "wait_seconds": 250721,
+      "queue_count": 5239,
+      "wait_seconds": 250119,
       "process_seconds": null
     },
     {
@@ -91,8 +91,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1955,
-      "wait_seconds": 60641,
+      "queue_count": 1943,
+      "wait_seconds": 60038,
       "process_seconds": null
     },
     {
@@ -104,8 +104,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2793,
-      "wait_seconds": 103840,
+      "queue_count": 2784,
+      "wait_seconds": 103239,
       "process_seconds": null
     },
     {
@@ -117,8 +117,8 @@
       "model": "Seedance 2.0",
       "scene_id": 58,
       "mapping": "task_map",
-      "queue_count": 3662,
-      "wait_seconds": 155680,
+      "queue_count": 3653,
+      "wait_seconds": 155078,
       "process_seconds": null
     },
     {
@@ -130,26 +130,18 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 4383,
-      "wait_seconds": 198880,
+      "queue_count": 4374,
+      "wait_seconds": 198278,
       "process_seconds": null
     }
   ],
   "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
-  "recent_completions": [
-    {
-      "task_id": "56e5e07c85df4af583c62665c51ed563",
-      "scene_id": 47,
-      "mapping": "task_map",
-      "final_status": "success",
-      "completed_at": "2026-10-26 00:33:01"
-    }
-  ],
+  "recent_completions": [],
   "comparison": {
-    "monitor_checked_at": "2026-10-26T23:40:17Z",
-    "monitor_age_minutes": 50,
+    "monitor_checked_at": "2026-10-27T00:30:18Z",
+    "monitor_age_minutes": 10,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
