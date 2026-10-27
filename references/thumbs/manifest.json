@@ -973,6 +973,16 @@
    "thumb_bytes": 57892,
    "src_sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626"
   },
+  "projects/raznoe/references/scenes/scene-23/c23-console.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-23/c23-console.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1936100,
+   "thumb_bytes": 29370,
+   "src_sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc"
+  },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
    "width": 640,
