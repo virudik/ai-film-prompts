@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-27T15:52:31+00:00",
+ "generated_at": "2026-10-27T16:27:39+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "fe78047403d0b122c0f0890da01c0d5f9335613c6a49ad75a2dc6dca73f1c44d",
-   "bytes": 34641
+   "sha256": "5609080b954d7e7b734055b734fe8324917dcd238de5d99c8cf69a8b0531f9c4",
+   "bytes": 35829
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "99938cf94c0856686b83a4fd654d377170b480a4b61bc39fc5525b60d257aaab",
-   "bytes": 983266
+   "sha256": "f2a7b233e8f50ccb8400c3b1abc8ac73e2e38a1f13e56b30ed6a5eed2e2af665",
+   "bytes": 1001563
   }
  ],
  "invariants": [
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22700,
-  "above_marker_chars": 22700,
+  "chars": 23396,
+  "above_marker_chars": 23396,
   "recent_sections_below_marker": [],
-  "sha256": "a2350ad9f09b868936cf0860f362f1f387d9167cb6f3a5f74d80ad7299d070c7",
-  "sha256_12": "a2350ad9f09b",
+  "sha256": "402d1d751cfd60b9208bbb7d769a86a342e3c3742ad164f4f5c9bfaa47c41b16",
+  "sha256_12": "402d1d751cfd",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -292,7 +292,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 34361,
+   "offset": 34401,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -314,7 +314,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 60698,
+   "offset": 60738,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -335,7 +335,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 89235,
+   "offset": 89275,
    "chars": 139450,
    "sha256_12": "d913dff42477"
   },
@@ -353,7 +353,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 228685,
+   "offset": 228725,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -375,7 +375,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 245041,
+   "offset": 245081,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -397,7 +397,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 269028,
+   "offset": 269068,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -421,7 +421,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 301525,
+   "offset": 301565,
    "chars": 28588,
    "sha256_12": "e13906f96ded"
   },
@@ -445,7 +445,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 330113,
+   "offset": 330153,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
@@ -472,7 +472,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 358571,
+   "offset": 358611,
    "chars": 74983,
    "sha256_12": "17eb4aa1f7b0"
   },
@@ -497,7 +497,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 433554,
+   "offset": 433594,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
@@ -523,7 +523,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 453275,
+   "offset": 453315,
    "chars": 60421,
    "sha256_12": "f3bfb2c4c6d1"
   },
@@ -544,9 +544,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 513696,
-   "chars": 72775,
-   "sha256_12": "ddc8cd507408"
+   "offset": 513736,
+   "chars": 80429,
+   "sha256_12": "7ec0a934d336"
   },
   {
    "id": 56,
@@ -567,7 +567,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 586471,
+   "offset": 594165,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -589,7 +589,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 612877,
+   "offset": 620571,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -615,7 +615,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 638973,
+   "offset": 646667,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -636,7 +636,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 666501,
+   "offset": 674195,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -658,7 +658,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 701789,
+   "offset": 709483,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -678,7 +678,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 734800,
+   "offset": 742494,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -700,7 +700,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 759646,
+   "offset": 767340,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -720,7 +720,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 788917,
+   "offset": 796611,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -739,18 +739,18 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 812370,
+   "offset": 820064,
    "chars": 18653,
    "sha256_12": "da77943a7c75"
   },
   {
    "id": 65,
-   "title": "Татуин: Серёга выпивает в баре с Бобой Феттом и компанией",
+   "title": "Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,
-   "dialogue": "ru",
+   "dialogue": null,
    "depends_on": [],
    "prompts": 3,
    "refs": [
@@ -759,9 +759,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 831023,
-   "chars": 19841,
-   "sha256_12": "14558081a1a1"
+   "offset": 838717,
+   "chars": 20796,
+   "sha256_12": "95a1bd5eeedf"
   },
   {
    "id": 66,
@@ -770,37 +770,42 @@
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,
-   "dialogue": "ru",
-   "depends_on": [],
+   "dialogue": null,
+   "depends_on": [
+    52
+   ],
    "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
-    "@Image4"
+    "@Image4",
+    "@Image5"
    ],
-   "offset": 850864,
-   "chars": 16390,
-   "sha256_12": "10c9ac1861f3"
+   "offset": 859513,
+   "chars": 20755,
+   "sha256_12": "5b6aa781878c"
   },
   {
    "id": 67,
-   "title": "Татуин: девушка ругается с продавцом фруктов",
+   "title": "Татуин: девушка яростно ругается с продавцом фруктов",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": "ru",
-   "depends_on": [],
+   "depends_on": [
+    66
+   ],
    "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3"
    ],
-   "offset": 867254,
-   "chars": 14920,
-   "sha256_12": "9f3337d9a983"
+   "offset": 880268,
+   "chars": 18058,
+   "sha256_12": "e1398d8f9ac8"
   }
  ],
  "read_sets": {

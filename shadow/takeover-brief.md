@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-27T15:52:31+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-27T16:27:39+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 34641 B · `fe78047403d0b122`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 35829 B · `5609080b954d7e7b`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 125587 B · `fd2c8389816df3e0`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 34298 B · `e4b282b861e67590`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 72372 B · `a5813bc631df9432`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 80102 B · `1429253208039887`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16692 B · `353e9e8fee391b9d`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18925 B · `a6bf924b43892379`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 983266 B · `99938cf94c085668`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1001563 B · `f2a7b233e8f50ccb`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -53,7 +53,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | 17eb4aa1f7b0 |
 | 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image8 | [28, 49] | 6ac559c15d25 |
 | 51 | Финальные титры: каждый разбивает свой инструмент | Seedance 2.0 | READY/IDLE | 12 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [28, 49, 50] | f3bfb2c4c6d1 |
-| 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Seedance 2.0 | DRAFT/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | ddc8cd507408 |
+| 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Seedance 2.0 | DRAFT/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 7ec0a934d336 |
 | 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | be481db171a4 |
 | 57 | РосКОТмос: аварийная посадка котов на планете ситхов | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | c12ca1c3d38d |
 | 58 | РосКОТмос: коты выбегают из горящего корабля | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [57] | a2719cef0c5c |
@@ -63,9 +63,9 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 62 | Татуин: после погони — обратно к противостоянию | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 7b405dfdc4b9 |
 | 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 44a6503cbd40 |
 | 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | da77943a7c75 |
-| 65 | Татуин: Серёга выпивает в баре с Бобой Феттом и компанией | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 14558081a1a1 |
-| 66 | Татуин: две девочки и инопланетная собака | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 10c9ac1861f3 |
-| 67 | Татуин: девушка ругается с продавцом фруктов | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 9f3337d9a983 |
+| 65 | Татуин: Серёга молча выпивает в баре с Бобой Феттом и компан | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 95a1bd5eeedf |
+| 66 | Татуин: две девочки и инопланетная собака | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [52] | 5b6aa781878c |
+| 67 | Татуин: девушка яростно ругается с продавцом фруктов | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | e1398d8f9ac8 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
@@ -89,4 +89,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (22700 симв., sha `a2350ad9f09b`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (23396 симв., sha `402d1d751cfd`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
