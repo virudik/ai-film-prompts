@@ -2903,6 +2903,16 @@
    "thumb_bytes": 19986,
    "src_sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
   },
+  "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png": {
+   "thumb": "references/thumbs/scenes/scene-66/S66-Dasha-tatooine-sheet.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2045183,
+   "thumb_bytes": 20906,
+   "src_sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+  },
   "references/scenes/scene-67/S67-fruit-stall.png": {
    "thumb": "references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp",
    "width": 640,
