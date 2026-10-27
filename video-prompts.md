@@ -7815,12 +7815,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** DRAFT 27.10.2026. Тексты промтов готовы. Новые референсы рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (тексты для рисования — `references/scenes/scene-67/*.image-prompt.txt`). В очереди Topview (владелец 27.10): после 63, до музыкальных и танцевальных номеров 49–51 и 28; запуск — когда готовы референсы. Главная версия — Wan 3.0 (30 с): русская речь лучше у Wan. Запуск — только после настоящего результата 66 и референса девушки.
 
-**Референсы:** @Video1 — последние 3 с 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин; ещё не нарисован); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами).
+**Референсы:** @Video1 — последние 3 с 66 (`references/scenes/scene-66/S66-last3s.mp4`, вырезать из настоящего результата); @Image1 — Девушка — внешность (референс добавит владелец); @Image2 — `references/scenes/scene-67/S67-vendor.png` (Продавец: четырёхрукий инопланетянин); @Image3 — `references/scenes/scene-67/S67-fruit-stall.png` (Прилавок с инопланетными фруктами).
 
 **Режиссёрский контроль:** Связка: начало — конец 66 (прилавок). Ругань очень бурная, но без насилия. Внешность девушки — только по референсу владельца (пока его нет, не запускать).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-67/S67-fruit-stall.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-fruit-stall.png" alt="Татуин: прилавок с инопланетными фруктами" loading="lazy"></a><figcaption>@Image2 — Татуин: прилавок с инопланетными фруктами</figcaption></figure>
+<figure><a href="references/scenes/scene-67/S67-vendor.png" target="_blank" rel="noopener"><img src="references/scenes/scene-67/S67-vendor.png" alt="Четырёхрукий торговец фруктами" loading="lazy"></a><figcaption>@Image3 — Четырёхрукий торговец фруктами</figcaption></figure>
 </div>
 
 <div class="engine-tabs" data-scene="67">
