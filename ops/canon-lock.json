@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt",
-  "task": "Open Work beb26cfe80f8: Masha R market quarrel scene reference",
-  "acquired_at": "2026-10-27T19:20:16.241Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T19:26:39+00:00",
+  "state": "held",
+  "holder": "claude:scene-review",
+  "task": "Scenes 68-69 (Жилищник) chained after 67, owner 27.10",
+  "acquired_at": "2026-10-27T20:28:43Z",
+  "expires_at": "2026-10-27T21:13:43Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
