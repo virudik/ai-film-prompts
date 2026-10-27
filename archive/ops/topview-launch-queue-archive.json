@@ -3,6 +3,517 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S36-S36",
+      "scene_id": 36,
+      "prompt_id": "S36",
+      "canonical_block_label": "36",
+      "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
+      "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
+      "priority": 3,
+      "state": "submitted",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+          "sha256": "33268d22fbfe7268ff5ce939ba15dd2151cea72ac617794e97e9ec37d33021b1",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-36/S36-start-from-S17-result.png",
+          "sha256": "821dfb3fc4124d4d3e3b15d2c8d380136b7589c3631b60165bc713139107f1dc",
+          "required": true
+        }
+      ],
+      "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
+      "claim": {
+        "run_id": "chatgpt-s36-20261019T0301Z",
+        "claimed_at": "2026-10-19T03:04:00Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "account_scan": {
+          "checked_at": "2026-10-19T03:00:00Z",
+          "boards": 11,
+          "pages": 16,
+          "total_tasks": 909,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 909-task account scan: zero exact normalized S36 prompt matches",
+        "ui_verified": {
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 6383,
+          "prompt_normalized_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
+          "input_sha_verified": true,
+          "input_count": 6
+        },
+        "post_submit": {
+          "verified_at": "2026-10-19T03:04:38Z",
+          "status": "init",
+          "normalized_match": "token-padding-only: Topview inserted whitespace around adjacent mention/en-dash; all other normalized text is identical",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "input_names": [
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5",
+            "Image6"
+          ],
+          "unlimited": true,
+          "credits_cost": 0,
+          "account_scan": {
+            "boards": 11,
+            "pages": 16,
+            "total_tasks": 910,
+            "complete": true,
+            "active_videos": 6,
+            "free_video_slots": 0
+          }
+        }
+      },
+      "first_submission_verified_at": "2026-10-16T23:30:45.479901+00:00",
+      "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained.",
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 3
+      },
+      "submitted_at": "2026-10-19T03:03:33Z",
+      "receipt": "reports/topview-queue-2026-10-19/S36-receipt.json"
+    },
+    {
+      "id": "S37-SEED20-P1",
+      "scene_id": 37,
+      "prompt_id": "S37-SEED20-P1",
+      "canonical_block_label": "37 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "8791feaa54e426357664e0cc7f060c82ac249754b8a04bd03931207106725ff0",
+      "normalized_prompt_sha256": "f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9",
+      "priority": 4,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S36-S36"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+          "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
+      "claim": {
+        "run_id": "chatgpt-s37p1-20261019T1404Z",
+        "claimed_at": "2026-10-19T14:04:45Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "account_scan": {
+          "checked_at": "2026-10-19T14:00:00Z",
+          "boards": 11,
+          "pages": 16,
+          "total_tasks": 910,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 910-task account scan: zero exact normalized S37 Seedance2.0 Part1 prompt matches",
+        "ui_verified": {
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 5869,
+          "prompt_normalized_sha256": "f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9",
+          "input_sha_verified": true,
+          "input_count": 4
+        },
+        "submission": {
+          "clicked_at": "2026-10-19T14:05:18Z",
+          "click_count": 1,
+          "result": "confirmed",
+          "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
+          "verified_at": "2026-10-19T14:07:15Z",
+          "task_status": "init",
+          "model": "Seedance 2.0",
+          "model_id": "seedance-2.0-style",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "input_names": [
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4"
+          ],
+          "input_count": 4,
+          "use_unlimit_mode": true,
+          "credits_cost": 0,
+          "normalized_prompt_sha256": "f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9",
+          "normalized_prompt_match": true
+        },
+        "post_submit_scan": {
+          "checked_at": "2026-10-19T14:06:30Z",
+          "boards": 11,
+          "pages": 17,
+          "total_tasks": 911,
+          "complete": true,
+          "occupied_video_slots": 6,
+          "free_video_slots": 0,
+          "active_unlimited_task_ids": [
+            "e33891d4568a4a90b31ff3c67f5a7100",
+            "1e4928fa04ed4a0396d1d2ea4f5934bb",
+            "70ba69f8c44e4898ab587fbffeaeca01",
+            "bf3465e1c4de4a869f4bba5f2eed5acf",
+            "86741d99f7634e3b97e8b139996b83b0",
+            "e6a5cf9a3d04413e943c9bbbff9e1f73"
+          ]
+        }
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S37-S37",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "blocker_resolution": "2026-10-19T14:04:45Z: cloud shared-files path corrected; four inputs loaded in exact canonical order and UI preflight passed.",
+      "submitted_at": "2026-10-19T14:05:18Z",
+      "receipt_path": "reports/topview-queue-2026-10-19/S37-SEED20-P1-receipt.json",
+      "ui_proof_path": "reports/topview-queue-2026-10-19/S37-SEED20-P1-ui-proof.json"
+    },
+    {
+      "id": "S16-SEED20-P1",
+      "scene_id": 16,
+      "prompt_id": "S16-SEED20-P1",
+      "canonical_block_label": "16 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "6b7349b5ab4868d8bbc0871d3f1efc75c0b4a0d811b4b0baa9583f59028c24e1",
+      "normalized_prompt_sha256": "7d15714b6c6722834e564d8994768c77ea97a5992cbedd8ea80ec52e7707e42c",
+      "priority": 1,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/ilyusha.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "role": "location",
+          "required": true,
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "81def51f389d53f9bd34132ddb197181e79fdc45519277b90862ff7345da61fb",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Video1",
+          "path": "S16-desert-source-2.mp4",
+          "role": "continuity_video",
+          "required": true,
+          "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+          "storage": "private_drive_or_library",
+          "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+          "library_file_id": "libfile_1192520938908191a64a9d4c19412abc",
+          "source_topview_task_id": "9fd93e2905e14c77b616884f1d6962f6",
+          "input_status": "available"
+        }
+      ],
+      "task_id": "30cfaf12ad944cd6944416623397e41c",
+      "claim": {
+        "run_id": "chatgpt-worm-2026-10-19T225132931Z",
+        "claimed_at": "2026-10-19T22:51:32.931Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "checked_at": "2026-10-19T22:51:17.927Z",
+          "boards": 11,
+          "pages": 17,
+          "total_tasks": 911,
+          "occupied_slots": 5,
+          "free_slots": 1,
+          "complete": true,
+          "duplicate_matches": 0,
+          "active_unlimited_task_ids": [
+            "e6a5cf9a3d04413e943c9bbbff9e1f73",
+            "e33891d4568a4a90b31ff3c67f5a7100",
+            "1e4928fa04ed4a0396d1d2ea4f5934bb",
+            "70ba69f8c44e4898ab587fbffeaeca01",
+            "bf3465e1c4de4a869f4bba5f2eed5acf"
+          ]
+        },
+        "resolved_at": "2026-10-19T22:54:14.950Z",
+        "result": "submitted_verified"
+      },
+      "authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "replaces_unsubmitted_item": "S16-S16",
+      "selection_record": "reports/worm-seedance-2026-10-20.md",
+      "launch_readiness": "reference_inputs_available",
+      "previous_prompt_sha256": [
+        "e1f5ff3f0bdf207d4788f28ef02550c8d2bfa4c47800a7e4a235e89fa5942608"
+      ],
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "submitted_at": "2026-10-19T22:51:48Z",
+      "receipt": "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.jpg",
+      "actual_settings": {
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S57-AVENUE-IMAGE",
+      "scene_id": 57,
+      "prompt_id": "S57-AVENUE-IMAGE",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-57/S57-crash-avenue-image-prompt.txt",
+      "prompt_source": "UTF-8 full file (no final newline); exact standalone image prompt",
+      "canonical_prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
+      "normalized_prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
+      "prompt_file_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
+      "priority": 8,
+      "state": "completed",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "Image1",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval.",
+      "on_success": "Download the original, visually QC (avenue of columns and colossal hooded statues, same palette/stone as S27 ruins, no ship/people/debris), save as references/scenes/scene-57/S57-crash-avenue.png with task ID/SHA/provenance in references/scenes/scene-57/manifest.json; mark the input available in S58-WRECK-IMAGE, S57-SEED20-P1/P2, S58-SEED20-P1. Failure: report, no automatic retry.",
+      "created_at": "2026-10-19T23:43:06Z",
+      "last_claim": {
+        "run_id": "chatgpt-s57-image-20261020-1792455619692",
+        "claimed_at": "2026-10-20T00:20:19.692Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "model": "Nano Banana Pro",
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "input_count": 1,
+          "global_active_videos": 6,
+          "global_active_images": 0
+        }
+      },
+      "last_submit_attempt": {
+        "at": "2026-10-20T00:22:24.923Z",
+        "outcome": "rejected_before_task_creation",
+        "task_created": false,
+        "credits_spent": 0,
+        "error": "You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.",
+        "receipt": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.json"
+      },
+      "completed_at": "2026-10-20T00:32:46.672587Z",
+      "completion_method": "chatgpt_imagegen",
+      "launch_readiness": "completed_no_topview_launch_needed",
+      "output": {
+        "path": "references/scenes/scene-57/S57-crash-avenue.png",
+        "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+        "assistant_qc": "passed",
+        "owner_approval": "not_recorded"
+      },
+      "completion_note": "Owner03:24MSK changed route to ChatGPT. Saved/QC original reference; do not submit duplicate Topview image task."
+    },
+    {
+      "id": "S58-WRECK-IMAGE",
+      "scene_id": 58,
+      "prompt_id": "S58-WRECK-IMAGE",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-58/S58-wreck-image-prompt.txt",
+      "prompt_source": "UTF-8 full file (no final newline); exact standalone image prompt",
+      "canonical_prompt_sha256": "a9c16f50924dcd18e1a926cebea7e1b2aa8eb3a20b23863e3bcecab22f5e2fa2",
+      "normalized_prompt_sha256": "a9c16f50924dcd18e1a926cebea7e1b2aa8eb3a20b23863e3bcecab22f5e2fa2",
+      "prompt_file_sha256": "a9c16f50924dcd18e1a926cebea7e1b2aa8eb3a20b23863e3bcecab22f5e2fa2",
+      "priority": 8.1,
+      "state": "completed",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S57-AVENUE-IMAGE"
+      ],
+      "references": [
+        {
+          "slot": "Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+        },
+        {
+          "slot": "Image2",
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval.",
+      "on_success": "Download the original, visually QC (same first RosKOTmos ship design and emblem, hull in one piece, right nacelle burning, trench, toppled columns, headless statue and its head by the tail, hatch closed, no characters), save as references/scenes/scene-58/S58-wreck-start.png with task ID/SHA/provenance in references/scenes/scene-58/manifest.json; mark the input available in S58-SEED20-P1/P2. Failure: report, no automatic retry.",
+      "created_at": "2026-10-19T23:43:06Z",
+      "depends_on_completed": [
+        "S57-AVENUE-IMAGE"
+      ],
+      "launch_readiness": "completed_no_topview_launch_needed",
+      "completed_at": "2026-10-20T00:32:46.672587Z",
+      "completion_method": "chatgpt_imagegen",
+      "output": {
+        "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+        "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
+        "owner_approval": "owner_selected_2026-10-20T03:39:42+03:00"
+      },
+      "completion_note": "Completed via ChatGPT. Owner selected first crash still; no duplicate Topview image generation.",
+      "previous_output_before_owner_selection": {
+        "path": "references/scenes/scene-58/S58-wreck-start.png",
+        "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+        "assistant_qc": "passed",
+        "owner_approval": "not_recorded"
+      }
+    },
+    {
       "id": "S43-R1-20261017",
       "scene_id": 43,
       "prompt_id": "S43",
