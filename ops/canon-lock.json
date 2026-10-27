@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:continue-upgrade",
-  "task": "CONTINUE-001: recovery integrity, focus, compact bundle, site readiness and tests",
-  "acquired_at": "2026-10-27T12:56:54.048Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T13:41:13.507Z",
+  "state": "held",
+  "holder": "claude:scene-review",
+  "task": "OWNER-TASKS rule: refs drawn by open ChatGPT Work chat; projects.json CPK",
+  "acquired_at": "2026-10-27T13:43:32Z",
+  "expires_at": "2026-10-27T14:28:32Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
