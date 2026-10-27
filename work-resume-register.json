@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-27T14:46:23+00:00",
+  "last_updated_at": "2026-10-27T18:12:14Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "all_slots_occupied_phase_ab_ok",
-      "updated_at": "2026-10-27T11:55:00Z",
+      "status": "all_slots_occupied_phase_ab_fixed",
+      "updated_at": "2026-10-27T18:12:14Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -17,7 +17,8 @@
         "22:55 MSK cycle: full 13-board/28-page scan found one free slot; skipped non-ready52P2/42P2 and submitted next ready S56-P1 once as task b15165813c0848939edbe8b3d3aed182, Seedance2.0/15s/720p/16:9/Unlimited0. Post-scan935 tasks/6 active/0 free.",
         "00:00 MSK cycle: full 13-board/28-page scan confirmed935 tasks/6 active/0 free. Re-downloaded actual S42-P1 task a1ca4c36e31d45c5b4b72df7777d2592, found the GitHub last3s file truncated, and deterministically restored the exact canonical 1804607-byte clip SHA dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61. Readiness now marks S42-P2 ready; no video submitted.",
         "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun.",
-        "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch."
+        "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch.",
+        "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun."
       ],
       "next_action": "Fresh slots/live queue only. S52-R2-SEED20-P1 is ready at priority 0 and must launch only when a physical slot is confirmed; P2–P7 require each real predecessor result and full QC. Never repeat existing submitted items.",
       "canonical_refs": [
@@ -28,39 +29,51 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-27T11:55:00Z",
-        "self_heal": "ok",
-        "owner_tasks_open": 0,
-        "owner_tasks_taken": 0,
+        "checked_at": "2026-10-27T18:12:14Z",
+        "self_heal": "escalated_task_taken_and_fixed",
+        "owner_tasks_open": 1,
+        "owner_tasks_taken": 1,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-27T11:43:38Z",
+          "synced_at": "2026-10-27T17:31:41Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0,
-          "checked_at": "2026-10-27T10:13:51Z",
+          "checked_at": "2026-10-27T18:05:32Z",
           "info": 3
         },
         "gmail_message_ids": [
           "1a17c2f2cfe31dd6",
-          "1a17ccc61c41a5a2"
+          "1a17ccc61c41a5a2",
+          "1a17d92d8e5c9747",
+          "1a17e3010580a6a0",
+          "1a17e310fd2f970a",
+          "1a17e38f241ff1fe",
+          "1a17e39696f58ac2",
+          "1a17e45dfb4e0b8a"
         ],
         "github_failed_run_ids": [
           40465114140,
-          40484581965
+          40484581965,
+          40513013128,
+          40540917850,
+          40540935774,
+          40542532531,
+          40542539886
         ],
-        "root_cause": "Canon health emitted the already-resolved work-resume-register 100KB warning; check/publish steps succeeded and the deliberate notification step failed the workflow.",
+        "root_cause": "Canon health emitted a real ops/topview-launch-queue.json 400KB warning; check/publish steps succeeded and the deliberate notification step failed the workflow. Self-heal repeated the same notifying run and then escalated.",
         "current_verification": {
-          "register_bytes": 93374,
+          "queue_bytes_before": 411538,
+          "queue_bytes_after": 396075,
           "canon_health": "ok",
           "canon_warnings": 0
         },
-        "result": "Resolved in current main; no rerun or repair needed."
+        "result": "Fixed by canonical archival cleanup in dff803dab9a3530395f39a47366e324f0757483a; old workflow runs were not rerun."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-27T11:55:00Z",
+        "checked_at": "2026-10-27T18:12:14Z",
         "method": "Topview connector full 13-board/17-page video scan plus authenticated live UI confirmation",
         "boards": 13,
         "pages": 17,
