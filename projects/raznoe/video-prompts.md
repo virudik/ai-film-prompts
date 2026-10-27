@@ -4806,7 +4806,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-25"></a>
 ## Сцена 25 — ЦПК: Невесомость на глубине
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","awaiting_references","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","two_engine_versions","reference_first","civil_space","cosmonaut_training","cpk"]} -->
 
 **Контекст использования:** Познавательный ролик о гидролаборатории: как под водой отрабатывают выход в открытый космос. **Постоянная тема.**
 
@@ -4816,9 +4816,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 27.10.2026):** [ЦПК — официальный сайт, установки Центра](https://www.gctc.ru/) · [Роскосмос о гидролаборатории ЦПК (ПРОКОСМОС)](https://vk.ru/@prokosmos_ru-v-roskosmose-rasskazali-o-gidrolaboratorii-cpk).
 
-**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png`. Underwater: vast indoor pool with clear blue water, a full-size white station-module mock-up on the bottom, one figure in a white EVA suit (visor up enough to show a fictional man's face behind glass) holding handrails, two scuba safety divers in black. Controls the underwater space, mock-up, suit and divers. @Image2 — `projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png` (ещё не нарисован). Poolside: the same white EVA suit with its wearer standing on a steel lift platform hanging from a gantry crane, being lowered into the blue water; technicians in dark polo shirts at the railing. Controls the poolside and lowering rig. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-25/*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png`. Underwater: vast indoor pool with clear blue water, a full-size white station-module mock-up on the bottom, one figure in a white EVA suit (visor up enough to show a fictional man's face behind glass) holding handrails, two scuba safety divers in black. Controls the underwater space, mock-up, suit and divers. @Image2 — `projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png`. Poolside: the same white EVA suit with its wearer standing on a steel lift platform hanging from a gantry crane, being lowered into the blue water; technicians in dark polo shirts at the railing. Controls the poolside and lowering rig. Описание для рисования лежит рядом: `projects/raznoe/references/scenes/scene-25/*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
+<figure><a href="projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png" alt="Сцена 25, @Image2: ЦПК: спуск скафандра в бассейн" loading="lazy"></a><figcaption>@Image2 — ЦПК: спуск скафандра в бассейн. Созданный концепт.</figcaption></figure>
 <figure><a href="projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png" alt="Сцена 25, @Image1: ЦПК: тренировка под водой в гидролаборатории" loading="lazy"></a><figcaption>@Image1 — ЦПК: тренировка под водой в гидролаборатории. Созданный концепт.</figcaption></figure>
 </div>
 
@@ -4826,7 +4827,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Финальный титр для монтажа:** «ЦПК. Открытый космос — на глубине.»
 
-**Готовность:** тексты промтов готовы 27.10.2026. Референсы не нарисованы — их рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json`. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
+**Готовность:** тексты промтов готовы 27.10.2026. Оба референса нарисованы открытым ChatGPT Work, сохранены в галерее и реестре; технически проверены. В очередь Topview не поставлено: проект на паузе по решению владельца, запуск — только по новой команде. Часть 2 Seedance требует последних 3 с настоящего результата части 1. Художественное одобрение не выставлено.
 
 **Режиссёрский контроль:** Всё время видно, что это бассейн: вода, пузыри, дно; один и тот же белый скафандр; водолазы рядом. Озвучка и точные титры — только при монтаже; встроенную речь не генерировать.
 
