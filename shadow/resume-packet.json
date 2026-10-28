@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T03:17:54+00:00",
-  "source_head": "d67e93d6ca9d1262d64aaddc3706aaed12e766a8",
-  "source_fingerprint": "70a75375e03ae97430e035698e76eb7a821923e93242a14ab8ee6af7e60c2f86",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-28T03:18:37+00:00",
+  "source_head": "7bf58b7ffb3d84a2fdb5c68d4a12b21cccd53ed7",
+  "source_fingerprint": "fa335dfc43f39b4b284fc137d8525ddaa54da5c3f4bcae538952aae694328aca",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-open-work-20261027-c8084d939274",
@@ -30,10 +30,7 @@
     },
     "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
@@ -402,7 +399,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "06208e7641001c9cc4a612eddb6f2724d8990da6f14ead8334af4f76de9f8f30",
+      "sha256": "7f0fcd10d7fd9e67164eaa31809d49288a30e199b991dd1513adeff35f8dbfa1",
       "bytes": 5141
     },
     {
@@ -422,8 +419,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "9db71c4a642198088fcb5a9c3e330902cdeab933955d0431afd18f7dd13ad7cd",
-      "bytes": 21258
+      "sha256": "b8d0c5dd1f31fa78ecb98859c2846d4dcf441bef89de402fb0a45689ddf76c8c",
+      "bytes": 21254
     },
     {
       "file": "reports/continue-multiproject-2026-10-27.json",
@@ -462,8 +459,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "701b71229e936e244b9d669bf9e13aa953f8987771e2c54f1a9cb636e368e1cf",
-      "bytes": 24043
+      "sha256": "b4eb75f7180c1a07e68d6226ecbbc0deb6a8cfc40c24cdc70ea05893320f5204",
+      "bytes": 24016
     },
     {
       "file": "video-prompts.md",
@@ -476,5 +473,5 @@
       "bytes": 71091
     }
   ],
-  "packet_bytes": 8190
+  "packet_bytes": 8209
 }
