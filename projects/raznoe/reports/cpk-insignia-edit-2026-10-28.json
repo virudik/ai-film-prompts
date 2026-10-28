@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "status": "completed",
+  "checked_at": "2026-10-28T12:55:17+00:00",
+  "source_commit": "14a439c5f614a5cbb35a9e7a3c9d782fd238fd0d",
+  "owner_scope": "Edit seven existing PNGs only; preserve people, faces, poses, lighting and background. No video launches or queue additions.",
+  "method": "Built-in imagegen existing-image edit; only approved local patch footprints composited onto original pixels. Official CPK/Roscosmos artwork substituted for ambiguous small AI lettering; wall/name text kept exact. Full generated frames were not used as replacements.",
+  "insignia_sources": [
+    "https://www.gctc.ru/media/images/news/2020/logo-gctc-..1..jpg",
+    "https://commons.wikimedia.org/wiki/File:Roscosmos_logo_ru.svg"
+  ],
+  "assets": [
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
+      "same_dimensions": true,
+      "width": 1672,
+      "height": 941,
+      "changed_pixels_outside_edit_mask": 0,
+      "face_regions_exactly_unchanged": true,
+      "edited_area_percent": 0.6761,
+      "source_sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+      "sha256": "326e35e896c731820d0e06ac8c49efae880083bc310e2dd7be0414eb1c72f49a"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png",
+      "same_dimensions": true,
+      "width": 1672,
+      "height": 941,
+      "changed_pixels_outside_edit_mask": 0,
+      "face_regions_exactly_unchanged": true,
+      "edited_area_percent": 0.1959,
+      "source_sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+      "sha256": "0d3f62742bd9abf8d03a9bedfda501eed85d164cacda5f5d54ca8ef77e3c4d20"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png",
+      "same_dimensions": true,
+      "width": 1672,
+      "height": 941,
+      "changed_pixels_outside_edit_mask": 0,
+      "face_regions_exactly_unchanged": true,
+      "edited_area_percent": 0.5038,
+      "source_sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
+      "sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png",
+      "same_dimensions": true,
+      "width": 1672,
+      "height": 941,
+      "changed_pixels_outside_edit_mask": 0,
+      "face_regions_exactly_unchanged": true,
+      "edited_area_percent": 0.9144,
+      "source_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
+      "sha256": "851f861b01da6647846938722ec93559cb0680004c6122ac198d9bf0ae6a91af"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-21/c21-centrifuge.png",
+      "same_dimensions": true,
+      "width": 1672,
+      "height": 941,
+      "changed_pixels_outside_edit_mask": 0,
+      "face_regions_exactly_unchanged": true,
+      "edited_area_percent": 0.7213,
+      "source_sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
+      "sha256": "7238e65404aa7672696df5f4a014110a06666e7e00acb2497364980ff5fc5ab8"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png",
+      "same_dimensions": true,
+      "width": 1672,
+      "height": 940,
+      "changed_pixels_outside_edit_mask": 0,
+      "face_regions_exactly_unchanged": true,
+      "edited_area_percent": 1.3679,
+      "source_sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+      "sha256": "9e258c66bdd247eda8888f3d5d3044394eb3930580c6b4d01aeb71f487ffc78e"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-23/c23-console.png",
+      "same_dimensions": true,
+      "width": 1672,
+      "height": 941,
+      "changed_pixels_outside_edit_mask": 0,
+      "face_regions_exactly_unchanged": true,
+      "edited_area_percent": 1.6279,
+      "source_sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
+      "sha256": "5f51f5b9d3f836c21bf8254e3e2276eeeb5e33eadd80b301d4cfd65b33355dbf"
+    }
+  ],
+  "required_markings": {
+    "c21-centrifuge": "На синем комбинезоне: эмблема Роскосмоса с надписью «РОСКОСМОС», флаг России, круглая официальная эмблема ЦПК им. Ю.А. Гагарина, бейдж «ИВАНОВ». На плече центрифуги — «ЦФ-18», без закрытия отверстий и деталей механизма. На стене — «ЦПК имени Ю.А. Гагарина».",
+    "c21-soyuz-sim": "На синем комбинезоне того же вымышленного слушателя: эмблема Роскосмоса с надписью «РОСКОСМОС», флаг России, круглая официальная эмблема ЦПК им. Ю.А. Гагарина, бейдж «ИВАНОВ».",
+    "c22-vr-stand": "У обоих слушателей на синих комбинезонах: эмблема Роскосмоса с надписью «РОСКОСМОС», флаг России, круглая официальная эмблема ЦПК им. Ю.А. Гагарина и бейдж. У седого слушателя — «ПЕТРОВ», у бородатого — «СМИРНОВ»; фамилии вымышленные. На левом рукаве стоящего справа скафандра «Орлан» — флаг России. На стене — баннер «ЦПК имени Ю.А. Гагарина» (допустим перенос строки).",
+    "c22-virtual-airlock": "На анатомически левом рукаве обоих скафандров «Орлан» — флаг России. Сохранить красные и синие полосы скафандров и все остальные детали.",
+    "c23-console": "У обоих слушателей на месте пустых кругов и прямоугольников и рядом: эмблема Роскосмоса с надписью «РОСКОСМОС», флаг России, круглая официальная эмблема ЦПК им. Ю.А. Гагарина, бейджи. У бритоголового — «СОКОЛОВ», у светловолосого — «КУЗНЕЦОВ»; фамилии вымышленные. Инструктора на заднем плане не менять.",
+    "c25-hydrolab-pool": "На анатомически левом рукаве скафандра «Орлан» — небольшой флаг России, с освещением и перспективой подводного кадра.",
+    "c25-suit-lowering": "На анатомически левом рукаве скафандра «Орлан» — флаг России. На футболках/поло обоих страхующих — небольшая нашивка «ЦПК». На стене зала — «Гидролаборатория ЦПК»."
+  },
+  "untouched_assets": [
+    {
+      "path": "projects/raznoe/references/scenes/scene-23/c23-era-arm.png",
+      "sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-24/c24-raft.png",
+      "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png",
+      "sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b"
+    }
+  ],
+  "queue_sha256_before_and_after": "beea0068588b5c091ba84d96b3548407ac368835f6fd6da53c35b2c2c8400f1d",
+  "project_pause_preserved": true,
+  "new_queue_items": 0,
+  "video_submissions": 0,
+  "editorial_approvals": 0,
+  "original_image_count": 10,
+  "replaced_existing_images": 7,
+  "new_scene_images": 0,
+  "verification": {
+    "all_pngs_decode": true,
+    "same_dimensions": true,
+    "all_pixels_outside_edit_masks_unchanged": true,
+    "protected_faces_unchanged": true,
+    "visual_review": "All seven edited results inspected; insignia placement, Cyrillic text, suit-side flags and hardware occlusion checked."
+  }
+}

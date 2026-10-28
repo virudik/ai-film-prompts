@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-27T18:50:26+00:00",
+  "updated_at": "2026-10-28T12:55:17+00:00",
   "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
@@ -973,13 +973,21 @@
           "created_at": "2026-10-27T18:15:19+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
+          "sha256": "7238e65404aa7672696df5f4a014110a06666e7e00acb2497364980ff5fc5ab8",
           "scenes": [
             21
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
+          }
         }
       ]
     },
@@ -1001,13 +1009,21 @@
           "created_at": "2026-10-27T18:24:17+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
+          "sha256": "851f861b01da6647846938722ec93559cb0680004c6122ac198d9bf0ae6a91af",
           "scenes": [
             21
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
+          }
         }
       ]
     },
@@ -1029,13 +1045,21 @@
           "created_at": "2026-10-27T18:26:42+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+          "sha256": "9e258c66bdd247eda8888f3d5d3044394eb3930580c6b4d01aeb71f487ffc78e",
           "scenes": [
             22
           ],
           "width": 1672,
           "height": 940,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
+          }
         }
       ]
     },
@@ -1057,13 +1081,21 @@
           "created_at": "2026-10-27T18:29:05+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+          "sha256": "326e35e896c731820d0e06ac8c49efae880083bc310e2dd7be0414eb1c72f49a",
           "scenes": [
             22
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
+          }
         }
       ]
     },
@@ -1085,13 +1117,21 @@
           "created_at": "2026-10-27T18:31:57+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
+          "sha256": "5f51f5b9d3f836c21bf8254e3e2276eeeb5e33eadd80b301d4cfd65b33355dbf",
           "scenes": [
             23
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
+          }
         }
       ]
     },
@@ -1197,13 +1237,21 @@
           "created_at": "2026-10-27T18:44:37+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+          "sha256": "0d3f62742bd9abf8d03a9bedfda501eed85d164cacda5f5d54ca8ef77e3c4d20",
           "scenes": [
             25
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
+          }
         }
       ]
     },
@@ -1225,13 +1273,21 @@
           "created_at": "2026-10-27T18:50:26+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
+          "sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859",
           "scenes": [
             25
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
+          }
         }
       ]
     }

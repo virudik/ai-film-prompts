@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt",
-  "task": "Open Work beb26cfe80f8: publish seven verified CPK insignia edits; project paused",
-  "acquired_at": "2026-10-28T14:27:34.111Z",
-  "expires_at": "2026-10-28T15:12:34.111Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-28T14:28:05.167Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
