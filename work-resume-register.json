@@ -6,8 +6,8 @@
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "relay_preflight_in_progress",
-      "updated_at": "2026-10-28T06:45:32Z",
+      "status": "all_slots_occupied_after_S52_R2_P1",
+      "updated_at": "2026-10-28T06:55:12.326724Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -20,7 +20,7 @@
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch.",
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun."
       ],
-      "next_action": "Prepare and verify S52-R2-SEED20-P1 Unlimited0 form; fresh full scan/queue/lock then CAS claim and one Create, followed by verified receipt.",
+      "next_action": "All physical slots occupied. Existing event/hourly handler rechecks fresh owner decisions/queue/all slots; prepare genuine P1 end only after task success and QC, never repeat Create.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -77,48 +77,109 @@
         "result": "Fixed by canonical archival cleanup in dff803dab9a3530395f39a47366e324f0757483a; subsequent Canon health runs 40557591418 and 40557946645 succeeded. Old warning runs were not rerun."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-27T18:12:14Z",
-        "method": "Topview connector full 13-board/17-page video scan plus authenticated live UI confirmation",
+        "checked_at": "2026-10-28T06:52:46Z",
         "boards": 13,
-        "pages": 17,
-        "video_tasks": 614,
+        "pages": 19,
+        "total_tasks": 938,
         "complete": true,
         "occupied_slots": 6,
-        "free_slots": 0,
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "board_name": "My First Board",
-        "board_video_counts": [
-          16,
-          0,
-          0,
-          11,
-          0,
-          32,
-          5,
-          0,
-          35,
-          8,
-          22,
-          34,
-          451
-        ],
         "active_task_ids": [
+          "c65c30d8cbe14e9eadec886276e62471",
           "8d7ff1e2de63478693778de29e0dd56e",
           "4a1061e175054da2810ffef8ad9d31cd",
           "b15165813c0848939edbe8b3d3aed182",
           "8b6a8ce102ea416e88d3c14fa558c513",
-          "8a8eadc809004e318c47201b8a463be0",
-          "4b7b972870a44dfbb29bd6c5e330a633"
+          "8a8eadc809004e318c47201b8a463be0"
         ],
-        "new_submissions": 0,
-        "credits_spent": 0
+        "method": "read-only connector full all-board/all-page scan plus authenticated UI detail",
+        "free_slots": 0
       },
       "last_relay_event": {
         "event_id": "slots:6bc77dbe:2",
         "issue_number": 98,
-        "checked_at": "2026-10-28T06:45:32Z",
-        "outcome": "preflight_in_progress",
-        "new_submissions": 0
+        "message_id": "241086217913708544",
+        "relay_event_id": "evt_f13e3ede48ff522e40db68a9d7ed7585",
+        "checked_at": "2026-10-28T06:55:12.326724Z",
+        "outcome": "submitted",
+        "reason": "Verified trusted robot and bot issue98; complete 13-board/19-page scan found 5 active tasks. Minimum ready authorized priority0 S52-R2-SEED20-P1 passed full prompt/input/QC/owner/Unlimited0 preflight and CAS claim, then one website Create produced verified task. Complete post-scan confirmed6/6 occupied.",
+        "task_ids": [
+          "c65c30d8cbe14e9eadec886276e62471"
+        ],
+        "retryable": false,
+        "new_submissions": 1,
+        "credits_spent": 0,
+        "item_ids": [
+          "S52-R2-SEED20-P1"
+        ],
+        "actual_sender": "topview-robot",
+        "actual_sender_agent_id": "240204876611608576",
+        "verified_sender_address": "topview-robot@direct",
+        "target_inbox": "chatgpt@cloud-239644772681871360",
+        "observed_at": "2026-10-28T06:30:20Z",
+        "message_created_at": "2026-10-28T06:30:33Z",
+        "webhook_received_at": "2026-10-28T06:36:30.609Z",
+        "run_started_at": "2026-10-28T06:36:38Z",
+        "run_id": null,
+        "run_id_unavailable_reason": "Automation runtime did not expose the actual run ID. Local claim identifier is not presented as runtime identity.",
+        "source": "Agent Relay webhook",
+        "runner": "chatgpt_event_trigger",
+        "lock_outcome": "own_lock_acquired_separate_CAS_released_in_final_receipt_commit",
+        "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+        "claim_id": "chatgpt-scheduled-event-evt_f13e3ede48ff522e40db68a9d7ed7585-S52-R2-P1",
+        "preflight_scan": {
+          "checked_at": "2026-10-28T06:50:06Z",
+          "boards": 13,
+          "pages": 19,
+          "total_tasks": 937,
+          "complete": true,
+          "active": [
+            {
+              "id": "8d7ff1e2de63478693778de29e0dd56e",
+              "status": "init",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+            },
+            {
+              "id": "4a1061e175054da2810ffef8ad9d31cd",
+              "status": "init",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+            },
+            {
+              "id": "b15165813c0848939edbe8b3d3aed182",
+              "status": "init",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+            },
+            {
+              "id": "8b6a8ce102ea416e88d3c14fa558c513",
+              "status": "init",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+            },
+            {
+              "id": "8a8eadc809004e318c47201b8a463be0",
+              "status": "init",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+            }
+          ],
+          "method": "read-only Topview connector full all-board/all-page scan; authenticated website form"
+        },
+        "post_submit_scan": {
+          "checked_at": "2026-10-28T06:52:46Z",
+          "boards": 13,
+          "pages": 19,
+          "total_tasks": 938,
+          "complete": true,
+          "occupied_slots": 6,
+          "active_task_ids": [
+            "c65c30d8cbe14e9eadec886276e62471",
+            "8d7ff1e2de63478693778de29e0dd56e",
+            "4a1061e175054da2810ffef8ad9d31cd",
+            "b15165813c0848939edbe8b3d3aed182",
+            "8b6a8ce102ea416e88d3c14fa558c513",
+            "8a8eadc809004e318c47201b8a463be0"
+          ],
+          "method": "read-only connector full all-board/all-page scan plus authenticated UI detail",
+          "free_slots": 0
+        },
+        "next_action": "All physical slots occupied. Existing event/hourly handler rechecks fresh owner decisions/queue/all slots; prepare genuine P1 end only after task success and QC, never repeat Create."
       },
       "last_observed_topview": {
         "checked_at": "2026-10-27T06:16:16Z",
@@ -135,7 +196,14 @@
       },
       "done": [
         "2026-10-27T06:16:16Z: S48-P1 submitted exactly once via authenticated Topview website, task 8d7ff1e2de63478693778de29e0dd56e; Seedance2.0/15s/720p/16:9/qty1/6 images/Unlimited0, exact prompt and input order/hash verified. Six active video slots after submit; no repeat or editorial approval."
-      ]
+      ],
+      "last_submission": {
+        "item_id": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "submitted_at": "2026-10-28T06:51:02Z",
+        "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+        "credits": 0
+      }
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
@@ -206,7 +274,7 @@
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
       "updated_at": "2026-10-27T22:30:37+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
+      "next_action": "S52-R2-P1 submitted as c65c30d8cbe14e9eadec886276e62471; wait for exact result, archive/QC and prepare genuine end for R2P2. Continue common authorized queue after fresh all-board scan; six physical slots currently occupied. Do not repeat existing tasks.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -281,7 +349,15 @@
           ],
           "blockers": []
         }
-      ]
+      ],
+      "last_verified_submission": {
+        "item_id": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "submitted_at": "2026-10-28T06:51:02Z",
+        "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+        "credits": 0
+      },
+      "verified_at": "2026-10-28T06:55:12.326724Z"
     },
     {
       "work_id": "CONTINUE-001",

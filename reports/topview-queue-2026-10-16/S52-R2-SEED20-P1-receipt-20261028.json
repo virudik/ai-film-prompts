@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "item_id": "S52-R2-SEED20-P1",
+  "scene_id": 52,
+  "task_id": "c65c30d8cbe14e9eadec886276e62471",
+  "status": "submitted",
+  "submitted_at": "2026-10-28T06:51:02Z",
+  "verified_at": "2026-10-28T06:52:46Z",
+  "route": "authenticated_topview_website_omni_reference",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "board_name": "My First Board",
+  "new_submissions": 1,
+  "create_clicks": 1,
+  "event_id": "slots:6bc77dbe:2",
+  "run_id": null,
+  "run_id_unavailable_reason": "Runtime did not expose an automation run ID; local claim ID is recorded separately.",
+  "local_claim_id": "chatgpt-scheduled-event-evt_f13e3ede48ff522e40db68a9d7ed7585-S52-R2-P1",
+  "claim_commit": "8b4ed842ad2513f848c8ad2deaf6482560e62a40",
+  "canonical_block_label": "52 · Seedance 2.0 часть 1",
+  "canonical_prompt_sha256": "df7801b482ac0ceecdf228d7dbc5d20db76a41dad78523fd455f9cfaa8988ba5",
+  "normalized_prompt_sha256": "7883cd39a373778088f479ee2099ed6e4437fe79ffc7233690f9b35af25d4880",
+  "full_prompt_normalized_match": true,
+  "inputs_sha256_verified": true,
+  "references": [
+    {
+      "slot": "@Video1",
+      "path": "references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4",
+      "sha256": "67d37583c8c7bd0d1d903a15639d4f032e9e047babbf833353e2ef88a621c04a",
+      "bytes": 1026899,
+      "duration_seconds": 3,
+      "fps": 24,
+      "frames": 72,
+      "source_start_frame_zero_based": 649,
+      "source_end_frame_exclusive": 721,
+      "source_start_seconds": 27.041666666666668,
+      "source_end_seconds": 30.041666666666668,
+      "derivation": "ffmpeg trim by video frames 649:721; setpts; matching audio atrim; H264 CRF16/AAC192k. Actual result footage, not a synthetic recreation.",
+      "required": true,
+      "input_status": "available",
+      "canonical_role": "selected_existing_S44_Seedance25_end",
+      "source_task_id": "3c01baad89544304aaa803725f6aae4b",
+      "source_model": "Seedance 2.5",
+      "source_original_sha256": "8e6f3045c2f27ad290d8deeb0d93ab8ceae3154ee5b43337681d4aa8e5373f29",
+      "qc_report": "reports/scene52-rebuild-2026-10-27.json"
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available",
+      "canonical_role": "exact Serega identity, face, proportions and costume"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+      "required": true,
+      "input_status": "available",
+      "canonical_role": "absolute personal-craft design; ignore its old city background"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-52/S52-P1-boarding.jpg",
+      "sha256": "74ca7081d56feb13bef53267533cf93c3cbb83732161ae9ceb7cec959555b321",
+      "required": true,
+      "input_status": "available",
+      "canonical_role": "synthetic action/composition helper for this part; not an actual video start or identity source"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+      "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+      "required": true,
+      "input_status": "available",
+      "canonical_role": "empty cockpit geometry and seats; only Serega occupies the left pilot seat"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+      "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+      "required": true,
+      "input_status": "available",
+      "canonical_role": "ONLY the yellow note design and position: black loaf at left, milk carton at right, on the blank panel to the pilot RIGHT; ignore its Naboo scenery and depicted pose"
+    }
+  ],
+  "actual_input_paths": {
+    "images": [
+      {
+        "name": "Image1",
+        "path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/bhOnGO7bVG9W7oAZ91yLh.jpg"
+      },
+      {
+        "name": "Image2",
+        "path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/OZAsyhCmoZnIG4o5QzbwZ.png"
+      },
+      {
+        "name": "Image3",
+        "path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/HDGDrrdl6RYAg3BsId9MF.jpg"
+      },
+      {
+        "name": "Image4",
+        "path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/RdkXa7LDcGmvTf3TqVYrQ.png"
+      },
+      {
+        "name": "Image5",
+        "path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/SDRJZeCbbSN320ia4Woyu.png"
+      }
+    ],
+    "videos": [
+      {
+        "name": "Video1",
+        "path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/aDLDXJuJMdIeduiyZTPrT.mp4",
+        "duration": 3
+      }
+    ]
+  },
+  "actual_parameters": {
+    "model_id": "seedance-2.0-style",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "creditsCost": 0,
+    "sound": "on",
+    "image_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5"
+    ],
+    "video_names": [
+      "Video1"
+    ],
+    "video_duration": 3
+  },
+  "preflight_scan": {
+    "checked_at": "2026-10-28T06:50:06Z",
+    "boards": 13,
+    "pages": 19,
+    "total_tasks": 937,
+    "complete": true,
+    "active": [
+      {
+        "id": "8d7ff1e2de63478693778de29e0dd56e",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "4a1061e175054da2810ffef8ad9d31cd",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "b15165813c0848939edbe8b3d3aed182",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "8b6a8ce102ea416e88d3c14fa558c513",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "8a8eadc809004e318c47201b8a463be0",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      }
+    ],
+    "method": "read-only Topview connector full all-board/all-page scan; authenticated website form"
+  },
+  "post_submit_scan": {
+    "checked_at": "2026-10-28T06:52:46Z",
+    "boards": 13,
+    "pages": 19,
+    "total_tasks": 938,
+    "complete": true,
+    "occupied_slots": 6,
+    "active_task_ids": [
+      "c65c30d8cbe14e9eadec886276e62471",
+      "8d7ff1e2de63478693778de29e0dd56e",
+      "4a1061e175054da2810ffef8ad9d31cd",
+      "b15165813c0848939edbe8b3d3aed182",
+      "8b6a8ce102ea416e88d3c14fa558c513",
+      "8a8eadc809004e318c47201b8a463be0"
+    ],
+    "method": "read-only connector full all-board/all-page scan plus authenticated UI detail",
+    "free_slots": 0
+  },
+  "ui_proof": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-ui-20261028.jpg",
+  "ui_proof_sha256": "48e9e01022373ffa7d74f193912720715cdda96fd7c8862c4e6877b8d2458221",
+  "artistic_acceptance": false,
+  "source": "Agent Relay webhook",
+  "runner": "chatgpt_event_trigger",
+  "next_action": "Wait for this exact task to finish, archive original and perform actual continuity/QC before S52-R2-P2. Never resubmit this item."
+}

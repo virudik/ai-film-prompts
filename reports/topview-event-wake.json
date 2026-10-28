@@ -138,6 +138,93 @@
         "credits_spent": 0
       },
       "checked_at": "2026-10-27T06:26:53Z"
+    },
+    {
+      "event_id": "slots:6bc77dbe:2",
+      "issue_number": 98,
+      "message_id": "241086217913708544",
+      "relay_event_id": "evt_f13e3ede48ff522e40db68a9d7ed7585",
+      "checked_at": "2026-10-28T06:55:12.326724Z",
+      "outcome": "submitted",
+      "reason": "Verified trusted robot and bot issue98; complete 13-board/19-page scan found 5 active tasks. Minimum ready authorized priority0 S52-R2-SEED20-P1 passed full prompt/input/QC/owner/Unlimited0 preflight and CAS claim, then one website Create produced verified task. Complete post-scan confirmed6/6 occupied.",
+      "task_ids": [
+        "c65c30d8cbe14e9eadec886276e62471"
+      ],
+      "retryable": false,
+      "new_submissions": 1,
+      "credits_spent": 0,
+      "item_ids": [
+        "S52-R2-SEED20-P1"
+      ],
+      "actual_sender": "topview-robot",
+      "actual_sender_agent_id": "240204876611608576",
+      "verified_sender_address": "topview-robot@direct",
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "observed_at": "2026-10-28T06:30:20Z",
+      "message_created_at": "2026-10-28T06:30:33Z",
+      "webhook_received_at": "2026-10-28T06:36:30.609Z",
+      "run_started_at": "2026-10-28T06:36:38Z",
+      "run_id": null,
+      "run_id_unavailable_reason": "Automation runtime did not expose the actual run ID. Local claim identifier is not presented as runtime identity.",
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "lock_outcome": "own_lock_acquired_separate_CAS_released_in_final_receipt_commit",
+      "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+      "claim_id": "chatgpt-scheduled-event-evt_f13e3ede48ff522e40db68a9d7ed7585-S52-R2-P1",
+      "preflight_scan": {
+        "checked_at": "2026-10-28T06:50:06Z",
+        "boards": 13,
+        "pages": 19,
+        "total_tasks": 937,
+        "complete": true,
+        "active": [
+          {
+            "id": "8d7ff1e2de63478693778de29e0dd56e",
+            "status": "init",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "id": "4a1061e175054da2810ffef8ad9d31cd",
+            "status": "init",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "id": "b15165813c0848939edbe8b3d3aed182",
+            "status": "init",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "id": "8b6a8ce102ea416e88d3c14fa558c513",
+            "status": "init",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "id": "8a8eadc809004e318c47201b8a463be0",
+            "status": "init",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          }
+        ],
+        "method": "read-only Topview connector full all-board/all-page scan; authenticated website form"
+      },
+      "post_submit_scan": {
+        "checked_at": "2026-10-28T06:52:46Z",
+        "boards": 13,
+        "pages": 19,
+        "total_tasks": 938,
+        "complete": true,
+        "occupied_slots": 6,
+        "active_task_ids": [
+          "c65c30d8cbe14e9eadec886276e62471",
+          "8d7ff1e2de63478693778de29e0dd56e",
+          "4a1061e175054da2810ffef8ad9d31cd",
+          "b15165813c0848939edbe8b3d3aed182",
+          "8b6a8ce102ea416e88d3c14fa558c513",
+          "8a8eadc809004e318c47201b8a463be0"
+        ],
+        "method": "read-only connector full all-board/all-page scan plus authenticated UI detail",
+        "free_slots": 0
+      },
+      "next_action": "All physical slots occupied. Existing event/hourly handler rechecks fresh owner decisions/queue/all slots; prepare genuine P1 end only after task success and QC, never repeat Create."
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
