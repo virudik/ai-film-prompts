@@ -65,12 +65,56 @@
       ],
       "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
       "usage": "location_and_staging_reference"
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "asset_id": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "caption": "Татуинская связка 6/7 · @Image1: Exact Serega identity and costume",
+      "role": "Exact Serega identity and costume",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1536,
+        857
+      ],
+      "bytes": 155182
+    },
+    {
+      "path": "references/scenes/scene-65/S65-bar-table.png",
+      "asset_id": "references/scenes/scene-65/S65-bar-table.png",
+      "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+      "caption": "Татуинская связка 6/7 · @Image3: Cantina interior and fixed five-person seating; identity sheet wins",
+      "role": "Cantina interior and fixed five-person seating; identity sheet wins",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-65/S65-bar-table.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2250737
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T02:36:58.702Z",
+  "updated_at": "2026-10-28T03:04:40.753Z",
   "prompt_reference_mapping": [
     {
       "label": "70",
@@ -203,5 +247,22 @@
     "references/scenes/scene-70/S70-cantina-entrance.png",
     "references/scenes/scene-65/S65-bar-table.png"
   ],
-  "last_qc_at": "2026-10-27T23:08:31Z"
+  "last_qc_at": "2026-10-27T23:08:31Z",
+  "story_chain": {
+    "title": "Татуинская связка",
+    "step": 6,
+    "total": 7,
+    "montage_order": [
+      52,
+      66,
+      67,
+      68,
+      69,
+      70,
+      65
+    ],
+    "part": null,
+    "selected_model": "Wan 3.0",
+    "selected_prompt_id": "S70-WAN30"
+  }
 }
