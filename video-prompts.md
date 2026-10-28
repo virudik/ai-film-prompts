@@ -8054,7 +8054,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 ## Сцена 68 — Татуинская связка 4/7 · «ГБУ Жилищник района Татуина» метёт улицу световыми мётлами
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":67}],"tags":["tatooine","street","visual_comedy","owner_requested","chain_52_66_67"]} -->
-**🎬 Татуинская связка — 4/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S68-WAN30; @Video1 — настоящий финал предыдущего звена (до его готовности запуск заблокирован). **Кликабельные референсы:** [@Image1 — бригада](references/scenes/scene-68/S68-sweepers-crew.png) · [@Image2 — световые метлы](references/scenes/scene-68/S68-light-broom.png) · [@Image3 — Стич и улица](references/scenes/scene-66/S66-street-outrage.png) · [@Image4 — Маша](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · [@Image5 — лазерный совок](references/scenes/scene-69/S69-light-dustpan.png). Изображения не заменяют настоящий видеостык.
+**🎬 Татуинская связка — 4/7.** [52 ч.7 · 1/7](#tatooine-chain-start) → [66 · 2/7](#scene-66) → [67 · 3/7](#scene-67) → [68 · 4/7](#scene-68) → [69 · 5/7](#scene-69) → [70 · 6/7](#scene-70) → [65 · 7/7](#scene-65). **Выбранный запуск:** Wan 3.0, 30 с, S68-WAN30; @Video1 — настоящий финал предыдущего звена (до его готовности запуск заблокирован). **Кликабельные референсы:** [@Image1 — бригада](references/scenes/scene-68/S68-sweepers-crew.png) · [@Image2 — световые метлы](references/scenes/scene-68/S68-light-broom.png) · [@Image3 — Стич и улица](references/scenes/scene-66/S66-street-outrage.png) · [@Image4 — Маша](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · [@Image5 — лазерный совок](references/scenes/scene-69/S69-light-dustpan.png) · [@Image6 — композиция: обметают кучку стороной](references/scenes/scene-68/S68-crew-sweeping-street.png). Изображения не заменяют настоящий видеостык.
 
 **Контекст использования:** владелец 27.10.2026. **Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65, бесшовно:** начинается с настоящих последних 3 с сцены 67 (продавец встречает следующего покупателя), кончается тем, что девушка из 67 замечает бригаду и идёт к ней; 69 продолжает с этого кадра.
 
@@ -8062,11 +8062,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** DRAFT. Главная версия — Wan3.0,30с. Изображения и их роли закреплены в манифесте; запуск ждёт настоящие последние3с результата67 и QC стыка. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 идёт до музыкальных и танцевальных номеров49–51/28 по приоритету; правило следующей фактически готовой сцены сохраняется. В68 совок только стоит выключенным; в69 вся уборка идёт в него. Новые видеозапуски и художественная приёмка этой правкой не выполняются.
 
-**Референсы:** @Video1 — последние 3 с 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image5 — `references/scenes/scene-69/S69-light-dustpan.png` (лазерный совок, пока выключен и стоит у ног четырёхглазого).
+**Референсы:** @Video1 — последние 3 с 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать из настоящего результата); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png` (Бригада «ГБУ Жилищник района Татуина»: трое инопланетян в форме); @Image2 — `references/scenes/scene-68/S68-light-broom.png` (Световая метла: реквизит); @Image3 — `references/scenes/scene-66/S66-street-outrage.png` (Та же улица Татуина (из 66)); @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png` (Маша Р (девушка из 67): развёртка в одежде Татуина); @Image5 — `references/scenes/scene-69/S69-light-dustpan.png` (лазерный совок, пока выключен и стоит у ног четырёхглазого); @Image6 — `references/scenes/scene-68/S68-crew-sweeping-street.png` (композиция: обметают кучку стороной).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-69/S69-light-dustpan.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp" alt="Лазерный совок: в 68 лежит выключенным рядом с четырёхглазым" loading="lazy"></a><figcaption>@Image5 — Лазерный совок: в 68 лежит выключенным рядом с четырёхглазым</figcaption></figure>
-<figure><a href="references/scenes/scene-68/S68-crew-sweeping-street.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp" alt="Жилищник обметает кучку; Маша подходит с дыней и сумкой" loading="lazy"></a><figcaption>Композиция сцены, дополнительный образец — Жилищник обметает кучку; Маша подходит с дыней и сумкой</figcaption></figure>
+<figure><a href="references/scenes/scene-68/S68-crew-sweeping-street.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp" alt="Жилищник обметает кучку; Маша подходит с дыней и сумкой" loading="lazy"></a><figcaption>@Image6 — композиция: Жилищник обметает кучку; время появления Маши задаёт промпт</figcaption></figure>
 <figure><a href="references/scenes/scene-68/S68-light-broom.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-light-broom.png.webp" alt="Световая метла: чёрная рукоять и голубые энергетические прутья" loading="lazy"></a><figcaption>@Image2 — Световая метла: реквизит</figcaption></figure>
 <figure><a href="references/scenes/scene-68/S68-sweepers-crew.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp" alt="Бригада ГБУ Жилищник района Татуина" loading="lazy"></a><figcaption>@Image1 — Бригада «ГБУ Жилищник района Татуина»: трое инопланетян</figcaption></figure>
 <figure><a href="references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp" alt="Маша Р (девушка из 67): развёртка в одежде Татуина"></a><figcaption>@Image4 — Маша Р: развёртка в одежде Татуина</figcaption></figure>
@@ -8081,7 +8081,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
 
-**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-68/S68-crew-sweeping-street.png` (композиция: обметают кучку стороной).
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8094,6 +8094,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, Masha R of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — shared spatial composition: the three workers sweep AROUND the small untouched pile; the unused dustpan is beside the purple worker. Use relative positions, scale and the clear ring around the pile. Individual references @Image1, @Image2, @Image4 and @Image5 control identities and prop designs. This is NOT the opening frame: @Video1 controls the continuous start, and this part's timeline controls motion, broom ignition and Masha's entrance. Keep the dustpan OFF throughout. Do not freeze the illustrated poses or introduce Masha early. File: references/scenes/scene-68/S68-crew-sweeping-street.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -8144,7 +8145,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 68 · Seedance 2.0 часть 1
 
-**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`.
+**Входы:** @Video1 — последние 3 с настоящего результата 67 (`references/scenes/scene-67/S67-last3s.mp4`, вырезать при запуске); @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-68/S68-crew-sweeping-street.png` (композиция: обметают кучку стороной).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8157,6 +8158,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, Masha R of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — shared spatial composition: the three workers sweep AROUND the small untouched pile; the unused dustpan is beside the purple worker. Use relative positions, scale and the clear ring around the pile. Individual references @Image1, @Image2, @Image4 and @Image5 control identities and prop designs. This is NOT the opening frame: @Video1 controls the continuous start, and this part's timeline controls motion, broom ignition and Masha's entrance. Keep the dustpan OFF throughout. Do not freeze the illustrated poses or introduce Masha early. File: references/scenes/scene-68/S68-crew-sweeping-street.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -8199,7 +8201,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 68 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/scenes/scene-68/S68-sweepers-crew.png`; @Image2 — `references/scenes/scene-68/S68-light-broom.png`; @Image3 — `references/scenes/scene-66/S66-street-outrage.png`; @Image4 — `references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png`; @Image5 — `references/scenes/scene-69/S69-light-dustpan.png`; @Image6 — `references/scenes/scene-68/S68-crew-sweeping-street.png` (композиция: обметают кучку стороной).
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -8212,6 +8214,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, Masha R of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
+@Image6 — shared spatial composition: the three workers sweep AROUND the small untouched pile; the unused dustpan is beside the purple worker. Use relative positions, scale and the clear ring around the pile. Individual references @Image1, @Image2, @Image4 and @Image5 control identities and prop designs. This is NOT the opening frame: @Video1 controls the continuous start, and this part's timeline controls motion, broom ignition and Masha's entrance. Keep the dustpan OFF throughout. Do not freeze the illustrated poses or introduce Masha early. File: references/scenes/scene-68/S68-crew-sweeping-street.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:

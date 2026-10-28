@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T16:06:10+00:00",
+  "last_updated_at": "2026-10-28T16:33:21+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "stitch_image_1_rejected_unlimit_capacity",
-      "updated_at": "2026-10-28T16:06:10+00:00",
+      "status": "optional_stitch_batch_waiting_for_capacity",
+      "updated_at": "2026-10-28T16:33:21+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -23,7 +23,7 @@
         "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted.",
         "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry."
       ],
-      "next_action": "At each fresh cycle re-scan actual global Topview capacity. Do not retry S66-STITCH-NB-IMAGE-1 without new explicit owner authorization. When Unlimited capacity is genuinely available, choose the next ready allowed item by live priority (currently S66-STITCH-NB-IMAGE-2 before -3), with its own exact prompt/SHA/three inputs/CAS claim and one free website attempt. Keep 6 submitted videos under observation; Roscosmos remains paused.",
+      "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -246,6 +246,36 @@
         "new_task_found": false,
         "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261028T160610Z-rejected.json",
         "retryable": false
+      },
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-28T16:33:21+00:00",
+        "last_completed": "Возвращён @Image6 в три промпта68, manifest, registry, галерею и очередь; SHA сверены, PNG не менялись. Подтверждены три необязательные прогулки Стича и одна новая попытка IMAGE-1 после отказа; 6 видео активны, новых запусков нет.",
+        "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# Сцена 68: шесть входов; Стич: необязательная пробная тройка · 28.10.2026",
+          "sha256": "bcd7c64647f69cf780fb4a3c2db05b9bd544d1d7efd1b4fae17e87eb5f4bd79f"
+        },
+        "evidence": [
+          {
+            "file": "reports/s68-composition-and-stitch-policy-2026-10-28.json",
+            "sha256": "84ad5489bae062492e16f7fbee3b9c42fca5db536898d1461b1be0bfce49b723"
+          },
+          {
+            "file": "ops/topview-launch-queue.json",
+            "sha256": "f35e442c36c002a20773dcf158052bda999a89736973502a0c729e5d820ad0cd"
+          },
+          {
+            "file": "references/scenes/scene-68/manifest.json",
+            "sha256": "1c7919df3399f78ef6e2ca2e1ca0a8eb82ce2b83dea42cdc55229fb80bb4e943"
+          }
+        ],
+        "read_next": [
+          "ops/TOPVIEW-FREE-LAUNCH.md",
+          "ops/CONTINUE-PROTOCOL.md"
+        ],
+        "blockers": []
       }
     },
     {
@@ -285,7 +315,7 @@
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-      "status": "stitch_image_trio_first_waiting_for_slot",
+      "status": "optional_stitch_batch_waiting_for_capacity",
       "canonical_refs": [
         "ops/topview-launch-queue.json",
         "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
@@ -315,9 +345,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-28T15:07:16+00:00",
+      "updated_at": "2026-10-28T16:33:21+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Сначала при свободном слоте S66-STITCH-NB-IMAGE-1 → -2 → -3: три отдельные Nano Banana Pro/2K/16:9 картинки прогулки Алины и Даши со Стичем. Только сайт Unlimited0, точные prompt_source_path/SHA/3 входа, CAS claim и readback; свежий скан после каждой отправки. При заполненных слотах ждать существующий Relay/часовой цикл, не повторять готовые картинки 68–69. Затем продолжать прежнюю разрешённую видеоочередь; Роскосмос на паузе.",
+      "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -327,28 +357,31 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-28T15:07:16+00:00",
-        "last_completed": "Проверены готовые 5 референсов, исправлено gallery-only назначение 68, тост синхронизирован, три прогулки Стича поставлены первыми; 6/6 слотов занято, запусков нет.",
-        "next_action": "Сначала при свободном слоте S66-STITCH-NB-IMAGE-1 → -2 → -3: три отдельные Nano Banana Pro/2K/16:9 картинки прогулки Алины и Даши со Стичем. Только сайт Unlimited0, точные prompt_source_path/SHA/3 входа, CAS claim и readback; свежий скан после каждой отправки. При заполненных слотах ждать существующий Relay/часовой цикл, не повторять готовые картинки 68–69. Затем продолжать прежнюю разрешённую видеоочередь; Роскосмос на паузе.",
+        "verified_at": "2026-10-28T16:33:21+00:00",
+        "last_completed": "Возвращён @Image6 в три промпта68, manifest, registry, галерею и очередь; SHA сверены, PNG не менялись. Подтверждены три необязательные прогулки Стича и одна новая попытка IMAGE-1 после отказа; 6 видео активны, новых запусков нет.",
+        "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Татуинская связка — проверка готового и очередь прогулок Стича · 28.10.2026",
-          "sha256": "71a24c9791ab904f6b5bb20f6d1e33d250ec918a35d4979072f6c784921b8e2f"
+          "anchor": "# Сцена 68: шесть входов; Стич: необязательная пробная тройка · 28.10.2026",
+          "sha256": "bcd7c64647f69cf780fb4a3c2db05b9bd544d1d7efd1b4fae17e87eb5f4bd79f"
         },
         "evidence": [
           {
-            "file": "reports/s68-69-followup-2026-10-28.json",
-            "sha256": "c81df82b8c63e82edb030dcc3d0ea8b2518d992d6fb20424fe55d6faae982577"
+            "file": "reports/s68-composition-and-stitch-policy-2026-10-28.json",
+            "sha256": "84ad5489bae062492e16f7fbee3b9c42fca5db536898d1461b1be0bfce49b723"
           },
           {
             "file": "ops/topview-launch-queue.json",
-            "sha256": "834a688ddb87b6a052a5213267750c86fa7a7a41073abfb65fbde8e78c8f77e3"
+            "sha256": "f35e442c36c002a20773dcf158052bda999a89736973502a0c729e5d820ad0cd"
+          },
+          {
+            "file": "references/scenes/scene-68/manifest.json",
+            "sha256": "1c7919df3399f78ef6e2ca2e1ca0a8eb82ce2b83dea42cdc55229fb80bb4e943"
           }
         ],
         "read_next": [
           "ops/TOPVIEW-FREE-LAUNCH.md",
-          "ops/topview-launch-queue.json",
-          "references/scenes/scene-66/manifest.json"
+          "ops/CONTINUE-PROTOCOL.md"
         ],
         "blockers": []
       },
@@ -1120,7 +1153,7 @@
   "resume_focus": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-28T15:07:16+00:00",
+    "set_at": "2026-10-28T16:33:21+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

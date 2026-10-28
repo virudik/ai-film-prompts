@@ -3720,6 +3720,122 @@
         "needed": "New start-frame image: crashed RosKOTmos ship in that avenue (S58-WRECK-IMAGE), after S57-AVENUE-IMAGE",
         "action": "ChatGPT draws it free from references/scenes/scene-58/S58-wreck-image-prompt.txt with the first ship image and the saved avenue; QC, save references/scenes/scene-58/S58-wreck-start.png, update manifest and S58 items before READY."
       }
-    ]
+    ],
+    "S66_STITCH_IMAGE_1_rejected_20261028": {
+      "id": "S66-STITCH-NB-IMAGE-1",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-1",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-front.image-prompt.txt",
+      "prompt_source": "UTF-8 full file, strip final newline only",
+      "canonical_prompt_sha256": "1aa2d5e5732693ea85414d42910b3cdc51f6f358f68ed2d90d023e255e045584",
+      "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
+      "prompt_file_sha256": "e43b596707deb9d550591469b24809157148917abceec8d0eeb1723f30c857dc",
+      "priority": -3,
+      "state": "blocked_capacity",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 0,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner 28Oct2026 in open Work: put Stitch first; use Topview Nano Banana for several consecutive images of Alina and Dasha walking him on a leash in Tatooine streets. Three distinct stills, one free Unlimited0 website attempt each; no paid route, model substitution or retry. This is separate from the already-done Work-only S68/S69 drawing task.",
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
+      "on_success": "Save the original with task ID, SHA256 and visual QC in scene66 manifest/character registry/gallery as an additional walking composition; do not overwrite existing refs, add to video inputs or grant owner approval. Fresh slot scan after every submit; continue next image in this trio while capacity permits. Unknown submission must be reconciled before any new click.",
+      "blocker": "2026-10-28T16:06:10Z: Topview rejected the single Unlimited0 Create click with “You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.” Credit mode is forbidden; post-click read-only board scan found no new task and no task_id.",
+      "attempts_used": 1,
+      "retry_policy": "No automatic retry or second click. A new explicit owner authorization is required.",
+      "last_claim": {
+        "run_id": "chatgpt-20261028T1605Z-S66-STITCH-NB-IMAGE-1",
+        "claimed_at": "2026-10-28T16:05:00Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "preflight": {
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Nano Banana Pro",
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_chars": 2078,
+          "prompt_sha256": "1aa2d5e5732693ea85414d42910b3cdc51f6f358f68ed2d90d023e255e045584",
+          "prompt_normalized_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
+          "input_count": 3,
+          "input_sha_verified": true,
+          "input_order": [
+            "@Image1",
+            "@Image2",
+            "@Image3"
+          ],
+          "global_video_scan": {
+            "checked_at": "2026-10-28T15:57:00Z",
+            "boards": 13,
+            "pages": 24,
+            "total_tasks": 615,
+            "occupied_video_slots": 6,
+            "free_video_slots": 0,
+            "complete": true
+          },
+          "global_image_scan": {
+            "checked_at": "2026-10-28T15:57:00Z",
+            "boards": 13,
+            "pages": 18,
+            "total_tasks": 323,
+            "active_image_tasks": 0,
+            "complete": true
+          }
+        },
+        "resolved_at": "2026-10-28T16:06:10Z",
+        "result": "submit_rejected_unlimit_concurrent_slot_limit",
+        "clicked_once": true,
+        "task_id": null,
+        "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261028T160610Z-rejected.json"
+      }
+    },
+    "automation_verification_20261017": {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "is_enabled": true,
+      "verified_at": "2026-10-17T07:00:09.282Z",
+      "last_run_time": "2026-10-17T17:57:29.616483+00:00",
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+      "next_run_time_reported": null,
+      "status": "Paused after B2 success exposed a free slot but the scheduled environment lacked an authenticated owner Topview session needed to recover and QC the real B2 result/C28.",
+      "checked_at": "2026-10-17T18:42:37.941Z",
+      "automation_id": "6acae6ab433481919e88665c520b8ef2",
+      "latest_observation": "Existing hourly task enabled; latest main includes S55 after fans. This working chat launched fans successfully; scheduled browser access must be checked independently."
+    }
   }
 }

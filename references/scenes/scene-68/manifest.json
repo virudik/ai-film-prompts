@@ -78,7 +78,7 @@
         941
       ],
       "bytes": 2643205,
-      "role": "Дополнительная композиция сцены 68 и непрерывность реквизита перед 69",
+      "role": "Общая композиция @Image6: расположение, масштаб и обход кучки; таймлайн определяет действия",
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_recorded",
@@ -119,8 +119,8 @@
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
         }
       ],
-      "usage": "pose_composition_helper_only_not_prompt_input",
-      "updated_at": "2026-10-27T22:57:20Z",
+      "usage": "prompt_input_composition_only",
+      "updated_at": "2026-10-28T16:32:18+00:00",
       "aspect_check": {
         "requested": "16:9",
         "actual_dimensions": [
@@ -206,7 +206,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T15:02:46+00:00",
+  "updated_at": "2026-10-28T16:32:18+00:00",
   "last_qc_at": "2026-10-27T22:57:20Z",
   "pose_composition_helpers": [
     "references/scenes/scene-68/S68-crew-sweeping-street.png"
@@ -214,9 +214,9 @@
   "prompt_reference_mapping": [
     {
       "label": "68",
-      "canonical_prompt_sha256": "632cc39d69fba3be1fbf7dc2864c6264b69cf05b0705bef3e8fceebe1339b9e8",
-      "normalized_prompt_sha256": "aa72dba328a8292ec6ff5f220308a4a919f3c4912722e3b1e4d05c9c2bd5443f",
-      "characters": 7097,
+      "canonical_prompt_sha256": "12b6035c0e15d53e9a089874d4d1c3ae015802813ee68226f02671ee1c1dd39d",
+      "normalized_prompt_sha256": "6cacb5b387ec3507be916ab8ba9c1fbada4a7577ffc9a5b1d00253f9602f3187",
+      "characters": 7710,
       "slots": [
         {
           "slot": "@Video1",
@@ -265,6 +265,14 @@
           "input_status": "available",
           "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "canonical_role": "Shared spatial composition only; individual refs control identity/props, actual video and timeline control start/actions/entry",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "prompt_id": "S68-WAN30",
@@ -272,9 +280,9 @@
     },
     {
       "label": "68 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "2afcaa30a28d92aa219288211fce15eae83b387aa1369d12bcfcaad644716a8e",
-      "normalized_prompt_sha256": "a553734892638cebb907043738dab794f1f0843c49f2d8b46df33040404d88e1",
-      "characters": 6447,
+      "canonical_prompt_sha256": "1b5a5c8606bbc8cd1e5fb267f8cec3fa8d0cbab1ad1fe58cf74bcd4bc145cafe",
+      "normalized_prompt_sha256": "78a4089aa322a2af0c8de536a252313c28a44e7d1ededb4fa4e15c01101b1e5d",
+      "characters": 7060,
       "slots": [
         {
           "slot": "@Video1",
@@ -323,15 +331,23 @@
           "input_status": "available",
           "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "canonical_role": "Shared spatial composition only; individual refs control identity/props, actual video and timeline control start/actions/entry",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "queued": false
     },
     {
       "label": "68 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "eebd4bdc073d8875ad4cce4db0013b044fa96ac7f052fe02dd61083e480b3990",
-      "normalized_prompt_sha256": "3dbc7591fbc064615f234e1cb49c2121e3b97a8d32d33c0f3c9f2fb84ff140d9",
-      "characters": 6127,
+      "canonical_prompt_sha256": "d2607af26041ea8e5b5a6582b1601f3da18986a8a85c109cfc021780a04dc424",
+      "normalized_prompt_sha256": "f21f5f2765a0393add12a0e09f217b0355c9ae40c22faa9866b8ea3ceb64494a",
+      "characters": 6740,
       "slots": [
         {
           "slot": "@Video1",
@@ -379,6 +395,14 @@
           "input_status": "available",
           "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "canonical_role": "Shared spatial composition only; individual refs control identity/props, actual video and timeline control start/actions/entry",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "queued": false

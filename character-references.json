@@ -741,7 +741,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-28T15:02:46+00:00",
+  "updated_at": "2026-10-28T16:32:18+00:00",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -1233,8 +1233,8 @@
               "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
             }
           ],
-          "usage": "pose_composition_helper_only_not_prompt_input",
-          "updated_at": "2026-10-28T09:40:35+00:00",
+          "usage": "prompt_input_composition_only",
+          "updated_at": "2026-10-28T16:32:18+00:00",
           "aspect_check": {
             "requested": "16:9",
             "actual_dimensions": [

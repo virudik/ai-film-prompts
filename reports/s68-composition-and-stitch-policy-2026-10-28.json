@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-28T16:32:18+00:00",
+  "owner_decision": "Restore five individual refs plus shared composition @Image6 for S68; retain three optional Stitch trial images, do not make them video prerequisites.",
+  "s68": {
+    "labels": [
+      "68",
+      "68 · Seedance 2.0 часть 1",
+      "68 · Seedance 2.0 часть 2"
+    ],
+    "composition": {
+      "slot": "@Image6",
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "canonical_role": "Shared spatial composition only; individual refs control identity/props, actual video and timeline control start/actions/entry",
+      "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "required": true,
+      "input_status": "available"
+    },
+    "all_png_unchanged": true,
+    "s69_helper_unchanged": true,
+    "actual_previous_video_still_required": true
+  },
+  "stitch": {
+    "items": [
+      "S66-STITCH-NB-IMAGE-1",
+      "S66-STITCH-NB-IMAGE-2",
+      "S66-STITCH-NB-IMAGE-3"
+    ],
+    "first_item_new_attempt_authorized": true,
+    "prior_rejection_receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261028T160610Z-rejected.json",
+    "new_submissions_this_turn": 0,
+    "credits_spent": 0,
+    "default_video_input": "references/scenes/scene-66/S66-street-outrage.png",
+    "new_images_require_later_owner_selection": true,
+    "batch": "three existing distinct prompts, quantity1 each, immediate consecutive submissions when Unlimited image capacity permits",
+    "owner_estimated_minutes": 10,
+    "runtime_or_ratio_independently_verified": false
+  },
+  "live_capacity_check": {
+    "checked_at": "2026-10-28T16:26:59.844Z",
+    "scope": "My First Board first100 tasks only; six known active video tasks suffice to establish no video slot free; not a full account scan",
+    "active_video_ids": [
+      "c65c30d8cbe14e9eadec886276e62471",
+      "8d7ff1e2de63478693778de29e0dd56e",
+      "4a1061e175054da2810ffef8ad9d31cd",
+      "b15165813c0848939edbe8b3d3aed182",
+      "8b6a8ce102ea416e88d3c14fa558c513",
+      "8a8eadc809004e318c47201b8a463be0"
+    ],
+    "new_create": false
+  },
+  "automation_readback": {
+    "hourly_enabled": true,
+    "relay_enabled": true,
+    "prompts_or_schedule_changed": false,
+    "hourly_explicitly_uses_image_specific_capacity": true
+  },
+  "archive": {
+    "prior_first_image_item_preserved_verbatim": true,
+    "historical_automation_snapshot_preserved_verbatim": true
+  },
+  "validation": {
+    "unit_tests": 42,
+    "tests": "queue_readiness 7; topview_prompt_match 9; continue_recovery 26",
+    "site_contract": "passed",
+    "canon_health": "ok; 0 warnings",
+    "semantic_checks": "all 3 S68 prompt versions and 18 image hashes match; PNGs and unrelated video items unchanged; archive lossless; both recovery evidence records verified",
+    "queue_bytes": 399783
+  }
+}
