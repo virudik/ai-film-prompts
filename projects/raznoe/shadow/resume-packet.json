@@ -3,18 +3,39 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-28T14:13:16+00:00",
-  "source_head": "c2ef6cf3b98e405a8eb9c257c8484784a97134a8",
-  "source_fingerprint": "8bcf9e92a27fe39782aaf32d4e1e97cbdaa46140ee79a7d05a29ea79ce3a9278",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-28T14:29:12+00:00",
+  "source_head": "6193f6d2de45bbb2c1c4265fedcd60f6702df229",
+  "source_fingerprint": "56235d8b0d4eb43c7d5319a7410a46f1cb0bd5c37f0a6a73f3b6357f1bea9c73",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "recovery evidence changed: projects/raznoe/HANDOFF.md"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "# Продолжай — проверенная точка проекта · 27.10.2026\n\nwork_id: RAZNOE-CPK-REFS-20261027\nПроверено: 2026-10-27T14:07:47.150Z\nВ main подготовлены 25 сцен / 75 промтов и тексты для 10 референсов ЦПК сцен 21–25. Изображения ЦПК ещё не нарисованы; 29 прежних элементов очереди paused_by_owner.\nСледующий шаг: Открытому ChatGPT Work проверить передачу владельцем задачи claude-202610271320-cpk-refs и её актуальный статус, затем выполнить разрешённую подготовку 10 референсов по image-prompt.txt. Плановым задачам её не брать; видео остаются на паузе.\nМеханизм перенесён; отдельный новый чат ещё не принимал смену.\n",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "RAZNOE-CPK-REFS-20261027",
+    "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
+    "status": "prepared_waiting_owner_review_project_paused",
+    "last_completed": "Все10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.",
+    "next_action": "Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.",
+    "verified_at": "2026-10-28T12:55:17+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
+        "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3"
+      }
+    ],
+    "read_next": [
+      "projects/raznoe/HANDOFF.md",
+      "projects/raznoe/ops/topview-launch-queue.json"
+    ],
+    "checkpoint": {
+      "file": "projects/raznoe/reports/current-work-checkpoint.md",
+      "anchor": "# ЦПК — локальные нашивки и надписи · 28.10.2026",
+      "sha256": "e2989c3bd4cdd51dd04a5b36cef52551bf3d61579aba4570f81fdbfa45f8243a"
+    }
+  },
+  "checkpoint_text": "# ЦПК — локальные нашивки и надписи · 28.10.2026\n\nwork_id: RAZNOE-CPK-REFS-20261027\nПроверено: 2026-10-28T12:55:17+00:00\n\nВсе10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.\n\nОтчёт: projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json. Исходные размеры сохранены;0 изменённых пикселей вне масок. Три исключённых владельцем изображения сохранены побайтно.29 элементов очереди остаются на паузе; запусков и новых пунктов0.\n\nСледующее действие: Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -107,7 +128,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "projects/raznoe/HANDOFF.md",
+    "projects/raznoe/ops/topview-launch-queue.json"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -188,8 +212,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "e25cb63023268dc6578d3e30f53f41146bb4752575ca17ad9a53906d98f05d29",
-      "bytes": 7004
+      "sha256": "8e886b2b75896646c792d3cb7d62c74a2e3cdc48af4640b1e54fff3c47195d6f",
+      "bytes": 7890
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -207,9 +231,14 @@
       "bytes": 19278
     },
     {
+      "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
+      "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3",
+      "bytes": 8235
+    },
+    {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "eaae75315a2abedb2e10b654b817fe946e6df87db733d5800c9c73f803f38a0b",
-      "bytes": 12666
+      "sha256": "f837665c811669912522e3d6b1d76b37753db52063eda3cecb2cc263f0e2b54d",
+      "bytes": 13995
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -223,8 +252,8 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "784a5bd279a173f03064a20e6b63d6ca5fd4bc121956afbab91840418170c27d",
-      "bytes": 3255
+      "sha256": "b90d13255c57630c99897a7c3976c5deca0c47eecb16cb861aec57529d25e788",
+      "bytes": 3146
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -242,5 +271,5 @@
       "bytes": 1122992
     }
   ],
-  "packet_bytes": 4841
+  "packet_bytes": 6034
 }
