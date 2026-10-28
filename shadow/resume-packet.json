@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T02:54:13+00:00",
-  "source_head": "0b4f28eddf082e4ebc94057bb6b773d970d9b4bb",
-  "source_fingerprint": "b3e05dccb8eeabf2659bbf68d03c02a44127fd82f160486beae24ba9df10b454",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-28T03:07:30+00:00",
+  "source_head": "2e89342cb36febc5754c5733a4bfd30c8357bb7e",
+  "source_fingerprint": "cb5dac8507e2bc94e51ff25add9ccb72cc5e65f308da3e738032d32b3a8fa6f6",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-open-work-20261027-c8084d939274",
@@ -30,7 +30,10 @@
     },
     "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
@@ -414,8 +417,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "090df3e44e4e1fb72b0519c8f3e344ab7dc96e6b13d6c0d6dc0e52247ae4ebe6",
-      "bytes": 398799
+      "sha256": "0b64ab118735e0e330cb6477fece6f2fb3de9401e7b4820bff5c5ecf41f89fd3",
+      "bytes": 399892
     },
     {
       "file": "project-status.json",
@@ -459,13 +462,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "45c15908c1c3f32aab03a71e2c7ae7e87d1b20436212808734df690a7feaee02",
-      "bytes": 23782
+      "sha256": "f1ccdef564beffeaccec51aaaa782d35a1ef3e0b2f6e5344f989010d5c6df864",
+      "bytes": 24017
     },
     {
       "file": "video-prompts.md",
-      "sha256": "08f9d2184889543108e2dd2401c4a523c955632353209976d3e3d22623977242",
-      "bytes": 1104020
+      "sha256": "cc99f62d67a97845e985e3a9260c416acb544ef6efd33001400f42e2779f8cf7",
+      "bytes": 1111831
     },
     {
       "file": "work-resume-register.json",
@@ -473,5 +476,5 @@
       "bytes": 71091
     }
   ],
-  "packet_bytes": 8209
+  "packet_bytes": 8177
 }

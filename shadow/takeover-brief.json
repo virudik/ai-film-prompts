@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-28T02:44:17+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-28T03:07:30+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "08f9d2184889543108e2dd2401c4a523c955632353209976d3e3d22623977242",
-   "bytes": 1104020
+   "sha256": "cc99f62d67a97845e985e3a9260c416acb544ef6efd33001400f42e2779f8cf7",
+   "bytes": 1111831
   }
  ],
  "invariants": [
@@ -295,7 +295,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 35622,
+   "offset": 36107,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -317,7 +317,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 61959,
+   "offset": 62444,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -338,7 +338,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 90496,
+   "offset": 90981,
    "chars": 139450,
    "sha256_12": "d913dff42477"
   },
@@ -356,7 +356,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 229946,
+   "offset": 230431,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -378,7 +378,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 246302,
+   "offset": 246787,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -400,7 +400,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 270289,
+   "offset": 270774,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -424,7 +424,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 302786,
+   "offset": 303271,
    "chars": 28588,
    "sha256_12": "e13906f96ded"
   },
@@ -448,7 +448,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 331374,
+   "offset": 331859,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
@@ -475,7 +475,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 359832,
+   "offset": 360317,
    "chars": 74983,
    "sha256_12": "17eb4aa1f7b0"
   },
@@ -500,7 +500,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 434815,
+   "offset": 435300,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
@@ -526,13 +526,13 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 454536,
+   "offset": 455021,
    "chars": 60421,
    "sha256_12": "f3bfb2c4c6d1"
   },
   {
    "id": 52,
-   "title": "Серёга пересаживается на свой корабль и прилетает на Татуин",
+   "title": "Татуинская связка 1/7 (начало в части 7) · Серёга пересаживается на свой корабль и прилетает на Татуин",
    "target_engine": "Seedance 2.0 (P1–P6); Wan 3.0 (P7)",
    "state": "DRAFT",
    "render_state": "SLOW_PENDING",
@@ -547,9 +547,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 514957,
-   "chars": 83465,
-   "sha256_12": "9204875f95bd"
+   "offset": 515442,
+   "chars": 84309,
+   "sha256_12": "a98fb6192a76"
   },
   {
    "id": 56,
@@ -570,7 +570,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 598422,
+   "offset": 599751,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -592,7 +592,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 624828,
+   "offset": 626157,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -618,7 +618,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 650924,
+   "offset": 652253,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -639,7 +639,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 678452,
+   "offset": 679781,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -661,7 +661,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 713740,
+   "offset": 715069,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -681,7 +681,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 746751,
+   "offset": 748080,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -703,7 +703,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 771597,
+   "offset": 772926,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -723,7 +723,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 800868,
+   "offset": 802197,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -742,13 +742,13 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 824321,
+   "offset": 825650,
    "chars": 19287,
    "sha256_12": "2ea33bc36871"
   },
   {
    "id": 65,
-   "title": "Татуин: Серёга молча выпивает в баре с Бобой Феттом и компанией",
+   "title": "Татуинская связка 7/7 · Серёга молча выпивает в баре с Бобой Феттом и компанией",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -764,13 +764,13 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 843608,
-   "chars": 23165,
-   "sha256_12": "febd843371c0"
+   "offset": 844937,
+   "chars": 23877,
+   "sha256_12": "545dea0a25c0"
   },
   {
    "id": 66,
-   "title": "Татуин: Алина, Даша и Стич",
+   "title": "Татуинская связка 2/7 · Алина, Даша и Стич",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -787,13 +787,13 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 866773,
-   "chars": 25514,
-   "sha256_12": "daf1314436a2"
+   "offset": 868814,
+   "chars": 26328,
+   "sha256_12": "11fb893e8f2b"
   },
   {
    "id": 67,
-   "title": "Татуин: девушка яростно ругается с продавцом фруктов",
+   "title": "Татуинская связка 3/7 · девушка яростно ругается с продавцом фруктов",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -808,13 +808,13 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 892287,
-   "chars": 20516,
-   "sha256_12": "37e9ed3a1212"
+   "offset": 895142,
+   "chars": 21165,
+   "sha256_12": "ee80b06b3e87"
   },
   {
    "id": 68,
-   "title": "Татуин: «ГБУ Жилищник района Татуина» метёт улицу световыми мётлами",
+   "title": "Татуинская связка 4/7 · «ГБУ Жилищник района Татуина» метёт улицу световыми мётлами",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -831,13 +831,13 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 912803,
-   "chars": 26220,
-   "sha256_12": "6f4c48bbe23f"
+   "offset": 916307,
+   "chars": 27028,
+   "sha256_12": "ea1b5a85813f"
   },
   {
    "id": 69,
-   "title": "Татуин: девушка отнимает метлу и показывает «Жилищнику», как надо мести",
+   "title": "Татуинская связка 5/7 · девушка отнимает метлу и показывает «Жилищнику», как надо мести",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -855,13 +855,13 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 939023,
-   "chars": 29279,
-   "sha256_12": "edebc3fb364c"
+   "offset": 943335,
+   "chars": 30176,
+   "sha256_12": "d5774a86902b"
   },
   {
    "id": 70,
-   "title": "Татуин: бесшовный пролёт с улицы к столику Серёги в кантине",
+   "title": "Татуинская связка 6/7 · бесшовный пролёт с улицы к столику Серёги в кантине",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -876,9 +876,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 968302,
-   "chars": 22040,
-   "sha256_12": "a7980241093b"
+   "offset": 973511,
+   "chars": 22675,
+   "sha256_12": "38167e3ded9f"
   }
  ],
  "read_sets": {
