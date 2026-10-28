@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-09-23T12:51:20Z",
-      "operation": "checkpoint_baseline",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": null,
-      "new_status": "verified_snapshot",
-      "source_checkpoint": "2026-09-23T12:51:20Z",
-      "outcome": "recorded",
-      "verification": "active_by_scene=6 tasks; canonical slow=3,4,17,19,20; occupied=6/6"
-    },
-    {
       "timestamp": "2026-09-23T13:21:16Z",
       "operation": "active_refresh_and_paginated_discovery",
       "scene_id": null,
@@ -5500,6 +5489,19 @@
       "source_checkpoint": "2026-10-28T07:00:22Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T07:50:19Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T07:50:19Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
-  ]
+  ],
+  "archived_event_count": 1,
+  "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
