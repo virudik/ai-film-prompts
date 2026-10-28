@@ -179,6 +179,17 @@
       "source_checkpoint": "2026-09-26T15:32:53.563Z",
       "outcome": "success",
       "verification": "Topview task completed 2026-09-26T10:39:04Z; removed Scene 17 from render-slow only. Technical success does not imply editorial approval."
+    },
+    {
+      "timestamp": "2026-09-26T15:32:53.563Z",
+      "operation": "discover_existing_scene_active_task",
+      "scene_id": 23,
+      "task_fingerprint": "scene23-e42b4746",
+      "previous_status": "not_tracked",
+      "new_status": "init",
+      "source_checkpoint": "2026-09-26T15:32:53.563Z",
+      "outcome": "success",
+      "verification": "Task prompt is normalization-equivalent to current canonical Scene 23 prompt/model/reference roles; mapped to existing Scene 23, not a new Scene ID."
     }
   ]
 }
