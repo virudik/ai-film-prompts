@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-10-28T02:38:14+00:00
+Состояние: ready
+Проверено: 2026-10-28T02:40:44+00:00
 Задача: SEREGIUS-PLAN-20261023 — Завершить Серёгиус по сохранённому плану, оценить готовые ролики
 
 Последний подтверждённый этап: Татуинская цепочка52P7→66→67→68→69 согласована; все пять звеньев выбраны Wan3/30с перед49–51/28. Опубликовано и проверено по точным публичным SHA; content commit 71056a649105eb5fca6d482ce024363b559894c6.
@@ -65,5 +65,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- instruction certificate mismatch: NEW-CHAT-HANDOFF.md
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
