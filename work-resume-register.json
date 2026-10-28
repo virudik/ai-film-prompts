@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T07:42:40.844Z",
+  "last_updated_at": "2026-10-28T08:06:00Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "all_slots_occupied_after_S52_R2_P1",
-      "updated_at": "2026-10-28T06:55:12.326724Z",
+      "status": "all_slots_occupied_s28_a1_qc_complete",
+      "updated_at": "2026-10-28T08:06:00Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -19,9 +19,10 @@
         "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun.",
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch.",
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
-        "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns."
+        "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
+        "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted."
       ],
-      "next_action": "All physical slots occupied. Existing event/hourly handler rechecks fresh owner decisions/queue/all slots; prepare genuine P1 end only after task success and QC, never repeat Create.",
+      "next_action": "All six physical slots remain occupied. At the next free slot, rerun the complete global scan and select the minimum actually ready authorized priority; S28-A1-R2 is now technically ready at priority2.01 but must not reserve a slot ahead of lower live priorities. Never repeat existing tasks.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -85,10 +86,10 @@
         "result": "Review-ledger has later GitHub success. Fresh main passes 348 local tests, site/projects/review-ledger validators and canon-health ok/0 warnings after archival cleanup. Exact seven-file readback matched; final Canon health run40648290183 and Canonical master run40648290198 succeeded. The commit's Pages run was superseded/cancelled and the newer replacement was still processing, so no false deploy success is recorded. Old failed runs were not rerun and Gmail state was not changed."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-28T06:52:46Z",
+        "checked_at": "2026-10-28T08:05:00Z",
         "boards": 13,
-        "pages": 19,
-        "total_tasks": 938,
+        "pages": 17,
+        "total_tasks": 615,
         "complete": true,
         "occupied_slots": 6,
         "active_task_ids": [
@@ -99,7 +100,7 @@
           "8b6a8ce102ea416e88d3c14fa558c513",
           "8a8eadc809004e318c47201b8a463be0"
         ],
-        "method": "read-only connector full all-board/all-page scan plus authenticated UI detail",
+        "method": "read-only Topview connector, all boards and all video pages",
         "free_slots": 0
       },
       "last_relay_event": {
@@ -221,6 +222,17 @@
         "outcome": "stale",
         "new_submissions": 0,
         "reason": "Recovered verified old signals; preserved existing submitted receipt/task; no live slot scan or queue mutation."
+      },
+      "last_result_qc": {
+        "item_id": "S28-A1-TEST-20261017",
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "completed_at": "2026-10-28T05:39:06Z",
+        "reviewed_at": "2026-10-28T08:06:00Z",
+        "report": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+        "source_sha256": "a221443eaaf6c2d100ad9e42f6e7393a5614b80d5dc60f760df0ec9c3353d24e",
+        "assessment": "partially_usable_not_owner_approved",
+        "audio_listened": false,
+        "queue_effect": "S28-A1-R2-20261025 duplicate-prevention gate cleared to waiting_for_slot; no submission"
       }
     },
     {
@@ -290,9 +302,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-27T22:30:37+00:00",
+      "updated_at": "2026-10-28T08:06:00Z",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "S52-R2-P1 submitted as c65c30d8cbe14e9eadec886276e62471; wait for exact result, archive/QC and prepare genuine end for R2P2. Continue common authorized queue after fresh all-board scan; six physical slots currently occupied. Do not repeat existing tasks.",
+      "next_action": "Six physical slots are occupied. Wait for exact results and QC; prepare genuine continuity only from successful sources. S28-A1 terminal result is reviewed without owner approval and its already authorized R2 gate is open at priority2.01. On a free slot, use the fresh global queue and minimum actually ready priority; do not repeat existing tasks.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
