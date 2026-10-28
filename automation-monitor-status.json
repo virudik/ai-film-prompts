@@ -99,10 +99,10 @@
     ],
     "robot_rewake": {
       "episode": "6bc77dbe",
-      "count": 0,
-      "last_at": "2026-10-28T05:40:26Z",
-      "last_event_id": "result:4b7b972870a44dfbb29bd6c5e330a633",
-      "silence_reported": null
+      "count": 1,
+      "last_at": "2026-10-28T06:00:26Z",
+      "last_event_id": "slots:6bc77dbe:1",
+      "silence_reported": "result:4b7b972870a44dfbb29bd6c5e330a633"
     }
   },
   "phases": {
