@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-28T09:49:18+00:00",
-  "source_head": "d241e07a496e4ffeddcbb5b2cf7d5a29cf638ccf",
-  "source_fingerprint": "feba13d8707f8d65c972d59095170968a1d4edeb850c84d894a703801c7a5687",
+  "checked_at": "2026-10-28T10:00:24+00:00",
+  "source_head": "caf6790edb67901d99d98c97e7b927528fa50f36",
+  "source_fingerprint": "042e264dc9ef00ece11abe68f6a614f93cff1bec8211578396ee77227e0ee570",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -163,8 +163,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "c40cd3f93d717b33ffd8e3c818be194fc8100c12d3fe9d2c4b11a7dd897f87dc",
-      "bytes": 34882
+      "sha256": "d30130420146114513c21e26c8852ef597623533b5d75e0c61139e3f24cd6f7a",
+      "bytes": 34973
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -183,13 +183,13 @@
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "374354dd235fa5ebfe37d20203c81c29c77559ea681081dabe1a4374d39119f3",
-      "bytes": 80567
+      "sha256": "dab4dada768960c032df56e011aea7a5d55517d786ed99ed74af81c6abd8e8a0",
+      "bytes": 80869
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "dd11a2b12c8add6916d77196ebaf2c3b3bd906d7dcb039ad9685c182d2fce732",
-      "bytes": 5134
+      "sha256": "c2cf5bb3f8916859d370ef8e26fb1bc7f703945658c5aad98eef98debaf5980f",
+      "bytes": 5136
     },
     {
       "file": "monitor-role.json",
@@ -258,12 +258,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "58fdead221eda29329fa5c2f848da71d8b41951a90d92a88b69444d219411bcb",
-      "bytes": 34683
+      "sha256": "8f92ec3445ba2fd0ee22241852738da0cf363b17cba59f6f93160d83691b17cb",
+      "bytes": 34774
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0fc678cc7662387c71d6358845ea1f9c05e3ab6bd2e6bbe36d11fb510a12f0fa",
+      "sha256": "7bdd32be3a368da365e4e36753b0c47904c606e25d905e515828c060b706ed61",
       "bytes": 24009
     },
     {
