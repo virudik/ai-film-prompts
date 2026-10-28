@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T08:23:17+00:00",
-  "source_head": "df1554d649d489e0fdbe6a36d0ae59dbc066040d",
-  "source_fingerprint": "a9b5075455d4f4b50c261807eb58ac3dda4830eaeb0360456fb1829094bf6a3d",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-28T08:42:42+00:00",
+  "source_head": "af8ad69638b7d47732e738b14a33eb8d885f3457",
+  "source_fingerprint": "0d31cd70c4f4028c879b28d66f59373ea0fd377411b996f9f3a8b2b648cb35a3",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-open-work-20261027-c8084d939274",
@@ -30,11 +30,32 @@
     },
     "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
-  "reasons": [
-    "next action changed without a recovery checkpoint"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "SUCCESSOR-AUDIT-20261028",
+    "title": "Проверка завершённой работы сменщика: референсы, Relay, Продолжай",
+    "status": "in_progress",
+    "last_completed": "Прочитан отчёт сменщика и свежий main; найдены два подтверждённых несоответствия.",
+    "next_action": "Проверить артефакты и связи, исправить подтверждённые ошибки, выполнить проверки и вернуть основной фокус.",
+    "verified_at": "2026-10-28T08:41:28+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "reports/successor-audit-2026-10-28.json",
+        "sha256": "5a93f5b0672bcfcba055f687b2f3d09a3f7eed1477bef9cf0fff8c83b19e28f0"
+      }
+    ],
+    "read_next": [
+      "ops/CONTINUE-PROTOCOL.md",
+      "ops/TOPVIEW-FREE-LAUNCH.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# Проверка работы сменщика · 28.10.2026",
+      "sha256": "f1ed670969aa0be3f62b4aa992f9fc91f5d338c1b53ca2bc9bc21f1eede83dc2"
+    }
+  },
+  "checkpoint_text": "# Проверка работы сменщика · 28.10.2026\n\nwork_id: SUCCESSOR-AUDIT-20261028. Проверено: 2026-10-28T08:41:28+00:00.\n\nВладелец поручил сверить работу другого чата, исправить только недоделки и не повторять готовое. Исходный main: 67798296b6c697332ba9f44a49a6f57ed3d1b48a. Отчёт: reports/successor-audit-2026-10-28.json. Прочитаны доступный общий чат, актуальные правила и живые настройки Relay; повторное рисование/видеозапуски не выполняются.\n\nНайдены устаревший технический blocker S64 и рассогласование next_action/recovery в основном плане. Дальше: проверить байты всех изображений, manifests/registry/галереи/очередь/публичный сайт, исправить подтверждённые ошибки и обновить доказательства восстановления. Ранее сохранённый основной фокус будет восстановлен после аудита.\n\n---\n\n<!-- relay-current-status -->\n## Текущее Relay-событие\nПроверено: 2026-10-28T06:55:12.326724Z. work_id: TOPVIEW-SLOT-PRIORITY-20261024.\nslots:6bc77dbe:2 / issue98: отправлена ровно одна S52-R2-SEED20-P1, task `c65c30d8cbe14e9eadec886276e62471`, Seedance2.0/15с/720p/16:9,5изображений+настоящие3с S44, Unlimited0,0кредитов. Полный текст и входные SHA проверены; отдельный CAS claim. После отправки полный скан13досок/19страниц/938задач подтвердил6занятых/0свободных. Квитанции: reports/topview-event-wake.json и reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json. Художественная приёмка не выполнялась.\nДалее: ждать реальный результат этого task, сохранить оригинал, выполнить QC корабля/личности/входа и настоящий стык для R2P2; при следующем свободном слоте свежая общая очередь без резервирования. Уже отправленное не повторять. Собственный замок освобождён в том же коммите.\nПоздняя проверка 2026-10-28T07:42:40.844Z: восстановленные result:4b7b972870a44dfbb29bd6c5e330a633 (issue95) и slots:6bc77dbe:1 (issue96) подтверждены и завершены stale: исходные сигналы старше30мин. Новых Create/claim/расходов нет; квитанция slots:6bc77dbe:2 и существующий task сохранены. Новый live-скан в этой проверке не выполнялся.\n<!-- /relay-current-status -->\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +148,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/CONTINUE-PROTOCOL.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -381,18 +405,23 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "9cf1cab3ba4bbb590308789d04822ed499c8880d2d0a63b40283c8c43e46d725",
+      "sha256": "bafc4a4f9de62fdcd9e4cc0e1d5f7dec58f621017e2d8e4bacf922e0fd70b638",
       "bytes": 21258
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "020b2ec98fad2b544692b7ca312560042bfb40daf520a19b032d3a1aff388611",
-      "bytes": 22888
+      "sha256": "677fa8396556f3a7bd007e49692d1a7501b3c700ef0e3adda4beb93dcf37f3b2",
+      "bytes": 24140
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "e7addbb848bb00442e5abb45480133ec5c2e177f5d5811bd949b18f6b29f3ea9",
       "bytes": 13684
+    },
+    {
+      "file": "reports/successor-audit-2026-10-28.json",
+      "sha256": "5a93f5b0672bcfcba055f687b2f3d09a3f7eed1477bef9cf0fff8c83b19e28f0",
+      "bytes": 747
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -411,9 +440,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "54f2c459b308cbe19719ddb8ccfe6c7ccfe447812c97533658178d3ba494e346",
-      "bytes": 72721
+      "sha256": "45c2c345daeb6d8b5950cea64e440601cb3650f7bec2b4a314dee6c411bdc62f",
+      "bytes": 74417
     }
   ],
-  "packet_bytes": 3864
+  "packet_bytes": 7467
 }
