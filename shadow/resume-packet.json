@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T06:51:17+00:00",
-  "source_head": "27a97190ea81dab523c001bf47c58a04fd72a004",
-  "source_fingerprint": "99ec8077a16df05f2e0e163617e0826deb7c4170d4ca4b2be9bbba5ac99aa0aa",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-28T06:57:10+00:00",
+  "source_head": "000d0e1d6a496f6e0450a0399bcf40f5a8f18c3d",
+  "source_fingerprint": "66b2b8947a9fb0655cfcdb4b16f1fd78a3ee9ff2ea7572a6d5e405f752a0caf7",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-open-work-20261027-c8084d939274",
@@ -30,47 +30,11 @@
     },
     "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "SEREGIUS-PLAN-20261023",
-    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-    "status": "waiting_for_results_and_slots",
-    "last_completed": "Татуинская цепочка52P7→66→67→68→69 согласована; все пять звеньев выбраны Wan3/30с перед49–51/28. Опубликовано и проверено по точным публичным SHA; content commit 71056a649105eb5fca6d482ce024363b559894c6.",
-    "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
-    "verified_at": "2026-10-27T22:30:37+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "reports/scene52-rebuild-2026-10-27.json",
-        "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
-      },
-      {
-        "file": "reports/continue-multiproject-2026-10-27.json",
-        "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d"
-      },
-      {
-        "file": "reports/open-work-refs-relay-2026-10-27.json",
-        "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b"
-      },
-      {
-        "file": "reports/tatooine-chain-2026-10-28.json",
-        "sha256": "2486c4f4ac78c44d2e34ced739c1f859fd035bf357d9a73410803444073f1a0e"
-      }
-    ],
-    "read_next": [
-      "ops/CONTINUE-PROTOCOL.md",
-      "reports/handoff-receipts.json",
-      "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "ops/TOPVIEW-FREE-LAUNCH.md",
-      "ops/OWNER-TASKS.md"
-    ],
-    "checkpoint": {
-      "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Татуин — связность и выбранные версии Wan 3 · 28.10.2026",
-      "sha256": "a0400b3e906e78a4c06c35138cf21486bc00e62e256b02b083493d57f3c91639"
-    }
-  },
-  "checkpoint_text": "# Татуин — связность и выбранные версии Wan 3 · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nПроверено: 2026-10-27T22:30:37Z. Отчёт: reports/tatooine-chain-2026-10-28.json.\n\nУточнение владельца28.10: уличная цепочка52 ч.7 →66 →67 →68 →69 должна запускаться в Wan3 и иметь приоритет перед музыкальными сценами49–51 и танцами28. Выбран существующий Wan3/30с блок52P7; части52P1–P6 сохраняют Seedance2.0/15с. Стабильный ID P7 сохранён для зависимостей, модель определяется полями model/canonical_block_label.66–69 уже были Wan3/30с. Новых пунктов очереди, task IDs, claims, запусков и художественных одобрений нет.\n\nСюжетная связь подтверждена: Серёга уступает камеру Алине/Даше/Стичу; Стич оставляет кучку; камера передаётся Маше у фруктового прилавка; после её спора камера возвращается к тому же месту, где Жилищник метёт вокруг кучки; Маша в69 сама собирает её и песок в совок. В68 композиции кучка видна. Сохранена комедийная развязка69; отдельно уточнены голубая дыня на стыке66→67 и география возврата68.\n\nБесшовность задана настоящими последними3с предыдущих результатов и QC. Эти результаты ещё ожидаются; готовое видео и фактически идеальный стык не заявляются. Численные приоритеты ставят цепочку выше49–51/28; прежний ready-skip владельца остаётся: если продолжение ждёт результат, следующий готовый пункт может занять свободный слот.\n\nОпубликовано и проверено по точным публичным SHA; content commit 71056a649105eb5fca6d482ce024363b559894c6.\n\nСледующий шаг сохранённого плана: Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.\n",
+  "reasons": [
+    "next action changed without a recovery checkpoint"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -163,29 +127,15 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "ops/CONTINUE-PROTOCOL.md",
-    "reports/handoff-receipts.json",
-    "reports/scene52-seven-parts-handoff-2026-10-27.md",
-    "ops/TOPVIEW-FREE-LAUNCH.md",
-    "ops/OWNER-TASKS.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S52-R2-SEED20-P1",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 39,
+    "unresolved": [],
+    "existing_task_count": 40,
     "existing_tasks": [
       {
         "item_id": "S28-A1-TEST-20261017",
@@ -266,6 +216,10 @@
       {
         "item_id": "S28-A2-20261023",
         "task_id": "8a8eadc809004e318c47201b8a463be0"
+      },
+      {
+        "item_id": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471"
       },
       {
         "item_id": "S44-R1-20261017",
@@ -422,8 +376,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "639152d5e59e21aafc93741835291598d3e9d53160f8ecad5256bcc24537cf4a",
-      "bytes": 401832
+      "sha256": "3f973d2342e83eb7c18259d92a50c2a52838aa40c1697377dcccd57514ae72db",
+      "bytes": 401806
     },
     {
       "file": "project-status.json",
@@ -431,34 +385,14 @@
       "bytes": 21258
     },
     {
-      "file": "reports/continue-multiproject-2026-10-27.json",
-      "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d",
-      "bytes": 2208
-    },
-    {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "04013a3f8cb7396fe9fec1f59df5513f90d1445a381de58419c67877e42447fe",
-      "bytes": 29971
+      "sha256": "22afd0986be0cc3d98ab61f116c79203b665ca71a4848ee1422714ecdd9216f6",
+      "bytes": 30402
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "e7addbb848bb00442e5abb45480133ec5c2e177f5d5811bd949b18f6b29f3ea9",
       "bytes": 13684
-    },
-    {
-      "file": "reports/open-work-refs-relay-2026-10-27.json",
-      "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b",
-      "bytes": 41835
-    },
-    {
-      "file": "reports/scene52-rebuild-2026-10-27.json",
-      "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72",
-      "bytes": 20084
-    },
-    {
-      "file": "reports/tatooine-chain-2026-10-28.json",
-      "sha256": "2486c4f4ac78c44d2e34ced739c1f859fd035bf357d9a73410803444073f1a0e",
-      "bytes": 17999
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -477,9 +411,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "764522da00f25573fc322348abe2358defed74f58c7ab9757baadd08ecfd2013",
-      "bytes": 68213
+      "sha256": "4c1ea0766d79415e3d896735a5e52146968ed2d266db6be58e40b730124577d9",
+      "bytes": 71831
     }
   ],
-  "packet_bytes": 8260
+  "packet_bytes": 3864
 }
