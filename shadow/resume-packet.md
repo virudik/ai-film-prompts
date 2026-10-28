@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-10-28T10:07:16+00:00
+Состояние: ready
+Проверено: 2026-10-28T10:12:25+00:00
 Задача: SEREGIUS-PLAN-20261023 — Завершить Серёгиус по сохранённому плану, оценить готовые ролики
 
 Последний подтверждённый этап: Проверены 20 промптов, 94 привязки и 57 публичных изображений/миниатюр; исправления и навигация опубликованы, 13 изменённых файлов прошли HTTP/SHA readback, 348 тестов и CI прошли.
@@ -59,5 +59,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- master vs project-status sha256 mismatch
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
