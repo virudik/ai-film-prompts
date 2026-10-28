@@ -1,3 +1,15 @@
+# S66 Nano Banana — одиночный Unlimited0 Create отклонён лимитом · 28.10.2026
+
+work_id: TOPVIEW-SLOT-PRIORITY-20261024. Проверено: 2026-10-28T16:06:10Z.
+
+Полный fresh-read и сканы подтвердили: 13 досок; видео 615 задач, 6/6 активных; изображения 323 задачи, активных image-задач 0. Для S66-STITCH-NB-IMAGE-1 на My First Board (1a6244cf1ae747ef847d949a80d6133c) проверены Nano Banana Pro, 2K, 16:9, quantity1, три SHA-совпавших входа в порядке @Image1–@Image3, полный нормализованный prompt и видимый режим «Безлимитный режим — бесплатно».
+
+После отдельного CAS-замка и подтверждённого claim был сделан ровно один Create. Topview немедленно отклонил отправку: “You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.” Платный режим не использован, второго клика нет. Read-only scan My First Board после клика: 219 image-задач, новейшая остаётся от 17.10; нового taskID и совпадения prompt нет. Item переведён в blocked_capacity, attempts_used=1, max_new_submissions=0; автоматический повтор запрещён без нового явного разрешения владельца.
+
+Квитанция: reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261028T160610Z-rejected.json. S66-STITCH-NB-IMAGE-2/3 не нажимались: подтверждённый глобальный Unlimited concurrent blocker делает их сейчас неготовыми. Следующий цикл обязан заново проверить фактическую capacity; при освобождении начинать с следующего реально готового разрешённого пункта, не повторяя IMAGE-1. Роскосмос остаётся на паузе; художественного одобрения и расходов нет.
+
+---
+
 # Татуинская связка — проверка готового и очередь прогулок Стича · 28.10.2026
 
 work_id: SEREGIUS-PLAN-20261023
