@@ -3,7 +3,7 @@
   "project": "seregius",
   "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
   "title": "Татуинская связка: полная проверка референсов и переходов",
-  "status": "verified_pending_publication",
+  "status": "content_published_navigation_verified_pending_deploy",
   "checked_at": "2026-10-28T09:47:00+00:00",
   "source_head": "48f0887bd6763538b65e5a88f1d64029fbe6ef46",
   "chain": [
@@ -26,7 +26,8 @@
     "Corrected alternate66P1 timeline17→15seconds, removed future-half actions/camera directions from first halves, and split scene67 dialogue/audio by part without changing lines.",
     "Clarified camera clearance around the awning; continuous outgoing shots66/67; level resting position of filled dustpan; toast image timing follows the prompt.",
     "Added explicit planned actual-video cut paths to alternate Part2/P7 prompts; no nonexistent video marked available.",
-    "Preserved seven titled scene headings, clarified Masha names and52P7 headings, added a seven-step handoff table and direct52P7 navigation anchor."
+    "Preserved seven titled scene headings, clarified Masha names and52P7 headings, added a seven-step handoff table and direct52P7 navigation anchor.",
+    "Deep links now reveal the intended engine tab before scrolling, including a repeated click on the same anchor; USER-GUIDE and handoff updated and exact-byte certificate rebuilt."
   ],
   "reference_assessment": {
     "new_images_required_now": false,
@@ -497,7 +498,58 @@
     "site": "passed",
     "review_ledger": "passed",
     "canon_health": "ok;0warnings",
-    "master_health": "ok"
+    "master_health": "ok",
+    "navigation": "Local Node execution of actual jumpTo/showEnginePane/click handler passed: hidden pane, repeated same hash, modified click, missing target",
+    "content_github_runs": [
+      {
+        "id": 40667050369,
+        "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+        "head_sha": "95b97b88a4d05febe6764f219725910f50eb2713",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40667050369"
+      },
+      {
+        "id": 40667048992,
+        "name": "pages build and deployment",
+        "head_sha": "95b97b88a4d05febe6764f219725910f50eb2713",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40667048992"
+      },
+      {
+        "id": 40667050414,
+        "name": "Shadow pilot takeover brief (not canonical)",
+        "head_sha": "95b97b88a4d05febe6764f219725910f50eb2713",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40667050414"
+      },
+      {
+        "id": 40667050361,
+        "name": "Build reference thumbnails",
+        "head_sha": "95b97b88a4d05febe6764f219725910f50eb2713",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40667050361"
+      },
+      {
+        "id": 40667050231,
+        "name": "Canon health (stale, oversized and broken canon parts)",
+        "head_sha": "95b97b88a4d05febe6764f219725910f50eb2713",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40667050231"
+      },
+      {
+        "id": 40667050470,
+        "name": "AI Film integration recovery tests",
+        "head_sha": "95b97b88a4d05febe6764f219725910f50eb2713",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40667050470"
+      }
+    ]
   },
   "new_images": 0,
   "new_queue_items": 0,
@@ -515,5 +567,6 @@
     "Publish and verify changed public documents.",
     "For generated results, verify likeness, exactly four vendor arms, one satchel/melon, pile continuity, cleanup into the pan and70→65 gesture continuity.",
     "Use only QC-checked real ending clips for each subsequent launch."
-  ]
+  ],
+  "content_commit": "95b97b88a4d05febe6764f219725910f50eb2713"
 }

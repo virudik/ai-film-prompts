@@ -688,7 +688,8 @@ function resetViewAndJump(id){
  search.value='';clearSearch.classList.remove('show');activeFilterKey='all';activeFilterValues=null;renderFilters();applyView();
  requestAnimationFrame(()=>jumpTo(id));
 }
-function jumpTo(id){const el=document.getElementById(id);if(!el)return;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');history.replaceState(null,'','#'+id)}
+function jumpTo(id){const el=document.getElementById(id);if(!el)return;const pane=el.closest('.engine-pane');if(pane){pane.parentElement.dataset.userPicked='1';showEnginePane(pane)}el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');history.replaceState(null,'','#'+id)}
+content.addEventListener('click',e=>{if(e.defaultPrevented||e.button!==0||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;const a=e.target.closest?.('a[href^="#"]');if(!a)return;const id=a.getAttribute('href').slice(1);if(!document.getElementById(id))return;e.preventDefault();jumpTo(id)});
 function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true,monitor=null){
  status=s;
  runtimeTopview=buildTopviewRuntime(tv);

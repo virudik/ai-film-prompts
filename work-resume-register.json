@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T09:18:37+00:00",
+  "last_updated_at": "2026-10-28T09:54:49+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -710,6 +710,45 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
+    },
+    {
+      "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
+      "project": "seregius",
+      "title": "Татуинская связка: референсы, связность и навигация",
+      "status": "pending_publication_readback",
+      "created_at": "2026-10-28T09:47:00+00:00",
+      "updated_at": "2026-10-28T09:54:49+00:00",
+      "canonical_refs": [
+        "reports/tatooine-continuity-review-2026-10-28.json"
+      ],
+      "previous_resume_focus": {
+        "work_id": "SEREGIUS-PLAN-20261023",
+        "project": "seregius",
+        "set_at": "2026-10-28T09:11:19+00:00",
+        "reason": "Explicitly selected by the authorized task writer"
+      },
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-28T09:54:49+00:00",
+        "last_completed": "Проверены20 промптов/94 привязки/57 изображений-ссылок; исправления опубликованы95b97b88;348 тестов и навигационный smoke прошли.",
+        "next_action": "Проверить опубликованные страницы, CI и Continue; завершить отчёт и вернуть основной план фильма.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# Татуинская связка — проверка связности и ссылок · 28.10.2026",
+          "sha256": "0b17e7518d15523f749b09844f99a4c558d6dc504d95ed6556a22122be1c6055"
+        },
+        "evidence": [
+          {
+            "file": "reports/tatooine-continuity-review-2026-10-28.json",
+            "sha256": "0484b4260886642b8d8622716685aa75a04f07609fc5077c1b08dad33a773def"
+          }
+        ],
+        "read_next": [
+          "ops/CONTINUE-PROTOCOL.md"
+        ],
+        "blockers": []
+      },
+      "next_action": "Проверить опубликованные страницы, CI и Continue; завершить отчёт и вернуть основной план фильма."
     }
   ],
   "rules": [
@@ -1080,9 +1119,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-PLAN-20261023",
+    "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
     "project": "seregius",
-    "set_at": "2026-10-28T09:11:19+00:00",
+    "set_at": "2026-10-28T09:54:49+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

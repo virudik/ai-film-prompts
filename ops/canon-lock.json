@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt",
-  "task": "Open Work beb26cfe80f8: Tatooine final navigation and publication verification; no launches",
-  "acquired_at": "2026-10-28T09:50:59.729Z",
-  "expires_at": "2026-10-28T10:20:59.729Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-28T09:54:49+00:00",
   "rules": "ops/CANON-LOCK.md"
 }
