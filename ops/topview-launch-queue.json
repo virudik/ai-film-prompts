@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-28T06:55:12.326724Z",
+  "updated_at": "2026-10-28T08:06:00Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1306,10 +1306,20 @@
         "creditsCost": 0
       },
       "priority_before_20261023_primary": 400,
-      "result_review_required": true,
+      "result_review_required": false,
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
       "editorial_completion": false,
-      "owner_note_20261025": "Still active technically; not editorially complete. Preserve task and receipt. Owner authorized a separate new attempt after music; never run concurrently with this task."
+      "owner_note_20261025": "Still active technically; not editorially complete. Preserve task and receipt. Owner authorized a separate new attempt after music; never run concurrently with this task.",
+      "result_status": "success",
+      "completed_at": "2026-10-28T05:39:06Z",
+      "result_review": {
+        "reviewed_at": "2026-10-28T08:06:00Z",
+        "report": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+        "assessment": "partially_usable_not_owner_approved",
+        "owner_approved": false,
+        "continuous_full_frame_rate_view": false,
+        "audio_listened": false
+      }
     },
     {
       "id": "S50A",
@@ -5960,7 +5970,7 @@
       "canonical_prompt_sha256": "168c78cd3861f6ccf648eacd3e259d391a4f9ad3bd07dd191bf02b50d71a478b",
       "normalized_prompt_sha256": "f577e8a0bde3d94a9681e28a3d28045f63791354c04a6ff6abd2d9b584bfb681",
       "priority": 2.01,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -6002,11 +6012,9 @@
         "0da433bbc5b5d32352f0e88fe119bff0b4acaaa003fbebdc1e609079d9f5d67b"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
-      "depends_on_completed": [
-        "S28-A1-TEST-20261017"
-      ],
-      "launch_readiness": "waiting_previous_attempt_terminal_and_qc",
-      "blocker": "Прежняя попытка A1 ещё занимает слот; дождаться terminal и QC, затем снять этот технический запрет параллельного дубля. Повтор разрешён владельцем25.10; старый результат не закрывает новый пункт.",
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "blocker": null,
       "owner_launch_authorized_at": "2026-10-25T09:29:18.695660Z",
       "last_claim": {
         "run_id": "EXPAND-20261023-S28A1",
@@ -6081,7 +6089,17 @@
       "rerender_reason": "Owner25Oct: старые варианты были неудачные, их не учитывать отработанными",
       "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item.",
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
-      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
+      "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
+      "predecessor_terminal_qc": {
+        "source_item_id": "S28-A1-TEST-20261017",
+        "source_task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "terminal_status": "success",
+        "completed_at": "2026-10-28T05:39:06Z",
+        "reviewed_at": "2026-10-28T08:06:00Z",
+        "report": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+        "owner_approved": false,
+        "gate_effect": "duplicate-prevention gate cleared; no submission performed"
+      }
     },
     {
       "id": "S28-A2-R2-20261025",
