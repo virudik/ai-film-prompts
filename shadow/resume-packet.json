@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T03:07:30+00:00",
-  "source_head": "2e89342cb36febc5754c5733a4bfd30c8357bb7e",
-  "source_fingerprint": "cb5dac8507e2bc94e51ff25add9ccb72cc5e65f308da3e738032d32b3a8fa6f6",
+  "checked_at": "2026-10-28T03:08:15+00:00",
+  "source_head": "8a9c87bef944b29b1aca4751efd2bf79256e78bf",
+  "source_fingerprint": "0ed210199ce7954cb0a9e210d46c3877da903074aa0ea432faf08f6f16792bcb",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -32,7 +32,7 @@
   },
   "reasons": [
     "brief was invalid at generation",
-    "master vs project-status sha256 mismatch"
+    "project-status health not ok"
   ],
   "selected_work": {
     "work_id": "SEREGIUS-PLAN-20261023",
@@ -422,8 +422,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "1b28798d7c05e87142f41f74b3164541832b95fccb340722fc444926e94cd05d",
-      "bytes": 21254
+      "sha256": "cd9195e0f79295b9509c635fb3f955952687ebee4d002a3c08224ef4364d61fb",
+      "bytes": 21265
     },
     {
       "file": "reports/continue-multiproject-2026-10-27.json",
@@ -462,8 +462,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "f1ccdef564beffeaccec51aaaa782d35a1ef3e0b2f6e5344f989010d5c6df864",
-      "bytes": 24017
+      "sha256": "ff62a31ca268a8fa9402434dd11d36cf4cf9ab72d8449febd977286890daf1b4",
+      "bytes": 24020
     },
     {
       "file": "video-prompts.md",
@@ -476,5 +476,5 @@
       "bytes": 71091
     }
   ],
-  "packet_bytes": 8177
+  "packet_bytes": 8165
 }

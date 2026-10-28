@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project misc`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-10-28T03:07:30+00:00
+Проверено: 2026-10-28T03:08:15+00:00
 Задача: MISC-WAIT-MATERIALS — Разное — ожидание решения владельца
 
 Последний подтверждённый этап: Пустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe.
@@ -57,4 +57,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 ## Пробелы
 
 - brief was invalid at generation
-- master vs project-status sha256 mismatch
+- project-status health not ok

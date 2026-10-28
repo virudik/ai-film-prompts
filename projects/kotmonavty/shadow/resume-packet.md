@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project kotmonavty`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-10-28T03:07:30+00:00
+Проверено: 2026-10-28T03:08:15+00:00
 Задача: KM-WAIT-OWNER — Котмонавты — ожидание решения владельца
 
 Последний подтверждённый этап: 22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.
@@ -57,4 +57,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 ## Пробелы
 
 - brief was invalid at generation
-- master vs project-status sha256 mismatch
+- project-status health not ok
