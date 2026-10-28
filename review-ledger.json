@@ -19,7 +19,7 @@
     "inserted_into_film=true requires reviewed=true and accepted=true.",
     "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-10-27T23:10:40.180955Z",
+  "updated_at": "2026-10-28T05:40:19Z",
   "scenes": {
     "3": {
       "result_received": true,
@@ -313,7 +313,7 @@
     },
     "28": {
       "result_received": true,
-      "result_received_at": "2026-10-19T11:52:11Z",
+      "result_received_at": "2026-10-28T05:39:06Z",
       "reviewed": true,
       "reviewed_at": "2026-10-19T12:02:35Z",
       "accepted": false,
@@ -321,7 +321,7 @@
       "inserted_into_film": false,
       "montage_note": "25.10: старые неудачные танцы не засчитывать отработанными. Весь выбранный комплект A1–A12 после63/49/50/51; новые результаты отдельно проверить. Уже активные A1/A2 не отменять и не объявлять просмотренными.",
       "last_human_update_at": "2026-10-25T09:29:18.695660Z",
-      "selected_result_task_id": "0d1f17c226834bfbb851d76ed32f9877",
+      "selected_result_task_id": "4b7b972870a44dfbb29bd6c5e330a633",
       "result_url": null,
       "owner_decision_20261025": {
         "source": "direct owner message",
