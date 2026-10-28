@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-28T00:44:32+00:00",
-  "source_head": "bd7f975fa07c987b5f3295191137f67e5f36a91f",
-  "source_fingerprint": "f3aaa7ca9687e07d007f439f474088757c8c9fb3c27039629aa0c500eaaf7d07",
+  "checked_at": "2026-10-28T00:54:29+00:00",
+  "source_head": "2263e26af87f3b18cf4a154898419f915b4048f4",
+  "source_fingerprint": "acfb354734722d1d40f677e0cbddd10f2ee08e48e0437c4124b92e4ad1491e9c",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -228,8 +228,8 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "794e7083a735e5ea0d1b085b29cabb295775748c042dc04c8d6b6d35c890608b",
-      "bytes": 16926
+      "sha256": "2c1f30c2ac965b7ee2b1e47d6fb891d71cd56abdbe9aed8d92ae30c102ca340a",
+      "bytes": 16924
     },
     {
       "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
