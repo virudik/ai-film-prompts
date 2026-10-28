@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-10-28T09:12:23+00:00",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "Open Work beb26cfe80f8: audit successor final readback and receipt; no launches",
+  "acquired_at": "2026-10-28T09:18:20.311Z",
+  "expires_at": "2026-10-28T09:48:20.311Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
