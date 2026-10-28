@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "title": "Татуинская связка",
+  "verified_at": "2026-10-28T03:15:41.880Z",
+  "source": "GitHub virudik/ai-film-prompts main",
+  "head_at_audit": "0d8bd6a1fce38de23b834f2bc1398f20ea38d961",
+  "master_sha256": "ef01abcfe5adf3198edcbffb951bee245e880503f6266b10524540519160cf4d",
+  "master_health": "ok",
+  "master_checks_all_ok": true,
+  "montage_order": [
+    52,
+    66,
+    67,
+    68,
+    69,
+    70,
+    65
+  ],
+  "p7_note": "52 parts 1-6 remain Seedance 2.0; part 7 selected Wan 3.0; stable historical queue ID is unchanged",
+  "selected_slots_count": 31,
+  "embedded_gallery_links_checked": 80,
+  "broken_embedded_gallery_links": 0,
+  "missing_selected_image_files": 0,
+  "manifest_links_added": 15,
+  "missing_selected_image_manifest_refs_after_fix": 0,
+  "clickable_wan3_links_added_to_master": 31,
+  "copyable_prompt_fences_unchanged": 128,
+  "reference_file_reused_for_stitch": "references/scenes/scene-66/S66-street-outrage.png",
+  "stitch_slot": "@Image3",
+  "stitch_file_reused_no_duplicate_generated": true,
+  "scene52_gallery_order": "P7 walking, Stitch, Alina, Dasha; cruiser next to P3",
+  "queue_item_states_task_ids_claims_priorities_preserved": true,
+  "queued_order": [
+    {
+      "step": 1,
+      "scene": 52,
+      "part": 7,
+      "queue_item_id": "S52-R2-SEED20-P7",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.06,
+      "reference_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+          "sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "availability": "available"
+        }
+      ],
+      "continuity_input": "pending_actual_result",
+      "state": "blocked_inputs"
+    },
+    {
+      "step": 2,
+      "scene": 66,
+      "part": null,
+      "queue_item_id": "S66-WAN30",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.92,
+      "reference_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "availability": "available"
+        }
+      ],
+      "continuity_input": "pending_actual_result",
+      "state": "blocked_inputs"
+    },
+    {
+      "step": 3,
+      "scene": 67,
+      "part": null,
+      "queue_item_id": "S67-WAN30",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.93,
+      "reference_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "availability": "available"
+        }
+      ],
+      "continuity_input": "pending_actual_result",
+      "state": "blocked_inputs"
+    },
+    {
+      "step": 4,
+      "scene": 68,
+      "part": null,
+      "queue_item_id": "S68-WAN30",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.94,
+      "reference_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+          "availability": "available"
+        }
+      ],
+      "continuity_input": "pending_actual_result",
+      "state": "blocked_inputs"
+    },
+    {
+      "step": 5,
+      "scene": 69,
+      "part": null,
+      "queue_item_id": "S69-WAN30",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.95,
+      "reference_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+          "availability": "available"
+        }
+      ],
+      "continuity_input": "pending_actual_result",
+      "state": "blocked_inputs"
+    },
+    {
+      "step": 6,
+      "scene": 70,
+      "part": null,
+      "queue_item_id": "S70-WAN30",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.96,
+      "reference_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+          "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+          "availability": "available"
+        }
+      ],
+      "continuity_input": "pending_actual_result",
+      "state": "blocked_inputs"
+    },
+    {
+      "step": 7,
+      "scene": 65,
+      "part": null,
+      "queue_item_id": "S65-WAN30",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "priority": 0.97,
+      "reference_images": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+          "availability": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-toast-closeup.png",
+          "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+          "availability": "available"
+        }
+      ],
+      "continuity_input": "pending_actual_result",
+      "state": "blocked_inputs"
+    }
+  ],
+  "publication": {
+    "github_commit": true,
+    "project_status_health_ok": true,
+    "github_pages_success_for_this_revision": "not_yet_confirmed",
+    "public_http_image_sha_verified": false,
+    "limitations": [
+      "Public GitHub Pages URL inaccessible to web reader in this chat",
+      "Container network DNS resolution unavailable",
+      "GitHub connector rejects binary PNG downloads",
+      "Latest successful Pages workflow must be inspected after final commit"
+    ]
+  },
+  "video_launches": 0,
+  "editorial_approvals": 0
+}
