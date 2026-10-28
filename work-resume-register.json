@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T09:54:49+00:00",
+  "last_updated_at": "2026-10-28T10:06:13+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -302,7 +302,7 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-28T09:11:19+00:00",
+      "updated_at": "2026-10-28T10:06:13+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
       "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
       "constraints": [
@@ -314,15 +314,19 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-28T09:11:19+00:00",
-        "last_completed": "Проверены материалы и работа сменщика; восстановлена готовность S64 и согласованность плана. Relay ранее запустил52P1, S28A1 получил QC.",
+        "verified_at": "2026-10-28T10:06:13+00:00",
+        "last_completed": "Проверены 20 промптов, 94 привязки и 57 публичных изображений/миниатюр; исправления и навигация опубликованы, 13 изменённых файлов прошли HTTP/SHA readback, 348 тестов и CI прошли.",
         "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Основной план после проверки сменщика · 28.10.2026",
-          "sha256": "fc09885070759a1c6db2b2340d12c7bef67509146d2086cb558925ec0691048a"
+          "anchor": "# Основной план после проверки татуинской связки · 28.10.2026",
+          "sha256": "db9dbf341537aab0986a60b309355abb79b244b0e0059c9839e9acfc2099f59e"
         },
         "evidence": [
+          {
+            "file": "reports/tatooine-continuity-review-2026-10-28.json",
+            "sha256": "60e4d92f6405f6e3aec18f5af783acf088ec919bd1c4aa79e63e8f89637b3ca5"
+          },
           {
             "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
             "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908"
@@ -333,7 +337,7 @@
           }
         ],
         "read_next": [
-          "reports/successor-audit-2026-10-28.json",
+          "reports/tatooine-continuity-review-2026-10-28.json",
           "ops/OWNER-TASKS.md",
           "ops/TOPVIEW-FREE-LAUNCH.md",
           "ops/topview-launch-queue.json"
@@ -710,14 +714,22 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
-    },
+    }
+  ],
+  "rules": [
+    "Only verified GitHub commits, GitHub issue URLs, project statuses and owner_decisions can be cited as evidence",
+    "No invented task completions, approvals, renders or background progress",
+    "Only owner decisions can authorize creative changes, approvals and renders",
+    "Keep one writer for canonical changes; update with material work checkpoint"
+  ],
+  "completed_work": [
     {
       "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
       "project": "seregius",
       "title": "Татуинская связка: референсы, связность и навигация",
-      "status": "pending_publication_readback",
+      "status": "completed",
       "created_at": "2026-10-28T09:47:00+00:00",
-      "updated_at": "2026-10-28T09:54:49+00:00",
+      "updated_at": "2026-10-28T10:06:13+00:00",
       "canonical_refs": [
         "reports/tatooine-continuity-review-2026-10-28.json"
       ],
@@ -729,35 +741,28 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-28T09:54:49+00:00",
-        "last_completed": "Проверены20 промптов/94 привязки/57 изображений-ссылок; исправления опубликованы95b97b88;348 тестов и навигационный smoke прошли.",
-        "next_action": "Проверить опубликованные страницы, CI и Continue; завершить отчёт и вернуть основной план фильма.",
+        "verified_at": "2026-10-28T10:06:13+00:00",
+        "last_completed": "Проверены 20 промптов, 94 привязки и 57 публичных изображений/миниатюр; исправления и навигация опубликованы, 13 изменённых файлов прошли HTTP/SHA readback, 348 тестов и CI прошли.",
+        "next_action": "Проверка завершена; продолжать основной план фильма по SEREGIUS-PLAN-20261023.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Татуинская связка — проверка связности и ссылок · 28.10.2026",
-          "sha256": "0b17e7518d15523f749b09844f99a4c558d6dc504d95ed6556a22122be1c6055"
+          "sha256": "39ebea87dd20b5b93a817093b086332f4130e1ba45111ac5d513a0b2f2f4c0fd"
         },
         "evidence": [
           {
             "file": "reports/tatooine-continuity-review-2026-10-28.json",
-            "sha256": "0484b4260886642b8d8622716685aa75a04f07609fc5077c1b08dad33a773def"
+            "sha256": "60e4d92f6405f6e3aec18f5af783acf088ec919bd1c4aa79e63e8f89637b3ca5"
           }
         ],
-        "read_next": [
-          "ops/CONTINUE-PROTOCOL.md"
-        ],
+        "read_next": [],
         "blockers": []
       },
-      "next_action": "Проверить опубликованные страницы, CI и Continue; завершить отчёт и вернуть основной план фильма."
-    }
-  ],
-  "rules": [
-    "Only verified GitHub commits, GitHub issue URLs, project statuses and owner_decisions can be cited as evidence",
-    "No invented task completions, approvals, renders or background progress",
-    "Only owner decisions can authorize creative changes, approvals and renders",
-    "Keep one writer for canonical changes; update with material work checkpoint"
-  ],
-  "completed_work": [
+      "next_action": "Проверка завершена; продолжать основной план фильма по SEREGIUS-PLAN-20261023.",
+      "completed_at": "2026-10-28T10:06:13+00:00",
+      "content_commit": "95b97b88a4d05febe6764f219725910f50eb2713",
+      "navigation_commit": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc"
+    },
     {
       "work_id": "SUCCESSOR-AUDIT-20261028",
       "title": "Проверка завершённой работы сменщика: референсы, Relay, Продолжай",
@@ -1101,27 +1106,13 @@
       ],
       "completed_at": "2026-10-25T23:21:43.952564Z",
       "pre_checkpoint_commit": "6cf99f26c6267c065e580a904e13efd96d0c119c"
-    },
-    {
-      "work_id": "PROJECT-AUDIT-20261023",
-      "title": "Сверка прерываний, изображений и дублей автоматизации",
-      "status": "completed_verified",
-      "updated_at": "2026-10-25T23:17:11.868890Z",
-      "next_action": "No further restoration required. Unverified Images-tab rendering remains separately open in TOPVIEW-FRESHNESS-20261023; root cause remains unknown.",
-      "canonical_refs": [
-        "reports/project-audit-2026-10-23.json"
-      ],
-      "automation_changes_verified": true,
-      "gallery_repair_report": "reports/image-gallery-repair-2026-10-23.json",
-      "previous_status": "gallery_restored_verified",
-      "completed_at": "2026-10-25T23:17:11.868890Z"
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
+    "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-28T09:54:49+00:00",
+    "set_at": "2026-10-28T10:06:13+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

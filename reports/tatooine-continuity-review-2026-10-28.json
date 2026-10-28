@@ -3,7 +3,7 @@
   "project": "seregius",
   "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
   "title": "Татуинская связка: полная проверка референсов и переходов",
-  "status": "content_published_navigation_verified_pending_deploy",
+  "status": "completed",
   "checked_at": "2026-10-28T09:47:00+00:00",
   "source_head": "48f0887bd6763538b65e5a88f1d64029fbe6ef46",
   "chain": [
@@ -27,7 +27,8 @@
     "Clarified camera clearance around the awning; continuous outgoing shots66/67; level resting position of filled dustpan; toast image timing follows the prompt.",
     "Added explicit planned actual-video cut paths to alternate Part2/P7 prompts; no nonexistent video marked available.",
     "Preserved seven titled scene headings, clarified Masha names and52P7 headings, added a seven-step handoff table and direct52P7 navigation anchor.",
-    "Deep links now reveal the intended engine tab before scrolling, including a repeated click on the same anchor; USER-GUIDE and handoff updated and exact-byte certificate rebuilt."
+    "Deep links now reveal the intended engine tab before scrolling, including a repeated click on the same anchor; USER-GUIDE and handoff updated and exact-byte certificate rebuilt.",
+    "Removed stale P1-waiting-for-slot wording in the scene52 overview; existing submitted task remains unchanged."
   ],
   "reference_assessment": {
     "new_images_required_now": false,
@@ -549,7 +550,62 @@
         "conclusion": "success",
         "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40667050470"
       }
-    ]
+    ],
+    "navigation_github_runs": [
+      {
+        "id": 40668608609,
+        "name": "Canon health (stale, oversized and broken canon parts)",
+        "head_sha": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40668608609"
+      },
+      {
+        "id": 40668608634,
+        "name": "Validate Control Center",
+        "head_sha": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40668608634"
+      },
+      {
+        "id": 40668608419,
+        "name": "Shadow pilot takeover brief (not canonical)",
+        "head_sha": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40668608419"
+      },
+      {
+        "id": 40668608580,
+        "name": "AI Film integration recovery tests",
+        "head_sha": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40668608580"
+      },
+      {
+        "id": 40668608420,
+        "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+        "head_sha": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40668608420"
+      },
+      {
+        "id": 40668606755,
+        "name": "pages build and deployment",
+        "head_sha": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40668606755"
+      }
+    ],
+    "continue_before_completion": {
+      "ready_for_short": true,
+      "reasons": [],
+      "checked_at": "2026-10-28T10:01:26+00:00"
+    }
   },
   "new_images": 0,
   "new_queue_items": 0,
@@ -564,9 +620,107 @@
     "Pending actual video endings remain blocked"
   ],
   "remaining": [
-    "Publish and verify changed public documents.",
     "For generated results, verify likeness, exactly four vendor arms, one satchel/melon, pile continuity, cleanup into the pan and70→65 gesture continuity.",
     "Use only QC-checked real ending clips for each subsequent launch."
   ],
-  "content_commit": "95b97b88a4d05febe6764f219725910f50eb2713"
+  "content_commit": "95b97b88a4d05febe6764f219725910f50eb2713",
+  "completed_at": "2026-10-28T10:06:13+00:00",
+  "navigation_commit": "13a7b6c6bfc9910be2228d1bcaacb6ebbb560ddc",
+  "public_content_readback": {
+    "checked_at": "2026-10-28T10:05:49.219104+00:00",
+    "files": [
+      {
+        "path": "video-prompts.md",
+        "url": "https://virudik.github.io/ai-film-prompts/video-prompts.md?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "d3da04d9be56712d9076d29d22c3ad27b2d2ce957ff68bc9d8d9d6cd95e734d2",
+        "matches_git": true
+      },
+      {
+        "path": "character-references.json",
+        "url": "https://virudik.github.io/ai-film-prompts/character-references.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "057acef5bc4e980c872aa2343413e8115886b4bf0d71ac41d2e3b91b17349f43",
+        "matches_git": true
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "url": "https://virudik.github.io/ai-film-prompts/ops/topview-launch-queue.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "2ca0d546931fcc2d37cdad50d898466a101f1ba52c62fe5b6bf86d3d4113585d",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/manifest.json",
+        "url": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-52/manifest.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "d0c498a724c799c15d79b1c76eae45693d4372bbdb9d094e8243ec1c7f21ee8f",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-65/manifest.json",
+        "url": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-65/manifest.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "48d55352dfcfa9e5f4f6785b6e5a21a3069c84b6da5d41c988824cbc69c1685a",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-66/manifest.json",
+        "url": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-66/manifest.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "aa0784bf03be3732f3abe649c5b621d053648b05ec2621a8d4246b0666d0a209",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-67/manifest.json",
+        "url": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-67/manifest.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "033c456141edb551c5f1d449d67dd866e9964de64ad1be5083e5e5923496cf56",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-68/manifest.json",
+        "url": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-68/manifest.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "188a9ca1c4eb2740a546aeb8d2752c0d00307773fafdb0c0cdb62693e09abd9d",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-69/manifest.json",
+        "url": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-69/manifest.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "efbd13052828bdfdd74977b7a9332e77bf724064c77ccf7c034a5072d504a193",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-70/manifest.json",
+        "url": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-70/manifest.json?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "5694b370ad4c36dd07920cbc4844dea0256db07139a97b078d1f969a790fdc2b",
+        "matches_git": true
+      },
+      {
+        "path": "index.html",
+        "url": "https://virudik.github.io/ai-film-prompts/index.html?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "ea3115466685fc11afc2310376af19311fc7a9c34ad32deccf31e9b9b23454f3",
+        "matches_git": true
+      },
+      {
+        "path": "USER-GUIDE.md",
+        "url": "https://virudik.github.io/ai-film-prompts/USER-GUIDE.md?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "dab4dada768960c032df56e011aea7a5d55517d786ed99ed74af81c6abd8e8a0",
+        "matches_git": true
+      },
+      {
+        "path": "NEW-CHAT-HANDOFF.md",
+        "url": "https://virudik.github.io/ai-film-prompts/NEW-CHAT-HANDOFF.md?tatooine-readback=c63ee0d7",
+        "http_status": 200,
+        "sha256": "d30130420146114513c21e26c8852ef597623533b5d75e0c61139e3f24cd6f7a",
+        "matches_git": true
+      }
+    ],
+    "scope_note": "Published content/navigation verified before final checkpoint-only commit and one editorial overview status correction; no prompt/image changes in that final correction."
+  }
 }
