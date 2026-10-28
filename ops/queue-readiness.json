@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_queue_sha256": "834a688ddb87b6a052a5213267750c86fa7a7a41073abfb65fbde8e78c8f77e3",
-  "source_task_map_sha256": "ed914490841e6371e66f0ccdc8b646daa56c510ab9da4897abbb8de61faf43bd",
-  "topview_checked_at": "2026-10-28T14:30:20Z",
+  "source_task_map_sha256": "cc590a2e710e0ffeae6974278dfe9ed11213c1127fa09fd081575460cffbcc05",
+  "topview_checked_at": "2026-10-28T15:21:50Z",
   "items": [
     {
       "id": "S66-STITCH-NB-IMAGE-1",
@@ -501,5 +501,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-28T15:09:33.372167Z"
+  "checked_at": "2026-10-28T15:21:55.143119Z"
 }
