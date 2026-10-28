@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-28T03:14:15.395Z",
+  "updated_at": "2026-10-28T09:40:35+00:00",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -1721,7 +1721,7 @@
       "duration_seconds": 15,
       "model_text": "Seedance 2.0",
       "queued": false,
-      "canonical_prompt_sha256": "4514de2c4313bf4a383d0303f404bb7c3090c0c5ec2a54e812c0103097b78c3a",
+      "canonical_prompt_sha256": "eb08dd3070fd15c00268b9a217ac4de4441dd011836210bf76579b468c0994a3",
       "images": [
         {
           "slot": "@Image1",
@@ -1765,8 +1765,8 @@
         }
       ],
       "video_source": "actual selected S52-R2-SEED20-P6 Seedance2.0 result; this15s P7 is an unqueued alternative",
-      "normalized_prompt_sha256": "cb864c775b7c8c0b993a4775e0f218b6c55fb2f1024d3b201ec7fa19731e740e",
-      "characters": 4826
+      "normalized_prompt_sha256": "b934e87b92e587cae1599322286fcc149e045ab266e4bf3188f087d95e2303f0",
+      "characters": 4955
     }
   ],
   "story_chain": {

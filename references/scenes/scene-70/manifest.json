@@ -114,7 +114,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T03:04:40.753Z",
+  "updated_at": "2026-10-28T09:40:35+00:00",
   "prompt_reference_mapping": [
     {
       "label": "70",
@@ -201,9 +201,9 @@
     },
     {
       "label": "70 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "ed43d3b7efca5158016ea6c04b5346fd3204bb0a9416dd0edff4d33b6fb02aed",
-      "normalized_prompt_sha256": "85a76b801fc943cf548cc2c14e43773dfa380b780a05fa4d40f31caaff0aeb57",
-      "characters": 5665,
+      "canonical_prompt_sha256": "8529939e038abb0ee5d295dfc8d7e84e5fea0ff3db9029892225b83990289b26",
+      "normalized_prompt_sha256": "5a42051d6703151340478ade1222cd18c25b2765636b4a5a15f7b9a5cf9623d6",
+      "characters": 5789,
       "slots": [
         {
           "slot": "@Video1",

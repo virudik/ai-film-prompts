@@ -952,6 +952,7 @@
       "name": "Четырёхрукий торговец фруктами",
       "kind": "scene_reference",
       "scenes": [
+        66,
         67
       ],
       "editorial_status": "not_approved",
@@ -1232,8 +1233,8 @@
               "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
             }
           ],
-          "usage": "pose_composition_helper_only_not_prompt_input",
-          "updated_at": "2026-10-27T22:57:20Z",
+          "usage": "prompt_input_composition_only",
+          "updated_at": "2026-10-28T09:40:35+00:00",
           "aspect_check": {
             "requested": "16:9",
             "actual_dimensions": [

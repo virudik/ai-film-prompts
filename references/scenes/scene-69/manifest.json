@@ -293,7 +293,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T03:04:35.711Z",
+  "updated_at": "2026-10-28T09:40:35+00:00",
   "last_qc_at": "2026-10-27T23:08:17Z",
   "pose_composition_helpers": [
     "references/scenes/scene-69/S69-masha-masterclass.png"
@@ -301,9 +301,9 @@
   "prompt_reference_mapping": [
     {
       "label": "69",
-      "canonical_prompt_sha256": "77ef1690215e5c35cfeccca6f87efbff52a49b9c744cad73730856e3141e7e0a",
-      "normalized_prompt_sha256": "a28de630a675cb926f2fad95b6c2974bc788546c5c8fd201ee26d5603879e084",
-      "characters": 7755,
+      "canonical_prompt_sha256": "2af66dfa76a618d679da988a7375997ae90555a51e8cc5a328a7a4936c8b9a9d",
+      "normalized_prompt_sha256": "f66171736b643afb5215de8be14e3e8e174dd2bec4bb1f599dd52c0ad3752055",
+      "characters": 7781,
       "slots": [
         {
           "slot": "@Video1",
@@ -432,9 +432,9 @@
     },
     {
       "label": "69 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "80b927e6fd87387e95ce5e31e756eae3eceec55b3931574b4211fe447548cf79",
-      "normalized_prompt_sha256": "f004fbd3f25003c936a67d2ee458eb6d28ce013aa132b6fa479f9ea05d8e06bf",
-      "characters": 6988,
+      "canonical_prompt_sha256": "253e026d89417d4fc145e6aded770b767d7b6b40f8f98db55db5ae727a330316",
+      "normalized_prompt_sha256": "5366ca14f98fed505bf617060f4a2bf727dc7fc7e31a584cf68c484a7853a260",
+      "characters": 7138,
       "slots": [
         {
           "slot": "@Video1",

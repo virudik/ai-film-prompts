@@ -130,16 +130,16 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T03:04:22.837Z",
+  "updated_at": "2026-10-28T09:40:35+00:00",
   "identity_refs": [
     "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png"
   ],
   "prompt_reference_mapping": [
     {
       "label": "67",
-      "canonical_prompt_sha256": "e34f954166d139977b9fd1a153c217a00ab18917f36b7db281bc02a2733bb481",
-      "normalized_prompt_sha256": "c89f4d6fe1e3bcf0b524e27fbc4751c6826b072efc49788006f2b24a779468b0",
-      "characters": 5425,
+      "canonical_prompt_sha256": "ecb0df11dc689c3fe63c5ac1f99632f4d88b972ce13ca73d58b24f2183949bce",
+      "normalized_prompt_sha256": "005aa34e95f5b8cf206095cc477ef06030e2de0f8c7d911128af6e72aa91ee79",
+      "characters": 5821,
       "slots": [
         {
           "slot": "@Video1",
@@ -179,9 +179,9 @@
     },
     {
       "label": "67 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "fdf3deccee5bf057bcb1b6771aa02e91d51b7e89db836b706c8fce4bab6f0dd3",
-      "normalized_prompt_sha256": "8eccf2bcfd28abc29af9e69965db7da4d8c130b848cff4a53767343c2b60fa2d",
-      "characters": 4788,
+      "canonical_prompt_sha256": "bb3dd959b3532c4fc2a2350216dd62bf73e9231d0151986542e9ba9157482f07",
+      "normalized_prompt_sha256": "c2af37e7058bb61437cc313690d4059b6388a07d0c7f993bf0e07cc9a48069a6",
+      "characters": 5118,
       "slots": [
         {
           "slot": "@Video1",
@@ -220,9 +220,9 @@
     },
     {
       "label": "67 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "64986d5cdc59666bc5020175d9b767315ed59978f1f5d23e86fc804ae38548fc",
-      "normalized_prompt_sha256": "221d422fa233008320b1b85dc20c2ee2f712a38bde7cb92a04f32c848b9190f8",
-      "characters": 4717,
+      "canonical_prompt_sha256": "6cb61da1d5191fca3292cdeb6c4019bd6810692b8e39b0ae102bb22a41224a70",
+      "normalized_prompt_sha256": "d76ee2078b85a784d8ea8a0195e6ac8754eaeba973f5f779d1bfa5676f868c86",
+      "characters": 5217,
       "slots": [
         {
           "slot": "@Video1",

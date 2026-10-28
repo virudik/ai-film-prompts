@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
+  "title": "Татуинская связка: полная проверка референсов и переходов",
+  "status": "verified_pending_publication",
+  "checked_at": "2026-10-28T09:47:00+00:00",
+  "source_head": "48f0887bd6763538b65e5a88f1d64029fbe6ef46",
+  "chain": [
+    {
+      "scene": 52,
+      "part": 7
+    },
+    66,
+    67,
+    68,
+    69,
+    70,
+    65
+  ],
+  "scope": "Seven linked scenes;20 selected/alternate prompts, galleries, identities, props and queue bindings. No new images, video submissions or editorial approvals.",
+  "findings_fixed": [
+    "Scene66 lacked the exact vendor identity needed at the67 handoff: existing S67-vendor.png is now Image6 in all three blocks, queue, manifest, gallery and registry scene usage.",
+    "Scene68 composition helper was gallery-only: existing S68-crew-sweeping-street.png is now Image6 with strictly limited staging authority, preserving actual video state and entry timing.",
+    "Scoped scene66 cleanup-bag negative to girls; established the same single Masha satchel/melon; retained vendor identity across66→67.",
+    "Corrected alternate66P1 timeline17→15seconds, removed future-half actions/camera directions from first halves, and split scene67 dialogue/audio by part without changing lines.",
+    "Clarified camera clearance around the awning; continuous outgoing shots66/67; level resting position of filled dustpan; toast image timing follows the prompt.",
+    "Added explicit planned actual-video cut paths to alternate Part2/P7 prompts; no nonexistent video marked available.",
+    "Preserved seven titled scene headings, clarified Masha names and52P7 headings, added a seven-step handoff table and direct52P7 navigation anchor."
+  ],
+  "reference_assessment": {
+    "new_images_required_now": false,
+    "redraw_required_now": false,
+    "visual_review": "Reviewed current contact sheets and full-size vendor, cantina entrance and toast images. No material identity/design/anatomy defect requiring a redraw for their assigned reference roles.",
+    "stitch": "Reuse existing street image; separate portrait unnecessary. Individual Alina/Dasha sheets override faces in scene composition.",
+    "pile": "Already visible in existing68/69 composition images; separate pile image unnecessary. Actual66 result must still be checked for location continuity before68/69.",
+    "masha_props": "One brown satchel and one pale-blue ribbed melon; transfers represented in existing handoff and cleanup helpers.",
+    "extra_gallery_images": "Scene67 argument and69 cleanup compositions remain review helpers; do not blindly add every gallery image to the already-full69 input set.",
+    "authority": "Individual identity sheets > composition faces; real video end controls starting state; tools have separate references; technical QC is not owner approval."
+  },
+  "verification": {
+    "prompt_blocks": 20,
+    "image_slot_bindings": 94,
+    "explicit_valid_file_bindings": 94,
+    "selected_queue": [
+      {
+        "id": "S52-R2-SEED20-P7",
+        "images": 5,
+        "state": "blocked_inputs"
+      },
+      {
+        "id": "S65-WAN30",
+        "images": 4,
+        "state": "blocked_inputs"
+      },
+      {
+        "id": "S66-WAN30",
+        "images": 6,
+        "state": "blocked_inputs"
+      },
+      {
+        "id": "S67-WAN30",
+        "images": 3,
+        "state": "blocked_inputs"
+      },
+      {
+        "id": "S68-WAN30",
+        "images": 6,
+        "state": "blocked_inputs"
+      },
+      {
+        "id": "S69-WAN30",
+        "images": 6,
+        "state": "blocked_inputs"
+      },
+      {
+        "id": "S70-WAN30",
+        "images": 3,
+        "state": "blocked_inputs"
+      }
+    ],
+    "public_paths": [
+      "references/full/serega.jpg",
+      "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+      "references/scenes/scene-37/S37-cockpit-empty.png",
+      "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "references/scenes/scene-52/S52-P1-boarding.jpg",
+      "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+      "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+      "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+      "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+      "references/scenes/scene-52/S52-P6-disembark.jpg",
+      "references/scenes/scene-52/S52-P7-town-walk.jpg",
+      "references/scenes/scene-52/S52-cruiser-topview.jpg",
+      "references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4",
+      "references/scenes/scene-65/S65-bar-table.png",
+      "references/scenes/scene-65/S65-toast-closeup.png",
+      "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "references/scenes/scene-66/S66-street-outrage.png",
+      "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+      "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "references/scenes/scene-67/S67-fruit-stall.png",
+      "references/scenes/scene-67/S67-vendor.png",
+      "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "references/scenes/scene-68/S68-light-broom.png",
+      "references/scenes/scene-68/S68-sweepers-crew.png",
+      "references/scenes/scene-69/S69-light-dustpan.png",
+      "references/scenes/scene-69/S69-masha-masterclass.png",
+      "references/scenes/scene-69/S69-melon-bag-handoff.png",
+      "references/scenes/scene-70/S70-cantina-entrance.png",
+      "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+      "references/thumbs/full/serega.jpg.webp",
+      "references/thumbs/scenes/scene-10/S10-Image1-cantina-source.png.webp",
+      "references/thumbs/scenes/scene-52/S52-P1-boarding.jpg.webp",
+      "references/thumbs/scenes/scene-52/S52-P2-hangar-takeoff.jpg.webp",
+      "references/thumbs/scenes/scene-52/S52-P3-cruiser-flyby.jpg.webp",
+      "references/thumbs/scenes/scene-52/S52-P4-tatooine-approach.jpg.webp",
+      "references/thumbs/scenes/scene-52/S52-P5-tatooine-landing.jpg.webp",
+      "references/thumbs/scenes/scene-52/S52-P6-disembark.jpg.webp",
+      "references/thumbs/scenes/scene-52/S52-P7-town-walk.jpg.webp",
+      "references/thumbs/scenes/scene-52/S52-cruiser-topview.jpg.webp",
+      "references/thumbs/scenes/scene-65/S65-bar-table.png.webp",
+      "references/thumbs/scenes/scene-65/S65-toast-closeup.png.webp",
+      "references/thumbs/scenes/scene-66/S66-Alina-tatooine-sheet.png.webp",
+      "references/thumbs/scenes/scene-66/S66-Dasha-tatooine-sheet.png.webp",
+      "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",
+      "references/thumbs/scenes/scene-67/S67-Masha-R-market-quarrel.png.webp",
+      "references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp",
+      "references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp",
+      "references/thumbs/scenes/scene-67/S67-vendor.png.webp",
+      "references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp",
+      "references/thumbs/scenes/scene-68/S68-light-broom.png.webp",
+      "references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp",
+      "references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp",
+      "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
+      "references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp",
+      "references/thumbs/scenes/scene-70/S70-cantina-entrance.png.webp"
+    ],
+    "images_unchanged": true,
+    "submitted_prompts_unchanged": true,
+    "issues": []
+  },
+  "public_image_readback": {
+    "checked_at": "2026-10-28T09:43:28.260990+00:00",
+    "checked": 57,
+    "files": [
+      {
+        "path": "references/full/serega.jpg",
+        "http_status": 200,
+        "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+        "http_status": 200,
+        "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+        "http_status": 200,
+        "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+        "http_status": 200,
+        "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+        "http_status": 200,
+        "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-P1-boarding.jpg",
+        "http_status": 200,
+        "sha256": "74ca7081d56feb13bef53267533cf93c3cbb83732161ae9ceb7cec959555b321",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+        "http_status": 200,
+        "sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+        "http_status": 200,
+        "sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+        "http_status": 200,
+        "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+        "http_status": 200,
+        "sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-P6-disembark.jpg",
+        "http_status": 200,
+        "sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+        "http_status": 200,
+        "sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+        "http_status": 200,
+        "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-52/S52-from-S44-seed25-last3s-20261027.mp4",
+        "http_status": 200,
+        "sha256": "67d37583c8c7bd0d1d903a15639d4f032e9e047babbf833353e2ef88a621c04a",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-65/S65-bar-table.png",
+        "http_status": 200,
+        "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-65/S65-toast-closeup.png",
+        "http_status": 200,
+        "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "http_status": 200,
+        "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+        "http_status": 200,
+        "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-66/S66-street-outrage.png",
+        "http_status": 200,
+        "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+        "http_status": 200,
+        "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "http_status": 200,
+        "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-67/S67-fruit-stall.png",
+        "http_status": 200,
+        "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-67/S67-vendor.png",
+        "http_status": 200,
+        "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+        "http_status": 200,
+        "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-68/S68-light-broom.png",
+        "http_status": 200,
+        "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+        "http_status": 200,
+        "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-69/S69-light-dustpan.png",
+        "http_status": 200,
+        "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+        "http_status": 200,
+        "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+        "http_status": 200,
+        "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+        "http_status": 200,
+        "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+        "matches_git": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+        "http_status": 200,
+        "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/full/serega.jpg.webp",
+        "http_status": 200,
+        "sha256": "5190aa42dd3d5f280aa0d96a1ac083e73c5f1b005b8e9a8b99d77a5459e779bb",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-10/S10-Image1-cantina-source.png.webp",
+        "http_status": 200,
+        "sha256": "95714e31887d1da3cd6cb43aaecaca58727ad6282c25ff3506c4377c1d68d775",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-P1-boarding.jpg.webp",
+        "http_status": 200,
+        "sha256": "7a18d2ff5f34d3c7ff6ff122573fb84650dd541a6235005a7bab06c25709d7f5",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-P2-hangar-takeoff.jpg.webp",
+        "http_status": 200,
+        "sha256": "73d9877547c217d43d9ff3a657b898cc76771a826bffb61ab1562f3a25774cce",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-P3-cruiser-flyby.jpg.webp",
+        "http_status": 200,
+        "sha256": "60be1ba21c84fc3f2b378adc93f62072ea9739fe6e929a96561c438e05895d9d",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-P4-tatooine-approach.jpg.webp",
+        "http_status": 200,
+        "sha256": "9f40fdefcfc40a77566e0eb1e8965a0113fdbed1bceb396b17b15814b53f4565",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-P5-tatooine-landing.jpg.webp",
+        "http_status": 200,
+        "sha256": "1803dffc6622155653e31dcdeb700c3ad26dc8e68eaef5d92f3cc722f9c57be9",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-P6-disembark.jpg.webp",
+        "http_status": 200,
+        "sha256": "eb06e6f6af6868d8ed35db58695c9067f39d7938e357069f019fc2560b132842",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-P7-town-walk.jpg.webp",
+        "http_status": 200,
+        "sha256": "fbef7a2f2edd98264793bd387cb90d8bc70147c346c6444a6f257f200c856933",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-52/S52-cruiser-topview.jpg.webp",
+        "http_status": 200,
+        "sha256": "0bf9c68b0ad134813e9a4ba57ba8ead0b6f52cff7d19b67e3f9fa6744d6efa30",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-65/S65-bar-table.png.webp",
+        "http_status": 200,
+        "sha256": "f4075b3be4e644ca759524518f5ced6e97b6b02eab5608d9db1daedcf521e073",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-65/S65-toast-closeup.png.webp",
+        "http_status": 200,
+        "sha256": "f6464bffedbc276c6f7f02c94bf77c95200111a78afd0adb6ed61d8b657e60e7",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-66/S66-Alina-tatooine-sheet.png.webp",
+        "http_status": 200,
+        "sha256": "9c4cd16e2a58f549cd3404829311bfd6d639d36e90afff8f64126505ede42c93",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-66/S66-Dasha-tatooine-sheet.png.webp",
+        "http_status": 200,
+        "sha256": "efa2c8f418d17940fb7553018982d92a1a808eb6641f1055ca061c76924d3f73",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",
+        "http_status": 200,
+        "sha256": "7a680c1fe30bebcc3ad812da600d8ab2e5e8677777cc79f88e8d06b949b9f032",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-67/S67-Masha-R-market-quarrel.png.webp",
+        "http_status": 200,
+        "sha256": "4e014d2b194927dfd8efcb4724099437c529d31255a1462f4afe31fb63602edd",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp",
+        "http_status": 200,
+        "sha256": "c6d7ec57e0fd7f91a363fe5fde1229674e810f521fcf69603838d6b7e692d85e",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp",
+        "http_status": 200,
+        "sha256": "1ae0bfd0a81e83c9ce2b09aaa44b85f8f951367693e0289dcdd1944e58c4f746",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-67/S67-vendor.png.webp",
+        "http_status": 200,
+        "sha256": "1efa9554dfd726e9986b7f002e50f0502a5899339d5ddcef83a2566679cfd8d3",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp",
+        "http_status": 200,
+        "sha256": "61effb07f3fb4804fb594d1e753ee634eff1fd68fd5b844f91cae4afe4e7105f",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-68/S68-light-broom.png.webp",
+        "http_status": 200,
+        "sha256": "9b20433a98a00a8610f09cedd0512007ad0939bfd1fea9f4607ac5efe0fce813",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp",
+        "http_status": 200,
+        "sha256": "1cf7a30fc95be4779e4f23af7f71ef97e53f7522df3979640e0c87e9799cf016",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp",
+        "http_status": 200,
+        "sha256": "962e4ba2177f4a7ce8c7f4ec2cb816ea3bf4f9ce447bb92f042d88407ed80320",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
+        "http_status": 200,
+        "sha256": "e1aed72777d0b8a8702934fa6236d5d5a9517363f0940ba407c0af81a7854f1d",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp",
+        "http_status": 200,
+        "sha256": "8f43f33795fbce5e3c9f6215c293d53721e56df973e86143b746ab440c6bb34f",
+        "matches_git": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-70/S70-cantina-entrance.png.webp",
+        "http_status": 200,
+        "sha256": "a1d3d1ec2a8e7f40279763b8bcaca629b65f338698d95a2fb1f987a03c234fa1",
+        "matches_git": true
+      }
+    ],
+    "issues": []
+  },
+  "tests": {
+    "unittest_passed": 348,
+    "unittest_failed": 0,
+    "site": "passed",
+    "review_ledger": "passed",
+    "canon_health": "ok;0warnings",
+    "master_health": "ok"
+  },
+  "new_images": 0,
+  "new_queue_items": 0,
+  "video_submissions": 0,
+  "paid_actions": 0,
+  "owner_approvals_added": 0,
+  "preserved": [
+    "Queue order, IDs, claims, task IDs, states and prior authorization",
+    "All existing image bytes",
+    "All submitted prompt texts",
+    "Wan3/30s selected for seven links;52P1–P6 Seedance2.0 unchanged",
+    "Pending actual video endings remain blocked"
+  ],
+  "remaining": [
+    "Publish and verify changed public documents.",
+    "For generated results, verify likeness, exactly four vendor arms, one satchel/melon, pile continuity, cleanup into the pan and70→65 gesture continuity.",
+    "Use only QC-checked real ending clips for each subsequent launch."
+  ]
+}

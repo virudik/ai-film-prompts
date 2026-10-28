@@ -165,25 +165,56 @@
         941
       ],
       "bytes": 2247428
+    },
+    {
+      "path": "references/scenes/scene-67/S67-vendor.png",
+      "asset_id": "references/scenes/scene-67/S67-vendor.png",
+      "caption": "Четырёхрукий торговец фруктами",
+      "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2949845,
+      "role": "Четырёхрукий торговец фруктами",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (open Work)",
+      "project_id": "seregius",
+      "created_at": "2026-10-27T19:08:22+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-27T19:08:22+00:00",
+        "scope": "Visual inspection of subject, composition, identity where supplied, anatomy, 16:9 and no lettering/logos. Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-67/S67-vendor.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-67/S67-vendor.image-prompt.txt",
+      "reused_from_existing_pack": true
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T03:04:17.550Z",
+  "updated_at": "2026-10-28T09:40:35+00:00",
   "identity_refs": [
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
     "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
-    "references/scenes/scene-66/S66-street-outrage.png"
+    "references/scenes/scene-66/S66-street-outrage.png",
+    "references/scenes/scene-67/S67-vendor.png"
   ],
   "last_qc_at": "2026-10-27T21:05:05+00:00",
   "prompt_reference_mapping": [
     {
       "label": "66",
-      "canonical_prompt_sha256": "653e3c50bee8859ca09dadb957fa1c3cbf077058d7448d2d61408d0afcf8019b",
-      "normalized_prompt_sha256": "c2e35ecdba89e787c70a82f3522325b6b58d1dd3f73a38597d3896278c707501",
-      "characters": 6545,
+      "canonical_prompt_sha256": "1a6885e17be7eee784fda4d2d3a779222a51e5e8a5edce65d41e515a8022144f",
+      "normalized_prompt_sha256": "c665c38181b22c5548ae5838c8055e1a43ecdd8fcc11caae78038c9238c09200",
+      "characters": 7377,
       "slots": [
         {
           "slot": "@Video1",
@@ -233,6 +264,14 @@
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
           "input_status": "available",
           "canonical_role": "Маша Р: развёртка в одежде Татуина; only at the end, continuity to scene 67"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "canonical_role": "Exact four-armed vendor identity for the closing handoff to67; absent from Seedance Part1",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "prompt_id": "S66-WAN30",
@@ -240,9 +279,9 @@
     },
     {
       "label": "66 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "b236100b4fe37c4e77c4a369da1455bb9a586294e9a5814b14abfd1501d2d49b",
-      "normalized_prompt_sha256": "04d8280c2835ef956a5e9a8e0ce90c9e6239ff8802b0dfa9ac423191fae43965",
-      "characters": 5951,
+      "canonical_prompt_sha256": "1ab168c9becc89c9f9634542d6b82c5fe7fbab29ee8513a21e200805381b8a95",
+      "normalized_prompt_sha256": "d05bbc3e5aa6b00fc643c686ac6ba70ea12c93a0098c5183eadd6de10725a85b",
+      "characters": 6575,
       "slots": [
         {
           "slot": "@Video1",
@@ -292,15 +331,23 @@
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
           "input_status": "available",
           "canonical_role": "Маша Р: развёртка в одежде Татуина; only at the end, continuity to scene 67"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "canonical_role": "Exact four-armed vendor identity for the closing handoff to67; absent from Seedance Part1",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "queued": false
     },
     {
       "label": "66 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "10eab015fd741296050d5af58289abe75a9402f32b2eb669b31582ee902628f2",
-      "normalized_prompt_sha256": "4b7ac7838fa404512b69aa5ca654c71a410206f02accc959bd0f34485967f7a7",
-      "characters": 5822,
+      "canonical_prompt_sha256": "71046d3035d26be40f721d8f28728fb24dd24ffa19bd67126c47bad3f13b0849",
+      "normalized_prompt_sha256": "41357f38fbf68b4101c31d13fc2568f429f84485d560f9f6249a71f16ae627aa",
+      "characters": 6792,
       "slots": [
         {
           "slot": "@Video1",
@@ -348,6 +395,14 @@
           "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
           "input_status": "available",
           "canonical_role": "Маша Р: развёртка в одежде Татуина; only at the end, continuity to scene 67"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "canonical_role": "Exact four-armed vendor identity for the closing handoff to67; absent from Seedance Part1",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "queued": false
