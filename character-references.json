@@ -1207,9 +1207,11 @@
           "site_published": {
             "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
             "linked_in_master": true,
-            "git_present": false,
-            "status": "local_worktree_pending_publication_readback",
-            "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac"
+            "git_present": true,
+            "status": "public_readback_verified",
+            "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+            "verified_at": "2026-10-28T08:48:35.608941+00:00",
+            "evidence": "reports/successor-audit-2026-10-28.json"
           },
           "prompt_file": "references/scenes/scene-68/S68-crew-sweeping-street.image-prompt.txt",
           "reference_inputs": [
@@ -1283,9 +1285,11 @@
           "site_published": {
             "path": "references/scenes/scene-69/S69-masha-masterclass.png",
             "linked_in_master": true,
-            "git_present": false,
-            "status": "local_worktree_pending_publication_readback",
-            "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201"
+            "git_present": true,
+            "status": "public_readback_verified",
+            "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+            "verified_at": "2026-10-28T08:48:35.608941+00:00",
+            "evidence": "reports/successor-audit-2026-10-28.json"
           },
           "prompt_file": "references/scenes/scene-69/S69-masha-masterclass.image-prompt.txt",
           "reference_inputs": [
@@ -1374,9 +1378,11 @@
           "site_published": {
             "path": "references/scenes/scene-69/S69-light-dustpan.png",
             "linked_in_master": true,
-            "git_present": false,
-            "status": "local_worktree_pending_publication_readback",
-            "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
+            "git_present": true,
+            "status": "public_readback_verified",
+            "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+            "verified_at": "2026-10-28T08:48:35.608941+00:00",
+            "evidence": "reports/successor-audit-2026-10-28.json"
           },
           "prompt_file": "references/scenes/scene-69/S69-light-dustpan.image-prompt.txt",
           "prompt_sha256": "ee55e356c91bb9dd5b9bc6c452d9dd642ed02fdd63f4949159d8d1e518d9ddc9",
@@ -1437,9 +1443,11 @@
           "site_published": {
             "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
             "linked_in_master": true,
-            "git_present": false,
-            "status": "local_worktree_pending_publication_readback",
-            "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f"
+            "git_present": true,
+            "status": "public_readback_verified",
+            "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+            "verified_at": "2026-10-28T08:48:35.608941+00:00",
+            "evidence": "reports/successor-audit-2026-10-28.json"
           },
           "prompt_file": "references/scenes/scene-69/S69-melon-bag-handoff.image-prompt.txt",
           "prompt_sha256": "44d596b6d59f7d0fcde9f6c55c3dfd51438345e4732c45f68c3d36ba03e8659f",
@@ -1516,9 +1524,11 @@
           "site_published": {
             "path": "references/scenes/scene-70/S70-cantina-entrance.png",
             "linked_in_master": true,
-            "git_present": false,
-            "status": "local_worktree_pending_publication_readback",
-            "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9"
+            "git_present": true,
+            "status": "public_readback_verified",
+            "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+            "verified_at": "2026-10-28T08:48:35.608941+00:00",
+            "evidence": "reports/successor-audit-2026-10-28.json"
           },
           "prompt_file": "references/scenes/scene-70/S70-cantina-entrance.image-prompt.txt",
           "prompt_sha256": "72dcab34849b3822c4cdb9c469b8e8a7be52335fd68c43be50cf791c0f9ace20",

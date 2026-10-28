@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T08:41:28+00:00",
+  "last_updated_at": "2026-10-28T09:12:23+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -302,9 +302,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-28T08:06:00Z",
+      "updated_at": "2026-10-28T09:11:19+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Six physical slots are occupied. Wait for exact results and QC; prepare genuine continuity only from successful sources. S28-A1 terminal result is reviewed without owner approval and its already authorized R2 gate is open at priority2.01. On a free slot, use the fresh global queue and minimum actually ready priority; do not repeat existing tasks.",
+      "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -314,38 +314,29 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-27T22:30:37+00:00",
-        "last_completed": "Татуинская цепочка52P7→66→67→68→69 согласована; все пять звеньев выбраны Wan3/30с перед49–51/28. Опубликовано и проверено по точным публичным SHA; content commit 71056a649105eb5fca6d482ce024363b559894c6.",
-        "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
+        "verified_at": "2026-10-28T09:11:19+00:00",
+        "last_completed": "Проверены материалы и работа сменщика; восстановлена готовность S64 и согласованность плана. Relay ранее запустил52P1, S28A1 получил QC.",
+        "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Татуин — связность и выбранные версии Wan 3 · 28.10.2026",
-          "sha256": "a0400b3e906e78a4c06c35138cf21486bc00e62e256b02b083493d57f3c91639"
+          "anchor": "# Основной план после проверки сменщика · 28.10.2026",
+          "sha256": "fc09885070759a1c6db2b2340d12c7bef67509146d2086cb558925ec0691048a"
         },
         "evidence": [
           {
-            "file": "reports/scene52-rebuild-2026-10-27.json",
-            "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
+            "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+            "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908"
           },
           {
-            "file": "reports/continue-multiproject-2026-10-27.json",
-            "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d"
-          },
-          {
-            "file": "reports/open-work-refs-relay-2026-10-27.json",
-            "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b"
-          },
-          {
-            "file": "reports/tatooine-chain-2026-10-28.json",
-            "sha256": "2486c4f4ac78c44d2e34ced739c1f859fd035bf357d9a73410803444073f1a0e"
+            "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+            "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379"
           }
         ],
         "read_next": [
-          "ops/CONTINUE-PROTOCOL.md",
-          "reports/handoff-receipts.json",
-          "reports/scene52-seven-parts-handoff-2026-10-27.md",
+          "reports/successor-audit-2026-10-28.json",
+          "ops/OWNER-TASKS.md",
           "ops/TOPVIEW-FREE-LAUNCH.md",
-          "ops/OWNER-TASKS.md"
+          "ops/topview-launch-queue.json"
         ],
         "blockers": []
       },
@@ -723,17 +714,17 @@
     {
       "work_id": "SUCCESSOR-AUDIT-20261028",
       "title": "Проверка завершённой работы сменщика: референсы, Relay, Продолжай",
-      "status": "in_progress",
+      "status": "verified_locally_pending_publication",
       "project": "seregius",
       "canonical_refs": [
         "reports/successor-audit-2026-10-28.json"
       ],
-      "updated_at": "2026-10-28T08:41:28+00:00",
+      "updated_at": "2026-10-28T09:12:23+00:00",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-28T08:41:28+00:00",
-        "last_completed": "Прочитан отчёт сменщика и свежий main; найдены два подтверждённых несоответствия.",
-        "next_action": "Проверить артефакты и связи, исправить подтверждённые ошибки, выполнить проверки и вернуть основной фокус.",
+        "verified_at": "2026-10-28T09:12:23+00:00",
+        "last_completed": "Проверены28 PNG,34 входа,72 публичных файла;348 тестов и актуальный Continue preflight прошли.",
+        "next_action": "Опубликовать исправления, проверить обновлённый сайт/CI/Continue и закрыть аудит.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Проверка работы сменщика · 28.10.2026",
@@ -742,16 +733,13 @@
         "evidence": [
           {
             "file": "reports/successor-audit-2026-10-28.json",
-            "sha256": "5a93f5b0672bcfcba055f687b2f3d09a3f7eed1477bef9cf0fff8c83b19e28f0"
+            "sha256": "fc4780502bcdfb49f9b1779c736ffcf3a4f106bf282d12dfe4a3656fc8e4fef2"
           }
         ],
-        "read_next": [
-          "ops/CONTINUE-PROTOCOL.md",
-          "ops/TOPVIEW-FREE-LAUNCH.md"
-        ],
+        "read_next": [],
         "blockers": []
       },
-      "next_action": "Проверить артефакты и связи, исправить подтверждённые ошибки, выполнить проверки и вернуть основной фокус."
+      "next_action": "Опубликовать исправления, проверить обновлённый сайт/CI/Continue и закрыть аудит."
     }
   ],
   "rules": [
@@ -1111,9 +1099,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SUCCESSOR-AUDIT-20261028",
+    "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-28T08:41:28+00:00",
+    "set_at": "2026-10-28T09:11:19+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

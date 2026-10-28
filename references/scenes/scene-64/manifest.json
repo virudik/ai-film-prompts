@@ -99,7 +99,7 @@
         }
       ],
       "prompt_id": "S64-WAN30",
-      "launch_readiness": "reference_inputs_available"
+      "launch_readiness": "authorized_inputs_available"
     },
     {
       "label": "64 · Seedance 2.0 часть 1",

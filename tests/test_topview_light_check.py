@@ -17,6 +17,12 @@ class LightCheckTests(unittest.TestCase):
         for f in ("topview-task-map.json", "topview-status.json", "topview-operation-journal.json",
                   "review-ledger.json", "topview-checkpoint.json"):
             shutil.copy(ROOT / f, self.d / f)
+        journal = json.loads((self.d / "topview-operation-journal.json").read_text(encoding="utf-8"))
+        if journal.get("events_archive"):
+            archive = Path(journal["events_archive"])
+            (self.d / archive).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(ROOT / archive, self.d / archive)
+        self.addCleanup(shutil.rmtree, self.d)
         self.now = datetime.now(timezone.utc)
         tm = json.loads((self.d / "topview-task-map.json").read_text(encoding="utf-8"))
         tm["last_scan_at"] = iso(self.now - timedelta(minutes=60))

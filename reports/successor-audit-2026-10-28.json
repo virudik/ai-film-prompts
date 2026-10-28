@@ -1,17 +1,975 @@
 {
   "schema_version": 1,
   "work_id": "SUCCESSOR-AUDIT-20261028",
-  "status": "in_progress",
-  "checked_at": "2026-10-28T08:41:28+00:00",
-  "source_head": "67798296b6c697332ba9f44a49a6f57ed3d1b48a",
+  "status": "verified_locally_pending_publication",
+  "checked_at": "2026-10-28T09:11:19+00:00",
+  "source_head": "5387b6df844785093b9ca9ea93c2118d4c241a4b",
   "shared_chat": "https://chatgpt.com/share/6ae1b0ac-31c0-83ed-8b16-3af00ae90d68",
   "scope": "Verify completed refs, bindings, queue, Relay and Continue; fix proven defects only; no new images or video launches.",
   "initial_findings": [
     "S64-WAN30 has all image inputs available but remains blocked by an obsolete pass-specific restriction.",
     "SEREGIUS-PLAN-20261023 next_action differs from recovery.next_action, failing continue_preflight."
   ],
-  "checks": {},
+  "checks": {
+    "assets": {
+      "count": 28,
+      "visual_review": "28 current PNG inspected in contact sheets; S66 street also full frame. Reference helpers are suitable for assigned roles; not video/owner approval.",
+      "files": [
+        {
+          "path": "references/scenes/scene-64/S64-officers-reaction.png",
+          "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-64/S64-corridor.png",
+          "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-65/S65-toast-closeup.png",
+          "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+          "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+          "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+          "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png",
+          "sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-21/c21-centrifuge.png",
+          "sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
+          "sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png",
+          "sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+          "dimensions": [
+            1672,
+            940
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-23/c23-console.png",
+          "sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-23/c23-era-arm.png",
+          "sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-24/c24-raft.png",
+          "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png",
+          "sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png",
+          "sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png",
+          "sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "registry_entries": 1
+        }
+      ]
+    },
+    "selected_queue": {
+      "items": 8,
+      "image_inputs": 34,
+      "issues": [],
+      "state": [
+        {
+          "id": "S52-R2-SEED20-P7",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.06,
+          "state": "blocked_inputs",
+          "image_inputs": 5,
+          "video_inputs": 1,
+          "depends_on_completed": [
+            "S52-R2-SEED20-P6"
+          ],
+          "blocker": "Await actual S52-R2-SEED20-P6 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P6-last3s.mp4 and pass continuity QC."
+        },
+        {
+          "id": "S64-WAN30",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.9,
+          "state": "waiting_for_slot",
+          "image_inputs": 3,
+          "video_inputs": 0,
+          "depends_on_completed": [],
+          "blocker": null
+        },
+        {
+          "id": "S65-WAN30",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.97,
+          "state": "blocked_inputs",
+          "image_inputs": 4,
+          "video_inputs": 1,
+          "depends_on_completed": [
+            "S70-WAN30"
+          ],
+          "blocker": "Await actual S70-WAN30 result, archive original, cut true last3s and pass continuity QC; images cannot replace the video."
+        },
+        {
+          "id": "S66-WAN30",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.92,
+          "state": "blocked_inputs",
+          "image_inputs": 5,
+          "video_inputs": 1,
+          "depends_on_completed": [
+            "S52-R2-SEED20-P7"
+          ],
+          "blocker": "Await actual S52-R2-SEED20-P7 success, archive its original, cut its true last 3 s to references/scenes/scene-52/S52-R2-P7-last3s.mp4 and pass continuity QC."
+        },
+        {
+          "id": "S67-WAN30",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.93,
+          "state": "blocked_inputs",
+          "image_inputs": 3,
+          "video_inputs": 1,
+          "depends_on_completed": [
+            "S66-WAN30"
+          ],
+          "blocker": "Await actual S66-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-66/S66-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending."
+        },
+        {
+          "id": "S68-WAN30",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.94,
+          "state": "blocked_inputs",
+          "image_inputs": 5,
+          "video_inputs": 1,
+          "depends_on_completed": [
+            "S67-WAN30"
+          ],
+          "blocker": "Await actual S67-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-67/S67-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending."
+        },
+        {
+          "id": "S69-WAN30",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.95,
+          "state": "blocked_inputs",
+          "image_inputs": 6,
+          "video_inputs": 1,
+          "depends_on_completed": [
+            "S68-WAN30"
+          ],
+          "blocker": "Await actual S68-WAN30 success, archive its original, cut its true last 3 s to references/scenes/scene-68/S68-last3s.mp4 and pass continuity QC. All required image files are present; real video continuity is still pending."
+        },
+        {
+          "id": "S70-WAN30",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "priority": 0.96,
+          "state": "blocked_inputs",
+          "image_inputs": 3,
+          "video_inputs": 1,
+          "depends_on_completed": [
+            "S69-WAN30"
+          ],
+          "blocker": "Await actual S69-WAN30 result, archive original, cut true last3s and pass continuity QC."
+        }
+      ]
+    },
+    "public_readback_before_fixes": {
+      "checked_at": "2026-10-28T08:48:35.608941+00:00",
+      "base_url": "https://virudik.github.io/ai-film-prompts/",
+      "files": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-21/c21-centrifuge.png",
+          "http_status": 200,
+          "bytes": 2422971,
+          "sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png",
+          "http_status": 200,
+          "bytes": 2291182,
+          "sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
+          "http_status": 200,
+          "bytes": 2418039,
+          "sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png",
+          "http_status": 200,
+          "bytes": 2375027,
+          "sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-23/c23-console.png",
+          "http_status": 200,
+          "bytes": 1936100,
+          "sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-23/c23-era-arm.png",
+          "http_status": 200,
+          "bytes": 2356333,
+          "sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png",
+          "http_status": 200,
+          "bytes": 2383707,
+          "sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-24/c24-raft.png",
+          "http_status": 200,
+          "bytes": 2420732,
+          "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png",
+          "http_status": 200,
+          "bytes": 2437870,
+          "sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png",
+          "http_status": 200,
+          "bytes": 2531929,
+          "sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
+          "matches_git": true
+        },
+        {
+          "path": "references/full/serega.jpg",
+          "http_status": 200,
+          "bytes": 155182,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "http_status": 200,
+          "bytes": 6607132,
+          "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P1-boarding.jpg",
+          "http_status": 200,
+          "bytes": 771152,
+          "sha256": "74ca7081d56feb13bef53267533cf93c3cbb83732161ae9ceb7cec959555b321",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+          "http_status": 200,
+          "bytes": 748652,
+          "sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+          "http_status": 200,
+          "bytes": 664765,
+          "sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+          "http_status": 200,
+          "bytes": 760397,
+          "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+          "http_status": 200,
+          "bytes": 682341,
+          "sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P6-disembark.jpg",
+          "http_status": 200,
+          "bytes": 840685,
+          "sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+          "http_status": 200,
+          "bytes": 859473,
+          "sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+          "http_status": 200,
+          "bytes": 1537686,
+          "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-64/S64-corridor.png",
+          "http_status": 200,
+          "bytes": 2045286,
+          "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-64/S64-officers-reaction.png",
+          "http_status": 200,
+          "bytes": 1906364,
+          "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "http_status": 200,
+          "bytes": 2250737,
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-65/S65-toast-closeup.png",
+          "http_status": 200,
+          "bytes": 2199608,
+          "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "http_status": 200,
+          "bytes": 1989143,
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "http_status": 200,
+          "bytes": 2045183,
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "http_status": 200,
+          "bytes": 2654214,
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-market-quarrel.png",
+          "http_status": 200,
+          "bytes": 2831340,
+          "sha256": "1b1e502fc8e69d133d1c99241a6a2f7380b8563bfecd5d2fa95a45f40645a173",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "http_status": 200,
+          "bytes": 2247428,
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-67/S67-fruit-stall.png",
+          "http_status": 200,
+          "bytes": 2757718,
+          "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-67/S67-vendor.png",
+          "http_status": 200,
+          "bytes": 2949845,
+          "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "http_status": 200,
+          "bytes": 2643205,
+          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-68/S68-light-broom.png",
+          "http_status": 200,
+          "bytes": 3555635,
+          "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "http_status": 200,
+          "bytes": 2629946,
+          "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-69/S69-light-dustpan.png",
+          "http_status": 200,
+          "bytes": 3220063,
+          "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+          "http_status": 200,
+          "bytes": 2649311,
+          "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "http_status": 200,
+          "bytes": 2718142,
+          "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+          "http_status": 200,
+          "bytes": 2322750,
+          "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/full/serega.jpg.webp",
+          "http_status": 200,
+          "bytes": 15004,
+          "sha256": "5190aa42dd3d5f280aa0d96a1ac083e73c5f1b005b8e9a8b99d77a5459e779bb",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-10/S10-Image1-cantina-source.png.webp",
+          "http_status": 200,
+          "bytes": 27912,
+          "sha256": "95714e31887d1da3cd6cb43aaecaca58727ad6282c25ff3506c4377c1d68d775",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-P1-boarding.jpg.webp",
+          "http_status": 200,
+          "bytes": 41506,
+          "sha256": "7a18d2ff5f34d3c7ff6ff122573fb84650dd541a6235005a7bab06c25709d7f5",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-P2-hangar-takeoff.jpg.webp",
+          "http_status": 200,
+          "bytes": 42038,
+          "sha256": "73d9877547c217d43d9ff3a657b898cc76771a826bffb61ab1562f3a25774cce",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-P3-cruiser-flyby.jpg.webp",
+          "http_status": 200,
+          "bytes": 34714,
+          "sha256": "60be1ba21c84fc3f2b378adc93f62072ea9739fe6e929a96561c438e05895d9d",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-P4-tatooine-approach.jpg.webp",
+          "http_status": 200,
+          "bytes": 43966,
+          "sha256": "9f40fdefcfc40a77566e0eb1e8965a0113fdbed1bceb396b17b15814b53f4565",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-P5-tatooine-landing.jpg.webp",
+          "http_status": 200,
+          "bytes": 43328,
+          "sha256": "1803dffc6622155653e31dcdeb700c3ad26dc8e68eaef5d92f3cc722f9c57be9",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-P6-disembark.jpg.webp",
+          "http_status": 200,
+          "bytes": 53546,
+          "sha256": "eb06e6f6af6868d8ed35db58695c9067f39d7938e357069f019fc2560b132842",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-P7-town-walk.jpg.webp",
+          "http_status": 200,
+          "bytes": 57004,
+          "sha256": "fbef7a2f2edd98264793bd387cb90d8bc70147c346c6444a6f257f200c856933",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-52/S52-cruiser-topview.jpg.webp",
+          "http_status": 200,
+          "bytes": 19744,
+          "sha256": "0bf9c68b0ad134813e9a4ba57ba8ead0b6f52cff7d19b67e3f9fa6744d6efa30",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-64/S64-corridor.png.webp",
+          "http_status": 200,
+          "bytes": 30490,
+          "sha256": "9eb7d5ebc095d05ba99c5b68ddf2808831af3641fa98eeaed53f3094757797ef",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-64/S64-officers-reaction.png.webp",
+          "http_status": 200,
+          "bytes": 27894,
+          "sha256": "c53bb9326061f844530079056d483ea9e2094a7a98c270381dcfdeea8110eca7",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-65/S65-bar-table.png.webp",
+          "http_status": 200,
+          "bytes": 42622,
+          "sha256": "f4075b3be4e644ca759524518f5ced6e97b6b02eab5608d9db1daedcf521e073",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-65/S65-toast-closeup.png.webp",
+          "http_status": 200,
+          "bytes": 46478,
+          "sha256": "f6464bffedbc276c6f7f02c94bf77c95200111a78afd0adb6ed61d8b657e60e7",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-66/S66-Alina-tatooine-sheet.png.webp",
+          "http_status": 200,
+          "bytes": 19986,
+          "sha256": "9c4cd16e2a58f549cd3404829311bfd6d639d36e90afff8f64126505ede42c93",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-66/S66-Dasha-tatooine-sheet.png.webp",
+          "http_status": 200,
+          "bytes": 20906,
+          "sha256": "efa2c8f418d17940fb7553018982d92a1a808eb6641f1055ca061c76924d3f73",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",
+          "http_status": 200,
+          "bytes": 63832,
+          "sha256": "7a680c1fe30bebcc3ad812da600d8ab2e5e8677777cc79f88e8d06b949b9f032",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-67/S67-Masha-R-market-quarrel.png.webp",
+          "http_status": 200,
+          "bytes": 69104,
+          "sha256": "4e014d2b194927dfd8efcb4724099437c529d31255a1462f4afe31fb63602edd",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.webp",
+          "http_status": 200,
+          "bytes": 26674,
+          "sha256": "c6d7ec57e0fd7f91a363fe5fde1229674e810f521fcf69603838d6b7e692d85e",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-67/S67-fruit-stall.png.webp",
+          "http_status": 200,
+          "bytes": 65380,
+          "sha256": "1ae0bfd0a81e83c9ce2b09aaa44b85f8f951367693e0289dcdd1944e58c4f746",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-67/S67-vendor.png.webp",
+          "http_status": 200,
+          "bytes": 74752,
+          "sha256": "1efa9554dfd726e9986b7f002e50f0502a5899339d5ddcef83a2566679cfd8d3",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-68/S68-crew-sweeping-street.png.webp",
+          "http_status": 200,
+          "bytes": 64126,
+          "sha256": "61effb07f3fb4804fb594d1e753ee634eff1fd68fd5b844f91cae4afe4e7105f",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-68/S68-light-broom.png.webp",
+          "http_status": 200,
+          "bytes": 88226,
+          "sha256": "9b20433a98a00a8610f09cedd0512007ad0939bfd1fea9f4607ac5efe0fce813",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-68/S68-sweepers-crew.png.webp",
+          "http_status": 200,
+          "bytes": 57336,
+          "sha256": "1cf7a30fc95be4779e4f23af7f71ef97e53f7522df3979640e0c87e9799cf016",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-69/S69-light-dustpan.png.webp",
+          "http_status": 200,
+          "bytes": 81002,
+          "sha256": "962e4ba2177f4a7ce8c7f4ec2cb816ea3bf4f9ce447bb92f042d88407ed80320",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-69/S69-masha-masterclass.png.webp",
+          "http_status": 200,
+          "bytes": 63184,
+          "sha256": "e1aed72777d0b8a8702934fa6236d5d5a9517363f0940ba407c0af81a7854f1d",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-69/S69-melon-bag-handoff.png.webp",
+          "http_status": 200,
+          "bytes": 66102,
+          "sha256": "8f43f33795fbce5e3c9f6215c293d53721e56df973e86143b746ab440c6bb34f",
+          "matches_git": true
+        },
+        {
+          "path": "references/thumbs/scenes/scene-70/S70-cantina-entrance.png.webp",
+          "http_status": 200,
+          "bytes": 53110,
+          "sha256": "a1d3d1ec2a8e7f40279763b8bcaca629b65f338698d95a2fb1f987a03c234fa1",
+          "matches_git": true
+        },
+        {
+          "path": "video-prompts.md",
+          "http_status": 200,
+          "bytes": 1112558,
+          "sha256": "46e085c0258f3ecfb5a5b654eee25d4a0ebceb9e9a2659a79e7a8e12152dcb59",
+          "matches_git": true
+        },
+        {
+          "path": "character-references.json",
+          "http_status": 200,
+          "bytes": 69240,
+          "sha256": "358872a7a80583bdb98787805bd4b10e250839102d01cc59d96ff77caac2e25b",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/video-prompts.md",
+          "http_status": 200,
+          "bytes": 471570,
+          "sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
+          "matches_git": true
+        },
+        {
+          "path": "projects/raznoe/character-references.json",
+          "http_status": 200,
+          "bytes": 57660,
+          "sha256": "90e01c11d8a311fcf8368606905289e06bd5f92ba0ad97a4c90cc7ae5641ada5",
+          "matches_git": true
+        },
+        {
+          "path": "index.html",
+          "http_status": 200,
+          "bytes": 160838,
+          "sha256": "becee087d2838496a504517cf9ccb79a1a6b2d4c34b483a3ff312e019d5178bb",
+          "matches_git": true
+        },
+        {
+          "path": "references.html",
+          "http_status": 200,
+          "bytes": 17072,
+          "sha256": "dc8b84470c90abd476755341a69313a473c228a93468831979528b7106a0860f",
+          "matches_git": true
+        }
+      ],
+      "checked": 72,
+      "matched": 72,
+      "issues": []
+    },
+    "validation": {
+      "unittest": {
+        "passed": 348,
+        "failed": 0
+      },
+      "site": "passed",
+      "projects": 5,
+      "review_ledger": "passed;60 rows/27 scenes",
+      "canon_health": "ok;0 warnings",
+      "instruction_consistency": "passed with both live automation prompts",
+      "continue_preflight": "passed in isolated checkout with freshly generated status/brief; ready_for_short=true, reasons=[]"
+    },
+    "open_owner_decisions": 0,
+    "open_owner_tasks": 0
+  },
   "new_images": 0,
   "new_video_submissions": 0,
-  "new_queue_items": 0
+  "new_queue_items": 0,
+  "original_task": {
+    "id": "claude-202610271320-cpk-refs",
+    "status": "done",
+    "result_commit": "76d1f9e57c7c7623ea9f4c899a8b1630dc79ef9d",
+    "roles_requested": 18,
+    "roles_available": 18,
+    "original_unique_png": 17,
+    "reuse": "S66-street-outrage.png supplies Stitch in scene66 and52P7; owner explicitly accepted reuse in the shared chat. No standalone S66-alien-dog.png is needed."
+  },
+  "relay": {
+    "id": "6adc585e7ac08191bb93825117dc7213",
+    "enabled": true,
+    "prompt_sha256": "9753e14ea64c9850d8ab3138856962c8ebf7538103ff6081bc2c138bc85f7025",
+    "changed_in_this_audit": false,
+    "verified_policy": "1–2 read-only browser retries before Create, around60 seconds apart; fresh full preflight after recovery; no blind repeat Create; retryable blocked_browser checkpoint for next event/hourly cycle.",
+    "runtime_retry_exercised": "not established",
+    "subscription_id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+    "subscriptions": 1,
+    "observed_success": {
+      "event_id": "slots:6bc77dbe:2",
+      "item_id": "S52-R2-SEED20-P1",
+      "task_id": "c65c30d8cbe14e9eadec886276e62471",
+      "submitted_at": "2026-10-28T06:51:02Z",
+      "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json"
+    },
+    "hourly_prompt_sha256": "a315a17744eedc210effd11724dee7fa09059594a27aa8fce2e2ae6d6fe6d4c2"
+  },
+  "fixes": [
+    {
+      "id": "s64_stale_blocker",
+      "change": "S64-WAN30: blocked_inputs→waiting_for_slot; matching scene metadata/readiness and manifest updated. Existing authorization preserved; no submission."
+    },
+    {
+      "id": "s52_p7_file_bindings",
+      "change": "Add exact existing image file paths to @Image1/@Image2 in selected Wan and alternate Seedance P7; recompute queue/manifest prompt hashes. No story edits."
+    },
+    {
+      "id": "publication_flags",
+      "change": "Five current registry images marked public_readback_verified using actual HTTP200 byte hashes. Earlier reports are historical snapshots; this report supplies the new verification."
+    },
+    {
+      "id": "test_fixture_archive",
+      "change": "Light-check test fixture now includes the operation journal archive; production archive conflict protection unchanged."
+    },
+    {
+      "id": "continue_recovery",
+      "change": "Capture current plan next_action and checkpoint together, preserving task IDs, actual video dependencies, open Work rule and main focus."
+    }
+  ],
+  "preserved": [
+    "No new/replaced images or video submissions",
+    "Queue IDs/order/priorities/authorizations and existing task IDs retained",
+    "Chain52P7→66→67→68→69→70→65 Wan3/30s;52P1–P6 Seedance2.0/15s",
+    "Roskosmos pause",
+    "No invented result cuts, owner approvals, new subscriptions or automations",
+    "Work-only owner task rule remains in CONTINUE-PROTOCOL and OWNER-TASKS"
+  ],
+  "remaining": [
+    "Observe existing S52-R2-P1 task, archive original result and perform visual/audio QC before real last3s handoff to P2.",
+    "Continue authorized existing queue after fresh owner decisions, all-board slot scan and Unlimited0 preflight; S64 no longer artificially blocked.",
+    "Prepare actual continuity cuts only from completed selected results for52P7→66→67→68→69→70→65.",
+    "Editorial acceptance belongs to owner; Roskosmos launches remain paused."
+  ]
 }

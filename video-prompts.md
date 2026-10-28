@@ -4850,8 +4850,8 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema
 
 REFERENCES / AUTHORITY:
 @Video1 — actual final 3 seconds of the selected NEW Scene52 Part6 Seedance 2.0 result (S52-R2-SEED20-P6). File: references/scenes/scene-52/S52-R2-P6-last3s.mp4. This selected Wan 3.0 Part7 continues that real ending; the change of model never resets the exact starting state, direction, speed, camera or light.
-@Image1 — exact Serega identity, face, proportions and costume.
-@Image2 — synthetic street-walking composition and town lane; individual identity sheet wins.
+@Image1 — exact Serega identity, face, proportions and costume. File: references/full/serega.jpg.
+@Image2 — synthetic street-walking composition and town lane; individual identity sheet wins. File: references/scenes/scene-52/S52-P7-town-walk.jpg.
 @Image3 — use only STITCH in the foreground of this existing street image: exact blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash. Do not use the girls in this composition as identity references; individual sheets @Image4 and @Image5 are the highest authority for ALINA and DASHA. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
 @Image5 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png. Two different girls, never merged.
@@ -5220,8 +5220,8 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema
 
 REFERENCES / AUTHORITY:
 @Video1 — actual final3seconds of the NEW Scene52 part6 result; establishes the exact starting state, direction, speed, camera and light.
-@Image1 — exact Serega identity, face, proportions and costume.
-@Image2 — synthetic street-walking composition and town lane; individual identity sheet wins.
+@Image1 — exact Serega identity, face, proportions and costume. File: references/full/serega.jpg.
+@Image2 — synthetic street-walking composition and town lane; individual identity sheet wins. File: references/scenes/scene-52/S52-P7-town-walk.jpg.
 @Image3 — use only STITCH in the foreground of this existing street image: exact blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash. Do not use the girls in this composition as identity references; individual sheets @Image4 and @Image5 are the highest authority for ALINA and DASHA. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
 @Image5 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png. Two different girls, never merged.
@@ -7236,13 +7236,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-64"></a>
 ## Сцена 64 — Звёздный разрушитель: Серёга пританцовывает по коридору
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","star_destroyer","visual_comedy","dance_walk","owner_requested"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","star_destroyer","visual_comedy","dance_walk","owner_requested"]} -->
 
 **Контекст использования:** владелец 27.10.2026. Самостоятельная комедийная вставка на борту имперского крейсера. Предлагаемое место в монтаже — перед ремонтом в ангаре 43–44 и пересадкой 52 (Серёга идёт к ангару в хорошем настроении). Место — предложение, окончательно решает владелец.
 
 **Что происходит:** Серёга в отличном настроении идёт по длинному коридору звёздного разрушителя и пританцовывает: щёлкает пальцами, покачивает плечами, делает скользящий шаг, крутится на каблуке и подпрыгивает на ходу. Имперские офицеры и штурмовик впереди замирают, прижимаются к стене и смотрят на него странно, но со страхом: никто не смеет ни остановить его, ни улыбнуться. Один офицер роняет планшет и не решается его поднять. Серёга не замечает произведённого эффекта и уходит в раздвижные двери; офицеры за его спиной переглядываются и выдыхают.
 
-**Готовность:** DRAFT. Все обязательные изображения сохранены; технический QC референсов подтверждён манифестами. Главная версия — Wan 3.0 (30 с), по выбору владельца. В существующей очереди — после 63, до музыкальных и танцевальных номеров 49–51 и 28. Текущий проход OPEN-WORK-REFS-RELAY-20261027 ограничен референсами и инструкциями: видео не запускать. Исходное состояние очереди blocked_inputs сохранено; автоматически снимать блокер запуска в этом проходе нельзя. Художественное одобрение не выставлено.
+**Готовность:** READY — обязательные изображения доступны, технический QC подтверждён манифестами. Главная версия — Wan 3.0 (30 с), по выбору владельца. В существующей очереди — после 63, до музыкальных и танцевальных номеров 49–51 и 28. S64-WAN30 ожидает свободного слота; перед запуском обязателен свежий полный preflight и Unlimited 0 credits. Устаревший блокер прохода по подготовке референсов снят проверкой 28.10.2026. Эта проверка видео не запускает и художественного одобрения не выставляет.
 
 **Референсы:** @Image1 — `references/full/serega.jpg` (Точный модельный лист Серёги: лицо и одежда); @Image2 — `references/scenes/scene-64/S64-corridor.png` (Коридор звёздного разрушителя: геометрия и свет); @Image3 — `references/scenes/scene-64/S64-officers-reaction.png` (Офицеры у стены: странный и испуганный взгляд).
 
