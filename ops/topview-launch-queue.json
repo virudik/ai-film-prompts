@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-28T08:06:00Z",
+  "updated_at": "2026-10-28T15:02:46+00:00",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -19,6 +19,166 @@
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "selection_policy": "LATEST28Oct2026 owner:52P7→66→67→68→69→70→65 Wan3.0/30s;52P1–P6 stay Seedance2.0. Before49→50→51→28; ready-skip unchanged. LATEST27Oct2026 20:25Z owner: scenes68→69 (ГБУ Жилищник) at0.94/0.95 right after67; chain52P7→66→67→68→69 seamless and in order. LATEST27Oct2026 owner: new scenes 64→65→66→67 at priorities0.90–0.93, after63 and before49/50/51 and dances28; chain52P7→66→67 seamless (real last3s of previous link as @Video1). Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
+    {
+      "id": "S66-STITCH-NB-IMAGE-1",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-1",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-front.image-prompt.txt",
+      "prompt_source": "UTF-8 full file, strip final newline only",
+      "canonical_prompt_sha256": "1aa2d5e5732693ea85414d42910b3cdc51f6f358f68ed2d90d023e255e045584",
+      "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
+      "prompt_file_sha256": "e43b596707deb9d550591469b24809157148917abceec8d0eeb1723f30c857dc",
+      "priority": -3,
+      "state": "waiting_for_slot",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner 28Oct2026 in open Work: put Stitch first; use Topview Nano Banana for several consecutive images of Alina and Dasha walking him on a leash in Tatooine streets. Three distinct stills, one free Unlimited0 website attempt each; no paid route, model substitution or retry. This is separate from the already-done Work-only S68/S69 drawing task.",
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
+      "on_success": "Save the original with task ID, SHA256 and visual QC in scene66 manifest/character registry/gallery as an additional walking composition; do not overwrite existing refs, add to video inputs or grant owner approval. Fresh slot scan after every submit; continue next image in this trio while capacity permits. Unknown submission must be reconciled before any new click."
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-2",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-2",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-side.image-prompt.txt",
+      "prompt_source": "UTF-8 full file, strip final newline only",
+      "canonical_prompt_sha256": "f36ff2a8c4697b9e51123079f8a520a47be50d0e70f9078d59f0d696413d2ae2",
+      "normalized_prompt_sha256": "ada89a29d6934ac92afc6730f4a2433e94d6c7476580f1b7f0553b256d61464e",
+      "prompt_file_sha256": "593dea554d9ad545fc4f54e90cfcd5fb7dd2e93310cc0922cda141e56799e8d3",
+      "priority": -2,
+      "state": "waiting_for_slot",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S66-STITCH-NB-IMAGE-1"
+      ],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner 28Oct2026 in open Work: put Stitch first; use Topview Nano Banana for several consecutive images of Alina and Dasha walking him on a leash in Tatooine streets. Three distinct stills, one free Unlimited0 website attempt each; no paid route, model substitution or retry. This is separate from the already-done Work-only S68/S69 drawing task.",
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-side.png",
+      "on_success": "Save the original with task ID, SHA256 and visual QC in scene66 manifest/character registry/gallery as an additional walking composition; do not overwrite existing refs, add to video inputs or grant owner approval. Fresh slot scan after every submit; continue next image in this trio while capacity permits. Unknown submission must be reconciled before any new click."
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-3",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-3",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-arch.image-prompt.txt",
+      "prompt_source": "UTF-8 full file, strip final newline only",
+      "canonical_prompt_sha256": "33eb28ce825401c3078cb4dc108ebc56fb59b3b071f216b303ea8daf92bc5825",
+      "normalized_prompt_sha256": "040e6f04cde9a2090421a11db35f14e1c7f155463a82bb2507d2235f233b39c5",
+      "prompt_file_sha256": "85320fe7639a6968bef0c61abc0f8006977a2269873b352623f8b950c86e6e11",
+      "priority": -1,
+      "state": "waiting_for_slot",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S66-STITCH-NB-IMAGE-2"
+      ],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner 28Oct2026 in open Work: put Stitch first; use Topview Nano Banana for several consecutive images of Alina and Dasha walking him on a leash in Tatooine streets. Three distinct stills, one free Unlimited0 website attempt each; no paid route, model substitution or retry. This is separate from the already-done Work-only S68/S69 drawing task.",
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-arch.png",
+      "on_success": "Save the original with task ID, SHA256 and visual QC in scene66 manifest/character registry/gallery as an additional walking composition; do not overwrite existing refs, add to video inputs or grant owner approval. Fresh slot scan after every submit; continue next image in this trio while capacity permits. Unknown submission must be reconciled before any new click."
+    },
     {
       "id": "S13-S13",
       "scene_id": 13,
@@ -6901,8 +7061,8 @@
       "scene_id": 65,
       "prompt_id": "S65-WAN30",
       "canonical_block_label": "65",
-      "canonical_prompt_sha256": "98c69155ac8b734499afc10b051f3e625c417268ccaef90a4e60a17d45b3d788",
-      "normalized_prompt_sha256": "00e986ffa74a45693aedba9e4f925ec316ea5ff376a27892e81fa72de486d411",
+      "canonical_prompt_sha256": "53bc2f2128e825c69598afa2cef0b058b377b016c3e104c527a10f752f70faa3",
+      "normalized_prompt_sha256": "426a6c84be028de0cae510b887066a55a0a0f9000bb580dc1bd912c8c760b6b8",
       "priority": 0.97,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -7142,8 +7302,8 @@
       "scene_id": 68,
       "prompt_id": "S68-WAN30",
       "canonical_block_label": "68",
-      "canonical_prompt_sha256": "e43814b1d4d6f6eee2f58083ea292fe78c42b905df97e3a158e7615adfd7ab1e",
-      "normalized_prompt_sha256": "0f3697e27def5bf96091e95143411531ddbb2126e20a23889b708e7e85a8e0b9",
+      "canonical_prompt_sha256": "632cc39d69fba3be1fbf7dc2864c6264b69cf05b0705bef3e8fceebe1339b9e8",
+      "normalized_prompt_sha256": "aa72dba328a8292ec6ff5f220308a4a919f3c4912722e3b1e4d05c9c2bd5443f",
       "priority": 0.94,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -7209,14 +7369,6 @@
           "input_status": "available",
           "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
-          "canonical_role": "Composition only: sweeping around the untouched pile, parked dustpan; no early Masha or frozen action",
-          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
-          "required": true,
-          "input_status": "available"
         }
       ],
       "task_id": null,
@@ -7470,16 +7622,6 @@
       "scene_id": 48,
       "needed": "Actual selected S56-SEED20-P2 ending",
       "action": "Save genuine ending and SHA/provenance/visualQC before READY; no invented continuity."
-    },
-    {
-      "scene_id": 57,
-      "needed": "New location image: avenue of columns and colossal hooded statues (S57-AVENUE-IMAGE)",
-      "action": "ChatGPT draws it free on the Topview website from references/scenes/scene-57/S57-crash-avenue-image-prompt.txt with @S27 ruins as Image1; QC, save references/scenes/scene-57/S57-crash-avenue.png, update manifest and the dependent items before READY."
-    },
-    {
-      "scene_id": 58,
-      "needed": "New start-frame image: crashed RosKOTmos ship in that avenue (S58-WRECK-IMAGE), after S57-AVENUE-IMAGE",
-      "action": "ChatGPT draws it free from references/scenes/scene-58/S58-wreck-image-prompt.txt with the first ship image and the saved avenue; QC, save references/scenes/scene-58/S58-wreck-start.png, update manifest and S58 items before READY."
     }
   ],
   "receipts_directory": "reports/topview-queue-2026-10-16",
@@ -7501,65 +7643,6 @@
     "checked_at": "2026-10-17T18:42:37.941Z",
     "automation_id": "6acae6ab433481919e88665c520b8ef2",
     "latest_observation": "Existing hourly task enabled; latest main includes S55 after fans. This working chat launched fans successfully; scheduled browser access must be checked independently."
-  },
-  "blocked_browser": {
-    "detected_at": "2026-10-17T06:59:55.713Z",
-    "run_id": "chatgpt-scheduled-20261017T065955713Z",
-    "scope": "scheduled_environment_only",
-    "reason": "B2 reached success and one Unlimited slot is free, but the connected local browser is unavailable in this scheduled environment and the authorized cloud browser opens the Topview board without the owner's login (Login screen). The required real B2 result cannot be downloaded/visually inspected for C28. No CAS claim, upload, Create click, paid MCP/Canvas fallback, or credit spend was attempted.",
-    "slot_snapshot": {
-      "checked_at": "2026-10-17T06:59:55.713Z",
-      "active_unlimited": 5,
-      "capacity": 6,
-      "free_slots": 1,
-      "newly_terminal": [
-        {
-          "task_id": "762b3091b3e44b8599a0a58b91a253c5",
-          "status": "success",
-          "completed_at": "2026-10-17T06:20:26Z"
-        }
-      ]
-    },
-    "next_ready_item": "B3_after_verified_C28",
-    "independent_fallback_item": "B9_if_C28_fails_QC",
-    "continuation": "working_chat_with_same_owner_authorization",
-    "notification_state": "owner_notified",
-    "notified_at": "2026-10-17T06:59:55.713Z",
-    "notification_event": "blocked_browser_b2_c28_20261017T065955713Z",
-    "working_chat_observation": {
-      "checked_at": "2026-10-17T12:05:09.756Z",
-      "status": "resolved_cloud_browser",
-      "reason": "Owner requested built-in browser. Authenticated cloud Ultra session; Import and Replace → Upload worked via documented shared-files chooser. B3 and B9 both submitted once and fully verified for zero credits. Local Chrome file-permission workaround not needed.",
-      "submitted_task_ids": [
-        "56c0ea656f484b0cb8464233fe097e0d",
-        "0d1f17c226834bfbb851d76ed32f9877"
-      ],
-      "credits_cost": 0,
-      "scheduled_session_access": "must_verify_each_run"
-    },
-    "latest_event": {
-      "detected_at": "2026-10-19T11:57:00Z",
-      "run_id": "chatgpt-scheduled-20261019T1153Z",
-      "scope": "generation_phase_only",
-      "item_id": "S37-SEED20-P1",
-      "reason": "Authenticated Ultra website and one free video slot were confirmed. Seedance2.0, 15s, HD720p, 16:9 and quantity1 were selected, but the cloud-browser file chooser could not transfer the four exact canonical inputs: GitHub browser downloads had no supported extensions and direct workspace paths produced no Topview materials. No claim, Create click, submission, paid fallback or credit spend.",
-      "slot_snapshot": {
-        "checked_at": "2026-10-19T11:57:00Z",
-        "boards": 11,
-        "pages": 17,
-        "total_tasks": 910,
-        "active_unlimited_videos": 5,
-        "capacity": 6,
-        "free_video_slots": 1,
-        "complete": true
-      },
-      "notification_state": "owner_notified_once",
-      "notification_event": "blocked_browser_s37_import_20261019T115700Z",
-      "continuation": "Resume generation only after supported owner-browser file import is available; repeat fresh main/lock/full scan and complete exact preflight before any claim or Create. Independent maintenance phases continue.",
-      "resolved_at": "2026-10-19T14:07:15Z",
-      "resolution": "Resolved: canonical files were copied through the shared cloud-browser path, all four SHA-verified inputs loaded in order, Unlimited/0 preflight passed, and the item was submitted exactly once.",
-      "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73"
-    }
   },
   "new_scene_order": [
     16,
@@ -7649,75 +7732,6 @@
     "archived_to": "archive/ops/topview-launch-queue-archive.json",
     "archive_key": "metadata_history.owner_instruction_20261017_2253",
     "history_only": true
-  },
-  "cancelled_dependency_cleanup": {
-    "at": "2026-10-17T19:53:52.866Z",
-    "reason": "Owner22:33 cancelled future45/46; remove only downstream ordering dependencies so remaining authorized queue is not permanently blocked; no content or review gate changed.",
-    "changes": [
-      {
-        "item": "B10",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S49A",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S49B",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S49C",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S49D",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S49E",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S49F",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S51A",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      },
-      {
-        "item": "S51B",
-        "removed": [
-          "S45-R1-20261017",
-          "S46-R1-20261017"
-        ]
-      }
-    ]
   },
   "owner_instruction_20261017_2303": {
     "archived_to": "archive/ops/topview-launch-queue-archive.json",
@@ -8669,5 +8683,11 @@
     "source_task_id": "3c01baad89544304aaa803725f6aae4b",
     "new_submissions": 0
   },
-  "tatooine_chain": "Татуинская связка: 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 (Wan 3.0)"
+  "tatooine_chain": "Татуинская связка: 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 (Wan 3.0)",
+  "blocked_browser": {
+    "status": "historical_resolved",
+    "archive": "archive/ops/topview-launch-queue-archive.json",
+    "metadata_key": "blocked_browser",
+    "rule": "Verify current browser access each run; historical failure does not block a ready item."
+  }
 }

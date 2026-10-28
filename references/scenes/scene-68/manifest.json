@@ -119,7 +119,7 @@
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
         }
       ],
-      "usage": "prompt_input_composition_only",
+      "usage": "pose_composition_helper_only_not_prompt_input",
       "updated_at": "2026-10-27T22:57:20Z",
       "aspect_check": {
         "requested": "16:9",
@@ -206,7 +206,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T09:40:35+00:00",
+  "updated_at": "2026-10-28T15:02:46+00:00",
   "last_qc_at": "2026-10-27T22:57:20Z",
   "pose_composition_helpers": [
     "references/scenes/scene-68/S68-crew-sweeping-street.png"
@@ -214,9 +214,9 @@
   "prompt_reference_mapping": [
     {
       "label": "68",
-      "canonical_prompt_sha256": "e43814b1d4d6f6eee2f58083ea292fe78c42b905df97e3a158e7615adfd7ab1e",
-      "normalized_prompt_sha256": "0f3697e27def5bf96091e95143411531ddbb2126e20a23889b708e7e85a8e0b9",
-      "characters": 7465,
+      "canonical_prompt_sha256": "632cc39d69fba3be1fbf7dc2864c6264b69cf05b0705bef3e8fceebe1339b9e8",
+      "normalized_prompt_sha256": "aa72dba328a8292ec6ff5f220308a4a919f3c4912722e3b1e4d05c9c2bd5443f",
+      "characters": 7097,
       "slots": [
         {
           "slot": "@Video1",
@@ -265,14 +265,6 @@
           "input_status": "available",
           "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
-          "canonical_role": "Composition only: sweeping around the untouched pile, parked dustpan; no early Masha or frozen action",
-          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
-          "required": true,
-          "input_status": "available"
         }
       ],
       "prompt_id": "S68-WAN30",
@@ -280,9 +272,9 @@
     },
     {
       "label": "68 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "ae5c546da05b8ae31e6ccebc9ce88d5d5e23ccb8f994043924ab025138fbbe24",
-      "normalized_prompt_sha256": "78c84912047a1f84687e14c837b3fb5242bd9672676898436261ce2f8a040615",
-      "characters": 6815,
+      "canonical_prompt_sha256": "2afcaa30a28d92aa219288211fce15eae83b387aa1369d12bcfcaad644716a8e",
+      "normalized_prompt_sha256": "a553734892638cebb907043738dab794f1f0843c49f2d8b46df33040404d88e1",
+      "characters": 6447,
       "slots": [
         {
           "slot": "@Video1",
@@ -331,23 +323,15 @@
           "input_status": "available",
           "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
-          "canonical_role": "Composition only: sweeping around the untouched pile, parked dustpan; no early Masha or frozen action",
-          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
-          "required": true,
-          "input_status": "available"
         }
       ],
       "queued": false
     },
     {
       "label": "68 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "2da27fb2fa0f1320a8665f3ca0e2716c6f48422914d3f924bbca15b4c9ab34df",
-      "normalized_prompt_sha256": "0d600a5d7d42dd01fedd7e92dcaf2852d1968c4c9d79675fbcdfa6b17d699181",
-      "characters": 6495,
+      "canonical_prompt_sha256": "eebd4bdc073d8875ad4cce4db0013b044fa96ac7f052fe02dd61083e480b3990",
+      "normalized_prompt_sha256": "3dbc7591fbc064615f234e1cb49c2121e3b97a8d32d33c0f3c9f2fb84ff140d9",
+      "characters": 6127,
       "slots": [
         {
           "slot": "@Video1",
@@ -395,14 +379,6 @@
           "input_status": "available",
           "canonical_role": "Лазерный совок: в68 выключен, стоит у ног четырёхглазого",
           "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
-          "canonical_role": "Composition only: sweeping around the untouched pile, parked dustpan; no early Masha or frozen action",
-          "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
-          "required": true,
-          "input_status": "available"
         }
       ],
       "queued": false

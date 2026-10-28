@@ -109,13 +109,13 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T09:40:35+00:00",
+  "updated_at": "2026-10-28T15:02:46+00:00",
   "prompt_reference_mapping": [
     {
       "label": "65",
-      "canonical_prompt_sha256": "98c69155ac8b734499afc10b051f3e625c417268ccaef90a4e60a17d45b3d788",
-      "normalized_prompt_sha256": "00e986ffa74a45693aedba9e4f925ec316ea5ff376a27892e81fa72de486d411",
-      "characters": 6635,
+      "canonical_prompt_sha256": "53bc2f2128e825c69598afa2cef0b058b377b016c3e104c527a10f752f70faa3",
+      "normalized_prompt_sha256": "426a6c84be028de0cae510b887066a55a0a0f9000bb580dc1bd912c8c760b6b8",
+      "characters": 6688,
       "slots": [
         {
           "slot": "@Video1",
@@ -163,9 +163,9 @@
     },
     {
       "label": "65 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "21e01dc32a260c8950a25ede692e45d818792e14911f7072fd44f5941c8ca1a0",
-      "normalized_prompt_sha256": "8f3aeecdd73fdb5aa8768f2b57ca072eb11fb7141ffa4832c1d99f37142fc4eb",
-      "characters": 6287,
+      "canonical_prompt_sha256": "374daeabad1990258810ccd9c24a714a4bb1987b444427a9dd046c85af58a184",
+      "normalized_prompt_sha256": "67a859932092e02a48f942d5c66c2d20f037981a0d01e83beb0645ae642ccf87",
+      "characters": 6340,
       "slots": [
         {
           "slot": "@Video1",
@@ -212,9 +212,9 @@
     },
     {
       "label": "65 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "fdf00e6d91fb3ac7465f1ddf3c203c154fb64ed69d3590b7f745f5f62b1d2069",
-      "normalized_prompt_sha256": "087701e4181501416a39bd1cee9073a9a23b301c75f8b4da88adc03dd4f511ac",
-      "characters": 5773,
+      "canonical_prompt_sha256": "cd73ba96d3b6dc7cf1d56089df94d5d650236d5d12f5d64115f9cff6221e19db",
+      "normalized_prompt_sha256": "77ab2e6e4ac84499bf3a2812aeba59d72c32b26a1614503e97afd07c8f3beeb7",
+      "characters": 5853,
       "slots": [
         {
           "slot": "@Video1",

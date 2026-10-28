@@ -3580,6 +3580,146 @@
         "Seedance P1→P2 seam"
       ],
       "downstream_scene52": "Wait for owner-selected complete44 variant; no automatic Wan selection."
-    }
+    },
+    "blocked_browser": {
+      "detected_at": "2026-10-17T06:59:55.713Z",
+      "run_id": "chatgpt-scheduled-20261017T065955713Z",
+      "scope": "scheduled_environment_only",
+      "reason": "B2 reached success and one Unlimited slot is free, but the connected local browser is unavailable in this scheduled environment and the authorized cloud browser opens the Topview board without the owner's login (Login screen). The required real B2 result cannot be downloaded/visually inspected for C28. No CAS claim, upload, Create click, paid MCP/Canvas fallback, or credit spend was attempted.",
+      "slot_snapshot": {
+        "checked_at": "2026-10-17T06:59:55.713Z",
+        "active_unlimited": 5,
+        "capacity": 6,
+        "free_slots": 1,
+        "newly_terminal": [
+          {
+            "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+            "status": "success",
+            "completed_at": "2026-10-17T06:20:26Z"
+          }
+        ]
+      },
+      "next_ready_item": "B3_after_verified_C28",
+      "independent_fallback_item": "B9_if_C28_fails_QC",
+      "continuation": "working_chat_with_same_owner_authorization",
+      "notification_state": "owner_notified",
+      "notified_at": "2026-10-17T06:59:55.713Z",
+      "notification_event": "blocked_browser_b2_c28_20261017T065955713Z",
+      "working_chat_observation": {
+        "checked_at": "2026-10-17T12:05:09.756Z",
+        "status": "resolved_cloud_browser",
+        "reason": "Owner requested built-in browser. Authenticated cloud Ultra session; Import and Replace → Upload worked via documented shared-files chooser. B3 and B9 both submitted once and fully verified for zero credits. Local Chrome file-permission workaround not needed.",
+        "submitted_task_ids": [
+          "56c0ea656f484b0cb8464233fe097e0d",
+          "0d1f17c226834bfbb851d76ed32f9877"
+        ],
+        "credits_cost": 0,
+        "scheduled_session_access": "must_verify_each_run"
+      },
+      "latest_event": {
+        "detected_at": "2026-10-19T11:57:00Z",
+        "run_id": "chatgpt-scheduled-20261019T1153Z",
+        "scope": "generation_phase_only",
+        "item_id": "S37-SEED20-P1",
+        "reason": "Authenticated Ultra website and one free video slot were confirmed. Seedance2.0, 15s, HD720p, 16:9 and quantity1 were selected, but the cloud-browser file chooser could not transfer the four exact canonical inputs: GitHub browser downloads had no supported extensions and direct workspace paths produced no Topview materials. No claim, Create click, submission, paid fallback or credit spend.",
+        "slot_snapshot": {
+          "checked_at": "2026-10-19T11:57:00Z",
+          "boards": 11,
+          "pages": 17,
+          "total_tasks": 910,
+          "active_unlimited_videos": 5,
+          "capacity": 6,
+          "free_video_slots": 1,
+          "complete": true
+        },
+        "notification_state": "owner_notified_once",
+        "notification_event": "blocked_browser_s37_import_20261019T115700Z",
+        "continuation": "Resume generation only after supported owner-browser file import is available; repeat fresh main/lock/full scan and complete exact preflight before any claim or Create. Independent maintenance phases continue.",
+        "resolved_at": "2026-10-19T14:07:15Z",
+        "resolution": "Resolved: canonical files were copied through the shared cloud-browser path, all four SHA-verified inputs loaded in order, Unlimited/0 preflight passed, and the item was submitted exactly once.",
+        "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73"
+      }
+    },
+    "cancelled_dependency_cleanup": {
+      "at": "2026-10-17T19:53:52.866Z",
+      "reason": "Owner22:33 cancelled future45/46; remove only downstream ordering dependencies so remaining authorized queue is not permanently blocked; no content or review gate changed.",
+      "changes": [
+        {
+          "item": "B10",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S49A",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S49B",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S49C",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S49D",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S49E",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S49F",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S51A",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        },
+        {
+          "item": "S51B",
+          "removed": [
+            "S45-R1-20261017",
+            "S46-R1-20261017"
+          ]
+        }
+      ]
+    },
+    "completed_reference_preparation_57_58": [
+      {
+        "scene_id": 57,
+        "needed": "New location image: avenue of columns and colossal hooded statues (S57-AVENUE-IMAGE)",
+        "action": "ChatGPT draws it free on the Topview website from references/scenes/scene-57/S57-crash-avenue-image-prompt.txt with @S27 ruins as Image1; QC, save references/scenes/scene-57/S57-crash-avenue.png, update manifest and the dependent items before READY."
+      },
+      {
+        "scene_id": 58,
+        "needed": "New start-frame image: crashed RosKOTmos ship in that avenue (S58-WRECK-IMAGE), after S57-AVENUE-IMAGE",
+        "action": "ChatGPT draws it free from references/scenes/scene-58/S58-wreck-image-prompt.txt with the first ship image and the saved avenue; QC, save references/scenes/scene-58/S58-wreck-start.png, update manifest and S58 items before READY."
+      }
+    ]
   }
 }

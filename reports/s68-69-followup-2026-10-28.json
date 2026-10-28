@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "work_id": "SEREGIUS-PLAN-20261023",
+  "checked_at": "2026-10-28T15:02:46+00:00",
+  "source_head": "8f7e65e84588602e815fd1a1e1830493eecb8e0b",
+  "owner_task": {
+    "id": "claude-202610272340-s68-69-refs",
+    "status": "already_done_verified",
+    "result_commit": "3f10718369a67789cf0696cd3300cebc2e11915f",
+    "reopened": false
+  },
+  "existing_assets": [
+    {
+      "path": "references/scenes/scene-66/S66-street-outrage.png",
+      "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "status": "existing_verified_no_regeneration"
+    },
+    {
+      "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+      "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "status": "existing_verified_no_regeneration"
+    },
+    {
+      "path": "references/scenes/scene-68/S68-light-broom.png",
+      "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "status": "existing_verified_no_regeneration"
+    },
+    {
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "status": "existing_verified_no_regeneration"
+    },
+    {
+      "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "status": "existing_verified_no_regeneration"
+    }
+  ],
+  "new_images_generated": 0,
+  "existing_images_changed": 0,
+  "fixes": [
+    "S68 composition restored to gallery-only, removed from all three video prompt variants and queue; S69 masterclass already gallery-only",
+    "S65 oil-can clink already in timeline; synchronized Russian synopsis and removed ambiguous only-oiling wording",
+    "Three separate owner-authorized Nano Banana walking stills placed first; video queue entries not added or submitted"
+  ],
+  "changed_prompt_blocks": [
+    "65",
+    "65 · Seedance 2.0 часть 1",
+    "65 · Seedance 2.0 часть 2",
+    "68",
+    "68 · Seedance 2.0 часть 1",
+    "68 · Seedance 2.0 часть 2"
+  ],
+  "new_priority_image_items": [
+    {
+      "id": "S66-STITCH-NB-IMAGE-1",
+      "priority": -3,
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-front.image-prompt.txt",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
+      "state": "waiting_for_slot"
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-2",
+      "priority": -2,
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-side.image-prompt.txt",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-side.png",
+      "state": "waiting_for_slot"
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-3",
+      "priority": -1,
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-arch.image-prompt.txt",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-arch.png",
+      "state": "waiting_for_slot"
+    }
+  ],
+  "live_topview_scan": {
+    "checked_at": "2026-10-28T14:54:07.795Z",
+    "boards": [
+      {
+        "id": "6b246f75715f43be945f17b06bff9d88",
+        "name": "Проэкт Star Wars 2",
+        "total": 16
+      },
+      {
+        "id": "c934cec563ea45e1b37d12657821ebd5",
+        "name": "Разное",
+        "total": 0
+      },
+      {
+        "id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+        "name": "Роскосмос",
+        "total": 0
+      },
+      {
+        "id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+        "name": "Кот детектив",
+        "total": 11
+      },
+      {
+        "id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+        "name": "Котмонавты",
+        "total": 0
+      },
+      {
+        "id": "db4b4d6d0abc4cb4b278ea80738639f2",
+        "name": "Мультики",
+        "total": 32
+      },
+      {
+        "id": "24a69085fab4497b9c1a52536252b63d",
+        "name": "Алина",
+        "total": 20
+      },
+      {
+        "id": "0aafc553d8a049d2bc21221511293830",
+        "name": "Новый драматический проект",
+        "total": 5
+      },
+      {
+        "id": "9f8ec3c1d7294675bfb87fa75577dec2",
+        "name": "Title: The Fight I Owe You\nCha",
+        "total": 64
+      },
+      {
+        "id": "29d5b28f0e744b9eb6bfbee47efb6ff9",
+        "name": "Generate directly based on the",
+        "total": 37
+      },
+      {
+        "id": "dde2634b5fb54e789bb22dd4c95a75b6",
+        "name": "Удачные",
+        "total": 23
+      },
+      {
+        "id": "caa5d8898f14442ea37c3278d156b3fe",
+        "name": "Проэкт Star Wars",
+        "total": 59
+      },
+      {
+        "id": "1a6244cf1ae747ef847d949a80d6133c",
+        "name": "My First Board",
+        "total": 671
+      }
+    ],
+    "pages": [
+      {
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 1,
+        "total": 671,
+        "returned": 100
+      },
+      {
+        "board": "6b246f75715f43be945f17b06bff9d88",
+        "page": 1,
+        "total": 16,
+        "returned": 16
+      },
+      {
+        "board": "c934cec563ea45e1b37d12657821ebd5",
+        "page": 1,
+        "total": 0,
+        "returned": 0
+      },
+      {
+        "board": "1cb8d0f6d11440ce9740bbafab36a6a5",
+        "page": 1,
+        "total": 0,
+        "returned": 0
+      },
+      {
+        "board": "d3bdcbe509594dcf82f8eddcaabe17fe",
+        "page": 1,
+        "total": 11,
+        "returned": 11
+      },
+      {
+        "board": "86c6cb46bf76400f93fea9c82d8e9b0f",
+        "page": 1,
+        "total": 0,
+        "returned": 0
+      },
+      {
+        "board": "db4b4d6d0abc4cb4b278ea80738639f2",
+        "page": 1,
+        "total": 32,
+        "returned": 32
+      },
+      {
+        "board": "24a69085fab4497b9c1a52536252b63d",
+        "page": 1,
+        "total": 20,
+        "returned": 20
+      },
+      {
+        "board": "0aafc553d8a049d2bc21221511293830",
+        "page": 1,
+        "total": 5,
+        "returned": 5
+      },
+      {
+        "board": "9f8ec3c1d7294675bfb87fa75577dec2",
+        "page": 1,
+        "total": 64,
+        "returned": 64
+      },
+      {
+        "board": "29d5b28f0e744b9eb6bfbee47efb6ff9",
+        "page": 1,
+        "total": 37,
+        "returned": 37
+      },
+      {
+        "board": "dde2634b5fb54e789bb22dd4c95a75b6",
+        "page": 1,
+        "total": 23,
+        "returned": 23
+      },
+      {
+        "board": "caa5d8898f14442ea37c3278d156b3fe",
+        "page": 1,
+        "total": 59,
+        "returned": 59
+      },
+      {
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 2,
+        "total": 671,
+        "returned": 100
+      },
+      {
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 3,
+        "total": 671,
+        "returned": 100
+      },
+      {
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 4,
+        "total": 671,
+        "returned": 100
+      },
+      {
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 5,
+        "total": 671,
+        "returned": 100
+      },
+      {
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 6,
+        "total": 671,
+        "returned": 100
+      },
+      {
+        "board": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 7,
+        "total": 671,
+        "returned": 71
+      }
+    ],
+    "active": [
+      {
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0"
+      },
+      {
+        "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0"
+      },
+      {
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0"
+      },
+      {
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0"
+      },
+      {
+        "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0"
+      },
+      {
+        "task_id": "8a8eadc809004e318c47201b8a463be0",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0"
+      }
+    ],
+    "total": 938
+  },
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "queue_order_preserved_for_existing_items": true,
+  "historical_browser_snapshot_archived_verbatim": true,
+  "automation": {
+    "hourly_id": "6acae6ab433481919e88665c520b8ef2",
+    "relay_id": "6adc585e7ac08191bb93825117dc7213",
+    "both_enabled_verified": true,
+    "existing_hourly_supports_prompt_source_path_image_items": true,
+    "new_automations": 0,
+    "prompts_and_triggers_unchanged": true
+  },
+  "next_action": "At the next genuinely free slot, fresh full preflight, then S66-STITCH-NB-IMAGE-1, -2, -3 by priority. Only the authorized website Unlimited0 route; save/QC each result and do not repeat existing tasks.",
+  "previous_turn_cpk_publication_readback": [
+    {
+      "path": "projects/raznoe/references/scenes/scene-21/c21-centrifuge.png",
+      "public_matches_repo": true
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png",
+      "public_matches_repo": true
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png",
+      "public_matches_repo": true
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
+      "public_matches_repo": true
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-23/c23-console.png",
+      "public_matches_repo": true
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png",
+      "public_matches_repo": true
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png",
+      "public_matches_repo": true
+    }
+  ],
+  "archived_history": [
+    "resolved blocked_browser 17/19Oct",
+    "cancelled_dependency_cleanup 17Oct",
+    "completed reference_preparation 57/58"
+  ],
+  "verification": {
+    "existing_pngs_unchanged": 5,
+    "queue_and_manifest_sha256": "passed",
+    "gallery_only_helpers_absent_from_prompts_and_queue": true,
+    "existing_queue_item_order_preserved": true,
+    "archive_verbatim_equality": "passed",
+    "unit_tests": 52,
+    "test_modules": [
+      "test_queue_readiness",
+      "test_topview_prompt_match",
+      "test_trim_service_files",
+      "test_continue_recovery"
+    ],
+    "site_validation": "passed",
+    "canon_health": "ok, 0 warnings",
+    "queue_bytes": 399127
+  }
+}

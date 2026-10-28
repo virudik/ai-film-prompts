@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T10:06:13+00:00",
+  "last_updated_at": "2026-10-28T15:07:16+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "all_slots_occupied_s28_a1_qc_complete",
-      "updated_at": "2026-10-28T08:06:00Z",
+      "status": "stitch_image_trio_first_waiting_for_slot",
+      "updated_at": "2026-10-28T15:02:46+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -22,7 +22,7 @@
         "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
         "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted."
       ],
-      "next_action": "All six physical slots remain occupied. At the next free slot, rerun the complete global scan and select the minimum actually ready authorized priority; S28-A1-R2 is now technically ready at priority2.01 but must not reserve a slot ahead of lower live priorities. Never repeat existing tasks.",
+      "next_action": "Сначала при свободном слоте S66-STITCH-NB-IMAGE-1 → -2 → -3: три отдельные Nano Banana Pro/2K/16:9 картинки прогулки Алины и Даши со Стичем. Только сайт Unlimited0, точные prompt_source_path/SHA/3 входа, CAS claim и readback; свежий скан после каждой отправки. При заполненных слотах ждать существующий Relay/часовой цикл, не повторять готовые картинки 68–69. Затем продолжать прежнюю разрешённую видеоочередь; Роскосмос на паузе.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -272,7 +272,7 @@
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-      "status": "waiting_for_results_and_slots",
+      "status": "stitch_image_trio_first_waiting_for_slot",
       "canonical_refs": [
         "ops/topview-launch-queue.json",
         "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
@@ -302,9 +302,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-28T10:06:13+00:00",
+      "updated_at": "2026-10-28T15:07:16+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
+      "next_action": "Сначала при свободном слоте S66-STITCH-NB-IMAGE-1 → -2 → -3: три отдельные Nano Banana Pro/2K/16:9 картинки прогулки Алины и Даши со Стичем. Только сайт Unlimited0, точные prompt_source_path/SHA/3 входа, CAS claim и readback; свежий скан после каждой отправки. При заполненных слотах ждать существующий Relay/часовой цикл, не повторять готовые картинки 68–69. Затем продолжать прежнюю разрешённую видеоочередь; Роскосмос на паузе.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -314,33 +314,28 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-28T10:06:13+00:00",
-        "last_completed": "Проверены 20 промптов, 94 привязки и 57 публичных изображений/миниатюр; исправления и навигация опубликованы, 13 изменённых файлов прошли HTTP/SHA readback, 348 тестов и CI прошли.",
-        "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
+        "verified_at": "2026-10-28T15:07:16+00:00",
+        "last_completed": "Проверены готовые 5 референсов, исправлено gallery-only назначение 68, тост синхронизирован, три прогулки Стича поставлены первыми; 6/6 слотов занято, запусков нет.",
+        "next_action": "Сначала при свободном слоте S66-STITCH-NB-IMAGE-1 → -2 → -3: три отдельные Nano Banana Pro/2K/16:9 картинки прогулки Алины и Даши со Стичем. Только сайт Unlimited0, точные prompt_source_path/SHA/3 входа, CAS claim и readback; свежий скан после каждой отправки. При заполненных слотах ждать существующий Relay/часовой цикл, не повторять готовые картинки 68–69. Затем продолжать прежнюю разрешённую видеоочередь; Роскосмос на паузе.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Основной план после проверки татуинской связки · 28.10.2026",
-          "sha256": "db9dbf341537aab0986a60b309355abb79b244b0e0059c9839e9acfc2099f59e"
+          "anchor": "# Татуинская связка — проверка готового и очередь прогулок Стича · 28.10.2026",
+          "sha256": "71a24c9791ab904f6b5bb20f6d1e33d250ec918a35d4979072f6c784921b8e2f"
         },
         "evidence": [
           {
-            "file": "reports/tatooine-continuity-review-2026-10-28.json",
-            "sha256": "60e4d92f6405f6e3aec18f5af783acf088ec919bd1c4aa79e63e8f89637b3ca5"
+            "file": "reports/s68-69-followup-2026-10-28.json",
+            "sha256": "c81df82b8c63e82edb030dcc3d0ea8b2518d992d6fb20424fe55d6faae982577"
           },
           {
-            "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
-            "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908"
-          },
-          {
-            "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
-            "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379"
+            "file": "ops/topview-launch-queue.json",
+            "sha256": "834a688ddb87b6a052a5213267750c86fa7a7a41073abfb65fbde8e78c8f77e3"
           }
         ],
         "read_next": [
-          "reports/tatooine-continuity-review-2026-10-28.json",
-          "ops/OWNER-TASKS.md",
           "ops/TOPVIEW-FREE-LAUNCH.md",
-          "ops/topview-launch-queue.json"
+          "ops/topview-launch-queue.json",
+          "references/scenes/scene-66/manifest.json"
         ],
         "blockers": []
       },
@@ -1112,7 +1107,7 @@
   "resume_focus": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-28T10:06:13+00:00",
+    "set_at": "2026-10-28T15:07:16+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }
