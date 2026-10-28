@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T15:03:52+00:00",
-  "source_head": "09e8e6518249eb906c05352c69eb716dfaf6856c",
-  "source_fingerprint": "530603244a3f1a50210903b1484f021f8af16151b733ea061c45ccf16034b840",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-28T15:09:29+00:00",
+  "source_head": "cc9e931b1dc804293a9f4e169048fb6dfddabf89",
+  "source_fingerprint": "2061b06110a020d52653bb25fc775c8b5de08b2bbeb8dd9f743ca43f661e365f",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,42 +30,40 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-    "status": "waiting_for_results_and_slots",
-    "last_completed": "Проверены 20 промптов, 94 привязки и 57 публичных изображений/миниатюр; исправления и навигация опубликованы, 13 изменённых файлов прошли HTTP/SHA readback, 348 тестов и CI прошли.",
-    "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
-    "verified_at": "2026-10-28T10:06:13+00:00",
+    "status": "stitch_image_trio_first_waiting_for_slot",
+    "last_completed": "Проверены готовые 5 референсов, исправлено gallery-only назначение 68, тост синхронизирован, три прогулки Стича поставлены первыми; 6/6 слотов занято, запусков нет.",
+    "next_action": "Сначала при свободном слоте S66-STITCH-NB-IMAGE-1 → -2 → -3: три отдельные Nano Banana Pro/2K/16:9 картинки прогулки Алины и Даши со Стичем. Только сайт Unlimited0, точные prompt_source_path/SHA/3 входа, CAS claim и readback; свежий скан после каждой отправки. При заполненных слотах ждать существующий Relay/часовой цикл, не повторять готовые картинки 68–69. Затем продолжать прежнюю разрешённую видеоочередь; Роскосмос на паузе.",
+    "verified_at": "2026-10-28T15:07:16+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/tatooine-continuity-review-2026-10-28.json",
-        "sha256": "60e4d92f6405f6e3aec18f5af783acf088ec919bd1c4aa79e63e8f89637b3ca5"
+        "file": "reports/s68-69-followup-2026-10-28.json",
+        "sha256": "c81df82b8c63e82edb030dcc3d0ea8b2518d992d6fb20424fe55d6faae982577"
       },
       {
-        "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
-        "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908"
-      },
-      {
-        "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
-        "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379"
+        "file": "ops/topview-launch-queue.json",
+        "sha256": "834a688ddb87b6a052a5213267750c86fa7a7a41073abfb65fbde8e78c8f77e3"
       }
     ],
     "read_next": [
-      "reports/tatooine-continuity-review-2026-10-28.json",
-      "ops/OWNER-TASKS.md",
       "ops/TOPVIEW-FREE-LAUNCH.md",
-      "ops/topview-launch-queue.json"
+      "ops/topview-launch-queue.json",
+      "references/scenes/scene-66/manifest.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Основной план после проверки татуинской связки · 28.10.2026",
-      "sha256": "db9dbf341537aab0986a60b309355abb79b244b0e0059c9839e9acfc2099f59e"
+      "anchor": "# Татуинская связка — проверка готового и очередь прогулок Стича · 28.10.2026",
+      "sha256": "71a24c9791ab904f6b5bb20f6d1e33d250ec918a35d4979072f6c784921b8e2f"
     }
   },
-  "checkpoint_text": "# Основной план после проверки татуинской связки · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023. Проверено: 2026-10-28T10:06:13+00:00.\n\nПроверка татуинской связки завершена: reports/tatooine-continuity-review-2026-10-28.json. Референсы и пути согласованы; 52P7→66→67→68→69→70→65 подписаны и связаны навигацией. Дополнительных картинок, видеозапусков и художественных одобрений при проверке не было.\n\nСледующее действие: Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.\n\nПри QC отдельно проверить сходство Алины/Даши/Маши Р, ровно четыре руки продавца, одну сумку и одну дыню, положение кучки, попадание мусора в совок и стык70→65. Только реальные проверенные последние3с задают начало следующей сцены; композиционные картинки не определяют момент действия или лицо вместо индивидуального листа. Исторический скан слотов не заменяет свежую проверку.\n",
+  "checkpoint_text": "# Татуинская связка — проверка готового и очередь прогулок Стича · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\n\nЗадача claude-202610272340-s68-69-refs уже done, проверены все 5 существующих PNG и их SHA; повторного рисования нет. Композиция 68 возвращена только в галерею (из 3 промптов и очереди удалена); композиция 69 уже только вспомогательная. Тост IG-11 своей маслёнкой был в таймлайне, теперь синхронизированы описание и ограничение «не пьёт».\n\nВладелец отдельно разрешил Topview Nano Banana: три новых разных кадра прогулки Алины и Даши со Стичем, S66-STITCH-NB-IMAGE-1 → -2 → -3, приоритеты -3/-2/-1 перед существующими видео. Все 3 исходника каждого кадра готовы, новые PNG пока не созданы. Полный живой скан: 13 досок, 19 страниц, 938 задач, 6/6 занято; Create, claim и расходов не было. После каждого submit повторить скан; если свободен только один слот, остальные изображения ждут его освобождения, без перехода на платный режим. Старые видео и проектная пауза Роскосмоса сохранены.\n\nСледующий шаг: свежий main/решения/замок/полный скан, затем бесплатный веб-запуск следующего из трёх image-items по его prompt_source_path и SHA; в этом же цикле продолжать при наличии свободных слотов. Существующий часовой обработчик и Relay включены и читают живую очередь, новый монитор не создавался. Готовые 5 картинок не повторять, закрытую задачу не переоткрывать.\n\nДоказательства: `reports/s68-69-followup-2026-10-28.json`.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -159,10 +157,9 @@
     }
   ],
   "read_next": [
-    "reports/tatooine-continuity-review-2026-10-28.json",
-    "ops/OWNER-TASKS.md",
     "ops/TOPVIEW-FREE-LAUNCH.md",
-    "ops/topview-launch-queue.json"
+    "ops/topview-launch-queue.json",
+    "references/scenes/scene-66/manifest.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -336,21 +333,21 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S62-SEED20-P1",
+        "item_id": "S66-STITCH-NB-IMAGE-1",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
         "submit_authorized": false
       },
       {
-        "item_id": "S59-SEED20-P2",
+        "item_id": "S66-STITCH-NB-IMAGE-2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
         "submit_authorized": false
       },
       {
-        "item_id": "S60-SEED20-P1",
+        "item_id": "S66-STITCH-NB-IMAGE-3",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -412,8 +409,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "2ca0d546931fcc2d37cdad50d898466a101f1ba52c62fe5b6bf86d3d4113585d",
-      "bytes": 396498
+      "sha256": "834a688ddb87b6a052a5213267750c86fa7a7a41073abfb65fbde8e78c8f77e3",
+      "bytes": 399127
     },
     {
       "file": "project-status.json",
@@ -422,8 +419,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "9e21fc5e148c8ded0a869dcba998e23a222a30acf554b84370138687a18e609f",
-      "bytes": 32718
+      "sha256": "0f28395928d81209448eb904d478b1af0765d0754082b6c6501ad27dcc5cf688",
+      "bytes": 35087
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -431,19 +428,9 @@
       "bytes": 20662
     },
     {
-      "file": "reports/tatooine-continuity-review-2026-10-28.json",
-      "sha256": "60e4d92f6405f6e3aec18f5af783acf088ec919bd1c4aa79e63e8f89637b3ca5",
-      "bytes": 31322
-    },
-    {
-      "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
-      "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379",
-      "bytes": 5283
-    },
-    {
-      "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
-      "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908",
-      "bytes": 7303
+      "file": "reports/s68-69-followup-2026-10-28.json",
+      "sha256": "c81df82b8c63e82edb030dcc3d0ea8b2518d992d6fb20424fe55d6faae982577",
+      "bytes": 11113
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -452,19 +439,19 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "2a1fabae121e28e780d857df38eb9531bd8679e35a39f2706474e8a400844d35",
-      "bytes": 24009
+      "sha256": "01ac97c380766210775e440678b3d3f4a320c8127972bfbbbca781fbe797c390",
+      "bytes": 23995
     },
     {
       "file": "video-prompts.md",
-      "sha256": "343dce80a901c7a1d5639eb35738ab0532308b44729e1640455436e47c560d2a",
-      "bytes": 1122992
+      "sha256": "1e0e15f91cc5b4d7d97fae7ded1509b2fe112b2477300b79dbe651da7e1178f4",
+      "bytes": 1121600
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "f52fb4a090ebfd31acaac667858630083f4a949411871f2c09727c0df298744c",
-      "bytes": 75038
+      "sha256": "bc89e70b79ca13ca7d891a8869d385072f874249c2470e4ecc3d94d2b2fc82c2",
+      "bytes": 74896
     }
   ],
-  "packet_bytes": 7404
+  "packet_bytes": 7370
 }
