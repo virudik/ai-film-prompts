@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "scene_id": 28,
+  "item_id": "S28-A1-TEST-20261017",
+  "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+  "completed_at": "2026-10-28T05:39:06Z",
+  "reviewed_at": "2026-10-28T08:06:00Z",
+  "source": {
+    "download_method": "Topview Board selected-material ZIP",
+    "original_filename": "261023_0014_video_edit_4558.mp4",
+    "sha256": "a221443eaaf6c2d100ad9e42f6e7393a5614b80d5dc60f760df0ec9c3353d24e",
+    "md5": "5f7dbac67eb00e3a08d493362482b93d",
+    "size_bytes": 11722153,
+    "duration_seconds": 15.104,
+    "video": "H.264 1280x720 24fps",
+    "audio": "AAC stereo 32000Hz; stream present, not listened",
+    "archive": {
+      "archived_at": "2026-10-28T05:43:15Z",
+      "drive_file_id": "1mV7CfO7SoW4MZAMPa_JpTH91964Svsph",
+      "drive_url": "https://drive.google.com/file/d/1mV7CfO7SoW4MZAMPa_JpTH91964Svsph/view",
+      "sha256_match": true,
+      "md5_match": true,
+      "size_match": true
+    }
+  },
+  "submission": {
+    "board_name": "My First Board",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "unlimited": true,
+    "credits": 0,
+    "canonical_prompt_sha256_at_submit": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
+    "normalized_prompt_sha256_at_submit": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
+    "input_count": 3
+  },
+  "review_scope": {
+    "full_source": "visual sampling at 4 fps across all 15.104 seconds",
+    "selected_keyframes": "full-resolution frames at 0.2, 2, 4, 6, 8, 10, 12 and 14.5 seconds plus final frame",
+    "audio_listened": false,
+    "audio_signal_check": "AAC stream present; overall peak -18.81 dBFS and RMS -39.95 dBFS by ffmpeg astats",
+    "continuous_full_frame_rate_view": false,
+    "honesty_note": "This is a sampled visual review plus signal-level audio analysis, not a continuous real-time viewing with sound.",
+    "visual_evidence_note": "Four 4fps contact sheets and full-resolution key/final frames were inspected in the working run. Binary derivatives were not added to public canon; the exact original is preserved in the private Drive archive identified above."
+  },
+  "technical_assessment": {
+    "result": "partially_usable_not_owner_approved",
+    "owner_approved": false,
+    "editorial_completion": false,
+    "automatic_retry": false,
+    "visual_score_out_of_5": 3.8,
+    "critical_dependency_defect": false
+  },
+  "dance_findings": {
+    "energy_and_amplitude": "0.0–7.8s has immediate grounded side steps, low kicks, torso/arm accents and an outward turn with visible weight transfer. Around 8.0–10.7s the amplitude drops markedly into a slow arms-out reset/near-hold, contrary to the requested continuous brisk phrase. Movement resumes for the inward approach and finish.",
+    "faces_and_costumes": "Serega and Yulia remain recognizable against their individual sheets; serious expressions, screen sides and costumes remain stable. No extra cast or weapon appears.",
+    "anatomy_feet_weight": "At the sampled cadence, feet remain grounded with readable push-off and landing; no obvious extra/fused limbs or gross hand/foot deformation was found. Serega's robe occasionally obscures foot detail but does not erase the motion.",
+    "partner_contact_support": "This A1 prompt does not require a lift or physical support. The pair mirrors and answers movement without accidental collision; no physical contact is claimed.",
+    "choreography": "The opening broad side steps, low kick-steps and outward turn are readable. The middle loses the requested continuous kick/answer and heel-toe intensity, then the pair travels inward and reaches the planned face-to-face handoff with both hands lowered.",
+    "camera": "Single stable full-body view with a smooth lateral/push-in move, readable feet through the dance and no bars or cuts. The final push-in crops the feet only after the handoff is established.",
+    "sound": "Not listened. The file contains a low-level stereo AAC track; absence of speech, singing or generated score is not certified by this review."
+  },
+  "usable_intervals": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 7.8,
+      "note": "Strongest energetic phrase: immediate side steps, low kicks and outward turn."
+    },
+    {
+      "start_seconds": 10.7,
+      "end_seconds": 15.104,
+      "note": "Inward approach and correct hands-down face-to-face ending; lower dance density than the opening."
+    }
+  ],
+  "defects": [
+    {
+      "severity": "material_pacing_deviation",
+      "time_range_seconds": [
+        8,
+        10.7
+      ],
+      "finding": "Noticeable amplitude collapse into a slow reset/near-hold instead of a continuous brisk partner phrase."
+    }
+  ],
+  "queue_effect": {
+    "predecessor_terminal_and_qc_confirmed": true,
+    "item_to_unblock": "S28-A1-R2-20261025",
+    "action": "Remove the duplicate-prevention terminal gate and set the already owner-authorized R2 item to waiting_for_slot.",
+    "authorization_scope": "This is not a new retry authorization and does not submit the item. It implements the existing terminal_dependency_policy after actual terminal status and QC.",
+    "other_scene28_items": "unchanged"
+  }
+}
