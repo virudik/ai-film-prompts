@@ -168,6 +168,17 @@
       "source_checkpoint": "2026-09-26T15:32:53.563Z",
       "outcome": "success",
       "verification": "Topview task completed 2026-09-25T11:27:39Z; removed Scene 19 from render-slow only. Technical success does not imply editorial approval."
+    },
+    {
+      "timestamp": "2026-09-26T15:32:53.563Z",
+      "operation": "terminal_transition_and_slow_remove",
+      "scene_id": 17,
+      "task_fingerprint": "scene17-67b8304f",
+      "previous_status": "init",
+      "new_status": "success",
+      "source_checkpoint": "2026-09-26T15:32:53.563Z",
+      "outcome": "success",
+      "verification": "Topview task completed 2026-09-26T10:39:04Z; removed Scene 17 from render-slow only. Technical success does not imply editorial approval."
     }
   ]
 }

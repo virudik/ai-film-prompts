@@ -5,17 +5,6 @@
   "events": [
     {
       "timestamp": "2026-09-26T15:32:53.563Z",
-      "operation": "terminal_transition_and_slow_remove",
-      "scene_id": 17,
-      "task_fingerprint": "scene17-67b8304f",
-      "previous_status": "init",
-      "new_status": "success",
-      "source_checkpoint": "2026-09-26T15:32:53.563Z",
-      "outcome": "success",
-      "verification": "Topview task completed 2026-09-26T10:39:04Z; removed Scene 17 from render-slow only. Technical success does not imply editorial approval."
-    },
-    {
-      "timestamp": "2026-09-26T15:32:53.563Z",
       "operation": "discover_existing_scene_active_task",
       "scene_id": 23,
       "task_fingerprint": "scene23-e42b4746",
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-28T20:00:21Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T20:50:23Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T20:50:23Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 15,
+  "archived_event_count": 16,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
