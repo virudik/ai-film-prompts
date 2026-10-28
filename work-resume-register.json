@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T08:06:00Z",
+  "last_updated_at": "2026-10-28T08:41:28+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -719,6 +719,39 @@
         "film-backlog.md",
         "reports/topview-workflows-2026-10-23.md"
       ]
+    },
+    {
+      "work_id": "SUCCESSOR-AUDIT-20261028",
+      "title": "Проверка завершённой работы сменщика: референсы, Relay, Продолжай",
+      "status": "in_progress",
+      "project": "seregius",
+      "canonical_refs": [
+        "reports/successor-audit-2026-10-28.json"
+      ],
+      "updated_at": "2026-10-28T08:41:28+00:00",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-28T08:41:28+00:00",
+        "last_completed": "Прочитан отчёт сменщика и свежий main; найдены два подтверждённых несоответствия.",
+        "next_action": "Проверить артефакты и связи, исправить подтверждённые ошибки, выполнить проверки и вернуть основной фокус.",
+        "checkpoint": {
+          "file": "reports/current-work-checkpoint.md",
+          "anchor": "# Проверка работы сменщика · 28.10.2026",
+          "sha256": "f1ed670969aa0be3f62b4aa992f9fc91f5d338c1b53ca2bc9bc21f1eede83dc2"
+        },
+        "evidence": [
+          {
+            "file": "reports/successor-audit-2026-10-28.json",
+            "sha256": "5a93f5b0672bcfcba055f687b2f3d09a3f7eed1477bef9cf0fff8c83b19e28f0"
+          }
+        ],
+        "read_next": [
+          "ops/CONTINUE-PROTOCOL.md",
+          "ops/TOPVIEW-FREE-LAUNCH.md"
+        ],
+        "blockers": []
+      },
+      "next_action": "Проверить артефакты и связи, исправить подтверждённые ошибки, выполнить проверки и вернуть основной фокус."
     }
   ],
   "rules": [
@@ -1078,9 +1111,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-PLAN-20261023",
+    "work_id": "SUCCESSOR-AUDIT-20261028",
     "project": "seregius",
-    "set_at": "2026-10-28T02:37:21.320Z",
-    "reason": "Finished Tatooine reference/staging publication; return to authorized story/video queue"
+    "set_at": "2026-10-28T08:41:28+00:00",
+    "reason": "Explicitly selected by the authorized task writer"
   }
 }
