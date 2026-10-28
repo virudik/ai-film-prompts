@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-28T15:11:14+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-28T16:36:16+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "1e0e15f91cc5b4d7d97fae7ded1509b2fe112b2477300b79dbe651da7e1178f4",
-   "bytes": 1121600
+   "sha256": "15ef23285c38e3f478d9e3784fcb25615eff5484bf0243bce6e55fe057ad8dd7",
+   "bytes": 1124108
   }
  ],
  "invariants": [
@@ -830,11 +830,12 @@
     "@Image2",
     "@Image3",
     "@Image4",
-    "@Image5"
+    "@Image5",
+    "@Image6"
    ],
    "offset": 924026,
-   "chars": 27267,
-   "sha256_12": "18a4b12aa05f"
+   "chars": 29624,
+   "sha256_12": "6414ca6228cb"
   },
   {
    "id": 69,
@@ -856,7 +857,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 951293,
+   "offset": 953650,
    "chars": 30347,
    "sha256_12": "9c9b454ae1cc"
   },
@@ -877,7 +878,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 981640,
+   "offset": 983997,
    "chars": 22810,
    "sha256_12": "a13f26af1fad"
   }

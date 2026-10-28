@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T16:25:34+00:00",
-  "source_head": "c5b8e1715703b34b3d0b0fbdece1b37007f85300",
-  "source_fingerprint": "738fa4d34b34258765d8a8deeffa5687fb516be7cd86261ff6f0776746980065",
+  "checked_at": "2026-10-28T16:36:16+00:00",
+  "source_head": "c233ec1c748f218bfa5b8dcf14c185ef88aad4af",
+  "source_fingerprint": "f53dcd5d535b34ba8dc63f97a5242b47ca03cf779e9e46dc1c536191e1fc315c",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -31,10 +31,42 @@
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
   "reasons": [
-    "recovery evidence changed: ops/topview-launch-queue.json"
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
   ],
-  "selected_work": null,
-  "checkpoint_text": "# Татуинская связка — проверка готового и очередь прогулок Стича · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\n\nЗадача claude-202610272340-s68-69-refs уже done, проверены все 5 существующих PNG и их SHA; повторного рисования нет. Композиция 68 возвращена только в галерею (из 3 промптов и очереди удалена); композиция 69 уже только вспомогательная. Тост IG-11 своей маслёнкой был в таймлайне, теперь синхронизированы описание и ограничение «не пьёт».\n\nВладелец отдельно разрешил Topview Nano Banana: три новых разных кадра прогулки Алины и Даши со Стичем, S66-STITCH-NB-IMAGE-1 → -2 → -3, приоритеты -3/-2/-1 перед существующими видео. Все 3 исходника каждого кадра готовы, новые PNG пока не созданы. Полный живой скан: 13 досок, 19 страниц, 938 задач, 6/6 занято; Create, claim и расходов не было. После каждого submit повторить скан; если свободен только один слот, остальные изображения ждут его освобождения, без перехода на платный режим. Старые видео и проектная пауза Роскосмоса сохранены.\n\nСледующий шаг: свежий main/решения/замок/полный скан, затем бесплатный веб-запуск следующего из трёх image-items по его prompt_source_path и SHA; в этом же цикле продолжать при наличии свободных слотов. Существующий часовой обработчик и Relay включены и читают живую очередь, новый монитор не создавался. Готовые 5 картинок не повторять, закрытую задачу не переоткрывать.\n\nДоказательства: `reports/s68-69-followup-2026-10-28.json`.\n",
+  "selected_work": {
+    "work_id": "SEREGIUS-PLAN-20261023",
+    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+    "status": "optional_stitch_batch_waiting_for_capacity",
+    "last_completed": "Возвращён @Image6 в три промпта68, manifest, registry, галерею и очередь; SHA сверены, PNG не менялись. Подтверждены три необязательные прогулки Стича и одна новая попытка IMAGE-1 после отказа; 6 видео активны, новых запусков нет.",
+    "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
+    "verified_at": "2026-10-28T16:33:21+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "reports/s68-composition-and-stitch-policy-2026-10-28.json",
+        "sha256": "84ad5489bae062492e16f7fbee3b9c42fca5db536898d1461b1be0bfce49b723"
+      },
+      {
+        "file": "ops/topview-launch-queue.json",
+        "sha256": "f35e442c36c002a20773dcf158052bda999a89736973502a0c729e5d820ad0cd"
+      },
+      {
+        "file": "references/scenes/scene-68/manifest.json",
+        "sha256": "1c7919df3399f78ef6e2ca2e1ca0a8eb82ce2b83dea42cdc55229fb80bb4e943"
+      }
+    ],
+    "read_next": [
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/CONTINUE-PROTOCOL.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# Сцена 68: шесть входов; Стич: необязательная пробная тройка · 28.10.2026",
+      "sha256": "bcd7c64647f69cf780fb4a3c2db05b9bd544d1d7efd1b4fae17e87eb5f4bd79f"
+    }
+  },
+  "checkpoint_text": "# Сцена 68: шесть входов; Стич: необязательная пробная тройка · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПроверено: 2026-10-28T16:32:18+00:00.\n\nВозвращён @Image6 в три промпта68, manifest, registry, галерею и очередь; SHA сверены, PNG не менялись. Подтверждены три необязательные прогулки Стича и одна новая попытка IMAGE-1 после отказа; 6 видео активны, новых запусков нет.\n\nНовое решение владельца заменяет прежнюю запись «композиция68 только в галерее» и прежнее ожидание разрешения IMAGE-1. @Image6 задаёт расположение и масштаб; индивидуальные листы — внешность и реквизит; настоящий @Video1 и таймлайн — старт, включение мётел и появление Маши. Никакой перерисовки.\n\nПри освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе. Оценка владельца около10мин не является гарантией сервиса. История отказа сохранена в receipt и архиве, attempts_used не обнулён.\n\nДоказательства: `reports/s68-composition-and-stitch-policy-2026-10-28.json`.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +159,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/CONTINUE-PROTOCOL.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -300,6 +335,13 @@
     ],
     "next_candidates": [
       {
+        "item_id": "S66-STITCH-NB-IMAGE-1",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
         "item_id": "S66-STITCH-NB-IMAGE-2",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -308,13 +350,6 @@
       },
       {
         "item_id": "S66-STITCH-NB-IMAGE-3",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
-        "item_id": "S62-SEED20-P1",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -376,8 +411,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "616961ec4664f17767b98c49cd032e54427fba95923e0463121c2452edd1955f",
-      "bytes": 401313
+      "sha256": "f35e442c36c002a20773dcf158052bda999a89736973502a0c729e5d820ad0cd",
+      "bytes": 399783
     },
     {
       "file": "project-status.json",
@@ -385,9 +420,14 @@
       "bytes": 21253
     },
     {
+      "file": "references/scenes/scene-68/manifest.json",
+      "sha256": "1c7919df3399f78ef6e2ca2e1ca0a8eb82ce2b83dea42cdc55229fb80bb4e943",
+      "bytes": 19453
+    },
+    {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "8e21917b38f4661e21fb2ac76c90d6b4fca6630b6e0946822c616870915a6b07",
-      "bytes": 37337
+      "sha256": "4a111e694b4dce0ffd4c46d2a66bcb08aabe1acdba277ce4befc88557a3d2e4e",
+      "bytes": 39704
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -395,9 +435,9 @@
       "bytes": 20662
     },
     {
-      "file": "reports/s68-69-followup-2026-10-28.json",
-      "sha256": "c81df82b8c63e82edb030dcc3d0ea8b2518d992d6fb20424fe55d6faae982577",
-      "bytes": 11113
+      "file": "reports/s68-composition-and-stitch-policy-2026-10-28.json",
+      "sha256": "84ad5489bae062492e16f7fbee3b9c42fca5db536898d1461b1be0bfce49b723",
+      "bytes": 2888
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -406,19 +446,19 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "c53b29b834cfdf209e2d389369f19d48a4e669ee05ba8a9a048ab85d790181b0",
-      "bytes": 23994
+      "sha256": "3c4a4a623cb102961ad03555e0d99bf03e130e016e59839b39c16c794ca19b75",
+      "bytes": 24010
     },
     {
       "file": "video-prompts.md",
-      "sha256": "1e0e15f91cc5b4d7d97fae7ded1509b2fe112b2477300b79dbe651da7e1178f4",
-      "bytes": 1121600
+      "sha256": "15ef23285c38e3f478d9e3784fcb25615eff5484bf0243bce6e55fe057ad8dd7",
+      "bytes": 1124108
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "9e64ef4668ee71092f8086ce4febe20e268f1ca50889bebc3ca534432055bda8",
-      "bytes": 75618
+      "sha256": "c56b11a8dd5a94a65d5cab4fda2d9b3fb083e06a1fa4342b737085b38ce60825",
+      "bytes": 79187
     }
   ],
-  "packet_bytes": 6239
+  "packet_bytes": 7612
 }
