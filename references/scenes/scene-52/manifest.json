@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-27T22:25:11Z",
+  "updated_at": "2026-10-28T03:03:25.128Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -546,6 +546,50 @@
           "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656"
         }
       ]
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "caption": "Татуинская связка 1/7 · @Image4: Алина: развёртка в одежде Татуина",
+      "role": "Алина: развёртка в одежде Татуина",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1989143
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+      "caption": "Татуинская связка 1/7 · @Image5: Даша: развёртка в одежде Татуина",
+      "role": "Даша: развёртка в одежде Татуина",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2045183
     }
   ],
   "identity_refs": [
@@ -1724,5 +1768,22 @@
       "normalized_prompt_sha256": "e0f5b63668f2864697882e3962d7e1369bee2a7428930a25ca65e6b042aaa1d6",
       "characters": 4737
     }
-  ]
+  ],
+  "story_chain": {
+    "title": "Татуинская связка",
+    "step": 1,
+    "total": 7,
+    "montage_order": [
+      52,
+      66,
+      67,
+      68,
+      69,
+      70,
+      65
+    ],
+    "part": 7,
+    "selected_model": "Wan 3.0",
+    "selected_prompt_id": "S52-R2-SEED20-P7"
+  }
 }
