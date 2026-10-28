@@ -5,17 +5,6 @@
   "events": [
     {
       "timestamp": "2026-09-24T17:26:19.000Z",
-      "operation": "discover_existing_scene_active_task",
-      "scene_id": 22,
-      "task_fingerprint": "scene22-6926ce5d",
-      "previous_status": "not_tracked",
-      "new_status": "init",
-      "source_checkpoint": "2026-09-24T17:26:19.000Z",
-      "outcome": "success",
-      "verification": "Fresh Topview Board task exact-matches canonical Scene 22 prompt/model/references; mapped to existing Scene 22. No new Scene ID created."
-    },
-    {
-      "timestamp": "2026-09-24T17:26:19.000Z",
       "operation": "active_refresh_and_overlap_discovery",
       "scene_id": null,
       "task_fingerprint": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-28T16:20:40Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T17:12:05Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T17:12:05Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 11,
+  "archived_event_count": 12,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }

@@ -124,6 +124,17 @@
       "source_checkpoint": "2026-09-24T16:37:52.436Z",
       "outcome": "success",
       "verification": "Refreshed all previously active task IDs; Scene 4 terminal success, remaining 5 active tasks are init. Scanned all 4 Board video pages / 353 tasks; no new recent task discovered."
+    },
+    {
+      "timestamp": "2026-09-24T17:26:19.000Z",
+      "operation": "discover_existing_scene_active_task",
+      "scene_id": 22,
+      "task_fingerprint": "scene22-6926ce5d",
+      "previous_status": "not_tracked",
+      "new_status": "init",
+      "source_checkpoint": "2026-09-24T17:26:19.000Z",
+      "outcome": "success",
+      "verification": "Fresh Topview Board task exact-matches canonical Scene 22 prompt/model/references; mapped to existing Scene 22. No new Scene ID created."
     }
   ]
 }
