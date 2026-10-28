@@ -939,9 +939,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2422971,
-   "thumb_bytes": 37880,
-   "src_sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138"
+   "src_bytes": 2258827,
+   "thumb_bytes": 38572,
+   "src_sha256": "7238e65404aa7672696df5f4a014110a06666e7e00acb2497364980ff5fc5ab8"
   },
   "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png.webp",
@@ -949,9 +949,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2291182,
-   "thumb_bytes": 44174,
-   "src_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e"
+   "src_bytes": 2145815,
+   "thumb_bytes": 44612,
+   "src_sha256": "851f861b01da6647846938722ec93559cb0680004c6122ac198d9bf0ae6a91af"
   },
   "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png.webp",
@@ -959,9 +959,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2418039,
-   "thumb_bytes": 47210,
-   "src_sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21"
+   "src_bytes": 2297204,
+   "thumb_bytes": 47410,
+   "src_sha256": "326e35e896c731820d0e06ac8c49efae880083bc310e2dd7be0414eb1c72f49a"
   },
   "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-22/c22-vr-stand.png.webp",
@@ -969,9 +969,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 940,
-   "src_bytes": 2375027,
-   "thumb_bytes": 57892,
-   "src_sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626"
+   "src_bytes": 2303496,
+   "thumb_bytes": 59202,
+   "src_sha256": "9e258c66bdd247eda8888f3d5d3044394eb3930580c6b4d01aeb71f487ffc78e"
   },
   "projects/raznoe/references/scenes/scene-23/c23-console.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-23/c23-console.png.webp",
@@ -979,9 +979,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 1936100,
-   "thumb_bytes": 29370,
-   "src_sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc"
+   "src_bytes": 1831190,
+   "thumb_bytes": 31098,
+   "src_sha256": "5f51f5b9d3f836c21bf8254e3e2276eeeb5e33eadd80b301d4cfd65b33355dbf"
   },
   "projects/raznoe/references/scenes/scene-23/c23-era-arm.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-23/c23-era-arm.png.webp",
@@ -1019,9 +1019,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2437870,
-   "thumb_bytes": 48522,
-   "src_sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7"
+   "src_bytes": 2336147,
+   "thumb_bytes": 48664,
+   "src_sha256": "0d3f62742bd9abf8d03a9bedfda501eed85d164cacda5f5d54ca8ef77e3c4d20"
   },
   "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png.webp",
@@ -1029,9 +1029,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2531929,
-   "thumb_bytes": 72494,
-   "src_sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06"
+   "src_bytes": 2414382,
+   "thumb_bytes": 72916,
+   "src_sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859"
   },
   "projects/raznoe/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/q09-evening.png.webp",
