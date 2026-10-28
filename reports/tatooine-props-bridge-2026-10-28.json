@@ -2,10 +2,10 @@
   "schema_version": 1,
   "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
   "project": "seregius",
-  "status": "in_progress",
-  "stage": "verified_locally_pending_publication",
+  "status": "completed",
+  "stage": "github_committed_pages_workflow_success",
   "created_at": "2026-10-27T22:51:23Z",
-  "checked_at": "2026-10-27T23:13:11Z",
+  "checked_at": "2026-10-28T02:36:24.193Z",
   "source_head": "0aceff850d88ee34670e486b9ccf733c3dc1fc1a",
   "owner_request": "в сцене 68 «Жилищник» бестолково гоняет песок и обметает кучу стороной, а в сцене 69 (раз маша уже с дыней в руках) Маша отдаёт дворнику дыню и сумку, отнимает метлу и убирает всё в совок. Так даже лучше. В лазерный совок добавь и сделай референсные картинки этих действий. Реф картинки кучи нужны? Другие какие-нибудь рефы нужны? Добавить связную бесшовную сцену пролета камеры от сцены 69 к сцене 65 где Серёга в кантине выпивает с боба цветом и компанией",
   "owner_request_provenance": "Exact direct owner message supplied by the root chat; spelling retained verbatim",
@@ -40,51 +40,51 @@
       "path": "references/scenes/scene-69/S69-light-dustpan.png",
       "operation": "create",
       "purpose": "Отдельный лазерный совок в одном дизайне со световой метлой68",
-      "status": "generated_qc_passed_pending_final_publication",
+      "status": "published",
       "before_sha256": null,
       "result_sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
       "generated_at": "2026-10-27T22:54:22Z",
-      "published_commit": null
+      "published_commit": "5b1fe4b59db021a26980128bc62289983da2f770"
     },
     {
       "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
       "operation": "create",
       "purpose": "Передача одной дыни и одной сумки бригадиру; Маша принимает его метлу",
-      "status": "generated_qc_passed_pending_final_publication",
+      "status": "published",
       "before_sha256": null,
       "result_sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
       "generated_at": "2026-10-27T23:02:05Z",
-      "published_commit": null
+      "published_commit": "d6322722f0228489dc2c3d4f06c22d26997ffc11"
     },
     {
       "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
       "operation": "update",
       "purpose": "Маша в фоне несёт дыню и сумку; погашенный совок установлен рядом с четырёхглазым; кучку обметают стороной",
-      "status": "generated_qc_passed_pending_final_publication",
+      "status": "published",
       "before_sha256": "cd4d85d34cde94e4bd856b75b1ab5f5eaa8042e92964ad12da0ae1da6c6dc769",
       "result_sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
       "generated_at": "2026-10-27T22:57:20Z",
-      "published_commit": null
+      "published_commit": "d6322722f0228489dc2c3d4f06c22d26997ffc11"
     },
     {
       "path": "references/scenes/scene-69/S69-masha-masterclass.png",
       "operation": "update",
       "purpose": "Маша метёт в лазерный совок; одна дыня и одна сумка у бригадира",
-      "status": "generated_qc_passed_pending_final_publication",
+      "status": "published",
       "before_sha256": "73f9bc758137aff17eb5ba125c818481a14c8d2125867b6aeaf1942bd12c6cc4",
       "result_sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
       "generated_at": "2026-10-27T23:08:17Z",
-      "published_commit": null
+      "published_commit": "f54582eae2"
     },
     {
       "path": "references/scenes/scene-70/S70-cantina-entrance.png",
       "operation": "create",
       "purpose": "География открытого входа в кантину и непрерывный путь камеры к столу65",
-      "status": "generated_qc_passed_pending_final_publication",
+      "status": "published",
       "before_sha256": null,
       "result_sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
       "generated_at": "2026-10-27T23:08:31Z",
-      "published_commit": null
+      "published_commit": "f54582eae2"
     }
   ],
   "planned_canonical_changes": [
@@ -421,20 +421,62 @@
       "usage": "location_and_staging_reference"
     }
   ],
-  "published_assets": [],
+  "published_assets": [
+    {
+      "path": "references/scenes/scene-69/S69-light-dustpan.png",
+      "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+      "commit": "5b1fe4b59db021a26980128bc62289983da2f770",
+      "pages_deployment_success": true,
+      "public_http_sha_verified": false
+    },
+    {
+      "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+      "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+      "commit": "d6322722f0228489dc2c3d4f06c22d26997ffc11",
+      "pages_deployment_success": true,
+      "public_http_sha_verified": false
+    },
+    {
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "commit": "d6322722f0228489dc2c3d4f06c22d26997ffc11",
+      "pages_deployment_success": true,
+      "public_http_sha_verified": false
+    },
+    {
+      "path": "references/scenes/scene-69/S69-masha-masterclass.png",
+      "sha256": "888262888e4b67dd00618c827ea7060f4ff1b2aa2be6100f9c8ff53fd1941201",
+      "commit": "f54582eae2",
+      "pages_deployment_success": true,
+      "public_http_sha_verified": false
+    },
+    {
+      "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+      "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+      "commit": "f54582eae2",
+      "pages_deployment_success": true,
+      "public_http_sha_verified": false
+    }
+  ],
   "pending_assets": [],
   "video_launches": 0,
   "queue_items_added": 1,
   "paid_actions": 0,
   "owner_approvals_added": 0,
   "publication": {
-    "status": "pending_content_commit",
-    "content_commit": null,
-    "public_readback_verified": false
+    "status": "deployed_pages_success",
+    "content_commit": "f54582eae2",
+    "pages_run_id": 40619366881,
+    "pages_conclusion": "success",
+    "pages_completed_at": "2026-10-28T02:12:44Z",
+    "pages_run_head": "6f732b6446",
+    "source_commit_is_ancestor": true,
+    "public_readback_verified": false,
+    "public_http_note": "Direct HTTP byte comparison not accessible in this chat; no public SHA check claimed"
   },
   "progress": {
-    "last_completed": "Готовы все5изображений; исправлены67–69, добавлена70 и продолжение65. Очередь69→70→65 — Wan3/30с перед музыкой/танцами; 348тестов и113проверок пройдены.",
-    "next_action": "Опубликовать готовый набор и проверить точные публичные файлы/Actions; затем завершить работу и вернуть фокус общему плану. Видео не запускались; реальные стыки/QC обязательны.",
+    "last_completed": "Все 5 картинок и новая сцена 70 в main, мастер и очередь Wan 3 /30с обновлены. Pages workflow #40619366881 success; прежние тесты 348/348 и 113/113 прошли. Публичный HTTP SHA readback не выполнен.",
+    "next_action": "Вернуться к общей очереди Серёгиуса и выполнять будущий видео-QC только после реальных результатов; Unlimited 0, без повторов.",
     "blockers": []
   },
   "asset_history": [
@@ -700,6 +742,14 @@
         "references/scenes/scene-69/S69-melon-bag-handoff.png"
       ],
       "readback": "exact Git blob match and local byte comparison"
+    },
+    {
+      "commit": "f54582eae2",
+      "assets": [
+        "references/scenes/scene-69/S69-masha-masterclass.png",
+        "references/scenes/scene-70/S70-cantina-entrance.png"
+      ],
+      "readback": "Commit file listing + Pages deployment success"
     }
   ],
   "validation": {
@@ -719,6 +769,8 @@
     "queue_bytes": 398799,
     "scene_count": 27,
     "prompt_count": 128,
-    "video_qc": "pending_real_results_not_claimed"
+    "video_qc": "pending_real_results_not_claimed",
+    "pages_deployment": "success run 40619366881",
+    "direct_public_http_readback": "unavailable_not_claimed"
   }
 }
