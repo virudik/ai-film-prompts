@@ -121,12 +121,56 @@
           "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656"
         }
       ]
+    },
+    {
+      "path": "references/scenes/scene-67/S67-fruit-stall.png",
+      "asset_id": "references/scenes/scene-67/S67-fruit-stall.png",
+      "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+      "caption": "Татуинская связка 2/7 · @Image4: Татуин: прилавок с инопланетными фруктами",
+      "role": "Татуин: прилавок с инопланетными фруктами",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-67/S67-fruit-stall.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2757718
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "caption": "Татуинская связка 2/7 · @Image5: Маша Р: развёртка в одежде Татуина; only at the end, continuity to scene 67",
+      "role": "Маша Р: развёртка в одежде Татуина; only at the end, continuity to scene 67",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2247428
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T22:25:11Z",
+  "updated_at": "2026-10-28T03:04:17.550Z",
   "identity_refs": [
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
@@ -313,5 +357,22 @@
     "references/scenes/scene-66/S66-street-outrage.png",
     "references/scenes/scene-67/S67-fruit-stall.png"
   ],
-  "prop_refs": []
+  "prop_refs": [],
+  "story_chain": {
+    "title": "Татуинская связка",
+    "step": 2,
+    "total": 7,
+    "montage_order": [
+      52,
+      66,
+      67,
+      68,
+      69,
+      70,
+      65
+    ],
+    "part": null,
+    "selected_model": "Wan 3.0",
+    "selected_prompt_id": "S66-WAN30"
+  }
 }
