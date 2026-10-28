@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-09-24T03:09:38Z",
-      "operation": "watcher_stale-checkpoint_recovery_refresh",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "5 active tasks; checkpoint 2026-09-24T01:34:44Z",
-      "new_status": "5 active tasks",
-      "source_checkpoint": "2026-09-24T03:09:38Z",
-      "outcome": "success",
-      "verification": "Fresh exact Topview lookup completed for all 5 active task IDs; all remain init. Telemetry checkpoint refreshed. Watcher timing changed from condition_watch to exact_schedule hourly."
-    },
-    {
       "timestamp": "2026-09-24T03:15:21.114Z",
       "operation": "discover_existing_scene_active_task",
       "scene_id": 21,
@@ -5500,8 +5489,19 @@
       "source_checkpoint": "2026-10-28T10:20:20Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T11:10:19Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T11:10:19Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 4,
+  "archived_event_count": 5,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
