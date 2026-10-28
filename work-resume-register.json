@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T16:33:21+00:00",
+  "last_updated_at": "2026-10-28T18:03:54.643Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "optional_stitch_batch_waiting_for_capacity",
-      "updated_at": "2026-10-28T16:33:21+00:00",
+      "updated_at": "2026-10-28T18:03:54.643Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -32,65 +32,51 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-28T07:06:25Z",
+        "checked_at": "2026-10-28T18:03:54.643Z",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-28T06:30:24Z",
+          "synced_at": "2026-10-28T17:42:41Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0,
-          "checked_at": "2026-10-28T07:06:25Z",
+          "checked_at": "2026-10-28T16:37:35Z",
           "info": 3
         },
         "gmail_message_ids": [
-          "1a17f132ec2ac5c2",
-          "1a1806001e5b9f9f",
-          "1a180604ce8f21b1",
-          "1a18060b7a377667",
-          "1a18063dbcd9adb2",
-          "1a1807ac1aec44a7",
-          "1a1807ba1ee3aef0",
-          "1a1807e7d9d9a6ee",
-          "1a180848f5cc06f3",
-          "1a181476be97d686"
+          "1a183432b5f6cd13",
+          "1a18344bccc55e0a",
+          "1a183454eb8dfd7d",
+          "1a1834a7390644eb"
         ],
         "github_failed_run_ids": [
-          40579238714,
-          40622098361,
-          40622124865,
-          40622098398,
-          40622432731,
-          40624817273,
-          40624970040,
-          40625213654,
-          40625807173,
-          40646354351
+          40722392694,
+          40722669964,
+          40722832681
         ],
-        "root_cause": "Three diagnosed groups: review-ledger run 40579238714 lacked rows for scenes68/69 and was fixed by later canonical commits; integration runs failed the temporary instruction_mirrors_match_drive invariant; canon-health notification runs correctly exposed the live queue-size warning.",
+        "root_cause": "All three canon-health runs intentionally failed only on the new-warning notification step because ops/topview-launch-queue.json reached 400–401 KB; health check and status publication succeeded.",
         "current_verification": {
-          "queue_bytes_before": 401806,
-          "queue_bytes_after": 395432,
+          "fix_commit": "c233ec1c748f218bfa5b8dcf14c185ef88aad4af",
           "canon_health": "ok",
           "canon_warnings": 0,
           "verified_success_run_ids": [
-            40599793555,
-            40600787040,
-            40648290183,
-            40648290198
+            40727500605,
+            40731043896
           ]
         },
-        "result": "Review-ledger has later GitHub success. Fresh main passes 348 local tests, site/projects/review-ledger validators and canon-health ok/0 warnings after archival cleanup. Exact seven-file readback matched; final Canon health run40648290183 and Canonical master run40648290198 succeeded. The commit's Pages run was superseded/cancelled and the newer replacement was still processing, so no false deploy success is recorded. Old failed runs were not rerun and Gmail state was not changed."
+        "result": "Resolved before this phase: archival trim removed the warning. No rerun or additional repair; Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-28T15:57:00Z",
+        "checked_at": "2026-10-28T18:00:00Z",
         "boards": 13,
-        "pages": 24,
-        "total_tasks": 615,
+        "pages": 19,
+        "total_tasks": 938,
+        "video_tasks": 615,
+        "image_tasks": 323,
         "complete": true,
         "occupied_slots": 6,
         "active_task_ids": [
@@ -101,8 +87,9 @@
           "8b6a8ce102ea416e88d3c14fa558c513",
           "8a8eadc809004e318c47201b8a463be0"
         ],
-        "method": "read-only Topview connector, all boards and all video pages",
-        "free_slots": 0
+        "method": "read-only Topview connector, all 13 boards and all 19 pages; authenticated cloud/cdp UI confirmation",
+        "free_slots": 0,
+        "new_success": 0
       },
       "last_relay_event": {
         "event_id": "slots:6bc77dbe:2",
