@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Repair Tatooine closeout handoff certificate and canon health",
-  "acquired_at": "2026-10-28T02:41:12.988Z",
-  "expires_at": null,
-  "released_at": "2026-10-28T02:42:09.541Z",
+  "task": "Tatooine chain: audit all image links, foreground Stitch P7, group seven scenes and queue",
+  "acquired_at": "2026-10-28T03:02:40.975Z",
+  "expires_at": "2026-10-28T03:52:40.975Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
