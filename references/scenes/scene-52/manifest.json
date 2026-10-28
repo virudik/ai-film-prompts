@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-28T03:03:25.128Z",
+  "updated_at": "2026-10-28T03:14:15.395Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -619,7 +619,7 @@
     "derivation": "ffmpeg select frame n=720 from original, lossless PNG."
   },
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "86a4a6ab4902862724ff41caf7f931c843c8f856b41322a4d7e73c123bd17a5e",
+  "canonical_master_sha256": "ef01abcfe5adf3198edcbffb951bee245e880503f6266b10524540519160cf4d",
   "bread_milk_continuity": {
     "owner_request": "2026-10-17T20:03:11Z",
     "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
@@ -1784,6 +1784,12 @@
     ],
     "part": 7,
     "selected_model": "Wan 3.0",
-    "selected_prompt_id": "S52-R2-SEED20-P7"
+    "selected_prompt_id": "S52-R2-SEED20-P7",
+    "stitch_reference": {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-66/S66-street-outrage.png",
+      "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+      "role": "Stitch blue fur/red harness in shared street frame"
+    }
   }
 }
