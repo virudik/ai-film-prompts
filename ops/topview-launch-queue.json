@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-28T15:02:46+00:00",
+  "updated_at": "2026-10-28T16:05:00+00:00",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -30,7 +30,7 @@
       "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
       "prompt_file_sha256": "e43b596707deb9d550591469b24809157148917abceec8d0eeb1723f30c857dc",
       "priority": -3,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -64,7 +64,50 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-20261028T1605Z-S66-STITCH-NB-IMAGE-1",
+        "claimed_at": "2026-10-28T16:05:00Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "preflight": {
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Nano Banana Pro",
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_chars": 2078,
+          "prompt_sha256": "1aa2d5e5732693ea85414d42910b3cdc51f6f358f68ed2d90d023e255e045584",
+          "prompt_normalized_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
+          "input_count": 3,
+          "input_sha_verified": true,
+          "input_order": [
+            "@Image1",
+            "@Image2",
+            "@Image3"
+          ],
+          "global_video_scan": {
+            "checked_at": "2026-10-28T15:57:00Z",
+            "boards": 13,
+            "pages": 24,
+            "total_tasks": 615,
+            "occupied_video_slots": 6,
+            "free_video_slots": 0,
+            "complete": true
+          },
+          "global_image_scan": {
+            "checked_at": "2026-10-28T15:57:00Z",
+            "boards": 13,
+            "pages": 18,
+            "total_tasks": 323,
+            "active_image_tasks": 0,
+            "complete": true
+          }
+        }
+      },
       "authorization": "Owner 28Oct2026 in open Work: put Stitch first; use Topview Nano Banana for several consecutive images of Alina and Dasha walking him on a leash in Tatooine streets. Three distinct stills, one free Unlimited0 website attempt each; no paid route, model substitution or retry. This is separate from the already-done Work-only S68/S69 drawing task.",
       "launch_readiness": "reference_inputs_available",
       "created_at": "2026-10-28T15:02:46+00:00",
