@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T02:37:12+00:00",
-  "source_head": "ee68e59300f21abb06a221f56573f2452ae80b59",
-  "source_fingerprint": "df7b2ff223c388cc908bd255de124557c5ce5d1f5b6d61661cfa9520670ba1ed",
+  "checked_at": "2026-10-28T02:38:14+00:00",
+  "source_head": "6f9f6605938e82b3ce9703a529c1f490054dc649",
+  "source_fingerprint": "081fe41afce9275f55d267dcb8fbe95dbfb5c5b2f93b2e6c254bf9888606352b",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -31,10 +31,49 @@
     "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
   "reasons": [
-    "recovery evidence changed: reports/tatooine-props-bridge-2026-10-28.json"
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
   ],
-  "selected_work": null,
-  "checkpoint_text": "# Татуин — дыня, лазерный совок и пролёт к кантине · 28.10.2026\n\nwork_id: TATOOINE-PROPS-BRIDGE-20261028\nЭтап: verified_locally_pending_publication. Проверено: 2026-10-27T23:13:11Z. Отчёт: reports/tatooine-props-bridge-2026-10-28.json.\n\nГотовы все5изображений; исправлены67–69, добавлена70 и продолжение65. Очередь69→70→65 — Wan3/30с перед музыкой/танцами; 348тестов и113проверок пройдены.\n\nОдна дыня и одна сумка проходят67→68→69. В68 дворники обметают ту же кучку стороной, в69 Маша передаёт покупки, забирает метлу и убирает песок/кучку в лазерный совок. Новая70 продолжает настоящий конец69, проходит через открытую дверь к столу Серёги;65 продолжает настоящий конец70 перед тостом. Реальные ролики ожидаются, результат бесшовного рендера не заявляется. Все три версии сцен согласованы;52P1–P6 сохраняют Seedance2.0, ready-skip действует.\n\nСледующий шаг: Опубликовать готовый набор и проверить точные публичные файлы/Actions; затем завершить работу и вернуть фокус общему плану. Видео не запускались; реальные стыки/QC обязательны.\n",
+  "selected_work": {
+    "work_id": "SEREGIUS-PLAN-20261023",
+    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+    "status": "waiting_for_results_and_slots",
+    "last_completed": "Татуинская цепочка52P7→66→67→68→69 согласована; все пять звеньев выбраны Wan3/30с перед49–51/28. Опубликовано и проверено по точным публичным SHA; content commit 71056a649105eb5fca6d482ce024363b559894c6.",
+    "next_action": "Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.",
+    "verified_at": "2026-10-27T22:30:37+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "reports/scene52-rebuild-2026-10-27.json",
+        "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72"
+      },
+      {
+        "file": "reports/continue-multiproject-2026-10-27.json",
+        "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d"
+      },
+      {
+        "file": "reports/open-work-refs-relay-2026-10-27.json",
+        "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b"
+      },
+      {
+        "file": "reports/tatooine-chain-2026-10-28.json",
+        "sha256": "2486c4f4ac78c44d2e34ced739c1f859fd035bf357d9a73410803444073f1a0e"
+      }
+    ],
+    "read_next": [
+      "ops/CONTINUE-PROTOCOL.md",
+      "reports/handoff-receipts.json",
+      "reports/scene52-seven-parts-handoff-2026-10-27.md",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/OWNER-TASKS.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# Татуин — связность и выбранные версии Wan 3 · 28.10.2026",
+      "sha256": "a0400b3e906e78a4c06c35138cf21486bc00e62e256b02b083493d57f3c91639"
+    }
+  },
+  "checkpoint_text": "# Татуин — связность и выбранные версии Wan 3 · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nПроверено: 2026-10-27T22:30:37Z. Отчёт: reports/tatooine-chain-2026-10-28.json.\n\nУточнение владельца28.10: уличная цепочка52 ч.7 →66 →67 →68 →69 должна запускаться в Wan3 и иметь приоритет перед музыкальными сценами49–51 и танцами28. Выбран существующий Wan3/30с блок52P7; части52P1–P6 сохраняют Seedance2.0/15с. Стабильный ID P7 сохранён для зависимостей, модель определяется полями model/canonical_block_label.66–69 уже были Wan3/30с. Новых пунктов очереди, task IDs, claims, запусков и художественных одобрений нет.\n\nСюжетная связь подтверждена: Серёга уступает камеру Алине/Даше/Стичу; Стич оставляет кучку; камера передаётся Маше у фруктового прилавка; после её спора камера возвращается к тому же месту, где Жилищник метёт вокруг кучки; Маша в69 сама собирает её и песок в совок. В68 композиции кучка видна. Сохранена комедийная развязка69; отдельно уточнены голубая дыня на стыке66→67 и география возврата68.\n\nБесшовность задана настоящими последними3с предыдущих результатов и QC. Эти результаты ещё ожидаются; готовое видео и фактически идеальный стык не заявляются. Численные приоритеты ставят цепочку выше49–51/28; прежний ready-skip владельца остаётся: если продолжение ждёт результат, следующий готовый пункт может занять свободный слот.\n\nОпубликовано и проверено по точным публичным SHA; content commit 71056a649105eb5fca6d482ce024363b559894c6.\n\nСледующий шаг сохранённого плана: Принять смену по свежему main и сохранить собственную квитанцию; затем проверить результаты/QC, решения владельца и общие live-слоты. Продолжить разрешённую очередь Серёгиуса: новая S52-R2-P1 при свободном слоте, P2–P7 после реального результата и QC предшественника. Существующие task ID не отправлять повторно. Новая конкретная команда владельца приоритетнее этого фокуса.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +166,13 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/CONTINUE-PROTOCOL.md",
+    "reports/handoff-receipts.json",
+    "reports/scene52-seven-parts-handoff-2026-10-27.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/OWNER-TASKS.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -332,8 +377,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "f6c3b65160e6a6516b8c7d44abbb4a964a912009f672b6d0b15c720ec3e7aaa1",
-      "bytes": 34948
+      "sha256": "55efc56af7156050211a86f933893f04f6782dee083c2aa9937bfcdb8f887c43",
+      "bytes": 35657
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -381,9 +426,14 @@
       "bytes": 21258
     },
     {
+      "file": "reports/continue-multiproject-2026-10-27.json",
+      "sha256": "bd4852c666e26a8342582673399237b9fe8540ce502c8de2c2496c4bf8c79b9d",
+      "bytes": 2208
+    },
+    {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "c608bdc9eec725d0d5516b0956cd6fe1c7f9df5a4785264bdea201767b380251",
-      "bytes": 24769
+      "sha256": "d2cadedeac6287b396505fe3971e0dafb0701aee6560f9a6fd75224adcb6498a",
+      "bytes": 26970
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -391,14 +441,29 @@
       "bytes": 13684
     },
     {
+      "file": "reports/open-work-refs-relay-2026-10-27.json",
+      "sha256": "00d600b67cf64ec6f7916ef2b860d41e785834203108c6a2322def925c04f81b",
+      "bytes": 41835
+    },
+    {
+      "file": "reports/scene52-rebuild-2026-10-27.json",
+      "sha256": "ad507bf04b6b1c5ca6ee8fcaeaa2508055389d80bebc40ebd2779213079b1c72",
+      "bytes": 20084
+    },
+    {
+      "file": "reports/tatooine-chain-2026-10-28.json",
+      "sha256": "2486c4f4ac78c44d2e34ced739c1f859fd035bf357d9a73410803444073f1a0e",
+      "bytes": 17999
+    },
+    {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "fd4e2110e276a5967df456abf5c813e521733834fd0f5a9344e3d4f05406896f",
-      "bytes": 34749
+      "sha256": "1ae3615f561501308ad10ff2f0bc330948d86c9837114dbf9466704521a0a631",
+      "bytes": 35458
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "87e6e6723b42196965f5761f3cbfa9fffc85af1204f0ea0d002dd1cbde3450a0",
-      "bytes": 23782
+      "sha256": "f8ab85148c5b2528cf1b91f2454f0233499fce7fb1bbe217f797bdd183166fe6",
+      "bytes": 23809
     },
     {
       "file": "video-prompts.md",
@@ -407,9 +472,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "05b17e1aab29fe452fd0a9768edd3de3e918d807f4fcf3a098d23d94ce62a028",
-      "bytes": 70887
+      "sha256": "a0bf306f77dae7026dcf5b86859401b2ba0ad7759803cb7e1a07e10df9b38b1d",
+      "bytes": 71091
     }
   ],
-  "packet_bytes": 5582
+  "packet_bytes": 8190
 }
