@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-28T09:13:49+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-28T09:48:08+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "2d7232d71f930f58038444bfc770bc0f1e855649aefcd4d70915a6f383800f56",
-   "bytes": 1112714
+   "sha256": "d3da04d9be56712d9076d29d22c3ad27b2d2ce957ff68bc9d8d9d6cd95e734d2",
+   "bytes": 1122914
   }
  ],
  "invariants": [
@@ -295,7 +295,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 36410,
+   "offset": 37890,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -317,7 +317,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 62747,
+   "offset": 64227,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -338,7 +338,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 91284,
+   "offset": 92764,
    "chars": 139629,
    "sha256_12": "0326a694492b"
   },
@@ -356,7 +356,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 230913,
+   "offset": 232393,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -378,7 +378,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 247269,
+   "offset": 248749,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -400,7 +400,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 271256,
+   "offset": 272736,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -424,7 +424,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 303753,
+   "offset": 305233,
    "chars": 28588,
    "sha256_12": "e13906f96ded"
   },
@@ -448,7 +448,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 332341,
+   "offset": 333821,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
@@ -475,7 +475,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 360799,
+   "offset": 362279,
    "chars": 74983,
    "sha256_12": "17eb4aa1f7b0"
   },
@@ -500,7 +500,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 435782,
+   "offset": 437262,
    "chars": 19721,
    "sha256_12": "6ac559c15d25"
   },
@@ -526,7 +526,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 455503,
+   "offset": 456983,
    "chars": 60421,
    "sha256_12": "f3bfb2c4c6d1"
   },
@@ -547,9 +547,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 515924,
-   "chars": 84486,
-   "sha256_12": "5f2ce1a41f8f"
+   "offset": 517404,
+   "chars": 84742,
+   "sha256_12": "85359393ed9b"
   },
   {
    "id": 56,
@@ -570,7 +570,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 600410,
+   "offset": 602146,
    "chars": 26406,
    "sha256_12": "be481db171a4"
   },
@@ -592,7 +592,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 626816,
+   "offset": 628552,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -618,7 +618,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 652912,
+   "offset": 654648,
    "chars": 27528,
    "sha256_12": "a2719cef0c5c"
   },
@@ -639,7 +639,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 680440,
+   "offset": 682176,
    "chars": 35288,
    "sha256_12": "23df59b3344e"
   },
@@ -661,7 +661,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 715728,
+   "offset": 717464,
    "chars": 33011,
    "sha256_12": "a68354642ec8"
   },
@@ -681,7 +681,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 748739,
+   "offset": 750475,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -703,7 +703,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 773585,
+   "offset": 775321,
    "chars": 29271,
    "sha256_12": "7b405dfdc4b9"
   },
@@ -723,7 +723,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 802856,
+   "offset": 804592,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -742,7 +742,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 826309,
+   "offset": 828045,
    "chars": 19278,
    "sha256_12": "62a1603193f3"
   },
@@ -764,9 +764,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 845587,
-   "chars": 23876,
-   "sha256_12": "01feb4e1d2ab"
+   "offset": 847323,
+   "chars": 24440,
+   "sha256_12": "58d62f37011d"
   },
   {
    "id": 66,
@@ -785,15 +785,16 @@
     "@Image2",
     "@Image3",
     "@Image4",
-    "@Image5"
+    "@Image5",
+    "@Image6"
    ],
-   "offset": 869463,
-   "chars": 26327,
-   "sha256_12": "183855e9fd48"
+   "offset": 871763,
+   "chars": 29523,
+   "sha256_12": "c573cb0d669e"
   },
   {
    "id": 67,
-   "title": "Татуинская связка 3/7 · девушка яростно ругается с продавцом фруктов",
+   "title": "Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фруктов",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -808,9 +809,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 895790,
-   "chars": 21164,
-   "sha256_12": "cf5c7b2fcf77"
+   "offset": 901286,
+   "chars": 22399,
+   "sha256_12": "263f17a2c520"
   },
   {
    "id": 68,
@@ -829,15 +830,16 @@
     "@Image2",
     "@Image3",
     "@Image4",
-    "@Image5"
+    "@Image5",
+    "@Image6"
    ],
-   "offset": 916954,
-   "chars": 27027,
-   "sha256_12": "cb2e6554f313"
+   "offset": 923685,
+   "chars": 28889,
+   "sha256_12": "1fe828e0aec4"
   },
   {
    "id": 69,
-   "title": "Татуинская связка 5/7 · девушка отнимает метлу и показывает «Жилищнику», как надо мести",
+   "title": "Татуинская связка 5/7 · Маша Р учит «Жилищник» убирать в лазерный совок",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -855,9 +857,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 943981,
-   "chars": 30175,
-   "sha256_12": "334aae1ed068"
+   "offset": 952574,
+   "chars": 30347,
+   "sha256_12": "9c9b454ae1cc"
   },
   {
    "id": 70,
@@ -876,9 +878,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 974156,
-   "chars": 22674,
-   "sha256_12": "f629088175ed"
+   "offset": 982921,
+   "chars": 22810,
+   "sha256_12": "a13f26af1fad"
   }
  ],
  "read_sets": {

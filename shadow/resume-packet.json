@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T09:43:18+00:00",
-  "source_head": "b0e420b130ad9ad470cde1ac082d08e6c827283a",
-  "source_fingerprint": "af3d24274e4ece3dc228ceab285bcd2f4f4e82ddad38f85570b717c0619c1bb6",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-28T09:48:08+00:00",
+  "source_head": "95b97b88a4d05febe6764f219725910f50eb2713",
+  "source_fingerprint": "7b65909c247e4f67950a3920d29ede862b6e55e6a63f1beec41e8f66c15b51e1",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,7 +30,10 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
@@ -408,8 +411,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "37866a9f309b21e9ef1ef03a2519405400e1614c7e9eadee6a114701fa491798",
-      "bytes": 395696
+      "sha256": "2ca0d546931fcc2d37cdad50d898466a101f1ba52c62fe5b6bf86d3d4113585d",
+      "bytes": 396498
     },
     {
       "file": "project-status.json",
@@ -418,8 +421,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "19582126c5a61edae453a5cc991df817250bc798154d407855af7b60a908c771",
-      "bytes": 28549
+      "sha256": "c028dae0f7616b5091bbc414b71e670352be5331bcbd43dd7c3711434fd17572",
+      "bytes": 29966
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -443,13 +446,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "50ae87dab9e1f7d844f83a826caadfe50a4f584a2f5c18a15edd5897d5e5628b",
-      "bytes": 24016
+      "sha256": "7bd72627edf5299a4ff29b2fe0a7acac1f8b6dfca4dd1af49a2d0029436ce3f1",
+      "bytes": 24010
     },
     {
       "file": "video-prompts.md",
-      "sha256": "2d7232d71f930f58038444bfc770bc0f1e855649aefcd4d70915a6f383800f56",
-      "bytes": 1112714
+      "sha256": "d3da04d9be56712d9076d29d22c3ad27b2d2ce957ff68bc9d8d9d6cd95e734d2",
+      "bytes": 1122914
     },
     {
       "file": "work-resume-register.json",
@@ -457,5 +460,5 @@
       "bytes": 73322
     }
   ],
-  "packet_bytes": 7970
+  "packet_bytes": 7938
 }
