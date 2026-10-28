@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "chatgpt-scheduled-event-evt_f13e3ede48ff522e40db68a9d7ed7585: slots:6bc77dbe:2 / S52-R2-P1",
-  "acquired_at": "2026-10-28T06:44:37Z",
-  "expires_at": null,
-  "released_at": "2026-10-28T06:55:12.326724Z",
+  "task": "09:55 canon-health queue-size cleanup and phase A/B checks",
+  "acquired_at": "2026-10-28T06:57:58.061Z",
+  "expires_at": "2026-10-28T07:42:58.061Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
