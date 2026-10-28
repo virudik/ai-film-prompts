@@ -3,14 +3,16 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-28T03:14:46+00:00",
-  "source_head": "892afe657422e1fd0d24466cc8ddfcace996db53",
-  "source_fingerprint": "dbab4940436b18c435a9a5451437a1640e771ff5cfd6c1e8e3cacf2adde11774",
+  "checked_at": "2026-10-28T03:17:54+00:00",
+  "source_head": "d67e93d6ca9d1262d64aaddc3706aaed12e766a8",
+  "source_fingerprint": "d3b117fe906898c306692aa318e17f0d5627e6e7a33b0d3cc9ca36ec53cc9bf2",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
     "recovery evidence changed: projects/raznoe/HANDOFF.md"
   ],
   "selected_work": null,
@@ -133,8 +135,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "f6c3b65160e6a6516b8c7d44abbb4a964a912009f672b6d0b15c720ec3e7aaa1",
-      "bytes": 34948
+      "sha256": "c40cd3f93d717b33ffd8e3c818be194fc8100c12d3fe9d2c4b11a7dd897f87dc",
+      "bytes": 34882
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -228,13 +230,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "fd4e2110e276a5967df456abf5c813e521733834fd0f5a9344e3d4f05406896f",
-      "bytes": 34749
+      "sha256": "58fdead221eda29329fa5c2f848da71d8b41951a90d92a88b69444d219411bcb",
+      "bytes": 34683
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "1b0e35ff1028d81df0567f82e096ea02b4944cba090f76b154f53f951c6aec41",
-      "bytes": 24016
+      "sha256": "701b71229e936e244b9d669bf9e13aa953f8987771e2c54f1a9cb636e368e1cf",
+      "bytes": 24043
     },
     {
       "file": "video-prompts.md",
@@ -242,5 +244,5 @@
       "bytes": 1111824
     }
   ],
-  "packet_bytes": 4841
+  "packet_bytes": 4931
 }

@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project kotmonavty`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-10-28T03:14:46+00:00
+Состояние: needs_recovery
+Проверено: 2026-10-28T03:17:54+00:00
 Задача: KM-WAIT-OWNER — Котмонавты — ожидание решения владельца
 
 Последний подтверждённый этап: 22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.
@@ -56,4 +56,5 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- brief was invalid at generation
+- instruction certificate mismatch: NEW-CHAT-HANDOFF.md
