@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-09-24T16:37:52.436Z",
-      "operation": "active_refresh_and_full_board_discovery",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "6 active tasks",
-      "new_status": "5 active tasks",
-      "source_checkpoint": "2026-09-24T16:37:52.436Z",
-      "outcome": "success",
-      "verification": "Refreshed all previously active task IDs; Scene 4 terminal success, remaining 5 active tasks are init. Scanned all 4 Board video pages / 353 tasks; no new recent task discovered."
-    },
-    {
       "timestamp": "2026-09-24T17:26:19.000Z",
       "operation": "discover_existing_scene_active_task",
       "scene_id": 22,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-28T15:21:50Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T16:20:40Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T16:20:40Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 10,
+  "archived_event_count": 11,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
