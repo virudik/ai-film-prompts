@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-09-24T03:38:42.684Z",
-      "operation": "active_refresh_and_discovery",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "6 active tasks",
-      "new_status": "6 active tasks",
-      "source_checkpoint": "2026-09-24T03:38:42.684Z",
-      "outcome": "success",
-      "verification": "Fresh exact lookup for all six tracked tasks; all remain init. My First Board page 1 (100/353 video tasks) scanned through overlap; no untracked task newer than current Scene 21 task. Three-view snapshot queue telemetry refreshed."
-    },
-    {
       "at": "2026-09-24T14:09:02.708Z",
       "type": "manual_reconciliation",
       "reason": "scheduled watcher lacked Topview Board connector and disabled itself; refreshed all six active tasks and scanned all 353 board video tasks",
@@ -5500,8 +5489,19 @@
       "source_checkpoint": "2026-10-28T12:50:19Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T13:40:19Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T13:40:19Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 7,
+  "archived_event_count": 8,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
