@@ -5,17 +5,6 @@
   "events": [
     {
       "timestamp": "2026-09-24T01:34:44Z",
-      "operation": "terminal_transition_and_slow_remove",
-      "scene_id": 3,
-      "task_fingerprint": "scene3-known-task",
-      "previous_status": "init",
-      "new_status": "success",
-      "source_checkpoint": "2026-09-24T01:34:44Z",
-      "outcome": "success",
-      "verification": "Exact Topview task refreshed as success; Scene 3 removed from active task map and canonical render-slow; result receipt recorded; no editorial approval inferred."
-    },
-    {
-      "timestamp": "2026-09-24T01:34:44Z",
       "operation": "active_refresh_and_overlap_discovery",
       "scene_id": null,
       "task_fingerprint": null,
@@ -5500,8 +5489,19 @@
       "source_checkpoint": "2026-10-28T08:40:21Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T09:30:19Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T09:30:19Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 2,
+  "archived_event_count": 3,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
