@@ -60,12 +60,56 @@
         "git_present": true
       },
       "prompt_file": "references/scenes/scene-65/S65-toast-closeup.image-prompt.txt"
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "asset_id": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "caption": "Татуинская связка 7/7 · @Image1: Точный модельный лист Серёги: лицо и одежда",
+      "role": "Точный модельный лист Серёги: лицо и одежда",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1536,
+        857
+      ],
+      "bytes": 155182
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "asset_id": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+      "caption": "Татуинская связка 7/7 · @Image2: Кантина: арки, лампа, столы (только локация)",
+      "role": "Кантина: арки, лампа, столы (только локация)",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "bytes": 6607132
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-27T23:08:29Z",
+  "updated_at": "2026-10-28T03:04:44.428Z",
   "prompt_reference_mapping": [
     {
       "label": "65",
@@ -220,5 +264,22 @@
   ],
   "location_refs": [
     "references/scenes/scene-10/S10-Image1-cantina-source.png"
-  ]
+  ],
+  "story_chain": {
+    "title": "Татуинская связка",
+    "step": 7,
+    "total": 7,
+    "montage_order": [
+      52,
+      66,
+      67,
+      68,
+      69,
+      70,
+      65
+    ],
+    "part": null,
+    "selected_model": "Wan 3.0",
+    "selected_prompt_id": "S65-WAN30"
+  }
 }
