@@ -77,10 +77,12 @@
           "canon_warnings": 0,
           "verified_success_run_ids": [
             40599793555,
-            40600787040
+            40600787040,
+            40648290183,
+            40648290198
           ]
         },
-        "result": "Review-ledger has later GitHub success. Fresh main passes 348 local tests, site/projects/review-ledger validators and canon-health ok/0 warnings after archival cleanup; final GitHub run verification pending publication. Old failed runs were not rerun and Gmail state was not changed."
+        "result": "Review-ledger has later GitHub success. Fresh main passes 348 local tests, site/projects/review-ledger validators and canon-health ok/0 warnings after archival cleanup. Exact seven-file readback matched; final Canon health run40648290183 and Canonical master run40648290198 succeeded. The commit's Pages run was superseded/cancelled and the newer replacement was still processing, so no false deploy success is recorded. Old failed runs were not rerun and Gmail state was not changed."
       },
       "last_topview_scan": {
         "checked_at": "2026-10-28T06:52:46Z",
