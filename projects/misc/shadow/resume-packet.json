@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-28T17:51:33+00:00",
-  "source_head": "90611f45a8e7545382b415723678bb1555849ed7",
-  "source_fingerprint": "810aa3f5453d7f82636fe81fb73322385cad5ed178a18b670f97132359a524b8",
+  "checked_at": "2026-10-28T18:05:08+00:00",
+  "source_head": "dcfe4ee6f330eae39ff92ee382ad6450bf8bc714",
+  "source_fingerprint": "7bd8294a159b2b499df99f547a2fcc9b792dfa185f41f5d2cfee4f31fbe9e1a9",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -228,8 +228,8 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "2994a7a320264af3ee4140a4b898b59d90583bc46750ff0d455da1f5579f6bcb",
-      "bytes": 7251
+      "sha256": "6e68455497c9dfd5730bc76db8c5e31c45628e4d545c567271982f2fdb8f7318",
+      "bytes": 7253
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
