@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-09-23T13:21:16Z",
-      "operation": "active_refresh_and_paginated_discovery",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "6 active tasks",
-      "new_status": "6 active tasks",
-      "source_checkpoint": "2026-09-23T13:21:16Z",
-      "outcome": "success",
-      "verification": "queried all 6 known active task IDs; all remain init; scanned 4/4 Board video pages (352 tasks) and found no unknown video task in checkpoint overlap; Scene 20 remains two occupied slots"
-    },
-    {
       "timestamp": "2026-09-24T01:34:44Z",
       "operation": "terminal_transition_and_slow_remove",
       "scene_id": 3,
@@ -5500,8 +5489,19 @@
       "source_checkpoint": "2026-10-28T07:50:19Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T08:40:21Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T08:40:21Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 1,
+  "archived_event_count": 2,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
