@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-10-28T16:20:22Z",
+  "updated_at": "2026-10-28T16:59:22.785Z",
   "tasks": [
     {
       "id": "90d2b889-054a-4125-9371-87e7793b1e39",
@@ -113,9 +113,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/40722832681 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt",
-      "taken_at": "2026-10-28T16:57:25Z"
+      "taken_at": "2026-10-28T16:57:25Z",
+      "result": "Причина подтверждена: run 40722832681 падал только на намеренном шаге уведомления о новом warning — ops/topview-launch-queue.json был 401 КБ при лимите 400 КБ; проверка и публикация canon-health до этого прошли. Причина уже устранена commit c233ec1c748f218bfa5b8dcf14c185ef88aad4af архивированием старой записи и сокращением очереди. Проверено: canon-health=ok, warnings=0; runs 40727500605 и 40731043896 завершились success. Повторный rerun и дополнительная правка не требуются.",
+      "result_commit": "c233ec1c748f218bfa5b8dcf14c185ef88aad4af",
+      "closed_at": "2026-10-28T16:59:22.785Z"
     }
   ]
 }
