@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-28T16:05:00+00:00",
+  "updated_at": "2026-10-28T16:06:10+00:00",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -30,13 +30,13 @@
       "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
       "prompt_file_sha256": "e43b596707deb9d550591469b24809157148917abceec8d0eeb1723f30c857dc",
       "priority": -3,
-      "state": "claimed",
+      "state": "blocked_capacity",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "image_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [],
@@ -64,7 +64,16 @@
         }
       ],
       "task_id": null,
-      "claim": {
+      "claim": null,
+      "authorization": "Owner 28Oct2026 in open Work: put Stitch first; use Topview Nano Banana for several consecutive images of Alina and Dasha walking him on a leash in Tatooine streets. Three distinct stills, one free Unlimited0 website attempt each; no paid route, model substitution or retry. This is separate from the already-done Work-only S68/S69 drawing task.",
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
+      "on_success": "Save the original with task ID, SHA256 and visual QC in scene66 manifest/character registry/gallery as an additional walking composition; do not overwrite existing refs, add to video inputs or grant owner approval. Fresh slot scan after every submit; continue next image in this trio while capacity permits. Unknown submission must be reconciled before any new click.",
+      "blocker": "2026-10-28T16:06:10Z: Topview rejected the single Unlimited0 Create click with “You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.” Credit mode is forbidden; post-click read-only board scan found no new task and no task_id.",
+      "attempts_used": 1,
+      "retry_policy": "No automatic retry or second click. A new explicit owner authorization is required.",
+      "last_claim": {
         "run_id": "chatgpt-20261028T1605Z-S66-STITCH-NB-IMAGE-1",
         "claimed_at": "2026-10-28T16:05:00Z",
         "actor": "ChatGPT Work",
@@ -106,13 +115,13 @@
             "active_image_tasks": 0,
             "complete": true
           }
-        }
-      },
-      "authorization": "Owner 28Oct2026 in open Work: put Stitch first; use Topview Nano Banana for several consecutive images of Alina and Dasha walking him on a leash in Tatooine streets. Three distinct stills, one free Unlimited0 website attempt each; no paid route, model substitution or retry. This is separate from the already-done Work-only S68/S69 drawing task.",
-      "launch_readiness": "reference_inputs_available",
-      "created_at": "2026-10-28T15:02:46+00:00",
-      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
-      "on_success": "Save the original with task ID, SHA256 and visual QC in scene66 manifest/character registry/gallery as an additional walking composition; do not overwrite existing refs, add to video inputs or grant owner approval. Fresh slot scan after every submit; continue next image in this trio while capacity permits. Unknown submission must be reconciled before any new click."
+        },
+        "resolved_at": "2026-10-28T16:06:10Z",
+        "result": "submit_rejected_unlimit_concurrent_slot_limit",
+        "clicked_once": true,
+        "task_id": null,
+        "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261028T160610Z-rejected.json"
+      }
     },
     {
       "id": "S66-STITCH-NB-IMAGE-2",
