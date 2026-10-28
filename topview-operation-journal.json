@@ -4,19 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "at": "2026-09-24T14:09:02.708Z",
-      "type": "manual_reconciliation",
-      "reason": "scheduled watcher lacked Topview Board connector and disabled itself; refreshed all six active tasks and scanned all 353 board video tasks",
-      "active_tasks": 6,
-      "active_scenes": [
-        4,
-        17,
-        19,
-        20,
-        21
-      ]
-    },
-    {
       "timestamp": "2026-09-24T16:37:52.436Z",
       "operation": "terminal_transition_and_slow_remove",
       "scene_id": 4,
@@ -5500,8 +5487,19 @@
       "source_checkpoint": "2026-10-28T13:40:19Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T14:30:20Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T14:30:20Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 8,
+  "archived_event_count": 9,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
