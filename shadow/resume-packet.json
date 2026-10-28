@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T06:46:01+00:00",
-  "source_head": "7108252dfe17e894cf625ae6b78f72c0012ac66e",
-  "source_fingerprint": "9df64dfa283c0b8921c09c8a952e8d90272141049d58013f031aa7b658b5c591",
+  "checked_at": "2026-10-28T06:51:17+00:00",
+  "source_head": "27a97190ea81dab523c001bf47c58a04fd72a004",
+  "source_fingerprint": "99ec8077a16df05f2e0e163617e0826deb7c4170d4ca4b2be9bbba5ac99aa0aa",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -176,7 +176,15 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [],
+    "unresolved": [
+      {
+        "item_id": "S52-R2-SEED20-P1",
+        "state": "claimed",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      }
+    ],
     "existing_task_count": 39,
     "existing_tasks": [
       {
@@ -338,13 +346,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S52-R2-SEED20-P1",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S62-SEED20-P1",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -353,6 +354,13 @@
       },
       {
         "item_id": "S59-SEED20-P2",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S60-SEED20-P1",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -414,8 +422,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "d597e2e3d542d0c3042ea59a622c0426743f7f333470bf58c5637776b158778e",
-      "bytes": 398921
+      "sha256": "639152d5e59e21aafc93741835291598d3e9d53160f8ecad5256bcc24537cf4a",
+      "bytes": 401832
     },
     {
       "file": "project-status.json",
@@ -473,5 +481,5 @@
       "bytes": 68213
     }
   ],
-  "packet_bytes": 8209
+  "packet_bytes": 8260
 }
