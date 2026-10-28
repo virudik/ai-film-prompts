@@ -3,6 +3,40 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "RELAY-SLOTS-ACK-20261026",
+      "title": "Учёт каждого обработанного Relay slots/event_id",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-25T22:38:02.384Z",
+      "completed": [
+        "Existing Relay handler accepts result and slots IDs; every verified handled ID requires a durable receipt including no_update.",
+        "Exact live prompt readback passed; one active relay.message subscription retained.",
+        "20 targeted tests passed; events[] and original ACKs unchanged; no new automation, synthetic production signal, video or claim."
+      ],
+      "next_action": "On first genuine slots event verify the handler-authored receipt; live slots event remains unverified.",
+      "canonical_refs": [
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "reports/topview-event-wake.json"
+      ],
+      "new_automations": 0,
+      "new_submissions": 0,
+      "pre_checkpoint_commit": "055ca56e7dfd8c18261f444e4d68847d32f85393"
+    },
+    {
+      "work_id": "TOPVIEW-EVENT-WAKE-20261023",
+      "title": "Сигнал от 10-минутного робота + часовая страховка",
+      "status": "completed",
+      "completed_at": "2026-10-25T22:02:56.119Z",
+      "result": "Relay production enabled after genuine robot delivery, dedup, pause/resume, exact shared-lock run receipts and genuine after-lock ACK. Hourly unchanged; zero new videos/credits.",
+      "canonical_refs": [
+        "ops/relay-wake.json",
+        "ops/relay-acceptance.json",
+        "reports/topview-event-wake.json"
+      ],
+      "history_archive": "archive/work-resume-register-archive.json",
+      "production_ready": true,
+      "next_action": "Use existing robot Relay path for verified published free-slot results; hourly fallback remains enabled. Verify first actual slot-triggered launch by task ID and receipt, never infer it from read-only tests."
+    },
+    {
       "work_id": "PROMPT-REFRESH-20261025",
       "title": "Переработать38промтов28/49–51 и стандарт подробности",
       "status": "completed_verified",

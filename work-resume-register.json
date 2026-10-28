@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T02:37:21.320Z",
+  "last_updated_at": "2026-10-28T07:06:25Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -18,7 +18,8 @@
         "00:00 MSK cycle: full 13-board/28-page scan confirmed935 tasks/6 active/0 free. Re-downloaded actual S42-P1 task a1ca4c36e31d45c5b4b72df7777d2592, found the GitHub last3s file truncated, and deterministically restored the exact canonical 1804607-byte clip SHA dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61. Readiness now marks S42-P2 ready; no video submitted.",
         "14:55 MSK check: full UI scan of all13 boards confirmed6/6 occupied on My First Board and0 free; no Create/claim/spend. Phase A healthy. Gmail messages1a1723e71e9729f0/1a17268b7f2883be mapped to Canon health runs40177989810/40181114191; both warning causes were already removed by fresh main, canon-health is ok/0warnings, and subsequent canonical sync40186831274 plus integration40186831290 succeeded. No rerun.",
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch.",
-        "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun."
+        "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
+        "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns."
       ],
       "next_action": "All physical slots occupied. Existing event/hourly handler rechecks fresh owner decisions/queue/all slots; prepare genuine P1 end only after task success and QC, never repeat Create.",
       "canonical_refs": [
@@ -29,52 +30,57 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-27T18:12:14Z",
-        "self_heal": "escalated_task_taken_and_fixed",
-        "owner_tasks_open": 1,
-        "owner_tasks_taken": 1,
+        "checked_at": "2026-10-28T07:06:25Z",
+        "self_heal": "ok",
+        "owner_tasks_open": 0,
+        "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-27T17:31:41Z",
+          "synced_at": "2026-10-28T06:30:24Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0,
-          "checked_at": "2026-10-27T18:05:32Z",
+          "checked_at": "2026-10-28T07:06:25Z",
           "info": 3
         },
         "gmail_message_ids": [
-          "1a17c2f2cfe31dd6",
-          "1a17ccc61c41a5a2",
-          "1a17d92d8e5c9747",
-          "1a17e3010580a6a0",
-          "1a17e310fd2f970a",
-          "1a17e38f241ff1fe",
-          "1a17e39696f58ac2",
-          "1a17e45dfb4e0b8a"
+          "1a17f132ec2ac5c2",
+          "1a1806001e5b9f9f",
+          "1a180604ce8f21b1",
+          "1a18060b7a377667",
+          "1a18063dbcd9adb2",
+          "1a1807ac1aec44a7",
+          "1a1807ba1ee3aef0",
+          "1a1807e7d9d9a6ee",
+          "1a180848f5cc06f3",
+          "1a181476be97d686"
         ],
         "github_failed_run_ids": [
-          40465114140,
-          40484581965,
-          40513013128,
-          40540917850,
-          40540935774,
-          40542532531,
-          40542539886
+          40579238714,
+          40622098361,
+          40622124865,
+          40622098398,
+          40622432731,
+          40624817273,
+          40624970040,
+          40625213654,
+          40625807173,
+          40646354351
         ],
-        "root_cause": "Canon health emitted a real ops/topview-launch-queue.json 400KB warning; check/publish steps succeeded and the deliberate notification step failed the workflow. Self-heal repeated the same notifying run and then escalated.",
+        "root_cause": "Three diagnosed groups: review-ledger run 40579238714 lacked rows for scenes68/69 and was fixed by later canonical commits; integration runs failed the temporary instruction_mirrors_match_drive invariant; canon-health notification runs correctly exposed the live queue-size warning.",
         "current_verification": {
-          "queue_bytes_before": 411538,
-          "queue_bytes_after": 396075,
+          "queue_bytes_before": 401806,
+          "queue_bytes_after": 395432,
           "canon_health": "ok",
           "canon_warnings": 0,
           "verified_success_run_ids": [
-            40557591418,
-            40557946645
+            40599793555,
+            40600787040
           ]
         },
-        "result": "Fixed by canonical archival cleanup in dff803dab9a3530395f39a47366e324f0757483a; subsequent Canon health runs 40557591418 and 40557946645 succeeded. Old warning runs were not rerun."
+        "result": "Review-ledger has later GitHub success. Fresh main passes 348 local tests, site/projects/review-ledger validators and canon-health ok/0 warnings after archival cleanup; final GitHub run verification pending publication. Old failed runs were not rerun and Gmail state was not changed."
       },
       "last_topview_scan": {
         "checked_at": "2026-10-28T06:52:46Z",
@@ -1044,40 +1050,6 @@
       "new_automations": 0,
       "completed_at": "2026-10-25T22:56:39.805Z",
       "pre_checkpoint_commit": "fe12b0b43dcfded237cb96b1b6200a39aa5e8514"
-    },
-    {
-      "work_id": "RELAY-SLOTS-ACK-20261026",
-      "title": "Учёт каждого обработанного Relay slots/event_id",
-      "status": "completed_verified_configuration",
-      "updated_at": "2026-10-25T22:38:02.384Z",
-      "completed": [
-        "Existing Relay handler accepts result and slots IDs; every verified handled ID requires a durable receipt including no_update.",
-        "Exact live prompt readback passed; one active relay.message subscription retained.",
-        "20 targeted tests passed; events[] and original ACKs unchanged; no new automation, synthetic production signal, video or claim."
-      ],
-      "next_action": "On first genuine slots event verify the handler-authored receipt; live slots event remains unverified.",
-      "canonical_refs": [
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "reports/topview-event-wake.json"
-      ],
-      "new_automations": 0,
-      "new_submissions": 0,
-      "pre_checkpoint_commit": "055ca56e7dfd8c18261f444e4d68847d32f85393"
-    },
-    {
-      "work_id": "TOPVIEW-EVENT-WAKE-20261023",
-      "title": "Сигнал от 10-минутного робота + часовая страховка",
-      "status": "completed",
-      "completed_at": "2026-10-25T22:02:56.119Z",
-      "result": "Relay production enabled after genuine robot delivery, dedup, pause/resume, exact shared-lock run receipts and genuine after-lock ACK. Hourly unchanged; zero new videos/credits.",
-      "canonical_refs": [
-        "ops/relay-wake.json",
-        "ops/relay-acceptance.json",
-        "reports/topview-event-wake.json"
-      ],
-      "history_archive": "archive/work-resume-register-archive.json",
-      "production_ready": true,
-      "next_action": "Use existing robot Relay path for verified published free-slot results; hourly fallback remains enabled. Verify first actual slot-triggered launch by task ID and receipt, never infer it from read-only tests."
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",

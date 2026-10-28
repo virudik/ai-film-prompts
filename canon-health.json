@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-28T06:51:18Z",
-  "status": "warn",
-  "warnings": 1,
+  "checked_at": "2026-10-28T07:00:43Z",
+  "status": "ok",
+  "warnings": 0,
   "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
@@ -23,12 +23,6 @@
       "code": "instruction-size",
       "text": "USER-GUIDE.md: 80 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
-    },
-    {
-      "level": "warn",
-      "code": "service-file-size",
-      "text": "ops/topview-launch-queue.json: 401 КБ (предел 400 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
-      "file": "ops/topview-launch-queue.json"
     }
   ]
 }

@@ -3415,5 +3415,171 @@
       ],
       "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     }
-  ]
+  ],
+  "metadata_history": {
+    "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
+    "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+    "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA).",
+    "owner_instruction_20261017_2145": {
+      "authorized_at": "2026-10-17T18:45:30Z",
+      "request": "вуков сделай несколько на всякий случай. можно бесплатно 3 раза запустить когда слот свободен. чтобы было из чего выбрать",
+      "total_image_launches": 3,
+      "already_submitted": 1,
+      "additional_launches": 2,
+      "item_ids": [
+        "S50-FANS-IMAGE",
+        "S50-FANS-IMAGE-V2",
+        "S50-FANS-IMAGE-V3"
+      ],
+      "max_credits_per_task": 0,
+      "order": "remaining fans V2 then V3, then S55, then existing story queue",
+      "no_automatic_fourth_attempt": true
+    },
+    "owner_instruction_20261017_2233": "Owner: three Wookiee images ready; RosKOTmos scenes sufficient, continue. Cancel unsubmitted45/46; keep existing results and continue55→43/44→story by readiness. No new fan generation.",
+    "owner_instruction_20261017_2253": {
+      "authorized_at": "2026-10-17T19:52:55Z",
+      "request": "Итого следующая 41 за ней 43 после 54 потом 36, 37, 39, 40. Затем крыло. Далее по плану, чтобы все готовые сцены запустить",
+      "item_order": [
+        "S41",
+        "S43-R1-20261017",
+        "S54",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S44-R1-20261017"
+      ],
+      "remaining": "52,53,42,47,48 by readiness; then previously authorized dance test and music with existing review/reference gates"
+    },
+    "owner_instruction_20261017_2303": {
+      "source": "Direct owner23:03MSK",
+      "instructions": "44 maximally comic futile repair;52 seamless from actual44 then change to personal craft; same conspicuous bread/milk reminder in37/39/40/41/52/53, payoff55 already submitted. Priority sequence unchanged;52 cannot run before actual44 continuity ready."
+    },
+    "owner_instruction_20261017_2358": {
+      "source": "Direct owner 17.10 23:58 MSK in project thread after Claude scene review (reports/scene-review-36-55-2026-10-17.md)",
+      "decisions": [
+        "52/53: land and take off at the edge of the Tatooine desert town (cantina first, worm ruins are the end of the block); genuine town frame required",
+        "48: Tatooine module is held by Artem; Ilyusha's blue blade already lit",
+        "47: no change (both kinds of shots exist)",
+        "37: take-off from the same Naboo shore/fishing camp as 39 (S39 shore frame as @Image3)",
+        "50: fan frame variant 2 (raised arms) selected; used in 50A/50B (@Image5) and 51A/51B (@Image8); S50A/S50B added before 51",
+        "personal craft: single side hatch with short boarding ramp in 37/39/40/41/52/53",
+        "52: 'missing pilot' removed from negative; free UI accepts 1 video + 6 images",
+        "52/53/54: prompts normalised to §5A template",
+        "D5 closed; W11 not needed"
+      ],
+      "changed_items": [
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S51A",
+        "S51B",
+        "S50A",
+        "S50B"
+      ],
+      "no_launch_performed": true,
+      "max_credits": 0
+    },
+    "owner_instruction_20261018_0017": {
+      "source": "Direct owner in project thread after the 23:58 scene-review fixes (18.10, 00:17 MSK)",
+      "decision": "No genuine Tatooine town frame exists; describe the town in the prompt text instead (TATOOINE TOWN LOCK in 52/53). The town image slot is removed: S52 = @Video1 + @Image1-5 (cockpit now @Image5), S53 = @Image1-4 (module now @Image4). S53 unblocked (waiting_for_slot); S52 waits only for the corrected 44 ending.",
+      "recorded_at": "2026-10-17T21:19:55Z"
+    },
+    "owner_instruction_20261018_0030": {
+      "source": "Direct owner message in project chat 18.10.2026 00:30 MSK (relayed by coordinator)",
+      "decisions": [
+        "New Scene 56 between 42 and 48: the duel breaks loose and moves through the collapsing ruins (more dynamics), worm still ignored, ends with locked blades and the worm rearing to strike",
+        "48 rewritten per owner text: worm crashes down, Artem's saber falls and goes out, module flies from his belt to Serega's palm, Ilyusha cut off by the worm, Serega hides the module, jumps onto the worm and rides it away",
+        "S48 @Video1 = end of S56; S56 @Video1 = end of S42"
+      ],
+      "no_launch_performed": true,
+      "max_credits": 0,
+      "recorded_at": "2026-10-17T21:36:25Z"
+    },
+    "owner_instruction_20261018_0106": {
+      "source": "Direct owner message in project thread 18.10.2026 01:06 MSK",
+      "decisions": [
+        "All action/flight scenes must be active and dynamic; Wan prompts for 37, 39, 40, 41, 42, 47, 48, 52, 53 rewritten (each flight has its own signature manoeuvre); 48 no longer has Serega calmly hiding the module.",
+        "Under the Wan prompts of 37, 39, 40, 41, 42, 47, 48, 52, 53, 56 the master now holds backup Seedance 2.0 versions (2 x 15 s, part 2 starts from the end of part 1) in a collapsible fold on the site.",
+        "The Seedance backups are NOT queue items: use them only if the owner rejects the Wan result as slow or with melting faces and asks for the Seedance version.",
+        "45/46 (RosKOTmos): option A, the cats own breakthrough to the Sith planet, not the Jedi space battle."
+      ],
+      "queue_effect": "New canonical/normalized SHA for S37-S37, S39, S40, S41, S42, S47, S48, S52, S53 (old values in previous_prompt_sha256). References, order and states unchanged."
+    },
+    "owner_instruction_20261018_0309": {
+      "requested_at": "2026-10-18T00:09:36Z",
+      "source": "Direct owner message in active chat",
+      "future_dance_and_action_model": "Seedance 2.0",
+      "free_only": true,
+      "forbidden_model_substitutes": [
+        "Wan 3.0",
+        "Seedance 2.5"
+      ],
+      "scope": "New dance, high-motion/action and flight submissions; preserve submitted jobs and existing accepted results. Quiet36/43/54 remain as prepared.",
+      "selected_scene_pairs": [
+        37,
+        39,
+        40,
+        42,
+        47,
+        48,
+        52,
+        53,
+        56
+      ],
+      "selected_items": [
+        "S37-SEED20-P1",
+        "S37-SEED20-P2",
+        "S39-SEED20-P1",
+        "S39-SEED20-P2",
+        "S40-SEED20-P1",
+        "S40-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S47-SEED20-P1",
+        "S47-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2",
+        "S52-SEED20-P1",
+        "S52-SEED20-P2",
+        "S53-SEED20-P1",
+        "S53-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2"
+      ],
+      "historical_S41": "bf3465e1c4de4a869f4bba5f2eed5acf submitted00:03:43UTC before decision; no duplicate.",
+      "S44": "Blocked for true Seedance prompt adaptation plus actual43 source; do not relabel30sWan.",
+      "dance_gate": "ONE15s A1 after story, then owner review; no B10Wan or automatic A-series batch.",
+      "soundtrack": "DEFERRED: music/soundtrack-plan.md; no new background music generations.",
+      "automation_id": "6acae6ab433481919e88665c520b8ef2",
+      "precedence": "Supersedes earlier not-authorized-backups and continue-Wan-dances clauses."
+    },
+    "owner_instruction_20261019_1315": {
+      "received_at": "2026-10-19T10:15:58Z",
+      "quote": "44 сделать и так и так. Потом проверим как лучше получится",
+      "authorization": "Direct owner19Oct2026 13:15:58MSK: «44 сделать и так и так. Потом проверим как лучше получится». Authorizes BOTH one Wan3.0 30s version and one Seedance2.0 version split into two15s parts, free website Unlimited0 only. Compare actual results; owner chooses, no automatic acceptance or retry.",
+      "comparison_group": "S44-COMPARE-20261019",
+      "item_ids": [
+        "S44-R1-20261017",
+        "S44-SEED20-P1",
+        "S44-SEED20-P2"
+      ],
+      "max_new_submissions_total": 3,
+      "source_rule": "Wan and Seedance P1 share actual corrected43 end; Seedance P2 uses actual Seedance P1 end.",
+      "selection_status": "awaiting_results_then_owner_comparison",
+      "selected_variant": null,
+      "review_criteria": [
+        "Single detached wing, empty left root and one wing on floor visible together",
+        "Dialogue, comic timing and physical action",
+        "Identity, ship design and continuity43→44→52",
+        "Seedance P1→P2 seam"
+      ],
+      "downstream_scene52": "Wait for owner-selected complete44 variant; no automatic Wan selection."
+    }
+  }
 }
