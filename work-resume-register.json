@@ -6,8 +6,8 @@
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "all_slots_occupied_phase_ab_fixed",
-      "updated_at": "2026-10-27T18:12:14Z",
+      "status": "relay_preflight_in_progress",
+      "updated_at": "2026-10-28T06:45:32Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -20,7 +20,7 @@
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch.",
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun."
       ],
-      "next_action": "Fresh slots/live queue only. S52-R2-SEED20-P1 is ready at priority 0 and must launch only when a physical slot is confirmed; P2–P7 require each real predecessor result and full QC. Never repeat existing submitted items.",
+      "next_action": "Prepare and verify S52-R2-SEED20-P1 Unlimited0 form; fresh full scan/queue/lock then CAS claim and one Create, followed by verified receipt.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -114,77 +114,11 @@
         "credits_spent": 0
       },
       "last_relay_event": {
-        "event_id": "slots:c3b54902:1",
-        "issue_number": 66,
-        "message_id": "240716289822048256",
-        "relay_event_id": "evt_d4c801f3e508ae1d9169430e8bc5e042",
-        "relay_reminder_event_ids": [
-          "evt_466ba5c58dd9eec11ee103c352951c3d"
-        ],
-        "outcome": "no_update",
-        "reason": "The original free-slot signal was superseded by a concurrent verified S48-P1 submission (task 8d7ff1e2de63478693778de29e0dd56e). Fresh authenticated website review now shows all six global video slots occupied. This event run made no queue claim or Create; it did not launch S48-P1.",
-        "task_ids": [],
-        "retryable": false,
-        "source": "Agent Relay webhook",
-        "runner": "chatgpt_event_trigger",
-        "run_id": null,
-        "run_id_unavailable_reason": "Runtime did not expose an actual run ID.",
-        "run_started_at": "2026-10-27T06:01:21Z",
-        "actual_sender": "topview-robot",
-        "sender_agent_id": "240204876611608576",
-        "sender_address": "topview-robot@direct",
-        "target_inbox": "chatgpt@cloud-239644772681871360",
-        "observed_at": "2026-10-27T06:00:21Z",
-        "new_submissions": 0,
-        "claim_changes": 0,
-        "credits_spent": 0,
-        "lock_outcome": "acquired_via_contents_sha_CAS; released_atomically_with_receipt",
-        "concurrent_submission": {
-          "item_id": "S48-SEED20-P1",
-          "task_id": "8d7ff1e2de63478693778de29e0dd56e",
-          "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P1-20261027.json",
-          "commit": "36220460ec2fd5b247e38bcd8cc2ff20cf42577d",
-          "created_by_this_run": false
-        },
-        "scan_complete": true,
-        "scan": {
-          "checked_at": "2026-10-27T06:26:33.898Z",
-          "method": "Authenticated Topview website UI; all 13 board lists loaded through their end/empty indicator, main board rechecked after concurrent submission. Active IDs cross-checked against robot snapshot at 2026-10-27T06:20:15Z.",
-          "boards": 13,
-          "complete": true,
-          "occupied_slots": 6,
-          "free_slots": 0,
-          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-          "board_name": "My First Board",
-          "main_board_items": 670,
-          "total_board_items": 937,
-          "board_item_counts": [
-            16,
-            0,
-            0,
-            11,
-            0,
-            32,
-            20,
-            5,
-            64,
-            37,
-            23,
-            59,
-            670
-          ],
-          "active_task_ids": [
-            "4a1061e175054da2810ffef8ad9d31cd",
-            "4b7b972870a44dfbb29bd6c5e330a633",
-            "8a8eadc809004e318c47201b8a463be0",
-            "8b6a8ce102ea416e88d3c14fa558c513",
-            "8d7ff1e2de63478693778de29e0dd56e",
-            "b15165813c0848939edbe8b3d3aed182"
-          ],
-          "new_submissions": 0,
-          "credits_spent": 0
-        },
-        "checked_at": "2026-10-27T06:26:53Z"
+        "event_id": "slots:6bc77dbe:2",
+        "issue_number": 98,
+        "checked_at": "2026-10-28T06:45:32Z",
+        "outcome": "preflight_in_progress",
+        "new_submissions": 0
       },
       "last_observed_topview": {
         "checked_at": "2026-10-27T06:16:16Z",
