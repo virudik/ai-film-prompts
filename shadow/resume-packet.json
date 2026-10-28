@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T16:04:53+00:00",
-  "source_head": "b6c296fdfd7f321b7bdeb215691f1471a7893d08",
-  "source_fingerprint": "580507c6b2cdd483f69010c8a4eb9ecd30fff2f6d53596323f09aa67b8963e72",
+  "checked_at": "2026-10-28T16:07:24+00:00",
+  "source_head": "21ae08ef5ef1261e93084946c07be180da02cfef",
+  "source_fingerprint": "bf5cfb16f2cd4ac473a70dce1402bbe333f4c3085368ecc7b804ea5d91c56199",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -134,15 +134,7 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S66-STITCH-NB-IMAGE-1",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
+    "unresolved": [],
     "existing_task_count": 40,
     "existing_tasks": [
       {
@@ -384,8 +376,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "a4cd66da4a956daa5f90b95402dea1936c95bceb1e9cd9f2a52c4ceec7c71d7d",
-      "bytes": 400576
+      "sha256": "616961ec4664f17767b98c49cd032e54427fba95923e0463121c2452edd1955f",
+      "bytes": 401313
     },
     {
       "file": "project-status.json",
@@ -394,8 +386,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "0f28395928d81209448eb904d478b1af0765d0754082b6c6501ad27dcc5cf688",
-      "bytes": 35087
+      "sha256": "8e21917b38f4661e21fb2ac76c90d6b4fca6630b6e0946822c616870915a6b07",
+      "bytes": 37337
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -424,9 +416,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "bc89e70b79ca13ca7d891a8869d385072f874249c2470e4ecc3d94d2b2fc82c2",
-      "bytes": 74896
+      "sha256": "9e64ef4668ee71092f8086ce4febe20e268f1ca50889bebc3ca534432055bda8",
+      "bytes": 75618
     }
   ],
-  "packet_bytes": 6295
+  "packet_bytes": 6239
 }
