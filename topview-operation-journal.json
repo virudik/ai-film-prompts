@@ -5,17 +5,6 @@
   "events": [
     {
       "timestamp": "2026-09-27T09:07:12.267Z",
-      "operation": "discover_existing_scene_active_task",
-      "scene_id": 24,
-      "task_fingerprint": "scene24-91ed2c95",
-      "previous_status": "not_tracked",
-      "new_status": "init",
-      "source_checkpoint": "2026-09-27T09:07:12.267Z",
-      "outcome": "success",
-      "verification": "Task prompt matches current canonical Scene 24 content; only trailing reference tokens are appended by Topview. Mapped to existing Scene 24, not a new Scene ID. Actual render model is Wan 3.0."
-    },
-    {
-      "timestamp": "2026-09-27T09:07:12.267Z",
       "operation": "manual_stale_watcher_reconciliation",
       "scene_id": null,
       "task_fingerprint": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-28T22:40:20Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T23:30:20Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T23:30:20Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 18,
+  "archived_event_count": 19,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
