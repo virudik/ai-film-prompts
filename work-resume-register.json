@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T15:07:16+00:00",
+  "last_updated_at": "2026-10-28T16:06:10+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "stitch_image_trio_first_waiting_for_slot",
-      "updated_at": "2026-10-28T15:02:46+00:00",
+      "status": "stitch_image_1_rejected_unlimit_capacity",
+      "updated_at": "2026-10-28T16:06:10+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -20,9 +20,10 @@
         "26 Oct 01:08 UTC: complete fresh 13-board/14-page scan showed 5/6 occupied and one free slot. Skipped blocked S52-P2, preflighted ready S42-P2, verified exact 6656-char prompt and six SHA-locked inputs, then submitted exactly once on My First Board as task 4a1061e175054da2810ffef8ad9d31cd (Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited0). The new task opened in UI and became the sixth queued video; no repeat or paid launch.",
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
         "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
-        "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted."
+        "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted.",
+        "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry."
       ],
-      "next_action": "Сначала при свободном слоте S66-STITCH-NB-IMAGE-1 → -2 → -3: три отдельные Nano Banana Pro/2K/16:9 картинки прогулки Алины и Даши со Стичем. Только сайт Unlimited0, точные prompt_source_path/SHA/3 входа, CAS claim и readback; свежий скан после каждой отправки. При заполненных слотах ждать существующий Relay/часовой цикл, не повторять готовые картинки 68–69. Затем продолжать прежнюю разрешённую видеоочередь; Роскосмос на паузе.",
+      "next_action": "At each fresh cycle re-scan actual global Topview capacity. Do not retry S66-STITCH-NB-IMAGE-1 without new explicit owner authorization. When Unlimited capacity is genuinely available, choose the next ready allowed item by live priority (currently S66-STITCH-NB-IMAGE-2 before -3), with its own exact prompt/SHA/three inputs/CAS claim and one free website attempt. Keep 6 submitted videos under observation; Roscosmos remains paused.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -86,9 +87,9 @@
         "result": "Review-ledger has later GitHub success. Fresh main passes 348 local tests, site/projects/review-ledger validators and canon-health ok/0 warnings after archival cleanup. Exact seven-file readback matched; final Canon health run40648290183 and Canonical master run40648290198 succeeded. The commit's Pages run was superseded/cancelled and the newer replacement was still processing, so no false deploy success is recorded. Old failed runs were not rerun and Gmail state was not changed."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-28T08:05:00Z",
+        "checked_at": "2026-10-28T15:57:00Z",
         "boards": 13,
-        "pages": 17,
+        "pages": 24,
         "total_tasks": 615,
         "complete": true,
         "occupied_slots": 6,
@@ -233,6 +234,18 @@
         "assessment": "partially_usable_not_owner_approved",
         "audio_listened": false,
         "queue_effect": "S28-A1-R2-20261025 duplicate-prevention gate cleared to waiting_for_slot; no submission"
+      },
+      "last_image_attempt": {
+        "item_id": "S66-STITCH-NB-IMAGE-1",
+        "attempted_at": "2026-10-28T16:06:10Z",
+        "outcome": "submit_rejected_unlimit_concurrent_slot_limit",
+        "task_id": null,
+        "click_count": 1,
+        "credits_spent": 0,
+        "post_click_board_image_tasks_total": 219,
+        "new_task_found": false,
+        "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261028T160610Z-rejected.json",
+        "retryable": false
       }
     },
     {
