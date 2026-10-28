@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T10:01:31+00:00",
-  "source_head": "87cb6af59588704195cc3ee49c6e26935524f8d8",
-  "source_fingerprint": "f10be517a40d399d76531f5e24c3dbe6fb544ae48c8c0cec51335584f94303c4",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-28T10:07:16+00:00",
+  "source_head": "1f8f2fd2b920c976bb9370d0f41893e70de6c5fa",
+  "source_fingerprint": "369c56ae68b3ddeacb802d906b213aa1a1e2775802312b5e2295d9e335994724",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,31 +30,45 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
-    "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
-    "title": "Татуинская связка: референсы, связность и навигация",
-    "status": "pending_publication_readback",
-    "last_completed": "Проверены20 промптов/94 привязки/57 изображений-ссылок; исправления опубликованы95b97b88;348 тестов и навигационный smoke прошли.",
-    "next_action": "Проверить опубликованные страницы, CI и Continue; завершить отчёт и вернуть основной план фильма.",
-    "verified_at": "2026-10-28T09:54:49+00:00",
+    "work_id": "SEREGIUS-PLAN-20261023",
+    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+    "status": "waiting_for_results_and_slots",
+    "last_completed": "Проверены 20 промптов, 94 привязки и 57 публичных изображений/миниатюр; исправления и навигация опубликованы, 13 изменённых файлов прошли HTTP/SHA readback, 348 тестов и CI прошли.",
+    "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
+    "verified_at": "2026-10-28T10:06:13+00:00",
     "blockers": [],
     "evidence": [
       {
         "file": "reports/tatooine-continuity-review-2026-10-28.json",
-        "sha256": "0484b4260886642b8d8622716685aa75a04f07609fc5077c1b08dad33a773def"
+        "sha256": "60e4d92f6405f6e3aec18f5af783acf088ec919bd1c4aa79e63e8f89637b3ca5"
+      },
+      {
+        "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+        "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908"
+      },
+      {
+        "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+        "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379"
       }
     ],
     "read_next": [
-      "ops/CONTINUE-PROTOCOL.md"
+      "reports/tatooine-continuity-review-2026-10-28.json",
+      "ops/OWNER-TASKS.md",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/topview-launch-queue.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Татуинская связка — проверка связности и ссылок · 28.10.2026",
-      "sha256": "0b17e7518d15523f749b09844f99a4c558d6dc504d95ed6556a22122be1c6055"
+      "anchor": "# Основной план после проверки татуинской связки · 28.10.2026",
+      "sha256": "db9dbf341537aab0986a60b309355abb79b244b0e0059c9839e9acfc2099f59e"
     }
   },
-  "checkpoint_text": "# Татуинская связка — проверка связности и ссылок · 28.10.2026\n\nwork_id: TATOOINE-CONTINUITY-REVIEW-20261028. Этап: content_published_navigation_verified_pending_deploy. Проверено: 2026-10-28T09:47:00+00:00.\n\nПроверены20 промптов,94 привязки изображений,57 публичных файлов. Подключены существующий продавец к66 и композиция обметания кучки к68; исправлены сумка/дыня, таймлайн66P1, реплики67 по частям и преждевременные действия в запасных версиях. Семь звеньев озаглавлены «Татуинская связка», добавлена таблица переходов и якорь прямо к52P7. Рисунки и существующие запуски не менялись;348 тестов и master/site validators прошли.\n\nОтчёт: reports/tatooine-continuity-review-2026-10-28.json. Контент опубликован в95b97b88; навигация исправлена и проверена локально. Дальше: readback навигации и проверка обновлённого сайта; затем основной план SEREGIUS-PLAN-20261023, настоящие видеорезультаты и QC. Новые картинки и перерисовка сейчас не требуются; реальная связность проверяется по видео.\n",
+  "checkpoint_text": "# Основной план после проверки татуинской связки · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023. Проверено: 2026-10-28T10:06:13+00:00.\n\nПроверка татуинской связки завершена: reports/tatooine-continuity-review-2026-10-28.json. Референсы и пути согласованы; 52P7→66→67→68→69→70→65 подписаны и связаны навигацией. Дополнительных картинок, видеозапусков и художественных одобрений при проверке не было.\n\nСледующее действие: Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.\n\nПри QC отдельно проверить сходство Алины/Даши/Маши Р, ровно четыре руки продавца, одну сумку и одну дыню, положение кучки, попадание мусора в совок и стык70→65. Только реальные проверенные последние3с задают начало следующей сцены; композиционные картинки не определяют момент действия или лицо вместо индивидуального листа. Исторический скан слотов не заменяет свежую проверку.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -148,7 +162,10 @@
     }
   ],
   "read_next": [
-    "ops/CONTINUE-PROTOCOL.md"
+    "reports/tatooine-continuity-review-2026-10-28.json",
+    "ops/OWNER-TASKS.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/topview-launch-queue.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -408,8 +425,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "49983fe58f93ce233f26494e36b859dd4797c81195df8d6678f4410aad1ef62b",
-      "bytes": 30140
+      "sha256": "9e21fc5e148c8ded0a869dcba998e23a222a30acf554b84370138687a18e609f",
+      "bytes": 32718
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -418,8 +435,18 @@
     },
     {
       "file": "reports/tatooine-continuity-review-2026-10-28.json",
-      "sha256": "0484b4260886642b8d8622716685aa75a04f07609fc5077c1b08dad33a773def",
-      "bytes": 24499
+      "sha256": "60e4d92f6405f6e3aec18f5af783acf088ec919bd1c4aa79e63e8f89637b3ca5",
+      "bytes": 31322
+    },
+    {
+      "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+      "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379",
+      "bytes": 5283
+    },
+    {
+      "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+      "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908",
+      "bytes": 7303
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -428,19 +455,19 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "7bdd32be3a368da365e4e36753b0c47904c606e25d905e515828c060b706ed61",
-      "bytes": 24009
+      "sha256": "2d6bdae6ce7985c741ab01329fdeb44a9bd2f41deae958e5b45ca8f3035b71d2",
+      "bytes": 24010
     },
     {
       "file": "video-prompts.md",
-      "sha256": "d3da04d9be56712d9076d29d22c3ad27b2d2ce957ff68bc9d8d9d6cd95e734d2",
-      "bytes": 1122914
+      "sha256": "343dce80a901c7a1d5639eb35738ab0532308b44729e1640455436e47c560d2a",
+      "bytes": 1122992
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "815235263c45fa4b11520d48edf11fc443e9923cd54d78c7c83d41b4da06f316",
-      "bytes": 75394
+      "sha256": "f52fb4a090ebfd31acaac667858630083f4a949411871f2c09727c0df298744c",
+      "bytes": 75038
     }
   ],
-  "packet_bytes": 5938
+  "packet_bytes": 7372
 }
