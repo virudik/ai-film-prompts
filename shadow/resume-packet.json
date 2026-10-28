@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T02:24:27+00:00",
-  "source_head": "a063685630f2ddb238fe2e6d86be4268a0d67927",
-  "source_fingerprint": "eb944091c6d8f5acc41caba315492b76bc225dc5d45ef03f8b8e849bce64628f",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-28T02:37:12+00:00",
+  "source_head": "ee68e59300f21abb06a221f56573f2452ae80b59",
+  "source_fingerprint": "df7b2ff223c388cc908bd255de124557c5ce5d1f5b6d61661cfa9520670ba1ed",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-open-work-20261027-c8084d939274",
@@ -30,32 +30,10 @@
     },
     "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
-    "title": "Татуин: дыня и сумка, лазерный совок и бесшовный пролёт69→70→65",
-    "status": "in_progress",
-    "last_completed": "Готовы все5изображений; исправлены67–69, добавлена70 и продолжение65. Очередь69→70→65 — Wan3/30с перед музыкой/танцами; 348тестов и113проверок пройдены.",
-    "next_action": "Опубликовать готовый набор и проверить точные публичные файлы/Actions; затем завершить работу и вернуть фокус общему плану. Видео не запускались; реальные стыки/QC обязательны.",
-    "verified_at": "2026-10-27T23:13:11+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "reports/tatooine-props-bridge-2026-10-28.json",
-        "sha256": "150a6c656ec5c15ecdcd29805d04caf9c183e7ad6c2438b03f9b7ac1b48a8f4f"
-      }
-    ],
-    "read_next": [
-      "ops/OWNER-TASKS.md",
-      "ops/TOPVIEW-FREE-LAUNCH.md",
-      "reports/tatooine-props-bridge-2026-10-28.json"
-    ],
-    "checkpoint": {
-      "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Татуин — дыня, лазерный совок и пролёт к кантине · 28.10.2026",
-      "sha256": "94e57c3f1cd9b9be7258296764920f4448b435c10af2f1a82a493ad1a4dd65e1"
-    }
-  },
+  "reasons": [
+    "recovery evidence changed: reports/tatooine-props-bridge-2026-10-28.json"
+  ],
+  "selected_work": null,
   "checkpoint_text": "# Татуин — дыня, лазерный совок и пролёт к кантине · 28.10.2026\n\nwork_id: TATOOINE-PROPS-BRIDGE-20261028\nЭтап: verified_locally_pending_publication. Проверено: 2026-10-27T23:13:11Z. Отчёт: reports/tatooine-props-bridge-2026-10-28.json.\n\nГотовы все5изображений; исправлены67–69, добавлена70 и продолжение65. Очередь69→70→65 — Wan3/30с перед музыкой/танцами; 348тестов и113проверок пройдены.\n\nОдна дыня и одна сумка проходят67→68→69. В68 дворники обметают ту же кучку стороной, в69 Маша передаёт покупки, забирает метлу и убирает песок/кучку в лазерный совок. Новая70 продолжает настоящий конец69, проходит через открытую дверь к столу Серёги;65 продолжает настоящий конец70 перед тостом. Реальные ролики ожидаются, результат бесшовного рендера не заявляется. Все три версии сцен согласованы;52P1–P6 сохраняют Seedance2.0, ready-skip действует.\n\nСледующий шаг: Опубликовать готовый набор и проверить точные публичные файлы/Actions; затем завершить работу и вернуть фокус общему плану. Видео не запускались; реальные стыки/QC обязательны.\n",
   "invariants": [
     {
@@ -149,11 +127,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "ops/OWNER-TASKS.md",
-    "ops/TOPVIEW-FREE-LAUNCH.md",
-    "reports/tatooine-props-bridge-2026-10-28.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -417,11 +391,6 @@
       "bytes": 13684
     },
     {
-      "file": "reports/tatooine-props-bridge-2026-10-28.json",
-      "sha256": "150a6c656ec5c15ecdcd29805d04caf9c183e7ad6c2438b03f9b7ac1b48a8f4f",
-      "bytes": 35684
-    },
-    {
       "file": "shadow/current-checkpoint.md",
       "sha256": "fd4e2110e276a5967df456abf5c813e521733834fd0f5a9344e3d4f05406896f",
       "bytes": 34749
@@ -442,5 +411,5 @@
       "bytes": 70887
     }
   ],
-  "packet_bytes": 6323
+  "packet_bytes": 5582
 }
