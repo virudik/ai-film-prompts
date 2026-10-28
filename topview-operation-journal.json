@@ -5,17 +5,6 @@
   "events": [
     {
       "timestamp": "2026-09-24T03:15:21.114Z",
-      "operation": "discover_existing_scene_active_task",
-      "scene_id": 21,
-      "task_fingerprint": "scene21-new-task",
-      "previous_status": "not_tracked",
-      "new_status": "init",
-      "source_checkpoint": "2026-09-24T03:15:21.114Z",
-      "outcome": "success",
-      "verification": "New Board video task created 2026-09-24T01:52:49Z exactly matches canonical Scene 21 prompt semantics/references/model; mapped to existing Scene 21, not a new Scene ID; canonical slow must include Scene 21."
-    },
-    {
-      "timestamp": "2026-09-24T03:15:21.114Z",
       "operation": "active_refresh_and_discovery",
       "scene_id": null,
       "task_fingerprint": null,
@@ -5500,8 +5489,19 @@
       "source_checkpoint": "2026-10-28T11:10:19Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-28T12:00:19Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-28T12:00:19Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 5,
+  "archived_event_count": 6,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
