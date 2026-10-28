@@ -4,6 +4,168 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
+      "project": "seregius",
+      "work_id": "SEREGIUS-PLAN-20261023",
+      "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7",
+      "chat": {
+        "agent": "chatgpt",
+        "label": "Открытый Work: возвращение к проекту и аудит сменщика; не новый чат",
+        "session_id": "beb26cfe80f8",
+        "chat_id": null,
+        "identity_status": "unavailable"
+      },
+      "started_at": "2026-10-28T08:41:28+00:00",
+      "accepted_at": "2026-10-28T09:18:37+00:00",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "Свежий main после коммита исправлений41d803a5 и роботной сборки; HEAD 5f99807db6005e17e3d11196d6ef2d995894baf7"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "Сверены7 инструкций и их сертификаты; изменённые разделы хендофа/Work-only/замка/Relay прочитаны. D7 15/15, published preflight passed."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "resume_state capture согласовал основной next_action с recovery; исходные квитанция52P1 и QC28A1 проверены; reports/successor-audit-2026-10-28.json."
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "ops/owner-tasks.json: исходнаяclaude-202610271320-cpk-refs done, открытых задач не найдено."
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Живой Supabase owner_decisions:127applied,4superseded, открытых0; действий SQL-записи не было."
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub чтение/запись/readback и живые Automations/Relay доступны; публичный share прочитан HTTP. Новые видеозапуски и browser-retry runtime не выполнялись."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Собственный свежий root lock на завершение аудита; освобождается с публикацией этой квитанции."
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "description": "Проверить фактическую работу сменщика, сохранить готовые рисунки и устранить подтверждённые несогласованности.",
+        "state": "completed",
+        "at": "2026-10-28T09:18:37+00:00",
+        "evidence": "reports/successor-audit-2026-10-28.json; content commit41d803a576cd2cdc584ed6e5f8f5496620cb10fc"
+      },
+      "request_sha256": "e14859acaebbd952e8144945c4bd5447af24688dd39795b520774c37ed11e919",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+          "bytes": 34298
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+          "bytes": 18925
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "c40cd3f93d717b33ffd8e3c818be194fc8100c12d3fe9d2c4b11a7dd897f87dc",
+          "bytes": 34882
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
+          "bytes": 72372
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+          "bytes": 16692
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
+          "bytes": 125587
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "374354dd235fa5ebfe37d20203c81c29c77559ea681081dabe1a4374d39119f3",
+          "bytes": 80567
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "7f0fcd10d7fd9e67164eaa31809d49288a30e199b991dd1513adeff35f8dbfa1",
+          "bytes": 5141
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "9eb0b29037b547dd8553326ce34ef4ba6f90fed5c4c08bd342883852277e6ec9",
+          "bytes": 40928
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "37866a9f309b21e9ef1ef03a2519405400e1614c7e9eadee6a114701fa491798",
+          "bytes": 395696
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "c141199defb7ea9d3cc427756301aaf68b961725f35f3931977badcc775fc1cc",
+          "bytes": 21258
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "19582126c5a61edae453a5cc991df817250bc798154d407855af7b60a908c771",
+          "bytes": 28549
+        },
+        {
+          "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+          "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379",
+          "bytes": 5283
+        },
+        {
+          "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+          "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908",
+          "bytes": 7303
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "58fdead221eda29329fa5c2f848da71d8b41951a90d92a88b69444d219411bcb",
+          "bytes": 34683
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "50ae87dab9e1f7d844f83a826caadfe50a4f584a2f5c18a15edd5897d5e5628b",
+          "bytes": 24016
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "2d7232d71f930f58038444bfc770bc0f1e855649aefcd4d70915a6f383800f56",
+          "bytes": 1112714
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "7db0b951779be1e8a6e549ad85d74d641c0636f5669dba5ea5d603825c320b9c",
+          "bytes": 73322
+        }
+      ],
+      "source_fingerprint": "62c4fd663bfb3f3da37ccd976386bad6d11f882cb1973925eff2dd8b4bd88541",
+      "recorded_at": "2026-10-28T09:18:37+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "seregius-open-work-20261027-c8084d939274",
       "project": "seregius",
       "work_id": "OPEN-WORK-REFS-RELAY-20261027",

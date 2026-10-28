@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "work_id": "SUCCESSOR-AUDIT-20261028",
-  "status": "verified_locally_pending_publication",
+  "status": "completed",
   "checked_at": "2026-10-28T09:11:19+00:00",
   "source_head": "5387b6df844785093b9ca9ea93c2118d4c241a4b",
   "shared_chat": "https://chatgpt.com/share/6ae1b0ac-31c0-83ed-8b16-3af00ae90d68",
@@ -901,10 +901,95 @@
       "review_ledger": "passed;60 rows/27 scenes",
       "canon_health": "ok;0 warnings",
       "instruction_consistency": "passed with both live automation prompts",
-      "continue_preflight": "passed in isolated checkout with freshly generated status/brief; ready_for_short=true, reasons=[]"
+      "continue_preflight": "passed on published fresh main after automatic status/brief rebuild: ready_for_short=true, reasons=[]",
+      "github_runs": [
+        {
+          "id": 40662553461,
+          "name": "Canon health (stale, oversized and broken canon parts)",
+          "sha": "41d803a576cd2cdc584ed6e5f8f5496620cb10fc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40662553461"
+        },
+        {
+          "id": 40662553427,
+          "name": "Build reference thumbnails",
+          "sha": "41d803a576cd2cdc584ed6e5f8f5496620cb10fc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40662553427"
+        },
+        {
+          "id": 40662553400,
+          "name": "AI Film integration recovery tests",
+          "sha": "41d803a576cd2cdc584ed6e5f8f5496620cb10fc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40662553400"
+        },
+        {
+          "id": 40662553388,
+          "name": "Shadow pilot takeover brief (not canonical)",
+          "sha": "41d803a576cd2cdc584ed6e5f8f5496620cb10fc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40662553388"
+        },
+        {
+          "id": 40662553371,
+          "name": "Canonical master check and owner buttons (GitHub main; Drive is only a copy)",
+          "sha": "41d803a576cd2cdc584ed6e5f8f5496620cb10fc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/virudik/ai-film-prompts/actions/runs/40662553371"
+        }
+      ],
+      "pages": {
+        "id": 40662617291,
+        "head_sha": "dbbae7f7df3b9afb5687b7b29b57a1d921c4ae62",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/virudik/ai-film-prompts/actions/runs/40662617291",
+        "updated_at": "2026-10-28T09:16:23Z"
+      }
     },
     "open_owner_decisions": 0,
-    "open_owner_tasks": 0
+    "open_owner_tasks": 0,
+    "public_readback_after_fixes": {
+      "checked_at": "2026-10-28T09:17:22.524109+00:00",
+      "files": [
+        {
+          "path": "video-prompts.md",
+          "http_status": 200,
+          "sha256": "2d7232d71f930f58038444bfc770bc0f1e855649aefcd4d70915a6f383800f56",
+          "matches_git": true
+        },
+        {
+          "path": "character-references.json",
+          "http_status": 200,
+          "sha256": "85abcc76c1f521abcf6774402014b6bdd292eb7ba4e7c7362d73f1d4fe16f8f7",
+          "matches_git": true
+        },
+        {
+          "path": "ops/topview-launch-queue.json",
+          "http_status": 200,
+          "sha256": "37866a9f309b21e9ef1ef03a2519405400e1614c7e9eadee6a114701fa491798",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-52/manifest.json",
+          "http_status": 200,
+          "sha256": "60f4c8814ae531f11183e4a0f524dc90b5469be0db224dd830d298a7f1f2925c",
+          "matches_git": true
+        },
+        {
+          "path": "references/scenes/scene-64/manifest.json",
+          "http_status": 200,
+          "sha256": "c6169350902476e4e04913d68f2e164e8c0ae179fac15c947df21f74a410bd8b",
+          "matches_git": true
+        }
+      ]
+    }
   },
   "new_images": 0,
   "new_video_submissions": 0,
@@ -970,6 +1055,9 @@
     "Observe existing S52-R2-P1 task, archive original result and perform visual/audio QC before real last3s handoff to P2.",
     "Continue authorized existing queue after fresh owner decisions, all-board slot scan and Unlimited0 preflight; S64 no longer artificially blocked.",
     "Prepare actual continuity cuts only from completed selected results for52P7→66→67→68→69→70→65.",
-    "Editorial acceptance belongs to owner; Roskosmos launches remain paused."
-  ]
+    "Editorial acceptance belongs to owner; Roskosmos launches remain paused.",
+    "CONTINUE-001: actual receipt from a genuinely new chat still needs observation; this existing chat resumed an audit, not that end-to-end new-chat test."
+  ],
+  "completed_at": "2026-10-28T09:18:37+00:00",
+  "content_commit": "41d803a576cd2cdc584ed6e5f8f5496620cb10fc"
 }
