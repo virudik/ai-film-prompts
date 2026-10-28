@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-28T07:06:25Z",
+  "last_updated_at": "2026-10-28T07:42:40.844Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -211,6 +211,16 @@
         "submitted_at": "2026-10-28T06:51:02Z",
         "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
         "credits": 0
+      },
+      "last_relay_recovery": {
+        "checked_at": "2026-10-28T07:42:40.844Z",
+        "event_ids": [
+          "result:4b7b972870a44dfbb29bd6c5e330a633",
+          "slots:6bc77dbe:1"
+        ],
+        "outcome": "stale",
+        "new_submissions": 0,
+        "reason": "Recovered verified old signals; preserved existing submitted receipt/task; no live slot scan or queue mutation."
       }
     },
     {
