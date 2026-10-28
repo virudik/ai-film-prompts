@@ -200,12 +200,100 @@
       ],
       "work_id": "TATOOINE-PROPS-BRIDGE-20261028",
       "usage": "action_pose_reference"
+    },
+    {
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "caption": "Татуинская связка 5/7 · @Image1: Маша Р: развёртка в одежде Татуина",
+      "role": "Маша Р: развёртка в одежде Татуина",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2247428
+    },
+    {
+      "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+      "asset_id": "references/scenes/scene-68/S68-sweepers-crew.png",
+      "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+      "caption": "Татуинская связка 5/7 · @Image2: Бригада «ГБУ Жилищник района Татуина»: трое инопланетян",
+      "role": "Бригада «ГБУ Жилищник района Татуина»: трое инопланетян",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2629946
+    },
+    {
+      "path": "references/scenes/scene-68/S68-light-broom.png",
+      "asset_id": "references/scenes/scene-68/S68-light-broom.png",
+      "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+      "caption": "Татуинская связка 5/7 · @Image3: Световая метла: реквизит",
+      "role": "Световая метла: реквизит",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-68/S68-light-broom.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 3555635
+    },
+    {
+      "path": "references/scenes/scene-66/S66-street-outrage.png",
+      "asset_id": "references/scenes/scene-66/S66-street-outrage.png",
+      "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+      "caption": "Татуинская связка 5/7 · @Image4: Улица Татуина: Алина, Даша, Стич и реакции прохожих",
+      "role": "Улица Татуина: Алина, Даша, Стич и реакции прохожих",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "site_published": {
+        "path": "references/scenes/scene-66/S66-street-outrage.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2654214
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T02:36:53.826Z",
+  "updated_at": "2026-10-28T03:04:35.711Z",
   "last_qc_at": "2026-10-27T23:08:17Z",
   "pose_composition_helpers": [
     "references/scenes/scene-69/S69-masha-masterclass.png"
@@ -417,5 +505,22 @@
   "prop_refs": [
     "references/scenes/scene-68/S68-light-broom.png",
     "references/scenes/scene-69/S69-light-dustpan.png"
-  ]
+  ],
+  "story_chain": {
+    "title": "Татуинская связка",
+    "step": 5,
+    "total": 7,
+    "montage_order": [
+      52,
+      66,
+      67,
+      68,
+      69,
+      70,
+      65
+    ],
+    "part": null,
+    "selected_model": "Wan 3.0",
+    "selected_prompt_id": "S69-WAN30"
+  }
 }
