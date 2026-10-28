@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-28T08:42:42+00:00",
-  "source_head": "af8ad69638b7d47732e738b14a33eb8d885f3457",
-  "source_fingerprint": "0d31cd70c4f4028c879b28d66f59373ea0fd377411b996f9f3a8b2b648cb35a3",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-28T09:13:28+00:00",
+  "source_head": "41d803a576cd2cdc584ed6e5f8f5496620cb10fc",
+  "source_fingerprint": "39ef164fdaaeab17b4ef8e490609ad3c29977de3dd1850f235b4e09e30f089e3",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-open-work-20261027-c8084d939274",
@@ -30,32 +30,41 @@
     },
     "source_head": "1876317fe9983cd884d2f1e5d168af1e9b0a4370"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
-    "work_id": "SUCCESSOR-AUDIT-20261028",
-    "title": "Проверка завершённой работы сменщика: референсы, Relay, Продолжай",
-    "status": "in_progress",
-    "last_completed": "Прочитан отчёт сменщика и свежий main; найдены два подтверждённых несоответствия.",
-    "next_action": "Проверить артефакты и связи, исправить подтверждённые ошибки, выполнить проверки и вернуть основной фокус.",
-    "verified_at": "2026-10-28T08:41:28+00:00",
+    "work_id": "SEREGIUS-PLAN-20261023",
+    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+    "status": "waiting_for_results_and_slots",
+    "last_completed": "Проверены материалы и работа сменщика; восстановлена готовность S64 и согласованность плана. Relay ранее запустил52P1, S28A1 получил QC.",
+    "next_action": "Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.",
+    "verified_at": "2026-10-28T09:11:19+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/successor-audit-2026-10-28.json",
-        "sha256": "5a93f5b0672bcfcba055f687b2f3d09a3f7eed1477bef9cf0fff8c83b19e28f0"
+        "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+        "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908"
+      },
+      {
+        "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+        "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379"
       }
     ],
     "read_next": [
-      "ops/CONTINUE-PROTOCOL.md",
-      "ops/TOPVIEW-FREE-LAUNCH.md"
+      "reports/successor-audit-2026-10-28.json",
+      "ops/OWNER-TASKS.md",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/topview-launch-queue.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Проверка работы сменщика · 28.10.2026",
-      "sha256": "f1ed670969aa0be3f62b4aa992f9fc91f5d338c1b53ca2bc9bc21f1eede83dc2"
+      "anchor": "# Основной план после проверки сменщика · 28.10.2026",
+      "sha256": "fc09885070759a1c6db2b2340d12c7bef67509146d2086cb558925ec0691048a"
     }
   },
-  "checkpoint_text": "# Проверка работы сменщика · 28.10.2026\n\nwork_id: SUCCESSOR-AUDIT-20261028. Проверено: 2026-10-28T08:41:28+00:00.\n\nВладелец поручил сверить работу другого чата, исправить только недоделки и не повторять готовое. Исходный main: 67798296b6c697332ba9f44a49a6f57ed3d1b48a. Отчёт: reports/successor-audit-2026-10-28.json. Прочитаны доступный общий чат, актуальные правила и живые настройки Relay; повторное рисование/видеозапуски не выполняются.\n\nНайдены устаревший технический blocker S64 и рассогласование next_action/recovery в основном плане. Дальше: проверить байты всех изображений, manifests/registry/галереи/очередь/публичный сайт, исправить подтверждённые ошибки и обновить доказательства восстановления. Ранее сохранённый основной фокус будет восстановлен после аудита.\n\n---\n\n<!-- relay-current-status -->\n## Текущее Relay-событие\nПроверено: 2026-10-28T06:55:12.326724Z. work_id: TOPVIEW-SLOT-PRIORITY-20261024.\nslots:6bc77dbe:2 / issue98: отправлена ровно одна S52-R2-SEED20-P1, task `c65c30d8cbe14e9eadec886276e62471`, Seedance2.0/15с/720p/16:9,5изображений+настоящие3с S44, Unlimited0,0кредитов. Полный текст и входные SHA проверены; отдельный CAS claim. После отправки полный скан13досок/19страниц/938задач подтвердил6занятых/0свободных. Квитанции: reports/topview-event-wake.json и reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json. Художественная приёмка не выполнялась.\nДалее: ждать реальный результат этого task, сохранить оригинал, выполнить QC корабля/личности/входа и настоящий стык для R2P2; при следующем свободном слоте свежая общая очередь без резервирования. Уже отправленное не повторять. Собственный замок освобождён в том же коммите.\nПоздняя проверка 2026-10-28T07:42:40.844Z: восстановленные result:4b7b972870a44dfbb29bd6c5e330a633 (issue95) и slots:6bc77dbe:1 (issue96) подтверждены и завершены stale: исходные сигналы старше30мин. Новых Create/claim/расходов нет; квитанция slots:6bc77dbe:2 и существующий task сохранены. Новый live-скан в этой проверке не выполнялся.\n<!-- /relay-current-status -->\n",
+  "checkpoint_text": "# Основной план после проверки сменщика · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023. Проверено: 2026-10-28T09:11:19+00:00.\n\nАудит сменщика подтвердил28 текущих PNG,34 изображений-входов очереди и72 публичных файла (HTTP200, побайтовое совпадение). Исходная задача закрыта корректно:18 ролей референсов обеспечены17 отдельными PNG с разрешённым владельцем повторным использованием общего кадра со Стичем. Сюжет и рисунки сохранены. Отчёт: reports/successor-audit-2026-10-28.json.\n\nИсправлены искусственный блокер S64, явные пути изображений в обеих версиях52P7, пять устаревших отметок публикации и неполная тестовая фикстура журнала. Relay включён; его live-инструкция содержит повторы браузерной проверки, checkpoint и защиту от дубля Create. Реальный запуск52P1 по slots:6bc77dbe:2 подтверждён квитанцией; испытание самого browser-retry не заявляется. Правило задач «только открытый Work» уже внесено и сохранено.\n\nПоследний прочитанный полный скан08:06UTC показывал6/6; это историческое наблюдение, не текущая доступность. S28-A1 QC: partially_usable_not_owner_approved; разрешённый R2 ждёт слота. Новых изображений, пунктов очереди, запусков и художественных одобрений при аудите нет.\n\nСледующее действие: Прочитать свежие решения владельца и все слоты. Наблюдать существующий S52-R2-SEED20-P1 task c65c30d8cbe14e9eadec886276e62471 без повторного Create; по готовности сохранить оригинал и выполнить QC для реального стыка P2. При свободном слоте продолжить существующую авторизованную очередь по приоритету и полному Unlimited0 preflight: S64 готов, S28-A1-R2 технически разблокирован после QC предшественника. Связка52P7→66→67→68→69→70→65 требует настоящих результатов и последних3с; Роскосмос на паузе.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -149,8 +158,10 @@
     }
   ],
   "read_next": [
-    "ops/CONTINUE-PROTOCOL.md",
-    "ops/TOPVIEW-FREE-LAUNCH.md"
+    "reports/successor-audit-2026-10-28.json",
+    "ops/OWNER-TASKS.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/topview-launch-queue.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -400,18 +411,18 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "b953ac6574013fefb602ddc8d8d3809e9ef50c09a72d09cd5a0e713e7179b816",
-      "bytes": 395957
+      "sha256": "37866a9f309b21e9ef1ef03a2519405400e1614c7e9eadee6a114701fa491798",
+      "bytes": 395696
     },
     {
       "file": "project-status.json",
-      "sha256": "bafc4a4f9de62fdcd9e4cc0e1d5f7dec58f621017e2d8e4bacf922e0fd70b638",
+      "sha256": "5e9d2d0a5f29d3785a2c28137111b1fe6e27b8b4660d622bc06c5a6b7cb76025",
       "bytes": 21258
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "677fa8396556f3a7bd007e49692d1a7501b3c700ef0e3adda4beb93dcf37f3b2",
-      "bytes": 24140
+      "sha256": "9415b9949d9cd4a82619434d30483a3f5debf50099e3e3a77d23d4aa16f3269c",
+      "bytes": 26975
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -419,9 +430,14 @@
       "bytes": 13684
     },
     {
-      "file": "reports/successor-audit-2026-10-28.json",
-      "sha256": "5a93f5b0672bcfcba055f687b2f3d09a3f7eed1477bef9cf0fff8c83b19e28f0",
-      "bytes": 747
+      "file": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
+      "sha256": "2a5783964e01602e64a1c89a898a6198761e78c7726de613861b6785f2272379",
+      "bytes": 5283
+    },
+    {
+      "file": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+      "sha256": "584a58540f4e388272ec2ad259827c8ccdda3700bedc643dbb228fa711401908",
+      "bytes": 7303
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -430,19 +446,19 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "2066afb2ab761da4af253c90529be61c3e556600255161da15096d360ed546ab",
-      "bytes": 24016
+      "sha256": "b55919b7f4a80f8653f971f999f06635e078acb2c537b29262ed6f4a8414f076",
+      "bytes": 24017
     },
     {
       "file": "video-prompts.md",
-      "sha256": "46e085c0258f3ecfb5a5b654eee25d4a0ebceb9e9a2659a79e7a8e12152dcb59",
-      "bytes": 1112558
+      "sha256": "2d7232d71f930f58038444bfc770bc0f1e855649aefcd4d70915a6f383800f56",
+      "bytes": 1112714
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "45c2c345daeb6d8b5950cea64e440601cb3650f7bec2b4a314dee6c411bdc62f",
-      "bytes": 74417
+      "sha256": "22ac3851c0b2eac3eb3565d3db71731d6f2491cc501f6849294611cb61a7e6bc",
+      "bytes": 74460
     }
   ],
-  "packet_bytes": 7467
+  "packet_bytes": 7938
 }
