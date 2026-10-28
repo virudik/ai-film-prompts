@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-28T09:33:19+00:00",
-  "source_head": "c938fcf458c98a954196014bb5068f7e29a05b7c",
-  "source_fingerprint": "f4e7b0abdf50b51a0ac3459b21387d81cdf6bac26ceb8a4da20c55db00d6d9bb",
+  "checked_at": "2026-10-28T09:43:18+00:00",
+  "source_head": "b0e420b130ad9ad470cde1ac082d08e6c827283a",
+  "source_fingerprint": "5dea5765df2dd229f7fd0b7932b90377f066aa1951f43fdc313b6503fd111e60",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -158,8 +158,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "7f0fcd10d7fd9e67164eaa31809d49288a30e199b991dd1513adeff35f8dbfa1",
-      "bytes": 5141
+      "sha256": "dd11a2b12c8add6916d77196ebaf2c3b3bd906d7dcb039ad9685c182d2fce732",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
@@ -173,8 +173,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "64f9a2e67204ce7817ad935b8ce567af46180b74b940ef175398634584bbe587",
-      "bytes": 21258
+      "sha256": "102528e4da9f56e7334430c76dcfaba7b62c30a0767e75cd002f5c14dcdf9b36",
+      "bytes": 21251
     },
     {
       "file": "projects/README.md",
