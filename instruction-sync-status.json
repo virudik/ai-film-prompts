@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "checked_at": "2026-10-28T02:42:25.828Z",
+  "checked_at": "2026-10-28T02:44:22.972Z",
   "verification_mode": "github_canonical_blob_check",
   "verification_scope": "Exact local canonical bytes only; not a semantic audit or proof of scheduler execution.",
   "source_of_truth": "github",
