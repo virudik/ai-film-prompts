@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-29T22:42:50+00:00",
-  "source_head": "04c70df6d7c85464ba056c48749af51c9b64a514",
-  "source_fingerprint": "6d3c43f216c1250e8247c9705fff8e60a71ee5ff3ddabdfcb1d934c291137dc1",
+  "checked_at": "2026-10-29T22:44:38+00:00",
+  "source_head": "9b5d8f99cfe5e6519467aee1aef4cf8076e764a6",
+  "source_fingerprint": "9ce3afe74a256ebf65bca1af3f545046fd0acf31cea0dee6bd35cf1355fec9c3",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -114,7 +114,15 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [],
+    "unresolved": [
+      {
+        "item_id": "KM04-WAN30-20261030",
+        "state": "claimed",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      }
+    ],
     "existing_task_count": 2,
     "existing_tasks": [
       {
@@ -202,8 +210,8 @@
     },
     {
       "file": "projects/kotmonavty/ops/topview-launch-queue.json",
-      "sha256": "236e9f0ab2a5c3cdee65f0daac1682d0534cf5a142445672ac5bbb427dfdfb97",
-      "bytes": 19103
+      "sha256": "da215501f58cd73867a58c29ef86db4a6b5276931f29b657ba9268aec950529f",
+      "bytes": 19566
     },
     {
       "file": "projects/kotmonavty/project-status.json",
@@ -251,5 +259,5 @@
       "bytes": 1125949
     }
   ],
-  "packet_bytes": 3865
+  "packet_bytes": 3919
 }
