@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "961b6f84d67949eb838c8013767215ae7887e5f5a344f61c2422e04ff7f43f96",
+  "source_queue_sha256": "457397ac164ada08fe6776cbea6b3dfc93c8001b9fa82fd1ddbd05dae91c9eb5",
   "source_task_map_sha256": "0ea190f5e91c4cbe66282c30c01b3be19226adc2f47dcf3bd1ffd36924e01eae",
   "topview_checked_at": "2026-10-29T06:40:19Z",
   "items": [
@@ -350,10 +350,10 @@
       "id": "S28-A2-R2-20261025",
       "scene_id": 28,
       "part_label": "28 A2",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S52-R2-SEED20-P2",
@@ -474,5 +474,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-29T07:03:25.315864Z"
+  "checked_at": "2026-10-29T07:06:00.962568Z"
 }
