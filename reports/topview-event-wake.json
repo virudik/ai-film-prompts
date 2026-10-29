@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T06:26:53Z",
+  "updated_at": "2026-10-29T22:55:50.780179Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -510,6 +510,127 @@
       },
       "next_action": "Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.",
       "lock_outcome": "own_lock_acquired_separate_CAS; released_atomically_with_receipt"
+    },
+    {
+      "event_id": "result:b15165813c0848939edbe8b3d3aed182",
+      "issue_number": 149,
+      "message_id": "241692696515907584",
+      "relay_event_id": "evt_3c20f027d022c57790eea0eb96240255",
+      "relay_reminder_event_ids": [
+        "evt_078d38cbff3438e12d099df969ed6787"
+      ],
+      "observed_at": "2026-10-29T22:40:17Z",
+      "checked_at": "2026-10-29T22:53:44.157Z",
+      "outcome": "no_update",
+      "reason": "Initial full scan found 5 active videos; during S60 input preparation another authorized work stream added two paid Kotmonavty videos. Final complete scan of 14 boards/20 pages/944 tasks found 7 active videos (5 Unlimited Seregius + 2 paid Kotmonavty), above the conservative global capacity of 6. No queue claim or Create was attempted. S60 remains waiting_for_slot.",
+      "task_ids": [],
+      "retryable": false,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "Actual runtime run ID is not exposed; Relay transport IDs are not runtime run IDs.",
+      "run_started_at": "2026-10-29T22:42:28Z",
+      "actual_sender": {
+        "name": "topview-robot",
+        "address": "topview-robot@direct",
+        "sender_agent_id": "240204876611608576"
+      },
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "new_submissions": 0,
+      "credits_spent": 0,
+      "claim_changes": 0,
+      "source_result": {
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "scene": "S56-P1",
+        "status": "success",
+        "completed_at": "2026-10-29 22:35:22",
+        "owner_approval": false
+      },
+      "final_scan": {
+        "checked_at": "2026-10-29T22:53:44.157Z",
+        "complete": true,
+        "boards": 14,
+        "pages": 20,
+        "total": 944,
+        "errors": [],
+        "active": [
+          {
+            "id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+            "board": "86c6cb46bf76400f93fea9c82d8e9b0f",
+            "type": "video",
+            "status": "running",
+            "unlimited": false
+          },
+          {
+            "id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+            "board": "86c6cb46bf76400f93fea9c82d8e9b0f",
+            "type": "video",
+            "status": "running",
+            "unlimited": false
+          },
+          {
+            "id": "0de1f663432646d294f409a22e20a26e",
+            "board": "1a6244cf1ae747ef847d949a80d6133c",
+            "type": "video",
+            "status": "init",
+            "unlimited": true
+          },
+          {
+            "id": "b0915b04173c414e9ac08652d34b7852",
+            "board": "1a6244cf1ae747ef847d949a80d6133c",
+            "type": "video",
+            "status": "init",
+            "unlimited": true
+          },
+          {
+            "id": "c65c30d8cbe14e9eadec886276e62471",
+            "board": "1a6244cf1ae747ef847d949a80d6133c",
+            "type": "video",
+            "status": "init",
+            "unlimited": true
+          },
+          {
+            "id": "8d7ff1e2de63478693778de29e0dd56e",
+            "board": "1a6244cf1ae747ef847d949a80d6133c",
+            "type": "video",
+            "status": "init",
+            "unlimited": true
+          },
+          {
+            "id": "4a1061e175054da2810ffef8ad9d31cd",
+            "board": "1a6244cf1ae747ef847d949a80d6133c",
+            "type": "video",
+            "status": "init",
+            "unlimited": true
+          }
+        ],
+        "occupied_video_slots": 7,
+        "free_video_slots": 0,
+        "active_images": 0,
+        "over_capacity": true
+      },
+      "input_preflight": {
+        "item": "S60-SEED20-P1",
+        "canonical_prompt_sha256": "a88619ce1653a7b5c86f64ec4d9198413f42fd660956fc7e754cd6192d07535b",
+        "all_five_input_sha_verified": true,
+        "source_video_seconds": 3,
+        "source_video_resolution": "1280x720",
+        "visual_qc": "Actual final frame matches opening aftermath; ship roof/cockpit empty in helper refs. No substitute video used.",
+        "ui_preparation": "Video1 and Image1..3 uploaded in order. Image4/prompt not staged; prior S62 prompt cleared. Preparation stopped when refreshed global capacity became unavailable.",
+        "claim_id": null,
+        "create_clicks": 0
+      },
+      "browser_recovery": {
+        "initial_error": {
+          "at": "2026-10-29T22:49:56.326Z",
+          "error": "Runtime.evaluate timed out on read-only DOM snapshot before Create"
+        },
+        "read_only_retry_at": "2026-10-29T22:50:12Z",
+        "retry_outcome": "recovered; subsequent UI uploads/readback succeeded before capacity stop"
+      },
+      "lock_outcome": "own_lock_acquired_separate_CAS_ea3496052a4fcf9df1f7f3797895f19166259269; released_atomically_with_receipt",
+      "next_action": "On the next real wake/hourly cycle recheck fresh main, owner decisions, all boards/pages and capacity. At a free slot choose the highest-priority ready authorized item, complete exact inputs/full prompt/UI Unlimited0 verification, own canon lock and CAS claim immediately before one Create. S56-P2 needs actual S56 result continuity preparation/QC; S60 ready independently. Do not retry S62 or failed Stitch items.",
+      "ui_proof": "reports/topview-queue-2026-10-16/S60-not-submitted-20261029T2253Z.png"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
