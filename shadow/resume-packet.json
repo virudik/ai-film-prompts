@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T06:47:55+00:00",
-  "source_head": "7058936e68e42e444bbfd49cd170389d5e9541da",
-  "source_fingerprint": "940f2c06990b3db94702fd749eab415ea162115b006349f3ff9925a3279ccce9",
+  "checked_at": "2026-10-29T07:03:02+00:00",
+  "source_head": "51abb49b35f181cf0a72d40cf0e5106abef8bb75",
+  "source_fingerprint": "e8f919825a77aa9e2912a6ff33531e9618fd908964f1446bc45e25cce14219ca",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -162,16 +162,8 @@
         "task_id": "4b7b972870a44dfbb29bd6c5e330a633"
       },
       {
-        "item_id": "S37-SEED20-P2",
-        "task_id": "af627d97836d4832a1a4ad8cf24fa921"
-      },
-      {
         "item_id": "S39-SEED20-P2",
         "task_id": "7863a2b3e8e54ca8a5d37468fc77d49f"
-      },
-      {
-        "item_id": "S40-SEED20-P1",
-        "task_id": "1751294fbf5f49dbb00a0f44401486ca"
       },
       {
         "item_id": "S40-SEED20-P2",
@@ -200,10 +192,6 @@
       {
         "item_id": "S52-SEED20-P1",
         "task_id": "34ff1bf7fe9d47f08de5a635d5626c70"
-      },
-      {
-        "item_id": "S53-SEED20-P1",
-        "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed"
       },
       {
         "item_id": "S53-SEED20-P2",
@@ -240,6 +228,18 @@
       {
         "item_id": "S52-R2-SEED20-P1",
         "task_id": "c65c30d8cbe14e9eadec886276e62471"
+      },
+      {
+        "item_id": "S37-SEED20-P2",
+        "task_id": "af627d97836d4832a1a4ad8cf24fa921"
+      },
+      {
+        "item_id": "S40-SEED20-P1",
+        "task_id": "1751294fbf5f49dbb00a0f44401486ca"
+      },
+      {
+        "item_id": "S53-SEED20-P1",
+        "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed"
       },
       {
         "item_id": "S44-R1-20261017",
@@ -396,8 +396,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "7c0550c5c580c04b77be4b559fa684688d104c6eecaf19a692834dd777347013",
-      "bytes": 402962
+      "sha256": "961b6f84d67949eb838c8013767215ae7887e5f5a344f61c2422e04ff7f43f96",
+      "bytes": 388458
     },
     {
       "file": "project-status.json",
@@ -406,8 +406,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "6c900a8edf64a376f56cb6bdde21084b70012b02c8106fddaf85158241319e03",
-      "bytes": 44042
+      "sha256": "62368e4e6133c7a7bf0870f997a576c9185ae8915d8f60373029e6199d68ec91",
+      "bytes": 13046
     },
     {
       "file": "reports/handoff-receipts.json",
