@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T06:02:50.220Z",
+  "updated_at": "2026-10-29T06:03:50.032Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -30,7 +30,7 @@
       "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
       "prompt_file_sha256": "e43b596707deb9d550591469b24809157148917abceec8d0eeb1723f30c857dc",
       "priority": -3,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -63,36 +63,29 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image1",
-        "claimed_at": "2026-10-29T06:02:50.220Z",
-        "actor": "chatgpt_event_trigger",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "event_id": "result:8a8eadc809004e318c47201b8a463be0"
-      },
+      "task_id": "e0f131c8f04f4991bd7ec9b317223aa0",
+      "claim": null,
       "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
       "launch_readiness": "reference_inputs_available",
       "created_at": "2026-10-28T15:02:46+00:00",
       "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
       "on_success": "Save original, taskID/SHA/QC and supplemental gallery entry. Owner decides later whether to use it. Do not add it to video inputs or dependencies; existing general frame remains the default. Continue next item immediately if free UI capacity allows.",
-      "attempts_used": 1,
+      "attempts_used": 2,
       "retry_policy": "Owner reconfirmed generation on 28Oct after the capacity rejection: one new free attempt after fresh capacity check. attempts_used=1 remains historical. No repeat of unknown/successful submission; another rejected click consumes this new allowance.",
       "last_claim": {
-        "run_id": "chatgpt-20261028T1605Z-S66-STITCH-NB-IMAGE-1",
-        "claimed_at": "2026-10-28T16:05:00Z",
-        "actor": "ChatGPT Work",
+        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image1",
+        "claimed_at": "2026-10-29T06:02:50.220Z",
+        "actor": "chatgpt_event_trigger",
         "holder": "chatgpt",
         "route": "free_web_gui",
-        "resolved_at": "2026-10-28T16:06:10Z",
-        "result": "submit_rejected_unlimit_concurrent_slot_limit",
-        "clicked_once": true,
-        "task_id": null,
-        "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261028T160610Z-rejected.json",
-        "full_record_archive": "archive/ops/topview-launch-queue-archive.json#metadata_history.S66_STITCH_IMAGE_1_rejected_20261028"
+        "event_id": "result:8a8eadc809004e318c47201b8a463be0",
+        "resolved_at": "2026-10-29T06:03:50.032Z",
+        "result": "submitted",
+        "task_id": "e0f131c8f04f4991bd7ec9b317223aa0"
       },
-      "reauthorized_at": "2026-10-28T16:32:18+00:00"
+      "reauthorized_at": "2026-10-28T16:32:18+00:00",
+      "submitted_at": "2026-10-29T06:03:02Z",
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261029.json"
     },
     {
       "id": "S66-STITCH-NB-IMAGE-2",
