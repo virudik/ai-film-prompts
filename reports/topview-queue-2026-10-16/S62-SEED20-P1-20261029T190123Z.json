@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "item_id": "S62-SEED20-P1",
+  "project": "seregius",
+  "board": {
+    "name": "My First Board",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+  },
+  "run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry",
+  "owner_authorization": {
+    "quote": "Тогда следующей попробуем 62.",
+    "authorized_at": "2026-10-29T08:41:44.413Z",
+    "allowance_consumed_before_create": true,
+    "allowance_remaining": 0,
+    "claim_commit": "0be3f60a99a3355a3e1eeb3dd4e1b8d8014c2b30",
+    "previous_submission_unknown_preserved": true,
+    "no_further_retry": true
+  },
+  "preflight": {
+    "checked_at": "2026-10-29T18:59:48.037Z",
+    "complete_all_board_scan": {
+      "boards": 14,
+      "pages": 17,
+      "tasks": 941,
+      "active_videos": 5,
+      "free_video_slots": 1,
+      "errors": []
+    },
+    "prior_s62_match_found": false,
+    "lock_commit": "36648472f42b58073d8eb58af76c3401922d2ffc",
+    "prompt": {
+      "canonical_sha256": "3dab8c8bc696fc214b961197af97af43e39a25860921a6b778759e09f3b781b0",
+      "normalized_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
+      "normalized_dom_exact": true
+    },
+    "parameters": {
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "use_unlimit_mode": true,
+      "credits": 0
+    },
+    "inputs": [
+      {
+        "slot": "@Video1",
+        "filename": "S62-source-A-last3s.mp4",
+        "sha256": "5786c8aa50d3a4d68c38f4953a1933d8b421aed86ca0ac3f647d3ef518283fe7",
+        "duration_seconds": 3
+      },
+      {
+        "slot": "@Image1",
+        "path": "references/full/serega.jpg",
+        "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/full/artem.jpg",
+        "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/full/ilyusha.jpg",
+        "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/scenes/scene-62/S62-source-A-final.jpg",
+        "sha256": "71f89c0e8991acbfac7e8c3ba96653d5cb409635611d8f6056841ad32a82ca94"
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/scenes/scene-62/S62-target-B-opening.jpg",
+        "sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff"
+      },
+      {
+        "slot": "@Image6",
+        "path": "references/scenes/scene-62/S62-car-continuity.jpg",
+        "sha256": "20bf3ae84b6a940f26f3aa096ddce60f36b30b3754e600cf95b5e135315f2444"
+      }
+    ]
+  },
+  "create": {
+    "clicks": 1,
+    "ui_result": "click_returned; button changed to disabled «Генерация...»",
+    "submitted_at": "2026-10-29T19:01:23Z",
+    "task_id": "0de1f663432646d294f409a22e20a26e"
+  },
+  "verification": {
+    "checked_at": "2026-10-29T19:02:09.826Z",
+    "complete_all_board_scan": {
+      "boards": 14,
+      "pages": 20,
+      "tasks": 942,
+      "errors": [],
+      "status_counts": {
+        "success": 899,
+        "fail": 37,
+        "init": 6
+      },
+      "video_tasks": 619,
+      "image_tasks": 323,
+      "active_videos": 6,
+      "free_video_slots": 0
+    },
+    "task": {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "use_unlimit_mode": true,
+      "credits": 0,
+      "input_videos": [
+        {
+          "name": "Video1",
+          "duration_seconds": 3
+        }
+      ],
+      "input_images": [
+        "Image1",
+        "Image2",
+        "Image3",
+        "Image4",
+        "Image5",
+        "Image6"
+      ],
+      "prompt_normalized_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
+      "prompt_normalized_exact": true
+    }
+  },
+  "ui_proof": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z-ui.png",
+  "queue_commit": "c6b89182502b10c5f0b20a686ba2ba1ae815662a",
+  "editorial_approval": false,
+  "note": "Provider success or artistic acceptance is not claimed; current observed state is init/queued."
+}
