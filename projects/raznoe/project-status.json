@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-29T04:42:27Z",
+  "synced_at": "2026-10-29T07:47:21Z",
   "revision_date": "27.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
   "canonical_master_sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
@@ -50,7 +50,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 18.836,
+    "age_hours_at_status_build": 21.918,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -128,7 +128,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 18.836,
+      "age_hours": 21.918,
       "blocking": false
     },
     "topview_task_map": {
@@ -642,7 +642,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.10.2026",
-    "synced_at": "2026-10-29T04:42:27Z",
+    "synced_at": "2026-10-29T07:47:21Z",
     "canonical_master_sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
     "canonical_revision_sha256": "39d487c22cbb87d8e6b0d7f3e83319ff1525e42e512099082cb8f3643b2a90ff",
     "scene_count": 25,
