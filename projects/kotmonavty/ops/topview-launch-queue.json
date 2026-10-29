@@ -2,15 +2,244 @@
   "schema_version": 1,
   "project": "kotmonavty",
   "queue_id": "KOTMONAVTY-QUEUE",
-  "updated_at": "2026-10-20T00:00:00Z",
+  "updated_at": "2026-10-29T09:04:58.142Z",
   "state": "active",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
-  "selection_policy": "Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
+  "selection_policy": "Owner29Oct2026 one-off exception: KM02 and KM22 paid Seedance2.5/30s/720p/16:9/one each on Котмонавты only; existing Work chat handles both under project lock. Not part of free background launcher. All other project items remain unselected. Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
   "receipts_directory": "projects/kotmonavty/reports",
-  "items": [],
+  "items": [
+    {
+      "id": "KM02-SEED25-30-20261029",
+      "scene_id": 2,
+      "prompt_id": "KM2-SEED25-30",
+      "canonical_block_label": "2 · Wan 3.0 · 30 с",
+      "prompt_source_path": "projects/kotmonavty/video-prompts.md",
+      "priority": 1,
+      "state": "claimed",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Seedance 2.5",
+      "selected_model": "Seedance 2.5",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "payment_mode": "credits",
+      "max_credits": 36,
+      "max_new_submissions": 0,
+      "attempts_used": 1,
+      "canonical_prompt_sha256": "03607c7036c099494f2782394ff47be3932f216ff342869943e1a641087c644e",
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "board_name": "Котмонавты",
+      "authorization": "owner_paid_authorization in this queue; 29Oct2026 direct owner Work chat",
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "canonical_role": "Лучик — исходная идентичность",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "canonical_role": "Рыжик — исходная идентичность",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png",
+          "sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607",
+          "canonical_role": "Магнитная свалка — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+          "sha256": "9ff3ec56daa9491c3071801dd1ac92b710e28b6fc22fae77491ebdc75b1a683a",
+          "canonical_role": "Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
+          "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed",
+          "canonical_role": "Маяк в песчаной буре — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png",
+          "sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4",
+          "canonical_role": "Экспресс через астероид — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png",
+          "sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508",
+          "canonical_role": "Лёд хранит секрет — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png",
+          "sha256": "81ada78b352c24fbfd3e496f1e3a7a5657f36bf23e9ab1da663ef0871393f59f",
+          "canonical_role": "Экспонат с притяжением — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image9",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "canonical_role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
+          "input_status": "available",
+          "required": true
+        }
+      ],
+      "depends_on_completed": [],
+      "depends_on_submitted": [],
+      "task_id": null,
+      "claim": {
+        "run_id": "chatgpt-work-kotmonavty-paid-20261029-km02",
+        "claimed_at": "2026-10-29T09:04:58.142Z",
+        "holder": "chatgpt",
+        "route": "paid_web_gui",
+        "max_credits": 36
+      }
+    },
+    {
+      "id": "KM22-SEED25-30-20261029",
+      "scene_id": 22,
+      "prompt_id": "KM22-SEED25-30",
+      "canonical_block_label": "22 · Wan 3.0 · 30 с",
+      "prompt_source_path": "projects/kotmonavty/video-prompts.md",
+      "priority": 2,
+      "state": "prepared_for_paid_launch",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Seedance 2.5",
+      "selected_model": "Seedance 2.5",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "payment_mode": "credits",
+      "max_credits": 36,
+      "max_new_submissions": 1,
+      "attempts_used": 0,
+      "canonical_prompt_sha256": "397e71579ff02a5603447d3e07956af73c7f2454ef1c3a2e8eea2cb4a8ef7b44",
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "board_name": "Котмонавты",
+      "authorization": "owner_paid_authorization in this queue; 29Oct2026 direct owner Work chat",
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "canonical_role": "Лучик — исходная идентичность",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "canonical_role": "Рыжик — исходная идентичность",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png",
+          "sha256": "f61784b93ba6b7bfd62ce1710fa421430da79078904a71a86597e8e1e13e67be",
+          "canonical_role": "Штаб РосКОТмоса: тревога на карте — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
+          "sha256": "19e71c819b5144e376075cfe48253748450a39a0e6bc27d302c481f16b506232",
+          "canonical_role": "Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png",
+          "sha256": "af23df1001aa742a6bdc4754fdd1dc36d5bb7a2a18f5f1728ade93a20a755554",
+          "canonical_role": "Рынок под стеклянным морем — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png",
+          "sha256": "3688be34da1a07b329d25a15d7039cc87de721d832b0ead7fe9932ec88808732",
+          "canonical_role": "Незваные дипломаты — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png",
+          "sha256": "3951a4a7cd5cfcbc2685777dbca0c930a34ae26f84598d434e8703400d3da715",
+          "canonical_role": "Сад, который идёт следом — только эта локация и её действие",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "projects/kotmonavty/references/branding/KM-opening.png",
+          "sha256": "21feec98f172953dd4ed12426072fb9546db3c99fdb91c19bc19fd92413cbdf6",
+          "canonical_role": "Графическая заставка — только для финального титульного плана",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image9",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "canonical_role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
+          "input_status": "available",
+          "required": true
+        }
+      ],
+      "depends_on_completed": [],
+      "depends_on_submitted": [],
+      "task_id": null,
+      "claim": null
+    }
+  ],
   "already_submitted": {},
   "owner_site_actions": [],
   "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
   "board_name": "Котмонавты",
-  "board_routing_rule": "projects/README.md — отдельная доска проекта; перед submit сверять name и board_id, fallback запрещён."
+  "board_routing_rule": "projects/README.md — отдельная доска проекта; перед submit сверять name и board_id, fallback запрещён.",
+  "owner_paid_authorization": {
+    "at": "2026-10-29T09:04:58.142Z",
+    "source": "Direct owner current Work chat",
+    "quote": "Разрешаю платно из проекта котмонавты на доске котмонавты в сиденс 2,5 запустить ролики 30 секунд трейлер котмонавтов и заставку с событиями которая",
+    "scenes": [
+      2,
+      22
+    ],
+    "model": "Seedance 2.5",
+    "duration_seconds": 30,
+    "quantity_each": 1,
+    "scope": "Exactly these two paid website submissions. No auto retry, no other project/scenes, no purchase/top-up.",
+    "observed_quote_credits_each": 36,
+    "observed_total_credits": 72,
+    "balance_before": 102.37
+  }
 }
