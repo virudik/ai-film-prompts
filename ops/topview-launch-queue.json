@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T23:01:30.222Z",
+  "updated_at": "2026-10-29T23:19:42.843Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5315,7 +5315,7 @@
       "prompt_id": "S60-SEED20-P1",
       "canonical_block_label": "60 · Seedance 2.0 часть 1",
       "priority": 0.6,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
@@ -5379,7 +5379,80 @@
       "canonical_prompt_sha256": "a88619ce1653a7b5c86f64ec4d9198413f42fd660956fc7e754cd6192d07535b",
       "normalized_prompt_sha256": "43ef585e5218116da9477ace55f6348f35582ffc44edcffbed3178da90ab126e",
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-scheduled-event-evt_830164b3e7195808b79a49669a866988-s60p1",
+        "claimed_at": "2026-10-29T23:19:42.843Z",
+        "claimed_by": "chatgpt",
+        "source": "Agent Relay webhook",
+        "event_id": "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
+        "preflight": {
+          "checked_at": "2026-10-29T23:19:42.843Z",
+          "global_active_video": 5,
+          "full_scan": {
+            "checked_at": "2026-10-29T23:17:14.147Z",
+            "boards": 14,
+            "pages": 20,
+            "total": 944,
+            "errors": [],
+            "active": [
+              {
+                "task_id": "0de1f663432646d294f409a22e20a26e",
+                "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+                "status": "init",
+                "media_type": "video",
+                "unlimited": true
+              },
+              {
+                "task_id": "b0915b04173c414e9ac08652d34b7852",
+                "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+                "status": "init",
+                "media_type": "video",
+                "unlimited": true
+              },
+              {
+                "task_id": "c65c30d8cbe14e9eadec886276e62471",
+                "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+                "status": "init",
+                "media_type": "video",
+                "unlimited": true
+              },
+              {
+                "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+                "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+                "status": "init",
+                "media_type": "video",
+                "unlimited": true
+              },
+              {
+                "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+                "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+                "status": "init",
+                "media_type": "video",
+                "unlimited": true
+              }
+            ],
+            "source_results": [
+              {
+                "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+                "status": "success",
+                "completed_at": "2026-10-29 23:05:06",
+                "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+              },
+              {
+                "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+                "status": "success",
+                "completed_at": "2026-10-29 22:58:47",
+                "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+              }
+            ]
+          },
+          "canonical_prompt_sha256": "a88619ce1653a7b5c86f64ec4d9198413f42fd660956fc7e754cd6192d07535b",
+          "normalized_prompt_match": true,
+          "all_input_sha256_verified": true,
+          "website_unlimited": true,
+          "max_credits": 0
+        }
+      },
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
