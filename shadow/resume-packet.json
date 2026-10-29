@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T06:04:13+00:00",
-  "source_head": "5ef9f84692fdacc4b093a3f3d1aa72d20b7f634f",
-  "source_fingerprint": "e5fc9f1aa3308a03e1f105fdec5d33dfa3645bcc4e7f888650a7e7085ffcb45b",
+  "checked_at": "2026-10-29T06:05:11+00:00",
+  "source_head": "68bcb5e3a46a684109140c674ba38448a20b0995",
+  "source_fingerprint": "e6d4ce5a01fc0cd13ed2ef74b345fbb014b4fe58c6aa3aa4f002cfe24e92fedf",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -134,7 +134,15 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [],
+    "unresolved": [
+      {
+        "item_id": "S66-STITCH-NB-IMAGE-2",
+        "state": "claimed",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      }
+    ],
     "existing_task_count": 41,
     "existing_tasks": [
       {
@@ -304,13 +312,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S66-STITCH-NB-IMAGE-2",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S66-STITCH-NB-IMAGE-3",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -319,6 +320,13 @@
       },
       {
         "item_id": "S62-SEED20-P1",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S59-SEED20-P2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -380,8 +388,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "e48a974cfbe2aca540e6d1626fc954859d6b0382d6aa37b8ca699a5a63d3e6c8",
-      "bytes": 399765
+      "sha256": "93ee7e81b1e26e4807c0bf4271b5f2309811d5869991d3e72554e26f7031b8da",
+      "bytes": 400003
     },
     {
       "file": "project-status.json",
@@ -420,9 +428,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "96c9d96a48bd209fed1c52a1a8b3ec2c62fe24229d583f77a53a223f44b99485",
-      "bytes": 78457
+      "sha256": "1543f858bbffca57972a8496d31bcab6198595bcda1e3164aa9e43b05cf7e9cd",
+      "bytes": 78008
     }
   ],
-  "packet_bytes": 6232
+  "packet_bytes": 6288
 }
