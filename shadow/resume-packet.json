@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T22:59:10+00:00",
-  "source_head": "aaa95f7bcb3fc6c3d4e8b3e9372ae3a19c82e8a3",
-  "source_fingerprint": "29413908b3e468cabc9fa7859e68ad19e2cad2355c928d88e3374c9ceb1d81a4",
+  "checked_at": "2026-10-29T23:02:12+00:00",
+  "source_head": "982d1ac950b1c4d883dd71d79b2e2c2b1e1114f9",
+  "source_fingerprint": "20a098543b56aea27bdd43a59c2e92f7ce885e80d22d51325eedb7a3d35956dc",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -396,12 +396,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "26fe1a7cafe381b0ae26e3cf41d966c21752f70ead9f97d52d4dc9c65ca4a8a7",
-      "bytes": 399393
+      "sha256": "ff648b8315325bfbe36f8a3f5495b4e9da1b1bd4ee92903abdac1dac62e1e0f7",
+      "bytes": 400261
     },
     {
       "file": "project-status.json",
-      "sha256": "c50fdb6d3e93af5b353a17d17e0cdd9f46eb45ea49b75ddc9c03d2ca0a4cce57",
+      "sha256": "68af001eb221315471fdd27abd8aaf5d43a611e639d0006d3ee8f6e728e7206e",
       "bytes": 21306
     },
     {
