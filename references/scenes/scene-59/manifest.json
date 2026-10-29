@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 59,
-  "updated_at": "2026-10-23T21:26:54.103042Z",
+  "updated_at": "2026-10-29T08:04:04.195749+00:00",
   "status": "owner_P1_available_three_part_continuation_prepared",
   "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
   "references": [
@@ -243,7 +243,20 @@
         "canonical_role": "People-free forest canopy and warm daylight",
         "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
         "required": true,
-        "input_status": "available"
+        "input_status": "available",
+        "upload_derivative": {
+          "path": "references/scenes/scene-59/S59-mushroom-forest-canopy-upload.png",
+          "sha256": "c2cb234bf6cda713dfbbd413dc5977cc8a9864f6ca90c3f9ab6723fff83dcecf",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "source_path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+          "source_sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+          "method": "Non-generative ffmpeg pad=1280:720:0:240:color=0x808080. Original full1280x240 forest crop preserved without scaling/cropping; neutral grey transport padding only. No AI redraw. Padding is not part of the scene.",
+          "reason": "Topview UI rejected height240 below minimum300 and aspect5.33 above maximum2.50.",
+          "checked_at": "2026-10-29T08:04:04.195749+00:00"
+        }
       },
       {
         "slot": "@Image3",
@@ -459,6 +472,21 @@
         "git_present": true
       },
       "active_use": false
+    }
+  ],
+  "upload_derivatives": [
+    {
+      "path": "references/scenes/scene-59/S59-mushroom-forest-canopy-upload.png",
+      "sha256": "c2cb234bf6cda713dfbbd413dc5977cc8a9864f6ca90c3f9ab6723fff83dcecf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "source_path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+      "source_sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+      "method": "Non-generative ffmpeg pad=1280:720:0:240:color=0x808080. Original full1280x240 forest crop preserved without scaling/cropping; neutral grey transport padding only. No AI redraw. Padding is not part of the scene.",
+      "reason": "Topview UI rejected height240 below minimum300 and aspect5.33 above maximum2.50.",
+      "checked_at": "2026-10-29T08:04:04.195749+00:00"
     }
   ]
 }
