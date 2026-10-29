@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T23:22:31.873Z",
+  "updated_at": "2026-10-29T23:30:47.870Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
     "max_credits_per_task": 0,
     "max_concurrent_account_tasks": 6,
-    "scope": "One next production attempt per listed scene/selected part; no automatic retry, no automatic editorial approval. Current instruction supersedes earlier single-B6-only limit.",
+    "scope": "Selected Seregius production attempts; confirmed technical failures may receive up to two additional free attempts per item under ops/TOPVIEW-RETRY.md (owner30Oct2026). No duplicate active/unknown submissions, owner-cancelled items, editorial rerenders or automatic approval.",
     "latest_owner_update": {
       "authorized_at": "2026-10-17T19:52:55Z",
       "source": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images."
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "LATEST29Oct2026 owner: S62-SEED20-P1 is the next video submission (priority -0.5), exactly one new explicitly authorized free attempt; see item owner_retry_authorization and history. This overrides earlier S62 no-retry hold for this one attempt only. LATEST28Oct2026 owner:52P7→66→67→68→69→70→65 Wan3.0/30s;52P1–P6 stay Seedance2.0. Before49→50→51→28; ready-skip unchanged. LATEST27Oct2026 20:25Z owner: scenes68→69 (ГБУ Жилищник) at0.94/0.95 right after67; chain52P7→66→67→68→69 seamless and in order. LATEST27Oct2026 owner: new scenes 64→65→66→67 at priorities0.90–0.93, after63 and before49/50/51 and dances28; chain52P7→66→67 seamless (real last3s of previous link as @Video1). Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "Owner30Oct2026: fill confirmed free global slots with selected Seregius videos by live item priority; skip true blockers/dependencies without reserving slots. Confirmed technical failure: up to2 additional attempts per item with one durable shared budget, then next independent ready item in same cycle, per ops/TOPVIEW-RETRY.md. Never duplicate active/unknown/successful tasks or revive owner-cancelled/held/superseded items; Roscosmos paused. Exact current item model/prompt/refs/QC, own lock+CAS claim, website Unlimited0 and verified receipt required. Historical selection text preserved verbatim in archive/ops/topview-launch-queue-archive.json -> metadata_history.selection_policy_before_20261030_retry; live priorities/dependencies unchanged.",
   "items": [
     {
       "id": "S66-STITCH-NB-IMAGE-1",
@@ -7721,23 +7721,9 @@
     "history_only": true
   },
   "owner_instruction_20261020_0055": {
-    "source": "Доведи промты до нужного активного результата",
-    "scope": "Current38 prompts in scenes28,49,50,51, both existing alternatives. Editing authorization only; no batch launch, model change or priority override.",
-    "updated_pending_items": [
-      "S49A",
-      "S49B",
-      "S49C",
-      "S49D",
-      "S49E",
-      "S49F",
-      "S51A",
-      "S51B",
-      "S28-A1-TEST-20261017",
-      "S50A",
-      "S50B"
-    ],
-    "review_gate": "Existing ONE15s A1 test after story; owner review before any further dance/music submissions. A11/A12/B11 remain outside queue.",
-    "report": "reports/dance-music-energy-2026-10-20.md"
+    "archived_to": "archive/ops/topview-launch-queue-archive.json",
+    "archive_key": "metadata_history.owner_instruction_20261020_0055",
+    "history_only": true
   },
   "owner_site_actions": [
     {
@@ -7771,25 +7757,9 @@
     "technical_success_is_editorial_approval": false
   },
   "owner_instruction_20261020_0229": {
-    "source": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
-    "recorded_at": "2026-10-19T23:43:06Z",
-    "decisions": [
-      "New Scene 57: battle-damaged RosKOTmos ship crash-lands on the Sith planet, knocks down ancient columns and statues; maximally comic but realistic.",
-      "New Scene 58: the cats run out of the downed, burning, falling-apart ship.",
-      "Ship design = the first generated ship reference references/scenes/scene-45/S45-roskotmos-ship-first-option.png.",
-      "Default placement chosen by Claude: 46 → 57 → 58 → 40 → 26 (film-order.json); owner may change."
-    ],
-    "selected_items": [
-      "S57-AVENUE-IMAGE",
-      "S58-WRECK-IMAGE",
-      "S57-SEED20-P1",
-      "S57-SEED20-P2",
-      "S58-SEED20-P1",
-      "S58-SEED20-P2"
-    ],
-    "default_engine": "Seedance 2.0 two 15 s parts (action); 30 s Wan 3.0 / Seedance 2.5 text exists as the other tab, not queued.",
-    "no_launch_performed": true,
-    "technical_success_is_editorial_approval": false
+    "archived_to": "archive/ops/topview-launch-queue-archive.json",
+    "archive_key": "metadata_history.owner_instruction_20261020_0229",
+    "history_only": true
   },
   "owner_instruction_20261020_0312": {
     "instruction": "Create free S57 avenue then S58 wreck from exact queued prompts; save/QC inputs; video57/58 before dance.",
@@ -7838,44 +7808,9 @@
     "report": "reports/scene58-action-references-2026-10-20.json"
   },
   "owner_instruction_20261020_1937": {
-    "source": "Владелец 20.10.2026 19:37:46 МСК: «После всех сцен с червём поставь 57 и 58 в очередь. Они готовы полностью?»",
-    "project": "seregius",
-    "scene_order": [
-      16,
-      42,
-      56,
-      48,
-      57,
-      58
-    ],
-    "worm_items_before_57_58": [
-      "S16-SEED20-P1",
-      "S16-SEED20-P2",
-      "S42-SEED20-P1",
-      "S42-SEED20-P2",
-      "S56-SEED20-P1",
-      "S56-SEED20-P2",
-      "S48-SEED20-P1",
-      "S48-SEED20-P2"
-    ],
-    "selected_items": [
-      "S57-SEED20-P1",
-      "S57-SEED20-P2",
-      "S58-SEED20-P1",
-      "S58-SEED20-P2"
-    ],
-    "ordering_basis": "All selected worm parts must be submitted before57/58, preserving true continuity dependencies. This does not require finished48 as a video input or editorial acceptance.",
-    "readiness": {
-      "prompt_hashes_verified": 4,
-      "unique_saved_image_paths_present": 10,
-      "queue_manifest_image_sha_agreement": true,
-      "first_parts_images_ready": true,
-      "second_parts_require_actual_own_first_part_end": true
-    },
-    "unchanged_relative_order_adjustment": "S37-SEED20-P2 priority4.1→4.5 so 57/58 sit immediately after48; all other non-worm items retain priority and relative order.",
-    "verified_at": "2026-10-20T16:41:48.448Z",
-    "new_submissions": 0,
-    "ordering_hold_superseded_by": "owner_instruction_20261023_ready_skip"
+    "archived_to": "archive/ops/topview-launch-queue-archive.json",
+    "archive_key": "metadata_history.owner_instruction_20261020_1937",
+    "history_only": true
   },
   "owner_instruction_20261022": {
     "project": "seregius",
@@ -8698,5 +8633,23 @@
     "item_id": "S62-SEED20-P1",
     "one_additional_free_attempt": true,
     "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json"
+  },
+  "retry_policy": {
+    "policy_id": "owner-20261030-technical-retry",
+    "source": "Direct owner instruction in current open ChatGPT Work",
+    "recorded_at": "2026-10-29T23:30:47.870Z",
+    "rules": "ops/TOPVIEW-RETRY.md",
+    "max_retry_attempts_per_item": 2,
+    "retry_delay_seconds": 60,
+    "counter": "items[].retry_control.retry_attempts_used",
+    "counter_shared_by": [
+      "open_work",
+      "hourly",
+      "relay"
+    ],
+    "reset_on_wake": false,
+    "on_exhausted": "record blocker; continue next independent ready item in the same cycle",
+    "unknown_submit": "reconcile only; never retry on timeout/absence alone",
+    "scope": "current selected Seregius videos, website Unlimited0 only"
   }
 }
