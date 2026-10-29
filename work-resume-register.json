@@ -66,10 +66,11 @@
             "19cf6e3a67689999b9ad27d7be401ac589b65df7",
             "4d004e10bf865a39a942eb497fdff6b372cdd947"
           ],
-          "queue_bytes": 391127,
+          "queue_bytes": 388557,
           "canon_health": "ok",
           "canon_warnings": 0,
-          "canon_health_commit": "51abb49b35f181cf0a72d40cf0e5106abef8bb75"
+          "canon_health_commit": "51abb49b35f181cf0a72d40cf0e5106abef8bb75",
+          "queue_bytes_readback_at": "2026-10-29T07:08:30Z"
         },
         "result": "Fixed and verified by a fresh canon-health publication. No failed-run rerun; Gmail state unchanged."
       },
