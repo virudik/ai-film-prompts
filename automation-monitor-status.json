@@ -101,10 +101,10 @@
     ],
     "robot_rewake": {
       "episode": "df305d35",
-      "count": 0,
-      "last_at": "2026-10-29T05:50:25Z",
-      "last_event_id": "result:8a8eadc809004e318c47201b8a463be0",
-      "silence_reported": "slots:6bc77dbe:1"
+      "count": 1,
+      "last_at": "2026-10-29T06:10:46Z",
+      "last_event_id": "slots:df305d35:1",
+      "silence_reported": "result:8a8eadc809004e318c47201b8a463be0"
     }
   },
   "phases": {
