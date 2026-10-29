@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "scene_id": 28,
+  "item_id": "S28-A2-20261023",
+  "task_id": "8a8eadc809004e318c47201b8a463be0",
+  "reviewed_at": "2026-10-29T06:35:00Z",
+  "source": {
+    "download_method": "Topview original result download",
+    "sha256": "855a727c897cc2d77bf0b3dea98bf05ee25a637b75b9d2e674a4ccda3681ca69",
+    "duration_seconds": 15.104,
+    "video": "H.264 1280x720 24fps",
+    "audio": "AAC stream present; not listened",
+    "provenance_note": "Exact original was downloaded and probed in the working run; no binary derivative is committed to public canon."
+  },
+  "submission": {
+    "board_name": "My First Board",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "unlimited": true,
+    "credits": 0,
+    "canonical_prompt_sha256_at_submit": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+    "normalized_prompt_sha256_at_submit": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+    "input_count": 4
+  },
+  "review_scope": {
+    "full_source": "visual sampling at 2 fps across all 15.104 seconds",
+    "selected_keyframes": "full-resolution critical and final frames inspected",
+    "audio_listened": false,
+    "continuous_full_frame_rate_view": false,
+    "honesty_note": "Sampled visual review without sound; not continuous real-time playback and not frame-by-frame QA."
+  },
+  "technical_assessment": {
+    "result": "critical_defect_not_owner_approved",
+    "owner_approved": false,
+    "editorial_completion": false,
+    "automatic_retry": false,
+    "critical_dependency_defect": true
+  },
+  "dance_findings": {
+    "energy_and_amplitude": "Movement is dominated by small repetitive arm and knee pulses; the requested energetic partner phrase and broad amplitude are not sustained.",
+    "faces_and_costumes": "Identities and costumes remain broadly stable outside the critical occlusion.",
+    "anatomy_feet_weight": "No gross extra-limb failure was established at the sampled cadence, but weight transfer and leg articulation are too weak for the requested choreography.",
+    "partner_contact_support": "Around 1.5–2.0s Serega's palm covers Yulia's eyes, nose and much of her face. This is an invalid partner-contact beat and a critical face/hand defect.",
+    "choreography": "The intended energetic sequence is not delivered; the motion reads as repetitive low-amplitude pulsing rather than the specified dance phrase.",
+    "camera": "Camera remains sufficiently stable to judge the action; the critical defect is performer interaction, not camera loss.",
+    "sound": "Not listened; no claim is made about generated speech, singing, music or silence."
+  },
+  "usable_intervals": [
+    {
+      "start_seconds": 2.2,
+      "end_seconds": 15.104,
+      "note": "Faces and costumes are generally stable, but dance energy remains below the prompt; interval is not accepted as a complete dance result."
+    }
+  ],
+  "defects": [
+    {
+      "severity": "critical_face_hand_occlusion",
+      "time_range_seconds": [
+        1.5,
+        2
+      ],
+      "finding": "Serega's palm covers Yulia's eyes, nose and face, violating the intended partner contact and usable-face requirement."
+    },
+    {
+      "severity": "material_choreography_energy_failure",
+      "time_range_seconds": [
+        0,
+        15.104
+      ],
+      "finding": "Small repetitive arm/knee pulses replace the requested energetic, high-amplitude partner choreography."
+    }
+  ],
+  "queue_effect": {
+    "action": "Block further dependent Scene 28 continuation inputs that require this result.",
+    "independent_items": "Scenes 49–51 remain independent and are not blocked by this QC.",
+    "retry": "No automatic repeat or additional variant is authorized.",
+    "owner_approval": "Not inferred from provider success."
+  }
+}
