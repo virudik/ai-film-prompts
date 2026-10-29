@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T18:33:47+00:00",
-  "source_head": "71d84aa094d8a6bb7914af251410c934988e94cb",
-  "source_fingerprint": "7502b94f3d570da86c6cd77d106ddb4673dd68648ac241591a5d2be4d5c8386a",
+  "checked_at": "2026-10-29T19:00:29+00:00",
+  "source_head": "0be3f60a99a3355a3e1eeb3dd4e1b8d8014c2b30",
+  "source_fingerprint": "284b587911fbf3f4d0e015aa180b512c5f8f8f6ae4110ee879ca626d34ef487e",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -134,7 +134,15 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [],
+    "unresolved": [
+      {
+        "item_id": "S62-SEED20-P1",
+        "state": "claimed",
+        "task_id": null,
+        "recovery_action": "reconcile_without_resubmitting",
+        "submit_authorized": false
+      }
+    ],
     "existing_task_count": 44,
     "existing_tasks": [
       {
@@ -392,8 +400,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "3b6514c991ca5d54c205f1c2b4724baa769d8fe4689414d9d595f28e8f741c0b",
-      "bytes": 395998
+      "sha256": "1823b95b16870b3ac7abd736933fb5b819d95b5c9d0d575e359ea4d4842a4a07",
+      "bytes": 398243
     },
     {
       "file": "project-status.json",
@@ -431,5 +439,5 @@
       "bytes": 77741
     }
   ],
-  "packet_bytes": 3864
+  "packet_bytes": 3912
 }
