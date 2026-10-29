@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T08:41:44.413Z",
+  "updated_at": "2026-10-29T18:13:00Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5601,8 +5601,8 @@
       "prompt_id": "S62-SEED20-P1",
       "canonical_block_label": "62 · Seedance 2.0 часть 1",
       "priority": -0.5,
-      "state": "waiting_for_slot",
-      "launch_readiness": "authorized_inputs_available",
+      "state": "blocked_browser",
+      "launch_readiness": "blocked_browser_import",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5684,7 +5684,18 @@
       "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry. Owner29Oct2026 current Work chat: «Тогда следующей попробуем 62». Exactly one new free website attempt of P1 is explicitly authorized after the recorded unknown attempt; first next video slot. Preserve the unknown history; this is not proof of non-submission and not permission for further retries.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": null,
+      "blocker": {
+        "code": "browser_file_transfer_unavailable",
+        "observed_at": "2026-10-29T18:13:00Z",
+        "scope": "current cloud/cdp browser environment",
+        "evidence": [
+          "Fresh complete Topview scan: 14 boards, 17 pages, 941 tasks; five active video tasks, one free video slot; no exact normalized S62 match.",
+          "Authorized My First Board and board_id 1a6244cf1ae747ef847d949a80d6133c verified in open UI; Seedance2.0, 15s, 16:9, 720p, quantity1, Unlimited free mode verified.",
+          "Documented visible file chooser accepted the seven exact local paths, but Topview rejected a valid JPEG as unreadable dimensions and the exact valid 3.0s MP4 as shorter than 2s; a /tmp copy produced no imported input.",
+          "Browser-local transfer fallback through the connected Library download also failed in the cloud browser."
+        ],
+        "safety": "No Create click; no CAS claim; owner retry allowance not consumed."
+      },
       "last_reconciliation_at": "2026-10-29T08:38:26.439Z",
       "recovery_next_action": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown.",
       "submission_history": [
@@ -5720,7 +5731,8 @@
         "previous_priority": 0.45,
         "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
         "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
-      }
+      },
+      "updated_at": "2026-10-29T18:13:00Z"
     },
     {
       "id": "S62-SEED20-P2",
