@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-29T09:15:45+00:00",
-  "source_head": "f487199ddbc18c52c3dab553dd16cd7bc7063a96",
-  "source_fingerprint": "075e040f94e5ff1b9ccde6b3d9beda0c7da85a8c78b31fdf75733dbfc35749fa",
+  "checked_at": "2026-10-29T09:16:48+00:00",
+  "source_head": "337908247cf009e664f3383e137147f4942e8682",
+  "source_fingerprint": "970033d7355841f470860b26e7d73da793cbed04e85eb004782f21dcc56beced",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -144,20 +144,16 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "KM22-SEED25-30-20261029",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 1,
+    "unresolved": [],
+    "existing_task_count": 2,
     "existing_tasks": [
       {
         "item_id": "KM02-SEED25-30-20261029",
         "task_id": "d92ed461dca14e83a429f3c5d8407a8e"
+      },
+      {
+        "item_id": "KM22-SEED25-30-20261029",
+        "task_id": "fde415b07e2049a696b94699219268fc"
       }
     ],
     "next_candidates": [],
@@ -236,8 +232,8 @@
     },
     {
       "file": "projects/kotmonavty/ops/topview-launch-queue.json",
-      "sha256": "4710d6b17b917d4a45a2be519865cd26dcf0a50548e0aa2b506dd05246150821",
-      "bytes": 12740
+      "sha256": "351b073b80f4ccf2ac8494ed5c67ea0409502c7c99e9817d0b63ca56d5db7d6f",
+      "bytes": 12953
     },
     {
       "file": "projects/kotmonavty/project-status.json",
@@ -285,5 +281,5 @@
       "bytes": 1124881
     }
   ],
-  "packet_bytes": 5331
+  "packet_bytes": 5273
 }
