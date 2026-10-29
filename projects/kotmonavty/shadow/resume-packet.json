@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-29T09:05:24+00:00",
-  "source_head": "8b6001c39f19bd549041be9d697ee57daea82e64",
-  "source_fingerprint": "99f0f8e2dd51fb99357bb28f2d7acdfab70308969e31524a664d5ce5f41924ce",
+  "checked_at": "2026-10-29T09:08:54+00:00",
+  "source_head": "98ccadc7e1e3b393416c9f8de0b9438de7f2dd58",
+  "source_fingerprint": "ab06568c76ef4bd55ae6f3cb117393ae17fea053f413392e4453684b6b5c3994",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -144,17 +144,14 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
+    "unresolved": [],
+    "existing_task_count": 1,
+    "existing_tasks": [
       {
         "item_id": "KM02-SEED25-30-20261029",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
+        "task_id": "d92ed461dca14e83a429f3c5d8407a8e"
       }
     ],
-    "existing_task_count": 0,
-    "existing_tasks": [],
     "next_candidates": [],
     "rule": "Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry."
   },
@@ -231,8 +228,8 @@
     },
     {
       "file": "projects/kotmonavty/ops/topview-launch-queue.json",
-      "sha256": "feb248c494681601e18bd0c461259c9f1f82ccaa59b9297e259d24f31ab6f83d",
-      "bytes": 12133
+      "sha256": "d3bc6c48e9f9c1980286122499680674bc128276ed5f88918bcc042d65c16ca8",
+      "bytes": 12550
     },
     {
       "file": "projects/kotmonavty/project-status.json",
@@ -280,5 +277,5 @@
       "bytes": 1124881
     }
   ],
-  "packet_bytes": 5331
+  "packet_bytes": 5273
 }
