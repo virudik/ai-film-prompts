@@ -3,57 +3,18 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-29T22:42:09+00:00",
-  "source_head": "c0bea8a03dedda6a57ad0285997ed564d410ac16",
-  "source_fingerprint": "3745a69163360c7bd6285419fb87631f405d1004f916993e66e07a3c5f0d2e98",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-29T22:42:50+00:00",
+  "source_head": "04c70df6d7c85464ba056c48749af51c9b64a514",
+  "source_fingerprint": "6d3c43f216c1250e8247c9705fff8e60a71ee5ff3ddabdfcb1d934c291137dc1",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "KM-WAIT-REVIEW-2-22",
-    "title": "Котмонавты — два готовых ролика ждут оценки",
-    "status": "waiting_for_owner",
-    "last_completed": "Оба разрешённых платных ролика Seedance 2.5 завершены success: сцены 2 и 22, 30 с, 1280×720, по 36 кредитов; параметры, полный промпт и ID сверены с квитанциями. Учёт согласован, художественная приёмка не выставлена.",
-    "next_action": "Показать владельцу уже готовые трейлер (2) и событийную заставку (22); получить оценку. Новых запусков или повторов без отдельного решения не делать.",
-    "verified_at": "2026-10-29T22:30:59Z",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
-        "sha256": "b5a973237b1d762ccf286f40638c6b0a7e5d221ca4134ca1e3e335164908db39"
-      },
-      {
-        "file": "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json",
-        "sha256": "371e58a73fae25231f58f553a3ed7195119b35c993bb9203c33c55837a148281"
-      },
-      {
-        "file": "projects/kotmonavty/ops/topview-launch-queue.json",
-        "sha256": "424156ff633efcaf5d9dda670f7bf18f751876e8ef658345c57fd5caf8765388"
-      },
-      {
-        "file": "projects/kotmonavty/HANDOFF.md",
-        "sha256": "90449275090889970730e6991cf82304115b6f84c4e67cf4d0252a4c6e47373f"
-      },
-      {
-        "file": "projects/kotmonavty/INSTRUCTIONS.md",
-        "sha256": "e8fbd3cec9d338444cb74e28a1ac6967963da946c10d5eb3729e0c1ccada3d4f"
-      }
-    ],
-    "read_next": [
-      "projects/kotmonavty/HANDOFF.md",
-      "projects/kotmonavty/INSTRUCTIONS.md",
-      "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
-      "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json"
-    ],
-    "checkpoint": {
-      "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
-      "anchor": "# Котмонавты — результаты получены, ждут просмотра · 30.10.2026",
-      "sha256": "b2fa9f8c8527dbd65970bdfc5e05afa97848d3858fba73ad7f29fc5b80771c4f"
-    }
-  },
-  "checkpoint_text": "# Котмонавты — результаты получены, ждут просмотра · 30.10.2026\n\nwork_id: KM-WAIT-REVIEW-2-22\nПроверено: 2026-10-29T22:30:59Z\nРазрешение владельца 29.10: два платных ролика Seedance 2.5 по 30 с на доске Котмонавты. Команда продолжения 30.10: «Продолжи этот чат».\n\n- Трейлер, сцена 2: d92ed461dca14e83a429f3c5d8407a8e. Отправлен 29.10 12:07:16 МСК, готов 12:22:09 МСК (14 мин 53 с). Ресурс 2b8790452a3542c2ab1774ccc62b47f6.\n- Событийная заставка, сцена 22: fde415b07e2049a696b94699219268fc. Отправлена 29.10 12:15:39 МСК, готова 12:39:55 МСК (24 мин 16 с). Ресурс 223e55610e0c4069ad64460350fb9bf9.\n- Оба success, 30 с, 1280×720, 16:9; 36+36=72 кредита, текущий баланс 30,37. Девять входов каждого совпали с квитанциями; полные промпты совпали с каноном. Все 66 блоков промптов сохранены побайтно; референсы не редактировались.\n- Квитанции: projects/kotmonavty/reports/KM02-SEED25-30-20261029.json и KM22-SEED25-30-20261029.json. Запуски опубликованы коммитами 98ccadc7e1e3b393416c9f8de0b9438de7f2dd58 и 337908247cf009e664f3383e137147f4942e8682.\n- Живой owner_decisions: нет решений по проекту/этим task ID; проектный review-ledger пуст. Других открытых входящих Котмонавтов нет. Это продолжение того же чата, не новый приём смены; новая квитанция приёма не создавалась.\n- Синхронизированы master, scene manifests, очередь, инструкции и HANDOFF. Платное разрешение исчерпано; оба task ID остаются защитой от дублей. Технический успех не означает приёмку.\n\nПроверки перед публикацией: projects.py status — health=ok, 22 сцены / 66 промптов; build_resume_packet — ready; continue_preflight — ready_for_resume=true, execution_authorized=false.\n\nСледующий шаг: Показать владельцу уже готовые трейлер (2) и событийную заставку (22); получить оценку. Новых запусков или повторов без отдельного решения не делать.\nОстаётся: художественная оценка видео и звука; выбор дальнейшей работы владельцем. MP4 находятся на исходной доске Topview; в репозиторий не копировались. Роскосмос и остальные проекты не затронуты.\n",
+  "reasons": [
+    "selected work has no verified recovery record"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -146,12 +107,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/kotmonavty/HANDOFF.md",
-    "projects/kotmonavty/INSTRUCTIONS.md",
-    "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
-    "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -246,8 +202,8 @@
     },
     {
       "file": "projects/kotmonavty/ops/topview-launch-queue.json",
-      "sha256": "424156ff633efcaf5d9dda670f7bf18f751876e8ef658345c57fd5caf8765388",
-      "bytes": 13596
+      "sha256": "236e9f0ab2a5c3cdee65f0daac1682d0534cf5a142445672ac5bbb427dfdfb97",
+      "bytes": 19103
     },
     {
       "file": "projects/kotmonavty/project-status.json",
@@ -255,19 +211,9 @@
       "bytes": 17073
     },
     {
-      "file": "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
-      "sha256": "b5a973237b1d762ccf286f40638c6b0a7e5d221ca4134ca1e3e335164908db39",
-      "bytes": 7873
-    },
-    {
-      "file": "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json",
-      "sha256": "371e58a73fae25231f58f553a3ed7195119b35c993bb9203c33c55837a148281",
-      "bytes": 7845
-    },
-    {
       "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
-      "sha256": "955deec02c3c78445f8afb1d02a298d94ae783e7365cca883dd32ed14a73ec76",
-      "bytes": 7758
+      "sha256": "77104a30931685faf25cda5b5e66863f0c2b9a16c3e9711c991c4b03964977bf",
+      "bytes": 9254
     },
     {
       "file": "projects/kotmonavty/reports/handoff-receipts.json",
@@ -281,8 +227,8 @@
     },
     {
       "file": "projects/kotmonavty/work-resume-register.json",
-      "sha256": "5c3e2908fe9352b0367e828cfdad01b4f8c9c225e707fb8f8f7de2a940b2b9a0",
-      "bytes": 14813
+      "sha256": "27ff48abc9841111ac5343d67db4e3961184b685a6d9295230e1dab98686f5ce",
+      "bytes": 15898
     },
     {
       "file": "projects/projects.json",
@@ -305,5 +251,5 @@
       "bytes": 1125949
     }
   ],
-  "packet_bytes": 7768
+  "packet_bytes": 3865
 }
