@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T19:00:29+00:00",
-  "source_head": "0be3f60a99a3355a3e1eeb3dd4e1b8d8014c2b30",
-  "source_fingerprint": "284b587911fbf3f4d0e015aa180b512c5f8f8f6ae4110ee879ca626d34ef487e",
+  "checked_at": "2026-10-29T19:03:40+00:00",
+  "source_head": "13c961f95c48088afd74aaf50de92abfd1873109",
+  "source_fingerprint": "4b22db56c970eacd29cf43fe73903af44d30c47e6dada26332763d5198d657ce",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -134,16 +134,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S62-SEED20-P1",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 44,
+    "unresolved": [],
+    "existing_task_count": 45,
     "existing_tasks": [
       {
         "item_id": "S66-STITCH-NB-IMAGE-1",
@@ -228,6 +220,10 @@
       {
         "item_id": "S59-SEED20-P2",
         "task_id": "b0915b04173c414e9ac08652d34b7852"
+      },
+      {
+        "item_id": "S62-SEED20-P1",
+        "task_id": "0de1f663432646d294f409a22e20a26e"
       },
       {
         "item_id": "S52-R2-SEED20-P1",
@@ -400,12 +396,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "1823b95b16870b3ac7abd736933fb5b819d95b5c9d0d575e359ea4d4842a4a07",
-      "bytes": 398243
+      "sha256": "26fe1a7cafe381b0ae26e3cf41d966c21752f70ead9f97d52d4dc9c65ca4a8a7",
+      "bytes": 399393
     },
     {
       "file": "project-status.json",
-      "sha256": "fffeba97152c6923332e892385f117173a5c342ca0b6fa16f8a1466bd38573a8",
+      "sha256": "ca6aaf1c954b2c11b3b3daf8534d6c1c8fb38c9f59aff75c6ad2b1befa4e4744",
       "bytes": 21277
     },
     {
@@ -439,5 +435,5 @@
       "bytes": 77741
     }
   ],
-  "packet_bytes": 3912
+  "packet_bytes": 3864
 }
