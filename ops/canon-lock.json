@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Owner29Oct: stop failed Stitch trials, unblock independent video queue, launch next ready item",
-  "acquired_at": "2026-10-29T07:35:07.805Z",
-  "expires_at": null,
-  "released_at": "2026-10-29T08:14:01.416040+00:00",
+  "task": "Owner29Oct: authorize one next S62 attempt and clarify Tatooine queue",
+  "acquired_at": "2026-10-29T08:39:51.608Z",
+  "expires_at": "2026-10-29T09:09:51.608Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
