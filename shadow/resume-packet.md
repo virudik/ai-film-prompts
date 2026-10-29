@@ -2,12 +2,12 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-10-29T18:03:51+00:00
-Задача: SEREGIUS-PLAN-20261023 — Завершить Серёгиус по сохранённому плану, оценить готовые ролики
+Состояние: needs_recovery
+Проверено: 2026-10-29T18:13:51+00:00
+Задача: не определена — 
 
-Последний подтверждённый этап: Owner authorized exactly one new S62-P1 attempt first at the next free slot; old unknown claim preserved in history. Full scan:6/6 active; no new submission.
-Следующий шаг: First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.
+Последний подтверждённый этап: нет доказательств
+Следующий шаг: восстановить конкретный пробел
 
 ## Контрольная точка
 
@@ -46,8 +46,6 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
 ## Прочитать под задачу
 
-- `ops/topview-launch-queue.json`
-- `ops/TOPVIEW-FREE-LAUNCH.md`
 
 ## Перед действием
 
@@ -62,4 +60,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- recovery evidence changed: ops/topview-launch-queue.json

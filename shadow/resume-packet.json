@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T18:03:51+00:00",
-  "source_head": "991748aa5739952340a2fe5d1083417c0ec72d43",
-  "source_fingerprint": "d21b42b1d0363f02c2bc5ec29efd8b614198c2ca91cdb912ae7774d414b99657",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-29T18:13:51+00:00",
+  "source_head": "cfdab2ce130ea1deca2a3d83a668c7acf76e607d",
+  "source_fingerprint": "a03c6b63b202ebfc82c80635930bc73872628b300c9411003197eae73f13a8f0",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,39 +30,10 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "SEREGIUS-PLAN-20261023",
-    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-    "status": "waiting_video_results_and_capacity",
-    "last_completed": "Owner authorized exactly one new S62-P1 attempt first at the next free slot; old unknown claim preserved in history. Full scan:6/6 active; no new submission.",
-    "next_action": "First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.",
-    "verified_at": "2026-10-29T08:42:27+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "ops/topview-launch-queue.json",
-        "sha256": "30f0bb61d4b3f98ef30e7df15aa262c164bc70c4be2fd62731e337bae73c23e7"
-      },
-      {
-        "file": "ops/TOPVIEW-FREE-LAUNCH.md",
-        "sha256": "c3915df6ae4a77f0924346bda2bf749c026a634b118d068784e0bdd876fb6e0e"
-      },
-      {
-        "file": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
-        "sha256": "c854312fca4cd736c4c4b030cfc8a52c36014ccf441c5abe613a32fa6af56280"
-      }
-    ],
-    "read_next": [
-      "ops/topview-launch-queue.json",
-      "ops/TOPVIEW-FREE-LAUNCH.md"
-    ],
-    "checkpoint": {
-      "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026",
-      "sha256": "fd410c4f5ece90a46cf845489f15afc68ab91593a2ab0e07234cd089646e36bf"
-    }
-  },
+  "reasons": [
+    "recovery evidence changed: ops/topview-launch-queue.json"
+  ],
+  "selected_work": null,
   "checkpoint_text": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nЗаписано: 2026-10-29T08:41:44.413Z. Владелец: «Тогда следующей попробуем 62». Для S62-SEED20-P1 разрешена ровно одна новая бесплатная попытка, первой при следующем свободном видеослоте (priority -0.5). Это явное новое разрешение после неизвестного исхода; не утверждение, что первая попытка не была отправлена. Прежние claim и receipt сохранены в submission_history, активный claim снят по этому решению. При свежем обнаружении настоящей задачи62 принять её вместо дубля. Иначе новый CAS-claim и расход единственного allowance ДО Create; следующий таймаут или fail не разрешает ещё попытку.\n\nСкан 2026-10-29T08:38:26.439Z: 13 досок, 19 страниц, 943 задачи, 6 активных видео, свободных слотов0; после старой попытки62 найдены только две известные отправки59. В этом изменении Create/новых видео0.\n\nТатуинская связка: 52ч7→66→67→68→69→70→65. Перед её началом ещё пять новых частей52 (2–6), часть1 уже в очереди сервиса. До66 нужен также результат52ч7. По живым priorities перед66 стоят18 ещё неотправленных частей из9 сцен (52,56,48,62,59,60,61,63,64); это не18 обязательных ожиданий: независимые ветки идут по готовности. 63→64 расположены перед66, музыкальные49–51 и танцы после связки.\n\nСледующее действие: First next video slot: S62-SEED20-P1, one newly owner-authorized Unlimited0 attempt. Fresh main/owner decisions/lock/full account scan; if actual S62 task is found adopt it and do not duplicate. Unknown old claim preserved in submission_history; it is not an active lock for the new allowance. Before Create persist a new CAS claim and consume allowance; any new timeout/failed attempt gets no automatic repeat. Other items keep ready-skip. Stitch trials closed; Roscosmos paused.\n\nКвитанция: reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json. Эта запись заменяет прежний запрет новой попытки62 и указание «следующая60»; остальные ограничения сохранены.\n",
   "invariants": [
     {
@@ -156,10 +127,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "ops/topview-launch-queue.json",
-    "ops/TOPVIEW-FREE-LAUNCH.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -348,13 +316,6 @@
     ],
     "next_candidates": [
       {
-        "item_id": "S62-SEED20-P1",
-        "state": "waiting_for_slot",
-        "task_id": null,
-        "recovery_action": "fresh_launch_preflight_required",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S60-SEED20-P1",
         "state": "waiting_for_slot",
         "task_id": null,
@@ -363,6 +324,13 @@
       },
       {
         "item_id": "S61-SEED20-P1",
+        "state": "waiting_for_slot",
+        "task_id": null,
+        "recovery_action": "fresh_launch_preflight_required",
+        "submit_authorized": false
+      },
+      {
+        "item_id": "S63-WAN30",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -423,14 +391,9 @@
       "bytes": 40928
     },
     {
-      "file": "ops/TOPVIEW-FREE-LAUNCH.md",
-      "sha256": "c3915df6ae4a77f0924346bda2bf749c026a634b118d068784e0bdd876fb6e0e",
-      "bytes": 28646
-    },
-    {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "30f0bb61d4b3f98ef30e7df15aa262c164bc70c4be2fd62731e337bae73c23e7",
-      "bytes": 395005
+      "sha256": "3b6514c991ca5d54c205f1c2b4724baa769d8fe4689414d9d595f28e8f741c0b",
+      "bytes": 395998
     },
     {
       "file": "project-status.json",
@@ -439,18 +402,13 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "aad166b758343b97a9631d72eb0fd325b6f4e75b5efd69eed63a9ba6d16f9ee6",
-      "bytes": 24092
+      "sha256": "9020835ff1bca61bc89882a77f4e3f76469a6988457269972e3824a3ac59db72",
+      "bytes": 27483
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "4c9b7b8122947a7b411710e4e9be54d62a91b40f260e0c3adb4208cbce54dc32",
       "bytes": 20662
-    },
-    {
-      "file": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
-      "sha256": "c854312fca4cd736c4c4b030cfc8a52c36014ccf441c5abe613a32fa6af56280",
-      "bytes": 5051
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -473,5 +431,5 @@
       "bytes": 76994
     }
   ],
-  "packet_bytes": 7479
+  "packet_bytes": 6820
 }
