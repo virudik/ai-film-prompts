@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project kotmonavty`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-10-29T22:45:49+00:00
+Проверено: 2026-10-29T22:51:31+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -43,6 +43,7 @@
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
 Задач с сохранённым task ID: 3
+- KM09-WAN30-20261030: reconcile_without_resubmitting
 
 ## Пробелы
 
