@@ -3,44 +3,18 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-29T22:03:32+00:00",
-  "source_head": "87fa9ecae9618e72153b29d6fc031476ffe3df7d",
-  "source_fingerprint": "cb22c962e547d4b203d27c42dfb79419f4216424bfdbd715d6aae56a9361f62e",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-29T22:29:01+00:00",
+  "source_head": "d48822cc75f36480b89b915f4520fac390aefd8c",
+  "source_fingerprint": "4207077d9d506af9bf154b4b33015489aa0bcb11e8e9a4f20ce0c9053426c078",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "KM-WAIT-OWNER",
-    "title": "Котмонавты — ожидание решения владельца",
-    "status": "waiting_for_owner",
-    "last_completed": "22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.",
-    "next_action": "Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.",
-    "verified_at": "2026-10-27T14:07:47+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/kotmonavty/HANDOFF.md",
-        "sha256": "9aac6ca6ced776e3794ad44af5e82c66077be70bd61b4196a15ea40b0315e227"
-      },
-      {
-        "file": "projects/kotmonavty/INSTRUCTIONS.md",
-        "sha256": "154bffc5bb9f72048cc475951cc5be3133a1f9f209be8bd32d56fa6c4cfe37b5"
-      }
-    ],
-    "read_next": [
-      "projects/kotmonavty/HANDOFF.md",
-      "projects/kotmonavty/INSTRUCTIONS.md",
-      "ops/OWNER-TASKS.md"
-    ],
-    "checkpoint": {
-      "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
-      "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
-      "sha256": "6979dd6490234bf274112c5a8fad1ae88f1e43be12578832970ec68db1496940"
-    }
-  },
-  "checkpoint_text": "# Продолжай — проверенная точка проекта · 27.10.2026\n\nwork_id: KM-WAIT-OWNER\nПроверено: 2026-10-27T14:07:47.150Z\n22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.\nСледующий шаг: Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.\nМеханизм перенесён; отдельный новый чат ещё не принимал смену.\n",
+  "reasons": [
+    "selected work has no verified recovery record"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -133,11 +107,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/kotmonavty/HANDOFF.md",
-    "projects/kotmonavty/INSTRUCTIONS.md",
-    "ops/OWNER-TASKS.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -242,8 +212,8 @@
     },
     {
       "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
-      "sha256": "e0dd898afc126a27eb7b16a0bf249d7fc3f5863b7530c7a9855ed9977c2d4512",
-      "bytes": 3281
+      "sha256": "37192d242751706f00bcec36c34b939777cd9063d5194cafecd003341da6c830",
+      "bytes": 4717
     },
     {
       "file": "projects/kotmonavty/reports/handoff-receipts.json",
@@ -257,8 +227,8 @@
     },
     {
       "file": "projects/kotmonavty/work-resume-register.json",
-      "sha256": "ec89862fd52da34eb8a5292ca2ecd8b5ccb79bb8fee13c225deac74caf325194",
-      "bytes": 11784
+      "sha256": "58bb283f4803e0421035b72726fb9ab9522df79e6c0e6cd952d92737bb144a25",
+      "bytes": 13023
     },
     {
       "file": "projects/projects.json",
@@ -281,5 +251,5 @@
       "bytes": 1125632
     }
   ],
-  "packet_bytes": 5273
+  "packet_bytes": 3865
 }
