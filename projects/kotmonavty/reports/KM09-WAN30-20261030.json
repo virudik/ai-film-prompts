@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "item_id": "KM09-WAN30-20261030",
+  "scene_id": 9,
+  "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+  "board_name": "Котмонавты",
+  "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+  "submitted_at": "2026-10-29T22:51:18Z",
+  "status_at_confirmation": "running",
+  "model": "Wan 3.0",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "native_audio": true,
+  "use_unlimit_mode": false,
+  "credits_cost": 12,
+  "owner_authorization": {
+    "at": "2026-10-29T22:42:13.854Z",
+    "source": "Direct owner Work chat 30.10.2026",
+    "quote": "И по такому же принципу запускай котмонавтов на 30 сек но ван3 Сцена 4 — Не тот груз Сцена 9 — Завтрак в невесомости",
+    "scenes": [
+      4,
+      9
+    ],
+    "model": "Wan 3.0",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "quantity_each": 1,
+    "observed_quote_credits_each": 12,
+    "total_credits_limit": 24,
+    "balance_before": 30.37,
+    "scope": "Exactly two paid web submissions on Котмонавты; one each; no retry, other scenes, purchase or top-up.",
+    "consumed": false
+  },
+  "claim": {
+    "run_id": "chatgpt-work-20261030-km09-paid-wan30",
+    "claimed_at": "2026-10-29T22:51:02.360Z",
+    "holder": "chatgpt",
+    "route": "paid_web_gui",
+    "max_credits": 12,
+    "full_prompt_ui_match": true,
+    "input_verification": "Canonical source SHA checked; UI four images complete with correct natural dimensions, order and visual thumbnails. Browser blob readback unavailable, not claiming uploaded byte hashes."
+  },
+  "canonical_prompt_sha256": "c9e083ead8a4c85495e250bb95a4b14979273cb5491a08697409971e33760d01",
+  "full_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "projects/kotmonavty/references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "projects/kotmonavty/references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png",
+      "sha256": "5807845254f9d5eb2112cee654bf0f7dafe745a5e5cd2fba4ef56cb15a8cae58",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image4",
+      "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+      "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+      "input_status": "available",
+      "required": true
+    }
+  ],
+  "provider_input_images": [
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/c6t0mgNjoBDFV9ErW3tft.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image1"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/vHCSFxKK135L13cLX678r.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image2"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/9Ytjhgsreuq1ljRw1DY94.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image3"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/xKKZHylQFrikJOZuppCjV.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image4"
+    }
+  ],
+  "input_verification": "Canonical source SHA checked; UI four images complete with correct natural dimensions, order and visual thumbnails. Browser blob readback unavailable, not claiming uploaded byte hashes.",
+  "editorial_approval": false,
+  "automatic_retry": false,
+  "normalized_prompt_sha256": "76ac2b6674ac8a1ed45c48e0deabce5beeef3b037097413ded277d458befa1e5",
+  "balance_after": 6.37
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "kotmonavty",
   "queue_id": "KOTMONAVTY-QUEUE",
-  "updated_at": "2026-10-29T22:51:02.360Z",
+  "updated_at": "2026-10-29T22:51:51.332Z",
   "state": "active",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "selection_policy": "Owner30Oct2026 one-off exception: KM04 and KM09 paid Wan3.0/30s/720p/16:9/one each, 12 credits each, Котмонавты board only; current Work chat handles under project lock, no automatic retry. Existing KM02/KM22 completed; all other scenes unselected. Owner29Oct2026 one-off exception: KM02 and KM22 paid Seedance2.5/30s/720p/16:9/one each on Котмонавты only; existing Work chat handles both under project lock. Not part of free background launcher. All other project items remain unselected. Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
@@ -327,7 +327,7 @@
       "canonical_block_label": "9 · Wan 3.0 · 30 с",
       "prompt_source_path": "projects/kotmonavty/video-prompts.md",
       "priority": 4,
-      "state": "dispatch_pending",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -376,8 +376,10 @@
       ],
       "depends_on_completed": [],
       "depends_on_submitted": [],
-      "task_id": null,
-      "claim": {
+      "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+      "claim": null,
+      "automatic_retry": false,
+      "submission_claim": {
         "run_id": "chatgpt-work-20261030-km09-paid-wan30",
         "claimed_at": "2026-10-29T22:51:02.360Z",
         "holder": "chatgpt",
@@ -386,7 +388,11 @@
         "full_prompt_ui_match": true,
         "input_verification": "Canonical source SHA checked; UI four images complete with correct natural dimensions, order and visual thumbnails. Browser blob readback unavailable, not claiming uploaded byte hashes."
       },
-      "automatic_retry": false
+      "submitted_at": "2026-10-29T22:51:18Z",
+      "credits_cost": 12,
+      "receipt": "projects/kotmonavty/reports/KM09-WAN30-20261030.json",
+      "normalized_prompt_sha256": "76ac2b6674ac8a1ed45c48e0deabce5beeef3b037097413ded277d458befa1e5",
+      "provider_status": "running"
     }
   ],
   "already_submitted": {},
@@ -430,7 +436,10 @@
       "total_credits_limit": 24,
       "balance_before": 30.37,
       "scope": "Exactly two paid web submissions on Котмонавты; one each; no retry, other scenes, purchase or top-up.",
-      "consumed": false
+      "consumed": true,
+      "actual_total_credits": 24,
+      "remaining_submissions": 0,
+      "balance_after": 6.37
     }
   ]
 }
