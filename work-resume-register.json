@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T06:15:23.768Z",
+  "last_updated_at": "2026-10-29T06:47:04.899Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "submission_unknown",
-      "updated_at": "2026-10-29T06:15:23.768Z",
+      "updated_at": "2026-10-29T06:47:04.899Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
@@ -71,35 +71,41 @@
         "result": "Resolved before this phase: archival trim removed the warning. No rerun or additional repair; Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-29T06:14:15.605Z",
+        "checked_at": "2026-10-29T06:46:14.171Z",
         "boards": 13,
         "pages": 19,
         "total": 941,
+        "complete": true,
         "active": [
           {
             "task_id": "c65c30d8cbe14e9eadec886276e62471",
             "status": "init",
-            "media_type": "video"
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
           },
           {
             "task_id": "8d7ff1e2de63478693778de29e0dd56e",
             "status": "init",
-            "media_type": "video"
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
           },
           {
             "task_id": "4a1061e175054da2810ffef8ad9d31cd",
             "status": "init",
-            "media_type": "video"
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
           },
           {
             "task_id": "b15165813c0848939edbe8b3d3aed182",
             "status": "init",
-            "media_type": "video"
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
           },
           {
             "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
             "status": "init",
-            "media_type": "video"
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
           }
         ]
       },
@@ -207,6 +213,16 @@
           "ops/CONTINUE-PROTOCOL.md"
         ],
         "blockers": []
+      },
+      "last_relay_reconciliation": {
+        "event_id": "slots:df305d35:2",
+        "issue_number": 128,
+        "checked_at": "2026-10-29T06:47:04.899Z",
+        "outcome": "submission_unknown",
+        "new_submissions": 0,
+        "claim_ids": [
+          "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
+        ]
       }
     },
     {

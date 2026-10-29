@@ -432,6 +432,84 @@
         "d460fc7bd2434133870232482b84237d"
       ],
       "new_submissions": 0
+    },
+    {
+      "event_id": "slots:df305d35:2",
+      "issue_number": 128,
+      "message_id": "241451123798183936",
+      "relay_event_id": "evt_117c85d989e52b980bc389af96f55b0f",
+      "observed_at": "2026-10-29T06:40:19Z",
+      "checked_at": "2026-10-29T06:47:04.899Z",
+      "outcome": "submission_unknown",
+      "reason": "Fresh complete read-only scan of all 13 boards/19 pages found 941 tasks, five active videos, no task created after the existing S62 claim and no S62 prompt candidate. This does not prove the previous timed-out Create was never dispatched. Existing submission_unknown claim is preserved; no new Create or retry in this event run.",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "Actual runtime run ID was not exposed; transport event ID is not a run ID.",
+      "actual_sender": {
+        "name": "topview-robot",
+        "address": "topview-robot@direct",
+        "sender_agent_id": "240204876611608576"
+      },
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "sender_address_verification": "Full get_event sender and senderAgentId match fresh config; fresh Relay roster resolves exact sender name to configured address.",
+      "new_submissions": 0,
+      "claim_changes": 0,
+      "credits_spent": 0,
+      "claim_ids": [
+        "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
+      ],
+      "unconfirmed_item": "S62-SEED20-P1",
+      "unconfirmed_task_id": null,
+      "final_scan": {
+        "checked_at": "2026-10-29T06:46:14.171Z",
+        "boards": 13,
+        "pages": 19,
+        "total": 941,
+        "complete": true,
+        "active": [
+          {
+            "task_id": "c65c30d8cbe14e9eadec886276e62471",
+            "status": "init",
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+            "status": "init",
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+            "status": "init",
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "task_id": "b15165813c0848939edbe8b3d3aed182",
+            "status": "init",
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          },
+          {
+            "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
+            "status": "init",
+            "media_type": "video",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+          }
+        ]
+      },
+      "reconciliation": {
+        "tasks_created_after_claim": 0,
+        "prompt_candidates": 0,
+        "claim_at": "2026-10-29T06:11:44.236Z",
+        "authoritative_dispatch_outcome": "unknown"
+      },
+      "next_action": "Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.",
+      "lock_outcome": "own_lock_acquired_separate_CAS; released_atomically_with_receipt"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
@@ -1190,4 +1268,3 @@
     }
   }
 }
-

@@ -1,10 +1,12 @@
-# Relay: три изображения Стича и неподтверждённая отправка S62 · 29.10.2026
+# Relay: проверка неподтверждённой отправки S62 · 29.10.2026
 
-Проверено: 2026-10-29T06:14:15.605Z. Полный скан: 13 досок, 19 страниц, 941 задача, 5 активных видео, 0 активных изображений. Три разрешённых пробных изображения отправлены по одному через Nano Banana Pro/2K/16:9/Unlimited0: e0f131c8f04f4991bd7ec9b317223aa0, 0d7a40e276e645d291d31589cc4fbfe6, d460fc7bd2434133870232482b84237d. Все три завершились fail: ограничение стороннего контента провайдера, support35561575, creditsCost=0. Повторов нет; готовых картинок нет, видеовходы не менялись.
+Проверено: 2026-10-29T06:46:14.171Z. Новый подтверждённый сигнал issue128 `slots:df305d35:2`: полный read-only скан 13 досок / 19 страниц / 941 задачи показал 5 активных видео и 0 активных изображений. После claim S62 от 06:11:44.236Z новых задач нет; кандидата по промпту S62 нет. Это не доказывает отсутствие отправки при прежнем таймауте: `submission_unknown` и исходный claim сохранены. В этом событии Create/повторов/изменений claim/расходов — 0.
 
-S62-SEED20-P1: SHA полного промпта и 7 входов сверены; настоящий Video1 3.000s и финальные позы проверены. После отдельного CAS-claim chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1 единственный вызов Create завершился browser action_failed/timeout. Новый taskID не найден в повторном полном скане; это не доказательство отсутствия отправки. Состояние submission_unknown, claim сохранён, повторный клик запрещён. Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.
+Ближайший шаг: Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.
 
-Проверенные события issue125 result:8a8eadc809004e318c47201b8a463be0 и issue126 slots:df305d35:1 учтены в reports/topview-event-wake.json; runtime run_id недоступен, не выдуман. Замок освобождается этим же коммитом. Художественная приёмка не выполнялась. Часовое задание и webhook не изменялись.
+Предыдущие три пробных изображения Стича имеют task IDs e0f131c8f04f4991bd7ec9b317223aa0, 0d7a40e276e645d291d31589cc4fbfe6, d460fc7bd2434133870232482b84237d; все fail с support35561575 и creditsCost=0. Не повторять. Подробности S62 и проверки семи входов — reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-unconfirmed.json; прежние события125/126 сохранены в журнале.
+
+Квитанция issue128 добавлена вместе с текущим register; замок освобождается тем же коммитом. Runtime run_id недоступен. Приёмка и расписания не изменялись.
 
 ---
 
