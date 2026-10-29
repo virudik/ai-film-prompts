@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T22:42:09+00:00",
-  "source_head": "c0bea8a03dedda6a57ad0285997ed564d410ac16",
-  "source_fingerprint": "cd2ab6da45e5105b2fd1b8cc17d4228cb6de6ccf2b787465b00e187d93089df6",
+  "checked_at": "2026-10-29T22:59:10+00:00",
+  "source_head": "aaa95f7bcb3fc6c3d4e8b3e9372ae3a19c82e8a3",
+  "source_fingerprint": "29413908b3e468cabc9fa7859e68ad19e2cad2355c928d88e3374c9ceb1d81a4",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -406,8 +406,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "dbbd8bb3da8a5e618501dd86917c4ebeee58aa39b21fdd58530d88a51ef07267",
-      "bytes": 30168
+      "sha256": "357d781e68227d833a855eddbf558fd7158243c1f3bd74220e32d2559c2ead57",
+      "bytes": 31871
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -431,8 +431,8 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "10e394b77548d8aa853ed8326b8eeb26f8e8b36a6a28fe74bdfff78e2f526d08",
-      "bytes": 78528
+      "sha256": "ce68e31044e6c15ecf4a2b8a20afd4dba315cecd9b48ee5ceef09aee4cdcef5b",
+      "bytes": 80542
     }
   ],
   "packet_bytes": 3864
