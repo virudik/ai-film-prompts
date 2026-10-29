@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T19:00:05.872Z",
+  "updated_at": "2026-10-29T19:02:09.826Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5601,8 +5601,8 @@
       "prompt_id": "S62-SEED20-P1",
       "canonical_block_label": "62 · Seedance 2.0 часть 1",
       "priority": -0.5,
-      "state": "claimed",
-      "launch_readiness": "claimed_allowance_consumed",
+      "state": "submitted",
+      "launch_readiness": "submitted_active",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5679,7 +5679,7 @@
       ],
       "canonical_prompt_sha256": "3dab8c8bc696fc214b961197af97af43e39a25860921a6b778759e09f3b781b0",
       "normalized_prompt_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
-      "task_id": null,
+      "task_id": "0de1f663432646d294f409a22e20a26e",
       "claim": {
         "run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry",
         "claimed_at": "2026-10-29T19:00:05.872Z",
@@ -5688,7 +5688,7 @@
         "route": "free_web_gui",
         "owner_retry_authorization": true,
         "allowance_consumed": true,
-        "submission_attempted_at": null,
+        "submission_attempted_at": "2026-10-29T19:01:23Z",
         "preflight": {
           "checked_at": "2026-10-29T18:59:48.037Z",
           "boards": 14,
@@ -5701,13 +5701,16 @@
           "board_name": "My First Board",
           "prompt_normalized_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
           "inputs": "Video1+Image1..Image6 exact SHA/order; UI import complete"
-        }
+        },
+        "resolved_at": "2026-10-29T19:02:09.826Z",
+        "result": "submitted",
+        "task_id": "0de1f663432646d294f409a22e20a26e"
       },
       "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry. Owner29Oct2026 current Work chat: «Тогда следующей попробуем 62». Exactly one new free website attempt of P1 is explicitly authorized after the recorded unknown attempt; first next video slot. Preserve the unknown history; this is not proof of non-submission and not permission for further retries.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "blocker": null,
-      "last_reconciliation_at": "2026-10-29T18:59:48.037Z",
+      "last_reconciliation_at": "2026-10-29T19:02:09.826Z",
       "recovery_next_action": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown.",
       "submission_history": [
         {
@@ -5730,6 +5733,18 @@
           "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-unconfirmed.json",
           "superseded_for_scheduling_at": "2026-10-29T08:41:44.413Z",
           "outcome": "unknown_preserved_owner_authorized_one_new_attempt"
+        },
+        {
+          "state": "submitted",
+          "task_id": "0de1f663432646d294f409a22e20a26e",
+          "submitted_at": "2026-10-29T19:01:23Z",
+          "observed_at": "2026-10-29T19:02:09.826Z",
+          "status": "init",
+          "credits": 0,
+          "use_unlimit_mode": true,
+          "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z.json",
+          "ui_proof": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z-ui.png",
+          "run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry"
         }
       ],
       "attempts_used": 2,
@@ -5746,7 +5761,7 @@
         "consumed_by_run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry",
         "consumed_reason": "Consumed before the single Create as required; any timeout/fail does not restore it."
       },
-      "updated_at": "2026-10-29T19:00:05.872Z",
+      "updated_at": "2026-10-29T19:02:09.826Z",
       "blocker_history": [
         {
           "code": "browser_file_transfer_unavailable",
@@ -5771,7 +5786,7 @@
         "route": "free_web_gui",
         "owner_retry_authorization": true,
         "allowance_consumed": true,
-        "submission_attempted_at": null,
+        "submission_attempted_at": "2026-10-29T19:01:23Z",
         "preflight": {
           "checked_at": "2026-10-29T18:59:48.037Z",
           "boards": 14,
@@ -5784,8 +5799,15 @@
           "board_name": "My First Board",
           "prompt_normalized_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
           "inputs": "Video1+Image1..Image6 exact SHA/order; UI import complete"
-        }
-      }
+        },
+        "resolved_at": "2026-10-29T19:02:09.826Z",
+        "result": "submitted",
+        "task_id": "0de1f663432646d294f409a22e20a26e"
+      },
+      "submitted_at": "2026-10-29T19:01:23Z",
+      "observed_task_status": "init",
+      "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029T190123Z-ui.png"
     },
     {
       "id": "S62-SEED20-P2",
