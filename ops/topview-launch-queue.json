@@ -1727,163 +1727,6 @@
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted."
     },
     {
-      "id": "S37-SEED20-P2",
-      "scene_id": 37,
-      "prompt_id": "S37-SEED20-P2",
-      "canonical_block_label": "37 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "32fc2e20555db48e1725a6a2570ee23eba3de9c7762aeb23c25ddf992c67c88f",
-      "normalized_prompt_sha256": "d1dab8b62c24425360fd7fd0df3dea4d2738fa49f4acd38576f5238ff89f18c1",
-      "priority": 4.5,
-      "state": "submitted",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [
-        "S37-SEED20-P1"
-      ],
-      "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "canonical_role": "previous_part_end",
-          "input_status": "available",
-          "source_item_id": "S37-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
-          "source_task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
-          "source_drive_file_id": "1Al67ufnQ_6b_hx5dOojBPHE9Ck8DR8w6",
-          "source_sha256": "2c8a766970fe7a40f181b8f2056d296cf44bbc626f20fe1100b1db9197f681d1",
-          "trim_seconds": [
-            11,
-            15
-          ],
-          "sha256": "3a2b14730ddc43a55382e54d70f2f67bf56e4d3f110ba90b21e70e220a39e847",
-          "size_bytes": 1329835,
-          "duration_seconds": 4,
-          "filename": "S37-P1-ending-11-15s.mp4",
-          "reproduction": "ffmpeg -ss 11 -i source.mp4 -t 4 -c:v libx264 -crf 18 -preset fast -c:a aac -movflags +faststart ending.mp4",
-          "qc": "Actual source last4s inspected as decoded frames: single craft climbs/rolls at dark thunderhead base above lake; usable continuity reference. Assistant technical continuity QC only, no editorial approval.",
-          "provenance_path": "references/scenes/scene-37/S37-seedance-part1-ending.json"
-        },
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
-          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
-          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "task_id": "af627d97836d4832a1a4ad8cf24fa921",
-      "claim": {
-        "run_id": "chatgpt-chat-20261021T162037592Z",
-        "holder": "chatgpt",
-        "claimed_at": "2026-10-21T16:31:34.520Z",
-        "source": "owner_chat",
-        "max_credits": 0
-      },
-      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
-      "replaces_unsubmitted_item": "S37-S37",
-      "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "depends_on_completed": [
-        "S37-SEED20-P1"
-      ],
-      "blocker": null,
-      "launch_readiness": "submitted_verified",
-      "references_prepared_at": "2026-10-21T16:29:51.207Z",
-      "submitted_at": "2026-10-21T16:32:06Z",
-      "receipt_path": "reports/topview-queue-2026-10-16/S37-SEED20-P2-2026-10-21.json",
-      "actual_settings": {
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "quantity": 1,
-        "useUnlimitMode": true,
-        "creditsCost": 0,
-        "sound": "on",
-        "inputImages": [
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/t5sclVDU6AvXiBQ5De0cz.jpg",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image1"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/4V3mVc82o9mr44c9MK7b7.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image2"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/v3BoPcc8aHvEo3WGkkX0P.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image3"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/aK8fSzBBJY2YISAt8CZYE.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image4"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/6fbDaMdQ7JahPvHmdnWck.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image5"
-          }
-        ],
-        "inputVideos": [
-          {
-            "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/6VePI45b7FdBlM0Yeok8m.mp4",
-            "inputVideoUrl": null,
-            "name": "Video1",
-            "duration": 4
-          }
-        ]
-      },
-      "result_status": "init",
-      "editorial_approval": false
-    },
-    {
       "id": "S39-SEED20-P2",
       "scene_id": 39,
       "prompt_id": "S39-SEED20-P2",
@@ -2008,141 +1851,6 @@
         "useUnlimitMode": true,
         "creditsCost": 0
       }
-    },
-    {
-      "id": "S40-SEED20-P1",
-      "scene_id": 40,
-      "prompt_id": "S40-SEED20-P1",
-      "canonical_block_label": "40 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "8c73d00c7235e53e07ba8081755af3571887b26d857419aa2e17b3f61760fac3",
-      "normalized_prompt_sha256": "0a69b424907169209f3f2f6bf340306390387f65278ca1c6df77734389f0c33c",
-      "priority": 6,
-      "state": "submitted",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
-          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
-          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
-          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "task_id": "1751294fbf5f49dbb00a0f44401486ca",
-      "claim": {
-        "run_id": "chatgpt-chat-20261021T162037592Z",
-        "holder": "chatgpt",
-        "claimed_at": "2026-10-21T16:35:11.554Z",
-        "source": "owner_chat",
-        "max_credits": 0
-      },
-      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
-      "replaces_unsubmitted_item": "S40",
-      "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "submitted_at": "2026-10-21T16:35:37Z",
-      "launch_readiness": "submitted_verified",
-      "receipt_path": "reports/topview-queue-2026-10-16/S40-SEED20-P1-2026-10-21.json",
-      "actual_settings": {
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "quantity": 1,
-        "useUnlimitMode": true,
-        "creditsCost": 0,
-        "sound": "on",
-        "inputImages": [
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Gwi0DsQr2PArZITQNGllQ.jpg",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image1"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/vFjoke7iqNPddMygFlHFn.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image2"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/oams4OIVoMYogvzk6TCmU.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image3"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/MqUzfEx861psxwic36vlG.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image4"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/VeGTtPk9F414q3QOG84dz.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image5"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/TQKZsYyrHS2MR92IZsvTt.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image6"
-          }
-        ],
-        "inputVideos": []
-      },
-      "result_status": "init",
-      "editorial_approval": false
     },
     {
       "id": "S40-SEED20-P2",
@@ -3347,115 +3055,6 @@
         "useUnlimitMode": true,
         "creditsCost": 0
       }
-    },
-    {
-      "id": "S53-SEED20-P1",
-      "scene_id": 53,
-      "prompt_id": "S53-SEED20-P1",
-      "canonical_block_label": "53 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "c14747d44b305245ef2316e2255c0e853ed33b72bf873dd48d880d853d53f305",
-      "normalized_prompt_sha256": "88a68120439e836f113e55218fa3e9b0dc69a4296d2c4125e7a99379bf58d7ac",
-      "priority": 21,
-      "state": "submitted",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [
-        "S43-R1-20261017"
-      ],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
-          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
-          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
-      "claim": {
-        "run_id": "chatgpt-chat-20261021T162037592Z",
-        "holder": "chatgpt",
-        "claimed_at": "2026-10-21T16:38:23.661Z",
-        "source": "owner_chat",
-        "max_credits": 0
-      },
-      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
-      "replaces_unsubmitted_item": "S53",
-      "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "submitted_at": "2026-10-21T16:38:40Z",
-      "launch_readiness": "submitted_verified",
-      "receipt_path": "reports/topview-queue-2026-10-16/S53-SEED20-P1-2026-10-21.json",
-      "actual_settings": {
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "quantity": 1,
-        "useUnlimitMode": true,
-        "creditsCost": 0,
-        "sound": "on",
-        "inputImages": [
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Omf2G0y4rEEo90yJXmsJo.jpg",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image1"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/8LmNHzpI3lBBTJSwmREET.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image2"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/wa2WG2D41y8OpeXLGs2wT.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image3"
-          },
-          {
-            "inputImageResourceId": null,
-            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/0SBzXvryaKNqWAtmguBx5.png",
-            "inputImageUrl": null,
-            "projectAssetId": null,
-            "name": "Image4"
-          }
-        ],
-        "inputVideos": []
-      },
-      "result_status": "init",
-      "editorial_approval": false
     },
     {
       "id": "S53-SEED20-P2",
@@ -8117,6 +7716,39 @@
     "recorded_by": "claude:chatgpt-review"
   },
   "archived_items": [
+    {
+      "id": "S37-SEED20-P2",
+      "scene_id": 37,
+      "prompt_id": "S37-SEED20-P2",
+      "canonical_block_label": "37 · Seedance 2.0 часть 2",
+      "state": "submitted",
+      "task_id": "af627d97836d4832a1a4ad8cf24fa921",
+      "submitted_at": "2026-10-21T16:32:06Z",
+      "canonical_prompt_sha256": "32fc2e20555db48e1725a6a2570ee23eba3de9c7762aeb23c25ddf992c67c88f",
+      "normalized_prompt_sha256": "d1dab8b62c24425360fd7fd0df3dea4d2738fa49f4acd38576f5238ff89f18c1"
+    },
+    {
+      "id": "S40-SEED20-P1",
+      "scene_id": 40,
+      "prompt_id": "S40-SEED20-P1",
+      "canonical_block_label": "40 · Seedance 2.0 часть 1",
+      "state": "submitted",
+      "task_id": "1751294fbf5f49dbb00a0f44401486ca",
+      "submitted_at": "2026-10-21T16:35:37Z",
+      "canonical_prompt_sha256": "8c73d00c7235e53e07ba8081755af3571887b26d857419aa2e17b3f61760fac3",
+      "normalized_prompt_sha256": "0a69b424907169209f3f2f6bf340306390387f65278ca1c6df77734389f0c33c"
+    },
+    {
+      "id": "S53-SEED20-P1",
+      "scene_id": 53,
+      "prompt_id": "S53-SEED20-P1",
+      "canonical_block_label": "53 · Seedance 2.0 часть 1",
+      "state": "submitted",
+      "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+      "submitted_at": "2026-10-21T16:38:40Z",
+      "canonical_prompt_sha256": "c14747d44b305245ef2316e2255c0e853ed33b72bf873dd48d880d853d53f305",
+      "normalized_prompt_sha256": "88a68120439e836f113e55218fa3e9b0dc69a4296d2c4125e7a99379bf58d7ac"
+    },
     {
       "id": "S44-R1-20261017",
       "scene_id": 44,
