@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T23:02:12+00:00",
-  "source_head": "982d1ac950b1c4d883dd71d79b2e2c2b1e1114f9",
-  "source_fingerprint": "20a098543b56aea27bdd43a59c2e92f7ce885e80d22d51325eedb7a3d35956dc",
+  "checked_at": "2026-10-29T23:02:38+00:00",
+  "source_head": "b61cda77cd6c25eabe1eb8dff9934190ca957b2d",
+  "source_fingerprint": "d0a2bd36c63f97031581c7aa527cbe7b5d1c3a9ce6a1c8012153d585d1503143",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -406,8 +406,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "357d781e68227d833a855eddbf558fd7158243c1f3bd74220e32d2559c2ead57",
-      "bytes": 31871
+      "sha256": "c349a07ccb428e7b806b1e3f94cd851cdfa71ddf3f690927558c88fa170d6b2d",
+      "bytes": 34592
     },
     {
       "file": "reports/handoff-receipts.json",
