@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T06:47:04.899Z",
+  "last_updated_at": "2026-10-29T08:12:33+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "submission_unknown",
-      "updated_at": "2026-10-29T07:07:04.001Z",
+      "status": "waiting_video_results_and_capacity",
+      "updated_at": "2026-10-29T08:12:33+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -19,9 +19,10 @@
         "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
         "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted.",
         "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry.",
-        "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings."
+        "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
+        "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1."
       ],
-      "next_action": "Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.",
+      "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -142,26 +143,22 @@
         "checked_at": "2026-10-29T06:15:23.768Z"
       },
       "last_observed_topview": {
-        "checked_at": "2026-10-27T06:16:16Z",
-        "pre_submit_global_scan_complete": true,
-        "pre_submit_active_video_tasks": 5,
-        "submitted_item": "S48-SEED20-P1",
-        "submitted_task_id": "8d7ff1e2de63478693778de29e0dd56e",
-        "board_name": "My First Board",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "live_post_submit_main_board_queue_cards": 6,
-        "inferred_account_active_video_tasks": 6,
-        "free_video_slots": 0,
-        "inference_note": "Complete pre-submit global scan (5) plus one verified new task; second full all-page traversal not repeated."
+        "at": "2026-10-29T08:09:07.085Z",
+        "boards": 13,
+        "pages": 19,
+        "tasks": 943,
+        "active_videos": 6,
+        "active_images": 0,
+        "free_video_slots": 0
       },
       "done": [
         "2026-10-27T06:16:16Z: S48-P1 submitted exactly once via authenticated Topview website, task 8d7ff1e2de63478693778de29e0dd56e; Seedance2.0/15s/720p/16:9/qty1/6 images/Unlimited0, exact prompt and input order/hash verified. Six active video slots after submit; no repeat or editorial approval."
       ],
       "last_submission": {
-        "item_id": "S52-R2-SEED20-P1",
-        "task_id": "c65c30d8cbe14e9eadec886276e62471",
-        "submitted_at": "2026-10-28T06:51:02Z",
-        "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+        "item_id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "submitted_at": "2026-10-29T08:07:31Z",
+        "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
         "credits": 0
       },
       "last_relay_recovery": {
@@ -198,31 +195,31 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-28T16:33:21+00:00",
-        "last_completed": "Возвращён @Image6 в три промпта68, manifest, registry, галерею и очередь; SHA сверены, PNG не менялись. Подтверждены три необязательные прогулки Стича и одна новая попытка IMAGE-1 после отказа; 6 видео активны, новых запусков нет.",
-        "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
+        "verified_at": "2026-10-29T08:12:33+00:00",
+        "last_completed": "Closed failed Stitch trials; scoped S62 uncertainty; corrected S59P2 task b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0; six active videos.",
+        "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Сцена 68: шесть входов; Стич: необязательная пробная тройка · 28.10.2026",
-          "sha256": "bcd7c64647f69cf780fb4a3c2db05b9bd544d1d7efd1b4fae17e87eb5f4bd79f"
+          "anchor": "# Topview: очередь продолжена без проб Стича · 29.10.2026",
+          "sha256": "1a406f9bf32a079a47d6d9cedb49b664cbdbabbcd232cb09527c3555b1e16eaa"
         },
         "evidence": [
           {
-            "file": "reports/s68-composition-and-stitch-policy-2026-10-28.json",
-            "sha256": "84ad5489bae062492e16f7fbee3b9c42fca5db536898d1461b1be0bfce49b723"
+            "file": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
+            "sha256": "e60409dc91db34df223d2c81b5eced535ff58a363e6cda8f69d40e073823b576"
           },
           {
             "file": "ops/topview-launch-queue.json",
-            "sha256": "f35e442c36c002a20773dcf158052bda999a89736973502a0c729e5d820ad0cd"
+            "sha256": "25ed2e280bd01a36794e08fe8166e10f64ee04edc937798e8823596191c8dcab"
           },
           {
-            "file": "references/scenes/scene-68/manifest.json",
-            "sha256": "1c7919df3399f78ef6e2ca2e1ca0a8eb82ce2b83dea42cdc55229fb80bb4e943"
+            "file": "ops/TOPVIEW-FREE-LAUNCH.md",
+            "sha256": "68bfc60d740d7afe9f32fc3497cf7e89a30a2f252b090763a6929a37d129d7bd"
           }
         ],
         "read_next": [
-          "ops/TOPVIEW-FREE-LAUNCH.md",
-          "ops/CONTINUE-PROTOCOL.md"
+          "ops/topview-launch-queue.json",
+          "ops/TOPVIEW-FREE-LAUNCH.md"
         ],
         "blockers": []
       },
@@ -249,7 +246,15 @@
         "checkpoint_sections_archived": 12,
         "register_points_archived": 2,
         "relay_events_archived": 0
-      }
+      },
+      "last_verified_submission": {
+        "item_id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "submitted_at": "2026-10-29T08:07:31Z",
+        "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
+        "credits": 0
+      },
+      "verified_at": "2026-10-29T08:09:07.085Z"
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
@@ -288,7 +293,7 @@
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-      "status": "optional_stitch_batch_waiting_for_capacity",
+      "status": "waiting_video_results_and_capacity",
       "canonical_refs": [
         "ops/topview-launch-queue.json",
         "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
@@ -318,9 +323,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-28T16:33:21+00:00",
+      "updated_at": "2026-10-29T08:12:33+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
+      "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -330,31 +335,31 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-28T16:33:21+00:00",
-        "last_completed": "Возвращён @Image6 в три промпта68, manifest, registry, галерею и очередь; SHA сверены, PNG не менялись. Подтверждены три необязательные прогулки Стича и одна новая попытка IMAGE-1 после отказа; 6 видео активны, новых запусков нет.",
-        "next_action": "При освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе.",
+        "verified_at": "2026-10-29T08:12:33+00:00",
+        "last_completed": "Closed failed Stitch trials; scoped S62 uncertainty; corrected S59P2 task b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0; six active videos.",
+        "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Сцена 68: шесть входов; Стич: необязательная пробная тройка · 28.10.2026",
-          "sha256": "bcd7c64647f69cf780fb4a3c2db05b9bd544d1d7efd1b4fae17e87eb5f4bd79f"
+          "anchor": "# Topview: очередь продолжена без проб Стича · 29.10.2026",
+          "sha256": "1a406f9bf32a079a47d6d9cedb49b664cbdbabbcd232cb09527c3555b1e16eaa"
         },
         "evidence": [
           {
-            "file": "reports/s68-composition-and-stitch-policy-2026-10-28.json",
-            "sha256": "84ad5489bae062492e16f7fbee3b9c42fca5db536898d1461b1be0bfce49b723"
+            "file": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
+            "sha256": "e60409dc91db34df223d2c81b5eced535ff58a363e6cda8f69d40e073823b576"
           },
           {
             "file": "ops/topview-launch-queue.json",
-            "sha256": "f35e442c36c002a20773dcf158052bda999a89736973502a0c729e5d820ad0cd"
+            "sha256": "25ed2e280bd01a36794e08fe8166e10f64ee04edc937798e8823596191c8dcab"
           },
           {
-            "file": "references/scenes/scene-68/manifest.json",
-            "sha256": "1c7919df3399f78ef6e2ca2e1ca0a8eb82ce2b83dea42cdc55229fb80bb4e943"
+            "file": "ops/TOPVIEW-FREE-LAUNCH.md",
+            "sha256": "68bfc60d740d7afe9f32fc3497cf7e89a30a2f252b090763a6929a37d129d7bd"
           }
         ],
         "read_next": [
-          "ops/TOPVIEW-FREE-LAUNCH.md",
-          "ops/CONTINUE-PROTOCOL.md"
+          "ops/topview-launch-queue.json",
+          "ops/TOPVIEW-FREE-LAUNCH.md"
         ],
         "blockers": []
       },
@@ -390,13 +395,16 @@
         }
       ],
       "last_verified_submission": {
-        "item_id": "S52-R2-SEED20-P1",
-        "task_id": "c65c30d8cbe14e9eadec886276e62471",
-        "submitted_at": "2026-10-28T06:51:02Z",
-        "receipt": "reports/topview-queue-2026-10-16/S52-R2-SEED20-P1-receipt-20261028.json",
+        "item_id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "submitted_at": "2026-10-29T08:07:31Z",
+        "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
         "credits": 0
       },
-      "verified_at": "2026-10-28T06:55:12.326724Z"
+      "verified_at": "2026-10-29T08:09:07.085Z",
+      "completed": [
+        "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1."
+      ]
     },
     {
       "work_id": "CONTINUE-001",
@@ -1126,7 +1134,7 @@
   "resume_focus": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-28T16:33:21+00:00",
+    "set_at": "2026-10-29T08:12:33+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }

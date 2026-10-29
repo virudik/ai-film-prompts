@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-29T08:09:07.085Z",
+  "owner_decision": "Abandon failed optional Stitch images; continue existing authorized video queue without them.",
+  "new_task_id": "b0915b04173c414e9ac08652d34b7852",
+  "submitted_at": "2026-10-29T08:07:31Z",
+  "create_attempted_at": "2026-10-29T08:07:29.751Z",
+  "cancelled_misconfigured_task_id": "9b2e18c883e3401e9b13b2930b3b570c",
+  "cancel_verified": {
+    "website": "Отменено",
+    "provider_status": "fail",
+    "credits_cost": 0
+  },
+  "cause_of_prior_idle": "S62 Create timed out without taskID at06:11–06:13UTC. Relay/hourly incorrectly treated its uncertainty as global queue freeze even after complete scans showed5active videos.",
+  "s62_disposition": "submission_unknown and original claim preserved. No resubmit; reconcile separately, independent ready scenes continue on verified physical capacity.",
+  "full_scans": [
+    {
+      "at": "2026-10-29T07:48:34.957Z",
+      "boards": 13,
+      "pages": 19,
+      "tasks": 941,
+      "active_videos": 5
+    },
+    {
+      "at": "2026-10-29T08:07:08.090Z",
+      "boards": 13,
+      "pages": 19,
+      "tasks": 942,
+      "active_videos": 5
+    },
+    {
+      "at": "2026-10-29T08:09:07.085Z",
+      "boards": 13,
+      "pages": 19,
+      "tasks": 943,
+      "active_videos": 6,
+      "active_images": 0
+    }
+  ],
+  "active_tasks": [
+    "b0915b04173c414e9ac08652d34b7852",
+    "c65c30d8cbe14e9eadec886276e62471",
+    "8d7ff1e2de63478693778de29e0dd56e",
+    "4a1061e175054da2810ffef8ad9d31cd",
+    "b15165813c0848939edbe8b3d3aed182",
+    "8b6a8ce102ea416e88d3c14fa558c513"
+  ],
+  "next_ready_after_capacity": "S60-SEED20-P1, subject to fresh readiness, owner decisions, canonical lock, full account scan and zero-price form verification.",
+  "model": "Seedance 2.0",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "use_unlimit_mode": true,
+  "credits_cost": 0,
+  "canonical_prompt_sha256": "f21e2df06f191a8d307e15647c0cdf91bf42753a4c6ac748c35e5e1682a1af3b",
+  "normalized_prompt_sha256": "6209e009801af3af48f585fb377138409ba9ee94c8004b884fa8b90e633a1ec1",
+  "full_prompt_match": true,
+  "operator_correction": {
+    "mistake": "Missed rejection of original forest image (height240<300; ratio5.33>2.50), then Image2 was a duplicate of Image3. First task cancelled before render; only one corrected replacement submitted. No provider-failed result was rerun.",
+    "input_derivation": "Original1280x240 forest panorama preserved with neutral grey transport padding to1280x720; no AI redraw and no crop/scale. Original unchanged.",
+    "upload_sha256": "c2cb234bf6cda713dfbbd413dc5977cc8a9864f6ca90c3f9ab6723fff83dcecf",
+    "pre_submit_image_hashes_verified": true,
+    "post_submit_image2_download_sha256": "c2cb234bf6cda713dfbbd413dc5977cc8a9864f6ca90c3f9ab6723fff83dcecf",
+    "future_retries_authorized": false
+  },
+  "ui_proof": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.jpg",
+  "provider_parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/iN4nojIPj2rscXHDzMIjL.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/939Sa951q07CemcjaKGK5.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/UtYCi2ILlScQk5paEboKR.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      }
+    ],
+    "imageMode": "multiImage",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/vHq1Q1vcHIm64cQtwjbFs.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "b0915b04173c414e9ac08652d34b7852",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "artistic_approval": false
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T08:04:04.195749+00:00",
+  "updated_at": "2026-10-29T08:09:07.085Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5006,8 +5006,8 @@
       "prompt_id": "S59-SEED20-P2",
       "canonical_block_label": "59 · Seedance 2.0 часть 2",
       "priority": 0.51,
-      "state": "claimed",
-      "launch_readiness": "authorized_inputs_available",
+      "state": "submitted",
+      "launch_readiness": "submitted_verified",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5016,7 +5016,7 @@
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
-      "max_new_submissions": 1,
+      "max_new_submissions": 0,
       "max_credits": 0,
       "depends_on_submitted": [],
       "depends_on_completed": [],
@@ -5075,22 +5075,14 @@
       ],
       "canonical_prompt_sha256": "f21e2df06f191a8d307e15647c0cdf91bf42753a4c6ac748c35e5e1682a1af3b",
       "normalized_prompt_sha256": "6209e009801af3af48f585fb377138409ba9ee94c8004b884fa8b90e633a1ec1",
-      "task_id": null,
-      "claim": {
-        "run_id": "chatgpt-work-20261029-s59p2-input-correction",
-        "claimed_at": "2026-10-29T08:04:04.195749+00:00",
-        "actor": "chatgpt_work",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "submission_attempted_at": null,
-        "purpose": "One corrective replacement of own confirmed-cancelled misconfigured submission to fulfill existing requested S59P2. Not a retry of a generated/failed model result; not authorization for any future retry."
-      },
+      "task_id": "b0915b04173c414e9ac08652d34b7852",
+      "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "blocker": null,
       "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
-      "updated_at": "2026-10-23T21:26:54.103042Z",
+      "updated_at": "2026-10-29T08:09:07.085Z",
       "owner_source_override": {
         "at": "2026-10-23T21:04:37.842561Z",
         "decision": "Owner attachment replaces first-part generation; continue its true ending. Prior P1 submit/complete dependency is satisfied by supplied video, not a fabricated Topview success.",
@@ -5120,14 +5112,29 @@
           }
         }
       ],
-      "attempts_used": 1,
+      "attempts_used": 2,
       "operator_input_correction": {
         "original_task_id": "9b2e18c883e3401e9b13b2930b3b570c",
         "original_confirmed_cancelled": true,
-        "correction_budget": 1,
+        "correction_budget": 0,
         "reason": "Repair current agent upload/configuration error within authorized launch; no owner reauthorization is claimed.",
-        "no_further_retry": true
-      }
+        "no_further_retry": true,
+        "corrected_task_id": "b0915b04173c414e9ac08652d34b7852"
+      },
+      "submitted_at": "2026-10-29T08:07:31Z",
+      "last_claim": {
+        "run_id": "chatgpt-work-20261029-s59p2-input-correction",
+        "claimed_at": "2026-10-29T08:04:04.195749+00:00",
+        "actor": "chatgpt_work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "submission_attempted_at": "2026-10-29T08:07:29.751Z",
+        "purpose": "One corrective replacement of own confirmed-cancelled misconfigured submission to fulfill existing requested S59P2. Not a retry of a generated/failed model result; not authorization for any future retry.",
+        "resolved_at": "2026-10-29T08:09:07.085Z",
+        "result": "submitted",
+        "task_id": "b0915b04173c414e9ac08652d34b7852"
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json"
     },
     {
       "id": "S59-SEED20-P3",
@@ -7416,16 +7423,22 @@
     "history_only": true
   },
   "last_live_scan": {
-    "at": "2026-10-29T07:48:34.957Z",
-    "source": "Topview read-only MCP full all-board pagination + authenticated website UI",
+    "at": "2026-10-29T08:09:07.085Z",
     "boards": 13,
     "pages": 19,
-    "tasks": 941,
-    "active_videos": 5,
+    "tasks": 943,
+    "active_videos": 6,
     "active_images": 0,
-    "free_video_slots": 1,
-    "s62_match_found": false,
-    "rule": "S62 remains unknown, claim retained; no repeat. Independent ready S59 can use current verified capacity."
+    "source": "Topview complete all-board MCP pagination",
+    "active_task_ids": [
+      "b0915b04173c414e9ac08652d34b7852",
+      "c65c30d8cbe14e9eadec886276e62471",
+      "8d7ff1e2de63478693778de29e0dd56e",
+      "4a1061e175054da2810ffef8ad9d31cd",
+      "b15165813c0848939edbe8b3d3aed182",
+      "8b6a8ce102ea416e88d3c14fa558c513"
+    ],
+    "free_video_slots": 0
   },
   "owner_instruction_20261017_2112": {
     "archived_to": "archive/ops/topview-launch-queue-archive.json",
