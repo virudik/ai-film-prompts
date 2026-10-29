@@ -3,18 +3,55 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-29T22:52:01+00:00",
-  "source_head": "cf2a9a641724eebc4785397c20dae21626d3c51f",
-  "source_fingerprint": "c543f48b9ee4921d00979e4c49af257fef449d6bbbac3b34301750078cb8f07a",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-29T22:53:48+00:00",
+  "source_head": "edc2f806cfa95a2720d2c24c6067106beeb49e65",
+  "source_fingerprint": "cb2e08b9d2b1cc19fee0621c7dbd82537d9891613b9281e2c5badff1ab586318",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "selected work has no verified recovery record"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "KM-20261030-WAN4-9",
+    "title": "Wan3 30s: сцены4 и9",
+    "status": "waiting_for_results",
+    "last_completed": "Сцены 4 и 9 отправлены по одному разу: Wan 3.0, 30 с, 720p, 16:9, звук; Topview подтвердил running, по 12 кредитов. Полные UI/provider-промпты совпали с каноном. Остаток 6,37; разрешение исчерпано.",
+    "next_action": "Проверить статусы существующих task ID сцен 4/9; после success сохранить результат и провести просмотр видео/звука. Готовые 2/22 также ждут оценки владельца. Не нажимать Create повторно, не выставлять приёмку автоматически.",
+    "verified_at": "2026-10-29T22:53:48+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
+        "sha256": "ea02f305533a1b63b06ced71fb5acd5fe87e4b84aeba37e103adee1ac4be69a7"
+      },
+      {
+        "file": "projects/kotmonavty/reports/KM09-WAN30-20261030.json",
+        "sha256": "6effa3f50aae12d273477460bed88619851040591fcff2d797cd2404d7b8a29a"
+      },
+      {
+        "file": "projects/kotmonavty/ops/topview-launch-queue.json",
+        "sha256": "6010aec9a321d72d37cfcd05feccf1e367c2816ef023aa0f46110ffbb6fcd419"
+      },
+      {
+        "file": "projects/kotmonavty/HANDOFF.md",
+        "sha256": "11360afb2b0789b1672124cbb486eb66f629b735bd744aa5d5c27a27aaebee17"
+      },
+      {
+        "file": "projects/kotmonavty/INSTRUCTIONS.md",
+        "sha256": "4a46dbeda97847fa31282c8113f2761ec55c8bc72bab41f055b841b175e01e1c"
+      }
+    ],
+    "read_next": [
+      "projects/kotmonavty/HANDOFF.md",
+      "projects/kotmonavty/INSTRUCTIONS.md"
+    ],
+    "checkpoint": {
+      "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
+      "anchor": "# Котмонавты — два Wan 3.0 отправлены, контрольная точка ПОСЛЕ · 30.10.2026",
+      "sha256": "0c5d6ee9344610e9b778cdc23a0b0188c84e93885411891e3836bbe3707ba74a"
+    }
+  },
+  "checkpoint_text": "# Котмонавты — два Wan 3.0 отправлены, контрольная точка ПОСЛЕ · 30.10.2026\n\nwork_id: KM-20261030-WAN4-9\nПроверено: 2026-10-29T22:53:00Z\nСцены 4 и 9 отправлены по одному разу: Wan 3.0, 30 с, 720p, 16:9, звук; Topview подтвердил running, по 12 кредитов. Полные UI/provider-промпты совпали с каноном. Остаток 6,37; разрешение исчерпано.\n- Сцена 4: 4dc7da2c6bff41b3a8161a6cc427aaa7, отправлена 30.10 01:44:32 МСК; квитанция projects/kotmonavty/reports/KM04-WAN30-20261030.json, коммит 53a46762b594e7a48d779f2366a486c952f7ab0b.\n- Сцена 9: 16d53ab1a84e4091b8867b7ed5cc8f4c, отправлена 30.10 01:51:18 МСК; квитанция projects/kotmonavty/reports/KM09-WAN30-20261030.json, коммит cf2a9a641724eebc4785397c20dae21626d3c51f.\n- Четыре источника каждой сцены проверены по SHA, визуально, по UI-порядку и натуральным размерам; все загрузки complete. Обратное скачивание blob для SHA не работало, проверка байтов после загрузки не заявляется. Канонические изображения и все 66 блоков промптов не менялись.\n- По скриншоту Серёгиуса: набор входов соответствует старой ошибочной подготовке S59 P2 (лес 1280×240 отклонён, второй корабль попал вместо него). Задача 9b2e18c883e3401e9b13b2930b3b570c отменена, исправленная b0915b04173c414e9ac08652d34b7852 подтверждена init; S62 0de1f663432646d294f409a22e20a26e тоже init. У красной карточки на скрине нет ID, однозначная привязка не доказана; на свежей доске она не отображалась. Серёгиус не перезапускался и не правился.\n- Учёт обновлён в master, manifests, queue, HANDOFF, INSTRUCTIONS и recovery. Ни одна техническая проверка не является художественной приёмкой.\n\nСледующий шаг: Проверить статусы существующих task ID сцен 4/9; после success сохранить результат и провести просмотр видео/звука. Готовые 2/22 также ждут оценки владельца. Не нажимать Create повторно, не выставлять приёмку автоматически.\nГраницы: только два уже отправленных запуска; без новых изображений, изменения промптов, иных сцен, покупки кредитов и автоповтора.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -107,7 +144,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "projects/kotmonavty/HANDOFF.md",
+    "projects/kotmonavty/INSTRUCTIONS.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -200,13 +240,13 @@
     },
     {
       "file": "projects/kotmonavty/HANDOFF.md",
-      "sha256": "90449275090889970730e6991cf82304115b6f84c4e67cf4d0252a4c6e47373f",
-      "bytes": 5364
+      "sha256": "11360afb2b0789b1672124cbb486eb66f629b735bd744aa5d5c27a27aaebee17",
+      "bytes": 6431
     },
     {
       "file": "projects/kotmonavty/INSTRUCTIONS.md",
-      "sha256": "e8fbd3cec9d338444cb74e28a1ac6967963da946c10d5eb3729e0c1ccada3d4f",
-      "bytes": 12076
+      "sha256": "4a46dbeda97847fa31282c8113f2761ec55c8bc72bab41f055b841b175e01e1c",
+      "bytes": 13032
     },
     {
       "file": "projects/kotmonavty/ops/topview-launch-queue.json",
@@ -215,13 +255,23 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "1ea0fef120432e0aa13a828c50db90d422ac7e91c9cf6f4fa567e7f7c2ebf9e2",
-      "bytes": 17073
+      "sha256": "2df683de8a262797f32ff48651b222b61dc0dfc823e4a75af0082297ebf237cb",
+      "bytes": 17155
+    },
+    {
+      "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
+      "sha256": "ea02f305533a1b63b06ced71fb5acd5fe87e4b84aeba37e103adee1ac4be69a7",
+      "bytes": 4104
+    },
+    {
+      "file": "projects/kotmonavty/reports/KM09-WAN30-20261030.json",
+      "sha256": "6effa3f50aae12d273477460bed88619851040591fcff2d797cd2404d7b8a29a",
+      "bytes": 4184
     },
     {
       "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
-      "sha256": "6da1b4e1b3dbed441e3711da7be05a2bd7e89f97d2e9deca95b032ca93b75e0b",
-      "bytes": 9480
+      "sha256": "95f8519e1f81e18ad6f99e9a8d40944961f831b15ecbf07dc32cb57a4a7b43d8",
+      "bytes": 12515
     },
     {
       "file": "projects/kotmonavty/reports/handoff-receipts.json",
@@ -230,13 +280,13 @@
     },
     {
       "file": "projects/kotmonavty/video-prompts.md",
-      "sha256": "0b9ebd0a153b3b1ce1a5505d23d3fc0c2ed9e140b4e331611bde4222d9601773",
-      "bytes": 439263
+      "sha256": "59d21fb29cf7c430eafefe6322f571f6c381e91ef2dffe98b3eed66cf6757ba4",
+      "bytes": 440524
     },
     {
       "file": "projects/kotmonavty/work-resume-register.json",
-      "sha256": "32d5c8266dbb70a11821f64ed214c4dec8602f01e5ef9e8c12e50f2b45434e38",
-      "bytes": 15988
+      "sha256": "a288610e8ec07a5bf5796932c1af79e1554fa93ac115acc0501c4ce88174bead",
+      "bytes": 19052
     },
     {
       "file": "projects/projects.json",
@@ -259,5 +309,5 @@
       "bytes": 1125949
     }
   ],
-  "packet_bytes": 3865
+  "packet_bytes": 7647
 }

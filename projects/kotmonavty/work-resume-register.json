@@ -6,25 +6,67 @@
       "work_id": "KM-20261030-WAN4-9",
       "project": "kotmonavty",
       "title": "Wan3 30s: сцены4 и9",
-      "status": "in_progress",
+      "status": "waiting_for_results",
       "started_at": "2026-10-29T22:42:13.854Z",
       "authorization": "И по такому же принципу запускай котмонавтов на 30 сек но ван3 Сцена 4 — Не тот груз Сцена 9 — Завтрак в невесомости",
       "done": [
-        "Цена12+12 и баланс30.37 проверены",
-        "Свежие main, очередь/доска без дублей, четыре входа каждой сцены сверены",
-        "Сцена4 отправлена: 4dc7da2c6bff41b3a8161a6cc427aaa7, running, 12 кредитов, параметры/полный промпт подтверждены"
+        "Сцены 4 и 9 отправлены по одному разу: Wan 3.0, 30 с, 720p, 16:9, звук; Topview подтвердил running, по 12 кредитов. Полные UI/provider-промпты совпали с каноном. Остаток 6,37; разрешение исчерпано."
       ],
       "next_actions": [
-        "Сцена9: точный импорт, CAS-claim, один Create и task ID",
-        "Квитанции, мастер/статус, контрольная точка ПОСЛЕ, снять замок"
+        "Проверить статусы существующих task ID сцен 4/9; после success сохранить результат и провести просмотр видео/звука. Готовые 2/22 также ждут оценки владельца. Не нажимать Create повторно, не выставлять приёмку автоматически."
       ],
       "constraints": [
         "Exactly two paid web submissions on Котмонавты; one each; no retry, other scenes, purchase or top-up."
       ],
-      "blockers": []
+      "blockers": [],
+      "receipts": [
+        "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
+        "projects/kotmonavty/reports/KM09-WAN30-20261030.json"
+      ],
+      "verified_at": "2026-10-29T22:53:00Z",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-29T22:53:48+00:00",
+        "last_completed": "Сцены 4 и 9 отправлены по одному разу: Wan 3.0, 30 с, 720p, 16:9, звук; Topview подтвердил running, по 12 кредитов. Полные UI/provider-промпты совпали с каноном. Остаток 6,37; разрешение исчерпано.",
+        "next_action": "Проверить статусы существующих task ID сцен 4/9; после success сохранить результат и провести просмотр видео/звука. Готовые 2/22 также ждут оценки владельца. Не нажимать Create повторно, не выставлять приёмку автоматически.",
+        "checkpoint": {
+          "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
+          "anchor": "# Котмонавты — два Wan 3.0 отправлены, контрольная точка ПОСЛЕ · 30.10.2026",
+          "sha256": "0c5d6ee9344610e9b778cdc23a0b0188c84e93885411891e3836bbe3707ba74a"
+        },
+        "evidence": [
+          {
+            "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
+            "sha256": "ea02f305533a1b63b06ced71fb5acd5fe87e4b84aeba37e103adee1ac4be69a7"
+          },
+          {
+            "file": "projects/kotmonavty/reports/KM09-WAN30-20261030.json",
+            "sha256": "6effa3f50aae12d273477460bed88619851040591fcff2d797cd2404d7b8a29a"
+          },
+          {
+            "file": "projects/kotmonavty/ops/topview-launch-queue.json",
+            "sha256": "6010aec9a321d72d37cfcd05feccf1e367c2816ef023aa0f46110ffbb6fcd419"
+          },
+          {
+            "file": "projects/kotmonavty/HANDOFF.md",
+            "sha256": "11360afb2b0789b1672124cbb486eb66f629b735bd744aa5d5c27a27aaebee17"
+          },
+          {
+            "file": "projects/kotmonavty/INSTRUCTIONS.md",
+            "sha256": "4a46dbeda97847fa31282c8113f2761ec55c8bc72bab41f055b841b175e01e1c"
+          }
+        ],
+        "read_next": [
+          "projects/kotmonavty/HANDOFF.md",
+          "projects/kotmonavty/INSTRUCTIONS.md"
+        ],
+        "blockers": []
+      },
+      "next_action": "Проверить статусы существующих task ID сцен 4/9; после success сохранить результат и провести просмотр видео/звука. Готовые 2/22 также ждут оценки владельца. Не нажимать Create повторно, не выставлять приёмку автоматически.",
+      "updated_at": "2026-10-29T22:53:48+00:00"
     }
   ],
-  "last_updated_at": "2026-10-29T22:45:13.283Z",
+  "last_updated_at": "2026-10-29T22:53:48+00:00",
   "completed_work": [
     {
       "work_id": "KM-20261029-PAID2",
@@ -217,9 +259,9 @@
     }
   },
   "resume_focus": {
-    "project": "kotmonavty",
     "work_id": "KM-20261030-WAN4-9",
-    "set_at": "2026-10-29T22:42:13.854Z",
-    "reason": "Новое прямое поручение владельца"
+    "project": "kotmonavty",
+    "set_at": "2026-10-29T22:53:48+00:00",
+    "reason": "Explicitly selected by the authorized task writer"
   }
 }

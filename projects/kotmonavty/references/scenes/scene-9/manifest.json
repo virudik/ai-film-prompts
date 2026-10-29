@@ -3,8 +3,8 @@
   "project": "kotmonavty",
   "scene": 9,
   "title": "Завтрак в невесомости",
-  "updated_at": "2026-10-20T23:31:58Z",
-  "status": "draft_references_ready",
+  "updated_at": "2026-10-29T22:53:00Z",
+  "status": "video_submitted",
   "editorial_status": "not_approved",
   "references": [
     {
@@ -130,6 +130,18 @@
   ],
   "site_registry": "character-references.json",
   "start_end_states_in_master": true,
-  "queue": "not_queued",
-  "video_launches": 0
+  "queue": "submitted",
+  "video_launches": 1,
+  "video_results": [
+    {
+      "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+      "provider_status": "running",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "credits_cost": 12,
+      "receipt": "projects/kotmonavty/reports/KM09-WAN30-20261030.json",
+      "editorial_status": "not_approved"
+    }
+  ]
 }

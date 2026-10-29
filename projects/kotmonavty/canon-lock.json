@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt",
-  "task": "Owner30Oct: paid Wan3.0 30s scenes4 and9 only; exact refs; one submission each",
+  "state": "free",
+  "holder": null,
+  "task": null,
   "acquired_at": "2026-10-29T22:41:12.295Z",
-  "expires_at": "2026-10-29T23:26:12.295Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-29T22:54:54.262Z",
   "rules": "ops/CANON-LOCK.md"
 }

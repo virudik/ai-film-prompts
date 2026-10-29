@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-29T22:31:30Z",
+  "synced_at": "2026-10-29T22:53:48Z",
   "revision_date": "30.10.2026",
-  "master_declared_last_full_sync": "30.10.2026 · учёт двух результатов: оба task ID имеют success; параметры, промпты и квитанции совпали; тексты промптов и изображения не изменены",
-  "canonical_master_sha256": "0b9ebd0a153b3b1ce1a5505d23d3fc0c2ed9e140b4e331611bde4222d9601773",
-  "canonical_revision_sha256": "679e4e05d2ef577ac01e4d9973c8a23dbf88392723289533385a2905b831c974",
-  "canonical_master_bytes": 439263,
+  "master_declared_last_full_sync": "30.10.2026 · два готовых результата (2/22) и два платных запуска в обработке (4/9); полные промпты и параметры подтверждены; изображения не изменены",
+  "canonical_master_sha256": "59d21fb29cf7c430eafefe6322f571f6c381e91ef2dffe98b3eed66cf6757ba4",
+  "canonical_revision_sha256": "ef36e89a94ed8e87e4c7aa04fc048cf444fafbc3ca683fd5df502fb0c181b45d",
+  "canonical_master_bytes": 440524,
   "scenes": 22,
   "prompt_texts": 66,
   "work_items": [],
@@ -47,7 +47,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 12.526,
+    "age_hours_at_status_build": 12.898,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -125,7 +125,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 12.526,
+      "age_hours": 12.898,
       "blocking": false
     },
     "topview_task_map": {
@@ -193,7 +193,7 @@
       "render_state": "IDLE"
     },
     "4": {
-      "target_engine": "Seedance 2.0",
+      "target_engine": "Wan 3.0",
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
@@ -204,9 +204,10 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
         "two_engine_versions",
-        "reference_first"
+        "reference_first",
+        "submitted",
+        "owner_paid_exception_20261030"
       ],
       "render_state": "IDLE"
     },
@@ -283,7 +284,7 @@
       "render_state": "IDLE"
     },
     "9": {
-      "target_engine": "Seedance 2.0",
+      "target_engine": "Wan 3.0",
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
@@ -294,9 +295,10 @@
       "tags": [
         "owner_requested",
         "draft",
-        "not_queued",
         "two_engine_versions",
-        "reference_first"
+        "reference_first",
+        "submitted",
+        "owner_paid_exception_20261030"
       ],
       "render_state": "IDLE"
     },
@@ -550,9 +552,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "30.10.2026",
-    "synced_at": "2026-10-29T22:31:30Z",
-    "canonical_master_sha256": "0b9ebd0a153b3b1ce1a5505d23d3fc0c2ed9e140b4e331611bde4222d9601773",
-    "canonical_revision_sha256": "679e4e05d2ef577ac01e4d9973c8a23dbf88392723289533385a2905b831c974",
+    "synced_at": "2026-10-29T22:53:48Z",
+    "canonical_master_sha256": "59d21fb29cf7c430eafefe6322f571f6c381e91ef2dffe98b3eed66cf6757ba4",
+    "canonical_revision_sha256": "ef36e89a94ed8e87e4c7aa04fc048cf444fafbc3ca683fd5df502fb0c181b45d",
     "scene_count": 22,
     "prompt_count": 66,
     "scene_ids": [
