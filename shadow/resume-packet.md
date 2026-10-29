@@ -3,30 +3,28 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-10-29T08:43:38+00:00
+Проверено: 2026-10-29T08:44:21+00:00
 Задача: SEREGIUS-PLAN-20261023 — Завершить Серёгиус по сохранённому плану, оценить готовые ролики
 
-Последний подтверждённый этап: Closed failed Stitch trials; scoped S62 uncertainty; corrected S59P2 task b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0; six active videos.
-Следующий шаг: Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.
+Последний подтверждённый этап: Owner authorized exactly one new S62-P1 attempt first at the next free slot; old unknown claim preserved in history. Full scan:6/6 active; no new submission.
+Следующий шаг: First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.
 
 ## Контрольная точка
 
-# Topview: очередь продолжена без проб Стича · 29.10.2026
+# Сцена 62 — следующая попытка по решению владельца · 29.10.2026
 
 work_id: SEREGIUS-PLAN-20261023
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
-Проверено 2026-10-29T08:09:07.085Z. По команде владельца три failed пробы Стича закрыты cancelled_owner; повторов и использования в видео нет. Продолжаем с существующими референсами; шесть входов S68 сохранены.
+Записано: 2026-10-29T08:41:44.413Z. Владелец: «Тогда следующей попробуем 62». Для S62-SEED20-P1 разрешена ровно одна новая бесплатная попытка, первой при следующем свободном видеослоте (priority -0.5). Это явное новое разрешение после неизвестного исхода; не утверждение, что первая попытка не была отправлена. Прежние claim и receipt сохранены в submission_history, активный claim снят по этому решению. При свежем обнаружении настоящей задачи62 принять её вместо дубля. Иначе новый CAS-claim и расход единственного allowance ДО Create; следующий таймаут или fail не разрешает ещё попытку.
 
-Причина простоя: после таймаута Create S62 в06:11–06:13UTC Relay/hourly распространили неопределённость одной отправки на всю очередь. Полные сканы13досок показывали5активных видео. Исходный claim S62 и submission_unknown сохранены, повторять её нельзя; блокировка уточнена до S62 и её зависимых частей. Независимые готовые сцены заполняют проверенные свободные слоты.
+Скан 2026-10-29T08:38:26.439Z: 13 досок, 19 страниц, 943 задачи, 6 активных видео, свободных слотов0; после старой попытки62 найдены только две известные отправки59. В этом изменении Create/новых видео0.
 
-S59-SEED20-P2 отправлена в08:07:31UTC (11:07МСК), task b0915b04173c414e9ac08652d34b7852. Seedance2.0/15s/720p/16:9/quantity1/Unlimited0, creditsCost0. Полный нормализованный prompt совпал; Video1=реальные3с, Image1=финальный кадр, Image2=лесной кроп, Image3=корабль. Байты исправленного Image2 повторно скачаны из принятой задачи и совпали с upload SHA. Полный финальный скан13досок/19страниц/943задач: 6активных видео, 0изображений, свободных слотов0.
+Татуинская связка: 52ч7→66→67→68→69→70→65. Перед её началом ещё пять новых частей52 (2–6), часть1 уже в очереди сервиса. До66 нужен также результат52ч7. По живым priorities перед66 стоят18 ещё неотправленных частей из9 сцен (52,56,48,62,59,60,61,63,64); это не18 обязательных ожиданий: независимые ветки идут по готовности. 63→64 расположены перед66, музыкальные49–51 и танцы после связки.
 
-Ошибка этого рабочего чата сохранена прозрачно: первая задача9b2e18c883e3401e9b13b2930b3b570c ошибочно получила корабль вместо леса; отменена до рендера (UI Отменено, provider fail, стоимость0). Причина: пропущен отказ загрузки леса1280x240 по minimum300px / maximumaspect2.50. Создана только техническая обёртка1280x720 с нейтральными серыми полями; исходный кроп целиком, без масштабирования, обрезки и AI-дорисовки. Единственная корректирующая отправка подтверждена; budget дальнейших попыток0. Это не разрешение будущих автоматических повторов.
+Следующее действие: First next video slot: S62-SEED20-P1, one newly owner-authorized Unlimited0 attempt. Fresh main/owner decisions/lock/full account scan; if actual S62 task is found adopt it and do not duplicate. Unknown old claim preserved in submission_history; it is not an active lock for the new allowance. Before Create persist a new CAS claim and consume allowance; any new timeout/failed attempt gets no automatic repeat. Other items keep ready-skip. Stitch trials closed; Roscosmos paused.
 
-Дальше: при новом слоте свежие owner decisions/main/замок/полный скан; S62 сверять отдельно без повтора, выбирать следующий независимый готовый item по priority (сейчас S60-SEED20-P1). Стича не возобновлять. После success S59P2 — проверить результат и подготовить настоящий стык для P3, художественную приёмку не подменять техническим success. Роскосмос на паузе.
-
-Доказательства: reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json и .jpg; upload_derivative — manifest59. Эта запись заменяет прежний общий запрет отправок до выяснения S62 и старый план трёх проб Стича.
+Квитанция: reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json. Эта запись заменяет прежний запрет новой попытки62 и указание «следующая60»; остальные ограничения сохранены.
 
 ## Обязательные правила
 
@@ -61,7 +59,6 @@ S59-SEED20-P2 отправлена в08:07:31UTC (11:07МСК), task b0915b04173
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
 Задач с сохранённым task ID: 44
-- S62-SEED20-P1: reconcile_without_resubmitting
 
 ## Пробелы
 
