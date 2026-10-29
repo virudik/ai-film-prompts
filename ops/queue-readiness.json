@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "3b6514c991ca5d54c205f1c2b4724baa769d8fe4689414d9d595f28e8f741c0b",
+  "source_queue_sha256": "1823b95b16870b3ac7abd736933fb5b819d95b5c9d0d575e359ea4d4842a4a07",
   "source_task_map_sha256": "baa3ad2690d4594867cf501d304345948b4a10c582502b9089aeb4f8c5182762",
   "topview_checked_at": "2026-10-29T18:30:51Z",
   "items": [
@@ -308,7 +308,7 @@
       "code": "preflight_required",
       "ready": false,
       "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "blocked_browser"
+      "queue_state": "claimed"
     },
     {
       "id": "S62-SEED20-P2",
@@ -465,5 +465,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-29T18:30:58.978233Z"
+  "checked_at": "2026-10-29T19:00:37.659422Z"
 }
