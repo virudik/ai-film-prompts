@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T08:09:07.085Z",
+  "updated_at": "2026-10-29T08:41:44.413Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "LATEST28Oct2026 owner:52P7→66→67→68→69→70→65 Wan3.0/30s;52P1–P6 stay Seedance2.0. Before49→50→51→28; ready-skip unchanged. LATEST27Oct2026 20:25Z owner: scenes68→69 (ГБУ Жилищник) at0.94/0.95 right after67; chain52P7→66→67→68→69 seamless and in order. LATEST27Oct2026 owner: new scenes 64→65→66→67 at priorities0.90–0.93, after63 and before49/50/51 and dances28; chain52P7→66→67 seamless (real last3s of previous link as @Video1). Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "LATEST29Oct2026 owner: S62-SEED20-P1 is the next video submission (priority -0.5), exactly one new explicitly authorized free attempt; see item owner_retry_authorization and history. This overrides earlier S62 no-retry hold for this one attempt only. LATEST28Oct2026 owner:52P7→66→67→68→69→70→65 Wan3.0/30s;52P1–P6 stay Seedance2.0. Before49→50→51→28; ready-skip unchanged. LATEST27Oct2026 20:25Z owner: scenes68→69 (ГБУ Жилищник) at0.94/0.95 right after67; chain52P7→66→67→68→69 seamless and in order. LATEST27Oct2026 owner: new scenes 64→65→66→67 at priorities0.90–0.93, after63 and before49/50/51 and dances28; chain52P7→66→67 seamless (real last3s of previous link as @Video1). Owner25Oct2026: story priorities retained, then63→49→50→51→all selected dances28 A1–A12. Old unsuccessful takes do not count done; preserve tasks/receipts and require fresh quality review. Wan B versions are alternatives, not extra selected dances. Skip true blocked dependencies without reserving a slot; no paid Topview. LATEST decision supersedes older dance-first priorities and one-test gates. Earlier policy retained below only where compatible. LATEST23Oct owner bridge62: insert62P1/P2 at0.45/0.46 after48 in worm block, before59–61; preserve52P2/58P2 first and skip blocked inputs for next genuinely ready item. LATEST23Oct ownerKashyyyk: after ready worm block42/56/48, new59→60→61 at priorities0.50–0.71, before28/49/50/51. Keep52P2/58P2 highest. Independent first parts, real ownP1 required for everyP2; ready-skip still applies. LATEST23Oct2026: fill each free slot with the lowest-priority genuinely ready authorized Seregius item. Skip earlier items awaiting actual previous results; do not hold an idle slot for them. Remove the pure worm-submission ordering hold from57/58; actual own-P1 / previous-result inputs and QC remain mandatory. S57P1 explicitly authorized now. Relative priorities unchanged, so ready42/56/48 parts retain precedence when they become ready. Roscosmos paused_by_owner; dance/approval gates and no paid/retry rules remain. HISTORICAL POLICY (superseded where conflicting with this23Oct rule): LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "S66-STITCH-NB-IMAGE-1",
@@ -5600,8 +5600,8 @@
       "scene_id": 62,
       "prompt_id": "S62-SEED20-P1",
       "canonical_block_label": "62 · Seedance 2.0 часть 1",
-      "priority": 0.45,
-      "state": "submission_unknown",
+      "priority": -0.5,
+      "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
@@ -5680,26 +5680,47 @@
       "canonical_prompt_sha256": "3dab8c8bc696fc214b961197af97af43e39a25860921a6b778759e09f3b781b0",
       "normalized_prompt_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
       "task_id": null,
-      "claim": {
-        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1",
-        "claimed_at": "2026-10-29T06:11:44.236Z",
-        "actor": "chatgpt_event_trigger",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "submission_attempted_at": null,
-        "result": "browser_click_timeout_unknown",
-        "submission_attempt_time_window": {
-          "after": "2026-10-29T06:11:44.236Z",
-          "before": "2026-10-29T06:13:12Z",
-          "reason": "Exact click dispatch timestamp not exposed; browser call timed out."
-        }
-      },
-      "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry.",
+      "claim": null,
+      "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry. Owner29Oct2026 current Work chat: «Тогда следующей попробуем 62». Exactly one new free website attempt of P1 is explicitly authorized after the recorded unknown attempt; first next video slot. Preserve the unknown history; this is not proof of non-submission and not permission for further retries.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Own submit outcome remains unknown after browser Create timeout. No retry of S62; does not reserve verified free capacity against independent ready items.",
-      "last_reconciliation_at": "2026-10-29T06:14:15.605Z",
-      "recovery_next_action": "Reconcile exact task by full normalized prompt, time and inputs; preserve claim and do not retry. Fresh scan29Oct07:33UTC found five active videos and no S62 task. Uncertainty remains scoped to S62 and its dependents; independent ready videos may fill verified capacity per owner29Oct."
+      "blocker": null,
+      "last_reconciliation_at": "2026-10-29T08:38:26.439Z",
+      "recovery_next_action": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown.",
+      "submission_history": [
+        {
+          "state": "submission_unknown",
+          "task_id": null,
+          "claim": {
+            "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1",
+            "claimed_at": "2026-10-29T06:11:44.236Z",
+            "actor": "chatgpt_event_trigger",
+            "holder": "chatgpt",
+            "route": "free_web_gui",
+            "submission_attempted_at": null,
+            "result": "browser_click_timeout_unknown",
+            "submission_attempt_time_window": {
+              "after": "2026-10-29T06:11:44.236Z",
+              "before": "2026-10-29T06:13:12Z",
+              "reason": "Exact click dispatch timestamp not exposed; browser call timed out."
+            }
+          },
+          "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-unconfirmed.json",
+          "superseded_for_scheduling_at": "2026-10-29T08:41:44.413Z",
+          "outcome": "unknown_preserved_owner_authorized_one_new_attempt"
+        }
+      ],
+      "attempts_used": 1,
+      "owner_retry_authorization": {
+        "authorized_at": "2026-10-29T08:41:44.413Z",
+        "source": "current direct owner Work chat",
+        "quote": "Тогда следующей попробуем 62.",
+        "additional_attempts": 1,
+        "priority_override": "next_video_submission",
+        "previous_priority": 0.45,
+        "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
+        "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
+      }
     },
     {
       "id": "S62-SEED20-P2",
@@ -7374,7 +7395,7 @@
   "stop_conditions": [
     "Owner revokes or changes affected item",
     "No verified free/unlimited website mode or price not zero",
-    "Ambiguous previous submit blocks that item and dependent items; preserve claim and reconcile first. Independent authorized items may proceed only after a complete fresh all-board scan and verified physical/UI capacity; never repeat the unknown submit.",
+    "Ambiguous previous submit blocks that item and dependent items; preserve claim and reconcile first. Independent authorized items may proceed only after a complete fresh all-board scan and verified physical/UI capacity; never repeat the unknown submit. Exception only for the explicit item-scoped owner_retry_authorization of S62-P1 dated29Oct; reconcile for a real existing task before using its single new allowance.",
     "Prompt or input SHA differs from approved queued snapshot: re-audit and update package before claim"
   ],
   "telemetry_writer": "robot; this queue never fabricates heartbeat or editorial approval",
@@ -8473,5 +8494,12 @@
     "text": "Картинки не получились, продолжаем очередь без них. Попробовали, не вышло. Отчего простаивает свободный слот?",
     "decision": "Abandon the three failed optional Stitch trials; no retry and no use as video inputs. Continue authorized ready video queue with existing references.",
     "unknown_submission_scope": "Reconcile S62 first. Preserve its claim and submission_unknown; no repeat. After complete fresh all-board scan and verified physical/UI capacity, independent ready items may continue under their own CAS claims. Unknown item and its dependents alone remain blocked."
+  },
+  "owner_instruction_20261029_s62_next": {
+    "recorded_at": "2026-10-29T08:41:44.413Z",
+    "quote": "Тогда следующей попробуем 62.",
+    "item_id": "S62-SEED20-P1",
+    "one_additional_free_attempt": true,
+    "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json"
   }
 }

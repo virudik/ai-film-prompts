@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T08:12:33+00:00",
+  "last_updated_at": "2026-10-29T08:42:27+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_video_results_and_capacity",
-      "updated_at": "2026-10-29T08:12:33+00:00",
+      "updated_at": "2026-10-29T08:42:27+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -22,7 +22,7 @@
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1."
       ],
-      "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
+      "next_action": "First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -195,26 +195,26 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-29T08:12:33+00:00",
-        "last_completed": "Closed failed Stitch trials; scoped S62 uncertainty; corrected S59P2 task b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0; six active videos.",
-        "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
+        "verified_at": "2026-10-29T08:42:27+00:00",
+        "last_completed": "Owner authorized exactly one new S62-P1 attempt first at the next free slot; old unknown claim preserved in history. Full scan:6/6 active; no new submission.",
+        "next_action": "First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Topview: очередь продолжена без проб Стича · 29.10.2026",
-          "sha256": "1a406f9bf32a079a47d6d9cedb49b664cbdbabbcd232cb09527c3555b1e16eaa"
+          "anchor": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026",
+          "sha256": "fd410c4f5ece90a46cf845489f15afc68ab91593a2ab0e07234cd089646e36bf"
         },
         "evidence": [
           {
-            "file": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
-            "sha256": "e60409dc91db34df223d2c81b5eced535ff58a363e6cda8f69d40e073823b576"
-          },
-          {
             "file": "ops/topview-launch-queue.json",
-            "sha256": "25ed2e280bd01a36794e08fe8166e10f64ee04edc937798e8823596191c8dcab"
+            "sha256": "30f0bb61d4b3f98ef30e7df15aa262c164bc70c4be2fd62731e337bae73c23e7"
           },
           {
             "file": "ops/TOPVIEW-FREE-LAUNCH.md",
-            "sha256": "68bfc60d740d7afe9f32fc3497cf7e89a30a2f252b090763a6929a37d129d7bd"
+            "sha256": "c3915df6ae4a77f0924346bda2bf749c026a634b118d068784e0bdd876fb6e0e"
+          },
+          {
+            "file": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
+            "sha256": "c854312fca4cd736c4c4b030cfc8a52c36014ccf441c5abe613a32fa6af56280"
           }
         ],
         "read_next": [
@@ -254,7 +254,21 @@
         "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
         "credits": 0
       },
-      "verified_at": "2026-10-29T08:09:07.085Z"
+      "verified_at": "2026-10-29T08:09:07.085Z",
+      "last_owner_s62_decision": {
+        "at": "2026-10-29T08:41:44.413Z",
+        "item_id": "S62-SEED20-P1",
+        "authorization": {
+          "authorized_at": "2026-10-29T08:41:44.413Z",
+          "source": "current direct owner Work chat",
+          "quote": "Тогда следующей попробуем 62.",
+          "additional_attempts": 1,
+          "priority_override": "next_video_submission",
+          "previous_priority": 0.45,
+          "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
+          "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
+        }
+      }
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
@@ -323,9 +337,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-29T08:12:33+00:00",
+      "updated_at": "2026-10-29T08:42:27+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
+      "next_action": "First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -335,26 +349,26 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-29T08:12:33+00:00",
-        "last_completed": "Closed failed Stitch trials; scoped S62 uncertainty; corrected S59P2 task b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0; six active videos.",
-        "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
+        "verified_at": "2026-10-29T08:42:27+00:00",
+        "last_completed": "Owner authorized exactly one new S62-P1 attempt first at the next free slot; old unknown claim preserved in history. Full scan:6/6 active; no new submission.",
+        "next_action": "First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Topview: очередь продолжена без проб Стича · 29.10.2026",
-          "sha256": "1a406f9bf32a079a47d6d9cedb49b664cbdbabbcd232cb09527c3555b1e16eaa"
+          "anchor": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026",
+          "sha256": "fd410c4f5ece90a46cf845489f15afc68ab91593a2ab0e07234cd089646e36bf"
         },
         "evidence": [
           {
-            "file": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
-            "sha256": "e60409dc91db34df223d2c81b5eced535ff58a363e6cda8f69d40e073823b576"
-          },
-          {
             "file": "ops/topview-launch-queue.json",
-            "sha256": "25ed2e280bd01a36794e08fe8166e10f64ee04edc937798e8823596191c8dcab"
+            "sha256": "30f0bb61d4b3f98ef30e7df15aa262c164bc70c4be2fd62731e337bae73c23e7"
           },
           {
             "file": "ops/TOPVIEW-FREE-LAUNCH.md",
-            "sha256": "68bfc60d740d7afe9f32fc3497cf7e89a30a2f252b090763a6929a37d129d7bd"
+            "sha256": "c3915df6ae4a77f0924346bda2bf749c026a634b118d068784e0bdd876fb6e0e"
+          },
+          {
+            "file": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
+            "sha256": "c854312fca4cd736c4c4b030cfc8a52c36014ccf441c5abe613a32fa6af56280"
           }
         ],
         "read_next": [
@@ -404,7 +418,21 @@
       "verified_at": "2026-10-29T08:09:07.085Z",
       "completed": [
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1."
-      ]
+      ],
+      "last_owner_s62_decision": {
+        "at": "2026-10-29T08:41:44.413Z",
+        "item_id": "S62-SEED20-P1",
+        "authorization": {
+          "authorized_at": "2026-10-29T08:41:44.413Z",
+          "source": "current direct owner Work chat",
+          "quote": "Тогда следующей попробуем 62.",
+          "additional_attempts": 1,
+          "priority_override": "next_video_submission",
+          "previous_priority": 0.45,
+          "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
+          "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
+        }
+      }
     },
     {
       "work_id": "CONTINUE-001",
