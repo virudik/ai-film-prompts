@@ -1,8 +1,30 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "active_work": [],
-  "last_updated_at": "2026-10-29T22:30:59Z",
+  "active_work": [
+    {
+      "work_id": "KM-20261030-WAN4-9",
+      "project": "kotmonavty",
+      "title": "Wan3 30s: сцены4 и9",
+      "status": "in_progress",
+      "started_at": "2026-10-29T22:42:13.854Z",
+      "authorization": "И по такому же принципу запускай котмонавтов на 30 сек но ван3 Сцена 4 — Не тот груз Сцена 9 — Завтрак в невесомости",
+      "done": [
+        "Цена12+12 и баланс30.37 проверены",
+        "Свежие main, очередь/доска без дублей, четыре входа каждой сцены сверены"
+      ],
+      "next_actions": [
+        "Сцена4: точный импорт, CAS-claim, один Create и task ID",
+        "Сцена9: точный импорт, CAS-claim, один Create и task ID",
+        "Квитанции, мастер/статус, контрольная точка ПОСЛЕ, снять замок"
+      ],
+      "constraints": [
+        "Exactly two paid web submissions on Котмонавты; one each; no retry, other scenes, purchase or top-up."
+      ],
+      "blockers": []
+    }
+  ],
+  "last_updated_at": "2026-10-29T22:42:13.854Z",
   "completed_work": [
     {
       "work_id": "KM-20261029-PAID2",
@@ -196,8 +218,8 @@
   },
   "resume_focus": {
     "project": "kotmonavty",
-    "work_id": "KM-WAIT-REVIEW-2-22",
-    "set_at": "2026-10-29T22:30:59Z",
-    "reason": "Порученные два запуска технически завершены; следующий шаг — оценка владельца, не повтор"
+    "work_id": "KM-20261030-WAN4-9",
+    "set_at": "2026-10-29T22:42:13.854Z",
+    "reason": "Новое прямое поручение владельца"
   }
 }

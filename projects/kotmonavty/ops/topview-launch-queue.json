@@ -2,10 +2,10 @@
   "schema_version": 1,
   "project": "kotmonavty",
   "queue_id": "KOTMONAVTY-QUEUE",
-  "updated_at": "2026-10-29T22:30:59Z",
-  "state": "completed",
+  "updated_at": "2026-10-29T22:42:13.854Z",
+  "state": "active",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
-  "selection_policy": "Owner29Oct2026 one-off exception: KM02 and KM22 paid Seedance2.5/30s/720p/16:9/one each on Котмонавты only; existing Work chat handles both under project lock. Not part of free background launcher. All other project items remain unselected. Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
+  "selection_policy": "Owner30Oct2026 one-off exception: KM04 and KM09 paid Wan3.0/30s/720p/16:9/one each, 12 credits each, Котмонавты board only; current Work chat handles under project lock, no automatic retry. Existing KM02/KM22 completed; all other scenes unselected. Owner29Oct2026 one-off exception: KM02 and KM22 paid Seedance2.5/30s/720p/16:9/one each on Котмонавты only; existing Work chat handles both under project lock. Not part of free background launcher. All other project items remain unselected. Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
   "receipts_directory": "projects/kotmonavty/reports",
   "items": [
     {
@@ -247,6 +247,126 @@
       "output_resource_id": "223e55610e0c4069ad64460350fb9bf9",
       "editorial_status": "awaiting_owner_review",
       "automatic_retry": false
+    },
+    {
+      "id": "KM04-WAN30-20261030",
+      "scene_id": 4,
+      "prompt_id": "KM4-WAN30",
+      "canonical_block_label": "4 · Wan 3.0 · 30 с",
+      "prompt_source_path": "projects/kotmonavty/video-prompts.md",
+      "priority": 3,
+      "state": "prepared_for_paid_launch",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "payment_mode": "credits",
+      "max_credits": 12,
+      "max_new_submissions": 1,
+      "attempts_used": 0,
+      "canonical_prompt_sha256": "d72310d4199558bc16dd03569dde0a720955844d28b7fedec4025914e4d58a22",
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "board_name": "Котмонавты",
+      "authorization": "owner_paid_authorizations entry 30Oct2026 scenes4+9",
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+          "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+          "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900",
+          "input_status": "available",
+          "required": true
+        }
+      ],
+      "depends_on_completed": [],
+      "depends_on_submitted": [],
+      "task_id": null,
+      "claim": null,
+      "automatic_retry": false
+    },
+    {
+      "id": "KM09-WAN30-20261030",
+      "scene_id": 9,
+      "prompt_id": "KM9-WAN30",
+      "canonical_block_label": "9 · Wan 3.0 · 30 с",
+      "prompt_source_path": "projects/kotmonavty/video-prompts.md",
+      "priority": 4,
+      "state": "prepared_for_paid_launch",
+      "launch_readiness": "authorized_inputs_available",
+      "model": "Wan 3.0",
+      "selected_model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "payment_mode": "credits",
+      "max_credits": 12,
+      "max_new_submissions": 1,
+      "attempts_used": 0,
+      "canonical_prompt_sha256": "c9e083ead8a4c85495e250bb95a4b14979273cb5491a08697409971e33760d01",
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "board_name": "Котмонавты",
+      "authorization": "owner_paid_authorizations entry 30Oct2026 scenes4+9",
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png",
+          "sha256": "5807845254f9d5eb2112cee654bf0f7dafe745a5e5cd2fba4ef56cb15a8cae58",
+          "input_status": "available",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "input_status": "available",
+          "required": true
+        }
+      ],
+      "depends_on_completed": [],
+      "depends_on_submitted": [],
+      "task_id": null,
+      "claim": null,
+      "automatic_retry": false
     }
   ],
   "already_submitted": {},
@@ -272,5 +392,25 @@
     "consumed": true,
     "actual_total_credits": 72,
     "remaining_submissions": 0
-  }
+  },
+  "owner_paid_authorizations": [
+    {
+      "at": "2026-10-29T22:42:13.854Z",
+      "source": "Direct owner Work chat 30.10.2026",
+      "quote": "И по такому же принципу запускай котмонавтов на 30 сек но ван3 Сцена 4 — Не тот груз Сцена 9 — Завтрак в невесомости",
+      "scenes": [
+        4,
+        9
+      ],
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "quantity_each": 1,
+      "observed_quote_credits_each": 12,
+      "total_credits_limit": 24,
+      "balance_before": 30.37,
+      "scope": "Exactly two paid web submissions on Котмонавты; one each; no retry, other scenes, purchase or top-up.",
+      "consumed": false
+    }
+  ]
 }
