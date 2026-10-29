@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Stable commit marker written LAST after topview-status.json and topview-task-map.json have both been verified. Integration tests trigger on this file, not on intermediate telemetry commits.",
-  "committed_at": "2026-10-29T19:10:30.247Z",
-  "checked_at": "2026-10-29T19:10:24Z",
+  "committed_at": "2026-10-29T20:10:24.365Z",
+  "checked_at": "2026-10-29T20:10:18Z",
   "occupied_slots": 6,
   "active_task_ids": [
     "0de1f663432646d294f409a22e20a26e",
@@ -20,10 +20,10 @@
     59,
     62
   ],
-  "task_map_updated_at": "2026-10-29T19:10:24Z",
-  "task_map_last_scan_at": "2026-10-29T19:10:24Z",
+  "task_map_updated_at": "2026-10-29T20:10:18Z",
+  "task_map_last_scan_at": "2026-10-29T20:10:18Z",
   "canonical_validation": {
-    "verified_at": "2026-10-29T19:10:29Z",
+    "verified_at": "2026-10-29T20:10:23Z",
     "health": "ok",
     "canonical_master_sha256": "ddbf74b366a561b2c4bfaaf77d43b5bcabaffa4ec45dbc3bc24b41d9b41a8399",
     "all_project_checks_true": true
