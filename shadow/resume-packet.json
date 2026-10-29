@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T19:13:44+00:00",
-  "source_head": "aefdf69976873126e8983176ae2124bdb304aa27",
-  "source_fingerprint": "2694713b50a5a7d262b3acb16fe692e98add7889b23385bf85db6d38a8790d10",
+  "checked_at": "2026-10-29T19:43:38+00:00",
+  "source_head": "e19900c99eefef1cf2ce19909f251b90a12a3c55",
+  "source_fingerprint": "b247c2ea337e41477a9c7c2263f516ca26aeb8bddbc75a7c97277544556d0410",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -401,7 +401,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "c9bd3b2992ad8cd5fc926c6aa032bb63fd090b9b5f221a1380640808f5aeb156",
+      "sha256": "b5edc7cbf09e1a1e481b40c51b8df38429656747699181dea9aa68cc9366acfb",
       "bytes": 21304
     },
     {
