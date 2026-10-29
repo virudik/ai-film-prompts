@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T19:02:09.826Z",
+  "updated_at": "2026-10-29T23:01:30.222Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3335,6 +3335,17 @@
         },
         "claimed_by": "chatgpt",
         "scope": "one website Unlimited0 submission"
+      },
+      "result_status": "success",
+      "completed_at": "2026-10-29T22:35:22Z",
+      "result_review": {
+        "reviewed_at": "2026-10-29T23:01:30.222Z",
+        "report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+        "assessment": "continuity_rejected_critical_extra_people",
+        "owner_approved": false,
+        "continuous_full_frame_rate_view": false,
+        "audio_listened": false,
+        "source_archived": false
       }
     },
     {
@@ -3411,8 +3422,8 @@
       "depends_on_completed": [
         "S56-SEED20-P1"
       ],
-      "blocker": "Actual ending of S56-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": "Actual S56-SEED20-P1 ending is not a safe continuity input: one to three extra human silhouettes appear on the ridge and three remain in the final frame, violating exactly-three-people/extra-people locks. Do not trim, synthesize, substitute or submit. Requires a clean real source or explicit owner direction.",
+      "launch_readiness": "blocked_continuity_source_defect",
       "previous_prompt_sha256": [
         "22acbc93f6474a52053a2a8b76651d933e2717d33f0170b39818578d08da1db9"
       ],
@@ -3421,7 +3432,9 @@
       "owner_decision_20261023_cut": {
         "at": "2026-10-23T14:16:11Z",
         "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
-      }
+      },
+      "continuity_qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+      "continuity_source_status": "rejected_critical_extra_people"
     },
     {
       "id": "S16-SEED20-P2",
