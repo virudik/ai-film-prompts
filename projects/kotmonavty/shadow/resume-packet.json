@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-29T22:44:38+00:00",
-  "source_head": "9b5d8f99cfe5e6519467aee1aef4cf8076e764a6",
-  "source_fingerprint": "9ce3afe74a256ebf65bca1af3f545046fd0acf31cea0dee6bd35cf1355fec9c3",
+  "checked_at": "2026-10-29T22:45:49+00:00",
+  "source_head": "ea3496052a4fcf9df1f7f3797895f19166259269",
+  "source_fingerprint": "bda9951339e9efa0d49dfdaf760b51d71197312faf253163a70716013854c838",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -114,16 +114,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "KM04-WAN30-20261030",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 2,
+    "unresolved": [],
+    "existing_task_count": 3,
     "existing_tasks": [
       {
         "item_id": "KM02-SEED25-30-20261029",
@@ -132,6 +124,10 @@
       {
         "item_id": "KM22-SEED25-30-20261029",
         "task_id": "fde415b07e2049a696b94699219268fc"
+      },
+      {
+        "item_id": "KM04-WAN30-20261030",
+        "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7"
       }
     ],
     "next_candidates": [],
@@ -210,8 +206,8 @@
     },
     {
       "file": "projects/kotmonavty/ops/topview-launch-queue.json",
-      "sha256": "da215501f58cd73867a58c29ef86db4a6b5276931f29b657ba9268aec950529f",
-      "bytes": 19566
+      "sha256": "67f2514749584ecd4dc7ee7204d330e608780ec621f612147aa9b49388334f4b",
+      "bytes": 19775
     },
     {
       "file": "projects/kotmonavty/project-status.json",
@@ -220,8 +216,8 @@
     },
     {
       "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
-      "sha256": "77104a30931685faf25cda5b5e66863f0c2b9a16c3e9711c991c4b03964977bf",
-      "bytes": 9254
+      "sha256": "6da1b4e1b3dbed441e3711da7be05a2bd7e89f97d2e9deca95b032ca93b75e0b",
+      "bytes": 9480
     },
     {
       "file": "projects/kotmonavty/reports/handoff-receipts.json",
@@ -235,8 +231,8 @@
     },
     {
       "file": "projects/kotmonavty/work-resume-register.json",
-      "sha256": "27ff48abc9841111ac5343d67db4e3961184b685a6d9295230e1dab98686f5ce",
-      "bytes": 15898
+      "sha256": "32d5c8266dbb70a11821f64ed214c4dec8602f01e5ef9e8c12e50f2b45434e38",
+      "bytes": 15988
     },
     {
       "file": "projects/projects.json",
@@ -259,5 +255,5 @@
       "bytes": 1125949
     }
   ],
-  "packet_bytes": 3919
+  "packet_bytes": 3865
 }
