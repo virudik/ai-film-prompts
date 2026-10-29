@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_queue_sha256": "f35e442c36c002a20773dcf158052bda999a89736973502a0c729e5d820ad0cd",
-  "source_task_map_sha256": "b67567b51a8c8c9d9c6572749a6c1e81460d42a08482fa63bdbb482ca9e18918",
-  "topview_checked_at": "2026-10-29T05:40:20Z",
+  "source_task_map_sha256": "b966ea67038333a5319dec27f4abd8b5e85b4f5c7ad75045a4f007ed1252c539",
+  "topview_checked_at": "2026-10-29T05:50:21Z",
   "items": [
     {
       "id": "S66-STITCH-NB-IMAGE-1",
@@ -377,9 +377,9 @@
       "id": "S28-A2-R2-20261025",
       "scene_id": 28,
       "part_label": "28 A2",
-      "code": "waiting_result",
+      "code": "preflight_required",
       "ready": false,
-      "text": "Ждёт подтверждённый результат S28-A2-20261023",
+      "text": "Входы найдены; требуется снять записанный блокер после проверки",
       "queue_state": "blocked_inputs"
     },
     {
@@ -501,5 +501,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-29T05:40:26.186514Z"
+  "checked_at": "2026-10-29T05:50:26.818344Z"
 }
