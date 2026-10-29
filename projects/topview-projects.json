@@ -1,11 +1,23 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-29T09:30:20Z",
+  "checked_at": "2026-10-29T09:40:30Z",
   "updated_by": "GitHub robot (robot_telemetry.py)",
   "rules": "projects/README.md",
   "note": "Задачи Topview других проектов (не Серёгиуса). Слоты общие: занято на аккаунте = topview-status.json.occupied_slots + число active здесь. Технический success ≠ одобрение.",
   "active": [],
   "recent": [
+    {
+      "project": "kotmonavty",
+      "scene_id": 22,
+      "task_id": "fde415b07e2049a696b94699219268fc",
+      "model": null,
+      "final_status": "success",
+      "finished_at": "2026-10-29T09:39:55Z",
+      "started_at": null,
+      "label": "22",
+      "part": null,
+      "recorded_at": "2026-10-29T09:40:36Z"
+    },
     {
       "project": "kotmonavty",
       "scene_id": 2,
