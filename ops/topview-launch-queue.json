@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T18:13:00Z",
+  "updated_at": "2026-10-29T19:00:05.872Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5601,8 +5601,8 @@
       "prompt_id": "S62-SEED20-P1",
       "canonical_block_label": "62 · Seedance 2.0 часть 1",
       "priority": -0.5,
-      "state": "blocked_browser",
-      "launch_readiness": "blocked_browser_import",
+      "state": "claimed",
+      "launch_readiness": "claimed_allowance_consumed",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5680,23 +5680,34 @@
       "canonical_prompt_sha256": "3dab8c8bc696fc214b961197af97af43e39a25860921a6b778759e09f3b781b0",
       "normalized_prompt_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry",
+        "claimed_at": "2026-10-29T19:00:05.872Z",
+        "actor": "chatgpt",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "owner_retry_authorization": true,
+        "allowance_consumed": true,
+        "submission_attempted_at": null,
+        "preflight": {
+          "checked_at": "2026-10-29T18:59:48.037Z",
+          "boards": 14,
+          "pages": 17,
+          "tasks": 941,
+          "active_videos": 5,
+          "free_video_slots": 1,
+          "matching_s62_tasks": 0,
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "board_name": "My First Board",
+          "prompt_normalized_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
+          "inputs": "Video1+Image1..Image6 exact SHA/order; UI import complete"
+        }
+      },
       "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry. Owner29Oct2026 current Work chat: «Тогда следующей попробуем 62». Exactly one new free website attempt of P1 is explicitly authorized after the recorded unknown attempt; first next video slot. Preserve the unknown history; this is not proof of non-submission and not permission for further retries.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": {
-        "code": "browser_file_transfer_unavailable",
-        "observed_at": "2026-10-29T18:13:00Z",
-        "scope": "current cloud/cdp browser environment",
-        "evidence": [
-          "Fresh complete Topview scan: 14 boards, 17 pages, 941 tasks; five active video tasks, one free video slot; no exact normalized S62 match.",
-          "Authorized My First Board and board_id 1a6244cf1ae747ef847d949a80d6133c verified in open UI; Seedance2.0, 15s, 16:9, 720p, quantity1, Unlimited free mode verified.",
-          "Documented visible file chooser accepted the seven exact local paths, but Topview rejected a valid JPEG as unreadable dimensions and the exact valid 3.0s MP4 as shorter than 2s; a /tmp copy produced no imported input.",
-          "Browser-local transfer fallback through the connected Library download also failed in the cloud browser."
-        ],
-        "safety": "No Create click; no CAS claim; owner retry allowance not consumed."
-      },
-      "last_reconciliation_at": "2026-10-29T08:38:26.439Z",
+      "blocker": null,
+      "last_reconciliation_at": "2026-10-29T18:59:48.037Z",
       "recovery_next_action": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown.",
       "submission_history": [
         {
@@ -5721,18 +5732,60 @@
           "outcome": "unknown_preserved_owner_authorized_one_new_attempt"
         }
       ],
-      "attempts_used": 1,
+      "attempts_used": 2,
       "owner_retry_authorization": {
         "authorized_at": "2026-10-29T08:41:44.413Z",
         "source": "current direct owner Work chat",
         "quote": "Тогда следующей попробуем 62.",
-        "additional_attempts": 1,
+        "additional_attempts": 0,
         "priority_override": "next_video_submission",
         "previous_priority": 0.45,
         "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
-        "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
+        "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown.",
+        "consumed_at": "2026-10-29T19:00:05.872Z",
+        "consumed_by_run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry",
+        "consumed_reason": "Consumed before the single Create as required; any timeout/fail does not restore it."
       },
-      "updated_at": "2026-10-29T18:13:00Z"
+      "updated_at": "2026-10-29T19:00:05.872Z",
+      "blocker_history": [
+        {
+          "code": "browser_file_transfer_unavailable",
+          "observed_at": "2026-10-29T18:13:00Z",
+          "scope": "current cloud/cdp browser environment",
+          "evidence": [
+            "Fresh complete Topview scan: 14 boards, 17 pages, 941 tasks; five active video tasks, one free video slot; no exact normalized S62 match.",
+            "Authorized My First Board and board_id 1a6244cf1ae747ef847d949a80d6133c verified in open UI; Seedance2.0, 15s, 16:9, 720p, quantity1, Unlimited free mode verified.",
+            "Documented visible file chooser accepted the seven exact local paths, but Topview rejected a valid JPEG as unreadable dimensions and the exact valid 3.0s MP4 as shorter than 2s; a /tmp copy produced no imported input.",
+            "Browser-local transfer fallback through the connected Library download also failed in the cloud browser."
+          ],
+          "safety": "No Create click; no CAS claim; owner retry allowance not consumed.",
+          "resolved_at": "2026-10-29T19:00:05.872Z",
+          "resolution": "Cloud shared-file path /home/oai/share verified; UI accepted exact Video1+Image1..Image6."
+        }
+      ],
+      "last_claim": {
+        "run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry",
+        "claimed_at": "2026-10-29T19:00:05.872Z",
+        "actor": "chatgpt",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "owner_retry_authorization": true,
+        "allowance_consumed": true,
+        "submission_attempted_at": null,
+        "preflight": {
+          "checked_at": "2026-10-29T18:59:48.037Z",
+          "boards": 14,
+          "pages": 17,
+          "tasks": 941,
+          "active_videos": 5,
+          "free_video_slots": 1,
+          "matching_s62_tasks": 0,
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "board_name": "My First Board",
+          "prompt_normalized_sha256": "57cc464c830b78487a914dd49466050f90fef452d0632fe5804693e3c4c34e63",
+          "inputs": "Video1+Image1..Image6 exact SHA/order; UI import complete"
+        }
+      }
     },
     {
       "id": "S62-SEED20-P2",
