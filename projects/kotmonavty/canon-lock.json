@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Finish KM02/KM22 paid launch receipts; reconcile confirmed success, preserve no-retry and owner review",
-  "acquired_at": "2026-10-29T22:27:15.524Z",
-  "expires_at": null,
-  "released_at": "2026-10-29T22:32:14Z",
+  "task": "Owner30Oct: paid Wan3.0 30s scenes4 and9 only; exact refs; one submission each",
+  "acquired_at": "2026-10-29T22:41:12.295Z",
+  "expires_at": "2026-10-29T23:26:12.295Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
