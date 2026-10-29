@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-10-29T08:03:32+00:00",
-  "source_head": "82e316de410e8fa530d2c3a93d8646b3204fc23a",
-  "source_fingerprint": "7117251b02ad1d231a6d493cd531c7f45a577981939438ce16b922eec23699ab",
+  "checked_at": "2026-10-29T08:13:38+00:00",
+  "source_head": "38a2e3b3bd03a180eb0b5f37b650d201dec5c9de",
+  "source_fingerprint": "b5288e6c29fbb84f3dffa804269964fb1d59b38211cbb2d15901ffe885d384f8",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -203,8 +203,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "755b2dcd60a1e94cac3415a7c97767da50b7fcb1ecc284e42e4e4d86c9dc2b82",
-      "bytes": 21255
+      "sha256": "48c1ff77bae58cb0a79d79a195194d3dd37e5824f7b09f27218b982c24c7ef88",
+      "bytes": 21281
     },
     {
       "file": "projects/README.md",
@@ -228,7 +228,7 @@
     },
     {
       "file": "projects/kot-detektiv/project-status.json",
-      "sha256": "085644a5f0efc60c4ea2314fdf37c8e780e82a9e67d23b9f0a468271b42d0137",
+      "sha256": "de0019e3f32a6d22abcfc9e567410e86af8af4511e13de6e302e14aeff0f5a5e",
       "bytes": 16732
     },
     {
@@ -263,13 +263,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "8447271e7e56dcad8dc588f6c2b04d077c57b420ef19436e9d9e7443ff27efd4",
-      "bytes": 24009
+      "sha256": "235c1b501e7f30e0cf8c478d9612650540a319c3a1264efa7434454447a436a2",
+      "bytes": 24017
     },
     {
       "file": "video-prompts.md",
-      "sha256": "859fa9c6208ff87f3112bf663ee992fc56555d0a8598d1be47c7a6b244b7290e",
-      "bytes": 1124425
+      "sha256": "e928effa46821aac2565334a5005165e4caa4b5209e2fd2bdf6d1ff70aff24a9",
+      "bytes": 1124881
     }
   ],
   "packet_bytes": 5355
