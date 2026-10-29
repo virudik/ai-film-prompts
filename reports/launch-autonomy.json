@@ -1,27 +1,32 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-28T11:29:56Z",
+  "checked_at": "2026-10-29T11:43:11Z",
   "window_hours": 24,
-  "verdict": "schedule_launched",
+  "verdict": "free_slots_idle_no_schedule_launch",
   "launches": [
     {
-      "item": "S52-R2-SEED20-P1",
-      "scene_id": 52,
-      "claimed_at": "2026-10-28T06:50:49Z",
-      "run_id": "chatgpt-scheduled-event-evt_f13e3ede48ff522e40db68a9d7ed7585-S52-R2-P1",
-      "source": "schedule"
+      "item": "S59-SEED20-P2",
+      "scene_id": 59,
+      "claimed_at": "2026-10-29T08:04:04Z",
+      "run_id": "chatgpt-work-20261029-s59p2-input-correction",
+      "source": "chat"
     }
   ],
-  "launches_by_schedule": 1,
-  "launches_by_chat": 0,
+  "launches_by_schedule": 0,
+  "launches_by_chat": 1,
   "free_slot_observations": [
     {
-      "at": "2026-10-28T06:30:25Z",
+      "at": "2026-10-29T07:30:32Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-28T05:40:27Z",
+      "at": "2026-10-29T06:40:23Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-29T05:50:26Z",
       "occupied": 5,
       "capacity": 6
     }
