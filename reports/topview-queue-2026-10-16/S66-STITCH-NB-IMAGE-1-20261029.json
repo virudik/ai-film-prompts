@@ -44,5 +44,10 @@
   "event_id": "result:8a8eadc809004e318c47201b8a463be0",
   "clicked_once": true,
   "owner_approval": false,
+  "observed_task_status": "fail",
+  "checked_at": "2026-10-29T06:14:15.605Z",
+  "failure_reason": "Unable to show the generated image due to interests of third-party content providers; support code35561575.",
+  "retryable": false,
+  "automatic_retry_allowed": false,
   "ui_proof": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261029.png"
 }

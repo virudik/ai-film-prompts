@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T06:12:56.987Z",
+  "updated_at": "2026-10-29T06:15:23.768Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6013,13 +6013,20 @@
         "actor": "chatgpt_event_trigger",
         "holder": "chatgpt",
         "route": "free_web_gui",
-        "submission_attempted_at": "2026-10-29T06:11:58Z",
-        "result": "browser_click_timeout_unknown"
+        "submission_attempted_at": null,
+        "result": "browser_click_timeout_unknown",
+        "submission_attempt_time_window": {
+          "after": "2026-10-29T06:11:44.236Z",
+          "before": "2026-10-29T06:13:12Z",
+          "reason": "Exact click dispatch timestamp not exposed; browser call timed out."
+        }
       },
       "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Single Create tool call timed out with action_failed; no new matching task observed yet. Never repeat Create; reconcile actual outcome by full prompt/time/input scan first."
+      "blocker": "Three authorized optional Stitch image tasks submitted once each via website Unlimited0; all provider-failed with support35561575 and creditsCost0. S62-P1 preflight passed, but its single Create tool call timed out (action_failed); no matching task found in subsequent full 13-board/19-page scans. Submission outcome remains unknown, claim retained; no second click and no further submission against possibly occupied final slot.",
+      "last_reconciliation_at": "2026-10-29T06:14:15.605Z",
+      "recovery_next_action": "Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images."
     },
     {
       "id": "S62-SEED20-P2",

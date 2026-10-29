@@ -46,5 +46,8 @@
   "owner_approval": false,
   "ui_proof": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-3-20261029.png",
   "observed_task_status": "fail",
-  "failure_reason": "Topview provider content restriction; support35561575"
+  "checked_at": "2026-10-29T06:14:15.605Z",
+  "failure_reason": "Unable to show the generated image due to interests of third-party content providers; support code35561575.",
+  "retryable": false,
+  "automatic_retry_allowed": false
 }

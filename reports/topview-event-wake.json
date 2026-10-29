@@ -292,6 +292,146 @@
       "relay_reminder_event_ids": [
         "evt_4b55047183ac2e58c1e9078953507935"
       ]
+    },
+    {
+      "checked_at": "2026-10-29T06:15:23.768Z",
+      "outcome": "submission_unknown",
+      "reason": "Three authorized optional Stitch image tasks submitted once each via website Unlimited0; all provider-failed with support35561575 and creditsCost0. S62-P1 preflight passed, but its single Create tool call timed out (action_failed); no matching task found in subsequent full 13-board/19-page scans. Submission outcome remains unknown, claim retained; no second click and no further submission against possibly occupied final slot.",
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "Runtime did not expose an actual automation run identifier; claim IDs are local uniqueness identifiers, not runtime run IDs.",
+      "actual_sender": {
+        "name": "topview-robot",
+        "address": "topview-robot@direct",
+        "sender_agent_id": "240204876611608576"
+      },
+      "claim_ids": [
+        "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
+      ],
+      "unconfirmed_item": "S62-SEED20-P1",
+      "unconfirmed_task_id": null,
+      "next_action": "Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.",
+      "final_scan": {
+        "checked_at": "2026-10-29T06:14:15.605Z",
+        "boards": 13,
+        "pages": 19,
+        "total": 941,
+        "active": [
+          {
+            "task_id": "c65c30d8cbe14e9eadec886276e62471",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "b15165813c0848939edbe8b3d3aed182",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
+            "status": "init",
+            "media_type": "video"
+          }
+        ]
+      },
+      "owner_approval": false,
+      "lock_outcome": "own_lock_acquired_CAS; released_in_same_final_commit",
+      "event_id": "result:8a8eadc809004e318c47201b8a463be0",
+      "issue_number": 125,
+      "message_id": "241438560361078784",
+      "relay_event_id": "evt_26a0e02e0be02399ac91697391946e83",
+      "relay_reminder_event_ids": [
+        "evt_d8ee19aa5631d79c94bd3af8be209d4f"
+      ],
+      "observed_at": "2026-10-29T05:50:21Z",
+      "task_ids": [
+        "e0f131c8f04f4991bd7ec9b317223aa0",
+        "0d7a40e276e645d291d31589cc4fbfe6",
+        "d460fc7bd2434133870232482b84237d"
+      ],
+      "new_submissions": 3,
+      "confirmed_video_submissions": 0,
+      "confirmed_credits_cost": 0
+    },
+    {
+      "checked_at": "2026-10-29T06:15:23.768Z",
+      "outcome": "submission_unknown",
+      "reason": "Fresh verified slot re-wake arrived while event125 processing held own lock. Existing S62 submission_unknown claim prevents assuming the last slot is free. Full scan confirms five known active videos and no S62 task yet; no repeat Create.",
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "Runtime did not expose an actual automation run identifier; claim IDs are local uniqueness identifiers, not runtime run IDs.",
+      "actual_sender": {
+        "name": "topview-robot",
+        "address": "topview-robot@direct",
+        "sender_agent_id": "240204876611608576"
+      },
+      "claim_ids": [
+        "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
+      ],
+      "unconfirmed_item": "S62-SEED20-P1",
+      "unconfirmed_task_id": null,
+      "next_action": "Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.",
+      "final_scan": {
+        "checked_at": "2026-10-29T06:14:15.605Z",
+        "boards": 13,
+        "pages": 19,
+        "total": 941,
+        "active": [
+          {
+            "task_id": "c65c30d8cbe14e9eadec886276e62471",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "b15165813c0848939edbe8b3d3aed182",
+            "status": "init",
+            "media_type": "video"
+          },
+          {
+            "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
+            "status": "init",
+            "media_type": "video"
+          }
+        ]
+      },
+      "owner_approval": false,
+      "lock_outcome": "own_lock_acquired_CAS; released_in_same_final_commit",
+      "event_id": "slots:df305d35:1",
+      "issue_number": 126,
+      "message_id": "241443683768741888",
+      "relay_event_id": "evt_2562c001c39a5ef615adb4008631637a",
+      "observed_at": "2026-10-29T06:10:31Z",
+      "task_ids": [],
+      "related_task_ids": [
+        "e0f131c8f04f4991bd7ec9b317223aa0",
+        "0d7a40e276e645d291d31589cc4fbfe6",
+        "d460fc7bd2434133870232482b84237d"
+      ],
+      "new_submissions": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
@@ -1050,3 +1190,4 @@
     }
   }
 }
+
