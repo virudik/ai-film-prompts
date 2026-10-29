@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T23:19:42.843Z",
+  "updated_at": "2026-10-29T23:22:31.873Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5315,8 +5315,8 @@
       "prompt_id": "S60-SEED20-P1",
       "canonical_block_label": "60 · Seedance 2.0 часть 1",
       "priority": 0.6,
-      "state": "claimed",
-      "launch_readiness": "authorized_inputs_available",
+      "state": "submitted",
+      "launch_readiness": "submitted",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5378,8 +5378,14 @@
       ],
       "canonical_prompt_sha256": "a88619ce1653a7b5c86f64ec4d9198413f42fd660956fc7e754cd6192d07535b",
       "normalized_prompt_sha256": "43ef585e5218116da9477ace55f6348f35582ffc44edcffbed3178da90ab126e",
-      "task_id": null,
-      "claim": {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": null,
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "last_claim": {
         "run_id": "chatgpt-scheduled-event-evt_830164b3e7195808b79a49669a866988-s60p1",
         "claimed_at": "2026-10-29T23:19:42.843Z",
         "claimed_by": "chatgpt",
@@ -5453,11 +5459,29 @@
           "max_credits": 0
         }
       },
-      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "blocker": null,
-      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
+      "submitted_at": "2026-10-29T23:20:18Z",
+      "receipt": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
+      "submission_verification": {
+        "checked_at": "2026-10-29T23:22:31.873Z",
+        "full_normalized_prompt_match": true,
+        "input_count": 5,
+        "input_order": [
+          "Video1",
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4"
+        ],
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      },
+      "result_review_required": true
     },
     {
       "id": "S60-SEED20-P2",

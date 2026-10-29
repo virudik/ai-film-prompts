@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T22:55:50.780179Z",
+  "updated_at": "2026-10-29T23:22:31.873Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -631,6 +631,197 @@
       "lock_outcome": "own_lock_acquired_separate_CAS_ea3496052a4fcf9df1f7f3797895f19166259269; released_atomically_with_receipt",
       "next_action": "On the next real wake/hourly cycle recheck fresh main, owner decisions, all boards/pages and capacity. At a free slot choose the highest-priority ready authorized item, complete exact inputs/full prompt/UI Unlimited0 verification, own canon lock and CAS claim immediately before one Create. S56-P2 needs actual S56 result continuity preparation/QC; S60 ready independently. Do not retry S62 or failed Stitch items.",
       "ui_proof": "reports/topview-queue-2026-10-16/S60-not-submitted-20261029T2253Z.png"
+    },
+    {
+      "checked_at": "2026-10-29T23:22:31.873Z",
+      "retryable": false,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "Actual runtime run ID was not exposed; transport IDs and queue claim IDs are not runtime run IDs.",
+      "actual_sender": {
+        "name": "topview-robot",
+        "address": "topview-robot@direct",
+        "sender_agent_id": "240204876611608576"
+      },
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "sender_address_verification": "get_event sender/senderAgentId match fresh config; exact configured address confirmed in Relay roster.",
+      "credits_spent": 0,
+      "final_scan": {
+        "checked_at": "2026-10-29T23:21:20.374Z",
+        "boards": 14,
+        "pages": 20,
+        "total": 945,
+        "errors": [],
+        "active": [
+          {
+            "task_id": "025955aad2cf494da2b4104d26c36ed5",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "0de1f663432646d294f409a22e20a26e",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "b0915b04173c414e9ac08652d34b7852",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "c65c30d8cbe14e9eadec886276e62471",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          }
+        ],
+        "complete": true,
+        "occupied_video_slots": 6,
+        "free_video_slots": 0,
+        "active_images": 0
+      },
+      "lock_outcome": "own_lock_acquired_separate_CAS_26ca7ba1d968b3307eb70866ff0763fed4547873; released_atomically_with_receipts",
+      "next_action": "Fresh main/owner decisions/full all-board scan at next real wake; continue highest-priority ready authorized queue under own lock and CAS claim. Do not repeat submitted tasks; S56-P2 remains blocked by critical extra people in P1 ending.",
+      "event_id": "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
+      "issue_number": 150,
+      "message_id": "241697756572577792",
+      "relay_event_id": "evt_830164b3e7195808b79a49669a866988",
+      "relay_reminder_event_ids": [
+        "evt_4ff087e841dafc75afb53741d487eb6e"
+      ],
+      "observed_at": "2026-10-29T23:00:17Z",
+      "outcome": "submitted",
+      "reason": "Verified source success and five active global videos. Exact S60-P1 canonical prompt and all five input SHA/order/QC verified; separate CAS claim followed by one website Unlimited0 Create. Real task parameters and complete normalized prompt match. Post-scan all six slots occupied.",
+      "task_ids": [
+        "025955aad2cf494da2b4104d26c36ed5"
+      ],
+      "new_submissions": 1,
+      "claim_changes": 1,
+      "submission_receipt": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
+      "source_result": {
+        "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+        "status": "success",
+        "completed_at": "2026-10-29 22:58:47",
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+      }
+    },
+    {
+      "checked_at": "2026-10-29T23:22:31.873Z",
+      "retryable": false,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "Actual runtime run ID was not exposed; transport IDs and queue claim IDs are not runtime run IDs.",
+      "actual_sender": {
+        "name": "topview-robot",
+        "address": "topview-robot@direct",
+        "sender_agent_id": "240204876611608576"
+      },
+      "target_inbox": "chatgpt@cloud-239644772681871360",
+      "sender_address_verification": "get_event sender/senderAgentId match fresh config; exact configured address confirmed in Relay roster.",
+      "credits_spent": 0,
+      "final_scan": {
+        "checked_at": "2026-10-29T23:21:20.374Z",
+        "boards": 14,
+        "pages": 20,
+        "total": 945,
+        "errors": [],
+        "active": [
+          {
+            "task_id": "025955aad2cf494da2b4104d26c36ed5",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "0de1f663432646d294f409a22e20a26e",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "b0915b04173c414e9ac08652d34b7852",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "c65c30d8cbe14e9eadec886276e62471",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          }
+        ],
+        "complete": true,
+        "occupied_video_slots": 6,
+        "free_video_slots": 0,
+        "active_images": 0
+      },
+      "lock_outcome": "own_lock_acquired_separate_CAS_26ca7ba1d968b3307eb70866ff0763fed4547873; released_atomically_with_receipts",
+      "next_action": "Fresh main/owner decisions/full all-board scan at next real wake; continue highest-priority ready authorized queue under own lock and CAS claim. Do not repeat submitted tasks; S56-P2 remains blocked by critical extra people in P1 ending.",
+      "event_id": "result:16d53ab1a84e4091b8867b7ed5cc8f4c",
+      "issue_number": 151,
+      "message_id": "241700296926040064",
+      "relay_event_id": "evt_dca7eff040590e1a45844ad84789203e",
+      "observed_at": "2026-10-29T23:10:24Z",
+      "outcome": "no_update",
+      "reason": "Additional confirmed result signal arrived during event150 handling. Source success verified. Event150 filled the one free global slot with S60-P1; final complete scan14 boards/20 pages/945 tasks has6 active videos. No additional Create or claim for this event.",
+      "task_ids": [],
+      "related_task_ids": [
+        "025955aad2cf494da2b4104d26c36ed5"
+      ],
+      "new_submissions": 0,
+      "claim_changes": 0,
+      "source_result": {
+        "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+        "status": "success",
+        "completed_at": "2026-10-29 23:05:06",
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+      },
+      "relay_reminder_event_ids": [
+        "evt_b471cd301706e7f54f89d435d1d29b06"
+      ]
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

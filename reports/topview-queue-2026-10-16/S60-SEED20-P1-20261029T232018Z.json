@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "item_id": "S60-SEED20-P1",
+  "scene_id": 60,
+  "task_id": "025955aad2cf494da2b4104d26c36ed5",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-29T23:20:18Z",
+  "verified_at": "2026-10-29T23:22:31.873Z",
+  "status": "init",
+  "source": "Topview website Unlimited0",
+  "runner": "chatgpt_event_trigger",
+  "event_id": "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
+  "claim_commit": "00bf5a7e8ea62466b2a52b0b96eb24bc71f7396e",
+  "last_claim": {
+    "run_id": "chatgpt-scheduled-event-evt_830164b3e7195808b79a49669a866988-s60p1",
+    "claimed_at": "2026-10-29T23:19:42.843Z",
+    "claimed_by": "chatgpt",
+    "source": "Agent Relay webhook",
+    "event_id": "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
+    "preflight": {
+      "checked_at": "2026-10-29T23:19:42.843Z",
+      "global_active_video": 5,
+      "full_scan": {
+        "checked_at": "2026-10-29T23:17:14.147Z",
+        "boards": 14,
+        "pages": 20,
+        "total": 944,
+        "errors": [],
+        "active": [
+          {
+            "task_id": "0de1f663432646d294f409a22e20a26e",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "b0915b04173c414e9ac08652d34b7852",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "c65c30d8cbe14e9eadec886276e62471",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
+          {
+            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          }
+        ],
+        "source_results": [
+          {
+            "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+            "status": "success",
+            "completed_at": "2026-10-29 23:05:06",
+            "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+          },
+          {
+            "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+            "status": "success",
+            "completed_at": "2026-10-29 22:58:47",
+            "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+          }
+        ]
+      },
+      "canonical_prompt_sha256": "a88619ce1653a7b5c86f64ec4d9198413f42fd660956fc7e754cd6192d07535b",
+      "normalized_prompt_match": true,
+      "all_input_sha256_verified": true,
+      "website_unlimited": true,
+      "max_credits": 0
+    }
+  },
+  "canonical_prompt_sha256": "a88619ce1653a7b5c86f64ec4d9198413f42fd660956fc7e754cd6192d07535b",
+  "normalized_prompt_sha256": "43ef585e5218116da9477ace55f6348f35582ffc44edcffbed3178da90ab126e",
+  "full_normalized_prompt_match": true,
+  "reference_inputs": [
+    {
+      "slot": "@Video1",
+      "canonical_role": "previous_video_end",
+      "input_status": "available",
+      "required": true,
+      "library_file_id": "libfile_97c44619738081918d864c40ae4b2110",
+      "source_library_file_id": "libfile_f98eb34bded48191927a0bf1b2fd2e36",
+      "filename": "S60-source-ending-27-30s.mp4",
+      "sha256": "1874b5d4423a33c24d8d6c4c868e21e9d370d6079addcc303fa0ba6fc3e03e67",
+      "duration_seconds": 3,
+      "provenance_file": "references/scenes/scene-60/source-continuity.json",
+      "source_requirement": "Materialize the already saved exact3s clip by Library ID, verify SHA256, then upload to webTopview as Video1; source is owner video1000014024.mp4, NOT Scene59."
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "canonical_role": "Серёга",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png",
+      "canonical_role": "Кашиик: соседняя поляна после боя; synthetic location helper; actual continuity video wins",
+      "sha256": "d4e374dbf47048c55e4040358aa2cf8b210f6f6133647a125cd32059dd07649a",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+      "canonical_role": "кабина",
+      "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-60/S60-owner-video-final.jpg",
+      "canonical_role": "точный старт",
+      "sha256": "a7cc6bdc65f50434cabfaec5a42a0f15f26704ed21adbc38101ef1c5860c33e5",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/H4PXp3CiyHNetNPXNnN86.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/s2Om79bQ1HxvA11xCkhvS.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/DKZGQq6cAR9szQV9YjRrt.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/4vvx6EaObZT5RHFC2Pn77.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part1 of2: exact post-battle continuation, boarding and first lift from the glade\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — the supplied battle video's actual final3seconds: Serega has just thrown the Wookiees, Lesha lies left, Vitalik reclines right with the blue saber still glowing. Begin from its LAST frame, after the hit; never replay the punch, shockwave or fall.\n<<<Image1>>>  — SEREGA exact identity and purple robe; no appearance reset against the opening video.\n<<<Image2>>>  — synthetic location reference: the same personal craft in the adjacent boarding clearing after the battle, straight reddish trunks and warm grey haze; this is NOT the opening battle frame. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.\n<<<Image3>>>  — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.\n<<<Image4>>>  — exact final frame of the supplied battle video: initial blocking, fallen bodies, broken trunks and warm grey forest haze. This is an OPENING state, never the later boarding or flight state.\nPriority: <<<Video1>>>  fixes the entire opening, <<<Image1>>>  fixes Serega, <<<Image2>>>  the hull, <<<Image3>>>  the cabin, <<<Image4>>>  the exact first-frame composition.\n\nLOCATION REFERENCE GATE:\nThese synthetic location stills guide the same craft, setting and lighting, not a literal start frame. Apply each setting, gear and hatch state only at its matching timeline beat; hatches close before flight. Actual <<<Video1>>> , when supplied, controls the opening position, motion, screen direction and continuity. Multiple views depict ONE personal craft, never duplicates. Keep the roof empty.\n\nSHIP OCCUPANCY — CRITICAL:\nThe roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in <<<Image1>>> , long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.\nOPENING BACKGROUND CONTINUITY: LESHA lies frame-left, brown wavy hair and moustache, purple tunic, long grey robe and ochre boots. VITALIK reclines against the stump frame-right, stockier build, short light-brown hair, dark armour and the exact exposed-arm battle costume visible in <<<Video1>>> . Do not restore sleeves, stand either up or change their faces. Fallen brown-furred Wookiees stay at the foreground edges, as the source shows; they exit the camera's view when it follows Serega.\n\nVEHICLE / SPACE LOCK — CRITICAL:\nOne personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of <<<Image2>>> . No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.\nThe craft is parked in an adjacent open glade offscreen beyond the battle clearing, not secretly behind a thin trunk. A continuous retreating tracking move along the trail reveals it, without placing it inside the already established clearing. Everyone left behind stays on the ground; no chase or renewed duel.\n\nCOCKPIT / STORY PROPS:\nBREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.\nOne small round wicker basket with brown forest mushrooms is already secured on the cockpit floor beside the pilot's seat, matching the following travel scene. It is revealed with the cabin, not conjured into his hands. The single map module stays concealed in his robe until the navigation beat; nobody gives him another one here.\n\nSTART STATE:\nExactly the LAST frame of <<<Video1>>>  and <<<Image4>>> : Serega centered, hands lowered, Lesha prone left, Vitalik by the stump right with blue blade glowing; fallen Wookiees near the bottom edges. No red blade is visible. Trees, debris and diffuse warm haze are unchanged.\n\nTIMELINE:\n[0:00–0:04] — LEAVE THE AFTERMATH\nContinue the final camera and posture without replaying the blow. Serega flicks his eyes once toward the motionless opponents, turns decisively toward the clear trail and strides away. The camera retreats in front of him; the fallen people remain where they were.\n\n[0:04–0:09] — REVEAL AND BOARD\nThe tracking move reaches the adjacent open glade and reveals his parked dark-grey craft in one coherent space, side ramp down. He accelerates into three quick ramp steps and enters the visible hatch; no jump onto the roof or walking through metal.\n\n[0:09–0:15] — CLOSE AND LIFT\nCut to a medium cockpit angle as he drops into the seat and snaps the controls. Give the yellow grocery note a readable beat; the secured mushroom basket is visible below. The hatch seals before movement. Cut outside as the landing feet unload and the craft rises clear of the glade in a concentrated spiral of leaves.\n\nEND STATE:\nSerega is alone in his pilot seat, side hatch sealed; the intact personal craft has lifted just above the glade, nose toward the broad upward exit between the crowns. Basket secured on the floor; note fixed to the right console; module still concealed.\n\nCAMERA / SPACE:\nKeep the first9seconds continuous from the source; cut into the cockpit at9s and back outside about13s. End on the first clear lift, leaving the full climb for the next part.\n\nPERFORMANCE:\nCold concentrated face, quick purposeful strides and compact decisive hand movements. No victory pose or comic smile. The dynamic contrast is the immobile defeated group behind him against his urgent departure and the craft's accelerating climb.\n\nLIGHTING / MATERIALS:\nOpening matches the source's soft warm-grey woodland haze exactly. Natural forest light gradually opens into bright sky, then cold space light; no instant time-of-day change. Heavy robe, rough bark, damp debris, weathered hull; skin remains natural and evenly readable in cockpit close coverage.\n\nAUDIO:\nCarry the source forest ambience through the opening, not its preceding impact. Fast boots and robe swish, ramp clangs, hatch seal, switches, turbine build and thruster roar, leaf storm, Doppler climb, muted cockpit engine hum and one quiet module tone. No dialogue, cheering, narration or music.\n\nNEGATIVE PROMPT:\nreplayed battle, new shockwave, revived opponents, pursuit, new people, replacing defeated faces, restored sleeves on Vitalik at the start, duplicated Wookiees, red saber appearing, teleporting ship, ship inside a tree, wrong spacecraft, craft changes shape, boarding through roof or hull, open hatch during flight, passenger, copied Vader, spilled mushrooms, extra map exchange, hyperspace tunnel, ship already in space at start, face drift, slow motion, static hero pose, cartoon, subtitles, watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ce4hoxEOvETx5hgaXaGCP.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "025955aad2cf494da2b4104d26c36ed5",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "create_clicks": 1,
+  "preflight_scan": {
+    "checked_at": "2026-10-29T23:17:14.147Z",
+    "boards": 14,
+    "pages": 20,
+    "total": 944,
+    "errors": [],
+    "active": [
+      {
+        "task_id": "0de1f663432646d294f409a22e20a26e",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      }
+    ],
+    "source_results": [
+      {
+        "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
+        "status": "success",
+        "completed_at": "2026-10-29 23:05:06",
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+      },
+      {
+        "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+        "status": "success",
+        "completed_at": "2026-10-29 22:58:47",
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f"
+      }
+    ]
+  },
+  "final_scan": {
+    "checked_at": "2026-10-29T23:21:20.374Z",
+    "boards": 14,
+    "pages": 20,
+    "total": 945,
+    "errors": [],
+    "active": [
+      {
+        "task_id": "025955aad2cf494da2b4104d26c36ed5",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "0de1f663432646d294f409a22e20a26e",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      },
+      {
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "media_type": "video",
+        "unlimited": true
+      }
+    ],
+    "complete": true,
+    "occupied_video_slots": 6,
+    "free_video_slots": 0,
+    "active_images": 0
+  },
+  "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
+  "owner_approval": false,
+  "next_action": "Await actual result; archive and QC before preparing S60-P2 continuity. Never repeat this Create."
+}
