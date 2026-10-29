@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T23:22:31.873Z",
+  "last_updated_at": "2026-10-29T23:39:59+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-29T23:22:31.873Z",
+      "updated_at": "2026-10-29T23:39:59+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -21,9 +21,10 @@
         "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry.",
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1.",
-        "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized."
+        "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized.",
+        "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json."
       ],
-      "next_action": "Fresh main/owner decisions/full all-board scan at next real wake; continue highest-priority ready authorized queue under own lock and CAS claim. Do not repeat submitted tasks; S56-P2 remains blocked by critical extra people in P1 ending.",
+      "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -140,7 +141,7 @@
         "receipt": "reports/topview-event-wake.json"
       },
       "last_observed_topview": {
-        "at": "2026-10-29T23:21:20.374Z",
+        "checked_at": "2026-10-29T23:38:19.518Z",
         "boards": 14,
         "pages": 20,
         "tasks": 945,
@@ -196,31 +197,27 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-29T23:22:31.873Z",
-        "last_completed": "S60-P1 submitted once and verified Unlimited0, task 025955aad2cf494da2b4104d26c36ed5; all6 slots occupied.",
-        "next_action": "Fresh main/owner decisions/full all-board scan at next real wake; continue highest-priority ready authorized queue under own lock and CAS claim. Do not repeat submitted tasks; S56-P2 remains blocked by critical extra people in P1 ending.",
+        "verified_at": "2026-10-29T23:39:59+00:00",
+        "last_completed": "Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.",
+        "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026",
-          "sha256": "fd410c4f5ece90a46cf845489f15afc68ab91593a2ab0e07234cd089646e36bf"
+          "anchor": "# Задача №1: технические повторы без остановки очереди · 30.10.2026",
+          "sha256": "0defd4a4f9ce5d94b59650e8a97b4447b4cdd87bf9727bf2bf15127c77e923b1"
         },
         "evidence": [
           {
-            "file": "ops/topview-launch-queue.json",
-            "sha256": "30f0bb61d4b3f98ef30e7df15aa262c164bc70c4be2fd62731e337bae73c23e7"
+            "file": "ops/TOPVIEW-RETRY.md",
+            "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
           },
           {
-            "file": "ops/TOPVIEW-FREE-LAUNCH.md",
-            "sha256": "c3915df6ae4a77f0924346bda2bf749c026a634b118d068784e0bdd876fb6e0e"
-          },
-          {
-            "file": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
-            "sha256": "c854312fca4cd736c4c4b030cfc8a52c36014ccf441c5abe613a32fa6af56280"
+            "file": "reports/topview-retry-policy-2026-10-30.json",
+            "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b"
           }
         ],
         "read_next": [
           "ops/topview-launch-queue.json",
-          "ops/TOPVIEW-FREE-LAUNCH.md"
+          "ops/TOPVIEW-RETRY.md"
         ],
         "blockers": []
       },
@@ -272,7 +269,9 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Six active Unlimited Seregius videos; no free global slots. S56-P2 remains blocked by critical extra people in the actual P1 ending."
+      "current_blocker": "Six active Seregius videos, zero free slots; no Create in this open-chat policy update.",
+      "retry_policy": "ops/TOPVIEW-RETRY.md",
+      "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json"
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
@@ -341,9 +340,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-29T23:22:31.873Z",
+      "updated_at": "2026-10-29T23:39:59+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Fresh main/owner decisions/full all-board scan at next real wake; continue highest-priority ready authorized queue under own lock and CAS claim. Do not repeat submitted tasks; S56-P2 remains blocked by critical extra people in P1 ending.",
+      "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -353,31 +352,27 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-29T23:22:31.873Z",
-        "last_completed": "S60-P1 submitted once and verified Unlimited0, task 025955aad2cf494da2b4104d26c36ed5; all6 slots occupied.",
-        "next_action": "Fresh main/owner decisions/full all-board scan at next real wake; continue highest-priority ready authorized queue under own lock and CAS claim. Do not repeat submitted tasks; S56-P2 remains blocked by critical extra people in P1 ending.",
+        "verified_at": "2026-10-29T23:39:59+00:00",
+        "last_completed": "Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.",
+        "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026",
-          "sha256": "fd410c4f5ece90a46cf845489f15afc68ab91593a2ab0e07234cd089646e36bf"
+          "anchor": "# Задача №1: технические повторы без остановки очереди · 30.10.2026",
+          "sha256": "0defd4a4f9ce5d94b59650e8a97b4447b4cdd87bf9727bf2bf15127c77e923b1"
         },
         "evidence": [
           {
-            "file": "ops/topview-launch-queue.json",
-            "sha256": "30f0bb61d4b3f98ef30e7df15aa262c164bc70c4be2fd62731e337bae73c23e7"
+            "file": "ops/TOPVIEW-RETRY.md",
+            "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
           },
           {
-            "file": "ops/TOPVIEW-FREE-LAUNCH.md",
-            "sha256": "c3915df6ae4a77f0924346bda2bf749c026a634b118d068784e0bdd876fb6e0e"
-          },
-          {
-            "file": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
-            "sha256": "c854312fca4cd736c4c4b030cfc8a52c36014ccf441c5abe613a32fa6af56280"
+            "file": "reports/topview-retry-policy-2026-10-30.json",
+            "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b"
           }
         ],
         "read_next": [
           "ops/topview-launch-queue.json",
-          "ops/TOPVIEW-FREE-LAUNCH.md"
+          "ops/TOPVIEW-RETRY.md"
         ],
         "blockers": []
       },
@@ -439,7 +434,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Six active Unlimited Seregius videos; no free global slots. S56-P2 remains blocked by critical extra people in the actual P1 ending.",
+      "current_blocker": "Six active Seregius videos, zero free slots; no Create in this open-chat policy update.",
       "last_topview_scan": {
         "checked_at": "2026-10-29T23:21:20.374Z",
         "boards": 14,
@@ -504,7 +499,7 @@
         "receipt": "reports/topview-event-wake.json"
       },
       "last_observed_topview": {
-        "at": "2026-10-29T23:21:20.374Z",
+        "checked_at": "2026-10-29T23:38:19.518Z",
         "boards": 14,
         "pages": 20,
         "tasks": 945,
@@ -532,7 +527,9 @@
         "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
         "credits": 0,
         "use_unlimit_mode": true
-      }
+      },
+      "retry_policy": "ops/TOPVIEW-RETRY.md",
+      "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json"
     },
     {
       "work_id": "CONTINUE-001",
@@ -1260,9 +1257,9 @@
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
   "resume_focus": {
-    "work_id": "SEREGIUS-PLAN-20261023",
+    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "project": "seregius",
-    "set_at": "2026-10-29T23:03:12.753Z",
-    "reason": "S56-P1 success QC found critical extra background people in the actual final3s; S56-P2 remains blocked. Global scan has7 active videos/capacity6; wait fresh capacity and continue with next independent ready item."
+    "set_at": "2026-10-29T23:39:59+00:00",
+    "reason": "Explicitly selected by the authorized task writer"
   }
 }

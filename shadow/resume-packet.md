@@ -2,29 +2,27 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-10-29T23:36:20+00:00
-Задача: не определена — 
+Состояние: ready
+Проверено: 2026-10-29T23:39:59+00:00
+Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
-Последний подтверждённый этап: нет доказательств
-Следующий шаг: восстановить конкретный пробел
+Последний подтверждённый этап: Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.
+Следующий шаг: Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.
 
 ## Контрольная точка
 
-# Сцена 62 — следующая попытка по решению владельца · 29.10.2026
+# Задача №1: технические повторы без остановки очереди · 30.10.2026
 
-work_id: SEREGIUS-PLAN-20261023
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
+work_id: SEREGIUS-PLAN-20261023
 
-Записано: 2026-10-29T08:41:44.413Z. Владелец: «Тогда следующей попробуем 62». Для S62-SEED20-P1 разрешена ровно одна новая бесплатная попытка, первой при следующем свободном видеослоте (priority -0.5). Это явное новое разрешение после неизвестного исхода; не утверждение, что первая попытка не была отправлена. Прежние claim и receipt сохранены в submission_history, активный claim снят по этому решению. При свежем обнаружении настоящей задачи62 принять её вместо дубля. Иначе новый CAS-claim и расход единственного allowance ДО Create; следующий таймаут или fail не разрешает ещё попытку.
+Решение владельца: при техническом отказе пытаться восстановить запуск, затем продолжать независимую согласованную очередь Серёгиуса. Действует ops/TOPVIEW-RETRY.md: до двух дополнительных попыток на item, общий постоянный счётчик Work/hourly/Relay, пауза около минуты; неизвестный исход сначала сверять, активные задачи не дублировать. Owner holds, реальные входы/QC и Unlimited0 сохраняются.
 
-Скан 2026-10-29T08:38:26.439Z: 13 досок, 19 страниц, 943 задачи, 6 активных видео, свободных слотов0; после старой попытки62 найдены только две известные отправки59. В этом изменении Create/новых видео0.
+Часовое задание 6acae6ab… и Relay 6adc585e… обновлены; точный readback обоих, расписание HH:55 Europe/Moscow и одна relay.message с прежними фильтрами подтверждены. Коммит правил: e6524f3c1465a79b97e82ca84f100b9346975530. Квитанция: reports/topview-retry-policy-2026-10-30.json. 348 тестов, site validator и canon-health прошли.
 
-Татуинская связка: 52ч7→66→67→68→69→70→65. Перед её началом ещё пять новых частей52 (2–6), часть1 уже в очереди сервиса. До66 нужен также результат52ч7. По живым priorities перед66 стоят18 ещё неотправленных частей из9 сцен (52,56,48,62,59,60,61,63,64); это не18 обязательных ожиданий: независимые ветки идут по готовности. 63→64 расположены перед66, музыкальные49–51 и танцы после связки.
+На 30.10 02:38 МСК: полный скан 14 досок/20 страниц/945 задач; 6/6 видео init, свободных0, новых запусков/повторов здесь0. S60-P1 уже отправлена Relay в02:20 (025955aad2cf494da2b4104d26c36ed5). Исправленная S59-P2 и S62-P1 активны. Ближайшая сейчас готовая независимая — S61-P1; при освобождении сначала заново проверить priority/готовность более ранних частей. S56-P2 по-прежнему блокирует дефект реального стыка P1, художественный rerender не разрешён.
 
-Следующее действие: First next video slot: S62-SEED20-P1, one newly owner-authorized Unlimited0 attempt. Fresh main/owner decisions/lock/full account scan; if actual S62 task is found adopt it and do not duplicate. Unknown old claim preserved in submission_history; it is not an active lock for the new allowance. Before Create persist a new CAS claim and consume allowance; any new timeout/failed attempt gets no automatic repeat. Other items keep ready-skip. Stitch trials closed; Roscosmos paused.
-
-Квитанция: reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json. Эта запись заменяет прежний запрет новой попытки62 и указание «следующая60»; остальные ограничения сохранены.
+Далее: на настоящем wake/часовом цикле fresh main/решения владельца/полный скан; подтверждённый технический fail обработать по общему бюджету, локальный blocker/исчерпание не удерживают слот. Неизвестный Create не повторять. Новый retry ещё не испытывался в production: текущие слоты заняты.
 
 ## Обязательные правила
 
@@ -46,6 +44,8 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
 ## Прочитать под задачу
 
+- `ops/topview-launch-queue.json`
+- `ops/TOPVIEW-RETRY.md`
 
 ## Перед действием
 
@@ -60,4 +60,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- recovery evidence changed: ops/topview-launch-queue.json
+Нет ошибок локальной проверки. Живые проверки выше обязательны.

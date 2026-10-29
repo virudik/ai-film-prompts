@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27T21:32:18.331062+00:00",
+  "checked_at": "2026-10-29T23:39:23.278301+00:00",
   "status": "ok",
   "scope": "Selected consistency invariants only; full semantic review and runtime success are separate.",
   "live_automations": "checked",
   "automation_observations": [
     {
       "id": "6acae6ab433481919e88665c520b8ef2",
-      "updated_at": "2026-10-27T20:52:53.414590+00:00",
-      "prompt_sha256": "a315a17744eedc210effd11724dee7fa09059594a27aa8fce2e2ae6d6fe6d4c2"
+      "updated_at": "2026-10-29T23:36:02.935238+00:00",
+      "prompt_sha256": "44581956d7284f95b9e5c6d79099c868bd297e6a47c694810b89ee4d88e42fd7"
     },
     {
       "id": "6adc585e7ac08191bb93825117dc7213",
-      "updated_at": "2026-10-27T21:30:23.823663+00:00",
-      "prompt_sha256": "9753e14ea64c9850d8ab3138856962c8ebf7538103ff6081bc2c138bc85f7025"
+      "updated_at": "2026-10-29T23:36:50.272515+00:00",
+      "prompt_sha256": "ebe519d3162b7c1715c8d07413ac10d157edb590d55517cdd9a3ebdd89a5e29b"
     }
   ],
   "problems": []

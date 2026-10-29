@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-29T23:39:22.461Z",
+  "source": "Direct owner instruction in open ChatGPT Work",
+  "policy_id": "owner-20261030-technical-retry",
+  "policy_commit": "e6524f3c1465a79b97e82ca84f100b9346975530",
+  "rules": "ops/TOPVIEW-RETRY.md",
+  "max_additional_attempts_per_item": 2,
+  "pause_seconds": 60,
+  "budget_shared_across": [
+    "open_work",
+    "hourly",
+    "relay"
+  ],
+  "new_automations": 0,
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "live_scan": {
+    "started_at": "2026-10-29T23:38:09.966Z",
+    "checked_at": "2026-10-29T23:38:19.518Z",
+    "source": "complete read-only Topview MCP pagination",
+    "boards": 14,
+    "pages": 20,
+    "tasks": 945,
+    "active_videos": 6,
+    "active_images": 0,
+    "active": [
+      {
+        "task_id": "025955aad2cf494da2b4104d26c36ed5",
+        "status": "init",
+        "media_type": "video",
+        "created_at": "2026-10-29 23:20:18",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "item_id": "S60-SEED20-P1"
+      },
+      {
+        "task_id": "0de1f663432646d294f409a22e20a26e",
+        "status": "init",
+        "media_type": "video",
+        "created_at": "2026-10-29 19:01:23",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "item_id": "S62-SEED20-P1"
+      },
+      {
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "status": "init",
+        "media_type": "video",
+        "created_at": "2026-10-29 08:07:31",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "item_id": "S59-SEED20-P2"
+      },
+      {
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "status": "init",
+        "media_type": "video",
+        "created_at": "2026-10-28 06:51:02",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "item_id": "S52-R2-SEED20-P1"
+      },
+      {
+        "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+        "status": "init",
+        "media_type": "video",
+        "created_at": "2026-10-27 06:14:50",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "item_id": "S48-SEED20-P1"
+      },
+      {
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "status": "init",
+        "media_type": "video",
+        "created_at": "2026-10-26 01:08:59",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "item_id": "S42-SEED20-P2"
+      }
+    ],
+    "board_counts": [
+      {
+        "board_id": "3db83056ccef4361a9563a4f77afa1d5",
+        "tasks": 0,
+        "pages": 1
+      },
+      {
+        "board_id": "6b246f75715f43be945f17b06bff9d88",
+        "tasks": 16,
+        "pages": 1
+      },
+      {
+        "board_id": "c934cec563ea45e1b37d12657821ebd5",
+        "tasks": 0,
+        "pages": 1
+      },
+      {
+        "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+        "tasks": 0,
+        "pages": 1
+      },
+      {
+        "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+        "tasks": 11,
+        "pages": 1
+      },
+      {
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+        "tasks": 4,
+        "pages": 1
+      },
+      {
+        "board_id": "db4b4d6d0abc4cb4b278ea80738639f2",
+        "tasks": 32,
+        "pages": 1
+      },
+      {
+        "board_id": "24a69085fab4497b9c1a52536252b63d",
+        "tasks": 20,
+        "pages": 1
+      },
+      {
+        "board_id": "0aafc553d8a049d2bc21221511293830",
+        "tasks": 5,
+        "pages": 1
+      },
+      {
+        "board_id": "9f8ec3c1d7294675bfb87fa75577dec2",
+        "tasks": 64,
+        "pages": 1
+      },
+      {
+        "board_id": "29d5b28f0e744b9eb6bfbee47efb6ff9",
+        "tasks": 37,
+        "pages": 1
+      },
+      {
+        "board_id": "dde2634b5fb54e789bb22dd4c95a75b6",
+        "tasks": 23,
+        "pages": 1
+      },
+      {
+        "board_id": "caa5d8898f14442ea37c3278d156b3fe",
+        "tasks": 59,
+        "pages": 1
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "tasks": 674,
+        "pages": 7
+      }
+    ],
+    "recent_failures": [],
+    "new_submissions": 0,
+    "free_video_slots": 0
+  },
+  "automation_readback": {
+    "exact_prompts": true,
+    "schedules_unchanged": true,
+    "enabled": true,
+    "relay_subscription_count": 1,
+    "relay_filters_unchanged": true,
+    "tasks": [
+      {
+        "id": "6acae6ab433481919e88665c520b8ef2",
+        "updated_at": "2026-10-29T23:36:02.935238+00:00",
+        "prompt_sha256": "44581956d7284f95b9e5c6d79099c868bd297e6a47c694810b89ee4d88e42fd7",
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT"
+      },
+      {
+        "id": "6adc585e7ac08191bb93825117dc7213",
+        "updated_at": "2026-10-29T23:36:50.272515+00:00",
+        "prompt_sha256": "ebe519d3162b7c1715c8d07413ac10d157edb590d55517cdd9a3ebdd89a5e29b",
+        "schedule": "BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT"
+      }
+    ],
+    "relay_subscriptions": [
+      {
+        "id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+        "event": "relay.message",
+        "arguments": {},
+        "active": true
+      }
+    ]
+  },
+  "validation": {
+    "unit_tests": 348,
+    "unit_tests_passed": true,
+    "site_validator": "ok",
+    "canon_health": "ok; zero warnings",
+    "queue_item_changes": 0,
+    "task_id_changes": 0,
+    "readiness_rows_changes": 0,
+    "archive_preservation": "Three old metadata entries and historical selection_policy preserved verbatim; active items/IDs/priorities/inputs unchanged."
+  },
+  "runtime_validation": "Configuration and readback verified. No new retry was executed: all six global video slots occupied; no new confirmed terminal failures found.",
+  "next_action": "At next real wake: fresh main/owner decisions/full scan, reconcile tasks; apply bounded retry only to confirmed technical failure; otherwise launch next independent ready item by priority at an actual free slot.",
+  "next_current_ready_item": "S61-SEED20-P1"
+}

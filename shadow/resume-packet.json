@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T23:36:20+00:00",
-  "source_head": "d6f36395fead14f1caa16091332550d21b680b89",
-  "source_fingerprint": "1502cda434d27bd568bdd3a4e335dc7d5509364ff907d9b95bd4e02c0f4e1db5",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-29T23:39:59+00:00",
+  "source_head": "701ace6c459b903198231624aadc433a9cc3fe5f",
+  "source_fingerprint": "ce35f4c2666634ed61abfc44e28cf3d1360b9110336a3bb153a829e384d740d4",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,11 +30,36 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [
-    "recovery evidence changed: ops/topview-launch-queue.json"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nЗаписано: 2026-10-29T08:41:44.413Z. Владелец: «Тогда следующей попробуем 62». Для S62-SEED20-P1 разрешена ровно одна новая бесплатная попытка, первой при следующем свободном видеослоте (priority -0.5). Это явное новое разрешение после неизвестного исхода; не утверждение, что первая попытка не была отправлена. Прежние claim и receipt сохранены в submission_history, активный claim снят по этому решению. При свежем обнаружении настоящей задачи62 принять её вместо дубля. Иначе новый CAS-claim и расход единственного allowance ДО Create; следующий таймаут или fail не разрешает ещё попытку.\n\nСкан 2026-10-29T08:38:26.439Z: 13 досок, 19 страниц, 943 задачи, 6 активных видео, свободных слотов0; после старой попытки62 найдены только две известные отправки59. В этом изменении Create/новых видео0.\n\nТатуинская связка: 52ч7→66→67→68→69→70→65. Перед её началом ещё пять новых частей52 (2–6), часть1 уже в очереди сервиса. До66 нужен также результат52ч7. По живым priorities перед66 стоят18 ещё неотправленных частей из9 сцен (52,56,48,62,59,60,61,63,64); это не18 обязательных ожиданий: независимые ветки идут по готовности. 63→64 расположены перед66, музыкальные49–51 и танцы после связки.\n\nСледующее действие: First next video slot: S62-SEED20-P1, one newly owner-authorized Unlimited0 attempt. Fresh main/owner decisions/lock/full account scan; if actual S62 task is found adopt it and do not duplicate. Unknown old claim preserved in submission_history; it is not an active lock for the new allowance. Before Create persist a new CAS claim and consume allowance; any new timeout/failed attempt gets no automatic repeat. Other items keep ready-skip. Stitch trials closed; Roscosmos paused.\n\nКвитанция: reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json. Эта запись заменяет прежний запрет новой попытки62 и указание «следующая60»; остальные ограничения сохранены.\n",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+    "title": "Заполнение свободных Topview-слотов — задача №1",
+    "status": "waiting_global_capacity",
+    "last_completed": "Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.",
+    "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
+    "verified_at": "2026-10-29T23:39:59+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "ops/TOPVIEW-RETRY.md",
+        "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
+      },
+      {
+        "file": "reports/topview-retry-policy-2026-10-30.json",
+        "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b"
+      }
+    ],
+    "read_next": [
+      "ops/topview-launch-queue.json",
+      "ops/TOPVIEW-RETRY.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# Задача №1: технические повторы без остановки очереди · 30.10.2026",
+      "sha256": "0defd4a4f9ce5d94b59650e8a97b4447b4cdd87bf9727bf2bf15127c77e923b1"
+    }
+  },
+  "checkpoint_text": "# Задача №1: технические повторы без остановки очереди · 30.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\nwork_id: SEREGIUS-PLAN-20261023\n\nРешение владельца: при техническом отказе пытаться восстановить запуск, затем продолжать независимую согласованную очередь Серёгиуса. Действует ops/TOPVIEW-RETRY.md: до двух дополнительных попыток на item, общий постоянный счётчик Work/hourly/Relay, пауза около минуты; неизвестный исход сначала сверять, активные задачи не дублировать. Owner holds, реальные входы/QC и Unlimited0 сохраняются.\n\nЧасовое задание 6acae6ab… и Relay 6adc585e… обновлены; точный readback обоих, расписание HH:55 Europe/Moscow и одна relay.message с прежними фильтрами подтверждены. Коммит правил: e6524f3c1465a79b97e82ca84f100b9346975530. Квитанция: reports/topview-retry-policy-2026-10-30.json. 348 тестов, site validator и canon-health прошли.\n\nНа 30.10 02:38 МСК: полный скан 14 досок/20 страниц/945 задач; 6/6 видео init, свободных0, новых запусков/повторов здесь0. S60-P1 уже отправлена Relay в02:20 (025955aad2cf494da2b4104d26c36ed5). Исправленная S59-P2 и S62-P1 активны. Ближайшая сейчас готовая независимая — S61-P1; при освобождении сначала заново проверить priority/готовность более ранних частей. S56-P2 по-прежнему блокирует дефект реального стыка P1, художественный rerender не разрешён.\n\nДалее: на настоящем wake/часовом цикле fresh main/решения владельца/полный скан; подтверждённый технический fail обработать по общему бюджету, локальный blocker/исчерпание не удерживают слот. Неизвестный Create не повторять. Новый retry ещё не испытывался в production: текущие слоты заняты.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +152,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/topview-launch-queue.json",
+    "ops/TOPVIEW-RETRY.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -399,6 +427,11 @@
       "bytes": 40928
     },
     {
+      "file": "ops/TOPVIEW-RETRY.md",
+      "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7",
+      "bytes": 9173
+    },
+    {
       "file": "ops/topview-launch-queue.json",
       "sha256": "71764f5075458e213731fd3f0515581bba071ec36dcc41f40ec20e73b7cbcc10",
       "bytes": 398254
@@ -410,13 +443,18 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "f025a4dc782927425dbd1d70e7063a265681f32f86119ca76beac35fd2ed754c",
-      "bytes": 35350
+      "sha256": "2cf34aebd5a5555ab018533a2a7c89e6f9954a0e6ac6122edd0963d65d674191",
+      "bytes": 37874
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "4c9b7b8122947a7b411710e4e9be54d62a91b40f260e0c3adb4208cbce54dc32",
       "bytes": 20662
+    },
+    {
+      "file": "reports/topview-retry-policy-2026-10-30.json",
+      "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b",
+      "bytes": 5937
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -435,9 +473,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "3c6e43f594ba2f9204d6e7c2c0589bc99d154d4add22c7a63833fe1bd8821381",
-      "bytes": 80820
+      "sha256": "533e1f8285f6a5e904fe94531ea082a6b47e713aed9a5c6e61b9f2b52a1e16bd",
+      "bytes": 81105
     }
   ],
-  "packet_bytes": 6820
+  "packet_bytes": 6944
 }
