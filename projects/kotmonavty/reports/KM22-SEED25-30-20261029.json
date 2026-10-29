@@ -181,5 +181,20 @@
     }
   ],
   "editorial_approval": false,
-  "automatic_retry": false
+  "automatic_retry": false,
+  "status": "success",
+  "completed_at": "2026-10-29T09:39:55Z",
+  "last_verified_at": "2026-10-29T22:30:59Z",
+  "output": {
+    "resourceId": "223e55610e0c4069ad64460350fb9bf9",
+    "format": "mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 30,
+    "durationMs": 30000,
+    "type": "video"
+  },
+  "editorial_status": "awaiting_owner_review",
+  "visual_review": "not_performed",
+  "audio_review": "not_performed"
 }

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "project": "kotmonavty",
   "queue_id": "KOTMONAVTY-QUEUE",
-  "updated_at": "2026-10-29T09:16:18.221Z",
-  "state": "active",
+  "updated_at": "2026-10-29T22:30:59Z",
+  "state": "completed",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "selection_policy": "Owner29Oct2026 one-off exception: KM02 and KM22 paid Seedance2.5/30s/720p/16:9/one each on Котмонавты only; existing Work chat handles both under project lock. Not part of free background launcher. All other project items remain unselected. Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
   "receipts_directory": "projects/kotmonavty/reports",
@@ -15,7 +15,7 @@
       "canonical_block_label": "2 · Wan 3.0 · 30 с",
       "prompt_source_path": "projects/kotmonavty/video-prompts.md",
       "priority": 1,
-      "state": "submitted",
+      "state": "completed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.5",
       "selected_model": "Seedance 2.5",
@@ -120,7 +120,13 @@
       },
       "credits_cost": 36,
       "receipt": "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
-      "normalized_prompt_sha256": "8cf8fb18ab9f8b10cbaed1f18e85a89813c62b48ab480e5404c281c71cc13783"
+      "normalized_prompt_sha256": "8cf8fb18ab9f8b10cbaed1f18e85a89813c62b48ab480e5404c281c71cc13783",
+      "provider_status": "success",
+      "completed_at": "2026-10-29T09:22:09Z",
+      "last_verified_at": "2026-10-29T22:30:59Z",
+      "output_resource_id": "2b8790452a3542c2ab1774ccc62b47f6",
+      "editorial_status": "awaiting_owner_review",
+      "automatic_retry": false
     },
     {
       "id": "KM22-SEED25-30-20261029",
@@ -129,7 +135,7 @@
       "canonical_block_label": "22 · Wan 3.0 · 30 с",
       "prompt_source_path": "projects/kotmonavty/video-prompts.md",
       "priority": 2,
-      "state": "submitted",
+      "state": "completed",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.5",
       "selected_model": "Seedance 2.5",
@@ -234,7 +240,13 @@
         "max_credits": 36
       },
       "credits_cost": 36,
-      "receipt": "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json"
+      "receipt": "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json",
+      "provider_status": "success",
+      "completed_at": "2026-10-29T09:39:55Z",
+      "last_verified_at": "2026-10-29T22:30:59Z",
+      "output_resource_id": "223e55610e0c4069ad64460350fb9bf9",
+      "editorial_status": "awaiting_owner_review",
+      "automatic_retry": false
     }
   ],
   "already_submitted": {},
@@ -256,6 +268,9 @@
     "scope": "Exactly these two paid website submissions. No auto retry, no other project/scenes, no purchase/top-up.",
     "observed_quote_credits_each": 36,
     "observed_total_credits": 72,
-    "balance_before": 102.37
+    "balance_before": 102.37,
+    "consumed": true,
+    "actual_total_credits": 72,
+    "remaining_submissions": 0
   }
 }

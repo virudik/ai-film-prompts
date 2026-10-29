@@ -1,30 +1,37 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "active_work": [
+  "active_work": [],
+  "last_updated_at": "2026-10-29T22:30:59Z",
+  "completed_work": [
     {
       "work_id": "KM-20261029-PAID2",
       "project": "kotmonavty",
       "title": "Два платных ролика — завершение учёта",
-      "status": "in_progress",
+      "status": "completed",
       "started_at": "2026-10-29T09:00:41.864Z",
       "authorization": "Разрешаю платно из проекта котмонавты на доске котмонавты в сиденс 2,5 запустить ролики 30 секунд трейлер котмонавтов и заставку с событиями которая",
       "done": [
-        "Оба ролика отправлены 29.10; task ID и квитанции сохранены",
-        "Живой Topview подтвердил оба success; новых запусков нет"
+        "Оба разрешённых платных ролика Seedance 2.5 завершены success: сцены 2 и 22, 30 с, 1280×720, по 36 кредитов; параметры, полный промпт и ID сверены с квитанциями. Учёт согласован, художественная приёмка не выставлена.",
+        "Прямые live-проверки: Topview success/параметры/выходные метаданные, баланс 30.37, отсутствие решений owner_decisions",
+        "Старые утверждения «не запускались» исправлены; повторных генераций нет"
       ],
-      "next_actions": [
-        "Согласовать мастер/manifest, handoff и recovery с подтверждёнными результатами"
-      ],
+      "next_actions": [],
       "constraints": [
         "Только два оплаченных запуска; повторная отправка запрещена",
         "Технический success не является приёмкой"
       ],
-      "blockers": []
-    }
-  ],
-  "last_updated_at": "2026-10-29T22:28:33.764Z",
-  "completed_work": [
+      "blockers": [],
+      "completed_at": "2026-10-29T22:30:59Z",
+      "verified_at": "2026-10-29T22:30:59Z",
+      "receipts": [
+        "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
+        "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json",
+        "projects/kotmonavty/ops/topview-launch-queue.json",
+        "projects/kotmonavty/HANDOFF.md",
+        "projects/kotmonavty/INSTRUCTIONS.md"
+      ]
+    },
     {
       "work_id": "KM-20261021-ORIGINAL-WORDMARK",
       "project": "kotmonavty",
@@ -133,50 +140,64 @@
     }
   ],
   "idle_state": {
-    "work_id": "KM-WAIT-OWNER",
+    "work_id": "KM-WAIT-REVIEW-2-22",
     "project": "kotmonavty",
-    "title": "Котмонавты — ожидание решения владельца",
+    "title": "Котмонавты — два готовых ролика ждут оценки",
     "status": "waiting_for_owner",
-    "constraints": [
-      "Действующие ограничения запуска и решения владельца сохраняются"
-    ],
     "done": [
-      "22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась."
+      "Оба разрешённых платных ролика Seedance 2.5 завершены success: сцены 2 и 22, 30 с, 1280×720, по 36 кредитов; параметры, полный промпт и ID сверены с квитанциями. Учёт согласован, художественная приёмка не выставлена."
     ],
-    "next_action": "Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.",
+    "next_action": "Показать владельцу уже готовые трейлер (2) и событийную заставку (22); получить оценку. Новых запусков или повторов без отдельного решения не делать.",
+    "constraints": [
+      "Никакой автоматической приёмки или нового платного запуска",
+      "Оба существующих task ID не отправлять повторно"
+    ],
+    "updated_at": "2026-10-29T22:30:59Z",
     "recovery": {
       "schema_version": 1,
-      "verified_at": "2026-10-27T14:07:47+00:00",
-      "last_completed": "22 DRAFT-сцены, 66 промтов; очередь пуста. Состояние сверено по HANDOFF и статусу мастера; художественная приёмка не выставлялась.",
-      "next_action": "Сверить свежие решения владельца о выборе истории и сцен. Пока новой команды нет — сохранить ожидание; очередь не пополнять и видео не запускать.",
+      "verified_at": "2026-10-29T22:30:59Z",
+      "last_completed": "Оба разрешённых платных ролика Seedance 2.5 завершены success: сцены 2 и 22, 30 с, 1280×720, по 36 кредитов; параметры, полный промпт и ID сверены с квитанциями. Учёт согласован, художественная приёмка не выставлена.",
+      "next_action": "Показать владельцу уже готовые трейлер (2) и событийную заставку (22); получить оценку. Новых запусков или повторов без отдельного решения не делать.",
       "checkpoint": {
         "file": "projects/kotmonavty/reports/current-work-checkpoint.md",
-        "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
-        "sha256": "6979dd6490234bf274112c5a8fad1ae88f1e43be12578832970ec68db1496940"
+        "anchor": "# Котмонавты — результаты получены, ждут просмотра · 30.10.2026",
+        "sha256": "b2fa9f8c8527dbd65970bdfc5e05afa97848d3858fba73ad7f29fc5b80771c4f"
       },
       "evidence": [
         {
+          "file": "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
+          "sha256": "b5a973237b1d762ccf286f40638c6b0a7e5d221ca4134ca1e3e335164908db39"
+        },
+        {
+          "file": "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json",
+          "sha256": "371e58a73fae25231f58f553a3ed7195119b35c993bb9203c33c55837a148281"
+        },
+        {
+          "file": "projects/kotmonavty/ops/topview-launch-queue.json",
+          "sha256": "424156ff633efcaf5d9dda670f7bf18f751876e8ef658345c57fd5caf8765388"
+        },
+        {
           "file": "projects/kotmonavty/HANDOFF.md",
-          "sha256": "9aac6ca6ced776e3794ad44af5e82c66077be70bd61b4196a15ea40b0315e227"
+          "sha256": "90449275090889970730e6991cf82304115b6f84c4e67cf4d0252a4c6e47373f"
         },
         {
           "file": "projects/kotmonavty/INSTRUCTIONS.md",
-          "sha256": "154bffc5bb9f72048cc475951cc5be3133a1f9f209be8bd32d56fa6c4cfe37b5"
+          "sha256": "e8fbd3cec9d338444cb74e28a1ac6967963da946c10d5eb3729e0c1ccada3d4f"
         }
       ],
       "read_next": [
         "projects/kotmonavty/HANDOFF.md",
         "projects/kotmonavty/INSTRUCTIONS.md",
-        "ops/OWNER-TASKS.md"
+        "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
+        "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json"
       ],
       "blockers": []
-    },
-    "updated_at": "2026-10-27T14:07:47+00:00"
+    }
   },
   "resume_focus": {
     "project": "kotmonavty",
-    "work_id": "KM-20261029-PAID2",
-    "set_at": "2026-10-29T22:28:33.764Z",
-    "reason": "Продолжение в том же чате: закрыть незавершённый учёт фактически выполненного поручения"
+    "work_id": "KM-WAIT-REVIEW-2-22",
+    "set_at": "2026-10-29T22:30:59Z",
+    "reason": "Порученные два запуска технически завершены; следующий шаг — оценка владельца, не повтор"
   }
 }

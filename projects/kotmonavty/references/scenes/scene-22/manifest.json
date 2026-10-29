@@ -3,8 +3,8 @@
   "project": "kotmonavty",
   "scene": 22,
   "title": "Событийная заставка сериала — Экипаж РосКОТмоса",
-  "updated_at": "2026-10-21T14:17:43Z",
-  "status": "draft_references_ready",
+  "updated_at": "2026-10-29T22:30:59Z",
+  "status": "video_result_received",
   "editorial_status": "not_approved",
   "references": [
     {
@@ -250,6 +250,19 @@
   ],
   "site_registry": "character-references.json",
   "start_end_states_in_master": true,
-  "queue": "not_queued",
-  "video_launches": 0
+  "queue": "completed",
+  "video_launches": 1,
+  "video_results": [
+    {
+      "task_id": "fde415b07e2049a696b94699219268fc",
+      "model": "Seedance 2.5",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "credits_cost": 36,
+      "status": "success",
+      "completed_at": "2026-10-29T09:39:55Z",
+      "receipt": "projects/kotmonavty/reports/KM22-SEED25-30-20261029.json",
+      "resource_id": "223e55610e0c4069ad64460350fb9bf9"
+    }
+  ]
 }
