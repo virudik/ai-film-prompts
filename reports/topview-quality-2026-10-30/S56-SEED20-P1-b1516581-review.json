@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "scene_id": 56,
+  "item_id": "S56-SEED20-P1",
+  "task_id": "b15165813c0848939edbe8b3d3aed182",
+  "completed_at": "2026-10-29T22:35:22Z",
+  "reviewed_at": "2026-10-29T23:01:30.222Z",
+  "source": {
+    "status": "success",
+    "board_name": "My First Board",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": "1280x720",
+    "unlimited": true,
+    "credits": 0,
+    "resource_id": "37e723f634834dd28682ac12a65b9bf6",
+    "original_archive": {
+      "archived": false,
+      "sha256": null,
+      "board_download_task_id": "3984c9d07e9f456f8bab191562f31553",
+      "prepared_zip_size_bytes": 11791640,
+      "blocker": "Topview Board ZIP was prepared successfully, but Cloud/CDP blocked the CloudFront transfer (ERR_BLOCKED_BY_CLIENT); the native MP4 Download action also failed. No archive or SHA is claimed."
+    }
+  },
+  "submission": {
+    "canonical_prompt_sha256": "3c06afb7c7d5d88637b2255b0c779ee1a57a323781c8028e01c0cd571f2fe80a",
+    "normalized_prompt_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
+    "input_count": 5
+  },
+  "review_scope": {
+    "visual_review": "Direct original MP4 opened in the authorized Cloud/CDP browser. Playback was inspected across the 15-second clip with observed control frames around 0, 4, 8, 12 and 15 seconds, including the full-resolution final frame.",
+    "continuous_full_frame_rate_view": false,
+    "audio_listened": false,
+    "honesty_note": "This is a visual playback and control-frame review, not a frame-by-frame certification and not a review with sound."
+  },
+  "technical_assessment": {
+    "result": "continuity_rejected_critical_extra_people",
+    "owner_approved": false,
+    "editorial_completion": false,
+    "automatic_retry": false,
+    "critical_dependency_defect": true,
+    "visual_score_out_of_5": 2.5
+  },
+  "findings": {
+    "action_and_chronology": "The observed sequence contains the opening three-way blade lock, continued fighting, the worm ploughing through the sand and Ilyusha's leap; the main beats are recognizable.",
+    "identities_costumes_anatomy": "The three foreground principals, costume colours and saber colours are broadly stable in the sampled views. No gross limb failure was certified from the sampled cadence.",
+    "worm_geography_camera": "The colossal worm remains present at appropriate scale and a moving trench/slope is visible. The final geography broadly keeps Artem left, Serega centre and Ilyusha right.",
+    "continuity_failure": "Unauthorized background people appear on the ridge: at least one silhouette is visible by the later action, and three separate silhouettes remain in the final frame. The prompt requires exactly three people and explicitly forbids extra people. The defect is inside the actual last three seconds and would be propagated into S56-P2."
+  },
+  "defects": [
+    {
+      "severity": "critical_dependency_defect",
+      "time_range_seconds": [
+        12,
+        15
+      ],
+      "finding": "One to three extra human silhouettes appear on the background ridge; three remain visible in the 15-second final frame."
+    }
+  ],
+  "usable_intervals": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 11.5,
+      "note": "Potentially usable action material subject to fuller editorial review; not suitable as proof of a clean continuity endpoint."
+    }
+  ],
+  "queue_effect": {
+    "dependent_item": "S56-SEED20-P2",
+    "action": "keep_blocked_inputs",
+    "reason": "Actual ending is defective; do not trim or submit it as Video1 and do not synthesize a replacement.",
+    "independent_ready_items": "unchanged; S60-SEED20-P1 remains the first independent waiting_for_slot item by live priority.",
+    "owner_decision_required": "A new source or explicit owner direction is required before S56-P2 can proceed."
+  }
+}
