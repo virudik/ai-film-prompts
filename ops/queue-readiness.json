@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "b19fd9e5f59b3cfaa9bba1c4c9fa3077c72f5cdb0541ce0aa7651944308f755e",
+  "source_queue_sha256": "516677115ba3c46ca6b44637979da0cd064e5d96f99981666239f4efdadc613a",
   "source_task_map_sha256": "7e9e824ebf5fed66c2248837850d5ce1116a15a0b91acad5d8b54b26dbd348ed",
   "topview_checked_at": "2026-10-29T07:30:26Z",
   "items": [
@@ -251,10 +251,10 @@
       "id": "S59-SEED20-P2",
       "scene_id": 59,
       "part_label": "Часть 2",
-      "code": "ready",
-      "ready": true,
-      "text": "Готова по входам, ждёт свободный слот",
-      "queue_state": "waiting_for_slot"
+      "code": "preflight_required",
+      "ready": false,
+      "text": "Входы найдены; требуется снять записанный блокер после проверки",
+      "queue_state": "claimed"
     },
     {
       "id": "S59-SEED20-P3",
@@ -474,5 +474,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-29T07:47:21.844744Z"
+  "checked_at": "2026-10-29T07:51:59.769324Z"
 }
