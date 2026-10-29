@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T08:42:27+00:00",
+  "last_updated_at": "2026-10-29T18:13:00Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "waiting_video_results_and_capacity",
-      "updated_at": "2026-10-29T08:42:27+00:00",
+      "status": "blocked_browser_import_with_free_video_slot",
+      "updated_at": "2026-10-29T18:13:00Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -22,7 +22,7 @@
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1."
       ],
-      "next_action": "First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.",
+      "next_action": "Next safe cycle: fresh main/lock and complete all-board Topview scan. If cloud/cdp can transfer the exact files and no real prior S62 task is found, submit S62-SEED20-P1 using the single owner-authorized Unlimited0 allowance. Take a new CAS claim and consume allowance immediately before Create; no further retry after timeout/fail.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -268,6 +268,11 @@
           "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
+      },
+      "current_blocker": {
+        "code": "browser_file_transfer_unavailable",
+        "observed_at": "2026-10-29T18:13:00Z",
+        "evidence": "Two complete scans found 5/6 active videos and no prior S62. Board/model/free settings verified. Filechooser did not deliver valid JPEG/3s MP4 bytes to Topview. No Create, no claim, allowance remains 1."
       }
     },
     {
@@ -307,7 +312,7 @@
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-      "status": "waiting_video_results_and_capacity",
+      "status": "blocked_browser_import_with_free_video_slot",
       "canonical_refs": [
         "ops/topview-launch-queue.json",
         "reports/topview-queue-2026-10-16/seregius-plan-20261023.json",
@@ -337,9 +342,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-29T08:42:27+00:00",
+      "updated_at": "2026-10-29T18:13:00Z",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "First next video slot: S62-SEED20-P1; exactly one new owner-authorized Unlimited0 attempt. Fresh full reconciliation first: adopt any actual existing S62 task instead of duplicating. Unknown old claim retained in history. New CAS claim and allowance consumption before Create; no further automatic retry. Other items ready-skip; Stitch closed; Roscosmos paused.",
+      "next_action": "Next safe cycle: fresh main/lock and complete all-board Topview scan. If cloud/cdp can transfer the exact files and no real prior S62 task is found, submit S62-SEED20-P1 using the single owner-authorized Unlimited0 allowance. Take a new CAS claim and consume allowance immediately before Create; no further retry after timeout/fail.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -432,6 +437,11 @@
           "receipt": "reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json",
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
+      },
+      "current_blocker": {
+        "code": "browser_file_transfer_unavailable",
+        "observed_at": "2026-10-29T18:13:00Z",
+        "evidence": "Two complete scans found 5/6 active videos and no prior S62. Board/model/free settings verified. Filechooser did not deliver valid JPEG/3s MP4 bytes to Topview. No Create, no claim, allowance remains 1."
       }
     },
     {
@@ -1162,7 +1172,7 @@
   "resume_focus": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-29T08:12:33+00:00",
-    "reason": "Explicitly selected by the authorized task writer"
+    "set_at": "2026-10-29T18:13:00Z",
+    "reason": "S62 remains first by direct owner decision; one free slot was found, but cloud/cdp file transfer is blocked. Allowance remains unused."
   }
 }
