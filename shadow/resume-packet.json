@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T08:13:38+00:00",
-  "source_head": "38a2e3b3bd03a180eb0b5f37b650d201dec5c9de",
-  "source_fingerprint": "53a233b0f5ade75e8b34ba7f147ec04adece16bf2addb57d6141ae797b108bc5",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-29T08:17:07+00:00",
+  "source_head": "83a2bf50b2a01a1c8b7588ba7abd853f527fe158",
+  "source_fingerprint": "b072330f7ab7e073307bf559e7163bb50c00b95f03bf9255ef7f0ace5cd3be1f",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,11 +30,40 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [
-    "recovery evidence changed: ops/topview-launch-queue.json"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "# Сцена 68: шесть входов; Стич: необязательная пробная тройка · 28.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПроверено: 2026-10-28T16:32:18+00:00.\n\nВозвращён @Image6 в три промпта68, manifest, registry, галерею и очередь; SHA сверены, PNG не менялись. Подтверждены три необязательные прогулки Стича и одна новая попытка IMAGE-1 после отказа; 6 видео активны, новых запусков нет.\n\nНовое решение владельца заменяет прежнюю запись «композиция68 только в галерее» и прежнее ожидание разрешения IMAGE-1. @Image6 задаёт расположение и масштаб; индивидуальные листы — внешность и реквизит; настоящий @Video1 и таймлайн — старт, включение мётел и появление Маши. Никакой перерисовки.\n\nПри освобождении видеослота отправить S66-STITCH-NB-IMAGE-1 → -2 → -3 подряд по одному подготовленному промпту, Unlimited0, с отдельным claim/taskID/receipt и проверкой image-capacity после каждого клика, без ожидания результатов. IMAGE-1 заново разрешён владельцем после отказа без taskID. Новые изображения необязательны для видео: использовать существующий общий кадр по умолчанию, выбор новых — после просмотра владельцем. S68 использует @Image1–6 плюс настоящий конец67; затем прежняя готовая видеоочередь. Роскосмос на паузе. Оценка владельца около10мин не является гарантией сервиса. История отказа сохранена в receipt и архиве, attempts_used не обнулён.\n\nДоказательства: `reports/s68-composition-and-stitch-policy-2026-10-28.json`.\n",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "SEREGIUS-PLAN-20261023",
+    "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
+    "status": "waiting_video_results_and_capacity",
+    "last_completed": "Closed failed Stitch trials; scoped S62 uncertainty; corrected S59P2 task b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0; six active videos.",
+    "next_action": "Fresh owner decisions/main/lock/full all-board scan. Keep S62 unknown claim and reconcile without repeating; independent ready items continue. Six videos active at08:09UTC. On capacity choose minimum-priority ready authorized video, currently S60-SEED20-P1. Stitch trials closed; no retries. On actual S59P2 success perform QC and extract real continuity for P3.",
+    "verified_at": "2026-10-29T08:12:33+00:00",
+    "blockers": [],
+    "evidence": [
+      {
+        "file": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
+        "sha256": "e60409dc91db34df223d2c81b5eced535ff58a363e6cda8f69d40e073823b576"
+      },
+      {
+        "file": "ops/topview-launch-queue.json",
+        "sha256": "25ed2e280bd01a36794e08fe8166e10f64ee04edc937798e8823596191c8dcab"
+      },
+      {
+        "file": "ops/TOPVIEW-FREE-LAUNCH.md",
+        "sha256": "68bfc60d740d7afe9f32fc3497cf7e89a30a2f252b090763a6929a37d129d7bd"
+      }
+    ],
+    "read_next": [
+      "ops/topview-launch-queue.json",
+      "ops/TOPVIEW-FREE-LAUNCH.md"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# Topview: очередь продолжена без проб Стича · 29.10.2026",
+      "sha256": "1a406f9bf32a079a47d6d9cedb49b664cbdbabbcd232cb09527c3555b1e16eaa"
+    }
+  },
+  "checkpoint_text": "# Topview: очередь продолжена без проб Стича · 29.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПроверено 2026-10-29T08:09:07.085Z. По команде владельца три failed пробы Стича закрыты cancelled_owner; повторов и использования в видео нет. Продолжаем с существующими референсами; шесть входов S68 сохранены.\n\nПричина простоя: после таймаута Create S62 в06:11–06:13UTC Relay/hourly распространили неопределённость одной отправки на всю очередь. Полные сканы13досок показывали5активных видео. Исходный claim S62 и submission_unknown сохранены, повторять её нельзя; блокировка уточнена до S62 и её зависимых частей. Независимые готовые сцены заполняют проверенные свободные слоты.\n\nS59-SEED20-P2 отправлена в08:07:31UTC (11:07МСК), task b0915b04173c414e9ac08652d34b7852. Seedance2.0/15s/720p/16:9/quantity1/Unlimited0, creditsCost0. Полный нормализованный prompt совпал; Video1=реальные3с, Image1=финальный кадр, Image2=лесной кроп, Image3=корабль. Байты исправленного Image2 повторно скачаны из принятой задачи и совпали с upload SHA. Полный финальный скан13досок/19страниц/943задач: 6активных видео, 0изображений, свободных слотов0.\n\nОшибка этого рабочего чата сохранена прозрачно: первая задача9b2e18c883e3401e9b13b2930b3b570c ошибочно получила корабль вместо леса; отменена до рендера (UI Отменено, provider fail, стоимость0). Причина: пропущен отказ загрузки леса1280x240 по minimum300px / maximumaspect2.50. Создана только техническая обёртка1280x720 с нейтральными серыми полями; исходный кроп целиком, без масштабирования, обрезки и AI-дорисовки. Единственная корректирующая отправка подтверждена; budget дальнейших попыток0. Это не разрешение будущих автоматических повторов.\n\nДальше: при новом слоте свежие owner decisions/main/замок/полный скан; S62 сверять отдельно без повтора, выбирать следующий независимый готовый item по priority (сейчас S60-SEED20-P1). Стича не возобновлять. После success S59P2 — проверить результат и подготовить настоящий стык для P3, художественную приёмку не подменять техническим success. Роскосмос на паузе.\n\nДоказательства: reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json и .jpg; upload_derivative — manifest59. Эта запись заменяет прежний общий запрет отправок до выяснения S62 и старый план трёх проб Стича.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +156,10 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/topview-launch-queue.json",
+    "ops/TOPVIEW-FREE-LAUNCH.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -136,13 +168,6 @@
   "queue_recovery": {
     "unresolved": [
       {
-        "item_id": "S59-SEED20-P2",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      },
-      {
         "item_id": "S62-SEED20-P1",
         "state": "submission_unknown",
         "task_id": null,
@@ -150,7 +175,7 @@
         "submit_authorized": false
       }
     ],
-    "existing_task_count": 43,
+    "existing_task_count": 44,
     "existing_tasks": [
       {
         "item_id": "S66-STITCH-NB-IMAGE-1",
@@ -231,6 +256,10 @@
       {
         "item_id": "S28-A2-20261023",
         "task_id": "8a8eadc809004e318c47201b8a463be0"
+      },
+      {
+        "item_id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852"
       },
       {
         "item_id": "S52-R2-SEED20-P1",
@@ -402,9 +431,14 @@
       "bytes": 40928
     },
     {
+      "file": "ops/TOPVIEW-FREE-LAUNCH.md",
+      "sha256": "68bfc60d740d7afe9f32fc3497cf7e89a30a2f252b090763a6929a37d129d7bd",
+      "bytes": 26885
+    },
+    {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "c97e28438d16eadbfc7821c01cb1491e2d9fd4b40c0c3f5a2839f93c8c5e65e5",
-      "bytes": 392284
+      "sha256": "25ed2e280bd01a36794e08fe8166e10f64ee04edc937798e8823596191c8dcab",
+      "bytes": 392773
     },
     {
       "file": "project-status.json",
@@ -413,8 +447,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "52a95be3b73253740f19148c3914c3faedf17dcd10cd11f0defa9a307811ff39",
-      "bytes": 17498
+      "sha256": "9c045b1b3a2b4742757055e6b27636bedd1561054bd006622ba6375e250c9905",
+      "bytes": 21137
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -422,9 +456,9 @@
       "bytes": 20662
     },
     {
-      "file": "reports/s68-composition-and-stitch-policy-2026-10-28.json",
-      "sha256": "84ad5489bae062492e16f7fbee3b9c42fca5db536898d1461b1be0bfce49b723",
-      "bytes": 2888
+      "file": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
+      "sha256": "e60409dc91db34df223d2c81b5eced535ff58a363e6cda8f69d40e073823b576",
+      "bytes": 4471
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -443,9 +477,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "70a61a62fb04aed1be2ba4f91cb8d461a9455068d258f6c3b44c93df69229abe",
-      "bytes": 76822
+      "sha256": "fa09c49a783963d341ae35f50450e463cc0c74dd3335044850c84df2bc9caadd",
+      "bytes": 75062
     }
   ],
-  "packet_bytes": 6328
+  "packet_bytes": 8202
 }
