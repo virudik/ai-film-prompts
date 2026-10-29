@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T23:21:24+00:00",
-  "source_head": "bd275c6f48c73a97ba0bc40907ef22265f9f9f7d",
-  "source_fingerprint": "cf0526b91a67a9de63fbd7722b114b8901225d1175246788218c3ec323e753ff",
+  "checked_at": "2026-10-29T23:24:19+00:00",
+  "source_head": "3ed1f86b4bc655aa33ba2d40fa6a54f3f1cd003d",
+  "source_fingerprint": "008b38396d6e0a1260afbfe2816ebf64af71f9168bc84101e7a112aa11ae0556",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -31,10 +31,10 @@
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
   "reasons": [
-    "next action changed without a recovery checkpoint"
+    "recovery evidence changed: ops/topview-launch-queue.json"
   ],
   "selected_work": null,
-  "checkpoint_text": "",
+  "checkpoint_text": "# Сцена 62 — следующая попытка по решению владельца · 29.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nЗаписано: 2026-10-29T08:41:44.413Z. Владелец: «Тогда следующей попробуем 62». Для S62-SEED20-P1 разрешена ровно одна новая бесплатная попытка, первой при следующем свободном видеослоте (priority -0.5). Это явное новое разрешение после неизвестного исхода; не утверждение, что первая попытка не была отправлена. Прежние claim и receipt сохранены в submission_history, активный claim снят по этому решению. При свежем обнаружении настоящей задачи62 принять её вместо дубля. Иначе новый CAS-claim и расход единственного allowance ДО Create; следующий таймаут или fail не разрешает ещё попытку.\n\nСкан 2026-10-29T08:38:26.439Z: 13 досок, 19 страниц, 943 задачи, 6 активных видео, свободных слотов0; после старой попытки62 найдены только две известные отправки59. В этом изменении Create/новых видео0.\n\nТатуинская связка: 52ч7→66→67→68→69→70→65. Перед её началом ещё пять новых частей52 (2–6), часть1 уже в очереди сервиса. До66 нужен также результат52ч7. По живым priorities перед66 стоят18 ещё неотправленных частей из9 сцен (52,56,48,62,59,60,61,63,64); это не18 обязательных ожиданий: независимые ветки идут по готовности. 63→64 расположены перед66, музыкальные49–51 и танцы после связки.\n\nСледующее действие: First next video slot: S62-SEED20-P1, one newly owner-authorized Unlimited0 attempt. Fresh main/owner decisions/lock/full account scan; if actual S62 task is found adopt it and do not duplicate. Unknown old claim preserved in submission_history; it is not an active lock for the new allowance. Before Create persist a new CAS claim and consume allowance; any new timeout/failed attempt gets no automatic repeat. Other items keep ready-skip. Stitch trials closed; Roscosmos paused.\n\nКвитанция: reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json. Эта запись заменяет прежний запрет новой попытки62 и указание «следующая60»; остальные ограничения сохранены.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -134,16 +134,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S60-SEED20-P1",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 45,
+    "unresolved": [],
+    "existing_task_count": 46,
     "existing_tasks": [
       {
         "item_id": "S66-STITCH-NB-IMAGE-1",
@@ -228,6 +220,10 @@
       {
         "item_id": "S59-SEED20-P2",
         "task_id": "b0915b04173c414e9ac08652d34b7852"
+      },
+      {
+        "item_id": "S60-SEED20-P1",
+        "task_id": "025955aad2cf494da2b4104d26c36ed5"
       },
       {
         "item_id": "S62-SEED20-P1",
@@ -404,8 +400,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "3684674c9b59a0ec9d9f6c1eed36545578d740e8f80c7cb0cd88b2ea4ca9dd27",
-      "bytes": 403025
+      "sha256": "a80dfb45b082d8a5b34cd1c8be0995a4d3cad8975c2c11972ed798b9b37bee62",
+      "bytes": 403827
     },
     {
       "file": "project-status.json",
@@ -414,8 +410,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "00144d3e17e8b24668430f1cac05de190bc1b7e087f0a2ac722bbc12f6826186",
-      "bytes": 34974
+      "sha256": "f025a4dc782927425dbd1d70e7063a265681f32f86119ca76beac35fd2ed754c",
+      "bytes": 35350
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -439,9 +435,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "a86849449d1fcf43858b1090abd2b22b3ba04bcfe025d68d352fe23ad564bd41",
-      "bytes": 81767
+      "sha256": "3c6e43f594ba2f9204d6e7c2c0589bc99d154d4add22c7a63833fe1bd8821381",
+      "bytes": 80820
     }
   ],
-  "packet_bytes": 3912
+  "packet_bytes": 6820
 }

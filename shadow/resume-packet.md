@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-10-29T23:21:24+00:00
+Проверено: 2026-10-29T23:24:19+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -11,6 +11,20 @@
 
 ## Контрольная точка
 
+# Сцена 62 — следующая попытка по решению владельца · 29.10.2026
+
+work_id: SEREGIUS-PLAN-20261023
+work_id: TOPVIEW-SLOT-PRIORITY-20261024
+
+Записано: 2026-10-29T08:41:44.413Z. Владелец: «Тогда следующей попробуем 62». Для S62-SEED20-P1 разрешена ровно одна новая бесплатная попытка, первой при следующем свободном видеослоте (priority -0.5). Это явное новое разрешение после неизвестного исхода; не утверждение, что первая попытка не была отправлена. Прежние claim и receipt сохранены в submission_history, активный claim снят по этому решению. При свежем обнаружении настоящей задачи62 принять её вместо дубля. Иначе новый CAS-claim и расход единственного allowance ДО Create; следующий таймаут или fail не разрешает ещё попытку.
+
+Скан 2026-10-29T08:38:26.439Z: 13 досок, 19 страниц, 943 задачи, 6 активных видео, свободных слотов0; после старой попытки62 найдены только две известные отправки59. В этом изменении Create/новых видео0.
+
+Татуинская связка: 52ч7→66→67→68→69→70→65. Перед её началом ещё пять новых частей52 (2–6), часть1 уже в очереди сервиса. До66 нужен также результат52ч7. По живым priorities перед66 стоят18 ещё неотправленных частей из9 сцен (52,56,48,62,59,60,61,63,64); это не18 обязательных ожиданий: независимые ветки идут по готовности. 63→64 расположены перед66, музыкальные49–51 и танцы после связки.
+
+Следующее действие: First next video slot: S62-SEED20-P1, one newly owner-authorized Unlimited0 attempt. Fresh main/owner decisions/lock/full account scan; if actual S62 task is found adopt it and do not duplicate. Unknown old claim preserved in submission_history; it is not an active lock for the new allowance. Before Create persist a new CAS claim and consume allowance; any new timeout/failed attempt gets no automatic repeat. Other items keep ready-skip. Stitch trials closed; Roscosmos paused.
+
+Квитанция: reports/topview-queue-2026-10-16/S62-SEED20-P1-20261029-owner-next.json. Эта запись заменяет прежний запрет новой попытки62 и указание «следующая60»; остальные ограничения сохранены.
 
 ## Обязательные правила
 
@@ -42,9 +56,8 @@
 ## Незавершённые отправки
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
-Задач с сохранённым task ID: 45
-- S60-SEED20-P1: reconcile_without_resubmitting
+Задач с сохранённым task ID: 46
 
 ## Пробелы
 
-- next action changed without a recovery checkpoint
+- recovery evidence changed: ops/topview-launch-queue.json
