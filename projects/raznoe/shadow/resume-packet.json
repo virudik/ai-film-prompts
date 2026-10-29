@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-29T14:54:21+00:00",
-  "source_head": "5a68dc1b00ce1ba7f7822abc3c98cd80e5ab1ffb",
-  "source_fingerprint": "d4bbf0db1ac5153599eb8aa5a76571f0bb1e423bb3d274f5f18b89bd36c5d06d",
+  "checked_at": "2026-10-29T15:03:35+00:00",
+  "source_head": "44fd608bd5c1f25d902d9167f45c10ca0d8fcbc9",
+  "source_fingerprint": "b1448bbfbb72006bcf281edfa5450eb5a1c7a8824e198dc76540996659628bb7",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -197,7 +197,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "2da1c50af8784b5d113d3bee1aba7a263770c73b0b686bf442242130504a4b17",
+      "sha256": "155234c2d69f06ec131e90e794ad9f82f79ec6b55d919449f12e02ed28d91c4d",
       "bytes": 21277
     },
     {
@@ -262,13 +262,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "235c1b501e7f30e0cf8c478d9612650540a319c3a1264efa7434454447a436a2",
+      "sha256": "2d5ed3236b6a0ab3bbcab202f155692cda2b0330c71d092cb1137a6696f47ccc",
       "bytes": 24017
     },
     {
       "file": "video-prompts.md",
-      "sha256": "e928effa46821aac2565334a5005165e4caa4b5209e2fd2bdf6d1ff70aff24a9",
-      "bytes": 1124881
+      "sha256": "9689768a90f8410c06f3dfac49003512aed83bcfc5ceb5d960c5460ccc173b1b",
+      "bytes": 1125198
     }
   ],
   "packet_bytes": 6034
