@@ -3,13 +3,13 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-29T09:10:21Z",
+  "checked_at": "2026-10-29T09:20:21Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "full",
     "reasons": [
-      "last full scan 179 min ago",
-      "board 86c6cb46bf76400f93fea9c82d8e9b0f count 0 -> 1"
+      "board 86c6cb46bf76400f93fea9c82d8e9b0f count 1 -> 2",
+      "main board shrank by 1"
     ],
     "boards": 13,
     "board_task_counts": {
@@ -17,7 +17,7 @@
       "c934cec563ea45e1b37d12657821ebd5": 0,
       "1cb8d0f6d11440ce9740bbafab36a6a5": 0,
       "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
-      "86c6cb46bf76400f93fea9c82d8e9b0f": 1,
+      "86c6cb46bf76400f93fea9c82d8e9b0f": 2,
       "db4b4d6d0abc4cb4b278ea80738639f2": 32,
       "24a69085fab4497b9c1a52536252b63d": 20,
       "0aafc553d8a049d2bc21221511293830": 5,
@@ -25,11 +25,11 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 676
+      "1a6244cf1ae747ef847d949a80d6133c": 675
     },
     "pages_scanned": 15,
     "tasks_seen": 618,
-    "api_requests": 24,
+    "api_requests": 25,
     "detail_failed": []
   },
   "cursor": {
@@ -38,7 +38,7 @@
       "c934cec563ea45e1b37d12657821ebd5": 0,
       "1cb8d0f6d11440ce9740bbafab36a6a5": 0,
       "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
-      "86c6cb46bf76400f93fea9c82d8e9b0f": 1,
+      "86c6cb46bf76400f93fea9c82d8e9b0f": 2,
       "db4b4d6d0abc4cb4b278ea80738639f2": 32,
       "24a69085fab4497b9c1a52536252b63d": 20,
       "0aafc553d8a049d2bc21221511293830": 5,
@@ -46,9 +46,9 @@
       "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 676
+      "1a6244cf1ae747ef847d949a80d6133c": 675
     },
-    "last_full_scan_at": "2026-10-29T09:10:21Z"
+    "last_full_scan_at": "2026-10-29T09:20:21Z"
   },
   "slots": {
     "capacity": 6,
@@ -56,7 +56,7 @@
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": true,
-    "active_not_unlimited": 1
+    "active_not_unlimited": 2
   },
   "active_tasks": [
     {
@@ -68,8 +68,8 @@
       "model": "Seedance 2.0",
       "scene_id": 42,
       "mapping": "task_map",
-      "queue_count": 4104,
-      "wait_seconds": 186470,
+      "queue_count": 4097,
+      "wait_seconds": 185866,
       "process_seconds": null
     },
     {
@@ -81,8 +81,8 @@
       "model": "Seedance 2.0",
       "scene_id": 58,
       "mapping": "task_map",
-      "queue_count": 2512,
-      "wait_seconds": 91430,
+      "queue_count": 2505,
+      "wait_seconds": 90826,
       "process_seconds": null
     },
     {
@@ -94,8 +94,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 4825,
-      "wait_seconds": 229670,
+      "queue_count": 4818,
+      "wait_seconds": 229066,
       "process_seconds": null
     },
     {
@@ -107,8 +107,8 @@
       "model": "Seedance 2.0",
       "scene_id": 59,
       "mapping": "task_map",
-      "queue_count": 6555,
-      "wait_seconds": 333350,
+      "queue_count": 6548,
+      "wait_seconds": 332746,
       "process_seconds": null
     },
     {
@@ -120,8 +120,8 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 3239,
-      "wait_seconds": 134630,
+      "queue_count": 3232,
+      "wait_seconds": 134026,
       "process_seconds": null
     },
     {
@@ -133,21 +133,34 @@
       "model": "Seedance 2.0",
       "scene_id": 52,
       "mapping": "task_map",
-      "queue_count": 5690,
-      "wait_seconds": 281509,
+      "queue_count": 5683,
+      "wait_seconds": 280905,
       "process_seconds": null
     },
     {
       "task_id": "d92ed461dca14e83a429f3c5d8407a8e",
       "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
-      "status": "init",
+      "status": "running",
       "unlimited": false,
       "created_at": "2026-10-29 09:07:16",
       "model": "Seedance 2.5",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2409,
-      "wait_seconds": 1197109,
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 497
+    },
+    {
+      "task_id": "fde415b07e2049a696b94699219268fc",
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "status": "init",
+      "unlimited": false,
+      "created_at": "2026-10-29 09:15:39",
+      "model": "Seedance 2.5",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 2394,
+      "wait_seconds": 1189655,
       "process_seconds": null
     }
   ],
@@ -155,8 +168,17 @@
     {
       "task_id": "d92ed461dca14e83a429f3c5d8407a8e",
       "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
-      "status": "init",
+      "status": "running",
       "created_at": "2026-10-29 09:07:16",
+      "model": "Seedance 2.5",
+      "unlimited": false,
+      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure "
+    },
+    {
+      "task_id": "fde415b07e2049a696b94699219268fc",
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "status": "init",
+      "created_at": "2026-10-29 09:15:39",
       "model": "Seedance 2.5",
       "unlimited": false,
       "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure "
@@ -165,13 +187,6 @@
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
-    {
-      "task_id": "9b2e18c883e3401e9b13b2930b3b570c",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "final_status": "fail",
-      "completed_at": "2026-10-29 07:55:13"
-    },
     {
       "task_id": "8a8eadc809004e318c47201b8a463be0",
       "scene_id": 28,
@@ -182,7 +197,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-29T09:00:25Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
