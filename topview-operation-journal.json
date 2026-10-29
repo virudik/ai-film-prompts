@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-09-27T16:04:25.611Z",
-      "operation": "recovery_emergency_refresh_and_full_board_discovery",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "public checkpoint older than 75 minutes; 6 active tasks",
-      "new_status": "5 active tasks",
-      "source_checkpoint": "2026-09-27T16:04:25.611Z",
-      "outcome": "telemetry_read_verified",
-      "verification": "Recovery refreshed all six previously tracked task IDs, detected one successful Scene 20 task, and scanned all 4 Board VIDEO pages / 356 tasks. No unknown active task. Publish map, status, checkpoint in order with exact read-back."
-    },
-    {
       "timestamp": "2026-09-27T17:00:25.207Z",
       "operation": "active_refresh_and_full_board_discovery",
       "scene_id": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-29T02:50:22Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-29T03:50:24Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-29T03:50:24Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 23,
+  "archived_event_count": 24,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
