@@ -1,25 +1,16 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "cc7f26b13c8132ce44358e497b37c0c57aa17e8be09aee0af24e1f6649b19df3",
+  "source_queue_sha256": "e48a974cfbe2aca540e6d1626fc954859d6b0382d6aa37b8ca699a5a63d3e6c8",
   "source_task_map_sha256": "b966ea67038333a5319dec27f4abd8b5e85b4f5c7ad75045a4f007ed1252c539",
   "topview_checked_at": "2026-10-29T05:50:21Z",
   "items": [
     {
-      "id": "S66-STITCH-NB-IMAGE-1",
-      "scene_id": 66,
-      "part_label": "S66-STITCH-NB-IMAGE-1",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "claimed"
-    },
-    {
       "id": "S66-STITCH-NB-IMAGE-2",
       "scene_id": 66,
       "part_label": "S66-STITCH-NB-IMAGE-2",
-      "code": "waiting_order",
-      "ready": false,
-      "text": "Ждёт запуск S66-STITCH-NB-IMAGE-1",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
       "queue_state": "waiting_for_slot"
     },
     {
@@ -501,5 +492,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-29T06:03:27.486448Z"
+  "checked_at": "2026-10-29T06:04:25.894501Z"
 }
