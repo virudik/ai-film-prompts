@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "item_id": "KM04-WAN30-20261030",
+  "scene_id": 4,
+  "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+  "board_name": "Котмонавты",
+  "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+  "submitted_at": "2026-10-29T22:44:32Z",
+  "status_at_confirmation": "running",
+  "model": "Wan 3.0",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "native_audio": true,
+  "use_unlimit_mode": false,
+  "credits_cost": 12,
+  "owner_authorization": {
+    "at": "2026-10-29T22:42:13.854Z",
+    "source": "Direct owner Work chat 30.10.2026",
+    "quote": "И по такому же принципу запускай котмонавтов на 30 сек но ван3 Сцена 4 — Не тот груз Сцена 9 — Завтрак в невесомости",
+    "scenes": [
+      4,
+      9
+    ],
+    "model": "Wan 3.0",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "quantity_each": 1,
+    "observed_quote_credits_each": 12,
+    "total_credits_limit": 24,
+    "balance_before": 30.37,
+    "scope": "Exactly two paid web submissions on Котмонавты; one each; no retry, other scenes, purchase or top-up.",
+    "consumed": false
+  },
+  "claim": {
+    "run_id": "chatgpt-work-20261030-km04-paid-wan30",
+    "claimed_at": "2026-10-29T22:44:09.432Z",
+    "holder": "chatgpt",
+    "route": "paid_web_gui",
+    "max_credits": 12,
+    "input_verification": "Canonical input SHA and dimensions checked before upload; all4 UI images complete, natural dimensions/order and visual thumbnails match. Browser blob download failed twice, no claim of readback byte hashes.",
+    "full_prompt_ui_match": true
+  },
+  "canonical_prompt_sha256": "d72310d4199558bc16dd03569dde0a720955844d28b7fedec4025914e4d58a22",
+  "full_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "projects/kotmonavty/references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "projects/kotmonavty/references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+      "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image4",
+      "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+      "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900",
+      "input_status": "available",
+      "required": true
+    }
+  ],
+  "provider_input_images": [
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Fmi3wKumt3k8ZE9hJokQk.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image1"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/cx8z9La9RUWSS92trnimj.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image2"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/c5rOYHMlABylWz9nwvnPu.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image3"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/jKYQL5Df12XlNTd4WxVDo.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image4"
+    }
+  ],
+  "input_verification": "Canonical input SHA and dimensions checked before upload; all4 UI images complete, natural dimensions/order and visual thumbnails match. Browser blob download failed twice, no claim of readback byte hashes.",
+  "editorial_approval": false,
+  "automatic_retry": false
+}

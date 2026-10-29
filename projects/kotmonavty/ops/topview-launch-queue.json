@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "kotmonavty",
   "queue_id": "KOTMONAVTY-QUEUE",
-  "updated_at": "2026-10-29T22:44:09.432Z",
+  "updated_at": "2026-10-29T22:45:13.283Z",
   "state": "active",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "selection_policy": "Owner30Oct2026 one-off exception: KM04 and KM09 paid Wan3.0/30s/720p/16:9/one each, 12 credits each, Котмонавты board only; current Work chat handles under project lock, no automatic retry. Existing KM02/KM22 completed; all other scenes unselected. Owner29Oct2026 one-off exception: KM02 and KM22 paid Seedance2.5/30s/720p/16:9/one each on Котмонавты only; existing Work chat handles both under project lock. Not part of free background launcher. All other project items remain unselected. Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
@@ -255,7 +255,7 @@
       "canonical_block_label": "4 · Wan 3.0 · 30 с",
       "prompt_source_path": "projects/kotmonavty/video-prompts.md",
       "priority": 3,
-      "state": "claimed",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -304,8 +304,10 @@
       ],
       "depends_on_completed": [],
       "depends_on_submitted": [],
-      "task_id": null,
-      "claim": {
+      "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+      "claim": null,
+      "automatic_retry": false,
+      "submission_claim": {
         "run_id": "chatgpt-work-20261030-km04-paid-wan30",
         "claimed_at": "2026-10-29T22:44:09.432Z",
         "holder": "chatgpt",
@@ -314,7 +316,9 @@
         "input_verification": "Canonical input SHA and dimensions checked before upload; all4 UI images complete, natural dimensions/order and visual thumbnails match. Browser blob download failed twice, no claim of readback byte hashes.",
         "full_prompt_ui_match": true
       },
-      "automatic_retry": false
+      "submitted_at": "2026-10-29T22:44:32Z",
+      "credits_cost": 12,
+      "receipt": "projects/kotmonavty/reports/KM04-WAN30-20261030.json"
     },
     {
       "id": "KM09-WAN30-20261030",
