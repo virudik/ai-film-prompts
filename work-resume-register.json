@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T22:55:50.780179Z",
+  "last_updated_at": "2026-10-29T23:01:30.222Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-29T22:55:50.780179Z",
+      "updated_at": "2026-10-29T23:01:30.222Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -23,7 +23,7 @@
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1.",
         "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized."
       ],
-      "next_action": "On the next real wake/hourly cycle recheck fresh main, owner decisions, all boards/pages and capacity. At a free slot choose the highest-priority ready authorized item, complete exact inputs/full prompt/UI Unlimited0 verification, own canon lock and CAS claim immediately before one Create. S56-P2 needs actual S56 result continuity preparation/QC; S60 ready independently. Do not retry S62 or failed Stitch items.",
+      "next_action": "On the next real wake/hourly cycle fresh-read main and scan all boards/pages. Keep S56-P2 blocked: its actual P1 ending contains extra people and is not a safe continuity source. At a real free slot choose the highest-priority independent ready authorized item (currently S60-P1), verify exact inputs/full prompt/UI Unlimited0, own canon lock and CAS claim immediately before one Create. Do not retry S62, S56-P1 or failed Stitch items.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -180,14 +180,16 @@
         "reason": "Recovered verified old signals; preserved existing submitted receipt/task; no live slot scan or queue mutation."
       },
       "last_result_qc": {
-        "item_id": "S28-A2-20261023",
-        "task_id": "8a8eadc809004e318c47201b8a463be0",
-        "reviewed_at": "2026-10-29T06:35:00Z",
-        "report": "reports/topview-quality-2026-10-23/S28-A2-20261023-review.json",
-        "source_sha256": "855a727c897cc2d77bf0b3dea98bf05ee25a637b75b9d2e674a4ccda3681ca69",
-        "assessment": "critical_defect_not_owner_approved",
+        "item_id": "S56-SEED20-P1",
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "reviewed_at": "2026-10-29T23:01:30.222Z",
+        "report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+        "assessment": "continuity_rejected_critical_extra_people",
+        "owner_approved": false,
+        "source_archived": false,
         "audio_listened": false,
-        "queue_effect": "Existing owner-authorized S28-A2-R2 terminal/QC duplicate-prevention gate cleared to waiting_for_slot; no submission. Defective A2 is not a continuity input."
+        "continuous_full_frame_rate_view": false,
+        "queue_effect": "S56-P2 kept blocked_inputs; no trim/substitute/submit. S60-P1 remains independently ready when global capacity frees."
       },
       "last_image_attempt": {
         "item_id": "S66-STITCH-NB-IMAGE-1",
@@ -262,7 +264,7 @@
         "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
         "credits": 0
       },
-      "verified_at": "2026-10-29T22:53:44.157Z",
+      "verified_at": "2026-10-29T23:01:30.222Z",
       "last_owner_s62_decision": {
         "at": "2026-10-29T08:41:44.413Z",
         "item_id": "S62-SEED20-P1",
@@ -277,7 +279,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Global scan:7 active videos (5 Unlimited Seregius +2 paid Kotmonavty); capacity6, free0. S60 not claimed or submitted."
+      "current_blocker": "Global scan:7 active videos (5 Unlimited Seregius +2 paid Kotmonavty), capacity6/free0. Separately, S56-P2 is blocked by critical extra people in the actual S56-P1 ending."
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
@@ -346,9 +348,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-29T22:55:50.780179Z",
+      "updated_at": "2026-10-29T23:01:30.222Z",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "On the next real wake/hourly cycle recheck fresh main, owner decisions, all boards/pages and capacity. At a free slot choose the highest-priority ready authorized item, complete exact inputs/full prompt/UI Unlimited0 verification, own canon lock and CAS claim immediately before one Create. S56-P2 needs actual S56 result continuity preparation/QC; S60 ready independently. Do not retry S62 or failed Stitch items.",
+      "next_action": "On the next real wake/hourly cycle fresh-read main and scan all boards/pages. Keep S56-P2 blocked: its actual P1 ending contains extra people and is not a safe continuity source. At a real free slot choose the highest-priority independent ready authorized item (currently S60-P1), verify exact inputs/full prompt/UI Unlimited0, own canon lock and CAS claim immediately before one Create. Do not retry S62, S56-P1 or failed Stitch items.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -424,7 +426,7 @@
         "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
         "credits": 0
       },
-      "verified_at": "2026-10-29T22:53:44.157Z",
+      "verified_at": "2026-10-29T23:01:30.222Z",
       "completed": [
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1."
       ],
@@ -442,7 +444,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Global scan:7 active videos (5 Unlimited Seregius +2 paid Kotmonavty); capacity6, free0. S60 not claimed or submitted.",
+      "current_blocker": "Global scan:7 active videos (5 Unlimited Seregius +2 paid Kotmonavty), capacity6/free0. Separately, S56-P2 is blocked by critical extra people in the actual S56-P1 ending.",
       "last_topview_scan": {
         "checked_at": "2026-10-29T22:53:44.157Z",
         "complete": true,
@@ -523,6 +525,18 @@
         "active_videos": 7,
         "active_images": 0,
         "free_video_slots": 0
+      },
+      "last_result_qc": {
+        "item_id": "S56-SEED20-P1",
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "reviewed_at": "2026-10-29T23:01:30.222Z",
+        "report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+        "assessment": "continuity_rejected_critical_extra_people",
+        "owner_approved": false,
+        "source_archived": false,
+        "audio_listened": false,
+        "continuous_full_frame_rate_view": false,
+        "queue_effect": "S56-P2 kept blocked_inputs; no trim/substitute/submit. S60-P1 remains independently ready when global capacity frees."
       }
     },
     {
@@ -1253,7 +1267,7 @@
   "resume_focus": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-29T22:55:50.780179Z",
-    "reason": "S56-P1 success verified; final global scan found7 active videos. Wait fresh capacity; choose next ready authorized item, preserve S62 no-repeat."
+    "set_at": "2026-10-29T23:01:30.222Z",
+    "reason": "S56-P1 success QC found critical extra background people in the actual final3s; S56-P2 remains blocked. Global scan has7 active videos/capacity6; wait fresh capacity and continue with next independent ready item."
   }
 }
