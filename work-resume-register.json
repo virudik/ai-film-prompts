@@ -7,10 +7,9 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "submission_unknown",
-      "updated_at": "2026-10-29T06:47:04.899Z",
+      "updated_at": "2026-10-29T07:07:04.001Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
-        "Last recorded cycle b35af063-1de0-832c-b342-f00da9fb5c6e completed22:01:16UTC, confirmed6active and existing58P2; did not itself submit58P2.",
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
         "22:55 MSK cycle: full 13-board/28-page scan found one free slot; skipped non-ready52P2/42P2 and submitted next ready S56-P1 once as task b15165813c0848939edbe8b3d3aed182, Seedance2.0/15s/720p/16:9/Unlimited0. Post-scan935 tasks/6 active/0 free.",
         "00:00 MSK cycle: full 13-board/28-page scan confirmed935 tasks/6 active/0 free. Re-downloaded actual S42-P1 task a1ca4c36e31d45c5b4b72df7777d2592, found the GitHub last3s file truncated, and deterministically restored the exact canonical 1804607-byte clip SHA dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61. Readiness now marks S42-P2 ready; no video submitted.",
@@ -19,7 +18,8 @@
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
         "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
         "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted.",
-        "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry."
+        "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry.",
+        "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings."
       ],
       "next_action": "Read-only reconciliation of S62 full canonical prompt, creation time after claim, 6 image inputs and 3s Video1 on all boards. Do not repeat Create or clear claim on timeout/no-task observation alone. Reconcile authoritative outcome first; then fresh owner decisions/main/lock/full-capacity preflight for remaining authorized queue. No automatic retries of the three failed Stitch images.",
       "canonical_refs": [
@@ -30,50 +30,62 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-28T18:03:54.643Z",
+        "checked_at": "2026-10-29T07:07:04.001Z",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-28T17:42:41Z",
+          "synced_at": "2026-10-29T06:40:22Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0,
-          "checked_at": "2026-10-28T16:37:35Z",
-          "info": 3
+          "checked_at": "2026-10-29T07:02:56Z",
+          "info": 3,
+          "verification_commit": "51abb49b35f181cf0a72d40cf0e5106abef8bb75"
         },
         "gmail_message_ids": [
-          "1a183432b5f6cd13",
-          "1a18344bccc55e0a",
-          "1a183454eb8dfd7d",
-          "1a1834a7390644eb"
+          "1a186360e888e47c",
+          "1a18641c3762555a",
+          "1a1864380334f8d7",
+          "1a18646ca547a408",
+          "1a18648aaf3a29d6",
+          "1a1864b002e1ac7a"
         ],
         "github_failed_run_ids": [
-          40722392694,
-          40722669964,
-          40722832681
+          40826866588,
+          40827062532,
+          40827413477,
+          40827874872
         ],
-        "root_cause": "All three canon-health runs intentionally failed only on the new-warning notification step because ops/topview-launch-queue.json reached 400–401 KB; health check and status publication succeeded.",
+        "root_cause": "All four Canon health runs intentionally failed only on the new-warning notification step because ops/topview-launch-queue.json reached 402 KB; the health check and status publication steps succeeded.",
         "current_verification": {
-          "fix_commit": "c233ec1c748f218bfa5b8dcf14c185ef88aad4af",
+          "fix_commits": [
+            "19cf6e3a67689999b9ad27d7be401ac589b65df7",
+            "4d004e10bf865a39a942eb497fdff6b372cdd947"
+          ],
+          "queue_bytes": 391127,
           "canon_health": "ok",
           "canon_warnings": 0,
-          "verified_success_run_ids": [
-            40727500605,
-            40731043896
-          ]
+          "canon_health_commit": "51abb49b35f181cf0a72d40cf0e5106abef8bb75"
         },
-        "result": "Resolved before this phase: archival trim removed the warning. No rerun or additional repair; Gmail state unchanged."
+        "result": "Fixed and verified by a fresh canon-health publication. No failed-run rerun; Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-29T06:46:14.171Z",
+        "checked_at": "2026-10-29T07:07:04.001Z",
         "boards": 13,
         "pages": 19,
         "total": 941,
         "complete": true,
+        "status_counts": {
+          "success": 896,
+          "fail": 40,
+          "init": 5
+        },
+        "video_tasks": 615,
+        "image_tasks": 326,
         "active": [
           {
             "task_id": "c65c30d8cbe14e9eadec886276e62471",
@@ -105,7 +117,9 @@
             "media_type": "video",
             "board_id": "1a6244cf1ae747ef847d949a80d6133c"
           }
-        ]
+        ],
+        "no_post_claim_s62_candidate": true,
+        "generation_blocker": "S62 submission_unknown after one Create timeout; canonical policy forbids repeat or claim reset."
       },
       "last_relay_event": {
         "event_ids": [
@@ -160,15 +174,14 @@
         "reason": "Recovered verified old signals; preserved existing submitted receipt/task; no live slot scan or queue mutation."
       },
       "last_result_qc": {
-        "item_id": "S28-A1-TEST-20261017",
-        "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
-        "completed_at": "2026-10-28T05:39:06Z",
-        "reviewed_at": "2026-10-28T08:06:00Z",
-        "report": "reports/topview-quality-2026-10-28/S28-A1-TEST-20261017-review.json",
-        "source_sha256": "a221443eaaf6c2d100ad9e42f6e7393a5614b80d5dc60f760df0ec9c3353d24e",
-        "assessment": "partially_usable_not_owner_approved",
+        "item_id": "S28-A2-20261023",
+        "task_id": "8a8eadc809004e318c47201b8a463be0",
+        "reviewed_at": "2026-10-29T06:35:00Z",
+        "report": "reports/topview-quality-2026-10-23/S28-A2-20261023-review.json",
+        "source_sha256": "855a727c897cc2d77bf0b3dea98bf05ee25a637b75b9d2e674a4ccda3681ca69",
+        "assessment": "critical_defect_not_owner_approved",
         "audio_listened": false,
-        "queue_effect": "S28-A1-R2-20261025 duplicate-prevention gate cleared to waiting_for_slot; no submission"
+        "queue_effect": "Existing owner-authorized S28-A2-R2 terminal/QC duplicate-prevention gate cleared to waiting_for_slot; no submission. Defective A2 is not a continuity input."
       },
       "last_image_attempt": {
         "item_id": "S66-STITCH-NB-IMAGE-1",
@@ -222,8 +235,20 @@
           "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
         ]
       },
-      "completed_archived_points": 2,
-      "completed_archive": "archive/work-resume-register-archive.json"
+      "completed_archived_points": 3,
+      "completed_archive": "archive/work-resume-register-archive.json",
+      "last_canon_cleanup": {
+        "checked_at": "2026-10-29T07:07:04.001Z",
+        "mode": "root-only",
+        "queue_items_archived": [
+          "S37-SEED20-P2",
+          "S40-SEED20-P1",
+          "S53-SEED20-P1"
+        ],
+        "checkpoint_sections_archived": 12,
+        "register_points_archived": 2,
+        "relay_events_archived": 0
+      }
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
