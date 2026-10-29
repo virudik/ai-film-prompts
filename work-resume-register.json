@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T23:01:30.222Z",
+  "last_updated_at": "2026-10-29T23:03:12.753Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-29T23:01:30.222Z",
+      "updated_at": "2026-10-29T23:03:12.753Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -77,7 +77,7 @@
         "result": "Fixed and verified by a fresh canon-health publication. No failed-run rerun; Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-29T22:53:44.157Z",
+        "checked_at": "2026-10-29T23:03:12.753Z",
         "complete": true,
         "boards": 14,
         "pages": 20,
@@ -89,55 +89,61 @@
             "board": "86c6cb46bf76400f93fea9c82d8e9b0f",
             "type": "video",
             "status": "running",
-            "unlimited": false
-          },
-          {
-            "id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
-            "board": "86c6cb46bf76400f93fea9c82d8e9b0f",
-            "type": "video",
-            "status": "running",
-            "unlimited": false
+            "unlimited": false,
+            "credits": 12
           },
           {
             "id": "0de1f663432646d294f409a22e20a26e",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "b0915b04173c414e9ac08652d34b7852",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "c65c30d8cbe14e9eadec886276e62471",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "8d7ff1e2de63478693778de29e0dd56e",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "4a1061e175054da2810ffef8ad9d31cd",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           }
         ],
-        "occupied_video_slots": 7,
+        "occupied_video_slots": 6,
         "free_video_slots": 0,
         "active_images": 0,
-        "over_capacity": true
+        "over_capacity": false,
+        "paid_terminal_change": {
+          "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+          "status": "success",
+          "completed_at": "2026-10-29T22:58:47Z",
+          "credits": 12,
+          "launched_by_this_handler": false
+        }
       },
       "last_relay_event": {
         "event_id": "result:b15165813c0848939edbe8b3d3aed182",
@@ -149,11 +155,11 @@
         "receipt": "reports/topview-event-wake.json"
       },
       "last_observed_topview": {
-        "at": "2026-10-29T22:53:44.157Z",
+        "at": "2026-10-29T23:03:12.753Z",
         "boards": 14,
         "pages": 20,
         "tasks": 944,
-        "active_videos": 7,
+        "active_videos": 6,
         "active_images": 0,
         "free_video_slots": 0
       },
@@ -264,7 +270,7 @@
         "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
         "credits": 0
       },
-      "verified_at": "2026-10-29T23:01:30.222Z",
+      "verified_at": "2026-10-29T23:03:12.753Z",
       "last_owner_s62_decision": {
         "at": "2026-10-29T08:41:44.413Z",
         "item_id": "S62-SEED20-P1",
@@ -279,7 +285,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Global scan:7 active videos (5 Unlimited Seregius +2 paid Kotmonavty), capacity6/free0. Separately, S56-P2 is blocked by critical extra people in the actual S56-P1 ending."
+      "current_blocker": "Final full scan:6 active videos exactly at capacity (5 Unlimited Seregius +1 paid Kotmonavty), free0. Separately, S56-P2 is blocked by critical extra people in the actual S56-P1 ending."
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
@@ -348,7 +354,7 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-29T23:01:30.222Z",
+      "updated_at": "2026-10-29T23:03:12.753Z",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
       "next_action": "On the next real wake/hourly cycle fresh-read main and scan all boards/pages. Keep S56-P2 blocked: its actual P1 ending contains extra people and is not a safe continuity source. At a real free slot choose the highest-priority independent ready authorized item (currently S60-P1), verify exact inputs/full prompt/UI Unlimited0, own canon lock and CAS claim immediately before one Create. Do not retry S62, S56-P1 or failed Stitch items.",
       "constraints": [
@@ -426,7 +432,7 @@
         "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
         "credits": 0
       },
-      "verified_at": "2026-10-29T23:01:30.222Z",
+      "verified_at": "2026-10-29T23:03:12.753Z",
       "completed": [
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1."
       ],
@@ -444,9 +450,9 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Global scan:7 active videos (5 Unlimited Seregius +2 paid Kotmonavty), capacity6/free0. Separately, S56-P2 is blocked by critical extra people in the actual S56-P1 ending.",
+      "current_blocker": "Final full scan:6 active videos exactly at capacity (5 Unlimited Seregius +1 paid Kotmonavty), free0. Separately, S56-P2 is blocked by critical extra people in the actual S56-P1 ending.",
       "last_topview_scan": {
-        "checked_at": "2026-10-29T22:53:44.157Z",
+        "checked_at": "2026-10-29T23:03:12.753Z",
         "complete": true,
         "boards": 14,
         "pages": 20,
@@ -458,55 +464,61 @@
             "board": "86c6cb46bf76400f93fea9c82d8e9b0f",
             "type": "video",
             "status": "running",
-            "unlimited": false
-          },
-          {
-            "id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
-            "board": "86c6cb46bf76400f93fea9c82d8e9b0f",
-            "type": "video",
-            "status": "running",
-            "unlimited": false
+            "unlimited": false,
+            "credits": 12
           },
           {
             "id": "0de1f663432646d294f409a22e20a26e",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "b0915b04173c414e9ac08652d34b7852",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "c65c30d8cbe14e9eadec886276e62471",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "8d7ff1e2de63478693778de29e0dd56e",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           },
           {
             "id": "4a1061e175054da2810ffef8ad9d31cd",
             "board": "1a6244cf1ae747ef847d949a80d6133c",
             "type": "video",
             "status": "init",
-            "unlimited": true
+            "unlimited": true,
+            "credits": 0
           }
         ],
-        "occupied_video_slots": 7,
+        "occupied_video_slots": 6,
         "free_video_slots": 0,
         "active_images": 0,
-        "over_capacity": true
+        "over_capacity": false,
+        "paid_terminal_change": {
+          "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+          "status": "success",
+          "completed_at": "2026-10-29T22:58:47Z",
+          "credits": 12,
+          "launched_by_this_handler": false
+        }
       },
       "last_relay_event": {
         "event_id": "result:b15165813c0848939edbe8b3d3aed182",
@@ -518,11 +530,11 @@
         "receipt": "reports/topview-event-wake.json"
       },
       "last_observed_topview": {
-        "at": "2026-10-29T22:53:44.157Z",
+        "at": "2026-10-29T23:03:12.753Z",
         "boards": 14,
         "pages": 20,
         "tasks": 944,
-        "active_videos": 7,
+        "active_videos": 6,
         "active_images": 0,
         "free_video_slots": 0
       },
@@ -1267,7 +1279,7 @@
   "resume_focus": {
     "work_id": "SEREGIUS-PLAN-20261023",
     "project": "seregius",
-    "set_at": "2026-10-29T23:01:30.222Z",
+    "set_at": "2026-10-29T23:03:12.753Z",
     "reason": "S56-P1 success QC found critical extra background people in the actual final3s; S56-P2 remains blocked. Global scan has7 active videos/capacity6; wait fresh capacity and continue with next independent ready item."
   }
 }
