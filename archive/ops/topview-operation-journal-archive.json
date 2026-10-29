@@ -245,6 +245,17 @@
       "source_checkpoint": "2026-09-27T14:28:53.193Z",
       "outcome": "telemetry_read_verified",
       "verification": "Exact lookup for all six active tasks: all init. Scanned all 100 rows of Board page 1; six-hour overlap fully covered; no new candidate. Map/status/checkpoint publication is complete only when stable checkpoint checked_at matches this source_checkpoint. No editorial or canonical membership change."
+    },
+    {
+      "timestamp": "2026-09-27T16:04:25.611Z",
+      "operation": "terminal_transition_partial_scene_completion",
+      "scene_id": 20,
+      "task_fingerprint": "scene20-efda861b",
+      "previous_status": "init",
+      "new_status": "success",
+      "source_checkpoint": "2026-09-27T16:04:25.611Z",
+      "outcome": "success",
+      "verification": "One of two Scene 20 tasks completed successfully at 2026-09-27T15:34:01Z. The other Scene 20 task remains active, so canonical slow membership is unchanged; occupancy drops from 6/6 to 5/6."
     }
   ]
 }
