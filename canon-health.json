@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-29T23:02:22Z",
+  "checked_at": "2026-10-29T23:20:18Z",
   "status": "warn",
   "warnings": 1,
   "info": 3,
@@ -27,7 +27,7 @@
     {
       "level": "warn",
       "code": "service-file-size",
-      "text": "ops/topview-launch-queue.json: 400 КБ (предел 400 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "text": "ops/topview-launch-queue.json: 403 КБ (предел 400 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
       "file": "ops/topview-launch-queue.json"
     }
   ]
