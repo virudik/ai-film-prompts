@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-29T06:03:15+00:00",
-  "source_head": "356da0acc32fd09bd4e28f730e78dc282f98b0e4",
-  "source_fingerprint": "3f92e0ab7674091058308fe10ff0647a53cd49309dd96153a26ed542bd8bd264",
+  "checked_at": "2026-10-29T06:04:13+00:00",
+  "source_head": "5ef9f84692fdacc4b093a3f3d1aa72d20b7f634f",
+  "source_fingerprint": "e5fc9f1aa3308a03e1f105fdec5d33dfa3645bcc4e7f888650a7e7085ffcb45b",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -134,17 +134,13 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
+    "unresolved": [],
+    "existing_task_count": 41,
+    "existing_tasks": [
       {
         "item_id": "S66-STITCH-NB-IMAGE-1",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 40,
-    "existing_tasks": [
+        "task_id": "e0f131c8f04f4991bd7ec9b317223aa0"
+      },
       {
         "item_id": "S28-A1-TEST-20261017",
         "task_id": "4b7b972870a44dfbb29bd6c5e330a633"
@@ -384,8 +380,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "cc7f26b13c8132ce44358e497b37c0c57aa17e8be09aee0af24e1f6649b19df3",
-      "bytes": 400083
+      "sha256": "e48a974cfbe2aca540e6d1626fc954859d6b0382d6aa37b8ca699a5a63d3e6c8",
+      "bytes": 399765
     },
     {
       "file": "project-status.json",
@@ -428,5 +424,5 @@
       "bytes": 78457
     }
   ],
-  "packet_bytes": 6288
+  "packet_bytes": 6232
 }
