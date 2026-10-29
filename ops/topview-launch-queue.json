@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T06:04:46.555Z",
+  "updated_at": "2026-10-29T06:06:20.272Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -85,7 +85,9 @@
       },
       "reauthorized_at": "2026-10-28T16:32:18+00:00",
       "submitted_at": "2026-10-29T06:03:02Z",
-      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261029.json"
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261029.json",
+      "observed_task_status": "fail",
+      "failure_reason": "Provider refused generated image due to interests of third-party content providers; support code 35561575. No retry."
     },
     {
       "id": "S66-STITCH-NB-IMAGE-2",
@@ -98,7 +100,7 @@
       "normalized_prompt_sha256": "ada89a29d6934ac92afc6730f4a2433e94d6c7476580f1b7f0553b256d61464e",
       "prompt_file_sha256": "593dea554d9ad545fc4f54e90cfcd5fb7dd2e93310cc0922cda141e56799e8d3",
       "priority": -2,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -133,19 +135,26 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image2",
-        "claimed_at": "2026-10-29T06:04:46.555Z",
-        "actor": "chatgpt_event_trigger",
-        "holder": "chatgpt",
-        "route": "free_web_gui"
-      },
+      "task_id": "0d7a40e276e645d291d31589cc4fbfe6",
+      "claim": null,
       "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
       "launch_readiness": "reference_inputs_available",
       "created_at": "2026-10-28T15:02:46+00:00",
       "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-side.png",
-      "on_success": "Save original, taskID/SHA/QC and supplemental gallery entry. Owner decides later whether to use it. Do not add it to video inputs or dependencies; existing general frame remains the default. Continue next item immediately if free UI capacity allows."
+      "on_success": "Save original, taskID/SHA/QC and supplemental gallery entry. Owner decides later whether to use it. Do not add it to video inputs or dependencies; existing general frame remains the default. Continue next item immediately if free UI capacity allows.",
+      "submitted_at": "2026-10-29T06:04:56Z",
+      "last_claim": {
+        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image2",
+        "claimed_at": "2026-10-29T06:04:46.555Z",
+        "actor": "chatgpt_event_trigger",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "resolved_at": "2026-10-29T06:06:20.272Z",
+        "result": "submitted",
+        "task_id": "0d7a40e276e645d291d31589cc4fbfe6"
+      },
+      "attempts_used": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-2-20261029.json"
     },
     {
       "id": "S66-STITCH-NB-IMAGE-3",
@@ -158,7 +167,7 @@
       "normalized_prompt_sha256": "040e6f04cde9a2090421a11db35f14e1c7f155463a82bb2507d2235f233b39c5",
       "prompt_file_sha256": "85320fe7639a6968bef0c61abc0f8006977a2269873b352623f8b950c86e6e11",
       "priority": -1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -194,7 +203,13 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image3",
+        "claimed_at": "2026-10-29T06:06:20.272Z",
+        "actor": "chatgpt_event_trigger",
+        "holder": "chatgpt",
+        "route": "free_web_gui"
+      },
       "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
       "launch_readiness": "reference_inputs_available",
       "created_at": "2026-10-28T15:02:46+00:00",

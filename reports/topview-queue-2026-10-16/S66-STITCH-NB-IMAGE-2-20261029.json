@@ -1,0 +1,48 @@
+{
+  "item_id": "S66-STITCH-NB-IMAGE-2",
+  "task_id": "0d7a40e276e645d291d31589cc4fbfe6",
+  "submitted_at": "2026-10-29T06:04:56Z",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "model": "Nano Banana Pro",
+  "resolution": "2K",
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "useUnlimitMode": true,
+  "creditsCost": 0,
+  "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-side.image-prompt.txt",
+  "canonical_prompt_sha256": "f36ff2a8c4697b9e51123079f8a520a47be50d0e70f9078d59f0d696413d2ae2",
+  "prompt_match": "full text equal after whitespace collapse and observed image-edit chip @ removal; pre-submit DOM exact",
+  "input_order": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-66/S66-street-outrage.png",
+      "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "actual_input_paths": [
+    "analyzed_video/task/ai_image/FGlyiGi4FG26kZmpCiUH/R5Tr7w5CiTm0cmL4NlPuw.png",
+    "analyzed_video/task/ai_image/FGlyiGi4FG26kZmpCiUH/ie6LJZAkMQmPC7zYkzkTe.png",
+    "analyzed_video/task/ai_image/FGlyiGi4FG26kZmpCiUH/FsnByP7zVotEurMBgGF1r.png"
+  ],
+  "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image2",
+  "event_id": "result:8a8eadc809004e318c47201b8a463be0",
+  "clicked_once": true,
+  "owner_approval": false,
+  "ui_proof": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-2-20261029.png"
+}
