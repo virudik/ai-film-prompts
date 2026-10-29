@@ -1,18 +1,9 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "d0304600d44801ed8ca487be38d44458a82b5fc6b37203534eabdd6a18e66137",
+  "source_queue_sha256": "e0af5b552af8ab7ba6c80e2a775b62c89a28488f52b093ca83e1cdd443bb3fce",
   "source_task_map_sha256": "b966ea67038333a5319dec27f4abd8b5e85b4f5c7ad75045a4f007ed1252c539",
   "topview_checked_at": "2026-10-29T05:50:21Z",
   "items": [
-    {
-      "id": "S66-STITCH-NB-IMAGE-3",
-      "scene_id": 66,
-      "part_label": "S66-STITCH-NB-IMAGE-3",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "claimed"
-    },
     {
       "id": "S13-S13",
       "scene_id": 13,
@@ -483,5 +474,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-29T06:06:49.862886Z"
+  "checked_at": "2026-10-29T06:08:40.832000Z"
 }
