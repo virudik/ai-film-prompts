@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T06:06:20.272Z",
+  "updated_at": "2026-10-29T06:08:18.035Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -154,7 +154,9 @@
         "task_id": "0d7a40e276e645d291d31589cc4fbfe6"
       },
       "attempts_used": 1,
-      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-2-20261029.json"
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-2-20261029.json",
+      "observed_task_status": "fail",
+      "failure_reason": "Provider content restriction, support35561575; no retry."
     },
     {
       "id": "S66-STITCH-NB-IMAGE-3",
@@ -167,7 +169,7 @@
       "normalized_prompt_sha256": "040e6f04cde9a2090421a11db35f14e1c7f155463a82bb2507d2235f233b39c5",
       "prompt_file_sha256": "85320fe7639a6968bef0c61abc0f8006977a2269873b352623f8b950c86e6e11",
       "priority": -1,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -202,19 +204,26 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
-      "claim": {
-        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image3",
-        "claimed_at": "2026-10-29T06:06:20.272Z",
-        "actor": "chatgpt_event_trigger",
-        "holder": "chatgpt",
-        "route": "free_web_gui"
-      },
+      "task_id": "d460fc7bd2434133870232482b84237d",
+      "claim": null,
       "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
       "launch_readiness": "reference_inputs_available",
       "created_at": "2026-10-28T15:02:46+00:00",
       "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-arch.png",
-      "on_success": "Save original, taskID/SHA/QC and supplemental gallery entry. Owner decides later whether to use it. Do not add it to video inputs or dependencies; existing general frame remains the default. Continue next item immediately if free UI capacity allows."
+      "on_success": "Save original, taskID/SHA/QC and supplemental gallery entry. Owner decides later whether to use it. Do not add it to video inputs or dependencies; existing general frame remains the default. Continue next item immediately if free UI capacity allows.",
+      "submitted_at": "2026-10-29T06:06:29Z",
+      "last_claim": {
+        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image3",
+        "claimed_at": "2026-10-29T06:06:20.272Z",
+        "actor": "chatgpt_event_trigger",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "resolved_at": "2026-10-29T06:08:18.035Z",
+        "result": "submitted",
+        "task_id": "d460fc7bd2434133870232482b84237d"
+      },
+      "attempts_used": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-3-20261029.json"
     },
     {
       "id": "S13-S13",
