@@ -1,0 +1,185 @@
+{
+  "item_id": "KM02-SEED25-30-20261029",
+  "scene_id": 2,
+  "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+  "board_name": "Котмонавты",
+  "task_id": "d92ed461dca14e83a429f3c5d8407a8e",
+  "submitted_at": "2026-10-29T09:07:16Z",
+  "status_at_confirmation": "init",
+  "model": "Seedance 2.5",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "native_audio": true,
+  "use_unlimit_mode": false,
+  "credits_cost": 36,
+  "owner_authorization": {
+    "at": "2026-10-29T09:04:58.142Z",
+    "source": "Direct owner current Work chat",
+    "quote": "Разрешаю платно из проекта котмонавты на доске котмонавты в сиденс 2,5 запустить ролики 30 секунд трейлер котмонавтов и заставку с событиями которая",
+    "scenes": [
+      2,
+      22
+    ],
+    "model": "Seedance 2.5",
+    "duration_seconds": 30,
+    "quantity_each": 1,
+    "scope": "Exactly these two paid website submissions. No auto retry, no other project/scenes, no purchase/top-up.",
+    "observed_quote_credits_each": 36,
+    "observed_total_credits": 72,
+    "balance_before": 102.37
+  },
+  "claim": {
+    "run_id": "chatgpt-work-kotmonavty-paid-20261029-km02",
+    "claimed_at": "2026-10-29T09:04:58.142Z",
+    "holder": "chatgpt",
+    "route": "paid_web_gui",
+    "max_credits": 36
+  },
+  "canonical_prompt_sha256": "03607c7036c099494f2782394ff47be3932f216ff342869943e1a641087c644e",
+  "normalized_prompt_sha256": "8cf8fb18ab9f8b10cbaed1f18e85a89813c62b48ab480e5404c281c71cc13783",
+  "full_prompt_match": true,
+  "all_9_ui_input_bytes_matched": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "projects/kotmonavty/references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "canonical_role": "Лучик — исходная идентичность",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "projects/kotmonavty/references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "canonical_role": "Рыжик — исходная идентичность",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png",
+      "sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607",
+      "canonical_role": "Магнитная свалка — только эта локация и её действие",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image4",
+      "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+      "sha256": "9ff3ec56daa9491c3071801dd1ac92b710e28b6fc22fae77491ebdc75b1a683a",
+      "canonical_role": "Корабль в вираже через разрушенное кольцо над газовым гигантом, дроны с лазерами — вид пролёта и масштаб кольца",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image5",
+      "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
+      "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed",
+      "canonical_role": "Маяк в песчаной буре — только эта локация и её действие",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image6",
+      "path": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png",
+      "sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4",
+      "canonical_role": "Экспресс через астероид — только эта локация и её действие",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image7",
+      "path": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png",
+      "sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508",
+      "canonical_role": "Лёд хранит секрет — только эта локация и её действие",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image8",
+      "path": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png",
+      "sha256": "81ada78b352c24fbfd3e496f1e3a7a5657f36bf23e9ab1da663ef0871393f59f",
+      "canonical_role": "Экспонат с притяжением — только эта локация и её действие",
+      "input_status": "available",
+      "required": true
+    },
+    {
+      "slot": "@Image9",
+      "path": "projects/kotmonavty/references/ship-exterior-front.png",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "canonical_role": "Исходный корабль — конструкция, окраска и эталон надписи РОСКОТМОС",
+      "input_status": "available",
+      "required": true
+    }
+  ],
+  "provider_input_images": [
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/khQeFwIZFFoAUbbmjpg6Y.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image1"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/EqWVh2GtlC4NO06dzTB8z.jpg",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image2"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/bmV2FsxKNSwiD4NnMXQJq.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image3"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/GRirS9v4KMfGc88fbk5J4.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image4"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/eUmC1ETHhZx37EdMnH5Gu.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image5"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/G3k37laG6oZjqZqICkDft.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image6"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Fc6S97Sb10o2DvXHG7f1r.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image7"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/cxtbOhIGgu0t0pQQENxqA.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image8"
+    },
+    {
+      "inputImageResourceId": null,
+      "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/WbOXuqEOD3AjYwjdYqXkl.png",
+      "inputImageUrl": null,
+      "projectAssetId": null,
+      "name": "Image9"
+    }
+  ],
+  "editorial_approval": false,
+  "automatic_retry": false
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "kotmonavty",
   "queue_id": "KOTMONAVTY-QUEUE",
-  "updated_at": "2026-10-29T09:04:58.142Z",
+  "updated_at": "2026-10-29T09:08:24.447Z",
   "state": "active",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "selection_policy": "Owner29Oct2026 one-off exception: KM02 and KM22 paid Seedance2.5/30s/720p/16:9/one each on Котмонавты only; existing Work chat handles both under project lock. Not part of free background launcher. All other project items remain unselected. Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
@@ -15,7 +15,7 @@
       "canonical_block_label": "2 · Wan 3.0 · 30 с",
       "prompt_source_path": "projects/kotmonavty/video-prompts.md",
       "priority": 1,
-      "state": "claimed",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.5",
       "selected_model": "Seedance 2.5",
@@ -108,14 +108,19 @@
       ],
       "depends_on_completed": [],
       "depends_on_submitted": [],
-      "task_id": null,
-      "claim": {
+      "task_id": "d92ed461dca14e83a429f3c5d8407a8e",
+      "claim": null,
+      "submitted_at": "2026-10-29T09:07:16Z",
+      "submission_claim": {
         "run_id": "chatgpt-work-kotmonavty-paid-20261029-km02",
         "claimed_at": "2026-10-29T09:04:58.142Z",
         "holder": "chatgpt",
         "route": "paid_web_gui",
         "max_credits": 36
-      }
+      },
+      "credits_cost": 36,
+      "receipt": "projects/kotmonavty/reports/KM02-SEED25-30-20261029.json",
+      "normalized_prompt_sha256": "8cf8fb18ab9f8b10cbaed1f18e85a89813c62b48ab480e5404c281c71cc13783"
     },
     {
       "id": "KM22-SEED25-30-20261029",
@@ -218,7 +223,8 @@
       "depends_on_completed": [],
       "depends_on_submitted": [],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "normalized_prompt_sha256": "8328914b5310a7f2aae360932fb9cf9ebaa93edbb7b6203af3236570db016079"
     }
   ],
   "already_submitted": {},
