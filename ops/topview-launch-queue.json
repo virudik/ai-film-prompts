@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T06:11:44.236Z",
+  "updated_at": "2026-10-29T06:12:56.987Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5928,7 +5928,7 @@
       "prompt_id": "S62-SEED20-P1",
       "canonical_block_label": "62 · Seedance 2.0 часть 1",
       "priority": 0.45,
-      "state": "claimed",
+      "state": "submission_unknown",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
@@ -6012,12 +6012,14 @@
         "claimed_at": "2026-10-29T06:11:44.236Z",
         "actor": "chatgpt_event_trigger",
         "holder": "chatgpt",
-        "route": "free_web_gui"
+        "route": "free_web_gui",
+        "submission_attempted_at": "2026-10-29T06:11:58Z",
+        "result": "browser_click_timeout_unknown"
       },
       "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": null
+      "blocker": "Single Create tool call timed out with action_failed; no new matching task observed yet. Never repeat Create; reconcile actual outcome by full prompt/time/input scan first."
     },
     {
       "id": "S62-SEED20-P2",
