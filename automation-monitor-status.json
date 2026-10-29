@@ -96,7 +96,8 @@
       "result:fde415b07e2049a696b94699219268fc",
       "result:8b6a8ce102ea416e88d3c14fa558c513",
       "result:b15165813c0848939edbe8b3d3aed182",
-      "result:4dc7da2c6bff41b3a8161a6cc427aaa7"
+      "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
+      "result:16d53ab1a84e4091b8867b7ed5cc8f4c"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -107,19 +108,20 @@
       "result:fde415b07e2049a696b94699219268fc",
       "result:8b6a8ce102ea416e88d3c14fa558c513",
       "result:b15165813c0848939edbe8b3d3aed182",
-      "result:4dc7da2c6bff41b3a8161a6cc427aaa7"
+      "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
+      "result:16d53ab1a84e4091b8867b7ed5cc8f4c"
     ],
     "robot_rewake": {
       "episode": "47b38490",
       "count": 0,
-      "last_at": "2026-10-29T23:00:27Z",
-      "last_event_id": "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
+      "last_at": "2026-10-29T23:10:32Z",
+      "last_event_id": "result:16d53ab1a84e4091b8867b7ed5cc8f4c",
       "silence_reported": "slots:8234d044:2"
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-10-29T23:00:17Z",
+      "checked_at": "2026-10-29T23:10:24Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -137,8 +139,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-29T23:00:27Z",
-    "completed_at": "2026-10-29T23:00:27Z",
+    "started_at": "2026-10-29T23:10:32Z",
+    "completed_at": "2026-10-29T23:10:32Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -209,8 +211,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-29T23:00:27Z",
-  "last_successful_cycle_at": "2026-10-29T23:00:27Z",
+  "last_completed_cycle_at": "2026-10-29T23:10:32Z",
+  "last_successful_cycle_at": "2026-10-29T23:10:32Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -225,13 +227,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-29T23:00:27Z"
+    "robot": "2026-10-29T23:10:32Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-29T23:00:27Z"
+    "robot": "2026-10-29T23:10:32Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
