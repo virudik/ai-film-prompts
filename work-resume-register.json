@@ -10,8 +10,6 @@
       "updated_at": "2026-10-29T06:47:04.899Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
-        "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
-        "Recorded priority in launch runbook and continuation protocol; maintain all duplicate/credit/continuity/lock checks.",
         "Last recorded cycle b35af063-1de0-832c-b342-f00da9fb5c6e completed22:01:16UTC, confirmed6active and existing58P2; did not itself submit58P2.",
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
         "22:55 MSK cycle: full 13-board/28-page scan found one free slot; skipped non-ready52P2/42P2 and submitted next ready S56-P1 once as task b15165813c0848939edbe8b3d3aed182, Seedance2.0/15s/720p/16:9/Unlimited0. Post-scan935 tasks/6 active/0 free.",
@@ -223,7 +221,9 @@
         "claim_ids": [
           "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
         ]
-      }
+      },
+      "completed_archived_points": 2,
+      "completed_archive": "archive/work-resume-register-archive.json"
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
