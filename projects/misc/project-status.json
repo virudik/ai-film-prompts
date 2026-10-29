@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/misc/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-29T06:42:25Z",
+  "synced_at": "2026-10-29T09:42:26Z",
   "revision_date": "23.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · создан новый пустой проект",
   "canonical_master_sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
@@ -24,7 +24,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 20.836,
+    "age_hours_at_status_build": 23.836,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -102,7 +102,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 20.836,
+      "age_hours": 23.836,
       "blocking": false
     },
     "topview_task_map": {
@@ -115,7 +115,7 @@
   "scene_meta": {},
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-29T06:42:25Z",
+    "synced_at": "2026-10-29T09:42:26Z",
     "canonical_master_sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
     "canonical_revision_sha256": "19e0c43a5f224064e5495be32aa65cc324267229d88dde69609fb1240401c43b",
     "scene_count": 0,
