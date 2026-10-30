@@ -3,17 +3,14 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-30T17:14:22+00:00",
-  "source_head": "8ba79bf9af5d523f098b84cb0d470d0da25b63d0",
-  "source_fingerprint": "676141c98ec8215787f1c18b4b320205860241ca49bddc7f399eafcff016850c",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-30T17:15:10+00:00",
+  "source_head": "356560c91f3f46f6d3f0ed10054e337d4ef808f6",
+  "source_fingerprint": "65484eb903d64393bf37dc86fc72dc80bf1ef661ea69c673df7ce073c3d75274",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "RAZNOE-CPK-REFS-20261027",
     "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
@@ -185,7 +182,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b01715680ec578ff026110adeecbb82dd9a559d322c6db7e5e428ef0b81c0114",
+      "sha256": "a13f8e7699232defa6011948037cdd3b923517a6d6017117b9cf875e82fc64f4",
       "bytes": 5135
     },
     {
@@ -200,7 +197,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "672d5c073e804f439a026ab71daf69350113cb36ad083fe053a65c919db0574e",
+      "sha256": "0a0ac6868cdb0565038b3fed4c22d5ce4155d83ee57283c29f0709a5a4f601f9",
       "bytes": 21497
     },
     {
@@ -230,8 +227,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "970ac7ede819a2c90e52a2323644c2a46ee8c335a106b62756402009c0d376ef",
-      "bytes": 19276
+      "sha256": "2052468a6000a74d1480d9d2cfe49de6f285934fc485e8bce9719e1f4f515fa8",
+      "bytes": 19277
     },
     {
       "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
@@ -265,8 +262,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "a427721543f4f54b4aefe1a592d2902dc01ef30bb8c740502ba7b415e1220e69",
-      "bytes": 24196
+      "sha256": "7c21032cf0976bb6dd675aaa862d5582b09ac82aa3e057fd9804ba68a4740102",
+      "bytes": 24169
     },
     {
       "file": "video-prompts.md",
@@ -274,5 +271,5 @@
       "bytes": 1251167
     }
   ],
-  "packet_bytes": 6015
+  "packet_bytes": 6034
 }
