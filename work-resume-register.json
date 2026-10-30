@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-30T02:37:49+00:00",
+  "last_updated_at": "2026-10-30T06:59:23+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-30T02:37:49+00:00",
+      "updated_at": "2026-10-30T06:59:23+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -22,7 +22,8 @@
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1.",
         "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized.",
-        "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json."
+        "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json.",
+        "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun."
       ],
       "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
       "canonical_refs": [
@@ -33,55 +34,47 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-29T07:07:04.001Z",
+        "checked_at": "2026-10-30T06:59:23+00:00",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-29T06:40:22Z",
+          "synced_at": "2026-10-30T06:50:31Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0,
-          "checked_at": "2026-10-29T07:02:56Z",
-          "info": 3,
-          "verification_commit": "51abb49b35f181cf0a72d40cf0e5106abef8bb75"
+          "checked_at": "2026-10-30T00:54:51Z",
+          "info": 3
         },
         "gmail_message_ids": [
-          "1a186360e888e47c",
-          "1a18641c3762555a",
-          "1a1864380334f8d7",
-          "1a18646ca547a408",
-          "1a18648aaf3a29d6",
-          "1a1864b002e1ac7a"
+          "1a189e6d06d84901",
+          "1a189f7380be8714"
         ],
         "github_failed_run_ids": [
-          40826866588,
-          40827062532,
-          40827413477,
-          40827874872
+          40970259803,
+          40972410786
         ],
-        "root_cause": "All four Canon health runs intentionally failed only on the new-warning notification step because ops/topview-launch-queue.json reached 402 KB; the health check and status publication steps succeeded.",
+        "root_cause": "Both Canon health runs intentionally failed only on the new-warning notification step after check/publication succeeded; ops/topview-launch-queue.json reached 400/403 KB.",
         "current_verification": {
-          "fix_commits": [
-            "19cf6e3a67689999b9ad27d7be401ac589b65df7",
-            "4d004e10bf865a39a942eb497fdff6b372cdd947"
+          "resolved_by_existing_cleanup": true,
+          "subsequent_successful_run_ids": [
+            40970496017,
+            40972875131,
+            40992857138
           ],
-          "queue_bytes": 388557,
           "canon_health": "ok",
-          "canon_warnings": 0,
-          "canon_health_commit": "51abb49b35f181cf0a72d40cf0e5106abef8bb75",
-          "queue_bytes_readback_at": "2026-10-29T07:08:30Z"
+          "canon_warnings": 0
         },
-        "result": "Fixed and verified by a fresh canon-health publication. No failed-run rerun; Gmail state unchanged."
+        "result": "Resolved and verified; no rerun or new repair. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-29T23:21:20.374Z",
+        "checked_at": "2026-10-30T06:59:23+00:00",
         "boards": 14,
         "pages": 20,
-        "total": 945,
+        "total": 950,
         "errors": [],
         "active": [
           {
@@ -141,10 +134,10 @@
         "receipt": "reports/topview-event-wake.json"
       },
       "last_observed_topview": {
-        "checked_at": "2026-10-29T23:38:19.518Z",
+        "checked_at": "2026-10-30T06:59:23+00:00",
         "boards": 14,
         "pages": 20,
-        "tasks": 945,
+        "tasks": 950,
         "active_videos": 6,
         "active_images": 0,
         "free_video_slots": 0
@@ -265,7 +258,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Six active Seregius videos, zero free slots; no Create in this open-chat policy update.",
+      "current_blocker": "Six active Seregius Unlimited0 videos, zero free slots; no Create/claim/retry in the 09:55 MSK cycle.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json"
     },
