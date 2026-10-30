@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T21:31:23Z",
+  "updated_at": "2026-10-30T22:03:30Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5472,7 +5472,7 @@
       "canonical_block_label": "72",
       "canonical_prompt_sha256": "046f17aae19d9da04d7c440c878e54d54e8d54c48321ff2e6d0f6e1e798781dd",
       "normalized_prompt_sha256": "157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1",
-      "priority": 0.975,
+      "priority": -1.0,
       "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
@@ -5538,7 +5538,7 @@
       "canonical_block_label": "71",
       "canonical_prompt_sha256": "f2a13af252b891bcf10d256cb4522aa3b3d4cd0049a438b98389472004fff162",
       "normalized_prompt_sha256": "68502bd0e16600656bb095e5d0981b88a52efe8d0d6d40eb77003c27f7092503",
-      "priority": 0.98,
+      "priority": -0.99,
       "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
@@ -6334,6 +6334,8 @@
   ],
   "telemetry_writer": "robot; this queue never fabricates heartbeat or editorial approval",
   "new_scene_order": [
+    72,
+    71,
     16,
     42,
     56,
@@ -6362,8 +6364,6 @@
     69,
     70,
     65,
-    72,
-    71,
     49,
     50,
     51,
@@ -7580,5 +7580,6 @@
       "S51G"
     ],
     "video_submissions": 0
-  }
+  },
+  "owner_instruction_20261031_vitalik_first": "Owner 31.10 01:02 MSK: «71 и 72 пропихни в начало очереди на генерацию в ван3». S72-WAN30 (-1.0) then S71-WAN30 (-0.99), Wan 3.0 30s, version with the alien women; Unlimited0 only."
 }
