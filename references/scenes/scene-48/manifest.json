@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 48,
-  "updated_at": "2026-10-30T18:14:22.460Z",
+  "updated_at": "2026-10-30T19:41:12.630Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "blocked_continuity",
   "references": [
@@ -277,10 +277,10 @@
     {
       "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
       "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-      "caption": "48.3 — Серёга стоит на спине огромного червя и держится одной рукой. Город впереди справа",
-      "role": "final_closeup_of_mounted_rider_toward_town",
-      "sha256": "2369992b1ca30deb276119de06fc585066e927cebadc9d8a20f0d78cc0907ec4",
-      "bytes": 913011,
+      "caption": "48.3 — средний план. Серёга в низкой стойке держится одной рукой за ровную спину червя",
+      "role": "midshot_low_standing_pose_on_level_worm",
+      "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
+      "bytes": 921725,
       "dimensions": [
         1672,
         941
@@ -288,10 +288,10 @@
       "media_type": "image",
       "status": "available",
       "owner_approval": "not_recorded",
-      "generation_method": "ChatGPT image editing, two passes from the previous profile shot using the original pose, opening scale and canonical identity",
+      "generation_method": "Original ChatGPT image edit, first pass selected by owner for @Image5",
       "created_at": "2026-10-30T18:14:22.460Z",
       "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-closeup.image-prompt.txt",
-      "prompt_sha256": "a75fd8a946c96f181b96ee5a12eb523159b29e504bbfbc0dc2e6667ea705ad53",
+      "prompt_sha256": "e9946d0cef10ccd21bdf41036c212e2de715b7a9572ac535e7882ef8ed24b2af",
       "reference_inputs": [
         {
           "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
@@ -317,13 +317,61 @@
         }
       ],
       "assistant_qc": {
-        "checked_at": "2026-10-30T18:14:22.460Z",
+        "checked_at": "2026-10-30T19:41:12.630Z",
         "status": "usable_for_assigned_role",
-        "scope": "Оба ботинка видны на широкой спине. Одна кисть обхватывает складку, другая рука вытянута для равновесия. Пасть справа, след тянется влево, город и ворота впереди справа."
+        "scope": "Низкая стойка на ровной спине без выступа. Ближняя рука опущена к кольцу, вторая вытянута. Пасть и город справа."
       },
       "site_published": {
         "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
         "thumbnail": "references/thumbs/scenes/scene-48/S48-P3-serega-worm-closeup.jpg.webp",
+        "linked_in_master": true
+      },
+      "part": 3
+    },
+    {
+      "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+      "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+      "caption": "48.3 — крупный план довольного лица Серёги. Он сохраняет стойку, город впереди справа",
+      "role": "final_face_closeup_same_standing_pose",
+      "sha256": "b6fe1568e0193b70a34cb5668026de35fb1e3a9eed7d13bed23eaaa1434480ad",
+      "bytes": 829466,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT image edit from the earlier close-up, selected @Image5 pose and canonical Serega sheet",
+      "created_at": "2026-10-30T19:41:12.630Z",
+      "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-face.image-prompt.txt",
+      "prompt_sha256": "bf33c9b2a230bc179259ed4422b611e0f0f24a139292c58ded037975f4c72ae0",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+          "git_commit": "2df8997dfb4b0e1d68086b8c0eb1906455246272",
+          "sha256": "0fee920740e5367cbc6346723d42760b0a2307997f92d494a2ad4bba185b546c",
+          "role": "former_closeup_framing_edit_target"
+        },
+        {
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+          "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
+          "role": "standing_pose_and_level_worm_back"
+        },
+        {
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity"
+        }
+      ],
+      "assistant_qc": {
+        "checked_at": "2026-10-30T19:41:12.630Z",
+        "status": "usable_for_assigned_role",
+        "scope": "Лицо крупным планом, видны зазор над спиной и опорный ботинок, рука на низком кольце и свободная рука. Справа видны город и край пасти."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+        "thumbnail": "references/thumbs/scenes/scene-48/S48-P3-serega-worm-face.jpg.webp",
         "linked_in_master": true
       },
       "part": 3
@@ -346,7 +394,8 @@
   "end_frame": null,
   "pose_composition_helpers": [
     "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
-    "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg"
+    "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+    "references/scenes/scene-48/S48-P3-serega-worm-face.jpg"
   ],
   "video_refs": [],
   "approved": [],
@@ -531,9 +580,9 @@
     {
       "prompt_id": "S48-SEED20-P3",
       "canonical_block_label": "48 · Seedance 2.0 часть 3",
-      "canonical_prompt_sha256": "28a8479da94cc33bec9aa456438168c8f95902755733e4f476b72db491e5402a",
-      "normalized_prompt_sha256": "e9fbbf172724e5b573d2ce03a38d64f90c949df7466dc1d36a584321e57ea9ed",
-      "characters": 2635,
+      "canonical_prompt_sha256": "fec76ed5814406836ac093c578884e78cb5998c4f4318e83f1321cedf72f4bd0",
+      "normalized_prompt_sha256": "9b615ee8d3adab375366038e4d81710b85ba60fc7458f6b2b23e8768ae575078",
+      "characters": 2575,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,
@@ -545,7 +594,7 @@
           "canonical_role": "previous_part_end",
           "input_status": "required_not_available",
           "source_item_id": "S48-SEED20-P2",
-          "source_requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. The first composition is @Image4; the shot then pushes in to @Image5."
+          "source_requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. Start wide on @Image4, pass through the standing pose at @Image5 and finish close on @Image6."
         },
         {
           "slot": "@Image1",
@@ -580,10 +629,18 @@
         {
           "slot": "@Image5",
           "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-          "sha256": "2369992b1ca30deb276119de06fc585066e927cebadc9d8a20f0d78cc0907ec4",
+          "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
           "required": true,
           "input_status": "available",
-          "canonical_role": "final_closeup_of_mounted_rider_toward_town"
+          "canonical_role": "midshot_low_standing_pose_on_level_worm"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+          "sha256": "b6fe1568e0193b70a34cb5668026de35fb1e3a9eed7d13bed23eaaa1434480ad",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "final_face_closeup_same_standing_pose"
         }
       ],
       "owner_generation_approval_inferred": false
@@ -603,18 +660,18 @@
       "item_id": "S48-SEED20-P3",
       "slot": "@Video1",
       "source_item_id": "S48-SEED20-P2",
-      "requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. The first composition is @Image4; the shot then pushes in to @Image5."
+      "requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. Start wide on @Image4, pass through the standing pose at @Image5 and finish close on @Image6."
     }
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "5bdbd890baa6b50c1e8015f3e904487e5c20bafebba61891ba8171f452acbf11",
+  "canonical_master_sha256": "b35842b466f896f6ff74651325ceed0692a93a2d824088be8abda1895fc7a0c2",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "48.1 начинается со склейки. 48.2 продолжает реальный конец 48.1. В 48.3 @Video1 из конца 48.2 согласует скорость и положение всадника. Первый кадр — широкий боковой @Image4. Камера непрерывно приближается к улыбке по @Image5. Ладонь на черве и город впереди видны до конца. @Image1 задаёт лицо, @Image2 — анатомию, @Image3 — город.",
+  "note": "48.1 начинается со склейки. 48.2 продолжает реальный конец 48.1. В 48.3 @Video1 из конца 48.2 согласует скорость и положение всадника. Первый кадр — широкий боковой @Image4. Камера проходит через низкую стойку на ровной спине по @Image5 и заканчивает приближение на улыбке по @Image6. Ладонь на черве и город впереди видны до конца. @Image1 задаёт лицо, @Image2 — анатомию, @Image3 — город.",
   "selected_engine": "Seedance 2.0",
   "selected_parts": 3,
   "generation_authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained. 30.10.2026: owner requested third selected part (15s Seedance 2.0, one free run) to continue the ride toward the city.",

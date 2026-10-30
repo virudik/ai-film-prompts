@@ -750,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T18:02:18.185Z",
+  "updated_at": "2026-10-30T19:41:12.630Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -2362,7 +2362,7 @@
     },
     {
       "id": "S48-P3-serega-worm-closeup",
-      "name": "48.3 — Серёга стоит на спине огромного червя и держится одной рукой. Город впереди справа",
+      "name": "48.3 — средний план. Серёга в низкой стойке держится одной рукой за ровную спину червя",
       "kind": "scene_reference",
       "scenes": [
         48
@@ -2372,10 +2372,10 @@
         {
           "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
           "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-          "caption": "48.3 — Серёга стоит на спине огромного червя и держится одной рукой. Город впереди справа",
-          "role": "final_closeup_of_mounted_rider_toward_town",
-          "sha256": "2369992b1ca30deb276119de06fc585066e927cebadc9d8a20f0d78cc0907ec4",
-          "bytes": 913011,
+          "caption": "48.3 — средний план. Серёга в низкой стойке держится одной рукой за ровную спину червя",
+          "role": "midshot_low_standing_pose_on_level_worm",
+          "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
+          "bytes": 921725,
           "dimensions": [
             1672,
             941
@@ -2383,10 +2383,10 @@
           "media_type": "image",
           "status": "available",
           "owner_approval": "not_recorded",
-          "generation_method": "ChatGPT image editing, two passes from the previous profile shot using the original pose, opening scale and canonical identity",
+          "generation_method": "Original ChatGPT image edit, first pass selected by owner for @Image5",
           "created_at": "2026-10-30T18:14:22.460Z",
           "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-closeup.image-prompt.txt",
-          "prompt_sha256": "a75fd8a946c96f181b96ee5a12eb523159b29e504bbfbc0dc2e6667ea705ad53",
+          "prompt_sha256": "e9946d0cef10ccd21bdf41036c212e2de715b7a9572ac535e7882ef8ed24b2af",
           "reference_inputs": [
             {
               "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
@@ -2412,9 +2412,9 @@
             }
           ],
           "assistant_qc": {
-            "checked_at": "2026-10-30T18:14:22.460Z",
+            "checked_at": "2026-10-30T19:41:12.630Z",
             "status": "usable_for_assigned_role",
-            "scope": "Оба ботинка видны на широкой спине. Одна кисть обхватывает складку, другая рука вытянута для равновесия. Пасть справа, след тянется влево, город и ворота впереди справа."
+            "scope": "Низкая стойка на ровной спине без выступа. Ближняя рука опущена к кольцу, вторая вытянута. Пасть и город справа."
           },
           "site_published": {
             "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
@@ -2423,7 +2423,66 @@
           }
         }
       ],
-      "reference_priority": "Поза и масштаб для финала приближения. Серёга стоит на обеих ногах, держится одной рукой и улыбается. Для лица приоритет у индивидуального листа Серёги."
+      "reference_priority": "Промежуточный план. Поза, масштаб и ровная спина червя. Финальный крупный план использует @Image6."
+    },
+    {
+      "id": "S48-P3-serega-worm-face",
+      "name": "48.3 — крупный план довольного лица Серёги. Он сохраняет стойку, город впереди справа",
+      "kind": "scene_reference",
+      "scenes": [
+        48
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+          "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+          "caption": "48.3 — крупный план довольного лица Серёги. Он сохраняет стойку, город впереди справа",
+          "role": "final_face_closeup_same_standing_pose",
+          "sha256": "b6fe1568e0193b70a34cb5668026de35fb1e3a9eed7d13bed23eaaa1434480ad",
+          "bytes": 829466,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT image edit from the earlier close-up, selected @Image5 pose and canonical Serega sheet",
+          "created_at": "2026-10-30T19:41:12.630Z",
+          "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-face.image-prompt.txt",
+          "prompt_sha256": "bf33c9b2a230bc179259ed4422b611e0f0f24a139292c58ded037975f4c72ae0",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+              "git_commit": "2df8997dfb4b0e1d68086b8c0eb1906455246272",
+              "sha256": "0fee920740e5367cbc6346723d42760b0a2307997f92d494a2ad4bba185b546c",
+              "role": "former_closeup_framing_edit_target"
+            },
+            {
+              "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+              "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
+              "role": "standing_pose_and_level_worm_back"
+            },
+            {
+              "path": "references/full/serega.jpg",
+              "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+              "role": "identity"
+            }
+          ],
+          "assistant_qc": {
+            "checked_at": "2026-10-30T19:41:12.630Z",
+            "status": "usable_for_assigned_role",
+            "scope": "Лицо крупным планом, видны зазор над спиной и опорный ботинок, рука на низком кольце и свободная рука. Справа видны город и край пасти."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+            "thumbnail": "references/thumbs/scenes/scene-48/S48-P3-serega-worm-face.jpg.webp",
+            "linked_in_master": true
+          }
+        }
+      ],
+      "reference_priority": "Финальная крупность и улыбка. Стойка по @Image5, лицо по индивидуальному листу Серёги."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T18:14:22.460Z",
+  "updated_at": "2026-10-30T19:41:12.630Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2097,8 +2097,8 @@
       "scene_id": 48,
       "prompt_id": "S48-SEED20-P3",
       "canonical_block_label": "48 · Seedance 2.0 часть 3",
-      "canonical_prompt_sha256": "28a8479da94cc33bec9aa456438168c8f95902755733e4f476b72db491e5402a",
-      "normalized_prompt_sha256": "e9fbbf172724e5b573d2ce03a38d64f90c949df7466dc1d36a584321e57ea9ed",
+      "canonical_prompt_sha256": "fec76ed5814406836ac093c578884e78cb5998c4f4318e83f1321cedf72f4bd0",
+      "normalized_prompt_sha256": "9b615ee8d3adab375366038e4d81710b85ba60fc7458f6b2b23e8768ae575078",
       "priority": 0.42,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -2123,7 +2123,7 @@
           "canonical_role": "previous_part_end",
           "input_status": "required_not_available",
           "source_item_id": "S48-SEED20-P2",
-          "source_requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. The first composition is @Image4; the shot then pushes in to @Image5."
+          "source_requirement": "Actual last 3 seconds of 48.2 with Serega already mounted. Archive, trim and verify the clip for motion continuity. Start wide on @Image4, pass through the standing pose at @Image5 and finish close on @Image6."
         },
         {
           "slot": "@Image1",
@@ -2158,16 +2158,24 @@
         {
           "slot": "@Image5",
           "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-          "sha256": "2369992b1ca30deb276119de06fc585066e927cebadc9d8a20f0d78cc0907ec4",
+          "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
           "required": true,
           "input_status": "available",
-          "canonical_role": "final_closeup_of_mounted_rider_toward_town"
+          "canonical_role": "midshot_low_standing_pose_on_level_worm"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+          "sha256": "b6fe1568e0193b70a34cb5668026de35fb1e3a9eed7d13bed23eaaa1434480ad",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "final_face_closeup_same_standing_pose"
         }
       ],
       "task_id": null,
       "claim": null,
       "authorization": "30.10.2026: владелец добавил продолжение поездки к городу. Один запуск по согласованной очереди, Unlimited 0.",
-      "blocker": "Await the actual 48.2 tail for motion, wind and rider-contact continuity. Open 48.3 on the @Image4 wide frame; finish close on @Image5.",
+      "blocker": "Await the actual 48.2 tail for motion, wind and rider-contact continuity. Open wide on @Image4, pass through @Image5 and finish close on @Image6.",
       "launch_readiness": "blocked_continuity"
     },
     {
