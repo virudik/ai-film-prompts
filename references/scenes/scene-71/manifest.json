@@ -1,0 +1,341 @@
+{
+  "schema_version": 2,
+  "project_id": "seregius",
+  "scene_id": 71,
+  "references": [
+    {
+      "path": "references/full/vitalik.jpg",
+      "asset_id": "references/full/vitalik.jpg",
+      "caption": "@Image1 — Виталик, внешность и костюм",
+      "role": "exact VITALIK identity and costume",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "user_supplied_identity",
+      "usage": "selected_wan3_input_reused",
+      "reused_from_existing_pack": true,
+      "site_published": {
+        "path": "references/full/vitalik.jpg",
+        "thumbnail": "references/thumbs/full/vitalik.jpg.webp",
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "bytes": 277558
+    },
+    {
+      "path": "references/scenes/scene-71/S71-hookah-throne.png",
+      "asset_id": "references/scenes/scene-71/S71-hookah-throne.png",
+      "caption": "@Image2 — Пустой трон из кальянов в кантине",
+      "role": "hookah_throne_location",
+      "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82",
+      "bytes": 2331094,
+      "dimensions": [
+        1664,
+        936
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (built-in)",
+      "created_at": "2026-10-30T21:15:13Z",
+      "prompt_file": "references/scenes/scene-71/S71-hookah-throne.image-prompt.txt",
+      "prompt_sha256": "8bd1e9d295d07915d8b6a510a82858e1484a2f0e3d99440abbd14ecf037ccc18",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        },
+        {
+          "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+          "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9"
+        }
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-71/S71-hookah-throne.png",
+        "thumbnail": "references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp",
+        "linked_in_master": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+      "asset_id": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+      "caption": "@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок",
+      "role": "vitalik_flanked_staging",
+      "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273",
+      "bytes": 2401269,
+      "dimensions": [
+        1664,
+        936
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (built-in)",
+      "created_at": "2026-10-30T21:15:13Z",
+      "prompt_file": "references/scenes/scene-71/S71-vitalik-on-throne-girls.image-prompt.txt",
+      "prompt_sha256": "7477ba4b632b049b9115f4d204ef854e6ec72474ff44ddd9fc1185eb42a2f936",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
+          "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532"
+        },
+        {
+          "path": "references/full/vitalik.jpg",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        }
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+        "thumbnail": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp",
+        "linked_in_master": true
+      },
+      "wardrobe_note": "В опубликованном кадре — длинные непрозрачные изумрудное и сливовое сценические платья с золотой вышивкой."
+    },
+    {
+      "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
+      "asset_id": "references/scenes/scene-71/S71-vitalik-on-throne.png",
+      "caption": "@Image3 · версия без инопланетянок — Виталик один на троне",
+      "role": "vitalik_solo_staging",
+      "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532",
+      "bytes": 2238914,
+      "dimensions": [
+        1664,
+        936
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT imagegen (built-in)",
+      "created_at": "2026-10-30T21:15:13Z",
+      "prompt_file": "references/scenes/scene-71/S71-vitalik-on-throne.image-prompt.txt",
+      "prompt_sha256": "9828169d244253ed5b1b072305b0f51ef0c13cc14c15504d2b97d819dfd12d5f",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-71/S71-hookah-throne.png",
+          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+        },
+        {
+          "path": "references/full/vitalik.jpg",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        }
+      ],
+      "site_published": {
+        "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
+        "thumbnail": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne.png.webp",
+        "linked_in_master": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-65/S65-bar-table.png",
+      "asset_id": "references/scenes/scene-65/S65-bar-table.png",
+      "caption": "@Image4 — Интерьер и свет кантины",
+      "role": "the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons",
+      "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "usage": "selected_wan3_input_reused",
+      "reused_from_existing_pack": true,
+      "site_published": {
+        "path": "references/scenes/scene-65/S65-bar-table.png",
+        "thumbnail": "references/thumbs/scenes/scene-65/S65-bar-table.png.webp",
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2250737
+    }
+  ],
+  "approved": [],
+  "rejected": [],
+  "technical_success_is_editorial_approval": false,
+  "updated_at": "2026-10-30T21:15:13Z",
+  "identity_refs": [
+    "references/full/vitalik.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-71/S71-hookah-throne.png",
+    "references/scenes/scene-65/S65-bar-table.png"
+  ],
+  "prompt_reference_mapping": [
+    {
+      "label": "71",
+      "canonical_prompt_sha256": "605d71b880671b7238ab8632e96e111d22e5f483ec64a81e352e48a3437c474f",
+      "normalized_prompt_sha256": "07cac1f32c92040724a189870860bfd399f76361af5fc550bab43f0f7e7c122f",
+      "characters": 6826,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "canonical_role": "exact VITALIK identity and costume",
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-71/S71-hookah-throne.png",
+          "required": true,
+          "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
+          "input_status": "available",
+          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+          "required": true,
+          "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
+          "input_status": "available",
+          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "canonical_role": "the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons",
+          "input_status": "available",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        }
+      ],
+      "queued": true,
+      "prompt_id": "S71-WAN30",
+      "launch_readiness": "authorized_inputs_available"
+    },
+    {
+      "label": "71 · Wan 3.0",
+      "canonical_prompt_sha256": "cf42231f89216e9cf287ac913178384868b8b73cffdb2af3fb581dc03d045ec6",
+      "normalized_prompt_sha256": "fb878c40ae3862d1e764f906e9652eb2118ff6d7dba291b94c596e0cb420fbab",
+      "characters": 5615,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "canonical_role": "exact VITALIK identity and costume",
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-71/S71-hookah-throne.png",
+          "required": true,
+          "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
+          "input_status": "available",
+          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
+          "required": true,
+          "canonical_role": "Vitalik alone on the throne: pose, scale and framing",
+          "input_status": "available",
+          "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "canonical_role": "the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons",
+          "input_status": "available",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        }
+      ],
+      "queued": false,
+      "variant": "без инопланетянок"
+    },
+    {
+      "label": "71 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "be4edf341a9631d0db689ab4370c8bacf71787aaedeaddb8d385cd00664af189",
+      "normalized_prompt_sha256": "4125f46632097557c0e43ce05949e8d30e5c94f8dc3968735944f0b28a46334e",
+      "characters": 6415,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "canonical_role": "exact VITALIK identity and costume",
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-71/S71-hookah-throne.png",
+          "required": true,
+          "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
+          "input_status": "available",
+          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+          "required": true,
+          "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
+          "input_status": "available",
+          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "canonical_role": "the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons",
+          "input_status": "available",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        }
+      ],
+      "queued": false
+    },
+    {
+      "label": "71 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "32aa3d04482f3d25339d433d87e1f96d172341342227882df2ea7acd0cda03de",
+      "normalized_prompt_sha256": "07fd2499fd2b36ea2978211083651fc3f1b42ef0e17a319cb39f1be0b7e1ca52",
+      "characters": 6202,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "input_status": "pending_actual_result",
+          "canonical_role": "actual_this_scene_seedance_part1_end",
+          "source_block_label": "71 · Seedance 2.0 часть 1"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/vitalik.jpg",
+          "required": true,
+          "canonical_role": "exact VITALIK identity and costume",
+          "input_status": "available",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-71/S71-hookah-throne.png",
+          "required": true,
+          "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
+          "input_status": "available",
+          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+          "required": true,
+          "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
+          "input_status": "available",
+          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "canonical_role": "the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons",
+          "input_status": "available",
+          "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
+        }
+      ],
+      "queued": false
+    }
+  ]
+}

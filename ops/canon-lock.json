@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "claude-202610302047-s71-refs — shared scene 71/72 references",
   "acquired_at": "2026-10-30T21:15:26.754Z",
-  "expires_at": "2026-10-30T22:00:26.754Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-30T21:17:10.026Z",
   "rules": "ops/CANON-LOCK.md"
 }

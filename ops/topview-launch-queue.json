@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T20:28:40.619Z",
+  "updated_at": "2026-10-30T21:15:13Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5473,8 +5473,8 @@
       "canonical_prompt_sha256": "67f9ac89147274c0f8f80e03bdd948dd2f2c82f08f66a48a05a4b1f39494d93f",
       "normalized_prompt_sha256": "83902e2513d1c978561f394596e1cfb268b734146a65cfd4fbbbd27645aec16d",
       "priority": 0.975,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_inputs",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -5501,16 +5501,16 @@
           "path": "references/scenes/scene-71/S71-hookah-throne.png",
           "required": true,
           "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
-          "input_status": "required_not_available",
-          "source_requirement": "Draw by references/scenes/scene-71/S71-hookah-throne.image-prompt.txt (open ChatGPT Work chat)."
+          "input_status": "available",
+          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
           "required": true,
           "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
-          "input_status": "required_not_available",
-          "source_requirement": "Draw by references/scenes/scene-71/S71-vitalik-on-throne-girls.image-prompt.txt (open ChatGPT Work chat)."
+          "input_status": "available",
+          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
         },
         {
           "slot": "@Image4",
@@ -5523,7 +5523,7 @@
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await three new images S71-hookah-throne / S71-vitalik-on-throne / S71-vitalik-on-throne-girls from the open ChatGPT Work chat. Queued version = with the two alien women; the version without them is a separate unqueued block.",
+      "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner30Oct: new scene 72 (prologue, Vitalik on the same hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
@@ -5539,8 +5539,8 @@
       "canonical_prompt_sha256": "605d71b880671b7238ab8632e96e111d22e5f483ec64a81e352e48a3437c474f",
       "normalized_prompt_sha256": "07cac1f32c92040724a189870860bfd399f76361af5fc550bab43f0f7e7c122f",
       "priority": 0.98,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_inputs",
+      "state": "waiting_for_slot",
+      "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
       "duration_seconds": 30,
@@ -5567,16 +5567,16 @@
           "path": "references/scenes/scene-71/S71-hookah-throne.png",
           "required": true,
           "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
-          "input_status": "required_not_available",
-          "source_requirement": "Draw by references/scenes/scene-71/S71-hookah-throne.image-prompt.txt (open ChatGPT Work chat)."
+          "input_status": "available",
+          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
           "required": true,
           "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
-          "input_status": "required_not_available",
-          "source_requirement": "Draw by references/scenes/scene-71/S71-vitalik-on-throne-girls.image-prompt.txt (open ChatGPT Work chat)."
+          "input_status": "available",
+          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
         },
         {
           "slot": "@Image4",
@@ -5589,7 +5589,7 @@
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Await three new images S71-hookah-throne / S71-vitalik-on-throne / S71-vitalik-on-throne-girls from the open ChatGPT Work chat. Queued version = with the two alien women; the version without them is a separate unqueued block.",
+      "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "authorization": "Owner30Oct: new scene 71 (Vitalik on a hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",

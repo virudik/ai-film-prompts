@@ -9048,7 +9048,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 71 — Виталик на троне из кальянов: «Вот такая вот история получилась»
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["vitalik","tatooine","cantina","hookah_throne","finale","dialogue_ru","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["vitalik","tatooine","cantina","hookah_throne","finale","dialogue_ru","owner_requested"]} -->
 
 **Контекст использования:** владелец 30.10.2026. Финальное слово автора: Виталик на троне, как в «Игре престолов», только из кальянов, в таверне (кантине) Татуина, подводит итог и объявляет трейлеры своих новых проектов. Пара к прологу — сцене 72 (то же место и тот же трон). Место в фильме по умолчанию — после титров, перед трейлерами.
 
@@ -9058,11 +9058,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Две версии (владелец 30.10):** с двумя заигрывающими инопланетянками по бокам трона — главная, в очереди; без них — отдельный текст «71 · Wan 3.0 · без инопланетянок» на той же вкладке, в очередь не поставлен. Нужную версию владелец выбирает перед запуском.
 
-**Готовность:** DRAFT 30.10.2026. Тексты промтов готовы. Три новые картинки (трон; Виталик на троне без инопланетянок; с ними) рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (описания — `references/scenes/scene-71/*.image-prompt.txt`, общие для 71 и 72). Главная версия — Wan 3.0, 30 с (русская речь). Видео предыдущей сцены не нужно.
+**Готовность:** DRAFT 30.10.2026. Тексты промтов готовы. Все три референса общие для сцен 71 и 72. Входы главной версии проверены, она ожидает свободного слота. Главная версия — Wan 3.0, 30 с (русская речь). Видео предыдущей сцены не нужно.
 
-**Референсы:** `references/full/vitalik.jpg` (Виталик — точная внешность и костюм джедая); `references/scenes/scene-71/S71-hookah-throne.png` (Трон из кальянов в кантине Татуина; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne.png` (Виталик на троне: посадка и композиция; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (Виталик на троне и две инопланетянки по бокам; ещё не нарисован); `references/scenes/scene-65/S65-bar-table.png` (Кантина Татуина: интерьер и свет).
+**Референсы:** `references/full/vitalik.jpg` (Виталик — точная внешность и костюм джедая); `references/scenes/scene-71/S71-hookah-throne.png` (Трон из кальянов в кантине Татуина); `references/scenes/scene-71/S71-vitalik-on-throne.png` (Виталик на троне: посадка и композиция); `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (Виталик на троне и две инопланетянки по бокам); `references/scenes/scene-65/S65-bar-table.png` (Кантина Татуина: интерьер и свет).
 
 **Режиссёрский контроль:** ровно один трон, целиком из настоящих работающих кальянов (не из мечей); говорит только Виталик и только эти фразы по-русски; инопланетянки (в главной версии) — красивые и заигрывающие, но без обнажёнки, молчат; Серёги и компании из 65 в кадре нет.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/vitalik.jpg.webp" alt="@Image1 — Виталик, внешность и костюм" loading="lazy"></a><figcaption>@Image1 — Виталик, внешность и костюм</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-hookah-throne.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp" alt="@Image2 — Пустой трон из кальянов в кантине" loading="lazy"></a><figcaption>@Image2 — Пустой трон из кальянов в кантине</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-vitalik-on-throne-girls.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp" alt="@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок" loading="lazy"></a><figcaption>@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-vitalik-on-throne.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-71/S71-vitalik-on-throne.png.webp" alt="@Image3 · версия без инопланетянок — Виталик один на троне" loading="lazy"></a><figcaption>@Image3 · версия без инопланетянок — Виталик один на троне</figcaption></figure>
+<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-65/S65-bar-table.png.webp" alt="@Image4 — Интерьер и свет кантины" loading="lazy"></a><figcaption>@Image4 — Интерьер и свет кантины</figcaption></figure>
+</div>
 
 <div class="engine-tabs" data-scene="71">
 
@@ -9070,7 +9078,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0, с инопланетянками.
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9124,7 +9132,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 71 · Wan 3.0 · без инопланетянок
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9183,7 +9191,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 71 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9235,7 +9243,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 71 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9293,7 +9301,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 72 — Виталик на троне из кальянов: «Всем привет» — пролог
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["vitalik","tatooine","cantina","hookah_throne","prologue","dialogue_ru","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["vitalik","tatooine","cantina","hookah_throne","prologue","dialogue_ru","owner_requested"]} -->
 
 **Контекст использования:** владелец 30.10.2026. Пролог: Виталик на том же троне из кальянов в той же кантине, что и в 71, приветствует зрителей и обещает историю «про одного друга». Место в фильме по умолчанию — самое начало, перед частью 1.
 
@@ -9303,11 +9311,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Две версии (владелец 30.10):** с двумя заигрывающими инопланетянками по бокам трона — главная, в очереди; без них — отдельный текст «72 · Wan 3.0 · без инопланетянок» на той же вкладке, в очередь не поставлен. Нужную версию владелец выбирает перед запуском.
 
-**Готовность:** DRAFT 30.10.2026. Тексты промтов готовы. Три новые картинки (трон; Виталик на троне без инопланетянок; с ними) рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (описания — `references/scenes/scene-71/*.image-prompt.txt`, общие для 71 и 72). Главная версия — Wan 3.0, 30 с (русская речь). Видео предыдущей сцены не нужно.
+**Готовность:** DRAFT 30.10.2026. Тексты промтов готовы. Все три референса общие для сцен 71 и 72. Входы главной версии проверены, она ожидает свободного слота. Главная версия — Wan 3.0, 30 с (русская речь). Видео предыдущей сцены не нужно.
 
-**Референсы:** `references/full/vitalik.jpg` (Виталик — точная внешность и костюм джедая); `references/scenes/scene-71/S71-hookah-throne.png` (Трон из кальянов в кантине Татуина; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne.png` (Виталик на троне: посадка и композиция; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (Виталик на троне и две инопланетянки по бокам; ещё не нарисован); `references/scenes/scene-65/S65-bar-table.png` (Кантина Татуина: интерьер и свет).
+**Референсы:** `references/full/vitalik.jpg` (Виталик — точная внешность и костюм джедая); `references/scenes/scene-71/S71-hookah-throne.png` (Трон из кальянов в кантине Татуина); `references/scenes/scene-71/S71-vitalik-on-throne.png` (Виталик на троне: посадка и композиция); `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (Виталик на троне и две инопланетянки по бокам); `references/scenes/scene-65/S65-bar-table.png` (Кантина Татуина: интерьер и свет).
 
 **Режиссёрский контроль:** ровно один трон, целиком из настоящих работающих кальянов (не из мечей); говорит только Виталик и только эти фразы по-русски; инопланетянки (в главной версии) — красивые и заигрывающие, но без обнажёнки, молчат; Серёги и компании из 65 в кадре нет.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/vitalik.jpg.webp" alt="@Image1 — Виталик, внешность и костюм" loading="lazy"></a><figcaption>@Image1 — Виталик, внешность и костюм</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-hookah-throne.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp" alt="@Image2 — Пустой трон из кальянов в кантине" loading="lazy"></a><figcaption>@Image2 — Пустой трон из кальянов в кантине</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-vitalik-on-throne-girls.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp" alt="@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок" loading="lazy"></a><figcaption>@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок</figcaption></figure>
+<figure><a href="references/scenes/scene-71/S71-vitalik-on-throne.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-71/S71-vitalik-on-throne.png.webp" alt="@Image3 · версия без инопланетянок — Виталик один на троне" loading="lazy"></a><figcaption>@Image3 · версия без инопланетянок — Виталик один на троне</figcaption></figure>
+<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-65/S65-bar-table.png.webp" alt="@Image4 — Интерьер и свет кантины" loading="lazy"></a><figcaption>@Image4 — Интерьер и свет кантины</figcaption></figure>
+</div>
 
 <div class="engine-tabs" data-scene="72">
 
@@ -9315,7 +9331,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0, с инопланетянками.
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9369,7 +9385,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 72 · Wan 3.0 · без инопланетянок
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9428,7 +9444,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 72 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9480,7 +9496,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 72 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png`; @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png`; @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
