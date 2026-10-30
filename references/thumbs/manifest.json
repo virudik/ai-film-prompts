@@ -2333,6 +2333,26 @@
    "thumb_bytes": 39786,
    "src_sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e"
   },
+  "references/scenes/scene-48/S48-P4-city-gate.png": {
+   "thumb": "references/thumbs/scenes/scene-48/S48-P4-city-gate.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1664,
+   "src_height": 936,
+   "src_bytes": 2365861,
+   "thumb_bytes": 48712,
+   "src_sha256": "6ade90a63126f972c86c046e00075b9215967a5fb4f4e1786029444203d9e858"
+  },
+  "references/scenes/scene-48/S48-P4-dismount-landing.png": {
+   "thumb": "references/thumbs/scenes/scene-48/S48-P4-dismount-landing.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1664,
+   "src_height": 936,
+   "src_bytes": 2520112,
+   "thumb_bytes": 61296,
+   "src_sha256": "108d897c6bfbdc4977a37242d204b9c05d76f95c62583acef9a51bc7fab965c2"
+  },
   "references/scenes/scene-49/S49A-lead-and-bass.png": {
    "thumb": "references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp",
    "width": 640,
