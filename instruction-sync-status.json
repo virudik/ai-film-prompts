@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "checked_at": "2026-10-30T10:02:41.626Z",
+  "checked_at": "2026-10-30T17:04:34.834Z",
   "verification_mode": "github_canonical_blob_check",
   "verification_scope": "Exact local canonical bytes only; not a semantic audit or proof of scheduler execution.",
   "source_of_truth": "github",
@@ -13,10 +13,10 @@
       "drive_copy_sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
       "drive_copy_checked_at": "2026-10-30T10:02:41.626Z",
       "drive_copy_modified_at": "2026-10-30T10:02:32.665Z",
-      "github_blob": "db564861be8c6b2023969bb4bd32efa4d50eac94",
-      "mirror_sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
+      "github_blob": "5cf845b0c8dddb25347844098b690310a9c906e3",
+      "mirror_sha256": "791361e50aeacc697d4f25d6684991086fa1fa9f53e0ea8de1e4ea5de46c0972",
       "match": true,
-      "drive_copy_match": true
+      "drive_copy_match": false
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
