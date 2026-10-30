@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-02T22:03:32.759Z",
-      "operation": "scenes22_23_24_terminal_reconciliation_and_full_board_discovery",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "6 active tasks; slow 22,23,24,26,27",
-      "new_status": "3 active tasks; slow 26,27 (Scene27 x2)",
-      "source_checkpoint": "2026-10-02T22:03:32.759Z",
-      "outcome": "telemetry_read_verified",
-      "verification": "6 exact task lookups; Scenes 22, 23 and 24 success. Full Board VIDEO scan covered 4 pages / 359 tasks; no unknown recent task. Remaining tasks: Scene 26 init and Scene 27 x2 init; occupancy 3/6."
-    },
-    {
       "timestamp": "2026-10-02T22:59:52.061Z",
       "operation": "hourly_active_refresh_and_full_board_discovery",
       "scene_id": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-30T01:00:19Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-30T01:50:25Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-30T01:50:25Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 56,
+  "archived_event_count": 57,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
