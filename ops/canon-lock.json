@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-review",
   "task": "Tatooine chain: Stitch wording, film order, trio A13 moves",
   "acquired_at": "2026-10-30T15:18:24Z",
-  "expires_at": "2026-10-30T16:03:24Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-30T15:21:29Z",
   "rules": "ops/CANON-LOCK.md"
 }
