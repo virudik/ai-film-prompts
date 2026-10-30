@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-10-30T02:37:49+00:00",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "09:55 MSK Topview and Phase A/B verified accounting",
+  "acquired_at": "2026-10-30T06:59:23+00:00",
+  "expires_at": "2026-10-30T07:29:23+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
