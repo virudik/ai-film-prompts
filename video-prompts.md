@@ -6,11 +6,11 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**28 сцен к генерации/доработке · 139 полных текстов промта**
+**29 сцен к генерации/доработке · 144 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 12** сцен сейчас в медленной генерации: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 61, 62** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 71 — Виталик на троне из кальянов в кантине Татуина подводит итог («Вот такая вот история получилась. Житейская, понятная») и объявляет трейлеры новых проектов (владелец 30.10; Wan3.0, 30 с; ждёт две картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
+- **Последняя оформленная активная сцена:** 72 — пролог: Виталик на том же троне из кальянов в кантине Татуина: «Всем привет… Всем приятного просмотра. История-то понятная, житейская»; 71 — его финальное слово и объявление трейлеров. Обе в двух версиях: с заигрывающими инопланетянками по бокам (главная) и без (владелец 30.10; Wan3.0, 30 с; ждут три картинки от открытого чата ChatGPT Work). Прежняя запись: 70 — Татуин: непрерывный пролёт с улицы к столику Серёги в кантине. Связка 52 ч.7 → 66 → 67 → 68 → 69 → 70 → 65 использует настоящие последние3с предыдущего звена; вся уличная цепь и65/70 выбраны Wan3.0,30с,52P1–P6 остаются Seedance2.0. В67–69 одна и та же дыня и сумка;69 убирает оставленную Стичем кучу в лазерный совок. Новые сцены остаются DRAFT, видеостыки ожидаются; приоритет до49→50→51→28, ready-skip сохраняется. Никаких видео этой правкой не запущено.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **30.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
@@ -89,7 +89,8 @@
 | 68 | [Татуинская связка 4/7 — Жилищник обметает кучку](#scene-68) | конец 67; бригада в форме «ГБУ Жилищник района Татуина»; световая метла; та же улица; Маша Р | Продолжение 67: трое инопланетян в форме «ГБУ Жилищник района Татуина» бестолково метут песок световыми мётлами; в конце их замечает девушка из 67. Владелец 27.10; в очереди после 67, до танцев; изображения готовы; ждёт настоящий конец 67 и QC. |
 | 69 | [Татуинская связка 5/7 — Маша и лазерный совок](#scene-69) | конец68; Маша; бригада; световая метла; улица; лазерный совок; передача дыни и сумки | Маша передаёт бригадиру дыню и сумку, берёт метлу, собирает песок и кучу Стича в лазерный совок, возвращает метлу и забирает покупки. Финал→70. Wan3.0,30с; ждёт настоящий конец68 и QC; DRAFT. |
 | 70 | [Татуинская связка 6/7 — пролёт в кантину](#scene-70) | настоящий конец69; Серёга; вход кантины; стол65 | Один непрерывный пролёт улица→открытая дверь→стол; бармен опускает кружку, IG-11 достаёт маслёнку,65 продолжает. Wan3.0,30с; после69 и перед65. Ждёт настоящий конец69 и QC; DRAFT. |
-| 71 | [Виталик на троне из кальянов](#scene-71) | Виталик; трон из кальянов; кантина 65 | Финальное слово автора: «Вот такая вот история получилась. Житейская, понятная» и объявление трейлеров новых проектов; кольцо дыма — переход. Владелец 30.10; Wan3.0, 30 с; в очереди после 65, ждёт две картинки. |
+| 71 | [Виталик на троне из кальянов — финальное слово](#scene-71) | Виталик; трон из кальянов; две инопланетянки (версия с ними — главная); кантина 65 | Финал: «Вот такая вот история получилась. Житейская, понятная» и объявление трейлеров новых проектов; кольцо дыма — переход. Владелец 30.10; Wan3.0, 30 с; в очереди после 65, ждёт картинки. |
+| 72 | [Виталик на троне из кальянов — пролог «Всем привет»](#scene-72) | Виталик; трон из кальянов; две инопланетянки (версия с ними — главная); кантина 65 | Пролог: «Всем привет. Сейчас я вам поведаю одну историю, произошедшую с одним моим другом. Всем приятного просмотра. История-то понятная, житейская»; камера ныряет в колбу кальяна. Владелец 30.10; Wan3.0, 30 с; ждёт картинки. |
 
 ### 🎬 Татуинская связка — единый порядок сцепления и запуска
 
@@ -9047,29 +9048,81 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 71 — Виталик на троне из кальянов: «Вот такая вот история получилась»
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["vitalik","tatooine","cantina","hookah_throne","finale","trailers_intro","dialogue_ru","owner_requested","awaiting_references"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["vitalik","tatooine","cantina","hookah_throne","finale","dialogue_ru","owner_requested","awaiting_references"]} -->
 
-**Контекст использования:** владелец 30.10.2026. Финальное слово автора: Виталик сидит на троне, как в «Игре престолов», только сложенном из кальянов, в таверне (кантине) Татуина, подводит итог и объявляет трейлеры своих новых проектов. Место в фильме по умолчанию — после финального музыкального номера (после титров), перед трейлерами; владелец может переставить.
+**Контекст использования:** владелец 30.10.2026. Финальное слово автора: Виталик на троне, как в «Игре престолов», только из кальянов, в таверне (кантине) Татуина, подводит итог и объявляет трейлеры своих новых проектов. Пара к прологу — сцене 72 (то же место и тот же трон). Место в фильме по умолчанию — после титров, перед трейлерами.
 
-**Что происходит:** Камера быстро скользит через янтарную дымку кантины мимо инопланетян и дроида с подносом и поднимается на каменный помост: там высится зубчатый трон из десятков сплавленных кальянов — стеклянные колбы, латунные шахты веером за спинкой, свисающие шланги, дымок сверху. На троне по-королевски развалился Виталик, нога через подлокотник. Он затягивается, колбы по всему трону булькают цепочкой, он выпускает облако дыма, смотрит прямо в камеру и спокойно говорит: «Вот такая вот история получилась. Житейская, понятная.» Посетители за ним серьёзно кивают. Потом он встаёт, раскидывает руки, как конферансье, со шлангом вместо скипетра, камера отъезжает на общий план трона: «А теперь вашему вниманию представляю трейлеры моих новых проектов.» В конце он пускает огромное кольцо дыма прямо в камеру, камера влетает в него, кадр заливает белый дым — переход к трейлерам.
+**Что происходит:** Камера быстро скользит через янтарную дымку кантины мимо инопланетян и дроида с подносом и поднимается на каменный помост: там высится зубчатый трон из десятков сплавленных кальянов — стеклянные колбы, латунные шахты веером за спинкой, свисающие шланги, дымок сверху. На троне по-королевски развалился Виталик, нога через подлокотник; по бокам трона — две красивые заигрывающие инопланетянки в эффектных нарядах танцовщиц (одна обмахивает его веером из перьев, другая подаёт кубок). Он затягивается, колбы по всему трону булькают цепочкой, выпускает облако дыма, смотрит прямо в камеру: «Вот такая вот история получилась. Житейская, понятная.» Посетители серьёзно кивают. Потом встаёт, раскидывает руки, как конферансье, со шлангом вместо скипетра, камера отъезжает на общий план: «А теперь вашему вниманию представляю трейлеры моих новых проектов.» В конце пускает огромное кольцо дыма в камеру, кадр заливает белый дым — переход к трейлерам.
 
-**Реплика:** «Вот такая вот история получилась. Житейская, понятная. А теперь вашему вниманию представляю трейлеры моих новых проектов.» — Виталик, на русском.
+**Реплика:** Вот такая вот история получилась. Житейская, понятная. А теперь вашему вниманию представляю трейлеры моих новых проектов. — Виталик, на русском.
 
-**Готовность:** DRAFT 30.10.2026. Тексты промтов готовы. Две новые картинки рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (описания — `references/scenes/scene-71/*.image-prompt.txt`). Главная версия — Wan 3.0, 30 с (русская речь); в очереди S71-WAN30 после 65, ждёт картинки. Видео предыдущей сцены не нужно.
+**Две версии (владелец 30.10):** с двумя заигрывающими инопланетянками по бокам трона — главная, в очереди; без них — отдельный текст «71 · Wan 3.0 · без инопланетянок» на той же вкладке, в очередь не поставлен. Нужную версию владелец выбирает перед запуском.
 
-**Референсы:** @Image1 — `references/full/vitalik.jpg` (Виталик — точная внешность и костюм джедая); @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (Трон из кальянов в кантине Татуина; ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png` (Виталик на троне: посадка и композиция; ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png` (Кантина Татуина: интерьер и свет).
-<div class="scene-ref-gallery">
-<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/thumbs/full/vitalik.jpg.webp" alt="Виталик — точная внешность и костюм джедая" loading="lazy"></a><figcaption>@Image1 — Виталик — точная внешность и костюм джедая</figcaption></figure>
-<figure><a href="references/scenes/scene-65/S65-bar-table.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-65/S65-bar-table.png.webp" alt="Кантина Татуина: интерьер и свет" loading="lazy"></a><figcaption>@Image4 — Кантина Татуина: интерьер и свет</figcaption></figure>
-</div>
+**Готовность:** DRAFT 30.10.2026. Тексты промтов готовы. Три новые картинки (трон; Виталик на троне без инопланетянок; с ними) рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (описания — `references/scenes/scene-71/*.image-prompt.txt`, общие для 71 и 72). Главная версия — Wan 3.0, 30 с (русская речь). Видео предыдущей сцены не нужно.
 
-**Режиссёрский контроль:** ровно один трон, целиком из настоящих работающих кальянов (не из мечей); говорит только Виталик и только эти три фразы по-русски; Серёги и компании из 65 в кадре нет; финал — белый дым во весь кадр, без титров.
+**Референсы:** `references/full/vitalik.jpg` (Виталик — точная внешность и костюм джедая); `references/scenes/scene-71/S71-hookah-throne.png` (Трон из кальянов в кантине Татуина; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne.png` (Виталик на троне: посадка и композиция; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (Виталик на троне и две инопланетянки по бокам; ещё не нарисован); `references/scenes/scene-65/S65-bar-table.png` (Кантина Татуина: интерьер и свет).
+
+**Режиссёрский контроль:** ровно один трон, целиком из настоящих работающих кальянов (не из мечей); говорит только Виталик и только эти фразы по-русски; инопланетянки (в главной версии) — красивые и заигрывающие, но без обнажёнки, молчат; Серёги и компании из 65 в кадре нет.
 
 <div class="engine-tabs" data-scene="71">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0.
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0, с инопланетянками.
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, deadpan comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
+@Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
+@Image3 — staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne-girls.png.
+@Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
+FLANKING ALIEN WOMEN, exactly as in @Image3: exactly two beautiful alien women stand on either side of the throne. LEFT: a tall emerald-green-skinned alien with two long head-tails wrapped in gold bands. RIGHT: a lavender-skinned alien with delicate pearl forehead ridges and long silver hair. Both wear glamorous, alluring cantina-dancer outfits: jewelled bralette tops, low jewelled belts, flowing sheer skirts with high slits, gold arm cuffs — sexy but never nude. They flirt playfully: sideways glances and smiles at Vitalik and the camera, the left one slowly fans him with a large feather fan, the right one leans on the glass armrest and offers him a goblet. They never speak. Vitalik stays cool and deadpan, enjoying it with a faint smile.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. The two flanking alien women stay on the dais beside the throne for the whole clip, one on each side.
+
+START STATE:
+Open inside the cantina, already moving: a low fast glide through the amber haze between patrons toward the dais at the far wall, the throne and Vitalik still partly hidden by passing figures.
+
+TIMELINE:
+[0:00–0:06] REVEAL — The camera glides fast and low through the amber haze, weaving past alien patrons and a droid carrying a tray, then rises up the three steps of the dais: the towering hookah throne, bubbling and smoking, with VITALIK lounging on it like a king, the two flanking alien women posing on either side.
+[0:06–0:11] THE KING — Medium shot: Vitalik sits sideways, one leg over the glass armrest, takes one slow draw from a hookah hose; the glass bases bubble one after another across the whole throne in a chain reaction; he exhales a big lazy cloud of smoke; the left woman fans him with a feather fan, the right one leans on the armrest and offers a goblet with a flirtatious smile.
+[0:11–0:19] THE SUMMARY — Close-up, he looks straight into the lens, calm, wise, a little ironic, and says in Russian: «Вот такая вот история получилась.» A beat, a small nod: «Житейская, понятная.» Patrons behind him nod along seriously.
+[0:19–0:26] THE ANNOUNCEMENT — He swings his leg down, rises from the throne and spreads his arms like a showman, holding the hookah hose like a scepter, while the camera pulls back fast to a low wide hero shot of the whole throne while the two women smile and play along: «А теперь вашему вниманию представляю трейлеры моих новых проектов.»
+[0:26–0:30] SMOKE WIPE — He takes a quick draw and blows one huge smoke ring straight at the camera; the camera flies into the ring and soft white smoke fills the frame.
+
+END STATE:
+Vitalik's huge smoke ring has filled the whole frame with soft white smoke; hold the moving white smoke as a clean transition to the trailers. No end card, no text.
+
+CAMERA / SPACE:
+A fast low dolly through the cantina rising onto the dais, a medium on the king's pose, a slow push to a close-up for the summary, a fast pull-back to a low wide hero shot for the announcement, and a final push into the smoke ring. Cut on motion; his face clear and well lit whenever he speaks.
+
+PERFORMANCE:
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass, sequins and sheer fabric.
+
+AUDIO:
+Vitalik's voice clear and close, Russian only, the exact lines: «Вот такая вот история получилась.», «Житейская, понятная.», «А теперь вашему вниманию представляю трейлеры моих новых проектов.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, a whoosh as the smoke ring fills the frame. The women only giggle softly, no words. No other speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, nudity, explicit content, more than two women on the dais, the women speaking, face blending between the women.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 71 · Wan 3.0 · без инопланетянок
 
 **Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
@@ -9080,7 +9133,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema,
 REFERENCES / AUTHORITY ORDER:
 @Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
 @Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
-@Image3 — staging of Vitalik seated on the throne: pose, scale and framing; Vitalik's own sheet @Image1 outranks this image for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne.png.
+@Image3 — staging of Vitalik seated alone on the throne: pose, scale and framing; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne.png.
 @Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
@@ -9088,7 +9141,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene.
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. Nobody stands beside the throne; Vitalik is alone on the dais.
 
 START STATE:
 Open inside the cantina, already moving: a low fast glide through the amber haze between patrons toward the dais at the far wall, the throne and Vitalik still partly hidden by passing figures.
@@ -9107,16 +9160,16 @@ CAMERA / SPACE:
 A fast low dolly through the cantina rising onto the dais, a medium on the king's pose, a slow push to a close-up for the summary, a fast pull-back to a low wide hero shot for the announcement, and a final push into the smoke ring. Cut on motion; his face clear and well lit whenever he speaks.
 
 PERFORMANCE:
-Vitalik is relaxed, regal and deadpan, a storyteller wrapping up his film with self-ironic dignity; the announcement is grand and theatrical. Patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass and brass.
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass.
 
 AUDIO:
-Vitalik's voice clear and close, Russian only, the exact lines: «Вот такая вот история получилась.», «Житейская, понятная.», «А теперь вашему вниманию представляю трейлеры моих новых проектов.» Hookah bubbling in a chain across the throne, his slow exhale, muffled cantina hubbub, clinking cups, a whoosh as the smoke ring fills the frame. No other speech, no narrator, no subtitles, no generated music.
+Vitalik's voice clear and close, Russian only, the exact lines: «Вот такая вот история получилась.», «Житейская, понятная.», «А теперь вашему вниманию представляю трейлеры моих новых проектов.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, a whoosh as the smoke ring fills the frame. No other speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark.
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, women or dancers beside the throne.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -9126,11 +9179,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="sd20x2">
 
-**Альтернатива2×15с.** P2 требует настоящие последние3с своей P1; не выбрана к запуску.
+**Альтернатива2×15с (с инопланетянками).** P2 требует настоящие последние3с своей P1; не выбрана к запуску.
 
 #### 71 · Seedance 2.0 часть 1
 
-**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9139,22 +9192,23 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, deadpan c
 REFERENCES / AUTHORITY ORDER:
 @Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
 @Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
-@Image3 — staging of Vitalik seated on the throne: pose, scale and framing; Vitalik's own sheet @Image1 outranks this image for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne.png.
+@Image3 — staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne-girls.png.
 @Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
+FLANKING ALIEN WOMEN, exactly as in @Image3: exactly two beautiful alien women stand on either side of the throne. LEFT: a tall emerald-green-skinned alien with two long head-tails wrapped in gold bands. RIGHT: a lavender-skinned alien with delicate pearl forehead ridges and long silver hair. Both wear glamorous, alluring cantina-dancer outfits: jewelled bralette tops, low jewelled belts, flowing sheer skirts with high slits, gold arm cuffs — sexy but never nude. They flirt playfully: sideways glances and smiles at Vitalik and the camera, the left one slowly fans him with a large feather fan, the right one leans on the glass armrest and offers him a goblet. They never speak. Vitalik stays cool and deadpan, enjoying it with a faint smile.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene.
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. The two flanking alien women stay on the dais beside the throne for the whole clip, one on each side.
 
 START STATE:
 Open inside the cantina, already moving: a low fast glide through the amber haze between patrons toward the dais at the far wall, the throne and Vitalik still partly hidden by passing figures.
 
 TIMELINE:
-[0:00–0:04] REVEAL — The camera glides fast and low through the amber haze, weaving past alien patrons and a droid carrying a tray, then rises up the three steps of the dais: the towering hookah throne, bubbling and smoking, with VITALIK lounging on it like a king.
-[0:04–0:08] THE KING — Medium shot: Vitalik sits sideways, one leg over the glass armrest, takes one slow draw from a hookah hose; the glass bases bubble one after another across the whole throne in a chain reaction; he exhales a big lazy cloud of smoke.
+[0:00–0:04] REVEAL — The camera glides fast and low through the amber haze, weaving past alien patrons and a droid carrying a tray, then rises up the three steps of the dais: the towering hookah throne, bubbling and smoking, with VITALIK lounging on it like a king, the two flanking alien women posing on either side.
+[0:04–0:08] THE KING — Medium shot: Vitalik sits sideways, one leg over the glass armrest, takes one slow draw from a hookah hose; the glass bases bubble one after another across the whole throne in a chain reaction; he exhales a big lazy cloud of smoke; the left woman fans him with a feather fan, the right one leans on the armrest and offers a goblet with a flirtatious smile.
 [0:08–0:15] THE SUMMARY — Close-up, he looks straight into the lens, calm, wise, a little ironic, and says in Russian: «Вот такая вот история получилась.» A beat, a small nod: «Житейская, понятная.» Patrons behind him nod along seriously.
 
 END STATE:
@@ -9164,16 +9218,16 @@ CAMERA / SPACE:
 A fast low dolly through the cantina rising onto the dais, a medium on the king's pose, a slow push to a close-up for the summary, a fast pull-back to a low wide hero shot for the announcement, and a final push into the smoke ring. Cut on motion; his face clear and well lit whenever he speaks. Execute only the beats of this part.
 
 PERFORMANCE:
-Vitalik is relaxed, regal and deadpan, a storyteller wrapping up his film with self-ironic dignity; the announcement is grand and theatrical. Patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass and brass.
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass, sequins and sheer fabric.
 
 AUDIO:
-Vitalik's voice clear and close, Russian only, the exact lines: «Вот такая вот история получилась.», «Житейская, понятная.», «А теперь вашему вниманию представляю трейлеры моих новых проектов.» Hookah bubbling in a chain across the throne, his slow exhale, muffled cantina hubbub, clinking cups, a whoosh as the smoke ring fills the frame. No other speech, no narrator, no subtitles, no generated music.
+Vitalik's voice clear and close, Russian only, the exact lines: «Вот такая вот история получилась.», «Житейская, понятная.», «А теперь вашему вниманию представляю трейлеры моих новых проектов.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, a whoosh as the smoke ring fills the frame. The women only giggle softly, no words. No other speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark.
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, nudity, explicit content, more than two women on the dais, the women speaking, face blending between the women.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -9181,7 +9235,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 71 · Seedance 2.0 часть 2
 
-**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -9191,21 +9245,22 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last 3 seconds of THIS scene 71 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
 @Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
 @Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
-@Image3 — staging of Vitalik seated on the throne: pose, scale and framing; Vitalik's own sheet @Image1 outranks this image for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne.png.
+@Image3 — staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne-girls.png.
 @Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
 Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
+FLANKING ALIEN WOMEN, exactly as in @Image3: exactly two beautiful alien women stand on either side of the throne. LEFT: a tall emerald-green-skinned alien with two long head-tails wrapped in gold bands. RIGHT: a lavender-skinned alien with delicate pearl forehead ridges and long silver hair. Both wear glamorous, alluring cantina-dancer outfits: jewelled bralette tops, low jewelled belts, flowing sheer skirts with high slits, gold arm cuffs — sexy but never nude. They flirt playfully: sideways glances and smiles at Vitalik and the camera, the left one slowly fans him with a large feather fan, the right one leans on the glass armrest and offers him a goblet. They never speak. Vitalik stays cool and deadpan, enjoying it with a faint smile.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene.
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. The two flanking alien women stay on the dais beside the throne for the whole clip, one on each side.
 
 START STATE:
 Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Vitalik sits on the hookah throne, has just said «Житейская, понятная.» and gives a small knowing nod, looking into the lens; patrons behind him nod along.
 
 TIMELINE:
-[0:00–0:09] THE ANNOUNCEMENT — He swings his leg down, rises from the throne and spreads his arms like a showman, holding the hookah hose like a scepter, while the camera pulls back fast to a low wide hero shot of the whole throne: «А теперь вашему вниманию представляю трейлеры моих новых проектов.»
+[0:00–0:09] THE ANNOUNCEMENT — He swings his leg down, rises from the throne and spreads his arms like a showman, holding the hookah hose like a scepter, while the camera pulls back fast to a low wide hero shot of the whole throne while the two women smile and play along: «А теперь вашему вниманию представляю трейлеры моих новых проектов.»
 [0:09–0:15] SMOKE WIPE — He takes a quick draw and blows one huge smoke ring straight at the camera; the camera flies into the ring and soft white smoke fills the frame.
 
 END STATE:
@@ -9215,16 +9270,261 @@ CAMERA / SPACE:
 A fast low dolly through the cantina rising onto the dais, a medium on the king's pose, a slow push to a close-up for the summary, a fast pull-back to a low wide hero shot for the announcement, and a final push into the smoke ring. Cut on motion; his face clear and well lit whenever he speaks. Execute only the beats of this part.
 
 PERFORMANCE:
-Vitalik is relaxed, regal and deadpan, a storyteller wrapping up his film with self-ironic dignity; the announcement is grand and theatrical. Patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
-Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass and brass.
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass, sequins and sheer fabric.
 
 AUDIO:
-Vitalik's voice clear and close, Russian only, the exact lines: «Вот такая вот история получилась.», «Житейская, понятная.», «А теперь вашему вниманию представляю трейлеры моих новых проектов.» Hookah bubbling in a chain across the throne, his slow exhale, muffled cantina hubbub, clinking cups, a whoosh as the smoke ring fills the frame. No other speech, no narrator, no subtitles, no generated music.
+Vitalik's voice clear and close, Russian only, the exact lines: «Вот такая вот история получилась.», «Житейская, понятная.», «А теперь вашему вниманию представляю трейлеры моих новых проектов.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, a whoosh as the smoke ring fills the frame. The women only giggle softly, no words. No other speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark.
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, nudity, explicit content, more than two women on the dais, the women speaking, face blending between the women.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+<a id="scene-72"></a>
+
+## Сцена 72 — Виталик на троне из кальянов: «Всем привет» — пролог
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["vitalik","tatooine","cantina","hookah_throne","prologue","dialogue_ru","owner_requested","awaiting_references"]} -->
+
+**Контекст использования:** владелец 30.10.2026. Пролог: Виталик на том же троне из кальянов в той же кантине, что и в 71, приветствует зрителей и обещает историю «про одного друга». Место в фильме по умолчанию — самое начало, перед частью 1.
+
+**Что происходит:** Пролог фильма. То же место и тот же трон, что в 71. Камера быстро летит через дымную кантину к помосту с троном из кальянов; Виталик развалился на нём, по бокам — две заигрывающие инопланетянки. Он лениво поднимает руку: «Всем привет.» Наклоняется к камере, как заговорщик: «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом» — и хитро косится в сторону. Откидывается, поднимает шланг кальяна, как бокал: «Всем приятного просмотра.» Пауза, невозмутимый кивок: «История-то понятная, житейская.» Затягивается — камера ныряет в булькающую янтарную колбу кальяна, пузыри заливают кадр — переход к началу фильма.
+
+**Реплика:** Всем привет. Сейчас я вам поведаю одну историю, произошедшую с одним моим другом. Всем приятного просмотра. История-то понятная, житейская. — Виталик, на русском.
+
+**Две версии (владелец 30.10):** с двумя заигрывающими инопланетянками по бокам трона — главная, в очереди; без них — отдельный текст «72 · Wan 3.0 · без инопланетянок» на той же вкладке, в очередь не поставлен. Нужную версию владелец выбирает перед запуском.
+
+**Готовность:** DRAFT 30.10.2026. Тексты промтов готовы. Три новые картинки (трон; Виталик на троне без инопланетянок; с ними) рисует открытый чат ChatGPT Work по задаче в `ops/owner-tasks.json` (описания — `references/scenes/scene-71/*.image-prompt.txt`, общие для 71 и 72). Главная версия — Wan 3.0, 30 с (русская речь). Видео предыдущей сцены не нужно.
+
+**Референсы:** `references/full/vitalik.jpg` (Виталик — точная внешность и костюм джедая); `references/scenes/scene-71/S71-hookah-throne.png` (Трон из кальянов в кантине Татуина; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne.png` (Виталик на троне: посадка и композиция; ещё не нарисован); `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (Виталик на троне и две инопланетянки по бокам; ещё не нарисован); `references/scenes/scene-65/S65-bar-table.png` (Кантина Татуина: интерьер и свет).
+
+**Режиссёрский контроль:** ровно один трон, целиком из настоящих работающих кальянов (не из мечей); говорит только Виталик и только эти фразы по-русски; инопланетянки (в главной версии) — красивые и заигрывающие, но без обнажёнки, молчат; Серёги и компании из 65 в кадре нет.
+
+<div class="engine-tabs" data-scene="72">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**30с · Wan3.0 / Seedance2.5 — один общий текст.** Главная версия — Wan3.0, с инопланетянками.
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, deadpan comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
+@Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
+@Image3 — staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne-girls.png.
+@Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
+FLANKING ALIEN WOMEN, exactly as in @Image3: exactly two beautiful alien women stand on either side of the throne. LEFT: a tall emerald-green-skinned alien with two long head-tails wrapped in gold bands. RIGHT: a lavender-skinned alien with delicate pearl forehead ridges and long silver hair. Both wear glamorous, alluring cantina-dancer outfits: jewelled bralette tops, low jewelled belts, flowing sheer skirts with high slits, gold arm cuffs — sexy but never nude. They flirt playfully: sideways glances and smiles at Vitalik and the camera, the left one slowly fans him with a large feather fan, the right one leans on the glass armrest and offers him a goblet. They never speak. Vitalik stays cool and deadpan, enjoying it with a faint smile.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. The two flanking alien women stay on the dais beside the throne for the whole clip, one on each side.
+
+START STATE:
+Open inside the cantina, already moving: a fast glide through the amber haze between patrons toward the dais at the far wall, hookahs bubbling on the throne ahead.
+
+TIMELINE:
+[0:00–0:06] OPENING — The camera glides fast through the amber haze past alien patrons and droids and rises onto the dais: the towering hookah throne, bubbling and smoking, with VITALIK lounging on it like a king, the two flanking alien women posing on either side.
+[0:06–0:11] GREETING — Medium shot: Vitalik lifts one gloved hand in a lazy royal greeting and looks straight into the lens: «Всем привет.»; the left woman fans him with a feather fan, the right one leans on the armrest and offers a goblet with a flirtatious smile.
+[0:11–0:19] THE PROMISE — The camera pushes to a close-up as he leans forward conspiratorially: «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом.» On «другом» he gives a sly sideways glance, as if the friend might be listening.
+[0:19–0:26] ENJOY — He leans back and raises the hookah hose like a toast while the two women smile and play along: «Всем приятного просмотра.» A beat, a calm deadpan nod: «История-то понятная, житейская.»
+[0:26–0:30] INTO THE STORY — He takes a slow draw; a hookah glass beside him bubbles loudly and the camera pushes straight into the bubbling amber glass until rising bubbles and golden light fill the frame.
+
+END STATE:
+The camera has pushed into a bubbling amber hookah glass; rising bubbles and golden light fill the whole frame as a clean transition to the start of the film. No end card, no text.
+
+CAMERA / SPACE:
+A fast dolly through the cantina rising onto the dais, a medium for the greeting, a push to a close-up for the promise, a slight pull-back for the toast, and a final push into the bubbling hookah glass. Cut on motion; his face clear and well lit whenever he speaks.
+
+PERFORMANCE:
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass, sequins and sheer fabric.
+
+AUDIO:
+Vitalik's voice clear and close, Russian only, the exact lines: «Всем привет.», «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом.», «Всем приятного просмотра.», «История-то понятная, житейская.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, the bubbling growing loud as the camera enters the glass. The women only giggle softly, no words. No other speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, nudity, explicit content, more than two women on the dais, the women speaking, face blending between the women.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 72 · Wan 3.0 · без инопланетянок
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, deadpan comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
+@Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
+@Image3 — staging of Vitalik seated alone on the throne: pose, scale and framing; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne.png.
+@Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. Nobody stands beside the throne; Vitalik is alone on the dais.
+
+START STATE:
+Open inside the cantina, already moving: a fast glide through the amber haze between patrons toward the dais at the far wall, hookahs bubbling on the throne ahead.
+
+TIMELINE:
+[0:00–0:06] OPENING — The camera glides fast through the amber haze past alien patrons and droids and rises onto the dais: the towering hookah throne, bubbling and smoking, with VITALIK lounging on it like a king.
+[0:06–0:11] GREETING — Medium shot: Vitalik lifts one gloved hand in a lazy royal greeting and looks straight into the lens: «Всем привет.»
+[0:11–0:19] THE PROMISE — The camera pushes to a close-up as he leans forward conspiratorially: «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом.» On «другом» he gives a sly sideways glance, as if the friend might be listening.
+[0:19–0:26] ENJOY — He leans back and raises the hookah hose like a toast: «Всем приятного просмотра.» A beat, a calm deadpan nod: «История-то понятная, житейская.»
+[0:26–0:30] INTO THE STORY — He takes a slow draw; a hookah glass beside him bubbles loudly and the camera pushes straight into the bubbling amber glass until rising bubbles and golden light fill the frame.
+
+END STATE:
+The camera has pushed into a bubbling amber hookah glass; rising bubbles and golden light fill the whole frame as a clean transition to the start of the film. No end card, no text.
+
+CAMERA / SPACE:
+A fast dolly through the cantina rising onto the dais, a medium for the greeting, a push to a close-up for the promise, a slight pull-back for the toast, and a final push into the bubbling hookah glass. Cut on motion; his face clear and well lit whenever he speaks.
+
+PERFORMANCE:
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass.
+
+AUDIO:
+Vitalik's voice clear and close, Russian only, the exact lines: «Всем привет.», «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом.», «Всем приятного просмотра.», «История-то понятная, житейская.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, the bubbling growing loud as the camera enters the glass. No other speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, women or dancers beside the throne.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Альтернатива2×15с (с инопланетянками).** P2 требует настоящие последние3с своей P1; не выбрана к запуску.
+
+#### 72 · Seedance 2.0 часть 1
+
+**Входы:** @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, deadpan comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
+@Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
+@Image3 — staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne-girls.png.
+@Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
+FLANKING ALIEN WOMEN, exactly as in @Image3: exactly two beautiful alien women stand on either side of the throne. LEFT: a tall emerald-green-skinned alien with two long head-tails wrapped in gold bands. RIGHT: a lavender-skinned alien with delicate pearl forehead ridges and long silver hair. Both wear glamorous, alluring cantina-dancer outfits: jewelled bralette tops, low jewelled belts, flowing sheer skirts with high slits, gold arm cuffs — sexy but never nude. They flirt playfully: sideways glances and smiles at Vitalik and the camera, the left one slowly fans him with a large feather fan, the right one leans on the glass armrest and offers him a goblet. They never speak. Vitalik stays cool and deadpan, enjoying it with a faint smile.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. The two flanking alien women stay on the dais beside the throne for the whole clip, one on each side.
+
+START STATE:
+Open inside the cantina, already moving: a fast glide through the amber haze between patrons toward the dais at the far wall, hookahs bubbling on the throne ahead.
+
+TIMELINE:
+[0:00–0:04] OPENING — The camera glides fast through the amber haze past alien patrons and droids and rises onto the dais: the towering hookah throne, bubbling and smoking, with VITALIK lounging on it like a king, the two flanking alien women posing on either side.
+[0:04–0:08] GREETING — Medium shot: Vitalik lifts one gloved hand in a lazy royal greeting and looks straight into the lens: «Всем привет.»; the left woman fans him with a feather fan, the right one leans on the armrest and offers a goblet with a flirtatious smile.
+[0:08–0:15] THE PROMISE — The camera pushes to a close-up as he leans forward conspiratorially: «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом.» On «другом» he gives a sly sideways glance, as if the friend might be listening.
+
+END STATE:
+Vitalik leans toward the lens on the hookah throne, has just finished «…произошедшую с одним моим другом.» with a sly sideways glance; patrons behind him lean in. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+
+CAMERA / SPACE:
+A fast dolly through the cantina rising onto the dais, a medium for the greeting, a push to a close-up for the promise, a slight pull-back for the toast, and a final push into the bubbling hookah glass. Cut on motion; his face clear and well lit whenever he speaks. Execute only the beats of this part.
+
+PERFORMANCE:
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass, sequins and sheer fabric.
+
+AUDIO:
+Vitalik's voice clear and close, Russian only, the exact lines: «Всем привет.», «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом.», «Всем приятного просмотра.», «История-то понятная, житейская.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, the bubbling growing loud as the camera enters the glass. The women only giggle softly, no words. No other speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, nudity, explicit content, more than two women on the dais, the women speaking, face blending between the women.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 72 · Seedance 2.0 часть 2
+
+**Входы:** @Video1 — последние 3 с настоящей части 1 этой сцены; @Image1 — `references/full/vitalik.jpg`; @Image2 — `references/scenes/scene-71/S71-hookah-throne.png` (ещё не нарисован); @Image3 — `references/scenes/scene-71/S71-vitalik-on-throne-girls.png` (ещё не нарисован); @Image4 — `references/scenes/scene-65/S65-bar-table.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, deadpan comedy
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual last 3 seconds of THIS scene 72 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart.
+@Image1 — exact VITALIK identity and costume; highest authority for his face, hair, build and clothes. File: references/full/vitalik.jpg.
+@Image2 — exact hookah throne and its place in the cantina: design, size, dais, materials; highest authority for the throne. File: references/scenes/scene-71/S71-hookah-throne.png.
+@Image3 — staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits; Vitalik's own sheet @Image1 outranks it for his face and costume. File: references/scenes/scene-71/S71-vitalik-on-throne-girls.png.
+@Image4 — the same Tatooine cantina as scenes 65 and 70: amber lanterns, stone arches, haze, alien patrons; interior and light only, ignore the people at the table. File: references/scenes/scene-65/S65-bar-table.png.
+Images are references for identity, design and staging, not frames to show in sequence. Generate real movement between them.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+VITALIK, @Image1: fair round face, short light-brown hair, light stubble, calm grey-green eyes; black Jedi tunic under a long black leather tabard, wide brown belt with pouches and a switched-off lightsaber hilt at the hip, black leather gloves, dark brown trousers, tall brown boots. Exactly one Vitalik; no face blending, no beautifying, no costume change.
+FLANKING ALIEN WOMEN, exactly as in @Image3: exactly two beautiful alien women stand on either side of the throne. LEFT: a tall emerald-green-skinned alien with two long head-tails wrapped in gold bands. RIGHT: a lavender-skinned alien with delicate pearl forehead ridges and long silver hair. Both wear glamorous, alluring cantina-dancer outfits: jewelled bralette tops, low jewelled belts, flowing sheer skirts with high slits, gold arm cuffs — sexy but never nude. They flirt playfully: sideways glances and smiles at Vitalik and the camera, the left one slowly fans him with a large feather fan, the right one leans on the glass armrest and offers him a goblet. They never speak. Vitalik stays cool and deadpan, enjoying it with a faint smile.
+
+LOCATION / STORY LOCK — CRITICAL:
+The same amber-lit Tatooine cantina as scenes 65 and 70 (@Image4 interior and light). At the far wall on a low stone dais of three steps stands ONE towering jagged throne built entirely from dozens of fused hookahs exactly as in @Image2: bulbous coloured glass bases form the seat and armrests, polished brass stems and bowls fan up behind the back into a tall spiky crown, tangled hookah hoses hang down the steps, coals glow in the bowls, thin smoke curls from the top. The hookahs are real and working: when he draws, the glass bases bubble. Alien patrons and droids fill the room around the dais. Vitalik is the only speaker; he speaks Russian, the exact lines below, with clear lip-sync. Serega and his table companions are not in this scene. The two flanking alien women stay on the dais beside the throne for the whole clip, one on each side.
+
+START STATE:
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Vitalik leans toward the lens on the hookah throne, has just finished «…произошедшую с одним моим другом.» with a sly sideways glance; patrons behind him lean in.
+
+TIMELINE:
+[0:00–0:09] ENJOY — He leans back and raises the hookah hose like a toast while the two women smile and play along: «Всем приятного просмотра.» A beat, a calm deadpan nod: «История-то понятная, житейская.»
+[0:09–0:15] INTO THE STORY — He takes a slow draw; a hookah glass beside him bubbles loudly and the camera pushes straight into the bubbling amber glass until rising bubbles and golden light fill the frame.
+
+END STATE:
+The camera has pushed into a bubbling amber hookah glass; rising bubbles and golden light fill the whole frame as a clean transition to the start of the film. No end card, no text.
+
+CAMERA / SPACE:
+A fast dolly through the cantina rising onto the dais, a medium for the greeting, a push to a close-up for the promise, a slight pull-back for the toast, and a final push into the bubbling hookah glass. Cut on motion; his face clear and well lit whenever he speaks. Execute only the beats of this part.
+
+PERFORMANCE:
+Vitalik is relaxed, regal and deadpan, a storyteller with self-ironic dignity; patrons react with small serious nods. Bodies stay purposefully in motion; no dead slideshow, repeated action loop or premature final pose.
+
+LIGHTING / MATERIALS:
+Warm amber lantern light of the cantina, glowing coals, light through coloured hookah glass, thick soft smoke catching the light; photoreal skin, leather, glass, brass, sequins and sheer fabric.
+
+AUDIO:
+Vitalik's voice clear and close, Russian only, the exact lines: «Всем привет.», «Сейчас я вам поведаю одну историю, произошедшую с одним моим другом.», «Всем приятного просмотра.», «История-то понятная, житейская.» Hookah bubbling across the throne, his slow exhale, muffled cantina hubbub, clinking cups, the bubbling growing loud as the camera enters the glass. The women only giggle softly, no words. No other speech, no narrator, no subtitles, no generated music.
+
+NEGATIVE PROMPT:
+extra speakers, other lines, English speech, mumbling, subtitles, text, throne of swords or metal blades, fire, burning, cigarettes, coughing fit, Serega, the table group from scene 65, second throne, identity drift, costume change, lit lightsaber, cartoon, logo, watermark, nudity, explicit content, more than two women on the dais, the women speaking, face blending between the women.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

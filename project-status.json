@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-30T20:50:23Z",
+  "synced_at": "2026-10-30T20:55:52Z",
   "revision_date": "30.10.2026",
   "master_declared_last_full_sync": "30.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "e232b2ad181d4a70bdbf2cf066c9518f0adf5027a4e087fff4385533f4f9ebcb",
-  "canonical_revision_sha256": "165d7a3738939cc53f6b4f514dbe6854ccc838ac425bb0bff19fcc25896a190e",
-  "canonical_master_bytes": 1289262,
-  "scenes": 28,
-  "prompt_texts": 139,
+  "canonical_master_sha256": "6d4cc78eec516feff13c3c0be18095a15c1156000f0d26c641cc3460b2edf24e",
+  "canonical_revision_sha256": "d4511989d6325991997180985f77492b60758635e5fe20554430d1697a9ffe8e",
+  "canonical_master_bytes": 1332005,
+  "scenes": 29,
+  "prompt_texts": 144,
   "work_items": [
     "W5",
     "W6",
@@ -68,9 +68,10 @@
     68,
     69,
     70,
-    71
+    71,
+    72
   ],
-  "latest_scene": 71,
+  "latest_scene": 72,
   "reserved_scene_ids": [
     1,
     2,
@@ -121,7 +122,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 2.76,
+    "age_hours_at_status_build": 2.852,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -199,7 +200,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 2.76,
+      "age_hours": 2.852,
       "blocking": false
     },
     "topview_task_map": {
@@ -830,7 +831,27 @@
         "cantina",
         "hookah_throne",
         "finale",
-        "trailers_intro",
+        "dialogue_ru",
+        "owner_requested",
+        "awaiting_references"
+      ],
+      "render_state": "IDLE"
+    },
+    "72": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "vitalik",
+        "tatooine",
+        "cantina",
+        "hookah_throne",
+        "prologue",
         "dialogue_ru",
         "owner_requested",
         "awaiting_references"
@@ -840,11 +861,11 @@
   },
   "audit_fingerprint": {
     "revision_date": "30.10.2026",
-    "synced_at": "2026-10-30T20:50:23Z",
-    "canonical_master_sha256": "e232b2ad181d4a70bdbf2cf066c9518f0adf5027a4e087fff4385533f4f9ebcb",
-    "canonical_revision_sha256": "165d7a3738939cc53f6b4f514dbe6854ccc838ac425bb0bff19fcc25896a190e",
-    "scene_count": 28,
-    "prompt_count": 139,
+    "synced_at": "2026-10-30T20:55:52Z",
+    "canonical_master_sha256": "6d4cc78eec516feff13c3c0be18095a15c1156000f0d26c641cc3460b2edf24e",
+    "canonical_revision_sha256": "d4511989d6325991997180985f77492b60758635e5fe20554430d1697a9ffe8e",
+    "scene_count": 29,
+    "prompt_count": 144,
     "scene_ids": [
       13,
       16,
@@ -873,7 +894,8 @@
       68,
       69,
       70,
-      71
+      71,
+      72
     ],
     "work_items": [
       "W5",
