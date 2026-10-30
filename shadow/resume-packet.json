@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T00:56:08+00:00",
-  "source_head": "0cd31b9dd5e7309efd54266c7bffa86742058e62",
-  "source_fingerprint": "1dbc277ab866a47dfa7a68a9bef94f418bac99f0f7e2dbb099df305961a32a1a",
+  "checked_at": "2026-10-30T01:03:38+00:00",
+  "source_head": "fdb9a6d587a54fe9e33a61105e2c74c2aa8c0c1d",
+  "source_fingerprint": "de6e277c2d91ac9676c862688c9771ba5b751bd4ea3dec3b65bbb4cf348896d8",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -35,28 +35,29 @@
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_global_capacity",
-    "last_completed": "All47 finale prompts and26 pending hashes validated;348 tests passed. Empty reverse hangar saved; audience B blocked by image generator including edit attempt. Publication readback pending.",
-    "next_action": "Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.",
-    "verified_at": "2026-10-30T00:53:50+00:00",
+    "last_completed": "Published and verified all47 finale prompts and26 pending SHA,13 historical task revision links;348 tests passed. Empty reverse H28B and thumbnail verified on Pages. Audience B blocked by generator, exact prompt saved. Zero video launches.",
+    "next_action": "Fresh main/inbox/lock and full live slot scan; continue next ready authorized queue item with current47-block finale revision. Inspect lights/floor, sustained movement, faces/contacts and camera. Audience option B image is blocked by generator; obtain it before owner placement choice, keep existing @Image5. A3 needs clean new A2; A12 needs real A11 end.",
+    "verified_at": "2026-10-30T01:02:58+00:00",
     "blockers": [],
     "evidence": [
       {
         "file": "reports/final-music-number-2026-10-30.json",
-        "sha256": "3310ec2c1be08fff439dab5f14ee87c63102a51a1ae2f548aa939dc71cc35626"
+        "sha256": "ae8a8b6d73de9911fcec15053e60f6779728aeabb9fd194f9f1511e713d426ee"
       }
     ],
     "read_next": [
       "ops/topview-launch-queue.json",
       "video-prompts.md",
+      "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
       "ops/TOPVIEW-RETRY.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
       "anchor": "# Финальный музыкально-танцевальный номер · 30.10.2026",
-      "sha256": "d6615712f8836b753e3966896421e6a6309fe075c05d735bc09edcd3214a7f00"
+      "sha256": "59fe215f39cfac8a218e811f82e260acb24344da20fc746da28d6e07d3d69610"
     }
   },
-  "checkpoint_text": "# Финальный музыкально-танцевальный номер · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца обновлены все47 промтов28/49/50/51 и26 неотправленных пунктов очереди: меняющийся свет/пол, непрерывное исполнение и подходящие действию дуги/наезды/отъезды камеры. Старые13 отправок28 связаны с нынешними редакциями в reports/final-music-number-2026-10-30.json; их фактические payload/SHA/результаты не изменены. Очередь, выбранные движки, обязательные референсы и зависимости сохранены. Видео и платные операции не запускались. 348 тестов, site contract и master health=ok, canon health без предупреждений. Публикационный readback ещё выполняется.\n\nПустой обратный вид H28B создан и визуально проверен как предложение. ВариантА — существующий выбранный кадр вуки на площадке. ВариантБ — зрители напротив: генератор отклонил кадр, PNG нет; точный промт references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt сохранён. Не выдавать пустой ангар за готовую толпу, не выбирать вариант за владельца и не заменять текущий @Image5. Не повторять уже готовую работу.\n\nДальше: завершить проверку/публикацию; продолжать согласованную очередь после свежего чтения main/входящих/замка и живой проверки всех слотов. У28A3 требуется чистый конец новогоA2, уA12 — настоящий конецA11. КадрБ остаётся отдельным незавершённым визуальным заданием и не блокирует видеоочередь. После его получения владелец выбирает расстановку; тогда согласованно обновить версии50 и их входы. Проверять будущие видео по отправленным редакциям, особенно середину движения, смену света, лица/контакты и географию. Старые числа слотов не считать свежей проверкой.\n",
+  "checkpoint_text": "# Финальный музыкально-танцевальный номер · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца обновлены все47 промтов28/49/50/51 и26 неотправленных пунктов очереди: меняющийся свет/пол, непрерывное исполнение и подходящие действию дуги/наезды/отъезды камеры. Старые13 отправок28 связаны с нынешними редакциями в reports/final-music-number-2026-10-30.json; их фактические payload/SHA/результаты не изменены. Очередь, выбранные движки, обязательные референсы и зависимости сохранены. Видео и платные операции не запускались. 348 тестов, site contract и master health=ok, canon health без предупреждений. GitHub-коммит f85e87d744ddee05b351182d5fb3394d94d87722 проверен по всем21 файлам; публичный мастер/статус и обратный ангар/миниатюра совпали поSHA. Каноническая проверка, интеграционные тесты и сборка миниатюр GitHub успешны.\n\nПустой обратный вид H28B создан и визуально проверен как предложение. ВариантА — существующий выбранный кадр вуки на площадке. ВариантБ — зрители напротив: генератор отклонил кадр, PNG нет; точный промт references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt сохранён. Не выдавать пустой ангар за готовую толпу, не выбирать вариант за владельца и не заменять текущий @Image5. Не повторять уже готовую работу.\n\nДальше: продолжать согласованную очередь после свежего чтения main/входящих/замка и живой проверки всех слотов. У28A3 требуется чистый конец новогоA2, уA12 — настоящий конецA11. КадрБ остаётся отдельным незавершённым визуальным заданием и не блокирует видеоочередь. После его получения владелец выбирает расстановку; тогда согласованно обновить версии50 и их входы. Проверять будущие видео по отправленным редакциям, особенно середину движения, смену света, лица/контакты и географию. Старые числа слотов не считать свежей проверкой.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -152,6 +153,7 @@
   "read_next": [
     "ops/topview-launch-queue.json",
     "video-prompts.md",
+    "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
     "ops/TOPVIEW-RETRY.md"
   ],
   "live_checks_required": [
@@ -431,18 +433,18 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "a07d4c511de933b4452930387c07b0fd25067d35a48bd13bd91fc14ac03cddcc",
+      "sha256": "7fdb295eab92101b83a3c48d6c0158e19297c4d3be9abe0f341fdb4ad3be731d",
       "bytes": 21477
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "0bcf4fadb6162af98bb85ad22467dc59bad574d2a1ef3a88fde56a3bd2c4b230",
-      "bytes": 43695
+      "sha256": "7bac34e0418dd3b28f8d831e008d84f9c03378a67a3b9c81c7fbe4ec9a5bbea5",
+      "bytes": 43934
     },
     {
       "file": "reports/final-music-number-2026-10-30.json",
-      "sha256": "3310ec2c1be08fff439dab5f14ee87c63102a51a1ae2f548aa939dc71cc35626",
-      "bytes": 28624
+      "sha256": "ae8a8b6d73de9911fcec15053e60f6779728aeabb9fd194f9f1511e713d426ee",
+      "bytes": 31373
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -466,9 +468,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "4a1f0d756921c474a23cc22c50c1709bb05510a42ed0dab94ffac225213c6599",
-      "bytes": 80870
+      "sha256": "e0411a2fb505c9aff46c1eabd0034138650ac21d0c7975a4b90090fd8d486b83",
+      "bytes": 81602
     }
   ],
-  "packet_bytes": 7272
+  "packet_bytes": 7754
 }

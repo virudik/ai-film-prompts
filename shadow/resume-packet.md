@@ -3,11 +3,11 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-10-30T00:56:08+00:00
+Проверено: 2026-10-30T01:03:38+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
-Последний подтверждённый этап: All47 finale prompts and26 pending hashes validated;348 tests passed. Empty reverse hangar saved; audience B blocked by image generator including edit attempt. Publication readback pending.
-Следующий шаг: Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.
+Последний подтверждённый этап: Published and verified all47 finale prompts and26 pending SHA,13 historical task revision links;348 tests passed. Empty reverse H28B and thumbnail verified on Pages. Audience B blocked by generator, exact prompt saved. Zero video launches.
+Следующий шаг: Fresh main/inbox/lock and full live slot scan; continue next ready authorized queue item with current47-block finale revision. Inspect lights/floor, sustained movement, faces/contacts and camera. Audience option B image is blocked by generator; obtain it before owner placement choice, keep existing @Image5. A3 needs clean new A2; A12 needs real A11 end.
 
 ## Контрольная точка
 
@@ -16,11 +16,11 @@
 work_id: SEREGIUS-PLAN-20261023
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
-По команде владельца обновлены все47 промтов28/49/50/51 и26 неотправленных пунктов очереди: меняющийся свет/пол, непрерывное исполнение и подходящие действию дуги/наезды/отъезды камеры. Старые13 отправок28 связаны с нынешними редакциями в reports/final-music-number-2026-10-30.json; их фактические payload/SHA/результаты не изменены. Очередь, выбранные движки, обязательные референсы и зависимости сохранены. Видео и платные операции не запускались. 348 тестов, site contract и master health=ok, canon health без предупреждений. Публикационный readback ещё выполняется.
+По команде владельца обновлены все47 промтов28/49/50/51 и26 неотправленных пунктов очереди: меняющийся свет/пол, непрерывное исполнение и подходящие действию дуги/наезды/отъезды камеры. Старые13 отправок28 связаны с нынешними редакциями в reports/final-music-number-2026-10-30.json; их фактические payload/SHA/результаты не изменены. Очередь, выбранные движки, обязательные референсы и зависимости сохранены. Видео и платные операции не запускались. 348 тестов, site contract и master health=ok, canon health без предупреждений. GitHub-коммит f85e87d744ddee05b351182d5fb3394d94d87722 проверен по всем21 файлам; публичный мастер/статус и обратный ангар/миниатюра совпали поSHA. Каноническая проверка, интеграционные тесты и сборка миниатюр GitHub успешны.
 
 Пустой обратный вид H28B создан и визуально проверен как предложение. ВариантА — существующий выбранный кадр вуки на площадке. ВариантБ — зрители напротив: генератор отклонил кадр, PNG нет; точный промт references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt сохранён. Не выдавать пустой ангар за готовую толпу, не выбирать вариант за владельца и не заменять текущий @Image5. Не повторять уже готовую работу.
 
-Дальше: завершить проверку/публикацию; продолжать согласованную очередь после свежего чтения main/входящих/замка и живой проверки всех слотов. У28A3 требуется чистый конец новогоA2, уA12 — настоящий конецA11. КадрБ остаётся отдельным незавершённым визуальным заданием и не блокирует видеоочередь. После его получения владелец выбирает расстановку; тогда согласованно обновить версии50 и их входы. Проверять будущие видео по отправленным редакциям, особенно середину движения, смену света, лица/контакты и географию. Старые числа слотов не считать свежей проверкой.
+Дальше: продолжать согласованную очередь после свежего чтения main/входящих/замка и живой проверки всех слотов. У28A3 требуется чистый конец новогоA2, уA12 — настоящий конецA11. КадрБ остаётся отдельным незавершённым визуальным заданием и не блокирует видеоочередь. После его получения владелец выбирает расстановку; тогда согласованно обновить версии50 и их входы. Проверять будущие видео по отправленным редакциям, особенно середину движения, смену света, лица/контакты и географию. Старые числа слотов не считать свежей проверкой.
 
 ## Обязательные правила
 
@@ -44,6 +44,7 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
 - `ops/topview-launch-queue.json`
 - `video-prompts.md`
+- `references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt`
 - `ops/TOPVIEW-RETRY.md`
 
 ## Перед действием
