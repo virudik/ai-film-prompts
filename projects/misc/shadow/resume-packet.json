@@ -3,14 +3,17 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-30T17:04:39+00:00",
-  "source_head": "27e59f4e31719be64d5e80813ae088628dfcd357",
-  "source_fingerprint": "7e073708a1e83e7e83890dc540d66ea4feb0bc8683ad6cd2c5a86c3fc31a6f60",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T17:14:22+00:00",
+  "source_head": "8ba79bf9af5d523f098b84cb0d470d0da25b63d0",
+  "source_fingerprint": "dce32864f6d7ce3f6b64d1fda22a4a0ae9ad2fe3c7f3645a5da1e1c9c092e6d9",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
+  ],
   "selected_work": {
     "work_id": "MISC-WAIT-MATERIALS",
     "title": "Разное — ожидание решения владельца",
@@ -163,8 +166,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "791361e50aeacc697d4f25d6684991086fa1fa9f53e0ea8de1e4ea5de46c0972",
-      "bytes": 35325
+      "sha256": "7273bf67e26ccbe66a7da06cf717557e527be828cd538daa5b42e6e8a71265ce",
+      "bytes": 35700
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -258,13 +261,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "d0d54491ee9f0077a1a422e7d453279f18a8f92b488a9d8a4492366446edf3b0",
-      "bytes": 35126
+      "sha256": "d9e6b7bdad6b36a230a1105b37c9b8789610b3625ab524b8bf0f1947ab11dfd9",
+      "bytes": 35501
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0c842f68a976c84744024fe3887525dcccadbca43fca164fceaf5240ee0f3c60",
-      "bytes": 24169
+      "sha256": "a427721543f4f54b4aefe1a592d2902dc01ef30bb8c740502ba7b415e1220e69",
+      "bytes": 24196
     },
     {
       "file": "video-prompts.md",
@@ -272,5 +275,5 @@
       "bytes": 1251167
     }
   ],
-  "packet_bytes": 5133
+  "packet_bytes": 5114
 }

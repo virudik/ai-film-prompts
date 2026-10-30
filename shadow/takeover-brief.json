@@ -2,16 +2,18 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-30T17:04:39+00:00",
- "valid_at_generation": true,
- "validity_mismatches": [],
+ "generated_at": "2026-10-30T17:14:22+00:00",
+ "valid_at_generation": false,
+ "validity_mismatches": [
+  "NEW-CHAT-HANDOFF.md"
+ ],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "791361e50aeacc697d4f25d6684991086fa1fa9f53e0ea8de1e4ea5de46c0972",
-   "bytes": 35325
+   "sha256": "7273bf67e26ccbe66a7da06cf717557e527be828cd538daa5b42e6e8a71265ce",
+   "bytes": 35700
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -180,11 +182,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 23206,
-  "above_marker_chars": 23206,
+  "chars": 23432,
+  "above_marker_chars": 23432,
   "recent_sections_below_marker": [],
-  "sha256": "d0d54491ee9f0077a1a422e7d453279f18a8f92b488a9d8a4492366446edf3b0",
-  "sha256_12": "d0d54491ee9f",
+  "sha256": "d9e6b7bdad6b36a230a1105b37c9b8789610b3625ab524b8bf0f1947ab11dfd9",
+  "sha256_12": "d9e6b7bdad6b",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
