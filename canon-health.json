@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-29T23:36:09Z",
+  "checked_at": "2026-10-30T00:15:26Z",
   "status": "ok",
   "warnings": 0,
   "info": 3,
@@ -15,7 +15,7 @@
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "PROMPT-STYLE-GUIDE.md: 72 КБ, проверить на повторы.",
+      "text": "PROMPT-STYLE-GUIDE.md: 73 КБ, проверить на повторы.",
       "file": "PROMPT-STYLE-GUIDE.md"
     },
     {
