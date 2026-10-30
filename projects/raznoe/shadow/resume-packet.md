@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project raznoe`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-10-30T17:22:52+00:00
+Состояние: ready
+Проверено: 2026-10-30T17:23:55+00:00
 Задача: RAZNOE-CPK-REFS-20261027 — Роскосмос — референсы ЦПК готовы, проект на паузе
 
 Последний подтверждённый этап: Все10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.
@@ -58,7 +58,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- instruction certificate mismatch: NEW-CHAT-HANDOFF.md
-- project-status health not ok
-- project master/status mismatch: raznoe
+Нет ошибок локальной проверки. Живые проверки выше обязательны.

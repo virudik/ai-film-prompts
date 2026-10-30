@@ -3,19 +3,14 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-30T17:22:52+00:00",
-  "source_head": "979bb725d5ee8a1fa6c65816579ec026f3cb3fdf",
-  "source_fingerprint": "c9c3f5eb06bab2b77f119e7016905f4f1c1d366d9dca785e8cbbb04d5ca2815b",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-30T17:23:55+00:00",
+  "source_head": "9b87401f77dae2af41491877e6cc881ebb8b1a53",
+  "source_fingerprint": "99f03f0645dfafa6be6df38c104aa0955316325f51c8b7b33a37a9ad172e9ad7",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "project-status health not ok",
-    "project master/status mismatch: misc"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "MISC-WAIT-MATERIALS",
     "title": "Разное — ожидание решения владельца",
@@ -193,7 +188,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a13f8e7699232defa6011948037cdd3b923517a6d6017117b9cf875e82fc64f4",
+      "sha256": "a72259d08a5a658fc530fcd9745a36cd76c0bc8eaec0b186b301fd7a7f63193c",
       "bytes": 5135
     },
     {
@@ -208,8 +203,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "c687b3874ed99ff484b37f0c31aa3d6a80d9ee02bf3e39924d41ef0edc324566",
-      "bytes": 21548
+      "sha256": "b4a1d0b2e274ea969974198ec50ec88e96251b214c7b062423c28532749fe2f3",
+      "bytes": 21501
     },
     {
       "file": "projects/README.md",
@@ -233,8 +228,8 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "2b99178a4d349c9869e2169d7add467821ac02b396f6ae7093238e3a32db6915",
-      "bytes": 7299
+      "sha256": "7d568f2f6f442e5a75ada2a594def5bd9275205f810af432faa8f54c1291e388",
+      "bytes": 7252
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
@@ -268,8 +263,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "1589dcd04d7e482c1021f1fe459658198814c8fcbcca2eb6f226de66d3f06cfa",
-      "bytes": 24199
+      "sha256": "94f7bb38861a8bd19fef0bf91e764b40c930054c11fe3935946aae1a0b553a2e",
+      "bytes": 24169
     },
     {
       "file": "video-prompts.md",
@@ -277,5 +272,5 @@
       "bytes": 1255176
     }
   ],
-  "packet_bytes": 5184
+  "packet_bytes": 5133
 }

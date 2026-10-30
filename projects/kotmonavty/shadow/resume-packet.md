@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project kotmonavty`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-10-30T17:22:52+00:00
+Состояние: ready
+Проверено: 2026-10-30T17:23:55+00:00
 Задача: KM-20261030-WAN4-9 — Wan3 30s: сцены4 и9
 
 Последний подтверждённый этап: Сцены 4 и 9 отправлены по одному разу: Wan 3.0, 30 с, 720p, 16:9, звук; Topview подтвердил running, по 12 кредитов. Полные UI/provider-промпты совпали с каноном. Остаток 6,37; разрешение исчерпано.
@@ -61,7 +61,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- instruction certificate mismatch: NEW-CHAT-HANDOFF.md
-- project-status health not ok
-- project master/status mismatch: kotmonavty
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
