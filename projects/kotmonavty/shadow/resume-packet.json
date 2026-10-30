@@ -3,17 +3,14 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-30T20:14:11+00:00",
-  "source_head": "4dd66c2bd6baed38e9c8c8f337379e14e85c84fb",
-  "source_fingerprint": "651c4ca53e11de4584690f4bd8bde5f93d9332e68d2796b54807c994763a1f2a",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-30T20:18:44+00:00",
+  "source_head": "00a0353d314d400bbf28834befeac15781499928",
+  "source_fingerprint": "b9cc2c688278765c8580a5458792de6c661f35b72cbd3f51c495a21759b2cd52",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "master vs project-status sha256 mismatch"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "KM-20261030-WAN4-9",
     "title": "Wan3 30s: сцены4 и9",
@@ -233,7 +230,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "ce01e66ef533d6b2607cc40d60b176fe3273139ad84220bce56d8ab81f732ff3",
+      "sha256": "4cf6466c875ba464b314523042417e1fb87bb213ce0329665b3626871cc866a2",
       "bytes": 21501
     },
     {
@@ -303,8 +300,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ebe1a177be03944d5c56784548acb9a02d9b57f48ff47db4cc16db9e7df92aa1",
-      "bytes": 24171
+      "sha256": "674dc98125742681a1858766cead0a87a2913e7fd824122a68ebfe5127cdb25e",
+      "bytes": 24170
     },
     {
       "file": "video-prompts.md",
@@ -312,5 +309,5 @@
       "bytes": 1264198
     }
   ],
-  "packet_bytes": 7615
+  "packet_bytes": 7647
 }
