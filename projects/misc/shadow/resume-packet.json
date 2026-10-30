@@ -3,14 +3,19 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-30T17:15:10+00:00",
-  "source_head": "356560c91f3f46f6d3f0ed10054e337d4ef808f6",
-  "source_fingerprint": "a366f1e195585e4b7d2f0d1f5f32ede3e6d87d59c5852f0611046227b7dc7285",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T17:22:52+00:00",
+  "source_head": "979bb725d5ee8a1fa6c65816579ec026f3cb3fdf",
+  "source_fingerprint": "c9c3f5eb06bab2b77f119e7016905f4f1c1d366d9dca785e8cbbb04d5ca2815b",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
+    "project-status health not ok",
+    "project master/status mismatch: misc"
+  ],
   "selected_work": {
     "work_id": "MISC-WAIT-MATERIALS",
     "title": "Разное — ожидание решения владельца",
@@ -163,8 +168,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "7273bf67e26ccbe66a7da06cf717557e527be828cd538daa5b42e6e8a71265ce",
-      "bytes": 35700
+      "sha256": "10f44b62525792f17dd81bc43b4beb2ee172d18f2274f5ad9048a1370a2ac53e",
+      "bytes": 36054
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -203,8 +208,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "0a0ac6868cdb0565038b3fed4c22d5ce4155d83ee57283c29f0709a5a4f601f9",
-      "bytes": 21497
+      "sha256": "c687b3874ed99ff484b37f0c31aa3d6a80d9ee02bf3e39924d41ef0edc324566",
+      "bytes": 21548
     },
     {
       "file": "projects/README.md",
@@ -228,8 +233,8 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "cc31399fd36a039c2221b4ad25d9ee3e901208f06e35fff6a0e974f85f30f485",
-      "bytes": 7251
+      "sha256": "2b99178a4d349c9869e2169d7add467821ac02b396f6ae7093238e3a32db6915",
+      "bytes": 7299
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
@@ -258,19 +263,19 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "d9e6b7bdad6b36a230a1105b37c9b8789610b3625ab524b8bf0f1947ab11dfd9",
-      "bytes": 35501
+      "sha256": "fbd104d45b3f50bcb59cd0dd71ada478cc2e6f3e3c998ef35392c9c94a62bc78",
+      "bytes": 35855
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "7c21032cf0976bb6dd675aaa862d5582b09ac82aa3e057fd9804ba68a4740102",
-      "bytes": 24169
+      "sha256": "1589dcd04d7e482c1021f1fe459658198814c8fcbcca2eb6f226de66d3f06cfa",
+      "bytes": 24199
     },
     {
       "file": "video-prompts.md",
-      "sha256": "629f4aae0e1a73090f7ab54a831296fc0ed7ffa1c2577bc3b302831ca0101fff",
-      "bytes": 1251167
+      "sha256": "fb18c114f60feaf492310d5cb77232d4a48f357f7da685f996caeb613de1b4c1",
+      "bytes": 1255176
     }
   ],
-  "packet_bytes": 5133
+  "packet_bytes": 5184
 }

@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-30T17:15:10+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-30T17:22:52+00:00. Валиден при генерации: **False** (расхождения: ['NEW-CHAT-HANDOFF.md'])
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 35700 B · `7273bf67e26ccbe6`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 36054 B · `10f44b62525792f1`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 125935 B · `facf5e8d815e8777`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 34298 B · `e4b282b861e67590`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 74610 B · `301719f9cc09979e`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 80869 B · `dab4dada768960c0`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16692 B · `353e9e8fee391b9d`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18925 B · `a6bf924b43892379`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1251167 B · `629f4aae0e1a7309`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1255176 B · `fb18c114f60feaf4`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 27 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]); промтов 134; последний ID 70; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
+- health error; сцен 27 ([13, 16, 28, 33, 36, 41, 42, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]); промтов 135; последний ID 70; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54, 55]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -49,7 +49,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | ee119b556282 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 809d46f72e41 |
 | 42 | Татуин: бой на фоне червя — червь им не интересен | Seedance 2.0 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | c95650c748d9 |
-| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 8e8632aff462 |
+| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 35df2d518eef |
 | 49 | Финальный музыкально-танцевальный номер: Космическая рок-гру | Seedance 2.0 | READY/IDLE | 11 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | d1b6857d7c44 |
 | 50 | Финальный музыкально-танцевальный номер: Вуки на площадке и  | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [28, 49] | dfe4a2e45e04 |
 | 51 | Финальный музыкально-танцевальный номер: Рок-финал: каждый р | Seedance 2.0 | READY/IDLE | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28, 49, 50] | 7cd601059591 |
@@ -92,4 +92,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (23432 симв., sha `d9e6b7bdad6b`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (23637 симв., sha `fbd104d45b3f`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
