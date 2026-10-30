@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-06T06:57:27.874Z",
-      "operation": "unified_monitor_hourly_refresh",
-      "scene_id": 20,
-      "task_fingerprint": null,
-      "previous_status": "3 active Scene 20 tasks; occupied 3/6",
-      "new_status": "3 active Scene 20 tasks; occupied 3/6; queue/ETA refreshed",
-      "source_checkpoint": "2026-10-06T06:57:27.874Z",
-      "outcome": "verified",
-      "verification": "All 11 owned boards / 529 VIDEO tasks / 12 pages checked; 3 project tasks directly confirmed init; prior anomalous task directly confirmed success; no unknown recent project task. Account scope and project projection agree."
-    },
-    {
       "timestamp": "2026-10-06T11:11:21.954Z",
       "operation": "unified_monitor_terminal_reconciliation",
       "scene_id": 20,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-30T12:00:20Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-30T12:50:23Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-30T12:50:23Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 69,
+  "archived_event_count": 70,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
