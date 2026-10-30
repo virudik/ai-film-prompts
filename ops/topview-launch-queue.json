@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T17:21:50.225Z",
+  "updated_at": "2026-10-30T17:35:56.819Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2748,8 +2748,8 @@
       "scene_id": 48,
       "prompt_id": "S48-SEED20-P3",
       "canonical_block_label": "48 · Seedance 2.0 часть 3",
-      "canonical_prompt_sha256": "0af072807be7a953a782d58ac6d5634494fd92df74912ab7634fd00501b5a500",
-      "normalized_prompt_sha256": "ec4ee146f10c1de7eed99b8a68a776a830c10f80419f3a299d810e6e192c11d8",
+      "canonical_prompt_sha256": "0c0c116ca92ae051d7afda9a4a9ba00bb142784a766f3261398eb7132d154ad7",
+      "normalized_prompt_sha256": "9fd72ad892ceb201c49f9d28fa7d0fe7016c36e698bdd1d9c6eda55b4cc432ec",
       "priority": 0.42,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -2792,11 +2792,19 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
-          "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+          "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+          "sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
           "required": true,
           "input_status": "available",
-          "canonical_role": "town_skyline_only"
+          "canonical_role": "destination_skyline_and_dune_approach"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+          "sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "mounted_rider_expression_and_pose"
         }
       ],
       "task_id": null,

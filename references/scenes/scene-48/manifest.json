@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 48,
-  "updated_at": "2026-10-30T17:21:50.225Z",
+  "updated_at": "2026-10-30T17:35:56.819Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "blocked_continuity",
   "references": [
@@ -175,7 +175,7 @@
       "synthetic": true,
       "asset_id": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
       "media_type": "image",
-      "role": "city_skyline_only_for_part_3",
+      "role": "architecture_source_for_dedicated_48_3_city_reference",
       "owner_approval": "creation_requested_not_final_artistic_acceptance",
       "assistant_qc": {
         "checked_at": "2026-10-27T10:51:05.186Z",
@@ -187,6 +187,86 @@
         "git_present": true,
         "linked_in_master": true
       }
+    },
+    {
+      "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+      "asset_id": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+      "caption": "48.3 — город Татуина со стороны дюн",
+      "role": "destination_skyline_and_dune_approach",
+      "sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
+      "bytes": 688058,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT image generation with canonical reference images",
+      "created_at": "2026-10-30T17:35:56.819Z",
+      "prompt_file": "references/scenes/scene-48/S48-P3-tatooine-city.image-prompt.txt",
+      "prompt_sha256": "1188bd883c6faab2236cabb46a74ecd1b8a3e6988730bdb29f274e0089c55abd",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+          "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7"
+        }
+      ],
+      "assistant_qc": {
+        "checked_at": "2026-10-30T17:35:56.819Z",
+        "status": "usable_for_assigned_role",
+        "scope": "Из песков видны купола, узкие башни и скальный уступ из 52.4. Подступ к городу свободен, кораблей и всадников в кадре нет."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+        "thumbnail": "references/thumbs/scenes/scene-48/S48-P3-tatooine-city.jpg.webp",
+        "linked_in_master": true
+      },
+      "part": 3
+    },
+    {
+      "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+      "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+      "caption": "48.3 — Серёга с довольной улыбкой верхом на черве",
+      "role": "mounted_rider_expression_and_pose",
+      "sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9",
+      "bytes": 686360,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT image generation with canonical reference images",
+      "created_at": "2026-10-30T17:35:56.819Z",
+      "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-ride.image-prompt.txt",
+      "prompt_sha256": "1a03b7f0c34ba3b9cd901cafbc7abbe1cf8b2d5a49a384876ab45a5c0e50e979",
+      "reference_inputs": [
+        {
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a"
+        },
+        {
+          "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+          "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7"
+        }
+      ],
+      "assistant_qc": {
+        "checked_at": "2026-10-30T17:35:56.819Z",
+        "status": "usable_for_assigned_role",
+        "scope": "Один Серёга в тёмно-бордовой робе балансирует на поднятом сегменте. Лицо и опора на червя различимы, впереди город, седла и поводьев нет."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+        "thumbnail": "references/thumbs/scenes/scene-48/S48-P3-serega-worm-ride.jpg.webp",
+        "linked_in_master": true
+      },
+      "part": 3
     }
   ],
   "identity_refs": [
@@ -197,14 +277,16 @@
   "location_refs": [
     "references/scenes/scene-16/S16-desert-location-clean.png",
     "references/scenes/scene-16/S16-worm-scale.png",
-    "references/scenes/scene-52/S52-P4-tatooine-approach.jpg"
+    "references/scenes/scene-48/S48-P3-tatooine-city.jpg"
   ],
   "prop_refs": [
     "references/scenes/scene-17/S17-Image4-topview-source.png"
   ],
   "start_frame": null,
   "end_frame": null,
-  "pose_composition_helpers": [],
+  "pose_composition_helpers": [
+    "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg"
+  ],
   "video_refs": [],
   "approved": [],
   "rejected": [],
@@ -388,9 +470,9 @@
     {
       "prompt_id": "S48-SEED20-P3",
       "canonical_block_label": "48 · Seedance 2.0 часть 3",
-      "canonical_prompt_sha256": "0af072807be7a953a782d58ac6d5634494fd92df74912ab7634fd00501b5a500",
-      "normalized_prompt_sha256": "ec4ee146f10c1de7eed99b8a68a776a830c10f80419f3a299d810e6e192c11d8",
-      "characters": 2387,
+      "canonical_prompt_sha256": "0c0c116ca92ae051d7afda9a4a9ba00bb142784a766f3261398eb7132d154ad7",
+      "normalized_prompt_sha256": "9fd72ad892ceb201c49f9d28fa7d0fe7016c36e698bdd1d9c6eda55b4cc432ec",
+      "characters": 2623,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,
@@ -420,11 +502,19 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
-          "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+          "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+          "sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
           "required": true,
           "input_status": "available",
-          "canonical_role": "town_skyline_only"
+          "canonical_role": "destination_skyline_and_dune_approach"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+          "sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "mounted_rider_expression_and_pose"
         }
       ],
       "owner_generation_approval_inferred": false
@@ -448,14 +538,14 @@
     }
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "fb18c114f60feaf492310d5cb77232d4a48f357f7da685f996caeb613de1b4c1",
+  "canonical_master_sha256": "d3a4ca413f64f75433240cca29a35020b19b39d905ab25d4c4c76fe46c188e56",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "48.1 начинается со склейки. 48.2 продолжает реальный конец 48.1; 48.3 — конец 48.2. Для 48.3 кадр 52.4 задаёт только город на горизонте.",
+  "note": "48.1 начинается со склейки. 48.2 продолжает реальный конец 48.1. 48.3 продолжает последние три секунды 48.2. Для 48.3 @Image3 задаёт вид города из дюн по архитектуре 52.4, @Image4 — позу и улыбку всадника. Лицо и червь закреплены отдельными листами.",
   "selected_engine": "Seedance 2.0",
   "selected_parts": 3,
   "generation_authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained. 30.10.2026: owner requested third selected part (15s Seedance 2.0, one free run) to continue the ride toward the city.",

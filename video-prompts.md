@@ -3002,7 +3002,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Обновление 23.10 (владелец):** сцена начинается склейкой — без видео конца 56. Начало задано текстом и картинками, поэтому 48 запускается, не дожидаясь 42 и 56. Часть 2 Seedance-версии по-прежнему продолжает конец части 1.
 
-**Продолжение 30.10 — часть 3, «На черве к городу».** Сразу после побега червь несёт Серёгу через дюну. Он видит купола знакомого космопорта, широко улыбается и на ходу наклоняется в поворот. Конец части — подступы к городу. Три части Seedance по 15 с. Для 48.3 нужны последние 3 с настоящей 48.2, лицо Серёги, червь и силуэт города из 52.4.
+**Продолжение 30.10 — часть 3, «На черве к городу».** Сразу после побега червь несёт Серёгу через дюну. Он видит купола знакомого космопорта, широко улыбается и на ходу наклоняется в поворот. Конец части — подступы к городу. Три части Seedance по 15 с. Для 48.3 нужны последние 3 с настоящей 48.2, лицо Серёги, дизайн червя, чистый вид города со стороны дюн и образец лихой поездки.
 
 **Контекст использования:**
 
@@ -3026,7 +3026,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
 - @Image6 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
 
-**Для 48.3 своя нумерация.** @Video1 — конец 48.2, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — только город на дальнем плане кадра 52.4.
+**Для 48.3 своя нумерация.** @Video1 — конец 48.2, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — чистый вид города по архитектуре 52.4, @Image4 — довольный Серёга балансирует на черве.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -3035,7 +3035,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image4 — руины"></a><figcaption>@Image4 — руины</figcaption></figure>
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure>
-<figure><a href="references/scenes/scene-52/S52-P4-tatooine-approach.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-52/S52-P4-tatooine-approach.jpg" alt="Купола и башни татуинского города"></a><figcaption>48.3 · @Image3 — силуэт города справа в кадре 52.4</figcaption></figure></div>
+<figure><a href="references/scenes/scene-48/S48-P3-tatooine-city.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-tatooine-city.jpg.webp" alt="48.3 · @Image3 — город со стороны дюн"></a><figcaption>48.3 · @Image3 — город со стороны дюн</figcaption></figure>
+<figure><a href="references/scenes/scene-48/S48-P3-serega-worm-ride.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-ride.jpg.webp" alt="48.3 · @Image4 — лихая поездка Серёги на черве"></a><figcaption>48.3 · @Image4 — лихая поездка Серёги на черве</figcaption></figure></div>
 
 **Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет Илюшу отпрыгнуть; Артём на коленях упирается рукой в песок. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев. В 48.3 он пересекает гряду, довольно улыбается и мчится к песчаным куполам города.
 
@@ -3263,7 +3264,8 @@ REFERENCES:
 @Video1 is the actual last three seconds of Part 2. Continue its last frame on motion: match the worm’s anatomy, rider’s foothold, direction of travel, sun, dust and speed.
 @Image1 fixes Serega’s face and build. He wears the same long deep-purple robe as in @Video1, dark boots, unlit hilt at his belt. The stolen map module stays concealed.
 @Image2 fixes the single colossal sandworm’s segmented hide, girth and scale. Serega remains small against its back, both boots on one broad segment and one hand gripping a raised fold.
-@Image3 supplies only the skyline on the right of the city reference: low sand-coloured domes, slender towers, rocky escarpment beyond. Exclude the aircraft and landing equipment in that photograph.
+@Image3 is the destination: match this empty dune approach, compact sandstone domes, slender towers and the rocky escarpment beyond.
+@Image4 guides Serega’s delighted expression, banked riding posture and contact with the worm for the middle tracking shot. Keep his exact @Image1 likeness and the size and anatomy from @Image2. Play through the reference pose. @Video1 determines where the shot starts and which way the rider travels.
 
 0–4 s | Carry the departure forward. From the end of @Video1 the worm crests a wind-cut ridge and banks along its far shoulder. The two distant Jedi and the broken ruins slip out of frame as the camera tracks the departing rider. He is already aboard. Sand peels from the moving segments in one continuous wake.
 4–9 s | Cut on the bank to a travelling medium three-quarter view, keeping the same screen direction. His knees absorb the rise, his weight shifts toward the inside of the turn and his free arm balances him. He spots the first sunlit rooftops beyond the dune; his eyes narrow into the wind and one corner of his mouth lifts into a broad, satisfied grin. Hold his face legible through the turn as his robe streams behind him.
