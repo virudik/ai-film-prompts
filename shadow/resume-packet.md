@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-10-30T00:54:55+00:00
+Состояние: ready
+Проверено: 2026-10-30T00:56:08+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: All47 finale prompts and26 pending hashes validated;348 tests passed. Empty reverse hangar saved; audience B blocked by image generator including edit attempt. Publication readback pending.
@@ -59,5 +59,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- master vs project-status sha256 mismatch
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
