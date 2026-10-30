@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-30T15:18:44Z",
+  "checked_at": "2026-10-30T15:20:20Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,7 +67,7 @@
       "model": "Seedance 2.0",
       "scene_id": 60,
       "mapping": "task_map",
-      "queue_count": 5188,
+      "queue_count": 5187,
       "wait_seconds": 250560,
       "process_seconds": null
     },
@@ -80,7 +80,7 @@
       "model": "Seedance 2.0",
       "scene_id": 62,
       "mapping": "task_map",
-      "queue_count": 4323,
+      "queue_count": 4322,
       "wait_seconds": 198720,
       "process_seconds": null
     },
@@ -106,7 +106,7 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 1507,
+      "queue_count": 1506,
       "wait_seconds": 43200,
       "process_seconds": null
     },
@@ -119,7 +119,7 @@
       "model": "Seedance 2.0",
       "scene_id": 59,
       "mapping": "task_map",
-      "queue_count": 3458,
+      "queue_count": 3457,
       "wait_seconds": 146880,
       "process_seconds": null
     },
@@ -132,7 +132,7 @@
       "model": "Seedance 2.0",
       "scene_id": 52,
       "mapping": "task_map",
-      "queue_count": 2581,
+      "queue_count": 2580,
       "wait_seconds": 95040,
       "process_seconds": null
     }
@@ -150,19 +150,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-30T14:30:21Z",
-    "monitor_age_minutes": 48,
+    "monitor_checked_at": "2026-10-30T15:18:44Z",
+    "monitor_age_minutes": 2,
     "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "status_differs",
-        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
-        "monitor": "init",
-        "robot": "running"
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
