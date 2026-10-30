@@ -3,17 +3,14 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-30T15:22:01+00:00",
-  "source_head": "82175449c4d3e8a2922fe7ac7ff0d2fec50c0c8f",
-  "source_fingerprint": "bce50077b315c2f94c71eca2e2f715e10e4020a737d42f62b10c49171baa6b13",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-30T15:23:35+00:00",
+  "source_head": "19237f77d71df6bd82d041a23426397fb667e546",
+  "source_fingerprint": "612c12ec081ac303988159e8ac7c4fb797f1507636a4b432177d4a98f454157e",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "master vs project-status sha256 mismatch"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "MISC-WAIT-MATERIALS",
     "title": "Разное — ожидание решения владельца",
@@ -206,7 +203,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "30fbceb71a0a65ac3a6cadad303ece897f90f65cb945f2ef7df42e3d37b5fb3d",
+      "sha256": "33981a9298f36acd252f3422ff4f97a410b27bfbb6643ef9bc9cc2b0fe0de6ff",
       "bytes": 21474
     },
     {
@@ -266,8 +263,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5f27ac27f74d4a69612d033a68eb1d3b3085985c53cc65240b38f8eb02ae5268",
-      "bytes": 24162
+      "sha256": "8fade5ca8ff3e37106b1ed9b571eb66fbde0c978c61a00d4ca1a5e8e34d7b241",
+      "bytes": 24161
     },
     {
       "file": "video-prompts.md",
@@ -275,5 +272,5 @@
       "bytes": 1250428
     }
   ],
-  "packet_bytes": 5101
+  "packet_bytes": 5133
 }
