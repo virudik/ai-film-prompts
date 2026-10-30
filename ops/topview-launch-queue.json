@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T02:18:42+00:00",
+  "updated_at": "2026-10-30T15:56:42.283Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2130,7 +2130,7 @@
         "S42-SEED20-P1"
       ],
       "blocker": null,
-      "launch_readiness": "authorized_inputs_available",
+      "launch_readiness": "completed_qc_rejected_identity_continuity",
       "previous_prompt_sha256": [
         "9d9f51153e025523e9ce2befbf37f19ada36f16842bd1296f8380259a6407355"
       ],
@@ -2166,7 +2166,19 @@
         "quote": "1 переснимаем. 2 посмотрим результат запущенной  и ещё не готовой сцены.",
         "meaning": "Rerender 42 part 2: one free attempt of the CANONICAL 42 P2 block (Unlimited, 0 credits). Never reuse bf27."
       },
-      "continuity_prepared_at": "2026-10-23T23:03:02.413Z"
+      "continuity_prepared_at": "2026-10-23T23:03:02.413Z",
+      "result_status": "success",
+      "completed_at": "2026-10-30T15:25:59Z",
+      "result_review": {
+        "reviewed_at": "2026-10-30T15:56:42.283Z",
+        "report": "reports/topview-quality-2026-10-30/S42-SEED20-P2-4a1061e1-review.json",
+        "assessment": "qc_rejected_critical_identity_duplication_and_saber_deformation",
+        "owner_approved": false,
+        "continuous_full_frame_rate_view": false,
+        "audio_listened": false,
+        "source_archived": false,
+        "archive_status": "blocked_environment_isolation"
+      }
     },
     {
       "id": "S47-SEED20-P1",
@@ -7731,20 +7743,20 @@
     "history_only": true
   },
   "last_live_scan": {
-    "at": "2026-10-29T08:09:07.085Z",
-    "boards": 13,
-    "pages": 19,
-    "tasks": 943,
+    "at": "2026-10-30T15:55:00Z",
+    "boards": 14,
+    "pages": 20,
+    "tasks": 951,
     "active_videos": 6,
     "active_images": 0,
-    "source": "Topview complete all-board MCP pagination",
+    "source": "Topview complete all-board/all-page scan; direct detail checks for all six active tasks",
     "active_task_ids": [
+      "c72c1ab4524e4f2f9d3a0272474f788a",
+      "025955aad2cf494da2b4104d26c36ed5",
+      "0de1f663432646d294f409a22e20a26e",
       "b0915b04173c414e9ac08652d34b7852",
       "c65c30d8cbe14e9eadec886276e62471",
-      "8d7ff1e2de63478693778de29e0dd56e",
-      "4a1061e175054da2810ffef8ad9d31cd",
-      "b15165813c0848939edbe8b3d3aed182",
-      "8b6a8ce102ea416e88d3c14fa558c513"
+      "8d7ff1e2de63478693778de29e0dd56e"
     ],
     "free_video_slots": 0
   },
