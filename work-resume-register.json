@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-30T06:59:23+00:00",
+  "last_updated_at": "2026-10-30T15:38:54.173Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -126,12 +126,11 @@
         "active_images": 0
       },
       "last_relay_event": {
-        "event_id": "result:16d53ab1a84e4091b8867b7ed5cc8f4c",
-        "issue_number": 151,
-        "checked_at": "2026-10-29T23:22:31.873Z",
-        "outcome": "no_update",
-        "new_submissions": 0,
-        "receipt": "reports/topview-event-wake.json"
+        "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
+        "checked_at": "2026-10-30T15:38:54.173Z",
+        "outcome": "submitted",
+        "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json",
+        "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
         "checked_at": "2026-10-30T06:59:23+00:00",

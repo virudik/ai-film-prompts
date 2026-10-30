@@ -5411,7 +5411,7 @@
       "prompt_id": "S61-SEED20-P1",
       "canonical_block_label": "61 · Seedance 2.0 часть 1",
       "priority": 0.7,
-      "state": "claimed",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
@@ -5461,8 +5461,13 @@
       ],
       "canonical_prompt_sha256": "88c01d29c0b36a00c1dc310af4b7fc51758c39d4c215addce24eed85cd11f6e0",
       "normalized_prompt_sha256": "d9a4ca5128928cd74f707a9d2e173c9530c442fac31b62f73fc29a9415be8656",
-      "task_id": null,
-      "claim": {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": null,
+      "last_claim": {
         "run_id": "chatgpt-scheduled-event-evt_49f6a41eaf80f1fb3649b8ddb965ee57-s61p1",
         "claimed_at": "2026-10-30T15:37:29.321Z",
         "claimed_by": "chatgpt",
@@ -5479,10 +5484,10 @@
           "all_input_sha256_verified": true
         }
       },
-      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "blocker": null
+      "submitted_at": "2026-10-30T15:37:37Z",
+      "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.jpg",
+      "result_review_required": true
     },
     {
       "id": "S61-SEED20-P2",

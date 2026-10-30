@@ -822,6 +822,49 @@
       "relay_reminder_event_ids": [
         "evt_b471cd301706e7f54f89d435d1d29b06"
       ]
+    },
+    {
+      "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
+      "issue_number": 170,
+      "message_id": "241946921531531264",
+      "relay_event_id": "evt_49f6a41eaf80f1fb3649b8ddb965ee57",
+      "relay_reminder_event_ids": [
+        "evt_84c89fd2fd826c88b18ed125cd7a21fe"
+      ],
+      "observed_at": "2026-10-30T15:30:22Z",
+      "checked_at": "2026-10-30T15:38:54.173Z",
+      "outcome": "submitted",
+      "reason": "S42-P2 returned success. One available global slot filled by S61-P1 via website Unlimited0.",
+      "task_ids": [
+        "c72c1ab4524e4f2f9d3a0272474f788a"
+      ],
+      "retryable": false,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "run_id": null,
+      "run_id_unavailable_reason": "No automation runtime run ID supplied.",
+      "actual_sender": {
+        "name": "topview-robot",
+        "address": "topview-robot@direct",
+        "sender_agent_id": "240204876611608576"
+      },
+      "new_submissions": 1,
+      "credits_spent": 0,
+      "final_scan": {
+        "boards": 14,
+        "pages": 20,
+        "total": 951,
+        "active_task_ids": [
+          "c72c1ab4524e4f2f9d3a0272474f788a",
+          "025955aad2cf494da2b4104d26c36ed5",
+          "0de1f663432646d294f409a22e20a26e",
+          "b0915b04173c414e9ac08652d34b7852",
+          "c65c30d8cbe14e9eadec886276e62471",
+          "8d7ff1e2de63478693778de29e0dd56e"
+        ],
+        "free_video_slots": 0
+      },
+      "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

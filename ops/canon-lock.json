@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "relay-evt_49f6a41eaf80f1fb3649b8ddb965ee57",
   "acquired_at": "2026-10-30T15:34:00.673Z",
-  "expires_at": "2026-10-30T16:19:00.673Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-30T15:38:54.173Z",
   "rules": "ops/CANON-LOCK.md"
 }

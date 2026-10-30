@@ -1,0 +1,68 @@
+{
+  "item_id": "S61-SEED20-P1",
+  "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-30T15:37:37Z",
+  "model": "Seedance 2.0",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "useUnlimitMode": true,
+  "creditsCost": 0,
+  "status": "init",
+  "canonical_prompt_sha256": "88c01d29c0b36a00c1dc310af4b7fc51758c39d4c215addce24eed85cd11f6e0",
+  "normalized_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "canonical_role": "Серёга — красный меч",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/vitalik.jpg",
+      "canonical_role": "Виталик — синий меч",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/lesha.jpg",
+      "canonical_role": "Лёша — фиолетовый меч",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+      "canonical_role": "точный финал перед вторым видео и лес",
+      "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "ui_proof": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.jpg",
+  "claim": {
+    "run_id": "chatgpt-scheduled-event-evt_49f6a41eaf80f1fb3649b8ddb965ee57-s61p1",
+    "claimed_at": "2026-10-30T15:37:29.321Z",
+    "claimed_by": "chatgpt",
+    "source": "Agent Relay webhook",
+    "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
+    "preflight": {
+      "boards": 14,
+      "pages": 20,
+      "tasks": 950,
+      "active_videos": 5,
+      "website_unlimited": true,
+      "max_credits": 0,
+      "normalized_prompt_match": true,
+      "all_input_sha256_verified": true
+    }
+  }
+}
