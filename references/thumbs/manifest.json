@@ -2299,9 +2299,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 686360,
-   "thumb_bytes": 50780,
-   "src_sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9"
+   "src_bytes": 769885,
+   "thumb_bytes": 50928,
+   "src_sha256": "95d2c7f6c039c11ffa5d3653f5e7124e39b3eea3b0832c88061fc79b918350ec"
   },
   "references/scenes/scene-48/S48-P3-tatooine-city.jpg": {
    "thumb": "references/thumbs/scenes/scene-48/S48-P3-tatooine-city.jpg.webp",
