@@ -3,6 +3,1682 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S39-SEED20-P2",
+      "scene_id": 39,
+      "prompt_id": "S39-SEED20-P2",
+      "canonical_block_label": "39 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "48230d568f3657aa24c61b3a72375fb004774f882317e9231d51a11602d1e2ac",
+      "normalized_prompt_sha256": "f56f817befcc3cd65621300515653cc5d03e352a4a9d1ed0a29eb39a157d763e",
+      "priority": 5.1,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S39-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "available",
+          "source_item_id": "S39-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "path": "references/scenes/scene-39/S39-P1-last3s-20261023.mp4",
+          "sha256": "c6d5050db37391441241f47cfedbc16498f9cdf687459e93823631e1ed2a1191",
+          "duration_seconds": 3,
+          "source_task_id": "008058a4705c45c089256116427153d4",
+          "source_archive_file_id": "14SmYBBj3QQjH-LAjOO9j6RvWDtwoVunk",
+          "source_range_seconds": [
+            12.041666666666666,
+            15.041666666666666
+          ],
+          "qc_status": "usable_continuity_input_not_editorial_approval",
+          "provenance_report": "reports/topview-quality-2026-10-23/S39-SEED20-P1-review.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+          "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-39/S39-camp-film-part2-14m16s.png",
+          "sha256": "9ff37a92265bb8fba12680fb55096bc7e59e6b7f4b6bfbd1972e0974407f31e3",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+          "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+      "claim": {
+        "run_id": "seregius-only-20261023-S39P2",
+        "claimed_at": "2026-10-23T00:34:16.389Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "full_prompt_normalized_match": true,
+          "inputs_sha256_verified": true,
+          "global_scan": {
+            "at": "2026-10-23T00:33:40.599Z",
+            "total": 921,
+            "boards": 13,
+            "pages": 19,
+            "active": [
+              {
+                "id": "2175458eede64d0881ad70897155459a",
+                "status": "init"
+              },
+              {
+                "id": "a1ca4c36e31d45c5b4b72df7777d2592",
+                "status": "init"
+              }
+            ]
+          },
+          "ui_free_unlimited": true,
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1
+        }
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S39",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S39-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "actual_continuity_input_verified",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S39-SEED20-P1-review.json",
+      "submitted_at": "2026-10-23 00:34:28Z",
+      "receipt": "reports/topview-queue-2026-10-16/S39-SEED20-P2-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S40-SEED20-P2",
+      "scene_id": 40,
+      "prompt_id": "S40-SEED20-P2",
+      "canonical_block_label": "40 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "da6486dbbf12cd1aac8b757b7db7b0a9ff1145c8dfc1bd39bf862783bb9a1fff",
+      "normalized_prompt_sha256": "55e4827d746b6f4c31362eb33b82c95b8d621084cf4edd9527e59baa11779eb7",
+      "priority": 6.1,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S40-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "available",
+          "source_item_id": "S40-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "path": "references/scenes/scene-40/S40-P1-last3s-20261023.mp4",
+          "sha256": "50ff924777368a960e8f38488056553c933bc3672c55871c743456f0810cabb6",
+          "duration_seconds": 3,
+          "source_task_id": "1751294fbf5f49dbb00a0f44401486ca",
+          "source_archive_file_id": "1YgnDvlYvzcwvZETY0mcHX8em44QsWTyc",
+          "source_range_seconds": [
+            12.041666666666666,
+            15.041666666666666
+          ],
+          "qc_status": "usable_continuity_input_not_editorial_approval",
+          "provenance_report": "reports/topview-quality-2026-10-23/S40-SEED20-P1-review.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "790a7017632045a58d83ccc0891c44ac",
+      "claim": {
+        "run_id": "seregius-only-20261023-S40P2",
+        "claimed_at": "2026-10-23T00:36:56.248Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "full_prompt_normalized_match": true,
+          "inputs_sha256_verified": true,
+          "global_scan": {
+            "at": "2026-10-23T00:36:00.492Z",
+            "total": 922,
+            "boards": 13,
+            "pages": 19,
+            "active": [
+              {
+                "id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+                "status": "init"
+              },
+              {
+                "id": "2175458eede64d0881ad70897155459a",
+                "status": "init"
+              },
+              {
+                "id": "a1ca4c36e31d45c5b4b72df7777d2592",
+                "status": "init"
+              }
+            ]
+          },
+          "ui_free_unlimited": true,
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1
+        }
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S40",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S40-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "actual_continuity_input_verified",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S40-SEED20-P1-review.json",
+      "submitted_at": "2026-10-23 00:37:04Z",
+      "receipt": "reports/topview-queue-2026-10-16/S40-SEED20-P2-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S42-SEED20-P1",
+      "scene_id": 42,
+      "prompt_id": "S42-SEED20-P1",
+      "canonical_block_label": "42 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "8cfb529eb9afdec7239414f61451b66af5cb0b8dcfc6c8f501bd105b30d13126",
+      "normalized_prompt_sha256": "4005358a1c866a6413d3aa703209b260d91ce3fb6ba97153c1b96465be2c6a8e",
+      "priority": 2,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S16-SEED20-P2"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-16/S16-P2-end.png",
+          "sha256": "0811d1020544e539a9513ae36c5ceb44d82e91edb0cb9ff7f68fe29270281315",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "required": true,
+          "canonical_role": "start_frame",
+          "input_status": "available",
+          "source_item_id": "S16-SEED20-P2",
+          "source_topview_task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
+          "source_completed_at": "2026-10-22T22:41:27Z",
+          "provenance_report": "reports/topview-queue-2026-10-23/S16-SEED20-P2-result.json",
+          "qc_status": "usable_continuity_input",
+          "source_requirement": "Satisfied by genuine clean final frame of NEW Seedance16 P2; old accepted16 frame remains historical."
+        }
+      ],
+      "task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+      "claim": {
+        "run_id": "chatgpt-automation-20261022T231100Z-S42P1",
+        "claimed_at": "2026-10-22T23:11:00.174Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "checked_at": "2026-10-22T23:09:51.164Z",
+          "boards_scanned": 13,
+          "pages_scanned": 19,
+          "tasks_scanned": 919,
+          "scan_complete": true,
+          "active_tasks": 0,
+          "free_slots_under_account_cap": 6,
+          "matching_unassigned_tasks": 0,
+          "owner_decisions_open": 0,
+          "normalized_prompt_sha256": "4005358a1c866a6413d3aa703209b260d91ce3fb6ba97153c1b96465be2c6a8e",
+          "normalized_prompt_match": true,
+          "input_order_verified": [
+            "@Image1",
+            "@Image2",
+            "@Image3",
+            "@Image4",
+            "@Image5",
+            "@Image6"
+          ],
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited_visible": true,
+          "credits_cost_visible": 0
+        }
+      },
+      "submitted_at": "2026-10-22T23:12:32Z",
+      "receipt": "reports/topview-queue-2026-10-23/S42-SEED20-P1-receipt.json",
+      "verified_status": "init",
+      "verified_settings": {
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "input_images": 6,
+        "use_unlimit_mode": true,
+        "credits_cost": 0,
+        "normalized_prompt_sha256": "4005358a1c866a6413d3aa703209b260d91ce3fb6ba97153c1b96465be2c6a8e",
+        "full_normalized_prompt_match": true
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S42",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "previous_prompt_sha256": [
+        "e1f5ff3f0bdf207d4788f28ef02550c8d2bfa4c47800a7e4a235e89fa5942608"
+      ],
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "previous_continuity_reference": {
+        "slot": "@Image6",
+        "path": "references/scenes/scene-42/S42-start-from-S16-result.png",
+        "sha256": "99d2175159727444485b4eef94758898cd1813ec07c06c44b2a16013818fa1ef",
+        "required": true,
+        "input_status": "available"
+      },
+      "depends_on_completed": [
+        "S16-SEED20-P2"
+      ],
+      "blocker": null,
+      "launch_readiness": null
+    },
+    {
+      "id": "S47-SEED20-P1",
+      "scene_id": 47,
+      "prompt_id": "S47-SEED20-P1",
+      "canonical_block_label": "47 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "c45a400022a60e94e4ec104800f373d169b51d589f295371286b29ab7f3843dd",
+      "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
+      "priority": 36,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-47/S47-start-from-S32-result.png",
+          "sha256": "84c1e1cff50ed555813120d6c83c1325eb2210b86439a8ea683f31ba14e78793",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "2175458eede64d0881ad70897155459a",
+      "claim": {
+        "run_id": "chatgpt-automation-20261022T232059Z-S47P1",
+        "claimed_at": "2026-10-22T23:20:59.166Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "checked_at": "2026-10-22T23:20:25.519Z",
+          "boards_scanned": 13,
+          "pages_scanned": 19,
+          "tasks_scanned": 920,
+          "scan_complete": true,
+          "active_tasks": 1,
+          "free_slots_under_account_cap": 5,
+          "matching_unassigned_tasks": 0,
+          "owner_decisions_open": 0,
+          "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
+          "normalized_prompt_match": true,
+          "input_order_verified": [
+            "@Image1",
+            "@Image2",
+            "@Image3",
+            "@Image4",
+            "@Image5",
+            "@Image6"
+          ],
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited_visible": true,
+          "credits_cost_visible": 0
+        }
+      },
+      "submitted_at": "2026-10-22T23:22:58Z",
+      "receipt": "reports/topview-queue-2026-10-23/S47-SEED20-P1-receipt.json",
+      "verified_status": "init",
+      "verified_settings": {
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "input_images": 6,
+        "use_unlimit_mode": true,
+        "credits_cost": 0,
+        "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
+        "full_normalized_prompt_match": true
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S47",
+      "selection_record": "reports/seedance-selection-2026-10-18.md"
+    },
+    {
+      "id": "S47-SEED20-P2",
+      "scene_id": 47,
+      "prompt_id": "S47-SEED20-P2",
+      "canonical_block_label": "47 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "912df9aac9818879e48a5ee8951e0a494e3d9a9859e520da03f6acd14d2d2852",
+      "normalized_prompt_sha256": "de94103dc0f6a115f46993440ead02f7aa92af26fd21c4d163cc5f7c2b039410",
+      "priority": 36.1,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S47-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "path": "references/scenes/scene-47/S47-P1-last3s-20261023.mp4",
+          "sha256": "73c05159693a00a9a2cb36da2941eba87d95e76cd15385295f58d3343967bb62",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "available",
+          "source_item_id": "S47-SEED20-P1",
+          "source_task_id": "2175458eede64d0881ad70897155459a",
+          "trim": {
+            "start_seconds": 12,
+            "end_seconds": 15,
+            "frames": 72,
+            "fps": 24
+          },
+          "source_original_library_file_id": "libfile_8dbe05ca44c4819183f5263931d29b42",
+          "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "56e5e07c85df4af583c62665c51ed563",
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S47",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S47-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "actual_previous_ending_saved_qc_checked",
+      "continuity_qc_at": "2026-10-23T01:33:01.483Z",
+      "last_claim": {
+        "run_id": "CONTINUE-20261023-S47-P2",
+        "claimed_at": "2026-10-23T01:36:36.133Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:36:26.884Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 929,
+            "active": [
+              {
+                "id": "af8e389dc9564607bc6138b408c72da5",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              },
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "all_input_sha256_verified": true,
+          "input_order": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ],
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "max_credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
+      "submitted_at": "2026-10-23 01:36:53Z",
+      "receipt": "reports/topview-queue-2026-10-16/S47-SEED20-P2-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S52-SEED20-P1",
+      "scene_id": 52,
+      "prompt_id": "S52-SEED20-P1",
+      "canonical_block_label": "52 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "f77f5ee9a8174c1d296b6fd5806b971103d3f5a18c987323d2c03bacff03cc7e",
+      "normalized_prompt_sha256": "4fd3797b496a9a4b3fc068a4d91cc634008fce823ce3ef15c1e2e571114270fe",
+      "priority": 20,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S44-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_scene_end",
+          "input_status": "available",
+          "source_item_id": "S44-R1-20261017",
+          "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
+          "path": "references/scenes/scene-52/S52-from-S44-last3s-20261023.mp4",
+          "sha256": "e2e5c2d5b3b10781fddaa2c3670eaabd27b9d31179e9b0508e2f95ac3531c1c4",
+          "trim": {
+            "start_seconds": 27,
+            "end_seconds": 30,
+            "duration_seconds": 3,
+            "fps": 30,
+            "frames": 90
+          },
+          "source_original_sha256": "909bd64ce53af11e17ab15bcaa3608493f5e37cb07036be066920935b905ee3c",
+          "source_drive_file_id": "1cqcnLmA3bYGXErZpzMhm1yQCpXfLfrwp",
+          "qc_report": "reports/topview-quality-2026-10-23/S44-for-S52-continuity.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+          "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry. Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
+      "replaces_unsubmitted_item": "S52",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S44-R1-20261017"
+      ],
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "authorization_before_20261023_expansion": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "previous_gates_20261023": {
+        "depends_on_submitted": [
+          "S44-R1-20261017",
+          "S44-SEED20-P1",
+          "S44-SEED20-P2"
+        ],
+        "depends_on_completed": [
+          "S44-R1-20261017",
+          "S44-SEED20-P1",
+          "S44-SEED20-P2"
+        ],
+        "blocker": "Await owner selection after S44 Wan/Seedance comparison, then save and QC actual ending of the selected complete44 version.",
+        "state": "blocked_inputs",
+        "owner_selection_required": "S44-COMPARE-20261019"
+      },
+      "owner_launch_authorized_at": "2026-10-23T01:51:09.796Z",
+      "continuity_selection": {
+        "method": "assistant QC for explicitly authorized52 launch, existing successful Wan44 result",
+        "owner_editorial_approval": false,
+        "at": "2026-10-23T01:51:09.796Z"
+      },
+      "last_claim": {
+        "run_id": "EXPAND-20261023-S52P1",
+        "claimed_at": "2026-10-23T01:53:41.034Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:53:41.027Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 930,
+            "scan_complete": true,
+            "inventory_change": "Removed empty board1a660... absent from fresh listing; new boardc934... scanned.",
+            "active": [
+              {
+                "id": "56e5e07c85df4af583c62665c51ed563",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "af8e389dc9564607bc6138b408c72da5",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "input_hashes_verified": true,
+          "input_order": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ],
+          "model": "Seedance 2.0",
+          "duration": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
+      "submitted_at": "2026-10-23 01:54:00Z",
+      "receipt": "reports/topview-queue-2026-10-16/S52-SEED20-P1-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S53-SEED20-P2",
+      "scene_id": 53,
+      "prompt_id": "S53-SEED20-P2",
+      "canonical_block_label": "53 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "b7d51de51a28a893e915b306e8d0116f67f4483e4301cd117cd633126492b0cf",
+      "normalized_prompt_sha256": "076064df6bebba63b3bbf018f9db4572bbfdf92be6a605704c829245a9024ec3",
+      "priority": 21.1,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S53-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "available",
+          "source_item_id": "S53-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "path": "references/scenes/scene-53/S53-P1-last3s-20261023.mp4",
+          "sha256": "3b7f8d348f2ee5f094f8d55e9c4702653d72c5b01d8e1f0d0b94e9ac31d8a533",
+          "duration_seconds": 3,
+          "source_task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+          "source_archive_file_id": "1K-bp1oJ1dBQLZhJDfZRumeFACdnC9ZYT",
+          "source_range_seconds": [
+            12.041666666666666,
+            15.041666666666666
+          ],
+          "qc_status": "usable_continuity_input_not_editorial_approval",
+          "provenance_report": "reports/topview-quality-2026-10-23/S53-SEED20-P1-review.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "439dd6d829c64f16b6491e0177cc1619",
+      "claim": {
+        "run_id": "seregius-only-20261023-S53P2",
+        "claimed_at": "2026-10-23T00:38:32.527Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "full_prompt_normalized_match": true,
+          "inputs_sha256_verified": true,
+          "global_scan": {
+            "at": "2026-10-23T00:37:50.443Z",
+            "total": 923,
+            "boards": 13,
+            "pages": 19,
+            "active": [
+              {
+                "id": "790a7017632045a58d83ccc0891c44ac",
+                "status": "init"
+              },
+              {
+                "id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+                "status": "init"
+              },
+              {
+                "id": "2175458eede64d0881ad70897155459a",
+                "status": "init"
+              },
+              {
+                "id": "a1ca4c36e31d45c5b4b72df7777d2592",
+                "status": "init"
+              }
+            ]
+          },
+          "ui_free_unlimited": true,
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1
+        }
+      },
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S53",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S53-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "actual_continuity_input_verified",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S53-SEED20-P1-review.json",
+      "submitted_at": "2026-10-23 00:38:40Z",
+      "receipt": "reports/topview-queue-2026-10-16/S53-SEED20-P2-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S16-SEED20-P2",
+      "scene_id": 16,
+      "prompt_id": "S16-SEED20-P2",
+      "canonical_block_label": "16 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "4a1d56c297d4e5b3f9b644675e5ba0d6e77d08337df3d8e14096c6d51e4686e4",
+      "normalized_prompt_sha256": "9cf5ca5967b23d269f2e37439b16d3563dca450b6823c00a83d646eb2ee5cb28",
+      "priority": 1.1,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S16-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "path": "S16-P1-last3s.mp4",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "role": "continuity_video",
+          "input_status": "available",
+          "source_item_id": "S16-SEED20-P1",
+          "source_topview_task_id": "30cfaf12ad944cd6944416623397e41c",
+          "storage": "private_library",
+          "library_file_id": "libfile_67247bfca2888191abcd6be93af57a62",
+          "sha256": "33a58e2ada311caa9d6002e43dcffcc85d440f4f3255a18ef3e940583baf492e",
+          "bytes": 1849932,
+          "duration_seconds": 3,
+          "source_range_seconds": [
+            12,
+            15
+          ],
+          "source_library_file_id": "libfile_c97e307cb0c881919d8bfe567b415b10",
+          "source_sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312",
+          "qc": {
+            "checked_at": "2026-10-22T21:45:53.400Z",
+            "status": "usable_continuity_input",
+            "scope": "15 sampled frames plus full-size final frame; technical continuity, not editorial approval",
+            "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
+            "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+            "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+          }
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/ilyusha.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "role": "location",
+          "required": true,
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        }
+      ],
+      "task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
+      "claim": {
+        "run_id": "chatgpt-chat-2026-10-22T215255721Z-S16P2",
+        "claimed_at": "2026-10-22T21:52:55.721Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "checked_at": "2026-10-22T21:49:52.760Z",
+          "boards": 13,
+          "pages": 19,
+          "total_tasks": 918,
+          "occupied_slots": 5,
+          "free_slots": 1,
+          "complete": true,
+          "duplicate_matches": 0,
+          "active_unlimited_task_ids": [
+            "4b323d19cf444009a3b3fc4b3c3b3aed",
+            "1751294fbf5f49dbb00a0f44401486ca",
+            "af627d97836d4832a1a4ad8cf24fa921",
+            "42f5f94e994a4768a4618c5cda3fa4d1",
+            "008058a4705c45c089256116427153d4"
+          ],
+          "ui_prompt_normalized_match": true,
+          "owner_decisions_open": 0
+        },
+        "resolved_at": "2026-10-22T22:24:45Z",
+        "result": "submitted_verified_reconciliation"
+      },
+      "authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "replaces_unsubmitted_item": "S16-S16",
+      "selection_record": "reports/worm-seedance-2026-10-20.md",
+      "depends_on_completed": [
+        "S16-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "reference_inputs_available",
+      "previous_prompt_sha256": [
+        "e1f5ff3f0bdf207d4788f28ef02550c8d2bfa4c47800a7e4a235e89fa5942608"
+      ],
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "prepared_at": "2026-10-22T21:45:53.400Z",
+      "submitted_at": "2026-10-22T21:53:25Z",
+      "receipt": "reports/topview-queue-2026-10-16/S16-SEED20-P2-20261023-reconciled.json",
+      "actual_settings": {
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "image_count": 5,
+        "image_names": [
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4",
+          "Image5"
+        ],
+        "video_count": 1,
+        "video_names": [
+          "Video1"
+        ],
+        "video_durations": [
+          3
+        ]
+      },
+      "terminal_status": "success",
+      "completed_at": "2026-10-22T22:41:27Z",
+      "result_evidence": {
+        "source_library_file_id": "libfile_856ba7afdc54819193913418cba4c555",
+        "source_sha256": "2b10690e49d6f77734ce6557e7728d1550641b93bba77875812939b8c093ecb2",
+        "source_bytes": 9860672,
+        "duration_seconds": 15.104,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "final_frame_path": "references/scenes/scene-16/S16-P2-end.png",
+        "final_frame_sha256": "0811d1020544e539a9513ae36c5ceb44d82e91edb0cb9ff7f68fe29270281315",
+        "qc_status": "usable_continuity_input",
+        "report": "reports/topview-queue-2026-10-23/S16-SEED20-P2-result.json",
+        "editorial_approval": "not_inferred"
+      }
+    },
+    {
+      "id": "S57-SEED20-P1",
+      "scene_id": 57,
+      "prompt_id": "S57-SEED20-P1",
+      "canonical_block_label": "57 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "530ff96228e5d22de60405cbcf0d9faa1cf549d7c92a6596c688409ab023c45e",
+      "normalized_prompt_sha256": "5dce3308689560c429b785f7c0c61568615b4c87576a8e4020a1533fe9d99ff7",
+      "priority": 4.2,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "required": true,
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+      "claim": {
+        "run_id": "seregius-ready-skip-20261023-S57P1",
+        "claimed_at": "2026-10-23T00:52:03.871Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "explicit_owner_launch": true,
+          "full_prompt_normalized_match": true,
+          "inputs_sha256_verified": true,
+          "input_image_count": 6,
+          "global_scan": {
+            "at": "2026-10-23T00:49:55.043Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 924,
+            "active": [
+              {
+                "id": "439dd6d829c64f16b6491e0177cc1619",
+                "status": "init",
+                "unlimited": true,
+                "credits": 0
+              },
+              {
+                "id": "790a7017632045a58d83ccc0891c44ac",
+                "status": "init",
+                "unlimited": true,
+                "credits": 0
+              },
+              {
+                "id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+                "status": "init",
+                "unlimited": true,
+                "credits": 0
+              },
+              {
+                "id": "2175458eede64d0881ad70897155459a",
+                "status": "init",
+                "unlimited": true,
+                "credits": 0
+              },
+              {
+                "id": "a1ca4c36e31d45c5b4b72df7777d2592",
+                "status": "init",
+                "unlimited": true,
+                "credits": 0
+              }
+            ]
+          },
+          "ui_free_unlimited": true,
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "rule_commit": "bbb2bb9e642bac14349e514e24a3b62102f4d471"
+        }
+      },
+      "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09). Owner23Oct2026 explicitly authorized launching this ship scene now and skipping earlier items waiting for results.",
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-19T23:43:06Z",
+      "required_saved_reference_assets": [
+        {
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
+        }
+      ],
+      "ordering_note": "Owner20Oct2026 19:37MSK: launch only after all eight selected worm parts16/42/56/48 have been submitted. This is ordering, not a required video source. All existing true continuity blockers remain.",
+      "order_only_dependencies_removed_20261023": [
+        "S16-SEED20-P1",
+        "S16-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2"
+      ],
+      "ordering_rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
+      "submitted_at": "2026-10-23 00:52:11Z",
+      "receipt": "reports/topview-queue-2026-10-16/S57-SEED20-P1-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S57-SEED20-P2",
+      "scene_id": 57,
+      "prompt_id": "S57-SEED20-P2",
+      "canonical_block_label": "57 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "64f5b5f9dcaae8ed7e4ddaaa30d04a599c38524f07e59cfd3ace303a4b9f88e8",
+      "normalized_prompt_sha256": "7b1a0ddac96d10f53e993613a07ba70b0d1fe4161fba804afd2c037b07e12b3f",
+      "priority": 4.21,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S57-SEED20-P1"
+      ],
+      "depends_on_completed": [
+        "S57-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "path": "references/scenes/scene-57/S57-P1-last3s-20261023.mp4",
+          "sha256": "648566d6279cd238848816f160973940714126d0a7fa3292664665537e3361ed",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "available",
+          "source_item_id": "S57-SEED20-P1",
+          "source_task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+          "trim": {
+            "start_seconds": 12,
+            "end_seconds": 15,
+            "frames": 72,
+            "fps": 24
+          },
+          "source_original_library_file_id": "libfile_9ad606b73ad88191ac415a6bbca617bc",
+          "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "required": true,
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "af8e389dc9564607bc6138b408c72da5",
+      "claim": null,
+      "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
+      "blocker": null,
+      "launch_readiness": "actual_previous_ending_saved_qc_checked",
+      "created_at": "2026-10-19T23:43:06Z",
+      "required_saved_reference_assets": [
+        {
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
+        }
+      ],
+      "ordering_note": "Owner20Oct2026 19:37MSK: launch only after all eight selected worm parts16/42/56/48 have been submitted. This is ordering, not a required video source. All existing true continuity blockers remain.",
+      "order_only_dependencies_removed_20261023": [
+        "S16-SEED20-P1",
+        "S16-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2"
+      ],
+      "ordering_rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
+      "continuity_qc_at": "2026-10-23T01:33:01.483Z",
+      "last_claim": {
+        "run_id": "CONTINUE-20261023-S57-P2",
+        "claimed_at": "2026-10-23T01:34:01.901Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:31:15.285Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 928,
+            "active": [
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0,
+                "unlimited": true
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "all_input_sha256_verified": true,
+          "input_order": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ],
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "max_credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
+      "submitted_at": "2026-10-23 01:34:29Z",
+      "receipt": "reports/topview-queue-2026-10-16/S57-SEED20-P2-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
+    },
+    {
+      "id": "S58-SEED20-P1",
+      "scene_id": 58,
+      "prompt_id": "S58-SEED20-P1",
+      "canonical_block_label": "58 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "e444f7d9449437bf4063bae70937d4bdc0497f3434167193ac847fc8df4983b2",
+      "normalized_prompt_sha256": "7fd1182b95e5ab78cce137387ab5086bbf875469667a27edcdc22bced65c7be9",
+      "priority": 4.3,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+          "required": true,
+          "input_status": "available",
+          "source_item_id": "S58-WRECK-IMAGE",
+          "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
+          "source_kind": "chatgpt_imagegen_saved_reference"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "required": true,
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "6598a21c2c684d43b7cede9cfc987107",
+      "claim": null,
+      "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-19T23:43:06Z",
+      "required_saved_reference_assets": [
+        {
+          "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+          "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845"
+        },
+        {
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc"
+        }
+      ],
+      "reference_update_note": "Owner03:39MSK: original nose-to-pedestal start, 3 new action helpers, explicit stage timing, maximum6images+realVideo1.",
+      "ordering_note": "Owner20Oct2026 19:37MSK: launch only after all eight selected worm parts16/42/56/48 have been submitted. This is ordering, not a required video source. All existing true continuity blockers remain.",
+      "order_only_dependencies_removed_20261023": [
+        "S16-SEED20-P1",
+        "S16-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2"
+      ],
+      "ordering_rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
+      "submitted_at": "2026-10-23 01:14:57Z",
+      "receipt_path": "reports/topview-queue-2026-10-16/S58-SEED20-P1-20261023.json",
+      "last_claim": {
+        "run_id": "AUDIT-S58-P1-20261023",
+        "claimed_by": "chatgpt",
+        "claimed_at": "2026-10-23T01:12:38.671Z",
+        "scope": "one website Unlimited0 submission",
+        "preflight_full_scan": {
+          "at": "2026-10-23T01:12:38.225Z",
+          "boards": 13,
+          "pages": 19,
+          "tasks": 926,
+          "active": [
+            {
+              "id": "0da875de0b384971836be2e3a05d0c0b",
+              "status": "running"
+            }
+          ],
+          "duplicates": []
+        }
+      },
+      "submission_verified_at": "2026-10-23T01:17:12.044Z",
+      "prompt_match_note": "Only serialized padding surrounding the slash between @Image3/@Image4 differs; all words, punctuation, order and references preserved. Existing helper does not normalize slash padding. No creative prompt change."
+    },
+    {
+      "id": "S28-A2-20261023",
+      "scene_id": 28,
+      "prompt_id": "A2",
+      "canonical_block_label": "28 A2",
+      "canonical_prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+      "normalized_prompt_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+      "priority": 1.02,
+      "state": "submitted",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/P28-pair-facing.webp",
+          "sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7",
+          "role": "pose_composition_helper",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "8a8eadc809004e318c47201b8a463be0",
+      "claim": {
+        "run_id": "chatgpt-20261023T0912Z-S28-A2",
+        "claimed_at": "2026-10-23T09:12:00Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "account_scan": {
+          "checked_at": "2026-10-23T09:12:00Z",
+          "boards": 13,
+          "pages": 19,
+          "total_tasks": 932,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 932-task scan; zero exact normalized current S28-A2 prompt matches; historical different-revision task remains excluded.",
+        "preflight": {
+          "board_name": "My First Board",
+          "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_chars": 6030,
+          "prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+          "prompt_normalized_sha256": "e347c88476d9d183b525929bf7db47c182b6996b2f319a75949cba9b19740952",
+          "input_count": 4,
+          "input_sha_verified": true
+        },
+        "post_submit": {
+          "clicked_once": true,
+          "ui_toast": "Задачи успешно отправлены; Успешно создано задач: 1",
+          "task_id_verified": "8a8eadc809004e318c47201b8a463be0",
+          "prompt_normalized_match": true,
+          "input_count": 4,
+          "settings_verified": true,
+          "unlimited": true,
+          "credits": 0,
+          "global_scan": {
+            "checked_at": "2026-10-23T09:14:49Z",
+            "boards": 13,
+            "pages": 16,
+            "page_size": 100,
+            "total_tasks": 933,
+            "status_counts": {
+              "success": 890,
+              "fail": 37,
+              "init": 6
+            },
+            "occupied_video_slots": 6,
+            "free_video_slots": 0,
+            "complete": true
+          }
+        }
+      },
+      "submitted_at": "2026-10-23T09:11:44Z",
+      "receipt": "reports/topview-queue-2026-10-16/S28-A2-20261023-receipt.json",
+      "authorization": "Owner23Oct current message after gap audit authorizes continuing28/49/50/51 as fallback to52P2/58P2. Select current Seedance A revision once, not Wan duplicates. тогда продолжаем по очереди. в приоритете 52P2 и 58P2. если слот освободится, а они будут ждать предыдущих частей то запускаем 28 49 50 51. 28 до этого получалась плохо, нужно будет проверить результат новых запусков",
+      "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
+      "result_review_required": true,
+      "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51.",
+      "historical_different_revision_task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+      "editorial_completion": false,
+      "owner_note_20261025": "Still active technically; not editorially complete. Preserve task and receipt. Owner authorized a separate new attempt after music; never run concurrently with this task."
+    },
+    {
       "id": "S66-STITCH-NB-IMAGE-1",
       "scene_id": 66,
       "prompt_id": "S66-STITCH-NB-IMAGE-1",

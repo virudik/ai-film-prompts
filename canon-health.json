@@ -1,17 +1,11 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30T17:53:58Z",
-  "status": "warn",
-  "warnings": 2,
+  "checked_at": "2026-10-30T18:06:21Z",
+  "status": "ok",
+  "warnings": 0,
   "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
-    {
-      "level": "warn",
-      "code": "handoff-size",
-      "text": "Хендоф 36 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
-      "file": "NEW-CHAT-HANDOFF.md"
-    },
     {
       "level": "info",
       "code": "instruction-size",
@@ -29,12 +23,6 @@
       "code": "instruction-size",
       "text": "USER-GUIDE.md: 80 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
-    },
-    {
-      "level": "warn",
-      "code": "service-file-size",
-      "text": "ops/topview-launch-queue.json: 408 КБ (предел 400 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
-      "file": "ops/topview-launch-queue.json"
     }
   ]
 }
