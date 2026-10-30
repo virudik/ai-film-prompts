@@ -1,3 +1,14 @@
+# S42-P2: success, QC continuity rejected · 30.10.2026 18:56 МСК
+
+- Fresh Topview scan: 14 boards, 20 pages, 951 tasks, complete; six active Unlimited0 Seregius videos and zero free video slots. S61-P1 task `c72c1ab4524e4f2f9d3a0272474f788a` remains active; no Create, claim or retry in this cycle.
+- S42-P2 task `4a1061e175054da2810ffef8ad9d31cd` is `success` (Seedance 2.0, 15s, 720p, 16:9, Unlimited0, credits0), completed at 2026-10-30T15:25:59Z.
+- Honest QC scope: browser-slider samples at approximately 0/4/8/12/15s; not a continuous full-frame-rate review; audio not listened.
+- Critical findings: around 12–15s two near-identical moustached red-caped Ilyusha-like men are visible and Artem is missing/replaced; around 8s the blue lightsaber deforms into a large triangular glowing blade/cloth shape. Result is not accepted for continuity and is not owner-approved.
+- Automatic retry is prohibited for this item: the task technically succeeded and the defects are artistic/continuity defects, not a confirmed technical fail.
+- Report: `reports/topview-quality-2026-10-30/S42-SEED20-P2-4a1061e1-review.json`.
+- Archive blocker: the original downloaded inside the isolated Cloud/CDP browser filesystem, but neither the local runtime nor the Google Drive connector could read that path. Archive upload and source SHA256 remain not completed; do not claim them as verified.
+- Canon health presently warns that `ops/topview-launch-queue.json` is above the 400 KB service-file threshold. This is queued for the scheduled 20:55 MSK Phase A cleanup procedure; it was not represented as fixed in this 18:55 cycle.
+
 # Relay #170 · 30.10.2026 18:37 МСК
 
 Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim.
