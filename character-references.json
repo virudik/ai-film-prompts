@@ -2362,7 +2362,7 @@
     },
     {
       "id": "S48-P3-serega-worm-closeup",
-      "name": "48.3 — довольный Серёга верхом, червь идёт прямо вправо, город на заднем плане",
+      "name": "48.3 — Серёга стоит на спине огромного червя и держится одной рукой. Город впереди справа",
       "kind": "scene_reference",
       "scenes": [
         48
@@ -2372,10 +2372,10 @@
         {
           "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
           "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-          "caption": "48.3 — довольный Серёга верхом, червь идёт прямо вправо, город на заднем плане",
+          "caption": "48.3 — Серёга стоит на спине огромного червя и держится одной рукой. Город впереди справа",
           "role": "final_closeup_of_mounted_rider_toward_town",
-          "sha256": "a1a928f01a2c6a50cd5b0c44fcb7b1ddccecd8ceba02ed650b42b5a8a139cbfa",
-          "bytes": 773254,
+          "sha256": "2369992b1ca30deb276119de06fc585066e927cebadc9d8a20f0d78cc0907ec4",
+          "bytes": 913011,
           "dimensions": [
             1672,
             941
@@ -2383,37 +2383,38 @@
           "media_type": "image",
           "status": "available",
           "owner_approval": "not_recorded",
-          "generation_method": "ChatGPT image edit from prior close-up, opening ride, identity and town references",
-          "created_at": "2026-10-30T18:02:18.185Z",
+          "generation_method": "ChatGPT image editing, two passes from the previous profile shot using the original pose, opening scale and canonical identity",
+          "created_at": "2026-10-30T18:14:22.460Z",
           "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-closeup.image-prompt.txt",
-          "prompt_sha256": "d0c189c849951d41552b863774b15b4310280dc8ee27d602997dadcfa801b33b",
+          "prompt_sha256": "a75fd8a946c96f181b96ee5a12eb523159b29e504bbfbc0dc2e6667ea705ad53",
           "reference_inputs": [
             {
               "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-              "git_commit": "2df8997dfb4b0e1d68086b8c0eb1906455246272",
-              "sha256": "0fee920740e5367cbc6346723d42760b0a2307997f92d494a2ad4bba185b546c",
+              "git_commit": "91fc15bf47473a458814a089683cb868a7fd4248",
+              "sha256": "a1a928f01a2c6a50cd5b0c44fcb7b1ddccecd8ceba02ed650b42b5a8a139cbfa",
               "role": "previous_revision_edit_target"
             },
             {
               "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+              "git_commit": "56b522b8faccae3001af190fe44d09bdb833afb1",
+              "sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9",
+              "role": "original_one_hand_riding_pose"
+            },
+            {
+              "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
               "sha256": "95d2c7f6c039c11ffa5d3653f5e7124e39b3eea3b0832c88061fc79b918350ec",
-              "role": "opening_camera_and_screen_direction"
+              "role": "opening_wide_scale_and_direction"
             },
             {
               "path": "references/full/serega.jpg",
               "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
               "role": "identity"
-            },
-            {
-              "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
-              "sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
-              "role": "destination"
             }
           ],
           "assistant_qc": {
-            "checked_at": "2026-10-30T18:02:18.185Z",
+            "checked_at": "2026-10-30T18:14:22.460Z",
             "status": "usable_for_assigned_role",
-            "scope": "Серёга сидит верхом и смотрит вправо по ходу движения. Голова и корпус червя на прямой горизонтальной оси; зубцы у правого края видны в профиль. Плащ и песок тянутся влево, купола и ворота видны вдали справа."
+            "scope": "Оба ботинка видны на широкой спине. Одна кисть обхватывает складку, другая рука вытянута для равновесия. Пасть справа, след тянется влево, город и ворота впереди справа."
           },
           "site_published": {
             "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
@@ -2422,7 +2423,7 @@
           }
         }
       ],
-      "reference_priority": "Крупность, улыбка, рука на черве и город в заключительном кадре. Для лица приоритет у индивидуального листа Серёги."
+      "reference_priority": "Поза и масштаб для финала приближения. Серёга стоит на обеих ногах, держится одной рукой и улыбается. Для лица приоритет у индивидуального листа Серёги."
     }
   ]
 }

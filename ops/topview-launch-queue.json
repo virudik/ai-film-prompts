@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T18:02:18.185Z",
+  "updated_at": "2026-10-30T18:14:22.460Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2097,8 +2097,8 @@
       "scene_id": 48,
       "prompt_id": "S48-SEED20-P3",
       "canonical_block_label": "48 · Seedance 2.0 часть 3",
-      "canonical_prompt_sha256": "4a26b43ea1ecf9560118e1f09c7bbc41624aa520ffc21ff5bd795c0b586d5864",
-      "normalized_prompt_sha256": "6ceb671f7c47782d706974c23799c0c3b1825a47708e41247014d338bec434ad",
+      "canonical_prompt_sha256": "28a8479da94cc33bec9aa456438168c8f95902755733e4f476b72db491e5402a",
+      "normalized_prompt_sha256": "e9fbbf172724e5b573d2ce03a38d64f90c949df7466dc1d36a584321e57ea9ed",
       "priority": 0.42,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -2158,7 +2158,7 @@
         {
           "slot": "@Image5",
           "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-          "sha256": "a1a928f01a2c6a50cd5b0c44fcb7b1ddccecd8ceba02ed650b42b5a8a139cbfa",
+          "sha256": "2369992b1ca30deb276119de06fc585066e927cebadc9d8a20f0d78cc0907ec4",
           "required": true,
           "input_status": "available",
           "canonical_role": "final_closeup_of_mounted_rider_toward_town"
