@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T18:15:19+00:00",
-  "source_head": "7e3f782692a557bfcc9924a3fc166037dfd84b61",
-  "source_fingerprint": "8c9f17f77c5a4bb034c357d03bb1141b12a01cca747a363183ae9523d2fe45ea",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-10-30T18:16:18+00:00",
+  "source_head": "e134fcba592168dd908387bc574a9476cf16e0b8",
+  "source_fingerprint": "54932c972f0f2fab39c955e537750ce5cfa7627014b732e237f424e72f4c50a6",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,10 +30,7 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [
-    "brief was invalid at generation",
-    "master vs project-status sha256 mismatch"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -436,8 +433,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "c9eafe2f50ce51767bed0d40568bc770f3e59def77d19c9ed3b2204644693397",
-      "bytes": 21501
+      "sha256": "d6f451b3dfb6e73f67b6895480c66279b6e303a2a54cee4446846394f613e9a0",
+      "bytes": 21499
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -461,8 +458,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "6a087a8bce5b6b5c5cc86852b1606ebe1926de392ba1b70df6b06a92aaed6823",
-      "bytes": 24170
+      "sha256": "9a7497d6c8dd5e2dc18bae90e184700994258c996dbd59470ea898102bae8a70",
+      "bytes": 24169
     },
     {
       "file": "video-prompts.md",
@@ -475,5 +472,5 @@
       "bytes": 81312
     }
   ],
-  "packet_bytes": 6517
+  "packet_bytes": 6549
 }
