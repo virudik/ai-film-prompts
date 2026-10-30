@@ -750,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T19:41:12.630Z",
+  "updated_at": "2026-10-30T20:01:05.337Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -2427,7 +2427,7 @@
     },
     {
       "id": "S48-P3-serega-worm-face",
-      "name": "48.3 — крупный план довольного лица Серёги. Он сохраняет стойку, город впереди справа",
+      "name": "48.3 — крупный план довольного Серёги. Червь движется вправо, пасть за правой границей кадра, впереди город",
       "kind": "scene_reference",
       "scenes": [
         48
@@ -2437,10 +2437,10 @@
         {
           "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
           "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
-          "caption": "48.3 — крупный план довольного лица Серёги. Он сохраняет стойку, город впереди справа",
+          "caption": "48.3 — крупный план довольного Серёги. Червь движется вправо, пасть за правой границей кадра, впереди город",
           "role": "final_face_closeup_same_standing_pose",
-          "sha256": "b6fe1568e0193b70a34cb5668026de35fb1e3a9eed7d13bed23eaaa1434480ad",
-          "bytes": 829466,
+          "sha256": "e93641c3cf846a79538f4bc93a4a948eeb50a0fefdebaf68feee2ff8073c6c98",
+          "bytes": 860959,
           "dimensions": [
             1672,
             941
@@ -2448,32 +2448,27 @@
           "media_type": "image",
           "status": "available",
           "owner_approval": "not_recorded",
-          "generation_method": "ChatGPT image edit from the earlier close-up, selected @Image5 pose and canonical Serega sheet",
-          "created_at": "2026-10-30T19:41:12.630Z",
+          "generation_method": "ChatGPT image edit of the previous @Image6, with @Image5 fixing screen direction",
+          "created_at": "2026-10-30T20:01:05.337Z",
           "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-face.image-prompt.txt",
-          "prompt_sha256": "bf33c9b2a230bc179259ed4422b611e0f0f24a139292c58ded037975f4c72ae0",
+          "prompt_sha256": "bb1c8a03966698ab6769a39915428776f7c84dda877cbc8a8af3efd388b250fb",
           "reference_inputs": [
             {
-              "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-              "git_commit": "2df8997dfb4b0e1d68086b8c0eb1906455246272",
-              "sha256": "0fee920740e5367cbc6346723d42760b0a2307997f92d494a2ad4bba185b546c",
-              "role": "former_closeup_framing_edit_target"
+              "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+              "git_commit": "3cf10b4b7d73fcb22a11fbdc5d628211b94a6452",
+              "sha256": "b6fe1568e0193b70a34cb5668026de35fb1e3a9eed7d13bed23eaaa1434480ad",
+              "role": "previous_closeup_edit_target"
             },
             {
               "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
               "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
-              "role": "standing_pose_and_level_worm_back"
-            },
-            {
-              "path": "references/full/serega.jpg",
-              "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-              "role": "identity"
+              "role": "screen_direction_and_level_worm_back"
             }
           ],
           "assistant_qc": {
-            "checked_at": "2026-10-30T19:41:12.630Z",
+            "checked_at": "2026-10-30T20:01:05.337Z",
             "status": "usable_for_assigned_role",
-            "scope": "Лицо крупным планом, видны зазор над спиной и опорный ботинок, рука на низком кольце и свободная рука. Справа видны город и край пасти."
+            "scope": "Крупность лица, улыбка и низкая стойка сохранены. Спина червя продолжается к правому краю, пасть полностью за кадром. Город впереди справа, плащ и песок тянутся влево."
           },
           "site_published": {
             "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",

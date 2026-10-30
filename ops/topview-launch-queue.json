@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T19:41:12.630Z",
+  "updated_at": "2026-10-30T20:01:05.337Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2097,8 +2097,8 @@
       "scene_id": 48,
       "prompt_id": "S48-SEED20-P3",
       "canonical_block_label": "48 · Seedance 2.0 часть 3",
-      "canonical_prompt_sha256": "fec76ed5814406836ac093c578884e78cb5998c4f4318e83f1321cedf72f4bd0",
-      "normalized_prompt_sha256": "9b615ee8d3adab375366038e4d81710b85ba60fc7458f6b2b23e8768ae575078",
+      "canonical_prompt_sha256": "fc1ae0d3e32364f6f4c01d5721e10fad0d48f9bc8a79a6479a09c74ca9763670",
+      "normalized_prompt_sha256": "0203e6c8474b3ec857b1d42ce4907fd649e8dc2e2806294f42a2d7a8f7d3980a",
       "priority": 0.42,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -2166,7 +2166,7 @@
         {
           "slot": "@Image6",
           "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
-          "sha256": "b6fe1568e0193b70a34cb5668026de35fb1e3a9eed7d13bed23eaaa1434480ad",
+          "sha256": "e93641c3cf846a79538f4bc93a4a948eeb50a0fefdebaf68feee2ff8073c6c98",
           "required": true,
           "input_status": "available",
           "canonical_role": "final_face_closeup_same_standing_pose"
