@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-29T23:39:59+00:00",
+  "last_updated_at": "2026-10-30T00:21:38+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-29T23:39:59+00:00",
+      "updated_at": "2026-10-30T00:21:38+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -24,7 +24,7 @@
         "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized.",
         "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json."
       ],
-      "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
+      "next_action": "Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -197,26 +197,27 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-29T23:39:59+00:00",
-        "last_completed": "Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.",
-        "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
+        "verified_at": "2026-10-30T00:21:38+00:00",
+        "last_completed": "Scene28: all23 prompts and12 pending SHA revised for animated lighting and sustained motion; GitHub/Pages verified,348 tests passed; zero generations.",
+        "next_action": "Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Задача №1: технические повторы без остановки очереди · 30.10.2026",
-          "sha256": "0defd4a4f9ce5d94b59650e8a97b4447b4cdd87bf9727bf2bf15127c77e923b1"
+          "anchor": "# Танцы28: светомузыка и непрерывное движение · 30.10.2026",
+          "sha256": "53dcbdaeeb933f347634726b26c0e220a53d86a66dc5f81eb256fe4c2deb93e8"
         },
         "evidence": [
           {
-            "file": "ops/TOPVIEW-RETRY.md",
-            "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
+            "file": "reports/scene28-light-motion-2026-10-30.json",
+            "sha256": "9338d91d11d92c92fb57d6f2dd6f223d3431d11102ce40e58871655965b3f90a"
           },
           {
-            "file": "reports/topview-retry-policy-2026-10-30.json",
-            "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b"
+            "file": "ops/TOPVIEW-RETRY.md",
+            "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
           }
         ],
         "read_next": [
           "ops/topview-launch-queue.json",
+          "reports/scene28-light-motion-2026-10-30.json",
           "ops/TOPVIEW-RETRY.md"
         ],
         "blockers": []
@@ -340,9 +341,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-29T23:39:59+00:00",
+      "updated_at": "2026-10-30T00:21:38+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
+      "next_action": "Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -352,26 +353,27 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-29T23:39:59+00:00",
-        "last_completed": "Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.",
-        "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
+        "verified_at": "2026-10-30T00:21:38+00:00",
+        "last_completed": "Scene28: all23 prompts and12 pending SHA revised for animated lighting and sustained motion; GitHub/Pages verified,348 tests passed; zero generations.",
+        "next_action": "Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Задача №1: технические повторы без остановки очереди · 30.10.2026",
-          "sha256": "0defd4a4f9ce5d94b59650e8a97b4447b4cdd87bf9727bf2bf15127c77e923b1"
+          "anchor": "# Танцы28: светомузыка и непрерывное движение · 30.10.2026",
+          "sha256": "53dcbdaeeb933f347634726b26c0e220a53d86a66dc5f81eb256fe4c2deb93e8"
         },
         "evidence": [
           {
-            "file": "ops/TOPVIEW-RETRY.md",
-            "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
+            "file": "reports/scene28-light-motion-2026-10-30.json",
+            "sha256": "9338d91d11d92c92fb57d6f2dd6f223d3431d11102ce40e58871655965b3f90a"
           },
           {
-            "file": "reports/topview-retry-policy-2026-10-30.json",
-            "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b"
+            "file": "ops/TOPVIEW-RETRY.md",
+            "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
           }
         ],
         "read_next": [
           "ops/topview-launch-queue.json",
+          "reports/scene28-light-motion-2026-10-30.json",
           "ops/TOPVIEW-RETRY.md"
         ],
         "blockers": []
@@ -529,7 +531,14 @@
         "use_unlimit_mode": true
       },
       "retry_policy": "ops/TOPVIEW-RETRY.md",
-      "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json"
+      "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
+      "dance_prompt_revision_20261030": {
+        "status": "published_verified",
+        "report": "reports/scene28-light-motion-2026-10-30.json",
+        "commit": "2797025754b0506e9798706c97e06bb1c6151660",
+        "new_generations": 0,
+        "render_validation_pending": true
+      }
     },
     {
       "work_id": "CONTINUE-001",

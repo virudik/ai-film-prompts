@@ -4,7 +4,7 @@
   "scene_id": 28,
   "owner_instruction": "Внеси в промты предложенные изменения и по светомузыке и по твоим всем пунктам и движение почти замирает исправить",
   "base_commit": "74f40017ea8734df61bde71745f7c3f81a670c01",
-  "status": "validated_pending_publication",
+  "status": "published_verified",
   "review": {
     "scope": "Original A1/A2 videos sampled every 0.25s over the complete duration; no audio review or full-frame-rate playback claim.",
     "tasks": [
@@ -235,5 +235,32 @@
     "identities_reference_tokens_and_other_scenes_unchanged": true,
     "submitted_queue_entries_priorities_and_dependencies_unchanged": true
   },
-  "maintenance": "One superseded25Oct handoff line moved verbatim into archive/handoff-log.md; shared revision provenance stored once to keep live handoff/queue below size limits."
+  "maintenance": "One superseded25Oct handoff line moved verbatim into archive/handoff-log.md; shared revision provenance stored once to keep live handoff/queue below size limits.",
+  "verified_at": "2026-10-30T00:21:38Z",
+  "implementation_commit": "2797025754b0506e9798706c97e06bb1c6151660",
+  "publication": {
+    "github_readback": "All8 published file blob SHAs match;12 pending queue hashes rechecked against published master.",
+    "master_sha256": "4fe369dd82bab9d1353c743e3a82e40584e7aa9c085484807e31321e18da0f48",
+    "pages": [
+      {
+        "path": "video-prompts.md",
+        "http_status": 200,
+        "sha256": "4fe369dd82bab9d1353c743e3a82e40584e7aa9c085484807e31321e18da0f48",
+        "has_revision": true,
+        "animated_blocks": 23
+      },
+      {
+        "path": "project-status.json",
+        "http_status": 200,
+        "sha256": "2cf2219e254919a109f94a714debb21616ca36e20bacb3965a707eb5af7b3053",
+        "health": "ok",
+        "master_sha256": "4fe369dd82bab9d1353c743e3a82e40584e7aa9c085484807e31321e18da0f48"
+      }
+    ],
+    "pages_url": "https://virudik.github.io/ai-film-prompts/#scene-28",
+    "canonical_workflow_run": 40978497055,
+    "integration_workflow_run": 40978497360,
+    "pages_workflow_run": 40978665718,
+    "workflow_results": "success"
+  }
 }
