@@ -1,3 +1,16 @@
+# Почасовой цикл Topview и проверки A/B · 30.10.2026 09:55 МСК
+
+work_id: SEREGIUS-PLAN-20261023  
+work_id: TOPVIEW-SLOT-PRIORITY-20261024
+
+Полный read-only scan Topview:14 досок,20 страниц,950 задач,ошибок0. Активны ровно6/6 видео на My First Board, все Unlimited0/status=init: S60-P1 `025955aad2cf494da2b4104d26c36ed5`, S62-P1 `0de1f663432646d294f409a22e20a26e`, S59-P2 `b0915b04173c414e9ac08652d34b7852`, S52-R2-P1 `c65c30d8cbe14e9eadec886276e62471`, S48-P1 `8d7ff1e2de63478693778de29e0dd56e`, S42-P2 `4a1061e175054da2810ffef8ad9d31cd`. Свободных слотов0; Create/claim/retry/расходов0. S59-P2 и S62-P1 только наблюдались; ни у одной активной задачи нет подтверждённого fail, поэтому retry budget не тронут. S61-P1 остаётся ближайшей независимой готовой по свежей очереди, но слот не резервируется.
+
+Фаза A: self-heal=ok, открытых owner tasks для ChatGPT/any и допустимых просроченных Claude0; project-status health=ok, synced_at 06:50:31Z и свежий; canon-health=ok, warnings0. Фаза B: Gmail проверен с перекрытием24ч, состояние писем не менялось. Новые failure-уведомления `1a189e6d06d84901` и `1a189f7380be8714` сопоставлены с Canon health runs [40970259803](https://github.com/virudik/ai-film-prompts/actions/runs/40970259803) и [40972410786](https://github.com/virudik/ai-film-prompts/actions/runs/40972410786). Оба намеренно завершились failure только на шаге «New warning → e-mail the owner» после успешной проверки/публикации: queue достигла400/403 КБ. Последующие runs 40970496017 и 40972875131 успешны; далее canon-health остаётся успешным (включая40992857138), свежий canon-health=ok/0warnings. Причина уже устранена штатной очисткой; rerun и новый ремонт не нужны.
+
+Следующее действие: на следующем цикле fresh main и полный scan. При фактическом освобождении слота — живой priority/готовность и точный Unlimited0 preflight; подтверждённый технический fail только по ops/TOPVIEW-RETRY.md. Активные/неизвестные задачи не дублировать.
+
+---
+
 # Референсы рок-финала и варианты публики · 30.10.2026
 
 work_id: SEREGIUS-PLAN-20261023
