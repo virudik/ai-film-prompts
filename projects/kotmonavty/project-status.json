@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-29T22:53:48Z",
+  "synced_at": "2026-10-30T02:02:26Z",
   "revision_date": "30.10.2026",
   "master_declared_last_full_sync": "30.10.2026 · два готовых результата (2/22) и два платных запуска в обработке (4/9); полные промпты и параметры подтверждены; изображения не изменены",
   "canonical_master_sha256": "59d21fb29cf7c430eafefe6322f571f6c381e91ef2dffe98b3eed66cf6757ba4",
@@ -43,31 +43,31 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-29T09:59:55.142Z",
+    "snapshot_at": "2026-10-30T01:36:17.979Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 12.898,
+    "age_hours_at_status_build": 0.436,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "d30130420146114513c21e26c8852ef597623533b5d75e0c61139e3f24cd6f7a",
         "drive_copy_checked_at": "2026-10-29T09:59:55.142Z",
         "drive_copy_modified_at": "2026-10-29T09:59:44.310Z",
-        "github_blob": "ef8985855d209b2f7474bb186ec6ce3e43406417",
-        "mirror_sha256": "d30130420146114513c21e26c8852ef597623533b5d75e0c61139e3f24cd6f7a",
+        "github_blob": "92552ee0109b94a14c88035e26c3085e700edef8",
+        "mirror_sha256": "a87279a07bd9e1c97517e290bbd1c166675766bf63d8e39a5d5db30091436b61",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
         "drive_copy_sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
         "drive_copy_checked_at": "2026-10-29T09:59:55.142Z",
         "drive_copy_modified_at": "2026-10-28T09:41:24.837Z",
-        "github_blob": "aad5bdcbaddb1db70a9ef690efff33846179e63d",
-        "mirror_sha256": "fd2c8389816df3e0137039c07b2127d4220cfb5f4ea605bd08e6c4dfc9841562",
+        "github_blob": "0c54df9d0990a03868dcce8015e7744f10ca0c6f",
+        "mirror_sha256": "facf5e8d815e877745b8f9f1675cf531d28783f68b6421a0b2e04a66370f7537",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
@@ -84,10 +84,10 @@
         "drive_copy_sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
         "drive_copy_checked_at": "2026-10-29T09:59:55.142Z",
         "drive_copy_modified_at": "2026-10-28T09:41:29.692Z",
-        "github_blob": "42cadbf7061d14d760d2c80c1b1113923987187c",
-        "mirror_sha256": "a5813bc631df9432260f41be9f689f6a024fe5a815d99102bf8b5d62ac2eebeb",
+        "github_blob": "43e3aacf516cac0eb680b5871f7e6444fab8e5e1",
+        "mirror_sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
@@ -125,7 +125,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 12.898,
+      "age_hours": 0.436,
       "blocking": false
     },
     "topview_task_map": {
@@ -552,7 +552,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "30.10.2026",
-    "synced_at": "2026-10-29T22:53:48Z",
+    "synced_at": "2026-10-30T02:02:26Z",
     "canonical_master_sha256": "59d21fb29cf7c430eafefe6322f571f6c381e91ef2dffe98b3eed66cf6757ba4",
     "canonical_revision_sha256": "ef36e89a94ed8e87e4c7aa04fc048cf444fafbc3ca683fd5df502fb0c181b45d",
     "scene_count": 22,
