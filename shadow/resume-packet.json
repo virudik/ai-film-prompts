@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T15:41:28+00:00",
-  "source_head": "75099a8a73c3555e453cd830e1650f8a0cc1d5f3",
-  "source_fingerprint": "9138b87390db8507de3c8b90e7f008db6dfcfbb8e1a375b3f8278a7c84ab1da6",
+  "checked_at": "2026-10-30T15:57:38+00:00",
+  "source_head": "a8c1e6b0f794b9e98d172b86d62ecf812705d7a8",
+  "source_fingerprint": "1bdb649dc1ef95f0cb06f25d569aac6e5e1dec98345255ebaeb4772fddb99160",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -428,8 +428,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "96b0cc887a153dadbd698bec8698f892c8b1c86814d4fc4fd6caf35b65128665",
-      "bytes": 403376
+      "sha256": "161bf7d019ac075bb62ff1d5fcec1758d28a24af8569ab74475275900290cb7a",
+      "bytes": 403984
     },
     {
       "file": "project-status.json",
@@ -438,8 +438,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "9ac19879cc489524f2ed3f9b50f9fe923a603c1d4ebfa3a7625043bfc7f1e1bb",
-      "bytes": 51373
+      "sha256": "96a669878debe2f3c49a2ade269709242497c46876fd42610345e993a0719af1",
+      "bytes": 52993
     },
     {
       "file": "reports/final-music-reference-states-2026-10-30.json",
