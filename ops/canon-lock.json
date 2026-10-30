@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "S48-P3: референсы поездки Серёги и города, привязка к очереди",
-  "acquired_at": "2026-10-30T17:34:18.992Z",
-  "expires_at": null,
-  "released_at": "2026-10-30T17:37:14.602Z",
+  "task": "48.3: боковой ракурс лихой поездки к городу, открытая голова червя",
+  "acquired_at": "2026-10-30T17:43:18.471Z",
+  "expires_at": "2026-10-30T18:18:18.471Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
