@@ -3,14 +3,17 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-10-30T16:33:54+00:00",
-  "source_head": "969d9aba75e5492d8ee54578dc29ee9c803e2462",
-  "source_fingerprint": "db86c524444f5e814cb51a639ff62e300d4706401689ccdf9204c285c37668ca",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T17:04:08+00:00",
+  "source_head": "55233a9bf146504fa00539128d761ea2595ab80c",
+  "source_fingerprint": "867182132de4bfc5545acf19a785e5d5b77d7db98e3fddd494fd73784c99903a",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
+  ],
   "selected_work": {
     "work_id": "MISC-WAIT-MATERIALS",
     "title": "Разное — ожидание решения владельца",
@@ -163,8 +166,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
-      "bytes": 34953
+      "sha256": "791361e50aeacc697d4f25d6684991086fa1fa9f53e0ea8de1e4ea5de46c0972",
+      "bytes": 35325
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -203,7 +206,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "177cae78ecbf57f5cb2fc0582a1f76bd154f524d828035ac33b00030b9645273",
+      "sha256": "94b56da4bc90299fd14fd85bad1a76aad68d94dd07c3007017e8f799c930f257",
       "bytes": 21500
     },
     {
@@ -258,13 +261,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "eac8dcbf70d022adae3f86d82ea18f647400f1bd85511985ffc5af122c27d169",
-      "bytes": 34754
+      "sha256": "d0d54491ee9f0077a1a422e7d453279f18a8f92b488a9d8a4492366446edf3b0",
+      "bytes": 35126
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "7395cd6ea53f5d0e21ec040fd2db8c87e2207873763baaa3eee2c3159c88b731",
-      "bytes": 24169
+      "sha256": "896075ae1fede833dac1f2210efb48fbdc6be2035756943fe9a38ffb91dd923d",
+      "bytes": 24196
     },
     {
       "file": "video-prompts.md",
@@ -272,5 +275,5 @@
       "bytes": 1251167
     }
   ],
-  "packet_bytes": 5133
+  "packet_bytes": 5114
 }
