@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-25T13:36:26.001872Z",
+  "updated_at": "2026-10-30T00:44:14.760Z",
   "status": "READY",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "references": [
@@ -430,9 +430,9 @@
       "prompt": "51A",
       "canonical_block_label": "51A",
       "status": "READY",
-      "canonical_prompt_sha256": "1972b823a52e91c15b253785aa7c243b71ed059f409ed88c256fb465a9f7efc1",
-      "normalized_prompt_sha256": "fe2620006ff75d242faa1b86cbcdcbd1b306219a6f3673b47492e319549177d9",
-      "characters": 3900,
+      "canonical_prompt_sha256": "bbde37d3e5868addbcf936b549b9e0e5ca9d62a78745bd1bd3a4b9399a383535",
+      "normalized_prompt_sha256": "9fe4f69f52c13ed3ed4469f92cb3e65030c27353cea6d3e6a9c93da9f0d128e0",
+      "characters": 5533,
       "slots": [
         {
           "slot": "@Image1",
@@ -469,15 +469,16 @@
       "model": "Seedance 2.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
-      "queue_item_id": "S51A"
+      "queue_item_id": "S51A",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51 · Wan 3.0 часть 1",
       "canonical_block_label": "51 · Wan 3.0 часть 1",
       "status": "READY",
-      "canonical_prompt_sha256": "0d995b8660d9e482233fba57fe22cdf67a553ddd6ea14a55eed8b02ce82aedcd",
-      "normalized_prompt_sha256": "409a724f20e5ba8938772c27f9f3914992f6538c2b4a1e0a8ec928ffa383fcc0",
-      "characters": 3963,
+      "canonical_prompt_sha256": "5d9fea533d1e28d2365e9a2283f36d57adcab93620159f0439264069822865f9",
+      "normalized_prompt_sha256": "b42f4a50f33700b6582c31b6cf5140051de0f27b333e6e447ec8f458e42743c7",
+      "characters": 5700,
       "slots": [
         {
           "slot": "@Image1",
@@ -513,15 +514,16 @@
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "unselected_alternative"
+      "launch_readiness": "unselected_alternative",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51B",
       "canonical_block_label": "51B",
       "status": "READY",
-      "canonical_prompt_sha256": "59bea6beabb716e5426a8485684bb8ac3c68537b63e1d2ca180f733ad7a2b2ec",
-      "normalized_prompt_sha256": "f780d76ce7fd613add43ce08b7ff408573c363d133a37fdfaa0101c92564c10e",
-      "characters": 3936,
+      "canonical_prompt_sha256": "8f2d685b4d7b81a394fb33d0a832cecd92d3ec4969888607ced2040cabb84f99",
+      "normalized_prompt_sha256": "6c2eaabf3ecc68f1709794ecd88d44fd3fbdad1dc0499eba64a326cb36953b30",
+      "characters": 5569,
       "slots": [
         {
           "slot": "@Image1",
@@ -558,15 +560,16 @@
       "model": "Seedance 2.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
-      "queue_item_id": "S51B"
+      "queue_item_id": "S51B",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51 · Wan 3.0 часть 2",
       "canonical_block_label": "51 · Wan 3.0 часть 2",
       "status": "READY",
-      "canonical_prompt_sha256": "66a1bb4616462f6b4b72bad90259eba12df1d6ea5b61865009b36d672569af41",
-      "normalized_prompt_sha256": "4b22e86b5bc31e4182931d54d6dc5060990641e4e28d09eabccd1b09b65cda74",
-      "characters": 3999,
+      "canonical_prompt_sha256": "9d95d180c00f5b7032585a0a01e2924542337144f243b5ca051ad477d34b0c44",
+      "normalized_prompt_sha256": "fa51c05fa511ee4736cc6c172364053c5837cd36c44b5911518d81ad4cffadf8",
+      "characters": 5736,
       "slots": [
         {
           "slot": "@Image1",
@@ -602,15 +605,16 @@
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "unselected_alternative"
+      "launch_readiness": "unselected_alternative",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51C",
       "canonical_block_label": "51C",
       "status": "READY",
-      "canonical_prompt_sha256": "8617541232b986ea5830fe952dfad1fc184fed6dfc18c6572c14a52b49c37a2c",
-      "normalized_prompt_sha256": "ff6bdff53a7d15bf3c596d10f88158e8faeb325c60e03086cd1843cb98bed1c9",
-      "characters": 4222,
+      "canonical_prompt_sha256": "0ceaab0c4b399153a080833dbaf65a55dc4a4ebd927cf210ba766971e03cfb22",
+      "normalized_prompt_sha256": "7669f1f755062fec947c85b0de53eb63e1fdd7cb1fe944d0281fde9f6c13ceed",
+      "characters": 5806,
       "slots": [
         {
           "slot": "@Image1",
@@ -653,15 +657,16 @@
       "model": "Seedance 2.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
-      "queue_item_id": "S51C"
+      "queue_item_id": "S51C",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51 · Wan 3.0 часть 3",
       "canonical_block_label": "51 · Wan 3.0 часть 3",
       "status": "READY",
-      "canonical_prompt_sha256": "26a709bf7ebc1a84a69e8ba3180889eae4f77b8af35d334174986d3b870795ee",
-      "normalized_prompt_sha256": "e9e30d6a212f7c419154a26b0d359685070876ebdcb96dd1a4abe60fbaf5e012",
-      "characters": 4285,
+      "canonical_prompt_sha256": "811f611b0ac3cb9ce62d09d254bf5b040bc01787a99d6456c0249a6707e33074",
+      "normalized_prompt_sha256": "28388757dfbe56f1e077462a632a228335e35c541b8289d0fa3dd6e4df625eb2",
+      "characters": 5973,
       "slots": [
         {
           "slot": "@Image1",
@@ -703,15 +708,16 @@
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "unselected_alternative"
+      "launch_readiness": "unselected_alternative",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51D",
       "canonical_block_label": "51D",
       "status": "READY",
-      "canonical_prompt_sha256": "739bacf170d1f83a624b8f1ba61a1339f2669e90d345d02ae81d202d387673c2",
-      "normalized_prompt_sha256": "b1267f9b736b8b537d8ff2cfc34b6485f1fa3870bf443f12d0838a851ff10d35",
-      "characters": 4047,
+      "canonical_prompt_sha256": "5996597419d227c73edbabc3d5609f52cc3379923be6262abed3bc309d4b5fa1",
+      "normalized_prompt_sha256": "a835f62c2f4be6558b2d727675391db00a431b88849cea7100144e3420c8ea06",
+      "characters": 5680,
       "slots": [
         {
           "slot": "@Image1",
@@ -748,15 +754,16 @@
       "model": "Seedance 2.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
-      "queue_item_id": "S51D"
+      "queue_item_id": "S51D",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51 · Wan 3.0 часть 4",
       "canonical_block_label": "51 · Wan 3.0 часть 4",
       "status": "READY",
-      "canonical_prompt_sha256": "ccda43915d4d1d67da0516e1eb652ebe20039f1ca64069b4f9be9c873daf96d1",
-      "normalized_prompt_sha256": "a73025f44ca838e449c9f9ff194e8010a4b3258a6fc48c15718cab0b603f654e",
-      "characters": 4110,
+      "canonical_prompt_sha256": "b440af2eed9265fac8fcc360310de57b3e69f10401e04e9792233a140b9fa385",
+      "normalized_prompt_sha256": "34a204e3a755e437b381a704f10dabec67523a17bebd688c3e5f1486025012e4",
+      "characters": 5847,
       "slots": [
         {
           "slot": "@Image1",
@@ -792,15 +799,16 @@
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "unselected_alternative"
+      "launch_readiness": "unselected_alternative",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51E",
       "canonical_block_label": "51E",
       "status": "READY",
-      "canonical_prompt_sha256": "2bd2393ac915a40ee5b3df0186e39acf97796a5606509053339bff6a85856002",
-      "normalized_prompt_sha256": "ed559b5973ea0c6bab664c61a647dc94cfd6cc96a07d4c914d72c847c8ece9c4",
-      "characters": 4232,
+      "canonical_prompt_sha256": "d4c7db31f5e31ab232859f7feadb113bb1c008344cbf65701aef2541325c98a5",
+      "normalized_prompt_sha256": "e10a987c4087b21a64ae144e7d04c647a21cf210d323e36a1db6d5b3e1ab0cfe",
+      "characters": 5816,
       "slots": [
         {
           "slot": "@Image1",
@@ -837,15 +845,16 @@
       "model": "Seedance 2.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
-      "queue_item_id": "S51E"
+      "queue_item_id": "S51E",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51 · Wan 3.0 часть 5",
       "canonical_block_label": "51 · Wan 3.0 часть 5",
       "status": "READY",
-      "canonical_prompt_sha256": "d45dd1ca036966d6aa99d98c60ba531db8bf0c46f67ca09f9d36cd96e91e5c9e",
-      "normalized_prompt_sha256": "01afe2b7455c085367da745196329c6072c84a5e26d1589cd9ca89db2da8a182",
-      "characters": 4295,
+      "canonical_prompt_sha256": "54b2becd8e063d302e4701d5cd75107b1f6c7955d4183d334597c9c3273bf019",
+      "normalized_prompt_sha256": "50cd6618eca72c454188d3b9d5819ebb6e4082ba8dfd559b0317545db80384ed",
+      "characters": 5983,
       "slots": [
         {
           "slot": "@Image1",
@@ -881,15 +890,16 @@
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "unselected_alternative"
+      "launch_readiness": "unselected_alternative",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51F",
       "canonical_block_label": "51F",
       "status": "READY",
-      "canonical_prompt_sha256": "822a56de5c8a7387915f3f2dc9e89318c8cd965ec8d2766893e6f04ec4c85e31",
-      "normalized_prompt_sha256": "1ad2267a94e09afea5365051d5d662af1fa890416a5cc468308087f4a1b23b9f",
-      "characters": 4290,
+      "canonical_prompt_sha256": "c86548e38b5352a82e24f9dc78a46298d70c7813f4689aca7316078dcfc00351",
+      "normalized_prompt_sha256": "f75d757af205b82ef53293f3c8f54c5017a572baba1b2e9848100b84081b3e4f",
+      "characters": 5712,
       "slots": [
         {
           "slot": "@Image1",
@@ -926,15 +936,16 @@
       "model": "Seedance 2.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
-      "queue_item_id": "S51F"
+      "queue_item_id": "S51F",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     },
     {
       "prompt": "51 · Wan 3.0 часть 6",
       "canonical_block_label": "51 · Wan 3.0 часть 6",
       "status": "READY",
-      "canonical_prompt_sha256": "8327351dcf106cfb72ad0519fd692f07fd365411f3a5c7d2c5ced6dcbcf6fa97",
-      "normalized_prompt_sha256": "8e8acea762aa82febef2d83d81818e80651d6f13ec46c1a4e3cdd10dca5901ec",
-      "characters": 4353,
+      "canonical_prompt_sha256": "e3f1114d0567f676a7bbe9225466bfc68f5e7bb0152b608c58c636604975a2fb",
+      "normalized_prompt_sha256": "d2f3d302ef23bee6a44becbea918791dc08618e41d55bb4accfb5272dbb82139",
+      "characters": 5879,
       "slots": [
         {
           "slot": "@Image1",
@@ -970,7 +981,8 @@
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
-      "launch_readiness": "unselected_alternative"
+      "launch_readiness": "unselected_alternative",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
     }
   ],
   "site_published": {
@@ -994,7 +1006,7 @@
     "Safety for cats, tiny Ewok and fans",
     "Only owner-authorized queue; unlimited website, zero credits, one submit per item; no automatic editorial approval."
   ],
-  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
+  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
   "last_qc_at": "2026-10-25T13:19:17.275849Z",
   "superseded_pose_note": "Old three-musician S51 helpers remain in the gallery/history but are not loaded into the six-pair revision.",
   "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
@@ -1067,5 +1079,9 @@
     "status": "verified",
     "verified_at": "2026-10-16T23:11:53.447848+00:00",
     "evidence": "reports/reference-readiness-2026-10-17.json"
+  },
+  "prompt_revision_20261030": {
+    "report": "reports/final-music-number-2026-10-30.json",
+    "production_slots_changed": false
   }
 }

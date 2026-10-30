@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-25T13:10:48.355886Z",
+  "updated_at": "2026-10-30T00:44:14.760Z",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -434,8 +434,8 @@
     {
       "prompt": "49A",
       "status": "READY",
-      "canonical_prompt_sha256": "b74caf4a80ca0a8d76ed98321bb6a8d02aa3f61a413ac5b5153ea5cb8f771b64",
-      "characters": 4960,
+      "canonical_prompt_sha256": "be0a3b101ea73796c5af87dce7e503e68ab2291a1dac67c6bf8e433a7c9dcc0a",
+      "characters": 6200,
       "slots": [
         {
           "slot": "@Image1",
@@ -469,10 +469,10 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
-      "normalized_prompt_sha256": "6fa07769f2c70692798ab7d9577505cb6a5fad224eb5c459f5e76e332e719f54",
+      "normalized_prompt_sha256": "d834b734184c5a3ad48852043e5e60349a3e61d2f10be3ca668ad5d87a8f69b6",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256_before_20261025": "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705",
@@ -481,8 +481,8 @@
     {
       "prompt": "49B",
       "status": "READY",
-      "canonical_prompt_sha256": "b390dadd6e48a741701a428a296c2bb87d51206c4bdc6dc8754ac5efafdaaf34",
-      "characters": 5376,
+      "canonical_prompt_sha256": "82677079b799d1f40a4a39ebf9e6aba8d8121e0bfbb7dda65c92f7c35267b472",
+      "characters": 6525,
       "slots": [
         {
           "slot": "@Image1",
@@ -522,10 +522,10 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
-      "normalized_prompt_sha256": "3edf9ae3cad12f77878d3f0a02291115e8840080a70508596b70cfb525c83752",
+      "normalized_prompt_sha256": "628b4edaac79e78b9d35cf35b6c5258d0321866d30fabd4d250d58f08e7fd726",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256_before_20261025": "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc",
@@ -534,8 +534,8 @@
     {
       "prompt": "49C",
       "status": "READY",
-      "canonical_prompt_sha256": "b6e6ba4ceef6f05dfb27c6c0868a1e1745413724b3d198acf2551f05ad7225eb",
-      "characters": 5363,
+      "canonical_prompt_sha256": "5def36a3acc6c34ba405ecf6a01abc30dd6c7ed5a4710e53c7168050ce293ff2",
+      "characters": 6500,
       "slots": [
         {
           "slot": "@Image1",
@@ -575,10 +575,10 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
-      "normalized_prompt_sha256": "de237d64873ef423b874e18c98aab51d9bd7ea7580fa1afd411e0d4726540bc6",
+      "normalized_prompt_sha256": "10af344c025e52f443f2578f2a23cf5fb0a120fedd0e51d50cb278bc0499e9df",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256_before_20261025": "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c",
@@ -587,8 +587,8 @@
     {
       "prompt": "49D",
       "status": "READY",
-      "canonical_prompt_sha256": "40d101fb51e1e72bc7295e7b63ccf51672f9d8374fc68b413dd33db554f2efe1",
-      "characters": 5312,
+      "canonical_prompt_sha256": "b87aac336797635ef76a218128ff4d6a47d5e5aba1460077e41a58dac7ee8437",
+      "characters": 6449,
       "slots": [
         {
           "slot": "@Image1",
@@ -622,10 +622,10 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
-      "normalized_prompt_sha256": "6e9d808b7e164c81b92f8cba3082e087baf8d860603fbc486c83af351e5f2db4",
+      "normalized_prompt_sha256": "fe69ded313912fceb678caf69978b952f552088121e8c3f7f0d4224beedf307d",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256_before_20261025": "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34",
@@ -634,8 +634,8 @@
     {
       "prompt": "49E",
       "status": "READY",
-      "canonical_prompt_sha256": "f2af0965a9e26c82c58d3deba9b5f3fb087e56bfa0e7c71e72e0899da60c1f0a",
-      "characters": 5030,
+      "canonical_prompt_sha256": "5d934b04ae5e9ae895f8941d758603655189917546747460d3b31c6acea4a645",
+      "characters": 6202,
       "slots": [
         {
           "slot": "@Image1",
@@ -669,10 +669,10 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
-      "normalized_prompt_sha256": "1bf936fdb90ac5061936e4f3d3b7f9dc4d96e4250c86c79fc019d4a256b67c93",
+      "normalized_prompt_sha256": "5ea2afec26f614290dd6c8b452327863bcf1443843b6f741184d58dbcdd0c181",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256_before_20261025": "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0",
@@ -681,8 +681,8 @@
     {
       "prompt": "49F",
       "status": "READY",
-      "canonical_prompt_sha256": "a6e99b637c780951b02c37b835f29da52e82788734078fce2785e19ba735fc46",
-      "characters": 7598,
+      "canonical_prompt_sha256": "098e48e7cddd6a70b55fd514bb7426a526fadd383c7845226f909e913710c351",
+      "characters": 8815,
       "slots": [
         {
           "slot": "@Image1",
@@ -734,10 +734,10 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
-      "normalized_prompt_sha256": "1fd4833511697ea10d42f09041acdcb55d92614e2169616d96652aab525b586c",
+      "normalized_prompt_sha256": "c597bf5c35e67e4ff86875149d0297bc039adee0ba992121516811da6d76d620",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256_before_20261025": "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca",
@@ -812,12 +812,12 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "470913c43667d2246bf2bea7372b1a163709e106bf6374caee94d197e3fdeb97",
-      "normalized_prompt_sha256": "654326e7d8601def02d61b0de4e85b84f8412eceb113207aee998c153e67544c",
-      "characters": 7014,
+      "canonical_prompt_sha256": "6790e5b11a114ffb2c0c74fbe0c8104e49ef60ad9785785fe54ee8cabe23fd37",
+      "normalized_prompt_sha256": "cbdbb6b921c445a0b956facefc8daf8ebe5b846a333b2899f4242f30e3f39f5e",
+      "characters": 8587,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
       "status": "READY",
@@ -892,12 +892,12 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "794024b05c186c244be1e5c050fd492e2a5fa0b804c22f9d1d4da3acf61fc718",
-      "normalized_prompt_sha256": "b26e04cae41c31917b0946179aac1ee39e7ebc8a26e4c3ef71b630b7638c9331",
-      "characters": 7294,
+      "canonical_prompt_sha256": "f512bdf3eff57b999d50562dd63b81b778f8053e7acb32d178a26520b01ae283",
+      "normalized_prompt_sha256": "ebfe16c2bc12835ad51016e87d62a71545cabf02eb420602fb8994eebbc60d04",
+      "characters": 8852,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
       "status": "READY",
@@ -972,12 +972,12 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "12366217fb33dcf935785474c9ac18ae9ed4c7dc0e749af55ebab2095c2584b8",
-      "normalized_prompt_sha256": "122753d65885c7ff1662357c93f7553b15cd3d9a041d652e78194a9940fc4d4d",
-      "characters": 7964,
+      "canonical_prompt_sha256": "46e40545d80456203bfa82fd08b98501c5ca1dc5bf0f71e3769a3392afe6bfd2",
+      "normalized_prompt_sha256": "d145dcc8e06ce605b932d2ae93ca5a4ad29b0ff45b33616212fa6a5befe5d962",
+      "characters": 9635,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
       "status": "READY",
@@ -997,11 +997,15 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
+  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
   "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
   "prompt_revision_20261025": {
     "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
     "report": "reports/prompt-refresh-2026-10-25.md"
+  },
+  "prompt_revision_20261030": {
+    "report": "reports/final-music-number-2026-10-30.json",
+    "production_slots_changed": false
   }
 }

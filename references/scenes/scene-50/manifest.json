@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-25T13:10:48.355886Z",
+  "updated_at": "2026-10-30T00:44:14.760Z",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "ready",
   "references": [
@@ -110,8 +110,8 @@
   "prompt_reference_mapping": [
     {
       "prompt_id": "50A",
-      "canonical_prompt_sha256": "799f99805cfa40b3b11b76cee7c1d97cef09cb5772bbc056821aa65e411de8ae",
-      "characters": 3644,
+      "canonical_prompt_sha256": "04cb1e0dd1e701f54291d0c0aa5c7992ee4e07d32501dd5fb02166d6c1a1553b",
+      "characters": 4787,
       "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
@@ -147,10 +147,10 @@
       ],
       "prompt": "50A",
       "previous_prompt_sha256_before_20261020": "836877c4238947b15280dca301df8c20925747bc9d6734f084c20596618142dd",
-      "normalized_prompt_sha256": "3913225837276f24b230a96dbff64a067fb42d0f91f9dcfd77ba852be338a74a",
+      "normalized_prompt_sha256": "f3bd5841ef4b40eb95711e2a2d62ac23b40a54da9a15b95d206da0ac3e4db613",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "status": "READY",
       "previous_prompt_sha256_before_20261025": "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
@@ -158,8 +158,8 @@
     },
     {
       "prompt_id": "50B",
-      "canonical_prompt_sha256": "79b240f1f5d656af25a5b76d33d75f82d4a23323e72e55bccb139efa32ff0e17",
-      "characters": 3655,
+      "canonical_prompt_sha256": "0b7bbb53ad85e387c41c9585021b30eda7027f5f23e11180a003d7473d1d097d",
+      "characters": 4758,
       "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
@@ -195,10 +195,10 @@
       ],
       "prompt": "50B",
       "previous_prompt_sha256_before_20261020": "8e962cd7c5f6bc2c278367784ec0112591badd39fae7a60297063eb72d94019d",
-      "normalized_prompt_sha256": "05d737ef7554d6ce3d0164b8177594975a792c5d13b7abb1a7a61c71e9faabf9",
+      "normalized_prompt_sha256": "15041ad607f5117ec30c2792855455a42e83d04ab17b5b4a7c00af14ac68bfd5",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "status": "READY",
       "previous_prompt_sha256_before_20261025": "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
@@ -240,12 +240,12 @@
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "cc4c4dee80eec9786ddb0492751479a0b914feb14b8f6a6c5151190875fcc984",
-      "normalized_prompt_sha256": "95362b94ba018f9781e1b1d55b68ba1329061ea140c527781845cbb14fcbedab",
-      "characters": 4211,
+      "canonical_prompt_sha256": "4308a96cfc8beb888754919de7e33b1ec8fef944babfdffae25c9716196c370e",
+      "normalized_prompt_sha256": "8a0d8db9951b8179ddf9cf8b24b439cdd5a6d05f6c41b99c4f55f46c2fcb6a7a",
+      "characters": 5398,
       "duration_seconds": 30,
       "model": "Wan 3.0",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
       "status": "READY",
@@ -300,7 +300,7 @@
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   },
-  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
+  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
   "generated_fan_candidates": [
     {
       "variant": 1,
@@ -393,5 +393,21 @@
   "prompt_revision_20261025": {
     "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
     "report": "reports/prompt-refresh-2026-10-25.md"
+  },
+  "prompt_revision_20261030": {
+    "report": "reports/final-music-number-2026-10-30.json",
+    "production_slots_changed": false
+  },
+  "placement_options_20261030": {
+    "A": {
+      "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+      "status": "existing_selected_reference_reused"
+    },
+    "B": {
+      "status": "blocked_image_generation",
+      "prompt_file": "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
+      "empty_reverse_view": "references/scenes/scene-28/H28B-reverse-empty.png"
+    },
+    "selection": "owner_choice_pending; current production @Image5 unchanged"
   }
 }

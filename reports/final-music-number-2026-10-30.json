@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30T00:44:14.760Z",
+  "status": "validated_pending_publication",
+  "scenes": [
+    28,
+    49,
+    50,
+    51
+  ],
+  "group_title": "Финальный музыкально-танцевальный номер",
+  "changed_blocks": [
+    {
+      "label": "28 A1",
+      "previous_sha256": "bbef4476076e386a17176caf80e0652d1568aaf84712c2e5c80871c2d4c3f662",
+      "current_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
+      "characters": 5073
+    },
+    {
+      "label": "28 A2",
+      "previous_sha256": "be5b0329ca668590e6bef483e5548685112f94f53e97449b06624b9fc99b93e4",
+      "current_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
+      "characters": 5322
+    },
+    {
+      "label": "28 A3",
+      "previous_sha256": "e8f72d14e3db84871929687bc75385d0592e2701cfd6207f1edfde46c7ca4742",
+      "current_sha256": "3ae8f5be91c00a7eda50c4db3bb5bbbbab47c162eb7a1061e395295b40cf67f3",
+      "characters": 4923
+    },
+    {
+      "label": "28 A4",
+      "previous_sha256": "e1e319b872a74d44f0f2b796fad6789be809ccab022f512c36ec7e7cb62edf65",
+      "current_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
+      "characters": 4823
+    },
+    {
+      "label": "28 A5",
+      "previous_sha256": "ab0484aeecd17723a9ea13bcea0fc96049b07d741d00697e393e2d78282f5b7f",
+      "current_sha256": "938d3cb01d5d438a2dd98b940efb7b2ab16b4f3373e1d4b2de29fb8c81b4a081",
+      "characters": 4823
+    },
+    {
+      "label": "28 A6",
+      "previous_sha256": "ecdc9e8f44e3dd4dba9e7eddb9911f6324204022ab8240e7ad406ea68a3ce317",
+      "current_sha256": "f819e63371850fa773ceaca7720fb1b5feaf8051d7169c9fe984f9cdfc899d1f",
+      "characters": 5397
+    },
+    {
+      "label": "28 A7",
+      "previous_sha256": "be7b05d5de033310772d291a597221732be1a2addafe2ddcca560b7088177a23",
+      "current_sha256": "8c608514e1a03bf5b36798f18aa3f96b9af5a52c55589360940f958e44ee83da",
+      "characters": 5323
+    },
+    {
+      "label": "28 A8",
+      "previous_sha256": "d1ba1360f70a929d86d3a06050050622610ad9d273d0076858a6f3c7dd19e4c3",
+      "current_sha256": "a7ec1b1bdac01eff682f8644c8cff6f801b60f8f1c1980e15cbadc5c53a31f53",
+      "characters": 5729
+    },
+    {
+      "label": "28 A9",
+      "previous_sha256": "2604a7103206ac1530f9801bb79c4c80289e6847fb668a9751a820581272da00",
+      "current_sha256": "a972b5e38551a4be3b71888b0959f1b2398b583aaeea91474071d0b5150a942d",
+      "characters": 5853
+    },
+    {
+      "label": "28 A10",
+      "previous_sha256": "6e15f260290b0b4f3b810636da34c4dc18bbb4c0ae9ee6fb12d21d90ac672322",
+      "current_sha256": "9e541aa09e5bf073e6018154809f63f838aea7f8cf80a53a52be448de4b8ba03",
+      "characters": 6004
+    },
+    {
+      "label": "28 A11",
+      "previous_sha256": "53221ed1d4b01bb291648cfee91d844dc9912d89e0aa7550be7f24b9cd886c98",
+      "current_sha256": "b9b68e276d8481357cc6fb4553dd89084d6cc3c64e81d6bbd7b8902ecdd60ea7",
+      "characters": 6196
+    },
+    {
+      "label": "28 A12",
+      "previous_sha256": "45bdfbb8f9824100d589727fbb69e8686f7462f3a41b0400f9e0aa56f5a6443a",
+      "current_sha256": "8ac2aea2de627ace7ab902219e50cd70f02435a91169aadfe0cf54ef0e1d5f0c",
+      "characters": 5278
+    },
+    {
+      "label": "28 B1",
+      "previous_sha256": "784f6d6a1ed4828c4792e09b6637a77e3e2caf317aaeaa8c7fa6ac06f48cef5b",
+      "current_sha256": "e0a2e7634054364a3aa375b4b47e61dea88562808c3a65981d0ecdce89e0a4ee",
+      "characters": 5197
+    },
+    {
+      "label": "28 B2",
+      "previous_sha256": "e5402a186d213907eed30b6b091fb5f9a142567b72b72b3ceac713170fede2ba",
+      "current_sha256": "47a60bfd5d1d9edeb88f685367f825e2cc6fe01bd3f8b2d52e7c2b5e3ceaae86",
+      "characters": 5446
+    },
+    {
+      "label": "28 B3",
+      "previous_sha256": "ce4cfe51ed1a87d6be1c7917aea6e497abbc776f87f63a7d2ae3c41adbbc9b4e",
+      "current_sha256": "fcac13f6e77e635aec737136c4f41989324d2ba71c339491d4c6d0c465d7924a",
+      "characters": 5047
+    },
+    {
+      "label": "28 B4",
+      "previous_sha256": "572bae3c6c5d53f268135122fca783cb3044a80e7b48688398ba5e5ec7d35992",
+      "current_sha256": "ac8d2cb09a7e4be701725c1360c965498dae31ddbf7eb80d7ac87190471b77fc",
+      "characters": 4947
+    },
+    {
+      "label": "28 B5",
+      "previous_sha256": "29321dca2b09fce3e5b8c0eca44fde385bea7973531e899aeee380abc8b24cd4",
+      "current_sha256": "c11d1274738920fe7d68f502319d3769b8b8f0205096fce0a5df9ca0234543e0",
+      "characters": 4947
+    },
+    {
+      "label": "28 B6",
+      "previous_sha256": "e0d2f0d1f63627a189ac35c0f8b52096e371bf594cbbfdd8beb90e4644f42448",
+      "current_sha256": "04a7a561871317bd3181b12508871c862be809c510e795bad2b35dc38d61c3eb",
+      "characters": 5521
+    },
+    {
+      "label": "28 B7",
+      "previous_sha256": "7fa6d101f08a019032b3838e22675c18a677d4634edf012c68e5036720b49265",
+      "current_sha256": "415ebfd3cab2673c78090d7cbb8a771b8839130c3013042d303123dde62ebd33",
+      "characters": 5447
+    },
+    {
+      "label": "28 B8",
+      "previous_sha256": "a08f0fec351a0f3e981f29490a8997c36b849152445ea9d75c0e52d9e5f53552",
+      "current_sha256": "e587843e7b88fa84410fcbc1df545576ed762d4dbb6ed5ff91d4bdfab055c659",
+      "characters": 5853
+    },
+    {
+      "label": "28 B9",
+      "previous_sha256": "0861432fb8f84712230a2a02165be5a79fbdb65a4ffd49959b156daf3d000496",
+      "current_sha256": "3f6715397067bb1d7e32909d35a30b6fccb9b7db8e7604bf443f0249a4038f69",
+      "characters": 5977
+    },
+    {
+      "label": "28 B10",
+      "previous_sha256": "2fc7065b938e9a04b2b99e565e6af6882b2e774707c971c6ca0751866966dff1",
+      "current_sha256": "eda08e056de41c74cc370dee0b47e4195bf80d57633eb9f3ce34d7d39d9092ac",
+      "characters": 6128
+    },
+    {
+      "label": "28 B11",
+      "previous_sha256": "75cf71eef6f4bbfafdfc6adaf83d085ce4e0bdfb15eab083d7a5b19216b64a87",
+      "current_sha256": "b26655fa53d3710e84d94663e1784afe10cd5871a8faf13ce2b024b76cbf8d49",
+      "characters": 6991
+    },
+    {
+      "label": "49A",
+      "previous_sha256": "b74caf4a80ca0a8d76ed98321bb6a8d02aa3f61a413ac5b5153ea5cb8f771b64",
+      "current_sha256": "be0a3b101ea73796c5af87dce7e503e68ab2291a1dac67c6bf8e433a7c9dcc0a",
+      "characters": 6200
+    },
+    {
+      "label": "49B",
+      "previous_sha256": "b390dadd6e48a741701a428a296c2bb87d51206c4bdc6dc8754ac5efafdaaf34",
+      "current_sha256": "82677079b799d1f40a4a39ebf9e6aba8d8121e0bfbb7dda65c92f7c35267b472",
+      "characters": 6525
+    },
+    {
+      "label": "49C",
+      "previous_sha256": "b6e6ba4ceef6f05dfb27c6c0868a1e1745413724b3d198acf2551f05ad7225eb",
+      "current_sha256": "5def36a3acc6c34ba405ecf6a01abc30dd6c7ed5a4710e53c7168050ce293ff2",
+      "characters": 6500
+    },
+    {
+      "label": "49D",
+      "previous_sha256": "40d101fb51e1e72bc7295e7b63ccf51672f9d8374fc68b413dd33db554f2efe1",
+      "current_sha256": "b87aac336797635ef76a218128ff4d6a47d5e5aba1460077e41a58dac7ee8437",
+      "characters": 6449
+    },
+    {
+      "label": "49E",
+      "previous_sha256": "f2af0965a9e26c82c58d3deba9b5f3fb087e56bfa0e7c71e72e0899da60c1f0a",
+      "current_sha256": "5d934b04ae5e9ae895f8941d758603655189917546747460d3b31c6acea4a645",
+      "characters": 6202
+    },
+    {
+      "label": "49F",
+      "previous_sha256": "a6e99b637c780951b02c37b835f29da52e82788734078fce2785e19ba735fc46",
+      "current_sha256": "098e48e7cddd6a70b55fd514bb7426a526fadd383c7845226f909e913710c351",
+      "characters": 8815
+    },
+    {
+      "label": "49 · Wan 3.0 часть 1",
+      "previous_sha256": "470913c43667d2246bf2bea7372b1a163709e106bf6374caee94d197e3fdeb97",
+      "current_sha256": "6790e5b11a114ffb2c0c74fbe0c8104e49ef60ad9785785fe54ee8cabe23fd37",
+      "characters": 8587
+    },
+    {
+      "label": "49 · Wan 3.0 часть 2",
+      "previous_sha256": "794024b05c186c244be1e5c050fd492e2a5fa0b804c22f9d1d4da3acf61fc718",
+      "current_sha256": "f512bdf3eff57b999d50562dd63b81b778f8053e7acb32d178a26520b01ae283",
+      "characters": 8852
+    },
+    {
+      "label": "49 · Wan 3.0 часть 3",
+      "previous_sha256": "12366217fb33dcf935785474c9ac18ae9ed4c7dc0e749af55ebab2095c2584b8",
+      "current_sha256": "46e40545d80456203bfa82fd08b98501c5ca1dc5bf0f71e3769a3392afe6bfd2",
+      "characters": 9635
+    },
+    {
+      "label": "50A",
+      "previous_sha256": "799f99805cfa40b3b11b76cee7c1d97cef09cb5772bbc056821aa65e411de8ae",
+      "current_sha256": "04cb1e0dd1e701f54291d0c0aa5c7992ee4e07d32501dd5fb02166d6c1a1553b",
+      "characters": 4787
+    },
+    {
+      "label": "50B",
+      "previous_sha256": "79b240f1f5d656af25a5b76d33d75f82d4a23323e72e55bccb139efa32ff0e17",
+      "current_sha256": "0b7bbb53ad85e387c41c9585021b30eda7027f5f23e11180a003d7473d1d097d",
+      "characters": 4758
+    },
+    {
+      "label": "50 · Wan 3.0",
+      "previous_sha256": "cc4c4dee80eec9786ddb0492751479a0b914feb14b8f6a6c5151190875fcc984",
+      "current_sha256": "4308a96cfc8beb888754919de7e33b1ec8fef944babfdffae25c9716196c370e",
+      "characters": 5398
+    },
+    {
+      "label": "51A",
+      "previous_sha256": "1972b823a52e91c15b253785aa7c243b71ed059f409ed88c256fb465a9f7efc1",
+      "current_sha256": "bbde37d3e5868addbcf936b549b9e0e5ca9d62a78745bd1bd3a4b9399a383535",
+      "characters": 5533
+    },
+    {
+      "label": "51B",
+      "previous_sha256": "59bea6beabb716e5426a8485684bb8ac3c68537b63e1d2ca180f733ad7a2b2ec",
+      "current_sha256": "8f2d685b4d7b81a394fb33d0a832cecd92d3ec4969888607ced2040cabb84f99",
+      "characters": 5569
+    },
+    {
+      "label": "51C",
+      "previous_sha256": "8617541232b986ea5830fe952dfad1fc184fed6dfc18c6572c14a52b49c37a2c",
+      "current_sha256": "0ceaab0c4b399153a080833dbaf65a55dc4a4ebd927cf210ba766971e03cfb22",
+      "characters": 5806
+    },
+    {
+      "label": "51D",
+      "previous_sha256": "739bacf170d1f83a624b8f1ba61a1339f2669e90d345d02ae81d202d387673c2",
+      "current_sha256": "5996597419d227c73edbabc3d5609f52cc3379923be6262abed3bc309d4b5fa1",
+      "characters": 5680
+    },
+    {
+      "label": "51E",
+      "previous_sha256": "2bd2393ac915a40ee5b3df0186e39acf97796a5606509053339bff6a85856002",
+      "current_sha256": "d4c7db31f5e31ab232859f7feadb113bb1c008344cbf65701aef2541325c98a5",
+      "characters": 5816
+    },
+    {
+      "label": "51F",
+      "previous_sha256": "822a56de5c8a7387915f3f2dc9e89318c8cd965ec8d2766893e6f04ec4c85e31",
+      "current_sha256": "c86548e38b5352a82e24f9dc78a46298d70c7813f4689aca7316078dcfc00351",
+      "characters": 5712
+    },
+    {
+      "label": "51 · Wan 3.0 часть 1",
+      "previous_sha256": "0d995b8660d9e482233fba57fe22cdf67a553ddd6ea14a55eed8b02ce82aedcd",
+      "current_sha256": "5d9fea533d1e28d2365e9a2283f36d57adcab93620159f0439264069822865f9",
+      "characters": 5700
+    },
+    {
+      "label": "51 · Wan 3.0 часть 2",
+      "previous_sha256": "66a1bb4616462f6b4b72bad90259eba12df1d6ea5b61865009b36d672569af41",
+      "current_sha256": "9d95d180c00f5b7032585a0a01e2924542337144f243b5ca051ad477d34b0c44",
+      "characters": 5736
+    },
+    {
+      "label": "51 · Wan 3.0 часть 3",
+      "previous_sha256": "26a709bf7ebc1a84a69e8ba3180889eae4f77b8af35d334174986d3b870795ee",
+      "current_sha256": "811f611b0ac3cb9ce62d09d254bf5b040bc01787a99d6456c0249a6707e33074",
+      "characters": 5973
+    },
+    {
+      "label": "51 · Wan 3.0 часть 4",
+      "previous_sha256": "ccda43915d4d1d67da0516e1eb652ebe20039f1ca64069b4f9be9c873daf96d1",
+      "current_sha256": "b440af2eed9265fac8fcc360310de57b3e69f10401e04e9792233a140b9fa385",
+      "characters": 5847
+    },
+    {
+      "label": "51 · Wan 3.0 часть 5",
+      "previous_sha256": "d45dd1ca036966d6aa99d98c60ba531db8bf0c46f67ca09f9d36cd96e91e5c9e",
+      "current_sha256": "54b2becd8e063d302e4701d5cd75107b1f6c7955d4183d334597c9c3273bf019",
+      "characters": 5983
+    },
+    {
+      "label": "51 · Wan 3.0 часть 6",
+      "previous_sha256": "8327351dcf106cfb72ad0519fd692f07fd365411f3a5c7d2c5ced6dcbcf6fa97",
+      "current_sha256": "e3f1114d0567f676a7bbe9225466bfc68f5e7bb0152b608c58c636604975a2fb",
+      "characters": 5879
+    }
+  ],
+  "updated_queue_items": [
+    {
+      "id": "S49A",
+      "block": "49A",
+      "previous_prompt_sha256": "b74caf4a80ca0a8d76ed98321bb6a8d02aa3f61a413ac5b5153ea5cb8f771b64",
+      "current_prompt_sha256": "be0a3b101ea73796c5af87dce7e503e68ab2291a1dac67c6bf8e433a7c9dcc0a"
+    },
+    {
+      "id": "S49B",
+      "block": "49B",
+      "previous_prompt_sha256": "b390dadd6e48a741701a428a296c2bb87d51206c4bdc6dc8754ac5efafdaaf34",
+      "current_prompt_sha256": "82677079b799d1f40a4a39ebf9e6aba8d8121e0bfbb7dda65c92f7c35267b472"
+    },
+    {
+      "id": "S49C",
+      "block": "49C",
+      "previous_prompt_sha256": "b6e6ba4ceef6f05dfb27c6c0868a1e1745413724b3d198acf2551f05ad7225eb",
+      "current_prompt_sha256": "5def36a3acc6c34ba405ecf6a01abc30dd6c7ed5a4710e53c7168050ce293ff2"
+    },
+    {
+      "id": "S49D",
+      "block": "49D",
+      "previous_prompt_sha256": "40d101fb51e1e72bc7295e7b63ccf51672f9d8374fc68b413dd33db554f2efe1",
+      "current_prompt_sha256": "b87aac336797635ef76a218128ff4d6a47d5e5aba1460077e41a58dac7ee8437"
+    },
+    {
+      "id": "S49E",
+      "block": "49E",
+      "previous_prompt_sha256": "f2af0965a9e26c82c58d3deba9b5f3fb087e56bfa0e7c71e72e0899da60c1f0a",
+      "current_prompt_sha256": "5d934b04ae5e9ae895f8941d758603655189917546747460d3b31c6acea4a645"
+    },
+    {
+      "id": "S49F",
+      "block": "49F",
+      "previous_prompt_sha256": "a6e99b637c780951b02c37b835f29da52e82788734078fce2785e19ba735fc46",
+      "current_prompt_sha256": "098e48e7cddd6a70b55fd514bb7426a526fadd383c7845226f909e913710c351"
+    },
+    {
+      "id": "S51A",
+      "block": "51A",
+      "previous_prompt_sha256": "1972b823a52e91c15b253785aa7c243b71ed059f409ed88c256fb465a9f7efc1",
+      "current_prompt_sha256": "bbde37d3e5868addbcf936b549b9e0e5ca9d62a78745bd1bd3a4b9399a383535"
+    },
+    {
+      "id": "S51B",
+      "block": "51B",
+      "previous_prompt_sha256": "59bea6beabb716e5426a8485684bb8ac3c68537b63e1d2ca180f733ad7a2b2ec",
+      "current_prompt_sha256": "8f2d685b4d7b81a394fb33d0a832cecd92d3ec4969888607ced2040cabb84f99"
+    },
+    {
+      "id": "S51C",
+      "block": "51C",
+      "previous_prompt_sha256": "8617541232b986ea5830fe952dfad1fc184fed6dfc18c6572c14a52b49c37a2c",
+      "current_prompt_sha256": "0ceaab0c4b399153a080833dbaf65a55dc4a4ebd927cf210ba766971e03cfb22"
+    },
+    {
+      "id": "S51D",
+      "block": "51D",
+      "previous_prompt_sha256": "739bacf170d1f83a624b8f1ba61a1339f2669e90d345d02ae81d202d387673c2",
+      "current_prompt_sha256": "5996597419d227c73edbabc3d5609f52cc3379923be6262abed3bc309d4b5fa1"
+    },
+    {
+      "id": "S51E",
+      "block": "51E",
+      "previous_prompt_sha256": "2bd2393ac915a40ee5b3df0186e39acf97796a5606509053339bff6a85856002",
+      "current_prompt_sha256": "d4c7db31f5e31ab232859f7feadb113bb1c008344cbf65701aef2541325c98a5"
+    },
+    {
+      "id": "S51F",
+      "block": "51F",
+      "previous_prompt_sha256": "822a56de5c8a7387915f3f2dc9e89318c8cd965ec8d2766893e6f04ec4c85e31",
+      "current_prompt_sha256": "c86548e38b5352a82e24f9dc78a46298d70c7813f4689aca7316078dcfc00351"
+    },
+    {
+      "id": "S50A",
+      "block": "50A",
+      "previous_prompt_sha256": "799f99805cfa40b3b11b76cee7c1d97cef09cb5772bbc056821aa65e411de8ae",
+      "current_prompt_sha256": "04cb1e0dd1e701f54291d0c0aa5c7992ee4e07d32501dd5fb02166d6c1a1553b"
+    },
+    {
+      "id": "S50B",
+      "block": "50B",
+      "previous_prompt_sha256": "79b240f1f5d656af25a5b76d33d75f82d4a23323e72e55bccb139efa32ff0e17",
+      "current_prompt_sha256": "0b7bbb53ad85e387c41c9585021b30eda7027f5f23e11180a003d7473d1d097d"
+    },
+    {
+      "id": "S28-A3-20261023",
+      "block": "28 A3",
+      "previous_prompt_sha256": "e8f72d14e3db84871929687bc75385d0592e2701cfd6207f1edfde46c7ca4742",
+      "current_prompt_sha256": "3ae8f5be91c00a7eda50c4db3bb5bbbbab47c162eb7a1061e395295b40cf67f3"
+    },
+    {
+      "id": "S28-A4-20261023",
+      "block": "28 A4",
+      "previous_prompt_sha256": "e1e319b872a74d44f0f2b796fad6789be809ccab022f512c36ec7e7cb62edf65",
+      "current_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7"
+    },
+    {
+      "id": "S28-A5-20261023",
+      "block": "28 A5",
+      "previous_prompt_sha256": "ab0484aeecd17723a9ea13bcea0fc96049b07d741d00697e393e2d78282f5b7f",
+      "current_prompt_sha256": "938d3cb01d5d438a2dd98b940efb7b2ab16b4f3373e1d4b2de29fb8c81b4a081"
+    },
+    {
+      "id": "S28-A6-20261023",
+      "block": "28 A6",
+      "previous_prompt_sha256": "ecdc9e8f44e3dd4dba9e7eddb9911f6324204022ab8240e7ad406ea68a3ce317",
+      "current_prompt_sha256": "f819e63371850fa773ceaca7720fb1b5feaf8051d7169c9fe984f9cdfc899d1f"
+    },
+    {
+      "id": "S28-A7-20261023",
+      "block": "28 A7",
+      "previous_prompt_sha256": "be7b05d5de033310772d291a597221732be1a2addafe2ddcca560b7088177a23",
+      "current_prompt_sha256": "8c608514e1a03bf5b36798f18aa3f96b9af5a52c55589360940f958e44ee83da"
+    },
+    {
+      "id": "S28-A8-20261023",
+      "block": "28 A8",
+      "previous_prompt_sha256": "d1ba1360f70a929d86d3a06050050622610ad9d273d0076858a6f3c7dd19e4c3",
+      "current_prompt_sha256": "a7ec1b1bdac01eff682f8644c8cff6f801b60f8f1c1980e15cbadc5c53a31f53"
+    },
+    {
+      "id": "S28-A9-20261023",
+      "block": "28 A9",
+      "previous_prompt_sha256": "2604a7103206ac1530f9801bb79c4c80289e6847fb668a9751a820581272da00",
+      "current_prompt_sha256": "a972b5e38551a4be3b71888b0959f1b2398b583aaeea91474071d0b5150a942d"
+    },
+    {
+      "id": "S28-A10-20261023",
+      "block": "28 A10",
+      "previous_prompt_sha256": "6e15f260290b0b4f3b810636da34c4dc18bbb4c0ae9ee6fb12d21d90ac672322",
+      "current_prompt_sha256": "9e541aa09e5bf073e6018154809f63f838aea7f8cf80a53a52be448de4b8ba03"
+    },
+    {
+      "id": "S28-A11-20261023",
+      "block": "28 A11",
+      "previous_prompt_sha256": "53221ed1d4b01bb291648cfee91d844dc9912d89e0aa7550be7f24b9cd886c98",
+      "current_prompt_sha256": "b9b68e276d8481357cc6fb4553dd89084d6cc3c64e81d6bbd7b8902ecdd60ea7"
+    },
+    {
+      "id": "S28-A12-20261023",
+      "block": "28 A12",
+      "previous_prompt_sha256": "45bdfbb8f9824100d589727fbb69e8686f7462f3a41b0400f9e0aa56f5a6443a",
+      "current_prompt_sha256": "8ac2aea2de627ace7ab902219e50cd70f02435a91169aadfe0cf54ef0e1d5f0c"
+    },
+    {
+      "id": "S28-A1-R2-20261025",
+      "block": "28 A1",
+      "previous_prompt_sha256": "bbef4476076e386a17176caf80e0652d1568aaf84712c2e5c80871c2d4c3f662",
+      "current_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab"
+    },
+    {
+      "id": "S28-A2-R2-20261025",
+      "block": "28 A2",
+      "previous_prompt_sha256": "be5b0329ca668590e6bef483e5548685112f94f53e97449b06624b9fc99b93e4",
+      "current_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286"
+    }
+  ],
+  "submitted_revision_links": [
+    {
+      "queue_item_id": "S28-A1-TEST-20261017",
+      "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+      "block": "28 A1",
+      "submitted_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
+      "current_master_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
+      "provider_payload_changed": false
+    },
+    {
+      "queue_item_id": "S28-A2-20261023",
+      "task_id": "8a8eadc809004e318c47201b8a463be0",
+      "block": "28 A2",
+      "submitted_prompt_sha256": "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
+      "current_master_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
+      "provider_payload_changed": false
+    },
+    {
+      "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
+      "block": "28 A1",
+      "current_master_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "721cfbef2af0479da57f0a52479d2f54",
+      "block": "28 B1",
+      "current_master_prompt_sha256": "e0a2e7634054364a3aa375b4b47e61dea88562808c3a65981d0ecdce89e0a4ee",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+      "block": "28 A2",
+      "current_master_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+      "block": "28 B2",
+      "current_master_prompt_sha256": "47a60bfd5d1d9edeb88f685367f825e2cc6fe01bd3f8b2d52e7c2b5e3ceaae86",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "d3844e4199d64abebe323be430a5cb35",
+      "block": "28 B4",
+      "current_master_prompt_sha256": "ac8d2cb09a7e4be701725c1360c965498dae31ddbf7eb80d7ac87190471b77fc",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "f88eee8ea93242309b71621e354ccac2",
+      "block": "28 B5",
+      "current_master_prompt_sha256": "c11d1274738920fe7d68f502319d3769b8b8f0205096fce0a5df9ca0234543e0",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
+      "block": "28 B6",
+      "current_master_prompt_sha256": "04a7a561871317bd3181b12508871c862be809c510e795bad2b35dc38d61c3eb",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "979f07acffe04750961515f4baf21a3f",
+      "block": "28 B7",
+      "current_master_prompt_sha256": "415ebfd3cab2673c78090d7cbb8a771b8839130c3013042d303123dde62ebd33",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "5333994f739f4a8b813a6a36dcb7e140",
+      "block": "28 B8",
+      "current_master_prompt_sha256": "e587843e7b88fa84410fcbc1df545576ed762d4dbb6ed5ff91d4bdfab055c659",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "56c0ea656f484b0cb8464233fe097e0d",
+      "block": "28 B3",
+      "current_master_prompt_sha256": "fcac13f6e77e635aec737136c4f41989324d2ba71c339491d4c6d0c465d7924a",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    },
+    {
+      "task_id": "0d1f17c226834bfbb851d76ed32f9877",
+      "block": "28 B9",
+      "current_master_prompt_sha256": "3f6715397067bb1d7e32909d35a30b6fccb9b7db8e7604bf443f0249a4038f69",
+      "provider_payload_changed": false,
+      "actual_submission_source": "existing receipts / git history; unchanged"
+    }
+  ],
+  "history_policy": "Existing task payloads, actual sent hashes, receipts and old results remain unchanged; current master revisions apply to future authorized runs. No cancellations or extra submissions.",
+  "production_reference_slots_changed": false,
+  "image_status": {
+    "option_A": {
+      "status": "existing_selected_reference_reused",
+      "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+      "new_generation_attempts": 2,
+      "attempt_outcome": "moderation_blocked"
+    },
+    "option_B": {
+      "status": "blocked_image_generation",
+      "prompt_file": "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
+      "new_generation_attempts": 2,
+      "attempt_outcome": "moderation_blocked",
+      "png_created": false,
+      "alternative_edit_attempt": {
+        "prompt": "Edit the existing approved concert-fan image (image 1), using image 2 as the exact new background. This is a continuity edit for the same film scene, not a redesign of the Wookiee characters. Preserve the existing Wookiees, their faces, long fur, anatomy, bandoliers, raised-paw poses and individual differences. Place this same group in the audience half of the reverse-view hangar from image 2, slightly farther back beyond the central circular floor medallion. Leave a visible empty performance-floor gap in the foreground. They face the off-camera performers at the camera position. Preserve the closed interior bulkhead, small central service door, side-wall ribs, white wall lights, ceiling spotlights, dark satin tiles and cyan/magenta/amber light from image 2. Do not show the space portal, planet or shuttle: those are behind the camera in this view. Match floor perspective, realistic shadows, neutral readable faces and coloured floor reflections. Single 16:9 photoreal cinematic frame, no added people, no instruments, no raised stage, no captions or watermark.",
+        "request_id": "a924ddcb-36a1-427c-96a8-c777a7a263bc",
+        "outcome": "moderation_blocked",
+        "method": "edit_existing_selected_fans_into_reverse_view"
+      }
+    },
+    "reverse_environment": {
+      "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+      "asset_id": "references/scenes/scene-28/H28B-reverse-empty.png",
+      "caption": "Обратный вид ангара H28B без зрителей — постановочное предложение",
+      "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed",
+      "bytes": 2352063,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "role": "reverse_location_proposal_not_production_input",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "created_at": "2026-10-30T00:44:14.760Z",
+      "generation_method": "ChatGPT built-in imagegen",
+      "prompt_file": "references/scenes/scene-28/H28B-reverse-empty.image-prompt.txt",
+      "prompt_sha256": "c761495fdfbeaffa693be280c18c55a34b4547b9ca30440df05ab563e27aa684",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_as_proposal",
+        "checked_at": "2026-10-30T00:44:14.760Z",
+        "scope": "Visually checked: same graphite ribs, white wall strips, ceiling grid, floor medallion/LED lanes; closed interior bulkhead and service door replace space-facing view. No people, second space portal or relocated shuttle. Previously unseen reverse wall is a proposed design, not owner-approved geometry."
+      },
+      "usage": "gallery_only_until_owner_choice",
+      "site_published": {
+        "linked_in_master": true,
+        "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+        "status": "pending_publication"
+      },
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "matches_16_9_with_rounding": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      }
+    },
+    "failed_requests": [
+      "69c05c7e-7513-4917-b961-93438bee7248",
+      "64d9c402-2c7f-4f09-8c8e-b90017449e95",
+      "972855ea-bc08-4e88-a293-035052e4f6d5",
+      "a924ddcb-36a1-427c-96a8-c777a7a263bc"
+    ]
+  },
+  "video_launches": 0,
+  "topview_paid_operations": 0,
+  "checks": {
+    "unchanged_other_blocks": true,
+    "submitted_items_unchanged": true,
+    "queue_order_and_dependencies_unchanged": true,
+    "image_variants_not_required": true,
+    "unit_tests": {
+      "passed": 348,
+      "failed": 0
+    },
+    "site_contract": "passed",
+    "master_health": "ok",
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0
+    },
+    "all47_manifest_prompt_hashes_match": true,
+    "all47_image_video_slot_tokens_unchanged": true,
+    "semantic_light_check": "No static-light prohibition. A9/B9 remain steady refers only to torso and support.",
+    "new_image_sha256_verified": true,
+    "new_image_has_thumbnail": true,
+    "submitted_revision_link_count": 13
+  },
+  "remaining": [
+    "Generate option B audience composition when image generator permits; then owner selects placement.",
+    "Inspect future authorized video results for actual light changes, sustained performer movement, faces/contacts and coherent camera motion."
+  ],
+  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1"
+}

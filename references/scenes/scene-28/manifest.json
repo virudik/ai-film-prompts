@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-27T12:17:53Z",
+  "updated_at": "2026-10-30T00:44:14.760Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -714,11 +714,57 @@
         "gallery_verified": true,
         "thumbnail_loaded": true
       }
+    },
+    {
+      "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+      "asset_id": "references/scenes/scene-28/H28B-reverse-empty.png",
+      "caption": "Обратный вид ангара H28B без зрителей — постановочное предложение",
+      "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed",
+      "bytes": 2352063,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "role": "reverse_location_proposal_not_production_input",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "created_at": "2026-10-30T00:44:14.760Z",
+      "generation_method": "ChatGPT built-in imagegen",
+      "prompt_file": "references/scenes/scene-28/H28B-reverse-empty.image-prompt.txt",
+      "prompt_sha256": "c761495fdfbeaffa693be280c18c55a34b4547b9ca30440df05ab563e27aa684",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_as_proposal",
+        "checked_at": "2026-10-30T00:44:14.760Z",
+        "scope": "Visually checked: same graphite ribs, white wall strips, ceiling grid, floor medallion/LED lanes; closed interior bulkhead and service door replace space-facing view. No people, second space portal or relocated shuttle. Previously unseen reverse wall is a proposed design, not owner-approved geometry."
+      },
+      "usage": "gallery_only_until_owner_choice",
+      "site_published": {
+        "linked_in_master": true,
+        "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+        "status": "pending_publication"
+      },
+      "aspect_check": {
+        "requested": "16:9",
+        "actual_dimensions": [
+          1672,
+          941
+        ],
+        "matches_16_9_with_rounding": true,
+        "original_bytes_preserved": true,
+        "cropped_or_resized": false
+      }
     }
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "da4b477ad97066d3b9685fe055e2c624dd6d891542f1ec8d4e053391d5dbe7c8",
+  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
   "identity_refs": [
     "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
     "references/full/serega.jpg",
@@ -823,8 +869,8 @@
     {
       "prompt_id": "A1",
       "canonical_heading": "A1 · Танец 1 — Серёга и Юля задают устав",
-      "canonical_prompt_sha256": "168c78cd3861f6ccf648eacd3e259d391a4f9ad3bd07dd191bf02b50d71a478b",
-      "characters": 3903,
+      "canonical_prompt_sha256": "4ae5aaefdf42c4cb003eba540a47439dc7657b7f4b24f8b4ed9cd1b6524254ab",
+      "characters": 5073,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -849,12 +895,12 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_inputs",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "6f5a8629275dbe61673a7f8ec6099385df7458187914aeefdd5537f1a8abe367",
       "previous_prompt_sha256_before_20261020": "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
-      "normalized_prompt_sha256": "f577e8a0bde3d94a9681e28a3d28045f63791354c04a6ff6abd2d9b584bfb681",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "a20f0559fa71be25af94d2df1aa1e5f3d98be7cf9753a9f8a6f7b601a0afb82c",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "queue_item_id": "S28-A1-R2-20261025",
       "previous_prompt_sha256_before_20261025": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
@@ -870,8 +916,8 @@
     {
       "prompt_id": "A2",
       "canonical_heading": "A2 · Танец 2 — Взаимные жесты у лица",
-      "canonical_prompt_sha256": "a2c3a34b501d1dc4907d15a91b93a896e6cbc76a9393f9a9271aca58ac3a87fa",
-      "characters": 3891,
+      "canonical_prompt_sha256": "f9b7c8b25cdd8cbf0794a6477b75d8e3933ded1c310e64835f3ff5c7f8345286",
+      "characters": 5322,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -902,12 +948,12 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_inputs",
+      "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "57802b65a93af3477e594b9c99f381ccd2cbf5a0de1e10cef29b5ffca8177148",
       "previous_prompt_sha256_before_20261020": "e223a577967009cbe0a7ceb5e91e6ad42870b6a388d061a6338b51b9a2667b82",
-      "normalized_prompt_sha256": "644ba597ecc274ed47aa2fe4a24e8746c81a39c3ed2dcdbf8ad65f35d994c2ba",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "c954e5d931b776add7de7bf1916a6a12c621cff30edb5d8b7cbcc19ebb95726d",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -925,8 +971,8 @@
     {
       "prompt_id": "A3",
       "canonical_heading": "A3 · Танец 3 — Невозмутимый разъезд",
-      "canonical_prompt_sha256": "4ad12470bbeb66a297955580c8f7da31861092cd2a6083584674870aa4cd23c1",
-      "characters": 3967,
+      "canonical_prompt_sha256": "3ae8f5be91c00a7eda50c4db3bb5bbbbab47c162eb7a1061e395295b40cf67f3",
+      "characters": 4923,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -961,8 +1007,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "748a154f80e34cdfcaaf5fcc87e156193368f78913ec2d6919f1fd252ea13156",
       "previous_prompt_sha256_before_20261020": "0a160ab4e05c72a4692727b2f8e743ba811b554ca07f3641597b9b401624267b",
-      "normalized_prompt_sha256": "c71eeb8d1b905a0239371be9cf7ba2a93309652a463c893d306580870fdca0e6",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "db4f575648439339ea505a894c6ff83d91cbb54a22e61b3c4c2181bb072bc6fc",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -973,8 +1019,8 @@
     {
       "prompt_id": "A4",
       "canonical_heading": "A4 · Танец 4 — Паша и Саша: джедайский устав",
-      "canonical_prompt_sha256": "f0002100d788d6c7d390b3c5f3096ebc9cdac7b015d8f1c20ec35f44d3771e75",
-      "characters": 3758,
+      "canonical_prompt_sha256": "58a35e7fcf3c9cf21693f730bda492729fea678abd8f918a644c6eb0a3fa53e7",
+      "characters": 4823,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1003,8 +1049,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "856568f2ff303b18fe86b7e57a70e6febd27862fa71d0f138ef4f3037238983c",
       "previous_prompt_sha256_before_20261020": "b7b943b0548eccffc0acdb3854ae7858125adea21b77a2294080e4b7ede17549",
-      "normalized_prompt_sha256": "a61c9e39c236b7bfe927eed42e3e87ee8388f3feed7f551839e4852d79448bd0",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "af54a74de6f46231c0fd0bbb27cc6fc1668175903a9668784f35bd065ee2d36b",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1015,8 +1061,8 @@
     {
       "prompt_id": "A5",
       "canonical_heading": "A5 · Танец 5 — Артём и Илюша: заводные церемониальные фигуры",
-      "canonical_prompt_sha256": "39fd8522618e92a54a4723b57f55f77576165c8b58d788bde55278e360100a7e",
-      "characters": 3758,
+      "canonical_prompt_sha256": "938d3cb01d5d438a2dd98b940efb7b2ab16b4f3373e1d4b2de29fb8c81b4a081",
+      "characters": 4823,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1045,8 +1091,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "f186f3bbd0b74b3550cf71c8d96fc0496d9399122b319d92f2e11c41e2acae86",
       "previous_prompt_sha256_before_20261020": "cb21c145f80319354712d12e607d38d353fe0b741354223bbc131ca5b724f592",
-      "normalized_prompt_sha256": "75b6aea907991695f7979f42743dd78dc35004085f68d8761a95ea86c00b1844",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "378c7ae0f237f0c0ca2ab2a4f6089d940c8f2052148751281858643009188027",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1057,8 +1103,8 @@
     {
       "prompt_id": "A6",
       "canonical_heading": "A6 · Танец 6 — Маша, Лёша и Виталик: торжественный сбой",
-      "canonical_prompt_sha256": "03e3e48977b61a80f6ab13be61822aff613c74cbd9ddb590ff40c7d13d5cee62",
-      "characters": 4332,
+      "canonical_prompt_sha256": "f819e63371850fa773ceaca7720fb1b5feaf8051d7169c9fe984f9cdfc899d1f",
+      "characters": 5397,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1093,8 +1139,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "4daa1e7cb1ed19b11283ffbf46fa004972ce815317a7403697689aad89f22f0d",
       "previous_prompt_sha256_before_20261020": "8a0b003fa2b7d892307c5e16112105f4767097a8517f956e0b5fa7d22490d609",
-      "normalized_prompt_sha256": "52115ffb212a746cda976cff250c9e1891664cfdd4e873d52f3e50a0463a66a0",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "80cf42e08bb7aaf8e95031b89a11457dc5e43d77f4ba0a9ac865c12c17faaa72",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1105,8 +1151,8 @@
     {
       "prompt_id": "A7",
       "canonical_heading": "A7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр",
-      "canonical_prompt_sha256": "4e4b39b0007965f457e550bf2d9841081757943d9d443b796a902b80cb10fd5d",
-      "characters": 4298,
+      "canonical_prompt_sha256": "8c608514e1a03bf5b36798f18aa3f96b9af5a52c55589360940f958e44ee83da",
+      "characters": 5323,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1141,8 +1187,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "3cea8e301789cdcc58b68467a6c15f3ab6482deecab9a7eabe59275794f1f50a",
       "previous_prompt_sha256_before_20261020": "f06e2769a5999ed1bfea7f204462a993473e7d795373c22e4ccd1b8ea3db8c6d",
-      "normalized_prompt_sha256": "918a06a792708e39364d0b33f7c086e580e10ac5c94eeb0279d7909faa759b08",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "e6e7e3f053272cbee0ec0f6f913c191ed2166db2907e328dd17e77896f5792fc",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1153,8 +1199,8 @@
     {
       "prompt_id": "A8",
       "canonical_heading": "A8 · Танец 8 — Размеренное кружение на руках",
-      "canonical_prompt_sha256": "b708bd6ae0a798baa8bad71df2983edb5ead5d62f5a60837f3f0b6a203c5571e",
-      "characters": 4560,
+      "canonical_prompt_sha256": "a7ec1b1bdac01eff682f8644c8cff6f801b60f8f1c1980e15cbadc5c53a31f53",
+      "characters": 5729,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1189,8 +1235,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "ebd8ac8af5b2439ee57f5d1659b586a4b40e82f3acda1cf24ee8d6ef9082392c",
       "previous_prompt_sha256_before_20261020": "11a2c49ddfb8aa326d111c4867047921134e152e47a29efbe19f34f829d8c7d2",
-      "normalized_prompt_sha256": "ff6cf64baa57f39fe56a766ba7faa14d136e75c6c653d579718734a8f5270437",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "20333cb56211659671f3b10a754453fdd490b43eb01d2d70c60835c434ec4be6",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1201,8 +1247,8 @@
     {
       "prompt_id": "A9",
       "canonical_heading": "A9 · Танец 9 — Парадная переноска на плече",
-      "canonical_prompt_sha256": "35539c88876c515eb9164b28a53e45d04500ec5ed06514da0802cb5d624e760f",
-      "characters": 4675,
+      "canonical_prompt_sha256": "a972b5e38551a4be3b71888b0959f1b2398b583aaeea91474071d0b5150a942d",
+      "characters": 5853,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1237,8 +1283,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "6b75c1a46bd6db6b1aada644a8a40714f6d63da050699546949221cdfebddeff",
       "previous_prompt_sha256_before_20261020": "bd307f9996dc4ad876e136db5f6d7192c1b4b6529468ea435eef3d0bcc9b0061",
-      "normalized_prompt_sha256": "67e411cbd88feaf89d3270a24236af4b241cf11611c32bc2ffe830d2b23d88d9",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "c290f6358ebc5ee9459aebc03e6db2f1b71bb29c8a82b0de8c40bd2a28913a01",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1249,8 +1295,8 @@
     {
       "prompt_id": "A10",
       "canonical_heading": "A10 · Танец 10 — Общая финальная печать",
-      "canonical_prompt_sha256": "a105533d95d69fded5afaf7bf2c9f89d614e5488163fbb5d5a9eb0e89f3af4af",
-      "characters": 5020,
+      "canonical_prompt_sha256": "9e541aa09e5bf073e6018154809f63f838aea7f8cf80a53a52be448de4b8ba03",
+      "characters": 6004,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1267,8 +1313,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "da4da644b25c55f1ff8fdae596e378bdb6d146c00cd1142d6de84f979d908b6d",
       "previous_prompt_sha256_before_20261020": "f187c61a780dc8d35455b14a5b738e1c57d70aedd79fe5a0987f9a302643f311",
-      "normalized_prompt_sha256": "7f8d0b7ef3c7f52a3cc6e97b1015333e47650e932301bee953610476311c8bf8",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "db33c6722a8a327f6cfe9700a6cfb380b131adebdfe05a8e69e5a48bf641ebd3",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1279,8 +1325,8 @@
     {
       "prompt_id": "B1",
       "canonical_heading": "B1 · Танец 1 — Серёга и Юля задают устав",
-      "canonical_prompt_sha256": "488763135e2e5f261874259b2b22b58ad396aa0515f7a19d692276c32f986d4e",
-      "characters": 4027,
+      "canonical_prompt_sha256": "e0a2e7634054364a3aa375b4b47e61dea88562808c3a65981d0ecdce89e0a4ee",
+      "characters": 5197,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1309,8 +1355,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "16f1ffff4169aaa60591a3091358d06d2bdff88f4cb7736d81cbe5d843f38fb0",
       "previous_prompt_sha256_before_20261020": "c07f2c1254b9108115271b64bf37aec362139802ad5e328c75c1d6fae2faa917",
-      "normalized_prompt_sha256": "043d604e6b494b9e9cd97e93a2368c2adb24670e3844243a8bfb21e3e5932185",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "da59131250b994299675dcb3a68556cf9fceeacc64b7c2c4670f6207e9e82d00",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "6190f6d05eb8024c1f6fdbad9c56f5d62a7e3c72840652d55090614504571aec",
       "previous_prompt_sha256_before_20261027": "bd2436a51ecfbbe8d098ff01029b718b0c25c5b527620881b6a5f64ae3f6e5d9"
@@ -1318,8 +1364,8 @@
     {
       "prompt_id": "B2",
       "canonical_heading": "B2 · Танец 2 — Взаимные жесты у лица",
-      "canonical_prompt_sha256": "11e02e28bf75f5062a2d12a35d5c178dc29fdf1cc44b1cb37a2d50670599a75a",
-      "characters": 4015,
+      "canonical_prompt_sha256": "47a60bfd5d1d9edeb88f685367f825e2cc6fe01bd3f8b2d52e7c2b5e3ceaae86",
+      "characters": 5446,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1354,8 +1400,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "e4344788d7a93ed51f239076b56dcc0c1d30ecf1f9155031c47ebf8d6f5d7763",
       "previous_prompt_sha256_before_20261020": "450048f2b7a9d357f9f81f4f98c7801ca189386003c87300931c3dd20aa1315c",
-      "normalized_prompt_sha256": "c94ea6e71ccfa23a4791461b6e5cd18cb538baa6ddf41a4b185d3f79f8382534",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "96c85123d232008322e9541955e39226d93cb9a45e0e70094e58cfd000866859",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "e914a134fb65e24c70f5a41a6c5667d70991c1bd8b2b7491c0f37b235d9f3519",
       "previous_prompt_sha256_before_20261027": "c776e5309943573b8e1bec104a399e15e3e1eaede802b21ca8e8bf6628ff5b43"
@@ -1363,8 +1409,8 @@
     {
       "prompt_id": "B3",
       "canonical_heading": "B3 · Танец 3 — Невозмутимый разъезд",
-      "canonical_prompt_sha256": "3dd0b66bf5986fa1901a12e7840bdb06cdc88ca04e3b8bc6d56584765b291d89",
-      "characters": 4091,
+      "canonical_prompt_sha256": "fcac13f6e77e635aec737136c4f41989324d2ba71c339491d4c6d0c465d7924a",
+      "characters": 5047,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1401,8 +1447,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
       "previous_prompt_sha256_before_20261020": "136ce4b3de65eefa8b0883acc55b1176cba6414bcc331424906e122f0a41aa05",
-      "normalized_prompt_sha256": "799de9d99a3ba78a48eca88b3567c6f6ca7e9be12fa6f9d802fcad72b91c4255",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "bf767c550beaf48739503cf0dbd80b9f58c768045c75107d5acc4cff2693c396",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "522dfebf32f1cddd1d1b554a2d70568dae54a0eacd52ccfc4d5f2df65156f5e5",
       "previous_prompt_sha256_before_20261027": "511a4d7311f21184fc0ee36bf423f8088753b7a66e5fe59f14b8e11e7c27203a"
@@ -1410,8 +1456,8 @@
     {
       "prompt_id": "B4",
       "canonical_heading": "B4 · Танец 4 — Паша и Саша: джедайский устав",
-      "canonical_prompt_sha256": "b269bef9bbe0fe9d6e7ec9335f46a828394349ad29c1bf4206388a2ab15177ee",
-      "characters": 3882,
+      "canonical_prompt_sha256": "ac8d2cb09a7e4be701725c1360c965498dae31ddbf7eb80d7ac87190471b77fc",
+      "characters": 4947,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1440,8 +1486,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "ee4aafaedcf8448ae5309409313ff01b1f9db7ec261c29f8a65fd6cbad672f27",
       "previous_prompt_sha256_before_20261020": "e3375ee205bfee0d80ddc502663f77d02565b8db72869be15b3ce5278d1f7a1f",
-      "normalized_prompt_sha256": "1ae6a23ce153330ad642e1906a535cb3aac523a459e6dc6135e36dee80461b42",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "28dcecfba5a41b69b9bdac74967ba639e45acd4396ba4e18803280fcd6f964c5",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "3dc99b09660534b59cf1c81c19779463ee45998aea550275df19e7747ddfafd9",
       "previous_prompt_sha256_before_20261027": "9a8f6ea7fe7e638f4027081c70314cf14ac71b9269916f5df4a4fef30a0e1c01"
@@ -1449,8 +1495,8 @@
     {
       "prompt_id": "B5",
       "canonical_heading": "B5 · Танец 5 — Артём и Илюша: заводные церемониальные фигуры",
-      "canonical_prompt_sha256": "97c165233b456cccbd65dc1c0d9fa3adce0e509c0708c78ad7def9496b0ded9d",
-      "characters": 3882,
+      "canonical_prompt_sha256": "c11d1274738920fe7d68f502319d3769b8b8f0205096fce0a5df9ca0234543e0",
+      "characters": 4947,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1479,8 +1525,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "00f669d69e15d3355b6a6367e4036cf9de02eeb061bb9e9ac6986b3d557e3820",
       "previous_prompt_sha256_before_20261020": "52efca20bce6756f8d843984a1693993043caf690e8ce733fe0b33b2e833dcd8",
-      "normalized_prompt_sha256": "404f986cf7bab985558df0c54917d8834596f09e94dcb3429cb64162f9ee2964",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "5a5255d6db8a1ba3fe99cce763ccfa25b08239c9705c339533f16da2bc1d2b66",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "e5fc1bf1c6d1f2f470530591f724edb9a74c8cde48b45bd6ec0561887ae28f4d",
       "previous_prompt_sha256_before_20261027": "295cedc53e5decf73edf3e8519c4098353e05348374acec5cdeb51161086b2cf"
@@ -1488,8 +1534,8 @@
     {
       "prompt_id": "B6",
       "canonical_heading": "B6 · Танец 6 — Маша, Лёша и Виталик: торжественный сбой",
-      "canonical_prompt_sha256": "e2d142c5fc4a82e01eee25230adb72c6d65d136ae6e3fdc367191c42f1620ed0",
-      "characters": 4456,
+      "canonical_prompt_sha256": "04a7a561871317bd3181b12508871c862be809c510e795bad2b35dc38d61c3eb",
+      "characters": 5521,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1524,8 +1570,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "7d496352552b87c52ec2b13f401ab3902ccb822a72cafbaf92e5e53c02230dbc",
       "previous_prompt_sha256_before_20261020": "b87ed914317a8058e8d9b6466aa885e358c8baa19e86da37a9ddeb465e4a0c31",
-      "normalized_prompt_sha256": "e0813f876d200de8410b3bbe396bae85085161059411a8e5165d33ad0afb19e0",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "ba2f393db2351b11d4cbdc64c658d60776d274c398ee79e1478aa7ed847649fa",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "722d5147087e3ce428c9a6846cb9cc745623e394ce786f28ecb138e9a4b8b17d",
       "previous_prompt_sha256_before_20261027": "b7181cf8bde8059e9a2db0b9f03361a1856df2131cf3f4673f160ad814b44b90"
@@ -1533,8 +1579,8 @@
     {
       "prompt_id": "B7",
       "canonical_heading": "B7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр",
-      "canonical_prompt_sha256": "66e3a810352fd2e52d7289dcf9a77591d58f76f6c6426dc4b4133fd70f47283c",
-      "characters": 4422,
+      "canonical_prompt_sha256": "415ebfd3cab2673c78090d7cbb8a771b8839130c3013042d303123dde62ebd33",
+      "characters": 5447,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1569,8 +1615,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e",
       "previous_prompt_sha256_before_20261020": "93953d80acf7c736c2ace5be6b542671cc9dc90221b39d23e736b5b388cb6231",
-      "normalized_prompt_sha256": "06052a8af91fb1c7f0cc27b7a5efd18aa86bdd6051c406d15a585bcf386ec999",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "7e83bb9cdf8d300282e47f862fc64d156f70ca45f7687cf6ece47eea591d33a3",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "80f34cd67f38cb47a74a46bce7e33de041c96ba16faae37f570c9f8dffb4ecf4",
       "previous_prompt_sha256_before_20261027": "8decd2f9c9c4162895ed328aadbb2124d15d3de3712febb8e65885c169f894da"
@@ -1578,8 +1624,8 @@
     {
       "prompt_id": "B8",
       "canonical_heading": "B8 · Танец 8 — Размеренное кружение на руках",
-      "canonical_prompt_sha256": "afd39fcbfaac683c4b24498d3e13f2006c1aac49c83cbd3cff554de141222659",
-      "characters": 4684,
+      "canonical_prompt_sha256": "e587843e7b88fa84410fcbc1df545576ed762d4dbb6ed5ff91d4bdfab055c659",
+      "characters": 5853,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1614,8 +1660,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57",
       "previous_prompt_sha256_before_20261020": "6afacf3a679082ea9797c9d0c83549cda6141f7f9e50707a118f6512edcdc004",
-      "normalized_prompt_sha256": "29ec5ed13c262d24f13d583e485ef106a3ef4e65a677b5e9521abe741f0fe6b5",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "5b6124ded0f74a270fa6f5a0b14684658fe350a71f9fc9d77fdb05840f3dc705",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "54e14e181d509c96316debe87a86e5b54b6b87568c81b55eb7e30e1d6e706e34",
       "previous_prompt_sha256_before_20261027": "b7fca4f14ee2366a8d8106f6527b6c4a6f5b4c37502d8befc5ed1613c816cdfc"
@@ -1623,8 +1669,8 @@
     {
       "prompt_id": "B9",
       "canonical_heading": "B9 · Танец 9 — Парадная переноска на плече",
-      "canonical_prompt_sha256": "1f0e802e5f2a98fc1c83f44274855df70691b4ff72b77d7e0d59af7305d758e7",
-      "characters": 4799,
+      "canonical_prompt_sha256": "3f6715397067bb1d7e32909d35a30b6fccb9b7db8e7604bf443f0249a4038f69",
+      "characters": 5977,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1659,8 +1705,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
       "previous_prompt_sha256_before_20261020": "0d1f3cb67b69804c81e6f602d042503d8e4832cddbb322e581bd134e86e74aea",
-      "normalized_prompt_sha256": "2233b1ab6765ceb80f6291b58dac19c9468b365a8e38d72eff4cd5f9c6961004",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "4ce95c736482f30b8bbbf2f2c7fba3939d3b34c8f5be2b86b1ee8c5f8c796953",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "565f871edec487adbbc39461402f287c85e5c0b25467e923e3fe7db7cc5de0bf",
       "previous_prompt_sha256_before_20261027": "f86a07f47aec79350f72f69cef001c4d778e75cbdfdff5b793858d0c900971d1"
@@ -1668,8 +1714,8 @@
     {
       "prompt_id": "B10",
       "canonical_heading": "B10 · Танец 10 — Общая финальная печать",
-      "canonical_prompt_sha256": "39e5afee08cbdf4ce597b69b6756bb295cb46c8bffeda9d0f5303519c319e8d7",
-      "characters": 5144,
+      "canonical_prompt_sha256": "eda08e056de41c74cc370dee0b47e4195bf80d57633eb9f3ce34d7d39d9092ac",
+      "characters": 6128,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1686,8 +1732,8 @@
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "b04748bd15e4466342e865185dbfefb2933e0986fb8551f32490f0d8758bdbb4",
       "previous_prompt_sha256_before_20261020": "d7ef77875947458a6bd8b4bc9c96ee1ab94eb82a6d42ec22455c15c410d2a9a9",
-      "normalized_prompt_sha256": "078ab02cfb69767b53521646e9ab9f712510b8d1f48a8a2438eeb36bccc8a8a9",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "normalized_prompt_sha256": "fa02156f409046ca165988883596e7362e986b04efbfd38d10d0974aef3b558b",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "4ea57a2407d1cdf77b1db76d4f4a7be8645dd326abb0e4f58bc4811cdb0d4174",
       "previous_prompt_sha256_before_20261027": "ff88bac32399b52e1b817762f4f1e6be91b731cc8a5e97e893e1e8bc2fd964bd"
@@ -1695,9 +1741,9 @@
     {
       "prompt_id": "A11",
       "canonical_heading": "A11 · Короткий дуэт — 1/2: горизонтальная поддержка и поворот",
-      "canonical_prompt_sha256": "b1d5559ca6fa5955ffee8849a241a2c9ba72e76383b73b273f0cb4d126497982",
-      "normalized_prompt_sha256": "e8e540bc731335d205749b8b4666cf83eefcad559f7de0f52555d8cfffe86736",
-      "characters": 4941,
+      "canonical_prompt_sha256": "b9b68e276d8481357cc6fb4553dd89084d6cc3c64e81d6bbd7b8902ecdd60ea7",
+      "normalized_prompt_sha256": "5eb05b4497d0cb46f7ffb02fa93ccff446aaab84434bb3a641e6a7d2d4f18f6b",
+      "characters": 6196,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1733,7 +1779,7 @@
       "launch_readiness": "authorized_inputs_available",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261020": "2db2e390ae902a7dde491ed1a4ba6af2ef691a3db9f6f9ba2de40707c6b2ba64",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_test_review",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1745,9 +1791,9 @@
     {
       "prompt_id": "A12",
       "canonical_heading": "A12 · Короткий дуэт — 2/2: жест у лица и расхождение",
-      "canonical_prompt_sha256": "d0d6f18e1d7647a5840901e15aa3879586b1f8f33e0dd917d46d2bd6b54cba80",
-      "normalized_prompt_sha256": "beee2a900689bcdcb133303dc7eea282bcca9f6a7e42db696fc0b700e8ab35a4",
-      "characters": 4122,
+      "canonical_prompt_sha256": "8ac2aea2de627ace7ab902219e50cd70f02435a91169aadfe0cf54ef0e1d5f0c",
+      "normalized_prompt_sha256": "1cef8248f0574ed41fdf0b7eece1df0ac7e3da76d23cf31f99297fd7b3dd5d51",
+      "characters": 5278,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1790,7 +1836,7 @@
       "launch_readiness": "blocked_inputs",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261020": "1cdc474f15e072277f7b48f7bba071a63e09ab9eee2e76e4ce87d006e23ef4df",
-      "motion_revision": "2026-10-27 owner-approved shared Claude+ChatGPT dance variant",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_launch_readiness_20261023": "blocked_continuity",
       "owner_launch_authorized_at": "2026-10-23T02:20:22.376Z",
@@ -1803,9 +1849,9 @@
     {
       "prompt_id": "B11",
       "canonical_heading": "B11 · Короткий дуэт — полная версия на 30 секунд",
-      "canonical_prompt_sha256": "a92628127a87fdb8e2e08a319aab28862a6d6ae2cb34852bbbabab6a84c9eaf5",
-      "normalized_prompt_sha256": "d52a4921f60c75348fb47d0fc6ffeedb30b717d57ce74f40e2bad9dd59bba2e7",
-      "characters": 5765,
+      "canonical_prompt_sha256": "b26655fa53d3710e84d94663e1784afe10cd5871a8faf13ce2b024b76cbf8d49",
+      "normalized_prompt_sha256": "9d68206cfc73d99f82124e0b76dabb1710dfa7bb0fa7c48cb0bfd39328d52eb8",
+      "characters": 6991,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1848,7 +1894,7 @@
       "launch_readiness": "unselected_alternative",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261020": "8577393816d2fb3b312a59316967708670ea792f668b52fd69740d7b59fbffd2",
-      "motion_revision": "2026-10-25 owner-authorized performance revision",
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
       "generation_state": "not_submitted_by_this_revision",
       "previous_prompt_sha256_before_20261025": "87a47d5ce9cd8c1a7e368191bcd38e808f5397808b9dc17e0bf6fe295c34fe65",
       "previous_prompt_sha256_before_pose_refs": "479d519a36257622a6429feb7ed9d279c11d3112967c1dfd0987520ed3a8bb68",
@@ -2053,5 +2099,9 @@
       "references/scenes/scene-28/H28-horizontal-lift.png",
       "references/scenes/scene-28/F28-two-hand-face-fan.png"
     ]
+  },
+  "prompt_revision_20261030": {
+    "report": "reports/final-music-number-2026-10-30.json",
+    "production_slots_changed": false
   }
 }

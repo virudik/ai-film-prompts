@@ -741,7 +741,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-28T16:32:18+00:00",
+  "updated_at": "2026-10-30T00:44:14.760Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -1553,6 +1553,66 @@
       ],
       "name": "Открытый вход в кантину: непрерывный путь камеры к столу Серёги",
       "editorial_status": "not_approved"
+    },
+    {
+      "id": "H28B-reverse-empty-proposal",
+      "name": "Финальный музыкально-танцевальный номер — обратная сторона ангара",
+      "kind": "location_reference_proposal",
+      "scenes": [
+        28,
+        49,
+        50,
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+          "asset_id": "references/scenes/scene-28/H28B-reverse-empty.png",
+          "caption": "Обратный вид ангара H28B без зрителей — постановочное предложение",
+          "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed",
+          "bytes": 2352063,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "role": "reverse_location_proposal_not_production_input",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "created_at": "2026-10-30T00:44:14.760Z",
+          "generation_method": "ChatGPT built-in imagegen",
+          "prompt_file": "references/scenes/scene-28/H28B-reverse-empty.image-prompt.txt",
+          "prompt_sha256": "c761495fdfbeaffa693be280c18c55a34b4547b9ca30440df05ab563e27aa684",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-28/H28B-disco.png",
+              "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_as_proposal",
+            "checked_at": "2026-10-30T00:44:14.760Z",
+            "scope": "Visually checked: same graphite ribs, white wall strips, ceiling grid, floor medallion/LED lanes; closed interior bulkhead and service door replace space-facing view. No people, second space portal or relocated shuttle. Previously unseen reverse wall is a proposed design, not owner-approved geometry."
+          },
+          "usage": "gallery_only_until_owner_choice",
+          "site_published": {
+            "linked_in_master": true,
+            "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+            "status": "pending_publication"
+          },
+          "aspect_check": {
+            "requested": "16:9",
+            "actual_dimensions": [
+              1672,
+              941
+            ],
+            "matches_16_9_with_rounding": true,
+            "original_bytes_preserved": true,
+            "cropped_or_resized": false
+          }
+        }
+      ]
     }
   ]
 }
