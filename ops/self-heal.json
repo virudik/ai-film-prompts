@@ -1,23 +1,9 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "fixing",
-  "problems": {
-    "run-failed-canon-health": {
-      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41096988919",
-      "since": "2026-10-30T17:19:31Z",
-      "fixes": 1,
-      "last_fix_at": "2026-10-30T17:19:31Z",
-      "escalated_at": null
-    }
-  },
+  "status": "ok",
+  "problems": {},
   "log": [
-    {
-      "at": "2026-10-22T11:49:38Z",
-      "kind": "resolved",
-      "key": "lock-forgotten",
-      "text": "Прошло: Замок канона (chatgpt) истёк 22.10 10:28 UTC и не снят."
-    },
     {
       "at": "2026-10-23T03:19:47Z",
       "kind": "fixed",
@@ -131,7 +117,13 @@
       "kind": "fixed",
       "key": "run-failed-canon-health",
       "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41096988919 Сделал: повторил упавший запуск «здоровье канона»."
+    },
+    {
+      "at": "2026-10-30T17:49:32Z",
+      "kind": "resolved",
+      "key": "run-failed-canon-health",
+      "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41096988919"
     }
   ],
-  "changed_at": "2026-10-30T17:19:31Z"
+  "changed_at": "2026-10-30T17:49:32Z"
 }
