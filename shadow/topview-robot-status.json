@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-30T02:00:20Z",
+  "checked_at": "2026-10-30T02:10:32Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "main board grew by 5, newest page shows only 0 new"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 0,
@@ -27,9 +25,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 679
     },
-    "pages_scanned": 15,
-    "tasks_seen": 622,
-    "api_requests": 23,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -56,7 +54,7 @@
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -69,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 60,
       "mapping": "task_map",
-      "queue_count": 5993,
-      "wait_seconds": 298279,
+      "queue_count": 5982,
+      "wait_seconds": 297675,
       "process_seconds": null
     },
     {
@@ -82,8 +80,8 @@
       "model": "Seedance 2.0",
       "scene_id": 62,
       "mapping": "task_map",
-      "queue_count": 5128,
-      "wait_seconds": 246439,
+      "queue_count": 5117,
+      "wait_seconds": 245834,
       "process_seconds": null
     },
     {
@@ -95,8 +93,8 @@
       "model": "Seedance 2.0",
       "scene_id": 42,
       "mapping": "task_map",
-      "queue_count": 1639,
-      "wait_seconds": 47719,
+      "queue_count": 1624,
+      "wait_seconds": 47114,
       "process_seconds": null
     },
     {
@@ -108,8 +106,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 2522,
-      "wait_seconds": 90919,
+      "queue_count": 2509,
+      "wait_seconds": 90314,
       "process_seconds": null
     },
     {
@@ -121,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 59,
       "mapping": "task_map",
-      "queue_count": 4263,
-      "wait_seconds": 194599,
+      "queue_count": 4252,
+      "wait_seconds": 193995,
       "process_seconds": null
     },
     {
@@ -134,8 +132,8 @@
       "model": "Seedance 2.0",
       "scene_id": 52,
       "mapping": "task_map",
-      "queue_count": 3398,
-      "wait_seconds": 142758,
+      "queue_count": 3387,
+      "wait_seconds": 142155,
       "process_seconds": null
     }
   ],
@@ -143,20 +141,6 @@
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
-    {
-      "task_id": "16d53ab1a84e4091b8867b7ed5cc8f4c",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "final_status": "success",
-      "completed_at": "2026-10-29 23:05:06"
-    },
-    {
-      "task_id": "4dc7da2c6bff41b3a8161a6cc427aaa7",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "final_status": "success",
-      "completed_at": "2026-10-29 22:58:47"
-    },
     {
       "task_id": "b15165813c0848939edbe8b3d3aed182",
       "scene_id": 56,
@@ -172,20 +156,6 @@
       "completed_at": "2026-10-29 14:56:37"
     },
     {
-      "task_id": "fde415b07e2049a696b94699219268fc",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "final_status": "success",
-      "completed_at": "2026-10-29 09:39:55"
-    },
-    {
-      "task_id": "d92ed461dca14e83a429f3c5d8407a8e",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "final_status": "success",
-      "completed_at": "2026-10-29 09:22:09"
-    },
-    {
       "task_id": "8a8eadc809004e318c47201b8a463be0",
       "scene_id": 28,
       "mapping": "task_map",
@@ -195,7 +165,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-30T01:50:25Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
