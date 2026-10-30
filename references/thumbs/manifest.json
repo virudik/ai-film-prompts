@@ -3229,9 +3229,9 @@
    "height": 360,
    "src_width": 1664,
    "src_height": 936,
-   "src_bytes": 2331094,
-   "thumb_bytes": 60144,
-   "src_sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+   "src_bytes": 2511565,
+   "thumb_bytes": 67266,
+   "src_sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
   },
   "references/scenes/scene-71/S71-vitalik-on-throne-girls.png": {
    "thumb": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp",
@@ -3239,9 +3239,9 @@
    "height": 360,
    "src_width": 1664,
    "src_height": 936,
-   "src_bytes": 2401269,
-   "thumb_bytes": 62486,
-   "src_sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+   "src_bytes": 2394295,
+   "thumb_bytes": 65412,
+   "src_sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20"
   },
   "references/scenes/scene-71/S71-vitalik-on-throne.png": {
    "thumb": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne.png.webp",
@@ -3249,9 +3249,9 @@
    "height": 360,
    "src_width": 1664,
    "src_height": 936,
-   "src_bytes": 2238914,
-   "thumb_bytes": 55656,
-   "src_sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532"
+   "src_bytes": 2359177,
+   "thumb_bytes": 63938,
+   "src_sha256": "c86b275db0afb5f32556b2041bb1cd6ca29d5d34bf1c5f04a21df37e6fd40489"
   },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
