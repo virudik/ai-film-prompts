@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T15:38:08+00:00",
-  "source_head": "78eaef2881fdcad5db67c11ffc0f87df5330d10e",
-  "source_fingerprint": "767c9b66590848342fde872a2412c1d4214cd08e1833d7c40dd01d82de9e15ba",
+  "checked_at": "2026-10-30T15:39:38+00:00",
+  "source_head": "4a2e3372c63a5494d4c56326b26a2e485365e599",
+  "source_fingerprint": "3a3b62a918255358bacf81e43b039ada9c441a45cbb097639c92c68c5306bd4f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -158,16 +158,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S61-SEED20-P1",
-        "state": "claimed",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 46,
+    "unresolved": [],
+    "existing_task_count": 47,
     "existing_tasks": [
       {
         "item_id": "S28-A1-TEST-20261017",
@@ -244,6 +236,10 @@
       {
         "item_id": "S60-SEED20-P1",
         "task_id": "025955aad2cf494da2b4104d26c36ed5"
+      },
+      {
+        "item_id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a"
       },
       {
         "item_id": "S62-SEED20-P1",
@@ -432,8 +428,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "b4e36ef7ed50e25dd639da1a505926c58bca8d7ce39bfd883c1618e4d115a631",
-      "bytes": 403056
+      "sha256": "96b0cc887a153dadbd698bec8698f892c8b1c86814d4fc4fd6caf35b65128665",
+      "bytes": 403376
     },
     {
       "file": "project-status.json",
@@ -442,8 +438,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "f197a9efe21c758ec8ff2ca4ac0b97ab7281c18253c1866c758636908ae3ed2e",
-      "bytes": 51126
+      "sha256": "9ac19879cc489524f2ed3f9b50f9fe923a603c1d4ebfa3a7625043bfc7f1e1bb",
+      "bytes": 51373
     },
     {
       "file": "reports/final-music-reference-states-2026-10-30.json",
@@ -472,9 +468,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "58d01467c98ea049711e571e76e726526bf47913a592bcfc5c50e11eabd07589",
-      "bytes": 80980
+      "sha256": "e6f0c41b7d704724820da548c2194000b2c248531053b3de2bece730e3549d28",
+      "bytes": 81184
     }
   ],
-  "packet_bytes": 6597
+  "packet_bytes": 6549
 }
