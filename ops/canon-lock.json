@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:scene-review",
-  "task": "scenes 71 (girls version) and 72 prologue",
-  "acquired_at": "2026-10-30T20:54:46Z",
-  "expires_at": null,
-  "released_at": "2026-10-30T20:56:46Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "claude-202610302047-s71-refs — shared scene 71/72 references",
+  "acquired_at": "2026-10-30T21:15:26.754Z",
+  "expires_at": "2026-10-30T22:00:26.754Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
