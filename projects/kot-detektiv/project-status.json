@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/kot-detektiv/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-30T17:23:52Z",
+  "synced_at": "2026-10-30T20:29:36Z",
   "revision_date": "24.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · в сценах 1–21 добавлена вкладка «⚡ Динамичная» (старые промты сохранены без изменений)",
   "canonical_master_sha256": "02d4f2db561018a1d4783de181515808ef47017065bef23a44af2e9e02bd2368",
@@ -43,19 +43,19 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-30T17:23:49.153Z",
+    "snapshot_at": "2026-10-30T18:04:45.528Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.001,
+    "age_hours_at_status_build": 2.414,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
         "drive_copy_checked_at": "2026-10-30T10:02:41.626Z",
         "drive_copy_modified_at": "2026-10-30T10:02:32.665Z",
-        "github_blob": "26beaa7bbd0ebffa98e6f4891ef402af78724a2e",
-        "mirror_sha256": "10f44b62525792f17dd81bc43b4beb2ee172d18f2274f5ad9048a1370a2ac53e",
+        "github_blob": "d889bcd99a9212c24aa9e2c57340faffa5ec0fb6",
+        "mirror_sha256": "2dc9676df8c75a722687e71b7eb3c36d1a9247aa9e30f2a92814904b4248df48",
         "match": true,
         "drive_copy_match": false
       },
@@ -125,7 +125,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.001,
+      "age_hours": 2.414,
       "blocking": false
     },
     "topview_task_map": {
@@ -548,7 +548,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.10.2026",
-    "synced_at": "2026-10-30T17:23:52Z",
+    "synced_at": "2026-10-30T20:29:36Z",
     "canonical_master_sha256": "02d4f2db561018a1d4783de181515808ef47017065bef23a44af2e9e02bd2368",
     "canonical_revision_sha256": "654d39872a14b7542379c2147e3d93aef8859227571d01f573c9475c6031b8e0",
     "scene_count": 22,
