@@ -1,0 +1,7 @@
+Scene 48.4 reference @Image4 — Serega has just slid off the worm and stands at the gate. Single 16:9 photoreal cinematic live-action still, no text or lettering.
+Inputs: 1) the new references/scenes/scene-48/S48-P4-city-gate.png (place, gate, bystanders, light — keep them); 2) references/full/serega.jpg (Serega's exact face and costume); 3) references/scenes/scene-48/S48-P3-serega-worm-face.jpg (same robe and same windswept state).
+Serega exactly as in his character sheet: round fair face, high receding hairline with bald crown, very short thin light hair, clean-shaven; deep plum robe with the hood down, black sleeves, dark boots. Full figure, standing upright on both feet in the open sand a few metres before the gate, facing three-quarter toward camera, large enough that his face reads clearly.
+Expression: completely composed and serious, deadpan, no smile. One hand straightening the front of his robe; a little sand still sliding off the hem and one sleeve.
+Behind him: a long fresh furrow of disturbed sand leading back toward the dunes, where the worm has just dived under; the sand there still settling. No worm visible.
+The Jawa, the moisture farmer and the small droid by the gate stare at him, frozen.
+No saddle, no lit saber, no visible map module, no vehicles, no extra people.

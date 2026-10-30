@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**27 сцен к генерации/доработке · 135 полных текстов промта**
+**27 сцен к генерации/доработке · 136 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 12** сцен сейчас в медленной генерации: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 61, 62** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -3002,7 +3002,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Обновление 23.10 (владелец):** сцена начинается склейкой — без видео конца 56. Начало задано текстом и картинками, поэтому 48 запускается, не дожидаясь 42 и 56. Часть 2 Seedance-версии по-прежнему продолжает конец части 1.
 
-**Продолжение 30.10 — часть 3, «На черве к городу».** Сразу после побега червь несёт Серёгу через дюну. Он видит купола знакомого космопорта, широко улыбается и на ходу наклоняется в поворот. Конец части — подступы к городу. Три части Seedance по 15 с. Первый кадр повторяет широкий боковой вид поездки. За 15 секунд камера плавно приближается к довольному лицу Серёги и заканчивает крупно. Под его рукой остаются кольца червя, справа видны край пасти и город впереди.
+**Продолжение 30.10 — часть 3, «На черве к городу».** Сразу после побега червь несёт Серёгу через дюну. Он видит купола знакомого космопорта, широко улыбается и на ходу наклоняется в поворот. Конец части — подступы к городу, червь мчит прямо на ворота. Четыре части Seedance по 15 с. Первый кадр повторяет широкий боковой вид поездки. За 15 секунд камера плавно приближается к довольному лицу Серёги и заканчивает крупно. Под его рукой остаются кольца червя, справа видны край пасти и город впереди.
+
+**Продолжение 30.10 — часть 4, «Спуск у ворот» (владелец: поездка динамичная, спуск комичный, но невозмутимый).** Червь мчит прямо на ворота города, но за несколько десятков метров до стены резко ныряет в песок, как кит. Серёга съезжает по уходящей под песок спине, по инерции катится на подошвах в веере песка и останавливается ровно перед воротами, стоя. Лицо совершенно невозмутимое: поправляет робу, вытряхивает песок из рукава, хлопает по спрятанному модулю и спокойно входит в город. Джава и фермер у ворот застыли, дроид поворачивает голову ему вслед, а за спиной из песка на миг высовывается кончик хвоста червя, машет и исчезает. Seedance 2.0, 15 с; старт — настоящие последние 3 с 48.3. Две новые картинки рисует открытый чат ChatGPT Work.
 
 **Контекст использования:**
 
@@ -3027,6 +3029,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image6 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
 
 **Для 48.3 своя нумерация.** @Video1 — последние 3 с 48.2 для согласования движения, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — город по архитектуре 52.4, @Image4 — широкий стартовый кадр, @Image5 — стойка на ровной спине червя, @Image6 — финальный крупный план довольного лица в той же стойке.
+
+**Для 48.4 своя нумерация.** @Video1 — последние 3 с 48.3, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — ворота города (рисуется), @Image4 — Серёга стоит у ворот после спуска (рисуется).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -3117,7 +3121,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 </div>
 
-<div class="engine-pane" data-engine="sd20x2" data-duration="3 × 15 с">
+<div class="engine-pane" data-engine="sd20x2" data-duration="4 × 15 с">
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
@@ -3260,19 +3264,59 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action desert adventure | One unbroken tracking push-in from the wide ride to Serega’s delighted face as he races toward the city.
+Optimized for Seedance 2.0 | Photoreal live-action desert adventure | One unbroken, fast tracking shot from the wide ride to Serega’s delighted face as the worm races at the city.
 
-@Image4 is frame one. Match its wide side view, scale and blocking: the wake at left, Serega crouched behind the full raised head, open sand and the city gate beyond the mouth at right. Begin already moving.
+@Image4 is frame one. Match its wide side view, scale and blocking: the wake at left, Serega crouched low on the back behind the head, open sand and the city gate beyond the mouth at right. Begin already at full speed.
 @Image5 is the middle of the push-in. Match the low standing pose on the worm’s broad, level back. His boots are planted apart, his knees flex, one hand grips a shallow groove between the low rings and the other arm balances. The mouth points right toward the city gate.
 @Image6 is the final close-up. Keep exactly the same stance, foothold and gripping hand as @Image5. Only the camera moves closer. His delighted face fills the left foreground. His hand and boot stay on the broad back, which travels straight to screen right beneath him. At this distance the head and mouth are entirely beyond the right edge. The city stays visible ahead on the right.
 @Video1 supplies the actual last three seconds of Part 2 for motion continuity only: match the speed, weight, foothold, sunlight and wind when cutting into the new @Image4 camera position. The opening composition comes from @Image4.
 @Image1 fixes Serega’s likeness, deep plum hood-down robe and boots. The stolen map module stays concealed. @Image2 fixes this single colossal worm’s segmented hide, girth and circular mouth. @Image3 fixes the sandstone domes, towers and gate.
 
-0–3 s | Open exactly on @Image4. The worm is already racing left to right towards the gate, its teeth clear in three-quarter profile. Its rings roll above the dune and sand peels back to the left. Serega turns his eyes to the town, flexing his knees with each surge.
-3–10 s | Track alongside on the same flank and push smoothly from @Image4 into @Image5. Let us see the enormous straight worm racing right, the rider balancing low on his feet, and the gate ahead. His robe and the sand stream left.
-10–15 s | Continue the same push from @Image5 into @Image6 without a cut. Serega keeps his weight on his boots and flexes his knees with each surge. He squints, then grins as the camera reaches his face. As the camera closes on his grin, let the mouth pass out of frame to the right. Keep his hand, the level ridged back and the city in view. The worm continues straight right and the sand wake streams left. End close, still racing outside the gates.
+0–3 s | Open exactly on @Image4 at full speed. The worm races left to right towards the gate, teeth clear in three-quarter profile, rings rolling, sand peeling back in a high wake to the left. Serega rides low, knees flexing with each surge, eyes on the town.
+3–7 s | DUNE CREST: the worm bursts over a dune ridge; its front lifts out of the sand and slams back down in a wave of sand. Serega is jolted upward, his boots leave the back for a split second, and he lands back on his feet in the same low stance, absorbing the impact through his knees, the same hand still on the groove. A sheet of sand sprays across the lens and clears. The camera keeps pace on the same flank without cutting.
+7–11 s | Push fast from the wide into @Image5: the enormous straight worm accelerates right, the rider balances low on his boots and leans with it into a slight banking curve, free arm out, robe and sand streaming left, the gate growing ahead.
+11–15 s | Continue the same push from @Image5 into @Image6 without a cut. He squints into the wind, then breaks into a broad delighted grin as the camera reaches his face; the mouth passes out of frame to the right. Keep his hand, the ridged back and the city in view, the gate now close. End close, still racing straight at the gate.
 
-Sound: rushing wind, cloth snapping and low rolling sand. No dialogue or score. No cut, camera-axis crossing, pullback, still-frame hold, remounting, second worm, saddle, reins, lit saber, vehicles, captions or bars.
+Sound: rushing wind, cloth snapping, the heavy thump of the worm slamming down after the crest, rolling sand. No dialogue or score. No camera cut, camera-axis crossing, pullback, still-frame hold, slow motion, Serega falling off or remounting, second worm, saddle, reins, lit saber, vehicles, captions or bars.
+```
+
+#### 48 · Seedance 2.0 часть 4
+
+**Входы части 4 (своя нумерация):** @Video1 — настоящие последние 3 с 48.3 (`references/scenes/scene-48/S48-P3-last3s.mp4`, вырезать из результата); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-16/S16-worm-scale.png`; @Image3 — `references/scenes/scene-48/S48-P4-city-gate.png` (ворота города; ещё не нарисован, рисует открытый чат ChatGPT Work); @Image4 — `references/scenes/scene-48/S48-P4-dismount-landing.png` (Серёга стоит у ворот после спуска; ещё не нарисован).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert comedy | A fast ride ends in a deadpan dismount at the city gate.
+
+@Video1 is the actual last three seconds of Part 3: begin on its exact final frame and continue the motion with no replay or reset — Serega close, grinning, racing on the worm straight at the gate.
+@Image1 fixes Serega’s likeness, deep plum hood-down robe and boots. The stolen map module stays concealed under the robe.
+@Image2 fixes the single colossal worm’s segmented hide, girth and circular mouth.
+@Image3 fixes the city gate, the sandstone wall, the strip of open sand before it and the few bystanders: a Jawa, a moisture farmer and a small droid.
+@Image4 is the landing: Serega upright on his feet in the open sand a few metres before the gate, a long fresh furrow of disturbed sand behind him, robe settling, deadpan face.
+Priority: @Video1 controls the start and motion; @Image1 the face and costume; @Image2 the worm; @Image3 the place and bystanders; @Image4 the landing pose and spot.
+
+0–3 s | Continue @Video1 at full speed, then cut on motion to a wide frontal-diagonal shot from beside the gate: the colossal worm races straight at the wall with Serega riding low on its back; the bystanders at the gate flinch back.
+3–6 s | THE DIVE: a few dozen metres before the gate the worm abruptly dives nose-first into the sand like a whale, its body sliding down and under in one smooth arc. Serega keeps his balance and rides the sinking back down as it disappears beneath his boots.
+6–10 s | THE SLIDE: the last ring vanishes. Still in his surfer stance, Serega skids on across the sand on his boot soles by inertia, throwing a long fan of sand, and stops upright exactly at the spot of @Image4, a few metres before the gate. Behind him the sand sinks back into a long smooth furrow.
+10–15 s | DEADPAN: medium shot, his face completely composed and serious, no smile. He straightens his robe, shakes a stream of sand out of one sleeve, pats the hidden module once through the cloth and walks into the gate as if this were his usual commute. The Jawa and the farmer stare after him, frozen; the droid’s head swivels to follow. Behind him the tip of the worm’s tail rises from the sand, flicks once and slips back under.
+
+CAMERA:
+Fast tracking, then one motivated cut on motion into the wide for the dive; low side tracking during the slide; settle into a steady medium for the deadpan beat, then a short follow as he walks into the gate. Faces readable; never tiny during the gag.
+
+PERFORMANCE:
+The ride and the slide are fast and physical, with real weight and planted boots. The dismount is funny through timing and total composure: no flailing, no fall, no surprise on his face. Bystanders react with small frozen stares, not slapstick. Full-body motion at real-time speed.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sunlight, dry haze, flying sand, realistic cloth and dust; sand pouring off the worm as it dives and trickling from his sleeve.
+
+AUDIO:
+Rushing wind, the worm’s roar and a deep whoosh as it dives, the hiss of sand under his skidding boots, sudden quiet, sand trickling from his sleeve, a soft swish of the tail, his footsteps into the gate. No dialogue, narrator or score.
+
+NEGATIVE PROMPT:
+Serega falling, rolling or landing on his back, worm swallowing or biting anyone, the worm entering the city, worm smashing the wall or gate, second worm, saddle, reins, lit saber, vehicles or ships, hologram or visible module, smiling or mugging in the deadpan beat, panicking crowd, slow motion, frozen tableau, feet sliding without weight, identity drift, costume changes, gothic cathedral spires, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 </div>

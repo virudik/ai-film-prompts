@@ -1,0 +1,6 @@
+Scene 48.4 reference @Image3 — the city gate where Serega dismounts. Single 16:9 photoreal cinematic live-action still, no text or lettering.
+Inputs: references/scenes/scene-48/S48-P3-tatooine-city.jpg (same city, same architecture and light) and references/scenes/scene-52/S52-P4-tatooine-approach.jpg (Tatooine spaceport town style).
+Show the same Tatooine town much closer: its main gate in a low sandstone outer wall, rounded adobe arch, domes and thin lattice antenna towers behind the wall. Strictly Tatooine style: sand-coloured adobe, domes, awnings, vaporators; NO tall gothic or cathedral spires.
+Camera: low wide shot from beside the gate, looking out along the wall toward the dunes, so a broad strip of flat open sand in front of the gate leads away to the dunes on the left — the place where a giant worm will arrive and dive.
+Harsh warm light of twin suns, dry haze. A few bystanders near the gate, small but readable: one Jawa in a brown hooded robe with glowing eyes, one human moisture farmer in a light dusty tunic, one small boxy droid.
+No worm, no Serega, no vehicles or ships, no crowds.
