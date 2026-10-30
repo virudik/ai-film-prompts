@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-03T01:08:24.402Z",
-      "operation": "hourly_active_refresh_and_full_board_discovery",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "3 active tasks; slow 26,27 (Scene27 x2)",
-      "new_status": "3 active tasks; slow 26,27 (Scene27 x2)",
-      "source_checkpoint": "2026-10-03T01:08:24.402Z",
-      "outcome": "telemetry_read_verified",
-      "verification": "3 exact task lookups; all init. Full Board VIDEO scan covered 4 pages / 359 tasks; no unknown recent task. Occupancy 3/6."
-    },
-    {
       "timestamp": "2026-10-03T03:02:06.533Z",
       "operation": "hourly_active_refresh_and_full_board_discovery",
       "scene_id": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-30T02:40:22Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-30T03:30:21Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-30T03:30:21Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 58,
+  "archived_event_count": 59,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
