@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-10-30T20:54:49Z",
+  "updated_at": "2026-10-30T21:01:38Z",
   "tasks": [
     {
       "id": "90d2b889-054a-4125-9371-87e7793b1e39",
@@ -142,9 +142,9 @@
       "to": "chatgpt",
       "source": "claude",
       "text": "ВЫПОЛНЯЕТ ТОЛЬКО ОТКРЫТЫЙ ЧАТ ChatGPT Work по указанию владельца; запланированные задачи ChatGPT (6acae6ab, 6adc585e) эту задачу НЕ берут и не закрывают. Владелец 30.10 23:44 и 23:52 МСК: сцены 71 (финал) и 72 (пролог) — Виталик на троне как в «Игре престолов», только из кальянов, в таверне Татуина; по бокам красивые заигрывающие инопланетянки в эффектных нарядах; «пускай сделает две версии — с ними и без них». Серёгиус, сцены 71 и 72 в video-prompts.md; очередь S71-WAN30, S72-WAN30 (обе в версии с инопланетянками). Нарисовать 3 картинки по .image-prompt.txt, каждую 16:9, сохранить рядом как .png с тем же именем, по порядку: 1) references/scenes/scene-71/S71-hookah-throne.image-prompt.txt → references/scenes/scene-71/S71-hookah-throne.png (пустой трон из кальянов в кантине; входы references/scenes/scene-65/S65-bar-table.png и references/scenes/scene-70/S70-cantina-entrance.png; никаких мечей); 2) references/scenes/scene-71/S71-vitalik-on-throne.image-prompt.txt → references/scenes/scene-71/S71-vitalik-on-throne.png (Виталик один на троне — версия без инопланетянок; входы — картинка 1 и references/full/vitalik.jpg); 3) references/scenes/scene-71/S71-vitalik-on-throne-girls.image-prompt.txt → references/scenes/scene-71/S71-vitalik-on-throne-girls.png (та же картинка 2 плюс две инопланетянки по бокам — версия с ними; без обнажёнки). Виталика рисовать строго по references/full/vitalik.jpg. Все три — обязательные входы: в ops/topview-launch-queue.json у S71-WAN30 и S72-WAN30 (@Image2, @Image3) вписать sha256 и input_status available, state waiting_for_slot; создать references/scenes/scene-71/manifest.json и references/scenes/scene-72/manifest.json по образцу scene-70; в тексте сцен 71 и 72 убрать «ещё не нарисован», добавить картинки в галереи обеих сцен и в character-references.json. Запись под общим замком (ops/canon-lock.json). Ничего не запускать. Результат (коммит и что нарисовано) — в result, status done.",
-      "status": "open",
-      "taken_by": null,
-      "taken_at": null,
+      "status": "taken",
+      "taken_by": "chatgpt",
+      "taken_at": "2026-10-30T21:01:38Z",
       "result": null,
       "result_commit": null,
       "closed_at": null,
