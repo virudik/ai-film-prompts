@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "S42-P2 result QC and 18:55 checkpoint",
   "acquired_at": "2026-10-30T15:56:42.283Z",
-  "expires_at": "2026-10-30T16:26:42.283Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-30T16:00:00.000Z",
   "rules": "ops/CANON-LOCK.md"
 }
