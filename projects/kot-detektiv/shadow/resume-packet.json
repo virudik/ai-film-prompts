@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-10-30T17:45:54+00:00",
-  "source_head": "fea19595273ed132843d021d61158b80b8a57fd4",
-  "source_fingerprint": "2cd480ca017fd4de08771fbcb6c0de6ceb0750d86a3d32fa11608779860f7ee2",
+  "checked_at": "2026-10-30T17:54:07+00:00",
+  "source_head": "4ff589e3fc29a0af28c8ddf6fbd9e960a637506c",
+  "source_fingerprint": "d7738e29a584b447dcf9d02440da30a89fb2925b5b3b9dbb8a6ebda6407b426f",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -166,8 +166,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "a49527ebaadd76539229bcdcb3f2841dbc08ff3800adfc931e39daf4557def1a",
-      "bytes": 36100
+      "sha256": "c6605a3871da4bb773a08e0c6b4fc0e4336c51589ca70c2a31b1665fe9f2b6c1",
+      "bytes": 36297
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -191,7 +191,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "26d1a4e07bc56b8b9c8d5cff37d92f23739f0bb50261a5f27a2e91278ac3f631",
+      "sha256": "c2ad7ba5eec4e932f74edf8eca5d08336cc9e607d7463781abcbdf6e601baa39",
       "bytes": 5135
     },
     {
@@ -261,18 +261,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "e5b881c46f74da45083e98de72cc980e40c0f90c045e16d7e70d30c3947633e1",
-      "bytes": 35901
+      "sha256": "a7696bf07095d04490a51971c2fd8b3ce8fc2b6f50964a8ee929d0c0fa6bad0f",
+      "bytes": 36098
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5b6fdd251f51193a5e701709dc63cea2929be51004a1e58d60c19559676d8af6",
+      "sha256": "dea13e2979ef56f17a17ea3f01b320d4e74900ec9b77c80e2aa942657a29f87a",
       "bytes": 24170
     },
     {
       "file": "video-prompts.md",
-      "sha256": "67fa9254e979670dd4fa1a9a385808671ddda50846622375fb63ad9714821c8a",
-      "bytes": 1256134
+      "sha256": "388980db9814192ba3c99f4750450cdf4f1fcc4c6b89ae5d0064197b766c1814",
+      "bytes": 1256537
     }
   ],
   "packet_bytes": 5323
