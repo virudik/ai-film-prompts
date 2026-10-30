@@ -1,36 +1,68 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-29T11:43:11Z",
+  "checked_at": "2026-10-30T11:31:44Z",
   "window_hours": 24,
-  "verdict": "free_slots_idle_no_schedule_launch",
+  "verdict": "schedule_launched",
   "launches": [
     {
-      "item": "S59-SEED20-P2",
-      "scene_id": 59,
-      "claimed_at": "2026-10-29T08:04:04Z",
-      "run_id": "chatgpt-work-20261029-s59p2-input-correction",
+      "item": "S62-SEED20-P1",
+      "scene_id": 62,
+      "claimed_at": "2026-10-29T19:00:05Z",
+      "run_id": "chatgpt-20261029T1859Z-s62p1-owner-retry",
       "source": "chat"
+    },
+    {
+      "item": "S60-SEED20-P1",
+      "scene_id": 60,
+      "claimed_at": "2026-10-29T23:19:42Z",
+      "run_id": "chatgpt-scheduled-event-evt_830164b3e7195808b79a49669a866988-s60p1",
+      "source": "schedule"
     }
   ],
-  "launches_by_schedule": 0,
+  "launches_by_schedule": 1,
   "launches_by_chat": 1,
   "free_slot_observations": [
     {
-      "at": "2026-10-29T07:30:32Z",
+      "at": "2026-10-29T23:10:34Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-29T06:40:23Z",
+      "at": "2026-10-29T23:00:30Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-29T05:50:26Z",
+      "at": "2026-10-29T22:40:21Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-29T18:30:59Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-29T17:31:13Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-29T16:40:33Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-29T15:50:24Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-29T15:00:27Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 29,
+  "ready_items_waiting": 30,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
 }
