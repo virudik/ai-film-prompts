@@ -3,14 +3,17 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-10-30T00:53:32+00:00",
-  "source_head": "4cc0fc61582155af67db03556a1320c0511376bc",
-  "source_fingerprint": "ae0881ed855abe873da02ec09b2fc70511ade81c7602fc624b589333e25f3b9c",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T00:54:55+00:00",
+  "source_head": "fad1598e7258ca11b06b4cac15b577bf52c02ae3",
+  "source_fingerprint": "2a599078008b21a2a7abe4d5f9ab49056273d62834fbe1e452a4ac3b5be694ad",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "KD-WAIT-OWNER",
     "title": "Кот детектив — ожидание решения владельца",
@@ -163,13 +166,13 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "12a6e6ca9331f31b3b04390c2fb3da98a7f07899ff59e10fed41f3e275ef0afd",
-      "bytes": 34850
+      "sha256": "3b72a0ebb4096ee814c15acd23832ee325911a24b2b8b636457662f50d18621f",
+      "bytes": 34984
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
-      "sha256": "2c8e1a003e3b4dcb949b69ec2f1b77fd06e20cad1b49d923604afce560081978",
-      "bytes": 73430
+      "sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
+      "bytes": 74610
     },
     {
       "file": "README-AI-SYNC.md",
@@ -188,7 +191,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "8a5528e04012e95d8b8584c02d2caa27d7f742108de682b7827207d830de5d41",
+      "sha256": "986dc4b846abf1a8772eb218a09203cb469e7f197b906e6c920b83a8bfaf9568",
       "bytes": 5137
     },
     {
@@ -258,19 +261,19 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "5a1c11fa9f73407cef2cff89f79500e76e0c18c4c31a5bd8b14c8bd32c3ed3bc",
-      "bytes": 34651
+      "sha256": "a98ee7bf71b752b94a14d039ff897b06f7941ecd06a44628d6365ebc90c2e9fc",
+      "bytes": 34785
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "78ead94e008b4cff2fd5f854f66b15a172cedb3126cf93e364bd950c31bf9d23",
-      "bytes": 24034
+      "sha256": "9653c3381b3157277f025849b0b9b8aea9e67105f703059d7adcae0eb6151efe",
+      "bytes": 24157
     },
     {
       "file": "video-prompts.md",
-      "sha256": "4fe369dd82bab9d1353c743e3a82e40584e7aa9c085484807e31321e18da0f48",
-      "bytes": 1148326
+      "sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+      "bytes": 1199860
     }
   ],
-  "packet_bytes": 5355
+  "packet_bytes": 5323
 }

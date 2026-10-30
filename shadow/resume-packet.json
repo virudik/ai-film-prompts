@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T00:53:32+00:00",
-  "source_head": "4cc0fc61582155af67db03556a1320c0511376bc",
-  "source_fingerprint": "92a8ece9c455a8e15ecb8b2e39837bc9035b1b961c94ae1b00c2a8d9b19237de",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T00:54:55+00:00",
+  "source_head": "fad1598e7258ca11b06b4cac15b577bf52c02ae3",
+  "source_fingerprint": "48583c784df306130e0509a7ee7a942a306133c6a73c0ad5f6dd411e69e0ab09",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,37 +30,36 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_global_capacity",
-    "last_completed": "Scene28: all23 prompts and12 pending SHA revised for animated lighting and sustained motion; GitHub/Pages verified,348 tests passed; zero generations.",
-    "next_action": "Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.",
-    "verified_at": "2026-10-30T00:21:38+00:00",
+    "last_completed": "All47 finale prompts and26 pending hashes validated;348 tests passed. Empty reverse hangar saved; audience B blocked by image generator including edit attempt. Publication readback pending.",
+    "next_action": "Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.",
+    "verified_at": "2026-10-30T00:53:50+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/scene28-light-motion-2026-10-30.json",
-        "sha256": "9338d91d11d92c92fb57d6f2dd6f223d3431d11102ce40e58871655965b3f90a"
-      },
-      {
-        "file": "ops/TOPVIEW-RETRY.md",
-        "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
+        "file": "reports/final-music-number-2026-10-30.json",
+        "sha256": "3310ec2c1be08fff439dab5f14ee87c63102a51a1ae2f548aa939dc71cc35626"
       }
     ],
     "read_next": [
       "ops/topview-launch-queue.json",
-      "reports/scene28-light-motion-2026-10-30.json",
+      "video-prompts.md",
       "ops/TOPVIEW-RETRY.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Танцы28: светомузыка и непрерывное движение · 30.10.2026",
-      "sha256": "53dcbdaeeb933f347634726b26c0e220a53d86a66dc5f81eb256fe4c2deb93e8"
+      "anchor": "# Финальный музыкально-танцевальный номер · 30.10.2026",
+      "sha256": "d6615712f8836b753e3966896421e6a6309fe075c05d735bc09edcd3214a7f00"
     }
   },
-  "checkpoint_text": "# Танцы28: светомузыка и непрерывное движение · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо прямой команде владельца опубликованы правки всех23 промптов A1–A12/B1–B11: меняющиеся цвет/яркость лучей, волна по световым линиям пола и отражения; постоянный нейтральный свет на лицах. Непрерывное движение в середине и при сближении/расхождении; финальная поза только последние0,5с. A1/B1 сближаются танцуя в последние2с; A2/B2 — один короткий обмен, две внешние щеки, лицо не перекрывать, согласованный кадр до колен. Опоры, хват, лица, костюмы и кошачья анатомия сохранены.\n\nКоммит:2797025754b0506e9798706c97e06bb1c6151660. Отчёт:reports/scene28-light-motion-2026-10-30.json. У12 неотправленных выбранных items обновлены SHA; порядок, разрешения, реальные входы и зависимости прежние. Старые A1/A2 отправлены23.10; готовые видео не менялись и новая редакция ещё не проверена рендером. Удачные фрагменты A1 сохранять для монтажа. Новых картинок/запусков/пунктов очереди0.\n\nПроверено:348 тестов, site validator, master health=ok, canon-health0 предупреждений;8 файлов прочитаны обратно по blob SHA. Канонический workflow и Pages успешны; публичный master содержит23 новых световых блока, его SHA совпадает с project-status. Правило света в PROMPT-STYLE-GUIDE.md §5.I, handoff обновлён.\n\nДальше: свежий main/решения/входящие/замок и полный скан слотов, затем следующая готовая разрешённая сцена по живой очереди; технические отказы — ops/TOPVIEW-RETRY.md. Достигнув28, использовать новые SHA и проверять реальную смену света/пол, энергию в середине, лица и контакты. A3 ждёт чистый новый A2, A12 — настоящий конец A11; правка текста эти зависимости не снимает. В этой редакционной задаче повторный живой скан слотов не выполнялся: старые числа занятости не считать свежими.\n",
+  "checkpoint_text": "# Финальный музыкально-танцевальный номер · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца обновлены все47 промтов28/49/50/51 и26 неотправленных пунктов очереди: меняющийся свет/пол, непрерывное исполнение и подходящие действию дуги/наезды/отъезды камеры. Старые13 отправок28 связаны с нынешними редакциями в reports/final-music-number-2026-10-30.json; их фактические payload/SHA/результаты не изменены. Очередь, выбранные движки, обязательные референсы и зависимости сохранены. Видео и платные операции не запускались. 348 тестов, site contract и master health=ok, canon health без предупреждений. Публикационный readback ещё выполняется.\n\nПустой обратный вид H28B создан и визуально проверен как предложение. ВариантА — существующий выбранный кадр вуки на площадке. ВариантБ — зрители напротив: генератор отклонил кадр, PNG нет; точный промт references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt сохранён. Не выдавать пустой ангар за готовую толпу, не выбирать вариант за владельца и не заменять текущий @Image5. Не повторять уже готовую работу.\n\nДальше: завершить проверку/публикацию; продолжать согласованную очередь после свежего чтения main/входящих/замка и живой проверки всех слотов. У28A3 требуется чистый конец новогоA2, уA12 — настоящий конецA11. КадрБ остаётся отдельным незавершённым визуальным заданием и не блокирует видеоочередь. После его получения владелец выбирает расстановку; тогда согласованно обновить версии50 и их входы. Проверять будущие видео по отправленным редакциям, особенно середину движения, смену света, лица/контакты и географию. Старые числа слотов не считать свежей проверкой.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -155,7 +154,7 @@
   ],
   "read_next": [
     "ops/topview-launch-queue.json",
-    "reports/scene28-light-motion-2026-10-30.json",
+    "video-prompts.md",
     "ops/TOPVIEW-RETRY.md"
   ],
   "live_checks_required": [
@@ -390,13 +389,13 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "12a6e6ca9331f31b3b04390c2fb3da98a7f07899ff59e10fed41f3e275ef0afd",
-      "bytes": 34850
+      "sha256": "3b72a0ebb4096ee814c15acd23832ee325911a24b2b8b636457662f50d18621f",
+      "bytes": 34984
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
-      "sha256": "2c8e1a003e3b4dcb949b69ec2f1b77fd06e20cad1b49d923604afce560081978",
-      "bytes": 73430
+      "sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
+      "bytes": 74610
     },
     {
       "file": "README-AI-SYNC.md",
@@ -415,7 +414,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "8a5528e04012e95d8b8584c02d2caa27d7f742108de682b7827207d830de5d41",
+      "sha256": "986dc4b846abf1a8772eb218a09203cb469e7f197b906e6c920b83a8bfaf9568",
       "bytes": 5137
     },
     {
@@ -429,14 +428,9 @@
       "bytes": 40928
     },
     {
-      "file": "ops/TOPVIEW-RETRY.md",
-      "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7",
-      "bytes": 9173
-    },
-    {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "a56fb5cf6ed4484b8354b9314c990ce5a1067bf9831be0e506ef393337e4f35d",
-      "bytes": 399373
+      "sha256": "e077bdea6dc5a031ec0df80386727e12b509d0bbf8074a42a065e9ef20c6e837",
+      "bytes": 399419
     },
     {
       "file": "project-status.json",
@@ -445,8 +439,13 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "cc3ce4154588ec79aaedb943c1fbe363d390542dd06f44d0b99cbb513aaa1be0",
-      "bytes": 40848
+      "sha256": "0bcf4fadb6162af98bb85ad22467dc59bad574d2a1ef3a88fde56a3bd2c4b230",
+      "bytes": 43695
+    },
+    {
+      "file": "reports/final-music-number-2026-10-30.json",
+      "sha256": "3310ec2c1be08fff439dab5f14ee87c63102a51a1ae2f548aa939dc71cc35626",
+      "bytes": 28624
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -454,30 +453,25 @@
       "bytes": 20662
     },
     {
-      "file": "reports/scene28-light-motion-2026-10-30.json",
-      "sha256": "9338d91d11d92c92fb57d6f2dd6f223d3431d11102ce40e58871655965b3f90a",
-      "bytes": 12721
-    },
-    {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "5a1c11fa9f73407cef2cff89f79500e76e0c18c4c31a5bd8b14c8bd32c3ed3bc",
-      "bytes": 34651
+      "sha256": "a98ee7bf71b752b94a14d039ff897b06f7941ecd06a44628d6365ebc90c2e9fc",
+      "bytes": 34785
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "78ead94e008b4cff2fd5f854f66b15a172cedb3126cf93e364bd950c31bf9d23",
-      "bytes": 24034
+      "sha256": "9653c3381b3157277f025849b0b9b8aea9e67105f703059d7adcae0eb6151efe",
+      "bytes": 24157
     },
     {
       "file": "video-prompts.md",
-      "sha256": "4fe369dd82bab9d1353c743e3a82e40584e7aa9c085484807e31321e18da0f48",
-      "bytes": 1148326
+      "sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+      "bytes": 1199860
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "13cc1dfc4778b018f83c055ac8695931abbf9772cd39413fc13071d3201c7a0e",
-      "bytes": 81528
+      "sha256": "4a1f0d756921c474a23cc22c50c1709bb05510a42ed0dab94ffac225213c6599",
+      "bytes": 80870
     }
   ],
-  "packet_bytes": 7477
+  "packet_bytes": 7240
 }

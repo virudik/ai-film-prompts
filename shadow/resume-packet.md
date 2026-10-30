@@ -2,27 +2,25 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-10-30T00:53:32+00:00
+Состояние: needs_recovery
+Проверено: 2026-10-30T00:54:55+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
-Последний подтверждённый этап: Scene28: all23 prompts and12 pending SHA revised for animated lighting and sustained motion; GitHub/Pages verified,348 tests passed; zero generations.
-Следующий шаг: Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.
+Последний подтверждённый этап: All47 finale prompts and26 pending hashes validated;348 tests passed. Empty reverse hangar saved; audience B blocked by image generator including edit attempt. Publication readback pending.
+Следующий шаг: Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.
 
 ## Контрольная точка
 
-# Танцы28: светомузыка и непрерывное движение · 30.10.2026
+# Финальный музыкально-танцевальный номер · 30.10.2026
 
 work_id: SEREGIUS-PLAN-20261023
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
-По прямой команде владельца опубликованы правки всех23 промптов A1–A12/B1–B11: меняющиеся цвет/яркость лучей, волна по световым линиям пола и отражения; постоянный нейтральный свет на лицах. Непрерывное движение в середине и при сближении/расхождении; финальная поза только последние0,5с. A1/B1 сближаются танцуя в последние2с; A2/B2 — один короткий обмен, две внешние щеки, лицо не перекрывать, согласованный кадр до колен. Опоры, хват, лица, костюмы и кошачья анатомия сохранены.
+По команде владельца обновлены все47 промтов28/49/50/51 и26 неотправленных пунктов очереди: меняющийся свет/пол, непрерывное исполнение и подходящие действию дуги/наезды/отъезды камеры. Старые13 отправок28 связаны с нынешними редакциями в reports/final-music-number-2026-10-30.json; их фактические payload/SHA/результаты не изменены. Очередь, выбранные движки, обязательные референсы и зависимости сохранены. Видео и платные операции не запускались. 348 тестов, site contract и master health=ok, canon health без предупреждений. Публикационный readback ещё выполняется.
 
-Коммит:2797025754b0506e9798706c97e06bb1c6151660. Отчёт:reports/scene28-light-motion-2026-10-30.json. У12 неотправленных выбранных items обновлены SHA; порядок, разрешения, реальные входы и зависимости прежние. Старые A1/A2 отправлены23.10; готовые видео не менялись и новая редакция ещё не проверена рендером. Удачные фрагменты A1 сохранять для монтажа. Новых картинок/запусков/пунктов очереди0.
+Пустой обратный вид H28B создан и визуально проверен как предложение. ВариантА — существующий выбранный кадр вуки на площадке. ВариантБ — зрители напротив: генератор отклонил кадр, PNG нет; точный промт references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt сохранён. Не выдавать пустой ангар за готовую толпу, не выбирать вариант за владельца и не заменять текущий @Image5. Не повторять уже готовую работу.
 
-Проверено:348 тестов, site validator, master health=ok, canon-health0 предупреждений;8 файлов прочитаны обратно по blob SHA. Канонический workflow и Pages успешны; публичный master содержит23 новых световых блока, его SHA совпадает с project-status. Правило света в PROMPT-STYLE-GUIDE.md §5.I, handoff обновлён.
-
-Дальше: свежий main/решения/входящие/замок и полный скан слотов, затем следующая готовая разрешённая сцена по живой очереди; технические отказы — ops/TOPVIEW-RETRY.md. Достигнув28, использовать новые SHA и проверять реальную смену света/пол, энергию в середине, лица и контакты. A3 ждёт чистый новый A2, A12 — настоящий конец A11; правка текста эти зависимости не снимает. В этой редакционной задаче повторный живой скан слотов не выполнялся: старые числа занятости не считать свежими.
+Дальше: завершить проверку/публикацию; продолжать согласованную очередь после свежего чтения main/входящих/замка и живой проверки всех слотов. У28A3 требуется чистый конец новогоA2, уA12 — настоящий конецA11. КадрБ остаётся отдельным незавершённым визуальным заданием и не блокирует видеоочередь. После его получения владелец выбирает расстановку; тогда согласованно обновить версии50 и их входы. Проверять будущие видео по отправленным редакциям, особенно середину движения, смену света, лица/контакты и географию. Старые числа слотов не считать свежей проверкой.
 
 ## Обязательные правила
 
@@ -45,7 +43,7 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 ## Прочитать под задачу
 
 - `ops/topview-launch-queue.json`
-- `reports/scene28-light-motion-2026-10-30.json`
+- `video-prompts.md`
 - `ops/TOPVIEW-RETRY.md`
 
 ## Перед действием
@@ -61,4 +59,5 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- brief was invalid at generation
+- master vs project-status sha256 mismatch

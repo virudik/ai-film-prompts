@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-30T00:16:36+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-30T00:54:55+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "12a6e6ca9331f31b3b04390c2fb3da98a7f07899ff59e10fed41f3e275ef0afd",
-   "bytes": 34850
+   "sha256": "3b72a0ebb4096ee814c15acd23832ee325911a24b2b8b636457662f50d18621f",
+   "bytes": 34984
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -28,8 +28,8 @@
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "2c8e1a003e3b4dcb949b69ec2f1b77fd06e20cad1b49d923604afce560081978",
-   "bytes": 73430
+   "sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
+   "bytes": 74610
   },
   {
    "file": "USER-GUIDE.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "4fe369dd82bab9d1353c743e3a82e40584e7aa9c085484807e31321e18da0f48",
-   "bytes": 1148326
+   "sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+   "bytes": 1199860
   }
  ],
  "invariants": [
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22925,
-  "above_marker_chars": 22925,
+  "chars": 23001,
+  "above_marker_chars": 23001,
   "recent_sections_below_marker": [],
-  "sha256": "5a1c11fa9f73407cef2cff89f79500e76e0c18c4c31a5bd8b14c8bd32c3ed3bc",
-  "sha256_12": "5a1c11fa9f73",
+  "sha256": "a98ee7bf71b752b94a14d039ff897b06f7941ecd06a44628d6365ebc90c2e9fc",
+  "sha256_12": "a98ee7bf71b7",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -295,7 +295,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 38804,
+   "offset": 38919,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -317,13 +317,13 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 65141,
+   "offset": 65256,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
   {
    "id": 28,
-   "title": "Финальные титры: имперский строевой танец",
+   "title": "Финальный музыкально-танцевальный номер: Имперский строевой танец",
    "target_engine": "Seedance 2.0",
    "state": "NEEDS_RERENDER",
    "render_state": "SLOW_PENDING",
@@ -338,9 +338,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 93678,
-   "chars": 160571,
-   "sha256_12": "89b4d40feadb"
+   "offset": 93793,
+   "chars": 168169,
+   "sha256_12": "c7abcc295095"
   },
   {
    "id": 33,
@@ -356,7 +356,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 254249,
+   "offset": 261962,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -378,7 +378,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 270605,
+   "offset": 278318,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -400,7 +400,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 294592,
+   "offset": 302305,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -424,7 +424,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 327089,
+   "offset": 334802,
    "chars": 28588,
    "sha256_12": "e13906f96ded"
   },
@@ -448,13 +448,13 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 355677,
+   "offset": 363390,
    "chars": 28458,
    "sha256_12": "8e8632aff462"
   },
   {
    "id": 49,
-   "title": "Финальные титры: все играют космический рок на инопланетных инструментах",
+   "title": "Финальный музыкально-танцевальный номер: Космическая рок-группа",
    "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
@@ -475,13 +475,13 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 384135,
-   "chars": 74983,
-   "sha256_12": "17eb4aa1f7b0"
+   "offset": 391848,
+   "chars": 87744,
+   "sha256_12": "dfa291501383"
   },
   {
    "id": 50,
-   "title": "Финальные титры: вуки-фанаты слэмятся и трясут гривами",
+   "title": "Финальный музыкально-танцевальный номер: Вуки-фанаты: хедбэнг и слэм",
    "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
@@ -500,13 +500,13 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 459118,
-   "chars": 19721,
-   "sha256_12": "6ac559c15d25"
+   "offset": 479592,
+   "chars": 26221,
+   "sha256_12": "cdc202a8fee5"
   },
   {
    "id": 51,
-   "title": "Финальные титры: каждый разбивает свой инструмент",
+   "title": "Финальный музыкально-танцевальный номер: Рок-финал: каждый разбивает свой инструмент",
    "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
@@ -526,9 +526,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 478839,
-   "chars": 60421,
-   "sha256_12": "f3bfb2c4c6d1"
+   "offset": 505813,
+   "chars": 80974,
+   "sha256_12": "398fd23ea935"
   },
   {
    "id": 52,
@@ -547,7 +547,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 539260,
+   "offset": 586787,
    "chars": 84742,
    "sha256_12": "85359393ed9b"
   },
@@ -570,7 +570,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 624002,
+   "offset": 671529,
    "chars": 26585,
    "sha256_12": "73dc1bb6e064"
   },
@@ -592,7 +592,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 650587,
+   "offset": 698114,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -618,7 +618,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 676683,
+   "offset": 724210,
    "chars": 27707,
    "sha256_12": "9b7b68faabdc"
   },
@@ -639,7 +639,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 704390,
+   "offset": 751917,
    "chars": 35317,
    "sha256_12": "823ad4625e2b"
   },
@@ -661,7 +661,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 739707,
+   "offset": 787234,
    "chars": 33040,
    "sha256_12": "5ce9f73454a9"
   },
@@ -681,7 +681,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 772747,
+   "offset": 820274,
    "chars": 24846,
    "sha256_12": "3c9040f5ef19"
   },
@@ -703,7 +703,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 797593,
+   "offset": 845120,
    "chars": 29300,
    "sha256_12": "59e2c15c341f"
   },
@@ -723,7 +723,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 826893,
+   "offset": 874420,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -742,7 +742,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 850346,
+   "offset": 897873,
    "chars": 19278,
    "sha256_12": "62a1603193f3"
   },
@@ -764,7 +764,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 869624,
+   "offset": 917151,
    "chars": 24736,
    "sha256_12": "6cb6303199f5"
   },
@@ -788,7 +788,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 894360,
+   "offset": 941887,
    "chars": 29523,
    "sha256_12": "c573cb0d669e"
   },
@@ -809,7 +809,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 923883,
+   "offset": 971410,
    "chars": 22399,
    "sha256_12": "263f17a2c520"
   },
@@ -833,7 +833,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 946282,
+   "offset": 993809,
    "chars": 29624,
    "sha256_12": "6414ca6228cb"
   },
@@ -857,7 +857,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 975906,
+   "offset": 1023433,
    "chars": 30347,
    "sha256_12": "9c9b454ae1cc"
   },
@@ -878,7 +878,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1006253,
+   "offset": 1053780,
    "chars": 22810,
    "sha256_12": "a13f26af1fad"
   }
