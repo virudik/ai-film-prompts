@@ -66,5 +66,11 @@
     "attempted_destination": "Google Drive/AI Film Generated Videos",
     "blocker": "Cloud/CDP downloaded the original into its isolated browser filesystem; neither the local runtime nor the Google Drive connector could read that path, so archive upload and SHA256 verification were not completed.",
     "next_action": "At a future authorized cycle with a shared accessible download path, archive the original and record SHA256 without creating a new Topview task."
+  },
+  "owner_followup": {
+    "recorded_at": "2026-10-30T17:03:32.125Z",
+    "decision": "deferred_until_worm_sequence_review",
+    "scope": "S42-SEED20-P2",
+    "note": "Владелец подтвердил два Илюши вместо Артёма. Когда будут просмотрены доступные части связки 16 → 42 → 56 → 48, владелец решит, нужна ли переделка 42.2 или эту часть можно опустить при монтаже. До решения переделку не запускать."
   }
 }
