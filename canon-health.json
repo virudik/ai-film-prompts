@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30T17:14:39Z",
+  "checked_at": "2026-10-30T17:22:38Z",
   "status": "warn",
-  "warnings": 2,
+  "warnings": 7,
   "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
       "level": "warn",
       "code": "handoff-size",
-      "text": "Хендоф 35 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
+      "text": "Хендоф 36 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
       "file": "NEW-CHAT-HANDOFF.md"
     },
     {
@@ -32,8 +32,38 @@
     },
     {
       "level": "warn",
+      "code": "status-health",
+      "text": "project-status.json: health = error.",
+      "file": "project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Котмонавты: project-status.json health = error.",
+      "file": "projects/kotmonavty/project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Кот детектив: project-status.json health = error.",
+      "file": "projects/kot-detektiv/project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Роскосмос: project-status.json health = error.",
+      "file": "projects/raznoe/project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Разное: project-status.json health = error.",
+      "file": "projects/misc/project-status.json"
+    },
+    {
+      "level": "warn",
       "code": "service-file-size",
-      "text": "ops/topview-launch-queue.json: 405 КБ (предел 400 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "text": "ops/topview-launch-queue.json: 407 КБ (предел 400 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
       "file": "ops/topview-launch-queue.json"
     }
   ]
