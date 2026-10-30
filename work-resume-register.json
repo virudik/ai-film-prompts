@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-30T15:38:54.173Z",
+  "last_updated_at": "2026-10-30T15:56:42.283Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-30T06:59:23+00:00",
+      "updated_at": "2026-10-30T15:56:42.283Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -23,7 +23,8 @@
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1.",
         "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized.",
         "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json.",
-        "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun."
+        "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
+        "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
       "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
       "canonical_refs": [
@@ -71,12 +72,19 @@
         "result": "Resolved and verified; no rerun or new repair. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-30T06:59:23+00:00",
+        "checked_at": "2026-10-30T15:55:00Z",
         "boards": 14,
         "pages": 20,
-        "total": 950,
+        "total": 951,
         "errors": [],
         "active": [
+          {
+            "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
           {
             "task_id": "025955aad2cf494da2b4104d26c36ed5",
             "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -111,13 +119,6 @@
             "status": "init",
             "media_type": "video",
             "unlimited": true
-          },
-          {
-            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
-            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-            "status": "init",
-            "media_type": "video",
-            "unlimited": true
           }
         ],
         "complete": true,
@@ -133,10 +134,10 @@
         "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
-        "checked_at": "2026-10-30T06:59:23+00:00",
+        "checked_at": "2026-10-30T15:55:00Z",
         "boards": 14,
         "pages": 20,
-        "tasks": 950,
+        "tasks": 951,
         "active_videos": 6,
         "active_images": 0,
         "free_video_slots": 0
@@ -145,11 +146,11 @@
         "2026-10-27T06:16:16Z: S48-P1 submitted exactly once via authenticated Topview website, task 8d7ff1e2de63478693778de29e0dd56e; Seedance2.0/15s/720p/16:9/qty1/6 images/Unlimited0, exact prompt and input order/hash verified. Six active video slots after submit; no repeat or editorial approval."
       ],
       "last_submission": {
-        "item_id": "S60-SEED20-P1",
-        "task_id": "025955aad2cf494da2b4104d26c36ed5",
-        "submitted_at": "2026-10-29T23:20:18Z",
-        "receipt": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z.json",
-        "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
+        "item_id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "submitted_at": "2026-10-30T15:37:37Z",
+        "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json",
+        "ui_proof": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.jpg",
         "credits": 0,
         "use_unlimit_mode": true
       },
@@ -164,16 +165,17 @@
         "reason": "Recovered verified old signals; preserved existing submitted receipt/task; no live slot scan or queue mutation."
       },
       "last_result_qc": {
-        "item_id": "S56-SEED20-P1",
-        "task_id": "b15165813c0848939edbe8b3d3aed182",
-        "reviewed_at": "2026-10-29T23:01:30.222Z",
-        "report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
-        "assessment": "continuity_rejected_critical_extra_people",
+        "item_id": "S42-SEED20-P2",
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "reviewed_at": "2026-10-30T15:56:42.283Z",
+        "report": "reports/topview-quality-2026-10-30/S42-SEED20-P2-4a1061e1-review.json",
+        "assessment": "qc_rejected_critical_identity_duplication_and_saber_deformation",
         "owner_approved": false,
         "source_archived": false,
         "audio_listened": false,
         "continuous_full_frame_rate_view": false,
-        "queue_effect": "S56-P2 kept blocked_inputs; no trim/substitute/submit. S60-P1 remains independently ready when global capacity frees."
+        "archive_status": "blocked_environment_isolation",
+        "queue_effect": "No automatic retry: technical success with artistic/continuity defects. No dependent continuity source prepared; continue independent authorized items only."
       },
       "last_image_attempt": {
         "item_id": "S66-STITCH-NB-IMAGE-1",
@@ -234,11 +236,11 @@
         "relay_events_archived": 0
       },
       "last_verified_submission": {
-        "item_id": "S60-SEED20-P1",
-        "task_id": "025955aad2cf494da2b4104d26c36ed5",
-        "submitted_at": "2026-10-29T23:20:18Z",
-        "receipt": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z.json",
-        "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
+        "item_id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "submitted_at": "2026-10-30T15:37:37Z",
+        "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json",
+        "ui_proof": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.jpg",
         "credits": 0,
         "use_unlimit_mode": true
       },
@@ -257,7 +259,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Six active Seregius Unlimited0 videos, zero free slots; no Create/claim/retry in the 09:55 MSK cycle.",
+      "current_blocker": "Six active Seregius videos, zero free slots. S42-P2 succeeded technically but failed sampled artistic/continuity QC; no automatic rerender.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json"
     },
@@ -328,7 +330,7 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-30T02:37:49+00:00",
+      "updated_at": "2026-10-30T15:56:42.283Z",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
       "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
       "constraints": [
@@ -392,11 +394,11 @@
         }
       ],
       "last_verified_submission": {
-        "item_id": "S60-SEED20-P1",
-        "task_id": "025955aad2cf494da2b4104d26c36ed5",
-        "submitted_at": "2026-10-29T23:20:18Z",
-        "receipt": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z.json",
-        "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
+        "item_id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "submitted_at": "2026-10-30T15:37:37Z",
+        "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json",
+        "ui_proof": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.jpg",
         "credits": 0,
         "use_unlimit_mode": true
       },
@@ -418,14 +420,21 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Six active Seregius videos, zero free slots; no Create in this open-chat policy update.",
+      "current_blocker": "Six active Seregius videos, zero free slots. S42-P2 QC rejected for identity duplication and saber deformation; successful task is not eligible for technical auto-retry.",
       "last_topview_scan": {
-        "checked_at": "2026-10-29T23:21:20.374Z",
+        "checked_at": "2026-10-30T15:55:00Z",
         "boards": 14,
         "pages": 20,
-        "total": 945,
+        "total": 951,
         "errors": [],
         "active": [
+          {
+            "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "status": "init",
+            "media_type": "video",
+            "unlimited": true
+          },
           {
             "task_id": "025955aad2cf494da2b4104d26c36ed5",
             "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -460,13 +469,6 @@
             "status": "init",
             "media_type": "video",
             "unlimited": true
-          },
-          {
-            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
-            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-            "status": "init",
-            "media_type": "video",
-            "unlimited": true
           }
         ],
         "complete": true,
@@ -483,32 +485,33 @@
         "receipt": "reports/topview-event-wake.json"
       },
       "last_observed_topview": {
-        "checked_at": "2026-10-29T23:38:19.518Z",
+        "checked_at": "2026-10-30T15:55:00Z",
         "boards": 14,
         "pages": 20,
-        "tasks": 945,
+        "tasks": 951,
         "active_videos": 6,
         "active_images": 0,
         "free_video_slots": 0
       },
       "last_result_qc": {
-        "item_id": "S56-SEED20-P1",
-        "task_id": "b15165813c0848939edbe8b3d3aed182",
-        "reviewed_at": "2026-10-29T23:01:30.222Z",
-        "report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
-        "assessment": "continuity_rejected_critical_extra_people",
+        "item_id": "S42-SEED20-P2",
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "reviewed_at": "2026-10-30T15:56:42.283Z",
+        "report": "reports/topview-quality-2026-10-30/S42-SEED20-P2-4a1061e1-review.json",
+        "assessment": "qc_rejected_critical_identity_duplication_and_saber_deformation",
         "owner_approved": false,
         "source_archived": false,
         "audio_listened": false,
         "continuous_full_frame_rate_view": false,
-        "queue_effect": "S56-P2 kept blocked_inputs; no trim/substitute/submit. S60-P1 remains independently ready when global capacity frees."
+        "archive_status": "blocked_environment_isolation",
+        "queue_effect": "No automatic retry: technical success with artistic/continuity defects. No dependent continuity source prepared; continue independent authorized items only."
       },
       "last_submission": {
-        "item_id": "S60-SEED20-P1",
-        "task_id": "025955aad2cf494da2b4104d26c36ed5",
-        "submitted_at": "2026-10-29T23:20:18Z",
-        "receipt": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z.json",
-        "ui_proof": "reports/topview-queue-2026-10-16/S60-SEED20-P1-20261029T232018Z-ui.png",
+        "item_id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "submitted_at": "2026-10-30T15:37:37Z",
+        "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json",
+        "ui_proof": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.jpg",
         "credits": 0,
         "use_unlimit_mode": true
       },
