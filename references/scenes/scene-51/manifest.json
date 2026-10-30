@@ -466,7 +466,9 @@
       "site_published": {
         "path": "references/scenes/scene-49/S49G-trio-playing.png",
         "linked_in_master": true,
-        "status": "pending_publication"
+        "status": "public_readback_verified",
+        "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+        "verified_at": "2026-10-30T01:45:17+00:00"
       }
     },
     {
@@ -518,7 +520,9 @@
       "site_published": {
         "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
         "linked_in_master": true,
-        "status": "pending_publication"
+        "status": "public_readback_verified",
+        "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+        "verified_at": "2026-10-30T01:45:17+00:00"
       }
     }
   ],
@@ -1212,7 +1216,7 @@
   "site_published": {
     "scene_anchor": "#scene-51",
     "linked_in_master": true,
-    "status": "pending_current_publication",
+    "status": "current_master_revision_verified",
     "gallery_paths": [
       "references/scenes/scene-51/S51A-own-instrument-setup.png",
       "references/scenes/scene-51/S51B-own-instrument-setup.png",
@@ -1223,9 +1227,11 @@
       "references/scenes/scene-49/S49G-trio-playing.png",
       "references/scenes/scene-51/S51G-trio-smash-result.png"
     ],
-    "verified_at": "2026-10-30T01:02:57.117Z",
+    "verified_at": "2026-10-30T01:45:17+00:00",
     "verification_report": "reports/final-music-number-2026-10-30.json",
-    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks.",
+    "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+    "trio_evidence": "reports/final-music-trio-2026-10-30.json"
   },
   "invariants": [
     "Identity sheets override invented details",

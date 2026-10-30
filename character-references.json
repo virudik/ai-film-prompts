@@ -750,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T01:34:39+00:00",
+  "updated_at": "2026-10-30T01:45:17+00:00",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -1682,7 +1682,9 @@
           "site_published": {
             "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
             "linked_in_master": true,
-            "status": "pending_publication"
+            "status": "public_readback_verified",
+            "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+            "verified_at": "2026-10-30T01:45:17+00:00"
           }
         }
       ]
@@ -1742,7 +1744,9 @@
           "site_published": {
             "path": "references/scenes/scene-49/S49G-trio-playing.png",
             "linked_in_master": true,
-            "status": "pending_publication"
+            "status": "public_readback_verified",
+            "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+            "verified_at": "2026-10-30T01:45:17+00:00"
           }
         }
       ]
@@ -1805,7 +1809,9 @@
           "site_published": {
             "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
             "linked_in_master": true,
-            "status": "pending_publication"
+            "status": "public_readback_verified",
+            "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+            "verified_at": "2026-10-30T01:45:17+00:00"
           }
         }
       ]

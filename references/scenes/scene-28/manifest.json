@@ -811,7 +811,9 @@
       "site_published": {
         "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
         "linked_in_master": true,
-        "status": "pending_publication"
+        "status": "public_readback_verified",
+        "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+        "verified_at": "2026-10-30T01:45:17+00:00"
       }
     }
   ],
@@ -2091,12 +2093,14 @@
       "references/scenes/scene-28/F28-two-hand-face-fan.png",
       "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png"
     ],
-    "status": "pending_current_publication",
+    "status": "current_master_revision_verified",
     "manifest_publication": "included_with_this_repository_version",
-    "verified_at": "2026-10-30T01:02:57.117Z",
+    "verified_at": "2026-10-30T01:45:17+00:00",
     "verification_report": "reports/final-music-number-2026-10-30.json",
     "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks.",
-    "linked_in_master": true
+    "linked_in_master": true,
+    "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+    "trio_evidence": "reports/final-music-trio-2026-10-30.json"
   },
   "last_qc_at": "2026-10-08T09:58:58.592675Z",
   "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",

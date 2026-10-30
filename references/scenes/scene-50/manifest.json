@@ -253,7 +253,7 @@
       "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png"
     ],
-    "status": "pending_current_publication",
+    "status": "current_master_revision_verified",
     "fan_candidate_gallery": {
       "status": "verified_on_pages",
       "scene_anchor": "#scene-50",
@@ -269,10 +269,12 @@
       "proof": "reports/evidence/s50-gallery-published-20261017.jpg",
       "checks": "All3 originalPNG SHA256 match repository; thumbs HTTP200 and browser loaded; master hash and project-status health=ok match; Pages run39064074745 success."
     },
-    "verified_at": "2026-10-30T01:02:57.117Z",
+    "verified_at": "2026-10-30T01:45:17+00:00",
     "verification_report": "reports/final-music-number-2026-10-30.json",
     "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks.",
-    "linked_in_master": true
+    "linked_in_master": true,
+    "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+    "trio_evidence": "reports/final-music-trio-2026-10-30.json"
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",

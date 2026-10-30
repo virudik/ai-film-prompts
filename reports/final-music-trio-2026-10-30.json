@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T01:35:23+00:00",
-  "status": "prepared_with_stormtrooper_image_blocker",
+  "updated_at": "2026-10-30T01:45:17+00:00",
+  "status": "published_with_stormtrooper_image_blocker",
   "owner_request": "Маша Р, Алина и Даша отдельным трио в танце, игре и разбивании; вуки на площадке, штурмовики зрители напротив",
   "new_blocks": [
     "28 A13",
@@ -62,7 +62,9 @@
       "site_published": {
         "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
         "linked_in_master": true,
-        "status": "pending_publication"
+        "status": "public_readback_verified",
+        "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+        "verified_at": "2026-10-30T01:45:17+00:00"
       }
     },
     "playing": {
@@ -110,7 +112,9 @@
       "site_published": {
         "path": "references/scenes/scene-49/S49G-trio-playing.png",
         "linked_in_master": true,
-        "status": "pending_publication"
+        "status": "public_readback_verified",
+        "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+        "verified_at": "2026-10-30T01:45:17+00:00"
       }
     },
     "smash": {
@@ -162,7 +166,9 @@
       "site_published": {
         "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
         "linked_in_master": true,
-        "status": "pending_publication"
+        "status": "public_readback_verified",
+        "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+        "verified_at": "2026-10-30T01:45:17+00:00"
       }
     }
   },
@@ -218,6 +224,75 @@
     "Review generated videos for identities, live lighting, sustained motion, playing contacts and causal destruction; no assumed editorial approval."
   ],
   "publication": {
-    "status": "pending"
+    "content_commit": "38ed4af25c499372bb5aa933c419fc06ade82c19",
+    "github_all_27_blobs_verified": true,
+    "public_verified_at": "2026-10-30T01:45:17+00:00",
+    "public_readback": [
+      {
+        "path": "video-prompts.md",
+        "http": 200,
+        "sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+        "bytes": 1235710,
+        "matches_local": true
+      },
+      {
+        "path": "project-status.json",
+        "http": 200,
+        "sha256": "b3c69b6944be88ef570537e42762ee68e3fd97c0ca74653622960e9426ef9e90",
+        "bytes": 21477,
+        "health": "ok",
+        "master": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+        "prompts": 134
+      },
+      {
+        "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+        "http": 200,
+        "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+        "bytes": 2493559,
+        "matches_local": true
+      },
+      {
+        "path": "references/scenes/scene-49/S49G-trio-playing.png",
+        "http": 200,
+        "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+        "bytes": 2620222,
+        "matches_local": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
+        "http": 200,
+        "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+        "bytes": 2631728,
+        "matches_local": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png.webp",
+        "http": 200,
+        "sha256": "ae6242fa567146f4df64767ead909b3d3d4d2b05b6a7d4056921b5b7a43bff71",
+        "bytes": 50732,
+        "matches_local": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-49/S49G-trio-playing.png.webp",
+        "http": 200,
+        "sha256": "d0e6bbf34f3a16a7d52331114258758f941921c540b1e17c282e8c74017ac492",
+        "bytes": 56848,
+        "matches_local": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51G-trio-smash-result.png.webp",
+        "http": 200,
+        "sha256": "e14cf2ddf83d5feb3a1ada8c2544d310d7a0cae3bd8ab361d0353a7e8f2c7980",
+        "bytes": 59990,
+        "matches_local": true
+      }
+    ],
+    "ci_runs": {
+      "integration_tests": 40987273011,
+      "canonical_check": 40987272780,
+      "reference_thumbnails": 40987273199,
+      "canon_health": 40987272808
+    },
+    "ci_conclusion": "success"
   }
 }
