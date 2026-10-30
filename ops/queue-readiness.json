@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "4203dfa03a6dec3d3b0f3b90e95c0d26187866bd66c2bfd2acc3e681e746a59c",
+  "source_queue_sha256": "da0e0120aedfe10c5835e58b46c11417909e0dbd9b9bc96fd615bd0e041225df",
   "source_task_map_sha256": "4012404a70272459a55dd96938bf0776557e8b7fbc286226bb603e6fd0dbaac9",
   "topview_checked_at": "2026-10-30T20:00:22Z",
   "items": [
@@ -410,6 +410,15 @@
       "queue_state": "blocked_inputs"
     },
     {
+      "id": "S71-WAN30",
+      "scene_id": 71,
+      "part_label": "71",
+      "code": "missing_reference",
+      "ready": false,
+      "text": "@Image2: нужен референс или проверка его файла/SHA256; @Image3: нужен референс или проверка его файла/SHA256",
+      "queue_state": "blocked_inputs"
+    },
+    {
       "id": "S66-WAN30",
       "scene_id": 66,
       "part_label": "66",
@@ -483,5 +492,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-30T20:29:36.900626Z"
+  "checked_at": "2026-10-30T20:49:57.542372Z"
 }
