@@ -2000,8 +2000,8 @@
           "role": "composition_only"
         }
       ],
-      "canonical_prompt_sha256": "71708a93298c6e17dd446592eb8bdddd89432631a04abff87b9f307a94f151eb",
-      "normalized_prompt_sha256": "f77ea02bbfcc328196453939d41365886189d1249703c5f7787ae4b90d5b8595",
+      "canonical_prompt_sha256": "16c7e16535f36792c8ceaf4687f735e8d5726fc07412b1e3aa421968f67c765a",
+      "normalized_prompt_sha256": "2399d902f98f3365fbe3a4e6097b1d4226376b98d3516aff49b6466851513dae",
       "characters": 3686,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
@@ -2054,8 +2054,8 @@
           "role": "composition_only"
         }
       ],
-      "canonical_prompt_sha256": "6b367a8a4286ac553008828ef4974e804d1386b6d7cc6b376ddd124d586b655f",
-      "normalized_prompt_sha256": "1ebb19037db5fa62d7693e6a7e5f2a3f5efa2c6804ed2ab2d5ae17ad7dfe77be",
+      "canonical_prompt_sha256": "8e280e6f30904ad522790e0967be86af2e05a392c191309196a617a8e33bd778",
+      "normalized_prompt_sha256": "13c7ec3eef677405675ecad504dbf81210c640f95a204a51fbe527709be557ba",
       "characters": 3681,
       "duration_seconds": 30,
       "model": "Wan 3.0",

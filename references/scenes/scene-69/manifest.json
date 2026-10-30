@@ -301,8 +301,8 @@
   "prompt_reference_mapping": [
     {
       "label": "69",
-      "canonical_prompt_sha256": "2af66dfa76a618d679da988a7375997ae90555a51e8cc5a328a7a4936c8b9a9d",
-      "normalized_prompt_sha256": "f66171736b643afb5215de8be14e3e8e174dd2bec4bb1f599dd52c0ad3752055",
+      "canonical_prompt_sha256": "d0c7507bc7ebe5e0cae4c629e94c9bb0e917e667d4507f09e9e204d084b0e355",
+      "normalized_prompt_sha256": "f32d34f902ce44c538e1f6c5a012ec8f5f45b97d5d0058d970130a6afbb4a3e9",
       "characters": 7781,
       "slots": [
         {
@@ -367,8 +367,8 @@
     },
     {
       "label": "69 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "a236d6324eba88b6d99a04e917218bd02bdab03624981b41c0e78b7bb6adb670",
-      "normalized_prompt_sha256": "13c780c1b443ad6bf16661b2599005a287cb642fe77b0cf537f4ff1ec033a238",
+      "canonical_prompt_sha256": "ed17282d9820efe44db902f86b744e5316d05f6df60da33134042687b3a23462",
+      "normalized_prompt_sha256": "38c5a6c1fbf8cfc8b07a4f8742e6edef0c7089637b217a4c124f3be20e6d4d1a",
       "characters": 6879,
       "slots": [
         {
@@ -432,8 +432,8 @@
     },
     {
       "label": "69 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "253e026d89417d4fc145e6aded770b767d7b6b40f8f98db55db5ae727a330316",
-      "normalized_prompt_sha256": "5366ca14f98fed505bf617060f4a2bf727dc7fc7e31a584cf68c484a7853a260",
+      "canonical_prompt_sha256": "667b0b3ca9b39a8bcfb492ae57647ecfab1fe031d28a8d471fbacddd088597eb",
+      "normalized_prompt_sha256": "6378dce8135ca39d99f258eae73edf0a507aea2d0efcda6cb71af2249aa134b1",
       "characters": 7138,
       "slots": [
         {

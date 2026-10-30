@@ -1243,8 +1243,8 @@
     {
       "prompt_id": "S52-R2-SEED20-P7",
       "label": "52 · Wan 3.0 часть 7",
-      "canonical_prompt_sha256": "addb17be299a24f50888ddc8ca40095bebdc23faedf428144fc1a3b595b0dbf9",
-      "normalized_prompt_sha256": "138417c434ae594e4950cd4c028c486396ac510b4029fd4d8c3492d81eeb34e7",
+      "canonical_prompt_sha256": "dcb85fa64fd98ead015d27a4bea8d8ad962309684ccefce1c62753e1606b80d1",
+      "normalized_prompt_sha256": "7f6a1c3a673d2b1bab497f96982be8e51d234a874dcce42f14f8c4a5b116efa8",
       "characters": 5111,
       "launch_readiness": "blocked_continuity",
       "slots": [
@@ -1721,7 +1721,7 @@
       "duration_seconds": 15,
       "model_text": "Seedance 2.0",
       "queued": false,
-      "canonical_prompt_sha256": "eb08dd3070fd15c00268b9a217ac4de4441dd011836210bf76579b468c0994a3",
+      "canonical_prompt_sha256": "41ee0673eae70fd15d45873e59d33cb11158ef2dbcb10118f84ee47402b42d79",
       "images": [
         {
           "slot": "@Image1",
@@ -1765,7 +1765,7 @@
         }
       ],
       "video_source": "actual selected S52-R2-SEED20-P6 Seedance2.0 result; this15s P7 is an unqueued alternative",
-      "normalized_prompt_sha256": "b934e87b92e587cae1599322286fcc149e045ab266e4bf3188f087d95e2303f0",
+      "normalized_prompt_sha256": "c1c77a5c08b6b3bb7c6bf75e4b18d066d379ffebe88af9dd2df7e28d91e8d72c",
       "characters": 4955
     }
   ],

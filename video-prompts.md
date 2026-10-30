@@ -83,7 +83,7 @@
 | 63 | [Храм ситхов: великие люди все на одно лицо](#scene-63) | Серёга, галерея собственных каменных статуй, портрет, тронный зал | Проходит по залам и искренне восхищается.30с Wan3.0, входы готовы; альтернативные2×15с. |
 | 64 | [Звёздный разрушитель: Серёга пританцовывает по коридору](#scene-64) | Серёга; коридор разрушителя; офицеры у стены | Серёга в прекрасном настроении пританцовывая идёт по коридору; имперские офицеры жмутся к стенам и провожают его странным, но испуганным взглядом. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; перед запуском — полный preflight. |
 | 65 | [Татуинская связка 7/7 — Серёга и Боба Фетт за столом](#scene-65) | настоящий конец70; Серёга; кантина; стол и компания | Продолжает подлёт70 к столику: молчаливый тост, маслёнка IG-11. Wan3.0,30с; после70, до49–51/28. Ждёт настоящий конец70 и QC; DRAFT. |
-| 66 | [Татуинская связка 2/7 — Алина, Даша и Стич](#scene-66) | конец 52 ч.7; Алина и Даша (развёртки сохранены); инопланетная собака; улица; прилавок 67 | Продолжение 52 ч.7: собака садится какать посреди улицы, прохожие возмущаются, а девочки как ни в чём не бывало идут дальше — к прилавку 67. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; ждёт настоящий конец 52 ч.7 (Wan3.0) и QC. |
+| 66 | [Татуинская связка 2/7 — Алина, Даша и Стич](#scene-66) | конец 52 ч.7; Алина и Даша (развёртки сохранены); Стич (S66-street-outrage); улица; прилавок 67 | Продолжение 52 ч.7: Стич садится какать посреди улицы, прохожие возмущаются, а девочки как ни в чём не бывало идут дальше — к прилавку 67. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; ждёт настоящий конец 52 ч.7 (Wan3.0) и QC. |
 | 67 | [Татуинская связка 3/7 — Маша спорит с торговцем](#scene-67) | конец 66; Маша Р (развёртка сохранена); прилавок; четырёхрукий продавец | Продолжение 66: девушка на рынке Татуина очень бурно ругается с четырёхруким продавцом из-за цены. Владелец 27.10; в очереди после 63, до танцев; изображения готовы; ждёт настоящий конец 66 и QC. |
 | 68 | [Татуинская связка 4/7 — Жилищник обметает кучку](#scene-68) | конец 67; бригада в форме «ГБУ Жилищник района Татуина»; световая метла; та же улица; Маша Р | Продолжение 67: трое инопланетян в форме «ГБУ Жилищник района Татуина» бестолково метут песок световыми мётлами; в конце их замечает девушка из 67. Владелец 27.10; в очереди после 67, до танцев; изображения готовы; ждёт настоящий конец 67 и QC. |
 | 69 | [Татуинская связка 5/7 — Маша и лазерный совок](#scene-69) | конец68; Маша; бригада; световая метла; улица; лазерный совок; передача дыни и сумки | Маша передаёт бригадиру дыню и сумку, берёт метлу, собирает песок и кучу Стича в лазерный совок, возвращает метлу и забирает покупки. Финал→70. Wan3.0,30с; ждёт настоящий конец68 и QC; DRAFT. |
@@ -1442,7 +1442,7 @@ LOCATION / LIVE LIGHT:
 The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
 
 ACTION / PERFORMANCE:
-Already dancing on the central medallion, Alina left, Masha centre, Dasha right, no instruments. An exuberant coordinated folk-rock disco groove at roughly120 BPM: springy alternating side steps, assertive shoulder accents and alternating sweeping forearm gestures. Masha initiates a phrase and the girls answer it with their own natural variations. Proud concentrated, almost deadpan faces contrast with lively full-body motion. Keep energy through the entire middle, connecting steps and changing weight continuously, not holding a copied pose. No touching, lifts or acrobatics; each has a clear lane. Let the model invent natural transitions and small grounded turns without exchanging places. The closing accent occupies only the last half-second; breathing and clothing keep moving.
+Already dancing on the central medallion, Alina left, Masha centre, Dasha right, no instruments. An exuberant coordinated folk-rock disco groove at roughly120 BPM: springy alternating side steps, assertive shoulder accents and alternating sweeping forearm gestures. Masha initiates a phrase and the girls answer it with their own natural variations. Proud concentrated, almost deadpan faces contrast with lively full-body motion. Keep energy through the entire middle, connecting steps and changing weight continuously, not holding a copied pose. No touching, lifts or acrobatics; each has a clear lane. Signature moves to recur and vary (link them freely): a three-way synchronized spin in their own lanes with scarves and hems flaring, Masha's big market-haggle double-arm throw answered by the girls' sharp hands-on-hips stomp, and a fast skipping grapevine side to side; each may add one small two-foot hop. Let the model invent natural transitions between them without exchanging places. The closing accent occupies only the last half-second; breathing and clothing keep moving.
 
 CAMERA:
 One continuous full-body three-shot, natural35mm perspective. A smooth35-degree front arc approaches on the answering phrase and eases outward into the closing accent. Keep all faces, hands and feet visible and separated. Stay in the front hemisphere; shorten the arc rather than overlap the girls. The dancers supply real movement, not a rotating background.
@@ -1965,7 +1965,7 @@ LOCATION / LIVE LIGHT:
 The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
 
 ACTION / PERFORMANCE:
-Already dancing on the central medallion, Alina left, Masha centre, Dasha right, no instruments. An exuberant coordinated folk-rock disco groove at roughly120 BPM: springy alternating side steps, assertive shoulder accents and alternating sweeping forearm gestures. Masha initiates a phrase and the girls answer it with their own natural variations. Proud concentrated, almost deadpan faces contrast with lively full-body motion. Keep energy through the entire middle, connecting steps and changing weight continuously, not holding a copied pose. No touching, lifts or acrobatics; each has a clear lane. Let the model invent natural transitions and small grounded turns without exchanging places. The closing accent occupies only the last half-second; breathing and clothing keep moving.
+Already dancing on the central medallion, Alina left, Masha centre, Dasha right, no instruments. An exuberant coordinated folk-rock disco groove at roughly120 BPM: springy alternating side steps, assertive shoulder accents and alternating sweeping forearm gestures. Masha initiates a phrase and the girls answer it with their own natural variations. Proud concentrated, almost deadpan faces contrast with lively full-body motion. Keep energy through the entire middle, connecting steps and changing weight continuously, not holding a copied pose. No touching, lifts or acrobatics; each has a clear lane. Signature moves to recur and vary (link them freely): a three-way synchronized spin in their own lanes with scarves and hems flaring, Masha's big market-haggle double-arm throw answered by the girls' sharp hands-on-hips stomp, and a fast skipping grapevine side to side; each may add one small two-foot hop. Let the model invent natural transitions between them without exchanging places. The closing accent occupies only the last half-second; breathing and clothing keep moving.
 
 CAMERA:
 One continuous full-body three-shot, natural35mm perspective. A smooth35-degree front arc approaches on the answering phrase and eases outward into the closing accent. Keep all faces, hands and feet visible and separated. Stay in the front hemisphere; shorten the arc rather than overlap the girls. The dancers supply real movement, not a rotating background.
@@ -5220,13 +5220,13 @@ START STATE:
 Continue the actual end of Serega walking away from the parked ship toward the town entrance, retaining stride, robe, empty hands and direction. The ship stays outside the streets.
 
 STORY FLOW:
-Continue his arrival in the first lane, then accompany a purposeful walk through the spaceport town. Move between medium frontal tracking and side views as he briefly observes the unfamiliar shopfronts, awnings, vaporator towers and residents. His expression stays understated but his walk and robe remain alive. He passes ordinary stalls without buying anything. Two girls walking Stitch on a red leash come toward him; he steps aside with one short deadpan glance as they pass. The camera hands off from Serega to the girls and follows them and the dog deeper into the market street while he continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
+Continue his arrival in the first lane, then accompany a purposeful walk through the spaceport town. Move between medium frontal tracking and side views as he briefly observes the unfamiliar shopfronts, awnings, vaporator towers and residents. His expression stays understated but his walk and robe remain alive. He passes ordinary stalls without buying anything. Two girls walking Stitch on a red leash come toward him; he steps aside with one short deadpan glance as they pass. The camera hands off from Serega to the girls and follows them and Stitch deeper into the market street while he continues out of frame toward a shaded arch. End mid-stride on the girls and Stitch.
 
 END STATE:
 The camera now follows the two girls and Stitch walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
 
 CAMERA / PERFORMANCE:
-Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and the dog. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
+Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and Stitch. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
 
 LIGHT / MATERIALS:
 Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
@@ -5590,13 +5590,13 @@ START STATE:
 Continue the actual end of Serega walking away from the parked ship toward the town entrance, retaining stride, robe, empty hands and direction. The ship stays outside the streets.
 
 STORY FLOW:
-0–3s: follow the same stride into the first dusty lane. 3–7s: a medium frontal tracking shot shows Serega walking through the living town, glancing at awnings and unfamiliar surroundings without stopping. 7–11s: ahead, two girls come down the lane walking Stitch on a red leash; Serega steps aside with one short deadpan glance as they pass him. 11–15s: the camera hands off: it turns with the girls and follows them and the dog deeper into the busy market street, while Serega continues out of frame toward a shaded arch. End mid-stride on the girls and the dog.
+0–3s: follow the same stride into the first dusty lane. 3–7s: a medium frontal tracking shot shows Serega walking through the living town, glancing at awnings and unfamiliar surroundings without stopping. 7–11s: ahead, two girls come down the lane walking Stitch on a red leash; Serega steps aside with one short deadpan glance as they pass him. 11–15s: the camera hands off: it turns with the girls and follows them and Stitch deeper into the busy market street, while Serega continues out of frame toward a shaded arch. End mid-stride on the girls and Stitch.
 
 END STATE:
 The camera now follows the two girls and Stitch walking on down the busy market street; Serega has left frame toward a shaded arch. Continuous motion, no pause or end pose: scene 66 continues from this exact frame. No shopping or interior scene.
 
 CAMERA / PERFORMANCE:
-Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and the dog. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
+Three motivated walking views: medium frontal tracking, side tracking that opens the street, hand-off move that turns from Serega to follow the girls and Stitch. Preserve recognizable face and costume; lively background and camera, not frantic running or a frozen portrait.
 
 LIGHT / MATERIALS:
 Consistent harsh warm light of the twin suns, natural skin and heavy plum fabric, granular sand, low rolling dust and weathered adobe; cooler soft shade under awnings.
@@ -8029,7 +8029,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Wan 3.0), where the camera has just turned to follow the girls and the dog. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
+@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Wan 3.0), where the camera has just turned to follow the girls and Stitch. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
 @Image2 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png.
 @Image3 — exact STITCH from the foreground of this existing street image: blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash; highest authority for the creature. This same image also supplies street geography and crowd-reaction composition in the same town as scene 52. Individual sheets @Image1 and @Image2 are the highest authority for ALINA and DASHA and override their faces in this composition. File: references/scenes/scene-66/S66-street-outrage.png.
@@ -8045,35 +8045,35 @@ MASHA R (closing shot only): exactly the adult woman in @Image5, with her indivi
 VENDOR (closing shot only): exactly @Image6, stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, yellow eyes, two curled horns and striped tan apron. Preserve him into scene 67.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image4, where Masha R stands at the counter holding a pale-blue ribbed melon and facing the exact four-armed vendor from @Image6; the argument of scene 67 is only just beginning.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from Stitch's red harness to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: Stitch squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image4, where Masha R stands at the counter holding a pale-blue ribbed melon and facing the exact four-armed vendor from @Image6; the argument of scene 67 is only just beginning.
 
 START STATE:
 Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and Stitch down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
 
 TIMELINE:
 [0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as Stitch trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
-[0:05–0:10] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. The dog turns once and squats, looking straight ahead with total dignity.
+[0:05–0:10] SUDDEN STOP — Stitch plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. Stitch turns once and squats, looking straight ahead with total dignity.
 [0:10–0:17] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves his arms, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
-[0:17–0:24] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. The dog finishes and kicks a little sand backward.
-[0:24–0:30] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: Masha R holds a pale-blue ribbed melon at the counter, facing the exact four-armed vendor from @Image6 raising fingers on all his hands. End on the stall, the argument about to start.
+[0:17–0:24] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. Stitch finishes and kicks a little sand backward.
+[0:24–0:30] MOVING ON — The girls walk on as if nothing happened, Stitch trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: Masha R holds a pale-blue ribbed melon at the counter, facing the exact four-armed vendor from @Image6 raising fingers on all his hands. End on the stall, the argument about to start.
 
 END STATE:
-The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where Masha R holds a pale-blue ribbed melon, facing the exact four-armed vendor from @Image6; her same satchel remains on her left shoulder. Keep the final three seconds uncut, with the vendor's hands and natural body motion continuing. Scene 67 continues from this exact frame.
+The girls and Stitch have walked on out of frame without looking back; the camera rests on the fruit stall where Masha R holds a pale-blue ribbed melon, facing the exact four-armed vendor from @Image6; her same satchel remains on her left shoulder. Keep the final three seconds uncut, with the vendor's hands and natural body motion continuing. Scene 67 continues from this exact frame.
 
 CAMERA / SPACE:
-One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve.
+One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low Stitch-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls, and a final move that leaves the girls and settles on the fruit stall. Faces readable; cut on the stop, the jumps back and the speeder swerve.
 
 PERFORMANCE:
-Girls: casual, unbothered, as if this happens every day; the dog proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Girls: casual, unbothered, as if this happens every day; Stitch proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Harsh warm light of Tatooine's twin suns, double soft shadows, consistent direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
 
 AUDIO:
-Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, Stitch's snuffles and gurgles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-girls apologizing or cleaning up, cleanup scoops or waste bags in the girls' hands, embarrassed girls, graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+girls apologizing or cleaning up, cleanup scoops or waste bags in the girls' hands, embarrassed girls, graphic close-up of excrement, gore, Stitch attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8094,7 +8094,7 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, dynamic comedy
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Wan 3.0), where the camera has just turned to follow the girls and the dog. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
+@Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 52 Part 7 (Wan 3.0), where the camera has just turned to follow the girls and Stitch. File: references/scenes/scene-52/S52-R2-P7-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — exact ALINA (GIRL A): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Alina-tatooine-sheet.png.
 @Image2 — exact DASHA (GIRL B): face, hair, age and Tatooine costume from her individual sheet; highest identity authority. File: references/scenes/scene-66/S66-Dasha-tatooine-sheet.png.
 @Image3 — exact STITCH from the foreground of this existing street image: blue fur, broad black nose, large dark eyes, oversized ears, red harness and leash; highest authority for the creature. This same image also supplies street geography and crowd-reaction composition in the same town as scene 52. Individual sheets @Image1 and @Image2 are the highest authority for ALINA and DASHA and override their faces in this composition. File: references/scenes/scene-66/S66-street-outrage.png.
@@ -8110,33 +8110,33 @@ MASHA R (closing shot only): exactly the adult woman in @Image5, with her indivi
 VENDOR (closing shot only): exactly @Image6, stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, yellow eyes, two curled horns and striped tan apron. Preserve him into scene 67.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. The fruit stall, Masha and vendor are continuity references for Part 2 only. This part ends on the dog and the crowd mid-reaction; do not reveal the stall argument yet.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from Stitch's red harness to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: Stitch squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. The fruit stall, Masha and vendor are continuity references for Part 2 only. This part ends on Stitch and the crowd mid-reaction; do not reveal the stall argument yet.
 
 START STATE:
 Begin on the exact final frame of @Video1 (scene 52 Part 7): the camera is following the two girls and Stitch down the market street mid-stride. Continue that motion with no reset; Serega is already out of frame.
 
 TIMELINE:
 [0:00–0:05] THE WALK — Continue the tracking shot: the girls chat casually as Stitch trots proudly ahead, sniffing a fruit crate and a passing droid. Busy street life all around.
-[0:05–0:10] SUDDEN STOP — The dog plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. The dog turns once and squats, looking straight ahead with total dignity.
+[0:05–0:10] SUDDEN STOP — Stitch plants its feet in the middle of the street, the leash snaps taut, GIRL A stops without surprise. Stitch turns once and squats, looking straight ahead with total dignity.
 [0:10–0:15] OUTRAGE — Quick reaction cuts: a Jawa shrieks and leaps back, a stall vendor shouts in an alien language and waves his arms, a domed droid bleeps angrily, a landspeeder brakes hard and swerves around them in a burst of dust.
 
 END STATE:
-The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A stands calmly holding the taut leash. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+Stitch sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A stands calmly holding the taut leash. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
 
 CAMERA / SPACE:
-One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low dog-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls; end on the ongoing crowd reaction. The handoff to the fruit stall belongs to Part 2. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
+One street axis continuing scene 52 Part 7. Alternate 35mm tracking, a low Stitch-level shot for the stop, quick 50mm reaction cuts of passers-by, a medium on the indifferent girls; end on the ongoing crowd reaction. The handoff to the fruit stall belongs to Part 2. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
 
 PERFORMANCE:
-Girls: casual, unbothered, as if this happens every day; the dog proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Girls: casual, unbothered, as if this happens every day; Stitch proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Harsh warm light of Tatooine's twin suns, double soft shadows, consistent direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
 
 AUDIO:
-Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, Stitch's snuffles and gurgles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-girls apologizing or cleaning up, cleanup scoops or waste bags in the girls' hands, embarrassed girls, graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+girls apologizing or cleaning up, cleanup scoops or waste bags in the girls' hands, embarrassed girls, graphic close-up of excrement, gore, Stitch attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8167,32 +8167,32 @@ MASHA R (closing shot only): exactly the adult woman in @Image5, with her indivi
 VENDOR (closing shot only): exactly @Image6, stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, yellow eyes, two curled horns and striped tan apron. Preserve him into scene 67.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from the dog to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: the dog squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image4, where Masha R stands at the counter holding a pale-blue ribbed melon and facing the exact four-armed vendor from @Image6; the argument of scene 67 is only just beginning.
+The same lived-in Tatooine town as scene 52: sand-coloured adobe, domes, awnings, vaporators, harsh light of twin suns, dusty street. One leash from Stitch's red harness to GIRL A's hand. Serega is not in this scene. The poop moment is comic and non-graphic: Stitch squats, a small dark pile, a puff of steam; no close-up of it. Passers-by are outraged; the girls ignore it completely: NO apology, NO cleanup, no embarrassment — they behave as if this is perfectly normal. The pile stays; passers-by step around it. End at the fruit stall from @Image4, where Masha R stands at the counter holding a pale-blue ribbed melon and facing the exact four-armed vendor from @Image6; the argument of scene 67 is only just beginning.
 
 START STATE:
-Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The dog sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A stands calmly holding the taut leash.
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Stitch sits squatting in the middle of the street, the crowd mid-outrage, the landspeeder swerving past; GIRL A stands calmly holding the taut leash.
 
 TIMELINE:
-[0:00–0:07] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. The dog finishes and kicks a little sand backward.
-[0:07–0:15] MOVING ON — The girls walk on as if nothing happened, the dog trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: Masha R holds a pale-blue ribbed melon at the counter, facing the exact four-armed vendor from @Image6 raising fingers on all his hands. End on the stall, the argument about to start.
+[0:00–0:07] TOTAL INDIFFERENCE — Medium on the girls: they do not react at all. GIRL A waits with bored calm, glancing at the stalls; GIRL B keeps chatting. No apology, no cleanup. Stitch finishes and kicks a little sand backward.
+[0:07–0:15] MOVING ON — The girls walk on as if nothing happened, Stitch trotting proudly ahead; passers-by step around the pile, grumbling. The camera follows them past a fruit stall and settles on it as they continue out of frame: Masha R holds a pale-blue ribbed melon at the counter, facing the exact four-armed vendor from @Image6 raising fingers on all his hands. End on the stall, the argument about to start.
 
 END STATE:
-The girls and the dog have walked on out of frame without looking back; the camera rests on the fruit stall where Masha R holds a pale-blue ribbed melon, facing the exact four-armed vendor from @Image6; her same satchel remains on her left shoulder. Keep the final three seconds uncut, with the vendor's hands and natural body motion continuing. Scene 67 continues from this exact frame.
+The girls and Stitch have walked on out of frame without looking back; the camera rests on the fruit stall where Masha R holds a pale-blue ribbed melon, facing the exact four-armed vendor from @Image6; her same satchel remains on her left shoulder. Keep the final three seconds uncut, with the vendor's hands and natural body motion continuing. Scene 67 continues from this exact frame.
 
 CAMERA / SPACE:
-One street axis continuing scene 52 Part 7. Continue the actual ongoing crowd reaction; use a medium on the indifferent girls, then track their resumed walk and hand off to the fruit stall. Do not replay the dog's stop or the speeder's initial swerve from Part 1. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
+One street axis continuing scene 52 Part 7. Continue the actual ongoing crowd reaction; use a medium on the indifferent girls, then track their resumed walk and hand off to the fruit stall. Do not replay Stitch's stop or the speeder's initial swerve from Part 1. Faces readable; cut on the stop, the jumps back and the speeder swerve. Execute only the beats of this part.
 
 PERFORMANCE:
-Girls: casual, unbothered, as if this happens every day; the dog proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
+Girls: casual, unbothered, as if this happens every day; Stitch proud and oblivious; the crowd overreacts comically. Bodies stay purposefully in motion; cut on movement every 2–5 seconds; brief readable reactions. No dead slideshow, repeated action loop or premature final pose.
 
 LIGHTING / MATERIALS:
 Harsh warm light of Tatooine's twin suns, double soft shadows, consistent direction, dust in the air, cool shade under awnings; photoreal skin, fabric and creature texture.
 
 AUDIO:
-Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, dog snuffles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
+Street hubbub, alien shouting, Jawa shriek, droid angry bleeps, speeder brakes and whoosh, Stitch's snuffles and gurgles, the girls' indistinct casual chatter. No apology, no intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-girls apologizing or cleaning up, cleanup scoops or waste bags in the girls' hands, embarrassed girls, graphic close-up of excrement, gore, dog attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
+girls apologizing or cleaning up, cleanup scoops or waste bags in the girls' hands, embarrassed girls, graphic close-up of excrement, gore, Stitch attacking, crowd hitting the girls, Serega, extra girls, merged faces, girls' clothes changing, creature redesign, real Earth dog, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8251,7 +8251,7 @@ MASHA R (the woman at the stall): exact appearance strictly from @Image1: face, 
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
-One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with the dog from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
+One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with Stitch from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
 
 START STATE:
 Begin on the exact final frame of @Video1 (end of scene 66): the camera rests on the fruit stall; Masha R holds a pale-blue ribbed melon; the vendor raises fingers on all four hands. Continue with no reset.
@@ -8279,7 +8279,7 @@ AUDIO:
 Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by Masha R only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!», «Они же мятые! Ты сам посмотри!», «Всё, к соседу пойду!», «И то много!» plus angry muttering at the end. No narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with the dog, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with Stitch, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8311,7 +8311,7 @@ MASHA R (the woman at the stall): exact appearance strictly from @Image1: face, 
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
-One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Payment belongs to Part 2; no payment in this part. The vendor always has exactly four arms. The girls with the dog from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag only in Part 2. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
+One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Payment belongs to Part 2; no payment in this part. The vendor always has exactly four arms. The girls with Stitch from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag only in Part 2. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
 
 START STATE:
 Begin on the exact final frame of @Video1 (end of scene 66): the camera rests on the fruit stall; Masha R holds a pale-blue ribbed melon; the vendor raises fingers on all four hands. Continue with no reset.
@@ -8337,7 +8337,7 @@ AUDIO:
 Market hubbub, the vendor's loud alien-language ranting, slaps on the wooden counter, scale chains. Russian lines by Masha R only: «Сколько?! Да это грабёж! Вчера было в два раза дешевле!», «Они же мятые! Ты сам посмотри!» only. The walk-out and payment lines belong to Part 2; do not speak them here. No narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with the dog, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with Stitch, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8363,7 +8363,7 @@ MASHA R (the woman at the stall): exact appearance strictly from @Image1: face, 
 VENDOR: exactly the alien in @Image2: stout, FOUR arms, wrinkled grey-green skin, wide toad-like mouth, small yellow eyes, two curled horns, striped tan apron.
 
 LOCATION / STORY LOCK — CRITICAL:
-One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with the dog from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
+One fruit stall from @Image3 in the same Tatooine town as scene 52, harsh light of twin suns. The counter stays between them the whole time. The argument is loud, fast and furious but harmless: shouting, slapping the counter, waving arms; no hitting, no throwing things at each other, no weapons. Coins change hands once. The vendor always has exactly four arms. The girls with Stitch from scene 66 are already gone. Masha has ONE brown satchel with a long strap, matching her individual sheet. It starts on her left shoulder; the vendor adds the orange pods into this same bag. Do not create a second shopping bag. The same pale-blue ribbed melon stays separate from the bag.
 
 START STATE:
 Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): Both lean across the counter nose to nose, shouting; she points at the bruised melon; his hand slams the scale; passers-by staring.
@@ -8388,7 +8388,7 @@ AUDIO:
 Market hubbub, the vendor's loud alien-language ranting, coins clinking, slaps on the wooden counter, scale chains. Russian lines by Masha R only: «Всё, к соседу пойду!», «И то много!» plus angry muttering at the end. Do not repeat the price/shouting lines already spoken in Part 1. No narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with the dog, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
+calm polite conversation, hitting, throwing fruit at each other, weapons, vendor with two or six arms, extra women, the girls with Stitch, face swap, clothes change, Earth supermarket, price tags with text, cartoon, subtitles, logo, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8439,7 +8439,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 67, the vendor greeting the next shopper while Masha R marches off. File: references/scenes/scene-67/S67-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — exact sweeper crew: three alien bodies, identical uniform and the Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА»; highest authority for the crew. File: references/scenes/scene-68/S68-sweepers-crew.png.
 @Image2 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image3 — street geography only, the same street as scenes 66–67; ignore the girls and Stitch in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, Masha R of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
 @Image6 — shared spatial composition: the three workers sweep AROUND the small untouched pile; the unused dustpan is beside the purple worker. Use relative positions, scale and the clear ring around the pile. Individual references @Image1, @Image2, @Image4 and @Image5 control identities and prop designs. This is NOT the opening frame: @Video1 controls the continuous start, and this part's timeline controls motion, broom ignition and Masha's entrance. Keep the dustpan OFF throughout. Do not freeze the illustrated poses or introduce Masha early. File: references/scenes/scene-68/S68-crew-sweeping-street.png.
@@ -8451,7 +8451,7 @@ LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a 
 MASHA R (Masha R of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair and Tatooine costume; the SAME pale-blue ribbed melon from scene 67 cradled in one arm, her shopping bag's long strap on her left shoulder.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. Masha R appears only at the very end, far in the background.
+The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; Stitch's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. Masha R appears only at the very end, far in the background.
 
 START STATE:
 Begin on the exact final frame of @Video1 (end of scene 67): the four-armed vendor smiling at the next shopper at the fruit stall. Continue with no reset: the camera first moves clear of the awning's outer edge, then rises outside the fabric and glides back along the same street to the exact spot where Stitch left the pile in scene 66.
@@ -8459,7 +8459,7 @@ Begin on the exact final frame of @Video1 (end of scene 67): the four-armed vend
 TIMELINE:
 [0:00–0:05] HANDOFF — Move out from under the fruit-stall awning, rise past its outer edge without crossing fabric or poles, and glide back along the same street, over heads and a droid, to the exact spot where Stitch left the pile in scene 66, discovering the three-alien crew in orange vests standing in a row.
 [0:05–0:11] IGNITION — Low heroic angle: all three ignite their light brooms in unison, cyan bristles snap on with a hum; they turn their backs and the print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» reads for a beat; they start sweeping with pompous energy.
-[0:11–0:18] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND the dog's pile from scene 66.
+[0:11–0:18] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND Stitch's pile from scene 66.
 [0:18–0:24] SHOW-OFF — The foreman twirls his broom like a lightsaber with cyan light trails, the reptilian leans on his broom and yawns, the four-eyed one sweeps a dust cloud straight onto a passing Jawa, who coughs and shakes his fist.
 [0:24–0:30] SHE SEES THEM — The crew strike a proud pose over the street, now sandier than before. Rack focus to the background: Masha R from scene 67, the same pale-blue ribbed melon cradled in one arm and her shopping bag on her left shoulder, stops dead, takes it in, her face darkens, and she starts striding toward them fast. End on her charging closer, the crew still oblivious.
 
@@ -8479,7 +8479,7 @@ AUDIO:
 Light-broom hum and swish like lightsabers, sand hiss, wind gusts, speeder roar, the crew's pompous alien muttering, Jawa coughing, street hubbub. No intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-brooms used as weapons, cutting or burning anyone, extra crew members, missing or misspelled back print, Latin letters on vests, clean efficient sweeping, the dog's pile removed, Masha R in the foreground before the end, Serega, the girls with the dog, cartoon, subtitles, watermark.
+brooms used as weapons, cutting or burning anyone, extra crew members, missing or misspelled back print, Latin letters on vests, clean efficient sweeping, Stitch's pile removed, Masha R in the foreground before the end, Serega, the girls with Stitch, cartoon, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8503,7 +8503,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — THIS chain's previous shot: the actual last 3 seconds of scene 67, the vendor greeting the next shopper while Masha R marches off. File: references/scenes/scene-67/S67-last3s.mp4 (cut from the real result at launch). Absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it seamlessly; never restart or replay.
 @Image1 — exact sweeper crew: three alien bodies, identical uniform and the Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА»; highest authority for the crew. File: references/scenes/scene-68/S68-sweepers-crew.png.
 @Image2 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image3 — street geography only, the same street as scenes 66–67; ignore the girls and Stitch in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, Masha R of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
 @Image6 — shared spatial composition: the three workers sweep AROUND the small untouched pile; the unused dustpan is beside the purple worker. Use relative positions, scale and the clear ring around the pile. Individual references @Image1, @Image2, @Image4 and @Image5 control identities and prop designs. This is NOT the opening frame: @Video1 controls the continuous start, and this part's timeline controls motion, broom ignition and Masha's entrance. Keep the dustpan OFF throughout. Do not freeze the illustrated poses or introduce Masha early. File: references/scenes/scene-68/S68-crew-sweeping-street.png.
@@ -8515,7 +8515,7 @@ LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a 
 MASHA R (Masha R of scene 67, continuity design for Part 2; absent from this part): exactly the woman in her model sheet @Image4: face, hair and Tatooine costume; the SAME pale-blue ribbed melon from scene 67 cradled in one arm, her shopping bag's long strap on her left shoulder.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. Masha R is reserved for Part 2 and does not appear in this first part.
+The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; Stitch's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. Masha R is reserved for Part 2 and does not appear in this first part.
 
 START STATE:
 Begin on the exact final frame of @Video1 (end of scene 67): the four-armed vendor smiling at the next shopper at the fruit stall. Continue with no reset: the camera first moves clear of the awning's outer edge, then rises outside the fabric and glides back along the same street to the exact spot where Stitch left the pile in scene 66.
@@ -8523,10 +8523,10 @@ Begin on the exact final frame of @Video1 (end of scene 67): the four-armed vend
 TIMELINE:
 [0:00–0:05] HANDOFF — Move out from under the fruit-stall awning, rise past its outer edge without crossing fabric or poles, and glide back along the same street, over heads and a droid, to the exact spot where Stitch left the pile in scene 66, discovering the three-alien crew in orange vests standing in a row.
 [0:05–0:09] IGNITION — Low heroic angle: all three ignite their light brooms in unison, cyan bristles snap on with a hum; they turn their backs and the print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА» reads for a beat; they start sweeping with pompous energy.
-[0:09–0:15] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND the dog's pile from scene 66.
+[0:09–0:15] POINTLESS WORK — Fast cuts: the foreman sweeps sand to the right, the reptilian sweeps the same sand straight back; the four-eyed one builds a neat pile and a landspeeder roars past and blows it away; a desert gust pours fresh sand over the swept spot; all three carefully sweep AROUND Stitch's pile from scene 66.
 
 END STATE:
-The landspeeder has just blown the four-eyed alien's pile away and a gust pours fresh sand over the swept spot; the crew sweep around the dog's pile. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
+The landspeeder has just blown the four-eyed alien's pile away and a gust pours fresh sand over the swept spot; the crew sweep around Stitch's pile. Keep the motion going through the final 3 seconds for Part 2; no fade or end pose.
 
 CAMERA / SPACE:
 Continuous street axis from the fruit stall of scene 67. Crane-up and glide, a low heroic ignition shot, quick 35mm cuts on each sweep and gust, ending on the speeder gust and the crew's ongoing pointless sweeps. Reserve the twirl and Masha reveal for Part 2. Cut on motion; keep the uniforms and back print readable. Execute only the beats of this part.
@@ -8541,7 +8541,7 @@ AUDIO:
 Light-broom hum and swish like lightsabers, sand hiss, wind gusts, speeder roar, the crew's pompous alien muttering, Jawa coughing, street hubbub. No intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-brooms used as weapons, cutting or burning anyone, extra crew members, missing or misspelled back print, Latin letters on vests, clean efficient sweeping, the dog's pile removed, Masha R in the foreground before the end, Serega, the girls with the dog, cartoon, subtitles, watermark.
+brooms used as weapons, cutting or burning anyone, extra crew members, missing or misspelled back print, Latin letters on vests, clean efficient sweeping, Stitch's pile removed, Masha R in the foreground before the end, Serega, the girls with Stitch, cartoon, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8559,7 +8559,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last 3 seconds of THIS scene 68 Part 1 result; absolute authority for the starting frame, positions, camera, light and ongoing motion. Continue it; never restart. Planned cut file: references/scenes/scene-68/S68-SEED20-P1-last3s.mp4; create it only from the real Part 1 result after QC.
 @Image1 — exact sweeper crew: three alien bodies, identical uniform and the Cyrillic back print «ГБУ ЖИЛИЩНИК РАЙОНА ТАТУИНА»; highest authority for the crew. File: references/scenes/scene-68/S68-sweepers-crew.png.
 @Image2 — exact light broom prop: black handle, chrome emitter, fan of glowing cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image3 — street geography only, the same street as scenes 66–67; ignore the girls and the dog in it. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image3 — street geography only, the same street as scenes 66–67; ignore the girls and Stitch in it. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image4 — exact MASHA R, Masha R of scene 67 (model sheet from the owner's photo): face, hair and Tatooine costume; highest authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image5 — exact laser dustpan design, inactive in this scene: the same cleaning prop later used in scene 69. File: references/scenes/scene-69/S69-light-dustpan.png.
 @Image6 — shared spatial composition: the three workers sweep AROUND the small untouched pile; the unused dustpan is beside the purple worker. Use relative positions, scale and the clear ring around the pile. Individual references @Image1, @Image2, @Image4 and @Image5 control identities and prop designs. This is NOT the opening frame: @Video1 controls the continuous start, and this part's timeline controls motion, broom ignition and Masha's entrance. Keep the dustpan OFF throughout. Do not freeze the illustrated poses or introduce Masha early. File: references/scenes/scene-68/S68-crew-sweeping-street.png.
@@ -8571,10 +8571,10 @@ LIGHT BROOMS: exactly the prop reference: matte-black handle, chrome emitter, a 
 MASHA R (Masha R of scene 67, only in the background at the end): exactly the woman in her model sheet @Image4: face, hair and Tatooine costume; the SAME pale-blue ribbed melon from scene 67 cradled in one arm, her shopping bag's long strap on her left shoulder.
 
 LOCATION / STORY LOCK — CRITICAL:
-The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; the dog's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. Masha R appears only at the very end, far in the background.
+The same Tatooine town street as scenes 66–67 (@Image3 geography), harsh light of twin suns, dusty adobe, awnings, passers-by and droids. Comedy of pointless municipal work: sand moved back and forth, piles blown away, the wind adding new sand; Stitch's pile from scene 66 stays exactly where it was and the crew carefully sweep around it. The laser dustpan from @Image5 stands inactive on the ground beside the purple four-eyed worker's feet, within reach; nobody uses it in scene 68. No dialogue in Russian; the crew mutter in an alien language. The back print stays readable whenever a back is to camera. Masha R appears only at the very end, far in the background.
 
 START STATE:
-Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The landspeeder has just blown the four-eyed alien's pile away and a gust pours fresh sand over the swept spot; the crew sweep around the dog's pile.
+Begin on the exact final frame of @Video1 and continue its motion with no replay or reset. Expected handoff (subordinate to the actual video): The landspeeder has just blown the four-eyed alien's pile away and a gust pours fresh sand over the swept spot; the crew sweep around Stitch's pile.
 
 TIMELINE:
 [0:00–0:07] SHOW-OFF — The foreman twirls his broom like a lightsaber with cyan light trails, the reptilian leans on his broom and yawns, the four-eyed one sweeps a dust cloud straight onto a passing Jawa, who coughs and shakes his fist.
@@ -8596,7 +8596,7 @@ AUDIO:
 Light-broom hum and swish like lightsabers, sand hiss, wind gusts, speeder roar, the crew's pompous alien muttering, Jawa coughing, street hubbub. No intelligible speech, no narrator, no subtitles, no generated music.
 
 NEGATIVE PROMPT:
-brooms used as weapons, cutting or burning anyone, extra crew members, missing or misspelled back print, Latin letters on vests, clean efficient sweeping, the dog's pile removed, Masha R in the foreground before the end, Serega, the girls with the dog, cartoon, subtitles, watermark.
+brooms used as weapons, cutting or burning anyone, extra crew members, missing or misspelled back print, Latin letters on vests, clean efficient sweeping, Stitch's pile removed, Masha R in the foreground before the end, Serega, the girls with Stitch, cartoon, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8651,7 +8651,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
 @Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image4 — the same street geography only; exclude its girls and dog. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image4 — the same street geography only; exclude its girls and Stitch. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image5 — exact laser dustpan design: handle, collecting lip and cyan energy collecting surface; a cleaning tool, never a weapon. File: references/scenes/scene-69/S69-light-dustpan.png.
 @Image6 — successive handoff staging for melon, bag and broom only; individual sheets and separate prop references outrank its faces, costumes and designs. File: references/scenes/scene-69/S69-melon-bag-handoff.png.
 These are visual references, not a slideshow. The real previous video controls the start; identity sheets control likeness; prop references control tools; the handoff image explains support and grip only.
@@ -8662,7 +8662,7 @@ SWEEPER CREW: exactly three aliens from @Image2: a tall thin blue-grey FOREMAN w
 TOOLS: the light broom and laser dustpan match their separate prop references. The cyan glow belongs to harmless cleaning tools; solid tool geometry and real hand contact. Hold the dustpan steady with both hands; its dedicated prop reference controls the design. Exactly one bag, one melon, one dustpan and three crew brooms.
 
 LOCATION / STORY LOCK:
-The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. The dog and girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
+The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. Stitch and the girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
 
 START STATE:
 Begin on the exact last frame of @Video1: Masha approaches the crew with the same pale-blue ribbed melon cradled in one arm and the shopping bag's strap on her left shoulder. The crew still pose with their brooms; the inactive laser dustpan is beside the purple worker's feet. Stitch's pile remains untouched. The actual previous result takes priority over this expected composition.
@@ -8684,7 +8684,7 @@ LIGHTING / AUDIO:
 Harsh warm twin-sun light, dusty air, cyan glow on sand and gloves, photoreal skin, fabric and alien textures. Broom swishes, laser-tool hum, sand hiss into the pan, brief alien muttering, street footsteps and the final broom clack. Preserve incoming ambience; Masha's supplied lines and indistinct grumbling only. No narration, subtitles or generated music.
 
 NEGATIVE PROMPT:
-extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or dog returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
+extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or Stitch returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8709,7 +8709,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
 @Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image4 — the same street geography only; exclude its girls and dog. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image4 — the same street geography only; exclude its girls and Stitch. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image5 — exact laser dustpan design: handle, collecting lip and cyan energy collecting surface; a cleaning tool, never a weapon. File: references/scenes/scene-69/S69-light-dustpan.png.
 @Image6 — successive handoff staging for melon, bag and broom only; individual sheets and separate prop references outrank its faces, costumes and designs. File: references/scenes/scene-69/S69-melon-bag-handoff.png.
 These are visual references, not a slideshow. The real previous video controls the start; identity sheets control likeness; prop references control tools; the handoff image explains support and grip only.
@@ -8720,7 +8720,7 @@ SWEEPER CREW: exactly three aliens from @Image2: a tall thin blue-grey FOREMAN w
 TOOLS: the light broom and laser dustpan match their separate prop references. The cyan glow belongs to harmless cleaning tools; solid tool geometry and real hand contact. Hold the dustpan steady with both hands; its dedicated prop reference controls the design. Exactly one bag, one melon, one dustpan and three crew brooms.
 
 LOCATION / STORY LOCK:
-The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. The dog and girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. This first part ends with the handoff complete and the pile still untouched; the sweeping happens in Part 2. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
+The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. Stitch and the girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. This first part ends with the handoff complete and the pile still untouched; the sweeping happens in Part 2. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
 
 START STATE:
 Begin on the exact last frame of @Video1: Masha approaches the crew with the same pale-blue ribbed melon cradled in one arm and the shopping bag's strap on her left shoulder. The crew still pose with their brooms; the inactive laser dustpan is beside the purple worker's feet. Stitch's pile remains untouched. The actual previous result takes priority over this expected composition.
@@ -8740,7 +8740,7 @@ LIGHTING / AUDIO:
 Harsh warm twin-sun light, dusty air, cyan glow on sand and gloves, photoreal skin, fabric and alien textures. Low broom hum, bag-strap and clothing movement, the dustpan activating with a soft cyan-tool hum, brief alien muttering and street footsteps. Preserve incoming ambience; Masha's supplied lines and indistinct grumbling only. No narration, subtitles or generated music.
 
 NEGATIVE PROMPT:
-extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or dog returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
+extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or Stitch returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -8759,7 +8759,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — exact Masha R individual sheet: her face, hair, age and Tatooine costume; highest identity authority for her. File: references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png.
 @Image2 — exact three-worker crew and uniforms; highest authority for their separate bodies and designs. File: references/scenes/scene-68/S68-sweepers-crew.png.
 @Image3 — exact light broom: matte-black handle, chrome emitter, fan of cyan energy bristles. File: references/scenes/scene-68/S68-light-broom.png.
-@Image4 — the same street geography only; exclude its girls and dog. File: references/scenes/scene-66/S66-street-outrage.png.
+@Image4 — the same street geography only; exclude its girls and Stitch. File: references/scenes/scene-66/S66-street-outrage.png.
 @Image5 — exact laser dustpan design: handle, collecting lip and cyan energy collecting surface; a cleaning tool, never a weapon. File: references/scenes/scene-69/S69-light-dustpan.png.
 @Image6 — successive handoff staging for melon, bag and broom only; individual sheets and separate prop references outrank its faces, costumes and designs. File: references/scenes/scene-69/S69-melon-bag-handoff.png.
 These are visual references, not a slideshow. The real previous video controls the start; identity sheets control likeness; prop references control tools; the handoff image explains support and grip only.
@@ -8770,7 +8770,7 @@ SWEEPER CREW: exactly three aliens from @Image2: a tall thin blue-grey FOREMAN w
 TOOLS: the light broom and laser dustpan match their separate prop references. The cyan glow belongs to harmless cleaning tools; solid tool geometry and real hand contact. Hold the dustpan steady with both hands; its dedicated prop reference controls the design. Exactly one bag, one melon, one dustpan and three crew brooms.
 
 LOCATION / STORY LOCK:
-The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. The dog and girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. The initial handoff has already happened in the real input; do not repeat it. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
+The same dusty Tatooine street and twin-sun lighting as scene 68. Masha scolds, takes over and cleans skilfully; she never hits or pushes anyone. Stitch and the girls remain absent. Scene 69 collects Stitch's pile after scene 68 left it untouched. The initial handoff has already happened in the real input; do not repeat it. At every exchange, release follows secure support; the bag's long strap can hang on a forearm without occupying the palm.
 
 START STATE:
 Continue the exact final frame of @Video1 without reset. Expected handoff, subordinate to the actual video: Masha holds the foreman's one light broom in both hands. The foreman supports the SAME pale-blue ribbed melon with both hands against his torso; the shopping bag hangs by its long strap over his right forearm, not in his palms. The purple four-eyed worker has parked his own broom securely beside him and holds the activated laser dustpan with both hands, its open collecting lip flat on the ground facing Masha. The reptilian retains his own broom. Stitch's pile is still on the ground.
@@ -8789,7 +8789,7 @@ LIGHTING / AUDIO:
 Harsh warm twin-sun light, dusty air, cyan glow on sand and gloves, photoreal skin, fabric and alien textures. Broom swishes, laser-tool hum, sand hiss into the pan, brief alien muttering, street footsteps and the final broom clack. Preserve incoming ambience; Masha's supplied lines and indistinct grumbling only. No narration, subtitles or generated music.
 
 NEGATIVE PROMPT:
-extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or dog returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
+extra hands, duplicated or vanishing bag or melon, simultaneous unsupported exchanges, extra crew, ordinary non-laser dustpan, spilled collected waste, graphic excrement close-up, weapon use, cutting, burning, Serega, the girls or Stitch returning, face blending, costume changes, cartoon, misspelled vest print, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
