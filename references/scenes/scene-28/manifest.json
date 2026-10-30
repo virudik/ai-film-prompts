@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-30T00:44:14.760Z",
+  "updated_at": "2026-10-30T01:34:39+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -765,11 +765,59 @@
         "original_bytes_preserved": true,
         "cropped_or_resized": false
       }
+    },
+    {
+      "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+      "asset_id": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+      "caption": "Маша Р, Алина и Даша — отдельное трио на танцполе",
+      "role": "dance_composition_only",
+      "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+      "bytes": 2493559,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen",
+      "project_id": "seregius",
+      "created_at": "2026-10-30T01:34:39+00:00",
+      "prompt_file": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.image-prompt.txt",
+      "prompt_sha256": "77880edf24a3782a207faadcec332916f89463e0c570f1c14c9246b66ac0732f",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+        },
+        {
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T01:34:39+00:00",
+        "scope": "Exactly three distinct reference identities/costumes, adult/child scale, separate full-body dancing poses, coherent H28B, feet visible."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+        "linked_in_master": true,
+        "status": "pending_publication"
+      }
     }
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+  "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
   "identity_refs": [
     "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
     "references/full/serega.jpg",
@@ -1904,6 +1952,114 @@
       "previous_prompt_sha256_before_20261025": "87a47d5ce9cd8c1a7e368191bcd38e808f5397808b9dc17e0bf6fe295c34fe65",
       "previous_prompt_sha256_before_pose_refs": "479d519a36257622a6429feb7ed9d279c11d3112967c1dfd0987520ed3a8bb68",
       "pose_revision_20261025": "Exact horizontal support and two-hand face gesture now have separate helpers. A12 still requires actual A11 video."
+    },
+    {
+      "prompt": "28 A13",
+      "canonical_block_label": "28 A13",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+          "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+          "required": true,
+          "input_status": "available",
+          "role": "composition_only"
+        }
+      ],
+      "canonical_prompt_sha256": "71708a93298c6e17dd446592eb8bdddd89432631a04abff87b9f307a94f151eb",
+      "normalized_prompt_sha256": "f77ea02bbfcc328196453939d41365886189d1249703c5f7787ae4b90d5b8595",
+      "characters": 3686,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "status": "READY",
+      "generation_state": "not_submitted",
+      "launch_readiness": "authorized_inputs_available"
+    },
+    {
+      "prompt": "28 B12",
+      "canonical_block_label": "28 B12",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+          "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+          "required": true,
+          "input_status": "available",
+          "role": "composition_only"
+        }
+      ],
+      "canonical_prompt_sha256": "6b367a8a4286ac553008828ef4974e804d1386b6d7cc6b376ddd124d586b655f",
+      "normalized_prompt_sha256": "1ebb19037db5fa62d7693e6a7e5f2a3f5efa2c6804ed2ab2d5ae17ad7dfe77be",
+      "characters": 3681,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "status": "READY",
+      "generation_state": "not_submitted",
+      "launch_readiness": "unselected_alternative"
     }
   ],
   "site_published": {
@@ -1932,13 +2088,15 @@
       "references/ryzhik.jpg",
       "references/scenes/scene-28/C28-from-B2-result.png",
       "references/scenes/scene-28/H28-horizontal-lift.png",
-      "references/scenes/scene-28/F28-two-hand-face-fan.png"
+      "references/scenes/scene-28/F28-two-hand-face-fan.png",
+      "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png"
     ],
-    "status": "current_master_revision_verified",
+    "status": "pending_current_publication",
     "manifest_publication": "included_with_this_repository_version",
     "verified_at": "2026-10-30T01:02:57.117Z",
     "verification_report": "reports/final-music-number-2026-10-30.json",
-    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks.",
+    "linked_in_master": true
   },
   "last_qc_at": "2026-10-08T09:58:58.592675Z",
   "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
@@ -2054,7 +2212,7 @@
     "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
     "note": "Six verified web submissions, unlimited=true and creditsCost=0. Future/browser-session availability must be checked live."
   },
-  "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
+  "launch_gate": "Owner30Oct adds trio to the authorized final number: story priorities then63→49 (G before F)→50A/B→51A–G→28 (A13 before A10). Each new trio item: one Unlimited0 attempt; 30s versions unselected. A3 needs actual A2-R2 frame; A12 needs actual A11 clip. Preserve existing rerender/review gates. Stormtrooper image blocker does not block independent ready items. Technical retries only under ops/TOPVIEW-RETRY.md; no paid or artistic rerender authorization.",
   "couple_variant_20261020": {
     "source": "reports/peacemaker-s2-couple-2026-10-20.md",
     "seedance_parts": [
@@ -2109,5 +2267,12 @@
   "prompt_revision_20261030": {
     "report": "reports/final-music-number-2026-10-30.json",
     "production_slots_changed": false
+  },
+  "trio_revision_20261030": {
+    "report": "reports/final-music-trio-2026-10-30.json",
+    "new_blocks": [
+      "28 A13",
+      "28 B12"
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-30T00:44:14.760Z",
+  "updated_at": "2026-10-30T01:34:39+00:00",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -423,6 +423,54 @@
       "applies_to": [
         "49F"
       ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49G-trio-playing.png",
+      "asset_id": "references/scenes/scene-49/S49G-trio-playing.png",
+      "caption": "Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши",
+      "role": "instrument_design_and_playing_pose",
+      "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+      "bytes": 2620222,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen",
+      "project_id": "seregius",
+      "created_at": "2026-10-30T01:34:39+00:00",
+      "prompt_file": "references/scenes/scene-49/S49G-trio-playing.image-prompt.txt",
+      "prompt_sha256": "cf2bb01321f2536a40dcc8d71ba8be11c3c33a9bd1e05dc7749baf41ae78b976",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+        },
+        {
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T01:34:39+00:00",
+        "scope": "Exactly three identities/costumes, distinct intact assigned props; fretting/picking hands and keyboard contacts visible. String/key counts are not inferred from fine generated detail; design and owner assignment are authoritative."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-49/S49G-trio-playing.png",
+        "linked_in_master": true,
+        "status": "pending_publication"
+      }
     }
   ],
   "remaining": [],
@@ -982,26 +1030,137 @@
       "launch_readiness": "unselected_alternative",
       "status": "READY",
       "previous_prompt_sha256_before_20261025": "73cfd17617b0faa1d6c5d747618ef74e12a47b41c4f501e8f6994102a4eb1370"
+    },
+    {
+      "prompt": "49G",
+      "canonical_block_label": "49G",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+          "required": true,
+          "input_status": "available",
+          "role": "intact_prop_design_and_playing_pose"
+        }
+      ],
+      "canonical_prompt_sha256": "eb9b3198976f160c9cb5bae76b796ad713e56453740b7c3312918b81df83ad78",
+      "normalized_prompt_sha256": "953567a969cdc28aba7d4d18e36a8e98f353874647b1e775dcb5b041e02f2e8a",
+      "characters": 4253,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "status": "READY",
+      "generation_state": "not_submitted",
+      "launch_readiness": "authorized_inputs_available"
+    },
+    {
+      "prompt": "49 · Wan 3.0 часть 4",
+      "canonical_block_label": "49 · Wan 3.0 часть 4",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+          "required": true,
+          "input_status": "available",
+          "role": "intact_prop_design_and_playing_pose"
+        }
+      ],
+      "canonical_prompt_sha256": "bf71e7243d3253ef2bad82bbeb860253a36a6fb65814eab57952abd9d0bcb79e",
+      "normalized_prompt_sha256": "9d4a97623d973dddf283504d1565c2bd29e7066b115fced6ec687bbca3c35c88",
+      "characters": 4248,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "status": "READY",
+      "generation_state": "not_submitted",
+      "launch_readiness": "unselected_alternative"
     }
   ],
   "site_published": {
     "scene_anchor": "#scene-49",
     "linked_in_master": true,
-    "status": "current_master_revision_verified",
+    "status": "pending_current_publication",
     "verified_at": "2026-10-30T01:02:57.117Z",
     "evidence": "reports/reference-readiness-2026-10-17.json",
     "verification_report": "reports/final-music-number-2026-10-30.json",
-    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks.",
+    "gallery_paths": [
+      "references/scenes/scene-49/S49G-trio-playing.png"
+    ]
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",
     "Exact individual character identity from approved canonical references",
-    "No paid or automatic video generation",
+    "Only current owner-authorized queue may launch, Unlimited0; text edits do not themselves submit videos",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+  "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
-  "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
+  "launch_gate": "Owner30Oct adds trio to the authorized final number: story priorities then63→49 (G before F)→50A/B→51A–G→28 (A13 before A10). Each new trio item: one Unlimited0 attempt; 30s versions unselected. A3 needs actual A2-R2 frame; A12 needs actual A11 clip. Preserve existing rerender/review gates. Stormtrooper image blocker does not block independent ready items. Technical retries only under ops/TOPVIEW-RETRY.md; no paid or artistic rerender authorization.",
   "prompt_revision_20261025": {
     "scope": "Text/reference-map reconciliation only; existing reference assets and visual QC dates unchanged.",
     "report": "reports/prompt-refresh-2026-10-25.md"
@@ -1009,5 +1168,12 @@
   "prompt_revision_20261030": {
     "report": "reports/final-music-number-2026-10-30.json",
     "production_slots_changed": false
+  },
+  "trio_revision_20261030": {
+    "report": "reports/final-music-trio-2026-10-30.json",
+    "new_blocks": [
+      "49G",
+      "49 · Wan 3.0 часть 4"
+    ]
   }
 }

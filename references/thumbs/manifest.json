@@ -3152,6 +3152,36 @@
    "src_bytes": 2561427,
    "thumb_bytes": 43000,
    "src_sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01"
+  },
+  "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png": {
+   "thumb": "references/thumbs/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2493559,
+   "thumb_bytes": 50732,
+   "src_sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c"
+  },
+  "references/scenes/scene-49/S49G-trio-playing.png": {
+   "thumb": "references/thumbs/scenes/scene-49/S49G-trio-playing.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2620222,
+   "thumb_bytes": 56848,
+   "src_sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765"
+  },
+  "references/scenes/scene-51/S51G-trio-smash-result.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51G-trio-smash-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2631728,
+   "thumb_bytes": 59990,
+   "src_sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a"
   }
  }
 }

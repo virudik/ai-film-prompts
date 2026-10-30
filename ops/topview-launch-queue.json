@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T00:44:14.760Z",
+  "updated_at": "2026-10-30T01:35:23+00:00",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -19,234 +19,6 @@
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "selection_policy": "Owner30Oct2026: fill confirmed free global slots with selected Seregius videos by live item priority; skip true blockers/dependencies without reserving slots. Confirmed technical failure: up to2 additional attempts per item with one durable shared budget, then next independent ready item in same cycle, per ops/TOPVIEW-RETRY.md. Never duplicate active/unknown/successful tasks or revive owner-cancelled/held/superseded items; Roscosmos paused. Exact current item model/prompt/refs/QC, own lock+CAS claim, website Unlimited0 and verified receipt required. Historical selection text preserved verbatim in archive/ops/topview-launch-queue-archive.json -> metadata_history.selection_policy_before_20261030_retry; live priorities/dependencies unchanged.",
   "items": [
-    {
-      "id": "S66-STITCH-NB-IMAGE-1",
-      "scene_id": 66,
-      "prompt_id": "S66-STITCH-NB-IMAGE-1",
-      "media_type": "image",
-      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-front.image-prompt.txt",
-      "prompt_source": "UTF-8 full file, strip final newline only",
-      "canonical_prompt_sha256": "1aa2d5e5732693ea85414d42910b3cdc51f6f358f68ed2d90d023e255e045584",
-      "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
-      "prompt_file_sha256": "e43b596707deb9d550591469b24809157148917abceec8d0eeb1723f30c857dc",
-      "priority": -3,
-      "state": "cancelled_owner",
-      "model": "Nano Banana Pro",
-      "resolution": "2K",
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "image_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
-          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-street-outrage.png",
-          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "task_id": "e0f131c8f04f4991bd7ec9b317223aa0",
-      "claim": null,
-      "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
-      "launch_readiness": "closed_owner_after_provider_fail",
-      "created_at": "2026-10-28T15:02:46+00:00",
-      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
-      "on_success": "Superseded: owner29Oct abandons this trial; do not add to video inputs.",
-      "attempts_used": 2,
-      "retry_policy": "No retry: owner29Oct abandons these failed optional trials.",
-      "last_claim": {
-        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image1",
-        "claimed_at": "2026-10-29T06:02:50.220Z",
-        "actor": "chatgpt_event_trigger",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "event_id": "result:8a8eadc809004e318c47201b8a463be0",
-        "resolved_at": "2026-10-29T06:03:50.032Z",
-        "result": "submitted",
-        "task_id": "e0f131c8f04f4991bd7ec9b317223aa0"
-      },
-      "reauthorized_at": "2026-10-28T16:32:18+00:00",
-      "submitted_at": "2026-10-29T06:03:02Z",
-      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261029.json",
-      "observed_task_status": "fail",
-      "failure_reason": "Topview provider content restriction; support code35561575. Submitted once in Unlimited0, no automatic retry.",
-      "updated_at": "2026-10-29T07:46:52.392Z",
-      "owner_disposition": {
-        "at": "2026-10-29T07:46:52.392Z",
-        "decision": "Abandoned after confirmed provider fail; retain task/receipt/attempt history, no new generations and no substitution into video references.",
-        "source": "owner_instruction_20261029_resume_without_stitch"
-      }
-    },
-    {
-      "id": "S66-STITCH-NB-IMAGE-2",
-      "scene_id": 66,
-      "prompt_id": "S66-STITCH-NB-IMAGE-2",
-      "media_type": "image",
-      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-side.image-prompt.txt",
-      "prompt_source": "UTF-8 full file, strip final newline only",
-      "canonical_prompt_sha256": "f36ff2a8c4697b9e51123079f8a520a47be50d0e70f9078d59f0d696413d2ae2",
-      "normalized_prompt_sha256": "ada89a29d6934ac92afc6730f4a2433e94d6c7476580f1b7f0553b256d61464e",
-      "prompt_file_sha256": "593dea554d9ad545fc4f54e90cfcd5fb7dd2e93310cc0922cda141e56799e8d3",
-      "priority": -2,
-      "state": "cancelled_owner",
-      "model": "Nano Banana Pro",
-      "resolution": "2K",
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "image_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [
-        "S66-STITCH-NB-IMAGE-1"
-      ],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
-          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-street-outrage.png",
-          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "task_id": "0d7a40e276e645d291d31589cc4fbfe6",
-      "claim": null,
-      "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
-      "launch_readiness": "closed_owner_after_provider_fail",
-      "created_at": "2026-10-28T15:02:46+00:00",
-      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-side.png",
-      "on_success": "Superseded: owner29Oct abandons this trial; do not add to video inputs.",
-      "submitted_at": "2026-10-29T06:04:56Z",
-      "last_claim": {
-        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image2",
-        "claimed_at": "2026-10-29T06:04:46.555Z",
-        "actor": "chatgpt_event_trigger",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "resolved_at": "2026-10-29T06:06:20.272Z",
-        "result": "submitted",
-        "task_id": "0d7a40e276e645d291d31589cc4fbfe6"
-      },
-      "attempts_used": 1,
-      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-2-20261029.json",
-      "observed_task_status": "fail",
-      "failure_reason": "Topview provider content restriction; support code35561575. Submitted once in Unlimited0, no automatic retry.",
-      "updated_at": "2026-10-29T07:46:52.392Z",
-      "owner_disposition": {
-        "at": "2026-10-29T07:46:52.392Z",
-        "decision": "Abandoned after confirmed provider fail; retain task/receipt/attempt history, no new generations and no substitution into video references.",
-        "source": "owner_instruction_20261029_resume_without_stitch"
-      },
-      "retry_policy": "No retry: owner29Oct abandons these failed optional trials."
-    },
-    {
-      "id": "S66-STITCH-NB-IMAGE-3",
-      "scene_id": 66,
-      "prompt_id": "S66-STITCH-NB-IMAGE-3",
-      "media_type": "image",
-      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-arch.image-prompt.txt",
-      "prompt_source": "UTF-8 full file, strip final newline only",
-      "canonical_prompt_sha256": "33eb28ce825401c3078cb4dc108ebc56fb59b3b071f216b303ea8daf92bc5825",
-      "normalized_prompt_sha256": "040e6f04cde9a2090421a11db35f14e1c7f155463a82bb2507d2235f233b39c5",
-      "prompt_file_sha256": "85320fe7639a6968bef0c61abc0f8006977a2269873b352623f8b950c86e6e11",
-      "priority": -1,
-      "state": "cancelled_owner",
-      "model": "Nano Banana Pro",
-      "resolution": "2K",
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "image_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [
-        "S66-STITCH-NB-IMAGE-2"
-      ],
-      "depends_on_completed": [],
-      "references": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
-          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
-          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-66/S66-street-outrage.png",
-          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "task_id": "d460fc7bd2434133870232482b84237d",
-      "claim": null,
-      "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
-      "launch_readiness": "closed_owner_after_provider_fail",
-      "created_at": "2026-10-28T15:02:46+00:00",
-      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-arch.png",
-      "on_success": "Superseded: owner29Oct abandons this trial; do not add to video inputs.",
-      "submitted_at": "2026-10-29T06:06:29Z",
-      "last_claim": {
-        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image3",
-        "claimed_at": "2026-10-29T06:06:20.272Z",
-        "actor": "chatgpt_event_trigger",
-        "holder": "chatgpt",
-        "route": "free_web_gui",
-        "resolved_at": "2026-10-29T06:08:18.035Z",
-        "result": "submitted",
-        "task_id": "d460fc7bd2434133870232482b84237d"
-      },
-      "attempts_used": 1,
-      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-3-20261029.json",
-      "observed_task_status": "fail",
-      "failure_reason": "Topview provider content restriction; support code35561575. Submitted once in Unlimited0, no automatic retry.",
-      "updated_at": "2026-10-29T07:46:52.392Z",
-      "owner_disposition": {
-        "at": "2026-10-29T07:46:52.392Z",
-        "decision": "Abandoned after confirmed provider fail; retain task/receipt/attempt history, no new generations and no substitution into video references.",
-        "source": "owner_instruction_20261029_resume_without_stitch"
-      },
-      "retry_policy": "No retry: owner29Oct abandons these failed optional trials."
-    },
     {
       "id": "S13-S13",
       "scene_id": 13,
@@ -1554,8 +1326,8 @@
       "scene_id": 50,
       "prompt_id": "S50A",
       "canonical_block_label": "50A",
-      "canonical_prompt_sha256": "04cb1e0dd1e701f54291d0c0aa5c7992ee4e07d32501dd5fb02166d6c1a1553b",
-      "normalized_prompt_sha256": "f3bd5841ef4b40eb95711e2a2d62ac23b40a54da9a15b95d206da0ac3e4db613",
+      "canonical_prompt_sha256": "d758e289200e351c14adce0c5173f0f483a2d7552a016b9aab697117af5012cc",
+      "normalized_prompt_sha256": "929b309c39b2af07305f307a79b0be31bd41be018c4521df8a42d99a06238ab5",
       "priority": 1.3,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1572,31 +1344,29 @@
           "slot": "@Image1",
           "path": "references/scenes/scene-28/H28B-disco.png",
           "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
-          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
           "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
-          "required": true
+          "required": true,
+          "input_status": "available"
         }
       ],
       "task_id": null,
@@ -1609,7 +1379,8 @@
       "blocker": null,
       "previous_prompt_sha256": [
         "7261abddf45cf89f920e0d4685d890349019fac59ba8f99c84c8674719e2929a",
-        "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d"
+        "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
+        "04cb1e0dd1e701f54291d0c0aa5c7992ee4e07d32501dd5fb02166d6c1a1553b"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70).",
@@ -1652,8 +1423,8 @@
       "scene_id": 50,
       "prompt_id": "S50B",
       "canonical_block_label": "50B",
-      "canonical_prompt_sha256": "0b7bbb53ad85e387c41c9585021b30eda7027f5f23e11180a003d7473d1d097d",
-      "normalized_prompt_sha256": "15041ad607f5117ec30c2792855455a42e83d04ab17b5b4a7c00af14ac68bfd5",
+      "canonical_prompt_sha256": "f694d0bf6227fd3a47025d0241dd62e96db20791cef4c861dbdd395fa22ffcd0",
+      "normalized_prompt_sha256": "da768ee494bb9f8085fdff5cb10ec91b1f7c25b14b5fead6244facf51dab9349",
       "priority": 1.31,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1670,31 +1441,29 @@
           "slot": "@Image1",
           "path": "references/scenes/scene-28/H28B-disco.png",
           "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
-          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
           "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
-          "required": true
+          "required": true,
+          "input_status": "available"
         }
       ],
       "task_id": null,
@@ -1707,7 +1476,8 @@
       "blocker": null,
       "previous_prompt_sha256": [
         "841cf59d3a649c3519c542bb0b08974f1795a65fd2d938c60ddc9b5a8efea7fd",
-        "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500"
+        "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
+        "0b7bbb53ad85e387c41c9585021b30eda7027f5f23e11180a003d7473d1d097d"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "authorization_before_20261023_expansion": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70).",
@@ -7518,6 +7288,224 @@
       "result_review_required": true,
       "result_review_policy": "Verify continuous real69→street→open doorway→table→65 handoffs, exact identities and prop motion. Success is not acceptance.",
       "created_at": "2026-10-27T23:08:29Z"
+    },
+    {
+      "id": "S49G",
+      "scene_id": 49,
+      "prompt_id": "S49G",
+      "canonical_block_label": "49G",
+      "canonical_prompt_sha256": "eb9b3198976f160c9cb5bae76b796ad713e56453740b7c3312918b81df83ad78",
+      "normalized_prompt_sha256": "953567a969cdc28aba7d4d18e36a8e98f353874647b1e775dcb5b041e02f2e8a",
+      "priority": 1.245,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "task_id": null,
+      "claim": null,
+      "owner_review_required_after_item": null,
+      "blocker": null,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+          "required": true,
+          "input_status": "available",
+          "role": "intact_prop_design_and_playing_pose"
+        }
+      ],
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner30Oct adds this trio subscene to the already authorized final musical number; existing Unlimited0 one-attempt queue scope continues. No paid run, no duplicate or artistic rerender.",
+      "owner_launch_authorized_at": "2026-10-30T01:35:23+00:00",
+      "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp."
+    },
+    {
+      "id": "S51G",
+      "scene_id": 51,
+      "prompt_id": "S51G",
+      "canonical_block_label": "51G",
+      "canonical_prompt_sha256": "64aa3039988b07d81e466ce3ae28ed145f6d41987ecaa632352303e8b686ace6",
+      "normalized_prompt_sha256": "9e775f32196b00cd018d97edfa2020ad61406431c51c135709d7c7d57edb7692",
+      "priority": 1.46,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "task_id": null,
+      "claim": null,
+      "owner_review_required_after_item": null,
+      "blocker": null,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+          "required": true,
+          "input_status": "available",
+          "role": "intact_prop_design_and_playing_pose"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
+          "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_result_only_not_start"
+        }
+      ],
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner30Oct adds this trio subscene to the already authorized final musical number; existing Unlimited0 one-attempt queue scope continues. No paid run, no duplicate or artistic rerender.",
+      "owner_launch_authorized_at": "2026-10-30T01:35:23+00:00",
+      "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp."
+    },
+    {
+      "id": "S28-A13-20261030",
+      "scene_id": 28,
+      "prompt_id": "S28-A13-20261030",
+      "canonical_block_label": "28 A13",
+      "canonical_prompt_sha256": "71708a93298c6e17dd446592eb8bdddd89432631a04abff87b9f307a94f151eb",
+      "normalized_prompt_sha256": "f77ea02bbfcc328196453939d41365886189d1249703c5f7787ae4b90d5b8595",
+      "priority": 2.095,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "task_id": null,
+      "claim": null,
+      "owner_review_required_after_item": null,
+      "blocker": null,
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available",
+          "role": "location"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Masha R"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Alina"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available",
+          "role": "identity:Dasha"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+          "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+          "required": true,
+          "input_status": "available",
+          "role": "composition_only"
+        }
+      ],
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "launch_readiness": "authorized_inputs_available",
+      "authorization": "Owner30Oct adds this trio subscene to the already authorized final musical number; existing Unlimited0 one-attempt queue scope continues. No paid run, no duplicate or artistic rerender.",
+      "owner_launch_authorized_at": "2026-10-30T01:35:23+00:00",
+      "authorization_recorded_at_note": "Recorded now from current owner request and existing final-number queue authorization, not a claimed message timestamp."
     }
   ],
   "already_submitted": {
@@ -7957,6 +7945,33 @@
     "recorded_by": "claude:chatgpt-review"
   },
   "archived_items": [
+    {
+      "id": "S66-STITCH-NB-IMAGE-3",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-3",
+      "state": "cancelled_owner",
+      "task_id": "d460fc7bd2434133870232482b84237d",
+      "canonical_prompt_sha256": "33eb28ce825401c3078cb4dc108ebc56fb59b3b071f216b303ea8daf92bc5825",
+      "normalized_prompt_sha256": "040e6f04cde9a2090421a11db35f14e1c7f155463a82bb2507d2235f233b39c5"
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-2",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-2",
+      "state": "cancelled_owner",
+      "task_id": "0d7a40e276e645d291d31589cc4fbfe6",
+      "canonical_prompt_sha256": "f36ff2a8c4697b9e51123079f8a520a47be50d0e70f9078d59f0d696413d2ae2",
+      "normalized_prompt_sha256": "ada89a29d6934ac92afc6730f4a2433e94d6c7476580f1b7f0553b256d61464e"
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-1",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-1",
+      "state": "cancelled_owner",
+      "task_id": "e0f131c8f04f4991bd7ec9b317223aa0",
+      "canonical_prompt_sha256": "1aa2d5e5732693ea85414d42910b3cdc51f6f358f68ed2d90d023e255e045584",
+      "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912"
+    },
     {
       "id": "S37-SEED20-P2",
       "scene_id": 37,
@@ -8667,5 +8682,18 @@
   "prompt_revision_20261030": {
     "report": "reports/final-music-number-2026-10-30.json",
     "scope": "28/49/50/51: 47 blocks; 26 unsubmitted items updated. Submitted payloads/history and queue order unchanged; crowd alternatives gallery only."
+  },
+  "owner_instruction_20261030_trio": {
+    "recorded_at": "2026-10-30T01:35:23+00:00",
+    "source": "Current owner Work chat",
+    "selected_ids": [
+      "S49G",
+      "S51G",
+      "S28-A13-20261030"
+    ],
+    "report": "reports/final-music-trio-2026-10-30.json",
+    "order": "49G before49F;51G after51F;28A13 before28A10; story priorities unchanged",
+    "stormtrooper_image": "pending; not a queue gate",
+    "new_video_submissions": 0
   }
 }

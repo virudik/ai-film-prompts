@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**27 сцен к генерации/доработке · 128 полных текстов промта**
+**27 сцен к генерации/доработке · 134 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 11** сцен сейчас в медленной генерации: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 62** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -16,7 +16,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **30.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 128 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 62**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **30.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 134 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 62**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -70,7 +70,7 @@
 | 42 | [Татуин: бой на фоне червя — червь им не интересен](#scene-42) | Серёга, Илюша, Артём; червь; руины Scene 16 | Продолжение принятой Scene 16: дуэль продолжается, червь крушит всё вокруг, герои лениво уворачиваются, не глядя на него. READY: настоящий последний кадр 16 подключён.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). Начинается склейкой, без видео 56 (владелец 23.10).<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 49 | [Финальный музыкально-танцевальный номер: Космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
-| 50 | [Финальный музыкально-танцевальный номер: Вуки-фанаты: хедбэнг и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B; реакции монтируются с рок-финалом51. |
+| 50 | [Финальный музыкально-танцевальный номер: Вуки на площадке и зрители напротив](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B; реакции монтируются с рок-финалом51. |
 | 51 | [Финальный музыкально-танцевальный номер: Рок-финал: каждый разбивает свой инструмент](#scene-51) | Точный H28B; все12 музыкантов в6 отдельных парах, собственные инструменты49 | READY: шесть самостоятельных15s 51A–F; шесть альтернатив30s. Каждому свой контакт и видимая поломка; очередь после50 перед28. |
 | 52 | [Татуинская связка 1/7 — прогулка Серёги (часть 7)](#tatooine-chain-start) | настоящий конец44 Seedance2.5 для P1; реальные концы предыдущих частей для P2–P7; изображения — по локальным слотам каждого блока | Семь отдельных частей: посадка в корабль, взлёт, облёт крейсера, подлёт к Татуину, посадка, выход, прогулка с передачей камеры Алине/Даше/Стичу →66. P1–P6: Seedance2.0 по15с; P7: Wan3.0,30с. Изображения готовы; P1 уже отправлена (task указан выше), P2–P7 ждут реальные результаты предыдущих частей и QC.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. Начинается склейкой, без видео 42 (владелец 23.10).<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
@@ -719,6 +719,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 28 — Финальный музыкально-танцевальный номер: Имперский строевой танец
 
+**Дополнение владельца · 30.10.2026:** Маша Р, Алина и Даша выступают отдельным трио:28A13/B12 — танец,49G/30с часть4 — игра,51G/30с часть7 — каждый ломает своё. Маша Р не Маша Лагуна. Старые общие кадры G28/49F содержат прежние12 персонажей; новое трио снимается отдельно, не дорисовывается в эти кадры. Монтаж: танцы и игра до уничтожения инструментов; после разбивания целые инструменты не возвращаются. Вуки — на центральной площадке; штурмовики — публика напротив у внутренней стены, реакция отдельной перебивкой. [Референсы, очередность и оставшийся блокер](reports/final-music-trio-2026-10-30.json).
+
 **Общий блок:** [49 — музыканты](#scene-49) → [50 — вуки-фанаты](#scene-50) → [51 — разбивание инструментов](#scene-51) → [28 — танцы](#scene-28). Это порядок подготовки выбранной очереди; в фильме номера чередуются на музыкальных акцентах. Стабильные номера сцен сохранены.
 
 **Редакция владельца · 30.10.2026 — финальный музыкально-танцевальный номер:** меняющиеся лучи, световые линии пола и отражения; нейтральные читаемые лица; движение исполнителей без замирания в середине. Камера использует осмысленные дуги, наезды и отъезды; у касаний, поддержек и ударов важнее видимый контакт и неизменная ось. Обновлены все версии, включая промты ранее отправленных частей, для будущих разрешённых запусков. Фактические старые отправки и их SHA сохранены; новая редакция не меняет уже созданный ролик. [Правки, очередь и связь со старыми задачами](reports/final-music-number-2026-10-30.json).
@@ -763,7 +765,7 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 
 **Контекст использования:** отдельная внесюжетная кода ПОСЛЕ сюжетного финала, под финальные титры. Девять людей/гуманоидов, Алеся и два кота из вкладки «Персонажи» исполняют нелепую хореографию с абсолютно серьёзными лицами. Отсылка к заставкам «Миротворца» — серьёзная подача нелепой хореографии. По запросу пользователя добавлены мотивы второй заставки: повторные движения руками у лица, кружение на руках и перенос на плече; здесь они поставлены для наших персонажей и ангара. Центральная пара — Серёга и Юля. Сцена не меняет сюжетный финал, Warcraft или историю карты.
 
-**Редакция 08.10.2026:** по запросу пользователя подготовлены ДВЕ законченные версии одного номера: **Seedance 2.0 — исходные 10×15 с** и **Wan 3.0 — исходные 10×30 с**; после добавления дуэта20.10 текущий состав — A1–A12 и B1–B11, 23 автономных промта. Старый вариант Seedance 2.5 заменён этими версиями. Каждый блок содержит собственные референсы, внешность, действие, свет, начало/конец и ограничения. Это альтернативы: не требуется генерировать оба комплекта.
+**Редакция 08.10.2026:** по запросу пользователя подготовлены ДВЕ законченные версии одного номера: **Seedance 2.0 — исходные 10×15 с** и **Wan 3.0 — исходные 10×30 с**; после добавления дуэта20.10 текущий состав после дополнения30.10 — A1–A13 и B1–B12,25 автономных промтов. Старый вариант Seedance 2.5 заменён этими версиями. Каждый блок содержит собственные референсы, внешность, действие, свет, начало/конец и ограничения. Это альтернативы: не требуется генерировать оба комплекта.
 
 **Правка 16.10.2026:** из A8–A10 и B8–B10 убраны операторские и монтажные пометки («use only after…», «editorial cut / freeze»); их заменили нейтральным описанием начала и конца клипа. Механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
 
@@ -874,9 +876,9 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 
 <div class="engine-tabs" data-scene="28">
 
-<div class="engine-pane" data-engine="sd20" data-main="1" data-duration="10 × 15 с">
+<div class="engine-pane" data-engine="sd20" data-main="1" data-duration="13 × 15 с">
 
-### Версия A — Seedance 2.0, десять роликов по 15 секунд
+### Версия A — Seedance 2.0, тринадцать роликов по 15 секунд
 
 #### A1 · Танец 1 — Серёга и Юля задают устав
 
@@ -1420,11 +1422,46 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
+#### A13 · Трио — Маша Р, Алина и Даша · 15 с
+
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S28-trio-masha-alina-dasha-dance](references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png). Самостоятельный номер, @Video1 не нужен.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png.webp" alt="Маша Р, Алина и Даша — отдельное трио на танцполе" loading="lazy"></a><figcaption>Маша Р, Алина и Даша — отдельное трио на танцполе</figcaption></figure></div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action final musical dance number
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 is the dance composition/spacing helper, not a frozen pose or identity authority.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
+
+LOCATION / LIVE LIGHT:
+The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
+
+ACTION / PERFORMANCE:
+Already dancing on the central medallion, Alina left, Masha centre, Dasha right, no instruments. An exuberant coordinated folk-rock disco groove at roughly120 BPM: springy alternating side steps, assertive shoulder accents and alternating sweeping forearm gestures. Masha initiates a phrase and the girls answer it with their own natural variations. Proud concentrated, almost deadpan faces contrast with lively full-body motion. Keep energy through the entire middle, connecting steps and changing weight continuously, not holding a copied pose. No touching, lifts or acrobatics; each has a clear lane. Let the model invent natural transitions and small grounded turns without exchanging places. The closing accent occupies only the last half-second; breathing and clothing keep moving.
+
+CAMERA:
+One continuous full-body three-shot, natural35mm perspective. A smooth35-degree front arc approaches on the answering phrase and eases outward into the closing accent. Keep all faces, hands and feet visible and separated. Stay in the front hemisphere; shorten the arc rather than overlap the girls. The dancers supply real movement, not a rotating background.
+
+AUDIO:
+Original driving instrumental rock/disco pulse, clear footsteps, cloth and hangar reverb. No speech, lyrics or recognizable published melody.
+
+NEGATIVE:
+Face/costume swaps, age changes, cloned performers, extra limbs, floaty feet, instruments, frozen middle, slow motion, random cuts, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
 </div>
 
-<div class="engine-pane" data-engine="wan30" data-duration="11 × 30 с">
+<div class="engine-pane" data-engine="wan30" data-duration="12 × 30 с">
 
-### Версия B — Wan 3.0, одиннадцать роликов по 30 секунд
+### Версия B — Wan 3.0, двенадцать роликов по 30 секунд
 
 #### B1 · Танец 1 — Серёга и Юля задают устав
 
@@ -1906,6 +1943,41 @@ Identity swaps, extra cast, skating feet, fused limbs, weapons, full-frame flash
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### B12 · Трио — Маша Р, Алина и Даша · 30 с
+
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S28-trio-masha-alina-dasha-dance](references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png). Самостоятельный номер, @Video1 не нужен.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png.webp" alt="Маша Р, Алина и Даша — отдельное трио на танцполе" loading="lazy"></a><figcaption>Маша Р, Алина и Даша — отдельное трио на танцполе</figcaption></figure></div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action final musical dance number
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 is the dance composition/spacing helper, not a frozen pose or identity authority.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
+
+LOCATION / LIVE LIGHT:
+The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
+
+ACTION / PERFORMANCE:
+Already dancing on the central medallion, Alina left, Masha centre, Dasha right, no instruments. An exuberant coordinated folk-rock disco groove at roughly120 BPM: springy alternating side steps, assertive shoulder accents and alternating sweeping forearm gestures. Masha initiates a phrase and the girls answer it with their own natural variations. Proud concentrated, almost deadpan faces contrast with lively full-body motion. Keep energy through the entire middle, connecting steps and changing weight continuously, not holding a copied pose. No touching, lifts or acrobatics; each has a clear lane. Let the model invent natural transitions and small grounded turns without exchanging places. The closing accent occupies only the last half-second; breathing and clothing keep moving.
+
+CAMERA:
+One continuous full-body three-shot, natural35mm perspective. A smooth35-degree front arc approaches on the answering phrase and eases outward into the closing accent. Keep all faces, hands and feet visible and separated. Stay in the front hemisphere; shorten the arc rather than overlap the girls. The dancers supply real movement, not a rotating background.
+
+AUDIO:
+Original driving instrumental rock/disco pulse, clear footsteps, cloth and hangar reverb. No speech, lyrics or recognizable published melody.
+
+NEGATIVE:
+Face/costume swaps, age changes, cloned performers, extra limbs, floaty feet, instruments, frozen middle, slow motion, random cuts, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
 </div>
@@ -3183,6 +3255,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 49 — Финальный музыкально-танцевальный номер: Космическая рок-группа
 
+**Дополнение владельца · 30.10.2026:** Маша Р, Алина и Даша выступают отдельным трио:28A13/B12 — танец,49G/30с часть4 — игра,51G/30с часть7 — каждый ломает своё. Маша Р не Маша Лагуна. Старые общие кадры G28/49F содержат прежние12 персонажей; новое трио снимается отдельно, не дорисовывается в эти кадры. Монтаж: танцы и игра до уничтожения инструментов; после разбивания целые инструменты не возвращаются. Вуки — на центральной площадке; штурмовики — публика напротив у внутренней стены, реакция отдельной перебивкой. [Референсы, очередность и оставшийся блокер](reports/final-music-trio-2026-10-30.json).
+
 **Общий блок:** [49 — музыканты](#scene-49) → [50 — вуки-фанаты](#scene-50) → [51 — разбивание инструментов](#scene-51) → [28 — танцы](#scene-28). Это порядок подготовки выбранной очереди; в фильме номера чередуются на музыкальных акцентах. Стабильные номера сцен сохранены.
 
 **Редакция владельца · 30.10.2026 — финальный музыкально-танцевальный номер:** меняющиеся лучи, световые линии пола и отражения; нейтральные читаемые лица; движение исполнителей без замирания в середине. Камера использует осмысленные дуги, наезды и отъезды; у касаний, поддержек и ударов важнее видимый контакт и неизменная ось. Обновлены все версии, включая промты ранее отправленных частей, для будущих разрешённых запусков. Фактические старые отправки и их SHA сохранены; новая редакция не меняет уже созданный ролик. [Правки, очередь и связь со старыми задачами](reports/final-music-number-2026-10-30.json).
@@ -3204,7 +3278,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-tabs" data-scene="49">
 
-<div class="engine-pane" data-engine="sd20" data-main="1" data-duration="6 × 15 с">
+<div class="engine-pane" data-engine="sd20" data-main="1" data-duration="7 × 15 с">
 
 ### 49A · Гитарный дуэт — Серёга и Юля · 15 с
 
@@ -3529,7 +3603,7 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
-### 49F · Все музыканты — общий пафосный финал · 15 с
+### 49F · Исходный ансамбль12 — общий пафосный финал · 15 с
 
 **Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2 — полный ансамбль</a> · @Image3 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты A</a> · @Image4 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты B</a> · @Image5 = <a href="references/scenes/scene-49/S49C-drums-wind-bass.png">инструменты C</a> · @Image6 = <a href="references/scenes/scene-49/S49D-harp-small-synth.png">инструменты D</a> · @Image7 = <a href="references/scenes/scene-49/S49E-cat-paw-controllers.png">инструменты E</a>.
 
@@ -3607,9 +3681,47 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
+### 49G · Маша Р, Алина и Даша — рок-трио · 15 с
+
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png). Самостоятельный номер, @Video1 не нужен.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-49/S49G-trio-playing.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49G-trio-playing.png.webp" alt="Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши" loading="lazy"></a><figcaption>Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши</figcaption></figure></div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action final musical dance number
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 controls the three intact instrument designs, their owners and playing contacts; it cannot override individual faces or the location.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
+
+LOCATION / LIVE LIGHT:
+The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
+
+INSTRUMENT OWNERSHIP / CONTACT:
+Alina owns the short-scale turquoise/silver alien bass; Masha owns the copper/red alien electric guitar with circular amber core and silver edging; Dasha owns the compact purple/amber keyboard on its low stable stand. Match the physical designs in @Image5, one of each, with unchanged ownership and child-appropriate scale. Alina and Masha: straps carry the weight, left hand frets the physical neck, right hand picks at the body bridge. Dasha plays actual keys with both hands while her stand stays planted. No two-handed smash grips while playing.
+
+ACTION / PERFORMANCE:
+Already playing a confident rock trio riff: Masha leads a punchy phrase, Alina answers with a bass groove, Dasha punctuates it with bright keyboard figures, then they drive the phrase together. Continuous hand playing, visible knee/shoulder rhythm and energetic weight shifts throughout; keep the girls natural and Masha proudly serious, not a frozen glamour pose. Faces remain readable, strings/keys and instruments stay rigid and intact. Do not trade props, stop at the middle or finish early. Final shared accent only in the last half-second with resonance and body motion continuing.
+
+CAMERA:
+One continuous medium-full three-shot,35–50mm perspective, a smooth35-degree front arc with a modest inward dolly toward the answering phrase and outward reveal for the final accent. Keep all faces, complete instruments, fretting/picking hands, keyboard contacts and planted feet readable. No axis crossing or passing behind the keyboard.
+
+AUDIO:
+Original fast heroic instrumental hard rock: distinct distorted lead guitar, deep bass, bright keyboard and steady drum backing; playing contacts plausibly synchronized with notes. Hangar reverb, no speech, lyrics or recognizable published melody.
+
+NEGATIVE:
+Wrong owners, cloned or merged faces, costume changes, floating fingers, missed contacts, liquid props, broken instruments, extra musicians, long holds, slow motion, random cuts, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
 </div>
 
-<div class="engine-pane" data-engine="wan30" data-duration="3 × 30 с">
+<div class="engine-pane" data-engine="wan30" data-duration="4 × 30 с">
 
 Те же шесть номеров тремя роликами по 30 с на Wan 3.0: часть 1 = 49A + 49B, часть 2 = 49C + 49D, часть 3 = 49E + 49F.
 
@@ -3821,6 +3933,44 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
+#### 49 · Wan 3.0 часть 4 · Маша Р, Алина и Даша
+
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png). Самостоятельный номер, @Video1 не нужен.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-49/S49G-trio-playing.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49G-trio-playing.png.webp" alt="Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши" loading="lazy"></a><figcaption>Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши</figcaption></figure></div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action final musical dance number
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 controls the three intact instrument designs, their owners and playing contacts; it cannot override individual faces or the location.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
+
+LOCATION / LIVE LIGHT:
+The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
+
+INSTRUMENT OWNERSHIP / CONTACT:
+Alina owns the short-scale turquoise/silver alien bass; Masha owns the copper/red alien electric guitar with circular amber core and silver edging; Dasha owns the compact purple/amber keyboard on its low stable stand. Match the physical designs in @Image5, one of each, with unchanged ownership and child-appropriate scale. Alina and Masha: straps carry the weight, left hand frets the physical neck, right hand picks at the body bridge. Dasha plays actual keys with both hands while her stand stays planted. No two-handed smash grips while playing.
+
+ACTION / PERFORMANCE:
+Already playing a confident rock trio riff: Masha leads a punchy phrase, Alina answers with a bass groove, Dasha punctuates it with bright keyboard figures, then they drive the phrase together. Continuous hand playing, visible knee/shoulder rhythm and energetic weight shifts throughout; keep the girls natural and Masha proudly serious, not a frozen glamour pose. Faces remain readable, strings/keys and instruments stay rigid and intact. Do not trade props, stop at the middle or finish early. Final shared accent only in the last half-second with resonance and body motion continuing.
+
+CAMERA:
+One continuous medium-full three-shot,35–50mm perspective, a smooth35-degree front arc with a modest inward dolly toward the answering phrase and outward reveal for the final accent. Keep all faces, complete instruments, fretting/picking hands, keyboard contacts and planted feet readable. No axis crossing or passing behind the keyboard.
+
+AUDIO:
+Original fast heroic instrumental hard rock: distinct distorted lead guitar, deep bass, bright keyboard and steady drum backing; playing contacts plausibly synchronized with notes. Hangar reverb, no speech, lyrics or recognizable published melody.
+
+NEGATIVE:
+Wrong owners, cloned or merged faces, costume changes, floating fingers, missed contacts, liquid props, broken instruments, extra musicians, long holds, slow motion, random cuts, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
 </div>
 
 </div>
@@ -3829,7 +3979,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <a id="scene-50"></a>
 
-## Сцена 50 — Финальный музыкально-танцевальный номер: Вуки-фанаты: хедбэнг и слэм
+## Сцена 50 — Финальный музыкально-танцевальный номер: Вуки на площадке и зрители напротив
 
 **Общий блок:** [49 — музыканты](#scene-49) → [50 — вуки-фанаты](#scene-50) → [51 — разбивание инструментов](#scene-51) → [28 — танцы](#scene-28). Это порядок подготовки выбранной очереди; в фильме номера чередуются на музыкальных акцентах. Стабильные номера сцен сохранены.
 
@@ -3839,24 +3989,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49}],"tags":["dance_credits","wookiee_crowd","rock_headbang","safe_mosh_pit","same_H28B","montage_insert","final_music_dance_number"]} -->
 
-**Контекст использования:** Дополнительная зрительская сцена по прямому решению владельца 16.10.2026. **В той же H28B-ангар-дискотеке** толпа вуки восторженно фанатеет от группы из Scene 49 и энергично трясёт шерстью как хэви-метал фанаты. Два **самостоятельных** коротких 15-секундных монтажа: (50A) волна хедбэнга; (50B) дружелюбный контролируемый слэм в небольшом круге. Для дальнейшего монтажа вместе с танцами Scene 28 и музыкантами Scene 49. **READY (выбор владельца 17.10, 23:58):** из трёх постановочных кадров выбран **вариант 2 — вуки с поднятыми руками** (task `1c48a62d14d14d348a5c49fe5cdb5e70`, «выглядят более подвижно и по-фанатски»). Он подключён как @Image5 во всех трёх текущих версиях50; в переработанных51A–F вуки не являются входом — реакции идут отдельными вставками50. Варианты 1 и 3 остаются в архиве, во входы не идут. Запуск и приёмку 50A/50B сверять по свежей очереди и телеметрии; эта редактура сама видео не отправляет. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
+**Контекст использования:** Дополнительная зрительская сцена по прямому решению владельца 16.10.2026. **В той же H28B-ангар-дискотеке** толпа вуки восторженно фанатеет от группы из Scene 49 и энергично трясёт шерстью как хэви-метал фанаты. Два **самостоятельных** коротких 15-секундных монтажа: (50A) волна хедбэнга; (50B) дружелюбный контролируемый слэм в небольшом круге. Для дальнейшего монтажа вместе с танцами Scene 28 и музыкантами Scene 49. **READY (выбор владельца 17.10, 23:58):** из трёх постановочных кадров выбран **вариант 2 — вуки с поднятыми руками** (task `1c48a62d14d14d348a5c49fe5cdb5e70`, «выглядят более подвижно и по-фанатски»). Он подключён как @Image4 во всех трёх текущих версиях50; в переработанных51A–F вуки не являются входом — реакции идут отдельными вставками50. Варианты 1 и 3 остаются в архиве, во входы не идут. Запуск и приёмку 50A/50B сверять по свежей очереди и телеметрии; эта редактура сама видео не отправляет. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
 
-**Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B, точная локация</a>; @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только знакомые участники группы на дальнем плане</a>, **не заменять их вуки**. Вуки — отдельные зрители, а не новые члены основной группы.
+**Референсы:** @Image1 — H28B; @Image2–3 — внешность вуки из кадров владельца; @Image4 — выбранная толпа на площадке. Музыканты и публика напротив находятся за кадром.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — неизменный ангар-дискотека" loading="lazy"></a><figcaption>@Image1 — неизменный ангар-дискотека</figcaption></figure>
-<figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="@Image2 — состав группы, только фоновые участники" loading="lazy"></a><figcaption>@Image2 — состав группы, только фоновые участники</figcaption></figure>
+
 </div>
 
-**Референс внешности вуки · 17.10:** @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">предоставленный владельцем кадр00:03.400</a>. Использовать только морды, шерсть и анатомию вуки; интерьер и людей из кадра не переносить. Локация остаётся H28B. «Аудитория» здесь означает только толпу зрителей-фанатов. Три постановочных кадра толпы готовы и показаны ниже; владелец выбрал вариант2, его точный файл уже подключён во все текущие версии. Это действующий вход; новый запрос30.10 на альтернативу с толпой напротив разобран ниже. <a href="references/scenes/scene-50/S50-fans-image-prompt.txt">Подготовленный промт изображения для Nano Banana</a>.
+**Референс внешности вуки · 17.10:** @Image2 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">предоставленный владельцем кадр00:03.400</a>. Использовать только морды, шерсть и анатомию вуки; интерьер и людей из кадра не переносить. Локация остаётся H28B. Вуки танцуют на центральной площадке. Три постановочных кадра толпы готовы и показаны ниже; владелец выбрал вариант2, его точный файл уже подключён во все текущие версии. Это действующий вход; решение30.10 о штурмовиках напротив разобрано ниже. <a href="references/scenes/scene-50/S50-fans-image-prompt.txt">Подготовленный промт изображения для Nano Banana</a>.
 
-<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-owner-03m400.jpg.webp" alt="@Image3 — внешность вуки из своего ролика, только species reference" loading="lazy"></a><figcaption>@Image3 — внешность вуки из своего ролика, только species reference</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-owner-03m400.jpg.webp" alt="@Image2 — внешность вуки из своего ролика, только species reference" loading="lazy"></a><figcaption>@Image2 — внешность вуки из своего ролика, только species reference</figcaption></figure></div>
 
-**Дополнительный вход:** @Image4 = <a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg">вуки крупно00:14.833</a>; только внешность.
+**Дополнительный вход:** @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg">вуки крупно00:14.833</a>; только внешность.
 
-<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-owner-14m833.jpg.webp" alt="@Image4 — морда и шерсть вуки, кадр владельца" loading="lazy"></a><figcaption>@Image4 — морда и шерсть вуки, кадр владельца</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-owner-14m833.jpg.webp" alt="@Image3 — морда и шерсть вуки, кадр владельца" loading="lazy"></a><figcaption>@Image3 — морда и шерсть вуки, кадр владельца</figcaption></figure></div>
 
-**Готовые кадры фанатов · 17.10.2026:** три бесплатных варианта Nano Banana Pro, оригиналы 2752×1536. Нажмите миниатюру, чтобы открыть полный кадр. Выбран вариант 2 (владелец 17.10): он вход @Image5 для 50A/50B и @Image8 для 51A/51B.
+**Готовые кадры фанатов · 17.10.2026:** три бесплатных варианта Nano Banana Pro, оригиналы 2752×1536. Нажмите миниатюру, чтобы открыть полный кадр. Выбран вариант 2 (владелец 17.10): он вход @Image4 для50A/50B и30с; в51 не используется.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-50/S50-fans-48657a07.png" target="_blank" rel="noopener"><img src="references/scenes/scene-50/S50-fans-48657a07-thumb.jpg" alt="Вариант 1 — полные фигуры, хлопки" loading="lazy"></a><figcaption>Вариант 1 — полные фигуры, хлопки · не выбран</figcaption></figure>
@@ -3866,18 +4016,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Что происходит:** Несколько десятков высоких лохматых вуки на танцполе смотрят на группу и радостно рычат, раскачивают длинную шерсть и головы в тяжёлом рок-ритме, вскидывают лапы, а потом устраивают небольшой дружелюбный слэм-круг без травм и агрессивной драки. Танцы, рок-концерт и кадры фанатов монтируются вперемешку. Только та же просторная площадка и свет Scene 28.
 
-### Расстановка вуки и обратный ракурс · варианты30.10
+### Расстановка · решение владельца30.10
 
-**А — на центральной площадке:** существующий выбранный кадр с поднятыми руками сохранён; портал и шаттл за вуки. Он уже показывает первый из запрошенных вариантов, повторная картинка для его использования не нужна.
+Вуки остаются на центральной площадке в выбранном кадре17.10: портал и шаттл за ними, камера со стороны внутренней стены. Штурмовики — радостные зрители на противоположной стороне, у закрытой внутренней стены; камера смотрит на них со стороны выступления. Это два направления одного ангара, а не два портала. Орбиты не пересекают эту ось; реакция публики — отдельная монтажная перебивка. Люди и кошки не добавляются в толпу вуки.
 
-**Б — зрители напротив:** камера со стороны выступления смотрит к внутренней стене; толпа за центральным медальоном, перед ней свободный проход, музыканты за камерой. Пустой обратный вид ангара создан как постановочное предложение. **Кадр с толпой пока не получен:** встроенный генератор отклонил вариант фильтром; [точный промт](references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt) сохранён для продолжения. Он не означает готового PNG или разрешения платной генерации. Для сравнения двух законченных вариантов сначала нужен этот кадр, затем выбор владельца.
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-fans-1c48a62d.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-fans-1c48a62d.png.webp" alt="Вуки — центральная площадка, выбранный существующий кадр" loading="lazy"></a><figcaption>Вуки — центральная площадка, выбранный существующий кадр</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-28/H28B-reverse-empty.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/H28B-reverse-empty.png.webp" alt="Противоположная сторона H28B — основа для зрителей-штурмовиков" loading="lazy"></a><figcaption>Противоположная сторона H28B — основа для зрителей-штурмовиков</figcaption></figure></div>
 
-<div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-50/S50-fans-1c48a62d.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-fans-1c48a62d.png.webp" alt="А — вуки на центральной площадке, существующий выбранный кадр" loading="lazy"></a><figcaption>А — вуки на центральной площадке; существующий выбранный кадр</figcaption></figure>
-<figure><a href="references/scenes/scene-28/H28B-reverse-empty.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/H28B-reverse-empty.png.webp" alt="Обратный вид H28B — пока без толпы, постановочное предложение" loading="lazy"></a><figcaption>Основа для Б — обратный вид H28B, пока без толпы. Предложение, не выбранный видеовход</figcaption></figure>
-</div>
-
-Новые варианты не подменяют @Image5, не добавлены в обязательные входы и не задерживают очередь. Текущие дуги камеры остаются в видимой части H28B. После выбора обратной расстановки нужно согласованно заменить композиционный вход во всех версиях50, обновить слоты/SHA очереди и зафиксировать направление «выступление ↔ зрители». Полный360° облёт до принятия географии не задан.
+**Не готово:** кадр радостных штурмовиков встроенный генератор отклонил фильтром. [Промт изображения](references/scenes/scene-50/S50-stormtroopers-opposite-audience.image-prompt.txt) сохранён; PNG и видео-задача не созданы. Отменённый вариант «вуки напротив» больше не ожидается. Этот дополнительный кадр не блокирует готовое трио и существующую очередь50A/B.
 
 <div class="engine-tabs" data-scene="50">
 
@@ -3885,35 +4031,35 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 50A · Стена грив — радостный хедбэнг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a> · @Image4 = <a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg">вуки крупно</a> · @Image5 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранная толпа вуки, вариант 2</a>.
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S50-wookiees-owner-03m400](references/scenes/scene-50/S50-wookiees-owner-03m400.jpg) · @Image3 = [S50-wookiees-owner-14m833](references/scenes/scene-50/S50-wookiees-owner-14m833.jpg) · @Image4 = [S50-fans-1c48a62d](references/scenes/scene-50/S50-fans-1c48a62d.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal exuberant Wookiee rock fans in the established Imperial hangar
 
 REFERENCES / AUTHORITY ORDER:
-@Image1: exact H28B architecture, fixture layout, opening light phase and fixed geography. @Image2: approved band identities/costumes only if visible far beyond the crowd; never copy musicians into the audience. @Image3 and @Image4: Wookiee species anatomy, muzzle, eyes, fur and optional bandoliers only; ignore their humans, interiors, framing and black bars. @Image5: the chosen Wookiee fan crowd, fur colours, bandoliers, density and placement. Priority: @Image1 owns location; @Image5 owns crowd staging; @Image3–4 refine Wookiee anatomy; @Image2 owns the distant band.
+@Image1: H28B architecture, fixtures, opening light phase and fixed geography only. @Image2 and @Image3: Wookiee anatomy, muzzle, fur and bandoliers only; ignore their humans and interiors. @Image4: selected Wookiee cast, density and central-floor placement. Location authority is @Image1, placement @Image4, anatomy @Image2–3. Only Wookiees appear in this shot; the musical band and stormtrooper audience are off-camera.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
+WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. They remain Wookiee fans dancing on the central performance floor, not human musicians; no instruments or new species.
 
 SCENE / LIGHT:
-Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion, amber guide lanes and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference opening light phase; visible colour and intensity changes begin within the first second. Existing overhead beams sweep above the crowd, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only emitted light changes, not the floor grid or materials. Constant soft neutral-white face/fur fill and stable camera exposure preserve readable faces and base costume colours. Resolve coloured light to the H28B cyan/magenta phase only in the final half-second. Real cloth and metal; no new stage, fixtures or room. The audience stays in its established floor sector, separate from the distant band; no raised stage. Real layered fur catches moving coloured reflections while muzzles remain readable.
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion, amber guide lanes and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference opening light phase; visible colour and intensity changes begin within the first second. Existing overhead beams sweep above the crowd, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only emitted light changes, not the floor grid or materials. Constant soft neutral-white face/fur fill and stable camera exposure preserve readable faces and base costume colours. Resolve coloured light to the H28B cyan/magenta phase only in the final half-second. Real cloth and metal; no new stage, fixtures or room. Wookiees occupy the central performance floor around the medallion; portal and shuttle are behind them. The opposite interior-wall audience sector is behind the camera, outside this shot; no raised stage. Real layered fur catches moving coloured reflections while muzzles remain readable.
 
 START STATE:
-From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. The front rows are ready to catch a huge downbeat, elbows and claws kept clear.
+The camera faces the Wookiees from the interior-wall side of the central dancefloor; the space portal and shuttle are beyond them. A compact crowd of the selected tall fur-covered fans is already moving around the medallion, with clear traversable paths. The front rows are ready to catch a huge downbeat, elbows and claws kept clear.
 
 STORY FLOW:
 The Wookiees are already joyfully headbanging to the fast rock music. A broad surge of shaggy manes and raised arms travels across the front rows and spreads through the crowd. Let individual fans stomp, sway, roar and answer their neighbours naturally, slightly offset within the shared beat. Heavy fur follows real neck, shoulder and body motion; faces reappear clearly on upstrokes. Keep the exuberant crowd moving through the middle and the final frame; raised paws return into the next groove, never freeze overhead. The camera move must not substitute for crowd movement.
 
 END STATE:
-The same upright crowd continues cheering and moving in H28B, band beyond them. End on a readable living phase, not a frozen cheering pose.
+The same upright crowd continues cheering and moving in H28B, space portal beyond them. End on a readable living phase, not a frozen cheering pose.
 
 CAMERA / SPACE:
-One continuous eye-level tracking shot along the clear outer edge of the crowd, natural 35mm perspective. Sweep a smooth 45-degree arc past the front-row fans, gently approaching a visible three-quarter muzzle reaction and easing outward as the headbanging wave spreads. Keep planted footwork, swinging fur and several distinct faces readable; do not fly through raised arms, reverse the band/audience direction or rotate the background. The band remains in its established distant sector.
+One continuous eye-level tracking shot along the clear outer edge of the crowd, natural 35mm perspective. Sweep a smooth 45-degree arc past the front-row fans, gently approaching a visible three-quarter muzzle reaction and easing outward as the headbanging wave spreads. Keep planted footwork, swinging fur and several distinct faces readable; do not fly through raised arms, reverse the established floor-to-portal direction or rotate the background. Musicians and stormtrooper spectators remain off-camera in their established sectors.
 
 AUDIO:
-Original fast driving hard rock from the distant band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
+Original fast driving hard rock from the off-camera band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
 
 NEGATIVE PROMPT:
 Human audience or human-faced Wookiees, cloned heads, bear suits, morphing fur/limbs, violent attacks, falls or crowd crush, broken equipment, new arena, slow motion, full-frame flashes, blackouts or coloured muzzle flicker, subtitles or watermark.
@@ -3924,35 +4070,35 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 50B · Вуки-слэм — праздничный круг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a> · @Image4 = <a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg">вуки крупно</a> · @Image5 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранная толпа вуки, вариант 2</a>.
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S50-wookiees-owner-03m400](references/scenes/scene-50/S50-wookiees-owner-03m400.jpg) · @Image3 = [S50-wookiees-owner-14m833](references/scenes/scene-50/S50-wookiees-owner-14m833.jpg) · @Image4 = [S50-fans-1c48a62d](references/scenes/scene-50/S50-fans-1c48a62d.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal exuberant Wookiee rock fans in the established Imperial hangar
 
 REFERENCES / AUTHORITY ORDER:
-@Image1: exact H28B architecture, fixture layout, opening light phase and fixed geography. @Image2: approved band identities/costumes only if visible far beyond the crowd; never copy musicians into the audience. @Image3 and @Image4: Wookiee species anatomy, muzzle, eyes, fur and optional bandoliers only; ignore their humans, interiors, framing and black bars. @Image5: the chosen Wookiee fan crowd, fur colours, bandoliers, density and placement. Priority: @Image1 owns location; @Image5 owns crowd staging; @Image3–4 refine Wookiee anatomy; @Image2 owns the distant band.
+@Image1: H28B architecture, fixtures, opening light phase and fixed geography only. @Image2 and @Image3: Wookiee anatomy, muzzle, fur and bandoliers only; ignore their humans and interiors. @Image4: selected Wookiee cast, density and central-floor placement. Location authority is @Image1, placement @Image4, anatomy @Image2–3. Only Wookiees appear in this shot; the musical band and stormtrooper audience are off-camera.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
+WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. They remain Wookiee fans dancing on the central performance floor, not human musicians; no instruments or new species.
 
 SCENE / LIGHT:
-Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion, amber guide lanes and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference opening light phase; visible colour and intensity changes begin within the first second. Existing overhead beams sweep above the crowd, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only emitted light changes, not the floor grid or materials. Constant soft neutral-white face/fur fill and stable camera exposure preserve readable faces and base costume colours. Resolve coloured light to the H28B cyan/magenta phase only in the final half-second. Real cloth and metal; no new stage, fixtures or room. The audience stays in its established floor sector, separate from the distant band; no raised stage. Real layered fur catches moving coloured reflections while muzzles remain readable.
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion, amber guide lanes and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference opening light phase; visible colour and intensity changes begin within the first second. Existing overhead beams sweep above the crowd, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only emitted light changes, not the floor grid or materials. Constant soft neutral-white face/fur fill and stable camera exposure preserve readable faces and base costume colours. Resolve coloured light to the H28B cyan/magenta phase only in the final half-second. Real cloth and metal; no new stage, fixtures or room. Wookiees occupy the central performance floor around the medallion; portal and shuttle are behind them. The opposite interior-wall audience sector is behind the camera, outside this shot; no raised stage. Real layered fur catches moving coloured reflections while muzzles remain readable.
 
 START STATE:
-From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. An open circular pocket in the crowd is beginning to form as two safe groups dance toward one another.
+The camera faces the Wookiees from the interior-wall side of the central dancefloor; the space portal and shuttle are beyond them. A compact crowd of the selected tall fur-covered fans is already moving around the medallion, with clear traversable paths. An open circular pocket in the crowd is beginning to form as two safe groups dance toward one another.
 
 STORY FLOW:
-Already dancing, fans open a small circular pocket. They move around it in one shared direction with springy steps, playful light shoulder brushes and immediate rebounds into their own paths. Let their reactions, headbanging and raised-arm cheers vary naturally. The perimeter keeps dancing with enough room for everyone; this is delighted concert play, not a fight. Finish with the fans turning their energy toward the band while the circle remains alive. Maintain visible steps and shoulder rhythm between reactions; no paused perimeter or early end pose.
+Already dancing, fans open a small circular pocket. They move around it in one shared direction with springy steps, playful light shoulder brushes and immediate rebounds into their own paths. Let their reactions, headbanging and raised-arm cheers vary naturally. The perimeter keeps dancing with enough room for everyone; this is delighted concert play, not a fight. Finish with the fans turning their energy toward the off-camera concert while the circle remains alive. Maintain visible steps and shoulder rhythm between reactions; no paused perimeter or early end pose.
 
 END STATE:
-The same upright crowd continues cheering and moving in H28B, band beyond them. End on a readable living phase, not a frozen cheering pose.
+The same upright crowd continues cheering and moving in H28B, space portal beyond them. End on a readable living phase, not a frozen cheering pose.
 
 CAMERA / SPACE:
 One continuous medium-wide view of the compact mosh circle, natural 35mm perspective. Travel a smooth 60-degree arc along the OUTSIDE of its clear perimeter, slightly inward with the first playful rebound and outward as the circle opens again. Keep the entire pocket, both contact partners and actual footwork visible; never enter the crowd, cross the circle, shake the camera or reverse its shared movement direction. Fixed H28B geography remains coherent.
 
 AUDIO:
-Original fast driving hard rock from the distant band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
+Original fast driving hard rock from the off-camera band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
 
 NEGATIVE PROMPT:
 Human audience or human-faced Wookiees, cloned heads, bear suits, morphing fur/limbs, violent attacks, falls or crowd crush, broken equipment, new arena, slow motion, full-frame flashes, blackouts or coloured muzzle flicker, subtitles or watermark.
@@ -3967,7 +4113,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена (50A + 50B) одним роликом 30 с на Wan 3.0.
 
-**Входы:** @Image1 — `references/scenes/scene-28/H28B-disco.png`; @Image2 — `references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png`; @Image3 — `references/scenes/scene-50/S50-wookiees-owner-03m400.jpg`; @Image4 — `references/scenes/scene-50/S50-wookiees-owner-14m833.jpg`; @Image5 — `references/scenes/scene-50/S50-fans-1c48a62d.png`.
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S50-wookiees-owner-03m400](references/scenes/scene-50/S50-wookiees-owner-03m400.jpg) · @Image3 = [S50-wookiees-owner-14m833](references/scenes/scene-50/S50-wookiees-owner-14m833.jpg) · @Image4 = [S50-fans-1c48a62d](references/scenes/scene-50/S50-fans-1c48a62d.png).
 
 *50A+50B одним роликом: волна хедбэнга переходит в дружелюбный слэм-круг через одну склейку на сильную долю.*
 
@@ -3978,30 +4124,30 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Photoreal exuberant Wookiee rock fans in the established Imperial hangar
 
 REFERENCES / AUTHORITY ORDER:
-@Image1: exact H28B architecture, fixture layout, opening light phase and fixed geography. @Image2: approved band identities/costumes only if visible far beyond the crowd; never copy musicians into the audience. @Image3 and @Image4: Wookiee species anatomy, muzzle, eyes, fur and optional bandoliers only; ignore their humans, interiors, framing and black bars. @Image5: the chosen Wookiee fan crowd, fur colours, bandoliers, density and placement. Priority: @Image1 owns location; @Image5 owns crowd staging; @Image3–4 refine Wookiee anatomy; @Image2 owns the distant band.
+@Image1: H28B architecture, fixtures, opening light phase and fixed geography only. @Image2 and @Image3: Wookiee anatomy, muzzle, fur and bandoliers only; ignore their humans and interiors. @Image4: selected Wookiee cast, density and central-floor placement. Location authority is @Image1, placement @Image4, anatomy @Image2–3. Only Wookiees appear in this shot; the musical band and stormtrooper audience are off-camera.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
+WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. They remain Wookiee fans dancing on the central performance floor, not human musicians; no instruments or new species.
 
 SCENE / LIGHT:
-Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion, amber guide lanes and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference opening light phase; visible colour and intensity changes begin within the first second. Existing overhead beams sweep above the crowd, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only emitted light changes, not the floor grid or materials. Constant soft neutral-white face/fur fill and stable camera exposure preserve readable faces and base costume colours. Resolve coloured light to the H28B cyan/magenta phase only in the final half-second. Real cloth and metal; no new stage, fixtures or room. The audience stays in its established floor sector, separate from the distant band; no raised stage. Real layered fur catches moving coloured reflections while muzzles remain readable.
+Photoreal live-action in the exact H28B Imperial hangar: graphite ribs, white wall strips, satin dark floor, Imperial medallion, amber guide lanes and existing LED borders. Space opening, parked shuttle and fixture mounts remain fixed in world space; their screen position changes only with camera parallax. Begin in the reference opening light phase; visible colour and intensity changes begin within the first second. Existing overhead beams sweep above the crowd, cycling cyan, magenta, amber and back to cyan about every two seconds, with short brightness pulses between changes. A matching travelling colour chase runs along the existing floor LED borders; reflections on the dark floor change with it. Only emitted light changes, not the floor grid or materials. Constant soft neutral-white face/fur fill and stable camera exposure preserve readable faces and base costume colours. Resolve coloured light to the H28B cyan/magenta phase only in the final half-second. Real cloth and metal; no new stage, fixtures or room. Wookiees occupy the central performance floor around the medallion; portal and shuttle are behind them. The opposite interior-wall audience sector is behind the camera, outside this shot; no raised stage. Real layered fur catches moving coloured reflections while muzzles remain readable.
 
 START STATE:
-From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. The front rows are ready to catch a huge downbeat, elbows and claws kept clear.
+The camera faces the Wookiees from the interior-wall side of the central dancefloor; the space portal and shuttle are beyond them. A compact crowd of the selected tall fur-covered fans is already moving around the medallion, with clear traversable paths. The front rows are ready to catch a huge downbeat, elbows and claws kept clear.
 
 STORY FLOW:
 [0:00–0:15] The Wookiees are already joyfully headbanging to the fast rock music. A broad surge of shaggy manes and raised arms travels across the front rows and spreads through the crowd. Let individual fans stomp, sway, roar and answer their neighbours naturally, slightly offset within the shared beat. Heavy fur follows real neck, shoulder and body motion; faces reappear clearly on upstrokes. Keep the exuberant crowd moving through the middle and the final frame; raised paws return into the next groove, never freeze overhead. The camera move must not substitute for crowd movement.
 
-[0:15–0:30] Cut once on the downbeat to the small pocket in the same crowd. Already dancing, fans open a small circular pocket. They move around it in one shared direction with springy steps, playful light shoulder brushes and immediate rebounds into their own paths. Let their reactions, headbanging and raised-arm cheers vary naturally. The perimeter keeps dancing with enough room for everyone; this is delighted concert play, not a fight. Finish with the fans turning their energy toward the band while the circle remains alive. Maintain visible steps and shoulder rhythm between reactions; no paused perimeter or early end pose.
+[0:15–0:30] Cut once on the downbeat to the small pocket in the same crowd. Already dancing, fans open a small circular pocket. They move around it in one shared direction with springy steps, playful light shoulder brushes and immediate rebounds into their own paths. Let their reactions, headbanging and raised-arm cheers vary naturally. The perimeter keeps dancing with enough room for everyone; this is delighted concert play, not a fight. Finish with the fans turning their energy toward the off-camera concert while the circle remains alive. Maintain visible steps and shoulder rhythm between reactions; no paused perimeter or early end pose.
 
 END STATE:
-The same upright crowd continues cheering and moving in H28B, band beyond them. End on a readable living phase, not a frozen cheering pose.
+The same upright crowd continues cheering and moving in H28B, space portal beyond them. End on a readable living phase, not a frozen cheering pose.
 
 CAMERA / SPACE:
 Two coherent setups with one motivated cut at the midpoint. First, an eye-level 45-degree travelling arc beside the front rows moves closer to a three-quarter muzzle reaction and outward with the headbanging wave. After the cut, a medium-wide 60-degree arc outside the mosh circle tracks its motion and eases outward at the end. Natural 35mm perspective; show actual footwork, maintain band/audience direction and H28B geography, never fly through bodies or cross the circle.
 
 AUDIO:
-Original fast driving hard rock from the distant band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
+Original fast driving hard rock from the off-camera band, deep joyful Wookiee roars, claps and heavy footfalls with hangar reverb. No spoken language, lyrics or recognizable published melody.
 
 NEGATIVE PROMPT:
 Human audience or human-faced Wookiees, cloned heads, bear suits, morphing fur/limbs, violent attacks, falls or crowd crush, broken equipment, new arena, slow motion, full-frame flashes, blackouts or coloured muzzle flicker, subtitles or watermark.
@@ -4020,6 +4166,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 51 — Финальный музыкально-танцевальный номер: Рок-финал: каждый разбивает свой инструмент
 
+**Дополнение владельца · 30.10.2026:** Маша Р, Алина и Даша выступают отдельным трио:28A13/B12 — танец,49G/30с часть4 — игра,51G/30с часть7 — каждый ломает своё. Маша Р не Маша Лагуна. Старые общие кадры G28/49F содержат прежние12 персонажей; новое трио снимается отдельно, не дорисовывается в эти кадры. Монтаж: танцы и игра до уничтожения инструментов; после разбивания целые инструменты не возвращаются. Вуки — на центральной площадке; штурмовики — публика напротив у внутренней стены, реакция отдельной перебивкой. [Референсы, очередность и оставшийся блокер](reports/final-music-trio-2026-10-30.json).
+
 **Общий блок:** [49 — музыканты](#scene-49) → [50 — вуки-фанаты](#scene-50) → [51 — разбивание инструментов](#scene-51) → [28 — танцы](#scene-28). Это порядок подготовки выбранной очереди; в фильме номера чередуются на музыкальных акцентах. Стабильные номера сцен сохранены.
 
 **Редакция владельца · 30.10.2026 — финальный музыкально-танцевальный номер:** меняющиеся лучи, световые линии пола и отражения; нейтральные читаемые лица; движение исполнителей без замирания в середине. Камера использует осмысленные дуги, наезды и отъезды; у касаний, поддержек и ударов важнее видимый контакт и неизменная ось. Обновлены все версии, включая промты ранее отправленных частей, для будущих разрешённых запусков. Фактические старые отправки и их SHA сохранены; новая редакция не меняет уже созданный ролик. [Правки, очередь и связь со старыми задачами](reports/final-music-number-2026-10-30.json).
@@ -4028,9 +4176,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Редакция владельца · 25.10.2026:** рок-финал расширен на всех 12 музыкантов. Шесть самостоятельных роликов по 15 секунд, по два исполнителя с последовательными сольными акцентами: каждому видны подготовка, контакт и поломка именно его инструмента. Суммарно 90 секунд исходного материала; в монтаже можно оставить лучшие короткие фрагменты. Для каждой пары есть самостоятельная альтернатива Wan 3.0 на 30 секунд, в очередь она не добавлена. Старый вариант «51A замах троих →51B удар троих» заменён до отправки; его история сохранена в git и отчёте. Теперь **51B не ждёт видео51A**: это другая самостоятельная пара. Все шесть частей ждут только свободный слот по очереди.
 
-**Площадка и порядок:** собственные лица, одежда и ангар H28B. Сюжетные приоритеты →63→49→50→51A–F→танцы28. Реакции выбранных вуки остаются отдельными роликами50 и монтажными перебивками, а не перегружают каждый удар. Коты получают свой финал и не стоят в зоне замаха людей. Музыкальный выбор для28/49–51 прежний: «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33), добавляется на монтаже; генерация не копирует запись.
+**Площадка и порядок:** собственные лица, одежда и ангар H28B. Сюжетные приоритеты →63→49→50→51A–G→танцы28. Реакции выбранных вуки остаются отдельными роликами50 и монтажными перебивками, а не перегружают каждый удар. Коты получают свой финал и не стоят в зоне замаха людей. Музыкальный выбор для28/49–51 прежний: «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33), добавляется на монтаже; генерация не копирует запись.
 
-**Критерий результата:** все12 исполнителей по отдельности ломают своё. Гитары/басы — корпусом о пол при хвате двумя руками за гриф; перкуссия — падение и разрушение рамы; барабаны — порванная мембрана и развал установки; духовой — сломанная труба/раструб; арфа — сломанная рама и ослабшие струны; клавиши — расколотый корпус и выпавшие клавиши; у каждого кота — сломанный собственный контроллер. Погасшие огни, брошенный целый инструмент или облако искр без видимого контакта не засчитываются. Технический успех генерации не означает приёмку владельцем.
+**Критерий результата:** все15 исполнителей (исходные12 + отдельное трио51G) по отдельности ломают своё. Гитары/басы — корпусом о пол при хвате двумя руками за гриф; перкуссия — падение и разрушение рамы; барабаны — порванная мембрана и развал установки; духовой — сломанная труба/раструб; арфа — сломанная рама и ослабшие струны; клавиши — расколотый корпус и выпавшие клавиши; у каждого кота — сломанный собственный контроллер. Погасшие огни, брошенный целый инструмент или облако искр без видимого контакта не засчитываются. Технический успех генерации не означает приёмку владельцем.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-51/S51A-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51A-own-instrument-setup.png.webp" alt="51A — Серёга и Юля — гитара и бас; целые инструменты перед действием" loading="lazy"></a><figcaption>51A — Серёга и Юля — гитара и бас; целые инструменты перед действием</figcaption></figure>
@@ -4043,7 +4191,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-tabs" data-scene="51">
 
-<div class="engine-pane" data-engine="sd20x2" data-main="1" data-duration="6 × 15 с">
+<div class="engine-pane" data-engine="sd20x2" data-main="1" data-duration="7 × 15 с">
 
 ### 51A · Серёга и Юля — гитара и бас · 15 с
 
@@ -4285,9 +4433,53 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
+### 51G · Маша Р, Алина и Даша — три собственных инструмента · 15 с
+
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png) · @Image6 = [S51G-trio-smash-result](references/scenes/scene-51/S51G-trio-smash-result.png). Самостоятельный номер, @Video1 не нужен.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-51/S51G-trio-smash-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51G-trio-smash-result.png.webp" alt="Рок-финал трио: образец результата разбивания, НЕ первый кадр" loading="lazy"></a><figcaption>Рок-финал трио: образец результата разбивания, НЕ первый кадр</figcaption></figure></div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action final musical dance number
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 controls the three intact instrument designs, their owners and playing contacts; it cannot override individual faces or the location. @Image6 is a BROKEN END-STATE reference only, never a first frame, never a source of pre-existing damage. Its headstock hand placement does not override the narrow-neck grip described below.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
+
+LOCATION / LIVE LIGHT:
+The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
+
+INSTRUMENT OWNERSHIP:
+Alina owns the short-scale turquoise/silver alien bass; Masha owns the copper/red alien electric guitar with circular amber core and silver edging; Dasha owns the compact purple/amber keyboard on its low stable stand. Match the physical designs in @Image5, one of each, with unchanged ownership and child-appropriate scale.
+
+START STATE:
+All three stand in their separate floor lanes with their OWN INTACT instruments from @Image5. Masha and Alina have released the shoulder straps and each grips the narrow neck with both hands just below the headstock; the body is free to swing. Dasha has lifted her lightweight keyboard from its low stand with both hands on its casing; the empty stand is parked behind her. No existing broken parts from @Image6 at the start.
+
+ACTION / CAUSAL ORDER:
+Masha first, Alina second, Dasha third. Masha raises her guitar body with both hands on the narrow neck, then gives one decisive BODY-FIRST downward strike into her own empty floor patch: the copper casing visibly splits at actual floor contact, amber ring loosens, strings go slack; she retains the neck and steps clear. Alina then performs the same clear body-first action with her OWN turquoise bass into her separate patch: turquoise casing breaks into large pieces, strings slacken. Dasha finally pushes/drops the lower edge of her OWN keyboard from a low hold onto her own empty patch; casing splits at contact, several keys fall out. Use about four seconds for each decisive solo accent, then a short living shared reaction. The others keep a small proud shoulder rhythm while awaiting their turns; after their strike they move clear and react. No repeated strike or slow held overhead pose to fill time.
+
+CAMERA / PHYSICS:
+One continuous wide full-body shot includes all three, complete raised instruments, hands and three empty floor-contact zones. A restrained20-degree front arc/lateral dolly follows the ordered accents; ease almost still at each impact so contact and breakage are visible, then dolly slightly outward to reveal all three wrecks. Never cross lanes, cut away, hide contact with a flash or swap screen sides. Lightweight breakaway stage props fracture only at physical contact; pieces fall downward and remain on the floor, never reassemble. Each actor strikes only their own clear floor patch; no person is struck, no explosion or flying sharp fragments.
+
+END STATE:
+All three retain their exact faces/outfits and original left/centre/right lanes; turquoise bass wreck left, copper guitar wreck centre, purple keyboard wreck right. Damage resembles @Image6 without copying its facial expressions or grip literally. Proud concentrated rock-star reaction stays alive, not a freeze.
+
+AUDIO:
+Three separate musical accents with audible impact, casing crack, falling pieces and hangar reverb; original instrumental rock-coda tail. No dialogue, lyrics or recognizable published melody.
+
+NEGATIVE:
+Damage before contact, intact prop after strike, wrong owner, added instruments, duplicated cast, simultaneous competing impacts, headstock-first strike, strumming grip, injury, flames, slow motion, long frozen windup, repeated smash, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
 </div>
 
-<div class="engine-pane" data-engine="wan30" data-duration="6 × 30 с">
+<div class="engine-pane" data-engine="wan30" data-duration="7 × 30 с">
 
 **Альтернативы, не дополнительные запуски:** те же пары и те же результаты, больше времени на подготовку и реакцию.
 
@@ -4529,6 +4721,50 @@ Identity drift, swapped props, invisible impact, intact instrument after smash, 
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 51 · Wan 3.0 часть 7 · Маша Р, Алина и Даша · 30 с
+
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png) · @Image6 = [S51G-trio-smash-result](references/scenes/scene-51/S51G-trio-smash-result.png). Самостоятельный номер, @Video1 не нужен.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-51/S51G-trio-smash-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51G-trio-smash-result.png.webp" alt="Рок-финал трио: образец результата разбивания, НЕ первый кадр" loading="lazy"></a><figcaption>Рок-финал трио: образец результата разбивания, НЕ первый кадр</figcaption></figure></div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action final musical dance number
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 controls the three intact instrument designs, their owners and playing contacts; it cannot override individual faces or the location. @Image6 is a BROKEN END-STATE reference only, never a first frame, never a source of pre-existing damage. Its headstock hand placement does not override the narrow-neck grip described below.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
+
+LOCATION / LIVE LIGHT:
+The exact H28B graphite hangar, Imperial floor medallion, fixed amber lanes, LED grid, space portal/planet and distant shuttle stay in world-space. Only their screen positions change with real camera parallax. Within the first second, existing overhead beams visibly sweep and cycle cyan, magenta, amber and cyan about every two seconds with brief intensity pulses; a travelling colour chase follows the existing floor LED borders and reflections. Geometry and floor material never change. Constant neutral-white facial fill and stable exposure preserve faces and base costume colours. No full-frame flashing or blackout. Return to the initial cyan/magenta phase only in the last half-second.
+
+INSTRUMENT OWNERSHIP:
+Alina owns the short-scale turquoise/silver alien bass; Masha owns the copper/red alien electric guitar with circular amber core and silver edging; Dasha owns the compact purple/amber keyboard on its low stable stand. Match the physical designs in @Image5, one of each, with unchanged ownership and child-appropriate scale.
+
+START STATE:
+All three stand in their separate floor lanes with their OWN INTACT instruments from @Image5. Masha and Alina have released the shoulder straps and each grips the narrow neck with both hands just below the headstock; the body is free to swing. Dasha has lifted her lightweight keyboard from its low stand with both hands on its casing; the empty stand is parked behind her. No existing broken parts from @Image6 at the start.
+
+ACTION / CAUSAL ORDER:
+Masha first, Alina second, Dasha third. Masha raises her guitar body with both hands on the narrow neck, then gives one decisive BODY-FIRST downward strike into her own empty floor patch: the copper casing visibly splits at actual floor contact, amber ring loosens, strings go slack; she retains the neck and steps clear. Alina then performs the same clear body-first action with her OWN turquoise bass into her separate patch: turquoise casing breaks into large pieces, strings slacken. Dasha finally pushes/drops the lower edge of her OWN keyboard from a low hold onto her own empty patch; casing splits at contact, several keys fall out. Use about eight seconds for each solo accent, including lively preparation and recovery; keep the actual strike fast, then a short shared reaction. The others keep a small proud shoulder rhythm while awaiting their turns; after their strike they move clear and react. No repeated strike or slow held overhead pose to fill time.
+
+CAMERA / PHYSICS:
+One continuous wide full-body shot includes all three, complete raised instruments, hands and three empty floor-contact zones. A restrained20-degree front arc/lateral dolly follows the ordered accents; ease almost still at each impact so contact and breakage are visible, then dolly slightly outward to reveal all three wrecks. Never cross lanes, cut away, hide contact with a flash or swap screen sides. Lightweight breakaway stage props fracture only at physical contact; pieces fall downward and remain on the floor, never reassemble. Each actor strikes only their own clear floor patch; no person is struck, no explosion or flying sharp fragments.
+
+END STATE:
+All three retain their exact faces/outfits and original left/centre/right lanes; turquoise bass wreck left, copper guitar wreck centre, purple keyboard wreck right. Damage resembles @Image6 without copying its facial expressions or grip literally. Proud concentrated rock-star reaction stays alive, not a freeze.
+
+AUDIO:
+Three separate musical accents with audible impact, casing crack, falling pieces and hangar reverb; original instrumental rock-coda tail. No dialogue, lyrics or recognizable published melody.
+
+NEGATIVE:
+Damage before contact, intact prop after strike, wrong owner, added instruments, duplicated cast, simultaneous competing impacts, headstock-first strike, strumming grip, injury, flames, slow motion, long frozen windup, repeated smash, captions or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
 </div>

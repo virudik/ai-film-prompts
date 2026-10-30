@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-30T00:44:14.760Z",
+  "updated_at": "2026-10-30T01:34:39+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "ready",
   "references": [
@@ -110,44 +110,42 @@
   "prompt_reference_mapping": [
     {
       "prompt_id": "50A",
-      "canonical_prompt_sha256": "04cb1e0dd1e701f54291d0c0aa5c7992ee4e07d32501dd5fb02166d6c1a1553b",
-      "characters": 4787,
+      "canonical_prompt_sha256": "d758e289200e351c14adce0c5173f0f483a2d7552a016b9aab697117af5012cc",
+      "characters": 4800,
       "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-28/H28B-disco.png",
           "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
-          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
           "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
-          "required": true
+          "required": true,
+          "input_status": "available"
         }
       ],
       "prompt": "50A",
       "previous_prompt_sha256_before_20261020": "836877c4238947b15280dca301df8c20925747bc9d6734f084c20596618142dd",
-      "normalized_prompt_sha256": "f3bd5841ef4b40eb95711e2a2d62ac23b40a54da9a15b95d206da0ac3e4db613",
+      "normalized_prompt_sha256": "929b309c39b2af07305f307a79b0be31bd41be018c4521df8a42d99a06238ab5",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
@@ -158,44 +156,42 @@
     },
     {
       "prompt_id": "50B",
-      "canonical_prompt_sha256": "0b7bbb53ad85e387c41c9585021b30eda7027f5f23e11180a003d7473d1d097d",
-      "characters": 4758,
+      "canonical_prompt_sha256": "f694d0bf6227fd3a47025d0241dd62e96db20791cef4c861dbdd395fa22ffcd0",
+      "characters": 4737,
       "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-28/H28B-disco.png",
           "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
-          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
           "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
-          "required": true
+          "required": true,
+          "input_status": "available"
         }
       ],
       "prompt": "50B",
       "previous_prompt_sha256_before_20261020": "8e962cd7c5f6bc2c278367784ec0112591badd39fae7a60297063eb72d94019d",
-      "normalized_prompt_sha256": "15041ad607f5117ec30c2792855455a42e83d04ab17b5b4a7c00af14ac68bfd5",
+      "normalized_prompt_sha256": "da768ee494bb9f8085fdff5cb10ec91b1f7c25b14b5fead6244facf51dab9349",
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
@@ -212,37 +208,35 @@
           "slot": "@Image1",
           "path": "references/scenes/scene-28/H28B-disco.png",
           "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
-          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
-          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
-          "required": true
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true,
+          "input_status": "available"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
-          "required": true
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
           "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
-          "required": true
+          "required": true,
+          "input_status": "available"
         }
       ],
       "previous_prompt_sha256_before_20261020": null,
-      "canonical_prompt_sha256": "4308a96cfc8beb888754919de7e33b1ec8fef944babfdffae25c9716196c370e",
-      "normalized_prompt_sha256": "8a0d8db9951b8179ddf9cf8b24b439cdd5a6d05f6c41b99c4f55f46c2fcb6a7a",
-      "characters": 5398,
+      "canonical_prompt_sha256": "1d41eb52a7c215643341a9241eae15079bf318085b4f0ea4b7aa20ef38c21dd7",
+      "normalized_prompt_sha256": "8c6b80954709c4ad34f96c0015fbe88f76e645b50ef21000b157b10084add76a",
+      "characters": 5377,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
@@ -259,7 +253,7 @@
       "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png"
     ],
-    "status": "current_master_revision_verified",
+    "status": "pending_current_publication",
     "fan_candidate_gallery": {
       "status": "verified_on_pages",
       "scene_anchor": "#scene-50",
@@ -268,7 +262,7 @@
         "references/scenes/scene-50/S50-fans-1c48a62d.png",
         "references/scenes/scene-50/S50-fans-792d7b8a.png"
       ],
-      "owner_selection": "variant_2_selected_2026-10-17; new opposite-audience proposal pending image and owner choice",
+      "owner_selection": "variant2 Wookiees retained on central floor; opposite stormtrooper image pending",
       "linked_at": "2026-10-17T19:47:42.993047Z",
       "verified_at": "2026-10-17T19:51:25.814Z",
       "canonical_master_sha256": "5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3",
@@ -277,12 +271,13 @@
     },
     "verified_at": "2026-10-30T01:02:57.117Z",
     "verification_report": "reports/final-music-number-2026-10-30.json",
-    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks.",
+    "linked_in_master": true
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",
     "Exact individual character identity from approved canonical references",
-    "No paid or automatic video generation",
+    "Only current owner-authorized queue may launch, Unlimited0; text edits do not themselves submit videos",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
   "preparation_blocker": {
@@ -303,7 +298,7 @@
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   },
-  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+  "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
   "generated_fan_candidates": [
     {
       "variant": 1,
@@ -388,7 +383,7 @@
     }
   ],
   "selection_status": "owner_selected_variant_2_20261017",
-  "launch_gate": "Owner25Oct: story priorities then63→49→50→51A–F→28 A1–A12. All six51 parts are independent and wait only a slot. Skip genuine blockers. A3 needs actual A2-R2 frame; A12 needs actual A11 video. Existing A1/A2 and R2 review gates preserved. Wan versions are unselected alternatives; no extra retries or paid Topview.",
+  "launch_gate": "Owner30Oct adds trio to the authorized final number: story priorities then63→49 (G before F)→50A/B→51A–G→28 (A13 before A10). Each new trio item: one Unlimited0 attempt; 30s versions unselected. A3 needs actual A2-R2 frame; A12 needs actual A11 clip. Preserve existing rerender/review gates. Stormtrooper image blocker does not block independent ready items. Technical retries only under ops/TOPVIEW-RETRY.md; no paid or artistic rerender authorization.",
   "previous_remaining_before_20261020": [
     "Owner selection among three archived fan image candidates; then apply selected reference mapping to50A/B and validate READY. No new image generation authorized/needed."
   ],
@@ -402,15 +397,20 @@
     "production_slots_changed": false
   },
   "placement_options_20261030": {
-    "A": {
-      "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
-      "status": "existing_selected_reference_reused"
-    },
-    "B": {
-      "status": "blocked_image_generation",
-      "prompt_file": "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
-      "empty_reverse_view": "references/scenes/scene-28/H28B-reverse-empty.png"
-    },
-    "selection": "owner_choice_pending; current production @Image5 unchanged"
+    "decision": "Wookiees central floor; stormtroopers opposite interior wall",
+    "old_opposite_wookiees": "superseded_owner",
+    "stormtrooper_image": "blocked_generator_filter",
+    "prompt_file": "references/scenes/scene-50/S50-stormtroopers-opposite-audience.image-prompt.txt",
+    "blocks_ready": [
+      "50A",
+      "50B",
+      "50 · Wan 3.0"
+    ],
+    "queue_blocked_by_image": false,
+    "report": "reports/final-music-trio-2026-10-30.json"
+  },
+  "trio_revision_20261030": {
+    "report": "reports/final-music-trio-2026-10-30.json",
+    "new_blocks": []
   }
 }

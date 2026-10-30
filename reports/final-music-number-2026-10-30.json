@@ -727,5 +727,10 @@
         "conclusion": "success"
       }
     ]
+  },
+  "followup": {
+    "at": "2026-10-30T01:35:23+00:00",
+    "report": "reports/final-music-trio-2026-10-30.json",
+    "old_opposite_wookiee_proposal": "superseded by owner: stormtroopers opposite, Wookiees floor"
   }
 }

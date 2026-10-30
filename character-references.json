@@ -662,6 +662,9 @@
       "name": "Алина",
       "aliases": [],
       "scenes": [
+        28,
+        49,
+        51,
         52,
         66
       ],
@@ -685,6 +688,9 @@
       "name": "Даша",
       "aliases": [],
       "scenes": [
+        28,
+        49,
+        51,
         52,
         66
       ],
@@ -708,6 +714,9 @@
       "name": "Маша Р",
       "aliases": [],
       "scenes": [
+        28,
+        49,
+        51,
         66,
         67,
         68,
@@ -741,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T00:44:14.760Z",
+  "updated_at": "2026-10-30T01:34:39+00:00",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -1615,6 +1624,188 @@
             "matches_16_9_with_rounding": true,
             "original_bytes_preserved": true,
             "cropped_or_resized": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "S28-trio-masha-alina-dasha-dance",
+      "name": "Маша Р, Алина и Даша — отдельное трио на танцполе",
+      "kind": "scene_reference",
+      "scenes": [
+        28
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+          "asset_id": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+          "caption": "Маша Р, Алина и Даша — отдельное трио на танцполе",
+          "role": "dance_composition_only",
+          "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+          "bytes": 2493559,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen",
+          "project_id": "seregius",
+          "created_at": "2026-10-30T01:34:39+00:00",
+          "prompt_file": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.image-prompt.txt",
+          "prompt_sha256": "77880edf24a3782a207faadcec332916f89463e0c570f1c14c9246b66ac0732f",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+              "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+            },
+            {
+              "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+              "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+            },
+            {
+              "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+              "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+            },
+            {
+              "path": "references/scenes/scene-28/H28B-disco.png",
+              "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T01:34:39+00:00",
+            "scope": "Exactly three distinct reference identities/costumes, adult/child scale, separate full-body dancing poses, coherent H28B, feet visible."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+            "linked_in_master": true,
+            "status": "pending_publication"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S49G-trio-playing",
+      "name": "Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши",
+      "kind": "scene_reference",
+      "scenes": [
+        49,
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "asset_id": "references/scenes/scene-49/S49G-trio-playing.png",
+          "caption": "Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши",
+          "role": "instrument_design_and_playing_pose",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+          "bytes": 2620222,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen",
+          "project_id": "seregius",
+          "created_at": "2026-10-30T01:34:39+00:00",
+          "prompt_file": "references/scenes/scene-49/S49G-trio-playing.image-prompt.txt",
+          "prompt_sha256": "cf2bb01321f2536a40dcc8d71ba8be11c3c33a9bd1e05dc7749baf41ae78b976",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+              "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+            },
+            {
+              "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+              "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+            },
+            {
+              "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+              "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+            },
+            {
+              "path": "references/scenes/scene-28/H28B-disco.png",
+              "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T01:34:39+00:00",
+            "scope": "Exactly three identities/costumes, distinct intact assigned props; fretting/picking hands and keyboard contacts visible. String/key counts are not inferred from fine generated detail; design and owner assignment are authoritative."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-49/S49G-trio-playing.png",
+            "linked_in_master": true,
+            "status": "pending_publication"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S51G-trio-smash-result",
+      "name": "Рок-финал трио: образец результата разбивания, НЕ первый кадр",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
+          "asset_id": "references/scenes/scene-51/S51G-trio-smash-result.png",
+          "caption": "Рок-финал трио: образец результата разбивания, НЕ первый кадр",
+          "role": "broken_instrument_result_only_not_start_frame",
+          "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+          "bytes": 2631728,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen",
+          "project_id": "seregius",
+          "created_at": "2026-10-30T01:34:39+00:00",
+          "prompt_file": "references/scenes/scene-51/S51G-trio-smash-result.image-prompt.txt",
+          "prompt_sha256": "2e398845209e177e1c6265d3f3e12b04a692affd48e1ccb3bf650a101e28b35d",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-49/S49G-trio-playing.png",
+              "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765"
+            },
+            {
+              "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+              "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+            },
+            {
+              "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+              "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+            },
+            {
+              "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+              "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+            },
+            {
+              "path": "references/scenes/scene-28/H28B-disco.png",
+              "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T01:34:39+00:00",
+            "scope": "Exactly same trio and three distinct broken instrument designs; damage/contact zones visible, no injuries. End-state helper only: guitar/bass hands sit high at the headstock and faces are smiling, so individual sheets and explicit video grip/performance instructions override these pose details; never use this as the intact first frame."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
+            "linked_in_master": true,
+            "status": "pending_publication"
           }
         }
       ]

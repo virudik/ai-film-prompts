@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30T01:35:23+00:00",
+  "status": "prepared_with_stormtrooper_image_blocker",
+  "owner_request": "Маша Р, Алина и Даша отдельным трио в танце, игре и разбивании; вуки на площадке, штурмовики зрители напротив",
+  "new_blocks": [
+    "28 A13",
+    "28 B12",
+    "49G",
+    "49 · Wan 3.0 часть 4",
+    "51G",
+    "51 · Wan 3.0 часть 7"
+  ],
+  "changed_existing_blocks": [
+    "50A",
+    "50B",
+    "50 · Wan 3.0"
+  ],
+  "images": {
+    "dance": {
+      "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+      "asset_id": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+      "caption": "Маша Р, Алина и Даша — отдельное трио на танцполе",
+      "role": "dance_composition_only",
+      "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+      "bytes": 2493559,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen",
+      "project_id": "seregius",
+      "created_at": "2026-10-30T01:34:39+00:00",
+      "prompt_file": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.image-prompt.txt",
+      "prompt_sha256": "77880edf24a3782a207faadcec332916f89463e0c570f1c14c9246b66ac0732f",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+        },
+        {
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T01:34:39+00:00",
+        "scope": "Exactly three distinct reference identities/costumes, adult/child scale, separate full-body dancing poses, coherent H28B, feet visible."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+        "linked_in_master": true,
+        "status": "pending_publication"
+      }
+    },
+    "playing": {
+      "path": "references/scenes/scene-49/S49G-trio-playing.png",
+      "asset_id": "references/scenes/scene-49/S49G-trio-playing.png",
+      "caption": "Трио: Алина — бирюзовый бас, Маша Р — медно-красная гитара, Даша — фиолетовые клавиши",
+      "role": "instrument_design_and_playing_pose",
+      "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+      "bytes": 2620222,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen",
+      "project_id": "seregius",
+      "created_at": "2026-10-30T01:34:39+00:00",
+      "prompt_file": "references/scenes/scene-49/S49G-trio-playing.image-prompt.txt",
+      "prompt_sha256": "cf2bb01321f2536a40dcc8d71ba8be11c3c33a9bd1e05dc7749baf41ae78b976",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+        },
+        {
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T01:34:39+00:00",
+        "scope": "Exactly three identities/costumes, distinct intact assigned props; fretting/picking hands and keyboard contacts visible. String/key counts are not inferred from fine generated detail; design and owner assignment are authoritative."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-49/S49G-trio-playing.png",
+        "linked_in_master": true,
+        "status": "pending_publication"
+      }
+    },
+    "smash": {
+      "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
+      "asset_id": "references/scenes/scene-51/S51G-trio-smash-result.png",
+      "caption": "Рок-финал трио: образец результата разбивания, НЕ первый кадр",
+      "role": "broken_instrument_result_only_not_start_frame",
+      "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+      "bytes": 2631728,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen",
+      "project_id": "seregius",
+      "created_at": "2026-10-30T01:34:39+00:00",
+      "prompt_file": "references/scenes/scene-51/S51G-trio-smash-result.image-prompt.txt",
+      "prompt_sha256": "2e398845209e177e1c6265d3f3e12b04a692affd48e1ccb3bf650a101e28b35d",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765"
+        },
+        {
+          "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241"
+        },
+        {
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T01:34:39+00:00",
+        "scope": "Exactly same trio and three distinct broken instrument designs; damage/contact zones visible, no injuries. End-state helper only: guitar/bass hands sit high at the headstock and faces are smiling, so individual sheets and explicit video grip/performance instructions override these pose details; never use this as the intact first frame."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
+        "linked_in_master": true,
+        "status": "pending_publication"
+      }
+    }
+  },
+  "stormtrooper_image": {
+    "status": "not_created_generator_filter",
+    "prompt_file": "references/scenes/scene-50/S50-stormtroopers-opposite-audience.image-prompt.txt",
+    "errors": [
+      "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ae7a3ce6-c464-492a-827b-14a97d109fb9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ea37a042-e2f0-4105-a26b-ca85baeab2e8.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    ]
+  },
+  "queue": {
+    "added": [
+      "S49G",
+      "S51G",
+      "S28-A13-20261030"
+    ],
+    "updated": [
+      "S50A",
+      "S50B"
+    ],
+    "archived_verbatim": [
+      "S66-STITCH-NB-IMAGE-1",
+      "S66-STITCH-NB-IMAGE-2",
+      "S66-STITCH-NB-IMAGE-3"
+    ],
+    "archived_file": "archive/ops/topview-launch-queue-archive.json"
+  },
+  "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+  "checks": {
+    "unit_tests": {
+      "status": "passed",
+      "count": 348,
+      "seconds": 48.44
+    },
+    "site_contract": "passed",
+    "master_health": "ok",
+    "prompt_count": 134,
+    "scene_count": 27,
+    "reference_slot_and_sha_audit": "passed for six new variants and two changed queue entries",
+    "submitted_queue_history": "all existing submitted items byte-equivalent as JSON",
+    "new_images": "visual QC of actual outputs; identity sheets retain priority; no owner approval claimed",
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0,
+      "info": 3
+    }
+  },
+  "video_launches": 0,
+  "topview_paid_operations": 0,
+  "remaining": [
+    "Create and visually inspect the requested opposite-side stormtrooper audience reference when the image tool can fulfil it; do not block independent ready queue items.",
+    "Review generated videos for identities, live lighting, sustained motion, playing contacts and causal destruction; no assumed editorial approval."
+  ],
+  "publication": {
+    "status": "pending"
+  }
+}

@@ -3,6 +3,234 @@
   "description": "Finished launch-queue items moved verbatim at the weekly cleanup; newest first. History only: never relaunch from here.",
   "items": [
     {
+      "id": "S66-STITCH-NB-IMAGE-1",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-1",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-front.image-prompt.txt",
+      "prompt_source": "UTF-8 full file, strip final newline only",
+      "canonical_prompt_sha256": "1aa2d5e5732693ea85414d42910b3cdc51f6f358f68ed2d90d023e255e045584",
+      "normalized_prompt_sha256": "566742490093a0817ffd65a07cf91cd63778dcf2421fa3f35c6252f882f36912",
+      "prompt_file_sha256": "e43b596707deb9d550591469b24809157148917abceec8d0eeb1723f30c857dc",
+      "priority": -3,
+      "state": "cancelled_owner",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "e0f131c8f04f4991bd7ec9b317223aa0",
+      "claim": null,
+      "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
+      "launch_readiness": "closed_owner_after_provider_fail",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-front.png",
+      "on_success": "Superseded: owner29Oct abandons this trial; do not add to video inputs.",
+      "attempts_used": 2,
+      "retry_policy": "No retry: owner29Oct abandons these failed optional trials.",
+      "last_claim": {
+        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image1",
+        "claimed_at": "2026-10-29T06:02:50.220Z",
+        "actor": "chatgpt_event_trigger",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "event_id": "result:8a8eadc809004e318c47201b8a463be0",
+        "resolved_at": "2026-10-29T06:03:50.032Z",
+        "result": "submitted",
+        "task_id": "e0f131c8f04f4991bd7ec9b317223aa0"
+      },
+      "reauthorized_at": "2026-10-28T16:32:18+00:00",
+      "submitted_at": "2026-10-29T06:03:02Z",
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-1-20261029.json",
+      "observed_task_status": "fail",
+      "failure_reason": "Topview provider content restriction; support code35561575. Submitted once in Unlimited0, no automatic retry.",
+      "updated_at": "2026-10-29T07:46:52.392Z",
+      "owner_disposition": {
+        "at": "2026-10-29T07:46:52.392Z",
+        "decision": "Abandoned after confirmed provider fail; retain task/receipt/attempt history, no new generations and no substitution into video references.",
+        "source": "owner_instruction_20261029_resume_without_stitch"
+      }
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-2",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-2",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-side.image-prompt.txt",
+      "prompt_source": "UTF-8 full file, strip final newline only",
+      "canonical_prompt_sha256": "f36ff2a8c4697b9e51123079f8a520a47be50d0e70f9078d59f0d696413d2ae2",
+      "normalized_prompt_sha256": "ada89a29d6934ac92afc6730f4a2433e94d6c7476580f1b7f0553b256d61464e",
+      "prompt_file_sha256": "593dea554d9ad545fc4f54e90cfcd5fb7dd2e93310cc0922cda141e56799e8d3",
+      "priority": -2,
+      "state": "cancelled_owner",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S66-STITCH-NB-IMAGE-1"
+      ],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "0d7a40e276e645d291d31589cc4fbfe6",
+      "claim": null,
+      "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
+      "launch_readiness": "closed_owner_after_provider_fail",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-side.png",
+      "on_success": "Superseded: owner29Oct abandons this trial; do not add to video inputs.",
+      "submitted_at": "2026-10-29T06:04:56Z",
+      "last_claim": {
+        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image2",
+        "claimed_at": "2026-10-29T06:04:46.555Z",
+        "actor": "chatgpt_event_trigger",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "resolved_at": "2026-10-29T06:06:20.272Z",
+        "result": "submitted",
+        "task_id": "0d7a40e276e645d291d31589cc4fbfe6"
+      },
+      "attempts_used": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-2-20261029.json",
+      "observed_task_status": "fail",
+      "failure_reason": "Topview provider content restriction; support code35561575. Submitted once in Unlimited0, no automatic retry.",
+      "updated_at": "2026-10-29T07:46:52.392Z",
+      "owner_disposition": {
+        "at": "2026-10-29T07:46:52.392Z",
+        "decision": "Abandoned after confirmed provider fail; retain task/receipt/attempt history, no new generations and no substitution into video references.",
+        "source": "owner_instruction_20261029_resume_without_stitch"
+      },
+      "retry_policy": "No retry: owner29Oct abandons these failed optional trials."
+    },
+    {
+      "id": "S66-STITCH-NB-IMAGE-3",
+      "scene_id": 66,
+      "prompt_id": "S66-STITCH-NB-IMAGE-3",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-66/S66-stitch-walk-arch.image-prompt.txt",
+      "prompt_source": "UTF-8 full file, strip final newline only",
+      "canonical_prompt_sha256": "33eb28ce825401c3078cb4dc108ebc56fb59b3b071f216b303ea8daf92bc5825",
+      "normalized_prompt_sha256": "040e6f04cde9a2090421a11db35f14e1c7f155463a82bb2507d2235f233b39c5",
+      "prompt_file_sha256": "85320fe7639a6968bef0c61abc0f8006977a2269873b352623f8b950c86e6e11",
+      "priority": -1,
+      "state": "cancelled_owner",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S66-STITCH-NB-IMAGE-2"
+      ],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": "d460fc7bd2434133870232482b84237d",
+      "claim": null,
+      "authorization": "Owner 28Oct reconfirmed all three optional Stitch walking images. Exact prompt per item, quantity1, Nano Banana Pro/2K/16:9, website Unlimited0 only. Batch policy: owner_instruction_20261028_stitch_batch.",
+      "launch_readiness": "closed_owner_after_provider_fail",
+      "created_at": "2026-10-28T15:02:46+00:00",
+      "planned_output_path": "references/scenes/scene-66/S66-stitch-walk-arch.png",
+      "on_success": "Superseded: owner29Oct abandons this trial; do not add to video inputs.",
+      "submitted_at": "2026-10-29T06:06:29Z",
+      "last_claim": {
+        "run_id": "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-image3",
+        "claimed_at": "2026-10-29T06:06:20.272Z",
+        "actor": "chatgpt_event_trigger",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "resolved_at": "2026-10-29T06:08:18.035Z",
+        "result": "submitted",
+        "task_id": "d460fc7bd2434133870232482b84237d"
+      },
+      "attempts_used": 1,
+      "receipt": "reports/topview-queue-2026-10-16/S66-STITCH-NB-IMAGE-3-20261029.json",
+      "observed_task_status": "fail",
+      "failure_reason": "Topview provider content restriction; support code35561575. Submitted once in Unlimited0, no automatic retry.",
+      "updated_at": "2026-10-29T07:46:52.392Z",
+      "owner_disposition": {
+        "at": "2026-10-29T07:46:52.392Z",
+        "decision": "Abandoned after confirmed provider fail; retain task/receipt/attempt history, no new generations and no substitution into video references.",
+        "source": "owner_instruction_20261029_resume_without_stitch"
+      },
+      "retry_policy": "No retry: owner29Oct abandons these failed optional trials."
+    },
+    {
       "id": "S37-SEED20-P2",
       "scene_id": 37,
       "prompt_id": "S37-SEED20-P2",
@@ -4318,6 +4546,15 @@
       "verified_at": "2026-10-20T16:41:48.448Z",
       "new_submissions": 0,
       "ordering_hold_superseded_by": "owner_instruction_20261023_ready_skip"
+    },
+    "trio_cleanup_20261030": {
+      "at": "2026-10-30T01:35:23+00:00",
+      "reason": "Move owner-cancelled Stitch trials verbatim to make room for new musical trio items",
+      "ids": [
+        "S66-STITCH-NB-IMAGE-1",
+        "S66-STITCH-NB-IMAGE-2",
+        "S66-STITCH-NB-IMAGE-3"
+      ]
     }
   }
 }
