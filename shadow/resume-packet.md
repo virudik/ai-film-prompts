@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-10-30T15:36:05+00:00
+Проверено: 2026-10-30T15:38:08+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: Опубликованы7 состояний инструментов и вариант публики с вуки;14 промтов,348 тестов, CI/public readback подтверждены
@@ -55,6 +55,7 @@ Nano Banana Pro: три разрешённых платных попытки, в
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
 Задач с сохранённым task ID: 46
+- S61-SEED20-P1: reconcile_without_resubmitting
 
 ## Пробелы
 
