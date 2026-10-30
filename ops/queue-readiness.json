@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "e077bdea6dc5a031ec0df80386727e12b509d0bbf8074a42a065e9ef20c6e837",
+  "source_queue_sha256": "9fa6dc79f14ec1a008ce96537ca0357626593c79cd38a10409f0ee6984ea9ff1",
   "source_task_map_sha256": "be067348d8b2a8e7c76c9fb1a5c3241cc44c4a4688086886540a57cf6acf186f",
   "topview_checked_at": "2026-10-30T01:00:19Z",
   "items": [
@@ -444,8 +444,35 @@
       "ready": false,
       "text": "@Video1: ждёт результат 69 (ещё не запущен)",
       "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S49G",
+      "scene_id": 49,
+      "part_label": "49G",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S51G",
+      "scene_id": 51,
+      "part_label": "51G",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
+    },
+    {
+      "id": "S28-A13-20261030",
+      "scene_id": 28,
+      "part_label": "28 A13",
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-30T01:00:23.324870Z"
+  "checked_at": "2026-10-30T01:41:21.497534Z"
 }
