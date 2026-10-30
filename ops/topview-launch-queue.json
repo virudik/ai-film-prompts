@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T20:01:05.337Z",
+  "updated_at": "2026-10-30T20:28:40.619Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2230,23 +2230,23 @@
           "slot": "@Image3",
           "path": "references/scenes/scene-48/S48-P4-city-gate.png",
           "required": true,
-          "input_status": "required_not_available",
+          "input_status": "available",
           "canonical_role": "city_gate_and_bystanders",
-          "source_requirement": "Draw by S48-P4-city-gate.image-prompt.txt (open ChatGPT Work chat)."
+          "sha256": "6ade90a63126f972c86c046e00075b9215967a5fb4f4e1786029444203d9e858"
         },
         {
           "slot": "@Image4",
           "path": "references/scenes/scene-48/S48-P4-dismount-landing.png",
           "required": true,
-          "input_status": "required_not_available",
+          "input_status": "available",
           "canonical_role": "landing_pose_before_gate",
-          "source_requirement": "Draw by S48-P4-dismount-landing.image-prompt.txt (open ChatGPT Work chat)."
+          "sha256": "108d897c6bfbdc4977a37242d204b9c05d76f95c62583acef9a51bc7fab965c2"
         }
       ],
       "task_id": null,
       "claim": null,
       "authorization": "30.10.2026: владелец заказал 48.4 «Спуск у ворот». Один запуск по согласованной очереди, Unlimited 0.",
-      "blocker": "Await the actual 48.3 tail and the two new images S48-P4-city-gate / S48-P4-dismount-landing (open ChatGPT Work chat).",
+      "blocker": "Await the actual last 3 seconds of 48.3 for @Video1. All four image references are available.",
       "launch_readiness": "blocked_continuity",
       "created_at": "2026-10-30T20:09:48Z"
     },

@@ -3030,7 +3030,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Для 48.3 своя нумерация.** @Video1 — последние 3 с 48.2 для согласования движения, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — город по архитектуре 52.4, @Image4 — широкий стартовый кадр, @Image5 — стойка на ровной спине червя, @Image6 — финальный крупный план довольного лица в той же стойке.
 
-**Для 48.4 своя нумерация.** @Video1 — последние 3 с 48.3, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — ворота города (рисуется), @Image4 — Серёга стоит у ворот после спуска (рисуется).
+**Для 48.4 своя нумерация.** @Video1 — последние 3 с 48.3, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — [ворота города](references/scenes/scene-48/S48-P4-city-gate.png), @Image4 — [Серёга у ворот после спуска](references/scenes/scene-48/S48-P4-dismount-landing.png).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -3042,7 +3042,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-48/S48-P3-tatooine-city.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-tatooine-city.jpg.webp" alt="48.3 · @Image3 — город со стороны дюн"></a><figcaption>48.3 · @Image3 — город со стороны дюн</figcaption></figure>
 <figure><a href="references/scenes/scene-48/S48-P3-serega-worm-ride.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-ride.jpg.webp" alt="48.3 · @Image4 — первый кадр, Серёга и червь на пути к городу"></a><figcaption>48.3 · @Image4 — первый кадр, Серёга и червь на пути к городу</figcaption></figure>
 <figure><a href="references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-closeup.jpg.webp" alt="48.3 · @Image5 — низкая стойка на ровной спине червя"></a><figcaption>48.3 · @Image5 — низкая стойка на ровной спине червя</figcaption></figure>
-<figure><a href="references/scenes/scene-48/S48-P3-serega-worm-face.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-face.jpg.webp" alt="48.3 · @Image6 — крупный план довольного Серёги в той же стойке"></a><figcaption>48.3 · @Image6 — крупный план довольного Серёги в той же стойке</figcaption></figure></div>
+<figure><a href="references/scenes/scene-48/S48-P3-serega-worm-face.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-face.jpg.webp" alt="48.3 · @Image6 — крупный план довольного Серёги в той же стойке"></a><figcaption>48.3 · @Image6 — крупный план довольного Серёги в той же стойке</figcaption></figure>
+<figure><a href="references/scenes/scene-48/S48-P4-city-gate.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P4-city-gate.png.webp" alt="48.4 · @Image3 — ворота города"></a><figcaption>48.4 · @Image3 — ворота города</figcaption></figure>
+<figure><a href="references/scenes/scene-48/S48-P4-dismount-landing.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P4-dismount-landing.png.webp" alt="48.4 · @Image4 — Серёга у ворот после спуска"></a><figcaption>48.4 · @Image4 — Серёга у ворот после спуска</figcaption></figure></div>
 
 **Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет Илюшу отпрыгнуть; Артём на коленях упирается рукой в песок. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев. В 48.3 он пересекает гряду, довольно улыбается и мчится к песчаным куполам города.
 
@@ -3282,7 +3284,7 @@ Sound: rushing wind, cloth snapping, the heavy thump of the worm slamming down a
 
 #### 48 · Seedance 2.0 часть 4
 
-**Входы части 4 (своя нумерация):** @Video1 — настоящие последние 3 с 48.3 (`references/scenes/scene-48/S48-P3-last3s.mp4`, вырезать из результата); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-16/S16-worm-scale.png`; @Image3 — `references/scenes/scene-48/S48-P4-city-gate.png` (ворота города; ещё не нарисован, рисует открытый чат ChatGPT Work); @Image4 — `references/scenes/scene-48/S48-P4-dismount-landing.png` (Серёга стоит у ворот после спуска; ещё не нарисован).
+**Входы части 4 (своя нумерация):** @Video1 — настоящие последние 3 с 48.3 (`references/scenes/scene-48/S48-P3-last3s.mp4`, вырезать из результата); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-16/S16-worm-scale.png`; @Image3 — [ворота города](references/scenes/scene-48/S48-P4-city-gate.png); @Image4 — [Серёга у ворот после спуска](references/scenes/scene-48/S48-P4-dismount-landing.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
