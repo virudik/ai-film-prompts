@@ -3,26 +3,26 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-10-30T00:16:36+00:00
+Проверено: 2026-10-30T00:22:59+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
-Последний подтверждённый этап: Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.
-Следующий шаг: Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.
+Последний подтверждённый этап: Scene28: all23 prompts and12 pending SHA revised for animated lighting and sustained motion; GitHub/Pages verified,348 tests passed; zero generations.
+Следующий шаг: Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.
 
 ## Контрольная точка
 
-# Задача №1: технические повторы без остановки очереди · 30.10.2026
+# Танцы28: светомузыка и непрерывное движение · 30.10.2026
 
-work_id: TOPVIEW-SLOT-PRIORITY-20261024
 work_id: SEREGIUS-PLAN-20261023
+work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
-Решение владельца: при техническом отказе пытаться восстановить запуск, затем продолжать независимую согласованную очередь Серёгиуса. Действует ops/TOPVIEW-RETRY.md: до двух дополнительных попыток на item, общий постоянный счётчик Work/hourly/Relay, пауза около минуты; неизвестный исход сначала сверять, активные задачи не дублировать. Owner holds, реальные входы/QC и Unlimited0 сохраняются.
+По прямой команде владельца опубликованы правки всех23 промптов A1–A12/B1–B11: меняющиеся цвет/яркость лучей, волна по световым линиям пола и отражения; постоянный нейтральный свет на лицах. Непрерывное движение в середине и при сближении/расхождении; финальная поза только последние0,5с. A1/B1 сближаются танцуя в последние2с; A2/B2 — один короткий обмен, две внешние щеки, лицо не перекрывать, согласованный кадр до колен. Опоры, хват, лица, костюмы и кошачья анатомия сохранены.
 
-Часовое задание 6acae6ab… и Relay 6adc585e… обновлены; точный readback обоих, расписание HH:55 Europe/Moscow и одна relay.message с прежними фильтрами подтверждены. Коммит правил: e6524f3c1465a79b97e82ca84f100b9346975530. Квитанция: reports/topview-retry-policy-2026-10-30.json. 348 тестов, site validator и canon-health прошли.
+Коммит:2797025754b0506e9798706c97e06bb1c6151660. Отчёт:reports/scene28-light-motion-2026-10-30.json. У12 неотправленных выбранных items обновлены SHA; порядок, разрешения, реальные входы и зависимости прежние. Старые A1/A2 отправлены23.10; готовые видео не менялись и новая редакция ещё не проверена рендером. Удачные фрагменты A1 сохранять для монтажа. Новых картинок/запусков/пунктов очереди0.
 
-На 30.10 02:38 МСК: полный скан 14 досок/20 страниц/945 задач; 6/6 видео init, свободных0, новых запусков/повторов здесь0. S60-P1 уже отправлена Relay в02:20 (025955aad2cf494da2b4104d26c36ed5). Исправленная S59-P2 и S62-P1 активны. Ближайшая сейчас готовая независимая — S61-P1; при освобождении сначала заново проверить priority/готовность более ранних частей. S56-P2 по-прежнему блокирует дефект реального стыка P1, художественный rerender не разрешён.
+Проверено:348 тестов, site validator, master health=ok, canon-health0 предупреждений;8 файлов прочитаны обратно по blob SHA. Канонический workflow и Pages успешны; публичный master содержит23 новых световых блока, его SHA совпадает с project-status. Правило света в PROMPT-STYLE-GUIDE.md §5.I, handoff обновлён.
 
-Далее: на настоящем wake/часовом цикле fresh main/решения владельца/полный скан; подтверждённый технический fail обработать по общему бюджету, локальный blocker/исчерпание не удерживают слот. Неизвестный Create не повторять. Новый retry ещё не испытывался в production: текущие слоты заняты.
+Дальше: свежий main/решения/входящие/замок и полный скан слотов, затем следующая готовая разрешённая сцена по живой очереди; технические отказы — ops/TOPVIEW-RETRY.md. Достигнув28, использовать новые SHA и проверять реальную смену света/пол, энергию в середине, лица и контакты. A3 ждёт чистый новый A2, A12 — настоящий конец A11; правка текста эти зависимости не снимает. В этой редакционной задаче повторный живой скан слотов не выполнялся: старые числа занятости не считать свежими.
 
 ## Обязательные правила
 
@@ -45,6 +45,7 @@ work_id: SEREGIUS-PLAN-20261023
 ## Прочитать под задачу
 
 - `ops/topview-launch-queue.json`
+- `reports/scene28-light-motion-2026-10-30.json`
 - `ops/TOPVIEW-RETRY.md`
 
 ## Перед действием

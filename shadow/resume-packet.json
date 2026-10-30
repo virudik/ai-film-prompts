@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T00:16:36+00:00",
-  "source_head": "62e147264f557a4129ede6f11b34c424bb4ee45f",
-  "source_fingerprint": "08ad28b965cfe7cd747a306dc1400ef26350b9673e039f1a29f69c0a3aa45995",
+  "checked_at": "2026-10-30T00:22:59+00:00",
+  "source_head": "0817e9c4c240591736d573d5fe20c3051cc56a6e",
+  "source_fingerprint": "834f97801e11cf1632ff941c04cb47b06390b4aebe3bf77139f6a6c4f21a99e2",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -35,31 +35,32 @@
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_global_capacity",
-    "last_completed": "Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.",
-    "next_action": "Fresh main/owner decisions/full all-board scan. Confirmed technical failure: ops/TOPVIEW-RETRY.md, max2 additional free attempts with shared durable counter, otherwise next independent ready item in same cycle. Observe active S59P2/S62P1/S60P1; S61P1 is next currently ready, subject to fresh priorities/inputs; S56P2 remains QC-blocked.",
-    "verified_at": "2026-10-29T23:39:59+00:00",
+    "last_completed": "Scene28: all23 prompts and12 pending SHA revised for animated lighting and sustained motion; GitHub/Pages verified,348 tests passed; zero generations.",
+    "next_action": "Fresh main/owner decisions/inbox/lock and full slot scan; continue next ready authorized queue item under ops/TOPVIEW-RETRY.md. At Scene28 use revised SHA, inspect animated lights/floor, sustained middle motion and clean face gestures. A3 requires clean new A2; A12 requires real A11 ending. Old slot counts are not a fresh scan.",
+    "verified_at": "2026-10-30T00:21:38+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "ops/TOPVIEW-RETRY.md",
-        "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
+        "file": "reports/scene28-light-motion-2026-10-30.json",
+        "sha256": "9338d91d11d92c92fb57d6f2dd6f223d3431d11102ce40e58871655965b3f90a"
       },
       {
-        "file": "reports/topview-retry-policy-2026-10-30.json",
-        "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b"
+        "file": "ops/TOPVIEW-RETRY.md",
+        "sha256": "7d7d73d1cd87d31b66ae5b44287af81a2de56643b70052cb7433fa4365520cf7"
       }
     ],
     "read_next": [
       "ops/topview-launch-queue.json",
+      "reports/scene28-light-motion-2026-10-30.json",
       "ops/TOPVIEW-RETRY.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Задача №1: технические повторы без остановки очереди · 30.10.2026",
-      "sha256": "0defd4a4f9ce5d94b59650e8a97b4447b4cdd87bf9727bf2bf15127c77e923b1"
+      "anchor": "# Танцы28: светомузыка и непрерывное движение · 30.10.2026",
+      "sha256": "53dcbdaeeb933f347634726b26c0e220a53d86a66dc5f81eb256fe4c2deb93e8"
     }
   },
-  "checkpoint_text": "# Задача №1: технические повторы без остановки очереди · 30.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\nwork_id: SEREGIUS-PLAN-20261023\n\nРешение владельца: при техническом отказе пытаться восстановить запуск, затем продолжать независимую согласованную очередь Серёгиуса. Действует ops/TOPVIEW-RETRY.md: до двух дополнительных попыток на item, общий постоянный счётчик Work/hourly/Relay, пауза около минуты; неизвестный исход сначала сверять, активные задачи не дублировать. Owner holds, реальные входы/QC и Unlimited0 сохраняются.\n\nЧасовое задание 6acae6ab… и Relay 6adc585e… обновлены; точный readback обоих, расписание HH:55 Europe/Moscow и одна relay.message с прежними фильтрами подтверждены. Коммит правил: e6524f3c1465a79b97e82ca84f100b9346975530. Квитанция: reports/topview-retry-policy-2026-10-30.json. 348 тестов, site validator и canon-health прошли.\n\nНа 30.10 02:38 МСК: полный скан 14 досок/20 страниц/945 задач; 6/6 видео init, свободных0, новых запусков/повторов здесь0. S60-P1 уже отправлена Relay в02:20 (025955aad2cf494da2b4104d26c36ed5). Исправленная S59-P2 и S62-P1 активны. Ближайшая сейчас готовая независимая — S61-P1; при освобождении сначала заново проверить priority/готовность более ранних частей. S56-P2 по-прежнему блокирует дефект реального стыка P1, художественный rerender не разрешён.\n\nДалее: на настоящем wake/часовом цикле fresh main/решения владельца/полный скан; подтверждённый технический fail обработать по общему бюджету, локальный blocker/исчерпание не удерживают слот. Неизвестный Create не повторять. Новый retry ещё не испытывался в production: текущие слоты заняты.\n",
+  "checkpoint_text": "# Танцы28: светомузыка и непрерывное движение · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо прямой команде владельца опубликованы правки всех23 промптов A1–A12/B1–B11: меняющиеся цвет/яркость лучей, волна по световым линиям пола и отражения; постоянный нейтральный свет на лицах. Непрерывное движение в середине и при сближении/расхождении; финальная поза только последние0,5с. A1/B1 сближаются танцуя в последние2с; A2/B2 — один короткий обмен, две внешние щеки, лицо не перекрывать, согласованный кадр до колен. Опоры, хват, лица, костюмы и кошачья анатомия сохранены.\n\nКоммит:2797025754b0506e9798706c97e06bb1c6151660. Отчёт:reports/scene28-light-motion-2026-10-30.json. У12 неотправленных выбранных items обновлены SHA; порядок, разрешения, реальные входы и зависимости прежние. Старые A1/A2 отправлены23.10; готовые видео не менялись и новая редакция ещё не проверена рендером. Удачные фрагменты A1 сохранять для монтажа. Новых картинок/запусков/пунктов очереди0.\n\nПроверено:348 тестов, site validator, master health=ok, canon-health0 предупреждений;8 файлов прочитаны обратно по blob SHA. Канонический workflow и Pages успешны; публичный master содержит23 новых световых блока, его SHA совпадает с project-status. Правило света в PROMPT-STYLE-GUIDE.md §5.I, handoff обновлён.\n\nДальше: свежий main/решения/входящие/замок и полный скан слотов, затем следующая готовая разрешённая сцена по живой очереди; технические отказы — ops/TOPVIEW-RETRY.md. Достигнув28, использовать новые SHA и проверять реальную смену света/пол, энергию в середине, лица и контакты. A3 ждёт чистый новый A2, A12 — настоящий конец A11; правка текста эти зависимости не снимает. В этой редакционной задаче повторный живой скан слотов не выполнялся: старые числа занятости не считать свежими.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -154,6 +155,7 @@
   ],
   "read_next": [
     "ops/topview-launch-queue.json",
+    "reports/scene28-light-motion-2026-10-30.json",
     "ops/TOPVIEW-RETRY.md"
   ],
   "live_checks_required": [
@@ -443,8 +445,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "2cf34aebd5a5555ab018533a2a7c89e6f9954a0e6ac6122edd0963d65d674191",
-      "bytes": 37874
+      "sha256": "cc3ce4154588ec79aaedb943c1fbe363d390542dd06f44d0b99cbb513aaa1be0",
+      "bytes": 40848
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -452,9 +454,9 @@
       "bytes": 20662
     },
     {
-      "file": "reports/topview-retry-policy-2026-10-30.json",
-      "sha256": "aecc73617e625fe902dfb165e2919355952d055ef4f78ed969707bc8d75d274b",
-      "bytes": 5937
+      "file": "reports/scene28-light-motion-2026-10-30.json",
+      "sha256": "9338d91d11d92c92fb57d6f2dd6f223d3431d11102ce40e58871655965b3f90a",
+      "bytes": 12721
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -473,9 +475,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "533e1f8285f6a5e904fe94531ea082a6b47e713aed9a5c6e61b9f2b52a1e16bd",
-      "bytes": 81105
+      "sha256": "13cc1dfc4778b018f83c055ac8695931abbf9772cd39413fc13071d3201c7a0e",
+      "bytes": 81528
     }
   ],
-  "packet_bytes": 6944
+  "packet_bytes": 7477
 }
