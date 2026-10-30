@@ -3,14 +3,17 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-10-30T21:19:09+00:00",
-  "source_head": "63d9949f565524321206d640dd99178ae6e097d4",
-  "source_fingerprint": "c6406d057ef3f3d2203aac31729b292a164d0f748057946575d7d0d83d51f760",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T21:33:26+00:00",
+  "source_head": "4eed68f5ba68b23dd8731bd8d089cfd7042ef30a",
+  "source_fingerprint": "41c1b380e45d9e7da68d51e966d905c2735c27b754d7a2027e9862150badc2d7",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "RAZNOE-CPK-REFS-20261027",
     "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
@@ -262,14 +265,14 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5315d85ddee470f7fc940f43dac6d71e9e7f9cbffaf2cbc18afed254d54a6030",
-      "bytes": 25088
+      "sha256": "18c0aa71d8e5d6e53eb02433bb7a782079329a53e278b16b7ce239b4506ed60d",
+      "bytes": 25089
     },
     {
       "file": "video-prompts.md",
-      "sha256": "e03b82a4830eb78076a4bc1c105abc11d09e1fc1a18a207f3fbbf70d774aa987",
-      "bytes": 1334957
+      "sha256": "36cba4835cc63fe773777e1bd678d5cd2ef5e64f683e2a210fc6f395ddf0eb2b",
+      "bytes": 1339540
     }
   ],
-  "packet_bytes": 6034
+  "packet_bytes": 6002
 }

@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T21:19:09+00:00",
-  "source_head": "63d9949f565524321206d640dd99178ae6e097d4",
-  "source_fingerprint": "a83897c0f4b7cb1fa39c5b30a33e33b4cc29b3feb441b99bd8e8bb59f630b090",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T21:33:26+00:00",
+  "source_head": "4eed68f5ba68b23dd8731bd8d089cfd7042ef30a",
+  "source_fingerprint": "d0262d6d8805b2d1fbc70815e19cd814d1336199f2c657371a7b22e7e19dc9f0",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,7 +30,10 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -428,7 +431,7 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "9f1817e1c652c575cffe2f6ca26c4b77e060ffc5da4c0f521a51ee3b37fffa6b",
+      "sha256": "3019f2a994ed706cee1c5af5e22dd7943bdb470ae0d774698baa80cf60c3a950",
       "bytes": 354850
     },
     {
@@ -458,13 +461,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5315d85ddee470f7fc940f43dac6d71e9e7f9cbffaf2cbc18afed254d54a6030",
-      "bytes": 25088
+      "sha256": "18c0aa71d8e5d6e53eb02433bb7a782079329a53e278b16b7ce239b4506ed60d",
+      "bytes": 25089
     },
     {
       "file": "video-prompts.md",
-      "sha256": "e03b82a4830eb78076a4bc1c105abc11d09e1fc1a18a207f3fbbf70d774aa987",
-      "bytes": 1334957
+      "sha256": "36cba4835cc63fe773777e1bd678d5cd2ef5e64f683e2a210fc6f395ddf0eb2b",
+      "bytes": 1339540
     },
     {
       "file": "work-resume-register.json",
@@ -472,5 +475,5 @@
       "bytes": 81312
     }
   ],
-  "packet_bytes": 6549
+  "packet_bytes": 6517
 }
