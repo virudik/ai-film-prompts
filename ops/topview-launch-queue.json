@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-30T15:56:42.283Z",
+  "updated_at": "2026-10-30T17:13:33.244Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3185,7 +3185,8 @@
         "owner_approved": false,
         "continuous_full_frame_rate_view": false,
         "audio_listened": false,
-        "source_archived": false
+        "source_archived": true,
+        "continuity_owner_exception_20261030": "S56 P2 only; see task and QC report"
       }
     },
     {
@@ -3196,7 +3197,7 @@
       "canonical_prompt_sha256": "63c34e6fac2a179b707d072460e99cf2fb1122809fe8f72199f1b7dce91bbc36",
       "normalized_prompt_sha256": "ffe2a52657e334fd61b260f808a0d54c6d2c9a9892ec329798b9084d8232cc09",
       "priority": 0.31,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3214,9 +3215,23 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S56-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_requirement": "Use these exact last 72 frames of the verified 56.1 result. Owner permits the distant ridge figures in this continuity input.",
+          "source_task_id": "b15165813c0848939edbe8b3d3aed182",
+          "source_drive_file_id": "1m4yKhhECXcT_-PBcCzycxGU7x9NaVCzv",
+          "source_original_sha256": "21a70588635c569073d6800de4b09138ea72400b5ae4541c14839842d3eedfde",
+          "library_file_id": "libfile_d0b2241772e88191a3a2373e2faee7ea",
+          "filename": "S56-P1-last3s.mp4",
+          "bytes": 2479230,
+          "sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+          "duration_seconds": 3,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_exclusive": 361,
+          "qc_status": "usable_for_continuity_by_owner",
+          "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json"
         },
         {
           "slot": "@Image1",
@@ -3262,8 +3277,8 @@
       "depends_on_completed": [
         "S56-SEED20-P1"
       ],
-      "blocker": "Actual S56-SEED20-P1 ending is not a safe continuity input: one to three extra human silhouettes appear on the ridge and three remain in the final frame, violating exactly-three-people/extra-people locks. Do not trim, synthesize, substitute or submit. Requires a clean real source or explicit owner direction.",
-      "launch_readiness": "blocked_continuity_source_defect",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256": [
         "22acbc93f6474a52053a2a8b76651d933e2717d33f0170b39818578d08da1db9"
       ],
@@ -3274,7 +3289,13 @@
         "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
       },
       "continuity_qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
-      "continuity_source_status": "rejected_critical_extra_people"
+      "continuity_source_status": "usable_for_continuity_by_owner",
+      "owner_decision_20261030_ridge": {
+        "at": "2026-10-30T17:13:33.244Z",
+        "scope": "S56-SEED20-P2",
+        "text": "Не важно, пускай появляются. Можно запускать.",
+        "applies_to": "Допущены три фоновые фигуры на гребне в настоящем финале 56.1 для стыка с 56.2. Один запуск по существующей очереди, Unlimited 0."
+      }
     },
     {
       "id": "S16-SEED20-P2",

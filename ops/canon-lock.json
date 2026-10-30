@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "S56-P2: разрешённый владельцем конец P1 и готовность к свободному слоту",
   "acquired_at": "2026-10-30T17:12:37.928Z",
-  "expires_at": "2026-10-30T17:47:37.928Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-30T17:13:42.760Z",
   "rules": "ops/CANON-LOCK.md"
 }

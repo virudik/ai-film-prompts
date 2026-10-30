@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 56,
-  "updated_at": "2026-10-19T22:50:00Z",
+  "updated_at": "2026-10-30T17:13:33.244Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
-  "status": "blocked_continuity",
+  "status": "selected_inputs_available",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -175,7 +175,30 @@
   "start_frame": null,
   "end_frame": null,
   "pose_composition_helpers": [],
-  "video_refs": [],
+  "video_refs": [
+    {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S56-SEED20-P1",
+      "source_requirement": "Use these exact last 72 frames of the verified 56.1 result. Owner permits the distant ridge figures in this continuity input.",
+      "source_task_id": "b15165813c0848939edbe8b3d3aed182",
+      "source_drive_file_id": "1m4yKhhECXcT_-PBcCzycxGU7x9NaVCzv",
+      "source_original_sha256": "21a70588635c569073d6800de4b09138ea72400b5ae4541c14839842d3eedfde",
+      "library_file_id": "libfile_d0b2241772e88191a3a2373e2faee7ea",
+      "filename": "S56-P1-last3s.mp4",
+      "bytes": 2479230,
+      "sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+      "duration_seconds": 3,
+      "fps": 24,
+      "frames": 72,
+      "source_start_frame_zero_based": 289,
+      "source_end_frame_exclusive": 361,
+      "qc_status": "usable_for_continuity_by_owner",
+      "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json"
+    }
+  ],
   "approved": [],
   "rejected": [],
   "topview_source_provenance": null,
@@ -232,22 +255,14 @@
     {
       "prompt_id": "S56-SEED20-P1",
       "canonical_block_label": "56 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "df3205e4364bd51b9cd5309201ee3ac8f259de3cfa3980ace3f05940194d3619",
-      "normalized_prompt_sha256": "438a48b97d000c1ac678fa3e14d2babdcd62c3466d073e9bddacdc4ebc751452",
-      "characters": 6588,
+      "canonical_prompt_sha256": "3c06afb7c7d5d88637b2255b0c779ee1a57a323781c8028e01c0cd571f2fe80a",
+      "normalized_prompt_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
+      "characters": 6724,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "submitted_verified",
       "slots": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "canonical_role": "previous_scene_end",
-          "input_status": "required_not_available",
-          "source_item_id": "S42-SEED20-P2",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
-        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -295,15 +310,29 @@
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S56-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_requirement": "Use these exact last 72 frames of the verified 56.1 result. Owner permits the distant ridge figures in this continuity input.",
+          "source_task_id": "b15165813c0848939edbe8b3d3aed182",
+          "source_drive_file_id": "1m4yKhhECXcT_-PBcCzycxGU7x9NaVCzv",
+          "source_original_sha256": "21a70588635c569073d6800de4b09138ea72400b5ae4541c14839842d3eedfde",
+          "library_file_id": "libfile_d0b2241772e88191a3a2373e2faee7ea",
+          "filename": "S56-P1-last3s.mp4",
+          "bytes": 2479230,
+          "sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+          "duration_seconds": 3,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_exclusive": 361,
+          "qc_status": "usable_for_continuity_by_owner",
+          "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json"
         },
         {
           "slot": "@Image1",
@@ -347,20 +376,7 @@
   "site_published": false,
   "last_qc_at": "2026-10-16T11:36:29Z",
   "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
-  "remaining": [
-    {
-      "item_id": "S56-SEED20-P1",
-      "slot": "@Video1",
-      "source_item_id": "S42-SEED20-P2",
-      "requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
-    },
-    {
-      "item_id": "S56-SEED20-P2",
-      "slot": "@Video1",
-      "source_item_id": "S56-SEED20-P1",
-      "requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
-    }
-  ],
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "ab07501595f15741ff5e675942d331612ee5247064b6874ae1c5b107b7f95089",
   "invariants": [
@@ -369,7 +385,7 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "18.10.2026: новая сцена по команде владельца (мост 42 → 48). DRAFT до результата 42; в очереди S56 (blocked_inputs). Запуск только бесплатным безлимитом. QC не означает approval.",
+  "note": "В выбранной версии Seedance 2.0 часть 1 начата со склейки по решению 23.10.2026 и уже получена. Для части 2 владелец 30.10.2026 разрешил реальный конец части 1 с фоновыми фигурами на гребне. Активные состояния запусков и приоритеты — в ops/topview-launch-queue.json.",
   "selected_engine": "Seedance 2.0",
   "selected_parts": 2,
   "generation_authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",

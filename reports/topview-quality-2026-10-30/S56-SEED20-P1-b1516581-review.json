@@ -16,11 +16,17 @@
     "credits": 0,
     "resource_id": "37e723f634834dd28682ac12a65b9bf6",
     "original_archive": {
-      "archived": false,
-      "sha256": null,
-      "board_download_task_id": "3984c9d07e9f456f8bab191562f31553",
-      "prepared_zip_size_bytes": 11791640,
-      "blocker": "Topview Board ZIP was prepared successfully, but Cloud/CDP blocked the CloudFront transfer (ERR_BLOCKED_BY_CLIENT); the native MP4 Download action also failed. No archive or SHA is claimed."
+      "archived": true,
+      "file_id": "1m4yKhhECXcT_-PBcCzycxGU7x9NaVCzv",
+      "drive_url": "https://drive.google.com/file/d/1m4yKhhECXcT_-PBcCzycxGU7x9NaVCzv/view",
+      "sha256": "21a70588635c569073d6800de4b09138ea72400b5ae4541c14839842d3eedfde",
+      "size_bytes": 11791640,
+      "verified_at": "2026-10-30T17:13:33.244Z",
+      "previous_browser_download": {
+        "board_download_task_id": "3984c9d07e9f456f8bab191562f31553",
+        "prepared_zip_size_bytes": 11791640,
+        "note": "Topview Board ZIP was prepared successfully, but Cloud/CDP blocked the CloudFront transfer (ERR_BLOCKED_BY_CLIENT); the native MP4 Download action also failed. No archive or SHA is claimed."
+      }
     }
   },
   "submission": {
@@ -66,6 +72,20 @@
     }
   ],
   "queue_effect": {
+    "dependent_item": "S56-SEED20-P2",
+    "action": "waiting_for_slot",
+    "reason": "Допущены три фоновые фигуры на гребне в настоящем финале 56.1 для стыка с 56.2. Один запуск по существующей очереди, Unlimited 0."
+  },
+  "owner_followup": {
+    "at": "2026-10-30T17:13:33.244Z",
+    "scope": "S56-SEED20-P2",
+    "text": "Не важно, пускай появляются. Можно запускать.",
+    "applies_to": "Допущены три фоновые фигуры на гребне в настоящем финале 56.1 для стыка с 56.2. Один запуск по существующей очереди, Unlimited 0.",
+    "input_sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+    "source_frames": "289..360 inclusive, 24 fps; video 12.041667–15.041667 s, matching audio",
+    "clip_library_file_id": "libfile_d0b2241772e88191a3a2373e2faee7ea"
+  },
+  "queue_effect_at_review": {
     "dependent_item": "S56-SEED20-P2",
     "action": "keep_blocked_inputs",
     "reason": "Actual ending is defective; do not trim or submit it as Video1 and do not synthesize a replacement.",
