@@ -750,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T17:53:16.392Z",
+  "updated_at": "2026-10-30T18:02:18.185Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -2362,7 +2362,7 @@
     },
     {
       "id": "S48-P3-serega-worm-closeup",
-      "name": "48.3 — крупный план довольного Серёги, рука на черве и город впереди",
+      "name": "48.3 — довольный Серёга верхом, червь идёт прямо вправо, город на заднем плане",
       "kind": "scene_reference",
       "scenes": [
         48
@@ -2372,10 +2372,10 @@
         {
           "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
           "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
-          "caption": "48.3 — крупный план довольного Серёги, рука на черве и город впереди",
+          "caption": "48.3 — довольный Серёга верхом, червь идёт прямо вправо, город на заднем плане",
           "role": "final_closeup_of_mounted_rider_toward_town",
-          "sha256": "0fee920740e5367cbc6346723d42760b0a2307997f92d494a2ad4bba185b546c",
-          "bytes": 812282,
+          "sha256": "a1a928f01a2c6a50cd5b0c44fcb7b1ddccecd8ceba02ed650b42b5a8a139cbfa",
+          "bytes": 773254,
           "dimensions": [
             1672,
             941
@@ -2383,15 +2383,15 @@
           "media_type": "image",
           "status": "available",
           "owner_approval": "not_recorded",
-          "generation_method": "ChatGPT built-in image edit using original ride portrait, corrected wide view, identity, city and worm sheets",
-          "created_at": "2026-10-30T17:53:16.392Z",
+          "generation_method": "ChatGPT image edit from prior close-up, opening ride, identity and town references",
+          "created_at": "2026-10-30T18:02:18.185Z",
           "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-closeup.image-prompt.txt",
-          "prompt_sha256": "7ba7971b5abd766682b6cb6acdb1d8fe668c7f673c4b1584bab93e01e7e28156",
+          "prompt_sha256": "d0c189c849951d41552b863774b15b4310280dc8ee27d602997dadcfa801b33b",
           "reference_inputs": [
             {
-              "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
-              "git_commit": "56b522b8faccae3001af190fe44d09bdb833afb1",
-              "sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9",
+              "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+              "git_commit": "2df8997dfb4b0e1d68086b8c0eb1906455246272",
+              "sha256": "0fee920740e5367cbc6346723d42760b0a2307997f92d494a2ad4bba185b546c",
               "role": "previous_revision_edit_target"
             },
             {
@@ -2408,17 +2408,12 @@
               "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
               "sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
               "role": "destination"
-            },
-            {
-              "path": "references/scenes/scene-16/S16-worm-scale.png",
-              "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
-              "role": "sandworm_anatomy"
             }
           ],
           "assistant_qc": {
-            "checked_at": "2026-10-30T17:53:16.392Z",
+            "checked_at": "2026-10-30T18:02:18.185Z",
             "status": "usable_for_assigned_role",
-            "scope": "Улыбающееся лицо крупно, взгляд вправо; ладонь лежит на сегменте, виден край пасти, за ним справа купола и башни. Направление совпадает с широким стартовым планом."
+            "scope": "Серёга сидит верхом и смотрит вправо по ходу движения. Голова и корпус червя на прямой горизонтальной оси; зубцы у правого края видны в профиль. Плащ и песок тянутся влево, купола и ворота видны вдали справа."
           },
           "site_published": {
             "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
