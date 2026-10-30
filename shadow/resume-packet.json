@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T15:03:53+00:00",
-  "source_head": "7c17c1045908a64edcc69dac7e14d0cfca3b443f",
-  "source_fingerprint": "382b89ef258b6f33e55cd128b17c74e6f9ef11275f62e2763889a91dd34d21e0",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T15:22:01+00:00",
+  "source_head": "82175449c4d3e8a2922fe7ac7ff0d2fec50c0c8f",
+  "source_fingerprint": "84f4a7c61e0d0468826b63cd30d4d46b4db291cdfc1fe895b2f0465cc6274673",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,7 +30,10 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -424,12 +427,12 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "2d24bb5a4ba6bae85a4340c6edd3ab1f3c18fabf0b244cd0bc476c277f69b1b7",
+      "sha256": "487d7175e7a5e09ce7d0d8055f6f9b3bc2cc2f0bd229aea0573af2bafe8a83dc",
       "bytes": 376213
     },
     {
       "file": "project-status.json",
-      "sha256": "b00525437b92d7e822d3ccff0209c578bac60d8cdd3e1b5cb6ef5c3e3d472f97",
+      "sha256": "30fbceb71a0a65ac3a6cadad303ece897f90f65cb945f2ef7df42e3d37b5fb3d",
       "bytes": 21474
     },
     {
@@ -454,13 +457,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "580dde3e941f951d92e8d7ea82359dcd6eda0d7b7f1ec861b74b695e4cdba7f9",
-      "bytes": 24161
+      "sha256": "5f27ac27f74d4a69612d033a68eb1d3b3085985c53cc65240b38f8eb02ae5268",
+      "bytes": 24162
     },
     {
       "file": "video-prompts.md",
-      "sha256": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
-      "bytes": 1249766
+      "sha256": "4c81f940fa83e070311392f5a799a3552e04a3e24590a11e440d504fe27fcf32",
+      "bytes": 1250428
     },
     {
       "file": "work-resume-register.json",
@@ -468,5 +471,5 @@
       "bytes": 80980
     }
   ],
-  "packet_bytes": 6549
+  "packet_bytes": 6517
 }

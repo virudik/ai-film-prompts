@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-30T02:29:53+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-30T15:22:00+00:00. Валиден при генерации: **False**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 80869 B · `dab4dada768960c0`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 16692 B · `353e9e8fee391b9d`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 18925 B · `a6bf924b43892379`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1249766 B · `9202d47dd8dbf69a`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1250428 B · `4c81f940fa83e070`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -44,7 +44,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 |---|---|---|---|---|---|---|---|
 | 13 | Совет джедаев: говорящий кот Лучик | Wan 3 | NEEDS_RERENDER/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 53146e9d1886 |
 | 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 1cb49f8adfc7 |
-| 28 | Финальный музыкально-танцевальный номер: Имперский строевой  | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 25 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | c1dbc4cee3cd |
+| 28 | Финальный музыкально-танцевальный номер: Имперский строевой  | Seedance 2.0 | NEEDS_RERENDER/SLOW_PENDING | 25 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 4e9c4089194a |
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 | [] | 9ed4ad5f905c |
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | ee119b556282 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 809d46f72e41 |
@@ -53,7 +53,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 49 | Финальный музыкально-танцевальный номер: Космическая рок-гру | Seedance 2.0 | READY/IDLE | 11 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | d1b6857d7c44 |
 | 50 | Финальный музыкально-танцевальный номер: Вуки на площадке и  | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [28, 49] | dfe4a2e45e04 |
 | 51 | Финальный музыкально-танцевальный номер: Рок-финал: каждый р | Seedance 2.0 | READY/IDLE | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28, 49, 50] | 7cd601059591 |
-| 52 | Татуинская связка 1/7 (начало в части 7) · Серёга пересажива | Seedance 2.0 (P1–P6); Wan 3.0 (P7) | DRAFT/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 85359393ed9b |
+| 52 | Татуинская связка 1/7 (начало в части 7) · Серёга пересажива | Seedance 2.0 (P1–P6); Wan 3.0 (P7) | DRAFT/SLOW_PENDING | 14 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | 5a8c90598d97 |
 | 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 73dc1bb6e064 |
 | 57 | РосКОТмос: аварийная посадка котов на планете ситхов | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | c12ca1c3d38d |
 | 58 | РосКОТмос: коты выбегают из горящего корабля | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [57] | 9b7b68faabdc |
@@ -64,10 +64,10 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 63 | Храм ситхов: великие люди все на одно лицо | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 44a6503cbd40 |
 | 64 | Звёздный разрушитель: Серёга пританцовывает по коридору | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 | [] | 62a1603193f3 |
 | 65 | Татуинская связка 7/7 · Серёга молча выпивает в баре с Бобой | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [70] | 6cb6303199f5 |
-| 66 | Татуинская связка 2/7 · Алина, Даша и Стич | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [52] | c573cb0d669e |
-| 67 | Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фр | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 263f17a2c520 |
-| 68 | Татуинская связка 4/7 · «ГБУ Жилищник района Татуина» метёт  | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [67] | 6414ca6228cb |
-| 69 | Татуинская связка 5/7 · Маша Р учит «Жилищник» убирать в лаз | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [68] | 9c9b454ae1cc |
+| 66 | Татуинская связка 2/7 · Алина, Даша и Стич | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [52] | d8628c3f12d4 |
+| 67 | Татуинская связка 3/7 · Маша Р яростно спорит с продавцом фр | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [66] | 78c6a4427c70 |
+| 68 | Татуинская связка 4/7 · «ГБУ Жилищник района Татуина» метёт  | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [67] | 741dfcf03866 |
+| 69 | Татуинская связка 5/7 · Маша Р учит «Жилищник» убирать в лаз | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [68] | 046fba19139c |
 | 70 | Татуинская связка 6/7 · бесшовный пролёт с улицы к столику С | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [69] | a13f26af1fad |
 
 ## Что читать под задачу (сверх брифа)
