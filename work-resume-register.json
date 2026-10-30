@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-30T00:53:50+00:00",
+  "last_updated_at": "2026-10-30T01:02:58+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-30T00:53:50+00:00",
+      "updated_at": "2026-10-30T01:02:58+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -24,7 +24,7 @@
         "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized.",
         "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json."
       ],
-      "next_action": "Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.",
+      "next_action": "Fresh main/inbox/lock and full live slot scan; continue next ready authorized queue item with current47-block finale revision. Inspect lights/floor, sustained movement, faces/contacts and camera. Audience option B image is blocked by generator; obtain it before owner placement choice, keep existing @Image5. A3 needs clean new A2; A12 needs real A11 end.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -197,23 +197,24 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-30T00:53:50+00:00",
-        "last_completed": "All47 finale prompts and26 pending hashes validated;348 tests passed. Empty reverse hangar saved; audience B blocked by image generator including edit attempt. Publication readback pending.",
-        "next_action": "Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.",
+        "verified_at": "2026-10-30T01:02:58+00:00",
+        "last_completed": "Published and verified all47 finale prompts and26 pending SHA,13 historical task revision links;348 tests passed. Empty reverse H28B and thumbnail verified on Pages. Audience B blocked by generator, exact prompt saved. Zero video launches.",
+        "next_action": "Fresh main/inbox/lock and full live slot scan; continue next ready authorized queue item with current47-block finale revision. Inspect lights/floor, sustained movement, faces/contacts and camera. Audience option B image is blocked by generator; obtain it before owner placement choice, keep existing @Image5. A3 needs clean new A2; A12 needs real A11 end.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Финальный музыкально-танцевальный номер · 30.10.2026",
-          "sha256": "d6615712f8836b753e3966896421e6a6309fe075c05d735bc09edcd3214a7f00"
+          "sha256": "59fe215f39cfac8a218e811f82e260acb24344da20fc746da28d6e07d3d69610"
         },
         "evidence": [
           {
             "file": "reports/final-music-number-2026-10-30.json",
-            "sha256": "3310ec2c1be08fff439dab5f14ee87c63102a51a1ae2f548aa939dc71cc35626"
+            "sha256": "ae8a8b6d73de9911fcec15053e60f6779728aeabb9fd194f9f1511e713d426ee"
           }
         ],
         "read_next": [
           "ops/topview-launch-queue.json",
           "video-prompts.md",
+          "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
           "ops/TOPVIEW-RETRY.md"
         ],
         "blockers": []
@@ -337,9 +338,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-30T00:53:49+00:00",
+      "updated_at": "2026-10-30T01:02:58+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.",
+      "next_action": "Fresh main/inbox/lock and full live slot scan; continue next ready authorized queue item with current47-block finale revision. Inspect lights/floor, sustained movement, faces/contacts and camera. Audience option B image is blocked by generator; obtain it before owner placement choice, keep existing @Image5. A3 needs clean new A2; A12 needs real A11 end.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -349,23 +350,24 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-30T00:53:49+00:00",
-        "last_completed": "All47 finale prompts and26 pending hashes validated;348 tests passed. Empty reverse hangar saved; audience B blocked by image generator including edit attempt. Publication readback pending.",
-        "next_action": "Finish publication readback; then fresh main/inbox/lock/full slot scan and next ready authorized item. Inspect updated light/motion/camera. Obtain audience B image before owner placement choice; keep existing production reference until then.",
+        "verified_at": "2026-10-30T01:02:58+00:00",
+        "last_completed": "Published and verified all47 finale prompts and26 pending SHA,13 historical task revision links;348 tests passed. Empty reverse H28B and thumbnail verified on Pages. Audience B blocked by generator, exact prompt saved. Zero video launches.",
+        "next_action": "Fresh main/inbox/lock and full live slot scan; continue next ready authorized queue item with current47-block finale revision. Inspect lights/floor, sustained movement, faces/contacts and camera. Audience option B image is blocked by generator; obtain it before owner placement choice, keep existing @Image5. A3 needs clean new A2; A12 needs real A11 end.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Финальный музыкально-танцевальный номер · 30.10.2026",
-          "sha256": "d6615712f8836b753e3966896421e6a6309fe075c05d735bc09edcd3214a7f00"
+          "sha256": "59fe215f39cfac8a218e811f82e260acb24344da20fc746da28d6e07d3d69610"
         },
         "evidence": [
           {
             "file": "reports/final-music-number-2026-10-30.json",
-            "sha256": "3310ec2c1be08fff439dab5f14ee87c63102a51a1ae2f548aa939dc71cc35626"
+            "sha256": "ae8a8b6d73de9911fcec15053e60f6779728aeabb9fd194f9f1511e713d426ee"
           }
         ],
         "read_next": [
           "ops/topview-launch-queue.json",
           "video-prompts.md",
+          "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
           "ops/TOPVIEW-RETRY.md"
         ],
         "blockers": []

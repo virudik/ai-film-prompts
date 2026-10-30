@@ -988,7 +988,7 @@
   "site_published": {
     "scene_anchor": "#scene-51",
     "linked_in_master": true,
-    "status": "verified_current_revision",
+    "status": "current_master_revision_verified",
     "gallery_paths": [
       "references/scenes/scene-51/S51A-own-instrument-setup.png",
       "references/scenes/scene-51/S51B-own-instrument-setup.png",
@@ -997,8 +997,9 @@
       "references/scenes/scene-51/S51E-own-instrument-setup.png",
       "references/scenes/scene-51/S51F-own-instrument-setup.png"
     ],
-    "verified_at": "2026-10-25T13:36:26.001872Z",
-    "verification_report": "reports/music-reference-completion-2026-10-25.json"
+    "verified_at": "2026-10-30T01:02:57.117Z",
+    "verification_report": "reports/final-music-number-2026-10-30.json",
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
   },
   "invariants": [
     "Identity sheets override invented details",

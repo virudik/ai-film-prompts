@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T00:44:14.760Z",
-  "status": "validated_pending_publication",
+  "updated_at": "2026-10-30T01:02:57.117Z",
+  "status": "published_with_image_blocker",
   "scenes": [
     28,
     49,
@@ -599,9 +599,14 @@
       },
       "usage": "gallery_only_until_owner_choice",
       "site_published": {
-        "linked_in_master": true,
         "path": "references/scenes/scene-28/H28B-reverse-empty.png",
-        "status": "pending_publication"
+        "linked_in_master": true,
+        "git_present": true,
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T01:02:57.117Z",
+        "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed",
+        "verification_report": "reports/final-music-number-2026-10-30.json",
+        "gallery_scene": 50
       },
       "aspect_check": {
         "requested": "16:9",
@@ -649,5 +654,78 @@
     "Generate option B audience composition when image generator permits; then owner selects placement.",
     "Inspect future authorized video results for actual light changes, sustained performer movement, faces/contacts and coherent camera motion."
   ],
-  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1"
+  "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+  "publication": {
+    "content_commit": "f85e87d744ddee05b351182d5fb3394d94d87722",
+    "github_file_blob_readback_verified": true,
+    "changed_files": [
+      "NEW-CHAT-HANDOFF.md",
+      "PROMPT-STYLE-GUIDE.md",
+      "SYNC-TRIGGER.txt",
+      "archive/handoff-log.md",
+      "character-references.json",
+      "instruction-sync-status.json",
+      "ops/topview-launch-queue.json",
+      "references/scenes/scene-28/manifest.json",
+      "references/scenes/scene-49/manifest.json",
+      "references/scenes/scene-50/manifest.json",
+      "references/scenes/scene-51/manifest.json",
+      "references/thumbs/manifest.json",
+      "reports/current-work-checkpoint.md",
+      "video-prompts.md",
+      "work-resume-register.json",
+      "references/scenes/scene-28/H28B-reverse-empty.image-prompt.txt",
+      "references/scenes/scene-28/H28B-reverse-empty.png",
+      "references/scenes/scene-50/S50-option-A-performance-floor.image-prompt.txt",
+      "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
+      "references/thumbs/scenes/scene-28/H28B-reverse-empty.png.webp",
+      "reports/final-music-number-2026-10-30.json"
+    ],
+    "public_readback": {
+      "checked_at": "2026-10-30T01:01:55.948Z",
+      "master": {
+        "url": "https://virudik.github.io/ai-film-prompts/video-prompts.md",
+        "http": 200,
+        "bytes": 1199860,
+        "sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
+        "group_heading_count": 4
+      },
+      "status": {
+        "health": "ok",
+        "canonical_master_sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1"
+      },
+      "image": {
+        "http": 200,
+        "bytes": 2352063,
+        "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed"
+      },
+      "thumbnail": {
+        "http": 200,
+        "bytes": 38920,
+        "sha256": "8c90b91758abfb3db7cf3abfc323ad7c333d7ea09a687ffb977ae86fa643f406"
+      }
+    },
+    "workflows": [
+      {
+        "id": 40982604527,
+        "name": "integration recovery tests",
+        "conclusion": "success"
+      },
+      {
+        "id": 40982604540,
+        "name": "canonical master check",
+        "conclusion": "success"
+      },
+      {
+        "id": 40982604528,
+        "name": "reference thumbnails",
+        "conclusion": "success"
+      },
+      {
+        "id": 40982604586,
+        "name": "canon health",
+        "conclusion": "success"
+      }
+    ]
+  }
 }

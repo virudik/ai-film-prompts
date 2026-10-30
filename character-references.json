@@ -1597,9 +1597,14 @@
           },
           "usage": "gallery_only_until_owner_choice",
           "site_published": {
-            "linked_in_master": true,
             "path": "references/scenes/scene-28/H28B-reverse-empty.png",
-            "status": "pending_publication"
+            "linked_in_master": true,
+            "git_present": true,
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T01:02:57.117Z",
+            "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed",
+            "verification_report": "reports/final-music-number-2026-10-30.json",
+            "gallery_scene": 50
           },
           "aspect_check": {
             "requested": "16:9",

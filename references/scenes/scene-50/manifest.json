@@ -259,7 +259,7 @@
       "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png"
     ],
-    "status": "linked_in_master_pending_pages_verification",
+    "status": "current_master_revision_verified",
     "fan_candidate_gallery": {
       "status": "verified_on_pages",
       "scene_anchor": "#scene-50",
@@ -268,13 +268,16 @@
         "references/scenes/scene-50/S50-fans-1c48a62d.png",
         "references/scenes/scene-50/S50-fans-792d7b8a.png"
       ],
-      "owner_selection": "pending",
+      "owner_selection": "variant_2_selected_2026-10-17; new opposite-audience proposal pending image and owner choice",
       "linked_at": "2026-10-17T19:47:42.993047Z",
       "verified_at": "2026-10-17T19:51:25.814Z",
       "canonical_master_sha256": "5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3",
       "proof": "reports/evidence/s50-gallery-published-20261017.jpg",
       "checks": "All3 originalPNG SHA256 match repository; thumbs HTTP200 and browser loaded; master hash and project-status health=ok match; Pages run39064074745 success."
-    }
+    },
+    "verified_at": "2026-10-30T01:02:57.117Z",
+    "verification_report": "reports/final-music-number-2026-10-30.json",
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",

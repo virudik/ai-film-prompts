@@ -987,9 +987,11 @@
   "site_published": {
     "scene_anchor": "#scene-49",
     "linked_in_master": true,
-    "status": "verified",
-    "verified_at": "2026-10-16T23:11:53.447848+00:00",
-    "evidence": "reports/reference-readiness-2026-10-17.json"
+    "status": "current_master_revision_verified",
+    "verified_at": "2026-10-30T01:02:57.117Z",
+    "evidence": "reports/reference-readiness-2026-10-17.json",
+    "verification_report": "reports/final-music-number-2026-10-30.json",
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",

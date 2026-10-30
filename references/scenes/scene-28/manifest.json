@@ -746,9 +746,14 @@
       },
       "usage": "gallery_only_until_owner_choice",
       "site_published": {
-        "linked_in_master": true,
         "path": "references/scenes/scene-28/H28B-reverse-empty.png",
-        "status": "pending_publication"
+        "linked_in_master": true,
+        "git_present": true,
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T01:02:57.117Z",
+        "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed",
+        "verification_report": "reports/final-music-number-2026-10-30.json",
+        "gallery_scene": 50
       },
       "aspect_check": {
         "requested": "16:9",
@@ -1929,10 +1934,11 @@
       "references/scenes/scene-28/H28-horizontal-lift.png",
       "references/scenes/scene-28/F28-two-hand-face-fan.png"
     ],
-    "status": "verified_current_revision",
+    "status": "current_master_revision_verified",
     "manifest_publication": "included_with_this_repository_version",
-    "verified_at": "2026-10-25T13:36:26.001872Z",
-    "verification_report": "reports/music-reference-completion-2026-10-25.json"
+    "verified_at": "2026-10-30T01:02:57.117Z",
+    "verification_report": "reports/final-music-number-2026-10-30.json",
+    "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks."
   },
   "last_qc_at": "2026-10-08T09:58:58.592675Z",
   "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
