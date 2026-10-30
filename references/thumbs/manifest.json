@@ -3223,6 +3223,36 @@
    "thumb_bytes": 53110,
    "src_sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9"
   },
+  "references/scenes/scene-71/S71-hookah-throne.png": {
+   "thumb": "references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1664,
+   "src_height": 936,
+   "src_bytes": 2331094,
+   "thumb_bytes": 60144,
+   "src_sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+  },
+  "references/scenes/scene-71/S71-vitalik-on-throne-girls.png": {
+   "thumb": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1664,
+   "src_height": 936,
+   "src_bytes": 2401269,
+   "thumb_bytes": 62486,
+   "src_sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+  },
+  "references/scenes/scene-71/S71-vitalik-on-throne.png": {
+   "thumb": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1664,
+   "src_height": 936,
+   "src_bytes": 2238914,
+   "thumb_bytes": 55656,
+   "src_sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532"
+  },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
    "width": 640,
