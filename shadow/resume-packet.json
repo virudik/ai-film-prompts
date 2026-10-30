@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T17:23:55+00:00",
-  "source_head": "9b87401f77dae2af41491877e6cc881ebb8b1a53",
-  "source_fingerprint": "472b29db10106eeb6c898073ebb06c08a76a5689cffc815ffc3f5a54c385c596",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T17:37:46+00:00",
+  "source_head": "56b522b8faccae3001af190fe44d09bdb833afb1",
+  "source_fingerprint": "031aa806163be895b5d9297977d4744e52ebd95d1b64aaa1e9fdffd3e79a5e3b",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,7 +30,10 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -388,8 +391,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "10f44b62525792f17dd81bc43b4beb2ee172d18f2274f5ad9048a1370a2ac53e",
-      "bytes": 36054
+      "sha256": "a49527ebaadd76539229bcdcb3f2841dbc08ff3800adfc931e39daf4557def1a",
+      "bytes": 36100
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -413,7 +416,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a72259d08a5a658fc530fcd9745a36cd76c0bc8eaec0b186b301fd7a7f63193c",
+      "sha256": "26d1a4e07bc56b8b9c8d5cff37d92f23739f0bb50261a5f27a2e91278ac3f631",
       "bytes": 5135
     },
     {
@@ -428,8 +431,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "dac7547847475b1cfc7a44c9c2396073a316a81ec081e75fc1f1ab67243749a9",
-      "bytes": 407568
+      "sha256": "bedc690fc5dc57cf10e138d87b88966905c8aa7886ceeffeb07cddae7775c093",
+      "bytes": 407929
     },
     {
       "file": "project-status.json",
@@ -453,18 +456,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "fbd104d45b3f50bcb59cd0dd71ada478cc2e6f3e3c998ef35392c9c94a62bc78",
-      "bytes": 35855
+      "sha256": "e5b881c46f74da45083e98de72cc980e40c0f90c045e16d7e70d30c3947633e1",
+      "bytes": 35901
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "94f7bb38861a8bd19fef0bf91e764b40c930054c11fe3935946aae1a0b553a2e",
-      "bytes": 24169
+      "sha256": "74378a1bdf193f14657cdf81ea969eb4ffcba1467e4785cb02418f8fca19beef",
+      "bytes": 24170
     },
     {
       "file": "video-prompts.md",
-      "sha256": "fb18c114f60feaf492310d5cb77232d4a48f357f7da685f996caeb613de1b4c1",
-      "bytes": 1255176
+      "sha256": "d3a4ca413f64f75433240cca29a35020b19b39d905ab25d4c4c76fe46c188e56",
+      "bytes": 1255920
     },
     {
       "file": "work-resume-register.json",
@@ -472,5 +475,5 @@
       "bytes": 81870
     }
   ],
-  "packet_bytes": 6549
+  "packet_bytes": 6517
 }
