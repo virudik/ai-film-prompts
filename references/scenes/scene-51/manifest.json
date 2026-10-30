@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-30T01:34:39+00:00",
+  "updated_at": "2026-10-30T02:17:35+00:00",
   "status": "READY",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "references": [
@@ -524,6 +524,259 @@
         "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
         "verified_at": "2026-10-30T01:45:17+00:00"
       }
+    },
+    {
+      "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+      "asset_id": "references/scenes/scene-51/S51A-own-instrument-result.png",
+      "caption": "51A — результат разбивания; только конечное состояние",
+      "role": "broken_instrument_result_only_not_start_frame",
+      "sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425",
+      "bytes": 2487653,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-51/S51A-own-instrument-result.image-prompt.txt",
+      "prompt_sha256": "6a1e29ac1a37fef91293b8d728be7d8513bca0d8d702b11a6157e4cda928ea39",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+          "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
+    },
+    {
+      "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+      "asset_id": "references/scenes/scene-51/S51B-own-instrument-result.png",
+      "caption": "51B — результат разбивания; только конечное состояние",
+      "role": "broken_instrument_result_only_not_start_frame",
+      "sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84",
+      "bytes": 2438304,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-51/S51B-own-instrument-result.image-prompt.txt",
+      "prompt_sha256": "203ed45f261df4592901e876e0d5db2a8ff71d4d190e72c64009b602280ec1e7",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+          "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51B-own-instrument-result.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
+    },
+    {
+      "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+      "asset_id": "references/scenes/scene-51/S51C-own-instrument-result.png",
+      "caption": "51C — результат разбивания; только конечное состояние",
+      "role": "broken_instrument_result_only_not_start_frame",
+      "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+      "bytes": 2573544,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-51/S51C-own-instrument-result.image-prompt.txt",
+      "prompt_sha256": "31dd2a6b0bb5da65da9cdb3cf3870589c08f63e84ec3239045f46ec00010a2f8",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+          "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51C-own-instrument-result.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
+    },
+    {
+      "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+      "asset_id": "references/scenes/scene-51/S51D-own-instrument-result.png",
+      "caption": "51D — результат разбивания; только конечное состояние",
+      "role": "broken_instrument_result_only_not_start_frame",
+      "sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df",
+      "bytes": 2471858,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-51/S51D-own-instrument-result.image-prompt.txt",
+      "prompt_sha256": "54fcde41649244bbc5319d1a050bbe21fc439c53dd72ec7f134ae7ac9ecaff5c",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+          "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51D-own-instrument-result.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
+    },
+    {
+      "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+      "asset_id": "references/scenes/scene-51/S51E-own-instrument-result.png",
+      "caption": "51E — результат разбивания; только конечное состояние",
+      "role": "broken_instrument_result_only_not_start_frame",
+      "sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b",
+      "bytes": 2579365,
+      "dimensions": [
+        1671,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-51/S51E-own-instrument-result.image-prompt.txt",
+      "prompt_sha256": "a51d365ce849972ee4f3a546be8758f4becc8db2347ed71cf8a78a6f876d5537",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+          "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51E-own-instrument-result.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
+    },
+    {
+      "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+      "asset_id": "references/scenes/scene-51/S51F-own-instrument-result.png",
+      "caption": "51F — результат разбивания; только конечное состояние",
+      "role": "broken_instrument_result_only_not_start_frame",
+      "sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541",
+      "bytes": 2456877,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-51/S51F-own-instrument-result.image-prompt.txt",
+      "prompt_sha256": "276ce3db79818702a1fa1fd3aee17abf3dc6c116de5e8f3bde028ef685a27cab",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+          "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51F-own-instrument-result.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
+    },
+    {
+      "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+      "asset_id": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+      "caption": "51G — замах трио; все инструменты целые",
+      "role": "intact_windup_pose_helper",
+      "sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0",
+      "bytes": 2689828,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "ChatGPT built-in imagegen edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-51/S51G-trio-smash-windup.image-prompt.txt",
+      "prompt_sha256": "2c19f2121760f787167d6a2de46b4a13e1594ded3c45f3adb21ae34a84d82df1",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-49/S49G-trio-playing.png",
+          "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765"
+        }
+      ],
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Identities, costumes, original ownership and hangar retained; exactly three people with two arms each after correction, intact separate props, Dasha low hold; instrument design sheets and explicit grip rules remain authoritative."
+      },
+      "rejected_intermediate": "Extra hand in initial draft corrected; rejected intermediate not registered or published.",
+      "site_published": {
+        "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+        "thumbnail": "references/thumbs/scenes/scene-51/S51G-trio-smash-windup.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
     }
   ],
   "approved": [],
@@ -534,9 +787,9 @@
       "prompt": "51A",
       "canonical_block_label": "51A",
       "status": "READY",
-      "canonical_prompt_sha256": "bbde37d3e5868addbcf936b549b9e0e5ca9d62a78745bd1bd3a4b9399a383535",
-      "normalized_prompt_sha256": "9fe4f69f52c13ed3ed4469f92cb3e65030c27353cea6d3e6a9c93da9f0d128e0",
-      "characters": 5533,
+      "canonical_prompt_sha256": "ab04259eeba43dd6074944bc8947bab126aa6ff82caf4bb3fc0e3e963abd236e",
+      "normalized_prompt_sha256": "7c0338a1aec25ea0e98e467830d6c062f9febec45eb7b7e0726cf6afebcf074c",
+      "characters": 6079,
       "slots": [
         {
           "slot": "@Image1",
@@ -567,6 +820,14 @@
           "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
           "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+          "sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 15,
@@ -574,15 +835,16 @@
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "queue_item_id": "S51A",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51 · Wan 3.0 часть 1",
       "canonical_block_label": "51 · Wan 3.0 часть 1",
       "status": "READY",
-      "canonical_prompt_sha256": "5d9fea533d1e28d2365e9a2283f36d57adcab93620159f0439264069822865f9",
-      "normalized_prompt_sha256": "b42f4a50f33700b6582c31b6cf5140051de0f27b333e6e447ec8f458e42743c7",
-      "characters": 5700,
+      "canonical_prompt_sha256": "8b4c41ff4659fdde9b8a7d0b7f38688676e78b5bad1782026dacc3334805c732",
+      "normalized_prompt_sha256": "689cd18a22d071a706656774475ba68b0f67e912a05932b656c30e1fed4afcf8",
+      "characters": 6246,
       "slots": [
         {
           "slot": "@Image1",
@@ -613,21 +875,30 @@
           "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
           "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+          "sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51B",
       "canonical_block_label": "51B",
       "status": "READY",
-      "canonical_prompt_sha256": "8f2d685b4d7b81a394fb33d0a832cecd92d3ec4969888607ced2040cabb84f99",
-      "normalized_prompt_sha256": "6c2eaabf3ecc68f1709794ecd88d44fd3fbdad1dc0499eba64a326cb36953b30",
-      "characters": 5569,
+      "canonical_prompt_sha256": "8fec318fa2725ae2446b13302059c951c2f98a7640a6c9e274b50ba48d50eeec",
+      "normalized_prompt_sha256": "9a08770bec47d78f40e2b1a24c69651a9da7d473a6c4225e27343164bfa72d1e",
+      "characters": 6115,
       "slots": [
         {
           "slot": "@Image1",
@@ -658,6 +929,14 @@
           "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
           "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+          "sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 15,
@@ -665,15 +944,16 @@
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "queue_item_id": "S51B",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51 · Wan 3.0 часть 2",
       "canonical_block_label": "51 · Wan 3.0 часть 2",
       "status": "READY",
-      "canonical_prompt_sha256": "9d95d180c00f5b7032585a0a01e2924542337144f243b5ca051ad477d34b0c44",
-      "normalized_prompt_sha256": "fa51c05fa511ee4736cc6c172364053c5837cd36c44b5911518d81ad4cffadf8",
-      "characters": 5736,
+      "canonical_prompt_sha256": "0e870ea5a27fe6f8538f780e3e2379a2e82fe3891020ab0bf236cf228de87318",
+      "normalized_prompt_sha256": "d913712eaca39dfbcd499cf88e06a0106c63583643a34129b7225e14d64573a7",
+      "characters": 6282,
       "slots": [
         {
           "slot": "@Image1",
@@ -704,21 +984,30 @@
           "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
           "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+          "sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51C",
       "canonical_block_label": "51C",
       "status": "READY",
-      "canonical_prompt_sha256": "0ceaab0c4b399153a080833dbaf65a55dc4a4ebd927cf210ba766971e03cfb22",
-      "normalized_prompt_sha256": "7669f1f755062fec947c85b0de53eb63e1fdd7cb1fe944d0281fde9f6c13ceed",
-      "characters": 5806,
+      "canonical_prompt_sha256": "2ea33c1cdcce0f8b065455900e90c60c79c6a4724227de34591b97b37859bfe9",
+      "normalized_prompt_sha256": "5a45b6746a06dc279828184a623d4a671406804eee12ffc0305ec01c6959817b",
+      "characters": 6352,
       "slots": [
         {
           "slot": "@Image1",
@@ -755,6 +1044,14 @@
           "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
           "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
           "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+          "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 15,
@@ -762,15 +1059,16 @@
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "queue_item_id": "S51C",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51 · Wan 3.0 часть 3",
       "canonical_block_label": "51 · Wan 3.0 часть 3",
       "status": "READY",
-      "canonical_prompt_sha256": "811f611b0ac3cb9ce62d09d254bf5b040bc01787a99d6456c0249a6707e33074",
-      "normalized_prompt_sha256": "28388757dfbe56f1e077462a632a228335e35c541b8289d0fa3dd6e4df625eb2",
-      "characters": 5973,
+      "canonical_prompt_sha256": "46665b72103585ed469695a5abd9167dcf650bcbca8a520045a7244391736082",
+      "normalized_prompt_sha256": "d9e1f1e20f38eb4a94a3e9c42e4ddcaee6d171824a5e70ee2927fa8c9a8d11c6",
+      "characters": 6519,
       "slots": [
         {
           "slot": "@Image1",
@@ -807,21 +1105,30 @@
           "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
           "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
           "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+          "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51D",
       "canonical_block_label": "51D",
       "status": "READY",
-      "canonical_prompt_sha256": "5996597419d227c73edbabc3d5609f52cc3379923be6262abed3bc309d4b5fa1",
-      "normalized_prompt_sha256": "a835f62c2f4be6558b2d727675391db00a431b88849cea7100144e3420c8ea06",
-      "characters": 5680,
+      "canonical_prompt_sha256": "3b22f7d2732f97c7ee504d5c4c74e8ffadf2988bc5e8ffb18fbcc0ffdd124306",
+      "normalized_prompt_sha256": "933c2b079ab3a30f762ee73ecc8444eac4cffadd1d759d379a7c99b0f1a1b411",
+      "characters": 6226,
       "slots": [
         {
           "slot": "@Image1",
@@ -852,6 +1159,14 @@
           "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
           "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+          "sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 15,
@@ -859,15 +1174,16 @@
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "queue_item_id": "S51D",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51 · Wan 3.0 часть 4",
       "canonical_block_label": "51 · Wan 3.0 часть 4",
       "status": "READY",
-      "canonical_prompt_sha256": "b440af2eed9265fac8fcc360310de57b3e69f10401e04e9792233a140b9fa385",
-      "normalized_prompt_sha256": "34a204e3a755e437b381a704f10dabec67523a17bebd688c3e5f1486025012e4",
-      "characters": 5847,
+      "canonical_prompt_sha256": "f527d8565d412cd699bffe3a5c06d6c7d17a11f41a72219521a7a0b7fd93706b",
+      "normalized_prompt_sha256": "c08864b51b01901c6074504b417afe8a3881c48d3ea9984ef3aa41dfdfae584a",
+      "characters": 6393,
       "slots": [
         {
           "slot": "@Image1",
@@ -898,21 +1214,30 @@
           "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
           "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+          "sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51E",
       "canonical_block_label": "51E",
       "status": "READY",
-      "canonical_prompt_sha256": "d4c7db31f5e31ab232859f7feadb113bb1c008344cbf65701aef2541325c98a5",
-      "normalized_prompt_sha256": "e10a987c4087b21a64ae144e7d04c647a21cf210d323e36a1db6d5b3e1ab0cfe",
-      "characters": 5816,
+      "canonical_prompt_sha256": "caec5b995869f9bc6706b4045574e7400ced055d3210377121025f1ba1f462b2",
+      "normalized_prompt_sha256": "39894644783b4456e3efff206d66ad60aeba768b7425b5339ba1d53b98320d20",
+      "characters": 6362,
       "slots": [
         {
           "slot": "@Image1",
@@ -943,6 +1268,14 @@
           "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
           "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+          "sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 15,
@@ -950,15 +1283,16 @@
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "queue_item_id": "S51E",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51 · Wan 3.0 часть 5",
       "canonical_block_label": "51 · Wan 3.0 часть 5",
       "status": "READY",
-      "canonical_prompt_sha256": "54b2becd8e063d302e4701d5cd75107b1f6c7955d4183d334597c9c3273bf019",
-      "normalized_prompt_sha256": "50cd6618eca72c454188d3b9d5819ebb6e4082ba8dfd559b0317545db80384ed",
-      "characters": 5983,
+      "canonical_prompt_sha256": "bf3ad0b5e159c7e108195683b1faac66ef9ec5615f68b8cd63ceba43cbec6c4d",
+      "normalized_prompt_sha256": "30ca7d49c51384a29a15320a80619910922fc17081e41d71e8a494bb45fac09b",
+      "characters": 6529,
       "slots": [
         {
           "slot": "@Image1",
@@ -989,21 +1323,30 @@
           "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
           "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+          "sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51F",
       "canonical_block_label": "51F",
       "status": "READY",
-      "canonical_prompt_sha256": "c86548e38b5352a82e24f9dc78a46298d70c7813f4689aca7316078dcfc00351",
-      "normalized_prompt_sha256": "f75d757af205b82ef53293f3c8f54c5017a572baba1b2e9848100b84081b3e4f",
-      "characters": 5712,
+      "canonical_prompt_sha256": "c6f870031f80b617905f7342845f70072031558624cb7838ee0a46d14a3464bf",
+      "normalized_prompt_sha256": "01dd429c978254e2a17205eda5bedf3e1061291a008bb3a60e71b193da316391",
+      "characters": 6258,
       "slots": [
         {
           "slot": "@Image1",
@@ -1034,6 +1377,14 @@
           "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
           "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+          "sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 15,
@@ -1041,15 +1392,16 @@
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "authorized_inputs_available",
       "queue_item_id": "S51F",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51 · Wan 3.0 часть 6",
       "canonical_block_label": "51 · Wan 3.0 часть 6",
       "status": "READY",
-      "canonical_prompt_sha256": "e3f1114d0567f676a7bbe9225466bfc68f5e7bb0152b608c58c636604975a2fb",
-      "normalized_prompt_sha256": "d2f3d302ef23bee6a44becbea918791dc08618e41d55bb4accfb5272dbb82139",
-      "characters": 5879,
+      "canonical_prompt_sha256": "977fada224026704af98268c75b9cc7737f8fc857343efac87784c041e022fa3",
+      "normalized_prompt_sha256": "77646d5f6851950a562ec19945ed8d4648cefe3823fe2dbb882b70899fc0f9c7",
+      "characters": 6425,
       "slots": [
         {
           "slot": "@Image1",
@@ -1080,13 +1432,22 @@
           "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
           "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+          "sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541",
+          "required": true,
+          "input_status": "available",
+          "role": "broken_instrument_result_only_not_start_frame"
         }
       ],
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "generation_state": "not_submitted_by_this_revision",
       "launch_readiness": "unselected_alternative",
-      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera"
+      "motion_revision": "2026-10-30 final musical dance number; light, performance, camera",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51G",
@@ -1139,16 +1500,25 @@
           "required": true,
           "input_status": "available",
           "role": "broken_result_only_not_start"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+          "sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0",
+          "required": true,
+          "input_status": "available",
+          "role": "intact_windup_pose_helper"
         }
       ],
-      "canonical_prompt_sha256": "64aa3039988b07d81e466ce3ae28ed145f6d41987ecaa632352303e8b686ace6",
-      "normalized_prompt_sha256": "9e775f32196b00cd018d97edfa2020ad61406431c51c135709d7c7d57edb7692",
-      "characters": 5621,
+      "canonical_prompt_sha256": "c18705a0ece257402039e9d095c935bbef8c66df81b90af3ee6eb4213bbf666e",
+      "normalized_prompt_sha256": "8acfcdc663c160cc2e24c92881e2dc531610e6cbcde8e0155348bc7127bd6e93",
+      "characters": 6197,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "status": "READY",
       "generation_state": "not_submitted",
-      "launch_readiness": "authorized_inputs_available"
+      "launch_readiness": "authorized_inputs_available",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     },
     {
       "prompt": "51 · Wan 3.0 часть 7",
@@ -1201,16 +1571,25 @@
           "required": true,
           "input_status": "available",
           "role": "broken_result_only_not_start"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+          "sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0",
+          "required": true,
+          "input_status": "available",
+          "role": "intact_windup_pose_helper"
         }
       ],
-      "canonical_prompt_sha256": "e2f5e12c1a6324520b329125a774b80938a5d0ccfcdfe0eacffa58af6f07b4ba",
-      "normalized_prompt_sha256": "2e89f5328435b033f9b3941820878b6e16cb1206cb3a7bef234386d0c4f73d76",
-      "characters": 5673,
+      "canonical_prompt_sha256": "d7928dabe0801a57cff64da87c876eb073b4d55055b5f48f2d524ff8d8985b7a",
+      "normalized_prompt_sha256": "ce4e40f06f7e65ce986ad92b65dd8d93100f7d64942ca9d955a57ac713e59962",
+      "characters": 6249,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "status": "READY",
       "generation_state": "not_submitted",
-      "launch_readiness": "unselected_alternative"
+      "launch_readiness": "unselected_alternative",
+      "reference_state_revision": "2026-10-30T02:17:35+00:00"
     }
   ],
   "site_published": {
@@ -1239,8 +1618,8 @@
     "Safety for cats, tiny Ewok and fans",
     "Only owner-authorized queue; unlimited website, zero credits, one submit per item; no automatic editorial approval."
   ],
-  "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
-  "last_qc_at": "2026-10-25T13:19:17.275849Z",
+  "canonical_master_sha256": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
+  "last_qc_at": "2026-10-30T02:17:35+00:00",
   "superseded_pose_note": "Old three-musician S51 helpers remain in the gallery/history but are not loaded into the six-pair revision.",
   "launch_gate": "Owner30Oct adds trio to the authorized final number: story priorities then63→49 (G before F)→50A/B→51A–G→28 (A13 before A10). Each new trio item: one Unlimited0 attempt; 30s versions unselected. A3 needs actual A2-R2 frame; A12 needs actual A11 clip. Preserve existing rerender/review gates. Stormtrooper image blocker does not block independent ready items. Technical retries only under ops/TOPVIEW-RETRY.md; no paid or artistic rerender authorization.",
   "video_refs": [],
@@ -1320,6 +1699,26 @@
   "trio_revision_20261030": {
     "report": "reports/final-music-trio-2026-10-30.json",
     "new_blocks": [
+      "51G",
+      "51 · Wan 3.0 часть 7"
+    ]
+  },
+  "reference_states_20261030": {
+    "report": "reports/final-music-reference-states-2026-10-30.json",
+    "rule": "intact preparation then visible contact then broken end only",
+    "updated_blocks": [
+      "51A",
+      "51 · Wan 3.0 часть 1",
+      "51B",
+      "51 · Wan 3.0 часть 2",
+      "51C",
+      "51 · Wan 3.0 часть 3",
+      "51D",
+      "51 · Wan 3.0 часть 4",
+      "51E",
+      "51 · Wan 3.0 часть 5",
+      "51F",
+      "51 · Wan 3.0 часть 6",
       "51G",
       "51 · Wan 3.0 часть 7"
     ]

@@ -4023,7 +4023,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 <div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-fans-1c48a62d.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-fans-1c48a62d.png.webp" alt="Вуки — центральная площадка, выбранный существующий кадр" loading="lazy"></a><figcaption>Вуки — центральная площадка, выбранный существующий кадр</figcaption></figure></div>
 <div class="scene-ref-gallery"><figure><a href="references/scenes/scene-28/H28B-reverse-empty.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/H28B-reverse-empty.png.webp" alt="Противоположная сторона H28B — основа для зрителей-штурмовиков" loading="lazy"></a><figcaption>Противоположная сторона H28B — основа для зрителей-штурмовиков</figcaption></figure></div>
 
-**Не готово:** кадр радостных штурмовиков встроенный генератор отклонил фильтром. [Промт изображения](references/scenes/scene-50/S50-stormtroopers-opposite-audience.image-prompt.txt) сохранён; PNG и видео-задача не созданы. Отменённый вариант «вуки напротив» больше не ожидается. Этот дополнительный кадр не блокирует готовое трио и существующую очередь50A/B.
+**Варианты публики · последняя команда30.10:** для противоположной стороны запрошены три варианта — вуки, штурмовики, смешанная толпа. Nano Banana Pro сделал вуки; штурмовиков и смешанный вариант отклонил ограничением стороннего контента (7000,35561575), по0,8 кредита возвращены. Фактический расход0,8 кредита; остаток5,57. Новый кадр вуки ниже — дополнительный вариант для выбора, не замена выбранного центрального кадра50A/B. Два неготовых PNG не объявлены входами и не задерживают очередь. [Квитанции и дальнейшие действия](reports/final-music-reference-states-2026-10-30.json).
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-opposite-audience.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp" alt="Вариант публики напротив — радостные вуки; дополнительный образец для выбора" loading="lazy"></a><figcaption>Вариант публики напротив — радостные вуки; дополнительный образец для выбора</figcaption></figure></div>
 
 <div class="engine-tabs" data-scene="50">
 
@@ -4166,6 +4168,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 51 — Финальный музыкально-танцевальный номер: Рок-финал: каждый разбивает свой инструмент
 
+**Референсы состояний · 30.10.2026:** у каждой группы51A–G есть отдельные целые инструменты/подготовка и отдельный образец поломки. Новый кадр результата — только конец после видимого контакта; он не первый кадр и не замена действию. Для арфы, ударных и пэдов подготовка означает наклон/толчок/кошачий прыжок, а не гитарный замах. Кадры не переопределяют лица и конструкцию инструмента. Все14 промтов и7 ожидающих пунктов синхронизированы. [Проверка и варианты публики](reports/final-music-reference-states-2026-10-30.json).
+
 **Дополнение владельца · 30.10.2026:** Маша Р, Алина и Даша выступают отдельным трио:28A13/B12 — танец,49G/30с часть4 — игра,51G/30с часть7 — каждый ломает своё. Маша Р не Маша Лагуна. Старые общие кадры G28/49F содержат прежние12 персонажей; новое трио снимается отдельно, не дорисовывается в эти кадры. Монтаж: танцы и игра до уничтожения инструментов; после разбивания целые инструменты не возвращаются. Вуки — на центральной площадке; штурмовики — публика напротив у внутренней стены, реакция отдельной перебивкой. [Референсы, очередность и оставшийся блокер](reports/final-music-trio-2026-10-30.json).
 
 **Общий блок:** [49 — музыканты](#scene-49) → [50 — вуки-фанаты](#scene-50) → [51 — разбивание инструментов](#scene-51) → [28 — танцы](#scene-28). Это порядок подготовки выбранной очереди; в фильме номера чередуются на музыкальных акцентах. Стабильные номера сцен сохранены.
@@ -4179,6 +4183,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Площадка и порядок:** собственные лица, одежда и ангар H28B. Сюжетные приоритеты →63→49→50→51A–G→танцы28. Реакции выбранных вуки остаются отдельными роликами50 и монтажными перебивками, а не перегружают каждый удар. Коты получают свой финал и не стоят в зоне замаха людей. Музыкальный выбор для28/49–51 прежний: «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33), добавляется на монтаже; генерация не копирует запись.
 
 **Критерий результата:** все15 исполнителей (исходные12 + отдельное трио51G) по отдельности ломают своё. Гитары/басы — корпусом о пол при хвате двумя руками за гриф; перкуссия — падение и разрушение рамы; барабаны — порванная мембрана и развал установки; духовой — сломанная труба/раструб; арфа — сломанная рама и ослабшие струны; клавиши — расколотый корпус и выпавшие клавиши; у каждого кота — сломанный собственный контроллер. Погасшие огни, брошенный целый инструмент или облако искр без видимого контакта не засчитываются. Технический успех генерации не означает приёмку владельцем.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-51/S51A-own-instrument-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp" alt="51A — результат разбивания; только конечное состояние" loading="lazy"></a><figcaption>51A — результат разбивания; только конечное состояние</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51B-own-instrument-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51B-own-instrument-result.png.webp" alt="51B — результат разбивания; только конечное состояние" loading="lazy"></a><figcaption>51B — результат разбивания; только конечное состояние</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51C-own-instrument-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51C-own-instrument-result.png.webp" alt="51C — результат разбивания; только конечное состояние" loading="lazy"></a><figcaption>51C — результат разбивания; только конечное состояние</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51D-own-instrument-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51D-own-instrument-result.png.webp" alt="51D — результат разбивания; только конечное состояние" loading="lazy"></a><figcaption>51D — результат разбивания; только конечное состояние</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51E-own-instrument-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51E-own-instrument-result.png.webp" alt="51E — результат разбивания; только конечное состояние" loading="lazy"></a><figcaption>51E — результат разбивания; только конечное состояние</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51F-own-instrument-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51F-own-instrument-result.png.webp" alt="51F — результат разбивания; только конечное состояние" loading="lazy"></a><figcaption>51F — результат разбивания; только конечное состояние</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51G-trio-smash-windup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51G-trio-smash-windup.png.webp" alt="51G — замах трио; все инструменты целые" loading="lazy"></a><figcaption>51G — замах трио; все инструменты целые</figcaption></figure>
+</div>
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-51/S51A-own-instrument-setup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51A-own-instrument-setup.png.webp" alt="51A — Серёга и Юля — гитара и бас; целые инструменты перед действием" loading="lazy"></a><figcaption>51A — Серёга и Юля — гитара и бас; целые инструменты перед действием</figcaption></figure>
@@ -4195,7 +4209,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 51A · Серёга и Юля — гитара и бас · 15 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [serega](references/full/serega.jpg) · @Image3 = [yulya](references/full/yulya.jpg) · @Image4 = [S49A-lead-and-bass](references/scenes/scene-49/S49A-lead-and-bass.png) · @Image5 = [S51A-own-instrument-setup](references/scenes/scene-51/S51A-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [serega](references/full/serega.jpg) · @Image3 = [yulya](references/full/yulya.jpg) · @Image4 = [S49A-lead-and-bass](references/scenes/scene-49/S49A-lead-and-bass.png) · @Image5 = [S51A-own-instrument-setup](references/scenes/scene-51/S51A-own-instrument-setup.png) · @Image6 = [S51A-own-instrument-result](references/scenes/scene-51/S51A-own-instrument-result.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4203,6 +4217,7 @@ Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT SEREGA: exact mature face, balding light hair, original build and long deep-purple robe. RIGHT YULIA: exact adult face/build, long chestnut hair, dark armour, gloves and cape.
@@ -4221,6 +4236,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Both keep their own broken necks lowered beside them; distinct blue and violet broken bodies remain on their separate floor patches. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4235,7 +4251,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 51B · Паша и Саша — бронзовый бас и кобальтовая гитара · 15 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [pasha](references/full/pasha.jpg) · @Image3 = [sasha](references/full/sasha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S51B-own-instrument-setup](references/scenes/scene-51/S51B-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [pasha](references/full/pasha.jpg) · @Image3 = [sasha](references/full/sasha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S51B-own-instrument-setup](references/scenes/scene-51/S51B-own-instrument-setup.png) · @Image6 = [S51B-own-instrument-result](references/scenes/scene-51/S51B-own-instrument-result.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4243,6 +4259,7 @@ Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT PASHA: exact adult face, short hair, navy Jedi tunic and boots. RIGHT SASHA: exact adult face, beard, round spectacles, cream tunic and burgundy-brown robe.
@@ -4261,6 +4278,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Pasha and Sasha stand over two distinct broken instruments, each retaining only his own neck, with bronze pieces left and cobalt pieces right. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4275,7 +4293,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 51C · Артём и Илюша — перкуссия и барабаны · 15 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [artem](references/full/artem.jpg) · @Image3 = [ilyusha](references/full/ilyusha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image6 = [S51C-own-instrument-setup](references/scenes/scene-51/S51C-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [artem](references/full/artem.jpg) · @Image3 = [ilyusha](references/full/ilyusha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image6 = [S51C-own-instrument-setup](references/scenes/scene-51/S51C-own-instrument-setup.png) · @Image7 = [S51C-own-instrument-result](references/scenes/scene-51/S51C-own-instrument-result.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4283,6 +4301,7 @@ Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5: assigned instruments only. @Image6 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image7 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT ARTEM: exact stocky adult face/build, light-brown hair/beard, beige-and-brown Jedi clothes. RIGHT ILYUSHA: exact adult face, moustache, tousled brown hair, olive-green tunic and deep-red cloak.
@@ -4301,6 +4320,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image7; exact debris positions may differ naturally.
 The three-ring console is broken on the left; Ilyusha's collapsed drum kit on the right has a torn head, split shell and fallen stands. Both musicians remain upright behind their own equipment. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4315,7 +4335,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 51D · Лёша и Виталик — духовой синтезатор и тяжёлый бас · 15 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [lesha](references/full/lesha.jpg) · @Image3 = [vitalik](references/full/vitalik.jpg) · @Image4 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image5 = [S51D-own-instrument-setup](references/scenes/scene-51/S51D-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [lesha](references/full/lesha.jpg) · @Image3 = [vitalik](references/full/vitalik.jpg) · @Image4 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image5 = [S51D-own-instrument-setup](references/scenes/scene-51/S51D-own-instrument-setup.png) · @Image6 = [S51D-own-instrument-result](references/scenes/scene-51/S51D-own-instrument-result.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4323,6 +4343,7 @@ Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT LESHA: exact slim adult face, moustache, purple inner tunic, long grey robe and pale boots. RIGHT VITALIK: exact sturdy adult face/build, black tunic/leather panels, brown trousers and tall boots.
@@ -4341,6 +4362,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Lesha lowers the broken upper tube; Vitalik lowers his broken bass neck. Their differently coloured wrecks stay separate on the floor. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4355,7 +4377,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 51E · Маша Лагуна и Алеся — арфа и клавиши · 15 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [masha-laguna](references/masha-laguna.webp) · @Image3 = [Ale28-Alesya-model-sheet](references/scenes/scene-28/Ale28-Alesya-model-sheet.png) · @Image4 = [S49D-harp-small-synth](references/scenes/scene-49/S49D-harp-small-synth.png) · @Image5 = [S51E-own-instrument-setup](references/scenes/scene-51/S51E-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [masha-laguna](references/masha-laguna.webp) · @Image3 = [Ale28-Alesya-model-sheet](references/scenes/scene-28/Ale28-Alesya-model-sheet.png) · @Image4 = [S49D-harp-small-synth](references/scenes/scene-49/S49D-harp-small-synth.png) · @Image5 = [S51E-own-instrument-setup](references/scenes/scene-51/S51E-own-instrument-setup.png) · @Image6 = [S51E-own-instrument-result](references/scenes/scene-51/S51E-own-instrument-result.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4363,6 +4385,7 @@ Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT MASHA LAGUNA: exact blue adult humanoid face and long pale-blue head tentacles, dark head/collar details, fully opaque smooth blue full-length costume. RIGHT ALESYA: approximately one-metre-tall brown-furred Ewok body with round ears and hood, exact approved ADULT human female face, no spear. Preserve the adult/one-metre height ratio; no child or full-height Alesya.
@@ -4381,6 +4404,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Masha and Alesya stand behind their own clearly broken harp and keyboard; loose strings, split cases and fallen keys remain visible. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4395,7 +4419,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 51F · Лучик и Рыжик — кошачьи музыкальные пэды · 15 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [luchik](references/luchik.jpg) · @Image3 = [ryzhik](references/ryzhik.jpg) · @Image4 = [S49E-cat-paw-controllers](references/scenes/scene-49/S49E-cat-paw-controllers.png) · @Image5 = [S51F-own-instrument-setup](references/scenes/scene-51/S51F-own-instrument-setup.png). Самостоятельная часть; @Video1 не нужен.
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [luchik](references/luchik.jpg) · @Image3 = [ryzhik](references/ryzhik.jpg) · @Image4 = [S49E-cat-paw-controllers](references/scenes/scene-49/S49E-cat-paw-controllers.png) · @Image5 = [S51F-own-instrument-setup](references/scenes/scene-51/S51F-own-instrument-setup.png) · @Image6 = [S51F-own-instrument-result](references/scenes/scene-51/S51F-own-instrument-result.png). Самостоятельная часть; @Video1 не нужен.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4403,6 +4427,7 @@ Optimized for Seedance 2.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT LUCHIK: exact long white-grey fur pattern, white muzzle/chest/paws and grey crown/back. RIGHT RYZHIK: exact long orange tabby coat, darker stripes and pale chest. Both real domestic-sized quadruped cats, natural paws and tails, no clothes, human hands, upright humanoid posture or lightsabers. Identity sheets control fur/faces only, not their upright source pose.
@@ -4421,6 +4446,7 @@ CAMERA / PHYSICS:
 Low cat-eye-level medium-wide view showing both entire cats, all paws and both controllers. A smooth 15-degree front arc follows the preparation, eases to a nearly stationary view at each paw contact, then a gentle dolly-out reveals both broken housings. Keep the actual pounce and fragments readable; no camera among paws or across the impact lanes. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Both cats remain unharmed and quadrupedal behind their own visibly broken blue and amber controllers, alert and solemn; a tiny self-satisfied tail flick closes the joke. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4435,7 +4461,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 51G · Маша Р, Алина и Даша — три собственных инструмента · 15 с
 
-**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png) · @Image6 = [S51G-trio-smash-result](references/scenes/scene-51/S51G-trio-smash-result.png). Самостоятельный номер, @Video1 не нужен.
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png) · @Image6 = [S51G-trio-smash-result](references/scenes/scene-51/S51G-trio-smash-result.png) · @Image7 = [S51G-trio-smash-windup](references/scenes/scene-51/S51G-trio-smash-windup.png). Самостоятельный номер, @Video1 не нужен.
 
 <div class="scene-ref-gallery"><figure><a href="references/scenes/scene-51/S51G-trio-smash-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51G-trio-smash-result.png.webp" alt="Рок-финал трио: образец результата разбивания, НЕ первый кадр" loading="lazy"></a><figcaption>Рок-финал трио: образец результата разбивания, НЕ первый кадр</figcaption></figure></div>
 
@@ -4445,6 +4471,7 @@ Optimized for Seedance 2.0 | Photoreal live-action final musical dance number
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 controls the three intact instrument designs, their owners and playing contacts; it cannot override individual faces or the location. @Image6 is a BROKEN END-STATE reference only, never a first frame, never a source of pre-existing damage. Its headstock hand placement does not override the narrow-neck grip described below.
+@Image7 is the INTACT PREPARATION / WINDUP pose helper only: Alina left and Masha centre hold their own intact instruments body-up, Dasha right holds her intact keyboard low. Individual sheets and @Image5 control identities and prop construction; the explicit narrow-neck grip overrides helper hand spacing. @Image6 remains END ONLY. Never morph directly between these two stills: show each physical swing, floor contact and resulting fracture.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
@@ -4456,6 +4483,7 @@ INSTRUMENT OWNERSHIP:
 Alina owns the short-scale turquoise/silver alien bass; Masha owns the copper/red alien electric guitar with circular amber core and silver edging; Dasha owns the compact purple/amber keyboard on its low stable stand. Match the physical designs in @Image5, one of each, with unchanged ownership and child-appropriate scale.
 
 START STATE:
+Use the intact preparation in @Image7 as a pose guide, immediately moving into the first accent rather than holding the reference.
 All three stand in their separate floor lanes with their OWN INTACT instruments from @Image5. Masha and Alina have released the shoulder straps and each grips the narrow neck with both hands just below the headstock; the body is free to swing. Dasha has lifted her lightweight keyboard from its low stand with both hands on its casing; the empty stand is parked behind her. No existing broken parts from @Image6 at the start.
 
 ACTION / CAUSAL ORDER:
@@ -4485,7 +4513,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 
 #### 51 · Wan 3.0 часть 1 · Серёга и Юля — гитара и бас · 30 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [serega](references/full/serega.jpg) · @Image3 = [yulya](references/full/yulya.jpg) · @Image4 = [S49A-lead-and-bass](references/scenes/scene-49/S49A-lead-and-bass.png) · @Image5 = [S51A-own-instrument-setup](references/scenes/scene-51/S51A-own-instrument-setup.png).
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [serega](references/full/serega.jpg) · @Image3 = [yulya](references/full/yulya.jpg) · @Image4 = [S49A-lead-and-bass](references/scenes/scene-49/S49A-lead-and-bass.png) · @Image5 = [S51A-own-instrument-setup](references/scenes/scene-51/S51A-own-instrument-setup.png) · @Image6 = [S51A-own-instrument-result](references/scenes/scene-51/S51A-own-instrument-result.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4493,6 +4521,7 @@ Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT SEREGA: exact mature face, balding light hair, original build and long deep-purple robe. RIGHT YULIA: exact adult face/build, long chestnut hair, dark armour, gloves and cape.
@@ -4511,6 +4540,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Both keep their own broken necks lowered beside them; distinct blue and violet broken bodies remain on their separate floor patches. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4525,7 +4555,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 51 · Wan 3.0 часть 2 · Паша и Саша — бронзовый бас и кобальтовая гитара · 30 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [pasha](references/full/pasha.jpg) · @Image3 = [sasha](references/full/sasha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S51B-own-instrument-setup](references/scenes/scene-51/S51B-own-instrument-setup.png).
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [pasha](references/full/pasha.jpg) · @Image3 = [sasha](references/full/sasha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S51B-own-instrument-setup](references/scenes/scene-51/S51B-own-instrument-setup.png) · @Image6 = [S51B-own-instrument-result](references/scenes/scene-51/S51B-own-instrument-result.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4533,6 +4563,7 @@ Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT PASHA: exact adult face, short hair, navy Jedi tunic and boots. RIGHT SASHA: exact adult face, beard, round spectacles, cream tunic and burgundy-brown robe.
@@ -4551,6 +4582,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Pasha and Sasha stand over two distinct broken instruments, each retaining only his own neck, with bronze pieces left and cobalt pieces right. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4565,7 +4597,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 51 · Wan 3.0 часть 3 · Артём и Илюша — перкуссия и барабаны · 30 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [artem](references/full/artem.jpg) · @Image3 = [ilyusha](references/full/ilyusha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image6 = [S51C-own-instrument-setup](references/scenes/scene-51/S51C-own-instrument-setup.png).
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [artem](references/full/artem.jpg) · @Image3 = [ilyusha](references/full/ilyusha.jpg) · @Image4 = [S49B-rhythm-instruments](references/scenes/scene-49/S49B-rhythm-instruments.png) · @Image5 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image6 = [S51C-own-instrument-setup](references/scenes/scene-51/S51C-own-instrument-setup.png) · @Image7 = [S51C-own-instrument-result](references/scenes/scene-51/S51C-own-instrument-result.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4573,6 +4605,7 @@ Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5: assigned instruments only. @Image6 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image7 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT ARTEM: exact stocky adult face/build, light-brown hair/beard, beige-and-brown Jedi clothes. RIGHT ILYUSHA: exact adult face, moustache, tousled brown hair, olive-green tunic and deep-red cloak.
@@ -4591,6 +4624,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image7; exact debris positions may differ naturally.
 The three-ring console is broken on the left; Ilyusha's collapsed drum kit on the right has a torn head, split shell and fallen stands. Both musicians remain upright behind their own equipment. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4605,7 +4639,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 51 · Wan 3.0 часть 4 · Лёша и Виталик — духовой синтезатор и тяжёлый бас · 30 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [lesha](references/full/lesha.jpg) · @Image3 = [vitalik](references/full/vitalik.jpg) · @Image4 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image5 = [S51D-own-instrument-setup](references/scenes/scene-51/S51D-own-instrument-setup.png).
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [lesha](references/full/lesha.jpg) · @Image3 = [vitalik](references/full/vitalik.jpg) · @Image4 = [S49C-drums-wind-bass](references/scenes/scene-49/S49C-drums-wind-bass.png) · @Image5 = [S51D-own-instrument-setup](references/scenes/scene-51/S51D-own-instrument-setup.png) · @Image6 = [S51D-own-instrument-result](references/scenes/scene-51/S51D-own-instrument-result.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4613,6 +4647,7 @@ Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT LESHA: exact slim adult face, moustache, purple inner tunic, long grey robe and pale boots. RIGHT VITALIK: exact sturdy adult face/build, black tunic/leather panels, brown trousers and tall boots.
@@ -4631,6 +4666,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Lesha lowers the broken upper tube; Vitalik lowers his broken bass neck. Their differently coloured wrecks stay separate on the floor. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4645,7 +4681,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 51 · Wan 3.0 часть 5 · Маша Лагуна и Алеся — арфа и клавиши · 30 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [masha-laguna](references/masha-laguna.webp) · @Image3 = [Ale28-Alesya-model-sheet](references/scenes/scene-28/Ale28-Alesya-model-sheet.png) · @Image4 = [S49D-harp-small-synth](references/scenes/scene-49/S49D-harp-small-synth.png) · @Image5 = [S51E-own-instrument-setup](references/scenes/scene-51/S51E-own-instrument-setup.png).
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [masha-laguna](references/masha-laguna.webp) · @Image3 = [Ale28-Alesya-model-sheet](references/scenes/scene-28/Ale28-Alesya-model-sheet.png) · @Image4 = [S49D-harp-small-synth](references/scenes/scene-49/S49D-harp-small-synth.png) · @Image5 = [S51E-own-instrument-setup](references/scenes/scene-51/S51E-own-instrument-setup.png) · @Image6 = [S51E-own-instrument-result](references/scenes/scene-51/S51E-own-instrument-result.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4653,6 +4689,7 @@ Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT MASHA LAGUNA: exact blue adult humanoid face and long pale-blue head tentacles, dark head/collar details, fully opaque smooth blue full-length costume. RIGHT ALESYA: approximately one-metre-tall brown-furred Ewok body with round ears and hood, exact approved ADULT human female face, no spear. Preserve the adult/one-metre height ratio; no child or full-height Alesya.
@@ -4671,6 +4708,7 @@ CAMERA / PHYSICS:
 One continuous medium-wide full-body view, natural 35–50mm perspective, showing both performers, complete instruments, hands/feet and separate floor contact zones. A smooth 25-degree front arc favours the first preparation, then a lateral dolly transfers attention to the second performer. Ease camera travel around each actual impact, then dolly outward for the two visible wrecks. Never cross the action axis, move into a swing lane or crop the raised instrument. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Masha and Alesya stand behind their own clearly broken harp and keyboard; loose strings, split cases and fallen keys remain visible. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4685,7 +4723,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 51 · Wan 3.0 часть 6 · Лучик и Рыжик — кошачьи музыкальные пэды · 30 с
 
-**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [luchik](references/luchik.jpg) · @Image3 = [ryzhik](references/ryzhik.jpg) · @Image4 = [S49E-cat-paw-controllers](references/scenes/scene-49/S49E-cat-paw-controllers.png) · @Image5 = [S51F-own-instrument-setup](references/scenes/scene-51/S51F-own-instrument-setup.png).
+**Входы:** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [luchik](references/luchik.jpg) · @Image3 = [ryzhik](references/ryzhik.jpg) · @Image4 = [S49E-cat-paw-controllers](references/scenes/scene-49/S49E-cat-paw-controllers.png) · @Image5 = [S51F-own-instrument-setup](references/scenes/scene-51/S51F-own-instrument-setup.png) · @Image6 = [S51F-own-instrument-result](references/scenes/scene-51/S51F-own-instrument-result.png).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4693,6 +4731,7 @@ Optimized for Wan 3.0 | Photoreal live-action rock-concert finale
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 is H28B architecture, fixture layout and opening light phase only. @Image2 controls ONLY the first performer; @Image3 controls ONLY the second. @Image4: assigned instruments only. @Image5 is the intact preparation/ownership pose helper; individual sheets and instrument photos override its facial or prop details. Exactly these two performers, no extra sheet-view copies.
+@Image6 is a BROKEN END-STATE / damage-location helper ONLY: take the recognisable fractured body/frame and separate ownership lanes, never its face, neck/headstock geometry, exact string count or small debris arrangement. Original individual sheets and intact instrument photos remain primary. Do not copy its damage into the start, interpolate a dissolve, or substitute the still for the visible physical action.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LEFT LUCHIK: exact long white-grey fur pattern, white muzzle/chest/paws and grey crown/back. RIGHT RYZHIK: exact long orange tabby coat, darker stripes and pale chest. Both real domestic-sized quadruped cats, natural paws and tails, no clothes, human hands, upright humanoid posture or lightsabers. Identity sheets control fur/faces only, not their upright source pose.
@@ -4711,6 +4750,7 @@ CAMERA / PHYSICS:
 Low cat-eye-level medium-wide view showing both entire cats, all paws and both controllers. A smooth 15-degree front arc follows the preparation, eases to a nearly stationary view at each paw contact, then a gentle dolly-out reveals both broken housings. Keep the actual pounce and fragments readable; no camera among paws or across the impact lanes. Keep preparation, contact and resulting breakage visible in one continuous view; no cut or flash conceals the impact. Breakaway stage props fracture only at physical contact, gravity pulls pieces to the floor, persistent debris never reassembles. Separate lanes; no person or animal is struck, no flames or explosion.
 
 END STATE:
+After both causal impacts, the damage type and separate owner lanes approach @Image6; exact debris positions may differ naturally.
 Both cats remain unharmed and quadrupedal behind their own visibly broken blue and amber controllers, alert and solemn; a tiny self-satisfied tail flick closes the joke. Resolve into the proud deadpan closing accent only in the final half-second; breathing and cloth/fur continue, with no frozen reaction.
 
 AUDIO:
@@ -4725,7 +4765,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 51 · Wan 3.0 часть 7 · Маша Р, Алина и Даша · 30 с
 
-**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png) · @Image6 = [S51G-trio-smash-result](references/scenes/scene-51/S51G-trio-smash-result.png). Самостоятельный номер, @Video1 не нужен.
+**Входы (по порядку):** @Image1 = [H28B-disco](references/scenes/scene-28/H28B-disco.png) · @Image2 = [S67-Masha-R-tatooine-sheet](references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png) · @Image3 = [S66-Alina-tatooine-sheet](references/scenes/scene-66/S66-Alina-tatooine-sheet.png) · @Image4 = [S66-Dasha-tatooine-sheet](references/scenes/scene-66/S66-Dasha-tatooine-sheet.png) · @Image5 = [S49G-trio-playing](references/scenes/scene-49/S49G-trio-playing.png) · @Image6 = [S51G-trio-smash-result](references/scenes/scene-51/S51G-trio-smash-result.png) · @Image7 = [S51G-trio-smash-windup](references/scenes/scene-51/S51G-trio-smash-windup.png). Самостоятельный номер, @Video1 не нужен.
 
 <div class="scene-ref-gallery"><figure><a href="references/scenes/scene-51/S51G-trio-smash-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51G-trio-smash-result.png.webp" alt="Рок-финал трио: образец результата разбивания, НЕ первый кадр" loading="lazy"></a><figcaption>Рок-финал трио: образец результата разбивания, НЕ первый кадр</figcaption></figure></div>
 
@@ -4735,6 +4775,7 @@ Optimized for Wan 3.0 | Photoreal live-action final musical dance number
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 controls H28B architecture, fixtures and opening lighting phase. @Image2 controls Masha R ONLY; @Image3 Alina ONLY; @Image4 Dasha ONLY. Individual sheets outrank every composition for faces, ages, scale and costume. @Image5 controls the three intact instrument designs, their owners and playing contacts; it cannot override individual faces or the location. @Image6 is a BROKEN END-STATE reference only, never a first frame, never a source of pre-existing damage. Its headstock hand placement does not override the narrow-neck grip described below.
+@Image7 is the INTACT PREPARATION / WINDUP pose helper only: Alina left and Masha centre hold their own intact instruments body-up, Dasha right holds her intact keyboard low. Individual sheets and @Image5 control identities and prop construction; the explicit narrow-neck grip overrides helper hand spacing. @Image6 remains END ONLY. Never morph directly between these two stills: show each physical swing, floor contact and resulting fracture.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MASHA R (@Image2), CENTRE: adult woman with exact face, long wavy copper-red hair and bangs, long terracotta tunic, sand scarf, belt, brown crossbody satchel, dark trousers and boots. ALINA (@Image3), LEFT: girl with exact youthful face, blonde low ponytail, cream tunic, olive vest, dusty teal scarf, sand trousers, belt pouch and boots. DASHA (@Image4), RIGHT: girl with exact youthful face, straight light-brown chin-length bob, cream tunic, terracotta vest, sand scarf, dark-brown trousers, belt pouch and boots. Preserve exact reference ages, proportions, faces and costumes; Masha is adult and taller. Masha R is NOT the blue-skinned Masha Laguna. Exactly these three, no duplicate sheet poses, extra people or identity blending.
@@ -4746,6 +4787,7 @@ INSTRUMENT OWNERSHIP:
 Alina owns the short-scale turquoise/silver alien bass; Masha owns the copper/red alien electric guitar with circular amber core and silver edging; Dasha owns the compact purple/amber keyboard on its low stable stand. Match the physical designs in @Image5, one of each, with unchanged ownership and child-appropriate scale.
 
 START STATE:
+Use the intact preparation in @Image7 as a pose guide, immediately moving into the first accent rather than holding the reference.
 All three stand in their separate floor lanes with their OWN INTACT instruments from @Image5. Masha and Alina have released the shoulder straps and each grips the narrow neck with both hands just below the headstock; the body is free to swing. Dasha has lifted her lightweight keyboard from its low stand with both hands on its casing; the empty stand is parked behind her. No existing broken parts from @Image6 at the start.
 
 ACTION / CAUSAL ORDER:

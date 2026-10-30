@@ -3182,6 +3182,86 @@
    "src_bytes": 2561427,
    "thumb_bytes": 43000,
    "src_sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01"
+  },
+  "references/scenes/scene-51/S51A-own-instrument-result.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2487653,
+   "thumb_bytes": 53634,
+   "src_sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425"
+  },
+  "references/scenes/scene-51/S51B-own-instrument-result.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51B-own-instrument-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2438304,
+   "thumb_bytes": 56354,
+   "src_sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84"
+  },
+  "references/scenes/scene-51/S51C-own-instrument-result.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51C-own-instrument-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2573544,
+   "thumb_bytes": 64796,
+   "src_sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9"
+  },
+  "references/scenes/scene-51/S51D-own-instrument-result.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51D-own-instrument-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2471858,
+   "thumb_bytes": 55962,
+   "src_sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df"
+  },
+  "references/scenes/scene-51/S51E-own-instrument-result.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51E-own-instrument-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1671,
+   "src_height": 941,
+   "src_bytes": 2579365,
+   "thumb_bytes": 61398,
+   "src_sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b"
+  },
+  "references/scenes/scene-51/S51F-own-instrument-result.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51F-own-instrument-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2456877,
+   "thumb_bytes": 54922,
+   "src_sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541"
+  },
+  "references/scenes/scene-51/S51G-trio-smash-windup.png": {
+   "thumb": "references/thumbs/scenes/scene-51/S51G-trio-smash-windup.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2689828,
+   "thumb_bytes": 63704,
+   "src_sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0"
+  },
+  "references/scenes/scene-50/S50-wookiees-opposite-audience.png": {
+   "thumb": "references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 1376,
+   "src_height": 768,
+   "src_bytes": 1616807,
+   "thumb_bytes": 42458,
+   "src_sha256": "60bb9fad100e8aa24ae729788d26d25d56af229a73757ddde05feed61eed19b2"
   }
  }
 }

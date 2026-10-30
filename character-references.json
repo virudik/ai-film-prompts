@@ -750,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T01:45:17+00:00",
+  "updated_at": "2026-10-30T02:17:35+00:00",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -1815,6 +1815,402 @@
           }
         }
       ]
+    },
+    {
+      "id": "S51A-own-instrument-result",
+      "name": "51A — результат разбивания; только конечное состояние",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+          "asset_id": "references/scenes/scene-51/S51A-own-instrument-result.png",
+          "caption": "51A — результат разбивания; только конечное состояние",
+          "role": "broken_instrument_result_only_not_start_frame",
+          "sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425",
+          "bytes": 2487653,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-51/S51A-own-instrument-result.image-prompt.txt",
+          "prompt_sha256": "6a1e29ac1a37fef91293b8d728be7d8513bca0d8d702b11a6157e4cda928ea39",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+              "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+            "thumbnail": "references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
+    },
+    {
+      "id": "S51B-own-instrument-result",
+      "name": "51B — результат разбивания; только конечное состояние",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+          "asset_id": "references/scenes/scene-51/S51B-own-instrument-result.png",
+          "caption": "51B — результат разбивания; только конечное состояние",
+          "role": "broken_instrument_result_only_not_start_frame",
+          "sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84",
+          "bytes": 2438304,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-51/S51B-own-instrument-result.image-prompt.txt",
+          "prompt_sha256": "203ed45f261df4592901e876e0d5db2a8ff71d4d190e72c64009b602280ec1e7",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+              "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+            "thumbnail": "references/thumbs/scenes/scene-51/S51B-own-instrument-result.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
+    },
+    {
+      "id": "S51C-own-instrument-result",
+      "name": "51C — результат разбивания; только конечное состояние",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+          "asset_id": "references/scenes/scene-51/S51C-own-instrument-result.png",
+          "caption": "51C — результат разбивания; только конечное состояние",
+          "role": "broken_instrument_result_only_not_start_frame",
+          "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+          "bytes": 2573544,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-51/S51C-own-instrument-result.image-prompt.txt",
+          "prompt_sha256": "31dd2a6b0bb5da65da9cdb3cf3870589c08f63e84ec3239045f46ec00010a2f8",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+              "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+            "thumbnail": "references/thumbs/scenes/scene-51/S51C-own-instrument-result.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
+    },
+    {
+      "id": "S51D-own-instrument-result",
+      "name": "51D — результат разбивания; только конечное состояние",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+          "asset_id": "references/scenes/scene-51/S51D-own-instrument-result.png",
+          "caption": "51D — результат разбивания; только конечное состояние",
+          "role": "broken_instrument_result_only_not_start_frame",
+          "sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df",
+          "bytes": 2471858,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-51/S51D-own-instrument-result.image-prompt.txt",
+          "prompt_sha256": "54fcde41649244bbc5319d1a050bbe21fc439c53dd72ec7f134ae7ac9ecaff5c",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+              "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+            "thumbnail": "references/thumbs/scenes/scene-51/S51D-own-instrument-result.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
+    },
+    {
+      "id": "S51E-own-instrument-result",
+      "name": "51E — результат разбивания; только конечное состояние",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+          "asset_id": "references/scenes/scene-51/S51E-own-instrument-result.png",
+          "caption": "51E — результат разбивания; только конечное состояние",
+          "role": "broken_instrument_result_only_not_start_frame",
+          "sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b",
+          "bytes": 2579365,
+          "dimensions": [
+            1671,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-51/S51E-own-instrument-result.image-prompt.txt",
+          "prompt_sha256": "a51d365ce849972ee4f3a546be8758f4becc8db2347ed71cf8a78a6f876d5537",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+              "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+            "thumbnail": "references/thumbs/scenes/scene-51/S51E-own-instrument-result.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
+    },
+    {
+      "id": "S51F-own-instrument-result",
+      "name": "51F — результат разбивания; только конечное состояние",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+          "asset_id": "references/scenes/scene-51/S51F-own-instrument-result.png",
+          "caption": "51F — результат разбивания; только конечное состояние",
+          "role": "broken_instrument_result_only_not_start_frame",
+          "sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541",
+          "bytes": 2456877,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-51/S51F-own-instrument-result.image-prompt.txt",
+          "prompt_sha256": "276ce3db79818702a1fa1fd3aee17abf3dc6c116de5e8f3bde028ef685a27cab",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+              "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Same two owners, distinct visibly broken original instruments in separate lanes; aftermath only. Original individual sheets and intact prop sheets override facial, neck/headstock, string-count and small fragment details; no exact debris trajectory is claimed."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+            "thumbnail": "references/thumbs/scenes/scene-51/S51F-own-instrument-result.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
+    },
+    {
+      "id": "S51G-trio-smash-windup",
+      "name": "51G — замах трио; все инструменты целые",
+      "kind": "scene_reference",
+      "scenes": [
+        51
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+          "asset_id": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+          "caption": "51G — замах трио; все инструменты целые",
+          "role": "intact_windup_pose_helper",
+          "sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0",
+          "bytes": 2689828,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in imagegen edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-51/S51G-trio-smash-windup.image-prompt.txt",
+          "prompt_sha256": "2c19f2121760f787167d6a2de46b4a13e1594ded3c45f3adb21ae34a84d82df1",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-49/S49G-trio-playing.png",
+              "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765"
+            }
+          ],
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Identities, costumes, original ownership and hangar retained; exactly three people with two arms each after correction, intact separate props, Dasha low hold; instrument design sheets and explicit grip rules remain authoritative."
+          },
+          "rejected_intermediate": "Extra hand in initial draft corrected; rejected intermediate not registered or published.",
+          "site_published": {
+            "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+            "thumbnail": "references/thumbs/scenes/scene-51/S51G-trio-smash-windup.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
+    },
+    {
+      "id": "S50-wookiees-opposite-audience",
+      "name": "Вариант публики напротив — радостные вуки; дополнительный образец для выбора",
+      "kind": "scene_reference",
+      "scenes": [
+        50
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
+          "asset_id": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
+          "caption": "Вариант публики напротив — радостные вуки; дополнительный образец для выбора",
+          "role": "opposite_audience_composition_option",
+          "sha256": "60bb9fad100e8aa24ae729788d26d25d56af229a73757ddde05feed61eed19b2",
+          "bytes": 1616807,
+          "dimensions": [
+            1376,
+            768
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "Topview Nano Banana Pro 1K image edit",
+          "created_at": "2026-10-30T02:17:35+00:00",
+          "prompt_file": "references/scenes/scene-50/S50-wookiees-opposite-audience.image-prompt.txt",
+          "prompt_sha256": "5e38df875be349d7738e006c6f144ffb583fcd7c488a37c7dde42d871d8b3fc1",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+              "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed"
+            },
+            {
+              "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+              "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
+            }
+          ],
+          "provenance": {
+            "creation_id": "781e31c9-61c6-4e56-abf4-13b6fab1ea1e",
+            "board_task_id": "1bde6fd881954f63890836c39299aa29",
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "model": "nano_banana2",
+            "quoted_credits": 0.8
+          },
+          "assistant_qc": {
+            "status": "usable_for_assigned_role",
+            "checked_at": "2026-10-30T02:17:35+00:00",
+            "scope": "Wookiees only, raised paws, happy poses, varied fur; exact reverse closed bulkhead with clear foreground. Crowd is sparser than requested24–30, usable as a layout option; not a claimed video-motion result."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
+            "thumbnail": "references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp",
+            "linked_in_master": true,
+            "publication_status": "pending"
+          }
+        }
+      ],
+      "reference_priority": "Composition/state only. Individual identity and intact prop references remain primary."
     }
   ]
 }

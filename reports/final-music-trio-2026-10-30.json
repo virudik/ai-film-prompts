@@ -294,5 +294,10 @@
       "canon_health": 40987272808
     },
     "ci_conclusion": "success"
+  },
+  "followup": {
+    "at": "2026-10-30T02:18:42+00:00",
+    "report": "reports/final-music-reference-states-2026-10-30.json",
+    "update": "Seven missing instrument states complete; opposite Wookiee option ready, stormtrooper and mixed requests blocked by Topview/refunded."
   }
 }

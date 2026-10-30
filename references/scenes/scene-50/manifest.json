@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-30T01:34:39+00:00",
+  "updated_at": "2026-10-30T02:17:35+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "ready",
   "references": [
@@ -100,6 +100,53 @@
       "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
       "role": "owner_selected_crowd_pose",
       "source": "Owner17Oct variant2; current master and queue"
+    },
+    {
+      "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
+      "asset_id": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
+      "caption": "Вариант публики напротив — радостные вуки; дополнительный образец для выбора",
+      "role": "opposite_audience_composition_option",
+      "sha256": "60bb9fad100e8aa24ae729788d26d25d56af229a73757ddde05feed61eed19b2",
+      "bytes": 1616807,
+      "dimensions": [
+        1376,
+        768
+      ],
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "Topview Nano Banana Pro 1K image edit",
+      "created_at": "2026-10-30T02:17:35+00:00",
+      "prompt_file": "references/scenes/scene-50/S50-wookiees-opposite-audience.image-prompt.txt",
+      "prompt_sha256": "5e38df875be349d7738e006c6f144ffb583fcd7c488a37c7dde42d871d8b3fc1",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-28/H28B-reverse-empty.png",
+          "sha256": "7fd123e1b926ae7a115da7e4c8ca2ff8fe93e941833a0e8173ac54871ebc2aed"
+        },
+        {
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
+        }
+      ],
+      "provenance": {
+        "creation_id": "781e31c9-61c6-4e56-abf4-13b6fab1ea1e",
+        "board_task_id": "1bde6fd881954f63890836c39299aa29",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "model": "nano_banana2",
+        "quoted_credits": 0.8
+      },
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-10-30T02:17:35+00:00",
+        "scope": "Wookiees only, raised paws, happy poses, varied fur; exact reverse closed bulkhead with clear foreground. Crowd is sparser than requested24–30, usable as a layout option; not a claimed video-motion result."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
+        "thumbnail": "references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp",
+        "linked_in_master": true,
+        "publication_status": "pending"
+      }
     }
   ],
   "remaining": [],
@@ -300,7 +347,7 @@
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   },
-  "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+  "canonical_master_sha256": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
   "generated_fan_candidates": [
     {
       "variant": 1,
@@ -399,20 +446,37 @@
     "production_slots_changed": false
   },
   "placement_options_20261030": {
-    "decision": "Wookiees central floor; stormtroopers opposite interior wall",
-    "old_opposite_wookiees": "superseded_owner",
-    "stormtrooper_image": "blocked_generator_filter",
-    "prompt_file": "references/scenes/scene-50/S50-stormtroopers-opposite-audience.image-prompt.txt",
+    "decision": "Latest owner asks three opposite-audience options: Wookiees, stormtroopers, mixed; existing central Wookiee50A/B remains selected",
+    "wookiee_opposite_image": "available_gallery_option",
+    "stormtrooper_image": "blocked_topview_provider_7000",
+    "mixed_image": "blocked_topview_provider_7000",
     "blocks_ready": [
       "50A",
       "50B",
       "50 · Wan 3.0"
     ],
     "queue_blocked_by_image": false,
-    "report": "reports/final-music-trio-2026-10-30.json"
+    "report": "reports/final-music-reference-states-2026-10-30.json"
   },
   "trio_revision_20261030": {
     "report": "reports/final-music-trio-2026-10-30.json",
     "new_blocks": []
+  },
+  "audience_options_20261030_latest": {
+    "report": "reports/final-music-reference-states-2026-10-30.json",
+    "requested": [
+      "wookiees",
+      "stormtroopers",
+      "mixed"
+    ],
+    "available": [
+      "references/scenes/scene-50/S50-wookiees-opposite-audience.png"
+    ],
+    "blocked": [
+      "stormtroopers",
+      "mixed"
+    ],
+    "selected_for_video": null,
+    "existing_50A_50B_unchanged": true
   }
 }
