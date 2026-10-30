@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "a98e7aa668783a1691d2f026a114143a3113165428291367054822ed55229325",
+  "source_queue_sha256": "dac7547847475b1cfc7a44c9c2396073a316a81ec081e75fc1f1ab67243749a9",
   "source_task_map_sha256": "f46b02ef3a6dc8ee70ed200e5fa7701009e092c81a78484c46e55db075418dec",
   "topview_checked_at": "2026-10-30T17:20:28Z",
   "items": [
@@ -146,6 +146,15 @@
       "code": "waiting_result",
       "ready": false,
       "text": "@Video1: ждёт результат 48 · Seedance 2.0 часть 1",
+      "queue_state": "blocked_inputs"
+    },
+    {
+      "id": "S48-SEED20-P3",
+      "scene_id": 48,
+      "part_label": "Часть 3",
+      "code": "waiting_result",
+      "ready": false,
+      "text": "@Video1: ждёт результат 48 · Seedance 2.0 часть 2 (ещё не запущен)",
       "queue_state": "blocked_inputs"
     },
     {
@@ -465,5 +474,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-30T17:20:34.677927Z"
+  "checked_at": "2026-10-30T17:22:34.762745Z"
 }
