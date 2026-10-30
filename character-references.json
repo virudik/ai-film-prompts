@@ -752,7 +752,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T21:15:13Z",
+  "updated_at": "2026-10-30T21:31:23Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -2607,8 +2607,8 @@
           "asset_id": "references/scenes/scene-71/S71-hookah-throne.png",
           "caption": "@Image2 — Пустой трон из кальянов в кантине",
           "role": "hookah_throne_location",
-          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82",
-          "bytes": 2331094,
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3",
+          "bytes": 2511565,
           "dimensions": [
             1664,
             936
@@ -2619,7 +2619,7 @@
           "generation_method": "ChatGPT imagegen (built-in)",
           "created_at": "2026-10-30T21:15:13Z",
           "prompt_file": "references/scenes/scene-71/S71-hookah-throne.image-prompt.txt",
-          "prompt_sha256": "8bd1e9d295d07915d8b6a510a82858e1484a2f0e3d99440abbd14ecf037ccc18",
+          "prompt_sha256": "fa9cef948644c21ab4c5991e0b9b00d74dd406fbeead114444dd8eec33a5d5b4",
           "reference_inputs": [
             {
               "path": "references/scenes/scene-65/S65-bar-table.png",
@@ -2634,7 +2634,8 @@
             "path": "references/scenes/scene-71/S71-hookah-throne.png",
             "thumbnail": "references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp",
             "linked_in_master": true
-          }
+          },
+          "updated_at": "2026-10-30T21:31:23Z"
         }
       ]
     },
@@ -2653,8 +2654,8 @@
           "asset_id": "references/scenes/scene-71/S71-vitalik-on-throne.png",
           "caption": "@Image3 · версия без инопланетянок — Виталик один на троне",
           "role": "vitalik_solo_staging",
-          "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532",
-          "bytes": 2238914,
+          "sha256": "c86b275db0afb5f32556b2041bb1cd6ca29d5d34bf1c5f04a21df37e6fd40489",
+          "bytes": 2359177,
           "dimensions": [
             1664,
             936
@@ -2665,11 +2666,11 @@
           "generation_method": "ChatGPT imagegen (built-in)",
           "created_at": "2026-10-30T21:15:13Z",
           "prompt_file": "references/scenes/scene-71/S71-vitalik-on-throne.image-prompt.txt",
-          "prompt_sha256": "9828169d244253ed5b1b072305b0f51ef0c13cc14c15504d2b97d819dfd12d5f",
+          "prompt_sha256": "66f0dcc80195b0effd5435857b71954fca04fc4e5b10c0d491ff3244e41d22f2",
           "reference_inputs": [
             {
               "path": "references/scenes/scene-71/S71-hookah-throne.png",
-              "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+              "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
             },
             {
               "path": "references/full/vitalik.jpg",
@@ -2680,13 +2681,14 @@
             "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
             "thumbnail": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne.png.webp",
             "linked_in_master": true
-          }
+          },
+          "updated_at": "2026-10-30T21:31:23Z"
         }
       ]
     },
     {
       "id": "S71-vitalik-on-throne-girls",
-      "name": "@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок",
+      "name": "@Image3 · версия в очереди — Виталик, твилечка с веером и тогрута с кубком",
       "kind": "scene_reference",
       "scenes": [
         71,
@@ -2697,10 +2699,10 @@
         {
           "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
           "asset_id": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
-          "caption": "@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок",
+          "caption": "@Image3 · версия в очереди — Виталик, твилечка с веером и тогрута с кубком",
           "role": "vitalik_flanked_staging",
-          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273",
-          "bytes": 2401269,
+          "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20",
+          "bytes": 2394295,
           "dimensions": [
             1664,
             936
@@ -2711,11 +2713,11 @@
           "generation_method": "ChatGPT imagegen (built-in)",
           "created_at": "2026-10-30T21:15:13Z",
           "prompt_file": "references/scenes/scene-71/S71-vitalik-on-throne-girls.image-prompt.txt",
-          "prompt_sha256": "7477ba4b632b049b9115f4d204ef854e6ec72474ff44ddd9fc1185eb42a2f936",
+          "prompt_sha256": "3b7cdde9dfe66e8a2b61714a381a04f850a8d423c4d5062a8a22257368c8653e",
           "reference_inputs": [
             {
               "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
-              "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532"
+              "sha256": "c86b275db0afb5f32556b2041bb1cd6ca29d5d34bf1c5f04a21df37e6fd40489"
             },
             {
               "path": "references/full/vitalik.jpg",
@@ -2727,7 +2729,8 @@
             "thumbnail": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp",
             "linked_in_master": true
           },
-          "wardrobe_note": "В опубликованном кадре — длинные непрозрачные изумрудное и сливовое сценические платья с золотой вышивкой."
+          "wardrobe_note": "Зелёная твилечка в бирюзовом сценическом топе с веером слева; оранжевая тогрута в сливовом топе с медной отделкой и кубком справа. У обеих открыты плечи и живот.",
+          "updated_at": "2026-10-30T21:31:23Z"
         }
       ]
     }

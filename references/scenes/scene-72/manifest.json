@@ -30,8 +30,8 @@
       "asset_id": "references/scenes/scene-71/S71-hookah-throne.png",
       "caption": "@Image2 — Пустой трон из кальянов в кантине",
       "role": "hookah_throne_location",
-      "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82",
-      "bytes": 2331094,
+      "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3",
+      "bytes": 2511565,
       "dimensions": [
         1664,
         936
@@ -42,7 +42,7 @@
       "generation_method": "ChatGPT imagegen (built-in)",
       "created_at": "2026-10-30T21:15:13Z",
       "prompt_file": "references/scenes/scene-71/S71-hookah-throne.image-prompt.txt",
-      "prompt_sha256": "8bd1e9d295d07915d8b6a510a82858e1484a2f0e3d99440abbd14ecf037ccc18",
+      "prompt_sha256": "fa9cef948644c21ab4c5991e0b9b00d74dd406fbeead114444dd8eec33a5d5b4",
       "reference_inputs": [
         {
           "path": "references/scenes/scene-65/S65-bar-table.png",
@@ -57,15 +57,16 @@
         "path": "references/scenes/scene-71/S71-hookah-throne.png",
         "thumbnail": "references/thumbs/scenes/scene-71/S71-hookah-throne.png.webp",
         "linked_in_master": true
-      }
+      },
+      "updated_at": "2026-10-30T21:31:23Z"
     },
     {
       "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
       "asset_id": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
-      "caption": "@Image3 · версия в очереди — Виталик, две инопланетянки, веер и кубок",
+      "caption": "@Image3 · версия в очереди — Виталик, твилечка с веером и тогрута с кубком",
       "role": "vitalik_flanked_staging",
-      "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273",
-      "bytes": 2401269,
+      "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20",
+      "bytes": 2394295,
       "dimensions": [
         1664,
         936
@@ -76,11 +77,11 @@
       "generation_method": "ChatGPT imagegen (built-in)",
       "created_at": "2026-10-30T21:15:13Z",
       "prompt_file": "references/scenes/scene-71/S71-vitalik-on-throne-girls.image-prompt.txt",
-      "prompt_sha256": "7477ba4b632b049b9115f4d204ef854e6ec72474ff44ddd9fc1185eb42a2f936",
+      "prompt_sha256": "3b7cdde9dfe66e8a2b61714a381a04f850a8d423c4d5062a8a22257368c8653e",
       "reference_inputs": [
         {
           "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
-          "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532"
+          "sha256": "c86b275db0afb5f32556b2041bb1cd6ca29d5d34bf1c5f04a21df37e6fd40489"
         },
         {
           "path": "references/full/vitalik.jpg",
@@ -92,15 +93,16 @@
         "thumbnail": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne-girls.png.webp",
         "linked_in_master": true
       },
-      "wardrobe_note": "В опубликованном кадре — длинные непрозрачные изумрудное и сливовое сценические платья с золотой вышивкой."
+      "wardrobe_note": "Зелёная твилечка в бирюзовом сценическом топе с веером слева; оранжевая тогрута в сливовом топе с медной отделкой и кубком справа. У обеих открыты плечи и живот.",
+      "updated_at": "2026-10-30T21:31:23Z"
     },
     {
       "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
       "asset_id": "references/scenes/scene-71/S71-vitalik-on-throne.png",
       "caption": "@Image3 · версия без инопланетянок — Виталик один на троне",
       "role": "vitalik_solo_staging",
-      "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532",
-      "bytes": 2238914,
+      "sha256": "c86b275db0afb5f32556b2041bb1cd6ca29d5d34bf1c5f04a21df37e6fd40489",
+      "bytes": 2359177,
       "dimensions": [
         1664,
         936
@@ -111,11 +113,11 @@
       "generation_method": "ChatGPT imagegen (built-in)",
       "created_at": "2026-10-30T21:15:13Z",
       "prompt_file": "references/scenes/scene-71/S71-vitalik-on-throne.image-prompt.txt",
-      "prompt_sha256": "9828169d244253ed5b1b072305b0f51ef0c13cc14c15504d2b97d819dfd12d5f",
+      "prompt_sha256": "66f0dcc80195b0effd5435857b71954fca04fc4e5b10c0d491ff3244e41d22f2",
       "reference_inputs": [
         {
           "path": "references/scenes/scene-71/S71-hookah-throne.png",
-          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
         },
         {
           "path": "references/full/vitalik.jpg",
@@ -126,7 +128,8 @@
         "path": "references/scenes/scene-71/S71-vitalik-on-throne.png",
         "thumbnail": "references/thumbs/scenes/scene-71/S71-vitalik-on-throne.png.webp",
         "linked_in_master": true
-      }
+      },
+      "updated_at": "2026-10-30T21:31:23Z"
     },
     {
       "path": "references/scenes/scene-65/S65-bar-table.png",
@@ -154,7 +157,7 @@
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-30T21:15:13Z",
+  "updated_at": "2026-10-30T21:31:23Z",
   "identity_refs": [
     "references/full/vitalik.jpg"
   ],
@@ -165,9 +168,9 @@
   "prompt_reference_mapping": [
     {
       "label": "72",
-      "canonical_prompt_sha256": "67f9ac89147274c0f8f80e03bdd948dd2f2c82f08f66a48a05a4b1f39494d93f",
-      "normalized_prompt_sha256": "83902e2513d1c978561f394596e1cfb268b734146a65cfd4fbbbd27645aec16d",
-      "characters": 6563,
+      "canonical_prompt_sha256": "046f17aae19d9da04d7c440c878e54d54e8d54c48321ff2e6d0f6e1e798781dd",
+      "normalized_prompt_sha256": "157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1",
+      "characters": 7136,
       "slots": [
         {
           "slot": "@Image1",
@@ -183,7 +186,7 @@
           "required": true,
           "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
           "input_status": "available",
-          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
         },
         {
           "slot": "@Image3",
@@ -191,7 +194,7 @@
           "required": true,
           "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
           "input_status": "available",
-          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+          "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20"
         },
         {
           "slot": "@Image4",
@@ -208,9 +211,9 @@
     },
     {
       "label": "72 · Wan 3.0",
-      "canonical_prompt_sha256": "c52ee9206559200ee69009d9bc6c7954adf4bf6076cbcd2cd576f8d5c776f4bc",
-      "normalized_prompt_sha256": "3dd3cccab77365b79b06a97ff80da52c8cbc00bf0311d11446dc9ce1e1151e3a",
-      "characters": 5351,
+      "canonical_prompt_sha256": "f8bfee9b9e3701be2370a21ffda01fb6263a478c1c8b6297cef55c501c9e227f",
+      "normalized_prompt_sha256": "519d505bb70bafbdb20e6183f48ffae0f1b2ec214c99b152d7c1e55039195540",
+      "characters": 5710,
       "slots": [
         {
           "slot": "@Image1",
@@ -226,7 +229,7 @@
           "required": true,
           "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
           "input_status": "available",
-          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
         },
         {
           "slot": "@Image3",
@@ -234,7 +237,7 @@
           "required": true,
           "canonical_role": "Vitalik alone on the throne: pose, scale and framing",
           "input_status": "available",
-          "sha256": "e99a26aa9b30af874dcd4e3986a5631b9c8c439d70b9c90651894b8bc8c6d532"
+          "sha256": "c86b275db0afb5f32556b2041bb1cd6ca29d5d34bf1c5f04a21df37e6fd40489"
         },
         {
           "slot": "@Image4",
@@ -250,9 +253,9 @@
     },
     {
       "label": "72 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "aa18c9aebd8fba026abf1605d11abbb675357163f32223fddcb503fc9a3a15aa",
-      "normalized_prompt_sha256": "9e74586b8a2fe8f72eebe5c86c29d93fc0111cc4c367b4cfbfa01f313d2f1e90",
-      "characters": 6242,
+      "canonical_prompt_sha256": "c8859c1bb0cc6f1d6a327a5bfaf9e1115f0b566d8fe3ac3c03af467874fdab80",
+      "normalized_prompt_sha256": "2fd74651fef315528d23c1cc34faa5feaf23582bdf805d62ce883253bd39e48d",
+      "characters": 6815,
       "slots": [
         {
           "slot": "@Image1",
@@ -268,7 +271,7 @@
           "required": true,
           "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
           "input_status": "available",
-          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
         },
         {
           "slot": "@Image3",
@@ -276,7 +279,7 @@
           "required": true,
           "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
           "input_status": "available",
-          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+          "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20"
         },
         {
           "slot": "@Image4",
@@ -291,9 +294,9 @@
     },
     {
       "label": "72 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "e7dcb68bb33ee92da9929140f636385f13fc6b68347c354d27cfc30c6a6e3aa9",
-      "normalized_prompt_sha256": "e685bfc454044131e7b796811df4615e6ddfa22cac4ec8682feb7a8f8c27b35a",
-      "characters": 6132,
+      "canonical_prompt_sha256": "37b63b6b4ee22de5e1aa45bea10ab1c55b65c287626145dfc76a120aa1ee1b1b",
+      "normalized_prompt_sha256": "c42fe443877dcca7648dc7a171c6359b86a78a482f301d311147f3b3ad068380",
+      "characters": 6705,
       "slots": [
         {
           "slot": "@Video1",
@@ -316,7 +319,7 @@
           "required": true,
           "canonical_role": "exact hookah throne and its place in the cantina: design, size, dais, materials",
           "input_status": "available",
-          "sha256": "117551872fdf72737c7c05cdb39e08495c598dca68c2561bc24a85c1bf5b2d82"
+          "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3"
         },
         {
           "slot": "@Image3",
@@ -324,7 +327,7 @@
           "required": true,
           "canonical_role": "staging of Vitalik on the throne with the two flanking alien women: pose, scale, framing and the women's exact looks and outfits",
           "input_status": "available",
-          "sha256": "4dbd0ee7afee4a1e3ce9cc34758a1a37ee66ad60479b5974e41ddd37cb4a7273"
+          "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20"
         },
         {
           "slot": "@Image4",
