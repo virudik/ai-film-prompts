@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "item_id": "S42-SEED20-P2",
+  "scene_id": 42,
+  "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+  "reviewed_at": "2026-10-30T15:56:42.283Z",
+  "source": {
+    "provider": "Topview",
+    "board_name": "My First Board",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "task_status": "success",
+    "completed_at": "2026-10-30T15:25:59Z",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "use_unlimit_mode": true,
+    "credits_cost": 0
+  },
+  "review_scope": {
+    "method": "browser slider sampled frames",
+    "sampled_timestamps_seconds": [
+      0,
+      4,
+      8,
+      12,
+      15
+    ],
+    "continuous_full_frame_rate_view": false,
+    "audio_listened": false,
+    "source_archived": false,
+    "source_sha256": null
+  },
+  "findings": [
+    {
+      "severity": "critical",
+      "timestamp_seconds": "~12-15",
+      "finding": "Character identity continuity fails: two near-identical moustached red-caped Ilyusha-like men are visible; Artem is missing/replaced in the final action."
+    },
+    {
+      "severity": "critical",
+      "timestamp_seconds": "~8",
+      "finding": "Blue lightsaber deforms into a large triangular glowing blade/cloth-like shape."
+    },
+    {
+      "severity": "pass",
+      "timestamp_seconds": "0",
+      "finding": "Opening broadly preserves the three-person color arrangement and desert/worm setting."
+    },
+    {
+      "severity": "partial",
+      "timestamp_seconds": "~15",
+      "finding": "Worm and final combat framing remain visible, but the identity duplication makes the result unsafe for continuity."
+    }
+  ],
+  "assessment": "qc_rejected_critical_identity_duplication_and_saber_deformation",
+  "owner_approved": false,
+  "technical_retry": {
+    "eligible": false,
+    "reason": "Topview task completed successfully; defects are artistic/continuity defects, not a confirmed technical fail. Automatic rerender is not authorized."
+  },
+  "queue_effect": "No automatic retry and no dependent continuity input prepared. Continue independent authorized queue only.",
+  "archive": {
+    "status": "blocked_environment_isolation",
+    "browser_download_observed": true,
+    "attempted_destination": "Google Drive/AI Film Generated Videos",
+    "blocker": "Cloud/CDP downloaded the original into its isolated browser filesystem; neither the local runtime nor the Google Drive connector could read that path, so archive upload and SHA256 verification were not completed.",
+    "next_action": "At a future authorized cycle with a shared accessible download path, archive the original and record SHA256 without creating a new Topview task."
+  }
+}
