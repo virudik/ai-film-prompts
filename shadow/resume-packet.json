@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-30T01:33:45+00:00",
-  "source_head": "4cced9b8b334128fe0288c4eb77fb5ab221a6b3a",
-  "source_fingerprint": "06e0466f9fff399ac654cd4159a3e2ffda21d4dca274498db1f23010b1eb8551",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-30T01:41:17+00:00",
+  "source_head": "38ed4af25c499372bb5aa933c419fc06ade82c19",
+  "source_fingerprint": "6ef98f93efc9e7bee8f29420712850e773b91da1856f8e528698404651c129dc",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
@@ -30,34 +30,35 @@
     },
     "source_head": "5f99807db6005e17e3d11196d6ef2d995894baf7"
   },
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "master vs project-status sha256 mismatch"
+  ],
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_global_capacity",
-    "last_completed": "Published and verified all47 finale prompts and26 pending SHA,13 historical task revision links;348 tests passed. Empty reverse H28B and thumbnail verified on Pages. Audience B blocked by generator, exact prompt saved. Zero video launches.",
-    "next_action": "Fresh main/inbox/lock and full live slot scan; continue next ready authorized queue item with current47-block finale revision. Inspect lights/floor, sustained movement, faces/contacts and camera. Audience option B image is blocked by generator; obtain it before owner placement choice, keep existing @Image5. A3 needs clean new A2; A12 needs real A11 end.",
-    "verified_at": "2026-10-30T01:02:58+00:00",
+    "last_completed": "Трио и3 референса готовы;6 промтов,348 тестов и master health пройдены; публикация далее",
+    "next_action": "Проверить свежую очередь и слоты, продолжать разрешённые готовые части; отдельный PNG штурмовиков пока блокирован фильтром.",
+    "verified_at": "2026-10-30T01:39:35+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/final-music-number-2026-10-30.json",
-        "sha256": "ae8a8b6d73de9911fcec15053e60f6779728aeabb9fd194f9f1511e713d426ee"
+        "file": "reports/final-music-trio-2026-10-30.json",
+        "sha256": "31f79cf115a3a7d8ea478641f772d1312853c7c839da5364f470078638966eec"
       }
     ],
     "read_next": [
       "ops/topview-launch-queue.json",
-      "video-prompts.md",
-      "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
-      "ops/TOPVIEW-RETRY.md"
+      "references/scenes/scene-50/manifest.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Финальный музыкально-танцевальный номер · 30.10.2026",
-      "sha256": "59fe215f39cfac8a218e811f82e260acb24344da20fc746da28d6e07d3d69610"
+      "anchor": "# Трио Маши Р, Алины и Даши · 30.10.2026",
+      "sha256": "97cfe738deb3058423185f933db2330661f99a6516ca3a50a673008361eb1682"
     }
   },
-  "checkpoint_text": "# Финальный музыкально-танцевальный номер · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца обновлены все47 промтов28/49/50/51 и26 неотправленных пунктов очереди: меняющийся свет/пол, непрерывное исполнение и подходящие действию дуги/наезды/отъезды камеры. Старые13 отправок28 связаны с нынешними редакциями в reports/final-music-number-2026-10-30.json; их фактические payload/SHA/результаты не изменены. Очередь, выбранные движки, обязательные референсы и зависимости сохранены. Видео и платные операции не запускались. 348 тестов, site contract и master health=ok, canon health без предупреждений. GitHub-коммит f85e87d744ddee05b351182d5fb3394d94d87722 проверен по всем21 файлам; публичный мастер/статус и обратный ангар/миниатюра совпали поSHA. Каноническая проверка, интеграционные тесты и сборка миниатюр GitHub успешны.\n\nПустой обратный вид H28B создан и визуально проверен как предложение. ВариантА — существующий выбранный кадр вуки на площадке. ВариантБ — зрители напротив: генератор отклонил кадр, PNG нет; точный промт references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt сохранён. Не выдавать пустой ангар за готовую толпу, не выбирать вариант за владельца и не заменять текущий @Image5. Не повторять уже готовую работу.\n\nДальше: продолжать согласованную очередь после свежего чтения main/входящих/замка и живой проверки всех слотов. У28A3 требуется чистый конец новогоA2, уA12 — настоящий конецA11. КадрБ остаётся отдельным незавершённым визуальным заданием и не блокирует видеоочередь. После его получения владелец выбирает расстановку; тогда согласованно обновить версии50 и их входы. Проверять будущие видео по отправленным редакциям, особенно середину движения, смену света, лица/контакты и географию. Старые числа слотов не считать свежей проверкой.\n",
+  "checkpoint_text": "# Трио Маши Р, Алины и Даши · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПодготовлены три новые картинки, самостоятельные28A13/49G/51G и их30с альтернативы. Инструменты: Маша Р — медно-красная гитара, Алина — бирюзовый бас, Даша — фиолетовые клавиши;51G использует повреждённый образец только для конца. Вуки50A/B остаются на центральной площадке, ненужный групповой G28 вход удалён и4 оставшихся входа перенумерованы. Старые отправки неизменны. Новые три пункта продолжают действующую бесплатную очередь музыкального номера;30с варианты не выбраны. Видео в этом цикле не отправлялись.\n\nШтурмовики — зрители напротив по новому решению владельца; PNG генератор отклонил фильтром. Старый незавершённый вариант «вуки напротив» отменён, не восстанавливать. Блокер касается только дополнительного кадра публики. Следом: свежие очередь/слоты/разрешения; независимые готовые части не ждать из-за этой картинки. СуществующиеA3/A12 требуют своих настоящих стыков. Не повторять проваленные картинки Стича:3 отменённых пункта перенесены в архив без потери истории.\n\nДоказательства: `reports/final-music-trio-2026-10-30.json`; публикация и тесты будут дописаны после проверки.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -152,9 +153,7 @@
   ],
   "read_next": [
     "ops/topview-launch-queue.json",
-    "video-prompts.md",
-    "references/scenes/scene-50/S50-option-B-opposite-audience.image-prompt.txt",
-    "ops/TOPVIEW-RETRY.md"
+    "references/scenes/scene-50/manifest.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -165,18 +164,6 @@
     "unresolved": [],
     "existing_task_count": 46,
     "existing_tasks": [
-      {
-        "item_id": "S66-STITCH-NB-IMAGE-1",
-        "task_id": "e0f131c8f04f4991bd7ec9b317223aa0"
-      },
-      {
-        "item_id": "S66-STITCH-NB-IMAGE-2",
-        "task_id": "0d7a40e276e645d291d31589cc4fbfe6"
-      },
-      {
-        "item_id": "S66-STITCH-NB-IMAGE-3",
-        "task_id": "d460fc7bd2434133870232482b84237d"
-      },
       {
         "item_id": "S28-A1-TEST-20261017",
         "task_id": "4b7b972870a44dfbb29bd6c5e330a633"
@@ -260,6 +247,18 @@
       {
         "item_id": "S52-R2-SEED20-P1",
         "task_id": "c65c30d8cbe14e9eadec886276e62471"
+      },
+      {
+        "item_id": "S66-STITCH-NB-IMAGE-3",
+        "task_id": "d460fc7bd2434133870232482b84237d"
+      },
+      {
+        "item_id": "S66-STITCH-NB-IMAGE-2",
+        "task_id": "0d7a40e276e645d291d31589cc4fbfe6"
+      },
+      {
+        "item_id": "S66-STITCH-NB-IMAGE-1",
+        "task_id": "e0f131c8f04f4991bd7ec9b317223aa0"
       },
       {
         "item_id": "S37-SEED20-P2",
@@ -388,8 +387,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "3b72a0ebb4096ee814c15acd23832ee325911a24b2b8b636457662f50d18621f",
-      "bytes": 34984
+      "sha256": "a87279a07bd9e1c97517e290bbd1c166675766bf63d8e39a5d5db30091436b61",
+      "bytes": 34879
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -413,7 +412,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "986dc4b846abf1a8772eb218a09203cb469e7f197b906e6c920b83a8bfaf9568",
+      "sha256": "1d45c678874ee801de596fcd959f51335718fc3b18bbd18a39fbafc0b935b584",
       "bytes": 5137
     },
     {
@@ -428,8 +427,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "e077bdea6dc5a031ec0df80386727e12b509d0bbf8074a42a065e9ef20c6e837",
-      "bytes": 399419
+      "sha256": "9fa6dc79f14ec1a008ce96537ca0357626593c79cd38a10409f0ee6984ea9ff1",
+      "bytes": 399219
     },
     {
       "file": "project-status.json",
@@ -438,13 +437,13 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "7bac34e0418dd3b28f8d831e008d84f9c03378a67a3b9c81c7fbe4ec9a5bbea5",
-      "bytes": 43934
+      "sha256": "4fb7bef1ffdfc1b7290963e2f70498c203d7db5b65bbc501c52ecb75c02f1ae2",
+      "bytes": 46022
     },
     {
-      "file": "reports/final-music-number-2026-10-30.json",
-      "sha256": "ae8a8b6d73de9911fcec15053e60f6779728aeabb9fd194f9f1511e713d426ee",
-      "bytes": 31373
+      "file": "reports/final-music-trio-2026-10-30.json",
+      "sha256": "31f79cf115a3a7d8ea478641f772d1312853c7c839da5364f470078638966eec",
+      "bytes": 10476
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -453,24 +452,24 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "a98ee7bf71b752b94a14d039ff897b06f7941ecd06a44628d6365ebc90c2e9fc",
-      "bytes": 34785
+      "sha256": "69ad195f0b46e3ddcac6f344017610e97fa9b8870bdcaa3cd620f388c86ae0d5",
+      "bytes": 34680
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "d704c60e6bc15a6482cd2b8685c056a81aec4d8d5241f8000558ebe40662b622",
-      "bytes": 24156
+      "sha256": "4ef2e625004d2fca44e38c71b407ae381c11d8e62e08710a55917a1691ee170d",
+      "bytes": 24146
     },
     {
       "file": "video-prompts.md",
-      "sha256": "fe2b4ddc0917ae547655947ff4c7223058c189e550761043c5d93c6ee6c75dc1",
-      "bytes": 1199860
+      "sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
+      "bytes": 1235710
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "e0411a2fb505c9aff46c1eabd0034138650ac21d0c7975a4b90090fd8d486b83",
-      "bytes": 81602
+      "sha256": "4a29126e546a6bd9096c5f5953cf651c3ea088308dc4aa1c5e7988301aa6de12",
+      "bytes": 80636
     }
   ],
-  "packet_bytes": 7754
+  "packet_bytes": 6417
 }
