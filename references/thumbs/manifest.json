@@ -2293,6 +2293,26 @@
    "thumb_bytes": 39282,
    "src_sha256": "84c1e1cff50ed555813120d6c83c1325eb2210b86439a8ea683f31ba14e78793"
   },
+  "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg": {
+   "thumb": "references/thumbs/scenes/scene-48/S48-P3-serega-worm-ride.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 686360,
+   "thumb_bytes": 50780,
+   "src_sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9"
+  },
+  "references/scenes/scene-48/S48-P3-tatooine-city.jpg": {
+   "thumb": "references/thumbs/scenes/scene-48/S48-P3-tatooine-city.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 688058,
+   "thumb_bytes": 39786,
+   "src_sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e"
+  },
   "references/scenes/scene-49/S49A-lead-and-bass.png": {
    "thumb": "references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp",
    "width": 640,
