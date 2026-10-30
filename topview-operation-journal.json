@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-09-30T13:45:38.844Z",
-      "operation": "scene21_terminal_and_scene27_split_tasks_verified",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "5 active tasks; slow 21,22,23,24,26",
-      "new_status": "6 active tasks; slow 22,23,24,26,27 (Scene27 x2)",
-      "source_checkpoint": "2026-09-30T13:45:38.844Z",
-      "outcome": "telemetry_read_verified",
-      "verification": "7 exact task lookups, Scene21 success. 4 Board video pages/359 tasks, exactly 2 new active Seedance2.0 tasks normalization-equal to existing Scene27 Part 1 and Part 2 prompts; no new Scene ID. Canonical master same-ID updated. Public snapshot and stable checkpoint require read-back."
-    },
-    {
       "timestamp": "2026-10-02T22:03:32.759Z",
       "operation": "scenes22_23_24_terminal_reconciliation_and_full_board_discovery",
       "scene_id": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-30T00:10:19Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-30T01:00:19Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-30T01:00:19Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 55,
+  "archived_event_count": 56,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
