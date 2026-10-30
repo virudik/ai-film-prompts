@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-07T21:00:52.381Z",
-      "operation": "terminal_transition_and_full_account_discovery",
-      "scene_id": 20,
-      "task_fingerprint": "ef0a2cdb…07bd9e",
-      "previous_status": "5 active tasks",
-      "new_status": "4 active tasks",
-      "source_checkpoint": "2026-10-07T21:00:52.381Z",
-      "outcome": "success",
-      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 534 unique tasks. Scene 20 task ef0a2cdb…07bd9e reached success at 2026-10-07T14:59:15Z; four unlimited tasks remain init. Standalone query endpoint does not address Board video-edit IDs, so exact IDs were verified in the complete Board dataset. Occupancy 4/6; canonical slow remains Scenes 20, 26 and 27."
-    },
-    {
       "timestamp": "2026-10-08T02:07:03.475Z",
       "operation": "terminal_transition_canonical_reconciliation_and_full_account_discovery",
       "scene_id": 20,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-30T20:50:20Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-30T21:40:21Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-30T21:40:21Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 81,
+  "archived_event_count": 82,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
