@@ -3002,7 +3002,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Обновление 23.10 (владелец):** сцена начинается склейкой — без видео конца 56. Начало задано текстом и картинками, поэтому 48 запускается, не дожидаясь 42 и 56. Часть 2 Seedance-версии по-прежнему продолжает конец части 1.
 
-**Продолжение 30.10 — часть 3, «На черве к городу».** Сразу после побега червь несёт Серёгу через дюну. Он видит купола знакомого космопорта, широко улыбается и на ходу наклоняется в поворот. Конец части — подступы к городу. Три части Seedance по 15 с. Для 48.3 нужны последние 3 с настоящей 48.2, лицо Серёги, дизайн червя, чистый вид города со стороны дюн и образец лихой поездки.
+**Продолжение 30.10 — часть 3, «На черве к городу».** Сразу после побега червь несёт Серёгу через дюну. Он видит купола знакомого космопорта, широко улыбается и на ходу наклоняется в поворот. Конец части — подступы к городу. Три части Seedance по 15 с. Первый кадр повторяет широкий боковой вид поездки. За 15 секунд камера плавно приближается к довольному лицу Серёги и заканчивает крупно. Под его рукой остаются кольца червя, справа видны край пасти и город впереди.
 
 **Контекст использования:**
 
@@ -3026,7 +3026,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
 - @Image6 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
 
-**Для 48.3 своя нумерация.** @Video1 — конец 48.2, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — чистый вид города по архитектуре 52.4, @Image4 — вид сбоку: Серёга на черве, впереди пасть и городские ворота, позади тянется песчаный след.
+**Для 48.3 своя нумерация.** @Video1 — последние 3 с 48.2 для согласования движения, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — город по архитектуре 52.4, @Image4 — широкий стартовый кадр, @Image5 — улыбка Серёги в конце приближения.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -3036,7 +3036,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure>
 <figure><a href="references/scenes/scene-48/S48-P3-tatooine-city.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-tatooine-city.jpg.webp" alt="48.3 · @Image3 — город со стороны дюн"></a><figcaption>48.3 · @Image3 — город со стороны дюн</figcaption></figure>
-<figure><a href="references/scenes/scene-48/S48-P3-serega-worm-ride.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-ride.jpg.webp" alt="48.3 · @Image4 — лихая поездка к городу, боковой вид с головой червя"></a><figcaption>48.3 · @Image4 — лихая поездка к городу, боковой вид с головой червя</figcaption></figure></div>
+<figure><a href="references/scenes/scene-48/S48-P3-serega-worm-ride.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-ride.jpg.webp" alt="48.3 · @Image4 — первый кадр, Серёга и червь на пути к городу"></a><figcaption>48.3 · @Image4 — первый кадр, Серёга и червь на пути к городу</figcaption></figure>
+<figure><a href="references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-48/S48-P3-serega-worm-closeup.jpg.webp" alt="48.3 · @Image5 — финал приближения, улыбка Серёги, пасть и город"></a><figcaption>48.3 · @Image5 — финал приближения, улыбка Серёги, пасть и город</figcaption></figure></div>
 
 **Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет Илюшу отпрыгнуть; Артём на коленях упирается рукой в песок. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев. В 48.3 он пересекает гряду, довольно улыбается и мчится к песчаным куполам города.
 
@@ -3258,20 +3259,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action desert adventure | The Chancellor rides the sandworm across Tatooine, delighted to see the city ahead.
+Optimized for Seedance 2.0 | Photoreal live-action desert adventure | One unbroken tracking push-in from the wide ride to Serega’s delighted face as he races toward the city.
 
-REFERENCES:
-@Video1 is the actual last three seconds of Part 2. Continue its last frame on motion: match the worm’s anatomy, rider’s foothold, direction of travel, sun, dust and speed.
-@Image1 fixes Serega’s face and build. He wears the same long deep-purple robe as in @Video1, dark boots, unlit hilt at his belt. The stolen map module stays concealed.
-@Image2 fixes the single colossal sandworm’s segmented hide, girth and scale. Serega remains small against its back, both boots on one broad segment and one hand gripping a raised fold.
-@Image3 is the destination: match this empty dune approach, compact sandstone domes, slender towers and the rocky escarpment beyond.
-@Image4 fixes the wide flank view: Serega rides just behind the worm’s entire raised head, its ringed mouth faces the town gate, and a long run of its body trails back through the sand. The windblown robe and dust mark the wake behind. Preserve @Image1 likeness, @Image2 anatomy and the motion established by @Video1.
+@Image4 is frame one. Match its wide side view, scale and blocking: the wake at left, Serega crouched behind the full raised head, open sand and the city gate beyond the mouth at right. Begin already moving.
+@Image5 is the closing composition. Serega’s smiling three-quarter face fills the left foreground. Beneath his hand, the worm’s back leads forward into the partial toothed rim at lower right. The town stays legible beyond it at upper right.
+@Video1 supplies the actual last three seconds of Part 2 for motion continuity only: match the speed, weight, foothold, sunlight and wind when cutting into the new @Image4 camera position. The opening composition comes from @Image4.
+@Image1 fixes Serega’s likeness, deep plum hood-down robe and boots. The stolen map module stays concealed. @Image2 fixes this single colossal worm’s segmented hide, girth and circular mouth. @Image3 fixes the sandstone domes, towers and gate.
 
-0–4 s | Carry the departure forward. From the end of @Video1 the worm crests a wind-cut ridge and banks along its far shoulder. The two distant Jedi and the broken ruins slip out of frame as the camera tracks the departing rider. He is already aboard. Sand peels from the moving segments in one continuous wake.
-4–9 s | Track alongside on the townward flank, slightly ahead, keeping the same side of the travel axis. In one wide frame read the trailing sand plume, Serega leaning into the bank, the full leading head with its toothed oval mouth in three-quarter profile, then open sand and the gate beyond it. His knees flex against the rolling segments. His gaze follows the worm’s heading to the gate; he breaks into a satisfied grin. Keep the head clear of dust.
-9–15 s | Keep pace alongside. Ease closer briefly for his grin, then widen again to show the massive head and several moving rings. The distance from the worm’s mouth to the gate visibly closes as foreground dunes slip backward. End outside town on a wide lateral tracking shot, the town still ahead, rider and worm in full motion, the dust wake far behind.
+0–3 s | Open exactly on @Image4. The worm is already racing left to right towards the gate, its teeth clear in three-quarter profile. Its rings roll above the dune and sand peels back to the left. Serega turns his eyes to the town, flexing his knees with each surge.
+3–10 s | The camera matches the worm’s speed and glides closer from the same flank, slightly ahead of the rider. Move physically from wide through medium to near his face in one smooth push. The whole head gives way naturally to its near rim at the right edge as he fills more of the frame. His hand stays planted on a raised ring; his robe streams left. The domes grow closer beyond his gaze.
+10–15 s | Settle into @Image5 and keep travelling close beside him. Serega leans into the ride, squints into the wind, then breaks into a satisfied grin. Let it register through the final seconds. His gripping hand, the rippling back and a sliver of toothed mouth remain visible with the city ahead in the right background. End close while he is still riding outside the gates.
 
-Sound: wind in cloth, a low rolling vibration and heavy sand cascading from the crest. No speech or score. No second mount, remounting, saddle, reins, lit saber, vehicles, collision, entry into the town, aerial stunt, slow motion, freeze, captions or black bars.
+Sound: rushing wind, cloth snapping and low rolling sand. No dialogue or score. No cut, camera-axis crossing, pullback, still-frame hold, remounting, second worm, saddle, reins, lit saber, vehicles, captions or bars.
 ```
 
 </div>

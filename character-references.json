@@ -750,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T17:45:03.885Z",
+  "updated_at": "2026-10-30T17:53:16.392Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -2312,7 +2312,7 @@
           "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
           "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
           "caption": "48.3 — Серёга лихо едет к городу, сбоку видны голова и тело червя",
-          "role": "mounted_rider_flank_view_worm_head_and_townward_heading",
+          "role": "opening_wide_frame_toward_town",
           "sha256": "95d2c7f6c039c11ffa5d3653f5e7124e39b3eea3b0832c88061fc79b918350ec",
           "bytes": 769885,
           "dimensions": [
@@ -2358,7 +2358,76 @@
           }
         }
       ],
-      "reference_priority": "Боковой ракурс и направление к городу; лицо по @Image1, анатомия по @Image2, стык и направление движения по @Video1."
+      "reference_priority": "Первый широкий кадр части 48.3. Последние 3 с части 48.2 используются для согласования движения. Затем камера движется к крупному плану @Image5."
+    },
+    {
+      "id": "S48-P3-serega-worm-closeup",
+      "name": "48.3 — крупный план довольного Серёги, рука на черве и город впереди",
+      "kind": "scene_reference",
+      "scenes": [
+        48
+      ],
+      "editorial_status": "not_approved",
+      "images": [
+        {
+          "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+          "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+          "caption": "48.3 — крупный план довольного Серёги, рука на черве и город впереди",
+          "role": "final_closeup_of_mounted_rider_toward_town",
+          "sha256": "0fee920740e5367cbc6346723d42760b0a2307997f92d494a2ad4bba185b546c",
+          "bytes": 812282,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "media_type": "image",
+          "status": "available",
+          "owner_approval": "not_recorded",
+          "generation_method": "ChatGPT built-in image edit using original ride portrait, corrected wide view, identity, city and worm sheets",
+          "created_at": "2026-10-30T17:53:16.392Z",
+          "prompt_file": "references/scenes/scene-48/S48-P3-serega-worm-closeup.image-prompt.txt",
+          "prompt_sha256": "7ba7971b5abd766682b6cb6acdb1d8fe668c7f673c4b1584bab93e01e7e28156",
+          "reference_inputs": [
+            {
+              "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+              "git_commit": "56b522b8faccae3001af190fe44d09bdb833afb1",
+              "sha256": "0bb7a8bb03c7edebf572acced82bfe3402146eb044ed3c888b70195eab3923c9",
+              "role": "previous_revision_edit_target"
+            },
+            {
+              "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+              "sha256": "95d2c7f6c039c11ffa5d3653f5e7124e39b3eea3b0832c88061fc79b918350ec",
+              "role": "opening_camera_and_screen_direction"
+            },
+            {
+              "path": "references/full/serega.jpg",
+              "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+              "role": "identity"
+            },
+            {
+              "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+              "sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
+              "role": "destination"
+            },
+            {
+              "path": "references/scenes/scene-16/S16-worm-scale.png",
+              "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+              "role": "sandworm_anatomy"
+            }
+          ],
+          "assistant_qc": {
+            "checked_at": "2026-10-30T17:53:16.392Z",
+            "status": "usable_for_assigned_role",
+            "scope": "Улыбающееся лицо крупно, взгляд вправо; ладонь лежит на сегменте, виден край пасти, за ним справа купола и башни. Направление совпадает с широким стартовым планом."
+          },
+          "site_published": {
+            "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+            "thumbnail": "references/thumbs/scenes/scene-48/S48-P3-serega-worm-closeup.jpg.webp",
+            "linked_in_master": true
+          }
+        }
+      ],
+      "reference_priority": "Крупность, улыбка, рука на черве и город в заключительном кадре. Для лица приоритет у индивидуального листа Серёги."
     }
   ]
 }
