@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30T00:06:04Z",
+  "scene_id": 28,
+  "owner_instruction": "Внеси в промты предложенные изменения и по светомузыке и по твоим всем пунктам и движение почти замирает исправить",
+  "base_commit": "74f40017ea8734df61bde71745f7c3f81a670c01",
+  "status": "validated_pending_publication",
+  "review": {
+    "scope": "Original A1/A2 videos sampled every 0.25s over the complete duration; no audio review or full-frame-rate playback claim.",
+    "tasks": [
+      {
+        "part": "A1",
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "video_sha256": "a221443eaaf6c2d100ad9e42f6e7393a5614b80d5dc60f760df0ec9c3353d24e",
+        "observations": [
+          "Energetic broad steps and turn, especially the first ~8 seconds.",
+          "Near-static reset around9–11s and prolonged closing approach.",
+          "Floor colours and ceiling lighting remain visually nearly fixed."
+        ]
+      },
+      {
+        "part": "A2",
+        "task_id": "8a8eadc809004e318c47201b8a463be0",
+        "video_sha256": "855a727c897cc2d77bf0b3dea98bf05ee25a637b75b9d2e674a4ccda3681ca69",
+        "observations": [
+          "Repeated face gestures crowd out dance.",
+          "Palm obscures nose/mouth near1.5–1.75s.",
+          "Nearly fixed lighting and long closing stand."
+        ]
+      }
+    ],
+    "submitted_prompt_cause": "Both actual23Oct prompts explicitly say floor borders and ceiling accents remain steady. Revisions25/27Oct were not used in these renders."
+  },
+  "changes": [
+    "All23 prompts: animated existing beams/floor borders/reflections; stable neutral facial key and exposure; opening reference phase; cyan/magenta cut phase only in final0.5s.",
+    "All23 prompts: continuous movement in the middle and approaches/retreats, final pose only in last0.5s; support-safe variation and feline anatomy preserved.",
+    "A1/B1: broad dance until final2s, then dance inward without slow walk or early waiting.",
+    "A2/B2: one brief exchange/two outside-cheek passes, face-centre clear, dance between interactions; consistent head-to-below-knee framing.",
+    "Human light score, montage descriptions and two-gesture QC checklist aligned; obsolete historical one-test gate labelled superseded.",
+    "Prompt guide and handoff updated; original images, submitted tasks/receipts, queue order/authorization/real-input dependencies preserved."
+  ],
+  "blocks": [
+    {
+      "label": "28 A1",
+      "before_sha256": "168c78cd3861f6ccf648eacd3e259d391a4f9ad3bd07dd191bf02b50d71a478b",
+      "after_sha256": "bbef4476076e386a17176caf80e0652d1568aaf84712c2e5c80871c2d4c3f662",
+      "normalized_sha256": "52ecfa83055bf3309dbfcf58b9fce978e7c63653ec57b4839cbce20618e2c5ab",
+      "characters": 4758
+    },
+    {
+      "label": "28 A2",
+      "before_sha256": "a2c3a34b501d1dc4907d15a91b93a896e6cbc76a9393f9a9271aca58ac3a87fa",
+      "after_sha256": "be5b0329ca668590e6bef483e5548685112f94f53e97449b06624b9fc99b93e4",
+      "normalized_sha256": "0a4855dacac83c8c3743dd2c48f3af161a2a3cdc5a0890b7903373b90141dd91",
+      "characters": 5131
+    },
+    {
+      "label": "28 A3",
+      "before_sha256": "4ad12470bbeb66a297955580c8f7da31861092cd2a6083584674870aa4cd23c1",
+      "after_sha256": "e8f72d14e3db84871929687bc75385d0592e2701cfd6207f1edfde46c7ca4742",
+      "normalized_sha256": "2e1a049df8246475814b21552279f24a3a1f617b4b06cad3f4cbb6d4315ccadf",
+      "characters": 4717
+    },
+    {
+      "label": "28 A4",
+      "before_sha256": "f0002100d788d6c7d390b3c5f3096ebc9cdac7b015d8f1c20ec35f44d3771e75",
+      "after_sha256": "e1e319b872a74d44f0f2b796fad6789be809ccab022f512c36ec7e7cb62edf65",
+      "normalized_sha256": "9fae5c29deb8ea519e076e7cbfec29a16265af94e38b5cf87eb282af3c22e9b9",
+      "characters": 4508
+    },
+    {
+      "label": "28 A5",
+      "before_sha256": "39fd8522618e92a54a4723b57f55f77576165c8b58d788bde55278e360100a7e",
+      "after_sha256": "ab0484aeecd17723a9ea13bcea0fc96049b07d741d00697e393e2d78282f5b7f",
+      "normalized_sha256": "875ae5ec4433e5a98e5ad62df34411f2fc0ebf699704fcb8fbd224285493abb7",
+      "characters": 4508
+    },
+    {
+      "label": "28 A6",
+      "before_sha256": "03e3e48977b61a80f6ab13be61822aff613c74cbd9ddb590ff40c7d13d5cee62",
+      "after_sha256": "ecdc9e8f44e3dd4dba9e7eddb9911f6324204022ab8240e7ad406ea68a3ce317",
+      "normalized_sha256": "9d4b2d53e071257ff0c7a47dc5bcd5b43eceac9b34a77964769edfebe6b24eb6",
+      "characters": 5082
+    },
+    {
+      "label": "28 A7",
+      "before_sha256": "4e4b39b0007965f457e550bf2d9841081757943d9d443b796a902b80cb10fd5d",
+      "after_sha256": "be7b05d5de033310772d291a597221732be1a2addafe2ddcca560b7088177a23",
+      "normalized_sha256": "e7e67d77c20c638acc9cedb2412dd15542377457e8987a63b3a1963db10ab66b",
+      "characters": 5148
+    },
+    {
+      "label": "28 A8",
+      "before_sha256": "b708bd6ae0a798baa8bad71df2983edb5ead5d62f5a60837f3f0b6a203c5571e",
+      "after_sha256": "d1ba1360f70a929d86d3a06050050622610ad9d273d0076858a6f3c7dd19e4c3",
+      "normalized_sha256": "ddc96cee15bae085d2048ce790aadba1f0f0643133f6d436b0d8e8436181c0c0",
+      "characters": 5371
+    },
+    {
+      "label": "28 A9",
+      "before_sha256": "35539c88876c515eb9164b28a53e45d04500ec5ed06514da0802cb5d624e760f",
+      "after_sha256": "2604a7103206ac1530f9801bb79c4c80289e6847fb668a9751a820581272da00",
+      "normalized_sha256": "df565119f2aec76013fc1d194481e6ba45b63daeafe6400012d8cfd30b966d9d",
+      "characters": 5495
+    },
+    {
+      "label": "28 A10",
+      "before_sha256": "a105533d95d69fded5afaf7bf2c9f89d614e5488163fbb5d5a9eb0e89f3af4af",
+      "after_sha256": "6e15f260290b0b4f3b810636da34c4dc18bbb4c0ae9ee6fb12d21d90ac672322",
+      "normalized_sha256": "dbf3e0729b50006cd10077a7ec0315505c2631f4ad417b1fb41e7cb5c272e5e3",
+      "characters": 5720
+    },
+    {
+      "label": "28 A11",
+      "before_sha256": "b1d5559ca6fa5955ffee8849a241a2c9ba72e76383b73b273f0cb4d126497982",
+      "after_sha256": "53221ed1d4b01bb291648cfee91d844dc9912d89e0aa7550be7f24b9cd886c98",
+      "normalized_sha256": "7b540611c0ef64cd5cb16462239f4ea4776902ce78b59d8ff3fee7dbeb11b26f",
+      "characters": 5838
+    },
+    {
+      "label": "28 A12",
+      "before_sha256": "d0d6f18e1d7647a5840901e15aa3879586b1f8f33e0dd917d46d2bd6b54cba80",
+      "after_sha256": "45bdfbb8f9824100d589727fbb69e8686f7462f3a41b0400f9e0aa56f5a6443a",
+      "normalized_sha256": "acda782c2c378b9c2e09165a18c253e1e4410b5116682862898adfac45164683",
+      "characters": 5000
+    },
+    {
+      "label": "28 B1",
+      "before_sha256": "488763135e2e5f261874259b2b22b58ad396aa0515f7a19d692276c32f986d4e",
+      "after_sha256": "784f6d6a1ed4828c4792e09b6637a77e3e2caf317aaeaa8c7fa6ac06f48cef5b",
+      "normalized_sha256": "85c07123a43fcb555ff8a2ec4925d7dd6f2d69074e2503d45aa10adfc82d10bb",
+      "characters": 4882
+    },
+    {
+      "label": "28 B2",
+      "before_sha256": "11e02e28bf75f5062a2d12a35d5c178dc29fdf1cc44b1cb37a2d50670599a75a",
+      "after_sha256": "e5402a186d213907eed30b6b091fb5f9a142567b72b72b3ceac713170fede2ba",
+      "normalized_sha256": "927f53e123a27adc179f28b5cfcbb05c4640e3ae6a8c07372a680752db3c6ba3",
+      "characters": 5255
+    },
+    {
+      "label": "28 B3",
+      "before_sha256": "3dd0b66bf5986fa1901a12e7840bdb06cdc88ca04e3b8bc6d56584765b291d89",
+      "after_sha256": "ce4cfe51ed1a87d6be1c7917aea6e497abbc776f87f63a7d2ae3c41adbbc9b4e",
+      "normalized_sha256": "17f7fc3b39b023a0fbc291c59f68e7cd3f51d867e2892557a6e9a4758a70e615",
+      "characters": 4841
+    },
+    {
+      "label": "28 B4",
+      "before_sha256": "b269bef9bbe0fe9d6e7ec9335f46a828394349ad29c1bf4206388a2ab15177ee",
+      "after_sha256": "572bae3c6c5d53f268135122fca783cb3044a80e7b48688398ba5e5ec7d35992",
+      "normalized_sha256": "cfdd55c3f14091414050dd54e406bfb76ff71bedb5b3b0a82a787ebf66a8a9b7",
+      "characters": 4632
+    },
+    {
+      "label": "28 B5",
+      "before_sha256": "97c165233b456cccbd65dc1c0d9fa3adce0e509c0708c78ad7def9496b0ded9d",
+      "after_sha256": "29321dca2b09fce3e5b8c0eca44fde385bea7973531e899aeee380abc8b24cd4",
+      "normalized_sha256": "00b9042777547bc7fc61d600080fbec9b5e04397531e8803094f32c00d653018",
+      "characters": 4632
+    },
+    {
+      "label": "28 B6",
+      "before_sha256": "e2d142c5fc4a82e01eee25230adb72c6d65d136ae6e3fdc367191c42f1620ed0",
+      "after_sha256": "e0d2f0d1f63627a189ac35c0f8b52096e371bf594cbbfdd8beb90e4644f42448",
+      "normalized_sha256": "d40025709fc12f13c4fb70abf1e2b9884d82ad322c0abd15d0a38305f18d8a1f",
+      "characters": 5206
+    },
+    {
+      "label": "28 B7",
+      "before_sha256": "66e3a810352fd2e52d7289dcf9a77591d58f76f6c6426dc4b4133fd70f47283c",
+      "after_sha256": "7fa6d101f08a019032b3838e22675c18a677d4634edf012c68e5036720b49265",
+      "normalized_sha256": "a6959e15549a124aad57d44595040e392db9e3f0f5fc715ae3545af15d5d499d",
+      "characters": 5272
+    },
+    {
+      "label": "28 B8",
+      "before_sha256": "afd39fcbfaac683c4b24498d3e13f2006c1aac49c83cbd3cff554de141222659",
+      "after_sha256": "a08f0fec351a0f3e981f29490a8997c36b849152445ea9d75c0e52d9e5f53552",
+      "normalized_sha256": "d7534a081fa502514af3611eda394a439646190c5a93f740c6e5bdd75d489c5f",
+      "characters": 5495
+    },
+    {
+      "label": "28 B9",
+      "before_sha256": "1f0e802e5f2a98fc1c83f44274855df70691b4ff72b77d7e0d59af7305d758e7",
+      "after_sha256": "0861432fb8f84712230a2a02165be5a79fbdb65a4ffd49959b156daf3d000496",
+      "normalized_sha256": "c877e289d39c3ac29f81c128db037c54d508a7ce69e86b13543970401adc1e3e",
+      "characters": 5619
+    },
+    {
+      "label": "28 B10",
+      "before_sha256": "39e5afee08cbdf4ce597b69b6756bb295cb46c8bffeda9d0f5303519c319e8d7",
+      "after_sha256": "2fc7065b938e9a04b2b99e565e6af6882b2e774707c971c6ca0751866966dff1",
+      "normalized_sha256": "f8c18edf91c110452f67363515b16c1f6870f5fed6d15b633fa3b4bb55529394",
+      "characters": 5844
+    },
+    {
+      "label": "28 B11",
+      "before_sha256": "a92628127a87fdb8e2e08a319aab28862a6d6ae2cb34852bbbabab6a84c9eaf5",
+      "after_sha256": "75cf71eef6f4bbfafdfc6adaf83d085ce4e0bdfb15eab083d7a5b19216b64a87",
+      "normalized_sha256": "97a3326873cdc1328a4f69118a46fcdbcce375da38aeeaa4d17dd39d3794df4c",
+      "characters": 6633
+    }
+  ],
+  "queue_items_updated": [
+    "S28-A3-20261023",
+    "S28-A4-20261023",
+    "S28-A5-20261023",
+    "S28-A6-20261023",
+    "S28-A7-20261023",
+    "S28-A8-20261023",
+    "S28-A9-20261023",
+    "S28-A10-20261023",
+    "S28-A11-20261023",
+    "S28-A12-20261023",
+    "S28-A1-R2-20261025",
+    "S28-A2-R2-20261025"
+  ],
+  "new_queue_items": 0,
+  "new_generations": 0,
+  "new_images": 0,
+  "render_validation_pending": true,
+  "next_action": "Use revised text only for existing authorized future queue items. Inspect actual new results for visible colour changes/floor chase, middle energy, faces and hand contacts; no quality guarantee from text editing. Preserve good A1 fragments for montage.",
+  "checks": {
+    "unit_tests": {
+      "passed": 348,
+      "duration_seconds": 220.639
+    },
+    "site_validator": "passed",
+    "master_health": "ok",
+    "canon_health_warnings": 0,
+    "changed_prompt_blocks": 23,
+    "changed_waiting_queue_items": 12,
+    "max_prompt_characters": 6633,
+    "identities_reference_tokens_and_other_scenes_unchanged": true,
+    "submitted_queue_entries_priorities_and_dependencies_unchanged": true
+  },
+  "maintenance": "One superseded25Oct handoff line moved verbatim into archive/handoff-log.md; shared revision provenance stored once to keep live handoff/queue below size limits."
+}

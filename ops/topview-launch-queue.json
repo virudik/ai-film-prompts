@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-29T23:30:47.870Z",
+  "updated_at": "2026-10-30T00:06:04Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4348,8 +4348,8 @@
       "scene_id": 28,
       "prompt_id": "A3",
       "canonical_block_label": "28 A3",
-      "canonical_prompt_sha256": "4ad12470bbeb66a297955580c8f7da31861092cd2a6083584674870aa4cd23c1",
-      "normalized_prompt_sha256": "c71eeb8d1b905a0239371be9cf7ba2a93309652a463c893d306580870fdca0e6",
+      "canonical_prompt_sha256": "e8f72d14e3db84871929687bc75385d0592e2701cfd6207f1edfde46c7ca4742",
+      "normalized_prompt_sha256": "2e1a049df8246475814b21552279f24a3a1f617b4b06cad3f4cbb6d4315ccadf",
       "priority": 2.03,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -4410,7 +4410,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "0a3bfbe2cc90e877c9c7a68d5220bc870cd082bc0522dcfe43ab2c1f45edc6ce",
-        "c1995971f3c018e4af1cd4a5b3d47caca6d710972a8f0216e47e774108262029"
+        "c1995971f3c018e4af1cd4a5b3d47caca6d710972a8f0216e47e774108262029",
+        "4ad12470bbeb66a297955580c8f7da31861092cd2a6083584674870aa4cd23c1"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4420,8 +4421,8 @@
       "scene_id": 28,
       "prompt_id": "A4",
       "canonical_block_label": "28 A4",
-      "canonical_prompt_sha256": "f0002100d788d6c7d390b3c5f3096ebc9cdac7b015d8f1c20ec35f44d3771e75",
-      "normalized_prompt_sha256": "a61c9e39c236b7bfe927eed42e3e87ee8388f3feed7f551839e4852d79448bd0",
+      "canonical_prompt_sha256": "e1e319b872a74d44f0f2b796fad6789be809ccab022f512c36ec7e7cb62edf65",
+      "normalized_prompt_sha256": "9fae5c29deb8ea519e076e7cbfec29a16265af94e38b5cf87eb282af3c22e9b9",
       "priority": 2.04,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4472,7 +4473,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "59a3173102b1f175977f23e68d85ae78918861af19fca243ec372517c903a6f9",
-        "daef3177300a02d2d5fdc4236cdede179326c40e298811c70c8501bd4861ec3b"
+        "daef3177300a02d2d5fdc4236cdede179326c40e298811c70c8501bd4861ec3b",
+        "f0002100d788d6c7d390b3c5f3096ebc9cdac7b015d8f1c20ec35f44d3771e75"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4482,8 +4484,8 @@
       "scene_id": 28,
       "prompt_id": "A5",
       "canonical_block_label": "28 A5",
-      "canonical_prompt_sha256": "39fd8522618e92a54a4723b57f55f77576165c8b58d788bde55278e360100a7e",
-      "normalized_prompt_sha256": "75b6aea907991695f7979f42743dd78dc35004085f68d8761a95ea86c00b1844",
+      "canonical_prompt_sha256": "ab0484aeecd17723a9ea13bcea0fc96049b07d741d00697e393e2d78282f5b7f",
+      "normalized_prompt_sha256": "875ae5ec4433e5a98e5ad62df34411f2fc0ebf699704fcb8fbd224285493abb7",
       "priority": 2.05,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4534,7 +4536,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "b07695b0f8895ac1046929263efb2cf27d16499542bd23eaa19110edd4f19a65",
-        "e916c743dc93fb8711c0e53b866351fdb54ff3c67ec6031dec36d54f89d1a48c"
+        "e916c743dc93fb8711c0e53b866351fdb54ff3c67ec6031dec36d54f89d1a48c",
+        "39fd8522618e92a54a4723b57f55f77576165c8b58d788bde55278e360100a7e"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4544,8 +4547,8 @@
       "scene_id": 28,
       "prompt_id": "A6",
       "canonical_block_label": "28 A6",
-      "canonical_prompt_sha256": "03e3e48977b61a80f6ab13be61822aff613c74cbd9ddb590ff40c7d13d5cee62",
-      "normalized_prompt_sha256": "52115ffb212a746cda976cff250c9e1891664cfdd4e873d52f3e50a0463a66a0",
+      "canonical_prompt_sha256": "ecdc9e8f44e3dd4dba9e7eddb9911f6324204022ab8240e7ad406ea68a3ce317",
+      "normalized_prompt_sha256": "9d4b2d53e071257ff0c7a47dc5bcd5b43eceac9b34a77964769edfebe6b24eb6",
       "priority": 2.06,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4604,7 +4607,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "c1f2d7ad68c35f09f09a6c32463920971ff1b220ff4edc34a3847126fa452067",
-        "fd55e69175b5c3a2f58dddf933a064e8a89b59f8a4b5c569690a0c311f5122e3"
+        "fd55e69175b5c3a2f58dddf933a064e8a89b59f8a4b5c569690a0c311f5122e3",
+        "03e3e48977b61a80f6ab13be61822aff613c74cbd9ddb590ff40c7d13d5cee62"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4614,8 +4618,8 @@
       "scene_id": 28,
       "prompt_id": "A7",
       "canonical_block_label": "28 A7",
-      "canonical_prompt_sha256": "4e4b39b0007965f457e550bf2d9841081757943d9d443b796a902b80cb10fd5d",
-      "normalized_prompt_sha256": "918a06a792708e39364d0b33f7c086e580e10ac5c94eeb0279d7909faa759b08",
+      "canonical_prompt_sha256": "be7b05d5de033310772d291a597221732be1a2addafe2ddcca560b7088177a23",
+      "normalized_prompt_sha256": "e7e67d77c20c638acc9cedb2412dd15542377457e8987a63b3a1963db10ab66b",
       "priority": 2.07,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4674,7 +4678,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "7aa2598060614992f4fe9ab1e6b312d1f9de3f41012fa4b2233a84badd75a271",
-        "6378e7df098a2eeebfa94aa44efc58142db12441d1d92c75fb843c295d40ec05"
+        "6378e7df098a2eeebfa94aa44efc58142db12441d1d92c75fb843c295d40ec05",
+        "4e4b39b0007965f457e550bf2d9841081757943d9d443b796a902b80cb10fd5d"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4684,8 +4689,8 @@
       "scene_id": 28,
       "prompt_id": "A8",
       "canonical_block_label": "28 A8",
-      "canonical_prompt_sha256": "b708bd6ae0a798baa8bad71df2983edb5ead5d62f5a60837f3f0b6a203c5571e",
-      "normalized_prompt_sha256": "ff6cf64baa57f39fe56a766ba7faa14d136e75c6c653d579718734a8f5270437",
+      "canonical_prompt_sha256": "d1ba1360f70a929d86d3a06050050622610ad9d273d0076858a6f3c7dd19e4c3",
+      "normalized_prompt_sha256": "ddc96cee15bae085d2048ce790aadba1f0f0643133f6d436b0d8e8436181c0c0",
       "priority": 2.08,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4744,7 +4749,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "1e2860fac56f47b8c5ba0d44ff57785862de7f335316659a79cc93ff2f704e20",
-        "f90af37b3c76e644cbcb229e22cee44e3dae2d66117569ea3b34f2a35eb6115f"
+        "f90af37b3c76e644cbcb229e22cee44e3dae2d66117569ea3b34f2a35eb6115f",
+        "b708bd6ae0a798baa8bad71df2983edb5ead5d62f5a60837f3f0b6a203c5571e"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4754,8 +4760,8 @@
       "scene_id": 28,
       "prompt_id": "A9",
       "canonical_block_label": "28 A9",
-      "canonical_prompt_sha256": "35539c88876c515eb9164b28a53e45d04500ec5ed06514da0802cb5d624e760f",
-      "normalized_prompt_sha256": "67e411cbd88feaf89d3270a24236af4b241cf11611c32bc2ffe830d2b23d88d9",
+      "canonical_prompt_sha256": "2604a7103206ac1530f9801bb79c4c80289e6847fb668a9751a820581272da00",
+      "normalized_prompt_sha256": "df565119f2aec76013fc1d194481e6ba45b63daeafe6400012d8cfd30b966d9d",
       "priority": 2.09,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4814,7 +4820,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "43b12c821fd71780e03bf8b5b6953ce075a58e7bb362729e7376888f61902b07",
-        "a1a3c7517af29fcf7f230e448e1035c35a9540c5c2c060f79e69e5fcda9041e7"
+        "a1a3c7517af29fcf7f230e448e1035c35a9540c5c2c060f79e69e5fcda9041e7",
+        "35539c88876c515eb9164b28a53e45d04500ec5ed06514da0802cb5d624e760f"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4824,8 +4831,8 @@
       "scene_id": 28,
       "prompt_id": "A10",
       "canonical_block_label": "28 A10",
-      "canonical_prompt_sha256": "a105533d95d69fded5afaf7bf2c9f89d614e5488163fbb5d5a9eb0e89f3af4af",
-      "normalized_prompt_sha256": "7f8d0b7ef3c7f52a3cc6e97b1015333e47650e932301bee953610476311c8bf8",
+      "canonical_prompt_sha256": "6e15f260290b0b4f3b810636da34c4dc18bbb4c0ae9ee6fb12d21d90ac672322",
+      "normalized_prompt_sha256": "dbf3e0729b50006cd10077a7ec0315505c2631f4ad417b1fb41e7cb5c272e5e3",
       "priority": 2.1,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4860,7 +4867,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "2080653ecb276bc28913a58705149d02f9c14c10d631a70450467fb592721657",
-        "25cf257621c6edf5404e0e076aa04aaaba95418e209daf75057f03866fa86e6a"
+        "25cf257621c6edf5404e0e076aa04aaaba95418e209daf75057f03866fa86e6a",
+        "a105533d95d69fded5afaf7bf2c9f89d614e5488163fbb5d5a9eb0e89f3af4af"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted."
@@ -4870,8 +4878,8 @@
       "scene_id": 28,
       "prompt_id": "A11",
       "canonical_block_label": "28 A11",
-      "canonical_prompt_sha256": "b1d5559ca6fa5955ffee8849a241a2c9ba72e76383b73b273f0cb4d126497982",
-      "normalized_prompt_sha256": "e8e540bc731335d205749b8b4666cf83eefcad559f7de0f52555d8cfffe86736",
+      "canonical_prompt_sha256": "53221ed1d4b01bb291648cfee91d844dc9912d89e0aa7550be7f24b9cd886c98",
+      "normalized_prompt_sha256": "7b540611c0ef64cd5cb16462239f4ea4776902ce78b59d8ff3fee7dbeb11b26f",
       "priority": 2.11,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -4928,7 +4936,8 @@
       "editorial_completion": false,
       "previous_prompt_sha256": [
         "c8de91dcecde79ce0226e60fba70966e357910fcc3f5bbb8bd83db6f037ea626",
-        "06097b50e8c62f3e7218a790edd829eb51ee0acc6212c7a6c21808a77f1ab2c0"
+        "06097b50e8c62f3e7218a790edd829eb51ee0acc6212c7a6c21808a77f1ab2c0",
+        "b1d5559ca6fa5955ffee8849a241a2c9ba72e76383b73b273f0cb4d126497982"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "pose_revision_20261025": "Pose helper added; existing real-video continuity dependency retained."
@@ -4938,8 +4947,8 @@
       "scene_id": 28,
       "prompt_id": "A12",
       "canonical_block_label": "28 A12",
-      "canonical_prompt_sha256": "d0d6f18e1d7647a5840901e15aa3879586b1f8f33e0dd917d46d2bd6b54cba80",
-      "normalized_prompt_sha256": "beee2a900689bcdcb133303dc7eea282bcca9f6a7e42db696fc0b700e8ab35a4",
+      "canonical_prompt_sha256": "45bdfbb8f9824100d589727fbb69e8686f7462f3a41b0400f9e0aa56f5a6443a",
+      "normalized_prompt_sha256": "acda782c2c378b9c2e09165a18c253e1e4410b5116682862898adfac45164683",
       "priority": 2.12,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -5007,7 +5016,8 @@
       "previous_prompt_sha256": [
         "92a522646faf6e8d5e386706626899bae5c038c407a9c3776ac905e5f38817a4",
         "204076574666f7a095cb7ddc21347e83c215f8b41d8958da147f3bc846163379",
-        "b3a0294e37d06e4e6c8414fc0f9b5218581525d3bb4ffe540ad3820636c4b68c"
+        "b3a0294e37d06e4e6c8414fc0f9b5218581525d3bb4ffe540ad3820636c4b68c",
+        "d0d6f18e1d7647a5840901e15aa3879586b1f8f33e0dd917d46d2bd6b54cba80"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "pose_revision_20261025": "Pose helper added; existing real-video continuity dependency retained.",
@@ -6081,8 +6091,8 @@
       "scene_id": 28,
       "prompt_id": "A1",
       "canonical_block_label": "28 A1",
-      "canonical_prompt_sha256": "168c78cd3861f6ccf648eacd3e259d391a4f9ad3bd07dd191bf02b50d71a478b",
-      "normalized_prompt_sha256": "f577e8a0bde3d94a9681e28a3d28045f63791354c04a6ff6abd2d9b584bfb681",
+      "canonical_prompt_sha256": "bbef4476076e386a17176caf80e0652d1568aaf84712c2e5c80871c2d4c3f662",
+      "normalized_prompt_sha256": "52ecfa83055bf3309dbfcf58b9fce978e7c63653ec57b4839cbce20618e2c5ab",
       "priority": 2.01,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -6123,7 +6133,8 @@
       "previous_prompt_sha256": [
         "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
         "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
-        "0da433bbc5b5d32352f0e88fe119bff0b4acaaa003fbebdc1e609079d9f5d67b"
+        "0da433bbc5b5d32352f0e88fe119bff0b4acaaa003fbebdc1e609079d9f5d67b",
+        "168c78cd3861f6ccf648eacd3e259d391a4f9ad3bd07dd191bf02b50d71a478b"
       ],
       "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
       "depends_on_completed": [],
@@ -6220,8 +6231,8 @@
       "scene_id": 28,
       "prompt_id": "A2",
       "canonical_block_label": "28 A2",
-      "canonical_prompt_sha256": "a2c3a34b501d1dc4907d15a91b93a896e6cbc76a9393f9a9271aca58ac3a87fa",
-      "normalized_prompt_sha256": "644ba597ecc274ed47aa2fe4a24e8746c81a39c3ed2dcdbf8ad65f35d994c2ba",
+      "canonical_prompt_sha256": "be5b0329ca668590e6bef483e5548685112f94f53e97449b06624b9fc99b93e4",
+      "normalized_prompt_sha256": "0a4855dacac83c8c3743dd2c48f3af161a2a3cdc5a0890b7903373b90141dd91",
       "priority": 2.02,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -6286,7 +6297,8 @@
       "terminal_dependency_policy": "This predecessor is a duplicate-prevention gate, not a visual input. After terminal success OR fail and QC evidence, remove this depends_on_completed entry, set waiting_for_slot, preserve prior task; do not require a successful failed take and do not resurrect a one-test owner gate. Existing normalized match is allowed only for this explicit owner-authorized rerender, never for a second submission of this new item.",
       "previous_prompt_sha256": [
         "24772bbc7e879e0700b75371e15607b0255e9a2b2555be4e7bc701fddb35bcce",
-        "ccb820faa2125c4b4060004847135a3eabbdbbc66967c84bff930d48b217eb3e"
+        "ccb820faa2125c4b4060004847135a3eabbdbbc66967c84bff930d48b217eb3e",
+        "a2c3a34b501d1dc4907d15a91b93a896e6cbc76a9393f9a9271aca58ac3a87fa"
       ],
       "revision_note_20261025": "Owner explicitly requested prompt/instruction edits after dance audit. Freer performance; identity, critical gags/contact and continuity preserved. Existing authorization/order/dependencies unchanged; this revision has not been submitted.",
       "revision_note_20261027": "Owner27Oct «Вносить сейчас»: shared Claude+ChatGPT dance variant (2–3 signature moves, ~120 BPM energy cue, A2 two cheek passes, small hops only without supports/contact/cats). Authorization, order, inputs and dependencies unchanged; this revision has not been submitted.",
@@ -8651,5 +8663,9 @@
     "on_exhausted": "record blocker; continue next independent ready item in the same cycle",
     "unknown_submit": "reconcile only; never retry on timeout/absence alone",
     "scope": "current selected Seregius videos, website Unlimited0 only"
+  },
+  "prompt_revision_20261030": {
+    "report": "reports/scene28-light-motion-2026-10-30.json",
+    "scope": "Scene28: only12 unsubmitted selected items; existing order/authorization/dependencies unchanged."
   }
 }
