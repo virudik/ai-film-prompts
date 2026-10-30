@@ -2299,9 +2299,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 773254,
-   "thumb_bytes": 57556,
-   "src_sha256": "a1a928f01a2c6a50cd5b0c44fcb7b1ddccecd8ceba02ed650b42b5a8a139cbfa"
+   "src_bytes": 913011,
+   "thumb_bytes": 67688,
+   "src_sha256": "2369992b1ca30deb276119de06fc585066e927cebadc9d8a20f0d78cc0907ec4"
   },
   "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg": {
    "thumb": "references/thumbs/scenes/scene-48/S48-P3-serega-worm-ride.jpg.webp",
