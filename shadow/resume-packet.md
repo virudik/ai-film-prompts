@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-10-30T00:13:32+00:00
+Состояние: needs_recovery
+Проверено: 2026-10-30T00:15:29+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: Bounded retry policy and both automation prompts published/read back; six slots occupied, no new submission.
@@ -60,4 +60,5 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- brief was invalid at generation
+- master vs project-status sha256 mismatch
