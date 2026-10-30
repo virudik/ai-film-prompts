@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T02:18:42+00:00",
-  "status": "prepared_with_two_audience_options_blocked",
+  "updated_at": "2026-10-30T02:37:49+00:00",
+  "status": "published_with_two_audience_options_blocked",
   "owner_request": "Missing intact/broken instrument states for all groups and three opposite-audience options in Topview Nano Banana",
   "images": {
     "A": {
@@ -37,7 +37,12 @@
         "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     },
     "B": {
@@ -73,7 +78,12 @@
         "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51B-own-instrument-result.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     },
     "C": {
@@ -109,7 +119,12 @@
         "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51C-own-instrument-result.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     },
     "D": {
@@ -145,7 +160,12 @@
         "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51D-own-instrument-result.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     },
     "E": {
@@ -181,7 +201,12 @@
         "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51E-own-instrument-result.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     },
     "F": {
@@ -217,7 +242,12 @@
         "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51F-own-instrument-result.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     },
     "G": {
@@ -254,7 +284,12 @@
         "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
         "thumbnail": "references/thumbs/scenes/scene-51/S51G-trio-smash-windup.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     },
     "wookiees": {
@@ -301,7 +336,12 @@
         "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
         "thumbnail": "references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     }
   },
@@ -437,7 +477,128 @@
     "reference_sha_slots": "verified for all14 prompts and7 queue entries"
   },
   "publication": {
-    "status": "pending"
+    "content_commit": "8cb8a8692f3e9f243b56650a890a09645919f536",
+    "github_all_40_blobs_verified": true,
+    "public_verified_at": "2026-10-30T02:37:49+00:00",
+    "public_readback": [
+      {
+        "path": "video-prompts.md",
+        "status": 200,
+        "sha256": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
+        "match": true
+      },
+      {
+        "path": "project-status.json",
+        "status": 200,
+        "health": "ok",
+        "master": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
+        "prompts": 134,
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+        "status": 200,
+        "sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp",
+        "status": 200,
+        "sha256": "1ea9927e8ce1470ed736c68e37719127c9dc2b733ae1aa741eb5f4e3633bcc6e",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+        "status": 200,
+        "sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51B-own-instrument-result.png.webp",
+        "status": 200,
+        "sha256": "677a1d24411bbb039cab2971b4f6422de5d43c412303f061a013b11b828b052a",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+        "status": 200,
+        "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51C-own-instrument-result.png.webp",
+        "status": 200,
+        "sha256": "cce750c176e16efe918eefa3762cd097b5de76c0a989d85dacede438f2c09aa0",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+        "status": 200,
+        "sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51D-own-instrument-result.png.webp",
+        "status": 200,
+        "sha256": "8ecb593f77fc89e2ea3504adc6ed6be0be8e9150c192d3cf2ad9be57c5243f27",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+        "status": 200,
+        "sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51E-own-instrument-result.png.webp",
+        "status": 200,
+        "sha256": "071afbf745c23e3f490894b27300d580c84d99c5e8c41cccb41b8ffcf35a12dd",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+        "status": 200,
+        "sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51F-own-instrument-result.png.webp",
+        "status": 200,
+        "sha256": "2a58c3ebb2959dd375aa27792f3c93262a1de48df58a45c0311f888f8e1b06be",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+        "status": 200,
+        "sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-51/S51G-trio-smash-windup.png.webp",
+        "status": 200,
+        "sha256": "749b52e288935a37069aeb194f7670b09176fd8d4d054c89cf84a62a1e2877dc",
+        "match": true
+      },
+      {
+        "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
+        "status": 200,
+        "sha256": "60bb9fad100e8aa24ae729788d26d25d56af229a73757ddde05feed61eed19b2",
+        "match": true
+      },
+      {
+        "path": "references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp",
+        "status": 200,
+        "sha256": "9e1080f34841c841ab0de2b84ddb524b0cc3fcdb5513dd797ec838ee8f673fa5",
+        "match": true
+      }
+    ],
+    "ci_runs": {
+      "integration_tests": 40991840764,
+      "canonical_check": 40991840913,
+      "reference_thumbnails": 40991841034,
+      "canon_health": 40991840875
+    },
+    "ci_conclusion": "success"
   },
   "remaining": [
     "Two audience PNGs blocked by Topview provider restriction7000/35561575; do not auto-retry, disguise content, or block unrelated ready queue.",

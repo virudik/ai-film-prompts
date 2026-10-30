@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-30T02:26:17+00:00",
+  "last_updated_at": "2026-10-30T02:37:49+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-30T02:26:17+00:00",
+      "updated_at": "2026-10-30T02:37:49+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "14:55 MSK check: full Topview control stayed 13 boards/934 tasks/6 active and 0 free; no submit. Gmail1a16d4bbc1865676 exposed launch-autonomy bug: verified submissions preserve last_claim after clearing claim. Fixed script+test in c90f09d5 and 1e4a4d5a; 4 targeted tests passed. Historical generic run_id was not relabeled.",
@@ -24,7 +24,7 @@
         "22:02 MSK cycle 29 Oct: after two complete 14-board scans and exact prior-task reconciliation, the single owner-authorized S62-SEED20-P1 allowance was consumed in a CAS claim before one website Create. Confirmed task 0de1f663432646d294f409a22e20a26e, Seedance2.0/15s/720p/16:9/qty1, exact Video1+Image1–6 and normalized prompt, Unlimited0. Post-scan 942 tasks/6 active/0 free; prior submission_unknown preserved; no further retry authorized.",
         "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json."
       ],
-      "next_action": "Продолжать разрешённую очередь; два варианта публики блокированы провайдером.",
+      "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -197,18 +197,18 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-30T02:26:17+00:00",
-        "last_completed": "Проверки пройдены; готовится публикация",
-        "next_action": "Продолжать разрешённую очередь; два варианта публики блокированы провайдером.",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "last_completed": "Опубликованы7 состояний инструментов и вариант публики с вуки;14 промтов,348 тестов, CI/public readback подтверждены",
+        "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Референсы рок-финала и варианты публики · 30.10.2026",
-          "sha256": "f1c5031521ca112cf370913c8285629ef3b5b801a70221553c3a4b8a2984f2b4"
+          "sha256": "217e350b3b5ffa03460cd50ec5072a941430a2a5072edf967ed2498b48246bd9"
         },
         "evidence": [
           {
             "file": "reports/final-music-reference-states-2026-10-30.json",
-            "sha256": "58ffe76efacf622cde44440630323a0dda888ddddec875880101678a5eef09f0"
+            "sha256": "c2c233812081a669cd71cc11fc369987cf8f28393975be67728305f47050e794"
           }
         ],
         "read_next": [
@@ -336,9 +336,9 @@
         "successor_instructions_updated_at": "2026-10-27T11:41:47.758Z"
       },
       "handoff": "reports/scene52-seven-parts-handoff-2026-10-27.md",
-      "updated_at": "2026-10-30T02:26:17+00:00",
+      "updated_at": "2026-10-30T02:37:49+00:00",
       "history": "archive/work-resume-register-archive.json#reconciled_work",
-      "next_action": "Продолжать разрешённую очередь; два варианта публики блокированы провайдером.",
+      "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
       "constraints": [
         "Только разрешённый Unlimited 0 через сайт Topview",
         "Роскосмос на паузе",
@@ -348,18 +348,18 @@
       ],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-30T02:26:17+00:00",
-        "last_completed": "Проверки пройдены; готовится публикация",
-        "next_action": "Продолжать разрешённую очередь; два варианта публики блокированы провайдером.",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "last_completed": "Опубликованы7 состояний инструментов и вариант публики с вуки;14 промтов,348 тестов, CI/public readback подтверждены",
+        "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Референсы рок-финала и варианты публики · 30.10.2026",
-          "sha256": "f1c5031521ca112cf370913c8285629ef3b5b801a70221553c3a4b8a2984f2b4"
+          "sha256": "217e350b3b5ffa03460cd50ec5072a941430a2a5072edf967ed2498b48246bd9"
         },
         "evidence": [
           {
             "file": "reports/final-music-reference-states-2026-10-30.json",
-            "sha256": "58ffe76efacf622cde44440630323a0dda888ddddec875880101678a5eef09f0"
+            "sha256": "c2c233812081a669cd71cc11fc369987cf8f28393975be67728305f47050e794"
           }
         ],
         "read_next": [

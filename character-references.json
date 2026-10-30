@@ -750,7 +750,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-30T02:17:35+00:00",
+  "updated_at": "2026-10-30T02:37:49+00:00",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
   "scene_lists_reconciled_at": "2026-10-25T13:22:51.635627+00:00",
   "assets": [
@@ -1858,7 +1858,12 @@
             "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
             "thumbnail": "references/thumbs/scenes/scene-51/S51A-own-instrument-result.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],
@@ -1906,7 +1911,12 @@
             "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
             "thumbnail": "references/thumbs/scenes/scene-51/S51B-own-instrument-result.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],
@@ -1954,7 +1964,12 @@
             "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
             "thumbnail": "references/thumbs/scenes/scene-51/S51C-own-instrument-result.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],
@@ -2002,7 +2017,12 @@
             "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
             "thumbnail": "references/thumbs/scenes/scene-51/S51D-own-instrument-result.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],
@@ -2050,7 +2070,12 @@
             "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
             "thumbnail": "references/thumbs/scenes/scene-51/S51E-own-instrument-result.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],
@@ -2098,7 +2123,12 @@
             "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
             "thumbnail": "references/thumbs/scenes/scene-51/S51F-own-instrument-result.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],
@@ -2147,7 +2177,12 @@
             "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
             "thumbnail": "references/thumbs/scenes/scene-51/S51G-trio-smash-windup.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],
@@ -2206,7 +2241,12 @@
             "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
             "thumbnail": "references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp",
             "linked_in_master": true,
-            "publication_status": "pending"
+            "publication_status": "verified_published",
+            "status": "public_readback_verified",
+            "verified_at": "2026-10-30T02:37:49+00:00",
+            "git_present": true,
+            "thumbnail_loaded": true,
+            "gallery_verified": true
           }
         }
       ],

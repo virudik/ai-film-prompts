@@ -145,7 +145,12 @@
         "path": "references/scenes/scene-50/S50-wookiees-opposite-audience.png",
         "thumbnail": "references/thumbs/scenes/scene-50/S50-wookiees-opposite-audience.png.webp",
         "linked_in_master": true,
-        "publication_status": "pending"
+        "publication_status": "verified_published",
+        "status": "public_readback_verified",
+        "verified_at": "2026-10-30T02:37:49+00:00",
+        "git_present": true,
+        "thumbnail_loaded": true,
+        "gallery_verified": true
       }
     }
   ],
@@ -316,12 +321,13 @@
       "proof": "reports/evidence/s50-gallery-published-20261017.jpg",
       "checks": "All3 originalPNG SHA256 match repository; thumbs HTTP200 and browser loaded; master hash and project-status health=ok match; Pages run39064074745 success."
     },
-    "verified_at": "2026-10-30T01:45:17+00:00",
+    "verified_at": "2026-10-30T02:37:49+00:00",
     "verification_report": "reports/final-music-number-2026-10-30.json",
     "verification_scope": "Published master SHA/group headings and new reverse reference/thumbnail verified; unchanged old assets retain their prior checks.",
     "linked_in_master": true,
-    "canonical_master_sha256": "66e084e7d377ff46cbf336d1e0f797d3f1f47d380957df036f4debd451bbcd96",
-    "trio_evidence": "reports/final-music-trio-2026-10-30.json"
+    "canonical_master_sha256": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
+    "trio_evidence": "reports/final-music-trio-2026-10-30.json",
+    "reference_states_evidence": "reports/final-music-reference-states-2026-10-30.json"
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",
