@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-30T15:56:42.283Z",
+  "last_updated_at": "2026-10-30T18:09:50Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_global_capacity",
-      "updated_at": "2026-10-30T15:56:42.283Z",
+      "updated_at": "2026-10-30T18:09:50Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
+        "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
         "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
         "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted.",
@@ -30,44 +31,65 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-10-30T06:59:23+00:00",
+        "checked_at": "2026-10-30T18:09:50Z",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-30T06:50:31Z",
+          "synced_at": "2026-10-30T17:54:39Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0,
-          "checked_at": "2026-10-30T00:54:51Z",
+          "checked_at": "2026-10-30T18:06:21Z",
           "info": 3
         },
         "gmail_message_ids": [
-          "1a189e6d06d84901",
-          "1a189f7380be8714"
+          "1a18df807e874170",
+          "1a18dd6cd3567ab1",
+          "1a18dd6714961aa0",
+          "1a18dd624a2f6764",
+          "1a18dd3a84ddf550",
+          "1a18dcf5d1c23dd5",
+          "1a18dcf443f8ce96",
+          "1a18dc6228449704",
+          "1a18dc5e68a3b9d4",
+          "1a18dc5e37fc5ae7",
+          "1a18d7630a1c7d09"
         ],
         "github_failed_run_ids": [
-          40970259803,
-          40972410786
+          41102227670,
+          41098192610,
+          41098234179,
+          41098234328,
+          41096988919,
+          41096988781,
+          41095550639,
+          41095523737,
+          41095523733,
+          41082433073
         ],
-        "root_cause": "Both Canon health runs intentionally failed only on the new-warning notification step after check/publication succeeded; ops/topview-launch-queue.json reached 400/403 KB.",
+        "root_cause": "Canon-health failures were intentional new-warning notification failures for confirmed handoff/queue size warnings. Integration and sync failures temporarily observed instruction_mirrors_match_drive=false while an instruction certificate/mirror repair was in flight.",
         "current_verification": {
-          "resolved_by_existing_cleanup": true,
+          "resolved_by_existing_cleanup": false,
+          "cleanup_commit": "81d0814ff071a4aa6847f4cfe033c2aa9db426d9",
           "subsequent_successful_run_ids": [
-            40970496017,
-            40972875131,
-            40992857138
+            41098234415,
+            41100367556,
+            41102227642,
+            41103315880,
+            41103338962,
+            41103468734
           ],
           "canon_health": "ok",
           "canon_warnings": 0
         },
-        "result": "Resolved and verified; no rerun or new repair. Gmail state unchanged."
+        "result": "Warnings fixed and local acceptance verified; prior integration/sync failures resolved by later successful runs. No blind rerun. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-10-30T15:55:00Z",
+        "checked_at": "2026-10-30T17:58:00Z",
         "boards": 14,
         "pages": 20,
         "total": 951,
@@ -129,7 +151,7 @@
         "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
-        "checked_at": "2026-10-30T15:55:00Z",
+        "checked_at": "2026-10-30T17:58:00Z",
         "boards": 14,
         "pages": 20,
         "tasks": 951,
