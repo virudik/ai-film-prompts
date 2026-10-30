@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30T17:22:38Z",
+  "checked_at": "2026-10-30T17:34:46Z",
   "status": "warn",
-  "warnings": 7,
+  "warnings": 2,
   "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
@@ -29,36 +29,6 @@
       "code": "instruction-size",
       "text": "USER-GUIDE.md: 80 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
-    },
-    {
-      "level": "warn",
-      "code": "status-health",
-      "text": "project-status.json: health = error.",
-      "file": "project-status.json"
-    },
-    {
-      "level": "warn",
-      "code": "status-health",
-      "text": "Котмонавты: project-status.json health = error.",
-      "file": "projects/kotmonavty/project-status.json"
-    },
-    {
-      "level": "warn",
-      "code": "status-health",
-      "text": "Кот детектив: project-status.json health = error.",
-      "file": "projects/kot-detektiv/project-status.json"
-    },
-    {
-      "level": "warn",
-      "code": "status-health",
-      "text": "Роскосмос: project-status.json health = error.",
-      "file": "projects/raznoe/project-status.json"
-    },
-    {
-      "level": "warn",
-      "code": "status-health",
-      "text": "Разное: project-status.json health = error.",
-      "file": "projects/misc/project-status.json"
     },
     {
       "level": "warn",
