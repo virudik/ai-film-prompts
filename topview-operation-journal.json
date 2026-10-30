@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-06T17:00:24.338Z",
-      "operation": "unified_monitor_full_refresh",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "2 active tasks",
-      "new_status": "2 active tasks",
-      "source_checkpoint": "2026-10-06T17:00:24.338Z",
-      "outcome": "success",
-      "verification": "All 11 owned boards scanned to VIDEO pagination exhaustion (529 unique VIDEO tasks / 14 pages); both tracked active Scene 20 task IDs directly refreshed as init; no unknown recent AI Film task; account occupancy unchanged at 2/6."
-    },
-    {
       "timestamp": "2026-10-06T18:01:15.454Z",
       "operation": "unified_monitor_full_account_refresh",
       "scene_id": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-30T15:30:22Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-30T15:40:18Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "5 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-30T15:40:18Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 74,
+  "archived_event_count": 75,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
