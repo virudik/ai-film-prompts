@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**27 сцен к генерации/доработке · 134 полных текстов промта**
+**27 сцен к генерации/доработке · 135 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 12** сцен сейчас в медленной генерации: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 61, 62** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -16,7 +16,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **30.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 134 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 61, 62**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **30.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 135 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 43, 44, 45, 46, 47, 53, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 28, 42, 48, 52, 56, 57, 58, 59, 60, 61, 62**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -69,7 +69,7 @@
 | 36 | [После пещеры: Серёга уходит с фрагментом карты](#scene-36) | Серёга, Паша, Саша; пещера; модуль карты | Продолжение уже вставленной Scene 17: Серёга прячет модуль и уходит к водяной завесе, Паша и Саша остаются на Набу. READY: настоящий финальный кадр результата Scene 17 сохранён и проверен. Решение владельца: в монтаж; ожидание завершено. |
 | 41 | [Серёга увозит древний ПК с планеты ситхов](#scene-41) | Серёга; древний ПК; корабль Канцлера; руины ситхов; крейсер | Сила несёт блок и монитор из храма в кабину, взлёт, полёт к крейсеру — стык с финальным компьютером у окна в космос (01:02:45). READY: настоящий кадр крейсера сохранён. Решение владельца: принято; ожидание завершено. |
 | 42 | [Татуин: бой на фоне червя — червь им не интересен](#scene-42) | Серёга, Илюша, Артём; червь; руины Scene 16 | Продолжение принятой Scene 16: дуэль продолжается, червь крушит всё вокруг, герои лениво уворачиваются, не глядя на него. READY: настоящий последний кадр 16 подключён.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
-| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). Начинается склейкой, без видео 56 (владелец 23.10).<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
+| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). Начинается склейкой, без видео 56 (владелец 23.10). В 48.3 довольный Серёга едет верхом к городу.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 49 | [Финальный музыкально-танцевальный номер: Космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
 | 50 | [Финальный музыкально-танцевальный номер: Вуки на площадке и зрители напротив](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B; реакции монтируются с рок-финалом51. |
 | 51 | [Финальный музыкально-танцевальный номер: Рок-финал: каждый разбивает свой инструмент](#scene-51) | Точный H28B; все12 музыкантов в6 отдельных парах, собственные инструменты49 | READY: шесть самостоятельных15s 51A–F; шесть альтернатив30s. Каждому свой контакт и видимая поломка; очередь после50 перед28. |
@@ -2996,11 +2996,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":45,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
 
 **Обновление 20.10:** бой и перемещения в реальном темпе, без длинных поз. Выбраны две части Seedance2.0 по15с; продолжения только от настоящих финалов предыдущих частей. Приоритет16 → 42 → 56 → 48.
 
 **Обновление 23.10 (владелец):** сцена начинается склейкой — без видео конца 56. Начало задано текстом и картинками, поэтому 48 запускается, не дожидаясь 42 и 56. Часть 2 Seedance-версии по-прежнему продолжает конец части 1.
+
+**Продолжение 30.10 — часть 3, «На черве к городу».** Сразу после побега червь несёт Серёгу через дюну. Он видит купола знакомого космопорта, широко улыбается и на ходу наклоняется в поворот. Конец части — подступы к городу. Три части Seedance по 15 с. Для 48.3 нужны последние 3 с настоящей 48.2, лицо Серёги, червь и силуэт города из 52.4.
 
 **Контекст использования:**
 
@@ -3012,8 +3014,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **Машина** после разрушения не появляется (W8). Отлёт Серёги с Татуина — Scene 53 (с окраины города), прибытие на Набу — Scene 39.
 - Модуль того же дизайна, что набусский (@Image6); светится тускло, без голограмм.
 - **Вход:** без видео предыдущей сцены (склейка, владелец 23.10) — только @Image1–@Image6.
-- В монтаж 15–25 с. Запуск — только по команде владельца.
-- **Динамика (владелец 18.10.2026):** сцена переписана активнее — резкий рывок Силой, спринт и прыжок на червя, Серёга уносится на нём как сёрфер; слово «спокойно» убрано. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
+- В монтаж из первых двух частей 15–25 с; продолжение до города — отдельный план до 15 с. Запуск — только по команде владельца.
+- **Динамика (владелец 18.10.2026):** сцена переписана активнее — резкий рывок Силой, спринт и прыжок на червя, Серёга уносится на нём как сёрфер; слово «спокойно» убрано. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 3 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
 **Референсы:**
 
@@ -3024,15 +3026,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
 - @Image6 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
 
+**Для 48.3 своя нумерация.** @Video1 — конец 48.2, @Image1 — Серёга, @Image2 — червь из сцены 16, @Image3 — только город на дальнем плане кадра 52.4.
+
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="@Image2 — Илюша"></a><figcaption>@Image2 — Илюша</figcaption></figure>
 <figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="@Image3 — Артём"></a><figcaption>@Image3 — Артём</figcaption></figure>
 <figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image4 — руины"></a><figcaption>@Image4 — руины</figcaption></figure>
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
-<figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure></div>
+<figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure>
+<figure><a href="references/scenes/scene-52/S52-P4-tatooine-approach.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-52/S52-P4-tatooine-approach.jpg" alt="Купола и башни татуинского города"></a><figcaption>48.3 · @Image3 — силуэт города справа в кадре 52.4</figcaption></figure></div>
 
-**Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет Илюшу отпрыгнуть; Артём на коленях упирается рукой в песок. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев.
+**Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет Илюшу отпрыгнуть; Артём на коленях упирается рукой в песок. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев. В 48.3 он пересекает гряду, довольно улыбается и мчится к песчаным куполам города.
 
 <div class="engine-tabs" data-scene="48">
 
@@ -3109,7 +3114,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 </div>
 
-<div class="engine-pane" data-engine="sd20x2">
+<div class="engine-pane" data-engine="sd20x2" data-duration="3 × 15 с">
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
@@ -3246,6 +3251,25 @@ worm swallowing or biting anyone, death, blood, Serega falling off the worm, sad
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 48 · Seedance 2.0 часть 3
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert adventure | The Chancellor rides the sandworm across Tatooine, delighted to see the city ahead.
+
+REFERENCES:
+@Video1 is the actual last three seconds of Part 2. Continue its last frame on motion: match the worm’s anatomy, rider’s foothold, direction of travel, sun, dust and speed.
+@Image1 fixes Serega’s face and build. He wears the same long deep-purple robe as in @Video1, dark boots, unlit hilt at his belt. The stolen map module stays concealed.
+@Image2 fixes the single colossal sandworm’s segmented hide, girth and scale. Serega remains small against its back, both boots on one broad segment and one hand gripping a raised fold.
+@Image3 supplies only the skyline on the right of the city reference: low sand-coloured domes, slender towers, rocky escarpment beyond. Exclude the aircraft and landing equipment in that photograph.
+
+0–4 s | Carry the departure forward. From the end of @Video1 the worm crests a wind-cut ridge and banks along its far shoulder. The two distant Jedi and the broken ruins slip out of frame as the camera tracks the departing rider. He is already aboard. Sand peels from the moving segments in one continuous wake.
+4–9 s | Cut on the bank to a travelling medium three-quarter view, keeping the same screen direction. His knees absorb the rise, his weight shifts toward the inside of the turn and his free arm balances him. He spots the first sunlit rooftops beyond the dune; his eyes narrow into the wind and one corner of his mouth lifts into a broad, satisfied grin. Hold his face legible through the turn as his robe streams behind him.
+9–15 s | The camera moves alongside, then rises just beyond his shoulder with the worm still driving forward. The near dune slides away fast; beyond it the same compact skyline opens up ahead and steadily grows. End in open sand outside the settlement, city ahead, rider still moving toward it. Let the last second hold a readable geography in motion for the edit.
+
+Sound: wind in cloth, a low rolling vibration and heavy sand cascading from the crest. No speech or score. No second mount, remounting, saddle, reins, lit saber, vehicles, collision, entry into the town, aerial stunt, slow motion, freeze, captions or black bars.
 ```
 
 </div>
