@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-review",
   "task": "music: new upbeat finale song",
   "acquired_at": "2026-10-30T20:37:57Z",
-  "expires_at": "2026-10-30T20:52:57Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-30T20:38:12Z",
   "rules": "ops/CANON-LOCK.md"
 }
