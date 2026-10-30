@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-30T14:12:34Z",
+  "synced_at": "2026-10-30T17:14:31Z",
   "revision_date": "27.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
   "canonical_master_sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
@@ -46,21 +46,21 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-30T10:02:41.626Z",
+    "snapshot_at": "2026-10-30T17:14:28.794Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 4.165,
+    "age_hours_at_status_build": 0.001,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
         "drive_copy_checked_at": "2026-10-30T10:02:41.626Z",
         "drive_copy_modified_at": "2026-10-30T10:02:32.665Z",
-        "github_blob": "db564861be8c6b2023969bb4bd32efa4d50eac94",
-        "mirror_sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
+        "github_blob": "7d96c6fec82d344491218260bb52181d4f986128",
+        "mirror_sha256": "7273bf67e26ccbe66a7da06cf717557e527be828cd538daa5b42e6e8a71265ce",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -128,7 +128,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 4.165,
+      "age_hours": 0.001,
       "blocking": false
     },
     "topview_task_map": {
@@ -642,7 +642,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.10.2026",
-    "synced_at": "2026-10-30T14:12:34Z",
+    "synced_at": "2026-10-30T17:14:31Z",
     "canonical_master_sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
     "canonical_revision_sha256": "39d487c22cbb87d8e6b0d7f3e83319ff1525e42e512099082cb8f3643b2a90ff",
     "scene_count": 25,
