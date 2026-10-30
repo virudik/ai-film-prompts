@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-06T11:11:21.954Z",
-      "operation": "unified_monitor_terminal_reconciliation",
-      "scene_id": 20,
-      "task_fingerprint": "scene20-part7-f77c6f5b",
-      "previous_status": "3 active Scene 20 tasks; occupied 3/6",
-      "new_status": "2 active Scene 20 tasks; occupied 2/6; free 4",
-      "source_checkpoint": "2026-10-06T11:11:21.954Z",
-      "outcome": "verified",
-      "verification": "All 11 owned boards / 529 VIDEO tasks / 14 pages checked; all prior active IDs directly refreshed. Part 7 terminal success; parts 8–9 init; no unknown recent AI Film task. Canonical slow Scene 20 retained; no editorial fields changed."
-    },
-    {
       "timestamp": "2026-10-06T12:04:33.991Z",
       "operation": "unified_monitor_full_refresh",
       "scene_id": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-30T12:50:23Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-30T13:40:22Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-30T13:40:22Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 70,
+  "archived_event_count": 71,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
