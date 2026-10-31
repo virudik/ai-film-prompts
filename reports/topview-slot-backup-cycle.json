@@ -8,11 +8,11 @@
   "source_head": "a6194bf029660ec2e642e4caeca5d21baab19e72",
   "route_generation": 2,
   "started_at": "2026-10-31T23:02:39.285097Z",
-  "checked_at": "2026-10-31T23:09:30.479Z",
-  "phase": "started",
+  "checked_at": "2026-10-31T23:10:42.524Z",
+  "phase": "finished",
   "scan_complete": true,
-  "scan_source": "Authenticated Topview read-only connector (actual current run)",
-  "scan_scope": "14 owned boards; 17 nonempty data pages; 952 tasks / 624 videos",
+  "scan_source": "Topview authenticated read-only connector; current direct API board/task cards; complete across all owner boards",
+  "scan_scope": "14 owned boards; all 17 nonempty task pages (10 secondary, 7 My First Board); 3 zero-task boards; 952 tasks total, 624 videos",
   "occupied_slots": 6,
   "free_slots": 0,
   "active_task_ids": [
@@ -25,9 +25,9 @@
   ],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "scan_complete_receipt_in_progress",
+  "outcome": "no_free_slot",
   "new_submissions": 0,
-  "browser_transport": "none; no metered TinyFish while confirmed 6/6",
+  "browser_transport": "none; no metered TinyFish at confirmed 6/6",
   "tinyfish_runs": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_spend_usd": 0,
@@ -37,5 +37,75 @@
     "holder": "chatgpt:ordinary:64e7bfb0-85b1-4a88-ae92-2d68c5d9964f",
     "acquired_at": "2026-10-31T23:09:30Z",
     "expires_at": "2026-10-31T23:27:30Z"
+  },
+  "board_count": 14,
+  "pages_requested": 17,
+  "pages_successful": 17,
+  "total_tasks_observed": 952,
+  "total_tasks_expected": 952,
+  "video_tasks_observed": 624,
+  "video_tasks_expected": 624,
+  "scan_errors": [],
+  "alina_board_rechecked": {
+    "board_id": "24a69085fab4497b9c1a52536252b63d",
+    "page": 1,
+    "status_code": "200",
+    "total": 20,
+    "previous_error": "5003 Board not found",
+    "outcome": "resolved_in_this_run"
+  },
+  "capacity_basis": "Six distinct active init video task cards on My First Board, all Unlimited=true and Topview creditsCost=0; account-wide 17-page scan showed no other active video tasks.",
+  "blocker": null,
+  "retryable": false,
+  "queue": {
+    "blob_sha": "772f7936c3fdb493793818167253fe68863695c9",
+    "readiness_blob_sha": "a285957ced3b1c59ebfd915104630455bfc27ebd",
+    "source_queue_sha256": "68f8cdf88b8e1acb4ad8d1c9ed871441cabcf4e47c59002ae7d1be7aea3cbf68",
+    "queue_sha_match": true,
+    "items": 65,
+    "unresolved_claims": 0,
+    "next_ready": [
+      "S71-WAN30",
+      "S48-SEED20-P2",
+      "S56-SEED20-P2"
+    ]
+  },
+  "bot_wake_status": {
+    "last_robot_shadow_at": "2026-10-31T23:00:18Z",
+    "launcher_health_checked_at": "2026-10-31T22:50:22Z",
+    "launcher_health": "capacity_full",
+    "last_event": "slots:d23cf217:3",
+    "is_historical": true,
+    "confirmed_launch_task_ids": []
+  },
+  "relay_last_run": {
+    "id": "96e8eca6-6958-832b-891c-040da1511391",
+    "status": "no_update",
+    "latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+    "matches": false
+  },
+  "hourly_last_run": {
+    "id": "919684f0-f350-832c-9346-f9613766f71a",
+    "status": "no_update",
+    "latest_result_run_id": null,
+    "matches": false
+  },
+  "browser_capability_probe": {
+    "attempted": false,
+    "reason": "No free slot; protocol forbids metered TinyFish at six occupied slots. Historical saved profile UI clicks do not verify production import, Unlimited0 or Create.",
+    "production_create_verified": false
+  },
+  "credits_spent": 0,
+  "acceptance": {
+    "current_hourly_runtime_observed": true,
+    "authenticated_gui_file_import_unlimited0_verified_in_this_run": false,
+    "task_create_verified_in_this_run": false,
+    "saved_tinyfish_login_from_historical_test": true,
+    "production_browser_execution_verified": false
+  },
+  "owner_decisions": {
+    "open_owner_tasks": 0,
+    "work_limit_reported": true,
+    "work_restored_verified": false
   }
 }
