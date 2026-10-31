@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-31T23:38:19Z",
+  "checked_at": "2026-10-31T23:42:53Z",
   "status": "warn",
   "warnings": 1,
   "info": 3,
@@ -9,7 +9,7 @@
     {
       "level": "warn",
       "code": "handoff-size",
-      "text": "Хендоф 35 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
+      "text": "Хендоф 36 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
       "file": "NEW-CHAT-HANDOFF.md"
     },
     {
