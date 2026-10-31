@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:e17d73bd-69cf-4c0d-b4c4-dfc43c7a0362",
-  "task": "Automated ordinary-primary Topview capacity audit; no Create at confirmed 6/6; save actual scheduled receipt",
+  "task": "Ordinary scheduled audit finished: live Topview 6/6, no Create; browser GUI context missing",
   "acquired_at": "2026-10-31T17:07:42Z",
-  "expires_at": "2026-10-31T17:17:42Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T17:09:08.003Z",
   "rules": "ops/CANON-LOCK.md"
 }
