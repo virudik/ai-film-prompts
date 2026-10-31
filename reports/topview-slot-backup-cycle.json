@@ -9,7 +9,7 @@
   "source_head": "2f495aa6cccbad6e9d6babc0bbe90b98753d1e5d",
   "started_at": "2026-10-31T19:58:36.514958Z",
   "checked_at": "2026-10-31T20:00:50.623Z",
-  "phase": "verification",
+  "phase": "finished",
   "scan_complete": true,
   "scan_source": "Topview authenticated connector, read-only full pagination of every board including image/video tasks; six direct video task detail reads",
   "scan_scope": "14 boards; 17 pages (each response capped at 100); 952 unique board tasks, 624 video tasks; zero errors or pagination drifts",
@@ -29,7 +29,7 @@
   ],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "pending_finalization",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "claims_changed": 0,
@@ -64,5 +64,58 @@
     "run_id": "d946cf68-e650-8330-9a2a-e6b5e1837ed7",
     "finalized_at": "2026-10-31T19:07:07.858Z"
   },
-  "updated_at": "2026-10-31T20:03:17.639Z"
+  "updated_at": "2026-10-31T20:04:48.141Z",
+  "finalized_at": "2026-10-31T20:04:48.141Z",
+  "bot_wake_status": {
+    "latest_known_bot_issue_ids": [
+      189,
+      191
+    ],
+    "historic_slot_event": true,
+    "current_live_capacity_verified": "6/6 at 2026-10-31T20:00:50.623Z; no pending new capacity",
+    "last_robot_cycle": "2026-10-31T19:40:28Z",
+    "last_robot_result": "ok; 6/6 occupied; no completion"
+  },
+  "relay_last_run": {
+    "id": "96e8eca6-6958-832b-891c-040da1511391",
+    "status": "no_update",
+    "latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+    "matches": false,
+    "latest_result_is_historical": true,
+    "last_confirmed_event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
+    "last_confirmed_event_at": "2026-10-30T15:30:22Z"
+  },
+  "hourly_last_run": {
+    "id": "fc6cec32-c934-8331-9cc7-1f276180f893",
+    "status": "no_update",
+    "latest_result_run_id": null,
+    "matches": false,
+    "run_started_at": "2026-10-31T19:56:41.842717Z",
+    "separate_receipt": "reports/topview-launcher-cycle.json not found at read time"
+  },
+  "readiness_consistency": {
+    "queue_blob_sha": "96f70e7eeab44f9764a0ffb86c5a94ec36ab6961",
+    "actual_sha256_recomputed_this_run": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+    "readiness_source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+    "queue_sha_match": true,
+    "ready_items_reported": 31,
+    "readiness_checked_at": "2026-10-31T19:40:29.784555Z"
+  },
+  "claims_status": {
+    "unresolved_claimed_submitting_or_unknown_in_live_items": 0,
+    "submitted_items": 11,
+    "active_video_tasks_reconciled": 6,
+    "new_claims": 0
+  },
+  "technical_acceptance": {
+    "ordinary_scheduled_run_under_owner_reported_work_limit": true,
+    "interactive_saved_tinyfish_session_and_reversible_controls_previously_verified": true,
+    "scheduled_tinyfish_run_verified": false,
+    "actual_reference_transfer_verified": false,
+    "unlimited_zero_and_16x9_verified": false,
+    "needed_free_Create_and_task_id_verified": false,
+    "quota_isolation_verified": false
+  },
+  "receipt_note": "Complete Topview live scan with all six real video slots still occupied; no free Create and no TinyFish wallet use. Missing Work HH:55 standalone receipt is diagnostic only; no change to Work. Prepared queue remains unchanged; the TinyFish production route is not yet end-to-end accepted.",
+  "next_action": "Next scheduled cycle: fresh role/lock/queue and full read-only scan, reconcile all six task IDs. If physical free slot and ready owner-authorized item exist, use exact CAS claim and bounded TinyFish website preflight; require visible Unlimited0/16:9 and real refs before any single Create. Do not spend when 6/6."
 }
