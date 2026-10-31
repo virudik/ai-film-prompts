@@ -4,8 +4,8 @@
   "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
   "record_type": "configuration_and_code_verification_not_runtime_receipt",
   "request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T16:58:22Z",
-  "stage": "code_and_documents_validated",
+  "updated_at": "2026-10-31T17:00:54Z",
+  "stage": "code_documents_and_live_automation_settings_verified_GUI_acceptance_pending",
   "preferred_executor": "ordinary",
   "work_capacity_source": "owner_reported_exhausted",
   "independent_wake": true,
@@ -40,18 +40,41 @@
   "prior_runtime_evidence": "reports/topview-slot-backup-cycle.json",
   "browser_create_verified": false,
   "quota_isolation_verified": false,
+  "validation": ["cert_github.py", "unittest discover -s tests: 388 tests passed", "validate_site.py", "check_instruction_consistency.py", "fresh readback: route_generation=2, preferred_executor=ordinary, both peers enabled"],
+  "github_run_id": 41222154902,
+  "github_run_url": "https://github.com/virudik/ai-film-prompts/actions/runs/41222154902",
+  "github_job_id": 124598792179,
+  "github_job_conclusion": "success",
+  "publication_recovery": {
+    "failed_attempts": [41221310320, 41221614984],
+    "causes": ["Preserved legacy CRLF was rejected by default whitespace check; CRLF-aware validation retains detection of true trailing spaces.", "GITHUB_TOKEN cannot modify workflow files; exact integration test edit was published through the authorized GitHub connector. No token permission expansion."],
+    "successful_retry": 41222154902,
+    "bootstrap_commit": "a179956e318fc2dd8ef48e79f950f874dca1baf4",
+    "integration_workflow_commit": "ad0730a831e348c1a8c71c0eecc47af0db0b4ea6"
+  },
+  "live_automations_readback": {
+    "checked_at": "2026-10-31T17:00:54Z",
+    "scope": "Full prompts and schedules read back through Automations.peek; semantic coordination and preserved phases reviewed. No platform mode/quota API was available.",
+    "ordinary": {"id":"6ae5e9d563f88191aa6da7c9ba1e05a0","title":"AI Film — слоты обычным ChatGPT","enabled":true,"schedule":"BEGIN:VEVENT\nDTSTART:20261031T180000\nRRULE:FREQ=HOURLY;INTERVAL=2\nEND:VEVENT","default_timezone":"Europe/Moscow","conversation_id":"6ae605c7-cb60-83ed-88ab-cdac32a3b684","unique_holder":"chatgpt:ordinary:<UUID>","no_work_handoff":true},
+    "hourly": {"id":"6acae6ab433481919e88665c520b8ef2","enabled":true,"schedule":"BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT","default_timezone":"Europe/Moscow","conversation_id":"6acae851-4f7c-83ed-a459-e371ce64a39f","unique_holder":"chatgpt:work:<UUID>","maintenance_phases_retained":true},
+    "relay": {"id":"6adc585e7ac08191bb93825117dc7213","enabled":true,"schedule":"BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT","conversation_id":"6adbf0f6-c40c-83eb-8d3a-8b2199600096","unique_holder":"chatgpt:work:<UUID>","trusted_event_test_dedup_and_general_reply_branches_retained":true,"subscription_not_modified":true,"subscription_current_delivery_verification":"not_checked_in_this_audit"},
+    "new_automations_created": 0
+  },
+  "ordinary_execution_after_owner_report_before_final_policy_publication": {
+    "run_id": "836b491b-777c-832e-9047-f02abdde4a4d",
+    "started_at": "2026-10-31T16:48:35.354302Z",
+    "completed_at": "2026-10-31T16:52:32.220545Z",
+    "recorded_status": "completed",
+    "latest_result_run_id_matches": true,
+    "reported_observation": "14 boards, 18 pages, 624 videos, six directly confirmed active Unlimited0 tasks; no new Create. Refused to bypass foreign lease and incomplete role installation.",
+    "github_receipt_outcome": "receipt_not_saved_due_to_foreign_active_lease; not fabricated here",
+    "browser_probe": "originating_browser_context_required",
+    "meaning": "A real scheduled task executed after the owner reported exhausted Work. This does not independently verify platform quota isolation or GUI submission."
+  },
   "remaining": [
-    "verify actual three automation prompts/readback",
-    "new ordinary runtime after owner quota report",
-    "authorized GUI control/import and necessary zero-credit Create",
-    "verified Work recovery before return of preference"
-  ],
-  "validation": [
-    "cert_github.py",
-    "unittest discover -s tests",
-    "validate_site.py",
-    "check_instruction_consistency.py"
-  ],
-  "github_run_id": null,
-  "github_run_url": null
+    "Observe a real ordinary runtime against the completed generation-2 role installation and its own durable receipt.",
+    "Authorized GUI control/import and necessary zero-credit Create remain unverified; do not create an unnecessary video when all slots are full.",
+    "Platform Work quota and independent usage bucket are not exposed by available APIs; no claim of full quota-independent acceptance.",
+    "Restore Work preference only after fresh verified recovery, while preserving the ordinary peer schedule."
+  ]
 }
