@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:interactive:d183d019-115d-451a-aa5d-218bd4e1471e",
   "task": "Owner: match S48.2 to real S48.1 ending; worm visible at distance; no generation",
   "acquired_at": "2026-10-31T22:11:12Z",
-  "expires_at": "2026-10-31T22:41:12Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T22:11:18Z",
   "rules": "ops/CANON-LOCK.md"
 }
