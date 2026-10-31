@@ -2,19 +2,20 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "259bc97c-482b-46f4-8db2-7d0e909a8900",
-  "run_id": "d946cf68-e650-8330-9a2a-e6b5e1837ed7",
-  "run_id_source": "Automations.peek current last_run.id status=in_progress, scheduled_for=2026-10-31T19:00:00Z",
+  "execution_instance_id": "a2fe8418-8be3-4700-abd1-94020e458bd1",
+  "run_id": "f5d97feb-e754-8329-ad82-7a8c89da7b59",
+  "run_id_source": "Automations.peek last_run.id matches the actual in_progress run scheduled 2026-10-31T20:00:00Z and started 2026-10-31T19:58:36.514958Z; latest_result.run_id still older",
   "route_generation": 2,
-  "source_head": "c5491e35de5d8afa340171cc485e4059c7ac8dfe",
-  "started_at": "2026-10-31T19:02:44.828686Z",
-  "checked_at": "2026-10-31T19:06:11.901Z",
-  "phase": "finished",
+  "source_head": "2f495aa6cccbad6e9d6babc0bbe90b98753d1e5d",
+  "started_at": "2026-10-31T19:58:36.514958Z",
+  "checked_at": "2026-10-31T20:00:50.623Z",
+  "phase": "verification",
   "scan_complete": true,
-  "scan_source": "Topview connector read-only; complete pageNo pagination on 14 boards and mediaType=video; all 18 pages; 5 direct task detail reads success + one Task not found; board listing authoritative for physical slot conservation",
-  "scan_scope": "14 boards, 18 pages, 624 distinct videos; no page errors",
+  "scan_source": "Topview authenticated connector, read-only full pagination of every board including image/video tasks; six direct video task detail reads",
+  "scan_scope": "14 boards; 17 pages (each response capped at 100); 952 unique board tasks, 624 video tasks; zero errors or pagination drifts",
   "board_count": 14,
-  "video_pages": 18,
+  "pages": 17,
+  "total_tasks": 952,
   "video_tasks": 624,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -23,78 +24,45 @@
     "c72c1ab4524e4f2f9d3a0272474f788a",
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e",
-    "b0915b04173c414e9eadec886276e62471",
+    "b0915b04173c414e9ac08652d34b7852",
     "c65c30d8cbe14e9eadec886276e62471"
   ],
-  "task_detail_note": "The fifth listed task b0915b04173c414e9eadec886276e62471 returned 5003 Task not found on direct detail lookup; board listing and current robot telemetry still show init; do not treat it as free slot.",
   "selected_item": null,
   "task_ids": [],
-  "outcome": "no_free_slot",
+  "outcome": "pending_finalization",
+  "blocker": null,
+  "retryable": false,
+  "claims_changed": 0,
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "tinyfish_runs": 0,
+  "browser_transport": "none; no TinyFish browser run when globally 6/6",
   "browser_capability_probe": {
-    "attempted": true,
-    "path": "mcp__Browser__list_tabs",
-    "mode": "read_only",
-    "attempt_count": 2,
-    "website_ui_verified": false,
-    "controls_verified": false,
-    "import_verified": false,
-    "error": "UNKNOWN: Error code: UNKNOWN; Error: RuntimeException: Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
-    "classification": "blocked_browser_originating_context_missing"
+    "attempted": false,
+    "reason": "The updated fallback rules prohibit metered TinyFish probing at full capacity; authenticated Topview connector read-only scan succeeded, not a website GUI test.",
+    "production_create_verified": false
   },
   "quota_isolation_verified": false,
   "work_limit_owner_reported": true,
-  "readiness_consistency": {
-    "readiness_checked_at": "2026-10-31T18:50:20Z",
-    "ready_items": 31,
-    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
-    "source_task_map_sha256": "1e06fc18d0f64f20106a4eda4bc0386cd997fc8b484f8fd6db5f7e37a40ca7f4",
-    "actual_sha256_recomputed_this_run": false
-  },
-  "relay_last_run": {
-    "id": "96e8eca6-6958-832b-891c-040da1511391",
-    "status": "no_update",
-    "latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
-    "matches": false
-  },
-  "hourly_last_run": {
-    "id": "e2ded57f-49ec-8326-982d-bfa69366ac91",
-    "status": "no_update",
-    "latest_result_run_id": null
-  },
   "robot_telemetry": {
-    "checked_at": "2026-10-31T18:50:20Z",
+    "checked_at": "2026-10-31T19:40:24Z",
     "occupied_slots": 6,
     "free_slots": 0,
-    "health": "ok"
+    "source": "GitHub main topview-status.json"
   },
-  "last_confirmed_relay_event": {
-    "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
-    "observed_at": "2026-10-30T15:30:22Z",
-    "checked_at": "2026-10-30T15:38:54.173Z",
-    "task_ids": [
-      "c72c1ab4524e4f2f9d3a0272474f788a"
-    ]
+  "queue": {
+    "blob_sha": "96f70e7eeab44f9764a0ffb86c5a94ec36ab6961",
+    "updated_at": "2026-10-31T11:13:46Z",
+    "items": 65
   },
   "lease": {
-    "holder": "chatgpt:ordinary:259bc97c-482b-46f4-8db2-7d0e909a8900",
-    "acquired_at": "2026-10-31T19:05:39.327Z",
-    "expires_at": "2026-10-31T19:13:39.327Z"
+    "holder": "chatgpt:ordinary:a2fe8418-8be3-4700-abd1-94020e458bd1",
+    "acquired_at": "2026-10-31T20:02:44Z",
+    "expires_at": "2026-10-31T20:11:44Z"
   },
-  "new_submissions": 0,
-  "claims_changed": 0,
-  "credits_spent": 0,
-  "updated_at": "2026-10-31T19:07:07.858Z",
-  "technical_acceptance": {
-    "ordinary_scheduled_run_under_owner_reported_work_limit": true,
-    "authorized_browser_GUI_and_import_verified": false,
-    "needed_free_Create_and_task_id_verified": false,
-    "quota_isolation_verified": false
+  "previous_receipt": {
+    "run_id": "d946cf68-e650-8330-9a2a-e6b5e1837ed7",
+    "finalized_at": "2026-10-31T19:07:07.858Z"
   },
-  "next_action": "Next ordinary hourly run: fresh role/lock/queue/claims; full all-board scan; at 6/6 no Create. Browser UI must be rechecked. No paid TinyFish or bypass.",
-  "blocker": null,
-  "finalized_at": "2026-10-31T19:07:07.858Z",
-  "receipt_note": "Actual post-schedule hourly runtime verified; original 6/6 board scan prevents Create; one task detail returned 5003, but board listing shows task active; browser GUI unavailable; no spend.",
-  "checkpoint_updated": "reports/current-work-checkpoint.md",
-  "route_register_updated": "ops/slot-backup.json:schedule_change.runtime_after_change_verified",
-  "retryable": false
+  "updated_at": "2026-10-31T20:03:17.639Z"
 }
