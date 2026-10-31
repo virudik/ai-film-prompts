@@ -98,7 +98,8 @@
       "result:b15165813c0848939edbe8b3d3aed182",
       "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
       "result:16d53ab1a84e4091b8867b7ed5cc8f4c",
-      "result:4a1061e175054da2810ffef8ad9d31cd"
+      "result:4a1061e175054da2810ffef8ad9d31cd",
+      "result:8d7ff1e2de63478693778de29e0dd56e"
     ],
     "robot_wake_keys": [
       "result:56e5e07c85df4af583c62665c51ed563",
@@ -111,19 +112,20 @@
       "result:b15165813c0848939edbe8b3d3aed182",
       "result:4dc7da2c6bff41b3a8161a6cc427aaa7",
       "result:16d53ab1a84e4091b8867b7ed5cc8f4c",
-      "result:4a1061e175054da2810ffef8ad9d31cd"
+      "result:4a1061e175054da2810ffef8ad9d31cd",
+      "result:8d7ff1e2de63478693778de29e0dd56e"
     ],
     "robot_rewake": {
-      "episode": "a1963e74",
+      "episode": "d23cf217",
       "count": 0,
-      "last_at": "2026-10-30T15:30:27Z",
-      "last_event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
+      "last_at": "2026-10-31T05:28:32Z",
+      "last_event_id": "result:8d7ff1e2de63478693778de29e0dd56e",
       "silence_reported": "slots:8234d044:2"
     }
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-10-31T05:20:21Z",
+      "checked_at": "2026-10-31T05:28:28Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -141,8 +143,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-31T05:20:26Z",
-    "completed_at": "2026-10-31T05:20:26Z",
+    "started_at": "2026-10-31T05:28:32Z",
+    "completed_at": "2026-10-31T05:28:32Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -154,7 +156,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -213,8 +215,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-31T05:20:26Z",
-  "last_successful_cycle_at": "2026-10-31T05:20:26Z",
+  "last_completed_cycle_at": "2026-10-31T05:28:32Z",
+  "last_successful_cycle_at": "2026-10-31T05:28:32Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -229,13 +231,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-31T05:20:26Z"
+    "robot": "2026-10-31T05:28:32Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-31T05:20:26Z"
+    "robot": "2026-10-31T05:28:32Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
