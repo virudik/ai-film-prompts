@@ -2,17 +2,17 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "a2fe8418-8be3-4700-abd1-94020e458bd1",
-  "run_id": "f5d97feb-e754-8329-ad82-7a8c89da7b59",
-  "run_id_source": "Automations.peek last_run.id matches the actual in_progress run scheduled 2026-10-31T20:00:00Z and started 2026-10-31T19:58:36.514958Z; latest_result.run_id still older",
+  "execution_instance_id": "f7fccde5-db25-4060-b5ec-0dc3979ff777",
+  "run_id": "844d6c98-1a68-8320-b6e0-b54a3b5090c8",
+  "run_id_source": "Automations.peek last_run.id for scheduled 2026-10-31T21:00:00Z started 2026-10-31T21:02:38.436371Z (matches this running task; prior latest_result different)",
+  "source_head": "6593384bd71b30932cac46bacdf590b26748b270",
   "route_generation": 2,
-  "source_head": "2f495aa6cccbad6e9d6babc0bbe90b98753d1e5d",
-  "started_at": "2026-10-31T19:58:36.514958Z",
-  "checked_at": "2026-10-31T20:00:50.623Z",
-  "phase": "finished",
+  "started_at": "2026-10-31T21:02:38.436371Z",
+  "checked_at": "2026-10-31T21:05:49.034Z",
+  "phase": "started",
   "scan_complete": true,
-  "scan_source": "Topview authenticated connector, read-only full pagination of every board including image/video tasks; six direct video task detail reads",
-  "scan_scope": "14 boards; 17 pages (each response capped at 100); 952 unique board tasks, 624 video tasks; zero errors or pagination drifts",
+  "scan_source": "Authenticated read-only Topview connector: all boards and every page; GitHub main corroboration",
+  "scan_scope": "14 boards; 17 nonempty board pages (14 first-page reads including empty boards plus 6 further My First Board pages); 952 unique tasks; 624 video tasks",
   "board_count": 14,
   "pages": 17,
   "total_tasks": 952,
@@ -36,76 +36,46 @@
   "new_submissions": 0,
   "credits_spent": 0,
   "tinyfish_runs": 0,
-  "browser_transport": "none; no TinyFish browser run when globally 6/6",
+  "browser_transport": "none; TinyFish not opened at global 6/6",
   "browser_capability_probe": {
     "attempted": false,
-    "reason": "The updated fallback rules prohibit metered TinyFish probing at full capacity; authenticated Topview connector read-only scan succeeded, not a website GUI test.",
+    "reason": "At full physical capacity no metered TinyFish UI visit is authorized; historical saved profile sign-in and reversible clicks do not prove file upload or Create.",
     "production_create_verified": false
   },
   "quota_isolation_verified": false,
   "work_limit_owner_reported": true,
-  "robot_telemetry": {
-    "checked_at": "2026-10-31T19:40:24Z",
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "source": "GitHub main topview-status.json"
-  },
   "queue": {
     "blob_sha": "96f70e7eeab44f9764a0ffb86c5a94ec36ab6961",
-    "updated_at": "2026-10-31T11:13:46Z",
-    "items": 65
+    "items": 65,
+    "readiness_sha": "b5b4f33e1088e7239a243f72d815c594cf77598e",
+    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+    "queue_sha_match": true,
+    "unresolved_claims": 0,
+    "ready_count": 31
   },
-  "lease": {
-    "holder": "chatgpt:ordinary:a2fe8418-8be3-4700-abd1-94020e458bd1",
-    "acquired_at": "2026-10-31T20:02:44Z",
-    "expires_at": "2026-10-31T20:11:44Z"
-  },
-  "previous_receipt": {
-    "run_id": "d946cf68-e650-8330-9a2a-e6b5e1837ed7",
-    "finalized_at": "2026-10-31T19:07:07.858Z"
-  },
-  "updated_at": "2026-10-31T20:04:48.141Z",
-  "finalized_at": "2026-10-31T20:04:48.141Z",
   "bot_wake_status": {
-    "latest_known_bot_issue_ids": [
-      189,
-      191
-    ],
-    "historic_slot_event": true,
-    "current_live_capacity_verified": "6/6 at 2026-10-31T20:00:50.623Z; no pending new capacity",
-    "last_robot_cycle": "2026-10-31T19:40:28Z",
-    "last_robot_result": "ok; 6/6 occupied; no completion"
+    "bot_issue": 191,
+    "bot_issue_historical": true,
+    "relay_event_log_last_updated": "2026-10-29T23:22:31.873Z",
+    "last_robot_scan": "2026-10-31T20:40:21Z",
+    "active_capacity_from_live_scan": 6
   },
   "relay_last_run": {
     "id": "96e8eca6-6958-832b-891c-040da1511391",
     "status": "no_update",
     "latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
-    "matches": false,
-    "latest_result_is_historical": true,
-    "last_confirmed_event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
-    "last_confirmed_event_at": "2026-10-30T15:30:22Z"
+    "matches": false
   },
   "hourly_last_run": {
-    "id": "fc6cec32-c934-8331-9cc7-1f276180f893",
+    "id": "56362b4d-bff4-832a-a060-189f87b395bf",
     "status": "no_update",
     "latest_result_run_id": null,
-    "matches": false,
-    "run_started_at": "2026-10-31T19:56:41.842717Z",
-    "separate_receipt": "reports/topview-launcher-cycle.json not found at read time"
+    "matches": false
   },
-  "readiness_consistency": {
-    "queue_blob_sha": "96f70e7eeab44f9764a0ffb86c5a94ec36ab6961",
-    "actual_sha256_recomputed_this_run": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
-    "readiness_source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
-    "queue_sha_match": true,
-    "ready_items_reported": 31,
-    "readiness_checked_at": "2026-10-31T19:40:29.784555Z"
-  },
-  "claims_status": {
-    "unresolved_claimed_submitting_or_unknown_in_live_items": 0,
-    "submitted_items": 11,
-    "active_video_tasks_reconciled": 6,
-    "new_claims": 0
+  "lease": {
+    "holder": "chatgpt:ordinary:f7fccde5-db25-4060-b5ec-0dc3979ff777",
+    "acquired_at": "2026-10-31T21:06:49.429Z",
+    "expires_at": "2026-10-31T21:14:49.429Z"
   },
   "technical_acceptance": {
     "ordinary_scheduled_run_under_owner_reported_work_limit": true,
@@ -116,6 +86,5 @@
     "needed_free_Create_and_task_id_verified": false,
     "quota_isolation_verified": false
   },
-  "receipt_note": "Complete Topview live scan with all six real video slots still occupied; no free Create and no TinyFish wallet use. Missing Work HH:55 standalone receipt is diagnostic only; no change to Work. Prepared queue remains unchanged; the TinyFish production route is not yet end-to-end accepted.",
-  "next_action": "Next scheduled cycle: fresh role/lock/queue and full read-only scan, reconcile all six task IDs. If physical free slot and ready owner-authorized item exist, use exact CAS claim and bounded TinyFish website preflight; require visible Unlimited0/16:9 and real refs before any single Create. Do not spend when 6/6."
+  "updated_at": "2026-10-31T21:07:33.583Z"
 }
