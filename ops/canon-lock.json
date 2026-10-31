@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:interactive:242f6d58-045f-4d2c-8580-28350fbc505e",
-  "task": "Owner: finalize S48.2 continuity input/readiness and priority immediately after Vitalik scenes; verify website; no video at full slots",
-  "acquired_at": "2026-10-31T22:35:22Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T22:41:51Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:64e7bfb0-85b1-4a88-ae92-2d68c5d9964f",
+  "task": "AI Film Serёgius ordinary HH:00 current scan 6/6, save real receipt; no Create/TinyFish",
+  "acquired_at": "2026-10-31T23:09:30Z",
+  "expires_at": "2026-10-31T23:27:30Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
