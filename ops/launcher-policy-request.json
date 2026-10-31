@@ -5,5 +5,6 @@
   "expected_route_generation": 1,
   "interactive_session_id": "ordinary-chat-0c7545a5-205e-45ca-8e4b-db211ebc32b3",
   "lease_holder": "chatgpt:ordinary:0c7545a5-205e-45ca-8e4b-db211ebc32b3",
-  "lease_acquired_at": "2026-10-31T16:39:49Z"
+  "lease_acquired_at": "2026-10-31T16:49:08Z",
+  "retry_reason": "First run passed 388 tests and validators; default git whitespace check misread preserved CRLF. CRLF-aware check verified to reject actual trailing spaces."
 }
