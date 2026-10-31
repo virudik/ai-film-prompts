@@ -10,13 +10,14 @@
   "relay_address": "chatgpt-slot-backup@cloud-242278071146024960",
   "relay_subscription_required": false,
   "event_failover_enabled": false,
-  "schedule": "BEGIN:VEVENT\nDTSTART:20261031T180000\nRRULE:FREQ=HOURLY;INTERVAL=2\nEND:VEVENT",
+  "schedule": "BEGIN:VEVENT\nDTSTART:20261031T181310Z\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+  "timing_mode": "exact_schedule",
   "timezone": "Europe/Moscow",
   "requested_execution_surface": "ordinary ChatGPT scheduled task; do not delegate or hand off to Work/Codex",
   "work_handoff_allowed": false,
   "quota_isolation_verified": false,
   "browser_launch_verified_for_this_backup": false,
-  "owner_decision": "31.10.2026: обычный ChatGPT основной пока лимит Work исчерпан; Work резерв. Оба независимо проверяют общую очередь/claims и подстраховывают друг друга. После доказанного восстановления вернуть Work предпочтение. Продолжай передаёт интерактивную ответственность сменщику.",
+  "owner_decision": "31.10.2026: обычный ChatGPT основной пока лимит Work исчерпан; Work резерв. Оба независимо проверяют общую очередь/claims и подстраховывают друг друга. После доказанного восстановления вернуть Work предпочтение. Продолжай передаёт интерактивную ответственность сменщику. Новая прямая команда 31.10: обычный исполнитель каждый час в начале часа (:00), вместо прежних двух часов; существующий Work HH:55 и робот не изменены.",
   "primary_automation_ids": ["6ae5e9d563f88191aa6da7c9ba1e05a0"],
   "rules": ["ops/LAUNCHER-COORDINATION.md", "ops/CANON-LOCK.md", "ops/TOPVIEW-FREE-LAUNCH.md", "ops/TOPVIEW-RETRY.md", "ops/TOPVIEW-EVENT-WAKE.md"],
   "receipt_path": "reports/topview-slot-backup-cycle.json",
@@ -50,14 +51,15 @@
   "known_limits": [
     "The available Automations API does not expose or set the execution mode, model, billing bucket or quota isolation. A prompt cannot prove isolation from Work limits.",
     "Current interactive Browser.list_tabs returned originating_browser_context_required; this does not invalidate the verified historical S72 website launch at 2026-10-31T11:08:48Z.",
-    "Ten-minute addressed failover to the ordinary chat is not enabled; ordinary execution uses the existing independent two-hour scheduled route."
+    "Ten-minute addressed failover to the ordinary chat is not enabled; ordinary execution now uses the existing independent hourly :00 scheduled route and polls unfulfilled robot demand from GitHub without waiting for Work.",
+    "TinyFish is connected but its checked Default profile has no saved Topview sign-in. No metered browser run or payment was authorized or performed in this schedule update."
   ],
   "registered_at": "2026-10-31T16:13:37Z",
   "registered_by": "chatgpt:slot-backup-activation:ae2efe6b-4866-4042-a399-5197de343821",
   "role_history": [{"at":"2026-10-31T16:57:52Z","previous_preferred_executor":"work","previous_route_generation":1,"previous_active_automation_id":"6ae5e9d563f88191aa6da7c9ba1e05a0","reason":"direct owner report: Work quota exhausted; ordinary ChatGPT primary"}],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T16:59:22Z",
+  "updated_at": "2026-10-31T18:22:12Z",
   "reserve_automation_ids": ["6adc585e7ac08191bb93825117dc7213","6acae6ab433481919e88665c520b8ef2"],
   "coordination_rules": "ops/LAUNCHER-COORDINATION.md",
   "coordination_guard": "scripts/launcher_coordination.py",
@@ -71,6 +73,20 @@
     "work": {"enabled":true,"automation_ids":["6adc585e7ac08191bb93825117dc7213","6acae6ab433481919e88665c520b8ef2"],"receipts":["reports/topview-event-wake.json","reports/topview-launcher-cycle.json"]}
   },
   "foreground_owners": {
-    "ordinary": {"session_id":"ordinary-chat-0c7545a5-205e-45ca-8e4b-db211ebc32b3","epoch":1,"conversation_id":null,"conversation_id_unavailable_reason":"not_exposed_in_current_interactive_tools","accepted_at":"2026-10-31T16:57:52Z","source":"direct_owner_role_transfer","work_id":"TOPVIEW-SLOT-PRIORITY-20261024"}
+    "ordinary": {"session_id":"ordinary-chat-08b0cdae-0e40-4db7-a507-501c89be7609","epoch":2,"conversation_id":null,"conversation_id_unavailable_reason":"not_exposed_in_current_interactive_tools","accepted_at":"2026-10-31T18:22:12Z","source":"direct_owner_continue_current_task_and_hourly_schedule_request","work_id":"TOPVIEW-SLOT-PRIORITY-20261024"}
+  },
+  "foreground_owner_history": [
+    {"surface":"ordinary","session_id":"ordinary-chat-0c7545a5-205e-45ca-8e4b-db211ebc32b3","epoch":1,"conversation_id":null,"conversation_id_unavailable_reason":"not_exposed_in_current_interactive_tools","accepted_at":"2026-10-31T16:57:52Z","source":"direct_owner_role_transfer","work_id":"TOPVIEW-SLOT-PRIORITY-20261024"}
+  ],
+  "schedule_change": {
+    "owner_request_id": "owner-20261031-ordinary-hourly-zero",
+    "owner_quote": "Давай тоже раз в час, но в начале часа а не в конце как проверка ворка",
+    "previous_schedule": "BEGIN:VEVENT\nDTSTART:20261031T180000\nRRULE:FREQ=HOURLY;INTERVAL=2\nEND:VEVENT",
+    "automation_updated_at": "2026-10-31T18:13:11.842316+00:00",
+    "readback": "Automations.peek verified hourly interval1/minute0/second0, exact_schedule, enabled=true, same task ID and conversation_id.",
+    "effective_cadence": "hourly HH:00 Europe/Moscow",
+    "receipt": "reports/ordinary-hourly-2026-10-31.json",
+    "runtime_after_change_verified": false,
+    "documentation_note": "This later direct owner schedule setting supersedes older two-hour cadence wording; authorization, queue, lease and claim rules are unchanged."
   }
 }
