@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:slot-failover-20261031-1756",
-  "task": "Implement primary-to-ordinary-chat failover, recipient alias and unique executor ownership",
+  "task": "Failover capability preflight; ordinary chat event subscription unavailable",
   "acquired_at": "2026-10-31T14:56:00Z",
-  "expires_at": "2026-10-31T15:41:00Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T15:00:00Z",
   "rules": "ops/CANON-LOCK.md"
 }
