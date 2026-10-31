@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-31T11:13:46Z",
+  "updated_at": "2026-10-31T22:11:14.879901Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2004,8 +2004,8 @@
       "scene_id": 48,
       "prompt_id": "S48-SEED20-P2",
       "canonical_block_label": "48 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3",
-      "normalized_prompt_sha256": "3d0fd598b157e1f373a8926f0b8ccd5e64532fbf7e56e050ca676ed6f7df29fe",
+      "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
+      "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
       "priority": 0.41,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -2083,14 +2083,16 @@
       "blocker": "Actual ending of S48-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
       "launch_readiness": "blocked_continuity",
       "previous_prompt_sha256": [
-        "c7f4522e2d9ffa7e4d34b429bcee5f092c6e4ccd08555da1cfb5a707e18a8113"
+        "c7f4522e2d9ffa7e4d34b429bcee5f092c6e4ccd08555da1cfb5a707e18a8113",
+        "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3"
       ],
       "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
       "priority_before_20261023_cut": 4.1,
       "owner_decision_20261023_cut": {
         "at": "2026-10-23T14:16:11Z",
         "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
-      }
+      },
+      "revision_note_20261101": "Owner correction: actual S48.1 end has Serega centre, Ilyusha right, Artem kneeling foreground-left; the SAME worm is visible at a distance behind them and approaches before the leap. No new submission or READY inferred."
     },
     {
       "id": "S48-SEED20-P3",

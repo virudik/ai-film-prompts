@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "item_id": "S48-SEED20-P2",
+  "applied_at": "2026-10-31T22:11:14.879901Z",
+  "source_head": "baca11e67a3257118c171fc6419a1fcfb66cefd0",
+  "source_task_id": "8d7ff1e2de63478693778de29e0dd56e",
+  "owner_instruction": "Подправь промты 48.2 чтобы они соответствовали окончанию 48.1. и червь виден сзади, но не рядом.",
+  "source_prompt_sha256": "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3",
+  "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
+  "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
+  "characters": 9029,
+  "changes": [
+    "Actual start: centre / right / foreground-left; source weapon and ruin geometry preserved",
+    "Corrected earlier assistant observation: worm IS visible in the background, not adjacent",
+    "0–6s: visible approach from background and interception; 6–8s: hide module; 8–12s: continuous take-off/landing; 12–15s: ride away",
+    "Original jump-and-escape idea and actual Video1 input preserved"
+  ],
+  "unchanged": [
+    "S48.1 historical prompt/result",
+    "S48.3 and S48.4",
+    "Other scenes",
+    "Queue priority, state, authorizations and all references",
+    "No automatic approval or video launch"
+  ],
+  "new_submissions": 0,
+  "clip_binding_completed_by_this_edit": false,
+  "validation": "Only one master prompt changed; old SHA guard; canonical normalizer; project validator required before push"
+}

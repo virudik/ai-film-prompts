@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 48,
-  "updated_at": "2026-10-30T20:28:40.619Z",
+  "updated_at": "2026-10-31T22:11:14.879901Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "blocked_continuity",
   "references": [
@@ -602,9 +602,9 @@
     {
       "prompt_id": "S48-SEED20-P2",
       "canonical_block_label": "48 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3",
-      "normalized_prompt_sha256": "3d0fd598b157e1f373a8926f0b8ccd5e64532fbf7e56e050ca676ed6f7df29fe",
-      "characters": 6920,
+      "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
+      "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
+      "characters": 9029,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,

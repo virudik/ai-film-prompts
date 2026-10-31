@@ -3205,10 +3205,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | Part 2 of 2: the worm cuts off the charging Jedi; the Chancellor hides the module, leaps onto the worm and rides it away
+Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | Part 2 of 4: the worm cuts off the charging Jedi; the Chancellor hides the module, leaps onto the worm and rides it away
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of Part 1's result. Absolute authority for the START STATE, screen positions, ruins, dust and light.
+@Video1 — the actual final 3 seconds of the selected Part 1 result. Continue from its LAST frame, not its first: preserve the ongoing movement, camera, screen positions, distant visible worm, ruins, dropped weapon, dust and light. Do not replay the capture of the module.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
@@ -3220,36 +3220,36 @@ Priority: @Video1 controls the start, positions and damage already done; @Image1
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; red lightsaber hilt, switched off, at his belt.
 ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; blue lightsaber, lit.
-ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; his green lightsaber hilt lies dark and half-buried in the sand.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots. He starts kneeling foreground-left. His dropped weapon lies unlit on the foreground sand: preserve its actual shape, length and position from @Video1; no green ignition.
 Exactly three people. No other characters, no vehicles.
 
 PROP LOCK — CRITICAL:
-Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts gripped in Serega's fist and ends hidden in the inner fold of his robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
+Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber segmented panels. At the opening it remains in Serega's hands held together at chest height, with exactly the visibility and grip of @Video1; do not expose it anew or repeat the catch. He hides this same module inside his robe during the action. No duplication, new transfer, hologram or paper map.
 
 WORM / LOCATION LOCK — CRITICAL:
-The same colossal worm from @Image5 and the same ruins for the whole clip; the left gate pier stays smashed, the right pier stays standing and the obelisk block shattered in @Video1 remains scattered chunks. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
+ONE colossal worm, already visible behind the characters at a distance in @Video1. Preserve its partly exposed segmented body and initial distance; it is not beside Serega at the join. It must visibly approach from that background position through open sand around the existing rubble before crossing the pursuit path. Never erase it and spawn a second worm between the people, teleport it forward or shrink it. Its head and forward body pass clear of everyone; a following broad back segment remains mostly submerged, low enough for the planned leap. Serega alone deliberately contacts its back, landing on both boots and gripping an inter-segment ridge; no bite, collision or injury. Preserve the actual upright damaged stone, fallen blocks and sand geometry in @Video1, not an older planned ruin layout. No rebuilding or moving the stones, no car or speeder.
 
 START STATE:
-Exactly the last frame of @Video1: Serega on frame-right, the module in his fist, the worm half-sunk behind him; Ilyusha on frame-left, blue blade lit; Artem on his knees.
+Exactly the LAST frame of @Video1: Serega stands near centre, dark-purple robe, hands together at chest height around the captured module; Ilyusha stands frame-right in the red cloak, lit blue blade lowered diagonally inward; Artem kneels in the near foreground-left. The dropped unlit weapon stays in its foreground position. The same worm's segmented body is visible across the background behind the ruins, separated from the people by open sand. Preserve this spacing, axis, lighting and unfinished movement; no mirrored arrangement or instant nearby worm.
 
 TIMELINE:
-[0:00–0:04] — CUT OFF BY THE WORM
-Continuing @Video1 without a cut: Ilyusha sprints at Serega with his blue blade lit, but the worm surges up out of the sand between them in a towering wall of pouring sand, forcing Ilyusha to leap aside. Artem stays on his knees and braces one hand in the sand against the surge; he never leaps while remaining kneeling.
+[0:00–0:06] — THE DISTANT WORM CLOSES THE GAP
+Continue the terminal camera and motion without a cut. Ilyusha presses in from frame-right; Serega takes quick backward-diagonal steps into the open sand, keeping the module secure. At the same time the ALREADY VISIBLE worm advances from the background in one readable curving pass around the fallen blocks, driving a growing wake of sand. Establish its travel through depth before it reaches the people. As Ilyusha commits to the interception, the worm's forward body sweeps across the gap and throws up a curtain of sand; Ilyusha checks his advance and springs aside to safety. Artem remains on his knees and braces a hand in the sand. Nobody is hit. The following low, partly buried back continues sliding past; the worm does not stop to offer a ride.
 
-[0:04–0:07] — HIDE THE MODULE
-Cut to a medium shot of Serega, face clearly lit and readable for two seconds: in one quick move he shoves the glowing module into the inner fold of his robe and the amber glow disappears under the purple cloth. Without pausing to display the gesture, his free hand clears the robe and his feet turn into the run; keep his face readable during this movement.
+[0:06–0:08] — HIDE THE MODULE
+Cut on his turn to a clear medium shot. In one quick movement Serega slips the module from his existing clasp into the inner fold of his robe. Any visible amber light disappears under the cloth. He immediately turns into a run alongside the passing back; no display pose, second catch or newly appearing module.
 
-[0:07–0:11] — ONTO THE WORM
-Fast low tracking shot at running speed: the worm's long body slides past low over the sand on frame-right; Serega sprints alongside it, leaps onto its back, lands braced on one broad segment and grabs a ridge with one hand, robe whipping in the wind.
+[0:08–0:12] — ONTO THE SAME PASSING WORM
+Fast low side tracking follows the same worm and Serega's short sprint. Most of the colossal girth remains below the sand; the exposed broad back passes at a reachable jump height, without reducing the worm's size. Show one continuous push-off, short airborne arc, both boots landing on a single broad segment, knees absorbing the load and one hand gripping a shallow ridge between segments. The free arm balances him; the robe trails clear of his feet. Keep take-off and landing in the same shot, never replace the jump with a cut to an already mounted rider.
 
-[0:11–0:15] — RIDING AWAY
-Wide shot from behind the two Jedi: the worm surges away across the dunes in a great spray of sand, Serega riding its back low and balanced like a surfer, robe streaming behind him, shrinking into the distance. In the foreground Ilyusha lowers his blue blade as Artem plants a boot and rises from his knees; both stare after him. Keep the wide composition while the worm and rider continue accelerating away, never freeze the departing silhouette.
+[0:12–0:15] — RIDING AWAY
+Cut on the established departure movement to a wide view that keeps the two Jedi by the same ruins and the mounted rider travelling away into the dunes. The worm accelerates in a heavy spray of sand; Serega stays low on both boots with the same handhold, robe streaming. Ilyusha lowers his blue blade; Artem plants a boot and pushes up from his knees. They watch the escape. Keep the rider readable and continuously moving for the handoff to Part 3; no end pose or freeze.
 
 END STATE:
-Serega rides the worm away into the far dunes with the module hidden in his robe; both Jedi alive in the foreground among the ruins, Ilyusha's blue blade lowered, Artem's dark saber hilt half-buried in the sand.
+Serega rides the same worm away into the dunes, low and balanced on both boots, one hand gripping the ridge, the module hidden in his robe. Both Jedi remain alive at the ruins, Ilyusha's blue blade lowered, Artem rising; the dropped unlit weapon remains where it fell. Continue departure motion into the final frame for Part 3.
 
 CAMERA / SPACE:
-The first beat continues @Video1 without a cut; then three motivated cuts on action: a medium on Serega hiding the module, a fast low tracking shot for the leap, a final wide from behind the Jedi for the ride. Serega and the worm on frame-right, the Jedi on frame-left. Speed lives in tracking and wide shots; faces medium and evenly lit, never tiny during speed. Scale through parallax, dust layers and foreground debris.
+Start on the exact @Video1 axis: Serega centre, Ilyusha right, Artem foreground-left, worm in the background. The first six seconds continuously show the worm closing the distance and the characters' real footwork. Do not cover the approach with a cut or move the background worm to the foreground by camera trickery. Then three motivated cuts: medium for hiding the module, low lateral tracking for the complete jump and landing, wider departure view on the same side of the action axis. Later positions change through visible travel, not a mirrored reset. Preserve a clear escape direction, readable faces, grounded scale and parallax; no random shake.
 
 PERFORMANCE:
 Serega is fast and dashing, his face cold: the hiding move is quick, the sprint and leap onto the worm athletic and bold. Ilyusha is fast and determined, then left standing with his blade lowered; Artem winded and annoyed. No speech, no smile, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
@@ -3258,10 +3258,10 @@ LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, blown sand in the air, realistic cloth and dust interaction; the module's amber glow vanishing into the robe; sand pouring off the worm's segments.
 
 AUDIO:
-The blue saber's hum as Ilyusha charges, the worm's deep roar and the crash of sand as it surges up, wind, Serega's boots pounding sand, the heavy grinding rush of the worm surging away and fading into the distance. Exertion breaths only; no dialogue, narrator or music.
+Continue the source wind and low worm rumble. The grinding approach grows from the background into a near, heavy rush, followed by the sand curtain, blue-saber hum, quick boots, the solid landing on hide and cloth whipping as the worm carries him away. Exertion breaths only; no dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or biting anyone, death, blood, Serega falling off the worm, saddle or reins, car, speeder, vehicle wreck, extra people, two modules, hologram map, Serega fighting with a saber, Artem's saber lit, rebuilt ruins, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
+Mirrored starting positions, background worm vanishing, second worm, instant worm relocation, shrinking worm, collision or bite, floating rider, skipped take-off or landing, saddle or reins, repeated map catch, second module, renewed duel, green blade ignition, rebuilt ruins, extra people, vehicles, identity or costume drift, slow motion, frozen poses, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
