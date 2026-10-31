@@ -2,88 +2,79 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "b7b35307-8d5f-4bd2-acdd-42dfbb98c9fe",
-  "run_id": "cecde0bb-6434-832b-805d-f96849567c74",
-  "run_id_source": "Automations.peek last_run.id, scheduled 2026-10-31T22:00:00Z and started 2026-10-31T21:58:05.569317Z; latest_result still prior run",
-  "source_head": "16524634de4641e4ab7879076853271aa448922c",
+  "execution_instance_id": "64e7bfb0-85b1-4a88-ae92-2d68c5d9964f",
+  "run_id": "44435f82-6694-8322-8d6d-36e1f9148c83",
+  "run_id_source": "Automations.peek last_run.id: scheduled 2026-10-31T23:00:00Z, started 2026-10-31T23:02:39.285097Z; current latest_result belongs to previous cecde0bb-6434-832b-805d-f96849567c74",
+  "source_head": "a6194bf029660ec2e642e4caeca5d21baab19e72",
   "route_generation": 2,
-  "started_at": "2026-10-31T21:58:05.569317Z",
-  "checked_at": "2026-10-31T22:03:18.396Z",
+  "started_at": "2026-10-31T23:02:39.285097Z",
+  "checked_at": "2026-10-31T23:10:42.524Z",
   "phase": "finished",
-  "scan_complete": false,
-  "scan_source": "Topview authenticated read-only connector, 14 board list; 20 individual page reads, 19 succeeded and one inaccessible",
-  "scan_scope": "14 boards; 20 requested pages, 19 successful, 16 nonempty; 932 distinct tasks of 952 expected; 619 videos of 624 expected. Main First Board all seven pages scanned (681 tasks), plus all other accessible boards.",
+  "scan_complete": true,
+  "scan_source": "Topview authenticated read-only connector; current direct API board/task cards; complete across all owner boards",
+  "scan_scope": "14 owned boards; all 17 nonempty task pages (10 secondary, 7 My First Board); 3 zero-task boards; 952 tasks total, 624 videos",
   "occupied_slots": 6,
   "free_slots": 0,
   "active_task_ids": [
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
     "b0915b04173c414e9ac08652d34b7852",
-    "c65c30d8cbe14e9eadec886276e62471",
-    "c72c1ab4524e4f2f9d3a0272474f788a"
+    "c65c30d8cbe14e9eadec886276e62471"
   ],
   "selected_item": null,
   "task_ids": [],
   "outcome": "no_free_slot",
-  "blocker": "Partial all-board scan: Alina board 5003 Board not found, repeated; requires fresh complete scan before future Create when any capacity appears.",
-  "retryable": true,
-  "browser_transport": "none; TinyFish not opened at verified global 6/6",
+  "new_submissions": 0,
+  "browser_transport": "none; no metered TinyFish at confirmed 6/6",
   "tinyfish_runs": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_spend_usd": 0,
   "topview_credits_spent": 0,
-  "acceptance": {
-    "current_hourly_runtime_observed": true,
-    "authenticated_gui_file_import_unlimited0_verified_in_this_run": false,
-    "task_create_verified_in_this_run": false
-  },
   "quota_isolation_verified": false,
   "lease": {
-    "holder": "chatgpt:ordinary:b7b35307-8d5f-4bd2-acdd-42dfbb98c9fe",
-    "acquired_at": "2026-10-31T22:01:12.751Z",
-    "expires_at": "2026-10-31T22:16:12.751Z"
+    "holder": "chatgpt:ordinary:64e7bfb0-85b1-4a88-ae92-2d68c5d9964f",
+    "acquired_at": "2026-10-31T23:09:30Z",
+    "expires_at": "2026-10-31T23:27:30Z"
   },
   "board_count": 14,
-  "pages_requested": 20,
-  "pages_successful": 19,
-  "total_tasks_observed": 932,
+  "pages_requested": 17,
+  "pages_successful": 17,
+  "total_tasks_observed": 952,
   "total_tasks_expected": 952,
-  "video_tasks_observed": 619,
+  "video_tasks_observed": 624,
   "video_tasks_expected": 624,
-  "scan_errors": [
-    {
-      "board_id": "24a69085fab4497b9c1a52536252b63",
-      "board_name": "Алина",
-      "page": 1,
-      "error_code": "5003",
-      "message": "Board not found",
-      "read_only_retries": 2
-    }
-  ],
-  "capacity_basis": "Six independent, distinct init video task cards on My First Board, all six in latest prior full account census and current robot topview-status. Since global physical max is six, one inaccessible board cannot create a seventh available slot.",
-  "claims_changed": 0,
-  "new_submissions": 0,
-  "credits_spent": 0,
-  "browser_capability_probe": {
-    "attempted": false,
-    "reason": "At six observed active global video slots no metered TinyFish session or wallet probe is permitted; prior reversible-click test does not verify file import, Unlimited0, or scheduled Create.",
-    "production_create_verified": false
+  "scan_errors": [],
+  "alina_board_rechecked": {
+    "board_id": "24a69085fab4497b9c1a52536252b63d",
+    "page": 1,
+    "status_code": "200",
+    "total": 20,
+    "previous_error": "5003 Board not found",
+    "outcome": "resolved_in_this_run"
   },
-  "work_limit_owner_reported": true,
+  "capacity_basis": "Six distinct active init video task cards on My First Board, all Unlimited=true and Topview creditsCost=0; account-wide 17-page scan showed no other active video tasks.",
+  "blocker": null,
+  "retryable": false,
   "queue": {
-    "blob_sha": "96f70e7eeab44f9764a0ffb86c5a94ec36ab6961",
-    "items": 65,
-    "readiness_blob_sha": "0afce189a49967e35cb916a45c284b3ea2a45265",
-    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+    "blob_sha": "772f7936c3fdb493793818167253fe68863695c9",
+    "readiness_blob_sha": "a285957ced3b1c59ebfd915104630455bfc27ebd",
+    "source_queue_sha256": "68f8cdf88b8e1acb4ad8d1c9ed871441cabcf4e47c59002ae7d1be7aea3cbf68",
     "queue_sha_match": true,
+    "items": 65,
     "unresolved_claims": 0,
-    "ready_count": 31
+    "next_ready": [
+      "S71-WAN30",
+      "S48-SEED20-P2",
+      "S56-SEED20-P2"
+    ]
   },
   "bot_wake_status": {
-    "last_robot_health_at": "2026-10-31T21:50:31Z",
+    "last_robot_shadow_at": "2026-10-31T23:00:18Z",
+    "launcher_health_checked_at": "2026-10-31T22:50:22Z",
     "launcher_health": "capacity_full",
-    "latest_event": "slots:d23cf217:3",
+    "last_event": "slots:d23cf217:3",
     "is_historical": true,
     "confirmed_launch_task_ids": []
   },
@@ -94,9 +85,27 @@
     "matches": false
   },
   "hourly_last_run": {
-    "id": "76634ebf-39d0-8321-9157-590f2a176b35",
+    "id": "919684f0-f350-832c-9346-f9613766f71a",
     "status": "no_update",
     "latest_result_run_id": null,
     "matches": false
+  },
+  "browser_capability_probe": {
+    "attempted": false,
+    "reason": "No free slot; protocol forbids metered TinyFish at six occupied slots. Historical saved profile UI clicks do not verify production import, Unlimited0 or Create.",
+    "production_create_verified": false
+  },
+  "credits_spent": 0,
+  "acceptance": {
+    "current_hourly_runtime_observed": true,
+    "authenticated_gui_file_import_unlimited0_verified_in_this_run": false,
+    "task_create_verified_in_this_run": false,
+    "saved_tinyfish_login_from_historical_test": true,
+    "production_browser_execution_verified": false
+  },
+  "owner_decisions": {
+    "open_owner_tasks": 0,
+    "work_limit_reported": true,
+    "work_restored_verified": false
   }
 }
