@@ -1,0 +1,83 @@
+name: Apply owner-authorized launcher coordination
+on:
+  push:
+    branches: [main]
+    paths: ['ops/launcher-policy-request.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: launcher-policy-transaction
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Configure transactional writer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Save initial checkpoint, apply exact request, validate and publish
+        shell: bash
+        run: |
+          set -euo pipefail
+          for phase in checkpoint apply; do
+            ok=0
+            for attempt in 1 2 3 4; do
+              git fetch origin main
+              git reset --hard origin/main
+              python3 scripts/apply_launcher_policy.py . check-lease
+              python3 scripts/apply_launcher_policy.py . "$phase"
+              if [ "$phase" = apply ]; then
+                python3 scripts/cert_github.py .
+                python3 -m unittest discover -s tests -v
+                python3 scripts/validate_site.py .
+                python3 scripts/check_instruction_consistency.py .
+                python3 scripts/apply_launcher_policy.py . finish
+              fi
+              python3 scripts/apply_launcher_policy.py . check-lease
+              git diff --check
+              git add reports/current-work-checkpoint.md work-resume-register.json
+              if [ "$phase" = apply ]; then
+                git add ops/slot-backup.json ops/CONTINUE-PROTOCOL.md ops/CANON-LOCK.md ops/TOPVIEW-EVENT-WAKE.md ops/TOPVIEW-FREE-LAUNCH.md
+                git add NEW-CHAT-HANDOFF.md SYNC-RUNBOOK.md AI-PROJECT-GUIDE.md PROMPT-STYLE-GUIDE.md USER-GUIDE.md README-AI-SYNC.md BACKUP-AI-RUNBOOK.md
+                git add instruction-sync-status.json reports/launcher-coordination-2026-10-31.json .github/workflows/test-recovery-integration.yml
+              fi
+              if git diff --cached --quiet; then ok=1; break; fi
+              git commit -m "Launcher coordination: ${phase}; ordinary primary, Work reserve; owner 31Oct"
+              commit=$(git rev-parse HEAD)
+              if git push origin HEAD:main; then
+                git fetch origin main
+                git merge-base --is-ancestor "$commit" origin/main
+                echo "Verified publication: $commit"
+                ok=1; break
+              fi
+              echo 'CAS rejected; re-read main and recompute, never replay stale edits.'
+            done
+            test "$ok" = 1
+          done
+      - name: Release only exact request lease
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/apply_launcher_policy.py . release
+            git add ops/canon-lock.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m 'Canon lock: release exact launcher-policy transaction lease'
+            if git push origin HEAD:main; then
+              commit=$(git rev-parse HEAD)
+              git fetch origin main
+              git merge-base --is-ancestor "$commit" origin/main
+              exit 0
+            fi
+          done
+          exit 1
