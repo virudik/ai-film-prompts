@@ -1,1 +1,2 @@
 2026-10-31T22:40:27.793031Z Owner S48.2: exact private3s input bound; ready after72->71; master SHA256 95e7b07d9e677786a5c200e8fe9a490dfd0fe602d259545a88c43ccd598431d1. Validate and publish GitHub Pages.
+Publication requested after successful input checks, full tests and main readback. Evidence: reports/scene48-p2-ready-2026-11-01.json. No video generation by this edit.
