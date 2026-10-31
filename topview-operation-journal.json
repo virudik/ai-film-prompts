@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-09T02:01:51.007Z",
-      "operation": "terminal_reconciliation_scene33_and_full_account_refresh",
-      "scene_id": 33,
-      "task_fingerprint": "e95f1bab9ab24f528b55fa58495d7adb",
-      "previous_status": "6 active tasks; canonical slow Scenes 20,30,31,32,33,34; occupied 6 of 6",
-      "new_status": "5 active tasks; canonical slow Scenes 20,30,31,32,34; occupied 5 of 6",
-      "source_checkpoint": "2026-10-09T02:01:51.007Z",
-      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
-      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 552 unique tasks. Direct Board-task lookup confirmed Scene 33 terminal success at 2026-10-09T01:24:31Z; five mapped unlimited Wan 3.0 tasks remain init. result_received advanced only; no editorial approval inferred."
-    },
-    {
       "timestamp": "2026-10-09T03:03:07.118Z",
       "operation": "discover_existing_scene16_attempt_and_full_account_refresh",
       "scene_id": 16,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-31T02:00:18Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-31T02:50:20Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-31T02:50:20Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 87,
+  "archived_event_count": 88,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
