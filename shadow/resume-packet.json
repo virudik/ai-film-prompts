@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-31T12:04:02+00:00",
-  "source_head": "448a279e6f448391b548047830392cf3d3fbeefd",
-  "source_fingerprint": "45d93c435b20ea08038ad30ea697e9ee58e3caffd3a7c3ccd70147b78181472b",
+  "checked_at": "2026-10-31T12:12:10+00:00",
+  "source_head": "07ada5e7252b4c27a51799088ac0f0f9559f8fbb",
+  "source_fingerprint": "91706147a2a2d7ea078f6b0ba4ec43c94eeff3e46cb630034ae17aadb125a277",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -34,36 +34,29 @@
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
-    "status": "waiting_global_capacity",
-    "last_completed": "S72-WAN30 отправлена одним бесплатным веб-Create; подтверждён task22dbd25cdd9f47cd9e44300e55f5e44f и полный prompt/settings/input preflight. Полный postscan14 досок/18 страниц/624 видео:6/6 активны, дублей нет.",
-    "next_action": "При следующем цикле заново проверить свежий main, решения/замок, существующие task IDs и полную глобальную ёмкость Topview. Если есть свободный слот, первой готовой S71-WAN30 (Wan 3.0,30с,Unlimited0), затем S56-SEED20-P2 по живому priority и входам. S72 наблюдать по task22dbd25cdd9f47cd9e44300e55f5e44f, не повторять. Ожидающее реальный результат продолжение пропускать без резервирования слота; свободные слоты заполнить разрешёнными готовыми items.",
-    "verified_at": "2026-10-31T11:13:16Z",
-    "blockers": [
-      "Full post-submit scan 2026-10-31T11:09:40Z: six active Unlimited0 Seregius videos, zero free slots. This is an observed capacity wait; recheck live account before the next launch."
-    ],
+    "status": "fixing_launcher_recovery",
+    "last_completed": "Подтверждены5ч40м19с простоя, своевременные robot/Relay сигналы, незавершённый handler и исчерпанный re-wake cap.",
+    "next_action": "Закончить и проверить исправление watchdog; обновить существующие задания без смены расписания/подписки; опубликовать CAS/readback и проверить workflow.",
+    "verified_at": "2026-10-31T11:25:41+00:00",
+    "blockers": [],
     "evidence": [
       {
-        "file": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
-        "sha256": "c194650e5e45d88ad20506728676fdc75503a1ad77c7b889bb80c2282be60139"
-      },
-      {
-        "file": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json",
-        "sha256": "b51fc921e7449834ccfb98f8c14353df9feeda063b597ad19a023b7eee9010b7"
+        "file": "reports/topview-slot-idle-2026-10-31.json",
+        "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458"
       }
     ],
     "read_next": [
-      "ops/topview-launch-queue.json",
-      "references/scenes/scene-71/manifest.json",
-      "references/scenes/scene-56/manifest.json",
-      "ops/TOPVIEW-FREE-LAUNCH.md"
+      "ops/TOPVIEW-EVENT-WAKE.md",
+      "scripts/robot_telemetry.py",
+      "scripts/launch_autonomy_check.py"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Продолжай: S72 запущена, 6/6 слотов · 31.10.2026",
-      "sha256": "8814604c1e492c6057f11fee14ca3a4d36ab88261cc47ccfd7bc2d1959712d0d"
+      "anchor": "# Простой слота: расследование и исправление автоматики · 31.10.2026",
+      "sha256": "14900189eda6333c069232ca37199151610154a34c1f73c0198ef47ae4175622"
     }
   },
-  "checkpoint_text": "# Продолжай: S72 запущена, 6/6 слотов · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде «Продолжай» выполнен приём D7 и продолжена выбранная разрешённая очередь. Исходный checkpoint опубликован `4335361422df924b4c905be6375ba4695becd1fa`; перед отправкой сохранён и прочитан обратно CAS-claim `6a44f5af81b1b961296c258fe814e51994cbb832`.\n\n31.10.2026 в 14:08:48 МСК (11:08:48Z) ровно один Create отправил **S72-WAN30**, пролог «Всем привет». Подтверждён task `22dbd25cdd9f47cd9e44300e55f5e44f`, My First Board `1a6244cf1ae747ef847d949a80d6133c`: Wan 3.0 · 30 с · 720p · 16:9 · 1 ролик · native audio on · Unlimited=true · credits=0, статус `init`. Четыре канонических изображения загружены в порядке @Image1–4; канонический текст 7136 символов совпал с UI, нормализованный backend-текст совпал полностью (SHA256 `157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1`). Расходы 0. Это подтверждение отправки, не готовый ролик и не редакционная приёмка.\n\nПовторный полный scan 2026-10-31T11:09:40Z: 14 досок, 18 страниц видео, 624 уникальные задачи, ошибок 0; активны 6/6, свободных слотов 0. Единственная новая видеозадача — указанная S72; дублей нет. Остальные активные: S61-P1, S60-P1, S62-P1, S59-P2 и S52-R2-P1. S48-P1 ранее завершилась технически; её приёмка/повтор не выполнялись. Телеметрию продолжает писать GitHub-робот, старые результаты не подменяются текущим снимком.\n\nСледующий шаг: При следующем цикле заново проверить свежий main, решения/замок, существующие task IDs и полную глобальную ёмкость Topview. Если есть свободный слот, первой готовой S71-WAN30 (Wan 3.0,30с,Unlimited0), затем S56-SEED20-P2 по живому priority и входам. S72 наблюдать по task22dbd25cdd9f47cd9e44300e55f5e44f, не повторять. Ожидающее реальный результат продолжение пропускать без резервирования слота; свободные слоты заполнить разрешёнными готовыми items.\n\nДоказательства: `reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json` и `reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json`. Нижняя исходная точка «Create 0» и прежние снимки сохранены как история этапов, а не текущее состояние.\n",
+  "checkpoint_text": "# Простой слота: расследование и исправление автоматики · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nНовая задача владельца: почему свободный слот не заняла очередь и как не допустить повторения. Подтверждён простой 08:28:29–14:08:48 МСК (5ч40м19с): S48 завершилась, робот доставил четыре сигнала и проверял каждые10мин, первый ChatGPT handler взял замок и не сохранил результат. Восстановление остановилось после3 повторов; последняя часовая попытка no_update без результата. Внутренняя причина остановки фонового worker не раскрыта API. S72 уже отправлена, физические слоты6/6.\n\nИсправление в подготовке: непрерывный контроль результата при свободном слоте, редкие повторные сигналы после первых3, отдельный статус остановившегося исполнителя, конкретная итоговая квитанция/блокер. Код и тесты готовятся отдельно, публикации исправления и обновления automation prompt ещё нет. Новых Create по этому расследованию0.\n\nСледующий шаг: закончить и проверить code patch; обновить существующие задания без смены расписания/подписки; опубликовать под собственным замком с CAS/readback, проверить workflow и сохранить остаточные ограничения.\n\nДоказательства: `reports/topview-slot-idle-2026-10-31.json`.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -157,10 +150,9 @@
     }
   ],
   "read_next": [
-    "ops/topview-launch-queue.json",
-    "references/scenes/scene-71/manifest.json",
-    "references/scenes/scene-56/manifest.json",
-    "ops/TOPVIEW-FREE-LAUNCH.md"
+    "ops/TOPVIEW-EVENT-WAKE.md",
+    "scripts/robot_telemetry.py",
+    "scripts/launch_autonomy_check.py"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -452,8 +444,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "6dc6d7f06671d2ff7c4ecf16ec733a73ce0edefd2ca4d772547634b7d0662a73",
-      "bytes": 18488
+      "sha256": "8aab20d186a43c462028b8a1d4094379b379c6eada580b9f96bc30dbb597a74d",
+      "bytes": 20526
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -461,14 +453,9 @@
       "bytes": 28165
     },
     {
-      "file": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
-      "sha256": "c194650e5e45d88ad20506728676fdc75503a1ad77c7b889bb80c2282be60139",
-      "bytes": 5004
-    },
-    {
-      "file": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json",
-      "sha256": "b51fc921e7449834ccfb98f8c14353df9feeda063b597ad19a023b7eee9010b7",
-      "bytes": 14595
+      "file": "reports/topview-slot-idle-2026-10-31.json",
+      "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458",
+      "bytes": 40567
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -487,9 +474,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "50df3d5a9b53483ef16f88cf3547a53c55ca9baf98f8c4e35bba261d8a63974a",
-      "bytes": 83152
+      "sha256": "c1d0cf4045c247767d8614a74626a15f8de1eae16aadcbd43b07dc01ed16da46",
+      "bytes": 81664
     }
   ],
-  "packet_bytes": 8278
+  "packet_bytes": 6484
 }
