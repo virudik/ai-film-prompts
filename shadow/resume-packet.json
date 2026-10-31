@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-31T16:53:56+00:00",
-  "source_head": "bf2300cd4dc08fb5f7655d9964ae665e8649fcbd",
-  "source_fingerprint": "e54c298110c067be492865384c8d53a83cb0309ebf61c906b570faf62e5c1138",
+  "checked_at": "2026-10-31T17:01:55+00:00",
+  "source_head": "4944c64eaff88ae3578e8626387a57f37bc726ec",
+  "source_fingerprint": "347f1522be8b974b4a068a8fed9e72e2bec016ad395de1722e90f8326db188a0",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -34,7 +34,7 @@
     "selected checkpoint hash mismatch"
   ],
   "selected_work": null,
-  "checkpoint_text": "# Обычный ChatGPT — основной; Work — резерв · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПрямая команда владельца: Work-лимит исчерпан; обычный исполнитель основной, Work резервный; оба независимы, но отправка только под общим замком/claim. После доказанного восстановления Work вернуть предпочтение ему. «Продолжай» передаёт ответственность сменщику.\n\nСтадия: plan_saved_before_policy_change. Время фактической записи: 2026-10-31T16:50:52Z. Технический план: общий реестр ролей, уникальная lease, одноразовый submitting intent, foreground epoch, согласованные инструкции/хендоф, cert и тесты. Очередь/мастер/видео не меняются.\n\nПодтверждено до смены ролей: реальный обычный runtime 52f01b43-0358-8330-9c19-fb332e6dcb03 проверил 14 досок/18 страниц/624 видео, 6/6 занято; GUI-проба вернула originating_browser_context_required. Это не подтверждение Create или отдельной квоты. S72 от 11:08:48Z сохраняется как исторический подтверждённый запуск.\n\nСледующий шаг: проверить реальную настройку трёх существующих задач и новый обычный runtime после сообщения владельца о лимите; при 6/6 только read-only GUI-проба, при свободном слоте полный preflight и первый готовый разрешённый пункт. Не повторять S72/unknown. Не объявлять страховку полностью принятой без browser/task evidence.\n\nИсточники: ops/slot-backup.json; ops/LAUNCHER-COORDINATION.md; reports/launcher-coordination-2026-10-31.json.\n<!-- /launcher-policy -->\n",
+  "checkpoint_text": "# Обычный ChatGPT — основной; Work — резерв · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПрямая команда владельца: Work-лимит исчерпан; обычный исполнитель основной, Work резервный; оба независимы, но отправка только под общим замком/claim. После доказанного восстановления Work вернуть предпочтение ему. «Продолжай» передаёт ответственность сменщику.\n\nСтадия: code_and_documents_validated; automation_and_GUI_acceptance_separate. Время фактической записи: 2026-10-31T16:58:22Z. Технический план: общий реестр ролей, уникальная lease, одноразовый submitting intent, foreground epoch, согласованные инструкции/хендоф, cert и тесты. Очередь/мастер/видео не меняются.\n\nПодтверждено до смены ролей: реальный обычный runtime 52f01b43-0358-8330-9c19-fb332e6dcb03 проверил 14 досок/18 страниц/624 видео, 6/6 занято; GUI-проба вернула originating_browser_context_required. Это не подтверждение Create или отдельной квоты. S72 от 11:08:48Z сохраняется как исторический подтверждённый запуск.\n\nСледующий шаг: проверить реальную настройку трёх существующих задач и новый обычный runtime после сообщения владельца о лимите; при 6/6 только read-only GUI-проба, при свободном слоте полный preflight и первый готовый разрешённый пункт. Не повторять S72/unknown. Не объявлять страховку полностью принятой без browser/task evidence.\n\nИсточники: ops/slot-backup.json; ops/LAUNCHER-COORDINATION.md; reports/launcher-coordination-2026-10-31.json.\n<!-- /launcher-policy -->\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -358,43 +358,43 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
-      "bytes": 34298
+      "sha256": "51c87f678d35f881ebc89ec3bffa14c305340821121a3c933bbc717d1d09643c",
+      "bytes": 34610
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
-      "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
-      "bytes": 18925
+      "sha256": "5d15d1d6949c48e1d4604898ec2009b9ad6efedeea897bc3d04c5e88db2fd172",
+      "bytes": 19239
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "2dc9676df8c75a722687e71b7eb3c36d1a9247aa9e30f2a92814904b4248df48",
-      "bytes": 33788
+      "sha256": "ef7be924ef60e81ad184ea2bb83e6d93500e10b0cd8bb95aefef66092b721dbf",
+      "bytes": 34354
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
-      "sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
-      "bytes": 74610
+      "sha256": "c961fc1ad083d1ae209d75cdb03b1d847755a69b8f7ef24d4ef0d6fa4fc2f1cf",
+      "bytes": 74922
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
-      "bytes": 16692
+      "sha256": "380caf14dae873c6e8a608da54233264b9b85ded3b802cbaab20f5d25d84eac6",
+      "bytes": 17004
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "facf5e8d815e877745b8f9f1675cf531d28783f68b6421a0b2e04a66370f7537",
-      "bytes": 125935
+      "sha256": "003b14a2f658fd6ac56d68844d536d5a6adc3c5f14af636175cbbbc9b611926c",
+      "bytes": 126247
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "dab4dada768960c032df56e011aea7a5d55517d786ed99ed74af81c6abd8e8a0",
-      "bytes": 80869
+      "sha256": "18bc028f661b2bdcff996d68e34d7acf6704eee35ecff51c0dfe84f4a53ccab3",
+      "bytes": 81181
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "d43749d2826166aeae386e67e71f7c724733c78986641d454cf33f8af32820e3",
-      "bytes": 5134
+      "sha256": "68ea02acc8a165582ca58335eabbe403f8ddc4d65a59082508e629e851ea0329",
+      "bytes": 5141
     },
     {
       "file": "monitor-role.json",
@@ -403,8 +403,8 @@
     },
     {
       "file": "ops/CONTINUE-PROTOCOL.md",
-      "sha256": "9eb0b29037b547dd8553326ce34ef4ba6f90fed5c4c08bd342883852277e6ec9",
-      "bytes": 40928
+      "sha256": "2432ebbf107452901f5f8640de9a2e187e7c28b7efbf23bc8f241d7eb034c7c3",
+      "bytes": 42527
     },
     {
       "file": "ops/topview-launch-queue.json",
@@ -418,8 +418,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "59bb87babe38c78521cf428a4ca3276b2632313e75cf9bf33a0f7be84602c63a",
-      "bytes": 24869
+      "sha256": "e2f486e269233662732f49dd8eb0afb8fffe9bd7c339ba27cce30c9313eacec0",
+      "bytes": 24906
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -428,12 +428,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "e814efa58060a666a06961b7d6950eab3f69e0a1fd6dc0c0c98aacfd8fd930b2",
-      "bytes": 33589
+      "sha256": "6f9fa186cc0560f914d2059270af14bfab9d7e413467eead9772daf0dded626d",
+      "bytes": 34155
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "b71fb80286ae6e89edcb733808f28acb2951b7939b5df27f0477934bb0518999",
+      "sha256": "9347366757142332de636004a850b8ee969ecdffd48c58cc550e59fb4974f956",
       "bytes": 25096
     },
     {
@@ -443,9 +443,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "639e2e38f6c682f5765fe304dfad249938eae320fd632c83fd9bb994e5406ae2",
-      "bytes": 84751
+      "sha256": "f7930ecadf10f421f5a7452e156d87ec10a15b442e9fcabf783f4fed54513ff2",
+      "bytes": 84825
     }
   ],
-  "packet_bytes": 6044
+  "packet_bytes": 6081
 }
