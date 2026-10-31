@@ -3,8 +3,8 @@
   "state": "held",
   "holder": "chatgpt",
   "task": "chatgpt-cloud-20261031-slot-idle-fix · Diagnose missed launch and repair durable wake watchdog",
-  "acquired_at": "2026-10-31T11:24:43Z",
-  "expires_at": "2026-10-31T12:09:43Z",
+  "acquired_at": "2026-10-31T12:10:35Z",
+  "expires_at": "2026-10-31T12:55:35Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
