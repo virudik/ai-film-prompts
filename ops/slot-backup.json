@@ -17,22 +17,14 @@
   "quota_isolation_verified": false,
   "browser_launch_verified_for_this_backup": false,
   "owner_decision": "31.10.2026: обычный ChatGPT основной пока лимит Work исчерпан; Work резерв. Оба независимо проверяют общую очередь/claims и подстраховывают друг друга. После доказанного восстановления вернуть Work предпочтение. Продолжай передаёт интерактивную ответственность сменщику.",
-  "primary_automation_ids": [
-    "6ae5e9d563f88191aa6da7c9ba1e05a0"
-  ],
-  "rules": [
-    "ops/LAUNCHER-COORDINATION.md",
-    "ops/CANON-LOCK.md",
-    "ops/TOPVIEW-FREE-LAUNCH.md",
-    "ops/TOPVIEW-RETRY.md",
-    "ops/TOPVIEW-EVENT-WAKE.md"
-  ],
+  "primary_automation_ids": ["6ae5e9d563f88191aa6da7c9ba1e05a0"],
+  "rules": ["ops/LAUNCHER-COORDINATION.md", "ops/CANON-LOCK.md", "ops/TOPVIEW-FREE-LAUNCH.md", "ops/TOPVIEW-RETRY.md", "ops/TOPVIEW-EVENT-WAKE.md"],
   "receipt_path": "reports/topview-slot-backup-cycle.json",
   "takeover_condition": "Current authorized ready work and verified free global capacity, no valid competing lease. Both peers act independently; preferred role and prior success never reserve a free slot. Reconcile claims/unknown first.",
   "ownership": {
     "holder_template": "chatgpt:<ordinary|work>:<execution-instance-uuid>",
     "runtime_run_id": "Use the actual platform run ID when exposed; otherwise null plus reason. A locally generated execution_instance_id is not a runtime run ID.",
-    "before_each_write_and_create": "Fresh-read route and lock; require matching active_automation_id and route_generation, exact holder and acquired_at, unexpired lease, and own item claim. Any mismatch stops the write/Create. A held generic chatgpt lock is foreign.",
+    "before_each_write_and_create": "Fresh-read registry and lock. Scheduled caller must be allowed by peers.<surface>.automation_ids; active_automation_id is the ordinary scheduled executor pointer, not a requirement that Work IDs equal the ordinary ID. Interactive caller must match foreground_owners.<surface>.session_id/epoch. Require unchanged route_generation, exact holder/acquired_at, unexpired lease and own item claim. A held generic chatgpt lock is foreign. Any mismatch stops the write/Create.",
     "expired_lease": "Reacquire only when allowed; expiry never clears a claim or proves that Create did not happen.",
     "release": "Release only the exact lease this execution acquired; do not release a replacement lease, even if expired."
   },
@@ -41,9 +33,9 @@
     "explicit_executor_replacement": [
       "Read fresh main and all existing tasks; do not guess a target conversation or change the primary route.",
       "Prepare a replacement ordinary-chat task with submissions disabled until accepted. Verify its actual ID/settings and a read-only runtime result.",
-      "Under the canon lock, CAS-update active_automation_id and increment route_generation; preserve prior route and evidence in history. Existing claims and retry budgets are not reset.",
-      "Every old/new worker rechecks the active route immediately before claim/Create. The old route becomes read-only as soon as the pointer changes.",
-      "Pause the old backup task after verified switch; retain its history. Never move a task to an arbitrary conversation through an unsupported API field."
+      "Under the canon lock, CAS-update active_automation_id and peers.ordinary.automation_ids, adjust primary/reserve IDs for the current preferred role, and increment route_generation; preserve prior route and evidence in history. Existing claims and retry budgets are not reset.",
+      "Every old/new worker rechecks its permitted peer IDs and route_generation immediately before claim/Create. The old route becomes read-only as soon as the pointer and allowlist change.",
+      "Pause the old ordinary task after verified switch; retain its history. Never move a task to an arbitrary conversation through an unsupported API field."
     ]
   },
   "first_observed_test": {
@@ -58,72 +50,27 @@
   "known_limits": [
     "The available Automations API does not expose or set the execution mode, model, billing bucket or quota isolation. A prompt cannot prove isolation from Work limits.",
     "Current interactive Browser.list_tabs returned originating_browser_context_required; this does not invalidate the verified historical S72 website launch at 2026-10-31T11:08:48Z.",
-    "Ten-minute addressed failover to the ordinary chat is not enabled; this record activates only the existing two-hour scheduled route."
+    "Ten-minute addressed failover to the ordinary chat is not enabled; ordinary execution uses the existing independent two-hour scheduled route."
   ],
   "registered_at": "2026-10-31T16:13:37Z",
   "registered_by": "chatgpt:slot-backup-activation:ae2efe6b-4866-4042-a399-5197de343821",
-  "role_history": [
-    {
-      "at": "2026-10-31T16:57:52Z",
-      "previous_preferred_executor": "work",
-      "previous_route_generation": 1,
-      "previous_active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-      "reason": "direct owner report: Work quota exhausted; ordinary ChatGPT primary"
-    }
-  ],
+  "role_history": [{"at":"2026-10-31T16:57:52Z","previous_preferred_executor":"work","previous_route_generation":1,"previous_active_automation_id":"6ae5e9d563f88191aa6da7c9ba1e05a0","reason":"direct owner report: Work quota exhausted; ordinary ChatGPT primary"}],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T16:57:52Z",
-  "reserve_automation_ids": [
-    "6adc585e7ac08191bb93825117dc7213",
-    "6acae6ab433481919e88665c520b8ef2"
-  ],
+  "updated_at": "2026-10-31T16:59:22Z",
+  "reserve_automation_ids": ["6adc585e7ac08191bb93825117dc7213","6acae6ab433481919e88665c520b8ef2"],
   "coordination_rules": "ops/LAUNCHER-COORDINATION.md",
   "coordination_guard": "scripts/launcher_coordination.py",
   "independent_wake": true,
   "preferred_role_is_not_exclusive": true,
   "wait_for_other_executor_failure_ack": false,
-  "work_capacity": {
-    "state": "exhausted",
-    "source": "direct_owner_report",
-    "reported_at": "2026-10-31T16:39:49Z",
-    "platform_quota_independently_verified": false
-  },
-  "restore_work_primary": {
-    "authorized_by_owner": true,
-    "requires": "fresh direct owner confirmation OR verified Work runtime, GUI controls and available quota; never enabled/no_update/elapsed time",
-    "ordinary_schedule_stays_enabled": true
-  },
+  "work_capacity": {"state":"exhausted","source":"direct_owner_report","reported_at":"2026-10-31T16:39:49Z","platform_quota_independently_verified":false},
+  "restore_work_primary": {"authorized_by_owner":true,"requires":"fresh direct owner confirmation OR verified Work runtime, GUI controls and available quota; never enabled/no_update/elapsed time","ordinary_schedule_stays_enabled":true},
   "peers": {
-    "ordinary": {
-      "enabled": true,
-      "automation_ids": [
-        "6ae5e9d563f88191aa6da7c9ba1e05a0"
-      ],
-      "receipt": "reports/topview-slot-backup-cycle.json",
-      "handoff_to_work_allowed": false
-    },
-    "work": {
-      "enabled": true,
-      "automation_ids": [
-        "6adc585e7ac08191bb93825117dc7213",
-        "6acae6ab433481919e88665c520b8ef2"
-      ],
-      "receipts": [
-        "reports/topview-event-wake.json",
-        "reports/topview-launcher-cycle.json"
-      ]
-    }
+    "ordinary": {"enabled":true,"automation_ids":["6ae5e9d563f88191aa6da7c9ba1e05a0"],"receipt":"reports/topview-slot-backup-cycle.json","handoff_to_work_allowed":false},
+    "work": {"enabled":true,"automation_ids":["6adc585e7ac08191bb93825117dc7213","6acae6ab433481919e88665c520b8ef2"],"receipts":["reports/topview-event-wake.json","reports/topview-launcher-cycle.json"]}
   },
   "foreground_owners": {
-    "ordinary": {
-      "session_id": "ordinary-chat-0c7545a5-205e-45ca-8e4b-db211ebc32b3",
-      "epoch": 1,
-      "conversation_id": null,
-      "conversation_id_unavailable_reason": "not_exposed_in_current_interactive_tools",
-      "accepted_at": "2026-10-31T16:57:52Z",
-      "source": "direct_owner_role_transfer",
-      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
-    }
+    "ordinary": {"session_id":"ordinary-chat-0c7545a5-205e-45ca-8e4b-db211ebc32b3","epoch":1,"conversation_id":null,"conversation_id_unavailable_reason":"not_exposed_in_current_interactive_tools","accepted_at":"2026-10-31T16:57:52Z","source":"direct_owner_role_transfer","work_id":"TOPVIEW-SLOT-PRIORITY-20261024"}
   }
 }
