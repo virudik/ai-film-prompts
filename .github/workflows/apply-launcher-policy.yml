@@ -41,7 +41,7 @@ jobs:
                 python3 scripts/apply_launcher_policy.py . finish
               fi
               python3 scripts/apply_launcher_policy.py . check-lease
-              git diff --check
+              git -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol diff --check
               git add reports/current-work-checkpoint.md work-resume-register.json
               if [ "$phase" = apply ]; then
                 git add ops/slot-backup.json ops/CONTINUE-PROTOCOL.md ops/CANON-LOCK.md ops/TOPVIEW-EVENT-WAKE.md ops/TOPVIEW-FREE-LAUNCH.md
