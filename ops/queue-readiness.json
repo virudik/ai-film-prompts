@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "2d5d3fd260031ca3fef19887b1eb917208b99e4e4d28f045f203a33bfc8d601d",
+  "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
   "source_task_map_sha256": "e943b77f54815bd7e646e22db38d34177c58f06353e9592adcab8645824cfd2d",
   "topview_checked_at": "2026-10-31T11:10:22Z",
   "items": [
@@ -410,15 +410,6 @@
       "queue_state": "blocked_inputs"
     },
     {
-      "id": "S72-WAN30",
-      "scene_id": 72,
-      "part_label": "72",
-      "code": "preflight_required",
-      "ready": false,
-      "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "claimed"
-    },
-    {
       "id": "S71-WAN30",
       "scene_id": 71,
       "part_label": "71",
@@ -501,5 +492,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-31T11:10:28.924922Z"
+  "checked_at": "2026-10-31T11:17:11.552233Z"
 }
