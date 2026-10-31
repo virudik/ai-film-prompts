@@ -2,21 +2,17 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "f7fccde5-db25-4060-b5ec-0dc3979ff777",
-  "run_id": "844d6c98-1a68-8320-b6e0-b54a3b5090c8",
-  "run_id_source": "Automations.peek last_run.id for scheduled 2026-10-31T21:00:00Z started 2026-10-31T21:02:38.436371Z (matches this running task; prior latest_result different)",
-  "source_head": "6593384bd71b30932cac46bacdf590b26748b270",
+  "execution_instance_id": "b7b35307-8d5f-4bd2-acdd-42dfbb98c9fe",
+  "run_id": "cecde0bb-6434-832b-805d-f96849567c74",
+  "run_id_source": "Automations.peek last_run.id, scheduled 2026-10-31T22:00:00Z and started 2026-10-31T21:58:05.569317Z; latest_result still prior run",
+  "source_head": "16524634de4641e4ab7879076853271aa448922c",
   "route_generation": 2,
-  "started_at": "2026-10-31T21:02:38.436371Z",
-  "checked_at": "2026-10-31T21:07:56.836Z",
-  "phase": "finished",
-  "scan_complete": true,
-  "scan_source": "Authenticated read-only Topview connector: all boards and every page; GitHub main corroboration",
-  "scan_scope": "14 boards; 17 nonempty board pages (14 first-page reads including empty boards plus 6 further My First Board pages); 952 unique tasks; 624 video tasks; final My First Board page-1 cross-check at 2026-10-31T21:07:56.836Z also found exact same 6 init task IDs",
-  "board_count": 14,
-  "pages": 17,
-  "total_tasks": 952,
-  "video_tasks": 624,
+  "started_at": "2026-10-31T21:58:05.569317Z",
+  "checked_at": "2026-10-31T22:01:41.780Z",
+  "phase": "started",
+  "scan_complete": false,
+  "scan_source": "Authenticated read-only Topview list boards and every task page, one board returns 5003",
+  "scan_scope": "14 boards discovered; 20 page requests; board Алина not accessible; 932 of 952 tasks observed",
   "occupied_slots": 6,
   "free_slots": 0,
   "active_task_ids": [
@@ -29,64 +25,23 @@
   ],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "no_free_slot",
+  "outcome": "checking",
   "blocker": null,
   "retryable": false,
-  "claims_changed": 0,
-  "new_submissions": 0,
-  "credits_spent": 0,
+  "browser_transport": "none; TinyFish not opened when six verified active slots",
   "tinyfish_runs": 0,
-  "browser_transport": "none; TinyFish not opened at global 6/6",
-  "browser_capability_probe": {
-    "attempted": false,
-    "reason": "No TinyFish wallet/API/UI call at verified global 6/6; no paid idle polling. Historical browser sign-in does not prove scheduled Create.",
-    "production_create_verified": false
+  "tinyfish_estimated_cost_usd": 0,
+  "tinyfish_confirmed_spend_usd": 0,
+  "topview_credits_spent": 0,
+  "acceptance": {
+    "current_hourly_runtime_observed": true,
+    "authenticated_gui_file_import_unlimited0_verified_in_this_run": false,
+    "task_create_verified_in_this_run": false
   },
   "quota_isolation_verified": false,
-  "work_limit_owner_reported": true,
-  "queue": {
-    "blob_sha": "96f70e7eeab44f9764a0ffb86c5a94ec36ab6961",
-    "items": 65,
-    "readiness_sha": "b5b4f33e1088e7239a243f72d815c594cf77598e",
-    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
-    "queue_sha_match": true,
-    "unresolved_claims": 0,
-    "ready_count": 31
-  },
-  "bot_wake_status": {
-    "bot_issue": 191,
-    "bot_issue_historical": true,
-    "relay_event_log_last_updated": "2026-10-29T23:22:31.873Z",
-    "last_robot_scan": "2026-10-31T20:40:21Z",
-    "active_capacity_from_live_scan": 6
-  },
-  "relay_last_run": {
-    "id": "96e8eca6-6958-832b-891c-040da1511391",
-    "status": "no_update",
-    "latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
-    "matches": false
-  },
-  "hourly_last_run": {
-    "id": "56362b4d-bff4-832a-a060-189f87b395bf",
-    "status": "no_update",
-    "latest_result_run_id": null,
-    "matches": false
-  },
   "lease": {
-    "holder": "chatgpt:ordinary:f7fccde5-db25-4060-b5ec-0dc3979ff777",
-    "acquired_at": "2026-10-31T21:06:49.429Z",
-    "expires_at": "2026-10-31T21:14:49.429Z"
-  },
-  "technical_acceptance": {
-    "ordinary_scheduled_run_under_owner_reported_work_limit": true,
-    "interactive_saved_tinyfish_session_and_reversible_controls_previously_verified": true,
-    "scheduled_tinyfish_run_verified": false,
-    "actual_reference_transfer_verified": false,
-    "unlimited_zero_and_16x9_verified": false,
-    "needed_free_Create_and_task_id_verified": false,
-    "quota_isolation_verified": false
-  },
-  "updated_at": "2026-10-31T21:08:13.499Z",
-  "verified_final_at": "2026-10-31T21:08:13.499Z",
-  "finalized_at": "2026-10-31T21:08:13.499Z"
+    "holder": "chatgpt:ordinary:b7b35307-8d5f-4bd2-acdd-42dfbb98c9fe",
+    "acquired_at": "2026-10-31T22:01:12.751Z",
+    "expires_at": "2026-10-31T22:16:12.751Z"
+  }
 }
