@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 48,
-  "updated_at": "2026-10-31T22:11:14.879901Z",
+  "updated_at": "2026-10-31T22:40:27.793031Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "blocked_continuity",
   "references": [
@@ -608,15 +608,31 @@
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S48-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_task_id": "8d7ff1e2de63478693778de29e0dd56e",
+          "source_drive_file_id": "1vQ1cynAhPMDbDMPa4GiEPOVwVZm_ZZJG",
+          "source_original_sha256": "e6d05cd0d193533a09189e8a345b3ce73460db906bffef0058a5f3671d0ae90c",
+          "library_file_id": "libfile_47e6031c53fc8191ade233483a1757a0",
+          "filename": "S48-P1-last3s.mp4",
+          "bytes": 2253712,
+          "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+          "duration_seconds": 3,
+          "fps": 24,
+          "frames": 72,
+          "width": 1280,
+          "height": 720,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_exclusive": 361,
+          "qc_status": "usable_for_continuity",
+          "qc_report": "references/scenes/scene-48/S48-P1-continuity.json",
+          "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Materialize the private Library file and recheck SHA before upload; never synthesize or mirror the join."
         },
         {
           "slot": "@Image1",
@@ -661,7 +677,8 @@
           "input_status": "available"
         }
       ],
-      "owner_generation_approval_inferred": false
+      "owner_generation_approval_inferred": false,
+      "continuity_report": "references/scenes/scene-48/S48-P1-continuity.json"
     },
     {
       "prompt_id": "S48-SEED20-P3",

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "item_id": "S48-SEED20-P2",
+  "recorded_at": "2026-10-31T22:40:27.793031Z",
+  "source": {
+    "task_id": "8d7ff1e2de63478693778de29e0dd56e",
+    "source_item_id": "S48-SEED20-P1",
+    "drive_file_id": "1vQ1cynAhPMDbDMPa4GiEPOVwVZm_ZZJG",
+    "sha256": "e6d05cd0d193533a09189e8a345b3ce73460db906bffef0058a5f3671d0ae90c",
+    "bytes": 11718867,
+    "video_frames": 361,
+    "fps": 24
+  },
+  "clip": {
+    "slot": "@Video1",
+    "required": true,
+    "canonical_role": "previous_part_end",
+    "input_status": "available",
+    "source_item_id": "S48-SEED20-P1",
+    "source_task_id": "8d7ff1e2de63478693778de29e0dd56e",
+    "source_drive_file_id": "1vQ1cynAhPMDbDMPa4GiEPOVwVZm_ZZJG",
+    "source_original_sha256": "e6d05cd0d193533a09189e8a345b3ce73460db906bffef0058a5f3671d0ae90c",
+    "library_file_id": "libfile_47e6031c53fc8191ade233483a1757a0",
+    "filename": "S48-P1-last3s.mp4",
+    "bytes": 2253712,
+    "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+    "duration_seconds": 3,
+    "fps": 24,
+    "frames": 72,
+    "width": 1280,
+    "height": 720,
+    "source_start_frame_zero_based": 289,
+    "source_end_frame_exclusive": 361,
+    "qc_status": "usable_for_continuity",
+    "qc_report": "references/scenes/scene-48/S48-P1-continuity.json",
+    "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Materialize the private Library file and recheck SHA before upload; never synthesize or mirror the join."
+  },
+  "storage": "Private Library video; GitHub contains the authoritative binding/provenance and SHA, not a public film copy.",
+  "verification": {
+    "library_upload_succeeded": true,
+    "library_download_readback_sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+    "library_readback_checked_at": "2026-10-31T22:32:50Z",
+    "ffprobe_duration_seconds": 3,
+    "ffprobe_frames": 72,
+    "ffprobe_resolution": "1280x720",
+    "audio_stream_duration_seconds": 3
+  },
+  "continuity_qc": {
+    "status": "usable_for_continuity",
+    "reviewer": "chatgpt",
+    "scope": "Tail sampled at4fps and terminal full-resolution frame, exact source-frame and technical stream checks; not continuous full-frame-rate playback or final editorial acceptance.",
+    "observations": [
+      "Central purple-robed figure retains the captured module at chest height; blue-bladed pursuer right; kneeling figure and dropped weapon foreground-left.",
+      "One segmented worm remains visible at a distance behind the ruins; revised continuation shows its approach, not a nearby reset.",
+      "Same camera axis, ruins, light and final-frame geometry; no generated or interpolated replacement."
+    ],
+    "audio_preserved": true,
+    "audio_listened": false,
+    "independent_face_sheet_comparison": false,
+    "owner_selected_source_for_continuation": true,
+    "editorial_approval_inferred": false
+  },
+  "extraction": {
+    "start_frame_zero_based": 289,
+    "end_frame_exclusive": 361,
+    "method": "Final72 original frames; timestamps reset N/24; H264 CRF16 yuv420p; corresponding original audio trimmed and AAC-encoded."
+  },
+  "prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d"
+}

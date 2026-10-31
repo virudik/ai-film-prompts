@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-31T22:11:14.879901Z",
+  "updated_at": "2026-10-31T22:40:27.793031Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2006,8 +2006,8 @@
       "canonical_block_label": "48 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
       "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
-      "priority": 0.41,
-      "state": "blocked_inputs",
+      "priority": -0.98,
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2025,9 +2025,25 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S48-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_task_id": "8d7ff1e2de63478693778de29e0dd56e",
+          "source_drive_file_id": "1vQ1cynAhPMDbDMPa4GiEPOVwVZm_ZZJG",
+          "source_original_sha256": "e6d05cd0d193533a09189e8a345b3ce73460db906bffef0058a5f3671d0ae90c",
+          "library_file_id": "libfile_47e6031c53fc8191ade233483a1757a0",
+          "filename": "S48-P1-last3s.mp4",
+          "bytes": 2253712,
+          "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+          "duration_seconds": 3,
+          "fps": 24,
+          "frames": 72,
+          "width": 1280,
+          "height": 720,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_exclusive": 361,
+          "qc_status": "usable_for_continuity",
+          "qc_report": "references/scenes/scene-48/S48-P1-continuity.json",
+          "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Materialize the private Library file and recheck SHA before upload; never synthesize or mirror the join."
         },
         {
           "slot": "@Image1",
@@ -2080,8 +2096,8 @@
       "depends_on_completed": [
         "S48-SEED20-P1"
       ],
-      "blocker": "Actual ending of S48-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256": [
         "c7f4522e2d9ffa7e4d34b429bcee5f092c6e4ccd08555da1cfb5a707e18a8113",
         "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3"
@@ -2092,7 +2108,21 @@
         "at": "2026-10-23T14:16:11Z",
         "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
       },
-      "revision_note_20261101": "Owner correction: actual S48.1 end has Serega centre, Ilyusha right, Artem kneeling foreground-left; the SAME worm is visible at a distance behind them and approaches before the leap. No new submission or READY inferred."
+      "revision_note_20261101": "Owner correction: actual S48.1 end has Serega centre, Ilyusha right, Artem kneeling foreground-left; the SAME worm is visible at a distance behind them and approaches before the leap. No new submission or READY inferred.",
+      "priority_before_20261101_owner_after_vitalik": 0.41,
+      "continuity_prepared_at": "2026-10-31T22:40:27.793031Z",
+      "continuity_report": "references/scenes/scene-48/S48-P1-continuity.json",
+      "owner_instruction_20261101_after_vitalik": {
+        "at": "2026-10-31T22:40:27.793031Z",
+        "quote": "Сцену на сайте поправил? Если считаешь сцену готовой то ставь после Виталиков и продолжай отслеживание слотов и запуск по очереди",
+        "order": [
+          "S72-WAN30",
+          "S71-WAN30",
+          "S48-SEED20-P2"
+        ],
+        "meaning": "Launch priority only, not dependency on completion of Vitalik results. Existing ready-skip and real continuity dependencies remain.",
+        "source": "Direct owner current interactive chat"
+      }
     },
     {
       "id": "S48-SEED20-P3",

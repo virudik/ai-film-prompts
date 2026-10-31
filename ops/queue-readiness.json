@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "6c0372de0b30bcdfb03bee55243315024f126987f47d38b0907b6e30c9049e28",
+  "source_queue_sha256": "68f8cdf88b8e1acb4ad8d1c9ed871441cabcf4e47c59002ae7d1be7aea3cbf68",
   "source_task_map_sha256": "eb19803d2fc0a94f9372e664edf545bfbe228745a1ae0fbddff59e1d416edf59",
   "topview_checked_at": "2026-10-31T22:20:20Z",
   "items": [
@@ -143,10 +143,10 @@
       "id": "S48-SEED20-P2",
       "scene_id": 48,
       "part_label": "Часть 2",
-      "code": "prepare_continuity",
-      "ready": false,
-      "text": "@Video1: результат 48 · Seedance 2.0 часть 1 получен — подготовить и проверить стык",
-      "queue_state": "blocked_inputs"
+      "code": "ready",
+      "ready": true,
+      "text": "Готова по входам, ждёт свободный слот",
+      "queue_state": "waiting_for_slot"
     },
     {
       "id": "S48-SEED20-P3",
@@ -492,5 +492,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-10-31T22:20:24.849394Z"
+  "checked_at": "2026-10-31T22:40:28.303235Z"
 }

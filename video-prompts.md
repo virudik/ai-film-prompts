@@ -3134,7 +3134,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`; @Image6 — `references/scenes/scene-17/S17-Image4-topview-source.png`.
 
-**Входы части 2:** @Video1 — конец части 1 (её последние секунды); @Image1–@Image6 — те же файлы, что в части 1.
+**Входы части 2 — готовы (01.11.2026):** @Video1 — `S48-P1-last3s.mp4`, настоящие последние 3,000 с выбранного результата 48.1 (72 кадра, 24 кадра/с, 1280×720, со звуком), сохранённые в приватной Library; [привязка, SHA256 и проверка стыка](references/scenes/scene-48/S48-P1-continuity.json). @Image1–@Image6 — те же шесть проверенных файлов, что в части 1. Начало продолжает реальную расстановку и видимого вдали червя, без повторного захвата карты. **48.2 готова по входам и поставлена по приоритету сразу после 72 → 71 с Виталиком; ожидать готового результата этих сцен не требуется.** Перед отправкой повторно проверить живую очередь и свободный слот. 48.3 и 48.4 по-прежнему ждут настоящие результаты предшествующих частей; готовность 48.2 не означает готовность всей цепочки.
 
 #### 48 · Seedance 2.0 часть 1
 

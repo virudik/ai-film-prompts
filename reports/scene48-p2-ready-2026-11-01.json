@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "item_id": "S48-SEED20-P2",
+  "applied_at": "2026-10-31T22:40:27.793031Z",
+  "source_head": "9f97b11815e41a5954dc72df9b8df8bacf6efec0",
+  "result": "ready_inputs_waiting_for_slot",
+  "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
+  "clip_binding": {
+    "slot": "@Video1",
+    "required": true,
+    "canonical_role": "previous_part_end",
+    "input_status": "available",
+    "source_item_id": "S48-SEED20-P1",
+    "source_task_id": "8d7ff1e2de63478693778de29e0dd56e",
+    "source_drive_file_id": "1vQ1cynAhPMDbDMPa4GiEPOVwVZm_ZZJG",
+    "source_original_sha256": "e6d05cd0d193533a09189e8a345b3ce73460db906bffef0058a5f3671d0ae90c",
+    "library_file_id": "libfile_47e6031c53fc8191ade233483a1757a0",
+    "filename": "S48-P1-last3s.mp4",
+    "bytes": 2253712,
+    "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+    "duration_seconds": 3,
+    "fps": 24,
+    "frames": 72,
+    "width": 1280,
+    "height": 720,
+    "source_start_frame_zero_based": 289,
+    "source_end_frame_exclusive": 361,
+    "qc_status": "usable_for_continuity",
+    "qc_report": "references/scenes/scene-48/S48-P1-continuity.json",
+    "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Materialize the private Library file and recheck SHA before upload; never synthesize or mirror the join."
+  },
+  "priority_before": 0.41,
+  "priority_after": -0.98,
+  "launch_order": [
+    "S72-WAN30",
+    "S71-WAN30",
+    "S48-SEED20-P2"
+  ],
+  "order_is_completion_dependency": false,
+  "all_six_image_sha256_verified": true,
+  "new_video_submissions": 0,
+  "topview_credits_spent": 0,
+  "tinyfish_agent_runs": 0,
+  "public_prompt_before_edit": {
+    "checked_at": "2026-10-31T22:40:27.793031Z",
+    "verified": true,
+    "http_status": 200,
+    "prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d"
+  },
+  "scheduled_executor": {
+    "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "enabled_verified_in_this_chat": true,
+    "schedule": "hourly HH:00 Europe/Moscow",
+    "uses_fresh_canonical_priority": true,
+    "production_tinyfish_create_verified": false
+  },
+  "later_parts": "48.3/4 remain gated by real preceding results; no approval/rerender"
+}
