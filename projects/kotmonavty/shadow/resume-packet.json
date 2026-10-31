@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-10-31T05:23:55+00:00",
-  "source_head": "2994cbad0792be799e0687d17ef4d8d0e351e4d7",
-  "source_fingerprint": "2e737118b7b48ba301de95d668da0ade4397678456c74cc74d51bd3bde975fcf",
+  "checked_at": "2026-10-31T05:33:53+00:00",
+  "source_head": "41aeb1821a2f3f0701894a139f02bececa68851b",
+  "source_fingerprint": "2fa541bfaee88c54f860242ed5e015aab0d5bfcc5dcd9e874a9d2c04674d7225",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -230,7 +230,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "0bf3f2fcf42bac1e1ed6a2d8952bf46d01eebf83ed54abfd2aae7bf8dcc21759",
+      "sha256": "7f89be9410ec48e4ee1cd61e6056af0f6f20279be9d55c9680fe59c2ac106741",
       "bytes": 22379
     },
     {
@@ -300,13 +300,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "8ae9ced58fd4352d86a1cc72aa77fe6879e3eebc19d8b793e9fe2f56c9ab1c61",
+      "sha256": "e89b4ece3ff964b274b057c03721c8bbbefcd722cd6d091465c35125d600210c",
       "bytes": 25088
     },
     {
       "file": "video-prompts.md",
-      "sha256": "36cba4835cc63fe773777e1bd678d5cd2ef5e64f683e2a210fc6f395ddf0eb2b",
-      "bytes": 1339540
+      "sha256": "f13fbeb83b7d3b89eaf2197d6a6dd96dbf3bc6a2dd78090c87e7d18836315722",
+      "bytes": 1339857
     }
   ],
   "packet_bytes": 7647
