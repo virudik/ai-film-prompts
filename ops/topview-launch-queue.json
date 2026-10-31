@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-31T11:08:19Z",
+  "updated_at": "2026-10-31T11:13:46Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5473,7 +5473,7 @@
       "canonical_prompt_sha256": "046f17aae19d9da04d7c440c878e54d54e8d54c48321ff2e6d0f6e1e798781dd",
       "normalized_prompt_sha256": "157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1",
       "priority": -1,
-      "state": "claimed",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5521,8 +5521,16 @@
           "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
         }
       ],
-      "task_id": null,
-      "claim": {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "claim": null,
+      "blocker": null,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner30Oct: new scene 72 (prologue, Vitalik on the same hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
+      "result_review_required": true,
+      "result_review_policy": "Check Vitalik's identity, the single hookah throne, the two flanking women, exact Russian lines with lip-sync and the dive into the hookah glass. Success is not acceptance.",
+      "created_at": "2026-10-30T20:54:49Z",
+      "last_claim": {
         "run_id": "chatgpt-cloud-20261031-continue-s72",
         "claimed_at": "2026-10-31T11:08:19Z",
         "claimed_by": "chatgpt",
@@ -5552,13 +5560,9 @@
           "open_owner_tasks": 0
         }
       },
-      "blocker": null,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner30Oct: new scene 72 (prologue, Vitalik on the same hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
-      "result_review_required": true,
-      "result_review_policy": "Check Vitalik's identity, the single hookah throne, the two flanking women, exact Russian lines with lip-sync and the dive into the hookah glass. Success is not acceptance.",
-      "created_at": "2026-10-30T20:54:49Z"
+      "submitted_at": "2026-10-31T11:08:48Z",
+      "receipt": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.jpg"
     },
     {
       "id": "S71-WAN30",
@@ -6409,22 +6413,23 @@
     "history_only": true
   },
   "last_live_scan": {
-    "at": "2026-10-30T15:55:00Z",
+    "at": "2026-10-31T11:09:40Z",
     "boards": 14,
-    "pages": 20,
-    "tasks": 951,
+    "pages": 18,
+    "tasks": 624,
+    "scan_scope": "video tasks across all owned boards; images not enumerated",
     "active_videos": 6,
-    "active_images": 0,
-    "source": "Topview complete all-board/all-page scan; direct detail checks for all six active tasks",
+    "source": "Complete Topview read-only all-board video scan and direct details for all six active tasks",
     "active_task_ids": [
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
       "c72c1ab4524e4f2f9d3a0272474f788a",
       "025955aad2cf494da2b4104d26c36ed5",
       "0de1f663432646d294f409a22e20a26e",
       "b0915b04173c414e9ac08652d34b7852",
-      "c65c30d8cbe14e9eadec886276e62471",
-      "8d7ff1e2de63478693778de29e0dd56e"
+      "c65c30d8cbe14e9eadec886276e62471"
     ],
-    "free_video_slots": 0
+    "free_video_slots": 0,
+    "evidence": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json"
   },
   "owner_instruction_20261017_2112": {
     "archived_to": "archive/ops/topview-launch-queue-archive.json",

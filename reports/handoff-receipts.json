@@ -4,6 +4,168 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "seregius-continue-20261031-s72-submitted",
+      "project": "seregius",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "source_head": "2a171454ec80e6773bf7e64b3619a3343d2d9814",
+      "chat": {
+        "agent": "chatgpt",
+        "label": "ChatGPT: фактический приём Продолжай и подтверждённая отправка S72",
+        "session_id": "chatgpt-cloud-20261031-continue-s72",
+        "chat_id": null,
+        "identity_status": "unavailable"
+      },
+      "started_at": "2026-10-31T10:52:11Z",
+      "accepted_at": "2026-10-31T11:16:23Z",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "Fresh GitHub main 2a171454ec80e6773bf7e64b3619a3343d2d9814 verified via connector. After initial pin, robot updated only slow-state labels in master and derived project status/takeover brief; exact new blobs hydrated and all recovery checks passed again. S72 prompt SHA unchanged. Unexpired own lock and unchanged claim/checkpoint/register/receipt history read back before preparing CAS transaction."
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "continue_preflight.py: ready_for_short=true, ready_for_resume=true, no reasons; master and seven instruction hashes plus all 15 anchors verified. Final recovery packet revalidated against exact transaction bytes."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "Full shadow checkpoint and current recovery read. Focus TOPVIEW-SLOT-PRIORITY-20261024 retained. Initial checkpoint commit4335361422df924b4c905be6375ba4695becd1fa; final checkpoint points to actual S72 submission and fresh scan, next S71."
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "Fresh ops/owner-tasks.json read before claim: no open/taken/needs_owner tasks. Earlier S71 reference task already done."
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live read-only Supabase query immediately before claim for pending/in_progress/needs_owner returned []."
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "Signed-in Topview website used for four SHA-verified uploads and exactly one Create. UI exact7136-character prompt, all settings and Unlimited-free verified; backend task22dbd25cdd9f47cd9e44300e55f5e44f confirms normalized prompt/settings/Image1–4 and credits0. MCP generation was not used."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Own lock acquired8ab8088e694cc53809506040c9a743bed8db9a9f, read back and checked unexpired before CAS claim6a44f5af81b1b961296c258fe814e51994cbb832. Claim readback passed before Create. Lock released with this receipt transaction."
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-10-31T11:08:48Z",
+        "description": "Продолжена разрешённая очередь: S72-WAN30 отправлена одним бесплатным веб-Create и сверена по фактическому task ID; глобальные слоты пересчитаны —6/6.",
+        "state": "completed",
+        "evidence": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json; reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json; reports/current-work-checkpoint.md"
+      },
+      "request_sha256": "cc0a617ada6237dc2eee76df690359e2fdd861395d554aefb6f6458faab947fe",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+          "bytes": 34298
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+          "bytes": 18925
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "2dc9676df8c75a722687e71b7eb3c36d1a9247aa9e30f2a92814904b4248df48",
+          "bytes": 33788
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
+          "bytes": 74610
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+          "bytes": 16692
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "facf5e8d815e877745b8f9f1675cf531d28783f68b6421a0b2e04a66370f7537",
+          "bytes": 125935
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "dab4dada768960c032df56e011aea7a5d55517d786ed99ed74af81c6abd8e8a0",
+          "bytes": 80869
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "d43749d2826166aeae386e67e71f7c724733c78986641d454cf33f8af32820e3",
+          "bytes": 5134
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "9eb0b29037b547dd8553326ce34ef4ba6f90fed5c4c08bd342883852277e6ec9",
+          "bytes": 40928
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+          "bytes": 356704
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "0d60e3c6bd4c6457fd1b67cc43740ff8bc1c81e15750371b2ab835c9d9edce74",
+          "bytes": 22402
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "6dc6d7f06671d2ff7c4ecf16ec733a73ce0edefd2ca4d772547634b7d0662a73",
+          "bytes": 18488
+        },
+        {
+          "file": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
+          "sha256": "c194650e5e45d88ad20506728676fdc75503a1ad77c7b889bb80c2282be60139",
+          "bytes": 5004
+        },
+        {
+          "file": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json",
+          "sha256": "b51fc921e7449834ccfb98f8c14353df9feeda063b597ad19a023b7eee9010b7",
+          "bytes": 14595
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "e814efa58060a666a06961b7d6950eab3f69e0a1fd6dc0c0c98aacfd8fd930b2",
+          "bytes": 33589
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "b71fb80286ae6e89edcb733808f28acb2951b7939b5df27f0477934bb0518999",
+          "bytes": 25096
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "303f429a4a6246190b846c900a5bac99aee0117b1007782b1008e3bc3ba2e409",
+          "bytes": 1340264
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "50df3d5a9b53483ef16f88cf3547a53c55ca9baf98f8c4e35bba261d8a63974a",
+          "bytes": 83152
+        }
+      ],
+      "source_fingerprint": "709e9f68319daa3674d3c74f93bd7f09875946790dfaf18591b6f2837632f5f7",
+      "recorded_at": "2026-10-31T11:16:23Z",
+      "source_scope": "Pinned GitHub API HEAD plus exact source bytes in the same canonical transaction",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "seregius-successor-audit-20261028-beb26cfe80f8",
       "project": "seregius",
       "work_id": "SEREGIUS-PLAN-20261023",

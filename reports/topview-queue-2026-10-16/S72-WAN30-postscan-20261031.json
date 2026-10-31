@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "phase": "postsubmit S72",
+  "scope": "all owned Topview boards, every video-task page, read-only connector; direct details for all nonterminal videos",
+  "scan_started_at": "2026-10-31T11:09:10Z",
+  "checked_at": "2026-10-31T11:09:40Z",
+  "complete": true,
+  "board_pages_scanned": 1,
+  "boards_scanned": 14,
+  "video_task_pages_scanned": 18,
+  "video_tasks_scanned": 624,
+  "unique_video_task_ids": 624,
+  "errors": [],
+  "recovered_read_errors": [
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "initial_code": "5003",
+      "operation": "read-only direct detail",
+      "subsequent_code": "200",
+      "verified_status": "init"
+    }
+  ],
+  "boards": [
+    {
+      "board_id": "3db83056ccef4361a9563a4f77afa1d5",
+      "name": "Codex Creations",
+      "total_video_tasks": 0,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 0
+    },
+    {
+      "board_id": "6b246f75715f43be945f17b06bff9d88",
+      "name": "Проэкт Star Wars 2",
+      "total_video_tasks": 16,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 16
+    },
+    {
+      "board_id": "c934cec563ea45e1b37d12657821ebd5",
+      "name": "Разное",
+      "total_video_tasks": 0,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 0
+    },
+    {
+      "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+      "name": "Роскосмос",
+      "total_video_tasks": 0,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 0
+    },
+    {
+      "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+      "name": "Кот детектив",
+      "total_video_tasks": 11,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 11
+    },
+    {
+      "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+      "name": "Котмонавты",
+      "total_video_tasks": 4,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 4
+    },
+    {
+      "board_id": "db4b4d6d0abc4cb4b278ea80738639f2",
+      "name": "Мультики",
+      "total_video_tasks": 32,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 32
+    },
+    {
+      "board_id": "24a69085fab4497b9c1a52536252b63d",
+      "name": "Алина",
+      "total_video_tasks": 5,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 5
+    },
+    {
+      "board_id": "0aafc553d8a049d2bc21221511293830",
+      "name": "Новый драматический проект",
+      "total_video_tasks": 0,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 0
+    },
+    {
+      "board_id": "9f8ec3c1d7294675bfb87fa75577dec2",
+      "name": "Title: The Fight I Owe You\nCha",
+      "total_video_tasks": 35,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 35
+    },
+    {
+      "board_id": "29d5b28f0e744b9eb6bfbee47efb6ff9",
+      "name": "Generate directly based on the",
+      "total_video_tasks": 8,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 8
+    },
+    {
+      "board_id": "dde2634b5fb54e789bb22dd4c95a75b6",
+      "name": "Удачные",
+      "total_video_tasks": 22,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 22
+    },
+    {
+      "board_id": "caa5d8898f14442ea37c3278d156b3fe",
+      "name": "Проэкт Star Wars",
+      "total_video_tasks": 34,
+      "pages_scanned": 1,
+      "fetched_video_tasks": 34
+    },
+    {
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "name": "My First Board",
+      "total_video_tasks": 457,
+      "pages_scanned": 5,
+      "fetched_video_tasks": 457
+    }
+  ],
+  "slot_capacity": 6,
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_tasks": [
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-31T11:08:48Z",
+      "modified_at_utc": "2026-10-31T11:08:48Z",
+      "completed_at_utc": null,
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S72-WAN30",
+      "scene_id": 72,
+      "images_count": 4,
+      "videos_count": 0,
+      "details_verified": true
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-30T15:37:37Z",
+      "modified_at_utc": "2026-10-30T15:37:38Z",
+      "completed_at_utc": null,
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S61-SEED20-P1",
+      "scene_id": 61,
+      "images_count": 4,
+      "videos_count": 0,
+      "details_verified": true
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-29T23:20:18Z",
+      "modified_at_utc": "2026-10-29T23:20:19Z",
+      "completed_at_utc": null,
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S60-SEED20-P1",
+      "scene_id": 60,
+      "images_count": 4,
+      "videos_count": 1,
+      "details_verified": true
+    },
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-29T19:01:23Z",
+      "modified_at_utc": "2026-10-29T19:01:24Z",
+      "completed_at_utc": null,
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S62-SEED20-P1",
+      "scene_id": 62,
+      "images_count": 6,
+      "videos_count": 1,
+      "details_verified": true
+    },
+    {
+      "task_id": "b0915b04173c414e9ac08652d34b7852",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-29T08:07:31Z",
+      "modified_at_utc": "2026-10-29T08:07:32Z",
+      "completed_at_utc": null,
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S59-SEED20-P2",
+      "scene_id": 59,
+      "images_count": 3,
+      "videos_count": 1,
+      "details_verified": true
+    },
+    {
+      "task_id": "c65c30d8cbe14e9eadec886276e62471",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-28T06:51:02Z",
+      "modified_at_utc": "2026-10-28T06:51:03Z",
+      "completed_at_utc": null,
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S52-R2-SEED20-P1",
+      "scene_id": 52,
+      "images_count": 5,
+      "videos_count": 1,
+      "details_verified": true
+    }
+  ],
+  "new_since_preclaim": [
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-31T11:08:48Z",
+      "modified_at_utc": "2026-10-31T11:08:48Z",
+      "completed_at_utc": null,
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S72-WAN30",
+      "scene_id": 72,
+      "images_count": 4,
+      "videos_count": 0
+    }
+  ],
+  "technical_fail_candidates": [],
+  "historical_failure_count": 23,
+  "s72_task": {
+    "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "status": "init",
+    "created_at": "2026-10-31 11:08:48",
+    "model": "Wan 3.0",
+    "model_id": "qwen-wan3.0-video",
+    "duration": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "image_mode": "multiImage",
+    "sound": "on",
+    "unlimited": true,
+    "parameters_unlimited": true,
+    "credits": 0,
+    "input_images": [
+      {
+        "name": "Image1",
+        "resource_id": null,
+        "project_asset_id": null
+      },
+      {
+        "name": "Image2",
+        "resource_id": null,
+        "project_asset_id": null
+      },
+      {
+        "name": "Image3",
+        "resource_id": null,
+        "project_asset_id": null
+      },
+      {
+        "name": "Image4",
+        "resource_id": null,
+        "project_asset_id": null
+      }
+    ]
+  },
+  "s72_normalized_prompt_matches": [
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "media_type": "video",
+      "created_at_utc": "2026-10-31T11:08:48Z",
+      "modified_at_utc": "2026-10-31T11:08:48Z",
+      "completed_at_utc": null,
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "queue_item_id": "S72-WAN30",
+      "scene_id": 72,
+      "images_count": 4,
+      "videos_count": 0
+    }
+  ],
+  "s72_duplicate_count": 0,
+  "s71_reconciliation": {
+    "new_tasks_after_scene_creation": [
+      {
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "status": "init",
+        "media_type": "video",
+        "created_at_utc": "2026-10-31T11:08:48Z",
+        "modified_at_utc": "2026-10-31T11:08:48Z",
+        "completed_at_utc": null,
+        "model": "Wan 3.0",
+        "model_id": "qwen-wan3.0-video",
+        "duration_seconds": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0,
+        "queue_item_id": "S72-WAN30",
+        "scene_id": 72,
+        "images_count": 4,
+        "videos_count": 0
+      }
+    ],
+    "s71_found": false,
+    "reason": "Only new video since both 71/72 scene creation is exact-normalized S72 task; no S71 submission exists."
+  },
+  "input_verification": {
+    "api_input_count": 4,
+    "api_input_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4"
+    ],
+    "provider_resource_ids": [
+      {
+        "name": "Image1",
+        "resource_id": null
+      },
+      {
+        "name": "Image2",
+        "resource_id": null
+      },
+      {
+        "name": "Image3",
+        "resource_id": null
+      },
+      {
+        "name": "Image4",
+        "resource_id": null
+      }
+    ],
+    "scope": "API verifies four input names/count in Image1–Image4 order; provider resource IDs absent. Exact local bytes and UI association verified separately.",
+    "local_sources": [
+      {
+        "slot": "@Image1",
+        "path": "references/full/vitalik.jpg",
+        "exists": true,
+        "expected_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+        "actual_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+        "bytes": 277558,
+        "width": 1536,
+        "height": 1536,
+        "sha256_match": true
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/scenes/scene-71/S71-hookah-throne.png",
+        "exists": true,
+        "expected_sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3",
+        "actual_sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3",
+        "bytes": 2511565,
+        "width": 1664,
+        "height": 936,
+        "sha256_match": true
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+        "exists": true,
+        "expected_sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20",
+        "actual_sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20",
+        "bytes": 2394295,
+        "width": 1664,
+        "height": 936,
+        "sha256_match": true
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/scenes/scene-65/S65-bar-table.png",
+        "exists": true,
+        "expected_sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+        "actual_sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+        "bytes": 2250737,
+        "width": 1672,
+        "height": 941,
+        "sha256_match": true
+      }
+    ]
+  },
+  "note": "No GitHub writes, no browser, no submits/retries/claims. Signed URLs and account IDs excluded. Physical slots now full, S71 remains next ready item and must wait for a confirmed free slot.",
+  "prompt_verification": {
+    "canonical_raw_length": 7136,
+    "submitted_raw_length": 7196,
+    "canonical_sha256": "046f17aae19d9da04d7c440c878e54d54e8d54c48321ff2e6d0f6e1e798781dd",
+    "submitted_sha256": "735526f956dcfdc5eb520898076d1e9276e8a4df002bea2071f68c640d8db3d3",
+    "canonical_normalized_sha256": "157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1",
+    "submitted_normalized_sha256": "157f5a30640f72712001d5ff40efbb181e6ad42ccbcc75cf179fb337ca7366f1",
+    "normalized_equal": true,
+    "normalized_sha_matches_queue": true,
+    "input_slot_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4"
+    ],
+    "settings": {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "created_at": "2026-10-31 11:08:48",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "duration": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "image_mode": "multiImage",
+      "sound": "on",
+      "unlimited": true,
+      "parameters_unlimited": true,
+      "credits": 0
+    }
+  }
+}
