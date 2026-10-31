@@ -60,7 +60,7 @@
     "The available Automations API does not expose or set the execution mode, model, billing bucket or quota isolation. A prompt cannot prove isolation from Work limits.",
     "Current interactive Browser.list_tabs returned originating_browser_context_required; this does not invalidate the verified historical S72 website launch at 2026-10-31T11:08:48Z.",
     "Ten-minute addressed failover to the ordinary chat is not enabled; ordinary execution now uses the existing independent hourly :00 scheduled route and polls unfulfilled robot demand from GitHub without waiting for Work.",
-    "Historical schedule update had no saved TinyFish Topview sign-in or metered-run permission. Superseded for the interactive capability test only: after the owner saved the profile, TinyFish run 1f09855a-a4f0-43d8-8bb8-bf26516aa175 accepted the Topview session and performed reversible UI clicks. File transfer, Unlimited0/16:9 and scheduled browser launching remain unverified. The one-test USD0.20 authorization was used; recurring metered use is not authorized. See reports/tinyfish-topview-test-2026-10-31.json."
+    "TinyFish run 1f09855a-a4f0-43d8-8bb8-bf26516aa175 accepted the saved Topview session and performed reversible UI clicks. File transfer, Unlimited0/16:9 and scheduled browser launching remain unverified. The original one-test USD0.20 permission is historical; the later direct owner authorization for operational fallback is recorded in tinyfish_fallback. Configuration is not production acceptance."
   ],
   "registered_at": "2026-10-31T16:13:37Z",
   "registered_by": "chatgpt:slot-backup-activation:ae2efe6b-4866-4042-a399-5197de343821",
@@ -75,7 +75,7 @@
   ],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T19:33:20Z",
+  "updated_at": "2026-10-31T19:43:29Z",
   "reserve_automation_ids": [
     "6adc585e7ac08191bb93825117dc7213",
     "6acae6ab433481919e88665c520b8ef2"
@@ -173,6 +173,61 @@
     "video_create_performed": false,
     "one_test_authorization_used": true,
     "recurring_metered_use_authorized": false,
-    "next_action": "Further metered verification needs explicit budget; test image transfer and Unlimited0/16:9, then the existing hourly runtime. Do not repeat saved sign-in just because the profile metadata names Google. Do not treat this interactive smoke test as production launch acceptance."
+    "next_action": "Historical one-test authorization is consumed. Follow the later direct owner decision in tinyfish_fallback for operational paid UI transport. Saved sign-in and reversible clicks remain verified only for the original run; do not infer file upload, Unlimited0 or scheduled production acceptance."
+  },
+  "tinyfish_fallback": {
+    "enabled": true,
+    "owner_request_id": "owner-20261031-tinyfish-while-work-unavailable",
+    "owner_quote": "Тогда в отсутствие ворка загружаем через TinyFish. А проверка твоя часовая тебя будет будить для этого при освобождении слота?",
+    "recorded_at": "2026-10-31T19:43:29Z",
+    "authorization_source": "Direct owner message in the existing interactive project conversation after the completed one-shot test",
+    "condition": "Work unavailable; existing ordinary hourly launcher independently verifies free global slot and ready owner-authorized Seregius item",
+    "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "cadence": "hourly HH:00 Europe/Moscow; not an immediate slot-event wake",
+    "provider": "TinyFish",
+    "profile_id": "prof_0ac4618d0cf4456e",
+    "use_profile": true,
+    "use_vault": false,
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "recurring_metered_use_authorized": true,
+    "scope": "Necessary UI preparation and submission of existing owner-authorized queue items while Work is unavailable. No extra test video or new scene permission.",
+    "metering": {
+      "funding": "existing TinyFish Wallet balance only",
+      "topups_allowed": false,
+      "subscriptions_allowed": false,
+      "auto_reload_changes_allowed": false,
+      "stop_if_auto_reload_enabled": true,
+      "idle_slot_polling_through_tinyfish": false,
+      "paid_monitors_allowed": false,
+      "max_steps_per_run": 30,
+      "max_duration_seconds_per_run": 300,
+      "max_runs_per_item_per_cycle": 2,
+      "limit_source": "Conservative execution safeguards selected by the assistant; not an owner-stated dollar budget",
+      "before_each_run": "Read current wallet/rate; worst-case bounded run cost must fit remaining balance. No automatic repeated spending on the same unchanged unresolved blocker."
+    },
+    "submission_gates": [
+      "Complete fresh account-wide read-only scan before any paid browser run; no paid run at six occupied slots, no ready item or a foreign live lease.",
+      "All existing role, exact lease, fresh SHA, reconciliation, queue priority, input/QC and claim/intent protections remain required.",
+      "First prepare without Create; verify actual image/video file transfer, exact full prompt and all selected inputs, model/duration,720p,16:9,quantity1,visible selected Unlimited and zero Topview credits.",
+      "Only after own CAS claim/submitting intent/readback may a bounded run perform exactly one Create, with complete UI and lease rechecks. No feasible safe sequence means blocked, not relaxed gates.",
+      "Use native website UI only. Provider timeout may leave a run active; reconcile the existing run, never start a duplicate or repeat unknown Create.",
+      "Independently verify returned Topview task ID, complete normalized prompt, inputs/settings, Unlimited=true and credits=0 before recording submitted."
+    ],
+    "restore_after_work_recovery": "Use verified restored Work as preferred per existing coordination; keep ordinary hourly reserve. Do not use metered fallback unnecessarily.",
+    "acceptance": {
+      "owner_authorization": true,
+      "existing_hourly_runtime_observed": true,
+      "interactive_saved_signin_and_reversible_clicks": true,
+      "file_upload_verified": false,
+      "unlimited_zero_verified": false,
+      "scheduled_tinyfish_run_verified": false,
+      "production_submission_verified": false,
+      "state": "configured_authorized_pending_real_production_acceptance"
+    },
+    "automation_prompt_updated_at": "2026-10-31T19:43:29.364733+00:00",
+    "new_automations": 0,
+    "schedule_changed": false,
+    "relay_changed": false,
+    "new_topview_submissions_in_configuration_change": 0
   }
 }
