@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "record_type": "interactive_configuration_audit_not_runtime_receipt",
+  "checked_at": "2026-10-31T16:16:20Z",
+  "owner_request": "Обычный чат подхватывает разрешённую очередь через двухчасовую проверку без ожидания Work и без обязательной Relay-подписки; активировать резерв и проверить браузер. Сменяемость чатов, отсутствие дублей.",
+  "status": "scheduled_backup_enabled_browser_and_quota_acceptance_pending",
+  "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+  "control_plane": {
+    "update_confirmed": true,
+    "readback_confirmed": true,
+    "enabled": true,
+    "schedule_preserved": "BEGIN:VEVENT\nDTSTART:20261031T180000\nRRULE:FREQ=HOURLY;INTERVAL=2\nEND:VEVENT",
+    "timezone": "Europe/Moscow",
+    "new_automations_created_this_turn": 0,
+    "conversation_id_observed": "6ae605c7-cb60-83ed-88ab-cdac32a3b684",
+    "prompt_updated_at_observed": "2026-10-31T16:15:32.138255+00:00"
+  },
+  "implemented_in_backup_instructions": [
+    "Existing two-hour schedule is the wake mechanism; Relay subscription is not a prerequisite.",
+    "No handoff or delegation to Work/Codex; do not wait for another Продолжай.",
+    "Stable GitHub role pointer ops/slot-backup.json with active_automation_id and route_generation.",
+    "Compare the active role and exact unique execution owner before every canonical write and Create; generic chatgpt is a foreign owner.",
+    "Preserve all claims/unknown submissions and retry budgets; no TTL-based repeat Create.",
+    "A historical unrelated main-worker success does not suppress filling presently free capacity.",
+    "Requested browser capability test must run even when all slots are occupied; distinguish reading tabs from browser control.",
+    "Every real backup runtime must save its own outcome in reports/topview-slot-backup-cycle.json; this audit does not imitate that receipt.",
+    "Changing the owner's working chat does not require a duplicate schedule. An explicit replacement uses a tested new task, CAS role switch and retirement of the old backup."
+  ],
+  "configuration_commit": "943917673bcca6d4b5d99bb80a5ae6462cf4d59e",
+  "configuration_blob_sha": "8cd5a322fa6c57f852cf8b5d630dd7605624e343",
+  "prior_runtime_test": {
+    "run_id": "e9f94f32-5580-8329-8c1e-2a48e536e6fa",
+    "started_at": "2026-10-31T15:13:07.325576Z",
+    "completed_at": "2026-10-31T15:14:14.856574Z",
+    "recorded_status": "completed",
+    "latest_result_run_id": "e9f94f32-5580-8329-8c1e-2a48e536e6fa",
+    "result": "Reported 6/6 occupied slots from GitHub telemetry, no new video; proves task execution, not browser submission.",
+    "delivery_status": "unknown"
+  },
+  "current_interactive_browser_probe": {
+    "tool": "Browser.list_tabs",
+    "success": false,
+    "error": "Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
+    "scope": "Only the currently exposed Browser connector; not proof that the earlier cloud/browser session never existed."
+  },
+  "historical_website_launch_preserved": {
+    "item_id": "S72-WAN30",
+    "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "submitted_at": "2026-10-31T11:08:48Z",
+    "receipt": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json"
+  },
+  "unchanged_by_this_intervention": [
+    "Primary Relay address and subscription",
+    "Hourly HH:55 task and its saved prompt",
+    "Ten-minute robot code and schedule",
+    "Topview scene queue, references, owner approvals, retry budgets and task IDs",
+    "Seven canonical instruction documents"
+  ],
+  "remaining_acceptance": [
+    "Read the actual new backup runtime result and its browser capability evidence; no success claim from run_now acceptance alone.",
+    "No real backup browser Create has been proven; only a future authorized necessary submission can establish it.",
+    "Automations API does not expose execution mode/model/usage bucket; independence from Work quota remains unverified.",
+    "Role switch and unique-owner checks are executor instructions, not server-enforced Topview fencing or a completed rewrite of canon_lock.py.",
+    "Integrate the new registration into the seven-document/handoff consistency workflow after full instruction intake; no certification or full test suite was claimed in this bounded configuration activation."
+  ],
+  "new_video_submissions_this_intervention": 0,
+  "credits_spent_this_intervention": 0
+}
