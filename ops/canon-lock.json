@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:f7fccde5-db25-4060-b5ec-0dc3979ff777",
   "task": "Seregius HH:00 ordinary check: 14-board full scan, six occupied slots, own cycle receipt only; no Create",
   "acquired_at": "2026-10-31T21:06:49.429Z",
-  "expires_at": "2026-10-31T21:14:49.429Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T21:08:30.450Z",
   "rules": "ops/CANON-LOCK.md"
 }
