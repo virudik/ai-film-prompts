@@ -1,0 +1,41 @@
+name: Complete owner S48.2 readiness with actual checkpoint heading
+on:
+  push:
+    branches: [edit/s48p2-ready-20261031T2235Z]
+    paths: [.github/workflows/s48p2-ready-checkpoint-fix-once.yml]
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Run reviewed exact scripts with the one verified heading correction
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin 239f1e746837d35493a12f84dabe9e4aed5a6214
+          git show 239f1e746837d35493a12f84dabe9e4aed5a6214:.github/workflows/s48p2-ready-once.yml > /tmp/s48-reviewed.yml
+          python3 - <<'PY'
+          import subprocess
+          from pathlib import Path
+          lines=Path('/tmp/s48-reviewed.yml').read_text().splitlines(True)
+          blocks=[]; pos=0
+          while pos<len(lines):
+              if lines[pos].rstrip()=='        run: |':
+                  pos+=1; body=[]
+                  while pos<len(lines) and (lines[pos].startswith('          ') or not lines[pos].strip()):
+                      body.append(lines[pos][10:] if lines[pos].startswith('          ') else lines[pos]); pos+=1
+                  blocks.append(''.join(body))
+              else: pos+=1
+          assert len(blocks)==4
+          old="match=re.search(r'\\n## ',current); assert match; current=current[match.start()+1:]"
+          new="match=re.search(r'\\n#{1,6} ',current); assert match; current=current[match.start()+1:]"
+          assert blocks[1].count(old)==1
+          blocks[1]=blocks[1].replace(old,new)
+          for index,body in enumerate(blocks,1):
+              print('S48 guarded stage',index,flush=True)
+              subprocess.run(['bash','-e','-o','pipefail','-c',body],check=True)
+          PY
