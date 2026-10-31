@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-31T10:43:56+00:00",
-  "source_head": "f2a63762e3dd23652b564e54de85df037d1b5d09",
-  "source_fingerprint": "9a9a12ea0eec98cd43699210ffda507c007a04083edf8e6c0012536becc2865f",
+  "checked_at": "2026-10-31T11:03:07+00:00",
+  "source_head": "6c20f027a285ac7d8523847e1c9d7dba39579862",
+  "source_fingerprint": "446e6931726b946be862a25a3877e32dc1d35d6e2960d28d3515c2a5721fcb1a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -34,28 +34,29 @@
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
-    "status": "waiting_global_capacity",
-    "last_completed": "Опубликованы7 состояний инструментов и вариант публики с вуки;14 промтов,348 тестов, CI/public readback подтверждены",
-    "next_action": "Свежие очередь/слоты: продолжать разрешённые готовые части. Штурмовики и смешанный вариант отдельно блокированы Topview; не повторять автоматически.",
-    "verified_at": "2026-10-30T02:37:49+00:00",
+    "status": "preparing_authorized_launch",
+    "last_completed": "D7 принят по свежему main; полный scan подтвердил 5/6 активных видео, S72 следующая без дублей; правильная UI-доска и Unlimited0 выбраны. Входы/полный промт ещё проверяются, Create не выполнялся.",
+    "next_action": "Завершить получение и SHA256-проверку четырёх точных входов S72, загрузить их по порядку @Image1–4 и полный промт из master. Затем свежие main/слоты/отмены/Unlimited0, CAS-claim S72, один Create, сверка фактического task ID и receipt; после запуска пересчитать слоты. S71 следующая по живому priority.",
+    "verified_at": "2026-10-31T11:00:23Z",
     "blockers": [],
     "evidence": [
       {
-        "file": "reports/final-music-reference-states-2026-10-30.json",
-        "sha256": "c2c233812081a669cd71cc11fc369987cf8f28393975be67728305f47050e794"
+        "file": "reports/topview-queue-2026-10-16/S72-WAN30-preflight-20261031.json",
+        "sha256": "cebb0483af72345fdf61ec754889b9847bea28b0c60e1a8ea7958cbb266b7dbf"
       }
     ],
     "read_next": [
       "ops/topview-launch-queue.json",
-      "references/scenes/scene-51/manifest.json"
+      "references/scenes/scene-72/manifest.json",
+      "ops/TOPVIEW-FREE-LAUNCH.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Референсы рок-финала и варианты публики · 30.10.2026",
-      "sha256": "217e350b3b5ffa03460cd50ec5072a941430a2a5072edf967ed2498b48246bd9"
+      "anchor": "# Продолжай: приём D7 и подготовка S72 · 31.10.2026",
+      "sha256": "7b41dba4df15b6aa28e07e68761f6e6bbdfe85f146b39a8a9b630fa6d78ea3ca"
     }
   },
-  "checkpoint_text": "# Референсы рок-финала и варианты публики · 30.10.2026\n\nwork_id: SEREGIUS-PLAN-20261023\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nСемь недостающих состояний:51A–F результат разрушения,51G замах с целыми инструментами. Исправлена лишняя кисть промежуточного51G; ошибочный черновик не опубликован.14 автономных промтов различают начало/контакт/конец;7 ожидающих items обновлены без смены порядка и разрешений. Новых видео нет.\n\nNano Banana Pro: три разрешённых платных попытки, вуки готовы; штурмовики и смешанная толпа отклонены провайдером7000/35561575,1,6 возвращено, чистый расход0,8, баланс5,57. Последняя команда вновь разрешила вариант вуки напротив; прежняя отмена ниже историческая. Новый вариант — только галерея до выбора; действующий50A/B и их выбранные входы прежние. Два отсутствующих PNG не выдавать за готовые; не тормозить из-за них независимую очередь.\n\nСледом: свежие очередь/слоты/разрешения, продолжать готовые части без дублей и платных видео. Оценить будущие ролики по фактически отправленным промтам. Доказательства: `reports/final-music-reference-states-2026-10-30.json`. Контент8cb8a8692f3e9f243b56650a890a09645919f536:348 тестов и GitHub CI прошли; публичные master/status,8 PNG и8 миниатюр проверены. Замок освобождён финальной квитанцией.\n",
+  "checkpoint_text": "# Продолжай: приём D7 и подготовка S72 · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nИсходная контрольная точка перед запуском. Команда владельца: «Продолжай»; действующее решение 31.10 01:02 МСК ставит S72-WAN30, затем S71-WAN30 в начало очереди. Границы: выбранные канонические входы и промт, Wan 3.0 · 30 с · 720p · 16:9 · 1 ролик · Unlimited0; технический успех не означает приёмку.\n\nПодтверждено: свежий main `cbe44aa326381a80d081ad7dba07d63c448f4832`, D7 short/preflight ready, 15/15 инвариантов и хеши мастера/семи инструкций совпали. Полный scan 2026-10-31T10:52:34Z: 14 досок, 18 страниц, 623 видео, ошибок 0; занято 5/6, свободен 1 слот. Все пять активных task IDs перепроверены напрямую; новых технических fail и дублей S71/S72 нет. S48-P1 завершилась success, без редакционной приёмки. Открытых owner tasks и owner_decisions нет. Робот остаётся основным писателем телеметрии; задание HH:55 включено, последний no_update сам по себе не доказывает запуск.\n\nПервый фактический шаг выполнен: скан и сверка приоритетов; в авторизованном браузере открыта My First Board `1a6244cf1ae747ef847d949a80d6133c`, выбраны Wan 3.0/30s/720p/16:9/qty1 и «Безлимитный режим — бесплатно». Получение/проверка SHA четырёх файлов, их загрузка и сверка полного промта ещё не закончены. Create 0, claim нет, task ID нет, расходы 0. Собственный замок взят и прочитан обратно: `8ab8088e694cc53809506040c9a743bed8db9a9f`.\n\nСледующий шаг: Завершить получение и SHA256-проверку четырёх точных входов S72, загрузить их по порядку @Image1–4 и полный промт из master. Затем свежие main/слоты/отмены/Unlimited0, CAS-claim S72, один Create, сверка фактического task ID и receipt; после запуска пересчитать слоты. S71 следующая по живому priority.\n\nДоказательства: `reports/topview-queue-2026-10-16/S72-WAN30-preflight-20261031.json`. Историческая запись «6/6» ниже не является текущим состоянием.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -150,7 +151,8 @@
   ],
   "read_next": [
     "ops/topview-launch-queue.json",
-    "references/scenes/scene-51/manifest.json"
+    "references/scenes/scene-72/manifest.json",
+    "ops/TOPVIEW-FREE-LAUNCH.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -438,18 +440,18 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "b537ecd7cec3b04ca6a2fd5ea81b5b324f629807215d27e7a1621ac432844fab",
-      "bytes": 12392
-    },
-    {
-      "file": "reports/final-music-reference-states-2026-10-30.json",
-      "sha256": "c2c233812081a669cd71cc11fc369987cf8f28393975be67728305f47050e794",
-      "bytes": 25702
+      "sha256": "a41b0d322dd6324543434326784378666f9f91642260a9f974c22d294cb24944",
+      "bytes": 15297
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "4c9b7b8122947a7b411710e4e9be54d62a91b40f260e0c3adb4208cbce54dc32",
       "bytes": 20662
+    },
+    {
+      "file": "reports/topview-queue-2026-10-16/S72-WAN30-preflight-20261031.json",
+      "sha256": "cebb0483af72345fdf61ec754889b9847bea28b0c60e1a8ea7958cbb266b7dbf",
+      "bytes": 10787
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -468,9 +470,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "7ad74a7228e0aa3c578d372d8e6877c74a01411bfa0a1f32e428620def509d84",
-      "bytes": 81312
+      "sha256": "6ed2a55c84e41c99d7ff9b41b9fd37f496030aaf58f913ef6533545f281a37dd",
+      "bytes": 81708
     }
   ],
-  "packet_bytes": 6549
+  "packet_bytes": 7721
 }
