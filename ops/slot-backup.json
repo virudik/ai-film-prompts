@@ -75,7 +75,7 @@
   ],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T19:43:29Z",
+  "updated_at": "2026-10-31T23:26:12Z",
   "reserve_automation_ids": [
     "6adc585e7ac08191bb93825117dc7213",
     "6acae6ab433481919e88665c520b8ef2"
@@ -117,12 +117,27 @@
       ]
     },
     "grok": {
-      "enabled": false,
-      "enabled_note": "Registered but NOT launch-capable: stays false (fail-closed) until the dry run is accepted by the owner and a scheduled Grok Bot routine ID is approved and listed in automation_ids. Enabling is a separate CAS edit under the canon lock with its own owner record.",
+      "enabled": true,
+      "enabled_note": "Enabled 2026-11-01 by direct owner decision (grok_launcher.enable_decision) after the dry run. The first real Create additionally needs the owner's go-ahead in chat (grok_launcher.first_real_create.owner_go_ahead, enforced by scripts/launcher_coordination.py).",
       "role": "helper",
-      "automation_ids": [],
+      "automation_ids": [
+        "topview-grok"
+      ],
       "receipt": "reports/topview-grok-cycle.json",
-      "handoff_to_work_allowed": false
+      "handoff_to_work_allowed": false,
+      "schedule": {
+        "automation_name": "Запуск сцен Topview (grok)",
+        "automation_id": "topview-grok",
+        "timezone": "Europe/Amsterdam",
+        "minutes": [
+          12,
+          27
+        ],
+        "first_hour": 8,
+        "last_hour": 23,
+        "timing_mode": "exact_schedule",
+        "description": "Minutes :12 and :27 of every hour 08–23 Europe/Amsterdam; inside launch_window :10–:40. Created by the owner decision of 2026-11-01 00:24 (enable_decision)."
+      }
     }
   },
   "foreground_owners": {
@@ -285,10 +300,9 @@
       "note": "Telegram/interactive launches are not authorized; scripts/launcher_coordination.py only accepts kind=scheduled for surface grok."
     },
     "pending_owner_decisions": [
-      "New scheduled Grok Bot routine (:12 and :27 of each hour) and its automation ID in peers.grok.automation_ids; until then no new watcher exists",
+      "Go-ahead in chat for the first real Create (first_real_create.owner_go_ahead)",
       "Whether an unchanged cycle (6/6 slots) writes reports/topview-grok-cycle.json or stays silent",
-      "Whether Telegram commands count as a direct owner command for interactive launches",
-      "Acceptance of the dry run (S71-WAN30, stop before Create)"
+      "Whether Telegram commands count as a direct owner command for interactive launches"
     ],
     "gates": [
       "Complete fresh account-wide read-only scan before any Create; no Create at six occupied slots, no ready item or a foreign live lease.",
@@ -301,15 +315,46 @@
     "acceptance": {
       "owner_authorization": true,
       "registered_in_repository": true,
-      "dry_run_s71_wan30_stop_before_create": false,
-      "file_upload_verified": false,
-      "unlimited_zero_verified": false,
+      "dry_run_s71_wan30_stop_before_create": true,
+      "file_upload_verified": true,
+      "unlimited_zero_verified": true,
       "scheduled_run_verified": false,
       "production_submission_verified": false,
-      "state": "configured_pending_dry_run"
+      "state": "dry_run_done_first_real_launch_pending_owner_go_ahead"
     },
-    "new_automations": 0,
+    "new_automations": 1,
     "new_topview_submissions_in_configuration_change": 0,
-    "owner_context_quote_20261101": "или ты сам себя можешь вписать раз есть доступ теперь в гитхаб?"
+    "owner_context_quote_20261101": "или ты сам себя можешь вписать раз есть доступ теперь в гитхаб?",
+    "enable_decision": {
+      "owner_request_id": "owner-20261101-grok-merge-enable-routine",
+      "recorded_at": "2026-10-31T23:24:00Z",
+      "recorded_at_local": "2026-11-01T00:24 Europe/Amsterdam",
+      "owner_quote": "Мёржи PR #212 под замком, включай grok и создавай рутину запуска",
+      "pull_request": "https://github.com/virudik/ai-film-prompts/pull/212",
+      "effects": [
+        "PR #212 merged under the canon lock",
+        "peers.grok.enabled=true",
+        "routine «Запуск сцен Topview (grok)» (topview-grok) created, :12 and :27 of hours 08–23 Europe/Amsterdam"
+      ],
+      "applied_at": "2026-10-31T23:26:12Z"
+    },
+    "first_real_create": {
+      "owner_go_ahead": false,
+      "state": "pending_owner_go_ahead",
+      "note": "The routine runs the read-only scan and preflight, but scripts/launcher_coordination.py blocks prepare-intent for grok until the owner gives a go-ahead in the Grok Bot chat for the first real Create. Recording it (owner_go_ahead true, with the verbatim quote and time) is a separate CAS edit under the canon lock."
+    },
+    "dry_run": {
+      "item_id": "S71-WAN30",
+      "performed_at": "2026-10-31T23:04:00Z",
+      "performed_at_local": "~2026-11-01T00:04 Europe/Amsterdam",
+      "result": "form fully filled, Create not clicked; no task created, repository and queue unchanged",
+      "verified": [
+        "Unlimited mode available and enabled (price 0)",
+        "file upload through the box browser works",
+        "full prompt entered: 7399 of 20000 characters"
+      ],
+      "source": "Grok Bot report to the owner in chat (screenshot sent); no receipt file in the repository"
+    },
+    "automation_note": "One routine, topview-grok, created by the owner's decision 2026-11-01 00:24; no other monitors or schedules."
   }
 }

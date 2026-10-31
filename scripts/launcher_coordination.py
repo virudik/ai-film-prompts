@@ -99,6 +99,8 @@ def check_grok_policy(config, item, actor, now):
         raise Blocked('grok_launch_window_invalid') from error
     if not (first_hour <= local.hour <= last_hour and first_minute <= local.minute <= last_minute):
         raise Blocked('outside_grok_launch_window')
+    if (policy.get('first_real_create') or {}).get('owner_go_ahead') is not True:
+        raise Blocked('grok_first_real_create_pending_owner_go_ahead')
     if not policy.get('board_id') or item.get('board_id') != policy['board_id']:
         raise Blocked('grok_board_not_authorized')
     limit = policy.get('max_submissions_per_wake')

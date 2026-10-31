@@ -115,6 +115,7 @@ class GrokHelperTests(unittest.TestCase):
         self.cfg['peers']['grok'] = {'enabled': True, 'automation_ids': ['grok-task']}
         self.cfg['grok_launcher'] = {
             'board_id': BOARD, 'max_submissions_per_wake': 1,
+            'first_real_create': {'owner_go_ahead': True},
             'retries': {'enabled': True, 'policy_id': 'owner-20261030-technical-retry', 'max_retry_attempts': 2},
             'launch_window': {'timezone': 'Europe/Amsterdam', 'first_hour': 8, 'last_hour': 23,
                               'first_minute': 10, 'last_minute': 40}}
@@ -237,6 +238,12 @@ class GrokHelperTests(unittest.TestCase):
         actor = dict(self.actor, kind='interactive', session_id='s', foreground_epoch=1)
         with self.assertRaises(lc.Blocked): lc.check_route(self.cfg, actor)
         with self.assertRaises(lc.Blocked): lc.takeover(self.cfg, self.lock, dict(actor, session_id='new'), GROK_NOW, 'Продолжай')
+    def test_grok_first_real_create_needs_owner_go_ahead(self):
+        for value in (False, None, 'true'):
+            cfg = copy.deepcopy(self.cfg); cfg['grok_launcher']['first_real_create'] = {'owner_go_ahead': value}
+            with self.subTest(value=value), self.assertRaises(lc.Blocked): self.intent(cfg=cfg)
+        cfg = copy.deepcopy(self.cfg); del cfg['grok_launcher']['first_real_create']
+        with self.assertRaises(lc.Blocked): self.intent(cfg=cfg)
     def test_registry_file_registers_grok_fail_closed(self):
         import json
         cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops' / 'slot-backup.json').read_text(encoding='utf-8'))
@@ -246,16 +253,29 @@ class GrokHelperTests(unittest.TestCase):
         self.assertEqual(policy['role'], 'helper')
         self.assertEqual(policy['board_id'], BOARD)
         self.assertEqual(policy['max_submissions_per_wake'], 1)
-        self.assertEqual(policy['acceptance']['state'], 'configured_pending_dry_run')
+        self.assertEqual(policy['acceptance']['state'], 'dry_run_done_first_real_launch_pending_owner_go_ahead')
+        self.assertIs(policy['acceptance']['dry_run_s71_wan30_stop_before_create'], True)
+        self.assertIs(policy['first_real_create']['owner_go_ahead'], False)
+        self.assertEqual(policy['enable_decision']['owner_quote'], 'Мёржи PR #212 под замком, включай grok и создавай рутину запуска')
         self.assertIs(policy['retries']['enabled'], True)
         self.assertEqual(policy['retries']['max_retry_attempts'], 2)
         self.assertEqual(policy['retries']['policy_id'], 'owner-20261030-technical-retry')
         self.assertEqual(policy['retries']['owner_quote'], 'Да, разрешаю тебе повторы по TOPVIEW-RETRY')
-        # Not launch-capable until dry-run acceptance and an owner-approved routine ID.
-        self.assertIs(cfg['peers']['grok']['enabled'], False)
-        self.assertEqual(cfg['peers']['grok']['automation_ids'], [])
+        # Enabled by the owner (01.11.2026) but the first real Create is still gated by his go-ahead.
+        self.assertIs(cfg['peers']['grok']['enabled'], True)
+        self.assertEqual(cfg['peers']['grok']['automation_ids'], ['topview-grok'])
+        sched = cfg['peers']['grok']['schedule']
+        self.assertEqual((sched['minutes'], sched['first_hour'], sched['last_hour'], sched['timezone']),
+                         ([12, 27], 8, 23, 'Europe/Amsterdam'))
+        actor = {'execution_instance_id': C, 'surface': 'grok', 'kind': 'scheduled',
+                 'automation_id': 'topview-grok', 'route_generation': cfg['route_generation']}
+        self.assertTrue(lc.check_route(cfg, actor))
         with self.assertRaises(lc.Blocked):
-            lc.check_route(cfg, {'execution_instance_id': C, 'surface': 'grok', 'kind': 'scheduled',
-                                 'automation_id': 'anything', 'route_generation': cfg['route_generation']})
+            lc.check_route(cfg, dict(actor, automation_id='anything'))
+        # Both scheduled minutes fall inside the launch window.
+        w = policy['launch_window']
+        for minute in sched['minutes']:
+            self.assertTrue(w['first_minute'] <= minute <= w['last_minute'])
+
 
 if __name__=='__main__': unittest.main()

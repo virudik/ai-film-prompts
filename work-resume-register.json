@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-31T22:40:27.793031Z",
+  "last_updated_at": "2026-10-31T23:26:12Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-10-31T22:40:27.793031Z",
+      "updated_at": "2026-10-31T23:26:12Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
@@ -335,6 +335,20 @@
         "status": "ready_inputs_waiting_for_slot",
         "report": "reports/scene48-p2-ready-2026-11-01.json",
         "updated_at": "2026-10-31T22:40:27.793031Z"
+      },
+      "grok_launcher": {
+        "at": "2026-10-31T23:26:12Z",
+        "registry": "ops/slot-backup.json#grok_launcher",
+        "pull_request": "https://github.com/virudik/ai-film-prompts/pull/212",
+        "owner_quote": "Мёржи PR #212 под замком, включай grok и создавай рутину запуска",
+        "role": "helper",
+        "peer_enabled": true,
+        "automation_id": "topview-grok",
+        "schedule": ":12 and :27, hours 08–23 Europe/Amsterdam",
+        "retries": "enabled by owner 2026-11-01 00:12, max 2",
+        "acceptance": "dry_run_done_first_real_launch_pending_owner_go_ahead",
+        "first_real_create": "waits for owner go-ahead in chat",
+        "new_video_submissions": 0
       }
     },
     {
