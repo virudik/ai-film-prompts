@@ -1,19 +1,18 @@
 {
   "schema_version": 1,
-  "source": "ChatGPT scheduled backup",
+  "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "5e8f0516-78a2-4f1f-840f-2c550ca9f72b",
-  "run_id": "836b491b-777c-832e-9047-f02abdde4a4d",
-  "run_id_source": "Automations.peek.run_details.last_run.id; recorded_status=in_progress at inspection",
-  "source_head": "c4783b5b82781afd20b4693999106ec9310ad818",
-  "route_generation": 1,
-  "started_at": "2026-10-31T16:31:45.819795Z",
-  "checked_at": "2026-10-31T16:34:48.040Z",
-  "updated_at": "2026-10-31T16:34:48.040Z",
-  "phase": "finished",
+  "execution_instance_id": "e17d73bd-69cf-4c0d-b4c4-dfc43c7a0362",
+  "run_id": "05970402-9034-8320-a161-991ae586d7cb",
+  "run_id_source": "Automations.peek.current last_run.id with status=in_progress",
+  "route_generation": 2,
+  "source_head": "10f2c30a625f110f5d59d1c83423ce41455c5b65",
+  "started_at": "2026-10-31T17:02:38.405752Z",
+  "checked_at": "2026-10-31T17:08:08.894Z",
+  "phase": "started",
   "scan_complete": true,
-  "scan_source": "Live Topview read-only Board API all 14 boards, full video pagination, and direct six task details; cross-check GitHub main telemetry",
-  "scan_scope": "14 boards, 18 video pages, 624 distinct video tasks, no errors",
+  "scan_source": "Topview connector READ-ONLY: all 14 boards, complete video pagination; six direct task reads",
+  "scan_scope": "14 boards, 18 pages, 624 distinct video tasks; no page errors",
   "board_count": 14,
   "video_pages": 18,
   "video_tasks": 624,
@@ -29,9 +28,8 @@
     "c65c30d8cbe14e9eadec886276e62471"
   ],
   "task_ids": [],
-  "outcome": "no_free_slot",
+  "outcome": "checking",
   "blocker": null,
-  "quota_isolation_verified": false,
   "browser_capability_probe": {
     "attempted": true,
     "mode": "read_only",
@@ -40,44 +38,25 @@
     "controls_verified": false,
     "import_verified": false,
     "error": "UNKNOWN: Error code: UNKNOWN; Error: RuntimeException: Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
-    "classification": "blocked_browser_originating_context_missing; live Topview API is read-only",
-    "mcp_read_only_available": true,
-    "verified_prior_site_launch": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json"
+    "classification": "blocked_browser_originating_context_missing; Topview read-only Board API available"
+  },
+  "quota_isolation_verified": false,
+  "work_limit_owner_reported": true,
+  "readiness_consistency": {
+    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+    "queue_sha256_matches": true,
+    "source_task_map_sha256": "a12ca2d9fff7ccfe44ff4a9967d80433d198d58f1af7e0dba3840aa7e583d4a4",
+    "task_map_sha256_matches": true,
+    "readiness_checked_at": "2026-10-31T16:10:33.081943Z",
+    "ready_items": 31,
+    "prepare_continuity_items": 1
   },
   "lease": {
-    "holder": "chatgpt:slot-backup:5e8f0516-78a2-4f1f-840f-2c550ca9f72b",
-    "acquired_at": "2026-10-31T16:33:38.130Z",
-    "expires_at": "2026-10-31T16:53:38.130Z"
-  },
-  "notes": "No Create; six global free-mode video slots already occupied. Full direct Topview scan verified 624 video tasks across 14 boards; all six active task details status init. Browser UI remains inaccessible to this execution context, so autonomous website Create under Work limit remains unproven. Historical successful website S72 Create in another runtime remains valid. No Work/Codex handoff; no credits.",
-  "retryable": false,
-  "github_telemetry": {
-    "checked_at": "2026-10-31T16:10:26Z",
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "robot_cycle_completed_at": "2026-10-31T16:10:31Z",
-    "launcher_health": "capacity_full"
-  },
-  "readiness_consistency": {
-    "queue_sha256_matches": true,
-    "task_map_sha256_matches": true,
-    "readiness_checked_at": "2026-10-31T16:10:26Z",
-    "ready_items": 31,
-    "prepare_continuity_items": 1,
-    "sha_match_this_cycle": "not_recomputed; queue and readiness read afresh, no Create"
-  },
-  "primary_execution_observation": {
-    "relay_last_run_id": "96e8eca6-6958-832b-891c-040da1511391",
-    "relay_last_status": "no_update",
-    "relay_latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
-    "relay_result_matches_last_run": false,
-    "hourly_last_run_id": "2fe59d87-8808-832d-8ea3-aa55b914c566",
-    "hourly_last_status": "no_update",
-    "hourly_latest_result_run_id": null,
-    "relay_processing_receipt_for_last_robot_rewake": false
+    "holder": "chatgpt:ordinary:e17d73bd-69cf-4c0d-b4c4-dfc43c7a0362",
+    "acquired_at": "2026-10-31T17:07:42Z",
+    "expires_at": "2026-10-31T17:17:42Z"
   },
   "new_submissions": 0,
   "claims_changed": 0,
-  "credits_spent": 0,
-  "next_action": "On next valid invocation fresh-scan. If slot opens: require authorized website browser to Create, do not use paid MCP/Canvas. Recent owner instruction to make ordinary ChatGPT primary is not yet reflected in ops/slot-backup.json and should be resolved under separate guarded canonical change."
+  "credits_spent": 0
 }
