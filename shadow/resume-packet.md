@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-10-31T11:03:07+00:00
+Проверено: 2026-10-31T11:09:10+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: D7 принят по свежему main; полный scan подтвердил 5/6 активных видео, S72 следующая без дублей; правильная UI-доска и Unlimited0 выбраны. Входы/полный промт ещё проверяются, Create не выполнялся.
@@ -59,6 +59,7 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
 Задач с сохранённым task ID: 47
+- S72-WAN30: reconcile_without_resubmitting
 
 ## Пробелы
 
