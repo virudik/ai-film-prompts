@@ -8,27 +8,27 @@
   "source_head": "16524634de4641e4ab7879076853271aa448922c",
   "route_generation": 2,
   "started_at": "2026-10-31T21:58:05.569317Z",
-  "checked_at": "2026-10-31T22:01:41.780Z",
-  "phase": "started",
+  "checked_at": "2026-10-31T22:03:18.396Z",
+  "phase": "finished",
   "scan_complete": false,
-  "scan_source": "Authenticated read-only Topview list boards and every task page, one board returns 5003",
-  "scan_scope": "14 boards discovered; 20 page requests; board Алина not accessible; 932 of 952 tasks observed",
+  "scan_source": "Topview authenticated read-only connector, 14 board list; 20 individual page reads, 19 succeeded and one inaccessible",
+  "scan_scope": "14 boards; 20 requested pages, 19 successful, 16 nonempty; 932 distinct tasks of 952 expected; 619 videos of 624 expected. Main First Board all seven pages scanned (681 tasks), plus all other accessible boards.",
   "occupied_slots": 6,
   "free_slots": 0,
   "active_task_ids": [
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
     "b0915b04173c414e9ac08652d34b7852",
-    "c65c30d8cbe14e9eadec886276e62471"
+    "c65c30d8cbe14e9eadec886276e62471",
+    "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "checking",
-  "blocker": null,
-  "retryable": false,
-  "browser_transport": "none; TinyFish not opened when six verified active slots",
+  "outcome": "no_free_slot",
+  "blocker": "Partial all-board scan: Alina board 5003 Board not found, repeated; requires fresh complete scan before future Create when any capacity appears.",
+  "retryable": true,
+  "browser_transport": "none; TinyFish not opened at verified global 6/6",
   "tinyfish_runs": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_spend_usd": 0,
@@ -43,5 +43,60 @@
     "holder": "chatgpt:ordinary:b7b35307-8d5f-4bd2-acdd-42dfbb98c9fe",
     "acquired_at": "2026-10-31T22:01:12.751Z",
     "expires_at": "2026-10-31T22:16:12.751Z"
+  },
+  "board_count": 14,
+  "pages_requested": 20,
+  "pages_successful": 19,
+  "total_tasks_observed": 932,
+  "total_tasks_expected": 952,
+  "video_tasks_observed": 619,
+  "video_tasks_expected": 624,
+  "scan_errors": [
+    {
+      "board_id": "24a69085fab4497b9c1a52536252b63",
+      "board_name": "Алина",
+      "page": 1,
+      "error_code": "5003",
+      "message": "Board not found",
+      "read_only_retries": 2
+    }
+  ],
+  "capacity_basis": "Six independent, distinct init video task cards on My First Board, all six in latest prior full account census and current robot topview-status. Since global physical max is six, one inaccessible board cannot create a seventh available slot.",
+  "claims_changed": 0,
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "browser_capability_probe": {
+    "attempted": false,
+    "reason": "At six observed active global video slots no metered TinyFish session or wallet probe is permitted; prior reversible-click test does not verify file import, Unlimited0, or scheduled Create.",
+    "production_create_verified": false
+  },
+  "work_limit_owner_reported": true,
+  "queue": {
+    "blob_sha": "96f70e7eeab44f9764a0ffb86c5a94ec36ab6961",
+    "items": 65,
+    "readiness_blob_sha": "0afce189a49967e35cb916a45c284b3ea2a45265",
+    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+    "queue_sha_match": true,
+    "unresolved_claims": 0,
+    "ready_count": 31
+  },
+  "bot_wake_status": {
+    "last_robot_health_at": "2026-10-31T21:50:31Z",
+    "launcher_health": "capacity_full",
+    "latest_event": "slots:d23cf217:3",
+    "is_historical": true,
+    "confirmed_launch_task_ids": []
+  },
+  "relay_last_run": {
+    "id": "96e8eca6-6958-832b-891c-040da1511391",
+    "status": "no_update",
+    "latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+    "matches": false
+  },
+  "hourly_last_run": {
+    "id": "76634ebf-39d0-8321-9157-590f2a176b35",
+    "status": "no_update",
+    "latest_result_run_id": null,
+    "matches": false
   }
 }
