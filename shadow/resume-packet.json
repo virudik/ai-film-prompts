@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-31T12:12:10+00:00",
-  "source_head": "07ada5e7252b4c27a51799088ac0f0f9559f8fbb",
-  "source_fingerprint": "91706147a2a2d7ea078f6b0ba4ec43c94eeff3e46cb630034ae17aadb125a277",
+  "checked_at": "2026-10-31T12:24:06+00:00",
+  "source_head": "76c8e6cb6a4bc91ca0f0e69fd05f8695ba8705c0",
+  "source_fingerprint": "8ee7a468c6d75a9ac408b913a67b84503361824bed6a4503ad212cd24dee329e",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -34,29 +34,34 @@
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
-    "status": "fixing_launcher_recovery",
-    "last_completed": "Подтверждены5ч40м19с простоя, своевременные robot/Relay сигналы, незавершённый handler и исчерпанный re-wake cap.",
-    "next_action": "Закончить и проверить исправление watchdog; обновить существующие задания без смены расписания/подписки; опубликовать CAS/readback и проверить workflow.",
-    "verified_at": "2026-10-31T11:25:41+00:00",
+    "status": "waiting_for_slot",
+    "last_completed": "Простой 5ч40м19с разобран; исправление71f43c36111659f708af28f4655757f90cffd493 опубликовано и прочитано обратно.91 целевой тест, независимый review,282 CI tests и live consistency прошли; штатный robot12:20Z выполнил новый код и записал capacity_full. Оба существующих automation prompts обновлены и точно проверены.",
+    "next_action": "При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.",
+    "verified_at": "2026-10-31T12:22:47+00:00",
     "blockers": [],
     "evidence": [
       {
         "file": "reports/topview-slot-idle-2026-10-31.json",
         "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458"
+      },
+      {
+        "file": "reports/topview-slot-idle-fix-2026-10-31.json",
+        "sha256": "4e56537294b8e931054964b4e6ec7a94d53a8a8727b45880724002ef1a554d75"
       }
     ],
     "read_next": [
       "ops/TOPVIEW-EVENT-WAKE.md",
-      "scripts/robot_telemetry.py",
-      "scripts/launch_autonomy_check.py"
+      "automation-monitor-status.json",
+      "reports/topview-event-wake.json",
+      "ops/topview-launch-queue.json"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
       "anchor": "# Простой слота: расследование и исправление автоматики · 31.10.2026",
-      "sha256": "14900189eda6333c069232ca37199151610154a34c1f73c0198ef47ae4175622"
+      "sha256": "7d4f1942369631d1c1faf3b88de9035f9c2c7de0ce1ebacca82844327df7bcba"
     }
   },
-  "checkpoint_text": "# Простой слота: расследование и исправление автоматики · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nНовая задача владельца: почему свободный слот не заняла очередь и как не допустить повторения. Подтверждён простой 08:28:29–14:08:48 МСК (5ч40м19с): S48 завершилась, робот доставил четыре сигнала и проверял каждые10мин, первый ChatGPT handler взял замок и не сохранил результат. Восстановление остановилось после3 повторов; последняя часовая попытка no_update без результата. Внутренняя причина остановки фонового worker не раскрыта API. S72 уже отправлена, физические слоты6/6.\n\nИсправление в подготовке: непрерывный контроль результата при свободном слоте, редкие повторные сигналы после первых3, отдельный статус остановившегося исполнителя, конкретная итоговая квитанция/блокер. Код и тесты готовятся отдельно, публикации исправления и обновления automation prompt ещё нет. Новых Create по этому расследованию0.\n\nСледующий шаг: закончить и проверить code patch; обновить существующие задания без смены расписания/подписки; опубликовать под собственным замком с CAS/readback, проверить workflow и сохранить остаточные ограничения.\n\nДоказательства: `reports/topview-slot-idle-2026-10-31.json`.\n",
+  "checkpoint_text": "# Простой слота: расследование и исправление автоматики · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nИсправлено и проверено 2026-10-31T12:22:06Z. Простой 31.10.2026: S48-P1 завершилась 08:28:29 МСК; S72-WAN30 заняла слот 14:08:48 МСК. Потеряно 5ч40м19с. Робот видел свободный слот и доставил четыре сигнала; первый обработчик взял замок, но не оставил результата/блокера. После трёх повторов прежний re-wake прекращался; старый scheduled success мог скрыть текущий простой. Внутренняя причина остановки фонового worker не раскрыта доступным API.\n\nКод опубликован `71f43c36111659f708af28f4655757f90cffd493`, 8 файлов точно прочитаны обратно. Первые три повтора через20мин, далее через60мин пока сохраняется потребность; независимый контроль исполнения до проверки интервала; launch_stalled при неисполненной потребности; монотонные ID; реальные квитанции и подтверждённые task IDs. Claim/unknown не сбрасываются и не разрешают повторный Create. Заменённый wake issue закрывается как superseded/not_planned, не как исполнение.\n\nОбновлены ровно два существующих prompt: часовой6acae6ab433481919e88665c520b8ef2 и Relay6adc585e7ac08191bb93825117dc7213. Точный readback подтверждён; HH:55 Europe/Moscow, enabled и одна прежняя relay.message-подписка сохранены. Реальный исполнитель должен сохранить начало и итог; no_update не заменяет квитанцию. Интерактивный чат не создавал ни событийный ACK, ни reports/topview-launcher-cycle.json от имени расписания.\n\nПроверки:91 целевой тест и независимый review PASS; GitHub integration run41200577107 — success/282 tests; canon-health run41200577121 — success; live instruction-consistency — ok. Штатный robot run41200624806 на новом коде — success: light scan12:20:31Z,6/6 занято, launcher_health12:20:36Z=capacity_full; этот статус прямо не доказывает исполнение фонового launcher. Нового Create в расследовании0.\n\nГраница проверки: успешный запуск без открытого чата после исправления ещё не наблюдался — сейчас свободных слотов нет. Следующий настоящий runtime должен подтвердить себя собственной квитанцией и, при доступной ёмкости, task ID. Гарантия непрерывной работы внутреннего worker не заявляется.\n\nСледующий шаг: При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.\n\nДоказательства: `reports/topview-slot-idle-2026-10-31.json`, `reports/topview-slot-idle-fix-2026-10-31.json`, `reports/instruction-consistency.json`.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -151,8 +156,9 @@
   ],
   "read_next": [
     "ops/TOPVIEW-EVENT-WAKE.md",
-    "scripts/robot_telemetry.py",
-    "scripts/launch_autonomy_check.py"
+    "automation-monitor-status.json",
+    "reports/topview-event-wake.json",
+    "ops/topview-launch-queue.json"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -444,8 +450,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "8aab20d186a43c462028b8a1d4094379b379c6eada580b9f96bc30dbb597a74d",
-      "bytes": 20526
+      "sha256": "d8ca4dc7f3480937b934f3861106489e7bfb615b597359049f7bd82ab39194df",
+      "bytes": 22610
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -456,6 +462,11 @@
       "file": "reports/topview-slot-idle-2026-10-31.json",
       "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458",
       "bytes": 40567
+    },
+    {
+      "file": "reports/topview-slot-idle-fix-2026-10-31.json",
+      "sha256": "4e56537294b8e931054964b4e6ec7a94d53a8a8727b45880724002ef1a554d75",
+      "bytes": 11204
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -474,9 +485,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "c1d0cf4045c247767d8614a74626a15f8de1eae16aadcbd43b07dc01ed16da46",
-      "bytes": 81664
+      "sha256": "fcf6055e4a2f37a643097335cc2b424e573565233a9e711d3fb31aaa7d83da14",
+      "bytes": 83160
     }
   ],
-  "packet_bytes": 6484
+  "packet_bytes": 9223
 }
