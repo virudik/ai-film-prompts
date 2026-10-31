@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:30de3592-80b1-42ec-bd6b-6a81b047b374",
-  "task": "Record owner-authorized one-shot TinyFish Topview UI test; no launch or schedule changes",
+  "task": "TinyFish saved sign-in and reversible UI test recorded; file transfer, Unlimited0 and scheduled launch unverified; no Create",
   "acquired_at": "2026-10-31T19:31:49Z",
-  "expires_at": "2026-10-31T19:41:49Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T19:34:18Z",
   "rules": "ops/CANON-LOCK.md"
 }
