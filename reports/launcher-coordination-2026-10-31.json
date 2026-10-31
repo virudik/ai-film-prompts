@@ -4,8 +4,8 @@
   "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
   "record_type": "configuration_and_code_verification_not_runtime_receipt",
   "request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T17:00:54Z",
-  "stage": "code_documents_and_live_automation_settings_verified_GUI_acceptance_pending",
+  "updated_at": "2026-10-31T17:12:32Z",
+  "stage": "roles_docs_settings_and_ordinary_execution_verified_GUI_failover_acceptance_blocked",
   "preferred_executor": "ordinary",
   "work_capacity_source": "owner_reported_exhausted",
   "independent_wake": true,
@@ -40,7 +40,7 @@
   "prior_runtime_evidence": "reports/topview-slot-backup-cycle.json",
   "browser_create_verified": false,
   "quota_isolation_verified": false,
-  "validation": ["cert_github.py", "unittest discover -s tests: 388 tests passed", "validate_site.py", "check_instruction_consistency.py", "fresh readback: route_generation=2, preferred_executor=ordinary, both peers enabled"],
+  "validation": ["cert_github.py", "unittest discover -s tests: 388 tests passed", "validate_site.py", "check_instruction_consistency.py", "fresh readback: route_generation=2, preferred_executor=ordinary, both peers enabled", "takeover brief regenerated 2026-10-31T17:01:55Z, valid=True, current seven instruction hashes"],
   "github_run_id": 41222154902,
   "github_run_url": "https://github.com/virudik/ai-film-prompts/actions/runs/41222154902",
   "github_job_id": 124598792179,
@@ -71,10 +71,46 @@
     "browser_probe": "originating_browser_context_required",
     "meaning": "A real scheduled task executed after the owner reported exhausted Work. This does not independently verify platform quota isolation or GUI submission."
   },
+  "post_installation_acceptance": {
+    "run_id": "05970402-9034-8320-a161-991ae586d7cb",
+    "started_at": "2026-10-31T17:02:38.405752Z",
+    "completed_at": "2026-10-31T17:09:28.537061Z",
+    "recorded_status": "completed",
+    "latest_result_run_id": "05970402-9034-8320-a161-991ae586d7cb",
+    "latest_result_created_at": "2026-10-31T17:09:26.807789Z",
+    "result_matches_current_run": true,
+    "runtime_receipt": "reports/topview-slot-backup-cycle.json",
+    "runtime_receipt_blob": "be94067eac5e56e0c2bea27045c4fc46c3a91a34",
+    "receipt_commit_prefix": "ee162fab",
+    "lock_release_commit_prefix": "4eddebf6",
+    "route_generation": 2,
+    "execution_instance_id": "e17d73bd-69cf-4c0d-b4c4-dfc43c7a0362",
+    "full_live_scan": {"boards":14,"pages":18,"distinct_video_tasks":624,"occupied_slots":6,"free_slots":0,"direct_active_task_reads":6},
+    "new_submissions": 0,
+    "claims_changed": 0,
+    "credits_spent": 0,
+    "ordinary_execution_under_owner_reported_work_limit": "passed",
+    "role_and_unique_lease_receipt": "passed; actual gen2 receipt and exact own release read back",
+    "browser_control_and_import": "failed; two actual attempts returned missing originating browser context",
+    "necessary_GUI_Create": "not_performed; all six slots occupied, no gratuitous test video allowed",
+    "quota_isolation": "unverified; execution proves this run happened, not its platform billing bucket",
+    "overall_full_failover_acceptance": "not_passed"
+  },
+  "platform_reference_check": {
+    "checked_at": "2026-10-31T17:12:32Z",
+    "cloud_browser_documentation": "https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt",
+    "scheduled_tasks_documentation": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+    "findings": [
+      "OpenAI documents its cloud browser as a ChatGPT Work capability. An ordinary-task prompt does not provision an independently quota-isolated browser.",
+      "Scheduled-task model availability and usage limits depend on the task, plan and workspace; completed Chat tasks may use plan allowance even without a posted update.",
+      "Deleting a task-associated chat pauses its scheduled task; archiving may also pause it. Opening another working chat is different from deleting the task conversation. Check the actual active task and use the guarded replacement procedure before retiring its conversation."
+    ]
+  },
   "remaining": [
-    "Observe a real ordinary runtime against the completed generation-2 role installation and its own durable receipt.",
-    "Authorized GUI control/import and necessary zero-credit Create remain unverified; do not create an unnecessary video when all slots are full.",
-    "Platform Work quota and independent usage bucket are not exposed by available APIs; no claim of full quota-independent acceptance.",
+    "Provide and verify an authorized browser control/import path that does not depend on exhausted Work; the currently exposed scheduled browser connector failed this test.",
+    "Perform a needed authorized zero-credit GUI Create only when a real global slot is free; do not fabricate success from read-only scans or unit tests.",
+    "Platform Work quota and independent usage bucket remain unverified by available APIs.",
     "Restore Work preference only after fresh verified recovery, while preserving the ordinary peer schedule."
-  ]
+  ],
+  "checkpoint_interpretation": "The linked current checkpoint and existing work register preserve the policy transition. Configuration and current-gen runtime test are now completed as documented here; next unfinished work is browser/GUI acceptance, not reinstallation of the role policy."
 }
