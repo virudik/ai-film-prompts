@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-31T12:22:47+00:00",
+  "last_updated_at": "2026-10-31T16:47:03Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-10-31T12:22:47+00:00",
+      "updated_at": "2026-10-31T16:47:03Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
@@ -22,10 +22,13 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.",
+      "next_action": "Свежие роли/слоты/claims; обычный ChatGPT основной пока Work исчерпан. Проверить текущий реальный runtime и GUI. Запускать только готовое разрешённое при свободной ёмкости; unknown не повторять. Ответственность сменщика — ops/LAUNCHER-COORDINATION.md.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
-        "ops/CONTINUE-PROTOCOL.md"
+        "ops/CONTINUE-PROTOCOL.md",
+        "ops/LAUNCHER-COORDINATION.md",
+        "ops/slot-backup.json",
+        "reports/launcher-coordination-2026-10-31.json"
       ],
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
       "automation_schedule": "hourly HH:55 Europe/Moscow",
@@ -211,31 +214,23 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-31T12:22:47+00:00",
-        "last_completed": "Простой 5ч40м19с разобран; исправление71f43c36111659f708af28f4655757f90cffd493 опубликовано и прочитано обратно.91 целевой тест, независимый review,282 CI tests и live consistency прошли; штатный robot12:20Z выполнил новый код и записал capacity_full. Оба существующих automation prompts обновлены и точно проверены.",
-        "next_action": "При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.",
+        "verified_at": "2026-10-31T16:47:03Z",
+        "last_completed": "plan_saved_before_policy_change",
+        "next_action": "Свежие роли/слоты/claims; обычный ChatGPT основной пока Work исчерпан. Проверить текущий реальный runtime и GUI. Запускать только готовое разрешённое при свободной ёмкости; unknown не повторять. Ответственность сменщика — ops/LAUNCHER-COORDINATION.md.",
+        "launcher_request_id": "owner-20261031-ordinary-primary",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Простой слота: расследование и исправление автоматики · 31.10.2026",
-          "sha256": "7d4f1942369631d1c1faf3b88de9035f9c2c7de0ce1ebacca82844327df7bcba"
+          "anchor": "# Обычный ChatGPT — основной; Work — резерв · 31.10.2026",
+          "sha256": "c35574018fdd9e88f4a1c98cb9151425914dca3d8d16f9ab3d37efb76984a4d4"
         },
-        "evidence": [
-          {
-            "file": "reports/topview-slot-idle-2026-10-31.json",
-            "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458"
-          },
-          {
-            "file": "reports/topview-slot-idle-fix-2026-10-31.json",
-            "sha256": "4e56537294b8e931054964b4e6ec7a94d53a8a8727b45880724002ef1a554d75"
-          }
-        ],
+        "evidence": [],
         "read_next": [
-          "ops/TOPVIEW-EVENT-WAKE.md",
-          "automation-monitor-status.json",
-          "reports/topview-event-wake.json",
-          "ops/topview-launch-queue.json"
+          "ops/LAUNCHER-COORDINATION.md",
+          "ops/slot-backup.json"
         ],
-        "blockers": []
+        "blockers": [
+          "GUI отправка и независимость квоты не подтверждены"
+        ]
       },
       "last_relay_reconciliation": {
         "event_id": "slots:df305d35:2",
@@ -296,7 +291,45 @@
         "status": "published_verified_waiting_for_real_launcher_receipt",
         "automations_updated": 2,
         "new_automations": 0
-      }
+      },
+      "launcher_coordination": {
+        "request_id": "owner-20261031-ordinary-primary",
+        "phase": "plan_saved_before_policy_change",
+        "registry": "ops/slot-backup.json",
+        "report": "reports/launcher-coordination-2026-10-31.json",
+        "browser_launch_acceptance": "pending",
+        "quota_isolation": "unverified"
+      },
+      "recovery_history": [
+        {
+          "schema_version": 1,
+          "verified_at": "2026-10-31T12:22:47+00:00",
+          "last_completed": "Простой 5ч40м19с разобран; исправление71f43c36111659f708af28f4655757f90cffd493 опубликовано и прочитано обратно.91 целевой тест, независимый review,282 CI tests и live consistency прошли; штатный robot12:20Z выполнил новый код и записал capacity_full. Оба существующих automation prompts обновлены и точно проверены.",
+          "next_action": "При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# Простой слота: расследование и исправление автоматики · 31.10.2026",
+            "sha256": "7d4f1942369631d1c1faf3b88de9035f9c2c7de0ce1ebacca82844327df7bcba"
+          },
+          "evidence": [
+            {
+              "file": "reports/topview-slot-idle-2026-10-31.json",
+              "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458"
+            },
+            {
+              "file": "reports/topview-slot-idle-fix-2026-10-31.json",
+              "sha256": "4e56537294b8e931054964b4e6ec7a94d53a8a8727b45880724002ef1a554d75"
+            }
+          ],
+          "read_next": [
+            "ops/TOPVIEW-EVENT-WAKE.md",
+            "automation-monitor-status.json",
+            "reports/topview-event-wake.json",
+            "ops/topview-launch-queue.json"
+          ],
+          "blockers": []
+        }
+      ]
     },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
