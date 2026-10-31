@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "lock-forgotten": {
+      "text": "Замок канона (chatgpt) истёк 31.10 06:16 UTC и не снят.",
+      "since": "2026-10-31T06:49:31Z",
+      "fixes": 1,
+      "last_fix_at": "2026-10-31T06:49:31Z",
+      "escalated_at": null
+    }
+  },
   "log": [
-    {
-      "at": "2026-10-23T03:19:47Z",
-      "kind": "fixed",
-      "key": "telemetry-stale",
-      "text": "Нашёл: Робот сканирует, но статус Topview на сайте не обновлялся 138 мин. Последнее решение робота: «hold — unmapped_active:6598a21c». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации. Сделал: запустил полный скан Topview."
-    },
     {
       "at": "2026-10-23T03:49:41Z",
       "kind": "resolved",
@@ -123,7 +125,13 @@
       "kind": "resolved",
       "key": "run-failed-canon-health",
       "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41096988919"
+    },
+    {
+      "at": "2026-10-31T06:49:31Z",
+      "kind": "fixed",
+      "key": "lock-forgotten",
+      "text": "Нашёл: Замок канона (chatgpt) истёк 31.10 06:16 UTC и не снят. Сделал: снял просроченный замок канона."
     }
   ],
-  "changed_at": "2026-10-30T17:49:32Z"
+  "changed_at": "2026-10-31T06:49:31Z"
 }
