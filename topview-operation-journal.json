@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-11T03:10:58Z",
-      "operation": "claude_monitor_hourly_cycle",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "Scene 16 Wan 3.0 init (1/6 slots)",
-      "new_status": "Scene 16 task success 03:00:50 UTC; 0/6 slots; slow-list empty",
-      "source_checkpoint": "2026-10-11T03:10:58Z",
-      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
-      "verification": "light scan: 11 boards counts unchanged, main 604, no new tasks; topview_get_board_task 36e8…3e63 success"
-    },
-    {
       "timestamp": "2026-10-11T16:10:48Z",
       "operation": "chatgpt_full_topview_scan_and_prompt_mapping",
       "scene_id": null,
@@ -5502,8 +5491,19 @@
       "source_checkpoint": "2026-10-31T13:40:18Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-31T14:30:21Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-31T14:30:21Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 102,
+  "archived_event_count": 103,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
