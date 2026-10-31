@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "source": "Interactive owner-authorized schedule change and capability verification; not a scheduled-run receipt",
+  "checked_at": "2026-10-31T18:26:54Z",
+  "status": "hourly_configuration_verified_browser_launch_blocked",
+  "owner_request": "Давай тоже раз в час, но в начале часа а не в конце как проверка ворка; доведи цепочку до готовности; за что платится в тинифиш?",
+  "automation": {
+    "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "title": "AI Film — слоты обычным ChatGPT",
+    "previous_cadence": "every two hours",
+    "schedule": "BEGIN:VEVENT\nDTSTART:20261031T181310Z\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "timing_mode": "exact_schedule",
+    "default_timezone": "Europe/Moscow",
+    "is_enabled": true,
+    "same_task_id": true,
+    "same_conversation_id": "6ae605c7-cb60-83ed-88ab-cdac32a3b684",
+    "update_success_at": "2026-10-31T18:13:11.842316+00:00",
+    "independent_peek_readback": true,
+    "prompt_change": "Hourly :00; independently recover unmet robot demand from fresh GitHub without waiting for Work or Relay ACK; preserve all authorization, capacity, unique-lease, intent, anti-duplicate and retry-budget gates. No metered TinyFish use without explicit owner budget.",
+    "new_automations": 0,
+    "work_hourly_or_relay_modified": false,
+    "ten_minute_robot_modified": false,
+    "runtime_after_change_verified": false,
+    "last_run_at_readback": "05970402-9034-8320-a161-991ae586d7cb",
+    "last_run_completed_at": "2026-10-31T17:09:28.537061Z",
+    "last_run_predates_change": true,
+    "next_run_time_exposed": null
+  },
+  "canonical_registry": {
+    "path": "ops/slot-backup.json",
+    "commit": "be5e2b8b1f3f1a3b2c0b824a19861e80dd77f28a",
+    "blob_sha": "58cda27d50529c595e04972bd786a65cb0939fa1",
+    "readback_verified": true,
+    "route_generation": 2,
+    "preferred_executor": "ordinary",
+    "foreground_epoch": 2,
+    "foreground_session_id": "ordinary-chat-08b0cdae-0e40-4db7-a507-501c89be7609"
+  },
+  "wake_route": {
+    "ordinary": "Independent hourly :00 polling of fresh GitHub robot demand and live authorized queue; does not wait for Work to acknowledge failure.",
+    "instant_event_failover_enabled": false,
+    "relay_address_changed": false,
+    "event_interface_probe": "Automations.list_event_sources returned HTTP 404 Action not found before invocation. No subscription was created or moved.",
+    "platform_documentation": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt",
+    "documented_limit": "Event-triggered webhook tasks run in Work. Renaming a peer or redirecting an inbox does not establish a Work-independent execution surface.",
+    "guaranteed_ten_minute_ordinary_launch": false
+  },
+  "browser_capability_probe": {
+    "source": "Current interactive Browser.list_tabs",
+    "attempted": true,
+    "error": "Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
+    "exposed_browser_actions": ["list_tabs", "get_tab_context"],
+    "authorized_gui_verified": false,
+    "click_and_upload_controls_verified": false,
+    "historical_s72_launch_remains_valid": true,
+    "historical_receipt": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
+    "historical_task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "current_platform_quota_independently_verified": false
+  },
+  "tinyfish": {
+    "connected": true,
+    "wallet_checked_at": "2026-10-31T18:17:23.957Z",
+    "balance_usd": "8",
+    "auto_reload": "unconfigured",
+    "pending_top_up": null,
+    "contract_rates": {
+      "agent_per_step_usd": "0.016",
+      "standalone_browser_per_minute_usd": "0.002",
+      "search_per_query_usd": "0",
+      "fetch_per_url_usd": "0"
+    },
+    "profile_id": "prof_0ac4618d0cf4456e",
+    "profile_name": "Default",
+    "saved_signed_in_sites": [],
+    "topview_sign_in_verified": false,
+    "metered_test_authorized": false,
+    "metered_runs_started": 0,
+    "setup_sessions_started": 0,
+    "credits_spent_by_this_work": "0",
+    "billing_note": "Agent step metering and standalone Browser time metering are separate products. Do not automatically add Browser minutes to every Agent run. The live wallet contract rates, not cached website prices, are the account-specific rates."
+  },
+  "latest_robot_observation_read": {
+    "commit": "3575fef07948d39f94f0efacf4b71400eda53749",
+    "source": "shadow/topview-robot-status.json diff; evidence of running robot, not a fresh full interactive scan",
+    "checked_at": "2026-10-31T18:20:20Z",
+    "observed_occupied_slots": 6,
+    "author": "github-actions[bot]"
+  },
+  "boundaries": {
+    "new_topview_creates": 0,
+    "queue_or_master_changed": false,
+    "submitted_tasks_retried": false,
+    "fake_event_ack": false,
+    "fake_scheduled_cycle_receipt": false,
+    "code_or_seven_instructions_changed": false,
+    "full_instruction_recertification_performed": false,
+    "end_to_end_unattended_launch_accepted": false
+  },
+  "next_action": "The existing hourly ordinary task must verify its actual next runtime and current browser capability. A real website launch remains blocked until an authorized controllable browser is available. TinyFish additionally requires owner-consented secure sign-in and an explicit bounded metered-test budget; do not spend, invent login or replace actual continuity inputs. At a real free slot, follow the fresh canonical queue and one-submit guards; preserve S72 and unknown claims."
+}
