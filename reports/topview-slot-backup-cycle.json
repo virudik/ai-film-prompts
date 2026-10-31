@@ -2,92 +2,93 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "e17d73bd-69cf-4c0d-b4c4-dfc43c7a0362",
-  "run_id": "05970402-9034-8320-a161-991ae586d7cb",
-  "run_id_source": "Automations.peek.current last_run.id with status=in_progress",
+  "execution_instance_id": "259bc97c-482b-46f4-8db2-7d0e909a8900",
+  "run_id": "d946cf68-e650-8330-9a2a-e6b5e1837ed7",
+  "run_id_source": "Automations.peek current last_run.id status=in_progress, scheduled_for=2026-10-31T19:00:00Z",
   "route_generation": 2,
-  "source_head": "10f2c30a625f110f5d59d1c83423ce41455c5b65",
-  "started_at": "2026-10-31T17:02:38.405752Z",
-  "checked_at": "2026-10-31T17:09:04.426Z",
-  "phase": "finished",
+  "source_head": "c5491e35de5d8afa340171cc485e4059c7ac8dfe",
+  "started_at": "2026-10-31T19:02:44.828686Z",
+  "checked_at": "2026-10-31T19:06:11.901Z",
+  "phase": "started_receipt_saved_after_read_only_scan",
   "scan_complete": true,
-  "scan_source": "Topview connector READ-ONLY: all 14 boards, complete video pagination; six direct task reads",
-  "scan_scope": "14 boards, 18 pages, 624 distinct video tasks; no page errors",
+  "scan_source": "Topview connector read-only; complete pageNo pagination on 14 boards and mediaType=video; all 18 pages; 5 direct task detail reads success + one Task not found; board listing authoritative for physical slot conservation",
+  "scan_scope": "14 boards, 18 pages, 624 distinct videos; no page errors",
   "board_count": 14,
   "video_pages": 18,
   "video_tasks": 624,
   "occupied_slots": 6,
   "free_slots": 0,
-  "selected_item": null,
   "active_task_ids": [
     "22dbd25cdd9f47cd9e44300e55f5e44f",
     "c72c1ab4524e4f2f9d3a0272474f788a",
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e",
-    "b0915b04173c414e9ac08652d34b7852",
+    "b0915b04173c414e9eadec886276e62471",
     "c65c30d8cbe14e9eadec886276e62471"
   ],
+  "task_detail_note": "The fifth listed task b0915b04173c414e9eadec886276e62471 returned 5003 Task not found on direct detail lookup; board listing and current robot telemetry still show init; do not treat it as free slot.",
+  "selected_item": null,
   "task_ids": [],
   "outcome": "no_free_slot",
-  "blocker": null,
   "browser_capability_probe": {
     "attempted": true,
-    "mode": "read_only",
     "path": "mcp__Browser__list_tabs",
+    "mode": "read_only",
+    "attempt_count": 2,
     "website_ui_verified": false,
     "controls_verified": false,
     "import_verified": false,
     "error": "UNKNOWN: Error code: UNKNOWN; Error: RuntimeException: Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
-    "classification": "blocked_browser_originating_context_missing; Topview read-only Board API available",
-    "attempt_count": 2,
-    "second_attempt_at": "2026-10-31T17:08:40.314Z",
-    "second_attempt_error": "UNKNOWN: Error code: UNKNOWN; Error: RuntimeException: Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
-    "continuing_blocker": "Website GUI controls and file import could not be verified from this scheduled runtime. No video Create attempted at 6/6."
+    "classification": "blocked_browser_originating_context_missing"
   },
   "quota_isolation_verified": false,
   "work_limit_owner_reported": true,
   "readiness_consistency": {
-    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
-    "queue_sha256_matches": true,
-    "source_task_map_sha256": "a12ca2d9fff7ccfe44ff4a9967d80433d198d58f1af7e0dba3840aa7e583d4a4",
-    "task_map_sha256_matches": true,
-    "readiness_checked_at": "2026-10-31T16:10:33.081943Z",
+    "readiness_checked_at": "2026-10-31T18:50:20Z",
     "ready_items": 31,
-    "prepare_continuity_items": 1
+    "source_queue_sha256": "fc7ef5a5087adb1fedee3fd738c2a37762d8ecd5d7bd064c8d9087ca1b013563",
+    "source_task_map_sha256": "1e06fc18d0f64f20106a4eda4bc0386cd997fc8b484f8fd6db5f7e37a40ca7f4",
+    "actual_sha256_recomputed_this_run": false
+  },
+  "relay_last_run": {
+    "id": "96e8eca6-6958-832b-891c-040da1511391",
+    "status": "no_update",
+    "latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+    "matches": false
+  },
+  "hourly_last_run": {
+    "id": "e2ded57f-49ec-8326-982d-bfa69366ac91",
+    "status": "no_update",
+    "latest_result_run_id": null
+  },
+  "robot_telemetry": {
+    "checked_at": "2026-10-31T18:50:20Z",
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "health": "ok"
+  },
+  "last_confirmed_relay_event": {
+    "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
+    "observed_at": "2026-10-30T15:30:22Z",
+    "checked_at": "2026-10-30T15:38:54.173Z",
+    "task_ids": [
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ]
   },
   "lease": {
-    "holder": "chatgpt:ordinary:e17d73bd-69cf-4c0d-b4c4-dfc43c7a0362",
-    "acquired_at": "2026-10-31T17:07:42Z",
-    "expires_at": "2026-10-31T17:17:42Z"
+    "holder": "chatgpt:ordinary:259bc97c-482b-46f4-8db2-7d0e909a8900",
+    "acquired_at": "2026-10-31T19:05:39.327Z",
+    "expires_at": "2026-10-31T19:13:39.327Z"
   },
   "new_submissions": 0,
   "claims_changed": 0,
   "credits_spent": 0,
-  "updated_at": "2026-10-31T17:09:04.426Z",
-  "retryable": false,
-  "primary_execution_observation": {
-    "relay_last_run_id": "96e8eca6-6958-832b-891c-040da1511391",
-    "relay_last_status": "no_update",
-    "relay_latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
-    "relay_latest_result_matches_last_run": false,
-    "hourly_last_run_id": "8d5b17e8-3e38-8324-830f-ffd29cf6c7e2",
-    "hourly_last_status": "no_update",
-    "hourly_latest_result_run_id": null,
-    "independent_result_evidence": false
-  },
-  "github_telemetry": {
-    "checked_at": "2026-10-31T16:10:26Z",
-    "last_robot_completed_at": "2026-10-31T16:10:31Z",
-    "health": "ok",
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "source": "automation-monitor-status.json / topview-status.json, older than fresh direct Topview scan"
-  },
-  "next_action": "On next real scheduled cycle, fresh-read role/lock/queue, check browser GUI availability, then fresh all-board scan. If free global capacity exists with ready authorized scene, use exact own lease/claim and GUI Unlimited0; reconcile unknown before Create. Do not claim a website submission from this no-op.",
+  "updated_at": "2026-10-31T19:06:11.901Z",
   "technical_acceptance": {
     "ordinary_scheduled_run_under_owner_reported_work_limit": true,
     "authorized_browser_GUI_and_import_verified": false,
     "needed_free_Create_and_task_id_verified": false,
     "quota_isolation_verified": false
-  }
+  },
+  "next_action": "Next ordinary hourly run: fresh role/lock/queue/claims; full all-board scan; at 6/6 no Create. Browser UI must be rechecked. No paid TinyFish or bypass."
 }
