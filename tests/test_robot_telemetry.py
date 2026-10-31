@@ -309,7 +309,13 @@ class PublishTests(Base):
         self.assertEqual(self.go(scan([], fin), now=datetime(2026, 10, 11, 12, 5, tzinfo=timezone.utc)), 0)
         self.assertEqual(len(self.n.posts), 1)
         self.assertEqual(len(self.n.wakes), 1)
-        self.assertEqual(self.head(), before)
+        # The new independent executor diagnostic may record its assessment of the previous signal.
+        # This must not republish the result or change any launch/telemetry data.
+        self.assertEqual(self.files(self.head()), {"automation-monitor-status.json"})
+        self.assertEqual(self.load("automation-monitor-status.json")["launcher_health"]["state"], "no_actionable_work")
+        after_observation = self.head()
+        self.assertEqual(self.go(scan([], fin), now=datetime(2026, 10, 11, 12, 6, tzinfo=timezone.utc)), 0)
+        self.assertEqual(self.head(), after_observation)
 
     def test_stale_active_row_of_an_already_processed_task_is_repaired_once(self):
         # 13.10.2026: telemetry recorded the result, but the master row still said `running`

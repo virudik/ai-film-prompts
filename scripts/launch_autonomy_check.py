@@ -60,7 +60,11 @@ def free_slot_observations(log_lines):
     return seen
 
 
-def verdict(launch_list, free_seen, ready):
+def verdict(launch_list, free_seen, ready, launcher_health=None):
+    # One scheduled launch earlier in the 24-hour window must not hide a current stalled executor.
+    # This unresolved diagnosis is independent of the telemetry robot's health=ok.
+    if (launcher_health or {}).get("unresolved"):
+        return "launch_stalled"
     sched = [x for x in launch_list if x["source"] == "schedule"]
     if sched:
         return "schedule_launched"
@@ -77,7 +81,14 @@ def build(repo, hours, now, log_lines):
     ll = launches(queue, since)
     free = free_slot_observations(log_lines)
     ready = ready_items(queue)
-    v = verdict(ll, free, ready)
+    try:
+        launcher = json.loads((Path(repo) / "automation-monitor-status.json").read_text(encoding="utf-8")).get(
+            "launcher_health", {})
+    except (OSError, ValueError):
+        launcher = {}
+    v = verdict(ll, free, ready, launcher)
+    launcher_checked = parse(launcher.get("checked_at"))
+    launcher_stale = not launcher_checked or not timedelta(0) <= now - launcher_checked <= timedelta(minutes=90)
     return {
         "schema_version": 1,
         "checked_at": iso(now),
@@ -88,6 +99,8 @@ def build(repo, hours, now, log_lines):
         "launches_by_chat": sum(1 for x in ll if x["source"] == "chat"),
         "free_slot_observations": free[-20:],
         "ready_items_waiting": len(ready),
+        "launcher_health": launcher,
+        "launcher_observation_stale": launcher_stale,
         "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled.",
     }
 
@@ -99,10 +112,20 @@ def git_log(repo, since):
 
 
 def notify(report):
-    text = (f"За {report['window_hours']} ч робот видел свободные слоты, в очереди ждут "
-            f"{report['ready_items_waiting']} готовых пунктов, но расписание ChatGPT ничего не запустило "
-            f"(запусков из открытого чата: {report['launches_by_chat']}). "
-            "Похоже, автозапуск работает только при открытом чате ChatGPT. Подробно: reports/launch-autonomy.json")
+    if report["verdict"] == "launch_stalled":
+        launcher = report.get("launcher_health") or {}
+        text = (f"Текущая потребность в запуске остаётся unresolved: `{launcher.get('state')}` / "
+                f"`{launcher.get('reason')}`; наблюдение {launcher.get('checked_at')}, "
+                f"просрочено: {report.get('launcher_observation_stale')}. "
+                f"За {report['window_hours']} ч подтверждено запусков расписания: {report['launches_by_schedule']}, "
+                f"из чата: {report['launches_by_chat']}. Предыдущий запуск не снимает текущий инцидент. "
+                "Проверить выполнение существующего handler и фактический исход сохранённых попыток. "
+                "Подробно: reports/launch-autonomy.json")
+    else:
+        text = (f"За {report['window_hours']} ч робот видел свободные слоты, в очереди ждут "
+                f"{report['ready_items_waiting']} готовых пунктов, но в репозитории нет запусков расписания ChatGPT "
+                f"(запусков из открытого чата: {report['launches_by_chat']}). "
+                "Проверить выполнение существующего задания и его квитанции. Подробно: reports/launch-autonomy.json")
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from robot_telemetry import GhNotifier
     return GhNotifier().post("Автозапуск: расписание ChatGPT простаивает", text)
@@ -120,7 +143,7 @@ def main(argv=None):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(report["verdict"], report["launches_by_schedule"], report["launches_by_chat"], len(report["free_slot_observations"]))
-    if a.notify and report["verdict"] == "free_slots_idle_no_schedule_launch":
+    if a.notify and report["verdict"] in ("free_slots_idle_no_schedule_launch", "launch_stalled"):
         notify(report)
     return 0
 

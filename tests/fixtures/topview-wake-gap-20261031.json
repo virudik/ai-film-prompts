@@ -1,0 +1,40 @@
+{
+  "scope": "Recorded incident inputs; counterfactual_hourly_checks are expected recovery opportunities, not claimed historical sends.",
+  "source_head": "87276af561a7dfb15c3f96aa711db336190af728",
+  "result_event_id": "result:8d7ff1e2de63478693778de29e0dd56e",
+  "source_task_completed_at": "2026-10-31T05:28:29Z",
+  "result_observed_at": "2026-10-31T05:28:28Z",
+  "result_attempt_recorded_at": "2026-10-31T05:28:33Z",
+  "episode": "d23cf217",
+  "active_task_ids_during_gap": [
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e",
+    "b0915b04173c414e9ac08652d34b7852",
+    "c65c30d8cbe14e9eadec886276e62471",
+    "c72c1ab4524e4f2f9d3a0272474f788a"
+  ],
+  "recorded_rewake_relay_delivery_times": [
+    "2026-10-31T05:50:33Z",
+    "2026-10-31T06:10:37Z",
+    "2026-10-31T06:30:39Z"
+  ],
+  "persisted_rewake_state": {
+    "episode": "d23cf217",
+    "count": 3,
+    "last_at": "2026-10-31T06:30:33Z",
+    "last_event_id": "slots:d23cf217:3",
+    "silence_reported": "slots:d23cf217:2"
+  },
+  "counterfactual_diagnostic_check": "2026-10-31T06:50:33Z",
+  "counterfactual_hourly_checks": [
+    "2026-10-31T07:30:33Z",
+    "2026-10-31T08:30:33Z",
+    "2026-10-31T09:30:33Z",
+    "2026-10-31T10:30:33Z"
+  ],
+  "manual_launch_at": "2026-10-31T11:08:48Z",
+  "manual_launch_task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+  "postscan_at": "2026-10-31T11:09:40Z",
+  "idle_seconds": 20419,
+  "postscan_evidence": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json"
+}

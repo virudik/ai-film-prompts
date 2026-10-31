@@ -46,7 +46,8 @@ MAX_EVENTS = 40
 MAX_SCAN_AGE_MIN = 15
 MAX_ATTEMPTS = 4
 REWAKE_MIN = 20               # a free slot with ready queue items re-wakes the executor at most this often
-REWAKE_MAX = 3                # ... and at most this many times per unchanged set of active tasks (then: hourly check)
+REWAKE_MAX = 3                # first three re-wakes use the fast interval; this is NOT a lifetime cap
+REWAKE_RECOVERY_MIN = 60      # then keep trying, paced, while a fresh scan still shows unmet demand
 ACTIONABLE = ("ready", "prepare_continuity")   # ops/queue-readiness.json codes the executor can act on now
 ACTIVE = {"init", "queued", "running", "processing"}
 TERMINAL = {"success", "fail", "failed", "cancelled"}
@@ -489,7 +490,7 @@ class GhNotifier:
         """Wake: a NEW issue per slot event (audit record the executor verifies), then one Agent Relay DM.
 
         The DM to the subscribed ChatGPT inbox is what wakes the executor (owner decision 25.10.2026);
-        older open wake issues are closed afterwards."""
+        older open wake issues are closed as superseded signals, never as proof of completed handling."""
         env = dict(os.environ)
         subprocess.run(["gh", "api", "repos/{owner}/{repo}/labels", "-f", f"name={WAKE_LABEL}", "-f", "color=d93f0b"],
                        text=True, capture_output=True, env=env)
@@ -506,7 +507,7 @@ class GhNotifier:
                                              "observed_at": signal["observed_at"],
                                              "free_slots_global": signal["free_slots_global"]})
         print(f"::notice title=robot-wake::issue #{number}; relay {status} ({detail})")
-        if status in ("error", "no_token"):      # visible to the owner; the bounded re-wake retries later
+        if status in ("error", "no_token"):      # visible to the owner; paced re-wakes retry later
             self.post("Робот Topview: сигнал свободного слота не доставлен в Agent Relay",
                       f"Issue #{number}, событие `{signal['event_id']}`: `{status}` ({detail}). "
                       f"Робот повторит сигнал не раньше чем через {REWAKE_MIN} мин, пока слот свободен; "
@@ -517,7 +518,7 @@ class GhNotifier:
         for old in q.stdout.split():
             if old != number:
                 subprocess.run(["gh", "api", "-X", "PATCH", f"repos/{{owner}}/{{repo}}/issues/{old}", "-f", "state=closed",
-                                "-f", "state_reason=completed"], text=True, capture_output=True, env=env)
+                                "-f", "state_reason=not_planned"], text=True, capture_output=True, env=env)
         return True
 
 
@@ -700,20 +701,35 @@ def slot_state(root):
     foreign = [t.get("task_id") for t in prj.get("active", []) if t.get("task_id")]
     occupied = max(int(ts.get("occupied_slots") or 0), len(film)) + len(foreign)
     qr = read_json(root / "ops/queue-readiness.json", {}) or {}
-    actionable = [i.get("id") for i in qr.get("items", []) if i.get("code") in ACTIONABLE]
+    queue = read_json(root / "ops/topview-launch-queue.json", {}) or {}
+    items = queue.get("items", [])
+    reserved = [i.get("id") for i in items
+                if i.get("state") in ("claimed", "submitting", "submission_unknown") or (
+                    i.get("claim") and i.get("state") not in ("submitted", "completed")
+                    and not str(i.get("state") or "").startswith(("cancelled", "superseded")))]
+    # Readiness is derived: a saved claim/unknown outcome must never be advertised as ready for Create.
+    actionable = [i.get("id") for i in qr.get("items", [])
+                  if i.get("code") in ACTIONABLE and i.get("id") not in reserved]
+    submitted = [i.get("task_id") for i in items
+                 if i.get("state") in ("submitted", "completed") and i.get("task_id")]
     episode = hashlib.sha1(",".join(sorted(film + foreign)).encode()).hexdigest()[:8]
     return {"checked_at": ts.get("checked_at"), "free": max(0, 6 - occupied), "episode": episode,
-            "actionable": actionable}
+            "actionable": actionable, "reserved": reserved, "active_task_ids": film + foreign,
+            "submitted_task_ids": submitted}
 
 
 def note_wake(root, episode, now, *, event_id=None, rewake=False, silence_reported=None):
-    """Remember the last wake (result or re-wake) so re-wakes stay bounded per set of active tasks."""
+    """Remember attempted wakes; committing an attempt does not prove Relay delivery or execution."""
     path = Path(root) / "automation-monitor-status.json"
     d = read_json(path, {})
     ns = d.setdefault("notification_state", {})
     rw = ns.get("robot_rewake") or {}
     count = (rw.get("count", 0) if rw.get("episode") == episode else 0) + (1 if rewake else 0)
+    sequence = max(REWAKE_MAX, int(rw.get("sequence", 0)), int(rw.get("count", 0))) + (1 if rewake else 0)
+    first_at = (rw.get("first_at") or rw.get("last_at")) if rw.get("episode") == episode else None
     ns["robot_rewake"] = {"episode": episode, "count": count if rewake else 0, "last_at": now_z(now),
+                          "sequence": sequence,
+                          "first_at": first_at or now_z(now),
                           "last_event_id": event_id,
                           "silence_reported": silence_reported or rw.get("silence_reported")}
     path.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -737,49 +753,172 @@ def handler_acked(root, event_id):
             or (isinstance(archived, list) and event_id in archived))
 
 
+def handler_receipt(root, event_id, now):
+    """Latest exact live receipt by trustworthy time, regardless of append/prepend journal order.
+
+    Undated/future-only or conflicting equally timed records prove presence only (ID-only result).
+    An archive ID also proves processing only, never a launch.
+    """
+    data = read_json(Path(root) / "reports/topview-event-wake.json", {}) or {}
+    if not isinstance(data, dict) or not isinstance(data.get("events", []), list):
+        return {}
+    events = [e for e in data.get("events", []) if isinstance(e, dict) and e.get("event_id") == event_id]
+    if not event_id or not events:
+        return {}
+    dated = []
+    for event in events:
+        execution = event.get("execution") if isinstance(event.get("execution"), dict) else {}
+        times = [parse_ts(v) for v in (event.get("checked_at"), event.get("updated_at"), execution.get("updated_at"))]
+        if any(t is not None and t > now for t in times):
+            continue
+        valid = [t for t in times if t is not None and t <= now]
+        if valid:
+            dated.append((max(valid), event))
+    if dated:
+        latest_time = max(t for t, _event in dated)
+        latest = [event for t, event in dated if t == latest_time]
+        if all(event == latest[0] for event in latest):
+            return latest[0]
+    return {"event_id": event_id}
+
+
+def update_launcher_health(root, now, observed_at=None):
+    """Observe executor progress independently of healthy robot telemetry, before retry pacing.
+
+    Only a submitted receipt corroborated by both queue and fresh active-task telemetry proves a launch.
+    A full account/no actionable work removes demand; it does not prove the ChatGPT worker is healthy.
+    This function only changes the robot's diagnostics. It cannot claim, submit or release reservations.
+    Returns (changed, escalation_or_none); the caller must commit/push/read back before any notification.
+    """
+    path = Path(root) / "automation-monitor-status.json"
+    data = read_json(path, {}) or {}
+    old = data.get("launcher_health") or {}
+    rw = (data.get("notification_state") or {}).get("robot_rewake") or {}
+    st = slot_state(root)
+    age = minutes_since(observed_at or st["checked_at"], now)
+    fresh = age is not None and 0 <= age <= 20
+    event_id = rw.get("last_event_id")
+    receipt = handler_receipt(root, event_id, now)
+    ack = handler_acked(root, event_id)
+    outcome = receipt.get("outcome") or ("archived_processed" if ack and not receipt else None)
+    same = rw.get("episode") == st["episode"]
+    first_at = ((rw.get("first_at") or rw.get("last_at")) if same else None) or now_z(now)
+    since = (old.get("unresolved_since") if old.get("episode") == st["episode"] else None) or first_at
+    ids = receipt.get("task_ids") if isinstance(receipt.get("task_ids"), list) else []
+    confirmed = sorted({tid for tid in ids if isinstance(tid, str) and re.fullmatch(r"[0-9a-f]{32}", tid)
+                        and tid in st["active_task_ids"] and tid in st["submitted_task_ids"]}) if (
+                            fresh and outcome == "submitted" and receipt.get("retryable") is False) else []
+    demand = bool(st["free"] and (st["actionable"] or st["reserved"]))
+    if fresh and demand and old.get("state") in ("no_actionable_work", "capacity_full", "launch_confirmed"):
+        since = now_z(now)   # newly eligible work gets its own grace window, even with unchanged active IDs
+    elapsed = minutes_since(since, now)
+    new_progress = bool(confirmed) and (event_id != old.get("last_confirmed_event_id") or
+                                       confirmed != old.get("last_confirmed_launch_task_ids"))
+    unresolved = False
+    if not fresh:
+        state, reason = "observation_stale", "fresh_complete_scan_required"
+        unresolved = bool(old.get("unresolved"))
+        since = old.get("unresolved_since") or since
+    elif new_progress:
+        state, reason = "launch_confirmed", "submitted_receipt_task_ids_match_queue_and_live_scan"
+    elif not st["free"]:
+        state, reason = "capacity_full", "no_free_global_slot; launcher_health_not_proven"
+    elif not demand:
+        state, reason = "no_actionable_work", "no_ready_or_reconciliation_work"
+    elif st["reserved"]:
+        state, reason, unresolved = "reconciliation_required", "saved_claim_or_unknown_submission; no_repeat_Create", True
+    elif elapsed is not None and elapsed >= REWAKE_MIN:
+        state, unresolved = "launch_stalled", True
+        reason = ("no_handler_receipt" if not ack else
+                  "execution_started_without_confirmed_launch" if outcome == "started" else
+                  "handler_receipt_without_confirmed_launch")
+    else:
+        state, reason = "awaiting_execution", "within_initial_execution_window"
+    # Do not invent a runtime run ID; expose only a value actually written by the handler.
+    execution = receipt.get("execution") if isinstance(receipt.get("execution"), dict) else {}
+    health = {"state": state, "unresolved": unresolved, "episode": st["episode"],
+              "unresolved_since": since if demand or not fresh else None, "reason": reason,
+              "free_slots_global": st["free"], "actionable_items": st["actionable"],
+              "reconciliation_items": st["reserved"], "last_event_id": event_id,
+              "receipt_present": ack, "handler_outcome": outcome,
+              "execution_stage": execution.get("stage"), "execution_updated_at": execution.get("updated_at"),
+              "runtime_run_id": receipt.get("run_id"), "confirmed_launch_task_ids": confirmed,
+              "last_confirmed_event_id": event_id if new_progress else old.get("last_confirmed_event_id"),
+              "last_confirmed_launch_task_ids": confirmed if new_progress else old.get("last_confirmed_launch_task_ids", []),
+              "escalation_attempted_episode": old.get("escalation_attempted_episode")}
+    if fresh and new_progress:
+        health["escalation_attempted_episode"] = None
+    alert = None
+    if fresh and demand and unresolved and elapsed is not None and elapsed >= REWAKE_MIN and (
+            health["escalation_attempted_episode"] != st["episode"]):
+        health["escalation_attempted_episode"] = st["episode"]
+        alert = dict(health)
+    # Persist semantic transitions and a heartbeat, not a commit for each unchanged 10-minute observation.
+    changed = ({k: v for k, v in old.items() if k != "checked_at"} != health or
+               (minutes_since(old.get("checked_at"), now) or 0) >= HEARTBEAT_MIN)
+    if changed:
+        health["checked_at"] = now_z(now)
+        data["launcher_health"] = health
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return changed, alert
+
+
+def report_launcher_stall(notifier, health):
+    """At most one escalation attempt per persisted unresolved episode; never claims successful delivery."""
+    notifier.post("Робот Topview: запуск не подтверждён — launch_stalled",
+                  f"Эпизод `{health['episode']}`, сигнал `{health['last_event_id']}`: "
+                  f"`{health['reason']}`; квитанция обработчика: `{health['handler_outcome']}`. "
+                  f"Физически свободно {health['free_slots_global']}; actionable: {len(health['actionable_items'])}; "
+                  f"нужна сверка сохранённых claim/unknown: {len(health['reconciliation_items'])}. "
+                  "Здоровая телеметрия робота и ACK обработки не подтверждают запуск. "
+                  f"Робот продолжает сигналы: первые {REWAKE_MAX} через {REWAKE_MIN} мин, затем через "
+                  f"{REWAKE_RECOVERY_MIN} мин; часовой ChatGPT остаётся страховкой. "
+                  "Проверить выполнение существующего handler/доступ к браузеру; неизвестный Create не повторять. "
+                  "Робот ничего не запускал и не менял очередь.")
+
+
 def rewake_due(root, now, observed_at=None):
     """A slot stays free although the queue has actionable items: the first wake was lost, the executor was
     paused/over quota, or the slot freed without a result (cancel, vanished task). Returns the signal or None."""
     st = slot_state(root)
     observed_at = observed_at or st["checked_at"]   # noop cycles: this scan matched the published telemetry
     age = minutes_since(observed_at, now)
-    if not st["free"] or not st["actionable"] or age is None or age > 20:
+    if not st["free"] or not (st["actionable"] or st["reserved"]) or age is None or not 0 <= age <= 20:
         return None
     ns = (read_json(Path(root) / "automation-monitor-status.json", {}) or {}).get("notification_state") or {}
     rw = ns.get("robot_rewake") or {}
     count = rw.get("count", 0) if rw.get("episode") == st["episode"] else 0
+    sequence = max(REWAKE_MAX, int(rw.get("sequence", 0)), int(rw.get("count", 0))) + 1
     since = minutes_since(rw.get("last_at"), now)
-    if count >= REWAKE_MAX or (since is not None and since < REWAKE_MIN):
+    interval = REWAKE_RECOVERY_MIN if count >= REWAKE_MAX else REWAKE_MIN
+    if since is not None and since < interval:
         return None
-    return {"event_id": f"slots:{st['episode']}:{count + 1}", "observed_at": observed_at,
-            "free_slots_global": st["free"], "episode": st["episode"], "ready": len(st["actionable"])}
+    return {"event_id": f"slots:{st['episode']}:{sequence}", "observed_at": observed_at,
+            "free_slots_global": st["free"], "episode": st["episode"], "ready": len(st["actionable"]),
+            "reconcile": st["reserved"], "attempt_interval_min": interval, "sequence": sequence}
 
 
 def maybe_rewake(root, git, notifier, now, observed_at=None):
+    changed, alert = update_launcher_health(root, now, observed_at)
     sig = rewake_due(root, now, observed_at)
-    if not sig:
+    if not sig and not changed:
         return False
-    ns = (read_json(Path(root) / "automation-monitor-status.json", {}) or {}).get("notification_state") or {}
-    prev = (ns.get("robot_rewake") or {}).get("last_event_id")
-    silent = prev and not handler_acked(root, prev) and (ns.get("robot_rewake") or {}).get("silence_reported") != prev
-    note_wake(root, sig["episode"], now, event_id=sig["event_id"], rewake=True,
-              silence_reported=prev if silent else None)
-    if git.commit(f"GitHub robot: re-wake executor — {sig['free_slots_global']} free slot(s), "
-                  f"{sig['ready']} ready item(s)", ["automation-monitor-status.json"]) is None:
+    if sig:
+        note_wake(root, sig["episode"], now, event_id=sig["event_id"], rewake=True)
+    title = (f"GitHub robot: re-wake executor — {sig['free_slots_global']} free slot(s), "
+             f"{sig['ready']} actionable item(s)" if sig else "GitHub robot: executor health observation")
+    if git.commit(title, ["automation-monitor-status.json"]) is None:
         return False
     if not git.push() or not git.head_is_on_remote():
         git.reset()
         print("::warning title=robot-wake::re-wake state not pushed; next cycle retries")
         return False
-    if silent:                    # once per unanswered signal: the executor may be paused, over quota or unsubscribed
-        notifier.post("Робот Topview: исполнитель не ответил на сигнал свободного слота",
-                      f"Сигнал `{prev}` не отмечен в `reports/topview-event-wake.json` за {REWAKE_MIN}+ мин, "
-                      f"слот всё ещё свободен, в очереди готово: {sig['ready']}. Робот шлёт повтор `{sig['event_id']}`. "
-                      "Проверить задание ChatGPT 6adc585e… (включено? подписка Relay жива?). "
-                      "Часовая проверка остаётся страховкой. Ничего не запускалось.")
-    notifier.wake(sig)
-    print(f"::notice title=robot-wake::re-wake {sig['event_id']}")
-    return True
+    if alert:
+        report_launcher_stall(notifier, alert)
+    if sig:
+        notifier.wake(sig)
+        print(f"::notice title=robot-wake::re-wake attempted {sig['event_id']}")
+    return bool(sig)
 
 
 def wake_dm_text(signal, issue_url):
@@ -896,6 +1035,9 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
             record_cycle(root, started, now_z(now), "ok",
                          ["role_check", "topview_scan_api", "task_map_master_consistency", "telemetry_publish",
                           "project_status_health_ok", "checkpoint_last"], [], cycle["note"], scan.get("checked_at"))
+            # Also assess the previous attempt when this cycle sends a new result wake.
+            # The diagnostic is committed with telemetry; notification happens only after readback.
+            _health_changed, launcher_alert = update_launcher_health(root, now, scan.get("checked_at"))
             mark_notified(root, [e["key"] for e in fresh])
             wake_events = wake_candidates(root, plan)
             mark_woken(root, [e["key"] for e in wake_events])
@@ -924,6 +1066,8 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
             return 1
         for e in fresh:
             notifier.post(e["title"], published_event_text(e, plan))
+        if launcher_alert:
+            report_launcher_stall(notifier, launcher_alert)
         wakes = [w for w in (slot_wake_signal(e, plan) for e in wake_events) if w]
         if wakes:                 # one wake per cycle is enough: the handler fills every free slot
             notifier.wake(wakes[-1])

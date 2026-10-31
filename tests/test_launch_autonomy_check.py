@@ -1,6 +1,9 @@
-import importlib.util, unittest
+import importlib.util, json, sys, tempfile, unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from unittest.mock import patch
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 
 spec = importlib.util.spec_from_file_location(
     "launch_autonomy_check", Path(__file__).resolve().parents[1] / "scripts" / "launch_autonomy_check.py")
@@ -40,11 +43,54 @@ class LaunchAutonomyTest(unittest.TestCase):
         self.assertEqual(lac.verdict([], free, ["S36"]), "free_slots_idle_no_schedule_launch")
         self.assertEqual(lac.verdict([], [], ["S36"]), "no_free_slots")
 
+    def test_old_scheduled_launch_does_not_hide_current_unresolved_executor(self):
+        # Real incident: S61 launched 30-Oct; on 31-Oct the 24h verdict stayed green through a 5h40 gap.
+        ll = [{"source": "schedule", "claimed_at": "2026-10-30T15:37:29Z"}]
+        free = [{"at": "2026-10-31T05:28:33Z", "occupied": 5, "capacity": 6}]
+        for state in ("launch_stalled", "reconciliation_required", "observation_stale"):
+            with self.subTest(state=state):
+                self.assertEqual(lac.verdict(ll, free, ["S72-WAN30"],
+                                            {"state": state, "unresolved": True}), "launch_stalled")
+        self.assertEqual(lac.verdict(ll, free, ["S72-WAN30"],
+                                    {"state": "capacity_full", "unresolved": False}), "schedule_launched")
+
+    def test_build_preserves_stalled_diagnosis_and_marks_stale_observation(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'ops').mkdir()
+            (root / 'ops/topview-launch-queue.json').write_text(json.dumps({'items': [
+                item('old-success', 'chatgpt-scheduled-old', '2026-10-18T01:00:00Z')]}))
+            (root / 'automation-monitor-status.json').write_text(json.dumps({
+                'health': 'ok', 'launcher_health': {'state': 'launch_stalled', 'unresolved': True,
+                                                  'checked_at': '2026-10-18T03:00:00Z'}}))
+            report = lac.build(root, 24, NOW, [])
+            self.assertEqual(report['launches_by_schedule'], 1)
+            self.assertEqual(report['verdict'], 'launch_stalled')
+            self.assertTrue(report['launcher_observation_stale'])
+
+    def test_notify_flag_routes_stalled_report_even_with_a_previous_scheduled_launch(self):
+        report = {'schema_version': 1, 'verdict': 'launch_stalled', 'window_hours': 24,
+                  'launches_by_schedule': 1, 'launches_by_chat': 0, 'ready_items_waiting': 33,
+                  'free_slot_observations': [], 'launcher_observation_stale': False,
+                  'launcher_health': {'state': 'launch_stalled', 'reason': 'no_handler_receipt',
+                                      'checked_at': '2026-10-31T06:50:33Z'}}
+        with tempfile.TemporaryDirectory() as tmp, patch.object(lac, 'build', return_value=report), \
+                patch.object(lac, 'git_log', return_value=[]), patch.object(lac, 'notify') as notify:
+            self.assertEqual(lac.main([tmp, '--notify']), 0)
+            notify.assert_called_once_with(report)
+        with patch('robot_telemetry.GhNotifier') as notifier:
+            lac.notify(report)
+            _title, text = notifier.return_value.post.call_args.args
+            self.assertIn('расписания: 1', text)
+            self.assertIn('unresolved', text)
+            self.assertNotIn('ничего не запустило', text)
+
     def test_repository_queue_parses(self):
         repo = Path(__file__).resolve().parents[1]
         r = lac.build(repo, 24, NOW, [])
         self.assertIn(r["verdict"], ("schedule_launched", "chat_only", "no_free_slots", "nothing_ready",
-                                     "free_slots_idle_no_schedule_launch"))
+                                     "free_slots_idle_no_schedule_launch", "launch_stalled"))
+        self.assertIn("launcher_health", r)
 
 
 if __name__ == "__main__":
