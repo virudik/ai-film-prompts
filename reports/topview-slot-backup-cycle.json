@@ -8,11 +8,11 @@
   "source_head": "6593384bd71b30932cac46bacdf590b26748b270",
   "route_generation": 2,
   "started_at": "2026-10-31T21:02:38.436371Z",
-  "checked_at": "2026-10-31T21:05:49.034Z",
-  "phase": "started",
+  "checked_at": "2026-10-31T21:07:56.836Z",
+  "phase": "finished",
   "scan_complete": true,
   "scan_source": "Authenticated read-only Topview connector: all boards and every page; GitHub main corroboration",
-  "scan_scope": "14 boards; 17 nonempty board pages (14 first-page reads including empty boards plus 6 further My First Board pages); 952 unique tasks; 624 video tasks",
+  "scan_scope": "14 boards; 17 nonempty board pages (14 first-page reads including empty boards plus 6 further My First Board pages); 952 unique tasks; 624 video tasks; final My First Board page-1 cross-check at 2026-10-31T21:07:56.836Z also found exact same 6 init task IDs",
   "board_count": 14,
   "pages": 17,
   "total_tasks": 952,
@@ -39,7 +39,7 @@
   "browser_transport": "none; TinyFish not opened at global 6/6",
   "browser_capability_probe": {
     "attempted": false,
-    "reason": "At full physical capacity no metered TinyFish UI visit is authorized; historical saved profile sign-in and reversible clicks do not prove file upload or Create.",
+    "reason": "No TinyFish wallet/API/UI call at verified global 6/6; no paid idle polling. Historical browser sign-in does not prove scheduled Create.",
     "production_create_verified": false
   },
   "quota_isolation_verified": false,
@@ -86,5 +86,7 @@
     "needed_free_Create_and_task_id_verified": false,
     "quota_isolation_verified": false
   },
-  "updated_at": "2026-10-31T21:07:33.583Z"
+  "updated_at": "2026-10-31T21:08:13.499Z",
+  "verified_final_at": "2026-10-31T21:08:13.499Z",
+  "finalized_at": "2026-10-31T21:08:13.499Z"
 }
