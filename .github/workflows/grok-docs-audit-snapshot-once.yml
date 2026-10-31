@@ -1,0 +1,41 @@
+name: Grok documentation audit snapshot (read only)
+on:
+  push:
+    branches: [review/grok-docs-20261101]
+    paths: [.github/workflows/grok-docs-audit-snapshot-once.yml]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Package tracked text for review without altering canonical files
+        run: |
+          python3 - <<'PY'
+          import json, hashlib, subprocess, zipfile
+          from pathlib import Path
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          names=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          included=[]
+          with zipfile.ZipFile('/tmp/grok-audit-source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for name in names:
+                  p=Path(name)
+                  if p.is_file() and p.suffix.lower() in ('.md','.json','.py','.yml','.yaml','.txt','.js','.html','.css'):
+                      b=p.read_bytes()
+                      z.writestr(name,b)
+                      included.append({'path':name,'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)})
+              z.writestr('AUDIT-SOURCE.json',json.dumps({'head':head,'files':included},ensure_ascii=False,indent=2))
+          print(json.dumps({'head':head,'files':len(included),'zip_bytes':Path('/tmp/grok-audit-source.zip').stat().st_size}))
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: grok-audit-source
+          path: /tmp/grok-audit-source.zip
+          retention-days: 3
+          if-no-files-found: error
