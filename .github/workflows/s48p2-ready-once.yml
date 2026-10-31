@@ -1,0 +1,154 @@
+name: Finalize owner S48.2 readiness once
+on:
+  push:
+    branches: [edit/s48p2-ready-20261031T2235Z]
+    paths: [.github/workflows/s48p2-ready-once.yml]
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Fresh canonical state and exact interactive lease
+        run: |
+          set -euo pipefail
+          git config user.name 'ChatGPT project editor'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --ff-only origin main
+          python3 - <<'PY'
+          import json,subprocess
+          from datetime import datetime,timezone
+          from pathlib import Path
+          l=json.loads(Path('ops/canon-lock.json').read_text())
+          assert l['state']=='held' and l['holder']=='chatgpt:interactive:242f6d58-045f-4d2c-8580-28350fbc505e' and l['acquired_at']=='2026-10-31T22:35:22Z'
+          assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
+          assert subprocess.check_output(['git','hash-object','ops/topview-launch-queue.json'],text=True).strip()=='6fba9f5fc0310f99e4aa91fa48f2bf36364a6407','Queue changed; re-read instead of replay'
+          PY
+      - name: Bind verified private input and change only S48.2 launch priority
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import copy,hashlib,json,re,subprocess,sys,urllib.request
+          from datetime import datetime,timezone
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          from topview_prompt_match import master_blocks
+          def read(p): return json.loads(Path(p).read_text())
+          def write(p,d): Path(p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          def digest(b): return hashlib.sha256(b).hexdigest()
+          now=datetime.now(timezone.utc); at=now.isoformat().replace('+00:00','Z')
+          PH='749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d'
+          CH='bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf'
+          ITEM='S48-SEED20-P2'; TID='8d7ff1e2de63478693778de29e0dd56e'
+          q=read('ops/topview-launch-queue.json'); oldq=copy.deepcopy(q)
+          i=next(i for i in q['items'] if i['id']==ITEM)
+          assert i['state']=='blocked_inputs' and not i.get('claim') and not i.get('task_id')
+          assert i['canonical_prompt_sha256']==PH and i['priority']==0.41
+          assert i['model']=='Seedance 2.0' and i['duration_seconds']==15 and i['actual_resolution']==720 and i['aspect_ratio']=='16:9' and i['quantity']==1
+          parent=next(x for x in q.get('archived_items',[])+q['items'] if x['id']=='S48-SEED20-P1')
+          assert parent['task_id']==TID and parent['state'] in ('submitted','completed')
+          result=next(x for x in read('topview-task-map.json')['processed_tasks'] if x['task_id']==TID)
+          assert result.get('final_status',result.get('status'))=='success'
+          for ident,priority in [('S72-WAN30',-1),('S71-WAN30',-0.99)]:
+              peer=next(x for x in q['items'] if x['id']==ident)
+              assert peer['priority']==priority and peer['state'] in ('submitted','completed','waiting_for_slot')
+          m=Path('video-prompts.md'); text=m.read_text(); Path('/tmp/s48-before.md').write_text(text)
+          prompt=next(b for l,b in master_blocks(text) if l=='48 · Seedance 2.0 часть 2').strip()
+          assert digest(prompt.encode())==PH and len(prompt)<10000
+          assert 'worm, already visible behind the characters at a distance' in prompt
+          oldvideo=next(r for r in i['references'] if r['slot']=='@Video1')
+          assert oldvideo['input_status']=='required_not_available'
+          images=[r for r in i['references'] if r['slot'].startswith('@Image')]; assert len(images)==6
+          for r in images:
+              assert Path(r['path']).is_file() and digest(Path(r['path']).read_bytes())==r['sha256'],r['path']
+          public={'checked_at':at,'verified':False}
+          try:
+              url='https://virudik.github.io/ai-film-prompts/video-prompts.md?verify=s48p2-'+str(int(now.timestamp()))
+              with urllib.request.urlopen(url,timeout=30) as resp:
+                  public['http_status']=resp.status; pt=resp.read().decode('utf-8')
+              pp=next(b for l,b in master_blocks(pt) if l=='48 · Seedance 2.0 часть 2').strip()
+              public.update(prompt_sha256=digest(pp.encode()),verified=digest(pp.encode())==PH)
+          except Exception as exc: public['error']=type(exc).__name__+': '+str(exc)[:180]
+          provenance='references/scenes/scene-48/S48-P1-continuity.json'
+          clip={'slot':'@Video1','required':True,'canonical_role':'previous_part_end','input_status':'available','source_item_id':'S48-SEED20-P1','source_task_id':TID,'source_drive_file_id':'1vQ1cynAhPMDbDMPa4GiEPOVwVZm_ZZJG','source_original_sha256':'e6d05cd0d193533a09189e8a345b3ce73460db906bffef0058a5f3671d0ae90c','library_file_id':'libfile_47e6031c53fc8191ade233483a1757a0','filename':'S48-P1-last3s.mp4','bytes':2253712,'sha256':CH,'duration_seconds':3,'fps':24,'frames':72,'width':1280,'height':720,'source_start_frame_zero_based':289,'source_end_frame_exclusive':361,'qc_status':'usable_for_continuity','qc_report':provenance,'source_requirement':'Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Materialize the private Library file and recheck SHA before upload; never synthesize or mirror the join.'}
+          meta={'schema_version':1,'project':'seregius','item_id':ITEM,'recorded_at':at,'source':{'task_id':TID,'source_item_id':'S48-SEED20-P1','drive_file_id':clip['source_drive_file_id'],'sha256':clip['source_original_sha256'],'bytes':11718867,'video_frames':361,'fps':24},'clip':copy.deepcopy(clip),'storage':'Private Library video; GitHub contains the authoritative binding/provenance and SHA, not a public film copy.','verification':{'library_upload_succeeded':True,'library_download_readback_sha256':CH,'library_readback_checked_at':'2026-10-31T22:32:50Z','ffprobe_duration_seconds':3,'ffprobe_frames':72,'ffprobe_resolution':'1280x720','audio_stream_duration_seconds':3},'continuity_qc':{'status':'usable_for_continuity','reviewer':'chatgpt','scope':'Tail sampled at4fps and terminal full-resolution frame, exact source-frame and technical stream checks; not continuous full-frame-rate playback or final editorial acceptance.','observations':['Central purple-robed figure retains the captured module at chest height; blue-bladed pursuer right; kneeling figure and dropped weapon foreground-left.','One segmented worm remains visible at a distance behind the ruins; revised continuation shows its approach, not a nearby reset.','Same camera axis, ruins, light and final-frame geometry; no generated or interpolated replacement.'],'audio_preserved':True,'audio_listened':False,'independent_face_sheet_comparison':False,'owner_selected_source_for_continuation':True,'editorial_approval_inferred':False},'extraction':{'start_frame_zero_based':289,'end_frame_exclusive':361,'method':'Final72 original frames; timestamps reset N/24; H264 CRF16 yuv420p; corresponding original audio trimmed and AAC-encoded.'},'prompt_sha256':PH}
+          assert not Path(provenance).exists(); write(provenance,meta)
+          i['references']=[copy.deepcopy(clip) if r['slot']=='@Video1' else r for r in i['references']]
+          i['priority_before_20261101_owner_after_vitalik']=i['priority']
+          i.update(priority=-0.98,state='waiting_for_slot',launch_readiness='authorized_inputs_available',blocker=None,continuity_prepared_at=at,continuity_report=provenance)
+          i['owner_instruction_20261101_after_vitalik']={'at':at,'quote':'Сцену на сайте поправил? Если считаешь сцену готовой то ставь после Виталиков и продолжай отслеживание слотов и запуск по очереди','order':['S72-WAN30','S71-WAN30',ITEM],'meaning':'Launch priority only, not dependency on completion of Vitalik results. Existing ready-skip and real continuity dependencies remain.','source':'Direct owner current interactive chat'}
+          q['updated_at']=at
+          assert len(oldq['items'])==len(q['items'])
+          assert all(a==b for a,b in zip(oldq['items'],q['items']) if a['id']!=ITEM)
+          write('ops/topview-launch-queue.json',q)
+          man=read('references/scenes/scene-48/manifest.json')
+          row=next(r for r in man['prompt_reference_mapping'] if r['prompt_id']==ITEM)
+          assert row['canonical_prompt_sha256']==PH
+          row['slots']=[copy.deepcopy(clip) if r['slot']=='@Video1' else r for r in row['slots']]
+          row.update(launch_readiness='authorized_inputs_available',continuity_report=provenance)
+          man['updated_at']=at; write('references/scenes/scene-48/manifest.json',man)
+          a=text.index('<a id="scene-48"></a>'); b=text.index('<a id="scene-49"></a>',a); section=text[a:b]
+          old='**Входы части 2:** @Video1 — конец части 1 (её последние секунды); @Image1–@Image6 — те же файлы, что в части 1.'
+          assert section.count(old)==1
+          new='**Входы части 2 — готовы (01.11.2026):** @Video1 — `S48-P1-last3s.mp4`, настоящие последние 3,000 с выбранного результата 48.1 (72 кадра, 24 кадра/с, 1280×720, со звуком), сохранённые в приватной Library; [привязка, SHA256 и проверка стыка](references/scenes/scene-48/S48-P1-continuity.json). @Image1–@Image6 — те же шесть проверенных файлов, что в части 1. Начало продолжает реальную расстановку и видимого вдали червя, без повторного захвата карты. **48.2 готова по входам и поставлена по приоритету сразу после 72 → 71 с Виталиком; ожидать готового результата этих сцен не требуется.** Перед отправкой повторно проверить живую очередь и свободный слот. 48.3 и 48.4 по-прежнему ждут настоящие результаты предшествующих частей; готовность 48.2 не означает готовность всей цепочки.'
+          edited=text[:a]+section.replace(old,new)+text[b:]
+          assert master_blocks(edited)==master_blocks(text),'Unexpected production prompt change'
+          m.write_text(edited)
+          report={'schema_version':1,'project':'seregius','item_id':ITEM,'applied_at':at,'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'result':'ready_inputs_waiting_for_slot','canonical_prompt_sha256':PH,'clip_binding':clip,'priority_before':0.41,'priority_after':-0.98,'launch_order':['S72-WAN30','S71-WAN30',ITEM],'order_is_completion_dependency':False,'all_six_image_sha256_verified':True,'new_video_submissions':0,'topview_credits_spent':0,'tinyfish_agent_runs':0,'public_prompt_before_edit':public,'scheduled_executor':{'automation_id':'6ae5e9d563f88191aa6da7c9ba1e05a0','enabled_verified_in_this_chat':True,'schedule':'hourly HH:00 Europe/Moscow','uses_fresh_canonical_priority':True,'production_tinyfish_create_verified':False},'later_parts':'48.3/4 remain gated by real preceding results; no approval/rerender'}
+          write('reports/scene48-p2-ready-2026-11-01.json',report)
+          cp=Path('reports/current-work-checkpoint.md'); current=cp.read_text()
+          if current.startswith('## 01.11.2026 МСК — правка текста 48.2 по настоящему концу 48.1'):
+              match=re.search(r'\n## ',current); assert match; current=current[match.start()+1:]
+          cp.write_text('## 01.11.2026 МСК — 48.2 готова по входам, сразу после Виталиков\n\nПоследние3с48.1 сохранены в приватной Library, повторно скачаны и сверены по SHA; `references/scenes/scene-48/S48-P1-continuity.json`. Шесть картинок проверены. Исправленный промпт749baf98 не менялся. Очередь72 →71 →48.2 (priority -0.98), далее живая очередь; это порядок отправки, не ожидание результата71/72.48.3/4 ждут настоящие стыки. Старый блокер отсутствующего входа48.2 снят. `reports/scene48-p2-ready-2026-11-01.json`. Видео этим изменением не запускалось. Следующий шаг: свежие полный скан/claims/свой замок и первая готовая разрешённая сцена при свободном слоте, сайт Unlimited0. Обычный исполнитель каждый час :00 МСК, TinyFish по разрешению владельца; первое рабочее Create через него ещё не подтверждено. Не восстанавливать снятый блокер из истории ниже.\n\n'+current)
+          reg=read('work-resume-register.json'); w=next(w for w in reg['active_work'] if w['work_id']=='TOPVIEW-SLOT-PRIORITY-20261024')
+          w['updated_at']=at
+          w['next_action']='Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.'
+          w['latest_preparation']={'item_id':ITEM,'status':'ready_inputs_waiting_for_slot','report':'reports/scene48-p2-ready-2026-11-01.json','updated_at':at}
+          reg['last_updated_at']=at; write('work-resume-register.json',reg)
+          hp=Path('NEW-CHAT-HANDOFF.md'); h=hp.read_text(); marker='### Новое с последней чистки (дописывать сюда, одной строкой с датой)'; assert h.count(marker)==1
+          note='- **01.11.2026, владелец:**48.2 подготовлена от настоящего конца48.1 и поставлена сразу после72/71 с Виталиком; приватный трёхсекундный вход привязан, шесть картинок и SHA проверены. Это порядок отправки, не ожидание результата Виталиков;48.3/4 ждут реальные стыки. `reports/scene48-p2-ready-2026-11-01.json`.'
+          hp.write_text(h.replace(marker,marker+'\n\n'+note,1))
+          Path('SYNC-TRIGGER.txt').write_text(at+' Owner S48.2: exact private3s input bound; ready after72->71; master SHA256 '+digest(m.read_bytes())+'. Validate and publish GitHub Pages.\n')
+          print(json.dumps({'phase':'prepared','item':ITEM,'state':i['state'],'priority':i['priority'],'clip_sha256':CH,'public_prompt_before':public},ensure_ascii=False))
+          PY
+      - name: Validate all inputs and exact ready state, certify handoff, test
+        run: |
+          set -euo pipefail
+          python3 scripts/cert_github.py . >/tmp/s48-cert.log
+          python3 scripts/queue_readiness.py .
+          python3 scripts/build_project_status.py video-prompts.md --output /tmp/s48-project-status.json --synced-at "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/s48-before.md --revision-timezone Europe/Moscow >/tmp/s48-validation.log
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          s=json.loads(Path('/tmp/s48-project-status.json').read_text()); assert s['health']=='ok',s.get('errors')
+          assert s['canonical_master_sha256']==hashlib.sha256(Path('video-prompts.md').read_bytes()).hexdigest()
+          Path('project-status.json').write_bytes(Path('/tmp/s48-project-status.json').read_bytes())
+          r=json.loads(Path('ops/queue-readiness.json').read_text()); assert r['source_queue_sha256']==hashlib.sha256(Path('ops/topview-launch-queue.json').read_bytes()).hexdigest()
+          row=next(i for i in r['items'] if i['id']=='S48-SEED20-P2'); assert row['ready'] and row['code']=='ready',row
+          print(json.dumps({'health':s['health'],'master_sha256':s['canonical_master_sha256'],'readiness':row},ensure_ascii=False))
+          PY
+          python3 -m unittest discover -s tests -q >/tmp/s48-tests.log 2>&1 || { tail -60 /tmp/s48-tests.log; exit 1; }
+          tail -5 /tmp/s48-tests.log
+          git diff --check
+      - name: Publish minimal diff only under unchanged own lease
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" || { echo 'main advanced; no stale patch replay'; exit 1; }
+          python3 - <<'PY'
+          import json
+          from datetime import datetime,timezone
+          from pathlib import Path
+          l=json.loads(Path('ops/canon-lock.json').read_text())
+          assert l['state']=='held' and l['holder']=='chatgpt:interactive:242f6d58-045f-4d2c-8580-28350fbc505e' and l['acquired_at']=='2026-10-31T22:35:22Z'
+          assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
+          PY
+          git add video-prompts.md ops/topview-launch-queue.json ops/queue-readiness.json references/scenes/scene-48/manifest.json references/scenes/scene-48/S48-P1-continuity.json reports/scene48-p2-ready-2026-11-01.json reports/current-work-checkpoint.md work-resume-register.json NEW-CHAT-HANDOFF.md instruction-sync-status.json project-status.json SYNC-TRIGGER.txt
+          git commit -m 'S48.2 ready: verified actual3s continuity input; launch after Vitalik72/71 (owner)'
+          git push origin HEAD:main
+          git rev-parse HEAD
+          echo 'Interactive owner must read back, trigger Pages, and release only the exact lease; no video generation was performed.'
