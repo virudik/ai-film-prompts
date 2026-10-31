@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:2e36f5ee-39a3-41d0-b6c9-726bd70f44b1",
-  "task": "Record direct owner authorization for TinyFish fallback in existing hourly :00 launcher; preserve zero-credit and anti-duplicate gates",
+  "task": "Owner-authorized TinyFish fallback recorded in slot-backup.json; existing HH:00 prompt updated and read back; no new schedule, paid browser run or video; production acceptance still pending",
   "acquired_at": "2026-10-31T19:42:06Z",
-  "expires_at": "2026-10-31T20:02:06Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T19:45:20Z",
   "rules": "ops/CANON-LOCK.md"
 }
