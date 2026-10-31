@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:a2fe8418-8be3-4700-abd1-94020e458bd1",
-  "task": "Actual ordinary hourly 20:00Z: full 14-board 17-page 952-item scan, 624 video; confirm 6/6 and write no_free_slot own receipt, no Create/TinyFish",
+  "task": "Ordinary 20:00Z completed verified 14-board 952-task (624 video) scan 6/6; own final no-op receipt saved; no Create/no TinyFish/no credits",
   "acquired_at": "2026-10-31T20:02:44Z",
-  "expires_at": "2026-10-31T20:11:44Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T20:04:54Z",
   "rules": "ops/CANON-LOCK.md"
 }
