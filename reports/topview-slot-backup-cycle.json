@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "source": "ChatGPT scheduled backup",
+  "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+  "execution_instance_id": "1dd4fee3-b350-4b8e-8ec2-040f1dcb7a16",
+  "run_id": "52f01b43-0358-8330-9c19-fb332e6dcb03",
+  "run_id_source": "Automations.peek.run_details.last_run.id",
+  "source_head": "852e462fa4dbc5ad3bea017fb02217c800c8df4f",
+  "route_generation": 1,
+  "started_at": "2026-10-31T16:18:20.784867Z",
+  "checked_at": null,
+  "updated_at": "2026-10-31T16:21:57.676Z",
+  "phase": "started",
+  "scan_complete": false,
+  "scan_source": null,
+  "scan_scope": null,
+  "board_count": null,
+  "video_pages": null,
+  "video_tasks": null,
+  "occupied_slots": null,
+  "free_slots": null,
+  "selected_item": null,
+  "active_task_ids": [],
+  "task_ids": [],
+  "outcome": null,
+  "blocker": null,
+  "quota_isolation_verified": false,
+  "browser_capability_probe": {
+    "attempted": true,
+    "website_ui_verified": false,
+    "controls_verified": false,
+    "import_verified": false,
+    "path": "mcp__Browser__list_tabs",
+    "error": "UNKNOWN: Error code: UNKNOWN; Error: RuntimeException: Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
+    "mcp_read_only_available": true
+  },
+  "lease": {
+    "holder": "chatgpt:slot-backup:1dd4fee3-b350-4b8e-8ec2-040f1dcb7a16",
+    "acquired_at": "2026-10-31T16:21:31.614Z",
+    "expires_at": "2026-10-31T16:41:31.614Z"
+  },
+  "notes": "Started receipt is written by actual scheduled backup run; no Create at confirmed 6/6; final scan and outcome to follow."
+}
