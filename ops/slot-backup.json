@@ -31,7 +31,7 @@
   "receipt_path": "reports/topview-slot-backup-cycle.json",
   "takeover_condition": "Current authorized ready work and verified free global capacity, no valid competing lease. Both peers act independently; preferred role and prior success never reserve a free slot. Reconcile claims/unknown first.",
   "ownership": {
-    "holder_template": "chatgpt:<ordinary|work>:<execution-instance-uuid>",
+    "holder_template": "chatgpt:<ordinary|work>:<execution-instance-uuid> or grok:<execution-instance-uuid> (Grok Bot helper)",
     "runtime_run_id": "Use the actual platform run ID when exposed; otherwise null plus reason. A locally generated execution_instance_id is not a runtime run ID.",
     "before_each_write_and_create": "Fresh-read registry and lock. Scheduled caller must be allowed by peers.<surface>.automation_ids; active_automation_id is the ordinary scheduled executor pointer, not a requirement that Work IDs equal the ordinary ID. Interactive caller must match foreground_owners.<surface>.session_id/epoch. Require unchanged route_generation, exact holder/acquired_at, unexpired lease and own item claim. A held generic chatgpt lock is foreign. Any mismatch stops the write/Create.",
     "expired_lease": "Reacquire only when allowed; expiry never clears a claim or proves that Create did not happen.",
@@ -75,7 +75,7 @@
   ],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T19:43:29Z",
+  "updated_at": "2026-10-31T23:26:12Z",
   "reserve_automation_ids": [
     "6adc585e7ac08191bb93825117dc7213",
     "6acae6ab433481919e88665c520b8ef2"
@@ -115,6 +115,29 @@
         "reports/topview-event-wake.json",
         "reports/topview-launcher-cycle.json"
       ]
+    },
+    "grok": {
+      "enabled": true,
+      "enabled_note": "Enabled 2026-11-01 by direct owner decision (grok_launcher.enable_decision) after the dry run. The first real Create additionally needs the owner's go-ahead in chat (grok_launcher.first_real_create.owner_go_ahead, enforced by scripts/launcher_coordination.py).",
+      "role": "helper",
+      "automation_ids": [
+        "topview-grok"
+      ],
+      "receipt": "reports/topview-grok-cycle.json",
+      "handoff_to_work_allowed": false,
+      "schedule": {
+        "automation_name": "Запуск сцен Topview (grok)",
+        "automation_id": "topview-grok",
+        "timezone": "Europe/Amsterdam",
+        "minutes": [
+          12,
+          27
+        ],
+        "first_hour": 8,
+        "last_hour": 23,
+        "timing_mode": "exact_schedule",
+        "description": "Minutes :12 and :27 of every hour 08–23 Europe/Amsterdam; inside launch_window :10–:40. Created by the owner decision of 2026-11-01 00:24 (enable_decision)."
+      }
     }
   },
   "foreground_owners": {
@@ -229,5 +252,109 @@
     "schedule_changed": false,
     "relay_changed": false,
     "new_topview_submissions_in_configuration_change": 0
+  },
+  "grok_launcher": {
+    "owner_request_id": "owner-20261101-grok-helper-launcher",
+    "recorded_at": "2026-10-31T23:00:00Z",
+    "recorded_at_local": "2026-11-01T00:00 Europe/Amsterdam",
+    "authorization_source": "Direct owner messages in the Grok Bot chat (assistant: Grok Bot). The assistant asked: «Делать оба параллельно?» (PR with the `grok` registration and a dry run of S71 up to Create).",
+    "owner_quote_capability": "Технически могу запускать видео в Topview через браузер, где я уже вошёл (режим Unlimited, 0 кредитов) - это бы пригодилось. Чтобы ты запускал сцену из согласованной очереди в освободившиеся слоты",
+    "owner_quote_registration": "Делать",
+    "owner_quote_registration_at": "2026-11-01T00:00 Europe/Amsterdam",
+    "role": "helper",
+    "preferred_executor_unchanged": "ordinary",
+    "route_generation_unchanged": 2,
+    "surface": "grok",
+    "holder_format": "grok:<execution-instance-uuid4>",
+    "scope": "Серёгиус, доска My First Board 1a6244cf1ae747ef847d949a80d6133c, Unlimited0 (720p, 16:9, quantity 1, видимая цена 0), готовые разрешённые пункты общей очереди по живому priority. Платный MCP/Canvas запрещён; другие проекты, «Роскосмос», пробы Стича и owner hold не запускать.",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "unlimited_zero_only": true,
+    "launch_window": {
+      "timezone": "Europe/Amsterdam",
+      "first_hour": 8,
+      "last_hour": 23,
+      "first_minute": 10,
+      "last_minute": 40,
+      "description": "New claims/intents only at minutes :10–:40 of each hour 08:00–23:50 Europe/Amsterdam (hours 08–23). Lease taken for 15 minutes, extended only after a real step (max 30), released by :50 so Work HH:55 and ordinary :00 are not blocked."
+    },
+    "max_submissions_per_wake": 1,
+    "retries": {
+      "enabled": true,
+      "state": "enabled_by_owner_20261101",
+      "policy_id": "owner-20261030-technical-retry",
+      "policy_file": "ops/TOPVIEW-RETRY.md",
+      "max_retry_attempts": 2,
+      "counter": "shared retry_control.retry_attempts_used per item (same counter as Work/hourly/Relay); never reset by a new hour, chat or task ID; a missing counter is restored from history, never assumed zero",
+      "scope": "Same limits as the other permitted launchers: only a confirmed technical failure, at most 2 additional Creates per item, ~60 s pause, board My First Board only, website Unlimited with visible price 0 only (no paid path, no credits), full claim/intent/readback and a fresh complete scan before each retry Create. Unknown outcome consumes the attempt and blocks repetition. Counts against max_submissions_per_wake=1.",
+      "owner_request_id": "owner-20261101-grok-retries",
+      "recorded_at": "2026-10-31T23:12:00Z",
+      "recorded_at_local": "2026-11-01T00:12 Europe/Amsterdam",
+      "owner_question": "Разрешить мне повторы по TOPVIEW-RETRY?",
+      "owner_quote": "Да, разрешаю тебе повторы по TOPVIEW-RETRY",
+      "takes_effect": "Only when peers.grok.enabled becomes true; peers.grok stays disabled until dry-run acceptance"
+    },
+    "interactive_commands": {
+      "enabled": false,
+      "state": "pending_owner_decision",
+      "note": "Telegram/interactive launches are not authorized; scripts/launcher_coordination.py only accepts kind=scheduled for surface grok."
+    },
+    "pending_owner_decisions": [
+      "Go-ahead in chat for the first real Create (first_real_create.owner_go_ahead)",
+      "Whether an unchanged cycle (6/6 slots) writes reports/topview-grok-cycle.json or stays silent",
+      "Whether Telegram commands count as a direct owner command for interactive launches"
+    ],
+    "gates": [
+      "Complete fresh account-wide read-only scan before any Create; no Create at six occupied slots, no ready item or a foreign live lease.",
+      "All existing role, exact lease, fresh SHA, reconciliation, queue priority, input/QC and claim/intent protections remain required (scripts/launcher_coordination.py).",
+      "Own CAS claim, submitting intent and readback first; then exactly one Create in the same uninterrupted execution. No double click, no replay after a gap.",
+      "Website UI only, Unlimited with visible price 0. No paid Topview MCP/Canvas generation, no credits.",
+      "Never take over or release a foreign canon lease.",
+      "Independently verify the returned Topview task ID, full normalized prompt, inputs/settings, Unlimited=true and credits=0 before recording submitted."
+    ],
+    "acceptance": {
+      "owner_authorization": true,
+      "registered_in_repository": true,
+      "dry_run_s71_wan30_stop_before_create": true,
+      "file_upload_verified": true,
+      "unlimited_zero_verified": true,
+      "scheduled_run_verified": false,
+      "production_submission_verified": false,
+      "state": "dry_run_done_first_real_launch_pending_owner_go_ahead"
+    },
+    "new_automations": 1,
+    "new_topview_submissions_in_configuration_change": 0,
+    "owner_context_quote_20261101": "или ты сам себя можешь вписать раз есть доступ теперь в гитхаб?",
+    "enable_decision": {
+      "owner_request_id": "owner-20261101-grok-merge-enable-routine",
+      "recorded_at": "2026-10-31T23:24:00Z",
+      "recorded_at_local": "2026-11-01T00:24 Europe/Amsterdam",
+      "owner_quote": "Мёржи PR #212 под замком, включай grok и создавай рутину запуска",
+      "pull_request": "https://github.com/virudik/ai-film-prompts/pull/212",
+      "effects": [
+        "PR #212 merged under the canon lock",
+        "peers.grok.enabled=true",
+        "routine «Запуск сцен Topview (grok)» (topview-grok) created, :12 and :27 of hours 08–23 Europe/Amsterdam"
+      ],
+      "applied_at": "2026-10-31T23:26:12Z"
+    },
+    "first_real_create": {
+      "owner_go_ahead": false,
+      "state": "pending_owner_go_ahead",
+      "note": "The routine runs the read-only scan and preflight, but scripts/launcher_coordination.py blocks prepare-intent for grok until the owner gives a go-ahead in the Grok Bot chat for the first real Create. Recording it (owner_go_ahead true, with the verbatim quote and time) is a separate CAS edit under the canon lock."
+    },
+    "dry_run": {
+      "item_id": "S71-WAN30",
+      "performed_at": "2026-10-31T23:04:00Z",
+      "performed_at_local": "~2026-11-01T00:04 Europe/Amsterdam",
+      "result": "form fully filled, Create not clicked; no task created, repository and queue unchanged",
+      "verified": [
+        "Unlimited mode available and enabled (price 0)",
+        "file upload through the box browser works",
+        "full prompt entered: 7399 of 20000 characters"
+      ],
+      "source": "Grok Bot report to the owner in chat (screenshot sent); no receipt file in the repository"
+    },
+    "automation_note": "One routine, topview-grok, created by the owner's decision 2026-11-01 00:24; no other monitors or schedules."
   }
 }
