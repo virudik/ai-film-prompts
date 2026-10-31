@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-09T12:10:01.949Z",
-      "operation": "connector_recovery_and_unchanged_full_account_refresh",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "Topview connector unavailable; last verified snapshot 5 active tasks",
-      "new_status": "connector recovered; unchanged 5 active tasks; occupied 5 of 6",
-      "source_checkpoint": "2026-10-09T12:10:01.949Z",
-      "outcome": "telemetry_verified_pending_public_readback",
-      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 554 unique tasks. Direct Board-task lookup reconfirmed all five mapped unlimited Wan 3.0 tasks remain init. No new project task, Scene ID, terminal transition, or editorial decision."
-    },
-    {
       "timestamp": "2026-10-09T13:00:51.209Z",
       "operation": "unchanged_full_account_refresh",
       "scene_id": null,
@@ -5502,8 +5491,19 @@
       "source_checkpoint": "2026-10-31T06:20:21Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-31T07:10:21Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "5 активных задач",
+      "new_status": "5 активных задач",
+      "source_checkpoint": "2026-10-31T07:10:21Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 93,
+  "archived_event_count": 94,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
