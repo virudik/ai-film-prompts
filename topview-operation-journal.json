@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-10T16:11:51Z",
-      "operation": "claude_monitor_hourly_cycle",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "slow 16,20 init",
-      "new_status": "slow 16,20 init (queue 868 / 149)",
-      "source_checkpoint": "2026-10-10T16:11:51Z",
-      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
-      "verification": "full scan 11 boards / 13 pages / 554 video tasks; no new or finished tasks; fresh Drive master SHA ec8d8d23… = mirror"
-    },
-    {
       "timestamp": "2026-10-10T17:14:05.000Z",
       "operation": "manual_topview_refresh_by_claude_chat",
       "scene_id": null,
@@ -5502,8 +5491,19 @@
       "source_checkpoint": "2026-10-31T09:50:19Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-31T10:40:18Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "5 активных задач",
+      "new_status": "5 активных задач",
+      "source_checkpoint": "2026-10-31T10:40:18Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 97,
+  "archived_event_count": 98,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
