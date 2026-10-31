@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-31T16:47:03Z",
+  "last_updated_at": "2026-10-31T16:50:52Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-10-31T16:47:03Z",
+      "updated_at": "2026-10-31T16:50:52Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
@@ -214,14 +214,14 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-31T16:47:03Z",
+        "verified_at": "2026-10-31T16:50:52Z",
         "last_completed": "plan_saved_before_policy_change",
         "next_action": "Свежие роли/слоты/claims; обычный ChatGPT основной пока Work исчерпан. Проверить текущий реальный runtime и GUI. Запускать только готовое разрешённое при свободной ёмкости; unknown не повторять. Ответственность сменщика — ops/LAUNCHER-COORDINATION.md.",
         "launcher_request_id": "owner-20261031-ordinary-primary",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# Обычный ChatGPT — основной; Work — резерв · 31.10.2026",
-          "sha256": "c35574018fdd9e88f4a1c98cb9151425914dca3d8d16f9ab3d37efb76984a4d4"
+          "sha256": "59bb87babe38c78521cf428a4ca3276b2632313e75cf9bf33a0f7be84602c63a"
         },
         "evidence": [],
         "read_next": [
