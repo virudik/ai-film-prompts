@@ -300,9 +300,7 @@
       "note": "Telegram/interactive launches are not authorized; scripts/launcher_coordination.py only accepts kind=scheduled for surface grok."
     },
     "pending_owner_decisions": [
-      "Go-ahead in chat for the first real Create (first_real_create.owner_go_ahead)",
-      "Whether an unchanged cycle (6/6 slots) writes reports/topview-grok-cycle.json or stays silent",
-      "Whether Telegram commands count as a direct owner command for interactive launches"
+      "Go-ahead (Grok Bot chat or Telegram) for the first real Create (first_real_create.owner_go_ahead)"
     ],
     "gates": [
       "Complete fresh account-wide read-only scan before any Create; no Create at six occupied slots, no ready item or a foreign live lease.",
@@ -355,6 +353,48 @@
       ],
       "source": "Grok Bot report to the owner in chat (screenshot sent); no receipt file in the repository"
     },
-    "automation_note": "One routine, topview-grok, created by the owner's decision 2026-11-01 00:24; no other monitors or schedules."
+    "automation_note": "One routine, topview-grok, created by the owner's decision 2026-11-01 00:24; no other monitors or schedules.",
+    "owner_decisions_20261101": {
+      "owner_request_id": "owner-20261101-grok-no-clutter-telegram-direct",
+      "recorded_at": "2026-10-31T23:31:00Z",
+      "recorded_at_local": "2026-11-01T00:31 Europe/Amsterdam",
+      "owner_quote": "Не засорять. Команды из телеграм считать прямой командой",
+      "documentation_request_quote": "Можешь записать их в нужную инструкцию проекта и хендоф, чтобы гпт был в курсе твоего присутствия",
+      "documentation_request_at_local": "2026-11-01T00:35 Europe/Amsterdam",
+      "no_clutter": {
+        "write_nothing_when_all_slots_full_or_nothing_to_do": true,
+        "no_report_file_in_that_case": "reports/topview-grok-cycle.json is written only after a real step (claim/intent/Create/retry/blocker with accounting change)"
+      },
+      "telegram_direct_command": {
+        "channel": "Telegram private chat with @Grok_vint_bot",
+        "chat_id": "215961273",
+        "counts_as_direct_owner_command": true,
+        "equal_to": "owner messages in the Grok Bot chat",
+        "ambiguous_command": "clarifying question first",
+        "paid_topview_generation": "explicit owner yes required per generation",
+        "first_real_create_go_ahead_sources": [
+          "Grok Bot chat",
+          "Telegram private chat"
+        ],
+        "changes_owner_go_ahead": false,
+        "interactive_launch_path": "unchanged: scripts/launcher_coordination.py accepts only kind=scheduled for surface grok"
+      },
+      "presence": {
+        "surface": "grok",
+        "assistant": "Grok Bot (owner's assistant with own computer/browser signed in to Topview)",
+        "routine": "topview-grok",
+        "schedule": ":12 and :27, 08:12–23:27 Europe/Amsterdam (same minutes in MSK)",
+        "acts_only_in_window": ":10–:40",
+        "preferred_executor": "ordinary ChatGPT (:00); Work :55; grok is a backup filling free slots between them",
+        "coordination": "canon lock / claim / intent / receipts only",
+        "monitor": "Grok Bot monitor routine at :00 and :30: read-only; alerts owner in Telegram about stale status, free slot >30 min without receipt, expired lock, robot workflow failures",
+        "first_real_create": "gated by first_real_create.owner_go_ahead=false"
+      },
+      "docs": [
+        "ops/LAUNCHER-COORDINATION.md",
+        "NEW-CHAT-HANDOFF.md",
+        "reports/current-work-checkpoint.md"
+      ]
+    }
   }
 }
