@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:slot-failover-20261031-1756",
-  "task": "Failover capability preflight; ordinary chat event subscription unavailable",
-  "acquired_at": "2026-10-31T14:56:00Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T15:00:00Z",
+  "state": "held",
+  "holder": "chatgpt:slot-backup-activation:ae2efe6b-4866-4042-a399-5197de343821",
+  "task": "Register existing two-hour ordinary-chat backup, verify settings and execution; no Topview Create",
+  "acquired_at": "2026-10-31T16:13:37Z",
+  "expires_at": "2026-10-31T16:43:37Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
