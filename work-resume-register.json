@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-31T11:13:16Z",
+  "last_updated_at": "2026-10-31T11:25:41+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
-      "status": "waiting_global_capacity",
-      "updated_at": "2026-10-31T11:13:16Z",
+      "status": "fixing_launcher_recovery",
+      "updated_at": "2026-10-31T11:25:41+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
@@ -22,7 +22,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "При следующем цикле заново проверить свежий main, решения/замок, существующие task IDs и полную глобальную ёмкость Topview. Если есть свободный слот, первой готовой S71-WAN30 (Wan 3.0,30с,Unlimited0), затем S56-SEED20-P2 по живому priority и входам. S72 наблюдать по task22dbd25cdd9f47cd9e44300e55f5e44f, не повторять. Ожидающее реальный результат продолжение пропускать без резервирования слота; свободные слоты заполнить разрешёнными готовыми items.",
+      "next_action": "Закончить и проверить исправление watchdog; обновить существующие задания без смены расписания/подписки; опубликовать CAS/readback и проверить workflow.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md"
@@ -211,33 +211,26 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-10-31T11:13:16Z",
-        "last_completed": "S72-WAN30 отправлена одним бесплатным веб-Create; подтверждён task22dbd25cdd9f47cd9e44300e55f5e44f и полный prompt/settings/input preflight. Полный postscan14 досок/18 страниц/624 видео:6/6 активны, дублей нет.",
-        "next_action": "При следующем цикле заново проверить свежий main, решения/замок, существующие task IDs и полную глобальную ёмкость Topview. Если есть свободный слот, первой готовой S71-WAN30 (Wan 3.0,30с,Unlimited0), затем S56-SEED20-P2 по живому priority и входам. S72 наблюдать по task22dbd25cdd9f47cd9e44300e55f5e44f, не повторять. Ожидающее реальный результат продолжение пропускать без резервирования слота; свободные слоты заполнить разрешёнными готовыми items.",
+        "verified_at": "2026-10-31T11:25:41+00:00",
+        "last_completed": "Подтверждены5ч40м19с простоя, своевременные robot/Relay сигналы, незавершённый handler и исчерпанный re-wake cap.",
+        "next_action": "Закончить и проверить исправление watchdog; обновить существующие задания без смены расписания/подписки; опубликовать CAS/readback и проверить workflow.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# Продолжай: S72 запущена, 6/6 слотов · 31.10.2026",
-          "sha256": "8814604c1e492c6057f11fee14ca3a4d36ab88261cc47ccfd7bc2d1959712d0d"
+          "anchor": "# Простой слота: расследование и исправление автоматики · 31.10.2026",
+          "sha256": "14900189eda6333c069232ca37199151610154a34c1f73c0198ef47ae4175622"
         },
         "evidence": [
           {
-            "file": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
-            "sha256": "c194650e5e45d88ad20506728676fdc75503a1ad77c7b889bb80c2282be60139"
-          },
-          {
-            "file": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json",
-            "sha256": "b51fc921e7449834ccfb98f8c14353df9feeda063b597ad19a023b7eee9010b7"
+            "file": "reports/topview-slot-idle-2026-10-31.json",
+            "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458"
           }
         ],
         "read_next": [
-          "ops/topview-launch-queue.json",
-          "references/scenes/scene-71/manifest.json",
-          "references/scenes/scene-56/manifest.json",
-          "ops/TOPVIEW-FREE-LAUNCH.md"
+          "ops/TOPVIEW-EVENT-WAKE.md",
+          "scripts/robot_telemetry.py",
+          "scripts/launch_autonomy_check.py"
         ],
-        "blockers": [
-          "Full post-submit scan 2026-10-31T11:09:40Z: six active Unlimited0 Seregius videos, zero free slots. This is an observed capacity wait; recheck live account before the next launch."
-        ]
+        "blockers": []
       },
       "last_relay_reconciliation": {
         "event_id": "slots:df305d35:2",
@@ -268,7 +261,7 @@
         "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
         "submitted_at": "2026-10-31T11:08:48Z",
         "receipt": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
-        "ui_proof": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.png",
+        "ui_proof": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.jpg",
         "credits": 0,
         "use_unlimit_mode": true
       },
