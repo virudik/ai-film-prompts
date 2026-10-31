@@ -265,9 +265,19 @@
     },
     "max_submissions_per_wake": 1,
     "retries": {
-      "enabled": false,
-      "state": "pending_owner_decision",
-      "note": "ops/TOPVIEW-RETRY.md (owner-20261030-technical-retry) was granted to Work, the hourly task and the Relay handler and is NOT extended to Grok Bot. Grok Bot makes zero retry Creates until a separate direct owner decision is recorded here. Unknown outcome is never repeated."
+      "enabled": true,
+      "state": "enabled_by_owner_20261101",
+      "policy_id": "owner-20261030-technical-retry",
+      "policy_file": "ops/TOPVIEW-RETRY.md",
+      "max_retry_attempts": 2,
+      "counter": "shared retry_control.retry_attempts_used per item (same counter as Work/hourly/Relay); never reset by a new hour, chat or task ID; a missing counter is restored from history, never assumed zero",
+      "scope": "Same limits as the other permitted launchers: only a confirmed technical failure, at most 2 additional Creates per item, ~60 s pause, board My First Board only, website Unlimited with visible price 0 only (no paid path, no credits), full claim/intent/readback and a fresh complete scan before each retry Create. Unknown outcome consumes the attempt and blocks repetition. Counts against max_submissions_per_wake=1.",
+      "owner_request_id": "owner-20261101-grok-retries",
+      "recorded_at": "2026-10-31T23:12:00Z",
+      "recorded_at_local": "2026-11-01T00:12 Europe/Amsterdam",
+      "owner_question": "Разрешить мне повторы по TOPVIEW-RETRY?",
+      "owner_quote": "Да, разрешаю тебе повторы по TOPVIEW-RETRY",
+      "takes_effect": "Only when peers.grok.enabled becomes true; peers.grok stays disabled until dry-run acceptance"
     },
     "interactive_commands": {
       "enabled": false,
@@ -275,7 +285,6 @@
       "note": "Telegram/interactive launches are not authorized; scripts/launcher_coordination.py only accepts kind=scheduled for surface grok."
     },
     "pending_owner_decisions": [
-      "TOPVIEW-RETRY retries for grok (currently disabled)",
       "New scheduled Grok Bot routine (:12 and :27 of each hour) and its automation ID in peers.grok.automation_ids; until then no new watcher exists",
       "Whether an unchanged cycle (6/6 slots) writes reports/topview-grok-cycle.json or stays silent",
       "Whether Telegram commands count as a direct owner command for interactive launches",
@@ -300,6 +309,7 @@
       "state": "configured_pending_dry_run"
     },
     "new_automations": 0,
-    "new_topview_submissions_in_configuration_change": 0
+    "new_topview_submissions_in_configuration_change": 0,
+    "owner_context_quote_20261101": "или ты сам себя можешь вписать раз есть доступ теперь в гитхаб?"
   }
 }

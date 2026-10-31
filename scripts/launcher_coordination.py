@@ -107,12 +107,30 @@ def check_grok_policy(config, item, actor, now):
         raise Blocked('grok_submission_limit_per_wake')
     return True
 
+def check_grok_retry(config, item):
+    """A Grok Bot retry Create needs the owner-enabled policy and a persisted, in-budget shared counter."""
+    policy = (config.get('grok_launcher') or {}).get('retries')
+    if not isinstance(policy, dict) or policy.get('enabled') is not True:
+        raise Blocked('grok_retries_not_authorized')
+    control = item.get('retry_control')
+    if not isinstance(control, dict) or control.get('policy_id') != policy.get('policy_id'):
+        raise Blocked('retry_control_policy_mismatch')
+    used, limit = control.get('retry_attempts_used'), control.get('max_retry_attempts')
+    if (type(used) is not int or type(limit) is not int or type(policy.get('max_retry_attempts')) is not int or
+            limit != policy['max_retry_attempts'] or not 1 <= used <= limit):
+        raise Blocked('retry_budget_exhausted_or_counter_unclear')
+    if not item.get('submission_history'):
+        raise Blocked('retry_requires_prior_attempt_in_submission_history')
+    return True
+
 def prepare_intent(config, lock, item, actor, scan, now):
     """Transition claimed -> submitting once. Persist and read back before one click."""
     check_route(config, actor)
     check_lease(lock, actor, now)
     if actor['surface'] == 'grok':
         check_grok_policy(config, item, actor, now)
+        if item.get('retry_control') is not None or item.get('submission_history'):
+            check_grok_retry(config, item)
     if item.get('state') != 'claimed':
         raise Blocked('not_a_fresh_owned_claim; reconcile_without_Create')
     claim = item.get('claim') or {}

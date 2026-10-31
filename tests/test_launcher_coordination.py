@@ -115,6 +115,7 @@ class GrokHelperTests(unittest.TestCase):
         self.cfg['peers']['grok'] = {'enabled': True, 'automation_ids': ['grok-task']}
         self.cfg['grok_launcher'] = {
             'board_id': BOARD, 'max_submissions_per_wake': 1,
+            'retries': {'enabled': True, 'policy_id': 'owner-20261030-technical-retry', 'max_retry_attempts': 2},
             'launch_window': {'timezone': 'Europe/Amsterdam', 'first_hour': 8, 'last_hour': 23,
                               'first_minute': 10, 'last_minute': 40}}
         self.actor = {'execution_instance_id': C, 'surface': 'grok', 'kind': 'scheduled',
@@ -200,6 +201,37 @@ class GrokHelperTests(unittest.TestCase):
         with self.assertRaises(lc.Blocked): self.intent(item=item)
         with self.assertRaises(lc.Blocked): self.intent(item=dict(self.item, state='waiting_for_slot'))
         with self.assertRaises(lc.Blocked): self.intent(actor=dict(self.actor, route_generation=1))
+    def retry_item(self, used=1, **over):
+        item = copy.deepcopy(self.item)
+        item['submission_history'] = [{'task_id': 'old-failed-task', 'outcome': 'failed'}]
+        item['retry_control'] = {'policy_id': 'owner-20261030-technical-retry', 'retry_attempts_used': used,
+                                 'max_retry_attempts': 2}
+        item['retry_control'].update(over)
+        return item
+    def test_grok_retry_within_budget_allowed(self):
+        for used in (1, 2):
+            with self.subTest(used=used):
+                self.assertEqual(self.intent(item=self.retry_item(used))['state'], 'submitting')
+    def test_grok_retry_budget_and_counter_fail_closed(self):
+        for bad in ({'retry_attempts_used': 3}, {'retry_attempts_used': 0}, {'retry_attempts_used': None},
+                    {'retry_attempts_used': '1'}, {'max_retry_attempts': 3}, {'policy_id': 'other'}):
+            with self.subTest(bad=bad), self.assertRaises(lc.Blocked):
+                self.intent(item=self.retry_item(**bad))
+    def test_grok_retry_requires_history_and_control(self):
+        item = self.retry_item(); del item['submission_history']
+        with self.assertRaises(lc.Blocked): self.intent(item=item)
+        item = self.retry_item(); del item['retry_control']
+        with self.assertRaises(lc.Blocked): self.intent(item=item)
+    def test_grok_retry_denied_when_policy_disabled(self):
+        cfg = copy.deepcopy(self.cfg); cfg['grok_launcher']['retries']['enabled'] = False
+        with self.assertRaises(lc.Blocked): self.intent(cfg=cfg, item=self.retry_item())
+        del cfg['grok_launcher']['retries']
+        with self.assertRaises(lc.Blocked): self.intent(cfg=cfg, item=self.retry_item())
+    def test_grok_retry_keeps_window_paid_and_wake_limits(self):
+        with self.assertRaises(lc.Blocked): self.intent(item=self.retry_item(), actor=dict(self.actor, submissions_this_wake=1))
+        with self.assertRaises(lc.Blocked): self.intent(item=self.retry_item(), now=datetime(2026, 11, 1, 10, 50, tzinfo=timezone.utc))
+        item = self.retry_item(); item['claim']['preflight']['credits_cost'] = 1
+        with self.assertRaises(lc.Blocked): self.intent(item=item)
     def test_grok_interactive_and_takeover_not_authorized(self):
         self.cfg['foreground_owners']['grok'] = {'session_id': 's', 'epoch': 1}
         actor = dict(self.actor, kind='interactive', session_id='s', foreground_epoch=1)
@@ -215,8 +247,10 @@ class GrokHelperTests(unittest.TestCase):
         self.assertEqual(policy['board_id'], BOARD)
         self.assertEqual(policy['max_submissions_per_wake'], 1)
         self.assertEqual(policy['acceptance']['state'], 'configured_pending_dry_run')
-        self.assertIs(policy['retries']['enabled'], False)
-        self.assertEqual(policy['retries']['state'], 'pending_owner_decision')
+        self.assertIs(policy['retries']['enabled'], True)
+        self.assertEqual(policy['retries']['max_retry_attempts'], 2)
+        self.assertEqual(policy['retries']['policy_id'], 'owner-20261030-technical-retry')
+        self.assertEqual(policy['retries']['owner_quote'], 'Да, разрешаю тебе повторы по TOPVIEW-RETRY')
         # Not launch-capable until dry-run acceptance and an owner-approved routine ID.
         self.assertIs(cfg['peers']['grok']['enabled'], False)
         self.assertEqual(cfg['peers']['grok']['automation_ids'], [])
