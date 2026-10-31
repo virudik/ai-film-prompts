@@ -1,0 +1,63 @@
+name: Verify public S48.2 readiness once
+on:
+  push:
+    branches: [edit/s48p2-ready-20261031T2235Z]
+    paths: [.github/workflows/s48p2-public-readback-once.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Verify actual public response bytes, not workflow settings
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,re,time,urllib.request
+          from datetime import datetime,timezone
+          from pathlib import Path
+          base='https://virudik.github.io/ai-film-prompts/'
+          last=None
+          for attempt in range(10):
+              try:
+                  suffix='?s48verify='+str(time.time_ns())
+                  def fetch(path):
+                      with urllib.request.urlopen(base+path+suffix,timeout=20) as r:
+                          assert r.status==200
+                          return r.read()
+                  mb=fetch('video-prompts.md'); text=mb.decode('utf-8')
+                  p=re.search(r'#### 48 · Seedance 2\.0 часть 2\s*\n\s*```text\n(.*?)\n```',text,re.S); assert p
+                  ph=hashlib.sha256(p.group(1).strip().encode()).hexdigest()
+                  assert ph=='749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d'
+                  assert '**Входы части 2 — готовы (01.11.2026):**' in text
+                  qb=fetch('ops/topview-launch-queue.json'); q=json.loads(qb)
+                  i=next(i for i in q['items'] if i['id']=='S48-SEED20-P2')
+                  assert i['priority']==-0.98 and i['state']=='waiting_for_slot'
+                  assert i['launch_readiness']=='authorized_inputs_available' and i['canonical_prompt_sha256']==ph
+                  v=next(r for r in i['references'] if r['slot']=='@Video1')
+                  assert v['input_status']=='available' and v['library_file_id']=='libfile_47e6031c53fc8191ade233483a1757a0'
+                  assert v['sha256']=='bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf'
+                  ready=json.loads(fetch('ops/queue-readiness.json'))
+                  assert ready['source_queue_sha256']==hashlib.sha256(qb).hexdigest()
+                  rr=next(r for r in ready['items'] if r['id']==i['id']); assert rr['ready'] and rr['code']=='ready'
+                  status=json.loads(fetch('project-status.json'))
+                  assert status['health']=='ok' and status['canonical_master_sha256']==hashlib.sha256(mb).hexdigest()
+                  metadata=json.loads(fetch('references/scenes/scene-48/S48-P1-continuity.json'))
+                  assert metadata['clip']['sha256']==v['sha256'] and metadata['clip']['library_file_id']==v['library_file_id']
+                  order=[{'id':x['id'],'priority':x['priority'],'state':x['state']} for x in sorted(q['items'],key=lambda r:r['priority']) if x['id'] in ('S72-WAN30','S71-WAN30','S48-SEED20-P2')]
+                  assert [x['id'] for x in order]==['S72-WAN30','S71-WAN30','S48-SEED20-P2']
+                  result={'project':'seregius','verified_at':datetime.now(timezone.utc).isoformat(),'source':'Unauthenticated HTTP GET of actual GitHub Pages files; no site mutations or generation','public_prompt_sha256':ph,'public_master_sha256':hashlib.sha256(mb).hexdigest(),'public_queue_sha256':hashlib.sha256(qb).hexdigest(),'public_ready':rr,'launch_order':order,'clip_sha256':v['sha256'],'clip_duration_seconds':v['duration_seconds'],'private_clip_binding_verified':True,'public_health':status['health'],'all_checks_passed':True}
+                  Path('s48p2-public-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+                  print(json.dumps(result,ensure_ascii=False)); break
+              except Exception as exc:
+                  last=type(exc).__name__+': '+str(exc)
+                  print('Public readback pending',attempt+1,last,flush=True)
+                  if attempt==9: raise
+                  time.sleep(20)
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: s48p2-public-verification
+          path: s48p2-public-verification.json
+          if-no-files-found: error
+          retention-days: 3
