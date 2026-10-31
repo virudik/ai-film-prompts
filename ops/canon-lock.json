@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:a2fe8418-8be3-4700-abd1-94020e458bd1",
-  "task": "Ordinary 20:00Z completed verified 14-board 952-task (624 video) scan 6/6; own final no-op receipt saved; no Create/no TinyFish/no credits",
-  "acquired_at": "2026-10-31T20:02:44Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T20:04:54Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:4dd71280-783c-4db2-ad4c-befdebaa9ff4",
+  "task": "Prepare actual S48-P1 final three seconds, place S48-P2 after Vitalik scenes, audit linked continuity inputs; no new video generation",
+  "acquired_at": "2026-10-31T20:15:28Z",
+  "expires_at": "2026-10-31T21:00:28Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
