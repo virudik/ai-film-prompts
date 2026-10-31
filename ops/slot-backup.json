@@ -60,7 +60,7 @@
     "The available Automations API does not expose or set the execution mode, model, billing bucket or quota isolation. A prompt cannot prove isolation from Work limits.",
     "Current interactive Browser.list_tabs returned originating_browser_context_required; this does not invalidate the verified historical S72 website launch at 2026-10-31T11:08:48Z.",
     "Ten-minute addressed failover to the ordinary chat is not enabled; ordinary execution now uses the existing independent hourly :00 scheduled route and polls unfulfilled robot demand from GitHub without waiting for Work.",
-    "TinyFish is connected but its checked Default profile has no saved Topview sign-in. No metered browser run or payment was authorized or performed in this schedule update."
+    "Historical schedule update had no saved TinyFish Topview sign-in or metered-run permission. Superseded for the interactive capability test only: after the owner saved the profile, TinyFish run 1f09855a-a4f0-43d8-8bb8-bf26516aa175 accepted the Topview session and performed reversible UI clicks. File transfer, Unlimited0/16:9 and scheduled browser launching remain unverified. The one-test USD0.20 authorization was used; recurring metered use is not authorized. See reports/tinyfish-topview-test-2026-10-31.json."
   ],
   "registered_at": "2026-10-31T16:13:37Z",
   "registered_by": "chatgpt:slot-backup-activation:ae2efe6b-4866-4042-a399-5197de343821",
@@ -75,7 +75,7 @@
   ],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T19:06:31.321Z",
+  "updated_at": "2026-10-31T19:33:20Z",
   "reserve_automation_ids": [
     "6adc585e7ac08191bb93825117dc7213",
     "6acae6ab433481919e88665c520b8ef2"
@@ -161,5 +161,18 @@
       "browser_verified": false,
       "quota_isolation_verified": false
     }
+  },
+  "tinyfish_interactive_test": {
+    "checked_at": "2026-10-31T19:30:19.400Z",
+    "receipt": "reports/tinyfish-topview-test-2026-10-31.json",
+    "provider_run_id": "1f09855a-a4f0-43d8-8bb8-bf26516aa175",
+    "status": "interactive_signin_and_reversible_clicks_passed",
+    "file_upload_verified": false,
+    "unlimited_zero_verified": false,
+    "scheduled_execution_verified": false,
+    "video_create_performed": false,
+    "one_test_authorization_used": true,
+    "recurring_metered_use_authorized": false,
+    "next_action": "Further metered verification needs explicit budget; test image transfer and Unlimited0/16:9, then the existing hourly runtime. Do not repeat saved sign-in just because the profile metadata names Google. Do not treat this interactive smoke test as production launch acceptance."
   }
 }
