@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-08T20:06:34.125Z",
-      "operation": "unified_monitor_full_account_refresh",
-      "scene_id": null,
-      "task_fingerprint": null,
-      "previous_status": "0 active tasks",
-      "new_status": "0 active tasks",
-      "source_checkpoint": "2026-10-08T20:06:34.125Z",
-      "outcome": "telemetry_read_verified",
-      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 537 unique tasks. Direct Board-task lookup reconfirmed the three previously active Scene 26/27 tasks terminal success; no active unlimited task, unknown status or new AI Film scene candidate. Occupancy 0/6."
-    },
-    {
       "timestamp": "2026-10-09T01:06:34.467Z",
       "operation": "discover_six_existing_scene_attempts_and_full_account_refresh",
       "scene_id": null,
@@ -5498,8 +5487,19 @@
       "source_checkpoint": "2026-10-31T00:10:30Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-31T01:10:17Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-31T01:10:17Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 85,
+  "archived_event_count": 86,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
