@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:b7b35307-8d5f-4bd2-acdd-42dfbb98c9fe",
-  "task": "Seregius HH:00 scheduled ordinary: capacity reconciliation and own cycle receipt; no Create at six occupied slots",
-  "acquired_at": "2026-10-31T22:01:12.751Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T22:03:32.324Z",
+  "state": "held",
+  "holder": "chatgpt:interactive:d183d019-115d-451a-aa5d-218bd4e1471e",
+  "task": "Owner: match S48.2 to real S48.1 ending; worm visible at distance; no generation",
+  "acquired_at": "2026-10-31T22:11:12Z",
+  "expires_at": "2026-10-31T22:41:12Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
