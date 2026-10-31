@@ -11,10 +11,13 @@ import json
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 CONFIG = 'ops/slot-backup.json'
 LOCK = 'ops/canon-lock.json'
 QUEUE = 'ops/topview-launch-queue.json'
+# 'grok' = Grok Bot, a scheduled helper launcher (owner decision 01.11.2026, see ops/LAUNCHER-COORDINATION.md).
+SURFACES = ('ordinary', 'work', 'grok')
 
 class Blocked(ValueError):
     pass
@@ -36,11 +39,13 @@ def instance(actor):
         value = str(parsed)
     except (KeyError, ValueError, TypeError, AttributeError) as error:
         raise Blocked('unique_execution_instance_uuid_required') from error
-    if actor.get('surface') not in ('ordinary', 'work'):
+    if actor.get('surface') not in SURFACES:
         raise Blocked('unknown_execution_surface')
     return value
 
 def holder(actor):
+    if actor.get('surface') == 'grok':
+        return 'grok:' + instance(actor)
     return 'chatgpt:' + actor['surface'] + ':' + instance(actor)
 
 def check_route(config, actor):
@@ -54,6 +59,9 @@ def check_route(config, actor):
     if peer.get('enabled') is not True:
         raise Blocked('peer_not_enabled')
     kind = actor.get('kind')
+    if actor['surface'] == 'grok' and kind != 'scheduled':
+        # Telegram/interactive commands are not yet an owner-approved launch path for Grok Bot.
+        raise Blocked('grok_interactive_not_authorized')
     if kind == 'scheduled':
         if actor.get('automation_id') not in peer.get('automation_ids', []):
             raise Blocked('retired_or_unregistered_automation')
@@ -75,10 +83,36 @@ def check_lease(lock, actor, now):
         raise Blocked('exact_current_unexpired_lease_required')
     return True
 
+def check_grok_policy(config, item, actor, now):
+    """Extra fail-closed limits for the Grok Bot helper (config['grok_launcher']); other surfaces unaffected."""
+    policy = config.get('grok_launcher')
+    if not isinstance(policy, dict):
+        raise Blocked('grok_launcher_policy_missing')
+    window = policy.get('launch_window')
+    if not isinstance(window, dict):
+        raise Blocked('grok_launch_window_missing')
+    try:
+        local = now.astimezone(ZoneInfo(window['timezone']))
+        first_hour, last_hour = int(window['first_hour']), int(window['last_hour'])
+        first_minute, last_minute = int(window['first_minute']), int(window['last_minute'])
+    except (KeyError, TypeError, ValueError) as error:
+        raise Blocked('grok_launch_window_invalid') from error
+    if not (first_hour <= local.hour <= last_hour and first_minute <= local.minute <= last_minute):
+        raise Blocked('outside_grok_launch_window')
+    if not policy.get('board_id') or item.get('board_id') != policy['board_id']:
+        raise Blocked('grok_board_not_authorized')
+    limit = policy.get('max_submissions_per_wake')
+    done = actor.get('submissions_this_wake', 0)
+    if type(limit) is not int or type(done) is not int or done < 0 or done >= limit:
+        raise Blocked('grok_submission_limit_per_wake')
+    return True
+
 def prepare_intent(config, lock, item, actor, scan, now):
     """Transition claimed -> submitting once. Persist and read back before one click."""
     check_route(config, actor)
     check_lease(lock, actor, now)
+    if actor['surface'] == 'grok':
+        check_grok_policy(config, item, actor, now)
     if item.get('state') != 'claimed':
         raise Blocked('not_a_fresh_owned_claim; reconcile_without_Create')
     claim = item.get('claim') or {}
@@ -114,6 +148,8 @@ def takeover(config, lock, actor, now, owner_command):
     if owner_command not in ('Продолжай', 'Прими смену'):
         raise Blocked('direct_owner_continue_command_required')
     instance(actor)
+    if actor['surface'] == 'grok':
+        raise Blocked('grok_interactive_not_authorized')
     if config.get('enabled') is not True or actor.get('route_generation') != config.get('route_generation'):
         raise Blocked('route_changed_or_disabled')
     if ((config.get('peers') or {}).get(actor['surface']) or {}).get('enabled') is not True:

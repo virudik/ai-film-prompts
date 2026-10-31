@@ -31,7 +31,7 @@
   "receipt_path": "reports/topview-slot-backup-cycle.json",
   "takeover_condition": "Current authorized ready work and verified free global capacity, no valid competing lease. Both peers act independently; preferred role and prior success never reserve a free slot. Reconcile claims/unknown first.",
   "ownership": {
-    "holder_template": "chatgpt:<ordinary|work>:<execution-instance-uuid>",
+    "holder_template": "chatgpt:<ordinary|work>:<execution-instance-uuid> or grok:<execution-instance-uuid> (Grok Bot helper)",
     "runtime_run_id": "Use the actual platform run ID when exposed; otherwise null plus reason. A locally generated execution_instance_id is not a runtime run ID.",
     "before_each_write_and_create": "Fresh-read registry and lock. Scheduled caller must be allowed by peers.<surface>.automation_ids; active_automation_id is the ordinary scheduled executor pointer, not a requirement that Work IDs equal the ordinary ID. Interactive caller must match foreground_owners.<surface>.session_id/epoch. Require unchanged route_generation, exact holder/acquired_at, unexpired lease and own item claim. A held generic chatgpt lock is foreign. Any mismatch stops the write/Create.",
     "expired_lease": "Reacquire only when allowed; expiry never clears a claim or proves that Create did not happen.",
@@ -115,6 +115,14 @@
         "reports/topview-event-wake.json",
         "reports/topview-launcher-cycle.json"
       ]
+    },
+    "grok": {
+      "enabled": false,
+      "enabled_note": "Registered but NOT launch-capable: stays false (fail-closed) until the dry run is accepted by the owner and a scheduled Grok Bot routine ID is approved and listed in automation_ids. Enabling is a separate CAS edit under the canon lock with its own owner record.",
+      "role": "helper",
+      "automation_ids": [],
+      "receipt": "reports/topview-grok-cycle.json",
+      "handoff_to_work_allowed": false
     }
   },
   "foreground_owners": {
@@ -228,6 +236,70 @@
     "new_automations": 0,
     "schedule_changed": false,
     "relay_changed": false,
+    "new_topview_submissions_in_configuration_change": 0
+  },
+  "grok_launcher": {
+    "owner_request_id": "owner-20261101-grok-helper-launcher",
+    "recorded_at": "2026-10-31T23:00:00Z",
+    "recorded_at_local": "2026-11-01T00:00 Europe/Amsterdam",
+    "authorization_source": "Direct owner messages in the Grok Bot chat (assistant: Grok Bot). The assistant asked: «Делать оба параллельно?» (PR with the `grok` registration and a dry run of S71 up to Create).",
+    "owner_quote_capability": "Технически могу запускать видео в Topview через браузер, где я уже вошёл (режим Unlimited, 0 кредитов) - это бы пригодилось. Чтобы ты запускал сцену из согласованной очереди в освободившиеся слоты",
+    "owner_quote_registration": "Делать",
+    "owner_quote_registration_at": "2026-11-01T00:00 Europe/Amsterdam",
+    "role": "helper",
+    "preferred_executor_unchanged": "ordinary",
+    "route_generation_unchanged": 2,
+    "surface": "grok",
+    "holder_format": "grok:<execution-instance-uuid4>",
+    "scope": "Серёгиус, доска My First Board 1a6244cf1ae747ef847d949a80d6133c, Unlimited0 (720p, 16:9, quantity 1, видимая цена 0), готовые разрешённые пункты общей очереди по живому priority. Платный MCP/Canvas запрещён; другие проекты, «Роскосмос», пробы Стича и owner hold не запускать.",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "unlimited_zero_only": true,
+    "launch_window": {
+      "timezone": "Europe/Amsterdam",
+      "first_hour": 8,
+      "last_hour": 23,
+      "first_minute": 10,
+      "last_minute": 40,
+      "description": "New claims/intents only at minutes :10–:40 of each hour 08:00–23:50 Europe/Amsterdam (hours 08–23). Lease taken for 15 minutes, extended only after a real step (max 30), released by :50 so Work HH:55 and ordinary :00 are not blocked."
+    },
+    "max_submissions_per_wake": 1,
+    "retries": {
+      "enabled": false,
+      "state": "pending_owner_decision",
+      "note": "ops/TOPVIEW-RETRY.md (owner-20261030-technical-retry) was granted to Work, the hourly task and the Relay handler and is NOT extended to Grok Bot. Grok Bot makes zero retry Creates until a separate direct owner decision is recorded here. Unknown outcome is never repeated."
+    },
+    "interactive_commands": {
+      "enabled": false,
+      "state": "pending_owner_decision",
+      "note": "Telegram/interactive launches are not authorized; scripts/launcher_coordination.py only accepts kind=scheduled for surface grok."
+    },
+    "pending_owner_decisions": [
+      "TOPVIEW-RETRY retries for grok (currently disabled)",
+      "New scheduled Grok Bot routine (:12 and :27 of each hour) and its automation ID in peers.grok.automation_ids; until then no new watcher exists",
+      "Whether an unchanged cycle (6/6 slots) writes reports/topview-grok-cycle.json or stays silent",
+      "Whether Telegram commands count as a direct owner command for interactive launches",
+      "Acceptance of the dry run (S71-WAN30, stop before Create)"
+    ],
+    "gates": [
+      "Complete fresh account-wide read-only scan before any Create; no Create at six occupied slots, no ready item or a foreign live lease.",
+      "All existing role, exact lease, fresh SHA, reconciliation, queue priority, input/QC and claim/intent protections remain required (scripts/launcher_coordination.py).",
+      "Own CAS claim, submitting intent and readback first; then exactly one Create in the same uninterrupted execution. No double click, no replay after a gap.",
+      "Website UI only, Unlimited with visible price 0. No paid Topview MCP/Canvas generation, no credits.",
+      "Never take over or release a foreign canon lease.",
+      "Independently verify the returned Topview task ID, full normalized prompt, inputs/settings, Unlimited=true and credits=0 before recording submitted."
+    ],
+    "acceptance": {
+      "owner_authorization": true,
+      "registered_in_repository": true,
+      "dry_run_s71_wan30_stop_before_create": false,
+      "file_upload_verified": false,
+      "unlimited_zero_verified": false,
+      "scheduled_run_verified": false,
+      "production_submission_verified": false,
+      "state": "configured_pending_dry_run"
+    },
+    "new_automations": 0,
     "new_topview_submissions_in_configuration_change": 0
   }
 }

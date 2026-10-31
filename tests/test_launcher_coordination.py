@@ -103,4 +103,125 @@ class CoordinationTests(unittest.TestCase):
     def test_replaced_automation_denied(self):
         with self.assertRaises(lc.Blocked): lc.check_route(self.cfg,dict(self.actor,automation_id='retired'))
 
+GROK_NOW = datetime(2026, 11, 1, 10, 15, tzinfo=timezone.utc)  # 11:15 Europe/Amsterdam (CET)
+C = '33333333-3333-4333-8333-333333333333'
+BOARD = '1a6244cf1ae747ef847d949a80d6133c'
+
+class GrokHelperTests(unittest.TestCase):
+    def setUp(self):
+        base = CoordinationTests('test_both_peers_run_independently')
+        base.setUp()
+        self.cfg = copy.deepcopy(base.cfg)
+        self.cfg['peers']['grok'] = {'enabled': True, 'automation_ids': ['grok-task']}
+        self.cfg['grok_launcher'] = {
+            'board_id': BOARD, 'max_submissions_per_wake': 1,
+            'launch_window': {'timezone': 'Europe/Amsterdam', 'first_hour': 8, 'last_hour': 23,
+                              'first_minute': 10, 'last_minute': 40}}
+        self.actor = {'execution_instance_id': C, 'surface': 'grok', 'kind': 'scheduled',
+                      'automation_id': 'grok-task', 'route_generation': 2,
+                      'lease_acquired_at': lc.stamp(GROK_NOW-timedelta(minutes=1))}
+        self.lock = {'state': 'held', 'holder': 'grok:'+C, 'acquired_at': self.actor['lease_acquired_at'],
+                     'expires_at': lc.stamp(GROK_NOW+timedelta(minutes=5))}
+        self.scan = {'complete': True, 'checked_at': lc.stamp(GROK_NOW), 'free_slots': 1}
+        item = copy.deepcopy(base.item)
+        item['board_id'] = BOARD
+        item['claim']['execution_instance_id'] = C
+        self.item = item
+    def intent(self, **over):
+        cfg = over.get('cfg', self.cfg)
+        return lc.prepare_intent(cfg, over.get('lock', self.lock), over.get('item', self.item),
+                                 over.get('actor', self.actor), self.scan, over.get('now', GROK_NOW))
+    def test_holder_format(self):
+        self.assertEqual(lc.holder(self.actor), 'grok:'+C)
+        self.assertEqual(lc.holder(dict(self.actor, surface='work')), 'chatgpt:work:'+C)
+    def test_grok_registered_as_independent_helper(self):
+        self.assertTrue(lc.check_route(self.cfg, self.actor))
+        self.assertEqual(self.cfg['preferred_executor'], 'ordinary')
+        self.assertTrue(lc.check_route(self.cfg, dict(self.actor, surface='ordinary', automation_id='ordinary-task')))
+    def test_grok_intent_in_window(self):
+        out = self.intent()
+        self.assertEqual(out['state'], 'submitting')
+        self.assertEqual(out['claim']['lease_holder'], 'grok:'+C)
+        with self.assertRaises(lc.Blocked): self.intent(item=out)
+    def test_unregistered_disabled_or_unknown_grok_denied(self):
+        cfg = copy.deepcopy(self.cfg); del cfg['peers']['grok']
+        with self.assertRaises(lc.Blocked): lc.check_route(cfg, self.actor)
+        cfg = copy.deepcopy(self.cfg); cfg['peers']['grok']['enabled'] = False
+        with self.assertRaises(lc.Blocked): lc.check_route(cfg, self.actor)
+        with self.assertRaises(lc.Blocked): lc.check_route(self.cfg, dict(self.actor, automation_id='other'))
+        cfg = copy.deepcopy(self.cfg); cfg['peers']['grok']['automation_ids'] = []
+        with self.assertRaises(lc.Blocked): lc.check_route(cfg, self.actor)
+        with self.assertRaises(lc.Blocked): lc.instance(dict(self.actor, surface='claude'))
+    def test_grok_lease_is_not_interchangeable(self):
+        with self.assertRaises(lc.Blocked): lc.check_lease(dict(self.lock, holder='chatgpt:ordinary:'+C), self.actor, GROK_NOW)
+        with self.assertRaises(lc.Blocked): lc.check_lease(dict(self.lock, holder='grok:'+A), self.actor, GROK_NOW)
+        with self.assertRaises(lc.Blocked): lc.check_lease(self.lock, dict(self.actor, surface='ordinary'), GROK_NOW)
+    def test_grok_release_only_own_lease(self):
+        self.assertEqual(lc.release_exact(self.lock, self.actor, GROK_NOW)['state'], 'free')
+        with self.assertRaises(lc.Blocked): lc.release_exact(dict(self.lock, holder='grok:'+A), self.actor, GROK_NOW)
+    def test_grok_launch_window(self):
+        local_minutes = {9: False, 10: True, 40: True, 41: False, 59: False, 0: False}
+        for minute, allowed in local_minutes.items():
+            now = datetime(2026, 11, 1, 10, minute, tzinfo=timezone.utc)
+            lock = dict(self.lock, acquired_at=lc.stamp(now-timedelta(minutes=1)), expires_at=lc.stamp(now+timedelta(minutes=5)))
+            actor = dict(self.actor, lease_acquired_at=lock['acquired_at'])
+            scan = dict(self.scan, checked_at=lc.stamp(now))
+            with self.subTest(minute=minute):
+                if allowed:
+                    lc.prepare_intent(self.cfg, lock, self.item, actor, scan, now)
+                else:
+                    with self.assertRaises(lc.Blocked): lc.prepare_intent(self.cfg, lock, self.item, actor, scan, now)
+    def test_grok_hours_follow_amsterdam_time(self):
+        for utc_hour, allowed in ((6, False), (7, True), (22, True), (23, False)):  # 07:xx UTC = 08:xx CET
+            now = datetime(2026, 11, 1, utc_hour, 15, tzinfo=timezone.utc)
+            lock = dict(self.lock, acquired_at=lc.stamp(now-timedelta(minutes=1)), expires_at=lc.stamp(now+timedelta(minutes=5)))
+            actor = dict(self.actor, lease_acquired_at=lock['acquired_at'])
+            scan = dict(self.scan, checked_at=lc.stamp(now))
+            with self.subTest(utc_hour=utc_hour):
+                if allowed:
+                    lc.prepare_intent(self.cfg, lock, self.item, actor, scan, now)
+                else:
+                    with self.assertRaises(lc.Blocked): lc.prepare_intent(self.cfg, lock, self.item, actor, scan, now)
+    def test_grok_only_authorized_board(self):
+        for board in ('other-board', None):
+            with self.subTest(board=board), self.assertRaises(lc.Blocked):
+                self.intent(item=dict(self.item, board_id=board))
+    def test_grok_one_submission_per_wake(self):
+        with self.assertRaises(lc.Blocked): self.intent(actor=dict(self.actor, submissions_this_wake=1))
+        with self.assertRaises(lc.Blocked): self.intent(actor=dict(self.actor, submissions_this_wake='0'))
+        self.assertEqual(self.intent(actor=dict(self.actor, submissions_this_wake=0))['state'], 'submitting')
+    def test_grok_policy_missing_fails_closed(self):
+        cfg = copy.deepcopy(self.cfg); del cfg['grok_launcher']
+        with self.assertRaises(lc.Blocked): self.intent(cfg=cfg)
+        cfg = copy.deepcopy(self.cfg); del cfg['grok_launcher']['launch_window']['timezone']
+        with self.assertRaises(lc.Blocked): self.intent(cfg=cfg)
+    def test_grok_keeps_other_gates(self):
+        item = copy.deepcopy(self.item); item['claim']['preflight']['credits_cost'] = 1
+        with self.assertRaises(lc.Blocked): self.intent(item=item)
+        with self.assertRaises(lc.Blocked): self.intent(item=dict(self.item, state='waiting_for_slot'))
+        with self.assertRaises(lc.Blocked): self.intent(actor=dict(self.actor, route_generation=1))
+    def test_grok_interactive_and_takeover_not_authorized(self):
+        self.cfg['foreground_owners']['grok'] = {'session_id': 's', 'epoch': 1}
+        actor = dict(self.actor, kind='interactive', session_id='s', foreground_epoch=1)
+        with self.assertRaises(lc.Blocked): lc.check_route(self.cfg, actor)
+        with self.assertRaises(lc.Blocked): lc.takeover(self.cfg, self.lock, dict(actor, session_id='new'), GROK_NOW, 'Продолжай')
+    def test_registry_file_registers_grok_fail_closed(self):
+        import json
+        cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops' / 'slot-backup.json').read_text(encoding='utf-8'))
+        self.assertEqual(cfg['preferred_executor'], 'ordinary')
+        self.assertIn('grok', cfg['peers'])
+        policy = cfg['grok_launcher']
+        self.assertEqual(policy['role'], 'helper')
+        self.assertEqual(policy['board_id'], BOARD)
+        self.assertEqual(policy['max_submissions_per_wake'], 1)
+        self.assertEqual(policy['acceptance']['state'], 'configured_pending_dry_run')
+        self.assertIs(policy['retries']['enabled'], False)
+        self.assertEqual(policy['retries']['state'], 'pending_owner_decision')
+        # Not launch-capable until dry-run acceptance and an owner-approved routine ID.
+        self.assertIs(cfg['peers']['grok']['enabled'], False)
+        self.assertEqual(cfg['peers']['grok']['automation_ids'], [])
+        with self.assertRaises(lc.Blocked):
+            lc.check_route(cfg, {'execution_instance_id': C, 'surface': 'grok', 'kind': 'scheduled',
+                                 'automation_id': 'anything', 'route_generation': cfg['route_generation']})
+
 if __name__=='__main__': unittest.main()
