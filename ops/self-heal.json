@@ -1,23 +1,9 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "fixing",
-  "problems": {
-    "lock-forgotten": {
-      "text": "Замок канона (chatgpt) истёк 31.10 06:16 UTC и не снят.",
-      "since": "2026-10-31T06:49:31Z",
-      "fixes": 1,
-      "last_fix_at": "2026-10-31T06:49:31Z",
-      "escalated_at": null
-    }
-  },
+  "status": "ok",
+  "problems": {},
   "log": [
-    {
-      "at": "2026-10-23T03:49:41Z",
-      "kind": "resolved",
-      "key": "telemetry-stale",
-      "text": "Прошло: Робот сканирует, но статус Topview на сайте не обновлялся 138 мин. Последнее решение робота: «hold — unmapped_active:6598a21c». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации."
-    },
     {
       "at": "2026-10-23T17:17:19Z",
       "kind": "fixed",
@@ -131,7 +117,13 @@
       "kind": "fixed",
       "key": "lock-forgotten",
       "text": "Нашёл: Замок канона (chatgpt) истёк 31.10 06:16 UTC и не снят. Сделал: снял просроченный замок канона."
+    },
+    {
+      "at": "2026-10-31T07:19:30Z",
+      "kind": "resolved",
+      "key": "lock-forgotten",
+      "text": "Прошло: Замок канона (chatgpt) истёк 31.10 06:16 UTC и не снят."
     }
   ],
-  "changed_at": "2026-10-31T06:49:31Z"
+  "changed_at": "2026-10-31T07:19:30Z"
 }
