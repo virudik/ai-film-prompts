@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-31T23:39:24+00:00",
-  "source_head": "c2cb06568a91d57a4e11731546e5c402351f6c50",
-  "source_fingerprint": "1199a0d5392e651479b2965633b1295f51e11e5c707c4cfe035e775667cd4b73",
+  "checked_at": "2026-10-31T23:42:45+00:00",
+  "source_head": "67ad9f8f8994efe3ca5c2e32b18a2ebcb4cb5d22",
+  "source_fingerprint": "4336900df19a7406b7688525a4a72718a4417f7881705d91cb25aefcdd387a0c",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -368,8 +368,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "4aa8dfd5ffbb3710494bdf014885366eaab8f2339b432fd2906e7c8347ef6959",
-      "bytes": 35827
+      "sha256": "59daf8a18f7f89dcdb7c8811e21c04ecd29b435eeb34a1cd826549e60c4e0a45",
+      "bytes": 36042
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -393,7 +393,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "765c98f18598d9792c86e0e1acb71e56d385b8b197b09ed1b8e2056bb7366b8d",
+      "sha256": "d97104b8a9db74ea23c5314a8d2a6d85528eeffcd2c151783179e23a37f149cc",
       "bytes": 5141
     },
     {
@@ -418,8 +418,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "8d12491b3d5962fccaf182c20bedec14b16b2876fc30b78cfe2af12a8530bdfd",
-      "bytes": 33203
+      "sha256": "e76e455c2564027483ba69581454a6908fef7e62af21acba773c62a7c4262764",
+      "bytes": 33629
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -428,12 +428,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "a29227282f389c6eec89ed4b23f7b6e50064dd42b416ac34528d5f6b6c3bcd21",
-      "bytes": 35628
+      "sha256": "5a7db78c5ba2110f9cb9bddf756e5c139f15e71f36d76db73e078fc15c2588d5",
+      "bytes": 35843
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "eb71eaba989d9d282609f02e0fa5911a01fbe8ada63cd681c3310705d2f75886",
+      "sha256": "5032771ab10be697d7ac670937d8f6fc64fefec16a2475b89ea02411584bccec",
       "bytes": 25096
     },
     {
