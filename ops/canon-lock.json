@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:slot-backup-activation:ae2efe6b-4866-4042-a399-5197de343821",
-  "task": "Register existing two-hour ordinary-chat backup, verify settings and execution; no Topview Create",
+  "task": "Existing two-hour backup updated and registered; actual browser/quota acceptance remains unverified",
   "acquired_at": "2026-10-31T16:13:37Z",
-  "expires_at": "2026-10-31T16:43:37Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-31T16:16:59Z",
   "rules": "ops/CANON-LOCK.md"
 }
