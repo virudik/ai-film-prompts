@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "role": "ordinary_chat_slot_backup",
+  "enabled": true,
+  "transport": "scheduled_poll",
+  "active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+  "route_generation": 1,
+  "relay_identity": "chatgpt-slot-backup",
+  "relay_address": "chatgpt-slot-backup@cloud-242278071146024960",
+  "relay_subscription_required": false,
+  "event_failover_enabled": false,
+  "schedule": "BEGIN:VEVENT\nDTSTART:20261031T180000\nRRULE:FREQ=HOURLY;INTERVAL=2\nEND:VEVENT",
+  "timezone": "Europe/Moscow",
+  "requested_execution_surface": "ordinary ChatGPT scheduled task; do not delegate or hand off to Work/Codex",
+  "work_handoff_allowed": false,
+  "quota_isolation_verified": false,
+  "browser_launch_verified_for_this_backup": false,
+  "owner_decision": "31.10.2026: основной исполнитель Work; резерв — обычный ChatGPT. При отсутствии Relay-подписки резерв работает через уже созданную двухчасовую проверку. Не ждать нового Продолжай. Смена рабочих чатов не должна обнулять очередь и историю.",
+  "primary_automation_ids": [
+    "6adc585e7ac08191bb93825117dc7213",
+    "6acae6ab433481919e88665c520b8ef2"
+  ],
+  "rules": [
+    "ops/CANON-LOCK.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/TOPVIEW-RETRY.md",
+    "ops/TOPVIEW-EVENT-WAKE.md"
+  ],
+  "receipt_path": "reports/topview-slot-backup-cycle.json",
+  "takeover_condition": "Fresh complete account scan shows free capacity and authorized actionable work; no verified currently progressing competing executor with a valid lease. Prior unrelated successful launches and enabled/no_update flags do not satisfy present demand. Reconcile every saved claim/unknown; never reset by TTL.",
+  "ownership": {
+    "holder_template": "chatgpt:slot-backup:<unique-execution-instance-uuid>",
+    "runtime_run_id": "Use the actual platform run ID when exposed; otherwise null plus reason. A locally generated execution_instance_id is not a runtime run ID.",
+    "before_each_write_and_create": "Fresh-read route and lock; require matching active_automation_id and route_generation, exact holder and acquired_at, unexpired lease, and own item claim. Any mismatch stops the write/Create. A held generic chatgpt lock is foreign.",
+    "expired_lease": "Reacquire only when allowed; expiry never clears a claim or proves that Create did not happen.",
+    "release": "Release only the exact lease this execution acquired; do not release a replacement lease, even if expired."
+  },
+  "chat_replacement": {
+    "ordinary_chat_switch": "Do not create another schedule merely because the owner opens a new working conversation. Read this stable role record and peek active_automation_id; the existing schedule and GitHub state remain the source of continuity.",
+    "explicit_executor_replacement": [
+      "Read fresh main and all existing tasks; do not guess a target conversation or change the primary route.",
+      "Prepare a replacement ordinary-chat task with submissions disabled until accepted. Verify its actual ID/settings and a read-only runtime result.",
+      "Under the canon lock, CAS-update active_automation_id and increment route_generation; preserve prior route and evidence in history. Existing claims and retry budgets are not reset.",
+      "Every old/new worker rechecks the active route immediately before claim/Create. The old route becomes read-only as soon as the pointer changes.",
+      "Pause the old backup task after verified switch; retain its history. Never move a task to an arbitrary conversation through an unsupported API field."
+    ]
+  },
+  "first_observed_test": {
+    "run_id": "e9f94f32-5580-8329-8c1e-2a48e536e6fa",
+    "started_at": "2026-10-31T15:13:07.325576Z",
+    "completed_at": "2026-10-31T15:14:14.856574Z",
+    "recorded_status": "completed",
+    "result_run_id_matches": true,
+    "result_chat_id": "6ae605c7-cb60-83ed-88ab-cdac32a3b684",
+    "result_summary": "Runtime reported 6/6 slots from GitHub telemetry; no new submissions. This proves scheduled execution and a returned result, not a browser launch or independence from Work quota."
+  },
+  "known_limits": [
+    "The available Automations API does not expose or set the execution mode, model, billing bucket or quota isolation. A prompt cannot prove isolation from Work limits.",
+    "Current interactive Browser.list_tabs returned originating_browser_context_required; this does not invalidate the verified historical S72 website launch at 2026-10-31T11:08:48Z.",
+    "Ten-minute addressed failover to the ordinary chat is not enabled; this record activates only the existing two-hour scheduled route."
+  ],
+  "registered_at": "2026-10-31T16:13:37Z",
+  "registered_by": "chatgpt:slot-backup-activation:ae2efe6b-4866-4042-a399-5197de343821"
+}
