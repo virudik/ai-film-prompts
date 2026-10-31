@@ -117,10 +117,10 @@
     ],
     "robot_rewake": {
       "episode": "d23cf217",
-      "count": 1,
-      "last_at": "2026-10-31T05:50:26Z",
-      "last_event_id": "slots:d23cf217:1",
-      "silence_reported": "result:8d7ff1e2de63478693778de29e0dd56e"
+      "count": 2,
+      "last_at": "2026-10-31T06:10:31Z",
+      "last_event_id": "slots:d23cf217:2",
+      "silence_reported": "slots:d23cf217:1"
     }
   },
   "phases": {
