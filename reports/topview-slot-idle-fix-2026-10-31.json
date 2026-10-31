@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-31T12:22:06Z",
+  "source": "Interactive owner-authorized incident investigation and repair",
+  "incident": "reports/topview-slot-idle-2026-10-31.json",
+  "incident_summary": {
+    "slot_freed_at": "2026-10-31T05:28:29Z",
+    "slot_filled_at": "2026-10-31T11:08:48Z",
+    "idle_seconds": 20419,
+    "slot_filled_by": "S72-WAN30",
+    "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "first_signal_issue": 187,
+    "first_signal_relay_delivered_at": "2026-10-31T05:28:39Z",
+    "first_handler_lock_at": "2026-10-31T05:31:32.438Z",
+    "no_final_handler_receipt": true,
+    "rewake_issues": [
+      188,
+      189,
+      191
+    ],
+    "last_rewake_at": "2026-10-31T06:30:39Z",
+    "forgotten_lock_cleared_at": "2026-10-31T06:49:31Z"
+  },
+  "diagnosis": [
+    "Detection and Relay delivery worked. The first event worker took the canonical lock, then left no execution result or blocker.",
+    "The retry cap stopped wake attempts after three repeats and skipped further assessment of the last unanswered signal.",
+    "Hourly automation was enabled, but sampled real runs recorded no_update without a matching current result; no verified hourly launch resolved this incident.",
+    "A prior scheduled success in the 24-hour report could hide the current unresolved launch requirement.",
+    "Automatically closed superseded wake issues used completed despite no proof of handling."
+  ],
+  "unknowns": [
+    "The platform does not expose enough of the stopped worker's internal execution to establish why it stopped. No browser/quota/crash cause is asserted."
+  ],
+  "code": {
+    "commit": "71f43c36111659f708af28f4655757f90cffd493",
+    "base": "eabc01b890344a7588d3e72d5c2beebbd5d84e34",
+    "url": "https://github.com/virudik/ai-film-prompts/commit/71f43c36111659f708af28f4655757f90cffd493",
+    "files": [
+      {
+        "path": "scripts/robot_telemetry.py",
+        "sha": "ef2fee73679f4c4f1201976cd4ee96e85f936055",
+        "content_match": true
+      },
+      {
+        "path": "scripts/launch_autonomy_check.py",
+        "sha": "ca4554c733e9714b0a5ae862215d6339ed3562e0",
+        "content_match": true
+      },
+      {
+        "path": "tests/test_slot_rewake.py",
+        "sha": "ea85690f4bdf41d37cd1475d8dbec07e8e747a07",
+        "content_match": true
+      },
+      {
+        "path": "tests/test_launch_autonomy_check.py",
+        "sha": "7d852af747edc3f99d3c5356e8783f474835d967",
+        "content_match": true
+      },
+      {
+        "path": "tests/test_robot_telemetry.py",
+        "sha": "770c8aabbe080496a340959990dd5b62b06954f2",
+        "content_match": true
+      },
+      {
+        "path": "ops/TOPVIEW-EVENT-WAKE.md",
+        "sha": "5617b08a7b571724b4bb39ce8b8aaa3a929a34c7",
+        "content_match": true
+      },
+      {
+        "path": "tests/fixtures/topview-wake-gap-20261031.json",
+        "sha": "2af69072e5ad284405d1670b5939606276083cf8",
+        "content_match": true
+      },
+      {
+        "path": "ops/CANON-LOCK.md",
+        "sha": "0b500fc34087d99eeb6494b830e3a70a9fc8d25d",
+        "content_match": true
+      }
+    ],
+    "readback": "All eight published text files matched exactly."
+  },
+  "changes": [
+    "First three re-wakes remain paced at20min; later re-wakes continue every60min while a fresh observation shows free capacity and actionable/reconciliation work.",
+    "A separate launcher_health check runs before retry pacing; unresolved demand reaches launch_stalled after20min. A successful telemetry scan is not successful launch execution.",
+    "A real launch requires a submitted, nonretryable live receipt with task IDs corroborated by canonical queue and fresh active-task observation.",
+    "Wake suffix sequence is monotonic across result wakes and active-set changes; prior archived IDs are not reused.",
+    "Latest trusted receipt is chosen by valid timestamps, not array order. Stale/future/ambiguous evidence cannot prove a launch.",
+    "Claims, submitting and submission_unknown require reconciliation and are not reset. No generation path was added to the robot.",
+    "Current unresolved diagnosis overrides an older scheduled success; daily --notify now includes launch_stalled.",
+    "Superseded issues close as not_planned, not completed.",
+    "Existing Relay/hourly prompts now require early real execution receipts and final actual results or a concrete retryable blocker. no_update may suppress external output but does not replace the required receipt."
+  ],
+  "automation_updates": [
+    {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "title": "AI Film — готовые сцены по слотам",
+      "updated_at": "2026-10-31T12:19:37.383708+00:00",
+      "prompt_exact_readback": true,
+      "existing_prompt_preserved": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+      "default_timezone": "Europe/Moscow",
+      "is_enabled": true,
+      "schedule_unchanged": true,
+      "latest_run_at_readback": {
+        "id": "f0b4a732-9dfc-8329-bf80-cdff004df8b0",
+        "recorded_status": "no_update",
+        "scheduled_for": "2026-10-31T11:55:00Z",
+        "started_at": "2026-10-31T11:53:34.719770Z",
+        "completed_at": "2026-10-31T11:53:35.339731Z",
+        "chat_ref": null
+      },
+      "run_result_proves_new_prompt_execution": false,
+      "prompt_sha256": "285e45d2796ab3c2acaae79db5a7d83729588c2a212b18cd0fe0aef582ac767c"
+    },
+    {
+      "id": "6adc585e7ac08191bb93825117dc7213",
+      "title": "Сообщения Agent Relay",
+      "updated_at": "2026-10-31T12:19:50.016286+00:00",
+      "prompt_exact_readback": true,
+      "existing_prompt_preserved": true,
+      "schedule": "BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT",
+      "default_timezone": "Europe/Moscow",
+      "is_enabled": true,
+      "schedule_unchanged": true,
+      "latest_run_at_readback": {
+        "id": "96e8eca6-6958-832b-891c-040da1511391",
+        "recorded_status": "no_update",
+        "scheduled_for": "2026-10-31T06:38:14.556453Z",
+        "started_at": "2026-10-31T06:38:16.684822Z",
+        "completed_at": "2026-10-31T06:38:17.567441Z",
+        "chat_ref": null
+      },
+      "run_result_proves_new_prompt_execution": false,
+      "prompt_sha256": "cbc099ed1646014bee126cea8476e0baf45be52f59dd3591f932756eab93af20"
+    }
+  ],
+  "relay_subscription": [
+    {
+      "id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+      "event": "relay.message",
+      "arguments": {},
+      "active": true,
+      "last_error": null,
+      "pending_deliveries": 0
+    }
+  ],
+  "validation": {
+    "targeted_tests": 91,
+    "targeted_failures": 0,
+    "targeted_errors": 0,
+    "independent_review": {
+      "result": "pass",
+      "checked_at": "2026-10-31T12:18:55Z",
+      "focused_cases": 9,
+      "includes_new_readback_failure_and_new_demand_grace_cases": true,
+      "not_an_additive_unique_test_count": true
+    },
+    "patch_sha256": "96f2df24fc60a62fd746c3d2450179d9599014a005f015136b38e9b32f2595b0",
+    "github_integration": {
+      "run_id": 41200577107,
+      "job_id": 124535404662,
+      "head_sha": "71f43c36111659f708af28f4655757f90cffd493",
+      "conclusion": "success",
+      "unit_tests": 282,
+      "url": "https://github.com/virudik/ai-film-prompts/actions/runs/41200577107"
+    },
+    "canon_health": {
+      "run_id": 41200577121,
+      "head_sha": "71f43c36111659f708af28f4655757f90cffd493",
+      "conclusion": "success",
+      "url": "https://github.com/virudik/ai-film-prompts/actions/runs/41200577121"
+    },
+    "instruction_consistency_report": "reports/instruction-consistency.json",
+    "instruction_consistency": {
+      "schema_version": 1,
+      "checked_at": "2026-10-31T12:20:18.179677+00:00",
+      "status": "ok",
+      "scope": "Selected consistency invariants only; full semantic review and runtime success are separate.",
+      "live_automations": "checked",
+      "automation_observations": [
+        {
+          "id": "6acae6ab433481919e88665c520b8ef2",
+          "updated_at": "2026-10-31T12:19:37.383708+00:00",
+          "prompt_sha256": "285e45d2796ab3c2acaae79db5a7d83729588c2a212b18cd0fe0aef582ac767c"
+        },
+        {
+          "id": "6adc585e7ac08191bb93825117dc7213",
+          "updated_at": "2026-10-31T12:19:50.016286+00:00",
+          "prompt_sha256": "cbc099ed1646014bee126cea8476e0baf45be52f59dd3591f932756eab93af20"
+        }
+      ],
+      "problems": []
+    }
+  },
+  "production_observation": {
+    "source_head": "28a92589e73c16c8fe3f4c4f54bd95bc409551fb",
+    "robot_run_id": 41200624806,
+    "job_id": 124535542589,
+    "run_head_sha": "71f43c36111659f708af28f4655757f90cffd493",
+    "conclusion": "success",
+    "url": "https://github.com/virudik/ai-film-prompts/actions/runs/41200624806",
+    "scan_checked_at": "2026-10-31T12:20:31Z",
+    "scan_mode": "light",
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "launcher_health": {
+      "state": "capacity_full",
+      "unresolved": false,
+      "episode": "5fdf6e3e",
+      "unresolved_since": null,
+      "reason": "no_free_global_slot; launcher_health_not_proven",
+      "free_slots_global": 0,
+      "actionable_items": [
+        "S49A",
+        "S49B",
+        "S49C",
+        "S49D",
+        "S49E",
+        "S49F",
+        "S51A",
+        "S51B",
+        "S51C",
+        "S51D",
+        "S51E",
+        "S51F",
+        "S50A",
+        "S50B",
+        "S48-SEED20-P2",
+        "S56-SEED20-P2",
+        "S28-A4-20261023",
+        "S28-A5-20261023",
+        "S28-A6-20261023",
+        "S28-A7-20261023",
+        "S28-A8-20261023",
+        "S28-A9-20261023",
+        "S28-A10-20261023",
+        "S28-A11-20261023",
+        "S63-WAN30",
+        "S28-A1-R2-20261025",
+        "S28-A2-R2-20261025",
+        "S64-WAN30",
+        "S71-WAN30",
+        "S49G",
+        "S51G",
+        "S28-A13-20261030"
+      ],
+      "reconciliation_items": [],
+      "last_event_id": "slots:d23cf217:3",
+      "receipt_present": false,
+      "handler_outcome": null,
+      "execution_stage": null,
+      "execution_updated_at": null,
+      "runtime_run_id": null,
+      "confirmed_launch_task_ids": [],
+      "last_confirmed_event_id": null,
+      "last_confirmed_launch_task_ids": [],
+      "escalation_attempted_episode": null,
+      "checked_at": "2026-10-31T12:20:36Z"
+    },
+    "source_blob": "7b60af37380f8e22a79bde1c9bf12fe0eb8fa976",
+    "meaning": "The real robot executed the patch and recorded capacity_full. It explicitly does not attribute the interactive S72 launch to a scheduled handler."
+  },
+  "boundaries": {
+    "new_automations": 0,
+    "schedule_changes": 0,
+    "new_topview_creates_during_this_repair": 0,
+    "fake_event_ack": 0,
+    "fake_hourly_receipt": 0,
+    "unattended_launch_after_repair": "not_yet_observed: capacity currently full",
+    "hourly_cycle_file": "Only the next actual HH:55 runtime may create reports/topview-launcher-cycle.json.",
+    "absolute_platform_execution_guarantee": false
+  },
+  "next_verification": "The next real Relay/HH:55 worker must save its own started/final receipt. When a slot frees, confirm the next allowed queue item by actual Topview task ID. Monitor S72 existing task without repeating Create."
+}
