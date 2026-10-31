@@ -5,6 +5,8 @@ on:
   push:
     branches: [main]
     paths:
+      - 'scripts/launcher_coordination.py'
+      - 'tests/test_launcher_coordination.py'
       - 'tests/test_recovery_integration.py'
       - 'tests/test_continue_preflight.py'
       - 'tests/test_continue_recovery.py'
@@ -74,7 +76,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Run offline canonical and monitor failover regression tests
-        run: python3 -m unittest -v tests/test_recovery_integration.py tests/test_revision_date.py tests/test_monitor_failover.py tests/test_owner_decisions.py tests/test_topview_light_check.py tests/test_master_actions.py tests/test_topview_api_scan.py tests/test_topview_prompt_match.py tests/test_drive_copy.py tests/test_robot_telemetry.py tests/test_topview_video_archive.py tests/test_trim_service_files.py tests/test_slot_rewake.py tests/test_relay_retention.py tests/test_operation_journal.py tests/test_instruction_consistency.py tests/test_site_actions.py tests/test_inbox_archive.py tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py
+        run: python3 -m unittest -v tests/test_launcher_coordination.py tests/test_recovery_integration.py tests/test_revision_date.py tests/test_monitor_failover.py tests/test_owner_decisions.py tests/test_topview_light_check.py tests/test_master_actions.py tests/test_topview_api_scan.py tests/test_topview_prompt_match.py tests/test_drive_copy.py tests/test_robot_telemetry.py tests/test_topview_video_archive.py tests/test_trim_service_files.py tests/test_slot_rewake.py tests/test_relay_retention.py tests/test_operation_journal.py tests/test_instruction_consistency.py tests/test_site_actions.py tests/test_inbox_archive.py tests/test_continue_preflight.py tests/test_continue_recovery.py tests/test_project_recovery.py
       - name: Check repository instruction consistency (live Automations checked separately)
         run: python3 scripts/check_instruction_consistency.py .
       - name: Verify Continue indicator failure states
