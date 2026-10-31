@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-31T22:24:13+00:00",
-  "source_head": "2ebcf760294340d62dc1f95c39c99de59f001397",
-  "source_fingerprint": "c1b60d203a9590d81c6f5d642821ed9566eeaad58532e0e32815ab4758182436",
+  "checked_at": "2026-10-31T22:43:49+00:00",
+  "source_head": "f88a97a8d6c3a0eb457ec138c3c525311d206e78",
+  "source_fingerprint": "b964e21b93dc9f7b1930abc2fb8e4d2a2d0f9a42ce7538c9e7c9c7071376b7a9",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -31,10 +31,10 @@
     "source_head": "2a171454ec80e6773bf7e64b3619a3343d2d9814"
   },
   "reasons": [
-    "selected checkpoint hash mismatch"
+    "next action changed without a recovery checkpoint"
   ],
   "selected_work": null,
-  "checkpoint_text": "# Обычный ChatGPT — основной; Work — резерв · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПрямая команда владельца: Work-лимит исчерпан; обычный исполнитель основной, Work резервный; оба независимы, но отправка только под общим замком/claim. После доказанного восстановления Work вернуть предпочтение ему. «Продолжай» передаёт ответственность сменщику.\n\nСтадия: code_and_documents_validated; automation_and_GUI_acceptance_separate. Время фактической записи: 2026-10-31T16:58:22Z. Технический план: общий реестр ролей, уникальная lease, одноразовый submitting intent, foreground epoch, согласованные инструкции/хендоф, cert и тесты. Очередь/мастер/видео не меняются.\n\nПодтверждено до смены ролей: реальный обычный runtime 52f01b43-0358-8330-9c19-fb332e6dcb03 проверил 14 досок/18 страниц/624 видео, 6/6 занято; GUI-проба вернула originating_browser_context_required. Это не подтверждение Create или отдельной квоты. S72 от 11:08:48Z сохраняется как исторический подтверждённый запуск.\n\nСледующий шаг: проверить реальную настройку трёх существующих задач и новый обычный runtime после сообщения владельца о лимите; при 6/6 только read-only GUI-проба, при свободном слоте полный preflight и первый готовый разрешённый пункт. Не повторять S72/unknown. Не объявлять страховку полностью принятой без browser/task evidence.\n\nИсточники: ops/slot-backup.json; ops/LAUNCHER-COORDINATION.md; reports/launcher-coordination-2026-10-31.json.\n<!-- /launcher-policy -->\n",
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -339,14 +339,14 @@
         "submit_authorized": false
       },
       {
-        "item_id": "S56-SEED20-P2",
+        "item_id": "S48-SEED20-P2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
         "submit_authorized": false
       },
       {
-        "item_id": "S63-WAN30",
+        "item_id": "S56-SEED20-P2",
         "state": "waiting_for_slot",
         "task_id": null,
         "recovery_action": "fresh_launch_preflight_required",
@@ -368,8 +368,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "ef7be924ef60e81ad184ea2bb83e6d93500e10b0cd8bb95aefef66092b721dbf",
-      "bytes": 34354
+      "sha256": "1456c435045e834aa6bc0aa5ca1f3e7ac8d7b1829ba2a3fa4d0d1cea6944d2fc",
+      "bytes": 34854
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -393,7 +393,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "68ea02acc8a165582ca58335eabbe403f8ddc4d65a59082508e629e851ea0329",
+      "sha256": "9398ea2aac8960447d91e4db3357e958d54ed6ca2b6b1c4721f234d1e385f315",
       "bytes": 5141
     },
     {
@@ -408,18 +408,18 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "6c0372de0b30bcdfb03bee55243315024f126987f47d38b0907b6e30c9049e28",
-      "bytes": 357043
+      "sha256": "68f8cdf88b8e1acb4ad8d1c9ed871441cabcf4e47c59002ae7d1be7aea3cbf68",
+      "bytes": 358747
     },
     {
       "file": "project-status.json",
-      "sha256": "eb104c7b59a0a7c9f8e9131a089be8118408417e5ae6cf7d1e6b225452d3ed37",
-      "bytes": 22409
+      "sha256": "791c9b877be2b1e0580536bf97723ecc71619c2f187c02ed031effe3a05c2613",
+      "bytes": 22405
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "dce73d61a3704f77aa641f11cca2500b6f490871249cc45b35d33011dfcc22f1",
-      "bytes": 30341
+      "sha256": "8eef66028b1522dcbde0fb3d2bfdeffa54acfe3f2183bc2a6d11d73fd5ba2c39",
+      "bytes": 30740
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -428,24 +428,24 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "6f9fa186cc0560f914d2059270af14bfab9d7e413467eead9772daf0dded626d",
-      "bytes": 34155
+      "sha256": "f9c31b51e2b6e6b483b0c3c4e9f952bbe8dcb063dd9beb499753f6d530a41e88",
+      "bytes": 34655
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "a6ca6c15e531387343a9f254a756ed6f9ad2980d9fd427bcf3190a0fd42d2e76",
+      "sha256": "1b8dd2fb55e7cc646018e4732bb60492d1ccdf3ffe0092e24fffc316ed42886b",
       "bytes": 25096
     },
     {
       "file": "video-prompts.md",
-      "sha256": "9d45caee38dc50dfce6f6e6d5edc6d99859aef48fe383ec96963269e28cc5a9a",
-      "bytes": 1342373
+      "sha256": "95e7b07d9e677786a5c200e8fe9a490dfd0fe602d259545a88c43ccd598431d1",
+      "bytes": 1343475
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "f7930ecadf10f421f5a7452e156d87ec10a15b442e9fcabf783f4fed54513ff2",
-      "bytes": 84825
+      "sha256": "06a11b18c293305f3d3540281c3533be455011f3b5b016d8927fef93b83535cc",
+      "bytes": 85157
     }
   ],
-  "packet_bytes": 6081
+  "packet_bytes": 3864
 }

@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-31T22:14:10+00:00",
+ "generated_at": "2026-10-31T22:43:49+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "ef7be924ef60e81ad184ea2bb83e6d93500e10b0cd8bb95aefef66092b721dbf",
-   "bytes": 34354
+   "sha256": "1456c435045e834aa6bc0aa5ca1f3e7ac8d7b1829ba2a3fa4d0d1cea6944d2fc",
+   "bytes": 34854
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "9d45caee38dc50dfce6f6e6d5edc6d99859aef48fe383ec96963269e28cc5a9a",
-   "bytes": 1342373
+   "sha256": "95e7b07d9e677786a5c200e8fe9a490dfd0fe602d259545a88c43ccd598431d1",
+   "bytes": 1343475
   }
  ],
  "invariants": [
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22494,
-  "above_marker_chars": 22494,
+  "chars": 22805,
+  "above_marker_chars": 22805,
   "recent_sections_below_marker": [],
-  "sha256": "6f9fa186cc0560f914d2059270af14bfab9d7e413467eead9772daf0dded626d",
-  "sha256_12": "6f9fa186cc05",
+  "sha256": "f9c31b51e2b6e6b483b0c3c4e9f952bbe8dcb063dd9beb499753f6d530a41e88",
+  "sha256_12": "f9c31b51e2b6",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -451,8 +451,8 @@
     "@Image6"
    ],
    "offset": 375852,
-   "chars": 42441,
-   "sha256_12": "1c1d94694b89"
+   "chars": 43110,
+   "sha256_12": "41ef13e7084a"
   },
   {
    "id": 49,
@@ -477,7 +477,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 418293,
+   "offset": 418962,
    "chars": 98879,
    "sha256_12": "d1b6857d7c44"
   },
@@ -500,7 +500,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 517172,
+   "offset": 517841,
    "chars": 25674,
    "sha256_12": "dfe4a2e45e04"
   },
@@ -527,7 +527,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 542846,
+   "offset": 543515,
    "chars": 107166,
    "sha256_12": "7cd601059591"
   },
@@ -548,7 +548,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 650012,
+   "offset": 650681,
    "chars": 84736,
    "sha256_12": "5a8c90598d97"
   },
@@ -571,7 +571,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 734748,
+   "offset": 735417,
    "chars": 26585,
    "sha256_12": "73dc1bb6e064"
   },
@@ -593,7 +593,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 761333,
+   "offset": 762002,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -619,7 +619,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 787429,
+   "offset": 788098,
    "chars": 27707,
    "sha256_12": "9b7b68faabdc"
   },
@@ -640,7 +640,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 815136,
+   "offset": 815805,
    "chars": 35317,
    "sha256_12": "823ad4625e2b"
   },
@@ -662,7 +662,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 850453,
+   "offset": 851122,
    "chars": 33040,
    "sha256_12": "5ce9f73454a9"
   },
@@ -682,7 +682,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 883493,
+   "offset": 884162,
    "chars": 24875,
    "sha256_12": "e55d88192740"
   },
@@ -704,7 +704,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 908368,
+   "offset": 909037,
    "chars": 29300,
    "sha256_12": "59e2c15c341f"
   },
@@ -724,7 +724,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 937668,
+   "offset": 938337,
    "chars": 23453,
    "sha256_12": "44a6503cbd40"
   },
@@ -743,7 +743,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 961121,
+   "offset": 961790,
    "chars": 19278,
    "sha256_12": "62a1603193f3"
   },
@@ -765,7 +765,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 980399,
+   "offset": 981068,
    "chars": 24736,
    "sha256_12": "6cb6303199f5"
   },
@@ -789,7 +789,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1005135,
+   "offset": 1005804,
    "chars": 29606,
    "sha256_12": "d8628c3f12d4"
   },
@@ -810,7 +810,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1034741,
+   "offset": 1035410,
    "chars": 22393,
    "sha256_12": "78c6a4427c70"
   },
@@ -834,7 +834,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1057134,
+   "offset": 1057803,
    "chars": 29608,
    "sha256_12": "741dfcf03866"
   },
@@ -858,7 +858,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1086742,
+   "offset": 1087411,
    "chars": 30374,
    "sha256_12": "046fba19139c"
   },
@@ -879,7 +879,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1117116,
+   "offset": 1117785,
    "chars": 22834,
    "sha256_12": "aebb6d03780f"
   },
@@ -899,7 +899,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1139950,
+   "offset": 1140619,
    "chars": 33562,
    "sha256_12": "59dfe53a3613"
   },
@@ -919,7 +919,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1173512,
+   "offset": 1174181,
    "chars": 32355,
    "sha256_12": "719d4dacd6a8"
   }
