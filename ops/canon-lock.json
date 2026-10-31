@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:08b0cdae-0e40-4db7-a507-501c89be7609",
-  "task": "Ordinary hourly :00 schedule read back and recorded; current browser and instant event limitations explicit; no video or paid action",
-  "acquired_at": "2026-10-31T18:19:26Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T18:26:54Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:259bc97c-482b-46f4-8db2-7d0e909a8900",
+  "task": "Scheduled ordinary hourly: fully scanned 14 boards, 18 pages, 624 video tasks (6 active); record no-free-slot and browser probe",
+  "acquired_at": "2026-10-31T19:05:39.327Z",
+  "expires_at": "2026-10-31T19:13:39.327Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
