@@ -16,8 +16,10 @@ from zoneinfo import ZoneInfo
 CONFIG = 'ops/slot-backup.json'
 LOCK = 'ops/canon-lock.json'
 QUEUE = 'ops/topview-launch-queue.json'
-# 'grok' = Grok Bot, a scheduled helper launcher (owner decision 01.11.2026, see ops/LAUNCHER-COORDINATION.md).
+# 'grok' = Grok Bot, a helper launcher (owner decision 01.11.2026, see ops/LAUNCHER-COORDINATION.md).
+# It launches either on its schedule (kind=scheduled) or on the owner's direct command (kind=owner_command).
 SURFACES = ('ordinary', 'work', 'grok')
+OWNER_COMMAND_SOURCES = ('grok_chat', 'telegram')
 
 class Blocked(ValueError):
     pass
@@ -48,7 +50,7 @@ def holder(actor):
         return 'grok:' + instance(actor)
     return 'chatgpt:' + actor['surface'] + ':' + instance(actor)
 
-def check_route(config, actor):
+def check_route(config, actor, now=None):
     instance(actor)
     if config.get('enabled') is not True:
         raise Blocked('launcher_disabled')
@@ -59,10 +61,14 @@ def check_route(config, actor):
     if peer.get('enabled') is not True:
         raise Blocked('peer_not_enabled')
     kind = actor.get('kind')
-    if actor['surface'] == 'grok' and kind != 'scheduled':
-        # Telegram/interactive commands are not yet an owner-approved launch path for Grok Bot.
+    if actor['surface'] == 'grok' and kind not in ('scheduled', 'owner_command'):
+        # Grok Bot has no foreground-shift (interactive/takeover) path; only schedule or a recorded owner command.
         raise Blocked('grok_interactive_not_authorized')
-    if kind == 'scheduled':
+    if kind == 'owner_command':
+        if actor['surface'] != 'grok':
+            raise Blocked('owner_command_only_for_grok')
+        check_owner_command(config, actor, now or datetime.now(timezone.utc))
+    elif kind == 'scheduled':
         if actor.get('automation_id') not in peer.get('automation_ids', []):
             raise Blocked('retired_or_unregistered_automation')
     elif kind == 'interactive':
@@ -73,6 +79,34 @@ def check_route(config, actor):
     else:
         raise Blocked('unknown_execution_kind')
     # Preferred executor is NOT an exclusivity gate: the other peer may help.
+    return True
+
+def check_owner_command(config, actor, now):
+    """Grok Bot launch on the owner's direct command: needs a recorded quote, source and fresh timestamp."""
+    policy = (config.get('grok_launcher') or {}).get('owner_command_launch')
+    if not isinstance(policy, dict) or policy.get('enabled') is not True:
+        raise Blocked('grok_owner_command_not_authorized')
+    command = actor.get('owner_command')
+    if not isinstance(command, dict):
+        raise Blocked('owner_command_record_required')
+    quote = command.get('quote')
+    if not isinstance(quote, str) or len(quote.strip()) < 2:
+        raise Blocked('owner_command_quote_required')
+    source = command.get('source')
+    allowed = policy.get('sources') or OWNER_COMMAND_SOURCES
+    if source not in OWNER_COMMAND_SOURCES or source not in allowed:
+        raise Blocked('owner_command_source_not_allowed')
+    if source == 'telegram':
+        chat = str(policy.get('telegram_chat_id') or '')
+        if not chat or str(command.get('chat_id')) != chat:
+            raise Blocked('owner_command_telegram_chat_mismatch')
+    at = ts(command.get('at'))
+    max_age = policy.get('max_age_minutes')
+    if not at or type(max_age) is not int or max_age < 1:
+        raise Blocked('owner_command_timestamp_required')
+    age = (now - at).total_seconds()
+    if not -60 <= age <= max_age * 60:
+        raise Blocked('owner_command_stale_or_future')
     return True
 
 def check_lease(lock, actor, now):
@@ -97,7 +131,13 @@ def check_grok_policy(config, item, actor, now):
         first_minute, last_minute = int(window['first_minute']), int(window['last_minute'])
     except (KeyError, TypeError, ValueError) as error:
         raise Blocked('grok_launch_window_invalid') from error
-    if not (first_hour <= local.hour <= last_hour and first_minute <= local.minute <= last_minute):
+    if actor.get('kind') == 'owner_command':
+        # Owner-command launches bypass the :10-:40 window (the owner asked for it now), but never the lock,
+        # claim/intent, board, Unlimited0 or per-run limits checked below and in prepare_intent.
+        if (policy.get('owner_command_launch') or {}).get('bypass_launch_window') is not True:
+            if not (first_hour <= local.hour <= last_hour and first_minute <= local.minute <= last_minute):
+                raise Blocked('outside_grok_launch_window')
+    elif not (first_hour <= local.hour <= last_hour and first_minute <= local.minute <= last_minute):
         raise Blocked('outside_grok_launch_window')
     if (policy.get('first_real_create') or {}).get('owner_go_ahead') is not True:
         raise Blocked('grok_first_real_create_pending_owner_go_ahead')
@@ -127,7 +167,7 @@ def check_grok_retry(config, item):
 
 def prepare_intent(config, lock, item, actor, scan, now):
     """Transition claimed -> submitting once. Persist and read back before one click."""
-    check_route(config, actor)
+    check_route(config, actor, now)
     check_lease(lock, actor, now)
     if actor['surface'] == 'grok':
         check_grok_policy(config, item, actor, now)
@@ -161,6 +201,10 @@ def prepare_intent(config, lock, item, actor, scan, now):
     out['claim']['lease_holder'] = holder(actor)
     out['claim']['lease_acquired_at'] = lock['acquired_at']
     out['claim']['replay_forbidden'] = True
+    if actor['surface'] == 'grok' and actor.get('kind') == 'owner_command':
+        command = actor['owner_command']
+        out['claim']['trigger'] = 'owner_command'
+        out['claim']['owner_command'] = {k: command.get(k) for k in ('quote', 'source', 'at', 'chat_id') if command.get(k) is not None}
     return out
 
 def takeover(config, lock, actor, now, owner_command):
@@ -248,7 +292,7 @@ def main():
         lock = read(args.root / LOCK)
         path = None
         if args.action == 'check':
-            check_route(cfg, actor); check_lease(lock, actor, now)
+            check_route(cfg, actor, now); check_lease(lock, actor, now)
             result = {'allowed': True, 'scope': 'route_and_lease_only; full_UI_preflight_required'}
         elif args.action == 'takeover':
             result = takeover(cfg, lock, actor, now, args.owner_command); path = args.root / CONFIG

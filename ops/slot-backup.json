@@ -296,8 +296,8 @@
     },
     "interactive_commands": {
       "enabled": false,
-      "state": "pending_owner_decision",
-      "note": "Telegram/interactive launches are not authorized; scripts/launcher_coordination.py only accepts kind=scheduled for surface grok."
+      "state": "superseded_by_owner_command_launch",
+      "note": "kind=interactive and takeover (foreground-shift) remain blocked for surface grok. Owner-command launches use kind=owner_command, see owner_command_launch."
     },
     "pending_owner_decisions": [
       "Go-ahead (Grok Bot chat or Telegram) for the first real Create (first_real_create.owner_go_ahead)"
@@ -339,7 +339,7 @@
     "first_real_create": {
       "owner_go_ahead": false,
       "state": "pending_owner_go_ahead",
-      "note": "The routine runs the read-only scan and preflight, but scripts/launcher_coordination.py blocks prepare-intent for grok until the owner gives a go-ahead in the Grok Bot chat for the first real Create. Recording it (owner_go_ahead true, with the verbatim quote and time) is a separate CAS edit under the canon lock."
+      "note": "The routine runs the read-only scan and preflight, but scripts/launcher_coordination.py blocks prepare-intent for grok until the owner gives a go-ahead (Grok Bot chat or Telegram) for the first real Create. Recording it (owner_go_ahead true, with the verbatim quote, source and time) is a separate CAS edit under the canon lock."
     },
     "dry_run": {
       "item_id": "S71-WAN30",
@@ -377,7 +377,8 @@
           "Telegram private chat"
         ],
         "changes_owner_go_ahead": false,
-        "interactive_launch_path": "unchanged: scripts/launcher_coordination.py accepts only kind=scheduled for surface grok"
+        "interactive_launch_path": "owner_command launches enabled by owner 01.11.2026 00:40 (grok_launcher.owner_command_launch); kind=interactive/takeover still blocked",
+        "launch_trigger": "actor.kind=owner_command with recorded quote/source/time; see owner_command_launch"
       },
       "presence": {
         "surface": "grok",
@@ -395,6 +396,44 @@
         "NEW-CHAT-HANDOFF.md",
         "reports/current-work-checkpoint.md"
       ]
+    },
+    "owner_command_launch": {
+      "enabled": true,
+      "trigger": "actor.kind=owner_command",
+      "owner_request_id": "owner-20261101-grok-owner-command-launch",
+      "recorded_at": "2026-10-31T23:40:00Z",
+      "recorded_at_local": "2026-11-01T00:40 Europe/Amsterdam",
+      "owner_question": "Разрешить Grok Bot запуск по твоей прямой команде (чат Grok Bot или Telegram), а не только по расписанию?",
+      "owner_quote": "Да",
+      "sources": [
+        "grok_chat",
+        "telegram"
+      ],
+      "telegram_chat_id": "215961273",
+      "telegram_bot": "@Grok_vint_bot",
+      "max_age_minutes": 60,
+      "bypass_launch_window": true,
+      "required_in_actor": [
+        "owner_command.quote",
+        "owner_command.source",
+        "owner_command.at",
+        "owner_command.chat_id (telegram only, must equal telegram_chat_id)"
+      ],
+      "recorded_in_intent": "claim.trigger=owner_command and claim.owner_command{quote,source,at,chat_id}",
+      "window_rule": "The :10–:40 launch_window applies to scheduled runs only. An owner command may start outside it (the owner asked for it now) but still needs the exact unexpired canon lease, claim, intent, readback, board, Unlimited0, max one submission per run and TOPVIEW-RETRY rules; the lease is still released by the end of the run and must not be taken while a foreign valid lease exists.",
+      "unchanged_gates": [
+        "first_real_create.owner_go_ahead",
+        "exact canon lease (grok:<UUID4>)",
+        "own CAS claim and one-time intent",
+        "fresh complete account-wide scan",
+        "board_id My First Board",
+        "Unlimited0: credits_cost 0, quantity 1, 720p, 16:9, website_unlimited",
+        "max_submissions_per_wake=1",
+        "retries per ops/TOPVIEW-RETRY.md",
+        "no paid MCP/Canvas generation without a separate explicit owner yes"
+      ],
+      "first_real_create_flow": "If the owner's command is itself an explicit yes for the first real Create, Grok Bot first records first_real_create.owner_go_ahead=true with that quote, source and time in a separate commit under the canon lock, reads it back, and only then prepares the intent. An ordinary launch command without such a yes does not open the gate.",
+      "not_enabled": "No foreground-shift: kind=interactive and takeover stay blocked for grok."
     }
   }
 }

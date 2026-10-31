@@ -244,6 +244,128 @@ class GrokHelperTests(unittest.TestCase):
             with self.subTest(value=value), self.assertRaises(lc.Blocked): self.intent(cfg=cfg)
         cfg = copy.deepcopy(self.cfg); del cfg['grok_launcher']['first_real_create']
         with self.assertRaises(lc.Blocked): self.intent(cfg=cfg)
+    # --- owner-command launches (owner decision 01.11.2026 00:40) ---
+    def owner_cfg(self, **over):
+        cfg = copy.deepcopy(self.cfg)
+        cfg['grok_launcher']['owner_command_launch'] = dict(
+            {'enabled': True, 'sources': ['grok_chat', 'telegram'], 'telegram_chat_id': '215961273',
+             'max_age_minutes': 60, 'bypass_launch_window': True}, **over)
+        return cfg
+    def owner_actor(self, now=GROK_NOW, **command):
+        record = {'quote': 'Запусти сцену S71', 'source': 'telegram', 'chat_id': 215961273,
+                  'at': lc.stamp(now-timedelta(minutes=2))}
+        record.update(command)
+        actor = {k: v for k, v in self.actor.items() if k != 'automation_id'}
+        actor.update(kind='owner_command', owner_command=record)
+        return actor
+    def owner_intent(self, now=GROK_NOW, cfg=None, **over):
+        lock = dict(self.lock, acquired_at=lc.stamp(now-timedelta(minutes=1)), expires_at=lc.stamp(now+timedelta(minutes=5)))
+        actor = over.pop('actor', None) or self.owner_actor(now)
+        actor = dict(actor, lease_acquired_at=lock['acquired_at'])
+        scan = dict(self.scan, checked_at=lc.stamp(now))
+        return lc.prepare_intent(cfg or self.owner_cfg(), over.get('lock', lock), over.get('item', self.item), actor, scan, now)
+    def test_owner_command_records_quote_source_and_time_in_intent(self):
+        for source, extra in (('telegram', {'chat_id': '215961273'}), ('grok_chat', {})):
+            with self.subTest(source=source):
+                actor = self.owner_actor(source=source, **extra)
+                out = self.owner_intent(actor=actor)
+                self.assertEqual(out['state'], 'submitting')
+                self.assertEqual(out['claim']['trigger'], 'owner_command')
+                self.assertEqual(out['claim']['owner_command']['quote'], 'Запусти сцену S71')
+                self.assertEqual(out['claim']['owner_command']['source'], source)
+                self.assertIn('at', out['claim']['owner_command'])
+                self.assertEqual(out['claim']['lease_holder'], 'grok:'+C)
+    def test_scheduled_intent_has_no_owner_command_marker(self):
+        self.assertNotIn('trigger', self.intent()['claim'])
+    def test_owner_command_requires_policy_and_valid_record(self):
+        with self.assertRaises(lc.Blocked): self.owner_intent(cfg=self.cfg)  # block absent
+        with self.assertRaises(lc.Blocked): self.owner_intent(cfg=self.owner_cfg(enabled=False))
+        base = self.owner_actor()
+        for name, bad in (('no_record', {k: v for k, v in base.items() if k != 'owner_command'}),
+                          ('empty_quote', self.owner_actor(quote='  ')),
+                          ('no_quote', self.owner_actor(quote=None)),
+                          ('bad_source', self.owner_actor(source='email')),
+                          ('no_source', self.owner_actor(source=None)),
+                          ('wrong_chat', self.owner_actor(chat_id=1)),
+                          ('no_chat', self.owner_actor(chat_id=None)),
+                          ('no_time', self.owner_actor(at=None)),
+                          ('naive_time', self.owner_actor(at='2026-11-01T11:13:00'))):
+            with self.subTest(name), self.assertRaises(lc.Blocked): self.owner_intent(actor=bad)
+        with self.assertRaises(lc.Blocked): self.owner_intent(cfg=self.owner_cfg(sources=['grok_chat']))
+        with self.assertRaises(lc.Blocked): self.owner_intent(cfg=self.owner_cfg(max_age_minutes=None))
+    def test_owner_command_must_be_fresh_and_not_future(self):
+        with self.assertRaises(lc.Blocked):
+            self.owner_intent(actor=self.owner_actor(at=lc.stamp(GROK_NOW-timedelta(minutes=61))))
+        with self.assertRaises(lc.Blocked):
+            self.owner_intent(actor=self.owner_actor(at=lc.stamp(GROK_NOW+timedelta(minutes=5))))
+        self.assertEqual(self.owner_intent(actor=self.owner_actor(at=lc.stamp(GROK_NOW-timedelta(minutes=59))))['state'], 'submitting')
+    def test_owner_command_bypasses_window_but_scheduled_does_not(self):
+        for minute in (0, 5, 45, 59):
+            now = datetime(2026, 11, 1, 10, minute, tzinfo=timezone.utc)
+            with self.subTest(minute=minute):
+                self.assertEqual(self.owner_intent(now=now)['state'], 'submitting')
+                with self.assertRaises(lc.Blocked):
+                    lc.prepare_intent(self.cfg, dict(self.lock, acquired_at=lc.stamp(now-timedelta(minutes=1)), expires_at=lc.stamp(now+timedelta(minutes=5))),
+                                      self.item, dict(self.actor, lease_acquired_at=lc.stamp(now-timedelta(minutes=1))),
+                                      dict(self.scan, checked_at=lc.stamp(now)), now)
+    def test_owner_command_window_bypass_is_config_controlled(self):
+        now = datetime(2026, 11, 1, 10, 50, tzinfo=timezone.utc)
+        with self.assertRaises(lc.Blocked): self.owner_intent(now=now, cfg=self.owner_cfg(bypass_launch_window=False))
+        with self.assertRaises(lc.Blocked): self.owner_intent(now=now, cfg=self.owner_cfg(bypass_launch_window='yes'))
+    def test_owner_command_keeps_lock_claim_and_scan_gates(self):
+        with self.assertRaises(lc.Blocked): self.owner_intent(lock=dict(self.lock, holder='grok:'+A))
+        with self.assertRaises(lc.Blocked): self.owner_intent(lock=dict(self.lock, state='free'))
+        with self.assertRaises(lc.Blocked): self.owner_intent(lock=dict(self.lock, expires_at=lc.stamp(GROK_NOW-timedelta(minutes=1))))
+        with self.assertRaises(lc.Blocked): self.owner_intent(item=dict(self.item, state='waiting_for_slot'))
+        with self.assertRaises(lc.Blocked): self.owner_intent(actor=dict(self.owner_actor(), route_generation=1))
+        item = copy.deepcopy(self.item); item['claim']['execution_instance_id'] = A
+        with self.assertRaises(lc.Blocked): self.owner_intent(item=item)
+    def test_owner_command_keeps_board_unlimited0_and_run_limit(self):
+        with self.assertRaises(lc.Blocked): self.owner_intent(item=dict(self.item, board_id='other'))
+        item = copy.deepcopy(self.item); item['claim']['preflight']['credits_cost'] = 1
+        with self.assertRaises(lc.Blocked): self.owner_intent(item=item)
+        item = copy.deepcopy(self.item); item['claim']['preflight']['website_unlimited'] = False
+        with self.assertRaises(lc.Blocked): self.owner_intent(item=item)
+        with self.assertRaises(lc.Blocked): self.owner_intent(actor=dict(self.owner_actor(), submissions_this_wake=1))
+    def test_owner_command_keeps_retry_rules(self):
+        self.assertEqual(self.owner_intent(item=self.retry_item(2))['state'], 'submitting')
+        with self.assertRaises(lc.Blocked): self.owner_intent(item=self.retry_item(3))
+        with self.assertRaises(lc.Blocked):
+            cfg = self.owner_cfg(); cfg['grok_launcher']['retries']['enabled'] = False
+            self.owner_intent(cfg=cfg, item=self.retry_item())
+    def test_owner_command_does_not_waive_first_real_create_go_ahead(self):
+        for value in (False, None, 'true'):
+            cfg = self.owner_cfg(); cfg['grok_launcher']['first_real_create'] = {'owner_go_ahead': value}
+            with self.subTest(value=value), self.assertRaises(lc.Blocked): self.owner_intent(cfg=cfg)
+    def test_owner_command_only_for_grok_and_peer_still_required(self):
+        for surface in ('ordinary', 'work'):
+            actor = dict(self.owner_actor(), surface=surface)
+            with self.subTest(surface=surface), self.assertRaises(lc.Blocked): lc.check_route(self.owner_cfg(), actor, GROK_NOW)
+        cfg = self.owner_cfg(); cfg['peers']['grok']['enabled'] = False
+        with self.assertRaises(lc.Blocked): lc.check_route(cfg, self.owner_actor(), GROK_NOW)
+        cfg = self.owner_cfg(); cfg['enabled'] = False
+        with self.assertRaises(lc.Blocked): lc.check_route(cfg, self.owner_actor(), GROK_NOW)
+    def test_grok_still_has_no_interactive_or_takeover_path_with_owner_command(self):
+        cfg = self.owner_cfg(); cfg['foreground_owners']['grok'] = {'session_id': 's', 'epoch': 1}
+        actor = dict(self.actor, kind='interactive', session_id='s', foreground_epoch=1)
+        with self.assertRaises(lc.Blocked): lc.check_route(cfg, actor, GROK_NOW)
+        with self.assertRaises(lc.Blocked): lc.takeover(cfg, self.lock, dict(self.owner_actor(), session_id='s'), GROK_NOW, 'Продолжай')
+    def test_registry_file_enables_owner_command_launch_with_gates(self):
+        import json
+        cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops' / 'slot-backup.json').read_text(encoding='utf-8'))
+        policy = cfg['grok_launcher']['owner_command_launch']
+        self.assertIs(policy['enabled'], True)
+        self.assertEqual(policy['sources'], ['grok_chat', 'telegram'])
+        self.assertEqual(policy['telegram_chat_id'], '215961273')
+        self.assertIs(policy['bypass_launch_window'], True)
+        self.assertEqual(policy['owner_quote'], 'Да')
+        self.assertIs(cfg['grok_launcher']['first_real_create']['owner_go_ahead'], False)
+        actor = {'execution_instance_id': C, 'surface': 'grok', 'kind': 'owner_command', 'route_generation': cfg['route_generation'],
+                 'owner_command': {'quote': 'x1', 'source': 'telegram', 'chat_id': '215961273', 'at': lc.stamp(GROK_NOW)}}
+        self.assertTrue(lc.check_route(cfg, actor, GROK_NOW))
+        with self.assertRaises(lc.Blocked):
+            lc.check_route(cfg, dict(actor, owner_command=dict(actor['owner_command'], chat_id='1')), GROK_NOW)
+
     def test_registry_file_registers_grok_fail_closed(self):
         import json
         cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops' / 'slot-backup.json').read_text(encoding='utf-8'))
