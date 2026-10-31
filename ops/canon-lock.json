@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:9ee34d70-1d36-4696-98d4-b7426dce4454",
-  "task": "Document grok presence and owner decisions (no Create, no queue/config changes)",
-  "acquired_at": "2026-10-31T23:35:42Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T23:37:58Z",
+  "state": "held",
+  "holder": "grok:d1bdde26-5e1d-46c5-9274-337dd7dfa0a3",
+  "task": "Grok owner_command launch trigger in launcher_coordination.py (no Create, no queue changes, owner_go_ahead unchanged)",
+  "acquired_at": "2026-10-31T23:40:49Z",
+  "expires_at": "2026-11-01T00:10:49Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
