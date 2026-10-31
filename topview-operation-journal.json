@@ -4,17 +4,6 @@
   "retention_max_events": 500,
   "events": [
     {
-      "timestamp": "2026-10-11T16:10:48Z",
-      "operation": "chatgpt_full_topview_scan_and_prompt_mapping",
-      "scene_id": null,
-      "task_fingerprint": "six Wan 3.0 tasks 11.10.2026 05:09–05:13 UTC",
-      "previous_status": "0/6 stale",
-      "new_status": "5/6 active Scenes24,25,27,30,31; Scene21 success",
-      "source_checkpoint": "2026-10-11T16:10:48Z",
-      "outcome": "full_scan_verified",
-      "verification": "11 boards, 560 videos, 17 requested pages; six direct details; 5 normalized exact and 1 high Scene21. No approval/generation."
-    },
-    {
       "timestamp": "2026-10-11T17:50:46Z",
       "operation": "interactive_topview_telemetry_refresh",
       "scene_id": null,
@@ -5502,8 +5491,19 @@
       "source_checkpoint": "2026-10-31T14:30:21Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "robot scan (public Topview API, GET only)"
+    },
+    {
+      "timestamp": "2026-10-31T15:20:19Z",
+      "operation": "github_robot_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 активных задач",
+      "new_status": "6 активных задач",
+      "source_checkpoint": "2026-10-31T15:20:19Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "robot scan (public Topview API, GET only)"
     }
   ],
-  "archived_event_count": 103,
+  "archived_event_count": 104,
   "events_archive": "archive/ops/topview-operation-journal-archive.json"
 }
