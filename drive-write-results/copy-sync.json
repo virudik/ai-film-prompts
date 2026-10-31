@@ -1,33 +1,33 @@
 {
-  "checked_at": "2026-10-30T10:02:41Z",
+  "checked_at": "2026-10-31T09:40:31Z",
   "mode": "sync",
   "summary": {
-    "written": 4,
-    "current": 6
+    "written": 2,
+    "current": 8
   },
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
+      "github_sha256": "f13fbeb83b7d3b89eaf2197d6a6dd96dbf3bc6a2dd78090c87e7d18836315722",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "9202d47dd8dbf69a2600d43897bd2e302cb93f171fe2904fb737e8a4a20679d3",
+      "drive_sha256": "f13fbeb83b7d3b89eaf2197d6a6dd96dbf3bc6a2dd78090c87e7d18836315722",
       "status": "written",
-      "drive_modified": "2026-10-30T10:02:28.950Z"
+      "drive_modified": "2026-10-31T09:40:18.142Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
+      "github_sha256": "2dc9676df8c75a722687e71b7eb3c36d1a9247aa9e30f2a92814904b4248df48",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "fac04d728cad34e5174cc5df0f28f13c0a53c8d36392ff8d02bb3da104ede257",
+      "drive_sha256": "2dc9676df8c75a722687e71b7eb3c36d1a9247aa9e30f2a92814904b4248df48",
       "status": "written",
-      "drive_modified": "2026-10-30T10:02:32.665Z"
+      "drive_modified": "2026-10-31T09:40:22.977Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
       "github_sha256": "facf5e8d815e877745b8f9f1675cf531d28783f68b6421a0b2e04a66370f7537",
       "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
       "drive_sha256": "facf5e8d815e877745b8f9f1675cf531d28783f68b6421a0b2e04a66370f7537",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-10-30T10:02:35.018Z"
     },
     {
@@ -43,7 +43,7 @@
       "github_sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
       "file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
       "drive_sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-10-30T10:02:37.822Z"
     },
     {
