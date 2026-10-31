@@ -1,0 +1,183 @@
+name: Apply owner S48.2 continuity correction once
+on:
+  push:
+    branches: ['edit/s48p2-continuity-20261031T2207Z']
+    paths: ['.github/workflows/s48p2-continuity-once.yml']
+permissions:
+  contents: write
+concurrency:
+  group: s48p2-continuity-owner-20261101
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HOLDER: chatgpt:interactive:d183d019-115d-451a-aa5d-218bd4e1471e
+      NEW_PROMPT: |
+        Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+        Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | Part 2 of 4: the worm cuts off the charging Jedi; the Chancellor hides the module, leaps onto the worm and rides it away
+
+        REFERENCES / AUTHORITY ORDER:
+        @Video1 — the actual final 3 seconds of the selected Part 1 result. Continue from its LAST frame, not its first: preserve the ongoing movement, camera, screen positions, distant visible worm, ruins, dropped weapon, dust and light. Do not replay the capture of the module.
+        @Image1 — absolute identity of SEREGA.
+        @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+        @Image3 — absolute identity of ARTEM, the Bearded Jedi.
+        @Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+        @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
+        @Image6 — the exact map module prop design.
+        Priority: @Video1 controls the start, positions and damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop.
+
+        CHARACTER APPEARANCE / IDENTITY LOCK:
+        SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; red lightsaber hilt, switched off, at his belt.
+        ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; blue lightsaber, lit.
+        ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots. He starts kneeling foreground-left. His dropped weapon lies unlit on the foreground sand: preserve its actual shape, length and position from @Video1; no green ignition.
+        Exactly three people. No other characters, no vehicles.
+
+        PROP LOCK — CRITICAL:
+        Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber segmented panels. At the opening it remains in Serega's hands held together at chest height, with exactly the visibility and grip of @Video1; do not expose it anew or repeat the catch. He hides this same module inside his robe during the action. No duplication, new transfer, hologram or paper map.
+
+        WORM / LOCATION LOCK — CRITICAL:
+        ONE colossal worm, already visible behind the characters at a distance in @Video1. Preserve its partly exposed segmented body and initial distance; it is not beside Serega at the join. It must visibly approach from that background position through open sand around the existing rubble before crossing the pursuit path. Never erase it and spawn a second worm between the people, teleport it forward or shrink it. Its head and forward body pass clear of everyone; a following broad back segment remains mostly submerged, low enough for the planned leap. Serega alone deliberately contacts its back, landing on both boots and gripping an inter-segment ridge; no bite, collision or injury. Preserve the actual upright damaged stone, fallen blocks and sand geometry in @Video1, not an older planned ruin layout. No rebuilding or moving the stones, no car or speeder.
+
+        START STATE:
+        Exactly the LAST frame of @Video1: Serega stands near centre, dark-purple robe, hands together at chest height around the captured module; Ilyusha stands frame-right in the red cloak, lit blue blade lowered diagonally inward; Artem kneels in the near foreground-left. The dropped unlit weapon stays in its foreground position. The same worm's segmented body is visible across the background behind the ruins, separated from the people by open sand. Preserve this spacing, axis, lighting and unfinished movement; no mirrored arrangement or instant nearby worm.
+
+        TIMELINE:
+        [0:00–0:06] — THE DISTANT WORM CLOSES THE GAP
+        Continue the terminal camera and motion without a cut. Ilyusha presses in from frame-right; Serega takes quick backward-diagonal steps into the open sand, keeping the module secure. At the same time the ALREADY VISIBLE worm advances from the background in one readable curving pass around the fallen blocks, driving a growing wake of sand. Establish its travel through depth before it reaches the people. As Ilyusha commits to the interception, the worm's forward body sweeps across the gap and throws up a curtain of sand; Ilyusha checks his advance and springs aside to safety. Artem remains on his knees and braces a hand in the sand. Nobody is hit. The following low, partly buried back continues sliding past; the worm does not stop to offer a ride.
+
+        [0:06–0:08] — HIDE THE MODULE
+        Cut on his turn to a clear medium shot. In one quick movement Serega slips the module from his existing clasp into the inner fold of his robe. Any visible amber light disappears under the cloth. He immediately turns into a run alongside the passing back; no display pose, second catch or newly appearing module.
+
+        [0:08–0:12] — ONTO THE SAME PASSING WORM
+        Fast low side tracking follows the same worm and Serega's short sprint. Most of the colossal girth remains below the sand; the exposed broad back passes at a reachable jump height, without reducing the worm's size. Show one continuous push-off, short airborne arc, both boots landing on a single broad segment, knees absorbing the load and one hand gripping a shallow ridge between segments. The free arm balances him; the robe trails clear of his feet. Keep take-off and landing in the same shot, never replace the jump with a cut to an already mounted rider.
+
+        [0:12–0:15] — RIDING AWAY
+        Cut on the established departure movement to a wide view that keeps the two Jedi by the same ruins and the mounted rider travelling away into the dunes. The worm accelerates in a heavy spray of sand; Serega stays low on both boots with the same handhold, robe streaming. Ilyusha lowers his blue blade; Artem plants a boot and pushes up from his knees. They watch the escape. Keep the rider readable and continuously moving for the handoff to Part 3; no end pose or freeze.
+
+        END STATE:
+        Serega rides the same worm away into the dunes, low and balanced on both boots, one hand gripping the ridge, the module hidden in his robe. Both Jedi remain alive at the ruins, Ilyusha's blue blade lowered, Artem rising; the dropped unlit weapon remains where it fell. Continue departure motion into the final frame for Part 3.
+
+        CAMERA / SPACE:
+        Start on the exact @Video1 axis: Serega centre, Ilyusha right, Artem foreground-left, worm in the background. The first six seconds continuously show the worm closing the distance and the characters' real footwork. Do not cover the approach with a cut or move the background worm to the foreground by camera trickery. Then three motivated cuts: medium for hiding the module, low lateral tracking for the complete jump and landing, wider departure view on the same side of the action axis. Later positions change through visible travel, not a mirrored reset. Preserve a clear escape direction, readable faces, grounded scale and parallax; no random shake.
+
+        PERFORMANCE:
+        Serega is fast and dashing, his face cold: the hiding move is quick, the sprint and leap onto the worm athletic and bold. Ilyusha is fast and determined, then left standing with his blade lowered; Artem winded and annoyed. No speech, no smile, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
+
+        LIGHTING / MATERIALS:
+        Harsh warm desert sunlight, dry haze, blown sand in the air, realistic cloth and dust interaction; the module's amber glow vanishing into the robe; sand pouring off the worm's segments.
+
+        AUDIO:
+        Continue the source wind and low worm rumble. The grinding approach grows from the background into a near, heavy rush, followed by the sand curtain, blue-saber hum, quick boots, the solid landing on hide and cloth whipping as the worm carries him away. Exertion breaths only; no dialogue, narrator or music.
+
+        NEGATIVE PROMPT:
+        Mirrored starting positions, background worm vanishing, second worm, instant worm relocation, shrinking worm, collision or bite, floating rider, skipped take-off or landing, saddle or reins, repeated map catch, second module, renewed duel, green blade ignition, rebuilt ruins, extra people, vehicles, identity or costume drift, slow motion, frozen poses, subtitles, watermark.
+
+        FRAME FILL / NO BARS:
+        Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Exact source guard and acquire canonical lease
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'ChatGPT project editor'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --ff-only origin main
+          python3 - <<'PY'
+          import json, hashlib, re, os
+          from pathlib import Path
+          q=json.loads(Path('ops/topview-launch-queue.json').read_text())
+          i=next(i for i in q['items'] if i['id']=='S48-SEED20-P2')
+          assert not i.get('task_id') and not i.get('claim'), 'Already claimed/submitted; do not edit'
+          assert i['state']=='blocked_inputs', 'Reconcile new state before editing'
+          assert i['canonical_prompt_sha256']=='79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3'
+          t=Path('video-prompts.md').read_text()
+          p=re.search(r'#### 48 · Seedance 2\.0 часть 2\s*\n\s*```text\n(.*?)\n```',t,re.S).group(1).strip()
+          assert hashlib.sha256(p.encode()).hexdigest()==i['canonical_prompt_sha256']
+          assert hashlib.sha256(os.environ['NEW_PROMPT'].strip().encode()).hexdigest()=='749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d'
+          PY
+          python3 scripts/canon_lock.py . acquire --holder "$HOLDER" --task 'Owner: match S48.2 to real S48.1 ending; worm visible at distance; no generation' --minutes 30 --push
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          Path('/tmp/s48-own-lease.json').write_text(Path('ops/canon-lock.json').read_text())
+          PY
+      - name: Apply only the selected continuation and verify
+        shell: bash
+        run: |
+          set -euo pipefail
+          git pull --ff-only origin main
+          python3 - <<'PY'
+          from pathlib import Path
+          import os,re,json,hashlib,subprocess,sys
+          from datetime import datetime,timezone
+          sys.path.insert(0,'scripts')
+          from topview_prompt_match import normalise,master_blocks
+          now=datetime.now(timezone.utc); at=now.isoformat().replace('+00:00','Z')
+          lease=json.loads(Path('ops/canon-lock.json').read_text()); own=json.loads(Path('/tmp/s48-own-lease.json').read_text())
+          assert lease['state']=='held' and lease['holder']==os.environ['HOLDER'] and lease['acquired_at']==own['acquired_at']
+          assert datetime.fromisoformat(lease['expires_at'].replace('Z','+00:00'))>now
+          qpath=Path('ops/topview-launch-queue.json'); q=json.loads(qpath.read_text()); item=next(i for i in q['items'] if i['id']=='S48-SEED20-P2')
+          assert item['state']=='blocked_inputs' and not item.get('task_id') and not item.get('claim')
+          mp=Path('video-prompts.md'); text=mp.read_text(); Path('/tmp/s48-before-master.md').write_text(text)
+          m=re.search(r'(#### 48 · Seedance 2\.0 часть 2\s*\n\s*```text\n)(.*?)(\n```)',text,re.S); assert m
+          old=m.group(2).strip(); oldhash=hashlib.sha256(old.encode()).hexdigest()
+          assert oldhash=='79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3'==item['canonical_prompt_sha256']
+          new=os.environ['NEW_PROMPT'].strip(); newhash=hashlib.sha256(new.encode()).hexdigest(); normhash=hashlib.sha256(normalise(new).encode()).hexdigest()
+          assert newhash=='749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d' and len(new)<10000
+          edited=text[:m.start(2)]+new+text[m.end(2):]
+          before=master_blocks(text); after=master_blocks(edited)
+          changed=[a[0] for a,b in zip(before,after) if a!=b]
+          assert len(before)==len(after) and changed==['48 · Seedance 2.0 часть 2'],changed
+          mp.write_text(edited)
+          item.setdefault('previous_prompt_sha256',[]).append(oldhash)
+          item['canonical_prompt_sha256']=newhash; item['normalized_prompt_sha256']=normhash
+          item['revision_note_20261101']='Owner correction: actual S48.1 end has Serega centre, Ilyusha right, Artem kneeling foreground-left; the SAME worm is visible at a distance behind them and approaches before the leap. No new submission or READY inferred.'
+          q['updated_at']=at; qpath.write_text(json.dumps(q,ensure_ascii=False,indent=2)+'\n')
+          manpath=Path('references/scenes/scene-48/manifest.json'); man=json.loads(manpath.read_text())
+          rows=[r for r in man['prompt_reference_mapping'] if r['prompt_id']=='S48-SEED20-P2']; assert len(rows)==1
+          assert rows[0]['canonical_prompt_sha256']==oldhash
+          rows[0]['canonical_prompt_sha256']=newhash; rows[0]['normalized_prompt_sha256']=normhash; rows[0]['characters']=len(new)
+          man['updated_at']=at; manpath.write_text(json.dumps(man,ensure_ascii=False,indent=2)+'\n')
+          report={'schema_version':1,'project':'seregius','item_id':'S48-SEED20-P2','applied_at':at,'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'source_task_id':'8d7ff1e2de63478693778de29e0dd56e','owner_instruction':'Подправь промты 48.2 чтобы они соответствовали окончанию 48.1. и червь виден сзади, но не рядом.','source_prompt_sha256':oldhash,'canonical_prompt_sha256':newhash,'normalized_prompt_sha256':normhash,'characters':len(new),'changes':['Actual start: centre / right / foreground-left; source weapon and ruin geometry preserved','Corrected earlier assistant observation: worm IS visible in the background, not adjacent','0–6s: visible approach from background and interception; 6–8s: hide module; 8–12s: continuous take-off/landing; 12–15s: ride away','Original jump-and-escape idea and actual Video1 input preserved'],'unchanged':['S48.1 historical prompt/result','S48.3 and S48.4','Other scenes','Queue priority, state, authorizations and all references','No automatic approval or video launch'],'new_submissions':0,'clip_binding_completed_by_this_edit':False,'validation':'Only one master prompt changed; old SHA guard; canonical normalizer; project validator required before push'}
+          rp=Path('reports/scene48-p2-continuity-2026-11-01.json'); rp.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          cp=Path('reports/current-work-checkpoint.md'); current=cp.read_text()
+          note='## 01.11.2026 МСК — правка текста 48.2 по настоящему концу 48.1\n\nПо прямой команде владельца исправлен только промпт 48.2: Серёга в центре, Илюша справа, Артём на коленях слева; червь уже виден далеко сзади и видимо подходит до прыжка. Прежнее утверждение агента «червя не видно» ошибочно. Прыжок и побег сохранены. SHA очереди и manifest согласованы. Видео не запускалось; статус/приоритет/видеовход этой правкой не менялись. Привязка уже вырезанных последних3с остаётся отдельным незавершённым шагом. Отчёт: `reports/scene48-p2-continuity-2026-11-01.json`.\n\n'
+          cp.write_text(note+current)
+          print('Changed exactly S48-SEED20-P2:',newhash,'characters:',len(new))
+          PY
+          python3 scripts/queue_readiness.py .
+          python3 scripts/build_project_status.py video-prompts.md --output /tmp/s48-project-status.json --synced-at "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file /tmp/s48-before-master.md --revision-timezone Europe/Moscow
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          s=json.loads(Path('/tmp/s48-project-status.json').read_text())
+          assert s['health']=='ok',s.get('errors')
+          assert s['canonical_master_sha256']==hashlib.sha256(Path('video-prompts.md').read_bytes()).hexdigest()
+          Path('project-status.json').write_bytes(Path('/tmp/s48-project-status.json').read_bytes())
+          PY
+          git diff --check
+          git add video-prompts.md ops/topview-launch-queue.json references/scenes/scene-48/manifest.json ops/queue-readiness.json project-status.json reports/current-work-checkpoint.md reports/scene48-p2-continuity-2026-11-01.json
+          git commit -m 'S48.2: match actual ending and approach of visible distant worm (owner)'
+          git push origin HEAD:main
+          git rev-parse HEAD
+      - name: Release only the exact own lease
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f /tmp/s48-own-lease.json || exit 0
+          git fetch origin main
+          git reset --hard origin/main
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          live=json.loads(Path('ops/canon-lock.json').read_text()); own=json.loads(Path('/tmp/s48-own-lease.json').read_text())
+          assert live['state']=='held' and live['holder']==os.environ['HOLDER'] and live['acquired_at']==own['acquired_at'], 'Not the exact own lease; leave unchanged'
+          PY
+          python3 scripts/canon_lock.py . release --holder "$HOLDER" --push
