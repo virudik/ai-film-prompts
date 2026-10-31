@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-10-31T16:44:08+00:00",
-  "source_head": "447be8291d677ebedca388680c8fc920c85a478b",
-  "source_fingerprint": "983173f9952580a1f2e2ca5c42eaebc800db867ba9e9fc2b68f0664f10162b5c",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-10-31T16:53:56+00:00",
+  "source_head": "bf2300cd4dc08fb5f7655d9964ae665e8649fcbd",
+  "source_fingerprint": "e54c298110c067be492865384c8d53a83cb0309ebf61c906b570faf62e5c1138",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-continue-20261031-s72-submitted",
@@ -30,38 +30,11 @@
     },
     "source_head": "2a171454ec80e6773bf7e64b3619a3343d2d9814"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
-    "title": "Заполнение свободных Topview-слотов — задача №1",
-    "status": "waiting_for_slot",
-    "last_completed": "Простой 5ч40м19с разобран; исправление71f43c36111659f708af28f4655757f90cffd493 опубликовано и прочитано обратно.91 целевой тест, независимый review,282 CI tests и live consistency прошли; штатный robot12:20Z выполнил новый код и записал capacity_full. Оба существующих automation prompts обновлены и точно проверены.",
-    "next_action": "При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.",
-    "verified_at": "2026-10-31T12:22:47+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "reports/topview-slot-idle-2026-10-31.json",
-        "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458"
-      },
-      {
-        "file": "reports/topview-slot-idle-fix-2026-10-31.json",
-        "sha256": "4e56537294b8e931054964b4e6ec7a94d53a8a8727b45880724002ef1a554d75"
-      }
-    ],
-    "read_next": [
-      "ops/TOPVIEW-EVENT-WAKE.md",
-      "automation-monitor-status.json",
-      "reports/topview-event-wake.json",
-      "ops/topview-launch-queue.json"
-    ],
-    "checkpoint": {
-      "file": "reports/current-work-checkpoint.md",
-      "anchor": "# Простой слота: расследование и исправление автоматики · 31.10.2026",
-      "sha256": "7d4f1942369631d1c1faf3b88de9035f9c2c7de0ce1ebacca82844327df7bcba"
-    }
-  },
-  "checkpoint_text": "# Простой слота: расследование и исправление автоматики · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nИсправлено и проверено 2026-10-31T12:22:06Z. Простой 31.10.2026: S48-P1 завершилась 08:28:29 МСК; S72-WAN30 заняла слот 14:08:48 МСК. Потеряно 5ч40м19с. Робот видел свободный слот и доставил четыре сигнала; первый обработчик взял замок, но не оставил результата/блокера. После трёх повторов прежний re-wake прекращался; старый scheduled success мог скрыть текущий простой. Внутренняя причина остановки фонового worker не раскрыта доступным API.\n\nКод опубликован `71f43c36111659f708af28f4655757f90cffd493`, 8 файлов точно прочитаны обратно. Первые три повтора через20мин, далее через60мин пока сохраняется потребность; независимый контроль исполнения до проверки интервала; launch_stalled при неисполненной потребности; монотонные ID; реальные квитанции и подтверждённые task IDs. Claim/unknown не сбрасываются и не разрешают повторный Create. Заменённый wake issue закрывается как superseded/not_planned, не как исполнение.\n\nОбновлены ровно два существующих prompt: часовой6acae6ab433481919e88665c520b8ef2 и Relay6adc585e7ac08191bb93825117dc7213. Точный readback подтверждён; HH:55 Europe/Moscow, enabled и одна прежняя relay.message-подписка сохранены. Реальный исполнитель должен сохранить начало и итог; no_update не заменяет квитанцию. Интерактивный чат не создавал ни событийный ACK, ни reports/topview-launcher-cycle.json от имени расписания.\n\nПроверки:91 целевой тест и независимый review PASS; GitHub integration run41200577107 — success/282 tests; canon-health run41200577121 — success; live instruction-consistency — ok. Штатный robot run41200624806 на новом коде — success: light scan12:20:31Z,6/6 занято, launcher_health12:20:36Z=capacity_full; этот статус прямо не доказывает исполнение фонового launcher. Нового Create в расследовании0.\n\nГраница проверки: успешный запуск без открытого чата после исправления ещё не наблюдался — сейчас свободных слотов нет. Следующий настоящий runtime должен подтвердить себя собственной квитанцией и, при доступной ёмкости, task ID. Гарантия непрерывной работы внутреннего worker не заявляется.\n\nСледующий шаг: При следующем настоящем Relay/HH:55 проверить его собственную начальную и итоговую квитанции. Перед следующим Create свежие main/решения/замок, существующие task IDs и полный глобальный scan: при свободной ёмкости первая S71-WAN30, затем S56-SEED20-P2 по живой готовности/priority. S72 task22dbd25cdd9f47cd9e44300e55f5e44f наблюдать без повтора; unknown сначала сверить.\n\nДоказательства: `reports/topview-slot-idle-2026-10-31.json`, `reports/topview-slot-idle-fix-2026-10-31.json`, `reports/instruction-consistency.json`.\n",
+  "reasons": [
+    "selected checkpoint hash mismatch"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "# Обычный ChatGPT — основной; Work — резерв · 31.10.2026\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПрямая команда владельца: Work-лимит исчерпан; обычный исполнитель основной, Work резервный; оба независимы, но отправка только под общим замком/claim. После доказанного восстановления Work вернуть предпочтение ему. «Продолжай» передаёт ответственность сменщику.\n\nСтадия: plan_saved_before_policy_change. Время фактической записи: 2026-10-31T16:50:52Z. Технический план: общий реестр ролей, уникальная lease, одноразовый submitting intent, foreground epoch, согласованные инструкции/хендоф, cert и тесты. Очередь/мастер/видео не меняются.\n\nПодтверждено до смены ролей: реальный обычный runtime 52f01b43-0358-8330-9c19-fb332e6dcb03 проверил 14 досок/18 страниц/624 видео, 6/6 занято; GUI-проба вернула originating_browser_context_required. Это не подтверждение Create или отдельной квоты. S72 от 11:08:48Z сохраняется как исторический подтверждённый запуск.\n\nСледующий шаг: проверить реальную настройку трёх существующих задач и новый обычный runtime после сообщения владельца о лимите; при 6/6 только read-only GUI-проба, при свободном слоте полный preflight и первый готовый разрешённый пункт. Не повторять S72/unknown. Не объявлять страховку полностью принятой без browser/task evidence.\n\nИсточники: ops/slot-backup.json; ops/LAUNCHER-COORDINATION.md; reports/launcher-coordination-2026-10-31.json.\n<!-- /launcher-policy -->\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -154,12 +127,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "ops/TOPVIEW-EVENT-WAKE.md",
-    "automation-monitor-status.json",
-    "reports/topview-event-wake.json",
-    "ops/topview-launch-queue.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -450,23 +418,13 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "d8ca4dc7f3480937b934f3861106489e7bfb615b597359049f7bd82ab39194df",
-      "bytes": 22610
+      "sha256": "59bb87babe38c78521cf428a4ca3276b2632313e75cf9bf33a0f7be84602c63a",
+      "bytes": 24869
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "6354fb42c74d477b86f49a3e677c67a6a015241e7e6a1deda73090c0ac83680e",
       "bytes": 28165
-    },
-    {
-      "file": "reports/topview-slot-idle-2026-10-31.json",
-      "sha256": "d269db6bb9f0f7ade6f1ef533f3c3b4d1b7f99381b61ef8db82c4d639419e458",
-      "bytes": 40567
-    },
-    {
-      "file": "reports/topview-slot-idle-fix-2026-10-31.json",
-      "sha256": "4e56537294b8e931054964b4e6ec7a94d53a8a8727b45880724002ef1a554d75",
-      "bytes": 11204
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -485,9 +443,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "fcf6055e4a2f37a643097335cc2b424e573565233a9e711d3fb31aaa7d83da14",
-      "bytes": 83160
+      "sha256": "639e2e38f6c682f5765fe304dfad249938eae320fd632c83fd9bb994e5406ae2",
+      "bytes": 84751
     }
   ],
-  "packet_bytes": 9223
+  "packet_bytes": 6044
 }
