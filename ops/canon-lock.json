@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:2e36f5ee-39a3-41d0-b6c9-726bd70f44b1",
-  "task": "Owner-authorized TinyFish fallback recorded in slot-backup.json; existing HH:00 prompt updated and read back; no new schedule, paid browser run or video; production acceptance still pending",
-  "acquired_at": "2026-10-31T19:42:06Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T19:45:20Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:a2fe8418-8be3-4700-abd1-94020e458bd1",
+  "task": "Actual ordinary hourly 20:00Z: full 14-board 17-page 952-item scan, 624 video; confirm 6/6 and write no_free_slot own receipt, no Create/TinyFish",
+  "acquired_at": "2026-10-31T20:02:44Z",
+  "expires_at": "2026-10-31T20:11:44Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
