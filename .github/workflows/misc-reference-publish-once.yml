@@ -1,0 +1,152 @@
+name: Publish verified misc references once
+on:
+  push:
+    branches: [work/misc-reference-assets-20261101]
+    paths: [.github/workflows/misc-reference-publish-once.yml]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HOLDER: chatgpt:ordinary:ff4e7c30-a32a-46d7-88ab-b468fa23e958
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet google-auth requests pillow
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+      - name: Read exact owner-requested exchange package from Drive
+        run: |
+          python3 - <<'PY'
+          import google.auth,hashlib,zipfile,io,pathlib
+          from google.auth.transport.requests import AuthorizedSession
+          creds,_=google.auth.default(scopes=['https://www.googleapis.com/auth/drive.readonly'])
+          r=AuthorizedSession(creds).get('https://www.googleapis.com/drive/v3/files/1iLqikkN-JLQhswFlQkuYrHS-gwrYOiBt',params={'alt':'media'},timeout=90)
+          r.raise_for_status(); b=r.content
+          assert hashlib.sha256(b).hexdigest()=='f5aaac80b916d00354c2ad2dbdd4bf2e1ad6f6f6a44f67e674adfee6d56e33da','Exchange package mismatch'
+          z=zipfile.ZipFile(io.BytesIO(b))
+          for n in z.namelist():
+              p=pathlib.PurePosixPath(n)
+              assert not p.is_absolute() and '..' not in p.parts
+          z.extractall('/tmp/misc-assets')
+          print('Drive package SHA verified; contains 1 existing PNG, 59 exact prompts; not a complete image set.')
+          PY
+      - name: Acquire project lease and verify main readback
+        run: |
+          set -euo pipefail
+          git config user.name 'ChatGPT'
+          git config user.email 'chatgpt@users.noreply.github.com'
+          git fetch -q origin main
+          git reset -q --hard origin/main
+          python3 scripts/canon_lock.py . acquire --project misc --holder "$HOLDER" --task 'Разное: сохранить прежний C1, исходные 59 промптов и фактическую незавершённую подготовку' --minutes 45 --push
+          git fetch -q origin main
+          git merge --ff-only origin/main
+          python3 - <<'PY'
+          import json,os,subprocess
+          from datetime import datetime,timezone
+          remote=json.loads(subprocess.check_output(['git','show','origin/main:projects/misc/canon-lock.json']))
+          assert remote['state']=='held' and remote['holder']==os.environ['HOLDER']
+          assert datetime.fromisoformat(remote['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
+          open('/tmp/misc-lease.json','w').write(json.dumps(remote))
+          PY
+      - name: Apply minimal project-only registration and test
+        run: |
+          set -euo pipefail
+          sha256sum projects/misc/ops/topview-launch-queue.json > /tmp/misc-queue.sha
+          python3 /tmp/misc-assets/apply_assets.py . /tmp/misc-assets
+          python3 scripts/projects.py . status --project misc --write
+          python3 - <<'PY'
+          import json
+          s=json.load(open('projects/misc/project-status.json'))
+          assert s['health']=='ok'
+          assert s['scenes']==2 and s['prompt_texts']==24
+          assert all(v['production_state']=='DRAFT' for v in s['scene_meta'].values())
+          PY
+          python3 scripts/projects.py . validate
+          python3 -m unittest discover -s tests > /tmp/misc-tests.txt 2>&1 || { tail -100 /tmp/misc-tests.txt; exit 1; }
+          tail -5 /tmp/misc-tests.txt
+          sha256sum --check /tmp/misc-queue.sha
+      - name: Publish once with exact lease, no rebase and no force push
+        run: |
+          set -euo pipefail
+          git fetch -q origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" || { echo 'main advanced: stop; re-read and recompute before any retry'; exit 1; }
+          python3 - <<'PY'
+          import json,os,subprocess
+          from datetime import datetime,timezone
+          live=json.loads(subprocess.check_output(['git','show','origin/main:projects/misc/canon-lock.json']))
+          own=json.load(open('/tmp/misc-lease.json'))
+          assert live['state']=='held' and live['holder']==os.environ['HOLDER'] and live['acquired_at']==own['acquired_at']
+          assert datetime.fromisoformat(live['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc)
+          PY
+          python3 scripts/canon_lock.py . release --project misc --holder "$HOLDER"
+          git add projects/misc
+          python3 - <<'PY'
+          import subprocess
+          paths=subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines()
+          assert paths and all(p.startswith('projects/misc/') for p in paths)
+          assert 'projects/misc/ops/topview-launch-queue.json' not in paths
+          PY
+          git commit -m 'Разное: save original Yarik C1 and exact 59-reference worklist; 58 images still pending'
+          git push origin HEAD:main
+          git rev-parse HEAD > /tmp/misc-published-sha.txt
+          git fetch -q origin main
+          git merge-base --is-ancestor "$(cat /tmp/misc-published-sha.txt)" origin/main
+      - name: Request Pages build and verify published file bytes
+        run: |
+          set -euo pipefail
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" > /tmp/misc-pages-build.json
+          python3 - <<'PY'
+          import requests,pathlib,time,hashlib,json,os
+          paths=['projects/misc/references/yarik.png','projects/misc/character-references.json','projects/misc/video-prompts.md','projects/misc/references/generation-progress.json','projects/misc/reports/reference-generation-status.md']
+          expected={p:hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest() for p in paths}
+          checked={}
+          for attempt in range(24):
+              for p,h in expected.items():
+                  if checked.get(p)==h:continue
+                  r=requests.get('https://virudik.github.io/ai-film-prompts/'+p,params={'readback':str(time.time_ns())},timeout=30)
+                  if r.status_code==200 and hashlib.sha256(r.content).hexdigest()==h:checked[p]=h
+              if checked==expected:break
+              time.sleep(10)
+          assert checked==expected, 'Pages byte readback incomplete: '+str(set(paths)-set(checked))
+          result={'project':'misc','workflow_run_id':os.environ['GITHUB_RUN_ID'],'published_sha':pathlib.Path('/tmp/misc-published-sha.txt').read_text().strip(),'existing_images_registered':1,'new_valid_images':0,'pending_images':58,'video_prompts_unchanged':24,'pages_exact_bytes':checked,'verification_scope':'Public asset, master and JSON byte readback; not interactive screenshot','full_image_task_complete':False}
+          pathlib.Path('/tmp/misc-publication-result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps(result,ensure_ascii=False,indent=2))
+          PY
+      - name: Release only an exact surviving own lease after failure
+        if: always()
+        run: |
+          set -euo pipefail
+          if [ ! -f /tmp/misc-lease.json ]; then exit 0; fi
+          git reset --hard
+          git fetch -q origin main
+          git reset -q --hard origin/main
+          if python3 - <<'PY'
+          import json,os,sys
+          live=json.load(open('projects/misc/canon-lock.json'));own=json.load(open('/tmp/misc-lease.json'))
+          sys.exit(0 if live.get('state')=='held' and live.get('holder')==os.environ['HOLDER'] and live.get('acquired_at')==own.get('acquired_at') else 1)
+          PY
+          then python3 scripts/canon_lock.py . release --project misc --holder "$HOLDER" --push; fi
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: misc-reference-publication-result
+          path: |
+            /tmp/misc-publication-result.json
+            /tmp/misc-tests.txt
+            /tmp/misc-published-sha.txt
+            projects/misc/reports/reference-generation-status.md
+          retention-days: 3
