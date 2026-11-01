@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:6460e9f9-d122-45c0-842a-9002f167b3a3",
-  "task": "Разное: сцена 2 Тихая планета (структура рилса, 9:16)",
-  "acquired_at": "2026-11-01T04:14:41Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T04:15:34Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:ff4e7c30-a32a-46d7-88ab-b468fa23e958",
+  "task": "Разное: сохранить прежний C1, исходные 59 промптов и фактическую незавершённую подготовку",
+  "acquired_at": "2026-11-01T10:45:41Z",
+  "expires_at": "2026-11-01T11:30:41Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
