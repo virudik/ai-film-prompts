@@ -187,9 +187,9 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41283865148 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "open",
-      "taken_by": null,
-      "taken_at": null
+      "status": "taken",
+      "taken_by": "grok:poruchenia-routine",
+      "taken_at": "2026-11-01T07:49:51Z"
     }
   ]
 }
