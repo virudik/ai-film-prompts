@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:2c3d06e5-38ef-4ff1-a21f-dfe50ad09224",
   "task": "Разное: сцена 1 Тихий маяк (черновик A1-A8)",
   "acquired_at": "2026-11-01T03:52:05Z",
-  "expires_at": "2026-11-01T04:37:05Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T03:53:52Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
