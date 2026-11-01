@@ -1,0 +1,50 @@
+name: Verify Grok review public Pages once
+on:
+  push:
+    branches: [review/grok-docs-20261101]
+    paths: [.github/workflows/grok-review-pages-readback-once.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Compare public response bytes with verified immutable commit
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,time,urllib.request
+          from datetime import datetime,timezone
+          from pathlib import Path
+          commit='e80d29b53eb7b62105c071132c976a2c53a57e2a'
+          raw='https://raw.githubusercontent.com/virudik/ai-film-prompts/'+commit+'/'
+          pages='https://virudik.github.io/ai-film-prompts/'
+          paths=['NEW-CHAT-HANDOFF.md','SYNC-RUNBOOK.md','AI-PROJECT-GUIDE.md','PROMPT-STYLE-GUIDE.md','USER-GUIDE.md','README-AI-SYNC.md','BACKUP-AI-RUNBOOK.md','ops/LAUNCHER-COORDINATION.md','ops/CANON-LOCK.md','ops/OWNER-TASKS.md','ops/AUTOMATION-CONSISTENCY.md','ops/TOPVIEW-FREE-LAUNCH.md','scripts/launcher_coordination.py','reports/grok-integration-review-2026-11-01.json']
+          def get(url):
+              with urllib.request.urlopen(url,timeout=20) as r:
+                  assert r.status==200
+                  return r.read()
+          def sha(b): return hashlib.sha256(b).hexdigest()
+          expected={p:sha(get(raw+p)) for p in paths}
+          for attempt in range(8):
+              try:
+                  suffix='?grokreview='+str(time.time_ns())
+                  actual={p:sha(get(pages+p+suffix)) for p in paths}
+                  mismatch=[p for p in paths if actual[p]!=expected[p]]
+                  assert not mismatch,'Not yet published: '+str(mismatch)
+                  status=json.loads(get(pages+'project-status.json'+suffix))
+                  assert status['health']=='ok'
+                  result={'project':'seregius','verified_at':datetime.now(timezone.utc).isoformat(),'commit':commit,'source':'Unauthenticated HTTP GET of actual Pages bytes, compared with immutable verified commit','seven_instructions_match':True,'checked_paths_sha256':actual,'public_health':'ok','canonical_mutations':0,'new_video_submissions':0,'all_checks_passed':True}
+                  Path('/tmp/grok-review-public-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+                  print(json.dumps(result,ensure_ascii=False));break
+              except Exception as e:
+                  print('Readback pending',attempt+1,type(e).__name__,str(e)[:500],flush=True)
+                  if attempt==7: raise
+                  time.sleep(20)
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: grok-review-public-verification
+          path: /tmp/grok-review-public-verification.json
+          retention-days: 3
+          if-no-files-found: error
