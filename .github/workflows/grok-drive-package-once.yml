@@ -1,0 +1,137 @@
+name: Export Grok Drive onboarding package once
+on:
+  push:
+    branches: [handoff/grok-drive-20261101]
+    paths: [.github/workflows/grok-drive-package-once.yml]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Export tracked current-main files without changing the canon
+        id: package
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,subprocess,zipfile
+          from pathlib import Path
+          from datetime import datetime,timezone
+          out=Path('/tmp/grok-drive'); out.mkdir()
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          paths=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          media_ext={'.png','.jpg','.jpeg','.webp','.gif','.mp4','.mov','.mp3','.wav','.webm','.m4a','.ogg'}
+          excluded_ext={'.ttf','.otf','.woff','.woff2','.pfx','.p12','.pem','.key'}
+          docs=[]; media=[]; excluded=[]; manifest=[]
+          for name in sorted(filter(None,paths)):
+              p=Path(name)
+              if p.is_symlink() or not p.is_file() or p.suffix.lower() in excluded_ext or p.name in {'.env','credentials.json','service-account.json','storage-state.json'}:
+                  excluded.append(name); continue
+              (media if p.suffix.lower() in media_ext else docs).append(p)
+              manifest.append({'path':name,'size':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+          groups=[]; group=[]; size=0; limit=88*1024*1024
+          for p in media:
+              n=p.stat().st_size
+              if group and size+n>limit: groups.append(group);group=[];size=0
+              group.append(p);size+=n
+          if group: groups.append(group)
+          assert len(groups)<=10, 'More than ten media parts: stop, inspect inventory'
+          packages=[]
+          for i,group in enumerate(groups,1):
+              name=f'AI-Film-Grok-references-{i:02d}.zip'
+              with zipfile.ZipFile(out/name,'w',zipfile.ZIP_DEFLATED,compresslevel=1) as z:
+                  for p in group: z.write(p,p.as_posix())
+              packages.append({'name':name,'files':len(group),'size':(out/name).stat().st_size,'sha256':hashlib.sha256((out/name).read_bytes()).hexdigest()})
+          source={'repository':'virudik/ai-film-prompts','branch':'main','source_head':head,'captured_at':datetime.now(timezone.utc).isoformat(),'workflow_run_id':os.environ['GITHUB_RUN_ID'],'scope':'All tracked files at source_head, except listed fonts/credential formats/symlinks. External Drive originals are not in git. Read-only snapshot, not new authority or runtime approval.','document_files':len(docs),'media_files':len(media),'files':manifest,'excluded':excluded,'media_packages':packages}
+          (out/'SOURCE-MANIFEST.json').write_text(json.dumps(source,ensure_ascii=False,indent=2)+'\n')
+          with zipfile.ZipFile(out/'AI-Film-Grok-canonical-files.zip','w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for p in docs: z.write(p,p.as_posix())
+              z.writestr('GROK-SNAPSHOT-SOURCE.json',json.dumps(source,ensure_ascii=False,indent=2)+'\n')
+          (out/'PACKAGE-SUMMARY.json').write_text(json.dumps({k:v for k,v in source.items() if k!='files'},ensure_ascii=False,indent=2)+'\n')
+          print((out/'PACKAGE-SUMMARY.json').read_text())
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write('part_count='+str(len(groups))+'\n')
+          assert not subprocess.check_output(['git','status','--porcelain'],text=True).strip()
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: grok-drive-documents
+          path: |
+            /tmp/grok-drive/AI-Film-Grok-canonical-files.zip
+            /tmp/grok-drive/SOURCE-MANIFEST.json
+            /tmp/grok-drive/PACKAGE-SUMMARY.json
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 1
+        with:
+          name: grok-drive-references-01
+          path: /tmp/grok-drive/AI-Film-Grok-references-01.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 2
+        with:
+          name: grok-drive-references-02
+          path: /tmp/grok-drive/AI-Film-Grok-references-02.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 3
+        with:
+          name: grok-drive-references-03
+          path: /tmp/grok-drive/AI-Film-Grok-references-03.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 4
+        with:
+          name: grok-drive-references-04
+          path: /tmp/grok-drive/AI-Film-Grok-references-04.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 5
+        with:
+          name: grok-drive-references-05
+          path: /tmp/grok-drive/AI-Film-Grok-references-05.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 6
+        with:
+          name: grok-drive-references-06
+          path: /tmp/grok-drive/AI-Film-Grok-references-06.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 7
+        with:
+          name: grok-drive-references-07
+          path: /tmp/grok-drive/AI-Film-Grok-references-07.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 8
+        with:
+          name: grok-drive-references-08
+          path: /tmp/grok-drive/AI-Film-Grok-references-08.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 9
+        with:
+          name: grok-drive-references-09
+          path: /tmp/grok-drive/AI-Film-Grok-references-09.zip
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@v5
+        if: fromJSON(steps.package.outputs.part_count) >= 10
+        with:
+          name: grok-drive-references-10
+          path: /tmp/grok-drive/AI-Film-Grok-references-10.zip
+          compression-level: 0
+          retention-days: 3
