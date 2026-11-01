@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:fa5d01f6-9f17-489e-9cd4-1fccd2fba844",
   "task": "record grok first_real_create owner_go_ahead (S71-WAN30)",
   "acquired_at": "2026-11-01T08:19:58Z",
-  "expires_at": "2026-11-01T08:39:58Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T08:21:02Z",
   "rules": "ops/CANON-LOCK.md"
 }
