@@ -4,6 +4,164 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "seregius-continue-20261101-ordinary-recovery",
+      "project": "seregius",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "chat": {
+        "agent": "chatgpt:ordinary:ed98a0ea-3ae2-4bc7-ae31-efe97e86979f",
+        "label": "ChatGPT: Продолжай — восстановление ordinary и контрольной точки",
+        "session_id": "chatgpt-ordinary-continue-20261101-ed98a0ea",
+        "chat_id": null,
+        "identity_status": "unavailable"
+      },
+      "source_head": "26c8d5387f9ebd21afb5f8d48a4578ef099d90dc",
+      "started_at": "2026-11-01T12:42:01Z",
+      "accepted_at": "2026-11-01T13:11:25Z",
+      "intake_mode": "full",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "Fresh GitHub API main 26c8d5387f9ebd21afb5f8d48a4578ef099d90dc; compare from pinned source, target files reread; exact lease/CAS."
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "Seven complete instructions read;8 source SHA256 and15 anchors verified; full intake after recovery mismatch. Profile protocols read; no new workflow rule."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "Original evidence SHA retained, exact cause9b4425f verified; new H1/recovery in reports/ordinary-launcher-recovery-2026-11-01.json; continue_preflight ready_for_resume=true."
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "ops/owner-tasks.json reread; own Grok-report acknowledgment taken/readback and completed; foreign needs_owner preserved."
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase SELECT2026-11-01T13:06:35.742361+00:00: only d37ea54b needs_owner; no ordinary stop decision."
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "For this repair: GitHub CAS write/readback, Automations update+peek, Supabase SELECT and full Topview read scan verified. Browser Create/Work quota not established; no Create at6/6."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Exact held lease chatgpt:ordinary:ed98a0ea-3ae2-4bc7-ae31-efe97e86979f acquired 2026-11-01T13:03:18Z; readback d354da7; released in final result commit."
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-01T13:05:45.262093Z",
+        "description": "Restored only existing ordinary automation is_enabled=true after initial checkpoint; separate exact settings readback passed. No video Create or credits.",
+        "state": "completed",
+        "evidence": "reports/ordinary-launcher-recovery-2026-11-01.json; reports/current-work-checkpoint.md; initial checkpoint ed2bbfb36e3f6ce471e6511b85d4228d32759fa3"
+      },
+      "request_sha256": "469be85cf0a17528c03cdabe3faa2b1868f5c092f4d640a03094462c6dec0bcb",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
+          "bytes": 36381
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+          "bytes": 21763
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
+          "bytes": 34807
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
+          "bytes": 74992
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1",
+          "bytes": 18148
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
+          "bytes": 130240
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
+          "bytes": 83993
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "9838ec89c8e561d8fd4eab8ee21e1945622e0f144527119d9fd175e503c5b67f",
+          "bytes": 5134
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "2432ebbf107452901f5f8640de9a2e187e7c28b7efbf23bc8f241d7eb034c7c3",
+          "bytes": 42527
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+          "bytes": 364093
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "c791f3c78af016cd0147ff0446e444e17e2d5d9cd68efd5c0fd6e92bd437c71e",
+          "bytes": 22428
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "5ccbb5fd503887f056122711e10a4640c841f85e03e8001282402cbc3416394f",
+          "bytes": 42164
+        },
+        {
+          "file": "reports/ordinary-launcher-recovery-2026-11-01.json",
+          "sha256": "73309d84de5308ad83ee016fc00e708c9369980613a740700b1fe34336637192",
+          "bytes": 21523
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "de5789ea1445f20096d8e04aa0c9e646e72905d92ba7681951842a21eb358cc8",
+          "bytes": 34608
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "3b560f22aabe940d6117a2044203a131fd0feb8c1550b1feb39a01d83157cbff",
+          "bytes": 25134
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "4def38fa387b5da5f872238e803cdfefa27eef8e28edbf8c2ba9d4855bd1fb4b",
+          "bytes": 1350175
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "02a346e5e9650a0905274c908e80d28f17fd8057e86e41a942f4053354817316",
+          "bytes": 91255
+        }
+      ],
+      "source_fingerprint": "a03b967a3ada181ceeda66b7440e01d9f998df76a79ed69f1bda5b797602c297",
+      "recorded_at": "2026-11-01T13:11:25Z",
+      "source_scope": "Verified pinned GitHub API main plus source bytes in the same canonical CAS transaction; API equivalent of git checkout",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "seregius-continue-20261031-s72-submitted",
       "project": "seregius",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",

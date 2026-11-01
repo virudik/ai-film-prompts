@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-01T13:05:12+00:00",
+  "last_updated_at": "2026-11-01T13:11:25+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-01T13:05:12+00:00",
+      "updated_at": "2026-11-01T13:11:25+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
@@ -22,7 +22,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "Восстановить is_enabled=true только у существующего ordinary HH:00 и перечитать; затем подтвердить настоящий следующий runtime/receipt. S71/S72 уже отправлены. При свободном слоте первая готовая по свежей priority (сейчас48.2); полный scan, точные входы и CAS/Unlimited0 обязательны.",
+      "next_action": "Next actual ordinary HH:00 must produce its own run/receipt. On a free slot, reconcile current task IDs and ready priority (currently S48-SEED20-P2), exact inputs/QC, full all-board scan and one Unlimited0 Create under lease/CAS. At full capacity prepare authorized continuity, including S52-R2-P1 only after original archive/QC.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -155,15 +155,15 @@
         "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
-        "checked_at": "2026-10-31T11:09:40Z",
+        "checked_at": "2026-11-01T12:43:16.654Z",
         "boards": 14,
         "pages": 18,
-        "tasks": 624,
+        "tasks": 625,
         "media_type": "video",
         "active_videos": 6,
         "free_video_slots": 0,
         "complete_video_scan": true,
-        "evidence": "reports/topview-queue-2026-10-16/S72-WAN30-postscan-20261031.json"
+        "evidence": "reports/ordinary-launcher-recovery-2026-11-01.json"
       },
       "done": [
         "2026-10-27T06:16:16Z: S48-P1 submitted exactly once via authenticated Topview website, task 8d7ff1e2de63478693778de29e0dd56e; Seedance2.0/15s/720p/16:9/qty1/6 images/Unlimited0, exact prompt and input order/hash verified. Six active video slots after submit; no repeat or editorial approval."
@@ -214,18 +214,18 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-01T13:05:12+00:00",
-        "last_completed": "Полный приём и диагностика выполнены; исходный результат сохранён, подготовлен ручной ремонт ordinary без изменения очереди.",
-        "next_action": "Восстановить is_enabled=true только у существующего ordinary HH:00 и перечитать; затем подтвердить настоящий следующий runtime/receipt. S71/S72 уже отправлены. При свободном слоте первая готовая по свежей priority (сейчас48.2); полный scan, точные входы и CAS/Unlimited0 обязательны.",
+        "verified_at": "2026-11-01T13:11:25+00:00",
+        "last_completed": "Существующий ordinary HH:00 восстановлен и точно перечитан; новая контрольная точка исправляет доказанный hash mismatch, 6/6 слотов проверены; запуск/расход0.",
+        "next_action": "Next actual ordinary HH:00 must produce its own run/receipt. On a free slot, reconcile current task IDs and ready priority (currently S48-SEED20-P2), exact inputs/QC, full all-board scan and one Unlimited0 Create under lease/CAS. At full capacity prepare authorized continuity, including S52-R2-P1 only after original archive/QC.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# 01.11.2026 — Продолжай: восстановление часового исполнителя",
-          "sha256": "29750a0728aafae9e7fa25a239ed54098728a33c223cc1bb6663936a2a862d9a"
+          "sha256": "40ca18c7891a03c159cd3e7a7d91d8d0de87f80ed09ed1c30e09281fdb8194fe"
         },
         "evidence": [
           {
             "file": "reports/ordinary-launcher-recovery-2026-11-01.json",
-            "sha256": "2ac060185499a149d8faece38ca80f73bd2ab46980ef39cf9c2195f6ac7087d5"
+            "sha256": "73309d84de5308ad83ee016fc00e708c9369980613a740700b1fe34336637192"
           }
         ],
         "read_next": [
@@ -235,9 +235,9 @@
           "ops/topview-launch-queue.json"
         ],
         "blockers": [
-          "ordinary is disabled until repair/readback",
-          "The latest ordinary result requests user action without explanatory content; exact cause is unknown",
-          "Background execution and GUI Create are not established by enabled settings"
+          "Next real ordinary run and own receipt after reenable have not yet been observed.",
+          "Previous ordinary result requires user action but its explanation is empty; disabling cause is not exposed.",
+          "Current interactive browser Create and independent Work quota are unverified; no launch was required at6/6."
         ]
       },
       "last_relay_reconciliation": {
@@ -288,17 +288,17 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Initial repair: ordinary disabled; requires_user_action=true has no detail; capacity6/6 at verified15:43MSK scan; actual background execution and GUI remain separately unverified.",
+      "current_blocker": "6/6 active at15:43MSK. Ordinary HH:00 enabled/readback verified at16:06MSK; next real runtime/receipt pending. Previous empty requires_user_action flag retained; cause unknown.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
-      "last_continuation_preflight_report": "reports/topview-queue-2026-10-16/S72-WAN30-preflight-20261031.json",
+      "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",
       "last_launcher_repair": {
-        "checked_at": "2026-10-31T12:22:06Z",
-        "code_commit": "71f43c36111659f708af28f4655757f90cffd493",
-        "report": "reports/topview-slot-idle-fix-2026-10-31.json",
-        "status": "published_verified_waiting_for_real_launcher_receipt",
-        "automations_updated": 2,
-        "new_automations": 0
+        "checked_at": "2026-11-01T13:11:25Z",
+        "report": "reports/ordinary-launcher-recovery-2026-11-01.json",
+        "status": "settings_repaired_readback_verified_waiting_for_real_runtime",
+        "automations_updated": 1,
+        "new_automations": 0,
+        "initial_checkpoint_commit": "ed2bbfb36e3f6ce471e6511b85d4228d32759fa3"
       },
       "launcher_coordination": {
         "request_id": "owner-20261031-ordinary-primary",

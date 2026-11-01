@@ -3,8 +3,8 @@
   "project": "seregius",
   "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
   "source": "interactive_owner_continue",
-  "stage": "initial_checkpoint_before_automation_change",
-  "checked_at": "2026-11-01T13:05:12Z",
+  "stage": "settings_repaired_readback_verified_waiting_for_real_runtime",
+  "checked_at": "2026-11-01T13:11:25Z",
   "source_head": "d354da7c235bd18f71ddea2b504638acff91cc1b",
   "owner_command": "Продолжай",
   "session_id": "chatgpt-ordinary-continue-20261101-ed98a0ea",
@@ -366,13 +366,14 @@
     ]
   },
   "owner_inbox": {
-    "open_chatgpt": [
-      "grok-202611010305-capabilities"
-    ],
+    "open_chatgpt": [],
     "foreign_needs_owner": [
       "d37ea54b-6b09-4283-892b-d6c3e189b82f"
     ],
-    "owner_stop_found": false
+    "owner_stop_found": false,
+    "acknowledged_task": "grok-202611010305-capabilities",
+    "acknowledgment": "Принято.",
+    "scope": "Read-only capabilities report acknowledgment; historical pending-first-Create superseded by live S71 receipt. Foreign needs_owner unchanged."
   },
   "open_owner_decisions": {
     "checked": true,
@@ -380,7 +381,8 @@
       "d37ea54b-6b09-4283-892b-d6c3e189b82f"
     ],
     "status": "needs_owner",
-    "scope": "Grok historical night schedule request; no ordinary stop decision"
+    "scope": "Grok historical night schedule request; no ordinary stop decision",
+    "rechecked_at": "2026-11-01T13:06:35.742361+00:00"
   },
   "capabilities": {
     "github_read": true,
@@ -426,7 +428,131 @@
     "credits_spent": 0,
     "queue_changed": false,
     "master_changed": false,
-    "automation_update_completed": false
+    "automation_update_completed": true
   },
-  "next_step": "After initial CAS/readback, restore only existing ordinary is_enabled=true; reread exact settings. Preserve unknown cause/action and require a new real runtime/receipt for execution acceptance."
+  "next_step": "Next actual ordinary HH:00 must produce its own run/receipt. On a free slot, reconcile current task IDs and ready priority (currently S48-SEED20-P2), exact inputs/QC, full all-board scan and one Unlimited0 Create under lease/CAS. At full capacity prepare authorized continuity, including S52-R2-P1 only after original archive/QC.",
+  "final_source_head": "26c8d5387f9ebd21afb5f8d48a4578ef099d90dc",
+  "automations_after": {
+    "checked_at": "2026-11-01T13:06:12.431Z",
+    "items": [
+      {
+        "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+        "title": "AI Film — слоты обычным ChatGPT",
+        "is_enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART:20261031T181310Z\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+        "default_timezone": "Europe/Moscow",
+        "timing_mode": "exact_schedule",
+        "updated_at": "2026-11-01T13:06:05.867773+00:00",
+        "last_run_time": "2026-11-01T05:12:36.816916+00:00",
+        "prompt_sha256": "f97bc8f7e98400d47fae19e8edbe2d20289f84d37d53e977ecc8975667bf458c",
+        "last_run": {
+          "id": "445b644c-d2cc-8332-b542-c54e01dd47e4",
+          "recorded_status": "completed",
+          "scheduled_for": "2026-11-01T05:00:00Z",
+          "started_at": "2026-11-01T05:04:23.850151Z",
+          "completed_at": "2026-11-01T05:12:11.883340Z",
+          "chat_ref": {
+            "type": "chatgpt",
+            "id": "6ae605c7-cb60-83ed-88ab-cdac32a3b684"
+          }
+        },
+        "latest_result": {
+          "run_id": "445b644c-d2cc-8332-b542-c54e01dd47e4",
+          "created_at": "2026-11-01T05:12:09.751469Z",
+          "completed_at": "2026-11-01T05:12:11.883340Z",
+          "requires_user_action": true,
+          "is_failure_message": false,
+          "content_truncated": false,
+          "content_empty": true
+        },
+        "delivery_status": "unknown"
+      },
+      {
+        "id": "6acae6ab433481919e88665c520b8ef2",
+        "title": "AI Film — готовые сцены по слотам",
+        "is_enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+        "default_timezone": "Europe/Moscow",
+        "timing_mode": "exact_schedule",
+        "updated_at": "2026-11-01T12:59:53.056295+00:00",
+        "last_run_time": "2026-11-01T12:59:31.819991+00:00",
+        "prompt_sha256": "1593077f23d90367fdc4a70c939af155a03a389da602b317d44eb75c3f39fa85",
+        "last_run": {
+          "id": "4051845d-b258-8332-9532-5c1c5639360e",
+          "recorded_status": "no_update",
+          "scheduled_for": "2026-11-01T12:55:00Z",
+          "started_at": "2026-11-01T12:59:30.483419Z",
+          "completed_at": "2026-11-01T12:59:31.759597Z",
+          "chat_ref": null
+        },
+        "latest_result": null,
+        "delivery_status": "unknown"
+      },
+      {
+        "id": "6adc585e7ac08191bb93825117dc7213",
+        "title": "Сообщения Agent Relay",
+        "is_enabled": true,
+        "schedule": "BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT",
+        "default_timezone": "Europe/Moscow",
+        "timing_mode": "condition_watch",
+        "updated_at": "2026-11-01T07:37:21.423293+00:00",
+        "last_run_time": "2026-11-01T07:37:21.224093+00:00",
+        "prompt_sha256": "bc79354d638c15dfa67823d5935311b32c3b7f7dca46a9c143ebf93059a04f63",
+        "last_run": {
+          "id": "e20e98c7-3fc4-832e-a27d-d18a5295b3a0",
+          "recorded_status": "no_update",
+          "scheduled_for": "2026-11-01T07:37:14.739266Z",
+          "started_at": "2026-11-01T07:37:18.559286Z",
+          "completed_at": "2026-11-01T07:37:20.938981Z",
+          "chat_ref": null
+        },
+        "latest_result": {
+          "run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+          "created_at": "2026-10-30T15:40:11.960434Z",
+          "completed_at": "2026-10-30T15:40:12.617136Z",
+          "requires_user_action": false,
+          "is_failure_message": false,
+          "content_truncated": false,
+          "content_empty": false
+        },
+        "delivery_status": "unknown"
+      }
+    ]
+  },
+  "repair": {
+    "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "operation": "automations.update is_enabled=true only",
+    "update_accepted_at": "2026-11-01T13:05:45.262093+00:00",
+    "readback_at": "2026-11-01T13:06:12.431Z",
+    "readback_enabled": true,
+    "preserved_fields": [
+      "id",
+      "prompt",
+      "schedule",
+      "default_timezone",
+      "conversation_id",
+      "timing_mode"
+    ],
+    "exact_prompt_and_schedule_preserved": true,
+    "new_background_run_observed": false,
+    "last_run_id_still_previous": "445b644c-d2cc-8332-b542-c54e01dd47e4",
+    "requires_user_action_still_on_previous_result": true,
+    "stop_cause": "not_exposed",
+    "required_action_detail": "not_exposed; old content empty",
+    "initial_checkpoint_commit": "ed2bbfb36e3f6ce471e6511b85d4228d32759fa3"
+  },
+  "instruction_review_limits": [
+    "Full seven-source byte verification and complete reading do not prove full semantic consistency of historical appendices.",
+    "Historical Grok-unavailable/read-only-role statements are superseded by current profile protocols; no instruction wording change in this repair."
+  ],
+  "verification": {
+    "source_bytes_8_of_8": true,
+    "invariant_anchors_15_of_15": true,
+    "initial_checkpoint_CAS_readback": true,
+    "automation_exact_readback": true,
+    "full_topview_scan": true,
+    "recovery_preflight": true,
+    "browser_create_in_this_runtime": false,
+    "scheduled_execution_after_reenable": "pending"
+  }
 }
