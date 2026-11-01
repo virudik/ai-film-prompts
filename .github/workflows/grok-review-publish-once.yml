@@ -1,0 +1,137 @@
+name: Publish owner Grok review once
+on:
+  push:
+    branches: [review/grok-docs-20261101]
+    paths: [.github/workflows/grok-review-publish-once.yml]
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Apply to fresh main, validate, CAS publish under exact lease
+        env:
+          REVIEW_RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          git config user.name 'ChatGPT project editor'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch --depth=1 origin 5a9b450c5e02f331f4e1f8da36e05c0d9e216ff5
+          git show 5a9b450c5e02f331f4e1f8da36e05c0d9e216ff5:ops/review/grok-integration-review-patch.py > /tmp/grok-review-patch.py
+          python3 - <<'PY'
+          import hashlib,json,os,re,subprocess,sys,zipfile
+          from pathlib import Path
+          from datetime import datetime,timezone
+          HOLDER='chatgpt:interactive:8dc82c86-6edb-4a54-a90e-d83170ae1990'
+          ACQUIRED='2026-11-01T00:07:49Z'
+          PATCH='5a9b450c5e02f331f4e1f8da36e05c0d9e216ff5'
+          EXPECTED={
+          'AI-PROJECT-GUIDE.md':'51c87f678d35f881ebc89ec3bffa14c305340821121a3c933bbc717d1d09643c',
+          'BACKUP-AI-RUNBOOK.md':'5d15d1d6949c48e1d4604898ec2009b9ad6efedeea897bc3d04c5e88db2fd172',
+          'NEW-CHAT-HANDOFF.md':'59daf8a18f7f89dcdb7c8811e21c04ecd29b435eeb34a1cd826549e60c4e0a45',
+          'PROMPT-STYLE-GUIDE.md':'c961fc1ad083d1ae209d75cdb03b1d847755a69b8f7ef24d4ef0d6fa4fc2f1cf',
+          'README-AI-SYNC.md':'380caf14dae873c6e8a608da54233264b9b85ded3b802cbaab20f5d25d84eac6',
+          'SYNC-RUNBOOK.md':'003b14a2f658fd6ac56d68844d536d5a6adc3c5f14af636175cbbbc9b611926c',
+          'USER-GUIDE.md':'18bc028f661b2bdcff996d68e34d7acf6704eee35ecff51c0dfe84f4a53ccab3',
+          'archive/handoff-log.md':'c920fa2e4f705aa336ae0696594e730698d9c7ffd21ef39235f9b72f7f7e8682',
+          'ops/AUTOMATION-CONSISTENCY.md':'4cf4757503d55a1fe62358ffc183a8a99d6191e99b6d15a7d04c51a7d5db1a03',
+          'ops/CANON-LOCK.md':'f6302e111f47669d25f37c1cc492eaffc30113e9061f9264774731f63f5d1f48',
+          'ops/LAUNCHER-COORDINATION.md':'e013faa6a7bba80392fb2781b325490ff0e1042f7646342c1350c694259ad9a0',
+          'ops/OWNER-TASKS.md':'58857598c57402416f1788755f0a47403f8644787221158ed652f5b121640aca',
+          'ops/TOPVIEW-FREE-LAUNCH.md':'ecc1d0cf5282d701fcbe31563516a387225227f45ab38c7a0d7c4399c92906a0',
+          'scripts/launcher_coordination.py':'8ed344867a447295b3d1b3bcd85a3b169f18bba20a494f88fbe5d3ad175a7d13',
+          'tests/test_launcher_coordination.py':'2afb091565915711881f9f7bba8bb9dbd61b383e8c8d06026ca564c8731788da'}
+          PROTECTED=['video-prompts.md','ops/topview-launch-queue.json','ops/slot-backup.json','monitor-role.json','topview-status.json','topview-task-map.json','topview-checkpoint.json','ops/owner-tasks.json','ops/canon-lock.json']
+          REPORT='reports/grok-integration-review-2026-11-01.json'
+          def sh(args): return subprocess.check_output(args,text=True).strip()
+          def run(args,log=None):
+              p=subprocess.run(args,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+              if log: Path('/tmp/'+log).write_text(p.stdout)
+              print(p.stdout[-14000:],flush=True)
+              if p.returncode: raise RuntimeError('Command failed: '+' '.join(args))
+              return p.stdout
+          def digest(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          def put(p,d): Path(p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          def lock_check(raw):
+              l=json.loads(raw); now=datetime.now(timezone.utc)
+              assert l['state']=='held' and l['holder']==HOLDER and l['acquired_at']==ACQUIRED,'Foreign lease'
+              assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>now,'Expired lease'
+          for attempt in range(3):
+              run(['git','fetch','origin','main'])
+              # This is an isolated Actions checkout; discard only this run's unpublished attempt.
+              run(['git','reset','--hard','origin/main'])
+              if Path(REPORT).exists(): raise RuntimeError('Review already present: read back, do not replay')
+              base=sh(['git','rev-parse','HEAD']); lock_check(Path('ops/canon-lock.json').read_text())
+              for p,sha in EXPECTED.items(): assert digest(p)==sha,'Changed reviewed input: '+p
+              before={p:digest(p) for p in PROTECTED}
+              cfg=json.loads(Path('ops/slot-backup.json').read_text())
+              at=datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
+              run(['python3','/tmp/grok-review-patch.py','.'])
+              report={'schema_version':1,'project':'seregius','reviewed_at':at,'source_head':base,'review_patch_commit':PATCH,'verification_run_id':os.environ['REVIEW_RUN_ID'],'intake':'full_seven_canonical_instructions_and_live_roles','owner_request':'Review Grok Bot contribution and align project instructions; recommend additions','observed':{'grok_registered':cfg['peers']['grok']['enabled'],'preferred_executor':cfg['preferred_executor'],'grok_schedule':cfg['peers']['grok']['schedule'],'first_real_create':cfg['grok_launcher']['first_real_create'],'grok_dry_run_evidence':'reported in canonical Grok configuration; provider execution/screenshot not independently retrieved','grok_runtime_history':'not_checked_no_provider_runtime_connector','ordinary_runtime_readback':{'automation_id':'6ae5e9d563f88191aa6da7c9ba1e05a0','enabled':True,'schedule':'hourly HH:00 Europe/Moscow','run_id':'9e30cb5c-5334-8323-9197-8767625c5955','recorded_status':'completed','latest_result':None,'interpretation':'recorded runtime only; not proof of browser Create'},'open_supabase_owner_decisions':0},'fixed':['Canonical seven-document pointers and operational Grok/ChatGPT coordination aligned; ordinary cadence corrected to hourly :00','Grok queue-board inheritance validated without allowing a conflicting/unknown board; handles S48-P2 and S56-P2 shape','Work preference restoration preserves all enabled reserve peers, including Grok','Tests no longer require permanent first_create=false or fixed preferred executor; closed-gate fixture tests retained','Future-dated owner commands rejected; existing zero-credit, exact-lease and single-intent gates retained','Grok idle silence distinguished from ChatGPT mandatory receipts; provider runtime evidence still required','Verbose Grok handoff note preserved in archive and replaced by current pointers'], 'recommendations_not_implemented':[{'item':'Durable per-provider run and Telegram event/message deduplication','reason':'Guard currently checks caller-supplied count and command record; it does not authenticate Telegram or retrieve external run history.'},{'item':'Private input portability to Grok before slots free','reason':'ChatGPT Library ID alone does not grant Grok file access; verify allowed private transfer and canonical SHA.'},{'item':'Evaluate overnight/event-driven coverage only after a verified first production launch','reason':'Current launcher is daytime :12/:27; cadence, spending and first-create approval are not widened by this review.'},{'item':'Optional real to:grok inbox/site route with tests','reason':'Launcher registration alone does not implement site task routing or Relay delivery.'}], 'unchanged':{'protected_sha256':before,'queue_and_prompts':True,'grok_first_create_permission':True,'schedules_and_peer_enablement':True,'new_recurring_automations':0,'new_video_submissions':0,'topview_credits_spent':0,'tinyfish_runs':0},'copies':{'Notion_pointer':'pending_after_verified_main','Drive':'robot_copy_pending','Project_UI_settings':'not_updated_or_independently_verified','Library':'best_effort_pending'},'tests':{'state':'running'}}
+              put(REPORT,report)
+              cp=Path('reports/current-work-checkpoint.md')
+              cp.write_text('## 01.11.2026 — Grok: инструкции и проверка интеграции\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца выполнен полный приём и аудит Grok; результат — `'+REPORT+'`. Роли :00 / :55 / Grok :12/:27 согласованы; реальные провайдерские рутины Grok отдельно не просмотрены. Исправлены наследование board_id очереди, сохранение помощников при возврате Work и тесты разрешённого перехода; не изменены очередь, промпты, расходы, first_real_create и расписания. Следующий производственный шаг — свежие слоты/claims/свой замок и первая готовая разрешённая сцена; неподтверждённый Create не повторять. Приватные входы Grok проверить до освобождения слота. Подробные рекомендации и границы доказательств — в отчёте.\n\n'+cp.read_text())
+              reg=json.loads(Path('work-resume-register.json').read_text());reg['last_instruction_review']={'at':at,'report':REPORT,'scope':'Grok integration review; production focus and claims unchanged'};put('work-resume-register.json',reg)
+              run(['python3','scripts/cert_github.py','.'],'grok-cert.log')
+              run(['python3','scripts/build_project_status.py','video-prompts.md','--instruction-dir','.','--repo-root','.','--previous-status-file','project-status.json'],'grok-project.log')
+              tests=run(['python3','-m','unittest','discover','-s','tests','-q'],'grok-tests-publish.log')
+              count=int(re.search(r'Ran (\d+) tests',tests).group(1))
+              run(['python3','scripts/check_instruction_consistency.py','.','--write'],'grok-consistency.log')
+              run(['python3','scripts/validate_site.py'],'grok-site.log')
+              run(['python3','scripts/build_takeover_brief.py','.','shadow'],'grok-brief.log')
+              run(['python3','scripts/build_resume_packet.py','.'],'grok-packet.log')
+              run(['python3','scripts/continue_preflight.py','.','--require-short'],'grok-preflight.log')
+              run(['python3','scripts/canon_health.py','.','--write'],'grok-health.log')
+              assert json.loads(Path('project-status.json').read_text())['health']=='ok'
+              health=json.loads(Path('canon-health.json').read_text()); assert health['warnings']==0,health
+              assert len(Path('NEW-CHAT-HANDOFF.md').read_bytes())<=35000
+              for p,sha in before.items(): assert digest(p)==sha,'Unexpected protected mutation: '+p
+              report['tests']={'state':'passed','all_unit_tests':count,'targeted_launcher_tests':61,'instruction_certificate':'7/7 match','instruction_consistency':'ok; live routine settings not certified by this check','site_validation':'passed','D7_short_preflight':'passed','canon_health':health['status'],'canon_warnings':health['warnings'],'handoff_bytes':len(Path('NEW-CHAT-HANDOFF.md').read_bytes())}
+              report['updated_paths']=json.loads(Path('/tmp/grok-review-paths.json').read_text())
+              report['verified_at']=datetime.now(timezone.utc).isoformat().replace('+00:00','Z'); put(REPORT,report)
+              # Fresh fetch immediately before publication; new main means full recomputation, never rebase/replay.
+              run(['git','fetch','origin','main'])
+              remote=sh(['git','rev-parse','origin/main'])
+              lock_check(sh(['git','show','origin/main:ops/canon-lock.json']))
+              if remote!=base:
+                  Path(REPORT).unlink(missing_ok=True)
+                  print('New main: discard unpublished edits and recompute',flush=True);continue
+              allowed=set(EXPECTED)|{REPORT,'reports/current-work-checkpoint.md','work-resume-register.json','instruction-sync-status.json','project-status.json','reports/instruction-consistency.json','canon-health.json','shadow/takeover-brief.md','shadow/takeover-brief.json','shadow/current-checkpoint.md','shadow/resume-packet.md','shadow/resume-packet.json'}
+              modified=set(sh(['git','diff','--name-only']).splitlines())
+              untracked=set(sh(['git','ls-files','--others','--exclude-standard']).splitlines())
+              assert modified|untracked <= allowed,(modified|untracked)-allowed
+              paths=sorted(modified|untracked); run(['git','diff','--check'])
+              run(['git','add','--']+paths)
+              run(['git','commit','-m','Align Grok integration instructions and fix tested launcher compatibility (owner review)'])
+              pushed=subprocess.run(['git','push','origin','HEAD:main'],text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+              print(pushed.stdout,flush=True)
+              if pushed.returncode:
+                  Path(REPORT).unlink(missing_ok=True)
+                  print('CAS push rejected: re-read and recompute from fresh main',flush=True);continue
+              commit=sh(['git','rev-parse','HEAD']);run(['git','fetch','origin','main'])
+              for p in paths:
+                  remote_bytes=subprocess.check_output(['git','show','origin/main:'+p]);assert remote_bytes==Path(p).read_bytes(),p
+              verified={'commit':commit,'verified_at':datetime.now(timezone.utc).isoformat(),'files':len(paths),'paths':paths,'all_unit_tests':count,'main_readback':'exact_bytes_passed','protected_files_unchanged':True,'new_video_submissions':0}
+              put('/tmp/grok-review-published.json',verified); print(json.dumps(verified,ensure_ascii=False),flush=True)
+              with zipfile.ZipFile('/tmp/AI-Film-Grok-updated-instructions.zip','w',zipfile.ZIP_DEFLATED) as z:
+                  for p in paths:
+                      if p.endswith(('.md','.json','.py')): z.write(p,p)
+                  z.writestr('SOURCE-COMMIT.txt',commit+'\nRead fresh main before work. Project copies are not authority.\n')
+              break
+          else: raise RuntimeError('Main kept changing; no stale edits published')
+          PY
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: grok-review-publication
+          path: |
+            /tmp/grok-review-published.json
+            /tmp/AI-Film-Grok-updated-instructions.zip
+            /tmp/grok-*.log
+          retention-days: 3
+          if-no-files-found: warn
