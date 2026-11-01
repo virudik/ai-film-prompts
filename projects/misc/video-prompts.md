@@ -8,7 +8,7 @@
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя полная синхронизация:** **01.11.2026 · сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), без картинок и запусков; картинки и видео пока не делаем по решению владельца**.
+- **Последняя полная синхронизация:** **01.11.2026 · сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), формат 9:16 вертикаль, без картинок и запусков; картинки и видео пока не делаем по решению владельца**.
 
 ## Оглавление сцен
 
@@ -23,14 +23,14 @@
 <a id="scene-1"></a>
 ## Сцена 1 — Тихий маяк (история Ярика)
 
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":120,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","original_story","voiceover_ru","two_engine_versions","reference_first","misc_scene_1","eight_subscenes"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":120,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["owner_requested","draft","original_story","voiceover_ru","vertical_9x16","two_engine_versions","reference_first","misc_scene_1","eight_subscenes"]} -->
 
 **Контекст использования:** оригинальный ролик около 2 минут о мальчике Ярике (7 лет) с особенностями развития, рассказ от первого лица детским голосом по-русски. От громкого внутреннего мира и страхов к поддержке и надежде. Вдохновлён общим настроением чужого рилса, но все герои, места и сюжет собственные; текст, герои и сбор средств оригинала не используются.
 
 **Что происходит:** Ярику семь лет, и обычные звуки для него слишком громкие. Во дворе он прячется в тень и выкладывает морские стёклышки, внутри него — штормовое море, где слова уплывают, как лодки. Тяжёлое утро заканчивается слезами, но ночью старшая сестра Соня приносит маяк-ночник и жёлтые наушники, а пёс Бублик ложится ему на ноги. Анна Сергеевна терпеливо ждёт, и Ярик впервые выкладывает три картинки: «я — хочу — тихо». Во дворе рядом садится Варя. На закате семья обнимает его на берегу у настоящего маяка.
 
 **Готовность:** DRAFT. Решение владельца 01.11.2026: картинки и видео пока не делаем, только сцена и промты на сайте. Референсов ещё нет (18 картинок в плане, список — в `projects/misc/character-references.json`, поле `provenance.planned_reference_images`); промты ссылаются на них как на плановые @Image. Запусков не было, Topview-очередь пуста. Техническая проверка изображения не является одобрением владельца.
-**Формат кадра:** по умолчанию 16:9 / 720p, как во всех очередях репозитория. Оригинальный рилс вертикальный 9:16; вертикальный вариант — отдельный выбор владельца (поменять `Aspect ratio`, `FRAME FILL` и сделать референсы локаций вертикальными).
+**Формат кадра:** вертикаль 9:16 (720×1280), как в оригинальном рилсе — решение владельца 01.11.2026. Во всех 12 промтах `Aspect ratio: 9:16`, `FRAME FILL` для портретного кадра, вертикальная композиция и запрет горизонтальных/letterbox-кадров. **Запуск в Topview — только с форматом 9:16** (очередь и общие инструкции репозитория по умолчанию 16:9: при создании пункта очереди и на сайте Topview выставить 9:16 отдельно). Референсы локаций, реквизита и ключевые кадры K1–K8 — вертикальные 9:16; листы персонажей — горизонтальные листы-развёртки (как во всём репозитории), они задают только внешность.
 
 **Монтажная роль:** целый короткий фильм; порядок B1→B4 (30 с) или A1→A8 (15 с), B1 = A1 + A2, B2 = A3 + A4, B3 = A5 + A6, B4 = A7 + A8. В 30-секундной версии русский закадровый голос Ярика внутри промта (Wan 3.0); в 15-секундной клипы тихие, текст записывается отдельно и кладётся по таймингам. Музыка и титры добавляются в редакторе.
 
@@ -92,7 +92,7 @@ _Всего ≈ 169 слов за 120 с: оставлено время на п�
 - @Image5 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. Russian child voice-over narration in the first person.
 
 REFERENCES / AUTHORITY ORDER:
@@ -101,7 +101,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3: kitchen layout, furniture and morning light only; it never overrides the characters.
 @Image4: courtyard location only (blue slide, sandbox, birch trees, brick building).
 @Image5: prop sheet, use only the look of the small cloth bag and the sea-glass pieces.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -120,7 +120,7 @@ TIMELINE:
 
 [0:10–0:15] HAND ON THE BACK. Mama kneels and rests one hand on his back; the ribbon shrinks into a faint ripple; slow push-in on Yarik's face, eyes closed, one slow breath, then he opens his eyes and looks at the clock.
 
-[0:15–0:20] MATCH CUT TO THE COURTYARD. On Yarik's lowered hands the kitchen light turns to cool autumn daylight: cut to the courtyard, where he now stands at the edge of the playground in the same brick-red hoodie holding a small cloth bag; mama is no longer in frame. TOO MUCH. Wide shot: children run, scream-laugh and chase on the playground; translucent blue ripples build from them toward Yarik, who stands at the edge, shoulders rising.
+[0:15–0:20] MATCH CUT TO THE COURTYARD. On Yarik's lowered hands the kitchen light turns to cool autumn daylight: cut to the courtyard, where he now stands at the edge of the playground in the same brick-red hoodie holding a small cloth bag; mama is no longer in frame. TOO MUCH. Tall establishing frame, playground in the lower two thirds and birch crowns above: children run, scream-laugh and chase on the playground; translucent blue ripples build from them toward Yarik, who stands at the edge, shoulders rising.
 
 [0:20–0:25] THE WAVE. The ripples swell into a visible wave-like distortion of the air; Yarik steps back, presses his hands to his ears and slips backward into the shadow under the blue slide.
 
@@ -130,7 +130,7 @@ END STATE:
 Yarik kneeling in the shade of the slide, a straight line of five sea-glass pieces in front of him, hands resting beside it, playground noise now distant.
 
 CAMERA / SPACE:
-First half: Three setups: close insert on the spoon, medium two-shot as the kettle sounds, slow push-in on Yarik's face. Motivated moves only, eye level of a child, no whip pans. Second half: Wide establishing, then medium following his retreat, then a low close-up at ground level on the glass and his hands. Smooth and slow. One clean transition at 0:15; no whip pans, no hand-held feel.
+First half: Three setups: close insert on the spoon, medium two-shot as the kettle sounds, slow push-in on Yarik's face. Motivated moves only, eye level of a child, no whip pans. Second half: Tall establishing, then medium portrait framing following his retreat, then a low close-up at ground level on the glass and his hands. Smooth and slow. One clean transition at 0:15; no whip pans, no hand-held feel. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: tense, inward, small precise reactions, no theatrics. Mama: instantly attentive, gentle, unhurried. Yarik: overwhelmed but not aggressive; the glass ritual is calm and exact, almost meditative.
@@ -150,10 +150,10 @@ AUDIO:
 Sound effects follow the action: Spoon on bowl, clock ticks, kettle whistle, soft room tone; then Distant children's laughter and shouts (non-verbal, muffled as he retreats), light wind, tiny clicks of glass on concrete. The only voice is Yarik's voice-over above; non-verbal crying and children's shouts stay wordless. No music, no sung words.
 
 NEGATIVE PROMPT:
-Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout.
+Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### B2 · Wan 3.0 · 30 с · Море и слёзы (A3 + A4)
@@ -183,7 +183,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image5 — Прихожая · id `loc-hallway`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. Russian child voice-over narration in the first person.
 
 REFERENCES / AUTHORITY ORDER:
@@ -192,7 +192,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3: PRIMARY exact identity of SONYA.
 @Image4: inner-sea storm world, palette, wave shapes and the distant dark lighthouse only.
 @Image5: hallway layout, coat hooks, shoe rack, round mirror and lamp only.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -206,7 +206,7 @@ START STATE:
 Yarik, small in a wooden rowboat on a dark teal storm sea under a purple sky, gripping both oars; far on the horizon a dark lighthouse.
 
 TIMELINE:
-[0:00–0:05] STORM. Wide: towering waves made of swirling sound-shapes; the little boat climbs a swell; Yarik grips the oars; the dark lighthouse is tiny on the horizon.
+[0:00–0:05] STORM. Tall frame, stacked layers: towering waves made of swirling sound-shapes; the little boat climbs a swell; Yarik grips the oars; the dark lighthouse is tiny on the horizon.
 
 [0:05–0:10] LOST WORDS. Close on Yarik: he opens his mouth to speak, no sound; small glowing paper boats drift out of it and are carried away by the wind in different directions; he reaches after one and misses.
 
@@ -222,7 +222,7 @@ END STATE:
 Yarik on the hallway floor, mama sitting beside him not yet touching, Sonya watching from the door, boots pushed aside.
 
 CAMERA / SPACE:
-First half: Wide, close-up, then a rising pull-back crane. Camera moves with the swell but stays readable; no chaotic shake. Second half: Medium two-shot at child height, close-up on his foot, close-up on his face, final slow push-in. Hand-held feel is not allowed; keep it steady. One clean transition at 0:15; no whip pans, no hand-held feel.
+First half: Tall establishing, close-up, then a rising vertical crane. Camera moves with the swell but stays readable; no chaotic shake. Second half: Medium two-shot at child height, close-up on his foot, close-up on his face, final slow push-in. Hand-held feel is not allowed; keep it steady. One clean transition at 0:15; no whip pans, no hand-held feel. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: concentrated effort and quiet sadness, not terror; his mouth shapes words that do not come out. Real childlike distress, not villain-like. Mama: exhausted love. Sonya: silent understanding.
@@ -242,10 +242,10 @@ AUDIO:
 Sound effects follow the action: Sea, wind and wave rumble, soft creak of the boat; words make no sound; then Crying (non-verbal), boot scuff, jacket rustle, muffled street through the door. No spoken words, no music. The only voice is Yarik's voice-over above; non-verbal crying and children's shouts stay wordless. No music, no sung words.
 
 NEGATIVE PROMPT:
-Realistic sea documentary look, drowning peril, blood, gore, Violence, hitting, throwing boots at people, mocking expression, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout.
+Realistic sea documentary look, drowning peril, blood, gore, Violence, hitting, throwing boots at people, mocking expression, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### B3 · Wan 3.0 · 30 с · Маяк и слова (A5 + A6)
@@ -277,7 +277,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image6 — Кабинет занятий · id `loc-therapy-room`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. Russian child voice-over narration in the first person.
 
 REFERENCES / AUTHORITY ORDER:
@@ -287,7 +287,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image4: PRIMARY exact identity of ANNA SERGEEVNA.
 @Image5: night bedroom layout, bed, shelf and window only.
 @Image6: therapy room layout, round table, wave-pattern rug and light only.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -318,7 +318,7 @@ END STATE:
 Three cards in a row on the table, Anna smiling softly with a hand on her heart, Yarik's small shy smile.
 
 CAMERA / SPACE:
-First half: Slow dolly-in from the doorway, medium close two-shot of the headphone moment, low angle on the bed for the dog. Steady, intimate. Second half: Slow medium two-shot across the table, close insert on the hand placing cards, gentle push-in on the final faces. No cuts faster than 3 seconds. One clean transition at 0:15; no whip pans, no hand-held feel.
+First half: Slow dolly-in from the doorway, medium close two-shot of the headphone moment, low angle on the bed for the dog. Steady, intimate. Second half: Slow medium two-shot across the table, close insert on the hand placing cards, gentle push-in on the final faces. No cuts faster than 3 seconds. One clean transition at 0:15; no whip pans, no hand-held feel. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Sonya: shy, tender, no speech. Yarik: cautious trust. Bublik: calm, heavy settling. Anna: infinite patience, quiet warmth. Yarik: concentration, then a brief fragile joy.
@@ -338,10 +338,10 @@ AUDIO:
 Sound effects follow the action: Room tone, soft door creak, fabric, the dog's settling sigh; then Quiet room tone, soft card taps on wood, a distant clock. The only voice is Yarik's voice-over above; non-verbal crying and children's shouts stay wordless. No music, no sung words.
 
 NEGATIVE PROMPT:
-Bright overhead light, fast flashing beam, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout.
+Bright overhead light, fast flashing beam, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### B4 · Wan 3.0 · 30 с · Друг и берег (A7 + A8)
@@ -374,7 +374,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image6 — Берег и маяк на закате · id `loc-seaside-lighthouse`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. Russian child voice-over narration in the first person.
 
 REFERENCES / AUTHORITY ORDER:
@@ -384,7 +384,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image4: PRIMARY exact identity of MAMA LENA.
 @Image5: PRIMARY exact identity of SONYA.
 @Image6: seaside and red-and-white lighthouse location only.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -406,17 +406,17 @@ TIMELINE:
 
 [0:10–0:15] THE GIFT. Yarik picks the brightest blue sea-glass piece and puts it in her palm; she smiles gap-toothed; the two sit side by side adding pieces to the line while the camera slowly pulls back.
 
-[0:15–0:20] SOFT DISSOLVE TO THE SEA. The courtyard dissolves into a pebble beach at dusk; Varya is no longer in frame and the family now walks on the pebbles toward the sea. SHORE. Wide side tracking of the family walking on the pebbles; gentle waves, golden hour; Yarik looks at the water.
+[0:15–0:20] SOFT DISSOLVE TO THE SEA. The courtyard dissolves into a pebble beach at dusk; Varya is no longer in frame and the family now walks on the pebbles toward the sea. SHORE. Tall low tracking beside and behind the family, pebbles below and sea and sky stacked above: the family walking on the pebbles; gentle waves, golden hour; Yarik looks at the water.
 
 [0:20–0:25] LISTENING. Yarik stops, takes off the headphones and listens to the sea; soft golden ripples of sound blend with the waves; mama kneels and hugs him, Sonya joins, Bublik leans in.
 
 [0:25–0:30] BEACON. The lighthouse beam lights up and sweeps across the family and the sea; slow crane up and back until the hugging group is small under the sweeping beam in a golden-teal sea.
 
 END STATE:
-Wide: the family hugging on the pebble beach, Bublik pressed against them, the lighthouse beam sweeping over the calm sea.
+Tall frame: the family hugging on the pebble beach, Bublik pressed against them, the lighthouse beam sweeping over the calm sea.
 
 CAMERA / SPACE:
-First half: Medium at child height, a slow lateral reveal of Varya's approach, then a gentle pull-back. No fast moves. Second half: Wide tracking, medium on Yarik's face, then a slow crane up and back. Calm, steady, emotional. One clean transition at 0:15; no whip pans, no hand-held feel.
+First half: Medium at child height, a slow reveal of Varya's approach from the depth of the frame, then a gentle pull-back. No fast moves. Second half: Tall tracking, medium on Yarik's face, then a slow crane up and back. Calm, steady, emotional. One clean transition at 0:15; no whip pans, no hand-held feel. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: wary curiosity turning into trust; Varya: patient, no touching; Bublik: calm. Yarik: quiet wonder and safety. Mama: eyes wet, soft smile. Sonya: relieved, proud. Bublik: pressing close.
@@ -437,10 +437,10 @@ AUDIO:
 Sound effects follow the action: Muffled playground noise far away, light wind, soft clink of glass; then Gentle waves, pebbles, soft wind, a faint distant gull. The only voice is Yarik's voice-over above; non-verbal crying and children's shouts stay wordless. No music, no sung words.
 
 NEGATIVE PROMPT:
-Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout.
+Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, speech from on-screen characters, lip-synced dialogue, singing, generated music score, subtitles, captions, on-screen text, a different voice, a robotic or accented voice, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 </div>
@@ -469,14 +469,14 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image3 — Кухня · id `loc-kitchen`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
 @Image1: PRIMARY exact identity of YARIK (face, hair, proportions, clothing).
 @Image2: PRIMARY exact identity of MAMA LENA.
 @Image3: kitchen layout, furniture and morning light only; it never overrides the characters.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -499,7 +499,7 @@ END STATE:
 Yarik at the table with hands lowered from his ears, mama kneeling beside him with a hand on his back, kettle off, ripple fading.
 
 CAMERA / SPACE:
-Three setups: close insert on the spoon, medium two-shot as the kettle sounds, slow push-in on Yarik's face. Motivated moves only, eye level of a child, no whip pans.
+Three setups: close insert on the spoon, medium two-shot as the kettle sounds, slow push-in on Yarik's face. Motivated moves only, eye level of a child, no whip pans. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: tense, inward, small precise reactions, no theatrics. Mama: instantly attentive, gentle, unhurried.
@@ -511,10 +511,10 @@ AUDIO:
 Spoon on bowl, clock ticks, kettle whistle, soft room tone. No speech, no music.
 
 NEGATIVE PROMPT:
-Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### A2 · Seedance 2.0 · 15 с · Двор
@@ -538,14 +538,14 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image3 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
 @Image1: PRIMARY exact identity of YARIK.
 @Image2: courtyard location only (blue slide, sandbox, birch trees, brick building).
 @Image3: prop sheet, use only the look of the small cloth bag and the sea-glass pieces (green, blue, white).
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -557,7 +557,7 @@ START STATE:
 Yarik stands at the edge of the playground in autumn light holding a small cloth bag; children run and shout in the background.
 
 TIMELINE:
-[0:00–0:05] TOO MUCH. Wide shot: children run, scream-laugh and chase on the playground; translucent blue ripples build from them toward Yarik, who stands at the edge, shoulders rising.
+[0:00–0:05] TOO MUCH. Tall establishing frame, playground in the lower two thirds and birch crowns above: children run, scream-laugh and chase on the playground; translucent blue ripples build from them toward Yarik, who stands at the edge, shoulders rising.
 
 [0:05–0:10] THE WAVE. The ripples swell into a visible wave-like distortion of the air; Yarik steps back, presses his hands to his ears and slips backward into the shadow under the blue slide.
 
@@ -567,7 +567,7 @@ END STATE:
 Yarik kneeling in the shade of the slide, a straight line of five sea-glass pieces in front of him, hands resting beside it, playground noise now distant.
 
 CAMERA / SPACE:
-Wide establishing, then medium following his retreat, then a low close-up at ground level on the glass and his hands. Smooth and slow.
+Tall establishing, then medium portrait framing following his retreat, then a low close-up at ground level on the glass and his hands. Smooth and slow. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: overwhelmed but not aggressive; the glass ritual is calm and exact, almost meditative.
@@ -579,10 +579,10 @@ AUDIO:
 Distant children's laughter and shouts (non-verbal, muffled as he retreats), light wind, tiny clicks of glass on concrete. No speech, no music.
 
 NEGATIVE PROMPT:
-Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### A3 · Seedance 2.0 · 15 с · Внутреннее море
@@ -606,14 +606,14 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image3 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
 @Image1: PRIMARY exact identity of YARIK (brick-red hoodie, same face and hair).
 @Image2: inner-sea storm world, palette, wave shapes and distant dark lighthouse only.
 @Image3: prop sheet, use only the look of the lighthouse (unlit).
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -625,7 +625,7 @@ START STATE:
 Yarik, small in a wooden rowboat on a dark teal storm sea under a purple sky, gripping both oars; far on the horizon a dark lighthouse.
 
 TIMELINE:
-[0:00–0:05] STORM. Wide: towering waves made of swirling sound-shapes; the little boat climbs a swell; Yarik grips the oars; the dark lighthouse is tiny on the horizon.
+[0:00–0:05] STORM. Tall frame, stacked layers: towering waves made of swirling sound-shapes; the little boat climbs a swell; Yarik grips the oars; the dark lighthouse is tiny on the horizon.
 
 [0:05–0:10] LOST WORDS. Close on Yarik: he opens his mouth to speak, no sound; small glowing paper boats drift out of it and are carried away by the wind in different directions; he reaches after one and misses.
 
@@ -635,7 +635,7 @@ END STATE:
 The rowboat tilting on a wave crest, Yarik tiny and holding on, the unlit lighthouse far in the distance.
 
 CAMERA / SPACE:
-Wide, close-up, then a rising pull-back crane. Camera moves with the swell but stays readable; no chaotic shake.
+Tall establishing, close-up, then a rising vertical crane. Camera moves with the swell but stays readable; no chaotic shake. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: concentrated effort and quiet sadness, not terror; his mouth shapes words that do not come out.
@@ -647,10 +647,10 @@ AUDIO:
 Sea, wind and wave rumble, soft creak of the boat; words make no sound. No speech, no music.
 
 NEGATIVE PROMPT:
-Realistic sea documentary look, drowning peril, blood, gore, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Realistic sea documentary look, drowning peril, blood, gore, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### A4 · Seedance 2.0 · 15 с · Ботинки
@@ -676,7 +676,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image4 — Прихожая · id `loc-hallway`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
@@ -684,7 +684,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2: PRIMARY exact identity of MAMA LENA.
 @Image3: PRIMARY exact identity of SONYA.
 @Image4: hallway layout, coat hooks, shoe rack, round mirror and lamp only.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -708,7 +708,7 @@ END STATE:
 Yarik on the hallway floor, mama sitting beside him not yet touching, Sonya watching from the door, boots pushed aside.
 
 CAMERA / SPACE:
-Medium two-shot at child height, close-up on his foot, close-up on his face, final slow push-in. Hand-held feel is not allowed; keep it steady.
+Medium two-shot at child height, close-up on his foot, close-up on his face, final slow push-in. Hand-held feel is not allowed; keep it steady. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Real childlike distress, not villain-like. Mama: exhausted love. Sonya: silent understanding.
@@ -720,10 +720,10 @@ AUDIO:
 Crying (non-verbal), boot scuff, jacket rustle, muffled street through the door. No spoken words, no music.
 
 NEGATIVE PROMPT:
-Violence, hitting, throwing boots at people, mocking expression, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Violence, hitting, throwing boots at people, mocking expression, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### A5 · Seedance 2.0 · 15 с · Маяк
@@ -751,7 +751,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image5 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
@@ -760,7 +760,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3: PRIMARY exact identity of BUBLIK.
 @Image4: night bedroom layout, bed, shelf and window only.
 @Image5: prop sheet, use only the look of the yellow headphones and the lighthouse night-light.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -784,7 +784,7 @@ END STATE:
 Yarik lying back with headphones on, Bublik on his feet, Sonya sitting on the bed edge, lighthouse beam sweeping slowly over the wall.
 
 CAMERA / SPACE:
-Slow dolly-in from the doorway, medium close two-shot of the headphone moment, low angle on the bed for the dog. Steady, intimate.
+Slow dolly-in from the doorway, medium close two-shot of the headphone moment, low angle on the bed for the dog. Steady, intimate. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Sonya: shy, tender, no speech. Yarik: cautious trust. Bublik: calm, heavy settling.
@@ -796,10 +796,10 @@ AUDIO:
 Room tone, soft door creak, fabric, the dog's settling sigh. No speech, no music.
 
 NEGATIVE PROMPT:
-Bright overhead light, fast flashing beam, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Bright overhead light, fast flashing beam, Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### A6 · Seedance 2.0 · 15 с · Три картинки
@@ -825,7 +825,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image4 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
@@ -833,7 +833,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2: PRIMARY exact identity of ANNA SERGEEVNA.
 @Image3: therapy room layout, round table, wave-pattern rug and light only.
 @Image4: prop sheet, use only the look of the pictogram cards (no text) and the yellow headphones.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -856,7 +856,7 @@ END STATE:
 Three cards in a row on the table, Anna smiling softly with a hand on her heart, Yarik's small shy smile.
 
 CAMERA / SPACE:
-Slow medium two-shot across the table, close insert on the hand placing cards, gentle push-in on the final faces. No cuts faster than 3 seconds.
+Slow medium two-shot across the table, close insert on the hand placing cards, gentle push-in on the final faces. No cuts faster than 3 seconds. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Anna: infinite patience, quiet warmth. Yarik: concentration, then a brief fragile joy.
@@ -868,10 +868,10 @@ AUDIO:
 Quiet room tone, soft card taps on wood, a distant clock. No speech, no music.
 
 NEGATIVE PROMPT:
-Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### A7 · Seedance 2.0 · 15 с · Стёклышко
@@ -899,7 +899,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image5 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
@@ -908,7 +908,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3: PRIMARY exact identity of VARYA.
 @Image4: courtyard location only (sandbox, slide, birch trees).
 @Image5: prop sheet, use only the look of the sea-glass pieces and the yellow headphones.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -932,7 +932,7 @@ END STATE:
 Yarik and Varya side by side at the sandbox with sea glass and the shell in a shared line, Bublik beside them, playground blurred behind.
 
 CAMERA / SPACE:
-Medium at child height, a slow lateral reveal of Varya's approach, then a gentle pull-back. No fast moves.
+Medium at child height, a slow reveal of Varya's approach from the depth of the frame, then a gentle pull-back. No fast moves. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: wary curiosity turning into trust; Varya: patient, no touching; Bublik: calm.
@@ -944,10 +944,10 @@ AUDIO:
 Muffled playground noise far away, light wind, soft clink of glass. No speech, no music.
 
 NEGATIVE PROMPT:
-Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 #### A8 · Seedance 2.0 · 15 с · Побудьте рядом
@@ -976,7 +976,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 - @Image5 — Берег и маяк на закате · id `loc-seaside-lighthouse`
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 (vertical portrait) | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | High-end 3D animated family-feature look: stylized but physically grounded characters with soft rounded forms, expressive eyes, subtle skin subsurface scattering, detailed hair and fabric, soft volumetric light, shallow depth of field, tender emotional tone. Warm, moving, quiet. No speech in this clip.
 
 REFERENCES / AUTHORITY ORDER:
@@ -985,7 +985,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3: PRIMARY exact identity of SONYA.
 @Image4: PRIMARY exact identity of BUBLIK.
 @Image5: seaside and red-and-white lighthouse location, palette and lighthouse design only.
-Priority: the individual character sheets control faces, hair, ages, proportions and clothing; location and prop images control only their named elements; never blend faces; do not import incidental people or props from location images.
+Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
@@ -1000,17 +1000,17 @@ START STATE:
 Dusk on a pebble beach; the family walks toward the sea, Yarik holding mama's hand with headphones around his neck, Sonya beside them, Bublik ahead; a striped red-and-white lighthouse stands in the distance.
 
 TIMELINE:
-[0:00–0:05] SHORE. Wide side tracking of the family walking on the pebbles; gentle waves, golden hour; Yarik looks at the water.
+[0:00–0:05] SHORE. Tall low tracking beside and behind the family, pebbles below and sea and sky stacked above: the family walking on the pebbles; gentle waves, golden hour; Yarik looks at the water.
 
 [0:05–0:10] LISTENING. Yarik stops, takes off the headphones and listens to the sea; soft golden ripples of sound blend with the waves; mama kneels and hugs him, Sonya joins, Bublik leans in.
 
 [0:10–0:15] BEACON. The lighthouse beam lights up and sweeps across the family and the sea; slow crane up and back until the hugging group is small under the sweeping beam in a golden-teal sea.
 
 END STATE:
-Wide: the family hugging on the pebble beach, Bublik pressed against them, the lighthouse beam sweeping over the calm sea.
+Tall frame: the family hugging on the pebble beach, Bublik pressed against them, the lighthouse beam sweeping over the calm sea.
 
 CAMERA / SPACE:
-Wide tracking, medium on Yarik's face, then a slow crane up and back. Calm, steady, emotional.
+Tall tracking, medium on Yarik's face, then a slow crane up and back. Calm, steady, emotional. Vertical 9:16 composition: main subject centred in the middle third, characters stacked high-to-low or front-to-back rather than side by side, tall depth layers (foreground, subject, background), faces large enough to read on a phone, phone-UI safe margins, no wide horizontal panoramas.
 
 PERFORMANCE:
 Yarik: quiet wonder and safety. Mama: eyes wet, soft smile. Sonya: relieved, proud. Bublik: pressing close.
@@ -1022,10 +1022,10 @@ AUDIO:
 Gentle waves, pebbles, soft wind, a faint distant gull. No speech, no music.
 
 NEGATIVE PROMPT:
-Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout.
+Identity drift between shots, extra people, altered clothing colours, scary or distorted faces, exaggerated slapstick, photoreal live-action look, uncanny teeth, extra fingers or limbs, camera shake, generated speech, narration, singing, generated music score, subtitles, captions, on-screen text, logos, watermark, split screen, poster layout, horizontal landscape framing, letterbox, pillarbox, black bars, tiny subject lost in a wide frame, cropped heads.
 
 FRAME FILL / NO BARS:
-Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, borders or empty margins.
+Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. No letterbox, pillarbox, black bars, borders or empty margins; no horizontal landscape picture inside the frame.
 ```
 
 </div>

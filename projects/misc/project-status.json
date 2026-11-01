@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/misc/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-01T04:01:41Z",
+  "synced_at": "2026-11-01T04:08:12Z",
   "revision_date": "01.11.2026",
-  "master_declared_last_full_sync": "01.11.2026 · сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), без картинок и запусков; картинки и видео пока не делаем по решению владельца",
-  "canonical_master_sha256": "3a6f33203f1138b104043d526d2bdba7bbae747bcd0af82b9b1fc0ba0f3aaa3e",
-  "canonical_revision_sha256": "2367c6dc7f8df70fa1b1b6da30a71829010c385fb8a534d6f157638e486f1b8e",
-  "canonical_master_bytes": 97190,
+  "master_declared_last_full_sync": "01.11.2026 · сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), формат 9:16 вертикаль, без картинок и запусков; картинки и видео пока не делаем по решению владельца",
+  "canonical_master_sha256": "3fa431cf92aab5d99115cfb4cdb1a8ae5c3e14099efdc7806ecb520b884cec60",
+  "canonical_revision_sha256": "ed4be543b90fb08da88713f5d1e7444b962074e35279990791f99f1f644d6b0c",
+  "canonical_master_bytes": 105657,
   "scenes": 1,
   "prompt_texts": 12,
   "work_items": [],
@@ -26,7 +26,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.95,
+    "age_hours_at_status_build": 1.059,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -104,7 +104,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.95,
+      "age_hours": 1.059,
       "blocking": false
     },
     "topview_task_map": {
@@ -129,6 +129,7 @@
         "draft",
         "original_story",
         "voiceover_ru",
+        "vertical_9x16",
         "two_engine_versions",
         "reference_first",
         "misc_scene_1",
@@ -139,9 +140,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "01.11.2026",
-    "synced_at": "2026-11-01T04:01:41Z",
-    "canonical_master_sha256": "3a6f33203f1138b104043d526d2bdba7bbae747bcd0af82b9b1fc0ba0f3aaa3e",
-    "canonical_revision_sha256": "2367c6dc7f8df70fa1b1b6da30a71829010c385fb8a534d6f157638e486f1b8e",
+    "synced_at": "2026-11-01T04:08:12Z",
+    "canonical_master_sha256": "3fa431cf92aab5d99115cfb4cdb1a8ae5c3e14099efdc7806ecb520b884cec60",
+    "canonical_revision_sha256": "ed4be543b90fb08da88713f5d1e7444b962074e35279990791f99f1f644d6b0c",
     "scene_count": 1,
     "prompt_count": 12,
     "scene_ids": [
