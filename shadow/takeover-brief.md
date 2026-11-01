@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-11-01T07:14:29+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-11-01T08:31:03+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 83993 B · `58502c1791ea2d9c`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 18148 B · `618d5b01e8289c6d`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 21763 B · `6b0a0ba95d23937c`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1349746 B · `7d0bc05110940383`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1350175 B · `4def38fa387b5da5`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -69,7 +69,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 68 | Татуинская связка 4/7 · «ГБУ Жилищник района Татуина» метёт  | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [67] | 741dfcf03866 |
 | 69 | Татуинская связка 5/7 · Маша Р учит «Жилищник» убирать в лаз | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [68] | 046fba19139c |
 | 70 | Татуинская связка 6/7 · бесшовный пролёт с улицы к столику С | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 | [69] | aebb6d03780f |
-| 71 | Виталик на троне из кальянов: «Вот такая вот история получил | Wan 3 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 59dfe53a3613 |
+| 71 | Виталик на троне из кальянов: «Вот такая вот история получил | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 0d56574ca984 |
 | 72 | Виталик на троне из кальянов: «Всем привет» — пролог | Wan 3 | DRAFT/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 719d4dacd6a8 |
 
 ## Что читать под задачу (сверх брифа)
