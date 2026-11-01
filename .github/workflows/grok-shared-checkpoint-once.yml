@@ -1,0 +1,46 @@
+name: Record Grok shared operations checkpoint
+on:
+  push:
+    branches: [work/grok-shared-ops-20261101]
+    paths: [.github/workflows/grok-shared-checkpoint-once.yml]
+permissions:
+  contents: write
+jobs:
+  checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with: {ref: main, fetch-depth: 1}
+      - name: Exact lease and checkpoint only
+        run: |
+          python3 - <<'PY'
+          import json,subprocess,uuid
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          def cmd(*a): return subprocess.check_output(a,text=True).strip()
+          def write(p,x): Path(p).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+          def stamp(): return datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z')
+          cmd('git','config','user.name','ChatGPT project editor');cmd('git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
+          cmd('git','fetch','origin','main');cmd('git','reset','--hard','origin/main')
+          lock=json.loads(Path('ops/canon-lock.json').read_text());now=datetime.now(timezone.utc)
+          if lock.get('state')=='held' and datetime.fromisoformat(lock['expires_at'].replace('Z','+00:00'))>now: raise SystemExit('Foreign active lease: no write')
+          holder='chatgpt:interactive:'+str(uuid.uuid4());at=stamp();source=cmd('git','rev-parse','HEAD')
+          lock.update(state='held',holder=holder,task='Checkpoint for owner-approved Grok dedup, shared Drive inputs, overnight coverage and site inbox',acquired_at=at,expires_at=(now+timedelta(minutes=8)).isoformat(),released_at=None)
+          write('ops/canon-lock.json',lock);cmd('git','add','ops/canon-lock.json');cmd('git','commit','-m','Acquire exact short lease for Grok shared-ops checkpoint');cmd('git','push','origin','HEAD:main');cmd('git','fetch','origin','main')
+          remote=json.loads(cmd('git','show','origin/main:ops/canon-lock.json'));assert remote==lock
+          cmd('git','reset','--hard','origin/main')
+          report='reports/grok-shared-ops-2026-11-01.json'
+          write(report,{'schema_version':1,'project':'seregius','work_id':'GROK-SHARED-OPS-20261101','stage':'started','recorded_at':stamp(),'source_head':source,'owner_quote':'Первое, второе и третье делай. Для второго все нужные файлы можно разместить в гитхаба или гугл диске, где лучше а не в библиотеке, для общего доступа. И Стича он нарисовал и добавил в сцену нужные, у твоего прошлого чата не получалось. добавить проверенный адресат «Grok» в задачи сайта да. Отчёт дать грок бота и чату файлом?','scope':['Durable Grok provider-run and Telegram-message deduplication','Shared GitHub image registry and private Drive continuity inputs, no Library-only dependency','Overnight coverage implementation and verified Grok site addressee','Common report file for Grok Bot and Grok Chat'],'preserve':['Stitch files/prompts from Grok','queue priority and all existing task IDs/claims/unknown','zero Topview credits','first real Create gate until separately evidenced'],'limitations':['No connected Grok routine-management or Telegram plugin found by capability search','No credentials requested or published'],'new_video_submissions':0})
+          cp=Path('reports/current-work-checkpoint.md');anchor='# 01.11.2026 — Grok: общие входы, защита повторов и задачи сайта — начало'
+          cp.write_text(anchor+'\n\nwork_id: GROK-SHARED-OPS-20261101\n\nВладелец разрешил три дополнения аудита и адресат Grok. Исходный fresh main: '+source+'. Отчёт: `'+report+'`. План: устойчивый журнал run/message ID; перенос доступных приватных стыков в Drive с SHA; реальный адресат сайта через UI/Edge/робот/inbox; ночное покрытие без выдуманной активации рутины Grok. Стича не перерисовывать. Очередь и первый Create не расширять этим checkpoint. Следующий шаг: реализация и тесты, затем публикация под своей lease, проверка сайта/API и файл передачи.\n\n'+cp.read_text())
+          p=Path('work-resume-register.json');reg=json.loads(p.read_text());assert not any(w['work_id']=='GROK-SHARED-OPS-20261101' for w in reg['active_work'])
+          reg['active_work'].append({'work_id':'GROK-SHARED-OPS-20261101','title':'Grok: защита повторов, общие входы и адресат сайта','project':'seregius','status':'in_progress','updated_at':stamp(),'next_action':'Implement and test approved Grok shared-ops scope from report; preserve production queue and Stitch.'});write(str(p),reg)
+          import sys;sys.path.insert(0,'scripts');from resume_state import capture
+          capture('.','GROK-SHARED-OPS-20261101',anchor,'Owner scope recorded before implementation; no feature declared complete.',reg['active_work'][-1]['next_action'],[report],['ops/LAUNCHER-COORDINATION.md','ops/OWNER-TASKS.md','ops/slot-backup.json'],focus=False)
+          cmd('git','fetch','origin','main');assert cmd('git','rev-parse','HEAD')==cmd('git','rev-parse','origin/main'),'New main: stop, no stale push'
+          lock.update(state='free',expires_at=None,released_at=stamp());write('ops/canon-lock.json',lock)
+          paths=['ops/canon-lock.json',report,str(cp),str(p)];cmd('git','add','--',*paths);cmd('git','commit','-m','Record owner Grok shared-ops scope and recovery checkpoint; release lease');cmd('git','push','origin','HEAD:main');cmd('git','fetch','origin','main')
+          for f in paths: assert subprocess.check_output(['git','show','origin/main:'+f])==Path(f).read_bytes()
+          print('CHECKPOINT VERIFIED',cmd('git','rev-parse','HEAD'))
+          PY
