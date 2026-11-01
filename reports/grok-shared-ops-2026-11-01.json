@@ -2,13 +2,13 @@
   "schema_version": 1,
   "project": "seregius",
   "work_id": "GROK-SHARED-OPS-20261101",
-  "stage": "repository_verified_provider_acceptance_pending",
+  "stage": "repository_and_site_delivered_awaiting_grok_runtime_acceptance",
   "recorded_at": "2026-11-01T01:00:44Z",
   "source_head": "bbe54f0bff9d74c24fd8dce2730d929736a93375",
   "owner_quote": "Первое, второе и третье делай. Для второго все нужные файлы можно разместить в гитхаба или гугл диске, где лучше а не в библиотеке, для общего доступа. И Стича он нарисовал и добавил в сцену нужные, у твоего прошлого чата не получалось. добавить проверенный адресат «Grok» в задачи сайта да. Отчёт дать грок бота и чату файлом?",
   "scope": [
     "Durable Grok provider-run and Telegram-message deduplication",
-    "Shared GitHub image registry and private Drive continuity inputs, no Library-only dependency",
+    "Shared GitHub image registry and shared Drive continuity inputs (existing link access), no Library-only dependency",
     "Overnight coverage implementation and verified Grok site addressee",
     "Common report file for Grok Bot and Grok Chat"
   ],
@@ -32,7 +32,6 @@
     "Existing Grok Stitch bytes/bindings preserved"
   ],
   "pending": [
-    "Live Edge deployment/readback after tested source publication",
     "Actual Grok provider routine adjustment/readback, original run/message adapter and inbox acceptance",
     "First real production Create remains gated; no video started by this work"
   ],
@@ -66,5 +65,38 @@
     "references/scenes/scene-52/manifest.json": "ae175f278ad7e407dda95d2f175047ac94e843ebb2114e3ed46170d0f394f783",
     "references/scenes/scene-66/manifest.json": "015710bed3a35d5716970789531ff29329917b3904f769095e6f9a2486915d20",
     "monitor-role.json": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1"
+  },
+  "implementation_commit": "751109e81474dc3e7e4f63d616e481fd977bebe5",
+  "live_verification_at": "2026-11-01T01:22:21Z",
+  "live_verification_run_id": "41260787789",
+  "site_route": {
+    "task_id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
+    "to": "grok",
+    "inbox_status": "open",
+    "db_status": "in_progress",
+    "db_result_note": "site-inbox: задача в ops/owner-tasks.json, ждёт исполнителя (Grok)",
+    "executed_by": "ChatGPT one-shot verification using production handler; not a scheduled wake or Grok ACK",
+    "grok_ack_verified": false,
+    "owner_button_click_tested": false
+  },
+  "edge_deployment": {
+    "function": "owner-decision",
+    "version": 8,
+    "status": "ACTIVE",
+    "custom_owner_key_auth_preserved": true,
+    "verify_jwt": false,
+    "readback_reviewed": true,
+    "deployment_bundle_sha256": "e2f892382e2d083e6cf5c257155b95f1c47ecf2ce494c8fdec5d5452ce6a9dd8",
+    "canonical_source_sha256": "ed8c2a5525c68df01b9d52e53b60a93d926540684bd6983bf18e8c7c1d346c7a",
+    "mocked_handler_checks": {
+      "grok": 201,
+      "chatgpt": 201,
+      "claude": 201,
+      "any": 201,
+      "invalid_target": 400,
+      "wrong_key": 403,
+      "foreign_origin": 403
+    },
+    "authenticated_owner_browser_submit_tested": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-01T01:17:27+00:00",
+  "last_updated_at": "2026-11-01T01:22:21+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -974,33 +974,29 @@
       "work_id": "GROK-SHARED-OPS-20261101",
       "title": "Grok: защита повторов, общие входы и адресат сайта",
       "project": "seregius",
-      "status": "provider_acceptance_pending",
-      "updated_at": "2026-11-01T01:17:27+00:00",
-      "next_action": "Verify live owner-decision deployment and site delivery; Grok must accept inbox task, wire original provider IDs, edit existing routine to 24h :12/:27, read back shared inputs and return evidence. No replay of unknown Create.",
+      "status": "awaiting_grok_acceptance",
+      "updated_at": "2026-11-01T01:22:21+00:00",
+      "next_action": "Grok must acknowledge task d37ea54b-6b09-4283-892b-d6c3e189b82f, wire original run/message IDs, read back existing routine 24h :12/:27 and shared Drive inputs; do not infer production launch acceptance.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-01T01:17:27+00:00",
-        "last_completed": "Grok shared-ops code and shared inputs validated; no video generated.",
-        "next_action": "Verify live owner-decision deployment and site delivery; Grok must accept inbox task, wire original provider IDs, edit existing routine to 24h :12/:27, read back shared inputs and return evidence. No replay of unknown Create.",
+        "verified_at": "2026-11-01T01:22:21+00:00",
+        "last_completed": "Repository validated; deployed Edge v8 read back; real Grok task delivered through production handler, not yet acknowledged by Grok.",
+        "next_action": "Grok must acknowledge task d37ea54b-6b09-4283-892b-d6c3e189b82f, wire original run/message IDs, read back existing routine 24h :12/:27 and shared Drive inputs; do not infer production launch acceptance.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 01.11.2026 — Grok: общие входы и защищённые задачи — реализовано",
-          "sha256": "73bded9b015b851760f992f560497934a32444ce70e76e4eaf5b9129c6bca09a"
+          "anchor": "# 01.11.2026 — Grok: сайт доставляет, внешняя приёмка ожидается",
+          "sha256": "e0cdde64d4d976066f7d26d24d51084f1943e37615b24865b462e61bb6ab2fdc"
         },
         "evidence": [
           {
             "file": "reports/grok-shared-ops-2026-11-01.json",
-            "sha256": "6e5ce46fc9eb85455117b5ca519db08fb5092f9147deeb00bdf94576ae633a87"
-          },
-          {
-            "file": "reports/shared-inputs-transfer-2026-11-01.json",
-            "sha256": "a6209c01978cd2626d732e8da73a755673bd1588db60195ead21dcbe7f14e915"
+            "sha256": "8f0f0e5dedc2c64cb56c18ec8c8794cf16dfbcf5f65024dd956e2f577e30176f"
           }
         ],
         "read_next": [
+          "ops/OWNER-TASKS.md",
           "ops/LAUNCHER-COORDINATION.md",
-          "ops/slot-backup.json",
-          "ops/OWNER-TASKS.md"
+          "ops/slot-backup.json"
         ],
         "blockers": []
       }

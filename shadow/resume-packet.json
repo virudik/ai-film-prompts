@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-01T01:17:27+00:00",
-  "source_head": "bbe54f0bff9d74c24fd8dce2730d929736a93375",
-  "source_fingerprint": "288a567d51ef8ecc73f49bf499b8041f022fb6186bf8619b9d80ca02f52660ec",
+  "checked_at": "2026-11-01T01:22:21+00:00",
+  "source_head": "560b710be188a980a6aaab6a430a50b548d5895a",
+  "source_fingerprint": "6523e46f089e595742c244798844114416b282681b31b578877ce1abedc32d63",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -448,8 +448,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "7a526c0e6303829379ba98f955fb871c80915e4012565257497a90201b3acf1c",
-      "bytes": 36679
+      "sha256": "150eca60d3353d942c0a69d63d5d28fbb2f3724f202319bdd7b2adb48b14acee",
+      "bytes": 37517
     },
     {
       "file": "reports/grok-integration-review-2026-11-01.json",
@@ -478,8 +478,8 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "73f2bd20be766f0dc39756ee4a5ce069c513103d58dc25a235266257d4bfd91e",
-      "bytes": 89675
+      "sha256": "18ded5259e69ca9436444ba756f695154ec0a1004895e2530a212d0dca3fa991",
+      "bytes": 89499
     }
   ],
   "packet_bytes": 10145
