@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:387f427f-1568-4329-8fa1-1b25cb7daafc",
-  "task": "Grok Bot: capability report (00-START-HERE s3/s9) + handoff link + task for chatgpt; no queue/Create changes",
-  "acquired_at": "2026-11-01T03:03:58Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T03:05:13Z",
+  "state": "held",
+  "holder": "grok:524e37c5-f325-4c89-b64a-1689f76210f6",
+  "task": "Разное сцена 1: правка tests/test_projects.py (misc scenes==0)",
+  "acquired_at": "2026-11-01T03:58:40Z",
+  "expires_at": "2026-11-01T04:43:40Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
