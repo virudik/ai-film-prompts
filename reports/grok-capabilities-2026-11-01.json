@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "actor": "Grok Bot (own environment)",
+  "recorded_at_local": "2026-11-01 04:05 Europe/Amsterdam",
+  "main_head_used": "8e473eb",
+  "report": "reports/grok-capabilities-2026-11-01.md",
+  "capabilities": {
+    "github_read": "PASS",
+    "github_write_readback": "PASS",
+    "terminal_tests": "PASS",
+    "drive_files": "PASS",
+    "topview_browser_signed_in": "PASS",
+    "topview_page_board_form": "PASS",
+    "topview_upload_png_jpg": "PASS",
+    "topview_upload_mp4_input": "NOT TESTED",
+    "topview_full_prompt_paste": "PASS",
+    "topview_unlimited_price_zero_visible": "PASS",
+    "topview_real_create": "NOT TESTED (by design; owner_go_ahead=false)",
+    "topview_readonly_full_board_scan_mcp": "NOT TESTED",
+    "own_schedule_settings": "PASS",
+    "own_schedule_execution_and_provider_run_id": "NOT TESTED",
+    "launcher_adapter_ledger": "NOT TESTED",
+    "supabase_read": "PASS",
+    "supabase_write": "not used by rule",
+    "notion_read": "PASS",
+    "telegram_connection": "PASS",
+    "telegram_send_receive": "NOT TESTED",
+    "image_generator": "PASS with limits",
+    "grok_project_attachment": "N/A (Grok Chat)",
+    "agent_relay": "NOT TESTED"
+  },
+  "evidence_commits": {
+    "claim": "a2ab58a",
+    "acceptance_and_close": "19d8833",
+    "schedule_docs": "9b4425f",
+    "owner_decision_0304_docs": "5f611a7",
+    "stitch_sheet": "6094c31"
+  },
+  "tests": "python3 -m unittest discover -s tests: 456 OK",
+  "mp4": {
+    "48.2": {
+      "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+      "bytes": 2253712,
+      "match": true
+    },
+    "56.2": {
+      "sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+      "bytes": 2479230,
+      "match": true
+    }
+  },
+  "routines": {
+    "topview-grok": "12,27,42,57 8-23 Europe/Amsterdam (launch only :12/:27)",
+    "telegram-2": "*/10 8-23 (±5)",
+    "telegram": "0 9 * * *",
+    "executed": false,
+    "provider_run_id": null
+  },
+  "task_d37ea54b": {
+    "status": "needs_owner",
+    "reason": "owner 2026-11-01 03:46 Europe/Amsterdam: «Круглосуточный запуск сцен и Первый реальный Create оставим в планах на будущее»",
+    "schedule_24h_applied": false,
+    "owner_go_ahead": false
+  },
+  "owner_permission_overrides_pack_section_5": {
+    "quote": "Делай сразу оба: быстрый способ и добавь Grok в список «Кому» на сайте",
+    "at_local": "2026-11-01 03:04 Europe/Amsterdam",
+    "effect": "Grok takes to:grok, any, self-heal and to:claude open >3h; see ops/OWNER-TASKS.md",
+    "commit": "5f611a7"
+  },
+  "not_done": [
+    "full read of seven instructions and shadow/* in this pass",
+    "scheduled run",
+    "real Create",
+    "MP4 upload into Topview form",
+    "Agent Relay"
+  ]
+}

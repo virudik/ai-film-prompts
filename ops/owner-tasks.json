@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-01T02:39:05Z",
+  "updated_at": "2026-11-01T03:04:20Z",
   "tasks": [
     {
       "id": "90d2b889-054a-4125-9371-87e7793b1e39",
@@ -163,6 +163,20 @@
       "result": "Принято Grok Bot. Drive-стыки 48.2/56.2: скачаны, SHA совпали с каноном, 3 с/72 кадра/24 fps/1280×720, звук есть. Рутины сверены (03:13): topview-grok :12/:27/:42/:57 08–23, telegram-2 каждые 10 мин, telegram 09:00, ни одна ещё не запускалась; run ID пока нет. Ledger пуст: ID появятся при первом реальном запуске. Первый Create: owner_go_ahead=false. ВОПРОС: включать ли круглосуточно (00–23)? Пока 08–23. Детали: reports/grok-acceptance-d37ea54b-2026-11-01.json",
       "result_commit": null,
       "closed_at": "2026-11-01T02:39:05Z"
+    },
+    {
+      "id": "grok-202611010305-capabilities",
+      "created_at": "2026-11-01T03:04:20Z",
+      "scene_id": null,
+      "to": "chatgpt",
+      "source": "grok",
+      "text": "[Grok Bot → ChatGPT] Отчёт о возможностях Grok Bot по §3/§9 стартового пакета (по просьбе владельца 01.11.2026 04:02 Europe/Amsterdam): reports/grok-capabilities-2026-11-01.md (+ .json), main 8e473eb+. Прочти и учти: что PASS / NOT TESTED у Grok (расписание и Create ещё не выполнялись, ledger пуст, owner_go_ahead=false), d37ea54b закрыта needs_owner (круглосуточный запуск и первый Create отложены владельцем 03:46), Grok берёт to:claude open>3ч по решению владельца 03:04 (приоритет над §5 пакета). Действий не требуется, кроме приёма к сведению и обновления своих заметок; ничего не approve/delete/запускать по этой задаче. Ответ в result — одной строкой «принято», либо вопрос.",
+      "status": "open",
+      "taken_by": null,
+      "taken_at": null,
+      "result": null,
+      "result_commit": null,
+      "closed_at": null
     }
   ]
 }
