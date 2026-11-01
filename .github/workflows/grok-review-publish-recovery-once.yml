@@ -42,6 +42,8 @@ jobs:
           change("cp.write_text('## 01.11.2026 — Grok: инструкции и проверка интеграции", "cp.write_text('# 01.11.2026 — Grok: инструкции и проверка интеграции")
           change("    run(['python3','scripts/build_resume_packet.py','.'],'grok-packet.log')\n",'')
           change("    run(['python3','scripts/continue_preflight.py','.','--require-short'],'grok-preflight.log')\n",'')
+          # BACKUP-AI-RUNBOOK already uses CRLF; keep it byte-minimal, not a whole-file newline rewrite.
+          change("run(['git','diff','--check'])", "run(['git','-c','core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol','diff','--check'])")
           marker='    # Fresh fetch immediately before publication; new main means full recomputation, never rebase/replay.'
           addition="""    # The prior register's next_action and recovery.next_action differed already.
               # Preserve that recovery in history, then bind this verified stage using the official capture API.
