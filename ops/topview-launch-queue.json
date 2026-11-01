@@ -5627,7 +5627,7 @@
       "canonical_prompt_sha256": "f2a13af252b891bcf10d256cb4522aa3b3d4cd0049a438b98389472004fff162",
       "normalized_prompt_sha256": "68502bd0e16600656bb095e5d0981b88a52efe8d0d6d40eb77003c27f7092503",
       "priority": -0.99,
-      "state": "claimed",
+      "state": "submitting",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5714,7 +5714,16 @@
           "ui_settings": "Wan 3.0 · 16:9 · 30s · 720p · Количество 1",
           "ui_prompt_end_verified": true,
           "ui_proof": "box screenshots S71-form.png / S71-settings.png"
-        }
+        },
+        "submission_intent_id": "8d2ba66f-1734-4c66-a60c-0e44baa4f7bf",
+        "submission_intent_at": "2026-11-01T08:28:48Z",
+        "lease_holder": "grok:bcf630c5-639f-4a0e-a7f6-3124c9e4adfe",
+        "lease_acquired_at": "2026-11-01T08:26:55Z",
+        "replay_forbidden": true,
+        "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-01T08:21:43.408Z",
+        "provider_run_key": "9ab983d318ee973e9f55eb5d383e160180496ace0fb350a73447db227549e697",
+        "owner_event_keys": [],
+        "ledger_path": "ops/launcher-run-ledger.json"
       },
       "blocker": null,
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
