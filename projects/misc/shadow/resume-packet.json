@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-01T03:43:15+00:00",
-  "source_head": "a58b77d22ac1671239f1e9e5307a32bc03e74364",
-  "source_fingerprint": "efae04d0a273d612028a93e3838bd1bdc86ee982ecd7270e01493e4807b6db5f",
+  "checked_at": "2026-11-01T03:59:29+00:00",
+  "source_head": "a59fa91ff13b484aaea344bd9a4ce414eaec9e9e",
+  "source_fingerprint": "fbc1e0ad54c3f19500eecddd99df825e4d6e03d5615304be4a8b998bb5409871",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -228,8 +228,8 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "4d772fce273d2944cfbf5f9f7a0d03f138c7846e3c3234128a61882678f8a937",
-      "bytes": 7258
+      "sha256": "2015475ab0c0bd822f2b215aac18e462926e629559809fea1f63eeebe02458b1",
+      "bytes": 7924
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
@@ -243,8 +243,8 @@
     },
     {
       "file": "projects/misc/video-prompts.md",
-      "sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
-      "bytes": 1093
+      "sha256": "ef0f529e62546f4b683e9a789dea0a49cbb9f4ec875bc478a2d101ca0e943723",
+      "bytes": 56235
     },
     {
       "file": "projects/misc/work-resume-register.json",
