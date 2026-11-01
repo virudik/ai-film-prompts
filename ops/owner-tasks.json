@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-01T02:38:26Z",
+  "updated_at": "2026-11-01T02:39:05Z",
   "tasks": [
     {
       "id": "90d2b889-054a-4125-9371-87e7793b1e39",
@@ -157,12 +157,12 @@
       "to": "grok",
       "source": "site",
       "text": "[GROK-SHARED-OPS-20261101] Серёгиус. По прямому поручению владельца в ChatGPT: внедрить три согласованных дополнения и адресат Grok. Получи fresh main virudik/ai-film-prompts; прочти reports/grok-shared-ops-handoff.md и reports/grok-shared-ops-2026-11-01.json. ChatGPT уже опубликовал обязательный ledger run/message/update IDs, общие Drive-стыки48.2/56.2 и маршрут задач сайта. Возьми эту задачу своим taken_by и доведи свою часть: подключи реальные provider run IDs и оригинальные Telegram/Grok Chat message IDs к prepare_transaction; публикуй очередь+ledger одним CAS; измени СУЩЕСТВУЮЩУЮ topview-grok на :12/:27 круглосуточно Europe/Amsterdam, без новой рутины; верни readback настроек и настоящий run ID; скачай оба Drive MP4, проверь канонические SHA и доступ из своей среды. Читай to:grok на своих существующих циклах. Стича, master, приоритеты, task IDs, unknown, чужие замки и Unlimited0 сохранить. Первый настоящий Create регулируется отдельным живым owner_go_ahead — это поручение не снимает его и не разрешает лишний ролик/расход. Ответ сохрани в той же задаче с доказательствами; не объявляй адаптер/ночное расписание испытанными до реального выполнения. Источник записи: прямое поручение владельца через ChatGPT, не имитация клика на сайте.",
-      "status": "taken",
+      "status": "needs_owner",
       "taken_by": "grok:bot-accept-d37ea54b",
       "taken_at": "2026-11-01T02:38:26Z",
-      "result": null,
+      "result": "Принято Grok Bot. Drive-стыки 48.2/56.2: скачаны, SHA совпали с каноном, 3 с/72 кадра/24 fps/1280×720, звук есть. Рутины сверены (03:13): topview-grok :12/:27/:42/:57 08–23, telegram-2 каждые 10 мин, telegram 09:00, ни одна ещё не запускалась; run ID пока нет. Ledger пуст: ID появятся при первом реальном запуске. Первый Create: owner_go_ahead=false. ВОПРОС: включать ли круглосуточно (00–23)? Пока 08–23. Детали: reports/grok-acceptance-d37ea54b-2026-11-01.json",
       "result_commit": null,
-      "closed_at": null
+      "closed_at": "2026-11-01T02:39:05Z"
     }
   ]
 }

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "GROK-SHARED-OPS-20261101",
+  "task_id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
+  "actor": "grok:bot-accept-d37ea54b (Grok Bot, own environment only; nothing recorded on behalf of ChatGPT or Grok Chat)",
+  "recorded_at": "2026-11-01T02:40:00Z",
+  "recorded_at_local": "2026-11-01 03:40 Europe/Amsterdam",
+  "owner_instruction": "Тебе тут гпт инструкции сделал для интеграции в проект. Начни с MESSAGE-TO-GROK.txt (2026-11-01 03:36 Europe/Amsterdam, Grok Bot chat)",
+  "read": [
+    "MESSAGE-TO-GROK.txt",
+    "00-START-HERE.md (sections 3,5,6,7 and rest)",
+    "01-GROK-BOT-TASK.txt",
+    "AI-Film-Grok-report.md",
+    "VERIFY-PACKAGE.py (read, not needed: it checks an unpacked snapshot, main is the checkout)"
+  ],
+  "not_downloaded": "canonical-files / references / start-kit zips: main is canon and already checked out; Drive package is an exchange copy",
+  "main_checked_head": "f41a19a (before claim commit a2ab58a)",
+  "capabilities": {
+    "github_read_write_readback": "PASS (claim commit a2ab58a pushed and read back)",
+    "terminal_tests": "PASS (python3, ffprobe, unittest)",
+    "drive_files": "PASS (Drive connector listing/read/download; anonymous curl download of both canonical IDs from the box)",
+    "supabase_connector": "PASS read-only (no writes)",
+    "topview_browser_unlimited": "previously PASS in dry run S71-WAN30 (reported in chat, no receipt); not re-run now, no Create",
+    "own_schedule_and_provider_run_id": "readback below; NO provider run exists yet (all three routines never run)",
+    "launcher_adapter_ledger": "NOT TESTED: ops/launcher-run-ledger.json is empty (runs/events {}) because no prepare_transaction has been published; real provider_run_id and Telegram update IDs are written by prepare_transaction at the first real launch. Nothing was invented.",
+    "grok_project_attachment": "not applicable to Grok Bot (Grok Chat surface)"
+  },
+  "mp4_inputs": [
+    {
+      "scene": "48.2",
+      "file": "S48-P1-last3s.mp4",
+      "canonical_drive_id": "1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX",
+      "package_copy_id": "1kJY5D5AV2QPXIl7_8ck2E3WHa7EKRJVR",
+      "bytes": 2253712,
+      "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+      "sha256_matches_ops_shared_inputs": true,
+      "duration_s": 3.0,
+      "video_frames": 72,
+      "fps": 24,
+      "size": "1280x720",
+      "video": "h264",
+      "audio": "aac present",
+      "canonical_download_http": 200,
+      "package_copy_sha_identical": true
+    },
+    {
+      "scene": "56.2",
+      "file": "S56-P1-last3s.mp4",
+      "canonical_drive_id": "1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5",
+      "package_copy_id": "1u0w83PENiDlCybJHq4yVASBsfWvIumar",
+      "bytes": 2479230,
+      "sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+      "sha256_matches_ops_shared_inputs": true,
+      "duration_s": 3.0,
+      "video_frames": 72,
+      "fps": 24,
+      "size": "1280x720",
+      "video": "h264",
+      "audio": "aac present",
+      "canonical_download_http": 200,
+      "package_copy_sha_identical": true
+    }
+  ],
+  "mp4_note": "Access from Grok Bot's environment confirmed. Files are used only from the shared source; nothing uploaded to GitHub; no Create made.",
+  "routine_readback": {
+    "source": "owner-visible routine list read by Grok Bot at 03:13 Europe/Amsterdam (provider readback of own settings)",
+    "routines": [
+      {
+        "name": "Поручения: Telegram и задачи с сайта",
+        "id": "telegram-2",
+        "schedule": "CRON_TZ=Europe/Amsterdam */10 8-23 * * *",
+        "timing": "flexible ±5 min (server fires :05,:15,...,:55)",
+        "runs": "never run yet"
+      },
+      {
+        "name": "Topview: наблюдение и запуск сцен (grok)",
+        "id": "topview-grok",
+        "schedule": "CRON_TZ=Europe/Amsterdam 12,27,42,57 8-23 * * *",
+        "timing": "exact",
+        "launches": "only in :12/:27 runs",
+        "runs": "never run yet",
+        "next_run": "2026-11-01 08:12 Europe/Amsterdam"
+      },
+      {
+        "name": "Утренняя сводка в Telegram",
+        "id": "telegram",
+        "schedule": "0 9 * * *",
+        "runs": "never run yet"
+      },
+      {
+        "name": "Проверка расхода рутин (one-off)",
+        "schedule": "2026-11-01 21:00 Europe/Amsterdam"
+      }
+    ],
+    "provider_run_id": null,
+    "twenty_four_hour_coverage": "NOT applied: the existing topview-grok stays 08:00-23:57 Amsterdam. The owner has not approved 24/7 and is watching usage; coverage.desired_schedule (00-23) is not in effect. Decision pending owner.",
+    "provider_state": "daytime schedule applied and read back; 24h pending_owner_decision; no provider run yet"
+  },
+  "first_real_create_gate": {
+    "owner_go_ahead": false,
+    "state": "pending_owner_go_ahead",
+    "source": "ops/slot-backup.json#grok_launcher.first_real_create (live main)",
+    "changed_by_this_work": false
+  },
+  "new_topview_submissions": 0,
+  "new_paid_actions": 0,
+  "stitch_and_existing_results_preserved": true,
+  "open_questions_for_owner": [
+    "Разрешить ли topview-grok работать круглосуточно (минуты :12/:27 всех 24 часов Europe/Amsterdam)? Сейчас 08:12–23:57; окно запуска :10–:40 каждого часа уже допускает ночь. Сначала посмотрим расход рутин (проверка 21:00)."
+  ]
+}
