@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:d1bdde26-5e1d-46c5-9274-337dd7dfa0a3",
-  "task": "Grok owner_command launch trigger in launcher_coordination.py (no Create, no queue changes, owner_go_ahead unchanged)",
-  "acquired_at": "2026-10-31T23:40:49Z",
-  "expires_at": null,
-  "released_at": "2026-10-31T23:42:29Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:40328ede-72a9-43f0-8e3b-c9e56b3e09fe",
+  "task": "ChatGPT scheduled ordinary 03:00 MSK capacity scan and receipt; no Create at confirmed 6/6",
+  "acquired_at": "2026-11-01T00:02:20.980Z",
+  "expires_at": "2026-11-01T00:19:20.980Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
