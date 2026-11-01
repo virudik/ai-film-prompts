@@ -1,0 +1,45 @@
+name: Publish tested Grok shared operations
+on:
+  push:
+    branches: [work/grok-shared-ops-20261101]
+    paths: [.github/workflows/grok-shared-publish-once.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with: {ref: main, fetch-depth: 1}
+      - name: Recompute and publish the verified implementation under its own exact lease
+        env:
+          PUBLISH: 'true'
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          git fetch --depth=1 origin e1cc682cd723adf144b0703c2e7c5f231edf5485
+          git show e1cc682cd723adf144b0703c2e7c5f231edf5485:.github/workflows/grok-shared-implementation-once.yml > /tmp/validated-workflow.yml
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess
+          lines=Path('/tmp/validated-workflow.yml').read_text().splitlines(True)
+          blocks=[];i=0
+          while i<len(lines):
+              if lines[i].rstrip()=='        run: |':
+                  i+=1;part=[]
+                  while i<len(lines) and (lines[i].startswith('          ') or not lines[i].strip()):
+                      part.append(lines[i][10:] if lines[i].startswith('          ') else lines[i]);i+=1
+                  blocks.append(''.join(part))
+              else:i+=1
+          assert len(blocks)==2
+          for block in blocks:subprocess.run(['bash','-e','-o','pipefail','-c',block],check=True)
+          PY
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: grok-shared-publication
+          path: |
+            /tmp/grok-shared-verification.json
+            /tmp/AI-Film-Grok-shared-ops.zip
+            /tmp/grok-*.log
+          retention-days: 3
