@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt",
-  "task": "Продолжай: все проекты и квитанция приёма смены",
-  "acquired_at": "2026-10-27T14:02:07.229Z",
-  "expires_at": null,
-  "released_at": "2026-10-27T14:30:50.735Z",
-  "rules": "ops/CANON-LOCK.md"
+  "state": "held",
+  "holder": "grok:2c3d06e5-38ef-4ff1-a21f-dfe50ad09224",
+  "task": "Разное: сцена 1 Тихий маяк (черновик A1-A8)",
+  "acquired_at": "2026-11-01T03:52:05Z",
+  "expires_at": "2026-11-01T04:37:05Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md",
+  "project": "misc"
 }
