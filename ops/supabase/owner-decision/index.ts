@@ -11,7 +11,7 @@ const OWNER_KEY = Deno.env.get("OWNER_DECISION_KEY") || "";
 const ALLOWED_ORIGINS = new Set(["https://virudik.github.io", "https://рудик.рф", "https://xn--d1aigvp.xn--p1ai"]);
 const ACTIONS = new Set(["accept", "redo", "to_montage", "scene_not_needed", "tv_drop_task", "tv_mark_status", "owner_task", "in_film",
   "queue_up", "queue_down", "queue_remove", "queue_add", "ref_feedback"]);
-const TASK_TARGETS = new Set(["claude", "chatgpt", "any"]);
+const TASK_TARGETS = new Set(["claude", "chatgpt", "grok", "any"]);
 const REF_VERDICTS = new Set(["ok", "redraw"]);
 const NOTE_ACTIONS = new Set(["owner_task", "ref_feedback"]);
 const TV_STATUSES = new Set(["result_ok", "result_bad", "not_waiting", "failed"]);

@@ -252,14 +252,14 @@ def plan(rows, files, now):
         if action in QUEUE_ACTIONS and pid != prj.ROOT_ID:
             continue                               # another project's queue: phase 4 (robot_project_actions.py)
         if action == "owner_task":
-            to = row.get("value") if row.get("value") in ("claude", "chatgpt", "any") else "any"
+            to = row.get("value") if row.get("value") in ("claude", "chatgpt", "grok", "any") else "any"
             if row["id"] not in in_inbox:
                 t = inbox_task(row, to=to, text=prj.strip_note_tag(row.get("note")), source="site", stamp=stamp)
                 if pid != prj.ROOT_ID:
                     t["project"] = pid
                 inbox.setdefault("tasks", []).append(t)
                 in_inbox[row["id"]] = t
-            who = {"claude": "Claude", "chatgpt": "ChatGPT", "any": "Claude или ChatGPT"}[to]
+            who = {"claude": "Claude", "chatgpt": "ChatGPT", "grok": "Grok", "any": "Claude, ChatGPT или Grok"}[to]
             where = "" if pid == prj.ROOT_ID else f", проект {pid}"
             acks.append((row, "in_progress", f"{INBOX_CLAIM} задача в ops/owner-tasks.json, ждёт исполнителя ({who}{where})"))
         elif action == "ref_feedback":

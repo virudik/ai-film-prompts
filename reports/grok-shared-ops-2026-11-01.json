@@ -2,9 +2,9 @@
   "schema_version": 1,
   "project": "seregius",
   "work_id": "GROK-SHARED-OPS-20261101",
-  "stage": "started",
+  "stage": "repository_verified_provider_acceptance_pending",
   "recorded_at": "2026-11-01T01:00:44Z",
-  "source_head": "148a0c29d9a21b94be0c8273e56b8bb52be16a64",
+  "source_head": "bbe54f0bff9d74c24fd8dce2730d929736a93375",
   "owner_quote": "Первое, второе и третье делай. Для второго все нужные файлы можно разместить в гитхаба или гугл диске, где лучше а не в библиотеке, для общего доступа. И Стича он нарисовал и добавил в сцену нужные, у твоего прошлого чата не получалось. добавить проверенный адресат «Grok» в задачи сайта да. Отчёт дать грок бота и чату файлом?",
   "scope": [
     "Durable Grok provider-run and Telegram-message deduplication",
@@ -22,5 +22,49 @@
     "No connected Grok routine-management or Telegram plugin found by capability search",
     "No credentials requested or published"
   ],
-  "new_video_submissions": 0
+  "new_video_submissions": 0,
+  "updated_at": "2026-11-01T01:17:06Z",
+  "implemented": [
+    "Durable Grok run/message/update intent ledger with no TTL reset",
+    "Grok site UI/Edge allowlist/robot inbox target and result backflow",
+    "Shared Drive tails48.1/56.1 readback SHA, no Library dependency",
+    "Owner-authorized all-hour launch window and explicit desired provider schedule; no fake activation",
+    "Existing Grok Stitch bytes/bindings preserved"
+  ],
+  "pending": [
+    "Live Edge deployment/readback after tested source publication",
+    "Actual Grok provider routine adjustment/readback, original run/message adapter and inbox acceptance",
+    "First real production Create remains gated; no video started by this work"
+  ],
+  "shared_inputs_report": "reports/shared-inputs-transfer-2026-11-01.json",
+  "new_topview_submissions": 0,
+  "new_recurring_automations": 0,
+  "boundaries": {
+    "grok_runtime_management_connector": "not_available_after_Plugin_Management_and_Relay_roster_search",
+    "grok_relay_roster_match": false,
+    "first_real_create_unchanged": true,
+    "queue_order_and_prompts_unchanged": true
+  },
+  "verification_run_id": "41260420489",
+  "verified_at": "2026-11-01T01:17:27Z",
+  "tests": {
+    "unit_tests": 456,
+    "site": "passed",
+    "instruction_consistency": "ok",
+    "certificate": "7/7"
+  },
+  "shared_inventory": {
+    "assets": 131,
+    "pending_items": 54,
+    "all_required_inputs_shared": 33
+  },
+  "protected_sha256": {
+    "video-prompts.md": "e0026ac3abe7d7141271838788f9ea2a831a222cd252e1c48c3685ab4bc055bc",
+    "character-references.json": "22bb36f842304d1258a1fc3d4ee74beabd66c0d2935a23936395a85fba8212c9",
+    "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
+    "references/thumbs/scenes/scene-66/S66-Stitch-tatooine-sheet.png.webp": "b12128f2bfa38c26289e57afe6cfd9dd972765c12b5ce5c21bcc0b252240f29d",
+    "references/scenes/scene-52/manifest.json": "ae175f278ad7e407dda95d2f175047ac94e843ebb2114e3ed46170d0f394f783",
+    "references/scenes/scene-66/manifest.json": "015710bed3a35d5716970789531ff29329917b3904f769095e6f9a2486915d20",
+    "monitor-role.json": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1"
+  }
 }

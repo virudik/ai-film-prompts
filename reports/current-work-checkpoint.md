@@ -1,3 +1,9 @@
+# 01.11.2026 — Grok: общие входы и защищённые задачи — реализовано
+
+work_id: GROK-SHARED-OPS-20261101
+
+Код, общие Drive входы48.2/56.2, адресат сайта и ночное окно проверены; 456 unit tests. Отчёт `reports/grok-shared-ops-2026-11-01.json`; файл для бота/чата `reports/grok-shared-ops-handoff.md`. Первый Create, master, Стич, приоритеты и чужие claims сохранены. Осталось: live Edge deploy/readback; приём задачи и применение внешнего расписания самим Grok, проверка его оригинальных run/message IDs и файлов. Production launch не подтверждён этой правкой.
+
 # 01.11.2026 — Grok: общие входы, защита повторов и задачи сайта — начало
 
 work_id: GROK-SHARED-OPS-20261101

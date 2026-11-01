@@ -196,7 +196,14 @@
       "source_start_frame_zero_based": 289,
       "source_end_frame_exclusive": 361,
       "qc_status": "usable_for_continuity_by_owner",
-      "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json"
+      "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+      "drive_file_id": "1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5",
+      "drive_modified_at": "2026-11-01T01:01:38.288Z",
+      "primary_storage": "google_drive",
+      "web_view_link": "https://drive.google.com/file/d/1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5/view",
+      "shared_readback_sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+      "shared_readback_checked_at": "2026-11-01T01:17:06Z",
+      "library_role": "historical_backup_only_not_required"
     }
   ],
   "approved": [],
@@ -332,7 +339,14 @@
           "source_start_frame_zero_based": 289,
           "source_end_frame_exclusive": 361,
           "qc_status": "usable_for_continuity_by_owner",
-          "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json"
+          "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+          "drive_file_id": "1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5",
+          "drive_modified_at": "2026-11-01T01:01:38.288Z",
+          "primary_storage": "google_drive",
+          "web_view_link": "https://drive.google.com/file/d/1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5/view",
+          "shared_readback_sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+          "shared_readback_checked_at": "2026-11-01T01:17:06Z",
+          "library_role": "historical_backup_only_not_required"
         },
         {
           "slot": "@Image1",

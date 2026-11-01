@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-01T01:17:06Z",
+  "folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
+  "scope": "All currently available required VIDEO inputs of unsubmitted root queue: S48-P2 and S56-P2. Future source results are not fabricated. Historical submitted inputs are not mass-migrated.",
+  "permissions": "Both files have existing/inherited anyone-reader link access, discovery false. No new sharing permission was granted. Not private-only files.",
+  "files": [
+    {
+      "drive_file_id": "1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX",
+      "filename": "S48-P1-last3s.mp4",
+      "bytes": 2253712,
+      "drive_modified_at": "2026-11-01T01:01:24.497Z",
+      "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+      "downloaded_from_drive_and_verified": true,
+      "duration_seconds": 3,
+      "video_frames": 72,
+      "fps": 24,
+      "width": 1280,
+      "height": 720,
+      "audio_present": true
+    },
+    {
+      "drive_file_id": "1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5",
+      "filename": "S56-P1-last3s.mp4",
+      "bytes": 2479230,
+      "drive_modified_at": "2026-11-01T01:01:38.288Z",
+      "sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+      "downloaded_from_drive_and_verified": true,
+      "duration_seconds": 3,
+      "video_frames": 72,
+      "fps": 24,
+      "width": 1280,
+      "height": 720,
+      "audio_present": true
+    }
+  ],
+  "library_dependency_removed_for": [
+    "S48-SEED20-P2",
+    "S56-SEED20-P2"
+  ],
+  "stitch": "Existing Grok Stitch turnaround and bindings preserved byte-for-byte; @Image6 in S52-P7 and @Image7 in S66. Verify actual UI slot capacity before launch; do not silently omit an input."
+}

@@ -458,3 +458,7 @@ E. только после checkpoint — обычный sync-trigger, если 
 ## Дополнительный исполнитель Grok · 01.11.2026
 
 Зарегистрированный Grok Bot работает с тем же каноном, замком и очередью; профильные правила, дневное окно, Telegram, один Create и проверка первого запуска — `ops/LAUNCHER-COORDINATION.md`. Монитор Grok только читает и уведомляет, роль `monitor-role.json` не меняет. Тишина при полных слотах — отдельное решение для Grok, не отмена ChatGPT receipts. Текущие инструкции/настройки/выполнение проверяются раздельно; семантический аудит — `reports/grok-integration-review-2026-11-01.json`.
+
+## Общая работа с Grok · 01.11.2026
+
+Входы всех исполнителей: GitHub images/master/manifests + Google Drive MP4, реестр `ops/shared-inputs.json`; не оставлять готовый обязательный стык только в Library. Перед отправкой скачать из основного shared источника, проверить SHA/длительность/QC и соответствие слотов. После изменения очереди/входов: `python3 scripts/queue_readiness.py .` и `python3 scripts/shared_input_registry.py .`; реестр производный, не новое разрешение. Действующие потребление run/message IDs и ночные роли — `ops/LAUNCHER-COORDINATION.md`; файлы очереди и ledger публиковать одной CAS-транзакцией.

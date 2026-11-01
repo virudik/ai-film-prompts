@@ -1,0 +1,3687 @@
+{
+  "schema_version": 1,
+  "source_queue_sha256": "c0068951f17c54380ac5e91c6d42b85cea7a381081b14d9fed7b4f99c3e7b75e",
+  "authority": "GitHub main queue/master/manifests; this is a derived access inventory, not approval.",
+  "storage_policy": "GitHub images and canonical metadata; Google Drive video bytes; Library backup only.",
+  "assets": {
+    "references/scenes/scene-13/S13-Image1-topview-source.png": {
+      "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+      "actual_sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
+      "status": "shared"
+    },
+    "references/luchik.jpg": {
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/luchik.jpg",
+      "actual_sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "status": "shared"
+    },
+    "references/full/vitalik.jpg": {
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/vitalik.jpg",
+      "actual_sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "status": "shared"
+    },
+    "references/full/lesha.jpg": {
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/lesha.jpg",
+      "actual_sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "status": "shared"
+    },
+    "references/scenes/scene-13/S13-council-lap.png": {
+      "sha256": "3c3a3efc56a66a6a9d34eeb15c679b83fdd0ec78a21f3dd386476b0956cdfb36",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-13/S13-council-lap.png",
+      "actual_sha256": "3c3a3efc56a66a6a9d34eeb15c679b83fdd0ec78a21f3dd386476b0956cdfb36",
+      "status": "shared"
+    },
+    "references/scenes/scene-13/S13-luchik-closeup.png": {
+      "sha256": "f480469db3edd539b7c1d5ee3676ab830a921af21b45c5b5d07f218c52823cc7",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-13/S13-luchik-closeup.png",
+      "actual_sha256": "f480469db3edd539b7c1d5ee3676ab830a921af21b45c5b5d07f218c52823cc7",
+      "status": "shared"
+    },
+    "references/scenes/scene-28/H28B-disco.png": {
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "actual_sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "status": "shared"
+    },
+    "references/full/serega.jpg": {
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/serega.jpg",
+      "actual_sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "status": "shared"
+    },
+    "references/full/yulya.jpg": {
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/yulya.jpg",
+      "actual_sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49A-lead-and-bass.png": {
+      "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+      "actual_sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49A-playing-grip.png": {
+      "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49A-playing-grip.png",
+      "actual_sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568",
+      "status": "shared"
+    },
+    "references/full/pasha.jpg": {
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/pasha.jpg",
+      "actual_sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "status": "shared"
+    },
+    "references/full/sasha.jpg": {
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/sasha.jpg",
+      "actual_sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "status": "shared"
+    },
+    "references/full/artem.jpg": {
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/artem.jpg",
+      "actual_sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49B-rhythm-instruments.png": {
+      "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+      "actual_sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49B-playing-grip.png": {
+      "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49B-playing-grip.png",
+      "actual_sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7",
+      "status": "shared"
+    },
+    "references/full/ilyusha.jpg": {
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/full/ilyusha.jpg",
+      "actual_sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49C-drums-wind-bass.png": {
+      "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+      "actual_sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49C-playing-grip.png": {
+      "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49C-playing-grip.png",
+      "actual_sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9",
+      "status": "shared"
+    },
+    "references/masha-laguna.webp": {
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/masha-laguna.webp",
+      "actual_sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+      "status": "shared"
+    },
+    "references/scenes/scene-28/Ale28-Alesya-model-sheet.png": {
+      "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "actual_sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49D-harp-small-synth.png": {
+      "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
+      "actual_sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49D-playing-grip.png": {
+      "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49D-playing-grip.png",
+      "actual_sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723",
+      "status": "shared"
+    },
+    "references/ryzhik.jpg": {
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/ryzhik.jpg",
+      "actual_sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49E-cat-paw-controllers.png": {
+      "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+      "actual_sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49E-playing-grip.png": {
+      "sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49E-playing-grip.png",
+      "actual_sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d",
+      "status": "shared"
+    },
+    "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png": {
+      "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "actual_sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49F-playing-grip.png": {
+      "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49F-playing-grip.png",
+      "actual_sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51A-own-instrument-setup.png": {
+      "sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+      "actual_sha256": "211ba1b54a66586309178450b8e3e22b112771324727dfb19edd5a05b3844f00",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51A-own-instrument-result.png": {
+      "sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51A-own-instrument-result.png",
+      "actual_sha256": "2b18ca0e48b9088690498a136ac5b527ffc40935e089669e9d5ace52988b9425",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51B-own-instrument-setup.png": {
+      "sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+      "actual_sha256": "1acdb7a6524a5a32078301a2f3d217f93a0b38763dba8891953c211452a69b8e",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51B-own-instrument-result.png": {
+      "sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51B-own-instrument-result.png",
+      "actual_sha256": "66ffa9c55bc461e74004b72245f5be3d401c18d68acd6689f9659bbb7a3a9b84",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51C-own-instrument-setup.png": {
+      "sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+      "actual_sha256": "dd8d8c29f93b84696f8cd2ee18cb3016be5f6e7f7e08b38a74334e9154a7a931",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51C-own-instrument-result.png": {
+      "sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51C-own-instrument-result.png",
+      "actual_sha256": "eed48f14a31f7148da3ec9720f4b4511737960f45e5e48c23bc1fa1fd82be7a9",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51D-own-instrument-setup.png": {
+      "sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+      "actual_sha256": "f6d25561c58be129bfd500d11cf41707c4fa781ef9a6090de1dfa02ff6623c8d",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51D-own-instrument-result.png": {
+      "sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51D-own-instrument-result.png",
+      "actual_sha256": "f3a249c2a42d8221227d41b271fc4d4cc7d47bffab5aa73841ae5b4d9b8e63df",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51E-own-instrument-setup.png": {
+      "sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+      "actual_sha256": "a985e89457a1becd3052ef921c2522367f51106cfc26431432b0170b7be51a2e",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51E-own-instrument-result.png": {
+      "sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51E-own-instrument-result.png",
+      "actual_sha256": "df9875508225ff0f3566ad7a2a9784516f94c6069a0e01a90b6488d79e2c785b",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51F-own-instrument-setup.png": {
+      "sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+      "actual_sha256": "d495deef19030f68389adf55ba5a453ef9b1ef25f1ec871a4916c36d8180e849",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51F-own-instrument-result.png": {
+      "sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51F-own-instrument-result.png",
+      "actual_sha256": "fae9675f07dc25210710e6e866587466740a48d72005c4e789c42cf4a0454541",
+      "status": "shared"
+    },
+    "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg": {
+      "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+      "actual_sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+      "status": "shared"
+    },
+    "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg": {
+      "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+      "actual_sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+      "status": "shared"
+    },
+    "references/scenes/scene-50/S50-fans-1c48a62d.png": {
+      "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+      "actual_sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+      "status": "shared"
+    },
+    "sha256:bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf": {
+      "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+      "media_type": "video",
+      "available_to": [
+        "authenticated_owner_agents_or_existing_link_access"
+      ],
+      "storage": "google_drive",
+      "drive_file_id": "1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX",
+      "web_view_link": "https://drive.google.com/file/d/1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX/view",
+      "filename": "S48-P1-last3s.mp4",
+      "duration_seconds": 3,
+      "status": "shared_readback_verified",
+      "permissions": "Existing Drive permissions unchanged; no secrets or signed URLs in GitHub."
+    },
+    "references/scenes/scene-16/S16-desert-location-clean.png": {
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "actual_sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "status": "shared"
+    },
+    "references/scenes/scene-16/S16-worm-scale.png": {
+      "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-16/S16-worm-scale.png",
+      "actual_sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "status": "shared"
+    },
+    "references/scenes/scene-17/S17-Image4-topview-source.png": {
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "actual_sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "status": "shared"
+    },
+    "pending:S48-SEED20-P3:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S48-SEED20-P2",
+      "source_task_id": null
+    },
+    "references/scenes/scene-48/S48-P3-tatooine-city.jpg": {
+      "sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+      "actual_sha256": "235fd7025142cef495a5245f8a5989b03c5511c51c001fdf7933dfc6634c0c3e",
+      "status": "shared"
+    },
+    "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg": {
+      "sha256": "95d2c7f6c039c11ffa5d3653f5e7124e39b3eea3b0832c88061fc79b918350ec",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+      "actual_sha256": "95d2c7f6c039c11ffa5d3653f5e7124e39b3eea3b0832c88061fc79b918350ec",
+      "status": "shared"
+    },
+    "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg": {
+      "sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+      "actual_sha256": "6a7074ba9f14496d2716a53790e54f26f3a3ed8e16cb70446682bb2557090a1a",
+      "status": "shared"
+    },
+    "references/scenes/scene-48/S48-P3-serega-worm-face.jpg": {
+      "sha256": "e93641c3cf846a79538f4bc93a4a948eeb50a0fefdebaf68feee2ff8073c6c98",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+      "actual_sha256": "e93641c3cf846a79538f4bc93a4a948eeb50a0fefdebaf68feee2ff8073c6c98",
+      "status": "shared"
+    },
+    "pending:S48-SEED20-P4:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S48-SEED20-P3",
+      "source_task_id": null
+    },
+    "references/scenes/scene-48/S48-P4-city-gate.png": {
+      "sha256": "6ade90a63126f972c86c046e00075b9215967a5fb4f4e1786029444203d9e858",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-48/S48-P4-city-gate.png",
+      "actual_sha256": "6ade90a63126f972c86c046e00075b9215967a5fb4f4e1786029444203d9e858",
+      "status": "shared"
+    },
+    "references/scenes/scene-48/S48-P4-dismount-landing.png": {
+      "sha256": "108d897c6bfbdc4977a37242d204b9c05d76f95c62583acef9a51bc7fab965c2",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-48/S48-P4-dismount-landing.png",
+      "actual_sha256": "108d897c6bfbdc4977a37242d204b9c05d76f95c62583acef9a51bc7fab965c2",
+      "status": "shared"
+    },
+    "sha256:732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07": {
+      "sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+      "media_type": "video",
+      "available_to": [
+        "authenticated_owner_agents_or_existing_link_access"
+      ],
+      "storage": "google_drive",
+      "drive_file_id": "1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5",
+      "web_view_link": "https://drive.google.com/file/d/1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5/view",
+      "filename": "S56-P1-last3s.mp4",
+      "duration_seconds": 3,
+      "status": "shared_readback_verified",
+      "permissions": "Existing Drive permissions unchanged; no secrets or signed URLs in GitHub."
+    },
+    "pending:S28-A3-20261023:@Image4": {
+      "sha256": null,
+      "media_type": "image",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S28-A2-R2-20261025",
+      "source_task_id": null
+    },
+    "references/scenes/scene-28/L28-carry.webp": {
+      "sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/L28-carry.webp",
+      "actual_sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120",
+      "status": "shared"
+    },
+    "references/scenes/scene-28/S28-shoulder.png": {
+      "sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/S28-shoulder.png",
+      "actual_sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912",
+      "status": "shared"
+    },
+    "references/scenes/scene-28/H28-horizontal-lift.png": {
+      "sha256": "62a77088f1b2b18bcc43ddfb7f004e6063df086e08fb9a8a54d71ef14ae072aa",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/H28-horizontal-lift.png",
+      "actual_sha256": "62a77088f1b2b18bcc43ddfb7f004e6063df086e08fb9a8a54d71ef14ae072aa",
+      "status": "shared"
+    },
+    "pending:S28-A12-20261023:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S28-A11-20261023",
+      "source_task_id": null
+    },
+    "references/scenes/scene-28/F28-two-hand-face-fan.png": {
+      "sha256": "7388672175f216aa2f2fec142456d8d4782dfbc15e828d93c5eb6f5c07aa108c",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+      "actual_sha256": "7388672175f216aa2f2fec142456d8d4782dfbc15e828d93c5eb6f5c07aa108c",
+      "status": "shared"
+    },
+    "pending:S59-SEED20-P3:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S59-SEED20-P2",
+      "source_task_id": null
+    },
+    "pending:S59-SEED20-P3:@Image1": {
+      "sha256": null,
+      "media_type": "image",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S59-SEED20-P2",
+      "source_task_id": null
+    },
+    "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png": {
+      "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+      "actual_sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+      "status": "shared"
+    },
+    "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg": {
+      "sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+      "actual_sha256": "82ab167d30b60fd65b123c7551313fe49492d88071a563a1b561d337f6c2e616",
+      "status": "shared"
+    },
+    "pending:S59-SEED20-P4:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S59-SEED20-P3",
+      "source_task_id": null
+    },
+    "pending:S59-SEED20-P4:@Image1": {
+      "sha256": null,
+      "media_type": "image",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S59-SEED20-P3",
+      "source_task_id": null
+    },
+    "references/scenes/scene-59/S59-mushroom-basket-body.jpg": {
+      "sha256": "6724497d1940e0280dd444f15ffa4a07bbc10481b0e7a3099210d38b75cfdb02",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+      "actual_sha256": "6724497d1940e0280dd444f15ffa4a07bbc10481b0e7a3099210d38b75cfdb02",
+      "status": "shared"
+    },
+    "references/scenes/scene-59/S59-mushroom-face-weave.jpg": {
+      "sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+      "actual_sha256": "a6caf625e6c1d3de25554e7b2d991f3107cca7295c27947d791dcf7ab756ce45",
+      "status": "shared"
+    },
+    "references/scenes/scene-59/S59-mushroom-forest-opening.jpg": {
+      "sha256": "b335bcc8ab4ee291d388832d26e4e1e55b936463d349029a48757ce918953a4d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+      "actual_sha256": "b335bcc8ab4ee291d388832d26e4e1e55b936463d349029a48757ce918953a4d",
+      "status": "shared"
+    },
+    "pending:S60-SEED20-P2:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S60-SEED20-P1",
+      "source_task_id": null
+    },
+    "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png": {
+      "sha256": "d4e374dbf47048c55e4040358aa2cf8b210f6f6133647a125cd32059dd07649a",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png",
+      "actual_sha256": "d4e374dbf47048c55e4040358aa2cf8b210f6f6133647a125cd32059dd07649a",
+      "status": "shared"
+    },
+    "references/scenes/scene-37/S37-cockpit-empty.png": {
+      "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+      "actual_sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+      "status": "shared"
+    },
+    "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png": {
+      "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+      "actual_sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+      "status": "shared"
+    },
+    "pending:S61-SEED20-P2:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S61-SEED20-P1",
+      "source_task_id": null
+    },
+    "references/scenes/scene-61/S61-owner-video-opening.jpg": {
+      "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+      "actual_sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+      "status": "shared"
+    },
+    "pending:S62-SEED20-P2:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S62-SEED20-P1",
+      "source_task_id": null
+    },
+    "references/scenes/scene-62/S62-source-A-final.jpg": {
+      "sha256": "71f89c0e8991acbfac7e8c3ba96653d5cb409635611d8f6056841ad32a82ca94",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-62/S62-source-A-final.jpg",
+      "actual_sha256": "71f89c0e8991acbfac7e8c3ba96653d5cb409635611d8f6056841ad32a82ca94",
+      "status": "shared"
+    },
+    "references/scenes/scene-62/S62-target-B-opening.jpg": {
+      "sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-62/S62-target-B-opening.jpg",
+      "actual_sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff",
+      "status": "shared"
+    },
+    "references/scenes/scene-62/S62-car-continuity.jpg": {
+      "sha256": "20bf3ae84b6a940f26f3aa096ddce60f36b30b3754e600cf95b5e135315f2444",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-62/S62-car-continuity.jpg",
+      "actual_sha256": "20bf3ae84b6a940f26f3aa096ddce60f36b30b3754e600cf95b5e135315f2444",
+      "status": "shared"
+    },
+    "references/scenes/scene-63/S63-temple-gallery.png": {
+      "sha256": "91dbf09828daac7cba958dda5566c09edf0b78baeac77f5ac46e3733e9ba57c8",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-63/S63-temple-gallery.png",
+      "actual_sha256": "91dbf09828daac7cba958dda5566c09edf0b78baeac77f5ac46e3733e9ba57c8",
+      "status": "shared"
+    },
+    "references/scenes/scene-63/S63-admiring-portrait.png": {
+      "sha256": "628cac50c182c29e43579996a8de6c7df4a99298e648aa55f49d8d273205a6ca",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-63/S63-admiring-portrait.png",
+      "actual_sha256": "628cac50c182c29e43579996a8de6c7df4a99298e648aa55f49d8d273205a6ca",
+      "status": "shared"
+    },
+    "references/scenes/scene-63/S63-throne-hall.png": {
+      "sha256": "182d6a8e9a0013ebad26ecb18eb7b7396b63342887da52e672fa36a2adf6a7c7",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-63/S63-throne-hall.png",
+      "actual_sha256": "182d6a8e9a0013ebad26ecb18eb7b7396b63342887da52e672fa36a2adf6a7c7",
+      "status": "shared"
+    },
+    "references/scenes/scene-28/P28-pair-facing.webp": {
+      "sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/P28-pair-facing.webp",
+      "actual_sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7",
+      "status": "shared"
+    },
+    "pending:S52-R2-SEED20-P2:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S52-R2-SEED20-P1",
+      "source_task_id": null
+    },
+    "references/scenes/scene-37/S37-ship-clean-roof.png": {
+      "sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-37/S37-ship-clean-roof.png",
+      "actual_sha256": "cbacb5b2f420b07aefb8349b85e92f7d5569537c845e0ae7b1a93c0a5cea6396",
+      "status": "shared"
+    },
+    "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg": {
+      "sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+      "actual_sha256": "b9e882d32fedc1f3a5a4e9bb70dceabf0c6d48bc7b02c5767dce1158c1d596fd",
+      "status": "shared"
+    },
+    "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png": {
+      "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+      "actual_sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+      "status": "shared"
+    },
+    "pending:S52-R2-SEED20-P3:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S52-R2-SEED20-P2",
+      "source_task_id": null
+    },
+    "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg": {
+      "sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+      "actual_sha256": "973899e899362c12f9a4b4c0a2cfee6bdbf45160373db8a1bfec231bdca615ce",
+      "status": "shared"
+    },
+    "references/scenes/scene-52/S52-cruiser-topview.jpg": {
+      "sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+      "actual_sha256": "48f9692014db6c8efa742c166d75028a228a6a24831c7d29b063c2a7304ba218",
+      "status": "shared"
+    },
+    "pending:S52-R2-SEED20-P4:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S52-R2-SEED20-P3",
+      "source_task_id": null
+    },
+    "references/scenes/scene-52/S52-P4-tatooine-approach.jpg": {
+      "sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+      "actual_sha256": "959b6794194048ffdf1c1e75ba1fa4ff6d98264dbf751ea663bfc68a808eeac7",
+      "status": "shared"
+    },
+    "references/scenes/ship-locations/Serega-ship-tatooine-town.png": {
+      "sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+      "actual_sha256": "8bd6cfcf32ffe2b529fa443c1ea18a3f5a1c419e36d6e8909cc99d2b486a8b01",
+      "status": "shared"
+    },
+    "pending:S52-R2-SEED20-P5:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S52-R2-SEED20-P4",
+      "source_task_id": null
+    },
+    "references/scenes/scene-52/S52-P5-tatooine-landing.jpg": {
+      "sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+      "actual_sha256": "734bc3564bb5383a1a96ca8b9eefb0af81a88025b0f317eed23559f520dbda27",
+      "status": "shared"
+    },
+    "pending:S52-R2-SEED20-P6:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S52-R2-SEED20-P5",
+      "source_task_id": null
+    },
+    "references/scenes/scene-52/S52-P6-disembark.jpg": {
+      "sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-52/S52-P6-disembark.jpg",
+      "actual_sha256": "2c5feb32211dbf90e2f4b26df02bd20220fb11d338d93fbeb3bcbb5076338bbd",
+      "status": "shared"
+    },
+    "pending:S52-R2-SEED20-P7:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S52-R2-SEED20-P6",
+      "source_task_id": null
+    },
+    "references/scenes/scene-52/S52-P7-town-walk.jpg": {
+      "sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+      "actual_sha256": "83352d9e93ae8855d81aeabe1cd188ab5913802dbb1f29357f3b7c25875442f5",
+      "status": "shared"
+    },
+    "references/scenes/scene-66/S66-street-outrage.png": {
+      "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-66/S66-street-outrage.png",
+      "actual_sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+      "status": "shared"
+    },
+    "references/scenes/scene-66/S66-Alina-tatooine-sheet.png": {
+      "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+      "actual_sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+      "status": "shared"
+    },
+    "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png": {
+      "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+      "actual_sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+      "status": "shared"
+    },
+    "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png": {
+      "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+      "actual_sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
+      "status": "shared"
+    },
+    "references/scenes/scene-64/S64-corridor.png": {
+      "sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-64/S64-corridor.png",
+      "actual_sha256": "384efacbf60fca4a1f30d1339fc999c3a664d6039f3d48d99e027a868da35314",
+      "status": "shared"
+    },
+    "references/scenes/scene-64/S64-officers-reaction.png": {
+      "sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-64/S64-officers-reaction.png",
+      "actual_sha256": "51fb04a8667a12e46b80e0e0325adc28f25bac90acc519b9a89c6b25b01e9571",
+      "status": "shared"
+    },
+    "pending:S65-WAN30:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S70-WAN30",
+      "source_task_id": null
+    },
+    "references/scenes/scene-10/S10-Image1-cantina-source.png": {
+      "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "actual_sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+      "status": "shared"
+    },
+    "references/scenes/scene-65/S65-bar-table.png": {
+      "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-65/S65-bar-table.png",
+      "actual_sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d",
+      "status": "shared"
+    },
+    "references/scenes/scene-65/S65-toast-closeup.png": {
+      "sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-65/S65-toast-closeup.png",
+      "actual_sha256": "a322c6b21788839053c977fd7dcd6043115b9967384052c430d855472d9af552",
+      "status": "shared"
+    },
+    "references/scenes/scene-71/S71-hookah-throne.png": {
+      "sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-71/S71-hookah-throne.png",
+      "actual_sha256": "8280362b39d46e46b5be1b90983c67da7a06ca428871f62d2881a1a75563acc3",
+      "status": "shared"
+    },
+    "references/scenes/scene-71/S71-vitalik-on-throne-girls.png": {
+      "sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+      "actual_sha256": "03a3aa67fe7e322be56c993e863c4a4d6d45c14c18d0ae19e8ae804f0c591b20",
+      "status": "shared"
+    },
+    "pending:S66-WAN30:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S52-R2-SEED20-P7",
+      "source_task_id": null
+    },
+    "references/scenes/scene-67/S67-fruit-stall.png": {
+      "sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-67/S67-fruit-stall.png",
+      "actual_sha256": "2426a8c3c5aad85b7262d5df30a168e31cef6fdd7087a90fe29db7d62468b656",
+      "status": "shared"
+    },
+    "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png": {
+      "sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+      "actual_sha256": "37cace0dea2e6d3714057bd728d7a6423bc048b84ef28627c4291c5a83c142c9",
+      "status": "shared"
+    },
+    "references/scenes/scene-67/S67-vendor.png": {
+      "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-67/S67-vendor.png",
+      "actual_sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
+      "status": "shared"
+    },
+    "pending:S67-WAN30:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S66-WAN30",
+      "source_task_id": null
+    },
+    "pending:S68-WAN30:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S67-WAN30",
+      "source_task_id": null
+    },
+    "references/scenes/scene-68/S68-sweepers-crew.png": {
+      "sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-68/S68-sweepers-crew.png",
+      "actual_sha256": "72cd5bc201efa0ebf145236a3ec812a27af9daa6eb094707ec9adc3a31386d46",
+      "status": "shared"
+    },
+    "references/scenes/scene-68/S68-light-broom.png": {
+      "sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-68/S68-light-broom.png",
+      "actual_sha256": "7ba7ce8d9310f3f2dc4046ce75e7df8f68af4adfd503b4715cf71ef908bc7c0d",
+      "status": "shared"
+    },
+    "references/scenes/scene-69/S69-light-dustpan.png": {
+      "sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-69/S69-light-dustpan.png",
+      "actual_sha256": "0a10c7d00bd8418d5102a65e769fe7b401fdd9f2d177574bd356cec06f237cff",
+      "status": "shared"
+    },
+    "references/scenes/scene-68/S68-crew-sweeping-street.png": {
+      "sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+      "actual_sha256": "a4f160efe489fb1af9717790c8fc88c5312ba7bef8a508e496d71515139fa2ac",
+      "status": "shared"
+    },
+    "pending:S69-WAN30:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S68-WAN30",
+      "source_task_id": null
+    },
+    "references/scenes/scene-69/S69-melon-bag-handoff.png": {
+      "sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+      "actual_sha256": "366ca47d70f63575df89282e3df23cf30e963fd911d70293d273fbebe5a6952f",
+      "status": "shared"
+    },
+    "pending:S70-WAN30:@Video1": {
+      "sha256": null,
+      "media_type": "video",
+      "available_to": [],
+      "storage": "pending_source",
+      "status": "waiting_result_or_shared_materialization",
+      "source_item_id": "S69-WAN30",
+      "source_task_id": null
+    },
+    "references/scenes/scene-70/S70-cantina-entrance.png": {
+      "sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-70/S70-cantina-entrance.png",
+      "actual_sha256": "ac1894cdcfe8c2fefa7a8898f6efb474ce669903fced95b96078f568c97cced9",
+      "status": "shared"
+    },
+    "references/scenes/scene-49/S49G-trio-playing.png": {
+      "sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-49/S49G-trio-playing.png",
+      "actual_sha256": "9a93a3536284b5dda56db4cc0647b054e1520dbc28e8a758aa95fc219fb02765",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51G-trio-smash-result.png": {
+      "sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51G-trio-smash-result.png",
+      "actual_sha256": "2c5ec7af3c9ca25aa2db1d1874f09cf07ddbdab35913e03c83c992b4492a959a",
+      "status": "shared"
+    },
+    "references/scenes/scene-51/S51G-trio-smash-windup.png": {
+      "sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+      "actual_sha256": "2a076f44f5b6c562e6165fa0a9cc051abc985bcb4de41a4925fe5897a40b4fd0",
+      "status": "shared"
+    },
+    "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png": {
+      "sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+      "media_type": "image",
+      "available_to": [
+        "chatgpt",
+        "grok",
+        "claude"
+      ],
+      "storage": "github",
+      "path": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+      "actual_sha256": "f6499c3ca6b546daac6066754823348306bf8248f4979a708db16047f4be2c9c",
+      "status": "shared"
+    }
+  },
+  "items": [
+    {
+      "id": "S13-S13",
+      "state": "blocked_owner_decision",
+      "bindings": [
+        {
+          "slot": "@image1",
+          "asset_id": "references/scenes/scene-13/S13-Image1-topview-source.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@image2",
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@image3",
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@image4",
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@image5",
+          "asset_id": "references/scenes/scene-13/S13-council-lap.png",
+          "required": false,
+          "shared_ready": true
+        },
+        {
+          "slot": "@image6",
+          "asset_id": "references/scenes/scene-13/S13-luchik-closeup.png",
+          "required": false,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S49A",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49A-playing-grip.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S49B",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-49/S49B-playing-grip.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S49C",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-49/S49C-playing-grip.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S49D",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49D-harp-small-synth.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49D-playing-grip.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S49E",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/ryzhik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49E-playing-grip.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S49F",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-49/S49D-harp-small-synth.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image7",
+          "asset_id": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image8",
+          "asset_id": "references/scenes/scene-49/S49F-playing-grip.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S51A",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-51/S51A-own-instrument-setup.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-51/S51A-own-instrument-result.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S51B",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-51/S51B-own-instrument-setup.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-51/S51B-own-instrument-result.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S51C",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-51/S51C-own-instrument-setup.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image7",
+          "asset_id": "references/scenes/scene-51/S51C-own-instrument-result.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S51D",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-51/S51D-own-instrument-setup.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-51/S51D-own-instrument-result.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S51E",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49D-harp-small-synth.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-51/S51E-own-instrument-setup.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-51/S51E-own-instrument-result.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S51F",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/ryzhik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-51/S51F-own-instrument-setup.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-51/S51F-own-instrument-result.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S50A",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S50B",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S48-SEED20-P2",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "sha256:bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-16/S16-worm-scale.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S48-SEED20-P3",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S48-SEED20-P3:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-16/S16-worm-scale.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-48/S48-P3-tatooine-city.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-ride.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-closeup.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-48/S48-P3-serega-worm-face.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S48-SEED20-P4",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S48-SEED20-P4:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-16/S16-worm-scale.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-48/S48-P4-city-gate.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-48/S48-P4-dismount-landing.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S56-SEED20-P2",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "sha256:732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-16/S16-worm-scale.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A3-20261023",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "pending:S28-A3-20261023:@Image4",
+          "required": true,
+          "shared_ready": false
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S28-A4-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A5-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A6-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A7-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/ryzhik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A8-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-28/L28-carry.webp",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A9-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-28/S28-shoulder.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A10-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A11-20261023",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-28/H28-horizontal-lift.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A12-20261023",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S28-A12-20261023:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-28/F28-two-hand-face-fan.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S59-SEED20-P3",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S59-SEED20-P3:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "pending:S59-SEED20-P3:@Image1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-59/S59-mushroom-forest-canopy.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S59-SEED20-P4",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S59-SEED20-P4:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "pending:S59-SEED20-P4:@Image1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-59/S59-mushroom-basket-body.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-59/S59-mushroom-face-weave.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-59/S59-mushroom-forest-opening.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S60-SEED20-P2",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S60-SEED20-P2:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-37/S37-cockpit-empty.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S61-SEED20-P2",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S61-SEED20-P2:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S62-SEED20-P2",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S62-SEED20-P2:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-62/S62-source-A-final.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-62/S62-target-B-opening.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-62/S62-car-continuity.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S63-WAN30",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-63/S63-temple-gallery.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-63/S63-admiring-portrait.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-63/S63-throne-hall.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A1-R2-20261025",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A2-R2-20261025",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-28/P28-pair-facing.webp",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S52-R2-SEED20-P2",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S52-R2-SEED20-P2:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-52/S52-P2-hangar-takeoff.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-37/S37-cockpit-empty.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S52-R2-SEED20-P3",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S52-R2-SEED20-P3:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-52/S52-P3-cruiser-flyby.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-52/S52-cruiser-topview.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S52-R2-SEED20-P4",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S52-R2-SEED20-P4:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-52/S52-P4-tatooine-approach.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S52-R2-SEED20-P5",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S52-R2-SEED20-P5:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-52/S52-P5-tatooine-landing.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S52-R2-SEED20-P6",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S52-R2-SEED20-P6:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-37/S37-ship-clean-roof.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-52/S52-P6-disembark.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S52-R2-SEED20-P7",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S52-R2-SEED20-P7:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-52/S52-P7-town-walk.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-66/S66-street-outrage.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S64-WAN30",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-64/S64-corridor.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-64/S64-officers-reaction.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S65-WAN30",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S65-WAN30:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-65/S65-toast-closeup.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S71-WAN30",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-71/S71-hookah-throne.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-71/S71-vitalik-on-throne-girls.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S66-WAN30",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S66-WAN30:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-66/S66-street-outrage.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-67/S67-fruit-stall.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-67/S67-vendor.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image7",
+          "asset_id": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S67-WAN30",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S67-WAN30:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-67/S67-vendor.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-67/S67-fruit-stall.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S68-WAN30",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S68-WAN30:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-68/S68-light-broom.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-66/S66-street-outrage.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-68/S68-crew-sweeping-street.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S69-WAN30",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S69-WAN30:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-68/S68-sweepers-crew.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-68/S68-light-broom.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-66/S66-street-outrage.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-69/S69-light-dustpan.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-69/S69-melon-bag-handoff.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S70-WAN30",
+      "state": "blocked_inputs",
+      "bindings": [
+        {
+          "slot": "@Video1",
+          "asset_id": "pending:S70-WAN30:@Video1",
+          "required": true,
+          "shared_ready": false
+        },
+        {
+          "slot": "@Image1",
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-70/S70-cantina-entrance.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-65/S65-bar-table.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": false
+    },
+    {
+      "id": "S49G",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49G-trio-playing.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S51G",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-49/S49G-trio-playing.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image6",
+          "asset_id": "references/scenes/scene-51/S51G-trio-smash-result.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image7",
+          "asset_id": "references/scenes/scene-51/S51G-trio-smash-windup.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    },
+    {
+      "id": "S28-A13-20261030",
+      "state": "waiting_for_slot",
+      "bindings": [
+        {
+          "slot": "@Image1",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image2",
+          "asset_id": "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image3",
+          "asset_id": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image4",
+          "asset_id": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "required": true,
+          "shared_ready": true
+        },
+        {
+          "slot": "@Image5",
+          "asset_id": "references/scenes/scene-28/S28-trio-masha-alina-dasha-dance.png",
+          "required": true,
+          "shared_ready": true
+        }
+      ],
+      "all_required_inputs_shared": true
+    }
+  ]
+}

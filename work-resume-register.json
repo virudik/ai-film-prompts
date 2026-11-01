@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-01T01:00:44+00:00",
+  "last_updated_at": "2026-11-01T01:17:27+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
@@ -974,29 +974,33 @@
       "work_id": "GROK-SHARED-OPS-20261101",
       "title": "Grok: защита повторов, общие входы и адресат сайта",
       "project": "seregius",
-      "status": "in_progress",
-      "updated_at": "2026-11-01T01:00:44+00:00",
-      "next_action": "Implement and test approved Grok shared-ops scope from report; preserve production queue and Stitch.",
+      "status": "provider_acceptance_pending",
+      "updated_at": "2026-11-01T01:17:27+00:00",
+      "next_action": "Verify live owner-decision deployment and site delivery; Grok must accept inbox task, wire original provider IDs, edit existing routine to 24h :12/:27, read back shared inputs and return evidence. No replay of unknown Create.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-01T01:00:44+00:00",
-        "last_completed": "Owner scope recorded before implementation; no feature declared complete.",
-        "next_action": "Implement and test approved Grok shared-ops scope from report; preserve production queue and Stitch.",
+        "verified_at": "2026-11-01T01:17:27+00:00",
+        "last_completed": "Grok shared-ops code and shared inputs validated; no video generated.",
+        "next_action": "Verify live owner-decision deployment and site delivery; Grok must accept inbox task, wire original provider IDs, edit existing routine to 24h :12/:27, read back shared inputs and return evidence. No replay of unknown Create.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 01.11.2026 — Grok: общие входы, защита повторов и задачи сайта — начало",
-          "sha256": "670ecb6c7c25b3c732eeb80d3b68ce93506af128baeb57ace7c5b2d1db75b623"
+          "anchor": "# 01.11.2026 — Grok: общие входы и защищённые задачи — реализовано",
+          "sha256": "73bded9b015b851760f992f560497934a32444ce70e76e4eaf5b9129c6bca09a"
         },
         "evidence": [
           {
             "file": "reports/grok-shared-ops-2026-11-01.json",
-            "sha256": "dbad5f76696460436ea99bd0fb6c2683e44dc1ca9cc9311924498027889b1835"
+            "sha256": "6e5ce46fc9eb85455117b5ca519db08fb5092f9147deeb00bdf94576ae633a87"
+          },
+          {
+            "file": "reports/shared-inputs-transfer-2026-11-01.json",
+            "sha256": "a6209c01978cd2626d732e8da73a755673bd1588db60195ead21dcbe7f14e915"
           }
         ],
         "read_next": [
           "ops/LAUNCHER-COORDINATION.md",
-          "ops/OWNER-TASKS.md",
-          "ops/slot-backup.json"
+          "ops/slot-backup.json",
+          "ops/OWNER-TASKS.md"
         ],
         "blockers": []
       }

@@ -34,9 +34,16 @@
     "source_end_frame_exclusive": 361,
     "qc_status": "usable_for_continuity",
     "qc_report": "references/scenes/scene-48/S48-P1-continuity.json",
-    "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Materialize the private Library file and recheck SHA before upload; never synthesize or mirror the join."
+    "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Download the shared Google Drive file and recheck SHA before upload; never synthesize or mirror the join.",
+    "drive_file_id": "1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX",
+    "drive_modified_at": "2026-11-01T01:01:24.497Z",
+    "primary_storage": "google_drive",
+    "web_view_link": "https://drive.google.com/file/d/1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX/view",
+    "shared_readback_sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+    "shared_readback_checked_at": "2026-11-01T01:17:06Z",
+    "library_role": "historical_backup_only_not_required"
   },
-  "storage": "Private Library video; GitHub contains the authoritative binding/provenance and SHA, not a public film copy.",
+  "storage": "Google Drive is the shared video byte source; GitHub is authoritative metadata/SHA; Library is a historical backup only. Existing link-access policy preserved.",
   "verification": {
     "library_upload_succeeded": true,
     "library_download_readback_sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
@@ -44,7 +51,9 @@
     "ffprobe_duration_seconds": 3,
     "ffprobe_frames": 72,
     "ffprobe_resolution": "1280x720",
-    "audio_stream_duration_seconds": 3
+    "audio_stream_duration_seconds": 3,
+    "drive_readback_sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+    "drive_readback_checked_at": "2026-11-01T01:17:06Z"
   },
   "continuity_qc": {
     "status": "usable_for_continuity",

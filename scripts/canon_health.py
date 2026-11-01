@@ -145,7 +145,7 @@ def check(root, now):
         st = t.get("status")
         since = parse_iso(t.get("taken_at") if st == "taken" else t.get("created_at"))
         if st in ("open", "taken") and since and now - since > timedelta(days=TASK_MAX_DAYS):
-            who = {"claude": "Claude", "chatgpt": "ChatGPT", "any": "любого агента"}.get(t.get("to"), t.get("to"))
+            who = {"claude": "Claude", "chatgpt": "ChatGPT", "grok": "Grok", "any": "любого агента"}.get(t.get("to"), t.get("to"))
             what = "никто не взял" if st == "open" else f"в работе у {t.get('taken_by')}"
             add("warn", "task-stuck", f"Задача владельца для {who} {what} больше {TASK_MAX_DAYS} дней: "
                 f"«{str(t.get('text') or '')[:90]}».", "ops/owner-tasks.json")

@@ -63,7 +63,7 @@ def derive(root):
                 p = root / path
                 available = available and p.is_file() and (not ref.get('sha256') or digest(p) == ref['sha256'])
             else:
-                available = available and bool(ref.get('library_file_id') and ref.get('sha256'))
+                available = available and bool((ref.get('drive_file_id') or ref.get('library_file_id')) and ref.get('sha256'))
             if available:
                 continue
             source_id = ref.get('source_item_id')

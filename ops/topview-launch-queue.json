@@ -2043,7 +2043,14 @@
           "source_end_frame_exclusive": 361,
           "qc_status": "usable_for_continuity",
           "qc_report": "references/scenes/scene-48/S48-P1-continuity.json",
-          "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Materialize the private Library file and recheck SHA before upload; never synthesize or mirror the join."
+          "source_requirement": "Exact final72 frames of the owner-selected S48.1 result with corresponding original audio. Continue its LAST frame. Download the shared Google Drive file and recheck SHA before upload; never synthesize or mirror the join.",
+          "drive_file_id": "1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX",
+          "drive_modified_at": "2026-11-01T01:01:24.497Z",
+          "primary_storage": "google_drive",
+          "web_view_link": "https://drive.google.com/file/d/1kO9qxdaMf_FVuUA0y2T9bE799Jpm_pyX/view",
+          "shared_readback_sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+          "shared_readback_checked_at": "2026-11-01T01:17:06Z",
+          "library_role": "historical_backup_only_not_required"
         },
         {
           "slot": "@Image1",
@@ -2477,7 +2484,14 @@
           "source_start_frame_zero_based": 289,
           "source_end_frame_exclusive": 361,
           "qc_status": "usable_for_continuity_by_owner",
-          "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json"
+          "qc_report": "reports/topview-quality-2026-10-30/S56-SEED20-P1-b1516581-review.json",
+          "drive_file_id": "1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5",
+          "drive_modified_at": "2026-11-01T01:01:38.288Z",
+          "primary_storage": "google_drive",
+          "web_view_link": "https://drive.google.com/file/d/1jDGF5d7MucvYUBHJOP26w1KwIwzSwZK5/view",
+          "shared_readback_sha256": "732b891329eb4f7b075fe7913c240b384ae5b72e8ce39ebeabcafee8711b3f07",
+          "shared_readback_checked_at": "2026-11-01T01:17:06Z",
+          "library_role": "historical_backup_only_not_required"
         },
         {
           "slot": "@Image1",

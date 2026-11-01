@@ -12,6 +12,7 @@ import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+import launcher_run_ledger as run_ledger
 
 CONFIG = 'ops/slot-backup.json'
 LOCK = 'ops/canon-lock.json'
@@ -171,7 +172,7 @@ def check_grok_retry(config, item):
         raise Blocked('retry_requires_prior_attempt_in_submission_history')
     return True
 
-def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None):
+def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, ledger=None):
     """Transition claimed -> submitting once. Persist and read back before one click."""
     check_route(config, actor, now)
     check_lease(lock, actor, now)
@@ -200,6 +201,12 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None):
             type(p.get('quantity')) is not int or p.get('quantity') != 1 or
             p.get('resolution') != 720 or p.get('aspect_ratio') != '16:9'):
         raise Blocked('unlimited_zero_credit_parameters_required')
+    run_identity = None
+    if run_ledger.required(config, actor):
+        try:
+            run_identity = run_ledger.check(config, actor, ledger)
+        except run_ledger.LedgerBlocked as error:
+            raise Blocked(str(error)) from error
     out = copy.deepcopy(item)
     out['state'] = 'submitting'
     out['claim']['submission_intent_id'] = str(uuid.uuid4())
@@ -207,11 +214,23 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None):
     out['claim']['lease_holder'] = holder(actor)
     out['claim']['lease_acquired_at'] = lock['acquired_at']
     out['claim']['replay_forbidden'] = True
+    if run_identity:
+        out['claim']['provider_run_id'] = actor['provider_run_id']
+        out['claim']['provider_run_key'] = run_identity[0]
+        out['claim']['owner_event_keys'] = run_identity[1]
+        out['claim']['ledger_path'] = run_ledger.PATH
     if actor['surface'] == 'grok' and actor.get('kind') == 'owner_command':
         command = actor['owner_command']
         out['claim']['trigger'] = 'owner_command'
         out['claim']['owner_command'] = {k: command.get(k) for k in ('quote', 'source', 'at', 'chat_id') if command.get(k) is not None}
     return out
+
+def prepare_transaction(config, lock, item, actor, scan, now, ledger=None, queue_board_id=None):
+    """Return both files' mutations. CAS-publish queue+ledger together, then verify_binding."""
+    out = prepare_intent(config, lock, item, actor, scan, now, queue_board_id=queue_board_id, ledger=ledger)
+    updated = run_ledger.consume(config, actor, ledger, out) if run_ledger.required(config, actor) else ledger
+    return out, updated
+
 
 def takeover(config, lock, actor, now, owner_command):
     """Transfer only this surface's interactive shift; scheduled peers survive."""
@@ -314,10 +333,14 @@ def main():
             queue = read(args.root / QUEUE)
             matches = [i for i in queue['items'] if i.get('id') == args.item_id]
             if len(matches) != 1: raise Blocked('item_not_unique')
-            result = prepare_intent(cfg, lock, matches[0], actor, read(args.scan), now,
-                                    queue_board_id=queue.get('board_id'))
+            ledger = read(args.root / run_ledger.PATH) if run_ledger.required(cfg, actor) else None
+            result, updated_ledger = prepare_transaction(cfg, lock, matches[0], actor, read(args.scan), now,
+                                                        ledger=ledger, queue_board_id=queue.get('board_id'))
             queue['items'][queue['items'].index(matches[0])] = result
             if args.write:
+                if updated_ledger is not None:
+                    # Consume locally first: a local crash must fail closed. Git publication MUST include both paths.
+                    (args.root / run_ledger.PATH).write_text(json.dumps(updated_ledger, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
                 (args.root / QUEUE).write_text(json.dumps(queue, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
         if args.write and path:
             path.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')

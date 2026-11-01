@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-01T00:16:46.699416+00:00",
+  "checked_at": "2026-11-01T01:17:27.502354+00:00",
   "status": "ok",
   "scope": "Selected consistency invariants only; full semantic review and runtime success are separate.",
   "live_automations": "not_checked",

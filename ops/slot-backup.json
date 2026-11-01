@@ -272,11 +272,12 @@
     "unlimited_zero_only": true,
     "launch_window": {
       "timezone": "Europe/Amsterdam",
-      "first_hour": 8,
+      "first_hour": 0,
       "last_hour": 23,
       "first_minute": 10,
       "last_minute": 40,
-      "description": "New claims/intents only at minutes :10–:40 of each hour 08:00–23:50 Europe/Amsterdam (hours 08–23). Lease taken for 15 minutes, extended only after a real step (max 30), released by :50 so Work HH:55 and ordinary :00 are not blocked."
+      "description": "New claims/intents only at minutes :10–:40 of each hour 08:00–23:50 Europe/Amsterdam (hours 08–23). Lease taken for 15 minutes, extended only after a real step (max 30), released by :50 so Work HH:55 and ordinary :00 are not blocked.",
+      "note": "Owner 01.11 authorized night coverage; policy permits all hours :10–:40. Existing provider schedule remains separately unverified until Grok applies coverage.desired_schedule."
     },
     "max_submissions_per_wake": 1,
     "retries": {
@@ -434,6 +435,50 @@
       ],
       "first_real_create_flow": "If the owner's command is itself an explicit yes for the first real Create, Grok Bot first records first_real_create.owner_go_ahead=true with that quote, source and time in a separate commit under the canon lock, reads it back, and only then prepares the intent. An ordinary launch command without such a yes does not open the gate.",
       "not_enabled": "No foreground-shift: kind=interactive and takeover stay blocked for grok."
+    },
+    "coverage": {
+      "owner_authorized": true,
+      "owner_quote": "Первое, второе и третье делай.",
+      "recorded_at": "2026-11-01T01:17:06Z",
+      "desired_schedule": {
+        "automation_id": "topview-grok",
+        "timezone": "Europe/Amsterdam",
+        "minutes": [
+          12,
+          27
+        ],
+        "first_hour": 0,
+        "last_hour": 23,
+        "timing_mode": "exact_schedule"
+      },
+      "provider_state": "pending_grok_apply_and_readback",
+      "verified_provider_run_id": null,
+      "apply_existing_routine_only": true,
+      "new_routines_authorized": false,
+      "existing_schedule_snapshot": {
+        "automation_name": "Запуск сцен Topview (grok)",
+        "automation_id": "topview-grok",
+        "timezone": "Europe/Amsterdam",
+        "minutes": [
+          12,
+          27
+        ],
+        "first_hour": 8,
+        "last_hour": 23,
+        "timing_mode": "exact_schedule",
+        "description": "Minutes :12 and :27 of every hour 08–23 Europe/Amsterdam; inside launch_window :10–:40. Created by the owner decision of 2026-11-01 00:24 (enable_decision)."
+      },
+      "event_path": "Existing routine reads fresh GitHub launcher_health/queue/inbox each cycle; no new webhook or Telegram forwarding is claimed active.",
+      "acceptance": "Grok records actual provider routine settings/run ID and first legal task ID; first-real-Create gate remains independent."
     }
+  },
+  "run_ledger": {
+    "schema_version": 1,
+    "required_surfaces": [
+      "grok"
+    ],
+    "path": "ops/launcher-run-ledger.json",
+    "owner_authorized_at": "2026-11-01T01:17:06Z",
+    "rule": "prepare_transaction returns queue+ledger; CAS-publish both, read back and verify_binding before one click. Stable consumed keys have no TTL; no resetting failed/unknown. Provider authentication stays in the adapter."
   }
 }
