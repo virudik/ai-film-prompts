@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-01T08:30:21Z",
+  "checked_at": "2026-11-01T08:40:21Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Seedance 2.0",
       "scene_id": 60,
       "mapping": "task_map",
-      "queue_count": 4198,
-      "wait_seconds": 194461,
+      "queue_count": 4189,
+      "wait_seconds": 193862,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Seedance 2.0",
       "scene_id": 62,
       "mapping": "task_map",
-      "queue_count": 3333,
-      "wait_seconds": 142621,
+      "queue_count": 3324,
+      "wait_seconds": 142022,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 72,
       "mapping": "task_map",
-      "queue_count": 5208,
-      "wait_seconds": 254941,
+      "queue_count": 5199,
+      "wait_seconds": 254342,
       "process_seconds": null
     },
     {
@@ -104,10 +104,10 @@
       "unlimited": true,
       "created_at": "2026-11-01 08:29:13",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 5497,
-      "wait_seconds": 272221,
+      "scene_id": 71,
+      "mapping": "task_map",
+      "queue_count": 5488,
+      "wait_seconds": 271622,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 59,
       "mapping": "task_map",
-      "queue_count": 2454,
-      "wait_seconds": 90780,
+      "queue_count": 2445,
+      "wait_seconds": 90182,
       "process_seconds": null
     },
     {
@@ -132,22 +132,12 @@
       "model": "Seedance 2.0",
       "scene_id": 61,
       "mapping": "task_map",
-      "queue_count": 4919,
-      "wait_seconds": 237660,
+      "queue_count": 4910,
+      "wait_seconds": 237062,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-01 08:29:13",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, deadpan c"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -160,24 +150,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-01T08:20:20Z",
+    "monitor_checked_at": "2026-11-01T08:30:21Z",
     "monitor_age_minutes": 10,
-    "monitor_occupied": 5,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
