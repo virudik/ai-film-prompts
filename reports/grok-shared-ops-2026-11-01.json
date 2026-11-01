@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "GROK-SHARED-OPS-20261101",
+  "stage": "started",
+  "recorded_at": "2026-11-01T01:00:44Z",
+  "source_head": "148a0c29d9a21b94be0c8273e56b8bb52be16a64",
+  "owner_quote": "Первое, второе и третье делай. Для второго все нужные файлы можно разместить в гитхаба или гугл диске, где лучше а не в библиотеке, для общего доступа. И Стича он нарисовал и добавил в сцену нужные, у твоего прошлого чата не получалось. добавить проверенный адресат «Grok» в задачи сайта да. Отчёт дать грок бота и чату файлом?",
+  "scope": [
+    "Durable Grok provider-run and Telegram-message deduplication",
+    "Shared GitHub image registry and private Drive continuity inputs, no Library-only dependency",
+    "Overnight coverage implementation and verified Grok site addressee",
+    "Common report file for Grok Bot and Grok Chat"
+  ],
+  "preserve": [
+    "Stitch files/prompts from Grok",
+    "queue priority and all existing task IDs/claims/unknown",
+    "zero Topview credits",
+    "first real Create gate until separately evidenced"
+  ],
+  "limitations": [
+    "No connected Grok routine-management or Telegram plugin found by capability search",
+    "No credentials requested or published"
+  ],
+  "new_video_submissions": 0
+}
