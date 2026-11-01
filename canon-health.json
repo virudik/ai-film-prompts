@@ -1,17 +1,11 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-01T03:05:35Z",
+  "checked_at": "2026-11-01T07:12:48Z",
   "status": "warn",
-  "warnings": 1,
+  "warnings": 5,
   "info": 9,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
-    {
-      "level": "warn",
-      "code": "handoff-size",
-      "text": "Хендоф 37 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
-      "file": "NEW-CHAT-HANDOFF.md"
-    },
     {
       "level": "info",
       "code": "instruction-size",
@@ -65,6 +59,36 @@
       "code": "ops-stale",
       "text": "ops/TOPVIEW-VIDEO-ARCHIVE.md: проверялся 18.10.2026, больше 14 дней назад.",
       "file": "ops/TOPVIEW-VIDEO-ARCHIVE.md"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "project-status.json: health = error.",
+      "file": "project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Котмонавты: project-status.json health = error.",
+      "file": "projects/kotmonavty/project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Кот детектив: project-status.json health = error.",
+      "file": "projects/kot-detektiv/project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Роскосмос: project-status.json health = error.",
+      "file": "projects/raznoe/project-status.json"
+    },
+    {
+      "level": "warn",
+      "code": "status-health",
+      "text": "Разное: project-status.json health = error.",
+      "file": "projects/misc/project-status.json"
     }
   ]
 }
