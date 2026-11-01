@@ -75,7 +75,7 @@
   ],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-01T02:16:00Z",
+  "updated_at": "2026-11-01T08:20:30Z",
   "reserve_automation_ids": [
     "6adc585e7ac08191bb93825117dc7213",
     "6acae6ab433481919e88665c520b8ef2"
@@ -348,9 +348,28 @@
       "applied_at": "2026-10-31T23:26:12Z"
     },
     "first_real_create": {
-      "owner_go_ahead": false,
-      "state": "pending_owner_go_ahead",
-      "note": "The routine runs the read-only scan and preflight, but scripts/launcher_coordination.py blocks prepare-intent for grok until the owner gives a go-ahead (Grok Bot chat or Telegram) for the first real Create. Recording it (owner_go_ahead true, with the verbatim quote, source and time) is a separate CAS edit under the canon lock."
+      "owner_go_ahead": true,
+      "state": "owner_go_ahead_recorded",
+      "note": "Owner go-ahead recorded 2026-11-01 (see owner_quote). scripts/launcher_coordination.py no longer blocks prepare-intent for grok on this gate; every other launch gate still applies.",
+      "owner_request_id": "owner-20261101-grok-first-real-create-s71",
+      "owner_question": "Запускать первый реальный Create (S71)?",
+      "owner_quote": "Да, запускай первый реальный Create S71",
+      "source": "grok_chat",
+      "at": "2026-11-01T08:19:00Z",
+      "at_local": "2026-11-01T10:19 Europe/Helsinki",
+      "scope": {
+        "item": "S71-WAN30",
+        "submissions": 1,
+        "kind": "single first real Create",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "aspect_ratio": "16:9",
+        "resolution": 720,
+        "mode": "Unlimited0 only (credits_cost 0, quantity 1)"
+      },
+      "recorded_by": "grok:fa5d01f6-9f17-489e-9cd4-1fccd2fba844",
+      "recorded_at": "2026-11-01T08:20:30Z",
+      "note_history": "Before this record: owner_go_ahead=false, state=pending_owner_go_ahead. All other gates (exact canon lease, own CAS claim and one-time intent, fresh account-wide scan, board_id, Unlimited0, max_submissions_per_wake=1, TOPVIEW-RETRY) are unchanged; the go-ahead covers only this S71-WAN30 first Create and is not a standing approval for further paid generations."
     },
     "dry_run": {
       "item_id": "S71-WAN30",
