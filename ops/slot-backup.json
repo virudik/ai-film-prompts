@@ -152,12 +152,12 @@
   },
   "foreground_owners": {
     "ordinary": {
-      "session_id": "ordinary-chat-08b0cdae-0e40-4db7-a507-501c89be7609",
-      "epoch": 2,
+      "session_id": "chatgpt-ordinary-continue-20261101-ed98a0ea",
+      "epoch": 3,
       "conversation_id": null,
-      "conversation_id_unavailable_reason": "not_exposed_in_current_interactive_tools",
-      "accepted_at": "2026-10-31T18:22:12Z",
-      "source": "direct_owner_continue_current_task_and_hourly_schedule_request",
+      "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
+      "accepted_at": "2026-11-01T13:05:12Z",
+      "source": "direct_owner_Продолжай",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
     }
   },
@@ -171,6 +171,17 @@
       "accepted_at": "2026-10-31T16:57:52Z",
       "source": "direct_owner_role_transfer",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
+    },
+    {
+      "session_id": "ordinary-chat-08b0cdae-0e40-4db7-a507-501c89be7609",
+      "epoch": 2,
+      "conversation_id": null,
+      "conversation_id_unavailable_reason": "not_exposed_in_current_interactive_tools",
+      "accepted_at": "2026-10-31T18:22:12Z",
+      "source": "direct_owner_continue_current_task_and_hourly_schedule_request",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "surface": "ordinary",
+      "retired_at": "2026-11-01T13:05:12Z"
     }
   ],
   "schedule_change": {

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-01T01:22:21+00:00",
+  "last_updated_at": "2026-11-01T13:05:12+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-01T00:16:47+00:00",
+      "updated_at": "2026-11-01T13:05:12+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
@@ -22,7 +22,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.",
+      "next_action": "Восстановить is_enabled=true только у существующего ordinary HH:00 и перечитать; затем подтвердить настоящий следующий runtime/receipt. S71/S72 уже отправлены. При свободном слоте первая готовая по свежей priority (сейчас48.2); полный scan, точные входы и CAS/Unlimited0 обязательны.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -214,18 +214,18 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-01T00:16:47+00:00",
-        "last_completed": "Grok integration reviewed; canonical instructions aligned and compatibility fixes verified by 431 tests; production queue and first-Create gate unchanged.",
-        "next_action": "Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.",
+        "verified_at": "2026-11-01T13:05:12+00:00",
+        "last_completed": "Полный приём и диагностика выполнены; исходный результат сохранён, подготовлен ручной ремонт ordinary без изменения очереди.",
+        "next_action": "Восстановить is_enabled=true только у существующего ordinary HH:00 и перечитать; затем подтвердить настоящий следующий runtime/receipt. S71/S72 уже отправлены. При свободном слоте первая готовая по свежей priority (сейчас48.2); полный scan, точные входы и CAS/Unlimited0 обязательны.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 01.11.2026 — Grok: инструкции и проверка интеграции",
-          "sha256": "5ab3282656cc39d5fa347932e28153860d739f50e01d4e71e1c28c848ebc3d74"
+          "anchor": "# 01.11.2026 — Продолжай: восстановление часового исполнителя",
+          "sha256": "29750a0728aafae9e7fa25a239ed54098728a33c223cc1bb6663936a2a862d9a"
         },
         "evidence": [
           {
-            "file": "reports/grok-integration-review-2026-11-01.json",
-            "sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187"
+            "file": "reports/ordinary-launcher-recovery-2026-11-01.json",
+            "sha256": "2ac060185499a149d8faece38ca80f73bd2ab46980ef39cf9c2195f6ac7087d5"
           }
         ],
         "read_next": [
@@ -235,7 +235,9 @@
           "ops/topview-launch-queue.json"
         ],
         "blockers": [
-          "Production TinyFish/Grok Create requires its own real task-ID receipt; canonical review is not browser acceptance."
+          "ordinary is disabled until repair/readback",
+          "The latest ordinary result requests user action without explanatory content; exact cause is unknown",
+          "Background execution and GUI Create are not established by enabled settings"
         ]
       },
       "last_relay_reconciliation": {
@@ -286,7 +288,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "Robot light check2026-10-31T12:20:31Z:6/6 active,0free. Launcher recovery patch and prompts verified; next actual background receipt is not yet observed.",
+      "current_blocker": "Initial repair: ordinary disabled; requires_user_action=true has no detail; capacity6/6 at verified15:43MSK scan; actual background execution and GUI remain separately unverified.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/topview-queue-2026-10-16/S72-WAN30-preflight-20261031.json",
@@ -353,6 +355,32 @@
           ],
           "blockers": [
             "GUI отправка и независимость квоты не подтверждены"
+          ]
+        },
+        {
+          "schema_version": 1,
+          "verified_at": "2026-11-01T00:16:47+00:00",
+          "last_completed": "Grok integration reviewed; canonical instructions aligned and compatibility fixes verified by 431 tests; production queue and first-Create gate unchanged.",
+          "next_action": "Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.",
+          "checkpoint": {
+            "file": "reports/current-work-checkpoint.md",
+            "anchor": "# 01.11.2026 — Grok: инструкции и проверка интеграции",
+            "sha256": "5ab3282656cc39d5fa347932e28153860d739f50e01d4e71e1c28c848ebc3d74"
+          },
+          "evidence": [
+            {
+              "file": "reports/grok-integration-review-2026-11-01.json",
+              "sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187"
+            }
+          ],
+          "read_next": [
+            "ops/LAUNCHER-COORDINATION.md",
+            "ops/slot-backup.json",
+            "ops/TOPVIEW-FREE-LAUNCH.md",
+            "ops/topview-launch-queue.json"
+          ],
+          "blockers": [
+            "Production TinyFish/Grok Create requires its own real task-ID receipt; canonical review is not browser acceptance."
           ]
         }
       ],

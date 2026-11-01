@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "source": "interactive_owner_continue",
+  "stage": "initial_checkpoint_before_automation_change",
+  "checked_at": "2026-11-01T13:05:12Z",
+  "source_head": "d354da7c235bd18f71ddea2b504638acff91cc1b",
+  "owner_command": "Продолжай",
+  "session_id": "chatgpt-ordinary-continue-20261101-ed98a0ea",
+  "execution_instance_id": "ed98a0ea-3ae2-4bc7-ae31-efe97e86979f",
+  "runtime_run_id": null,
+  "runtime_run_id_reason": "interactive turn; no scheduled run identity claimed",
+  "intake": {
+    "mode": "full",
+    "reason": "selected checkpoint hash mismatch and live automation state mismatch",
+    "seven_instructions_read_completely": true,
+    "source_hashes": [
+      {
+        "file": "NEW-CHAT-HANDOFF.md",
+        "sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12"
+      },
+      {
+        "file": "SYNC-RUNBOOK.md",
+        "sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726"
+      },
+      {
+        "file": "AI-PROJECT-GUIDE.md",
+        "sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b"
+      },
+      {
+        "file": "PROMPT-STYLE-GUIDE.md",
+        "sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943"
+      },
+      {
+        "file": "USER-GUIDE.md",
+        "sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a"
+      },
+      {
+        "file": "README-AI-SYNC.md",
+        "sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1"
+      },
+      {
+        "file": "BACKUP-AI-RUNBOOK.md",
+        "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac"
+      },
+      {
+        "file": "video-prompts.md",
+        "sha256": "4def38fa387b5da5f872238e803cdfefa27eef8e28edbf8c2ba9d4855bd1fb4b"
+      }
+    ],
+    "master_verified": true
+  },
+  "recovery_incident": {
+    "cause_commit": "9b4425fa09ad126720f85b8ddc0770cf69d65211",
+    "cause": "Grok schedule paragraph was added inside the H1 checkpoint section without recapturing its recovery hash",
+    "anchor": "# 01.11.2026 — Grok: инструкции и проверка интеграции",
+    "stored_sha256": "5ab3282656cc39d5fa347932e28153860d739f50e01d4e71e1c28c848ebc3d74",
+    "actual_sha256": "672360195b1044ec6486bdf7c1f6f3c8d918acbf72499f15e74641cc445236aa",
+    "original_evidence_sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187",
+    "original_evidence_verified": true,
+    "prior_recovery_preserved": true
+  },
+  "automations_before": {
+    "checked_at": "2026-11-01T12:38:38Z",
+    "ordinary_rechecked_at": "2026-11-01T12:43:06Z",
+    "items": [
+      {
+        "id": "6acae6ab433481919e88665c520b8ef2",
+        "title": "AI Film — готовые сцены по слотам",
+        "is_enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+        "default_timezone": "Europe/Moscow",
+        "timing_mode": "exact_schedule",
+        "updated_at": "2026-11-01T11:56:15.488438+00:00",
+        "last_run_time": "2026-11-01T11:55:53.566479+00:00",
+        "prompt_sha256": "1593077f23d90367fdc4a70c939af155a03a389da602b317d44eb75c3f39fa85",
+        "last_run": {
+          "id": "3659f62f-98b8-8327-a76f-37aa12ce0bb5",
+          "recorded_status": "no_update",
+          "scheduled_for": "2026-11-01T11:55:00Z",
+          "started_at": "2026-11-01T11:55:52.714575Z",
+          "completed_at": "2026-11-01T11:55:53.390139Z",
+          "chat_ref": null
+        },
+        "latest_result": null,
+        "delivery_status": "unknown"
+      },
+      {
+        "id": "6adc585e7ac08191bb93825117dc7213",
+        "title": "Сообщения Agent Relay",
+        "is_enabled": true,
+        "schedule": "BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT",
+        "default_timezone": "Europe/Moscow",
+        "timing_mode": "condition_watch",
+        "updated_at": "2026-11-01T07:37:21.423293+00:00",
+        "last_run_time": "2026-11-01T07:37:21.224093+00:00",
+        "prompt_sha256": "bc79354d638c15dfa67823d5935311b32c3b7f7dca46a9c143ebf93059a04f63",
+        "last_run": {
+          "id": "e20e98c7-3fc4-832e-a27d-d18a5295b3a0",
+          "recorded_status": "no_update",
+          "scheduled_for": "2026-11-01T07:37:14.739266Z",
+          "started_at": "2026-11-01T07:37:18.559286Z",
+          "completed_at": "2026-11-01T07:37:20.938981Z",
+          "chat_ref": null
+        },
+        "latest_result": {
+          "run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+          "created_at": "2026-10-30T15:40:11.960434Z",
+          "completed_at": "2026-10-30T15:40:12.617136Z",
+          "requires_user_action": false,
+          "is_failure_message": false,
+          "content_truncated": false,
+          "content_empty": false
+        },
+        "delivery_status": "unknown"
+      },
+      {
+        "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+        "title": "AI Film — слоты обычным ChatGPT",
+        "is_enabled": false,
+        "schedule": "BEGIN:VEVENT\nDTSTART:20261031T181310Z\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+        "default_timezone": "Europe/Moscow",
+        "timing_mode": "exact_schedule",
+        "updated_at": "2026-11-01T05:13:41.356014+00:00",
+        "last_run_time": "2026-11-01T05:12:36.816916+00:00",
+        "prompt_sha256": "f97bc8f7e98400d47fae19e8edbe2d20289f84d37d53e977ecc8975667bf458c",
+        "last_run": {
+          "id": "445b644c-d2cc-8332-b542-c54e01dd47e4",
+          "recorded_status": "completed",
+          "scheduled_for": "2026-11-01T05:00:00Z",
+          "started_at": "2026-11-01T05:04:23.850151Z",
+          "completed_at": "2026-11-01T05:12:11.883340Z",
+          "chat_ref": {
+            "type": "chatgpt",
+            "id": "6ae605c7-cb60-83ed-88ab-cdac32a3b684"
+          }
+        },
+        "latest_result": {
+          "run_id": "445b644c-d2cc-8332-b542-c54e01dd47e4",
+          "created_at": "2026-11-01T05:12:09.751469Z",
+          "completed_at": "2026-11-01T05:12:11.883340Z",
+          "requires_user_action": true,
+          "is_failure_message": false,
+          "content_truncated": false,
+          "content_empty": true
+        },
+        "delivery_status": "unknown"
+      }
+    ]
+  },
+  "ordinary_disabled": {
+    "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "enabled_expected": true,
+    "enabled_observed": false,
+    "disable_cause": "not_exposed_by_available_api",
+    "owner_stop_found": false,
+    "latest_result_requires_user_action": true,
+    "action_detail": "empty; cause or required action not specified",
+    "repair_authority": [
+      "ops/LAUNCHER-COORDINATION.md",
+      "ops/slot-backup.json",
+      "SYNC-RUNBOOK.md#Мониторы и расписание"
+    ],
+    "proposed_change": {
+      "is_enabled": true
+    },
+    "preserve": [
+      "id",
+      "prompt",
+      "schedule",
+      "timezone",
+      "conversation_id",
+      "other_automations"
+    ]
+  },
+  "topview": {
+    "scan_started_at": "2026-11-01T12:42:45.225Z",
+    "scan_completed_at": "2026-11-01T12:42:55.644Z",
+    "detail_checks_completed_at": "2026-11-01T12:43:16.654Z",
+    "scope": {
+      "boards": "all owned boards (mode=my-boards)",
+      "mediaType": "video",
+      "board_page_size": 100,
+      "task_page_size": 100,
+      "board_list_total": 14,
+      "board_list_pages": 1,
+      "task_pages": 18,
+      "returned_tasks": 625,
+      "unique_tasks": 625,
+      "pagination_complete": true,
+      "status_counts": {
+        "success": 596,
+        "init": 6,
+        "fail": 23
+      }
+    },
+    "slots": {
+      "capacity": 6,
+      "occupied_active_video_tasks": 6,
+      "free_video_slots": 0,
+      "all_active_unlimited_zero_credits": true
+    },
+    "active_tasks": [
+      {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "431180d384cc43bebe7afc702e4eb4e6",
+        "taskType": "videoEdit",
+        "status": "init",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-11-01 08:29:13",
+        "gmtModify": "2026-11-01 08:29:14",
+        "completedAt": null,
+        "detail_verified": true,
+        "model": "Wan 3.0",
+        "modelId": "qwen-wan3.0-video",
+        "resolution": 720,
+        "duration": 30,
+        "aspectRatio": "16:9"
+      },
+      {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "taskType": "videoEdit",
+        "status": "init",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-10-31 11:08:48",
+        "gmtModify": "2026-10-31 11:08:48",
+        "completedAt": null,
+        "detail_verified": true,
+        "model": "Wan 3.0",
+        "modelId": "qwen-wan3.0-video",
+        "resolution": 720,
+        "duration": 30,
+        "aspectRatio": "16:9"
+      },
+      {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "taskType": "videoEdit",
+        "status": "init",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-10-30 15:37:37",
+        "gmtModify": "2026-10-30 15:37:38",
+        "completedAt": null,
+        "detail_verified": true,
+        "model": "Seedance 2.0",
+        "modelId": "seedance-2.0-style",
+        "resolution": 720,
+        "duration": 15,
+        "aspectRatio": "16:9"
+      },
+      {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "025955aad2cf494da2b4104d26c36ed5",
+        "taskType": "videoEdit",
+        "status": "init",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-10-29 23:20:18",
+        "gmtModify": "2026-10-29 23:20:19",
+        "completedAt": null,
+        "detail_verified": true,
+        "model": "Seedance 2.0",
+        "modelId": "seedance-2.0-style",
+        "resolution": 720,
+        "duration": 15,
+        "aspectRatio": "16:9"
+      },
+      {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "0de1f663432646d294f409a22e20a26e",
+        "taskType": "videoEdit",
+        "status": "init",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-10-29 19:01:23",
+        "gmtModify": "2026-10-29 19:01:24",
+        "completedAt": null,
+        "detail_verified": true,
+        "model": "Seedance 2.0",
+        "modelId": "seedance-2.0-style",
+        "resolution": 720,
+        "duration": 15,
+        "aspectRatio": "16:9"
+      },
+      {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "b0915b04173c414e9ac08652d34b7852",
+        "taskType": "videoEdit",
+        "status": "init",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-10-29 08:07:31",
+        "gmtModify": "2026-10-29 08:07:32",
+        "completedAt": null,
+        "detail_verified": true,
+        "model": "Seedance 2.0",
+        "modelId": "seedance-2.0-style",
+        "resolution": 720,
+        "duration": 15,
+        "aspectRatio": "16:9"
+      }
+    ],
+    "focused_tasks": {
+      "S71_WAN30": {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "431180d384cc43bebe7afc702e4eb4e6",
+        "taskType": "videoEdit",
+        "status": "init",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-11-01 08:29:13",
+        "gmtModify": "2026-11-01 08:29:14",
+        "completedAt": null,
+        "detail_verified": true,
+        "model": "Wan 3.0",
+        "modelId": "qwen-wan3.0-video",
+        "resolution": 720,
+        "duration": 30,
+        "aspectRatio": "16:9"
+      },
+      "S52_R2_P1": {
+        "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+        "taskId": "c65c30d8cbe14e9eadec886276e62471",
+        "taskType": "videoEdit",
+        "status": "success",
+        "mediaType": "video",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "gmtCreate": "2026-10-28 06:51:02",
+        "gmtModify": "2026-11-01 04:55:25",
+        "completedAt": "2026-11-01 04:55:25",
+        "detail_verified": true
+      }
+    },
+    "idle_interval": {
+      "from_task": "c65c30d8cbe14e9eadec886276e62471",
+      "to_task": "431180d384cc43bebe7afc702e4eb4e6",
+      "from_completed_at_raw": "2026-11-01 04:55:25",
+      "to_created_at_raw": "2026-11-01 08:29:13",
+      "duration_seconds": 12828,
+      "duration": "3h33m48s",
+      "from_utc": "2026-11-01T04:55:25Z",
+      "to_utc": "2026-11-01T08:29:13Z",
+      "from_moscow": "2026-11-01T07:55:25+03:00",
+      "to_moscow": "2026-11-01T11:29:13+03:00",
+      "basis": "Same Topview GMT timestamp convention; raw values preserved. This is the interval between S52-R2-P1 completion and S71 creation, not proof of why a launcher failed."
+    },
+    "limitations": [
+      "Read-only video scan; images were outside this requested scan.",
+      "API pagination plus focused detail reads are a time-window observation, not an atomic snapshot.",
+      "Technical status success is not editorial acceptance.",
+      "No browser Create capability or scheduled-run completion is proved by this API read.",
+      "No prompt text, user UID, payer identity, asset URLs, signed URLs, session data or tokens are included."
+    ]
+  },
+  "owner_inbox": {
+    "open_chatgpt": [
+      "grok-202611010305-capabilities"
+    ],
+    "foreign_needs_owner": [
+      "d37ea54b-6b09-4283-892b-d6c3e189b82f"
+    ],
+    "owner_stop_found": false
+  },
+  "open_owner_decisions": {
+    "checked": true,
+    "ids": [
+      "d37ea54b-6b09-4283-892b-d6c3e189b82f"
+    ],
+    "status": "needs_owner",
+    "scope": "Grok historical night schedule request; no ordinary stop decision"
+  },
+  "capabilities": {
+    "github_read": true,
+    "github_write": true,
+    "write_evidence": "d354da7c235bd18f71ddea2b504638acff91cc1b",
+    "supabase_read": true,
+    "automations_peek": true,
+    "topview_full_read_scan": true,
+    "browser_create": "not_tested_in_this_interactive_repair",
+    "work_quota_restoration": "unverified"
+  },
+  "telemetry": {
+    "monitor_role_action": "skip",
+    "reason": "collision guard unavailable in API mirror; fail-closed; robot remains primary",
+    "files_written": false
+  },
+  "foreground_takeover": {
+    "surface": "ordinary",
+    "previous": {
+      "session_id": "ordinary-chat-08b0cdae-0e40-4db7-a507-501c89be7609",
+      "epoch": 2,
+      "conversation_id": null,
+      "conversation_id_unavailable_reason": "not_exposed_in_current_interactive_tools",
+      "accepted_at": "2026-10-31T18:22:12Z",
+      "source": "direct_owner_continue_current_task_and_hourly_schedule_request",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
+    },
+    "new": {
+      "session_id": "chatgpt-ordinary-continue-20261101-ed98a0ea",
+      "epoch": 3,
+      "conversation_id": null,
+      "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
+      "accepted_at": "2026-11-01T13:05:12Z",
+      "source": "direct_owner_Продолжай",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
+    },
+    "preferred_executor_changed": false,
+    "route_generation_changed": false
+  },
+  "changes": {
+    "new_automations": 0,
+    "topview_creates": 0,
+    "credits_spent": 0,
+    "queue_changed": false,
+    "master_changed": false,
+    "automation_update_completed": false
+  },
+  "next_step": "After initial CAS/readback, restore only existing ordinary is_enabled=true; reread exact settings. Preserve unknown cause/action and require a new real runtime/receipt for execution acceptance."
+}
