@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:31a4b9a9-9288-4c69-a9d4-128c06c1f26d",
-  "task": "Scheduled ordinary Topview Seregius scan and no-op receipt; no Create at 6/6",
-  "acquired_at": "2026-11-01T02:00:53.602Z",
-  "expires_at": null,
-  "rules": "ops/CANON-LOCK.md",
-  "released_at": "2026-11-01T02:02:29.091Z"
+  "state": "held",
+  "holder": "grok:47993e26-c653-4d05-a68e-ff2e73766c68",
+  "task": "Grok Bot: record owner decision 01.11.2026 03:04 (Grok takes to:grok, any, claude open>3h; poll :40) in OWNER-TASKS, SYNC-RUNBOOK, LAUNCHER-COORDINATION, HANDOFF; docs only",
+  "acquired_at": "2026-11-01T02:06:06Z",
+  "expires_at": "2026-11-01T02:36:06Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md"
 }
