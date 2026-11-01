@@ -1,0 +1,51 @@
+name: Export Kimi onboarding snapshot once
+on:
+  push:
+    branches: [handoff/kimi-drive-20261101]
+    paths: [.github/workflows/kimi-drive-package-once.yml]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: 632ea330a6fea5dc8dba0829c6c459bf9ef97245
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Export exact source and checksums without modifying main
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,subprocess,zipfile
+          from pathlib import Path
+          from datetime import datetime,timezone
+          out=Path('/tmp/kimi-package');out.mkdir()
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          assert head=='632ea330a6fea5dc8dba0829c6c459bf9ef97245'
+          media_ext={'.png','.jpg','.jpeg','.webp','.gif','.mp4','.mov','.mp3','.wav','.webm','.m4a','.ogg'}
+          excluded_ext={'.ttf','.otf','.woff','.woff2','.pfx','.p12','.pem','.key'}
+          names=sorted(filter(None,subprocess.check_output(['git','ls-files','-z']).decode().split('\0')))
+          records=[];docs=[];excluded=[]
+          for name in names:
+              p=Path(name)
+              if p.is_symlink() or not p.is_file() or p.suffix.lower() in excluded_ext or p.name in {'.env','credentials.json','service-account.json','storage-state.json'}:
+                  excluded.append(name);continue
+              b=p.read_bytes();kind='media' if p.suffix.lower() in media_ext else 'document'
+              records.append({'path':name,'size':len(b),'sha256':hashlib.sha256(b).hexdigest(),'kind':kind})
+              if kind=='document':docs.append(p)
+          source={'repository':'virudik/ai-film-prompts','branch':'main','source_head':head,'captured_at':datetime.now(timezone.utc).isoformat(),'workflow_run_id':os.environ['GITHUB_RUN_ID'],'scope':'Read-only snapshot; excludes fonts and credential formats. No Kimi runtime registration, permissions, schedule or video submission. External sources are linked separately.','document_files':len(docs),'media_files':sum(r['kind']=='media' for r in records),'excluded':excluded,'files':records}
+          (out/'SOURCE-MANIFEST.json').write_text(json.dumps(source,ensure_ascii=False,indent=2)+'\n')
+          with zipfile.ZipFile(out/'AI-Film-Kimi-canonical-files.zip','w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for p in docs:z.write(p,p.as_posix())
+              z.writestr('KIMI-SNAPSHOT-SOURCE.json',json.dumps(source,ensure_ascii=False,indent=2)+'\n')
+          (out/'PACKAGE-SUMMARY.json').write_text(json.dumps({k:v for k,v in source.items() if k!='files'},ensure_ascii=False,indent=2)+'\n')
+          print((out/'PACKAGE-SUMMARY.json').read_text())
+          assert not subprocess.check_output(['git','status','--porcelain'],text=True).strip()
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: kimi-onboarding-source
+          path: /tmp/kimi-package/*
+          retention-days: 3
