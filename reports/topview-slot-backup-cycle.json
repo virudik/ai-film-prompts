@@ -8,9 +8,9 @@
   "source_head": "a322e99c5b25e240bd5c6d4c3d5814839b56979e",
   "route_generation": 2,
   "started_at": "2026-11-01T01:57:13.770260Z",
-  "checked_at": "2026-11-01T02:01:39.049Z",
-  "phase": "started",
-  "stage": "read_only_scan_complete_waiting_final_receipt",
+  "checked_at": "2026-11-01T02:02:16.568Z",
+  "phase": "finished",
+  "stage": "final_receipt",
   "scan_complete": true,
   "scan_source": "Authenticated Topview connector; topview_list_boards mode all and full all-board pagination (pageSize 100)",
   "scan_scope": "14 boards; 20 page requests/20 success; 952/952 board tasks, 624 videos",
@@ -64,7 +64,7 @@
   "browser_capability_probe": {
     "transport": "TinyFish",
     "performed": false,
-    "reason": "Fresh full Topview scan confirms 6/6. No paid TinyFish polling allowed.",
+    "reason": "No paid TinyFish run: authenticated full 14-board scan and all 6 direct task details confirm 6/6 capacity",
     "profile_id": "prof_0ac4618d0cf4456e",
     "historical_auth_only": true,
     "upload_verified_for_this_run": false,
@@ -96,7 +96,7 @@
   },
   "active_details_checked": {
     "all_six_board_cards": "init, video, Unlimited=true, creditsCost=0",
-    "individual_task_details": "not queried; every active card verified by authenticated full board list",
+    "individual_task_details": "6/6 direct read-only task detail reads confirmed init, board My First Board, Unlimited=true, creditsCost=0",
     "task_not_found_count": 0
   }
 }
