@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:cf8c8cbc-c14f-435a-9a7e-0df31787633c",
   "task": "Серёгиус: ordinary hourly global capacity scan and receipt; no Create at 6/6",
   "acquired_at": "2026-11-01T20:08:10.903Z",
-  "expires_at": "2026-11-01T20:23:10.903Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T20:09:48.957Z",
   "rules": "ops/CANON-LOCK.md"
 }
