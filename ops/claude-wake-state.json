@@ -8,13 +8,12 @@
       "detail": "https://claude.ai/code/cse_01Ro2f8HYPUx3VGVjxo2nYm9"
     },
     "self-heal-run-failed-canon-health-202611010349": {
-      "status": "error",
-      "attempts": 1,
-      "at": "2026-11-01T06:53:05Z",
-      "to": "any",
-      "detail": "HTTP 401"
+      "status": "reserved",
+      "attempts": 2,
+      "at": "2026-11-01T07:02:51Z",
+      "to": "any"
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-11-01T06:53:05Z"
+  "updated_at": "2026-11-01T07:02:51Z"
 }
