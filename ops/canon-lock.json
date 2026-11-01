@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:c2bdd9d2-0915-46fa-abd6-da5026a36d60",
   "task": "self-heal-run-failed-canon-health-202611010349: хендоф >35 КБ, перенос строк в журнал",
   "acquired_at": "2026-11-01T07:11:01Z",
-  "expires_at": "2026-11-01T07:41:01Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T07:12:23Z",
   "rules": "ops/CANON-LOCK.md"
 }
