@@ -172,9 +172,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41267737048 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "grok:poruchenia-routine",
-      "taken_at": "2026-11-01T07:11:00Z"
+      "taken_at": "2026-11-01T07:11:00Z",
+      "result": "Причина: run 41267737048 падал только на намеренном шаге уведомления о новом warning — NEW-CHAT-HANDOFF.md 37 КБ при цели 35 КБ; сама проверка и публикация прошли. Пять строк «Новое» (Grok 01.11, ordinary 31.10) перенесены дословно в archive/handoff-log.md, хендоф 34807 байт; canon_health status=ok warnings=0, 456 тестов OK, validate_site ok, замок снят.",
+      "result_commit": "c95c10edcd2afe96d8360dfafcb5ff9b8b89478c",
+      "closed_at": "2026-11-01T07:12:35Z"
     }
   ]
 }
