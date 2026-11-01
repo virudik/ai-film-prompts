@@ -187,9 +187,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41283865148 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "grok:poruchenia-routine",
-      "taken_at": "2026-11-01T07:49:51Z"
+      "taken_at": "2026-11-01T07:49:51Z",
+      "result": "Причина: кратковременная. Правка хендофа c95c10e (прошлая самопроверка) поменяла NEW-CHAT-HANDOFF.md, и до перезаверки инструкций роботом статус 0224229 (07:12:28Z) имел instruction_sync health=error, отсюда warn status-health в run 41283865148. Робот перезаверил инструкции (e9b8134, 07:13:30Z), статус e590ab3 health=ok, canon-health 07:19Z status=ok, следующий run 41286344998 success. Правок канона не потребовалось.",
+      "result_commit": null,
+      "closed_at": "2026-11-01T07:50:33Z"
     }
   ]
 }
