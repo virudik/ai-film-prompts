@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:f1f939ae-27e0-43f9-b20d-60aa591449e5",
-  "task": "Task: fix Stitch turnaround top row (right profile), replace sheet in place (owner pt44u)",
-  "acquired_at": "2026-11-01T00:39:01Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T00:40:11Z",
+  "state": "held",
+  "holder": "chatgpt:interactive:c5dbb708-056c-4b0a-9e3b-655ed4d08980",
+  "task": "Checkpoint for owner-approved Grok dedup, shared Drive inputs, overnight coverage and site inbox",
+  "acquired_at": "2026-11-01T01:00:43Z",
+  "expires_at": "2026-11-01T01:08:43.027547+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
