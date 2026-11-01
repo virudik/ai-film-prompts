@@ -1,0 +1,106 @@
+name: Verify Grok site delivery and save handoff
+on:
+  push:
+    branches: [work/grok-shared-ops-20261101]
+    paths: [.github/workflows/grok-shared-live-acceptance-once.yml]
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+        with: {ref: main, fetch-depth: 1}
+      - name: Route only the actual owner-approved Grok task through production handler
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python3 - <<'PY'
+          import sys,json,subprocess
+          from pathlib import Path
+          sys.path.insert(0,'scripts')
+          import robot_site_actions as rsa
+          import robot_master_actions as rma
+          import process_owner_decisions as pod
+          ID='d37ea54b-6b09-4283-892b-d6c3e189b82f'
+          class OnlyRequestedTask(rsa.SupabaseStore):
+              def list_open(self): return [r for r in super().list_open() if r['id']==ID]
+          rc=rsa.run('.',OnlyRequestedTask(),rma.Git('.', 'main'))
+          assert rc==0
+          subprocess.run(['git','fetch','origin','main'],check=True)
+          inbox=json.loads(subprocess.check_output(['git','show','origin/main:ops/owner-tasks.json']))
+          ts=[t for t in inbox['tasks'] if t['id']==ID];assert len(ts)==1 and ts[0]['to']=='grok'
+          rows=pod.api('GET',{'id':'eq.'+ID,'select':'id,value,status,result_note'})
+          assert len(rows)==1 and rows[0]['value']=='grok' and rows[0]['status']=='in_progress'
+          assert rows[0]['result_note'].startswith('site-inbox:')
+          result={'task_id':ID,'to':'grok','inbox_status':ts[0]['status'],'db_status':rows[0]['status'],'db_result_note':rows[0]['result_note'],'executed_by':'ChatGPT one-shot verification using production handler; not a scheduled wake or Grok ACK','grok_ack_verified':False,'owner_button_click_tested':False}
+          Path('/tmp/grok-site-route.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result,ensure_ascii=False))
+          PY
+      - name: Record verified deployment and task delivery under exact lease
+        env:
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          python3 - <<'PY'
+          import json,subprocess,sys,uuid,os,zipfile
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          def sh(*a):return subprocess.check_output(a,text=True).strip()
+          def stamp():return datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z')
+          def put(p,x):Path(p).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+          def run(*a):subprocess.run(a,check=True,stdout=subprocess.DEVNULL)
+          holder=None;acquired=None
+          sh('git','config','user.name','ChatGPT project editor');sh('git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
+          try:
+              sh('git','fetch','origin','main');sh('git','reset','--hard','origin/main');l=json.loads(Path('ops/canon-lock.json').read_text());now=datetime.now(timezone.utc)
+              if l.get('state')=='held' and datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>now:raise RuntimeError('Foreign live lease: inbox delivered; report not yet saved')
+              holder='chatgpt:interactive:'+str(uuid.uuid4());acquired=stamp();l.update(state='held',holder=holder,task='Record verified Grok Edge v8 and real inbox route; no generation',acquired_at=acquired,expires_at=(now+timedelta(minutes=10)).isoformat(),released_at=None)
+              put('ops/canon-lock.json',l);sh('git','add','ops/canon-lock.json');sh('git','commit','-m','Acquire exact lease for Grok live acceptance record');sh('git','push','origin','HEAD:main')
+              for attempt in range(3):
+                  sh('git','fetch','origin','main');sh('git','reset','--hard','origin/main');base=sh('git','rev-parse','HEAD');live=json.loads(Path('ops/canon-lock.json').read_text());assert live['holder']==holder and live['acquired_at']==acquired and live['state']=='held'
+                  p=Path('reports/grok-shared-ops-2026-11-01.json');d=json.loads(p.read_text());d['pending']=[x for x in d['pending'] if not x.startswith('Live Edge')]
+                  d['stage']='repository_and_site_delivered_awaiting_grok_runtime_acceptance';d['implementation_commit']='751109e81474dc3e7e4f63d616e481fd977bebe5';d['live_verification_at']=stamp();d['live_verification_run_id']=os.environ['RUN_ID']
+                  d['scope']=[x.replace('private Drive continuity inputs','shared Drive continuity inputs (existing link access)') for x in d['scope']]
+                  d['site_route']=json.loads(Path('/tmp/grok-site-route.json').read_text())
+                  d['edge_deployment']={'function':'owner-decision','version':8,'status':'ACTIVE','custom_owner_key_auth_preserved':True,'verify_jwt':False,'readback_reviewed':True,'deployment_bundle_sha256':'e2f892382e2d083e6cf5c257155b95f1c47ecf2ce494c8fdec5d5452ce6a9dd8','canonical_source_sha256':'ed8c2a5525c68df01b9d52e53b60a93d926540684bd6983bf18e8c7c1d346c7a','mocked_handler_checks':{'grok':201,'chatgpt':201,'claude':201,'any':201,'invalid_target':400,'wrong_key':403,'foreign_origin':403},'authenticated_owner_browser_submit_tested':False}
+                  put(str(p),d)
+                  h=Path('reports/grok-shared-ops-handoff.md');s=h.read_text();marker='## Поручение владельца';notice='## Подтверждённая публикация и доставка\n\nРеализация: `751109e81474dc3e7e4f63d616e481fd977bebe5`;456тестов. Приёмник owner-decision развёрнут и прочитан обратно: версия8, авторизация владельца сохранена. Реальная задача `d37ea54b-6b09-4283-892b-d6c3e189b82f` прошла через штатный обработчик в GitHub `to:grok`, статус на сайте in_progress. Это доставка, не квитанция принятия Grok. Настоящий клик владельца в браузере отдельно не выполнялся.\n\n';assert marker in s
+                  if notice not in s:s=s.replace(marker,notice+marker,1)
+                  h.write_text(s)
+                  cp=Path('reports/current-work-checkpoint.md');anchor='# 01.11.2026 — Grok: сайт доставляет, внешняя приёмка ожидается'
+                  block=anchor+'\n\nwork_id: GROK-SHARED-OPS-20261101\n\nРеализация751109e:456тестов, общие Drive48.2/56.2 и Стич сохранены. owner-decision v8 ACTIVE, readback; настоящая задачаd37ea54b-6b09-4283-892b-d6c3e189b82f доставлена to:grok, DB in_progress через production handler. Не является Grok ACK или owner-browser submit. Осталось: Grok принимает задачу, подключает настоящий provider/message adapter и readback круглосуточной существующей рутины, проверяет Drive из своей среды. Первый Create отдельно gated. Общий файл: reports/grok-shared-ops-handoff.md.\n\n'
+                  if not cp.read_text().startswith(anchor):cp.write_text(block+cp.read_text())
+                  reg=json.loads(Path('work-resume-register.json').read_text());w=next(x for x in reg['active_work'] if x['work_id']=='GROK-SHARED-OPS-20261101');w.update(status='awaiting_grok_acceptance',updated_at=stamp(),next_action='Grok must acknowledge task d37ea54b-6b09-4283-892b-d6c3e189b82f, wire original run/message IDs, read back existing routine 24h :12/:27 and shared Drive inputs; do not infer production launch acceptance.');put('work-resume-register.json',reg)
+                  sys.path.insert(0,'scripts');from resume_state import capture
+                  capture('.','GROK-SHARED-OPS-20261101',anchor,'Repository validated; deployed Edge v8 read back; real Grok task delivered through production handler, not yet acknowledged by Grok.',w['next_action'],[str(p)],['ops/OWNER-TASKS.md','ops/LAUNCHER-COORDINATION.md','ops/slot-backup.json'],focus=False)
+                  run('python3','scripts/build_resume_packet.py','.');run('python3','scripts/continue_preflight.py','.','--require-short')
+                  sh('git','fetch','origin','main');live=json.loads(sh('git','show','origin/main:ops/canon-lock.json'));assert live['holder']==holder and live['acquired_at']==acquired
+                  if sh('git','rev-parse','origin/main')!=base:continue
+                  paths=[str(p),str(h),str(cp),'work-resume-register.json','shadow/resume-packet.json','shadow/resume-packet.md'];sh('git','add','--',*paths);sh('git','commit','-m','Record Grok Edge v8 and verified inbox delivery; preserve pending actual Grok acceptance')
+                  if subprocess.run(['git','push','origin','HEAD:main']).returncode:continue
+                  commit=sh('git','rev-parse','HEAD');sh('git','fetch','origin','main')
+                  for p in paths:assert subprocess.check_output(['git','show','origin/main:'+p])==Path(p).read_bytes(),p
+                  with zipfile.ZipFile('/tmp/AI-Film-Grok-report.zip','w',zipfile.ZIP_DEFLATED) as z:
+                      for p in paths[:2]+['reports/shared-inputs-transfer-2026-11-01.json','ops/LAUNCHER-COORDINATION.md','ops/OWNER-TASKS.md','ops/slot-backup.json','ops/shared-inputs.json','scripts/launcher_coordination.py','scripts/launcher_run_ledger.py','scripts/grok_inbox.py']:
+                          z.write(p,p)
+                      z.writestr('SOURCE-COMMIT.txt',commit+'\nRead fresh main before work.\n')
+                  Path('/tmp/AI-Film-Grok-report.md').write_bytes(h.read_bytes());put('/tmp/grok-live-verification.json',{'commit':commit,'task_id':d['site_route']['task_id'],'edge_version':8,'provider_schedule_applied':False});print('LIVE ACCEPTANCE SAVED',commit);break
+              else:raise RuntimeError('Main kept changing; no stale report published')
+          finally:
+              if holder:
+                  for n in range(3):
+                      sh('git','fetch','origin','main');l=json.loads(sh('git','show','origin/main:ops/canon-lock.json'))
+                      if l.get('holder')!=holder or l.get('acquired_at')!=acquired or l.get('state')!='held':break
+                      sh('git','reset','--hard','origin/main');l.update(state='free',expires_at=None,released_at=stamp());put('ops/canon-lock.json',l);sh('git','add','ops/canon-lock.json');sh('git','commit','-m','Release exact Grok live-verification lease')
+                      if subprocess.run(['git','push','origin','HEAD:main']).returncode==0:break
+          PY
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: grok-live-handoff
+          path: |
+            /tmp/AI-Film-Grok-report.zip
+            /tmp/AI-Film-Grok-report.md
+            /tmp/grok-site-route.json
+            /tmp/grok-live-verification.json
+          retention-days: 3
