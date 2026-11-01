@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project": "misc",
+  "updated_at": "2026-11-01T10:45:42Z",
+  "generated_image_count": 1,
+  "generated_orphans": [],
+  "images": [
+    {
+      "path": "projects/misc/references/yarik.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_identity"
+      ],
+      "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ]
+}

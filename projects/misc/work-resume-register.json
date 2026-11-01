@@ -1,53 +1,54 @@
 {
   "schema_version": 1,
   "project": "misc",
-  "last_updated_at": "2026-10-27T14:07:47+00:00",
-  "active_work": [],
-  "idle_state": {
-    "work_id": "MISC-WAIT-MATERIALS",
-    "project": "misc",
-    "title": "Разное — ожидание решения владельца",
-    "status": "waiting_for_owner",
-    "constraints": [
-      "Действующие ограничения запуска и решения владельца сохраняются"
-    ],
-    "done": [
-      "Пустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe."
-    ],
-    "next_action": "Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.",
-    "recovery": {
-      "schema_version": 1,
-      "verified_at": "2026-10-27T14:07:47+00:00",
-      "last_completed": "Пустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe.",
-      "next_action": "Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.",
-      "checkpoint": {
-        "file": "projects/misc/reports/current-work-checkpoint.md",
-        "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
-        "sha256": "dcf2118ee7158cdbf27283c2153209dcefdb9979069d2e7c08fa2f542badc2e3"
-      },
-      "evidence": [
-        {
-          "file": "projects/misc/HANDOFF.md",
-          "sha256": "191efed14b28e7ed699c45784adc93c38dbaff44ef66acdd780e8439fb1fcf24"
+  "last_updated_at": "2026-11-01T10:45:42Z",
+  "active_work": [
+    {
+      "work_id": "MISC-S1-S2-REFERENCES",
+      "project": "misc",
+      "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
+      "status": "in_progress",
+      "updated_at": "2026-11-01T10:45:42Z",
+      "completed": [
+        "Прежний C1 сохранён, 1/59; 59 исходных промптов сохранены дословно; привязки C1 опубликованы без приёмки."
+      ],
+      "next_action": "№2 C2 — отдельный лист эмоций Ярика по текущему C1; новые неверные повторы не использовать.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-11-01T10:45:42Z",
+        "last_completed": "C1 и канонический список 59 референсов сохранены; 58 PNG отсутствуют.",
+        "next_action": "Нарисовать №2 C2 по исходному промпту; проверить затем сохранить перед следующей картинкой.",
+        "checkpoint": {
+          "file": "projects/misc/reports/current-work-checkpoint.md",
+          "anchor": "# Разное — референсы сцен 1 и 2 · 2026-11-01T10:45:42Z",
+          "sha256": "7b697bc985241f5f1fac6d406e91957212692616b14723d7720a9e0dc2dad269"
         },
-        {
-          "file": "projects/misc/INSTRUCTIONS.md",
-          "sha256": "7b2c02811232159eb7071961b90d1302bae4d02880ba5a4748a3fd4c887397aa"
-        }
-      ],
-      "read_next": [
-        "projects/misc/HANDOFF.md",
-        "projects/misc/INSTRUCTIONS.md",
-        "ops/OWNER-TASKS.md"
-      ],
-      "blockers": []
-    },
-    "updated_at": "2026-10-27T14:07:47+00:00"
-  },
+        "evidence": [
+          {
+            "file": "projects/misc/references/generation-progress.json",
+            "sha256": "4c6a6577d61a881f6bbfe1054974f6217c18d868dcbf2e28ab6d5fbe238319c6"
+          },
+          {
+            "file": "projects/misc/references/yarik.png",
+            "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3"
+          }
+        ],
+        "read_next": [
+          "projects/misc/references/GPT-TASK.md",
+          "projects/misc/references/generation-progress.json",
+          "projects/misc/character-references.json"
+        ],
+        "blockers": [
+          "Новые генерации в этом цикле повторили лист Ярика вместо нужных отдельных изображений; проверенные новые PNG не получены."
+        ]
+      }
+    }
+  ],
+  "idle_state": null,
   "resume_focus": {
     "project": "misc",
-    "work_id": "MISC-WAIT-MATERIALS",
-    "set_at": "2026-10-27T14:07:47.150Z",
-    "reason": "Миграция подтверждённого состояния; не запуск и не квитанция нового чата"
+    "work_id": "MISC-S1-S2-REFERENCES",
+    "set_at": "2026-11-01T10:45:42Z",
+    "reason": "Прямая команда владельца: закончить изображения сцен 1 и 2; сохранён фактический незавершённый шаг."
   }
 }

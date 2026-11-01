@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "misc",
-  "updated_at": "2026-11-01T03:52:34Z",
-  "source": "Оригинальные персонажи сцен 1 «Тихий маяк» и 2 «Тихая планета», 01.11.2026. Картинок ещё нет: в записях только описания и список планируемых референсов; все not_approved.",
+  "updated_at": "2026-11-01T10:45:42Z",
+  "source": "Оригинальные персонажи сцен 1 и 2. Сохранён ранее созданный C1 Ярика; остальные 58 изображений по GPT-TASK.md ещё не готовы. Все not_approved.",
   "characters": [
     {
       "id": "yarik",
@@ -14,11 +14,11 @@
         1
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "source": "ChatGPT image generation; preserved original C1 from this conversation, 01.11.2026; not approved",
         "primary": "Ярик · основной лист (4 ракурса)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/yarik.png",
+        "full_image": "projects/misc/references/yarik.png"
       },
       "outfit_variant": "Мальчик 7 лет: смугловато-светлая кожа, взъерошенные тёмно-русые волнистые волосы с вихром на макушке, большие карие глаза, веснушки, чуть оттопыренные уши; кирпично-красная толстовка с капюшоном и белым парусником на груди, тёмно-синие брюки, серые кроссовки на липучках.",
       "variants": [
@@ -40,14 +40,29 @@
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
+        "status": "generated_partial",
         "planned_reference_images": [
-          "projects/misc/references/yarik.png",
           "projects/misc/references/yarik-expressions.png"
         ],
-        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+        "note": "Основной лист сохранён без перерисовки по команде продолжить остальные изображения. Дополнительные портреты/детали на прежнем листе отличаются от точной раскладки C1; это не приёмка владельца. C2 отдельно ещё не создан.",
+        "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+        "width": 1536,
+        "height": 1024,
+        "source_gen_id": "1d88f4ee-987e-4dc4-99c4-dfd27b2faab7",
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/yarik.png",
+          "caption": "C1 · Ярик — основной лист (предыдущая генерация, не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+          "scenes": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "mama-lena",

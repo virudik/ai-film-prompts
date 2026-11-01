@@ -10,6 +10,8 @@
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
 - **Последняя полная синхронизация:** **01.11.2026 · добавлена сцена 2 «Тихая планета» (DRAFT, структура рилса, 9:16, B1–B4 + A1–A8, без картинок и запусков); до этого — сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), формат 9:16 вертикаль, без картинок и запусков; картинки и видео пока не делаем по решению владельца**.
 
+**Референсы · текущая подготовка 01.11.2026:** сохранён прежний основной лист Ярика (1/59). Остальные 58 картинок ещё не готовы; новые неверные повторы листа Ярика не опубликованы. [Точное задание](projects/misc/references/GPT-TASK.md) · [Прогресс по всем 59 пунктам](projects/misc/references/generation-progress.json). Это подготовка изображений, не разрешение видео.
+
 ## Оглавление сцен
 
 | ID | Сцена | Персонажи | Что происходит |
@@ -19,7 +21,7 @@
 
 ## Сцены в работе
 
-Сцены 1 и 2 — черновики: референсов и запусков ещё нет. Старые космические сцены находятся в проекте Роскосмос.
+Сцены 1 и 2 — черновики. Референсы: сцена 1 — 1/26 (прежний C1), сцена 2 — 0/33; остальные изображения ожидаются. Запусков нет. Старые космические сцены находятся в проекте Роскосмос.
 
 <a id="scene-1"></a>
 ## Сцена 1 — Тихий маяк (история Ярика)
@@ -30,7 +32,7 @@
 
 **Что происходит:** Ярику семь лет, и обычные звуки для него слишком громкие. Во дворе он прячется в тень и выкладывает морские стёклышки, внутри него — штормовое море, где слова уплывают, как лодки. Тяжёлое утро заканчивается слезами, но ночью старшая сестра Соня приносит маяк-ночник и жёлтые наушники, а пёс Бублик ложится ему на ноги. Анна Сергеевна терпеливо ждёт, и Ярик впервые выкладывает три картинки: «я — хочу — тихо». Во дворе рядом садится Варя. На закате семья обнимает его на берегу у настоящего маяка.
 
-**Готовность:** DRAFT. Решение владельца 01.11.2026: картинки и видео пока не делаем, только сцена и промты на сайте. Референсов ещё нет (18 картинок в плане, список — в `projects/misc/character-references.json`, поле `provenance.planned_reference_images`); промты ссылаются на них как на плановые @Image. Запусков не было, Topview-очередь пуста. Техническая проверка изображения не является одобрением владельца.
+**Готовность:** DRAFT. По новой команде владельца 01.11.2026 разрешена подготовка картинок по GPT-TASK.md; видео не запускать. Сохранён 1 из 26 референсов сцены: C1 Ярика. Остальные 25, включая отдельный C2, ещё не готовы. Все изображения not_approved. Полный список и прогресс — `projects/misc/references/generation-progress.json`. Техническая публикация не является одобрением владельца.
 **Формат кадра:** вертикаль 9:16 (720×1280), как в оригинальном рилсе — решение владельца 01.11.2026. Во всех 12 промтах `Aspect ratio: 9:16`, `FRAME FILL` для портретного кадра, вертикальная композиция и запрет горизонтальных/letterbox-кадров. **Запуск в Topview — только с форматом 9:16** (очередь и общие инструкции репозитория по умолчанию 16:9: при создании пункта очереди и на сайте Topview выставить 9:16 отдельно). Референсы локаций, реквизита и ключевые кадры K1–K8 — вертикальные 9:16; листы персонажей — горизонтальные листы-развёртки (как во всём репозитории), они задают только внешность.
 
 **Монтажная роль:** целый короткий фильм; порядок B1→B4 (30 с) или A1→A8 (15 с), B1 = A1 + A2, B2 = A3 + A4, B3 = A5 + A6, B4 = A7 + A8. В 30-секундной версии русский закадровый голос Ярика внутри промта (Wan 3.0); в 15-секундной клипы тихие, текст записывается отдельно и кладётся по таймингам. Музыка и титры добавляются в редакторе.
@@ -77,6 +79,9 @@ _Всего ≈ 169 слов за 120 с: оставлено время на п�
 - [0:23–0:30] «Я не злюсь. Я выкладываю стёклышки в ряд. Они тихие.»
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -169,6 +174,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Внутреннее море — шторм · @Image5 = Прихожая
 
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
 - @Image2 — Мама Лена: PRIMARY exact identity.
@@ -260,6 +268,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:22–0:30] «Сегодня я выложил три картинки: „я“, „хочу“, „тихо“. И меня поняли.»
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image5 = Комната Ярика ночью · @Image6 = Кабинет занятий
+
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -357,6 +368,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:26–0:30] «Просто побудьте рядом. Этого достаточно.»
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Варя — лист (ракурсы + эмоции) · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Мама Лена — основной лист · @Image5 = Соня — основной лист · @Image6 = Берег и маяк на закате
+
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -459,6 +473,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня
 
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, причёска, одежда).
 - @Image2 — Мама Лена: PRIMARY exact identity.
@@ -528,6 +545,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Двор с площадкой · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity.
 - @Image2 — двор: только локация (горка, песочница, берёзы, дом).
@@ -596,6 +616,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Внутреннее море — шторм · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, те же лицо и волосы).
 - @Image2 — внутреннее море в шторм: только мир, палитра, форма волн и далёкий тёмный маяк.
@@ -663,6 +686,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:07–0:15] «Я плачу — по-другому не умею. Мама устала. Мне так жалко её. И себя.»
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Прихожая
+
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity.
@@ -736,6 +762,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:08–0:15] «Она сказала: „Чтобы море стало тише“. Бублик лёг рядом — тёплый и тяжёлый.»
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Комната Ярика ночью · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы; сейчас в тёмно-синей пижаме со звёздочками вместо толстовки).
@@ -813,6 +842,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image3 = Кабинет занятий · @Image4 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, наушники на шее).
 - @Image2 — Анна Сергеевна: PRIMARY exact identity.
@@ -884,6 +916,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:08–0:15] «Одна девочка села рядом. Я дал ей самое красивое стёклышко.»
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Бублик — лист (ракурсы + эмоции) · @Image3 = Варя — лист (ракурсы + эмоции) · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, жёлтые наушники на голове).
@@ -961,6 +996,9 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:11–0:15] «Просто побудьте рядом. Этого достаточно.»
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Бублик — лист (ракурсы + эмоции) · @Image5 = Берег и маяк на закате
+
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка).

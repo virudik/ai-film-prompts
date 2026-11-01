@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "project": "misc",
+  "scene": 2,
+  "title": "Тихая планета",
+  "updated_at": "2026-11-01T10:45:42Z",
+  "status": "references_pending",
+  "editorial_status": "not_approved",
+  "expected_image_count": 33,
+  "generated_image_count": 0,
+  "references": [],
+  "planned_references": [
+    {
+      "number": 27,
+      "tag": "S2-M1",
+      "path": "projects/misc/references/miron.png",
+      "prompt_path": "projects/misc/references/miron.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 28,
+      "tag": "S2-M2",
+      "path": "projects/misc/references/miron-expressions.png",
+      "prompt_path": "projects/misc/references/miron-expressions.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 29,
+      "tag": "S2-M3",
+      "path": "projects/misc/references/miron-spacesuit.png",
+      "prompt_path": "projects/misc/references/miron-spacesuit.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 30,
+      "tag": "S2-V1",
+      "path": "projects/misc/references/vera.png",
+      "prompt_path": "projects/misc/references/vera.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 31,
+      "tag": "S2-V2",
+      "path": "projects/misc/references/vera-expressions.png",
+      "prompt_path": "projects/misc/references/vera-expressions.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 32,
+      "tag": "S2-N1",
+      "path": "projects/misc/references/nina.png",
+      "prompt_path": "projects/misc/references/nina.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 33,
+      "tag": "S2-N2",
+      "path": "projects/misc/references/nina-expressions.png",
+      "prompt_path": "projects/misc/references/nina-expressions.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 34,
+      "tag": "S2-D1",
+      "path": "projects/misc/references/darya.png",
+      "prompt_path": "projects/misc/references/darya.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 35,
+      "tag": "S2-R1",
+      "path": "projects/misc/references/mark.png",
+      "prompt_path": "projects/misc/references/mark.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 36,
+      "tag": "S2-B1",
+      "path": "projects/misc/references/lilya.png",
+      "prompt_path": "projects/misc/references/lilya.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 37,
+      "tag": "S2-H1",
+      "path": "projects/misc/references/tuman.png",
+      "prompt_path": "projects/misc/references/tuman.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 38,
+      "tag": "S2-L1",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L1-living-room.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L1-living-room.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 39,
+      "tag": "S2-L2",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L2-city-square.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L2-city-square.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 40,
+      "tag": "S2-L3",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L3-supermarket.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 41,
+      "tag": "S2-L4",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 42,
+      "tag": "S2-L5",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L5-barbershop.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 43,
+      "tag": "S2-L6",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 44,
+      "tag": "S2-L7",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 45,
+      "tag": "S2-L8",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L8-development-center.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L8-development-center.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 46,
+      "tag": "S2-L9",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L9-doctor-office.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L9-doctor-office.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 47,
+      "tag": "S2-L10",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 48,
+      "tag": "S2-L11",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 49,
+      "tag": "S2-L12",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L12-stable-meadow.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L12-stable-meadow.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 50,
+      "tag": "S2-L13",
+      "path": "projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-L13-space-earth.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 51,
+      "tag": "S2-P1",
+      "path": "projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 52,
+      "tag": "S2-K1",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K1-suit-street.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K1-suit-street.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 53,
+      "tag": "S2-K2",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K2-home-bubble.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K2-home-bubble.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 54,
+      "tag": "S2-K3",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K3-store-fear.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K3-store-fear.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 55,
+      "tag": "S2-K4",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K4-grandma-hug.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K4-grandma-hug.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 56,
+      "tag": "S2-K5",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K5-dome-cards.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K5-dome-cards.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 57,
+      "tag": "S2-K6",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K6-reading.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K6-reading.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 58,
+      "tag": "S2-K7",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K7-school-day.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K7-school-day.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 59,
+      "tag": "S2-K8",
+      "path": "projects/misc/references/scenes/scene-2/MS02-K8-space.png",
+      "prompt_path": "projects/misc/references/scenes/scene-2/MS02-K8-space.prompt.txt",
+      "status": "pending"
+    }
+  ]
+}

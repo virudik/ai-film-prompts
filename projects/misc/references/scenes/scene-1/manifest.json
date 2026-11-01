@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "project": "misc",
+  "scene": 1,
+  "title": "Тихий маяк",
+  "updated_at": "2026-11-01T10:45:42Z",
+  "status": "references_partial",
+  "editorial_status": "not_approved",
+  "expected_image_count": 26,
+  "generated_image_count": 1,
+  "references": [
+    {
+      "tag": "C1",
+      "role": "character_identity",
+      "path": "projects/misc/references/yarik.png",
+      "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/yarik.prompt.txt"
+    }
+  ],
+  "planned_references": [
+    {
+      "number": 2,
+      "tag": "C2",
+      "path": "projects/misc/references/yarik-expressions.png",
+      "prompt_path": "projects/misc/references/yarik-expressions.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 3,
+      "tag": "C3",
+      "path": "projects/misc/references/mama-lena.png",
+      "prompt_path": "projects/misc/references/mama-lena.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 4,
+      "tag": "C4",
+      "path": "projects/misc/references/mama-lena-expressions.png",
+      "prompt_path": "projects/misc/references/mama-lena-expressions.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 5,
+      "tag": "C5",
+      "path": "projects/misc/references/sonya.png",
+      "prompt_path": "projects/misc/references/sonya.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 6,
+      "tag": "C6",
+      "path": "projects/misc/references/sonya-expressions.png",
+      "prompt_path": "projects/misc/references/sonya-expressions.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 7,
+      "tag": "C7",
+      "path": "projects/misc/references/anna-sergeevna.png",
+      "prompt_path": "projects/misc/references/anna-sergeevna.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 8,
+      "tag": "C8",
+      "path": "projects/misc/references/bublik.png",
+      "prompt_path": "projects/misc/references/bublik.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 9,
+      "tag": "C9",
+      "path": "projects/misc/references/varya.png",
+      "prompt_path": "projects/misc/references/varya.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 10,
+      "tag": "L1",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 11,
+      "tag": "L2",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 12,
+      "tag": "L3",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 13,
+      "tag": "L4",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 14,
+      "tag": "L5",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 15,
+      "tag": "L6",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 16,
+      "tag": "L7",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 17,
+      "tag": "L8",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 18,
+      "tag": "P1",
+      "path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 19,
+      "tag": "K1",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 20,
+      "tag": "K2",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 21,
+      "tag": "K3",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 22,
+      "tag": "K4",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 23,
+      "tag": "K5",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 24,
+      "tag": "K6",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K6-three-cards.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 25,
+      "tag": "K7",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.prompt.txt",
+      "status": "pending"
+    },
+    {
+      "number": 26,
+      "tag": "K8",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png",
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.prompt.txt",
+      "status": "pending"
+    }
+  ]
+}

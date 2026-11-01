@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:ff4e7c30-a32a-46d7-88ab-b468fa23e958",
   "task": "Разное: сохранить прежний C1, исходные 59 промптов и фактическую незавершённую подготовку",
   "acquired_at": "2026-11-01T10:45:41Z",
-  "expires_at": "2026-11-01T11:30:41Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T10:46:00Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
