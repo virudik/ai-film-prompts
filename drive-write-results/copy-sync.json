@@ -1,74 +1,74 @@
 {
-  "checked_at": "2026-10-31T09:40:31Z",
+  "checked_at": "2026-11-01T10:29:19Z",
   "mode": "sync",
   "summary": {
-    "written": 2,
-    "current": 8
+    "written": 8,
+    "current": 2
   },
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "f13fbeb83b7d3b89eaf2197d6a6dd96dbf3bc6a2dd78090c87e7d18836315722",
+      "github_sha256": "4def38fa387b5da5f872238e803cdfefa27eef8e28edbf8c2ba9d4855bd1fb4b",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "f13fbeb83b7d3b89eaf2197d6a6dd96dbf3bc6a2dd78090c87e7d18836315722",
+      "drive_sha256": "4def38fa387b5da5f872238e803cdfefa27eef8e28edbf8c2ba9d4855bd1fb4b",
       "status": "written",
-      "drive_modified": "2026-10-31T09:40:18.142Z"
+      "drive_modified": "2026-11-01T10:28:50.046Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "2dc9676df8c75a722687e71b7eb3c36d1a9247aa9e30f2a92814904b4248df48",
+      "github_sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "2dc9676df8c75a722687e71b7eb3c36d1a9247aa9e30f2a92814904b4248df48",
+      "drive_sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
       "status": "written",
-      "drive_modified": "2026-10-31T09:40:22.977Z"
+      "drive_modified": "2026-11-01T10:28:54.795Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
-      "github_sha256": "facf5e8d815e877745b8f9f1675cf531d28783f68b6421a0b2e04a66370f7537",
+      "github_sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
       "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_sha256": "facf5e8d815e877745b8f9f1675cf531d28783f68b6421a0b2e04a66370f7537",
-      "status": "current",
-      "drive_modified": "2026-10-30T10:02:35.018Z"
+      "drive_sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
+      "status": "written",
+      "drive_modified": "2026-11-01T10:28:58.179Z"
     },
     {
       "name": "AI-PROJECT-GUIDE.md",
-      "github_sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
+      "github_sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
       "file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_sha256": "e4b282b861e67590d565881840d1d016dc12c25a2cf4c4921355f9ffd5a56f3c",
-      "status": "current",
-      "drive_modified": "2026-10-28T09:41:27.423Z"
+      "drive_sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
+      "status": "written",
+      "drive_modified": "2026-11-01T10:29:02.325Z"
     },
     {
       "name": "PROMPT-STYLE-GUIDE.md",
-      "github_sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
+      "github_sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
       "file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_sha256": "301719f9cc09979e81147cbfbf063a50797bb23185e7b6301a91a14299e73e84",
-      "status": "current",
-      "drive_modified": "2026-10-30T10:02:37.822Z"
+      "drive_sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
+      "status": "written",
+      "drive_modified": "2026-11-01T10:29:05.783Z"
     },
     {
       "name": "USER-GUIDE.md",
-      "github_sha256": "dab4dada768960c032df56e011aea7a5d55517d786ed99ed74af81c6abd8e8a0",
+      "github_sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
       "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_sha256": "dab4dada768960c032df56e011aea7a5d55517d786ed99ed74af81c6abd8e8a0",
-      "status": "current",
-      "drive_modified": "2026-10-29T09:59:50.156Z"
+      "drive_sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
+      "status": "written",
+      "drive_modified": "2026-11-01T10:29:09.499Z"
     },
     {
       "name": "README-AI-SYNC.md",
-      "github_sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
+      "github_sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1",
       "file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_sha256": "353e9e8fee391b9dc1075e6c1b06e27cfef78a14bf3c5ad035053774c469a4f0",
-      "status": "current",
-      "drive_modified": "2026-10-28T09:41:34.398Z"
+      "drive_sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1",
+      "status": "written",
+      "drive_modified": "2026-11-01T10:29:12.854Z"
     },
     {
       "name": "BACKUP-AI-RUNBOOK.md",
-      "github_sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
+      "github_sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
       "file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_sha256": "a6bf924b438923796c384c08134518437ac76f90ab5c4f59bcf7dfd9dece2025",
-      "status": "current",
-      "drive_modified": "2026-10-28T09:41:36.538Z"
+      "drive_sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+      "status": "written",
+      "drive_modified": "2026-11-01T10:29:16.046Z"
     },
     {
       "name": "film-backlog.md",
