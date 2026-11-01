@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-01T06:43:21+00:00
+Проверено: 2026-11-01T07:12:41+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -63,4 +63,7 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
+- brief was invalid at generation
+- instruction certificate mismatch: NEW-CHAT-HANDOFF.md
+- project-status health not ok
 - selected checkpoint hash mismatch

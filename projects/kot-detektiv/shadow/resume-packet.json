@@ -3,14 +3,19 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-01T06:43:21+00:00",
-  "source_head": "bb038382ac37bcaadb9219371e9ffd5f4343fb09",
-  "source_fingerprint": "9e6c57d73d193d35b28f27325ece07dabb216af4d3edc0823460eb28f4145fd8",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-01T07:12:41+00:00",
+  "source_head": "b7cbeaf902fb13d445bc605c5d1fbfcf0b252647",
+  "source_fingerprint": "f673d49d9adfed05fe80491882fa6632b8c69fb5a8177f80bc33b4d7d08784a2",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
+    "project-status health not ok",
+    "project master/status mismatch: kot-detektiv"
+  ],
   "selected_work": {
     "work_id": "KD-WAIT-OWNER",
     "title": "Кот детектив — ожидание решения владельца",
@@ -163,8 +168,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "299f03e5ef944a5e3ade4791202b87fd69ac29ca25f4cab503973f83c8313ccd",
-      "bytes": 37264
+      "sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
+      "bytes": 34807
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -203,8 +208,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "224d121cbe4178b6340f8a10bdc5cd2bda8d851fb282500a1537a67e6420090f",
-      "bytes": 22409
+      "sha256": "746c68d1584d144ec82afe7662ca713b52f963e6d1b0b1a4a49b84973f791f74",
+      "bytes": 22456
     },
     {
       "file": "projects/README.md",
@@ -228,8 +233,8 @@
     },
     {
       "file": "projects/kot-detektiv/project-status.json",
-      "sha256": "157aa226841f49f94a508228030ef77c0c01fe941143a09b64aaecd0b3b60259",
-      "bytes": 16735
+      "sha256": "edb487d593d2e0e75fe92c3174bdccc384951d9d2327b5a83926753e16e2ca38",
+      "bytes": 16782
     },
     {
       "file": "projects/kot-detektiv/reports/current-work-checkpoint.md",
@@ -258,13 +263,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "ae2ab2248ba2909fc9e1171db3535eb1523caf578d857e5ff32888d9e500781d",
-      "bytes": 37065
+      "sha256": "de5789ea1445f20096d8e04aa0c9e646e72905d92ba7681951842a21eb358cc8",
+      "bytes": 34608
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "e01167df1c7386ad89ea0a83fe2bdb47fd9e8a568b3613a710d5da0eed756fe1",
-      "bytes": 25126
+      "sha256": "519b59931f2a66e3f742f3a5d087492fd2904d8ef573efc78a5e0418e0a28428",
+      "bytes": 25156
     },
     {
       "file": "video-prompts.md",
@@ -272,5 +277,5 @@
       "bytes": 1349746
     }
   ],
-  "packet_bytes": 5355
+  "packet_bytes": 5414
 }

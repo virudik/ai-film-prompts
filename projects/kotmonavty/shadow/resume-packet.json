@@ -3,14 +3,19 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-01T06:43:21+00:00",
-  "source_head": "bb038382ac37bcaadb9219371e9ffd5f4343fb09",
-  "source_fingerprint": "7211fb3e48b9919e6531cfc883ec934ce382e0d92647add47358a0534b21ce9a",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-01T07:12:41+00:00",
+  "source_head": "b7cbeaf902fb13d445bc605c5d1fbfcf0b252647",
+  "source_fingerprint": "0f79226b4d0f4fa5c15a059e09039a79e8420f9a7e04faa770273675f0a8978b",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
+  "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
+    "project-status health not ok",
+    "project master/status mismatch: kotmonavty"
+  ],
   "selected_work": {
     "work_id": "KM-20261030-WAN4-9",
     "title": "Wan3 30s: сцены4 и9",
@@ -190,8 +195,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "299f03e5ef944a5e3ade4791202b87fd69ac29ca25f4cab503973f83c8313ccd",
-      "bytes": 37264
+      "sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
+      "bytes": 34807
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -230,8 +235,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "224d121cbe4178b6340f8a10bdc5cd2bda8d851fb282500a1537a67e6420090f",
-      "bytes": 22409
+      "sha256": "746c68d1584d144ec82afe7662ca713b52f963e6d1b0b1a4a49b84973f791f74",
+      "bytes": 22456
     },
     {
       "file": "projects/README.md",
@@ -255,8 +260,8 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "7ba71b83908a3a4b253f04d486c2b607ef996d96ddfb2b0729b34579affebc4b",
-      "bytes": 17160
+      "sha256": "e72a213a143a4d30b6cd5d8bc14fdef5a6a5b3461878286e1ccdeb5420312415",
+      "bytes": 17207
     },
     {
       "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
@@ -295,13 +300,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "ae2ab2248ba2909fc9e1171db3535eb1523caf578d857e5ff32888d9e500781d",
-      "bytes": 37065
+      "sha256": "de5789ea1445f20096d8e04aa0c9e646e72905d92ba7681951842a21eb358cc8",
+      "bytes": 34608
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "e01167df1c7386ad89ea0a83fe2bdb47fd9e8a568b3613a710d5da0eed756fe1",
-      "bytes": 25126
+      "sha256": "519b59931f2a66e3f742f3a5d087492fd2904d8ef573efc78a5e0418e0a28428",
+      "bytes": 25156
     },
     {
       "file": "video-prompts.md",
@@ -309,5 +314,5 @@
       "bytes": 1349746
     }
   ],
-  "packet_bytes": 7647
+  "packet_bytes": 7704
 }

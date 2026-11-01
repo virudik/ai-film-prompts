@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-01T06:43:21+00:00",
-  "source_head": "bb038382ac37bcaadb9219371e9ffd5f4343fb09",
-  "source_fingerprint": "3b43d157e81150a7a92b1b1a29e891d0b1eace0f04749d347d5ecf4cb874dbcb",
+  "checked_at": "2026-11-01T07:12:41+00:00",
+  "source_head": "b7cbeaf902fb13d445bc605c5d1fbfcf0b252647",
+  "source_fingerprint": "786e1208e4596fb3a174c55259f073df5c6057d6568cb3289d044369e67e7b51",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -31,6 +31,9 @@
     "source_head": "2a171454ec80e6773bf7e64b3619a3343d2d9814"
   },
   "reasons": [
+    "brief was invalid at generation",
+    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
+    "project-status health not ok",
     "selected checkpoint hash mismatch"
   ],
   "selected_work": null,
@@ -368,8 +371,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "299f03e5ef944a5e3ade4791202b87fd69ac29ca25f4cab503973f83c8313ccd",
-      "bytes": 37264
+      "sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
+      "bytes": 34807
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -413,8 +416,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "224d121cbe4178b6340f8a10bdc5cd2bda8d851fb282500a1537a67e6420090f",
-      "bytes": 22409
+      "sha256": "746c68d1584d144ec82afe7662ca713b52f963e6d1b0b1a4a49b84973f791f74",
+      "bytes": 22456
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -428,13 +431,13 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "ae2ab2248ba2909fc9e1171db3535eb1523caf578d857e5ff32888d9e500781d",
-      "bytes": 37065
+      "sha256": "de5789ea1445f20096d8e04aa0c9e646e72905d92ba7681951842a21eb358cc8",
+      "bytes": 34608
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "e01167df1c7386ad89ea0a83fe2bdb47fd9e8a568b3613a710d5da0eed756fe1",
-      "bytes": 25126
+      "sha256": "519b59931f2a66e3f742f3a5d087492fd2904d8ef573efc78a5e0418e0a28428",
+      "bytes": 25156
     },
     {
       "file": "video-prompts.md",
@@ -447,5 +450,5 @@
       "bytes": 89499
     }
   ],
-  "packet_bytes": 10398
+  "packet_bytes": 10519
 }
