@@ -1,0 +1,145 @@
+name: Grok shared operations validated publication
+on:
+  push:
+    branches: [work/grok-shared-ops-20261101]
+    paths: [.github/workflows/grok-shared-implementation-once.yml]
+permissions:
+  contents: write
+jobs:
+  implement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PUBLISH: 'false'
+    steps:
+      - uses: actions/checkout@v5
+        with: {ref: main, fetch-depth: 1}
+      - name: Load exact owner implementation package (no credentials)
+        run: |
+          python3 - <<'PY'
+          import urllib.request,hashlib,zipfile,io
+          from pathlib import Path
+          url='https://drive.usercontent.google.com/download?id=1WrlnA5pQwm0nZb-ZrtfaVgu3sRE8KSue&export=download&confirm=t'
+          data=urllib.request.urlopen(url,timeout=60).read()
+          assert hashlib.sha256(data).hexdigest()=='9c6f928bab919376d914fb50f2aa87b11c57cffd5d8508a4f435d83419bc6b4a','Package bytes mismatch'
+          with zipfile.ZipFile(io.BytesIO(data)) as z:
+              for p in z.namelist():
+                  assert not p.startswith('/') and '..' not in Path(p).parts
+              z.extractall('/tmp/grok-package')
+          print('Exact implementation package verified; no media or credentials included')
+          PY
+      - name: Fresh-main implementation, tests and optional CAS publication
+        env:
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          python3 - <<'PY'
+          import json,subprocess,hashlib,os,sys,shutil,uuid,re,zipfile
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          publish=os.environ['PUBLISH']=='true'
+          report='reports/grok-shared-ops-2026-11-01.json';workid='GROK-SHARED-OPS-20261101'
+          pkg=Path('/tmp/grok-package');expected=json.loads((pkg/'expected.json').read_text());new=json.loads((pkg/'new-files.json').read_text())
+          def stamp(): return datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z')
+          def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          def sh(*args):return subprocess.check_output(args,text=True).strip()
+          def put(p,x):Path(p).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+          def run(args,name):
+              p=subprocess.run(args,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT);Path('/tmp/grok-'+name+'.log').write_text(p.stdout)
+              print(name,p.returncode,p.stdout[-1800:],flush=True)
+              if p.returncode:raise RuntimeError(name+' failed')
+              return p.stdout
+          def lock_ok(raw):
+              l=json.loads(raw);assert l['state']=='held' and l['holder']==holder and l['acquired_at']==acquired,'Foreign lease'
+              assert datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>datetime.now(timezone.utc),'Expired lease'
+          sh('git','config','user.name','ChatGPT project editor');sh('git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
+          holder=None;acquired=None
+          try:
+              if publish:
+                  sh('git','fetch','origin','main');sh('git','reset','--hard','origin/main')
+                  l=json.loads(Path('ops/canon-lock.json').read_text());now=datetime.now(timezone.utc)
+                  if l.get('state')=='held' and datetime.fromisoformat(l['expires_at'].replace('Z','+00:00'))>now:raise RuntimeError('Foreign active canon lease')
+                  holder='chatgpt:interactive:'+str(uuid.uuid4());acquired=stamp()
+                  l.update(state='held',holder=holder,task='Publish owner Grok run ledger, shared Drive inputs, overnight policy and site addressee',acquired_at=acquired,expires_at=(now+timedelta(minutes=20)).isoformat(),released_at=None)
+                  put('ops/canon-lock.json',l);sh('git','add','ops/canon-lock.json');sh('git','commit','-m','Acquire exact lease for owner Grok shared-ops implementation');sh('git','push','origin','HEAD:main');sh('git','fetch','origin','main');lock_ok(sh('git','show','origin/main:ops/canon-lock.json'))
+              for attempt in range(3):
+                  sh('git','fetch','origin','main');sh('git','reset','--hard','origin/main')
+                  for path in new+['ops/launcher-run-ledger.json','ops/shared-inputs.json','reports/shared-inputs-transfer-2026-11-01.json']:
+                      if not subprocess.run(['git','ls-files','--error-unmatch',path],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode:continue
+                      Path(path).unlink(missing_ok=True)
+                  base=sh('git','rev-parse','HEAD')
+                  if publish:lock_ok(Path('ops/canon-lock.json').read_text())
+                  for p,d in expected.items():assert sha(p)==d,'Changed reviewed source: '+p
+                  protected=['video-prompts.md','character-references.json','references/scenes/scene-66/S66-Stitch-tatooine-sheet.png','references/thumbs/scenes/scene-66/S66-Stitch-tatooine-sheet.png.webp','references/scenes/scene-52/manifest.json','references/scenes/scene-66/manifest.json','monitor-role.json']
+                  before={p:sha(p) for p in protected}
+                  oldcfg=json.loads(Path('ops/slot-backup.json').read_text());oldq=json.loads(Path('ops/topview-launch-queue.json').read_text())
+                  run(['git','apply','--check',str(pkg/'static.patch')],'patch-check')
+                  run(['git','apply',str(pkg/'static.patch')],'patch')
+                  for p in new:
+                      assert not Path(p).exists(),'New path already exists: '+p
+                      Path(p).parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(pkg/p,p)
+                  run(['python3',str(pkg/'dynamic.py')],'dynamic')
+                  run(['python3','scripts/queue_readiness.py','.'],'readiness')
+                  run(['python3','scripts/shared_input_registry.py','.'],'shared-inputs')
+                  run(['python3','scripts/cert_github.py','.'],'cert')
+                  run(['python3','scripts/build_project_status.py','video-prompts.md','--instruction-dir','.','--repo-root','.','--previous-status-file','project-status.json','--output','project-status.json'],'project')
+                  tests=run(['python3','-m','unittest','discover','-s','tests','-q'],'tests')
+                  count=int(re.search(r'Ran (\d+) tests',tests).group(1))
+                  run(['python3','scripts/validate_site.py'],'site')
+                  run(['python3','scripts/check_instruction_consistency.py','.','--write'],'consistency')
+                  for p,d in before.items():assert sha(p)==d,'Protected bytes changed: '+p
+                  cfg=json.loads(Path('ops/slot-backup.json').read_text());assert cfg['grok_launcher']['first_real_create']==oldcfg['grok_launcher']['first_real_create'];assert cfg['route_generation']==oldcfg['route_generation'];assert cfg['preferred_executor']==oldcfg['preferred_executor'];assert cfg['peers']==oldcfg['peers']
+                  q=json.loads(Path('ops/topview-launch-queue.json').read_text());assert [i['id'] for i in q['items']]==[i['id'] for i in oldq['items']]
+                  for old,cur in zip(oldq['items'],q['items']):
+                      assert {k:v for k,v in old.items() if k!='references'}=={k:v for k,v in cur.items() if k!='references'},old['id']
+                  shared=json.loads(Path('ops/shared-inputs.json').read_text());available=[i for i in shared['items'] if i['all_required_inputs_shared']]
+                  for iid in ('S48-SEED20-P2','S56-SEED20-P2'):assert next(i for i in shared['items'] if i['id']==iid)['all_required_inputs_shared'],iid
+                  d=json.loads(Path(report).read_text());d.update(stage='repository_verified_provider_acceptance_pending',source_head=base,verification_run_id=os.environ['RUN_ID'],verified_at=stamp(),tests={'unit_tests':count,'site':'passed','instruction_consistency':'ok','certificate':'7/7'},shared_inventory={'assets':len(shared['assets']),'pending_items':len(shared['items']),'all_required_inputs_shared':len(available)},protected_sha256=before);put(report,d)
+                  cp=Path('reports/current-work-checkpoint.md');anchor='# 01.11.2026 — Grok: общие входы и защищённые задачи — реализовано'
+                  cp.write_text(anchor+'\n\nwork_id: '+workid+'\n\nКод, общие Drive входы48.2/56.2, адресат сайта и ночное окно проверены; '+str(count)+' unit tests. Отчёт `'+report+'`; файл для бота/чата `reports/grok-shared-ops-handoff.md`. Первый Create, master, Стич, приоритеты и чужие claims сохранены. Осталось: live Edge deploy/readback; приём задачи и применение внешнего расписания самим Grok, проверка его оригинальных run/message IDs и файлов. Production launch не подтверждён этой правкой.\n\n'+cp.read_text())
+                  reg=json.loads(Path('work-resume-register.json').read_text());w=next(w for w in reg['active_work'] if w['work_id']==workid)
+                  w.update(status='provider_acceptance_pending',updated_at=stamp(),next_action='Verify live owner-decision deployment and site delivery; Grok must accept inbox task, wire original provider IDs, edit existing routine to 24h :12/:27, read back shared inputs and return evidence. No replay of unknown Create.')
+                  put('work-resume-register.json',reg)
+                  sys.path.insert(0,'scripts');from resume_state import capture
+                  capture('.',workid,anchor,'Grok shared-ops code and shared inputs validated; no video generated.',w['next_action'],[report,'reports/shared-inputs-transfer-2026-11-01.json'],['ops/LAUNCHER-COORDINATION.md','ops/slot-backup.json','ops/OWNER-TASKS.md'],focus=False)
+                  run(['python3','scripts/build_takeover_brief.py','.','shadow'],'brief')
+                  run(['python3','scripts/build_resume_packet.py','.'],'resume')
+                  run(['python3','scripts/continue_preflight.py','.','--require-short'],'preflight')
+                  run(['python3','scripts/canon_health.py','.','--write'],'health')
+                  assert json.loads(Path('project-status.json').read_text())['health']=='ok'
+                  assert json.loads(Path('canon-health.json').read_text())['warnings']==0
+                  run(['git','-c','core.whitespace=cr-at-eol','diff','--check'],'whitespace')
+                  paths=sorted(set(sh('git','diff','--name-only').splitlines())|set(sh('git','ls-files','--others','--exclude-standard').splitlines()))
+                  assert not any(p.endswith(('.mp4','.env')) or p.startswith('.github/') for p in paths)
+                  if publish:
+                      sh('git','fetch','origin','main');lock_ok(sh('git','show','origin/main:ops/canon-lock.json'))
+                      if sh('git','rev-parse','origin/main')!=base:print('New main: recompute, no stale rebase');continue
+                      sh('git','add','--',*paths);sh('git','commit','-m','Implement Grok durable run/message ledger, shared Drive inputs and site inbox; authorize overnight policy')
+                      p=subprocess.run(['git','push','origin','HEAD:main'],text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT);print(p.stdout)
+                      if p.returncode:continue
+                      commit=sh('git','rev-parse','HEAD');sh('git','fetch','origin','main')
+                      for p in paths:assert subprocess.check_output(['git','show','origin/main:'+p])==Path(p).read_bytes(),p
+                  else:commit=None
+                  put('/tmp/grok-shared-verification.json',{'published':publish,'commit':commit,'source_head':base,'tests':count,'paths':paths,'protected_unchanged':True,'new_video_submissions':0,'provider_schedule_applied':False})
+                  with zipfile.ZipFile('/tmp/AI-Film-Grok-shared-ops.zip','w',zipfile.ZIP_DEFLATED) as z:
+                      for p in paths:z.write(p,p)
+                      z.writestr('SOURCE-COMMIT.txt',(commit or 'VALIDATION ONLY')+'\nRead fresh main before work.\n')
+                  print('VERIFIED',publish,commit,count,flush=True);break
+              else:raise RuntimeError('Main kept changing: no stale publication')
+          finally:
+              if publish and holder:
+                  # Release only this exact lease, even on validation failure. Never touch a foreign/replaced lock.
+                  for n in range(3):
+                      sh('git','fetch','origin','main');raw=sh('git','show','origin/main:ops/canon-lock.json');l=json.loads(raw)
+                      if l.get('holder')!=holder or l.get('acquired_at')!=acquired or l.get('state')!='held':break
+                      sh('git','reset','--hard','origin/main');l.update(state='free',expires_at=None,released_at=stamp());put('ops/canon-lock.json',l);sh('git','add','ops/canon-lock.json');sh('git','commit','-m','Release exact Grok shared-ops implementation lease')
+                      if subprocess.run(['git','push','origin','HEAD:main']).returncode==0:break
+          PY
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: grok-shared-implementation
+          path: |
+            /tmp/grok-shared-verification.json
+            /tmp/AI-Film-Grok-shared-ops.zip
+            /tmp/grok-*.log
+          retention-days: 3
