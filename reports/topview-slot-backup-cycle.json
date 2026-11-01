@@ -8,9 +8,9 @@
   "source_head": "da46a6231b54353df2bdff5c01e9a5f0f7ca324b",
   "route_generation": 2,
   "started_at": "2026-11-01T00:00:26.723337Z",
-  "checked_at": "2026-11-01T00:03:09.571Z",
-  "phase": "started",
-  "stage": "global_scan_completed",
+  "checked_at": "2026-11-01T00:05:17.850Z",
+  "phase": "finished",
+  "stage": "final_receipt_verified",
   "scan_complete": true,
   "scan_source": "Authenticated Topview read-only board tasks; direct full 14 board/17 page scan",
   "scan_scope": "14 boards; 17 nonempty task pages; 952/952 tasks, 624 videos",
@@ -33,10 +33,10 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "pending_final_audit",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "none; metered TinyFish prohibited when 6/6",
+  "browser_transport": "none; confirmed 6/6 prohibited metered TinyFish",
   "tinyfish_runs": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_spend_usd": 0,
@@ -47,5 +47,55 @@
     "acquired_at": "2026-11-01T00:02:20.980Z",
     "expires_at": "2026-11-01T00:19:20.980Z"
   },
-  "work_restore_evidence": false
+  "work_restore_evidence": false,
+  "video_tasks_expected": 624,
+  "active_details_checked": {
+    "all_six_board_cards": "init, video, Unlimited=true, creditsCost=0",
+    "individual_task_details": "6/6 confirmed after read-only retry",
+    "transient_individual_detail_error": "Task 0de1f663... initially 5003 Internal server error; retry returned 200 init, and board list confirmed."
+  },
+  "queue": {
+    "source_queue_sha256": "68f8cdf88b8e1acb4ad8d1c9ed871441cabcf4e47c59002ae7d1be7aea3cbf68",
+    "source_task_map_sha256": "165c40c90876a1481a38b3aad18f71b97cd8202be0da09769bb49a24fde29c4c",
+    "readiness_sha_matches": true,
+    "queue_items": 65,
+    "submitted": 11,
+    "waiting_for_slot": 32,
+    "blocked_inputs": 21,
+    "blocked_owner_decision": 1,
+    "unknown_claims": 0,
+    "readiness_checked_at": "2026-11-01T00:00:36.323457Z"
+  },
+  "robot": {
+    "last_completed_cycle_at": "2026-11-01T00:00:35Z",
+    "launcher_health": "capacity_full",
+    "free_slots_global": 0,
+    "last_event_id": "slots:d23cf217:3",
+    "last_event_receipt_present": false,
+    "robot_event_not_interpreted_as_launch": true
+  },
+  "other_executors": {
+    "work_relay_last_run_id": "96e8eca6-6958-832b-891c-040da1511391",
+    "work_relay_latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+    "work_relay_run_result_match": false,
+    "hh55_last_run_id": "728d08fc-013c-8323-a0a8-e80573201f18",
+    "hh55_latest_result_run_id": null,
+    "work_restore_evidence": false
+  },
+  "browser_capability_probe": {
+    "transport": "TinyFish",
+    "performed": false,
+    "reason": "full global capacity 6/6; no paid polling or idle test authorized",
+    "profile_id": "prof_0ac4618d0cf4456e",
+    "historical_auth_only": true,
+    "upload_verified_for_this_run": false,
+    "unlimited_zero_form_verified_for_this_run": false,
+    "create_verified_for_this_run": false
+  },
+  "acceptance": {
+    "ordinary_scheduled_run_verified": true,
+    "signed_in_tinyfish_ui_and_input_upload_in_this_run": false,
+    "verified_new_task_id_in_this_run": false
+  },
+  "checkpoint_register_unchanged": true
 }
