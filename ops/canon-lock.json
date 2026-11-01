@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:524e37c5-f325-4c89-b64a-1689f76210f6",
   "task": "Разное сцена 1: правка tests/test_projects.py (misc scenes==0)",
   "acquired_at": "2026-11-01T03:58:40Z",
-  "expires_at": "2026-11-01T04:43:40Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T03:59:15Z",
   "rules": "ops/CANON-LOCK.md"
 }
