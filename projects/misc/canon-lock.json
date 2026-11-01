@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:524e37c5-f325-4c89-b64a-1689f76210f6",
   "task": "Разное: сцена 1 Тихий маяк (публикация)",
   "acquired_at": "2026-11-01T03:58:44Z",
-  "expires_at": "2026-11-01T04:43:44Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T03:59:13Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
