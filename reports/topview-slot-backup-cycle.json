@@ -9,9 +9,9 @@
   "route_generation": 2,
   "started_at": "2026-11-01T20:58:35.550526Z",
   "receipt_started_at": "2026-11-01T21:04:20.016Z",
-  "checked_at": null,
-  "phase": "started",
-  "stage": "lease_acquired_after_full_readonly_scan",
+  "checked_at": "2026-11-01T21:04:43.183Z",
+  "phase": "finished",
+  "stage": "completed",
   "scan_complete": true,
   "scan_scope": "14/14 owned boards; 20/20 paginated pages; 953/953 tasks; 625 video tasks",
   "scan_source": "Authenticated Topview connector read-only list_boards and complete all-page list_board_tasks",
@@ -20,7 +20,7 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "Topview read-only connector; TinyFish not invoked at 6/6",
@@ -50,7 +50,7 @@
     "create_verified_for_this_run": false
   },
   "full_live_scan_started_at": null,
-  "full_live_scan_started_at_reason": "exact timestamp not recorded before read-only scan; scan completed in this runtime after 2026-11-01T20:58:35.550526Z and before 21:03:19Z",
+  "full_live_scan_started_at_reason": "Exact start/finish of all-page scan not timestamped in connector; completed between runtime start 20:58:35Z and first recorded independent post-scan timestamp 21:01:37.608Z. Direct six-ID read finished 21:04:43.183Z.",
   "full_live_scan_finished_at": null,
   "scan_errors": [],
   "board_count": 14,
@@ -74,6 +74,6 @@
   "bot_wake_check": "Robot launcher_health capacity_full at 2026-11-01T20:30:26Z; open issue #226 historically free=1 but is not fresh capacity evidence.",
   "work_recovery_evidence": "No fresh owner confirmation or verified restored Work GUI and quota; Work HH:55 last no_update, Relay last no_update.",
   "owner_decisions_open": "Queue and owner tasks checked; external owner-decision DB not independently queried",
-  "finished_at": null,
-  "verified_six_active_task_details_at": null
+  "finished_at": "2026-11-01T21:05:21.729Z",
+  "verified_six_active_task_details_at": "2026-11-01T21:04:43.183Z"
 }
