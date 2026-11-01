@@ -8,12 +8,12 @@
   "source_head": "f5ba5f268af20b1ebc0abccc18da294cce413aa9",
   "route_generation": 2,
   "started_at": "2026-11-01T03:58:23.728113Z",
-  "checked_at": "2026-11-01T04:02:06.837Z",
-  "phase": "started",
-  "stage": "capacity_scanned_before_receipt",
+  "checked_at": "2026-11-01T04:03:57.338Z",
+  "phase": "finished",
+  "stage": "final_receipt",
   "scan_complete": true,
-  "scan_source": "Authenticated Topview connector, list_boards mode all + complete list_board_tasks pagination, pageSize=100",
-  "scan_scope": "14 boards, 17 board-pages success, 952/952 tasks, 624 videos; 6/6 active task details individually confirmed",
+  "scan_source": "Authenticated Topview connector, topview_list_boards all (14/14), 17 topview_list_board_tasks pageSize100 (17/17), plus six direct get_board_task detail checks",
+  "scan_scope": "14 boards; 17/17 pages; 952/952 board tasks; 624 video tasks",
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
@@ -22,7 +22,7 @@
   "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "none (6/6; TinyFish paid run prohibited)",
+  "browser_transport": "none; authenticated read-only Topview scanned 6/6; no paid TinyFish permitted",
   "tinyfish_runs": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_spend_usd": 0,
@@ -36,7 +36,9 @@
   "browser_capability_probe": {
     "transport": "TinyFish",
     "performed": false,
-    "reason": "No paid TinyFish at verified 6/6",
+    "reason": "No paid TinyFish permitted: fresh complete Topview scan and six direct task detail reads confirm 6/6",
+    "profile_id": "prof_0ac4618d0cf4456e",
+    "historical_auth_only": true,
     "upload_verified_for_this_run": false,
     "unlimited_zero_form_verified_for_this_run": false,
     "create_verified_for_this_run": false
@@ -45,5 +47,57 @@
     "ordinary_scheduled_run_verified": true,
     "signed_in_tinyfish_ui_and_input_upload_in_this_run": false,
     "verified_new_task_id_in_this_run": false
-  }
+  },
+  "board_count": 14,
+  "pages_requested": 17,
+  "pages_successful": 17,
+  "total_tasks_observed": 952,
+  "total_tasks_expected": 952,
+  "video_tasks_observed": 624,
+  "active_task_ids": [
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e",
+    "b0915b04173c414e9ac08652d34b7852",
+    "c65c30d8cbe14e9eadec886276e62471"
+  ],
+  "work_restore_evidence": false,
+  "queue": {
+    "source_queue_sha256": "c0068951f17c54380ac5e91c6d42b85cea7a381081b14d9fed7b4f99c3e7b75e",
+    "source_task_map_sha256": "9cefe721af0dfe58911d0208cb04bf59146d93313b15f9f0a580f3b49899bc6b",
+    "readiness_sha_matches": true,
+    "task_map_sha_matches": true,
+    "queue_items": 65,
+    "submitted": 11,
+    "waiting_for_slot": 32,
+    "blocked_inputs": 21,
+    "blocked_owner_decision": 1,
+    "unknown_claims": 0,
+    "readiness_checked_at": "2026-11-01T03:40:33.352031Z"
+  },
+  "active_details_checked": {
+    "all_six_board_cards": "init, video, Unlimited=true, creditsCost=0",
+    "individual_task_details": "6/6 direct read-only task details confirmed init, My First Board, Unlimited and credits0",
+    "task_not_found_count": 0
+  },
+  "robot": {
+    "last_completed_cycle_at": "2026-11-01T03:40:32Z",
+    "launcher_health": "capacity_full",
+    "free_slots_global": 0,
+    "last_event_id": "slots:d23cf217:3",
+    "last_event_receipt_present": false,
+    "robot_event_not_interpreted_as_launch": true,
+    "launcher_health_checked_at": "2026-11-01T04:00:47Z"
+  },
+  "other_executors": {
+    "work_relay_last_run_id": "96e8eca6-6958-832b-891c-040da1511391",
+    "work_relay_latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+    "work_relay_run_result_match": false,
+    "hh55_last_run_id": "a3c72750-c4f8-8331-bcbb-957a7fd012d8",
+    "hh55_latest_result_run_id": null,
+    "hh55_run_result_match": false,
+    "work_restore_evidence": false
+  },
+  "checkpoint_register_unchanged": true
 }
