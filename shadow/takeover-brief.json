@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-01T01:17:27+00:00",
+ "generated_at": "2026-11-01T02:07:49+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,14 +10,14 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "90e7c7460c45d273f3de3790310f00252b4970c9858b13dac57e8e599c21afea",
-   "bytes": 34904
+   "sha256": "242afd508b29d2dbd8f45b4758bb39f702cd546134dc33ab07deeecc9965d492",
+   "bytes": 35449
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "a74b96bf0be616c6dd5a136e700f98d89f09a0ecccce4f0ee5efb5dcd04f70f8",
-   "bytes": 128076
+   "sha256": "5ccba609c6ddb97306c1ef656873b6c8fe8a14fd8ccca8b63e4817f41b6ed218",
+   "bytes": 129048
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22820,
-  "above_marker_chars": 22820,
+  "chars": 23200,
+  "above_marker_chars": 23200,
   "recent_sections_below_marker": [],
-  "sha256": "34c1aceb0865c257fbdda4afb032afa1ed346e749ba6e43d515cb148c2c5bfc3",
-  "sha256_12": "34c1aceb0865",
+  "sha256": "c5ba513718caf83c99cf3d76296c516789cfc142297c9f13b8c3ff425521657c",
+  "sha256_12": "c5ba513718ca",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
