@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:fa5d01f6-9f17-489e-9cd4-1fccd2fba844",
-  "task": "record grok first_real_create owner_go_ahead (S71-WAN30)",
-  "acquired_at": "2026-11-01T08:19:58Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T08:21:02Z",
+  "state": "held",
+  "holder": "grok:bcf630c5-639f-4a0e-a7f6-3124c9e4adfe",
+  "task": "launch S71-WAN30 (first real Create, owner go-ahead)",
+  "acquired_at": "2026-11-01T08:26:55Z",
+  "expires_at": "2026-11-01T08:41:55Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
