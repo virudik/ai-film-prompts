@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-01T10:13:19+00:00",
-  "source_head": "a1d2e4ae2bc55374f3f8cf6b6d1fde03e144b45a",
-  "source_fingerprint": "f22bfa44efe797e35f23878ef97f460082844a42f63365b84229ae2d1eed60a3",
+  "checked_at": "2026-11-01T10:33:17+00:00",
+  "source_head": "40ceb94fc5234b9901ad47eed54e80fce74602ee",
+  "source_fingerprint": "d1fc519e37744fc91561538d79cfa49ea9becb236ebea88481a3dd78ec5d921d",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -397,8 +397,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "4bf5dba8a163062b8427667ed4dd140a47547923deca2bff1aabd58fbd3982f2",
-      "bytes": 5141
+      "sha256": "9838ec89c8e561d8fd4eab8ee21e1945622e0f144527119d9fd175e503c5b67f",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
@@ -417,8 +417,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "6b588e12aedb497806e2d9146576ac96a91559b8a4d5f695ac4808086a63bd09",
-      "bytes": 22435
+      "sha256": "5cec1b6ccbcc7c1b0e604c275dd2c1b455e703b02121a795a313693fae61db93",
+      "bytes": 22426
     },
     {
       "file": "reports/current-work-checkpoint.md",
