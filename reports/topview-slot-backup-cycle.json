@@ -8,9 +8,9 @@
   "source_head": "a83622580cec29df42eed3dd332cb7b5864f27ab",
   "route_generation": 2,
   "started_at": "2026-11-01T00:59:25.484595Z",
-  "checked_at": "2026-11-01T01:03:34.017Z",
-  "phase": "auditing",
-  "stage": "started_receipt_saved",
+  "checked_at": "2026-11-01T01:04:52.079Z",
+  "phase": "finished",
+  "stage": "final_receipt_verified",
   "scan_complete": true,
   "scan_source": "Authenticated Topview connector: 14 boards and full per-board task pagination; six direct task detail reads",
   "scan_scope": "14 boards; 17 nonempty pages; 952/952 board tasks, 624 videos",
@@ -33,7 +33,7 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "browser_transport": "none; full global 6/6 prohibits paid TinyFish polling",
@@ -58,12 +58,13 @@
     "blocked_inputs": 21,
     "blocked_owner_decision": 1,
     "unknown_claims": 0,
-    "readiness_checked_at": "2026-11-01T01:00:24.478647Z"
+    "readiness_checked_at": "2026-11-01T01:00:24.478647Z",
+    "task_map_sha_matches": true
   },
   "browser_capability_probe": {
     "transport": "TinyFish",
     "performed": false,
-    "reason": "6/6 confirmed; metered navigation not authorized for idle check",
+    "reason": "Fresh complete Topview scan confirms 6/6. Metered TinyFish invocation for polling prohibited.",
     "profile_id": "prof_0ac4618d0cf4456e",
     "historical_auth_only": true,
     "upload_verified_for_this_run": false,
@@ -75,5 +76,27 @@
     "signed_in_tinyfish_ui_and_input_upload_in_this_run": false,
     "verified_new_task_id_in_this_run": false
   },
-  "checkpoint_register_unchanged": true
+  "checkpoint_register_unchanged": true,
+  "robot": {
+    "last_completed_cycle_at": "2026-11-01T01:00:23Z",
+    "launcher_health": "capacity_full",
+    "free_slots_global": 0,
+    "last_event_id": "slots:d23cf217:3",
+    "last_event_receipt_present": false,
+    "robot_event_not_interpreted_as_launch": true
+  },
+  "other_executors": {
+    "work_relay_last_run_id": "96e8eca6-6958-832b-891c-040da1511391",
+    "work_relay_latest_result_run_id": "7dd8135a-0210-8322-aa3a-91256952693a",
+    "work_relay_run_result_match": false,
+    "hh55_last_run_id": "ab36ebf5-ab74-8324-b003-7160c291f5d9",
+    "hh55_latest_result_run_id": null,
+    "hh55_run_result_match": false,
+    "work_restore_evidence": false
+  },
+  "active_details_checked": {
+    "all_six_board_cards": "init, video; 6/6 Topview task list",
+    "individual_task_details": "6/6 read-only direct task details confirmed init, Unlimited=true",
+    "task_not_found_count": 0
+  }
 }
