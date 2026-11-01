@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:interactive:8dc82c86-6edb-4a54-a90e-d83170ae1990",
   "task": "Owner review: align canonical instructions with Grok Bot and tested fail-closed compatibility fixes; no generation",
   "acquired_at": "2026-11-01T00:07:49Z",
-  "expires_at": "2026-11-01T00:37:49Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T00:19:55Z",
   "rules": "ops/CANON-LOCK.md"
 }
