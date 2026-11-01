@@ -1,21 +1,15 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-01T00:02:42Z",
-  "status": "warn",
-  "warnings": 1,
+  "checked_at": "2026-11-01T00:16:47Z",
+  "status": "ok",
+  "warnings": 0,
   "info": 9,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
-      "level": "warn",
-      "code": "handoff-size",
-      "text": "Хендоф 36 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
-      "file": "NEW-CHAT-HANDOFF.md"
-    },
-    {
       "level": "info",
       "code": "instruction-size",
-      "text": "SYNC-RUNBOOK.md: 126 КБ, проверить на повторы.",
+      "text": "SYNC-RUNBOOK.md: 127 КБ, проверить на повторы.",
       "file": "SYNC-RUNBOOK.md"
     },
     {
@@ -27,7 +21,7 @@
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "USER-GUIDE.md: 81 КБ, проверить на повторы.",
+      "text": "USER-GUIDE.md: 83 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
     },
     {

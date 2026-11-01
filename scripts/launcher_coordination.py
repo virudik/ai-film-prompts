@@ -105,7 +105,7 @@ def check_owner_command(config, actor, now):
     if not at or type(max_age) is not int or max_age < 1:
         raise Blocked('owner_command_timestamp_required')
     age = (now - at).total_seconds()
-    if not -60 <= age <= max_age * 60:
+    if not 0 <= age <= max_age * 60:
         raise Blocked('owner_command_stale_or_future')
     return True
 
@@ -117,7 +117,7 @@ def check_lease(lock, actor, now):
         raise Blocked('exact_current_unexpired_lease_required')
     return True
 
-def check_grok_policy(config, item, actor, now):
+def check_grok_policy(config, item, actor, now, queue_board_id=None):
     """Extra fail-closed limits for the Grok Bot helper (config['grok_launcher']); other surfaces unaffected."""
     policy = config.get('grok_launcher')
     if not isinstance(policy, dict):
@@ -141,7 +141,13 @@ def check_grok_policy(config, item, actor, now):
         raise Blocked('outside_grok_launch_window')
     if (policy.get('first_real_create') or {}).get('owner_go_ahead') is not True:
         raise Blocked('grok_first_real_create_pending_owner_go_ahead')
-    if not policy.get('board_id') or item.get('board_id') != policy['board_id']:
+    # Some canonical parts inherit their board from the containing queue.
+    # Never infer it from the policy alone, and reject any explicit conflict.
+    board = item.get('board_id')
+    if board in (None, ''):
+        board = queue_board_id
+    if (not policy.get('board_id') or board != policy['board_id'] or
+            (queue_board_id is not None and queue_board_id != board)):
         raise Blocked('grok_board_not_authorized')
     limit = policy.get('max_submissions_per_wake')
     done = actor.get('submissions_this_wake', 0)
@@ -165,12 +171,12 @@ def check_grok_retry(config, item):
         raise Blocked('retry_requires_prior_attempt_in_submission_history')
     return True
 
-def prepare_intent(config, lock, item, actor, scan, now):
+def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None):
     """Transition claimed -> submitting once. Persist and read back before one click."""
     check_route(config, actor, now)
     check_lease(lock, actor, now)
     if actor['surface'] == 'grok':
-        check_grok_policy(config, item, actor, now)
+        check_grok_policy(config, item, actor, now, queue_board_id=queue_board_id)
         if item.get('retry_control') is not None or item.get('submission_history'):
             check_grok_retry(config, item)
     if item.get('state') != 'claimed':
@@ -256,7 +262,12 @@ def restore_work_preference(config, evidence, now):
                                               'to': 'work', 'evidence': copy.deepcopy(evidence)})
     out['preferred_executor'] = 'work'
     out['primary_automation_ids'] = list(out['peers']['work']['automation_ids'])
-    out['reserve_automation_ids'] = list(out['peers']['ordinary']['automation_ids'])
+    # Restoring Work must not silently remove another registered enabled helper.
+    out['reserve_automation_ids'] = list(dict.fromkeys(
+        automation_id
+        for surface, peer in out['peers'].items()
+        if surface != 'work' and peer.get('enabled') is True
+        for automation_id in peer.get('automation_ids', [])))
     out['route_generation'] = int(out['route_generation']) + 1
     out['work_capacity'] = {'state': 'available', 'reported_at': stamp(now), 'evidence': copy.deepcopy(evidence)}
     return out
@@ -303,7 +314,8 @@ def main():
             queue = read(args.root / QUEUE)
             matches = [i for i in queue['items'] if i.get('id') == args.item_id]
             if len(matches) != 1: raise Blocked('item_not_unique')
-            result = prepare_intent(cfg, lock, matches[0], actor, read(args.scan), now)
+            result = prepare_intent(cfg, lock, matches[0], actor, read(args.scan), now,
+                                    queue_board_id=queue.get('board_id'))
             queue['items'][queue['items'].index(matches[0])] = result
             if args.write:
                 (args.root / QUEUE).write_text(json.dumps(queue, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')

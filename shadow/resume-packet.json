@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-01T00:03:27+00:00",
-  "source_head": "6d335c322386dfb402aea7a2314b0296befb3323",
-  "source_fingerprint": "23d2f2c9534804bd57ccaeed1a56c1108e6ab4c0cfb020fc01ae6454d0663c02",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-01T00:16:47+00:00",
+  "source_head": "27ea36b6adde04aa9690787292bdd48257e53166",
+  "source_fingerprint": "ab315dbde2419bde97731ef5b1dbcc424e21473d5017ee2941429f62f79e32c9",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-continue-20261031-s72-submitted",
@@ -30,11 +30,36 @@
     },
     "source_head": "2a171454ec80e6773bf7e64b3619a3343d2d9814"
   },
-  "reasons": [
-    "next action changed without a recovery checkpoint"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+    "title": "Заполнение свободных Topview-слотов — задача №1",
+    "status": "waiting_for_slot",
+    "last_completed": "Grok integration reviewed; canonical instructions aligned and compatibility fixes verified by 431 tests; production queue and first-Create gate unchanged.",
+    "next_action": "Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.",
+    "verified_at": "2026-11-01T00:16:47+00:00",
+    "blockers": [
+      "Production TinyFish/Grok Create requires its own real task-ID receipt; canonical review is not browser acceptance."
+    ],
+    "evidence": [
+      {
+        "file": "reports/grok-integration-review-2026-11-01.json",
+        "sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187"
+      }
+    ],
+    "read_next": [
+      "ops/LAUNCHER-COORDINATION.md",
+      "ops/slot-backup.json",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/topview-launch-queue.json"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# 01.11.2026 — Grok: инструкции и проверка интеграции",
+      "sha256": "5ab3282656cc39d5fa347932e28153860d739f50e01d4e71e1c28c848ebc3d74"
+    }
+  },
+  "checkpoint_text": "# 01.11.2026 — Grok: инструкции и проверка интеграции\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца выполнен полный приём и аудит Grok; результат — `reports/grok-integration-review-2026-11-01.json`. Роли :00 / :55 / Grok :12/:27 согласованы; реальные провайдерские рутины Grok отдельно не просмотрены. Исправлены наследование board_id очереди, сохранение помощников при возврате Work и тесты разрешённого перехода; не изменены очередь, промпты, расходы, first_real_create и расписания. Следующий производственный шаг — свежие слоты/claims/свой замок и первая готовая разрешённая сцена; неподтверждённый Create не повторять. Приватные входы Grok проверить до освобождения слота. Подробные рекомендации и границы доказательств — в отчёте.\n\n## 01.11.2026 (Europe/Amsterdam) — Grok Bot зарегистрирован помощником-исполнителем, пир включён\n\nРешение владельца 01.11.2026 00:24: «Мёржи PR #212 под замком, включай grok и создавай рутину запуска». PR #212 слит под общим замком; `peers.grok.enabled=true`, рутина «Запуск сцен Topview (grok)» (`topview-grok`) идёт в :12 и :27 каждого часа 08–23 Europe/Amsterdam. Повторы по `ops/TOPVIEW-RETRY.md` разрешены владельцем 00:12 (максимум 2, общий счётчик, Unlimited0). Сухой прогон S71-WAN30 выполнен ~00:04: форма заполнена полностью, Create не нажат, безлимит работает, загрузка файлов через бокс-браузер работает, промт 7399/20000 символов; задач не создано. Первый настоящий Create ждёт слова владельца в чате: пока `grok_launcher.first_real_create.owner_go_ahead=false`, `scripts/launcher_coordination.py` блокирует intent для grok. Очередь, Topview и замок канона этим изменением не затронуты; видео не запускалось. Запись — `ops/slot-backup.json#grok_launcher`, правила — `ops/LAUNCHER-COORDINATION.md`.\n\n**Уточнение 01.11.2026 00:31–00:35 (Europe/Amsterdam):** владелец: «Не засорять. Команды из телеграм считать прямой командой». При 6/6 или без работы `grok` ничего не пишет в репозиторий (журнал `reports/topview-grok-cycle.json` только после реального шага). Личные сообщения владельца боту @Grok_vint_bot — прямые команды, равные сообщениям в чате Grok Bot; платные генерации — отдельное «да»; слово для первого настоящего Create может прийти из чата или Telegram, `owner_go_ahead` по-прежнему `false`. Присутствие и расписание `grok` для остальных исполнителей — `ops/LAUNCHER-COORDINATION.md`. **00:40:** владелец («Да») разрешил `grok` запуск по его прямой команде из чата Grok Bot или Telegram (`kind=owner_command`, запись цитаты/источника/времени в intent, вне окна :10–:40, замок и все лимиты сохранены; `scripts/launcher_coordination.py`, `ops/slot-backup.json#grok_launcher.owner_command_launch`). Видео не запускалось.\n\n## 01.11.2026 МСК — 48.2 готова по входам, сразу после Виталиков\n\nПоследние3с48.1 сохранены в приватной Library, повторно скачаны и сверены по SHA; `references/scenes/scene-48/S48-P1-continuity.json`. Шесть картинок проверены. Исправленный промпт749baf98 не менялся. Очередь72 →71 →48.2 (priority -0.98), далее живая очередь; это порядок отправки, не ожидание результата71/72.48.3/4 ждут настоящие стыки. Старый блокер отсутствующего входа48.2 снят. `reports/scene48-p2-ready-2026-11-01.json`. Видео этим изменением не запускалось. Следующий шаг: свежие полный скан/claims/свой замок и первая готовая разрешённая сцена при свободном слоте, сайт Unlimited0. Обычный исполнитель каждый час :00 МСК, TinyFish по разрешению владельца; первое рабочее Create через него ещё не подтверждено. Не восстанавливать снятый блокер из истории ниже.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +152,12 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/LAUNCHER-COORDINATION.md",
+    "ops/slot-backup.json",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/topview-launch-queue.json"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -358,42 +388,42 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "51c87f678d35f881ebc89ec3bffa14c305340821121a3c933bbc717d1d09643c",
-      "bytes": 34610
+      "sha256": "8d057802eb940d26d5a1847e6da97f6ad2be5a9d51e0952141d2bac9a1f3e8a3",
+      "bytes": 35607
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
-      "sha256": "5d15d1d6949c48e1d4604898ec2009b9ad6efedeea897bc3d04c5e88db2fd172",
-      "bytes": 19239
+      "sha256": "995da70df9ec07f910a9f790dacdc6664426fcc61a4a9ff9eec6df8fa2d298e5",
+      "bytes": 20692
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "59daf8a18f7f89dcdb7c8811e21c04ecd29b435eeb34a1cd826549e60c4e0a45",
-      "bytes": 36042
+      "sha256": "d7be6a352a8358f4f4b6bafcd2649207879097779a164b1bcab2e4fbbbb844f1",
+      "bytes": 34906
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
-      "sha256": "c961fc1ad083d1ae209d75cdb03b1d847755a69b8f7ef24d4ef0d6fa4fc2f1cf",
-      "bytes": 74922
+      "sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
+      "bytes": 74992
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "380caf14dae873c6e8a608da54233264b9b85ded3b802cbaab20f5d25d84eac6",
-      "bytes": 17004
+      "sha256": "73369b07532e4cc24203d1e40bbab80f10671826799757926744592e23697a3b",
+      "bytes": 17925
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "003b14a2f658fd6ac56d68844d536d5a6adc3c5f14af636175cbbbc9b611926c",
-      "bytes": 126247
+      "sha256": "8ebf0c99aab3a473a3a440dc904857c19ad79dba2560f00c83116522f24fc823",
+      "bytes": 127159
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "18bc028f661b2bdcff996d68e34d7acf6704eee35ecff51c0dfe84f4a53ccab3",
-      "bytes": 81181
+      "sha256": "bcc3e6e38b81d0427bc65c8355d91011b3deac7b64814e49d361a39becdb37d6",
+      "bytes": 83014
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "d97104b8a9db74ea23c5314a8d2a6d85528eeffcd2c151783179e23a37f149cc",
+      "sha256": "765da7285d9498b16a3070b1d7dd53af746cb7944a5f18edd7a72955304d8673",
       "bytes": 5141
     },
     {
@@ -413,13 +443,18 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "0c30382736fe8e2fe8a1fbc76d102dd78f275a9bd4646e89d0400210712b2624",
-      "bytes": 22407
+      "sha256": "cc404ed44c0d4500105e081abd0ff20abd904aafc90a61ce590b2ad22a77099c",
+      "bytes": 20031
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "e76e455c2564027483ba69581454a6908fef7e62af21acba773c62a7c4262764",
-      "bytes": 33629
+      "sha256": "6cf7e829510c40db354a25dfb5bc6a291d52a9882a46607f8de1d25c10b8835f",
+      "bytes": 34860
+    },
+    {
+      "file": "reports/grok-integration-review-2026-11-01.json",
+      "sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187",
+      "bytes": 6233
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -428,12 +463,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "5a7db78c5ba2110f9cb9bddf756e5c139f15e71f36d76db73e078fc15c2588d5",
-      "bytes": 35843
+      "sha256": "188367dc1bc92a915ffcedcaa8a652399f8b3d1b2d91954d648d48c425a3820a",
+      "bytes": 34707
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5032771ab10be697d7ac670937d8f6fc64fefec16a2475b89ea02411584bccec",
+      "sha256": "30863632c96deb260971d4d05528baecadb7ba5eedb5d328ae7916fab5856d82",
       "bytes": 25096
     },
     {
@@ -443,9 +478,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "330dce511c86c48a16cb0a9768824a5de607a0a9c2542725f586dff288b4acd5",
-      "bytes": 85892
+      "sha256": "46b04aa49c506828454fb6c7359b4a51093b4d3dc8facc77fda6bd6232772a8e",
+      "bytes": 87809
     }
   ],
-  "packet_bytes": 3864
+  "packet_bytes": 10145
 }

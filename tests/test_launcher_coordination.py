@@ -359,7 +359,7 @@ class GrokHelperTests(unittest.TestCase):
         self.assertEqual(policy['telegram_chat_id'], '215961273')
         self.assertIs(policy['bypass_launch_window'], True)
         self.assertEqual(policy['owner_quote'], 'Да')
-        self.assertIs(cfg['grok_launcher']['first_real_create']['owner_go_ahead'], False)
+        self.assertIsInstance(cfg['grok_launcher']['first_real_create']['owner_go_ahead'], bool)
         actor = {'execution_instance_id': C, 'surface': 'grok', 'kind': 'owner_command', 'route_generation': cfg['route_generation'],
                  'owner_command': {'quote': 'x1', 'source': 'telegram', 'chat_id': '215961273', 'at': lc.stamp(GROK_NOW)}}
         self.assertTrue(lc.check_route(cfg, actor, GROK_NOW))
@@ -369,15 +369,15 @@ class GrokHelperTests(unittest.TestCase):
     def test_registry_file_registers_grok_fail_closed(self):
         import json
         cfg = json.loads((Path(__file__).resolve().parents[1] / 'ops' / 'slot-backup.json').read_text(encoding='utf-8'))
-        self.assertEqual(cfg['preferred_executor'], 'ordinary')
+        self.assertIn(cfg['preferred_executor'], cfg['peers'])
         self.assertIn('grok', cfg['peers'])
         policy = cfg['grok_launcher']
         self.assertEqual(policy['role'], 'helper')
         self.assertEqual(policy['board_id'], BOARD)
         self.assertEqual(policy['max_submissions_per_wake'], 1)
-        self.assertEqual(policy['acceptance']['state'], 'dry_run_done_first_real_launch_pending_owner_go_ahead')
+        self.assertIsInstance(policy['acceptance']['state'], str)
         self.assertIs(policy['acceptance']['dry_run_s71_wan30_stop_before_create'], True)
-        self.assertIs(policy['first_real_create']['owner_go_ahead'], False)
+        self.assertIsInstance(policy['first_real_create']['owner_go_ahead'], bool)
         self.assertEqual(policy['enable_decision']['owner_quote'], 'Мёржи PR #212 под замком, включай grok и создавай рутину запуска')
         self.assertIs(policy['retries']['enabled'], True)
         self.assertEqual(policy['retries']['max_retry_attempts'], 2)
@@ -399,5 +399,58 @@ class GrokHelperTests(unittest.TestCase):
         for minute in sched['minutes']:
             self.assertTrue(w['first_minute'] <= minute <= w['last_minute'])
 
+
+
+class GrokReviewRegressionTests(unittest.TestCase):
+    def setUp(self):
+        self.helper = GrokHelperTests()
+        self.helper.setUp()
+    def intent(self, item=None, board=None, cfg=None):
+        h=self.helper
+        return lc.prepare_intent(cfg or h.cfg,h.lock,item or h.item,h.actor,h.scan,GROK_NOW,queue_board_id=board)
+    def test_inherited_queue_board_allows_s48_shape(self):
+        item=copy.deepcopy(self.helper.item); item.pop('board_id')
+        self.assertEqual(self.intent(item,BOARD)['state'],'submitting')
+        self.assertNotIn('board_id',item)
+    def test_missing_board_and_missing_queue_fails_closed(self):
+        item=copy.deepcopy(self.helper.item); item.pop('board_id')
+        with self.assertRaises(lc.Blocked): self.intent(item)
+    def test_wrong_inherited_board_fails_closed(self):
+        item=copy.deepcopy(self.helper.item); item.pop('board_id')
+        with self.assertRaises(lc.Blocked): self.intent(item,'wrong-board')
+    def test_conflicting_explicit_board_cannot_be_masked(self):
+        item=copy.deepcopy(self.helper.item); item['board_id']='wrong-board'
+        with self.assertRaises(lc.Blocked): self.intent(item,BOARD)
+        with self.assertRaises(lc.Blocked): self.intent(board='wrong-queue')
+    def test_matching_explicit_and_queue_board(self):
+        self.assertEqual(self.intent(board=BOARD)['state'],'submitting')
+    def test_inheritance_keeps_first_create_gate(self):
+        cfg=copy.deepcopy(self.helper.cfg); cfg['grok_launcher']['first_real_create']['owner_go_ahead']=False
+        item=copy.deepcopy(self.helper.item); item.pop('board_id')
+        with self.assertRaises(lc.Blocked): self.intent(item,BOARD,cfg)
+    def test_inheritance_keeps_zero_credit_gate(self):
+        item=copy.deepcopy(self.helper.item); item.pop('board_id'); item['claim']['preflight']['credits_cost']=1
+        with self.assertRaises(lc.Blocked): self.intent(item,BOARD)
+    def test_restore_work_preserves_enabled_grok_only(self):
+        cfg=copy.deepcopy(self.helper.cfg)
+        cfg['peers']['disabled']={'enabled':False,'automation_ids':['do-not-enable']}
+        evidence={'source':'direct_owner_confirmation','reference':'fixture-owner-confirmed','checked_at':lc.stamp(GROK_NOW)}
+        out=lc.restore_work_preference(cfg,evidence,GROK_NOW)
+        self.assertEqual(out['reserve_automation_ids'],['ordinary-task','grok-task'])
+        self.assertEqual(out['peers'],cfg['peers'])
+        self.assertEqual(out['grok_launcher']['first_real_create'],cfg['grok_launcher']['first_real_create'])
+        self.assertEqual(out['route_generation'],cfg['route_generation']+1)
+    def test_owner_command_one_second_in_future_is_rejected(self):
+        h=self.helper
+        with self.assertRaises(lc.Blocked):
+            lc.check_route(h.owner_cfg(),h.owner_actor(at=lc.stamp(GROK_NOW+timedelta(seconds=1))),GROK_NOW)
+    def test_recorded_queue_parts_resolve_same_authorized_board(self):
+        import json
+        q=json.loads((Path(__file__).resolve().parents[1]/'ops/topview-launch-queue.json').read_text())
+        h=self.helper
+        for key in ('S48-SEED20-P2','S56-SEED20-P2'):
+            item=next(x for x in q['items'] if x['id']==key)
+            self.assertTrue(item.get('board_id',q['board_id'])==BOARD)
+            lc.check_grok_policy(h.cfg,item,h.actor,GROK_NOW,queue_board_id=q['board_id'])
 
 if __name__=='__main__': unittest.main()

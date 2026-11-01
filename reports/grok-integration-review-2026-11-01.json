@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "reviewed_at": "2026-11-01T00:16:17.370251Z",
+  "source_head": "27ea36b6adde04aa9690787292bdd48257e53166",
+  "review_patch_commit": "5a9b450c5e02f331f4e1f8da36e05c0d9e216ff5",
+  "verification_run_id": "41255981754",
+  "intake": "full_seven_canonical_instructions_and_live_roles",
+  "owner_request": "Review Grok Bot contribution and align project instructions; recommend additions",
+  "observed": {
+    "grok_registered": true,
+    "preferred_executor": "ordinary",
+    "grok_schedule": {
+      "automation_name": "Запуск сцен Topview (grok)",
+      "automation_id": "topview-grok",
+      "timezone": "Europe/Amsterdam",
+      "minutes": [
+        12,
+        27
+      ],
+      "first_hour": 8,
+      "last_hour": 23,
+      "timing_mode": "exact_schedule",
+      "description": "Minutes :12 and :27 of every hour 08–23 Europe/Amsterdam; inside launch_window :10–:40. Created by the owner decision of 2026-11-01 00:24 (enable_decision)."
+    },
+    "first_real_create": {
+      "owner_go_ahead": false,
+      "state": "pending_owner_go_ahead",
+      "note": "The routine runs the read-only scan and preflight, but scripts/launcher_coordination.py blocks prepare-intent for grok until the owner gives a go-ahead (Grok Bot chat or Telegram) for the first real Create. Recording it (owner_go_ahead true, with the verbatim quote, source and time) is a separate CAS edit under the canon lock."
+    },
+    "grok_dry_run_evidence": "reported in canonical Grok configuration; provider execution/screenshot not independently retrieved",
+    "grok_runtime_history": "not_checked_no_provider_runtime_connector",
+    "ordinary_runtime_readback": {
+      "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "enabled": true,
+      "schedule": "hourly HH:00 Europe/Moscow",
+      "run_id": "9e30cb5c-5334-8323-9197-8767625c5955",
+      "recorded_status": "completed",
+      "latest_result": null,
+      "interpretation": "recorded runtime only; not proof of browser Create"
+    },
+    "open_supabase_owner_decisions": 0
+  },
+  "fixed": [
+    "Canonical seven-document pointers and operational Grok/ChatGPT coordination aligned; ordinary cadence corrected to hourly :00",
+    "Grok queue-board inheritance validated without allowing a conflicting/unknown board; handles S48-P2 and S56-P2 shape",
+    "Work preference restoration preserves all enabled reserve peers, including Grok",
+    "Tests no longer require permanent first_create=false or fixed preferred executor; closed-gate fixture tests retained",
+    "Future-dated owner commands rejected; existing zero-credit, exact-lease and single-intent gates retained",
+    "Grok idle silence distinguished from ChatGPT mandatory receipts; provider runtime evidence still required",
+    "Verbose Grok handoff note preserved in archive and replaced by current pointers",
+    "Recovery checkpoint re-captured with matching current next action and evidence SHA; prior recovery preserved in history"
+  ],
+  "recommendations_not_implemented": [
+    {
+      "item": "Durable per-provider run and Telegram event/message deduplication",
+      "reason": "Guard currently checks caller-supplied count and command record; it does not authenticate Telegram or retrieve external run history."
+    },
+    {
+      "item": "Private input portability to Grok before slots free",
+      "reason": "ChatGPT Library ID alone does not grant Grok file access; verify allowed private transfer and canonical SHA."
+    },
+    {
+      "item": "Evaluate overnight/event-driven coverage only after a verified first production launch",
+      "reason": "Current launcher is daytime :12/:27; cadence, spending and first-create approval are not widened by this review."
+    },
+    {
+      "item": "Optional real to:grok inbox/site route with tests",
+      "reason": "Launcher registration alone does not implement site task routing or Relay delivery."
+    }
+  ],
+  "unchanged": {
+    "protected_sha256": {
+      "video-prompts.md": "95e7b07d9e677786a5c200e8fe9a490dfd0fe602d259545a88c43ccd598431d1",
+      "ops/topview-launch-queue.json": "68f8cdf88b8e1acb4ad8d1c9ed871441cabcf4e47c59002ae7d1be7aea3cbf68",
+      "ops/slot-backup.json": "4b0472b1815d1dc409b204d4f225f21673fc2bf710741680592e2572e0ea0286",
+      "monitor-role.json": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+      "topview-status.json": "4b3db83b3028ab6985f3e0e08024a37bacf0d7f0787fee36e91c32693aba61bd",
+      "topview-task-map.json": "165c40c90876a1481a38b3aad18f71b97cd8202be0da09769bb49a24fde29c4c",
+      "topview-checkpoint.json": "9c9fa91ab7ef1079dc006d36be83dbb5a373932fa999a687600105ce7167a372",
+      "ops/owner-tasks.json": "0913851ceea41c1a11e8ea96a199dbb46918b22259ddc0e692fd7211e325e671",
+      "ops/canon-lock.json": "7dd3c75be99e2868b688c8323fe47e0c9763daca8c4a1fa102de4683f6130d7d"
+    },
+    "queue_and_prompts": true,
+    "grok_first_create_permission": true,
+    "schedules_and_peer_enablement": true,
+    "new_recurring_automations": 0,
+    "new_video_submissions": 0,
+    "topview_credits_spent": 0,
+    "tinyfish_runs": 0
+  },
+  "copies": {
+    "Notion_pointer": "pending_after_verified_main",
+    "Drive": "robot_copy_pending",
+    "Project_UI_settings": "not_updated_or_independently_verified",
+    "Library": "best_effort_pending"
+  },
+  "tests": {
+    "state": "passed",
+    "all_unit_tests": 431,
+    "targeted_launcher_tests": 61,
+    "instruction_certificate": "7/7 match",
+    "instruction_consistency": "ok; live routine settings not certified by this check",
+    "site_validation": "passed",
+    "D7_short_preflight": "passed",
+    "canon_health": "ok",
+    "canon_warnings": 0,
+    "handoff_bytes": 34906
+  },
+  "updated_paths": [
+    "NEW-CHAT-HANDOFF.md",
+    "SYNC-RUNBOOK.md",
+    "AI-PROJECT-GUIDE.md",
+    "PROMPT-STYLE-GUIDE.md",
+    "USER-GUIDE.md",
+    "README-AI-SYNC.md",
+    "BACKUP-AI-RUNBOOK.md",
+    "ops/LAUNCHER-COORDINATION.md",
+    "archive/handoff-log.md",
+    "ops/CANON-LOCK.md",
+    "ops/AUTOMATION-CONSISTENCY.md",
+    "ops/OWNER-TASKS.md",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "scripts/launcher_coordination.py",
+    "tests/test_launcher_coordination.py"
+  ],
+  "verified_at": "2026-11-01T00:16:47.164809Z"
+}
