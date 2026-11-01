@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:387f427f-1568-4329-8fa1-1b25cb7daafc",
   "task": "Grok Bot: capability report (00-START-HERE s3/s9) + handoff link + task for chatgpt; no queue/Create changes",
   "acquired_at": "2026-11-01T03:03:58Z",
-  "expires_at": "2026-11-01T03:33:58Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T03:05:13Z",
   "rules": "ops/CANON-LOCK.md"
 }
