@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:c2bdd9d2-0915-46fa-abd6-da5026a36d60",
-  "task": "self-heal-run-failed-canon-health-202611010349: хендоф >35 КБ, перенос строк в журнал",
-  "acquired_at": "2026-11-01T07:11:01Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T07:12:23Z",
+  "state": "held",
+  "holder": "grok:fa5d01f6-9f17-489e-9cd4-1fccd2fba844",
+  "task": "record grok first_real_create owner_go_ahead (S71-WAN30)",
+  "acquired_at": "2026-11-01T08:19:58Z",
+  "expires_at": "2026-11-01T08:39:58Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
