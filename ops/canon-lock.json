@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:29736c28-532c-4929-a52a-1c52a27affc7",
-  "task": "Grok Bot: claim and close own inbox task d37ea54b (acceptance record, MP4 check, routine readback); no queue/Create changes",
-  "acquired_at": "2026-11-01T02:38:24Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T02:39:34Z",
+  "state": "held",
+  "holder": "grok:387f427f-1568-4329-8fa1-1b25cb7daafc",
+  "task": "Grok Bot: capability report (00-START-HERE s3/s9) + handoff link + task for chatgpt; no queue/Create changes",
+  "acquired_at": "2026-11-01T03:03:58Z",
+  "expires_at": "2026-11-01T03:33:58Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
