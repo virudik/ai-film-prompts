@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:bcf630c5-639f-4a0e-a7f6-3124c9e4adfe",
-  "task": "launch S71-WAN30 (first real Create, owner go-ahead)",
-  "acquired_at": "2026-11-01T08:26:55Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T08:30:40Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:ed98a0ea-3ae2-4bc7-ae31-efe97e86979f",
+  "task": "Продолжай: восстановление ordinary HH:00 и проверяемой контрольной точки; без Topview Create",
+  "acquired_at": "2026-11-01T13:03:18Z",
+  "expires_at": "2026-11-01T13:38:18Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
