@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:e37259f1-3063-4cc0-9cff-9e8be2c33f6d",
-  "task": "Серёгиус: HH:00 full scan found free slot; S71 UI preflight and safe fallback",
+  "task": "Серёгиус: HH:00 full scan found free slot; S71 UI preflight and safe fallback · снят самопроверкой (истёк)",
   "acquired_at": "2026-11-01T05:08:00.972Z",
-  "expires_at": "2026-11-01T05:28:00.972Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T06:19:20Z",
   "rules": "ops/CANON-LOCK.md"
 }
