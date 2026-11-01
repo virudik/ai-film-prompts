@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-01T00:40:29+00:00",
-  "source_head": "8a6bf05dd53b4becac30c86a29d9be64b0325d3d",
-  "source_fingerprint": "e4d28ac9e5938d5748fc6f84f7d6a3d1d996234561f53178e924701b90ee6af0",
+  "checked_at": "2026-11-01T01:03:20+00:00",
+  "source_head": "a83622580cec29df42eed3dd332cb7b5864f27ab",
+  "source_fingerprint": "c83cc3a089bdd120e47fccd963423b511f3e88a86e8dcc1aada1084d38d1198f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -443,13 +443,13 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "8ff997ce86340445e5d869f20b8bc33c8f5209087f41f9f97ef9c8126bdb0eee",
+      "sha256": "d4779d67292581149709178c30b3d90d4c96c09172de131a82a419e7d9c86f6a",
       "bytes": 22409
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "6cf7e829510c40db354a25dfb5bc6a291d52a9882a46607f8de1d25c10b8835f",
-      "bytes": 34860
+      "sha256": "ceaf9f3a79973e63c85a4ef16d357ca46ac53c5b8e86416357732a2a0eb3003f",
+      "bytes": 35872
     },
     {
       "file": "reports/grok-integration-review-2026-11-01.json",
@@ -478,8 +478,8 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "46b04aa49c506828454fb6c7359b4a51093b4d3dc8facc77fda6bd6232772a8e",
-      "bytes": 87809
+      "sha256": "98771197fc6704c12b360121f65e559deda5e39e601d8c6c264b581e5d1cad4e",
+      "bytes": 89240
     }
   ],
   "packet_bytes": 10145
