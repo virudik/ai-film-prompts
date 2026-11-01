@@ -3,19 +3,14 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-01T07:12:41+00:00",
-  "source_head": "b7cbeaf902fb13d445bc605c5d1fbfcf0b252647",
-  "source_fingerprint": "0f79226b4d0f4fa5c15a059e09039a79e8420f9a7e04faa770273675f0a8978b",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-01T07:14:29+00:00",
+  "source_head": "05b91953e00e497d6e3313cfa18e8961b4f747de",
+  "source_fingerprint": "42c946c0510314963f993eb2b7db483cf410f50a12e90715544ec08b0d776aae",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "project-status health not ok",
-    "project master/status mismatch: kotmonavty"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "KM-20261030-WAN4-9",
     "title": "Wan3 30s: сцены4 и9",
@@ -220,7 +215,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b300ad198a5757a280dbdd6026d3a2143a568bda829b3affd064cbaf9ef6bbac",
+      "sha256": "4bf5dba8a163062b8427667ed4dd140a47547923deca2bff1aabd58fbd3982f2",
       "bytes": 5141
     },
     {
@@ -235,8 +230,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "746c68d1584d144ec82afe7662ca713b52f963e6d1b0b1a4a49b84973f791f74",
-      "bytes": 22456
+      "sha256": "e113d8564fe7f0746105f5c8338176376d54a62b72f6a5a8e01fed854f99c2eb",
+      "bytes": 22405
     },
     {
       "file": "projects/README.md",
@@ -260,8 +255,8 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "e72a213a143a4d30b6cd5d8bc14fdef5a6a5b3461878286e1ccdeb5420312415",
-      "bytes": 17207
+      "sha256": "ffb43fb8f1efc67747e69994a7c113defa9684a1d379da8c7458ab5c3b5b0999",
+      "bytes": 17156
     },
     {
       "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
@@ -305,8 +300,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "519b59931f2a66e3f742f3a5d087492fd2904d8ef573efc78a5e0418e0a28428",
-      "bytes": 25156
+      "sha256": "cc6da63a421e59c37f90bda48c8fc7cba326f92de08f2e3369816cfe54f976a4",
+      "bytes": 25126
     },
     {
       "file": "video-prompts.md",
@@ -314,5 +309,5 @@
       "bytes": 1349746
     }
   ],
-  "packet_bytes": 7704
+  "packet_bytes": 7647
 }

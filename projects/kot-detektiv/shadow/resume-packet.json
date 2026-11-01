@@ -3,19 +3,14 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-01T07:12:41+00:00",
-  "source_head": "b7cbeaf902fb13d445bc605c5d1fbfcf0b252647",
-  "source_fingerprint": "f673d49d9adfed05fe80491882fa6632b8c69fb5a8177f80bc33b4d7d08784a2",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-01T07:14:29+00:00",
+  "source_head": "05b91953e00e497d6e3313cfa18e8961b4f747de",
+  "source_fingerprint": "44ce6012e3359393fb699f44bfcb5e9e36f483928b97af3111454a779d295f95",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "project-status health not ok",
-    "project master/status mismatch: kot-detektiv"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "KD-WAIT-OWNER",
     "title": "Кот детектив — ожидание решения владельца",
@@ -193,7 +188,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b300ad198a5757a280dbdd6026d3a2143a568bda829b3affd064cbaf9ef6bbac",
+      "sha256": "4bf5dba8a163062b8427667ed4dd140a47547923deca2bff1aabd58fbd3982f2",
       "bytes": 5141
     },
     {
@@ -208,8 +203,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "746c68d1584d144ec82afe7662ca713b52f963e6d1b0b1a4a49b84973f791f74",
-      "bytes": 22456
+      "sha256": "e113d8564fe7f0746105f5c8338176376d54a62b72f6a5a8e01fed854f99c2eb",
+      "bytes": 22405
     },
     {
       "file": "projects/README.md",
@@ -233,8 +228,8 @@
     },
     {
       "file": "projects/kot-detektiv/project-status.json",
-      "sha256": "edb487d593d2e0e75fe92c3174bdccc384951d9d2327b5a83926753e16e2ca38",
-      "bytes": 16782
+      "sha256": "204141e1ead34693744b6277f576b9de695e64503cd2653d31ade392066de2f9",
+      "bytes": 16735
     },
     {
       "file": "projects/kot-detektiv/reports/current-work-checkpoint.md",
@@ -268,8 +263,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "519b59931f2a66e3f742f3a5d087492fd2904d8ef573efc78a5e0418e0a28428",
-      "bytes": 25156
+      "sha256": "cc6da63a421e59c37f90bda48c8fc7cba326f92de08f2e3369816cfe54f976a4",
+      "bytes": 25126
     },
     {
       "file": "video-prompts.md",
@@ -277,5 +272,5 @@
       "bytes": 1349746
     }
   ],
-  "packet_bytes": 5414
+  "packet_bytes": 5355
 }

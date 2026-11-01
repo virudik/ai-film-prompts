@@ -3,19 +3,14 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-01T07:12:41+00:00",
-  "source_head": "b7cbeaf902fb13d445bc605c5d1fbfcf0b252647",
-  "source_fingerprint": "a47e02d2c22b8e430b43e5720879c32bf99f0969c76520f2f59a49649abe6b5a",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-01T07:14:29+00:00",
+  "source_head": "05b91953e00e497d6e3313cfa18e8961b4f747de",
+  "source_fingerprint": "77f852479589d5b3c3d92198252e327b19d5ffe784cf2e73e98a9b72967aafe0",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md",
-    "project-status health not ok",
-    "project master/status mismatch: raznoe"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "RAZNOE-CPK-REFS-20261027",
     "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
@@ -187,7 +182,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "b300ad198a5757a280dbdd6026d3a2143a568bda829b3affd064cbaf9ef6bbac",
+      "sha256": "4bf5dba8a163062b8427667ed4dd140a47547923deca2bff1aabd58fbd3982f2",
       "bytes": 5141
     },
     {
@@ -202,8 +197,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "746c68d1584d144ec82afe7662ca713b52f963e6d1b0b1a4a49b84973f791f74",
-      "bytes": 22456
+      "sha256": "e113d8564fe7f0746105f5c8338176376d54a62b72f6a5a8e01fed854f99c2eb",
+      "bytes": 22405
     },
     {
       "file": "projects/README.md",
@@ -232,8 +227,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "c4f0a61703fa6320f1af9826649814ba54804eb7532ec9347c3ae84e1e7685e1",
-      "bytes": 19330
+      "sha256": "6e0b426cd00596d9d1e30316e4490dad0a34ea613c6ad5163885605805945cca",
+      "bytes": 19283
     },
     {
       "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
@@ -267,8 +262,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "519b59931f2a66e3f742f3a5d087492fd2904d8ef573efc78a5e0418e0a28428",
-      "bytes": 25156
+      "sha256": "cc6da63a421e59c37f90bda48c8fc7cba326f92de08f2e3369816cfe54f976a4",
+      "bytes": 25126
     },
     {
       "file": "video-prompts.md",
@@ -276,5 +271,5 @@
       "bytes": 1349746
     }
   ],
-  "packet_bytes": 6087
+  "packet_bytes": 6034
 }
