@@ -1,23 +1,9 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "fixing",
-  "problems": {
-    "run-failed-canon-health": {
-      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41264648657",
-      "since": "2026-11-01T02:20:36Z",
-      "fixes": 1,
-      "last_fix_at": "2026-11-01T02:20:36Z",
-      "escalated_at": null
-    }
-  },
+  "status": "ok",
+  "problems": {},
   "log": [
-    {
-      "at": "2026-10-23T22:49:25Z",
-      "kind": "fixed",
-      "key": "run-failed-topview-robot",
-      "text": "Нашёл: Последний запуск «робот Topview» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/40035072366 Сделал: повторил упавший запуск «робот Topview»."
-    },
     {
       "at": "2026-10-23T22:49:25Z",
       "kind": "resolved",
@@ -131,7 +117,13 @@
       "kind": "fixed",
       "key": "run-failed-canon-health",
       "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41264648657 Сделал: повторил упавший запуск «здоровье канона»."
+    },
+    {
+      "at": "2026-11-01T02:49:19Z",
+      "kind": "resolved",
+      "key": "run-failed-canon-health",
+      "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/41264648657"
     }
   ],
-  "changed_at": "2026-11-01T02:20:36Z"
+  "changed_at": "2026-11-01T02:49:19Z"
 }
