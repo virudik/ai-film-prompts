@@ -3,22 +3,23 @@
   "source_of_truth": "GitHub main/projects/misc/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-01T04:08:12Z",
+  "synced_at": "2026-11-01T04:15:02Z",
   "revision_date": "01.11.2026",
-  "master_declared_last_full_sync": "01.11.2026 · сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), формат 9:16 вертикаль, без картинок и запусков; картинки и видео пока не делаем по решению владельца",
-  "canonical_master_sha256": "3fa431cf92aab5d99115cfb4cdb1a8ae5c3e14099efdc7806ecb520b884cec60",
-  "canonical_revision_sha256": "ed4be543b90fb08da88713f5d1e7444b962074e35279990791f99f1f644d6b0c",
-  "canonical_master_bytes": 105657,
-  "scenes": 1,
-  "prompt_texts": 12,
+  "master_declared_last_full_sync": "01.11.2026 · добавлена сцена 2 «Тихая планета» (DRAFT, структура рилса, 9:16, B1–B4 + A1–A8, без картинок и запусков); до этого — сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), формат 9:16 вертикаль, без картинок и запусков; картинки и видео пока не делаем по решению владельца",
+  "canonical_master_sha256": "879c64483108c8c92af8ced9aa0cfc29b13faec3a5824dbb2b6793b78986d499",
+  "canonical_revision_sha256": "39c57688ac9468997050df41334f533dfae39d5d5e0ddaeb59d4e3e2da45e537",
+  "canonical_master_bytes": 227940,
+  "scenes": 2,
+  "prompt_texts": 24,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
   "slow_scenes_count": 0,
   "scene_ids": [
-    1
+    1,
+    2
   ],
-  "latest_scene": 1,
+  "latest_scene": 2,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
@@ -26,7 +27,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.059,
+    "age_hours_at_status_build": 1.172,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -104,7 +105,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.059,
+      "age_hours": 1.172,
       "blocking": false
     },
     "topview_task_map": {
@@ -136,17 +137,41 @@
         "eight_subscenes"
       ],
       "render_state": "IDLE"
+    },
+    "2": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 120,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "original_story",
+        "voiceover_ru",
+        "two_engine_versions",
+        "reference_first",
+        "vertical_9x16",
+        "misc_scene_2",
+        "eight_subscenes",
+        "reel_structure_mirror"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "01.11.2026",
-    "synced_at": "2026-11-01T04:08:12Z",
-    "canonical_master_sha256": "3fa431cf92aab5d99115cfb4cdb1a8ae5c3e14099efdc7806ecb520b884cec60",
-    "canonical_revision_sha256": "ed4be543b90fb08da88713f5d1e7444b962074e35279990791f99f1f644d6b0c",
-    "scene_count": 1,
-    "prompt_count": 12,
+    "synced_at": "2026-11-01T04:15:02Z",
+    "canonical_master_sha256": "879c64483108c8c92af8ced9aa0cfc29b13faec3a5824dbb2b6793b78986d499",
+    "canonical_revision_sha256": "39c57688ac9468997050df41334f533dfae39d5d5e0ddaeb59d4e3e2da45e537",
+    "scene_count": 2,
+    "prompt_count": 24,
     "scene_ids": [
-      1
+      1,
+      2
     ],
     "work_items": [],
     "slow_scenes": [],

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "project": "misc",
   "updated_at": "2026-11-01T03:52:34Z",
-  "source": "Оригинальные персонажи сцены 1 «Тихий маяк», 01.11.2026. Картинок ещё нет: в записях только описания и список планируемых референсов; все not_approved.",
+  "source": "Оригинальные персонажи сцен 1 «Тихий маяк» и 2 «Тихая планета», 01.11.2026. Картинок ещё нет: в записях только описания и список планируемых референсов; все not_approved.",
   "characters": [
     {
       "id": "yarik",
@@ -195,6 +195,235 @@
         "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
       },
       "reference_images": []
+    },
+    {
+      "id": "miron",
+      "name": "Мирон",
+      "aliases": [
+        "MIRON"
+      ],
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "primary": "Мирон · основной лист (4 ракурса)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Мальчик 5 лет, худенький: светлая кожа, румяные щёки, мягкие кудрявые медово-русые волосы на лбу, большие круглые зелёные глаза с длинными ресницами, щербинка между передними зубами; горчично-жёлтая толстовка на молнии с белой ракетой, лесно-зелёные брюки, оранжевые кроссовки.",
+      "variants": [
+        {
+          "label": "Скафандр и стеклянный купол (A1, A8)",
+          "scenes": [
+            2
+          ],
+          "notes": "Мятно-кремовый стёганый скафандр с медными кольцами на шее и запястьях, ракета на груди, оранжевые ботинки, прозрачный круглый стеклянный шлем с тонкой медной оправой."
+        },
+        {
+          "label": "Стеклянный купол поверх обычной одежды (A5, A8)",
+          "scenes": [
+            2
+          ],
+          "notes": "Тот же купол поверх жёлтой толстовки."
+        },
+        {
+          "label": "Школьный день (A7)",
+          "scenes": [
+            2
+          ],
+          "notes": "Коричневый пиджак-куртка и маленький рюкзак; лицо и волосы те же."
+        }
+      ],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/miron.png",
+          "projects/misc/references/miron-expressions.png",
+          "projects/misc/references/miron-spacesuit.png"
+        ],
+        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "vera",
+      "name": "Мама Вера",
+      "aliases": [
+        "MAMA VERA"
+      ],
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "primary": "Мама Вера · основной лист",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Женщина 35 лет: светло-оливковая кожа, каштаново-рыжее каре до плеч с косой чёлкой, круглые очки в черепаховой оправе, карие глаза, родинка на левой щеке; терракотовый вязаный кардиган с большими накладными карманами, кремовая блузка, тёмно-синие джинсы, тонкие золотые серьги-кольца.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/vera.png",
+          "projects/misc/references/vera-expressions.png"
+        ],
+        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "nina",
+      "name": "Бабушка Нина",
+      "aliases": [
+        "GRANDMA NINA"
+      ],
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "primary": "Бабушка Нина · основной лист",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Женщина 62 лет, высокая, прямая: тёплая смуглая кожа, короткие серебристо-белые кудри, выразительные брови, без очков, крупные серебряные серьги-кольца; сливовая спортивная куртка с белыми лампасами, серые джоггеры, белые кроссовки, свисток на шнурке (бывший тренер по плаванию).",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/nina.png",
+          "projects/misc/references/nina-expressions.png"
+        ],
+        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "darya",
+      "name": "Дарья Андреевна",
+      "aliases": [
+        "DARYA"
+      ],
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "primary": "Дарья Андреевна · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Женщина 30 лет: тёмно-коричневая кожа, длинная чёрная коса через плечо, тёплые тёмные глаза, добрая улыбка; шалфейно-зелёная льняная рубашка, кремовые брюки, мягкая обувь.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/darya.png"
+        ],
+        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "mark",
+      "name": "Доктор Марк Львович",
+      "aliases": [
+        "DOCTOR MARK"
+      ],
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "primary": "Доктор Марк Львович · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Мужчина 52 лет: лысый, седые виски, подстриженная седая борода, круглые очки в синей оправе, спокойный мягкий взгляд; белый халат поверх клетчатой рубашки, стетоскоп на шее.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/mark.png"
+        ],
+        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "lilya",
+      "name": "Парикмахер Лиля",
+      "aliases": [
+        "LILYA"
+      ],
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "primary": "Парикмахер Лиля · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Женщина 28 лет: светлая веснушчатая кожа, короткая розовая стрижка пикси, красный фартук парикмахера поверх чёрной футболки, маленькие серебряные ножницы.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/lilya.png"
+        ],
+        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "tuman",
+      "name": "Лошадь Туман",
+      "aliases": [
+        "TUMAN"
+      ],
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "primary": "Туман · лист (ракурсы)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Спокойная серая лошадь в яблоках, белые грива и хвост, добрые тёмные глаза, коричневый потник; ребёнок в маленьком тёмно-синем шлеме верхом.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/tuman.png"
+        ],
+        "note": "Оригинальный персонаж-животное сцены 2. Картинок ещё нет; пути — план."
+      },
+      "reference_images": []
     }
   ],
   "assets": [
@@ -349,6 +578,244 @@
       },
       "scenes": [
         1
+      ]
+    },
+    {
+      "id": "loc-living-room",
+      "name": "Гостиная вечером",
+      "kind": "location",
+      "notes": "Уютная гостиная: диван, ковёр, телевизор, тёплая лампа. Только локация.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L1-living-room.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-city-square",
+      "name": "Городская площадь на закате",
+      "kind": "location",
+      "notes": "Старинная площадь после дождя, мокрая брусчатка, закатный свет, машины.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L2-city-square.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-supermarket",
+      "name": "Супермаркет — проход",
+      "kind": "location",
+      "notes": "Проход с полками на уровне ребёнка, люминесцентный свет, без брендов и текста.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-kindergarten-yard",
+      "name": "Двор детского сада",
+      "kind": "location",
+      "notes": "Зелёная площадка, клумбы, деревья.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-barbershop",
+      "name": "Парикмахерская",
+      "kind": "location",
+      "notes": "Кресло, зеркала, светлое помещение.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-miron-bedroom",
+      "name": "Комната Мирона ночью",
+      "kind": "location",
+      "notes": "Детская кровать, окно с луной, тумбочка с пузырьками (без надписей).",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-clinic-corridor",
+      "name": "Коридор клиники и стойка",
+      "kind": "location",
+      "notes": "Бледно-голубой коридор, регистрационная стойка, двери.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-development-center",
+      "name": "Кабинет центра развития",
+      "kind": "location",
+      "notes": "Детский столик, окно, полки с игрушками, мягкий свет.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L8-development-center.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-doctor-office",
+      "name": "Кабинет доктора",
+      "kind": "location",
+      "notes": "Стол, шкаф, окно, светлый кабинет.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L9-doctor-office.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-school-entrance",
+      "name": "Школа в день линейки",
+      "kind": "location",
+      "notes": "Фасад школы, шарики, гирлянда без текста, дорожка.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-night-kitchen",
+      "name": "Кухня ночью",
+      "kind": "location",
+      "notes": "Стол под лампой, окно, ночь.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-stable-meadow",
+      "name": "Луг у конюшни",
+      "kind": "location",
+      "notes": "Золотой луг, деревья, деревянная ограда, закатный свет.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L12-stable-meadow.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-space-earth",
+      "name": "Космос и Земля",
+      "kind": "location",
+      "notes": "Тёмный космос, светящаяся Земля, мелкие звёзды; без флагов и текста.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "props-sheet-2",
+      "name": "Реквизит сцены 2",
+      "kind": "prop",
+      "notes": "Стеклянный купол с медной оправой; карточки (слон, яблоко, оранжевый шарик) без слов; книжка про оранжевый шарик; пластилин; счета, калькулятор и монеты без чисел.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        2
       ]
     }
   ],
