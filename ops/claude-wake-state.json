@@ -6,8 +6,14 @@
       "at": "2026-10-26T00:56:15Z",
       "to": "claude",
       "detail": "https://claude.ai/code/cse_01Ro2f8HYPUx3VGVjxo2nYm9"
+    },
+    "self-heal-run-failed-canon-health-202611010349": {
+      "status": "reserved",
+      "attempts": 1,
+      "at": "2026-11-01T06:53:05Z",
+      "to": "any"
     }
   },
   "schema_version": 1,
-  "updated_at": "2026-10-26T00:56:15Z"
+  "updated_at": "2026-11-01T06:53:05Z"
 }
