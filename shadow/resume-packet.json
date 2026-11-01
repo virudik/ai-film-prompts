@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-01T02:07:50+00:00",
-  "source_head": "fd0351d8c1edb6fd5fc22a31299f6899ffda9c85",
-  "source_fingerprint": "3add6647982d0c4f884a342f45c6c172e98cb631f9965f45ca29da0d41078235",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-01T02:18:49+00:00",
+  "source_head": "474fce5d731f0fda43c764a32aa8a4116fd801cb",
+  "source_fingerprint": "379d827eb57a32204416f43caabd5224e6735572f982c0f58e69129607849afe",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-continue-20261031-s72-submitted",
@@ -30,36 +30,11 @@
     },
     "source_head": "2a171454ec80e6773bf7e64b3619a3343d2d9814"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
-    "title": "Заполнение свободных Topview-слотов — задача №1",
-    "status": "waiting_for_slot",
-    "last_completed": "Grok integration reviewed; canonical instructions aligned and compatibility fixes verified by 431 tests; production queue and first-Create gate unchanged.",
-    "next_action": "Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.",
-    "verified_at": "2026-11-01T00:16:47+00:00",
-    "blockers": [
-      "Production TinyFish/Grok Create requires its own real task-ID receipt; canonical review is not browser acceptance."
-    ],
-    "evidence": [
-      {
-        "file": "reports/grok-integration-review-2026-11-01.json",
-        "sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187"
-      }
-    ],
-    "read_next": [
-      "ops/LAUNCHER-COORDINATION.md",
-      "ops/slot-backup.json",
-      "ops/TOPVIEW-FREE-LAUNCH.md",
-      "ops/topview-launch-queue.json"
-    ],
-    "checkpoint": {
-      "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 01.11.2026 — Grok: инструкции и проверка интеграции",
-      "sha256": "5ab3282656cc39d5fa347932e28153860d739f50e01d4e71e1c28c848ebc3d74"
-    }
-  },
-  "checkpoint_text": "# 01.11.2026 — Grok: инструкции и проверка интеграции\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца выполнен полный приём и аудит Grok; результат — `reports/grok-integration-review-2026-11-01.json`. Роли :00 / :55 / Grok :12/:27 согласованы; реальные провайдерские рутины Grok отдельно не просмотрены. Исправлены наследование board_id очереди, сохранение помощников при возврате Work и тесты разрешённого перехода; не изменены очередь, промпты, расходы, first_real_create и расписания. Следующий производственный шаг — свежие слоты/claims/свой замок и первая готовая разрешённая сцена; неподтверждённый Create не повторять. Приватные входы Grok проверить до освобождения слота. Подробные рекомендации и границы доказательств — в отчёте.\n\n## 01.11.2026 (Europe/Amsterdam) — Grok Bot зарегистрирован помощником-исполнителем, пир включён\n\nРешение владельца 01.11.2026 00:24: «Мёржи PR #212 под замком, включай grok и создавай рутину запуска». PR #212 слит под общим замком; `peers.grok.enabled=true`, рутина «Запуск сцен Topview (grok)» (`topview-grok`) идёт в :12 и :27 каждого часа 08–23 Europe/Amsterdam. Повторы по `ops/TOPVIEW-RETRY.md` разрешены владельцем 00:12 (максимум 2, общий счётчик, Unlimited0). Сухой прогон S71-WAN30 выполнен ~00:04: форма заполнена полностью, Create не нажат, безлимит работает, загрузка файлов через бокс-браузер работает, промт 7399/20000 символов; задач не создано. Первый настоящий Create ждёт слова владельца в чате: пока `grok_launcher.first_real_create.owner_go_ahead=false`, `scripts/launcher_coordination.py` блокирует intent для grok. Очередь, Topview и замок канона этим изменением не затронуты; видео не запускалось. Запись — `ops/slot-backup.json#grok_launcher`, правила — `ops/LAUNCHER-COORDINATION.md`.\n\n**Уточнение 01.11.2026 00:31–00:35 (Europe/Amsterdam):** владелец: «Не засорять. Команды из телеграм считать прямой командой». При 6/6 или без работы `grok` ничего не пишет в репозиторий (журнал `reports/topview-grok-cycle.json` только после реального шага). Личные сообщения владельца боту @Grok_vint_bot — прямые команды, равные сообщениям в чате Grok Bot; платные генерации — отдельное «да»; слово для первого настоящего Create может прийти из чата или Telegram, `owner_go_ahead` по-прежнему `false`. Присутствие и расписание `grok` для остальных исполнителей — `ops/LAUNCHER-COORDINATION.md`. **00:40:** владелец («Да») разрешил `grok` запуск по его прямой команде из чата Grok Bot или Telegram (`kind=owner_command`, запись цитаты/источника/времени в intent, вне окна :10–:40, замок и все лимиты сохранены; `scripts/launcher_coordination.py`, `ops/slot-backup.json#grok_launcher.owner_command_launch`). Видео не запускалось.\n\n## 01.11.2026 МСК — 48.2 готова по входам, сразу после Виталиков\n\nПоследние3с48.1 сохранены в приватной Library, повторно скачаны и сверены по SHA; `references/scenes/scene-48/S48-P1-continuity.json`. Шесть картинок проверены. Исправленный промпт749baf98 не менялся. Очередь72 →71 →48.2 (priority -0.98), далее живая очередь; это порядок отправки, не ожидание результата71/72.48.3/4 ждут настоящие стыки. Старый блокер отсутствующего входа48.2 снят. `reports/scene48-p2-ready-2026-11-01.json`. Видео этим изменением не запускалось. Следующий шаг: свежие полный скан/claims/свой замок и первая готовая разрешённая сцена при свободном слоте, сайт Unlimited0. Обычный исполнитель каждый час :00 МСК, TinyFish по разрешению владельца; первое рабочее Create через него ещё не подтверждено. Не восстанавливать снятый блокер из истории ниже.\n",
+  "reasons": [
+    "selected checkpoint hash mismatch"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "# 01.11.2026 — Grok: инструкции и проверка интеграции\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПо команде владельца выполнен полный приём и аудит Grok; результат — `reports/grok-integration-review-2026-11-01.json`. Роли :00 / :55 / Grok :12/:27 согласованы; реальные провайдерские рутины Grok отдельно не просмотрены. Исправлены наследование board_id очереди, сохранение помощников при возврате Work и тесты разрешённого перехода; не изменены очередь, промпты, расходы, first_real_create и расписания. Следующий производственный шаг — свежие слоты/claims/свой замок и первая готовая разрешённая сцена; неподтверждённый Create не повторять. Приватные входы Grok проверить до освобождения слота. Подробные рекомендации и границы доказательств — в отчёте.\n\n## 01.11.2026 (Europe/Amsterdam) — Grok Bot зарегистрирован помощником-исполнителем, пир включён\n\nРешение владельца 01.11.2026 00:24: «Мёржи PR #212 под замком, включай grok и создавай рутину запуска». PR #212 слит под общим замком; `peers.grok.enabled=true`, рутина «Запуск сцен Topview (grok)» (`topview-grok`) идёт в :12 и :27 каждого часа 08–23 Europe/Amsterdam. Повторы по `ops/TOPVIEW-RETRY.md` разрешены владельцем 00:12 (максимум 2, общий счётчик, Unlimited0). Сухой прогон S71-WAN30 выполнен ~00:04: форма заполнена полностью, Create не нажат, безлимит работает, загрузка файлов через бокс-браузер работает, промт 7399/20000 символов; задач не создано. Первый настоящий Create ждёт слова владельца в чате: пока `grok_launcher.first_real_create.owner_go_ahead=false`, `scripts/launcher_coordination.py` блокирует intent для grok. Очередь, Topview и замок канона этим изменением не затронуты; видео не запускалось. Запись — `ops/slot-backup.json#grok_launcher`, правила — `ops/LAUNCHER-COORDINATION.md`.\n\n**Уточнение 01.11.2026 00:31–00:35 (Europe/Amsterdam):** владелец: «Не засорять. Команды из телеграм считать прямой командой». При 6/6 или без работы `grok` ничего не пишет в репозиторий (журнал `reports/topview-grok-cycle.json` только после реального шага). Личные сообщения владельца боту @Grok_vint_bot — прямые команды, равные сообщениям в чате Grok Bot; платные генерации — отдельное «да»; слово для первого настоящего Create может прийти из чата или Telegram, `owner_go_ahead` по-прежнему `false`. Присутствие и расписание `grok` для остальных исполнителей — `ops/LAUNCHER-COORDINATION.md`. **00:40:** владелец («Да») разрешил `grok` запуск по его прямой команде из чата Grok Bot или Telegram (`kind=owner_command`, запись цитаты/источника/времени в intent, вне окна :10–:40, замок и все лимиты сохранены; `scripts/launcher_coordination.py`, `ops/slot-backup.json#grok_launcher.owner_command_launch`). Видео не запускалось.\n\n**Расписание Grok · 01.11.2026 03:16 (Europe/Amsterdam):** владелец: «Объединяй обе пары, пусть будет три рутины»; «И В инструкциях поправь свое время». Три рутины Grok Bot (Europe/Amsterdam): «Поручения: Telegram и задачи с сайта» — каждые 10 минут 08:00–23:50 (±5 мин; сервер сейчас срабатывает в :05, :15, …, :55); «Topview: наблюдение и запуск сцен (grok)» — :12, :27, :42, :57, 08:12–23:57, запуск сцен только в :12 и :27; «Утренняя сводка в Telegram» — 09:00 ежедневно. Прежние часовой опрос :40, монитор :00/:30 и рутина «Задания из Telegram» заменены; правила и код запуска не менялись, видео не запускалось. Правила — `ops/LAUNCHER-COORDINATION.md`, запись — `ops/slot-backup.json#grok_launcher.schedule_20261101_0316`.\n\n## 01.11.2026 МСК — 48.2 готова по входам, сразу после Виталиков\n\nПоследние3с48.1 сохранены в приватной Library, повторно скачаны и сверены по SHA; `references/scenes/scene-48/S48-P1-continuity.json`. Шесть картинок проверены. Исправленный промпт749baf98 не менялся. Очередь72 →71 →48.2 (priority -0.98), далее живая очередь; это порядок отправки, не ожидание результата71/72.48.3/4 ждут настоящие стыки. Старый блокер отсутствующего входа48.2 снят. `reports/scene48-p2-ready-2026-11-01.json`. Видео этим изменением не запускалось. Следующий шаг: свежие полный скан/claims/свой замок и первая готовая разрешённая сцена при свободном слоте, сайт Unlimited0. Обычный исполнитель каждый час :00 МСК, TinyFish по разрешению владельца; первое рабочее Create через него ещё не подтверждено. Не восстанавливать снятый блокер из истории ниже.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -152,12 +127,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "ops/LAUNCHER-COORDINATION.md",
-    "ops/slot-backup.json",
-    "ops/TOPVIEW-FREE-LAUNCH.md",
-    "ops/topview-launch-queue.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -398,8 +368,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "242afd508b29d2dbd8f45b4758bb39f702cd546134dc33ab07deeecc9965d492",
-      "bytes": 35449
+      "sha256": "e8c1aa1d5c6e5df54c857c741315bbfb9f985a39ed15735a109d412e6a1ca8a3",
+      "bytes": 36576
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -408,22 +378,22 @@
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "73369b07532e4cc24203d1e40bbab80f10671826799757926744592e23697a3b",
-      "bytes": 17925
+      "sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1",
+      "bytes": 18148
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "5ccba609c6ddb97306c1ef656873b6c8fe8a14fd8ccca8b63e4817f41b6ed218",
-      "bytes": 129048
+      "sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
+      "bytes": 130240
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "9c2a05e8e3a3e92bbc44e38407f33ed4d6137dca30d5efe849561e1abae815e7",
-      "bytes": 83773
+      "sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
+      "bytes": 83993
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "fdf88f13dd2c9a5c791b726aedf8a605c4ec63bc68d82871489637b6cf92a41c",
+      "sha256": "8a30e99dfdfb6bc4f6e3aad2dc1cdd086a937234d83097a1a74082dbba1b73d1",
       "bytes": 5141
     },
     {
@@ -448,13 +418,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "150eca60d3353d942c0a69d63d5d28fbb2f3724f202319bdd7b2adb48b14acee",
-      "bytes": 37517
-    },
-    {
-      "file": "reports/grok-integration-review-2026-11-01.json",
-      "sha256": "266093cc2f205120c56f68542016158c4f1a466f8a92fea88592ab5867860187",
-      "bytes": 6233
+      "sha256": "b2bfa0f4a9d5ff2c5a9472e4a8228d65370a3506479667a9bac057c6714675b5",
+      "bytes": 38600
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -463,12 +428,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "c5ba513718caf83c99cf3d76296c516789cfc142297c9f13b8c3ff425521657c",
-      "bytes": 35250
+      "sha256": "2e1dab7b484799069a02649834e78ea5026b42e37448f65998cef941eaf4cb0c",
+      "bytes": 36377
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5e4f5216be8b3a298f71815ff49c2eb5aa27eeff3a43b19d0b1b7e511c9ca74f",
+      "sha256": "5af26cd5b3600f8df94ab773b5da0d9f6a9ea85bf34f62d249d05e9c46837be6",
       "bytes": 25126
     },
     {
@@ -482,5 +447,5 @@
       "bytes": 89499
     }
   ],
-  "packet_bytes": 10145
+  "packet_bytes": 10398
 }

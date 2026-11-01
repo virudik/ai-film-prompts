@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-01T02:07:49+00:00",
+ "generated_at": "2026-11-01T02:18:49+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,14 +10,14 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "242afd508b29d2dbd8f45b4758bb39f702cd546134dc33ab07deeecc9965d492",
-   "bytes": 35449
+   "sha256": "e8c1aa1d5c6e5df54c857c741315bbfb9f985a39ed15735a109d412e6a1ca8a3",
+   "bytes": 36576
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "5ccba609c6ddb97306c1ef656873b6c8fe8a14fd8ccca8b63e4817f41b6ed218",
-   "bytes": 129048
+   "sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
+   "bytes": 130240
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
@@ -34,14 +34,14 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "9c2a05e8e3a3e92bbc44e38407f33ed4d6137dca30d5efe849561e1abae815e7",
-   "bytes": 83773
+   "sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
+   "bytes": 83993
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "73369b07532e4cc24203d1e40bbab80f10671826799757926744592e23697a3b",
-   "bytes": 17925
+   "sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1",
+   "bytes": 18148
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
@@ -180,11 +180,11 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 23200,
-  "above_marker_chars": 23200,
+  "chars": 23937,
+  "above_marker_chars": 23937,
   "recent_sections_below_marker": [],
-  "sha256": "c5ba513718caf83c99cf3d76296c516789cfc142297c9f13b8c3ff425521657c",
-  "sha256_12": "c5ba513718ca",
+  "sha256": "2e1dab7b484799069a02649834e78ea5026b42e37448f65998cef941eaf4cb0c",
+  "sha256_12": "2e1dab7b4847",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"

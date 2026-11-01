@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-01T02:07:50+00:00",
-  "source_head": "fd0351d8c1edb6fd5fc22a31299f6899ffda9c85",
-  "source_fingerprint": "4f26fc4c9bf815722b0de8777722d69e1ca0bc52336a09bb367adf55885604c7",
+  "checked_at": "2026-11-01T02:18:49+00:00",
+  "source_head": "474fce5d731f0fda43c764a32aa8a4116fd801cb",
+  "source_fingerprint": "62bb687144c2341afc3dcc50465cd6acaafd06eab8ef0b8f561f1889e0e5c05a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -157,8 +157,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "242afd508b29d2dbd8f45b4758bb39f702cd546134dc33ab07deeecc9965d492",
-      "bytes": 35449
+      "sha256": "e8c1aa1d5c6e5df54c857c741315bbfb9f985a39ed15735a109d412e6a1ca8a3",
+      "bytes": 36576
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -167,22 +167,22 @@
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "73369b07532e4cc24203d1e40bbab80f10671826799757926744592e23697a3b",
-      "bytes": 17925
+      "sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1",
+      "bytes": 18148
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "5ccba609c6ddb97306c1ef656873b6c8fe8a14fd8ccca8b63e4817f41b6ed218",
-      "bytes": 129048
+      "sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
+      "bytes": 130240
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "9c2a05e8e3a3e92bbc44e38407f33ed4d6137dca30d5efe849561e1abae815e7",
-      "bytes": 83773
+      "sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
+      "bytes": 83993
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "fdf88f13dd2c9a5c791b726aedf8a605c4ec63bc68d82871489637b6cf92a41c",
+      "sha256": "8a30e99dfdfb6bc4f6e3aad2dc1cdd086a937234d83097a1a74082dbba1b73d1",
       "bytes": 5141
     },
     {
@@ -257,12 +257,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "c5ba513718caf83c99cf3d76296c516789cfc142297c9f13b8c3ff425521657c",
-      "bytes": 35250
+      "sha256": "2e1dab7b484799069a02649834e78ea5026b42e37448f65998cef941eaf4cb0c",
+      "bytes": 36377
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "5e4f5216be8b3a298f71815ff49c2eb5aa27eeff3a43b19d0b1b7e511c9ca74f",
+      "sha256": "5af26cd5b3600f8df94ab773b5da0d9f6a9ea85bf34f62d249d05e9c46837be6",
       "bytes": 25126
     },
     {

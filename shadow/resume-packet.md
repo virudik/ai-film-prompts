@@ -2,12 +2,12 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-11-01T02:07:50+00:00
-Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
+Состояние: needs_recovery
+Проверено: 2026-11-01T02:18:49+00:00
+Задача: не определена — 
 
-Последний подтверждённый этап: Grok integration reviewed; canonical instructions aligned and compatibility fixes verified by 431 tests; production queue and first-Create gate unchanged.
-Следующий шаг: Свежие роли/слоты/claims; priority72 →71 →48.2, затем остальные готовые.48.2 привязана по входам, старый blocked_continuity снят. Обычный исполнитель :00 МСК читает живую очередь, TinyFish при недоступном Work. Перед Create полный скан всех досок, собственный замок, CAS claim и Unlimited0; unknown не повторять.
+Последний подтверждённый этап: нет доказательств
+Следующий шаг: восстановить конкретный пробел
 
 ## Контрольная точка
 
@@ -22,6 +22,8 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 Решение владельца 01.11.2026 00:24: «Мёржи PR #212 под замком, включай grok и создавай рутину запуска». PR #212 слит под общим замком; `peers.grok.enabled=true`, рутина «Запуск сцен Topview (grok)» (`topview-grok`) идёт в :12 и :27 каждого часа 08–23 Europe/Amsterdam. Повторы по `ops/TOPVIEW-RETRY.md` разрешены владельцем 00:12 (максимум 2, общий счётчик, Unlimited0). Сухой прогон S71-WAN30 выполнен ~00:04: форма заполнена полностью, Create не нажат, безлимит работает, загрузка файлов через бокс-браузер работает, промт 7399/20000 символов; задач не создано. Первый настоящий Create ждёт слова владельца в чате: пока `grok_launcher.first_real_create.owner_go_ahead=false`, `scripts/launcher_coordination.py` блокирует intent для grok. Очередь, Topview и замок канона этим изменением не затронуты; видео не запускалось. Запись — `ops/slot-backup.json#grok_launcher`, правила — `ops/LAUNCHER-COORDINATION.md`.
 
 **Уточнение 01.11.2026 00:31–00:35 (Europe/Amsterdam):** владелец: «Не засорять. Команды из телеграм считать прямой командой». При 6/6 или без работы `grok` ничего не пишет в репозиторий (журнал `reports/topview-grok-cycle.json` только после реального шага). Личные сообщения владельца боту @Grok_vint_bot — прямые команды, равные сообщениям в чате Grok Bot; платные генерации — отдельное «да»; слово для первого настоящего Create может прийти из чата или Telegram, `owner_go_ahead` по-прежнему `false`. Присутствие и расписание `grok` для остальных исполнителей — `ops/LAUNCHER-COORDINATION.md`. **00:40:** владелец («Да») разрешил `grok` запуск по его прямой команде из чата Grok Bot или Telegram (`kind=owner_command`, запись цитаты/источника/времени в intent, вне окна :10–:40, замок и все лимиты сохранены; `scripts/launcher_coordination.py`, `ops/slot-backup.json#grok_launcher.owner_command_launch`). Видео не запускалось.
+
+**Расписание Grok · 01.11.2026 03:16 (Europe/Amsterdam):** владелец: «Объединяй обе пары, пусть будет три рутины»; «И В инструкциях поправь свое время». Три рутины Grok Bot (Europe/Amsterdam): «Поручения: Telegram и задачи с сайта» — каждые 10 минут 08:00–23:50 (±5 мин; сервер сейчас срабатывает в :05, :15, …, :55); «Topview: наблюдение и запуск сцен (grok)» — :12, :27, :42, :57, 08:12–23:57, запуск сцен только в :12 и :27; «Утренняя сводка в Telegram» — 09:00 ежедневно. Прежние часовой опрос :40, монитор :00/:30 и рутина «Задания из Telegram» заменены; правила и код запуска не менялись, видео не запускалось. Правила — `ops/LAUNCHER-COORDINATION.md`, запись — `ops/slot-backup.json#grok_launcher.schedule_20261101_0316`.
 
 ## 01.11.2026 МСК — 48.2 готова по входам, сразу после Виталиков
 
@@ -47,10 +49,6 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
 ## Прочитать под задачу
 
-- `ops/LAUNCHER-COORDINATION.md`
-- `ops/slot-backup.json`
-- `ops/TOPVIEW-FREE-LAUNCH.md`
-- `ops/topview-launch-queue.json`
 
 ## Перед действием
 
@@ -65,4 +63,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- selected checkpoint hash mismatch
