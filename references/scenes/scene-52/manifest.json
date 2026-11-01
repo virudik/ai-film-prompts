@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-28T09:40:35+00:00",
+  "updated_at": "2026-11-01T00:33:24+00:00",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -596,7 +596,8 @@
     "references/full/serega.jpg",
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
-    "references/scenes/scene-66/S66-street-outrage.png"
+    "references/scenes/scene-66/S66-street-outrage.png",
+    "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png"
   ],
   "location_refs": [
     "references/scenes/scene-28/H28A-ceremony.png",
@@ -1243,9 +1244,9 @@
     {
       "prompt_id": "S52-R2-SEED20-P7",
       "label": "52 · Wan 3.0 часть 7",
-      "canonical_prompt_sha256": "dcb85fa64fd98ead015d27a4bea8d8ad962309684ccefce1c62753e1606b80d1",
-      "normalized_prompt_sha256": "7f6a1c3a673d2b1bab497f96982be8e51d234a874dcce42f14f8c4a5b116efa8",
-      "characters": 5111,
+      "canonical_prompt_sha256": "90b6d4ce8d404d8e929c0d0e92f29bbff20d654eed07c89a1f8e6b5734fcf46f",
+      "normalized_prompt_sha256": "86672556cd74fb9582bee42fad4b817785d6a97142557adf3687b0f755f6b296",
+      "characters": 5763,
       "launch_readiness": "blocked_continuity",
       "slots": [
         {
@@ -1278,7 +1279,7 @@
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Стич на переднем плане общего уличного кадра: точная внешность, красная шлейка и поводок; использовать только для Стича, индивидуальные развёртки @Image4/@Image5 определяют внешность девушек"
+          "canonical_role": "Стич на переднем плане общего уличного кадра: поза, красная шлейка и поводок; внешность Стича — по развёртке @Image6; использовать только для Стича, индивидуальные развёртки @Image4/@Image5 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -1295,6 +1296,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Даша: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
       "selected_model": "Wan 3.0",
@@ -1721,7 +1730,7 @@
       "duration_seconds": 15,
       "model_text": "Seedance 2.0",
       "queued": false,
-      "canonical_prompt_sha256": "41ee0673eae70fd15d45873e59d33cb11158ef2dbcb10118f84ee47402b42d79",
+      "canonical_prompt_sha256": "327a2dd22c5daf825321404d6459f6a0a1228ccbbe8c3a3c161706924be6e9f0",
       "images": [
         {
           "slot": "@Image1",
@@ -1745,7 +1754,7 @@
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Стич на переднем плане общего уличного кадра: точная внешность, красная шлейка и поводок; использовать только для Стича, индивидуальные развёртки @Image4/@Image5 определяют внешность девушек"
+          "canonical_role": "Стич на переднем плане общего уличного кадра: поза, красная шлейка и поводок; внешность Стича — по развёртке @Image6; использовать только для Стича, индивидуальные развёртки @Image4/@Image5 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -1762,11 +1771,19 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Даша: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
       "video_source": "actual selected S52-R2-SEED20-P6 Seedance2.0 result; this15s P7 is an unqueued alternative",
-      "normalized_prompt_sha256": "c1c77a5c08b6b3bb7c6bf75e4b18d066d379ffebe88af9dd2df7e28d91e8d72c",
-      "characters": 4955
+      "normalized_prompt_sha256": "095f5d6c2186b2f4c41c374e949049953c8e6ed1be63829848d26ec83292c5f6",
+      "characters": 5607
     }
   ],
   "story_chain": {

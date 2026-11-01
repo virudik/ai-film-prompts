@@ -5281,8 +5281,8 @@
       "scene_id": 52,
       "prompt_id": "S52-R2-SEED20-P7",
       "canonical_block_label": "52 · Wan 3.0 часть 7",
-      "canonical_prompt_sha256": "dcb85fa64fd98ead015d27a4bea8d8ad962309684ccefce1c62753e1606b80d1",
-      "normalized_prompt_sha256": "7f6a1c3a673d2b1bab497f96982be8e51d234a874dcce42f14f8c4a5b116efa8",
+      "canonical_prompt_sha256": "90b6d4ce8d404d8e929c0d0e92f29bbff20d654eed07c89a1f8e6b5734fcf46f",
+      "normalized_prompt_sha256": "86672556cd74fb9582bee42fad4b817785d6a97142557adf3687b0f755f6b296",
       "priority": 0.06,
       "state": "blocked_inputs",
       "model": "Wan 3.0",
@@ -5326,7 +5326,7 @@
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Стич на переднем плане общего уличного кадра: точная внешность, красная шлейка и поводок; использовать только для Стича, индивидуальные развёртки @Image4/@Image5 определяют внешность девушек"
+          "canonical_role": "Стич на переднем плане общего уличного кадра: поза, красная шлейка и поводок (внешность — по развёртке @Image6); использовать только для Стича, индивидуальные развёртки @Image4/@Image5 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -5343,6 +5343,14 @@
           "required": true,
           "input_status": "available",
           "canonical_role": "Даша: развёртка в одежде Татуина"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
       "task_id": null,
@@ -5359,7 +5367,8 @@
       "created_at": "2026-10-27T11:25:33.064Z",
       "revision_note_20261027_owner": "Владелец 27.10 «предложенные улучшения 52 вноси»: фирменные манёвры, вставки кабины, гиперпрыжок, два солнца; часть7 связана с 66→67.",
       "selected_model": "Wan 3.0",
-      "model_selection_note_20261028": "Owner28Oct: street52P7/66–69 Wan3.0/30s. ID retained for dependencies; P1–P6 stay Seedance2.0. Real P6 end required; no new item."
+      "model_selection_note_20261028": "Owner28Oct: street52P7/66–69 Wan3.0/30s. ID retained for dependencies; P1–P6 stay Seedance2.0. Real P6 end required; no new item.",
+      "revision_note_20261101_owner": "Владелец 01.11: добавлена отдельная развёртка Стича (@Image6, references/scenes/scene-66/S66-Stitch-tatooine-sheet.png); prompt SHA пересчитаны, запуска не было."
     },
     {
       "id": "S64-WAN30",
@@ -5667,8 +5676,8 @@
       "scene_id": 66,
       "prompt_id": "S66-WAN30",
       "canonical_block_label": "66",
-      "canonical_prompt_sha256": "b6da7b04e6bd6e459e03d00b2f6a7946d8cb085ffbf6ed90f894a5e99f9aee61",
-      "normalized_prompt_sha256": "235d1b31e42b97fbe80412ed88cd0d0e9bfeabdc433bba185ab6407887d8e111",
+      "canonical_prompt_sha256": "a0156bbb04c1fb933d5610c207683592d16ab49086b818aece6a7e36ac72b410",
+      "normalized_prompt_sha256": "ad9acbb256743f8a9016f9d56a68bc04f95298f7ad2f29bd1340ef486891b817",
       "priority": 0.92,
       "state": "blocked_inputs",
       "launch_readiness": "blocked_continuity",
@@ -5718,7 +5727,7 @@
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
+          "canonical_role": "Стич на переднем плане: поза, красная шлейка и поводок (внешность — по развёртке @Image7); тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -5743,6 +5752,14 @@
           "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
       "task_id": null,
@@ -5754,7 +5771,8 @@
       "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
       "result_review_required": true,
       "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera; seamless start from the previous link's real last frame. Success is not acceptance.",
-      "created_at": "2026-10-27T16:31:40Z"
+      "created_at": "2026-10-27T16:31:40Z",
+      "revision_note_20261101_owner": "Владелец 01.11: добавлена отдельная развёртка Стича (@Image7, references/scenes/scene-66/S66-Stitch-tatooine-sheet.png); prompt SHA пересчитаны, запуска не было."
     },
     {
       "id": "S67-WAN30",

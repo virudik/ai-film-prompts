@@ -195,26 +195,81 @@
       },
       "prompt_file": "references/scenes/scene-67/S67-vendor.image-prompt.txt",
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+      "asset_id": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+      "caption": "Стич: развёртка (4 вида в рост и 3 портрета)",
+      "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 901575,
+      "role": "Стич: индивидуальная развёртка; высший приоритет внешности существа",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "generation_method": "Grok Bot GenerateImage",
+      "project_id": "seregius",
+      "created_at": "2026-11-01T00:33:24+00:00",
+      "assistant_qc": {
+        "status": "usable_for_assigned_role",
+        "checked_at": "2026-11-01T00:33:24+00:00",
+        "scope": "Visual inspection: one blue-grey Stitch in four full-body views (front, both profiles, back) and three head portraits, consistent red harness with metal ring, warm grey backdrop, no text/logos/borders. Native 1280x720 (smaller than the 1672x941 girls' sheets). Technical QC is not editorial approval."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "prompt_file": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.image-prompt.txt",
+      "prompt_sha256": "fd934ef3ac4d0d76f97ccd00729bf413e9385e69b9fad2a66263b3d007f4d9cd",
+      "reference_inputs": [
+        {
+          "path": "references/scenes/scene-66/S66-street-outrage.png",
+          "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
+          "note": "Stitch cropped from the foreground (stitch-crop.png sha256 prefix 7024444f5d55a712); a downscaled working copy was attached"
+        },
+        {
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "note": "layout and style reference only"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
+          "sha256": "a74fc8386a1dc56e7c81d56186654d9346d2a4dc34fe06d517bf6cec83ddf862",
+          "note": "layout and style reference only; downscaled working copy attached"
+        },
+        {
+          "path": "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
+          "sha256": "57702dcfdbeebab790ca243040844dd46b6daa2526547c4085c7c46a6091d241",
+          "note": "layout and style reference only; downscaled working copy attached"
+        }
+      ],
+      "character_id": "stitch",
+      "source_file_note": "Grok Bot GenerateImage output grok-stitch-sheet-v1.jpg (1280x720 JPEG) converted losslessly to PNG; unlabelled variant v1 chosen by owner 01.11.2026"
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-10-28T09:40:35+00:00",
+  "updated_at": "2026-11-01T00:33:24+00:00",
   "identity_refs": [
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
     "references/scenes/scene-67/S67-Masha-R-tatooine-sheet.png",
     "references/scenes/scene-66/S66-street-outrage.png",
-    "references/scenes/scene-67/S67-vendor.png"
+    "references/scenes/scene-67/S67-vendor.png",
+    "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png"
   ],
   "last_qc_at": "2026-10-27T21:05:05+00:00",
   "prompt_reference_mapping": [
     {
       "label": "66",
-      "canonical_prompt_sha256": "b6da7b04e6bd6e459e03d00b2f6a7946d8cb085ffbf6ed90f894a5e99f9aee61",
-      "normalized_prompt_sha256": "235d1b31e42b97fbe80412ed88cd0d0e9bfeabdc433bba185ab6407887d8e111",
-      "characters": 7377,
+      "canonical_prompt_sha256": "a0156bbb04c1fb933d5610c207683592d16ab49086b818aece6a7e36ac72b410",
+      "normalized_prompt_sha256": "ad9acbb256743f8a9016f9d56a68bc04f95298f7ad2f29bd1340ef486891b817",
+      "characters": 8068,
       "slots": [
         {
           "slot": "@Video1",
@@ -247,7 +302,7 @@
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
+          "canonical_role": "Стич на переднем плане: поза, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; внешность Стича — по развёртке @Image7; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -272,6 +327,14 @@
           "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
       "prompt_id": "S66-WAN30",
@@ -279,9 +342,9 @@
     },
     {
       "label": "66 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "03f19a1647e20543535b9b227676f320f819237b375f2d5e9700ba902cab80c9",
-      "normalized_prompt_sha256": "c70ba3b50559222c6fda5117b31525979ed6383587d1be8b49f68bb578ab9d3c",
-      "characters": 6575,
+      "canonical_prompt_sha256": "b5204ee26fe185074065cf69c5293973185a0122ddec7e65efeb09d58aa818cb",
+      "normalized_prompt_sha256": "45d118646a7cc37e148106c95654c032d6ee2badeda98802435126ca363af5df",
+      "characters": 7266,
       "slots": [
         {
           "slot": "@Video1",
@@ -314,7 +377,7 @@
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
+          "canonical_role": "Стич на переднем плане: поза, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; внешность Стича — по развёртке @Image7; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -339,15 +402,23 @@
           "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
       "queued": false
     },
     {
       "label": "66 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "b347b107fd5a98c14feb597bd9c4f213f21213fb555e4da880e3d0f2d5f8cb5b",
-      "normalized_prompt_sha256": "525e7f9d0d684cc63fad57df9f76eb11c4cc472f287fbb6298f312fcd5e7a28b",
-      "characters": 6792,
+      "canonical_prompt_sha256": "6cf4b0686018e85dac6eadef127a4754a7cfba3f888958b45a23de987c0fb484",
+      "normalized_prompt_sha256": "14f2d835f5392ec7bcb5649e0c1b4e488152f81cbf3770bf6b97e92357d8d3f0",
+      "characters": 7483,
       "slots": [
         {
           "slot": "@Video1",
@@ -378,7 +449,7 @@
           "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
           "required": true,
           "input_status": "available",
-          "canonical_role": "Стич на переднем плане: точная внешность, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
+          "canonical_role": "Стич на переднем плане: поза, красная шлейка и поводок; тот же кадр задаёт улицу и реакции прохожих; внешность Стича — по развёртке @Image7; индивидуальные развёртки @Image1/@Image2 определяют внешность девушек"
         },
         {
           "slot": "@Image4",
@@ -403,6 +474,14 @@
           "sha256": "571320e0739e93f244ec3f4f0d4e44a1ab7d4f72b5f02ff9aff1a1889d18ef72",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
+          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "required": true,
+          "input_status": "available",
+          "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
         }
       ],
       "queued": false
