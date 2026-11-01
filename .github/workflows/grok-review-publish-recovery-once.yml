@@ -1,0 +1,85 @@
+name: Publish Grok review with verified recovery checkpoint
+on:
+  push:
+    branches: [review/grok-docs-20261101]
+    paths: [.github/workflows/grok-review-publish-recovery-once.yml]
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Recompute reviewed change and capture matching recovery evidence
+        env:
+          REVIEW_RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin cfe20cbcdd6956ead34d5d6c3d0c7f40bc9930fb
+          git show cfe20cbcdd6956ead34d5d6c3d0c7f40bc9930fb:.github/workflows/grok-review-publish-once.yml > /tmp/reviewed-publish.yml
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess
+          lines=Path('/tmp/reviewed-publish.yml').read_text().splitlines(True)
+          blocks=[]; i=0
+          while i<len(lines):
+              if lines[i].rstrip()=='        run: |':
+                  i+=1; block=[]
+                  while i<len(lines) and (lines[i].startswith('          ') or not lines[i].strip()):
+                      block.append(lines[i][10:] if lines[i].startswith('          ') else lines[i]); i+=1
+                  blocks.append(''.join(block))
+              else: i+=1
+          assert len(blocks)==1
+          code=blocks[0]
+          def change(old,new):
+              global code
+              assert code.count(old)==1,old
+              code=code.replace(old,new)
+          change("cp.write_text('## 01.11.2026 — Grok: инструкции и проверка интеграции", "cp.write_text('# 01.11.2026 — Grok: инструкции и проверка интеграции")
+          change("    run(['python3','scripts/build_resume_packet.py','.'],'grok-packet.log')\n",'')
+          change("    run(['python3','scripts/continue_preflight.py','.','--require-short'],'grok-preflight.log')\n",'')
+          marker='    # Fresh fetch immediately before publication; new main means full recomputation, never rebase/replay.'
+          addition="""    # The prior register's next_action and recovery.next_action differed already.
+              # Preserve that recovery in history, then bind this verified stage using the official capture API.
+              report['fixed'].append('Recovery checkpoint re-captured with matching current next action and evidence SHA; prior recovery preserved in history')
+              put(REPORT,report)
+              reg=json.loads(Path('work-resume-register.json').read_text())
+              work=next(x for x in reg['active_work'] if x['work_id']=='TOPVIEW-SLOT-PRIORITY-20261024')
+              next_action=work['next_action']
+              if work.get('recovery'): work.setdefault('recovery_history',[]).append(work['recovery'])
+              put('work-resume-register.json',reg)
+              sys.path.insert(0,'scripts')
+              from resume_state import capture
+              capture('.',work['work_id'],'# 01.11.2026 — Grok: инструкции и проверка интеграции',
+                      'Grok integration reviewed; canonical instructions aligned and compatibility fixes verified by '+str(count)+' tests; production queue and first-Create gate unchanged.',
+                      next_action,[REPORT],['ops/LAUNCHER-COORDINATION.md','ops/slot-backup.json','ops/TOPVIEW-FREE-LAUNCH.md','ops/topview-launch-queue.json'],focus=False)
+              reg=json.loads(Path('work-resume-register.json').read_text())
+              work=next(x for x in reg['active_work'] if x['work_id']=='TOPVIEW-SLOT-PRIORITY-20261024')
+              work['recovery']['blockers']=['Production TinyFish/Grok Create requires its own real task-ID receipt; canonical review is not browser acceptance.']
+              put('work-resume-register.json',reg)
+              run(['python3','scripts/build_resume_packet.py','.'],'grok-packet.log')
+              run(['python3','scripts/continue_preflight.py','.','--require-short'],'grok-preflight.log')
+              run(['python3','scripts/canon_health.py','.','--write'],'grok-health-final.log')
+              assert json.loads(Path('canon-health.json').read_text())['warnings']==0
+          """
+          addition='\n'.join(line[10:] if line.startswith('          ') else line for line in addition.splitlines())
+          change(marker,addition+'\n'+marker)
+          # Validate embedded Python before any execution.
+          body=code.split("python3 - <<'PY'\n",1)[1].rsplit('\nPY',1)[0]
+          compile(body,'reviewed-publication-recovery','exec')
+          subprocess.run(['bash','-e','-o','pipefail','-c',code],check=True)
+          PY
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: grok-review-publication
+          path: |
+            /tmp/grok-review-published.json
+            /tmp/AI-Film-Grok-updated-instructions.zip
+            /tmp/grok-*.log
+          retention-days: 3
+          if-no-files-found: warn
