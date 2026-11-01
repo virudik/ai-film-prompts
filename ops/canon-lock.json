@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:7c2a5188-cc8a-40fa-8ecb-6e0cda3fa5e7",
-  "task": "Task: add Stitch turnaround sheet as separate reference in scenes 66 and 52 part 7 (owner pt43u)",
-  "acquired_at": "2026-11-01T00:31:17Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T00:34:26Z",
+  "state": "held",
+  "holder": "grok:f1f939ae-27e0-43f9-b20d-60aa591449e5",
+  "task": "Task: fix Stitch turnaround top row (right profile), replace sheet in place (owner pt44u)",
+  "acquired_at": "2026-11-01T00:39:01Z",
+  "expires_at": "2026-11-01T01:24:01Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
