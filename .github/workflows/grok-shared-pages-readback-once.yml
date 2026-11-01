@@ -1,0 +1,48 @@
+name: Verify published Grok shared operations Pages
+on:
+  push:
+    branches: [work/grok-shared-ops-20261101]
+    paths: [.github/workflows/grok-shared-pages-readback-once.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Read real public Pages, compare exact expected bytes
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,urllib.request,time
+          from pathlib import Path
+          from datetime import datetime,timezone
+          expected={
+          'index.html':'ed28bb424ffed855e7292bfca831c9fd556ed54453e920e18a71bf3c2c5453a0',
+          'film.html':'f6740dfedd37230d8c0669ab2818ac97b4992cdf0b5db2d6ef33f2d47dbfc315',
+          'ops/LAUNCHER-COORDINATION.md':'747fada5ddc85ac14a40f6a28bcfaf4ee352cf6471f300fb1ad6ecdc8c0b6999',
+          'reports/grok-shared-ops-handoff.md':'abda35a09596ccd1a2da3dd2313d48db8b8263ca42b232ae9a458d8db63104ec',
+          'reports/grok-shared-ops-2026-11-01.json':'8f0f0e5dedc2c64cb56c18ec8c8794cf16dfbcf5f65024dd956e2f577e30176f'}
+          results=[]
+          for path,want in expected.items():
+              url='https://virudik.github.io/ai-film-prompts/'+path
+              for attempt in range(4):
+                  try:
+                      req=urllib.request.Request(url+'?verify_grok='+str(int(time.time())),headers={'Cache-Control':'no-cache','User-Agent':'AI-Film-Pages-readback'})
+                      with urllib.request.urlopen(req,timeout=25) as r:data=r.read();status=r.status
+                      got=hashlib.sha256(data).hexdigest()
+                      if got==want:break
+                  except Exception as e:got=type(e).__name__;status=None
+                  if attempt<3:time.sleep(10)
+              row={'file':path,'url':url,'http_status':status,'sha256':got,'expected_sha256':want,'match':got==want}
+              if path.endswith('.html'):row['grok_option_present']=b'value="grok"' in data
+              results.append(row);print(json.dumps(row),flush=True)
+          result={'checked_at':datetime.now(timezone.utc).isoformat(),'status':'passed' if all(r['match'] for r in results) else 'failed','files':results,'browser_owner_submit_tested':False}
+          Path('/tmp/grok-shared-pages-readback.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+          assert result['status']=='passed',result
+          PY
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: grok-shared-pages-readback
+          path: /tmp/grok-shared-pages-readback.json
+          retention-days: 3
