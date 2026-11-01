@@ -3,20 +3,22 @@
   "source_of_truth": "GitHub main/projects/misc/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-01T03:42:19Z",
-  "revision_date": "23.10.2026",
-  "master_declared_last_full_sync": "23.10.2026 · создан новый пустой проект",
-  "canonical_master_sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
-  "canonical_revision_sha256": "19e0c43a5f224064e5495be32aa65cc324267229d88dde69609fb1240401c43b",
-  "canonical_master_bytes": 1093,
-  "scenes": 0,
-  "prompt_texts": 0,
+  "synced_at": "2026-11-01T03:52:36Z",
+  "revision_date": "01.11.2026",
+  "master_declared_last_full_sync": "01.11.2026 · добавлена сцена 1 «Тихий маяк» (DRAFT, 8 подсцен A1–A8 по 15 с, без картинок и запусков); картинки и видео пока не делаем по решению владельца",
+  "canonical_master_sha256": "ef0f529e62546f4b683e9a789dea0a49cbb9f4ec875bc478a2d101ca0e943723",
+  "canonical_revision_sha256": "7e658b434ef12be7a883a2a2b21c8def17cdc75b083fb52b0bc0559d2dc9f5f1",
+  "canonical_master_bytes": 56235,
+  "scenes": 1,
+  "prompt_texts": 8,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
   "slow_scenes_count": 0,
-  "scene_ids": [],
-  "latest_scene": null,
+  "scene_ids": [
+    1
+  ],
+  "latest_scene": 1,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
@@ -24,7 +26,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.627,
+    "age_hours_at_status_build": 0.799,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -102,7 +104,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.627,
+      "age_hours": 0.799,
       "blocking": false
     },
     "topview_task_map": {
@@ -112,15 +114,38 @@
       "terminal_cache_consistent": null
     }
   },
-  "scene_meta": {},
+  "scene_meta": {
+    "1": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 120,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "original_story",
+        "voiceover_post",
+        "reference_first",
+        "misc_scene_1",
+        "eight_subscenes"
+      ],
+      "render_state": "IDLE"
+    }
+  },
   "audit_fingerprint": {
-    "revision_date": "23.10.2026",
-    "synced_at": "2026-11-01T03:42:19Z",
-    "canonical_master_sha256": "00eeb046ce5d41cbc8bc9d8f9424345825d0b478709ed5571d474cc6e0849ad7",
-    "canonical_revision_sha256": "19e0c43a5f224064e5495be32aa65cc324267229d88dde69609fb1240401c43b",
-    "scene_count": 0,
-    "prompt_count": 0,
-    "scene_ids": [],
+    "revision_date": "01.11.2026",
+    "synced_at": "2026-11-01T03:52:36Z",
+    "canonical_master_sha256": "ef0f529e62546f4b683e9a789dea0a49cbb9f4ec875bc478a2d101ca0e943723",
+    "canonical_revision_sha256": "7e658b434ef12be7a883a2a2b21c8def17cdc75b083fb52b0bc0559d2dc9f5f1",
+    "scene_count": 1,
+    "prompt_count": 8,
+    "scene_ids": [
+      1
+    ],
     "work_items": [],
     "slow_scenes": [],
     "health": "ok",

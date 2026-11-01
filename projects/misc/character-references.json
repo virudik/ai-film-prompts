@@ -1,8 +1,360 @@
 {
   "schema_version": 2,
   "project": "misc",
-  "updated_at": "2026-10-23T02:39:52Z",
-  "source": "Новый проект; референсов пока нет.",
-  "characters": [],
-  "assets": []
+  "updated_at": "2026-11-01T03:52:34Z",
+  "source": "Оригинальные персонажи сцены 1 «Тихий маяк», 01.11.2026. Картинок ещё нет: в записях только описания и список планируемых референсов; все not_approved.",
+  "characters": [
+    {
+      "id": "yarik",
+      "name": "Ярик",
+      "aliases": [
+        "YARIK"
+      ],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "primary": "Ярик · основной лист (4 ракурса)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Мальчик 7 лет: смугловато-светлая кожа, взъерошенные тёмно-русые волнистые волосы с вихром на макушке, большие карие глаза, веснушки, чуть оттопыренные уши; кирпично-красная толстовка с капюшоном и белым парусником на груди, тёмно-синие брюки, серые кроссовки на липучках.",
+      "variants": [
+        {
+          "label": "Пижама (A5)",
+          "scenes": [
+            1
+          ],
+          "notes": "Тёмно-синяя пижама с мелкими жёлтыми звёздами; лицо и волосы те же."
+        },
+        {
+          "label": "С наушниками (A5–A8)",
+          "scenes": [
+            1
+          ],
+          "notes": "Жёлтые детские наушники на голове или на шее."
+        }
+      ],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/yarik.png",
+          "projects/misc/references/yarik-expressions.png"
+        ],
+        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "mama-lena",
+      "name": "Мама Лена",
+      "aliases": [
+        "MAMA LENA"
+      ],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "primary": "Мама Лена · основной лист",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Женщина 34 лет: смуглая кожа, тёмные кудрявые волосы в высоком небрежном пучке, тёплые тёмные глаза, мимические морщинки, без очков; голубая джинсовая рубашка с закатанными рукавами поверх белой футболки, тёмные джинсы.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/mama-lena.png",
+          "projects/misc/references/mama-lena-expressions.png"
+        ],
+        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "sonya",
+      "name": "Соня",
+      "aliases": [
+        "SONYA"
+      ],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "primary": "Соня · основной лист",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Девочка 12 лет, старшая сестра: светлая кожа с румянцем, длинные прямые светло-русые волосы в косе набок, серо-голубые глаза; сиреневая ветровка с значками на кармане, джинсы, белые кеды.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/sonya.png",
+          "projects/misc/references/sonya-expressions.png"
+        ],
+        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "anna-sergeevna",
+      "name": "Анна Сергеевна",
+      "aliases": [
+        "ANNA"
+      ],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "primary": "Анна Сергеевна · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Женщина около 48 лет, высокая: светлая кожа, короткое каре седого цвета, тёплые карие глаза, глубокие смешинки, без очков; сливовая льняная туника, бусы из дерева.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/anna-sergeevna.png"
+        ],
+        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "bublik",
+      "name": "Бублик",
+      "aliases": [
+        "BUBLIK"
+      ],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "primary": "Бублик · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Пушистый кремово-абрикосовый пёс среднего размера, висячие уши, тёмно-коричневый нос, добрые тёмные глаза, небесно-голубая бандана.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/bublik.png"
+        ],
+        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "varya",
+      "name": "Варя",
+      "aliases": [
+        "VARYA"
+      ],
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "primary": "Варя · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "",
+        "full_image": ""
+      },
+      "outfit_variant": "Девочка 6 лет: светлая кожа с веснушками, два коротких тёмно-русых хвостика с оранжевыми резинками, щербинка в улыбке; голубой комбинезон поверх полосатой футболки.",
+      "variants": [],
+      "provenance": {
+        "project": "misc",
+        "created": "2026-11-01",
+        "status": "planned_no_images",
+        "planned_reference_images": [
+          "projects/misc/references/varya.png"
+        ],
+        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+      },
+      "reference_images": []
+    }
+  ],
+  "assets": [
+    {
+      "id": "loc-kitchen",
+      "name": "Кухня",
+      "kind": "location",
+      "notes": "Утренняя кухня, мятные шкафчики, круглые часы, чайник. Только локация; персонажи — по листам.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-hallway",
+      "name": "Прихожая",
+      "kind": "location",
+      "notes": "Узкая тёплая прихожая: вешалка, лавка с обувью, круглое зеркало.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L2-hallway.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-yarik-room",
+      "name": "Комната Ярика ночью",
+      "kind": "location",
+      "notes": "Кровать с синим покрывалом в звёздах, полка со стёклышками, окно с огнями города.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-courtyard",
+      "name": "Двор с площадкой",
+      "kind": "location",
+      "notes": "Кирпичный дом, синяя горка, песочница, берёзы, осенний свет.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-therapy-room",
+      "name": "Кабинет занятий",
+      "kind": "location",
+      "notes": "Круглый стол, ковёр с волнами, мягкий дневной свет.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-inner-sea-storm",
+      "name": "Внутреннее море — шторм",
+      "kind": "location",
+      "notes": "Мир внутри Ярика: тёмно-бирюзовое штормовое море, фиолетовое небо, тёмный маяк, лодка.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-inner-sea-calm",
+      "name": "Внутреннее море — штиль",
+      "kind": "location",
+      "notes": "Тот же мир после шторма: золотисто-бирюзовое море, маяк горит. Для монтажных вставок и титров.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-seaside-lighthouse",
+      "name": "Берег и маяк",
+      "kind": "location",
+      "notes": "Галечный пляж на закате, красно-белый полосатый маяк, деревянный пирс.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "props-sheet",
+      "name": "Реквизит сцены 1",
+      "kind": "prop",
+      "notes": "Жёлтые наушники с синими наклейками; банка и мешочек с морскими стёклышками; маяк-ночник; три карточки-пиктограммы без текста.",
+      "images": [],
+      "editorial_status": "not_approved",
+      "planned_reference_images": [
+        "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png"
+      ],
+      "provenance": {
+        "status": "planned_no_images"
+      },
+      "scenes": [
+        1
+      ]
+    }
+  ],
+  "non_character_reference_rules": [
+    "Индивидуальный лист персонажа всегда выше кадра локации и реквизита для лица, возраста, пропорций и одежды.",
+    "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
+    "Пути к картинкам — от корня репозитория (projects/misc/references/…)."
+  ]
 }
