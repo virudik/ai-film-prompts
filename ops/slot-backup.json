@@ -75,7 +75,7 @@
   ],
   "preferred_executor": "ordinary",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-10-31T23:26:12Z",
+  "updated_at": "2026-11-01T02:16:00Z",
   "reserve_automation_ids": [
     "6adc585e7ac08191bb93825117dc7213",
     "6acae6ab433481919e88665c520b8ef2"
@@ -136,7 +136,17 @@
         "first_hour": 8,
         "last_hour": 23,
         "timing_mode": "exact_schedule",
-        "description": "Minutes :12 and :27 of every hour 08–23 Europe/Amsterdam; inside launch_window :10–:40. Created by the owner decision of 2026-11-01 00:24 (enable_decision)."
+        "description": "Routine «Topview: наблюдение и запуск сцен (grok)»: runs at :12, :27, :42, :57 of hours 08–23 Europe/Amsterdam (08:12–23:57); read-only health watch every run, scenes launched only at :12 and :27 (minutes in schedule.minutes), inside launch_window :10–:40. Updated by owner decision 2026-11-01 03:16 (grok_launcher.schedule_20261101_0316); task polling and morning summary are separate routines listed there.",
+        "launch_minutes": [
+          12,
+          27
+        ],
+        "watch_minutes": [
+          12,
+          27,
+          42,
+          57
+        ]
       }
     }
   },
@@ -354,7 +364,7 @@
       ],
       "source": "Grok Bot report to the owner in chat (screenshot sent); no receipt file in the repository"
     },
-    "automation_note": "One routine, topview-grok, created by the owner's decision 2026-11-01 00:24; no other monitors or schedules.",
+    "automation_note": "Since 2026-11-01 03:16 three Grok routines (see schedule_20261101_0316); topview-grok is the launcher/watch routine. Earlier note: created by the owner's decision 2026-11-01 00:24.",
     "owner_decisions_20261101": {
       "owner_request_id": "owner-20261101-grok-no-clutter-telegram-direct",
       "recorded_at": "2026-10-31T23:31:00Z",
@@ -384,12 +394,12 @@
       "presence": {
         "surface": "grok",
         "assistant": "Grok Bot (owner's assistant with own computer/browser signed in to Topview)",
-        "routine": "topview-grok",
-        "schedule": ":12 and :27, 08:12–23:27 Europe/Amsterdam (same minutes in MSK)",
+        "routine": "topview-grok («Topview: наблюдение и запуск сцен (grok)»)",
+        "schedule": "launch :12 and :27; read-only watch :12, :27, :42, :57; 08:12–23:57 Europe/Amsterdam (same minutes in MSK); see grok_launcher.schedule_20261101_0316",
         "acts_only_in_window": ":10–:40",
         "preferred_executor": "ordinary ChatGPT (:00); Work :55; grok is a backup filling free slots between them",
         "coordination": "canon lock / claim / intent / receipts only",
-        "monitor": "Grok Bot monitor routine at :00 and :30: read-only; alerts owner in Telegram about stale status, free slot >30 min without receipt, expired lock, robot workflow failures",
+        "monitor": "read-only robot health watch is part of every routine run (:12/:27/:42/:57); replaces the former :00/:30 monitor; alerts owner in Telegram about stale status, free slot >30 min without receipt, expired lock, robot workflow failures",
         "first_real_create": "gated by first_real_create.owner_go_ahead=false"
       },
       "docs": [
@@ -469,7 +479,62 @@
         "description": "Minutes :12 and :27 of every hour 08–23 Europe/Amsterdam; inside launch_window :10–:40. Created by the owner decision of 2026-11-01 00:24 (enable_decision)."
       },
       "event_path": "Existing routine reads fresh GitHub launcher_health/queue/inbox each cycle; no new webhook or Telegram forwarding is claimed active.",
-      "acceptance": "Grok records actual provider routine settings/run ID and first legal task ID; first-real-Create gate remains independent."
+      "acceptance": "Grok records actual provider routine settings/run ID and first legal task ID; first-real-Create gate remains independent.",
+      "superseded_by": "schedule_20261101_0316 (owner 2026-11-01 03:16: daytime 08:12–23:57; the 24-hour desired_schedule is not applied)"
+    },
+    "schedule_20261101_0316": {
+      "owner_quote_merge": "Объединяй обе пары, пусть будет три рутины",
+      "owner_quote_merge_at": "2026-11-01T03:11 Europe/Amsterdam",
+      "owner_quote": "И В инструкциях поправь свое время",
+      "recorded_at_local": "2026-11-01T03:16 Europe/Amsterdam",
+      "recorded_at": "2026-11-01T02:16:00Z",
+      "timezone": "Europe/Amsterdam",
+      "note": "Change of times only; launcher code, launch_window :10–:40, one Create per wake, first_real_create gate and owner_command_launch are unchanged. Actual provider execution is confirmed only by Grok's own receipts.",
+      "replaces": [
+        "hourly owner-task poll at :40 (2026-11-01 03:04 decision)",
+        "read-only monitor routine at :00 and :30",
+        "separate Telegram-tasks routine"
+      ],
+      "routines": [
+        {
+          "name": "Поручения: Telegram и задачи с сайта",
+          "every_minutes": 10,
+          "first": "08:00",
+          "last": "23:50",
+          "tolerance_minutes": 5,
+          "observed_server_minutes": [
+            5,
+            15,
+            25,
+            35,
+            45,
+            55
+          ],
+          "does": "reads owner commands in Telegram @Grok_vint_bot and polls ops/owner-tasks.json for to:grok, to:any and to:claude open >3h (claim rules in ops/OWNER-TASKS.md)"
+        },
+        {
+          "name": "Topview: наблюдение и запуск сцен (grok)",
+          "automation_id": "topview-grok",
+          "minutes": [
+            12,
+            27,
+            42,
+            57
+          ],
+          "first": "08:12",
+          "last": "23:57",
+          "launch_minutes": [
+            12,
+            27
+          ],
+          "does": "every run is a read-only robot health watch (stale status, free slot >30 min without receipt, expired lock, failing workflows; alerts owner in Telegram); scenes are launched only in :12 and :27 runs inside launch_window :10–:40"
+        },
+        {
+          "name": "Утренняя сводка в Telegram",
+          "daily_at": "09:00",
+          "does": "morning summary to the owner in Telegram"
+        }
+      ]
     }
   },
   "run_ledger": {

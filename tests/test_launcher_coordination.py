@@ -398,6 +398,19 @@ class GrokHelperTests(unittest.TestCase):
         w = policy['launch_window']
         for minute in sched['minutes']:
             self.assertTrue(w['first_minute'] <= minute <= w['last_minute'])
+        # Owner decision 01.11.2026 03:16: three routines; the watch runs more often than launches.
+        rec = policy['schedule_20261101_0316']
+        self.assertEqual(rec['owner_quote'], 'И В инструкциях поправь свое время')
+        self.assertEqual(sched['launch_minutes'], [12, 27])
+        self.assertEqual(sched['watch_minutes'], [12, 27, 42, 57])
+        launcher = [r for r in rec['routines'] if r.get('automation_id') == 'topview-grok'][0]
+        self.assertEqual((launcher['minutes'], launcher['launch_minutes'], launcher['first'], launcher['last']),
+                         ([12, 27, 42, 57], [12, 27], '08:12', '23:57'))
+        for minute in launcher['launch_minutes']:
+            self.assertTrue(w['first_minute'] <= minute <= w['last_minute'])
+        names = [r['name'] for r in rec['routines']]
+        self.assertEqual(names, ['Поручения: Telegram и задачи с сайта', 'Topview: наблюдение и запуск сцен (grok)',
+                                 'Утренняя сводка в Telegram'])
 
 
 
