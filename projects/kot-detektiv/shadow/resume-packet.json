@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-01T01:03:20+00:00",
-  "source_head": "a83622580cec29df42eed3dd332cb7b5864f27ab",
-  "source_fingerprint": "3735452d1f2c9e4750bd69401c9b2dea5132abcb7706eedcf72e9ed271446c83",
+  "checked_at": "2026-11-01T01:23:22+00:00",
+  "source_head": "a383acec0e5140c449d13d859386e2a0feea1b50",
+  "source_fingerprint": "5072af4eac2b95630a93cc66122e6ecac967aee325dd89ae1b3cca73a7054d8c",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -153,18 +153,18 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "8d057802eb940d26d5a1847e6da97f6ad2be5a9d51e0952141d2bac9a1f3e8a3",
-      "bytes": 35607
+      "sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
+      "bytes": 36381
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
-      "sha256": "995da70df9ec07f910a9f790dacdc6664426fcc61a4a9ff9eec6df8fa2d298e5",
-      "bytes": 20692
+      "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+      "bytes": 21763
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "d7be6a352a8358f4f4b6bafcd2649207879097779a164b1bcab2e4fbbbb844f1",
-      "bytes": 34906
+      "sha256": "90e7c7460c45d273f3de3790310f00252b4970c9858b13dac57e8e599c21afea",
+      "bytes": 34904
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -178,17 +178,17 @@
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "8ebf0c99aab3a473a3a440dc904857c19ad79dba2560f00c83116522f24fc823",
-      "bytes": 127159
+      "sha256": "a74b96bf0be616c6dd5a136e700f98d89f09a0ecccce4f0ee5efb5dcd04f70f8",
+      "bytes": 128076
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "bcc3e6e38b81d0427bc65c8355d91011b3deac7b64814e49d361a39becdb37d6",
-      "bytes": 83014
+      "sha256": "9c2a05e8e3a3e92bbc44e38407f33ed4d6137dca30d5efe849561e1abae815e7",
+      "bytes": 83773
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "765da7285d9498b16a3070b1d7dd53af746cb7944a5f18edd7a72955304d8673",
+      "sha256": "71e832e59ab984c32c75fa4f19bdc6cfe87e90f0cd7cc519175c41a80b7e17af",
       "bytes": 5141
     },
     {
@@ -203,7 +203,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "d4779d67292581149709178c30b3d90d4c96c09172de131a82a419e7d9c86f6a",
+      "sha256": "393587022d7841b069404664e189a425a0e95dd9793e703dc3c19e0751f2617a",
       "bytes": 22409
     },
     {
@@ -258,12 +258,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "188367dc1bc92a915ffcedcaa8a652399f8b3d1b2d91954d648d48c425a3820a",
-      "bytes": 34707
+      "sha256": "34c1aceb0865c257fbdda4afb032afa1ed346e749ba6e43d515cb148c2c5bfc3",
+      "bytes": 34705
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "997bff55b99401463863af9e357dd2269a002639f3f23bd6ed86b979d3fb9770",
+      "sha256": "57a6cd5c98a931ee81b15728d3b0184b5189ab84a0fa8c414d6cc00c16f26bf8",
       "bytes": 25126
     },
     {
