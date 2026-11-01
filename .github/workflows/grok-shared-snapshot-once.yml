@@ -1,0 +1,39 @@
+name: Grok shared operations source snapshot
+on:
+  push:
+    branches: [work/grok-shared-ops-20261101]
+    paths: [.github/workflows/grok-shared-snapshot-once.yml]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Package tracked text and Stitch references without credentials
+        run: |
+          python3 - <<'PY'
+          import subprocess,zipfile,hashlib,json
+          from pathlib import Path
+          paths=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          head=subprocess.check_output(['git','rev-parse','HEAD']).decode().strip()
+          manifest={}
+          with zipfile.ZipFile('/tmp/grok-shared-source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for name in paths:
+                  p=Path(name)
+                  if not p.is_file(): continue
+                  if p.suffix.lower() not in ('.md','.json','.py','.yml','.yaml','.html','.js','.ts','.sql','.txt','.toml') and 'stitch' not in name.lower(): continue
+                  if name.startswith('.git/') or p.name.startswith('.env'): continue
+                  data=p.read_bytes();z.writestr(name,data);manifest[name]=hashlib.sha256(data).hexdigest()
+              z.writestr('SOURCE-SNAPSHOT.json',json.dumps({'head':head,'sha256':manifest},ensure_ascii=False,indent=2))
+          print(head, len(manifest))
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: grok-shared-source
+          path: /tmp/grok-shared-source.zip
+          retention-days: 3
