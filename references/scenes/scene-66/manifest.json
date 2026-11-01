@@ -200,12 +200,12 @@
       "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
       "asset_id": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
       "caption": "Стич: развёртка (4 вида в рост и 3 портрета)",
-      "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+      "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
       "dimensions": [
         1280,
         720
       ],
-      "bytes": 901575,
+      "bytes": 916530,
       "role": "Стич: индивидуальная развёртка; высший приоритет внешности существа",
       "media_type": "image",
       "status": "available",
@@ -215,8 +215,8 @@
       "created_at": "2026-11-01T00:33:24+00:00",
       "assistant_qc": {
         "status": "usable_for_assigned_role",
-        "checked_at": "2026-11-01T00:33:24+00:00",
-        "scope": "Visual inspection: one blue-grey Stitch in four full-body views (front, both profiles, back) and three head portraits, consistent red harness with metal ring, warm grey backdrop, no text/logos/borders. Native 1280x720 (smaller than the 1672x941 girls' sheets). Technical QC is not editorial approval."
+        "checked_at": "2026-11-01T00:39:28+00:00",
+        "scope": "Visual inspection of v2 after correction: top row = front, left-facing profile, right-facing profile (opposite direction), back; bottom row = front, three-quarter, profile; 4+3 views, no overlap, equal scale, same fur/ears/red harness with metal ring in all views, no text/logos/borders, no visible seam or leftover of the old panel. View 3 is a separately generated profile composited into the sheet (slightly different floor tone). Native 1280x720. Technical QC is not editorial approval."
       },
       "site_published": {
         "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
@@ -224,7 +224,7 @@
         "git_present": true
       },
       "prompt_file": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.image-prompt.txt",
-      "prompt_sha256": "fd934ef3ac4d0d76f97ccd00729bf413e9385e69b9fad2a66263b3d007f4d9cd",
+      "prompt_sha256": "f8fa51e9e969fd1619ecf2f54dc0c9ce1e494702bcb3bed64ce0cd37614746f1",
       "reference_inputs": [
         {
           "path": "references/scenes/scene-66/S66-street-outrage.png",
@@ -248,13 +248,14 @@
         }
       ],
       "character_id": "stitch",
-      "source_file_note": "Grok Bot GenerateImage output grok-stitch-sheet-v1.jpg (1280x720 JPEG) converted losslessly to PNG; unlabelled variant v1 chosen by owner 01.11.2026"
+      "source_file_note": "Grok Bot GenerateImage output grok-stitch-sheet-v1.jpg (1280x720 JPEG) converted losslessly to PNG; unlabelled variant v1 chosen by owner 01.11.2026",
+      "revision": "v2 2026-11-01: duplicated left profile replaced by a right-facing profile (composited); see prompt_file"
     }
   ],
   "approved": [],
   "rejected": [],
   "technical_success_is_editorial_approval": false,
-  "updated_at": "2026-11-01T00:33:24+00:00",
+  "updated_at": "2026-11-01T00:39:28+00:00",
   "identity_refs": [
     "references/scenes/scene-66/S66-Alina-tatooine-sheet.png",
     "references/scenes/scene-66/S66-Dasha-tatooine-sheet.png",
@@ -331,7 +332,7 @@
         {
           "slot": "@Image7",
           "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
-          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
           "required": true,
           "input_status": "available",
           "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
@@ -406,7 +407,7 @@
         {
           "slot": "@Image7",
           "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
-          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
           "required": true,
           "input_status": "available",
           "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
@@ -478,7 +479,7 @@
         {
           "slot": "@Image7",
           "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
-          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
           "required": true,
           "input_status": "available",
           "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"

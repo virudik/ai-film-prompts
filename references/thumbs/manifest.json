@@ -3109,9 +3109,9 @@
    "height": 360,
    "src_width": 1280,
    "src_height": 720,
-   "src_bytes": 901575,
-   "thumb_bytes": 23986,
-   "src_sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c"
+   "src_bytes": 916530,
+   "thumb_bytes": 23584,
+   "src_sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947"
   },
   "references/scenes/scene-66/S66-street-outrage.png": {
    "thumb": "references/thumbs/scenes/scene-66/S66-street-outrage.png.webp",

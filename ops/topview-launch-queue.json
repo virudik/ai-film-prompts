@@ -5347,7 +5347,7 @@
         {
           "slot": "@Image6",
           "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
-          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
           "required": true,
           "input_status": "available",
           "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
@@ -5756,7 +5756,7 @@
         {
           "slot": "@Image7",
           "path": "references/scenes/scene-66/S66-Stitch-tatooine-sheet.png",
-          "sha256": "ab9d00f2acb155fea6e3cbd51b96228345d734ed146f9ea5c6142c0f0a51294c",
+          "sha256": "3972543060aa03588b2d95ebdf76ddf55eeb7a7997dd18816c09e58b2cff3947",
           "required": true,
           "input_status": "available",
           "canonical_role": "Стич: индивидуальная развёртка (4 вида в рост и 3 портрета); высший приоритет внешности существа"
