@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:b6d66489-3b54-42f1-aadb-4c90487a2e1b",
   "task": "Серёгиус scheduled ordinary 15Z: completed 14-board/20-page read-only scan; receipt only, 6/6",
   "acquired_at": "2026-11-01T15:03:29.907Z",
-  "expires_at": "2026-11-01T15:11:29.907Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-01T15:07:29.439Z",
   "rules": "ops/CANON-LOCK.md"
 }
