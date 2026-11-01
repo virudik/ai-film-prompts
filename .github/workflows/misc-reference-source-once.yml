@@ -1,0 +1,36 @@
+name: Export misc reference source once
+on:
+  push:
+    branches: [work/misc-reference-assets-20261101]
+    paths: [.github/workflows/misc-reference-source-once.yml]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Package authoritative instructions and project files read-only
+        run: |
+          python3 - <<'PY'
+          import subprocess, pathlib, zipfile, json, hashlib
+          from datetime import datetime, timezone
+          names=subprocess.check_output(['git','ls-files','-z']).decode().split('\0')
+          exts={'.png','.jpg','.jpeg','.webp','.gif','.mp4','.mov','.mp3','.wav','.webm','.m4a','.ogg','.ttf','.otf','.woff','.woff2','.pem','.key','.p12','.pfx'}
+          files=[n for n in names if n and pathlib.Path(n).is_file() and not pathlib.Path(n).is_symlink() and (pathlib.Path(n).suffix.lower() not in exts or n.startswith('projects/misc/references/')) and pathlib.Path(n).name not in {'.env','credentials.json','service-account.json','storage-state.json'}]
+          source={'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'captured_at':datetime.now(timezone.utc).isoformat(),'files':[{'path':n,'sha256':hashlib.sha256(pathlib.Path(n).read_bytes()).hexdigest()} for n in files]}
+          with zipfile.ZipFile('/tmp/misc-reference-source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for n in files:z.write(n,n)
+              z.writestr('EXPORT-SOURCE.json',json.dumps(source,ensure_ascii=False,indent=2))
+          print(source['source_head'],len(files))
+          PY
+      - uses: actions/upload-artifact@v5
+        with:
+          name: misc-reference-source
+          path: /tmp/misc-reference-source.zip
+          retention-days: 3
