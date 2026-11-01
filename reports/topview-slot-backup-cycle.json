@@ -8,9 +8,9 @@
   "source_head": "b6d74902ea4dc5a97c54f118794abe85ed875b5b",
   "route_generation": 2,
   "started_at": "2026-11-01T14:00:45.817405Z",
-  "checked_at": "2026-11-01T14:06:28.825Z",
-  "phase": "started",
-  "stage": "global_scan_complete_awaiting_final_receipt",
+  "checked_at": "2026-11-01T14:03:28.808Z",
+  "phase": "finished",
+  "stage": "completed",
   "scan_complete": true,
   "scan_source": "Authenticated Topview read-only list_boards + all board_tasks pages",
   "scan_scope": "14/14 boards; 20/20 pages; 953/953 tasks; 625 video tasks",
@@ -34,10 +34,10 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "TinyFish not invoked: full global capacity 6/6",
+  "browser_transport": "TinyFish not invoked, because live verified 6/6 Topview slots",
   "tinyfish_runs": 0,
   "tinyfish_run_ids": [],
   "tinyfish_estimated_cost_usd": 0,
@@ -67,5 +67,10 @@
     "item_id": "S71-WAN30",
     "task_id": "431180d384cc43bebe7afc702e4eb4e6",
     "source": "existing GitHub queue and actual Topview task; not created by this run"
-  }
+  },
+  "finished_at": "2026-11-01T14:07:11.654Z",
+  "lease_readback_before_finish": true,
+  "external_submissions_in_this_run": 0,
+  "current_scan_verified_at": "2026-11-01T14:03:28.808Z",
+  "previous_receipt_note": "A prior 05:00Z started receipt was superseded by this actual 14:00Z cycle; prior S71 claim and 08:29Z Grok task were independently reconciled, not repeated."
 }
