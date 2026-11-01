@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-01T08:30:38Z",
+  "complete": true,
+  "method": "full read-only scan at 2026-11-01T08:28:46Z (14 boards, 17 pages, 952 tasks) plus re-read of My First Board newest tasks after Create (total 682 on board, exactly one new task)",
+  "boards": 14,
+  "unique_tasks": 953,
+  "active_videos": 6,
+  "active_task_ids": [
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e",
+    "b0915b04173c414e9ac08652d34b7852"
+  ],
+  "free_slots": 0,
+  "new_task_ids": [
+    "431180d384cc43bebe7afc702e4eb4e6"
+  ],
+  "duplicates": 0
+}

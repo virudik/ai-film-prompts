@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-31T22:40:27.793031Z",
+  "updated_at": "2026-11-01T08:30:40Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5627,7 +5627,7 @@
       "canonical_prompt_sha256": "f2a13af252b891bcf10d256cb4522aa3b3d4cd0049a438b98389472004fff162",
       "normalized_prompt_sha256": "68502bd0e16600656bb095e5d0981b88a52efe8d0d6d40eb77003c27f7092503",
       "priority": -0.99,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5675,8 +5675,19 @@
           "sha256": "f75224a3ded6acfcbdde269b36d9a74e24dff5884dfd9a98efa8b117ca524d0d"
         }
       ],
-      "task_id": null,
-      "claim": {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "claim": null,
+      "blocker": null,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner30Oct: new scene 71 (Vitalik on a hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
+      "result_review_required": true,
+      "result_review_policy": "Check Vitalik's identity, the single hookah throne, exact Russian lines with lip-sync and the white smoke ending. Success is not acceptance.",
+      "created_at": "2026-10-30T20:47:17Z",
+      "submitted_at": "2026-11-01T08:29:13Z",
+      "receipt": "reports/topview-queue-2026-10-16/S71-WAN30-20261101T082913Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S71-WAN30-20261101T082913Z.jpg",
+      "last_claim": {
         "claim_id": "7ecfcec5-9047-499a-aac6-1b3f3c5eaa72",
         "run_id": "grok-bcf630c5-639f-4a0e-a7f6-3124c9e4adfe",
         "claimed_at": "2026-11-01T08:28:04Z",
@@ -5724,14 +5735,7 @@
         "provider_run_key": "9ab983d318ee973e9f55eb5d383e160180496ace0fb350a73447db227549e697",
         "owner_event_keys": [],
         "ledger_path": "ops/launcher-run-ledger.json"
-      },
-      "blocker": null,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner30Oct: new scene 71 (Vitalik on a hookah throne), Wan3.0/30s. Unlimited0 only; no paid path, retry or launch by this edit.",
-      "result_review_required": true,
-      "result_review_policy": "Check Vitalik's identity, the single hookah throne, exact Russian lines with lip-sync and the white smoke ending. Success is not acceptance.",
-      "created_at": "2026-10-30T20:47:17Z"
+      }
     },
     {
       "id": "S66-WAN30",
