@@ -3,44 +3,18 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-01T10:33:17+00:00",
-  "source_head": "40ceb94fc5234b9901ad47eed54e80fce74602ee",
-  "source_fingerprint": "ad8045eee54de012a7c5fa7243cd69b8430bf8bd1d9ccb156ea7e13326c492a5",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-01T10:53:35+00:00",
+  "source_head": "37192a44abbf4a8331e57249c26d62286e251d26",
+  "source_fingerprint": "d0ae4b2e894acccd9fdc61cc094a9896d8abfb4a4e798c56d46c3889ef476290",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "MISC-WAIT-MATERIALS",
-    "title": "Разное — ожидание решения владельца",
-    "status": "waiting_for_owner",
-    "last_completed": "Пустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe.",
-    "next_action": "Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.",
-    "verified_at": "2026-10-27T14:07:47+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/misc/HANDOFF.md",
-        "sha256": "191efed14b28e7ed699c45784adc93c38dbaff44ef66acdd780e8439fb1fcf24"
-      },
-      {
-        "file": "projects/misc/INSTRUCTIONS.md",
-        "sha256": "7b2c02811232159eb7071961b90d1302bae4d02880ba5a4748a3fd4c887397aa"
-      }
-    ],
-    "read_next": [
-      "projects/misc/HANDOFF.md",
-      "projects/misc/INSTRUCTIONS.md",
-      "ops/OWNER-TASKS.md"
-    ],
-    "checkpoint": {
-      "file": "projects/misc/reports/current-work-checkpoint.md",
-      "anchor": "# Продолжай — проверенная точка проекта · 27.10.2026",
-      "sha256": "dcf2118ee7158cdbf27283c2153209dcefdb9979069d2e7c08fa2f542badc2e3"
-    }
-  },
-  "checkpoint_text": "# Продолжай — проверенная точка проекта · 27.10.2026\n\nwork_id: MISC-WAIT-MATERIALS\nПроверено: 2026-10-27T14:07:47.150Z\nПустая самостоятельная структура misc создана; мастер и очередь пусты. Старые космические сцены остаются в raznoe.\nСледующий шаг: Принять новые материалы или конкретную задачу владельца для проекта misc. До этого — ожидание, без выдумывания сцен и запуска.\nМеханизм перенесён; отдельный новый чат ещё не принимал смену.\n",
+  "reasons": [
+    "next action changed without a recovery checkpoint"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -133,11 +107,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/misc/HANDOFF.md",
-    "projects/misc/INSTRUCTIONS.md",
-    "ops/OWNER-TASKS.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -213,8 +183,8 @@
     },
     {
       "file": "projects/misc/HANDOFF.md",
-      "sha256": "191efed14b28e7ed699c45784adc93c38dbaff44ef66acdd780e8439fb1fcf24",
-      "bytes": 1715
+      "sha256": "5fb0da22a4b980f4b0e0ac646402c751ab41f0945f3de75eb11d4a000798b434",
+      "bytes": 2939
     },
     {
       "file": "projects/misc/INSTRUCTIONS.md",
@@ -228,13 +198,13 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "43f3eddb5b105ca0d1d1a9911de752922f614b3d12a890927c5f7114cd6bcf7a",
-      "bytes": 8892
+      "sha256": "dc02c09bb12784d85f1a2ef91d625e7da23e48623eb7cb58df64389e93c4cf1e",
+      "bytes": 8885
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
-      "sha256": "6f6dd611e97467a0853ab15dcbf3c9a2bfb60e2e4a9f9d75c95d1794f519bd00",
-      "bytes": 1129
+      "sha256": "7b697bc985241f5f1fac6d406e91957212692616b14723d7720a9e0dc2dad269",
+      "bytes": 2414
     },
     {
       "file": "projects/misc/reports/handoff-receipts.json",
@@ -243,13 +213,13 @@
     },
     {
       "file": "projects/misc/video-prompts.md",
-      "sha256": "879c64483108c8c92af8ced9aa0cfc29b13faec3a5824dbb2b6793b78986d499",
-      "bytes": 227940
+      "sha256": "70be06a61529b8f4987c4127156e5048e8affef7c990b66cbb8385751eccc033",
+      "bytes": 235455
     },
     {
       "file": "projects/misc/work-resume-register.json",
-      "sha256": "02b56b9916739e256fb27472711e98cc19c17a4b1d8425ad113912e99fdcb41c",
-      "bytes": 2660
+      "sha256": "2be38b2cd4e67747c9eaafa653c67208d9c64fa678540a6ec733e903774e3329",
+      "bytes": 2717
     },
     {
       "file": "projects/projects.json",
@@ -272,5 +242,5 @@
       "bytes": 1350175
     }
   ],
-  "packet_bytes": 5133
+  "packet_bytes": 3855
 }
