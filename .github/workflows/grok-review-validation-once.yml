@@ -1,0 +1,62 @@
+name: Validate Grok review once (no canonical writes)
+on:
+  push:
+    branches: [review/grok-docs-20261101]
+    paths: [.github/workflows/grok-review-validation-once.yml]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Apply reviewed patch in isolated checkout only
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin 5a9b450c5e02f331f4e1f8da36e05c0d9e216ff5
+          git show 5a9b450c5e02f331f4e1f8da36e05c0d9e216ff5:ops/review/grok-integration-review-patch.py > /tmp/grok-review-patch.py
+          python3 /tmp/grok-review-patch.py .
+      - name: Validate certificate, all tests, site and handoff
+        run: |
+          set -euo pipefail
+          python3 scripts/cert_github.py . > /tmp/cert-output.txt
+          python3 scripts/build_project_status.py video-prompts.md --instruction-dir . --repo-root . --previous-status-file project-status.json > /tmp/project-build.json
+          python3 -m unittest discover -s tests -q > /tmp/grok-tests.log 2>&1
+          cat /tmp/grok-tests.log
+          python3 scripts/check_instruction_consistency.py . > /tmp/consistency.log
+          cat /tmp/consistency.log
+          python3 scripts/validate_site.py > /tmp/site.log
+          cat /tmp/site.log
+          python3 scripts/build_takeover_brief.py . shadow > /tmp/brief.log
+          cat /tmp/brief.log
+          python3 scripts/canon_health.py . > /tmp/health.log
+          cat /tmp/health.log
+          python3 - <<'PY'
+          import json,hashlib,subprocess,re,zipfile
+          from pathlib import Path
+          b=json.loads(Path('shadow/takeover-brief.json').read_text())
+          assert json.loads(Path('project-status.json').read_text())['health']=='ok'
+          assert len(Path('NEW-CHAT-HANDOFF.md').read_bytes())<=35000
+          tests=Path('/tmp/grok-tests.log').read_text(); assert re.search(r'Ran \d+ tests',tests) and '\nOK' in tests
+          result={'source_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'review_patch_commit':'5a9b450c5e02f331f4e1f8da36e05c0d9e216ff5','tests':re.search(r'Ran \d+ tests[^\n]*',tests).group(),'all_tests_passed':True,'site_passed':True,'instruction_consistency_passed':True,'handoff_bytes':len(Path('NEW-CHAT-HANDOFF.md').read_bytes()),'canonical_writes':0,'new_video_submissions':0}
+          Path('/tmp/grok-review-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps(result,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: grok-review-validation
+          path: |
+            /tmp/grok-review-validation.json
+            /tmp/grok-tests.log
+            /tmp/site.log
+            /tmp/consistency.log
+            /tmp/brief.log
+            /tmp/health.log
+          retention-days: 3
+          if-no-files-found: warn
