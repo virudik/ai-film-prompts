@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-01T06:53:03Z",
+  "updated_at": "2026-11-01T07:49:18Z",
   "tasks": [
     {
       "id": "self-heal-sync-stale-202610211203",
@@ -178,6 +178,18 @@
       "result": "Причина: run 41267737048 падал только на намеренном шаге уведомления о новом warning — NEW-CHAT-HANDOFF.md 37 КБ при цели 35 КБ; сама проверка и публикация прошли. Пять строк «Новое» (Grok 01.11, ordinary 31.10) перенесены дословно в archive/handoff-log.md, хендоф 34807 байт; canon_health status=ok warnings=0, 456 тестов OK, validate_site ok, замок снят.",
       "result_commit": "c95c10edcd2afe96d8360dfafcb5ff9b8b89478c",
       "closed_at": "2026-11-01T07:12:35Z"
+    },
+    {
+      "id": "self-heal-run-failed-canon-health-202611010749",
+      "heal_key": "run-failed-canon-health",
+      "created_at": "2026-11-01T07:49:18Z",
+      "scene_id": null,
+      "to": "any",
+      "source": "self-heal",
+      "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41283865148 Найти причину и починить; правила — ops/SELF-HEAL.md.",
+      "status": "open",
+      "taken_by": null,
+      "taken_at": null
     }
   ]
 }
