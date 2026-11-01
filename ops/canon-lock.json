@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:47993e26-c653-4d05-a68e-ff2e73766c68",
-  "task": "Grok Bot: record owner decision 01.11.2026 03:04 (Grok takes to:grok, any, claude open>3h; poll :40) in OWNER-TASKS, SYNC-RUNBOOK, LAUNCHER-COORDINATION, HANDOFF; docs only",
-  "acquired_at": "2026-11-01T02:06:06Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T02:07:20Z",
+  "state": "held",
+  "holder": "grok:1e14b558-01e3-46cf-8e6e-4187cd31fa8c",
+  "task": "Grok Bot: update Grok schedule/monitor times in instructions per owner 01.11.2026 03:16 (three routines); docs + slot-backup schedule text, no launcher semantics change",
+  "acquired_at": "2026-11-01T02:16:55Z",
+  "expires_at": "2026-11-01T02:46:55Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
