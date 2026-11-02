@@ -1,21 +1,42 @@
 // Several film projects on one site (owner decision 20.10.2026). Rules: projects/README.md.
 // Registry: projects/projects.json (this list must match it; tests/test_projects.py checks).
 // «Серёгиус» lives in the repository root as before; every other project in projects/<id>/.
-// The pages stay the same: this script runs first and, for another project (?p=<id>), points their
+// The pages stay the same: this script runs first and, for another project (?project=<id>), points their
 // data requests at the project's folder, filters the shared files (Topview telemetry, task inbox,
 // owner-button list) by project and tags the owner buttons with the project. No generation, no approval.
+// Old bookmarks ?p= still work. ?p=raznoe opens Роскосмос and ?p=misc opens Разное
+// (projects/project-migrations.json). New links ?project=roscosmos and ?project=raznoe are unambiguous.
 (function(){
 'use strict';
 var PROJECTS=[
  {id:'seregius',name:'Серёгиус',emoji:'🎬',root:'',about:'основной фильм'},
  {id:'kotmonavty',name:'Котмонавты',emoji:'🐱🚀',root:'projects/kotmonavty/',about:'спин-офф про котов'},
  {id:'kot-detektiv',name:'Кот детектив',emoji:'🕵️🐈',root:'projects/kot-detektiv/',about:'кот-сыщик'},
- {id:'raznoe',name:'Роскосмос',emoji:'🚀',root:'projects/raznoe/',about:'космические организации'},
- {id:'misc',name:'Разное',emoji:'🎲',root:'projects/misc/',about:'независимые ролики'}
+ {id:'roscosmos',name:'Роскосмос',emoji:'🚀',root:'projects/roscosmos/',about:'космические организации'},
+ {id:'raznoe',name:'Разное',emoji:'🎲',root:'projects/raznoe/',about:'независимые ролики'}
 ];
 var ROOT='seregius',SLOTS=6;
+// Keep in step with projects/project-migrations.json.
+var MIGRATED_AT=Date.parse('2026-11-02T22:30:00Z');
+var MIGRATIONS=[
+ {from_id:'raznoe',to_id:'roscosmos',ambiguous:true},
+ {from_id:'misc',to_id:'raznoe',ambiguous:false}
+];
+function parseTime(v){var t=Date.parse(v||'');return Number.isFinite(t)?t:null}
+function resolveCode(code, kind, recordedAt){
+ code=String(code||'').trim().toLowerCase();
+ if(!code)return null;
+ var row=null,current=false,i;
+ for(i=0;i<MIGRATIONS.length;i++)if(MIGRATIONS[i].from_id===code)row=MIGRATIONS[i];
+ for(i=0;i<PROJECTS.length;i++)if(PROJECTS[i].id===code)current=true;
+ if(kind==='p')return row?row.to_id:code;
+ if(kind==='project')return current?code:(row?row.to_id:code);
+ if(row&&!row.ambiguous)return row.to_id;
+ if(row&&row.ambiguous){var when=parseTime(recordedAt);if(when==null||when<MIGRATED_AT)return row.to_id;return current?code:row.to_id}
+ return code}
 var API_HOST='https://vzohfatqzyioydtgjiyd.supabase.co/functions/v1/owner-decision';
-var want=null;try{want=new URLSearchParams(location.search).get('p')}catch(e){}
+var want=null;try{var qs=new URLSearchParams(location.search);var qProject=qs.get('project'),qP=qs.get('p');
+ want=qProject?resolveCode(qProject,'project',null):(qP?resolveCode(qP,'p',null):null)}catch(e){}
 var P=PROJECTS.filter(function(x){return x.id===want})[0]||PROJECTS[0];
 var OTHER=P.id!==ROOT;
 // files every project has in its own folder (root path -> path inside projects/<id>/)
@@ -29,36 +50,38 @@ var telP=null,telAt=0;
 function telemetry(){if(!telP||Date.now()-telAt>60000){telAt=Date.now();telP=fresh('projects/topview-projects.json').then(function(t){return t||{active:[],recent:[]}})}return telP}
 function rowProject(r,tel){
  var tid=String((r&&r.task_id)||'');
- if(tid&&tel){var all=(tel.active||[]).concat(tel.recent||[]);for(var i=0;i<all.length;i++)if(all[i].task_id===tid&&all[i].project)return all[i].project}
- var v=String((r&&r.value)||'');if(v.indexOf('project:')===0)return v.slice(8).trim()||ROOT;
- var n=String((r&&r.note)||''),m=n.match(/^\s*\[проект:\s*([a-z0-9-]+)\]/i);if(m)return m[1].toLowerCase();
- if(r&&r.action==='ref_feedback'){m=n.match(/^\s*projects\/([a-z0-9-]+)\//);if(m)return m[1]}
+ var recorded=r&&r.created_at;
+ if(tid&&tel){var all=(tel.active||[]).concat(tel.recent||[]);for(var i=0;i<all.length;i++)if(all[i].task_id===tid&&all[i].project)return resolveCode(all[i].project,'stored',all[i].started_at||recorded)}
+ var v=String((r&&r.value)||'');if(v.indexOf('project:')===0)return resolveCode(v.slice(8).trim()||ROOT,'stored',recorded);
+ var n=String((r&&r.note)||''),m=n.match(/^\s*\[проект:\s*([a-z0-9-]+)\]/i);if(m)return resolveCode(m[1].toLowerCase(),'stored',recorded);
+ if(r&&r.action==='ref_feedback'){m=n.match(/^\s*projects\/([a-z0-9-]+)\//);if(m)return resolveCode(m[1],'stored',recorded)}
  return ROOT}
+function telId(t){return resolveCode(t&&t.project,'stored',t&&t.started_at)}
 function sharedSlots(rootTv,tel){
  var rootOcc=Number(rootTv&&rootTv.occupied_slots);if(!Number.isFinite(rootOcc))rootOcc=((rootTv&&rootTv.active_tasks)||[]).length;
- var others=(tel.active||[]).length,mine=(tel.active||[]).filter(function(t){return t.project===P.id}).length;
+ var others=(tel.active||[]).length,mine=(tel.active||[]).filter(function(t){return telId(t)===P.id}).length;
  return {occupied:rootOcc+others,free:Math.max(0,SLOTS-rootOcc-others),mine:OTHER?mine:rootOcc,others:OTHER?rootOcc+others-mine:others}}
 var SHARED=null;
 // ---- synthetic files for another project
 function synthTopview(){return Promise.all([fresh('topview-status.json'),telemetry()]).then(function(x){
  var root=x[0]||{},tel=x[1];SHARED=sharedSlots(root,tel);
- var act=(tel.active||[]).filter(function(t){return t.project===P.id});
+ var act=(tel.active||[]).filter(function(t){return telId(t)===P.id});
  var tasks=act.map(function(t){return {scene_id:Number(t.scene_id),task_id:t.task_id,model:t.model,topview_status:String(t.status||'init').toLowerCase(),
   started_at:t.started_at||null,queue_count:t.queue_count==null?null:t.queue_count,topview_estimated_wait_seconds:t.wait_seconds==null?null:t.wait_seconds,
   checked_at:tel.checked_at||root.checked_at||null,verified:true,mapping_confidence:t.confidence||'robot',part:t.part||null}});
- var scenes={};(tel.recent||[]).filter(function(t){return t.project===P.id}).forEach(function(t){var k=String(t.scene_id);
+ var scenes={};(tel.recent||[]).filter(function(t){return telId(t)===P.id}).forEach(function(t){var k=String(t.scene_id);
   if(!scenes[k]||String(t.finished_at||'')>String(scenes[k].completed_at||''))scenes[k]={task_id:t.task_id,topview_status:String(t.final_status||'').toLowerCase(),completed_at:t.finished_at||null,started_at:t.started_at||null,model:t.model||null}});
  return {schema_version:3,project:P.id,source:'projects/topview-projects.json',checked_at:root.checked_at||tel.checked_at||null,timezone:'MSK',
   scenes:scenes,slot_capacity:SLOTS,occupied_slots:tasks.length,free_slots:Math.max(0,SLOTS-tasks.length),active_tasks:tasks,task_parts:{},
   note:'Задачи проекта «'+P.name+'». Слоты Topview общие на все проекты: занято '+SHARED.occupied+' из '+SLOTS+'.'}})}
 function synthTaskMap(){return telemetry().then(function(tel){
- return {schema_version:3,project:P.id,active_by_scene:{},processed_tasks:(tel.recent||[]).filter(function(t){return t.project===P.id}).map(function(t){
+ return {schema_version:3,project:P.id,active_by_scene:{},processed_tasks:(tel.recent||[]).filter(function(t){return telId(t)===P.id}).map(function(t){
   return {scene_id:Number(t.scene_id),task_id:t.task_id,final_status:t.final_status,finished_at:t.finished_at||null,model:t.model||null}}),slot_capacity:SLOTS}})}
 // ---- shared files filtered by project (also in Серёгиус: it no longer sees the other projects' rows)
 function synthInbox(q){return origFetch('ops/owner-tasks.json'+q,{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}).then(function(j){
  if(!j)return null;j.tasks=(j.tasks||[]).filter(function(t){return (t.project||ROOT)===P.id});return j})}
 function synthRobot(q){return Promise.all([origFetch('shadow/topview-robot-status.json'+q,{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}),telemetry()]).then(function(x){
- var s=x[0],tel=x[1];if(!s)return null;var mine=new Set((tel.active||[]).filter(function(t){return t.project===P.id}).map(function(t){return t.task_id}));
+ var s=x[0],tel=x[1];if(!s)return null;var mine=new Set((tel.active||[]).filter(function(t){return telId(t)===P.id}).map(function(t){return t.task_id}));
  var anyProj=new Set((tel.active||[]).map(function(t){return t.task_id}));
  s.active_tasks=(s.active_tasks||[]).filter(function(t){return OTHER?mine.has(t.task_id):!anyProj.has(t.task_id)});return s})}
 function ownerCall(input,init){
@@ -97,13 +120,13 @@ window.fetch=function(input,init){
  return origFetch(input,init);
 };
 // ---- page helpers
-function href(page){return page+(OTHER?'?p='+encodeURIComponent(P.id):'')}
+function href(page){return page+(OTHER?'?project='+encodeURIComponent(P.id):'')}
 function fixLinks(scope){
  if(!OTHER)return;
  (scope||document).querySelectorAll('a[href]').forEach(function(a){
   var h=a.getAttribute('href');if(!h||/^[a-z]+:|^\/\/|^#/i.test(h))return;
   var m=h.match(/^(index|references|film|videos)\.html(\?[^#]*)?(#.*)?$/);
-  if(m){if(/[?&]p=/.test(m[2]||''))return;a.setAttribute('href',m[1]+'.html'+(m[2]?m[2]+'&':'?')+'p='+encodeURIComponent(P.id)+(m[3]||''));return}
+  if(m){if(/[?&](?:p|project)=/.test(m[2]||''))return;a.setAttribute('href',m[1]+'.html'+(m[2]?m[2]+'&':'?')+'project='+encodeURIComponent(P.id)+(m[3]||''));return}
   var i=h.search(/[?#]/),path=i<0?h:h.slice(0,i);
   if(MAP[path])a.setAttribute('href',P.root+MAP[path]+(i<0?'':h.slice(i)));
  })}
@@ -123,7 +146,7 @@ function switcher(el){
  var sel=document.createElement('select');sel.className='project-switch';sel.setAttribute('aria-label','Проект');sel.title='Проект: у каждого свои сцены, промты, референсы, хендоф и очередь';
  PROJECTS.forEach(function(x){var o=document.createElement('option');o.value=x.id;o.textContent=x.emoji+' '+x.name;if(x.id===P.id)o.selected=true;sel.appendChild(o)});
  sel.onchange=function(){var page=(location.pathname.split('/').pop()||'index.html');if(!/\.html$/.test(page))page='index.html';
-  location.href=page+(sel.value===ROOT?'':'?p='+encodeURIComponent(sel.value))};
+  location.href=page+(sel.value===ROOT?'':'?project='+encodeURIComponent(sel.value))};
  el.appendChild(sel)}
 function projectFiles(){
  var grid=document.querySelector('.service-project-grid');if(!grid||!OTHER)return;
@@ -144,5 +167,5 @@ function ready(){
  var t=null;new MutationObserver(function(){clearTimeout(t);t=setTimeout(function(){fixLinks();var c=document.getElementById('topviewCapacity');if(c&&!c.querySelector('.proj-slots'))showSlots();metric()},120)}).observe(document.body,{childList:true,subtree:true});
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ready);else ready();
-window.AIFP={id:P.id,name:P.name,root:P.root,isRoot:!OTHER,projects:PROJECTS.slice(),rowProject:rowProject,href:href};
+window.AIFP={id:P.id,name:P.name,root:P.root,isRoot:!OTHER,projects:PROJECTS.slice(),rowProject:rowProject,href:href,resolveCode:resolveCode};
 })();

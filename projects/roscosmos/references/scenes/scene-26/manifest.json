@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project": "roscosmos",
+  "scene_id": 26,
+  "updated_at": "2026-11-02T22:30:00Z",
+  "assets": [
+    {
+      "path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
+      "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt",
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "width": 1672,
+      "height": 941,
+      "aspect_ratio": "16:9",
+      "sha256": null,
+      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+    },
+    {
+      "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+      "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt",
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "width": 1672,
+      "height": 941,
+      "aspect_ratio": "16:9",
+      "sha256": null,
+      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+    }
+  ]
+}

@@ -1,0 +1,1545 @@
+{
+  "schema_version": 2,
+  "project": "roscosmos",
+  "updated_at": "2026-11-02T22:30:00Z",
+  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 горизонтальных PNG 1672×941 pending, not_approved.",
+  "non_character_reference_rules": [
+    "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
+    "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
+    "Пути к картинкам — от корня репозитория (projects/<id>/references/…); картинки проекта лежат в его папке."
+  ],
+  "characters": [],
+  "assets": [
+    {
+      "id": "raznoe-space-01-earth-work",
+      "name": "Роскосмос — Космос работает здесь",
+      "kind": "situation_reference",
+      "scenes": [
+        1,
+        5
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-1/01-earth-work.png",
+          "caption": "Космос работает здесь",
+          "prompt_file": "projects/roscosmos/references/space-organizations/01-earth-work.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880",
+          "scenes": [
+            1,
+            11
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/01-earth-work.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-02-stereo-relief",
+      "name": "Роскосмос — Земля обретает объём",
+      "kind": "situation_reference",
+      "scenes": [
+        2
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-2/02-stereo-relief.png",
+          "caption": "Земля обретает объём",
+          "prompt_file": "projects/roscosmos/references/space-organizations/02-stereo-relief.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "b6b061873aa1e3b957360fae6324e56fc368039c6995e805aef0f6a16a775a9d",
+          "scenes": [
+            2
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/02-stereo-relief.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-03-small-satellite",
+      "name": "Главкосмос — Большой путь малого спутника",
+      "kind": "situation_reference",
+      "scenes": [
+        6
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-6/03-small-satellite.png",
+          "caption": "Большой путь малого спутника",
+          "prompt_file": "projects/roscosmos/references/space-organizations/03-small-satellite.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b",
+          "scenes": [
+            3
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/03-small-satellite.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-04-mission-exhibit",
+      "name": "Главкосмос — Прикоснуться к своей миссии",
+      "kind": "situation_reference",
+      "scenes": [
+        7
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-7/04-mission-exhibit.png",
+          "caption": "Прикоснуться к своей миссии",
+          "prompt_file": "projects/roscosmos/references/space-organizations/04-mission-exhibit.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
+          "scenes": [
+            4
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/04-mission-exhibit.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-05-space-instrument",
+      "name": "РКС — Всё начинается с точности",
+      "kind": "situation_reference",
+      "scenes": [
+        11
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-11/05-space-instrument.png",
+          "caption": "Всё начинается с точности",
+          "prompt_file": "projects/roscosmos/references/space-organizations/05-space-instrument.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f",
+          "scenes": [
+            5
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/05-space-instrument.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-06-power-corridor",
+      "name": "РКС — Увидеть изменения вдоль линии",
+      "kind": "situation_reference",
+      "scenes": [
+        12
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-12/06-power-corridor.png",
+          "caption": "Увидеть изменения вдоль линии",
+          "prompt_file": "projects/roscosmos/references/space-organizations/06-power-corridor.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
+          "scenes": [
+            6
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/06-power-corridor.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-07-earth-operations",
+      "name": "НЦ ОМЗ — Из снимка — в понятное решение",
+      "kind": "situation_reference",
+      "scenes": [
+        16
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-16/07-earth-operations.png",
+          "caption": "Из снимка — в понятное решение",
+          "prompt_file": "projects/roscosmos/references/space-organizations/07-earth-operations.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08",
+          "scenes": [
+            7
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/07-earth-operations.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-08-land-memory",
+      "name": "НЦ ОМЗ — У территории есть память",
+      "kind": "situation_reference",
+      "scenes": [
+        17
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-17/08-land-memory.png",
+          "caption": "У территории есть память",
+          "prompt_file": "projects/roscosmos/references/space-organizations/08-land-memory.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca",
+          "scenes": [
+            8
+          ],
+          "copied_from": "projects/roscosmos/references/space-organizations/08-land-memory.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s02-flat",
+      "name": "Плоская поверхность перед подъёмом рельефа",
+      "kind": "situation_reference",
+      "scenes": [
+        2
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-2/s02-flat.png",
+          "caption": "Плоская поверхность перед подъёмом рельефа",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-2/s02-flat.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "59bf9ff7a9821f7a45124a0672af4d8fa3301a19ccbf99eb933a534c9a184096",
+          "scenes": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s03-orbit",
+      "name": "Тот же демонстратор на орбите",
+      "kind": "situation_reference",
+      "scenes": [
+        6
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-6/s03-orbit.png",
+          "caption": "Тот же демонстратор на орбите",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-6/s03-orbit.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "59950fffca8623a24b77475a6caf8b70c8b4600bea25a94ef2ab63716feb111e",
+          "scenes": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s04-touch",
+      "name": "Касание физического экрана крупным планом",
+      "kind": "situation_reference",
+      "scenes": [
+        7
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-7/s04-touch.png",
+          "caption": "Касание физического экрана крупным планом",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-7/s04-touch.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
+          "scenes": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s05-assembled",
+      "name": "Собранный прибор, руки убраны",
+      "kind": "situation_reference",
+      "scenes": [
+        11,
+        13
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-11/s05-assembled.png",
+          "caption": "Собранный прибор, руки убраны",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-11/s05-assembled.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d",
+          "scenes": [
+            5,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s07-map",
+      "name": "Чистая карта для крупных планов",
+      "kind": "situation_reference",
+      "scenes": [
+        16,
+        19
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-16/s07-map.png",
+          "caption": "Чистая карта для крупных планов",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-16/s07-map.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
+          "scenes": [
+            7,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s08-pair",
+      "name": "Два состояния территории без рамки монитора",
+      "kind": "situation_reference",
+      "scenes": [
+        17
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-17/s08-pair.png",
+          "caption": "Два состояния территории без рамки монитора",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-17/s08-pair.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "e7c57e06c2eb84ebc9c45ce5eabcb22d3c3eb6d5f0c0575edd5f2081d5b56a5f",
+          "scenes": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s09-earth",
+      "name": "Один день Земли с орбиты",
+      "kind": "situation_reference",
+      "scenes": [
+        3
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-3/s09-earth.png",
+          "caption": "Один день Земли с орбиты",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-3/s09-earth.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72",
+          "scenes": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s10-visible",
+      "name": "Не видимое глазу",
+      "kind": "situation_reference",
+      "scenes": [
+        4
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-4/s10-visible.png",
+          "caption": "Не видимое глазу",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-4/s10-visible.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "5179074aeb3d87f4f7b9f8e4300adf266fbac84831e42a479dfbe8ce50232570",
+          "scenes": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s11-engineer",
+      "name": "Кто делает космос",
+      "kind": "situation_reference",
+      "scenes": [
+        5
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-5/s11-engineer.png",
+          "caption": "Кто делает космос",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-5/s11-engineer.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60",
+          "scenes": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s12-consultation",
+      "name": "Миссия начинается с вопроса",
+      "kind": "situation_reference",
+      "scenes": [
+        8
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-8/s12-consultation.png",
+          "caption": "Миссия начинается с вопроса",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-8/s12-consultation.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba",
+          "scenes": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s13-cubesat",
+      "name": "CubeSat за тридцать секунд",
+      "kind": "situation_reference",
+      "scenes": [
+        9
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-9/s13-cubesat.png",
+          "caption": "CubeSat за тридцать секунд",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-9/s13-cubesat.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e",
+          "scenes": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s14-booth",
+      "name": "Мир встречается на стенде",
+      "kind": "situation_reference",
+      "scenes": [
+        10
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-10/s14-booth.png",
+          "caption": "Мир встречается на стенде",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-10/s14-booth.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc",
+          "scenes": [
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s15-weather",
+      "name": "Как прибор видит погоду",
+      "kind": "situation_reference",
+      "scenes": [
+        13
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-13/s15-weather.png",
+          "caption": "Как прибор видит погоду",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-13/s15-weather.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "3ec9122cb8a2f69b807ccce6e54464aec3e072c5a58b400ed3b22f9cf432564f",
+          "scenes": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s16-testbench",
+      "name": "Идея проходит испытание",
+      "kind": "situation_reference",
+      "scenes": [
+        14
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-14/s16-testbench.png",
+          "caption": "Идея проходит испытание",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-14/s16-testbench.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261",
+          "scenes": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s17-detail",
+      "name": "Деталь крупным планом",
+      "kind": "situation_reference",
+      "scenes": [
+        15
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-15/s17-detail.png",
+          "caption": "Деталь крупным планом",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-15/s17-detail.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6",
+          "scenes": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s10-spectral",
+      "name": "Не видимое глазу — условные спектральные цвета",
+      "kind": "situation_reference",
+      "scenes": [
+        4
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-4/s10-spectral.png",
+          "caption": "Не видимое глазу — условные спектральные цвета",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-4/s10-spectral.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "65de380107e0204f45ed0aaa014206c36451229470c5a6577a1ecceb874eddef",
+          "scenes": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s18-archive",
+      "name": "Найти нужный снимок",
+      "kind": "situation_reference",
+      "scenes": [
+        18
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-18/s18-archive.png",
+          "caption": "Найти нужный снимок",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-18/s18-archive.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "8fd3478db8662cf992c379131d1e073150b51d264df55a2f087e5c0e3a0c2dbf",
+          "scenes": [
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s19-lowwater",
+      "name": "Река меняет границы",
+      "kind": "situation_reference",
+      "scenes": [
+        19
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-19/s19-lowwater.png",
+          "caption": "Река меняет границы",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-19/s19-lowwater.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "549ae5d218e0068a162a31ebdb0958a4ea6285ece8411da1ff87c70b333682f7",
+          "scenes": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s20-delta",
+      "name": "Красота становится знанием",
+      "kind": "situation_reference",
+      "scenes": [
+        20
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-20/s20-delta.png",
+          "caption": "Красота становится знанием",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-20/s20-delta.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "62dc05563d259efc5bd9213f5772f58f8b77e8a5022a146aac79cbed004d1d89",
+          "scenes": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q01-overhead",
+      "name": "Ближе к участку у реки",
+      "kind": "situation_reference",
+      "scenes": [
+        1
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-1/q01-overhead.png",
+          "caption": "Ближе к участку у реки",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-1/q01-overhead.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "da5b5f03cb1320acaf6e0e407320ab6af39591a98a12cc1ac018f06a58fd554e",
+          "scenes": [
+            1
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-1/01-earth-work.png",
+              "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q06-overhead",
+      "name": "Лесная кромка вдоль просеки",
+      "kind": "situation_reference",
+      "scenes": [
+        12
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-12/q06-overhead.png",
+          "caption": "Лесная кромка вдоль просеки",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-12/q06-overhead.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
+          "scenes": [
+            6
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-12/06-power-corridor.png",
+              "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q09-evening",
+      "name": "Земля: вечернее освещение",
+      "kind": "situation_reference",
+      "scenes": [
+        3
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-3/q09-evening.png",
+          "caption": "Земля: вечернее освещение",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-3/q09-evening.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "dacfaf564108487c9495814d2d989eb346c639efa6fb5d0cdf2c9597a6bddc2e",
+          "scenes": [
+            9
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-3/s09-earth.png",
+              "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q11-hands",
+      "name": "Инженер: руки и внешний регулятор",
+      "kind": "situation_reference",
+      "scenes": [
+        5
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-5/q11-hands.png",
+          "caption": "Инженер: руки и внешний регулятор",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-5/q11-hands.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "f7d71fefca33e76ed71dfeb9005f963c577ae56b267c6c14263745566ff17b84",
+          "scenes": [
+            11
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-5/s11-engineer.png",
+              "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q12-cards",
+      "name": "Выбор карточки полей",
+      "kind": "situation_reference",
+      "scenes": [
+        8
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-8/q12-cards.png",
+          "caption": "Выбор карточки полей",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-8/q12-cards.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "6accc29cbe99038204c50da6e497024ba2960ecb8d406e61bdcf76de32626164",
+          "scenes": [
+            12
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-8/s12-consultation.png",
+              "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q14-detail",
+      "name": "Макет: тарелка и солнечные панели",
+      "kind": "situation_reference",
+      "scenes": [
+        10
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-10/q14-detail.png",
+          "caption": "Макет: тарелка и солнечные панели",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-10/q14-detail.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "0a812719a0ee3fa5556bdf01d8b0c94201f2bd5efd6aaf8d8d64c0ed7784c3bd",
+          "scenes": [
+            14
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-10/s14-booth.png",
+              "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q16-adjustment",
+      "name": "Проверка: рука на регуляторе",
+      "kind": "situation_reference",
+      "scenes": [
+        14
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-14/q16-adjustment.png",
+          "caption": "Проверка: рука на регуляторе",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-14/q16-adjustment.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "f55b8ab179718eee1428f4e0b7c9eb2e1bc0f979c4bb1e7007ffb3fa3f2a9bbc",
+          "scenes": [
+            16
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-14/s16-testbench.png",
+              "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-quality-q17-context",
+      "name": "Оптическая деталь на рабочем месте",
+      "kind": "situation_reference",
+      "scenes": [
+        15
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-15/q17-context.png",
+          "caption": "Оптическая деталь на рабочем месте",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-15/q17-context.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "3ab3d91092a0a0a1ffd6c785e4580d0c7797e44220d422f34ab072d4553041ce",
+          "scenes": [
+            17
+          ],
+          "source_references": [
+            {
+              "path": "projects/roscosmos/references/scenes/scene-15/s17-detail.png",
+              "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6"
+            }
+          ],
+          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c21-centrifuge",
+      "name": "ЦПК: центрифуга и слушатель",
+      "kind": "situation_reference",
+      "scenes": [
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-21/c21-centrifuge.png",
+          "caption": "ЦПК: центрифуга и слушатель",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-21/c21-centrifuge.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:15:19+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "7238e65404aa7672696df5f4a014110a06666e7e00acb2497364980ff5fc5ab8",
+          "scenes": [
+            21
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c21-soyuz-sim",
+      "name": "ЦПК: тот же слушатель в тренажёре Союза",
+      "kind": "situation_reference",
+      "scenes": [
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-21/c21-soyuz-sim.png",
+          "caption": "ЦПК: тот же слушатель в тренажёре Союза",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-21/c21-soyuz-sim.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:24:17+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "851f861b01da6647846938722ec93559cb0680004c6122ac198d9bf0ae6a91af",
+          "scenes": [
+            21
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c22-vr-stand",
+      "name": "ЦПК: VR-стенд и два слушателя",
+      "kind": "situation_reference",
+      "scenes": [
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-22/c22-vr-stand.png",
+          "caption": "ЦПК: VR-стенд и два слушателя",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-22/c22-vr-stand.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:26:42+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "9e258c66bdd247eda8888f3d5d3044394eb3930580c6b4d01aeb71f487ffc78e",
+          "scenes": [
+            22
+          ],
+          "width": 1672,
+          "height": 940,
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c22-virtual-airlock",
+      "name": "ЦПК: виртуальный шлюз и два скафандра",
+      "kind": "situation_reference",
+      "scenes": [
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-22/c22-virtual-airlock.png",
+          "caption": "ЦПК: виртуальный шлюз и два скафандра",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-22/c22-virtual-airlock.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:29:05+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "326e35e896c731820d0e06ac8c49efae880083bc310e2dd7be0414eb1c72f49a",
+          "scenes": [
+            22
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c23-console",
+      "name": "ЦПК: пульт тренажёра манипулятора",
+      "kind": "situation_reference",
+      "scenes": [
+        23
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-23/c23-console.png",
+          "caption": "ЦПК: пульт тренажёра манипулятора",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-23/c23-console.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:31:57+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "5f51f5b9d3f836c21bf8254e3e2276eeeb5e33eadd80b301d4cfd65b33355dbf",
+          "scenes": [
+            23
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c23-era-arm",
+      "name": "ЦПК: манипулятор на орбитальном модуле",
+      "kind": "situation_reference",
+      "scenes": [
+        23
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-23/c23-era-arm.png",
+          "caption": "ЦПК: манипулятор на орбитальном модуле",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-23/c23-era-arm.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:37:31+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f",
+          "scenes": [
+            23
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c24-capsule-sea",
+      "name": "ЦПК: спускаемый аппарат на море",
+      "kind": "situation_reference",
+      "scenes": [
+        24
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-24/c24-capsule-sea.png",
+          "caption": "ЦПК: спускаемый аппарат на море",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-24/c24-capsule-sea.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:39:21+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b",
+          "scenes": [
+            24
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c24-raft",
+      "name": "ЦПК: экипаж и спасательный плот",
+      "kind": "situation_reference",
+      "scenes": [
+        24
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-24/c24-raft.png",
+          "caption": "ЦПК: экипаж и спасательный плот",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-24/c24-raft.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:41:30+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f",
+          "scenes": [
+            24
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c25-hydrolab-pool",
+      "name": "ЦПК: тренировка под водой в гидролаборатории",
+      "kind": "situation_reference",
+      "scenes": [
+        25
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-25/c25-hydrolab-pool.png",
+          "caption": "ЦПК: тренировка под водой в гидролаборатории",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-25/c25-hydrolab-pool.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:44:37+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "0d3f62742bd9abf8d03a9bedfda501eed85d164cacda5f5d54ca8ef77e3c4d20",
+          "scenes": [
+            25
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raznoe-cpk-c25-suit-lowering",
+      "name": "ЦПК: спуск скафандра в бассейн",
+      "kind": "situation_reference",
+      "scenes": [
+        25
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-25/c25-suit-lowering.png",
+          "caption": "ЦПК: спуск скафандра в бассейн",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-25/c25-suit-lowering.image-prompt.txt",
+          "created_by": "ChatGPT imagegen (open Work)",
+          "created_at": "2026-10-27T18:50:26+00:00",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859",
+          "scenes": [
+            25
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
+          "edited_at": "2026-10-28T12:55:17+00:00",
+          "last_edit": {
+            "at": "2026-10-28T12:55:17+00:00",
+            "source_sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
+            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
+            "scope": "patches, flags and requested wall/equipment markings only",
+            "report": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-26-tt26-report",
+      "name": "@Image1 — аналитик и высокий монитор. PNG 1672×941 ещё нет.",
+      "kind": "situation_reference",
+      "scenes": [
+        26
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-26-tt26-orbit",
+      "name": "@Image2 — та же дельта с орбиты. PNG 1672×941 ещё нет.",
+      "kind": "situation_reference",
+      "scenes": [
+        26
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-27-tt27-tablet",
+      "name": "@Image1 — планшет и три пустых круга.",
+      "kind": "situation_reference",
+      "scenes": [
+        27
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-27-tt27-layer",
+      "name": "@Image2 — тот же планшет уже со слоем.",
+      "kind": "situation_reference",
+      "scenes": [
+        27
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-28-tt28-clearing",
+      "name": "@Image1 — кроны и одна вырубка.",
+      "kind": "situation_reference",
+      "scenes": [
+        28
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-28-tt28-pair",
+      "name": "@Image2 — две даты одной стопкой.",
+      "kind": "situation_reference",
+      "scenes": [
+        28
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-29-tt29-print",
+      "name": "@Image1 — снимок на столе.",
+      "kind": "situation_reference",
+      "scenes": [
+        29
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-29-tt29-fence",
+      "name": "@Image2 — та же изгородь на земле.",
+      "kind": "situation_reference",
+      "scenes": [
+        29
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-29/tt29-fence.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-30-tt30-chips",
+      "name": "@Image1 — стопка серых кадров.",
+      "kind": "situation_reference",
+      "scenes": [
+        30
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-30/tt30-chips.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-30-tt30-sheet",
+      "name": "@Image2 — один цветной лист.",
+      "kind": "situation_reference",
+      "scenes": [
+        30
+      ],
+      "editorial_status": "not_approved",
+      "asset_status": "pending",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt. not_approved.",
+      "images": [],
+      "pending_images": [
+        {
+          "expected_path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "asset_status": "pending",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
+          "created_by": null,
+          "source_type": "pending_owner_drawing"
+        }
+      ]
+    }
+  ]
+}

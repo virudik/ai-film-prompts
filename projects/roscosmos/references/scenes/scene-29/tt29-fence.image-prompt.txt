@@ -1,0 +1,3 @@
+Create ONE cinematic photorealistic still, landscape 16:9, exact canvas 1672×941 pixels, edge-to-edge. No signs, no text, no logo, no black bars.
+
+Wide ground view of a wire fence running from the left of the frame toward the right, with plowed earth on one side and grass on the other. The sky is a real low horizon, not an empty band. The fence geometry should be simple enough to match a printed satellite view of the same line.

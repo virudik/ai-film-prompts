@@ -99,7 +99,7 @@ function scenarios() {
     const dec = sent.filter(b => b.op === 'decide');
     const other = pid !== 'seregius';
     const ok = errors.length === 0 && r.sel === pid && r.cls !== 'bad' &&
-      (other ? dec[0].value === 'project:kotmonavty' && /^\[проект: kotmonavty\] тест$/.test(dec[1].note) && r.list === 'b,c' && r.rows === 1 && new RegExp('на всех проектах занято ' + (tv.occupied_slots + 1) + ' из 6').test(r.cap) && r.film === 'film.html?p=kotmonavty' && r.h2 >= 2
+      (other ? dec[0].value === 'project:kotmonavty' && /^\[проект: kotmonavty\] тест$/.test(dec[1].note) && r.list === 'b,c' && r.rows === 1 && new RegExp('на всех проектах занято ' + (tv.occupied_slots + 1) + ' из 6').test(r.cap) && r.film === 'film.html?project=kotmonavty' && r.h2 >= 2
         : dec[0].value === undefined && dec[1].note === 'тест' && r.list === 'a' && /ещё 1 в других проектах/.test(r.cap) && r.film === 'film.html' && r.h2 > 10);
     if (!ok) failures++;
     console.log(`${ok ? 'PASS' : 'FAIL'}  project ${pid.padEnd(48)} health=${r.cls} rows=${r.rows} list=${r.list} cap=«${r.cap}»${errors.length ? ' errors=' + errors.join(' | ') : ''}`);

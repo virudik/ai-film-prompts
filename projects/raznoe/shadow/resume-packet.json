@@ -2,40 +2,61 @@
   "schema_version": 1,
   "generator": "continue-2.0",
   "project": "raznoe",
-  "project_name": "Роскосмос",
-  "checked_at": "2026-11-02T22:45:35+00:00",
-  "source_head": "86d8b8f6ef5c01cb95f01e1bd47ceec193a0020b",
-  "source_fingerprint": "302fd03255800daf83295a067a4ccc02bbda9132b16a681c2aba4060d21af5f0",
+  "project_name": "Разное",
+  "checked_at": "2026-11-02T22:47:29+00:00",
+  "source_head": "3500f5ed50b2462602a74d61f29a928d9059e946",
+  "source_fingerprint": "ca3cd543c7251f656ca9c5f04811cb0db93387529b2c2d9cc425f0c18e6d8bfb",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [],
   "selected_work": {
-    "work_id": "RAZNOE-CPK-REFS-20261027",
-    "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
-    "status": "prepared_waiting_owner_review_project_paused",
-    "last_completed": "Все10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.",
-    "next_action": "Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.",
-    "verified_at": "2026-10-28T12:55:17+00:00",
+    "work_id": "MISC-S1-S2-REFERENCES",
+    "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
+    "status": "awaiting_editorial_review",
+    "last_completed": "Пять листов со светлой кожей на месте, описания и SHA обновлены; цены сайта Topview записаны, клиентские цены не снижены.",
+    "next_action": "Художественный просмотр пяти новых листов Лены, Нины и Дарьи на сайте проекта raznoe. Видео не запускать. Цены клиенту 59 000 / 145 000 / 265 000 ₽ не менять.",
+    "verified_at": "2026-11-02T22:47:28+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
-        "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3"
+        "file": "projects/raznoe/references/mama-lena.png",
+        "sha256": "3b00db3a08b21e9b5efa87ff58d445841f6ab988f44f41dc2713e917b48237c4"
+      },
+      {
+        "file": "projects/raznoe/references/mama-lena-expressions.png",
+        "sha256": "e3665fdb12f9acb01f061d7034260747082c43184d43e9ca0468bbae4a47a7d2"
+      },
+      {
+        "file": "projects/raznoe/references/nina.png",
+        "sha256": "34a52394626abf39a6782842cc6ce2c72c732e9f9176b20f4c82e2b6f4e62d9f"
+      },
+      {
+        "file": "projects/raznoe/references/nina-expressions.png",
+        "sha256": "f1ca204dcdcfe7612a716176f8e5ea8f292762c41d61ebd2bde7a28729a7fda2"
+      },
+      {
+        "file": "projects/raznoe/references/darya.png",
+        "sha256": "65c40ecb6b8777471714a108e678ac9b7d73e1d9a77d32933a977a3737e778e4"
+      },
+      {
+        "file": "projects/raznoe/reports/commission-pricing-2026-11-02.md",
+        "sha256": "4fdf23851be3b1ccfdd8738e010daca9f264a8f2373eded966b8be834da6c980"
+      },
+      {
+        "file": "reports/seregius-topview-production-audit-2026-11-02.md",
+        "sha256": "81d49ffb1743fe3f997497ea8a8d585f7bdbfcfd12b66b0af0f4e5aa8aaaa6fd"
       }
     ],
-    "read_next": [
-      "projects/raznoe/HANDOFF.md",
-      "projects/raznoe/ops/topview-launch-queue.json"
-    ],
+    "read_next": [],
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# ЦПК — локальные нашивки и надписи · 28.10.2026",
-      "sha256": "e2989c3bd4cdd51dd04a5b36cef52551bf3d61579aba4570f81fdbfa45f8243a"
+      "anchor": "# Кожа Лены, Нины и Дарьи и web-цены · 02.11.2026",
+      "sha256": "02ba9e91ea6af97b25b992838843a9744cf52df9d74465fd01cee4da1bfef393"
     }
   },
-  "checkpoint_text": "# ЦПК — локальные нашивки и надписи · 28.10.2026\n\nwork_id: RAZNOE-CPK-REFS-20261027\nПроверено: 2026-10-28T12:55:17+00:00\n\nВсе10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.\n\nОтчёт: projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json. Исходные размеры сохранены;0 изменённых пикселей вне масок. Три исключённых владельцем изображения сохранены побайтно.29 элементов очереди остаются на паузе; запусков и новых пунктов0.\n\nСледующее действие: Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.\n",
+  "checkpoint_text": "# Кожа Лены, Нины и Дарьи и web-цены · 02.11.2026\n\nwork_id: MISC-S1-S2-REFERENCES\nПроверено: 2026-11-02T22:50:00Z\n\nПять одобренных владельцем листов со светлой кожей стоят на прежних путях, 1536×1024: `mama-lena.png`, `mama-lena-expressions.png`, `nina.png`, `nina-expressions.png`, `darya.png`. В описаниях кожи — «светлая кожа, славянская/русская внешность»; волосы и одежда не менялись. Мама Вера и остальные референсы не трогались. SHA-256 и миниатюры обновлены. Все референсы по-прежнему `not_approved` как набор; видео не запускались.\n\nЦены пересчитаны по ценам сайта Topview (не iOS), с резервом на повторы и переделки. Цены клиенту те же: **59 000 / 145 000 / 265 000 ₽**. Клиентские PDF лежат на Google Drive в папке «AI Film — сметы и презентации для клиента».\n\nСледующее действие: художественный просмотр новых листов на сайте. Видео не запускать.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -128,10 +149,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/raznoe/HANDOFF.md",
-    "projects/raznoe/ops/topview-launch-queue.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -147,8 +165,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
-      "bytes": 36381
+      "sha256": "13d60e5f7d34bfe986085bdedca2dae298f251710ccd166efd901002da601385",
+      "bytes": 36346
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -157,8 +175,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
-      "bytes": 34807
+      "sha256": "6240dd1c3810707322a4e2c78f1b794c45a2441f4cf49214aad37d7abec5c180",
+      "bytes": 34996
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -172,18 +190,18 @@
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
-      "bytes": 130240
+      "sha256": "5d2598c39d2e1282a9c6c96c39e2d3da1765be768033c3e02f3154c433ebe627",
+      "bytes": 130208
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
-      "bytes": 83993
+      "sha256": "f04f1f75f060c0e55c9ae52c591b6321c6e2db67436fa0de189241bbabc98235",
+      "bytes": 83923
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "deda953755aec775b7afaff7cbfaa7f19bb3a485958936f1ed3008eb50aeb858",
-      "bytes": 5134
+      "sha256": "ac1f90e9fe7b2e3228e3de9dec51447dc89338224a7aaed5e4ac7dd464e8323e",
+      "bytes": 5138
     },
     {
       "file": "monitor-role.json",
@@ -192,8 +210,8 @@
     },
     {
       "file": "ops/CONTINUE-PROTOCOL.md",
-      "sha256": "2432ebbf107452901f5f8640de9a2e187e7c28b7efbf23bc8f241d7eb034c7c3",
-      "bytes": 42527
+      "sha256": "ae83542630c437e181de1d61aa4217c59aa99a865dcb5c429365f7af0960e2e9",
+      "bytes": 42588
     },
     {
       "file": "project-status.json",
@@ -202,43 +220,68 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "89cfc9d51a53abdada7024265d8fb71b68ddc8e1fae07262c34f80f44cc5311e",
-      "bytes": 16708
+      "sha256": "393a3a7428f376faea7471ac4d1b5c564318e67a89170b14001cf649cb482e0d",
+      "bytes": 16927
     },
     {
       "file": "projects/projects.json",
-      "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
-      "bytes": 8453
+      "sha256": "0eb7f9e87da72168f0c9c85e66937f35f6f605f6d2201607c0b3e6917ac50603",
+      "bytes": 9321
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "8e886b2b75896646c792d3cb7d62c74a2e3cdc48af4640b1e54fff3c47195d6f",
-      "bytes": 7890
+      "sha256": "90f80d4835feeb012b725ba0eaa295bced5b8e791439ae7476f43f716d1fe3ba",
+      "bytes": 10993
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "3387705e97832d05cf69b84408028a86942f5ae83bd7e96531db71206f37aa58",
-      "bytes": 3272
+      "sha256": "52349e5071a58c0cd13ff16fe9ca9f15e1c09840bed34202d764fd6d70f35ebb",
+      "bytes": 2200
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
-      "sha256": "beea0068588b5c091ba84d96b3548407ac368835f6fd6da53c35b2c2c8400f1d",
-      "bytes": 93416
+      "sha256": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
+      "bytes": 649
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "78b92e6b2627f3fb7fead0d26fcb3ecdc32faa232e6af990cef1513982c283f3",
-      "bytes": 19276
+      "sha256": "7b175303e4942af1ba0df0a1d429421bc18fa5c9b70736f3e76361197c37284e",
+      "bytes": 8616
     },
     {
-      "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
-      "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3",
-      "bytes": 8235
+      "file": "projects/raznoe/references/darya.png",
+      "sha256": "65c40ecb6b8777471714a108e678ac9b7d73e1d9a77d32933a977a3737e778e4",
+      "bytes": 2116691
+    },
+    {
+      "file": "projects/raznoe/references/mama-lena-expressions.png",
+      "sha256": "e3665fdb12f9acb01f061d7034260747082c43184d43e9ca0468bbae4a47a7d2",
+      "bytes": 2326261
+    },
+    {
+      "file": "projects/raznoe/references/mama-lena.png",
+      "sha256": "3b00db3a08b21e9b5efa87ff58d445841f6ab988f44f41dc2713e917b48237c4",
+      "bytes": 2446507
+    },
+    {
+      "file": "projects/raznoe/references/nina-expressions.png",
+      "sha256": "f1ca204dcdcfe7612a716176f8e5ea8f292762c41d61ebd2bde7a28729a7fda2",
+      "bytes": 2125608
+    },
+    {
+      "file": "projects/raznoe/references/nina.png",
+      "sha256": "34a52394626abf39a6782842cc6ce2c72c732e9f9176b20f4c82e2b6f4e62d9f",
+      "bytes": 2178523
+    },
+    {
+      "file": "projects/raznoe/reports/commission-pricing-2026-11-02.md",
+      "sha256": "4fdf23851be3b1ccfdd8738e010daca9f264a8f2373eded966b8be834da6c980",
+      "bytes": 14625
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "f837665c811669912522e3d6b1d76b37753db52063eda3cecb2cc263f0e2b54d",
-      "bytes": 13995
+      "sha256": "f291c7eaf4756024a24adc0752e181b7c10b0157c71d1aedbc1c7fdae4b15951",
+      "bytes": 30693
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -247,22 +290,27 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
-      "bytes": 471570
+      "sha256": "8e371213863442532ac23b655e014a3504f51df751f0f50c74fbdd417bf10a39",
+      "bytes": 287716
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "b90d13255c57630c99897a7c3976c5deca0c47eecb16cb861aec57529d25e788",
-      "bytes": 3146
+      "sha256": "0f50868467177ecf1e0fbbbd38dede7b1d0120df25e8b4dc50dc443cc483e05f",
+      "bytes": 11804
+    },
+    {
+      "file": "reports/seregius-topview-production-audit-2026-11-02.md",
+      "sha256": "81d49ffb1743fe3f997497ea8a8d585f7bdbfcfd12b66b0af0f4e5aa8aaaa6fd",
+      "bytes": 9386
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "de5789ea1445f20096d8e04aa0c9e646e72905d92ba7681951842a21eb358cc8",
-      "bytes": 34608
+      "sha256": "8af0c2505130e5bbaae71a9658430b27c72d25b485afe85df1af84c4e769cae9",
+      "bytes": 34797
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ac6377dad1c3fa525dd15c90cd5a14e21b3d25b29326be6028f4947c6577e2c7",
+      "sha256": "23342640054c134994022b6fcb3ad03c561bc4df845baea1a0eca4ef7e3ff9e4",
       "bytes": 25134
     },
     {
@@ -271,5 +319,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 6034
+  "packet_bytes": 5704
 }

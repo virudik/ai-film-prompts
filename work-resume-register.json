@@ -1084,8 +1084,8 @@
       "status": "prepared_launches_paused_by_owner",
       "next_action": "Не запускать Роскосмос. Сначала завершить весь Серёгиус по сохранённому плану. Все29пунктов Роскосмоса paused_by_owner; новый запуск только после явного решения владельца.",
       "canonical_refs": [
-        "projects/raznoe/reports/current-work-checkpoint.md",
-        "projects/raznoe/reports/quality-revision-2026-10-23.json",
+        "projects/roscosmos/reports/current-work-checkpoint.md",
+        "projects/roscosmos/reports/quality-revision-2026-10-23.json",
         "reports/topview-quality-2026-10-23/review-summary.md",
         "ops/topview-launch-queue.json"
       ],

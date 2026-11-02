@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene": 1,
+  "title": "Тихий маяк",
+  "updated_at": "2026-11-02T07:15:22Z",
+  "status": "references_ready",
+  "editorial_status": "not_approved",
+  "expected_image_count": 26,
+  "generated_image_count": 26,
+  "references": [
+    {
+      "tag": "C1",
+      "role": "character_identity",
+      "path": "projects/raznoe/references/yarik.png",
+      "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/yarik.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C2",
+      "role": "character_expressions",
+      "path": "projects/raznoe/references/yarik-expressions.png",
+      "sha256": "79a3233cddaeae1e01f2f4b4a99a9b91be976b812ae7c65c8aa1396db559717b",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/yarik-expressions.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C3",
+      "role": "character_identity",
+      "path": "projects/raznoe/references/mama-lena.png",
+      "sha256": "3b00db3a08b21e9b5efa87ff58d445841f6ab988f44f41dc2713e917b48237c4",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/mama-lena.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C4",
+      "role": "character_expressions",
+      "path": "projects/raznoe/references/mama-lena-expressions.png",
+      "sha256": "e3665fdb12f9acb01f061d7034260747082c43184d43e9ca0468bbae4a47a7d2",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/mama-lena-expressions.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C5",
+      "role": "character_identity",
+      "path": "projects/raznoe/references/sonya.png",
+      "sha256": "8ab150b6c9f3a785e75f17de29168b561680ffdf5e3eaa8de05d873b2d370399",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/sonya.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C6",
+      "role": "character_expressions",
+      "path": "projects/raznoe/references/sonya-expressions.png",
+      "sha256": "071bf01c1021bc37523b1765bbb06046337f4abb71168618f3dc3d84fe1b1972",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/sonya-expressions.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C7",
+      "role": "character_expressions",
+      "path": "projects/raznoe/references/anna-sergeevna.png",
+      "sha256": "1c9239207c1d098837e1744a485f62e4e2c91532eb746fd02036d8ca962c6a6b",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/anna-sergeevna.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C8",
+      "role": "character_expressions",
+      "path": "projects/raznoe/references/bublik.png",
+      "sha256": "45da23c4d9b2991359cae4e293f3549878f6032f44522522246eb02277cbf27f",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/bublik.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C9",
+      "role": "character_expressions",
+      "path": "projects/raznoe/references/varya.png",
+      "sha256": "04daa7bdf5ba2d5da2aa92fe8245f6f09ab22ab2d7182393ece66bb420960908",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/varya.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L1",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L1-kitchen.png",
+      "sha256": "9dde6dc7c5560d5be069946a7ae2de79933b061fdc9cf302dae0a1b84723b680",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L1-kitchen.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L2",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L2-hallway.png",
+      "sha256": "ce1cf2504220fe976e929b05b3756d82a7a42d6ac4bca69404ac97015cffe22b",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L2-hallway.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L3",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L3-yarik-room-night.png",
+      "sha256": "cb32708ef7cbecf9ab341acd0edfce2e09b9f64ffced757c95ffb8fea645a3ad",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L3-yarik-room-night.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L4",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L4-courtyard.png",
+      "sha256": "f5a42ded4fce31f0cccb9e341bf2b3e96ba7ec0f88008cc0c40e2d66d5084303",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L4-courtyard.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L5",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L5-therapy-room.png",
+      "sha256": "136b69fa97aaa7271ad1ba065c894dde711ac024fc8bf2c59fa2f062f115983a",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L5-therapy-room.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L6",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L6-inner-sea-storm.png",
+      "sha256": "a214896b7237e7c06d4b9c5a88e5e86a43cf1ba7d9bb5f4850df6ed7def0c835",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L6-inner-sea-storm.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L7",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L7-inner-sea-calm.png",
+      "sha256": "1e8d16ec0fa28f64c687e1ad4954c0755ce53b9617ace4595a52913541296b73",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L7-inner-sea-calm.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L8",
+      "role": "location_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png",
+      "sha256": "5e81b823295d1d1b5461c1a5cfc0ecc19d6925edf40a91d78e48f9efba6f8911",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-L8-seaside-lighthouse.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "P1",
+      "role": "prop_reference",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-P1-props-sheet.png",
+      "sha256": "9cc61d20491240e51227c1bdfdad982d3f810079f8d11ae006f9aef08faded4e",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-P1-props-sheet.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K1",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K1-kitchen-sound.png",
+      "sha256": "da4157a406af5b08dc0ac5916298e14d8be3bc08fd46b88d6f323164c92ab53a",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K1-kitchen-sound.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K2",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K2-courtyard-retreat.png",
+      "sha256": "d8bfbe1b71b3418d3b57e8aedf20bf84000c055154f012dfde74fc13ff77833c",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K2-courtyard-retreat.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K3",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K3-inner-sea-boat.png",
+      "sha256": "a117d54ee29840cd224d22ca23526ca8cce2ebda870f66290cb0136ad6ae955e",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K3-inner-sea-boat.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K4",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K4-hallway-boots.png",
+      "sha256": "3b413d4f2933b181181e33869f2555ee83bd63bf61302395fa6510755e0dbedc",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K4-hallway-boots.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K5",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K5-night-lighthouse.png",
+      "sha256": "95ef93018dce55f3e6fa5108136f1ea6f71f328ab71f02f51e8998b86a9fd006",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K5-night-lighthouse.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K6",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K6-three-cards.png",
+      "sha256": "ec007cc6f63374698ea04f7ca3d71b96ba0b120666366c4bacd8e025197029f0",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K6-three-cards.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K7",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K7-gift-glass.png",
+      "sha256": "0f051880c452b8242808b401de1f165a7429bdb025d8e1f2f39431887d53ce16",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K7-gift-glass.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K8",
+      "role": "keyframe",
+      "path": "projects/raznoe/references/scenes/scene-1/MS01-K8-beach-hug.png",
+      "sha256": "e333fad3b3abeacab79d6e119725bccb14f3decb8004e375b2d4df2737d2191a",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/raznoe/references/scenes/scene-1/MS01-K8-beach-hug.prompt.txt",
+      "editorial_status": "not_approved"
+    }
+  ],
+  "planned_references": []
+}

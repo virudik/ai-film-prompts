@@ -3,84 +3,61 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-02T20:02:54Z",
-  "revision_date": "27.10.2026",
-  "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 35 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
-  "canonical_master_sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
-  "canonical_revision_sha256": "39d487c22cbb87d8e6b0d7f3e83319ff1525e42e512099082cb8f3643b2a90ff",
-  "canonical_master_bytes": 471570,
-  "scenes": 25,
-  "prompt_texts": 75,
+  "synced_at": "2026-11-02T22:47:28Z",
+  "revision_date": "03.11.2026",
+  "master_declared_last_full_sync": "02.11.2026 · оба сюжета и 24 промпта сохранены; 59/59 отдельных PNG прикреплены к персонажам, раскадровкам и сценам. Техническая готовность не означает художественного одобрения; видео не запускались.",
+  "canonical_master_sha256": "8e371213863442532ac23b655e014a3504f51df751f0f50c74fbdd417bf10a39",
+  "canonical_revision_sha256": "8cdd4d0fbb1cda9b8f66befb6db36da435fb84ded9ad9c6822b3dfd5bfe5fe43",
+  "canonical_master_bytes": 287716,
+  "scenes": 2,
+  "prompt_texts": 24,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
   "slow_scenes_count": 0,
   "scene_ids": [
     1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25
+    2
   ],
-  "latest_scene": 25,
+  "latest_scene": 2,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-02T11:09:48.918Z",
+    "snapshot_at": "2026-11-02T22:35:48.357Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 8.885,
+    "age_hours_at_status_build": 0.194,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
         "drive_copy_checked_at": "2026-11-02T11:09:48.918Z",
         "drive_copy_modified_at": "2026-11-01T10:28:54.795Z",
-        "github_blob": "b7176cf015b6cb930b4eb2ffda5bb1e8df97cf58",
-        "mirror_sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
+        "github_blob": "e4be8b0ec4f10940e9056915e2578e2ad7619465",
+        "mirror_sha256": "6240dd1c3810707322a4e2c78f1b794c45a2441f4cf49214aad37d7abec5c180",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
         "drive_copy_sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
         "drive_copy_checked_at": "2026-11-02T11:09:48.918Z",
         "drive_copy_modified_at": "2026-11-01T10:28:58.179Z",
-        "github_blob": "5465078a055bc783ea31d178ae9d9864e583eb2d",
-        "mirror_sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
+        "github_blob": "a31146a5900b47dadf5bbd8e1563aa8bfae849e6",
+        "mirror_sha256": "5d2598c39d2e1282a9c6c96c39e2d3da1765be768033c3e02f3154c433ebe627",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
         "drive_copy_sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
         "drive_copy_checked_at": "2026-11-02T11:09:48.918Z",
         "drive_copy_modified_at": "2026-11-01T10:29:02.325Z",
-        "github_blob": "3d0d7b8d6d028deab739e33ef328551b15de96b9",
-        "mirror_sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
+        "github_blob": "4f93cac6f04efcc18acf264f4cf3434ff91eaea9",
+        "mirror_sha256": "13d60e5f7d34bfe986085bdedca2dae298f251710ccd166efd901002da601385",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
@@ -97,10 +74,10 @@
         "drive_copy_sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
         "drive_copy_checked_at": "2026-11-02T11:09:48.918Z",
         "drive_copy_modified_at": "2026-11-01T10:29:09.499Z",
-        "github_blob": "207ac52aa2a6da8d758fba1eee4473f1bdf1e8bc",
-        "mirror_sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
+        "github_blob": "b4567e6b6b64e0be5efed33b4bdf6035e27b6437",
+        "mirror_sha256": "f04f1f75f060c0e55c9ae52c591b6321c6e2db67436fa0de189241bbabc98235",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "README-AI-SYNC.md": {
         "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
@@ -128,7 +105,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 8.885,
+      "age_hours": 0.194,
       "blocking": false
     },
     "topview_task_map": {
@@ -140,539 +117,61 @@
   },
   "scene_meta": {
     "1": {
-      "target_engine": "Seedance 2.0",
+      "target_engine": "Wan 3.0",
       "production_state": "DRAFT",
-      "duration_s": 30,
+      "duration_s": 120,
       "dialogue": {
-        "enabled": false,
-        "language": null
+        "enabled": true,
+        "language": "ru"
       },
       "dependencies": [],
       "tags": [
         "owner_requested",
         "draft",
-        "queued_one_attempt",
+        "original_story",
+        "voiceover_ru",
+        "vertical_9x16",
         "two_engine_versions",
         "reference_first",
-        "civil_space",
-        "concept_visualization"
+        "misc_scene_1",
+        "eight_subscenes"
       ],
       "render_state": "IDLE"
     },
     "2": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "3": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "4": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "5": {
       "target_engine": "Wan 3.0",
       "production_state": "DRAFT",
-      "duration_s": 30,
+      "duration_s": 120,
       "dialogue": {
-        "enabled": false,
-        "language": null
+        "enabled": true,
+        "language": "ru"
       },
       "dependencies": [],
       "tags": [
         "owner_requested",
         "draft",
-        "queued_one_attempt",
+        "original_story",
+        "voiceover_ru",
         "two_engine_versions",
         "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "6": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "7": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "8": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "9": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "10": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "11": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "12": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "13": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "14": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "15": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "16": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "17": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "18": {
-      "target_engine": "Wan 3.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "19": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "20": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "queued_one_attempt",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "concept_visualization"
-      ],
-      "render_state": "IDLE"
-    },
-    "21": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "cosmonaut_training",
-        "cpk"
-      ],
-      "render_state": "IDLE"
-    },
-    "22": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "cosmonaut_training",
-        "cpk"
-      ],
-      "render_state": "IDLE"
-    },
-    "23": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "cosmonaut_training",
-        "cpk"
-      ],
-      "render_state": "IDLE"
-    },
-    "24": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "cosmonaut_training",
-        "cpk"
-      ],
-      "render_state": "IDLE"
-    },
-    "25": {
-      "target_engine": "Seedance 2.0",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "owner_requested",
-        "draft",
-        "two_engine_versions",
-        "reference_first",
-        "civil_space",
-        "cosmonaut_training",
-        "cpk"
+        "vertical_9x16",
+        "misc_scene_2",
+        "eight_subscenes",
+        "reel_structure_mirror"
       ],
       "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "27.10.2026",
-    "synced_at": "2026-11-02T20:02:54Z",
-    "canonical_master_sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
-    "canonical_revision_sha256": "39d487c22cbb87d8e6b0d7f3e83319ff1525e42e512099082cb8f3643b2a90ff",
-    "scene_count": 25,
-    "prompt_count": 75,
+    "revision_date": "03.11.2026",
+    "synced_at": "2026-11-02T22:47:28Z",
+    "canonical_master_sha256": "8e371213863442532ac23b655e014a3504f51df751f0f50c74fbdd417bf10a39",
+    "canonical_revision_sha256": "8cdd4d0fbb1cda9b8f66befb6db36da435fb84ded9ad9c6822b3dfd5bfe5fe43",
+    "scene_count": 2,
+    "prompt_count": 24,
     "scene_ids": [
       1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25
+      2
     ],
     "work_items": [],
     "slow_scenes": [],
@@ -714,5 +213,5 @@
     "instruction_mirrors_match_drive": true
   },
   "project": "raznoe",
-  "project_name": "Роскосмос"
+  "project_name": "Разное"
 }

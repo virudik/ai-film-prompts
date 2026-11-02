@@ -21,6 +21,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REGISTRY = "projects/projects.json"
+MIGRATIONS = "projects/project-migrations.json"
 ROOT_ID = "seregius"
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{1,30}$")
 VALUE_PREFIX = "project:"          # owner button rows of other projects: owner_decisions.value = "project:<id>"
@@ -61,6 +62,75 @@ def get(root, pid):
     return None
 
 
+def load_migrations(root):
+    return read_json(Path(root) / MIGRATIONS, {}) or {}
+
+
+def _ts(value):
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+    return dt if dt.tzinfo else None
+
+
+def resolve_project_code(root, code, *, kind="stored", recorded_at=None):
+    """Map a project code to the current registry id.
+
+    kind='project' — new link ?project=: a current id wins, so raznoe is Разное.
+    kind='p' — old bookmark ?p=: the migration table wins, so raznoe is Роскосмос and misc is Разное.
+    kind='stored' — a saved owner button or note. misc always means Разное.
+    raznoe before migrated_at (or without a time) means Роскосмос; raznoe after migrated_at means Разное.
+    """
+    code = str(code or "").strip().lower()
+    if not code:
+        return None
+    reg_ids = {p.get("id") for p in load(root).get("projects") or []}
+    mig = load_migrations(root)
+    row = None
+    for item in mig.get("migrations") or []:
+        if item.get("from_id") == code:
+            row = item
+            break
+    current = code in reg_ids
+    if kind == "p":
+        return (row or {}).get("to_id") or code if row else code
+    if kind == "project":
+        if current:
+            return code
+        return (row or {}).get("to_id") or code if row else code
+    if row and not row.get("ambiguous_with_current_id"):
+        return row.get("to_id") or code
+    if row and row.get("ambiguous_with_current_id"):
+        when = _ts(recorded_at)
+        migrated_at = _ts(mig.get("migrated_at"))
+        if when is None or migrated_at is None or when < migrated_at:
+            return row.get("to_id") or code
+        return code if current else (row.get("to_id") or code)
+    return code
+
+
+def canonical_reference_project(root, note_path, *, recorded_at=None):
+    """Project of a reference path. A file that still exists is current; a moved file follows the migration table."""
+    note_path = str(note_path or "").strip().replace("\\", "/")
+    m = re.match(r"projects/([a-z0-9-]+)/", note_path)
+    if not m:
+        return None
+    root = Path(root)
+    if (root / note_path).is_file():
+        return m.group(1)
+    for item in (load_migrations(root) or {}).get("migrations") or []:
+        old = str(item.get("from_path") or "").rstrip("/")
+        new = str(item.get("to_path") or "").rstrip("/")
+        if old and (note_path == old or note_path.startswith(old + "/")):
+            mapped = new + note_path[len(old):]
+            if (root / mapped).is_file():
+                return item.get("to_id")
+    return resolve_project_code(root, m.group(1), kind="stored", recorded_at=recorded_at)
+
+
 def other_ids(root):
     return [p["id"] for p in projects(root)]
 
@@ -72,33 +142,43 @@ def project_tasks(root):
     return tel
 
 
-def project_of_row(row, telemetry=None):
+def project_of_row(row, telemetry=None, root=None):
     """Project of a Supabase owner_decisions row. Rows without a tag belong to the root project.
 
     Scene buttons of other projects carry value "project:<id>"; text tasks carry the note prefix
     «[проект: <id>]». Reference feedback is tagged by the image path (projects/<id>/...). Task buttons
     (tv_*: «Брак», «Готово ✓», «Не ждать») follow the task: a task recorded in projects/topview-projects.json
-    belongs to that project."""
+    belongs to that project. With root, old codes are read through projects/project-migrations.json.
+    """
+    recorded = (row or {}).get("created_at")
+
+    def finish(code, when=None):
+        if root is None:
+            return code
+        return resolve_project_code(root, code, kind="stored", recorded_at=when if when is not None else recorded)
+
     tid = str((row or {}).get("task_id") or "")
     if tid and telemetry:
         for t in list(telemetry.get("active") or []) + list(telemetry.get("recent") or []):
             if t.get("task_id") == tid and t.get("project"):
-                return t["project"]
+                return finish(t["project"], t.get("started_at") or recorded)
     value = str((row or {}).get("value") or "")
     if value.startswith(VALUE_PREFIX):
-        return value[len(VALUE_PREFIX):].strip() or ROOT_ID
+        return finish(value[len(VALUE_PREFIX):].strip() or ROOT_ID)
     m = NOTE_RE.match(str((row or {}).get("note") or ""))
     if m:
-        return m.group(1).lower()
+        return finish(m.group(1).lower())
     note = str((row or {}).get("note") or "")
-    m = re.match(r"\s*projects/([a-z0-9-]+)/", note)
-    if m and (row or {}).get("action") == "ref_feedback":
-        return m.group(1)
+    if (row or {}).get("action") == "ref_feedback" and re.match(r"\s*projects/[a-z0-9-]+/", note):
+        if root is None:
+            found = re.match(r"\s*projects/([a-z0-9-]+)/", note)
+            return found.group(1) if found else ROOT_ID
+        return canonical_reference_project(root, note.strip(), recorded_at=recorded) or ROOT_ID
     return ROOT_ID
 
 
-def is_root_row(row, telemetry=None):
-    return project_of_row(row, telemetry) == ROOT_ID
+def is_root_row(row, telemetry=None, root=None):
+    return project_of_row(row, telemetry, root) == ROOT_ID
 
 
 def strip_note_tag(note):

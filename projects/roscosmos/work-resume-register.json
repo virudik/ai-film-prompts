@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "project": "roscosmos",
+  "active_work": [
+    {
+      "work_id": "RAZNOE-CPK-REFS-20261027",
+      "project": "roscosmos",
+      "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
+      "status": "prepared_waiting_owner_review_project_paused",
+      "constraints": [
+        "Действующие ограничения запуска и решения владельца сохраняются"
+      ],
+      "done": [
+        "Все10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны."
+      ],
+      "next_action": "Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-10-28T12:55:17+00:00",
+        "last_completed": "Все10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.",
+        "next_action": "Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.",
+        "checkpoint": {
+          "file": "projects/roscosmos/reports/current-work-checkpoint.md",
+          "anchor": "# ЦПК — локальные нашивки и надписи · 28.10.2026",
+          "sha256": "39d62c4f7e2ad01aada49ce2eaf5f08fc662c8291dc0f4556cc4cb468c625cff"
+        },
+        "evidence": [
+          {
+            "file": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json",
+            "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3"
+          }
+        ],
+        "read_next": [
+          "projects/roscosmos/HANDOFF.md",
+          "projects/roscosmos/ops/topview-launch-queue.json"
+        ],
+        "blockers": []
+      },
+      "updated_at": "2026-10-28T12:55:17+00:00"
+    }
+  ],
+  "completed_work": [],
+  "resume_focus": {
+    "work_id": "RAZNOE-CPK-REFS-20261027",
+    "project": "roscosmos",
+    "set_at": "2026-10-28T12:55:17+00:00",
+    "reason": "Explicitly selected by the authorized task writer"
+  },
+  "last_updated_at": "2026-10-28T12:55:17+00:00"
+}

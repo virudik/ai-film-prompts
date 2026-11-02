@@ -214,7 +214,7 @@ def prune_inbox(inbox, open_ids, now, archive):
     inbox["tasks"] = keep
 
 
-def plan(rows, files, now):
+def plan(rows, files, now, root=None):
     """Pure planning. rows = open Supabase rows; files = {QUEUE, INBOX, REF_REVIEW, LOCK} dicts.
     Returns (new_files, acks): new_files only for files that change; acks = [(row, status, note)]
     to send AFTER a verified push (or at once when nothing has to be written)."""
@@ -248,7 +248,7 @@ def plan(rows, files, now):
         if status != "pending":
             continue
         sid = row.get("scene_id")
-        pid = prj.project_of_row(row)              # projects/README.md: tasks of every project share this inbox
+        pid = prj.project_of_row(row, None, root)  # projects/README.md + projects/project-migrations.json
         if action in QUEUE_ACTIONS and pid != prj.ROOT_ID:
             continue                               # another project's queue: phase 4 (robot_project_actions.py)
         if action == "owner_task":
@@ -351,7 +351,7 @@ def run(root, store, git, *, now=None, sync=True, dry=False):
         if not files[QUEUE].get("items"):
             print("::warning title=robot-site-actions::launch queue missing or empty; queue buttons wait")
             rows = [r for r in rows if r.get("action") not in QUEUE_ACTIONS]
-        new_files, acks = plan(rows, files, now or datetime.now(timezone.utc))
+        new_files, acks = plan(rows, files, now or datetime.now(timezone.utc), root)
         summary = {"rows": len(rows), "files": sorted(new_files), "acks": len(acks)}
         print(json.dumps(summary, ensure_ascii=False))
         if dry:

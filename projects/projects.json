@@ -98,29 +98,34 @@
       }
     },
     {
-      "id": "raznoe",
+      "id": "roscosmos",
       "name": "Роскосмос",
       "emoji": "🚀",
-      "root": "projects/raznoe",
+      "root": "projects/roscosmos",
       "state": "active",
-      "description": "Ролики о Роскосмосе, Главкосмосе, РКС, НЦ ОМЗ и ЦПК имени Гагарина; прежний проект «Разное».",
+      "description": "Ролики о Роскосмосе, Главкосмосе, РКС, НЦ ОМЗ, ЦПК имени Гагарина и АО «Терра Тех».",
       "aliases": [
         "роскосмос",
         "roscosmos",
-        "raznoe"
+        "терратех",
+        "терра тех",
+        "terratech"
       ],
-      "master": "projects/raznoe/video-prompts.md",
-      "handoff": "projects/raznoe/HANDOFF.md",
-      "instructions": "projects/raznoe/INSTRUCTIONS.md",
-      "references": "projects/raznoe/character-references.json",
-      "queue": "projects/raznoe/ops/topview-launch-queue.json",
-      "lock": "projects/raznoe/canon-lock.json",
-      "status": "projects/raznoe/project-status.json",
+      "master": "projects/roscosmos/video-prompts.md",
+      "handoff": "projects/roscosmos/HANDOFF.md",
+      "instructions": "projects/roscosmos/INSTRUCTIONS.md",
+      "references": "projects/roscosmos/character-references.json",
+      "queue": "projects/roscosmos/ops/topview-launch-queue.json",
+      "lock": "projects/roscosmos/canon-lock.json",
+      "status": "projects/roscosmos/project-status.json",
       "renamed_from": {
+        "id": "raznoe",
         "name": "Разное",
         "emoji": "🎲",
         "at": "2026-10-23T02:39:52Z",
-        "note": "Старые id, пути, решения и ссылки сохраняются; новое Разное имеет id misc."
+        "path_migrated_at": "2026-11-02T22:30:00Z",
+        "migration": "projects/project-migrations.json",
+        "note": "23.10.2026 имя стало «Роскосмос» без смены id. 02.11.2026 id и папка стали roscosmos. Старая закладка ?p= с прежним id открывает этот проект. Таблица — projects/project-migrations.json."
       },
       "topview_board": {
         "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
@@ -132,10 +137,10 @@
       }
     },
     {
-      "id": "misc",
+      "id": "raznoe",
       "name": "Разное",
       "emoji": "🎲",
-      "root": "projects/misc",
+      "root": "projects/raznoe",
       "state": "active",
       "description": "Новые независимые ролики, не относящиеся к другим проектам.",
       "aliases": [
@@ -144,15 +149,15 @@
         "разного",
         "независимый ролик",
         "независимые ролики",
-        "misc"
+        "raznoe"
       ],
-      "master": "projects/misc/video-prompts.md",
-      "handoff": "projects/misc/HANDOFF.md",
-      "instructions": "projects/misc/INSTRUCTIONS.md",
-      "references": "projects/misc/character-references.json",
-      "queue": "projects/misc/ops/topview-launch-queue.json",
-      "lock": "projects/misc/canon-lock.json",
-      "status": "projects/misc/project-status.json",
+      "master": "projects/raznoe/video-prompts.md",
+      "handoff": "projects/raznoe/HANDOFF.md",
+      "instructions": "projects/raznoe/INSTRUCTIONS.md",
+      "references": "projects/raznoe/character-references.json",
+      "queue": "projects/raznoe/ops/topview-launch-queue.json",
+      "lock": "projects/raznoe/canon-lock.json",
+      "status": "projects/raznoe/project-status.json",
       "topview_board": {
         "board_id": "c934cec563ea45e1b37d12657821ebd5",
         "name": "Разное"
@@ -160,6 +165,12 @@
       "library_images_folder": {
         "id": "6adac73583608191aa3ef3227e7c45e3",
         "path": "/AI Film/🎲 Разное"
+      },
+      "renamed_from": {
+        "id": "misc",
+        "at": "2026-11-02T22:30:00Z",
+        "migration": "projects/project-migrations.json",
+        "note": "Раньше у проекта был другой id и другая папка. Закладка ?p= с прежним id открывает Разное. Новая ссылка — ?project=raznoe. Таблица — projects/project-migrations.json."
       }
     }
   ],
@@ -167,8 +178,8 @@
     "seregius",
     "kotmonavty",
     "kot-detektiv",
-    "raznoe",
-    "misc"
+    "roscosmos",
+    "raznoe"
   ],
   "launch_order_note": "Если готовы элементы очередей нескольких проектов, а слот один: сначала проект выше в launch_order, внутри проекта — наименьший priority. Порядок меняет владелец («в проекте X запускать первым»).",
   "detection_note": "Алиасы — подстроки в нижнем регистре (ё и е различаются как написаны, сравнение делает scripts/projects.py detect). «Коты», «РосКОТмос», «Лучик» есть и в Серёгиусе, поэтому проектом их не считать.",
@@ -181,7 +192,7 @@
     "preserve_launch_order": true,
     "raznoe_resume_requires": "New explicit owner decision",
     "reason": "Owner directs completing Seregius before launching other projects.",
-    "rename_note": "Историческая цитата «Разное не запускать» относится к raznoe, ныне Роскосмос. Новое Разное (misc) пустое и разрешения на запуск не имеет. allowed_projects остаётся seregius."
+    "rename_note": "Историческая цитата «Разное не запускать» относится к проекту, который теперь id roscosmos (Роскосмос). Новое Разное (id raznoe, раньше misc) пустое по запускам и разрешения не имеет. allowed_projects остаётся seregius."
   },
   "board_routing_rule": "Каждый проект запускается только в собственной доске по точной паре name/board_id ниже. Серёгиус остаётся My First Board. Перед submit сверить обе величины в интерфейсе; при несовпадении блокировать этот проект, не использовать другую доску. Общий скан слотов по всем доскам сохраняется."
 }
