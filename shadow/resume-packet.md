@@ -2,30 +2,15 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: ready
-Проверено: 2026-11-02T08:14:28+00:00
-Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
+Состояние: needs_recovery
+Проверено: 2026-11-02T08:15:25+00:00
+Задача: не определена — 
 
-Последний подтверждённый этап: Ordinary HH:00 and Work HH:55 both produced real current runs/receipts. This HH:55 cycle confirmed6/6, completed phase A/B, launched nothing, spent0.
-Следующий шаг: At the next real peer wake, full fresh all-board scan. When capacity is free, reconcile task IDs/claims, then S48-SEED20-P2 by live priority with exact continuity/QC and Unlimited0 under own lease/CAS. Do not reserve a slot; Work GUI/quota recovery remains unverified.
+Последний подтверждённый этап: нет доказательств
+Следующий шаг: восстановить конкретный пробел
 
 ## Контрольная точка
 
-# 01.11.2026 — Продолжай: восстановление часового исполнителя
-
-work_id: TOPVIEW-SLOT-PRIORITY-20261024
-
-Выполнено 2026-11-01T13:11:25Z по «Продолжай», полный приём. Существующий ordinary6ae5e9d563f88191aa6da7c9ba1e05a0 восстановлен в enabled=true; отдельный peek подтвердил неизменность ID, prompt, HH:00 Europe/Moscow и conversation. HH:55 и Relay включены. Новых автоматизаций0. Перед изменением исходная точка сохранена/readback ed2bbfb; ordinary foreground передан новой сессии (epoch3), preferred_executor и route_generation сохранены.
-
-Причина выключения API не раскрыта. Последний ordinary run445b644c-d2cc-8332-b542-c54e01dd47e4 завершён01.11 в08:12:11 МСК; пустой результат требует действия пользователя, пояснения нет. Этот старый флаг не скрыт. После включения нового реального runtime/receipt ещё нет. HH:55 run4051845d-b258-8332-9532-5c1c5639360e от15:59 МСК имеет no_update и не доказывает проверку Topview. Настройка восстановлена; сквозное фоновое исполнение остаётся отдельной проверкой.
-
-Полный read-only scan15:42:45–15:43:16 МСК:14 досок,18 страниц,625 видео,6/6 активных Unlimited0. Активны71,72,61P1,60P1,62P1,59P2. S52-R2-P1 завершилась07:55:25 МСК; S71 task431180d384cc43bebe7afc702e4eb4e6 создана Grok11:29:13, простой3ч33м48с. Новых Create/расходов в ремонте0; submitted/unknown не повторять.
-
-Восстановление исправлено после проверки причины: коммит9b4425f добавил расписание Grok внутрь связанного H1, а recovery не обновил. Исходный отчёт побайтно цел, прежняя recovery сохранена в истории; новая привязка относится к этому проверенному этапу. Восемь источников и15якорей сверены, continue_preflight проходит. Отчёт возможностей Grok прочитан, задача grok-202611010305-capabilities — «Принято»; чужая d37ea54b needs_owner сохранена.
-
-Дальше: проверить собственные run/receipt следующего ordinary HH:00; при свободном слоте первая фактически готовая по свежей priority (сейчас48.2), полный scan/точные входы/QC/замок/CAS/Unlimited0. При6/6 — подготовка разрешённых стыков; S52-R2-P2 требует настоящего окончания завершённой P1 и QC. Включение не подтверждает GUI или Work-квоту; телеметрию продолжает робот, monitor_role=skip.
-
-Доказательства: `reports/ordinary-launcher-recovery-2026-11-01.json`; квитанция приёма `seregius-continue-20261101-ordinary-recovery` в `reports/handoff-receipts.json`. Очередь, master, разрешения, claims и бюджеты сохранены.
 
 ## Обязательные правила
 
@@ -47,10 +32,6 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
 ## Прочитать под задачу
 
-- `ops/LAUNCHER-COORDINATION.md`
-- `ops/slot-backup.json`
-- `ops/TOPVIEW-FREE-LAUNCH.md`
-- `ops/topview-launch-queue.json`
 
 ## Перед действием
 
@@ -65,4 +46,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-Нет ошибок локальной проверки. Живые проверки выше обязательны.
+- next action changed without a recovery checkpoint
