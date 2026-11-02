@@ -9,8 +9,8 @@
   "receipt_started_at": "2026-11-02T16:07:56.845Z",
   "source_head": "9b288c922c6fb1480f9047dc25db1829f616bc90",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "full_read_only_scan_completed",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview connector live read-only all boards/all pages",
   "scan_scope": "14/14 boards; 20/20 pages (pageSize 100); 1010 tasks",
   "scan_complete": true,
@@ -51,7 +51,7 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "Topview connector read-only; TinyFish not run, no Create",
@@ -85,5 +85,14 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T16:07:56.845Z"
+  "updated_at": "2026-11-02T16:08:22.529Z",
+  "checked_at": "2026-11-02T16:03:09.253Z",
+  "finished_at": "2026-11-02T16:08:22.529Z",
+  "lease_release_required": true,
+  "foreign_lease_observed_earlier": {
+    "holder": "chatgpt:work:bd91e19d-033f-43eb-96f5-b212e19b96ac",
+    "acquired_at": "2026-11-02T16:01:23Z",
+    "released_at": "2026-11-02T16:03:45.296Z",
+    "interference": "No overwrite; own lease acquired only after release"
+  }
 }
