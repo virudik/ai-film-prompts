@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "held",
-  "holder": "chatgpt:work:9818127f-5f43-4498-8d07-084a2ff7c463",
-  "task": "Owner: separate Roscosmos and Raznoe paths, registries and compatible links",
-  "acquired_at": "2026-11-02T16:38:39.989044+00:00",
-  "expires_at": "2026-11-02T17:23:39.989044+00:00",
+  "holder": "chatgpt:work:0d328e9d-a0ab-45ed-b5f4-c108b38dd363",
+  "task": "Серёгиус: 20:55 Topview scan, phases A/B and own receipt",
+  "acquired_at": "2026-11-02T17:58:35Z",
+  "expires_at": "2026-11-02T18:28:35Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
