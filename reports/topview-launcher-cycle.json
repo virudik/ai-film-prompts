@@ -2,128 +2,30 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled Work HH:55",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "execution_instance_id": "50892640-e7ad-4e59-b46c-428b1616c076",
-  "run_id": "739d2b3d-adf0-832d-88bd-0d8aa48260c6",
-  "run_id_source": "Automations.peek current last_run.id",
-  "started_at": "2026-11-02T11:51:18.558686Z",
-  "receipt_started_at": "2026-11-02T11:53:38.998Z",
-  "source_head": "69e4e2edbd5f9c94927f77e7b20b00ad0c95a209",
+  "execution_instance_id": "b634e2ef-892c-4175-9258-23ec04460339",
+  "run_id": "76597d3d-3198-832f-83b8-df8b0fbe8a9c",
+  "run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-02T13:55:00Z; current status in_progress",
+  "started_at": "2026-11-02T13:58:29.261786Z",
+  "receipt_started_at": "2026-11-02T14:03:56.633Z",
+  "source_head": "08ca0404fd74b25061dc0621924caf7e18f9ec28",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finished",
-  "scan_source": "Topview board video-task connector (read-only)",
-  "scan_scope": "all_boards_all_video_pages",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "phase": "started",
+  "stage": "started",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5",
-    "0de1f663432646d294f409a22e20a26e"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
-  "blocker": "All 6 physical video slots are active; no Create/retry is permitted in this cycle.",
+  "outcome": "in_progress",
+  "blocker": null,
   "retryable": true,
-  "browser_transport": "Topview connector read-only; GUI/Create not opened because the complete scan proved 6/6 occupied",
+  "browser_transport": "not_started; no Create before a fresh complete scan and guard recheck",
   "topview_credits_spent": 0,
-  "quota_isolation_verified": true,
   "lease": {
-    "holder": "chatgpt:work:50892640-e7ad-4e59-b46c-428b1616c076",
-    "acquired_at": "2026-11-02T11:53:27.928Z",
-    "expires_at": "2026-11-02T12:23:27.928Z"
+    "holder": "chatgpt:work:b634e2ef-892c-4175-9258-23ec04460339",
+    "acquired_at": "2026-11-02T14:03:35.918Z",
+    "expires_at": "2026-11-02T14:33:35.918Z"
   },
-  "finished_at": "2026-11-02T11:57:15.074Z",
-  "boards_scanned": 14,
-  "pages_scanned": 23,
-  "video_tasks_scanned": 626,
-  "provider_status_counts": {
-    "success": 597,
-    "init": 6,
-    "fail": 23
-  },
-  "active_tasks": [
-    {
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "item_id": "S48-SEED20-P2",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "item_id": "S71-WAN30",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "item_id": "S72-WAN30",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "item_id": "S61-SEED20-P1",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "item_id": "S60-SEED20-P1",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "0de1f663432646d294f409a22e20a26e",
-      "item_id": "S62-SEED20-P1",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    }
-  ],
-  "reconciled_queue_task_ids": 13,
-  "technical_fail_candidates": 0,
-  "maintenance": {
-    "cycle": "14:55 Europe/Moscow",
-    "self_heal": "ok",
-    "owner_tasks_open": 0,
-    "project_status": {
-      "health": "ok",
-      "synced_at": "2026-11-02T11:42:54Z",
-      "fresh_under_40_minutes": true
-    },
-    "canon_health": {
-      "status": "ok",
-      "warnings": 0
-    },
-    "gmail": {
-      "query": "after:2026/11/01 from:(notifications@github.com) \"ai-film-prompts\" -in:spam -in:trash",
-      "results": 23,
-      "all_pages": true,
-      "new_message_ids": [
-        "1a19bf187bbfc4e7",
-        "1a19bb46bb15f086",
-        "1a19b18ea0b5170d",
-        "1a19b0ecb817a954",
-        "1a196f8e2df1f116",
-        "1a1958dbd2787120",
-        "1a1957b4b1eb40c8"
-      ],
-      "failed_run_ids": [
-        41434091622,
-        41403561936,
-        41403028264
-      ],
-      "result": "resolved_or_informational; no current failure; Gmail state unchanged"
-    }
-  }
+  "note": "Receipt initialized after the pre-lease read-only scan; final slot facts require guarded reconciliation/readback."
 }
