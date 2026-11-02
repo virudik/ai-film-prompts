@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/misc/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-02T07:18:11Z",
+  "synced_at": "2026-11-02T10:18:59Z",
   "revision_date": "02.11.2026",
   "master_declared_last_full_sync": "01.11.2026 · добавлена сцена 2 «Тихая планета» (DRAFT, структура рилса, 9:16, B1–B4 + A1–A8, без картинок и запусков); до этого — сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), формат 9:16 вертикаль, без картинок и запусков; картинки и видео пока не делаем по решению владельца",
   "canonical_master_sha256": "94c3a923f1804074c3ffc1b25d15ade31c047d51c7167e076ba5f225e95dcc32",
@@ -27,7 +27,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 20.814,
+    "age_hours_at_status_build": 23.828,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -105,7 +105,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 20.814,
+      "age_hours": 23.828,
       "blocking": false
     },
     "topview_task_map": {
@@ -164,7 +164,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "02.11.2026",
-    "synced_at": "2026-11-02T07:18:11Z",
+    "synced_at": "2026-11-02T10:18:59Z",
     "canonical_master_sha256": "94c3a923f1804074c3ffc1b25d15ade31c047d51c7167e076ba5f225e95dcc32",
     "canonical_revision_sha256": "945151ec97895d94e47db2b40bb235077a2731e5d71dc70e7265fbdffe5c3b1e",
     "scene_count": 2,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "b7ed7a082dcb6c4b008c5383b76d9569a19f8191900778ddd61b72ec66309cba",
+  "source_queue_sha256": "901ffb4b61651900e8c95707ee4daa06e6da4d1ac3979d518ca98601416fad05",
   "source_task_map_sha256": "618fc3853eaac4e8af1a083012a54bf3c147000333218d6e0d4b287abac483c4",
   "topview_checked_at": "2026-11-02T10:00:21Z",
   "items": [
@@ -146,7 +146,7 @@
       "code": "preflight_required",
       "ready": false,
       "text": "Входы найдены; требуется снять записанный блокер после проверки",
-      "queue_state": "claimed"
+      "queue_state": "submitting"
     },
     {
       "id": "S48-SEED20-P3",
@@ -483,5 +483,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-02T10:17:00.321054Z"
+  "checked_at": "2026-11-02T10:19:00.351360Z"
 }
