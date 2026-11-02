@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:859674e9-3b0f-4d64-beaa-806a00fc6fd3",
-  "task": "Серёгиус HH:00: full read-only all-board scan, 6/6 and cycle receipt",
-  "acquired_at": "2026-11-02T06:03:36.978Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T06:06:31.191Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:ee316c5a-5a59-4507-b79c-a8a13dcb2f00",
+  "task": "Одноразовый GitHub Actions импорт 51 существующего изображения в проект misc, без новых генераций",
+  "acquired_at": "2026-11-02T06:43:26.359Z",
+  "expires_at": "2026-11-02T07:13:26.359Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
