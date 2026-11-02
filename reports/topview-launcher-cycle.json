@@ -9,25 +9,191 @@
   "receipt_started_at": "2026-11-02T08:12:05.000Z",
   "source_head": "779b7e5901c720a02057feeb578bc1ca7acda602",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "started",
-  "scan_source": null,
-  "scan_scope": null,
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "phase": "finished",
+  "stage": "completed",
+  "scan_source": "Topview read-only connector",
+  "scan_scope": "14/14 boards, 28/28 pages at page size 50, all 1009 tasks (625 video, 384 image); direct reconciliation of all 12 queue task IDs",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
-  "browser_transport": null,
+  "browser_transport": "Topview read-only connector; website/TinyFish not invoked because all six physical video slots occupied",
   "topview_credits_spent": 0,
   "quota_isolation_verified": false,
   "lease": {
     "holder": "chatgpt:work:9a9a0762-5b22-45ea-83b5-fa0ff18a8ad6",
     "acquired_at": "2026-11-02T08:11:41.048Z",
     "expires_at": "2026-11-02T08:26:41.048Z"
+  },
+  "ordinary_peer": {
+    "last_run_id": "cad29e36-a650-8326-ad93-d142db675456",
+    "last_run_status": "completed",
+    "latest_result_run_id": "cad29e36-a650-8326-ad93-d142db675456",
+    "current_result_verified": true,
+    "receipt_run_id": "cad29e36-a650-8326-ad93-d142db675456",
+    "receipt_matches_current_run": true,
+    "note": "Ordinary HH:00 result and receipt align; it had no direct connector. This Work peer independently completed the current account-wide scan."
+  },
+  "checked_at": "2026-11-02T08:09:37Z",
+  "finished_at": "2026-11-02T08:14:41.719Z",
+  "source_head_at_finish": "352fdbeb0581a971159ae0727797d6b29a426695",
+  "board_count": 14,
+  "pages_requested": 28,
+  "pages_successful": 28,
+  "page_size": 50,
+  "total_tasks_observed": 1009,
+  "video_tasks_observed": 625,
+  "image_tasks_observed": 384,
+  "active_task_ids": [
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e",
+    "b0915b04173c414e9ac08652d34b7852"
+  ],
+  "active_task_details": [
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "item_id": "S71-WAN30",
+      "model_id": "qwen-wan3.0-video",
+      "status": "init",
+      "duration_seconds": 30,
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "item_id": "S72-WAN30",
+      "model_id": "qwen-wan3.0-video",
+      "status": "init",
+      "duration_seconds": 30,
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "item_id": "S61-SEED20-P1",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "duration_seconds": 15,
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "item_id": "S60-SEED20-P1",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "duration_seconds": 15,
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "item_id": "S62-SEED20-P1",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "duration_seconds": 15,
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "b0915b04173c414e9ac08652d34b7852",
+      "item_id": "S59-SEED20-P2",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "duration_seconds": 15,
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    }
+  ],
+  "queue_sha256_at_scan": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+  "task_map_sha256_at_scan": "2b4fe61f47dedb855c4bc29f92471a5b24717f8919ce1931d39de040f882413a",
+  "readiness_queue_sha256_at_scan": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+  "readiness_task_map_sha256_at_scan": "2b4fe61f47dedb855c4bc29f92471a5b24717f8919ce1931d39de040f882413a",
+  "readiness_matches_at_scan": true,
+  "post_scan_queue_update": {
+    "reason": "Prepared S52-R2-P1 real continuity tail and kept dependent P2 blocked pending full QC.",
+    "queue_commit": "778fb730c65d1f3f27549f5ce15bfff0f457a9e7",
+    "manifest_commit": "e921e615e6d7ab49b20b07a8c6b9faa55de731c9",
+    "readiness_rebuild_required_before_launch": true
+  },
+  "queue_task_ids_found": 12,
+  "queue_task_ids_total": 12,
+  "unresolved_claim_states": [],
+  "technical_fail_candidates": [],
+  "next_ready_item": {
+    "id": "S48-SEED20-P2",
+    "priority": -0.98,
+    "state": "waiting_for_slot",
+    "ready": true,
+    "slot_reserved": false
+  },
+  "continuity_preparation": {
+    "item_id": "S52-R2-SEED20-P2",
+    "source_item_id": "S52-R2-SEED20-P1",
+    "source_task_id": "c65c30d8cbe14e9eadec886276e62471",
+    "source_original_sha256": "302ffec3870d215da01b15720ca41a417927b052601da1fc7174ffcd2520f948",
+    "source_original_bytes": 11718521,
+    "source_original_drive_file_id": "1X_o9xHwnNOUqBiwdSZn4Ow3ZxjPF7f8E",
+    "derivative_sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+    "derivative_md5": "a3a33ebfb8d41117a614d70eea253a11",
+    "derivative_bytes": 1916734,
+    "derivative_duration_seconds": 3,
+    "derivative_frames": 72,
+    "drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
+    "qc_scope": "sampled full source 2fps plus tail 8fps; audio stream metadata checked, audio not listened; no full continuous full-rate review",
+    "qc_status": "provisional_usable_for_continuity_pending_full_continuous_audio_qc",
+    "launch_ready": false,
+    "owner_approval": false,
+    "report": "references/scenes/scene-52/S52-R2-P1-continuity.json"
+  },
+  "monitor_fast_path": {
+    "action": "skip",
+    "reason": "collision guard unavailable; avoid concurrent write",
+    "does_not_cancel_launcher": true
+  },
+  "owner_tasks": {
+    "checked": true,
+    "open_chatgpt_or_any": 0,
+    "taken": 0
+  },
+  "work_recovery": {
+    "preferred_executor": "ordinary",
+    "work_capacity_status": "exhausted",
+    "gui_verified": false,
+    "quota_verified": false,
+    "route_changed": false
+  },
+  "phase_a": {
+    "due": false,
+    "last_confirmed_at": "2026-11-02T07:04:01Z",
+    "reason": "10:55 MSK cycle; scheduled A checks are 09:55, 14:55 and 20:55"
+  },
+  "phase_b": {
+    "due": false,
+    "last_confirmed_at": "2026-11-02T07:04:01Z",
+    "reason": "10:55 MSK cycle; scheduled B checks are 09:55, 14:55 and 20:55"
+  },
+  "phase_v": {
+    "due": false,
+    "reason": "Monday 2026-11-02; weekly cleanup is Sunday 08:55 MSK"
+  },
+  "accounting": {
+    "checkpoint_commit": "f609c287265a6667b6675b4276135dd024d6224f",
+    "register_commit": "352fdbeb0581a971159ae0727797d6b29a426695",
+    "continuity_report_commit": "fcb8b5069a987f66db0c76081cb6e7d5dcaad3f8"
   }
 }
