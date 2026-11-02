@@ -9,8 +9,8 @@
   "receipt_started_at": "2026-11-02T13:08:35.276Z",
   "source_head": "60f6c0c31d96a83560151ac4b5b913db31e6809a",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "readonly_scan_completed",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview connector live account-wide scan",
   "scan_scope": "14/14 boards; 34/34 filtered pages, 18 video and 16 image; 1010 tasks",
   "scan_complete": true,
@@ -19,7 +19,7 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "Topview read-only connector; no TinyFish UI / no Create",
@@ -80,5 +80,69 @@
     "work_gui_verified": true,
     "work_quota_verified": true,
     "route_changed": false
-  }
+  },
+  "checked_at": "2026-11-02T13:09:44.051Z",
+  "finished_at": "2026-11-02T13:10:16.999Z",
+  "active_task_details": [
+    {
+      "id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "item": "S48-SEED20-P2",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "id": "431180d384cc43bebe7afc702e4eb4e6",
+      "item": "S71-WAN30",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "item": "S72-WAN30",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "item": "S61-SEED20-P1",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "id": "025955aad2cf494da2b4104d26c36ed5",
+      "item": "S60-SEED20-P1",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "id": "0de1f663432646d294f409a22e20a26e",
+      "item": "S62-SEED20-P1",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "peer_monitor": {
+    "ordinary_run_id": "352a0c13-b62c-832e-a2f0-fa24a040e52d",
+    "work_hh55_last_run_id": "739d2b3d-adf0-832d-88bd-0d8aa48260c6",
+    "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
+  },
+  "robot": {
+    "monitor_completed_at": "2026-11-02T12:50:25Z",
+    "status": "ok",
+    "issues_latest": 257,
+    "issue_treated_as_old_signal": true
+  },
+  "owner_open_decisions_non_launch": [
+    {
+      "id": "d37ea54b-6b09-4283-892b-d6c3e189b82f",
+      "to": "grok",
+      "status": "needs_owner"
+    }
+  ]
 }
