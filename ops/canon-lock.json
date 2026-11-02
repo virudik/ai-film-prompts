@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:20261102-retail-rub-seregius",
   "task": "Серёгиус: платный эквивалент 459 видеозадач My First Board по рублёвым покупным кредитам, без подписки",
   "acquired_at": "2026-11-02T12:19:59.440Z",
-  "expires_at": "2026-11-02T12:41:59.440Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-02T12:21:36.963Z",
   "rules": "ops/CANON-LOCK.md"
 }
