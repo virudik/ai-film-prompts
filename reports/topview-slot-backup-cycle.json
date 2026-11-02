@@ -9,8 +9,8 @@
   "receipt_started_at": "2026-11-02T03:05:19.082Z",
   "source_head": "8eebd2060e54f93b7395c90a8911cf827bb1ad99",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "verified_capacity_full",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview authenticated read-only connector; all owned boards/pages",
   "scan_scope": "14/14 owned boards, 17/17 non-empty pages, 953 distinct tasks = 625 video + 328 image",
   "scan_complete": true,
@@ -48,11 +48,85 @@
     "verified_new_task_id_in_this_run": false,
     "full_browser_production_launch_verified": false
   },
-  "checked_at": "2026-11-02T03:05:19.082Z",
+  "checked_at": "2026-11-02T03:06:16.294Z",
   "board_count": 14,
   "pages_requested": 17,
   "pages_successful": 17,
   "total_tasks_observed": 953,
   "video_tasks_observed": 625,
-  "image_tasks_observed": 328
+  "image_tasks_observed": 328,
+  "finished_at": "2026-11-02T03:06:16.294Z",
+  "full_live_scan_finished_at": "2026-11-02T03:02:36Z",
+  "direct_active_details_checked_at": "2026-11-02T03:03:38Z",
+  "source_head_at_finish": "e002c60153d54f52a234110e0391c6f8a693fb97",
+  "queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+  "task_map_sha256": "d68883b8d840ec9ef3b8bd13621ed86b0f43c29e57c45b56f15d82885b2de219",
+  "source_sha_matches_readiness": true,
+  "all_six_active_details_verified": true,
+  "all_six_active_unlimited_zero": true,
+  "active_task_details": [
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "model_id": "qwen-wan3.0-video",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "model_id": "qwen-wan3.0-video",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "b0915b04173c414e9ac08652d34b7852",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    }
+  ],
+  "unresolved_claims": [],
+  "ready_next_if_slot_free": "S48-SEED20-P2 priority -0.98, genuine S48.1 final three seconds, not reserved",
+  "scan_errors": [],
+  "robot_status": "2026-11-02T02:30:21Z: 6/6, same six task IDs; old wake issues report previous free capacity and were not used as current slot evidence",
+  "work_recovery_evidence": "No new direct owner confirmation or verified Work GUI/quota. Work HH:55 latest run no_update 2026-11-02T02:52:12Z, Relay no_update; no proof of restoration",
+  "owner_decisions_open": "No Supabase owner-decision query in this no-Create capacity-full cycle. GitHub owner-tasks shows one needs_owner item to:grok, unrelated to ordinary Create.",
+  "browser_capability_probe": {
+    "transport": "TinyFish",
+    "performed": false,
+    "reason": "no metered browser at 6/6",
+    "profile_id": "prof_0ac4618d0cf4456e",
+    "file_upload_verified_for_this_run": false,
+    "unlimited_zero_verified_for_this_run": false,
+    "create_verified_for_this_run": false
+  }
 }
