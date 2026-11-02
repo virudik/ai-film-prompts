@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:48b23890-37da-4c82-bfd4-708af0f32361",
-  "task": "Разное: публикация восстановленных оригиналов C2–C8 и привязок сцен 1–2",
-  "acquired_at": "2026-11-02T04:55:55.926Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T05:20:47.696Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:8f2d6e91-6b76-4a7a-a62a-51f3d8e2c419",
+  "task": "Разное: завершить референсы сцен 1 и 2 (C9–59) и публикацию",
+  "acquired_at": "2026-11-02T05:29:19Z",
+  "expires_at": "2026-11-02T06:14:19Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
