@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "project": "misc",
+  "source_board_name": "Codex Creations",
+  "source_board_id": "3db83056ccef4361a9563a4f77afa1d5",
+  "source_batch_id": "4c9f1ebe93cd4342bdfc342b0a32fb0e",
+  "source_task_count": 56,
+  "editorial_status": "not_approved",
+  "images": [
+    {
+      "number": 1,
+      "path": "projects/misc/references/yarik.png",
+      "source_zip_member": "pic_202611020447.png",
+      "source_sha256": "701437d2bf5403f29e07bb1f2b0cb8a4f94e69160f377dba4fc50a91bd698a20",
+      "task_id": "35668c606d28402b9b45c30fd36c7aa2"
+    },
+    {
+      "number": 3,
+      "path": "projects/misc/references/mama-lena.png",
+      "source_zip_member": "pic_202611020447_3.png",
+      "source_sha256": "fcb627fcf1ee2c9a61de7c46fa539e73f6b2fd7cd4f1100efbf1e19e57389b8e",
+      "task_id": "cafde5ee842640199c39537d541da585"
+    },
+    {
+      "number": 5,
+      "path": "projects/misc/references/sonya.png",
+      "source_zip_member": "pic_202611020447_1.png",
+      "source_sha256": "10a2a3f83525bc3bb0918439fc23e884cab5249f42e2f83a99312b29a637167d",
+      "task_id": "e281d70050144a6a929020e505ba1bf0"
+    },
+    {
+      "number": 7,
+      "path": "projects/misc/references/anna-sergeevna.png",
+      "source_zip_member": "pic_202611020447_5.png",
+      "source_sha256": "134c2e7e568a3a43e82a48b71a8c455ba6d38e6553951607e8b42db5be5774c3",
+      "task_id": "0b99820607e6471e9b99ef5549a9581e"
+    },
+    {
+      "number": 8,
+      "path": "projects/misc/references/bublik.png",
+      "source_zip_member": "pic_202611020447_2.png",
+      "source_sha256": "97b2a7b4a8d9643f33d8eca893f238ac9a864d3fe6426920b594d6b066ac2761",
+      "task_id": "1afbf4f94edd4baba56dca37a5795568"
+    },
+    {
+      "number": 9,
+      "path": "projects/misc/references/varya.png",
+      "source_zip_member": "pic_202611020441_3.png",
+      "source_sha256": "b8e6ff1a492c5ad4c126dcb6f5b17601aacf55d46091c5f446e8b26047522452",
+      "task_id": "5714a8a9a5964dc2ae86f2dfca5cd7ac"
+    },
+    {
+      "number": 10,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png",
+      "source_zip_member": "pic_202611020441_2.png",
+      "source_sha256": "c202af6a0122003b5b12d46aedea0471fa11d38649abe293dab7c0d9e4ef04e3",
+      "task_id": "e66f126a17a24ae7acbdac5014dbb0eb"
+    },
+    {
+      "number": 11,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.png",
+      "source_zip_member": "pic_202611020441_4.png",
+      "source_sha256": "cac818a472cb767973fb57083c17fda3a0db06fb8b8d5620c6f520306c29c976",
+      "task_id": "025eb5b53f7a4ea9b2a4efa43491f43e"
+    },
+    {
+      "number": 12,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png",
+      "source_zip_member": "pic_202611020442_1.png",
+      "source_sha256": "18d388d644c356148d33fb76e2f40f45f8cc842685ca7586029657dd93642b7d",
+      "task_id": "4c740d5043a74dbaa3f54dff4f002959"
+    },
+    {
+      "number": 13,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png",
+      "source_zip_member": "pic_202611020442_3.png",
+      "source_sha256": "7ae33f8308f3e717db5012c088e387670b1a87e455739fe0cdf305fbfc51e973",
+      "task_id": "9fdcb287dfdf4d7ab3e7a38dd30d072a"
+    },
+    {
+      "number": 14,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png",
+      "source_zip_member": "pic_202611020441_5.png",
+      "source_sha256": "7279a0ba9f32b38fc9a587789d4ba1f7a2c38f8db1b781cee0424b714738be18",
+      "task_id": "9293cf519e1743d897e0429b3a5d2741"
+    },
+    {
+      "number": 15,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png",
+      "source_zip_member": "pic_202611020442.png",
+      "source_sha256": "80978ff6911db6177c068a65cebe271dd0c2c6491c1a1c74420c5b0fe23a1f84",
+      "task_id": "8ab534323b9341c2984ea6b7e872e381"
+    },
+    {
+      "number": 16,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.png",
+      "source_zip_member": "pic_202611020441_1.png",
+      "source_sha256": "d1fab1c3c45e0e466221dc04b796439babd81d9e02bca26e0179dcb263ffd76c",
+      "task_id": "e1d607c642b24f55ab3f04abcd9a4ece"
+    },
+    {
+      "number": 17,
+      "path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png",
+      "source_zip_member": "pic_202611020442_2.png",
+      "source_sha256": "a53c56af864502f3210b9aa066f72715f97dd8cf00ae9007839aa941f1836b9b",
+      "task_id": "9d15b81a1ad0425a8f50abef952270ad"
+    },
+    {
+      "number": 18,
+      "path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png",
+      "source_zip_member": "pic_202611020441.png",
+      "source_sha256": "d322ce364aa6772b35a787606b2e2d8d11e679160d778ac7d9c7300387801613",
+      "task_id": "518a8b30c7cc4b39b2642c01ec8d38f1"
+    },
+    {
+      "number": 19,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png",
+      "source_zip_member": "pic_202611020449_1.png",
+      "source_sha256": "d25a3996c726002a1931e1e97e1d711e39a5993e9c175fd34ed732d0e7250e29",
+      "task_id": "7074f36807314c4295fa9753d31e3c4c"
+    },
+    {
+      "number": 20,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png",
+      "source_zip_member": "pic_202611020449_5.png",
+      "source_sha256": "5c8ed2e95a0fa401c7fc6659845543b1181346c4b15505f31526d78012353848",
+      "task_id": "7aab0f6652684306ac88dd1f836b1d47"
+    },
+    {
+      "number": 21,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png",
+      "source_zip_member": "pic_202611020449_3.png",
+      "source_sha256": "f9c66475203afeee1d21fc025e784c5ece54a069173b5de8037b7c2577ae7a00",
+      "task_id": "b4b8c48e29a845fd8f5b1edc2662d537"
+    },
+    {
+      "number": 22,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png",
+      "source_zip_member": "pic_202611020449_4.png",
+      "source_sha256": "f38844449d13d7fc3ae41eaeb6d0cc373d19b7de8b1c39d9bf16b32b504dcdd9",
+      "task_id": "6a495dde606744bf9377d756cb111420"
+    },
+    {
+      "number": 23,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png",
+      "source_zip_member": "pic_202611020449.png",
+      "source_sha256": "c95e14552417fba9992a19dbbbb6179f57799cac1298c22d7ffd2aadc5b5aa4e",
+      "task_id": "7286bd478e9a4cf38182f9ce2ab43b73"
+    },
+    {
+      "number": 24,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png",
+      "source_zip_member": "pic_202611020449_2.png",
+      "source_sha256": "b233111514952549aea28568b6c5d4cb2a0fabee8ccd7de383f803712bc55233",
+      "task_id": "a32727d7706c4997aa6ceafac2aa1384"
+    },
+    {
+      "number": 25,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png",
+      "source_zip_member": "pic_202611020450_2.png",
+      "source_sha256": "3e0644370c557c742914ad570ea46b7c6bf0404ef6ce987dca077953f662f374",
+      "task_id": "28d67854913241e9942e6fdcfa05d726"
+    },
+    {
+      "number": 26,
+      "path": "projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png",
+      "source_zip_member": "pic_202611020450_3.png",
+      "source_sha256": "834cce819f2c5263c3b41741bff68010250e7681d75679642a6e7958e7accb06",
+      "task_id": "f9686b112d72432aa7ec0af08a5fbe6c"
+    },
+    {
+      "number": 27,
+      "path": "projects/misc/references/miron.png",
+      "source_zip_member": "pic_202611020442_5.png",
+      "source_sha256": "8425e58def019f38dae462f4037f9afce6a741b4912b763c20c7952219f2d09f",
+      "task_id": "b401acc6e42a414baa1c060005e3ca84"
+    },
+    {
+      "number": 28,
+      "path": "projects/misc/references/miron-expressions.png",
+      "source_zip_member": "pic_202611020446_3.png",
+      "source_sha256": "012348f5afbccd393fc0bc92d9b299c6ed2507c346ce21d68026a8716e3d8ca7",
+      "task_id": "2839774c2dbd48a080dd63076ceff8cb"
+    },
+    {
+      "number": 29,
+      "path": "projects/misc/references/miron-spacesuit.png",
+      "source_zip_member": "pic_202611020446.png",
+      "source_sha256": "471f40b9bff087fd9ffc1cdca03e1f61e4248377bcf763e5cb4321dd5f11bce8",
+      "task_id": "f25447c9a2194bd1bc1861a7aa10dd0c"
+    },
+    {
+      "number": 30,
+      "path": "projects/misc/references/vera.png",
+      "source_zip_member": "pic_202611020442_4.png",
+      "source_sha256": "6abd89cf19701877b16bea5eede9914e94786ffd6f11e778eae0ccf880a8bf67",
+      "task_id": "027be0a2bc8c45f1925f499947e00bce"
+    },
+    {
+      "number": 31,
+      "path": "projects/misc/references/vera-expressions.png",
+      "source_zip_member": "pic_202611020446_1.png",
+      "source_sha256": "f60f58c80a3d8e9395c2cca85f542737acc23fb68741f96b9e9f18b90f14a8d4",
+      "task_id": "9daa183faf874497965b337528e3b5a3"
+    },
+    {
+      "number": 32,
+      "path": "projects/misc/references/nina.png",
+      "source_zip_member": "pic_202611020443_2.png",
+      "source_sha256": "5ccd9266e0827c8ac5474c9226501e53cfbce9847c71b26ad50bb41169e631df",
+      "task_id": "b2400af1b8c949fc8c6c6546fe547712"
+    },
+    {
+      "number": 33,
+      "path": "projects/misc/references/nina-expressions.png",
+      "source_zip_member": "pic_202611020446_4.png",
+      "source_sha256": "3a30c0f0f9216c52adf06d533f5ef62d349cc68b8a286e81179f0dec78c4bf37",
+      "task_id": "a97a6f0860f848dc843aee32cf87caf6"
+    },
+    {
+      "number": 34,
+      "path": "projects/misc/references/darya.png",
+      "source_zip_member": "pic_202611020443_1.png",
+      "source_sha256": "1651cb09f0fb54c97b470f8247545b2a320c7c434e760520477dba7a8d9b7323",
+      "task_id": "c7788720fff0479b8cc1ced4fe28fe0c"
+    },
+    {
+      "number": 35,
+      "path": "projects/misc/references/mark.png",
+      "source_zip_member": "pic_202611020443.png",
+      "source_sha256": "bb0d880a49cdba2dfb693086cd6fb584b8356f97c1f1a1199228e062aa27e27d",
+      "task_id": "d9828b5434c8479b895e929ab7169db9"
+    },
+    {
+      "number": 36,
+      "path": "projects/misc/references/lilya.png",
+      "source_zip_member": "pic_202611020444_2.png",
+      "source_sha256": "c690d248b0c4de3f35290b7f53b8dbf88e27eb425869343a7978c3b04e505085",
+      "task_id": "8355b6e2b1cd437987a1d143e6e807ea"
+    },
+    {
+      "number": 37,
+      "path": "projects/misc/references/tuman.png",
+      "source_zip_member": "pic_202611020444.png",
+      "source_sha256": "671150fb026479e59b2983b6d0a1e10e212f03e4a52537735e10783ba1fb1163",
+      "task_id": "04752059555e4be98b4b6bf28bdef06f"
+    },
+    {
+      "number": 38,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L1-living-room.png",
+      "source_zip_member": "pic_202611020444_1.png",
+      "source_sha256": "113e34f02cea4bf12f0cf95bc333b258dcd398bfdcf8876c11657cf6022524a6",
+      "task_id": "c5ba7008bd8d47d38a877a10e1a765cd"
+    },
+    {
+      "number": 39,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L2-city-square.png",
+      "source_zip_member": "pic_202611020444_4.png",
+      "source_sha256": "18fe23f4869271ddb1fb8ad0f460cc82f4cdf0185ea0d7e18b7dcbee64e50f40",
+      "task_id": "01e30a6ea00d421d9ab324cd2815e6a5"
+    },
+    {
+      "number": 40,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png",
+      "source_zip_member": "pic_202611020444_3.png",
+      "source_sha256": "d2eacb2e51eedc830d0e2e21d653bdd25a8dcddb46693a1aa4c5c63269b6a5a0",
+      "task_id": "0448e163bf6e48d78aa2d1098ce69fcf"
+    },
+    {
+      "number": 41,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png",
+      "source_zip_member": "pic_202611020444_5.png",
+      "source_sha256": "0874ca39d3a58159a33109f35009ed6d00ffc4a26e1d421cc2c75d6d471cd34e",
+      "task_id": "469b16ed20c648699d6b8f11b6d176a9"
+    },
+    {
+      "number": 42,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png",
+      "source_zip_member": "pic_202611020444_7.png",
+      "source_sha256": "1a95f02dcbd112565808d3f3669a19c4dd48c1993604f9e91d49a082d0ee1fe8",
+      "task_id": "35b5dc180dcb4e1a9b703f56650de8e0"
+    },
+    {
+      "number": 43,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png",
+      "source_zip_member": "pic_202611020444_8.png",
+      "source_sha256": "8d64668286e980251e5c3c99f1b6152a6fcae8388ed489e7cd2d6437f3aeefc9",
+      "task_id": "a79c8e606eac4686b3456d456a7f9a41"
+    },
+    {
+      "number": 44,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png",
+      "source_zip_member": "pic_202611020444_6.png",
+      "source_sha256": "43ee912f6e3df9fe80fac0d910b31bad595c05c768e92e1f5a2b33ccedde56ec",
+      "task_id": "c3ed24e0edbe41d386214ade9d087372"
+    },
+    {
+      "number": 45,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L8-development-center.png",
+      "source_zip_member": "pic_202611020445_2.png",
+      "source_sha256": "613d604de963123a654ccaf5d0e80036f54477b795314b7fde992dcfd50ea28d",
+      "task_id": "5ca1a577abec4bb3aa900d502c9f5111"
+    },
+    {
+      "number": 46,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L9-doctor-office.png",
+      "source_zip_member": "pic_202611020445.png",
+      "source_sha256": "6302092120f6705c9f45047657ca477346a515b1049fa74a8f81b55bcdef9d67",
+      "task_id": "e4882586fe1e4785930bf38c07b46811"
+    },
+    {
+      "number": 47,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png",
+      "source_zip_member": "pic_202611020445_1.png",
+      "source_sha256": "203a41ec245ee51899bd0b6485d9ffe089365ccb043168087666da52355b1196",
+      "task_id": "67f1c9a8067e4c978d8a71c279cea0f0"
+    },
+    {
+      "number": 48,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png",
+      "source_zip_member": "pic_202611020445_3.png",
+      "source_sha256": "f63866418e21ca8aba5807bd6578e8823cb5da5f166075cbe79d7b16d4828e08",
+      "task_id": "f29a5005e923403aace44f8feac6519a"
+    },
+    {
+      "number": 49,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L12-stable-meadow.png",
+      "source_zip_member": "pic_202611020446_2.png",
+      "source_sha256": "9e78271f414e344c2efbb57cc8714932ab04bbeae3f14e522d8bd96df96dc774",
+      "task_id": "91bbcba2ea9c4a8697c5b71ac646e446"
+    },
+    {
+      "number": 50,
+      "path": "projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png",
+      "source_zip_member": "pic_202611020446_5.png",
+      "source_sha256": "41722c4e5c6fa13a35133315ea55ca2a000ca8b21bd84a61be41b644a209b8a8",
+      "task_id": "bacfb51110384205bb80a591a1775426"
+    },
+    {
+      "number": 51,
+      "path": "projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png",
+      "source_zip_member": "pic_202611020447_4.png",
+      "source_sha256": "9afdb74b4a6ec69e7cd8cff94ee246d8db4af6b25c409c139a544554cae1c662",
+      "task_id": "54e1b84a586b4fe1ab6a049ab32dce81"
+    },
+    {
+      "number": 52,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K1-suit-street.png",
+      "source_zip_member": "pic_202611020448.png",
+      "source_sha256": "f0d1d7efd0578e5ae67ed9fdd88cd40b934a326ee87dfabff5405ccc48012824",
+      "task_id": "e70706aee2fe43d5b683cafdb6fbe721"
+    },
+    {
+      "number": 53,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K2-home-bubble.png",
+      "source_zip_member": "pic_202611020450.png",
+      "source_sha256": "ab75cd63168bfb255a003bceb87a8d373b74c911b02cbe0ae673570308247e7f",
+      "task_id": "057bfd207aea4defa3cdbf65549ab4aa"
+    },
+    {
+      "number": 54,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K3-store-fear.png",
+      "source_zip_member": "pic_202611020450_1.png",
+      "source_sha256": "d1451d6adb5df201e1b879f2cfe003876bb54100f3daf7afbafc4e67e35caaa5",
+      "task_id": "993a0680380d4f928e83d95da0be296c"
+    },
+    {
+      "number": 55,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K4-grandma-hug.png",
+      "source_zip_member": "pic_202611020450_5.png",
+      "source_sha256": "cab7b0f53cfd3cf57c1e3f3f216ec9417f50472e1e124a776e983231d303c1d7",
+      "task_id": "5a8b9b09532e40b19047720a9f7fd549"
+    },
+    {
+      "number": 56,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K5-dome-cards.png",
+      "source_zip_member": "pic_202611020450_4.png",
+      "source_sha256": "bb7f760d5e2d3f7832dca0ccc94692e2cf011a9c0dd9189d95a06a44a863d9ff",
+      "task_id": "59763cd4cc544180877318a21104a334"
+    },
+    {
+      "number": 57,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K6-reading.png",
+      "source_zip_member": "pic_202611020451_2.png",
+      "source_sha256": "ec24381d3ec35734af20c230d4895493adb1dba2b9b7ff47368f171a2fb83476",
+      "task_id": "32ec32b6e3484a2baebe45f170a52b9e"
+    },
+    {
+      "number": 58,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K7-school-day.png",
+      "source_zip_member": "pic_202611020451_1.png",
+      "source_sha256": "417ddc44f2cb5d9f05af7fd951577c0ae17cc0f84a65e163307fc873d92256b4",
+      "task_id": "dd9e853268b8476290c46182c3df21fc"
+    },
+    {
+      "number": 59,
+      "path": "projects/misc/references/scenes/scene-2/MS02-K8-space.png",
+      "source_zip_member": "pic_202611020451.png",
+      "source_sha256": "9c1b8fa9e8013c756eee7384afa27fcc228c784d5b0b1b5851d241c8c4fc11a3",
+      "task_id": "5e4c8ca98c07493b8726e0af50a8f5fc"
+    }
+  ]
+}
