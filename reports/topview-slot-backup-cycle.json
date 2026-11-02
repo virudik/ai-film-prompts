@@ -9,20 +9,20 @@
   "receipt_started_at": "2026-11-02T12:08:29.398Z",
   "source_head": "9b10852b7f76c7d316c8e612522f7a456d9a3696",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_complete",
-  "scan_source": "Topview board video-task connector, read-only",
-  "scan_scope": "14/14 boards; 18/18 video pages (100/page), 626 total unique video tasks",
+  "phase": "finished",
+  "stage": "completed",
+  "scan_source": "Topview connector, live read-only account-wide scan",
+  "scan_scope": "14/14 boards; 34/34 media-scoped pages at 100/page (18 video + 16 image), all stable page totals; 1,010 unique tasks",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "Topview read-only connector; TinyFish not invoked at 6/6",
+  "browser_transport": "Topview read-only connector only; TinyFish website UI skipped at confirmed 6/6",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -42,7 +42,7 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "checked_at": "2026-11-02T12:08:29.398Z",
+  "checked_at": "2026-11-02T12:14:06.890Z",
   "boards_scanned": 14,
   "pages_scanned": 18,
   "video_tasks_scanned": 626,
@@ -62,8 +62,93 @@
   "work_recovery": {
     "preferred_executor": "work",
     "route_generation": 3,
-    "state": "restored_verified",
+    "work_gui_verified": true,
+    "work_quota_verified": true,
     "restored_at": "2026-11-02T11:18:32.530Z",
     "route_changed": false
-  }
+  },
+  "finished_at": "2026-11-02T12:14:06.890Z",
+  "source_head_at_finish": "3accca6f933353e5f6eb9383c08041c2183eb426",
+  "board_count": 14,
+  "pages_requested": 34,
+  "pages_successful": 34,
+  "page_size": 100,
+  "total_tasks_observed": 1010,
+  "video_tasks_observed": 626,
+  "image_tasks_observed": 384,
+  "image_status_counts": {
+    "success": 368,
+    "fail": 16
+  },
+  "active_task_details": [
+    {
+      "item_id": "S48-SEED20-P2",
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S71-WAN30",
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S72-WAN30",
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S61-SEED20-P1",
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S60-SEED20-P1",
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S62-SEED20-P1",
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "queue_sha256_at_scan": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256_at_scan": "c9b26052edac425c4817f9478ead4dde2d4f0df853c023805614a6f8abf095f7",
+  "readiness_reference_queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "readiness_reference_taskmap_sha256": "c9b26052edac425c4817f9478ead4dde2d4f0df853c023805614a6f8abf095f7",
+  "readiness_sha_verified": true,
+  "queue_items_total": 65,
+  "queue_task_ids_total": 13,
+  "queue_task_ids_found": 13,
+  "unresolved_claim_states": [],
+  "technical_fail_candidates": [],
+  "next_ready_item": {
+    "id": "S56-SEED20-P2",
+    "priority": 0.31,
+    "state": "waiting_for_slot",
+    "slot_reserved": false
+  },
+  "robot_issue": {
+    "latest_known_issue_number": 257,
+    "signal": "result:b0915b04173c414e9ac08652d34b7852",
+    "not_treated_as_current_free_capacity": true
+  },
+  "peer_monitor": {
+    "ordinary_run_id": "6851f28e-6000-8323-922e-0f0eaf2deb8c",
+    "work_hh55_last_run_id": "739d2b3d-adf0-832d-88bd-0d8aa48260c6",
+    "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
+  },
+  "task_id_check_note": "All 13 queue submitted taskIDs found in complete 459-video My First Board list; six active init tasks independently checked by individual task detail for Unlimited true, zero credits"
 }
