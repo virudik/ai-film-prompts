@@ -2007,7 +2007,7 @@
       "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
       "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
       "priority": -0.98,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2182,7 +2182,12 @@
           "free_slots": 1,
           "full_scan_boards": 14,
           "full_scan_pages": 18
-        }
+        },
+        "submission_intent_id": "d629a6b9-7b1e-4ba3-8d30-ae9a9ec4658b",
+        "submission_intent_at": "2026-11-02T10:17:02Z",
+        "lease_holder": "chatgpt:work:2ac82506-076d-4b62-8250-702520378418",
+        "lease_acquired_at": "2026-11-02T10:00:09.655Z",
+        "replay_forbidden": true
       },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S48",
