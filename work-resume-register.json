@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-02T07:04:01+00:00",
+  "last_updated_at": "2026-11-02T08:15:00+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-02T07:04:01+00:00",
+      "updated_at": "2026-11-02T08:15:00+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
+        "10:55 MSK check 2 Nov: complete 14-board/28-page Topview scan found 1009 tasks and 6/6 active Unlimited0 Seregius videos; all 12 queue task IDs reconciled, no Create/claim/retry. While full, archived actual S52-R2-P1 and prepared its exact real last72-frame/3s tail in Drive (SHA d9c0d470...); sampled visual QC only, audio not listened, so S52-R2-P2 remains blocked pending full continuous audio QC.",
         "09:55 MSK check 2 Nov: complete 14-board/20-page Topview scan found1009 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Phase B reviewed26 new GitHub failure mails /22 run IDs; later successes/current validators resolve all observed issues, no blind rerun.",
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
@@ -23,7 +24,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "At the next real peer wake, full fresh all-board scan. When capacity is free, reconcile task IDs/claims, then S48-SEED20-P2 by live priority with exact continuity/QC and Unlimited0 under own lease/CAS. Do not reserve a slot; Work GUI/quota recovery remains unverified.",
+      "next_action": "At the next real peer wake, full fresh all-board scan. When capacity is free, reconcile task IDs/claims, then S48-SEED20-P2 by live priority with exact continuity/QC and Unlimited0 under own lease/CAS. Do not reserve a slot. S52-R2-P2 has a real prepared tail but remains blocked until full continuous visual+audio QC and fresh readiness SHA match. Work GUI/quota recovery remains unverified.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -128,9 +129,10 @@
         "result": "No current failure and no blind rerun. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-02T07:04:01Z",
+        "checked_at": "2026-11-02T08:09:37Z",
         "boards": 14,
-        "pages": 20,
+        "pages": 28,
+        "page_size": 50,
         "total": 1009,
         "video_tasks": 625,
         "image_tasks": 384,
@@ -188,9 +190,13 @@
             "credits_cost": 0
           }
         ],
-        "queue_sha256": "39ad763fe1a4473ebddb67f9600e01d872624e0c7696e27d72504e3132c6d740",
-        "task_map_sha256": "071df7221680c8ab0687c1f4a8781af92cf8584456f25e4524c26bb8b1bf26ee",
-        "readiness_match": true
+        "queue_sha256_at_scan": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+        "task_map_sha256_at_scan": "2b4fe61f47dedb855c4bc29f92471a5b24717f8919ce1931d39de040f882413a",
+        "readiness_match_at_scan": true,
+        "post_scan_queue_update": {
+          "queue_blob_sha": "e35882fa2c5918b6f8e43ef9e16daa0b369dde01",
+          "reason": "S52-R2-P1 continuity provenance staged; fresh readiness rebuild required before any launch"
+        }
       },
       "last_relay_event": {
         "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
@@ -200,9 +206,9 @@
         "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
-        "checked_at": "2026-11-02T07:04:01Z",
+        "checked_at": "2026-11-02T08:09:37Z",
         "boards": 14,
-        "pages": 20,
+        "pages": 28,
         "tasks": 1009,
         "video_tasks": 625,
         "image_tasks": 384,
@@ -448,6 +454,22 @@
         "acceptance": "dry_run_done_first_real_launch_pending_owner_go_ahead",
         "first_real_create": "waits for owner go-ahead in chat",
         "new_video_submissions": 0
+      },
+      "continuity_preparation": {
+        "updated_at": "2026-11-02T08:15:00Z",
+        "item_id": "S52-R2-SEED20-P2",
+        "source_item_id": "S52-R2-SEED20-P1",
+        "source_task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "source_original_sha256": "302ffec3870d215da01b15720ca41a417927b052601da1fc7174ffcd2520f948",
+        "source_original_drive_file_id": "1X_o9xHwnNOUqBiwdSZn4Ow3ZxjPF7f8E",
+        "derivative_sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+        "derivative_drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
+        "derivative_duration_seconds": 3,
+        "derivative_frames": 72,
+        "qc_status": "provisional_sampled_visual_audio_not_listened",
+        "launch_ready": false,
+        "blocker": "Full continuous visual review with audio remains required.",
+        "report": "references/scenes/scene-52/S52-R2-P1-continuity.json"
       }
     },
     {
