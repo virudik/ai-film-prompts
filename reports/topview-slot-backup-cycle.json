@@ -9,8 +9,8 @@
   "receipt_started_at": "2026-11-02T19:12:52.249Z",
   "source_head": "b34993c31c46697834dbb4faeaa6f8026cc00b01",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "receipt_started",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview live connector read-only; all board/video/image pages",
   "scan_scope": "14 boards,18 video pages+16 image pages=34 pages (pageSize 100); 1010 total tasks",
   "scan_complete": true,
@@ -78,10 +78,10 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T19:12:52.249Z",
-  "checked_at": "2026-11-02T19:12:52.249Z",
+  "updated_at": "2026-11-02T19:13:33.113Z",
+  "checked_at": "2026-11-02T19:13:33.113Z",
   "notes": "Live 14-board 34-page complete scan confirms six active video tasks on My First Board, all Unlimited=true creditsCost=0. All 13 queue submissions independently read by ID. Current SHA256 queue/task map matches refreshed readiness. Stale wake issues not current capacity. No Create or TinyFish cost. Work preferred route_generation=3 unchanged.",
-  "finished_at": null,
+  "finished_at": "2026-11-02T19:13:33.113Z",
   "video_status_counts": {
     "success": 597,
     "init": 6,
@@ -91,7 +91,7 @@
     "success": 368,
     "fail": 16
   },
-  "verified_source_head_before_final": null,
+  "verified_source_head_before_final": "07d29252d91011c92c059ac128750ca0f1c352d2",
   "lease_release_required": true,
   "verified_source_head_before_start": "60114f48b1f76bc2e6582cf99577ca678adb911f"
 }
