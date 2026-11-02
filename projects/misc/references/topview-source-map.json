@@ -399,5 +399,7 @@
       "source_sha256": "9c1b8fa9e8013c756eee7384afa27fcc228c784d5b0b1b5851d241c8c4fc11a3",
       "task_id": "5e4c8ca98c07493b8726e0af50a8f5fc"
     }
-  ]
+  ],
+  "retry_policy": "Recheck fresh main, use per-original-SHA PNG cache, preserve exact filenames, never overwrite unrelated canonical changes",
+  "retry_revision": "2026-11-02T07:14:00Z"
 }
