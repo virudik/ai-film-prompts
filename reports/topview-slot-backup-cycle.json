@@ -9,12 +9,12 @@
   "receipt_started_at": "2026-11-02T23:09:16.769Z",
   "source_head": "30b29cbfe542237f7a6e7c71c4f615476c403486",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "scan_completed",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview live connector read-only",
   "scan_scope": "14 boards; 34 video/image pages; all video+image tasks; direct taskID reconciliation of 13 submitted items",
   "scan_complete": true,
-  "scan_checked_at": "2026-11-02T23:04:03.234Z",
+  "scan_checked_at": "2026-11-02T23:10:20.954Z",
   "boards_scanned": 14,
   "pages_scanned": 34,
   "total_tasks_observed": 1010,
@@ -54,8 +54,8 @@
   },
   "new_submissions": 0,
   "task_ids": [],
-  "outcome": "scan_completed_no_free_slot",
-  "blocker": "6/6 physical video slots occupied; no Create permitted",
+  "outcome": "no_free_slot",
+  "blocker": "All six physical video slots occupied; no generation/Create permitted; no new technical blocker.",
   "retryable": true,
   "browser_transport": "Topview connector read-only; TinyFish not started; no Create",
   "tinyfish_run_ids": [],
@@ -83,5 +83,22 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T23:09:16.769Z"
+  "updated_at": "2026-11-02T23:11:07.070Z",
+  "finished_at": "2026-11-02T23:11:07.070Z",
+  "lease_release_required": true,
+  "lease_release_status": "pending_release",
+  "peer_monitor": {
+    "ordinary_run_id": "a74f6cb2-267c-8326-8230-a77cbaeec363",
+    "ordinary_latest_result_run_id": "b78fec2c-e2f0-832f-9a71-fb9529f3f01b",
+    "work_hh55_last_run_id": "9266c883-702c-8330-8ef4-476e2876572f",
+    "work_hh55_status": "completed",
+    "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
+  },
+  "telemetry": {
+    "robot_checked_at": "2026-11-02T22:40:28Z",
+    "topview_status_checked_at": "2026-11-02T22:40:22Z",
+    "event_wake_latest_updated_at": "2026-10-29T23:22:31.873Z",
+    "old_wake_event_is_not_fresh_capacity": true
+  },
+  "notes": "Fresh read-only Topview scan across 14 boards, 18 video+16 image pages: 1010 tasks total, video 626 / image 384. All 13 queued submitted task IDs independently verified; final recheck of six init tasks at 23:10:20Z still 6/6 Unlimited credits0. SHA256 of queue and task map independently recomputed and both match readiness. Next ready S56-SEED20-P2 0.31 not reserved. No TinyFish browser costs or Create. Work restored_verified based on historical verified 2 Nov runtime, not independently retested in this cycle. Explicit no-op, no new blocker."
 }
