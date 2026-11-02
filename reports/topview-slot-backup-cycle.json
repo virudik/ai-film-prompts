@@ -9,24 +9,24 @@
   "receipt_started_at": "2026-11-02T09:12:48.706Z",
   "source_head": "dc989e5c63410c1178ab65a7a4438ac5d2eb7250",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "intake",
-  "scan_source": null,
-  "scan_scope": null,
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "phase": "finished",
+  "stage": "completed",
+  "scan_source": "Topview read-only connector",
+  "scan_scope": "Full account scan: 14/14 boards, 28/28 pages (50/page), 1009/1009 tasks; each board page returned complete stable total",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "not_invoked",
+  "browser_transport": "Topview read-only connector; TinyFish and website Create not invoked because all six physical video slots occupied",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
-  "tinyfish_confirmed_charge_usd": null,
+  "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
     "holder": "chatgpt:ordinary:1c8d972c-8adb-415d-a999-4b06f4bb90f3",
@@ -42,6 +42,118 @@
     "topview_task_id_verified_this_cycle": false,
     "production_submission_verified": false
   },
-  "checked_at": null,
-  "finished_at": null
+  "checked_at": "2026-11-02T09:17:42.158Z",
+  "finished_at": "2026-11-02T09:17:42.158Z",
+  "source_head_at_finish": "11823c1fe54aad6a336a4f3bc874a9ee1d2701c3",
+  "board_count": 14,
+  "pages_requested": 28,
+  "pages_successful": 28,
+  "page_size": 50,
+  "total_tasks_observed": 1009,
+  "video_tasks_observed": 625,
+  "image_tasks_observed": 384,
+  "active_task_ids": [
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e",
+    "b0915b04173c414e9ac08652d34b7852"
+  ],
+  "active_task_details": [
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "item_id": "S71-WAN30",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "item_id": "S72-WAN30",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "item_id": "S61-SEED20-P1",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "item_id": "S60-SEED20-P1",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "item_id": "S62-SEED20-P1",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "b0915b04173c414e9ac08652d34b7852",
+      "item_id": "S59-SEED20-P2",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "queue_sha256_at_scan": "7c3853673ae8d2275b3d70be027ad7f1ab32bd626585e19734833c33cee382f6",
+  "task_map_sha256_at_scan": "63b617ec464e97ed3b5ed356281278208517f4a8f0bef9ac1e0616223536b526",
+  "readiness_reference_queue_sha256": "7c3853673ae8d2275b3d70be027ad7f1ab32bd626585e19734833c33cee382f6",
+  "readiness_reference_taskmap_sha256": "63b617ec464e97ed3b5ed356281278208517f4a8f0bef9ac1e0616223536b526",
+  "readiness_sha_verified": true,
+  "queue_items_total": 65,
+  "queue_task_ids_total": 12,
+  "queue_task_ids_found": 12,
+  "unresolved_claim_states": [],
+  "technical_fail_candidates": [],
+  "next_ready_item": {
+    "id": "S48-SEED20-P2",
+    "priority": -0.98,
+    "state": "waiting_for_slot",
+    "slot_reserved": false
+  },
+  "robot_issue": {
+    "latest_known_issue_number": 226,
+    "observed_at": "2026-11-01T07:30:19Z",
+    "not_treated_as_current_free_capacity": true
+  },
+  "work_recovery": {
+    "preferred_executor": "ordinary",
+    "route_generation": 2,
+    "work_gui_verified": false,
+    "work_quota_verified": false,
+    "route_changed": false
+  },
+  "peer_monitor": {
+    "ordinary_run_id": "5e21394d-44c8-8328-a39f-0041705ac1ea",
+    "work_hh55_last_run_id": "e7781a7a-96a0-8332-9128-6089c4ab4d91",
+    "relay_last_run_id": "e20e98c7-3fc4-832e-a27d-d18a5295b3a0"
+  },
+  "task_id_check_note": "11/12 direct get_board_task returned matching IDs; S71 detail endpoint returned transient 5003 but S71 task was positively present in full board-page scan with init/Unlimited/credits0; no evidence of missing Create"
 }
