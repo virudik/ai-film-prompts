@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/misc/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-02T05:17:16Z",
-  "revision_date": "01.11.2026",
+  "synced_at": "2026-11-02T05:19:42Z",
+  "revision_date": "02.11.2026",
   "master_declared_last_full_sync": "01.11.2026 · добавлена сцена 2 «Тихая планета» (DRAFT, структура рилса, 9:16, B1–B4 + A1–A8, без картинок и запусков); до этого — сцена 1 «Тихий маяк» (DRAFT): две версии — 4 ролика B1–B4 по 30 с (Wan 3.0 / Seedance 2.5, русская озвучка Ярика в промте) и 8 подсцен A1–A8 по 15 с (Seedance 2.0), формат 9:16 вертикаль, без картинок и запусков; картинки и видео пока не делаем по решению владельца",
-  "canonical_master_sha256": "70be06a61529b8f4987c4127156e5048e8affef7c990b66cbb8385751eccc033",
-  "canonical_revision_sha256": "1e85ee2f686125ef0643ea8204844b6d4bf4567f12f168364f98e0553dfefe86",
-  "canonical_master_bytes": 235455,
+  "canonical_master_sha256": "5782b28ba5b21dd4f256a0e8684a2579b80d1e7d27af850aefb18cac60f5ad8b",
+  "canonical_revision_sha256": "3ea7d05b44f1e71ed491ee022f477785b218b46d6f4a2f73593dfcfd2c972953",
+  "canonical_master_bytes": 247822,
   "scenes": 2,
   "prompt_texts": 24,
   "work_items": [],
@@ -27,7 +27,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 18.799,
+    "age_hours_at_status_build": 18.84,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -105,7 +105,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 18.799,
+      "age_hours": 18.84,
       "blocking": false
     },
     "topview_task_map": {
@@ -163,10 +163,10 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "01.11.2026",
-    "synced_at": "2026-11-02T05:17:16Z",
-    "canonical_master_sha256": "70be06a61529b8f4987c4127156e5048e8affef7c990b66cbb8385751eccc033",
-    "canonical_revision_sha256": "1e85ee2f686125ef0643ea8204844b6d4bf4567f12f168364f98e0553dfefe86",
+    "revision_date": "02.11.2026",
+    "synced_at": "2026-11-02T05:19:42Z",
+    "canonical_master_sha256": "5782b28ba5b21dd4f256a0e8684a2579b80d1e7d27af850aefb18cac60f5ad8b",
+    "canonical_revision_sha256": "3ea7d05b44f1e71ed491ee022f477785b218b46d6f4a2f73593dfcfd2c972953",
     "scene_count": 2,
     "prompt_count": 24,
     "scene_ids": [
