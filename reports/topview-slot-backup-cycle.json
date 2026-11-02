@@ -2,52 +2,25 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "d56cee24-2db5-4a7c-8fc4-fa2d9201926e",
-  "run_id": "4262537b-d66c-8325-ab67-a6f8f916a73e",
-  "run_id_source": "Automations.peek current last_run.id, scheduled_for 2026-11-02T14:00:00Z; in_progress",
-  "started_at": "2026-11-02T14:03:12.793983Z",
-  "receipt_started_at": "2026-11-02T14:10:23.294Z",
-  "source_head": "a96e01fb9a30fbd6ff33bb9e207b9af6cee29010",
+  "execution_instance_id": "122494bd-23f8-4413-9d51-2b93ac487134",
+  "run_id": "d8cdd9d9-2728-8327-9665-a3e9f84775a2",
+  "run_id_source": "Automations.peek last_run.id, scheduled_for 2026-11-02T16:00:00Z; in_progress",
+  "started_at": "2026-11-02T15:59:34.177854Z",
+  "receipt_started_at": "2026-11-02T16:07:56.845Z",
+  "source_head": "9b288c922c6fb1480f9047dc25db1829f616bc90",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "completed",
-  "scan_source": "Topview connector independent live read-only all-board all-page scan",
+  "phase": "started",
+  "stage": "full_read_only_scan_completed",
+  "scan_source": "Topview connector live read-only all boards/all pages",
   "scan_scope": "14/14 boards; 20/20 pages (pageSize 100); 1010 tasks",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
-  "selected_item": null,
-  "task_ids": [],
-  "new_submissions": 0,
-  "outcome": "no_free_slot",
-  "blocker": null,
-  "retryable": true,
-  "browser_transport": "Topview connector read-only; TinyFish not run; no Create",
-  "tinyfish_run_ids": [],
-  "tinyfish_steps": 0,
-  "tinyfish_estimated_cost_usd": 0,
-  "tinyfish_confirmed_charge_usd": 0,
-  "topview_credits_spent": 0,
-  "lease": {
-    "holder": "chatgpt:ordinary:d56cee24-2db5-4a7c-8fc4-fa2d9201926e",
-    "acquired_at": "2026-11-02T14:09:51.762Z",
-    "expires_at": "2026-11-02T14:21:51.762Z"
-  },
-  "acceptance": {
-    "hourly_runtime_verified": true,
-    "tinyfish_saved_login_historical": true,
-    "tinyfish_file_upload_verified": false,
-    "tinyfish_unlimited_zero_verified": false,
-    "tinyfish_scheduled_run_verified": false,
-    "topview_task_id_verified_this_cycle": true,
-    "production_submission_verified": false
-  },
-  "updated_at": "2026-11-02T14:13:06.502Z",
   "boards_scanned": 14,
   "pages_scanned": 20,
+  "total_tasks_observed": 1010,
   "video_tasks_scanned": 626,
   "image_tasks_scanned": 384,
-  "total_tasks_observed": 1010,
   "video_status_counts": {
     "success": 597,
     "init": 6,
@@ -65,85 +38,52 @@
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e"
   ],
-  "active_task_details": [
-    {
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "item_id": "S48-SEED20-P2",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "item_id": "S71-WAN30",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "item_id": "S72-WAN30",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "item_id": "S61-SEED20-P1",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "item_id": "S60-SEED20-P1",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "0de1f663432646d294f409a22e20a26e",
-      "item_id": "S62-SEED20-P1",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "unlimited": true,
-      "credits_cost": 0
-    }
-  ],
   "all_submitted_queue_tasks_verified": 13,
-  "submitted_verification_method": "11 task detail GET successes; S71 and S61 task GET returned intermittent 5003 but both independently verified by full My First Board page 1 with status init/Unlimited0; all 13 task IDs accounted for",
   "unresolved_claim_states": [],
   "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
-  "task_map_sha256": "50a703a394e0c5fa5c866552b602e4e03d551478e707d3e2992e576baebd26c7",
+  "task_map_sha256": "ef5d0917f1226cf0a70b83c7e482695ed88da03d51d3a81832618f012b55cf68",
   "readiness_sha_verified": true,
   "next_ready_item": {
     "id": "S56-SEED20-P2",
     "priority": 0.31,
     "slot_reserved": false
   },
+  "selected_item": null,
+  "task_ids": [],
+  "new_submissions": 0,
+  "outcome": "started",
+  "blocker": null,
+  "retryable": true,
+  "browser_transport": "Topview connector read-only; TinyFish not run, no Create",
+  "tinyfish_run_ids": [],
+  "tinyfish_steps": 0,
+  "tinyfish_estimated_cost_usd": 0,
+  "tinyfish_confirmed_charge_usd": 0,
+  "topview_credits_spent": 0,
   "work_recovery": {
     "preferred_executor": "work",
     "route_generation": 3,
     "route_changed": false,
-    "work_runtime_current": "in_progress",
-    "previous_route_evidence_retained": true
+    "work_capacity": "restored_verified"
   },
   "peer_monitor": {
-    "ordinary_run_id": "4262537b-d66c-8325-ab67-a6f8f916a73e",
-    "work_hh55_last_run_id": "76597d3d-3198-832f-83b8-df8b0fbe8a9c",
+    "ordinary_run_id": "d8cdd9d9-2728-8327-9665-a3e9f84775a2",
+    "work_hh55_last_run_id": "05ff3262-fcb0-8331-acf5-a01b05fe8698",
     "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
   },
-  "robot": {
-    "monitor_checked_at": "2026-11-02T13:50:58Z",
-    "topview_telemetry_checked_at": "2026-11-02T13:40:23Z",
-    "latest_slot_issue_number": 257,
-    "issue_treated_as_old_signal": true
+  "lease": {
+    "holder": "chatgpt:ordinary:122494bd-23f8-4413-9d51-2b93ac487134",
+    "acquired_at": "2026-11-02T16:07:05.070Z",
+    "expires_at": "2026-11-02T16:17:05.070Z"
   },
-  "checked_at": "2026-11-02T14:13:06.502Z",
-  "finished_at": "2026-11-02T14:13:06.502Z"
+  "acceptance": {
+    "hourly_runtime_verified": true,
+    "tinyfish_saved_login_historical": true,
+    "tinyfish_file_upload_verified": false,
+    "tinyfish_unlimited_zero_verified": false,
+    "tinyfish_scheduled_run_verified": false,
+    "topview_task_id_verified_this_cycle": true,
+    "production_submission_verified": false
+  },
+  "updated_at": "2026-11-02T16:07:56.845Z"
 }
