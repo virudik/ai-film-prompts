@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:ee316c5a-5a59-4507-b79c-a8a13dcb2f00",
   "task": "Разное: публикация 51 готового PNG из Topview, QC, манифесты, сайт",
   "acquired_at": "2026-11-02T06:39:41.154Z",
-  "expires_at": "2026-11-02T08:19:41.154Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-02T07:20:18.878Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
