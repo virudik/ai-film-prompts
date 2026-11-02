@@ -713,6 +713,86 @@
    "thumb_bytes": 63008,
    "src_sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
   },
+  "projects/misc/references/anna-sergeevna.png": {
+   "thumb": "references/thumbs/projects/misc/references/anna-sergeevna.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 323231,
+   "thumb_bytes": 32706,
+   "src_sha256": "83eaf80b554227a53d5bf3f0a28b393be1756903475adf86614c1f822f810d80"
+  },
+  "projects/misc/references/bublik.png": {
+   "thumb": "references/thumbs/projects/misc/references/bublik.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 322191,
+   "thumb_bytes": 34164,
+   "src_sha256": "49220a255aeb311a9ebe9cae8ab5025d8600f219c0fd1b5d5398604260e02559"
+  },
+  "projects/misc/references/mama-lena-expressions.png": {
+   "thumb": "references/thumbs/projects/misc/references/mama-lena-expressions.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 289070,
+   "thumb_bytes": 33988,
+   "src_sha256": "871448fbd13aa3d30e13d109071138e5e11547d429293a4e5e3407828f554a31"
+  },
+  "projects/misc/references/mama-lena.png": {
+   "thumb": "references/thumbs/projects/misc/references/mama-lena.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 329438,
+   "thumb_bytes": 34684,
+   "src_sha256": "dd0dabce32f624d1c5c44ef34b2e44bc529243ba9a9e014f332dc595fe6ac746"
+  },
+  "projects/misc/references/sonya-expressions.png": {
+   "thumb": "references/thumbs/projects/misc/references/sonya-expressions.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 282042,
+   "thumb_bytes": 32550,
+   "src_sha256": "e913bf21fd4e42a65afec93e2884231b14765bee71e67add5272987777c7b553"
+  },
+  "projects/misc/references/sonya.png": {
+   "thumb": "references/thumbs/projects/misc/references/sonya.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 295543,
+   "thumb_bytes": 30370,
+   "src_sha256": "baa2b1480a4e2f055ec2b041a6639ea69cb03cd9f15cb9b2693a35f4d2a95208"
+  },
+  "projects/misc/references/yarik-expressions.png": {
+   "thumb": "references/thumbs/projects/misc/references/yarik-expressions.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 278129,
+   "thumb_bytes": 30838,
+   "src_sha256": "8a180692f505399f3e9bbf6900891ea174866c95b2a558c39a169f56ddb68c8d"
+  },
+  "projects/misc/references/yarik.png": {
+   "thumb": "references/thumbs/projects/misc/references/yarik.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 2844295,
+   "thumb_bytes": 56476,
+   "src_sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3"
+  },
   "projects/raznoe/references/scenes/scene-1/01-earth-work.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-1/01-earth-work.png.webp",
    "width": 640,
