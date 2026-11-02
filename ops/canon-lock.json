@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "locked",
+  "state": "free",
   "holder": "chatgpt:work:fb78000b-8a13-4c8f-a213-554b2fd5ca5f",
   "task": "Серёгиус: scheduled Work HH:55 full Topview scan and cycle receipt 2026-11-03",
   "acquired_at": "2026-11-02T22:00:33.937Z",
-  "expires_at": "2026-11-02T22:30:33.937Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-02T22:01:41.746Z",
   "rules": "ops/CANON-LOCK.md"
 }
