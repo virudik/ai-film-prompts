@@ -9,9 +9,9 @@
       "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt",
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "width": 1080,
-      "height": 1920,
-      "aspect_ratio": "9:16",
+      "width": 1672,
+      "height": 941,
+      "aspect_ratio": "16:9",
       "sha256": null,
       "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
     },
@@ -20,9 +20,9 @@
       "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "width": 1080,
-      "height": 1920,
-      "aspect_ratio": "9:16",
+      "width": 1672,
+      "height": 941,
+      "aspect_ratio": "16:9",
       "sha256": null,
       "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
     }

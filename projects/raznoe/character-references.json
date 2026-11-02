@@ -93,7 +93,7 @@
         "public_image": "projects/raznoe/references/mama-lena.png",
         "full_image": "projects/raznoe/references/mama-lena.png"
       },
-      "outfit_variant": "Женщина 34 лет: смуглая кожа, тёмные кудрявые волосы в высоком небрежном пучке, тёплые тёмные глаза, мимические морщинки, без очков; голубая джинсовая рубашка с закатанными рукавами поверх белой футболки, тёмные джинсы.",
+      "outfit_variant": "Женщина 34 лет: светлая кожа, славянская/русская внешность, тёмные кудрявые волосы в высоком небрежном пучке, тёплые тёмные глаза, мимические морщинки, без очков; голубая джинсовая рубашка с закатанными рукавами поверх белой футболки, тёмные джинсы.",
       "variants": [],
       "provenance": {
         "project": "raznoe",
@@ -101,7 +101,7 @@
         "status": "generated",
         "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
         "editorial_status": "not_approved",
-        "sha256": "58eebaaee90d3671243d2d7d075baaacccd689d137950146f5a8bcde04821548",
+        "sha256": "3b00db3a08b21e9b5efa87ff58d445841f6ab988f44f41dc2713e917b48237c4",
         "width": 1536,
         "height": 1024
       },
@@ -111,7 +111,7 @@
           "caption": "C3 · Мама Лена — основной лист · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
-          "sha256": "58eebaaee90d3671243d2d7d075baaacccd689d137950146f5a8bcde04821548",
+          "sha256": "3b00db3a08b21e9b5efa87ff58d445841f6ab988f44f41dc2713e917b48237c4",
           "scenes": [
             1
           ]
@@ -123,7 +123,7 @@
           "derived_from": [
             "projects/raznoe/references/mama-lena.png"
           ],
-          "sha256": "13a2675d1a9ae0081088fd2ce8649ad38e5ed767f4ed06389fb48fcfc2eea25c",
+          "sha256": "e3665fdb12f9acb01f061d7034260747082c43184d43e9ca0468bbae4a47a7d2",
           "scenes": [
             1
           ]
@@ -471,14 +471,14 @@
         "public_image": "projects/raznoe/references/nina.png",
         "full_image": "projects/raznoe/references/nina.png"
       },
-      "outfit_variant": "Женщина 62 лет, высокая, прямая: тёплая смуглая кожа, короткие серебристо-белые кудри, выразительные брови, без очков, крупные серебряные серьги-кольца; сливовая спортивная куртка с белыми лампасами, серые джоггеры, белые кроссовки, свисток на шнурке (бывший тренер по плаванию).",
+      "outfit_variant": "Женщина 62 лет, высокая, прямая: светлая кожа, славянская/русская внешность, короткие серебристо-белые кудри, выразительные брови, без очков, крупные серебряные серьги-кольца; сливовая спортивная куртка с белыми лампасами, серые джоггеры, белые кроссовки, свисток на шнурке (бывший тренер по плаванию).",
       "variants": [],
       "provenance": {
         "project": "raznoe",
         "created": "2026-11-01",
         "status": "generated",
         "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
-        "sha256": "d0e1606b7ffd3e63ddae0ec9ab9a7fc2debd08643442514c32bde841ef66dc4e",
+        "sha256": "34a52394626abf39a6782842cc6ce2c72c732e9f9176b20f4c82e2b6f4e62d9f",
         "width": 1536,
         "height": 1024,
         "editorial_status": "not_approved"
@@ -489,7 +489,7 @@
           "caption": "S2-N1 · Бабушка Нина — основной лист · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
-          "sha256": "d0e1606b7ffd3e63ddae0ec9ab9a7fc2debd08643442514c32bde841ef66dc4e",
+          "sha256": "34a52394626abf39a6782842cc6ce2c72c732e9f9176b20f4c82e2b6f4e62d9f",
           "scenes": [
             2
           ]
@@ -501,7 +501,7 @@
           "derived_from": [
             "projects/raznoe/references/nina.png"
           ],
-          "sha256": "0f1f09ba1ee251df14dd11784e3ca15c82c114f619203788dbf9ae6bbfc21101",
+          "sha256": "f1ca204dcdcfe7612a716176f8e5ea8f292762c41d61ebd2bde7a28729a7fda2",
           "scenes": [
             2
           ]
@@ -524,14 +524,14 @@
         "public_image": "projects/raznoe/references/darya.png",
         "full_image": "projects/raznoe/references/darya.png"
       },
-      "outfit_variant": "Женщина 30 лет: тёмно-коричневая кожа, длинная чёрная коса через плечо, тёплые тёмные глаза, добрая улыбка; шалфейно-зелёная льняная рубашка, кремовые брюки, мягкая обувь.",
+      "outfit_variant": "Женщина 30 лет: светлая кожа, славянская/русская внешность, длинная чёрная коса через плечо, тёплые тёмные глаза, добрая улыбка; шалфейно-зелёная льняная рубашка, кремовые брюки, мягкая обувь.",
       "variants": [],
       "provenance": {
         "project": "raznoe",
         "created": "2026-11-01",
         "status": "generated",
         "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
-        "sha256": "b7718460de55c31d0ba87c83a17800c3d51f94fc641cf17ccf157876739edbf2",
+        "sha256": "65c40ecb6b8777471714a108e678ac9b7d73e1d9a77d32933a977a3737e778e4",
         "width": 1536,
         "height": 1024,
         "editorial_status": "not_approved"
@@ -542,7 +542,7 @@
           "caption": "S2-D1 · Дарья Андреевна (специалист) — лист · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
-          "sha256": "b7718460de55c31d0ba87c83a17800c3d51f94fc641cf17ccf157876739edbf2",
+          "sha256": "65c40ecb6b8777471714a108e678ac9b7d73e1d9a77d32933a977a3737e778e4",
           "scenes": [
             2
           ]

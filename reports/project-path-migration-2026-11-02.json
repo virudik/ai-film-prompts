@@ -28,8 +28,8 @@
   },
   "terratech": {
     "scenes": [26, 27, 28, 29, 30],
-    "aspect": "9:16",
-    "canvas": "1080×1920",
+    "aspect": "16:9",
+    "canvas": "1672×941",
     "editorial_status": "not_approved",
     "asset_status": "pending",
     "png": "не создавались",

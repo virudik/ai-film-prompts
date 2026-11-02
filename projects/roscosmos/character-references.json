@@ -2,7 +2,7 @@
   "schema_version": 2,
   "project": "roscosmos",
   "updated_at": "2026-11-02T22:30:00Z",
-  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 вертикальных PNG pending, not_approved.",
+  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 горизонтальных PNG 1672×941 pending, not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -1293,14 +1293,14 @@
     },
     {
       "id": "roscosmos-tt-26-tt26-report",
-      "name": "@Image1 — аналитик и высокий монитор. PNG 1080×1920 ещё нет.",
+      "name": "@Image1 — аналитик и высокий монитор. PNG 1672×941 ещё нет.",
       "kind": "situation_reference",
       "scenes": [
         26
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1308,9 +1308,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1318,14 +1318,14 @@
     },
     {
       "id": "roscosmos-tt-26-tt26-orbit",
-      "name": "@Image2 — та же дельта с орбиты. PNG 1080×1920 ещё нет.",
+      "name": "@Image2 — та же дельта с орбиты. PNG 1672×941 ещё нет.",
       "kind": "situation_reference",
       "scenes": [
         26
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1333,9 +1333,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1350,7 +1350,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1358,9 +1358,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1375,7 +1375,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1383,9 +1383,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1400,7 +1400,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1408,9 +1408,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1425,7 +1425,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1433,9 +1433,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1450,7 +1450,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1458,9 +1458,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1475,7 +1475,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1483,9 +1483,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1500,7 +1500,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1508,9 +1508,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }
@@ -1525,7 +1525,7 @@
       ],
       "editorial_status": "not_approved",
       "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Вертикаль 9:16, 1080×1920, без надписей и логотипов. Рисовать по projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt. not_approved.",
+      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt. not_approved.",
       "images": [],
       "pending_images": [
         {
@@ -1533,9 +1533,9 @@
           "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
           "editorial_status": "not_approved",
           "asset_status": "pending",
-          "width": 1080,
-          "height": 1920,
-          "aspect_ratio": "9:16",
+          "width": 1672,
+          "height": 941,
+          "aspect_ratio": "16:9",
           "created_by": null,
           "source_type": "pending_owner_drawing"
         }

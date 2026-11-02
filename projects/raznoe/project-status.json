@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-02T22:34:38Z",
+  "synced_at": "2026-11-02T22:47:28Z",
   "revision_date": "03.11.2026",
   "master_declared_last_full_sync": "02.11.2026 · оба сюжета и 24 промпта сохранены; 59/59 отдельных PNG прикреплены к персонажам, раскадровкам и сценам. Техническая готовность не означает художественного одобрения; видео не запускались.",
-  "canonical_master_sha256": "2edc36afc50af0f14b8c542376ec7b9a9e699b352b716f3529cabfa2a6fd1b0f",
-  "canonical_revision_sha256": "47373529c396ae89ced5c9ab1b5e195f9b94d2ca53d031e63039875f9656ef1a",
-  "canonical_master_bytes": 287959,
+  "canonical_master_sha256": "8e371213863442532ac23b655e014a3504f51df751f0f50c74fbdd417bf10a39",
+  "canonical_revision_sha256": "8cdd4d0fbb1cda9b8f66befb6db36da435fb84ded9ad9c6822b3dfd5bfe5fe43",
+  "canonical_master_bytes": 287716,
   "scenes": 2,
   "prompt_texts": 24,
   "work_items": [],
@@ -22,20 +22,20 @@
   "latest_scene": 2,
   "reserved_scene_ids": [],
   "instruction_sync": {
-    "health": "stale",
-    "snapshot_at": "2026-11-02T22:34:38.545Z",
+    "health": "ok",
+    "snapshot_at": "2026-11-02T22:35:48.357Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": -0.0,
+    "age_hours_at_status_build": 0.194,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
         "drive_copy_checked_at": "2026-11-02T11:09:48.918Z",
         "drive_copy_modified_at": "2026-11-01T10:28:54.795Z",
-        "github_blob": "64be5f3b3bf35e6ff4f30e1a7bf9070c619183dc",
-        "mirror_sha256": "b123aa11969f90d555157e2ba7b7c77d13f8cf241ff22fdadd65a6a8547d7bbc",
+        "github_blob": "e4be8b0ec4f10940e9056915e2578e2ad7619465",
+        "mirror_sha256": "6240dd1c3810707322a4e2c78f1b794c45a2441f4cf49214aad37d7abec5c180",
         "match": true,
         "drive_copy_match": false
       },
@@ -104,8 +104,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "stale",
-      "age_hours": -0.0,
+      "state": "ok",
+      "age_hours": 0.194,
       "blocking": false
     },
     "topview_task_map": {
@@ -164,9 +164,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "03.11.2026",
-    "synced_at": "2026-11-02T22:34:38Z",
-    "canonical_master_sha256": "2edc36afc50af0f14b8c542376ec7b9a9e699b352b716f3529cabfa2a6fd1b0f",
-    "canonical_revision_sha256": "47373529c396ae89ced5c9ab1b5e195f9b94d2ca53d031e63039875f9656ef1a",
+    "synced_at": "2026-11-02T22:47:28Z",
+    "canonical_master_sha256": "8e371213863442532ac23b655e014a3504f51df751f0f50c74fbdd417bf10a39",
+    "canonical_revision_sha256": "8cdd4d0fbb1cda9b8f66befb6db36da435fb84ded9ad9c6822b3dfd5bfe5fe43",
     "scene_count": 2,
     "prompt_count": 24,
     "scene_ids": [
@@ -176,7 +176,7 @@
     "work_items": [],
     "slow_scenes": [],
     "health": "ok",
-    "instruction_sync_health": "stale"
+    "instruction_sync_health": "ok"
   },
   "health": "ok",
   "checks": {
@@ -209,7 +209,8 @@
     "scene_meta_allowed_fields_valid": true,
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
-    "scene_meta_target_engine_valid": true
+    "scene_meta_target_engine_valid": true,
+    "instruction_mirrors_match_drive": true
   },
   "project": "raznoe",
   "project_name": "Разное"

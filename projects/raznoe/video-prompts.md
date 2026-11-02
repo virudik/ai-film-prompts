@@ -24,43 +24,38 @@
 Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Платных и бесплатных видеозапусков по этим сценам нет. Следующий шаг — художественная проверка и выбор клиентского объёма. Старые космические сцены — в проекте «Роскосмос».
 
 <a id="misc-pricing"></a>
-## 💰 Стоимость платной генерации за покупные кредиты в рублях · 02.11.2026
+## Стоимость производства (цены сайта Topview, редакция 02.11.2026)
 
-**Всё считается без подписки и без Unlimited:** каждый запуск платный, кредиты приобретаются отдельно. Две независимые истории **по 120 с** — «Тихий маяк» (26 готовых референсов) и «Тихая планета» (33). Всего **59/59 PNG, 24 промпта**. Изображения пока **not_approved**, обе сцены **DRAFT**, видео не запускались.
+> Заменяет расчёт по iOS-пакетам. Источник цен: topview.ai/pricing → Buy Credits, проверено в браузере 02.11.2026 (USD · Stripe, цена со скидкой). Курс ЦБ РФ 80,9734 ₽/$ на 03.11.2026 (предыдущий 80,5573 от 31.10.2026). Не оферта; покупок и платных генераций не было.
 
-**Основа рублёвой цены — [пакеты официального приложения Topview PTE. LTD. в App Store РФ](https://apps.apple.com/ru/app/topview-marketing-video-agent/id6755100356):** 25 кредитов — **1 190 ₽**, 100 — **4 490 ₽**, 250 — **9 990 ₽**, 500 — **19 990 ₽**, 1 000 — **24 990 ₽**. Консервативно **39,96 ₽/кр.** при покупке 250; при подтверждённом доступе к пакету 1 000 — **24,99 ₽/кр.** Это цены **iOS-покупок**, не доказанная цена покупки в браузерном topview.ai: возможность оплаты и общего web-баланса ещё не проверена. Точные суммы пакетов могут поменяться.
+**Пакеты кредитов:** 25 кр. — $8 (25,91 ₽/кр.) · 100 — $26 (21,05) · 250 — $60 (19,43) · 500 — $108 (17,49) · 1000 — $199 (16,11) и 5000 — $936 (15,16) только при подписке Business/Ultra/Team Annual (в расчётах — сценарий «если доступно»).
+**Ставки 720p (без скидки подписки):** Wan 3.0 — 0,5 кр./с; Seedance 2.0 — 1 кр./с; Seedance 2.5 — 1,5 кр./с.
 
-**Платные ставки моделей 720p, 9:16 без скидки Ultra**, [источник Topview](https://www.topview.ai/pricing):
+### Резерв на повторные генерации
+Кредиты на сцену = первый проход × K ÷ (1 − f).
+- **K** — художественные дубли и отбор (коэффициенты прежней версии): Wan 3.0 — 4/5/6; Seedance 2.0 и 2.5 — 2/3/4 (мин/расчёт/макс). Проверка по доске «Серёгиус»: 8 398 успешных секунд на 3 529 с монтажа ≈ 2,4.
+- **f** — доля неудачных платных попыток: 5/10/15%. Основание — доска: 459 задач, 430 success, 23 fail, 6 init → 23 ошибки на 453 завершённые = 5,1% (Seedance 2.0 — 3,9%, Wan 3.0 — 3,0%, Seedance 2.5 — 12,7%).
+- **Переделки по правкам клиента:** включены 2 круга, каждый перегенерирует до 25% хронометража (= 2 × 25% × первый проход × K ÷ (1 − f)). Третий и далее круги — по ставке 1 800–2 500 ₽/ч или 7–18 тыс. ₽ за эпизод + кредиты по факту.
 
-| Модель | Состав одного 120-секундного фильма | Кредитов за один полный проход | С запасом повторов |
-|---|---|---:|---:|
-| **Wan 3.0** | 4 × 30 с по 15 кр. | **60** | 4–6 проходов = 240–360 кр. |
-| **Seedance 2.0** | 8 × 15 с по 15 кр. | **120** | 2–4 прохода = 240–480 кр. |
-| **Seedance 2.5** | 4 × 30 с по 45 кр. | **180** | 2–4 прохода = 360–720 кр. |
+### Одна сцена ≈120 с, 720p, расчётный уровень (касса — целые пакеты 25/100/250/500)
+| Движок | 1-й проход | Дубли | Повтор неудачных | Генерация | Переделки | Всего | Касса, ₽ (без комиссии) | С комиссией +10%* |
+|---|---|---|---|---|---|---|---|---|
+| Wan 3.0 | 60 | 240 | 34 | 334 | 167 | **501 кр.** | **9 393** | 10 332 |
+| Seedance 2.0 | 120 | 240 | 40 | 400 | 200 | **600 кр.** | **10 850** | — |
+| Seedance 2.5 | 180 | 360 | 60 | 600 | 300 | **900 кр.** | **17 004** | — |
 
-**Сколько рублей потребуется заплатить за целые пакеты**, чтобы хватило на нужные кредиты, **включая переделки**:
+Диапазон мин–макс (с переделками): Wan 3.0 — 8 259–12 146 ₽; Seedance 2.0 — 8 259–15 709 ₽; Seedance 2.5 — 10 688–22 996 ₽. Только генерация (без переделок): Wan 5 506–8 745; S2.0 5 506–10 688; S2.5 8 259–15 709 ₽.
+Две сцены (с переделками): Wan 14 251–22 996; S2.0 14 251–30 446; S2.5 20 891–45 021 ₽.
+Было (iOS, только генерация, без отдельного бюджета переделок): Wan 9 990–15 670 ₽ на сцену.
 
-| Платный 720p | **Один фильм 120 с**, обычные пакеты | **Два фильма 240 с**, обычные пакеты | При наличии пакета 1000: один / два |
-|---|---:|---:|---:|
-| Wan 3.0 | **9 990–15 670 ₽** | **19 980–29 970 ₽** | 9 990–15 670 / 19 980–24 990 ₽ |
-| Seedance 2.0 | **9 990–19 980 ₽** | **19 980–39 960 ₽** | 9 990–19 980 / 19 980–24 990 ₽ |
-| Seedance 2.5 | **15 670–29 970 ₽** | **29 970–58 930 ₽** | 15 670–24 990 / 24 990–43 960 ₽ |
+\*Допущение: оплата из РФ через посредника может стоить дороже; +10% — не измеренное допущение.
 
-**Почему касса дороже стоимости использованных кредитов:** пакеты продаются целыми, остаток токенов может пойти на другие заказы. Например, 720 кр. для Seedance 2.5: **3×250 за 29 970 ₽**, или при доступности 1 000 — **24 990 ₽ с остатком 280 кредитов**. Расходы на голос, музыку, монтаж, авторские материалы, работу, налоги и резерв **не включены в таблицу генераций**. Для 1080p см. подробную смету.
+### Цена клиенту (не изменилась)
+Лайт 45–60 с — 59 000 ₽ · одна сцена ≈120 с — 145 000 ₽ · две сцены — 265 000 ₽ (вторая как опция: +120 000 ₽) · 120 с с нуля — от 195 000 ₽ · бизнес/реклама — от 230 000 ₽. Оплата 50/30/20.
+Внутренний бюджет 145 000 ₽: труд 62 400 + техдефекты 10 400 + **кредиты 25 300 (было 30 000; генерация с запасом 16 900 + переделки 8 400)** + музыка/озвучка 4 500 + администрирование 5 000 = 107 600 (было 112 300); налоговый резерв 8 700; **остаток 28 700 (было 24 000)**. Строка кредитов рассчитана на самый дорогой сценарий (Seedance 2.5, макс. K, f=15%, 2 круга переделок, +10%).
 
-**Цена заказчику под ключ с учётом покупки токенов, технических переделок и работы:**
-
-| Формат | Что оплачивается | Предварительная цена |
-|---|---|---:|
-| **Упрощённый ролик 45–60 с** | 1–2 героя, 6–10 кадров, озвучка, субтитры, монтаж, технологическое исправление | **59 000 ₽** |
-| **Один полноценный 120 с** | Уже готовые персонажи/референсы, до 8 смысловых эпизодов, подбор дублей и звук | **145 000 ₽** |
-| **Два самостоятельных ролика по 120 с** | Два монтажа и озвучки, 59 PNG, общий производственный процесс | **265 000 ₽** |
-| **120 с с нуля** | Новый сюжет и персонажи, референсы, постановка, платные рендеры и звук | **от 195 000 ₽** |
-| **Для бизнеса/рекламы** | Бренд, права, повышенные требования и согласования | **от 230 000 ₽** |
-
-**Как обоснованы 145 тыс. ₽:** 48 часов труда ×1 300 = **62 400 ₽**, ещё 8 часов исправлений **10 400 ₽**, рублёвый бюджет покупки токенов **30 000 ₽**, музыка/голос **4 500 ₽**, накладные **5 000 ₽**, итого **112 300 ₽** до налогов. При условном налоге 6% остаётся **24 000 ₽** на прибыль и риск. Это оценка трудозатрат, не подтверждённая бухгалтерская отчётность.
-
-**Правки:** технический брак в **утверждённом ТЗ** исправляется без нового счёта; входят три этапа обратной связи (сценарий/стиль, черновой монтаж, финальный звук/титры). Новые герои, сюжет, секунды и дополнительные объёмы — по отдельному предварительно согласованному бюджету. Сначала **50% аванс**, затем 30% после черновика, 20% при сдаче; покупка токенов сверх согласованного лимита без разрешения запрещена.
+### Не подтверждено
+Доступность оплаты из РФ и итоговая комиссия; срок сгорания пополнений; применимость пополнений («All top-up credits can be used for API calls») к web-генерациям доски; ставки 1080p не перепроверялись.
 
 **[Подробный расчёт по пакетам, 480/720/1080p, переделкам и договору](projects/raznoe/reports/commission-pricing-2026-11-02.md)** · **[«Серёгиус»: вся My First Board в платных рублёвых кредитах](reports/seregius-topview-production-audit-2026-11-02.md)**. **Видеозапуски и любые списания по «Разному» — только после новой прямой команды владельца.**
 
@@ -152,7 +147,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
-MAMA LENA: 34-year-old woman, tan skin, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
+MAMA LENA: 34-year-old woman, светлая кожа, славянская/русская внешность, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
 
 SPECIAL LOCKS:
 Sound is shown only as soft glowing abstract shapes (dots, wavy rings, a sharp teal-white ribbon for the kettle); no letters, no symbols. One round wall clock, one whistling kettle on the stove, one bowl of cereal. Other children are blurred, generic background figures without close-ups; their noise is shown as translucent blue ripples travelling through the air. Exactly five sea-glass pieces end up in a straight line. The kitchen half and the courtyard half are one continuous day: same hoodie, same hair, no new characters in the courtyard close-ups.
@@ -246,7 +241,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
-MAMA LENA: 34-year-old woman, tan skin, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
+MAMA LENA: 34-year-old woman, светлая кожа, славянская/русская внешность, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
 SONYA: 12-year-old girl, fair skin with rosy cheeks, long straight light-brown hair in a side braid, round blue-grey eyes, lilac windbreaker with a small cluster of enamel pins on the pocket, jeans, white sneakers.
 
 SPECIAL LOCKS:
@@ -446,7 +441,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
 BUBLIK: medium-large fluffy cream-and-apricot mixed-breed dog with floppy ears, dark brown nose, kind dark eyes and a sky-blue bandana.
 VARYA: 6-year-old girl, light skin with freckles, two short dark-brown pigtails with orange hair ties, gap-toothed smile; light-blue dungarees over a striped tee.
-MAMA LENA: 34-year-old woman, tan skin, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
+MAMA LENA: 34-year-old woman, светлая кожа, славянская/русская внешность, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
 SONYA: 12-year-old girl, fair skin with rosy cheeks, long straight light-brown hair in a side braid, round blue-grey eyes, lilac windbreaker with a small cluster of enamel pins on the pocket, jeans, white sneakers.
 
 SPECIAL LOCKS:
@@ -539,7 +534,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
-MAMA LENA: 34-year-old woman, tan skin, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
+MAMA LENA: 34-year-old woman, светлая кожа, славянская/русская внешность, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
 
 SPECIAL LOCKS:
 Sound is shown only as soft glowing abstract shapes (dots, wavy rings, a sharp teal-white ribbon for the kettle); no letters, no symbols. One round wall clock, one whistling kettle on the stove, one bowl of cereal.
@@ -756,7 +751,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
-MAMA LENA: 34-year-old woman, tan skin, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
+MAMA LENA: 34-year-old woman, светлая кожа, славянская/русская внешность, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
 SONYA: 12-year-old girl, fair skin with rosy cheeks, long straight light-brown hair in a side braid, round blue-grey eyes, lilac windbreaker with a small cluster of enamel pins on the pocket, jeans, white sneakers.
 
 SPECIAL LOCKS:
@@ -1069,7 +1064,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 YARIK: 7-year-old boy, small for his age, light warm-olive skin, tousled dark-brown wavy hair with a cowlick at the crown, large hazel-brown eyes, light freckles across the nose, slightly prominent ears; brick-red hooded sweatshirt with a small white sailboat patch on the chest, navy trousers, grey velcro sneakers. Same face, hair and proportions in every shot.
-MAMA LENA: 34-year-old woman, tan skin, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
+MAMA LENA: 34-year-old woman, светлая кожа, славянская/русская внешность, dark-brown curly hair in a high loose bun with a few strands free, warm dark eyes, soft laugh lines, no glasses; light-blue denim shirt with rolled sleeves over a white tee, dark jeans.
 SONYA: 12-year-old girl, fair skin with rosy cheeks, long straight light-brown hair in a side braid, round blue-grey eyes, lilac windbreaker with a small cluster of enamel pins on the pocket, jeans, white sneakers.
 BUBLIK: medium-large fluffy cream-and-apricot mixed-breed dog with floppy ears, dark brown nose, kind dark eyes and a sky-blue bandana.
 
@@ -1308,7 +1303,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MAMA VERA: 35-year-old woman, light-olive skin, auburn shoulder-length bob with side-swept fringe, round tortoiseshell glasses, hazel eyes, a small beauty mark on the left cheek; terracotta knit cardigan with big patch pockets over a cream blouse, dark-blue jeans, thin gold hoop earrings.
-GRANDMA NINA: 62-year-old woman, tall and upright, warm tan skin, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
+GRANDMA NINA: 62-year-old woman, tall and upright, светлая кожа, славянская/русская внешность, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
 LILYA THE BARBER: 28-year-old woman, pale freckled skin, short pink-dyed pixie cut, red barber apron over a black t-shirt, small silver scissors in her hand.
 
 SPECIAL LOCKS:
@@ -1413,8 +1408,8 @@ REFERENCES / AUTHORITY ORDER:
 Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-GRANDMA NINA: 62-year-old woman, tall and upright, warm tan skin, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
-DARYA ANDREEVNA (the specialist): 30-year-old woman, deep-brown skin, long black braid over one shoulder, warm dark eyes, kind steady smile; sage-green linen shirt, cream trousers, soft flat shoes.
+GRANDMA NINA: 62-year-old woman, tall and upright, светлая кожа, славянская/русская внешность, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
+DARYA ANDREEVNA (the specialist): 30-year-old woman, светлая кожа, славянская/русская внешность, long black braid over one shoulder, warm dark eyes, kind steady smile; sage-green linen shirt, cream trousers, soft flat shoes.
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MIRON IN HIS SPACE SUIT (opening and finale only): the same boy in a mint-and-cream quilted space suit with copper rings at the neck and wrists and a small white rocket patch on the chest, orange boots, and a clear round glass dome helmet with a thin copper rim; when he wears the dome with ordinary clothes it is the same dome.
 MAMA VERA: 35-year-old woman, light-olive skin, auburn shoulder-length bob with side-swept fringe, round tortoiseshell glasses, hazel eyes, a small beauty mark on the left cheek; terracotta knit cardigan with big patch pockets over a cream blouse, dark-blue jeans, thin gold hoop earrings.
@@ -1531,7 +1526,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MAMA VERA: 35-year-old woman, light-olive skin, auburn shoulder-length bob with side-swept fringe, round tortoiseshell glasses, hazel eyes, a small beauty mark on the left cheek; terracotta knit cardigan with big patch pockets over a cream blouse, dark-blue jeans, thin gold hoop earrings.
-GRANDMA NINA: 62-year-old woman, tall and upright, warm tan skin, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
+GRANDMA NINA: 62-year-old woman, tall and upright, светлая кожа, славянская/русская внешность, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
 DOCTOR MARK LVOVICH: 52-year-old man, bald with grey hair at the sides, trimmed grey beard, round blue-framed glasses, calm gentle expression; white coat over a checked shirt, stethoscope around the neck.
 MIRON IN HIS SPACE SUIT (opening and finale only): the same boy in a mint-and-cream quilted space suit with copper rings at the neck and wrists and a small white rocket patch on the chest, orange boots, and a clear round glass dome helmet with a thin copper rim; when he wears the dome with ordinary clothes it is the same dome.
 TUMAN: gentle grey dappled horse with a white mane and tail, kind dark eyes, a brown saddle blanket and a small navy children's riding helmet on the boy (never on the horse).
@@ -1888,7 +1883,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MAMA VERA: 35-year-old woman, light-olive skin, auburn shoulder-length bob with side-swept fringe, round tortoiseshell glasses, hazel eyes, a small beauty mark on the left cheek; terracotta knit cardigan with big patch pockets over a cream blouse, dark-blue jeans, thin gold hoop earrings.
-GRANDMA NINA: 62-year-old woman, tall and upright, warm tan skin, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
+GRANDMA NINA: 62-year-old woman, tall and upright, светлая кожа, славянская/русская внешность, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
 LILYA THE BARBER: 28-year-old woman, pale freckled skin, short pink-dyed pixie cut, red barber apron over a black t-shirt, small silver scissors in her hand.
 
 SPECIAL LOCKS:
@@ -1973,8 +1968,8 @@ REFERENCES / AUTHORITY ORDER:
 Priority: the individual character sheets (horizontal turnaround sheets, used for identity only) control faces, hair, ages, proportions and clothing; location and prop images (vertical 9:16 frames) control only their named elements, recomposed for a vertical frame; never blend faces; do not import incidental people or props from location images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-GRANDMA NINA: 62-year-old woman, tall and upright, warm tan skin, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
-DARYA ANDREEVNA (the specialist): 30-year-old woman, deep-brown skin, long black braid over one shoulder, warm dark eyes, kind steady smile; sage-green linen shirt, cream trousers, soft flat shoes.
+GRANDMA NINA: 62-year-old woman, tall and upright, светлая кожа, славянская/русская внешность, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
+DARYA ANDREEVNA (the specialist): 30-year-old woman, светлая кожа, славянская/русская внешность, long black braid over one shoulder, warm dark eyes, kind steady smile; sage-green linen shirt, cream trousers, soft flat shoes.
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MIRON IN HIS SPACE SUIT (opening and finale only): the same boy in a mint-and-cream quilted space suit with copper rings at the neck and wrists and a small white rocket patch on the chest, orange boots, and a clear round glass dome helmet with a thin copper rim; when he wears the dome with ordinary clothes it is the same dome.
 
@@ -2064,7 +2059,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MAMA VERA: 35-year-old woman, light-olive skin, auburn shoulder-length bob with side-swept fringe, round tortoiseshell glasses, hazel eyes, a small beauty mark on the left cheek; terracotta knit cardigan with big patch pockets over a cream blouse, dark-blue jeans, thin gold hoop earrings.
-DARYA ANDREEVNA (the specialist): 30-year-old woman, deep-brown skin, long black braid over one shoulder, warm dark eyes, kind steady smile; sage-green linen shirt, cream trousers, soft flat shoes.
+DARYA ANDREEVNA (the specialist): 30-year-old woman, светлая кожа, славянская/русская внешность, long black braid over one shoulder, warm dark eyes, kind steady smile; sage-green linen shirt, cream trousers, soft flat shoes.
 LILYA THE BARBER: 28-year-old woman, pale freckled skin, short pink-dyed pixie cut, red barber apron over a black t-shirt, small silver scissors in her hand.
 
 SPECIAL LOCKS:
@@ -2155,7 +2150,7 @@ Priority: the individual character sheets (horizontal turnaround sheets, used fo
 CHARACTER APPEARANCE / IDENTITY LOCK:
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MAMA VERA: 35-year-old woman, light-olive skin, auburn shoulder-length bob with side-swept fringe, round tortoiseshell glasses, hazel eyes, a small beauty mark on the left cheek; terracotta knit cardigan with big patch pockets over a cream blouse, dark-blue jeans, thin gold hoop earrings.
-GRANDMA NINA: 62-year-old woman, tall and upright, warm tan skin, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
+GRANDMA NINA: 62-year-old woman, tall and upright, светлая кожа, славянская/русская внешность, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
 DOCTOR MARK LVOVICH: 52-year-old man, bald with grey hair at the sides, trimmed grey beard, round blue-framed glasses, calm gentle expression; white coat over a checked shirt, stethoscope around the neck.
 
 SPECIAL LOCKS:
@@ -2246,7 +2241,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 MIRON: 5-year-old boy, small and slight, fair skin with rosy cheeks, soft curly honey-blond hair falling over his forehead, large round green eyes with long lashes, a small gap between the front teeth; mustard-yellow zip hoodie with a small white rocket patch on the chest, forest-green trousers, orange sneakers. Same face, hair and proportions in every shot.
 MIRON IN HIS SPACE SUIT (opening and finale only): the same boy in a mint-and-cream quilted space suit with copper rings at the neck and wrists and a small white rocket patch on the chest, orange boots, and a clear round glass dome helmet with a thin copper rim; when he wears the dome with ordinary clothes it is the same dome.
 MAMA VERA: 35-year-old woman, light-olive skin, auburn shoulder-length bob with side-swept fringe, round tortoiseshell glasses, hazel eyes, a small beauty mark on the left cheek; terracotta knit cardigan with big patch pockets over a cream blouse, dark-blue jeans, thin gold hoop earrings.
-GRANDMA NINA: 62-year-old woman, tall and upright, warm tan skin, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
+GRANDMA NINA: 62-year-old woman, tall and upright, светлая кожа, славянская/русская внешность, short silver-white curly hair, strong expressive eyebrows, no glasses, large silver hoop earrings; plum-purple track jacket with white side stripes, grey joggers, white sneakers, a sports whistle on a lanyard (a retired swimming coach).
 TUMAN: gentle grey dappled horse with a white mane and tail, kind dark eyes, a brown saddle blanket and a small navy children's riding helmet on the boy (never on the horse).
 
 SPECIAL LOCKS:

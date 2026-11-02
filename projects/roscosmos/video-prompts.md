@@ -11,9 +11,9 @@
 - **🛠️ 0** рабочих направлений W: 20 предложений оформлены отдельными сценами.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
 - **Последняя оформленная активная сцена:** 30 — ТерраТех: Сервис, а не сырой снимок. Сцены 26–30 ждут PNG.
-- **Последняя полная синхронизация:** **02.11.2026 · Терра Тех: сцены 26–30, вертикаль 9:16, референсы pending; прежние 25 сцен не менялись**.
+- **Последняя полная синхронизация:** **02.11.2026 · Терра Тех: сцены 26–30, горизонталь 16:9, референсы pending; прежние 25 сцен не менялись**.
 
-**Роскосмос, Главкосмос, РКС, НЦ ОМЗ и ЦПК:** 25 разработанных сцен; все 12 дополнительных идей стали сценами; **27.10.2026 номера сцен перестроены по организациям: Роскосмос 1–5, Главкосмос 6–10, РКС 11–15, НЦ ОМЗ 16–20, ЦПК 21–25** (прежний номер → новый: 3→6, 4→7, 5→11, 6→12, 7→16, 8→17, 9→3, 10→4, 11→5, 12→8, 13→9, 14→10, 15→13, 16→14, 17→15; 1, 2 и 18–25 не изменились; отчёты до 27.10 используют прежние номера); **27.10.2026 добавлены 5 сцен ЦПК имени Ю.А. Гагарина (21–25)** — по пять на каждую организацию, по новостям ЦПК 23–26.10.2026 и его постоянным темам. Референсы к ним рисует открытый чат ChatGPT Work; до этого сцены 21–25 не запускать. Всего 35 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций. **02.11.2026 добавлены сцены 26–30 АО «Терра Тех»** — тоже по пять на организацию, вертикаль 9:16; десять PNG ещё не нарисованы и в очередь не поставлены. Прежние 29 пунктов очереди остаются на паузе.
+**Роскосмос, Главкосмос, РКС, НЦ ОМЗ и ЦПК:** 25 разработанных сцен; все 12 дополнительных идей стали сценами; **27.10.2026 номера сцен перестроены по организациям: Роскосмос 1–5, Главкосмос 6–10, РКС 11–15, НЦ ОМЗ 16–20, ЦПК 21–25** (прежний номер → новый: 3→6, 4→7, 5→11, 6→12, 7→16, 8→17, 9→3, 10→4, 11→5, 12→8, 13→9, 14→10, 15→13, 16→14, 17→15; 1, 2 и 18–25 не изменились; отчёты до 27.10 используют прежние номера); **27.10.2026 добавлены 5 сцен ЦПК имени Ю.А. Гагарина (21–25)** — по пять на каждую организацию, по новостям ЦПК 23–26.10.2026 и его постоянным темам. Референсы к ним рисует открытый чат ChatGPT Work; до этого сцены 21–25 не запускать. Всего 35 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций. **02.11.2026 добавлены сцены 26–30 АО «Терра Тех»** — тоже по пять на организацию, горизонталь 16:9, холст 1672×941, как у сцен 1–25; десять PNG ещё не нарисованы и в очередь не поставлены. Прежние 29 пунктов очереди остаются на паузе.
 
 **Все сцены прошли режиссёрскую доработку; художественная приёмка результатов остаётся за владельцем.** 23.10 владелец поручил после доработки занимать свободные слоты по запланированной очереди и оценивать результаты. Добавлена ограниченная очередь: одна выбранная версия на сцену, без автоматических повторов. Для второй части Seedance нужен настоящий результат первой. Подготовленная очередь не означает состоявшуюся отправку; факты запуска — в квитанциях. Только подтверждённый Unlimited и 0 кредитов; вкладка Seedance 2.5 сама по себе не подтверждает бесплатную доступность.
 
@@ -5008,30 +5008,30 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-26"></a>
 ## Сцена 26 — ТерраТех: Космос становится отчётом
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","vertical_9_16"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
 
-**Контекст использования:** Имиджевый вертикальный ролик: снимок с орбиты становится понятным цветным слоем, который человек ещё раз смотрит. **Постоянная тема · «Цифровая Земля».**
+**Контекст использования:** Имиджевый горизонтальный ролик 16:9: снимок с орбиты становится понятным цветным слоем, который человек ещё раз смотрит. **Постоянная тема · «Цифровая Земля».**
 
-**Что происходит:** Вертикальный кадр заполняет дельта реки. Тот же контур оказывается на высоком мониторе. Аналитик проводит пальцем по маске, коллега коротко кивает, маска замирает ровным цветом.
+**Что происходит:** Широкий кадр заполняет дельта реки. Тот же контур оказывается на высоком мониторе. Аналитик проводит пальцем по маске, коллега коротко кивает, маска замирает ровным цветом.
 
 **Факт и художественное решение:** АО «Терра Тех» разрабатывает геоплатформу «Цифровая Земля» по заказу Роскосмоса. В интервью 15.04.2026 на сайте компании сказано, что последний шаг на этой платформе делает человек, потому что сведения идут в государственные информационные системы. Это постановочный принцип, не отчёт о конкретном заказе и не проверка точности.
 
 **Источники (проверка 02.11.2026):** [Терра Тех — о компании](https://terratech.ru/company/) · [15.04.2026 — интервью](https://terratech.ru/company/news/kosmos-za-kopeyki-kak-neyroseti-i-snimki-iz-kosmosa-spasayut-biznes-i-ekonomyat-milliony/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`, вертикаль 1080×1920, ещё не нарисован. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`, тот же размер. Описание для рисунка: `tt26-report.image-prompt.txt` и `tt26-orbit.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`, горизонталь 1672×941, ещё не нарисован. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`, тот же размер. Описание для рисунка: `tt26-report.image-prompt.txt` и `tt26-orbit.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt"><figcaption>@Image1 — аналитик и высокий монитор. PNG 1080×1920 ещё нет. Рисовать по tt26-report.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt"><figcaption>@Image2 — та же дельта с орбиты. PNG 1080×1920 ещё нет. Рисовать по tt26-orbit.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt"><figcaption>@Image1 — аналитик и высокий монитор. PNG 1672×941 ещё нет. Рисовать по tt26-report.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt"><figcaption>@Image2 — та же дельта с орбиты. PNG 1672×941 ещё нет. Рисовать по tt26-orbit.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Снимок становится отчётом только после того, как на него посмотрел человек.»
 
 **Финальный титр для монтажа:** Терра Тех. Отчёт проверяют глазами.
 
-**Готовность:** Тексты готовы 02.11.2026. Оба PNG pending, not_approved, 1080×1920. В очередь не ставить: проект на паузе, картинок ещё нет. Часть 2 ждёт последние 3 секунды настоящей части 1.
+**Готовность:** Тексты готовы 02.11.2026. Оба PNG pending, not_approved, 1672×941. В очередь не ставить: проект на паузе, картинок ещё нет. Часть 2 ждёт последние 3 секунды настоящей части 1.
 
-**Режиссёрский контроль:** Один и тот же контур дельты в космосе и на мониторе. Маска без подписей. Вертикальная композиция на весь кадр.
+**Режиссёрский контроль:** Один и тот же контур дельты в космосе и на мониторе. Маска без подписей. Горизонтальная композиция 16:9 на весь кадр.
 
 <div class="engine-tabs" data-scene="26">
 <div class="engine-pane" data-engine="wan30" data-main="1">
@@ -5041,12 +5041,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Vertical civil Earth-observation concept, photoreal, purposeful
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Landscape civil Earth-observation concept, photoreal, purposeful
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a tall monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
-@Image2 — Vertical 9:16 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
+@Image2 — Landscape 16:9 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5060,16 +5060,16 @@ START STATE:
 
 TIMELINE:
 [0:00–0:04] The orbital delta glides downward through the tall frame; the bright atmospheric rim stays a thin curve, not a bar.
-[0:04–0:09] Match cut: the same delta shape is already on the tall monitor. Pull back to the analyst, her face above the screen.
+[0:04–0:09] Match cut: the same delta shape is already on the wide monitor. Pull back to the analyst, her face above the screen.
 [0:09–0:16] Her finger traces the teal mask; the mask edge follows the river, never forming a letter.
 [0:16–0:22] The colleague in the grey sweater leans in and gives one short nod. She lifts her finger.
 [0:22–0:30] The mask settles as an even translucent color. She rests her hand on the desk. Hold.
 
 END STATE:
-Office: the analyst still beside the tall monitor, mask even, colleague just behind her shoulder.
+Office: the analyst still beside the wide monitor, mask even, colleague just behind her shoulder.
 
 CAMERA / SPACE:
-Vertical 9:16 like an Instagram Reel. Stack the person above the tall monitor or let the orbital view fill the frame. No landscape crop, no side bars, no letterbox.
+Landscape 16:9, same frame as the other Roscosmos scenes. The analyst and the wide monitor share one horizontal frame; the orbital view fills the frame edge to edge. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5095,12 +5095,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical civil Earth-observation concept, photoreal, purposeful
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape civil Earth-observation concept, photoreal, purposeful
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a tall monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
-@Image2 — Vertical 9:16 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
+@Image2 — Landscape 16:9 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5114,14 +5114,14 @@ START STATE:
 
 TIMELINE:
 [0:00–0:04] The orbital delta glides downward through the tall frame.
-[0:04–0:09] Match cut onto the tall monitor; pull back to the analyst's face above it.
+[0:04–0:09] Match cut onto the wide monitor; pull back to the analyst's face above it.
 [0:09–0:15] Her finger traces the teal mask along the river. Keep the finger moving over the final 3 seconds.
 
 END STATE:
 Her finger is still moving along the mask. Preserve that motion for the next part.
 
 CAMERA / SPACE:
-Vertical 9:16 like an Instagram Reel. Stack the person above the tall monitor or let the orbital view fill the frame. No landscape crop, no side bars, no letterbox.
+Landscape 16:9, same frame as the other Roscosmos scenes. The analyst and the wide monitor share one horizontal frame; the orbital view fills the frame edge to edge. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5144,12 +5144,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical civil Earth-observation concept, photoreal, purposeful
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape civil Earth-observation concept, photoreal, purposeful
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a tall monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
-@Image2 — Vertical 9:16 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
+@Image2 — Landscape 16:9 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
 @Video1 — final 3 seconds of the actual Part 1 of THIS scene; absolute authority for the moving finger, camera and mask.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
@@ -5171,7 +5171,7 @@ END STATE:
 Office: analyst beside the monitor, mask even, colleague just behind her.
 
 CAMERA / SPACE:
-Vertical 9:16 like an Instagram Reel. Stack the person above the tall monitor or let the orbital view fill the frame. No landscape crop, no side bars, no letterbox.
+Landscape 16:9, same frame as the other Roscosmos scenes. The analyst and the wide monitor share one horizontal frame; the orbital view fills the frame edge to edge. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5195,7 +5195,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-27"></a>
 ## Сцена 27 — ТерраТех: Три шага
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","vertical_9_16"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
 
 **Контекст использования:** Коротко показать автоматический сервис: человек выбирает место и задачу, слой появляется сам. **Продукт Pixel.AI · интервью 15.04.2026, без цены.**
 
@@ -5205,18 +5205,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [15.04.2026 — интервью на сайте Терра Тех](https://terratech.ru/company/news/kosmos-za-kopeyki-kak-neyroseti-i-snimki-iz-kosmosa-spasayut-biznes-i-ekonomyat-milliony/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Оба 1080×1920, pending. Промпты рисунка рядом, `tt27-*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Оба 1672×941, pending. Промпты рисунка рядом, `tt27-*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt"><figcaption>@Image1 — планшет и три пустых круга. Рисовать по tt27-tablet.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt"><figcaption>@Image2 — тот же планшет уже со слоем. Рисовать по tt27-layer.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt"><figcaption>@Image1 — планшет и три пустых круга. Рисовать по tt27-tablet.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt"><figcaption>@Image2 — тот же планшет уже со слоем. Рисовать по tt27-layer.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Три понятных действия. Цифру на экране мы не обещаем.»
 
 **Финальный титр для монтажа:** Терра Тех. Слой собирается сам.
 
-**Готовность:** PNG pending, not_approved, 9:16. Цену не рисовать и не запускать, пока картинок нет и пауза не снята.
+**Готовность:** PNG pending, not_approved, 16:9, 1672×941. Цену не рисовать и не запускать, пока картинок нет и пауза не снята.
 
 **Режиссёрский контроль:** Никакой цены, валюты и надписи «шаг 1». Поле на экране и поле за спиной — одно и то же.
 
@@ -5228,12 +5228,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Vertical service-explanation film, photoreal
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Landscape service-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
-@Image2 — Vertical close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her eyes and braid occupy the top of the frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
+@Image1 — Landscape 16:9: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
+@Image2 — Landscape close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her face and braid sit on the left of the wide frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5256,7 +5256,7 @@ END STATE:
 She holds the tablet lower, eyes returning to the colored field on the glass.
 
 CAMERA / SPACE:
-Vertical 9:16. Keep the tablet and the field stacked in the tall frame. No black bars above the sky or beside the jacket.
+Landscape 16:9. The woman, the tablet and the field share one wide frame. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5282,12 +5282,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical service-explanation film, photoreal
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape service-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
-@Image2 — Vertical close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her eyes and braid occupy the top of the frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
+@Image1 — Landscape 16:9: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
+@Image2 — Landscape close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her face and braid sit on the left of the wide frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5308,7 +5308,7 @@ END STATE:
 The color wash is still spreading. Preserve the motion.
 
 CAMERA / SPACE:
-Vertical 9:16. Keep the tablet and the field stacked in the tall frame. No black bars above the sky or beside the jacket.
+Landscape 16:9. The woman, the tablet and the field share one wide frame. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5331,12 +5331,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical service-explanation film, photoreal
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape service-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
-@Image2 — Vertical close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her eyes and braid occupy the top of the frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
+@Image1 — Landscape 16:9: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
+@Image2 — Landscape close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her face and braid sit on the left of the wide frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
 @Video1 — final 3 seconds of the actual Part 1; authority for the moving color wash.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
@@ -5358,7 +5358,7 @@ END STATE:
 Tablet lower in the frame, her gaze back on the glass.
 
 CAMERA / SPACE:
-Vertical 9:16. Keep the tablet and the field stacked in the tall frame. No black bars above the sky or beside the jacket.
+Landscape 16:9. The woman, the tablet and the field share one wide frame. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5382,7 +5382,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-28"></a>
 ## Сцена 28 — ТерраТех: Лес, который видно сверху
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","vertical_9_16"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
 
 **Контекст использования:** Показать, как по двум датам видно изменение леса, без рейтинга регионов. **Индекс лесопользования · 27.02.2026.**
 
@@ -5392,11 +5392,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [27.02.2026 — пресс-релиз «Эксперт РА»](https://raexpert.ru/releases/2026/feb27b).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Оба 1080×1920, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Оба 1672×941, pending.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt"><figcaption>@Image1 — кроны и одна вырубка. Рисовать по tt28-clearing.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt"><figcaption>@Image2 — две даты одной стопкой. Рисовать по tt28-pair.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt"><figcaption>@Image1 — кроны и одна вырубка. Рисовать по tt28-clearing.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt"><figcaption>@Image2 — две даты одной стопкой. Рисовать по tt28-pair.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Две даты. Один лес. Разницу видно без таблицы.»
@@ -5415,11 +5415,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Vertical forest-change concept, photoreal aerial
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
+@Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 @Image2 — The same canopy as two stacked photographs filling the vertical frame: upper half denser, lower half with the clearing, separated by a hairline photo edge rather than a black bar. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
@@ -5427,7 +5427,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it is only a hand in a dark green sleeve circling the clearing on a tablet, with no readable interface.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two stacked views are the same place at two times.
+The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times.
 
 START STATE:
 @Image1 canopy already fills the tall frame, camera drifting downward.
@@ -5435,14 +5435,14 @@ START STATE:
 TIMELINE:
 [0:00–0:08] Slow descent over unbroken canopy; the pale clearing rises into the middle of the frame.
 [0:08–0:14] A hand in a dark green sleeve circles the clearing once on a small tablet at the lower edge. The tablet has no writing.
-[0:14–0:22] The view becomes the stacked pair from @Image2: dense canopy above, the same clearing below.
+[0:14–0:22] The view becomes the side-by-side pair from @Image2: dense canopy on the left, the same clearing on the right.
 [0:22–0:30] The stack holds still long enough to compare the two halves. No captions appear.
 
 END STATE:
-The stacked pair remains full-frame, clearing visible only in the lower half.
+The side-by-side pair remains full-frame, clearing visible only on the right.
 
 CAMERA / SPACE:
-Vertical 9:16 aerial. The forest must touch all four edges. The comparison is a vertical stack, not a widescreen split and not letterboxed.
+Landscape 16:9 aerial. The forest touches all four edges. The comparison is two panels side by side, the same way as the other comparison stills in this project, not a vertical stack and not letterboxed.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5468,11 +5468,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical forest-change concept, photoreal aerial
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
+@Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 @Image2 — The same canopy as two stacked photographs filling the vertical frame: upper half denser, lower half with the clearing, separated by a hairline photo edge rather than a black bar. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
@@ -5480,7 +5480,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it is only a hand in a dark green sleeve circling the clearing on a tablet, with no readable interface.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two stacked views are the same place at two times.
+The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times.
 
 START STATE:
 Canopy fills the frame and the camera is already descending.
@@ -5493,7 +5493,7 @@ END STATE:
 The circle is not yet closed. Preserve the hand motion.
 
 CAMERA / SPACE:
-Vertical 9:16 aerial. The forest must touch all four edges. The comparison is a vertical stack, not a widescreen split and not letterboxed.
+Landscape 16:9 aerial. The forest touches all four edges. The comparison is two panels side by side, the same way as the other comparison stills in this project, not a vertical stack and not letterboxed.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5516,11 +5516,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical forest-change concept, photoreal aerial
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
+@Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
 @Image2 — The same canopy as two stacked photographs filling the vertical frame: upper half denser, lower half with the clearing, separated by a hairline photo edge rather than a black bar. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
 @Video1 — final 3 seconds of Part 1; authority for the moving hand.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
@@ -5529,20 +5529,20 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it is only a hand in a dark green sleeve circling the clearing on a tablet, with no readable interface.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two stacked views are the same place at two times.
+The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times.
 
 START STATE:
 Start from the actual circling hand in @Video1.
 
 TIMELINE:
 [0:00–0:04] The circle closes and the hand leaves.
-[0:04–0:15] The frame becomes the stacked pair and holds for comparison.
+[0:04–0:15] The frame becomes the side-by-side pair and holds for comparison.
 
 END STATE:
-Stacked pair full-frame, no captions.
+Side-by-side pair full-frame, no captions.
 
 CAMERA / SPACE:
-Vertical 9:16 aerial. The forest must touch all four edges. The comparison is a vertical stack, not a widescreen split and not letterboxed.
+Landscape 16:9 aerial. The forest touches all four edges. The comparison is two panels side by side, the same way as the other comparison stills in this project, not a vertical stack and not letterboxed.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5566,7 +5566,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-29"></a>
 ## Сцена 29 — ТерраТех: Снимок для разговора
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","vertical_9_16"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
 
 **Контекст использования:** Спокойно показать, зачем людям кладут снимок на стол. **Постоянная тема сайта, без реального дела.**
 
@@ -5576,11 +5576,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — главная](https://terratech.ru/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Оба 1080×1920, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Оба 1672×941, pending.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt"><figcaption>@Image1 — снимок на столе. Рисовать по tt29-print.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt"><figcaption>@Image2 — та же изгородь на земле. Рисовать по tt29-fence.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt"><figcaption>@Image1 — снимок на столе. Рисовать по tt29-print.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt"><figcaption>@Image2 — та же изгородь на земле. Рисовать по tt29-fence.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Снимок показывает линию. Вывод делают люди, не ролик.»
@@ -5599,12 +5599,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Vertical quiet explanation, photoreal
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Landscape quiet explanation, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
-@Image2 — Vertical ground view of that fence and the edge of a plowed field, same geometry, sky only as real sky at the top. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
+@Image1 — Landscape 16:9: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
+@Image2 — Landscape ground view of that fence and the edge of a plowed field, same geometry, a low real horizon, not a black band. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5626,7 +5626,7 @@ END STATE:
 Both still seated, eyes on the print, hands resting.
 
 CAMERA / SPACE:
-Vertical 9:16. The print occupies the center of the tall frame; the outdoor fence runs from the bottom toward the sky without black padding.
+Landscape 16:9. The print sits across the wide table; the outdoor fence crosses the frame from left to right. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5652,12 +5652,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical quiet explanation, photoreal
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape quiet explanation, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
-@Image2 — Vertical ground view of that fence and the edge of a plowed field, same geometry, sky only as real sky at the top. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
+@Image1 — Landscape 16:9: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
+@Image2 — Landscape ground view of that fence and the edge of a plowed field, same geometry, a low real horizon, not a black band. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -5677,7 +5677,7 @@ END STATE:
 Finger still moving on the print.
 
 CAMERA / SPACE:
-Vertical 9:16. The print occupies the center of the tall frame; the outdoor fence runs from the bottom toward the sky without black padding.
+Landscape 16:9. The print sits across the wide table; the outdoor fence crosses the frame from left to right. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5700,12 +5700,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical quiet explanation, photoreal
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape quiet explanation, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
-@Image2 — Vertical ground view of that fence and the edge of a plowed field, same geometry, sky only as real sky at the top. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
+@Image1 — Landscape 16:9: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
+@Image2 — Landscape ground view of that fence and the edge of a plowed field, same geometry, a low real horizon, not a black band. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
 @Video1 — final 3 seconds of Part 1; authority for the moving finger.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
@@ -5727,7 +5727,7 @@ END STATE:
 Seated, calm, eyes on the print.
 
 CAMERA / SPACE:
-Vertical 9:16. The print occupies the center of the tall frame; the outdoor fence runs from the bottom toward the sky without black padding.
+Landscape 16:9. The print sits across the wide table; the outdoor fence crosses the frame from left to right. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5751,7 +5751,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-30"></a>
 ## Сцена 30 — ТерраТех: Сервис, а не сырой снимок
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","vertical_9_16"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
 
 **Контекст использования:** Отличить коммерческий продукт от пачки сырых кадров и от работы центра приёма. **Коммерческий оператор · повод стенда 15.04.2026, не репортаж.**
 
@@ -5761,11 +5761,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — о компании](https://terratech.ru/company/) · [15.04.2026 — ExpoCifra](https://terratech.ru/company/news/kosmos-dlya-tsifrovoy-ekonomiki-geotekhnologii-na-vystavke-expocifra-2026/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Оба 1080×1920, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Оба 1672×941, pending.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt"><figcaption>@Image1 — стопка серых кадров. Рисовать по tt30-chips.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt"><figcaption>@Image2 — один цветной лист. Рисовать по tt30-sheet.image-prompt.txt, холст 1080×1920.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt"><figcaption>@Image1 — стопка серых кадров. Рисовать по tt30-chips.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt"><figcaption>@Image2 — один цветной лист. Рисовать по tt30-sheet.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Заказчику нужен понятный слой, а не пачка безымянных кадров.»
@@ -5784,11 +5784,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Vertical product-explanation film, photoreal
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Landscape product-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
+@Image1 — Landscape 16:9: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
 @Image2 — The same hands offer one color sheet of green, ochre and blue regions, with no legend, to a customer seen from behind in a light coat. A window shows a matching landscape. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
@@ -5811,7 +5811,7 @@ END STATE:
 The color sheet is in the customer's hands, window landscape aligned behind it.
 
 CAMERA / SPACE:
-Vertical 9:16. The stack, then the sheet, occupy the tall center. The window landscape fills the background without becoming a black margin.
+Landscape 16:9. The stack and then the sheet sit across the wide table; the window landscape fills the background. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5837,11 +5837,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical product-explanation film, photoreal
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape product-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
+@Image1 — Landscape 16:9: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
 @Image2 — The same hands offer one color sheet of green, ochre and blue regions, with no legend, to a customer seen from behind in a light coat. A window shows a matching landscape. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
 Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
 
@@ -5862,7 +5862,7 @@ END STATE:
 The sheet is still rising. Preserve the lift.
 
 CAMERA / SPACE:
-Vertical 9:16. The stack, then the sheet, occupy the tall center. The window landscape fills the background without becoming a black margin.
+Landscape 16:9. The stack and then the sheet sit across the wide table; the window landscape fills the background. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.
@@ -5885,11 +5885,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Vertical product-explanation film, photoreal
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Landscape product-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Vertical 9:16: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
+@Image1 — Landscape 16:9: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
 @Image2 — The same hands offer one color sheet of green, ochre and blue regions, with no legend, to a customer seen from behind in a light coat. A window shows a matching landscape. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
 @Video1 — final 3 seconds of Part 1; authority for the rising sheet.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
@@ -5911,7 +5911,7 @@ END STATE:
 Sheet in the customer's hands, matching land in the window.
 
 CAMERA / SPACE:
-Vertical 9:16. The stack, then the sheet, occupy the tall center. The window landscape fills the background without becoming a black margin.
+Landscape 16:9. The stack and then the sheet sit across the wide table; the window landscape fills the background. No portrait crop, no side bars, no letterbox.
 
 PERFORMANCE:
 Prioritize the specific visible action in each timed beat. Bodies and hands stay purposefully in motion. No dead slideshow, repeated loop or premature final pose.

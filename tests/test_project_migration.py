@@ -88,10 +88,14 @@ class MigrationTests(unittest.TestCase):
             self.assertEqual(len(prompts), 2, n)
             for path in prompts:
                 text = path.read_text(encoding="utf-8")
-                self.assertIn("1080×1920", text)
-                self.assertIn("9:16", text)
+                self.assertIn("1672×941", text)
+                self.assertIn("16:9", text)
+                self.assertNotIn("9:16", text)
             self.assertFalse(any(p.suffix == ".png" for p in folder.iterdir()))
-        self.assertIn("Aspect ratio: 9:16", master)
+        tail = master[master.find('<a id="scene-26">'):]
+        self.assertIn("Aspect ratio: 16:9", tail)
+        self.assertNotIn("Aspect ratio: 9:16", tail)
+        self.assertNotIn("1080×1920", tail)
         refs = json.loads((ROOT / "projects/roscosmos/character-references.json").read_text(encoding="utf-8"))
         pending = [a for a in refs["assets"] if a.get("asset_status") == "pending"]
         self.assertGreaterEqual(len(pending), 10)
