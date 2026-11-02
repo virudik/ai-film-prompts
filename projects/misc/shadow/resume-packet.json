@@ -3,18 +3,61 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T12:26:36+00:00",
-  "source_head": "e0c6761fc288a1bad52cf8077d0de805168ee673",
-  "source_fingerprint": "a030a22cea4d674293a21d340f137046828309a4a1ec285271012cf5a1ea0395",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-02T12:29:28+00:00",
+  "source_head": "4c6746650a0749a5688122f5fc349aa9af7ccff6",
+  "source_fingerprint": "ac131841a6bb65c9d447a6dbe20d3de1d37819d57873908fdf8a3dd82c9a6738",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "recovery evidence changed: projects/misc/reports/commission-pricing-2026-11-02.md"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "# Разное — проверка Grok, исправленная коммерческая смета и аудит Topview · 2026-11-02T11:57:00.027Z\n\nwork_id: MISC-S1-S2-REFERENCES\nПроект «Разное» (misc), 02.11.2026: выполнен повторный пересчёт исходного файла «Памятка: сколько стоит ИИ-ролик ~2 минуты» (2 стр.) по реальным Topview quote, рыночным предложениям и истории фактического производства. Подготовлен обновлённый PDF на 9 страниц для заказчика, отдельно — PDF-аудит «Серёгиуса» на 4 страницах, переданы владельцу в этом чате.\nРеференсы: 59/59 (26 по сцене 1, 33 по сцене 2) находятся в GitHub и на сайте; все not_approved, две сцены DRAFT, видео в misc не запускались. Исходный Reel 125,18 с, 9:16; две наши сцены — две альтернативные самостоятельные истории по 120 с каждая, 24 промпта.\nИсправлены цены для заказчика: упрощённый 45–60 с 45 000 ₽; один полноценный 120 с с существующей визуальной базой 109 000 ₽; две истории по 120 с 189 000 ₽; новая история 120 с с нуля 169 000 ₽; бизнес-реклама от 199 000 ₽. В цену закладываются труд, отбор и технические переделки, звук, накладные и резерв. Исправление брака внутри утверждённого ТЗ за счёт исполнителя, творческие изменения ТЗ отдельно после согласования; предварительная оплата 50/30/20.\nПодробный аудит/смета «Разного»: projects/misc/reports/commission-pricing-2026-11-02.md. Публичная таблица и условия: projects/misc/video-prompts.md, раздел «Стоимость AI-мультфильма, переделки и условия заказа». История «Серёгиуса»: reports/seregius-topview-production-audit-2026-11-02.md; реальные 459 видеозадач My First Board, 430 success, 23 fail, 6 init, 443 кредита по 36 платным задачам. Все эти задачи не равны художественно принятым роликам готового фильма. Условная полная кредитная стоимость — не фактический платёж.\nЗапрещено делать видео submit без отдельного прямого решения владельца. Следующий шаг: художественное QC 59 изображений и согласование с клиентом объёма, прав, голоса/текста и итоговой сметы. Никакие рендеры или approval не производились.\n",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "MISC-S1-S2-REFERENCES",
+    "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
+    "status": "awaiting_editorial_review",
+    "last_completed": "Смета прямой покупки кредитов в рублях обновлена и сохранена в master, проектном отчёте и отдельном отчёте Серёгиуса; 59/59 референсов сохранены, видео по misc не запущены.",
+    "next_action": "Владелец: открыть оба новых PDF с покупными RUB-кредитами, провести художественный QC 59 референсов, согласовать с клиентом лайт 59 тыс./один 120 с 145 тыс./два 120 с 265 тыс. ₽, права, озвучку, итоговое ТЗ и реальные доступные пакеты пополнения Topview. Текущий проект остаётся DRAFT; до новой прямой команды владельца видео не генерировать и кредиты не покупать.",
+    "verified_at": "2026-11-02T12:28:10.760Z",
+    "blockers": [
+      "Не подтверждены iOS/web зачисление рублёвых кредитов и покупка конкретным аккаунтом; не делать допущение об оплаченных счетах.",
+      "Не утверждены художественно 59 изображений и объём клиентского заказа; любые видео submit запрещены без разрешения."
+    ],
+    "evidence": [
+      {
+        "file": "projects/misc/reports/commission-pricing-2026-11-02.md",
+        "sha256": "84e51d9cd4b9ad5c6d46042841352c0e4f84457c7f17523497d3a78ac96476e6"
+      },
+      {
+        "file": "reports/seregius-topview-production-audit-2026-11-02.md",
+        "sha256": "a04dd9073d496f18c935a7bb28a068331e2f475dc0be19a0b9c6fa312fe513f6"
+      },
+      {
+        "file": "projects/misc/video-prompts.md",
+        "sha256": "d617294fb84e28226d9c11891e9d23f5fb30cdbdefd4125f9b9bd948960ac348"
+      },
+      {
+        "file": "projects/misc/references/generation-progress.json",
+        "sha256": "124ea28b03e5b9d1b609c1ca8a93529fe72fad5b121ec0bb09dd679d3c8bfe68"
+      },
+      {
+        "file": "projects/misc/HANDOFF.md",
+        "sha256": "1caadee9dd0c8616414c3c125ccc5fcd04ffa2bfeebb80d20ea3b1cee5c40708"
+      }
+    ],
+    "read_next": [
+      "projects/misc/reports/commission-pricing-2026-11-02.md",
+      "reports/seregius-topview-production-audit-2026-11-02.md",
+      "projects/misc/references/generation-progress.json",
+      "projects/misc/video-prompts.md",
+      "projects/misc/HANDOFF.md"
+    ],
+    "checkpoint": {
+      "file": "projects/misc/reports/current-work-checkpoint.md",
+      "anchor": "# Разное — платный режим по отдельно купленным рублёвым кредитам · 2026-11-02T12:28:10.760Z",
+      "sha256": "f77f1a2ab7e37c123c746a123009ab03d2ea354f8b8ff9635812a7ca301f56d3"
+    }
+  },
+  "checkpoint_text": "# Разное — платный режим по отдельно купленным рублёвым кредитам · 2026-11-02T12:28:10.760Z\n\nwork_id: MISC-S1-S2-REFERENCES\nВладелец 02.11.2026 поручил исключить стоимость подписки и пересчитать все видеогенерации как платные за отдельно купленные за рубли токены. Публичная основа: RU App Store TOPVIEW PTE. LTD., 25/100/250/500/1000 кредитов за 1190/4490/9990/19990/24990 ₽. Не подтверждена переносимость кредитов iOS в topview.ai и реальная доступность оплаты в аккаунте: закупка и видеосоздание не выполнялись.\nМодельные базовые кредитные ставки 720p БЕЗ скидок Ultra: WAN 0,5 кр./с, Seedance 2.0 1 кр./с, Seedance 2.5 1,5 кр./с. Один 120-секундный фильм: 60/120/180 кр. в один проход. С резервом WAN 4–6, Seedance 2.0/2.5 2–4 прохода, закупка обычных целых пакетов: WAN 9990–15670 ₽, Seedance 2.0 9990–19980 ₽, Seedance 2.5 15670–29970 ₽. Для двух историй: WAN 19980–29970 ₽; Seedance 2.0 19980–39960 ₽; Seedance 2.5 29970–58930 ₽. Опциональный пакет 1000 за 24990 ₽ может сократить расходы, если реально доступен.\nПредложение заказчику на полный цикл: лайт 45–60 с 59000 ₽, один 120 с с готовой базой 145000 ₽, два 120 с 265000 ₽, один 120 с с нуля от 195000 ₽, бизнес от 230000 ₽. При 145000 ₽ внутренний бюджет до налогов 112300 ₽, условный налог 6% 8700 ₽, остаток 24000 ₽. Исправления технических дефектов в утверждённом ТЗ без отдельного счёта; творческие изменения объёма только после нового письменного согласования и ценового лимита.\n«Серёгиус» My First Board: read-only 459 задач, 430 success, 23 fail, 6 init, recorded 443 кр. по 36 платным записям. Если все успешные видео WAN/Seedance рендерить платно без скидки: 7740,5 кр., закупка обычных пакетов 7750 кр. за 309690 ₽; при подтверждённом пакете 1000 — 8000 кр. за 199920 ₽. Это условный платный эквивалент, не реально уплаченные рубли.\nПроверенные исходники: projects/misc/reports/commission-pricing-2026-11-02.md, reports/seregius-topview-production-audit-2026-11-02.md, projects/misc/video-prompts.md; новые PDF raznoe-smeta-pokupnye-kredity-rub-2026-11-02.pdf (7 стр.) и seregius-topview-platnye-kredity-rub-2026-11-02.pdf (4 стр.) — файлы чата.\nСостояние производства: 59/59 PNG, 24 видеопромпта, две сцены DRAFT/not_approved, очередь проекта misc пуста. Не запускать ни платные, ни другие видео по этому документу. Следующий шаг — художественный QC и отдельное согласование заказа по новому пакету/срокам.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -107,7 +150,13 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "projects/misc/reports/commission-pricing-2026-11-02.md",
+    "reports/seregius-topview-production-audit-2026-11-02.md",
+    "projects/misc/references/generation-progress.json",
+    "projects/misc/video-prompts.md",
+    "projects/misc/HANDOFF.md"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -202,9 +251,19 @@
       "bytes": 8608
     },
     {
+      "file": "projects/misc/references/generation-progress.json",
+      "sha256": "124ea28b03e5b9d1b609c1ca8a93529fe72fad5b121ec0bb09dd679d3c8bfe68",
+      "bytes": 61318
+    },
+    {
+      "file": "projects/misc/reports/commission-pricing-2026-11-02.md",
+      "sha256": "84e51d9cd4b9ad5c6d46042841352c0e4f84457c7f17523497d3a78ac96476e6",
+      "bytes": 13949
+    },
+    {
       "file": "projects/misc/reports/current-work-checkpoint.md",
-      "sha256": "84e7b34d8d94d753b3f80e8a2dfc2686f75f444b2783dee8ce2cf66d40c75827",
-      "bytes": 13492
+      "sha256": "a329393bb6e414847366e218a613b4ee9f192b86fa8770468d3aa414576eae66",
+      "bytes": 17112
     },
     {
       "file": "projects/misc/reports/handoff-receipts.json",
@@ -218,13 +277,18 @@
     },
     {
       "file": "projects/misc/work-resume-register.json",
-      "sha256": "e465f67ba628e127e274399af661183c5a6f5a9a679e6b01fc8fea92d1d9fd0c",
-      "bytes": 7643
+      "sha256": "d5b2218c73c8f260879913490b0c02a5f76b63d916c09c37e01e1baa800e3ceb",
+      "bytes": 8834
     },
     {
       "file": "projects/projects.json",
       "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
       "bytes": 8453
+    },
+    {
+      "file": "reports/seregius-topview-production-audit-2026-11-02.md",
+      "sha256": "a04dd9073d496f18c935a7bb28a068331e2f475dc0be19a0b9c6fa312fe513f6",
+      "bytes": 10486
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -242,5 +306,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 7110
+  "packet_bytes": 8669
 }
