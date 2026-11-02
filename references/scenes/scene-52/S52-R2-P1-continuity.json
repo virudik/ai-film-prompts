@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "scene_id": 52,
+  "source_item_id": "S52-R2-SEED20-P1",
+  "source_task_id": "c65c30d8cbe14e9eadec886276e62471",
+  "prepared_for_item_id": "S52-R2-SEED20-P2",
+  "prepared_at": "2026-11-02T08:11:02.285Z",
+  "execution_instance_id": "9a9a0762-5b22-45ea-83b5-fa0ff18a8ad6",
+  "provenance": {
+    "provider": "Topview",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "source_status": "success",
+    "source_original": {
+      "filename": "c65c30d8cbe14e9eadec886276e62471.mp4",
+      "sha256": "302ffec3870d215da01b15720ca41a417927b052601da1fc7174ffcd2520f948",
+      "bytes": 11718521,
+      "format_duration_seconds": 15.104,
+      "video_duration_seconds": 15.041667,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 361,
+      "audio": "AAC stereo 32000 Hz",
+      "drive_file_id": "1X_o9xHwnNOUqBiwdSZn4Ow3ZxjPF7f8E",
+      "drive_url": "https://drive.google.com/file/d/1X_o9xHwnNOUqBiwdSZn4Ow3ZxjPF7f8E/view"
+    },
+    "derivative": {
+      "filename": "S52-R2-P1-last3s.mp4",
+      "method": "Exact real tail from source video: frames 289..360 inclusive (72 frames), timestamps reset; source audio trimmed 12.041666667..15.041666667 seconds. H.264 CRF16 + AAC 192k, faststart.",
+      "source_start_frame_zero_based": 289,
+      "source_end_frame_exclusive": 361,
+      "source_start_seconds": 12.041666667,
+      "source_end_seconds": 15.041666667,
+      "duration_seconds": 3,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+      "md5": "a3a33ebfb8d41117a614d70eea253a11",
+      "bytes": 1916734,
+      "drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
+      "drive_url": "https://drive.google.com/file/d/1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1/view?usp=drivesdk",
+      "drive_parent_folder_id": "1Nkn1xoeLpVdRPez5RTc7muAlo4ifvh6c",
+      "drive_readback": {
+        "name": "S52-R2-P1-last3s.mp4",
+        "mime_type": "video/mp4",
+        "bytes": 1916734,
+        "parent_verified": true,
+        "created_time": "2026-11-02T08:11:02.285Z"
+      }
+    }
+  },
+  "qc": {
+    "scope": "Sampled visual review only: full source contact sheet at 2 fps plus tail at 8 fps; stream metadata checked. No continuous full-frame-rate playback and no audio listening.",
+    "sampled_observations": [
+      "Serega approaches and enters the personal craft, traverses the cockpit corridor and sits at the controls.",
+      "The sampled tail reaches a seated-at-controls endpoint with stable cockpit geometry and no obvious severe discontinuity in the sampled frames."
+    ],
+    "audio_stream_present": true,
+    "audio_listened": false,
+    "continuous_full_rate_viewed": false,
+    "owner_approval": false,
+    "status": "provisional_usable_for_continuity_pending_full_continuous_audio_qc",
+    "blocker": "Full continuous visual review with audio remains required before S52-R2-SEED20-P2 can become launch-ready."
+  },
+  "launch_effect": {
+    "dependent_item_state": "blocked_inputs",
+    "launch_readiness": "blocked_pending_full_continuity_qc",
+    "slot_reserved": false,
+    "create_allowed_now": false
+  }
+}
