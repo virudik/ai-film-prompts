@@ -69,6 +69,23 @@ def true_png(path, target_size=None, previously_existing=False):
         return dimensions
 
 def make_image_from_zip(image_bytes, path, orientation):
+    # A worker may retry after a fast-forward race. Keep verified processed
+    # images in this workflow run's private temp folder, not in the repository.
+    # The key is the exact SHA256 of the verified original source image.
+    import os
+    cache = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / "misc-topview-cached-png" / (digest(image_bytes) + ".png")
+    expected_size = (1536, 1024) if orientation == "landscape_3_2" else (1080, 1920)
+    if cache.exists():
+        data = cache.read_bytes()
+        with Image.open(io.BytesIO(data)) as tested:
+            if tested.format != "PNG" or tested.size != expected_size:
+                raise ValueError("Invalid cached image size or format")
+        if path.exists() and digest(path.read_bytes()) != digest(data):
+            raise RuntimeError(f"Refusing to overwrite different image: {path}")
+        if not path.exists():
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(data)
+        return expected_size, digest(data)
     with Image.open(io.BytesIO(image_bytes)) as original:
         if original.format != "PNG":
             raise ValueError(f"{path}: source is not real PNG")
@@ -86,6 +103,8 @@ def make_image_from_zip(image_bytes, path, orientation):
     buf = io.BytesIO()
     final.save(buf, format="PNG", optimize=True)
     data = buf.getvalue()
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    cache.write_bytes(data)
     if path.exists() and digest(path.read_bytes()) != digest(data):
         raise RuntimeError(f"Refusing to overwrite different existing image: {path}")
     if not path.exists():
