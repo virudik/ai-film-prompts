@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_queue_sha256": "7c3853673ae8d2275b3d70be027ad7f1ab32bd626585e19734833c33cee382f6",
-  "source_task_map_sha256": "1391b977635cc78ee977021be0171a16484e24277f46d360bfbf086cb3d2ed76",
-  "topview_checked_at": "2026-11-02T09:50:22Z",
+  "source_task_map_sha256": "618fc3853eaac4e8af1a083012a54bf3c147000333218d6e0d4b287abac483c4",
+  "topview_checked_at": "2026-11-02T10:00:21Z",
   "items": [
     {
       "id": "S13-S13",
@@ -269,9 +269,9 @@
       "id": "S59-SEED20-P3",
       "scene_id": 59,
       "part_label": "Часть 3",
-      "code": "waiting_result",
+      "code": "prepare_continuity",
       "ready": false,
-      "text": "@Video1: ждёт результат 59 · Seedance 2.0 часть 2; @Image1: ждёт результат 59 · Seedance 2.0 часть 2",
+      "text": "@Video1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык; @Image1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык",
       "queue_state": "blocked_inputs"
     },
     {
@@ -483,5 +483,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-02T09:50:28.340629Z"
+  "checked_at": "2026-11-02T10:00:28.984708Z"
 }
