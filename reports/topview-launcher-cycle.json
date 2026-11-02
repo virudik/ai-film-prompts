@@ -2,108 +2,32 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled Work HH:55",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "execution_instance_id": "2ac82506-076d-4b62-8250-702520378418",
-  "run_id": "c2c492fb-1aac-8329-9c71-fffadbb55e22",
+  "execution_instance_id": "c926ccdf-4d02-423c-9fa4-fe777806d12a",
+  "run_id": "a84f9920-95ec-8322-b563-c1cd05e0c299",
   "run_id_source": "Automations.peek current last_run.id",
-  "started_at": "2026-11-02T09:58:32.941995Z",
-  "receipt_started_at": "2026-11-02T10:00:25.000Z",
-  "source_head": "5976ae8ff32a8a779a4251aad4ce87e227a9b973",
+  "started_at": "2026-11-02T10:55:59.758937Z",
+  "receipt_started_at": "2026-11-02T10:59:43.473Z",
+  "source_head": "10f04bac4a36f039df1be3b505f803489140ed46",
   "route_generation": 2,
-  "phase": "finished",
-  "stage": "complete",
-  "scan_source": "Topview signed-in website plus read-only task listing",
-  "scan_scope": "all 14 boards / every video page",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "selected_item": "S48-SEED20-P2",
-  "task_ids": [
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5",
-    "0de1f663432646d294f409a22e20a26e",
-    "de8e44bb15d64dc7a4eb640d27a726e4"
-  ],
-  "new_submissions": 1,
-  "outcome": "submitted",
+  "phase": "started",
+  "stage": "started",
+  "scan_source": null,
+  "scan_scope": null,
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
+  "selected_item": null,
+  "task_ids": [],
+  "new_submissions": 0,
+  "outcome": null,
   "blocker": null,
-  "retryable": false,
-  "browser_transport": "cloud/cdp authenticated website",
+  "retryable": true,
+  "browser_transport": null,
   "topview_credits_spent": 0,
   "quota_isolation_verified": false,
   "lease": {
-    "holder": "chatgpt:work:2ac82506-076d-4b62-8250-702520378418",
-    "acquired_at": "2026-11-02T10:00:09.655Z",
-    "expires_at": "2026-11-02T10:30:09.655Z"
-  },
-  "finished_at": "2026-11-02T10:25:00.548Z",
-  "submission": {
-    "item_id": "S48-SEED20-P2",
-    "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-    "submitted_at": "2026-11-02T10:18:20Z",
-    "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z.json",
-    "ui_proof": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z-ui-proof.json",
-    "create_click_count": 1,
-    "use_unlimit_mode": true,
-    "credits_cost": 0
-  },
-  "post_submit_scan": {
-    "checked_at": "2026-11-02T10:20:37.517Z",
-    "boards": 14,
-    "pages": 18,
-    "video_tasks": 626,
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "active": [
-      {
-        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-        "item_id": "S71-WAN30",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-        "item_id": "S72-WAN30",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-        "item_id": "S61-SEED20-P1",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "025955aad2cf494da2b4104d26c36ed5",
-        "item_id": "S60-SEED20-P1",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "0de1f663432646d294f409a22e20a26e",
-        "item_id": "S62-SEED20-P1",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-        "item_id": "S48-SEED20-P2",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "unlimited": true,
-        "credits_cost": 0
-      }
-    ]
+    "holder": "chatgpt:work:c926ccdf-4d02-423c-9fa4-fe777806d12a",
+    "acquired_at": "2026-11-02T10:59:23.948Z",
+    "expires_at": "2026-11-02T11:29:23.948Z"
   }
 }
