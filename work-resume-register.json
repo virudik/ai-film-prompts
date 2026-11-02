@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-02T11:57:15.074Z",
+  "last_updated_at": "2026-11-02T14:07:13.033Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-02T11:57:15.074Z",
+      "updated_at": "2026-11-02T14:07:13.033Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
+        "16:55 MSK cycle 2 Nov: complete 14-board/23-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. S52-R2-P1 exact tail SHA reverified; all 72 derivative frames inspected in order and both streams decoded without errors. Drive preview failed and audio was not listened, so S52-R2-P2 remains blocked pending continuous real-time playback with sound.",
         "14:55 MSK cycle 2 Nov: complete 14-board/23-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 queue task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B checked 23 GitHub notifications (all pages), processed 7 new messages: Projects status run 41434091622 was superseded by successful runs 41434546355 and later; one-shot misc recovery runs 41403028264/41403561936 were followed by commit 32581767322d86f420d700c2e627d6255453bab5 restoring 59 originals and the workflow was removed. No current failure or blind rerun; Gmail state unchanged.",
         "14:01 MSK cycle 2 Nov: complete 14-board/23-page scan found626 video tasks and6/6 active Unlimited0; no Create/retry. S59-P2 success/archive verified, but sampled QC shows it ends fully landed/parked, violating S59-P3 airborne-start contract; no continuity derivative or auto-rerender. Work restored as preferred executor from verified completed runtime+GUI+Unlimited0; ordinary and Grok remain enabled reserves, route generation3.",
         "13:20 MSK cycle 2 Nov: S59-P2 success freed one slot; after full 14-board video scan/reconciliation, S48-SEED20-P2 submitted once as task de8e44bb15d64dc7a4eb640d27a726e4, Seedance2.0/15s/720p/16:9/Video1+Image1–6/Unlimited0. Post-scan 626 videos and6/6 active; no retry/second click. Phases A/B not due; Work recovery not inferred while runtime remained in_progress.",
@@ -27,7 +28,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S59-P3 stays blocked pending owner decision or a suitable real airborne source; no synthetic reset.",
+      "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S52-R2-P2 remains blocked pending continuous real-time playback with audio; S59-P3 remains blocked by the premature finished landing.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -148,7 +149,7 @@
         "result": "No current failure and no blind rerun. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-02T11:54:03.338Z",
+        "checked_at": "2026-11-02T14:03:00.316Z",
         "boards": 14,
         "pages": 23,
         "page_size": 50,
@@ -161,42 +162,36 @@
         "active": [
           {
             "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-            "item_id": "S48-SEED20-P2",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-            "item_id": "S71-WAN30",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-            "item_id": "S72-WAN30",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-            "item_id": "S61-SEED20-P1",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "025955aad2cf494da2b4104d26c36ed5",
-            "item_id": "S60-SEED20-P1",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "0de1f663432646d294f409a22e20a26e",
-            "item_id": "S62-SEED20-P1",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
@@ -211,7 +206,7 @@
         "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
-        "checked_at": "2026-11-02T11:54:03.338Z",
+        "checked_at": "2026-11-02T14:03:00.316Z",
         "boards": 14,
         "pages": 23,
         "video_tasks": 626,
@@ -269,9 +264,9 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-02T11:57:15.074Z",
-        "last_completed": "14:55 MSK: complete Topview scan6/6, no Create/retry. Phase A healthy. Phase B new failures were verified resolved by later successful runs/current health or by the 59-reference restoration commit; no blind rerun.",
-        "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S59-P3 stays blocked pending owner decision or a suitable real airborne source; no synthetic reset.",
+        "verified_at": "2026-11-02T14:07:13.033Z",
+        "last_completed": "16:55 MSK: complete Topview scan 6/6, no Create/retry. S52 exact continuity tail fully decoded and all 72 frames inspected as an ordered contact sheet; audio stream present but not listened and Drive preview failed, so dependent launch remains blocked.",
+        "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S52-R2-P2 remains blocked pending continuous real-time playback with audio; S59-P3 remains blocked by the premature finished landing.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# 01.11.2026 — Продолжай: восстановление часового исполнителя",
@@ -291,7 +286,8 @@
         ],
         "blockers": [
           "6/6 active physical video slots.",
-          "S59-P3 source-continuity defect: P2 ends after the landing; owner decision or suitable real airborne source required."
+          "S52-R2-P2: continuous real-time playback with audio listening still required.",
+          "S59-P3: P2 ends after the landing; owner decision or suitable real airborne source required."
         ]
       },
       "last_relay_reconciliation": {
@@ -467,7 +463,7 @@
         "new_video_submissions": 0
       },
       "continuity_preparation": {
-        "updated_at": "2026-11-02T08:15:00Z",
+        "updated_at": "2026-11-02T14:06:36.315Z",
         "item_id": "S52-R2-SEED20-P2",
         "source_item_id": "S52-R2-SEED20-P1",
         "source_task_id": "c65c30d8cbe14e9eadec886276e62471",
@@ -477,9 +473,9 @@
         "derivative_drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
         "derivative_duration_seconds": 3,
         "derivative_frames": 72,
-        "qc_status": "provisional_sampled_visual_audio_not_listened",
+        "qc_status": "provisional_all_72_frames_inspected_audio_not_listened",
         "launch_ready": false,
-        "blocker": "Full continuous visual review with audio remains required.",
+        "blocker": "Full continuous real-time visual playback with audio listening remains required.",
         "report": "references/scenes/scene-52/S52-R2-P1-continuity.json"
       }
     },
