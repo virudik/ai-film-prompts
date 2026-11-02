@@ -3,11 +3,11 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-02T07:04:28+00:00
+Проверено: 2026-11-02T07:04:55+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
-Последний подтверждённый этап: Существующий ordinary HH:00 восстановлен и точно перечитан; новая контрольная точка исправляет доказанный hash mismatch, 6/6 слотов проверены; запуск/расход0.
-Следующий шаг: Next actual ordinary HH:00 must produce its own run/receipt. On a free slot, reconcile current task IDs and ready priority (currently S48-SEED20-P2), exact inputs/QC, full all-board scan and one Unlimited0 Create under lease/CAS. At full capacity prepare authorized continuity, including S52-R2-P1 only after original archive/QC.
+Последний подтверждённый этап: Ordinary HH:00 and Work HH:55 both produced real current runs/receipts. This HH:55 cycle confirmed6/6, completed phase A/B, launched nothing, spent0.
+Следующий шаг: At the next real peer wake, full fresh all-board scan. When capacity is free, reconcile task IDs/claims, then S48-SEED20-P2 by live priority with exact continuity/QC and Unlimited0 under own lease/CAS. Do not reserve a slot; Work GUI/quota recovery remains unverified.
 
 ## Контрольная точка
 
