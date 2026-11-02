@@ -9,25 +9,101 @@
   "receipt_started_at": "2026-11-02T10:00:25.000Z",
   "source_head": "5976ae8ff32a8a779a4251aad4ce87e227a9b973",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "started",
-  "scan_source": null,
-  "scan_scope": null,
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
-  "selected_item": null,
-  "task_ids": [],
-  "new_submissions": 0,
-  "outcome": null,
+  "phase": "finished",
+  "stage": "complete",
+  "scan_source": "Topview signed-in website plus read-only task listing",
+  "scan_scope": "all 14 boards / every video page",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "selected_item": "S48-SEED20-P2",
+  "task_ids": [
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e",
+    "de8e44bb15d64dc7a4eb640d27a726e4"
+  ],
+  "new_submissions": 1,
+  "outcome": "submitted",
   "blocker": null,
-  "retryable": true,
-  "browser_transport": null,
+  "retryable": false,
+  "browser_transport": "cloud/cdp authenticated website",
   "topview_credits_spent": 0,
   "quota_isolation_verified": false,
   "lease": {
     "holder": "chatgpt:work:2ac82506-076d-4b62-8250-702520378418",
     "acquired_at": "2026-11-02T10:00:09.655Z",
     "expires_at": "2026-11-02T10:30:09.655Z"
+  },
+  "finished_at": "2026-11-02T10:25:00.548Z",
+  "submission": {
+    "item_id": "S48-SEED20-P2",
+    "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+    "submitted_at": "2026-11-02T10:18:20Z",
+    "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z.json",
+    "ui_proof": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z-ui-proof.json",
+    "create_click_count": 1,
+    "use_unlimit_mode": true,
+    "credits_cost": 0
+  },
+  "post_submit_scan": {
+    "checked_at": "2026-11-02T10:20:37.517Z",
+    "boards": 14,
+    "pages": 18,
+    "video_tasks": 626,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active": [
+      {
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+        "item_id": "S71-WAN30",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "item_id": "S72-WAN30",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "item_id": "S61-SEED20-P1",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "025955aad2cf494da2b4104d26c36ed5",
+        "item_id": "S60-SEED20-P1",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "0de1f663432646d294f409a22e20a26e",
+        "item_id": "S62-SEED20-P1",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "item_id": "S48-SEED20-P2",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "unlimited": true,
+        "credits_cost": 0
+      }
+    ]
   }
 }

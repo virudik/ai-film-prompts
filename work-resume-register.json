@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-02T08:15:00+00:00",
+  "last_updated_at": "2026-11-02T10:25:00.548Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-02T08:15:00+00:00",
+      "updated_at": "2026-11-02T10:25:00.548Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
+        "13:20 MSK cycle 2 Nov: S59-P2 success freed one slot; after full 14-board video scan/reconciliation, S48-SEED20-P2 submitted once as task de8e44bb15d64dc7a4eb640d27a726e4, Seedance2.0/15s/720p/16:9/Video1+Image1–6/Unlimited0. Post-scan 626 videos and6/6 active; no retry/second click. Phases A/B not due; Work recovery not inferred while runtime remained in_progress.",
         "10:55 MSK check 2 Nov: complete 14-board/28-page Topview scan found 1009 tasks and 6/6 active Unlimited0 Seregius videos; all 12 queue task IDs reconciled, no Create/claim/retry. While full, archived actual S52-R2-P1 and prepared its exact real last72-frame/3s tail in Drive (SHA d9c0d470...); sampled visual QC only, audio not listened, so S52-R2-P2 remains blocked pending full continuous audio QC.",
         "09:55 MSK check 2 Nov: complete 14-board/20-page Topview scan found1009 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Phase B reviewed26 new GitHub failure mails /22 run IDs; later successes/current validators resolve all observed issues, no blind rerun.",
         "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
@@ -24,7 +25,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "At the next real peer wake, full fresh all-board scan. When capacity is free, reconcile task IDs/claims, then S48-SEED20-P2 by live priority with exact continuity/QC and Unlimited0 under own lease/CAS. Do not reserve a slot. S52-R2-P2 has a real prepared tail but remains blocked until full continuous visual+audio QC and fresh readiness SHA match. Work GUI/quota recovery remains unverified.",
+      "next_action": "At the next real peer wake, perform a fresh complete all-board scan and reconcile task IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as the next live priority with exact continuity/QC/readiness and Unlimited0 under own lease/CAS; do not reserve a slot. Work GUI/quota recovery remains unverified.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -129,14 +130,13 @@
         "result": "No current failure and no blind rerun. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-02T08:09:37Z",
+        "checked_at": "2026-11-02T10:20:37.517Z",
         "boards": 14,
-        "pages": 28,
+        "pages": 18,
         "page_size": 50,
-        "total": 1009,
-        "video_tasks": 625,
-        "image_tasks": 384,
+        "video_tasks": 626,
         "complete": true,
+        "scan_scope": "all_boards_all_video_pages",
         "errors": [],
         "occupied_slots": 6,
         "free_slots": 0,
@@ -182,21 +182,14 @@
             "credits_cost": 0
           },
           {
-            "task_id": "b0915b04173c414e9ac08652d34b7852",
-            "item_id": "S59-SEED20-P2",
+            "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+            "item_id": "S48-SEED20-P2",
             "board_id": "1a6244cf1ae747ef847d949a80d6133c",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           }
-        ],
-        "queue_sha256_at_scan": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
-        "task_map_sha256_at_scan": "2b4fe61f47dedb855c4bc29f92471a5b24717f8919ce1931d39de040f882413a",
-        "readiness_match_at_scan": true,
-        "post_scan_queue_update": {
-          "queue_blob_sha": "e35882fa2c5918b6f8e43ef9e16daa0b369dde01",
-          "reason": "S52-R2-P1 continuity provenance staged; fresh readiness rebuild required before any launch"
-        }
+        ]
       },
       "last_relay_event": {
         "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
@@ -206,12 +199,10 @@
         "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
-        "checked_at": "2026-11-02T08:09:37Z",
+        "checked_at": "2026-11-02T10:20:37.517Z",
         "boards": 14,
-        "pages": 28,
-        "tasks": 1009,
-        "video_tasks": 625,
-        "image_tasks": 384,
+        "pages": 18,
+        "video_tasks": 626,
         "active_videos": 6,
         "free_video_slots": 0,
         "complete_scan": true,
@@ -221,11 +212,11 @@
         "2026-10-27T06:16:16Z: S48-P1 submitted exactly once via authenticated Topview website, task 8d7ff1e2de63478693778de29e0dd56e; Seedance2.0/15s/720p/16:9/qty1/6 images/Unlimited0, exact prompt and input order/hash verified. Six active video slots after submit; no repeat or editorial approval."
       ],
       "last_submission": {
-        "item_id": "S72-WAN30",
-        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-        "submitted_at": "2026-10-31T11:08:48Z",
-        "receipt": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
-        "ui_proof": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.jpg",
+        "item_id": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "submitted_at": "2026-11-02T10:18:20Z",
+        "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z.json",
+        "ui_proof": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z-ui-proof.json",
         "credits": 0,
         "use_unlimit_mode": true
       },
@@ -316,11 +307,11 @@
         "relay_events_archived": 0
       },
       "last_verified_submission": {
-        "item_id": "S72-WAN30",
-        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-        "submitted_at": "2026-10-31T11:08:48Z",
-        "receipt": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.json",
-        "ui_proof": "reports/topview-queue-2026-10-16/S72-WAN30-20261031T110848Z.jpg",
+        "item_id": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "submitted_at": "2026-11-02T10:18:20Z",
+        "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z.json",
+        "ui_proof": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z-ui-proof.json",
         "credits": 0,
         "use_unlimit_mode": true
       },
@@ -339,7 +330,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "6/6 active at 10:04 MSK; no Create/retry. Work GUI and available quota are not independently verified; ordinary remains preferred.",
+      "current_blocker": "6/6 active after verified S48-P2 submission; no further Create. Work GUI/quota recovery not independently established.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",
@@ -1494,7 +1485,9 @@
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "project": "seregius",
     "set_at": "2026-10-29T23:39:59+00:00",
-    "reason": "Explicitly selected by the authorized task writer"
+    "reason": "Explicitly selected by the authorized task writer",
+    "next_action": "At the next real peer wake, perform a fresh complete all-board scan and reconcile task IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as the next live priority with exact continuity/QC/readiness and Unlimited0 under own lease/CAS; do not reserve a slot. Work GUI/quota recovery remains unverified.",
+    "updated_at": "2026-11-02T10:25:00.548Z"
   },
   "last_instruction_review": {
     "at": "2026-11-01T00:16:17.370251Z",

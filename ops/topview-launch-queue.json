@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-02T10:15:58.769Z",
+  "updated_at": "2026-11-02T10:25:00.548Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2007,7 +2007,7 @@
       "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
       "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
       "priority": -0.98,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2095,8 +2095,47 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
-      "claim": {
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S48",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S48-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "submitted_verified",
+      "previous_prompt_sha256": [
+        "c7f4522e2d9ffa7e4d34b429bcee5f092c6e4ccd08555da1cfb5a707e18a8113",
+        "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3"
+      ],
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "priority_before_20261023_cut": 4.1,
+      "owner_decision_20261023_cut": {
+        "at": "2026-10-23T14:16:11Z",
+        "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
+      },
+      "revision_note_20261101": "Owner correction: actual S48.1 end has Serega centre, Ilyusha right, Artem kneeling foreground-left; the SAME worm is visible at a distance behind them and approaches before the leap. No new submission or READY inferred.",
+      "priority_before_20261101_owner_after_vitalik": 0.41,
+      "continuity_prepared_at": "2026-10-31T22:40:27.793031Z",
+      "continuity_report": "references/scenes/scene-48/S48-P1-continuity.json",
+      "owner_instruction_20261101_after_vitalik": {
+        "at": "2026-10-31T22:40:27.793031Z",
+        "quote": "Сцену на сайте поправил? Если считаешь сцену готовой то ставь после Виталиков и продолжай отслеживание слотов и запуск по очереди",
+        "order": [
+          "S72-WAN30",
+          "S71-WAN30",
+          "S48-SEED20-P2"
+        ],
+        "meaning": "Launch priority only, not dependency on completion of Vitalik results. Existing ready-skip and real continuity dependencies remain.",
+        "source": "Direct owner current interactive chat"
+      },
+      "submitted_at": "2026-11-02T10:18:20Z",
+      "receipt": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z-ui-proof.json",
+      "result_review_required": true,
+      "updated_at": "2026-11-02T10:25:00.548Z",
+      "last_claim": {
         "claim_id": "5d60cd1d-610b-41d1-8aa7-fc795867b13c",
         "execution_instance_id": "2ac82506-076d-4b62-8250-702520378418",
         "route_generation": 2,
@@ -2187,40 +2226,10 @@
         "submission_intent_at": "2026-11-02T10:17:02Z",
         "lease_holder": "chatgpt:work:2ac82506-076d-4b62-8250-702520378418",
         "lease_acquired_at": "2026-11-02T10:00:09.655Z",
-        "replay_forbidden": true
-      },
-      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
-      "replaces_unsubmitted_item": "S48",
-      "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "depends_on_completed": [
-        "S48-SEED20-P1"
-      ],
-      "blocker": null,
-      "launch_readiness": "authorized_inputs_available",
-      "previous_prompt_sha256": [
-        "c7f4522e2d9ffa7e4d34b429bcee5f092c6e4ccd08555da1cfb5a707e18a8113",
-        "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3"
-      ],
-      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
-      "priority_before_20261023_cut": 4.1,
-      "owner_decision_20261023_cut": {
-        "at": "2026-10-23T14:16:11Z",
-        "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
-      },
-      "revision_note_20261101": "Owner correction: actual S48.1 end has Serega centre, Ilyusha right, Artem kneeling foreground-left; the SAME worm is visible at a distance behind them and approaches before the leap. No new submission or READY inferred.",
-      "priority_before_20261101_owner_after_vitalik": 0.41,
-      "continuity_prepared_at": "2026-10-31T22:40:27.793031Z",
-      "continuity_report": "references/scenes/scene-48/S48-P1-continuity.json",
-      "owner_instruction_20261101_after_vitalik": {
-        "at": "2026-10-31T22:40:27.793031Z",
-        "quote": "Сцену на сайте поправил? Если считаешь сцену готовой то ставь после Виталиков и продолжай отслеживание слотов и запуск по очереди",
-        "order": [
-          "S72-WAN30",
-          "S71-WAN30",
-          "S48-SEED20-P2"
-        ],
-        "meaning": "Launch priority only, not dependency on completion of Vitalik results. Existing ready-skip and real continuity dependencies remain.",
-        "source": "Direct owner current interactive chat"
+        "replay_forbidden": true,
+        "resolved_at": "2026-11-02T10:25:00.548Z",
+        "result": "submitted",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4"
       }
     },
     {

@@ -1,0 +1,192 @@
+{
+  "item_id": "S48-SEED20-P2",
+  "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "board_name": "My First Board",
+  "submitted_at": "2026-11-02T10:18:20Z",
+  "model": "Seedance 2.0",
+  "model_id": "seedance-2.0-style",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "useUnlimitMode": true,
+  "creditsCost": 0,
+  "status": "init",
+  "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
+  "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
+  "normalized_prompt_match": true,
+  "full_prompt_dom_exact_match": true,
+  "canonical_prompt_chars": 9029,
+  "references": [
+    {
+      "slot": "@Video1",
+      "path": null,
+      "filename": "S48-P1-last3s.mp4",
+      "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+      "bytes": 2253712
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "filename": null,
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "bytes": null
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/ilyusha.jpg",
+      "filename": null,
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "bytes": null
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/artem.jpg",
+      "filename": null,
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "bytes": null
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "filename": null,
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "bytes": null
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-16/S16-worm-scale.png",
+      "filename": null,
+      "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "bytes": null
+    },
+    {
+      "slot": "@Image6",
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "filename": null,
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "bytes": null
+    }
+  ],
+  "input_verification": "Exact @Video1 then @Image1–@Image6 order; all local/source SHA256 values verified before sequential visible website uploads. Each upload completed before the next. Topview task detail confirms Video1, Image1–Image6 and Video1 duration 3s.",
+  "claim": {
+    "claim_id": "5d60cd1d-610b-41d1-8aa7-fc795867b13c",
+    "execution_instance_id": "2ac82506-076d-4b62-8250-702520378418",
+    "route_generation": 2,
+    "claimed_at": "2026-11-02T10:15:58.769Z",
+    "source_head": "44248dd5c1d9cee050a74929e8107ece6145563c",
+    "automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "surface": "work",
+    "kind": "scheduled",
+    "runtime_run_id": "c2c492fb-1aac-8329-9c71-fffadbb55e22",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "canonical_prompt_sha256": "749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d",
+    "normalized_prompt_sha256": "2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4",
+    "exact_inputs": [
+      {
+        "slot": "@Video1",
+        "path": null,
+        "filename": "S48-P1-last3s.mp4",
+        "sha256": "bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf",
+        "bytes": 2253712
+      },
+      {
+        "slot": "@Image1",
+        "path": "references/full/serega.jpg",
+        "filename": null,
+        "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+        "bytes": null
+      },
+      {
+        "slot": "@Image2",
+        "path": "references/full/ilyusha.jpg",
+        "filename": null,
+        "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+        "bytes": null
+      },
+      {
+        "slot": "@Image3",
+        "path": "references/full/artem.jpg",
+        "filename": null,
+        "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+        "bytes": null
+      },
+      {
+        "slot": "@Image4",
+        "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+        "filename": null,
+        "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+        "bytes": null
+      },
+      {
+        "slot": "@Image5",
+        "path": "references/scenes/scene-16/S16-worm-scale.png",
+        "filename": null,
+        "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+        "bytes": null
+      },
+      {
+        "slot": "@Image6",
+        "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+        "filename": null,
+        "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+        "bytes": null
+      }
+    ],
+    "preflight": {
+      "owner_authorized": true,
+      "prompt_match": true,
+      "input_sha_match": true,
+      "input_order_match": true,
+      "qc_passed": true,
+      "website_unlimited": true,
+      "credits_cost": 0,
+      "quantity": 1,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "global_scan_complete": true,
+      "global_scan_checked_at": "2026-11-02T10:15:58.769Z",
+      "active_video_slots": 5,
+      "free_slots": 1,
+      "full_scan_boards": 14,
+      "full_scan_pages": 18
+    },
+    "submission_intent_id": "d629a6b9-7b1e-4ba3-8d30-ae9a9ec4658b",
+    "submission_intent_at": "2026-11-02T10:17:02Z",
+    "lease_holder": "chatgpt:work:2ac82506-076d-4b62-8250-702520378418",
+    "lease_acquired_at": "2026-11-02T10:00:09.655Z",
+    "replay_forbidden": true
+  },
+  "claim_commit": "3e65f0af4d6b2561cda1ce31aa9cbbe401ae957a",
+  "intent_commit": "9438d3295e6cf97da05885da76b6feb5480de8af",
+  "claim_readback_verified": true,
+  "submission_intent_readback_verified": true,
+  "create_click_count": 1,
+  "generation_channel": "Topview signed-in website in cloud/cdp; read-only task detail used for verification",
+  "ui_proof": "reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z-ui-proof.json",
+  "post_submit_scan_at": "2026-11-02T10:20:37.517Z",
+  "post_submit_scan_scope": "all 14 boards, every video page",
+  "post_submit_video_tasks": 626,
+  "post_submit_occupied_slots": 6,
+  "post_submit_free_slots": 0,
+  "verification": {
+    "website_success_notification": "Задачи успешно отправлены / Успешно создано задач: 1",
+    "task_id_verified": true,
+    "provider_status": "init",
+    "sound": "on",
+    "unlimited_top_level": true,
+    "unlimited_parameters": true,
+    "credits_cost": 0,
+    "model_prompt_refs_match": true,
+    "matching_new_tasks": 1,
+    "duplicates": 0
+  },
+  "result_review_required": true,
+  "note": "Submitted/init means queued, not completed or editorially accepted. No retry or second Create click."
+}

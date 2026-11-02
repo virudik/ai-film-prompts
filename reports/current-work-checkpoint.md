@@ -1,3 +1,15 @@
+# 02.11.2026 — цикл 13:20 МСК: S48-P2 отправлена Unlimited0, после пересчёта 6/6
+
+work_id: TOPVIEW-SLOT-PRIORITY-20261024
+
+Проверено 2026-11-02T10:20:37.517Z. S59-SEED20-P2 task b0915b04173c414e9ac08652d34b7852 перешёл в success и освободил один физический видеослот. После полного свежего скана всех 14 досок/всех video-страниц и reconciliation всех claims/submitting/submission_unknown/submitted IDs выбран минимальный фактически готовый priority S48-SEED20-P2.
+
+Под собственной lease chatgpt:work:2ac82506-076d-4b62-8250-702520378418 сохранены CAS claim и one-shot submission_intent. На My First Board (1a6244cf1ae747ef847d949a80d6133c) одним Create отправлена точная Seedance2.0/15s/720p/16:9/quantity1 сцена с @Video1 + @Image1–@Image6 в каноническом порядке. Prompt canonical SHA 749baf9805a754961dc812a25255b124cccbd389c4ed38db9466dd3f7129295d и normalized SHA 2fb5293602a339fe2799a0dff2148b5161ade0a69280920090582d20e24e79a4 совпали; @Video1 SHA bf85a1ea021909d2dea876525ce8db5ea1a76c04daeeb541c14de5c175c092bf. Topview подтвердил task de8e44bb15d64dc7a4eb640d27a726e4, init, Unlimited, credits0. Повторного клика и retry не было.
+
+После отправки полный all-board video rescan: 626 видеозадач, активны 6/6, свободно 0. Следующий live priority — S56-SEED20-P2 только после нового полного скана и fresh readiness/QC; слот не резервируется. Owner tasks chatgpt/any: открытых нет. Фазы A/B в 13:20 МСК не наступили; недельная фаза в понедельник не наступила. Work runtime был фактическим, но при проверке ещё in_progress, поэтому это не доказательство восстановленной Work-квоты; preferred_executor остаётся ordinary.
+
+Receipt: `reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z.json`. UI proof: `reports/topview-queue-2026-10-16/S48-SEED20-P2-20261102T101820Z-ui-proof.json`.
+
 # 02.11.2026 — цикл 10:55 МСК: Topview 6/6, подготовлен реальный стык S52-R2-P1
 
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
