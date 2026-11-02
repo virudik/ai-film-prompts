@@ -3,15 +3,14 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T11:50:29+00:00",
-  "source_head": "cbc273f7a2e0a9bac0bd826033bce52393047381",
-  "source_fingerprint": "3d685a0bc4b6f52d627be254d2a6d5083fcd8da84edf1d96c4e972566a9ca9b5",
+  "checked_at": "2026-11-02T11:51:27+00:00",
+  "source_head": "383064f94ea9c52160f4fa3708328d17bcb3eec6",
+  "source_fingerprint": "9f3f94b5b26316d1ec8c72c74ce2356e0344f401a50fe832d2e943b04cd3e830",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
-    "project master/status mismatch: misc",
     "recovery evidence changed: projects/misc/reports/commission-pricing-2026-11-02.md"
   ],
   "selected_work": null,
@@ -199,8 +198,8 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "0da48316d638da28a470c2eb70b19beb1f7ccc0dc0715578e73e7f514e8d7903",
-      "bytes": 8608
+      "sha256": "4d399bf8a3e9ef140b915b3cae233462bee661e60c1b704ef8d14e1e7f9daa1b",
+      "bytes": 8606
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
@@ -243,5 +242,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 6587
+  "packet_bytes": 6548
 }
