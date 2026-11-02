@@ -9,8 +9,8 @@
   "receipt_started_at": "2026-11-02T20:04:49.233Z",
   "source_head": "c91e42ca230fce595f7b16ef9d1e0ef3673c1fef",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "full_readonly_scan_complete",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview live connector read-only",
   "scan_scope": "14 boards,34 pages (13 boards video+image; My First Board video 5 pages, image 3 pages), 1010 tasks",
   "scan_complete": true,
@@ -31,10 +31,10 @@
   ],
   "selected_item": null,
   "new_submissions": 0,
-  "outcome": "pending_final_reconciliation",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "Topview connector read-only; TinyFish not run; no Create",
+  "browser_transport": "Topview live connector read-only; no TinyFish browser; no Create",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -43,7 +43,8 @@
   "work_recovery": {
     "preferred_executor": "work",
     "route_generation": 3,
-    "route_changed": false
+    "route_changed": false,
+    "work_capacity": "restored_verified"
   },
   "lease": {
     "holder": "chatgpt:ordinary:c7b554f8-bb83-4527-af6b-8be87c44749d",
@@ -56,8 +57,41 @@
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_scheduled_run_verified": false,
-    "topview_task_id_verified_this_cycle": false,
+    "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T20:04:49.233Z"
+  "updated_at": "2026-11-02T20:08:18.558Z",
+  "scan_checked_at": "2026-11-02T20:04:49.233Z",
+  "video_status_counts": {
+    "success": 597,
+    "init": 6,
+    "fail": 23
+  },
+  "image_status_counts": {
+    "success": 368,
+    "fail": 16
+  },
+  "all_submitted_queue_tasks_verified": 13,
+  "unresolved_claim_states": [],
+  "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256": "0f729be8b2227028938b8c0a4545fbf55fffd829a99e2136d62b84fe2411bead",
+  "readiness_sha_verified": true,
+  "readiness_source_checked_at": "2026-11-02T20:00:22Z",
+  "next_ready_item": {
+    "id": "S56-SEED20-P2",
+    "priority": 0.31,
+    "slot_reserved": false
+  },
+  "peer_monitor": {
+    "ordinary_run_id": "03eaf26d-5bbc-832d-85a8-85dd476938bc",
+    "ordinary_latest_result_run_id": "5a221763-60f0-8320-8186-a0b274fbf9ed",
+    "work_hh55_last_run_id": "6811e6c0-c6f0-8321-9447-870bb5124a1f",
+    "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
+  },
+  "task_ids": [],
+  "notes": "Complete current 14-board 34-page Topview scan. All six physically active video tasks on My First Board, each init Unlimited true creditsCost0; all 13 canonical queue submissions independently checked by task ID. No unknown/claimed/submitting queue states. SHA256 queue and task-map independently computed and match refreshed readiness. Bot issue #257 is stale event, not current capacity. No paid browser/no Create. Work preferred generation3 unchanged.",
+  "verified_source_head_before_final": "bb31f319e08cd2855f8a85b26c6a809ba82d00a3",
+  "lease_release_required": true,
+  "finished_at": "2026-11-02T20:08:18.558Z",
+  "checked_at": "2026-11-02T20:08:18.558Z"
 }
