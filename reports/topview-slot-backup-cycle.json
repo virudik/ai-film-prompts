@@ -2,23 +2,35 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "646ece6a-67db-4772-8b6b-c839c84fbf3d",
-  "run_id": "b78fec2c-e2f0-832f-9a71-fb9529f3f01b",
-  "run_id_source": "Automations.peek current last_run.id (this scheduled run)",
-  "started_at": "2026-11-02T22:03:46.677671Z",
-  "receipt_started_at": "2026-11-02T22:08:30.191Z",
-  "source_head": "33608c719775c3def647967fbbce640a61ed708d",
+  "execution_instance_id": "52d4183b-d6c5-4f11-bbcc-fe2cef7219bc",
+  "run_id": "a74f6cb2-267c-8326-8230-a77cbaeec363",
+  "run_id_source": "Automations.peek current last_run.id, scheduled_for 2026-11-02T23:00:00Z, recorded_status in_progress",
+  "started_at": "2026-11-02T22:57:52.413567Z",
+  "receipt_started_at": "2026-11-02T23:09:16.769Z",
+  "source_head": "30b29cbfe542237f7a6e7c71c4f615476c403486",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "completed",
+  "phase": "started",
+  "stage": "scan_completed",
   "scan_source": "Topview live connector read-only",
-  "scan_scope": "14 boards; 34 board/media pages; full video+image scan; direct taskID reconciliation of 13 submitted items",
+  "scan_scope": "14 boards; 34 video/image pages; all video+image tasks; direct taskID reconciliation of 13 submitted items",
   "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "scan_checked_at": "2026-11-02T23:04:03.234Z",
   "boards_scanned": 14,
   "pages_scanned": 34,
   "total_tasks_observed": 1010,
+  "video_tasks_scanned": 626,
+  "image_tasks_scanned": 384,
+  "video_status_counts": {
+    "success": 597,
+    "init": 6,
+    "fail": 23
+  },
+  "image_status_counts": {
+    "success": 368,
+    "fail": 16
+  },
+  "occupied_slots": 6,
+  "free_slots": 0,
   "active_task_ids": [
     "de8e44bb15d64dc7a4eb640d27a726e4",
     "431180d384cc43bebe7afc702e4eb4e6",
@@ -27,12 +39,25 @@
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e"
   ],
+  "all_submitted_queue_tasks_verified": 13,
+  "unresolved_claim_states": [],
+  "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256": "79eecaf91f66df1827335c86616cd9f166607b8e8fb7d5187e513224a20b3af5",
+  "readiness_sha_verified": true,
+  "readiness_source_checked_at": "2026-11-02T22:40:22Z",
   "selected_item": null,
+  "next_ready_item": {
+    "id": "S56-SEED20-P2",
+    "priority": 0.31,
+    "readiness_code": "ready",
+    "slot_reserved": false
+  },
   "new_submissions": 0,
-  "outcome": "no_free_slot",
-  "blocker": "GitHub safety checks blocked the exact-own-lease release write; lock remains held (not a task submission blocker)",
+  "task_ids": [],
+  "outcome": "scan_completed_no_free_slot",
+  "blocker": "6/6 physical video slots occupied; no Create permitted",
   "retryable": true,
-  "browser_transport": "Topview live connector read-only; TinyFish not started; no Create",
+  "browser_transport": "Topview connector read-only; TinyFish not started; no Create",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -45,9 +70,9 @@
     "work_capacity": "restored_verified"
   },
   "lease": {
-    "holder": "chatgpt:ordinary:646ece6a-67db-4772-8b6b-c839c84fbf3d",
-    "acquired_at": "2026-11-02T22:07:53.736Z",
-    "expires_at": "2026-11-02T22:42:53.736Z"
+    "holder": "chatgpt:ordinary:52d4183b-d6c5-4f11-bbcc-fe2cef7219bc",
+    "acquired_at": "2026-11-02T23:08:20.400Z",
+    "expires_at": "2026-11-02T23:38:20.400Z"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
@@ -58,43 +83,5 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T22:17:51.475Z",
-  "video_tasks_scanned": 626,
-  "image_tasks_scanned": 384,
-  "video_status_counts": {
-    "success": 597,
-    "init": 6,
-    "fail": 23
-  },
-  "image_status_counts": {
-    "success": 368,
-    "fail": 16
-  },
-  "task_ids": [],
-  "all_submitted_queue_tasks_verified": 13,
-  "unresolved_claim_states": [],
-  "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
-  "task_map_sha256": "5f82abc37be996e7032fb6e757e9170e444372109002be73cd4aec6167eefa8a",
-  "readiness_sha_verified": true,
-  "readiness_source_checked_at": "2026-11-02T21:50:29.977303Z",
-  "scan_checked_at": "2026-11-02T22:15:30.402Z",
-  "next_ready_item": {
-    "id": "S56-SEED20-P2",
-    "priority": 0.31,
-    "readiness_code": "ready",
-    "slot_reserved": false
-  },
-  "peer_monitor": {
-    "ordinary_run_id": "b78fec2c-e2f0-832f-9a71-fb9529f3f01b",
-    "ordinary_latest_result_run_id": "1ba56833-76c8-8324-8993-abe9a7c85ff8",
-    "work_hh55_last_run_id": "41d9854c-fef0-8325-8c29-3819eae35eb0",
-    "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
-  },
-  "notes": "Full live all-board 34-page scan: 1010 tasks, 626 videos, 384 images. Six global active video tasks, all init Unlimited creditsCost0 on My First Board; verified again at 22:15:30Z. All 13 submitted canonical task IDs independently read. No claimed/submitting/submission_unknown. Queue/task-map SHA256 independently computed and match readiness. Older bot slot issue is not live capacity. Work route gen3 retained. No paid TinyFish, no Create. Final exact lease release was denied by connector safety checks; readback still held until 2026-11-02T22:42:53.736Z. No workaround attempted.",
-  "verified_source_head_before_final": "33608c719775c3def647967fbbce640a61ed708d",
-  "lease_release_required": true,
-  "finished_at": "2026-11-02T22:16:20.481Z",
-  "checked_at": "2026-11-02T22:16:20.481Z",
-  "lease_release_status": "blocked_by_tool_safety",
-  "lease_release_checked_at": "2026-11-02T22:17:51.475Z"
+  "updated_at": "2026-11-02T23:09:16.769Z"
 }
