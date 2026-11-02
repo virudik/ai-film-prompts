@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-02T11:10:32+00:00",
-  "source_head": "ba071521582e6265420124ffaabb9b022b14c205",
-  "source_fingerprint": "e3cace03650148bfa59ccc50f1b6516bf396f79eb8387a3fcca31fcddf8f079e",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-02T11:20:15+00:00",
+  "source_head": "85c344fa6df14cc8e7a18801c02294856c727a54",
+  "source_fingerprint": "b566016e9c110ee4497f65fd7a47a0c08d76856275ece562dc274ab44c8ff95a",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "seregius-continue-20261101-ordinary-recovery",
@@ -30,11 +30,37 @@
     },
     "source_head": "26c8d5387f9ebd21afb5f8d48a4578ef099d90dc"
   },
-  "reasons": [
-    "next action changed without a recovery checkpoint"
-  ],
-  "selected_work": null,
-  "checkpoint_text": "",
+  "reasons": [],
+  "selected_work": {
+    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+    "title": "Заполнение свободных Topview-слотов — задача №1",
+    "status": "waiting_for_slot",
+    "last_completed": "Full scan6/6; S59-P2 continuity QC rejected for S59-P3 because source finishes landed. Work preferred role restored with completed runtime, authenticated GUI and Unlimited0 evidence; ordinary/Grok reserves remain enabled.",
+    "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under the current route generation and exact own lease/CAS. S59-P3 stays blocked: source P2 ends already landed; await owner decision or a suitable real airborne source, no synthetic reset.",
+    "verified_at": "2026-11-02T11:18:32.530Z",
+    "blockers": [
+      "6/6 active physical video slots.",
+      "S59-P3 source-continuity defect: P2 ends after the landing; owner decision or suitable real airborne source required."
+    ],
+    "evidence": [
+      {
+        "file": "reports/ordinary-launcher-recovery-2026-11-01.json",
+        "sha256": "73309d84de5308ad83ee016fc00e708c9369980613a740700b1fe34336637192"
+      }
+    ],
+    "read_next": [
+      "ops/LAUNCHER-COORDINATION.md",
+      "ops/slot-backup.json",
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/topview-launch-queue.json"
+    ],
+    "checkpoint": {
+      "file": "reports/current-work-checkpoint.md",
+      "anchor": "# 01.11.2026 — Продолжай: восстановление часового исполнителя",
+      "sha256": "40ca18c7891a03c159cd3e7a7d91d8d0de87f80ed09ed1c30e09281fdb8194fe"
+    }
+  },
+  "checkpoint_text": "# 01.11.2026 — Продолжай: восстановление часового исполнителя\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nВыполнено 2026-11-01T13:11:25Z по «Продолжай», полный приём. Существующий ordinary6ae5e9d563f88191aa6da7c9ba1e05a0 восстановлен в enabled=true; отдельный peek подтвердил неизменность ID, prompt, HH:00 Europe/Moscow и conversation. HH:55 и Relay включены. Новых автоматизаций0. Перед изменением исходная точка сохранена/readback ed2bbfb; ordinary foreground передан новой сессии (epoch3), preferred_executor и route_generation сохранены.\n\nПричина выключения API не раскрыта. Последний ordinary run445b644c-d2cc-8332-b542-c54e01dd47e4 завершён01.11 в08:12:11 МСК; пустой результат требует действия пользователя, пояснения нет. Этот старый флаг не скрыт. После включения нового реального runtime/receipt ещё нет. HH:55 run4051845d-b258-8332-9532-5c1c5639360e от15:59 МСК имеет no_update и не доказывает проверку Topview. Настройка восстановлена; сквозное фоновое исполнение остаётся отдельной проверкой.\n\nПолный read-only scan15:42:45–15:43:16 МСК:14 досок,18 страниц,625 видео,6/6 активных Unlimited0. Активны71,72,61P1,60P1,62P1,59P2. S52-R2-P1 завершилась07:55:25 МСК; S71 task431180d384cc43bebe7afc702e4eb4e6 создана Grok11:29:13, простой3ч33м48с. Новых Create/расходов в ремонте0; submitted/unknown не повторять.\n\nВосстановление исправлено после проверки причины: коммит9b4425f добавил расписание Grok внутрь связанного H1, а recovery не обновил. Исходный отчёт побайтно цел, прежняя recovery сохранена в истории; новая привязка относится к этому проверенному этапу. Восемь источников и15якорей сверены, continue_preflight проходит. Отчёт возможностей Grok прочитан, задача grok-202611010305-capabilities — «Принято»; чужая d37ea54b needs_owner сохранена.\n\nДальше: проверить собственные run/receipt следующего ordinary HH:00; при свободном слоте первая фактически готовая по свежей priority (сейчас48.2), полный scan/точные входы/QC/замок/CAS/Unlimited0. При6/6 — подготовка разрешённых стыков; S52-R2-P2 требует настоящего окончания завершённой P1 и QC. Включение не подтверждает GUI или Work-квоту; телеметрию продолжает робот, monitor_role=skip.\n\nДоказательства: `reports/ordinary-launcher-recovery-2026-11-01.json`; квитанция приёма `seregius-continue-20261101-ordinary-recovery` в `reports/handoff-receipts.json`. Очередь, master, разрешения, claims и бюджеты сохранены.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -127,7 +153,12 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [],
+  "read_next": [
+    "ops/LAUNCHER-COORDINATION.md",
+    "ops/slot-backup.json",
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/topview-launch-queue.json"
+  ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -416,8 +447,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "7df1966c80397cd1e439c6092f544b24a0390182092f043129c716a3b99dcaf1",
-      "bytes": 369412
+      "sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+      "bytes": 370960
     },
     {
       "file": "project-status.json",
@@ -426,13 +457,18 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "889fd3d0e0fe506fee39ee0e3ee16723d84294e70fc9295fd6769d52fb94fb1f",
-      "bytes": 49764
+      "sha256": "8663a3c0b960a0dab53dc9ad477d3e55c3541342e0c815db1c93fb9a63972f39",
+      "bytes": 52425
     },
     {
       "file": "reports/handoff-receipts.json",
       "sha256": "44e6bb584667dfef03586d7e80b4da347499235d2ae49e7bfdbf1d720bd631f8",
       "bytes": 34860
+    },
+    {
+      "file": "reports/ordinary-launcher-recovery-2026-11-01.json",
+      "sha256": "73309d84de5308ad83ee016fc00e708c9369980613a740700b1fe34336637192",
+      "bytes": 21523
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -451,9 +487,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "ae510c1e82515572b284fe13684a33ff37ce59b1fcc2b1e74931a64d775ea5e0",
-      "bytes": 94537
+      "sha256": "07ff1ca13d686ae6464a350dd2a6a1e541806cae6556a1ca75f42a7f5dd6a43a",
+      "bytes": 95133
     }
   ],
-  "packet_bytes": 3864
+  "packet_bytes": 8160
 }
