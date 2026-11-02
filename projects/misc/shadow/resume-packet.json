@@ -3,43 +3,19 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T05:17:46+00:00",
-  "source_head": "d34852f283a87ece8090af8dd6bca292c31706c2",
-  "source_fingerprint": "fb7284d2a344818c3548118d824fc6fd590a8c5caf51b6433979feb4e0cbe77e",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-02T05:19:39+00:00",
+  "source_head": "6ee0ae8f452e57840556f52d06ca9002f090be18",
+  "source_fingerprint": "11676b7ab4fab04524f4e3df2563ac268c4410093e2fa942a0c6f6c09d0fbe1f",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "MISC-S1-S2-REFERENCES",
-    "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
-    "status": "blocked_repeated_output_mismatch",
-    "last_completed": "Проверка источников и трёх неудачных результатов сохранена; новых пригодных PNG 0, ранее нарисованное не перерисовывалось.",
-    "next_action": "Recover original C2-C6 and resolve C7 without redrawing; check fresh inventory. Continue only missing separate images from number 8 after a single-image generation matches its exact prompt. Save verified originals and publish actual files only; no collage substitutes.",
-    "verified_at": "2026-11-02T03:50:22Z",
-    "blockers": [
-      "Оригиналы C2–C7 из прежнего чата не получены и визуально не проверены. Пустой поиск не доказывает их отсутствия; не повторять до восстановления.",
-      "Три новых результата не соответствуют отдельным изображениям задания; однотипные попытки прекращены. Причина генератора не установлена."
-    ],
-    "evidence": [
-      {
-        "file": "projects/misc/reports/reference-generation-attempts-2026-11-02.json",
-        "sha256": "e291ebca1c666baf9f56a5d8f03ea14d0c773ed1be14b0c484b0004ff8f78c04"
-      }
-    ],
-    "read_next": [
-      "projects/misc/references/GPT-TASK.md",
-      "projects/misc/reports/reference-generation-attempts-2026-11-02.json",
-      "projects/misc/references/generation-progress.json"
-    ],
-    "checkpoint": {
-      "file": "projects/misc/reports/current-work-checkpoint.md",
-      "anchor": "# Разное — проверка повторов и блокер отдельных изображений · 02.11.2026",
-      "sha256": "effcb267e3414a1751f1b3538ce63836c8052d028fd043e00d7d975af70628a2"
-    }
-  },
-  "checkpoint_text": "# Разное — проверка повторов и блокер отдельных изображений · 02.11.2026\n\nwork_id: MISC-S1-S2-REFERENCES\nПроверено: 2026-11-02T03:50:22Z\nСтатус: blocked_repeated_output_mismatch; задача не завершена.\n\nВладелец разрешил дорисовать недостающее заходами по 10 и затем опубликовать. Прежде нарисованное не повторять. Загруженный GPT-TASK.md побайтно соответствует каноническому git blob 90d9ecb9983f2320a898a5f75f77215105da2b85 (59 изображений). Существующие промпты и C1 не пересоздавались.\n\nВ GitHub прежний журнал подтверждает сохранение C1. В доступной истории прежнего чата сообщается о C1–C6 и объявляется C7; оригиналы C2–C7 в текущую среду не получены и визуально не проверены. Пустая выдача Library и недоступная share-ссылка не доказывают отсутствие файлов. Поэтому C1–C7 исключены из повторной генерации до восстановления оригиналов; прежнее указание «начать с №2» ниже не исполнять без этой проверки.\n\nПопытка продолжить отсутствующие №8–17 и уточнить отдельный C8 не дала пригодных PNG: получены три обзорных коллажа. Все три отклонены по заданию, не разрезаются на фиктивные референсы и не публикуются в сценах. Новых пригодных изображений 0; десять картинок и весь комплект не объявляются готовыми. Причина обработки генератором достоверно не установлена; однотипные попытки прекращены.\n\nСледующий шаг: восстановить оригиналы C2–C6 и выяснить состояние C7 без перерисовки; проверить текущий реестр. Продолжать с действительно отсутствующего отдельного изображения, проверив соответствие одному точному промпту до следующей партии. Публиковать только реальные проверенные файлы; обе сцены DRAFT/not_approved, мастер и очередь Topview не менялись.\n\nДоказательства: `projects/misc/reports/reference-generation-attempts-2026-11-02.json`. Исторический generation-progress.json сохранён; его счётчики относятся к прежнему циклу. Полный успешный приём и готовность генератора не заявляются.\n",
+  "reasons": [
+    "project master/status mismatch: misc",
+    "next action changed without a recovery checkpoint"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -132,11 +108,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/misc/references/GPT-TASK.md",
-    "projects/misc/reports/reference-generation-attempts-2026-11-02.json",
-    "projects/misc/references/generation-progress.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -232,8 +204,8 @@
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
-      "sha256": "e9c6fec8bf9ea3438951f93679af9b952a226f29c4f9bed9bceae54073e45ebf",
-      "bytes": 5628
+      "sha256": "27e053d2d2283b173cdfbc4eb1a983f24a3f3774238bd85b9f98b51609e1a155",
+      "bytes": 6693
     },
     {
       "file": "projects/misc/reports/handoff-receipts.json",
@@ -241,19 +213,14 @@
       "bytes": 246
     },
     {
-      "file": "projects/misc/reports/reference-generation-attempts-2026-11-02.json",
-      "sha256": "e291ebca1c666baf9f56a5d8f03ea14d0c773ed1be14b0c484b0004ff8f78c04",
-      "bytes": 3823
-    },
-    {
       "file": "projects/misc/video-prompts.md",
-      "sha256": "70be06a61529b8f4987c4127156e5048e8affef7c990b66cbb8385751eccc033",
-      "bytes": 235455
+      "sha256": "5782b28ba5b21dd4f256a0e8684a2579b80d1e7d27af850aefb18cac60f5ad8b",
+      "bytes": 247822
     },
     {
       "file": "projects/misc/work-resume-register.json",
-      "sha256": "14491e7d19022100540f07ac0d865fee593d7da32feaefc3c9a559efcdea77fe",
-      "bytes": 5624
+      "sha256": "e8fe39d3c5e43189496be74cd9bbfba0039b65a05b806a1b0ccca6b058be0ce6",
+      "bytes": 5844
     },
     {
       "file": "projects/projects.json",
@@ -276,5 +243,5 @@
       "bytes": 1350175
     }
   ],
-  "packet_bytes": 7758
+  "packet_bytes": 3894
 }
