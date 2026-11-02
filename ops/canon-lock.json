@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:a9d3cce0-f700-430c-8a5b-a03c501d4df5",
-  "task": "Серёгиус: ordinary HH:00 full Topview scan and receipt; 6/6 no Create",
-  "acquired_at": "2026-11-02T05:05:06.913Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T05:06:47.358Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:8f2d6e91-6b76-4a7a-a62a-51f3d8e2c419",
+  "task": "Разное: референсы сцен 1 и 2 — 59 PNG + публикация",
+  "acquired_at": "2026-11-02T05:07:11Z",
+  "expires_at": "2026-11-02T05:52:11Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
