@@ -54,22 +54,35 @@
     }
   },
   "qc": {
-    "scope": "Sampled visual review only: full source contact sheet at 2 fps plus tail at 8 fps; stream metadata checked. No continuous full-frame-rate playback and no audio listening.",
+    "scope": "All 72 derivative frames inspected in a single frame-by-frame contact sheet; both video and audio streams fully decoded without errors. Google Drive browser preview could not load the video. No continuous real-time playback and no audio listening.",
     "sampled_observations": [
-      "Serega approaches and enters the personal craft, traverses the cockpit corridor and sits at the controls.",
-      "The sampled tail reaches a seated-at-controls endpoint with stable cockpit geometry and no obvious severe discontinuity in the sampled frames."
+      "All 72 frames of the exact 3.0s derivative were visually inspected in order as a contact sheet: Serega crosses the cockpit, turns into the left pilot seat and settles at the controls.",
+      "Cockpit geometry, camera travel, robe and visible face remain coherent across the derivative; no obvious black frame, hard discontinuity, duplicate person or severe deformation was visible in the frame-by-frame review.",
+      "The endpoint is a stable seated-at-controls shot suitable as a continuity candidate, subject to real-time playback with sound."
     ],
     "audio_stream_present": true,
     "audio_listened": false,
     "continuous_full_rate_viewed": false,
     "owner_approval": false,
     "status": "provisional_usable_for_continuity_pending_full_continuous_audio_qc",
-    "blocker": "Full continuous visual review with audio remains required before S52-R2-SEED20-P2 can become launch-ready."
+    "blocker": "Full continuous real-time visual playback with audio listening remains required before S52-R2-SEED20-P2 can become launch-ready.",
+    "technical_decode": {
+      "checked_at": "2026-11-02T14:06:36.315Z",
+      "derivative_sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+      "frames_decoded": 72,
+      "video_decode_errors": 0,
+      "audio_decode_errors": 0,
+      "audio_codec": "AAC LC stereo 32000 Hz",
+      "integrated_loudness_lufs": -38.6,
+      "browser_preview": "Google Drive reported 'Невозможно загрузить видео. Повторите попытку.'; no playback claim made"
+    }
   },
   "launch_effect": {
     "dependent_item_state": "blocked_inputs",
     "launch_readiness": "blocked_pending_full_continuity_qc",
     "slot_reserved": false,
     "create_allowed_now": false
-  }
+  },
+  "last_qc_update_at": "2026-11-02T14:06:36.315Z",
+  "last_qc_execution_instance_id": "b634e2ef-892c-4175-9258-23ec04460339"
 }
