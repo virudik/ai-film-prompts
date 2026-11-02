@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "project": "misc",
-  "last_updated_at": "2026-11-02T11:04:47.992Z",
+  "last_updated_at": "2026-11-02T11:13:38.407Z",
   "active_work": [
     {
       "work_id": "MISC-S1-S2-REFERENCES",
       "project": "misc",
       "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
       "status": "awaiting_editorial_review",
-      "updated_at": "2026-11-02T11:04:47.992Z",
+      "updated_at": "2026-11-02T11:13:38.407Z",
       "completed": [
         "Прежний C1 сохранён, 1/59; 59 исходных промптов сохранены дословно; привязки C1 опубликованы без приёмки.",
         "02.11: проверены GitHub inventory, Library и соответствие загруженного GPT-TASK каноническим байтам. C1–C7 исключены из повторной генерации до восстановления прежних оригиналов. Три новых неподходящих коллажа отклонены, новых пригодных PNG 0; мастер и очередь сохранены.",
@@ -19,28 +19,32 @@
       "next_action": "Владелец: визуальный QC 59/59 (ещё not_approved). Клиент: выбрать упрощённый 45–60с/один 120с/оба 120с и согласовать сценарий, стоимость и сроки. До нового явного разрешения видео не запускать.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-02T11:04:47.992Z",
-        "last_completed": "59/59 референсов готовы, коммерческая смета моделей и предложения заказчику добавлена в мастер; изображения не одобрены, видео DRAFT, запусков нет.",
+        "verified_at": "2026-11-02T11:13:38.407Z",
+        "last_completed": "Все 59/59 референсов сохранены; смета платных генераций и московская стоимость заказа опубликованы в проектном master и отчёте; видео и редакционная приёмка пока не выполнялись.",
         "next_action": "Владелец: визуальный QC 59/59 (ещё not_approved). Клиент: выбрать упрощённый 45–60с/один 120с/оба 120с и согласовать сценарий, стоимость и сроки. До нового явного разрешения видео не запускать.",
         "checkpoint": {
           "file": "projects/misc/reports/current-work-checkpoint.md",
-          "anchor": "# Разное — смета платных генераций и оценка заказов",
-          "sha256": "94678eb8a32247b7752e176e7cb9b225e4a137470730fa5d0affc45ab89eda73"
+          "anchor": "# Разное — смета платных генераций и оценка заказов · 2026-11-02T11:03:44.342Z",
+          "sha256": "6df208b6a77c62b99176f19ce0a9757301c59dfe949ff2699353bbaf0ea228a2"
         },
-        "read_next": [
-          "projects/misc/reports/commission-pricing-2026-11-02.md",
-          "projects/misc/references/generation-progress.json",
-          "projects/misc/video-prompts.md"
-        ],
         "evidence": [
           {
             "file": "projects/misc/reports/commission-pricing-2026-11-02.md",
-            "type": "cost_basis"
+            "sha256": "cdc838601bb4c2a7c29b04c80223b213b365c4bae3fd013927cf74a78ac76519"
           },
           {
             "file": "projects/misc/references/generation-progress.json",
-            "type": "59_of_59"
+            "sha256": "124ea28b03e5b9d1b609c1ca8a93529fe72fad5b121ec0bb09dd679d3c8bfe68"
           }
+        ],
+        "read_next": [
+          "projects/misc/reports/commission-pricing-2026-11-02.md",
+          "projects/misc/references/generation-progress.json",
+          "projects/misc/video-prompts.md",
+          "projects/misc/HANDOFF.md"
+        ],
+        "blockers": [
+          "Ожидается художественный QC владельца и выбор клиентом объёма заказа; видео запускать нельзя."
         ]
       },
       "recovery_history": [
