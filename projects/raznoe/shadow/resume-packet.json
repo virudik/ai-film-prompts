@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-02T13:48:50+00:00",
-  "source_head": "caa983af57d318b6177a799dbfec4896a26d05a7",
-  "source_fingerprint": "396ccc4d7e340c9d52c0a3bf7ee6ddb209cc9748a8e6ea30e9ab672b563c87b4",
+  "checked_at": "2026-11-02T13:54:57+00:00",
+  "source_head": "8c8233e206553965bb19878562cddc3296aa49a6",
+  "source_fingerprint": "6e75e2a8aac3caeb6d8390869dac4722894e1130e5b335cb37a7e1fa95104666",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -227,8 +227,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "1e32bdeefbea4042f59a86446094212b09cd52c45c880f0455cd1e31d26af121",
-      "bytes": 19278
+      "sha256": "877c658f44c0a2f6a329c574488f95e89b90ad2bdd7f7db884b8ea75fa4dc99a",
+      "bytes": 19276
     },
     {
       "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
