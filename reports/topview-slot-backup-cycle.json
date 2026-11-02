@@ -9,12 +9,12 @@
   "receipt_started_at": "2026-11-02T18:38:40.781Z",
   "source_head": "a376f10bb93cf64c4ac982711b943447934a3a37",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview connector live unfiltered all-board/all-page read-only",
   "scan_scope": "14/14 boards;20/20 pages (pageSize 100);1010 tasks",
   "scan_complete": true,
-  "scan_checked_at": "2026-11-02T18:38:40.781Z",
+  "scan_checked_at": "2026-11-02T18:40:38.249Z",
   "occupied_slots": 6,
   "free_slots": 0,
   "boards_scanned": 14,
@@ -30,7 +30,7 @@
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e"
   ],
-  "all_submitted_queue_tasks_verified": null,
+  "all_submitted_queue_tasks_verified": 13,
   "unresolved_claim_states": [],
   "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
   "task_map_sha256": "17544395c5cbac13d5299b03a19d686912c50522726b151383dfd8459e29c075",
@@ -43,7 +43,7 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "Topview connector read-only; TinyFish not run, no Create",
@@ -77,7 +77,19 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T18:38:40.781Z",
-  "checked_at": "2026-11-02T18:38:40.781Z",
-  "notes": "Current live full scan 6/6 active across 14 boards; no TinyFish polling or Create; final reconciliation and receipt pending."
+  "updated_at": "2026-11-02T18:40:38.249Z",
+  "checked_at": "2026-11-02T18:40:38.249Z",
+  "notes": "Fresh account-wide 14-board, 20-page, 1010-task read-only scan shows 6/6 active videos; all 13 submitted queue task IDs independently present on My First Board, each Unlimited; six active have creditsCost 0. Source SHA256 matches queue-readiness. No unresolved claim/submitting/unknown items. Next ready S56-SEED20-P2 not reserved. No TinyFish or Create, no spend. Earlier free-slot issue events are historical, not evidence of current capacity.",
+  "finished_at": "2026-11-02T18:40:38.249Z",
+  "video_status_counts": {
+    "success": 597,
+    "init": 6,
+    "fail": 23
+  },
+  "image_status_counts": {
+    "success": 368,
+    "fail": 16
+  },
+  "verified_source_head_before_final": "f68c43239c2087a6f03c737e3511ed3f15fee20e",
+  "lease_release_required": true
 }
