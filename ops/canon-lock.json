@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:7db0edba-d148-4938-a545-c5fed110a705",
   "task": "Серёгиус: ordinary scheduled global Topview capacity scan and receipt (no Create at 6/6)",
   "acquired_at": "2026-11-02T04:00:03.551Z",
-  "expires_at": "2026-11-02T04:15:03.551Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-02T04:03:11.633Z",
   "rules": "ops/CANON-LOCK.md"
 }
