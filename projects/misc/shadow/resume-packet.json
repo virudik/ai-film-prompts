@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T07:13:42+00:00",
-  "source_head": "6c6cd40d8033f9efea0e64c1f0e4819db817b913",
-  "source_fingerprint": "b05a5d2c68aa656fe6059ce09fbb205e193923e5c449065d701a69a8c05b85a5",
+  "checked_at": "2026-11-02T07:21:01+00:00",
+  "source_head": "b966f73877c4e1282b1fda48768529de770f074d",
+  "source_fingerprint": "c18c00ab9faa1b1f7b53b81164afbff3cbf90688f9d71430ce7f9eebe1179ca7",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -198,13 +198,13 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "4d5d6bf29aee6125f60b9f4718f502c91551a1ee82ce5c13eedf673dd4c4cebf",
-      "bytes": 8885
+      "sha256": "ab2fd0574fff1949c28aa4536a6e389e00d7f3ace5467c25de2cfeafecbd58b2",
+      "bytes": 8887
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
-      "sha256": "27e053d2d2283b173cdfbc4eb1a983f24a3f3774238bd85b9f98b51609e1a155",
-      "bytes": 6693
+      "sha256": "89732bd77c326b531825222caa9e025387b5b4df95a7bb4f489b41fda620b71d",
+      "bytes": 7596
     },
     {
       "file": "projects/misc/reports/handoff-receipts.json",
@@ -213,13 +213,13 @@
     },
     {
       "file": "projects/misc/video-prompts.md",
-      "sha256": "5782b28ba5b21dd4f256a0e8684a2579b80d1e7d27af850aefb18cac60f5ad8b",
-      "bytes": 247822
+      "sha256": "94c3a923f1804074c3ffc1b25d15ade31c047d51c7167e076ba5f225e95dcc32",
+      "bytes": 280634
     },
     {
       "file": "projects/misc/work-resume-register.json",
-      "sha256": "e8fe39d3c5e43189496be74cd9bbfba0039b65a05b806a1b0ccca6b058be0ce6",
-      "bytes": 5844
+      "sha256": "e6b90ea004b0f81b14c5583fa470ff1c35a33567f957ff60358149c58b94768c",
+      "bytes": 4395
     },
     {
       "file": "projects/projects.json",
