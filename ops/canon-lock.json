@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:6d50dd33-4797-42f5-9107-53dac01cd079",
-  "task": "HH:55 Серёгиус: полный scan 6/6, фазы A/B и квитанция",
-  "acquired_at": "2026-11-02T07:02:09.609Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T07:05:17.772Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:1e7d8c97-4f27-4835-9d43-496bde10c2bb",
+  "task": "Ordinary scheduled HH:00 Seregius full scan and cycle receipt",
+  "acquired_at": "2026-11-02T07:08:34.793Z",
+  "expires_at": "2026-11-02T07:33:34.793Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
