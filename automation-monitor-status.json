@@ -392,9 +392,7 @@
       "S51G",
       "S28-A13-20261030"
     ],
-    "reconciliation_items": [
-      "S48-SEED20-P2"
-    ],
+    "reconciliation_items": [],
     "last_event_id": "result:b0915b04173c414e9ac08652d34b7852",
     "receipt_present": false,
     "handler_outcome": null,
@@ -405,6 +403,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "124870c7",
-    "checked_at": "2026-11-02T10:20:25Z"
+    "checked_at": "2026-11-02T10:30:29Z"
   }
 }
