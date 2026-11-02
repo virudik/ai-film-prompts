@@ -9,20 +9,20 @@
   "receipt_started_at": "2026-11-02T04:00:31.333Z",
   "source_head": "6250b3563df258d5a73567c7ed070a71c8b3d934",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "started",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview read-only connector",
-  "scan_scope": "full all 14 boards /17 pages",
+  "scan_scope": "14/14 boards, 17/17 pages, all 953 tasks (625 video, 328 image); direct read of six active task IDs",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress_no_create_at_full_capacity",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "Topview connector read-only; TinyFish not invoked at 6/6",
+  "browser_transport": "Topview read-only connector; TinyFish not invoked because all six physical video slots occupied",
   "tinyfish_run_ids": [],
   "tinyfish_runs": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -39,5 +39,92 @@
     "tinyfish_authorized_gui_upload_in_this_run": false,
     "verified_new_task_id_in_this_run": false,
     "full_browser_production_launch_verified": false
+  },
+  "checked_at": "2026-11-02T04:02:55.089Z",
+  "finished_at": "2026-11-02T04:02:55.089Z",
+  "source_head_at_finish": "1a9057f932df42aef3e54cf5155ed63a24988ab6",
+  "board_count": 14,
+  "pages_requested": 17,
+  "pages_successful": 17,
+  "total_tasks_observed": 953,
+  "video_tasks_observed": 625,
+  "image_tasks_observed": 328,
+  "active_task_ids": [
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e",
+    "b0915b04173c414e9ac08652d34b7852"
+  ],
+  "active_task_details": [
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "model_id": "qwen-wan3.0-video",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "model_id": "qwen-wan3.0-video",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    },
+    {
+      "task_id": "b0915b04173c414e9ac08652d34b7852",
+      "model_id": "seedance-2.0-style",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+    }
+  ],
+  "queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+  "task_map_sha256": "8056d37df4baf06a148f054ed86f323fcc2c81d710b6c0fbd7609a8d80672847",
+  "source_sha_matches_readiness": true,
+  "all_six_active_details_verified": true,
+  "all_six_active_unlimited_zero": true,
+  "unresolved_claims": [],
+  "ready_next_if_slot_free": "S48-SEED20-P2, priority -0.98; true S48.1 last three seconds (requires fresh UI SHA/QC before any Create)",
+  "scan_errors": [],
+  "robot_status": "2026-11-02T03:20:21Z: 6/6, no free slots (independent robot telemetry; fresh direct scan performed)",
+  "work_recovery_evidence": "No new direct owner confirmation or proven Work GUI/quota. Work HH:55 run no_update; Relay stale/no_update. No role switch.",
+  "owner_decisions_open": "Only GitHub owner-tasks inspected; to:grok needs_owner unrelated to launch. Supabase owner-decision query not performed because no Create permitted at 6/6.",
+  "browser_capability_probe": {
+    "transport": "TinyFish",
+    "performed": false,
+    "reason": "Do not incur metered TinyFish cost at 6/6",
+    "profile_id": "prof_0ac4618d0cf4456e",
+    "file_upload_verified_for_this_run": false,
+    "unlimited_zero_verified_for_this_run": false,
+    "create_verified_for_this_run": false
   }
 }
