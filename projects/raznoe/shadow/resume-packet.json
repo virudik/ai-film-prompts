@@ -2,40 +2,65 @@
   "schema_version": 1,
   "generator": "continue-2.0",
   "project": "raznoe",
-  "project_name": "Роскосмос",
-  "checked_at": "2026-11-02T22:45:35+00:00",
+  "project_name": "Разное",
+  "checked_at": "2026-11-02T22:43:12+00:00",
   "source_head": "86d8b8f6ef5c01cb95f01e1bd47ceec193a0020b",
-  "source_fingerprint": "302fd03255800daf83295a067a4ccc02bbda9132b16a681c2aba4060d21af5f0",
+  "source_fingerprint": "d492c9f0e233709457c0c46ca82781d1e65c490a7cbb1406b2c7e017843d22c4",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [],
   "selected_work": {
-    "work_id": "RAZNOE-CPK-REFS-20261027",
-    "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
-    "status": "prepared_waiting_owner_review_project_paused",
-    "last_completed": "Все10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.",
-    "next_action": "Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.",
-    "verified_at": "2026-10-28T12:55:17+00:00",
-    "blockers": [],
+    "work_id": "MISC-S1-S2-REFERENCES",
+    "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
+    "status": "awaiting_editorial_review",
+    "last_completed": "Контрольная точка с прямым решением владельца; два черновика Лены в текущем чате без одобрения/публикации; два отклонённых коллажа Нины.",
+    "next_action": "Work: обновить описания и пять отдельных PNG проекта raznoe — C3/C4 (Мама Лена), S2-N1/S2-N2 (Бабушка Нина), S2-D1 (Дарья Андреевна) — на светлокожую русскую/европейскую внешность, сохранив возраст, образы, идентичность и 3D-стиль; не менять маму Веру и другие 54 PNG. После QC обновить character-references.json, пять .prompt.txt, мастер, manifest/SHA, статус health=ok и Pages. Без сторонних платных генераций и видео. 59/59 текущих референсов not_approved.",
+    "verified_at": "2026-11-02T16:10:07.822Z",
+    "blockers": [
+      "Пять новых канонических изображений и описания не внесены; следующий исполнитель Work должен выполнить работу и QC.",
+      "Два тройных коллажа Нины не соответствуют заданию, не использовать.",
+      "46 подтверждённых трат Topview 0.12 кредита без разрешения владельца (5.52 кредита); возврат не подтверждён.",
+      "Владелец не одобрил ни одно из 59 изображений; любое повторное платное генерирование запрещено.",
+      "Остались художественный QC и расхождение привязки кухни image 3/image 4 в K1; без нового решения владельца не менять исходный промпт."
+    ],
     "evidence": [
       {
-        "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
-        "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3"
+        "file": "projects/raznoe/reports/unauthorized-credit-use-2026-11-02.json",
+        "sha256": "8a6ed6414a094570e4930f26483bc03b6e99c1d0ead332dc4e3e3f9acc5c72c7"
+      },
+      {
+        "file": "projects/raznoe/references/generation-progress.json",
+        "sha256": "dd3228fac591678cdc7d9cad01c5ba97e9d242f571642dc3e2275cf9c8fd492c"
+      },
+      {
+        "file": "projects/raznoe/references/topview-source-map.json",
+        "sha256": "34421412f192a0afa48bf59630906a2b79af52ef5ea4bc65fea62d73e38cb557"
+      },
+      {
+        "file": "projects/raznoe/references/usage-index.json",
+        "sha256": "70160d165280a5fda200163405b219f103a9f55293b6f7926de5218e1db835bc"
       }
     ],
     "read_next": [
+      "projects/raznoe/reports/current-work-checkpoint.md",
+      "projects/raznoe/character-references.json",
+      "projects/raznoe/references/mama-lena.prompt.txt",
+      "projects/raznoe/references/nina.prompt.txt",
+      "projects/raznoe/references/darya.prompt.txt",
+      "projects/raznoe/reports/unauthorized-credit-use-2026-11-02.json",
       "projects/raznoe/HANDOFF.md",
-      "projects/raznoe/ops/topview-launch-queue.json"
+      "projects/raznoe/references/generation-progress.json",
+      "projects/raznoe/INSTRUCTIONS.md"
     ],
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# ЦПК — локальные нашивки и надписи · 28.10.2026",
-      "sha256": "e2989c3bd4cdd51dd04a5b36cef52551bf3d61579aba4570f81fdbfa45f8243a"
+      "anchor": "# Разное — новая внешность Лены, Нины, Дарьи: передача в Work · 2026-11-02T16:09:03.597Z",
+      "sha256": "8af827657204d5a79d80264638822625f721646bc9bc4839f3acdad1e03b3090"
     }
   },
-  "checkpoint_text": "# ЦПК — локальные нашивки и надписи · 28.10.2026\n\nwork_id: RAZNOE-CPK-REFS-20261027\nПроверено: 2026-10-28T12:55:17+00:00\n\nВсе10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.\n\nОтчёт: projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json. Исходные размеры сохранены;0 изменённых пикселей вне масок. Три исключённых владельцем изображения сохранены побайтно.29 элементов очереди остаются на паузе; запусков и новых пунктов0.\n\nСледующее действие: Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.\n",
+  "checkpoint_text": "# Разное — новая внешность Лены, Нины, Дарьи: передача в Work · 2026-11-02T16:09:03.597Z\n\nwork_id: MISC-S1-S2-REFERENCES\n**Новое подтверждённое решение владельца (02.11.2026):** «Мама Лена имеется ввиду. Бабушку Нина и Дарья Андреевну тоже привести к российской белокожей внешности»; затем уточнил «значит и описание и картинуи людей меняем», подтвердил «да», после начал передачу: «так просто сохранись в контрольные точки. я это ворку поручу». **Исполнитель следующих правок — Work, это запись передачи, не отчёт об их выполнении.**\n\n**Точные объекты правки (проект `projects/raznoe`, сцены 1–2):** заменить **и описания, и сами изображения** трёх персонажей, всего **5 отдельных референсов**:\n- Сцена 1, **Мама Лена**, 34 года: `mama-lena.png` (C3), `mama-lena-expressions.png` (C4). Светлая кожа, русская/европейская внешность; сохранить тёмные кудри в высоком свободном пучке, тёмные глаза, голубую джинсовую рубашку над белой футболкой, тёмные джинсы, усталую доброжелательность. **Не путать с мамой Верой сцены 2 — её не менять.**\n- Сцена 2, **Бабушка Нина**, 62 года: `nina.png` (S2-N1), `nina-expressions.png` (S2-N2). Светлокожая русская женщина, короткие серебристые кудри, крупные серебристые серьги, сливовая спортивная куртка с белыми полосами, серые брюки, свисток; сохранить характер бывшего тренера по плаванию.\n- Сцена 2, **Дарья Андреевна**, 30 лет: `darya.png` (S2-D1). Светлокожая русская женщина с европейскими чертами, тёмные волосы в длинной косе на плече, доброжелательный спокойный взгляд; оставить зелёную льняную рубашку, кремовые брюки и образ специалиста.\n\n**Чего Work должен добиться:** сохранить единую идентичность каждой женщины во всех ракурсах и на листах эмоций, отдельные PNG с требуемым 3:2 для персонажей, стиль 3D-мультфильма, без подписей/логотипов/посторонних персонажей. Заменить оригиналы только после проверки результата; синхронно исправить `projects/raznoe/character-references.json`, пять `references/*.prompt.txt`, все относящиеся к ним фразы master `video-prompts.md`, SHA256 в списках/manifest и публичные ссылки. Обновить проектный статус `health=ok` по `scripts/projects.py . status --project raznoe --write` и проверить Pages. Остальные **54 референса из 59 не перерисовывать**, две сцены остаются DRAFT, изображения не получают automatic approval, видео не запускать. Никакого Topview/Higgsfield/MCP-расхода без отдельного согласования стоимости.\n\n**Фактически сделано в ЭТОМ чате (не сохранено в GitHub):** штатным ChatGPT ImageGen созданы два *предварительных* файла для Лены: C3 — `file_00000000f0448243a4552d114e489aa9` / `/mnt/data/a_high_quality_3d_cgi_character_model_sheet_in_a_c.png`; C4 — `file_00000000df6881f4bed2d817646cab79` / `/mnt/data/a_cinematic_ultra_detailed_photorealistic_cgi_st.png`. **Они не прошли художественную приёмку, не опубликованы в каноне;** Work должен проверить их пригодность, стиль и совпадение лица, не объявлять как готовые. Для Нины две попытки `file_0000000001588243ba490005540a4995` и `file_00000000d97c8210b7c18ef5957f4693` дали ошибочные общие коллажи трёх женщин с надписями; **отклонены**, не использовать как S2-N1/N2 или как три раздельные картинки. Для Дарьи отдельная правильная новая картинка не создана.\n\n**Текущее состояние:** пять канонических PNG и старые описания всё ещё **не исправлены**; старые `mama-lena`, `nina`, `darya` в `character-references.json` и `references/*.prompt.txt` содержат tan/deep-brown skin. Переданные намерения нельзя считать завершённым изменением. В GitHub 59/59 технических оригиналов, все not_approved, видео 0. Следующий шаг — Work принимает эту точку, проверяет fresh main и свой проектный замок, затем исправляет **пять** отдельных изображений и зависимые тексты/манифесты/Pages. Никаких новых расходов.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -129,8 +154,15 @@
     }
   ],
   "read_next": [
+    "projects/raznoe/reports/current-work-checkpoint.md",
+    "projects/raznoe/character-references.json",
+    "projects/raznoe/references/mama-lena.prompt.txt",
+    "projects/raznoe/references/nina.prompt.txt",
+    "projects/raznoe/references/darya.prompt.txt",
+    "projects/raznoe/reports/unauthorized-credit-use-2026-11-02.json",
     "projects/raznoe/HANDOFF.md",
-    "projects/raznoe/ops/topview-launch-queue.json"
+    "projects/raznoe/references/generation-progress.json",
+    "projects/raznoe/INSTRUCTIONS.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -147,8 +179,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
-      "bytes": 36381
+      "sha256": "13d60e5f7d34bfe986085bdedca2dae298f251710ccd166efd901002da601385",
+      "bytes": 36346
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -157,8 +189,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
-      "bytes": 34807
+      "sha256": "6240dd1c3810707322a4e2c78f1b794c45a2441f4cf49214aad37d7abec5c180",
+      "bytes": 34996
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -172,18 +204,18 @@
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
-      "bytes": 130240
+      "sha256": "5d2598c39d2e1282a9c6c96c39e2d3da1765be768033c3e02f3154c433ebe627",
+      "bytes": 130208
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
-      "bytes": 83993
+      "sha256": "f04f1f75f060c0e55c9ae52c591b6321c6e2db67436fa0de189241bbabc98235",
+      "bytes": 83923
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "deda953755aec775b7afaff7cbfaa7f19bb3a485958936f1ed3008eb50aeb858",
-      "bytes": 5134
+      "sha256": "ac1f90e9fe7b2e3228e3de9dec51447dc89338224a7aaed5e4ac7dd464e8323e",
+      "bytes": 5138
     },
     {
       "file": "monitor-role.json",
@@ -192,8 +224,8 @@
     },
     {
       "file": "ops/CONTINUE-PROTOCOL.md",
-      "sha256": "2432ebbf107452901f5f8640de9a2e187e7c28b7efbf23bc8f241d7eb034c7c3",
-      "bytes": 42527
+      "sha256": "ae83542630c437e181de1d61aa4217c59aa99a865dcb5c429365f7af0960e2e9",
+      "bytes": 42588
     },
     {
       "file": "project-status.json",
@@ -202,43 +234,53 @@
     },
     {
       "file": "projects/README.md",
-      "sha256": "89cfc9d51a53abdada7024265d8fb71b68ddc8e1fae07262c34f80f44cc5311e",
-      "bytes": 16708
+      "sha256": "393a3a7428f376faea7471ac4d1b5c564318e67a89170b14001cf649cb482e0d",
+      "bytes": 16927
     },
     {
       "file": "projects/projects.json",
-      "sha256": "588b20471a24cb7621dd3fa3c20e4bb2f8d16b2b1ce78262a48d2c96939aaaa4",
-      "bytes": 8453
+      "sha256": "0eb7f9e87da72168f0c9c85e66937f35f6f605f6d2201607c0b3e6917ac50603",
+      "bytes": 9321
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "8e886b2b75896646c792d3cb7d62c74a2e3cdc48af4640b1e54fff3c47195d6f",
-      "bytes": 7890
+      "sha256": "35f0d3972f9e6400334561bb67aee14afdff05e0c945efea3f4c4d45029f4d67",
+      "bytes": 10678
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
-      "sha256": "3387705e97832d05cf69b84408028a86942f5ae83bd7e96531db71206f37aa58",
-      "bytes": 3272
+      "sha256": "52349e5071a58c0cd13ff16fe9ca9f15e1c09840bed34202d764fd6d70f35ebb",
+      "bytes": 2200
     },
     {
       "file": "projects/raznoe/ops/topview-launch-queue.json",
-      "sha256": "beea0068588b5c091ba84d96b3548407ac368835f6fd6da53c35b2c2c8400f1d",
-      "bytes": 93416
+      "sha256": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
+      "bytes": 649
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "78b92e6b2627f3fb7fead0d26fcb3ecdc32faa232e6af990cef1513982c283f3",
-      "bytes": 19276
+      "sha256": "959df8ab6f615cdc32d0af08240e3a060bb13929b64890a16b1a1d197b466669",
+      "bytes": 8578
     },
     {
-      "file": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json",
-      "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3",
-      "bytes": 8235
+      "file": "projects/raznoe/references/generation-progress.json",
+      "sha256": "dd3228fac591678cdc7d9cad01c5ba97e9d242f571642dc3e2275cf9c8fd492c",
+      "bytes": 61684
+    },
+    {
+      "file": "projects/raznoe/references/topview-source-map.json",
+      "sha256": "34421412f192a0afa48bf59630906a2b79af52ef5ea4bc65fea62d73e38cb557",
+      "bytes": 17531
+    },
+    {
+      "file": "projects/raznoe/references/usage-index.json",
+      "sha256": "70160d165280a5fda200163405b219f103a9f55293b6f7926de5218e1db835bc",
+      "bytes": 18056
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "f837665c811669912522e3d6b1d76b37753db52063eda3cecb2cc263f0e2b54d",
-      "bytes": 13995
+      "sha256": "611710bae3799b2b4af1c0ece50f2815b9b049c0183449ead4e0db526b5c7a50",
+      "bytes": 29347
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -246,23 +288,28 @@
       "bytes": 248
     },
     {
+      "file": "projects/raznoe/reports/unauthorized-credit-use-2026-11-02.json",
+      "sha256": "8a6ed6414a094570e4930f26483bc03b6e99c1d0ead332dc4e3e3f9acc5c72c7",
+      "bytes": 5113
+    },
+    {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "caad82dd240b3af8ab3949b29a22a54ba3eaba5117cbe29e373b614531c908be",
-      "bytes": 471570
+      "sha256": "2edc36afc50af0f14b8c542376ec7b9a9e699b352b716f3529cabfa2a6fd1b0f",
+      "bytes": 287959
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "b90d13255c57630c99897a7c3976c5deca0c47eecb16cb861aec57529d25e788",
-      "bytes": 3146
+      "sha256": "ac8423738b82fb86d9290c99acd1b6bbc227336225e3b46f84cd7f56d903c2d2",
+      "bytes": 13484
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "de5789ea1445f20096d8e04aa0c9e646e72905d92ba7681951842a21eb358cc8",
-      "bytes": 34608
+      "sha256": "8af0c2505130e5bbaae71a9658430b27c72d25b485afe85df1af84c4e769cae9",
+      "bytes": 34797
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "ac6377dad1c3fa525dd15c90cd5a14e21b3d25b29326be6028f4947c6577e2c7",
+      "sha256": "23342640054c134994022b6fcb3ad03c561bc4df845baea1a0eca4ef7e3ff9e4",
       "bytes": 25134
     },
     {
@@ -271,5 +318,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 6034
+  "packet_bytes": 11262
 }

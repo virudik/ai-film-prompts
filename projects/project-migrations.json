@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "migrated_at": "2026-11-02T22:30:00Z",
+  "rules": "Новая ссылка сайта ?project= использует текущий id из projects/projects.json и эту таблицу только если кода уже нет в реестре. Старая закладка ?p= сначала читает from_id: raznoe открывает Роскосмос, misc открывает Разное. Сохранённое решение, заметка [проект: …] и путь картинки с кодом raznoe и временем раньше migrated_at относятся к Роскосмосу; тот же код после migrated_at — к Разному. Код misc всегда относится к Разному. Если файла по старому пути уже нет, а по to_path он есть, проект берётся из этой таблицы.",
+  "migrations": [
+    {
+      "from_id": "raznoe",
+      "from_path": "projects/raznoe",
+      "to_id": "roscosmos",
+      "to_path": "projects/roscosmos",
+      "name": "Роскосмос",
+      "ambiguous_with_current_id": true,
+      "legacy_query": "p",
+      "note": "До 02.11.2026 id и папка raznoe означали Роскосмос. После миграции текущий id raznoe — это Разное. Закладка ?p=raznoe и решения project:raznoe / [проект: raznoe] / путь projects/raznoe/ с датой раньше migrated_at открывают Роскосмос. Новая ссылка ?project=raznoe открывает Разное."
+    },
+    {
+      "from_id": "misc",
+      "from_path": "projects/misc",
+      "to_id": "raznoe",
+      "to_path": "projects/raznoe",
+      "name": "Разное",
+      "ambiguous_with_current_id": false,
+      "legacy_query": "p",
+      "note": "id misc снят. ?p=misc, ?project=misc, project:misc и путь projects/misc/ открывают Разное (текущий id raznoe, папка projects/raznoe)."
+    }
+  ]
+}

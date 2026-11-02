@@ -1,1295 +1,1258 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-28T12:55:17+00:00",
-  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved.",
-  "non_character_reference_rules": [
-    "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
-    "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
-    "Пути к картинкам — от корня репозитория (projects/<id>/references/…); картинки проекта лежат в его папке."
-  ],
-  "characters": [],
-  "assets": [
+  "updated_at": "2026-11-02T07:15:22Z",
+  "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated.",
+  "characters": [
     {
-      "id": "raznoe-space-01-earth-work",
-      "name": "Роскосмос — Космос работает здесь",
-      "kind": "situation_reference",
-      "scenes": [
-        1,
-        5
+      "id": "yarik",
+      "name": "Ярик",
+      "aliases": [
+        "YARIK"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-1/01-earth-work.png",
-          "caption": "Космос работает здесь",
-          "prompt_file": "projects/raznoe/references/space-organizations/01-earth-work.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880",
-          "scenes": [
-            1,
-            11
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/01-earth-work.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-space-02-stereo-relief",
-      "name": "Роскосмос — Земля обретает объём",
-      "kind": "situation_reference",
-      "scenes": [
-        2
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-2/02-stereo-relief.png",
-          "caption": "Земля обретает объём",
-          "prompt_file": "projects/raznoe/references/space-organizations/02-stereo-relief.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "b6b061873aa1e3b957360fae6324e56fc368039c6995e805aef0f6a16a775a9d",
-          "scenes": [
-            2
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/02-stereo-relief.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-space-03-small-satellite",
-      "name": "Главкосмос — Большой путь малого спутника",
-      "kind": "situation_reference",
-      "scenes": [
-        6
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-6/03-small-satellite.png",
-          "caption": "Большой путь малого спутника",
-          "prompt_file": "projects/raznoe/references/space-organizations/03-small-satellite.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b",
-          "scenes": [
-            3
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/03-small-satellite.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-space-04-mission-exhibit",
-      "name": "Главкосмос — Прикоснуться к своей миссии",
-      "kind": "situation_reference",
-      "scenes": [
-        7
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-7/04-mission-exhibit.png",
-          "caption": "Прикоснуться к своей миссии",
-          "prompt_file": "projects/raznoe/references/space-organizations/04-mission-exhibit.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
-          "scenes": [
-            4
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/04-mission-exhibit.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-space-05-space-instrument",
-      "name": "РКС — Всё начинается с точности",
-      "kind": "situation_reference",
-      "scenes": [
-        11
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-11/05-space-instrument.png",
-          "caption": "Всё начинается с точности",
-          "prompt_file": "projects/raznoe/references/space-organizations/05-space-instrument.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f",
-          "scenes": [
-            5
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/05-space-instrument.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-space-06-power-corridor",
-      "name": "РКС — Увидеть изменения вдоль линии",
-      "kind": "situation_reference",
-      "scenes": [
-        12
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-12/06-power-corridor.png",
-          "caption": "Увидеть изменения вдоль линии",
-          "prompt_file": "projects/raznoe/references/space-organizations/06-power-corridor.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
-          "scenes": [
-            6
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/06-power-corridor.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-space-07-earth-operations",
-      "name": "НЦ ОМЗ — Из снимка — в понятное решение",
-      "kind": "situation_reference",
-      "scenes": [
-        16
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-16/07-earth-operations.png",
-          "caption": "Из снимка — в понятное решение",
-          "prompt_file": "projects/raznoe/references/space-organizations/07-earth-operations.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08",
-          "scenes": [
-            7
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/07-earth-operations.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-space-08-land-memory",
-      "name": "НЦ ОМЗ — У территории есть память",
-      "kind": "situation_reference",
-      "scenes": [
-        17
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс, не документальный снимок. Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-17/08-land-memory.png",
-          "caption": "У территории есть память",
-          "prompt_file": "projects/raznoe/references/space-organizations/08-land-memory.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-22",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca",
-          "scenes": [
-            8
-          ],
-          "copied_from": "projects/raznoe/references/space-organizations/08-land-memory.png"
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s02-flat",
-      "name": "Плоская поверхность перед подъёмом рельефа",
-      "kind": "situation_reference",
-      "scenes": [
-        2
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-2/s02-flat.png",
-          "caption": "Плоская поверхность перед подъёмом рельефа",
-          "prompt_file": "projects/raznoe/references/scenes/scene-2/s02-flat.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "59bf9ff7a9821f7a45124a0672af4d8fa3301a19ccbf99eb933a534c9a184096",
-          "scenes": [
-            2
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s03-orbit",
-      "name": "Тот же демонстратор на орбите",
-      "kind": "situation_reference",
-      "scenes": [
-        6
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-6/s03-orbit.png",
-          "caption": "Тот же демонстратор на орбите",
-          "prompt_file": "projects/raznoe/references/scenes/scene-6/s03-orbit.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "59950fffca8623a24b77475a6caf8b70c8b4600bea25a94ef2ab63716feb111e",
-          "scenes": [
-            3
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s04-touch",
-      "name": "Касание физического экрана крупным планом",
-      "kind": "situation_reference",
-      "scenes": [
-        7
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-7/s04-touch.png",
-          "caption": "Касание физического экрана крупным планом",
-          "prompt_file": "projects/raznoe/references/scenes/scene-7/s04-touch.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
-          "scenes": [
-            4
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s05-assembled",
-      "name": "Собранный прибор, руки убраны",
-      "kind": "situation_reference",
-      "scenes": [
-        11,
-        13
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-11/s05-assembled.png",
-          "caption": "Собранный прибор, руки убраны",
-          "prompt_file": "projects/raznoe/references/scenes/scene-11/s05-assembled.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d",
-          "scenes": [
-            5,
-            15
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s07-map",
-      "name": "Чистая карта для крупных планов",
-      "kind": "situation_reference",
-      "scenes": [
-        16,
-        19
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-16/s07-map.png",
-          "caption": "Чистая карта для крупных планов",
-          "prompt_file": "projects/raznoe/references/scenes/scene-16/s07-map.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
-          "scenes": [
-            7,
-            19
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s08-pair",
-      "name": "Два состояния территории без рамки монитора",
-      "kind": "situation_reference",
-      "scenes": [
-        17
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-17/s08-pair.png",
-          "caption": "Два состояния территории без рамки монитора",
-          "prompt_file": "projects/raznoe/references/scenes/scene-17/s08-pair.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "e7c57e06c2eb84ebc9c45ce5eabcb22d3c3eb6d5f0c0575edd5f2081d5b56a5f",
-          "scenes": [
-            8
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s09-earth",
-      "name": "Один день Земли с орбиты",
-      "kind": "situation_reference",
-      "scenes": [
-        3
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-3/s09-earth.png",
-          "caption": "Один день Земли с орбиты",
-          "prompt_file": "projects/raznoe/references/scenes/scene-3/s09-earth.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72",
-          "scenes": [
-            9
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s10-visible",
-      "name": "Не видимое глазу",
-      "kind": "situation_reference",
-      "scenes": [
-        4
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-4/s10-visible.png",
-          "caption": "Не видимое глазу",
-          "prompt_file": "projects/raznoe/references/scenes/scene-4/s10-visible.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "5179074aeb3d87f4f7b9f8e4300adf266fbac84831e42a479dfbe8ce50232570",
-          "scenes": [
-            10
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s11-engineer",
-      "name": "Кто делает космос",
-      "kind": "situation_reference",
-      "scenes": [
-        5
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-5/s11-engineer.png",
-          "caption": "Кто делает космос",
-          "prompt_file": "projects/raznoe/references/scenes/scene-5/s11-engineer.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60",
-          "scenes": [
-            11
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s12-consultation",
-      "name": "Миссия начинается с вопроса",
-      "kind": "situation_reference",
-      "scenes": [
-        8
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-8/s12-consultation.png",
-          "caption": "Миссия начинается с вопроса",
-          "prompt_file": "projects/raznoe/references/scenes/scene-8/s12-consultation.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba",
-          "scenes": [
-            12
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s13-cubesat",
-      "name": "CubeSat за тридцать секунд",
-      "kind": "situation_reference",
-      "scenes": [
-        9
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-9/s13-cubesat.png",
-          "caption": "CubeSat за тридцать секунд",
-          "prompt_file": "projects/raznoe/references/scenes/scene-9/s13-cubesat.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e",
-          "scenes": [
-            13
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s14-booth",
-      "name": "Мир встречается на стенде",
-      "kind": "situation_reference",
-      "scenes": [
-        10
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-10/s14-booth.png",
-          "caption": "Мир встречается на стенде",
-          "prompt_file": "projects/raznoe/references/scenes/scene-10/s14-booth.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc",
-          "scenes": [
-            14
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s15-weather",
-      "name": "Как прибор видит погоду",
-      "kind": "situation_reference",
-      "scenes": [
-        13
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-13/s15-weather.png",
-          "caption": "Как прибор видит погоду",
-          "prompt_file": "projects/raznoe/references/scenes/scene-13/s15-weather.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "3ec9122cb8a2f69b807ccce6e54464aec3e072c5a58b400ed3b22f9cf432564f",
-          "scenes": [
-            15
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s16-testbench",
-      "name": "Идея проходит испытание",
-      "kind": "situation_reference",
-      "scenes": [
-        14
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-14/s16-testbench.png",
-          "caption": "Идея проходит испытание",
-          "prompt_file": "projects/raznoe/references/scenes/scene-14/s16-testbench.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261",
-          "scenes": [
-            16
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s17-detail",
-      "name": "Деталь крупным планом",
-      "kind": "situation_reference",
-      "scenes": [
-        15
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-15/s17-detail.png",
-          "caption": "Деталь крупным планом",
-          "prompt_file": "projects/raznoe/references/scenes/scene-15/s17-detail.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6",
-          "scenes": [
-            17
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s10-spectral",
-      "name": "Не видимое глазу — условные спектральные цвета",
-      "kind": "situation_reference",
-      "scenes": [
-        4
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-4/s10-spectral.png",
-          "caption": "Не видимое глазу — условные спектральные цвета",
-          "prompt_file": "projects/raznoe/references/scenes/scene-4/s10-spectral.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "65de380107e0204f45ed0aaa014206c36451229470c5a6577a1ecceb874eddef",
-          "scenes": [
-            10
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s18-archive",
-      "name": "Найти нужный снимок",
-      "kind": "situation_reference",
-      "scenes": [
-        18
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-18/s18-archive.png",
-          "caption": "Найти нужный снимок",
-          "prompt_file": "projects/raznoe/references/scenes/scene-18/s18-archive.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "8fd3478db8662cf992c379131d1e073150b51d264df55a2f087e5c0e3a0c2dbf",
-          "scenes": [
-            18
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s19-lowwater",
-      "name": "Река меняет границы",
-      "kind": "situation_reference",
-      "scenes": [
-        19
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-19/s19-lowwater.png",
-          "caption": "Река меняет границы",
-          "prompt_file": "projects/raznoe/references/scenes/scene-19/s19-lowwater.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "549ae5d218e0068a162a31ebdb0958a4ea6285ece8411da1ff87c70b333682f7",
-          "scenes": [
-            19
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-s20-delta",
-      "name": "Красота становится знанием",
-      "kind": "situation_reference",
-      "scenes": [
-        20
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-20/s20-delta.png",
-          "caption": "Красота становится знанием",
-          "prompt_file": "projects/raznoe/references/scenes/scene-20/s20-delta.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "62dc05563d259efc5bd9213f5772f58f8b77e8a5022a146aac79cbed004d1d89",
-          "scenes": [
-            20
-          ]
-        }
-      ]
-    },
-    {
-      "id": "raznoe-quality-q01-overhead",
-      "name": "Ближе к участку у реки",
-      "kind": "situation_reference",
       "scenes": [
         1
       ],
-      "editorial_status": "not_approved",
-      "notes": "Closer high-oblique aerial landscape; use for the middle field-parcel shot only. It is not a vertical or pixel-registered map. Image1 retains authority for the broad sunrise shot.",
-      "images": [
+      "model_sheet": {
+        "source": "ChatGPT image generation; preserved original C1 from this conversation, 01.11.2026; not approved",
+        "primary": "Ярик · основной лист (4 ракурса)",
+        "additional": [
+          "projects/raznoe/references/yarik-expressions.png"
+        ],
+        "public_image": "projects/raznoe/references/yarik.png",
+        "full_image": "projects/raznoe/references/yarik.png"
+      },
+      "outfit_variant": "Мальчик 7 лет: смугловато-светлая кожа, взъерошенные тёмно-русые волнистые волосы с вихром на макушке, большие карие глаза, веснушки, чуть оттопыренные уши; кирпично-красная толстовка с капюшоном и белым парусником на груди, тёмно-синие брюки, серые кроссовки на липучках.",
+      "variants": [
         {
-          "path": "projects/raznoe/references/scenes/scene-1/q01-overhead.png",
-          "caption": "Ближе к участку у реки",
-          "prompt_file": "projects/raznoe/references/scenes/scene-1/q01-overhead.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "da5b5f03cb1320acaf6e0e407320ab6af39591a98a12cc1ac018f06a58fd554e",
+          "label": "Пижама (A5)",
           "scenes": [
             1
           ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-1/01-earth-work.png",
-              "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880"
-            }
+          "notes": "Тёмно-синяя пижама с мелкими жёлтыми звёздами; лицо и волосы те же."
+        },
+        {
+          "label": "С наушниками (A5–A8)",
+          "scenes": [
+            1
           ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+          "notes": "Жёлтые детские наушники на голове или на шее."
+        }
+      ],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+        "width": 1536,
+        "height": 1024,
+        "source_gen_id": "1d88f4ee-987e-4dc4-99c4-dfd27b2faab7",
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/yarik.png",
+          "caption": "C1 · Ярик — основной лист (4 ракурса) · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+          "scenes": [
+            1
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/yarik-expressions.png",
+          "caption": "C2 · Ярик — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/raznoe/references/yarik.png"
+          ],
+          "sha256": "79a3233cddaeae1e01f2f4b4a99a9b91be976b812ae7c65c8aa1396db559717b",
+          "scenes": [
+            1
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-quality-q06-overhead",
-      "name": "Лесная кромка вдоль просеки",
-      "kind": "situation_reference",
-      "scenes": [
-        12
+      "id": "mama-lena",
+      "name": "Мама Лена",
+      "aliases": [
+        "MAMA LENA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Closer high-oblique corridor view with the existing right forest edge; use for an explicit detail cut only, not a registered survey or evidence of a defect.",
-      "images": [
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
+        "primary": "Мама Лена · основной лист",
+        "additional": [
+          "projects/raznoe/references/mama-lena-expressions.png"
+        ],
+        "public_image": "projects/raznoe/references/mama-lena.png",
+        "full_image": "projects/raznoe/references/mama-lena.png"
+      },
+      "outfit_variant": "Женщина 34 лет: смуглая кожа, тёмные кудрявые волосы в высоком небрежном пучке, тёплые тёмные глаза, мимические морщинки, без очков; голубая джинсовая рубашка с закатанными рукавами поверх белой футболки, тёмные джинсы.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "58eebaaee90d3671243d2d7d075baaacccd689d137950146f5a8bcde04821548",
+        "width": 1536,
+        "height": 1024
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-12/q06-overhead.png",
-          "caption": "Лесная кромка вдоль просеки",
-          "prompt_file": "projects/raznoe/references/scenes/scene-12/q06-overhead.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/mama-lena.png",
+          "caption": "C3 · Мама Лена — основной лист · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "174667761da5e22a4f2504dcf38ca8bb6dd1933a6b7fe8bc75ed7303b366dc8d",
+          "derived_from": [],
+          "sha256": "58eebaaee90d3671243d2d7d075baaacccd689d137950146f5a8bcde04821548",
           "scenes": [
-            6
+            1
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/mama-lena-expressions.png",
+          "caption": "C4 · Мама Лена — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/raznoe/references/mama-lena.png"
           ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-12/06-power-corridor.png",
-              "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8"
-            }
-          ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+          "sha256": "13a2675d1a9ae0081088fd2ce8649ad38e5ed767f4ed06389fb48fcfc2eea25c",
+          "scenes": [
+            1
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-quality-q09-evening",
-      "name": "Земля: вечернее освещение",
-      "kind": "situation_reference",
-      "scenes": [
-        3
+      "id": "sonya",
+      "name": "Соня",
+      "aliases": [
+        "SONYA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Evening illumination reference only; retain Image1 continent shapes, disc orientation and camera. Never replace geography with this still.",
-      "images": [
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
+        "primary": "Соня · основной лист",
+        "additional": [
+          "projects/raznoe/references/sonya-expressions.png"
+        ],
+        "public_image": "projects/raznoe/references/sonya.png",
+        "full_image": "projects/raznoe/references/sonya.png"
+      },
+      "outfit_variant": "Девочка 12 лет, старшая сестра: светлая кожа с румянцем, длинные прямые светло-русые волосы в косе набок, серо-голубые глаза; сиреневая ветровка с значками на кармане, джинсы, белые кеды.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "8ab150b6c9f3a785e75f17de29168b561680ffdf5e3eaa8de05d873b2d370399",
+        "width": 1536,
+        "height": 1024
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-3/q09-evening.png",
-          "caption": "Земля: вечернее освещение",
-          "prompt_file": "projects/raznoe/references/scenes/scene-3/q09-evening.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/sonya.png",
+          "caption": "C5 · Соня — основной лист · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "dacfaf564108487c9495814d2d989eb346c639efa6fb5d0cdf2c9597a6bddc2e",
+          "derived_from": [],
+          "sha256": "8ab150b6c9f3a785e75f17de29168b561680ffdf5e3eaa8de05d873b2d370399",
           "scenes": [
-            9
+            1
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/sonya-expressions.png",
+          "caption": "C6 · Соня — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/raznoe/references/sonya.png"
           ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-3/s09-earth.png",
-              "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72"
-            }
-          ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+          "sha256": "071bf01c1021bc37523b1765bbb06046337f4abb71168618f3dc3d84fe1b1972",
+          "scenes": [
+            1
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-quality-q11-hands",
-      "name": "Инженер: руки и внешний регулятор",
-      "kind": "situation_reference",
-      "scenes": [
-        5
+      "id": "anna-sergeevna",
+      "name": "Анна Сергеевна",
+      "aliases": [
+        "ANNA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Close insert of white gloves, pale-blue sleeves and supported optical unit in the silver fixture; one external-knob adjustment. Image1 governs engineer identity, Image2 is the later separate landscape.",
-      "images": [
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
+        "primary": "Анна Сергеевна · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "projects/raznoe/references/anna-sergeevna.png",
+        "full_image": "projects/raznoe/references/anna-sergeevna.png"
+      },
+      "outfit_variant": "Женщина около 48 лет, высокая: светлая кожа, короткое каре седого цвета, тёплые карие глаза, глубокие смешинки, без очков; сливовая льняная туника, бусы из дерева.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "1c9239207c1d098837e1744a485f62e4e2c91532eb746fd02036d8ca962c6a6b",
+        "width": 1536,
+        "height": 1024
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-5/q11-hands.png",
-          "caption": "Инженер: руки и внешний регулятор",
-          "prompt_file": "projects/raznoe/references/scenes/scene-5/q11-hands.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/anna-sergeevna.png",
+          "caption": "C7 · Анна Сергеевна — лист (ракурсы + эмоции) · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "f7d71fefca33e76ed71dfeb9005f963c577ae56b267c6c14263745566ff17b84",
+          "derived_from": [],
+          "sha256": "1c9239207c1d098837e1744a485f62e4e2c91532eb746fd02036d8ca962c6a6b",
           "scenes": [
-            11
-          ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-5/s11-engineer.png",
-              "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60"
-            }
-          ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+            1
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-quality-q12-cards",
-      "name": "Выбор карточки полей",
-      "kind": "situation_reference",
-      "scenes": [
-        8
+      "id": "bublik",
+      "name": "Бублик",
+      "aliases": [
+        "BUBLIK"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Isolated table insert: navy-sleeved hand selects farmland, ocean and satellite remain behind. Insert has an independent orientation; return to Image1 to re-establish all four people.",
-      "images": [
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
+        "primary": "Бублик · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "projects/raznoe/references/bublik.png",
+        "full_image": "projects/raznoe/references/bublik.png"
+      },
+      "outfit_variant": "Пушистый кремово-абрикосовый пёс среднего размера, висячие уши, тёмно-коричневый нос, добрые тёмные глаза, небесно-голубая бандана.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "45da23c4d9b2991359cae4e293f3549878f6032f44522522246eb02277cbf27f",
+        "width": 1536,
+        "height": 1024
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-8/q12-cards.png",
-          "caption": "Выбор карточки полей",
-          "prompt_file": "projects/raznoe/references/scenes/scene-8/q12-cards.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/bublik.png",
+          "caption": "C8 · Бублик — лист (ракурсы + эмоции) · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "6accc29cbe99038204c50da6e497024ba2960ecb8d406e61bdcf76de32626164",
+          "derived_from": [],
+          "sha256": "45da23c4d9b2991359cae4e293f3549878f6032f44522522246eb02277cbf27f",
           "scenes": [
-            12
-          ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-8/s12-consultation.png",
-              "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba"
-            }
-          ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+            1
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-quality-q14-detail",
-      "name": "Макет: тарелка и солнечные панели",
-      "kind": "situation_reference",
-      "scenes": [
-        10
+      "id": "varya",
+      "name": "Варя",
+      "aliases": [
+        "VARYA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Hardware insert only: silver satellite body, large front dish, two blue solar wings, fixed supports and white plinth. No foreground hand; Image1 governs people and room.",
-      "images": [
+      "scenes": [
+        1
+      ],
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Варя · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "projects/raznoe/references/varya.png",
+        "full_image": "projects/raznoe/references/varya.png"
+      },
+      "outfit_variant": "Девочка 6 лет: светлая кожа с веснушками, два коротких тёмно-русых хвостика с оранжевыми резинками, щербинка в улыбке; голубой комбинезон поверх полосатой футболки.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "04daa7bdf5ba2d5da2aa92fe8245f6f09ab22ab2d7182393ece66bb420960908",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-10/q14-detail.png",
-          "caption": "Макет: тарелка и солнечные панели",
-          "prompt_file": "projects/raznoe/references/scenes/scene-10/q14-detail.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/varya.png",
+          "caption": "C9 · Варя — лист (ракурсы + эмоции) · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "0a812719a0ee3fa5556bdf01d8b0c94201f2bd5efd6aaf8d8d64c0ed7784c3bd",
+          "derived_from": [],
+          "sha256": "04daa7bdf5ba2d5da2aa92fe8245f6f09ab22ab2d7182393ece66bb420960908",
           "scenes": [
-            14
-          ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-10/s14-booth.png",
-              "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc"
-            }
-          ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+            1
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-quality-q16-adjustment",
-      "name": "Проверка: рука на регуляторе",
-      "kind": "situation_reference",
-      "scenes": [
-        14
+      "id": "miron",
+      "name": "Мирон",
+      "aliases": [
+        "MIRON"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Close supported black prototype and external adjustment knob; one blue-gloved right hand and white sleeve. Image1 governs researcher and full bench.",
-      "images": [
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Мирон · основной лист (4 ракурса)",
+        "additional": [
+          "projects/raznoe/references/miron-expressions.png",
+          "projects/raznoe/references/miron-spacesuit.png"
+        ],
+        "public_image": "projects/raznoe/references/miron.png",
+        "full_image": "projects/raznoe/references/miron.png"
+      },
+      "outfit_variant": "Мальчик 5 лет, худенький: светлая кожа, румяные щёки, мягкие кудрявые медово-русые волосы на лбу, большие круглые зелёные глаза с длинными ресницами, щербинка между передними зубами; горчично-жёлтая толстовка на молнии с белой ракетой, лесно-зелёные брюки, оранжевые кроссовки.",
+      "variants": [
         {
-          "path": "projects/raznoe/references/scenes/scene-14/q16-adjustment.png",
-          "caption": "Проверка: рука на регуляторе",
-          "prompt_file": "projects/raznoe/references/scenes/scene-14/q16-adjustment.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "f55b8ab179718eee1428f4e0b7c9eb2e1bc0f979c4bb1e7007ffb3fa3f2a9bbc",
+          "label": "Скафандр и стеклянный купол (A1, A8)",
           "scenes": [
-            16
+            2
           ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-14/s16-testbench.png",
-              "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261"
-            }
+          "notes": "Мятно-кремовый стёганый скафандр с медными кольцами на шее и запястьях, ракета на груди, оранжевые ботинки, прозрачный круглый стеклянный шлем с тонкой медной оправой."
+        },
+        {
+          "label": "Стеклянный купол поверх обычной одежды (A5, A8)",
+          "scenes": [
+            2
           ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+          "notes": "Тот же купол поверх жёлтой толстовки."
+        },
+        {
+          "label": "Школьный день (A7)",
+          "scenes": [
+            2
+          ],
+          "notes": "Коричневый пиджак-куртка и маленький рюкзак; лицо и волосы те же."
+        }
+      ],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "53b518b85422bba0b820c01ceacbc611aa4d0bf499964a2b0616d168aa408504",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/miron.png",
+          "caption": "S2-M1 · Мирон — основной лист (4 ракурса) · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "53b518b85422bba0b820c01ceacbc611aa4d0bf499964a2b0616d168aa408504",
+          "scenes": [
+            2
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/miron-expressions.png",
+          "caption": "S2-M2 · Мирон — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/raznoe/references/miron.png"
+          ],
+          "sha256": "17b1b9bc31b4eb45d081c396313931c6e3699ee89f1106675b3277cc7f68d78b",
+          "scenes": [
+            2
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/miron-spacesuit.png",
+          "caption": "S2-M3 · Мирон в скафандре — лист (4 ракурса) · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/raznoe/references/miron.png"
+          ],
+          "sha256": "d0ca7422ed46fe262c98eca77791d00e086f78a807ef02d85c06177db4f1f34a",
+          "scenes": [
+            2
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-quality-q17-context",
-      "name": "Оптическая деталь на рабочем месте",
-      "kind": "situation_reference",
-      "scenes": [
-        15
+      "id": "vera",
+      "name": "Мама Вера",
+      "aliases": [
+        "MAMA VERA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Wider inspection-workstation context with same blue-violet ring, two screws, dark support and practical lamp. Use after an explicit cut; no tray-to-fixture morph.",
-      "images": [
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Мама Вера · основной лист",
+        "additional": [
+          "projects/raznoe/references/vera-expressions.png"
+        ],
+        "public_image": "projects/raznoe/references/vera.png",
+        "full_image": "projects/raznoe/references/vera.png"
+      },
+      "outfit_variant": "Женщина 35 лет: светло-оливковая кожа, каштаново-рыжее каре до плеч с косой чёлкой, круглые очки в черепаховой оправе, карие глаза, родинка на левой щеке; терракотовый вязаный кардиган с большими накладными карманами, кремовая блузка, тёмно-синие джинсы, тонкие золотые серьги-кольца.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "be5dbe5e894a8dd03c8f532e3d2f3ab6181030d18e207be7db4a8f9e38f73c05",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-15/q17-context.png",
-          "caption": "Оптическая деталь на рабочем месте",
-          "prompt_file": "projects/raznoe/references/scenes/scene-15/q17-context.image-prompt.txt",
-          "created_by": "ChatGPT imagegen",
-          "created_at": "2026-10-23",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/vera.png",
+          "caption": "S2-V1 · Мама Вера — основной лист · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "3ab3d91092a0a0a1ffd6c785e4580d0c7797e44220d422f34ab072d4553041ce",
+          "derived_from": [],
+          "sha256": "be5dbe5e894a8dd03c8f532e3d2f3ab6181030d18e207be7db4a8f9e38f73c05",
           "scenes": [
-            17
+            2
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/vera-expressions.png",
+          "caption": "S2-V2 · Мама Вера — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/raznoe/references/vera.png"
           ],
-          "source_references": [
-            {
-              "path": "projects/raznoe/references/scenes/scene-15/s17-detail.png",
-              "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6"
-            }
-          ],
-          "technical_qc": "inspected; illustrative role only; not documentary or engineering evidence"
+          "sha256": "a22afea0966a524bf1aaaa68d69ae63eb3f7f8c57efd9d1724fa5b8ab97710ff",
+          "scenes": [
+            2
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-cpk-c21-centrifuge",
-      "name": "ЦПК: центрифуга и слушатель",
-      "kind": "situation_reference",
-      "scenes": [
-        21
+      "id": "nina",
+      "name": "Бабушка Нина",
+      "aliases": [
+        "GRANDMA NINA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Бабушка Нина · основной лист",
+        "additional": [
+          "projects/raznoe/references/nina-expressions.png"
+        ],
+        "public_image": "projects/raznoe/references/nina.png",
+        "full_image": "projects/raznoe/references/nina.png"
+      },
+      "outfit_variant": "Женщина 62 лет, высокая, прямая: тёплая смуглая кожа, короткие серебристо-белые кудри, выразительные брови, без очков, крупные серебряные серьги-кольца; сливовая спортивная куртка с белыми лампасами, серые джоггеры, белые кроссовки, свисток на шнурке (бывший тренер по плаванию).",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "d0e1606b7ffd3e63ddae0ec9ab9a7fc2debd08643442514c32bde841ef66dc4e",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-21/c21-centrifuge.png",
-          "caption": "ЦПК: центрифуга и слушатель",
-          "prompt_file": "projects/raznoe/references/scenes/scene-21/c21-centrifuge.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:15:19+00:00",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/nina.png",
+          "caption": "S2-N1 · Бабушка Нина — основной лист · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "7238e65404aa7672696df5f4a014110a06666e7e00acb2497364980ff5fc5ab8",
+          "derived_from": [],
+          "sha256": "d0e1606b7ffd3e63ddae0ec9ab9a7fc2debd08643442514c32bde841ef66dc4e",
           "scenes": [
-            21
+            2
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/nina-expressions.png",
+          "caption": "S2-N2 · Бабушка Нина — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/raznoe/references/nina.png"
           ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
-          "edited_at": "2026-10-28T12:55:17+00:00",
-          "last_edit": {
-            "at": "2026-10-28T12:55:17+00:00",
-            "source_sha256": "72cd144d8d8007a61f3a9527f2c6c6c11d001364f7656b82071233acb78c4138",
-            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
-            "scope": "patches, flags and requested wall/equipment markings only",
-            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
-          }
+          "sha256": "0f1f09ba1ee251df14dd11784e3ca15c82c114f619203788dbf9ae6bbfc21101",
+          "scenes": [
+            2
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-cpk-c21-soyuz-sim",
-      "name": "ЦПК: тот же слушатель в тренажёре Союза",
-      "kind": "situation_reference",
-      "scenes": [
-        21
+      "id": "darya",
+      "name": "Дарья Андреевна",
+      "aliases": [
+        "DARYA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Дарья Андреевна · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "projects/raznoe/references/darya.png",
+        "full_image": "projects/raznoe/references/darya.png"
+      },
+      "outfit_variant": "Женщина 30 лет: тёмно-коричневая кожа, длинная чёрная коса через плечо, тёплые тёмные глаза, добрая улыбка; шалфейно-зелёная льняная рубашка, кремовые брюки, мягкая обувь.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "b7718460de55c31d0ba87c83a17800c3d51f94fc641cf17ccf157876739edbf2",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.png",
-          "caption": "ЦПК: тот же слушатель в тренажёре Союза",
-          "prompt_file": "projects/raznoe/references/scenes/scene-21/c21-soyuz-sim.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:24:17+00:00",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/darya.png",
+          "caption": "S2-D1 · Дарья Андреевна (специалист) — лист · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "851f861b01da6647846938722ec93559cb0680004c6122ac198d9bf0ae6a91af",
+          "derived_from": [],
+          "sha256": "b7718460de55c31d0ba87c83a17800c3d51f94fc641cf17ccf157876739edbf2",
           "scenes": [
-            21
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
-          "edited_at": "2026-10-28T12:55:17+00:00",
-          "last_edit": {
-            "at": "2026-10-28T12:55:17+00:00",
-            "source_sha256": "86ab4ff3ffba1ab3ddca3de81ada91ec7c4e63e8e113ae0456d71232c764505e",
-            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
-            "scope": "patches, flags and requested wall/equipment markings only",
-            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
-          }
+            2
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-cpk-c22-vr-stand",
-      "name": "ЦПК: VR-стенд и два слушателя",
-      "kind": "situation_reference",
-      "scenes": [
-        22
+      "id": "mark",
+      "name": "Доктор Марк Львович",
+      "aliases": [
+        "DOCTOR MARK"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Доктор Марк Львович · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "projects/raznoe/references/mark.png",
+        "full_image": "projects/raznoe/references/mark.png"
+      },
+      "outfit_variant": "Мужчина 52 лет: лысый, седые виски, подстриженная седая борода, круглые очки в синей оправе, спокойный мягкий взгляд; белый халат поверх клетчатой рубашки, стетоскоп на шее.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "f7b7bcb3fdedaea90a3e41533bed391af0776eebef0efdcf3cca03b0018e9623",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.png",
-          "caption": "ЦПК: VR-стенд и два слушателя",
-          "prompt_file": "projects/raznoe/references/scenes/scene-22/c22-vr-stand.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:26:42+00:00",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/mark.png",
+          "caption": "S2-R1 · Доктор Марк Львович — лист · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "9e258c66bdd247eda8888f3d5d3044394eb3930580c6b4d01aeb71f487ffc78e",
+          "derived_from": [],
+          "sha256": "f7b7bcb3fdedaea90a3e41533bed391af0776eebef0efdcf3cca03b0018e9623",
           "scenes": [
-            22
-          ],
-          "width": 1672,
-          "height": 940,
-          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
-          "edited_at": "2026-10-28T12:55:17+00:00",
-          "last_edit": {
-            "at": "2026-10-28T12:55:17+00:00",
-            "source_sha256": "205388958cedb0fc934b5c2e72cf50f5292cfbb64181b17bad0d64d0b91c5626",
-            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
-            "scope": "patches, flags and requested wall/equipment markings only",
-            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
-          }
+            2
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-cpk-c22-virtual-airlock",
-      "name": "ЦПК: виртуальный шлюз и два скафандра",
-      "kind": "situation_reference",
-      "scenes": [
-        22
+      "id": "lilya",
+      "name": "Парикмахер Лиля",
+      "aliases": [
+        "LILYA"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
+      "scenes": [
+        2
+      ],
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Парикмахер Лиля · лист (ракурсы + эмоции)",
+        "additional": [],
+        "public_image": "projects/raznoe/references/lilya.png",
+        "full_image": "projects/raznoe/references/lilya.png"
+      },
+      "outfit_variant": "Женщина 28 лет: светлая веснушчатая кожа, короткая розовая стрижка пикси, красный фартук парикмахера поверх чёрной футболки, маленькие серебряные ножницы.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "b7b50d989fd6dc3658fc60dc63cf7070c109b4c29f0205229ec851c379c51807",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.png",
-          "caption": "ЦПК: виртуальный шлюз и два скафандра",
-          "prompt_file": "projects/raznoe/references/scenes/scene-22/c22-virtual-airlock.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:29:05+00:00",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/lilya.png",
+          "caption": "S2-B1 · Парикмахер Лиля — лист · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "326e35e896c731820d0e06ac8c49efae880083bc310e2dd7be0414eb1c72f49a",
+          "derived_from": [],
+          "sha256": "b7b50d989fd6dc3658fc60dc63cf7070c109b4c29f0205229ec851c379c51807",
           "scenes": [
-            22
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
-          "edited_at": "2026-10-28T12:55:17+00:00",
-          "last_edit": {
-            "at": "2026-10-28T12:55:17+00:00",
-            "source_sha256": "b0d64cba84aec8fcf25233be332e5302527e0788aaa8fd660e273fffc8196e21",
-            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
-            "scope": "patches, flags and requested wall/equipment markings only",
-            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
-          }
+            2
+          ]
         }
       ]
     },
     {
-      "id": "raznoe-cpk-c23-console",
-      "name": "ЦПК: пульт тренажёра манипулятора",
-      "kind": "situation_reference",
-      "scenes": [
-        23
+      "id": "tuman",
+      "name": "Лошадь Туман",
+      "aliases": [
+        "TUMAN"
       ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-23/c23-console.png",
-          "caption": "ЦПК: пульт тренажёра манипулятора",
-          "prompt_file": "projects/raznoe/references/scenes/scene-23/c23-console.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:31:57+00:00",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "5f51f5b9d3f836c21bf8254e3e2276eeeb5e33eadd80b301d4cfd65b33355dbf",
-          "scenes": [
-            23
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
-          "edited_at": "2026-10-28T12:55:17+00:00",
-          "last_edit": {
-            "at": "2026-10-28T12:55:17+00:00",
-            "source_sha256": "df9cec3eeb38fb4937320cfe6b2d934c68ab6fdc9c1dd2b13e1b07cded4184bc",
-            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
-            "scope": "patches, flags and requested wall/equipment markings only",
-            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
-          }
-        }
-      ]
-    },
-    {
-      "id": "raznoe-cpk-c23-era-arm",
-      "name": "ЦПК: манипулятор на орбитальном модуле",
-      "kind": "situation_reference",
       "scenes": [
-        23
+        2
       ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
+      "model_sheet": {
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
+        "primary": "Туман · лист (ракурсы)",
+        "additional": [],
+        "public_image": "projects/raznoe/references/tuman.png",
+        "full_image": "projects/raznoe/references/tuman.png"
+      },
+      "outfit_variant": "Спокойная серая лошадь в яблоках, белые грива и хвост, добрые тёмные глаза, коричневый потник; ребёнок в маленьком тёмно-синем шлеме верхом.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-01",
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "874193518ba6dc49773833befed0fd117305cb971d715572d63d4ca566f7cf50",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
         {
-          "path": "projects/raznoe/references/scenes/scene-23/c23-era-arm.png",
-          "caption": "ЦПК: манипулятор на орбитальном модуле",
-          "prompt_file": "projects/raznoe/references/scenes/scene-23/c23-era-arm.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:37:31+00:00",
-          "source_type": "ai_generated_concept",
+          "path": "projects/raznoe/references/tuman.png",
+          "caption": "S2-H1 · Лошадь Туман — лист (ракурсы) · не одобрено",
           "editorial_status": "not_approved",
-          "sha256": "5840f52ea7b3634e0ec1cc3f263bfc3a6bc7303293a6df05d6812c1a551cab7f",
+          "derived_from": [],
+          "sha256": "874193518ba6dc49773833befed0fd117305cb971d715572d63d4ca566f7cf50",
           "scenes": [
-            23
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
-        }
-      ]
-    },
-    {
-      "id": "raznoe-cpk-c24-capsule-sea",
-      "name": "ЦПК: спускаемый аппарат на море",
-      "kind": "situation_reference",
-      "scenes": [
-        24
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-24/c24-capsule-sea.png",
-          "caption": "ЦПК: спускаемый аппарат на море",
-          "prompt_file": "projects/raznoe/references/scenes/scene-24/c24-capsule-sea.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:39:21+00:00",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "89bc42f7367c92c988f33e3b027f5e13d3a40bf6c7cb161c3ab016d8f00ec45b",
-          "scenes": [
-            24
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
-        }
-      ]
-    },
-    {
-      "id": "raznoe-cpk-c24-raft",
-      "name": "ЦПК: экипаж и спасательный плот",
-      "kind": "situation_reference",
-      "scenes": [
-        24
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-24/c24-raft.png",
-          "caption": "ЦПК: экипаж и спасательный плот",
-          "prompt_file": "projects/raznoe/references/scenes/scene-24/c24-raft.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:41:30+00:00",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "cb210515195b4638c77a2da22dee75bdd432ec883c35c96e1d9b77444cfc7a3f",
-          "scenes": [
-            24
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Visually inspected: 16:9, requested subject, no visible lettering/logos; fictional training concept, not documentary evidence."
-        }
-      ]
-    },
-    {
-      "id": "raznoe-cpk-c25-hydrolab-pool",
-      "name": "ЦПК: тренировка под водой в гидролаборатории",
-      "kind": "situation_reference",
-      "scenes": [
-        25
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.png",
-          "caption": "ЦПК: тренировка под водой в гидролаборатории",
-          "prompt_file": "projects/raznoe/references/scenes/scene-25/c25-hydrolab-pool.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:44:37+00:00",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "0d3f62742bd9abf8d03a9bedfda501eed85d164cacda5f5d54ca8ef77e3c4d20",
-          "scenes": [
-            25
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
-          "edited_at": "2026-10-28T12:55:17+00:00",
-          "last_edit": {
-            "at": "2026-10-28T12:55:17+00:00",
-            "source_sha256": "40c0d3eba9993e71289e6478694b7e63c192c47b1332a9894830b463e9a1dee7",
-            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
-            "scope": "patches, flags and requested wall/equipment markings only",
-            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
-          }
-        }
-      ]
-    },
-    {
-      "id": "raznoe-cpk-c25-suit-lowering",
-      "name": "ЦПК: спуск скафандра в бассейн",
-      "kind": "situation_reference",
-      "scenes": [
-        25
-      ],
-      "editorial_status": "not_approved",
-      "notes": "Постановочный референс ЦПК; вымышленные люди и установки, не документальный снимок.",
-      "images": [
-        {
-          "path": "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.png",
-          "caption": "ЦПК: спуск скафандра в бассейн",
-          "prompt_file": "projects/raznoe/references/scenes/scene-25/c25-suit-lowering.image-prompt.txt",
-          "created_by": "ChatGPT imagegen (open Work)",
-          "created_at": "2026-10-27T18:50:26+00:00",
-          "source_type": "ai_generated_concept",
-          "editorial_status": "not_approved",
-          "sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859",
-          "scenes": [
-            25
-          ],
-          "width": 1672,
-          "height": 941,
-          "technical_qc": "Localized insignia/text edit of the existing PNG. Original dimensions and all pixels outside edit masks preserved exactly; face regions byte-exact. Official emblem artwork and exact Cyrillic lettering checked. Fictional concept; not documentary evidence or owner artistic approval.",
-          "edited_at": "2026-10-28T12:55:17+00:00",
-          "last_edit": {
-            "at": "2026-10-28T12:55:17+00:00",
-            "source_sha256": "fa5045c3286397f890ea5f089f58fa0b44a047794a3c40536b00f524f333bf06",
-            "method": "imagegen existing-image edit, masked compositing, official emblem artwork and exact Cyrillic typography",
-            "scope": "patches, flags and requested wall/equipment markings only",
-            "report": "projects/raznoe/reports/cpk-insignia-edit-2026-10-28.json"
-          }
+            2
+          ]
         }
       ]
     }
+  ],
+  "assets": [
+    {
+      "id": "loc-kitchen",
+      "name": "Кухня",
+      "kind": "location",
+      "notes": "Утренняя кухня, мятные шкафчики, круглые часы, чайник. Только локация; персонажи — по листам.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L1-kitchen.png",
+          "caption": "Кухня",
+          "sha256": "9dde6dc7c5560d5be069946a7ae2de79933b061fdc9cf302dae0a1b84723b680",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-hallway",
+      "name": "Прихожая",
+      "kind": "location",
+      "notes": "Узкая тёплая прихожая: вешалка, лавка с обувью, круглое зеркало.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L2-hallway.png",
+          "caption": "Прихожая",
+          "sha256": "ce1cf2504220fe976e929b05b3756d82a7a42d6ac4bca69404ac97015cffe22b",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-yarik-room",
+      "name": "Комната Ярика ночью",
+      "kind": "location",
+      "notes": "Кровать с синим покрывалом в звёздах, полка со стёклышками, окно с огнями города.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L3-yarik-room-night.png",
+          "caption": "Комната Ярика ночью",
+          "sha256": "cb32708ef7cbecf9ab341acd0edfce2e09b9f64ffced757c95ffb8fea645a3ad",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-courtyard",
+      "name": "Двор с площадкой",
+      "kind": "location",
+      "notes": "Кирпичный дом, синяя горка, песочница, берёзы, осенний свет.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L4-courtyard.png",
+          "caption": "Двор с площадкой",
+          "sha256": "f5a42ded4fce31f0cccb9e341bf2b3e96ba7ec0f88008cc0c40e2d66d5084303",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-therapy-room",
+      "name": "Кабинет занятий",
+      "kind": "location",
+      "notes": "Круглый стол, ковёр с волнами, мягкий дневной свет.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L5-therapy-room.png",
+          "caption": "Кабинет занятий",
+          "sha256": "136b69fa97aaa7271ad1ba065c894dde711ac024fc8bf2c59fa2f062f115983a",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-inner-sea-storm",
+      "name": "Внутреннее море — шторм",
+      "kind": "location",
+      "notes": "Мир внутри Ярика: тёмно-бирюзовое штормовое море, фиолетовое небо, тёмный маяк, лодка.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L6-inner-sea-storm.png",
+          "caption": "Внутреннее море — шторм",
+          "sha256": "a214896b7237e7c06d4b9c5a88e5e86a43cf1ba7d9bb5f4850df6ed7def0c835",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-inner-sea-calm",
+      "name": "Внутреннее море — штиль",
+      "kind": "location",
+      "notes": "Тот же мир после шторма: золотисто-бирюзовое море, маяк горит. Для монтажных вставок и титров.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L7-inner-sea-calm.png",
+          "caption": "Внутреннее море — штиль",
+          "sha256": "1e8d16ec0fa28f64c687e1ad4954c0755ce53b9617ace4595a52913541296b73",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-seaside-lighthouse",
+      "name": "Берег и маяк",
+      "kind": "location",
+      "notes": "Галечный пляж на закате, красно-белый полосатый маяк, деревянный пирс.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png",
+          "caption": "Берег и маяк",
+          "sha256": "5e81b823295d1d1b5461c1a5cfc0ecc19d6925edf40a91d78e48f9efba6f8911",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "props-sheet",
+      "name": "Реквизит сцены 1",
+      "kind": "prop",
+      "notes": "Жёлтые наушники с синими наклейками; банка и мешочек с морскими стёклышками; маяк-ночник; три карточки-пиктограммы без текста.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-1/MS01-P1-props-sheet.png",
+          "caption": "Реквизит сцены 1",
+          "sha256": "9cc61d20491240e51227c1bdfdad982d3f810079f8d11ae006f9aef08faded4e",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        1
+      ]
+    },
+    {
+      "id": "loc-living-room",
+      "name": "Гостиная вечером",
+      "kind": "location",
+      "notes": "Уютная гостиная: диван, ковёр, телевизор, тёплая лампа. Только локация.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L1-living-room.png",
+          "caption": "Гостиная вечером",
+          "sha256": "9201ec119521b42f506d1763b52466dbfefcf44b589d85dad4fd2814b3f2ca02",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-city-square",
+      "name": "Городская площадь на закате",
+      "kind": "location",
+      "notes": "Старинная площадь после дождя, мокрая брусчатка, закатный свет, машины.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L2-city-square.png",
+          "caption": "Городская площадь на закате",
+          "sha256": "12be37b79af2e051825e6bd2efce0c18a3e82754eb8a272b3e49ee4346fd21b8",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-supermarket",
+      "name": "Супермаркет — проход",
+      "kind": "location",
+      "notes": "Проход с полками на уровне ребёнка, люминесцентный свет, без брендов и текста.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L3-supermarket.png",
+          "caption": "Супермаркет — проход",
+          "sha256": "c02592de76295c61de8d52f777470806579c108d2f0350f36b3dfa934d23cad5",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-kindergarten-yard",
+      "name": "Двор детского сада",
+      "kind": "location",
+      "notes": "Зелёная площадка, клумбы, деревья.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L4-kindergarten-yard.png",
+          "caption": "Двор детского сада",
+          "sha256": "0ac7058f8083bb8c11a83de24cfa462429ca44bd53863fa9a6acd8173e596bf0",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-barbershop",
+      "name": "Парикмахерская",
+      "kind": "location",
+      "notes": "Кресло, зеркала, светлое помещение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L5-barbershop.png",
+          "caption": "Парикмахерская",
+          "sha256": "e54f8418a8327b873fecfc8df26ec54409e7e79743260ea79a98313e49699f4a",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-miron-bedroom",
+      "name": "Комната Мирона ночью",
+      "kind": "location",
+      "notes": "Детская кровать, окно с луной, тумбочка с пузырьками (без надписей).",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png",
+          "caption": "Комната Мирона ночью",
+          "sha256": "63e5a7273df44e7dfa7722d95078dc3459f4723efa6baf75ed6894481d77183f",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-clinic-corridor",
+      "name": "Коридор клиники и стойка",
+      "kind": "location",
+      "notes": "Бледно-голубой коридор, регистрационная стойка, двери.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L7-clinic-corridor.png",
+          "caption": "Коридор клиники и стойка",
+          "sha256": "b1b1f49d1fde8810a376eb6794e424b7590dd9679106a1aa39ea769650f86f32",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-development-center",
+      "name": "Кабинет центра развития",
+      "kind": "location",
+      "notes": "Детский столик, окно, полки с игрушками, мягкий свет.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L8-development-center.png",
+          "caption": "Кабинет центра развития",
+          "sha256": "adcb4b24a9ce052bfb4f0df35163787d8826f873c3634931a00b7b60883a9e01",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-doctor-office",
+      "name": "Кабинет доктора",
+      "kind": "location",
+      "notes": "Стол, шкаф, окно, светлый кабинет.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L9-doctor-office.png",
+          "caption": "Кабинет доктора",
+          "sha256": "1c61145b30be65da7080caf95a7e76594058c08253e5e5250cb729577e51ead8",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-school-entrance",
+      "name": "Школа в день линейки",
+      "kind": "location",
+      "notes": "Фасад школы, шарики, гирлянда без текста, дорожка.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L10-school-entrance.png",
+          "caption": "Школа в день линейки",
+          "sha256": "ace8bbc57afaad38fe47c8a4fd346f8c917cafc9860b10b028b5dace87e5a3e4",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-night-kitchen",
+      "name": "Кухня ночью",
+      "kind": "location",
+      "notes": "Стол под лампой, окно, ночь.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L11-night-kitchen.png",
+          "caption": "Кухня ночью",
+          "sha256": "c93d29c0f71da01d6ca303564010ed52245084402928c80cb77fe4fb138eec3c",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-stable-meadow",
+      "name": "Луг у конюшни",
+      "kind": "location",
+      "notes": "Золотой луг, деревья, деревянная ограда, закатный свет.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L12-stable-meadow.png",
+          "caption": "Луг у конюшни",
+          "sha256": "942a6ac3b11c15ace48dfa184361e5a7858508d5a0edc1f1ddbd0c6218203606",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "loc-space-earth",
+      "name": "Космос и Земля",
+      "kind": "location",
+      "notes": "Тёмный космос, светящаяся Земля, мелкие звёзды; без флагов и текста.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-L13-space-earth.png",
+          "caption": "Космос и Земля",
+          "sha256": "527aadcf50c81aa36bd70b3afbf7afeab3db2f994ff967f2140571e5627d672b",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    },
+    {
+      "id": "props-sheet-2",
+      "name": "Реквизит сцены 2",
+      "kind": "prop",
+      "notes": "Стеклянный купол с медной оправой; карточки (слон, яблоко, оранжевый шарик) без слов; книжка про оранжевый шарик; пластилин; счета, калькулятор и монеты без чисел.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/MS02-P1-props-sheet.png",
+          "caption": "Реквизит сцены 2",
+          "sha256": "ed43061fe7c6a1a77b935a7c1e5bbf6ed549c35b3ced316bc3a95ccae83037a8",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "generated",
+        "source": "Topview original, no rerender"
+      },
+      "scenes": [
+        2
+      ]
+    }
+  ],
+  "non_character_reference_rules": [
+    "Индивидуальный лист персонажа всегда выше кадра локации и реквизита для лица, возраста, пропорций и одежды.",
+    "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
+    "Пути к картинкам — от корня репозитория (projects/raznoe/references/…)."
   ]
 }

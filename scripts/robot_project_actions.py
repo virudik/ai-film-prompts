@@ -114,7 +114,7 @@ def tasks_of(tel, pid, sid):
     return act, done
 
 
-def plan(rows, state, tel, now):
+def plan(rows, state, tel, now, root=None):
     """rows: open Supabase rows of the other projects. state: {pid: {queue, ledger, master, lock, path...}}.
     Returns (changed {relpath: text}, acks [(row, status, note)], projects_touched set)."""
     stamp = iso(now)
@@ -122,7 +122,7 @@ def plan(rows, state, tel, now):
     acks, touched, inbox_new = [], set(), []
     by_scene = {}
     for r in rows:
-        pid = prj.project_of_row(r, tel)
+        pid = prj.project_of_row(r, tel, root)
         if pid not in st:
             acks.append((r, "needs_owner", f"Кнопка проекта «{pid}», которого нет в projects/projects.json."))
             continue
@@ -271,7 +271,7 @@ def run(root, store, git, *, now=None, sync=True, dry=False):
             print("::notice title=robot-project-actions::no buttons of other projects")
             return 0
         state = load_state(root)
-        changed, acks, inbox_new = plan(rows, state, tel, now_)
+        changed, acks, inbox_new = plan(rows, state, tel, now_, root)
         print(json.dumps({"rows": len(rows), "files": sorted(changed), "acks": len(acks), "inbox": len(inbox_new)},
                          ensure_ascii=False))
         if dry:
