@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-02T10:01:18+00:00
+Проверено: 2026-11-02T10:16:50+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -43,6 +43,7 @@
 
 Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconcile first; no retry.
 Задач с сохранённым task ID: 49
+- S48-SEED20-P2: reconcile_without_resubmitting
 
 ## Пробелы
 
