@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:ff4e7c30-a32a-46d7-88ab-b468fa23e958",
-  "task": "Разное: сохранить прежний C1, исходные 59 промптов и фактическую незавершённую подготовку",
-  "acquired_at": "2026-11-01T10:45:41Z",
-  "expires_at": null,
-  "released_at": "2026-11-01T10:46:00Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:26e3504f-59cc-41d5-ac09-d3133b64972f",
+  "task": "Разное: сохранить фактическую проверку ранее нарисованного и блокер генерации; без изменения мастера и очереди",
+  "acquired_at": "2026-11-02T03:48:35Z",
+  "expires_at": "2026-11-02T04:08:35Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
