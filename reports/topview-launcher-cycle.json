@@ -9,20 +9,27 @@
   "receipt_started_at": "2026-11-02T17:58:44.987Z",
   "source_head": "f91bb16cf36e34b100164b4734871ac8959ad3cd",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "started",
-  "scan_source": null,
-  "scan_scope": null,
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "phase": "finished",
+  "stage": "finished",
+  "scan_source": "Topview board-task connector read-only",
+  "scan_scope": "all_boards_all_video_pages; 14 boards; 18 pages at pageSize 100",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e"
+  ],
   "new_submissions": 0,
-  "outcome": "in_progress",
-  "blocker": null,
-  "retryable": null,
-  "browser_transport": null,
+  "outcome": "no_free_slot",
+  "blocker": "All 6 physical video slots are active; no Create/retry is permitted in this cycle.",
+  "retryable": true,
+  "browser_transport": "Topview connector read-only; no browser/Create UI opened because complete scan proved 6/6 occupied",
   "topview_credits_spent": 0,
   "current_cycle_topview_gui_quota_rechecked": false,
   "lease": {
@@ -34,9 +41,160 @@
     "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "last_run_id": "a259cfef-0f6c-8332-aa1f-9c2c61f5c759",
     "last_run_status": "completed",
+    "last_run_started_at": "2026-11-02T16:57:49.076698Z",
     "latest_result_run_id": "a259cfef-0f6c-8332-aa1f-9c2c61f5c759",
     "current_run_match": true,
+    "receipt_execution_instance_id": "122494bd-23f8-4413-9d51-2b93ac487134",
     "receipt_run_id": "d8cdd9d9-2728-8327-9665-a3e9f84775a2",
+    "receipt_phase": "finished",
     "receipt_current_run_match": false
-  }
+  },
+  "scan_completed_at": "2026-11-02T18:00:45.110Z",
+  "work_recovery_registry": {
+    "preferred_executor": "work",
+    "route_generation": 3,
+    "state": "restored_verified",
+    "route_changed": false
+  },
+  "finished_at": "2026-11-02T18:00:45.110Z",
+  "boards_scanned": 14,
+  "pages_scanned": 18,
+  "video_tasks_scanned": 626,
+  "provider_status_counts": {
+    "success": 597,
+    "init": 6,
+    "fail": 23
+  },
+  "active_tasks": [
+    {
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "item_id": "S48-SEED20-P2",
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "item_id": "S71-WAN30",
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "item_id": "S72-WAN30",
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "item_id": "S61-SEED20-P1",
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "item_id": "S60-SEED20-P1",
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "item_id": "S62-SEED20-P1",
+      "status": "init",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "reconciled_queue_task_ids": 13,
+  "unresolved_claim_states": [],
+  "technical_fail_candidates": 0,
+  "readiness": {
+    "source_queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+    "source_task_map_sha256": "108d49112f965ba4603fc96672d814c8bc3018c45c4b502e9f0a55e2dbc5961b",
+    "queue_sha_verified": true,
+    "task_map_sha_verified": true
+  },
+  "next_ready_item": {
+    "id": "S56-SEED20-P2",
+    "priority": 0.31,
+    "slot_reserved": false
+  },
+  "preparation": {
+    "safe_new_continuity_work_available": false,
+    "checked_items": [
+      "S52-R2-SEED20-P2",
+      "S59-SEED20-P3"
+    ],
+    "reason": "No new source success appeared. S52 exact tail still requires continuous playback with audio; S59-P3 source ends after landing and must not be synthetically reset."
+  },
+  "maintenance": {
+    "cycle": "20:55 Europe/Moscow",
+    "phase_a_due": true,
+    "phase_a_completed": true,
+    "phase_b_due": true,
+    "phase_b_completed": true,
+    "phase_v_due": false,
+    "owner_tasks_open": 0,
+    "claude_tasks_over_3h_open": 0,
+    "self_heal": "ok",
+    "project_status": {
+      "health": "ok",
+      "synced_at": "2026-11-02T17:30:28Z",
+      "fresh_under_40_minutes": true,
+      "verified_success_run_id": 41439937143
+    },
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0,
+      "verified_success_run_id": 41403068883
+    },
+    "canonical_sync_success_run_id": 41402629615,
+    "pages_success_run_id": 41402471429,
+    "gmail": {
+      "query": "after:2026/11/01 from:(notifications@github.com) \"ai-film-prompts\" -in:spam -in:trash",
+      "results": 24,
+      "all_pages": true,
+      "new_message_ids": [
+        "1a19c816d65f05e9"
+      ],
+      "new_failure_run_ids": [],
+      "new_message_classification": "issue #18 launch-autonomy signal; stale/informational after current 6/6 reconciliation; no command; no repair/rerun",
+      "state_changed": false
+    }
+  },
+  "source_head_at_finish": "a8102136aac4665ddef36ee620ac6af16288dc35"
 }
