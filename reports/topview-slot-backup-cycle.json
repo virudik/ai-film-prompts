@@ -10,20 +10,20 @@
   "receipt_started_at": "2026-11-02T07:52:55.420Z",
   "source_head": "e41082c92622c10776beda8f36923620d0e2301e",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "read_only_scan",
-  "scan_source": "GitHub robot Topview telemetry; fresh authenticated Topview connector not exposed to this scheduled runtime",
-  "scan_scope": "not yet independently scanned",
+  "phase": "finished",
+  "stage": "completed",
+  "scan_source": "Current GitHub robot telemetry plus independent SHA256 revalidation of queue and task map; authenticated Topview connector not available to this scheduled runtime",
+  "scan_scope": "No new authenticated account-wide scan in this cycle. Latest complete GitHub robot account observation: 14 boards, 16 pages, 625 video tasks, 6 active tasks, at 2026-11-02T07:30:23Z. Browser.list_tabs failed originating_browser_context_required.",
   "scan_complete": false,
   "occupied_slots": null,
   "free_slots": null,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_create_last_verified_6_of_6",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "not invoked",
+  "browser_transport": "GitHub read-only telemetry; TinyFish was not invoked due to last verified 6/6 and lack of new complete scan",
   "tinyfish_run_ids": [],
   "tinyfish_runs": [],
   "tinyfish_estimated_cost_usd": 0,
@@ -34,7 +34,7 @@
     "acquired_at": "2026-11-02T07:52:23.945Z",
     "expires_at": "2026-11-02T08:04:23.945Z"
   },
-  "checked_at": "2026-11-02T07:52:55.420Z",
+  "checked_at": "2026-11-02T07:55:01.421Z",
   "acceptance": {
     "scheduled_run_observed": true,
     "tinyfish_saved_login_reversible_clicks_historical": true,
@@ -42,5 +42,56 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_scheduled_ui_create_verified": false,
     "production_submission_verified": false
-  }
+  },
+  "scan_at": null,
+  "scan_errors": [
+    "No Topview connector available in this runtime",
+    "Browser read-only requires originating browser context"
+  ],
+  "telemetry_observation": {
+    "checked_at": "2026-11-02T07:30:23Z",
+    "account_complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 16,
+    "video_tasks_scanned": 625,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "025955aad2cf494da2b4104d26c36ed5",
+      "0de1f663432646d294f409a22e20a26e",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "b0915b04173c414e9ac08652d34b7852",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "age_seconds": 1478
+  },
+  "readiness_sha_verified": true,
+  "queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+  "task_map_sha256": "2b4fe61f47dedb855c4bc29f92471a5b24717f8919ce1931d39de040f882413a",
+  "readiness_reference_queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+  "readiness_reference_taskmap_sha256": "2b4fe61f47dedb855c4bc29f92471a5b24717f8919ce1931d39de040f882413a",
+  "hash_verification": {
+    "queue": true,
+    "task_map": true,
+    "method": "independent JS SHA256 digest of fresh raw GitHub UTF8 files; values matched readiness"
+  },
+  "queue_items_total": 65,
+  "pending_claim_count": 0,
+  "ready_next_if_slot_frees": "S48-SEED20-P2",
+  "ready_next_priority": -0.98,
+  "work_recovery": {
+    "preferred_executor": "ordinary",
+    "route_generation": 2,
+    "gui_verified": false,
+    "quota_verified": false,
+    "route_changed": false
+  },
+  "robot_issue": {
+    "latest_known_issue_number": 226,
+    "created_at": "2026-11-01T07:30:28Z",
+    "not_treated_as_current_free_capacity": true
+  },
+  "finished_at": "2026-11-02T07:55:01.421Z",
+  "source_head_at_finish": "12e1661be45ebde956e04b58ef856be58bf3e730"
 }
