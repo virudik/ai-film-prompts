@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:c8e874c0-1bea-4d8d-9f2f-f773e8aa5d21",
   "task": "Разное: сохранить новый запрос владельца на исправление внешности персонажей, передача Work, без публикации изображений",
   "acquired_at": "2026-11-02T16:06:29.691Z",
-  "expires_at": "2026-11-02T16:31:29.691Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-02T16:10:17.808Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
