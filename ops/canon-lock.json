@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:1e7d8c97-4f27-4835-9d43-496bde10c2bb",
-  "task": "Ordinary scheduled HH:00 Seregius full scan and cycle receipt",
-  "acquired_at": "2026-11-02T07:08:34.793Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T07:20:36.875Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:ee316c5a-5a59-4507-b79c-a8a13dcb2f00",
+  "task": "Удалить завершённый одноразовый импорт Topview из GitHub Actions",
+  "acquired_at": "2026-11-02T07:24:32.820Z",
+  "expires_at": "2026-11-02T07:36:32.820Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
