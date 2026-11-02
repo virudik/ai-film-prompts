@@ -3,15 +3,14 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T11:10:32+00:00",
-  "source_head": "ba071521582e6265420124ffaabb9b022b14c205",
-  "source_fingerprint": "5f36649709ebaa6a1db1b61125c7f15fe4733db0f2912e3503b1f34f5ac146a6",
+  "checked_at": "2026-11-02T11:11:43+00:00",
+  "source_head": "0958e70adbd44c9f89f7f469f2ca2777697f4efc",
+  "source_fingerprint": "6b07d209690a57c6d09c57b602a39d50308881b90252292e94d312ce2830fcdf",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
-    "project master/status mismatch: misc",
     "checkpoint anchor missing or ambiguous"
   ],
   "selected_work": null,
@@ -199,8 +198,8 @@
     },
     {
       "file": "projects/misc/project-status.json",
-      "sha256": "3207dcc8807349c2ac3aa5b6cde0954b2a9648490a0c5bc53e21a2d856f477de",
-      "bytes": 448
+      "sha256": "0da48316d638da28a470c2eb70b19beb1f7ccc0dc0715578e73e7f514e8d7903",
+      "bytes": 8608
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
@@ -243,5 +242,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 3883
+  "packet_bytes": 3844
 }
