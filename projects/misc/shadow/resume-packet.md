@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project misc`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-02T10:54:59+00:00
+Проверено: 2026-11-02T11:07:08+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -46,4 +46,5 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- next action changed without a recovery checkpoint
+- project master/status mismatch: misc
+- checkpoint anchor missing or ambiguous

@@ -3,15 +3,16 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T10:54:59+00:00",
-  "source_head": "354423cd26718a3d15aab147eb4a93b3928eff1d",
-  "source_fingerprint": "0cd4ed93fabc47228f524e85be1c885763998f5d5630ff940207c90cb4ba7b73",
+  "checked_at": "2026-11-02T11:07:08+00:00",
+  "source_head": "f7766ad0c5e562aa9e7c9f65dc43b29e6f5855d0",
+  "source_fingerprint": "9926643d6efe419d83af3eb65489b824af72d8d092b7b68baef424d7ea511888",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
-    "next action changed without a recovery checkpoint"
+    "project master/status mismatch: misc",
+    "checkpoint anchor missing or ambiguous"
   ],
   "selected_work": null,
   "checkpoint_text": "",
@@ -183,8 +184,8 @@
     },
     {
       "file": "projects/misc/HANDOFF.md",
-      "sha256": "ca5935c12d8aa0ce612ed47f35fd0a633f190bd44def3c1cec873930e45f0f39",
-      "bytes": 4265
+      "sha256": "b2959ea380041a16b30903ea303776a91f51e487ffacf3ae2da2b0767a27e289",
+      "bytes": 5165
     },
     {
       "file": "projects/misc/INSTRUCTIONS.md",
@@ -203,8 +204,8 @@
     },
     {
       "file": "projects/misc/reports/current-work-checkpoint.md",
-      "sha256": "89732bd77c326b531825222caa9e025387b5b4df95a7bb4f489b41fda620b71d",
-      "bytes": 7596
+      "sha256": "94678eb8a32247b7752e176e7cb9b225e4a137470730fa5d0affc45ab89eda73",
+      "bytes": 10274
     },
     {
       "file": "projects/misc/reports/handoff-receipts.json",
@@ -213,13 +214,13 @@
     },
     {
       "file": "projects/misc/video-prompts.md",
-      "sha256": "94c3a923f1804074c3ffc1b25d15ade31c047d51c7167e076ba5f225e95dcc32",
-      "bytes": 280634
+      "sha256": "e66450da429db70a4b70372beb55e1943f71b55c26790a90c76970c4f51c1633",
+      "bytes": 284527
     },
     {
       "file": "projects/misc/work-resume-register.json",
-      "sha256": "e6b90ea004b0f81b14c5583fa470ff1c35a33567f957ff60358149c58b94768c",
-      "bytes": 4395
+      "sha256": "64b80b503a6db711c45a985fba2ccaa7f0421cc1ed90a97239a4c3b786de4171",
+      "bytes": 5945
     },
     {
       "file": "projects/projects.json",
@@ -242,5 +243,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 3855
+  "packet_bytes": 3883
 }
