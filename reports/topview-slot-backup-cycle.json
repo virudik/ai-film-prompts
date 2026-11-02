@@ -2,19 +2,18 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "e51890e6-19c4-48d4-a2a6-0b63ab76a1a5",
-  "run_id": "5a221763-60f0-8320-8186-a0b274fbf9ed",
-  "run_id_source": "Automations.peek current last_run.id; not a locally generated UUID",
-  "started_at": "2026-11-02T19:02:36.643301Z",
-  "receipt_started_at": "2026-11-02T19:12:52.249Z",
-  "source_head": "b34993c31c46697834dbb4faeaa6f8026cc00b01",
+  "execution_instance_id": "c7b554f8-bb83-4527-af6b-8be87c44749d",
+  "run_id": "03eaf26d-5bbc-832d-85a8-85dd476938bc",
+  "run_id_source": "Automations.peek actual current last_run.id",
+  "started_at": "2026-11-02T19:58:46.387129Z",
+  "receipt_started_at": "2026-11-02T20:04:49.233Z",
+  "source_head": "c91e42ca230fce595f7b16ef9d1e0ef3673c1fef",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "completed",
-  "scan_source": "Topview live connector read-only; all board/video/image pages",
-  "scan_scope": "14 boards,18 video pages+16 image pages=34 pages (pageSize 100); 1010 total tasks",
+  "phase": "started",
+  "stage": "full_readonly_scan_complete",
+  "scan_source": "Topview live connector read-only",
+  "scan_scope": "14 boards,34 pages (13 boards video+image; My First Board video 5 pages, image 3 pages), 1010 tasks",
   "scan_complete": true,
-  "scan_checked_at": "2026-11-02T19:12:52.249Z",
   "occupied_slots": 6,
   "free_slots": 0,
   "boards_scanned": 14,
@@ -30,20 +29,9 @@
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e"
   ],
-  "all_submitted_queue_tasks_verified": 13,
-  "unresolved_claim_states": [],
-  "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
-  "task_map_sha256": "e6790ba6f0dbc8512d27771bc1aad6c59858edee7154d45e44709a2fd195d517",
-  "readiness_sha_verified": true,
-  "next_ready_item": {
-    "id": "S56-SEED20-P2",
-    "priority": 0.31,
-    "slot_reserved": false
-  },
   "selected_item": null,
-  "task_ids": [],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "pending_final_reconciliation",
   "blocker": null,
   "retryable": true,
   "browser_transport": "Topview connector read-only; TinyFish not run; no Create",
@@ -55,19 +43,12 @@
   "work_recovery": {
     "preferred_executor": "work",
     "route_generation": 3,
-    "route_changed": false,
-    "work_capacity": "restored_verified"
-  },
-  "peer_monitor": {
-    "ordinary_run_id": "5a221763-60f0-8320-8186-a0b274fbf9ed",
-    "ordinary_latest_result_run_id": "c3774dfc-77fc-8329-882e-f0d302b03df5",
-    "work_hh55_last_run_id": "972bde93-cae0-832a-a2ff-3a7723c98593",
-    "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
+    "route_changed": false
   },
   "lease": {
-    "holder": "chatgpt:ordinary:e51890e6-19c4-48d4-a2a6-0b63ab76a1a5",
-    "acquired_at": "2026-11-02T19:09:55.182Z",
-    "expires_at": "2026-11-02T19:39:55.182Z"
+    "holder": "chatgpt:ordinary:c7b554f8-bb83-4527-af6b-8be87c44749d",
+    "acquired_at": "2026-11-02T20:04:10.801Z",
+    "expires_at": "2026-11-02T20:34:10.801Z"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
@@ -75,23 +56,8 @@
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_scheduled_run_verified": false,
-    "topview_task_id_verified_this_cycle": true,
+    "topview_task_id_verified_this_cycle": false,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T19:13:33.113Z",
-  "checked_at": "2026-11-02T19:13:33.113Z",
-  "notes": "Live 14-board 34-page complete scan confirms six active video tasks on My First Board, all Unlimited=true creditsCost=0. All 13 queue submissions independently read by ID. Current SHA256 queue/task map matches refreshed readiness. Stale wake issues not current capacity. No Create or TinyFish cost. Work preferred route_generation=3 unchanged.",
-  "finished_at": "2026-11-02T19:13:33.113Z",
-  "video_status_counts": {
-    "success": 597,
-    "init": 6,
-    "fail": 23
-  },
-  "image_status_counts": {
-    "success": 368,
-    "fail": 16
-  },
-  "verified_source_head_before_final": "07d29252d91011c92c059ac128750ca0f1c352d2",
-  "lease_release_required": true,
-  "verified_source_head_before_start": "60114f48b1f76bc2e6582cf99577ca678adb911f"
+  "updated_at": "2026-11-02T20:04:49.233Z"
 }
