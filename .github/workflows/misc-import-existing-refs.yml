@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install local image validator
-        run: python3 -m pip install --quiet pillow
+        run: python3 -m pip install --quiet pillow requests
       - name: Download previously created zero-credit Topview originals
         shell: bash
         run: |
