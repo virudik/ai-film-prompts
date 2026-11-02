@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "project": "misc",
-  "last_updated_at": "2026-11-02T03:50:22Z",
+  "last_updated_at": "2026-11-02T05:18:23.175Z",
   "active_work": [
     {
       "work_id": "MISC-S1-S2-REFERENCES",
       "project": "misc",
       "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
-      "status": "blocked_repeated_output_mismatch",
-      "updated_at": "2026-11-02T03:50:22Z",
+      "status": "in_progress_8_of_59",
+      "updated_at": "2026-11-02T05:18:23.175Z",
       "completed": [
         "Прежний C1 сохранён, 1/59; 59 исходных промптов сохранены дословно; привязки C1 опубликованы без приёмки.",
-        "02.11: проверены GitHub inventory, Library и соответствие загруженного GPT-TASK каноническим байтам. C1–C7 исключены из повторной генерации до восстановления прежних оригиналов. Три новых неподходящих коллажа отклонены, новых пригодных PNG 0; мастер и очередь сохранены."
+        "02.11: проверены GitHub inventory, Library и соответствие загруженного GPT-TASK каноническим байтам. C1–C7 исключены из повторной генерации до восстановления прежних оригиналов. Три новых неподходящих коллажа отклонены, новых пригодных PNG 0; мастер и очередь сохранены.",
+        "02.11: C2–C8, 7 оригиналов от владельца, загружены в GitHub; C1 сохранён, суммарно 8/59. Ожидается PNG-перекодировка и проверка Pages."
       ],
-      "next_action": "Recover original C2-C6 and resolve C7 without redrawing; check fresh inventory. Continue only missing separate images from number 8 after a single-image generation matches its exact prompt. Save verified originals and publish actual files only; no collage substitutes.",
+      "next_action": "Сделать и проверить C9 (Варя), затем остальные реально отсутствующие; раздельные референсы. После окончания — галереи, приёмка владельца отдельно.",
       "recovery": {
         "schema_version": 1,
         "verified_at": "2026-11-02T03:50:22Z",

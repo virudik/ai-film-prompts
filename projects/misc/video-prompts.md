@@ -32,7 +32,7 @@
 
 **Что происходит:** Ярику семь лет, и обычные звуки для него слишком громкие. Во дворе он прячется в тень и выкладывает морские стёклышки, внутри него — штормовое море, где слова уплывают, как лодки. Тяжёлое утро заканчивается слезами, но ночью старшая сестра Соня приносит маяк-ночник и жёлтые наушники, а пёс Бублик ложится ему на ноги. Анна Сергеевна терпеливо ждёт, и Ярик впервые выкладывает три картинки: «я — хочу — тихо». Во дворе рядом садится Варя. На закате семья обнимает его на берегу у настоящего маяка.
 
-**Готовность:** DRAFT. По новой команде владельца 01.11.2026 разрешена подготовка картинок по GPT-TASK.md; видео не запускать. Сохранён 1 из 26 референсов сцены: C1 Ярика. Остальные 25, включая отдельный C2, ещё не готовы. Все изображения not_approved. Полный список и прогресс — `projects/misc/references/generation-progress.json`. Техническая публикация не является одобрением владельца.
+**Готовность:** DRAFT. По новой команде владельца 01.11.2026 разрешена подготовка картинок по GPT-TASK.md; видео не запускать. Сохранено 8 из 26 референсов сцены: листы персонажей C1–C8. Остальные 18 (начиная с C9) ещё не готовы. Исходные C2–C8 восстановлены из файлов владельца, не перерисованы. Все изображения not_approved. Полный список и прогресс — `projects/misc/references/generation-progress.json`. Техническая публикация не является одобрением владельца.
 **Формат кадра:** вертикаль 9:16 (720×1280), как в оригинальном рилсе — решение владельца 01.11.2026. Во всех 12 промтах `Aspect ratio: 9:16`, `FRAME FILL` для портретного кадра, вертикальная композиция и запрет горизонтальных/letterbox-кадров. **Запуск в Topview — только с форматом 9:16** (очередь и общие инструкции репозитория по умолчанию 16:9: при создании пункта очереди и на сайте Topview выставить 9:16 отдельно). Референсы локаций, реквизита и ключевые кадры K1–K8 — вертикальные 9:16; листы персонажей — горизонтальные листы-развёртки (как во всём репозитории), они задают только внешность.
 
 **Монтажная роль:** целый короткий фильм; порядок B1→B4 (30 с) или A1→A8 (15 с), B1 = A1 + A2, B2 = A3 + A4, B3 = A5 + A6, B4 = A7 + A8. В 30-секундной версии русский закадровый голос Ярика внутри промта (Wan 3.0); в 15-секундной клипы тихие, текст записывается отдельно и кладётся по таймингам. Музыка и титры добавляются в редакторе.
@@ -80,8 +80,8 @@ _Всего ≈ 169 слов за 120 с: оставлено время на п�
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -90,7 +90,7 @@ _Всего ≈ 169 слов за 120 с: оставлено время на п�
 - @Image4 — двор: только локация (горка, песочница, берёзы, дом).
 - @Image5 — лист реквизита: только внешний вид мешочка и морских стёклышек.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Кухня · id `loc-kitchen`
@@ -174,8 +174,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Внутреннее море — шторм · @Image5 = Прихожая
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -184,7 +184,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — внутреннее море в шторм: только мир, палитра, форма волн и далёкий тёмный маяк.
 - @Image5 — прихожая: только планировка, вешалка, обувница, зеркало, свет.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Соня — основной лист · id `sonya`
@@ -269,8 +269,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image5 = Комната Ярика ночью · @Image6 = Кабинет занятий
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/anna-sergeevna.png" target="_blank" rel="noopener"><img src="projects/misc/references/anna-sergeevna.png" alt="anna-sergeevna · не одобрено" loading="lazy"></a><figcaption>anna-sergeevna · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -280,7 +280,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — комната ночью: только планировка, кровать, полка, окно.
 - @Image6 — кабинет: только планировка, круглый стол, ковёр с волнами, свет.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Соня — основной лист · id `sonya`
 - @Image3 — Бублик — лист (ракурсы + эмоции) · id `bublik`
@@ -369,8 +369,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Варя — лист (ракурсы + эмоции) · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Мама Лена — основной лист · @Image5 = Соня — основной лист · @Image6 = Берег и маяк на закате
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -380,7 +380,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — Соня: PRIMARY exact identity.
 - @Image6 — берег и маяк: только пляж, море, полосатый маяк.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Варя — лист (ракурсы + эмоции) · id `varya`
 - @Image3 — Бублик — лист (ракурсы + эмоции) · id `bublik`
@@ -473,15 +473,15 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, причёска, одежда).
 - @Image2 — Мама Лена: PRIMARY exact identity.
 - @Image3 — кухня: только архитектура, мебель, свет.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Кухня · id `loc-kitchen`
@@ -545,15 +545,15 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Двор с площадкой · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity.
 - @Image2 — двор: только локация (горка, песочница, берёзы, дом).
 - @Image3 — лист реквизита: только внешний вид банки/мешочка и морских стёклышек (зелёные, синие, белые).
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Двор с площадкой · id `loc-courtyard`
 - @Image3 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
@@ -616,15 +616,15 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Внутреннее море — шторм · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, те же лицо и волосы).
 - @Image2 — внутреннее море в шторм: только мир, палитра, форма волн и далёкий тёмный маяк.
 - @Image3 — лист реквизита: только вид маяка (не горит).
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Внутреннее море — шторм · id `loc-inner-sea-storm`
 - @Image3 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
@@ -687,8 +687,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Прихожая
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity.
@@ -696,7 +696,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image3 — Соня: PRIMARY exact identity.
 - @Image4 — прихожая: только планировка, вешалка, обувница, зеркало, свет.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Соня — основной лист · id `sonya`
@@ -763,8 +763,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Комната Ярика ночью · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы; сейчас в тёмно-синей пижаме со звёздочками вместо толстовки).
@@ -773,7 +773,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — комната ночью: только планировка, кровать, полка, окно.
 - @Image5 — лист реквизита: только внешний вид жёлтых наушников и маяка-ночника.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Соня — основной лист · id `sonya`
 - @Image3 — Бублик — лист (ракурсы + эмоции) · id `bublik`
@@ -842,8 +842,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image3 = Кабинет занятий · @Image4 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/anna-sergeevna.png" target="_blank" rel="noopener"><img src="projects/misc/references/anna-sergeevna.png" alt="anna-sergeevna · не одобрено" loading="lazy"></a><figcaption>anna-sergeevna · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, наушники на шее).
@@ -851,7 +851,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image3 — кабинет: только планировка, круглый стол, ковёр с волнами, свет.
 - @Image4 — лист реквизита: только вид карточек-пиктограмм (без текста) и жёлтых наушников.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Анна Сергеевна — лист (ракурсы + эмоции) · id `anna-sergeevna`
 - @Image3 — Кабинет занятий · id `loc-therapy-room`
@@ -917,8 +917,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Бублик — лист (ракурсы + эмоции) · @Image3 = Варя — лист (ракурсы + эмоции) · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, жёлтые наушники на голове).
@@ -927,7 +927,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — двор: только локация (песочница, горка, берёзы).
 - @Image5 — лист реквизита: только вид стёклышек и жёлтых наушников.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Бублик — лист (ракурсы + эмоции) · id `bublik`
 - @Image3 — Варя — лист (ракурсы + эмоции) · id `varya`
@@ -997,8 +997,8 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Бублик — лист (ракурсы + эмоции) · @Image5 = Берег и маяк на закате
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="C1 · Ярик — основной лист; не одобрено" loading="lazy"></a><figcaption>C1 · Ярик — основной лист · не одобрено</figcaption></figure></div>
+**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка).
@@ -1007,7 +1007,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — Бублик: PRIMARY exact identity.
 - @Image5 — берег и маяк: только локация, палитра и вид маяка.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Соня — основной лист · id `sonya`
@@ -1136,7 +1136,7 @@ _Всего ≈ 260 слов за 120 с: остаётся время на па�
 - @Image4 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image5 — площадь: только архитектура, брусчатка, закатный свет, машины.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`
@@ -1237,7 +1237,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — парикмахерская: только кресло, зеркала, планировка.
 - @Image6 — комната Мирона ночью: только кровать, тумбочка, окно.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Бабушка Нина — основной лист · id `nina`
@@ -1341,7 +1341,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — кабинет центра развития: только планировка, стол, окно, полки.
 - @Image6 — лист реквизита: только вид стеклянного купола, карточек, книжки, пластилина, счетов.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Бабушка Нина — основной лист · id `nina`
 - @Image3 — Дарья Андреевна (специалист) — лист · id `darya`
@@ -1454,7 +1454,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — кухня ночью: только стол, лампа, окно.
 - @Image6 — космос: только Земля, звёзды, палитра.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`
@@ -1563,7 +1563,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image5 — площадь: только архитектура, брусчатка, закатный свет, машины.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`
@@ -1644,7 +1644,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image3 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image4 — площадь: только архитектура, брусчатка, закатный свет, машины.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Гостиная вечером · id `loc-living-room`
@@ -1719,7 +1719,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — двор детского сада: только площадка, клумбы, деревья.
 - @Image5 — супермаркет: только проход, полки, свет.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Городская площадь на закате · id `loc-city-square`
@@ -1799,7 +1799,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — парикмахерская: только кресло, зеркала, планировка.
 - @Image6 — комната Мирона ночью: только кровать, тумбочка, окно.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Бабушка Нина — основной лист · id `nina`
@@ -1883,7 +1883,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — коридор клиники: только коридор, стойка, двери.
 - @Image6 — кабинет центра развития: только планировка, стол, окно, полки.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Бабушка Нина — основной лист · id `nina`
 - @Image2 — Дарья Андреевна (специалист) — лист · id `darya`
 - @Image3 — Мирон — основной лист (4 ракурса) · id `miron`
@@ -1969,7 +1969,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image6 — лист реквизита: только вид стеклянного купола, карточек, книжки, пластилина, счетов.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Дарья Андреевна (специалист) — лист · id `darya`
@@ -2057,7 +2057,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — школа: только фасад, шарики, гирлянда, дорожка.
 - @Image6 — кухня ночью: только стол, лампа, окно.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Бабушка Нина — основной лист · id `nina`
@@ -2144,7 +2144,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — Лошадь Туман: PRIMARY exact identity.
 - @Image6 — космос: только Земля, звёзды, палитра.
 
-**Планируемые референсы (картинок пока нет, будут сгенерированы позже; пути не заданы):**
+**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`

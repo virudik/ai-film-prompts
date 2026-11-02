@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "misc",
-  "updated_at": "2026-11-01T10:45:42Z",
-  "source": "Оригинальные персонажи сцен 1 и 2. Сохранён ранее созданный C1 Ярика; остальные 58 изображений по GPT-TASK.md ещё не готовы. Все not_approved.",
+  "updated_at": "2026-11-02T05:18:23.175Z",
+  "source": "Сцена 1: сохранены 8 листов C1–C8 (владелец передал оригиналы C2–C8), все not_approved. Сцена 2 по-прежнему без изображений.",
   "characters": [
     {
       "id": "yarik",
@@ -16,7 +16,9 @@
       "model_sheet": {
         "source": "ChatGPT image generation; preserved original C1 from this conversation, 01.11.2026; not approved",
         "primary": "Ярик · основной лист (4 ракурса)",
-        "additional": [],
+        "additional": [
+          "projects/misc/references/yarik-expressions.png"
+        ],
         "public_image": "projects/misc/references/yarik.png",
         "full_image": "projects/misc/references/yarik.png"
       },
@@ -40,11 +42,8 @@
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "generated_partial",
-        "planned_reference_images": [
-          "projects/misc/references/yarik-expressions.png"
-        ],
-        "note": "Основной лист сохранён без перерисовки по команде продолжить остальные изображения. Дополнительные портреты/детали на прежнем листе отличаются от точной раскладки C1; это не приёмка владельца. C2 отдельно ещё не создан.",
+        "status": "generated",
+        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
         "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
         "width": 1536,
         "height": 1024,
@@ -61,6 +60,18 @@
           "scenes": [
             1
           ]
+        },
+        {
+          "path": "projects/misc/references/yarik-expressions.png",
+          "caption": "C2 · Ярик — эмоции (не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/misc/references/yarik.png"
+          ],
+          "sha256": "8a180692f505399f3e9bbf6900891ea174866c95b2a558c39a169f56ddb68c8d",
+          "scenes": [
+            1
+          ]
         }
       ]
     },
@@ -74,25 +85,47 @@
         1
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
         "primary": "Мама Лена · основной лист",
-        "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "additional": [
+          "projects/misc/references/mama-lena-expressions.png"
+        ],
+        "public_image": "projects/misc/references/mama-lena.png",
+        "full_image": "projects/misc/references/mama-lena.png"
       },
       "outfit_variant": "Женщина 34 лет: смуглая кожа, тёмные кудрявые волосы в высоком небрежном пучке, тёплые тёмные глаза, мимические морщинки, без очков; голубая джинсовая рубашка с закатанными рукавами поверх белой футболки, тёмные джинсы.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/mama-lena.png",
-          "projects/misc/references/mama-lena-expressions.png"
-        ],
-        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+        "status": "generated",
+        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/mama-lena.png",
+          "caption": "C3 · Мама Лена (не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "dd0dabce32f624d1c5c44ef34b2e44bc529243ba9a9e014f332dc595fe6ac746",
+          "scenes": [
+            1
+          ]
+        },
+        {
+          "path": "projects/misc/references/mama-lena-expressions.png",
+          "caption": "C4 · Мама Лена — эмоции (не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/misc/references/mama-lena.png"
+          ],
+          "sha256": "871448fbd13aa3d30e13d109071138e5e11547d429293a4e5e3407828f554a31",
+          "scenes": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "sonya",
@@ -104,25 +137,47 @@
         1
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
         "primary": "Соня · основной лист",
-        "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "additional": [
+          "projects/misc/references/sonya-expressions.png"
+        ],
+        "public_image": "projects/misc/references/sonya.png",
+        "full_image": "projects/misc/references/sonya.png"
       },
       "outfit_variant": "Девочка 12 лет, старшая сестра: светлая кожа с румянцем, длинные прямые светло-русые волосы в косе набок, серо-голубые глаза; сиреневая ветровка с значками на кармане, джинсы, белые кеды.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/sonya.png",
-          "projects/misc/references/sonya-expressions.png"
-        ],
-        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+        "status": "generated",
+        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/sonya.png",
+          "caption": "C5 · Соня (не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "baa2b1480a4e2f055ec2b041a6639ea69cb03cd9f15cb9b2693a35f4d2a95208",
+          "scenes": [
+            1
+          ]
+        },
+        {
+          "path": "projects/misc/references/sonya-expressions.png",
+          "caption": "C6 · Соня — эмоции (не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/misc/references/sonya.png"
+          ],
+          "sha256": "e913bf21fd4e42a65afec93e2884231b14765bee71e67add5272987777c7b553",
+          "scenes": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "anna-sergeevna",
@@ -134,24 +189,33 @@
         1
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
         "primary": "Анна Сергеевна · лист (ракурсы + эмоции)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/anna-sergeevna.png",
+        "full_image": "projects/misc/references/anna-sergeevna.png"
       },
       "outfit_variant": "Женщина около 48 лет, высокая: светлая кожа, короткое каре седого цвета, тёплые карие глаза, глубокие смешинки, без очков; сливовая льняная туника, бусы из дерева.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/anna-sergeevna.png"
-        ],
-        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+        "status": "generated",
+        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/anna-sergeevna.png",
+          "caption": "C7 · Анна Сергеевна (не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "83eaf80b554227a53d5bf3f0a28b393be1756903475adf86614c1f822f810d80",
+          "scenes": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "bublik",
@@ -163,24 +227,33 @@
         1
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "source": "Восстановлен оригинал, загруженный владельцем 02.11.2026; not_approved",
         "primary": "Бублик · лист (ракурсы + эмоции)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/bublik.png",
+        "full_image": "projects/misc/references/bublik.png"
       },
       "outfit_variant": "Пушистый кремово-абрикосовый пёс среднего размера, висячие уши, тёмно-коричневый нос, добрые тёмные глаза, небесно-голубая бандана.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/bublik.png"
-        ],
-        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+        "status": "generated",
+        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/bublik.png",
+          "caption": "C8 · Бублик (не одобрено)",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "49220a255aeb311a9ebe9cae8ab5025d8600f219c0fd1b5d5398604260e02559",
+          "scenes": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "varya",

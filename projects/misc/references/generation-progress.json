@@ -2,19 +2,31 @@
   "schema_version": 1,
   "project": "misc",
   "work_id": "MISC-S1-S2-REFERENCES",
-  "updated_at": "2026-11-01T10:39:50Z",
+  "updated_at": "2026-11-02T05:18:23.175Z",
   "task_sha256": "3cb16b97621e83d487f684c745d88d5affb05578d8ee759d2b896d91b957e537",
   "expected_images": 59,
   "existing_images_preserved": 1,
-  "new_valid_images_this_cycle": 0,
-  "remaining_images": 58,
-  "status": "incomplete_image_generation_mismatch",
+  "new_valid_images_this_cycle": 7,
+  "remaining_images": 51,
+  "status": "in_progress_owner_originals_recovered",
   "editorial_status": "not_approved",
-  "next_number": 2,
+  "next_number": 9,
   "source_warnings": [
     {
       "number": 19,
       "warning": "The provided input list names the kitchen as image 3, whereas the verbatim prompt says image 4. Source is preserved unchanged; resolve reference binding before generating this keyframe."
+    },
+    {
+      "numbers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "warning": "Original uploaded .png files contain JPEG-encoded data; preserved byte-for-byte for image identity, re-encode to actual PNG later. Editorial status stays not_approved."
     }
   ],
   "rejected_attempts": [
@@ -69,8 +81,12 @@
       "prompt_path": "projects/misc/references/yarik-expressions.prompt.txt",
       "prompt_sha256": "1b213aafa144c433c8eaad7f29d7fbcccc928eb1ebaaee7ec9edf3f7e6cd0228",
       "editorial_status": "not_approved",
-      "state": "pending",
-      "source": "GPT-TASK.md"
+      "state": "owner_original_uploaded_git",
+      "source": "Original file uploaded by owner, 2026-11-02",
+      "sha256": "8a180692f505399f3e9bbf6900891ea174866c95b2a558c39a169f56ddb68c8d",
+      "width": 1536,
+      "height": 1024,
+      "image_container_format": "jpeg"
     },
     {
       "number": 3,
@@ -82,8 +98,12 @@
       "prompt_path": "projects/misc/references/mama-lena.prompt.txt",
       "prompt_sha256": "6e46a3fa4bde1324ae4593f18d1a183e58aa90a3a3b676263807d960d4bc5bf2",
       "editorial_status": "not_approved",
-      "state": "pending",
-      "source": "GPT-TASK.md"
+      "state": "owner_original_uploaded_git",
+      "source": "Original file uploaded by owner, 2026-11-02",
+      "sha256": "dd0dabce32f624d1c5c44ef34b2e44bc529243ba9a9e014f332dc595fe6ac746",
+      "width": 1536,
+      "height": 1024,
+      "image_container_format": "jpeg"
     },
     {
       "number": 4,
@@ -95,8 +115,12 @@
       "prompt_path": "projects/misc/references/mama-lena-expressions.prompt.txt",
       "prompt_sha256": "bc9a21ff4c8eb946d91860b1eca0bc83ab2508c2493a26a2a3b088117e2b3d57",
       "editorial_status": "not_approved",
-      "state": "pending",
-      "source": "GPT-TASK.md"
+      "state": "owner_original_uploaded_git",
+      "source": "Original file uploaded by owner, 2026-11-02",
+      "sha256": "871448fbd13aa3d30e13d109071138e5e11547d429293a4e5e3407828f554a31",
+      "width": 1536,
+      "height": 1024,
+      "image_container_format": "jpeg"
     },
     {
       "number": 5,
@@ -108,8 +132,12 @@
       "prompt_path": "projects/misc/references/sonya.prompt.txt",
       "prompt_sha256": "136880d0756ce76c9e3a8ee890e83acb90e141ef0c40f70033f05f4e18383d57",
       "editorial_status": "not_approved",
-      "state": "pending",
-      "source": "GPT-TASK.md"
+      "state": "owner_original_uploaded_git",
+      "source": "Original file uploaded by owner, 2026-11-02",
+      "sha256": "baa2b1480a4e2f055ec2b041a6639ea69cb03cd9f15cb9b2693a35f4d2a95208",
+      "width": 1536,
+      "height": 1024,
+      "image_container_format": "jpeg"
     },
     {
       "number": 6,
@@ -121,8 +149,12 @@
       "prompt_path": "projects/misc/references/sonya-expressions.prompt.txt",
       "prompt_sha256": "08cff1ae2db9d4ceca50b665c0c49734ec524f8cfda338a9f716ff74cfc903dc",
       "editorial_status": "not_approved",
-      "state": "pending",
-      "source": "GPT-TASK.md"
+      "state": "owner_original_uploaded_git",
+      "source": "Original file uploaded by owner, 2026-11-02",
+      "sha256": "e913bf21fd4e42a65afec93e2884231b14765bee71e67add5272987777c7b553",
+      "width": 1536,
+      "height": 1024,
+      "image_container_format": "jpeg"
     },
     {
       "number": 7,
@@ -134,8 +166,12 @@
       "prompt_path": "projects/misc/references/anna-sergeevna.prompt.txt",
       "prompt_sha256": "91b802eb549ba1516b916b2e8fb07d1c562e6861864ff59acf49cdcafb862a12",
       "editorial_status": "not_approved",
-      "state": "pending",
-      "source": "GPT-TASK.md"
+      "state": "owner_original_uploaded_git",
+      "source": "Original file uploaded by owner, 2026-11-02",
+      "sha256": "83eaf80b554227a53d5bf3f0a28b393be1756903475adf86614c1f822f810d80",
+      "width": 1536,
+      "height": 1024,
+      "image_container_format": "jpeg"
     },
     {
       "number": 8,
@@ -147,8 +183,12 @@
       "prompt_path": "projects/misc/references/bublik.prompt.txt",
       "prompt_sha256": "90583cb031492c6ed53b496bc9d30560414d0f5eaa276338d9532068a52706e0",
       "editorial_status": "not_approved",
-      "state": "pending",
-      "source": "GPT-TASK.md"
+      "state": "owner_original_uploaded_git",
+      "source": "Original file uploaded by owner, 2026-11-02",
+      "sha256": "49220a255aeb311a9ebe9cae8ab5025d8600f219c0fd1b5d5398604260e02559",
+      "width": 1536,
+      "height": 1024,
+      "image_container_format": "jpeg"
     },
     {
       "number": 9,

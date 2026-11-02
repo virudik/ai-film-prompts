@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project": "misc",
-  "updated_at": "2026-11-01T10:45:42Z",
-  "generated_image_count": 1,
+  "updated_at": "2026-11-02T05:18:23.175Z",
+  "generated_image_count": 8,
   "generated_orphans": [],
   "images": [
     {
@@ -14,6 +14,181 @@
         "character_identity"
       ],
       "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "path": "projects/misc/references/yarik-expressions.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_expressions"
+      ],
+      "sha256": "8a180692f505399f3e9bbf6900891ea174866c95b2a558c39a169f56ddb68c8d",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "path": "projects/misc/references/mama-lena.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_identity"
+      ],
+      "sha256": "dd0dabce32f624d1c5c44ef34b2e44bc529243ba9a9e014f332dc595fe6ac746",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "path": "projects/misc/references/mama-lena-expressions.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_expressions"
+      ],
+      "sha256": "871448fbd13aa3d30e13d109071138e5e11547d429293a4e5e3407828f554a31",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "path": "projects/misc/references/sonya.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_identity"
+      ],
+      "sha256": "baa2b1480a4e2f055ec2b041a6639ea69cb03cd9f15cb9b2693a35f4d2a95208",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "path": "projects/misc/references/sonya-expressions.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_expressions"
+      ],
+      "sha256": "e913bf21fd4e42a65afec93e2884231b14765bee71e67add5272987777c7b553",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "path": "projects/misc/references/anna-sergeevna.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_identity"
+      ],
+      "sha256": "83eaf80b554227a53d5bf3f0a28b393be1756903475adf86614c1f822f810d80",
+      "editorial_status": "not_approved",
+      "subscenes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "path": "projects/misc/references/bublik.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "character_identity"
+      ],
+      "sha256": "49220a255aeb311a9ebe9cae8ab5025d8600f219c0fd1b5d5398604260e02559",
       "editorial_status": "not_approved",
       "subscenes": [
         "A1",

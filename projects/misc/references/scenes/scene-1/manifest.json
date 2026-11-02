@@ -3,11 +3,11 @@
   "project": "misc",
   "scene": 1,
   "title": "Тихий маяк",
-  "updated_at": "2026-11-01T10:45:42Z",
+  "updated_at": "2026-11-02T05:18:23.175Z",
   "status": "references_partial",
   "editorial_status": "not_approved",
   "expected_image_count": 26,
-  "generated_image_count": 1,
+  "generated_image_count": 8,
   "references": [
     {
       "tag": "C1",
@@ -18,58 +18,86 @@
       "height": 1024,
       "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/yarik.prompt.txt"
+    },
+    {
+      "tag": "C2",
+      "role": "character_expressions",
+      "path": "projects/misc/references/yarik-expressions.png",
+      "sha256": "8a180692f505399f3e9bbf6900891ea174866c95b2a558c39a169f56ddb68c8d",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/yarik-expressions.prompt.txt",
+      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+    },
+    {
+      "tag": "C3",
+      "role": "character_identity",
+      "path": "projects/misc/references/mama-lena.png",
+      "sha256": "dd0dabce32f624d1c5c44ef34b2e44bc529243ba9a9e014f332dc595fe6ac746",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/mama-lena.prompt.txt",
+      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+    },
+    {
+      "tag": "C4",
+      "role": "character_expressions",
+      "path": "projects/misc/references/mama-lena-expressions.png",
+      "sha256": "871448fbd13aa3d30e13d109071138e5e11547d429293a4e5e3407828f554a31",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/mama-lena-expressions.prompt.txt",
+      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+    },
+    {
+      "tag": "C5",
+      "role": "character_identity",
+      "path": "projects/misc/references/sonya.png",
+      "sha256": "baa2b1480a4e2f055ec2b041a6639ea69cb03cd9f15cb9b2693a35f4d2a95208",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/sonya.prompt.txt",
+      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+    },
+    {
+      "tag": "C6",
+      "role": "character_expressions",
+      "path": "projects/misc/references/sonya-expressions.png",
+      "sha256": "e913bf21fd4e42a65afec93e2884231b14765bee71e67add5272987777c7b553",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/sonya-expressions.prompt.txt",
+      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+    },
+    {
+      "tag": "C7",
+      "role": "character_identity",
+      "path": "projects/misc/references/anna-sergeevna.png",
+      "sha256": "83eaf80b554227a53d5bf3f0a28b393be1756903475adf86614c1f822f810d80",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/anna-sergeevna.prompt.txt",
+      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+    },
+    {
+      "tag": "C8",
+      "role": "character_identity",
+      "path": "projects/misc/references/bublik.png",
+      "sha256": "49220a255aeb311a9ebe9cae8ab5025d8600f219c0fd1b5d5398604260e02559",
+      "width": 1536,
+      "height": 1024,
+      "editorial_status": "not_approved",
+      "prompt_path": "projects/misc/references/bublik.prompt.txt",
+      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
     }
   ],
   "planned_references": [
-    {
-      "number": 2,
-      "tag": "C2",
-      "path": "projects/misc/references/yarik-expressions.png",
-      "prompt_path": "projects/misc/references/yarik-expressions.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 3,
-      "tag": "C3",
-      "path": "projects/misc/references/mama-lena.png",
-      "prompt_path": "projects/misc/references/mama-lena.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 4,
-      "tag": "C4",
-      "path": "projects/misc/references/mama-lena-expressions.png",
-      "prompt_path": "projects/misc/references/mama-lena-expressions.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 5,
-      "tag": "C5",
-      "path": "projects/misc/references/sonya.png",
-      "prompt_path": "projects/misc/references/sonya.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 6,
-      "tag": "C6",
-      "path": "projects/misc/references/sonya-expressions.png",
-      "prompt_path": "projects/misc/references/sonya-expressions.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 7,
-      "tag": "C7",
-      "path": "projects/misc/references/anna-sergeevna.png",
-      "prompt_path": "projects/misc/references/anna-sergeevna.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 8,
-      "tag": "C8",
-      "path": "projects/misc/references/bublik.png",
-      "prompt_path": "projects/misc/references/bublik.prompt.txt",
-      "status": "pending"
-    },
     {
       "number": 9,
       "tag": "C9",
