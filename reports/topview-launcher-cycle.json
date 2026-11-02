@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "source": "ChatGPT scheduled Work HH:55",
+  "automation_id": "6acae6ab433481919e88665c520b8ef2",
+  "execution_instance_id": "595ced79-1cc1-447c-a734-728444c271c8",
+  "run_id": "46ebe795-7c84-8323-9e0d-025b10d45aa5",
+  "run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-02T03:55:00Z; started_at 2026-11-02T03:59:24.984136Z",
+  "started_at": "2026-11-02T03:59:24.984136Z",
+  "receipt_started_at": "2026-11-02T04:04:05.094Z",
+  "source_head": "ccb95af575b8ac04421bb5917d0341c0bcdd348c",
+  "route_generation": 2,
+  "phase": "started",
+  "stage": "started",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
+  "selected_item": null,
+  "task_ids": [],
+  "new_submissions": 0,
+  "outcome": null,
+  "blocker": null,
+  "retryable": true,
+  "lease": {
+    "holder": "chatgpt:work:595ced79-1cc1-447c-a734-728444c271c8",
+    "acquired_at": "2026-11-02T04:03:52.276Z",
+    "expires_at": "2026-11-02T04:18:52.276Z"
+  }
+}
