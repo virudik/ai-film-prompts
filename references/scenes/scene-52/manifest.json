@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-11-01T00:33:24+00:00",
+  "updated_at": "2026-11-02T08:13:00Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -965,15 +965,37 @@
       "canonical_prompt_sha256": "e0ddcdfe3d8bbab38ce91e27c953fb752e42a4250c734de09a6b1766079793ed",
       "normalized_prompt_sha256": "562275cad8eacd90c005f076d897496f2662524b59ce826719ef502352f3cf4a",
       "characters": 4503,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "blocked_pending_full_continuity_qc",
       "slots": [
         {
           "slot": "@Video1",
           "required": true,
-          "input_status": "pending_actual_result",
+          "input_status": "required_not_available",
           "canonical_role": "previous_new_part_end",
           "source_item_id": "S52-R2-SEED20-P1",
-          "planned_path": "references/scenes/scene-52/S52-R2-P1-last3s.mp4"
+          "planned_path": "references/scenes/scene-52/S52-R2-P1-last3s.mp4",
+          "filename": "S52-R2-P1-last3s.mp4",
+          "source_task_id": "c65c30d8cbe14e9eadec886276e62471",
+          "source_original_sha256": "302ffec3870d215da01b15720ca41a417927b052601da1fc7174ffcd2520f948",
+          "source_original_bytes": 11718521,
+          "source_original_drive_file_id": "1X_o9xHwnNOUqBiwdSZn4Ow3ZxjPF7f8E",
+          "sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+          "md5": "a3a33ebfb8d41117a614d70eea253a11",
+          "bytes": 1916734,
+          "duration_seconds": 3,
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "frames": 72,
+          "source_start_frame_zero_based": 289,
+          "source_end_frame_exclusive": 361,
+          "source_start_seconds": 12.041666667,
+          "source_end_seconds": 15.041666667,
+          "derivation": "Exact real last72 frames from Topview source; video select frames 289:361 with reset timestamps and matching source audio trim 12.041666667:15.041666667; H.264 CRF16/AAC192k, faststart.",
+          "drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
+          "drive_url": "https://drive.google.com/file/d/1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1/view?usp=drivesdk",
+          "qc_status": "provisional_sampled_visual_audio_not_listened",
+          "qc_report": "references/scenes/scene-52/S52-R2-P1-continuity.json"
         },
         {
           "slot": "@Image1",
@@ -1373,10 +1395,32 @@
     {
       "slot": "@Video1",
       "required": true,
-      "input_status": "pending_actual_result",
+      "input_status": "required_not_available",
       "canonical_role": "previous_new_part_end",
       "source_item_id": "S52-R2-SEED20-P1",
-      "planned_path": "references/scenes/scene-52/S52-R2-P1-last3s.mp4"
+      "planned_path": "references/scenes/scene-52/S52-R2-P1-last3s.mp4",
+      "filename": "S52-R2-P1-last3s.mp4",
+      "source_task_id": "c65c30d8cbe14e9eadec886276e62471",
+      "source_original_sha256": "302ffec3870d215da01b15720ca41a417927b052601da1fc7174ffcd2520f948",
+      "source_original_bytes": 11718521,
+      "source_original_drive_file_id": "1X_o9xHwnNOUqBiwdSZn4Ow3ZxjPF7f8E",
+      "sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+      "md5": "a3a33ebfb8d41117a614d70eea253a11",
+      "bytes": 1916734,
+      "duration_seconds": 3,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 72,
+      "source_start_frame_zero_based": 289,
+      "source_end_frame_exclusive": 361,
+      "source_start_seconds": 12.041666667,
+      "source_end_seconds": 15.041666667,
+      "derivation": "Exact real last72 frames from Topview source; video select frames 289:361 with reset timestamps and matching source audio trim 12.041666667:15.041666667; H.264 CRF16/AAC192k, faststart.",
+      "drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
+      "drive_url": "https://drive.google.com/file/d/1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1/view?usp=drivesdk",
+      "qc_status": "provisional_sampled_visual_audio_not_listened",
+      "qc_report": "references/scenes/scene-52/S52-R2-P1-continuity.json"
     },
     {
       "slot": "@Video1",
@@ -1808,5 +1852,14 @@
       "sha256": "548388e01ccdd1b98f89284ed23fb5c00718656d655732a65308c7886b70218b",
       "role": "Stitch blue fur/red harness in shared street frame"
     }
+  },
+  "actual_s52_r2_p1_continuity": {
+    "source_item_id": "S52-R2-SEED20-P1",
+    "source_task_id": "c65c30d8cbe14e9eadec886276e62471",
+    "derivative_sha256": "d9c0d470a9f916363be22830a70aa2fedf9c03609028f84a9ac1fff78da2bb78",
+    "drive_file_id": "1tk3CmA3kG6zEJA1hcjKdDUluM4xTdRv1",
+    "qc_report": "references/scenes/scene-52/S52-R2-P1-continuity.json",
+    "qc_status": "provisional_usable_for_continuity_pending_full_continuous_audio_qc",
+    "launch_ready": false
   }
 }
