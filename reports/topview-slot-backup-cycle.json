@@ -9,10 +9,10 @@
   "receipt_started_at": "2026-11-02T18:14:01.201Z",
   "source_head": "65ef592cb18a632bd483ce1d2cc56666a1e089ff",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "complete_read_only_scan",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Topview connector live unfiltered all-board/all-page read-only",
-  "scan_scope": "14/14 boards;20/20 nonempty or first pages; 1010 tasks",
+  "scan_scope": "14/14 boards;20/20 pages (pageSize 100);1010 tasks",
   "scan_complete": true,
   "scan_checked_at": "2026-11-02T18:09:54.404Z",
   "occupied_slots": 6,
@@ -39,7 +39,7 @@
     "025955aad2cf494da2b4104d26c36ed5",
     "0de1f663432646d294f409a22e20a26e"
   ],
-  "all_submitted_queue_tasks_verified": null,
+  "all_submitted_queue_tasks_verified": 13,
   "unresolved_claim_states": [],
   "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
   "task_map_sha256": "108d49112f965ba4603fc96672d814c8bc3018c45c4b502e9f0a55e2dbc5961b",
@@ -52,7 +52,7 @@
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "Topview connector read-only; TinyFish not run, no Create",
@@ -86,8 +86,10 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T18:14:01.201Z",
+  "updated_at": "2026-11-02T18:15:32.522Z",
   "checked_at": "2026-11-02T18:09:54.404Z",
-  "finished_at": null,
-  "lease_release_required": true
+  "finished_at": "2026-11-02T18:15:32.522Z",
+  "lease_release_required": true,
+  "verified_source_head_before_final": "fe58edb28316b53fbb8e77522247422c413e45b3",
+  "notes": "All 13 canonical submitted IDs independently matched directly to My First Board Topview task records; all Unlimited and creditsCost0. All 6 physical video slots occupied in fresh unfiltered full-board scan. No browser run, no claim, no Create."
 }
