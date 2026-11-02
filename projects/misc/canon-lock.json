@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:cd1fced2-bbe9-4aa9-b4ab-9eff46c35740",
-  "task": "Разное: смета WAN3/Seedance 2/2.5, московская стоимость заказа, сайт и checkpoint",
-  "acquired_at": "2026-11-02T10:59:12.838Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T11:18:05.594Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:20261102-customer-pricing-revision",
+  "task": "Разное: корректировка PDF-сметы Grok, цены с риском ретейков, публичный раздел, D7 checkpoint",
+  "acquired_at": "2026-11-02T11:47:24.225Z",
+  "expires_at": "2026-11-02T12:22:24.225Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
