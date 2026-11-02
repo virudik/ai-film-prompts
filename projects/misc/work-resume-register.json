@@ -1,34 +1,46 @@
 {
   "schema_version": 1,
   "project": "misc",
-  "last_updated_at": "2026-11-02T07:15:22Z",
+  "last_updated_at": "2026-11-02T11:04:47.992Z",
   "active_work": [
     {
       "work_id": "MISC-S1-S2-REFERENCES",
       "project": "misc",
       "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
       "status": "awaiting_editorial_review",
-      "updated_at": "2026-11-02T07:15:22Z",
+      "updated_at": "2026-11-02T11:04:47.992Z",
       "completed": [
         "Прежний C1 сохранён, 1/59; 59 исходных промптов сохранены дословно; привязки C1 опубликованы без приёмки.",
         "02.11: проверены GitHub inventory, Library и соответствие загруженного GPT-TASK каноническим байтам. C1–C7 исключены из повторной генерации до восстановления прежних оригиналов. Три новых неподходящих коллажа отклонены, новых пригодных PNG 0; мастер и очередь сохранены.",
         "02.11: C2–C8, 7 оригиналов от владельца, загружены в GitHub; C1 сохранён, суммарно 8/59. Ожидается PNG-перекодировка и проверка Pages.",
-        "2026-11-02T07:15:22Z: 59/59 original references recovered and indexed; no rerenders, scene draft remains."
+        "2026-11-02T07:15:22Z: 59/59 original references recovered and indexed; no rerenders, scene draft remains.",
+        "02.11.2026: смета WAN3/Seedance2/2.5 по реальным Topview quotes + рублёвый пересчёт Ultra Annual и рынок Москвы подготовлена, ссылка в project master и reports/commission-pricing-2026-11-02.md. Источник Reel 125,18с изучен; без платных запусков."
       ],
-      "next_action": "Owner image QC/approval for the two draft scenes; no auto approvals.",
+      "next_action": "Владелец: визуальный QC 59/59 (ещё not_approved). Клиент: выбрать упрощённый 45–60с/один 120с/оба 120с и согласовать сценарий, стоимость и сроки. До нового явного разрешения видео не запускать.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-02T07:15:22Z",
-        "last_completed": "59 PNG published, 26 in scene 1, 33 in scene 2; status not_approved.",
-        "next_action": "Owner editorial review.",
+        "verified_at": "2026-11-02T11:04:47.992Z",
+        "last_completed": "59/59 референсов готовы, коммерческая смета моделей и предложения заказчику добавлена в мастер; изображения не одобрены, видео DRAFT, запусков нет.",
+        "next_action": "Владелец: визуальный QC 59/59 (ещё not_approved). Клиент: выбрать упрощённый 45–60с/один 120с/оба 120с и согласовать сценарий, стоимость и сроки. До нового явного разрешения видео не запускать.",
         "checkpoint": {
           "file": "projects/misc/reports/current-work-checkpoint.md",
-          "sha256": "89732bd77c326b531825222caa9e025387b5b4df95a7bb4f489b41fda620b71d"
+          "anchor": "# Разное — смета платных генераций и оценка заказов",
+          "sha256": "94678eb8a32247b7752e176e7cb9b225e4a137470730fa5d0affc45ab89eda73"
         },
         "read_next": [
-          "projects/misc/references/usage-index.json",
-          "projects/misc/references/scenes/scene-1/manifest.json",
-          "projects/misc/references/scenes/scene-2/manifest.json"
+          "projects/misc/reports/commission-pricing-2026-11-02.md",
+          "projects/misc/references/generation-progress.json",
+          "projects/misc/video-prompts.md"
+        ],
+        "evidence": [
+          {
+            "file": "projects/misc/reports/commission-pricing-2026-11-02.md",
+            "type": "cost_basis"
+          },
+          {
+            "file": "projects/misc/references/generation-progress.json",
+            "type": "59_of_59"
+          }
         ]
       },
       "recovery_history": [
@@ -70,6 +82,6 @@
     "project": "misc",
     "work_id": "MISC-S1-S2-REFERENCES",
     "set_at": "2026-11-01T10:45:42Z",
-    "reason": "Прямая команда владельца: закончить изображения сцен 1 и 2; сохранён фактический незавершённый шаг."
+    "reason": "59/59 референсов сохранены; финансовая оценка подготовлена 02.11; ждём художественного QC и выбора клиентом объёма заказа."
   }
 }
