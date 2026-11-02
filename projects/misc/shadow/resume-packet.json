@@ -3,14 +3,15 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T11:49:34+00:00",
-  "source_head": "0cab9879da15a7d11836bbf7e0f9c738bf81e209",
-  "source_fingerprint": "daa78b3e98286ad6173e2a7b43ff6090d48f7b36a474768c8fbf4ca3e12f12ba",
+  "checked_at": "2026-11-02T11:50:29+00:00",
+  "source_head": "cbc273f7a2e0a9bac0bd826033bce52393047381",
+  "source_fingerprint": "3d685a0bc4b6f52d627be254d2a6d5083fcd8da84edf1d96c4e972566a9ca9b5",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
+    "project master/status mismatch: misc",
     "recovery evidence changed: projects/misc/reports/commission-pricing-2026-11-02.md"
   ],
   "selected_work": null,
@@ -213,8 +214,8 @@
     },
     {
       "file": "projects/misc/video-prompts.md",
-      "sha256": "3972fc67f33131ab217d8dde8869059eddbf850010c47748b6f285cf0a7f6e3a",
-      "bytes": 284589
+      "sha256": "36a7d1617322d7057eccf8c4487e3f70abe9bd3c9759b962f7582a060a617b5f",
+      "bytes": 287467
     },
     {
       "file": "projects/misc/work-resume-register.json",
@@ -242,5 +243,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 6548
+  "packet_bytes": 6587
 }
