@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-10-28T14:28:05.167Z",
+  "state": "held",
+  "holder": "chatgpt:work:9818127f-5f43-4498-8d07-084a2ff7c463",
+  "task": "Owner: separate Roscosmos and Raznoe paths, registries and compatible links",
+  "acquired_at": "2026-11-02T16:38:39.989044+00:00",
+  "expires_at": "2026-11-02T17:23:39.989044+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }

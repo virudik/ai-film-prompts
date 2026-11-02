@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:c8e874c0-1bea-4d8d-9f2f-f773e8aa5d21",
-  "task": "Разное: сохранить новый запрос владельца на исправление внешности персонажей, передача Work, без публикации изображений",
-  "acquired_at": "2026-11-02T16:06:29.691Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T16:10:17.808Z",
+  "state": "held",
+  "holder": "chatgpt:work:9818127f-5f43-4498-8d07-084a2ff7c463",
+  "task": "Owner: separate Roscosmos and Raznoe paths, registries and compatible links",
+  "acquired_at": "2026-11-02T16:38:39.989044+00:00",
+  "expires_at": "2026-11-02T17:23:39.989044+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
