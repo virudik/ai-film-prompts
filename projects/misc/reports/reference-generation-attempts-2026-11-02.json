@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "project": "misc",
+  "work_id": "MISC-S1-S2-REFERENCES",
+  "checked_at": "2026-11-02T03:50:22Z",
+  "source_head": "230c33e10a5cb46d60fc393fae9a8c4243a53368",
+  "owner_request": "Продолжать недостающие изображения партиями по 10 до завершения, затем опубликовать; ранее нарисованное не повторять.",
+  "task": {
+    "path": "projects/misc/references/GPT-TASK.md",
+    "bytes": 87015,
+    "sha256": "3cb16b97621e83d487f684c745d88d5affb05578d8ee759d2b896d91b957e537",
+    "git_blob": "90d9ecb9983f2320a898a5f75f77215105da2b85",
+    "matches_uploaded_file": true
+  },
+  "inventory": {
+    "canonical_saved_count_from_existing_register": 1,
+    "canonical_saved_numbers": [
+      1
+    ],
+    "reported_in_previous_chat_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "number_7": "Earlier chat announces C7; actual output/bytes are not available here. Do not infer completed generation from the announcement.",
+    "originals_recovered_this_cycle": 0,
+    "previous_images_visually_verified_this_cycle": 0,
+    "do_not_regenerate_pending_recovery": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "library_image_listing": "No results; not proof that original images do not exist.",
+    "library_image_search": "No results; not proof of absence.",
+    "shared_chat_fetch": "Cache miss; original images not recovered."
+  },
+  "generation": {
+    "intended_first_batch_numbers": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "returned_files": 3,
+    "new_valid_images": 0,
+    "state": "blocked_repeated_output_mismatch",
+    "reason": "Three outputs are wide multi-scene collages, not the requested separate sheets/locations. They fail the requested content/layout and cannot be counted as ten completed references. Cropping cannot correct the content mismatch.",
+    "technical_root_cause": "not_established",
+    "rejected_gen_ids": [
+      "1d416d12-39f9-4986-a4bb-7c98a2be5ee9",
+      "8c6b4eea-fa02-498d-b128-9347912d2f5f",
+      "c53cd8f9-f196-4d1d-b4f8-ca5312a56e00"
+    ],
+    "attempt_files": [
+      {
+        "file": "a_wide_clean_compilation_portfolio_image_like_a_s.png",
+        "sha256": "b1522b07318418a3de858ef16bc71ed399a44bc19f8d4bf3ac9514da5d517252",
+        "width": 1672,
+        "height": 940,
+        "state": "rejected_not_a_requested_reference",
+        "canonical_upload": false
+      },
+      {
+        "file": "a_wide_composite_collage_image_with_multiple_3d_an.png",
+        "sha256": "112b7a4ad2dd9c6da5e1437807c9bc6b2f44a8acb14fde32982fa15cdac0a235",
+        "width": 1672,
+        "height": 941,
+        "state": "rejected_not_a_requested_reference",
+        "canonical_upload": false
+      },
+      {
+        "file": "a_wide_composite_illustration_panel_like_a_10_ima.png",
+        "sha256": "823976e4e3d9936009530f1cb19b58b803e13c1e949d6ca00584f69f5e2cfcba",
+        "width": 1672,
+        "height": 941,
+        "state": "rejected_not_a_requested_reference",
+        "canonical_upload": false
+      }
+    ]
+  },
+  "publication": {
+    "new_images_uploaded": 0,
+    "master_changed": false,
+    "video_queue_changed": false,
+    "editorial_approvals": 0,
+    "scene_state": "DRAFT preserved",
+    "prior_prompts_and_C1": "preserved"
+  },
+  "next_action": "Recover original C2-C6 and resolve C7 without redrawing; check fresh inventory. Continue only missing separate images from number 8 after a single-image generation matches its exact prompt. Save verified originals and publish actual files only; no collage substitutes.",
+  "takeover": "No successful complete takeover or full preflight is claimed; this is a factual blocked-stage checkpoint."
+}
