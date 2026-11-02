@@ -3,46 +3,17 @@
   "generator": "continue-2.0",
   "project": "misc",
   "project_name": "Разное",
-  "checked_at": "2026-11-02T11:45:26+00:00",
-  "source_head": "82b3e3c125e0e31f8b5b37d4f534b5c802e07276",
-  "source_fingerprint": "9e63453ec0ada731806e6183399467b4cf92b88f24e8a8d25883c58d6d2a9570",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-02T11:49:34+00:00",
+  "source_head": "0cab9879da15a7d11836bbf7e0f9c738bf81e209",
+  "source_fingerprint": "daa78b3e98286ad6173e2a7b43ff6090d48f7b36a474768c8fbf4ca3e12f12ba",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "MISC-S1-S2-REFERENCES",
-    "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
-    "status": "awaiting_editorial_review",
-    "last_completed": "Все 59/59 референсов сохранены; смета платных генераций и московская стоимость заказа опубликованы в проектном master и отчёте; видео и редакционная приёмка пока не выполнялись.",
-    "next_action": "Владелец: визуальный QC 59/59 (ещё not_approved). Клиент: выбрать упрощённый 45–60с/один 120с/оба 120с и согласовать сценарий, стоимость и сроки. До нового явного разрешения видео не запускать.",
-    "verified_at": "2026-11-02T11:13:38.407Z",
-    "blockers": [
-      "Ожидается художественный QC владельца и выбор клиентом объёма заказа; видео запускать нельзя."
-    ],
-    "evidence": [
-      {
-        "file": "projects/misc/reports/commission-pricing-2026-11-02.md",
-        "sha256": "cdc838601bb4c2a7c29b04c80223b213b365c4bae3fd013927cf74a78ac76519"
-      },
-      {
-        "file": "projects/misc/references/generation-progress.json",
-        "sha256": "124ea28b03e5b9d1b609c1ca8a93529fe72fad5b121ec0bb09dd679d3c8bfe68"
-      }
-    ],
-    "read_next": [
-      "projects/misc/reports/commission-pricing-2026-11-02.md",
-      "projects/misc/references/generation-progress.json",
-      "projects/misc/video-prompts.md",
-      "projects/misc/HANDOFF.md"
-    ],
-    "checkpoint": {
-      "file": "projects/misc/reports/current-work-checkpoint.md",
-      "anchor": "# Разное — смета платных генераций и оценка заказов · 2026-11-02T11:03:44.342Z",
-      "sha256": "6df208b6a77c62b99176f19ce0a9757301c59dfe949ff2699353bbaf0ea228a2"
-    }
-  },
+  "reasons": [
+    "recovery evidence changed: projects/misc/reports/commission-pricing-2026-11-02.md"
+  ],
+  "selected_work": null,
   "checkpoint_text": "# Разное — смета платных генераций и оценка заказов · 2026-11-02T11:03:44.342Z\n\nwork_id: MISC-S1-S2-REFERENCES\nПроект: misc («Разное»). Основа: пользовательский Instagram Reel Db5KV8ZNQjP (загруженный MP4, 125,18 с, 1440×2560, 9:16), две самостоятельные сцены по 120 секунд (всего 240 с), 24 исходных промпта. Референсы 59/59 сохранены и доступны; все not_approved. Видеозапусков нет.\nПроверено Topview (quote, не submit) 02.11.2026, image_to_video и text_to_video, 720p 9:16: Wan 3.0 12 кредитов/30 с; Seedance 2.0 15 кредитов/15 с; Seedance 2.5 36 кредитов/30 с. Один фильм: 48/120/144 кредитов; два фильма: 96/240/288. Условная цена $0,10/кредит по Ultra Annual и курс ЦБ 80,5573 ₽/USD: за обе истории приблизительно 773/1933/2320 ₽ до переделок; дополнительно ×2–3 на попытки. Не смешивать стоимость кредитов со стоимостью готового заказа.\nКоммерческий ориентир Москвы: упрощённый 45–60 с — 20–35 тыс. ₽ (цена предложения 29 тыс.); один ≈120 с — 40–70 тыс. ₽ (49 тыс.); оба ≈120 с — 75–120 тыс. ₽ (89 тыс.). Полная смета с первоисточниками: `projects/misc/reports/commission-pricing-2026-11-02.md`, краткая таблица — в `projects/misc/video-prompts.md` раздел «Смета видеогенераций и цена заказа».\nБезопасные границы: никаких платных генераций, новых сцен, одобрений или перезапусков; все изображения not_approved, видео DRAFT. Исходный чужой ролик нельзя повторно публиковать как свой.\nБлижайшее открытое действие: владелец/клиент выбирает одну или обе истории и сокращённый 45–60 с или полный ≈120 с формат; далее художественный QC референсов и согласование брифа. После согласования — только подготовка финальных сценариев и производственного плана, не Create без отдельной команды.\n",
   "invariants": [
     {
@@ -136,12 +107,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/misc/reports/commission-pricing-2026-11-02.md",
-    "projects/misc/references/generation-progress.json",
-    "projects/misc/video-prompts.md",
-    "projects/misc/HANDOFF.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -236,16 +202,6 @@
       "bytes": 8608
     },
     {
-      "file": "projects/misc/references/generation-progress.json",
-      "sha256": "124ea28b03e5b9d1b609c1ca8a93529fe72fad5b121ec0bb09dd679d3c8bfe68",
-      "bytes": 61318
-    },
-    {
-      "file": "projects/misc/reports/commission-pricing-2026-11-02.md",
-      "sha256": "cdc838601bb4c2a7c29b04c80223b213b365c4bae3fd013927cf74a78ac76519",
-      "bytes": 13441
-    },
-    {
       "file": "projects/misc/reports/current-work-checkpoint.md",
       "sha256": "0cd2c567b8d1049f7720a795bd81f6016fbcc8678bb70b777d92ecf885e047ac",
       "bytes": 10263
@@ -286,5 +242,5 @@
       "bytes": 1350818
     }
   ],
-  "packet_bytes": 7371
+  "packet_bytes": 6548
 }
