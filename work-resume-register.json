@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-02T11:18:32.530Z",
+  "last_updated_at": "2026-11-02T11:57:15.074Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-02T11:18:32.530Z",
+      "updated_at": "2026-11-02T11:57:15.074Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
+        "14:55 MSK cycle 2 Nov: complete 14-board/23-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 queue task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B checked 23 GitHub notifications (all pages), processed 7 new messages: Projects status run 41434091622 was superseded by successful runs 41434546355 and later; one-shot misc recovery runs 41403028264/41403561936 were followed by commit 32581767322d86f420d700c2e627d6255453bab5 restoring 59 originals and the workflow was removed. No current failure or blind rerun; Gmail state unchanged.",
         "14:01 MSK cycle 2 Nov: complete 14-board/23-page scan found626 video tasks and6/6 active Unlimited0; no Create/retry. S59-P2 success/archive verified, but sampled QC shows it ends fully landed/parked, violating S59-P3 airborne-start contract; no continuity derivative or auto-rerender. Work restored as preferred executor from verified completed runtime+GUI+Unlimited0; ordinary and Grok remain enabled reserves, route generation3.",
         "13:20 MSK cycle 2 Nov: S59-P2 success freed one slot; after full 14-board video scan/reconciliation, S48-SEED20-P2 submitted once as task de8e44bb15d64dc7a4eb640d27a726e4, Seedance2.0/15s/720p/16:9/Video1+Image1–6/Unlimited0. Post-scan 626 videos and6/6 active; no retry/second click. Phases A/B not due; Work recovery not inferred while runtime remained in_progress.",
         "10:55 MSK check 2 Nov: complete 14-board/28-page Topview scan found 1009 tasks and 6/6 active Unlimited0 Seregius videos; all 12 queue task IDs reconciled, no Create/claim/retry. While full, archived actual S52-R2-P1 and prepared its exact real last72-frame/3s tail in Drive (SHA d9c0d470...); sampled visual QC only, audio not listened, so S52-R2-P2 remains blocked pending full continuous audio QC.",
@@ -26,7 +27,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under the current route generation and exact own lease/CAS. S59-P3 stays blocked: source P2 ends already landed; await owner decision or a suitable real airborne source, no synthetic reset.",
+      "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S59-P3 stays blocked pending owner decision or a suitable real airborne source; no synthetic reset.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -38,22 +39,22 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-11-02T07:04:01Z",
-        "cycle": "09:55 Europe/Moscow",
+        "checked_at": "2026-11-02T11:57:15.074Z",
+        "cycle": "14:55 Europe/Moscow",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-11-02T06:40:31Z",
+          "synced_at": "2026-11-02T11:42:54Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "warnings": 0
         },
-        "gmail_query": "after:2026/10/29 from:(notifications@github.com) \"ai-film-prompts\" -in:spam -in:trash",
-        "gmail_results": 68,
+        "gmail_query": "after:2026/11/01 from:(notifications@github.com) \"ai-film-prompts\" -in:spam -in:trash",
+        "gmail_results": 23,
         "gmail_all_pages": true,
         "gmail_message_ids": [
           "1a18e93c13a9dc57",
@@ -81,7 +82,14 @@
           "1a195f4f376c5d10",
           "1a195fad8c71d438",
           "1a19634998272676",
-          "1a1963964e78d287"
+          "1a1963964e78d287",
+          "1a19bf187bbfc4e7",
+          "1a19bb46bb15f086",
+          "1a19b18ea0b5170d",
+          "1a19b0ecb817a954",
+          "1a196f8e2df1f116",
+          "1a1958dbd2787120",
+          "1a1957b4b1eb40c8"
         ],
         "github_failed_run_ids": [
           41126216231,
@@ -105,33 +113,42 @@
           41283849947,
           41283865148,
           41288495883,
-          41288911552
+          41288911552,
+          41434091622,
+          41403561936,
+          41403028264
         ],
-        "root_cause": "Historical warning notifications, transient instruction-mirror/project-status drift, one-shot guarded workflows, and overlapping Pages deployments.",
+        "root_cause": "Projects status run 41434091622 failed on a transient invalid misc revision/status line and concurrent main movement; one-shot misc recovery runs 41403028264/41403561936 hit a missing test dependency on the first attempt and publication races on the second.",
         "current_verification": {
-          "validate_review_ledger": "pass: 62 rows; 29 active scenes covered",
-          "launcher_policy_success_run": 41222154902,
-          "grok_recovery_success_run": 41255981754,
-          "canon_health_success_run": 41403068883,
-          "canonical_sync_success_run": 41402629615,
-          "pages_success_run": 41402471429,
-          "instruction_sync": {
-            "health": "ok",
-            "all_match": true,
-            "checked_at": "2026-11-01T10:29:19.734Z"
+          "projects_status_failure": {
+            "failed_run": 41434091622,
+            "failed_head": "f7766ad0c5e562aa9e7c9f65dc43b29e6f5855d0",
+            "later_success_runs": [
+              41434546355,
+              41435221071,
+              41435754108,
+              41439572320,
+              41439796882,
+              41439937143
+            ],
+            "current_health": "ok"
           },
-          "one_shot_workflows_removed": [
-            "s48p2-ready-once.yml",
-            "grok-review-publish-once.yml",
-            "grok-review-publish-recovery-once.yml"
-          ],
-          "integration_same_workflow_success_after_41283849947": false,
-          "integration_current_state": "resolved evidence: instruction mirrors all_match, project-status health ok, canon-health ok"
+          "misc_recovery_failures": {
+            "failed_runs": [
+              41403028264,
+              41403561936
+            ],
+            "restored_commit": "32581767322d86f420d700c2e627d6255453bab5",
+            "restored_result": "59/59 existing scene references restored from originals, zero new generations",
+            "workflow_present_on_main": false
+          },
+          "issue_comment_messages": "informational/stale signals only; no new command",
+          "current_failure": false
         },
         "result": "No current failure and no blind rerun. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-02T11:01:05.094Z",
+        "checked_at": "2026-11-02T11:54:03.338Z",
         "boards": 14,
         "pages": 23,
         "page_size": 50,
@@ -194,7 +211,7 @@
         "summary": "Relay #170: S42-P2 success; S61-P1 submitted c72c1ab4524e4f2f9d3a0272474f788a, Seedance 2.0 15s 720p Unlimited0. 6/6 active after submission. Next: monitor task IDs; fresh full scan before any next claim."
       },
       "last_observed_topview": {
-        "checked_at": "2026-11-02T11:01:05.094Z",
+        "checked_at": "2026-11-02T11:54:03.338Z",
         "boards": 14,
         "pages": 23,
         "video_tasks": 626,
@@ -252,9 +269,9 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-02T11:18:32.530Z",
-        "last_completed": "Full scan6/6; S59-P2 continuity QC rejected for S59-P3 because source finishes landed. Work preferred role restored with completed runtime, authenticated GUI and Unlimited0 evidence; ordinary/Grok reserves remain enabled.",
-        "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under the current route generation and exact own lease/CAS. S59-P3 stays blocked: source P2 ends already landed; await owner decision or a suitable real airborne source, no synthetic reset.",
+        "verified_at": "2026-11-02T11:57:15.074Z",
+        "last_completed": "14:55 MSK: complete Topview scan6/6, no Create/retry. Phase A healthy. Phase B new failures were verified resolved by later successful runs/current health or by the 59-reference restoration commit; no blind rerun.",
+        "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S59-P3 stays blocked pending owner decision or a suitable real airborne source; no synthetic reset.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# 01.11.2026 — Продолжай: восстановление часового исполнителя",
