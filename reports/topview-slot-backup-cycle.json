@@ -30,7 +30,7 @@
   "selected_item": null,
   "new_submissions": 0,
   "outcome": "no_free_slot",
-  "blocker": null,
+  "blocker": "GitHub safety checks blocked the exact-own-lease release write; lock remains held (not a task submission blocker)",
   "retryable": true,
   "browser_transport": "Topview live connector read-only; TinyFish not started; no Create",
   "tinyfish_run_ids": [],
@@ -58,7 +58,7 @@
     "topview_task_id_verified_this_cycle": true,
     "production_submission_verified": false
   },
-  "updated_at": "2026-11-02T22:16:20.481Z",
+  "updated_at": "2026-11-02T22:17:51.475Z",
   "video_tasks_scanned": 626,
   "image_tasks_scanned": 384,
   "video_status_counts": {
@@ -90,9 +90,11 @@
     "work_hh55_last_run_id": "41d9854c-fef0-8325-8c29-3819eae35eb0",
     "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
   },
-  "notes": "Full live all-board 34-page scan: 1010 tasks, 626 videos, 384 images. Six global active video tasks, all init Unlimited creditsCost0 on My First Board; verified again at 22:15:30Z. All 13 submitted canonical task IDs independently read. No claimed/submitting/submission_unknown. Queue/task-map SHA256 independently computed and match readiness. Older bot slot issue is not live capacity. Work route gen3 retained. No paid TinyFish, no Create.",
+  "notes": "Full live all-board 34-page scan: 1010 tasks, 626 videos, 384 images. Six global active video tasks, all init Unlimited creditsCost0 on My First Board; verified again at 22:15:30Z. All 13 submitted canonical task IDs independently read. No claimed/submitting/submission_unknown. Queue/task-map SHA256 independently computed and match readiness. Older bot slot issue is not live capacity. Work route gen3 retained. No paid TinyFish, no Create. Final exact lease release was denied by connector safety checks; readback still held until 2026-11-02T22:42:53.736Z. No workaround attempted.",
   "verified_source_head_before_final": "33608c719775c3def647967fbbce640a61ed708d",
   "lease_release_required": true,
   "finished_at": "2026-11-02T22:16:20.481Z",
-  "checked_at": "2026-11-02T22:16:20.481Z"
+  "checked_at": "2026-11-02T22:16:20.481Z",
+  "lease_release_status": "blocked_by_tool_safety",
+  "lease_release_checked_at": "2026-11-02T22:17:51.475Z"
 }
