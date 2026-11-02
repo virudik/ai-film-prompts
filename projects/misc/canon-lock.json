@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:fcd36d49-0c76-4261-a8a7-7a27f51a9763",
-  "task": "Разное: контрольные точки 59 референсов и несанкционированных расходов Topview без генераций",
-  "acquired_at": "2026-11-02T15:39:39.356Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T15:44:51.314Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:c8e874c0-1bea-4d8d-9f2f-f773e8aa5d21",
+  "task": "Разное: сохранить новый запрос владельца на исправление внешности персонажей, передача Work, без публикации изображений",
+  "acquired_at": "2026-11-02T16:06:29.691Z",
+  "expires_at": "2026-11-02T16:31:29.691Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
