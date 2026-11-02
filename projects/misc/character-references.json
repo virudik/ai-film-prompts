@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "misc",
-  "updated_at": "2026-11-02T05:18:23.175Z",
-  "source": "Сцена 1: сохранены 8 листов C1–C8 (владелец передал оригиналы C2–C8), все not_approved. Сцена 2 по-прежнему без изображений.",
+  "updated_at": "2026-11-02T07:15:22Z",
+  "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated.",
   "characters": [
     {
       "id": "yarik",
@@ -43,7 +43,7 @@
         "project": "misc",
         "created": "2026-11-01",
         "status": "generated",
-        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
         "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
         "width": 1536,
         "height": 1024,
@@ -53,7 +53,7 @@
       "reference_images": [
         {
           "path": "projects/misc/references/yarik.png",
-          "caption": "C1 · Ярик — основной лист (предыдущая генерация, не одобрено)",
+          "caption": "C1 · Ярик — основной лист (4 ракурса) · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
           "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
@@ -63,12 +63,12 @@
         },
         {
           "path": "projects/misc/references/yarik-expressions.png",
-          "caption": "C2 · Ярик — эмоции (не одобрено)",
+          "caption": "C2 · Ярик — лист эмоций · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [
             "projects/misc/references/yarik.png"
           ],
-          "sha256": "8a180692f505399f3e9bbf6900891ea174866c95b2a558c39a169f56ddb68c8d",
+          "sha256": "79a3233cddaeae1e01f2f4b4a99a9b91be976b812ae7c65c8aa1396db559717b",
           "scenes": [
             1
           ]
@@ -99,28 +99,31 @@
         "project": "misc",
         "created": "2026-11-01",
         "status": "generated",
-        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
-        "editorial_status": "not_approved"
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "58eebaaee90d3671243d2d7d075baaacccd689d137950146f5a8bcde04821548",
+        "width": 1536,
+        "height": 1024
       },
       "reference_images": [
         {
           "path": "projects/misc/references/mama-lena.png",
-          "caption": "C3 · Мама Лена (не одобрено)",
+          "caption": "C3 · Мама Лена — основной лист · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
-          "sha256": "dd0dabce32f624d1c5c44ef34b2e44bc529243ba9a9e014f332dc595fe6ac746",
+          "sha256": "58eebaaee90d3671243d2d7d075baaacccd689d137950146f5a8bcde04821548",
           "scenes": [
             1
           ]
         },
         {
           "path": "projects/misc/references/mama-lena-expressions.png",
-          "caption": "C4 · Мама Лена — эмоции (не одобрено)",
+          "caption": "C4 · Мама Лена — лист эмоций · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [
             "projects/misc/references/mama-lena.png"
           ],
-          "sha256": "871448fbd13aa3d30e13d109071138e5e11547d429293a4e5e3407828f554a31",
+          "sha256": "13a2675d1a9ae0081088fd2ce8649ad38e5ed767f4ed06389fb48fcfc2eea25c",
           "scenes": [
             1
           ]
@@ -151,28 +154,31 @@
         "project": "misc",
         "created": "2026-11-01",
         "status": "generated",
-        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
-        "editorial_status": "not_approved"
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "8ab150b6c9f3a785e75f17de29168b561680ffdf5e3eaa8de05d873b2d370399",
+        "width": 1536,
+        "height": 1024
       },
       "reference_images": [
         {
           "path": "projects/misc/references/sonya.png",
-          "caption": "C5 · Соня (не одобрено)",
+          "caption": "C5 · Соня — основной лист · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
-          "sha256": "baa2b1480a4e2f055ec2b041a6639ea69cb03cd9f15cb9b2693a35f4d2a95208",
+          "sha256": "8ab150b6c9f3a785e75f17de29168b561680ffdf5e3eaa8de05d873b2d370399",
           "scenes": [
             1
           ]
         },
         {
           "path": "projects/misc/references/sonya-expressions.png",
-          "caption": "C6 · Соня — эмоции (не одобрено)",
+          "caption": "C6 · Соня — лист эмоций · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [
             "projects/misc/references/sonya.png"
           ],
-          "sha256": "e913bf21fd4e42a65afec93e2884231b14765bee71e67add5272987777c7b553",
+          "sha256": "071bf01c1021bc37523b1765bbb06046337f4abb71168618f3dc3d84fe1b1972",
           "scenes": [
             1
           ]
@@ -201,16 +207,19 @@
         "project": "misc",
         "created": "2026-11-01",
         "status": "generated",
-        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
-        "editorial_status": "not_approved"
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "1c9239207c1d098837e1744a485f62e4e2c91532eb746fd02036d8ca962c6a6b",
+        "width": 1536,
+        "height": 1024
       },
       "reference_images": [
         {
           "path": "projects/misc/references/anna-sergeevna.png",
-          "caption": "C7 · Анна Сергеевна (не одобрено)",
+          "caption": "C7 · Анна Сергеевна — лист (ракурсы + эмоции) · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
-          "sha256": "83eaf80b554227a53d5bf3f0a28b393be1756903475adf86614c1f822f810d80",
+          "sha256": "1c9239207c1d098837e1744a485f62e4e2c91532eb746fd02036d8ca962c6a6b",
           "scenes": [
             1
           ]
@@ -239,16 +248,19 @@
         "project": "misc",
         "created": "2026-11-01",
         "status": "generated",
-        "note": "Восстановленные оригиналы владельца; изображения пока не одобрены. Исходный файл с расширением PNG имеет JPEG-кодирование — требуется техническая перекодировка в PNG перед финальной сдачей.",
-        "editorial_status": "not_approved"
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "editorial_status": "not_approved",
+        "sha256": "45da23c4d9b2991359cae4e293f3549878f6032f44522522246eb02277cbf27f",
+        "width": 1536,
+        "height": 1024
       },
       "reference_images": [
         {
           "path": "projects/misc/references/bublik.png",
-          "caption": "C8 · Бублик (не одобрено)",
+          "caption": "C8 · Бублик — лист (ракурсы + эмоции) · не одобрено",
           "editorial_status": "not_approved",
           "derived_from": [],
-          "sha256": "49220a255aeb311a9ebe9cae8ab5025d8600f219c0fd1b5d5398604260e02559",
+          "sha256": "45da23c4d9b2991359cae4e293f3549878f6032f44522522246eb02277cbf27f",
           "scenes": [
             1
           ]
@@ -265,24 +277,36 @@
         1
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 1 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Варя · лист (ракурсы + эмоции)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/varya.png",
+        "full_image": "projects/misc/references/varya.png"
       },
       "outfit_variant": "Девочка 6 лет: светлая кожа с веснушками, два коротких тёмно-русых хвостика с оранжевыми резинками, щербинка в улыбке; голубой комбинезон поверх полосатой футболки.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/varya.png"
-        ],
-        "note": "Оригинальный персонаж, не основан на реальных людях. Картинок ещё нет; пути ниже — план, не существующие файлы."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "04daa7bdf5ba2d5da2aa92fe8245f6f09ab22ab2d7182393ece66bb420960908",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/varya.png",
+          "caption": "C9 · Варя — лист (ракурсы + эмоции) · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "04daa7bdf5ba2d5da2aa92fe8245f6f09ab22ab2d7182393ece66bb420960908",
+          "scenes": [
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "miron",
@@ -294,11 +318,14 @@
         2
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Мирон · основной лист (4 ракурса)",
-        "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "additional": [
+          "projects/misc/references/miron-expressions.png",
+          "projects/misc/references/miron-spacesuit.png"
+        ],
+        "public_image": "projects/misc/references/miron.png",
+        "full_image": "projects/misc/references/miron.png"
       },
       "outfit_variant": "Мальчик 5 лет, худенький: светлая кожа, румяные щёки, мягкие кудрявые медово-русые волосы на лбу, большие круглые зелёные глаза с длинными ресницами, щербинка между передними зубами; горчично-жёлтая толстовка на молнии с белой ракетой, лесно-зелёные брюки, оранжевые кроссовки.",
       "variants": [
@@ -327,15 +354,49 @@
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/miron.png",
-          "projects/misc/references/miron-expressions.png",
-          "projects/misc/references/miron-spacesuit.png"
-        ],
-        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "53b518b85422bba0b820c01ceacbc611aa4d0bf499964a2b0616d168aa408504",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/miron.png",
+          "caption": "S2-M1 · Мирон — основной лист (4 ракурса) · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "53b518b85422bba0b820c01ceacbc611aa4d0bf499964a2b0616d168aa408504",
+          "scenes": [
+            2
+          ]
+        },
+        {
+          "path": "projects/misc/references/miron-expressions.png",
+          "caption": "S2-M2 · Мирон — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/misc/references/miron.png"
+          ],
+          "sha256": "17b1b9bc31b4eb45d081c396313931c6e3699ee89f1106675b3277cc7f68d78b",
+          "scenes": [
+            2
+          ]
+        },
+        {
+          "path": "projects/misc/references/miron-spacesuit.png",
+          "caption": "S2-M3 · Мирон в скафандре — лист (4 ракурса) · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/misc/references/miron.png"
+          ],
+          "sha256": "d0ca7422ed46fe262c98eca77791d00e086f78a807ef02d85c06177db4f1f34a",
+          "scenes": [
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "vera",
@@ -347,25 +408,50 @@
         2
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Мама Вера · основной лист",
-        "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "additional": [
+          "projects/misc/references/vera-expressions.png"
+        ],
+        "public_image": "projects/misc/references/vera.png",
+        "full_image": "projects/misc/references/vera.png"
       },
       "outfit_variant": "Женщина 35 лет: светло-оливковая кожа, каштаново-рыжее каре до плеч с косой чёлкой, круглые очки в черепаховой оправе, карие глаза, родинка на левой щеке; терракотовый вязаный кардиган с большими накладными карманами, кремовая блузка, тёмно-синие джинсы, тонкие золотые серьги-кольца.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/vera.png",
-          "projects/misc/references/vera-expressions.png"
-        ],
-        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "be5dbe5e894a8dd03c8f532e3d2f3ab6181030d18e207be7db4a8f9e38f73c05",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/vera.png",
+          "caption": "S2-V1 · Мама Вера — основной лист · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "be5dbe5e894a8dd03c8f532e3d2f3ab6181030d18e207be7db4a8f9e38f73c05",
+          "scenes": [
+            2
+          ]
+        },
+        {
+          "path": "projects/misc/references/vera-expressions.png",
+          "caption": "S2-V2 · Мама Вера — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/misc/references/vera.png"
+          ],
+          "sha256": "a22afea0966a524bf1aaaa68d69ae63eb3f7f8c57efd9d1724fa5b8ab97710ff",
+          "scenes": [
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "nina",
@@ -377,25 +463,50 @@
         2
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Бабушка Нина · основной лист",
-        "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "additional": [
+          "projects/misc/references/nina-expressions.png"
+        ],
+        "public_image": "projects/misc/references/nina.png",
+        "full_image": "projects/misc/references/nina.png"
       },
       "outfit_variant": "Женщина 62 лет, высокая, прямая: тёплая смуглая кожа, короткие серебристо-белые кудри, выразительные брови, без очков, крупные серебряные серьги-кольца; сливовая спортивная куртка с белыми лампасами, серые джоггеры, белые кроссовки, свисток на шнурке (бывший тренер по плаванию).",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/nina.png",
-          "projects/misc/references/nina-expressions.png"
-        ],
-        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "d0e1606b7ffd3e63ddae0ec9ab9a7fc2debd08643442514c32bde841ef66dc4e",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/nina.png",
+          "caption": "S2-N1 · Бабушка Нина — основной лист · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "d0e1606b7ffd3e63ddae0ec9ab9a7fc2debd08643442514c32bde841ef66dc4e",
+          "scenes": [
+            2
+          ]
+        },
+        {
+          "path": "projects/misc/references/nina-expressions.png",
+          "caption": "S2-N2 · Бабушка Нина — лист эмоций · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/misc/references/nina.png"
+          ],
+          "sha256": "0f1f09ba1ee251df14dd11784e3ca15c82c114f619203788dbf9ae6bbfc21101",
+          "scenes": [
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "darya",
@@ -407,24 +518,36 @@
         2
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Дарья Андреевна · лист (ракурсы + эмоции)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/darya.png",
+        "full_image": "projects/misc/references/darya.png"
       },
       "outfit_variant": "Женщина 30 лет: тёмно-коричневая кожа, длинная чёрная коса через плечо, тёплые тёмные глаза, добрая улыбка; шалфейно-зелёная льняная рубашка, кремовые брюки, мягкая обувь.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/darya.png"
-        ],
-        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "b7718460de55c31d0ba87c83a17800c3d51f94fc641cf17ccf157876739edbf2",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/darya.png",
+          "caption": "S2-D1 · Дарья Андреевна (специалист) — лист · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "b7718460de55c31d0ba87c83a17800c3d51f94fc641cf17ccf157876739edbf2",
+          "scenes": [
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "mark",
@@ -436,24 +559,36 @@
         2
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Доктор Марк Львович · лист (ракурсы + эмоции)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/mark.png",
+        "full_image": "projects/misc/references/mark.png"
       },
       "outfit_variant": "Мужчина 52 лет: лысый, седые виски, подстриженная седая борода, круглые очки в синей оправе, спокойный мягкий взгляд; белый халат поверх клетчатой рубашки, стетоскоп на шее.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/mark.png"
-        ],
-        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "f7b7bcb3fdedaea90a3e41533bed391af0776eebef0efdcf3cca03b0018e9623",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/mark.png",
+          "caption": "S2-R1 · Доктор Марк Львович — лист · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "f7b7bcb3fdedaea90a3e41533bed391af0776eebef0efdcf3cca03b0018e9623",
+          "scenes": [
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "lilya",
@@ -465,24 +600,36 @@
         2
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Парикмахер Лиля · лист (ракурсы + эмоции)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/lilya.png",
+        "full_image": "projects/misc/references/lilya.png"
       },
       "outfit_variant": "Женщина 28 лет: светлая веснушчатая кожа, короткая розовая стрижка пикси, красный фартук парикмахера поверх чёрной футболки, маленькие серебряные ножницы.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/lilya.png"
-        ],
-        "note": "Оригинальный персонаж сцены 2, не основан на реальных людях. Картинок ещё нет; пути — план."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "b7b50d989fd6dc3658fc60dc63cf7070c109b4c29f0205229ec851c379c51807",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/lilya.png",
+          "caption": "S2-B1 · Парикмахер Лиля — лист · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "b7b50d989fd6dc3658fc60dc63cf7070c109b4c29f0205229ec851c379c51807",
+          "scenes": [
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "tuman",
@@ -494,24 +641,36 @@
         2
       ],
       "model_sheet": {
-        "source": "Generated for Разное · сцена 2 (черновик, не одобрено владельцем)",
+        "source": "Previously generated Topview reference, restored without re-generation; editorial_status not_approved",
         "primary": "Туман · лист (ракурсы)",
         "additional": [],
-        "public_image": "",
-        "full_image": ""
+        "public_image": "projects/misc/references/tuman.png",
+        "full_image": "projects/misc/references/tuman.png"
       },
       "outfit_variant": "Спокойная серая лошадь в яблоках, белые грива и хвост, добрые тёмные глаза, коричневый потник; ребёнок в маленьком тёмно-синем шлеме верхом.",
       "variants": [],
       "provenance": {
         "project": "misc",
         "created": "2026-11-01",
-        "status": "planned_no_images",
-        "planned_reference_images": [
-          "projects/misc/references/tuman.png"
-        ],
-        "note": "Оригинальный персонаж-животное сцены 2. Картинок ещё нет; пути — план."
+        "status": "generated",
+        "note": "Previously generated original saved in canonical GitHub; technical processing does not mean owner approval.",
+        "sha256": "874193518ba6dc49773833befed0fd117305cb971d715572d63d4ca566f7cf50",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
       },
-      "reference_images": []
+      "reference_images": [
+        {
+          "path": "projects/misc/references/tuman.png",
+          "caption": "S2-H1 · Лошадь Туман — лист (ракурсы) · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "874193518ba6dc49773833befed0fd117305cb971d715572d63d4ca566f7cf50",
+          "scenes": [
+            2
+          ]
+        }
+      ]
     }
   ],
   "assets": [
@@ -520,13 +679,21 @@
       "name": "Кухня",
       "kind": "location",
       "notes": "Утренняя кухня, мятные шкафчики, круглые часы, чайник. Только локация; персонажи — по листам.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png",
+          "caption": "Кухня",
+          "sha256": "9dde6dc7c5560d5be069946a7ae2de79933b061fdc9cf302dae0a1b84723b680",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -537,13 +704,21 @@
       "name": "Прихожая",
       "kind": "location",
       "notes": "Узкая тёплая прихожая: вешалка, лавка с обувью, круглое зеркало.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L2-hallway.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.png",
+          "caption": "Прихожая",
+          "sha256": "ce1cf2504220fe976e929b05b3756d82a7a42d6ac4bca69404ac97015cffe22b",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -554,13 +729,21 @@
       "name": "Комната Ярика ночью",
       "kind": "location",
       "notes": "Кровать с синим покрывалом в звёздах, полка со стёклышками, окно с огнями города.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png",
+          "caption": "Комната Ярика ночью",
+          "sha256": "cb32708ef7cbecf9ab341acd0edfce2e09b9f64ffced757c95ffb8fea645a3ad",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -571,13 +754,21 @@
       "name": "Двор с площадкой",
       "kind": "location",
       "notes": "Кирпичный дом, синяя горка, песочница, берёзы, осенний свет.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png",
+          "caption": "Двор с площадкой",
+          "sha256": "f5a42ded4fce31f0cccb9e341bf2b3e96ba7ec0f88008cc0c40e2d66d5084303",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -588,13 +779,21 @@
       "name": "Кабинет занятий",
       "kind": "location",
       "notes": "Круглый стол, ковёр с волнами, мягкий дневной свет.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png",
+          "caption": "Кабинет занятий",
+          "sha256": "136b69fa97aaa7271ad1ba065c894dde711ac024fc8bf2c59fa2f062f115983a",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -605,13 +804,21 @@
       "name": "Внутреннее море — шторм",
       "kind": "location",
       "notes": "Мир внутри Ярика: тёмно-бирюзовое штормовое море, фиолетовое небо, тёмный маяк, лодка.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png",
+          "caption": "Внутреннее море — шторм",
+          "sha256": "a214896b7237e7c06d4b9c5a88e5e86a43cf1ba7d9bb5f4850df6ed7def0c835",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -622,13 +829,21 @@
       "name": "Внутреннее море — штиль",
       "kind": "location",
       "notes": "Тот же мир после шторма: золотисто-бирюзовое море, маяк горит. Для монтажных вставок и титров.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.png",
+          "caption": "Внутреннее море — штиль",
+          "sha256": "1e8d16ec0fa28f64c687e1ad4954c0755ce53b9617ace4595a52913541296b73",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -639,13 +854,21 @@
       "name": "Берег и маяк",
       "kind": "location",
       "notes": "Галечный пляж на закате, красно-белый полосатый маяк, деревянный пирс.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png",
+          "caption": "Берег и маяк",
+          "sha256": "5e81b823295d1d1b5461c1a5cfc0ecc19d6925edf40a91d78e48f9efba6f8911",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -656,13 +879,21 @@
       "name": "Реквизит сцены 1",
       "kind": "prop",
       "notes": "Жёлтые наушники с синими наклейками; банка и мешочек с морскими стёклышками; маяк-ночник; три карточки-пиктограммы без текста.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png",
+          "caption": "Реквизит сцены 1",
+          "sha256": "9cc61d20491240e51227c1bdfdad982d3f810079f8d11ae006f9aef08faded4e",
+          "scenes": [
+            1
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         1
@@ -673,13 +904,21 @@
       "name": "Гостиная вечером",
       "kind": "location",
       "notes": "Уютная гостиная: диван, ковёр, телевизор, тёплая лампа. Только локация.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L1-living-room.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L1-living-room.png",
+          "caption": "Гостиная вечером",
+          "sha256": "9201ec119521b42f506d1763b52466dbfefcf44b589d85dad4fd2814b3f2ca02",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -690,13 +929,21 @@
       "name": "Городская площадь на закате",
       "kind": "location",
       "notes": "Старинная площадь после дождя, мокрая брусчатка, закатный свет, машины.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L2-city-square.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L2-city-square.png",
+          "caption": "Городская площадь на закате",
+          "sha256": "12be37b79af2e051825e6bd2efce0c18a3e82754eb8a272b3e49ee4346fd21b8",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -707,13 +954,21 @@
       "name": "Супермаркет — проход",
       "kind": "location",
       "notes": "Проход с полками на уровне ребёнка, люминесцентный свет, без брендов и текста.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png",
+          "caption": "Супермаркет — проход",
+          "sha256": "c02592de76295c61de8d52f777470806579c108d2f0350f36b3dfa934d23cad5",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -724,13 +979,21 @@
       "name": "Двор детского сада",
       "kind": "location",
       "notes": "Зелёная площадка, клумбы, деревья.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png",
+          "caption": "Двор детского сада",
+          "sha256": "0ac7058f8083bb8c11a83de24cfa462429ca44bd53863fa9a6acd8173e596bf0",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -741,13 +1004,21 @@
       "name": "Парикмахерская",
       "kind": "location",
       "notes": "Кресло, зеркала, светлое помещение.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png",
+          "caption": "Парикмахерская",
+          "sha256": "e54f8418a8327b873fecfc8df26ec54409e7e79743260ea79a98313e49699f4a",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -758,13 +1029,21 @@
       "name": "Комната Мирона ночью",
       "kind": "location",
       "notes": "Детская кровать, окно с луной, тумбочка с пузырьками (без надписей).",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png",
+          "caption": "Комната Мирона ночью",
+          "sha256": "63e5a7273df44e7dfa7722d95078dc3459f4723efa6baf75ed6894481d77183f",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -775,13 +1054,21 @@
       "name": "Коридор клиники и стойка",
       "kind": "location",
       "notes": "Бледно-голубой коридор, регистрационная стойка, двери.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png",
+          "caption": "Коридор клиники и стойка",
+          "sha256": "b1b1f49d1fde8810a376eb6794e424b7590dd9679106a1aa39ea769650f86f32",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -792,13 +1079,21 @@
       "name": "Кабинет центра развития",
       "kind": "location",
       "notes": "Детский столик, окно, полки с игрушками, мягкий свет.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L8-development-center.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L8-development-center.png",
+          "caption": "Кабинет центра развития",
+          "sha256": "adcb4b24a9ce052bfb4f0df35163787d8826f873c3634931a00b7b60883a9e01",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -809,13 +1104,21 @@
       "name": "Кабинет доктора",
       "kind": "location",
       "notes": "Стол, шкаф, окно, светлый кабинет.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L9-doctor-office.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L9-doctor-office.png",
+          "caption": "Кабинет доктора",
+          "sha256": "1c61145b30be65da7080caf95a7e76594058c08253e5e5250cb729577e51ead8",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -826,13 +1129,21 @@
       "name": "Школа в день линейки",
       "kind": "location",
       "notes": "Фасад школы, шарики, гирлянда без текста, дорожка.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png",
+          "caption": "Школа в день линейки",
+          "sha256": "ace8bbc57afaad38fe47c8a4fd346f8c917cafc9860b10b028b5dace87e5a3e4",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -843,13 +1154,21 @@
       "name": "Кухня ночью",
       "kind": "location",
       "notes": "Стол под лампой, окно, ночь.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png",
+          "caption": "Кухня ночью",
+          "sha256": "c93d29c0f71da01d6ca303564010ed52245084402928c80cb77fe4fb138eec3c",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -860,13 +1179,21 @@
       "name": "Луг у конюшни",
       "kind": "location",
       "notes": "Золотой луг, деревья, деревянная ограда, закатный свет.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L12-stable-meadow.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L12-stable-meadow.png",
+          "caption": "Луг у конюшни",
+          "sha256": "942a6ac3b11c15ace48dfa184361e5a7858508d5a0edc1f1ddbd0c6218203606",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -877,13 +1204,21 @@
       "name": "Космос и Земля",
       "kind": "location",
       "notes": "Тёмный космос, светящаяся Земля, мелкие звёзды; без флагов и текста.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png",
+          "caption": "Космос и Земля",
+          "sha256": "527aadcf50c81aa36bd70b3afbf7afeab3db2f994ff967f2140571e5627d672b",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2
@@ -894,13 +1229,21 @@
       "name": "Реквизит сцены 2",
       "kind": "prop",
       "notes": "Стеклянный купол с медной оправой; карточки (слон, яблоко, оранжевый шарик) без слов; книжка про оранжевый шарик; пластилин; счета, калькулятор и монеты без чисел.",
-      "images": [],
-      "editorial_status": "not_approved",
-      "planned_reference_images": [
-        "projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png"
+      "images": [
+        {
+          "path": "projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png",
+          "caption": "Реквизит сцены 2",
+          "sha256": "ed43061fe7c6a1a77b935a7c1e5bbf6ed549c35b3ced316bc3a95ccae83037a8",
+          "scenes": [
+            2
+          ],
+          "editorial_status": "not_approved"
+        }
       ],
+      "editorial_status": "not_approved",
       "provenance": {
-        "status": "planned_no_images"
+        "status": "generated",
+        "source": "Topview original, no rerender"
       },
       "scenes": [
         2

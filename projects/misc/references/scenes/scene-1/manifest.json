@@ -3,11 +3,11 @@
   "project": "misc",
   "scene": 1,
   "title": "Тихий маяк",
-  "updated_at": "2026-11-02T05:18:23.175Z",
-  "status": "references_partial",
+  "updated_at": "2026-11-02T07:15:22Z",
+  "status": "references_ready",
   "editorial_status": "not_approved",
   "expected_image_count": 26,
-  "generated_image_count": 8,
+  "generated_image_count": 26,
   "references": [
     {
       "tag": "C1",
@@ -16,213 +16,259 @@
       "sha256": "037a62f2ed4074564e5ecaff49c32c593cc38b2a2b256793ed63c9820af8baf3",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
-      "prompt_path": "projects/misc/references/yarik.prompt.txt"
+      "prompt_path": "projects/misc/references/yarik.prompt.txt",
+      "editorial_status": "not_approved"
     },
     {
       "tag": "C2",
       "role": "character_expressions",
       "path": "projects/misc/references/yarik-expressions.png",
-      "sha256": "8a180692f505399f3e9bbf6900891ea174866c95b2a558c39a169f56ddb68c8d",
+      "sha256": "79a3233cddaeae1e01f2f4b4a99a9b91be976b812ae7c65c8aa1396db559717b",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/yarik-expressions.prompt.txt",
-      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+      "editorial_status": "not_approved"
     },
     {
       "tag": "C3",
       "role": "character_identity",
       "path": "projects/misc/references/mama-lena.png",
-      "sha256": "dd0dabce32f624d1c5c44ef34b2e44bc529243ba9a9e014f332dc595fe6ac746",
+      "sha256": "58eebaaee90d3671243d2d7d075baaacccd689d137950146f5a8bcde04821548",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/mama-lena.prompt.txt",
-      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+      "editorial_status": "not_approved"
     },
     {
       "tag": "C4",
       "role": "character_expressions",
       "path": "projects/misc/references/mama-lena-expressions.png",
-      "sha256": "871448fbd13aa3d30e13d109071138e5e11547d429293a4e5e3407828f554a31",
+      "sha256": "13a2675d1a9ae0081088fd2ce8649ad38e5ed767f4ed06389fb48fcfc2eea25c",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/mama-lena-expressions.prompt.txt",
-      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+      "editorial_status": "not_approved"
     },
     {
       "tag": "C5",
       "role": "character_identity",
       "path": "projects/misc/references/sonya.png",
-      "sha256": "baa2b1480a4e2f055ec2b041a6639ea69cb03cd9f15cb9b2693a35f4d2a95208",
+      "sha256": "8ab150b6c9f3a785e75f17de29168b561680ffdf5e3eaa8de05d873b2d370399",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/sonya.prompt.txt",
-      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+      "editorial_status": "not_approved"
     },
     {
       "tag": "C6",
       "role": "character_expressions",
       "path": "projects/misc/references/sonya-expressions.png",
-      "sha256": "e913bf21fd4e42a65afec93e2884231b14765bee71e67add5272987777c7b553",
+      "sha256": "071bf01c1021bc37523b1765bbb06046337f4abb71168618f3dc3d84fe1b1972",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/sonya-expressions.prompt.txt",
-      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+      "editorial_status": "not_approved"
     },
     {
       "tag": "C7",
-      "role": "character_identity",
+      "role": "character_expressions",
       "path": "projects/misc/references/anna-sergeevna.png",
-      "sha256": "83eaf80b554227a53d5bf3f0a28b393be1756903475adf86614c1f822f810d80",
+      "sha256": "1c9239207c1d098837e1744a485f62e4e2c91532eb746fd02036d8ca962c6a6b",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/anna-sergeevna.prompt.txt",
-      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+      "editorial_status": "not_approved"
     },
     {
       "tag": "C8",
-      "role": "character_identity",
+      "role": "character_expressions",
       "path": "projects/misc/references/bublik.png",
-      "sha256": "49220a255aeb311a9ebe9cae8ab5025d8600f219c0fd1b5d5398604260e02559",
+      "sha256": "45da23c4d9b2991359cae4e293f3549878f6032f44522522246eb02277cbf27f",
       "width": 1536,
       "height": 1024,
-      "editorial_status": "not_approved",
       "prompt_path": "projects/misc/references/bublik.prompt.txt",
-      "source_format": "JPEG data in originally named .png upload; re-encoding pending"
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "C9",
+      "role": "character_expressions",
+      "path": "projects/misc/references/varya.png",
+      "sha256": "04daa7bdf5ba2d5da2aa92fe8245f6f09ab22ab2d7182393ece66bb420960908",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/misc/references/varya.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L1",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png",
+      "sha256": "9dde6dc7c5560d5be069946a7ae2de79933b061fdc9cf302dae0a1b84723b680",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L2",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.png",
+      "sha256": "ce1cf2504220fe976e929b05b3756d82a7a42d6ac4bca69404ac97015cffe22b",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L3",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png",
+      "sha256": "cb32708ef7cbecf9ab341acd0edfce2e09b9f64ffced757c95ffb8fea645a3ad",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L4",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png",
+      "sha256": "f5a42ded4fce31f0cccb9e341bf2b3e96ba7ec0f88008cc0c40e2d66d5084303",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L5",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png",
+      "sha256": "136b69fa97aaa7271ad1ba065c894dde711ac024fc8bf2c59fa2f062f115983a",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L6",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png",
+      "sha256": "a214896b7237e7c06d4b9c5a88e5e86a43cf1ba7d9bb5f4850df6ed7def0c835",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L7",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.png",
+      "sha256": "1e8d16ec0fa28f64c687e1ad4954c0755ce53b9617ace4595a52913541296b73",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "L8",
+      "role": "location_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png",
+      "sha256": "5e81b823295d1d1b5461c1a5cfc0ecc19d6925edf40a91d78e48f9efba6f8911",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "P1",
+      "role": "prop_reference",
+      "path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png",
+      "sha256": "9cc61d20491240e51227c1bdfdad982d3f810079f8d11ae006f9aef08faded4e",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K1",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png",
+      "sha256": "da4157a406af5b08dc0ac5916298e14d8be3bc08fd46b88d6f323164c92ab53a",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K2",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png",
+      "sha256": "d8bfbe1b71b3418d3b57e8aedf20bf84000c055154f012dfde74fc13ff77833c",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K3",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png",
+      "sha256": "a117d54ee29840cd224d22ca23526ca8cce2ebda870f66290cb0136ad6ae955e",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K4",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png",
+      "sha256": "3b413d4f2933b181181e33869f2555ee83bd63bf61302395fa6510755e0dbedc",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K5",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png",
+      "sha256": "95ef93018dce55f3e6fa5108136f1ea6f71f328ab71f02f51e8998b86a9fd006",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K6",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png",
+      "sha256": "ec007cc6f63374698ea04f7ca3d71b96ba0b120666366c4bacd8e025197029f0",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K6-three-cards.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K7",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png",
+      "sha256": "0f051880c452b8242808b401de1f165a7429bdb025d8e1f2f39431887d53ce16",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.prompt.txt",
+      "editorial_status": "not_approved"
+    },
+    {
+      "tag": "K8",
+      "role": "keyframe",
+      "path": "projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png",
+      "sha256": "e333fad3b3abeacab79d6e119725bccb14f3decb8004e375b2d4df2737d2191a",
+      "width": 1080,
+      "height": 1920,
+      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.prompt.txt",
+      "editorial_status": "not_approved"
     }
   ],
-  "planned_references": [
-    {
-      "number": 9,
-      "tag": "C9",
-      "path": "projects/misc/references/varya.png",
-      "prompt_path": "projects/misc/references/varya.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 10,
-      "tag": "L1",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L1-kitchen.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 11,
-      "tag": "L2",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L2-hallway.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 12,
-      "tag": "L3",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 13,
-      "tag": "L4",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L4-courtyard.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 14,
-      "tag": "L5",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 15,
-      "tag": "L6",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 16,
-      "tag": "L7",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L7-inner-sea-calm.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 17,
-      "tag": "L8",
-      "path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 18,
-      "tag": "P1",
-      "path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 19,
-      "tag": "K1",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 20,
-      "tag": "K2",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 21,
-      "tag": "K3",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 22,
-      "tag": "K4",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 23,
-      "tag": "K5",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 24,
-      "tag": "K6",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K6-three-cards.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 25,
-      "tag": "K7",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.prompt.txt",
-      "status": "pending"
-    },
-    {
-      "number": 26,
-      "tag": "K8",
-      "path": "projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png",
-      "prompt_path": "projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.prompt.txt",
-      "status": "pending"
-    }
-  ]
+  "planned_references": []
 }

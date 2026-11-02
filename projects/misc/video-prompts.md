@@ -32,7 +32,7 @@
 
 **Что происходит:** Ярику семь лет, и обычные звуки для него слишком громкие. Во дворе он прячется в тень и выкладывает морские стёклышки, внутри него — штормовое море, где слова уплывают, как лодки. Тяжёлое утро заканчивается слезами, но ночью старшая сестра Соня приносит маяк-ночник и жёлтые наушники, а пёс Бублик ложится ему на ноги. Анна Сергеевна терпеливо ждёт, и Ярик впервые выкладывает три картинки: «я — хочу — тихо». Во дворе рядом садится Варя. На закате семья обнимает его на берегу у настоящего маяка.
 
-**Готовность:** DRAFT. По новой команде владельца 01.11.2026 разрешена подготовка картинок по GPT-TASK.md; видео не запускать. Сохранено 8 из 26 референсов сцены: листы персонажей C1–C8. Остальные 18 (начиная с C9) ещё не готовы. Исходные C2–C8 восстановлены из файлов владельца, не перерисованы. Все изображения not_approved. Полный список и прогресс — `projects/misc/references/generation-progress.json`. Техническая публикация не является одобрением владельца.
+**Готовность:** DRAFT. По новой команде владельца 01.11.2026 разрешена подготовка картинок по GPT-TASK.md; видео не запускать. Все 26 референсов сцены сохранены, но не одобрены владельцем. Видео не запускались.
 **Формат кадра:** вертикаль 9:16 (720×1280), как в оригинальном рилсе — решение владельца 01.11.2026. Во всех 12 промтах `Aspect ratio: 9:16`, `FRAME FILL` для портретного кадра, вертикальная композиция и запрет горизонтальных/letterbox-кадров. **Запуск в Topview — только с форматом 9:16** (очередь и общие инструкции репозитория по умолчанию 16:9: при создании пункта очереди и на сайте Topview выставить 9:16 отдельно). Референсы локаций, реквизита и ключевые кадры K1–K8 — вертикальные 9:16; листы персонажей — горизонтальные листы-развёртки (как во всём репозитории), они задают только внешность.
 
 **Монтажная роль:** целый короткий фильм; порядок B1→B4 (30 с) или A1→A8 (15 с), B1 = A1 + A2, B2 = A3 + A4, B3 = A5 + A6, B4 = A7 + A8. В 30-секундной версии русский закадровый голос Ярика внутри промта (Wan 3.0); в 15-секундной клипы тихие, текст записывается отдельно и кладётся по таймингам. Музыка и титры добавляются в редакторе.
@@ -78,10 +78,10 @@ _Всего ≈ 169 слов за 120 с: оставлено время на п�
 - [0:16–0:22] «Во дворе все смеются и кричат. Для меня это — как огромная волна.»
 - [0:23–0:30] «Я не злюсь. Я выкладываю стёклышки в ряд. Они тихие.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/mama-lena.png`; @Image3 = `projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png`; @Image4 = `projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png`; @Image5 = `projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena — не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png" alt="MS01-L1-kitchen — не одобрено" loading="lazy"></a><figcaption>MS01-L1-kitchen · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png" alt="MS01-L4-courtyard — не одобрено" loading="lazy"></a><figcaption>MS01-L4-courtyard · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" alt="MS01-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS01-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png" alt="MS01-K1-kitchen-sound — не одобрено" loading="lazy"></a><figcaption>MS01-K1-kitchen-sound · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png" alt="MS01-K2-courtyard-retreat — не одобрено" loading="lazy"></a><figcaption>MS01-K2-courtyard-retreat · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -90,7 +90,7 @@ _Всего ≈ 169 слов за 120 с: оставлено время на п�
 - @Image4 — двор: только локация (горка, песочница, берёзы, дом).
 - @Image5 — лист реквизита: только внешний вид мешочка и морских стёклышек.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Кухня · id `loc-kitchen`
@@ -172,10 +172,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:16–0:21] «Иногда у меня внутри всё взрывается. Новые ботинки колются, а время бежит.»
 - [0:22–0:30] «Я плачу — по-другому не умею. Мама устала. Мне так жалко её. И себя.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Внутреннее море — шторм · @Image5 = Прихожая
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Внутреннее море — шторм · @Image5 = Прихожая
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/mama-lena.png`; @Image3 = `projects/misc/references/sonya.png`; @Image4 = `projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png`; @Image5 = `projects/misc/references/scenes/scene-1/MS01-L2-hallway.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena — не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya — не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png" alt="MS01-L6-inner-sea-storm — не одобрено" loading="lazy"></a><figcaption>MS01-L6-inner-sea-storm · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L2-hallway.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L2-hallway.png" alt="MS01-L2-hallway — не одобрено" loading="lazy"></a><figcaption>MS01-L2-hallway · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png" alt="MS01-K3-inner-sea-boat — не одобрено" loading="lazy"></a><figcaption>MS01-K3-inner-sea-boat · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png" alt="MS01-K4-hallway-boots — не одобрено" loading="lazy"></a><figcaption>MS01-K4-hallway-boots · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -184,7 +184,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — внутреннее море в шторм: только мир, палитра, форма волн и далёкий тёмный маяк.
 - @Image5 — прихожая: только планировка, вешалка, обувница, зеркало, свет.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Соня — основной лист · id `sonya`
@@ -267,10 +267,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:16–0:21] «Анна Сергеевна никогда не торопит. Она умеет ждать.»
 - [0:22–0:30] «Сегодня я выложил три картинки: „я“, „хочу“, „тихо“. И меня поняли.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image5 = Комната Ярика ночью · @Image6 = Кабинет занятий
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image5 = Комната Ярика ночью · @Image6 = Кабинет занятий
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/anna-sergeevna.png" target="_blank" rel="noopener"><img src="projects/misc/references/anna-sergeevna.png" alt="anna-sergeevna · не одобрено" loading="lazy"></a><figcaption>anna-sergeevna · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/sonya.png`; @Image3 = `projects/misc/references/bublik.png`; @Image4 = `projects/misc/references/anna-sergeevna.png`; @Image5 = `projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png`; @Image6 = `projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya — не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik — не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/anna-sergeevna.png" target="_blank" rel="noopener"><img src="projects/misc/references/anna-sergeevna.png" alt="anna-sergeevna — не одобрено" loading="lazy"></a><figcaption>anna-sergeevna · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png" alt="MS01-L3-yarik-room-night — не одобрено" loading="lazy"></a><figcaption>MS01-L3-yarik-room-night · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png" alt="MS01-L5-therapy-room — не одобрено" loading="lazy"></a><figcaption>MS01-L5-therapy-room · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png" alt="MS01-K5-night-lighthouse — не одобрено" loading="lazy"></a><figcaption>MS01-K5-night-lighthouse · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png" alt="MS01-K6-three-cards — не одобрено" loading="lazy"></a><figcaption>MS01-K6-three-cards · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -280,7 +280,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — комната ночью: только планировка, кровать, полка, окно.
 - @Image6 — кабинет: только планировка, круглый стол, ковёр с волнами, свет.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Соня — основной лист · id `sonya`
 - @Image3 — Бублик — лист (ракурсы + эмоции) · id `bublik`
@@ -367,10 +367,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:21–0:25] «Но у меня есть маяк — это те, кто рядом.»
 - [0:26–0:30] «Просто побудьте рядом. Этого достаточно.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Варя — лист (ракурсы + эмоции) · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Мама Лена — основной лист · @Image5 = Соня — основной лист · @Image6 = Берег и маяк на закате
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Варя — лист (ракурсы + эмоции) · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Мама Лена — основной лист · @Image5 = Соня — основной лист · @Image6 = Берег и маяк на закате
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/varya.png`; @Image3 = `projects/misc/references/bublik.png`; @Image4 = `projects/misc/references/mama-lena.png`; @Image5 = `projects/misc/references/sonya.png`; @Image6 = `projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/varya.png" target="_blank" rel="noopener"><img src="projects/misc/references/varya.png" alt="varya — не одобрено" loading="lazy"></a><figcaption>varya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik — не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena — не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya — не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png" alt="MS01-L8-seaside-lighthouse — не одобрено" loading="lazy"></a><figcaption>MS01-L8-seaside-lighthouse · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png" alt="MS01-K7-gift-glass — не одобрено" loading="lazy"></a><figcaption>MS01-K7-gift-glass · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png" alt="MS01-K8-beach-hug — не одобрено" loading="lazy"></a><figcaption>MS01-K8-beach-hug · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы, пропорции); одежда меняется по таймлайну.
@@ -380,7 +380,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — Соня: PRIMARY exact identity.
 - @Image6 — берег и маяк: только пляж, море, полосатый маяк.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Варя — лист (ракурсы + эмоции) · id `varya`
 - @Image3 — Бублик — лист (ракурсы + эмоции) · id `bublik`
@@ -471,17 +471,17 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:05] «Меня зовут Ярик. Мне семь лет.»
 - [0:06–0:15] «Чайник свистит, как поезд. Часы стучат, как молотки. Мир у меня внутри — очень громкий.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Кухня
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/mama-lena.png`; @Image3 = `projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena — не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L1-kitchen.png" alt="MS01-L1-kitchen — не одобрено" loading="lazy"></a><figcaption>MS01-L1-kitchen · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K1-kitchen-sound.png" alt="MS01-K1-kitchen-sound — не одобрено" loading="lazy"></a><figcaption>MS01-K1-kitchen-sound · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, причёска, одежда).
 - @Image2 — Мама Лена: PRIMARY exact identity.
 - @Image3 — кухня: только архитектура, мебель, свет.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Кухня · id `loc-kitchen`
@@ -543,17 +543,17 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Во дворе все смеются и кричат. Для меня это — как огромная волна.»
 - [0:08–0:15] «Я не злюсь. Я выкладываю стёклышки в ряд. Они тихие.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Двор с площадкой · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Двор с площадкой · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png`; @Image3 = `projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png" alt="MS01-L4-courtyard — не одобрено" loading="lazy"></a><figcaption>MS01-L4-courtyard · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" alt="MS01-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS01-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K2-courtyard-retreat.png" alt="MS01-K2-courtyard-retreat — не одобрено" loading="lazy"></a><figcaption>MS01-K2-courtyard-retreat · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity.
 - @Image2 — двор: только локация (горка, песочница, берёзы, дом).
 - @Image3 — лист реквизита: только внешний вид банки/мешочка и морских стёклышек (зелёные, синие, белые).
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Двор с площадкой · id `loc-courtyard`
 - @Image3 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
@@ -614,17 +614,17 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Внутри у меня море. Когда начинается шторм, слова уплывают, как лодки.»
 - [0:08–0:15] «Я знаю, что хочу сказать. Но слова не слушаются.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Внутреннее море — шторм · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Внутреннее море — шторм · @Image3 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png`; @Image3 = `projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L6-inner-sea-storm.png" alt="MS01-L6-inner-sea-storm — не одобрено" loading="lazy"></a><figcaption>MS01-L6-inner-sea-storm · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" alt="MS01-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS01-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K3-inner-sea-boat.png" alt="MS01-K3-inner-sea-boat — не одобрено" loading="lazy"></a><figcaption>MS01-K3-inner-sea-boat · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, те же лицо и волосы).
 - @Image2 — внутреннее море в шторм: только мир, палитра, форма волн и далёкий тёмный маяк.
 - @Image3 — лист реквизита: только вид маяка (не горит).
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Внутреннее море — шторм · id `loc-inner-sea-storm`
 - @Image3 — Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки · id `props-sheet`
@@ -685,10 +685,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:06] «Иногда у меня внутри всё взрывается. Новые ботинки колются, а время бежит.»
 - [0:07–0:15] «Я плачу — по-другому не умею. Мама устала. Мне так жалко её. И себя.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Прихожая
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Прихожая
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/mama-lena.png`; @Image3 = `projects/misc/references/sonya.png`; @Image4 = `projects/misc/references/scenes/scene-1/MS01-L2-hallway.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena — не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya — не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L2-hallway.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L2-hallway.png" alt="MS01-L2-hallway — не одобрено" loading="lazy"></a><figcaption>MS01-L2-hallway · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K4-hallway-boots.png" alt="MS01-K4-hallway-boots — не одобрено" loading="lazy"></a><figcaption>MS01-K4-hallway-boots · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity.
@@ -696,7 +696,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image3 — Соня: PRIMARY exact identity.
 - @Image4 — прихожая: только планировка, вешалка, обувница, зеркало, свет.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Соня — основной лист · id `sonya`
@@ -761,10 +761,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Ночью пришла Соня. Она принесла маяк и жёлтые наушники.»
 - [0:08–0:15] «Она сказала: „Чтобы море стало тише“. Бублик лёг рядом — тёплый и тяжёлый.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Комната Ярика ночью · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Соня — основной лист · @Image3 = Бублик — лист (ракурсы + эмоции) · @Image4 = Комната Ярика ночью · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/sonya.png`; @Image3 = `projects/misc/references/bublik.png`; @Image4 = `projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png`; @Image5 = `projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya — не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik — не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L3-yarik-room-night.png" alt="MS01-L3-yarik-room-night — не одобрено" loading="lazy"></a><figcaption>MS01-L3-yarik-room-night · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" alt="MS01-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS01-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K5-night-lighthouse.png" alt="MS01-K5-night-lighthouse — не одобрено" loading="lazy"></a><figcaption>MS01-K5-night-lighthouse · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (лицо, волосы; сейчас в тёмно-синей пижаме со звёздочками вместо толстовки).
@@ -773,7 +773,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — комната ночью: только планировка, кровать, полка, окно.
 - @Image5 — лист реквизита: только внешний вид жёлтых наушников и маяка-ночника.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Соня — основной лист · id `sonya`
 - @Image3 — Бублик — лист (ракурсы + эмоции) · id `bublik`
@@ -840,10 +840,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:06] «Анна Сергеевна никогда не торопит. Она умеет ждать.»
 - [0:07–0:15] «Сегодня я выложил три картинки: „я“, „хочу“, „тихо“. И меня поняли.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image3 = Кабинет занятий · @Image4 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Анна Сергеевна — лист (ракурсы + эмоции) · @Image3 = Кабинет занятий · @Image4 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/anna-sergeevna.png" target="_blank" rel="noopener"><img src="projects/misc/references/anna-sergeevna.png" alt="anna-sergeevna · не одобрено" loading="lazy"></a><figcaption>anna-sergeevna · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/anna-sergeevna.png`; @Image3 = `projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png`; @Image4 = `projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/anna-sergeevna.png" target="_blank" rel="noopener"><img src="projects/misc/references/anna-sergeevna.png" alt="anna-sergeevna — не одобрено" loading="lazy"></a><figcaption>anna-sergeevna · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L5-therapy-room.png" alt="MS01-L5-therapy-room — не одобрено" loading="lazy"></a><figcaption>MS01-L5-therapy-room · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" alt="MS01-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS01-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K6-three-cards.png" alt="MS01-K6-three-cards — не одобрено" loading="lazy"></a><figcaption>MS01-K6-three-cards · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, наушники на шее).
@@ -851,7 +851,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image3 — кабинет: только планировка, круглый стол, ковёр с волнами, свет.
 - @Image4 — лист реквизита: только вид карточек-пиктограмм (без текста) и жёлтых наушников.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Анна Сергеевна — лист (ракурсы + эмоции) · id `anna-sergeevna`
 - @Image3 — Кабинет занятий · id `loc-therapy-room`
@@ -915,10 +915,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Во дворе всё так же шумно. Но теперь у меня есть наушники.»
 - [0:08–0:15] «Одна девочка села рядом. Я дал ей самое красивое стёклышко.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Бублик — лист (ракурсы + эмоции) · @Image3 = Варя — лист (ракурсы + эмоции) · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Бублик — лист (ракурсы + эмоции) · @Image3 = Варя — лист (ракурсы + эмоции) · @Image4 = Двор с площадкой · @Image5 = Лист реквизита: наушники, банка со стёклышками, маяк-ночник, карточки
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/bublik.png`; @Image3 = `projects/misc/references/varya.png`; @Image4 = `projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png`; @Image5 = `projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik — не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/varya.png" target="_blank" rel="noopener"><img src="projects/misc/references/varya.png" alt="varya — не одобрено" loading="lazy"></a><figcaption>varya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L4-courtyard.png" alt="MS01-L4-courtyard — не одобрено" loading="lazy"></a><figcaption>MS01-L4-courtyard · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-P1-props-sheet.png" alt="MS01-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS01-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K7-gift-glass.png" alt="MS01-K7-gift-glass — не одобрено" loading="lazy"></a><figcaption>MS01-K7-gift-glass · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка, жёлтые наушники на голове).
@@ -927,7 +927,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — двор: только локация (песочница, горка, берёзы).
 - @Image5 — лист реквизита: только вид стёклышек и жёлтых наушников.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Бублик — лист (ракурсы + эмоции) · id `bublik`
 - @Image3 — Варя — лист (ракурсы + эмоции) · id `varya`
@@ -995,10 +995,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:06–0:10] «Но у меня есть маяк — это те, кто рядом.»
 - [0:11–0:15] «Просто побудьте рядом. Этого достаточно.»
 
-**Референсы (план):** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Бублик — лист (ракурсы + эмоции) · @Image5 = Берег и маяк на закате
+**Референсы:** @Image1 = Ярик — основной лист (4 ракурса) · @Image2 = Мама Лена — основной лист · @Image3 = Соня — основной лист · @Image4 = Бублик — лист (ракурсы + эмоции) · @Image5 = Берег и маяк на закате
 
-**Входы — уже сохранённые файлы:** @Image1 = `projects/misc/references/yarik.png` (C1 · Ярик, not_approved). Остальные входы выше пока плановые; дополнительные готовые листы C2–C8 показаны в галерее ниже.
-<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik · не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/yarik-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik-expressions.png" alt="yarik-expressions · не одобрено" loading="lazy"></a><figcaption>yarik-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena · не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena-expressions.png" alt="mama-lena-expressions · не одобрено" loading="lazy"></a><figcaption>mama-lena-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya · не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya-expressions.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya-expressions.png" alt="sonya-expressions · не одобрено" loading="lazy"></a><figcaption>sonya-expressions · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik · не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure></div>
+**Входы:** @Image1 = `projects/misc/references/yarik.png`; @Image2 = `projects/misc/references/mama-lena.png`; @Image3 = `projects/misc/references/sonya.png`; @Image4 = `projects/misc/references/bublik.png`; @Image5 = `projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/yarik.png" target="_blank" rel="noopener"><img src="projects/misc/references/yarik.png" alt="yarik — не одобрено" loading="lazy"></a><figcaption>yarik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mama-lena.png" target="_blank" rel="noopener"><img src="projects/misc/references/mama-lena.png" alt="mama-lena — не одобрено" loading="lazy"></a><figcaption>mama-lena · не одобрено</figcaption></figure><figure><a href="projects/misc/references/sonya.png" target="_blank" rel="noopener"><img src="projects/misc/references/sonya.png" alt="sonya — не одобрено" loading="lazy"></a><figcaption>sonya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/bublik.png" target="_blank" rel="noopener"><img src="projects/misc/references/bublik.png" alt="bublik — не одобрено" loading="lazy"></a><figcaption>bublik · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-L8-seaside-lighthouse.png" alt="MS01-L8-seaside-lighthouse — не одобрено" loading="lazy"></a><figcaption>MS01-L8-seaside-lighthouse · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-1/MS01-K8-beach-hug.png" alt="MS01-K8-beach-hug — не одобрено" loading="lazy"></a><figcaption>MS01-K8-beach-hug · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Ярик: PRIMARY exact identity (красная толстовка).
@@ -1007,7 +1007,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — Бублик: PRIMARY exact identity.
 - @Image5 — берег и маяк: только локация, палитра и вид маяка.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Ярик — основной лист (4 ракурса) · id `yarik`
 - @Image2 — Мама Лена — основной лист · id `mama-lena`
 - @Image3 — Соня — основной лист · id `sonya`
@@ -1079,7 +1079,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 **Что происходит:** Мирону пять лет, и мир для него звучит слишком громко. Дома тихо и безопасно, а на улице, в садике, магазине и парикмахерской звук накрывает его волной, и он плачет и убегает. Мама Вера выбивается из сил, пока в дом не входит бабушка Нина и не находит специалистов. Мирон занимается с Дарьей Андреевной и постепенно спокойно ходит за руку по магазину, терпит стрижку, читает с мамой и пробует слова. Доктор Марк Львович говорит, что школа возможна, но поддержку нельзя прерывать, и вечерами взрослые тревожатся. В финале Мирон летит в космосе над Землёй: он тихий, смелый и надеется.
 
-**Готовность:** DRAFT. Решение владельца 01.11.2026: сцена 2 повторяет структуру рилса, герои собственные, вертикаль 9:16. Картинок ещё нет (список — в `projects/misc/character-references.json`, поля `planned_reference_images`; сводное задание для ChatGPT на рисование — вне репозитория). Запусков не было, Topview-очередь пуста. Техническая проверка изображения не является одобрением владельца.
+**Готовность:** DRAFT. Решение владельца 01.11.2026: сцена 2 повторяет структуру рилса, герои собственные, вертикаль 9:16. Все 33 референса сцены сохранены, но не одобрены владельцем. Видео не запускались. Техническая проверка не означает приёмку.
 **Формат кадра:** вертикаль 9:16 (720×1280), как в оригинальном рилсе. **Запуск в Topview — только с форматом 9:16** (очередь и общие инструкции репозитория по умолчанию 16:9: выставить 9:16 отдельно). Референсы локаций, реквизита и ключевые кадры — вертикальные 9:16; листы персонажей — горизонтальные листы-развёртки.
 
 **Монтажная роль:** целый короткий фильм; порядок B1→B4 (30 с) или A1→A8 (15 с), B1 = A1 + A2, B2 = A3 + A4, B3 = A5 + A6, B4 = A7 + A8. В 30-секундной версии русский закадровый голос Мирона внутри промта (Wan 3.0); в 15-секундной клипы тихие, текст записывается отдельно. Музыка и титры добавляются в редакторе.
@@ -1127,7 +1127,10 @@ _Всего ≈ 260 слов за 120 с: остаётся время на па�
 - [0:16–0:22] «Дома тихо: тёплая лампа, мультики, мамина рука. Здесь мне спокойно.»
 - [0:23–0:30] «А улица гремит гудками, шагами, чужими голосами — всё сразу и прямо в уши.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Гостиная вечером · @Image5 = Городская площадь на закате
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Гостиная вечером · @Image5 = Городская площадь на закате
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/miron-spacesuit.png`; @Image3 = `projects/misc/references/vera.png`; @Image4 = `projects/misc/references/scenes/scene-2/MS02-L1-living-room.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L2-city-square.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/miron-spacesuit.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron-spacesuit.png" alt="miron-spacesuit — не одобрено" loading="lazy"></a><figcaption>miron-spacesuit · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" alt="MS02-L1-living-room — не одобрено" loading="lazy"></a><figcaption>MS02-L1-living-room · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" alt="MS02-L2-city-square — не одобрено" loading="lazy"></a><figcaption>MS02-L2-city-square · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K1-suit-street.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K1-suit-street.png" alt="MS02-K1-suit-street — не одобрено" loading="lazy"></a><figcaption>MS02-K1-suit-street · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K2-home-bubble.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K2-home-bubble.png" alt="MS02-K2-home-bubble — не одобрено" loading="lazy"></a><figcaption>MS02-K2-home-bubble · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1136,7 +1139,7 @@ _Всего ≈ 260 слов за 120 с: остаётся время на па�
 - @Image4 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image5 — площадь: только архитектура, брусчатка, закатный свет, машины.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`
@@ -1227,7 +1230,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:16–0:22] «Когда стригут, ножницы шуршат у самого уха — и я плачу, потому что иначе не умею.»
 - [0:23–0:30] «Врачи советовали сильные лекарства, от которых тянет в сон. Мама плакала по ночам. И однажды в дом вошла бабушка.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Бабушка Нина — основной лист · @Image4 = Парикмахер Лиля — лист · @Image5 = Парикмахерская · @Image6 = Комната Мирона ночью
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Бабушка Нина — основной лист · @Image4 = Парикмахер Лиля — лист · @Image5 = Парикмахерская · @Image6 = Комната Мирона ночью
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/vera.png`; @Image3 = `projects/misc/references/nina.png`; @Image4 = `projects/misc/references/lilya.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/nina.png" target="_blank" rel="noopener"><img src="projects/misc/references/nina.png" alt="nina — не одобрено" loading="lazy"></a><figcaption>nina · не одобрено</figcaption></figure><figure><a href="projects/misc/references/lilya.png" target="_blank" rel="noopener"><img src="projects/misc/references/lilya.png" alt="lilya — не одобрено" loading="lazy"></a><figcaption>lilya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png" alt="MS02-L5-barbershop — не одобрено" loading="lazy"></a><figcaption>MS02-L5-barbershop · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png" alt="MS02-L6-miron-bedroom-night — не одобрено" loading="lazy"></a><figcaption>MS02-L6-miron-bedroom-night · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K3-store-fear.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K3-store-fear.png" alt="MS02-K3-store-fear — не одобрено" loading="lazy"></a><figcaption>MS02-K3-store-fear · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K4-grandma-hug.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K4-grandma-hug.png" alt="MS02-K4-grandma-hug — не одобрено" loading="lazy"></a><figcaption>MS02-K4-grandma-hug · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1237,7 +1243,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — парикмахерская: только кресло, зеркала, планировка.
 - @Image6 — комната Мирона ночью: только кровать, тумбочка, окно.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Бабушка Нина — основной лист · id `nina`
@@ -1331,7 +1337,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:16–0:22] «Я совсем не глупый, я просто учусь по-своему. Посмотрите, что у меня получается!»
 - [0:23–0:30] «Спокойно иду за руку по магазину. Жду у кассы. Терплю стрижку. А вечером мы с мамой читаем, и я пробую слова.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Бабушка Нина — основной лист · @Image3 = Дарья Андреевна (специалист) — лист · @Image4 = Мама Вера — основной лист · @Image5 = Кабинет центра развития · @Image6 = Лист реквизита: стеклянный купол, карточки, книжка, пластилин, счета
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Бабушка Нина — основной лист · @Image3 = Дарья Андреевна (специалист) — лист · @Image4 = Мама Вера — основной лист · @Image5 = Кабинет центра развития · @Image6 = Лист реквизита: стеклянный купол, карточки, книжка, пластилин, счета
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/nina.png`; @Image3 = `projects/misc/references/darya.png`; @Image4 = `projects/misc/references/vera.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L8-development-center.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/nina.png" target="_blank" rel="noopener"><img src="projects/misc/references/nina.png" alt="nina — не одобрено" loading="lazy"></a><figcaption>nina · не одобрено</figcaption></figure><figure><a href="projects/misc/references/darya.png" target="_blank" rel="noopener"><img src="projects/misc/references/darya.png" alt="darya — не одобрено" loading="lazy"></a><figcaption>darya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L8-development-center.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L8-development-center.png" alt="MS02-L8-development-center — не одобрено" loading="lazy"></a><figcaption>MS02-L8-development-center · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png" alt="MS02-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS02-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K5-dome-cards.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K5-dome-cards.png" alt="MS02-K5-dome-cards — не одобрено" loading="lazy"></a><figcaption>MS02-K5-dome-cards · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K6-reading.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K6-reading.png" alt="MS02-K6-reading — не одобрено" loading="lazy"></a><figcaption>MS02-K6-reading · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1341,7 +1350,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — кабинет центра развития: только планировка, стол, окно, полки.
 - @Image6 — лист реквизита: только вид стеклянного купола, карточек, книжки, пластилина, счетов.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Бабушка Нина — основной лист · id `nina`
 - @Image3 — Дарья Андреевна (специалист) — лист · id `darya`
@@ -1444,7 +1453,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:21–0:25] «А мама больше всего боится: что будет со мной, когда её рядом не будет.»
 - [0:26–0:30] «Спасибо, что были рядом эти две минуты. Я лечу и надеюсь.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Бабушка Нина — основной лист · @Image5 = Кухня ночью · @Image6 = Космос и Земля
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Бабушка Нина — основной лист · @Image5 = Кухня ночью · @Image6 = Космос и Земля
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/miron-spacesuit.png`; @Image3 = `projects/misc/references/vera.png`; @Image4 = `projects/misc/references/nina.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/miron-spacesuit.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron-spacesuit.png" alt="miron-spacesuit — не одобрено" loading="lazy"></a><figcaption>miron-spacesuit · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/nina.png" target="_blank" rel="noopener"><img src="projects/misc/references/nina.png" alt="nina — не одобрено" loading="lazy"></a><figcaption>nina · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png" alt="MS02-L11-night-kitchen — не одобрено" loading="lazy"></a><figcaption>MS02-L11-night-kitchen · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png" alt="MS02-L13-space-earth — не одобрено" loading="lazy"></a><figcaption>MS02-L13-space-earth · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K7-school-day.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K7-school-day.png" alt="MS02-K7-school-day — не одобрено" loading="lazy"></a><figcaption>MS02-K7-school-day · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K8-space.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K8-space.png" alt="MS02-K8-space — не одобрено" loading="lazy"></a><figcaption>MS02-K8-space · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1454,7 +1466,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — кухня ночью: только стол, лампа, окно.
 - @Image6 — космос: только Земля, звёзды, палитра.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`
@@ -1554,7 +1566,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Здравствуйте. Я Мирон. Мне пять лет, и словами я пока не говорю.»
 - [0:08–0:15] «Но если бы мог, рассказал бы, каково это, когда мир включён на полную громкость. Такое устройство мозга называется аутизм.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Гостиная вечером · @Image5 = Городская площадь на закате
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Гостиная вечером · @Image5 = Городская площадь на закате
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/miron-spacesuit.png`; @Image3 = `projects/misc/references/vera.png`; @Image4 = `projects/misc/references/scenes/scene-2/MS02-L1-living-room.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L2-city-square.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/miron-spacesuit.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron-spacesuit.png" alt="miron-spacesuit — не одобрено" loading="lazy"></a><figcaption>miron-spacesuit · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" alt="MS02-L1-living-room — не одобрено" loading="lazy"></a><figcaption>MS02-L1-living-room · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" alt="MS02-L2-city-square — не одобрено" loading="lazy"></a><figcaption>MS02-L2-city-square · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K1-suit-street.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K1-suit-street.png" alt="MS02-K1-suit-street — не одобрено" loading="lazy"></a><figcaption>MS02-K1-suit-street · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1563,7 +1578,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image5 — площадь: только архитектура, брусчатка, закатный свет, машины.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`
@@ -1636,7 +1651,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Дома тихо: тёплая лампа, мультики, мамина рука. Здесь мне спокойно.»
 - [0:08–0:15] «А улица гремит гудками, шагами, чужими голосами — всё сразу и прямо в уши.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Гостиная вечером · @Image4 = Городская площадь на закате
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Гостиная вечером · @Image4 = Городская площадь на закате
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/vera.png`; @Image3 = `projects/misc/references/scenes/scene-2/MS02-L1-living-room.png`; @Image4 = `projects/misc/references/scenes/scene-2/MS02-L2-city-square.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" alt="MS02-L1-living-room — не одобрено" loading="lazy"></a><figcaption>MS02-L1-living-room · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" alt="MS02-L2-city-square — не одобрено" loading="lazy"></a><figcaption>MS02-L2-city-square · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K2-home-bubble.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K2-home-bubble.png" alt="MS02-K2-home-bubble — не одобрено" loading="lazy"></a><figcaption>MS02-K2-home-bubble · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1644,7 +1662,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image3 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image4 — площадь: только архитектура, брусчатка, закатный свет, машины.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Гостиная вечером · id `loc-living-room`
@@ -1710,7 +1728,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Когда меня накрывает, я просто бегу — куда угодно, лишь бы подальше, и не вижу ни дороги, ни лиц.»
 - [0:08–0:15] «В садике мы друг друга не понимали. А в магазине растерянные руки сами сбрасывали коробки: я не хулиганю, мне просто слишком много.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Городская площадь на закате · @Image4 = Двор детского сада · @Image5 = Супермаркет — проход между полками
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Городская площадь на закате · @Image4 = Двор детского сада · @Image5 = Супермаркет — проход между полками
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/vera.png`; @Image3 = `projects/misc/references/scenes/scene-2/MS02-L2-city-square.png`; @Image4 = `projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L2-city-square.png" alt="MS02-L2-city-square — не одобрено" loading="lazy"></a><figcaption>MS02-L2-city-square · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L4-kindergarten-yard.png" alt="MS02-L4-kindergarten-yard — не одобрено" loading="lazy"></a><figcaption>MS02-L4-kindergarten-yard · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L3-supermarket.png" alt="MS02-L3-supermarket — не одобрено" loading="lazy"></a><figcaption>MS02-L3-supermarket · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K3-store-fear.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K3-store-fear.png" alt="MS02-K3-store-fear — не одобрено" loading="lazy"></a><figcaption>MS02-K3-store-fear · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1719,7 +1740,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image4 — двор детского сада: только площадка, клумбы, деревья.
 - @Image5 — супермаркет: только проход, полки, свет.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Городская площадь на закате · id `loc-city-square`
@@ -1789,7 +1810,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Когда стригут, ножницы шуршат у самого уха — и я плачу, потому что иначе не умею.»
 - [0:08–0:15] «Врачи советовали сильные лекарства, от которых тянет в сон. Мама плакала по ночам. И однажды в дом вошла бабушка.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Бабушка Нина — основной лист · @Image4 = Парикмахер Лиля — лист · @Image5 = Парикмахерская · @Image6 = Комната Мирона ночью
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Бабушка Нина — основной лист · @Image4 = Парикмахер Лиля — лист · @Image5 = Парикмахерская · @Image6 = Комната Мирона ночью
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/vera.png`; @Image3 = `projects/misc/references/nina.png`; @Image4 = `projects/misc/references/lilya.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/nina.png" target="_blank" rel="noopener"><img src="projects/misc/references/nina.png" alt="nina — не одобрено" loading="lazy"></a><figcaption>nina · не одобрено</figcaption></figure><figure><a href="projects/misc/references/lilya.png" target="_blank" rel="noopener"><img src="projects/misc/references/lilya.png" alt="lilya — не одобрено" loading="lazy"></a><figcaption>lilya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L5-barbershop.png" alt="MS02-L5-barbershop — не одобрено" loading="lazy"></a><figcaption>MS02-L5-barbershop · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L6-miron-bedroom-night.png" alt="MS02-L6-miron-bedroom-night — не одобрено" loading="lazy"></a><figcaption>MS02-L6-miron-bedroom-night · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K4-grandma-hug.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K4-grandma-hug.png" alt="MS02-K4-grandma-hug — не одобрено" loading="lazy"></a><figcaption>MS02-K4-grandma-hug · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1799,7 +1823,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — парикмахерская: только кресло, зеркала, планировка.
 - @Image6 — комната Мирона ночью: только кровать, тумбочка, окно.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Бабушка Нина — основной лист · id `nina`
@@ -1873,7 +1897,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:08] «Бабушка у меня как капитан спасательной шлюпки: ничего не боится. Она обошла полгорода и нашла людей, которые умеют со мной подружиться.»
 - [0:09–0:15] «Теперь мы занимаемся каждый день, помногу.»
 
-**Референсы (план):** @Image1 = Бабушка Нина — основной лист · @Image2 = Дарья Андреевна (специалист) — лист · @Image3 = Мирон — основной лист (4 ракурса) · @Image4 = Мирон в скафандре — лист (4 ракурса) · @Image5 = Коридор клиники и стойка регистрации · @Image6 = Кабинет центра развития
+**Референсы:** @Image1 = Бабушка Нина — основной лист · @Image2 = Дарья Андреевна (специалист) — лист · @Image3 = Мирон — основной лист (4 ракурса) · @Image4 = Мирон в скафандре — лист (4 ракурса) · @Image5 = Коридор клиники и стойка регистрации · @Image6 = Кабинет центра развития
+
+**Входы:** @Image1 = `projects/misc/references/nina.png`; @Image2 = `projects/misc/references/darya.png`; @Image3 = `projects/misc/references/miron.png`; @Image4 = `projects/misc/references/miron-spacesuit.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-L8-development-center.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/nina.png" target="_blank" rel="noopener"><img src="projects/misc/references/nina.png" alt="nina — не одобрено" loading="lazy"></a><figcaption>nina · не одобрено</figcaption></figure><figure><a href="projects/misc/references/darya.png" target="_blank" rel="noopener"><img src="projects/misc/references/darya.png" alt="darya — не одобрено" loading="lazy"></a><figcaption>darya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/miron-spacesuit.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron-spacesuit.png" alt="miron-spacesuit — не одобрено" loading="lazy"></a><figcaption>miron-spacesuit · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L7-clinic-corridor.png" alt="MS02-L7-clinic-corridor — не одобрено" loading="lazy"></a><figcaption>MS02-L7-clinic-corridor · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L8-development-center.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L8-development-center.png" alt="MS02-L8-development-center — не одобрено" loading="lazy"></a><figcaption>MS02-L8-development-center · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K5-dome-cards.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K5-dome-cards.png" alt="MS02-K5-dome-cards — не одобрено" loading="lazy"></a><figcaption>MS02-K5-dome-cards · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Бабушка Нина: PRIMARY exact identity.
@@ -1883,7 +1910,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — коридор клиники: только коридор, стойка, двери.
 - @Image6 — кабинет центра развития: только планировка, стол, окно, полки.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Бабушка Нина — основной лист · id `nina`
 - @Image2 — Дарья Андреевна (специалист) — лист · id `darya`
 - @Image3 — Мирон — основной лист (4 ракурса) · id `miron`
@@ -1959,7 +1986,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Я совсем не глупый, я просто учусь по-своему. Посмотрите, что у меня получается!»
 - [0:08–0:15] «Спокойно иду за руку по магазину. Жду у кассы. Терплю стрижку. А вечером мы с мамой читаем, и я пробую слова.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Дарья Андреевна (специалист) — лист · @Image4 = Парикмахер Лиля — лист · @Image5 = Гостиная вечером · @Image6 = Лист реквизита: стеклянный купол, карточки, книжка, пластилин, счета
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Дарья Андреевна (специалист) — лист · @Image4 = Парикмахер Лиля — лист · @Image5 = Гостиная вечером · @Image6 = Лист реквизита: стеклянный купол, карточки, книжка, пластилин, счета
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/vera.png`; @Image3 = `projects/misc/references/darya.png`; @Image4 = `projects/misc/references/lilya.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L1-living-room.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/darya.png" target="_blank" rel="noopener"><img src="projects/misc/references/darya.png" alt="darya — не одобрено" loading="lazy"></a><figcaption>darya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/lilya.png" target="_blank" rel="noopener"><img src="projects/misc/references/lilya.png" alt="lilya — не одобрено" loading="lazy"></a><figcaption>lilya · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L1-living-room.png" alt="MS02-L1-living-room — не одобрено" loading="lazy"></a><figcaption>MS02-L1-living-room · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-P1-props-sheet.png" alt="MS02-P1-props-sheet — не одобрено" loading="lazy"></a><figcaption>MS02-P1-props-sheet · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K6-reading.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K6-reading.png" alt="MS02-K6-reading — не одобрено" loading="lazy"></a><figcaption>MS02-K6-reading · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -1969,7 +1999,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — гостиная: только планировка, диван, ковёр, телевизор, тёплый свет.
 - @Image6 — лист реквизита: только вид стеклянного купола, карточек, книжки, пластилина, счетов.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Дарья Андреевна (специалист) — лист · id `darya`
@@ -2047,7 +2077,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:01–0:07] «Теперь мы с мамой разговариваем по-настоящему. Мама и смеётся, и плачет сразу.»
 - [0:08–0:15] «Доктор Марк Львович сказал: в обычную школу можно, если не бросать занятия. Но помощь недешёвая, и вечерами взрослые считают, как дальше.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Бабушка Нина — основной лист · @Image4 = Доктор Марк Львович — лист · @Image5 = Школа в день линейки · @Image6 = Кухня ночью
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мама Вера — основной лист · @Image3 = Бабушка Нина — основной лист · @Image4 = Доктор Марк Львович — лист · @Image5 = Школа в день линейки · @Image6 = Кухня ночью
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/vera.png`; @Image3 = `projects/misc/references/nina.png`; @Image4 = `projects/misc/references/mark.png`; @Image5 = `projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/nina.png" target="_blank" rel="noopener"><img src="projects/misc/references/nina.png" alt="nina — не одобрено" loading="lazy"></a><figcaption>nina · не одобрено</figcaption></figure><figure><a href="projects/misc/references/mark.png" target="_blank" rel="noopener"><img src="projects/misc/references/mark.png" alt="mark — не одобрено" loading="lazy"></a><figcaption>mark · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L10-school-entrance.png" alt="MS02-L10-school-entrance — не одобрено" loading="lazy"></a><figcaption>MS02-L10-school-entrance · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L11-night-kitchen.png" alt="MS02-L11-night-kitchen — не одобрено" loading="lazy"></a><figcaption>MS02-L11-night-kitchen · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K7-school-day.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K7-school-day.png" alt="MS02-K7-school-day — не одобрено" loading="lazy"></a><figcaption>MS02-K7-school-day · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -2057,7 +2090,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — школа: только фасад, шарики, гирлянда, дорожка.
 - @Image6 — кухня ночью: только стол, лампа, окно.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мама Вера — основной лист · id `vera`
 - @Image3 — Бабушка Нина — основной лист · id `nina`
@@ -2134,7 +2167,10 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - [0:06–0:10] «А мама больше всего боится: что будет со мной, когда её рядом не будет.»
 - [0:11–0:15] «Спасибо, что были рядом эти две минуты. Я лечу и надеюсь.»
 
-**Референсы (план):** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Бабушка Нина — основной лист · @Image5 = Лошадь Туман — лист (ракурсы) · @Image6 = Космос и Земля
+**Референсы:** @Image1 = Мирон — основной лист (4 ракурса) · @Image2 = Мирон в скафандре — лист (4 ракурса) · @Image3 = Мама Вера — основной лист · @Image4 = Бабушка Нина — основной лист · @Image5 = Лошадь Туман — лист (ракурсы) · @Image6 = Космос и Земля
+
+**Входы:** @Image1 = `projects/misc/references/miron.png`; @Image2 = `projects/misc/references/miron-spacesuit.png`; @Image3 = `projects/misc/references/vera.png`; @Image4 = `projects/misc/references/nina.png`; @Image5 = `projects/misc/references/tuman.png`; @Image6 = `projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png`
+<div class="scene-ref-gallery"><figure><a href="projects/misc/references/miron.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron.png" alt="miron — не одобрено" loading="lazy"></a><figcaption>miron · не одобрено</figcaption></figure><figure><a href="projects/misc/references/miron-spacesuit.png" target="_blank" rel="noopener"><img src="projects/misc/references/miron-spacesuit.png" alt="miron-spacesuit — не одобрено" loading="lazy"></a><figcaption>miron-spacesuit · не одобрено</figcaption></figure><figure><a href="projects/misc/references/vera.png" target="_blank" rel="noopener"><img src="projects/misc/references/vera.png" alt="vera — не одобрено" loading="lazy"></a><figcaption>vera · не одобрено</figcaption></figure><figure><a href="projects/misc/references/nina.png" target="_blank" rel="noopener"><img src="projects/misc/references/nina.png" alt="nina — не одобрено" loading="lazy"></a><figcaption>nina · не одобрено</figcaption></figure><figure><a href="projects/misc/references/tuman.png" target="_blank" rel="noopener"><img src="projects/misc/references/tuman.png" alt="tuman — не одобрено" loading="lazy"></a><figcaption>tuman · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-L13-space-earth.png" alt="MS02-L13-space-earth — не одобрено" loading="lazy"></a><figcaption>MS02-L13-space-earth · не одобрено</figcaption></figure><figure><a href="projects/misc/references/scenes/scene-2/MS02-K8-space.png" target="_blank" rel="noopener"><img src="projects/misc/references/scenes/scene-2/MS02-K8-space.png" alt="MS02-K8-space — не одобрено" loading="lazy"></a><figcaption>MS02-K8-space · не одобрено</figcaption></figure></div>
 
 **Роли входов:**
 - @Image1 — Мирон: PRIMARY exact identity (лицо, волосы, пропорции, жёлтая толстовка).
@@ -2144,7 +2180,7 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 - @Image5 — Лошадь Туман: PRIMARY exact identity.
 - @Image6 — космос: только Земля, звёзды, палитра.
 
-**Референсы по раскадровке (часть готова; актуальные ссылки см. в галерее выше):**
+**Референсы раскадровки (файлы указаны в галерее выше):**
 - @Image1 — Мирон — основной лист (4 ракурса) · id `miron`
 - @Image2 — Мирон в скафандре — лист (4 ракурса) · id `miron`
 - @Image3 — Мама Вера — основной лист · id `vera`

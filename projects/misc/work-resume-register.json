@@ -1,44 +1,34 @@
 {
   "schema_version": 1,
   "project": "misc",
-  "last_updated_at": "2026-11-02T05:18:23.175Z",
+  "last_updated_at": "2026-11-02T07:15:22Z",
   "active_work": [
     {
       "work_id": "MISC-S1-S2-REFERENCES",
       "project": "misc",
       "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
-      "status": "in_progress_8_of_59",
-      "updated_at": "2026-11-02T05:18:23.175Z",
+      "status": "awaiting_editorial_review",
+      "updated_at": "2026-11-02T07:15:22Z",
       "completed": [
         "Прежний C1 сохранён, 1/59; 59 исходных промптов сохранены дословно; привязки C1 опубликованы без приёмки.",
         "02.11: проверены GitHub inventory, Library и соответствие загруженного GPT-TASK каноническим байтам. C1–C7 исключены из повторной генерации до восстановления прежних оригиналов. Три новых неподходящих коллажа отклонены, новых пригодных PNG 0; мастер и очередь сохранены.",
-        "02.11: C2–C8, 7 оригиналов от владельца, загружены в GitHub; C1 сохранён, суммарно 8/59. Ожидается PNG-перекодировка и проверка Pages."
+        "02.11: C2–C8, 7 оригиналов от владельца, загружены в GitHub; C1 сохранён, суммарно 8/59. Ожидается PNG-перекодировка и проверка Pages.",
+        "2026-11-02T07:15:22Z: 59/59 original references recovered and indexed; no rerenders, scene draft remains."
       ],
-      "next_action": "Сделать и проверить C9 (Варя), затем остальные реально отсутствующие; раздельные референсы. После окончания — галереи, приёмка владельца отдельно.",
+      "next_action": "Owner image QC/approval for the two draft scenes; no auto approvals.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-02T03:50:22Z",
-        "last_completed": "Проверка источников и трёх неудачных результатов сохранена; новых пригодных PNG 0, ранее нарисованное не перерисовывалось.",
-        "next_action": "Recover original C2-C6 and resolve C7 without redrawing; check fresh inventory. Continue only missing separate images from number 8 after a single-image generation matches its exact prompt. Save verified originals and publish actual files only; no collage substitutes.",
+        "verified_at": "2026-11-02T07:15:22Z",
+        "last_completed": "59 PNG published, 26 in scene 1, 33 in scene 2; status not_approved.",
+        "next_action": "Owner editorial review.",
         "checkpoint": {
           "file": "projects/misc/reports/current-work-checkpoint.md",
-          "anchor": "# Разное — проверка повторов и блокер отдельных изображений · 02.11.2026",
-          "sha256": "effcb267e3414a1751f1b3538ce63836c8052d028fd043e00d7d975af70628a2"
+          "sha256": "89732bd77c326b531825222caa9e025387b5b4df95a7bb4f489b41fda620b71d"
         },
-        "evidence": [
-          {
-            "file": "projects/misc/reports/reference-generation-attempts-2026-11-02.json",
-            "sha256": "e291ebca1c666baf9f56a5d8f03ea14d0c773ed1be14b0c484b0004ff8f78c04"
-          }
-        ],
         "read_next": [
-          "projects/misc/references/GPT-TASK.md",
-          "projects/misc/reports/reference-generation-attempts-2026-11-02.json",
-          "projects/misc/references/generation-progress.json"
-        ],
-        "blockers": [
-          "Оригиналы C2–C7 из прежнего чата не получены и визуально не проверены. Пустой поиск не доказывает их отсутствия; не повторять до восстановления.",
-          "Три новых результата не соответствуют отдельным изображениям задания; однотипные попытки прекращены. Причина генератора не установлена."
+          "projects/misc/references/usage-index.json",
+          "projects/misc/references/scenes/scene-1/manifest.json",
+          "projects/misc/references/scenes/scene-2/manifest.json"
         ]
       },
       "recovery_history": [
