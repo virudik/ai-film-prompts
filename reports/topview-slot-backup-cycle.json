@@ -2,60 +2,39 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "1e7d8c97-4f27-4835-9d43-496bde10c2bb",
+  "execution_instance_id": "c9bb598e-08ed-410e-b398-36f22943f850",
   "run_id": "cad29e36-a650-8326-ad93-d142db675456",
-  "run_id_source": "Automations.peek current last_run.id; result not yet available",
-  "started_at": "2026-11-02T07:03:40.279430Z",
-  "receipt_started_at": "2026-11-02T07:09:24.230Z",
-  "source_head": "a31842bd57e882f7ad2ece857bf6128b39e84a6a",
+  "run_id_source": "Automations.peek last_run.id, in_progress, started_at 2026-11-02T07:46:32.986365Z; same ID appears in prior receipt whose claimed timestamps precede this runtime, so attribution anomaly retained below",
+  "runtime_id_attribution_anomaly": "Previous receipt reported this run_id while claiming started_at 07:03:40Z, earlier than Automations.peek started_at 07:46:32Z. Current run uses peek observed ID; prior timestamps are not adopted.",
+  "started_at": "2026-11-02T07:52:55.420Z",
+  "receipt_started_at": "2026-11-02T07:52:55.420Z",
+  "source_head": "e41082c92622c10776beda8f36923620d0e2301e",
   "route_generation": 2,
-  "phase": "finished",
-  "stage": "completed",
-  "scan_source": "Authenticated Topview read-only connector",
-  "scan_scope": "14/14 boards,20/20 pages,1009 unique tasks (625 videos;384 images), six direct active taskID reads",
-  "scan_complete": true,
-  "scan_at": "2026-11-02T07:20:09.577Z",
-  "scan_errors": [],
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "slot_capacity": 6,
+  "phase": "started",
+  "stage": "read_only_scan",
+  "scan_source": "GitHub robot Topview telemetry; fresh authenticated Topview connector not exposed to this scheduled runtime",
+  "scan_scope": "not yet independently scanned",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "intermediate_outcome": "no_free_slot",
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
   "retryable": true,
-  "browser_transport": "Topview read-only; TinyFish/browser not invoked at 6/6",
+  "browser_transport": "not invoked",
   "tinyfish_run_ids": [],
   "tinyfish_runs": [],
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_spend_usd": 0,
   "topview_credits_spent": 0,
-  "quota_isolation_verified": false,
   "lease": {
-    "holder": "chatgpt:ordinary:1e7d8c97-4f27-4835-9d43-496bde10c2bb",
-    "acquired_at": "2026-11-02T07:08:34.793Z",
-    "expires_at": "2026-11-02T07:33:34.793Z"
+    "holder": "chatgpt:ordinary:c9bb598e-08ed-410e-b398-36f22943f850",
+    "acquired_at": "2026-11-02T07:52:23.945Z",
+    "expires_at": "2026-11-02T08:04:23.945Z"
   },
-  "active_task_ids": [
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5",
-    "0de1f663432646d294f409a22e20a26e",
-    "b0915b04173c414e9ac08652d34b7852"
-  ],
-  "board_count": 14,
-  "pages_requested": 20,
-  "pages_successful": 20,
-  "total_tasks_observed": 1009,
-  "video_tasks_observed": 625,
-  "image_tasks_observed": 384,
-  "ready_next_if_slot_frees": "S48-SEED20-P2",
-  "readiness_reference_queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
-  "readiness_reference_taskmap_sha256": "071df72224512c82cc8eb754818b5f7d0c8751a6587a2d92468a277554d0537e",
-  "readiness_sha_verified": true,
+  "checked_at": "2026-11-02T07:52:55.420Z",
   "acceptance": {
     "scheduled_run_observed": true,
     "tinyfish_saved_login_reversible_clicks_historical": true,
@@ -63,83 +42,5 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_scheduled_ui_create_verified": false,
     "production_submission_verified": false
-  },
-  "checked_at": "2026-11-02T07:20:09.577Z",
-  "finished_at": "2026-11-02T07:20:09.577Z",
-  "source_head_at_finish": "32581767322d86f420d700c2e627d6255453bab5",
-  "queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
-  "task_map_sha256": "071df72224512c82cc8eb754818b5f7d0c8751a6587a2d92468a277554d0537e",
-  "hash_verification": {
-    "queue": true,
-    "task_map": true,
-    "method": "independent SHA256 UTF8 digest of fresh GitHub canonical source files"
-  },
-  "pending_claim_count": 0,
-  "unknown_item_count": 0,
-  "new_task_ids_verified": [],
-  "active_task_details": [
-    {
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "status": "init",
-      "model_id": "qwen-wan3.0-video",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "status": "init",
-      "model_id": "qwen-wan3.0-video",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "status": "init",
-      "model_id": "seedance-2.0-style",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "status": "init",
-      "model_id": "seedance-2.0-style",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "0de1f663432646d294f409a22e20a26e",
-      "status": "init",
-      "model_id": "seedance-2.0-style",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "b0915b04173c414e9ac08652d34b7852",
-      "status": "init",
-      "model_id": "seedance-2.0-style",
-      "unlimited": true,
-      "credits_cost": 0
-    }
-  ],
-  "scheduled_peer_observation": {
-    "work_hh55_last_run_id": "0f14d584-395c-8330-ae07-a42053f867ac",
-    "work_hh55_last_run_status": "completed",
-    "work_gui_and_quota_recovery_verified": false,
-    "ordinary_last_run_id": "cad29e36-a650-8326-ad93-d142db675456",
-    "ordinary_latest_result_run_id": "e18f3f54-1644-832f-a6c6-78f34eac1ebb",
-    "latest_result_is_prior_run": true,
-    "relay_last_run_id": "e20e98c7-3fc4-832e-a27d-d18a5295b3a0"
-  },
-  "robot_observation": {
-    "last_cycle_at": "2026-11-02T06:40:31Z",
-    "capacity_full": true,
-    "old_issues_not_capacity_proof": true,
-    "latest_bot_slot_issue_event": "slots:124870c7:7",
-    "latest_bot_slot_issue_at": "2026-11-01T07:30:19Z"
-  },
-  "scan_status_counts": {
-    "video_success": 596,
-    "video_fail": 23,
-    "video_init": 6
   }
 }
