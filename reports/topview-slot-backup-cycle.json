@@ -9,8 +9,8 @@
   "receipt_started_at": "2026-11-02T06:04:22.573Z",
   "source_head": "64b5d66fb92d53dd64b2cc19335f3b521d567cfe",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "read_only_scan_completed",
+  "phase": "finished",
+  "stage": "completed",
   "scan_source": "Authenticated Topview connector, all boards and all pages",
   "scan_scope": "14/14 boards,20/20 pages,1009 unique tasks (625 videos;384 images), six active taskID direct reads",
   "scan_complete": true,
@@ -23,7 +23,7 @@
   "task_ids": [],
   "new_submissions": 0,
   "intermediate_outcome": "no_free_slot",
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "Topview read-only connector; TinyFish deliberately not used at 6/6",
@@ -55,7 +55,7 @@
   "ready_next_if_slot_frees": "S48-SEED20-P2",
   "readiness_reference_queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
   "readiness_reference_taskmap_sha256": "6a2dbb04e9977d2213c125c83f173c0bb15b83a576c958357211dabb4bea263f",
-  "readiness_sha_verified": null,
+  "readiness_sha_verified": true,
   "acceptance": {
     "ordinary_scheduled_run_verified": true,
     "tinyfish_signin_ui_in_this_run": false,
@@ -64,5 +64,77 @@
     "verified_new_task_id_in_this_run": false,
     "full_browser_production_launch_verified": false,
     "work_quota_isolation_verified": false
+  },
+  "checked_at": "2026-11-02T06:06:13.105Z",
+  "finished_at": "2026-11-02T06:06:13.105Z",
+  "source_head_at_finish": "bf8383624b7438fca053ee79deee1483d0f167db",
+  "queue_sha256": "39ad763fe1a448f4d9522e108da973eafce2b73f25206a0a257ba90abe0e3328",
+  "task_map_sha256": "6a2dbb04e9977d2213c125c83f173c0bb15b83a576c958357211dabb4bea263f",
+  "hash_verification": "Independent SHA-256 over full raw UTF-8 GitHub files, tested against abc known hash; both equal ops/queue-readiness.json",
+  "pending_claim_count": 0,
+  "unknown_item_count": 0,
+  "new_task_ids_verified": [],
+  "active_task_details": [
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "status": "init",
+      "model_id": "qwen-wan3.0-video",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "status": "init",
+      "model_id": "qwen-wan3.0-video",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "b0915b04173c414e9ac08652d34b7852",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "scheduled_peer_observation": {
+    "work_hh55_last_run_id": "27790517-1d6c-8325-abad-fd555be61179",
+    "work_hh55_last_run_status": "completed",
+    "work_hh55_last_run_started_at": "2026-11-02T05:59:25.370507Z",
+    "work_gui_and_quota_recovery_verified": false,
+    "ordinary_last_run_id": "e18f3f54-1644-832f-a6c6-78f34eac1ebb",
+    "ordinary_latest_result_run_id": "fabbfac0-fdc8-8324-acd5-09c1d8fb15ba",
+    "latest_result_is_prior_run": true
+  },
+  "robot_observation": {
+    "last_cycle_at": "2026-11-02T05:50:27Z",
+    "capacity_full": true,
+    "old_issues_not_capacity_proof": true
+  },
+  "scan_status_counts": {
+    "video_success": 596,
+    "video_fail": 23,
+    "video_init": 6
   }
 }
