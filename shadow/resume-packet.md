@@ -3,11 +3,11 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-02T13:48:50+00:00
+Проверено: 2026-11-02T14:08:22+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
-Последний подтверждённый этап: 14:55 MSK: complete Topview scan6/6, no Create/retry. Phase A healthy. Phase B new failures were verified resolved by later successful runs/current health or by the 59-reference restoration commit; no blind rerun.
-Следующий шаг: At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S59-P3 stays blocked pending owner decision or a suitable real airborne source; no synthetic reset.
+Последний подтверждённый этап: 16:55 MSK: complete Topview scan 6/6, no Create/retry. S52 exact continuity tail fully decoded and all 72 frames inspected as an ordered contact sheet; audio stream present but not listened and Drive preview failed, so dependent launch remains blocked.
+Следующий шаг: At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S52-R2-P2 remains blocked pending continuous real-time playback with audio; S59-P3 remains blocked by the premature finished landing.
 
 ## Контрольная точка
 
