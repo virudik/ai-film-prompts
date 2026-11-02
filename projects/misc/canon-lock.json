@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:20261102-customer-pricing-revision",
-  "task": "Разное: корректировка PDF-сметы Grok, цены с риском ретейков, публичный раздел, D7 checkpoint",
-  "acquired_at": "2026-11-02T11:47:24.225Z",
-  "expires_at": null,
-  "released_at": "2026-11-02T12:02:15.284Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:20261102-retail-rub-misc",
+  "task": "Разное: цены генераций без подписки по рублёвым покупным пакетам, сайт, HANDOFF, checkpoint",
+  "acquired_at": "2026-11-02T12:22:02.123Z",
+  "expires_at": "2026-11-02T13:02:02.123Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "misc"
 }
