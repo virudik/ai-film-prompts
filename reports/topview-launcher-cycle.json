@@ -9,25 +9,56 @@
   "receipt_started_at": "2026-11-02T10:59:43.473Z",
   "source_head": "10f04bac4a36f039df1be3b505f803489140ed46",
   "route_generation": 2,
-  "phase": "started",
-  "stage": "started",
-  "scan_source": null,
-  "scan_scope": null,
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "phase": "finished",
+  "stage": "finished",
+  "scan_source": "Topview authenticated full read-only all-board video scan",
+  "scan_scope": "all_boards_all_video_pages",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e"
+  ],
   "new_submissions": 0,
-  "outcome": null,
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": "All six physical video slots are active; no Create/retry. S59-P3 also blocked by reviewed source-continuity defect: S59-P2 finishes already landed.",
   "retryable": true,
-  "browser_transport": null,
+  "browser_transport": "cloud_cdp_authenticated_read_only",
   "topview_credits_spent": 0,
   "quota_isolation_verified": false,
   "lease": {
     "holder": "chatgpt:work:c926ccdf-4d02-423c-9fa4-fe777806d12a",
     "acquired_at": "2026-11-02T10:59:23.948Z",
     "expires_at": "2026-11-02T11:29:23.948Z"
+  },
+  "completed_at": "2026-11-02T11:18:32.530Z",
+  "boards_scanned": 14,
+  "pages_scanned": 23,
+  "video_tasks_scanned": 626,
+  "continuity_preparation": {
+    "source_item_id": "S59-SEED20-P2",
+    "target_item_id": "S59-SEED20-P3",
+    "source_task_id": "b0915b04173c414e9ac08652d34b7852",
+    "assessment": "qc_rejected_for_s59_p3_continuity_premature_finished_landing",
+    "report": "reports/topview-quality-2026-11-02/S59-SEED20-P2-b0915b04-review.json",
+    "continuity_input_created": false
+  },
+  "launcher_coordination": {
+    "preferred_executor_restored_to": "work",
+    "route_generation": 3,
+    "ordinary_peer_kept_enabled": true,
+    "evidence_work_run_id": "c2c492fb-1aac-8329-9c71-fffadbb55e22"
+  },
+  "maintenance": {
+    "owner_tasks_open": 0,
+    "phase_a_due": false,
+    "phase_b_due": false,
+    "weekly_cleanup_due": false
   }
 }

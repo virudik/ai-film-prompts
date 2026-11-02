@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-02T10:25:00.548Z",
+  "updated_at": "2026-11-02T11:18:32.530Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3595,7 +3595,7 @@
       "board_name": "My First Board",
       "blocker": null,
       "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
-      "updated_at": "2026-10-29T08:09:07.085Z",
+      "updated_at": "2026-11-02T11:18:32.530Z",
       "owner_source_override": {
         "at": "2026-10-23T21:04:37.842561Z",
         "decision": "Owner attachment replaces first-part generation; continue its true ending. Prior P1 submit/complete dependency is satisfied by supplied video, not a fabricated Topview success.",
@@ -3647,7 +3647,35 @@
         "result": "submitted",
         "task_id": "b0915b04173c414e9ac08652d34b7852"
       },
-      "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json"
+      "receipt": "reports/topview-queue-2026-10-16/S59-SEED20-P2-20261029.json",
+      "result": {
+        "provider_status": "success",
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "completed_at": "2026-11-02T09:53:20Z",
+        "source_original": {
+          "sha256": "f7497e68d5503d7fc4080f29448b8f73ab690d9d892bd47eaa4920c7fa18069b",
+          "bytes": 11720569,
+          "video": {
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "fps": 24,
+            "frames": 361,
+            "duration_seconds": 15.104
+          },
+          "audio": {
+            "codec": "aac",
+            "channels": 2,
+            "sample_rate_hz": 32000,
+            "frames": 473
+          },
+          "drive_file_id": "1s7AoVvOJCTaCnVTviOW1huz4CgpMhaM_",
+          "archive_verified": true
+        },
+        "qc_report": "reports/topview-quality-2026-11-02/S59-SEED20-P2-b0915b04-review.json",
+        "assessment": "qc_rejected_for_s59_p3_continuity_premature_finished_landing",
+        "owner_approved": false
+      }
     },
     {
       "id": "S59-SEED20-P3",
@@ -3656,7 +3684,7 @@
       "canonical_block_label": "59 · Seedance 2.0 часть 3",
       "priority": 0.52,
       "state": "blocked_inputs",
-      "launch_readiness": "blocked_missing_continuity_input",
+      "launch_readiness": "blocked_continuity_defect",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -3676,17 +3704,19 @@
           "slot": "@Video1",
           "canonical_role": "actual_previous_part_last3s",
           "required": true,
-          "input_status": "pending_previous_result",
+          "input_status": "blocked_source_qc",
           "source_item_id": "S59-SEED20-P2",
-          "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+          "source_requirement": "Source S59-P2 was reviewed and ends after a finished landing. Master contract forbids using/resetting this ending for S59-P3; wait for owner decision or a suitable real airborne source. No synthetic substitute.",
+          "qc_report": "reports/topview-quality-2026-11-02/S59-SEED20-P2-b0915b04-review.json"
         },
         {
           "slot": "@Image1",
           "canonical_role": "actual_previous_part_final_frame",
           "required": true,
-          "input_status": "pending_previous_result",
+          "input_status": "blocked_source_qc",
           "source_item_id": "S59-SEED20-P2",
-          "source_requirement": "Wait actual success, extract last3s/finalframe, visually QC no roof rider or geometry jump, save materialized file SHA before ready. No synthetic predicted substitute."
+          "source_requirement": "Source S59-P2 was reviewed and ends after a finished landing. Master contract forbids using/resetting this ending for S59-P3; wait for owner decision or a suitable real airborne source. No synthetic substitute.",
+          "qc_report": "reports/topview-quality-2026-11-02/S59-SEED20-P2-b0915b04-review.json"
         },
         {
           "slot": "@Image2",
@@ -3712,9 +3742,9 @@
       "authorization": "Direct owner24Oct2026: expand scene59 continuation into three15s parts within existing queue. One website Unlimited0 attempt per selected part; no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Wait actual59P2 result, last3s/finalframe and continuity QC",
+      "blocker": "S59-P2 succeeded but ends with the ship already fully landed/parked on gear in the forest. The S59-P3 master requires an airborne opening and explicitly forbids concealing a finished landing by resetting the first frame. Do not create last3s/final-frame continuity inputs; owner decision or a new suitable source is required. No automatic artistic rerender.",
       "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
-      "updated_at": "2026-10-23T21:26:54.103042Z",
+      "updated_at": "2026-11-02T11:18:32.530Z",
       "owner_expansion": {
         "at": "2026-10-23T21:26:54.103042Z",
         "decision": "Owner requests three separate continuations after existingP1: atmosphere/forest, landing, basket exit. Prior single15s landing/exit prompt replaced before submission.",

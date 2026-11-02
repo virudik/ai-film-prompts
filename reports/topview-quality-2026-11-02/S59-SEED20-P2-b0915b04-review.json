@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "item_id": "S59-SEED20-P2",
+  "task_id": "b0915b04173c414e9ac08652d34b7852",
+  "reviewed_at": "2026-11-02T11:18:32.530Z",
+  "source": {
+    "provider_status": "success",
+    "original_sha256": "f7497e68d5503d7fc4080f29448b8f73ab690d9d892bd47eaa4920c7fa18069b",
+    "original_bytes": 11720569,
+    "width": 1280,
+    "height": 720,
+    "codec": "h264",
+    "fps": 24,
+    "frames": 361,
+    "duration_seconds": 15.104,
+    "audio": {
+      "present": true,
+      "codec": "aac",
+      "channels": 2,
+      "sample_rate_hz": 32000,
+      "frames": 473,
+      "listened": false
+    },
+    "drive_archive": {
+      "verified": true,
+      "file_id": "1s7AoVvOJCTaCnVTviOW1huz4CgpMhaM_",
+      "filename": "b0915b04173c414e9ac08652d34b7852.mp4",
+      "bytes": 11720569
+    }
+  },
+  "review_scope": {
+    "visual": "sampled at 2 fps plus six keyframes and the full-resolution final frame",
+    "continuous_full_frame_rate_view": false,
+    "audio_listened": false,
+    "limitation": "Audio stream was measured but could not be played in this environment. This is not a full continuous review with sound."
+  },
+  "findings": [
+    "The ship transitions from orbital/planet approach through clouds into the warm forest.",
+    "No obvious roof rider, duplicated ship, or exterior human was visible in the sampled frames.",
+    "During the final several seconds the ship completes the landing and is already parked on its landing gear in the forest."
+  ],
+  "continuity_contract": {
+    "target_item": "S59-SEED20-P3",
+    "required_opening": "airborne approach with landing gear retracted; P3 performs the landing",
+    "canonical_rule": "If Part2 ends with a crash, roof rider, changed ship or a finished landing, stop preparation and record the defect; do not conceal it by resetting the first frame.",
+    "violation": "finished_landing_in_source"
+  },
+  "assessment": "qc_rejected_for_s59_p3_continuity_premature_finished_landing",
+  "owner_approved": false,
+  "continuity_input_created": false,
+  "automatic_rerender_authorized": false,
+  "next_action": "Keep S59-P3 blocked. Await an owner decision or a suitable real airborne source; do not synthesize/reset the handoff and do not auto-rerender successful S59-P2."
+}

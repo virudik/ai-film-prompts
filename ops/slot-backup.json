@@ -5,7 +5,7 @@
   "enabled": true,
   "transport": "scheduled_poll",
   "active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "route_generation": 2,
+  "route_generation": 3,
   "relay_identity": "chatgpt-slot-backup",
   "relay_address": "chatgpt-slot-backup@cloud-242278071146024960",
   "relay_subscription_required": false,
@@ -19,7 +19,8 @@
   "browser_launch_verified_for_this_backup": false,
   "owner_decision": "31.10.2026: обычный ChatGPT основной пока лимит Work исчерпан; Work резерв. Оба независимо проверяют общую очередь/claims и подстраховывают друг друга. После доказанного восстановления вернуть Work предпочтение. Продолжай передаёт интерактивную ответственность сменщику. Новая прямая команда 31.10: обычный исполнитель каждый час в начале часа (:00), вместо прежних двух часов; существующий Work HH:55 и робот не изменены.",
   "primary_automation_ids": [
-    "6ae5e9d563f88191aa6da7c9ba1e05a0"
+    "6adc585e7ac08191bb93825117dc7213",
+    "6acae6ab433481919e88665c520b8ef2"
   ],
   "rules": [
     "ops/LAUNCHER-COORDINATION.md",
@@ -71,14 +72,21 @@
       "previous_route_generation": 1,
       "previous_active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
       "reason": "direct owner report: Work quota exhausted; ordinary ChatGPT primary"
+    },
+    {
+      "at": "2026-11-02T11:18:32.530Z",
+      "previous_preferred_executor": "ordinary",
+      "previous_route_generation": 2,
+      "previous_active_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "reason": "Work preference restored after a valid completed Work runtime submitted S48-P2 with verified task/receipt, current authenticated GUI control, and visible Unlimited free mode / Topview credits cost 0. Ordinary and Grok remain enabled reserves."
     }
   ],
-  "preferred_executor": "ordinary",
+  "preferred_executor": "work",
   "applied_owner_request_id": "owner-20261031-ordinary-primary",
-  "updated_at": "2026-11-01T08:20:30Z",
+  "updated_at": "2026-11-02T11:18:32.530Z",
   "reserve_automation_ids": [
-    "6adc585e7ac08191bb93825117dc7213",
-    "6acae6ab433481919e88665c520b8ef2"
+    "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "topview-grok"
   ],
   "coordination_rules": "ops/LAUNCHER-COORDINATION.md",
   "coordination_guard": "scripts/launcher_coordination.py",
@@ -86,15 +94,26 @@
   "preferred_role_is_not_exclusive": true,
   "wait_for_other_executor_failure_ack": false,
   "work_capacity": {
-    "state": "exhausted",
-    "source": "direct_owner_report",
-    "reported_at": "2026-10-31T16:39:49Z",
-    "platform_quota_independently_verified": false
+    "state": "restored_verified",
+    "source": "verified_work_runtime_gui_and_unlimited0",
+    "verified_at": "2026-11-02T11:18:32.530Z",
+    "evidence": {
+      "completed_work_run_id": "c2c492fb-1aac-8329-9c71-fffadbb55e22",
+      "submitted_item": "S48-SEED20-P2",
+      "submitted_task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "canonical_receipt_commit": "263e2ef6e5c661fefe06ba1e9af90e97f4120a6e",
+      "current_work_run_id": "a84f9920-95ec-8322-b563-c1cd05e0c299",
+      "browser": "authenticated Topview My First Board controls available",
+      "quota": "visible Unlimited free mode; credits cost 0"
+    },
+    "platform_quota_independently_verified": true
   },
   "restore_work_primary": {
     "authorized_by_owner": true,
     "requires": "fresh direct owner confirmation OR verified Work runtime, GUI controls and available quota; never enabled/no_update/elapsed time",
-    "ordinary_schedule_stays_enabled": true
+    "ordinary_schedule_stays_enabled": true,
+    "restored_at": "2026-11-02T11:18:32.530Z",
+    "evidence": "Completed Work runtime c2c492fb-1aac-8329-9c71-fffadbb55e22 produced verified S48-P2 task de8e44bb15d64dc7a4eb640d27a726e4 and canonical receipt commit 263e2ef6e5c661fefe06ba1e9af90e97f4120a6e; current authenticated Topview GUI displayed Unlimited free and credits0."
   },
   "peers": {
     "ordinary": {

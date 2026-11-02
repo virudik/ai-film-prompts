@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "source_queue_sha256": "7df1966c80397cd1e439c6092f544b24a0390182092f043129c716a3b99dcaf1",
+  "source_queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
   "source_task_map_sha256": "47fa1ef3ee319e62404e2e6294f7d546f7b64305462005a491e6f699f4416ae8",
-  "topview_checked_at": "2026-11-02T11:10:23Z",
+  "topview_checked_at": "2026-11-02T11:01:05.094Z",
   "items": [
     {
       "id": "S13-S13",
@@ -260,10 +260,11 @@
       "id": "S59-SEED20-P3",
       "scene_id": 59,
       "part_label": "Часть 3",
-      "code": "prepare_continuity",
+      "code": "blocked_continuity_defect",
       "ready": false,
-      "text": "@Video1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык; @Image1: результат 59 · Seedance 2.0 часть 2 получен — подготовить и проверить стык",
-      "queue_state": "blocked_inputs"
+      "text": "S59-P2 success reviewed: final seconds show the ship already fully landed/parked. S59-P3 must open airborne and its master forbids hiding a finished landing by resetting the first frame. No continuity derivative created; owner decision or suitable real source required.",
+      "queue_state": "blocked_inputs",
+      "qc_report": "reports/topview-quality-2026-11-02/S59-SEED20-P2-b0915b04-review.json"
     },
     {
       "id": "S59-SEED20-P4",
@@ -474,5 +475,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-02T11:10:29.592325Z"
+  "checked_at": "2026-11-02T11:18:32.530Z"
 }
