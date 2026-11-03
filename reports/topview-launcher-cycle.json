@@ -2,180 +2,48 @@
   "schema_version": 1,
   "source": "scheduled_work_hh55",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "execution_instance_id": "65b76b50-3d12-4bfe-9868-cc3b1a082447",
-  "run_id": "9a54c880-ba48-8333-ba31-db1d068b482a",
-  "run_id_source": "actual automation last_run.id for scheduled_for 2026-11-03T11:55:00Z",
-  "started_at": "2026-11-03T11:51:41.695568Z",
-  "receipt_started_at": "2026-11-03T11:52:37.676Z",
-  "source_head": "bcab639f57d5e115d40f2044d3848fe3f86f39a2",
+  "execution_instance_id": "98b1128b-9b91-4549-b653-b3d715016f29",
+  "run_id": "e2349dd1-4430-832a-98cb-5b6b1e41b8cb",
+  "run_id_source": "Automations.peek actual last_run.id for scheduled_for 2026-11-03T12:55:00Z",
+  "started_at": "2026-11-03T12:58:31.573303Z",
+  "receipt_started_at": "2026-11-03T13:00:12.731Z",
+  "source_head": "b07c1f303aa164686789c158ada6905e3e73fdf3",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "complete",
-  "scan_source": "fresh complete Topview account-wide video-task enumeration",
-  "scan_scope": "all boards and all video-task pages",
-  "scan_complete": true,
-  "scan_completed_at": "2026-11-03T11:54:00Z",
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "boards_scanned": 14,
-  "pages_scanned": 18,
-  "video_tasks_scanned": 626,
-  "active_tasks": [
-    {
-      "item": "S48-P2",
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item": "S71",
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item": "S72",
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item": "S61-P1",
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item": "S60-P1",
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item": "S62-P1",
-      "task_id": "0de1f663432646d294f409a22e20a26e",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "unlimited": true,
-      "credits_cost": 0
-    }
-  ],
+  "phase": "started",
+  "stage": "started",
+  "scan_source": null,
+  "scan_scope": null,
+  "scan_complete": false,
+  "scan_completed_at": null,
+  "occupied_slots": null,
+  "free_slots": null,
+  "boards_scanned": null,
+  "pages_scanned": null,
+  "video_tasks_scanned": null,
+  "active_tasks": [],
   "selected_item": null,
   "new_submissions": [],
-  "outcome": "no_free_slot",
-  "blocker": "Fresh complete scan verified all six global physical video slots occupied.",
-  "retryable": true,
+  "outcome": null,
+  "blocker": null,
+  "retryable": null,
   "current_cycle_topview_gui_quota_rechecked": false,
-  "lease": {
-    "holder": "chatgpt:work:65b76b50-3d12-4bfe-9868-cc3b1a082447",
-    "acquired_at": "2026-11-03T11:52:29.232Z",
-    "expires_at": "2026-11-03T12:22:29.232Z",
-    "release_pending": true
-  },
-  "completed_at": "2026-11-03T11:56:03.535Z",
-  "inventory_tasks_scanned": 1010,
-  "video_status_counts": {
-    "success": 597,
-    "init": 6,
-    "fail": 23
-  },
-  "next_ready_item": "S56-SEED20-P2",
-  "gui_quota_note": "Not rechecked because no free slot; existing Work recovery evidence remains historical and was not treated as current-cycle proof.",
-  "queue_reconciliation": {
-    "submitted_task_ids_expected": 13,
-    "submitted_task_ids_found": 13,
-    "open_claims": {
-      "claimed": 0,
-      "submitting": 0,
-      "submission_unknown": 0
-    },
-    "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
-    "task_map_sha256": "b58b55ac72d2bc0be367cec601895cfc3355235304e065d98f1605795bf68a19",
-    "readiness_checked_at": "2026-11-03T11:50:26.171283Z",
-    "topview_checked_at": "2026-11-03T11:50:21Z"
-  },
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "actual_last_run_id": "28812956-8ac4-8332-854a-265e39d74060",
-    "latest_result_run_id": "28812956-8ac4-8332-854a-265e39d74060",
+    "actual_last_run_id": "e222751f-4280-8329-92e4-4dd6306a72ae",
+    "latest_result_run_id": "e222751f-4280-8329-92e4-4dd6306a72ae",
     "ids_match": true,
     "receipt_path": "reports/topview-slot-backup-cycle.json",
     "receipt_phase": "finished",
-    "receipt_outcome": "no_free_slot",
-    "current_work_execution_independently_verified_by_scan": true
-  },
-  "maintenance": {
-    "phase_a": {
-      "due": true,
-      "completed": true,
-      "self_heal": "ok",
-      "owner_tasks_open": 0,
-      "claude_open_over_3h": 0,
-      "project_status": {
-        "health": "ok",
-        "synced_at": "2026-11-03T11:50:25Z",
-        "fresh_under_40_minutes": true
-      },
-      "canon_health": {
-        "status": "ok",
-        "warnings": 0,
-        "info": 9
-      },
-      "actions": {
-        "canon_health": {
-          "run_id": 41631038168,
-          "conclusion": "success"
-        },
-        "canonical_master": {
-          "run_id": 41630961738,
-          "conclusion": "success"
-        },
-        "topview_robot": {
-          "run_id": 41630691458,
-          "conclusion": "success"
-        },
-        "self_heal": {
-          "run_id": 41630559285,
-          "conclusion": "success"
-        },
-        "drive_copy": {
-          "run_id": 41623060241,
-          "conclusion": "success"
-        },
-        "pages_last_confirmed_success_run_id": 41629416451,
-        "current_completed_failure": false
-      }
-    },
-    "phase_b": {
-      "due": true,
-      "completed": true,
-      "gmail_query": "after:2026/11/01 \"virudik/ai-film-prompts\" -in:spam -in:trash",
-      "message_count": 26,
-      "all_pages": true,
-      "next_page_token": null,
-      "new_message_ids_since_last_success": [],
-      "mail_state_changed": false,
-      "current_action_failure": false,
-      "repair_performed": false,
-      "rerun_performed": false
-    },
-    "phase_c": {
-      "due": false,
-      "completed": false
-    }
+    "receipt_outcome": "no_free_slot"
   },
   "monitor_role": {
     "status": "not_checked",
-    "reason": "local git checkout absent in this managed runtime; no robot heartbeat imitated"
+    "reason": "local git checkout absent in managed runtime; no robot heartbeat imitated"
+  },
+  "lease": {
+    "holder": "chatgpt:work:98b1128b-9b91-4549-b653-b3d715016f29",
+    "acquired_at": "2026-11-03T13:00:01.594Z",
+    "expires_at": "2026-11-03T13:30:01.594Z",
+    "release_pending": true
   }
 }
