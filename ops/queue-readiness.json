@@ -465,5 +465,5 @@
     }
   ],
   "rule": "Derived readiness only; actual free slot, latest owner decisions, exact input materialization/QC and Unlimited0 preflight still required.",
-  "checked_at": "2026-11-03T23:01:14.879422Z"
+  "checked_at": "2026-11-03T23:01:38.809Z"
 }
