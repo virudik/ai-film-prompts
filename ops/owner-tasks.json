@@ -202,9 +202,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41728164706 Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt:work:94a92687-739e-4c4d-8bed-f463a6b8ea90",
-      "taken_at": "2026-11-03T22:56:27.726Z"
+      "taken_at": "2026-11-03T22:56:27.726Z",
+      "result": "Причина подтверждена по Actions run 41728164706: Canon health и публикация прошли, намеренно упал только шаг уведомления о двух новых service-file-size warnings — reports/current-work-checkpoint.md >80 КБ и work-resume-register.json >100 КБ. Выполнена штатная архивная чистка с записью архивов до сокращения live-файлов: 28 checkpoint-разделов и 14 завершённых register-пунктов перенесены дословно; terminal items S48-SEED20-P1 и S58-SEED20-P2 перенесены из live queue с сохранением stubs, readiness пересчитана. Три существующих automation prompt приведены к точному owner-task правилу без изменения schedules/triggers; Relay subscription проверена active. Проверено: canon-health.json status=ok, warnings=0; новый Actions run 41735782935 завершён success, notification step skipped; consistency report status=ok.",
+      "result_commit": "57a5d2eef27f9648aa9a23086ba7744d78ecd92a",
+      "closed_at": "2026-11-03T23:05:11.090Z"
     }
   ]
 }
