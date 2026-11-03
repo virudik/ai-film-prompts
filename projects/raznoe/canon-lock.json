@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "grok:raznoe-cost-client",
-  "task": "Разное: клиентский текст «Стоимость производства» (t201u/t202u)",
-  "acquired_at": "2026-11-03T14:59:09Z",
-  "expires_at": null,
-  "released_at": "2026-11-03T15:01:36Z",
+  "task": "Разное: кнопка PDF в «Стоимость производства» (t207u)",
+  "acquired_at": "2026-11-03T15:08:55Z",
+  "expires_at": "2026-11-03T15:38:55Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
