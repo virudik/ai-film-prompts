@@ -1,26 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-02T13:44:27Z",
+  "checked_at": "2026-11-03T12:55:54Z",
   "window_hours": 24,
-  "verdict": "free_slots_idle_no_schedule_launch",
-  "launches": [
-    {
-      "item": "S48-SEED20-P2",
-      "scene_id": 48,
-      "claimed_at": "2026-11-02T10:15:58Z",
-      "run_id": "",
-      "source": "chat"
-    }
-  ],
+  "verdict": "no_free_slots",
+  "launches": [],
   "launches_by_schedule": 0,
-  "launches_by_chat": 1,
-  "free_slot_observations": [
-    {
-      "at": "2026-11-02T10:00:29Z",
-      "occupied": 5,
-      "capacity": 6
-    }
-  ],
+  "launches_by_chat": 0,
+  "free_slot_observations": [],
   "ready_items_waiting": 30,
   "launcher_health": {
     "state": "capacity_full",
@@ -74,7 +60,7 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "124870c7",
-    "checked_at": "2026-11-02T13:00:37Z"
+    "checked_at": "2026-11-03T12:00:29Z"
   },
   "launcher_observation_stale": false,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
