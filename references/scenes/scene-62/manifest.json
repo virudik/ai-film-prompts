@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 62,
-  "updated_at": "2026-10-23T18:26:35.912877Z",
-  "status": "first_part_inputs_ready_second_part_waits_own_result",
+  "updated_at": "2026-11-03T16:01:33.238Z",
+  "status": "first_part_result_success_qc_rejected_second_part_blocked_continuity_overshoot",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -122,7 +122,24 @@
   "pending_video": {
     "role": "P2_previous_part_end",
     "source_item_id": "S62-SEED20-P1",
-    "status": "required_not_available",
-    "required": true
+    "status": "result_available_qc_rejected",
+    "required": true,
+    "source_task_id": "0de1f663432646d294f409a22e20a26e",
+    "derivative_status": "not_created",
+    "blocker": "Actual P1 already reaches the final three-person triangle with blue/green sabers lit. Canonical P2 would replay this action; owner decision or a suitable earlier real handoff is required."
+  },
+  "part1_result": {
+    "item_id": "S62-SEED20-P1",
+    "task_id": "0de1f663432646d294f409a22e20a26e",
+    "provider_status": "success",
+    "completed_at": "2026-11-03T14:50:36Z",
+    "resource_id": "ee6090be539b4926bde1306942aa11e0",
+    "duration_seconds": 15.104,
+    "width": 1280,
+    "height": 720,
+    "source_archived": false,
+    "qc_status": "rejected_for_p2_continuity_overshoot",
+    "qc_report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json",
+    "owner_approved": false
   }
 }
