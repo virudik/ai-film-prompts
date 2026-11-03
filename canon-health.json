@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-03T22:17:23Z",
-  "status": "warn",
-  "warnings": 2,
+  "checked_at": "2026-11-03T23:02:39Z",
+  "status": "ok",
+  "warnings": 0,
   "info": 8,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
@@ -53,18 +53,6 @@
       "code": "ops-stale",
       "text": "ops/TOPVIEW-VIDEO-ARCHIVE.md: проверялся 18.10.2026, больше 14 дней назад.",
       "file": "ops/TOPVIEW-VIDEO-ARCHIVE.md"
-    },
-    {
-      "level": "warn",
-      "code": "service-file-size",
-      "text": "reports/current-work-checkpoint.md: 86 КБ (предел 80 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
-      "file": "reports/current-work-checkpoint.md"
-    },
-    {
-      "level": "warn",
-      "code": "service-file-size",
-      "text": "work-resume-register.json: 101 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
-      "file": "work-resume-register.json"
     }
   ]
 }
