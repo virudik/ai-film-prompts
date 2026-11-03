@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "item_id": "S62-SEED20-P1",
+  "task_id": "0de1f663432646d294f409a22e20a26e",
+  "reviewed_at": "2026-11-03T16:01:21.758Z",
+  "source_head": "b9f1f6f580af5ad6e9167d0704a220758c1ace57",
+  "source_result": {
+    "status": "success",
+    "completed_at": "2026-11-03T14:50:36Z",
+    "resource_id": "ee6090be539b4926bde1306942aa11e0",
+    "duration_seconds": 15.104,
+    "width": 1280,
+    "height": 720,
+    "model": "Seedance 2.0",
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "unlimited": true,
+    "credits_cost": 0
+  },
+  "inspection": {
+    "scope": "sampled_browser_visual_qc",
+    "continuous_full_frame_rate_view": false,
+    "audio_listened": false,
+    "audio_note": "Browser playback was unmuted, but this execution had no auditable audio output; sound is not claimed checked.",
+    "samples": [
+      {
+        "time_seconds": 0,
+        "observation": "Artem lies frame-left and Ilyusha frame-right in the expected ruins; both hilts unlit."
+      },
+      {
+        "time_seconds": 4,
+        "observation": "Both Jedi are already upright with distinct identities and costumes; recovery is visually compressed but geography remains readable."
+      },
+      {
+        "time_seconds": 8,
+        "observation": "Red open-top hotrod and seated Serega appear beside the right obelisk; vehicle identity and location are preserved."
+      },
+      {
+        "time_seconds": 12,
+        "observation": "Serega walks from frame-right with an unlit hilt, matching the intended P1 handoff state at this moment."
+      },
+      {
+        "time_seconds": 15,
+        "observation": "The clip has already reached the final triangle: Ilyusha foreground-left with blue blade lit, Artem deeper centre-left with green blade lit, Serega frame-right."
+      }
+    ]
+  },
+  "assessment": "qc_rejected_for_s62_p2_continuity_overshoot",
+  "critical_defect": {
+    "category": "continuity_overshoot_and_action_replay",
+    "detail": "Canonical P1 must end while Serega is still walking around the right obelisk with the final triangle not yet reached. Canonical P2 is responsible for forming the pair, igniting blue/green once, closing the gap and landing on the exact triangle only in the last half-second. Actual P1 already completes that P2 end state by 15s.",
+    "dependent_item": "S62-SEED20-P2",
+    "effect": "blocked_inputs; do not make a last3s derivative for launch and do not submit P2 from this source without an owner decision or a suitable real earlier handoff."
+  },
+  "positive_observations": [
+    "Opening prone geography matches the supplied start.",
+    "Vehicle and desert-ruin continuity remain recognisable.",
+    "Serega's hilt remains unlit in the sampled final frame.",
+    "Final identities and blue/green blade ownership are visually readable."
+  ],
+  "owner_approved": false,
+  "editorial_approval": false,
+  "auto_retry_authorized": false,
+  "retry_performed": false,
+  "source_archive": {
+    "archived": false,
+    "reason": "Cloud-browser download path was isolated from the managed workspace; provider original remained accessible by task/resource ID. No archive or SHA is claimed."
+  },
+  "queue_effect": "Block S62-SEED20-P2 only. Independent ready items remain eligible after a fresh free-slot scan.",
+  "evidence": {
+    "provider_task_id": "0de1f663432646d294f409a22e20a26e",
+    "canonical_master_blob_sha": "394fc51f46cd6bb7c2881b042ba8dcfeed166f3d",
+    "manifest_blob_sha": "29598ddafe752c2db9a47df123039af98084d357"
+  }
+}
