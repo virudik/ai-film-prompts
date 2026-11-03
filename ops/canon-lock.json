@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok",
-  "task": "FUTURE-PLANS + пауза Grok + claude-wake off + закрытия (решение владельца 03.11)",
-  "acquired_at": "2026-11-03T14:47:35Z",
-  "expires_at": null,
-  "released_at": "2026-11-03T14:53:33Z",
+  "state": "held",
+  "holder": "grok:4a9ecceb-1b40-41cd-9c17-4ca33e650c56",
+  "task": "Семейные сайты: FAMILY-SITES, GUIDE, HANDOFF, handoff-log, FUTURE-PLANS, instruction-sync-status (t186u/t193u)",
+  "acquired_at": "2026-11-03T14:56:31Z",
+  "expires_at": "2026-11-03T15:41:31Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
