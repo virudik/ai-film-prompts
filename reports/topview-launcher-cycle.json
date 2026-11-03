@@ -2,153 +2,34 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled Work HH:55",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "execution_instance_id": "2bee0c86-f0a0-46b4-892a-95a80f4e0c55",
-  "run_id": "ee0c38da-b46c-8322-a213-f52f85a79e45",
-  "run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-03T06:55:00Z; observed in_progress",
-  "started_at": "2026-11-03T06:56:44.807285Z",
-  "receipt_started_at": "2026-11-03T06:58:14Z",
-  "source_head": "c84c62a901e45c3038e549dddd088a54d8fdb260",
+  "execution_instance_id": "c8faeebd-610c-458b-95ee-28d03a30f3c0",
+  "run_id": "56608e49-b190-832d-bd5f-e02967763326",
+  "run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-03T07:55:00Z; observed in_progress",
+  "started_at": "2026-11-03T07:57:09.795426Z",
+  "receipt_started_at": "2026-11-03T07:59:07.877Z",
+  "source_head": "e368ff52a8123aafcb76969b8d2928c02af0bc86",
   "route_generation": 3,
-  "phase": "completed",
-  "stage": "no_free_slot",
-  "scan_source": "Topview connected read-only full video-board scan",
-  "scan_scope": "all 14 boards; all 18 video result pages; global six physical video slots",
-  "scan_complete": true,
-  "scan_completed_at": "2026-11-03T07:03:24.748Z",
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "boards_scanned": 14,
-  "pages_scanned": 18,
-  "video_tasks_scanned": 626,
-  "active_tasks": [
-    {
-      "item": "S48-P2",
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "billing_mode": "Unlimited",
-      "credits": 0
-    },
-    {
-      "item": "S71",
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "billing_mode": "Unlimited",
-      "credits": 0
-    },
-    {
-      "item": "S72",
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "billing_mode": "Unlimited",
-      "credits": 0
-    },
-    {
-      "item": "S61-P1",
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "billing_mode": "Unlimited",
-      "credits": 0
-    },
-    {
-      "item": "S60-P1",
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "billing_mode": "Unlimited",
-      "credits": 0
-    },
-    {
-      "item": "S62-P1",
-      "task_id": "0de1f663432646d294f409a22e20a26e",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "billing_mode": "Unlimited",
-      "credits": 0
-    }
-  ],
+  "phase": "started",
+  "stage": "started",
+  "scan_source": null,
+  "scan_scope": null,
+  "scan_complete": false,
+  "scan_completed_at": null,
+  "occupied_slots": null,
+  "free_slots": null,
+  "boards_scanned": null,
+  "pages_scanned": null,
+  "video_tasks_scanned": null,
+  "active_tasks": [],
   "selected_item": null,
   "new_submissions": 0,
-  "outcome": "no_free_slot",
-  "blocker": "global_video_capacity_6_of_6",
-  "retryable": true,
+  "outcome": null,
+  "blocker": null,
+  "retryable": null,
   "current_cycle_topview_gui_quota_rechecked": false,
   "lease": {
-    "holder": "chatgpt:work:2bee0c86-f0a0-46b4-892a-95a80f4e0c55",
-    "acquired_at": "2026-11-03T06:57:52.996Z",
-    "expires_at": "2026-11-03T07:27:52.997Z"
-  },
-  "completed_at": "2026-11-03T07:03:24.748Z",
-  "source_head_at_completion": "ae6d619a1bb5fa22ca0ec47e87be564e28670c89",
-  "queue_reconciliation": {
-    "submitted_task_ids_checked": 13,
-    "submitted_task_ids_found": 13,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
-    "task_map_sha256": "de4db71b22b13b4e77446e481968dff57064a57b54fba9064c1d6073dbbdc3fa",
-    "readiness_match": true,
-    "next_ready_item": "S56-SEED20-P2"
-  },
-  "current_cycle_quota_evidence": "Live task records showed all six active tasks in Unlimited mode at credits 0; no fresh browser GUI quota claim was made.",
-  "phase_a": {
-    "due": true,
-    "completed": true,
-    "self_heal": "ok",
-    "owner_tasks_open": 0,
-    "project_status_health": "ok",
-    "project_status_synced_at": "2026-11-03T06:30:48Z",
-    "project_status_fresh_under_40_minutes": true,
-    "canon_health": "ok",
-    "canon_warnings": 0,
-    "actions": {
-      "projects_status": 41560001910,
-      "canon_health": 41593195580,
-      "canonical_master": 41592585554,
-      "pages_last_success": 41592427500
-    },
-    "current_failure": false,
-    "repair_performed": false
-  },
-  "phase_b": {
-    "due": true,
-    "completed": true,
-    "query": "after:2026/11/01 from:(notifications@github.com) \"ai-film-prompts\" -in:spam -in:trash",
-    "results": 26,
-    "all_pages": true,
-    "next_page_token": null,
-    "new_message_ids": [
-      "1a19e7dd07ec77a7",
-      "1a19e7e146f7e216"
-    ],
-    "new_failure_messages": 0,
-    "current_failure": false,
-    "gmail_state_changed": false
-  },
-  "monitor_role": {
-    "status": "not_checked",
-    "reason": "managed workspace has no local git checkout; fresh GitHub main used instead"
-  },
-  "ordinary_peer": {
-    "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "last_run_id": "9b20c170-1b1c-8321-afd2-cab4e6c74202",
-    "latest_result_run_id": "9b20c170-1b1c-8321-afd2-cab4e6c74202",
-    "result_run_id_matches": true,
-    "receipt_matches": true
-  },
-  "work_recovery_check": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "changed_this_cycle": false,
-    "current_actual_work_runtime_id": "ee0c38da-b46c-8322-a213-f52f85a79e45",
-    "fresh_gui_quota_claim": false
-  },
-  "recorded_commits": {
-    "checkpoint": "71de14e51e7c4d28c63f7e2361e9ed7a769ace7e",
-    "register": "ae6d619a1bb5fa22ca0ec47e87be564e28670c89"
+    "holder": "chatgpt:work:c8faeebd-610c-458b-95ee-28d03a30f3c0",
+    "acquired_at": "2026-11-03T07:58:58.640Z",
+    "expires_at": "2026-11-03T08:28:58.640Z"
   }
 }
