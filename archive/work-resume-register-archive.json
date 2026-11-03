@@ -3,6 +3,32 @@
   "description": "Finished work moved from work-resume-register.json at the weekly cleanup; newest first. History only, not live work.",
   "completed_work": [
     {
+      "work_id": "PROJECT-CLEANUP-20261026",
+      "title": "Безопасная чистка и архивирование служебных файлов",
+      "status": "completed_verified_configuration",
+      "updated_at": "2026-10-25T23:21:43.952564Z",
+      "owner_request": "Делай — первые четыре пункта аудита",
+      "completed": [
+        "Root checkpoint/history safely archived; two provider-success queue items archived with exact task IDs and prompt hashes; remaining items/readiness unchanged.",
+        "17 prior active works reviewed: one completed restoration closed,16 ongoing/planned retained; done and completed histories both bounded; obsolete resume order archived in4 entries.",
+        "Historical Relay setup moved verbatim; all current operational rules and original receipt/dedup data retained.",
+        "Operation journal has lossless500-event retention in both publishers, same CAS commit, archive-first writes and safe interrupted/rejected-push retry; archive starts at first real overflow.",
+        "285 tests passed; site/health/certificate/D7 checks passed. No new automation, video, claim, credit use or media modifications."
+      ],
+      "next_action": "Normal authorized project work from fresh main. First real journal overflow and Relay slots-event require their own production evidence; do not fabricate them.",
+      "canonical_refs": [
+        "reports/service-cleanup-2026-10-26.json",
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "ops/ROBOT-TELEMETRY.md"
+      ],
+      "constraints": [
+        "No media cleanup, new generation, schedule change or fabricated production receipts.",
+        "Preserve all unfinished work and dependency IDs; root scope only."
+      ],
+      "completed_at": "2026-10-25T23:21:43.952564Z",
+      "pre_checkpoint_commit": "6cf99f26c6267c065e580a904e13efd96d0c119c"
+    },
+    {
       "work_id": "PROJECT-AUDIT-20261023",
       "title": "Сверка прерываний, изображений и дублей автоматизации",
       "status": "completed_verified",
@@ -950,6 +976,25 @@
     }
   ],
   "trimmed_done": [
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "completed": [
+        "00:55 MSK cycle 4 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Current ordinary run is in_progress while its latest_result/receipt remain the older run, so current execution was not inferred; Relay had no events; phases A/B/C were not due.",
+        "23:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
+        "22:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
+        "21:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
+        "20:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 29 current project messages; three new S62/launch-stalled/closed-issue signals were already superseded by verified S56-P2 and current 6/6, with no current failure, mail mutation or rerun.",
+        "18:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no transient/unknown claims, no Create/retry and 0 credits. Sampled browser QC of S62-P1 at 0/4/8/12/15s found a critical continuity overshoot: by 15s it already reaches the final triangle and blue/green ignition reserved for P2. S62-P2 blocked; no derivative, auto-rerender or owner approval. Audio not audited and source archive unavailable through the isolated browser download path.",
+        "09:55 MSK cycle 3 Nov: complete 14-board/18-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 26 current GitHub-notification results; two new PR #272 push/merge messages were informational, and no new workflow failure required repair.",
+        "16:55 MSK cycle 2 Nov: complete 14-board/23-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. S52-R2-P1 exact tail SHA reverified; all 72 derivative frames inspected in order and both streams decoded without errors. Drive preview failed and audio was not listened, so S52-R2-P2 remains blocked pending continuous real-time playback with sound.",
+        "14:55 MSK cycle 2 Nov: complete 14-board/23-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 queue task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B checked 23 GitHub notifications (all pages), processed 7 new messages: Projects status run 41434091622 was superseded by successful runs 41434546355 and later; one-shot misc recovery runs 41403028264/41403561936 were followed by commit 32581767322d86f420d700c2e627d6255453bab5 restoring 59 originals and the workflow was removed. No current failure or blind rerun; Gmail state unchanged.",
+        "14:01 MSK cycle 2 Nov: complete 14-board/23-page scan found626 video tasks and6/6 active Unlimited0; no Create/retry. S59-P2 success/archive verified, but sampled QC shows it ends fully landed/parked, violating S59-P3 airborne-start contract; no continuity derivative or auto-rerender. Work restored as preferred executor from verified completed runtime+GUI+Unlimited0; ordinary and Grok remain enabled reserves, route generation3.",
+        "13:20 MSK cycle 2 Nov: S59-P2 success freed one slot; after full 14-board video scan/reconciliation, S48-SEED20-P2 submitted once as task de8e44bb15d64dc7a4eb640d27a726e4, Seedance2.0/15s/720p/16:9/Video1+Image1–6/Unlimited0. Post-scan 626 videos and6/6 active; no retry/second click. Phases A/B not due; Work recovery not inferred while runtime remained in_progress.",
+        "10:55 MSK check 2 Nov: complete 14-board/28-page Topview scan found 1009 tasks and 6/6 active Unlimited0 Seregius videos; all 12 queue task IDs reconciled, no Create/claim/retry. While full, archived actual S52-R2-P1 and prepared its exact real last72-frame/3s tail in Drive (SHA d9c0d470...); sampled visual QC only, audio not listened, so S52-R2-P2 remains blocked pending full continuous audio QC.",
+        "09:55 MSK check 2 Nov: complete 14-board/20-page Topview scan found1009 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Phase B reviewed26 new GitHub failure mails /22 run IDs; later successes/current validators resolve all observed issues, no blind rerun.",
+        "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun."
+      ]
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "completed": [
