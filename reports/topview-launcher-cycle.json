@@ -2,189 +2,34 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled Work HH:55",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "execution_instance_id": "c73090da-1221-4884-8b3a-74a8bcc45283",
-  "run_id": "bd3bb622-9580-8320-b527-83b9f530fd41",
-  "run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-03T04:55:00Z; observed in_progress",
-  "started_at": "2026-11-03T04:51:21.684799Z",
-  "receipt_started_at": "2026-11-03T04:52:49Z",
-  "source_head": "6b702577788e17b7b92650ddcbce4a8009199cd1",
+  "execution_instance_id": "af8f9208-9e6e-4ccb-aa36-50cfae096158",
+  "run_id": "f4839ad1-e410-832b-8a6f-80adaa856045",
+  "run_id_source": "Automations.peek current last_run.id; scheduled_for 2026-11-03T05:55:00Z; observed in_progress",
+  "started_at": "2026-11-03T05:58:54.226876Z",
+  "receipt_started_at": "2026-11-03T06:00:03Z",
+  "source_head": "7cf0229ae9f0e65fed2141f663ba3b2ba3cde7ba",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finished",
-  "scan_source": "Topview board-task connector read-only",
-  "scan_scope": "all_boards_all_video_pages; 14 boards; 18 pages at pageSize 100",
-  "scan_complete": true,
-  "scan_completed_at": "2026-11-03T04:53:24.928Z",
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "boards_scanned": 14,
-  "pages_scanned": 18,
-  "video_tasks_scanned": 626,
-  "provider_status_counts": {
-    "success": 597,
-    "init": 6,
-    "fail": 23
-  },
-  "active_tasks": [
-    {
-      "item_id": "S48-SEED20-P2",
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "model": "Seedance 2.0",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits": 0
-    },
-    {
-      "item_id": "S71-WAN30",
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "model": "Wan 3.0",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits": 0
-    },
-    {
-      "item_id": "S72-WAN30",
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "model": "Wan 3.0",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits": 0
-    },
-    {
-      "item_id": "S61-SEED20-P1",
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "model": "Seedance 2.0",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits": 0
-    },
-    {
-      "item_id": "S60-SEED20-P1",
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "model": "Seedance 2.0",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits": 0
-    },
-    {
-      "item_id": "S62-SEED20-P1",
-      "task_id": "0de1f663432646d294f409a22e20a26e",
-      "status": "init",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "model": "Seedance 2.0",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits": 0
-    }
-  ],
+  "phase": "started",
+  "stage": "started",
+  "scan_source": null,
+  "scan_scope": null,
+  "scan_complete": false,
+  "scan_completed_at": null,
+  "occupied_slots": null,
+  "free_slots": null,
+  "boards_scanned": null,
+  "pages_scanned": null,
+  "video_tasks_scanned": null,
+  "active_tasks": [],
   "selected_item": null,
-  "task_ids": [
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5",
-    "0de1f663432646d294f409a22e20a26e"
-  ],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
-  "blocker": "All 6 physical video slots are active; no Create/retry is permitted in this cycle.",
-  "retryable": true,
-  "browser_transport": "Topview connector read-only; no browser/Create UI opened because complete scan proved 6/6 occupied",
-  "topview_credits_spent": 0,
+  "outcome": null,
+  "blocker": null,
+  "retryable": null,
   "current_cycle_topview_gui_quota_rechecked": false,
-  "reconciled_queue_task_ids": 13,
-  "unresolved_claim_states": [],
-  "technical_fail_candidates": 0,
-  "readiness": {
-    "source_queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
-    "source_task_map_sha256": "1493f1aeb7b82122c3dc222677b36edac5bfb6b95dd2cd2d27f3f5a114002647",
-    "queue_sha_verified": true,
-    "task_map_sha_verified": true,
-    "readiness_checked_at": "2026-11-03T04:50:26.298034Z"
-  },
-  "next_ready_item": {
-    "id": "S56-SEED20-P2",
-    "priority": 0.31,
-    "launch_readiness": "authorized_inputs_available",
-    "slot_reserved": false
-  },
   "lease": {
-    "holder": "chatgpt:work:c73090da-1221-4884-8b3a-74a8bcc45283",
-    "acquired_at": "2026-11-03T04:52:26.257Z",
-    "expires_at": "2026-11-03T05:22:26.258Z"
-  },
-  "peer_ordinary": {
-    "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "last_run_id": "663f19e8-63a0-8333-9471-c2f1ef7afba3",
-    "last_run_status": "completed",
-    "latest_result_run_id": "663f19e8-63a0-8333-9471-c2f1ef7afba3",
-    "current_run_match": true,
-    "receipt_run_id": "663f19e8-63a0-8333-9471-c2f1ef7afba3",
-    "receipt_current_run_match": true
-  },
-  "work_recovery_registry": {
-    "preferred_executor": "work",
-    "route_generation": 3,
-    "state": "restored_verified",
-    "route_changed": false,
-    "current_cycle_gui_quota_evidence": false
-  },
-  "takeover": {
-    "mode": "short",
-    "reason": "Canonical instruction and launcher profile SHAs unchanged; fresh main/live files accepted."
-  },
-  "preparation": {
-    "safe_new_continuity_work_available": false,
-    "checked_items": [
-      "S52-R2-SEED20-P2",
-      "S59-SEED20-P3"
-    ],
-    "reason": "No new source success appeared. S52 exact tail still requires continuous playback with audio; S59-P3 source ends after landing and must not be synthetically reset."
-  },
-  "maintenance": {
-    "cycle": "07:55 Europe/Moscow",
-    "phase_a_due": false,
-    "phase_a_completed": false,
-    "phase_b_due": false,
-    "phase_b_completed": false,
-    "phase_v_due": false,
-    "owner_tasks_open": 0,
-    "local_monitor_role": "not_checked",
-    "local_monitor_reason": "managed workspace has no repository checkout; canonical connector checks completed",
-    "self_heal": "ok",
-    "project_status": {
-      "health": "ok",
-      "synced_at": "2026-11-03T04:50:25Z"
-    },
-    "canon_health": {
-      "status": "ok",
-      "warnings": 0,
-      "info": 9
-    }
-  },
-  "source_head_at_finish": "6b5de534d0d4e133a96c827a73969dc82d2dd16d",
-  "finished_at": "2026-11-03T04:53:24.928Z"
+    "holder": "chatgpt:work:af8f9208-9e6e-4ccb-aa36-50cfae096158",
+    "acquired_at": "2026-11-03T05:59:42.199Z",
+    "expires_at": "2026-11-03T06:29:42.200Z"
+  }
 }
