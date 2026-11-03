@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-02T11:09:48Z",
+  "checked_at": "2026-11-03T10:54:41Z",
   "mode": "sync",
   "summary": {
-    "written": 1,
-    "current": 9
+    "current": 6,
+    "written": 4
   },
   "files": [
     {
@@ -11,32 +11,32 @@
       "github_sha256": "21ccfd8c2e9066851af654cda05d223c13d18a7eca33978167c673a429f24a64",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
       "drive_sha256": "21ccfd8c2e9066851af654cda05d223c13d18a7eca33978167c673a429f24a64",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-11-02T11:09:37.469Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
+      "github_sha256": "6240dd1c3810707322a4e2c78f1b794c45a2441f4cf49214aad37d7abec5c180",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "840e9a2d935e2043ca101153352b5e073170af146aa9c3e9f82ca3c7799d1f12",
-      "status": "current",
-      "drive_modified": "2026-11-01T10:28:54.795Z"
+      "drive_sha256": "6240dd1c3810707322a4e2c78f1b794c45a2441f4cf49214aad37d7abec5c180",
+      "status": "written",
+      "drive_modified": "2026-11-03T10:54:22.740Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
-      "github_sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
+      "github_sha256": "5d2598c39d2e1282a9c6c96c39e2d3da1765be768033c3e02f3154c433ebe627",
       "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_sha256": "9703745d6994388f45a81848b247ead0ea363b6b9b0d93043fd0abf05238d726",
-      "status": "current",
-      "drive_modified": "2026-11-01T10:28:58.179Z"
+      "drive_sha256": "5d2598c39d2e1282a9c6c96c39e2d3da1765be768033c3e02f3154c433ebe627",
+      "status": "written",
+      "drive_modified": "2026-11-03T10:54:26.670Z"
     },
     {
       "name": "AI-PROJECT-GUIDE.md",
-      "github_sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
+      "github_sha256": "13d60e5f7d34bfe986085bdedca2dae298f251710ccd166efd901002da601385",
       "file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_sha256": "1a000c657ec9f3685a7187fd29d42bfa96f1c2d87d64750f7a59028c7378726b",
-      "status": "current",
-      "drive_modified": "2026-11-01T10:29:02.325Z"
+      "drive_sha256": "13d60e5f7d34bfe986085bdedca2dae298f251710ccd166efd901002da601385",
+      "status": "written",
+      "drive_modified": "2026-11-03T10:54:30.716Z"
     },
     {
       "name": "PROMPT-STYLE-GUIDE.md",
@@ -48,11 +48,11 @@
     },
     {
       "name": "USER-GUIDE.md",
-      "github_sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
+      "github_sha256": "f04f1f75f060c0e55c9ae52c591b6321c6e2db67436fa0de189241bbabc98235",
       "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_sha256": "58502c1791ea2d9c9fb54326338c8aaf31ff11f2f2d914816dd7e090f7279f4a",
-      "status": "current",
-      "drive_modified": "2026-11-01T10:29:09.499Z"
+      "drive_sha256": "f04f1f75f060c0e55c9ae52c591b6321c6e2db67436fa0de189241bbabc98235",
+      "status": "written",
+      "drive_modified": "2026-11-03T10:54:35.638Z"
     },
     {
       "name": "README-AI-SYNC.md",
