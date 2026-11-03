@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-03T15:09:55+00:00",
-  "source_head": "559c6a455ce6139601d847c1de2b85c6ee88a486",
-  "source_fingerprint": "7ff52d7110783eeb5a9df1299fd510c5660bc3c87bdaa7d7a9ef53d4fbf07e86",
+  "checked_at": "2026-11-03T15:23:46+00:00",
+  "source_head": "d20f826054f1098cd88eb5210ae08012fd452de7",
+  "source_fingerprint": "58f0c47debf2116830f0037e500cc7385a439d4ca3e5b0840d8f75bb16144803",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -215,7 +215,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "88b7e3ab69478cd975f00579bbdbb247a9d9805ab46d013cfab3aae7672d3d35",
+      "sha256": "f465bcf9f598279aba64a0f81153f94cad651ad029beca13d854ee53e99e5149",
       "bytes": 22433
     },
     {
@@ -245,7 +245,7 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "8fbc3c0b9dae9dd060c09823684d1b8740b47ff9d3962a9175052aaae400ca73",
+      "sha256": "b53eb64c1694c339942dbcd09c7fc259a3b01349996971400218a20275651130",
       "bytes": 8617
     },
     {
@@ -290,8 +290,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "33d7d907d14c4bace67f11571bbbaa9c339a6ac7f8a347223634ded0a49bdd52",
-      "bytes": 288063
+      "sha256": "ce33836edff206cc38f78e4df13322be86966f6baa2b1febeec95b837d6bb691",
+      "bytes": 287420
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
@@ -310,13 +310,13 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "55fb28e2663ce01785da859977e695ae242fc7e7da1c1f46b5f3b19de24b36d8",
+      "sha256": "32122e854c9139919c3c6e5f993c213b2c23cf9e437a0d52c484feb8de3577b0",
       "bytes": 25134
     },
     {
       "file": "video-prompts.md",
-      "sha256": "1c2e59ee039c2118f27851db23631c8f586ee8300a581030641af55e2b92284f",
-      "bytes": 1351135
+      "sha256": "c05b0cdab14610e816ae213db5c60376e1b5c24f74d4f7bfe55c08a2759ee8f2",
+      "bytes": 1351457
     }
   ],
   "packet_bytes": 5704
