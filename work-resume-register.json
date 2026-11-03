@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-03T11:55:43.155Z",
+  "last_updated_at": "2026-11-03T13:02:57.355Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-03T11:55:43.155Z",
+      "updated_at": "2026-11-03T13:02:57.355Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK cycle 3 Nov: complete 14-board/18-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 26 current GitHub-notification results; two new PR #272 push/merge messages were informational, and no new workflow failure required repair.",
@@ -140,11 +140,13 @@
         "result": "No current failure. Gmail returned the same 26 project messages as the confirmed 09:55 check; no mail state changed."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-03T11:55:43.155Z",
+        "checked_at": "2026-11-03T13:02:57.355Z",
+        "runtime_run_id": "e2349dd1-4430-832a-98cb-5b6b1e41b8cb",
+        "execution_instance_id": "98b1128b-9b91-4549-b653-b3d715016f29",
         "boards": 14,
         "pages": 18,
         "total_tasks": 1010,
-        "page_size": 50,
+        "page_size": 100,
         "video_tasks": 626,
         "status_counts": {
           "success": 597,
@@ -159,45 +161,69 @@
         "active": [
           {
             "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-            "item": "S48-P2",
             "status": "init",
             "unlimited": true,
-            "credits_cost": 0
+            "credits_cost": 0,
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "model": "Seedance 2.0",
+            "duration_seconds": 15,
+            "resolution": 720,
+            "aspect_ratio": "16:9"
           },
           {
             "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-            "item": "S71",
             "status": "init",
             "unlimited": true,
-            "credits_cost": 0
+            "credits_cost": 0,
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "model": "Wan 3.0",
+            "duration_seconds": 30,
+            "resolution": 720,
+            "aspect_ratio": "16:9"
           },
           {
             "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-            "item": "S72",
             "status": "init",
             "unlimited": true,
-            "credits_cost": 0
+            "credits_cost": 0,
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "model": "Wan 3.0",
+            "duration_seconds": 30,
+            "resolution": 720,
+            "aspect_ratio": "16:9"
           },
           {
             "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-            "item": "S61-P1",
             "status": "init",
             "unlimited": true,
-            "credits_cost": 0
+            "credits_cost": 0,
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "model": "Seedance 2.0",
+            "duration_seconds": 15,
+            "resolution": 720,
+            "aspect_ratio": "16:9"
           },
           {
             "task_id": "025955aad2cf494da2b4104d26c36ed5",
-            "item": "S60-P1",
             "status": "init",
             "unlimited": true,
-            "credits_cost": 0
+            "credits_cost": 0,
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "model": "Seedance 2.0",
+            "duration_seconds": 15,
+            "resolution": 720,
+            "aspect_ratio": "16:9"
           },
           {
             "task_id": "0de1f663432646d294f409a22e20a26e",
-            "item": "S62-P1",
             "status": "init",
             "unlimited": true,
-            "credits_cost": 0
+            "credits_cost": 0,
+            "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+            "model": "Seedance 2.0",
+            "duration_seconds": 15,
+            "resolution": 720,
+            "aspect_ratio": "16:9"
           }
         ],
         "submitted_task_ids_expected": 13,
@@ -209,11 +235,11 @@
         },
         "readiness": {
           "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
-          "task_map_sha256": "b58b55ac72d2bc0be367cec601895cfc3355235304e065d98f1605795bf68a19",
-          "checked_at": "2026-11-03T11:50:26.171283Z",
-          "topview_checked_at": "2026-11-03T11:50:21Z"
+          "task_map_sha256": "4954218da9ade2e5fb4ca04e89bd5319de860ca24661902d5f7408ac36d36e43",
+          "checked_at": "2026-11-03T12:40:28.039671Z",
+          "topview_checked_at": "2026-11-03T12:40:22Z"
         },
-        "result": "no_free_slot; no claim, intent, Create or retry"
+        "result": "no_free_slot; no claim, intent, Create, retry or browser transport"
       },
       "last_relay_event": {
         "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
@@ -1520,7 +1546,7 @@
     "set_at": "2026-10-29T23:39:59+00:00",
     "reason": "Explicitly selected by the authorized task writer",
     "next_action": "At the next real peer wake, perform a fresh complete all-board scan and reconcile task IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as the next live priority with exact continuity/QC/readiness and Unlimited0 under own lease/CAS; do not reserve a slot. S52-R2-P2 remains pending continuous real-time playback with audio; S59-P3 remains blocked by the finished landing.",
-    "updated_at": "2026-11-03T11:55:43.155Z"
+    "updated_at": "2026-11-03T13:02:57.355Z"
   },
   "last_instruction_review": {
     "at": "2026-11-01T00:16:17.370251Z",
