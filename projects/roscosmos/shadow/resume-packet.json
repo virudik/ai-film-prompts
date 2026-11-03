@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-03T00:05:27+00:00",
-  "source_head": "7b4705e6a1c605450333dfd5a09068bd815b8604",
-  "source_fingerprint": "2e2c6ac49be4af2d104cdea7263952a0da569a0c349a3432e37bcf5712ac63d2",
+  "checked_at": "2026-11-03T00:33:55+00:00",
+  "source_head": "8cca1e872802b63f904e48d701ce801f12e13f78",
+  "source_fingerprint": "31432e116c6bf7433bd516714c68849a21feac6f8c97578892fde4401cbbad9f",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -197,7 +197,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "448d9746912c3aaa21325759b87121d264351138677a3d2e415c2735f6765d0f",
+      "sha256": "2c237e716d93460efffdb12f130877631ad07d6fd361b202929143e91724f535",
       "bytes": 22432
     },
     {
@@ -227,8 +227,8 @@
     },
     {
       "file": "projects/roscosmos/project-status.json",
-      "sha256": "098093dd210423f90e48c9c4c6e79be9e674b82f15bde5b241a5a21f611472f0",
-      "bytes": 21746
+      "sha256": "c9bdf7c3848c4d8d128af35067cf54674cbc860db67e5ddfd64dc95289ae44ea",
+      "bytes": 21798
     },
     {
       "file": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json",
@@ -237,8 +237,8 @@
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "sha256": "fd377440f9673376b24cf3fe5c95e371baaf871cbe5911f1f11ca1e22d16e2d6",
-      "bytes": 14973
+      "sha256": "381750672f106aca7ced2681489094af287d784ab02f7b36a197a38c82f55186",
+      "bytes": 15042
     },
     {
       "file": "projects/roscosmos/reports/handoff-receipts.json",
@@ -247,8 +247,8 @@
     },
     {
       "file": "projects/roscosmos/video-prompts.md",
-      "sha256": "4673ef7c63a7b308e9d62b8d229df8111df7995da414cb034613219595b859e2",
-      "bytes": 537449
+      "sha256": "20cf0cd51edeff4375750ea496f9bdf24efcc1757738a70e785162dc5d429cff",
+      "bytes": 539193
     },
     {
       "file": "projects/roscosmos/work-resume-register.json",
