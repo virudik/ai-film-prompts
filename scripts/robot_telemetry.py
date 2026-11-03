@@ -496,6 +496,7 @@ class GhNotifier:
                        text=True, capture_output=True, env=env)
         c = subprocess.run(["gh", "api", "repos/{owner}/{repo}/issues", "-f", f"title={wake_issue_title(signal)}",
                             "-f", f"body={wake_issue_body(signal)}", "-f", f"labels[]={WAKE_LABEL}",
+                            "-f", f"assignees[]={WAKE_ASSIGNEE}",     # owner decision 04.11.2026: Grok wakes on issue-assigned
                             "--jq", '.number, .html_url'], text=True, capture_output=True, env=env)
         out = c.stdout.split()
         if c.returncode != 0 or len(out) < 2:
@@ -645,6 +646,7 @@ def mark_notified(root, keys):
 
 WAKE_LABEL = "topview-slot-wake"
 WAKE_MARKER = "TOPVIEW_SLOT_WAKE_V2"
+WAKE_ASSIGNEE = "virudik"
 
 
 def slot_wake_signal(event, plan):

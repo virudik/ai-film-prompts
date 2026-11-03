@@ -537,7 +537,7 @@
         "timing_mode": "exact_schedule",
         "description": "Minutes :12 and :27 of every hour 08–23 Europe/Amsterdam; inside launch_window :10–:40. Created by the owner decision of 2026-11-01 00:24 (enable_decision)."
       },
-      "event_path": "Existing routine reads fresh GitHub launcher_health/queue/inbox each cycle; no new webhook or Telegram forwarding is claimed active.",
+      "event_path": "04.11.2026 owner decision: event-driven Grok routine 'Topview: свободный слот → уведомить и запустить сцену (grok)' is woken by the robot wake issue (label topview-slot-wake) assigned to virudik (GitHub issue-assigned); no polling schedule; launch on any wake when the canon lock is free (:10-:40 window no longer limits this event path; owner rule 04.11.2026: the slot must not idle, skip a scene with error/question and launch the next ready one). Status: pending first real wake, not yet verified.",
       "acceptance": "Grok records actual provider routine settings/run ID and first legal task ID; first-real-Create gate remains independent.",
       "superseded_by": "schedule_20261101_0316 (owner 2026-11-01 03:16: daytime 08:12–23:57; the 24-hour desired_schedule is not applied)"
     },
