@@ -10,20 +10,6 @@
       "updated_at": "2026-11-03T22:05:56.282Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
-        "00:55 MSK cycle 4 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Current ordinary run is in_progress while its latest_result/receipt remain the older run, so current execution was not inferred; Relay had no events; phases A/B/C were not due.",
-        "23:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
-        "22:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
-        "21:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
-        "20:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 29 current project messages; three new S62/launch-stalled/closed-issue signals were already superseded by verified S56-P2 and current 6/6, with no current failure, mail mutation or rerun.",
-        "18:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no transient/unknown claims, no Create/retry and 0 credits. Sampled browser QC of S62-P1 at 0/4/8/12/15s found a critical continuity overshoot: by 15s it already reaches the final triangle and blue/green ignition reserved for P2. S62-P2 blocked; no derivative, auto-rerender or owner approval. Audio not audited and source archive unavailable through the isolated browser download path.",
-        "09:55 MSK cycle 3 Nov: complete 14-board/18-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 26 current GitHub-notification results; two new PR #272 push/merge messages were informational, and no new workflow failure required repair.",
-        "16:55 MSK cycle 2 Nov: complete 14-board/23-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. S52-R2-P1 exact tail SHA reverified; all 72 derivative frames inspected in order and both streams decoded without errors. Drive preview failed and audio was not listened, so S52-R2-P2 remains blocked pending continuous real-time playback with sound.",
-        "14:55 MSK cycle 2 Nov: complete 14-board/23-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 queue task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B checked 23 GitHub notifications (all pages), processed 7 new messages: Projects status run 41434091622 was superseded by successful runs 41434546355 and later; one-shot misc recovery runs 41403028264/41403561936 were followed by commit 32581767322d86f420d700c2e627d6255453bab5 restoring 59 originals and the workflow was removed. No current failure or blind rerun; Gmail state unchanged.",
-        "14:01 MSK cycle 2 Nov: complete 14-board/23-page scan found626 video tasks and6/6 active Unlimited0; no Create/retry. S59-P2 success/archive verified, but sampled QC shows it ends fully landed/parked, violating S59-P3 airborne-start contract; no continuity derivative or auto-rerender. Work restored as preferred executor from verified completed runtime+GUI+Unlimited0; ordinary and Grok remain enabled reserves, route generation3.",
-        "13:20 MSK cycle 2 Nov: S59-P2 success freed one slot; after full 14-board video scan/reconciliation, S48-SEED20-P2 submitted once as task de8e44bb15d64dc7a4eb640d27a726e4, Seedance2.0/15s/720p/16:9/Video1+Image1–6/Unlimited0. Post-scan 626 videos and6/6 active; no retry/second click. Phases A/B not due; Work recovery not inferred while runtime remained in_progress.",
-        "10:55 MSK check 2 Nov: complete 14-board/28-page Topview scan found 1009 tasks and 6/6 active Unlimited0 Seregius videos; all 12 queue task IDs reconciled, no Create/claim/retry. While full, archived actual S52-R2-P1 and prepared its exact real last72-frame/3s tail in Drive (SHA d9c0d470...); sampled visual QC only, audio not listened, so S52-R2-P2 remains blocked pending full continuous audio QC.",
-        "09:55 MSK check 2 Nov: complete 14-board/20-page Topview scan found1009 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Phase B reviewed26 new GitHub failure mails /22 run IDs; later successes/current validators resolve all observed issues, no blind rerun.",
-        "20:55 MSK check 30 Oct: complete 14-board/20-page Topview scan found 951 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Canon warnings fixed by verbatim archival trim: handoff36297→33788 bytes, queue408341→345561 bytes; canon-health ok/0 warnings, 348 tests and validators passed. Eleven new failure emails mapped to ten workflow runs: warning notifications plus temporary instruction-certificate drift; subsequent integration/sync/canon runs succeeded, no blind rerun.",
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
         "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
         "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted.",
@@ -242,7 +228,7 @@
           "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
         ]
       },
-      "completed_archived_points": 8,
+      "completed_archived_points": 22,
       "completed_archive": "archive/work-resume-register-archive.json",
       "last_canon_cleanup": {
         "checked_at": "2026-10-29T07:07:04.001Z",
@@ -1080,6 +1066,23 @@
   ],
   "completed_work": [
     {
+      "work_id": "GROK-SHARED-OPS-20261101",
+      "title": "Grok: защита повторов, общие входы и адресат сайта",
+      "project": "seregius",
+      "status": "completed_accepted",
+      "updated_at": "2026-11-03T14:50:27.177Z",
+      "next_action": "Нет: приёмка выполнена. Круглосуточный запуск и возобновление рутин Grok — только по явному решению владельца (ops/FUTURE-PLANS.md C-02, G-08).",
+      "completed": [
+        "Grok Bot принял задачу d37ea54b-6b09-4283-892b-d6c3e189b82f (reports/grok-acceptance-d37ea54b-2026-11-01.json): общие входы Drive 48.2/56.2 проверены по SHA, защита повторов provider/message ID подключена.",
+        "Первый реальный Create по «да» владельца 01.11.2026: S71-WAN30 отправлена, task 431180d384cc43bebe7afc702e4eb4e6, Unlimited 0 (коммиты 37c6b25 и e61db93).",
+        "Закрыто 03.11.2026 по решению владельца: задача d37ea54b переведена из needs_owner в done. Круглосуточный запуск остаётся отложенным (ops/FUTURE-PLANS.md, G-08); рутины Grok на паузе по решению владельца 03.11.2026."
+      ],
+      "evidence_commits": [
+        "e61db93fb77f30019101308772c432e8825e3ac9",
+        "37c6b25"
+      ]
+    },
+    {
       "work_id": "TATOOINE-CONTINUITY-REVIEW-20261028",
       "project": "seregius",
       "title": "Татуинская связка: референсы, связность и навигация",
@@ -1436,49 +1439,6 @@
       "blockers": [],
       "completed_at": "2026-10-26T10:48:26.003Z",
       "implementation_commit": "70afa4169afb194b744edef5ec1245a0c59e0e46"
-    },
-    {
-      "work_id": "PROJECT-CLEANUP-20261026",
-      "title": "Безопасная чистка и архивирование служебных файлов",
-      "status": "completed_verified_configuration",
-      "updated_at": "2026-10-25T23:21:43.952564Z",
-      "owner_request": "Делай — первые четыре пункта аудита",
-      "completed": [
-        "Root checkpoint/history safely archived; two provider-success queue items archived with exact task IDs and prompt hashes; remaining items/readiness unchanged.",
-        "17 prior active works reviewed: one completed restoration closed,16 ongoing/planned retained; done and completed histories both bounded; obsolete resume order archived in4 entries.",
-        "Historical Relay setup moved verbatim; all current operational rules and original receipt/dedup data retained.",
-        "Operation journal has lossless500-event retention in both publishers, same CAS commit, archive-first writes and safe interrupted/rejected-push retry; archive starts at first real overflow.",
-        "285 tests passed; site/health/certificate/D7 checks passed. No new automation, video, claim, credit use or media modifications."
-      ],
-      "next_action": "Normal authorized project work from fresh main. First real journal overflow and Relay slots-event require their own production evidence; do not fabricate them.",
-      "canonical_refs": [
-        "reports/service-cleanup-2026-10-26.json",
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "ops/ROBOT-TELEMETRY.md"
-      ],
-      "constraints": [
-        "No media cleanup, new generation, schedule change or fabricated production receipts.",
-        "Preserve all unfinished work and dependency IDs; root scope only."
-      ],
-      "completed_at": "2026-10-25T23:21:43.952564Z",
-      "pre_checkpoint_commit": "6cf99f26c6267c065e580a904e13efd96d0c119c"
-    },
-    {
-      "work_id": "GROK-SHARED-OPS-20261101",
-      "title": "Grok: защита повторов, общие входы и адресат сайта",
-      "project": "seregius",
-      "status": "completed_accepted",
-      "updated_at": "2026-11-03T14:50:27.177Z",
-      "next_action": "Нет: приёмка выполнена. Круглосуточный запуск и возобновление рутин Grok — только по явному решению владельца (ops/FUTURE-PLANS.md C-02, G-08).",
-      "completed": [
-        "Grok Bot принял задачу d37ea54b-6b09-4283-892b-d6c3e189b82f (reports/grok-acceptance-d37ea54b-2026-11-01.json): общие входы Drive 48.2/56.2 проверены по SHA, защита повторов provider/message ID подключена.",
-        "Первый реальный Create по «да» владельца 01.11.2026: S71-WAN30 отправлена, task 431180d384cc43bebe7afc702e4eb4e6, Unlimited 0 (коммиты 37c6b25 и e61db93).",
-        "Закрыто 03.11.2026 по решению владельца: задача d37ea54b переведена из needs_owner в done. Круглосуточный запуск остаётся отложенным (ops/FUTURE-PLANS.md, G-08); рутины Grok на паузе по решению владельца 03.11.2026."
-      ],
-      "evidence_commits": [
-        "e61db93fb77f30019101308772c432e8825e3ac9",
-        "37c6b25"
-      ]
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",
