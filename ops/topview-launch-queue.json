@@ -4506,7 +4506,7 @@
       "canonical_block_label": "62 · Seedance 2.0 часть 2",
       "priority": 0.46,
       "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "blocked_critical_continuity",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4528,9 +4528,13 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "source_result_available_qc_rejected",
           "source_item_id": "S62-SEED20-P1",
-          "source_requirement": "Actual last3s of new62P1; private clip, SHA256 and continuity QC required."
+          "source_requirement": "Actual last3s of new62P1; private clip, SHA256 and continuity QC required.",
+          "source_task_id": "0de1f663432646d294f409a22e20a26e",
+          "qc_status": "rejected_for_p2_continuity_overshoot",
+          "qc_report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json",
+          "derivative_status": "not_created"
         },
         {
           "slot": "@Image1",
@@ -4588,7 +4592,17 @@
       "authorization": "Direct owner23Oct2026: create a bridge between the two attached videos and queue with worms; one free website Unlimited0 attempt per selected part; no paid route or auto retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
-      "blocker": "Wait actual S62-SEED20-P1 ending and continuity QC."
+      "blocker": "Critical continuity overshoot: S62-P1 already reaches the final triangle and blue/green ignition reserved for P2. Do not create a P1 last3s derivative or submit P2 without owner decision or a suitable earlier real handoff.",
+      "continuity_qc": {
+        "checked_at": "2026-11-03T16:01:21.758Z",
+        "source_item_id": "S62-SEED20-P1",
+        "source_task_id": "0de1f663432646d294f409a22e20a26e",
+        "assessment": "qc_rejected_for_s62_p2_continuity_overshoot",
+        "owner_approved": false,
+        "audio_listened": false,
+        "continuous_full_frame_rate_view": false,
+        "report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json"
+      }
     },
     {
       "id": "S63-WAN30",
