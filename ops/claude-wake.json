@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "enabled": true,
+  "enabled": false,
   "fire_url": "https://api.anthropic.com/v1/claude_code/routines/trig_01PKqALdxtgHJjh6igRZwrBA/fire",
   "targets": [
     "claude"
   ],
   "secret": "CLAUDE_FIRE_TOKEN (GitHub Actions secret; API token of the Claude scheduled task «AI Film: задачи для Claude с сайта»)",
   "doc": "ops/OWNER-TASKS.md — «Автозапуск Claude»; script scripts/claude_task_wake.py; owner decision 26.10.2026",
-  "any_after_hours": 3
+  "any_after_hours": 3,
+  "disabled_reason": "Доступ к Claude потерян, каждый вызов тратил лимиты владельца",
+  "disabled_by": "Виталик Рудик (карта t196s847, 03.11.2026): «Выключи автозапуск Claude»",
+  "disabled_at": "2026-11-03"
 }
