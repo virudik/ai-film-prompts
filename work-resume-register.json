@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-03T18:01:58.694Z",
+  "last_updated_at": "2026-11-03T18:57:45.323Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-03T18:01:58.694Z",
+      "updated_at": "2026-11-03T18:57:45.323Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
+        "21:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
         "20:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 29 current project messages; three new S62/launch-stalled/closed-issue signals were already superseded by verified S56-P2 and current 6/6, with no current failure, mail mutation or rerun.",
         "18:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no transient/unknown claims, no Create/retry and 0 credits. Sampled browser QC of S62-P1 at 0/4/8/12/15s found a critical continuity overshoot: by 15s it already reaches the final triangle and blue/green ignition reserved for P2. S62-P2 blocked; no derivative, auto-rerender or owner approval. Audio not audited and source archive unavailable through the isolated browser download path.",
         "09:55 MSK cycle 3 Nov: complete 14-board/18-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 26 current GitHub-notification results; two new PR #272 push/merge messages were informational, and no new workflow failure required repair.",
@@ -119,7 +120,7 @@
         "result": "No current failure. Three new project messages were resolved/superseded signals; Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-03T17:59:07.718Z",
+        "checked_at": "2026-11-03T18:56:17.108Z",
         "complete": true,
         "boards": 14,
         "pages": 18,
@@ -134,7 +135,10 @@
           "22dbd25cdd9f47cd9e44300e55f5e44f",
           "c72c1ab4524e4f2f9d3a0272474f788a",
           "025955aad2cf494da2b4104d26c36ed5"
-        ]
+        ],
+        "queue_sha256": "3ab6cb1a64583cfe443a4e4134cabd77c0f7fb89bb9dcacf333d9d57a3b2a732",
+        "task_map_sha256": "6c5590f9f1165f3e0f611f113a867d702f7e7b63ff25fee76e6c484c654b69cc",
+        "readiness_hashes_match": true
       },
       "last_relay_event": {
         "event_id": "result:0de1f663432646d294f409a22e20a26e",
@@ -421,6 +425,25 @@
         "launch_ready": false,
         "blocker": "P1 already reaches the exact final triangle and blue/green ignition that P2 is supposed to create.",
         "report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json"
+      },
+      "last_hourly_cycle": {
+        "checked_at": "2026-11-03T18:57:45.323Z",
+        "cycle": "21:55 Europe/Moscow",
+        "owner_tasks_open": 0,
+        "owner_tasks_taken": 0,
+        "relay_events": 0,
+        "phase_a_due": false,
+        "phase_b_due": false,
+        "phase_c_due": false,
+        "ordinary_peer": {
+          "actual_last_run_id": "d31e34c0-9ee8-832f-80e5-e6b160b4bdb4",
+          "latest_result_run_id": "d31e34c0-9ee8-832f-80e5-e6b160b4bdb4",
+          "receipt_run_id": "d31e34c0-9ee8-832f-80e5-e6b160b4bdb4",
+          "match": true
+        },
+        "monitor_role": "not_checked: local checkout unavailable",
+        "work_gui_quota_current_cycle_verified": false,
+        "result": "No free slot; no generation or material change."
       }
     },
     {
