@@ -1,3 +1,13 @@
+# 03.11.2026 — Relay №294/295: S56-P2 отправлена, 6/6
+
+- S62-P1 `0de1f663432646d294f409a22e20a26e` подтверждена success с результатом; это не approval.
+- S56-P2 `be960f5e3bf54563aff663fed9da8906` отправлена один раз в 15:14:23 UTC: Seedance 2.0, 15s, 720p, 16:9, quantity1, Unlimited, 0 кредитов. Полный normalized prompt и все 6 входов проверены; claim → отдельный submitting intent → readback → один GUI Create.
+- Квитанция: `reports/topview-queue-2026-10-16/S56-SEED20-P2-20261103T151423Z.json`; UI proof: `reports/topview-queue-2026-10-16/S56-SEED20-P2-20261103T151423Z-ui.jpg`.
+- Полный повторный скан 2026-11-03T15:15:18.070Z: 14 досок, 20 страниц, 1011 задач; 6 активных видео. Дополнительного Create по №295 нет. Обе событийные квитанции сохранены; execution `226a1654-7800-4b89-878a-c69ca6226b1f`, route3; runtime ID не раскрыт.
+- Следующий шаг: наблюдать существующие задачи и при свободном слоте заново проверить live priority, owner decisions, SHA/QC/входы и Unlimited0. Следующая независимая готовая — S63-WAN30; зависимые продолжения ждут настоящий стык/QC. Подписки и расписания не изменялись.
+
+---
+
 # 03.11.2026 — цикл 16:55 МСК: Topview 6/6, без запуска
 
 - Work runtime `02892352-e11c-8321-b0b1-ebfb68cae949`, execution `5606aad5-2eef-46c2-b3bf-7397386b6bf6`, route generation 3.

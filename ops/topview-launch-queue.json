@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-02T11:18:32.530Z",
+  "updated_at": "2026-11-03T15:16:24.982Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2551,7 +2551,7 @@
       "canonical_prompt_sha256": "63c34e6fac2a179b707d072460e99cf2fb1122809fe8f72199f1b7dce91bbc36",
       "normalized_prompt_sha256": "ffe2a52657e334fd61b260f808a0d54c6d2c9a9892ec329798b9084d8232cc09",
       "priority": 0.31,
-      "state": "submitting",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2630,7 +2630,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "be960f5e3bf54563aff663fed9da8906",
       "claim": {
         "run_id": "chatgpt-scheduled-event-226a1654-7800-4b89-878a-c69ca6226b1f",
         "execution_instance_id": "226a1654-7800-4b89-878a-c69ca6226b1f",
@@ -2665,7 +2665,7 @@
         "S56-SEED20-P1"
       ],
       "blocker": null,
-      "launch_readiness": "authorized_inputs_available",
+      "launch_readiness": "submitted_verified",
       "previous_prompt_sha256": [
         "22acbc93f6474a52053a2a8b76651d933e2717d33f0170b39818578d08da1db9"
       ],
@@ -2682,7 +2682,10 @@
         "scope": "S56-SEED20-P2",
         "text": "Не важно, пускай появляются. Можно запускать.",
         "applies_to": "Допущены три фоновые фигуры на гребне в настоящем финале 56.1 для стыка с 56.2. Один запуск по существующей очереди, Unlimited 0."
-      }
+      },
+      "submitted_at": "2026-11-03T15:14:23Z",
+      "verified_at": "2026-11-03T15:16:24.982Z",
+      "receipt": "reports/topview-queue-2026-10-16/S56-SEED20-P2-20261103T151423Z.json"
     },
     {
       "id": "S58-SEED20-P2",
