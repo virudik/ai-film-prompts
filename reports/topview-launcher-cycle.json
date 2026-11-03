@@ -166,14 +166,14 @@
       "submitting": 0,
       "submission_unknown": 0
     },
-    "queue_blob_sha": "2404f61d06287aca109d4db420ea174f5be7efd2",
+    "queue_blob_sha": "6c3c8ffa153181162e6fbfc2860a7235086269a2",
     "task_map_blob_sha": "3430d2b55122a1c73fb424aa3d837a67ed4220ce",
-    "readiness_blob_sha": "9b34607170f1c80fe675a76b949d8c244d9e8c80",
-    "queue_sha256": "a3bd3a3071571047b9df0bd79bac1e49b9c5aa731a1e8ce55b5f61af23fbfaa6",
+    "readiness_blob_sha": "7321d67598120e3a4af15dc1da6c87089cd3b2e3",
+    "queue_sha256": "3ab6cb1a64583cfe443a4e4134cabd77c0f7fb89bb9dcacf333d9d57a3b2a732",
     "task_map_sha256": "99be5fedef34ee5944572eb1b3dad28d67a5d247a8678f6c703b47ec89dbb454",
     "hashes_match_readiness": true,
-    "readiness_checked_at": "2026-11-03T16:02:49.471091Z",
-    "topview_checked_at": "2026-11-03T15:21:27Z"
+    "readiness_checked_at": "2026-11-03T16:03:37.200Z",
+    "topview_checked_at": "2026-11-03T15:57:43.097Z"
   },
   "result_qc": {
     "item_id": "S62-SEED20-P1",
@@ -190,5 +190,5 @@
     "report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json",
     "auto_retry": false
   },
-  "completed_at": "2026-11-03T16:02:52.095Z"
+  "completed_at": "2026-11-03T16:03:58.806Z"
 }
