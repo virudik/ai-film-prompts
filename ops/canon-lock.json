@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:work:3f591a03-50e1-4e2c-bfb8-ae3c3f7c4dc9",
-  "task": "Серёгиус: Work HH:55 cycle fresh slot scan and hourly maintenance, 2026-11-03",
-  "acquired_at": "2026-11-03T00:55:27.300Z",
-  "expires_at": "2026-11-03T01:25:27.302Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-03T00:56:41.218Z",
   "rules": "ops/CANON-LOCK.md"
 }
