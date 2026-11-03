@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-03T05:03:02Z",
+  "synced_at": "2026-11-03T08:12:53Z",
   "revision_date": "03.11.2026",
   "master_declared_last_full_sync": "02.11.2026 · оба сюжета и 24 промпта сохранены; 59/59 отдельных PNG прикреплены к персонажам, раскадровкам и сценам. Техническая готовность не означает художественного одобрения; видео не запускались.",
   "canonical_master_sha256": "8e371213863442532ac23b655e014a3504f51df751f0f50c74fbdd417bf10a39",
@@ -27,7 +27,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 6.454,
+    "age_hours_at_status_build": 9.618,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -105,7 +105,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 6.454,
+      "age_hours": 9.618,
       "blocking": false
     },
     "topview_task_map": {
@@ -164,7 +164,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "03.11.2026",
-    "synced_at": "2026-11-03T05:03:02Z",
+    "synced_at": "2026-11-03T08:12:53Z",
     "canonical_master_sha256": "8e371213863442532ac23b655e014a3504f51df751f0f50c74fbdd417bf10a39",
     "canonical_revision_sha256": "8cdd4d0fbb1cda9b8f66befb6db36da435fb84ded9ad9c6822b3dfd5bfe5fe43",
     "scene_count": 2,
