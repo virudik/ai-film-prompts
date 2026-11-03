@@ -9,19 +9,33 @@
   "receipt_started_at": "2026-11-03T04:04:11.163Z",
   "source_head": "67db66a5d0f554b09d4ccebc32a9a9426f3db6c0",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "receipt_start",
+  "phase": "finished",
+  "stage": "finished",
   "scan_source": "Topview connector read-only",
-  "scan_scope": "Account-wide 14 boards / 20 pages read-only check performed; pending result verification",
-  "scan_complete": null,
-  "scan_checked_at": null,
-  "occupied_slots": null,
-  "free_slots": null,
-  "task_ids": [],
+  "scan_scope": "Full all 14 boards, 20 paginated pages (pageSize 100), 1010 tasks; 13 canonical submitted taskIDs independently queried; 6 active directly verified",
+  "scan_complete": true,
+  "scan_checked_at": "2026-11-03T04:01:07.597Z",
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "task_ids": [
+    "4b7b972870a44dfbb29bd6c5e330a633",
+    "4a1061e175054da2810ffef8ad9d31cd",
+    "8d7ff1e2de63478693778de29e0dd56e",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "b15165813c0848939edbe8b3d3aed182",
+    "8b6a8ce102ea416e88d3c14fa558c513",
+    "b0915b04173c414e9ac08652d34b7852",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "0de1f663432646d294f409a22e20a26e",
+    "c65c30d8cbe14e9eadec886276e62471",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "431180d384cc43bebe7afc702e4eb4e6"
+  ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
+  "retryable": false,
   "browser_transport": "Topview connector read-only; TinyFish not launched",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
@@ -33,13 +47,79 @@
     "acquired_at": "2026-11-03T04:03:33.757Z",
     "expires_at": "2026-11-03T04:15:33.757Z"
   },
-  "updated_at": "2026-11-03T04:04:11.163Z",
+  "updated_at": "2026-11-03T04:07:33.017Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_scheduled_run_verified": false,
-    "production_submission_verified": false
-  }
+    "topview_task_id_verified_this_cycle": false,
+    "production_submission_verified": false,
+    "existing_submitted_task_ids_verified": 13
+  },
+  "boards_scanned": 14,
+  "pages_scanned": 20,
+  "total_tasks_observed": 1010,
+  "video_tasks_scanned": 626,
+  "image_tasks_scanned": 384,
+  "video_status_counts": {
+    "success": 597,
+    "init": 6,
+    "fail": 23
+  },
+  "image_status_counts": {
+    "success": 368,
+    "fail": 16
+  },
+  "active_task_ids": [
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e"
+  ],
+  "all_submitted_queue_tasks_verified": true,
+  "all_submitted_tasks_count": 13,
+  "unresolved_claim_states": [],
+  "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256": "9583cd744fb620146035a4364d2fb964bdcc792579ccda617e59ffbb67729a83",
+  "readiness_sha_verified": true,
+  "readiness_source_checked_at": "2026-11-03T04:00:27.285721Z",
+  "next_ready_item": {
+    "id": "S56-SEED20-P2",
+    "priority": 0.31,
+    "readiness_code": "ready",
+    "slot_reserved": false,
+    "requires_fresh_QC_preflight": true
+  },
+  "selected_item": null,
+  "work_recovery": {
+    "preferred_executor": "work",
+    "route_generation": 3,
+    "evidence": "de8e44bb15d64dc7a4eb640d27a726e4",
+    "work_capacity": "restored_verified"
+  },
+  "peer_monitor": {
+    "ordinary_run_id": "663f19e8-63a0-8333-9471-c2f1ef7afba3",
+    "ordinary_latest_result_run_id": "75d0b4b4-4e84-8328-8172-3efa20278ebb",
+    "work_hh55_last_run_id": "f6ab7f77-b3c0-8329-818d-a4a7cd200163",
+    "work_hh55_status": "completed",
+    "relay_last_run_id": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
+  },
+  "telemetry": {
+    "robot_checked_at": "2026-11-03T04:00:22Z",
+    "launcher_health_checked_at": "2026-11-03T03:50:27Z",
+    "old_wake_event_is_not_fresh_capacity": true,
+    "bot_issues_checked": true,
+    "latest_old_issue_number": 257,
+    "latest_old_issue_observed_at": "2026-11-02T10:00:21Z"
+  },
+  "lease_release_required": true,
+  "lease_release_status": "pending_separate_CAS",
+  "source_head_at_finish": "a3db983aec2e4989ff426f5b6bcb4f66c0fb96c1",
+  "last_direct_verification_at": "2026-11-03T04:06:36.502Z",
+  "finished_at": "2026-11-03T04:07:33.017Z",
+  "notes": "Full connector scan confirmed six active videos on exact My First Board, all 6 use Unlimited and creditsCost=0. All 13 canonical submitted IDs verified, including historical S72; neither source task nor scene was duplicated. No Create, no TinyFish. Pending source QC does not reserve slot. Older webhook/bot issue is not evidence of fresh capacity. SHA256 independently computed using raw UTF-8 source bytes."
 }
