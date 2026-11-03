@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-03T14:53:57+00:00",
-  "source_head": "92572d3858d74cde3ec4bf75e4c96901a5dca833",
-  "source_fingerprint": "405cd1808aa525abbbf4b7446e5ec30ee3923a808860f82b75a599673482f72e",
+  "checked_at": "2026-11-03T14:58:47+00:00",
+  "source_head": "27ca029a16114a3227695145474000d850d2970b",
+  "source_fingerprint": "212fa966957a79eb0c1e249dd6c68e735eb609c59e72eb0c8ea54e77b908afb9",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -366,8 +366,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "e6b229733ed1de338fc4293ffaf88501697691b72a1c6a62210933745e8cf1ec",
-      "bytes": 38620
+      "sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
+      "bytes": 39789
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -376,8 +376,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "4765add7ca53143871f5878d7a317c36cdae6785cfbf81c846c3a4641c00e734",
-      "bytes": 34999
+      "sha256": "5c4f3e738ba0a581b3a2aff387e60eadb1e1515368167c175fbb09ce483bf903",
+      "bytes": 34985
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -401,7 +401,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "0d980b4ac0404a19959e6349c5a55330f406c32d6105c1ac43a3e010993787fe",
+      "sha256": "dcff335ab09937678226739983a820df3c42e66647409fc25ef7824da8b90512",
       "bytes": 5139
     },
     {
@@ -436,12 +436,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "f75996aaecadd469f0abdcfb593c10061abac42ee7bdfaa0b0c2bb8b3d64541e",
-      "bytes": 34800
+      "sha256": "a189cd50182afce5beb1211db5dd0256cdd96b9307f899d0f9079765112d6313",
+      "bytes": 34786
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "4931e60154126e4589f927ed1279b5680f7c6072ad5433bd9e9e299c1d915bf5",
+      "sha256": "55fb28e2663ce01785da859977e695ae242fc7e7da1c1f46b5f3b19de24b36d8",
       "bytes": 25134
     },
     {
