@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": "2026-11-02T16:38:39.989044+00:00",
-  "expires_at": null,
-  "released_at": "2026-11-02T22:30:00Z",
+  "state": "held",
+  "holder": "grok:a115f7dd-3660-4ad2-9c6c-14ed62335eaa",
+  "task": "ТерраТех сцены 26-30: 10 горизонтальных PNG 1672x941",
+  "acquired_at": "2026-11-03T00:31:58Z",
+  "expires_at": "2026-11-03T01:31:58Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "roscosmos"
 }
