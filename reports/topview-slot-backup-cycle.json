@@ -11,19 +11,19 @@
   "receipt_started_at": "2026-11-03T13:07:29.802Z",
   "source_head": "9406d17831e813e5bcf5ef99f63072a25f4bfead",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
+  "phase": "finished",
+  "stage": "no_free_slot",
   "scan_source": "Topview read-only connector",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
-  "browser_transport": "not_used",
+  "retryable": false,
+  "browser_transport": "Not used: global physical capacity 6/6; no paid TinyFish browser run",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -34,7 +34,7 @@
     "acquired_at": "2026-11-03T13:07:07.498Z",
     "expires_at": "2026-11-03T13:22:07.498Z"
   },
-  "updated_at": "2026-11-03T13:07:29.802Z",
+  "updated_at": "2026-11-03T13:11:21.576Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -44,5 +44,78 @@
     "tinyfish_production_submission_verified": false,
     "tinyfish_login_current_cycle_verified": false,
     "tinyfish_ui_control_current_cycle_verified": false
-  }
+  },
+  "source_head_at_receipt": "a1f3c648584db94e66dc61cf0dcbbbbc3c14821d",
+  "scan_scope": "14 boards, 20 pages; all 1010 tasks (626 video, 384 image); 13 queue submitted task IDs queried individually",
+  "scan_completed_at": "2026-11-03T13:11:21.576Z",
+  "boards_scanned": 14,
+  "pages_scanned": 20,
+  "total_tasks_scanned": 1010,
+  "video_tasks_scanned": 626,
+  "image_tasks_scanned": 384,
+  "active_tasks": [
+    {
+      "item_id": "S48-SEED20-P2",
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S71-WAN30",
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S72-WAN30",
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S61-SEED20-P1",
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S60-SEED20-P1",
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S62-SEED20-P1",
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "submitted_ids_reconciled": 13,
+  "open_claims": 0,
+  "submission_unknown": 0,
+  "queue_sha256_verified": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256_verified": "4954218da9ade2e5fb4ca04e89bd5319de860ca24661902d5f7408ac36d36e43",
+  "source_queue_blob_sha": "ab906865363c141274b868d1ec6c46a6e8f6ad3e",
+  "readiness_blob_sha": "459beef982252a2e3866c9cd84834380d6a13a8f",
+  "source_task_map_blob_sha": "9045e7155c05a013b0948bb3e51f4d14d574dea4",
+  "ready_item_next": "S56-SEED20-P2",
+  "ready_priority_next": 0.31,
+  "topview_task_id_new_verified": null,
+  "scan_reconciled_with_topview": "Live 14-board read-only complete task scan and 13 direct task-ID readbacks; 6 active task details independently verified (Unlimited=true, creditsCost=0)",
+  "monitor_checked_at": "2026-11-03T13:00:34Z",
+  "latest_previous_work_run": "e2349dd1-4430-832a-98cb-5b6b1e41b8cb",
+  "latest_relay_run": "3e36f8f5-7f90-8326-97b4-6b6575f95d03"
 }
