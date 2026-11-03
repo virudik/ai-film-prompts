@@ -11,19 +11,19 @@
   "receipt_started_at": "2026-11-03T08:10:58.697Z",
   "source_head": "c18f4ec3f8ff2764d628517dccc0d9856b219ac3",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_completed_pre_receipt",
+  "phase": "finished",
+  "stage": "finished",
   "scan_source": "Topview read-only connector, account-wide scan; official Topview board tasks API",
-  "scan_scope": "14 boards; 18 nonempty pages (100/page), 1010 tasks; 13 direct submitted taskID checks",
+  "scan_scope": "Full account-wide scan: all 14 boards, 18 nonempty pages at pageSize100 (plus 2 empty-board checks), 1010 tasks: 626 video and 384 image. Every board page read, all 13 submitted queue task IDs verified separately.",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
   "new_submissions": 0,
-  "outcome": "pending_final_receipt",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "Topview read-only; TinyFish not launched",
+  "browser_transport": "Topview connector read-only; TinyFish not launched (6/6); no UI Create",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -34,7 +34,7 @@
     "acquired_at": "2026-11-03T08:10:23.166Z",
     "expires_at": "2026-11-03T08:22:23.166Z"
   },
-  "updated_at": "2026-11-03T08:10:58.697Z",
+  "updated_at": "2026-11-03T08:12:46.758Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -43,5 +43,66 @@
     "tinyfish_scheduled_run_verified": false,
     "tinyfish_production_submission_verified": false
   },
-  "source_head_at_receipt": "ff9ff1fb735f08819bacc98fb79c80536238de13"
+  "source_head_at_receipt": "ff9ff1fb735f08819bacc98fb79c80536238de13",
+  "scan_completed_at": "2026-11-03T08:12:46.758Z",
+  "boards_scanned": 14,
+  "pages_scanned": 18,
+  "empty_board_checks": 2,
+  "total_tasks_observed": 1010,
+  "video_tasks_scanned": 626,
+  "image_tasks_scanned": 384,
+  "video_status_counts": {
+    "init": 6,
+    "success": 597,
+    "fail": 23
+  },
+  "image_status_counts": {
+    "success": 368,
+    "fail": 16
+  },
+  "task_ids": {
+    "S48_SEED20_P2": "de8e44bb15d64dc7a4eb640d27a726e4",
+    "S71_WAN30": "431180d384cc43bebe7afc702e4eb4e6",
+    "S72_WAN30": "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "S61_SEED20_P1": "c72c1ab4524e4f2f9d3a0272474f788a",
+    "S60_SEED20_P1": "025955aad2cf494da2b4104d26c36ed5",
+    "S62_SEED20_P1": "0de1f663432646d294f409a22e20a26e"
+  },
+  "active_task_ids": [
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e"
+  ],
+  "active_task_mode": "All six: Topview board My First Board, useUnlimitMode=true and creditsCost=0, video init; verified directly and by full scan.",
+  "all_submitted_queue_tasks_verified": true,
+  "all_submitted_tasks_count": 13,
+  "unresolved_claim_states": [],
+  "unknown_submissions": 0,
+  "next_ready_item": {
+    "id": "S56-SEED20-P2",
+    "priority": 0.31,
+    "queue_state": "waiting_for_slot",
+    "reserved": false,
+    "launch_preflight_needed": true
+  },
+  "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256": "18160afbf9bbf40d48f81043245dfac48fcf71b313352ccd62af63a80d02dbe1",
+  "readiness_sha_verified": true,
+  "readiness_source_checked_at": "2026-11-03T07:20:31Z",
+  "telemetry": {
+    "robot_checked_at": "2026-11-03T07:20:44Z",
+    "event_receipt_updated_at": "2026-10-29T23:22:31.873Z",
+    "event_is_not_current_capacity_proof": true,
+    "work_hh55_receipt_outcome": "no_free_slot",
+    "automation_runtime": {
+      "runtime_id": "afcaf74f-3b6c-8323-b3f2-51755ea5fd9c",
+      "previous_result_id": "c46e4762-64dc-832c-9cd2-374c2e842e34",
+      "previous_result_not_current": true
+    }
+  },
+  "finished_at": "2026-11-03T08:12:46.758Z",
+  "source_head_at_finish": "b9b546adc448766704dd47f0a6d292767515e35e"
 }
