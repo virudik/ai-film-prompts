@@ -11,16 +11,16 @@
   "receipt_started_at": "2026-11-03T07:08:05.291Z",
   "source_head": "58069f864761755cbbf458adbc4076cd39da6d46",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_complete",
-  "scan_source": "Topview connector read-only account-wide board scan",
-  "scan_scope": "14 boards; 18 nonempty pages pageSize100; 1010 tasks",
+  "phase": "finished",
+  "stage": "finished",
+  "scan_source": "Topview read-only connector all-board scan and 13 direct taskId checks",
+  "scan_scope": "14 boards; 18 nonempty paginated pages (pageSize100); 1010 tasks. All 13 submitted queue tasks independently verified via Topview get_board_task.",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "browser_transport": "Topview connector read-only; TinyFish not launched",
@@ -34,7 +34,7 @@
     "acquired_at": "2026-11-03T07:07:14.309Z",
     "expires_at": "2026-11-03T07:19:14.309Z"
   },
-  "updated_at": "2026-11-03T07:08:05.291Z",
+  "updated_at": "2026-11-03T07:10:46.851Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -44,5 +44,60 @@
     "topview_task_id_verified_this_cycle": false,
     "production_submission_verified": false,
     "existing_submitted_task_ids_verified": 13
-  }
+  },
+  "boards_scanned": 14,
+  "pages_scanned": 18,
+  "total_tasks_observed": 1010,
+  "video_tasks_scanned": 626,
+  "image_tasks_scanned": 384,
+  "video_status_counts": {
+    "success": 597,
+    "init": 6,
+    "fail": 23
+  },
+  "image_status_counts": {
+    "success": 368,
+    "fail": 16
+  },
+  "task_ids": [
+    "4b7b972870a44dfbb29bd6c5e330a633",
+    "4a1061e175054da2810ffef8ad9d31cd",
+    "8d7ff1e2de63478693778de29e0dd56e",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "b15165813c0848939edbe8b3d3aed182",
+    "8b6a8ce102ea416e88d3c14fa558c513",
+    "b0915b04173c414e9ac08652d34b7852",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "0de1f663432646d294f409a22e20a26e",
+    "c65c30d8cbe14e9eadec886276e62471",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "431180d384cc43bebe7afc702e4eb4e6"
+  ],
+  "active_task_ids": [
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5",
+    "0de1f663432646d294f409a22e20a26e"
+  ],
+  "all_submitted_queue_tasks_verified": true,
+  "all_submitted_tasks_count": 13,
+  "unresolved_claim_states": [],
+  "unknown_submissions": [],
+  "next_ready_item": {
+    "id": "S56-SEED20-P2",
+    "priority": 0.31,
+    "readiness_code": "ready",
+    "slot_reserved": false,
+    "requires_fresh_QC_preflight": true
+  },
+  "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256": "efd98ddf8dc02b6ca38026b1386a8f37780cec277ff2f545d84fedd94df96b8b",
+  "readiness_sha_verified": true,
+  "readiness_source_checked_at": "2026-11-03T06:30:38Z",
+  "scan_completed_at": "2026-11-03T07:10:46.851Z",
+  "finished_at": "2026-11-03T07:10:46.851Z",
+  "source_head_at_finish": "3a95998dcda445b7e9851a6e32549a56cc2cd537"
 }
