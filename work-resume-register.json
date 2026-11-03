@@ -7,7 +7,7 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-03T07:01:53.523Z",
+      "updated_at": "2026-11-03T07:03:01.000Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK cycle 3 Nov: complete 14-board/18-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 26 current GitHub-notification results; two new PR #272 push/merge messages were informational, and no new workflow failure required repair.",
@@ -41,7 +41,7 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-11-03T07:01:53.523Z",
+        "checked_at": "2026-11-03T07:03:01.000Z",
         "cycle": "09:55 Europe/Moscow",
         "self_heal": "ok",
         "owner_tasks_open": 0,
@@ -142,13 +142,17 @@
             "run_id": 41592427500,
             "conclusion": "success"
           },
-          "pages_superseded": {
-            "run_id": 41593195104,
-            "conclusion": "cancelled"
-          },
-          "pages_current_at_check": {
-            "run_id": 41593225939,
-            "status": "in_progress"
+          "pages_activity_note": {
+            "last_completed_success_run_id": 41592427500,
+            "superseded_cancelled_runs": [
+              41593195104,
+              41593225939,
+              41593457765,
+              41593587071
+            ],
+            "newest_observed_run_id": 41593618361,
+            "newest_observed_status": "in_progress",
+            "classification": "rolling main updates from this cycle; no confirmed current failure"
           }
         },
         "new_messages": [
