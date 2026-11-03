@@ -9,27 +9,180 @@
   "execution_instance_id": "94a92687-739e-4c4d-8bed-f463a6b8ea90",
   "route_generation": 3,
   "source_head": "c85980935cfa529f2c83de3601fbf6603c1ac463",
-  "phase": "started",
+  "phase": "finished",
   "started_at": "2026-11-03T22:55:07.285Z",
-  "finished_at": null,
-  "outcome": null,
-  "retryable": null,
+  "finished_at": "2026-11-03T23:07:47.851Z",
+  "outcome": "no_free_slot",
+  "retryable": false,
   "scan": {
-    "complete": false,
-    "boards": null,
-    "pages": null,
-    "video_tasks": null,
-    "occupied_slots": null,
-    "free_slots": null,
-    "active_tasks": []
+    "complete": true,
+    "rescanned_after_maintenance": true,
+    "scope": "all boards / all video pages",
+    "boards": 14,
+    "pages": 18,
+    "total_tasks": 1011,
+    "video_tasks": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_tasks": [
+      {
+        "item": "S56-SEED20-P2",
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "item": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "item": "S71-WAN30",
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "item": "S72-WAN30",
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration": 30,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "item": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "item": "S60-SEED20-P1",
+        "task_id": "025955aad2cf494da2b4104d26c36ed5",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration": 15,
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "board_name": "My First Board",
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      }
+    ]
+  },
+  "queue_reconciliation": {
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "1caa0d166f1f1a757ae275db8baf0dde82883b6c699ca692f2005e60564ee2a1",
+    "readiness_hashes_match": true,
+    "live_submitted_checked": 12,
+    "newly_archived_terminal_submitted_checked": 2,
+    "submitted_task_ids_found": 14,
+    "missing_submitted_task_ids": [],
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "next_ready": {
+      "item_id": "S63-WAN30",
+      "priority": 0.8
+    },
+    "slot_reserved": false
+  },
+  "actions": {
+    "create_count": 0,
+    "retry_count": 0,
+    "credits_spent": 0,
+    "browser_preflight": false,
+    "tinyfish_runs": 0
   },
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "ordinary_last_run_id": "f2f10491-c040-8321-989b-96dd3a4e98b1",
-    "ordinary_last_run_status": "completed",
+    "ordinary_last_run_id": "84a899c6-43a0-832c-a15a-0f5d887765a0",
+    "ordinary_last_run_status": "in_progress",
     "ordinary_latest_result_run_id": "f2f10491-c040-8321-989b-96dd3a4e98b1",
     "ordinary_receipt_run_id": "6a243f01-8c5c-832a-9477-7567715e81b2",
-    "ordinary_current_run_receipt_match": false
+    "ordinary_current_run_receipt_match": false,
+    "current_execution_proven": false,
+    "note": "latest_result and receipt are older than current ordinary run; not accepted as current execution evidence"
+  },
+  "owner_tasks": {
+    "taken": 1,
+    "closed_done": 1,
+    "open_remaining": 0,
+    "task_id": "self-heal-run-failed-canon-health-202611032249"
+  },
+  "maintenance": {
+    "phase_a_due": false,
+    "phase_b_due": false,
+    "phase_c_due": false,
+    "triggered_cleanup": true,
+    "cleanup": {
+      "checkpoint_sections_archived": 28,
+      "register_points_archived": 14,
+      "queue_items_archived": [
+        "S48-SEED20-P1",
+        "S58-SEED20-P2"
+      ],
+      "archive_first": true
+    },
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0,
+      "checked_at": "2026-11-03T23:02:39Z",
+      "verified_actions_run_id": 41735782935,
+      "verified_conclusion": "success"
+    },
+    "instruction_consistency": {
+      "status": "ok",
+      "report_commit": "57a5d2eef27f9648aa9a23086ba7744d78ecd92a",
+      "three_automations_peeked": true,
+      "relay_subscription_active": true,
+      "live_delivery": "unverified",
+      "schedules_triggers_changed": false
+    }
+  },
+  "relay_recovery": {
+    "events": 0,
+    "event_receipt_written": false
   },
   "monitor_role": {
     "status": "not_checked",
@@ -39,12 +192,24 @@
     "network_policy": "not_checked",
     "reason": "/etc/codex/network-policy.json and environment_status tool unavailable"
   },
-  "maintenance": {
-    "phase_a_due": false,
-    "phase_b_due": false,
-    "phase_c_due": false,
-    "timezone": "Europe/Moscow"
+  "work_recovery": {
+    "preferred_executor": "work",
+    "state": "restored_verified",
+    "route_changed": false,
+    "fresh_gui_quota_evidence_this_cycle": false
   },
+  "result_qc": {
+    "newly_completed_project_results": 0,
+    "scene28_new_result": false
+  },
+  "dependent_blockers": [
+    "S52-R2-P2",
+    "S59-P3",
+    "S62-P2"
+  ],
+  "checkpoint_commit": "0d331ebe528f56883116cb2db6f87a1382b763f8",
+  "register_commit": "6a583c9630e4f9120b62159ec49edcca06c30c80",
+  "owner_task_close_commit": "a7c2763d5465dccb5ba978a62b0e541caec3574f",
   "lease": {
     "holder": "chatgpt:work:94a92687-739e-4c4d-8bed-f463a6b8ea90",
     "acquired_at": "2026-11-03T22:54:43.153Z",
