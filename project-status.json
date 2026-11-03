@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-03T14:53:33Z",
+  "synced_at": "2026-11-03T14:58:51Z",
   "revision_date": "03.11.2026",
   "master_declared_last_full_sync": "03.11.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "1c2e59ee039c2118f27851db23631c8f586ee8300a581030641af55e2b92284f",
@@ -120,19 +120,19 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-03T14:51:44.373Z",
+    "snapshot_at": "2026-11-03T14:58:03.375Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.03,
+    "age_hours_at_status_build": 0.013,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "6240dd1c3810707322a4e2c78f1b794c45a2441f4cf49214aad37d7abec5c180",
         "drive_copy_checked_at": "2026-11-03T10:54:41.451Z",
         "drive_copy_modified_at": "2026-11-03T10:54:22.740Z",
-        "github_blob": "230ad3c159c5a0c04de67221b50cf69ebd454d79",
-        "mirror_sha256": "4765add7ca53143871f5878d7a317c36cdae6785cfbf81c846c3a4641c00e734",
+        "github_blob": "34daae0a66c01d50436a4fb84e77f0f90f2a6560",
+        "mirror_sha256": "5c4f3e738ba0a581b3a2aff387e60eadb1e1515368167c175fbb09ce483bf903",
         "match": true,
         "drive_copy_match": false
       },
@@ -151,8 +151,8 @@
         "drive_copy_sha256": "13d60e5f7d34bfe986085bdedca2dae298f251710ccd166efd901002da601385",
         "drive_copy_checked_at": "2026-11-03T10:54:41.451Z",
         "drive_copy_modified_at": "2026-11-03T10:54:30.716Z",
-        "github_blob": "0ab9c2ac059a86facac95ca3c4c1832432b3f50a",
-        "mirror_sha256": "e6b229733ed1de338fc4293ffaf88501697691b72a1c6a62210933745e8cf1ec",
+        "github_blob": "3a254d6a0124b310e3d5759656918311c67e2d38",
+        "mirror_sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
         "match": true,
         "drive_copy_match": false
       },
@@ -202,7 +202,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.03,
+      "age_hours": 0.013,
       "blocking": false
     },
     "topview_task_map": {
@@ -861,7 +861,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "03.11.2026",
-    "synced_at": "2026-11-03T14:53:33Z",
+    "synced_at": "2026-11-03T14:58:51Z",
     "canonical_master_sha256": "1c2e59ee039c2118f27851db23631c8f586ee8300a581030641af55e2b92284f",
     "canonical_revision_sha256": "a2eff3a74324b4278a258166497d5f6ef8ab4621de1bd0c417ead50a21a248d0",
     "scene_count": 29,
