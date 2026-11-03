@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-02T18:00:12.461Z",
+  "last_updated_at": "2026-11-03T11:55:43.155Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-03T07:03:01.000Z",
+      "updated_at": "2026-11-03T11:55:43.155Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK cycle 3 Nov: complete 14-board/18-page scan found 626 video tasks and 6/6 active Unlimited0 on My First Board; all 13 submitted task IDs reconciled, no claim/unknown/current technical fail, no Create/retry and 0 credits. Phase A healthy. Phase B covered all 26 current GitHub-notification results; two new PR #272 push/merge messages were informational, and no new workflow failure required repair.",
@@ -29,7 +29,7 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation."
       ],
-      "next_action": "At the next real peer wake, fresh full all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as next live ready priority under route generation 3 and an exact own lease/CAS. S52-R2-P2 remains blocked pending continuous real-time playback with audio; S59-P3 remains blocked by the premature finished landing.",
+      "next_action": "At the next real peer wake, perform a fresh complete all-board scan and reconcile IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as the next live ready priority under route generation 3 and an exact own lease/CAS. S52-R2-P2 remains blocked pending continuous real-time playback with audio; S59-P3 remains blocked by the premature finished landing.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -41,22 +41,24 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-11-03T07:03:01.000Z",
-        "cycle": "09:55 Europe/Moscow",
+        "checked_at": "2026-11-03T11:55:43.155Z",
+        "cycle": "14:55 Europe/Moscow",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
+        "claude_open_over_3h": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-11-03T06:30:48Z",
+          "synced_at": "2026-11-03T11:50:25Z",
           "fresh_under_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "checked_at": "2026-11-02T22:35:48Z",
-          "warnings": 0
+          "warnings": 0,
+          "info": 9
         },
-        "gmail_query": "after:2026/11/01 from:(notifications@github.com) \"ai-film-prompts\" -in:spam -in:trash",
+        "gmail_query": "after:2026/11/01 \"virudik/ai-film-prompts\" -in:spam -in:trash",
         "gmail_results": 26,
         "gmail_all_pages": true,
         "gmail_next_page_token": null,
@@ -98,98 +100,57 @@
           "1a19e7e146f7e216",
           "1a19e7dd07ec77a7"
         ],
-        "github_failed_run_ids": [
-          41126216231,
-          41127198778,
-          41221310320,
-          41221614984,
-          41249050016,
-          41253337946,
-          41253345144,
-          41253646453,
-          41253650105,
-          41255508564,
-          41255841475,
-          41263862446,
-          41263864642,
-          41264646061,
-          41264648657,
-          41267734768,
-          41267737048,
-          41283823776,
-          41283849947,
-          41283865148,
-          41288495883,
-          41288911552,
-          41434091622,
-          41403561936,
-          41403028264
-        ],
+        "new_messages": [],
         "action_jobs_verified": {
-          "projects_status": {
-            "run_id": 41560001910,
-            "conclusion": "success"
-          },
           "canon_health": {
-            "run_id": 41593195580,
+            "run_id": 41631038168,
             "conclusion": "success"
           },
           "canonical_sync": {
-            "run_id": 41592585554,
+            "run_id": 41630961738,
             "conclusion": "success"
           },
-          "pages": {
-            "run_id": 41592427500,
+          "topview_robot": {
+            "run_id": 41630691458,
+            "conclusion": "success"
+          },
+          "self_heal": {
+            "run_id": 41630559285,
+            "conclusion": "success"
+          },
+          "drive_copy": {
+            "run_id": 41623060241,
             "conclusion": "success"
           },
           "pages_activity_note": {
-            "last_completed_success_run_id": 41592427500,
-            "superseded_cancelled_runs": [
-              41593195104,
-              41593225939,
-              41593457765,
-              41593587071
+            "last_completed_success_run_id": 41629416451,
+            "newer_observed_statuses": [
+              "pending",
+              "in_progress",
+              "cancelled"
             ],
-            "newest_observed_run_id": 41593618361,
-            "newest_observed_status": "in_progress",
-            "classification": "rolling main updates from this cycle; no confirmed current failure"
+            "classification": "rolling main updates; no confirmed current failure"
           }
         },
-        "new_messages": [
-          {
-            "message_id": "1a19e7dd07ec77a7",
-            "kind": "pull_request_push",
-            "pull_request": 272,
-            "classification": "informational",
-            "workflow_failure": false
-          },
-          {
-            "message_id": "1a19e7e146f7e216",
-            "kind": "pull_request_merge",
-            "pull_request": 272,
-            "classification": "informational",
-            "workflow_failure": false
-          }
-        ],
         "current_verification": {
-          "projects_status_previous_failure": {
-            "failed_run": 41434091622,
-            "failed_head": "f7766ad0c5e562aa9e7c9f65dc43b29e6f5855d0",
-            "later_success_run": 41560001910,
-            "current_health": "ok"
-          },
           "current_failure": false,
           "repair_performed": false,
           "blind_rerun_performed": false
         },
-        "result": "No current failure. Two new PR #272 notification messages were informational; Gmail state unchanged."
+        "result": "No current failure. Gmail returned the same 26 project messages as the confirmed 09:55 check; no mail state changed."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-02T14:03:00.316Z",
+        "checked_at": "2026-11-03T11:55:43.155Z",
         "boards": 14,
-        "pages": 23,
+        "pages": 18,
+        "total_tasks": 1010,
         "page_size": 50,
         "video_tasks": 626,
+        "status_counts": {
+          "success": 597,
+          "init": 6,
+          "fail": 23
+        },
         "complete": true,
         "scan_scope": "all_boards_all_video_pages",
         "errors": [],
@@ -198,41 +159,61 @@
         "active": [
           {
             "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+            "item": "S48-P2",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+            "item": "S71",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+            "item": "S72",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+            "item": "S61-P1",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "025955aad2cf494da2b4104d26c36ed5",
+            "item": "S60-P1",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           },
           {
             "task_id": "0de1f663432646d294f409a22e20a26e",
+            "item": "S62-P1",
             "status": "init",
             "unlimited": true,
             "credits_cost": 0
           }
-        ]
+        ],
+        "submitted_task_ids_expected": 13,
+        "submitted_task_ids_found": 13,
+        "open_claim_states": {
+          "claimed": 0,
+          "submitting": 0,
+          "submission_unknown": 0
+        },
+        "readiness": {
+          "queue_sha256": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+          "task_map_sha256": "b58b55ac72d2bc0be367cec601895cfc3355235304e065d98f1605795bf68a19",
+          "checked_at": "2026-11-03T11:50:26.171283Z",
+          "topview_checked_at": "2026-11-03T11:50:21Z"
+        },
+        "result": "no_free_slot; no claim, intent, Create or retry"
       },
       "last_relay_event": {
         "event_id": "result:4a1061e175054da2810ffef8ad9d31cd",
@@ -374,7 +355,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": "6/6 active physical video slots. Separately, S59-P3 continuity is blocked because successful S59-P2 finishes after landing; master forbids resetting/concealing the finished landing.",
+      "current_blocker": "6/6 active physical video slots. Separately, S52-R2-P2 still lacks continuous real-time playback with audio, and S59-P3 continuity is blocked because successful S59-P2 finishes after landing.",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",
@@ -1538,8 +1519,8 @@
     "project": "seregius",
     "set_at": "2026-10-29T23:39:59+00:00",
     "reason": "Explicitly selected by the authorized task writer",
-    "next_action": "At the next real peer wake, perform a fresh complete all-board scan and reconcile task IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as the next live priority with exact continuity/QC/readiness and Unlimited0 under own lease/CAS; do not reserve a slot. Work GUI/quota recovery remains unverified.",
-    "updated_at": "2026-11-02T10:25:00.548Z"
+    "next_action": "At the next real peer wake, perform a fresh complete all-board scan and reconcile task IDs/claims. If capacity is free, evaluate S56-SEED20-P2 as the next live priority with exact continuity/QC/readiness and Unlimited0 under own lease/CAS; do not reserve a slot. S52-R2-P2 remains pending continuous real-time playback with audio; S59-P3 remains blocked by the finished landing.",
+    "updated_at": "2026-11-03T11:55:43.155Z"
   },
   "last_instruction_review": {
     "at": "2026-11-01T00:16:17.370251Z",
