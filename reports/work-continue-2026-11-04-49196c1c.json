@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "source": "interactive_owner_continue",
+  "execution_instance_id": "49196c1c-8dae-4af0-95c0-127b4003163a",
+  "runtime_run_id": null,
+  "runtime_run_id_unavailable_reason": "not_exposed_by_current_runtime",
+  "source_head": "4f1478de3044ea4da38dfd06000fbaaf0985f12f",
+  "accepted_at": "2026-11-03T21:50:40.259Z",
+  "scan_started_at": "2026-11-03T21:45:58.641Z",
+  "scan_completed_at": "2026-11-03T21:46:33.084Z",
+  "scan_scope": "all_owned_boards_all_video_pages",
+  "scan_complete": true,
+  "boards_scanned": 14,
+  "pages_scanned": 18,
+  "video_tasks_scanned": 627,
+  "status_counts": {
+    "success": 598,
+    "init": 6,
+    "fail": 23
+  },
+  "slot_capacity": 6,
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_tasks": [
+    {
+      "task_id": "be960f5e3bf54563aff663fed9da8906",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "qwen-wan3.0-video",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "model_id": "seedance-2.0-style",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "queue_reconciliation": {
+    "states": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 29,
+      "submitted": 14,
+      "blocked_inputs": 21
+    },
+    "unresolved": 0,
+    "submitted": 14,
+    "matched": 14,
+    "missing": []
+  },
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "new_submissions": 0,
+  "topview_credits_spent": 0,
+  "browser_opened": false,
+  "gui_and_quota_verified_this_run": false,
+  "tinyfish_used": false,
+  "preflight": {
+    "mode": "short",
+    "ready_for_resume": true,
+    "canonical_sources_verified": 8,
+    "anchors_verified": 15,
+    "verified_at": "2026-11-03T21:48:27Z",
+    "snapshot_method": "GitHub connector exact UTF-8 bytes, CRLF and missing final newline preserved"
+  },
+  "owner_tasks_open_or_taken": 0,
+  "owner_decisions": {
+    "pending_or_in_progress": 0,
+    "preserved_needs_owner": [
+      "d37ea54b-6b09-4283-892b-d6c3e189b82f"
+    ],
+    "note": "Grok-specific historical needs_owner task; no changes made"
+  },
+  "monitor_role": {
+    "action": "skip",
+    "primary": "robot",
+    "reason": "collision guard unavailable in API snapshot without local git history; no telemetry published"
+  },
+  "automations": {
+    "work": {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "enabled": true,
+      "last_run_id": "2b7af303-59c0-8320-81cb-db7edbccaaae",
+      "recorded_status": "completed",
+      "canonical_receipt_run_id": "2b7af303-59c0-8320-81cb-db7edbccaaae"
+    },
+    "ordinary": {
+      "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "enabled": true,
+      "last_run_id": "6a243f01-8c5c-832a-9477-7567715e81b2",
+      "latest_result_run_id": "6a243f01-8c5c-832a-9477-7567715e81b2",
+      "canonical_receipt_run_id": "6a243f01-8c5c-832a-9477-7567715e81b2",
+      "recorded_status": "completed"
+    },
+    "changes": 0
+  },
+  "route_generation": 3,
+  "preferred_executor": "work",
+  "next_action": "При следующем настоящем освобождении слота: свежий main, решения владельца, полный скан и сверка отправок; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 повторно не отправлять."
+}

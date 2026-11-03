@@ -4,6 +4,135 @@
   "receipts": [
     {
       "schema_version": 1,
+      "receipt_id": "continue-work-20261104-49196c1c",
+      "project": "seregius",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "source_head": "4f1478de3044ea4da38dfd06000fbaaf0985f12f",
+      "takeover_kind": "new_interactive_work_continue",
+      "started_at": "2026-11-03T21:45:58.641Z",
+      "accepted_at": "2026-11-03T21:50:40.259Z",
+      "chat": {
+        "agent": "chatgpt:work:49196c1c-8dae-4af0-95c0-127b4003163a",
+        "label": "ChatGPT Work — приём Серёгиуса 04.11.2026",
+        "session_id": "work-continue-49196c1c-8dae-4af0-95c0-127b4003163a",
+        "chat_id": null,
+        "identity_status": "unavailable",
+        "identity_note": "Current conversation ID is not exposed; session_id is a local execution identifier."
+      },
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "4f1478de3044ea4da38dfd06000fbaaf0985f12f; canonical 8 blob SHAs checked against root tree."
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "D7 exact bytes, eight SHA256 sources and fifteen anchors verified; no source mismatch."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "continue_preflight passed before and after updating the recovery anchor/evidence; same work ID and focus."
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "Fresh ops/owner-tasks.json: no open/taken tasks."
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase owner_decisions read: no pending/in_progress; existing Grok needs_owner preserved."
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub API reads/writes, Topview read-only complete scan, local recovery checks available. No browser, new video QC, or current GUI/quota claim."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Own exact lease acquired/read back in 4f1478de3044ea4da38dfd06000fbaaf0985f12f; holder chatgpt:work:49196c1c-8dae-4af0-95c0-127b4003163a"
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-03T21:46:33.084Z",
+        "state": "completed",
+        "description": "Проверены все 14 досок и 18 страниц Topview; 6/6 слотов заняты, сверены все 14 отправленных задач. Сохранён следующий готовый пункт S63-WAN30.",
+        "evidence": "reports/work-continue-2026-11-04-49196c1c.json"
+      },
+      "request_sha256": "d296499ba80c74373a25fbfa9d882c06e0fbcd522ea67cb2db9e581a529601ba",
+      "checked_sources": [
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "5c4f3e738ba0a581b3a2aff387e60eadb1e1515368167c175fbb09ce483bf903",
+          "bytes": 34985
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "abb4393a26e5c78d1bd54d8f11ce8ea6d36235788cc3cb4f0d6ef3c1f6ca668c",
+          "bytes": 130398
+        },
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
+          "bytes": 39789
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
+          "bytes": 74992
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
+          "bytes": 84087
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
+          "bytes": 18336
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+          "bytes": 21763
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "c05b0cdab14610e816ae213db5c60376e1b5c24f74d4f7bfe55c08a2759ee8f2",
+          "bytes": 1351457
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "aac74e83f278957894282a8910813c63e98c282b2839d972940bf8d90f320ed0",
+          "bytes": 100669
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "7e4cb143a6f94860358ba04b4eb716835b960d25c217db58d3531443eb6d8f1f",
+          "bytes": 84576
+        },
+        {
+          "file": "reports/work-continue-2026-11-04-49196c1c.json",
+          "sha256": "ee8c0cd7e40a9cbdbab9c8167d40820243b0932136acdd7b7ddb3a86ea7536aa",
+          "bytes": 5166
+        },
+        {
+          "file": "ops/slot-backup.json",
+          "sha256": "ca42f42f07017ec921728009dbcd7780fb739848b339eb68e84ba554574b6ec6",
+          "bytes": 36490
+        }
+      ],
+      "source_fingerprint": "7a424995c4f0be928422d4c14ea70ba6660f49d51a834015ed7da5098d6840d4",
+      "recorded_at": "2026-11-03T21:50:40.259Z",
+      "source_scope": "GitHub API source HEAD and verified exact file bytes; changes committed atomically",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "seregius-continue-20261101-ordinary-recovery",
       "project": "seregius",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
