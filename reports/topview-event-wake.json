@@ -865,6 +865,29 @@
         "free_video_slots": 0
       },
       "receipt": "reports/topview-queue-2026-10-16/S61-SEED20-P1-20261030T153737Z.json"
+    },
+    {
+      "event_id": "result:0de1f663432646d294f409a22e20a26e",
+      "issue_number": 294,
+      "message_id": "243386449257426944",
+      "relay_event_id": "evt_808d3b1dea0007e5fd16b973db7a3ddc",
+      "checked_at": "2026-11-03T15:00:05.211Z",
+      "outcome": "started",
+      "reason": "Verified bot event; own lease acquired",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "execution_instance_id": "226a1654-7800-4b89-878a-c69ca6226b1f",
+      "route_generation": 3,
+      "run_id": null,
+      "run_id_unavailable_reason": "Platform runtime run ID not exposed",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-03T15:00:05.211Z",
+        "updated_at": "2026-11-03T15:00:05.211Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
