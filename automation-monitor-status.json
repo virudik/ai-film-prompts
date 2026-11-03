@@ -384,7 +384,6 @@
       "S28-A10-20261023",
       "S28-A11-20261023",
       "S59-SEED20-P3",
-      "S62-SEED20-P2",
       "S63-WAN30",
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
@@ -405,6 +404,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "92dc9e3a",
-    "checked_at": "2026-11-03T15:21:32Z"
+    "checked_at": "2026-11-03T16:11:11Z"
   }
 }
