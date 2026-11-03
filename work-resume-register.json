@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-03T23:06:33.282Z",
+  "last_updated_at": "2026-11-03T23:56:27.597Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-03T23:06:33.282Z",
+      "updated_at": "2026-11-03T23:56:27.597Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
@@ -20,9 +20,10 @@
         "30Oct: owner-authorized bounded technical retries published; hourly+Relay exact prompt readback, schedules/filters preserved; full14-board945-task scan confirms6/6 active. No new Create. Evidence: reports/topview-retry-policy-2026-10-30.json.",
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation.",
-        "01:55 MSK cycle 4 Nov: full 14-board/18-video-page scan confirmed 627 videos and 6/6 active Unlimited0; no Create/retry/credits. Closed self-heal canon-health task after standard archival cleanup (28 checkpoint sections, 14 register points, two terminal queue items with stubs), refreshed readiness, verified canon-health run 41735782935 success/warnings0, and reconciled all three automation prompts plus active Relay subscription without changing schedules/triggers."
+        "01:55 MSK cycle 4 Nov: full 14-board/18-video-page scan confirmed 627 videos and 6/6 active Unlimited0; no Create/retry/credits. Closed self-heal canon-health task after standard archival cleanup (28 checkpoint sections, 14 register points, two terminal queue items with stubs), refreshed readiness, verified canon-health run 41735782935 success/warnings0, and reconciled all three automation prompts plus active Relay subscription without changing schedules/triggers.",
+        "02:55 MSK cycle 4 Nov: fresh complete 14-board/18-video-page scan found 627 videos and 6/6 active Unlimited0 on My First Board. All 12 live submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next independent ready S63-WAN30. Ordinary current runtime completed but its canonical receipt still has an older run ID. No Create/retry/credits; phases A/B/C not due."
       ],
-      "next_action": "При следующем настоящем освобождении слота: свежий main, решения владельца, полный скан и сверка отправок; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 повторно не отправлять.",
+      "next_action": "При следующем настоящем освобождении слота: fresh main, owner decisions, полный all-board scan и сверка claims/task IDs; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 не повторять.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -110,12 +111,16 @@
         "result": "No current failure. Three new project messages were resolved/superseded signals; Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-03T20:56:08.407Z",
+        "checked_at": "2026-11-03T23:56:27.597Z",
         "complete": true,
         "boards": 14,
         "pages": 18,
-        "task_count": 1011,
         "video_tasks": 627,
+        "status_counts": {
+          "success": 598,
+          "init": 6,
+          "fail": 23
+        },
         "occupied_slots": 6,
         "free_slots": 0,
         "active_task_ids": [
@@ -126,8 +131,8 @@
           "c72c1ab4524e4f2f9d3a0272474f788a",
           "025955aad2cf494da2b4104d26c36ed5"
         ],
-        "queue_sha256": "3ab6cb1a64583cfe443a4e4134cabd77c0f7fb89bb9dcacf333d9d57a3b2a732",
-        "task_map_sha256": "2cb19675d64b94281b38a569349b473d5b4b8a5439049891461be81655ac1914",
+        "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+        "task_map_sha256": "6761f3d33b91bacdae066402992c6bfd8249fae88e1feb5e545f77bee7f8abd1",
         "readiness_hashes_match": true
       },
       "last_relay_event": {
@@ -192,9 +197,9 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-03T21:51:20+00:00",
-        "last_completed": "Work accepted current queue; complete 14-board/18-page scan: 627 videos, 6/6 active Unlimited0; 14/14 submitted IDs reconciled, no unresolved claims. Both hourly run IDs match their canonical receipts. No Create or spend.",
-        "next_action": "При следующем настоящем освобождении слота: свежий main, решения владельца, полный скан и сверка отправок; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 повторно не отправлять.",
+        "verified_at": "2026-11-03T23:56:27.597Z",
+        "last_completed": "02:55 MSK: complete Topview scan 6/6, 627 videos; all 12 submitted IDs found, no unresolved claims, no Create/retry/spend. Queue/readiness hashes match. Ordinary current run is completed but its receipt remains older.",
+        "next_action": "При следующем настоящем освобождении слота: fresh main, owner decisions, полный all-board scan и сверка claims/task IDs; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 не повторять.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# 04.11.2026 — Продолжай: Work принял очередь, 6/6 слотов",
@@ -463,6 +468,14 @@
         "monitor_role": "not_checked: local checkout unavailable",
         "work_gui_quota_current_cycle_verified": false,
         "result": "No free slot; no generation or material change."
+      },
+      "last_peer_reconciliation": {
+        "checked_at": "2026-11-03T23:56:27.597Z",
+        "ordinary_last_run_id": "84a899c6-43a0-832c-a15a-0f5d887765a0",
+        "ordinary_latest_result_run_id": "84a899c6-43a0-832c-a15a-0f5d887765a0",
+        "ordinary_receipt_run_id": "6a243f01-8c5c-832a-9477-7567715e81b2",
+        "receipt_matches_current_run": false,
+        "conclusion": "ordinary runtime verified by Automations.peek; old canonical receipt is not attributed to that run"
       }
     },
     {
