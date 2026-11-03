@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-03T10:33:31+00:00",
-  "source_head": "cac3c6eb677ca3f4a2a9201c5c0ff6bf807b70bb",
-  "source_fingerprint": "1746a6777c6818000b15b3c08a5513d8cf91ae29274d6aee7834ab955d8de003",
+  "checked_at": "2026-11-03T10:55:25+00:00",
+  "source_head": "55d9736a7d12e71cb6152af2ba6f17843a285cae",
+  "source_fingerprint": "cb6bf75edbb5cb9f1a66fd6419ec8ef0645ba160a7b997497e6f14a0089ee122",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -188,8 +188,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "ac1f90e9fe7b2e3228e3de9dec51447dc89338224a7aaed5e4ac7dd464e8323e",
-      "bytes": 5138
+      "sha256": "62726b28cf12c7fc517a0bd795fe30660e816b6d12c01254498e8f94694974c6",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",

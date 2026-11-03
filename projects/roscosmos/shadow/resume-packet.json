@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-03T10:43:28+00:00",
-  "source_head": "be93d5652c4cc3b5a12bf80e1e31fefc642d8851",
-  "source_fingerprint": "47070f7954c097ac859d985ee6d57d0b0e564b76dde3dff8c4851c9b68ed5cfb",
+  "checked_at": "2026-11-03T10:55:25+00:00",
+  "source_head": "55d9736a7d12e71cb6152af2ba6f17843a285cae",
+  "source_fingerprint": "d92259e2d355027d67f322abbdbb1942c6c0a34825af508ffe5180b811873a0e",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -182,8 +182,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "ac1f90e9fe7b2e3228e3de9dec51447dc89338224a7aaed5e4ac7dd464e8323e",
-      "bytes": 5138
+      "sha256": "62726b28cf12c7fc517a0bd795fe30660e816b6d12c01254498e8f94694974c6",
+      "bytes": 5134
     },
     {
       "file": "monitor-role.json",
