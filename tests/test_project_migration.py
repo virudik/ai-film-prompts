@@ -1,5 +1,6 @@
 """Path split of Roscosmos and Raznoe (owner 02.11.2026). Offline."""
 import json
+import struct
 import unittest
 from pathlib import Path
 
@@ -79,7 +80,7 @@ class MigrationTests(unittest.TestCase):
         self.assertEqual(ids, sorted(ids, key=ids.index))
         self.assertTrue(all(i["project"] == "roscosmos" for i in q["items"]))
 
-    def test_terratech_prompts_are_vertical_and_pending(self):
+    def test_terratech_prompts_are_horizontal_with_png(self):
         master = (ROOT / "projects/roscosmos/video-prompts.md").read_text(encoding="utf-8")
         for n in range(26, 31):
             self.assertIn(f'<a id="scene-{n}"></a>', master)
@@ -91,16 +92,21 @@ class MigrationTests(unittest.TestCase):
                 self.assertIn("1672×941", text)
                 self.assertIn("16:9", text)
                 self.assertNotIn("9:16", text)
-            self.assertFalse(any(p.suffix == ".png" for p in folder.iterdir()))
+            pngs = list(folder.glob("*.png"))
+            self.assertEqual(len(pngs), 2, n)
+            for png in pngs:
+                head = png.read_bytes()[:24]
+                self.assertEqual(head[:8], b"\x89PNG\r\n\x1a\n", png.name)
+                self.assertEqual(struct.unpack(">II", head[16:24]), (1672, 941), png.name)
         tail = master[master.find('<a id="scene-26">'):]
         self.assertIn("Aspect ratio: 16:9", tail)
         self.assertNotIn("Aspect ratio: 9:16", tail)
         self.assertNotIn("1080×1920", tail)
         refs = json.loads((ROOT / "projects/roscosmos/character-references.json").read_text(encoding="utf-8"))
-        pending = [a for a in refs["assets"] if a.get("asset_status") == "pending"]
-        self.assertGreaterEqual(len(pending), 10)
-        self.assertTrue(all(a["editorial_status"] == "not_approved" for a in pending))
-        self.assertTrue(all(a["images"] == [] for a in pending))
+        tt = [a for a in refs["assets"] if a["id"].startswith("roscosmos-tt-")]
+        self.assertEqual(len(tt), 10)
+        self.assertTrue(all(a["editorial_status"] == "not_approved" for a in tt))
+        self.assertTrue(all(len(a["images"]) == 1 and a["images"][0]["width"] == 1672 and a["images"][0]["height"] == 941 for a in tt))
 
 
 if __name__ == "__main__":

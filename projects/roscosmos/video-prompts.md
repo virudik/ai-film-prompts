@@ -11,9 +11,9 @@
 - **🛠️ 0** рабочих направлений W: 20 предложений оформлены отдельными сценами.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
 - **Последняя оформленная активная сцена:** 30 — ТерраТех: Сервис, а не сырой снимок. Сцены 26–30 ждут PNG.
-- **Последняя полная синхронизация:** **02.11.2026 · Терра Тех: сцены 26–30, горизонталь 16:9, референсы pending; прежние 25 сцен не менялись**.
+- **Последняя полная синхронизация:** **02.11.2026 · Терра Тех: сцены 26–30, горизонталь 16:9, 03.11.2026 нарисованы 10 горизонтальных PNG референсов; прежние 25 сцен не менялись**.
 
-**Роскосмос, Главкосмос, РКС, НЦ ОМЗ и ЦПК:** 25 разработанных сцен; все 12 дополнительных идей стали сценами; **27.10.2026 номера сцен перестроены по организациям: Роскосмос 1–5, Главкосмос 6–10, РКС 11–15, НЦ ОМЗ 16–20, ЦПК 21–25** (прежний номер → новый: 3→6, 4→7, 5→11, 6→12, 7→16, 8→17, 9→3, 10→4, 11→5, 12→8, 13→9, 14→10, 15→13, 16→14, 17→15; 1, 2 и 18–25 не изменились; отчёты до 27.10 используют прежние номера); **27.10.2026 добавлены 5 сцен ЦПК имени Ю.А. Гагарина (21–25)** — по пять на каждую организацию, по новостям ЦПК 23–26.10.2026 и его постоянным темам. Референсы к ним рисует открытый чат ChatGPT Work; до этого сцены 21–25 не запускать. Всего 35 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций. **02.11.2026 добавлены сцены 26–30 АО «Терра Тех»** — тоже по пять на организацию, горизонталь 16:9, холст 1672×941, как у сцен 1–25; десять PNG ещё не нарисованы и в очередь не поставлены. Прежние 29 пунктов очереди остаются на паузе.
+**Роскосмос, Главкосмос, РКС, НЦ ОМЗ и ЦПК:** 25 разработанных сцен; все 12 дополнительных идей стали сценами; **27.10.2026 номера сцен перестроены по организациям: Роскосмос 1–5, Главкосмос 6–10, РКС 11–15, НЦ ОМЗ 16–20, ЦПК 21–25** (прежний номер → новый: 3→6, 4→7, 5→11, 6→12, 7→16, 8→17, 9→3, 10→4, 11→5, 12→8, 13→9, 14→10, 15→13, 16→14, 17→15; 1, 2 и 18–25 не изменились; отчёты до 27.10 используют прежние номера); **27.10.2026 добавлены 5 сцен ЦПК имени Ю.А. Гагарина (21–25)** — по пять на каждую организацию, по новостям ЦПК 23–26.10.2026 и его постоянным темам. Референсы к ним рисует открытый чат ChatGPT Work; до этого сцены 21–25 не запускать. Всего 35 уникальных PNG с явно указанными ролями. Для каждой сцены — две версии: 30 с Wan 3.0 / Seedance 2.5 (единый текст) и Seedance 2.0 2×15 с. Это творческие предложения, не официальные ролики организаций. **02.11.2026 добавлены сцены 26–30 АО «Терра Тех»** — тоже по пять на организацию, горизонталь 16:9, холст 1672×941, как у сцен 1–25; десять PNG нарисованы 03.11.2026 и в очередь не поставлены. Прежние 29 пунктов очереди остаются на паузе.
 
 **Все сцены прошли режиссёрскую доработку; художественная приёмка результатов остаётся за владельцем.** 23.10 владелец поручил после доработки занимать свободные слоты по запланированной очереди и оценивать результаты. Добавлена ограниченная очередь: одна выбранная версия на сцену, без автоматических повторов. Для второй части Seedance нужен настоящий результат первой. Подготовленная очередь не означает состоявшуюся отправку; факты запуска — в квитанциях. Только подтверждённый Unlimited и 0 кредитов; вкладка Seedance 2.5 сама по себе не подтверждает бесплатную доступность.
 
@@ -5008,7 +5008,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-26"></a>
 ## Сцена 26 — ТерраТех: Космос становится отчётом
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","references_drawn","landscape_16_9"]} -->
 
 **Контекст использования:** Имиджевый горизонтальный ролик 16:9: снимок с орбиты становится понятным цветным слоем, который человек ещё раз смотрит. **Постоянная тема · «Цифровая Земля».**
 
@@ -5018,18 +5018,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — о компании](https://terratech.ru/company/) · [15.04.2026 — интервью](https://terratech.ru/company/news/kosmos-za-kopeyki-kak-neyroseti-i-snimki-iz-kosmosa-spasayut-biznes-i-ekonomyat-milliony/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`, горизонталь 1672×941, ещё не нарисован. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`, тот же размер. Описание для рисунка: `tt26-report.image-prompt.txt` и `tt26-orbit.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`, горизонталь 1672×941. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`, тот же размер. Описание для рисунка: `tt26-report.image-prompt.txt` и `tt26-orbit.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt"><figcaption>@Image1 — аналитик и высокий монитор. PNG 1672×941 ещё нет. Рисовать по tt26-report.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt"><figcaption>@Image2 — та же дельта с орбиты. PNG 1672×941 ещё нет. Рисовать по tt26-orbit.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-report.png" alt="Сцена 26, @Image1: Терра Тех: аналитик и высокий монитор" loading="lazy"></a><figcaption>@Image1 — аналитик и высокий монитор. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" alt="Сцена 26, @Image2: Терра Тех: та же дельта с орбиты" loading="lazy"></a><figcaption>@Image2 — та же дельта с орбиты. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Снимок становится отчётом только после того, как на него посмотрел человек.»
 
 **Финальный титр для монтажа:** Терра Тех. Отчёт проверяют глазами.
 
-**Готовность:** Тексты готовы 02.11.2026. Оба PNG pending, not_approved, 1672×941. В очередь не ставить: проект на паузе, картинок ещё нет. Часть 2 ждёт последние 3 секунды настоящей части 1.
+**Готовность:** Тексты готовы 02.11.2026. Оба PNG нарисованы 03.11.2026, not_approved, 1672×941. В очередь не ставить: проект на паузе. Часть 2 ждёт последние 3 секунды настоящей части 1.
 
 **Режиссёрский контроль:** Один и тот же контур дельты в космосе и на мониторе. Маска без подписей. Горизонтальная композиция 16:9 на весь кадр.
 
@@ -5195,7 +5195,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-27"></a>
 ## Сцена 27 — ТерраТех: Три шага
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","references_drawn","landscape_16_9"]} -->
 
 **Контекст использования:** Коротко показать автоматический сервис: человек выбирает место и задачу, слой появляется сам. **Продукт Pixel.AI · интервью 15.04.2026, без цены.**
 
@@ -5205,18 +5205,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [15.04.2026 — интервью на сайте Терра Тех](https://terratech.ru/company/news/kosmos-za-kopeyki-kak-neyroseti-i-snimki-iz-kosmosa-spasayut-biznes-i-ekonomyat-milliony/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Оба 1672×941, pending. Промпты рисунка рядом, `tt27-*.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Оба 1672×941, нарисованы 03.11.2026, not_approved. Промпты рисунка рядом, `tt27-*.image-prompt.txt`.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt"><figcaption>@Image1 — планшет и три пустых круга. Рисовать по tt27-tablet.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt"><figcaption>@Image2 — тот же планшет уже со слоем. Рисовать по tt27-layer.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-tablet.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-27/tt27-tablet.png" alt="Сцена 27, @Image1: Терра Тех: планшет и три пустых круга" loading="lazy"></a><figcaption>@Image1 — планшет и три пустых круга. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-27/tt27-layer.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-27/tt27-layer.png" alt="Сцена 27, @Image2: Терра Тех: тот же планшет уже со слоем" loading="lazy"></a><figcaption>@Image2 — тот же планшет уже со слоем. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Три понятных действия. Цифру на экране мы не обещаем.»
 
 **Финальный титр для монтажа:** Терра Тех. Слой собирается сам.
 
-**Готовность:** PNG pending, not_approved, 16:9, 1672×941. Цену не рисовать и не запускать, пока картинок нет и пауза не снята.
+**Готовность:** PNG нарисованы 03.11.2026, not_approved, 16:9, 1672×941. Цену не рисовать и не запускать, пока пауза не снята.
 
 **Режиссёрский контроль:** Никакой цены, валюты и надписи «шаг 1». Поле на экране и поле за спиной — одно и то же.
 
@@ -5382,7 +5382,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-28"></a>
 ## Сцена 28 — ТерраТех: Лес, который видно сверху
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","references_drawn","landscape_16_9"]} -->
 
 **Контекст использования:** Показать, как по двум датам видно изменение леса, без рейтинга регионов. **Индекс лесопользования · 27.02.2026.**
 
@@ -5392,18 +5392,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [27.02.2026 — пресс-релиз «Эксперт РА»](https://raexpert.ru/releases/2026/feb27b).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Оба 1672×941, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Оба 1672×941, нарисованы 03.11.2026, not_approved.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt"><figcaption>@Image1 — кроны и одна вырубка. Рисовать по tt28-clearing.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt"><figcaption>@Image2 — две даты одной стопкой. Рисовать по tt28-pair.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" alt="Сцена 28, @Image1: Терра Тех: кроны и одна вырубка" loading="lazy"></a><figcaption>@Image1 — кроны и одна вырубка. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" alt="Сцена 28, @Image2: Терра Тех: две даты одной стопкой" loading="lazy"></a><figcaption>@Image2 — две даты одной стопкой. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Две даты. Один лес. Разницу видно без таблицы.»
 
 **Финальный титр для монтажа:** Терра Тех. Лес сравнивают по снимку.
 
-**Готовность:** PNG pending, not_approved. В очередь не добавлять.
+**Готовность:** PNG нарисованы 03.11.2026, not_approved. В очередь не добавлять.
 
 **Режиссёрский контроль:** Никаких названий регионов, баллов и дат цифрами. Стык двух фото — тонкий край кадра, не чёрная полоса.
 
@@ -5566,7 +5566,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-29"></a>
 ## Сцена 29 — ТерраТех: Снимок для разговора
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","references_drawn","landscape_16_9"]} -->
 
 **Контекст использования:** Спокойно показать, зачем людям кладут снимок на стол. **Постоянная тема сайта, без реального дела.**
 
@@ -5576,18 +5576,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — главная](https://terratech.ru/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Оба 1672×941, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Оба 1672×941, нарисованы 03.11.2026, not_approved.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt"><figcaption>@Image1 — снимок на столе. Рисовать по tt29-print.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt"><figcaption>@Image2 — та же изгородь на земле. Рисовать по tt29-fence.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-print.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-29/tt29-print.png" alt="Сцена 29, @Image1: Терра Тех: снимок на столе" loading="lazy"></a><figcaption>@Image1 — снимок на столе. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-29/tt29-fence.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-29/tt29-fence.png" alt="Сцена 29, @Image2: Терра Тех: та же изгородь на земле" loading="lazy"></a><figcaption>@Image2 — та же изгородь на земле. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Снимок показывает линию. Вывод делают люди, не ролик.»
 
 **Финальный титр для монтажа:** Терра Тех. Снимок для разговора.
 
-**Готовность:** PNG pending, not_approved. Не ставить в очередь и не изображать суд.
+**Готовность:** PNG нарисованы 03.11.2026, not_approved. Не ставить в очередь и не изображать суд.
 
 **Режиссёрский контроль:** Никаких гербов, печатей, газетных заголовков и жестов ссоры.
 
@@ -5751,7 +5751,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <a id="scene-30"></a>
 ## Сцена 30 — ТерраТех: Сервис, а не сырой снимок
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","pending_references","landscape_16_9"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["draft","two_engine_versions","reference_first","civil_space","earth_observation","terratech","references_drawn","landscape_16_9"]} -->
 
 **Контекст использования:** Отличить коммерческий продукт от пачки сырых кадров и от работы центра приёма. **Коммерческий оператор · повод стенда 15.04.2026, не репортаж.**
 
@@ -5761,18 +5761,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 02.11.2026):** [Терра Тех — о компании](https://terratech.ru/company/) · [15.04.2026 — ExpoCifra](https://terratech.ru/company/news/kosmos-dlya-tsifrovoy-ekonomiki-geotekhnologii-na-vystavke-expocifra-2026/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Оба 1672×941, pending.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Оба 1672×941, нарисованы 03.11.2026, not_approved.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt"><figcaption>@Image1 — стопка серых кадров. Рисовать по tt30-chips.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
-<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt"><figcaption>@Image2 — один цветной лист. Рисовать по tt30-sheet.image-prompt.txt, холст 1672×941.</figcaption></a></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-chips.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-30/tt30-chips.png" alt="Сцена 30, @Image1: Терра Тех: стопка серых кадров" loading="lazy"></a><figcaption>@Image1 — стопка серых кадров. Созданный концепт.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-30/tt30-sheet.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-30/tt30-sheet.png" alt="Сцена 30, @Image2: Терра Тех: один цветной лист" loading="lazy"></a><figcaption>@Image2 — один цветной лист. Созданный концепт.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Заказчику нужен понятный слой, а не пачка безымянных кадров.»
 
 **Финальный титр для монтажа:** Терра Тех. Готовый слой.
 
-**Готовность:** PNG pending, not_approved. Сцену не запускать и в очередь не ставить.
+**Готовность:** PNG нарисованы 03.11.2026, not_approved. Сцену не запускать и в очередь не ставить.
 
 **Режиссёрский контроль:** Не показывать антенну, каталог НЦ ОМЗ, цену и логотип на листе.
 
