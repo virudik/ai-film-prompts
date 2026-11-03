@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:65cb4129-5385-4cd7-8ab5-5d167a9625fd",
   "task": "HH:55 scheduled cycle: Topview slots and maintenance",
   "acquired_at": "2026-11-03T15:56:50.148Z",
-  "expires_at": "2026-11-03T16:26:50.148Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-03T16:04:14.732Z",
   "rules": "ops/CANON-LOCK.md"
 }
