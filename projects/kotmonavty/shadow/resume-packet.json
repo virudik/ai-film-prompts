@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-03T14:23:28+00:00",
-  "source_head": "1a3af212e80485a175b883ca764a20ab6db90ba5",
-  "source_fingerprint": "1a0ad867e274c2c80ebe9775b16ebc624463803daf3d59cec76e04de3c626da4",
+  "checked_at": "2026-11-03T14:53:29+00:00",
+  "source_head": "8d85a114cf52d5b6df95f89163aaf317d7a7891b",
+  "source_fingerprint": "dca5da779c03915c5b0017536bfa010776bd6de9ee321e25faeb227cad1d7064",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -180,8 +180,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "f6f612e436aac688e0400e87cac556ec0a6b66ca21988db2d1925f2148628dec",
-      "bytes": 37713
+      "sha256": "e6b229733ed1de338fc4293ffaf88501697691b72a1c6a62210933745e8cf1ec",
+      "bytes": 38620
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -190,8 +190,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "f08e0477e2c9d5db9b441fdc0c069acc10cccc97851c52d65945140ff55e52db",
-      "bytes": 34913
+      "sha256": "4765add7ca53143871f5878d7a317c36cdae6785cfbf81c846c3a4641c00e734",
+      "bytes": 34999
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -200,23 +200,23 @@
     },
     {
       "file": "README-AI-SYNC.md",
-      "sha256": "618d5b01e8289c6d4b6ed96768190a4fa1455083dbe46c85dcf4c9a18c942fd1",
-      "bytes": 18148
+      "sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
+      "bytes": 18336
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "5d2598c39d2e1282a9c6c96c39e2d3da1765be768033c3e02f3154c433ebe627",
-      "bytes": 130208
+      "sha256": "abb4393a26e5c78d1bd54d8f11ce8ea6d36235788cc3cb4f0d6ef3c1f6ca668c",
+      "bytes": 130398
     },
     {
       "file": "USER-GUIDE.md",
-      "sha256": "f04f1f75f060c0e55c9ae52c591b6321c6e2db67436fa0de189241bbabc98235",
-      "bytes": 83923
+      "sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
+      "bytes": 84087
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "683faa21265173304d9615acf4b0d1d2b9b56e97efe97b36ade913c4ac77faa1",
-      "bytes": 5136
+      "sha256": "0d980b4ac0404a19959e6349c5a55330f406c32d6105c1ac43a3e010993787fe",
+      "bytes": 5139
     },
     {
       "file": "monitor-role.json",
@@ -230,7 +230,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "010f0139d67786edab2e20d04b57d11f8bbba939d3bc0b4eae0ef2afa7ce7b82",
+      "sha256": "7f52c8847c56444809633da4143b8e334d199c925043fb58e53b39e20e057fde",
       "bytes": 22430
     },
     {
@@ -255,8 +255,8 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "b14dfd70836a6e40878b3e01fc5d2dc853e3f102017f4898f371aa3e097b6f58",
-      "bytes": 17153
+      "sha256": "5fe8d353efe251e2235bb3a2c8339ed3973ce18d3a48ee7505eb2ab8403c60ac",
+      "bytes": 17155
     },
     {
       "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
@@ -295,18 +295,18 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "65daedf337a0ccadc4bac0b650e72b7e5e2212ae4208682c3500b85820efacaf",
-      "bytes": 34714
+      "sha256": "f75996aaecadd469f0abdcfb593c10061abac42ee7bdfaa0b0c2bb8b3d64541e",
+      "bytes": 34800
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "30e8a138b7b06e585bd497af92bf5e393c35893bb0c5ea9ac8b2fa3a42e6481a",
+      "sha256": "4931e60154126e4589f927ed1279b5680f7c6072ad5433bd9e9e299c1d915bf5",
       "bytes": 25134
     },
     {
       "file": "video-prompts.md",
-      "sha256": "21ccfd8c2e9066851af654cda05d223c13d18a7eca33978167c673a429f24a64",
-      "bytes": 1350818
+      "sha256": "1c2e59ee039c2118f27851db23631c8f586ee8300a581030641af55e2b92284f",
+      "bytes": 1351135
     }
   ],
   "packet_bytes": 7647
