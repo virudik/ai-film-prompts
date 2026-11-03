@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-03T22:03:37Z",
+  "checked_at": "2026-11-03T22:17:23Z",
   "status": "warn",
   "warnings": 2,
   "info": 8,
@@ -57,13 +57,13 @@
     {
       "level": "warn",
       "code": "service-file-size",
-      "text": "reports/current-work-checkpoint.md: 84 КБ (предел 80 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "text": "reports/current-work-checkpoint.md: 86 КБ (предел 80 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
       "file": "reports/current-work-checkpoint.md"
     },
     {
       "level": "warn",
       "code": "service-file-size",
-      "text": "work-resume-register.json: 100 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
+      "text": "work-resume-register.json: 101 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
       "file": "work-resume-register.json"
     }
   ]
