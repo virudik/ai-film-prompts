@@ -1679,9 +1679,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2746133,
-   "thumb_bytes": 61126,
-   "src_sha256": "0f342ce728dca378daf8c74f0a3bd6228c95bbf9581e0c668bf7304709399d17"
+   "src_bytes": 2891756,
+   "thumb_bytes": 67838,
+   "src_sha256": "4156429e5052c75b447a79dead3aa919f4edf529e531896d21dfe44130f5c934"
   },
   "projects/roscosmos/references/scenes/scene-29/tt29-fence.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-29/tt29-fence.png.webp",
