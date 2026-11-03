@@ -3,112 +3,39 @@
   "source": "scheduled_work_hh55",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "execution_instance_id": "66af7648-5c1d-40c3-aa1f-92ebb2bee8af",
-  "run_id": "63c09b0a-8d44-8327-b63e-083d2d378907",
-  "run_id_source": "Automations.peek actual last_run.id for scheduled_for 2026-11-03T19:55:00Z",
-  "started_at": "2026-11-03T19:52:37.315134Z",
-  "receipt_started_at": "2026-11-03T19:53:36.392Z",
-  "source_head": "e1f2c12f43e09344d3fd384602eb69bddd8df3e6",
+  "execution_instance_id": "c015c6d9-983e-47fa-a67d-dc4d2da0fc85",
+  "run_id": "2b7af303-59c0-8320-81cb-db7edbccaaae",
+  "run_id_source": "Automations.peek actual last_run.id for scheduled_for 2026-11-03T20:55:00Z",
+  "started_at": "2026-11-03T20:53:44.755216Z",
+  "receipt_started_at": "2026-11-03T20:55:36.242Z",
+  "source_head": "75c6be9ca76d79ab468e6ec6c2536a702b8913db",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "completed",
-  "scan_source": "Topview connector direct read-only inventory across all boards and all video-task pages",
-  "scan_scope": "14 boards / 18 video-task pages; global six physical video slots",
-  "scan_complete": true,
-  "scan_completed_at": "2026-11-03T19:53:49.258Z",
-  "occupied_slots": 6,
-  "free_slots": 0,
-  "boards_scanned": 14,
-  "pages_scanned": 18,
-  "video_tasks_scanned": 627,
-  "inventory_tasks_scanned": 1011,
-  "active_tasks": [
-    {
-      "item_id": "S56-SEED20-P2",
-      "task_id": "be960f5e3bf54563aff663fed9da8906",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "cost": 0
-    },
-    {
-      "item_id": "S48-SEED20-P2",
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "cost": 0
-    },
-    {
-      "item_id": "S71-WAN30",
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "cost": 0
-    },
-    {
-      "item_id": "S72-WAN30",
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "cost": 0
-    },
-    {
-      "item_id": "S61-SEED20-P1",
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "cost": 0
-    },
-    {
-      "item_id": "S60-SEED20-P1",
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "cost": 0
-    }
-  ],
+  "phase": "started",
+  "stage": "intake",
+  "scan_source": null,
+  "scan_scope": "pending fresh all-board/all-page scan",
+  "scan_complete": false,
+  "scan_completed_at": null,
+  "occupied_slots": null,
+  "free_slots": null,
+  "boards_scanned": null,
+  "pages_scanned": null,
+  "video_tasks_scanned": null,
+  "inventory_tasks_scanned": null,
+  "active_tasks": [],
   "selected_item": null,
   "new_submissions": [],
-  "outcome": "no_free_slot",
-  "blocker": "All six global physical video slots occupied after complete fresh scan.",
-  "retryable": false,
+  "outcome": "started",
+  "blocker": null,
+  "retryable": true,
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "actual_last_run_id": "e01d79d7-02d4-8326-ab5e-f5abeea5f806",
+    "actual_last_run_id": "c749a4d6-e170-8333-8ffc-bb1ba431a673",
     "actual_last_run_status": "completed",
-    "latest_result_run_id": "e01d79d7-02d4-8326-ab5e-f5abeea5f806",
+    "latest_result_run_id": "c749a4d6-e170-8333-8ffc-bb1ba431a673",
     "ids_match": true,
     "receipt_path": "reports/topview-slot-backup-cycle.json",
-    "receipt_run_id": "e01d79d7-02d4-8326-ab5e-f5abeea5f806",
+    "receipt_run_id": "c749a4d6-e170-8333-8ffc-bb1ba431a673",
     "receipt_phase": "finished",
     "receipt_match": true
   },
@@ -117,9 +44,9 @@
     "reason": "local git checkout absent in managed runtime; no robot heartbeat imitated"
   },
   "lease": {
-    "holder": "chatgpt:work:66af7648-5c1d-40c3-aa1f-92ebb2bee8af",
-    "acquired_at": "2026-11-03T19:53:27.517Z",
-    "expires_at": "2026-11-03T20:23:27.517Z",
+    "holder": "chatgpt:work:c015c6d9-983e-47fa-a67d-dc4d2da0fc85",
+    "acquired_at": "2026-11-03T20:55:09.666Z",
+    "expires_at": "2026-11-03T21:25:09.666Z",
     "release_pending": true
   },
   "owner_tasks": {
@@ -131,45 +58,16 @@
     "phase_a": {
       "due": false,
       "completed": false,
-      "note": "22:55 Europe/Moscow; last confirmed 20:55 cycle preserved."
+      "note": "23:55 Europe/Moscow; not a Phase A window."
     },
     "phase_b": {
       "due": false,
       "completed": false,
-      "note": "22:55 Europe/Moscow; last confirmed 20:55 cycle preserved."
+      "note": "23:55 Europe/Moscow; not a Phase B window."
     },
     "phase_c": {
       "due": false,
       "completed": false
     }
-  },
-  "completed_at": "2026-11-03T19:54:23.373Z",
-  "queue_reconciliation": {
-    "queue_sha256": "3ab6cb1a64583cfe443a4e4134cabd77c0f7fb89bb9dcacf333d9d57a3b2a732",
-    "task_map_sha256": "ea1fbc805d841015523657c5ecdb481c4dd6935de321f5044ffce009c7227bae",
-    "readiness_hashes_match": true,
-    "submitted_expected": 14,
-    "submitted_found": 14,
-    "live_claimed_submitting_or_unknown": 0,
-    "next_ready_item": "S63-WAN30",
-    "next_ready_priority": 0.8
-  },
-  "relay_recovery": {
-    "checked": true,
-    "events_found": 0,
-    "event_receipt_written": false
-  },
-  "work_recovery": {
-    "current_cycle_gui_quota_verified": false,
-    "note": "No fresh GUI/quota evidence in this cycle; canonical restored_verified route and route_generation 3 left unchanged."
-  },
-  "result_qc": {
-    "new_result_reviewed": false,
-    "note": "All six active tasks remain init; no new result available."
-  },
-  "dependent_blockers": [
-    "S52-R2-P2",
-    "S59-P3",
-    "S62-P2"
-  ]
+  }
 }
