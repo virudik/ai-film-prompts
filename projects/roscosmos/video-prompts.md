@@ -5038,7 +5038,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 26 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
+**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5225,7 +5225,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 27 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
+**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-27/tt27-tablet.png`. @Image2 — `projects/roscosmos/references/scenes/scene-27/tt27-layer.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5412,7 +5412,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 28 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
+**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5596,7 +5596,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 29 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
+**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-29/tt29-print.png`. @Image2 — `projects/roscosmos/references/scenes/scene-29/tt29-fence.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5781,7 +5781,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 30 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности. Пока PNG нет, блок не запускать.
+**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-30/tt30-chips.png`. @Image2 — `projects/roscosmos/references/scenes/scene-30/tt30-sheet.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
