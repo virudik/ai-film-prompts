@@ -1,9 +1,59 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-01T01:17:27.502354+00:00",
+  "checked_at": "2026-11-03T23:04:18.676Z",
   "status": "ok",
-  "scope": "Selected consistency invariants only; full semantic review and runtime success are separate.",
-  "live_automations": "not_checked",
-  "automation_observations": [],
+  "scope": "Selected consistency invariants plus semantic review of three live launcher prompts, queue/receipt rules and Relay subscription; runtime success remains separate.",
+  "live_automations": "checked",
+  "automation_observations": [
+    {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "updated_at": "2026-11-03T23:03:42.434565+00:00",
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+      "default_timezone": "Europe/Moscow",
+      "prompt_sha256": "c10af7ea63cfee1988f2d750e84a8ef08c0dade8fafb34b978228d69616b6359",
+      "last_run_id": "2c433d43-1c40-8322-9931-8805c328a3bd",
+      "last_run_status": "in_progress",
+      "latest_result_run_id": null
+    },
+    {
+      "id": "6adc585e7ac08191bb93825117dc7213",
+      "updated_at": "2026-11-03T23:03:43.325298+00:00",
+      "schedule": "BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT",
+      "default_timezone": "Europe/Moscow",
+      "prompt_sha256": "2e50e5446ab19e7147916b17106f31ac6ab43897fa0e635e47ad3291ce7f6beb",
+      "last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
+      "last_run_status": "completed",
+      "latest_result_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90"
+    },
+    {
+      "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "updated_at": "2026-11-03T23:03:44.160800+00:00",
+      "schedule": "BEGIN:VEVENT\nDTSTART:20261031T181310Z\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "default_timezone": "Europe/Moscow",
+      "prompt_sha256": "0f41d1174b58ff779c42665cb6dd8b2f689bd6b19447bd49478a2e1dada2bdc9",
+      "last_run_id": "84a899c6-43a0-832c-a15a-0f5d887765a0",
+      "last_run_status": "in_progress",
+      "latest_result_run_id": "f2f10491-c040-8321-989b-96dd3a4e98b1"
+    }
+  ],
+  "relay_subscription": {
+    "checked": true,
+    "active": true,
+    "event": "relay.message",
+    "arguments": {},
+    "subscription_id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+    "live_delivery": "unverified"
+  },
+  "semantic_review": {
+    "three_existing_tasks_checked": true,
+    "owner_task_threshold_and_same_thread": true,
+    "locks_and_receipts": true,
+    "no_update_and_receipt_not_saved": true,
+    "archive_rules": true,
+    "cancelled_dependencies_not_restored": true,
+    "ordinary_peer_included": true,
+    "schedules_and_triggers_unchanged": true,
+    "notes": "Enabled/in_progress and hashes are configuration evidence only; current runtime execution is not inferred."
+  },
   "problems": []
 }
