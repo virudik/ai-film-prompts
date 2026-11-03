@@ -10,34 +10,121 @@
   "receipt_started_at": "2026-11-03T17:00:14.695Z",
   "source_head": "4e8d1f5c94a697a9a8e317119da23082c8f812a9",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
-  "scan_source": null,
-  "scan_scope": "pending fresh all-board/all-page scan",
-  "scan_complete": false,
-  "scan_completed_at": null,
-  "occupied_slots": null,
-  "free_slots": null,
-  "boards_scanned": null,
-  "pages_scanned": null,
-  "video_tasks_scanned": null,
-  "inventory_tasks_scanned": null,
-  "active_tasks": [],
+  "phase": "finished",
+  "stage": "no_free_slot",
+  "scan_source": "Topview read-only connector",
+  "scan_scope": "all boards and all video-task pages",
+  "scan_complete": true,
+  "scan_completed_at": "2026-11-03T17:00:43.043Z",
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "boards_scanned": 14,
+  "pages_scanned": 18,
+  "video_tasks_scanned": 627,
+  "inventory_tasks_scanned": 1011,
+  "active_tasks": [
+    {
+      "task_id": "be960f5e3bf54563aff663fed9da8906",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "gmt_create": "2026-11-03 15:14:23"
+    },
+    {
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "gmt_create": "2026-11-02 10:18:20"
+    },
+    {
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "gmt_create": "2026-11-01 08:29:13"
+    },
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "gmt_create": "2026-10-31 11:08:48"
+    },
+    {
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "gmt_create": "2026-10-30 15:37:37"
+    },
+    {
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0,
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "gmt_create": "2026-10-29 23:20:18"
+    }
+  ],
   "selected_item": null,
   "new_submissions": [],
-  "outcome": "started",
-  "blocker": null,
+  "outcome": "no_free_slot",
+  "blocker": "Fresh complete scan verified all six global physical video slots occupied.",
   "retryable": true,
+  "current_cycle_topview_gui_quota_rechecked": false,
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "actual_last_run_id": "b255b1bc-dc90-8324-addf-e7c00838fa02",
     "actual_last_run_status": "in_progress",
     "latest_result_run_id": "0d78e8a9-158c-832d-b1db-86e2fc9ff90f",
     "ids_match": false,
-    "latest_result_note": "Ordinary latest_result belongs to the previous 16:00Z run, not its current 17:00Z run.",
+    "latest_result_note": "Ordinary latest_result belongs to the previous 16:00Z run; current 17:00Z run has no matching latest_result yet.",
     "receipt_path": "reports/topview-slot-backup-cycle.json",
     "receipt_run_id": "a616d030-a3a8-832b-828f-7f8ee0493077",
     "receipt_phase": "finished",
+    "receipt_outcome": "no_free_slot",
     "receipt_match": false
   },
   "monitor_role": {
@@ -51,22 +138,65 @@
     "release_pending": true
   },
   "owner_tasks": {
-    "checked": false
+    "checked": true,
+    "chatgpt_or_any_open": 0,
+    "taken": 0
   },
   "maintenance": {
     "phase_a": {
       "due": false,
       "completed": false,
-      "note": "19:55 Europe/Moscow is not a Phase A window."
+      "note": "19:55 Europe/Moscow is not a Phase A window; last confirmed 14:55 result preserved."
     },
     "phase_b": {
       "due": false,
       "completed": false,
-      "note": "19:55 Europe/Moscow is not a Phase B window."
+      "note": "19:55 Europe/Moscow is not a Phase B window; mail state was not touched."
     },
     "phase_c": {
       "due": false,
       "completed": false
     }
-  }
+  },
+  "video_status_counts": {
+    "success": 598,
+    "init": 6,
+    "fail": 23
+  },
+  "gui_quota_note": "No GUI/quota submission preflight because no physical slot was free. Work remains preferred from prior canonical verified recovery evidence, not from this cycle.",
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "queue_reconciliation": {
+    "submitted_task_ids_expected": 14,
+    "submitted_task_ids_found": 14,
+    "open_claims": {
+      "claimed": 0,
+      "submitting": 0,
+      "submission_unknown": 0
+    },
+    "queue_blob_sha": "6c3c8ffa153181162e6fbfc2860a7235086269a2",
+    "task_map_blob_sha": "6e45b98ce47b3d207a89d2664e79fbfc6d031459",
+    "readiness_blob_sha": "a3bb3a030ce44d5532afd09ae56c1b209a182161",
+    "queue_sha256": "3ab6cb1a64583cfe443a4e4134cabd77c0f7fb89bb9dcacf333d9d57a3b2a732",
+    "task_map_sha256": "4c4cc9ce4045e03aaea0b00c562789b7cd48e20380991d5c6d8e502014db4334",
+    "hashes_match_readiness": true,
+    "readiness_checked_at": "2026-11-03T16:25:08.468029Z",
+    "topview_checked_at": "2026-11-03T17:00:43.043Z"
+  },
+  "new_result_qc": [],
+  "carried_blockers": [
+    {
+      "item_id": "S52-R2-SEED20-P2",
+      "reason": "continuous visual+audio QC still required"
+    },
+    {
+      "item_id": "S59-SEED20-P3",
+      "reason": "P2 already finishes the landing; continuity blocked"
+    },
+    {
+      "item_id": "S62-SEED20-P2",
+      "reason": "P1 continuity overshoot already reaches final triangle/blue-green ignition"
+    }
+  ],
+  "completed_at": "2026-11-03T17:02:22.724Z"
 }
