@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-11-03T12:08:45.159Z",
+  "state": "held",
+  "holder": "grok:226f83b9-1a13-491c-9fec-b7c340e22e70",
+  "task": "Docs: ops/FAMILY-SITES.md, HANDOFF и AI-PROJECT-GUIDE о семейных сайтах (владелец 03.11, 'Да')",
+  "acquired_at": "2026-11-03T12:49:56Z",
+  "expires_at": "2026-11-03T13:19:56Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
