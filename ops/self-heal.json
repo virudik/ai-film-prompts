@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "lock-forgotten": {
+      "text": "Замок канона (chatgpt:ordinary:39ae97ba-d405-46cc-8942-230da452eb24) истёк 03.11 09:17 UTC и не снят.",
+      "since": "2026-11-03T09:49:26Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-03T09:49:26Z",
+      "escalated_at": null
+    }
+  },
   "log": [
-    {
-      "at": "2026-10-28T01:19:42Z",
-      "kind": "resolved",
-      "key": "lock-forgotten",
-      "text": "Прошло: Замок канона (chatgpt) истёк 27.10 23:58 UTC и не снят."
-    },
     {
       "at": "2026-10-28T16:12:25Z",
       "kind": "fixed",
@@ -123,7 +125,13 @@
       "kind": "resolved",
       "key": "run-failed-canon-health",
       "text": "Прошло: Последний запуск «здоровье канона» на GitHub упал (попытка 2): https://github.com/virudik/ai-film-prompts/actions/runs/41283865148"
+    },
+    {
+      "at": "2026-11-03T09:49:26Z",
+      "kind": "fixed",
+      "key": "lock-forgotten",
+      "text": "Нашёл: Замок канона (chatgpt:ordinary:39ae97ba-d405-46cc-8942-230da452eb24) истёк 03.11 09:17 UTC и не снят. Сделал: снял просроченный замок канона."
     }
   ],
-  "changed_at": "2026-11-01T08:19:19Z"
+  "changed_at": "2026-11-03T09:49:26Z"
 }
