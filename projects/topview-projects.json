@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-03T16:25:01Z",
+  "checked_at": "2026-11-03T17:20:27Z",
   "updated_by": "GitHub robot (robot_telemetry.py)",
   "rules": "projects/README.md",
   "note": "Задачи Topview других проектов (не Серёгиуса). Слоты общие: занято на аккаунте = topview-status.json.occupied_slots + число active здесь. Технический success ≠ одобрение.",
