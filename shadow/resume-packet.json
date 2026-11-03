@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-03T15:13:15+00:00",
-  "source_head": "9a30dd3d0b935e390dd24beaff1d5b39571434fa",
-  "source_fingerprint": "c6c25911e2d93c87687244aa551096a95b178b7693f9c682c2aeb08f786fd2ff",
+  "checked_at": "2026-11-03T15:18:00+00:00",
+  "source_head": "b2fb6d129b2f49c0f7022ca37381b30141bedff2",
+  "source_fingerprint": "fe6b6daa32c94d1ba0b9ce5acf7b43639b7538d609c7842ad9f15b776ec35f0f",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -134,16 +134,8 @@
     "Current capabilities; for a video submit use all-project slot scan, input/QC, Unlimited0 and CAS claim"
   ],
   "queue_recovery": {
-    "unresolved": [
-      {
-        "item_id": "S56-SEED20-P2",
-        "state": "submitting",
-        "task_id": null,
-        "recovery_action": "reconcile_without_resubmitting",
-        "submit_authorized": false
-      }
-    ],
-    "existing_task_count": 50,
+    "unresolved": [],
+    "existing_task_count": 51,
     "existing_tasks": [
       {
         "item_id": "S28-A1-TEST-20261017",
@@ -164,6 +156,10 @@
       {
         "item_id": "S56-SEED20-P1",
         "task_id": "b15165813c0848939edbe8b3d3aed182"
+      },
+      {
+        "item_id": "S56-SEED20-P2",
+        "task_id": "be960f5e3bf54563aff663fed9da8906"
       },
       {
         "item_id": "S58-SEED20-P2",
@@ -424,8 +420,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "a108c94cb30201d29428653e6f6a68752e8115886030c12ce03df3d329c2d8cf",
-      "bytes": 372052
+      "sha256": "9fdfb85840634f50f6d40af09da72873d1975964f0914396a576be0d36017484",
+      "bytes": 372256
     },
     {
       "file": "project-status.json",
@@ -434,8 +430,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "3bc099a86452d04dcd8168f4be78205e272f9525cf921a5c5b8470cd07e50e2e",
-      "bytes": 71411
+      "sha256": "404e9f27ff008bd616047437ca639f6da31e90f42c3d585f127b88a7d777b943",
+      "bytes": 72934
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -459,9 +455,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "39b879238c4ef2c3ba3265c90308920592654ab7d978ff87ece47c5de6a8399f",
-      "bytes": 98543
+      "sha256": "f422e2374ae3b04e3097f0bc5287bb37f6c88b3e2702258608220ce694736e38",
+      "bytes": 94819
     }
   ],
-  "packet_bytes": 3912
+  "packet_bytes": 3864
 }
