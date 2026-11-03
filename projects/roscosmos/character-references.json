@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "roscosmos",
-  "updated_at": "2026-11-02T22:30:00Z",
-  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 горизонтальных PNG 1672×941 pending, not_approved.",
+  "updated_at": "2026-11-03T00:32:13Z",
+  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 горизонтальных PNG 1672×941 нарисованы 03.11.2026 (Grok Bot), not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -1293,51 +1293,57 @@
     },
     {
       "id": "roscosmos-tt-26-tt26-report",
-      "name": "@Image1 — аналитик и высокий монитор. PNG 1672×941 ещё нет.",
+      "name": "@Image1 — аналитик и высокий монитор.",
       "kind": "situation_reference",
       "scenes": [
         26
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
+          "caption": "Терра Тех: аналитик и монитор с дельтой",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "fffa0a80b818404e1bd5866853176b475ebcc2e5fba8afdfa6308a90121ea0f0",
+          "scenes": [
+            26
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
     {
       "id": "roscosmos-tt-26-tt26-orbit",
-      "name": "@Image2 — та же дельта с орбиты. PNG 1672×941 ещё нет.",
+      "name": "@Image2 — та же дельта с орбиты.",
       "kind": "situation_reference",
       "scenes": [
         26
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+          "caption": "Терра Тех: та же дельта с орбиты",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "b883e61e9a4de45264cc14da33bb5ccfdd11ddb72fe17eaf97645809ee0d4846",
+          "scenes": [
+            26
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1349,20 +1355,23 @@
         27
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+          "path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+          "caption": "Терра Тех: планшет и три пустых круга",
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "5d2b025aa9ef6dc8c647b663f53b0f8a183457f18c1acbdf16553381b108ac3f",
+          "scenes": [
+            27
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1374,20 +1383,23 @@
         27
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+          "path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+          "caption": "Терра Тех: тот же планшет со слоем",
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "595ade0e3e0468172a7885283483c05c4436e2ee9167abd50f0859ae6af175b4",
+          "scenes": [
+            27
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1399,20 +1411,23 @@
         28
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+          "caption": "Терра Тех: кроны и одна вырубка",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "09489d693f99217deb7355449c649548112468bf7d7bb644e760fe85695a6c6a",
+          "scenes": [
+            28
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1424,20 +1439,23 @@
         28
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
+          "caption": "Терра Тех: две даты одной стопкой",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "0f342ce728dca378daf8c74f0a3bd6228c95bbf9581e0c668bf7304709399d17",
+          "scenes": [
+            28
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1449,20 +1467,23 @@
         29
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
+          "path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
+          "caption": "Терра Тех: снимок на столе",
           "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "cbd664beb2e726a7484ade511c1acd8e2e74dd08db1846609b8a8c1e040ba230",
+          "scenes": [
+            29
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1474,20 +1495,23 @@
         29
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-29/tt29-fence.png",
+          "path": "projects/roscosmos/references/scenes/scene-29/tt29-fence.png",
+          "caption": "Терра Тех: та же изгородь на земле",
           "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-fence.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "8ec1688828166b27fcf1b1607915ad804d2d1c55fe08a8dcce69f7bb81f975b8",
+          "scenes": [
+            29
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1499,20 +1523,23 @@
         30
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-30/tt30-chips.png",
+          "path": "projects/roscosmos/references/scenes/scene-30/tt30-chips.png",
+          "caption": "Терра Тех: стопка серых кадров",
           "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "36a755612d8614c4d8d0e32c2a05eee9cc803090dc72fc4eaafab2ccaf46b504",
+          "scenes": [
+            30
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     },
@@ -1524,20 +1551,23 @@
         30
       ],
       "editorial_status": "not_approved",
-      "asset_status": "pending",
-      "notes": "PNG ещё не нарисован. Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt. not_approved.",
-      "images": [],
-      "pending_images": [
+      "notes": "Горизонталь 16:9, холст 1672×941, как у сцен 1–25, без надписей и логотипов. not_approved. projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt.",
+      "images": [
         {
-          "expected_path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+          "path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+          "caption": "Терра Тех: один цветной лист",
           "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
+          "created_by": "Grok Bot GenerateImage",
+          "created_at": "2026-11-03T00:32:13+00:00",
+          "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "asset_status": "pending",
+          "sha256": "9028dd6c6447bf0f91912a2b2ecce8e460ccc793066c29209aa700e1c2dcc39d",
+          "scenes": [
+            30
+          ],
           "width": 1672,
           "height": 941,
-          "aspect_ratio": "16:9",
-          "created_by": null,
-          "source_type": "pending_owner_drawing"
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
         }
       ]
     }

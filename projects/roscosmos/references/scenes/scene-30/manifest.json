@@ -2,29 +2,39 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 30,
-  "updated_at": "2026-11-02T22:30:00Z",
+  "updated_at": "2026-11-03T00:32:13+00:00",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-30/tt30-chips.png",
+      "caption": "Терра Тех: стопка серых кадров",
       "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-chips.image-prompt.txt",
+      "created_by": "Grok Bot GenerateImage",
+      "created_at": "2026-11-03T00:32:13+00:00",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
+      "sha256": "36a755612d8614c4d8d0e32c2a05eee9cc803090dc72fc4eaafab2ccaf46b504",
+      "scenes": [
+        30
+      ],
       "width": 1672,
       "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+      "caption": "Терра Тех: один цветной лист",
       "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
+      "created_by": "Grok Bot GenerateImage",
+      "created_at": "2026-11-03T00:32:13+00:00",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
+      "sha256": "9028dd6c6447bf0f91912a2b2ecce8e460ccc793066c29209aa700e1c2dcc39d",
+      "scenes": [
+        30
+      ],
       "width": 1672,
       "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
     }
   ]
 }

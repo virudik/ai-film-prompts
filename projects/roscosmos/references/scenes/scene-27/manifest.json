@@ -2,29 +2,39 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 27,
-  "updated_at": "2026-11-02T22:30:00Z",
+  "updated_at": "2026-11-03T00:32:13+00:00",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+      "caption": "Терра Тех: планшет и три пустых круга",
       "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
+      "created_by": "Grok Bot GenerateImage",
+      "created_at": "2026-11-03T00:32:13+00:00",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
+      "sha256": "5d2b025aa9ef6dc8c647b663f53b0f8a183457f18c1acbdf16553381b108ac3f",
+      "scenes": [
+        27
+      ],
       "width": 1672,
       "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+      "caption": "Терра Тех: тот же планшет со слоем",
       "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
+      "created_by": "Grok Bot GenerateImage",
+      "created_at": "2026-11-03T00:32:13+00:00",
+      "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "asset_status": "pending",
+      "sha256": "595ade0e3e0468172a7885283483c05c4436e2ee9167abd50f0859ae6af175b4",
+      "scenes": [
+        27
+      ],
       "width": 1672,
       "height": 941,
-      "aspect_ratio": "16:9",
-      "sha256": null,
-      "note": "PNG рисует владелец по prompt_file. Файл изображения ещё не существует."
+      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
     }
   ]
 }
