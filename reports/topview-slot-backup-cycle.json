@@ -2,23 +2,23 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "9c03ebd7-014b-41aa-b6e6-62696ad2c011",
-  "run_id": "4621edce-c9f4-8331-a79d-9796b07e95ba",
-  "run_id_source": "Automations.peek actual last_run.id, scheduled_for 2026-11-03T02:00:00Z, in_progress",
-  "started_at": "2026-11-03T02:00:07.356770Z",
-  "receipt_started_at": "2026-11-03T02:04:13.055Z",
-  "source_head": "7c0f098d1a3f3603387fdcfd95fb62c9274d9a33",
+  "execution_instance_id": "fefa3894-70dc-4ee6-a764-c2733e374229",
+  "run_id": "75d0b4b4-4e84-8328-8172-3efa20278ebb",
+  "run_id_source": "Automations.peek last_run.id, in_progress, scheduled_for 2026-11-03T03:00:00Z",
+  "started_at": "2026-11-03T03:02:32.514182Z",
+  "receipt_started_at": "2026-11-03T03:08:52.512Z",
+  "source_head": "7bd6d5d289e3ced2e02cac072aa2832afb9f1b47",
   "route_generation": 3,
-  "phase": "finished",
+  "phase": "started",
   "scan_source": "Topview connector read-only",
-  "scan_scope": "Full 14 boards; 18 pages at pageSize100, all media; 13 direct taskID lookups",
+  "scan_scope": "Full 14-board 20-page account read-only scan completed, task reconciliation",
   "scan_complete": true,
   "scan_checked_at": "2026-11-03T02:02:53.278Z",
   "occupied_slots": 6,
   "free_slots": 0,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "browser_transport": "Topview connector read-only; TinyFish not started",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
@@ -26,11 +26,11 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:9c03ebd7-014b-41aa-b6e6-62696ad2c011",
-    "acquired_at": "2026-11-03T02:03:38.246Z",
-    "expires_at": "2026-11-03T02:17:38.246Z"
+    "holder": "chatgpt:ordinary:fefa3894-70dc-4ee6-a764-c2733e374229",
+    "acquired_at": "2026-11-03T03:07:59.677Z",
+    "expires_at": "2026-11-03T03:19:59.677Z"
   },
-  "updated_at": "2026-11-03T02:08:07.443Z",
+  "updated_at": "2026-11-03T03:08:52.512Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -41,7 +41,7 @@
     "production_submission_verified": false,
     "existing_submitted_task_ids_verified": 13
   },
-  "stage": "completed",
+  "stage": "started",
   "boards_scanned": 14,
   "pages_scanned": 18,
   "total_tasks_observed": 1010,
@@ -78,8 +78,8 @@
     "slot_reserved": false
   },
   "selected_item": null,
-  "blocker": "Verified six physical Topview video slots remain occupied (init), all on selected My First Board in Unlimited0; no Create/TinyFish allowed.",
-  "retryable": true,
+  "blocker": null,
+  "retryable": false,
   "work_recovery": {
     "preferred_executor": "work",
     "route_generation": 3,
@@ -104,6 +104,6 @@
   "lease_release_status": "pending_separate_CAS",
   "source_head_at_finish": "2505c4c2f4902132f69b3cf45138dc78509411b2",
   "last_direct_verification_at": "2026-11-03T02:06:55Z",
-  "finished_at": "2026-11-03T02:08:07.443Z",
-  "notes": "Fresh full account-wide read-only Topview scan, exact readiness SHA256 verified from fetched raw text; all 13 submitted tasks direct-verified. No free physical video slot, no browser Create, no metered TinyFish."
+  "finished_at": null,
+  "notes": "Read-only phase confirmed 6/6 videos; no Create. Full final receipt follows separate CAS."
 }
