@@ -10,22 +10,22 @@
   "started_at": "2026-11-03T09:58:08.775359Z",
   "receipt_started_at": "2026-11-03T10:03:31.709Z",
   "source_head": "08fdc88d93a4e37c90d151d5cd34a01b7991bcbc",
-  "source_head_at_receipt": "e3cd360d959d2bc21cfd80e7b1ad3507ad28c7f7",
+  "source_head_at_receipt": "d41fb83c265b4ebe75481c5846f6689ab579f3d9",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_complete",
-  "scan_source": "Topview read-only connector",
-  "scan_scope": "14 boards, 20 pages; current round complete",
+  "phase": "finished",
+  "stage": "no_free_slot",
+  "scan_source": "Topview read-only connector; complete 14-board/20-page list plus direct query of 13 submitted IDs",
+  "scan_scope": "14 boards, 20 pages; 1010 tasks (626 video, 384 image)",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
   "task_ids": [],
   "new_submissions": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "Not started; six global video slots occupied",
+  "browser_transport": "Not used: no free global Topview video slots. TinyFish intentionally not called.",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
@@ -36,13 +36,79 @@
     "acquired_at": "2026-11-03T10:03:26.884Z",
     "expires_at": "2026-11-03T10:15:26.884Z"
   },
-  "updated_at": "2026-11-03T10:03:31.709Z",
+  "updated_at": "2026-11-03T10:05:07.042Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_scheduled_run_verified": false,
-    "tinyfish_production_submission_verified": false
-  }
+    "tinyfish_production_submission_verified": false,
+    "tinyfish_login_current_cycle_verified": false,
+    "tinyfish_ui_control_current_cycle_verified": false
+  },
+  "scan_completed_at": "2026-11-03T10:05:07.042Z",
+  "boards_scanned": 14,
+  "pages_scanned": 20,
+  "total_tasks_scanned": 1010,
+  "video_tasks_scanned": 626,
+  "image_tasks_scanned": 384,
+  "active_tasks": [
+    {
+      "item_id": "S48-SEED20-P2",
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S71-WAN30",
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S72-WAN30",
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S61-SEED20-P1",
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S60-SEED20-P1",
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    },
+    {
+      "item_id": "S62-SEED20-P1",
+      "task_id": "0de1f663432646d294f409a22e20a26e",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "credits_cost": 0
+    }
+  ],
+  "submitted_ids_reconciled": 13,
+  "open_claims": 0,
+  "submission_unknown": 0,
+  "queue_sha256_verified": "77eda3f5251ccea6f90d63d297e16984a0e8c54fff27e38b78526c7b69524f15",
+  "task_map_sha256_verified": "644fd7af7c7685bcdf57e3d2bd97e707b3a2f97aa418177cd32e980c76a65982",
+  "ready_item_next": "S56-SEED20-P2",
+  "ready_priority_next": 0.31,
+  "topview_task_id_new_verified": null
 }
