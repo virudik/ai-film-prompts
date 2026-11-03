@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-03T22:28:04+00:00",
-  "source_head": "0e770100648ad60d619566dcb0b977ffa8a71e81",
-  "source_fingerprint": "829a6f20ee6af3b13497272494c7263be20fbe29c30ebcff63ce7a90094b3bae",
+  "checked_at": "2026-11-03T22:54:26+00:00",
+  "source_head": "961f5586dea84149cba96ba20e0c64f58d0ecc24",
+  "source_fingerprint": "e4621bc58bbf533ae0812ebf57bff4a64abe6170293658dfebfb5f9c8aeb0770",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -203,7 +203,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "78f780e520be9dafcabd068479057703621f94a9ae8a6311e99f5f01c756068d",
+      "sha256": "0c750c2e881faaa4368f8879af95fc54c3417730ce531f19cd322fc42960272c",
       "bytes": 22433
     },
     {
