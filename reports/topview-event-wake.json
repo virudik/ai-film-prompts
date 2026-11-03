@@ -898,6 +898,29 @@
         "free_slots": 1
       },
       "selected_item": "S56-SEED20-P2"
+    },
+    {
+      "event_id": "slots:92dc9e3a:8",
+      "issue_number": 295,
+      "message_id": "243391571411251200",
+      "relay_event_id": "evt_5e49bfff34aac4d208afbbc0279fbcce",
+      "checked_at": "2026-11-03T15:13:54.595Z",
+      "outcome": "started",
+      "reason": "Verified second signal received during same uninterrupted execution handling issue294; own existing S56-P2 intent preserved; no Create clicked yet.",
+      "task_ids": [],
+      "retryable": true,
+      "source": "Agent Relay webhook",
+      "runner": "chatgpt_event_trigger",
+      "execution_instance_id": "226a1654-7800-4b89-878a-c69ca6226b1f",
+      "route_generation": 3,
+      "run_id": null,
+      "run_id_unavailable_reason": "Platform runtime run ID not exposed",
+      "execution": {
+        "state": "started",
+        "stage": "intake",
+        "started_at": "2026-11-03T15:13:54.595Z",
+        "updated_at": "2026-11-03T15:13:54.595Z"
+      }
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
