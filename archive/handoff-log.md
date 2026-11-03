@@ -1,3 +1,8 @@
+# Перенос 03.11.2026 — строки «Новое» из NEW-CHAT-HANDOFF.md (хендоф у предела 35 КБ)
+
+- **01.11 07:15, Grok (чистка по самопроверке):** 5 строк «Новое» (Grok 01.11, ordinary 31.10) — дословно в `archive/handoff-log.md`; правила — `ops/OWNER-TASKS.md`, `ops/LAUNCHER-COORDINATION.md`.
+- Строки, очищенные 30.10, сохранены в `archive/handoff-log.md`; действующее состояние — в профильных файлах.
+
 # Перенос 01.11.2026 — строки «Новое с последней чистки» о Grok (самопроверка: хендоф >35 КБ)
 
 - **01.11.2026 04:05, Grok Bot:** отчёт о возможностях по §3/§9 пакета — `reports/grok-capabilities-2026-11-01.md` (+ `.json`): PASS GitHub/терминал/Drive/Supabase-чтение/Notion/сухой прогон Topview до Create; NOT TESTED — выполнение расписания, настоящий run ID, ledger, Create (`owner_go_ahead=false`), MP4 как вход формы. Круглосуточный запуск и первый Create — «в планах на будущее» (владелец 03:46), d37ea54b `needs_owner`. Правило Grok «брать Claude >3 ч» (03:04) — приоритет над §5 пакета.
