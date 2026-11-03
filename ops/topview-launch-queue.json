@@ -4506,7 +4506,7 @@
       "canonical_block_label": "62 · Seedance 2.0 часть 2",
       "priority": 0.46,
       "state": "blocked_inputs",
-      "launch_readiness": "blocked_critical_continuity",
+      "launch_readiness": "blocked_continuity_qc",
       "model": "Seedance 2.0",
       "selected_model": "Seedance 2.0",
       "duration_seconds": 15,
