@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:fb34732d-b9e9-4b51-9666-b538d214e303",
   "task": "tt28-pair переделка",
   "acquired_at": "2026-11-03T00:35:14Z",
-  "expires_at": "2026-11-03T01:05:14Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-03T00:35:18Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "roscosmos"
 }
