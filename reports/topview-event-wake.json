@@ -871,7 +871,7 @@
       "issue_number": 294,
       "message_id": "243386449257426944",
       "relay_event_id": "evt_808d3b1dea0007e5fd16b973db7a3ddc",
-      "checked_at": "2026-11-03T15:00:05.211Z",
+      "checked_at": "2026-11-03T15:06:17.123Z",
       "outcome": "started",
       "reason": "Verified bot event; own lease acquired",
       "task_ids": [],
@@ -884,10 +884,20 @@
       "run_id_unavailable_reason": "Platform runtime run ID not exposed",
       "execution": {
         "state": "started",
-        "stage": "intake",
+        "stage": "inputs_preflight",
         "started_at": "2026-11-03T15:00:05.211Z",
-        "updated_at": "2026-11-03T15:00:05.211Z"
-      }
+        "updated_at": "2026-11-03T15:06:17.123Z"
+      },
+      "scan": {
+        "checked_at": "2026-11-03T15:00:53.480Z",
+        "complete": true,
+        "boards": 14,
+        "pages": 20,
+        "tasks": 1010,
+        "occupied_slots": 5,
+        "free_slots": 1
+      },
+      "selected_item": "S56-SEED20-P2"
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
