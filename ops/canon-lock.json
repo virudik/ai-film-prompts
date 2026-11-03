@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:226a1654-7800-4b89-878a-c69ca6226b1f",
-  "task": "Relay issue294 intake and authorized slot work",
-  "acquired_at": "2026-11-03T14:59:53.846Z",
-  "expires_at": null,
-  "released_at": "2026-11-03T15:16:24.982Z",
+  "state": "held",
+  "holder": "chatgpt:work:65cb4129-5385-4cd7-8ab5-5d167a9625fd",
+  "task": "HH:55 scheduled cycle: Topview slots and maintenance",
+  "acquired_at": "2026-11-03T15:56:50.148Z",
+  "expires_at": "2026-11-03T16:26:50.148Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
