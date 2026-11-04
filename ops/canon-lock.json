@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:work:338a6050-9fa5-47c4-925b-05f38285556f",
-  "task": "Серёгиус · приём Work, сверка очереди и квитанция",
-  "acquired_at": "2026-11-04T13:14:41.929Z",
-  "expires_at": "2026-11-04T13:34:41.929Z",
-  "released_at": null,
-  "rules": "ops/CANON-LOCK.md"
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "rules": "ops/CANON-LOCK.md",
+  "last_released_by": "chatgpt:work:338a6050-9fa5-47c4-925b-05f38285556f",
+  "last_released_at": "2026-11-04T13:22:07.188Z",
+  "released_at": "2026-11-04T13:22:07.188Z"
 }
