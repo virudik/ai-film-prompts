@@ -12,8 +12,8 @@
   "observed_main_head_at_receipt_start": "7da44970c0df040af38fb692a55b662c8e873cee",
   "lease_commit": "7da44970c0df040af38fb692a55b662c8e873cee",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake_verified_scan",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview direct read-only connector scan (14 boards, 18 pages)",
   "scan_complete": true,
   "occupied_slots": 6,
@@ -28,7 +28,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "browser_transport": "not_used",
@@ -42,7 +42,7 @@
     "acquired_at": "2026-11-04T03:01:24.252Z",
     "expires_at": "2026-11-04T03:16:24.252Z"
   },
-  "updated_at": "2026-11-04T03:02:12.601Z",
+  "updated_at": "2026-11-04T03:03:40.691Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -103,5 +103,52 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  }
+  },
+  "result": "no_update",
+  "scan_scope": "14 boards, 18 video pages, 627 video tasks",
+  "scan_checked_at": "2026-11-04T03:03:40.691Z",
+  "scan": {
+    "checked_at": "2026-11-04T03:03:40.691Z",
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "active_task_ids": [
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a",
+      "025955aad2cf494da2b4104d26c36ed5"
+    ]
+  },
+  "checked_at": "2026-11-04T03:03:40.691Z",
+  "completed_at": "2026-11-04T03:03:40.691Z",
+  "dedup": {
+    "queue_items": 63,
+    "submitted_active": 12,
+    "submitted_task_ids_checked": 12,
+    "submitted_task_ids_verified": 12,
+    "claimed_open": 0,
+    "submitting_open": 0,
+    "submission_unknown_open": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "d869fa719cdd36954575ef4bf760fd62d68e49cb10d5b238663b6ba52ff9e523",
+    "queue_readiness_sha_match": true,
+    "task_map_readiness_sha_match": true
+  },
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "owner_tasks": {
+    "open_eligible": 0,
+    "claim_taken": 0
+  },
+  "preferred_executor_from_registry": "work",
+  "owner_decision": "no_new_Create_when_6_of_6",
+  "lease_release_pending": true
 }
