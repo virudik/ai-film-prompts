@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "held",
-  "holder": "chatgpt:ordinary:10f50e0d-a1a7-4186-a55a-2cc400fe10f0",
-  "task": "TOPVIEW-SLOT-PRIORITY-20261024 / ordinary hourly read-only 6-of-6",
-  "acquired_at": "2026-11-04T16:06:49.506Z",
-  "expires_at": "2026-11-04T16:18:49.506Z",
+  "holder": "chatgpt:ordinary:85f474c9-e441-4cad-9358-56ea49dfc83a",
+  "task": "TOPVIEW-SLOT-PRIORITY-20261024 / scheduled ordinary 6-of-6 read-only receipt",
+  "acquired_at": "2026-11-04T16:20:30.482Z",
+  "expires_at": "2026-11-04T16:28:30.482Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
