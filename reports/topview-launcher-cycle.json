@@ -3,183 +3,48 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "result": "no_update",
-  "run_id": "872b452e-d400-832d-9a1e-497a53cab4aa",
-  "runtime_run_id_source": "Automations.peek current last_run.id; latest_result belongs to previous run",
-  "execution_instance_id": "8fb6fb68-bffa-4306-b4ed-378bf3711cb9",
+  "phase": "started",
+  "status": "started",
+  "run_id": "50a7161d-03f8-8322-b882-3d6804289509",
+  "runtime_run_id_source": "Automations.peek current last_run.id; no latest_result yet",
+  "execution_instance_id": "855a76fd-08d6-41df-a83c-7606cb1b66fb",
   "route_generation": 3,
-  "source_head": "9bb4bf7ab933eef95b11aa103d6184e6fcf12e47",
-  "started_at": "2026-11-03T23:53:33.576Z",
-  "completed_at": "2026-11-03T23:57:01.291Z",
-  "checked_at": "2026-11-03T23:57:01.291Z",
+  "source_head": "2f1b7b0c10995d6f7e5fa8ae356da1633ac62db9",
+  "started_at": "2026-11-04T00:55:59.638Z",
+  "checked_at": "2026-11-04T00:55:59.638Z",
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "status_counts": {
-      "success": 598,
-      "init": 6,
-      "fail": 23
-    },
-    "scope": "all boards, every physical video-task page"
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null
   },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_required": true,
-    "complete_scan_verified": true
-  },
-  "board": {
-    "id": "1a6244cf1ae747ef847d949a80d6133c",
-    "name": "My First Board",
-    "verified_from_projects_json": true
-  },
-  "active_tasks": [
-    {
-      "item_id": "S56-SEED20-P2",
-      "task_id": "be960f5e3bf54563aff663fed9da8906",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item_id": "S48-SEED20-P2",
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item_id": "S71-WAN30",
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "status": "init",
-      "model": "qwen-wan3.0-video",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item_id": "S72-WAN30",
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "status": "init",
-      "model": "qwen-wan3.0-video",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item_id": "S61-SEED20-P1",
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "item_id": "S60-SEED20-P1",
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    }
-  ],
-  "task_ids": [
-    "be960f5e3bf54563aff663fed9da8906",
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5"
-  ],
-  "queue_reconciliation": {
-    "live_items": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 29,
-      "submitted": 12,
-      "blocked_inputs": 21
-    },
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "submitted_ids_checked": 12,
-    "submitted_ids_found": 12,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "6761f3d33b91bacdae066402992c6bfd8249fae88e1feb5e545f77bee7f8abd1",
-    "readiness_hashes_match": true,
-    "next_ready": {
-      "id": "S63-WAN30",
-      "priority": 0.8,
-      "reserved": false
-    }
-  },
+  "slots": null,
+  "active_task_ids": [],
   "create_performed": false,
   "retry_performed": false,
   "credits_spent": 0,
-  "owner_tasks": {
-    "open_chatgpt_or_any": 0,
-    "taken_foreign": 0
-  },
-  "relay": {
-    "recent_events": 0,
-    "subscription_active": true,
-    "live_delivery_verified": false,
-    "polling_active": false
-  },
   "peer_ordinary": {
     "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "last_run_id": "84a899c6-43a0-832c-a15a-0f5d887765a0",
-    "latest_result_run_id": "84a899c6-43a0-832c-a15a-0f5d887765a0",
+    "last_run_id": "586e091e-3000-8321-9e0d-8f2846b31ac2",
+    "latest_result_run_id": "586e091e-3000-8321-9e0d-8f2846b31ac2",
     "recorded_status": "completed",
-    "receipt_run_id": "6a243f01-8c5c-832a-9477-7567715e81b2",
-    "receipt_matches_current_run": false,
-    "old_receipt_not_used_as_current_proof": true
-  },
-  "maintenance": {
-    "phase_a_due": false,
-    "phase_b_due": false,
-    "phase_c_due": false,
-    "moscow_cycle": "02:55",
-    "monitor_role": "not_checked: local script unavailable; heartbeat not imitated",
-    "network_policy": "not_checked: /etc/codex/network-policy.json missing"
+    "receipt_run_id": "586e091e-3000-8321-9e0d-8f2846b31ac2",
+    "receipt_phase": "started",
+    "receipt_matches_run_id": true,
+    "receipt_finished": false
   },
   "work_capacity": {
-    "registry_state": "restored_verified",
-    "fresh_gui_and_quota_evidence_this_cycle": false,
-    "route_change_performed": false
-  },
-  "canonical_writes": {
-    "checkpoint_commit": "7bc0912a5952a12a2b6ff98d480598e8401db8d7",
-    "register_commit": "72588e0d2759be977589c4f6b40be17feb73fe4c"
+    "state": "restored_verified",
+    "fresh_gui_quota_evidence_this_cycle": false
   },
   "lock": {
-    "holder": "chatgpt:work:8fb6fb68-bffa-4306-b4ed-378bf3711cb9",
-    "acquired_at": "2026-11-03T23:53:33.576Z",
-    "expires_at": "2026-11-04T00:23:33.576Z",
-    "release_pending": true
+    "holder": "chatgpt:work:855a76fd-08d6-41df-a83c-7606cb1b66fb",
+    "acquired_at": "2026-11-04T00:55:39.949Z",
+    "expires_at": "2026-11-04T01:25:39.949Z"
   },
-  "notification": "suppressed_no_material_change"
+  "notes": [
+    "scan not yet performed",
+    "network policy snapshot missing",
+    "scripts/monitor_role.py unavailable; heartbeat not imitated"
+  ]
 }
