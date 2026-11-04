@@ -1,17 +1,31 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-03T12:55:54Z",
+  "checked_at": "2026-11-04T13:11:21Z",
   "window_hours": 24,
-  "verdict": "no_free_slots",
-  "launches": [],
-  "launches_by_schedule": 0,
+  "verdict": "schedule_launched",
+  "launches": [
+    {
+      "item": "S56-SEED20-P2",
+      "scene_id": 56,
+      "claimed_at": "2026-11-03T15:11:56Z",
+      "run_id": "chatgpt-scheduled-event-226a1654-7800-4b89-878a-c69ca6226b1f",
+      "source": "schedule"
+    }
+  ],
+  "launches_by_schedule": 1,
   "launches_by_chat": 0,
-  "free_slot_observations": [],
-  "ready_items_waiting": 30,
+  "free_slot_observations": [
+    {
+      "at": "2026-11-03T14:50:43Z",
+      "occupied": 5,
+      "capacity": 6
+    }
+  ],
+  "ready_items_waiting": 29,
   "launcher_health": {
     "state": "capacity_full",
     "unresolved": false,
-    "episode": "02214408",
+    "episode": "78014125",
     "unresolved_since": null,
     "reason": "no_free_global_slot; launcher_health_not_proven",
     "free_slots_global": 0,
@@ -30,7 +44,6 @@
       "S51F",
       "S50A",
       "S50B",
-      "S56-SEED20-P2",
       "S28-A4-20261023",
       "S28-A5-20261023",
       "S28-A6-20261023",
@@ -50,17 +63,17 @@
       "S28-A13-20261030"
     ],
     "reconciliation_items": [],
-    "last_event_id": "result:b0915b04173c414e9ac08652d34b7852",
-    "receipt_present": false,
-    "handler_outcome": null,
-    "execution_stage": null,
-    "execution_updated_at": null,
+    "last_event_id": "slots:92dc9e3a:8",
+    "receipt_present": true,
+    "handler_outcome": "no_update",
+    "execution_stage": "finalized",
+    "execution_updated_at": "2026-11-03T15:16:24.982Z",
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
-    "escalation_attempted_episode": "124870c7",
-    "checked_at": "2026-11-03T12:00:29Z"
+    "escalation_attempted_episode": "92dc9e3a",
+    "checked_at": "2026-11-04T12:30:33Z"
   },
   "launcher_observation_stale": false,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
