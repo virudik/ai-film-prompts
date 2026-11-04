@@ -135,7 +135,7 @@
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-11-04T19:50:36Z",
+      "checked_at": "2026-11-04T20:20:23Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -153,8 +153,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-11-04T19:50:42Z",
-    "completed_at": "2026-11-04T19:50:42Z",
+    "started_at": "2026-11-04T20:20:27Z",
+    "completed_at": "2026-11-04T20:20:27Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -166,7 +166,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 5 из 6 слотов занято, новых 0, завершено 1."
+    "note": "GitHub robot: 6 из 6 слотов занято, новых 1, завершено 0."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -225,8 +225,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-11-04T19:50:42Z",
-  "last_successful_cycle_at": "2026-11-04T19:50:42Z",
+  "last_completed_cycle_at": "2026-11-04T20:20:27Z",
+  "last_successful_cycle_at": "2026-11-04T20:20:27Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -241,13 +241,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-04T19:50:42Z"
+    "robot": "2026-11-04T20:20:27Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-11-04T19:50:42Z"
+    "robot": "2026-11-04T20:20:27Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -356,12 +356,12 @@
     }
   },
   "launcher_health": {
-    "state": "reconciliation_required",
-    "unresolved": true,
-    "episode": "93f4be2d",
-    "unresolved_since": "2026-11-04T19:50:42Z",
-    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
-    "free_slots_global": 1,
+    "state": "capacity_full",
+    "unresolved": false,
+    "episode": "81448142",
+    "unresolved_since": null,
+    "reason": "no_free_global_slot; launcher_health_not_proven",
+    "free_slots_global": 0,
     "actionable_items": [
       "S49A",
       "S49B",
@@ -395,9 +395,7 @@
       "S51G",
       "S28-A13-20261030"
     ],
-    "reconciliation_items": [
-      "S63-WAN30"
-    ],
+    "reconciliation_items": [],
     "last_event_id": "result:025955aad2cf494da2b4104d26c36ed5",
     "receipt_present": false,
     "handler_outcome": null,
@@ -408,6 +406,6 @@
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "92dc9e3a",
-    "checked_at": "2026-11-04T20:00:24Z"
+    "checked_at": "2026-11-04T20:20:27Z"
   }
 }
