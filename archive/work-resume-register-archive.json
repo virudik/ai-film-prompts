@@ -1127,6 +1127,12 @@
       "done": [
         "Свежие main/очередь/manifests прочитаны. Полный live-скан11досок/17страниц/911задач:5 активных Unlimited видео,1свободный слот. S55 success."
       ]
+    },
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "completed": [
+        "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry."
+      ]
     }
   ],
   "historical_resume_fields": [
