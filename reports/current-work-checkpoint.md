@@ -1,3 +1,17 @@
+# 04.11.2026 — цикл 21:55 МСК: Topview 6/6, без материальных изменений
+
+work_id: TOPVIEW-SLOT-PRIORITY-20261024
+
+- Work runtime `75765ed5-3580-8322-ae1b-0ce8c144bfc9`; execution_instance_id `0b727815-d63b-4893-98c5-4a854b3c5de2`; route_generation 3.
+- Полный fresh read-only scan: 14 досок, 18 физических видеостраниц, 627 видео; success 598, init 6, fail 23. Все 6/6 слотов заняты прежними Unlimited0-задачами на My First Board; Create/retry/credits: 0.
+- Все 12 submitted task IDs найдены; активных claimed/submitting/submission_unknown: 0. Queue SHA `66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046`, task-map SHA `c8f9e5ae3f2cd256ddc9090253379d14b851798323e0823cb02188c2b9092e24`; readiness совпадает. Следующий ready — `S63-WAN30` priority 0.8, слот не резервируется.
+- Ordinary actual last_run/latest_result совпадают: `9c9de247-59d8-8321-8d75-497ce6aae57e`. Его собственный результат подтверждает текущий полный scan, но canonical receipt осталась на `95ce4b5e-4858-832a-861c-daf6a045ad1a`, потому что ordinary встретил действующую Work-lease и корректно завершился `receipt_not_saved`; это не считается доказательством записи текущей квитанции.
+- Owner tasks open: 0. Relay events после прошлого цикла: 0; subscription active, live delivery unverified. Фазы A/B/C в 21:55 МСК не плановые.
+- Post-recertification integration run не появился: последний run `41884294540` относится к pre-recertification SHA и не доказывает текущий main. GitHub connector не имеет dispatch; публичный browser не авторизован, поэтому проверка остаётся `not_checked`, без имитации heartbeat/marker.
+- Fresh GUI/quota Work в этом цикле не проверялись; preferred_executor=work и route_generation=3 не менялись. `monitor_role.py` not_checked: локальный git checkout отсутствует.
+
+checked_at: 2026-11-04T19:00:59.490Z
+
 # 04.11.2026 — цикл 20:55 МСК: Topview 6/6; canon-health исправлен, фазы A/B выполнены
 
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
@@ -48,18 +62,6 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 - Create/retry/credits: 0. Fresh GUI/quota Work в этом цикле не проверялись; preferred_executor=work и route_generation=3 не менялись. `monitor_role.py` not_checked: локальный checkout отсутствует.
 
 checked_at: 2026-11-04T14:57:23.479Z
-
-# 04.11.2026 — цикл 16:55 МСК: Topview 6/6, без материальных изменений
-
-work_id: TOPVIEW-SLOT-PRIORITY-20261024
-
-- Work runtime `c1c24fb3-d7f4-8327-9714-c54d6948a3cb`; execution_instance_id `84a46a3e-f9ea-4944-9fa4-ad48fb404bce`; route_generation 3.
-- Полный fresh read-only scan: 14 досок, 18 видеостраниц, 627 видео; success 598, init 6, fail 23. Все 6/6 слотов заняты прежними Unlimited0-задачами на My First Board.
-- Все 12 submitted task IDs найдены; claimed/submitting/submission_unknown: 0. Queue SHA `66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046`, task-map SHA `779abffc5c8f5a39957f7a1deba08ec9bfbcf7e3eb6118cc065081b108cc0c52`; readiness совпадает. Следующий ready — `S63-WAN30` priority 0.8.
-- Ordinary actual last_run/latest_result/finished receipt совпадают: `4e0946b6-583c-8326-8918-04e9a4b29f2a`. Owner tasks open: 0; Relay events: 0. Фазы A/B/C в 16:55 МСК не плановые.
-- Create/retry/credits: 0. Fresh GUI/quota Work в этом цикле не проверялись; preferred_executor=work и route_generation=3 не менялись. `monitor_role.py` not_checked: локальный checkout отсутствует.
-
-checked_at: 2026-11-04T14:04:32Z
 
 # 04.11.2026, 16:13 МСК — приём Work и сверка очереди
 
