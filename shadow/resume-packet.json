@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-04T09:03:16+00:00",
-  "source_head": "0f8b8e238bdcb209638e3f5bd392882be7b05970",
-  "source_fingerprint": "805569a545bc9dc6877aac77ffb42dbef6ad0c30a22973efeda3eb24a2748d6d",
+  "checked_at": "2026-11-04T09:03:43+00:00",
+  "source_head": "66dd0f05ff94fffb75c51c43cf116a33d159268f",
+  "source_fingerprint": "11b42b98f8b1dc1335ba1cb893e0ee6ba19cc6bbed4ee0f501fa6c3b4bedd108",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -494,8 +494,8 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "4b1b671df070c589116f7469a6e9811111bd057b025e387282c1c9ae6db02aef",
-      "bytes": 95754
+      "sha256": "fb7580535e9cfed6c4f73dee1b48fdc6003f24dcf53cceeb6fadc9c2cfedf967",
+      "bytes": 95695
     }
   ],
   "packet_bytes": 7416
