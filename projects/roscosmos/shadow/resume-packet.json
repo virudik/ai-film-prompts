@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-04T11:59:58+00:00",
-  "source_head": "f61e5187ec937a07a1dd102643d332d0abbcac7d",
-  "source_fingerprint": "a2c0be0d93123859f416998e2c404988d79d4aa66ede814b3aedaa10e0bdf658",
+  "checked_at": "2026-11-04T12:20:46+00:00",
+  "source_head": "04bebbb934532080c64e76ad1acbf4ab9d03c855",
+  "source_fingerprint": "f5b74f48fd9a4c963d144e0e07e2ceb80378a5a7d93c08c68a521082a5dea767",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -237,8 +237,8 @@
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "sha256": "381750672f106aca7ced2681489094af287d784ab02f7b36a197a38c82f55186",
-      "bytes": 15042
+      "sha256": "0dee33721123fdde8d69a214bc5c0f305462c50159d874325fe7b0dd6f84764b",
+      "bytes": 16087
     },
     {
       "file": "projects/roscosmos/reports/handoff-receipts.json",
@@ -252,8 +252,8 @@
     },
     {
       "file": "projects/roscosmos/work-resume-register.json",
-      "sha256": "e6f540647d33d3018fafd7f97a2d9a3dcf5a824d8854f2f10fd630b4344804bc",
-      "bytes": 3167
+      "sha256": "056c8f6b060d59b2f3e6e04399e264a8d9be04274cdfd5f6f65d4440d08840ad",
+      "bytes": 3922
     },
     {
       "file": "shadow/current-checkpoint.md",
