@@ -3,17 +3,19 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "started",
-  "status": "in_progress",
-  "result": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "result": "no_material_change",
   "run_id": "352b75e4-fe64-8333-8872-41cfb345ad55",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress at intake)",
   "execution_instance_id": "4a0d727b-ebc2-488c-9174-a725adda8b54",
   "route_generation": 3,
   "source_head": "1a27c099c5f9a636357b57dc63fab29dcca6edbd",
+  "source_head_at_finish": "64ed780a6f05ff93ec211ee17e6b16cb9fba6ee8",
   "lease_commit": "4d023a350b2e0469b633f4ef3292e380552bae82",
   "started_at": "2026-11-04T23:50:09.049885Z",
   "receipt_started_at": "2026-11-04T23:54:14.978Z",
+  "completed_at": "2026-11-04T23:55:36.923Z",
   "intake": {
     "monitor_role": {
       "status": "not_checked",
@@ -21,20 +23,96 @@
     }
   },
   "scan": {
-    "complete": false,
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 628,
+    "status_counts": {
+      "success": 599,
+      "init": 6,
+      "fail": 23
+    },
+    "active_videos": 6,
+    "scope": "all Topview boards and all physical video pages"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
+    "occupied": 6,
+    "free": 0,
     "complete_scan_required": true,
-    "complete_scan_verified": false
+    "complete_scan_verified": true,
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "board_name": "My First Board",
+    "active_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "parameters_verified": "all six init tasks are on My First Board, 720p, 16:9, useUnlimitMode=true, creditsCost=0"
+  },
+  "queue_reconciliation": {
+    "total_items": 63,
+    "state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 28,
+      "submitted": 13,
+      "blocked_inputs": 21
+    },
+    "active_claimed": 0,
+    "active_submitting": 0,
+    "active_submission_unknown": 0,
+    "submitted_task_ids_checked": 13,
+    "submitted_task_ids_found": 13,
+    "submitted_task_ids_missing": 0,
+    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+    "task_map_sha256": "71cc40f4cf93a1c829911c4d123d2a6b339425b079870152aa40d5ee69f491fa",
+    "readiness_sha_match": true,
+    "readiness_path": "ops/queue-readiness.json",
+    "next_ready_item": "S64-WAN30",
+    "next_ready_priority": 0.9
+  },
+  "peer_reconciliation": {
+    "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+    "ordinary_actual_last_run_id": "f7164e0c-9570-8332-9e0a-2e6a8f7075ef",
+    "ordinary_actual_status": "completed",
+    "ordinary_latest_result_run_id": null,
+    "ordinary_receipt_run_id": "f7164e0c-9570-8332-9e0a-2e6a8f7075ef",
+    "ordinary_receipt_match": true,
+    "ordinary_receipt_reason": "receipt matches completed actual last_run; latest_result is absent and was not inferred",
+    "relay_automation_id": "6adc585e7ac08191bb93825117dc7213",
+    "relay_actual_last_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
+    "relay_latest_result_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f"
+  },
+  "phases": {
+    "phase_a_due": false,
+    "phase_a_status": "not_due_02_55_MSK",
+    "phase_b_due": false,
+    "phase_b_status": "not_due_02_55_MSK",
+    "phase_c_due": false,
+    "phase_c_status": "not_due_thursday_02_55_MSK",
+    "owner_tasks": {
+      "open": 0,
+      "taken": 0
+    }
+  },
+  "work_capacity": {
+    "preferred_executor": "work",
+    "route_unchanged": true,
+    "this_cycle_new_gui_or_quota_evidence": false,
+    "platform_mode_or_quota_not_inferred_from_enabled_or_telemetry": true
+  },
+  "accounting": {
+    "checkpoint_updated": false,
+    "register_updated": false,
+    "reason": "normal no-change cycle; current facts already represented and no history churn added"
   },
   "new_submissions": [],
   "topview_credits_spent": 0,
+  "blocker": "no_free_slot_after_complete_scan",
+  "retryable": true,
   "notification": "no_update",
   "lease": {
     "holder": "chatgpt:work:4a0d727b-ebc2-488c-9174-a725adda8b54",
