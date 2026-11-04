@@ -2,16 +2,16 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "e015fdc7-c08a-4272-91db-1a97e3a5f856",
-  "run_id": "95ce4b5e-4858-832a-861c-daf6a045ad1a",
+  "execution_instance_id": "e0ac57ab-01f8-4b2b-850b-6eb224d0023f",
+  "run_id": "a0411828-cf9c-832c-9a3f-aad263185611",
   "run_id_source": "Automations.peek last_run.id",
-  "scheduled_for": "2026-11-04T17:00:00Z",
-  "started_at": "2026-11-04T16:57:12.079586Z",
-  "receipt_started_at": "2026-11-04T17:02:38.107Z",
-  "source_head": "6f01e5fe03214162fdb2431126a334f382d92667",
+  "scheduled_for": "2026-11-04T19:00:00Z",
+  "started_at": "2026-11-04T18:57:58.803267Z",
+  "receipt_started_at": "2026-11-04T19:03:29.128Z",
+  "source_head": "c0696f8759081d01d2f1d21df3a9f47eba69760e",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
+  "phase": "started",
+  "stage": "read_only_scan_completed",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -25,7 +25,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "checking",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -34,20 +34,12 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
-  "lease": {
-    "holder": "chatgpt:ordinary:e015fdc7-c08a-4272-91db-1a97e3a5f856",
-    "acquired_at": "2026-11-04T17:01:08.099Z",
-    "expires_at": "2026-11-04T17:09:08.099Z",
-    "lease_commit": "907d77ce47e39950de7b24ad810f9aa2575f7fdb",
-    "final_action": "released_exact_in_same_atomic_CAS"
-  },
   "scan_source": "Topview connector",
-  "scan_checked_at": "2026-11-04T16:59:32.792Z",
-  "scan_scope": "14 boards / 18 API page calls / 14 non-empty video result pages / 627 tasks (pageSize100)",
+  "scan_checked_at": "2026-11-04T19:01:07.496Z",
+  "scan_scope": "14 boards / 18 API video page calls / 627 tasks",
   "scan_validation": {
     "boards": 14,
     "physical_video_pages": 18,
-    "nonempty_video_pages": 14,
     "total_video_tasks": 627,
     "status_counts": {
       "success": 598,
@@ -62,20 +54,19 @@
       "c72c1ab4524e4f2f9d3a0272474f788a",
       "025955aad2cf494da2b4104d26c36ed5"
     ],
-    "active_unlimited0": 6,
-    "submitted_queue_tasks_reconciled": 12,
-    "pending_claims": 0,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "642d04d0948cb587c0bcc9294d53f78ee8725928145be3001b3889012d570589",
-    "readiness_hashes_match": true,
-    "readiness_checked_at": "2026-11-04T17:03:50.773Z",
-    "next_ready_item": "S63-WAN30",
-    "priority": 0.8
+    "active_unlimited0": 6
+  },
+  "lease": {
+    "holder": "chatgpt:ordinary:e0ac57ab-01f8-4b2b-850b-6eb224d0023f",
+    "acquired_at": "2026-11-04T19:02:52.641Z",
+    "expires_at": "2026-11-04T19:10:52.641Z",
+    "lease_commit": "34b6056b3d68c78cd856cd67e285f35aa8e00270",
+    "final_action": "pending"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
     "topview_readonly_scan_verified": true,
-    "topview_submitted_task_ids_verified": true,
+    "topview_submitted_task_ids_verified": false,
     "topview_unlimited0_active_tasks_verified": true,
     "tinyfish_saved_login_historical": true,
     "tinyfish_login_current_cycle_verified": false,
@@ -84,19 +75,5 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false
   },
-  "updated_at": "2026-11-04T17:04:37.060Z",
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "peer_reconciliation": {
-    "ordinary_current_run_id": "95ce4b5e-4858-832a-861c-daf6a045ad1a",
-    "ordinary_previous_result_run_id": "d15ce954-e9ec-8333-9337-cdce5a977a38",
-    "work_hourly_last_run_id": "8f48d434-1f48-8320-92ce-d7153f729381",
-    "work_hourly_status": "completed",
-    "relay_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
-    "wake_issue": "295 dated 2026-11-03, superseded by fresh 6/6 scan on 2026-11-04"
-  },
-  "finished_at": "2026-11-04T17:04:37.060Z",
-  "note": "No Create or metered TinyFish run: six global physical slots occupied. Concurrent Work HH:55 completed and released its own lease before this ordinary lease was acquired. No current slot event accepted."
+  "updated_at": "2026-11-04T19:03:29.128Z"
 }
