@@ -11,9 +11,9 @@
   "source_head": "5f3627d5b33d42fb14a0f211e70cbabe69257f59",
   "lease_commit": "c9b6a67413dbf64cff169b9199edcb5b77de4ed6",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "post_read_only_scan",
-  "scan_source": "Topview direct connector read-only; 14 boards 20 pages; full video and image tasks",
+  "phase": "finished",
+  "stage": "finalized",
+  "scan_source": "Topview connector direct read-only account-wide enumeration",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -27,7 +27,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -41,7 +41,7 @@
     "acquired_at": "2026-11-04T06:00:33.578Z",
     "expires_at": "2026-11-04T06:12:33.578Z"
   },
-  "updated_at": "2026-11-04T06:01:21.861Z",
+  "updated_at": "2026-11-04T06:05:23.790Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -102,5 +102,56 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  }
+  },
+  "completed_at": "2026-11-04T06:05:23.790Z",
+  "checked_at": "2026-11-04T06:05:23.790Z",
+  "scan_checked_at": "2026-11-04T05:58:26.647Z",
+  "scan_scope": "14 boards, 20 pages, all 1011 tasks, 627 video and 384 image tasks",
+  "scan": {
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 20,
+    "total_tasks": 1011,
+    "video_tasks_scanned": 627,
+    "image_tasks_scanned": 384,
+    "global_status_counts": {
+      "success": 966,
+      "fail": 39,
+      "init": 6
+    },
+    "active_videos": 6,
+    "all_submitted_12_task_ids_confirmed_by_get_board_task": true
+  },
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
+  },
+  "dedup": {
+    "queue_submitted_task_ids_confirmed": 12,
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "all_queue_ids_found": true
+  },
+  "result": "no_update",
+  "queue_integrity": {
+    "source_queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "source_task_map_sha256": "3334a556edb7dada5832ac372539fe1257f7e987ddd8d633a2aeebb8ec4da298",
+    "both_match_readiness": true
+  },
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "preferred_executor_from_registry": "work",
+  "role_generation_verified": true,
+  "lease_release_pending": false,
+  "lease_release_attempts": 1,
+  "lease_release_reason": "same atomic CAS as receipt",
+  "lease_release_checked_at": "2026-11-04T06:05:23.790Z",
+  "note": "6/6 occupied. No Create, no TinyFish paid UI, no credit use, no role/schedule changes; previous stale wake issues were not used as capacity."
 }
