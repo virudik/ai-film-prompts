@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-04T05:55:35.068Z",
+  "last_updated_at": "2026-11-04T07:00:55.544Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-04T05:55:35.068Z",
+      "updated_at": "2026-11-04T07:00:55.544Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
@@ -35,71 +35,101 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-11-03T18:01:58.694Z",
-        "cycle": "20:55 Europe/Moscow",
+        "checked_at": "2026-11-04T07:00:55.544Z",
+        "cycle": "09:55 Europe/Moscow",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "claude_open_over_3h": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-11-03T17:52:46Z",
-          "fresh_under_40_minutes": true
+          "synced_at": "2026-11-04T06:30:41Z",
+          "fresh_under_40_minutes": true,
+          "instruction_health": "ok"
         },
         "canon_health": {
           "status": "ok",
-          "checked_at": "2026-11-03T14:53:32Z",
+          "checked_at": "2026-11-03T23:02:39Z",
           "warnings": 0,
           "info": 8
         },
-        "gmail_query": "after:2026/11/01 \"virudik/ai-film-prompts\" -in:spam -in:trash",
-        "gmail_results": 29,
+        "gmail_query": "from:(notifications@github.com) \"ai-film-prompts\" after:2026/11/02",
+        "gmail_results": 16,
         "gmail_all_pages": true,
         "gmail_next_page_token": null,
+        "gmail_state_unchanged": true,
+        "coverage_from": "2026-11-02T18:01:58.694Z",
+        "overlap_hours": 24,
         "new_messages": [
           {
-            "message_id": "1a1a1e48490f5553",
-            "classification": "S62 success signal; technical success only; later S56-P2 filled the slot"
+            "message_id": "1a1a33b4881be5bd",
+            "run_id": 41717410777,
+            "classification": "resolved Canon-health warning notification"
           },
           {
-            "message_id": "1a1a1f7205ad9d67",
-            "classification": "old launch_stalled signal; superseded by S56-P2 and current 6/6"
+            "message_id": "1a1a33ce88c52781",
+            "run_id": 41718083203,
+            "classification": "resolved Canon-health warning notification"
           },
           {
-            "message_id": "1a1a1f73774ba3c7",
-            "classification": "issue 294 closed as not planned; superseded signal"
+            "message_id": "1a1a370d965b6c68",
+            "run_id": 41725662125,
+            "classification": "resolved Canon-health warning notification"
+          },
+          {
+            "message_id": "1a1a37d71afcab2d",
+            "run_id": 41727221030,
+            "classification": "resolved Canon-health warning notification"
+          },
+          {
+            "message_id": "1a1a3821f48a7015",
+            "run_id": 41728164706,
+            "classification": "resolved Canon-health warning notification; attempt 1"
+          },
+          {
+            "message_id": "1a1a38dc89829058",
+            "run_id": 41728164706,
+            "classification": "resolved Canon-health warning notification; attempt 2"
           }
         ],
         "action_jobs_verified": {
           "topview_robot": {
-            "run_id": 41688023183,
+            "run_id": 41788143849,
             "conclusion": "success"
           },
           "self_heal": {
-            "run_id": 41687869072,
+            "run_id": 41788036457,
             "conclusion": "success"
           },
-          "drive_copy": {
-            "run_id": 41688805658,
+          "canon_health_current": {
+            "run_id": 41788765993,
             "conclusion": "success"
-          },
-          "canon_health": {
-            "last_completed_run_id": 41680282353,
-            "conclusion": "success",
-            "newer_run_id": 41689369089,
-            "newer_status": "in_progress"
           },
           "canonical_sync": {
-            "last_completed_run_id": 41685154712,
-            "conclusion": "success",
-            "newer_run_id": 41688338864,
-            "newer_status": "in_progress"
+            "run_id": 41788361659,
+            "conclusion": "success"
           },
           "pages": {
-            "last_completed_run_id": 41687274670,
+            "run_id": 41788815867,
+            "conclusion": "success"
+          },
+          "notified_failures": {
+            "run_ids": [
+              41717410777,
+              41718083203,
+              41725662125,
+              41727221030,
+              41728164706
+            ],
+            "check_step": "success",
+            "publish_step": "success",
+            "notification_step": "failure"
+          },
+          "verified_recovery": {
+            "run_id": 41735782935,
             "conclusion": "success",
-            "newer_run_id": 41689394108,
-            "newer_status": "in_progress"
+            "notification_step": "skipped",
+            "result_commit": "57a5d2eef27f9648aa9a23086ba7744d78ecd92a"
           }
         },
         "current_verification": {
@@ -108,10 +138,10 @@
           "blind_rerun_performed": false
         },
         "monitor_role": "not_checked: local checkout unavailable; robot heartbeat not imitated",
-        "result": "No current failure. Three new project messages were resolved/superseded signals; Gmail state unchanged."
+        "result": "No current failure. Six new messages mapped to five already repaired Canon-health runs; later recovery and current run are successful. Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-04T05:55:35.068Z",
+        "checked_at": "2026-11-04T07:00:55.544Z",
         "complete": true,
         "boards": 14,
         "pages": 18,
@@ -132,8 +162,10 @@
           "025955aad2cf494da2b4104d26c36ed5"
         ],
         "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-        "task_map_sha256": "3334a556edb7dada5832ac372539fe1257f7e987ddd8d633a2aeebb8ec4da298",
-        "readiness_hashes_match": true
+        "task_map_sha256": "a69bebb66c4dff1e6fd7a4872b0366341224a88aa13562c8094b689fd55b7326",
+        "readiness_hashes_match": true,
+        "submitted_task_ids_verified": 12,
+        "unknown_submissions": 0
       },
       "last_relay_event": {
         "event_id": "result:0de1f663432646d294f409a22e20a26e",
@@ -451,29 +483,30 @@
         "report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json"
       },
       "last_hourly_cycle": {
-        "checked_at": "2026-11-03T20:57:28.697Z",
-        "cycle": "23:55 Europe/Moscow",
+        "checked_at": "2026-11-04T07:00:55.544Z",
+        "cycle": "09:55 Europe/Moscow",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
+        "claude_open_over_3h": 0,
         "relay_events": 0,
-        "phase_a_due": false,
-        "phase_b_due": false,
+        "phase_a_due": true,
+        "phase_b_due": true,
         "phase_c_due": false,
         "ordinary_peer": {
-          "actual_last_run_id": "c749a4d6-e170-8333-8ffc-bb1ba431a673",
-          "latest_result_run_id": "c749a4d6-e170-8333-8ffc-bb1ba431a673",
-          "receipt_run_id": "c749a4d6-e170-8333-8ffc-bb1ba431a673",
+          "actual_last_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
+          "latest_result_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
+          "receipt_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
           "match": true
         },
-        "monitor_role": "not_checked: local checkout unavailable",
+        "monitor_role": "not_checked: local checkout unavailable; robot heartbeat not imitated",
         "work_gui_quota_current_cycle_verified": false,
-        "result": "No free slot; no generation or material change."
+        "result": "No free slot. Phase A healthy; Phase B old Canon-health notifications verified resolved; no Create, retry, repair or credits."
       },
       "last_peer_reconciliation": {
-        "checked_at": "2026-11-04T05:55:35.068Z",
-        "ordinary_last_run_id": "eb6c9c6f-0910-8330-b6ad-3ca0f353a40d",
-        "ordinary_latest_result_run_id": "eb6c9c6f-0910-8330-b6ad-3ca0f353a40d",
-        "ordinary_receipt_run_id": "eb6c9c6f-0910-8330-b6ad-3ca0f353a40d",
+        "checked_at": "2026-11-04T07:00:55.544Z",
+        "ordinary_last_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
+        "ordinary_latest_result_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
+        "ordinary_receipt_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
         "ordinary_receipt_phase": "finished",
         "receipt_matches_current_run": true,
         "receipt_finished": true,
