@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:58f2796b-b4b6-49db-83ce-97ada6f26832",
-  "task": "Seregius ordinary HH:00 scheduled global capacity and receipt cycle",
-  "acquired_at": "2026-11-04T10:37:05.255Z",
-  "expires_at": "2026-11-04T10:50:05.255Z",
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
   "rules": "ops/CANON-LOCK.md",
-  "last_released_by": "chatgpt:ordinary:5fb23601-5eda-4c86-989b-9e8e07cb0cd0",
-  "last_released_at": "2026-11-04T10:14:17.586Z",
-  "released_at": null
+  "last_released_by": "chatgpt:ordinary:58f2796b-b4b6-49db-83ce-97ada6f26832",
+  "last_released_at": "2026-11-04T10:40:08.243Z",
+  "released_at": "2026-11-04T10:40:08.243Z"
 }
