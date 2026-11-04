@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-04T19:58:41+00:00",
-  "source_head": "135d4411b61c9d91a0e476582f08ff6c59fc7664",
-  "source_fingerprint": "cbb8f6ddb0c6354ee1d2343e80d1f08f9b3a9441ccf36384a292a75fe9ae41d4",
+  "checked_at": "2026-11-04T20:11:18+00:00",
+  "source_head": "855df64f4e219a90c1a27a5798a7872414e6e1cd",
+  "source_fingerprint": "36d0d14fa870976da6fdb508bcbcbd6892a07a7a31cda25e954cc35ee6777aaa",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -170,7 +170,7 @@
     "unresolved": [
       {
         "item_id": "S63-WAN30",
-        "state": "claimed",
+        "state": "submitting",
         "task_id": null,
         "recovery_action": "reconcile_without_resubmitting",
         "submit_authorized": false
@@ -461,8 +461,8 @@
     },
     {
       "file": "ops/topview-launch-queue.json",
-      "sha256": "f8d1359d3e795f8b1ec584491eea3ead1f1e117e067e5cbf7e8b78e51c0f1fba",
-      "bytes": 359197
+      "sha256": "f7bbf733839e18438776d3e8019ace6037f9a6a6a444199a8578f8a3963b85a6",
+      "bytes": 359775
     },
     {
       "file": "project-status.json",
