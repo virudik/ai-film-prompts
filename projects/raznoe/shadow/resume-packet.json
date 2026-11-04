@@ -3,17 +3,14 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-04T18:06:59+00:00",
-  "source_head": "f4291b33407a5bb40d261b625ddd3e53a1fb2294",
-  "source_fingerprint": "bbd8ed98b84955c56f3a2755e02dec9c8eb827a231b2af7855b194fe576729b4",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-04T18:08:50+00:00",
+  "source_head": "fc8c15c3e3390d591aad711d506d08673fb58142",
+  "source_fingerprint": "3b828c8dc7932fe0819fe87fb3606a31ae94eedf3e55e28340e1bfaeb34786e4",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "MISC-S1-S2-REFERENCES",
     "title": "59 отдельных референсов сцен 1 и 2 из GPT-TASK.md",
@@ -203,8 +200,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "fb6527de58a32f735942c5ce8c1a7e7644cb4647f6965bacae34778420d23c87",
-      "bytes": 5134
+      "sha256": "0ce7748384c206371374c81ba8225c97292918a9f2a99d951d0b329b5af94cb4",
+      "bytes": 5135
     },
     {
       "file": "monitor-role.json",
@@ -218,8 +215,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "8a9b43baaceda6831fba055dfd65d872949316288b5f9c5fbf31c4e118f481f8",
-      "bytes": 22428
+      "sha256": "1ac01dee7f3599c8637a91f49a448f98e06bd7c85703de7e7b6a806c66acb7a0",
+      "bytes": 22425
     },
     {
       "file": "projects/README.md",
@@ -313,8 +310,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "50f784b4ff909232347501ee3d68459db914d0a53f85157ada40cce6345d33c6",
-      "bytes": 25161
+      "sha256": "19d1bf42956c7a8d576da8b437a95f1b30459da56966251da69f8829badb4627",
+      "bytes": 25134
     },
     {
       "file": "video-prompts.md",
@@ -322,5 +319,5 @@
       "bytes": 1351457
     }
   ],
-  "packet_bytes": 5685
+  "packet_bytes": 5704
 }

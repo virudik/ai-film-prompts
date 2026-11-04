@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-11-04T18:06:59+00:00
+Состояние: ready
+Проверено: 2026-11-04T18:08:50+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: Проверены 14 досок, 18 страниц и 627 видео. Заняты 6/6 слотов. Все 12 текущих отправок Серёгиуса и 2 отправки Котмонавтов найдены, неопределённых отправок нет.
@@ -57,5 +57,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- brief was invalid at generation
-- instruction certificate mismatch: NEW-CHAT-HANDOFF.md
+Нет ошибок локальной проверки. Живые проверки выше обязательны.

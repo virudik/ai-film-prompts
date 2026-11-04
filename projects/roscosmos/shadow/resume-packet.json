@@ -3,17 +3,14 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-04T18:06:59+00:00",
-  "source_head": "f4291b33407a5bb40d261b625ddd3e53a1fb2294",
-  "source_fingerprint": "ed036b1b5f22362eb235e209c441349d156a07c6897534e4e3b62b5d072fab31",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-04T18:08:50+00:00",
+  "source_head": "fc8c15c3e3390d591aad711d506d08673fb58142",
+  "source_fingerprint": "b9c40bf5b1813f27443a03b623652c74b4a5e0e34281c8e763637bc35522ac58",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "RAZNOE-CPK-REFS-20261027",
     "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
@@ -185,8 +182,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "fb6527de58a32f735942c5ce8c1a7e7644cb4647f6965bacae34778420d23c87",
-      "bytes": 5134
+      "sha256": "0ce7748384c206371374c81ba8225c97292918a9f2a99d951d0b329b5af94cb4",
+      "bytes": 5135
     },
     {
       "file": "monitor-role.json",
@@ -200,8 +197,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "8a9b43baaceda6831fba055dfd65d872949316288b5f9c5fbf31c4e118f481f8",
-      "bytes": 22428
+      "sha256": "1ac01dee7f3599c8637a91f49a448f98e06bd7c85703de7e7b6a806c66acb7a0",
+      "bytes": 22425
     },
     {
       "file": "projects/README.md",
@@ -265,8 +262,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "50f784b4ff909232347501ee3d68459db914d0a53f85157ada40cce6345d33c6",
-      "bytes": 25161
+      "sha256": "19d1bf42956c7a8d576da8b437a95f1b30459da56966251da69f8829badb4627",
+      "bytes": 25134
     },
     {
       "file": "video-prompts.md",
@@ -274,5 +271,5 @@
       "bytes": 1351457
     }
   ],
-  "packet_bytes": 6027
+  "packet_bytes": 6046
 }
