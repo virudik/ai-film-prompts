@@ -2,31 +2,31 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "e0ac57ab-01f8-4b2b-850b-6eb224d0023f",
-  "run_id": "a0411828-cf9c-832c-9a3f-aad263185611",
-  "run_id_source": "Automations.peek last_run.id",
-  "scheduled_for": "2026-11-04T19:00:00Z",
-  "started_at": "2026-11-04T18:57:58.803267Z",
-  "receipt_started_at": "2026-11-04T19:03:29.128Z",
-  "source_head": "c0696f8759081d01d2f1d21df3a9f47eba69760e",
+  "execution_instance_id": "4a951f0d-9424-4d5e-bfce-17c81520024f",
+  "run_id": null,
+  "run_id_source": "Actual runtime run ID not exposed by Automations.list for this execution; execution UUID is separate",
+  "scheduled_for": "2026-11-04T21:00:00Z",
+  "started_at": "2026-11-04T21:01:33Z",
+  "receipt_started_at": "2026-11-04T21:08:11.825Z",
+  "source_head": "da24e9e3f662f150f329ee6eae33823f07947412",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
+  "phase": "started",
+  "stage": "lease_acquired_scan_completed",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
   "selected_item": null,
   "task_ids": [
+    "365cf639589a4a5da834d70193d5e8f6",
     "be960f5e3bf54563aff663fed9da8906",
     "de8e44bb15d64dc7a4eb640d27a726e4",
     "431180d384cc43bebe7afc702e4eb4e6",
     "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5"
+    "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
   "new_submissions": 0,
   "outcome": "no_free_slot",
-  "blocker": null,
+  "blocker": "no_free_slot",
   "retryable": true,
   "browser_transport": "not_used",
   "tinyfish_run_ids": [],
@@ -35,41 +35,41 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "scan_source": "Topview connector",
-  "scan_checked_at": "2026-11-04T19:01:07.496Z",
-  "scan_scope": "14 boards / 18 API video page calls / 627 tasks",
+  "scan_checked_at": "2026-11-04T21:06:03.638Z",
+  "scan_scope": "14 boards / 18 video pages / 628 videos",
   "scan_validation": {
     "boards": 14,
     "physical_video_pages": 18,
-    "total_video_tasks": 627,
+    "total_video_tasks": 628,
     "status_counts": {
-      "success": 598,
+      "success": 599,
       "init": 6,
       "fail": 23
     },
     "active_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
       "be960f5e3bf54563aff663fed9da8906",
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6",
       "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a",
-      "025955aad2cf494da2b4104d26c36ed5"
+      "c72c1ab4524e4f2f9d3a0272474f788a"
     ],
     "active_unlimited0": 6,
-    "submitted_queue_tasks_reconciled": 12,
+    "submitted_queue_tasks_reconciled": 13,
     "pending_claims": 0,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "c8f9e5ae3f2cd256ddc9090253379d14b851798323e0823cb02188c2b9092e24",
-    "readiness_hashes_match": true,
-    "readiness_checked_at": "2026-11-04T18:51:13.187139Z",
-    "next_ready_item": "S63-WAN30",
-    "priority": 0.8
+    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+    "task_map_sha256": "8c0cf746a8e403bea089b6114f6e5301ef0ac72e304fc24074dddda4b305ec4b",
+    "readiness_hashes_match": "matching previously independently verified work check 2026-11-04T20:59Z; not independently recomputed in this cycle",
+    "readiness_checked_at": "2026-11-04T20:20:23Z",
+    "next_ready_item": "S64-WAN30",
+    "priority": 0.9
   },
   "lease": {
-    "holder": "chatgpt:ordinary:e0ac57ab-01f8-4b2b-850b-6eb224d0023f",
-    "acquired_at": "2026-11-04T19:02:52.641Z",
-    "expires_at": "2026-11-04T19:10:52.641Z",
-    "lease_commit": "34b6056b3d68c78cd856cd67e285f35aa8e00270",
-    "final_action": "released_exact_in_same_atomic_CAS"
+    "holder": "chatgpt:ordinary:4a951f0d-9424-4d5e-bfce-17c81520024f",
+    "acquired_at": "2026-11-04T21:07:26.152Z",
+    "expires_at": "2026-11-04T21:15:26.152Z",
+    "lease_commit": "fc3798a8133279a8d065387595f90b444a0e7d7",
+    "final_action": "pending_release"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
@@ -83,8 +83,8 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false
   },
-  "updated_at": "2026-11-04T19:05:42.642Z",
-  "finished_at": "2026-11-04T19:05:42.642Z",
+  "updated_at": "2026-11-04T21:08:11.825Z",
+  "finished_at": null,
   "owner_tasks": {
     "open": 0,
     "taken": 0
@@ -97,5 +97,5 @@
     "relay_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
     "wake_issue": "295 dated 2026-11-03, stale vs fresh all-board scan on 2026-11-04"
   },
-  "note": "Full fresh read-only all-board scan found 6/6 occupied (627 video tasks, 14 boards, 18 pages). All 12 submitted queue tasks verified by Topview task IDs on My First Board; no pending claims. No Create, no metered TinyFish or Topview credit expenses. Lease previously released by Work, ordinary obtained its own exact lease and releases it with this final receipt."
+  "note": "14 boards all physical video pages scanned independently; 6/6 Unlimited0 init. No Create or paid TinyFish browser; latest peer Grok submission S63 verified by task ID. Full task-map hash was checked previously by Work; current SHA not independently rehashed here."
 }
