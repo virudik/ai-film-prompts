@@ -2,18 +2,18 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "58e317c6-d1f6-4a20-b28d-1f7c5266e898",
-  "run_id": "8bdc942f-ed44-8325-baba-0fb7ea43ddfa",
-  "run_id_source": "Automations.peek last_run.id (in_progress at intake)",
-  "scheduled_for": "2026-11-04T04:00:00Z",
-  "started_at": "2026-11-04T04:02:32.739662Z",
-  "receipt_started_at": "2026-11-04T04:09:34.606Z",
-  "source_head": "b745d198d8c7bb029662e440d227840ec024e789",
-  "lease_commit": "9d03e786b13c5f0a5005e2db2cb284fb610a0879",
+  "execution_instance_id": "5c5521bc-cfcf-4691-9077-172808913e9e",
+  "run_id": "eb6c9c6f-0910-8330-b6ad-3ca0f353a40d",
+  "run_id_source": "Automations.peek last_run.id, in_progress at run intake",
+  "scheduled_for": "2026-11-04T05:00:00Z",
+  "started_at": "2026-11-04T05:02:52.938306Z",
+  "receipt_started_at": "2026-11-04T05:10:16.066Z",
+  "source_head": "c16445a5937d8b7f7bbd9177d554929d90f1ec63",
+  "lease_commit": "260db50af9e4b64cb8beb92b894b2151722cac00",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
-  "scan_source": "Topview direct read-only connector, all boards/pages",
+  "phase": "started",
+  "stage": "scan_complete_wait_final_receipt",
+  "scan_source": "Topview connector direct read-only; all 14 boards and 18 pages",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -37,11 +37,11 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:58e317c6-d1f6-4a20-b28d-1f7c5266e898",
-    "acquired_at": "2026-11-04T04:08:33.665Z",
-    "expires_at": "2026-11-04T04:20:33.665Z"
+    "holder": "chatgpt:ordinary:5c5521bc-cfcf-4691-9077-172808913e9e",
+    "acquired_at": "2026-11-04T05:09:18.238Z",
+    "expires_at": "2026-11-04T05:21:18.238Z"
   },
-  "updated_at": "2026-11-04T04:12:40.301Z",
+  "updated_at": "2026-11-04T05:10:16.066Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -102,53 +102,5 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  },
-  "scan_scope": "14 boards, 18 non-empty pages, 1011 tasks (627 video, 384 image); all 6 active My First Board",
-  "scan_checked_at": "2026-11-04T04:11:23.343Z",
-  "preferred_executor_from_registry": "work",
-  "result": "no_update",
-  "completed_at": "2026-11-04T04:11:23.343Z",
-  "checked_at": "2026-11-04T04:11:23.343Z",
-  "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "total_tasks": 1011,
-    "video_tasks_scanned": 627,
-    "image_tasks_scanned": 384,
-    "global_status_counts": {
-      "success": 966,
-      "fail": 39,
-      "init": 6
-    },
-    "active_videos": 6,
-    "scope": "Topview connector list_boards(mode=all), all video+image tasks on all pages; 12 queue submitted task IDs independently checked"
-  },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
-  },
-  "dedup": {
-    "queue_submitted_task_ids_confirmed": 12,
-    "open_claimed": 0,
-    "open_submitting": 0,
-    "open_submission_unknown": 0,
-    "active_task_ids_all_verified": true,
-    "archived_task_ids_not_reclassified_as_new": true
-  },
-  "next_ready_item": "S63-WAN30",
-  "next_ready_priority": 0.8,
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "owner_decision": "no new Work recovery decision; preferred executor remains verified Work per route_generation=3; ordinary nonexclusive hourly backup",
-  "lease_release_pending": false,
-  "lease_release_attempts": 1,
-  "lease_release_blocker": null,
-  "lease_release_reason": "same atomic CAS commit as this final receipt",
-  "note": "No Topview Create and no TinyFish invocation at full 6/6 capacity. Previous GitHub release safety issue no longer owns current lock; current lease must be released exactly.",
-  "lease_release_checked_at": "2026-11-04T04:12:40.301Z"
+  }
 }
