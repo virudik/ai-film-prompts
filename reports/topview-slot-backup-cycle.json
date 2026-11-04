@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-04T14:08:37.270Z",
   "source_head": "0ddf97959a30a1070d064eb5405f3a2c24995be8",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "readonly_scan_complete",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector read-only all-board scan",
   "scan_scope": "14 boards / 18 physical video pages / 627 video tasks",
   "scan_complete": true,
@@ -27,7 +27,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "in_progress_no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -41,10 +41,10 @@
     "acquired_at": "2026-11-04T14:07:56.809Z",
     "expires_at": "2026-11-04T14:19:56.809Z",
     "lease_commit": "0ddf97959a30a1070d064eb5405f3a2c24995be8",
-    "final_action": "pending"
+    "final_action": "released_exact_in_same_atomic_CAS"
   },
-  "scan_checked_at": "2026-11-04T14:08:37.270Z",
-  "updated_at": "2026-11-04T14:08:37.270Z",
+  "scan_checked_at": "2026-11-04T14:07:52Z",
+  "updated_at": "2026-11-04T14:12:01.620Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -55,7 +55,47 @@
     "tinyfish_scheduled_run_verified": false,
     "tinyfish_production_submission_verified": false,
     "topview_readonly_scan_verified": true,
-    "topview_submitted_task_ids_verified": false,
+    "topview_submitted_task_ids_verified": true,
     "topview_unlimited0_active_tasks_verified": true
+  },
+  "finished_at": "2026-11-04T14:12:01.620Z",
+  "scan_validation": {
+    "boards": 14,
+    "physical_video_pages": 18,
+    "total_video_tasks": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "active_task_ids": [
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a",
+      "025955aad2cf494da2b4104d26c36ed5"
+    ],
+    "active_unlimited0": 6,
+    "submitted_queue_tasks_reconciled": 12,
+    "pending_claims": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "779abffc5c8f5a39957f7a1deba08ec9bfbcf7e3eb6118cc065081b108cc0c52",
+    "readiness_hashes_match": true,
+    "readiness_checked_at": "2026-11-04T13:40:25Z",
+    "next_ready_item": "S63-WAN30",
+    "priority": 0.8
+  },
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0,
+    "claude_open_over_3h": 0
+  },
+  "peer_reconciliation": {
+    "ordinary_current_run_id": "5c5c307b-ab2c-8331-b2d4-61e9cee5b289",
+    "work_hourly_last_run_id": "c1c24fb3-d7f4-8327-9714-c54d6948a3cb",
+    "relay_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
+    "work_hourly_last_run_status": "completed",
+    "old_wake_issue": "Nov 3 2026, stale; fresh Topview 6/6"
   }
 }
