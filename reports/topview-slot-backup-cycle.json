@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-04T21:08:11.825Z",
   "source_head": "da24e9e3f662f150f329ee6eae33823f07947412",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "lease_acquired_scan_completed",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -26,7 +26,7 @@
   ],
   "new_submissions": 0,
   "outcome": "no_free_slot",
-  "blocker": "no_free_slot",
+  "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
   "tinyfish_run_ids": [],
@@ -59,17 +59,18 @@
     "pending_claims": 0,
     "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
     "task_map_sha256": "8c0cf746a8e403bea089b6114f6e5301ef0ac72e304fc24074dddda4b305ec4b",
-    "readiness_hashes_match": "matching previously independently verified work check 2026-11-04T20:59Z; not independently recomputed in this cycle",
+    "readiness_hashes_match": "consistent with Work verified source SHA from 2026-11-04T20:59Z; no independent recomputation in this run",
     "readiness_checked_at": "2026-11-04T20:20:23Z",
     "next_ready_item": "S64-WAN30",
-    "priority": 0.9
+    "priority": 0.9,
+    "submitted_queue_tasks_verified_by_readonly_get_task": 13
   },
   "lease": {
     "holder": "chatgpt:ordinary:4a951f0d-9424-4d5e-bfce-17c81520024f",
     "acquired_at": "2026-11-04T21:07:26.152Z",
     "expires_at": "2026-11-04T21:15:26.152Z",
     "lease_commit": "fc3798a8133279a8d065387595f90b444a0e7d7",
-    "final_action": "pending_release"
+    "final_action": "release_via_separate_exact_CAS_immediately_after_final_receipt"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
@@ -83,19 +84,22 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false
   },
-  "updated_at": "2026-11-04T21:08:11.825Z",
-  "finished_at": null,
+  "updated_at": "2026-11-04T21:10:23.993Z",
+  "finished_at": "2026-11-04T21:10:23.993Z",
   "owner_tasks": {
     "open": 0,
     "taken": 0
   },
   "peer_reconciliation": {
-    "ordinary_current_run_id": "a0411828-cf9c-832c-9a3f-aad263185611",
-    "ordinary_previous_result_run_id": "9c9de247-59d8-8321-8d75-497ce6aae57e",
-    "work_hourly_last_run_id": "75765ed5-3580-8322-ae1b-0ce8c144bfc9",
-    "work_hourly_status": "completed",
-    "relay_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
-    "wake_issue": "295 dated 2026-11-03, stale vs fresh all-board scan on 2026-11-04"
+    "ordinary_scheduled_enabled": true,
+    "work_hh55_enabled": true,
+    "relay_enabled": true,
+    "grok_s63_task_id": "365cf639589a4a5da834d70193d5e8f6",
+    "grok_s63_submission_verified": true,
+    "wake_issue_latest": 327,
+    "wake_observed_at": "2026-11-04T19:50:36Z",
+    "wake_stale_vs_live_scan": true,
+    "work_latest_scan_completed_at": "2026-11-04T20:59:21.823Z"
   },
-  "note": "14 boards all physical video pages scanned independently; 6/6 Unlimited0 init. No Create or paid TinyFish browser; latest peer Grok submission S63 verified by task ID. Full task-map hash was checked previously by Work; current SHA not independently rehashed here."
+  "note": "05 Nov 2026 00:06 MSK fresh read-only complete 14-board/18-page Topview scan verified 628 video tasks, 6/6 active Unlimited0 cost0, 13/13 submitted task IDs. Fresh issue327 is historical wake not current capacity. No new Create, metered TinyFish, credits or owner-task mutations. Own exact lease acquired and final receipt saved before exact release; no route or schedule changes."
 }
