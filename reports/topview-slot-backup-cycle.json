@@ -10,17 +10,24 @@
   "receipt_started_at": "2026-11-04T11:11:12.047Z",
   "source_head": "41f65c0227912d1a604cd0bcebab8f334e0d138f",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
-  "scan_source": "Topview connector read-only",
-  "scan_scope": "Not yet attached to persisted receipt",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "phase": "finished",
+  "stage": "finalized",
+  "scan_source": "Topview connector direct account-wide read-only scan",
+  "scan_scope": "14 boards / 18 pages / 627 distinct video tasks",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5"
+  ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -33,9 +40,10 @@
     "holder": "chatgpt:ordinary:9e6b599e-1eda-44d5-84b8-0e0b6fc58df3",
     "acquired_at": "2026-11-04T11:10:24.349Z",
     "expires_at": "2026-11-04T11:23:24.349Z",
-    "lease_commit": "e7183c3c4968859bda154b1702b02fc39270752d"
+    "lease_commit": "e7183c3c4968859bda154b1702b02fc39270752d",
+    "final_action": "release_pending_separate_exact_CAS_after_final_receipt"
   },
-  "updated_at": "2026-11-04T11:11:12.047Z",
+  "updated_at": "2026-11-04T11:14:48.157Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -96,5 +104,31 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
+  },
+  "scan_checked_at": "2026-11-04T11:11:54.408Z",
+  "finished_at": "2026-11-04T11:14:48.157Z",
+  "scan_validation": {
+    "total_video_tasks": 627,
+    "distinct_ids": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "active_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "submitted_queue_tasks_reconciled": 12,
+    "pending_claims": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "eab8b1c86338c11dd6facdb53a97135af020bbc15cea3a48dc181cb15476d8c3",
+    "next_ready_item": "S63-WAN30",
+    "priority": 0.8
+  },
+  "owner_tasks": {
+    "open": 0
+  },
+  "peer_reconciliation": {
+    "work_hourly_last_run_id": "7e99c467-4e48-832e-91ba-7a710c775711",
+    "relay_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
+    "wake_issue": "old; fresh scan 6/6"
   }
 }
