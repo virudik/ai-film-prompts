@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
+  "state": "held",
+  "holder": "chatgpt:work:efad9c72-9fbe-4420-b9dc-a8a32016fcf9",
+  "task": "Приём смены Серёгиуса и проверка 6 слотов",
+  "acquired_at": "2026-11-04T12:59:20.394Z",
+  "expires_at": "2026-11-04T13:14:20.394Z",
   "rules": "ops/CANON-LOCK.md",
   "last_released_by": "chatgpt:ordinary:d30e4b1c-699e-4dac-ba0c-985cd9503137",
   "last_released_at": "2026-11-04T12:12:57.520Z",
-  "released_at": "2026-11-04T12:12:57.520Z"
+  "released_at": null
 }
