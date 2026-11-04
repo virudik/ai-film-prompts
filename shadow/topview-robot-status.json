@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-04T20:20:23Z",
+  "checked_at": "2026-11-04T20:30:24Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Wan 3.0",
       "scene_id": 72,
       "mapping": "task_map",
-      "queue_count": 2685,
-      "wait_seconds": 101513,
+      "queue_count": 2676,
+      "wait_seconds": 100911,
       "process_seconds": null
     },
     {
@@ -78,10 +78,10 @@
       "unlimited": true,
       "created_at": "2026-11-04 20:11:51",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 4997,
-      "wait_seconds": 239752,
+      "scene_id": 63,
+      "mapping": "task_map",
+      "queue_count": 4988,
+      "wait_seconds": 239151,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 71,
       "mapping": "task_map",
-      "queue_count": 2977,
-      "wait_seconds": 118793,
+      "queue_count": 2968,
+      "wait_seconds": 118190,
       "process_seconds": null
     },
     {
@@ -106,8 +106,8 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 4708,
-      "wait_seconds": 222472,
+      "queue_count": 4699,
+      "wait_seconds": 221870,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 61,
       "mapping": "task_map",
-      "queue_count": 2375,
-      "wait_seconds": 84232,
+      "queue_count": 2364,
+      "wait_seconds": 83630,
       "process_seconds": null
     },
     {
@@ -132,22 +132,12 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 3843,
-      "wait_seconds": 170632,
+      "queue_count": 3834,
+      "wait_seconds": 170029,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "365cf639589a4a5da834d70193d5e8f6",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-04 20:11:51",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal solemn temple exploration with understate"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -160,24 +150,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-04T19:50:36Z",
-    "monitor_age_minutes": 30,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-04T20:20:23Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "365cf639589a4a5da834d70193d5e8f6",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
