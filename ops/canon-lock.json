@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:35265249-bba3-4bfa-9ef4-bff6b3eac9fa",
-  "task": "Seregius scheduled ordinary HH:00 slot check and cycle receipt; no Create with full slots · снят самопроверкой (истёк)",
-  "acquired_at": "2026-11-04T00:02:42.802Z",
-  "expires_at": null,
-  "released_at": "2026-11-04T00:49:19Z",
+  "state": "held",
+  "holder": "chatgpt:work:855a76fd-08d6-41df-a83c-7606cb1b66fb",
+  "task": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "acquired_at": "2026-11-04T00:55:39.949Z",
+  "expires_at": "2026-11-04T01:25:39.949Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
