@@ -3,137 +3,47 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "result": "no_material_change",
-  "run_id": "75765ed5-3580-8322-ae1b-0ce8c144bfc9",
+  "phase": "started",
+  "status": "in_progress",
+  "result": null,
+  "run_id": "41df9a9b-690c-8326-96ca-357771a954cf",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress at intake)",
-  "execution_instance_id": "0b727815-d63b-4893-98c5-4a854b3c5de2",
+  "execution_instance_id": "fe35d2c2-5aea-425c-be2b-5c40b5c2ff64",
   "route_generation": 3,
-  "source_head": "2de66b2df29f775e9f2348cc962671a354f9fde8",
-  "source_head_at_finish": "8b4f9f80382096848d596297e989677a09f3610b",
-  "lease_commit": "deee4c71d4a67994afdd2e77db15d25bd0e987f1",
-  "started_at": "2026-11-04T18:52:18.850555Z",
-  "receipt_started_at": "2026-11-04T18:55:31.604Z",
-  "completed_at": "2026-11-04T19:02:00.033Z",
+  "source_head": "67b38dc8c79ad207abb9ae7dc8faea7fe122cc45",
+  "source_head_at_finish": null,
+  "lease_commit": "faed36505585c994cc66c7a357493ca5db840876",
+  "started_at": "2026-11-04T20:51:37.840513Z",
+  "receipt_started_at": "2026-11-04T20:55:05.105Z",
+  "completed_at": null,
   "intake": {
-    "seven_instruction_blobs_match_certificate": true,
-    "claude_blob_match_certificate": true,
     "monitor_role": {
       "status": "not_checked",
       "reason": "managed workspace has no fresh repository checkout; script requires local git origin/main and was not simulated"
     }
   },
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "status_counts": {
-      "success": 598,
-      "init": 6,
-      "fail": 23
-    },
-    "active_videos": 6,
+    "complete": false,
+    "boards_scanned": 0,
+    "pages_scanned": 0,
+    "video_tasks_scanned": null,
+    "status_counts": null,
+    "active_videos": null,
     "scope": "all Topview boards and all physical video pages"
   },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_required": true,
-    "complete_scan_verified": true,
-    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-    "board_name": "My First Board",
-    "active_task_ids": [
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a",
-      "025955aad2cf494da2b4104d26c36ed5"
-    ],
-    "parameters_verified": "all six list as init on My First Board; useUnlimitMode=true, creditsCost=0, 720p, 16:9, quantity1"
-  },
-  "queue_reconciliation": {
-    "total_items": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 29,
-      "submitted": 12,
-      "blocked_inputs": 21
-    },
-    "active_claimed": 0,
-    "active_submitting": 0,
-    "active_submission_unknown": 0,
-    "submitted_task_ids_checked": 12,
-    "submitted_task_ids_found": 12,
-    "submitted_task_ids_missing": 0,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "c8f9e5ae3f2cd256ddc9090253379d14b851798323e0823cb02188c2b9092e24",
-    "readiness_sha_match": true,
-    "next_ready_item": "S63-WAN30",
-    "next_ready_priority": 0.8
-  },
-  "peer_reconciliation": {
-    "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "ordinary_actual_last_run_id": "9c9de247-59d8-8321-8d75-497ce6aae57e",
-    "ordinary_latest_result_run_id": "9c9de247-59d8-8321-8d75-497ce6aae57e",
-    "ordinary_receipt_run_id": "95ce4b5e-4858-832a-861c-daf6a045ad1a",
-    "ordinary_receipt_reason": "current ordinary run explicitly reported blocked by the prior Work lease and receipt_not_saved; older receipt is preserved and is not proof of the current run",
-    "relay_automation_id": "6adc585e7ac08191bb93825117dc7213",
-    "relay_actual_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
-    "relay_latest_result_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90"
-  },
-  "phases": {
-    "phase_a_due": false,
-    "phase_a_status": "not_due_21_55_MSK",
-    "phase_b_due": false,
-    "phase_b_status": "not_due_21_55_MSK",
-    "phase_c_due": false,
-    "phase_c_status": "not_due_not_sunday_08_55_MSK",
-    "owner_tasks": {
-      "open": 0,
-      "taken": 0
-    }
-  },
-  "integration_verification": {
-    "status": "not_checked_post_recertification",
-    "last_run_id": 41884294540,
-    "last_run_head_sha": "899635aedad9761203427be12e9017530cb85c5d",
-    "reason": "No new integration run exists on current main. Connector has no workflow_dispatch; public browser is unauthenticated and exposes no Run workflow control. No telemetry marker or heartbeat was fabricated."
-  },
-  "relay": {
-    "subscription_id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
-    "subscription_active": true,
-    "delivery_verified": false,
-    "recent_events": 0,
-    "polling_active": false,
-    "delivery_paused": false,
-    "identity_note": "connection is approved as chatgpt; requested chatgpt-slot-backup identity was rejected and was not treated as evidence"
-  },
-  "work_capacity": {
-    "state": "restored_verified",
-    "preferred_executor": "work",
-    "route_unchanged": true,
-    "this_cycle_new_gui_or_quota_evidence": false,
-    "platform_mode_or_quota_not_inferred_from_enabled_or_telemetry": true
-  },
-  "accounting": {
-    "checkpoint_commit": "2da3d76a5145e8c63c30df8401953210031147d2",
-    "register_commit": "30f1a4905276cf499cc5a1dfeaa3c054c2e0eb45",
-    "checkpoint_archive_commit": "cfb37a1dcd8c659954bf6142e9ddf515271d3e9a",
-    "register_archive_commit": "cfd777caa6d802ba417feab9031c916f7e7bf945"
-  },
+  "slots": null,
+  "queue_reconciliation": null,
+  "peer_reconciliation": null,
+  "phases": null,
   "new_submissions": [],
   "topview_credits_spent": 0,
-  "blocker": "no_free_slot_after_complete_scan",
+  "blocker": null,
   "retryable": true,
   "notification": "no_update",
   "lease": {
-    "holder": "chatgpt:work:0b727815-d63b-4893-98c5-4a854b3c5de2",
-    "acquired_at": "2026-11-04T18:55:12.837Z",
-    "expires_at": "2026-11-04T19:35:12.837Z",
+    "holder": "chatgpt:work:fe35d2c2-5aea-425c-be2b-5c40b5c2ff64",
+    "acquired_at": "2026-11-04T20:54:44.886Z",
+    "expires_at": "2026-11-04T21:09:44.886Z",
     "final_action": "release_pending"
   }
 }
