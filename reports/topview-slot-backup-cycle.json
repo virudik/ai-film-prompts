@@ -10,17 +10,24 @@
   "receipt_started_at": "2026-11-04T12:11:15.182Z",
   "source_head": "08cf3ce763cff03dd863d5bcc3127d593e394bf7",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector direct read-only all-board scan",
-  "scan_scope": "scan completed pre-lease; final reconciliation pending",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "scan_scope": "14 boards / 18 video pages / 627 distinct video tasks",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5"
+  ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -34,9 +41,9 @@
     "acquired_at": "2026-11-04T12:11:03.669Z",
     "expires_at": "2026-11-04T12:23:03.669Z",
     "lease_commit": "75b81660d0bd78312ea9763d5d51477e46ba0523",
-    "final_action": "pending"
+    "final_action": "release_pending_separate_exact_CAS_after_final_receipt"
   },
-  "updated_at": "2026-11-04T12:11:15.182Z",
+  "updated_at": "2026-11-04T12:12:49.306Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -97,5 +104,32 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
+  },
+  "scan_checked_at": "2026-11-04T12:05:43.111Z",
+  "finished_at": "2026-11-04T12:12:49.306Z",
+  "scan_validation": {
+    "total_video_tasks": 627,
+    "distinct_ids": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "active_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "submitted_queue_tasks_reconciled": 12,
+    "pending_claims": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "5c1d1c5b2075c16da3b2774e22731ea3cb83be2e03fb4aa24d5882e092d6729b",
+    "hashes_confirmed_by": "current readiness and Work checkpoint; not independently recomputed in this cycle",
+    "next_ready_item": "S63-WAN30",
+    "priority": 0.8
+  },
+  "owner_tasks": {
+    "open": 0
+  },
+  "peer_reconciliation": {
+    "work_hourly_last_run_id": "492e6f1f-2cd8-8325-8cc1-a7b55708195d",
+    "relay_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
+    "wake_issue": "stale: 2026-11-03 free event superseded by live 6/6"
   }
 }
