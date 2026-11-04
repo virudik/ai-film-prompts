@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:63ae6418-860d-49ec-82c9-db92ed1843db",
   "task": "FUTURE-PLANS: HTTPS готов, поддомены P1",
   "acquired_at": "2026-11-04T13:44:11Z",
-  "expires_at": "2026-11-04T14:14:11Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-04T13:44:33Z",
   "rules": "ops/CANON-LOCK.md"
 }
