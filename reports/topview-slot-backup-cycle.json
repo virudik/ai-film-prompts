@@ -2,32 +2,25 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "60ac732b-6ac1-4946-a3c3-e88698c90def",
-  "run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
+  "execution_instance_id": "18538249-f505-454e-8c92-2bfa2b0e2b55",
+  "run_id": "daa24760-2704-8332-854f-3528fa20eea7",
   "run_id_source": "Automations.peek last_run.id (in_progress at intake)",
-  "scheduled_for": "2026-11-04T06:00:00Z",
-  "started_at": "2026-11-04T05:55:14.740499Z",
-  "receipt_started_at": "2026-11-04T06:01:21.861Z",
-  "source_head": "5f3627d5b33d42fb14a0f211e70cbabe69257f59",
-  "lease_commit": "c9b6a67413dbf64cff169b9199edcb5b77de4ed6",
+  "scheduled_for": "2026-11-04T07:00:00Z",
+  "started_at": "2026-11-04T07:02:43.321192Z",
+  "receipt_started_at": "2026-11-04T07:06:53.498Z",
+  "source_head": "e38135b087f362192e162aeb6257329a70078a82",
+  "lease_commit": "6331d71900f0f1c5a5d289aef32a17f4bae9fd01",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
+  "phase": "started",
+  "stage": "intake",
   "scan_source": "Topview connector direct read-only account-wide enumeration",
-  "scan_complete": true,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "be960f5e3bf54563aff663fed9da8906",
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -37,11 +30,11 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:60ac732b-6ac1-4946-a3c3-e88698c90def",
-    "acquired_at": "2026-11-04T06:00:33.578Z",
-    "expires_at": "2026-11-04T06:12:33.578Z"
+    "holder": "chatgpt:ordinary:18538249-f505-454e-8c92-2bfa2b0e2b55",
+    "acquired_at": "2026-11-04T07:06:04.220Z",
+    "expires_at": "2026-11-04T07:18:04.220Z"
   },
-  "updated_at": "2026-11-04T06:05:23.790Z",
+  "updated_at": "2026-11-04T07:06:53.498Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -102,56 +95,5 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  },
-  "completed_at": "2026-11-04T06:05:23.790Z",
-  "checked_at": "2026-11-04T06:05:23.790Z",
-  "scan_checked_at": "2026-11-04T05:58:26.647Z",
-  "scan_scope": "14 boards, 20 pages, all 1011 tasks, 627 video and 384 image tasks",
-  "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 20,
-    "total_tasks": 1011,
-    "video_tasks_scanned": 627,
-    "image_tasks_scanned": 384,
-    "global_status_counts": {
-      "success": 966,
-      "fail": 39,
-      "init": 6
-    },
-    "active_videos": 6,
-    "all_submitted_12_task_ids_confirmed_by_get_board_task": true
-  },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
-  },
-  "dedup": {
-    "queue_submitted_task_ids_confirmed": 12,
-    "open_claimed": 0,
-    "open_submitting": 0,
-    "open_submission_unknown": 0,
-    "all_queue_ids_found": true
-  },
-  "result": "no_update",
-  "queue_integrity": {
-    "source_queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "source_task_map_sha256": "3334a556edb7dada5832ac372539fe1257f7e987ddd8d633a2aeebb8ec4da298",
-    "both_match_readiness": true
-  },
-  "next_ready_item": "S63-WAN30",
-  "next_ready_priority": 0.8,
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "preferred_executor_from_registry": "work",
-  "role_generation_verified": true,
-  "lease_release_pending": false,
-  "lease_release_attempts": 1,
-  "lease_release_reason": "same atomic CAS as receipt",
-  "lease_release_checked_at": "2026-11-04T06:05:23.790Z",
-  "note": "6/6 occupied. No Create, no TinyFish paid UI, no credit use, no role/schedule changes; previous stale wake issues were not used as capacity."
+  }
 }
