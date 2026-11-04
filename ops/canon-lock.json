@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:85f474c9-e441-4cad-9358-56ea49dfc83a",
-  "task": "TOPVIEW-SLOT-PRIORITY-20261024 / scheduled ordinary 6-of-6 read-only receipt",
-  "acquired_at": "2026-11-04T16:20:30.482Z",
-  "expires_at": "2026-11-04T16:28:30.482Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-04T16:22:42.216Z",
   "rules": "ops/CANON-LOCK.md"
 }
