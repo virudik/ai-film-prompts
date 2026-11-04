@@ -2,34 +2,25 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "43bce045-436b-4d52-840d-973cbd561bb6",
-  "run_id": "1f45a461-e590-832c-87d0-a19e335cf87b",
+  "execution_instance_id": "30f72687-2fd5-4eb7-ad60-38467be998ac",
+  "run_id": "fa2352c9-d488-8323-988f-7c5625c8e06b",
   "run_id_source": "Automations.peek current last_run.id (in_progress)",
-  "scheduled_for": "2026-11-04T01:00:00Z",
-  "started_at": "2026-11-04T01:09:55.470729Z",
-  "receipt_started_at": "2026-11-04T01:16:33.019Z",
-  "source_head": "d2cd3a0c1ff76d520b6d3ed467b8df3cefa79ed1",
-  "lease_commit": "b29af794a66a7f55acf4fd647116a7f1e270b479",
+  "scheduled_for": "2026-11-04T02:00:00Z",
+  "started_at": "2026-11-04T01:59:43.117845Z",
+  "receipt_started_at": "2026-11-04T02:05:14.969Z",
+  "source_head": "2fbef7077918c9b2662d8e69ae5c37e62b24a695",
+  "lease_commit": "9159c10c09725f994665b6606a7fcc42902f528a",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
-  "scan_source": "Topview connector read-only direct scan",
-  "scan_scope": "14 boards, 18 video pages, 627 tasks at 2026-11-04T01:12:50.014Z; all pages returned",
-  "scan_complete": true,
-  "scan_checked_at": "2026-11-04T01:12:50.014Z",
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "phase": "started",
+  "stage": "intake",
+  "scan_source": "Topview connector direct read-only",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
   "selected_item": null,
-  "task_ids": [
-    "be960f5e3bf54563aff663fed9da8906",
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5"
-  ],
+  "task_ids": [],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
   "retryable": false,
   "browser_transport": "not_used",
@@ -39,11 +30,11 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:43bce045-436b-4d52-840d-973cbd561bb6",
-    "acquired_at": "2026-11-04T01:15:49.544Z",
-    "expires_at": "2026-11-04T01:30:49.544Z"
+    "holder": "chatgpt:ordinary:30f72687-2fd5-4eb7-ad60-38467be998ac",
+    "acquired_at": "2026-11-04T02:04:32.760Z",
+    "expires_at": "2026-11-04T02:19:32.760Z"
   },
-  "updated_at": "2026-11-04T01:18:48.278Z",
+  "updated_at": "2026-11-04T02:05:14.969Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -104,48 +95,5 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  },
-  "result": "no_update",
-  "checked_at": "2026-11-04T01:18:48.278Z",
-  "completed_at": "2026-11-04T01:18:48.278Z",
-  "scan": {
-    "checked_at": "2026-11-04T01:12:50.014Z",
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "status_counts": {
-      "success": 598,
-      "init": 6,
-      "fail": 23
-    },
-    "active_task_ids": [
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a",
-      "025955aad2cf494da2b4104d26c36ed5"
-    ]
-  },
-  "next_ready_item": "S63-WAN30",
-  "next_ready_priority": 0.8,
-  "dedup": {
-    "queue_items": 63,
-    "submitted_active": 12,
-    "archived_submitted": 2,
-    "claimed_open": 0,
-    "submitting_open": 0,
-    "submission_unknown_open": 0,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "c99e4e28a071de3a2cbefbf36aebc352cdbd39e0e23f0b33ccdcc7fff110185b",
-    "queue_readiness_sha_match": true,
-    "task_map_readiness_sha_match": true
-  },
-  "lease_release_pending": true,
-  "owner_tasks": {
-    "open_eligible": 0,
-    "claim_taken": 0
-  },
-  "owner_decision": "no_new_create_when_6_of_6"
+  }
 }
