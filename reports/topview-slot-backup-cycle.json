@@ -2,19 +2,18 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "1ecc2f4e-d56b-4594-9604-44438acfa93b",
-  "run_id": "abbeb757-81a8-832e-bde9-6964bd3f33aa",
-  "run_id_source": "Automations.peek last_run.id (in_progress)",
-  "scheduled_for": "2026-11-04T03:00:00Z",
-  "started_at": "2026-11-04T02:55:28.083565Z",
-  "receipt_started_at": "2026-11-04T03:02:12.601Z",
-  "source_head": "46a51627c9092de0df7a45b4d0869755ebdbff49",
-  "observed_main_head_at_receipt_start": "7da44970c0df040af38fb692a55b662c8e873cee",
-  "lease_commit": "7da44970c0df040af38fb692a55b662c8e873cee",
+  "execution_instance_id": "58e317c6-d1f6-4a20-b28d-1f7c5266e898",
+  "run_id": "8bdc942f-ed44-8325-baba-0fb7ea43ddfa",
+  "run_id_source": "Automations.peek last_run.id (in_progress at intake)",
+  "scheduled_for": "2026-11-04T04:00:00Z",
+  "started_at": "2026-11-04T04:02:32.739662Z",
+  "receipt_started_at": "2026-11-04T04:09:34.606Z",
+  "source_head": "b745d198d8c7bb029662e440d227840ec024e789",
+  "lease_commit": "9d03e786b13c5f0a5005e2db2cb284fb610a0879",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
-  "scan_source": "Topview direct read-only connector scan (14 boards, 18 pages)",
+  "phase": "started",
+  "stage": "scan_completed",
+  "scan_source": "Topview direct read-only connector, all boards/pages",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -28,8 +27,8 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
-  "blocker": "lease_release_blocked_tool_safety",
+  "outcome": "started",
+  "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
   "tinyfish_run_ids": [],
@@ -38,11 +37,11 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:1ecc2f4e-d56b-4594-9604-44438acfa93b",
-    "acquired_at": "2026-11-04T03:01:24.252Z",
-    "expires_at": "2026-11-04T03:16:24.252Z"
+    "holder": "chatgpt:ordinary:58e317c6-d1f6-4a20-b28d-1f7c5266e898",
+    "acquired_at": "2026-11-04T04:08:33.665Z",
+    "expires_at": "2026-11-04T04:20:33.665Z"
   },
-  "updated_at": "2026-11-04T03:04:57.134Z",
+  "updated_at": "2026-11-04T04:09:34.606Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -104,56 +103,7 @@
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
   },
-  "result": "no_update",
-  "scan_scope": "14 boards, 18 video pages, 627 video tasks",
-  "scan_checked_at": "2026-11-04T03:03:40.691Z",
-  "scan": {
-    "checked_at": "2026-11-04T03:03:40.691Z",
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "status_counts": {
-      "success": 598,
-      "init": 6,
-      "fail": 23
-    },
-    "active_task_ids": [
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a",
-      "025955aad2cf494da2b4104d26c36ed5"
-    ]
-  },
-  "checked_at": "2026-11-04T03:03:40.691Z",
-  "completed_at": "2026-11-04T03:03:40.691Z",
-  "dedup": {
-    "queue_items": 63,
-    "submitted_active": 12,
-    "submitted_task_ids_checked": 12,
-    "submitted_task_ids_verified": 12,
-    "claimed_open": 0,
-    "submitting_open": 0,
-    "submission_unknown_open": 0,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "d869fa719cdd36954575ef4bf760fd62d68e49cb10d5b238663b6ba52ff9e523",
-    "queue_readiness_sha_match": true,
-    "task_map_readiness_sha_match": true
-  },
-  "next_ready_item": "S63-WAN30",
-  "next_ready_priority": 0.8,
-  "owner_tasks": {
-    "open_eligible": 0,
-    "claim_taken": 0
-  },
-  "preferred_executor_from_registry": "work",
-  "owner_decision": "no_new_Create_when_6_of_6",
-  "lease_release_pending": true,
-  "lease_release_attempts": 2,
-  "lease_release_blocker": "github_update_file_tool_safety_block",
-  "lease_release_reason": "Exact own-lease release via GitHub update_file was blocked twice by the tool safety check; fresh readback still shows the same own lock. Do not claim release. Lease expires_at remains canonical.",
-  "lease_release_checked_at": "2026-11-04T03:04:57.134Z",
-  "note": "Production launch not attempted because six physical slots were occupied. A release blocker affects only ownership cleanup; existing nonce/claims retained."
+  "scan_scope": "14 boards, 18 nonempty pages, 1011 tasks: 627 video/384 image",
+  "scan_checked_at": "2026-11-04T04:09:34.606Z",
+  "preferred_executor_from_registry": "work"
 }
