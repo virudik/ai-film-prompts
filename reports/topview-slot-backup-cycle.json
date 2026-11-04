@@ -11,8 +11,8 @@
   "source_head": "b745d198d8c7bb029662e440d227840ec024e789",
   "lease_commit": "9d03e786b13c5f0a5005e2db2cb284fb610a0879",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "scan_completed",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview direct read-only connector, all boards/pages",
   "scan_complete": true,
   "occupied_slots": 6,
@@ -27,7 +27,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -41,7 +41,7 @@
     "acquired_at": "2026-11-04T04:08:33.665Z",
     "expires_at": "2026-11-04T04:20:33.665Z"
   },
-  "updated_at": "2026-11-04T04:09:34.606Z",
+  "updated_at": "2026-11-04T04:11:23.343Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -103,7 +103,51 @@
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
   },
-  "scan_scope": "14 boards, 18 nonempty pages, 1011 tasks: 627 video/384 image",
-  "scan_checked_at": "2026-11-04T04:09:34.606Z",
-  "preferred_executor_from_registry": "work"
+  "scan_scope": "14 boards, 18 non-empty pages, 1011 tasks (627 video, 384 image); all 6 active My First Board",
+  "scan_checked_at": "2026-11-04T04:11:23.343Z",
+  "preferred_executor_from_registry": "work",
+  "result": "no_update",
+  "completed_at": "2026-11-04T04:11:23.343Z",
+  "checked_at": "2026-11-04T04:11:23.343Z",
+  "scan": {
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "total_tasks": 1011,
+    "video_tasks_scanned": 627,
+    "image_tasks_scanned": 384,
+    "global_status_counts": {
+      "success": 966,
+      "fail": 39,
+      "init": 6
+    },
+    "active_videos": 6,
+    "scope": "Topview connector list_boards(mode=all), all video+image tasks on all pages; 12 queue submitted task IDs independently checked"
+  },
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
+  },
+  "dedup": {
+    "queue_submitted_task_ids_confirmed": 12,
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "active_task_ids_all_verified": true,
+    "archived_task_ids_not_reclassified_as_new": true
+  },
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "owner_decision": "no new Work recovery decision; preferred executor remains verified Work per route_generation=3; ordinary nonexclusive hourly backup",
+  "lease_release_pending": true,
+  "lease_release_attempts": 0,
+  "lease_release_blocker": null,
+  "lease_release_reason": null,
+  "note": "No Topview Create and no TinyFish invocation at full 6/6 capacity. Previous GitHub release safety issue no longer owns current lock; current lease must be released exactly."
 }
