@@ -1,15 +1,15 @@
-# 04.11.2026 — цикл 06:55 МСК: Topview 6/6, без материальных изменений
+# 04.11.2026 — цикл 07:55 МСК: Topview 6/6, без материальных изменений
 
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
-- Work runtime `3e2770f2-44d4-832f-b263-424bd87122f1`; execution_instance_id `3d1a720b-7907-4fe9-b6d7-c01e74d3bf3d`; route_generation 3.
+- Work runtime `405b1902-2830-8326-b2c6-fe29fd6ba66f`; execution_instance_id `4e5b9605-7db1-4df3-9975-5e7ddf36c22b`; route_generation 3.
 - Полный fresh scan: 14 досок, 18 видеостраниц, 627 видео; success 598, init 6, fail 23. Все 6/6 слотов заняты прежними Unlimited0-задачами на My First Board.
-- Все 12 live submitted task IDs найдены; claimed/submitting/submission_unknown: 0. Queue SHA `66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046`, task-map SHA `89eb83874294b0034e9073bf06925e6827bfabfbc26d670f0940e73b4e593824`; readiness совпадает. Следующий ready — `S63-WAN30` priority 0.8, слот не резервируется.
-- Ordinary last_run/latest_result/finished receipt совпадают: `abbeb757-81a8-832e-bde9-6964bd3f33aa`. Его просроченная lease не освобождалась и была заменена новой собственной lease штатным CAS.
-- Owner tasks chatgpt/any: 0 open; Relay events: 0, подписка active, live delivery unverified. Фазы A/B/C в 06:55 МСК не плановые.
+- Все 12 live submitted task IDs найдены; claimed/submitting/submission_unknown: 0. Queue SHA `66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046`, task-map SHA `58d624d0315735f0b134e26800bec1428683b600e4e4b8cba2f1ba5da33e2569`; readiness совпадает. Следующий ready — `S63-WAN30` priority 0.8, слот не резервируется.
+- Ordinary last_run/latest_result/finished receipt совпадают: `8bdc942f-ed44-8325-baba-0fb7ea43ddfa`.
+- Owner tasks chatgpt/any: 0 open; Relay events: 0, подписка active, live delivery unverified. Фазы A/B/C в 07:55 МСК не плановые.
 - Create/retry/credits: 0. Fresh GUI/quota Work в этом цикле не проверялись.
 
-checked_at: 2026-11-04T03:56:47.675Z
+checked_at: 2026-11-04T04:57:40.213Z
 
 # 04.11.2026 — цикл 04:55 МСК: Topview 6/6, без материальных изменений
 
