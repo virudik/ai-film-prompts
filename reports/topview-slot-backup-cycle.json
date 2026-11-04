@@ -11,16 +11,23 @@
   "source_head": "e38135b087f362192e162aeb6257329a70078a82",
   "lease_commit": "6331d71900f0f1c5a5d289aef32a17f4bae9fd01",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
-  "scan_source": "Topview connector direct read-only account-wide enumeration",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "phase": "finished",
+  "stage": "finalized",
+  "scan_source": "Topview connector direct read-only account-wide video enumeration",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
+  "task_ids": [
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "025955aad2cf494da2b4104d26c36ed5"
+  ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -34,7 +41,7 @@
     "acquired_at": "2026-11-04T07:06:04.220Z",
     "expires_at": "2026-11-04T07:18:04.220Z"
   },
-  "updated_at": "2026-11-04T07:06:53.498Z",
+  "updated_at": "2026-11-04T07:12:49.486Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -95,5 +102,55 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  }
+  },
+  "completed_at": "2026-11-04T07:12:49.486Z",
+  "checked_at": "2026-11-04T07:12:49.486Z",
+  "scan_checked_at": "2026-11-04T07:12:05.305Z",
+  "scan_scope": "14 boards, 18 video pages, all 627 video tasks including all 460 main-board video tasks",
+  "scan": {
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 627,
+    "global_status_counts": {
+      "success": 598,
+      "fail": 23,
+      "init": 6
+    },
+    "active_videos": 6,
+    "all_submitted_12_task_ids_confirmed_by_get_board_task": true
+  },
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
+  },
+  "dedup": {
+    "queue_submitted_task_ids_confirmed": 12,
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "all_queue_ids_found": true
+  },
+  "result": "no_update",
+  "queue_integrity": {
+    "source_queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "source_task_map_sha256": "a69bebb66c4dff1e6fd7a4872b0366341224a88aa13562c8094b689fd55b7326",
+    "both_match_readiness": true,
+    "verification": "independently SHA-256 of fetched main queue/map UTF-8 bytes; preflight hash cross-check"
+  },
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "preferred_executor_from_registry": "work",
+  "role_generation_verified": true,
+  "lease_release_pending": false,
+  "lease_release_attempts": 1,
+  "lease_release_reason": "same atomic CAS as receipt",
+  "lease_release_checked_at": "2026-11-04T07:12:49.486Z",
+  "note": "6/6 occupied after full fresh scan. No Create, no TinyFish paid UI, no Topview credits; no owner-task pickup or role/schedule change. Event telemetry does not independently prove free capacity. TinyFish production acceptance remains unverified."
 }
