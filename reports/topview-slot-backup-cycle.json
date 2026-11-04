@@ -11,8 +11,8 @@
   "source_head": "d2cd3a0c1ff76d520b6d3ed467b8df3cefa79ed1",
   "lease_commit": "b29af794a66a7f55acf4fd647116a7f1e270b479",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "capacity_verification",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector read-only direct scan",
   "scan_scope": "14 boards, 18 video pages, 627 tasks at 2026-11-04T01:12:50.014Z; all pages returned",
   "scan_complete": true,
@@ -29,7 +29,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "browser_transport": "not_used",
@@ -43,7 +43,7 @@
     "acquired_at": "2026-11-04T01:15:49.544Z",
     "expires_at": "2026-11-04T01:30:49.544Z"
   },
-  "updated_at": "2026-11-04T01:16:33.019Z",
+  "updated_at": "2026-11-04T01:18:48.278Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -104,5 +104,48 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  }
+  },
+  "result": "no_update",
+  "checked_at": "2026-11-04T01:18:48.278Z",
+  "completed_at": "2026-11-04T01:18:48.278Z",
+  "scan": {
+    "checked_at": "2026-11-04T01:12:50.014Z",
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "active_task_ids": [
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a",
+      "025955aad2cf494da2b4104d26c36ed5"
+    ]
+  },
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "dedup": {
+    "queue_items": 63,
+    "submitted_active": 12,
+    "archived_submitted": 2,
+    "claimed_open": 0,
+    "submitting_open": 0,
+    "submission_unknown_open": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "c99e4e28a071de3a2cbefbf36aebc352cdbd39e0e23f0b33ccdcc7fff110185b",
+    "queue_readiness_sha_match": true,
+    "task_map_readiness_sha_match": true
+  },
+  "lease_release_pending": true,
+  "owner_tasks": {
+    "open_eligible": 0,
+    "claim_taken": 0
+  },
+  "owner_decision": "no_new_create_when_6_of_6"
 }
