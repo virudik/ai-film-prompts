@@ -2,18 +2,18 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "5c5521bc-cfcf-4691-9077-172808913e9e",
-  "run_id": "eb6c9c6f-0910-8330-b6ad-3ca0f353a40d",
-  "run_id_source": "Automations.peek last_run.id, in_progress at run intake",
-  "scheduled_for": "2026-11-04T05:00:00Z",
-  "started_at": "2026-11-04T05:02:52.938306Z",
-  "receipt_started_at": "2026-11-04T05:10:16.066Z",
-  "source_head": "c16445a5937d8b7f7bbd9177d554929d90f1ec63",
-  "lease_commit": "260db50af9e4b64cb8beb92b894b2151722cac00",
+  "execution_instance_id": "60ac732b-6ac1-4946-a3c3-e88698c90def",
+  "run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
+  "run_id_source": "Automations.peek last_run.id (in_progress at intake)",
+  "scheduled_for": "2026-11-04T06:00:00Z",
+  "started_at": "2026-11-04T05:55:14.740499Z",
+  "receipt_started_at": "2026-11-04T06:01:21.861Z",
+  "source_head": "5f3627d5b33d42fb14a0f211e70cbabe69257f59",
+  "lease_commit": "c9b6a67413dbf64cff169b9199edcb5b77de4ed6",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
-  "scan_source": "Topview connector direct read-only; all 14 boards and 18 pages",
+  "phase": "started",
+  "stage": "post_read_only_scan",
+  "scan_source": "Topview direct connector read-only; 14 boards 20 pages; full video and image tasks",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -27,7 +27,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -37,11 +37,11 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:5c5521bc-cfcf-4691-9077-172808913e9e",
-    "acquired_at": "2026-11-04T05:09:18.238Z",
-    "expires_at": "2026-11-04T05:21:18.238Z"
+    "holder": "chatgpt:ordinary:60ac732b-6ac1-4946-a3c3-e88698c90def",
+    "acquired_at": "2026-11-04T06:00:33.578Z",
+    "expires_at": "2026-11-04T06:12:33.578Z"
   },
-  "updated_at": "2026-11-04T05:14:19.344Z",
+  "updated_at": "2026-11-04T06:01:21.861Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -102,56 +102,5 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  },
-  "result": "no_update",
-  "scan_scope": "14 Topview boards, all 18 pages, video and image tasks, direct read-only connector",
-  "scan_checked_at": "2026-11-04T05:14:19.344Z",
-  "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "total_tasks": 1011,
-    "video_tasks_scanned": 627,
-    "image_tasks_scanned": 384,
-    "global_status_counts": {
-      "success": 966,
-      "fail": 39,
-      "init": 6
-    },
-    "active_videos": 6,
-    "scope": "All board/pages direct read-only; all 12 queue submitted task IDs independently confirmed"
-  },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
-  },
-  "dedup": {
-    "queue_submitted_task_ids_confirmed": 12,
-    "open_claimed": 0,
-    "open_submitting": 0,
-    "open_submission_unknown": 0,
-    "active_task_ids_all_verified": true
-  },
-  "queue_integrity": {
-    "source_queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "source_task_map_sha256": "58d624d0315735f0b134e26800bec1428683b600e4e4b8cba2f1ba5da33e2569",
-    "both_match_readiness": true
-  },
-  "next_ready_item": "S63-WAN30",
-  "next_ready_priority": 0.8,
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "preferred_executor_from_registry": "work",
-  "lease_release_pending": false,
-  "lease_release_attempts": 1,
-  "lease_release_blocker": null,
-  "lease_release_reason": "same atomic CAS as receipt",
-  "lease_release_checked_at": "2026-11-04T05:14:19.344Z",
-  "completed_at": "2026-11-04T05:14:19.344Z",
-  "checked_at": "2026-11-04T05:14:19.344Z",
-  "note": "No Create and no TinyFish with 6/6 occupied. No paid action, new task, schedule or role change."
+  }
 }
