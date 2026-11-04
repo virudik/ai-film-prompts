@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-04T20:13:24Z",
+  "complete": true,
+  "boards": 14,
+  "pages": 18,
+  "unique_tasks": 1011,
+  "unique_videos": 627,
+  "active_videos": 6,
+  "active_task_ids": [
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a",
+    "365cf639589a4a5da834d70193d5e8f6"
+  ],
+  "free_slots": 0,
+  "source": "pre-submit full scan 20:10:52Z + read-only list_board_tasks of My First Board after Create (new task 365cf639589a4a5da834d70193d5e8f6)"
+}
