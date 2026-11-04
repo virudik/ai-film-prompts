@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-04T07:01:17+00:00
+Проверено: 2026-11-04T07:02:47+00:00
 Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
 Последний подтверждённый этап: 08:55 MSK: complete Topview scan 6/6, 627 videos; all 12 submitted IDs found, no unresolved claims, no Create/retry/spend. Queue/readiness hashes match. Ordinary last_run/latest_result/finished receipt match.
