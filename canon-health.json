@@ -1,11 +1,17 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-03T23:02:39Z",
-  "status": "ok",
-  "warnings": 0,
+  "checked_at": "2026-11-04T12:08:06Z",
+  "status": "warn",
+  "warnings": 1,
   "info": 8,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
+    {
+      "level": "warn",
+      "code": "handoff-now-stale",
+      "text": "Верхний блок хендофа от 01.11.2026: старше 3 дней, проверить, что «Сейчас» ещё правда.",
+      "file": "NEW-CHAT-HANDOFF.md"
+    },
     {
       "level": "info",
       "code": "instruction-size",
