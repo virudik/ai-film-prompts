@@ -29,8 +29,8 @@
   ],
   "new_submissions": 0,
   "outcome": "no_free_slot",
-  "blocker": null,
-  "retryable": false,
+  "blocker": "lease_release_blocked_tool_safety",
+  "retryable": true,
   "browser_transport": "not_used",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
@@ -42,7 +42,7 @@
     "acquired_at": "2026-11-04T03:01:24.252Z",
     "expires_at": "2026-11-04T03:16:24.252Z"
   },
-  "updated_at": "2026-11-04T03:03:40.691Z",
+  "updated_at": "2026-11-04T03:04:57.134Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -150,5 +150,10 @@
   },
   "preferred_executor_from_registry": "work",
   "owner_decision": "no_new_Create_when_6_of_6",
-  "lease_release_pending": true
+  "lease_release_pending": true,
+  "lease_release_attempts": 2,
+  "lease_release_blocker": "github_update_file_tool_safety_block",
+  "lease_release_reason": "Exact own-lease release via GitHub update_file was blocked twice by the tool safety check; fresh readback still shows the same own lock. Do not claim release. Lease expires_at remains canonical.",
+  "lease_release_checked_at": "2026-11-04T03:04:57.134Z",
+  "note": "Production launch not attempted because six physical slots were occupied. A release blocker affects only ownership cleanup; existing nonce/claims retained."
 }
