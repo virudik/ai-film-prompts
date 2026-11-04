@@ -180,14 +180,14 @@
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024"
     },
     "work": {
-      "session_id": "work-continue-efad9c72-9fbe-4420-b9dc-a8a32016fcf9",
-      "epoch": 2,
+      "session_id": "work-continue-338a6050-9fa5-47c4-925b-05f38285556f",
+      "epoch": 3,
       "conversation_id": null,
       "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
-      "accepted_at": "2026-11-04T13:00:09.410Z",
+      "accepted_at": "2026-11-04T13:20:43Z",
       "source": "direct_owner_Продолжай",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
-      "first_verified_action": "reports/work-continue-2026-11-04-efad9c72.json"
+      "first_verified_action": "reports/work-continue-2026-11-04-338a6050.json"
     }
   },
   "foreground_owner_history": [
@@ -223,6 +223,18 @@
       "first_verified_action": "reports/work-continue-2026-11-04-49196c1c.json",
       "surface": "work",
       "retired_at": "2026-11-04T13:00:09.410Z"
+    },
+    {
+      "session_id": "work-continue-efad9c72-9fbe-4420-b9dc-a8a32016fcf9",
+      "epoch": 2,
+      "conversation_id": null,
+      "conversation_id_unavailable_reason": "not_exposed_by_current_tools",
+      "accepted_at": "2026-11-04T13:00:09.410Z",
+      "source": "direct_owner_Продолжай",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "first_verified_action": "reports/work-continue-2026-11-04-efad9c72.json",
+      "surface": "work",
+      "retired_at": "2026-11-04T13:20:43Z"
     }
   ],
   "schedule_change": {

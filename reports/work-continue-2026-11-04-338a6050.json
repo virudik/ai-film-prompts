@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "execution_instance_id": "338a6050-9fa5-47c4-925b-05f38285556f",
+  "intake_source_head": "c3df34284490ecea398baba151b00b3d7e070fa8",
+  "lease_head": "88532f5499169d78462790455b4ebc61a3ca0124",
+  "scan_completed_at": "2026-11-04T13:13:27.798Z",
+  "boards": 14,
+  "pages": 18,
+  "videos": 627,
+  "unique_videos": 627,
+  "status_counts": {
+    "success": 598,
+    "init": 6,
+    "fail": 23
+  },
+  "active": [
+    {
+      "id": "be960f5e3bf54563aff663fed9da8906",
+      "status": "init",
+      "board": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits": 0
+    },
+    {
+      "id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "status": "init",
+      "board": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits": 0
+    },
+    {
+      "id": "431180d384cc43bebe7afc702e4eb4e6",
+      "status": "init",
+      "board": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits": 0
+    },
+    {
+      "id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "status": "init",
+      "board": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits": 0
+    },
+    {
+      "id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "status": "init",
+      "board": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits": 0
+    },
+    {
+      "id": "025955aad2cf494da2b4104d26c36ed5",
+      "status": "init",
+      "board": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "credits": 0
+    }
+  ],
+  "submitted_by_queue": {
+    "ops/topview-launch-queue.json": {
+      "S28-A1-TEST-20261017": "4b7b972870a44dfbb29bd6c5e330a633",
+      "S42-SEED20-P2": "4a1061e175054da2810ffef8ad9d31cd",
+      "S48-SEED20-P2": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "S56-SEED20-P1": "b15165813c0848939edbe8b3d3aed182",
+      "S56-SEED20-P2": "be960f5e3bf54563aff663fed9da8906",
+      "S59-SEED20-P2": "b0915b04173c414e9ac08652d34b7852",
+      "S60-SEED20-P1": "025955aad2cf494da2b4104d26c36ed5",
+      "S61-SEED20-P1": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "S62-SEED20-P1": "0de1f663432646d294f409a22e20a26e",
+      "S52-R2-SEED20-P1": "c65c30d8cbe14e9eadec886276e62471",
+      "S72-WAN30": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "S71-WAN30": "431180d384cc43bebe7afc702e4eb4e6"
+    },
+    "projects/kotmonavty/ops/topview-launch-queue.json": {
+      "KM04-WAN30-20261030": "4dc7da2c6bff41b3a8161a6cc427aaa7",
+      "KM09-WAN30-20261030": "16d53ab1a84e4091b8867b7ed5cc8f4c"
+    }
+  },
+  "missing": [],
+  "unresolved": [],
+  "first_ready_item": "S63-WAN30",
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "monitor_action": "skip",
+  "owner_inbox_open_or_taken": 0,
+  "pending_or_in_progress_owner_decisions": 0,
+  "other_owner_decisions": "Grok needs_owner, existing",
+  "automations_checked": [
+    "6acae6ab433481919e88665c520b8ef2",
+    "6adc585e7ac08191bb93825117dc7213"
+  ]
+}
