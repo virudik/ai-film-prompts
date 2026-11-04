@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:30f72687-2fd5-4eb7-ad60-38467be998ac",
-  "task": "ordinary HH:00 Topview full-scan 6/6 receipt",
-  "acquired_at": "2026-11-04T02:04:32.760Z",
-  "expires_at": "2026-11-04T02:19:32.760Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-04T02:09:12.675Z",
   "rules": "ops/CANON-LOCK.md"
 }
