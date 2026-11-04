@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:fb34732d-b9e9-4b51-9666-b538d214e303",
-  "task": "tt28-pair переделка",
-  "acquired_at": "2026-11-03T00:35:14Z",
-  "expires_at": null,
-  "released_at": "2026-11-03T00:35:18Z",
+  "state": "held",
+  "holder": "chatgpt:work:b62aab88-f44c-40ef-b72b-dfb83f37f8bc",
+  "task": "Терра Тех 26–30: редактура, PNG и проверка страниц",
+  "acquired_at": "2026-11-04T12:20:02.431Z",
+  "expires_at": "2026-11-04T13:05:02.431Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "roscosmos"
 }
