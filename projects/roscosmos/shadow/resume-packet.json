@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-04T18:08:50+00:00",
-  "source_head": "fc8c15c3e3390d591aad711d506d08673fb58142",
-  "source_fingerprint": "b9c40bf5b1813f27443a03b623652c74b4a5e0e34281c8e763637bc35522ac58",
+  "checked_at": "2026-11-04T18:10:38+00:00",
+  "source_head": "c67698a01d6cc99d36b2a05684d8304a956b816d",
+  "source_fingerprint": "ef4bef4f5bb9da623611136d30fbd4b2c5985bf1fb7929c1a7a27aeb43304d59",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -157,8 +157,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "ab2d6a795e9284aac211121af48b5d74294f7db938e5659eabece0e8543a2947",
-      "bytes": 35143
+      "sha256": "1dbf40187fcbba7161db34b5b43128119052ce6a95387e2f6f2c558c176e05b2",
+      "bytes": 34212
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -182,7 +182,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "0ce7748384c206371374c81ba8225c97292918a9f2a99d951d0b329b5af94cb4",
+      "sha256": "90387bd6fdcbd1e2ebee24e67534adf38e7f3ada4e7d2111a05f7f5cb6286e67",
       "bytes": 5135
     },
     {
@@ -197,7 +197,7 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "1ac01dee7f3599c8637a91f49a448f98e06bd7c85703de7e7b6a806c66acb7a0",
+      "sha256": "ed3ffbc1e3291e2228ddcbdf34a44342b298756d6fda5319e1dfa7b2646a79c2",
       "bytes": 22425
     },
     {
@@ -257,12 +257,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "082cb1ada63ecd7aeb8f6d4d7d2ce66ebceb5c9c37be38a91d5beb0667b4edd5",
-      "bytes": 34944
+      "sha256": "e0fe3f4a233b20f23568fe75ae631154acebd4bdd742dc3dfa74f980906a6daf",
+      "bytes": 34013
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "19d1bf42956c7a8d576da8b437a95f1b30459da56966251da69f8829badb4627",
+      "sha256": "fbdc719b7466d3771b7e48eacb415fade0a3e59c5d676c02a2050fc355d84220",
       "bytes": 25134
     },
     {
