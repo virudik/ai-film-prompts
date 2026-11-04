@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:58e317c6-d1f6-4a20-b28d-1f7c5266e898",
-  "task": "Seregius hourly ordinary read-only slot reconciliation & cycle receipt",
-  "acquired_at": "2026-11-04T04:08:33.665Z",
-  "expires_at": "2026-11-04T04:20:33.665Z",
+  "state": "unlocked",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
   "rules": "ops/CANON-LOCK.md",
-  "last_released_by": "chatgpt:work:3d1a720b-7907-4fe9-b6d7-c01e74d3bf3d",
-  "last_released_at": "2026-11-04T03:58:00.601Z",
-  "released_at": null
+  "last_released_by": "chatgpt:ordinary:58e317c6-d1f6-4a20-b28d-1f7c5266e898",
+  "last_released_at": "2026-11-04T04:12:40.301Z",
+  "released_at": "2026-11-04T04:12:40.301Z"
 }

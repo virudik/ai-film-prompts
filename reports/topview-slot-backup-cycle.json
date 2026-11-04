@@ -41,7 +41,7 @@
     "acquired_at": "2026-11-04T04:08:33.665Z",
     "expires_at": "2026-11-04T04:20:33.665Z"
   },
-  "updated_at": "2026-11-04T04:11:23.343Z",
+  "updated_at": "2026-11-04T04:12:40.301Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -145,9 +145,10 @@
     "taken": 0
   },
   "owner_decision": "no new Work recovery decision; preferred executor remains verified Work per route_generation=3; ordinary nonexclusive hourly backup",
-  "lease_release_pending": true,
-  "lease_release_attempts": 0,
+  "lease_release_pending": false,
+  "lease_release_attempts": 1,
   "lease_release_blocker": null,
-  "lease_release_reason": null,
-  "note": "No Topview Create and no TinyFish invocation at full 6/6 capacity. Previous GitHub release safety issue no longer owns current lock; current lease must be released exactly."
+  "lease_release_reason": "same atomic CAS commit as this final receipt",
+  "note": "No Topview Create and no TinyFish invocation at full 6/6 capacity. Previous GitHub release safety issue no longer owns current lock; current lease must be released exactly.",
+  "lease_release_checked_at": "2026-11-04T04:12:40.301Z"
 }
