@@ -3,180 +3,57 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "result": "no_update",
-  "run_id": "492e6f1f-2cd8-8325-8cc1-a7b55708195d",
+  "phase": "started",
+  "status": "started",
+  "result": null,
+  "run_id": "c1c24fb3-d7f4-8327-9714-c54d6948a3cb",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress at intake)",
-  "execution_instance_id": "8803fca8-6a6c-4d96-b80d-73b1e6b3d407",
+  "execution_instance_id": "84a46a3e-f9ea-4944-9fa4-ad48fb404bce",
   "route_generation": 3,
-  "source_head": "3630e63e7ced5c6ea42985a77bd615484e6543d0",
-  "lease_commit": "3630e63e7ced5c6ea42985a77bd615484e6543d0",
-  "started_at": "2026-11-04T11:57:43.364977Z",
-  "receipt_started_at": "2026-11-04T11:59:34.887Z",
-  "completed_at": "2026-11-04T12:07:27.223Z",
-  "checked_at": "2026-11-04T12:07:27.223Z",
+  "source_head": "78620d57eb351a6f4749c5d5e5a51b98e40c2ba9",
+  "lease_commit": "c47077e81b8a662ada9cadb4683ecb3add077e77",
+  "started_at": "2026-11-04T13:56:57.910684Z",
+  "receipt_started_at": "2026-11-04T14:01:46Z",
+  "completed_at": null,
+  "checked_at": "2026-11-04T14:01:46Z",
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "status_counts": {
-      "success": 598,
-      "init": 6,
-      "fail": 23
-    },
-    "active_videos": 6,
-    "scope": "Topview connector direct account-wide read-only scan; all 14 boards and 18 video pages"
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null,
+    "status_counts": null,
+    "active_videos": null,
+    "scope": null
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": null,
+    "free": null,
     "complete_scan_required": true,
-    "complete_scan_verified": true
+    "complete_scan_verified": false
   },
   "board": {
     "id": "1a6244cf1ae747ef847d949a80d6133c",
     "name": "My First Board",
     "verified_from_projects_json": true
   },
-  "active_tasks": [
-    {
-      "task_id": "be960f5e3bf54563aff663fed9da8906",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "resolution": "720p",
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "resolution": "720p",
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "resolution": "720p",
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "resolution": "720p",
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "resolution": "720p",
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    },
-    {
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "resolution": "720p",
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    }
-  ],
+  "active_tasks": [],
   "queue_reconciliation": {
-    "complete": true,
-    "items_total": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 29,
-      "submitted": 12,
-      "blocked_inputs": 21
-    },
-    "submitted_task_ids_verified": 12,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "5c1d1c5b2075c16da3b2774e22731ea3cb83be2e03fb4aa24d5882e092d6729b",
-    "readiness_hashes_match": true,
-    "next_ready_item": "S63-WAN30",
-    "next_ready_priority": 0.8
+    "complete": false
   },
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "actual_last_run_id": "5aadee28-3394-832f-b5af-ff835537d31d",
-    "actual_last_run_status": "in_progress",
-    "latest_result_run_id": "8c90cd7f-f300-8324-8535-f166902db9c2",
-    "canonical_receipt_run_id": "8c90cd7f-f300-8324-8535-f166902db9c2",
-    "current_run_receipt_match": false,
-    "conclusion": "latest_result and receipt are previous completed ordinary run; not proof of current in-progress run"
+    "actual_last_run_id": "4e0946b6-583c-8326-8918-04e9a4b29f2a",
+    "actual_last_run_status": "completed",
+    "latest_result_run_id": "4e0946b6-583c-8326-8918-04e9a4b29f2a",
+    "canonical_receipt_run_id": "4e0946b6-583c-8326-8918-04e9a4b29f2a",
+    "current_run_receipt_match": true
   },
   "phases": {
-    "phase_a_due": true,
-    "phase_a_status": "completed_healthy",
-    "phase_a_evidence": {
-      "self_heal": {
-        "status": "ok",
-        "action_run_id": 41823992921,
-        "conclusion": "success"
-      },
-      "project_status": {
-        "health": "ok",
-        "synced_at": "2026-11-04T11:55:43Z",
-        "fresh_under_40_minutes": true,
-        "instruction_health": "ok"
-      },
-      "canon_health": {
-        "status": "ok",
-        "warnings": 0,
-        "action_run_id": 41825385186,
-        "conclusion": "success"
-      },
-      "topview_robot": {
-        "run_id": 41825480123,
-        "conclusion": "success"
-      },
-      "canonical_sync": {
-        "run_id": 41825776088,
-        "conclusion": "success"
-      },
-      "pages": {
-        "run_id": 41825557517,
-        "conclusion": "success"
-      },
-      "shadow_brief": {
-        "run_id": 41825939182,
-        "conclusion": "success"
-      }
-    },
-    "phase_b_due": true,
-    "phase_b_status": "completed_resolved_signals_no_repair",
+    "phase_a_due": false,
+    "phase_a_status": "not_due_16:55_MSK",
+    "phase_b_due": false,
+    "phase_b_status": "not_due_16:55_MSK",
     "phase_c_due": false,
     "phase_c_status": "not_due_not_sunday_08:55_MSK"
   },
@@ -193,67 +70,16 @@
     "preferred_executor_unchanged": true
   },
   "lease": {
-    "holder": "chatgpt:work:8803fca8-6a6c-4d96-b80d-73b1e6b3d407",
-    "acquired_at": "2026-11-04T11:59:15.370Z",
-    "expires_at": "2026-11-04T12:39:15.370Z",
-    "final_action": "release_pending_separate_exact_CAS_after_final_receipt"
+    "holder": "chatgpt:work:84a46a3e-f9ea-4944-9fa4-ad48fb404bce",
+    "acquired_at": "2026-11-04T14:00:21Z",
+    "expires_at": "2026-11-04T14:40:21Z",
+    "final_action": "held"
   },
-  "previous_finished_cycle": {
-    "execution_instance_id": "44041c5c-023b-4b4b-8abe-bc48b21b1924",
-    "run_id": "7e99c467-4e48-832e-91ba-7a710c775711",
-    "completed_at": "2026-11-04T11:05:45.220Z",
-    "status": "no_free_slot",
-    "result": "no_update"
-  },
-  "outcome": "no_free_slot",
-  "final_source_head": "a75478710e3ae9e018a3426a692ef1362297649e",
+  "outcome": null,
   "owner_tasks": {
     "open": 0,
-    "taken": 0,
-    "claude_open_over_3h": 0
-  },
-  "relay": {
-    "events": 0,
-    "cursor": null,
-    "polling_active": false,
-    "delivery_paused": false,
-    "live_delivery_verified": false
+    "taken": 0
   },
   "notification": "skip_notification",
-  "note": "Full 6/6 scan; no Create/retry. Planned 14:55 MSK health and GitHub mail phases completed. No current failure. monitor_role.py not_checked because no local checkout; robot heartbeat not imitated.",
-  "mail_check": {
-    "query": "from:notifications@github.com \"ai-film-prompts\" after:2026/11/03 -in:spam -in:trash",
-    "coverage_from": "2026-11-03T07:00:55.544Z",
-    "overlap_hours": 24,
-    "results": 12,
-    "all_pages": true,
-    "next_page_token": null,
-    "state_unchanged": true,
-    "new_messages": [
-      {
-        "gmail_message_id": "1a1a6025f625502e",
-        "run_id": 41811289600,
-        "workflow": "Shadow pilot takeover brief (not canonical)",
-        "commit": "c849130036a2b4952412d6d75e90f33c05565e5f",
-        "resolution": "transient GitHub push/internal-server/concurrency failure; later run 41825939182 success"
-      },
-      {
-        "gmail_message_id": "1a1a60aa0b819845",
-        "run_id": 41812287925,
-        "workflow": "pages build and deployment",
-        "commit": "c92ca8aed714ccb8112651c81d78fd92928fa618",
-        "resolution": "transient GitHub Pages HTTP 500 deploy failure; later Pages success"
-      },
-      {
-        "gmail_message_id": "1a1a64a029aa95ed",
-        "run_id": 41819648866,
-        "workflow": "pages build and deployment",
-        "commit": "ec7f7b1164db3c55519e9948f13dfb9dabd758dd",
-        "resolution": "run/email failure anomaly; build and deploy jobs succeeded; later Pages runs success"
-      }
-    ],
-    "current_failure": false,
-    "repair_performed": false,
-    "blind_rerun_performed": false
-  }
+  "note": "Started receipt before full Topview scan. monitor_role.py not_checked because no local checkout; robot heartbeat not imitated."
 }
