@@ -42,17 +42,41 @@
       "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
       "project": "roscosmos",
       "title": "Терра Тех: сцены и референсы 26–30",
-      "status": "in_progress",
+      "status": "recovered_pending_publication",
       "created_at": "2026-11-04T12:20:20.641Z",
-      "next_action": "Исправить пять сцен и 15 действующих видеопромтов: проверка контура дельты, планшет дисплеем к героине, сравнение леса слева направо, съёмка поля сверху, выбор участка у пруда. Обновить PNG, описания референсов, реестр и манифесты; проверить сайт. Видео на паузе."
+      "next_action": "Опубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.",
+      "owner_quote_20261105": "И то что этот чат не доделал доделай. Он там фотки какие-то успел изготовить и после завис.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-11-04T22:36:50+00:00",
+        "last_completed": "Восстановлены пять оригинальных PNG из переданной владельцем ссылки. Размеры 1672×941 и размеры файлов совпадают с сообщениями источника. Просмотрены исходные десять PNG и пять исправлений. Новых генераций и расходов 0.",
+        "next_action": "Опубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.",
+        "checkpoint": {
+          "file": "projects/roscosmos/reports/current-work-checkpoint.md",
+          "anchor": "# Терра Тех 26–30 — восстановлены готовые PNG · 05.11.2026",
+          "sha256": "29bbfa0d3923ad501543807102f8d9affce92e98ba9236c614c743a691d8e1ea"
+        },
+        "evidence": [
+          {
+            "file": "projects/roscosmos/reports/terratech-revision-2026-11-04.json",
+            "sha256": "d55d90e8b4a1c927ae18391e13b38cc9334547052468dfa1c2547a4627edc186"
+          }
+        ],
+        "read_next": [
+          "projects/roscosmos/video-prompts.md",
+          "projects/roscosmos/INSTRUCTIONS.md"
+        ],
+        "blockers": []
+      },
+      "updated_at": "2026-11-04T22:36:50+00:00"
     }
   ],
   "completed_work": [],
   "resume_focus": {
-    "work_id": "RAZNOE-CPK-REFS-20261027",
+    "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
     "project": "roscosmos",
-    "set_at": "2026-10-28T12:55:17+00:00",
+    "set_at": "2026-11-04T22:36:50+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   },
-  "last_updated_at": "2026-11-04T12:20:20.641Z"
+  "last_updated_at": "2026-11-04T22:36:50+00:00"
 }

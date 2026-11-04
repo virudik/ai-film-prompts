@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "project": "roscosmos",
+  "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
+  "stage": "originals_recovered",
+  "checked_at": "2026-11-04T22:36:50+00:00",
+  "source_head": "f3ea8500a376390def1d0942696cd4fd8f0ffea8",
+  "source_shared_chat": "https://chatgpt.com/share/6aebae6b-cc68-83eb-885d-9b2208ea5187",
+  "originals": [
+    {
+      "name": "tt26-bank-mask.png",
+      "source_asset_id": "file_00000000158481f4868801904cd6eb61",
+      "bytes": 2599612,
+      "sha256": "45e3d8c1bf48b9064c8f8de5bdb6a483197473cd968c69c6be21c8ef55d70387",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "tt27-tablet.png",
+      "source_asset_id": "file_00000000c1d081f49a319c7dcb8c374d",
+      "bytes": 2391439,
+      "sha256": "3cccaf72aaabf0b61b365facd26719c5f6c445122cb477378dd44955401c13d4",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "tt27-layer.png",
+      "source_asset_id": "file_00000000972c81f4a82a054878761062",
+      "bytes": 2277982,
+      "sha256": "830f4467266056693725bced627a78d160cb2fae839c89e45ca5b3dc6c2973ed",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "tt29-print.png",
+      "source_asset_id": "file_00000000c5348210a98303b703696a8e",
+      "bytes": 2132802,
+      "sha256": "782e91422fddc2158daa0dec81e7092685367211d12dab7f8464d63be4ba6747",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "tt30-sheet.png",
+      "source_asset_id": "file_00000000024081f6958470331b37f2cc",
+      "bytes": 2000668,
+      "sha256": "a8092f60f15e0803cb3f0f2a7226fdee40086441f42c4d43d7be8f6097f92304",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "new_image_generations": 0,
+  "video_submissions": 0,
+  "owner_credits_spent": 0
+}

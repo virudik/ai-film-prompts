@@ -3,39 +3,39 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-04T22:33:58+00:00",
-  "source_head": "d28f3ea85b1890c094392a69f12ca5170681f1dd",
-  "source_fingerprint": "b0d58e78bca9a069f877d95266131526ff04392c624f7b039e293e4565557352",
+  "checked_at": "2026-11-04T22:36:50+00:00",
+  "source_head": "f3ea8500a376390def1d0942696cd4fd8f0ffea8",
+  "source_fingerprint": "ca180d287fb0dc8b3559b8108e0ab251599a97a343c921cd9494b22c3b93ab7a",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [],
   "selected_work": {
-    "work_id": "RAZNOE-CPK-REFS-20261027",
-    "title": "Роскосмос — референсы ЦПК готовы, проект на паузе",
-    "status": "prepared_waiting_owner_review_project_paused",
-    "last_completed": "Все10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.",
-    "next_action": "Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.",
-    "verified_at": "2026-10-28T12:55:17+00:00",
+    "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
+    "title": "Терра Тех: сцены и референсы 26–30",
+    "status": "recovered_pending_publication",
+    "last_completed": "Восстановлены пять оригинальных PNG из переданной владельцем ссылки. Размеры 1672×941 и размеры файлов совпадают с сообщениями источника. Просмотрены исходные десять PNG и пять исправлений. Новых генераций и расходов 0.",
+    "next_action": "Опубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.",
+    "verified_at": "2026-11-04T22:36:50+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json",
-        "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3"
+        "file": "projects/roscosmos/reports/terratech-revision-2026-11-04.json",
+        "sha256": "d55d90e8b4a1c927ae18391e13b38cc9334547052468dfa1c2547a4627edc186"
       }
     ],
     "read_next": [
-      "projects/roscosmos/HANDOFF.md",
-      "projects/roscosmos/ops/topview-launch-queue.json"
+      "projects/roscosmos/video-prompts.md",
+      "projects/roscosmos/INSTRUCTIONS.md"
     ],
     "checkpoint": {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "anchor": "# ЦПК — локальные нашивки и надписи · 28.10.2026",
-      "sha256": "39d62c4f7e2ad01aada49ce2eaf5f08fc662c8291dc0f4556cc4cb468c625cff"
+      "anchor": "# Терра Тех 26–30 — восстановлены готовые PNG · 05.11.2026",
+      "sha256": "29bbfa0d3923ad501543807102f8d9affce92e98ba9236c614c743a691d8e1ea"
     }
   },
-  "checkpoint_text": "# ЦПК — локальные нашивки и надписи · 28.10.2026\n\nwork_id: RAZNOE-CPK-REFS-20261027\nПроверено: 2026-10-28T12:55:17+00:00\n\nВсе10 существующих PNG ЦПК сохранены; в семи локально добавлены официальные эмблемы, флаги и кириллические надписи. SHA и тексты требований обновлены; лица и все пиксели вне областей правок неизменны.\n\nОтчёт: projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json. Исходные размеры сохранены;0 изменённых пикселей вне масок. Три исключённых владельцем изображения сохранены побайтно.29 элементов очереди остаются на паузе; запусков и новых пунктов0.\n\nСледующее действие: Не рисовать готовые референсы заново. Ждать замечаний владельца по семи локальным правкам и отдельного явного разрешения на снятие паузы; сцены21–25 не добавлять в очередь, видео не запускать.\n",
+  "checkpoint_text": "# Терра Тех 26–30 — восстановлены готовые PNG · 05.11.2026\n\nwork_id: ROSCOSMOS-TERRATECH-REVISION-20261104\n\nВосстановлены пять оригинальных PNG из переданной владельцем ссылки. Размеры 1672×941 и размеры файлов совпадают с сообщениями источника. Просмотрены исходные десять PNG и пять исправлений. Новых генераций и расходов 0.\n\nОпубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -129,8 +129,8 @@
     }
   ],
   "read_next": [
-    "projects/roscosmos/HANDOFF.md",
-    "projects/roscosmos/ops/topview-launch-queue.json"
+    "projects/roscosmos/video-prompts.md",
+    "projects/roscosmos/INSTRUCTIONS.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -231,19 +231,19 @@
       "bytes": 21795
     },
     {
-      "file": "projects/roscosmos/reports/cpk-insignia-edit-2026-10-28.json",
-      "sha256": "04ee1026478918344e8cf012b06a3f0e1183b7ff39002ca5b22977feefad75e3",
-      "bytes": 8235
-    },
-    {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "sha256": "0dee33721123fdde8d69a214bc5c0f305462c50159d874325fe7b0dd6f84764b",
-      "bytes": 16087
+      "sha256": "784ab2d07420d43d92db0511122c3e488c3c3e6bcbb4144ecd1d15fc685f1c66",
+      "bytes": 16866
     },
     {
       "file": "projects/roscosmos/reports/handoff-receipts.json",
       "sha256": "b4a77bd906de4c059cafa7a860a1cf46860915346231d5225d79d8b7649fdc44",
       "bytes": 251
+    },
+    {
+      "file": "projects/roscosmos/reports/terratech-revision-2026-11-04.json",
+      "sha256": "d55d90e8b4a1c927ae18391e13b38cc9334547052468dfa1c2547a4627edc186",
+      "bytes": 1821
     },
     {
       "file": "projects/roscosmos/video-prompts.md",
@@ -252,8 +252,8 @@
     },
     {
       "file": "projects/roscosmos/work-resume-register.json",
-      "sha256": "056c8f6b060d59b2f3e6e04399e264a8d9be04274cdfd5f6f65d4440d08840ad",
-      "bytes": 3922
+      "sha256": "8df9fa0e1591ebb3bd7cf90e1f059ebe9082fb4d9ee17f42388435fe6039d235",
+      "bytes": 5465
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -271,5 +271,5 @@
       "bytes": 1352161
     }
   ],
-  "packet_bytes": 6046
+  "packet_bytes": 5394
 }
