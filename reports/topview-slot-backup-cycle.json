@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-04T22:05:38.941Z",
   "source_head": "3e8d9968fc4e06a3bf4c71ce5205ee03a3f32e33",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "lease_acquired_scan_completed_pending_final_receipt",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -78,6 +78,12 @@
   "lease": {
     "holder": "chatgpt:ordinary:af158d4f-eb4a-4fac-82f8-2c5fce4c4b1e",
     "acquired_at": "2026-11-04T22:04:31.613Z",
-    "expires_at": "2026-11-04T22:16:31.613Z"
-  }
+    "expires_at": "2026-11-04T22:16:31.613Z",
+    "released_at": "2026-11-04T22:06:24.382Z",
+    "state": "free"
+  },
+  "completed_at": "2026-11-04T22:06:24.382Z",
+  "source_head_at_finish": "1c2454c79b9dd82126e7f99620a60c62c5574d6b",
+  "notification": "silent_no_free_slot",
+  "notes": "Fresh Topview connector full 14-board 18-page scan; all six physical videos init on My First Board Unlimited0, 13 submitted queue IDs independently verified. No Create or paid TinyFish call; next eligible S64-WAN30 priority 0.9. Earlier competing Work lease released before this independent CAS-acquired lease."
 }
