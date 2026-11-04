@@ -2,19 +2,19 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "b9a27ab7-390b-4b5a-bf1c-6930c42fa20b",
-  "run_id": "31f33f74-2e10-8329-8944-41d9f804be8a",
+  "execution_instance_id": "5fb23601-5eda-4c86-989b-9e8e07cb0cd0",
+  "run_id": "35470cfb-9080-832d-b697-191cf207c39a",
   "run_id_source": "Automations.peek last_run.id (in_progress)",
-  "scheduled_for": "2026-11-04T08:00:00Z",
-  "started_at": "2026-11-04T08:01:15.387769Z",
-  "receipt_started_at": "2026-11-04T08:11:53.809Z",
-  "source_head": "33291ac1fcaf94ebff5d789c993b2ed142f2d116",
+  "scheduled_for": "2026-11-04T10:00:00Z",
+  "started_at": "2026-11-04T09:59:09.375226Z",
+  "receipt_started_at": "2026-11-04T10:09:12.153Z",
+  "source_head": "37cb01e3d251e536c44e80603942c4b3fdbe0268",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
-  "scan_source": "Topview connector read-only account-wide video enumeration",
-  "scan_scope": "14 boards / 18 video pagination pages / all 627 videos, account-wide read-only",
-  "scan_checked_at": "2026-11-04T08:12:34.305Z",
+  "phase": "started",
+  "stage": "intake",
+  "scan_source": "Topview connector direct read-only scan all boards and pages",
+  "scan_scope": "14 boards / 18 page requests / all 627 video tasks",
+  "scan_checked_at": "2026-11-04T10:03:31.890Z",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -28,7 +28,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -38,11 +38,11 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "lease": {
-    "holder": "chatgpt:ordinary:b9a27ab7-390b-4b5a-bf1c-6930c42fa20b",
-    "acquired_at": "2026-11-04T08:09:34.540Z",
-    "expires_at": "2026-11-04T08:21:34.540Z"
+    "holder": "chatgpt:ordinary:5fb23601-5eda-4c86-989b-9e8e07cb0cd0",
+    "acquired_at": "2026-11-04T10:07:49.010Z",
+    "expires_at": "2026-11-04T10:19:49.010Z"
   },
-  "updated_at": "2026-11-04T08:14:48.808Z",
+  "updated_at": "2026-11-04T10:09:12.153Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -103,59 +103,5 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  },
-  "previous_finished_cycle": {
-    "execution_instance_id": "18538249-f505-454e-8c92-2bfa2b0e2b55",
-    "completed_at": "2026-11-04T07:12:49.486Z",
-    "outcome": "no_free_slot"
-  },
-  "completed_at": "2026-11-04T08:14:48.808Z",
-  "checked_at": "2026-11-04T08:14:48.808Z",
-  "final_source_head": "50aac4dbf1b168a3501901453896afecb85a369d",
-  "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "global_status_counts": {
-      "success": 598,
-      "fail": 23,
-      "init": 6
-    },
-    "active_videos": 6,
-    "all_submitted_12_task_ids_confirmed_by_get_board_task": true
-  },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
-  },
-  "dedup": {
-    "queue_submitted_task_ids_confirmed": 12,
-    "open_claimed": 0,
-    "open_submitting": 0,
-    "open_submission_unknown": 0,
-    "all_queue_ids_found": true
-  },
-  "result": "no_update",
-  "queue_integrity": {
-    "source_queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "source_task_map_sha256": "1d7580a2d0789bb8ad9825b7cb52250bdfcdcc62935260f56e7d88da952d614a",
-    "both_match_readiness": true,
-    "verification": "independently computed SHA256 over UTF8"
-  },
-  "next_ready_item": "S63-WAN30",
-  "next_ready_priority": 0.8,
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "preferred_executor_from_registry": "work",
-  "role_generation_verified": true,
-  "lease_release_pending": false,
-  "lease_release_attempts": 1,
-  "lease_release_reason": "atomic CAS of exact lease with final receipt",
-  "lease_release_checked_at": "2026-11-04T08:14:48.808Z",
-  "note": "Full new 14-board 18-page scan found 6/6, no new Create, no TinyFish UI/Wallet charges. Prior Work lock was released before this execution acquired lease. Owner tasks open 0. Historical TinyFish smoke test does not prove production acceptance."
+  }
 }
