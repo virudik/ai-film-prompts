@@ -1,16 +1,16 @@
-# 04.11.2026 — цикл 21:55 МСК: Topview 6/6, без материальных изменений
+# 04.11.2026 — цикл 23:55 МСК: S63 подтверждён, Topview 6/6
 
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
-- Work runtime `75765ed5-3580-8322-ae1b-0ce8c144bfc9`; execution_instance_id `0b727815-d63b-4893-98c5-4a854b3c5de2`; route_generation 3.
-- Полный fresh read-only scan: 14 досок, 18 физических видеостраниц, 627 видео; success 598, init 6, fail 23. Все 6/6 слотов заняты прежними Unlimited0-задачами на My First Board; Create/retry/credits: 0.
-- Все 12 submitted task IDs найдены; активных claimed/submitting/submission_unknown: 0. Queue SHA `66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046`, task-map SHA `c8f9e5ae3f2cd256ddc9090253379d14b851798323e0823cb02188c2b9092e24`; readiness совпадает. Следующий ready — `S63-WAN30` priority 0.8, слот не резервируется.
-- Ordinary actual last_run/latest_result совпадают: `9c9de247-59d8-8321-8d75-497ce6aae57e`. Его собственный результат подтверждает текущий полный scan, но canonical receipt осталась на `95ce4b5e-4858-832a-861c-daf6a045ad1a`, потому что ordinary встретил действующую Work-lease и корректно завершился `receipt_not_saved`; это не считается доказательством записи текущей квитанции.
-- Owner tasks open: 0. Relay events после прошлого цикла: 0; subscription active, live delivery unverified. Фазы A/B/C в 21:55 МСК не плановые.
-- Post-recertification integration run не появился: последний run `41884294540` относится к pre-recertification SHA и не доказывает текущий main. GitHub connector не имеет dispatch; публичный browser не авторизован, поэтому проверка остаётся `not_checked`, без имитации heartbeat/marker.
-- Fresh GUI/quota Work в этом цикле не проверялись; preferred_executor=work и route_generation=3 не менялись. `monitor_role.py` not_checked: локальный git checkout отсутствует.
+- Work runtime `41df9a9b-690c-8326-96ca-357771a954cf`; execution_instance_id `fe35d2c2-5aea-425c-be2b-5c40b5c2ff64`; route_generation 3.
+- Полный fresh read-only scan: 14 досок, 18 физических видеостраниц, 628 видео; success 599, init 6, fail 23. Все 6/6 слотов заняты Unlimited0-задачами на My First Board; Create/retry/credits этим исполнителем: 0.
+- Новый результат другого исполнителя подтверждён по живому Topview и канону: `S63-WAN30` task `365cf639589a4a5da834d70193d5e8f6`, Wan 3.0, 30 с, 720p, 16:9, quantity1, четыре изображения, useUnlimitMode=true, creditsCost=0, status=init. Receipt: `reports/topview-queue-2026-10-16/S63-WAN30-20261104T201151Z.json`. Success/QC/approval не утверждаются.
+- Все 13 submitted task IDs найдены; claimed/submitting/submission_unknown: 0. Queue SHA `b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05`, task-map SHA `8c0cf746a8e403bea089b6114f6e5301ef0ac72e304fc24074dddda4b305ec4b`; `ops/queue-readiness.json` совпадает по обоим SHA. Следующий ready — `S64-WAN30` priority 0.9, слот не резервируется.
+- Ordinary actual last_run/latest_result: `c31fc4c3-af14-8325-9c29-d5e48ac58ba6`; canonical receipt остаётся на старом `a0411828-cf9c-832c-9a3f-aad263185611`, потому что текущий ordinary-вызов корректно завершился `receipt_not_saved` под чужой Grok-lease. Старую квитанцию не использовали как доказательство текущего запуска. Relay actual/latest_result: `937ef84d-0e00-8325-98dd-528b8fc33f3f`.
+- Owner tasks open: 0. Фазы A/B в 23:55 МСК не плановые; фаза C не плановая (среда, не воскресенье 08:55). `monitor_role.py` not_checked: локальный git checkout отсутствует, heartbeat не имитировался.
+- preferred_executor=work, route_generation=3 и peer enablement не менялись; нового доказательства GUI/квоты в этом цикле не получено.
 
-checked_at: 2026-11-04T19:00:59.490Z
+checked_at: 2026-11-04T20:58:14.519Z
 
 # 04.11.2026 — цикл 20:55 МСК: Topview 6/6; canon-health исправлен, фазы A/B выполнены
 
