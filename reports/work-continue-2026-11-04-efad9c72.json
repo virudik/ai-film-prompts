@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "execution_instance_id": "efad9c72-9fbe-4420-b9dc-a8a32016fcf9",
+  "intake_source_head": "f3c20c5e39319c5644fcb20ff7dd8a8360a70834",
+  "lease_head": "1b9771070294e6f4c05005d204bb536b827cb93c",
+  "scan_started_at": "2026-11-04T12:59:36.745Z",
+  "scan_completed_at": "2026-11-04T12:59:41.380Z",
+  "boards": 14,
+  "pages": 18,
+  "videos": 627,
+  "status_counts": {
+    "success": 598,
+    "init": 6,
+    "fail": 23
+  },
+  "active": [
+    {
+      "id": "be960f5e3bf54563aff663fed9da8906",
+      "scene": "S56-SEED20-P2",
+      "status": "init",
+      "unlimited": true,
+      "cost": 0
+    },
+    {
+      "id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "scene": "S48-SEED20-P2",
+      "status": "init",
+      "unlimited": true,
+      "cost": 0
+    },
+    {
+      "id": "431180d384cc43bebe7afc702e4eb4e6",
+      "scene": "S71-WAN30",
+      "status": "init",
+      "unlimited": true,
+      "cost": 0
+    },
+    {
+      "id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "scene": "S72-WAN30",
+      "status": "init",
+      "unlimited": true,
+      "cost": 0
+    },
+    {
+      "id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "scene": "S61-SEED20-P1",
+      "status": "init",
+      "unlimited": true,
+      "cost": 0
+    },
+    {
+      "id": "025955aad2cf494da2b4104d26c36ed5",
+      "scene": "S60-SEED20-P1",
+      "status": "init",
+      "unlimited": true,
+      "cost": 0
+    }
+  ],
+  "submitted": 12,
+  "missing": [],
+  "unresolved": [],
+  "first_ready_item": "S63-WAN30",
+  "new_submissions": 0,
+  "credits_spent": 0,
+  "monitor_action": "skip",
+  "owner_inbox_open_or_taken": 0,
+  "pending_or_in_progress_owner_decisions": 0,
+  "automations_checked": [
+    "6acae6ab433481919e88665c520b8ef2",
+    "6ae5e9d563f88191aa6da7c9ba1e05a0"
+  ],
+  "browser_submit_preflight": "not_applicable_full_queue"
+}
