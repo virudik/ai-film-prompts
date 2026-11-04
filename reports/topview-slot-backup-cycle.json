@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-04T23:00:19.373Z",
   "source_head": "065d13df4b4fbc92e1a5f0410a25dae3bfccacca",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "lease_acquired_readback_verified",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector",
   "scan_checked_at": "2026-11-04T22:57:15.003Z",
   "scan_scope": "14 boards; 18 physical video pages; 628 video tasks",
@@ -28,7 +28,7 @@
     "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
   "new_submissions": 0,
-  "outcome": "checking",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -50,6 +50,50 @@
     "holder": "chatgpt:ordinary:ae6d2318-a7b5-4319-90ea-462b5604be91",
     "acquired_at": "2026-11-04T22:59:46.105Z",
     "expires_at": "2026-11-04T23:11:46.105Z",
-    "state": "held"
-  }
+    "released_at": "2026-11-04T23:02:57.991Z",
+    "state": "free"
+  },
+  "completed_at": "2026-11-04T23:02:57.991Z",
+  "source_head_at_finish": "32d0f498dfdc0fe2bba6a6a0bd806edd1ec2f4bc",
+  "scan_validation": {
+    "boards": 14,
+    "physical_video_pages": 18,
+    "total_video_tasks": 628,
+    "status_counts": {
+      "success": 599,
+      "init": 6,
+      "fail": 23
+    },
+    "active_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "active_unlimited0": 6,
+    "submitted_queue_tasks_reconciled": 13,
+    "submitted_task_ids_found": 13,
+    "submitted_missing": 0,
+    "queue_item_count": 63,
+    "queue_state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 28,
+      "submitted": 13,
+      "blocked_inputs": 21
+    },
+    "pending_claims": 0,
+    "pending_submitting": 0,
+    "pending_unknown": 0,
+    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+    "task_map_sha256": "b3cee9ac4b9a57ca48d2e416d2c986d23407cee0bb654508420358d911f6e93c",
+    "readiness_hashes_match": true,
+    "readiness_checked_at": "2026-11-04T22:50:28.918500Z",
+    "next_ready_item": "S64-WAN30",
+    "next_ready_priority": 0.9,
+    "scan_complete": true
+  },
+  "notification": "silent_no_free_slot",
+  "notes": "Full read-only connector scan 14 boards/18 video pages/628 tasks: 6 active Unlimited0 and all 13 submitted task IDs independently found, no pending claims/intents/unknown; next ready S64-WAN30. GitHub robot wake issue #327 predates new S63 submission and is not evidence of current free capacity. No TinyFish UI runs, Create, Topview credit debit, or extra automation. Work HH:55 peer receipt/run independently checked and lease released before own CAS-acquired lease; schedule unchanged."
 }
