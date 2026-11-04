@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-04T19:01:22.096Z",
+  "last_updated_at": "2026-11-04T20:58:14.519Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-04T19:01:22.096Z",
+      "updated_at": "2026-11-04T20:58:14.519Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -21,7 +21,7 @@
         "20:55 MSK cycle 4 Nov: full 14-board/18-page scan confirmed 627 videos and 6/6 active Unlimited0; no Create/retry/credits. Phase A cleaned stale/oversized handoff with verbatim archive, 35143→34212 bytes; canon-health run 41884294876 success/status ok. Phase B mapped new Canon health mail run 41826591451 to the cleaned warning and later success; no blind rerun. Three automations and active Relay subscription checked; schedules/triggers unchanged.",
         "21:55 MSK cycle 4 Nov: fresh complete 14-board/18-video-page scan found 627 videos and 6/6 active Unlimited0 on My First Board. All 12 submitted task IDs reconciled; no active claimed/submitting/submission_unknown. Queue/readiness hashes matched; next independent ready S63-WAN30. Ordinary actual run 9c9de247 completed but correctly saved no receipt because the prior Work lease was live. No Create/retry/credits; phases A/B/C not due; post-recertification integration remains not_checked."
       ],
-      "next_action": "При следующем настоящем освобождении слота: fresh main, owner decisions, полный all-board scan и сверка claims/task IDs; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 не повторять.",
+      "next_action": "При следующем подтверждённом освобождении слота: fresh main, решения владельца, полный all-board scan и сверка claims/task IDs; первая независимая готовая S64-WAN30 (0.9) под собственной lease/CAS и видимым Unlimited0. S63 уже submitted с task 365cf639589a4a5da834d70193d5e8f6 — не повторять. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -113,30 +113,30 @@
         "result": "Canon-health warning fixed and current status ok; one new email signal mapped to exact run/log and resolved without blind rerun."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-04T19:01:22.096Z",
+        "checked_at": "2026-11-04T20:58:14.519Z",
         "complete": true,
         "boards": 14,
         "pages": 18,
-        "video_tasks": 627,
+        "video_tasks": 628,
         "status_counts": {
-          "success": 598,
+          "success": 599,
           "init": 6,
           "fail": 23
         },
         "occupied_slots": 6,
         "free_slots": 0,
         "active_task_ids": [
+          "365cf639589a4a5da834d70193d5e8f6",
           "be960f5e3bf54563aff663fed9da8906",
           "de8e44bb15d64dc7a4eb640d27a726e4",
           "431180d384cc43bebe7afc702e4eb4e6",
           "22dbd25cdd9f47cd9e44300e55f5e44f",
-          "c72c1ab4524e4f2f9d3a0272474f788a",
-          "025955aad2cf494da2b4104d26c36ed5"
+          "c72c1ab4524e4f2f9d3a0272474f788a"
         ],
-        "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-        "task_map_sha256": "c8f9e5ae3f2cd256ddc9090253379d14b851798323e0823cb02188c2b9092e24",
+        "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+        "task_map_sha256": "8c0cf746a8e403bea089b6114f6e5301ef0ac72e304fc24074dddda4b305ec4b",
         "readiness_hashes_match": true,
-        "submitted_task_ids_verified": 12,
+        "submitted_task_ids_verified": 13,
         "unknown_submissions": 0
       },
       "last_relay_event": {
@@ -161,9 +161,9 @@
         "2026-10-27T06:16:16Z: S48-P1 submitted exactly once via authenticated Topview website, task 8d7ff1e2de63478693778de29e0dd56e; Seedance2.0/15s/720p/16:9/qty1/6 images/Unlimited0, exact prompt and input order/hash verified. Six active video slots after submit; no repeat or editorial approval."
       ],
       "last_submission": {
-        "item_id": "S56-SEED20-P2",
-        "task_id": "be960f5e3bf54563aff663fed9da8906",
-        "receipt": "reports/topview-queue-2026-10-16/S56-SEED20-P2-20261103T151423Z.json"
+        "item_id": "S63-WAN30",
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "receipt": "reports/topview-queue-2026-10-16/S63-WAN30-20261104T201151Z.json"
       },
       "last_relay_recovery": {
         "checked_at": "2026-10-28T07:42:40.844Z",
@@ -253,10 +253,10 @@
         "relay_events_archived": 0
       },
       "last_verified_submission": {
-        "item_id": "S56-SEED20-P2",
-        "task_id": "be960f5e3bf54563aff663fed9da8906",
-        "at": "2026-11-03T15:14:23Z",
-        "receipt": "reports/topview-queue-2026-10-16/S56-SEED20-P2-20261103T151423Z.json"
+        "item_id": "S63-WAN30",
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "at": "2026-11-04T20:11:51Z",
+        "receipt": "reports/topview-queue-2026-10-16/S63-WAN30-20261104T201151Z.json"
       },
       "verified_at": "2026-11-04T13:20:43+00:00",
       "last_owner_s62_decision": {
@@ -455,8 +455,8 @@
         "report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json"
       },
       "last_hourly_cycle": {
-        "checked_at": "2026-11-04T16:58:40.524Z",
-        "cycle": "19:55 Europe/Moscow",
+        "checked_at": "2026-11-04T20:58:14.519Z",
+        "cycle": "23:55 Europe/Moscow",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "relay_events": 0,
@@ -465,26 +465,29 @@
         "phase_b_due": false,
         "phase_c_due": false,
         "ordinary_peer": {
-          "actual_last_run_id": "d15ce954-e9ec-8333-9337-cdce5a977a38",
+          "actual_last_run_id": "c31fc4c3-af14-8325-9c29-d5e48ac58ba6",
           "actual_last_run_status": "completed",
-          "latest_result_run_id": "d15ce954-e9ec-8333-9337-cdce5a977a38",
-          "receipt_run_id": "d15ce954-e9ec-8333-9337-cdce5a977a38",
-          "match": true
+          "latest_result_run_id": "c31fc4c3-af14-8325-9c29-d5e48ac58ba6",
+          "receipt_run_id": "a0411828-cf9c-832c-9a3f-aad263185611",
+          "match": false,
+          "reason": "current ordinary run reported receipt_not_saved under Grok lease; receipt remains older"
         },
         "monitor_role": "not_checked: local checkout unavailable; robot heartbeat not imitated",
         "work_gui_quota_current_cycle_verified": false,
-        "result": "No free slot; no generation, retry, credits or scheduled maintenance phases."
+        "result": "S63 submission confirmed from live Topview and canonical receipt; 6/6 occupied; no Create/retry/credits by this executor."
       },
       "last_peer_reconciliation": {
-        "checked_at": "2026-11-04T16:58:40.524Z",
-        "ordinary_last_run_id": "d15ce954-e9ec-8333-9337-cdce5a977a38",
+        "checked_at": "2026-11-04T20:58:14.519Z",
+        "ordinary_last_run_id": "c31fc4c3-af14-8325-9c29-d5e48ac58ba6",
         "ordinary_last_run_status": "completed",
-        "ordinary_latest_result_run_id": "d15ce954-e9ec-8333-9337-cdce5a977a38",
-        "ordinary_receipt_run_id": "d15ce954-e9ec-8333-9337-cdce5a977a38",
+        "ordinary_latest_result_run_id": "c31fc4c3-af14-8325-9c29-d5e48ac58ba6",
+        "ordinary_receipt_run_id": "a0411828-cf9c-832c-9a3f-aad263185611",
         "ordinary_receipt_phase": "finished",
-        "receipt_matches_current_run": true,
+        "receipt_matches_current_run": false,
         "receipt_finished": true,
-        "conclusion": "ordinary actual last_run, latest_result and canonical finished receipt match"
+        "conclusion": "current ordinary run correctly reported receipt_not_saved under Grok lease; older canonical receipt is not evidence of current run",
+        "relay_last_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
+        "relay_latest_result_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f"
       }
     },
     {
@@ -1470,8 +1473,8 @@
     "project": "seregius",
     "set_at": "2026-10-29T23:39:59+00:00",
     "reason": "Explicitly selected by the authorized task writer",
-    "next_action": "При следующем настоящем освобождении слота: свежий main, решения владельца, полный скан и сверка отправок; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 повторно не отправлять.",
-    "updated_at": "2026-11-03T21:50:40.259Z"
+    "next_action": "При следующем подтверждённом освобождении слота: свежий main, решения владельца, полный скан и сверка отправок; первая независимая готовая S64-WAN30 (0.9) под собственной lease/CAS и видимым Unlimited0. S63 task 365cf639589a4a5da834d70193d5e8f6 не повторять.",
+    "updated_at": "2026-11-04T20:58:14.519Z"
   },
   "last_instruction_review": {
     "at": "2026-11-01T00:16:17.370251Z",
