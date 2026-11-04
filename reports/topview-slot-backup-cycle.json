@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-04T19:03:29.128Z",
   "source_head": "c0696f8759081d01d2f1d21df3a9f47eba69760e",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_completed",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -25,7 +25,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "checking",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -54,19 +54,27 @@
       "c72c1ab4524e4f2f9d3a0272474f788a",
       "025955aad2cf494da2b4104d26c36ed5"
     ],
-    "active_unlimited0": 6
+    "active_unlimited0": 6,
+    "submitted_queue_tasks_reconciled": 12,
+    "pending_claims": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "c8f9e5ae3f2cd256ddc9090253379d14b851798323e0823cb02188c2b9092e24",
+    "readiness_hashes_match": true,
+    "readiness_checked_at": "2026-11-04T18:51:13.187139Z",
+    "next_ready_item": "S63-WAN30",
+    "priority": 0.8
   },
   "lease": {
     "holder": "chatgpt:ordinary:e0ac57ab-01f8-4b2b-850b-6eb224d0023f",
     "acquired_at": "2026-11-04T19:02:52.641Z",
     "expires_at": "2026-11-04T19:10:52.641Z",
     "lease_commit": "34b6056b3d68c78cd856cd67e285f35aa8e00270",
-    "final_action": "pending"
+    "final_action": "released_exact_in_same_atomic_CAS"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
     "topview_readonly_scan_verified": true,
-    "topview_submitted_task_ids_verified": false,
+    "topview_submitted_task_ids_verified": true,
     "topview_unlimited0_active_tasks_verified": true,
     "tinyfish_saved_login_historical": true,
     "tinyfish_login_current_cycle_verified": false,
@@ -75,5 +83,19 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false
   },
-  "updated_at": "2026-11-04T19:03:29.128Z"
+  "updated_at": "2026-11-04T19:05:42.642Z",
+  "finished_at": "2026-11-04T19:05:42.642Z",
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "peer_reconciliation": {
+    "ordinary_current_run_id": "a0411828-cf9c-832c-9a3f-aad263185611",
+    "ordinary_previous_result_run_id": "9c9de247-59d8-8321-8d75-497ce6aae57e",
+    "work_hourly_last_run_id": "75765ed5-3580-8322-ae1b-0ce8c144bfc9",
+    "work_hourly_status": "completed",
+    "relay_last_run_id": "c69a752d-d44c-8332-9dfe-22614dd5ff90",
+    "wake_issue": "295 dated 2026-11-03, stale vs fresh all-board scan on 2026-11-04"
+  },
+  "note": "Full fresh read-only all-board scan found 6/6 occupied (627 video tasks, 14 boards, 18 pages). All 12 submitted queue tasks verified by Topview task IDs on My First Board; no pending claims. No Create, no metered TinyFish or Topview credit expenses. Lease previously released by Work, ordinary obtained its own exact lease and releases it with this final receipt."
 }
