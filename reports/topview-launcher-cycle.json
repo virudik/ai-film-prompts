@@ -3,156 +3,50 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "result": "no_update",
-  "run_id": "3400e91c-3f18-8333-9365-e3c20a8a6e35",
+  "phase": "started",
+  "status": "started",
+  "result": null,
+  "run_id": "88c0d148-e374-832a-a166-195edd5fde67",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress at intake)",
-  "execution_instance_id": "ff536350-5f97-4a94-9f5a-297c30b43545",
+  "execution_instance_id": "f538088f-6340-4eaa-9be3-5b76d6f17a6c",
   "route_generation": 3,
-  "source_head": "739e269db16c53cfe3cc651051575fdd17a6c462",
-  "lease_commit": "23f0352295dafcec160121c2de51dbe23a6e0c04",
-  "started_at": "2026-11-04T07:59:58.695114Z",
-  "receipt_started_at": "2026-11-04T08:02:08.650Z",
-  "completed_at": "2026-11-04T08:05:19.894Z",
-  "checked_at": "2026-11-04T08:05:19.894Z",
+  "source_head": "b3a68d61606f69ba77c92cdedd90f7ff036a494d",
+  "lease_commit": "5625d1814918b4bdb32630a5087b1a702d9f624b",
+  "started_at": "2026-11-04T08:58:39.597949Z",
+  "receipt_started_at": "2026-11-04T09:00:59.187Z",
+  "completed_at": null,
+  "checked_at": "2026-11-04T09:00:59.187Z",
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "status_counts": {
-      "success": 598,
-      "init": 6,
-      "fail": 23
-    },
-    "scope": "all 14 boards, every physical video-task page"
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null,
+    "status_counts": null,
+    "scope": "not yet verified"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": null,
+    "free": null,
     "complete_scan_required": true,
-    "complete_scan_verified": true
+    "complete_scan_verified": false
   },
   "board": {
     "id": "1a6244cf1ae747ef847d949a80d6133c",
     "name": "My First Board",
     "verified_from_projects_json": true
   },
-  "active_tasks": [
-    {
-      "item_id": "S56-SEED20-P2",
-      "task_id": "be960f5e3bf54563aff663fed9da8906",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-11-03 15:14:23"
-    },
-    {
-      "item_id": "S48-SEED20-P2",
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-11-02 10:18:20"
-    },
-    {
-      "item_id": "S71-WAN30",
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "board": "My First Board",
-      "status": "init",
-      "model": "qwen-wan3.0-video",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-11-01 08:29:13"
-    },
-    {
-      "item_id": "S72-WAN30",
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "board": "My First Board",
-      "status": "init",
-      "model": "qwen-wan3.0-video",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-10-31 11:08:48"
-    },
-    {
-      "item_id": "S61-SEED20-P1",
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-10-30 15:37:37"
-    },
-    {
-      "item_id": "S60-SEED20-P1",
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-10-29 23:20:18"
-    }
-  ],
+  "active_tasks": [],
   "queue_reconciliation": {
-    "complete": true,
-    "queue_items": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 29,
-      "submitted": 12,
-      "blocked_inputs": 21
-    },
-    "submitted_task_ids": 12,
-    "submitted_task_ids_found": 12,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "1d7580a2d0789bb8ad9825b7cb52250bdfcdcc62935260f56e7d88da952d614a",
-    "readiness_hashes_match": true,
-    "next_ready": {
-      "item_id": "S63-WAN30",
-      "priority": 0.8,
-      "reserved": false
-    }
+    "complete": false
   },
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "actual_last_run_id": "31f33f74-2e10-8329-8944-41d9f804be8a",
-    "actual_last_run_status": "in_progress",
-    "actual_latest_result_run_id": "daa24760-2704-8332-854f-3528fa20eea7",
-    "receipt_run_id": "daa24760-2704-8332-854f-3528fa20eea7",
-    "receipt_phase": "finished",
-    "current_cycle_reconciled": false,
-    "match": false,
-    "reason": "ordinary current run remains in_progress; latest_result and receipt are from previous run"
+    "actual_last_run_status": "completed",
+    "actual_latest_result_run_id": "31f33f74-2e10-8329-8944-41d9f804be8a",
+    "receipt_run_id": "31f33f74-2e10-8329-8944-41d9f804be8a",
+    "current_cycle_reconciled": true
   },
   "phases": {
     "phase_a_due": false,
@@ -165,31 +59,17 @@
   "new_submissions": [],
   "topview_credits_spent": 0,
   "blocker": null,
-  "retryable": true,
+  "retryable": null,
   "work_recovery": {
     "checked": true,
     "fresh_owner_confirmation": false,
     "real_work_runtime": true,
     "gui_quota_current_cycle_verified": false,
-    "preferred_executor": "work",
-    "route_generation_changed": false
+    "preferred_executor_unchanged": true
   },
   "lease": {
-    "holder": "chatgpt:work:ff536350-5f97-4a94-9f5a-297c30b43545",
-    "acquired_at": "2026-11-04T08:01:36.228Z",
-    "expires_at": "2026-11-04T08:31:36.228Z"
-  },
-  "relay": {
-    "events": 0,
-    "cursor": null,
-    "polling_active": false,
-    "subscription_active": true,
-    "live_delivery": "unverified"
-  },
-  "owner_tasks": {
-    "open": 0,
-    "taken_by_other": 0
-  },
-  "outcome": "no_free_slot",
-  "monitor_role": "not_checked: scripts/monitor_role.py absent in local scratch; robot heartbeat not imitated"
+    "holder": "chatgpt:work:f538088f-6340-4eaa-9be3-5b76d6f17a6c",
+    "acquired_at": "2026-11-04T08:59:47.371Z",
+    "expires_at": "2026-11-04T09:29:47.371Z"
+  }
 }
