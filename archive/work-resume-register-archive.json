@@ -979,6 +979,14 @@
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "completed": [
+        "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
+        "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
+        "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted."
+      ]
+    },
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "completed": [
         "00:55 MSK cycle 4 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Current ordinary run is in_progress while its latest_result/receipt remain the older run, so current execution was not inferred; Relay had no events; phases A/B/C were not due.",
         "23:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
         "22:55 MSK cycle 3 Nov: complete 14-board/18-video-page scan found 1011 total tasks, 627 video tasks and 6/6 active Unlimited0 on My First Board; all 14 submitted task IDs reconciled, no live claim/unknown, no Create/retry/browser preflight and 0 credits. Ordinary run/result/receipt IDs matched; Relay recovery had no events; phases A/B/C were not due.",
