@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-11-04T18:00:28Z",
+  "synced_at": "2026-11-04T18:08:05Z",
   "revision_date": "03.11.2026",
   "master_declared_last_full_sync": "03.11.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "c05b0cdab14610e816ae213db5c60376e1b5c24f74d4f7bfe55c08a2759ee8f2",
@@ -120,21 +120,21 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-04T10:57:21.335Z",
+    "snapshot_at": "2026-11-04T18:08:03.379Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 7.052,
+    "age_hours_at_status_build": 0.0,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "5c4f3e738ba0a581b3a2aff387e60eadb1e1515368167c175fbb09ce483bf903",
         "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
         "drive_copy_modified_at": "2026-11-04T10:56:57.611Z",
-        "github_blob": "34daae0a66c01d50436a4fb84e77f0f90f2a6560",
-        "mirror_sha256": "5c4f3e738ba0a581b3a2aff387e60eadb1e1515368167c175fbb09ce483bf903",
+        "github_blob": "13cb887556a9219c50764e3d96c1b697ca73fb76",
+        "mirror_sha256": "ab2d6a795e9284aac211121af48b5d74294f7db938e5659eabece0e8543a2947",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -202,7 +202,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 7.052,
+      "age_hours": 0.0,
       "blocking": false
     },
     "topview_task_map": {
@@ -861,7 +861,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "03.11.2026",
-    "synced_at": "2026-11-04T18:00:28Z",
+    "synced_at": "2026-11-04T18:08:05Z",
     "canonical_master_sha256": "c05b0cdab14610e816ae213db5c60376e1b5c24f74d4f7bfe55c08a2759ee8f2",
     "canonical_revision_sha256": "41fd4d15b2bef4b873111db575de39b76a4ce063666623fcd4c85ec51cd6935f",
     "scene_count": 29,
