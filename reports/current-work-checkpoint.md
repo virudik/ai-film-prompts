@@ -1,15 +1,15 @@
-# 04.11.2026 — цикл 07:55 МСК: Topview 6/6, без материальных изменений
+# 04.11.2026 — цикл 08:55 МСК: Topview 6/6, без материальных изменений
 
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
 
-- Work runtime `405b1902-2830-8326-b2c6-fe29fd6ba66f`; execution_instance_id `4e5b9605-7db1-4df3-9975-5e7ddf36c22b`; route_generation 3.
+- Work runtime `bc1c1fa5-b298-8331-bf54-e61cc05a83fb`; execution_instance_id `88161e3c-9476-45a3-81ab-3125ae55731a`; route_generation 3.
 - Полный fresh scan: 14 досок, 18 видеостраниц, 627 видео; success 598, init 6, fail 23. Все 6/6 слотов заняты прежними Unlimited0-задачами на My First Board.
-- Все 12 live submitted task IDs найдены; claimed/submitting/submission_unknown: 0. Queue SHA `66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046`, task-map SHA `58d624d0315735f0b134e26800bec1428683b600e4e4b8cba2f1ba5da33e2569`; readiness совпадает. Следующий ready — `S63-WAN30` priority 0.8, слот не резервируется.
-- Ordinary last_run/latest_result/finished receipt совпадают: `8bdc942f-ed44-8325-baba-0fb7ea43ddfa`.
-- Owner tasks chatgpt/any: 0 open; Relay events: 0, подписка active, live delivery unverified. Фазы A/B/C в 07:55 МСК не плановые.
+- Все 12 live submitted task IDs найдены; claimed/submitting/submission_unknown: 0. Queue SHA `66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046`, task-map SHA `3334a556edb7dada5832ac372539fe1257f7e987ddd8d633a2aeebb8ec4da298`; readiness совпадает. Следующий ready — `S63-WAN30` priority 0.8, слот не резервируется.
+- Ordinary last_run/latest_result/finished receipt совпадают: `eb6c9c6f-0910-8330-b6ad-3ca0f353a40d`.
+- Owner tasks chatgpt/any: 0 open; Relay events: 0, подписка active, live delivery unverified. Фазы A/B/C в 08:55 МСК не плановые.
 - Create/retry/credits: 0. Fresh GUI/quota Work в этом цикле не проверялись.
 
-checked_at: 2026-11-04T04:57:40.213Z
+checked_at: 2026-11-04T05:55:35.068Z
 
 # 04.11.2026 — цикл 04:55 МСК: Topview 6/6, без материальных изменений
 
