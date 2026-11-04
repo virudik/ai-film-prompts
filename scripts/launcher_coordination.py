@@ -132,7 +132,14 @@ def check_grok_policy(config, item, actor, now, queue_board_id=None):
         first_minute, last_minute = int(window['first_minute']), int(window['last_minute'])
     except (KeyError, TypeError, ValueError) as error:
         raise Blocked('grok_launch_window_invalid') from error
-    if actor.get('kind') == 'owner_command':
+    wake = actor.get('wake_issue')
+    if wake is not None and (type(wake) is not int or wake < 1):
+        raise Blocked('grok_wake_issue_invalid')
+    if wake is not None:
+        # Free-slot wake (topview-slot-wake issue): launch immediately, no :10-:40 window
+        # (owner 04.11.2026 23:29 MSK, t278u). Lock, claim, intent, board, Unlimited0, ledger stay mandatory.
+        pass
+    elif actor.get('kind') == 'owner_command':
         # Owner-command launches bypass the :10-:40 window (the owner asked for it now), but never the lock,
         # claim/intent, board, Unlimited0 or per-run limits checked below and in prepare_intent.
         if (policy.get('owner_command_launch') or {}).get('bypass_launch_window') is not True:
@@ -219,7 +226,10 @@ def prepare_intent(config, lock, item, actor, scan, now, queue_board_id=None, le
         out['claim']['provider_run_key'] = run_identity[0]
         out['claim']['owner_event_keys'] = run_identity[1]
         out['claim']['ledger_path'] = run_ledger.PATH
-    if actor['surface'] == 'grok' and actor.get('kind') == 'owner_command':
+    if actor['surface'] == 'grok' and actor.get('wake_issue') is not None:
+        out['claim']['trigger'] = 'wake'
+        out['claim']['wake_issue'] = actor['wake_issue']
+    elif actor['surface'] == 'grok' and actor.get('kind') == 'owner_command':
         command = actor['owner_command']
         out['claim']['trigger'] = 'owner_command'
         out['claim']['owner_command'] = {k: command.get(k) for k in ('quote', 'source', 'at', 'chat_id') if command.get(k) is not None}
@@ -311,6 +321,7 @@ def main():
     ap.add_argument('--evidence', type=Path)
     ap.add_argument('--item-id')
     ap.add_argument('--owner-command')
+    ap.add_argument('--wake-issue', type=int, help='grok free-slot wake issue number: skip the :10-:40 window only')
     ap.add_argument('--write', action='store_true', help='Write local files only; caller must CAS-publish and read back')
     args = ap.parse_args()
     now = datetime.now(timezone.utc)
@@ -319,6 +330,8 @@ def main():
         if args.action == 'status':
             print(json.dumps(cfg, ensure_ascii=False, indent=2)); return 0
         actor = read(args.actor) if args.actor else {}
+        if args.wake_issue is not None:
+            actor['wake_issue'] = args.wake_issue
         lock = read(args.root / LOCK)
         path = None
         if args.action == 'check':

@@ -308,6 +308,21 @@ class GrokHelperTests(unittest.TestCase):
                     lc.prepare_intent(self.cfg, dict(self.lock, acquired_at=lc.stamp(now-timedelta(minutes=1)), expires_at=lc.stamp(now+timedelta(minutes=5))),
                                       self.item, dict(self.actor, lease_acquired_at=lc.stamp(now-timedelta(minutes=1))),
                                       dict(self.scan, checked_at=lc.stamp(now)), now)
+    def test_wake_issue_bypasses_window_and_is_recorded(self):
+        for minute in (0, 50, 59):
+            now = datetime(2026, 11, 1, 10, minute, tzinfo=timezone.utc)
+            lock = dict(self.lock, acquired_at=lc.stamp(now-timedelta(minutes=1)), expires_at=lc.stamp(now+timedelta(minutes=5)))
+            actor = dict(self.actor, lease_acquired_at=lc.stamp(now-timedelta(minutes=1)))
+            scan = dict(self.scan, checked_at=lc.stamp(now))
+            with self.subTest(minute=minute):
+                out = lc.prepare_intent(self.cfg, lock, self.item, dict(actor, wake_issue=123), scan, now)
+                self.assertEqual((out['state'], out['claim']['trigger'], out['claim']['wake_issue']), ('submitting', 'wake', 123))
+                for bad in (0, '123', True):
+                    with self.assertRaises(lc.Blocked): lc.prepare_intent(self.cfg, lock, self.item, dict(actor, wake_issue=bad), scan, now)
+                with self.assertRaises(lc.Blocked):
+                    lc.prepare_intent(self.cfg, dict(lock, state='free'), self.item, dict(actor, wake_issue=123), scan, now)
+                with self.assertRaises(lc.Blocked):
+                    lc.prepare_intent(self.cfg, lock, dict(self.item, board_id='other'), dict(actor, wake_issue=123), scan, now)
     def test_owner_command_window_bypass_is_config_controlled(self):
         now = datetime(2026, 11, 1, 10, 50, tzinfo=timezone.utc)
         with self.assertRaises(lc.Blocked): self.owner_intent(now=now, cfg=self.owner_cfg(bypass_launch_window=False))
