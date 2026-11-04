@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:5c5521bc-cfcf-4691-9077-172808913e9e",
-  "task": "TOPVIEW-SLOT-PRIORITY-20261024 / ordinary scheduled hourly read-only status receipt",
-  "acquired_at": "2026-11-04T05:09:18.238Z",
-  "expires_at": "2026-11-04T05:21:18.238Z",
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
   "rules": "ops/CANON-LOCK.md",
-  "last_released_by": "chatgpt:work:4e5b9605-7db1-4df3-9975-5e7ddf36c22b",
-  "last_released_at": "2026-11-04T04:58:50.467Z",
-  "released_at": null
+  "last_released_by": "chatgpt:ordinary:5c5521bc-cfcf-4691-9077-172808913e9e",
+  "last_released_at": "2026-11-04T05:14:19.344Z",
+  "released_at": "2026-11-04T05:14:19.344Z"
 }

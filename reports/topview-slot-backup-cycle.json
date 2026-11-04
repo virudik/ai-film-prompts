@@ -11,8 +11,8 @@
   "source_head": "c16445a5937d8b7f7bbd9177d554929d90f1ec63",
   "lease_commit": "260db50af9e4b64cb8beb92b894b2151722cac00",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "scan_complete_wait_final_receipt",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector direct read-only; all 14 boards and 18 pages",
   "scan_complete": true,
   "occupied_slots": 6,
@@ -41,7 +41,7 @@
     "acquired_at": "2026-11-04T05:09:18.238Z",
     "expires_at": "2026-11-04T05:21:18.238Z"
   },
-  "updated_at": "2026-11-04T05:10:16.066Z",
+  "updated_at": "2026-11-04T05:14:19.344Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -102,5 +102,56 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
-  }
+  },
+  "result": "no_update",
+  "scan_scope": "14 Topview boards, all 18 pages, video and image tasks, direct read-only connector",
+  "scan_checked_at": "2026-11-04T05:14:19.344Z",
+  "scan": {
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "total_tasks": 1011,
+    "video_tasks_scanned": 627,
+    "image_tasks_scanned": 384,
+    "global_status_counts": {
+      "success": 966,
+      "fail": 39,
+      "init": 6
+    },
+    "active_videos": 6,
+    "scope": "All board/pages direct read-only; all 12 queue submitted task IDs independently confirmed"
+  },
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
+  },
+  "dedup": {
+    "queue_submitted_task_ids_confirmed": 12,
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "active_task_ids_all_verified": true
+  },
+  "queue_integrity": {
+    "source_queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "source_task_map_sha256": "58d624d0315735f0b134e26800bec1428683b600e4e4b8cba2f1ba5da33e2569",
+    "both_match_readiness": true
+  },
+  "next_ready_item": "S63-WAN30",
+  "next_ready_priority": 0.8,
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "preferred_executor_from_registry": "work",
+  "lease_release_pending": false,
+  "lease_release_attempts": 1,
+  "lease_release_blocker": null,
+  "lease_release_reason": "same atomic CAS as receipt",
+  "lease_release_checked_at": "2026-11-04T05:14:19.344Z",
+  "completed_at": "2026-11-04T05:14:19.344Z",
+  "checked_at": "2026-11-04T05:14:19.344Z",
+  "note": "No Create and no TinyFish with 6/6 occupied. No paid action, new task, schedule or role change."
 }
