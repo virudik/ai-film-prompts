@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
+  "project": "roscosmos",
   "state": "held",
-  "holder": "chatgpt:work:efad9c72-9fbe-4420-b9dc-a8a32016fcf9",
-  "task": "Продолжение Терра Тех 26–30: опубликовать подготовленные изображения и промты",
-  "acquired_at": "2026-11-04T13:05:38.100Z",
-  "expires_at": "2026-11-04T13:40:38.100Z",
+  "holder": "chatgpt:work:eb3be3dd-ba16-45da-8875-b6dadcfb1248",
+  "task": "Восстановить пять PNG из shared chat и завершить Терра Тех 26–30",
+  "acquired_at": "2026-11-04T22:35:16.624Z",
+  "expires_at": "2026-11-04T23:20:16.624Z",
   "released_at": null,
-  "rules": "ops/CANON-LOCK.md",
-  "project": "roscosmos"
+  "rules": "ops/CANON-LOCK.md"
 }
