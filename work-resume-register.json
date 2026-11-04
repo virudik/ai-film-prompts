@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-04T02:53:55.652Z",
+  "last_updated_at": "2026-11-04T03:56:47.675Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-04T02:53:55.652Z",
+      "updated_at": "2026-11-04T03:56:47.675Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
@@ -111,7 +111,7 @@
         "result": "No current failure. Three new project messages were resolved/superseded signals; Gmail state unchanged."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-04T02:53:55.652Z",
+        "checked_at": "2026-11-04T03:56:47.675Z",
         "complete": true,
         "boards": 14,
         "pages": 18,
@@ -132,7 +132,7 @@
           "025955aad2cf494da2b4104d26c36ed5"
         ],
         "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-        "task_map_sha256": "d869fa719cdd36954575ef4bf760fd62d68e49cb10d5b238663b6ba52ff9e523",
+        "task_map_sha256": "89eb83874294b0034e9073bf06925e6827bfabfbc26d670f0940e73b4e593824",
         "readiness_hashes_match": true
       },
       "last_relay_event": {
@@ -197,8 +197,8 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-04T02:53:55.652Z",
-        "last_completed": "05:55 MSK: complete Topview scan 6/6, 627 videos; all 12 submitted IDs found, no unresolved claims, no Create/retry/spend. Queue/readiness hashes match. Ordinary finished receipt matches current completed run; latest_result is absent.",
+        "verified_at": "2026-11-04T03:56:47.675Z",
+        "last_completed": "06:55 MSK: complete Topview scan 6/6, 627 videos; all 12 submitted IDs found, no unresolved claims, no Create/retry/spend. Queue/readiness hashes match. Ordinary last_run/latest_result/finished receipt match.",
         "next_action": "При следующем настоящем освобождении слота: fresh main, owner decisions, полный all-board scan и сверка claims/task IDs; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 не повторять.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
@@ -470,14 +470,14 @@
         "result": "No free slot; no generation or material change."
       },
       "last_peer_reconciliation": {
-        "checked_at": "2026-11-04T02:53:55.652Z",
-        "ordinary_last_run_id": "fa2352c9-d488-8323-988f-7c5625c8e06b",
-        "ordinary_latest_result_run_id": null,
-        "ordinary_receipt_run_id": "fa2352c9-d488-8323-988f-7c5625c8e06b",
+        "checked_at": "2026-11-04T03:56:47.675Z",
+        "ordinary_last_run_id": "abbeb757-81a8-832e-bde9-6964bd3f33aa",
+        "ordinary_latest_result_run_id": "abbeb757-81a8-832e-bde9-6964bd3f33aa",
+        "ordinary_receipt_run_id": "abbeb757-81a8-832e-bde9-6964bd3f33aa",
         "ordinary_receipt_phase": "finished",
         "receipt_matches_current_run": true,
         "receipt_finished": true,
-        "conclusion": "ordinary last_run completed and canonical finished receipt matches; latest_result not exposed"
+        "conclusion": "ordinary last_run, latest_result and canonical finished receipt match; its stale expired lease was not released by this executor"
       }
     },
     {
