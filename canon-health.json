@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-04T16:00:25Z",
+  "checked_at": "2026-11-04T18:07:44Z",
   "status": "warn",
   "warnings": 1,
   "info": 9,
@@ -8,8 +8,8 @@
   "problems": [
     {
       "level": "warn",
-      "code": "handoff-now-stale",
-      "text": "Верхний блок хендофа от 01.11.2026: старше 3 дней, проверить, что «Сейчас» ещё правда.",
+      "code": "handoff-size",
+      "text": "Хендоф 35 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
       "file": "NEW-CHAT-HANDOFF.md"
     },
     {
