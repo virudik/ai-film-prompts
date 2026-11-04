@@ -356,11 +356,11 @@
     }
   },
   "launcher_health": {
-    "state": "awaiting_execution",
-    "unresolved": false,
+    "state": "reconciliation_required",
+    "unresolved": true,
     "episode": "93f4be2d",
     "unresolved_since": "2026-11-04T19:50:42Z",
-    "reason": "within_initial_execution_window",
+    "reason": "saved_claim_or_unknown_submission; no_repeat_Create",
     "free_slots_global": 1,
     "actionable_items": [
       "S49A",
@@ -387,7 +387,6 @@
       "S28-A11-20261023",
       "S59-SEED20-P3",
       "S60-SEED20-P2",
-      "S63-WAN30",
       "S28-A1-R2-20261025",
       "S28-A2-R2-20261025",
       "S52-R2-SEED20-P2",
@@ -396,17 +395,19 @@
       "S51G",
       "S28-A13-20261030"
     ],
-    "reconciliation_items": [],
-    "last_event_id": "slots:92dc9e3a:8",
-    "receipt_present": true,
-    "handler_outcome": "no_update",
-    "execution_stage": "finalized",
-    "execution_updated_at": "2026-11-03T15:16:24.982Z",
+    "reconciliation_items": [
+      "S63-WAN30"
+    ],
+    "last_event_id": "result:025955aad2cf494da2b4104d26c36ed5",
+    "receipt_present": false,
+    "handler_outcome": null,
+    "execution_stage": null,
+    "execution_updated_at": null,
     "runtime_run_id": null,
     "confirmed_launch_task_ids": [],
     "last_confirmed_event_id": null,
     "last_confirmed_launch_task_ids": [],
     "escalation_attempted_episode": "92dc9e3a",
-    "checked_at": "2026-11-04T19:50:42Z"
+    "checked_at": "2026-11-04T20:00:24Z"
   }
 }
