@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-04T21:27:43.450Z",
   "source_head": "90ede9f94eb327010c6b420847e0e0ebc2d61092",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_completed_no_free_slot",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -35,7 +35,7 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "scan_source": "Topview connector",
-  "scan_checked_at": "2026-11-04T21:27:43.450Z",
+  "scan_checked_at": "2026-11-04T21:29:02.214Z",
   "scan_scope": "14 boards / 18 video pages / 628 video tasks",
   "scan_validation": {
     "boards": 14,
@@ -62,13 +62,16 @@
     "next_ready_item": "S64-WAN30",
     "priority": 0.9,
     "submitted_queue_tasks_reconciled": 13,
-    "pending_claims": 0
+    "pending_claims": 0,
+    "source_queue_updated_at": "2026-11-04T20:13:36Z"
   },
   "lease": {
     "holder": "chatgpt:ordinary:7fdb28bc-1907-4aed-a1c6-baea350f739f",
     "acquired_at": "2026-11-04T21:26:54.509Z",
     "expires_at": "2026-11-04T21:34:54.509Z",
-    "lease_commit": "b4b694e8d4ef3a5dd9ef38bbc2f81442dbebba07"
+    "lease_commit": "b4b694e8d4ef3a5dd9ef38bbc2f81442dbebba07",
+    "final_action": "exact_release_in_same_CAS_commit",
+    "released_at": "2026-11-04T21:29:37.290Z"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
@@ -77,6 +80,13 @@
     "tinyfish_browser_transport_verified_in_this_run": false,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited0_verified_for_create": false,
-    "topview_task_id_verified_for_new_create": false
-  }
+    "topview_task_id_verified_for_new_create": false,
+    "topview_submit_verified_this_run": false,
+    "tinyfish_transport_used": false,
+    "new_topview_task_id_verified": false
+  },
+  "checked_at": "2026-11-04T21:29:37.290Z",
+  "scan_started_at": "2026-11-04T21:28:56.781Z",
+  "finished_at": "2026-11-04T21:29:37.290Z",
+  "notes": "Full read-only scan (14 boards/18 pages, 628 video tasks), 13 submitted items reconciled. All six physical slots occupied by init Unlimited0 tasks. Grok S63 task 365cf639589a4a5da834d70193d5e8f6 confirmed; next independent ready item S64-WAN30 (0.9). No new browser run or Create; checkpoint/register unchanged on no-op."
 }
