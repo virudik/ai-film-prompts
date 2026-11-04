@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
+  "state": "held",
+  "holder": "chatgpt:ordinary:ed277e3f-4664-4ee9-9bab-c42e70d038c9",
+  "task": "Серёгиус: ordinary hourly read-only full scan 6/6 and canonical cycle receipt",
+  "acquired_at": "2026-11-04T13:04:25.767Z",
+  "expires_at": "2026-11-04T13:16:25.767Z",
   "rules": "ops/CANON-LOCK.md",
   "last_released_by": "chatgpt:work:efad9c72-9fbe-4420-b9dc-a8a32016fcf9",
   "last_released_at": "2026-11-04T13:01:39.395Z",
-  "released_at": "2026-11-04T13:01:39.395Z"
+  "released_at": null
 }
