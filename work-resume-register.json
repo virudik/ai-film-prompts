@@ -1,18 +1,15 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-04T16:58:40.524Z",
+  "last_updated_at": "2026-11-04T18:12:30Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-04T16:58:40.524Z",
+      "updated_at": "2026-11-04T18:12:30Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
-        "20:55 MSK check: full 13-board/17-page scan and live UI confirmed 6/6 occupied. Escalated canon-health queue-size warning fixed by archival trim; queue 411538→396075 bytes, canon-health ok/0 warnings, 348 tests and validators passed. Six new GitHub notification messages mapped to five warning runs and resolved; no old-run rerun.",
-        "09:55 MSK check 28 Oct: complete read-only 13-board/17-page scan found 615 video tasks and 6/6 active. Relay had filled the newly free slot with one verified Unlimited0 S52-R2-P1 task c65c30d8cbe14e9eadec886276e62471; this cycle did not repeat Create. Canon queue 401806→395432 bytes by verbatim archival of 13 historical metadata snapshots; live items/dependencies unchanged. Canon-health ok/0 warnings, 348 tests and validators passed; ten new GitHub failure notifications diagnosed without reruns.",
-        "10:55 MSK check 28 Oct: two complete read-only 13-board/17-page scans confirmed615 video tasks and6/6 active, so no Create. Downloaded the original S28-A1 task4b7b972870a44dfbb29bd6c5e330a633 and matched its 11722153-byte SHA with the private Drive archive. Visual QC sampled4fps plus full-resolution key/final frames; audio stream measured but not listened. Identity/end handoff are stable, with a material amplitude drop around8.0–10.7s; assessment partially_usable_not_owner_approved. Existing owner-authorized S28-A1-R2 duplicate-prevention gate cleared to waiting_for_slot; no retry was submitted.",
         "18:55 MSK cycle 28 Oct: fresh full scans found 615 video tasks with6/6 active and323 image tasks with0 active. S66-STITCH-NB-IMAGE-1 passed exact board/model/2K/16:9/qty1/three-input/prompt/Unlimited0 preflight and CAS claim. One website Create was rejected by Topview's Unlimit concurrent slot limit; Credit mode and second click were not used. Post-click board scan found no new task/taskID. Item is blocked_capacity with the one attempt consumed and no automatic retry.",
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
         "29Oct owner closed failed Stitch trials. S62 claim retained with scoped block; independent S59P2 b0915b04173c414e9ac08652d34b7852 confirmed Unlimited0 after cancelling own input-error submission. Full scan6/6 active; next ready S60P1.",
@@ -21,7 +18,8 @@
         "09:55 MSK check 30 Oct: full 14-board/20-page scan found 950 tasks and6/6 active Unlimited0 Seregius videos; no Create/claim/retry. Phase A healthy. Gmail failures1a189e6d06d84901/1a189f7380be8714 mapped to Canon health runs40970259803/40972410786, intentional warning notifications for queue 400/403 KB; existing cleanup plus subsequent successful runs verified current canon-health ok/0 warnings, no rerun.",
         "18:55 MSK cycle 30 Oct: complete 14-board/20-page scan found 951 tasks and6/6 active after Relay submitted S61-P1. No Create. S42-P2 success sampled at0/4/8/12/15s: critical duplicated Ilyusha-like identity replaces Artem and blue-saber deformation; no owner approval or auto-retry. Original archive/SHA blocked by Cloud/CDP filesystem isolation.",
         "01:55 MSK cycle 4 Nov: full 14-board/18-video-page scan confirmed 627 videos and 6/6 active Unlimited0; no Create/retry/credits. Closed self-heal canon-health task after standard archival cleanup (28 checkpoint sections, 14 register points, two terminal queue items with stubs), refreshed readiness, verified canon-health run 41735782935 success/warnings0, and reconciled all three automation prompts plus active Relay subscription without changing schedules/triggers.",
-        "02:55 MSK cycle 4 Nov: fresh complete 14-board/18-video-page scan found 627 videos and 6/6 active Unlimited0 on My First Board. All 12 live submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next independent ready S63-WAN30. Ordinary current runtime completed but its canonical receipt still has an older run ID. No Create/retry/credits; phases A/B/C not due."
+        "02:55 MSK cycle 4 Nov: fresh complete 14-board/18-video-page scan found 627 videos and 6/6 active Unlimited0 on My First Board. All 12 live submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next independent ready S63-WAN30. Ordinary current runtime completed but its canonical receipt still has an older run ID. No Create/retry/credits; phases A/B/C not due.",
+        "20:55 MSK cycle 4 Nov: full 14-board/18-page scan confirmed 627 videos and 6/6 active Unlimited0; no Create/retry/credits. Phase A cleaned stale/oversized handoff with verbatim archive, 35143→34212 bytes; canon-health run 41884294876 success/status ok. Phase B mapped new Canon health mail run 41826591451 to the cleaned warning and later success; no blind rerun. Three automations and active Relay subscription checked; schedules/triggers unchanged."
       ],
       "next_action": "При следующем настоящем освобождении слота: fresh main, owner decisions, полный all-board scan и сверка claims/task IDs; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 не повторять.",
       "canonical_refs": [
@@ -35,105 +33,87 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-11-04T12:05:56.882Z",
-        "cycle": "14:55 Europe/Moscow",
+        "checked_at": "2026-11-04T18:12:30Z",
+        "cycle": "20:55 Europe/Moscow",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "claude_open_over_3h": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-11-04T11:55:43Z",
+          "synced_at": "2026-11-04T18:10:09Z",
           "fresh_under_40_minutes": true,
           "instruction_health": "ok"
         },
         "canon_health": {
           "status": "ok",
-          "checked_at": "2026-11-03T23:02:39Z",
+          "checked_at": "2026-11-04T18:10:32Z",
           "warnings": 0,
-          "info": 8
+          "info": 9,
+          "cleanup": {
+            "handoff_bytes_before": 35143,
+            "handoff_bytes_after": 34212,
+            "archive_commits": [
+              "f0f2bf1a7bd0e8822b00f8b7140e94b8564fe179",
+              "ed8374a7772cd948abb9e1b184cd792d9a4dfbac"
+            ],
+            "handoff_commits": [
+              "f4291b33407a5bb40d261b625ddd3e53a1fb2294",
+              "899635aedad9761203427be12e9017530cb85c5d"
+            ],
+            "recertify_commit": "9db8ccc19e831638b40f537a6fe8ef05dbd12bb6"
+          }
         },
-        "gmail_query": "from:notifications@github.com \"ai-film-prompts\" after:2026/11/03 -in:spam -in:trash",
-        "gmail_results": 12,
+        "gmail_query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/03 -in:spam -in:trash",
+        "gmail_results": 13,
         "gmail_all_pages": true,
         "gmail_next_page_token": null,
         "gmail_state_unchanged": true,
-        "coverage_from": "2026-11-03T07:00:55.544Z",
+        "coverage_from": "2026-11-03T12:05:56.882Z",
         "overlap_hours": 24,
         "new_messages": [
           {
-            "message_id": "1a1a6025f625502e",
-            "header_message_id": "<virudik/ai-film-prompts/check-suites/CS_kwDOUdbzfM8AAAAaYPNfjQ/1793786514@github.com>",
-            "run_id": 41811289600,
-            "workflow": "Shadow pilot takeover brief (not canonical)",
-            "commit": "c849130036a2b4952412d6d75e90f33c05565e5f",
-            "classification": "resolved transient GitHub push/internal-server/concurrency failure; later shadow success"
-          },
-          {
-            "message_id": "1a1a60aa0b819845",
-            "header_message_id": "<virudik/ai-film-prompts/check-suites/CS_kwDOUdbzfM8AAAAaYRv4vA/1793787055@github.com>",
-            "run_id": 41812287925,
-            "workflow": "pages build and deployment",
-            "commit": "c92ca8aed714ccb8112651c81d78fd92928fa618",
-            "classification": "resolved transient GitHub Pages HTTP 500 deployment failure; later Pages success"
-          },
-          {
-            "message_id": "1a1a64a029aa95ed",
-            "header_message_id": "<virudik/ai-film-prompts/check-suites/CS_kwDOUdbzfM8AAAAaYkU3Sg/1793791209@github.com>",
-            "run_id": 41819648866,
-            "workflow": "pages build and deployment",
-            "commit": "ec7f7b1164db3c55519e9948f13dfb9dabd758dd",
-            "classification": "run/email failure anomaly: build and deploy jobs both succeeded; later Pages success"
+            "message_id": "1a1a675f88d3fe65",
+            "header_message_id": "<virudik/ai-film-prompts/check-suites/CS_kwDOUdbzfM8AAAAaY2dqAg/1793794090@github.com>",
+            "run_id": 41826591451,
+            "workflow": "Canon health (stale, oversized and broken canon parts)",
+            "commit": "d748b7ad75664788b8addf2dd159d61c65a27215",
+            "classification": "resolved by handoff cleanup; later canon-health run 41884294876 success/status ok"
           }
         ],
         "action_jobs_verified": {
-          "topview_robot": {
-            "run_id": 41825480123,
-            "conclusion": "success"
-          },
           "self_heal": {
-            "run_id": 41823992921,
+            "run_id": 41880725693,
             "conclusion": "success"
           },
           "canon_health_current": {
-            "run_id": 41825385186,
+            "run_id": 41884294876,
             "conclusion": "success"
           },
           "canonical_sync": {
-            "run_id": 41825776088,
-            "conclusion": "success"
-          },
-          "pages": {
-            "run_id": 41825557517,
+            "run_id": 41884294599,
             "conclusion": "success"
           },
           "shadow_brief": {
-            "run_id": 41825939182,
+            "run_id": 41884294663,
             "conclusion": "success"
           },
-          "notified_failures": {
-            "run_ids": [
-              41811289600,
-              41812287925,
-              41819648866
-            ],
-            "diagnoses": [
-              "GitHub push/internal-server/concurrency transient",
-              "GitHub Pages HTTP 500 transient",
-              "email/run conclusion anomaly with successful build and deploy jobs"
-            ]
+          "integration_first": {
+            "run_id": 41884294540,
+            "conclusion": "failure_pre_recertification_instruction_mirror",
+            "followup": "pending_after_checkpoint"
           }
         },
         "current_verification": {
           "current_failure": false,
-          "repair_performed": false,
+          "repair_performed": true,
           "blind_rerun_performed": false
         },
         "monitor_role": "not_checked: local checkout unavailable; robot heartbeat not imitated",
-        "result": "No current failure. Three new notification signals were mapped to exact runs/commits/logs and verified as transient or reporting anomalies with later successful runs. Gmail state unchanged."
+        "result": "Canon-health warning fixed and current status ok; one new email signal mapped to exact run/log and resolved without blind rerun."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-04T16:58:40.524Z",
+        "checked_at": "2026-11-04T18:04:00Z",
         "complete": true,
         "boards": 14,
         "pages": 18,
@@ -154,7 +134,7 @@
           "025955aad2cf494da2b4104d26c36ed5"
         ],
         "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-        "task_map_sha256": "bccd5cf93e9e01097d5dd0180edf97b6d5ab1d07187e0f4e3293649854bd072d",
+        "task_map_sha256": "1e21786d66ce47fba05748e6731d25176a91cdd8fec4ec04e2d9dabd46a0d3ea",
         "readiness_hashes_match": true,
         "submitted_task_ids_verified": 12,
         "unknown_submissions": 0
@@ -258,7 +238,7 @@
           "chatgpt-scheduled-event-evt_26a0e02e0be02399ac91697391946e83-s62p1"
         ]
       },
-      "completed_archived_points": 22,
+      "completed_archived_points": 25,
       "completed_archive": "archive/work-resume-register-archive.json",
       "last_canon_cleanup": {
         "checked_at": "2026-10-29T07:07:04.001Z",
