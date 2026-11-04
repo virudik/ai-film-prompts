@@ -8,13 +8,13 @@
   "scheduled_for": "2026-11-04T10:00:00Z",
   "started_at": "2026-11-04T09:59:09.375226Z",
   "receipt_started_at": "2026-11-04T10:09:12.153Z",
-  "source_head": "37cb01e3d251e536c44e80603942c4b3fdbe0268",
+  "source_head": "b48e532e91e9bba272feed6b16f5ec8ae5018831",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
-  "scan_source": "Topview connector direct read-only scan all boards and pages",
-  "scan_scope": "14 boards / 18 page requests / all 627 video tasks",
-  "scan_checked_at": "2026-11-04T10:03:31.890Z",
+  "phase": "finished",
+  "stage": "finalized",
+  "scan_source": "Topview connector direct complete read-only account enumeration",
+  "scan_scope": "14 boards / 18 pages / 627 distinct video tasks",
+  "scan_checked_at": "2026-11-04T10:11:38.695Z",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -28,7 +28,7 @@
     "025955aad2cf494da2b4104d26c36ed5"
   ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -42,7 +42,7 @@
     "acquired_at": "2026-11-04T10:07:49.010Z",
     "expires_at": "2026-11-04T10:19:49.010Z"
   },
-  "updated_at": "2026-11-04T10:09:12.153Z",
+  "updated_at": "2026-11-04T10:14:17.586Z",
   "acceptance": {
     "hourly_runtime_verified": true,
     "tinyfish_saved_login_historical": true,
@@ -103,5 +103,22 @@
       }
     },
     "retained_reason": "Previous execution remained at started; not represented as our completed run"
+  },
+  "finished_at": "2026-11-04T10:14:17.586Z",
+  "scan_validation": {
+    "total_video_tasks": 627,
+    "distinct_ids": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "active_board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "submitted_queue_tasks_reconciled": 12,
+    "pending_claims": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "1ec6a527143fbd93fadfad572705ada128bfeb627a2372ae5aff211c416d5734",
+    "next_ready_item": "S63-WAN30",
+    "priority": 0.8
   }
 }
