@@ -8,7 +8,7 @@ work_id: TOPVIEW-SLOT-PRIORITY-20261024
 - Ordinary actual last_run/latest_result/finished receipt совпадают: `4e0946b6-583c-8326-8918-04e9a4b29f2a`. Owner tasks open: 0; Relay events: 0. Фазы A/B/C в 16:55 МСК не плановые.
 - Create/retry/credits: 0. Fresh GUI/quota Work в этом цикле не проверялись; preferred_executor=work и route_generation=3 не менялись. `monitor_role.py` not_checked: локальный checkout отсутствует.
 
-checked_at: 2026-11-04T14:07:10Z
+checked_at: 2026-11-04T14:04:32Z
 
 # 04.11.2026, 16:13 МСК — приём Work и сверка очереди
 
