@@ -2,16 +2,16 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "4a951f0d-9424-4d5e-bfce-17c81520024f",
-  "run_id": null,
-  "run_id_source": "Actual runtime run ID not exposed by Automations.list for this execution; execution UUID is separate",
+  "execution_instance_id": "7fdb28bc-1907-4aed-a1c6-baea350f739f",
+  "run_id": "140dbc23-e6e8-8330-b08c-536f0656de8b",
+  "run_id_source": "Automations.peek last_run.id (current in_progress)",
   "scheduled_for": "2026-11-04T21:00:00Z",
-  "started_at": "2026-11-04T21:01:33Z",
-  "receipt_started_at": "2026-11-04T21:08:11.825Z",
-  "source_head": "da24e9e3f662f150f329ee6eae33823f07947412",
+  "started_at": "2026-11-04T21:20:49.641024Z",
+  "receipt_started_at": "2026-11-04T21:27:43.450Z",
+  "source_head": "90ede9f94eb327010c6b420847e0e0ebc2d61092",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
+  "phase": "started",
+  "stage": "read_only_scan_completed_no_free_slot",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -35,8 +35,8 @@
   "tinyfish_confirmed_charge_usd": 0,
   "topview_credits_spent": 0,
   "scan_source": "Topview connector",
-  "scan_checked_at": "2026-11-04T21:06:03.638Z",
-  "scan_scope": "14 boards / 18 video pages / 628 videos",
+  "scan_checked_at": "2026-11-04T21:27:43.450Z",
+  "scan_scope": "14 boards / 18 video pages / 628 video tasks",
   "scan_validation": {
     "boards": 14,
     "physical_video_pages": 18,
@@ -55,51 +55,28 @@
       "c72c1ab4524e4f2f9d3a0272474f788a"
     ],
     "active_unlimited0": 6,
-    "submitted_queue_tasks_reconciled": 13,
-    "pending_claims": 0,
     "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "8c0cf746a8e403bea089b6114f6e5301ef0ac72e304fc24074dddda4b305ec4b",
-    "readiness_hashes_match": "consistent with Work verified source SHA from 2026-11-04T20:59Z; no independent recomputation in this run",
-    "readiness_checked_at": "2026-11-04T20:20:23Z",
+    "task_map_sha256": "6f61cf5d9d4411be4565ef177dfcc8c1af9b43309d6c25ccb8824395ac42eff8",
+    "readiness_hashes_match": true,
+    "readiness_checked_at": "2026-11-04T21:10:24Z",
     "next_ready_item": "S64-WAN30",
     "priority": 0.9,
-    "submitted_queue_tasks_verified_by_readonly_get_task": 13
+    "submitted_queue_tasks_reconciled": 13,
+    "pending_claims": 0
   },
   "lease": {
-    "holder": "chatgpt:ordinary:4a951f0d-9424-4d5e-bfce-17c81520024f",
-    "acquired_at": "2026-11-04T21:07:26.152Z",
-    "expires_at": "2026-11-04T21:15:26.152Z",
-    "lease_commit": "fc3798a8133279a8d065387595f90b444a0e7d7",
-    "final_action": "release_via_separate_exact_CAS_immediately_after_final_receipt"
+    "holder": "chatgpt:ordinary:7fdb28bc-1907-4aed-a1c6-baea350f739f",
+    "acquired_at": "2026-11-04T21:26:54.509Z",
+    "expires_at": "2026-11-04T21:34:54.509Z",
+    "lease_commit": "b4b694e8d4ef3a5dd9ef38bbc2f81442dbebba07"
   },
   "acceptance": {
     "hourly_runtime_verified": true,
     "topview_readonly_scan_verified": true,
-    "topview_submitted_task_ids_verified": true,
-    "topview_unlimited0_active_tasks_verified": true,
-    "tinyfish_saved_login_historical": true,
-    "tinyfish_login_current_cycle_verified": false,
-    "tinyfish_ui_control_current_cycle_verified": false,
+    "topview_submission_by_this_run": false,
+    "tinyfish_browser_transport_verified_in_this_run": false,
     "tinyfish_file_upload_verified": false,
-    "tinyfish_unlimited_zero_verified": false,
-    "tinyfish_production_submission_verified": false
-  },
-  "updated_at": "2026-11-04T21:10:23.993Z",
-  "finished_at": "2026-11-04T21:10:23.993Z",
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "peer_reconciliation": {
-    "ordinary_scheduled_enabled": true,
-    "work_hh55_enabled": true,
-    "relay_enabled": true,
-    "grok_s63_task_id": "365cf639589a4a5da834d70193d5e8f6",
-    "grok_s63_submission_verified": true,
-    "wake_issue_latest": 327,
-    "wake_observed_at": "2026-11-04T19:50:36Z",
-    "wake_stale_vs_live_scan": true,
-    "work_latest_scan_completed_at": "2026-11-04T20:59:21.823Z"
-  },
-  "note": "05 Nov 2026 00:06 MSK fresh read-only complete 14-board/18-page Topview scan verified 628 video tasks, 6/6 active Unlimited0 cost0, 13/13 submitted task IDs. Fresh issue327 is historical wake not current capacity. No new Create, metered TinyFish, credits or owner-task mutations. Own exact lease acquired and final receipt saved before exact release; no route or schedule changes."
+    "tinyfish_unlimited0_verified_for_create": false,
+    "topview_task_id_verified_for_new_create": false
+  }
 }
