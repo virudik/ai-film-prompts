@@ -3,196 +3,48 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "result": "no_update",
-  "run_id": "2d7ea155-71cc-832d-965b-715ec660926a",
-  "runtime_run_id_source": "Automations.peek current last_run.id; latest_result not yet exposed at intake",
-  "execution_instance_id": "71d1df30-f202-4a07-82e9-39973271f932",
+  "phase": "started",
+  "status": "started",
+  "run_id": "78f6f47c-d634-8324-ab80-53e1497121ae",
+  "runtime_run_id_source": "Automations.peek current last_run.id; no latest_result yet",
+  "execution_instance_id": "06ab9425-80c3-4556-b91f-4a2ba2c6751a",
   "route_generation": 3,
-  "source_head": "77d7ed0fc90ab0306f66995e052ad5185c42cac7",
-  "started_at": "2026-11-04T01:56:32.768Z",
-  "completed_at": "2026-11-04T01:58:48.443Z",
-  "checked_at": "2026-11-04T01:58:48.443Z",
+  "source_head": "ac2dc363a0219a6b7aa8d58afccc4be458a6bd6f",
+  "started_at": "2026-11-04T02:52:25.548Z",
+  "checked_at": "2026-11-04T02:52:25.548Z",
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 627,
-    "status_counts": {
-      "success": 598,
-      "init": 6,
-      "fail": 23
-    },
-    "scope": "all boards, every physical video-task page"
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null
   },
-  "slots": {
-    "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_required": true,
-    "complete_scan_verified": true
-  },
-  "board": {
-    "id": "1a6244cf1ae747ef847d949a80d6133c",
-    "name": "My First Board",
-    "verified_from_projects_json": true
-  },
-  "active_tasks": [
-    {
-      "item_id": "S56-SEED20-P2",
-      "task_id": "be960f5e3bf54563aff663fed9da8906",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-11-03 15:14:23"
-    },
-    {
-      "item_id": "S48-SEED20-P2",
-      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-11-02 10:18:20"
-    },
-    {
-      "item_id": "S71-WAN30",
-      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-      "board": "My First Board",
-      "status": "init",
-      "model": "qwen-wan3.0-video",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-11-01 08:29:13"
-    },
-    {
-      "item_id": "S72-WAN30",
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "board": "My First Board",
-      "status": "init",
-      "model": "qwen-wan3.0-video",
-      "duration": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-10-31 11:08:48"
-    },
-    {
-      "item_id": "S61-SEED20-P1",
-      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-10-30 15:37:37"
-    },
-    {
-      "item_id": "S60-SEED20-P1",
-      "task_id": "025955aad2cf494da2b4104d26c36ed5",
-      "board": "My First Board",
-      "status": "init",
-      "model": "seedance-2.0-style",
-      "duration": 15,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "gmtCreate": "2026-10-29 23:20:18"
-    }
-  ],
-  "task_ids": [
-    "be960f5e3bf54563aff663fed9da8906",
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a",
-    "025955aad2cf494da2b4104d26c36ed5"
-  ],
-  "queue_reconciliation": {
-    "live_items": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 29,
-      "submitted": 12,
-      "blocked_inputs": 21
-    },
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "submitted_ids_checked": 12,
-    "submitted_ids_found": 12,
-    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
-    "task_map_sha256": "e7d114ed0bfa9aec6d954baba408f935b0e5c511a9d44950febd0d0e2720ab4a",
-    "readiness_hashes_match": true,
-    "next_ready": {
-      "id": "S63-WAN30",
-      "priority": 0.8,
-      "reserved": false
-    }
-  },
+  "slots": null,
+  "active_task_ids": [],
   "create_performed": false,
   "retry_performed": false,
   "credits_spent": 0,
-  "owner_tasks": {
-    "open_chatgpt_or_any": 0,
-    "taken_foreign": 0
-  },
-  "relay": {
-    "recent_events": 0,
-    "subscription_active": true,
-    "live_delivery_verified": false,
-    "polling_active": false
-  },
   "peer_ordinary": {
     "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "last_run_id": "1f45a461-e590-832c-87d0-a19e335cf87b",
-    "latest_result_run_id": "1f45a461-e590-832c-87d0-a19e335cf87b",
+    "last_run_id": "fa2352c9-d488-8323-988f-7c5625c8e06b",
+    "latest_result_run_id": null,
     "recorded_status": "completed",
-    "receipt_run_id": "1f45a461-e590-832c-87d0-a19e335cf87b",
+    "receipt_run_id": "fa2352c9-d488-8323-988f-7c5625c8e06b",
     "receipt_phase": "finished",
-    "receipt_matches_current_run": true,
+    "receipt_matches_run_id": true,
     "receipt_finished": true
   },
-  "maintenance": {
-    "phase_a_due": false,
-    "phase_b_due": false,
-    "phase_c_due": false,
-    "moscow_cycle": "04:55",
-    "monitor_role": "not_checked: local script unavailable; heartbeat not imitated",
-    "network_policy": "not_checked: /etc/codex/network-policy.json missing"
-  },
   "work_capacity": {
-    "registry_state": "restored_verified",
-    "fresh_gui_and_quota_evidence_this_cycle": false,
-    "route_change_performed": false
-  },
-  "canonical_writes": {
-    "checkpoint_commit": "dc8bd772ec59b0bd8cd276f8f5f7524877989fb7",
-    "register_commit": "b376d4a00901c675b9374ee082599b85bd32de34"
+    "state": "restored_verified",
+    "fresh_gui_quota_evidence_this_cycle": false
   },
   "lock": {
-    "holder": "chatgpt:work:71d1df30-f202-4a07-82e9-39973271f932",
-    "acquired_at": "2026-11-04T01:56:32.768Z",
-    "expires_at": "2026-11-04T02:26:32.768Z",
-    "release_pending": true
+    "holder": "chatgpt:work:06ab9425-80c3-4556-b91f-4a2ba2c6751a",
+    "acquired_at": "2026-11-04T02:51:48.719Z",
+    "expires_at": "2026-11-04T03:21:48.719Z"
   },
-  "notification": "suppressed_no_material_change"
+  "notes": [
+    "scan not yet performed",
+    "network policy snapshot missing",
+    "scripts/monitor_role.py unavailable; heartbeat not imitated"
+  ]
 }
