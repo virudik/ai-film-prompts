@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt:ordinary:43bce045-436b-4d52-840d-973cbd561bb6",
-  "task": "scheduled ordinary HH:00 full capacity scan/receipt only; no Create without full preflight",
-  "acquired_at": "2026-11-04T01:15:49.544Z",
-  "expires_at": "2026-11-04T01:30:49.544Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-04T01:19:07.717Z",
   "rules": "ops/CANON-LOCK.md"
 }
