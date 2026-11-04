@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-04T20:58:41+00:00",
-  "source_head": "2b1099125c2d7bd441743bd43a10db54a0938cb7",
-  "source_fingerprint": "2da70dc403558b38e5ebd69325ebf6fd09ca41cd841d008e395b2799413706fc",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-04T20:59:11+00:00",
+  "source_head": "71d3922ddd4878bce3a316e04e2760cee0596a07",
+  "source_fingerprint": "e6b34740d81c3d3c408ec3bfcbb69eb7b07ac0890033804a2ff5b81bdab3892c",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "continue-work-20261104-338a6050",
@@ -30,39 +30,11 @@
     },
     "source_head": "14413292f124f9db8e8f2b132aaf55fe82be2c39"
   },
-  "reasons": [],
-  "selected_work": {
-    "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
-    "title": "Заполнение свободных Topview-слотов — задача №1",
-    "status": "waiting_for_slot",
-    "last_completed": "Проверены 14 досок, 18 страниц и 627 видео. Заняты 6/6 слотов. Все 12 текущих отправок Серёгиуса и 2 отправки Котмонавтов найдены, неопределённых отправок нет.",
-    "next_action": "При следующем настоящем освобождении слота: fresh main, owner decisions, полный all-board scan и сверка claims/task IDs; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 не повторять.",
-    "verified_at": "2026-11-04T13:20:43+00:00",
-    "blockers": [
-      "6/6 active physical video slots.",
-      "S52-R2-P2: continuous real-time playback with audio listening still required.",
-      "S59-P3: P2 ends after the landing; owner decision or suitable real airborne source required.",
-      "S62-P2: P1 already reaches the final triangle and blue/green ignition reserved for P2; owner decision or suitable earlier real handoff required."
-    ],
-    "evidence": [
-      {
-        "file": "reports/work-continue-2026-11-04-338a6050.json",
-        "sha256": "a27e18ce4b51fe91fbff45556767f936c463ef655549b36b01e5101e6be9228c"
-      }
-    ],
-    "read_next": [
-      "ops/LAUNCHER-COORDINATION.md",
-      "ops/slot-backup.json",
-      "ops/TOPVIEW-FREE-LAUNCH.md",
-      "ops/topview-launch-queue.json"
-    ],
-    "checkpoint": {
-      "file": "reports/current-work-checkpoint.md",
-      "anchor": "# 04.11.2026, 16:13 МСК — приём Work и сверка очереди",
-      "sha256": "920bd0051efc429579db504523ded11a9dc62fb2792069b481b023c3f61742b8"
-    }
-  },
-  "checkpoint_text": "# 04.11.2026, 16:13 МСК — приём Work и сверка очереди\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\nПроверены 14 досок, 18 страниц и 627 видео. Заняты 6/6 слотов. Все 12 текущих отправок Серёгиуса и 2 отправки Котмонавтов найдены, неопределённых отправок нет. Следующая готовая — S63-WAN30 (0.8). Новых запусков и расходов — 0.\n\nКвитанция continue-work-20261104-338a6050. Следующий шаг: При следующем настоящем освобождении слота: fresh main, owner decisions, полный all-board scan и сверка claims/task IDs; первая независимая готовая S63-WAN30 (0.8) под собственной lease/CAS и видимым Unlimited0. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку. S56-P2 не повторять.\n",
+  "reasons": [
+    "next action changed without a recovery checkpoint"
+  ],
+  "selected_work": null,
+  "checkpoint_text": "",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -155,12 +127,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "ops/LAUNCHER-COORDINATION.md",
-    "ops/slot-backup.json",
-    "ops/TOPVIEW-FREE-LAUNCH.md",
-    "ops/topview-launch-queue.json"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -476,11 +443,6 @@
       "bytes": 52413
     },
     {
-      "file": "reports/work-continue-2026-11-04-338a6050.json",
-      "sha256": "a27e18ce4b51fe91fbff45556767f936c463ef655549b36b01e5101e6be9228c",
-      "bytes": 2965
-    },
-    {
       "file": "shadow/current-checkpoint.md",
       "sha256": "e0fe3f4a233b20f23568fe75ae631154acebd4bdd742dc3dfa74f980906a6daf",
       "bytes": 34013
@@ -497,9 +459,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "cadc621b945612597fb0b6ab534e9c6bd0983e649b8153d5558c04473d94a0c7",
-      "bytes": 94230
+      "sha256": "94bf7501c39ac881240fa5a591b73ef2a2cb39ba9d4c64e8569cba1caf391e97",
+      "bytes": 94536
     }
   ],
-  "packet_bytes": 5886
+  "packet_bytes": 3864
 }
