@@ -3,9 +3,9 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "started",
-  "status": "started",
-  "result": null,
+  "phase": "finished",
+  "status": "no_free_slot",
+  "result": "no_update",
   "run_id": "753501ac-e8c4-8328-a450-388b8e0f656f",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress at intake)",
   "execution_instance_id": "f9ad13c9-7a28-42c6-8bea-45ad4180a65b",
@@ -14,61 +14,231 @@
   "lease_commit": "8c72eacaec74262511a85e96e912d3f3f987b9d9",
   "started_at": "2026-11-04T06:53:08.992698Z",
   "receipt_started_at": "2026-11-04T06:56:10.514Z",
-  "completed_at": null,
-  "checked_at": "2026-11-04T06:56:10.514Z",
+  "completed_at": "2026-11-04T07:02:20.790Z",
+  "checked_at": "2026-11-04T07:02:20.790Z",
   "scan": {
-    "complete": false,
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null,
-    "status_counts": null,
-    "scope": "not yet verified"
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 627,
+    "status_counts": {
+      "success": 598,
+      "init": 6,
+      "fail": 23
+    },
+    "scope": "all 14 boards, every physical video-task page"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
+    "occupied": 6,
+    "free": 0,
     "complete_scan_required": true,
-    "complete_scan_verified": false
+    "complete_scan_verified": true
   },
   "board": {
     "id": "1a6244cf1ae747ef847d949a80d6133c",
     "name": "My First Board",
     "verified_from_projects_json": true
   },
-  "active_tasks": [],
+  "active_tasks": [
+    {
+      "item_id": "S56-SEED20-P2",
+      "task_id": "be960f5e3bf54563aff663fed9da8906",
+      "board": "My First Board",
+      "status": "init",
+      "model": "seedance-2.0-style",
+      "duration": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "gmtCreate": "2026-11-03 15:14:23"
+    },
+    {
+      "item_id": "S48-SEED20-P2",
+      "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+      "board": "My First Board",
+      "status": "init",
+      "model": "seedance-2.0-style",
+      "duration": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "gmtCreate": "2026-11-02 10:18:20"
+    },
+    {
+      "item_id": "S71-WAN30",
+      "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+      "board": "My First Board",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "duration": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "gmtCreate": "2026-11-01 08:29:13"
+    },
+    {
+      "item_id": "S72-WAN30",
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "board": "My First Board",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "duration": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "gmtCreate": "2026-10-31 11:08:48"
+    },
+    {
+      "item_id": "S61-SEED20-P1",
+      "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+      "board": "My First Board",
+      "status": "init",
+      "model": "seedance-2.0-style",
+      "duration": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "gmtCreate": "2026-10-30 15:37:37"
+    },
+    {
+      "item_id": "S60-SEED20-P1",
+      "task_id": "025955aad2cf494da2b4104d26c36ed5",
+      "board": "My First Board",
+      "status": "init",
+      "model": "seedance-2.0-style",
+      "duration": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "gmtCreate": "2026-10-29 23:20:18"
+    }
+  ],
   "queue_reconciliation": {
-    "complete": false
+    "complete": true,
+    "queue_items": 63,
+    "state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 29,
+      "submitted": 12,
+      "blocked_inputs": 21
+    },
+    "submitted_task_ids": 12,
+    "submitted_task_ids_found": 12,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "queue_sha256": "66c188690074effd1ba66d3c0c5eca6d2ecd6cc865cf40fbf8a2a3462d054046",
+    "task_map_sha256": "a69bebb66c4dff1e6fd7a4872b0366341224a88aa13562c8094b689fd55b7326",
+    "readiness_hashes_match": true,
+    "next_ready": {
+      "item_id": "S63-WAN30",
+      "priority": 0.8,
+      "reserved": false
+    }
   },
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
     "actual_last_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
     "actual_latest_result_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
     "receipt_run_id": "b873dc5c-c1c8-8327-ad25-0843a8b89437",
-    "current_cycle_reconciled": true
+    "receipt_phase": "finished",
+    "current_cycle_reconciled": true,
+    "match": true
   },
   "phases": {
     "phase_a_due": true,
-    "phase_a_status": "pending",
+    "phase_a_status": "complete_ok",
+    "phase_a": {
+      "self_heal": "ok",
+      "owner_tasks_open": 0,
+      "owner_tasks_taken": 0,
+      "claude_open_over_3h": 0,
+      "project_status": {
+        "health": "ok",
+        "synced_at": "2026-11-04T06:30:41Z",
+        "fresh_under_40_minutes": true
+      },
+      "canon_health": {
+        "status": "ok",
+        "warnings": 0,
+        "info": 8
+      },
+      "verified_runs": {
+        "topview_robot": 41788143849,
+        "self_heal": 41788036457,
+        "canon_health": 41788765993,
+        "canonical_sync": 41788361659,
+        "pages": 41788815867
+      }
+    },
     "phase_b_due": true,
-    "phase_b_status": "pending",
+    "phase_b_status": "complete_resolved_signals",
+    "phase_b": {
+      "gmail_query": "from:(notifications@github.com) \"ai-film-prompts\" after:2026/11/02",
+      "results": 16,
+      "all_pages": true,
+      "next_page_token": null,
+      "state_unchanged": true,
+      "new_failure_messages": 6,
+      "unique_failure_runs": [
+        41717410777,
+        41718083203,
+        41725662125,
+        41727221030,
+        41728164706
+      ],
+      "message_ids": [
+        "1a1a33b4881be5bd",
+        "1a1a33ce88c52781",
+        "1a1a370d965b6c68",
+        "1a1a37d71afcab2d",
+        "1a1a3821f48a7015",
+        "1a1a38dc89829058"
+      ],
+      "diagnosis": "Check and publish steps succeeded; intentional notification step failed on warnings",
+      "resolved_by": {
+        "owner_task": "self-heal-run-failed-canon-health-202611032249",
+        "result_commit": "57a5d2eef27f9648aa9a23086ba7744d78ecd92a",
+        "success_run": 41735782935
+      },
+      "current_success_run": 41788765993,
+      "repair_performed": false,
+      "blind_rerun_performed": false
+    },
     "phase_c_due": false,
     "phase_c_status": "not_due"
   },
   "new_submissions": [],
   "topview_credits_spent": 0,
   "blocker": null,
-  "retryable": null,
+  "retryable": true,
   "work_recovery": {
     "checked": true,
     "fresh_owner_confirmation": false,
     "real_work_runtime": true,
     "gui_quota_current_cycle_verified": false,
-    "preferred_executor_unchanged": true
+    "preferred_executor": "work",
+    "route_generation_changed": false
   },
   "lease": {
     "holder": "chatgpt:work:f9ad13c9-7a28-42c6-8bea-45ad4180a65b",
     "acquired_at": "2026-11-04T06:55:35.621Z",
     "expires_at": "2026-11-04T07:25:35.621Z"
-  }
+  },
+  "relay": {
+    "events": 0,
+    "cursor": null,
+    "polling_active": false,
+    "subscription_active": true,
+    "live_delivery": "unverified"
+  },
+  "outcome": "no_free_slot",
+  "monitor_role": "not_checked: scripts/monitor_role.py absent in local scratch; robot heartbeat not imitated"
 }
