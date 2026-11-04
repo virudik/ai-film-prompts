@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-04T12:08:06Z",
+  "checked_at": "2026-11-04T16:00:25Z",
   "status": "warn",
   "warnings": 1,
-  "info": 8,
+  "info": 9,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
@@ -59,6 +59,12 @@
       "code": "ops-stale",
       "text": "ops/TOPVIEW-VIDEO-ARCHIVE.md: проверялся 18.10.2026, больше 14 дней назад.",
       "file": "ops/TOPVIEW-VIDEO-ARCHIVE.md"
+    },
+    {
+      "level": "info",
+      "code": "lock-expired",
+      "text": "Роскосмос: замок проекта (chatgpt:work:efad9c72-9fbe-4420-b9dc-a8a32016fcf9) истёк 04.11 13:40 UTC и не снят; он считается свободным, но запись стоит убрать.",
+      "file": "projects/roscosmos/canon-lock.json"
     }
   ]
 }
