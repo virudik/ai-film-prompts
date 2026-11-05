@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:8c83be2b-df74-4868-9822-f6c868d45406",
   "task": "launch S64-WAN30 (grok helper, slot-wake issue #356)",
   "acquired_at": "2026-11-05T20:25:49Z",
-  "expires_at": "2026-11-05T21:10:49Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-05T20:32:05Z",
   "rules": "ops/CANON-LOCK.md"
 }

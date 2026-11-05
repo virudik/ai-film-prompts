@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-05T20:31:50Z",
+  "complete": true,
+  "boards": 14,
+  "pages": 1,
+  "unique_videos": 629,
+  "active_videos": 6,
+  "active_task_ids": [
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f"
+  ],
+  "free_slots": 0,
+  "source": "post-Create My First Board page1; new task 3ebe7c23db05479e9b6f762a75b832e7 = S64-WAN30",
+  "new_task_id": "3ebe7c23db05479e9b6f762a75b832e7"
+}

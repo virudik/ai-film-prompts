@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-11-04T20:13:36Z",
+  "updated_at": "2026-11-05T20:32:05Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5255,7 +5255,7 @@
       "canonical_prompt_sha256": "2ae1f1a144baf2410cbc553c66a67083af2766477cdd6c1711b6807a7e5d83e7",
       "normalized_prompt_sha256": "5edacb999d63f7e3f2ff8365fb1ee852868d98d5316ff94e6da55c5985bd9447",
       "priority": 0.9,
-      "state": "submitting",
+      "state": "submitted",
       "launch_readiness": "authorized_inputs_available",
       "model": "Wan 3.0",
       "selected_model": "Wan 3.0",
@@ -5295,8 +5295,20 @@
           "canonical_role": "Офицеры: испуг и недоумение"
         }
       ],
-      "task_id": null,
-      "claim": {
+      "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+      "claim": null,
+      "blocker": null,
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
+      "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
+      "result_review_required": true,
+      "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera. Success is not acceptance.",
+      "created_at": "2026-10-27T16:31:40Z",
+      "submitted_at": "2026-11-05T20:31:40Z",
+      "receipt": "reports/topview-queue-2026-10-16/S64-WAN30-20261105T203140Z.json",
+      "ui_proof": "reports/topview-queue-2026-10-16/S64-WAN30-20261105T203140Z.jpg",
+      "last_claim": {
         "claim_id": "7d7b009b-b154-4da9-9888-ebe3731203d0",
         "run_id": "grok-8c83be2b-df74-4868-9822-f6c868d45406",
         "claimed_at": "2026-11-05T20:30:41Z",
@@ -5359,15 +5371,7 @@
         "ledger_path": "ops/launcher-run-ledger.json",
         "trigger": "wake",
         "wake_issue": 356
-      },
-      "blocker": null,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "authorization": "Owner27Oct2026: 64–69 queued after63, before49–51/28; chain52P7→66→67→68→69 in order. One free Unlimited render; no paid path or retry.",
-      "owner_launch_authorized_at": "2026-10-27T16:31:40Z",
-      "result_review_required": true,
-      "result_review_policy": "Check exact identities, the scene's gag as written (master «Режиссёрский контроль»), dynamic camera. Success is not acceptance.",
-      "created_at": "2026-10-27T16:31:40Z"
+      }
     },
     {
       "id": "S65-WAN30",
