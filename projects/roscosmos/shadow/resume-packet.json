@@ -3,38 +3,17 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-05T18:45:44+00:00",
-  "source_head": "c9d2807c6f684a4a426b94c38c08492a8404f44d",
-  "source_fingerprint": "1491b8ae733580096de929bd751a05af82bb9633f99a3fa52c4a22b28aa42bb1",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-05T18:47:10+00:00",
+  "source_head": "e23d43e6c58ecb8f984c0fe179b571d5de6f7071",
+  "source_fingerprint": "efead54df38c97e49ee934a96b7a590759e7ca517dd1c19737c66aade1c397bd",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
-  "reasons": [],
-  "selected_work": {
-    "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
-    "title": "Терра Тех: сцены и референсы 26–30",
-    "status": "recovered_pending_publication",
-    "last_completed": "Восстановлены пять оригинальных PNG из переданной владельцем ссылки. Размеры 1672×941 и размеры файлов совпадают с сообщениями источника. Просмотрены исходные десять PNG и пять исправлений. Новых генераций и расходов 0.",
-    "next_action": "Опубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.",
-    "verified_at": "2026-11-04T22:36:50+00:00",
-    "blockers": [],
-    "evidence": [
-      {
-        "file": "projects/roscosmos/reports/terratech-revision-2026-11-04.json",
-        "sha256": "d55d90e8b4a1c927ae18391e13b38cc9334547052468dfa1c2547a4627edc186"
-      }
-    ],
-    "read_next": [
-      "projects/roscosmos/video-prompts.md",
-      "projects/roscosmos/INSTRUCTIONS.md"
-    ],
-    "checkpoint": {
-      "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "anchor": "# Терра Тех 26–30 — восстановлены готовые PNG · 05.11.2026",
-      "sha256": "29bbfa0d3923ad501543807102f8d9affce92e98ba9236c614c743a691d8e1ea"
-    }
-  },
+  "reasons": [
+    "recovery evidence changed: projects/roscosmos/video-prompts.md"
+  ],
+  "selected_work": null,
   "checkpoint_text": "# Терра Тех 26–30 — восстановлены готовые PNG · 05.11.2026\n\nwork_id: ROSCOSMOS-TERRATECH-REVISION-20261104\n\nВосстановлены пять оригинальных PNG из переданной владельцем ссылки. Размеры 1672×941 и размеры файлов совпадают с сообщениями источника. Просмотрены исходные десять PNG и пять исправлений. Новых генераций и расходов 0.\n\nОпубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.\n",
   "invariants": [
     {
@@ -128,10 +107,7 @@
       "anchor": "^## 14\\. Verification before final answer"
     }
   ],
-  "read_next": [
-    "projects/roscosmos/video-prompts.md",
-    "projects/roscosmos/INSTRUCTIONS.md"
-  ],
+  "read_next": [],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
     "Open owner_decisions and agent inbox; do not infer approval from this packet",
@@ -212,8 +188,8 @@
     },
     {
       "file": "projects/roscosmos/HANDOFF.md",
-      "sha256": "21a04a70e3ecc3ae9288c9ce75553ca205f9ec6852f81c36483ec2e10b1b412a",
-      "bytes": 8374
+      "sha256": "88b2b9c3eba9e0c57ae45678a42f2d4b77c35e62728da972e88177d0a1aa46fe",
+      "bytes": 9585
     },
     {
       "file": "projects/roscosmos/INSTRUCTIONS.md",
@@ -232,8 +208,8 @@
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "sha256": "784ab2d07420d43d92db0511122c3e488c3c3e6bcbb4144ecd1d15fc685f1c66",
-      "bytes": 16866
+      "sha256": "53923efe85135225e28b61f9c993f3bc6aa72dad3c533fbbd845a548592cd3e4",
+      "bytes": 18533
     },
     {
       "file": "projects/roscosmos/reports/handoff-receipts.json",
@@ -252,8 +228,8 @@
     },
     {
       "file": "projects/roscosmos/work-resume-register.json",
-      "sha256": "8df9fa0e1591ebb3bd7cf90e1f059ebe9082fb4d9ee17f42388435fe6039d235",
-      "bytes": 5465
+      "sha256": "e2a3096a5c3a4d7b321877532b0061305488a424f70ec1835421227f820e8f6c",
+      "bytes": 6354
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -271,5 +247,5 @@
       "bytes": 1352161
     }
   ],
-  "packet_bytes": 5394
+  "packet_bytes": 4657
 }
