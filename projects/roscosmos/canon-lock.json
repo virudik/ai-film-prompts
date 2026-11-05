@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "roscosmos",
-  "state": "held",
-  "holder": "chatgpt:interactive:148d6dd3-8c32-4cd8-b3f5-7aa9c518cf66",
+  "state": "free",
+  "holder": null,
   "task": "Correct Roscosmos master status banner after Terra Tech revision",
   "acquired_at": "2026-11-05T18:49:25.891Z",
-  "expires_at": "2026-11-05T19:09:25.891Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-05T18:49:56.875Z",
   "rules": "ops/CANON-LOCK.md"
 }
