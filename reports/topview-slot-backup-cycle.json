@@ -3,14 +3,14 @@
   "source": "ChatGPT scheduled ordinary",
   "project": "seregius",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "c6939758-8203-4ed0-878f-76911ad26811",
-  "run_id": "6916c88a-597c-832c-be9e-b1f17d4826a8",
-  "run_id_source": "Automations.peek last_run.id, scheduled_for 2026-11-05T13:00:00Z",
-  "started_at": "2026-11-05T13:01:47.207781Z",
-  "receipt_started_at": "2026-11-05T13:07:41.818Z",
-  "source_head": "7ce98a7d15d20f508989e6b005e8bfcb22d6ac95",
+  "execution_instance_id": "b27f9d0c-2a0d-4e7d-8e63-ce164660f0e2",
+  "run_id": "1a5e68b1-ce80-8323-8b1b-0c60c89ab570",
+  "run_id_source": "Automations.peek last_run.id; scheduled_for 2026-11-05T14:00:00Z",
+  "started_at": "2026-11-05T13:55:48.201034Z",
+  "receipt_started_at": "2026-11-05T14:04:25.431Z",
+  "source_head": "0c33ffee74cd857cf64aeace5a58ff3f74f54988",
   "route_generation": 3,
-  "phase": "completed",
+  "phase": "started",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -23,7 +23,7 @@
     "22dbd25cdd9f47cd9e44300e55f5e44f",
     "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
   "browser_transport": "not_used_no_free_slot",
@@ -47,144 +47,15 @@
       "22dbd25cdd9f47cd9e44300e55f5e44f",
       "c72c1ab4524e4f2f9d3a0272474f788a"
     ],
-    "actual_result": "no_free_slot",
+    "actual_result": "in_progress",
     "tinyfish_transport_activated": false
   },
   "lease": {
-    "holder": "chatgpt:ordinary:c6939758-8203-4ed0-878f-76911ad26811",
-    "acquired_at": "2026-11-05T13:06:59.404Z",
-    "expires_at": "2026-11-05T13:15:59.404Z",
-    "acquire_commit": "7ce98a7d15d20f508989e6b005e8bfcb22d6ac95",
-    "result": "final_receipt_saved_with_exact_release"
+    "holder": "chatgpt:ordinary:b27f9d0c-2a0d-4e7d-8e63-ce164660f0e2",
+    "acquired_at": "2026-11-05T14:03:24.700Z",
+    "expires_at": "2026-11-05T14:12:24.700Z",
+    "acquire_commit": "bf2956d03ce541a71910d33b474745d8d33af2d2",
+    "result": "held"
   },
-  "updated_at": "2026-11-05T13:07:41.818Z",
-  "checked_at": "2026-11-05T13:11:01.486Z",
-  "completed_at": "2026-11-05T13:11:01.486Z",
-  "scan": {
-    "scope": "Topview list_boards(mode=all) + mediaType=video full traversal across 14 boards; My First Board 5 pages + 13 other boards 1 page each; six live tasks independently rechecked by task ID",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 628,
-    "status_counts": {
-      "success": 599,
-      "fail": 23,
-      "init": 6
-    },
-    "complete": true,
-    "verified_by": "read_only_topview_connector",
-    "active_reverified_at": "2026-11-05T13:09:54.400Z",
-    "active_videos": [
-      {
-        "task_id": "365cf639589a4a5da834d70193d5e8f6",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Wan 3.0",
-        "duration_seconds": 30,
-        "input_images": 4,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "be960f5e3bf54563aff663fed9da8906",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "input_images": 5,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "input_images": 6,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Wan 3.0",
-        "duration_seconds": 30,
-        "input_images": 4,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Wan 3.0",
-        "duration_seconds": 30,
-        "input_images": 4,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "input_images": 4,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      }
-    ],
-    "errors": []
-  },
-  "readiness": {
-    "source_queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "source_task_map_sha256": "0f28a67302e4cd1725ec8017adefc0786926735498c02b75beaafa3d859370cc",
-    "source_sha_matched": true,
-    "ready_next": {
-      "id": "S64-WAN30",
-      "priority": 0.9,
-      "queued_state": "waiting_for_slot"
-    }
-  },
-  "queue_reconciliation": {
-    "total_queue_items": 63,
-    "submitted_entries": 13,
-    "submitted_ids_verified": 13,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "all_submitted_found": true
-  },
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0,
-    "checked_at": "2026-11-05T13:11:01.486Z"
-  },
-  "monitor": {
-    "last_successful_cycle_at": "2026-11-05T12:40:31Z",
-    "launcher_health": "capacity_full",
-    "source": "automation-monitor-status.json",
-    "slot_wake_latest_observed_at": "2026-11-04T19:50:36Z",
-    "slot_wake_is_fresh": false
-  },
-  "peer_runs": {
-    "ordinary_current_run_id": "6916c88a-597c-832c-be9e-b1f17d4826a8",
-    "ordinary_latest_result_run_id": "03b688ff-126c-8321-9b9d-368c3dc37cf5",
-    "work_hh55_last_run_id": "66597db6-df54-8322-84f8-1aa0a6a6a581",
-    "relay_last_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f"
-  },
-  "final_source_head": "f8d41d920f3a3de412c713bcb9db16515042bdfb"
+  "updated_at": "2026-11-05T14:04:25.431Z"
 }
