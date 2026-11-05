@@ -3,15 +3,15 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-05T19:53:30+00:00",
-  "source_head": "01497a88ac5bc87007e60e8e9379c084db8b1e61",
-  "source_fingerprint": "2315bfa8990b2cef45c6cd05eb3095151aabb9c5c8b49151512a2e9896f080ca",
+  "checked_at": "2026-11-05T19:54:03+00:00",
+  "source_head": "64de1794700ab83baf67694e2c2fa96983b0b502",
+  "source_fingerprint": "90880306c2210ad750fed94e7466c20e4dd19522d76e15cd818332cbc4a0aa01",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
-    "recovery evidence changed: projects/roscosmos/video-prompts.md"
+    "recovery evidence changed: projects/roscosmos/reports/terratech-revision-2026-11-04.json"
   ],
   "selected_work": null,
   "checkpoint_text": "# Терра Тех 26–30 — восстановлены готовые PNG · 05.11.2026\n\nwork_id: ROSCOSMOS-TERRATECH-REVISION-20261104\n\nВосстановлены пять оригинальных PNG из переданной владельцем ссылки. Размеры 1672×941 и размеры файлов совпадают с сообщениями источника. Просмотрены исходные десять PNG и пять исправлений. Новых генераций и расходов 0.\n\nОпубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.\n",
@@ -188,8 +188,8 @@
     },
     {
       "file": "projects/roscosmos/HANDOFF.md",
-      "sha256": "88b2b9c3eba9e0c57ae45678a42f2d4b77c35e62728da972e88177d0a1aa46fe",
-      "bytes": 9585
+      "sha256": "cdfc82a7403f9005537494c6e2bc578294815cfafcb688788ed7f30880cf69b9",
+      "bytes": 9291
     },
     {
       "file": "projects/roscosmos/INSTRUCTIONS.md",
@@ -203,13 +203,13 @@
     },
     {
       "file": "projects/roscosmos/project-status.json",
-      "sha256": "5a3900df2be56d8921173749d6a282de1698ff643bfc5a6cf23acfded0410cb9",
-      "bytes": 21794
+      "sha256": "a9d65e4dcda2a42918aff2ef7f853dc3789ff579739a75e8228bf41affefaf5f",
+      "bytes": 21822
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
-      "sha256": "53923efe85135225e28b61f9c993f3bc6aa72dad3c533fbbd845a548592cd3e4",
-      "bytes": 18533
+      "sha256": "37e6d049c9daacead7a6849f9d6ddeab9aacf9bb3818250e8471b7036309cd07",
+      "bytes": 20638
     },
     {
       "file": "projects/roscosmos/reports/handoff-receipts.json",
@@ -217,14 +217,9 @@
       "bytes": 251
     },
     {
-      "file": "projects/roscosmos/reports/terratech-revision-2026-11-04.json",
-      "sha256": "d55d90e8b4a1c927ae18391e13b38cc9334547052468dfa1c2547a4627edc186",
-      "bytes": 1821
-    },
-    {
       "file": "projects/roscosmos/video-prompts.md",
-      "sha256": "0ba53aa28e9b522ee3181f2689d11d641fef09ff3b571001461b52c15423e3d8",
-      "bytes": 546398
+      "sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
+      "bytes": 551979
     },
     {
       "file": "projects/roscosmos/work-resume-register.json",
@@ -247,5 +242,5 @@
       "bytes": 1352161
     }
   ],
-  "packet_bytes": 4657
+  "packet_bytes": 4683
 }
