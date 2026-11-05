@@ -3,14 +3,15 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-05T18:47:10+00:00",
-  "source_head": "e23d43e6c58ecb8f984c0fe179b571d5de6f7071",
-  "source_fingerprint": "efead54df38c97e49ee934a96b7a590759e7ca517dd1c19737c66aade1c397bd",
+  "checked_at": "2026-11-05T18:50:10+00:00",
+  "source_head": "007f5a5ee1d58fd3113e24161d380d6d67baea52",
+  "source_fingerprint": "054af57f7bec84c022588453112a752b9f058c1849435c864698e7b8e3537b40",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [
+    "project master/status mismatch: roscosmos",
     "recovery evidence changed: projects/roscosmos/video-prompts.md"
   ],
   "selected_work": null,
@@ -203,8 +204,8 @@
     },
     {
       "file": "projects/roscosmos/project-status.json",
-      "sha256": "1acd2d5dcedcfada26a4fa00d4d178ff7e48da4b2e85742d1d4f52a8d565a37d",
-      "bytes": 21794
+      "sha256": "6a01ec22eb8e3c8444045dde7f37c049e1a7ede2a9d2b7d76af8762839434e8d",
+      "bytes": 464
     },
     {
       "file": "projects/roscosmos/reports/current-work-checkpoint.md",
@@ -223,8 +224,8 @@
     },
     {
       "file": "projects/roscosmos/video-prompts.md",
-      "sha256": "0ba53aa28e9b522ee3181f2689d11d641fef09ff3b571001461b52c15423e3d8",
-      "bytes": 546398
+      "sha256": "6d636b4d6e8f056549db024639f961f9c64ff6c6b869cf12d882fe36a8d781e1",
+      "bytes": 546779
     },
     {
       "file": "projects/roscosmos/work-resume-register.json",
@@ -247,5 +248,5 @@
       "bytes": 1352161
     }
   ],
-  "packet_bytes": 4657
+  "packet_bytes": 4701
 }
