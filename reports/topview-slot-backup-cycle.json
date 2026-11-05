@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-05T02:06:59.423Z",
   "source_head": "1e106e0a2d5a6f6340ffb5764689792610104bf8",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_complete",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector; live 14-board video scan",
   "scan_checked_at": "2026-11-05T02:02:10.598Z",
   "scan_scope": "14 boards; 18 physical video pages; 628 video tasks",
@@ -50,8 +50,8 @@
     "holder": "chatgpt:ordinary:af911d7f-2dd3-442f-8f2f-2d27197c069c",
     "acquired_at": "2026-11-05T02:06:01.389Z",
     "expires_at": "2026-11-05T02:18:01.389Z",
-    "state": "held",
-    "released_at": null
+    "state": "free",
+    "released_at": "2026-11-05T02:09:04.908Z"
   },
   "scan_validation": {
     "boards": 14,
@@ -74,7 +74,52 @@
     "task_map_sha256": "0bc87634b0b39d986bda5a41577ba4019b783f6f8df8c4468aad96895b15a55c",
     "readiness_hashes_match": true,
     "next_ready_item": "S64-WAN30",
-    "next_ready_priority": 0.9
+    "next_ready_priority": 0.9,
+    "scan_complete": true,
+    "active_unlimited0": 6,
+    "submitted_queue_tasks_reconciled": 13,
+    "submitted_task_ids_found": 13,
+    "submitted_missing": 0,
+    "queue_item_count": 63,
+    "queue_state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 28,
+      "submitted": 13,
+      "blocked_inputs": 21
+    },
+    "pending_claims": 0,
+    "pending_submitting": 0,
+    "pending_unknown": 0,
+    "readiness_checked_at": "2026-11-05T01:40:28.271965Z",
+    "final_task_recheck_at": "2026-11-05T02:07:50.925Z",
+    "final_active_init": 6
   },
-  "notification": "silent_no_free_slot"
+  "notification": "silent_no_free_slot",
+  "source_head_at_finish": "ae06132b100289e3d7227349c59854cd48ed9986",
+  "completed_at": "2026-11-05T02:09:04.908Z",
+  "peer_reconciliation": {
+    "ordinary_run_id": "c2178950-4760-8329-ac90-a740dee25fdc",
+    "ordinary_status_at_intake": "in_progress",
+    "ordinary_previous_latest_result_run_id": "c03a9642-7310-8332-be23-a0e64c54b198",
+    "work_hh55_run_id": "79f463fd-f000-8333-a049-eb52e922cfcc",
+    "work_hh55_status": "completed",
+    "relay_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
+    "relay_status": "completed"
+  },
+  "work_capacity": {
+    "preferred_executor": "work",
+    "route_unchanged": true,
+    "prior_verified_evidence": "263e2ef6e5c661fefe06ba1e9af90e97f4120a6e",
+    "this_cycle_new_gui_or_quota_evidence": false
+  },
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "accounting": {
+    "checkpoint_updated": false,
+    "register_updated": false,
+    "reason": "no material change; 6/6 read-only cycle"
+  },
+  "notes": "5 Nov 2026 02:02Z: fresh Topview 14-board/18-page scan 628 videos, 599 success/23 fail/6 init; 6/6 My First Board Unlimited0 720p 16:9. All 13 submitted task IDs independently located; no claimed/submitting/unknown. SHA of queue and task map verified from raw file bytes against queue-readiness. S64-WAN30 next priority 0.9. Work preferred remains verified from earlier evidence; no new runtime GUI claim. No Create, no credits, no TinyFish charge. No open owner tasks. Existing HH:00 unchanged."
 }
