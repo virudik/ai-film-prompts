@@ -4,89 +4,46 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "901f37ff-9a65-46f4-be42-85a6c7929d9b",
-  "run_id": "9b8eba52-f558-8322-9501-e1d793c1189a",
-  "runtime_run_id_source": "Automations.peek current last_run.id (in_progress)",
-  "source_head": "9ce4cd3ebaa4e5b638921fcce55b5f5509858649",
+  "execution_instance_id": "63f080bb-e1e9-4973-a649-1e6094008b84",
+  "run_id": "672af6a7-383c-832d-9e87-fd40aa800149",
+  "runtime_run_id_source": "Automations.peek current last_run.id in_progress",
+  "source_head": "604124dc51782491283f268fc163fed227018d10",
   "route_generation": 3,
-  "lease_commit": "06d602cb86086b3ccc731babad3ddb3ba18a2ccd",
-  "lease_holder": "chatgpt:ordinary:901f37ff-9a65-46f4-be42-85a6c7929d9b",
-  "lease_acquired_at": "2026-11-05T21:08:37.751Z",
-  "started_at": "2026-11-05T21:03:48.139471Z",
-  "receipt_started_at": "2026-11-05T21:09:26.573Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_commit": "d12b9651c42d2873c2325c2dc68153ed637b2d5c",
+  "lease_holder": "chatgpt:ordinary:63f080bb-e1e9-4973-a649-1e6094008b84",
+  "lease_acquired_at": "2026-11-05T22:17:07.592Z",
+  "started_at": "2026-11-05T22:11:48.683726Z",
+  "receipt_started_at": "2026-11-05T22:17:54.899Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "source": "Topview read-only connector",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 629,
-    "status_counts": {
-      "success": 600,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f"
-    ],
-    "all_active_board": "1a6244cf1ae747ef847d949a80d6133c",
-    "active_parameters_verified": {
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "evidence": "Six independent Topview board task detail reads, 0 credits per task"
-    }
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null,
+    "status_counts": null,
+    "active_task_ids": null
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
+    "occupied": null,
+    "free": null
   },
   "queue_reconciliation": {
-    "total": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 27,
-      "submitted": 14,
-      "blocked_inputs": 21
-    },
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "submitted_ids_verified": 14,
-    "all_submitted_found": true,
-    "queue_sha256": "53ec38d8ae8db5b244cb3f871761b7915f691d1a5e5eddef490f1b59110baad0",
-    "task_map_sha256": "8ceccf984e14d39b843239e3c9c353675988d1d878bc9255a13752e677329658",
-    "readiness_hashes_match": true,
-    "sha_method": "independently computed SHA256 on fresh UTF-8 file bytes",
-    "next_ready": {
-      "id": "S49A",
-      "priority": 1.2
-    },
-    "checked_owner_tasks_open": 0
+    "status": "pending"
   },
   "new_submissions": [],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
-  "retryable": false,
-  "browser_transport": "not_used_no_free_slot",
+  "retryable": true,
+  "browser_transport": "not_used",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
     "estimated_spend_usd": 0,
-    "confirmed_spend_usd": 0,
-    "wallet_checked": false,
-    "wallet_not_checked_reason": "Complete Topview scan shows 6/6; no paid browser runs permitted"
+    "confirmed_spend_usd": 0
   },
   "acceptance": {
     "scheduled_run": true,
@@ -95,36 +52,7 @@
     "files_uploaded": false,
     "unlimited0_current_preflight": false,
     "verified_topview_new_task_id": false,
-    "external_topview_task_id_verified": true,
     "production_submission_via_tinyfish_verified": false
   },
-  "updated_at": "2026-11-05T21:15:01.298Z",
-  "completed_at": "2026-11-05T21:15:01.298Z",
-  "peer_reconciliation": {
-    "relay_automation_id": "6adc585e7ac08191bb93825117dc7213",
-    "relay_last_run_id": "d62b3913-0a54-8321-a22c-efc668fb40ae",
-    "relay_last_run_status": "completed",
-    "work_automation_id": "6acae6ab433481919e88665c520b8ef2",
-    "work_last_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c",
-    "work_last_run_status": "completed",
-    "work_hh55_enabled": false,
-    "ordinary_actual_last_run_id": "9b8eba52-f558-8322-9501-e1d793c1189a",
-    "ordinary_last_result_run_id": "d3924858-54a0-832b-b093-8b757a83343e"
-  },
-  "external_submission_detected": {
-    "executor": "Grok Bot",
-    "item_id": "S64-WAN30",
-    "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
-    "submitted_at": "2026-11-05T20:31:40Z",
-    "receipt": "reports/topview-queue-2026-10-16/S64-WAN30-20261105T203140Z.json",
-    "independently_verified": true,
-    "credits_cost": 0
-  },
-  "lease": {
-    "holder": "chatgpt:ordinary:901f37ff-9a65-46f4-be42-85a6c7929d9b",
-    "acquired_at": "2026-11-05T21:08:37.751Z",
-    "released_at": "2026-11-05T21:15:01.298Z",
-    "final_action": "release_own_exact_lease"
-  },
-  "source_head_at_finalization": "6d7b533c8ca7ac15717355a65050b5b625cad5d2"
+  "updated_at": "2026-11-05T22:17:54.899Z"
 }
