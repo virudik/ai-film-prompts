@@ -10,19 +10,55 @@
   "receipt_started_at": "2026-11-05T10:10:19.399Z",
   "source_head": "9587d0ffbf596c782b39d3d94796443a987a80c0",
   "route_generation": 3,
-  "phase": "started",
-  "scan_complete": false,
+  "phase": "completed",
+  "scan_complete": true,
   "scan": {
-    "source": "Live Topview connector read-only scan; final evidence pending"
+    "boards": 14,
+    "pages": 18,
+    "total_video_tasks": 628,
+    "statuses": {
+      "success": 599,
+      "fail": 23,
+      "init": 6
+    },
+    "source": "live Topview connector all 14 boards, video pages 18, 628 tasks; last complete My First Board refresh 2026-11-05T10:12:01Z",
+    "complete": true,
+    "active_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "all_active_tasks_verified": true,
+    "active_properties_verified": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "unlimited": true,
+      "creditsCost": 0,
+      "resolution": 720,
+      "aspectRatio": "16:9",
+      "quantity": 1
+    },
+    "all_current_13_submitted_video_tasks_found": true,
+    "images_excluded_from_video_scan": true
   },
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
-  "outcome": "in_progress",
+  "task_ids": [
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a"
+  ],
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_cost_usd": 0,
@@ -30,12 +66,58 @@
   "new_submissions": 0,
   "acceptance": {
     "scheduled_hourly_execution": "verified_actual_run_id",
-    "tinyfish_production_submission": "unverified"
+    "tinyfish_saved_signin": "historical_test_only",
+    "tinyfish_file_upload": "unverified",
+    "tinyfish_unlimited_zero": "unverified",
+    "tinyfish_production_submission": "unverified",
+    "topview_new_task_id": null,
+    "topview_verified_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "actual_result": "no_free_slot",
+    "tinyfish_transport_activated": false
   },
   "lease": {
     "holder": "chatgpt:ordinary:39ccd6ac-2a97-4cf0-92f6-580a6eb9eb84",
     "acquired_at": "2026-11-05T10:09:26.240Z",
     "expires_at": "2026-11-05T10:15:26.240Z",
-    "acquire_commit": "9587d0ffbf596c782b39d3d94796443a987a80c0"
+    "acquire_commit": "9587d0ffbf596c782b39d3d94796443a987a80c0",
+    "started_receipt_commit": "c0c757ee935d65a9e964b9b1007278a395cb81da",
+    "result": "released_atomically_with_final_receipt",
+    "released_at": "2026-11-05T10:12:55.791Z"
+  },
+  "completed_at": "2026-11-05T10:12:55.791Z",
+  "source_head_at_finish": "cc637c14965d75e17510951ef3e224a4d2577edc",
+  "readiness": {
+    "source_queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+    "source_task_map_sha256": "0da88418f35db5b0a13db210c40657d4380a805daf6c469085fda84708612d7a",
+    "sha_comparison": "both independently computed SHA256 from fresh raw file content match queue-readiness",
+    "ready_next_item": "S64-WAN30",
+    "priority": 0.9
+  },
+  "queue_reconciliation": {
+    "submitted_task_ids_checked": 13,
+    "submitted_task_ids_found": 13,
+    "claims": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "independent_full_scan": true
+  },
+  "owner_tasks": {
+    "open_count": 0,
+    "action": "none"
+  },
+  "peer_runs": {
+    "ordinary_current_run_id": "e7cbf0e9-1ef0-8333-946e-8f8642dbbe3f",
+    "ordinary_current_state": "in_progress_observed",
+    "work_hourly_latest_run_id": "fddee025-0368-8327-94d0-ec11e7eb7e4f",
+    "work_hourly_latest_completed_at": "2026-11-05T09:56:08.049418Z",
+    "relay_latest_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
+    "relay_latest_completed_at": "2026-11-04T19:58:52.659716Z"
   }
 }
