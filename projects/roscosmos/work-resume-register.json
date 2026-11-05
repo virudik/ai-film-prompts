@@ -42,15 +42,15 @@
       "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
       "project": "roscosmos",
       "title": "Терра Тех: сцены и референсы 26–30",
-      "status": "recovered_pending_publication",
+      "status": "prompts_published_pending_original_png",
       "created_at": "2026-11-04T12:20:20.641Z",
-      "next_action": "Опубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.",
+      "next_action": "Получить пять точных оригинальных PNG по source_asset_id из reports/terratech-revision-2026-11-04.json; сверить SHA256 и 1672×941; сохранить в projects/roscosmos/references/scenes/26…30/ с ролями, обновить manifest/character-references, проверить сайт, health=ok. Не перерисовывать.",
       "owner_quote_20261105": "И то что этот чат не доделал доделай. Он там фотки какие-то успел изготовить и после завис.",
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-04T22:36:50+00:00",
-        "last_completed": "Восстановлены пять оригинальных PNG из переданной владельцем ссылки. Размеры 1672×941 и размеры файлов совпадают с сообщениями источника. Просмотрены исходные десять PNG и пять исправлений. Новых генераций и расходов 0.",
-        "next_action": "Опубликовать исправленные 27/29/30, добавить совмещённые вставки 26/28, переработать 15 видеопромтов и проверить манифесты, реестр и сайт.",
+        "verified_at": "2026-11-05T18:46:42.431Z",
+        "last_completed": "Правки пяти сцен и всех 15 видеопромтов в master опубликованы; readback коммита 0d9a7763d6d3d2980644474fa1ea6099a6d59c74 проверен; существующие PNG не заменялись.",
+        "next_action": "Получить пять точных оригинальных PNG по source_asset_id из reports/terratech-revision-2026-11-04.json; сверить SHA256 и 1672×941; сохранить в projects/roscosmos/references/scenes/26…30/ с ролями, обновить manifest/character-references, проверить сайт, health=ok. Не перерисовывать.",
         "checkpoint": {
           "file": "projects/roscosmos/reports/current-work-checkpoint.md",
           "anchor": "# Терра Тех 26–30 — восстановлены готовые PNG · 05.11.2026",
@@ -60,23 +60,34 @@
           {
             "file": "projects/roscosmos/reports/terratech-revision-2026-11-04.json",
             "sha256": "d55d90e8b4a1c927ae18391e13b38cc9334547052468dfa1c2547a4627edc186"
+          },
+          {
+            "file": "projects/roscosmos/video-prompts.md",
+            "commit_sha": "0d9a7763d6d3d2980644474fa1ea6099a6d59c74",
+            "verified_readback": true
           }
         ],
         "read_next": [
           "projects/roscosmos/video-prompts.md",
           "projects/roscosmos/INSTRUCTIONS.md"
         ],
-        "blockers": []
+        "blockers": [
+          "Файлы пяти исправленных PNG старого чата не доступны в этом исполнении; известны только file IDs, sha256, размеры."
+        ]
       },
-      "updated_at": "2026-11-04T22:36:50+00:00"
+      "updated_at": "2026-11-05T18:46:42.431Z",
+      "last_commit": "0d9a7763d6d3d2980644474fa1ea6099a6d59c74",
+      "blockers": [
+        "Файлы пяти исправленных PNG старого чата не доступны в этом исполнении; известны только file IDs, sha256, размеры."
+      ]
     }
   ],
   "completed_work": [],
   "resume_focus": {
     "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
     "project": "roscosmos",
-    "set_at": "2026-11-04T22:36:50+00:00",
-    "reason": "Explicitly selected by the authorized task writer"
+    "set_at": "2026-11-05T18:46:42.431Z",
+    "reason": "Explicit owner command to finish stalled chats; prompt fixes committed, exact PNG bytes unavailable"
   },
-  "last_updated_at": "2026-11-04T22:36:50+00:00"
+  "last_updated_at": "2026-11-05T18:46:42.431Z"
 }
