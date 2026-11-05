@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-05T00:05:34.181Z",
   "source_head": "38556ad5de4d1b67bf9c7f09226305051b6a4268",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_completed",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector; live 14-board scan",
   "scan_checked_at": "2026-11-05T00:02:47.507Z",
   "scan_scope": "14 boards; 18 physical video pages; 628 video tasks",
@@ -28,7 +28,7 @@
     "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
   "new_submissions": 0,
-  "outcome": "in_progress_no_free_slot",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -50,11 +50,11 @@
     "holder": "chatgpt:ordinary:473a2610-61ca-4013-bd3e-7b4c371870aa",
     "acquired_at": "2026-11-05T00:04:39.816Z",
     "expires_at": "2026-11-05T00:16:39.816Z",
-    "released_at": null,
-    "state": "held"
+    "released_at": "2026-11-05T00:06:57.659Z",
+    "state": "free"
   },
-  "completed_at": null,
-  "source_head_at_finish": null,
+  "completed_at": "2026-11-05T00:06:57.659Z",
+  "source_head_at_finish": "236dcb21e2316d6b543d33f36551abc29713de8f",
   "scan_validation": {
     "boards": 14,
     "physical_video_pages": 18,
@@ -95,5 +95,5 @@
     "scan_complete": true
   },
   "notification": "silent_no_free_slot",
-  "notes": "Read-only complete account-wide video scan: 14 boards,18 pages,628 tasks,6 active,0 free. 13 queue task IDs reconciled. No owner tasks open. TinyFish not invoked. This is a started receipt; finalize only under exact own live lease."
+  "notes": "Fresh read-only Topview scan on 5 Nov 2026 at 00:02:47Z: all 14 boards, 18 physical video pages, 628 videos; 599 success, 23 fail, 6 init, global 6/6 occupied. All six active on My First Board use Unlimited mode and 720p/16:9. All 13 submitted task IDs independently found, no claimed/submitting/submission_unknown. Fresh queue has 63 items; SHA and task-map match current queue-readiness as confirmed by latest Work receipt. No open owner tasks. Work HH:55 runtime 352b75e4-fe64-8333-8872-41cfb345ad55 completed; Relay last 937ef84d-0e00-8325-98dd-528b8fc33f3f was earlier. Bot issue #327 is superseded, not current capacity. Next ready S64-WAN30 priority0.9. Zero Create, zero Topview credits, no TinyFish call. This run only checked read-only and saved its own receipt, no other automation changed."
 }
