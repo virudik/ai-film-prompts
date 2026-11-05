@@ -13,8 +13,8 @@
   "lease_commit": "f85bfe6ffa95e6ba57b64c3ec11921ea7dea5c0b",
   "lease_holder": "chatgpt:ordinary:2812b3e1-b0ee-433b-8aea-5f5b88e523fe",
   "lease_acquired_at": "2026-11-05T18:35:19.941Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "started_at": "2026-11-05T18:26:03.386918Z",
   "receipt_started_at": "2026-11-05T18:36:10.760Z",
   "scan": {
@@ -104,7 +104,12 @@
     "holder": "chatgpt:ordinary:2812b3e1-b0ee-433b-8aea-5f5b88e523fe",
     "acquired_at": "2026-11-05T18:35:19.941Z",
     "expires_at": "2026-11-05T18:49:19.941Z",
-    "release": "pending"
+    "release": "released_in_final_commit",
+    "released_at": "2026-11-05T18:37:22.246Z"
   },
-  "updated_at": "2026-11-05T18:36:10.760Z"
+  "updated_at": "2026-11-05T18:37:22.246Z",
+  "completed_at": "2026-11-05T18:37:22.246Z",
+  "source_head_final": "021c90ff56c4c829dad61a2f57fb8209d3fb9a40",
+  "checked_at": null,
+  "checked_at_unavailable_reason": "Exact Topview scan completion timestamp not separately captured; completed before receipt_started_at"
 }
