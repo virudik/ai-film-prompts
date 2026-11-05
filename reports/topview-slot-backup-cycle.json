@@ -4,55 +4,35 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "1d003394-1c40-4493-8c9f-ac16563408ac",
-  "run_id": "cc426ea8-b738-8330-9307-041256411acc",
+  "execution_instance_id": "d8b65f90-0365-46fd-b873-1b3176b1b82d",
+  "run_id": "b5a6ed68-7d90-8327-83c7-9da03f1330b3",
   "runtime_run_id_source": "Automations.peek last_run.id in_progress this invocation",
   "route_generation": 3,
-  "source_head": "fc322ad1cbf547803fbd9f250e5a3c6e267a231b",
-  "lease_holder": "chatgpt:ordinary:1d003394-1c40-4493-8c9f-ac16563408ac",
-  "lease_acquired_at": "2026-11-05T17:08:19.365Z",
-  "phase": "finished",
-  "started_at": "2026-11-05T17:03:46.878362Z",
-  "receipt_started_at": "2026-11-05T17:08:44.114Z",
+  "source_head": "3278c97cf59dd810bd25d7133d47655a9c90a6d4",
+  "lease_holder": "chatgpt:ordinary:d8b65f90-0365-46fd-b873-1b3176b1b82d",
+  "lease_acquired_at": "2026-11-05T18:09:21.282Z",
+  "phase": "started",
+  "started_at": "2026-11-05T17:58:24.842101Z",
+  "receipt_started_at": "2026-11-05T18:10:31.077Z",
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 628,
-    "status_counts": {
-      "success": 599,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a"
-    ],
-    "all_active_board": "1a6244cf1ae747ef847d949a80d6133c",
-    "active_parameters_verified": {
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0
-    }
+    "complete": false,
+    "boards_scanned": 0,
+    "pages_scanned": 0,
+    "video_tasks_scanned": 0
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
   "new_submissions": [],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
-  "retryable": false,
-  "browser_transport": "not_used_no_free_slot",
+  "retryable": true,
+  "browser_transport": "not_used",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
@@ -66,45 +46,8 @@
     "file_upload": false,
     "unlimited_zero_preflight": false,
     "new_task_id_verified": false,
-    "complete_no_op": true
+    "complete_no_op": false
   },
-  "source_head_final": "3de034153ef2a046716862d6c87b9bc1ebff44e4",
-  "status": "completed",
-  "completed_at": "2026-11-05T17:11:22.182Z",
-  "checked_at": "2026-11-05T17:06:02.909Z",
-  "queue_reconciliation": {
-    "total": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 28,
-      "submitted": 13,
-      "blocked_inputs": 21
-    },
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "submitted_ids_verified": 13,
-    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "8c6175d45445708a40e64a7f5059f4e28ae527d80ebc6a4af01cdf273f4c4061",
-    "readiness_hashes_match": true,
-    "next_ready": {
-      "id": "S64-WAN30",
-      "priority": 0.9
-    }
-  },
-  "peer_reconciliation": {
-    "ordinary_actual_last_run_id": "cc426ea8-b738-8330-9307-041256411acc",
-    "ordinary_latest_result_run_id": "6c12664f-4b44-8325-98a0-32ecfd729cf6",
-    "work_last_run_id": "b8620984-bb9c-8326-933b-6eb69a148c4e",
-    "relay_last_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f"
-  },
-  "owner_tasks_open": 0,
-  "topview_credits_spent": 0,
-  "notification": "no_update",
-  "lease": {
-    "holder": "chatgpt:ordinary:1d003394-1c40-4493-8c9f-ac16563408ac",
-    "acquired_at": "2026-11-05T17:08:19.365Z",
-    "expires_at": "2026-11-05T17:38:19.365Z",
-    "release": "pending"
-  }
+  "status": "in_progress",
+  "updated_at": "2026-11-05T18:10:31.077Z"
 }
