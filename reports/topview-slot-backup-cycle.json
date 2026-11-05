@@ -11,28 +11,48 @@
   "source_head": "3278c97cf59dd810bd25d7133d47655a9c90a6d4",
   "lease_holder": "chatgpt:ordinary:d8b65f90-0365-46fd-b873-1b3176b1b82d",
   "lease_acquired_at": "2026-11-05T18:09:21.282Z",
-  "phase": "started",
+  "phase": "finished",
   "started_at": "2026-11-05T17:58:24.842101Z",
   "receipt_started_at": "2026-11-05T18:10:31.077Z",
   "scan": {
-    "complete": false,
-    "boards_scanned": 0,
-    "pages_scanned": 0,
-    "video_tasks_scanned": 0
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 628,
+    "status_counts": {
+      "success": 599,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "all_active_board": "1a6244cf1ae747ef847d949a80d6133c",
+    "active_parameters_verified": {
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0
+    }
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
   "new_submissions": [],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
-  "browser_transport": "not_used",
+  "retryable": false,
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
@@ -46,8 +66,46 @@
     "file_upload": false,
     "unlimited_zero_preflight": false,
     "new_task_id_verified": false,
-    "complete_no_op": false
+    "complete_no_op": true
   },
-  "status": "in_progress",
-  "updated_at": "2026-11-05T18:10:31.077Z"
+  "status": "completed",
+  "updated_at": "2026-11-05T18:14:42.819Z",
+  "source_head_final": "193b58b8b06a1544856a9286291c2ab6f78a9271",
+  "completed_at": "2026-11-05T18:14:42.819Z",
+  "checked_at": "2026-11-05T18:13:31.582Z",
+  "queue_reconciliation": {
+    "total": 63,
+    "state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 28,
+      "submitted": 13,
+      "blocked_inputs": 21
+    },
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "submitted_ids_verified": 13,
+    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+    "task_map_sha256": "87a0bc97f25aa71be733222f749e79f26b3978104111e5e9d6f6212e5d9c9919",
+    "readiness_hashes_match": true,
+    "next_ready": {
+      "id": "S64-WAN30",
+      "priority": 0.9
+    }
+  },
+  "peer_reconciliation": {
+    "ordinary_actual_last_run_id": "b5a6ed68-7d90-8327-83c7-9da03f1330b3",
+    "ordinary_latest_result_run_id": null,
+    "work_last_run_id": "b9186db2-7294-8331-9a79-13dcad30b77f",
+    "relay_last_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f"
+  },
+  "owner_tasks_open": 0,
+  "topview_credits_spent": 0,
+  "notification": "no_update",
+  "lease": {
+    "holder": "chatgpt:ordinary:d8b65f90-0365-46fd-b873-1b3176b1b82d",
+    "acquired_at": "2026-11-05T18:09:21.282Z",
+    "expires_at": "2026-11-05T18:34:21.282Z",
+    "release": "pending"
+  }
 }
