@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-05T15:02:48.217Z",
+  "last_updated_at": "2026-11-05T16:08:11.485Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-05T15:02:48.217Z",
+      "updated_at": "2026-11-05T16:08:11.485Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -91,7 +91,7 @@
         "result": "No GitHub mail newer than the prior successful check; current health files and actual Actions are healthy."
       },
       "last_topview_scan": {
-        "checked_at": "2026-11-05T15:02:48.217Z",
+        "checked_at": "2026-11-05T16:08:11.485Z",
         "complete": true,
         "boards": 14,
         "pages": 18,
@@ -112,7 +112,7 @@
           "c72c1ab4524e4f2f9d3a0272474f788a"
         ],
         "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-        "task_map_sha256": "41f79d2e342408ba151696b4c5e921e95b16a87a4d2a43f21d021b0df0d5be10",
+        "task_map_sha256": "4a0488b7eaa6c93b51c4f225c595136986f21664ea08b4dad0637719267b4be3",
         "readiness_hashes_match": true,
         "submitted_task_ids_verified": 13,
         "unknown_submissions": 0
@@ -433,8 +433,8 @@
         "report": "reports/topview-quality-2026-11-03/S62-SEED20-P1-0de1f663-review.json"
       },
       "last_hourly_cycle": {
-        "checked_at": "2026-11-05T15:02:48.217Z",
-        "cycle": "17:55 Europe/Moscow",
+        "checked_at": "2026-11-05T16:08:11.485Z",
+        "cycle": "18:55 Europe/Moscow",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "relay_events": 0,
@@ -443,10 +443,10 @@
         "phase_b_due": false,
         "phase_c_due": false,
         "ordinary_peer": {
-          "actual_last_run_id": "161b4f26-4164-832e-83d0-7d74cf065d13",
+          "actual_last_run_id": "6c12664f-4b44-8325-98a0-32ecfd729cf6",
           "actual_last_run_status": "in_progress",
-          "latest_result_run_id": "1a5e68b1-ce80-8323-8b1b-0c60c89ab570",
-          "receipt_run_id": "1a5e68b1-ce80-8323-8b1b-0c60c89ab570",
+          "latest_result_run_id": "161b4f26-4164-832e-83d0-7d74cf065d13",
+          "receipt_run_id": "161b4f26-4164-832e-83d0-7d74cf065d13",
           "match": false,
           "reason": "current ordinary run is in_progress; latest_result and receipt belong to the previous run and do not prove current execution"
         },
@@ -455,11 +455,11 @@
         "result": "Fresh full scan confirmed 6/6 occupied; no Create/retry/credits; phases A/B/C not due."
       },
       "last_peer_reconciliation": {
-        "checked_at": "2026-11-05T15:02:48.217Z",
-        "ordinary_last_run_id": "161b4f26-4164-832e-83d0-7d74cf065d13",
+        "checked_at": "2026-11-05T16:08:11.485Z",
+        "ordinary_last_run_id": "6c12664f-4b44-8325-98a0-32ecfd729cf6",
         "ordinary_last_run_status": "in_progress",
-        "ordinary_latest_result_run_id": "1a5e68b1-ce80-8323-8b1b-0c60c89ab570",
-        "ordinary_receipt_run_id": "1a5e68b1-ce80-8323-8b1b-0c60c89ab570",
+        "ordinary_latest_result_run_id": "161b4f26-4164-832e-83d0-7d74cf065d13",
+        "ordinary_receipt_run_id": "161b4f26-4164-832e-83d0-7d74cf065d13",
         "ordinary_receipt_phase": "completed",
         "receipt_matches_current_run": false,
         "receipt_finished": true,
