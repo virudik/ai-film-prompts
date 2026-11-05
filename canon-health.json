@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-05T18:50:24Z",
-  "status": "warn",
-  "warnings": 2,
+  "checked_at": "2026-11-05T18:55:10Z",
+  "status": "ok",
+  "warnings": 0,
   "info": 10,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
@@ -65,18 +65,6 @@
       "code": "ops-stale",
       "text": "ops/TOPVIEW-VIDEO-ARCHIVE.md: проверялся 18.10.2026, больше 14 дней назад.",
       "file": "ops/TOPVIEW-VIDEO-ARCHIVE.md"
-    },
-    {
-      "level": "warn",
-      "code": "status-health",
-      "text": "Роскосмос: project-status.json health = error.",
-      "file": "projects/roscosmos/project-status.json"
-    },
-    {
-      "level": "warn",
-      "code": "queue-scene-gone",
-      "text": "Роскосмос: в очереди ждут сцены, которых нет в мастере проекта: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.",
-      "file": "projects/roscosmos/ops/topview-launch-queue.json"
     }
   ]
 }
