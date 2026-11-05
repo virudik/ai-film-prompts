@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-04T20:58:14.519Z",
+  "last_updated_at": "2026-11-05T07:02:18.530Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-04T20:58:14.519Z",
+      "updated_at": "2026-11-05T07:02:18.530Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -33,39 +33,26 @@
       "automation_schedule": "hourly HH:55 Europe/Moscow",
       "new_automations": 0,
       "last_phase_ab_check": {
-        "checked_at": "2026-11-04T18:12:30Z",
-        "cycle": "20:55 Europe/Moscow",
+        "checked_at": "2026-11-05T07:02:18.530Z",
+        "cycle": "09:55 Europe/Moscow",
         "self_heal": "ok",
         "owner_tasks_open": 0,
         "owner_tasks_taken": 0,
         "claude_open_over_3h": 0,
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-11-04T18:10:09Z",
+          "synced_at": "2026-11-05T06:52:34Z",
           "fresh_under_40_minutes": true,
           "instruction_health": "ok"
         },
         "canon_health": {
           "status": "ok",
-          "checked_at": "2026-11-04T18:10:32Z",
+          "checked_at": "2026-11-05T01:59:23Z",
           "warnings": 0,
-          "info": 9,
-          "cleanup": {
-            "handoff_bytes_before": 35143,
-            "handoff_bytes_after": 34212,
-            "archive_commits": [
-              "f0f2bf1a7bd0e8822b00f8b7140e94b8564fe179",
-              "ed8374a7772cd948abb9e1b184cd792d9a4dfbac"
-            ],
-            "handoff_commits": [
-              "f4291b33407a5bb40d261b625ddd3e53a1fb2294",
-              "899635aedad9761203427be12e9017530cb85c5d"
-            ],
-            "recertify_commit": "9db8ccc19e831638b40f537a6fe8ef05dbd12bb6"
-          }
+          "info": 11
         },
         "gmail_query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/03 -in:spam -in:trash",
-        "gmail_results": 13,
+        "gmail_results": 19,
         "gmail_all_pages": true,
         "gmail_next_page_token": null,
         "gmail_state_unchanged": true,
@@ -73,18 +60,31 @@
         "overlap_hours": 24,
         "new_messages": [
           {
-            "message_id": "1a1a675f88d3fe65",
-            "header_message_id": "<virudik/ai-film-prompts/check-suites/CS_kwDOUdbzfM8AAAAaY2dqAg/1793794090@github.com>",
-            "run_id": 41826591451,
+            "message_id": "1a1a7bf38a4e5536",
+            "run_id": 41883930144,
             "workflow": "Canon health (stale, oversized and broken canon parts)",
-            "commit": "d748b7ad75664788b8addf2dd159d61c65a27215",
-            "classification": "resolved by handoff cleanup; later canon-health run 41884294876 success/status ok"
+            "commit": "f4291b33407a5bb40d261b625ddd3e53a1fb2294",
+            "classification": "resolved; log was warning notification step, later run 41884294876 success"
+          },
+          {
+            "message_id": "1a1a7c083a147a8d",
+            "run_id": 41883930140,
+            "workflow": "AI Film integration recovery tests",
+            "commit": "f4291b33407a5bb40d261b625ddd3e53a1fb2294",
+            "classification": "resolved after instruction recertification; later run 41907513853 success"
+          },
+          {
+            "message_id": "1a1a7c2497275cad",
+            "run_id": 41884294540,
+            "workflow": "AI Film integration recovery tests",
+            "commit": "899635aedad9761203427be12e9017530cb85c5d",
+            "classification": "resolved after instruction recertification; later run 41907513853 success"
           }
         ],
         "action_jobs_verified": {
-          "self_heal": {
-            "run_id": 41880725693,
-            "conclusion": "success"
+          "canon_health_signal": {
+            "run_id": 41883930144,
+            "conclusion": "failure_notification_step_for_new_warning"
           },
           "canon_health_current": {
             "run_id": 41884294876,
@@ -99,18 +99,27 @@
             "conclusion": "success"
           },
           "integration_first": {
+            "run_id": 41883930140,
+            "conclusion": "failure_stale_instruction_mirror_certificate"
+          },
+          "integration_second": {
             "run_id": 41884294540,
-            "conclusion": "failure_pre_recertification_instruction_mirror",
-            "followup": "pending_after_checkpoint"
+            "conclusion": "failure_pre_recertification_instruction_mirror"
+          },
+          "integration_post_recertification": {
+            "run_id": 41907513853,
+            "commit": "9a03f2d7ae02750da1e5cf0144c1a3311fd2a2d7",
+            "conclusion": "success"
           }
         },
         "current_verification": {
           "current_failure": false,
-          "repair_performed": true,
+          "repair_performed": false,
+          "prior_recertification_commit": "9db8ccc19e831638b40f537a6fe8ef05dbd12bb6",
           "blind_rerun_performed": false
         },
         "monitor_role": "not_checked: local checkout unavailable; robot heartbeat not imitated",
-        "result": "Canon-health warning fixed and current status ok; one new email signal mapped to exact run/log and resolved without blind rerun."
+        "result": "All new GitHub failure signals mapped to exact runs/logs and verified resolved by later successful runs; no duplicate repair."
       },
       "last_topview_scan": {
         "checked_at": "2026-11-04T20:58:14.519Z",
