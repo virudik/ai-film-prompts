@@ -2,18 +2,18 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "ac9adfd2-9ed7-41d6-94bc-1c96ed794769",
-  "run_id": "a56c5b39-835c-8322-bbe0-ed090f390116",
-  "run_id_source": "Automations.peek current last_run.id (in_progress)",
-  "scheduled_for": "2026-11-05T05:00:00Z",
-  "started_at": "2026-11-05T05:04:02.073671Z",
-  "receipt_started_at": "2026-11-05T05:11:58.512Z",
-  "source_head": "b39e804906449dd5bff48e049c13e2684fa86bd7",
+  "execution_instance_id": "9d3ed607-9f14-4d1c-bb84-87afeef1da97",
+  "run_id": "924fb75a-769c-832d-ba47-ac2e88de1402",
+  "run_id_source": "Automations.peek last_run.id in_progress",
+  "scheduled_for": "2026-11-05T06:00:00Z",
+  "started_at": "2026-11-05T05:58:42.746575Z",
+  "receipt_started_at": "2026-11-05T06:11:16.184Z",
+  "source_head": "96b44d6eb35f114f40fe9ee75acf3c598dbcf1d7",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "verified_read_only_no_free_slot",
+  "phase": "started",
+  "stage": "read_only_scanned; validating reconciliation",
   "scan_source": "Topview connector",
-  "scan_scope": "14 boards, 18 physical video pages, 628 video tasks",
+  "scan_scope": "14 boards, 18 video pages",
   "scan_complete": true,
   "occupied_slots": 6,
   "free_slots": 0,
@@ -27,7 +27,7 @@
     "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
   "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "checking",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -47,78 +47,9 @@
   },
   "lease": {
     "state": "held",
-    "holder": "chatgpt:ordinary:ac9adfd2-9ed7-41d6-94bc-1c96ed794769",
-    "acquired_at": "2026-11-05T05:11:17.401Z",
-    "expires_at": "2026-11-05T05:23:17.401Z",
+    "holder": "chatgpt:ordinary:9d3ed607-9f14-4d1c-bb84-87afeef1da97",
+    "acquired_at": "2026-11-05T06:10:29.652Z",
+    "expires_at": "2026-11-05T06:22:29.652Z",
     "released_at": null
-  },
-  "notes": "5 Nov 2026 05:13Z complete 14-board/18-page Topview read-only scan: 628 video tasks, 599 success/23 fail/6 init, all six on My First Board with Unlimited true/creditsCost 0/720p/16:9. All 13 canonical submitted task IDs independently checked via get_board_task, none missing. Live queue/map SHA256 matched readiness; next ready S64-WAN30 priority 0.9. No open owner tasks. No browser/Create/credits. TinyFish production launch remains unverified. Preferred Work route is per prior evidence; no new Work UI/quota proof this cycle.",
-  "scan_checked_at": "2026-11-05T05:13:04.209Z",
-  "final_active_recheck_at": "2026-11-05T05:13:04.209Z",
-  "scan_validation": {
-    "boards": 14,
-    "physical_video_pages": 18,
-    "total_video_tasks": 628,
-    "status_counts": {
-      "success": 599,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a"
-    ],
-    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "3d0f48b700260a7acae0698432c415a2a4e08a6394b541994f73847070ad7c97",
-    "readiness_hashes_match": true,
-    "next_ready_item": "S64-WAN30",
-    "next_ready_priority": 0.9,
-    "scan_complete": true,
-    "active_unlimited0": 6,
-    "submitted_queue_tasks_reconciled": 13,
-    "submitted_task_ids_found": 13,
-    "submitted_missing": 0,
-    "queue_item_count": 63,
-    "queue_state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 28,
-      "submitted": 13,
-      "blocked_inputs": 21
-    },
-    "pending_claims": 0,
-    "pending_submitting": 0,
-    "pending_unknown": 0,
-    "readiness_checked_at": "2026-11-05T04:20:38.576083Z",
-    "final_task_recheck_at": "2026-11-05T05:13:04.209Z"
-  },
-  "peer_reconciliation": {
-    "ordinary_run_id": "a56c5b39-835c-8322-bbe0-ed090f390116",
-    "ordinary_status_at_intake": "in_progress",
-    "ordinary_previous_latest_result_run_id": "14c4cc0a-40e8-832b-8854-ff97cf038bce",
-    "work_hh55_run_id": "2758a63c-e7b4-832c-a51e-9dd4f398deaa",
-    "work_hh55_status": "completed",
-    "relay_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
-    "relay_status": "completed"
-  },
-  "work_capacity": {
-    "preferred_executor": "work",
-    "route_unchanged": true,
-    "prior_verified_evidence": "263e2ef6e5c661fefe06ba1e9af90e97f4120a6e",
-    "this_cycle_new_gui_or_quota_evidence": false
-  },
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "accounting": {
-    "checkpoint_updated": false,
-    "register_updated": false,
-    "reason": "no material scene change; routine 6/6 no-op"
-  },
-  "notification": "silent_no_free_slot",
-  "completed_at": "2026-11-05T05:13:53.397Z"
+  }
 }
