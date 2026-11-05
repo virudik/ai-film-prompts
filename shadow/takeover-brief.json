@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-11-05T20:03:51+00:00",
+ "generated_at": "2026-11-05T20:43:54+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "f2a727279d8420719192c09c40ecbae5d5c244c1f08974b0e3e51c8032dd8780",
-   "bytes": 1352478
+   "sha256": "d4eb3e810b747cae721d07da8e411773bed39f4edcb0045909d0b6c403815b43",
+   "bytes": 1352893
   }
  ],
  "invariants": [
@@ -297,7 +297,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 41677,
+   "offset": 41915,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -319,7 +319,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 68014,
+   "offset": 68252,
    "chars": 28537,
    "sha256_12": "1cb49f8adfc7"
   },
@@ -340,7 +340,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 96551,
+   "offset": 96789,
    "chars": 178751,
    "sha256_12": "4e9c4089194a"
   },
@@ -358,7 +358,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 275302,
+   "offset": 275540,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -380,7 +380,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 291658,
+   "offset": 291896,
    "chars": 23987,
    "sha256_12": "ee119b556282"
   },
@@ -402,7 +402,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 315645,
+   "offset": 315883,
    "chars": 32497,
    "sha256_12": "809d46f72e41"
   },
@@ -426,7 +426,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 348142,
+   "offset": 348380,
    "chars": 28767,
    "sha256_12": "c95650c748d9"
   },
@@ -450,7 +450,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 376909,
+   "offset": 377147,
    "chars": 43110,
    "sha256_12": "41ef13e7084a"
   },
@@ -477,7 +477,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 420019,
+   "offset": 420257,
    "chars": 98879,
    "sha256_12": "d1b6857d7c44"
   },
@@ -500,7 +500,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 518898,
+   "offset": 519136,
    "chars": 25674,
    "sha256_12": "dfe4a2e45e04"
   },
@@ -527,7 +527,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 544572,
+   "offset": 544810,
    "chars": 107166,
    "sha256_12": "7cd601059591"
   },
@@ -549,7 +549,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 651738,
+   "offset": 651976,
    "chars": 87055,
    "sha256_12": "5a14842cf82c"
   },
@@ -572,7 +572,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 738793,
+   "offset": 739031,
    "chars": 26585,
    "sha256_12": "73dc1bb6e064"
   },
@@ -594,7 +594,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 765378,
+   "offset": 765616,
    "chars": 26096,
    "sha256_12": "c12ca1c3d38d"
   },
@@ -620,7 +620,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 791474,
+   "offset": 791712,
    "chars": 27707,
    "sha256_12": "9b7b68faabdc"
   },
@@ -641,7 +641,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 819181,
+   "offset": 819419,
    "chars": 35496,
    "sha256_12": "3b3fba5cf5f7"
   },
@@ -663,7 +663,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 854677,
+   "offset": 854915,
    "chars": 33219,
    "sha256_12": "27db03e5035b"
   },
@@ -683,7 +683,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 887896,
+   "offset": 888134,
    "chars": 25054,
    "sha256_12": "5fd864ce0015"
   },
@@ -705,7 +705,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 912950,
+   "offset": 913188,
    "chars": 29479,
    "sha256_12": "2c7a573b4313"
   },
@@ -725,7 +725,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 942429,
+   "offset": 942667,
    "chars": 23482,
    "sha256_12": "c5ad053571f9"
   },
@@ -734,7 +734,7 @@
    "title": "Звёздный разрушитель: Серёга пританцовывает по коридору",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -744,9 +744,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 965911,
-   "chars": 19278,
-   "sha256_12": "62a1603193f3"
+   "offset": 966149,
+   "chars": 19307,
+   "sha256_12": "e63a2893be3e"
   },
   {
    "id": 65,
@@ -766,7 +766,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 985189,
+   "offset": 985456,
    "chars": 24736,
    "sha256_12": "6cb6303199f5"
   },
@@ -791,7 +791,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 1009925,
+   "offset": 1010192,
    "chars": 32787,
    "sha256_12": "03383b939476"
   },
@@ -812,7 +812,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1042712,
+   "offset": 1042979,
    "chars": 22393,
    "sha256_12": "78c6a4427c70"
   },
@@ -836,7 +836,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1065105,
+   "offset": 1065372,
    "chars": 29608,
    "sha256_12": "741dfcf03866"
   },
@@ -860,7 +860,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 1094713,
+   "offset": 1094980,
    "chars": 30374,
    "sha256_12": "046fba19139c"
   },
@@ -881,7 +881,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 1125087,
+   "offset": 1125354,
    "chars": 22834,
    "sha256_12": "aebb6d03780f"
   },
@@ -901,7 +901,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1147921,
+   "offset": 1148188,
    "chars": 33591,
    "sha256_12": "0d56574ca984"
   },
@@ -921,7 +921,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 1181512,
+   "offset": 1181779,
    "chars": 32355,
    "sha256_12": "719d4dacd6a8"
   }
