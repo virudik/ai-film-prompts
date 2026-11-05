@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "roscosmos",
-  "state": "held",
-  "holder": "chatgpt:interactive:0a1c3c20-5fd8-4c76-bb2f-87e1f78177b5",
+  "state": "free",
+  "holder": null,
   "task": "Terra Tech 26–30: finish canonical prompt fixes and reference recovery",
   "acquired_at": "2026-11-05T18:40:46.833Z",
-  "expires_at": "2026-11-05T19:25:46.833Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-05T18:47:35.926Z",
   "rules": "ops/CANON-LOCK.md"
 }
