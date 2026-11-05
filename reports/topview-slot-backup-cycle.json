@@ -1,23 +1,31 @@
 {
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
+  "project": "seregius",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "630976c7-ad9e-44fa-82e5-5d2f24bf89d0",
-  "run_id": "c993150f-d4b0-832f-ada6-368f56f36db0",
-  "run_id_source": "Automations.peek current last_run.id in_progress",
-  "scheduled_for": "2026-11-05T08:00:00Z",
-  "started_at": "2026-11-05T08:00:54.456638Z",
-  "receipt_started_at": "2026-11-05T08:11:29.178Z",
-  "source_head": "ba9b1d9f6bb17cc907f1aee3ce3077cf0f622e65",
+  "execution_instance_id": "82798d36-176e-45c7-9434-dd521aafbff7",
+  "run_id": "1d2e937e-57fc-8326-a863-8a0ba9d75b63",
+  "run_id_source": "Automations.peek last_run.id in_progress, scheduled_for 2026-11-05T09:00:00Z",
+  "started_at": "2026-11-05T09:02:10.181991Z",
+  "receipt_started_at": "2026-11-05T09:13:45.774Z",
+  "source_head": "ea1d9507a083754ebd5015db11ef9f93fa02d8cb",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "verified_no_free_slot_complete_global_scan",
-  "scan_source": "Topview read-only connector + GitHub robot cross-check",
-  "scan_scope": "14 boards, 20 board pages including empty boards; 1012 total board items; 628 physical video tasks (599 success, 23 fail, 6 init).",
+  "phase": "started",
   "scan_complete": true,
+  "scan": {
+    "boards": 14,
+    "pages": 18,
+    "total_video_tasks": 628,
+    "statuses": {
+      "success": 599,
+      "fail": 23,
+      "init": 6
+    },
+    "source": "Live Topview connector full video-task scan",
+    "complete": true
+  },
   "occupied_slots": 6,
   "free_slots": 0,
-  "capacity_basis": "Six distinct init video task IDs on My First Board each independently checked read-only: Unlimited=true, creditsCost=0, resolution=720, aspect 16:9; global limit 6. New Create prohibited.",
   "selected_item": null,
   "task_ids": [
     "365cf639589a4a5da834d70193d5e8f6",
@@ -27,100 +35,27 @@
     "22dbd25cdd9f47cd9e44300e55f5e44f",
     "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
-  "new_submissions": 0,
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
-  "tinyfish_estimated_cost_usd": 0,
-  "tinyfish_confirmed_charge_usd": 0,
+  "tinyfish_cost_usd": 0,
   "topview_credits_spent": 0,
+  "new_submissions": 0,
   "acceptance": {
-    "scheduled_invocation": true,
-    "tinyfish_profile_previously_tested": true,
-    "tinyfish_current_login_verified": false,
-    "tinyfish_file_transfer_verified": false,
-    "tinyfish_unlimited0_preflight_verified": false,
-    "tinyfish_end_to_end_create_verified": false,
-    "new_task_id_verified": false
+    "scheduled_hourly_execution": "verified_actual_run_id",
+    "tinyfish_saved_signin": "historical_test_only",
+    "tinyfish_file_upload": "unverified",
+    "tinyfish_unlimited_zero": "unverified",
+    "tinyfish_production_submission": "unverified",
+    "topview_new_task_id": null
   },
   "lease": {
-    "state": "released",
-    "holder": "chatgpt:ordinary:630976c7-ad9e-44fa-82e5-5d2f24bf89d0",
-    "acquired_at": "2026-11-05T08:08:45.046Z",
-    "expires_at": null,
-    "released_at": "2026-11-05T08:16:59.341Z"
-  },
-  "completed_at": "2026-11-05T08:16:59.341Z",
-  "source_head_at_finish": "2ace3ac482fbd66ec6972bc6422973561fa7a130",
-  "scan_validation": {
-    "boards_enumerated": 14,
-    "boards_accessible": 14,
-    "board_pages_completed": 20,
-    "board_pages_expected": 20,
-    "board_items_scanned": 1012,
-    "video_tasks_scanned": 628,
-    "status_counts_verified": {
-      "success": 599,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a"
-    ],
-    "active_unlimited0": 6,
-    "submitted_queue_tasks_reconciled": 13,
-    "submitted_task_ids_found": 13,
-    "submitted_missing": 0,
-    "queue_item_count": 63,
-    "queue_state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 28,
-      "submitted": 13,
-      "blocked_inputs": 21
-    },
-    "pending_claims": 0,
-    "pending_submitting": 0,
-    "pending_unknown": 0,
-    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "be8f7031010970d97b6482fe33c6d48eb2e14656a107ae4f2b2c2d8e07ed9b25",
-    "readiness_hashes_match": true,
-    "readiness_checked_at": "2026-11-05T08:10:31.498308Z",
-    "next_ready_item": "S64-WAN30",
-    "next_ready_priority": 0.9,
-    "robot_latest_scan_at": "2026-11-05T08:10:24Z"
-  },
-  "peer_reconciliation": {
-    "ordinary_run_id": "c993150f-d4b0-832f-ada6-368f56f36db0",
-    "ordinary_status_at_intake": "in_progress",
-    "work_hh55_run_id": "7943ce77-0240-8325-8b87-93172ff4df1b",
-    "work_hh55_status": "completed",
-    "work_hh55_completed_at": "2026-11-05T08:05:49.640507Z",
-    "relay_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
-    "relay_status": "completed",
-    "source_wake_events_reused_as_current_capacity": false
-  },
-  "owner_tasks": {
-    "open": 0,
-    "taken": 0
-  },
-  "work_capacity": {
-    "preferred_executor": "work",
-    "route_unchanged": true,
-    "this_cycle_new_gui_or_quota_evidence": false
-  },
-  "accounting": {
-    "checkpoint_updated": false,
-    "register_updated": false,
-    "reason": "No queue state change; no-op at six occupied slots."
-  },
-  "notification": "silent_no_free_slot",
-  "notes": "5 Nov 2026 HH:00 cycle: own read-only Topview complete 14 boards 20 pages 628 videos; all 6 init independently verified Unlimited0/720p/16:9; 13 queue submitted IDs independently read; queue+map raw SHA256 recomputed and match readiness. GitHub robot cycle at 08:10Z confirms 6/6. No TinyFish, claim, intent, Create or Topview credit expense. Lock acquired own CAS and released only own exact lease in atomic final receipt commit."
+    "holder": "chatgpt:ordinary:82798d36-176e-45c7-9434-dd521aafbff7",
+    "acquired_at": "2026-11-05T09:12:49.602Z",
+    "expires_at": "2026-11-05T09:18:49.602Z",
+    "acquire_commit": "6b95bf837c39abea0bf6219c556cdfcf03eed1ad"
+  }
 }
