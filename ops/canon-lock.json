@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:work:729adf69-d163-48b3-9228-83a16a0612b0",
   "task": "Seregius HH:55 Work cycle: full Topview scan",
   "acquired_at": "2026-11-05T11:00:28.843Z",
-  "expires_at": "2026-11-05T11:20:28.843Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-05T11:02:50.361Z",
   "rules": "ops/CANON-LOCK.md"
 }
