@@ -93,7 +93,8 @@ class MigrationTests(unittest.TestCase):
                 self.assertIn("16:9", text)
                 self.assertNotIn("9:16", text)
             pngs = list(folder.glob("*.png"))
-            self.assertEqual(len(pngs), 2, n)
+            live = [p for p in pngs if not p.name.endswith("-old.png")]
+            self.assertEqual(len(live), 2, n)
             for png in pngs:
                 head = png.read_bytes()[:24]
                 self.assertEqual(head[:8], b"\x89PNG\r\n\x1a\n", png.name)
@@ -102,6 +103,15 @@ class MigrationTests(unittest.TestCase):
         self.assertIn("Aspect ratio: 16:9", tail)
         self.assertNotIn("Aspect ratio: 9:16", tail)
         self.assertNotIn("1080×1920", tail)
+        self.assertNotIn("authored vertical concepts", tail)
+        self.assertNotIn("a landscape 16:9 crop", tail)
+        self.assertNotIn("landscape crop", tail)
+        self.assertNotIn("through the tall frame", tail)
+        self.assertNotIn("set the tall print upright", tail)
+        self.assertNotIn("set the print upright", tail)
+        self.assertNotIn("Цифру на экране мы не обещаем", tail)
+        self.assertIn("Выбираешь территорию и задачу. Сервис подбирает снимки и показывает результат.", tail)
+        self.assertIn("No portrait crop", tail)
         refs = json.loads((ROOT / "projects/roscosmos/character-references.json").read_text(encoding="utf-8"))
         tt = [a for a in refs["assets"] if a["id"].startswith("roscosmos-tt-")]
         self.assertEqual(len(tt), 10)

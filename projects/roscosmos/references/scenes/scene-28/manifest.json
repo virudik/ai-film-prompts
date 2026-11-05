@@ -2,11 +2,11 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 28,
-  "updated_at": "2026-11-03T00:35:16+00:00",
+  "updated_at": "2026-11-05T19:40:00+00:00",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
-      "caption": "Терра Тех: кроны и одна вырубка",
+      "caption": "Терра Тех: кроны и один просвет",
       "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
       "created_by": "Grok Bot GenerateImage",
       "created_at": "2026-11-03T00:32:13+00:00",
@@ -22,7 +22,7 @@
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
-      "caption": "Терра Тех: две даты одной стопкой",
+      "caption": "Терра Тех: две даты слева и справа",
       "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
       "created_by": "Grok Bot GenerateImage",
       "created_at": "2026-11-03T00:35:16+00:00",

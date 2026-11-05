@@ -1623,8 +1623,8 @@
    "thumb_bytes": 72916,
    "src_sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859"
   },
-  "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.webp",
+  "projects/roscosmos/references/scenes/scene-26/tt26-orbit-old.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-orbit-old.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
@@ -1632,6 +1632,16 @@
    "src_bytes": 2095718,
    "thumb_bytes": 39266,
    "src_sha256": "b883e61e9a4de45264cc14da33bb5ccfdd11ddb72fe17eaf97645809ee0d4846"
+  },
+  "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2599612,
+   "thumb_bytes": 49160,
+   "src_sha256": "45e3d8c1bf48b9064c8f8de5bdb6a483197473cd968c69c6be21c8ef55d70387"
   },
   "projects/roscosmos/references/scenes/scene-26/tt26-report.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-report.png.webp",
@@ -1643,8 +1653,8 @@
    "thumb_bytes": 22778,
    "src_sha256": "fffa0a80b818404e1bd5866853176b475ebcc2e5fba8afdfa6308a90121ea0f0"
   },
-  "projects/roscosmos/references/scenes/scene-27/tt27-layer.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-layer.png.webp",
+  "projects/roscosmos/references/scenes/scene-27/tt27-layer-old.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-layer-old.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
@@ -1653,8 +1663,18 @@
    "thumb_bytes": 28666,
    "src_sha256": "595ade0e3e0468172a7885283483c05c4436e2ee9167abd50f0859ae6af175b4"
   },
-  "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.webp",
+  "projects/roscosmos/references/scenes/scene-27/tt27-layer.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-layer.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2277982,
+   "thumb_bytes": 40796,
+   "src_sha256": "830f4467266056693725bced627a78d160cb2fae839c89e45ca5b3dc6c2973ed"
+  },
+  "projects/roscosmos/references/scenes/scene-27/tt27-tablet-old.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-tablet-old.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
@@ -1662,6 +1682,16 @@
    "src_bytes": 1928637,
    "thumb_bytes": 41810,
    "src_sha256": "5d2b025aa9ef6dc8c647b663f53b0f8a183457f18c1acbdf16553381b108ac3f"
+  },
+  "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2391439,
+   "thumb_bytes": 41860,
+   "src_sha256": "3cccaf72aaabf0b61b365facd26719c5f6c445122cb477378dd44955401c13d4"
   },
   "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.webp",
@@ -1693,8 +1723,8 @@
    "thumb_bytes": 50006,
    "src_sha256": "8ec1688828166b27fcf1b1607915ad804d2d1c55fe08a8dcce69f7bb81f975b8"
   },
-  "projects/roscosmos/references/scenes/scene-29/tt29-print.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-29/tt29-print.png.webp",
+  "projects/roscosmos/references/scenes/scene-29/tt29-print-old.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-29/tt29-print-old.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
@@ -1702,6 +1732,16 @@
    "src_bytes": 1549648,
    "thumb_bytes": 23784,
    "src_sha256": "cbd664beb2e726a7484ade511c1acd8e2e74dd08db1846609b8a8c1e040ba230"
+  },
+  "projects/roscosmos/references/scenes/scene-29/tt29-print.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-29/tt29-print.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2132802,
+   "thumb_bytes": 23436,
+   "src_sha256": "782e91422fddc2158daa0dec81e7092685367211d12dab7f8464d63be4ba6747"
   },
   "projects/roscosmos/references/scenes/scene-3/q09-evening.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-3/q09-evening.png.webp",
@@ -1733,8 +1773,8 @@
    "thumb_bytes": 22552,
    "src_sha256": "36a755612d8614c4d8d0e32c2a05eee9cc803090dc72fc4eaafab2ccaf46b504"
   },
-  "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png": {
-   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.webp",
+  "projects/roscosmos/references/scenes/scene-30/tt30-sheet-old.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-30/tt30-sheet-old.png.webp",
    "width": 640,
    "height": 360,
    "src_width": 1672,
@@ -1742,6 +1782,16 @@
    "src_bytes": 1328523,
    "thumb_bytes": 20356,
    "src_sha256": "9028dd6c6447bf0f91912a2b2ecce8e460ccc793066c29209aa700e1c2dcc39d"
+  },
+  "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2000668,
+   "thumb_bytes": 27504,
+   "src_sha256": "a8092f60f15e0803cb3f0f2a7226fdee40086441f42c4d43d7be8f6097f92304"
   },
   "projects/roscosmos/references/scenes/scene-4/s10-spectral.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-4/s10-spectral.png.webp",

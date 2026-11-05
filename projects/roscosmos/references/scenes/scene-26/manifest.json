@@ -2,11 +2,11 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 26,
-  "updated_at": "2026-11-03T00:32:13+00:00",
+  "updated_at": "2026-11-05T19:40:00+00:00",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
-      "caption": "Терра Тех: аналитик и монитор с дельтой",
+      "caption": "Терра Тех: аналитик и широкий монитор",
       "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt",
       "created_by": "Grok Bot GenerateImage",
       "created_at": "2026-11-03T00:32:13+00:00",
@@ -22,19 +22,19 @@
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
-      "caption": "Терра Тех: та же дельта с орбиты",
+      "caption": "Терра Тех: та же дельта, яснее",
       "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt",
-      "created_by": "Grok Bot GenerateImage",
-      "created_at": "2026-11-03T00:32:13+00:00",
+      "created_by": "ChatGPT Work rescued original",
+      "created_at": "2026-11-05T19:40:00+00:00",
       "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "sha256": "b883e61e9a4de45264cc14da33bb5ccfdd11ddb72fe17eaf97645809ee0d4846",
+      "sha256": "45e3d8c1bf48b9064c8f8de5bdb6a483197473cd968c69c6be21c8ef55d70387",
       "scenes": [
         26
       ],
       "width": 1672,
       "height": 941,
-      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
+      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. Восстановленный кадр ChatGPT заменил прежний орбитальный снимок; предыдущий файл сохранён как tt26-orbit-old.png (sha256 b883e61e9a4de45264cc14da33bb5ccfdd11ddb72fe17eaf97645809ee0d4846). Офисный кадр с людьми не менялся. not_approved."
     }
   ]
 }
