@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kot-detektiv",
   "project_name": "Кот детектив",
-  "checked_at": "2026-11-05T22:13:49+00:00",
-  "source_head": "cd8d8fd6c90d0584598a6738e5f1b285c83219b0",
-  "source_fingerprint": "ab8c0a5be6406ba2ff74ef26c2bdaf44c903a358e78be499990b47aa12d0ead0",
+  "checked_at": "2026-11-05T22:34:01+00:00",
+  "source_head": "b6524c9459ca1d57d57a26f26f5706c19c8a1e46",
+  "source_fingerprint": "b0b34b26bfbdd1f904e6e7413000824c0f22b2ed6e73613f7424698a6d9ca47c",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -228,8 +228,8 @@
     },
     {
       "file": "projects/kot-detektiv/project-status.json",
-      "sha256": "542b8c240ca759af55e16aebe7fab3c45efc304866a7cea713896e05d3d06b92",
-      "bytes": 16728
+      "sha256": "3e71347f7ffd039551eb3f0ad3f5e40e1125c29364b79dd78fe15f57de0afba5",
+      "bytes": 16730
     },
     {
       "file": "projects/kot-detektiv/reports/current-work-checkpoint.md",
