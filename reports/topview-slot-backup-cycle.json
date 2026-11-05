@@ -2,18 +2,18 @@
   "schema_version": 1,
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "5c0b1b75-0738-4530-840c-0d84e2378ecc",
-  "run_id": "c03a9642-7310-8332-be23-a0e64c54b198",
-  "run_id_source": "Automations.peek last_run.id of this in_progress run (not preceding latest_result)",
-  "scheduled_for": "2026-11-05T01:00:00Z",
-  "started_at": "2026-11-05T00:58:09.712824Z",
-  "receipt_started_at": "2026-11-05T01:06:46.637Z",
-  "source_head": "e617ad04a0c52f1bf6f90c398c94afc035170a2f",
+  "execution_instance_id": "af911d7f-2dd3-442f-8f2f-2d27197c069c",
+  "run_id": "c2178950-4760-8329-ac90-a740dee25fdc",
+  "run_id_source": "Automations.peek current last_run.id (in_progress), not previous latest_result",
+  "scheduled_for": "2026-11-05T02:00:00Z",
+  "started_at": "2026-11-05T01:59:05.387214Z",
+  "receipt_started_at": "2026-11-05T02:06:59.423Z",
+  "source_head": "1e106e0a2d5a6f6340ffb5764689792610104bf8",
   "route_generation": 3,
-  "phase": "finished",
-  "stage": "finalized",
+  "phase": "started",
+  "stage": "read_only_scan_complete",
   "scan_source": "Topview connector; live 14-board video scan",
-  "scan_checked_at": "2026-11-05T01:00:43.093Z",
+  "scan_checked_at": "2026-11-05T02:02:10.598Z",
   "scan_scope": "14 boards; 18 physical video pages; 628 video tasks",
   "scan_complete": true,
   "occupied_slots": 6,
@@ -47,14 +47,12 @@
     "new_task_id_verified": false
   },
   "lease": {
-    "holder": "chatgpt:ordinary:5c0b1b75-0738-4530-840c-0d84e2378ecc",
-    "acquired_at": "2026-11-05T01:05:55.219Z",
-    "expires_at": "2026-11-05T01:17:55.219Z",
-    "state": "free",
-    "released_at": "2026-11-05T01:08:06.190Z"
+    "holder": "chatgpt:ordinary:af911d7f-2dd3-442f-8f2f-2d27197c069c",
+    "acquired_at": "2026-11-05T02:06:01.389Z",
+    "expires_at": "2026-11-05T02:18:01.389Z",
+    "state": "held",
+    "released_at": null
   },
-  "completed_at": "2026-11-05T01:08:06.190Z",
-  "source_head_at_finish": "618a88929ec70c819f38f3aed2a5aa6ca733cd0a",
   "scan_validation": {
     "boards": 14,
     "physical_video_pages": 18,
@@ -72,31 +70,11 @@
       "22dbd25cdd9f47cd9e44300e55f5e44f",
       "c72c1ab4524e4f2f9d3a0272474f788a"
     ],
-    "active_unlimited0": 6,
-    "submitted_queue_tasks_reconciled": 13,
-    "submitted_task_ids_found": 13,
-    "submitted_missing": 0,
-    "queue_item_count": 63,
-    "queue_state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 28,
-      "submitted": 13,
-      "blocked_inputs": 21
-    },
-    "pending_claims": 0,
-    "pending_submitting": 0,
-    "pending_unknown": 0,
     "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "079f16f717ca0b7f0d51484a70fe8b01d28e90e2b03cee779adda386646140fc",
+    "task_map_sha256": "0bc87634b0b39d986bda5a41577ba4019b783f6f8df8c4468aad96895b15a55c",
     "readiness_hashes_match": true,
-    "readiness_checked_at": "2026-11-05T00:40:33.542776Z",
     "next_ready_item": "S64-WAN30",
-    "next_ready_priority": 0.9,
-    "scan_complete": true,
-    "final_task_recheck_at": "2026-11-05T01:07:14.987Z",
-    "final_active_init": 6,
-    "source_hashes_checked_at": "2026-11-05T01:02:00Z"
+    "next_ready_priority": 0.9
   },
-  "notification": "silent_no_free_slot",
-  "notes": "5 Nov 2026 01:00Z fresh Topview all-board video scan 14 boards/18 pages/628 videos 599 success/23 fail/6 init. Six active My First Board tasks Unlimited0 720p/16:9, all 13 submitted task IDs independently verified. SHA queue/task-map match readiness. Work preferred restored verified since 2 Nov, Work HH:55 current run finished and released own lease. No Create, no credits, no TinyFish. No open owner tasks. Final live recheck of all six active task IDs at 01:07:14Z: all still init Unlimited0, no newly freed slot. Work HH:55 current completed run e9a0b34a-9cb0-8328-8884-a88b3eeeec15, receipt ef346550c2accc46c0476f7559efee0b333c22e3, Work lock released e617ad04a0c52f1bf6f90c398c94afc035170a2f. No action through TinyFish."
+  "notification": "silent_no_free_slot"
 }
