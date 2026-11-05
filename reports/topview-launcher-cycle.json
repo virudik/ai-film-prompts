@@ -3,19 +3,19 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "finished",
-  "status": "no_free_slot",
-  "result": "no_free_slot",
-  "run_id": "9aafdbd9-16c4-832e-802c-82f0cf201ce9",
+  "phase": "started",
+  "status": "in_progress",
+  "result": null,
+  "run_id": "7943ce77-0240-8325-8b87-93172ff4df1b",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress at intake)",
-  "execution_instance_id": "fb18f5c4-2de7-497b-983e-3a694cbbb192",
+  "execution_instance_id": "1a833ce9-8c0f-4ba3-a5d9-0e311789b279",
   "route_generation": 3,
-  "source_head": "e87f1001ec3bbd2e73b21965ac908f811a4cb610",
-  "source_head_at_receipt_start": "dbe915adb6ab852ef79e4d28e43190d8040e0109",
-  "lease_commit": "dbe915adb6ab852ef79e4d28e43190d8040e0109",
-  "started_at": "2026-11-05T06:53:17.765451Z",
-  "receipt_started_at": "2026-11-05T06:55:15.258Z",
-  "completed_at": "2026-11-05T07:03:35.411Z",
+  "source_head": "08d2e5b6c02d75ea528ee29754c4d88ec03c009a",
+  "source_head_at_receipt_start": "0926a2d287873944b3ff12b4b9a8f6f301ae1112",
+  "lease_commit": "0926a2d287873944b3ff12b4b9a8f6f301ae1112",
+  "started_at": "2026-11-05T07:57:25.538012Z",
+  "receipt_started_at": "2026-11-05T07:59:45.149Z",
+  "completed_at": null,
   "intake": {
     "monitor_role": {
       "status": "not_checked",
@@ -23,82 +23,37 @@
     }
   },
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 628,
-    "status_counts": {
-      "success": 599,
-      "fail": 23,
-      "init": 6
-    },
-    "active_videos": 6,
-    "scope": "all 14 boards and all 18 physical video pages"
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null,
+    "status_counts": null,
+    "active_videos": null,
+    "scope": "pending fresh all-board/all-page scan"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": null,
+    "free": null,
     "complete_scan_required": true,
-    "complete_scan_verified": true
+    "complete_scan_verified": false
   },
   "queue_reconciliation": {
-    "status": "complete",
-    "queue_item_count": 63,
-    "queue_state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 28,
-      "submitted": 13,
-      "blocked_inputs": 21
-    },
-    "submitted_queue_tasks_reconciled": 13,
-    "submitted_task_ids_found": 13,
-    "submitted_missing": 0,
-    "pending_claims": 0,
-    "pending_submitting": 0,
-    "pending_unknown": 0,
-    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "8f41e3819ccfc819de01719eeeea08165d4e8891d3772eaefe009fe4eaa0ea47",
-    "readiness_hashes_match": true,
-    "next_ready_item": "S64-WAN30",
-    "next_ready_priority": 0.9
+    "status": "pending fresh scan and dedup reconciliation"
   },
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "ordinary_actual_last_run_id": "924fb75a-769c-832d-ba47-ac2e88de1402",
-    "ordinary_latest_result_run_id": null,
-    "ordinary_receipt_run_id": "924fb75a-769c-832d-ba47-ac2e88de1402",
-    "current_work_actual_run_id": "9aafdbd9-16c4-832e-802c-82f0cf201ce9"
+    "ordinary_actual_last_run_id": "78b771f3-1984-8324-a12f-47df75633a46",
+    "ordinary_latest_result_run_id": "78b771f3-1984-8324-a12f-47df75633a46",
+    "ordinary_receipt_run_id": "78b771f3-1984-8324-a12f-47df75633a46",
+    "ordinary_receipt_scan_complete": false,
+    "current_work_actual_run_id": "7943ce77-0240-8325-8b87-93172ff4df1b"
   },
   "phases": {
-    "phase_a_due": true,
-    "phase_a_status": "completed",
-    "phase_a": {
-      "self_heal": "ok",
-      "project_status_health": "ok",
-      "project_status_synced_at": "2026-11-05T06:52:34Z",
-      "project_status_fresh_under_40_minutes": true,
-      "instruction_health": "ok",
-      "canon_health_status": "ok",
-      "canon_health_warnings": 0,
-      "canon_health_info": 11,
-      "owner_tasks_open": 0,
-      "owner_tasks_taken": 0
-    },
-    "phase_b_due": true,
-    "phase_b_status": "completed",
-    "phase_b": {
-      "gmail_results": 19,
-      "gmail_all_pages": true,
-      "gmail_next_page_token": null,
-      "gmail_state_unchanged": true,
-      "new_failure_signals": 3,
-      "verified_resolved": true,
-      "canon_health_success_run_id": 41884294876,
-      "integration_success_run_id": 41907513853,
-      "integration_success_commit": "9a03f2d7ae02750da1e5cf0144c1a3311fd2a2d7",
-      "blind_rerun_performed": false
-    },
+    "phase_a_due": false,
+    "phase_a_status": "not_due_10_55",
+    "phase_b_due": false,
+    "phase_b_status": "not_due_10_55",
     "phase_c_due": false,
     "phase_c_status": "not_due_thursday",
     "owner_tasks": {
@@ -110,32 +65,11 @@
   "topview_credits_spent": 0,
   "blocker": null,
   "retryable": true,
-  "notification": "silent_no_free_slot",
+  "notification": "no_update",
   "lease": {
-    "holder": "chatgpt:work:fb18f5c4-2de7-497b-983e-3a694cbbb192",
-    "acquired_at": "2026-11-05T06:54:52.883Z",
-    "expires_at": "2026-11-05T07:14:52.883Z",
+    "holder": "chatgpt:work:1a833ce9-8c0f-4ba3-a5d9-0e311789b279",
+    "acquired_at": "2026-11-05T07:59:18.448Z",
+    "expires_at": "2026-11-05T08:19:18.448Z",
     "final_action": "release_pending"
-  },
-  "source_head_at_finish": "2d39aee60c6f7eb03cc40fba117210b7b6f29925",
-  "active_task_ids": [
-    "365cf639589a4a5da834d70193d5e8f6",
-    "be960f5e3bf54563aff663fed9da8906",
-    "de8e44bb15d64dc7a4eb640d27a726e4",
-    "431180d384cc43bebe7afc702e4eb4e6",
-    "22dbd25cdd9f47cd9e44300e55f5e44f",
-    "c72c1ab4524e4f2f9d3a0272474f788a"
-  ],
-  "browser_transport": "not_used_for_topview_create",
-  "work_capacity": {
-    "preferred_executor": "work",
-    "route_unchanged": true,
-    "this_cycle_new_gui_or_quota_evidence": false
-  },
-  "accounting": {
-    "checkpoint_updated": true,
-    "register_updated": true,
-    "checkpoint_commit": "489dbc181121f2c29032fcdb455a28573c58c3ba",
-    "register_commit": "2d39aee60c6f7eb03cc40fba117210b7b6f29925"
   }
 }
