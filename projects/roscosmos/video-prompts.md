@@ -5012,7 +5012,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Имиджевый горизонтальный ролик 16:9: снимок с орбиты становится понятным цветным слоем, который человек ещё раз смотрит. **Постоянная тема · «Цифровая Земля».**
 
-**Что происходит:** Широкий кадр заполняет дельта реки. Тот же контур оказывается на высоком мониторе. Аналитик проводит пальцем по маске, коллега коротко кивает, маска замирает ровным цветом.
+**Что происходит:** Широкий кадр заполняет дельта реки. Тот же контур оказывается на высоком мониторе. Аналитик проверяет пальцем совпадение бирюзовой маски с берегами дельты, коллега кивает только после проверки; маска фиксируется.
 
 **Факт и художественное решение:** АО «Терра Тех» разрабатывает геоплатформу «Цифровая Земля» по заказу Роскосмоса. В интервью 15.04.2026 на сайте компании сказано, что последний шаг на этой платформе делает человек, потому что сведения идут в государственные информационные системы. Это постановочный принцип, не отчёт о конкретном заказе и не проверка точности.
 
@@ -5031,6 +5031,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** Тексты готовы 02.11.2026. Оба PNG нарисованы 03.11.2026, not_approved, 1672×941. В очередь не ставить: проект на паузе. Часть 2 ждёт последние 3 секунды настоящей части 1.
 
+**Состояние правки 05.11.2026:** Все три видеопромта этой сцены уточнены; исправленные PNG из предыдущего чата до сих пор не опубликованы. Существующие референсы использовать только после замены, сверки SHA и QC. Проект остаётся на паузе.
+
 **Режиссёрский контроль:** Один и тот же контур дельты в космосе и на мониторе. Маска без подписей. Горизонтальная композиция 16:9 на весь кадр.
 
 <div class="engine-tabs" data-scene="26">
@@ -5047,16 +5049,17 @@ Optimized for Wan 3.0 | Landscape civil Earth-observation concept, photoreal, pu
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
 @Image2 — Landscape 16:9 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional analyst: short black bob, charcoal blazer, cream knit, no badge. A second fictional colleague in a grey sweater appears only at the nod. Not a portrait of any real executive.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Same exact river delta shoreline and tributary branching in space and on monitor; turquoise mask follows the bank. Analyst verifies the bank contour before locking the layer. No wandering river, invented channel or generic animated glow.
 The delta on the monitor is the same shape as @Image2. The teal mask is a translucent color, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
 
 START STATE:
-@Image2 already fills the vertical frame: the delta is drifting slowly under the camera.
+@Image2 already fills the horizontal 16:9 frame: the delta is drifting slowly under the camera.
 
 TIMELINE:
 [0:00–0:04] The orbital delta glides downward through the tall frame; the bright atmospheric rim stays a thin curve, not a bar.
@@ -5101,16 +5104,17 @@ Optimized for Seedance 2.0 | Landscape civil Earth-observation concept, photorea
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
 @Image2 — Landscape 16:9 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional analyst: short black bob, charcoal blazer, cream knit, no badge. A second fictional colleague in a grey sweater appears only at the nod. Not a portrait of any real executive.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Same exact river delta shoreline and tributary branching in space and on monitor; turquoise mask follows the bank. Analyst verifies the bank contour before locking the layer. No wandering river, invented channel or generic animated glow.
 The delta on the monitor is the same shape as @Image2. The teal mask is a translucent color, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
 
 START STATE:
-@Image2 already fills the vertical frame: the delta is drifting slowly under the camera.
+@Image2 already fills the horizontal 16:9 frame: the delta is drifting slowly under the camera.
 
 TIMELINE:
 [0:00–0:04] The orbital delta glides downward through the tall frame.
@@ -5151,12 +5155,13 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
 @Image2 — Landscape 16:9 orbital view of the same river delta, edge to edge, with only a thin bright atmospheric rim at the top as part of the planet, not a black bar. No labels. Controls the orbital picture only. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
 @Video1 — final 3 seconds of the actual Part 1 of THIS scene; absolute authority for the moving finger, camera and mask.
-Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional analyst: short black bob, charcoal blazer, cream knit, no badge. A second fictional colleague in a grey sweater appears only at the nod. Not a portrait of any real executive.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Same exact river delta shoreline and tributary branching in space and on monitor; turquoise mask follows the bank. Analyst verifies the bank contour before locking the layer. No wandering river, invented channel or generic animated glow.
 The delta on the monitor is the same shape as @Image2. The teal mask is a translucent color, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
 
 START STATE:
@@ -5199,7 +5204,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Коротко показать автоматический сервис: человек выбирает место и задачу, слой появляется сам. **Продукт Pixel.AI · интервью 15.04.2026, без цены.**
 
-**Что происходит:** Палец выбирает контур поля на планшете, касается пустого круга, и на том же поле проявляется зелёно-янтарный слой. Женщина поднимает глаза от экрана к настоящему полю.
+**Что происходит:** Планшет обращён экраном к женщине, не к зрителю. Камера из-за плеча показывает, как палец выбирает поле и касается пустого круга, а затем появляется зелёно-янтарный слой. Женщина поднимает глаза от экрана к настоящему полю.
 
 **Факт и художественное решение:** На сайте компании 15.04.2026 замгенерального директора описывает Pixel.AI так: пользователь выбирает территорию и задачу, система сама находит снимки и выдаёт результат. Названная там цена 6 копеек за гектар в ролик не входит и обещанием не является.
 
@@ -5218,6 +5223,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** PNG нарисованы 03.11.2026, not_approved, 16:9, 1672×941. Цену не рисовать и не запускать, пока пауза не снята.
 
+**Состояние правки 05.11.2026:** Все три видеопромта этой сцены уточнены; исправленные PNG из предыдущего чата до сих пор не опубликованы. Существующие референсы использовать только после замены, сверки SHA и QC. Проект остаётся на паузе.
+
 **Режиссёрский контроль:** Никакой цены, валюты и надписи «шаг 1». Поле на экране и поле за спиной — одно и то же.
 
 <div class="engine-tabs" data-scene="27">
@@ -5232,14 +5239,15 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Landscape service-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Landscape 16:9: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
-@Image2 — Landscape close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her face and braid sit on the left of the wide frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+@Image1 — Landscape 16:9: fictional woman with dark braid and olive field jacket holds tablet SCREEN FACING HERSELF, not toward camera. Over-shoulder camera sees field mosaic and three blank circles from HER viewing angle; farm and sky behind. If older reference shows outward screen, override that physical error. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
+@Image2 — Landscape close OVER HER SHOULDER: same tablet still screen facing woman, field now with green and amber overlay, no legend. Her braid and cheek at frame edge from behind, not a frontal tablet display. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional user: dark braid over the left shoulder, olive field jacket, no logo. Same face in both stills. Not a real customer.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+CRITICAL: tablet SCREEN FACES THE WOMAN, NEVER THE SPECTATOR. Camera is over/behind her shoulder when showing the map; a frontal view shows the back of the tablet. Her finger touches the glass facing her, no reversed fingers, mirrored screen or outward-facing demonstration.
 The field on the tablet is the same field behind her. The overlay is color only. No price, no coins, no three numbered steps, no brand name. Three blank circles may appear only as empty shapes.
 
 START STATE:
@@ -5286,14 +5294,15 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Landscape service-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Landscape 16:9: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
-@Image2 — Landscape close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her face and braid sit on the left of the wide frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+@Image1 — Landscape 16:9: fictional woman with dark braid and olive field jacket holds tablet SCREEN FACING HERSELF, not toward camera. Over-shoulder camera sees field mosaic and three blank circles from HER viewing angle; farm and sky behind. If older reference shows outward screen, override that physical error. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
+@Image2 — Landscape close OVER HER SHOULDER: same tablet still screen facing woman, field now with green and amber overlay, no legend. Her braid and cheek at frame edge from behind, not a frontal tablet display. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional user: dark braid over the left shoulder, olive field jacket, no logo. Same face in both stills. Not a real customer.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+CRITICAL: tablet SCREEN FACES THE WOMAN, NEVER THE SPECTATOR. Camera is over/behind her shoulder when showing the map; a frontal view shows the back of the tablet. Her finger touches the glass facing her, no reversed fingers, mirrored screen or outward-facing demonstration.
 The field on the tablet is the same field behind her. The overlay is color only. No price, no coins, no three numbered steps, no brand name. Three blank circles may appear only as empty shapes.
 
 START STATE:
@@ -5335,15 +5344,16 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Landscape service-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Landscape 16:9: a fictional woman with a dark braid and an olive field jacket holds a tablet at her chest. The screen shows a field mosaic and three large blank circles, no glyphs. Farm and sky fill the background. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
-@Image2 — Landscape close of the same tablet: the field now carries a soft green and amber overlay and still has no legend. Her face and braid sit on the left of the wide frame. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
+@Image1 — Landscape 16:9: fictional woman with dark braid and olive field jacket holds tablet SCREEN FACING HERSELF, not toward camera. Over-shoulder camera sees field mosaic and three blank circles from HER viewing angle; farm and sky behind. If older reference shows outward screen, override that physical error. File: projects/roscosmos/references/scenes/scene-27/tt27-tablet.png.
+@Image2 — Landscape close OVER HER SHOULDER: same tablet still screen facing woman, field now with green and amber overlay, no legend. Her braid and cheek at frame edge from behind, not a frontal tablet display. File: projects/roscosmos/references/scenes/scene-27/tt27-layer.png.
 @Video1 — final 3 seconds of the actual Part 1; authority for the moving color wash.
-Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional user: dark braid over the left shoulder, olive field jacket, no logo. Same face in both stills. Not a real customer.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+CRITICAL: tablet SCREEN FACES THE WOMAN, NEVER THE SPECTATOR. Camera is over/behind her shoulder when showing the map; a frontal view shows the back of the tablet. Her finger touches the glass facing her, no reversed fingers, mirrored screen or outward-facing demonstration.
 The field on the tablet is the same field behind her. The overlay is color only. No price, no coins, no three numbered steps, no brand name. Three blank circles may appear only as empty shapes.
 
 START STATE:
@@ -5386,7 +5396,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Показать, как по двум датам видно изменение леса, без рейтинга регионов. **Индекс лесопользования · 27.02.2026.**
 
-**Что происходит:** Камера опускается по кронам к одной светлой вырубке. Затем тот же лес показан стопкой: сверху плотнее, снизу уже с просветом.
+**Что происходит:** Камера опускается по кронам к одной светлой вырубке. Затем появляется пара снимков слева направо: слева густой лес ДО, справа та же территория ПОСЛЕ с видимой вырубкой.
 
 **Факт и художественное решение:** 27.02.2026 «Эксперт РА» сообщил о совместном с АО «Терра Тех» индексе устойчивости лесопользования. В расчёте использованы, среди прочего, данные «Цифровой Земли» о вырубках, границе леса и гарях. Ролик не называет регионы и не является лесоустройством.
 
@@ -5405,6 +5415,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** PNG нарисованы 03.11.2026, not_approved. В очередь не добавлять.
 
+**Состояние правки 05.11.2026:** Все три видеопромта этой сцены уточнены; исправленные PNG из предыдущего чата до сих пор не опубликованы. Существующие референсы использовать только после замены, сверки SHA и QC. Проект остаётся на паузе.
+
 **Режиссёрский контроль:** Никаких названий регионов, баллов и дат цифрами. Стык двух фото — тонкий край кадра, не чёрная полоса.
 
 <div class="engine-tabs" data-scene="28">
@@ -5420,13 +5432,14 @@ Optimized for Wan 3.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
-@Image2 — The same canopy as two stacked photographs filling the vertical frame: upper half denser, lower half with the clearing, separated by a hairline photo edge rather than a black bar. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later clearing on RIGHT, identical ground control points, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it is only a hand in a dark green sleeve circling the clearing on a tablet, with no readable interface.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Fixed SIDE-BY-SIDE BEFORE/AFTER in the wide frame: LEFT = intact dense canopy before, RIGHT = same exact area after with pale clearing. Same scale and geography; never top-bottom stacking, reversed direction, added dates or black divider.
 The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times.
 
 START STATE:
@@ -5473,13 +5486,14 @@ Optimized for Seedance 2.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
-@Image2 — The same canopy as two stacked photographs filling the vertical frame: upper half denser, lower half with the clearing, separated by a hairline photo edge rather than a black bar. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later clearing on RIGHT, identical ground control points, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it is only a hand in a dark green sleeve circling the clearing on a tablet, with no readable interface.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Fixed SIDE-BY-SIDE BEFORE/AFTER in the wide frame: LEFT = intact dense canopy before, RIGHT = same exact area after with pale clearing. Same scale and geography; never top-bottom stacking, reversed direction, added dates or black divider.
 The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times.
 
 START STATE:
@@ -5521,14 +5535,15 @@ Optimized for Seedance 2.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
-@Image2 — The same canopy as two stacked photographs filling the vertical frame: upper half denser, lower half with the clearing, separated by a hairline photo edge rather than a black bar. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later clearing on RIGHT, identical ground control points, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
 @Video1 — final 3 seconds of Part 1; authority for the moving hand.
-Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it is only a hand in a dark green sleeve circling the clearing on a tablet, with no readable interface.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Fixed SIDE-BY-SIDE BEFORE/AFTER in the wide frame: LEFT = intact dense canopy before, RIGHT = same exact area after with pale clearing. Same scale and geography; never top-bottom stacking, reversed direction, added dates or black divider.
 The clearing is illustrative, not a named forest and not a score. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times.
 
 START STATE:
@@ -5570,7 +5585,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Спокойно показать, зачем людям кладут снимок на стол. **Постоянная тема сайта, без реального дела.**
 
-**Что происходит:** Двое кладут на стол крупный снимок поля и изгороди. Палец ведёт по линии забора. Следующий кадр — та же изгородь на земле. Оба снова смотрят на снимок.
+**Что происходит:** Двое кладут ПЛОСКО на стол спутниковый снимок поля строго СВЕРХУ. Палец ведёт по линии забора. Следующий кадр — та же изгородь на земле. Оба снова смотрят на снимок.
 
 **Факт и художественное решение:** На главной странице АО «Терра Тех» сказано, что сервисы помогают организациям и гражданам опираться на спутниковую аналитику в земельных, имущественных и экологических спорах. Конкретное дело не выбрано. Ролик не делает правового вывода.
 
@@ -5589,6 +5604,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** PNG нарисованы 03.11.2026, not_approved. Не ставить в очередь и не изображать суд.
 
+**Состояние правки 05.11.2026:** Все три видеопромта этой сцены уточнены; исправленные PNG из предыдущего чата до сих пор не опубликованы. Существующие референсы использовать только после замены, сверки SHA и QC. Проект остаётся на паузе.
+
 **Режиссёрский контроль:** Никаких гербов, печатей, газетных заголовков и жестов ссоры.
 
 <div class="engine-tabs" data-scene="29">
@@ -5603,14 +5620,15 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Landscape quiet explanation, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Landscape 16:9: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
+@Image1 — Landscape 16:9: two fictional people at a table, with a large unlabelled TOP-DOWN satellite/aerial print of field parcels and fence boundary LYING FLAT BETWEEN THEM, never a standing ground-level photograph. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
 @Image2 — Landscape ground view of that fence and the edge of a plowed field, same geometry, a low real horizon, not a black band. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two fictional adults only: chestnut bob and navy coat; grey temples and brown jacket. Calm faces, not celebrities and not officials.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Paper is a FLAT TOP-DOWN AERIAL/SATELLITE VIEW of field and fence boundary on the table, never a ground-level fence photograph standing upright. Fence line is identical to outdoor fence. Do not invent court documents, stamps or a dispute verdict.
 The fence on the print matches the fence outdoors. No case file, no court, no stamps, no headlines. The picture explains a boundary; it does not decide a dispute.
 
 START STATE:
@@ -5656,14 +5674,15 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Landscape quiet explanation, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Landscape 16:9: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
+@Image1 — Landscape 16:9: two fictional people at a table, with a large unlabelled TOP-DOWN satellite/aerial print of field parcels and fence boundary LYING FLAT BETWEEN THEM, never a standing ground-level photograph. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
 @Image2 — Landscape ground view of that fence and the edge of a plowed field, same geometry, a low real horizon, not a black band. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two fictional adults only: chestnut bob and navy coat; grey temples and brown jacket. Calm faces, not celebrities and not officials.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Paper is a FLAT TOP-DOWN AERIAL/SATELLITE VIEW of field and fence boundary on the table, never a ground-level fence photograph standing upright. Fence line is identical to outdoor fence. Do not invent court documents, stamps or a dispute verdict.
 The fence on the print matches the fence outdoors. No case file, no court, no stamps, no headlines. The picture explains a boundary; it does not decide a dispute.
 
 START STATE:
@@ -5704,15 +5723,16 @@ Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Seedance 2.0 | Landscape quiet explanation, photoreal
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Landscape 16:9: two fictional people at a table, a large unlabelled print of a field and a fence line standing between them. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
+@Image1 — Landscape 16:9: two fictional people at a table, with a large unlabelled TOP-DOWN satellite/aerial print of field parcels and fence boundary LYING FLAT BETWEEN THEM, never a standing ground-level photograph. Woman with short chestnut hair in a navy coat; man with grey temples in a brown jacket. No written documents. File: projects/roscosmos/references/scenes/scene-29/tt29-print.png.
 @Image2 — Landscape ground view of that fence and the edge of a plowed field, same geometry, a low real horizon, not a black band. No signs. File: projects/roscosmos/references/scenes/scene-29/tt29-fence.png.
 @Video1 — final 3 seconds of Part 1; authority for the moving finger.
-Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Two fictional adults only: chestnut bob and navy coat; grey temples and brown jacket. Calm faces, not celebrities and not officials.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Paper is a FLAT TOP-DOWN AERIAL/SATELLITE VIEW of field and fence boundary on the table, never a ground-level fence photograph standing upright. Fence line is identical to outdoor fence. Do not invent court documents, stamps or a dispute verdict.
 The fence on the print matches the fence outdoors. No case file, no court, no stamps, no headlines. The picture explains a boundary; it does not decide a dispute.
 
 START STATE:
@@ -5755,7 +5775,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Отличить коммерческий продукт от пачки сырых кадров и от работы центра приёма. **Коммерческий оператор · повод стенда 15.04.2026, не репортаж.**
 
-**Что происходит:** Руки отодвигают стопку серых снимков и протягивают один цветной лист. За окном — тот же рисунок земли. Лицо заказчика не видно.
+**Что происходит:** Руки отодвигают стопку серых снимков и протягивают один цветной лист. За окном виден тот же участок С ПРУДОМ; заказчик со спины указывает сначала на пруд за окном, затем на точно такой же контур на листе. Его лицо не видно.
 
 **Факт и художественное решение:** АО «Терра Тех» называет себя коммерческим оператором услуг ДЗЗ и геоинформационных сервисов. 15.04.2026 новость компании об ExpoCifra описывает «Цифровую Землю» и Pixel.AI как сервисы для государства, бизнеса и частных пользователей. Это не съёмка реального стенда.
 
@@ -5774,6 +5794,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Готовность:** PNG нарисованы 03.11.2026, not_approved. Сцену не запускать и в очередь не ставить.
 
+**Состояние правки 05.11.2026:** Все три видеопромта этой сцены уточнены; исправленные PNG из предыдущего чата до сих пор не опубликованы. Существующие референсы использовать только после замены, сверки SHA и QC. Проект остаётся на паузе.
+
 **Режиссёрский контроль:** Не показывать антенну, каталог НЦ ОМЗ, цену и логотип на листе.
 
 <div class="engine-tabs" data-scene="30">
@@ -5789,17 +5811,18 @@ Optimized for Wan 3.0 | Landscape product-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
-@Image2 — The same hands offer one color sheet of green, ochre and blue regions, with no legend, to a customer seen from behind in a light coat. A window shows a matching landscape. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+@Image2 — The same hands offer one color analytical sheet of green, ochre and blue land regions, no legend, to a customer seen from BEHIND in a light coat. Window shows matching parcel WITH A POND; the customer points to the same pond outdoors and on paper. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Hands only for the sorter, no watch logo. The customer is seen from the back: light coat, short dark hair, face never shown.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Delivered color analytical sheet displays the SAME POND and land parcel visible outside the window. Customer seen from behind points to that pond through window and to its matching water outline on sheet. No brand, contract, antenna or made-up official data.
 Grey chips are raw-looking pictures without file names. The color sheet is a thematic product, not a receipt and not a contract. Do not show the NTs OMZ receiving station, antennas or a catalog search screen: those belong to other scenes.
 
 START STATE:
-The stack of grey chips already fills the vertical frame; hands are sorting.
+The stack of grey chips already fills the horizontal 16:9 frame; hands are sorting.
 
 TIMELINE:
 [0:00–0:07] Hands slide several grey chips aside. None shows a file name.
@@ -5842,13 +5865,14 @@ Optimized for Seedance 2.0 | Landscape product-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
-@Image2 — The same hands offer one color sheet of green, ochre and blue regions, with no legend, to a customer seen from behind in a light coat. A window shows a matching landscape. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
-Priority: each image only for its named role. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+@Image2 — The same hands offer one color analytical sheet of green, ochre and blue land regions, no legend, to a customer seen from BEHIND in a light coat. Window shows matching parcel WITH A POND; the customer points to the same pond outdoors and on paper. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
+Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Hands only for the sorter, no watch logo. The customer is seen from the back: light coat, short dark hair, face never shown.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Delivered color analytical sheet displays the SAME POND and land parcel visible outside the window. Customer seen from behind points to that pond through window and to its matching water outline on sheet. No brand, contract, antenna or made-up official data.
 Grey chips are raw-looking pictures without file names. The color sheet is a thematic product, not a receipt and not a contract. Do not show the NTs OMZ receiving station, antennas or a catalog search screen: those belong to other scenes.
 
 START STATE:
@@ -5890,14 +5914,15 @@ Optimized for Seedance 2.0 | Landscape product-explanation film, photoreal
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9: hands sorting a stack of grey satellite chips on a pale table. The chips have no filenames. The stack fills the frame. File: projects/roscosmos/references/scenes/scene-30/tt30-chips.png.
-@Image2 — The same hands offer one color sheet of green, ochre and blue regions, with no legend, to a customer seen from behind in a light coat. A window shows a matching landscape. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
+@Image2 — The same hands offer one color analytical sheet of green, ochre and blue land regions, no legend, to a customer seen from BEHIND in a light coat. Window shows matching parcel WITH A POND; the customer points to the same pond outdoors and on paper. File: projects/roscosmos/references/scenes/scene-30/tt30-sheet.png.
 @Video1 — final 3 seconds of Part 1; authority for the rising sheet.
-Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored vertical concepts, not documentary evidence, real clients or measurements.
+Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Hands only for the sorter, no watch logo. The customer is seen from the back: light coat, short dark hair, face never shown.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
+Delivered color analytical sheet displays the SAME POND and land parcel visible outside the window. Customer seen from behind points to that pond through window and to its matching water outline on sheet. No brand, contract, antenna or made-up official data.
 Grey chips are raw-looking pictures without file names. The color sheet is a thematic product, not a receipt and not a contract. Do not show the NTs OMZ receiving station, antennas or a catalog search screen: those belong to other scenes.
 
 START STATE:
