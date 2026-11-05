@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "checked_at": "2026-11-04T18:10:07.203Z",
+  "checked_at": "2026-11-05T10:57:45.555Z",
   "verification_mode": "github_canonical_blob_check",
   "verification_scope": "Exact local canonical bytes only; not a semantic audit or proof of scheduler execution.",
   "source_of_truth": "github",
@@ -10,18 +10,18 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_copy_sha256": "5c4f3e738ba0a581b3a2aff387e60eadb1e1515368167c175fbb09ce483bf903",
-      "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
-      "drive_copy_modified_at": "2026-11-04T10:56:57.611Z",
+      "drive_copy_sha256": "1dbf40187fcbba7161db34b5b43128119052ce6a95387e2f6f2c558c176e05b2",
+      "drive_copy_checked_at": "2026-11-05T10:57:45.555Z",
+      "drive_copy_modified_at": "2026-11-05T10:57:39.452Z",
       "github_blob": "cf94693bb38f2dc74fe9fc4f3ad50a28ee571494",
       "mirror_sha256": "1dbf40187fcbba7161db34b5b43128119052ce6a95387e2f6f2c558c176e05b2",
       "match": true,
-      "drive_copy_match": false
+      "drive_copy_match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
       "drive_copy_sha256": "abb4393a26e5c78d1bd54d8f11ce8ea6d36235788cc3cb4f0d6ef3c1f6ca668c",
-      "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
+      "drive_copy_checked_at": "2026-11-05T10:57:45.555Z",
       "drive_copy_modified_at": "2026-11-04T10:57:01.610Z",
       "github_blob": "5d252689f6c8644811048e6711cb9ab50bd69969",
       "mirror_sha256": "abb4393a26e5c78d1bd54d8f11ce8ea6d36235788cc3cb4f0d6ef3c1f6ca668c",
@@ -31,7 +31,7 @@
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
       "drive_copy_sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
-      "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
+      "drive_copy_checked_at": "2026-11-05T10:57:45.555Z",
       "drive_copy_modified_at": "2026-11-04T10:57:05.491Z",
       "github_blob": "3a254d6a0124b310e3d5759656918311c67e2d38",
       "mirror_sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
@@ -41,7 +41,7 @@
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
       "drive_copy_sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
-      "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
+      "drive_copy_checked_at": "2026-11-05T10:57:45.555Z",
       "drive_copy_modified_at": "2026-11-01T10:29:05.783Z",
       "github_blob": "35aad34475f41a6049339179f78b0388a3a06228",
       "mirror_sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
@@ -51,7 +51,7 @@
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
       "drive_copy_sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
-      "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
+      "drive_copy_checked_at": "2026-11-05T10:57:45.555Z",
       "drive_copy_modified_at": "2026-11-04T10:57:10.239Z",
       "github_blob": "1b82535cab0ba601e9e7f51534d4e8683d5fc6c6",
       "mirror_sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
@@ -61,7 +61,7 @@
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
       "drive_copy_sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
-      "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
+      "drive_copy_checked_at": "2026-11-05T10:57:45.555Z",
       "drive_copy_modified_at": "2026-11-04T10:57:13.794Z",
       "github_blob": "bf3d705e8beed8be74d6c0a2971704d96631e0da",
       "mirror_sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
@@ -71,7 +71,7 @@
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
       "drive_copy_sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
-      "drive_copy_checked_at": "2026-11-04T10:57:21.335Z",
+      "drive_copy_checked_at": "2026-11-05T10:57:45.555Z",
       "drive_copy_modified_at": "2026-11-01T10:29:16.046Z",
       "github_blob": "e98a0d592c71eac61b9192a5bd8d926b9ba50c71",
       "mirror_sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
