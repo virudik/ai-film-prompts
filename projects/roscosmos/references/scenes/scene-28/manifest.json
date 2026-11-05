@@ -2,11 +2,11 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 28,
-  "updated_at": "2026-11-03T00:35:16+00:00",
+  "updated_at": "2026-11-05T19:50:00+00:00",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
-      "caption": "Терра Тех: кроны и одна вырубка",
+      "caption": "Терра Тех: кроны и один просвет",
       "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
       "created_by": "Grok Bot GenerateImage",
       "created_at": "2026-11-03T00:32:13+00:00",
@@ -22,7 +22,7 @@
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
-      "caption": "Терра Тех: две даты одной стопкой",
+      "caption": "Терра Тех: две даты слева и справа",
       "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
       "created_by": "Grok Bot GenerateImage",
       "created_at": "2026-11-03T00:35:16+00:00",
@@ -35,6 +35,38 @@
       "width": 1672,
       "height": 941,
       "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца. Переделано 03.11.2026: слева лес без вырубки, справа тот же участок с вырубкой, между половинами тонкая линия 4 px (не чёрная и не белая)."
+    },
+    {
+      "path": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png",
+      "caption": "Терра Тех: целые кроны, тот же ракурс",
+      "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.image-prompt.txt",
+      "created_by": "derived from existing still, no new generation",
+      "created_at": "2026-11-05T19:50:00+00:00",
+      "source_type": "derived_registered_plate",
+      "editorial_status": "not_approved",
+      "sha256": "e9290a05ea8da704fb21e7309b02f2674b90ced6bb3aa2cb15f6dd3536c26db1",
+      "scenes": [
+        28
+      ],
+      "width": 1672,
+      "height": 941,
+      "technical_qc": "Горизонталь 16:9, 1672×941. Производная пластина из уже опубликованного кадра, без новой генерации людей. not_approved. Тот же ракурс, что tt28-wipe-after.png. Просвет закрыт кронами вокруг."
+    },
+    {
+      "path": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png",
+      "caption": "Терра Тех: просвет, тот же ракурс",
+      "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
+      "created_by": "derived from existing still, no new generation",
+      "created_at": "2026-11-05T19:50:00+00:00",
+      "source_type": "derived_registered_plate",
+      "editorial_status": "not_approved",
+      "sha256": "09489d693f99217deb7355449c649548112468bf7d7bb644e760fe85695a6c6a",
+      "scenes": [
+        28
+      ],
+      "width": 1672,
+      "height": 941,
+      "technical_qc": "Горизонталь 16:9, 1672×941. Производная пластина из уже опубликованного кадра, без новой генерации людей. not_approved. Пиксель в пиксель tt28-clearing.png."
     }
   ]
 }

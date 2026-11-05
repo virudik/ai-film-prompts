@@ -2,23 +2,23 @@
   "schema_version": 1,
   "project": "roscosmos",
   "scene_id": 29,
-  "updated_at": "2026-11-03T00:32:13+00:00",
+  "updated_at": "2026-11-05T19:40:00+00:00",
   "assets": [
     {
       "path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
-      "caption": "Терра Тех: снимок на столе",
+      "caption": "Терра Тех: плоский снимок сверху, пашня и пастбище",
       "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt",
-      "created_by": "Grok Bot GenerateImage",
-      "created_at": "2026-11-03T00:32:13+00:00",
+      "created_by": "ChatGPT Work rescued original",
+      "created_at": "2026-11-05T19:40:00+00:00",
       "source_type": "ai_generated_concept",
       "editorial_status": "not_approved",
-      "sha256": "cbd664beb2e726a7484ade511c1acd8e2e74dd08db1846609b8a8c1e040ba230",
+      "sha256": "782e91422fddc2158daa0dec81e7092685367211d12dab7f8464d63be4ba6747",
       "scenes": [
         29
       ],
       "width": 1672,
       "height": 941,
-      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
+      "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. Лист уже лежит плашмя, надир: пашня напротив пастбища. Предыдущий файл: tt29-print-old.png (sha256 cbd664beb2e726a7484ade511c1acd8e2e74dd08db1846609b8a8c1e040ba230). not_approved."
     },
     {
       "path": "projects/roscosmos/references/scenes/scene-29/tt29-fence.png",

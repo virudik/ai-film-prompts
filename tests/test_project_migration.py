@@ -85,15 +85,17 @@ class MigrationTests(unittest.TestCase):
         for n in range(26, 31):
             self.assertIn(f'<a id="scene-{n}"></a>', master)
             folder = ROOT / f"projects/roscosmos/references/scenes/scene-{n}"
+            expected = {26: 4, 27: 2, 28: 4, 29: 2, 30: 2}[n]
             prompts = list(folder.glob("*.image-prompt.txt"))
-            self.assertEqual(len(prompts), 2, n)
+            self.assertEqual(len(prompts), expected, n)
             for path in prompts:
                 text = path.read_text(encoding="utf-8")
                 self.assertIn("1672×941", text)
                 self.assertIn("16:9", text)
                 self.assertNotIn("9:16", text)
             pngs = list(folder.glob("*.png"))
-            self.assertEqual(len(pngs), 2, n)
+            live = [p for p in pngs if not p.name.endswith("-old.png")]
+            self.assertEqual(len(live), {26: 4, 27: 2, 28: 4, 29: 2, 30: 2}[n], n)
             for png in pngs:
                 head = png.read_bytes()[:24]
                 self.assertEqual(head[:8], b"\x89PNG\r\n\x1a\n", png.name)
@@ -102,9 +104,27 @@ class MigrationTests(unittest.TestCase):
         self.assertIn("Aspect ratio: 16:9", tail)
         self.assertNotIn("Aspect ratio: 9:16", tail)
         self.assertNotIn("1080×1920", tail)
+        self.assertNotIn("authored vertical concepts", tail)
+        self.assertNotIn("a landscape 16:9 crop", tail)
+        self.assertNotIn("landscape crop", tail)
+        self.assertNotIn("through the tall frame", tail)
+        self.assertNotIn("set the tall print upright", tail)
+        self.assertNotIn("set the print upright", tail)
+        self.assertNotIn("Цифру на экране мы не обещаем", tail)
+        self.assertIn("Выбираешь территорию и задачу. Сервис подбирает снимки и показывает результат.", tail)
+        self.assertIn("No portrait crop", tail)
         refs = json.loads((ROOT / "projects/roscosmos/character-references.json").read_text(encoding="utf-8"))
         tt = [a for a in refs["assets"] if a["id"].startswith("roscosmos-tt-")]
-        self.assertEqual(len(tt), 10)
+        self.assertEqual(len(tt), 14)
+        by_id = {a["id"]: a for a in tt}
+        self.assertEqual(
+            by_id["roscosmos-tt-26-tt26-delta-clean"]["images"][0]["sha256"],
+            by_id["roscosmos-tt-26-tt26-orbit"]["images"][0]["sha256"],
+        )
+        self.assertEqual(
+            by_id["roscosmos-tt-28-tt28-wipe-after"]["images"][0]["sha256"],
+            by_id["roscosmos-tt-28-tt28-clearing"]["images"][0]["sha256"],
+        )
         self.assertTrue(all(a["editorial_status"] == "not_approved" for a in tt))
         self.assertTrue(all(len(a["images"]) == 1 and a["images"][0]["width"] == 1672 and a["images"][0]["height"] == 941 for a in tt))
 

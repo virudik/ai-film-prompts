@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "roscosmos",
-  "updated_at": "2026-11-03T00:35:16Z",
-  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 горизонтальных PNG 1672×941 нарисованы 03.11.2026 (Grok Bot), not_approved.",
+  "updated_at": "2026-11-05T19:50:00Z",
+  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved. 02.11.2026: сцены 26–30 Терра Тех, 10 горизонтальных PNG 1672×941 нарисованы 03.11.2026 (Grok Bot), not_approved. 05.11.2026: пять восстановленных PNG ChatGPT опубликованы на места tt26-orbit, tt27-tablet, tt27-layer, tt29-print, tt30-sheet; предыдущие байты сохранены как *-old.png. not_approved. Очередь не менялась. 05.11.2026: для сцены 26 добавлены совмещённые чистая дельта и маска; для сцены 28 — пара шторки до/после. not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -1293,7 +1293,7 @@
     },
     {
       "id": "roscosmos-tt-26-tt26-report",
-      "name": "@Image1 — аналитик и высокий монитор.",
+      "name": "@Image1 — аналитик и широкий монитор.",
       "kind": "situation_reference",
       "scenes": [
         26
@@ -1303,7 +1303,7 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
-          "caption": "Терра Тех: аналитик и монитор с дельтой",
+          "caption": "Терра Тех: аналитик и широкий монитор",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-report.image-prompt.txt",
           "created_by": "Grok Bot GenerateImage",
           "created_at": "2026-11-03T00:32:13+00:00",
@@ -1321,7 +1321,7 @@
     },
     {
       "id": "roscosmos-tt-26-tt26-orbit",
-      "name": "@Image2 — та же дельта с орбиты.",
+      "name": "@Image2 — та же дельта, яснее.",
       "kind": "situation_reference",
       "scenes": [
         26
@@ -1331,25 +1331,25 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
-          "caption": "Терра Тех: та же дельта с орбиты",
+          "caption": "Терра Тех: та же дельта, яснее",
           "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.image-prompt.txt",
-          "created_by": "Grok Bot GenerateImage",
-          "created_at": "2026-11-03T00:32:13+00:00",
+          "created_by": "ChatGPT Work rescued original",
+          "created_at": "2026-11-05T19:40:00+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "b883e61e9a4de45264cc14da33bb5ccfdd11ddb72fe17eaf97645809ee0d4846",
+          "sha256": "45e3d8c1bf48b9064c8f8de5bdb6a483197473cd968c69c6be21c8ef55d70387",
           "scenes": [
             26
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. Восстановленный кадр ChatGPT заменил прежний орбитальный снимок; предыдущий файл сохранён как tt26-orbit-old.png (sha256 b883e61e9a4de45264cc14da33bb5ccfdd11ddb72fe17eaf97645809ee0d4846). Офисный кадр с людьми не менялся. not_approved."
         }
       ]
     },
     {
       "id": "roscosmos-tt-27-tt27-tablet",
-      "name": "@Image1 — планшет и три пустых круга.",
+      "name": "@Image1 — планшет из-за плеча, экран к ней.",
       "kind": "situation_reference",
       "scenes": [
         27
@@ -1359,25 +1359,25 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
-          "caption": "Терра Тех: планшет и три пустых круга",
+          "caption": "Терра Тех: планшет из-за плеча, экран к ней",
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.image-prompt.txt",
-          "created_by": "Grok Bot GenerateImage",
-          "created_at": "2026-11-03T00:32:13+00:00",
+          "created_by": "ChatGPT Work rescued original",
+          "created_at": "2026-11-05T19:40:00+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "5d2b025aa9ef6dc8c647b663f53b0f8a183457f18c1acbdf16553381b108ac3f",
+          "sha256": "3cccaf72aaabf0b61b365facd26719c5f6c445122cb477378dd44955401c13d4",
           "scenes": [
             27
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. Экран планшета обращён к героине. Предыдущий файл: tt27-tablet-old.png (sha256 5d2b025aa9ef6dc8c647b663f53b0f8a183457f18c1acbdf16553381b108ac3f). not_approved."
         }
       ]
     },
     {
       "id": "roscosmos-tt-27-tt27-layer",
-      "name": "@Image2 — тот же планшет уже со слоем.",
+      "name": "@Image2 — слой на стекле, земля своего цвета.",
       "kind": "situation_reference",
       "scenes": [
         27
@@ -1387,25 +1387,25 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
-          "caption": "Терра Тех: тот же планшет со слоем",
+          "caption": "Терра Тех: слой на стекле, земля своего цвета",
           "prompt_file": "projects/roscosmos/references/scenes/scene-27/tt27-layer.image-prompt.txt",
-          "created_by": "Grok Bot GenerateImage",
-          "created_at": "2026-11-03T00:32:13+00:00",
+          "created_by": "ChatGPT Work rescued original",
+          "created_at": "2026-11-05T19:40:00+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "595ade0e3e0468172a7885283483c05c4436e2ee9167abd50f0859ae6af175b4",
+          "sha256": "830f4467266056693725bced627a78d160cb2fae839c89e45ca5b3dc6c2973ed",
           "scenes": [
             27
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. Зелёный и янтарь только на стекле. Предыдущий файл: tt27-layer-old.png (sha256 595ade0e3e0468172a7885283483c05c4436e2ee9167abd50f0859ae6af175b4). not_approved."
         }
       ]
     },
     {
       "id": "roscosmos-tt-28-tt28-clearing",
-      "name": "@Image1 — кроны и одна вырубка.",
+      "name": "@Image1 — кроны и один просвет.",
       "kind": "situation_reference",
       "scenes": [
         28
@@ -1415,7 +1415,7 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
-          "caption": "Терра Тех: кроны и одна вырубка",
+          "caption": "Терра Тех: кроны и один просвет",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-clearing.image-prompt.txt",
           "created_by": "Grok Bot GenerateImage",
           "created_at": "2026-11-03T00:32:13+00:00",
@@ -1433,7 +1433,7 @@
     },
     {
       "id": "roscosmos-tt-28-tt28-pair",
-      "name": "@Image2 — две даты одной стопкой.",
+      "name": "@Image2 — две даты слева и справа.",
       "kind": "situation_reference",
       "scenes": [
         28
@@ -1443,7 +1443,7 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
-          "caption": "Терра Тех: две даты одной стопкой",
+          "caption": "Терра Тех: две даты слева и справа",
           "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-pair.image-prompt.txt",
           "created_by": "Grok Bot GenerateImage",
           "created_at": "2026-11-03T00:35:16+00:00",
@@ -1461,7 +1461,7 @@
     },
     {
       "id": "roscosmos-tt-29-tt29-print",
-      "name": "@Image1 — снимок на столе.",
+      "name": "@Image1 — плоский снимок сверху, пашня и пастбище.",
       "kind": "situation_reference",
       "scenes": [
         29
@@ -1471,19 +1471,19 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
-          "caption": "Терра Тех: снимок на столе",
+          "caption": "Терра Тех: плоский снимок сверху, пашня и пастбище",
           "prompt_file": "projects/roscosmos/references/scenes/scene-29/tt29-print.image-prompt.txt",
-          "created_by": "Grok Bot GenerateImage",
-          "created_at": "2026-11-03T00:32:13+00:00",
+          "created_by": "ChatGPT Work rescued original",
+          "created_at": "2026-11-05T19:40:00+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "cbd664beb2e726a7484ade511c1acd8e2e74dd08db1846609b8a8c1e040ba230",
+          "sha256": "782e91422fddc2158daa0dec81e7092685367211d12dab7f8464d63be4ba6747",
           "scenes": [
             29
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. Лист уже лежит плашмя, надир: пашня напротив пастбища. Предыдущий файл: tt29-print-old.png (sha256 cbd664beb2e726a7484ade511c1acd8e2e74dd08db1846609b8a8c1e040ba230). not_approved."
         }
       ]
     },
@@ -1545,7 +1545,7 @@
     },
     {
       "id": "roscosmos-tt-30-tt30-sheet",
-      "name": "@Image2 — один цветной лист.",
+      "name": "@Image2 — лист с прудом, как за окном.",
       "kind": "situation_reference",
       "scenes": [
         30
@@ -1555,19 +1555,131 @@
       "images": [
         {
           "path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
-          "caption": "Терра Тех: один цветной лист",
+          "caption": "Терра Тех: лист с прудом, как за окном",
           "prompt_file": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.image-prompt.txt",
-          "created_by": "Grok Bot GenerateImage",
-          "created_at": "2026-11-03T00:32:13+00:00",
+          "created_by": "ChatGPT Work rescued original",
+          "created_at": "2026-11-05T19:40:00+00:00",
           "source_type": "ai_generated_concept",
           "editorial_status": "not_approved",
-          "sha256": "9028dd6c6447bf0f91912a2b2ecce8e460ccc793066c29209aa700e1c2dcc39d",
+          "sha256": "a8092f60f15e0803cb3f0f2a7226fdee40086441f42c4d43d7be8f6097f92304",
           "scenes": [
             30
           ],
           "width": 1672,
           "height": 941,
-          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос; осмотрено по промту: состав, счёт объектов, отсутствие текста и логотипов. Вымышленные люди и сцены; не документальный снимок и не одобрение владельца."
+          "technical_qc": "Горизонталь 16:9, 1672×941, без чёрных полос. На листе узнаваемый пруд, совпадающий с прудом за окном. Предыдущий файл: tt30-sheet-old.png (sha256 9028dd6c6447bf0f91912a2b2ecce8e460ccc793066c29209aa700e1c2dcc39d). not_approved."
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-26-tt26-delta-clean",
+      "name": "@Image3 — чистая дельта для монитора.",
+      "kind": "situation_reference",
+      "scenes": [
+        26
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Пиксель в пиксель tt26-orbit.png. Маска выключена. projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.image-prompt.txt",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png",
+          "caption": "Терра Тех: чистая дельта для монитора",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.image-prompt.txt",
+          "created_by": "derived from existing still, no new generation",
+          "created_at": "2026-11-05T19:50:00+00:00",
+          "source_type": "derived_registered_plate",
+          "editorial_status": "not_approved",
+          "sha256": "45e3d8c1bf48b9064c8f8de5bdb6a483197473cd968c69c6be21c8ef55d70387",
+          "scenes": [
+            26
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Горизонталь 16:9, 1672×941. Производная пластина из уже опубликованного кадра, без новой генерации людей. not_approved. Пиксель в пиксель tt26-orbit.png. Маска выключена."
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-26-tt26-delta-mask",
+      "name": "@Image4 — та же дельта с бирюзовой маской.",
+      "kind": "situation_reference",
+      "scenes": [
+        26
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Та же дельта: бирюзовая маска только по воде, берег не сдвинут. projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.image-prompt.txt",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png",
+          "caption": "Терра Тех: та же дельта с бирюзовой маской",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.image-prompt.txt",
+          "created_by": "derived from existing still, no new generation",
+          "created_at": "2026-11-05T19:50:00+00:00",
+          "source_type": "derived_registered_plate",
+          "editorial_status": "not_approved",
+          "sha256": "a9d3fb355eb934be84ac2858a65940385bcca58d5f3d7a2ba0a11854eef6bc32",
+          "scenes": [
+            26
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Горизонталь 16:9, 1672×941. Производная пластина из уже опубликованного кадра, без новой генерации людей. not_approved. Та же дельта: бирюзовая маска только по воде, берег не сдвинут."
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-28-tt28-wipe-before",
+      "name": "@Image3 — целые кроны для шторки.",
+      "kind": "situation_reference",
+      "scenes": [
+        28
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Тот же ракурс, что tt28-wipe-after.png. Просвет закрыт кронами вокруг. projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.image-prompt.txt",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png",
+          "caption": "Терра Тех: целые кроны, тот же ракурс",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.image-prompt.txt",
+          "created_by": "derived from existing still, no new generation",
+          "created_at": "2026-11-05T19:50:00+00:00",
+          "source_type": "derived_registered_plate",
+          "editorial_status": "not_approved",
+          "sha256": "e9290a05ea8da704fb21e7309b02f2674b90ced6bb3aa2cb15f6dd3536c26db1",
+          "scenes": [
+            28
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Горизонталь 16:9, 1672×941. Производная пластина из уже опубликованного кадра, без новой генерации людей. not_approved. Тот же ракурс, что tt28-wipe-after.png. Просвет закрыт кронами вокруг."
+        }
+      ]
+    },
+    {
+      "id": "roscosmos-tt-28-tt28-wipe-after",
+      "name": "@Image4 — просвет для шторки.",
+      "kind": "situation_reference",
+      "scenes": [
+        28
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Горизонталь 16:9, холст 1672×941. not_approved. Пиксель в пиксель tt28-clearing.png. projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
+      "images": [
+        {
+          "path": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png",
+          "caption": "Терра Тех: просвет, тот же ракурс",
+          "prompt_file": "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.image-prompt.txt",
+          "created_by": "derived from existing still, no new generation",
+          "created_at": "2026-11-05T19:50:00+00:00",
+          "source_type": "derived_registered_plate",
+          "editorial_status": "not_approved",
+          "sha256": "09489d693f99217deb7355449c649548112468bf7d7bb644e760fe85695a6c6a",
+          "scenes": [
+            28
+          ],
+          "width": 1672,
+          "height": 941,
+          "technical_qc": "Горизонталь 16:9, 1672×941. Производная пластина из уже опубликованного кадра, без новой генерации людей. not_approved. Пиксель в пиксель tt28-clearing.png."
         }
       ]
     }

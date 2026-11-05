@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/roscosmos/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-05T18:51:52Z",
+  "synced_at": "2026-11-05T19:43:56Z",
   "revision_date": "05.11.2026",
-  "master_declared_last_full_sync": "02.11.2026 · Терра Тех: сцены 26–30, горизонталь 16:9, 03.11.2026 нарисованы 10 горизонтальных PNG референсов; прежние 25 сцен не менялись",
-  "canonical_master_sha256": "0ba53aa28e9b522ee3181f2689d11d641fef09ff3b571001461b52c15423e3d8",
-  "canonical_revision_sha256": "efd98b5cdc7e16d51ebed5efff0a7aeb363c747cf5c8338e33ac26f121473985",
-  "canonical_master_bytes": 546398,
+  "master_declared_last_full_sync": "05.11.2026 · Терра Тех 26–30: пять восстановленных PNG ChatGPT на местах, прежние байты как *-old.png, 15 видеопромтов горизонтальные; очередь не менялась",
+  "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
+  "canonical_revision_sha256": "0f6b847e3444a8e8788fda59dd930f2408f5cdb7f880e0746594ac8c7a6e4fcb",
+  "canonical_master_bytes": 551979,
   "scenes": 30,
   "prompt_texts": 90,
   "work_items": [],
@@ -55,7 +55,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 7.902,
+    "age_hours_at_status_build": 8.77,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -133,7 +133,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 7.902,
+      "age_hours": 8.77,
       "blocking": false
     },
     "topview_task_map": {
@@ -752,9 +752,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "05.11.2026",
-    "synced_at": "2026-11-05T18:51:52Z",
-    "canonical_master_sha256": "0ba53aa28e9b522ee3181f2689d11d641fef09ff3b571001461b52c15423e3d8",
-    "canonical_revision_sha256": "efd98b5cdc7e16d51ebed5efff0a7aeb363c747cf5c8338e33ac26f121473985",
+    "synced_at": "2026-11-05T19:43:56Z",
+    "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
+    "canonical_revision_sha256": "0f6b847e3444a8e8788fda59dd930f2408f5cdb7f880e0746594ac8c7a6e4fcb",
     "scene_count": 30,
     "prompt_count": 90,
     "scene_ids": [

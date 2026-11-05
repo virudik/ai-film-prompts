@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "roscosmos",
   "work_id": "ROSCOSMOS-TERRATECH-REVISION-20261104",
-  "stage": "originals_recovered",
+  "stage": "originals_published",
   "checked_at": "2026-11-04T22:36:50+00:00",
   "source_head": "f3ea8500a376390def1d0942696cd4fd8f0ffea8",
   "source_shared_chat": "https://chatgpt.com/share/6aebae6b-cc68-83eb-885d-9b2208ea5187",
@@ -60,5 +60,48 @@
   ],
   "new_image_generations": 0,
   "video_submissions": 0,
-  "owner_credits_spent": 0
+  "owner_credits_spent": 0,
+  "published_at": "2026-11-05T19:40:00+00:00",
+  "published_by": "grok",
+  "published": [
+    {
+      "source_name": "tt26-bank-mask.png",
+      "path": "projects/roscosmos/references/scenes/scene-26/tt26-orbit.png",
+      "backup": "projects/roscosmos/references/scenes/scene-26/tt26-orbit-old.png",
+      "sha256": "45e3d8c1bf48b9064c8f8de5bdb6a483197473cd968c69c6be21c8ef55d70387"
+    },
+    {
+      "source_name": "tt27-tablet.png",
+      "path": "projects/roscosmos/references/scenes/scene-27/tt27-tablet.png",
+      "backup": "projects/roscosmos/references/scenes/scene-27/tt27-tablet-old.png",
+      "sha256": "3cccaf72aaabf0b61b365facd26719c5f6c445122cb477378dd44955401c13d4"
+    },
+    {
+      "source_name": "tt27-layer.png",
+      "path": "projects/roscosmos/references/scenes/scene-27/tt27-layer.png",
+      "backup": "projects/roscosmos/references/scenes/scene-27/tt27-layer-old.png",
+      "sha256": "830f4467266056693725bced627a78d160cb2fae839c89e45ca5b3dc6c2973ed"
+    },
+    {
+      "source_name": "tt29-print.png",
+      "path": "projects/roscosmos/references/scenes/scene-29/tt29-print.png",
+      "backup": "projects/roscosmos/references/scenes/scene-29/tt29-print-old.png",
+      "sha256": "782e91422fddc2158daa0dec81e7092685367211d12dab7f8464d63be4ba6747"
+    },
+    {
+      "source_name": "tt30-sheet.png",
+      "path": "projects/roscosmos/references/scenes/scene-30/tt30-sheet.png",
+      "backup": "projects/roscosmos/references/scenes/scene-30/tt30-sheet-old.png",
+      "sha256": "a8092f60f15e0803cb3f0f2a7226fdee40086441f42c4d43d7be8f6097f92304"
+    }
+  ],
+  "kept": [
+    "projects/roscosmos/references/scenes/scene-26/tt26-report.png",
+    "projects/roscosmos/references/scenes/scene-28/tt28-clearing.png",
+    "projects/roscosmos/references/scenes/scene-28/tt28-pair.png",
+    "projects/roscosmos/references/scenes/scene-29/tt29-fence.png",
+    "projects/roscosmos/references/scenes/scene-30/tt30-chips.png"
+  ],
+  "editorial_status": "not_approved",
+  "queue": "unchanged_paused_by_owner"
 }

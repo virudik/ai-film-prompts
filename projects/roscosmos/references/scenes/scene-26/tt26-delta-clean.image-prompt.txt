@@ -1,0 +1,3 @@
+Monitor plate, landscape 16:9, exact canvas 1672×941 pixels, edge-to-edge. No text, labels, logos or black bars.
+
+This file is the clean satellite state of the rescued delta still. It is pixel-identical to tt26-orbit.png. No mask, no contour, no captions. Use it as the monitor image when the teal mask is off.

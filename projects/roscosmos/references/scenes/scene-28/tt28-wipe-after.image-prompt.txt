@@ -1,0 +1,3 @@
+Registered comparison frame, landscape 16:9, exact canvas 1672×941 pixels, edge-to-edge. No text, dates, logos or black bars.
+
+This file is pixel-identical to tt28-clearing.png: the same canopy with one pale opening (просвет). Pair it with tt28-wipe-before.png for a curtain wipe. Do not restack the pair top to bottom.
