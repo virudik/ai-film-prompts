@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "rules": "ops/CANON-LOCK.md",
-  "released_at": "2026-11-05T13:11:01.486Z"
+  "state": "held",
+  "holder": "chatgpt:work:4752d45e-42b3-47df-8035-aa8d005be1db",
+  "task": "Seregius 16:55 Work cycle: Topview hourly",
+  "acquired_at": "2026-11-05T13:54:19.550Z",
+  "expires_at": "2026-11-05T14:24:19.550Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md"
 }
