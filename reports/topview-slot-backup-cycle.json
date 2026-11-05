@@ -10,14 +10,14 @@
   "receipt_started_at": "2026-11-05T07:10:31.483Z",
   "source_head": "2ba5fdd4aa1af7dccfb200405b92d2626faa4fb2",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "read_only_scan_in_progress",
+  "phase": "finished",
+  "stage": "verified_no_free_slot_partial_global_scan",
   "scan_source": "Topview connector",
-  "scan_scope": "14 boards identified; 13 board video lists accessible; 17/18 pages, 624 video tasks verified. Kotmonavty board list returns 5003 Board not found.",
+  "scan_scope": "14 boards enumerated; 13/14 board video task lists accessible and 17/18 video pages complete (624 tasks). Kotmonavty boardId 86c6cb46bf76400f93fea9c82d8e9b0 returned 5003 Board not found / 2001 get_board.",
   "scan_complete": false,
   "occupied_slots": 6,
   "free_slots": 0,
-  "capacity_basis": "Six unique init videos directly observed on My First Board and independently confirmed by task details; cap is six. Other board access incomplete.",
+  "capacity_basis": "Directly verified six distinct init video task IDs on the canonical My First Board, each with Unlimited=true, creditsCost=0, resolution=720, aspect 16:9; six account-wide physical slots is cap. No Create allowed at 6/6.",
   "selected_item": null,
   "task_ids": [
     "365cf639589a4a5da834d70193d5e8f6",
@@ -28,8 +28,8 @@
     "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
   "new_submissions": 0,
-  "outcome": "in_progress",
-  "blocker": "kotmonavty_readonly_board_5003_incomplete_full_scan",
+  "outcome": "no_free_slot",
+  "blocker": "incomplete_global_scan_kotmonavty_board_5003_readonly; no capacity anyway",
   "retryable": true,
   "browser_transport": "not_used",
   "tinyfish_run_ids": [],
@@ -47,9 +47,87 @@
     "new_task_id_verified": false
   },
   "lease": {
-    "state": "held",
+    "state": "released",
     "holder": "chatgpt:ordinary:5ad4b407-2724-435c-8620-d577462fd4a7",
     "acquired_at": "2026-11-05T07:09:21.308Z",
-    "expires_at": "2026-11-05T07:21:21.308Z"
-  }
+    "expires_at": null,
+    "released_at": "2026-11-05T07:14:44.583Z"
+  },
+  "completed_at": "2026-11-05T07:14:44.583Z",
+  "source_head_at_finish": "d50bbce721a684c69fe88d60f0418d8b7f86e028",
+  "scan_validation": {
+    "boards_enumerated": 14,
+    "boards_accessible": 13,
+    "physical_video_pages_completed": 17,
+    "physical_video_pages_expected": 18,
+    "video_tasks_scanned": 624,
+    "status_counts_verified": {
+      "success": 595,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "active_unlimited0": 6,
+    "submitted_queue_tasks_reconciled": 13,
+    "submitted_task_ids_found": 13,
+    "submitted_missing": 0,
+    "queue_item_count": 63,
+    "queue_state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 28,
+      "submitted": 13,
+      "blocked_inputs": 21
+    },
+    "pending_claims": 0,
+    "pending_submitting": 0,
+    "pending_unknown": 0,
+    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+    "task_map_sha256": "8f41e3819ccfc819de01719eeeea08165d4e8891d3772eaefe009fe4eaa0ea47",
+    "readiness_hashes_match": true,
+    "readiness_checked_at": "2026-11-05T06:20:42.481016Z",
+    "next_ready_item": "S64-WAN30",
+    "next_ready_priority": 0.9,
+    "peer_complete_scan": {
+      "source": "reports/topview-launcher-cycle.json",
+      "completed_at": "2026-11-05T07:03:35.411Z",
+      "boards": 14,
+      "pages": 18,
+      "tasks": 628,
+      "success": 599,
+      "fail": 23,
+      "init": 6,
+      "confirm_note": "Separate Work peer scan evidence, NOT passed off as own complete scan"
+    }
+  },
+  "peer_reconciliation": {
+    "ordinary_run_id": "78b771f3-1984-8324-a12f-47df75633a46",
+    "ordinary_status_at_intake": "in_progress",
+    "work_hh55_run_id": "9aafdbd9-16c4-832e-802c-82f0cf201ce9",
+    "work_hh55_status": "completed",
+    "relay_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
+    "relay_status": "completed"
+  },
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0
+  },
+  "work_capacity": {
+    "preferred_executor": "work",
+    "route_unchanged": true,
+    "this_cycle_new_gui_or_quota_evidence": false
+  },
+  "accounting": {
+    "checkpoint_updated": false,
+    "register_updated": false,
+    "reason": "No scene state change; no-op at six occupied slots."
+  },
+  "notification": "silent_no_free_slot",
+  "notes": "5 Nov 2026: 6 distinct active tasks on My First Board each init Unlimited0 720p 16:9, 13 queue submitted IDs independently fetched; raw SHA256 queue/map checked against readiness. Separate Work 09:55 cycle had complete 14-board/18-page scan. Ordinary scan missing 4 Kotmonavty videos due read-only connector Board not found, so marked incomplete. Root robot launcher_health capacity_full checked at 06:20:41Z and stale wake issue327 did not establish fresh free capacity. No TinyFish or Create; no credits."
 }
