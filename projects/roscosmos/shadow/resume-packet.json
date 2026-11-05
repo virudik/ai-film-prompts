@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-05T18:33:29+00:00",
-  "source_head": "19a481f634c47101a563f928c2b6e838c5c38ac6",
-  "source_fingerprint": "47d30b6ff2106795e0c5d8c1ddb41c3c50c27f5e9d34334a25658e76bb60b2de",
+  "checked_at": "2026-11-05T18:45:44+00:00",
+  "source_head": "c9d2807c6f684a4a426b94c38c08492a8404f44d",
+  "source_fingerprint": "1491b8ae733580096de929bd751a05af82bb9633f99a3fa52c4a22b28aa42bb1",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -227,7 +227,7 @@
     },
     {
       "file": "projects/roscosmos/project-status.json",
-      "sha256": "8562f0773185cb45d4894ee15fef9b22e046d58d5e02e73501e346b12229d57a",
+      "sha256": "1acd2d5dcedcfada26a4fa00d4d178ff7e48da4b2e85742d1d4f52a8d565a37d",
       "bytes": 21794
     },
     {
@@ -247,8 +247,8 @@
     },
     {
       "file": "projects/roscosmos/video-prompts.md",
-      "sha256": "a6400a043382c3b87fd71481a1c223f66ba86ab4e293be9d32e1e08d03025c01",
-      "bytes": 538918
+      "sha256": "0ba53aa28e9b522ee3181f2689d11d641fef09ff3b571001461b52c15423e3d8",
+      "bytes": 546398
     },
     {
       "file": "projects/roscosmos/work-resume-register.json",
