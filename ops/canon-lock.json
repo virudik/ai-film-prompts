@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:af911d7f-2dd3-442f-8f2f-2d27197c069c",
-  "task": "Scheduled ordinary HH:00 full Topview read-only scan and receipt",
-  "acquired_at": "2026-11-05T02:06:01.389Z",
-  "expires_at": null,
-  "released_at": "2026-11-05T02:09:04.908Z",
+  "state": "held",
+  "holder": "chatgpt:work:e2677b20-c099-4031-932e-8e9f20e54246",
+  "task": "Scheduled Work HH:55 launcher cycle; complete Topview scan and receipt",
+  "acquired_at": "2026-11-05T02:52:34.632Z",
+  "expires_at": "2026-11-05T03:07:34.633Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
