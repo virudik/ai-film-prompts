@@ -4,45 +4,33 @@
   "source": "ChatGPT scheduled ordinary",
   "runner": "chatgpt_scheduled_task",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "2db70bd9-f782-49c8-ad6f-5e183938d0a1",
-  "run_id": "0d4b2a49-90f8-8332-a5e8-f0cfea89c298",
+  "execution_instance_id": "901f37ff-9a65-46f4-be42-85a6c7929d9b",
+  "run_id": "9b8eba52-f558-8322-9501-e1d793c1189a",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress)",
-  "source_head": "408a31d1535f03e755690377b46651c9277254a8",
+  "source_head": "9ce4cd3ebaa4e5b638921fcce55b5f5509858649",
   "route_generation": 3,
-  "lease_commit": "48a1069651cd25bf43f6de85d8c2a6aea7ac07d4",
-  "lease_holder": "chatgpt:ordinary:2db70bd9-f782-49c8-ad6f-5e183938d0a1",
-  "lease_acquired_at": "2026-11-05T19:03:23.998Z",
-  "started_at": "2026-11-05T18:59:33.607634Z",
-  "receipt_started_at": "2026-11-05T19:04:11.296Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_commit": "06d602cb86086b3ccc731babad3ddb3ba18a2ccd",
+  "lease_holder": "chatgpt:ordinary:901f37ff-9a65-46f4-be42-85a6c7929d9b",
+  "lease_acquired_at": "2026-11-05T21:08:37.751Z",
+  "started_at": "2026-11-05T21:03:48.139471Z",
+  "receipt_started_at": "2026-11-05T21:09:26.573Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
     "source": "Topview read-only connector",
     "boards_scanned": 14,
     "pages_scanned": 18,
-    "video_tasks_scanned": 628,
+    "video_tasks_scanned": 629,
     "status_counts": {
-      "success": 599,
+      "success": 600,
       "fail": 23,
       "init": 6
     },
     "active_task_ids": [
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "c72c1ab4524e4f2f9d3a0272474f788a"
+      "3ebe7c23db05479e9b6f762a75b832e7"
     ],
-    "all_active_board": "1a6244cf1ae747ef847d949a80d6133c",
-    "active_parameters_verified": {
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "unlimited": true,
-      "credits_cost": 0,
-      "evidence": "Topview task detail for each active task; creditsCost top-level 0"
-    }
+    "scope": "account-wide all 14 boards; confirmed six active, identities in final receipt"
   },
   "slots": {
     "capacity": 6,
@@ -51,32 +39,12 @@
     "complete_scan_verified": true
   },
   "queue_reconciliation": {
-    "total": 63,
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 28,
-      "submitted": 13,
-      "blocked_inputs": 21
-    },
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "submitted_ids_verified": 13,
-    "all_submitted_found": true,
-    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "5086974231a01ae37ae2a084460d19f0709e1301028efad7964619eedba34497",
-    "readiness_hashes_match": true,
-    "sha_method": "independently SHA-256 of freshly fetched raw GitHub UTF-8 JSON",
-    "next_ready": {
-      "id": "S64-WAN30",
-      "priority": 0.9
-    },
-    "checked_owner_tasks_open": 0
+    "status": "pending_hash_and_receipt_crosscheck"
   },
   "new_submissions": [],
   "selected_item": null,
   "task_ids": [],
-  "outcome": "no_free_slot",
+  "outcome": "in_progress",
   "blocker": null,
   "retryable": false,
   "browser_transport": "not_used_no_free_slot",
@@ -86,7 +54,7 @@
     "estimated_spend_usd": 0,
     "confirmed_spend_usd": 0,
     "wallet_checked": false,
-    "wallet_not_checked_reason": "No capacity; no TinyFish run authorized or needed"
+    "wallet_not_checked_reason": "6/6"
   },
   "acceptance": {
     "scheduled_run": true,
@@ -94,20 +62,7 @@
     "tinyfish_ui_control_current_run": false,
     "files_uploaded": false,
     "unlimited0_current_preflight": false,
-    "verified_topview_new_task_id": false,
-    "topview_existing_tasks_verified": 13,
-    "production_tinyfish_create_verified": false
+    "verified_topview_new_task_id": false
   },
-  "notes": "Full current scan: 6/6 occupied, no Create or paid browser invocation. No new blocker. No checkpoint history append for no-op.",
-  "completed_at": "2026-11-05T19:07:06.486Z",
-  "peer_reconciliation": {
-    "ordinary_current_run_id": "0d4b2a49-90f8-8332-a5e8-f0cfea89c298",
-    "ordinary_previous_result_run_id": "b5a6ed68-7d90-8327-83c7-9da03f1330b3",
-    "work_hourly_last_run_id": "40609a23-c130-8328-a33e-9e4526e0a4f3",
-    "work_hourly_status": "completed",
-    "relay_last_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
-    "relay_status": "completed",
-    "event_wake_latest": "read_only; old event not capacity proof",
-    "robot_health": "checkpoint 2026-11-05T18:30:30Z; live Topview independently scanned"
-  }
+  "updated_at": "2026-11-05T21:09:26.573Z"
 }
