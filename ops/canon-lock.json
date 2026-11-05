@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": null,
-  "expires_at": null,
-  "released_at": "2026-11-05T15:03:26.006Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:2efed738-ef86-43b4-9fb2-c8c8d13425d0",
+  "task": "scheduled ordinary slot audit and cycle receipt; 6/6 verified; no Create",
+  "acquired_at": "2026-11-05T15:05:15.687Z",
+  "expires_at": "2026-11-05T15:14:15.687Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
