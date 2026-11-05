@@ -2,10 +2,10 @@
   "schema_version": 1,
   "project": "roscosmos",
   "state": "held",
-  "holder": "chatgpt:work:eb3be3dd-ba16-45da-8875-b6dadcfb1248",
-  "task": "Восстановить пять PNG из shared chat и завершить Терра Тех 26–30",
-  "acquired_at": "2026-11-04T22:35:16.624Z",
-  "expires_at": "2026-11-04T23:20:16.624Z",
+  "holder": "chatgpt:interactive:0a1c3c20-5fd8-4c76-bb2f-87e1f78177b5",
+  "task": "Terra Tech 26–30: finish canonical prompt fixes and reference recovery",
+  "acquired_at": "2026-11-05T18:40:46.833Z",
+  "expires_at": "2026-11-05T19:25:46.833Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
