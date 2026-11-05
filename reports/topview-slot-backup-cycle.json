@@ -8,29 +8,113 @@
   "run_id_source": "Automations.peek last_run.id in_progress scheduled_for 2026-11-05T12:00:00Z",
   "started_at": "2026-11-05T12:03:17.481278Z",
   "receipt_started_at": "2026-11-05T12:14:27.719Z",
-  "source_head": "d4299850e81e58c23c03057af23c1cd952ded928",
+  "source_head": "b13eafeabf70eee4a8e3a3e41fe921de29207b1a",
   "route_generation": 3,
-  "phase": "started",
-  "scan_complete": false,
+  "phase": "completed",
+  "scan_complete": true,
   "scan": {
-    "scope": "running fresh read-only scan; not yet finalized",
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null,
-    "status_counts": null,
-    "verified_at": null,
-    "completed_at": null,
-    "active_videos": [],
+    "scope": "Topview list_boards(mode=all) + mediaType=video full traversal across 14 boards; My First Board 5 pages + 13 other boards 1 page each",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 628,
+    "status_counts": {
+      "success": 599,
+      "fail": 23,
+      "init": 6
+    },
+    "verified_at": "2026-11-05T12:11:17.129Z",
+    "completed_at": "2026-11-05T12:11:17.129Z",
+    "active_videos": [
+      {
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "input_images": 4,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "input_images": 5,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "input_images": 6,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "input_images": 4,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "input_images": 4,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "input_images": 4,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "unlimited": true,
+        "credits_cost": 0
+      }
+    ],
     "errors": []
   },
-  "occupied_slots": null,
-  "free_slots": null,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
-  "outcome": "in_progress",
+  "task_ids": [
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6",
+    "22dbd25cdd9f47cd9e44300e55f5e44f",
+    "c72c1ab4524e4f2f9d3a0272474f788a"
+  ],
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": null,
-  "browser_transport": "not_used",
+  "retryable": false,
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_cost_usd": 0,
@@ -43,8 +127,15 @@
     "tinyfish_unlimited_zero": "unverified",
     "tinyfish_production_submission": "unverified",
     "topview_new_task_id": null,
-    "topview_verified_task_ids": [],
-    "actual_result": "in_progress",
+    "topview_verified_task_ids": [
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "c72c1ab4524e4f2f9d3a0272474f788a"
+    ],
+    "actual_result": "no_free_slot",
     "tinyfish_transport_activated": false
   },
   "lease": {
@@ -52,11 +143,39 @@
     "acquired_at": "2026-11-05T12:13:25.522Z",
     "expires_at": "2026-11-05T12:21:25.522Z",
     "acquire_commit": "aa9cfbdbc9d15eb1eed20097c2504ed73a1a4689",
-    "result": "lease_held"
+    "result": "final_receipt_saved_before_exact_release"
   },
-  "completed_at": null,
-  "readiness": null,
-  "queue_reconciliation": null,
-  "owner_tasks": null,
-  "peer_runs": null
+  "completed_at": "2026-11-05T12:16:18.431Z",
+  "readiness": {
+    "source_queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
+    "source_task_map_sha256": "857232a19d60d00fba9971365c37f43acd428654e64f2db133a68d48bc9430d",
+    "source_sha_matched": true,
+    "ready_next": {
+      "id": "S64-WAN30",
+      "priority": 0.9,
+      "queued_state": "waiting_for_slot"
+    }
+  },
+  "queue_reconciliation": {
+    "total_queue_items": 63,
+    "submitted_entries": 13,
+    "submitted_ids_verified": 13,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "all_submitted_found": true
+  },
+  "owner_tasks": {
+    "open": 0,
+    "taken": 0,
+    "checked_at": "2026-11-05T12:16:18.431Z"
+  },
+  "peer_runs": {
+    "ordinary_current_run_id": "03b688ff-126c-8321-9b9d-368c3dc37cf5",
+    "ordinary_latest_result_run_id": "06131e32-add4-832a-83fe-9d49c01e2140",
+    "work_hh55_last_run_id": "122e89e4-a274-832b-9f15-00ad21f71488",
+    "work_hh55_last_result_run_id": "940b5a20-b1c0-8320-9539-8f0228006290",
+    "relay_last_run_id": "937ef84d-0e00-8325-98dd-528b8fc33f3f",
+    "note": "Last result IDs are historical; not evidence of current invocation. Work 14:55 lease released by 12:06:40Z."
+  }
 }
