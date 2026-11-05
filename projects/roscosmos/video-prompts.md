@@ -5012,17 +5012,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Имиджевый горизонтальный ролик 16:9: снимок с орбиты становится понятным цветным слоем, который человек ещё раз смотрит. **Постоянная тема · «Цифровая Земля».**
 
-**Что происходит:** Широкий горизонтальный кадр заполняет более ясная дельта. На широком мониторе та же дельта. Аналитик выключает и снова включает бирюзовую маску, сравнивает берег и поправляет короткий контур; палец останавливается. Коллега кивает только после этой проверки.
+**Что происходит:** Широкий горизонтальный кадр заполняет более ясная дельта. На мониторе два совмещённых состояния той же дельты: чистый снимок и бирюзовая маска. Берег при переключении не прыгает. Аналитик сравнивает кромку и поправляет короткий контур; палец останавливается. Коллега кивает только после этой проверки.
 
 **Факт и художественное решение:** АО «Терра Тех» разрабатывает геоплатформу «Цифровая Земля» по заказу Роскосмоса. В интервью 15.04.2026 на сайте компании сказано, что последний шаг на этой платформе делает человек, потому что сведения идут в государственные информационные системы. Это постановочный принцип, не отчёт о конкретном заказе и не проверка точности.
 
 **Источники (проверка 02.11.2026):** [Терра Тех — о компании](https://terratech.ru/company/) · [15.04.2026 — интервью](https://terratech.ru/company/news/kosmos-za-kopeyki-kak-neyroseti-i-snimki-iz-kosmosa-spasayut-biznes-i-ekonomyat-milliony/).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`, горизонталь 1672×941. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`, тот же размер. Описание для рисунка: `tt26-report.image-prompt.txt` и `tt26-orbit.image-prompt.txt`.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`. @Image3 — `tt26-delta-clean.png`, пиксель в пиксель как @Image2, маска выключена. @Image4 — `tt26-delta-mask.png`, та же дельта с бирюзовой маской. Все 1672×941, not_approved.
 
 <div class="scene-ref-gallery">
 <figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-report.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-report.png" alt="Сцена 26, @Image1: Терра Тех: аналитик и широкий монитор" loading="lazy"></a><figcaption>@Image1 — аналитик и широкий монитор. Офисный кадр сохранён.</figcaption></figure>
 <figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-orbit.png" alt="Сцена 26, @Image2: Терра Тех: та же дельта, яснее" loading="lazy"></a><figcaption>@Image2 — та же дельта, яснее. Восстановленный кадр ChatGPT; прежний файл — tt26-orbit-old.png.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png" alt="Сцена 26, @Image3: чистая дельта для монитора" loading="lazy"></a><figcaption>@Image3 — чистая дельта для монитора. Те же пиксели, что у @Image2.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png" alt="Сцена 26, @Image4: та же дельта с бирюзовой маской" loading="lazy"></a><figcaption>@Image4 — та же дельта с бирюзовой маской. Берег не сдвинут.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Снимок становится отчётом только после того, как на него посмотрел человек.»
@@ -5033,14 +5035,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Состояние правки 05.11.2026:** Пять восстановленных PNG опубликованы. Сцена 26: дельта заменена, люди в офисе оставлены. Стык Seedance — уже остановившийся палец, не движущийся. Проект остаётся на паузе.
 
-**Режиссёрский контроль:** Один и тот же контур дельты на ясном кадре и на мониторе. Проверка — это переключение маски, сравнение берега и короткая правка контура. Маска без подписей. Горизонтальная композиция 16:9 на весь кадр.
+**Режиссёрский контроль:** Переключение маски — это @Image3 и @Image4, одна и та же дельта. Берег не перерисовывается. Правка — короткий контур, затем палец стоит. Горизонтальная композиция 16:9 на весь кадр.
 
 <div class="engine-tabs" data-scene="26">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 26 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
+**Входы:** @Image1 — `tt26-report.png`. @Image2 — `tt26-orbit.png`. @Image3 — `tt26-delta-clean.png`. @Image4 — `tt26-delta-mask.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5048,25 +5050,28 @@ Optimized for Wan 3.0 | Landscape civil Earth-observation concept, photoreal, pu
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
-@Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. This landscape picture is what the monitor also shows. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.
+@Image4 — Same plate as @Image3 with a translucent teal mask and a thin contour only on the water edge. Land beyond that edge is unchanged, so the shoreline cannot jump. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional analyst: short black bob, charcoal blazer, cream knit, no badge. A second fictional colleague in a grey sweater appears only at the nod. Not a portrait of any real executive.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Same exact river delta shoreline and tributary branching on the clearer aerial and on the wide monitor; turquoise mask follows the bank. The analyst toggles the mask off and on, compares the shoreline with @Image2, then fixes one short contour and stops. A nod comes only after that check. No wandering river, invented channel or generic animated glow.
-The delta on the monitor is the same shape as @Image2. The teal mask is a translucent color, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
+The monitor toggles only between @Image3 and @Image4. They share one shoreline. Do not redraw the banks, invent a channel, or slide the delta when the mask appears. She then fixes one short contour and stops. A nod comes only after that check.
+The teal mask is a translucent color and a thin edge, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
 
 START STATE:
 @Image2 already fills the horizontal 16:9 frame: the delta drifts slowly sideways.
 
 TIMELINE:
 [0:00–0:04] The delta glides sideways across the landscape frame. No tall portrait frame and no black bar.
-[0:04–0:09] Match cut: the same delta is already on the wide monitor. She toggles the teal mask off, then on, and compares the shoreline.
-[0:09–0:16] She fixes one short contour so the mask meets the bank, then her finger stops. The stroke never forms a letter.
-[0:16–0:22] Only after the finger has stopped, the colleague in the grey sweater leans in and gives one short nod.
-[0:22–0:30] The mask settles as an even translucent color. She rests her hand on the desk. Hold.
+[0:04–0:09] Match cut to the office. The wide monitor shows @Image3, the clean delta.
+[0:09–0:14] She toggles once to @Image4. The banks stay locked; only the teal mask and its contour appear.
+[0:14–0:18] She corrects one short stretch of that contour, then her finger stops. The stroke never forms a letter.
+[0:18–0:24] Only after the finger has stopped, the colleague in the grey sweater leans in and gives one short nod.
+[0:24–0:30] The mask stays even. She rests her hand on the desk. Hold.
 
 END STATE:
 Office: the analyst still beside the wide monitor, mask even, colleague just behind her shoulder.
@@ -5095,7 +5100,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 26 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`.
+**Входы:** @Image1 — `tt26-report.png`. @Image2 — `tt26-orbit.png`. @Image3 — `tt26-delta-clean.png`. @Image4 — `tt26-delta-mask.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5103,26 +5108,28 @@ Optimized for Seedance 2.0 | Landscape civil Earth-observation concept, photorea
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
-@Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. This landscape picture is what the monitor also shows. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.
+@Image4 — Same plate as @Image3 with a translucent teal mask and a thin contour only on the water edge. Land beyond that edge is unchanged, so the shoreline cannot jump. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional analyst: short black bob, charcoal blazer, cream knit, no badge. A second fictional colleague in a grey sweater appears only at the nod. Not a portrait of any real executive.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Same exact river delta shoreline and tributary branching on the clearer aerial and on the wide monitor; turquoise mask follows the bank. The analyst toggles the mask off and on, compares the shoreline with @Image2, then fixes one short contour and stops. A nod comes only after that check. No wandering river, invented channel or generic animated glow.
-The delta on the monitor is the same shape as @Image2. The teal mask is a translucent color, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
+The monitor toggles only between @Image3 and @Image4. They share one shoreline. Do not redraw the banks, invent a channel, or slide the delta when the mask appears. She then fixes one short contour and stops. A nod comes only after that check.
+The teal mask is a translucent color and a thin edge, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
 
 START STATE:
 @Image2 already fills the horizontal 16:9 frame: the delta drifts slowly sideways.
 
 TIMELINE:
 [0:00–0:04] The delta glides sideways across the landscape frame.
-[0:04–0:09] Match cut onto the wide monitor; she toggles the teal mask off, then on.
-[0:09–0:15] She fixes one short contour and the finger stops. Hold the stopped finger over the final 3 seconds.
+[0:04–0:09] Match cut onto the wide monitor showing @Image3.
+[0:09–0:15] She toggles to @Image4 and the finger stops on the contour. Hold the stopped finger and the masked plate for the final 3 seconds.
 
 END STATE:
-Her finger is already stopped on the corrected bank. Preserve that settled pose for the next part; only ambient breath and monitor glow, not a moving finger.
+Mask is on, banks unchanged, finger already stopped. Preserve that settled pose for the next part; only ambient breath and monitor glow, not a moving finger.
 
 CAMERA / SPACE:
 Landscape 16:9, same frame as the other Roscosmos scenes. The analyst and the wide monitor share one horizontal frame; the clearer delta fills the frame edge to edge. No portrait crop, no side bars, no letterbox.
@@ -5145,7 +5152,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 26 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-26/tt26-report.png`. @Image2 — `projects/roscosmos/references/scenes/scene-26/tt26-orbit.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
+**Входы:** @Image1 — `tt26-report.png`. @Image2 — `tt26-orbit.png`. @Image3 — `tt26-delta-clean.png`. @Image4 — `tt26-delta-mask.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5153,7 +5160,9 @@ Optimized for Seedance 2.0 | Landscape civil Earth-observation concept, photorea
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 office: a fictional woman with a short black bob, charcoal blazer and cream knit stands beside a wide monitor. The monitor shows a river delta in natural color under a translucent teal mask and contains no text, numbers or logos. She controls the person and the room. File: projects/roscosmos/references/scenes/scene-26/tt26-report.png.
-@Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. This landscape picture is what the monitor also shows. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image2 — Landscape 16:9 oblique aerial of the same river delta, closer and clearer, teal water and branching banks edge to edge. No labels and no black atmospheric bar. File: projects/roscosmos/references/scenes/scene-26/tt26-orbit.png.
+@Image3 — Monitor plate, pixel-identical to @Image2, mask off. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.
+@Image4 — Same plate as @Image3 with a translucent teal mask and a thin contour only on the water edge. Land beyond that edge is unchanged, so the shoreline cannot jump. File: projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png.
 @Video1 — final 3 seconds of the actual Part 1 of THIS scene; absolute authority for the stopped finger, camera and mask.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
@@ -5161,15 +5170,15 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 One fictional analyst: short black bob, charcoal blazer, cream knit, no badge. A second fictional colleague in a grey sweater appears only at the nod. Not a portrait of any real executive.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Same exact river delta shoreline and tributary branching on the clearer aerial and on the wide monitor; turquoise mask follows the bank. The analyst toggles the mask off and on, compares the shoreline with @Image2, then fixes one short contour and stops. A nod comes only after that check. No wandering river, invented channel or generic animated glow.
-The delta on the monitor is the same shape as @Image2. The teal mask is a translucent color, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
+The monitor toggles only between @Image3 and @Image4. They share one shoreline. Do not redraw the banks, invent a channel, or slide the delta when the mask appears. She then fixes one short contour and stops. A nod comes only after that check.
+The teal mask is a translucent color and a thin edge, never letters, a legend, a scale bar or a logo. No agency name and no claim that a named region was measured.
 
 START STATE:
-Start on the actual last frame of @Video1, without a replay. Expected handoff: her finger is already stopped on the corrected contour.
+Start on the actual last frame of @Video1, without a replay. Expected handoff: the mask is already on and her finger is stopped on the contour.
 
 TIMELINE:
-[0:00–0:04] Hold the stopped finger; the corrected contour stays put.
-[0:04–0:09] The colleague nods once. The mask settles into an even translucent color.
+[0:00–0:04] Hold the stopped finger. Do not redraw the shoreline.
+[0:04–0:09] The colleague nods once. The mask stays even.
 [0:09–0:15] She rests her hand on the desk. Hold.
 
 END STATE:
@@ -5391,17 +5400,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Показать, как по двум датам видно изменение леса, без рейтинга регионов. **Индекс лесопользования · 27.02.2026.**
 
-**Что происходит:** Короткий пролёт над кронами, затем склейка на пару слева направо: слева густой лес, справа тот же участок с просветом. В финале один тонкий контур один раз вокруг изменившегося пятна. Причина просвета неизвестна.
+**Что происходит:** Короткий пролёт по целым кронам, затем горизонтальная шторка на тот же ракурс с просветом. Деревья вокруг не едут. Потом пара слева направо, не сверху вниз. В финале один тонкий контур один раз вокруг просвета. Причина неизвестна.
 
 **Факт и художественное решение:** 27.02.2026 «Эксперт РА» сообщил о совместном с АО «Терра Тех» индексе устойчивости лесопользования. В расчёте использованы, среди прочего, данные «Цифровой Земли» о вырубках, границе леса и гарях. Ролик не называет регионы и не является лесоустройством.
 
 **Источники (проверка 02.11.2026):** [27.02.2026 — пресс-релиз «Эксперт РА»](https://raexpert.ru/releases/2026/feb27b).
 
-**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Оба 1672×941, нарисованы 03.11.2026, not_approved.
+**Референсы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `tt28-pair.png`, слева целый лес, справа просвет. @Image3 — `tt28-wipe-before.png`, целые кроны. @Image4 — `tt28-wipe-after.png`, пиксель в пиксель как @Image1. Все 1672×941, not_approved. Пара слева направо сохранена.
 
 <div class="scene-ref-gallery">
 <figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-clearing.png" alt="Сцена 28, @Image1: Терра Тех: кроны и один просвет" loading="lazy"></a><figcaption>@Image1 — кроны и один просвет. Прежний PNG сохранён.</figcaption></figure>
 <figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-pair.png" alt="Сцена 28, @Image2: Терра Тех: две даты слева и справа" loading="lazy"></a><figcaption>@Image2 — две даты слева и справа, не стопкой. Прежний PNG сохранён.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png" alt="Сцена 28, @Image3: целые кроны, тот же ракурс" loading="lazy"></a><figcaption>@Image3 — целые кроны для шторки. Тот же ракурс, просвет закрыт кронами.</figcaption></figure>
+<figure><a href="projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png" target="_blank" rel="noopener"><img src="projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png" alt="Сцена 28, @Image4: просвет, тот же ракурс" loading="lazy"></a><figcaption>@Image4 — просвет для шторки. Те же пиксели, что у @Image1.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Две даты. Один лес. Просвет видно без таблицы.»
@@ -5412,14 +5423,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Состояние правки 05.11.2026:** Раскладка пары — слева и справа, как на картинке. Стык Seedance — палец уже стоит у края пятна. Проект остаётся на паузе.
 
-**Режиссёрский контроль:** Никаких названий регионов, баллов и дат цифрами. Стык двух фото — тонкий край кадра, не чёрная полоса и не стопка сверху вниз. Если причина неизвестна, говорим «просвет».
+**Режиссёрский контроль:** Шторка идёт между @Image3 и @Image4, один ракурс. Пара @Image2 остаётся слева направо, не сверху вниз. Если причина неизвестна, говорим «просвет». Никаких названий регионов, баллов и дат цифрами.
 
 <div class="engine-tabs" data-scene="28">
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 28 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
+**Входы:** @Image1 — `tt28-clearing.png`. @Image2 — `tt28-pair.png`. @Image3 — `tt28-wipe-before.png`. @Image4 — `tt28-wipe-after.png`. Тот же 30-секундный текст используется для Seedance 2.5 только при отдельном разрешении и подтверждённой бесплатности.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5427,24 +5438,27 @@ Optimized for Wan 3.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
-@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later clearing on RIGHT, identical ground control points, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later opening on the RIGHT, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+@Image3 — Registered intact canopy, same camera as @Image4. The opening is filled with surrounding canopy. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png.
+@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it draws one thin contour once around the changed patch on the right-hand comparison, then stops. No readable interface and no second circle.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Fixed SIDE-BY-SIDE BEFORE/AFTER in the wide frame: LEFT = intact dense canopy before, RIGHT = same exact area after with pale clearing. Same scale and geography; never top-bottom stacking, reversed direction, added dates or black divider.
-The pale opening is a просвет of unknown cause, not a named forest and not a score. Do not call it logging. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times, left then right, never stacked top to bottom.
+One horizontal curtain wipe from @Image3 to @Image4. Surrounding trees stay locked; only the opening is revealed. Then the left/right pair @Image2: LEFT intact, RIGHT the same opening. Never stack the pair top to bottom, never reverse it, never add dates or a black divider.
+The pale opening is a просвет of unknown cause, not a named forest and not a score. Do not call it logging. Do not show region names, ranks, percentages or a league table.
 
 START STATE:
 @Image1 canopy already fills the landscape 16:9 frame. The camera is in a short flight, not a tall-frame descent.
 
 TIMELINE:
-[0:00–0:06] Short flight over the canopy. One pale opening is visible. Do not name a cause.
-[0:06–0:12] Hard cut to the side-by-side pair: dense forest on the left, the same opening on the right.
-[0:12–0:20] One thin contour is drawn once around the changed patch on the right, then the hand stops.
-[0:20–0:30] Hold the pair and the closed contour. No captions and no second circle.
+[0:00–0:05] Short flight over the intact canopy of @Image3.
+[0:05–0:11] One horizontal curtain wipe to @Image4. Surrounding trees do not slide. Do not name a cause.
+[0:11–0:16] Cut to the left/right pair: intact forest on the left, the same opening on the right.
+[0:16–0:22] One thin contour is drawn once around the changed patch on the right, then the hand stops.
+[0:22–0:30] Hold the pair and the closed contour. No captions and no second circle.
 
 END STATE:
 The side-by-side pair remains full-frame. The opening is only on the right, outlined once.
@@ -5473,7 +5487,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 28 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`.
+**Входы:** @Image1 — `tt28-clearing.png`. @Image2 — `tt28-pair.png`. @Image3 — `tt28-wipe-before.png`. @Image4 — `tt28-wipe-after.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5481,26 +5495,28 @@ Optimized for Seedance 2.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
-@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later clearing on RIGHT, identical ground control points, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later opening on the RIGHT, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+@Image3 — Registered intact canopy, same camera as @Image4. The opening is filled with surrounding canopy. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png.
+@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.
 Priority: each image only for its named role. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it draws one thin contour once around the changed patch on the right-hand comparison, then stops. No readable interface and no second circle.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Fixed SIDE-BY-SIDE BEFORE/AFTER in the wide frame: LEFT = intact dense canopy before, RIGHT = same exact area after with pale clearing. Same scale and geography; never top-bottom stacking, reversed direction, added dates or black divider.
-The pale opening is a просвет of unknown cause, not a named forest and not a score. Do not call it logging. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times, left then right, never stacked top to bottom.
+One horizontal curtain wipe from @Image3 to @Image4. Surrounding trees stay locked; only the opening is revealed. Then the left/right pair @Image2: LEFT intact, RIGHT the same opening. Never stack the pair top to bottom, never reverse it, never add dates or a black divider.
+The pale opening is a просвет of unknown cause, not a named forest and not a score. Do not call it logging. Do not show region names, ranks, percentages or a league table.
 
 START STATE:
 Canopy fills the landscape frame. The camera is already in a short flight.
 
 TIMELINE:
-[0:00–0:06] Short flight over the canopy.
-[0:06–0:12] Hard cut to the side-by-side pair.
-[0:12–0:15] A fingertip arrives at the edge of the changed patch and stops. Hold the stopped finger for the final 3 seconds. Do not start the contour yet.
+[0:00–0:05] Short flight over @Image3.
+[0:05–0:11] The curtain wipe to @Image4 finishes and holds.
+[0:11–0:15] Cut to the left/right pair. A fingertip arrives at the patch and stops. Hold the stopped finger for the final 3 seconds. Do not start the contour yet.
 
 END STATE:
-The comparison is already on screen and the finger is stopped at the patch. Preserve that settled pose.
+The side-by-side pair is already on screen and the finger is stopped. Preserve that settled pose.
 
 CAMERA / SPACE:
 Landscape 16:9 aerial. The forest touches all four edges. The comparison is two panels side by side, left and right, the same way as the pair still, not a top-and-bottom stack and not letterboxed. No portrait crop, no side bars.
@@ -5523,7 +5539,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 28 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/roscosmos/references/scenes/scene-28/tt28-clearing.png`. @Image2 — `projects/roscosmos/references/scenes/scene-28/tt28-pair.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
+**Входы:** @Image1 — `tt28-clearing.png`. @Image2 — `tt28-pair.png`. @Image3 — `tt28-wipe-before.png`. @Image4 — `tt28-wipe-after.png`. @Video1 — последние 3 с фактической части 1 этой сцены; до получения результата запуск запрещён.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -5531,7 +5547,9 @@ Optimized for Seedance 2.0 | Landscape forest-change concept, photoreal aerial
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Landscape 16:9 aerial: forest canopy fills the frame top to bottom, one pale clearing in the middle, no scale bar or text. File: projects/roscosmos/references/scenes/scene-28/tt28-clearing.png.
-@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later clearing on RIGHT, identical ground control points, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+@Image2 — Two photographs of the SAME canopy SIDE BY SIDE across the wide 16:9 frame: earlier dense forest on the LEFT, later opening on the RIGHT, only a hairline vertical photo seam. Never top/bottom or a black divider. No dates or captions. File: projects/roscosmos/references/scenes/scene-28/tt28-pair.png.
+@Image3 — Registered intact canopy, same camera as @Image4. The opening is filled with surrounding canopy. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png.
+@Image4 — Registered просвет, pixel-identical to @Image1. Use with @Image3 for one horizontal curtain wipe. File: projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.
 @Video1 — final 3 seconds of Part 1; authority for the stopped fingertip on the side-by-side pair.
 Priority: each image only for its named role. Actual @Video1 continuity comes before either still. These are authored horizontal 16:9 concepts, not documentary evidence, real clients or measurements.
 
@@ -5539,11 +5557,11 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 No recognizable person. If a hand enters, it draws one thin contour once around the changed patch on the right-hand comparison, then stops. No readable interface and no second circle.
 
 GEOGRAPHY / PROP / FACTUALITY LOCK — CRITICAL:
-Fixed SIDE-BY-SIDE BEFORE/AFTER in the wide frame: LEFT = intact dense canopy before, RIGHT = same exact area after with pale clearing. Same scale and geography; never top-bottom stacking, reversed direction, added dates or black divider.
-The pale opening is a просвет of unknown cause, not a named forest and not a score. Do not call it logging. Do not show region names, ranks, percentages or a league table. The two side-by-side views are the same place at two times, left then right, never stacked top to bottom.
+One horizontal curtain wipe from @Image3 to @Image4. Surrounding trees stay locked; only the opening is revealed. Then the left/right pair @Image2: LEFT intact, RIGHT the same opening. Never stack the pair top to bottom, never reverse it, never add dates or a black divider.
+The pale opening is a просвет of unknown cause, not a named forest and not a score. Do not call it logging. Do not show region names, ranks, percentages or a league table.
 
 START STATE:
-Start from the actual stopped fingertip in @Video1. The side-by-side pair is already on screen.
+Start from the actual stopped fingertip in @Video1. The left/right pair is already on screen.
 
 TIMELINE:
 [0:00–0:08] From the stopped fingertip, draw one thin contour once around the changed patch, then lift and stop.

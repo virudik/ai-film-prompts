@@ -1623,6 +1623,26 @@
    "thumb_bytes": 72916,
    "src_sha256": "853e1729eed4bef02b6f1a80d9b6475b7ae626abb69fc33b1262dc8d6ab92859"
   },
+  "projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-delta-clean.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2599612,
+   "thumb_bytes": 49160,
+   "src_sha256": "45e3d8c1bf48b9064c8f8de5bdb6a483197473cd968c69c6be21c8ef55d70387"
+  },
+  "projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-delta-mask.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2314551,
+   "thumb_bytes": 49756,
+   "src_sha256": "a9d3fb355eb934be84ac2858a65940385bcca58d5f3d7a2ba0a11854eef6bc32"
+  },
   "projects/roscosmos/references/scenes/scene-26/tt26-orbit-old.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-26/tt26-orbit-old.png.webp",
    "width": 640,
@@ -1712,6 +1732,26 @@
    "src_bytes": 2891756,
    "thumb_bytes": 67838,
    "src_sha256": "4156429e5052c75b447a79dead3aa919f4edf529e531896d21dfe44130f5c934"
+  },
+  "projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-28/tt28-wipe-after.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2844550,
+   "thumb_bytes": 66920,
+   "src_sha256": "09489d693f99217deb7355449c649548112468bf7d7bb644e760fe85695a6c6a"
+  },
+  "projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png": {
+   "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-28/tt28-wipe-before.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2850729,
+   "thumb_bytes": 67136,
+   "src_sha256": "e9290a05ea8da704fb21e7309b02f2674b90ced6bb3aa2cb15f6dd3536c26db1"
   },
   "projects/roscosmos/references/scenes/scene-29/tt29-fence.png": {
    "thumb": "references/thumbs/projects/roscosmos/references/scenes/scene-29/tt29-fence.png.webp",

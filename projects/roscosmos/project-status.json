@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/roscosmos/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-05T19:33:17Z",
+  "synced_at": "2026-11-05T19:43:56Z",
   "revision_date": "05.11.2026",
   "master_declared_last_full_sync": "05.11.2026 · Терра Тех 26–30: пять восстановленных PNG ChatGPT на местах, прежние байты как *-old.png, 15 видеопромтов горизонтальные; очередь не менялась",
-  "canonical_master_sha256": "13ee0daad669f1f5d3a323b6421caa7313e2d83638cc1ef5718ed4eac8dc9bcf",
-  "canonical_revision_sha256": "237a390fd278f8a3e7a3f16bab35b0ecc4a4be8ea60b19a480d5feeadc3fbd97",
-  "canonical_master_bytes": 548586,
+  "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
+  "canonical_revision_sha256": "0f6b847e3444a8e8788fda59dd930f2408f5cdb7f880e0746594ac8c7a6e4fcb",
+  "canonical_master_bytes": 551979,
   "scenes": 30,
   "prompt_texts": 90,
   "work_items": [],
@@ -55,7 +55,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 8.592,
+    "age_hours_at_status_build": 8.77,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -133,7 +133,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 8.592,
+      "age_hours": 8.77,
       "blocking": false
     },
     "topview_task_map": {
@@ -752,9 +752,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "05.11.2026",
-    "synced_at": "2026-11-05T19:33:17Z",
-    "canonical_master_sha256": "13ee0daad669f1f5d3a323b6421caa7313e2d83638cc1ef5718ed4eac8dc9bcf",
-    "canonical_revision_sha256": "237a390fd278f8a3e7a3f16bab35b0ecc4a4be8ea60b19a480d5feeadc3fbd97",
+    "synced_at": "2026-11-05T19:43:56Z",
+    "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
+    "canonical_revision_sha256": "0f6b847e3444a8e8788fda59dd930f2408f5cdb7f880e0746594ac8c7a6e4fcb",
     "scene_count": 30,
     "prompt_count": 90,
     "scene_ids": [
