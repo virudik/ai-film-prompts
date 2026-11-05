@@ -10,8 +10,8 @@
   "receipt_started_at": "2026-11-05T01:06:46.637Z",
   "source_head": "e617ad04a0c52f1bf6f90c398c94afc035170a2f",
   "route_generation": 3,
-  "phase": "started",
-  "stage": "intake",
+  "phase": "finished",
+  "stage": "finalized",
   "scan_source": "Topview connector; live 14-board video scan",
   "scan_checked_at": "2026-11-05T01:00:43.093Z",
   "scan_scope": "14 boards; 18 physical video pages; 628 video tasks",
@@ -28,7 +28,7 @@
     "c72c1ab4524e4f2f9d3a0272474f788a"
   ],
   "new_submissions": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": true,
   "browser_transport": "not_used",
@@ -50,10 +50,11 @@
     "holder": "chatgpt:ordinary:5c0b1b75-0738-4530-840c-0d84e2378ecc",
     "acquired_at": "2026-11-05T01:05:55.219Z",
     "expires_at": "2026-11-05T01:17:55.219Z",
-    "state": "held"
+    "state": "free",
+    "released_at": "2026-11-05T01:08:06.190Z"
   },
-  "completed_at": null,
-  "source_head_at_finish": "236dcb21e2316d6b543d33f36551abc29713de8f",
+  "completed_at": "2026-11-05T01:08:06.190Z",
+  "source_head_at_finish": "618a88929ec70c819f38f3aed2a5aa6ca733cd0a",
   "scan_validation": {
     "boards": 14,
     "physical_video_pages": 18,
@@ -91,8 +92,11 @@
     "readiness_checked_at": "2026-11-05T00:40:33.542776Z",
     "next_ready_item": "S64-WAN30",
     "next_ready_priority": 0.9,
-    "scan_complete": true
+    "scan_complete": true,
+    "final_task_recheck_at": "2026-11-05T01:07:14.987Z",
+    "final_active_init": 6,
+    "source_hashes_checked_at": "2026-11-05T01:02:00Z"
   },
   "notification": "silent_no_free_slot",
-  "notes": "5 Nov 2026 01:00Z fresh Topview all-board video scan 14 boards/18 pages/628 videos 599 success/23 fail/6 init. Six active My First Board tasks Unlimited0 720p/16:9, all 13 submitted task IDs independently verified. SHA queue/task-map match readiness. Work preferred restored verified since 2 Nov, Work HH:55 current run finished and released own lease. No Create, no credits, no TinyFish. No open owner tasks."
+  "notes": "5 Nov 2026 01:00Z fresh Topview all-board video scan 14 boards/18 pages/628 videos 599 success/23 fail/6 init. Six active My First Board tasks Unlimited0 720p/16:9, all 13 submitted task IDs independently verified. SHA queue/task-map match readiness. Work preferred restored verified since 2 Nov, Work HH:55 current run finished and released own lease. No Create, no credits, no TinyFish. No open owner tasks. Final live recheck of all six active task IDs at 01:07:14Z: all still init Unlimited0, no newly freed slot. Work HH:55 current completed run e9a0b34a-9cb0-8328-8884-a88b3eeeec15, receipt ef346550c2accc46c0476f7559efee0b333c22e3, Work lock released e617ad04a0c52f1bf6f90c398c94afc035170a2f. No action through TinyFish."
 }
