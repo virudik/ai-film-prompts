@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:8c83be2b-df74-4868-9822-f6c868d45406",
-  "task": "launch S64-WAN30 (grok helper, slot-wake issue #356)",
-  "acquired_at": "2026-11-05T20:25:49Z",
-  "expires_at": null,
-  "released_at": "2026-11-05T20:32:05Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:901f37ff-9a65-46f4-be42-85a6c7929d9b",
+  "task": "scheduled ordinary Seregius Topview read-only scan and cycle receipt; no Create at 6/6",
+  "acquired_at": "2026-11-05T21:08:37.751Z",
+  "expires_at": "2026-11-05T21:35:37.751Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
