@@ -3,19 +3,19 @@
   "project": "seregius",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "completed",
-  "status": "completed",
-  "result": "no_free_slot",
-  "run_id": "122e89e4-a274-832b-9f15-00ad21f71488",
+  "phase": "started",
+  "status": "in_progress",
+  "result": null,
+  "run_id": "66597db6-df54-8322-84f8-1aa0a6a6a581",
   "runtime_run_id_source": "Automations.peek current last_run.id (in_progress at intake)",
-  "execution_instance_id": "18999896-8e54-439b-a385-cf51ee00cae8",
+  "execution_instance_id": "2f46ff96-57c7-4e9b-8478-18b9f0117623",
   "route_generation": 3,
-  "source_head": "383c9be35bb117e9b06912fb4ce73f832fd0b748",
-  "source_head_at_receipt_start": "bebde781e61c3006d347b94f37c00aca551fae8d",
-  "lease_commit": "bebde781e61c3006d347b94f37c00aca551fae8d",
-  "started_at": "2026-11-05T11:57:53.353592Z",
-  "receipt_started_at": "2026-11-05T11:59:48.264Z",
-  "completed_at": "2026-11-05T12:06:21.451Z",
+  "source_head": "592a6c2fe3cbb62cc15eb26f1e632614b9ba71c9",
+  "source_head_at_receipt_start": "ebbeda5876795181f96c1599e47c132b57392152",
+  "lease_commit": "ebbeda5876795181f96c1599e47c132b57392152",
+  "started_at": "2026-11-05T12:54:10.443255Z",
+  "receipt_started_at": "2026-11-05T12:57:59.718Z",
+  "completed_at": null,
   "intake": {
     "monitor_role": {
       "status": "not_checked",
@@ -23,169 +23,37 @@
     }
   },
   "scan": {
-    "complete": true,
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 628,
-    "status_counts": {
-      "success": 599,
-      "fail": 23,
-      "init": 6
-    },
-    "active_videos": [
-      {
-        "task_id": "365cf639589a4a5da834d70193d5e8f6",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Wan 3.0",
-        "duration_seconds": 30,
-        "input_images": 4,
-        "input_videos": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "be960f5e3bf54563aff663fed9da8906",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "input_images": 5,
-        "input_videos": 1,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "input_images": 6,
-        "input_videos": 1,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Wan 3.0",
-        "duration_seconds": 30,
-        "input_images": 4,
-        "input_videos": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Wan 3.0",
-        "duration_seconds": 30,
-        "input_images": 4,
-        "input_videos": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      },
-      {
-        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
-        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-        "status": "init",
-        "model": "Seedance 2.0",
-        "duration_seconds": 15,
-        "input_images": 4,
-        "input_videos": 0,
-        "resolution": 720,
-        "aspect_ratio": "16:9",
-        "unlimited": true,
-        "credits_cost": 0
-      }
-    ],
-    "scope": "Topview list_boards(mode=all) + 18 physical video pages across 14 boards; no page errors"
+    "complete": false,
+    "boards_scanned": null,
+    "pages_scanned": null,
+    "video_tasks_scanned": null,
+    "status_counts": null,
+    "active_videos": null,
+    "scope": "pending fresh all-board/all-page scan"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": null,
+    "free": null,
     "complete_scan_required": true,
-    "complete_scan_verified": true
+    "complete_scan_verified": false
   },
   "queue_reconciliation": {
-    "status": "complete",
-    "queue_sha256": "b425fd314f9f2404926b5b67c525e9fd6f3c8e9c23bd059f7b7a3440b2c51d05",
-    "task_map_sha256": "857232a19d60d00fba9971365c37f43acd428654e64f2db133a68d48bc9430d0",
-    "readiness_hashes_match": true,
-    "queue_state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 28,
-      "submitted": 13,
-      "blocked_inputs": 21
-    },
-    "submitted_task_ids_checked": 13,
-    "submitted_task_ids_found": 13,
-    "claims": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "next_ready_item": "S64-WAN30",
-    "next_priority": 0.9
+    "status": "pending fresh scan and dedup reconciliation"
   },
   "peer_reconciliation": {
     "ordinary_automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-    "ordinary_actual_last_run_id": "06131e32-add4-832a-83fe-9d49c01e2140",
-    "ordinary_latest_result_run_id": "06131e32-add4-832a-83fe-9d49c01e2140",
-    "ordinary_receipt_run_id": "06131e32-add4-832a-83fe-9d49c01e2140",
-    "ordinary_receipt_scan_complete": true,
-    "ordinary_receipt_phase": "completed",
-    "current_work_actual_run_id": "122e89e4-a274-832b-9f15-00ad21f71488",
-    "conclusion": "ordinary actual IDs and receipt match; peer evidence is not evidence of this Work run"
+    "ordinary_actual_last_run_id": "03b688ff-126c-8321-9b9d-368c3dc37cf5",
+    "ordinary_latest_result_run_id": "03b688ff-126c-8321-9b9d-368c3dc37cf5",
+    "ordinary_receipt_run_id": null,
+    "ordinary_receipt_scan_complete": null,
+    "current_work_actual_run_id": "66597db6-df54-8322-84f8-1aa0a6a6a581"
   },
   "phases": {
-    "phase_a_due": true,
-    "phase_a_status": "completed_healthy",
-    "phase_a_evidence": {
-      "self_heal": "ok",
-      "project_status": {
-        "health": "ok",
-        "synced_at": "2026-11-05T11:40:39Z",
-        "fresh_under_40_minutes": true
-      },
-      "canon_health": {
-        "status": "ok",
-        "warnings": 0,
-        "info": 11
-      },
-      "actions": {
-        "self_heal": 42022008164,
-        "canonical_master": 42022404497,
-        "canon_health": 42023376029,
-        "topview_robot": 42023445879,
-        "pages": 42023512664
-      }
-    },
-    "phase_b_due": true,
-    "phase_b_status": "completed_no_new_signals",
-    "phase_b_evidence": {
-      "last_success_at": "2026-11-05T07:02:18.530Z",
-      "coverage_from": "2026-11-04T07:02:18.530Z",
-      "overlap_hours": 24,
-      "gmail_query": "from:notifications@github.com \"virudik/ai-film-prompts\" after:2026/11/04 -in:spam -in:trash",
-      "results": 10,
-      "all_pages": true,
-      "next_page_token": null,
-      "new_messages": 0,
-      "mail_state_changed": false
-    },
+    "phase_a_due": false,
+    "phase_a_status": "not_due_15_55",
+    "phase_b_due": false,
+    "phase_b_status": "not_due_15_55",
     "phase_c_due": false,
     "phase_c_status": "not_due_thursday",
     "owner_tasks": {
@@ -196,26 +64,12 @@
   "new_submissions": [],
   "topview_credits_spent": 0,
   "blocker": null,
-  "retryable": false,
+  "retryable": true,
   "notification": "no_update",
   "lease": {
-    "holder": "chatgpt:work:18999896-8e54-439b-a385-cf51ee00cae8",
-    "acquired_at": "2026-11-05T11:59:25.699Z",
-    "expires_at": "2026-11-05T12:29:25.699Z",
-    "final_action": "final_receipt_saved_release_pending"
-  },
-  "source_head_at_completion": "6dbabc8d877acc8411cbad5ec40a8c1544d07834",
-  "work_recovery": {
-    "fresh_owner_confirmation": false,
-    "fresh_work_runtime": true,
-    "gui_verified": false,
-    "quota_verified": false,
-    "route_changed": false,
-    "reason": "no new combined owner/GUI/quota evidence; preferred_executor and route_generation unchanged"
-  },
-  "checkpoint": {
-    "checked_at": "2026-11-05T12:04:52.888Z",
-    "checkpoint_commit": "24e587bb510389ceb2feba587ed084550c1bc67e",
-    "register_commit": "1f84a4d7461b11827ef5555c53022be3cb695024"
+    "holder": "chatgpt:work:2f46ff96-57c7-4e9b-8478-18b9f0117623",
+    "acquired_at": "2026-11-05T12:57:37.270Z",
+    "expires_at": "2026-11-05T13:27:37.270Z",
+    "final_action": "release_pending"
   }
 }
