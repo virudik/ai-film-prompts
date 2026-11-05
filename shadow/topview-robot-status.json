@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-05T20:40:30Z",
+  "checked_at": "2026-11-05T20:50:24Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "last full scan 180 min ago"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -27,9 +25,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 686
     },
-    "pages_scanned": 16,
-    "tasks_seen": 629,
-    "api_requests": 24,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -56,7 +54,7 @@
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -69,8 +67,8 @@
       "model": "Wan 3.0",
       "scene_id": 72,
       "mapping": "task_map",
-      "queue_count": 1163,
-      "wait_seconds": 31561,
+      "queue_count": 1144,
+      "wait_seconds": 30975,
       "process_seconds": null
     },
     {
@@ -82,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 63,
       "mapping": "task_map",
-      "queue_count": 3802,
-      "wait_seconds": 169801,
+      "queue_count": 3789,
+      "wait_seconds": 169216,
       "process_seconds": null
     },
     {
@@ -93,10 +91,10 @@
       "unlimited": true,
       "created_at": "2026-11-05 20:31:40",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 4091,
-      "wait_seconds": 187081,
+      "scene_id": 64,
+      "mapping": "task_map",
+      "queue_count": 4078,
+      "wait_seconds": 186495,
       "process_seconds": null
     },
     {
@@ -108,8 +106,8 @@
       "model": "Wan 3.0",
       "scene_id": 71,
       "mapping": "task_map",
-      "queue_count": 1608,
-      "wait_seconds": 48840,
+      "queue_count": 1591,
+      "wait_seconds": 48255,
       "process_seconds": null
     },
     {
@@ -121,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 3513,
-      "wait_seconds": 152520,
+      "queue_count": 3500,
+      "wait_seconds": 151935,
       "process_seconds": null
     },
     {
@@ -134,22 +132,12 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 2646,
-      "wait_seconds": 100680,
+      "queue_count": 2633,
+      "wait_seconds": 100095,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-11-05 20:31:40",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action space-opera cinema, dynamic c"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -162,24 +150,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-05T20:00:25Z",
-    "monitor_age_minutes": 40,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-11-05T20:40:30Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
