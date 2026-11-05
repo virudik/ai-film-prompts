@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project roscosmos`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-05T18:51:47+00:00
+Проверено: 2026-11-05T18:52:11+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -53,5 +53,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- project master/status mismatch: roscosmos
 - recovery evidence changed: projects/roscosmos/video-prompts.md
