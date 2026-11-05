@@ -14,39 +14,84 @@
   "lease_acquired_at": "2026-11-05T23:11:40.987Z",
   "started_at": "2026-11-05T23:04:02.561894Z",
   "receipt_started_at": "2026-11-05T23:12:27.846Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
+    "complete": true,
     "source": "Topview read-only connector",
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null,
-    "status_counts": null,
-    "active_task_ids": null
+    "scope": "all 14 account boards; all 18 video-media pages",
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 629,
+    "status_counts": {
+      "success": 600,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "22dbd25cdd9f47cd9e44300e55f5e44f"
+    ],
+    "all_active_board": "1a6244cf1ae747ef847d949a80d6133c",
+    "active_parameters_verified": {
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "unlimited": true,
+      "credits_cost": 0,
+      "evidence": "Six independent task detail reads during same run",
+      "verified_at": "2026-11-05T23:17:47.965Z"
+    }
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
   },
   "queue_reconciliation": {
-    "status": "pending"
+    "total": 63,
+    "state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 27,
+      "submitted": 14,
+      "blocked_inputs": 21
+    },
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "submitted_ids_verified": 14,
+    "all_submitted_found": true,
+    "queue_sha256": "53ec38d8ae8db5b244cb3f871761b7915f691d1a5e5eddef490f1b59110baad0",
+    "task_map_sha256": "ea751f3f2bae0908ec31d3158bb087c963554ea8999d381d795e4416869f75e6",
+    "readiness_hashes_match": true,
+    "sha_method": "computed SHA256 from current GitHub file UTF-8 bytes; abc selftest passed",
+    "next_ready": {
+      "id": "S49A",
+      "priority": 1.2,
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "required_references": 5
+    },
+    "checked_owner_tasks_open": 0
   },
   "new_submissions": [],
   "selected_item": null,
   "task_ids": [],
-  "outcome": null,
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
-  "browser_transport": "not_used_pending_capacity_scan",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish": {
     "run_ids": [],
     "steps": 0,
     "estimated_spend_usd": 0,
     "confirmed_spend_usd": 0,
-    "wallet_checked": false
+    "wallet_checked": false,
+    "wallet_not_checked_reason": "Full live 6/6 scan: no paid TinyFish browsing permitted"
   },
   "acceptance": {
     "scheduled_run": true,
@@ -55,8 +100,34 @@
     "files_uploaded": false,
     "unlimited0_current_preflight": false,
     "verified_topview_new_task_id": false,
-    "external_topview_task_id_verified": false,
+    "external_topview_task_id_verified": true,
     "production_submission_via_tinyfish_verified": false
   },
-  "updated_at": "2026-11-05T23:12:27.846Z"
+  "updated_at": "2026-11-05T23:17:47.965Z",
+  "peer_reconciliation": {
+    "relay_automation_id": "6adc585e7ac08191bb93825117dc7213",
+    "relay_last_run_id": "d62b3913-0a54-8321-a22c-efc668fb40ae",
+    "relay_last_run_status": "completed",
+    "work_automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "work_last_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c",
+    "work_last_run_status": "completed",
+    "work_hh55_enabled": false,
+    "ordinary_actual_last_run_id": "cb4a923f-cbc4-8324-b9d1-d59745a88620",
+    "ordinary_latest_result_run_id": null
+  },
+  "robot_monitor": {
+    "launcher_health": "capacity_full",
+    "checked_at": "2026-11-05T22:40:28Z",
+    "wake_issue": 356,
+    "wake_is_historical_not_current_capacity": true
+  },
+  "external_submission_detected_during_cycle": false,
+  "completed_at": "2026-11-05T23:17:47.965Z",
+  "completion_source_head": "fa27114557ad95c20ed762b862a16c34476982da",
+  "lease": {
+    "holder": "chatgpt:ordinary:a53594ae-f2eb-433e-80f6-f077b9daa723",
+    "acquired_at": "2026-11-05T23:11:40.987Z",
+    "final_action": "released_atomically_with_receipt",
+    "released_at": "2026-11-05T23:17:47.965Z"
+  }
 }
