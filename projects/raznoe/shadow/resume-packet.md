@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project raznoe`; разрешением на запуск не является.
 
 Состояние: ready
-Проверено: 2026-11-06T13:41:55+00:00
+Проверено: 2026-11-06T14:14:38+00:00
 Задача: RAZNOE-RESOURCE-HONOR-SASHA-20261106 — Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше
 
 Последний подтверждённый этап: Сохранено 2/4 новых референсов RESOURCE с промптами и визуальным QC; PROP-polymer-gripper-mounted-open.png.
