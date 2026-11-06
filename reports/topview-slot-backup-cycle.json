@@ -13,18 +13,47 @@
   "lease_commit": "1564f54a4974994063391cf32936d59b4868ca18",
   "started_at": "2026-11-06T13:03:04.734910Z",
   "receipt_started_at": "2026-11-06T13:14:38.175Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": false,
-    "scope": "not yet finalized; direct Topview scan unavailable; checking GitHub robot telemetry and peer scan evidence",
-    "checked_at": null
+    "direct_topview_scan_this_cycle": false,
+    "scope": "Read-only fresh main of full-account robot telemetry plus Work HH:55 complete scan; no direct Topview connector available this invocation",
+    "source": "topview-status.json, projects/topview-projects.json, reports/topview-launcher-cycle.json",
+    "upstream_full_scan_complete": true,
+    "upstream_boards_scanned": 14,
+    "upstream_pages_scanned": 18,
+    "upstream_video_tasks_scanned": 630,
+    "upstream_status_counts": {
+      "success": 601,
+      "fail": 23,
+      "init": 6
+    },
+    "upstream_topview_checked_at": "2026-11-06T12:50:23Z",
+    "upstream_work_scan_checked_at": "2026-11-06T13:01:25.250Z",
+    "active_task_ids": [
+      "101221814fd5430697f697f95a3f4252",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4"
+    ],
+    "upstream_status_age_not_real_time": true,
+    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "source_task_map_sha256": "b13e01d3d2fd428ea13315c4862ecb14f2051e3980a2773ddc2513e7f127b243",
+    "queue_sha256_independently_verified": true,
+    "task_map_sha256_independently_verified": true,
+    "readiness_checked_at": "2026-11-06T12:50:28.714385Z",
+    "readiness_hashes_match": true,
+    "checked_at": "2026-11-06T13:17:59.517Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true,
+    "verified_from": "robot Topview read-only account scan as of 2026-11-06T12:50:23Z and Work HH:55 full scan 13:01Z; NOT a new live direct scan"
   },
   "new_submissions": 0,
   "browser_transport": "not_invoked",
@@ -33,13 +62,14 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "in_progress",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "task_ids": [],
   "acceptance": {
     "scheduled_runtime": true,
     "full_scan": false,
+    "upstream_full_scan": true,
     "tinyfish_current_session_verified": false,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
@@ -47,5 +77,23 @@
     "verified_task_id_for_new_submission": false
   },
   "prior_run_id": "c7bd9924-745c-8330-9258-e6af41716263",
-  "updated_at": "2026-11-06T13:14:38.175Z"
+  "updated_at": "2026-11-06T13:17:59.517Z",
+  "queue_reconciliation": {
+    "queue_items": 63,
+    "submitted_with_task_id": 15,
+    "all_submitted_15_taskIDs_present_in_task_map": true,
+    "unresolved_claimed_submitting_unknown": 0,
+    "ready_items_in_derived_readiness": 26,
+    "next_candidate": "S49B",
+    "next_priority": 1.21,
+    "create_authorized": false,
+    "readiness_hashes_match": true
+  },
+  "owner_tasks": {
+    "open": 0,
+    "source": "ops/owner-tasks.json, read-only"
+  },
+  "completed_at": "2026-11-06T13:17:59.517Z",
+  "lease_released_at": "2026-11-06T13:17:59.517Z",
+  "lease_release_note": "exact holder/acquired_at CAS; no Create attempted"
 }
