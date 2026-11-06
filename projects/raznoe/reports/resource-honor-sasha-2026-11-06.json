@@ -18,7 +18,8 @@
       "https://www.honor.com/global/news/honor-magic9-launch/",
       "https://www.arri.com/en/company/press/press-releases-2026/arri-honor-professional-cinematic-imaging-honor-magic9-pro-max"
     ],
-    "geometry_reference_retrieval": "in_progress"
+    "geometry_reference_retrieval": "in_progress",
+    "choice_status": "model_selected_by_owner_request"
   },
   "drive_destination": {
     "name": "Саша",
@@ -31,25 +32,98 @@
     "repair": "release own general lock after current canonical checkpoint; keep project lock for new work"
   },
   "next_actions": [
-    "Finish RESOURCE and HONOR prompt drafts and exact missing-reference plan.",
-    "Generate one required reference at a time, QC and save in canonical project before next.",
-    "Validate and publish complete updated scenes and assets.",
-    "Render and verify plain-language Sasha guide; upload guide and relevant instructions to confirmed folder; read back."
+    "Validate and publish the current capture-save; verify actual Pages bytes before the next image.",
+    "Create and QC one press reference, save it, then integrate nine RESOURCE input revisions while preserving 19 clips / 114 seconds.",
+    "Continue the selected HONOR Magic9 Pro Max reference and prompt work; no video launch."
   ],
-  "generated_images": 2,
+  "generated_images": 3,
   "video_submissions": 0,
   "credits_spent": 0,
   "created_references": [
     {
       "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png",
       "sha256": "5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67",
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.prompt.txt",
+      "prompt_sha256": "31f5a4bb22f0f2ad8ee5d9f6de8ea74b54f551f219a0248978c178b88a8133cf",
       "qc": "visual_reference_passed_not_approved"
     },
     {
       "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
       "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.prompt.txt",
+      "prompt_sha256": "3898de89a58f68a220cf1b745bb44199311f581404698903649a4bb7fb9dfd00",
+      "qc": "visual_reference_passed_not_approved"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png",
+      "sha256": "d378987cbe9e5b313e43572243c1e1984462064e6fe649bdc63e682dcfd0b5a3",
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.prompt.txt",
+      "prompt_sha256": "5e066dc8e6c6b8adf6d6fbade179ba7e0f6c7dc7e0249bc07e114c66e8d2c05b",
       "qc": "visual_reference_passed_not_approved"
     }
   ],
-  "updated_at": "2026-11-06T12:59:21+00:00"
+  "updated_at": "2026-11-06T14:18:02+00:00",
+  "generated_images_count_scope": "QC-passed generated references saved in canon; excludes rejected drafts and downloaded official product sources.",
+  "resource_reference_progress": {
+    "saved": 3,
+    "expected": 4,
+    "last_saved": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png",
+    "manifest_path": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
+    "manifest_sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8",
+    "active_video_input_revisions_integrated": false,
+    "motion_audio_qc": false,
+    "editorial_status": "not_approved"
+  },
+  "guide_delivery": {
+    "status": "delivered_and_read_back",
+    "verified_at": "2026-11-06T13:40:26.776842+00:00",
+    "verification_source_name": "sasha-guide-link-fix-verified.json",
+    "verification_source_sha256": "1d884643f3cd7c44b5c24b195a7d7e2283f0035ab06446eae5f2f864dce43f8c",
+    "corrected_resource_url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/index.html?project=raznoe#scene-3",
+    "folder_id": "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2",
+    "document_page_count": 8,
+    "items": [
+      {
+        "name": "RESOURCE-guide.md",
+        "drive_id": "1sjVzlwS3ZZ9oTDlC-Tnp6qUWyFL6I3EE",
+        "url": "https://drive.google.com/file/d/1sjVzlwS3ZZ9oTDlC-Tnp6qUWyFL6I3EE/view?usp=drivesdk",
+        "parent_ids": [
+          "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2"
+        ],
+        "size_bytes": 28958,
+        "sha256": "b76d1a949aafdec3a856b1c6ce9a1d0d6947879f419418d7575d5f7875a9fdda",
+        "raw_readback_sha_match": true
+      },
+      {
+        "name": "RESOURCE-guide.docx",
+        "drive_id": "1FLbfqU6uti3AfNqe1To_JGO6QBiSM2Rv",
+        "url": "https://docs.google.com/document/d/1FLbfqU6uti3AfNqe1To_JGO6QBiSM2Rv/edit?usp=drivesdk&ouid=110650040683759780059&rtpof=true&sd=true",
+        "parent_ids": [
+          "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2"
+        ],
+        "size_bytes": 49015,
+        "sha256": "931fc7528e38b8b3b998c43bb23d66a09f6b2f79c6748dc0e910f220fc6434c9",
+        "raw_readback_sha_match": true
+      },
+      {
+        "name": "RESOURCE-guide.pdf",
+        "drive_id": "1fUfuFHUIJywbxL3KN2arRxQTn_KzLgz2",
+        "url": "https://drive.google.com/file/d/1fUfuFHUIJywbxL3KN2arRxQTn_KzLgz2/view?usp=drivesdk",
+        "parent_ids": [
+          "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2"
+        ],
+        "size_bytes": 163315,
+        "sha256": "2ed5d7569f7db55795920f821f477b0d1a427442b6fab7f632b77bd01382183f",
+        "raw_readback_sha_match": true
+      }
+    ]
+  },
+  "capture_save_verification": {
+    "checked_at": "2026-11-06T14:18:02+00:00",
+    "source_head": "0107904bad80907682f4854768885b56d7d8d8da",
+    "local_reference_and_prompt_sha": "passed",
+    "tests": "not_run_by_this_helper",
+    "pages": "not_checked_by_this_helper",
+    "publication": "pending_commit_push_and_https_verification"
+  }
 }

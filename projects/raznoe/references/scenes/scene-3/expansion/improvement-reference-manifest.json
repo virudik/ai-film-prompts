@@ -62,9 +62,57 @@
         "slot": "IMAGE 3"
       },
       "real_video_frame": false
+    },
+    {
+      "tag": "PROP-polymer-gripper-capture-contact",
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png",
+      "sha256": "d378987cbe9e5b313e43572243c1e1984462064e6fe649bdc63e682dcfd0b5a3",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.prompt.txt",
+      "prompt_sha256": "5e066dc8e6c6b8adf6d6fbade179ba7e0f6c7dc7e0249bc07e114c66e8d2c05b",
+      "source": "ChatGPT built-in imagegen",
+      "source_inputs": [
+        {
+          "path_or_original_filename": "exec-85baab53-c46b-43e5-8cc4-2cd325b9ecf4.png",
+          "kind": "prior_generated_edit_input_not_canonical",
+          "sha256": "75ba6610139db40921e14a772f9c29074069d40f64d4dca40f6149f8d16d273e"
+        },
+        {
+          "path_or_original_filename": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "kind": "canonical_reference",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4"
+        }
+      ],
+      "role": "C03: две металлические губки удерживают язычок одного неровного фрагмента; рама неподвижна, одна нижняя рука через адаптер. Идентичность фрагмента для C04.",
+      "editorial_status": "not_approved",
+      "qc": {
+        "visual_reference_check": "passed",
+        "checked_at": "2026-11-06T13:30:23+00:00",
+        "criteria": [
+          "Две отдельные вертикальные металлические губки сохранены; их боковой ход совместим с mounted-open.",
+          "Узкий язычок между губками; видимые боковые края соприкасаются с внутренними нижними зонами губок без видимого зазора или проникновения.",
+          "Полимерная рама замкнута и жёсткая: основание, стойки, диагонали и мостик не раскрываются.",
+          "Одна видимая цепь: белая рука снизу → болтовой адаптер → основание рамы. Лишняя верхняя рука и задний фланец отсутствуют.",
+          "Один тонкий неровный фрагмент со сгибом, отверстием и рваным краем; широкая часть снаружи.",
+          "Контактная зона перед первой внутренней стойкой, без пересечения раскосов.",
+          "Один горизонтальный кадр без текста, коллажа или рамки."
+        ],
+        "motion_audio_qc": false,
+        "scope_limits": [
+          "Корень руки и корпус спутника за кадром: это допустимо для крупного плана; их геометрию задаёт отдельный orbit-v2.",
+          "Это визуальный QC постановочного изображения, не проверка динамики захвата и не одобрение владельцем."
+        ]
+      },
+      "input_slot": {
+        "clip": "C03_capture-v3",
+        "slot": "IMAGE 3",
+        "native_token": "<IMAGE_2>"
+      },
+      "real_video_frame": false
     }
   ],
-  "updated_at": "2026-11-06T12:59:21+00:00",
-  "generated_image_count": 2,
+  "updated_at": "2026-11-06T14:17:51+00:00",
+  "generated_image_count": 3,
   "status": "reference_images_in_progress"
 }

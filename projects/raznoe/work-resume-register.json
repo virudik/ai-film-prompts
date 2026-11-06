@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-06T12:59:21+00:00",
+  "last_updated_at": "2026-11-06T14:18:02+00:00",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -177,12 +177,12 @@
       "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
       "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
       "status": "in_progress",
-      "updated_at": "2026-11-06T12:59:21+00:00",
+      "updated_at": "2026-11-06T14:18:02+00:00",
       "owner_quote": "Сцену с Бутылками и хонором доведи до совершенства. Дорисуй где нужно референсные изображения. Для хонора по их последней модели телефона. На сайте предупреждение висит. На диске в папку Саша скинь инструкции по ведению промтов, сцен и работе видео моделями. Напиши понятными словами для Саши файлик как этим всем пользоваться, как запускать видео, как самостоятельно писать сцены, промты, как делать картинки и как видео для его бутылок переработки отходов космическими спутниками.",
       "completed": [
         "Подтверждены поручение, последняя модель телефона, папка Саша и фактическое предупреждение сайта."
       ],
-      "next_action": "Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.",
+      "next_action": "Проверить и опубликовать текущий capture-save; после подтверждённого main/Pages создать один PROP-press-scrap-loaded.png, провести QC и сразу сохранить. Затем связать 4/4 референса с девятью редакциями RESOURCE и продолжить HONOR Magic9 Pro Max. Руководство Саше MD/DOCX/PDF уже доставлено и прочитано обратно. Видео не запускать.",
       "canonical_refs": [
         "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
         "projects/raznoe/video-prompts.md",
@@ -191,26 +191,27 @@
       "blockers": [],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T12:59:21+00:00",
-        "last_completed": "Сохранено 2/4 новых референсов RESOURCE с промптами и визуальным QC; PROP-polymer-gripper-mounted-open.png.",
-        "next_action": "Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.",
+        "verified_at": "2026-11-06T14:18:02+00:00",
+        "last_completed": "Локально сохранено 3/4 новых референсов RESOURCE; capture-contact, точный промпт и визуальный QC сверены по SHA. Руководство Саше в MD/DOCX/PDF доставлено и прочитано обратно; исправленная ссылка проверена 2026-11-06T13:40:26.776842+00:00. Проверки тестов/Pages текущего capture-save этим шагом не подтверждаются.",
+        "next_action": "Проверить и опубликовать текущий capture-save; после подтверждённого main/Pages создать один PROP-press-scrap-loaded.png, провести QC и сразу сохранить. Затем связать 4/4 референса с девятью редакциями RESOURCE и продолжить HONOR Magic9 Pro Max. Руководство Саше MD/DOCX/PDF уже доставлено и прочитано обратно. Видео не запускать.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
           "anchor": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше",
-          "sha256": "882eef4b9fb7029e507fe8dcaaa993e144067edaff56328c24cc4a1310e4c8dc"
+          "sha256": "bddb10b062798d3503a488bc819cd71c0d18feef5594dc341c3a8e744b4dab86"
         },
         "evidence": [
           {
             "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-            "sha256": "ac9960896bff3cec886fb6b4e8033cbda16cd857d5864000886b394d70ddd2d8"
+            "sha256": "ca6310beebfbf806ae409e9914f6495bd5e70bd0e2f7406bb90799c59aeb1107"
           },
           {
             "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
-            "sha256": "00ed899bc48acf4c40258a469da8e1afbb83de43c6c9568a3b490862b7da7890"
+            "sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8"
           }
         ],
         "read_next": [
-          "projects/raznoe/HANDOFF.md"
+          "projects/raznoe/HANDOFF.md",
+          "projects/raznoe/video-prompts.md"
         ],
         "blockers": []
       }

@@ -1,6 +1,201 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "receipts": [],
+  "receipts": [
+    {
+      "schema_version": 1,
+      "receipt_id": "raznoe-continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
+      "project": "raznoe",
+      "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
+      "source_head": "0107904bad80907682f4854768885b56d7d8d8da",
+      "takeover_kind": "short_D7_with_complete_seven_instruction_read",
+      "started_at": "2026-11-06T14:17:02Z",
+      "accepted_at": "2026-11-06T14:18:22+00:00",
+      "chat": {
+        "agent": "chatgpt:work:93c791ea-000f-442e-90b9-13502501c5c1",
+        "label": "ChatGPT Work — продолжение RESOURCE/HONOR и руководства Саше",
+        "session_id": "work-continue-93c791ea-000f-442e-90b9-13502501c5c1",
+        "chat_id": null,
+        "identity_status": "unavailable",
+        "identity_note": "Local execution UUID; no conversation ID exposed."
+      },
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "Fresh main0107904b after own lock commit; project files and source SHA rechecked; no source changes during foreign lease."
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "D7 valid15/15; all seven instructions fully read in this turn, unchanged hashes recorded. Full project HANDOFF/INSTRUCTIONS and task-specific master/reference sections checked; no root instruction change."
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "Selected RAZNOE-RESOURCE-HONOR-SASHA-20261106; inherited 2/4 saved references, guide delivery verified separately. Fresh capture3/4 and updated recovery verified by resume_state."
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "Fresh GitHub owner-tasks read14:11UTC: no open/taken/needs_owner tasks."
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Live Supabase read14:05:36UTC: only historical needs_owner d37ea54b from01Nov; no new pending decision. Not treated as video authorization."
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub connector CAS/readback and local checks available; ChatGPT imagegen actual capture inspected; Topview six known tasks all init Unlimited0 at14:14UTC; no Create."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "Foreign lease respected until expiry14:16:47Z; own unique lease published0107904b and read back frommain, expires15:02:02Z."
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-06T14:17:51+00:00",
+        "state": "completed",
+        "description": "Сохранён проверенный capture-contact PNG с точным промтом, SHA, manifest и слотом master; обновлены текущий checkpoint/recovery и подтверждённая доставка Саше.",
+        "evidence": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json; projects/raznoe/reports/resource-honor-sasha-2026-11-06.json"
+      },
+      "request_sha256": "41228e4b85ea76be0a2b7124faff8d2121fef2fbbbfe49ccd77e8012185ef277",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+          "bytes": 42769
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+          "bytes": 21763
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "11a4faff1ca82f943c31e3834b139aa0e4c9c3e7703daef05101a37a7715e348",
+          "bytes": 34939
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+          "bytes": 81982
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
+          "bytes": 18336
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
+          "bytes": 130798
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
+          "bytes": 84087
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "3e1e25aac4f8d2ebd86e18ee82fc35e8b690e89f3b28748275558d06a0583f17",
+          "bytes": 5136
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "ae83542630c437e181de1d61aa4217c59aa99a865dcb5c429365f7af0960e2e9",
+          "bytes": 42588
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "e3623390c443593bbaec70c1c5db1e3e9d91f6aaceaa7ce9e010f0bb4372555d",
+          "bytes": 22508
+        },
+        {
+          "file": "projects/README.md",
+          "sha256": "393a3a7428f376faea7471ac4d1b5c564318e67a89170b14001cf649cb482e0d",
+          "bytes": 16927
+        },
+        {
+          "file": "projects/projects.json",
+          "sha256": "0eb7f9e87da72168f0c9c85e66937f35f6f605f6d2201607c0b3e6917ac50603",
+          "bytes": 9321
+        },
+        {
+          "file": "projects/raznoe/HANDOFF.md",
+          "sha256": "3a35fc9a81799088822ae3d636b2a22fb144b4d681e562735228c9cbe29bec8c",
+          "bytes": 11496
+        },
+        {
+          "file": "projects/raznoe/INSTRUCTIONS.md",
+          "sha256": "b750a0a694059c819ac1aabee6b22a411080c80a68c208f5a6d7a61534d5ff6f",
+          "bytes": 2453
+        },
+        {
+          "file": "projects/raznoe/ops/topview-launch-queue.json",
+          "sha256": "1532ad13f700b0dbcdb3f1ff590ff5bd2e158f8204de4a32428080d1537adfb5",
+          "bytes": 649
+        },
+        {
+          "file": "projects/raznoe/project-status.json",
+          "sha256": "f8b86b22bba43f16f9a81849efbc45c8155e57b92f6af5f4bb933c34fa0b6b68",
+          "bytes": 9521
+        },
+        {
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
+          "sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8",
+          "bytes": 7315
+        },
+        {
+          "file": "projects/raznoe/reports/current-work-checkpoint.md",
+          "sha256": "449fa2635b57c07a0dafbc3fee007ec19bbbb6598f835d670ebaa6941613566d",
+          "bytes": 38283
+        },
+        {
+          "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
+          "sha256": "ca6310beebfbf806ae409e9914f6495bd5e70bd0e2f7406bb90799c59aeb1107",
+          "bytes": 7049
+        },
+        {
+          "file": "projects/raznoe/video-prompts.md",
+          "sha256": "fee8fabaafd8f105f4777de6a599dd39e785f7a2df56ec3a296fa6f97d9723bb",
+          "bytes": 595598
+        },
+        {
+          "file": "projects/raznoe/work-resume-register.json",
+          "sha256": "abcddffbed93882a93311bb7c7321121d834f23a78ad90c80b0ad06f170a0bec",
+          "bytes": 18685
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "7bf04f463b3c7b46882b33057a947fd163dd816849ae493c06d44f39e2f22166",
+          "bytes": 34740
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "a0454c1cd7f022ec1a18573c55582117251384646f768d69616b509831115fe9",
+          "bytes": 25158
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "8ad272ade568b6cd13f946a61bf5d0bfcfb12259fcdb34620207c757020facf9",
+          "bytes": 1353640
+        }
+      ],
+      "source_fingerprint": "8435651d95444c4769ca2e308e743f24b0b568797c894014c04dc99d5d4965f1",
+      "recorded_at": "2026-11-06T14:18:23+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    }
+  ],
   "note": "Нет записи — нет подтверждённого приёма новым чатом. Миграция пакета квитанцию не создаёт."
 }
