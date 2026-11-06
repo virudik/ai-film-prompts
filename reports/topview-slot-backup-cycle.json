@@ -14,8 +14,8 @@
   "lease_commit": "f83b6cd4e87be68b191d8aa2765812839bb2c5e2",
   "started_at": "2026-11-06T22:02:24.849666Z",
   "receipt_started_at": "2026-11-06T22:09:26.371Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview connector, read-only",
@@ -48,15 +48,15 @@
   "selected_item": "S49B",
   "selected_item_priority": 1.21,
   "new_submissions": 0,
-  "browser_transport": "not_used; existing TinyFish native original-image import and Unlimited0 blocker persists",
+  "browser_transport": "not_used: unchanged TinyFish native image-upload/Unlimited0 blocker; no new evidence",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "in_progress",
-  "blocker": "Existing S49B TinyFish native file import and Unlimited0 preflight blocker unchanged; no new paid run evidence.",
+  "outcome": "blocked_browser_input_unchanged",
+  "blocker": "Fresh full Topview scan 5/6 occupied with S49B ready at priority 1.21. Native TinyFish profile UI has still not demonstrated import of six exact original images and complete Unlimited0/720p/16:9/quantity1 preflight; without new verified UI capability no metered rerun, claim, intent or Create.",
   "retryable": false,
   "acceptance": {
     "scheduled_runtime": true,
@@ -69,14 +69,14 @@
     "verified_new_task_id": false
   },
   "prior_run_id": "614cfe68-8964-8328-ad2d-c9d879c18121",
-  "updated_at": "2026-11-06T22:09:26.371Z",
-  "checked_at": "2026-11-06T22:09:26.371Z",
-  "completed_at": null,
-  "lease_released_at": null,
+  "updated_at": "2026-11-06T22:12:29.208Z",
+  "checked_at": "2026-11-06T22:12:29.208Z",
+  "completed_at": "2026-11-06T22:12:29.208Z",
+  "lease_released_at": "2026-11-06T22:12:29.208Z",
   "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
   "queued_candidate": "S49B",
   "queue_reconciliation": {
-    "checked_at": "2026-11-06T21:08:58.620Z",
+    "checked_at": "2026-11-06T22:06:16.428Z",
     "submitted_count": 15,
     "submitted_task_ids_checked": 15,
     "all_submitted_found": true,
@@ -88,7 +88,7 @@
     "selected_item_task_id": null,
     "source_queue_unchanged_since_previous_verified_sha": true,
     "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "readiness_source_task_map_sha256": "953308917b1e049521c24e2a906bb5a4fbcbff4700cd46a3b472593e8f3be272",
+    "readiness_source_task_map_sha256": "a9dd2586db13704cc832eae2427a92e8c4de62495185fd0c1883b76eb3b1e105",
     "readiness_selected_ready": true,
     "queue_sha256_verified": true,
     "task_map_sha256_verified": true,
@@ -102,24 +102,24 @@
     "open_task_ids": [
       "self-heal-run-failed-sync-from-drive-202611061920"
     ],
-    "note": "Self-heal incident open; later GitHub sync-from-drive workflow run 42293320510 on 2026-11-06T21:02Z completed successfully, root cause not confirmed; left for scoped follow-up."
+    "note": "Separate self-heal issue open to any; did not claim or close without verified diagnosis and repair."
   },
   "bot_wake": {
-    "event_id": "slots:c48ed7e4:15",
-    "issue_number": 393,
-    "observed_at": "2026-11-06T20:10:36Z",
-    "status": "stale demand; fresh Topview connector scan used"
+    "event_id": "slots:c48ed7e4:16",
+    "issue_number": 395,
+    "observed_at": "2026-11-06T21:20:24Z",
+    "status": "historical robot demand; current fresh full Topview connector scan used"
   },
   "peer_status": {
     "work_preferred": true,
-    "ordinary_last_run_id": "614cfe68-8964-8328-ad2d-c9d879c18121",
-    "ordinary_prior_latest_result_run_id": "1c70b3d2-767c-8331-adaa-2227340a3448",
-    "work_hh55_last_run_id": "18591f0b-7ba4-8332-a1fa-7b99b7769d87",
+    "preferred_executor": "work",
+    "ordinary_last_run_id": "97af3144-78bc-8333-9561-987d7c2d54c1",
+    "ordinary_prior_latest_result_run_id": "614cfe68-8964-8328-ad2d-c9d879c18121",
+    "work_hh55_last_run_id": "728433c6-49d8-8329-a5e7-f9b1abad41e2",
     "work_hh55_recorded_status": "no_update",
-    "relay_last_run_id": "03890e64-7fb4-8320-aa91-6e3d4ade584d",
+    "relay_last_run_id": "fd7fe2ab-d518-8329-a6a5-2dcc7a3dcad9",
     "relay_recorded_status": "no_update",
-    "work_current_gui_and_quota_not_verified_in_this_cycle": true,
-    "preferred_executor": "work"
+    "work_current_gui_and_quota_not_verified_in_this_cycle": true
   },
-  "finalization_note": "No claim/intent/Create or retry changes. Exact own lease released atomically with final receipt. No change to next_action, resume checkpoint or Work preference. TinyFish transport not accepted for full production submission; unchanged blocker not paid-retried."
+  "finalization_note": "Same unresolved browser/input+Unlimited0 blocker; 0 TinyFish runs, 0 Topview Create, 0 credits. Exact own lease released atomically with final receipt; no queue/retry, Work role, continue checkpoint or automation schedule edits."
 }
