@@ -19,7 +19,12 @@
       "https://www.arri.com/en/company/press/press-releases-2026/arri-honor-professional-cinematic-imaging-honor-magic9-pro-max"
     ],
     "geometry_reference_retrieval": "in_progress",
-    "choice_status": "model_selected_by_owner_request"
+    "choice_status": "model_selected_by_owner_request",
+    "official_source_map": "projects/raznoe/references/scenes/scene-4/official-product-source-links.json",
+    "filmwide_voiceover_map": "projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json",
+    "image_reference_status": "external_official_links_only_no_canonical_product_PNG",
+    "native_audio_blocks_corrected": 36,
+    "voiceover_lines_mapped": 15
   },
   "drive_destination": {
     "name": "Саша",
@@ -32,11 +37,11 @@
     "repair": "release own general lock after current canonical checkpoint; keep project lock for new work"
   },
   "next_actions": [
-    "Validate and publish the current capture-save; verify actual Pages bytes before the next image.",
-    "Create and QC one press reference, save it, then integrate nine RESOURCE input revisions while preserving 19 clips / 114 seconds.",
-    "Continue the selected HONOR Magic9 Pro Max reference and prompt work; no video launch."
+    "Upload verified fourth press PNG to GitHub Pages under exact canonical path; do not substitute a URL.",
+    "Transfer nine v3 prompt+ref mappings from plan into active cut with SHA checks and 19/114 preserved.",
+    "Get licensed official HONOR product art and owner QC; no video submissions or credit use."
   ],
-  "generated_images": 3,
+  "generated_images": 4,
   "video_submissions": 0,
   "credits_spent": 0,
   "created_references": [
@@ -62,7 +67,7 @@
       "qc": "visual_reference_passed_not_approved"
     }
   ],
-  "updated_at": "2026-11-06T14:18:02+00:00",
+  "updated_at": "2026-11-06T18:07:30.095Z",
   "generated_images_count_scope": "QC-passed generated references saved in canon; excludes rejected drafts and downloaded official product sources.",
   "resource_reference_progress": {
     "saved": 3,
@@ -72,7 +77,13 @@
     "manifest_sha256": "dedb93cda7e75e156b13245e54c5afed08dd95ad717aa6dc20f0230ad2cf09e8",
     "active_video_input_revisions_integrated": false,
     "motion_audio_qc": false,
-    "editorial_status": "not_approved"
+    "editorial_status": "not_approved",
+    "private_library_images": 1,
+    "pending_public_png": "PROP-press-scrap-loaded.png",
+    "pending_public_sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
+    "pending_library_file_id": "libfile_097cf5615ae081919d2273523d3acac1",
+    "draft_video_input_revisions": 9,
+    "draft_plan": "projects/raznoe/references/scenes/scene-3/expansion/improvement-v3-plan.json"
   },
   "guide_delivery": {
     "status": "delivered_and_read_back",
