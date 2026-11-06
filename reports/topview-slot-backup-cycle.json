@@ -3,104 +3,46 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "67ad005f-fc5f-4c5d-b154-ade29484bc4a",
-  "run_id": "4beb1a4e-566c-832c-820c-ca0844fa4180",
-  "runtime_run_id_source": "Automations.peek last_run.id for this scheduled invocation",
-  "source_head": "8c4d9deae4355c4ed043082963d13bdd3d9aea65",
+  "execution_instance_id": "965a152a-89f0-470d-9ba5-4984236a662c",
+  "run_id": "04fbf634-1174-8325-8016-387d08d4504d",
+  "runtime_run_id_source": "Automations.peek last_run.id recorded_status=in_progress and started_at 2026-11-06T10:00:56.586612Z",
+  "source_head": "dbc3c262171434b7dd0bc79e30351d5ab7fecca2",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:67ad005f-fc5f-4c5d-b154-ade29484bc4a",
-  "lease_acquired_at": "2026-11-06T09:03:57.565Z",
-  "lease_commit": "d418c23326582b40460fe130c3edb0874d852e24",
-  "started_at": "2026-11-06T09:05:01.720Z",
-  "receipt_started_at": "2026-11-06T09:05:01.720Z",
-  "phase": "finished",
-  "status": "no_free_slot_direct_full_scan",
+  "lease_holder": "chatgpt:ordinary:965a152a-89f0-470d-9ba5-4984236a662c",
+  "lease_acquired_at": "2026-11-06T10:11:20Z",
+  "lease_commit": "e9afd3fe1b9f4a49ad9b8113664b01946d6524c9",
+  "started_at": "2026-11-06T10:00:56.586612Z",
+  "receipt_started_at": "2026-11-06T10:12:04Z",
+  "phase": "started",
+  "status": "started",
   "scan": {
-    "complete": true,
-    "method": "Direct Topview connector all owned boards + all video pages, followed by main-board page1 recheck",
-    "boards": 14,
-    "pages": 18,
-    "total_video_tasks": 630,
-    "status_counts": {
-      "success": 601,
-      "fail": 23,
-      "init": 6
-    },
-    "recheck_at": "2026-11-06T09:12:48.340Z",
-    "active_task_ids": [
-      "101221814fd5430697f697f95a3f4252",
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6"
-    ],
-    "all_active_unlimited_720p_16_9": true
+    "complete": false
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
   "new_submissions": 0,
-  "browser_transport": "not_invoked_no_free_slot",
+  "browser_transport": "not_invoked",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "no_free_slot_direct_full_scan",
+  "outcome": "started",
   "blocker": null,
   "retryable": false,
   "task_ids": [],
   "acceptance": {
     "scheduled_runtime": true,
-    "full_scan": true,
-    "all_submitted_task_ids_verified": true,
+    "full_scan": false,
     "tinyfish_current_session_verified": false,
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false
   },
-  "checked_at": "2026-11-06T09:12:48.340Z",
-  "completed_at": "2026-11-06T09:12:48.340Z",
-  "queue_reconciliation": {
-    "items": 63,
-    "submitted": 15,
-    "submitted_task_ids_verified": 15,
-    "submission_unknown": 0,
-    "claimed": 0,
-    "submitting": 0,
-    "queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
-    "task_map_sha256": "ade6b25b4c49cb5547c7e56bccf8075b54ccd439290c300d3011b2f8681a0429",
-    "readiness_sha_match_verified": true,
-    "next_ready_item": "S49B"
-  },
-  "peer_reconciliation": {
-    "ordinary_hourly_enabled": true,
-    "relay_enabled": true,
-    "relay_last_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
-    "work_hourly_enabled": false,
-    "work_last_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c",
-    "role_generation": 3,
-    "preferred_executor": "work",
-    "robot_telemetry_checked_at": "2026-11-06T05:40:25Z",
-    "shadow_checked_at": "2026-11-06T09:00:37Z",
-    "robot_hold": "unmapped_active:10122181; new open self-heal owner task"
-  },
-  "owner_tasks_consistency": {
-    "open": 1,
-    "open_to_any": [
-      "self-heal-telemetry-stale-202611060819"
-    ],
-    "taken": 0,
-    "not_taken_in_this_cycle": true
-  },
-  "lease": {
-    "holder": "chatgpt:ordinary:67ad005f-fc5f-4c5d-b154-ade29484bc4a",
-    "acquired_at": "2026-11-06T09:03:57.565Z",
-    "state": "released_exact_holder",
-    "released_at": "2026-11-06T09:12:48.340Z"
-  }
+  "updated_at": "2026-11-06T10:12:04Z",
+  "prior_run_id": "4beb1a4e-566c-832c-820c-ca0844fa4180"
 }
