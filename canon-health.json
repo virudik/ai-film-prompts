@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-06T18:14:03Z",
+  "checked_at": "2026-11-06T18:19:42Z",
   "status": "warn",
-  "warnings": 2,
+  "warnings": 1,
   "info": 12,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
@@ -83,12 +83,6 @@
       "code": "lock-expired",
       "text": "Роскосмос: замок проекта (chatgpt:work:da0ac368-f673-451d-8812-b3cc481277ef) истёк 05.11 19:52 UTC и не снят; он считается свободным, но запись стоит убрать.",
       "file": "projects/roscosmos/canon-lock.json"
-    },
-    {
-      "level": "warn",
-      "code": "project-handoff-size",
-      "text": "Разное: хендоф 12 КБ (цель до 12 КБ): контрольные точки — в projects/raznoe/reports/current-work-checkpoint.md, история — в projects/raznoe/archive/handoff-log.md.",
-      "file": "projects/raznoe/HANDOFF.md"
     }
   ]
 }
