@@ -14,8 +14,8 @@
   "lease_commit": "561534c3a030abc6731624d34ac828a2fedfc623",
   "started_at": "2026-11-06T13:58:59.340260Z",
   "receipt_started_at": "2026-11-06T14:09:18.238Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "direct_topview_scan_this_cycle": true,
@@ -45,7 +45,20 @@
     "readiness_checked_at": "2026-11-06T13:40:32.888256Z",
     "readiness_hashes_match": true,
     "latest_active_recheck_confirmed": true,
-    "latest_active_recheck_at_or_before": "2026-11-06T14:07:45.646Z"
+    "latest_active_recheck_at_or_before": "2026-11-06T14:10:46.285Z",
+    "final_recheck_active_ids": [
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6"
+    ],
+    "sources_unchanged_since_sha_check": {
+      "queue_blob_sha_matches": true,
+      "map_blob_sha_matches": true,
+      "readiness_blob_sha_matches": true
+    }
   },
   "slots": {
     "capacity": 6,
@@ -61,7 +74,7 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "task_ids": [],
@@ -76,9 +89,9 @@
     "upstream_full_scan": true
   },
   "prior_run_id": "e30650ed-d768-8332-b274-558b7c263f83",
-  "updated_at": "2026-11-06T14:09:18.238Z",
-  "completed_at": null,
-  "lease_released_at": null,
+  "updated_at": "2026-11-06T14:10:46.285Z",
+  "completed_at": "2026-11-06T14:10:46.285Z",
+  "lease_released_at": "2026-11-06T14:10:46.285Z",
   "queue_reconciliation": {
     "queue_items": 63,
     "submitted_with_task_id": 15,
@@ -101,5 +114,6 @@
     "latest_relay_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
     "preferred_executor": "work",
     "route_generation": 3
-  }
+  },
+  "lease_release_note": "Exact holder/acquired_at and route_generation fresh-read; release bundled atomically with finished receipt; no Create or TinyFish."
 }
