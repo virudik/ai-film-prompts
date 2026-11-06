@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-06T19:20:09Z",
+  "updated_at": "2026-11-06T22:42:47.462Z",
   "tasks": [
     {
       "id": "0948c546-0ea2-4443-9429-6dcf43bddc81",
@@ -217,9 +217,9 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «проверка канона и кнопок» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42277512140 Робот уже повторил упавший запуск «проверка канона и кнопок» 2026-11-06T18:49:45Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "open",
-      "taken_by": null,
-      "taken_at": null
+      "status": "taken",
+      "taken_by": "chatgpt:ordinary",
+      "taken_at": "2026-11-06T22:42:47.462Z"
     }
   ]
 }
