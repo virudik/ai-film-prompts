@@ -1,0 +1,33 @@
+{
+  "scene": 3,
+  "project": "raznoe",
+  "title": "RESOURCE",
+  "published_at": "2026-11-06T04:20:00Z",
+  "editorial_status": "not_approved",
+  "production_state": "DRAFT",
+  "queue": "unchanged_empty",
+  "video_launched": false,
+  "source_model": "Grok Imagine Video",
+  "source_structure": "2x15s",
+  "adaptations": ["Wan 3.0 / Seedance 2.5 30s", "Seedance 2.0 2x15s with @Video1 last 3 seconds"],
+  "continuity_source": "extracted final frame of part 1 is the exact first frame of part 2",
+  "part": "1 of 3 only",
+  "unchanged_sha256": {
+    "01-45726.png": "01513f2f562a0123449194da6b0009724f5de6d7aea0bfde6a821e5d9e981447",
+    "02-45728.png": "57f142e033008686a177724d4c72645d4f968ff56cee87a980f011b2c9298538",
+    "03-45729.png": "d07e201c2bd080700a21d2764702ec1eb8aa1f9fa2b08d66e4d06ddcc7b6dcb5",
+    "04-45731.png": "470f90373582c9964a3f8667d8d88477d0b83801bebdab94b55a44f0b6348de2",
+    "05-45732.png": "a2930f221d1b8e1bf6e3ec8f51d81fc5d48a53bde596dd2f504a5d91c0a4c734",
+    "06-45734.png": "f342d49694902f9ca53d273808d6ee9a88083a2b9a25b832f597ef0d60a8b884",
+    "07-45735.png": "0e9351fcc64378f83ee67c6496119792217d2db38f1dcbb9e547559ee56c8341",
+    "08-45736.png": "d5885fa641d8b823e84e85704f454f0023150400537167f2dbb9d1573d47efe5",
+    "09-45733.png": "0602cb57b9029eea2966728f80cbeca75a663f5528f48ab1d4daaf8cc74f5776"
+  },
+  "polymer_finale_sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
+  "metal_backup_sha256": "a2b77312b07d7afca0dfd47752423624c8c1afc9424d2320fac21dcc18b3e977",
+  "metal_backup_path": "projects/raznoe/archive/scene-3/45737-old.png",
+  "source_prompt_sha256": "5a6fd2783cfc7e263290c384b93c972af2297f073e3abfbb2507c41b54a3b80f",
+  "prompt_docx_sha256": "ffb96dfdc7a65e8aadf45663036487f2b1011d8e08efefc2ece1817bf8f72dfb",
+  "sha256sums_delivered_sha256": "ed8d620a3a5c5e8023ad4ccd86e7be620ad23ad0926bc65ae4961f78921ca0b8",
+  "sha256sums_footer_note": "Footer self-hash 397ad1d2… and size 2495 do not match the delivered 2600-byte file. Image lines inside the manifest do match the nine originals and the metal backup."
+}

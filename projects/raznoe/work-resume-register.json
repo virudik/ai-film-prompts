@@ -1,8 +1,48 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-02T22:47:28+00:00",
+  "last_updated_at": "2026-11-06T04:20:00Z",
   "active_work": [
+    {
+      "work_id": "RAZNOE-SCENE3-RESOURCE",
+      "project": "raznoe",
+      "title": "Сцена 3 RESOURCE на сайте, без видео",
+      "status": "awaiting_editorial_review",
+      "updated_at": "2026-11-06T04:20:00Z",
+      "completed": [
+        "06.11.2026: сцена 3 опубликована в projects/raznoe. Десять кадров поставлены байт-в-байт, финал 45737 полимерный, старый металл в archive и не в галерее. Промты Grok Imagine 2×15 и адаптации Wan/Seedance. Очередь не менялась, видео не запускалось, not_approved."
+      ],
+      "next_action": "Художественный просмотр сцены 3 RESOURCE на сайте. Не перерисовывать кадры и не ставить видео в очередь без новой команды владельца.",
+      "recovery": {
+        "schema_version": 1,
+        "verified_at": "2026-11-06T04:20:00Z",
+        "last_completed": "Сцена 3 RESOURCE записана в мастер Разного, кадры и промты на месте, очередь пуста.",
+        "next_action": "Художественный просмотр сцены 3 RESOURCE на сайте. Не перерисовывать кадры и не ставить видео в очередь без новой команды владельца.",
+        "checkpoint": {
+          "file": "projects/raznoe/reports/current-work-checkpoint.md",
+          "anchor": "# Сцена 3 RESOURCE · 06.11.2026",
+          "sha256": "1c3116229701e5a17236126c631acfb3969228c4b1e61bd2a7f704dbbb7b707f"
+        },
+        "evidence": [
+          {
+            "file": "projects/raznoe/references/scenes/scene-3/01-45726.png",
+            "sha256": "01513f2f562a0123449194da6b0009724f5de6d7aea0bfde6a821e5d9e981447"
+          },
+          {
+            "file": "projects/raznoe/references/scenes/scene-3/10-45737.png",
+            "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736"
+          },
+          {
+            "file": "projects/raznoe/archive/scene-3/45737-old.png",
+            "sha256": "a2b77312b07d7afca0dfd47752423624c8c1afc9424d2320fac21dcc18b3e977"
+          },
+          {
+            "file": "projects/raznoe/references/scenes/scene-3/source/source-prompt.txt",
+            "sha256": "5a6fd2783cfc7e263290c384b93c972af2297f073e3abfbb2507c41b54a3b80f"
+          }
+        ]
+      }
+    },
     {
       "work_id": "MISC-S1-S2-REFERENCES",
       "project": "raznoe",

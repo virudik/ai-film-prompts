@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:7775f478-0302-4229-9aab-72306f76ab10",
   "task": "Сцена 3 RESOURCE в Разном: публикация на сайте, без очереди и без видео",
   "acquired_at": "2026-11-06T04:13:15Z",
-  "expires_at": "2026-11-06T05:43:15Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T04:30:10Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }

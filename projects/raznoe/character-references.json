@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-11-02T07:15:22Z",
-  "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated.",
+  "updated_at": "2026-11-06T04:20:00Z",
+  "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated. 06.11.2026: сцена 3 RESOURCE, 10 поставленных кадров, not_approved; 45737 — полимер; старый металл вне галереи.",
   "characters": [
     {
       "id": "yarik",
@@ -671,6 +671,102 @@
           ]
         }
       ]
+    },
+    {
+      "id": "resource-engineer",
+      "name": "Инженер RESOURCE",
+      "aliases": [
+        "RESOURCE ENGINEER",
+        "45726"
+      ],
+      "scenes": [
+        3
+      ],
+      "model_sheet": {
+        "source": "Поставленный лист 45726; не перерисовывался; not_approved",
+        "primary": "Инженер · лист идентичности",
+        "additional": [],
+        "public_image": "projects/raznoe/references/scenes/scene-3/01-45726.png",
+        "full_image": "projects/raznoe/references/scenes/scene-3/01-45726.png"
+      },
+      "outfit_variant": "Мужчина около 35 лет: кудрявые тёмно-каштановые волосы, короткая борода, без очков; чёрная футболка с уже существующей красной графикой, чёрные брюки со светлой полосой, чёрные кроссовки, чёрные часы на левой руке.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-06",
+        "status": "supplied",
+        "note": "Байты исходного 45726 сохранены. Техническая публикация не означает одобрение.",
+        "sha256": "01513f2f562a0123449194da6b0009724f5de6d7aea0bfde6a821e5d9e981447",
+        "width": 1536,
+        "height": 1024,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/01-45726.png",
+          "caption": "45726 · лист инженера · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "01513f2f562a0123449194da6b0009724f5de6d7aea0bfde6a821e5d9e981447",
+          "scenes": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resource-sorter",
+      "name": "Работница сортировки",
+      "aliases": [
+        "RESOURCE SORTER",
+        "45735"
+      ],
+      "scenes": [
+        3
+      ],
+      "model_sheet": {
+        "source": "Отдельного листа нет; идентичность только кадры 45735 и 45734. not_approved",
+        "primary": "Работница на линии",
+        "additional": [
+          "projects/raznoe/references/scenes/scene-3/06-45734.png"
+        ],
+        "public_image": "projects/raznoe/references/scenes/scene-3/07-45735.png",
+        "full_image": "projects/raznoe/references/scenes/scene-3/07-45735.png"
+      },
+      "outfit_variant": "Женщина с каштановыми волосами в хвосте, прозрачные защитные очки, тёмно-синий комбинезон со светоотражающими полосами, серые перчатки. Это не главный инженер.",
+      "variants": [],
+      "provenance": {
+        "project": "raznoe",
+        "created": "2026-11-06",
+        "status": "supplied",
+        "note": "Имя не задано источником. Новых людей не добавлять.",
+        "sha256": "0e9351fcc64378f83ee67c6496119792217d2db38f1dcbb9e547559ee56c8341",
+        "width": 1672,
+        "height": 941,
+        "editorial_status": "not_approved"
+      },
+      "reference_images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/07-45735.png",
+          "caption": "45735 · работница на линии · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "0e9351fcc64378f83ee67c6496119792217d2db38f1dcbb9e547559ee56c8341",
+          "scenes": [
+            3
+          ]
+        },
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/06-45734.png",
+          "caption": "45734 · сортировка · не одобрено",
+          "editorial_status": "not_approved",
+          "derived_from": [],
+          "sha256": "f342d49694902f9ca53d273808d6ee9a88083a2b9a25b832f597ef0d60a8b884",
+          "scenes": [
+            3
+          ]
+        }
+      ]
     }
   ],
   "assets": [
@@ -1247,6 +1343,202 @@
       },
       "scenes": [
         2
+      ]
+    },
+    {
+      "id": "resource-workshop",
+      "name": "Мастерская RESOURCE",
+      "kind": "situation_reference",
+      "notes": "Чертёж и верстак. Только место и действие.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/02-45728.png",
+          "caption": "02-45728.png",
+          "sha256": "57f142e033008686a177724d4c72645d4f968ff56cee87a980f011b2c9298538",
+          "width": 1672,
+          "height": 941,
+          "scenes": [
+            3
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "Yandex part 1 of 3; no regeneration except the already supplied polymer finale"
+      },
+      "scenes": [
+        3
+      ]
+    },
+    {
+      "id": "resource-black-bin",
+      "name": "Чёрный бак",
+      "kind": "situation_reference",
+      "notes": "Та же прозрачная бутылка падает в обычный чёрный бак.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/03-45729.png",
+          "caption": "03-45729.png",
+          "sha256": "d07e201c2bd080700a21d2764702ec1eb8aa1f9fa2b08d66e4d06ddcc7b6dcb5",
+          "width": 1672,
+          "height": 941,
+          "scenes": [
+            3
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "Yandex part 1 of 3; no regeneration except the already supplied polymer finale"
+      },
+      "scenes": [
+        3
+      ]
+    },
+    {
+      "id": "resource-blue-approach",
+      "name": "У синего контейнера",
+      "kind": "situation_reference",
+      "notes": "Положение синего контейнера и инженера с бутылкой.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/04-45731.png",
+          "caption": "04-45731.png",
+          "sha256": "470f90373582c9964a3f8667d8d88477d0b83801bebdab94b55a44f0b6348de2",
+          "width": 1672,
+          "height": 941,
+          "scenes": [
+            3
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "Yandex part 1 of 3; no regeneration except the already supplied polymer finale"
+      },
+      "scenes": [
+        3
+      ]
+    },
+    {
+      "id": "resource-blue-throw",
+      "name": "Бросок в синий контейнер",
+      "kind": "situation_reference",
+      "notes": "Конец части 1: бутылка у входа в синий контейнер.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/05-45732.png",
+          "caption": "05-45732.png",
+          "sha256": "a2930f221d1b8e1bf6e3ec8f51d81fc5d48a53bde596dd2f504a5d91c0a4c734",
+          "width": 1672,
+          "height": 941,
+          "scenes": [
+            3
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "Yandex part 1 of 3; no regeneration except the already supplied polymer finale"
+      },
+      "scenes": [
+        3
+      ]
+    },
+    {
+      "id": "resource-shredder",
+      "name": "Шредер",
+      "kind": "situation_reference",
+      "notes": "Промышленное измельчение бутылок. Инженера нет.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/08-45736.png",
+          "caption": "08-45736.png",
+          "sha256": "d5885fa641d8b823e84e85704f454f0023150400537167f2dbb9d1573d47efe5",
+          "width": 1672,
+          "height": 941,
+          "scenes": [
+            3
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "Yandex part 1 of 3; no regeneration except the already supplied polymer finale"
+      },
+      "scenes": [
+        3
+      ]
+    },
+    {
+      "id": "resource-flakes",
+      "name": "Хлопья пластика",
+      "kind": "situation_reference",
+      "notes": "Прозрачные и синие хлопья. Не сертификат переработки.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/09-45733.png",
+          "caption": "09-45733.png",
+          "sha256": "0602cb57b9029eea2966728f80cbeca75a663f5528f48ab1d4daaf8cc74f5776",
+          "width": 1672,
+          "height": 941,
+          "scenes": [
+            3
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "Yandex part 1 of 3; no regeneration except the already supplied polymer finale"
+      },
+      "scenes": [
+        3
+      ]
+    },
+    {
+      "id": "resource-polymer-gripper",
+      "name": "Полимерный захват",
+      "kind": "situation_reference",
+      "notes": "Исправленный финал 3D-печати. Матовый полимер, синие включения, металлические только направляющие и головка. Прежний металлический кадр не в галерее: projects/raznoe/archive/scene-3/45737-old.png.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/10-45737.png",
+          "caption": "10-45737.png",
+          "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
+          "width": 1280,
+          "height": 720,
+          "scenes": [
+            3
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "Yandex part 1 of 3; no regeneration except the already supplied polymer finale"
+      },
+      "scenes": [
+        3
       ]
     }
   ],

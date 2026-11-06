@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene": 3,
+  "title": "RESOURCE",
+  "updated_at": "2026-11-06T04:20:00Z",
+  "status": "references_ready",
+  "editorial_status": "not_approved",
+  "aspect": "16:9",
+  "style": "photoreal",
+  "expected_image_count": 10,
+  "generated_image_count": 0,
+  "supplied_image_count": 10,
+  "backup_not_in_gallery": {
+    "path": "projects/raznoe/archive/scene-3/45737-old.png",
+    "sha256": "a2b77312b07d7afca0dfd47752423624c8c1afc9424d2320fac21dcc18b3e977",
+    "note": "Original metal-milling finale. Not the active finale and not a gallery image."
+  },
+  "references": [
+    {
+      "tag": "45726",
+      "role": "character_identity",
+      "path": "projects/raznoe/references/scenes/scene-3/01-45726.png",
+      "sha256": "01513f2f562a0123449194da6b0009724f5de6d7aea0bfde6a821e5d9e981447",
+      "width": 1536,
+      "height": 1024,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/01-45726.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45728",
+      "role": "action",
+      "path": "projects/raznoe/references/scenes/scene-3/02-45728.png",
+      "sha256": "57f142e033008686a177724d4c72645d4f968ff56cee87a980f011b2c9298538",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/02-45728.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45729",
+      "role": "action",
+      "path": "projects/raznoe/references/scenes/scene-3/03-45729.png",
+      "sha256": "d07e201c2bd080700a21d2764702ec1eb8aa1f9fa2b08d66e4d06ddcc7b6dcb5",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/03-45729.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45731",
+      "role": "action",
+      "path": "projects/raznoe/references/scenes/scene-3/04-45731.png",
+      "sha256": "470f90373582c9964a3f8667d8d88477d0b83801bebdab94b55a44f0b6348de2",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/04-45731.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45732",
+      "role": "action",
+      "path": "projects/raznoe/references/scenes/scene-3/05-45732.png",
+      "sha256": "a2930f221d1b8e1bf6e3ec8f51d81fc5d48a53bde596dd2f504a5d91c0a4c734",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/05-45732.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45734",
+      "role": "action",
+      "path": "projects/raznoe/references/scenes/scene-3/06-45734.png",
+      "sha256": "f342d49694902f9ca53d273808d6ee9a88083a2b9a25b832f597ef0d60a8b884",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/06-45734.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45735",
+      "role": "character_identity",
+      "path": "projects/raznoe/references/scenes/scene-3/07-45735.png",
+      "sha256": "0e9351fcc64378f83ee67c6496119792217d2db38f1dcbb9e547559ee56c8341",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/07-45735.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45736",
+      "role": "action",
+      "path": "projects/raznoe/references/scenes/scene-3/08-45736.png",
+      "sha256": "d5885fa641d8b823e84e85704f454f0023150400537167f2dbb9d1573d47efe5",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/08-45736.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45733",
+      "role": "action",
+      "path": "projects/raznoe/references/scenes/scene-3/09-45733.png",
+      "sha256": "0602cb57b9029eea2966728f80cbeca75a663f5528f48ab1d4daaf8cc74f5776",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/09-45733.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    },
+    {
+      "tag": "45737",
+      "role": "finale",
+      "path": "projects/raznoe/references/scenes/scene-3/10-45737.png",
+      "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
+      "width": 1280,
+      "height": 720,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/10-45737.prompt.txt",
+      "editorial_status": "not_approved",
+      "source": "supplied"
+    }
+  ]
+}

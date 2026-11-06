@@ -1,9 +1,44 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "updated_at": "2026-10-23T02:39:52Z",
-  "purpose": "Порядок сцен нового проекта Разное.",
-  "rules": "Порядок меняется по задаче владельца; сцен пока нет.",
-  "sources": {},
-  "blocks": []
+  "updated_at": "2026-11-06T04:20:00Z",
+  "purpose": "Порядок независимых роликов проекта Разное для film.html?project=raznoe.",
+  "rules": "Сцены 1, 2 и 3 — три разных ролика, не одна история. Формат сцен 1–2 не менялся. Сцена 3 — фотореал 16:9.",
+  "sources": {
+    "scenes_1_2": "projects/raznoe/video-prompts.md, сцены 1 и 2",
+    "resource": "Владелец 06.11.2026: сцена 3 RESOURCE, часть 1 из 3"
+  },
+  "blocks": [
+    {
+      "kind": "chapter",
+      "title": "Тихий маяк"
+    },
+    {
+      "kind": "scene",
+      "scene": 1,
+      "title": "Тихий маяк — история Ярика",
+      "source": "scenes_1_2"
+    },
+    {
+      "kind": "chapter",
+      "title": "Тихая планета"
+    },
+    {
+      "kind": "scene",
+      "scene": 2,
+      "title": "Тихая планета — история Мирона",
+      "source": "scenes_1_2"
+    },
+    {
+      "kind": "chapter",
+      "title": "RESOURCE"
+    },
+    {
+      "kind": "scene",
+      "scene": 3,
+      "title": "RESOURCE — от бутылки к полимерному захвату",
+      "text": "Отдельный фотореал 16:9. Не продолжение сцен 1–2 и не Терра Тех.",
+      "source": "resource"
+    }
+  ]
 }

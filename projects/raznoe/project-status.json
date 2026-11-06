@@ -3,23 +3,24 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-06T01:52:28Z",
-  "revision_date": "03.11.2026",
-  "master_declared_last_full_sync": "02.11.2026 · оба сюжета и 24 промпта сохранены; 59/59 отдельных PNG прикреплены к персонажам, раскадровкам и сценам. Техническая готовность не означает художественного одобрения; видео не запускались.",
-  "canonical_master_sha256": "bbb5837ba2adf230fc143a9fa0ee4d3c83a08b8d333ab4897dc175ec6cb19c7d",
-  "canonical_revision_sha256": "99078683329a9804d5dfed463d02eb0766c8aeaa498f679444b15993d8aeacb6",
-  "canonical_master_bytes": 291379,
-  "scenes": 2,
-  "prompt_texts": 24,
+  "synced_at": "2026-11-06T04:17:07Z",
+  "revision_date": "06.11.2026",
+  "master_declared_last_full_sync": "06.11.2026 · сцена 3 RESOURCE добавлена отдельным фотореалом 16:9; сцены 1–2 не менялись; видео не запускались.",
+  "canonical_master_sha256": "a6cc812a8bc8fc67382cb093d025ed027bfb90b14fd6983a7221233be6a9b8d2",
+  "canonical_revision_sha256": "f95e0d9999f065b7cd864816961f72b9e7753c2961cbe58a29d7d09ed0ff3bcd",
+  "canonical_master_bytes": 338381,
+  "scenes": 3,
+  "prompt_texts": 29,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
   "slow_scenes_count": 0,
   "scene_ids": [
     1,
-    2
+    2,
+    3
   ],
-  "latest_scene": 2,
+  "latest_scene": 3,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
@@ -27,7 +28,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 14.912,
+    "age_hours_at_status_build": 17.323,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -105,7 +106,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 14.912,
+      "age_hours": 17.323,
       "blocking": false
     },
     "topview_task_map": {
@@ -160,18 +161,39 @@
         "reel_structure_mirror"
       ],
       "render_state": "IDLE"
+    },
+    "3": {
+      "target_engine": "Grok Imagine Video",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "photoreal",
+        "landscape_16x9",
+        "reference_first",
+        "raznoe_scene_3",
+        "source_grok_imagine"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "03.11.2026",
-    "synced_at": "2026-11-06T01:52:28Z",
-    "canonical_master_sha256": "bbb5837ba2adf230fc143a9fa0ee4d3c83a08b8d333ab4897dc175ec6cb19c7d",
-    "canonical_revision_sha256": "99078683329a9804d5dfed463d02eb0766c8aeaa498f679444b15993d8aeacb6",
-    "scene_count": 2,
-    "prompt_count": 24,
+    "revision_date": "06.11.2026",
+    "synced_at": "2026-11-06T04:17:07Z",
+    "canonical_master_sha256": "a6cc812a8bc8fc67382cb093d025ed027bfb90b14fd6983a7221233be6a9b8d2",
+    "canonical_revision_sha256": "f95e0d9999f065b7cd864816961f72b9e7753c2961cbe58a29d7d09ed0ff3bcd",
+    "scene_count": 3,
+    "prompt_count": 29,
     "scene_ids": [
       1,
-      2
+      2,
+      3
     ],
     "work_items": [],
     "slow_scenes": [],
