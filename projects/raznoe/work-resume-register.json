@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-06T19:15:51.052Z",
+  "last_updated_at": "2026-11-06T22:01:20.282Z",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -223,6 +223,11 @@
           "Public HTTPS Pages validation after latest commit not yet confirmed."
         ]
       }
+    },
+    {
+      "work_id": "RAZNOE-HONOR-X9EPRO-CONTEST-20261107",
+      "status": "awaiting_real_location_and_owner_selection",
+      "next_action": "Scene 5 concept and dual-engine previsual prompts authored, not generated. Waiting for actual city, possible selection and real HONOR X9e Pro delivery; actual 9:16 video must show genuine local tests, not AI fabrications. No Topview submissions or credits."
     }
   ],
   "idle_state": null,

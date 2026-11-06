@@ -4,7 +4,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**06.11.2026 · 4 сцены к генерации/доработке · 65 полных текстов прежних вкладок; сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене, исходник 2 × 15 с сохранён; шесть попыток v1 лежат в папке Саши и не приняты; в репозиторий ролики не вкладывались; сцена 4 HONOR не менялась; все сцены DRAFT.**
+**07.11.2026 · 5 сцен к генерации/доработке · 68 полных текстов трёх версий; сцена 3 RESOURCE: native-нарезка 19 клипов / 114 с в той же сцене, исходник 2 × 15 с сохранён; шесть попыток v1 лежат в папке Саши и не приняты; в репозиторий ролики не вкладывались; сцена 4 HONOR не менялась; все сцены DRAFT.**
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
@@ -20,10 +20,11 @@
 | 2 | [Тихая планета — история Мирона](#scene-2) | Мирон, мама Вера, бабушка Нина, Дарья Андреевна, доктор Марк Львович, парикмахер Лиля, лошадь Туман | Мальчик с аутизмом рассказывает о громком мире, трудных днях, бабушке, которая нашла помощь, успехах, школе и надежде. Структура рилса, вертикаль 9:16, 4 ролика по 30 с или 8 по 15 с |
 | 3 | [RESOURCE](#scene-3) | Инженер мастерской и синей формы, работница сортировки | Фотореал 16:9. Исходник 2 × 15 с сохранён. Текущая нарезка — 19 native-клипов, 114 с: мастерская, завод, сборка, старт, орбита, постановочная станция, ЦУП. Не одобрено |
 | 4 | [HONOR](#scene-4) | Magic9 Pro Max выбран; продуктовый прокси до утверждения | Три ролика по 120 с: реализм, 3D, рисовка. Кадры только настроение. Не одобрено |
+| 5 | [HONOR X9e Pro — «Город на прочность»](#scene-5) | Житель [ГОРОД], настоящий HONOR X9e Pro только после отбора | Конкурс «Несокрушимый HONOR»: идея 30-секундного вертикального видео о реальном местном маршруте и испытаниях. ИИ — только для раскадровки; не снято |
 
 ## Сцены в работе
 
-Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве, native-нарезка 19/114 опубликована отдельно от вкладок 2 × 15 с. Очередь Topview не менялась. Шесть native-попыток v1 лежат в папке Саши и не приняты. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — три ролика по 120 с каждый, not_approved; выбрана модель Magic9 Pro Max, точные продуктовые PNG ещё не утверждены. Старые космические сцены — в проекте «Роскосмос».
+Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве, native-нарезка 19/114 опубликована отдельно от вкладок 2 × 15 с. Очередь Topview не менялась. Шесть native-попыток v1 лежат в папке Саши и не приняты. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — три ролика по 120 с каждый, not_approved; выбрана модель Magic9 Pro Max, точные продуктовые PNG ещё не утверждены. Старые космические сцены — в проекте «Роскосмос». Сцена 5 — отдельный конкурсный HONOR X9e Pro, вертикаль 9:16, DRAFT, ожидает реальных съёмок в [ГОРОД]; это не замена сцены 4 Magic9 Pro Max.
 
 <a id="misc-pricing"></a>
 ## Стоимость производства (простыми словами, редакция 03.11.2026, версия 3)
@@ -5497,6 +5498,132 @@ Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black
 FRAME FILL / NO BARS:
 Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
 ```
+
+</div>
+
+</div>
+
+<a id="scene-5"></a>
+## Сцена 5 — HONOR X9e Pro · «Город на прочность» (конкурс «Несокрушимый HONOR»)
+
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","contest_pitch","honor_x9e_pro","vertical_9x16","real_local_footage_required","two_engine_versions","not_approved","raznoe_scene_5"]} -->
+
+**Контекст использования:** отдельная новая сцена для конкурса HONOR Россия, приём идей 6–16 ноября 2026 по переданному владельцем посту. Это **HONOR X9e Pro**, а не HONOR Magic9 Pro Max из сцены 4. Чтобы участвовать, сначала нужно оставить город и идею в комментарии; после выбора участник получает телефон для реальных съёмок вертикального ролика в своём регионе и публикует его во ВКонтакте. Эта запись не является отправленной заявкой и не гарантирует выбор.
+
+**Идея «Город проверяет».** Утро одного жителя [ГОРОД]. Город как строгий экзаменатор проверяет не телефон намеренными ударами, а его работу во время настоящего непредсказуемого местного маршрута: холодный ветер / снег, дождь и брызги слякоти, разбитая дорога. Каждый этап показан узнаваемым местом и снят без обмана. Кульминация — один непрерывный крупный план: настоящий HONOR X9e Pro включён, снимает фотографию местной достопримечательности и показывает результат. Подписи «экзаменов» и название города добавляются в монтаже, не генерируются моделью. Если снег/дождь в день съёмки отсутствуют, эпизод не инсценировать под «реальный» тест — выбирать настоящую местную погоду.
+
+**Копия комментария для ВК:** «Город: [ГОРОД]. Моя идея — “Город проверяет”. За одно утро покажу маршрут с настоящими местными испытаниями: ветер/холод, дождь и слякоть, неровная дорога — и сниму на HONOR X9e Pro узнаваемое место города. Каждый этап будет в кадре без подмены телефона и без выдуманных результатов. В финале покажу, как он работает после маршрута. Всё — одним коротким вертикальным видео.»
+
+**План реальной съёмки 30 с · вертикаль 9:16 (обязателен реальный телефон и реальный город):**
+
+| Время | Что должно быть в реальной съёмке | Монтаж и проверяемое доказательство |
+|---|---|---|
+| 0–4 с | Знакомая улица или памятный ориентир [ГОРОД], титр с городом | Снять самим, не подставлять ИИ-город |
+| 4–9 с | Настоящий X9e Pro в руках, старт на свежем воздухе | Разборчивый вид корпуса без смены телефона |
+| 9–16 с | Реальный дождь/слякоть, ветер или холод; лёгкие бытовые брызги на корпусе | Непрерывный фрагмент без опасного погружения и без монтажа, скрывающего состояние |
+| 16–23 с | Неровная дорога во время безопасной ходьбы; без падения/наезда на телефон | Живой маршрут с узнаваемым фоном; телефон закреплён надёжно |
+| 23–30 с | Крупно работающий экран и фотография местного объекта | Результат и исходные файлы сохраняются как доказательство реальной проверки |
+
+**Референсы:** оригинальный телефон отсутствует до отбора и получения аппарата; утверждённых PNG для сцены 5 нет. Для формы будущего изделия сверяться только с официальным HONOR X9e Pro: https://www.honor.com/eurasia/phones/honor-x9e-pro/ и https://www.honor.com/eurasia/phones/honor-x9e-pro/spec/ . На официальных изображениях фиолетового варианта — крупный круглый блок камеры с золотистой окантовкой; нельзя подменять его моделью Magic9 Pro Max. Официальные исходники и логотип в коммерческом монтаже требуют проверки условий использования. Пока настоящего телефона нет, **ИИ-версии ниже — только превизуализация с анонимным гладким макетом без маркировки**, не доказательство характеристик, не готовое конкурсное видео.
+
+**Безопасность и достоверность:** не бросать телефон намеренно, не погружать его в воду, не поливать кипятком, не использовать реальные опасные дороги/движение ради эффекта. HONOR отдельно предупреждает, что удары способны повредить устройство, а защита от влаги не постоянна. Не утверждать «тест пройден» до результатов реальной съёмки. Не выдавать синтетический кадр с телефоном за реальное испытание.
+
+**Состояние:** DRAFT / not_approved. Очередь Topview проекта пуста, запуск не разрешён. Русский голос для итогового монтажа записывается отдельно после съёмок; в ИИ-превизуализации нет устной речи. Номер сцены 5 не меняет три существующих ролика HONOR в сцене 4.
+
+<div class="engine-tabs" data-scene="5">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 5 · Wan 3.0 / Seedance 2.5 · 30 с
+
+**Входы:** text-to-video, **без файла продукта**. Это 30-секундный синтетический storyboard-preview, не конкурсная демонстрация устройства; нельзя использовать его вместо реальной съёмки.
+
+\`\`\`text
+Mode: text-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Wan 3.0 / Seedance 2.5 | ONE vertical conceptual storyboard only
+
+REFERENCES / IDENTITY:
+No official device or location image is supplied. The only human is an anonymous adult resident in a plain dark winter jacket with black gloves, filmed from back/shoulder; no recognizable face. In their hand is an entirely blank matte rectangular PROP with no camera island, no logo, no screen contents, no buttons, no product-specific geometry. This is a visual PLACEHOLDER, NOT the HONOR X9e Pro. Never replace it with a fictional branded phone. The place is a plausible GENERIC Russian town, not footage of a particular real city.
+
+STORY / CAMERA:
+Create a lively, cinematic vertical 9:16 shot sequence visualizing the four beats of a future real-life city test. 0–5s: dawn above an ordinary street in cool windy light; camera lowers to follow the same adult entering frame. 5–14s: moving behind their shoulder along wet cobbles, cold air, natural light rain, the blank prop protected in hand; steady handheld camera, honest physical contact. 14–23s: track beside the same person safely walking around shallow puddles and uneven pavement; brief close-up of the prop, no impact and no immersion. 23–30s: still, clear final composition: adult stops at an anonymous city viewpoint and raises the blank prop for a photo-like framing; no actual photo, no claim of success, leave negative space for titles added later.
+
+PERFORMANCE:
+A real human pace and weather response; not a video-game character. The prop keeps consistent size, color, position and ownership from start to finish.
+
+VISUAL STYLE:
+Grounded live-action realism, natural rain/wind/lighting, documentary cinematic camera. The scenery is illustrative only and must not resemble a specific documented city test.
+
+AUDIO:
+No generated Russian speech, audio, captions or music. These are added later to authentic filmed footage, not to this preview.
+
+NEGATIVE:
+NO HONOR logo, NO phone brand, no authentic durability test, no magic water deflection, no dangerous deliberate drops, no immersion, no boiling water, no falsely readable camera UI, no fictional test result, no fake city landmark, no montage titles, no watermark, no duplicated devices, no people morphing, no horizontal crop, no black borders.
+
+FRAME FILL:
+Fill entire portrait 9:16, 720×1280. Full bleed, no letterbox, no pillarbox or embedded widescreen frame.
+\`\`\`
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 5 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** text-to-video, без референса продукта; кадр — синтетический сториборд для будущей реальной съёмки. Часть 1 из 2.
+
+\`\`\`text
+Mode: text-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0 | Concept preview, part 1 of 2, story time 0:00–0:15
+
+REFERENCES / IDENTITY:
+No supplied files. One anonymous adult in a plain dark winter jacket and black gloves, filmed from behind, unidentifiable face. Their one blank dark matte rectangular hand prop has no branding, no camera island, no UI and no exact phone features. It is not an HONOR product or proof of durability. One continuous generic city environment in cool natural weather.
+
+START STATE:
+Before sunrise over damp street paving. The adult is beginning a morning walk with the blank prop in the right gloved hand, still near their coat.
+
+STORY FLOW:
+Track from a very brief view of an anonymous street into a moving shoulder-level follow shot. The person turns into cool wind, checks the same blank prop, and walks by shallow naturally wet paving while a light rain begins. Allow authentic walking rhythm and handheld camera life. No impacts, no deliberate drops, no water immersion.
+
+END STATE:
+The adult continues forward, right hand still holding the intact blank prop close to the chest; the wet pavement and street direction are readable. Last 3 seconds suitable for the genuine next-video conditioning input.
+
+CAMERA / LIGHT:
+Live-action portrait frame; natural overcast blues and reflected city highlights, one motivated camera move. Stable appearance and direction.
+
+AUDIO / SAFETY:
+Picture only, no sound or generated speech, brand, titles, UI, product claims or synthetic proof of tests. Never use this as competition test footage.
+
+FRAME FILL / NEGATIVE:
+Full 720×1280 vertical 9:16 image; no horizontal crop, black bars, text, HONOR markings, fake waterproof tests, animated graphics, camera island or duplicate phones.
+\`\`\`
+
+#### 5 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — **только реальные последние 3 секунды готовой части 1**, если превизуализация вообще когда-либо будет запущена и пройдёт QC. Пока @Video1 отсутствует — не READY. Часть 2 из 2.
+
+\`\`\`text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 9:16 | FPS: 24 | Native audio: off
+Optimized for Seedance 2.0 | Concept preview, part 2 of 2, NEW story time 0:15–0:30
+
+REFERENCES / PRIORITY:
+@Video1 = exact last 3 seconds of genuine finished part 1, a continuity conditioning input, not repeated output. Preserve the same anonymous adult in a plain dark winter jacket and black gloves, the same blank matte rectangle in RIGHT hand, and the same generic wet city walkway direction. No official product reference exists. The prop is not HONOR and is not a product test.
+
+START STATE:
+Continue immediately after part 1, adult moving forward along the same wet cobblestones, holding the blank rectangle at chest height. The previous 3 seconds are input context, not output to repeat.
+
+STORY FLOW:
+The camera tracks safely alongside the adult walking around ordinary shallow puddles and uneven paving. No falling, immersion or abrupt teleport. They reach a small generic overlook, stop, and gently raise the blank prop as if preparing to photograph the view. Keep the live-action documentary quality.
+
+END STATE:
+A readable steady vertical over-shoulder composition with a dark unbranded placeholder in the right gloved hand, generic soft-focus city view behind; no generated screen/photo or text. Last seconds settle for a simple editorial cut to future REAL product footage.
+
+CAMERA / AUDIO:
+Vertical 9:16, continuous movement, overcast natural light, image only. No dialogue, native audio, subtitles, graphics, fake logo, real-looking city identity or fabricated technical result.
+
+NEGATIVE / FRAME FILL:
+No camera island, no HONOR branding, no exact handset, no water immersion, no impact, no fake demonstration, no replay of @Video1, no device duplication, no sideways framing, no pillarbox, letterbox, borders or captions. Fill entire portrait 720×1280.
+\`\`\`
 
 </div>
 
