@@ -32,9 +32,39 @@
         "slot": "IMAGE 1"
       },
       "real_video_frame": false
+    },
+    {
+      "tag": "PROP-polymer-gripper-mounted-open",
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+      "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.prompt.txt",
+      "source": "ChatGPT built-in imagegen",
+      "role": "B02: согласованный узел монтажа, точное изделие и видимый крепёж. Этот кадр также задаёт механизм для C03.",
+      "editorial_status": "not_approved",
+      "qc": {
+        "visual_reference_check": "passed",
+        "checked_at": "2026-11-06T12:59:21+00:00",
+        "criteria": [
+          "Замкнутое основание и диагонали совпадают с A-product, не U-клешня",
+          "Рама закреплена на самом концевом фланце белой руки",
+          "Зажимы отдельные от полимера и раздвинуты",
+          "Наконечник в головке болта, не в электрическом разъёме",
+          "Руки/манжеты согласованы, без букв",
+          "Рабочая зона — неглубокий торцевой арочный проём до первой стойки; обе короткие направляющие и весь ход губок не пересекают основание, стойки или диагонали",
+          "Крепёж использует существующие отверстия; новый рисунок отверстий в полимерной раме не придуман"
+        ],
+        "motion_audio_qc": false
+      },
+      "input_slot": {
+        "clip": "B02_install-v2",
+        "slot": "IMAGE 3"
+      },
+      "real_video_frame": false
     }
   ],
-  "updated_at": "2026-11-06T12:55:03+00:00",
-  "generated_image_count": 1,
+  "updated_at": "2026-11-06T12:59:21+00:00",
+  "generated_image_count": 2,
   "status": "reference_images_in_progress"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "last_updated_at": "2026-11-06T12:55:03+00:00",
+  "last_updated_at": "2026-11-06T12:59:21+00:00",
   "active_work": [
     {
       "work_id": "RAZNOE-SCENE3-RESOURCE",
@@ -177,7 +177,7 @@
       "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
       "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
       "status": "in_progress",
-      "updated_at": "2026-11-06T12:55:03+00:00",
+      "updated_at": "2026-11-06T12:59:21+00:00",
       "owner_quote": "Сцену с Бутылками и хонором доведи до совершенства. Дорисуй где нужно референсные изображения. Для хонора по их последней модели телефона. На сайте предупреждение висит. На диске в папку Саша скинь инструкции по ведению промтов, сцен и работе видео моделями. Напиши понятными словами для Саши файлик как этим всем пользоваться, как запускать видео, как самостоятельно писать сцены, промты, как делать картинки и как видео для его бутылок переработки отходов космическими спутниками.",
       "completed": [
         "Подтверждены поручение, последняя модель телефона, папка Саша и фактическое предупреждение сайта."
@@ -191,22 +191,22 @@
       "blockers": [],
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T12:55:03+00:00",
-        "last_completed": "Сохранено 1/4 новых референсов RESOURCE с промптами и визуальным QC; PROP-print-layer-contact.png.",
+        "verified_at": "2026-11-06T12:59:21+00:00",
+        "last_completed": "Сохранено 2/4 новых референсов RESOURCE с промптами и визуальным QC; PROP-polymer-gripper-mounted-open.png.",
         "next_action": "Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.",
         "checkpoint": {
           "file": "projects/raznoe/reports/current-work-checkpoint.md",
           "anchor": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше",
-          "sha256": "5fe4ac09f220797bcfe076cdca9737f564a30923aae172cf566a6d8f39a4328c"
+          "sha256": "882eef4b9fb7029e507fe8dcaaa993e144067edaff56328c24cc4a1310e4c8dc"
         },
         "evidence": [
           {
             "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-            "sha256": "147f27664995fc7aae0e29f338d1b64a18cfa729bc3cc061cd26227c7d183539"
+            "sha256": "ac9960896bff3cec886fb6b4e8033cbda16cd857d5864000886b394d70ddd2d8"
           },
           {
             "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
-            "sha256": "8ae57010a86fc285dd8bcaac329e4aad49b09de0b9cc5f4a301f2c41eef028a2"
+            "sha256": "00ed899bc48acf4c40258a469da8e1afbb83de43c6c9568a3b490862b7da7890"
           }
         ],
         "read_next": [
@@ -220,7 +220,7 @@
   "resume_focus": {
     "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
     "project": "raznoe",
-    "set_at": "2026-11-06T12:55:03+00:00",
+    "set_at": "2026-11-06T12:59:21+00:00",
     "reason": "Explicitly selected by the authorized task writer"
   }
 }
