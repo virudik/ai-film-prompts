@@ -2,8 +2,8 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project raznoe`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-11-06T18:00:38+00:00
+Состояние: ready
+Проверено: 2026-11-06T18:03:06+00:00
 Задача: RAZNOE-RESOURCE-HONOR-SASHA-20261106 — Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше
 
 Последний подтверждённый этап: Локально сохранено 3/4 новых референсов RESOURCE; capture-contact, точный промпт и визуальный QC сверены по SHA. Руководство Саше в MD/DOCX/PDF доставлено и прочитано обратно; исправленная ссылка проверена 2026-11-06T13:40:26.776842+00:00. Проверки тестов/Pages текущего capture-save этим шагом не подтверждаются.
@@ -63,4 +63,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- project master/status mismatch: raznoe
+Нет ошибок локальной проверки. Живые проверки выше обязательны.
