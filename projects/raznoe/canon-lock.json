@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:c9f4cc5a-1d58-4176-bc69-1280de349909",
   "task": "Сцена 4 HONOR: каждый вариант до 120 с монтажа, без очереди и без видео",
   "acquired_at": "2026-11-06T05:00:17Z",
-  "expires_at": "2026-11-06T06:30:17Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T05:01:54Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }

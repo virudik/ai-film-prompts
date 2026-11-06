@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-06T04:41:56Z",
+  "synced_at": "2026-11-06T05:01:47Z",
   "revision_date": "06.11.2026",
-  "master_declared_last_full_sync": "06.11.2026 · сцена 4 HONOR добавлена отдельным пакетом из трёх вариантов; сцена 3 RESOURCE и сцены 1–2 не переписывались; видео не запускались.",
-  "canonical_master_sha256": "d4fce1bcc0f988ae6720f8922688746b1e2ea9e1b25c944c066ab0d5cc753f17",
-  "canonical_revision_sha256": "78d112777b39bfbba0f12700e2cf50f17f7b9ade5d90f902687be95dc4e56901",
-  "canonical_master_bytes": 384480,
+  "master_declared_last_full_sync": "06.11.2026 · сцена 4 HONOR расширена: каждый из трёх вариантов стал роликом на 120 с монтажа; сцена 3 RESOURCE не переписывалась; видео не запускались.",
+  "canonical_master_sha256": "23aa86195976802497a30c9368ce3c90bda01a6d6b67fcac0bb5e6e20c1b6c0d",
+  "canonical_revision_sha256": "c56b435d0fa1310d1b9654668611938dcb384bb7938ae50ea9b63c89909820f9",
+  "canonical_master_bytes": 476189,
   "scenes": 4,
-  "prompt_texts": 38,
+  "prompt_texts": 65,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
@@ -29,7 +29,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 17.736,
+    "age_hours_at_status_build": 18.067,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -107,7 +107,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 17.736,
+      "age_hours": 18.067,
       "blocking": false
     },
     "topview_task_map": {
@@ -186,10 +186,10 @@
     "4": {
       "target_engine": "уточнить",
       "production_state": "DRAFT",
-      "duration_s": 30,
+      "duration_s": 120,
       "dialogue": {
-        "enabled": false,
-        "language": null
+        "enabled": true,
+        "language": "ru"
       },
       "dependencies": [],
       "tags": [
@@ -199,18 +199,19 @@
         "landscape_16x9",
         "mood_refs_only",
         "not_approved",
-        "raznoe_scene_4"
+        "raznoe_scene_4",
+        "three_films_120s"
       ],
       "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "06.11.2026",
-    "synced_at": "2026-11-06T04:41:56Z",
-    "canonical_master_sha256": "d4fce1bcc0f988ae6720f8922688746b1e2ea9e1b25c944c066ab0d5cc753f17",
-    "canonical_revision_sha256": "78d112777b39bfbba0f12700e2cf50f17f7b9ade5d90f902687be95dc4e56901",
+    "synced_at": "2026-11-06T05:01:47Z",
+    "canonical_master_sha256": "23aa86195976802497a30c9368ce3c90bda01a6d6b67fcac0bb5e6e20c1b6c0d",
+    "canonical_revision_sha256": "c56b435d0fa1310d1b9654668611938dcb384bb7938ae50ea9b63c89909820f9",
     "scene_count": 4,
-    "prompt_count": 38,
+    "prompt_count": 65,
     "scene_ids": [
       1,
       2,
