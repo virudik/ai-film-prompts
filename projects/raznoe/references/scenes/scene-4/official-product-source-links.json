@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 4,
+  "product": "HONOR Magic9 Pro Max",
+  "product_status": "official_model_verified",
+  "color_consistency_choice": "Moss Green",
+  "editorial_status": "not_approved",
+  "has_canonical_product_png": false,
+  "official_launch": "2026-09-28",
+  "source_pages": [
+    "https://www.honor.com/global/news/honor-magic9-launch/",
+    "https://www.arri.com/en/company/press/press-releases-2026/arri-honor-professional-cinematic-imaging-honor-magic9-pro-max",
+    "https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max"
+  ],
+  "usage_boundary": "External official product images are SOURCE LINKS only. They are not licensed project PNG, not approved for use as an official HONOR advertisement, and must not be copied or hotlinked into the published ad without checking the rights.",
+  "geometry_lock": "Moss Green two-tone body; wide rear camera bar, one large ARRI-branded round module on rear-left, two smaller circular lenses stacked on right, small flash above major circle; narrow front bezels, horizontal pill-shaped front-camera cutout; no invented four/five-camera replacement.",
+  "external_reference_slots": {
+    "H-BACK": {
+      "source_page": "https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max",
+      "image_url": "https://img-va.myshopline.com/image/store/1781230483395/MTV-ID-Pro-Max-Green-Rear-RGB-PNG-3000-20260831.png?h=3000&w=3000",
+      "purpose": "exact rear shape and two-tone Moss Green",
+      "canon_png_present": false
+    },
+    "H-FRONT": {
+      "source_page": "https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max",
+      "image_url": "https://img-va.myshopline.com/image/store/1781230483395/MTV-ID-Pro-Max-Green-Front-Left-RGB-PNG-EN-HQ-3000-20260911.png?h=3000&w=3000",
+      "purpose": "front display and pill cutout; oblique angle, full frontal orthographic shot is still missing",
+      "canon_png_present": false
+    },
+    "H-CAM": {
+      "source_page": "https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max",
+      "image_url": "https://img-va.myshopline.com/image/store/1781230483395/MTV-ID-Pro-Max-Green-Rear-RGB-PNG-3000-20260831.png?h=3000&w=3000",
+      "purpose": "same camera island and ARRI branding; can crop only with rights",
+      "canon_png_present": false
+    },
+    "H-34": {
+      "source_page": "https://beneluxshop.honor.com/fr-lu/products/honor-magic9-pro-max",
+      "image_url": "https://img-va.myshopline.com/image/store/1781230483395/M9-Pro-Max-4.png?h=800&w=800",
+      "purpose": "front/rear relationship; exact front display & two-tone back, not an animation input",
+      "canon_png_present": false
+    },
+    "H-LOGO": {
+      "source_page": "https://www.honor.com/global/",
+      "purpose": "obtain official vector/logo permissions for separate editing overlay",
+      "canon_png_present": false
+    }
+  },
+  "production": {
+    "films": 3,
+    "seconds_per_film": 120,
+    "reference_mood_png": 3,
+    "reference_product_png": 0,
+    "video_submissions": 0,
+    "paid_credits_allowed": false,
+    "voiceover": "separate filmwide voiceover proposal not approved"
+  },
+  "checked_at": "2026-11-06T17:58:30.877Z"
+}
