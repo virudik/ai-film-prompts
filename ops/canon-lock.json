@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:handoff-health-20261107",
   "task": "Fix canon-health warning by archival handoff cleanup, preserve rules and new S73",
   "acquired_at": "2026-11-06T22:34:38.809Z",
-  "expires_at": "2026-11-06T22:54:38.809Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T22:35:30.821Z",
   "rules": "ops/CANON-LOCK.md"
 }
