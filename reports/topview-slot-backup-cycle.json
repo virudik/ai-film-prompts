@@ -3,122 +3,39 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "26bc648a-b119-4110-9b93-a3a81c1c4b65",
-  "run_id": "6ab3825f-49f8-8324-bce9-be1d03257b09",
-  "runtime_run_id_source": "Automations.peek current in_progress last_run.id",
-  "source_head": "e99a4a8016d91c1a1ec5e0574f754c1cb244c7b5",
+  "execution_instance_id": "b92b3e6d-af10-4aff-b544-085699a4c9e3",
+  "run_id": "7200fc72-81a0-832f-915d-a066bea3cd2c",
+  "runtime_run_id_source": "Automations.peek current last_run.id",
+  "source_head": "d3931b97c7fbdff2cdaa8cb96e48be7e8a40c732",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:26bc648a-b119-4110-9b93-a3a81c1c4b65",
-  "lease_acquired_at": "2026-11-06T01:04:21.782Z",
-  "lease_commit": "312bdbc8a230f721a6679afdf4a2654a77a63338",
-  "started_at": "2026-11-06T00:56:09.710059Z",
-  "receipt_started_at": "2026-11-06T01:05:05.654Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:b92b3e6d-af10-4aff-b544-085699a4c9e3",
+  "lease_acquired_at": "2026-11-06T02:22:29.768Z",
+  "lease_commit": "986f23b2acea5ac95fefbb2664b96a484727e79d",
+  "started_at": "2026-11-06T02:11:45.583690Z",
+  "receipt_started_at": "2026-11-06T02:23:18.181Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
-    "complete": true,
-    "source": "Topview read-only connector / all boards and pages",
-    "scope": "14 boards / 18 video pages",
-    "boards_scanned": 14,
-    "pages_scanned": 18,
-    "video_tasks_scanned": 629,
-    "status_counts": {
-      "success": 600,
-      "fail": 23,
-      "init": 6
-    },
-    "active_task_ids": [
-      "3ebe7c23db05479e9b6f762a75b832e7",
-      "365cf639589a4a5da834d70193d5e8f6",
-      "be960f5e3bf54563aff663fed9da8906",
-      "de8e44bb15d64dc7a4eb640d27a726e4",
-      "431180d384cc43bebe7afc702e4eb4e6",
-      "22dbd25cdd9f47cd9e44300e55f5e44f"
-    ],
-    "active_parameters_verified": {
-      "all_six_on_target_board": true,
-      "read_method": "six independent read-only Topview get_board_task, plus current first-page status refresh",
-      "useUnlimitMode": true,
-      "credits_cost": 0,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "verified_at": "2026-11-06T01:05:36.632Z"
-    },
-    "first_scan_completed_at": "2026-11-06T01:00:10.145Z",
-    "final_refresh_at": "2026-11-06T01:05:36.632Z"
+    "complete": false
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
-    "complete_scan_verified": true
+    "occupied": null,
+    "free": null,
+    "complete_scan_verified": false
   },
   "queue_reconciliation": {
-    "total": 63,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "submitted_ids_verified": 14,
-    "queue_sha256": "53ec38d8ae8db5b244cb3f871761b7915f691d1a5e5eddef490f1b59110baad0",
-    "task_map_sha256": "2c254a9c6c8a64b280ec2613765ef7015cb152383a415070022e7a31a6ceb97c",
-    "readiness_hashes_match": true,
-    "next_ready": {
-      "id": "S49A",
-      "priority": 1.2
-    },
-    "state_counts": {
-      "blocked_owner_decision": 1,
-      "waiting_for_slot": 27,
-      "submitted": 14,
-      "blocked_inputs": 21
-    },
-    "all_submitted_found": true,
-    "checked_owner_tasks_open": 0,
-    "source": "14 independent read-only task detail checks; exact UTF-8 SHA-256 of canonical queue and map against readiness",
-    "sha_method": "JS SHA256 verified against abc test vector"
+    "status": "pending"
   },
-  "browser_transport": "not_used_no_free_slot",
+  "new_submissions": 0,
+  "task_ids": [],
+  "browser_transport": "not_started",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "new_submissions": 0,
-  "task_ids": [],
-  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
-  "acceptance": {
-    "hourly_execution": true,
-    "topview_readonly_complete": true,
-    "tinyfish_login_this_run": false,
-    "tinyfish_ui_control_this_run": false,
-    "tinyfish_file_upload": false,
-    "unlimited_zero_preflight": false,
-    "task_id_of_new_submission_verified": false,
-    "production_tinyfish_submission_verified": false
-  },
-  "finished_at": "2026-11-06T01:06:30.794Z",
-  "automation_checks": {
-    "self": {
-      "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-      "is_enabled": true,
-      "runtime_last_run_id": "6ab3825f-49f8-8324-bce9-be1d03257b09",
-      "latest_result_run_id": "9f333067-53e4-832d-aeff-d6095c8b6edb"
-    },
-    "relay": {
-      "id": "6adc585e7ac08191bb93825117dc7213",
-      "is_enabled": true,
-      "last_run_id": "d62b3913-0a54-8321-a22c-efc668fb40ae"
-    },
-    "hh55": {
-      "id": "6acae6ab433481919e88665c520b8ef2",
-      "is_enabled": false,
-      "last_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c"
-    },
-    "preferred_executor": "work",
-    "work_recovery_evidence": "no new runtime GUI/quota verification in this cycle"
-  },
-  "github_issue_context": "https://github.com/virudik/ai-film-prompts/issues/356 (stale wake, not current capacity)",
-  "automation_monitor_status": "Robot timestamp 2026-11-06T00:20:28Z; current direct Topview connector scan supersedes it"
+  "retryable": null,
+  "outcome": "started"
 }
