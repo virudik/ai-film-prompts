@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-06T05:30:29Z",
+  "checked_at": "2026-11-06T05:40:25Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "last full scan 170 min ago"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 14,
     "board_task_counts": {
       "3db83056ccef4361a9563a4f77afa1d5": 56,
@@ -27,9 +25,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 686
     },
-    "pages_scanned": 16,
-    "tasks_seen": 629,
-    "api_requests": 24,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -53,26 +51,13 @@
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": 5,
+    "free": 1,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
-    {
-      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "unlimited": true,
-      "created_at": "2026-10-31 11:08:48",
-      "model": "Wan 3.0",
-      "scene_id": 72,
-      "mapping": "task_map",
-      "queue_count": null,
-      "wait_seconds": null,
-      "process_seconds": 5400
-    },
     {
       "task_id": "365cf639589a4a5da834d70193d5e8f6",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -82,8 +67,8 @@
       "model": "Wan 3.0",
       "scene_id": 63,
       "mapping": "task_map",
-      "queue_count": 3255,
-      "wait_seconds": 138240,
+      "queue_count": 3539,
+      "wait_seconds": 155377,
       "process_seconds": null
     },
     {
@@ -95,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 64,
       "mapping": "task_map",
-      "queue_count": 3544,
-      "wait_seconds": 155520,
+      "queue_count": 3828,
+      "wait_seconds": 172657,
       "process_seconds": null
     },
     {
@@ -108,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 71,
       "mapping": "task_map",
-      "queue_count": 732,
-      "wait_seconds": 17280,
+      "queue_count": 1291,
+      "wait_seconds": 34416,
       "process_seconds": null
     },
     {
@@ -121,8 +106,8 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 2966,
-      "wait_seconds": 120960,
+      "queue_count": 3250,
+      "wait_seconds": 138097,
       "process_seconds": null
     },
     {
@@ -134,15 +119,30 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 2054,
-      "wait_seconds": 69120,
+      "queue_count": 2372,
+      "wait_seconds": 86257,
       "process_seconds": null
     }
   ],
   "unknown_new": [],
-  "finished_known": [],
+  "finished_known": [
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "scene_id": 72,
+      "final_status": "success",
+      "completed_at": "2026-11-06 05:38:05",
+      "error_code": null
+    }
+  ],
   "missing_known_active": [],
   "recent_completions": [
+    {
+      "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "scene_id": 72,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-11-06 05:38:05"
+    },
     {
       "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
       "scene_id": 61,
@@ -152,18 +152,22 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-11-06T04:40:36Z",
-    "monitor_age_minutes": 50,
+    "monitor_checked_at": "2026-11-06T05:30:29Z",
+    "monitor_age_minutes": 10,
     "monitor_occupied": 6,
-    "robot_occupied": 6,
+    "robot_occupied": 5,
     "consistent": false,
-    "monitor_may_lag": true,
+    "monitor_may_lag": false,
     "differences": [
       {
-        "type": "status_differs",
+        "type": "only_in_monitor",
         "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
-        "monitor": "init",
-        "robot": "running"
+        "scene_id": 72
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 6,
+        "robot": 5
       }
     ]
   }
