@@ -14,8 +14,8 @@
   "lease_commit": "db50f73ab4fa701b338dde8aac317627c1e5c196",
   "started_at": "2026-11-06T13:31:06.285683Z",
   "receipt_started_at": "2026-11-06T13:41:10.894Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "direct_topview_scan_this_cycle": true,
@@ -38,13 +38,22 @@
       "431180d384cc43bebe7afc702e4eb4e6"
     ],
     "checked_at": "2026-11-06T13:35:48.662Z",
-    "checked_at_note": "All 18 direct read-only board task pages returned before the timestamp; no live UI Create."
+    "checked_at_note": "All 18 direct read-only board task pages returned before the timestamp; no live UI Create.",
+    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "source_task_map_sha256": "bf158ba1038ea37a1b0bc2831d3f0c32ec742c10da77485a6493fa9029b24695",
+    "queue_sha256_independently_verified": true,
+    "task_map_sha256_independently_verified": true,
+    "readiness_checked_at": "2026-11-06T13:40:32.888256Z",
+    "readiness_hashes_match": true,
+    "latest_active_recheck_confirmed": true,
+    "latest_active_recheck_at_or_before": "2026-11-06T13:44:19.498Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "verified_from": "direct Topview connector: 14 boards / 18 pages / 630 video tasks; same 6 active IDs checked again on My First Board"
   },
   "new_submissions": 0,
   "browser_transport": "not_invoked",
@@ -53,7 +62,7 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot",
   "blocker": null,
   "retryable": false,
   "task_ids": [],
@@ -64,8 +73,34 @@
     "tinyfish_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
-    "verified_task_id_for_new_submission": false
+    "verified_task_id_for_new_submission": false,
+    "upstream_full_scan": true
   },
   "prior_run_id": "e30650ed-d768-8332-b274-558b7c263f83",
-  "updated_at": "2026-11-06T13:41:10.894Z"
+  "updated_at": "2026-11-06T13:44:19.498Z",
+  "completed_at": "2026-11-06T13:44:19.498Z",
+  "lease_released_at": "2026-11-06T13:44:19.498Z",
+  "queue_reconciliation": {
+    "queue_items": 63,
+    "submitted_with_task_id": 15,
+    "all_submitted_15_taskIDs_confirmed_on_Topview": true,
+    "unresolved_claimed_submitting_unknown": 0,
+    "ready_items_in_derived_readiness": 26,
+    "next_candidate": "S49B",
+    "next_priority": 1.21,
+    "create_authorized": false,
+    "readiness_hashes_match": true
+  },
+  "owner_tasks": {
+    "open": 0,
+    "source": "ops/owner-tasks.json read-only"
+  },
+  "peer_reconciliation": {
+    "relay_automation_id": "6adc585e7ac08191bb93825117dc7213",
+    "hourly_work_automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "latest_hourly_work_run_id": "6a8507ab-69d0-8328-966f-cbc87d3fc5c9",
+    "preferred_executor": "work",
+    "route_generation": 3
+  },
+  "lease_release_note": "Exact holder and acquired_at verified immediately before atomic CAS; no Create, credits or TinyFish incurred."
 }
