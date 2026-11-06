@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "kotmonavty",
   "project_name": "Котмонавты",
-  "checked_at": "2026-11-06T13:41:55+00:00",
-  "source_head": "78a5584f245b924196961aecaf6969e0e4b5c876",
-  "source_fingerprint": "35c2cc0a3ab193d1e9d7204ea5a73065cf587d211eb9f2117ef46c3ed4a850de",
+  "checked_at": "2026-11-06T13:55:11+00:00",
+  "source_head": "74214b96b941a7227c2b87aaa5a919bce409e38c",
+  "source_fingerprint": "945b69211f986c18ef07068a9a2ba576ba645b918ba55386901d77cea00be034",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -255,8 +255,8 @@
     },
     {
       "file": "projects/kotmonavty/project-status.json",
-      "sha256": "8ef0fb96b37bd51a1f21fdeb86e87f5f80aab4fd54e6579f83c5a254633c8e16",
-      "bytes": 17156
+      "sha256": "04277964dee25a57f26980514b27c04f0f792daf78ab8c9e57a83d69931a887f",
+      "bytes": 17155
     },
     {
       "file": "projects/kotmonavty/reports/KM04-WAN30-20261030.json",
