@@ -1453,6 +1453,16 @@
    "thumb_bytes": 77844,
    "src_sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587"
   },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-CLEAN-single.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-CLEAN-single.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 815248,
+   "thumb_bytes": 19108,
+   "src_sha256": "9eb7d1708be2fb65ee414be3488ca92c1c13ab75abf5c79fb911421ab85381b4"
+  },
   "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png.webp",
    "width": 640,
@@ -1562,6 +1572,26 @@
    "src_bytes": 367873,
    "thumb_bytes": 59930,
    "src_sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1359470,
+   "thumb_bytes": 47716,
+   "src_sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-shredder-ingestion-v2.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-shredder-ingestion-v2.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1714826,
+   "thumb_bytes": 70566,
+   "src_sha256": "6b1badf4acb399511159a51e2ee4d888cd1ee4c2c0e8247a92df26aa4ad2e29c"
   },
   "projects/raznoe/references/scenes/scene-4/01-honor-realism.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/01-honor-realism.png.webp",
