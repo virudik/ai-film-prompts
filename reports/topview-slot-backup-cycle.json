@@ -14,8 +14,8 @@
   "lease_commit": "c63bb7c08a4c84db750720233d76e406e667dbfd",
   "started_at": "2026-11-06T15:01:10.876069Z",
   "receipt_started_at": "2026-11-06T15:10:28.897Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "direct_topview_scan_this_cycle": true,
@@ -44,7 +44,21 @@
     "task_map_sha256_independently_verified": true,
     "readiness_checked_at": "2026-11-06T14:30:38.048353Z",
     "readiness_hashes_match": true,
-    "latest_active_recheck_confirmed": false
+    "latest_active_recheck_confirmed": true,
+    "latest_active_recheck_at_or_before": "2026-11-06T15:12:03.250Z",
+    "final_recheck_active_ids": [
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6"
+    ],
+    "sources_unchanged_since_sha_check": {
+      "queue_blob_sha_matches": true,
+      "map_blob_sha_matches": true,
+      "readiness_blob_sha_matches": true
+    }
   },
   "slots": {
     "capacity": 6,
@@ -75,9 +89,9 @@
     "upstream_full_scan": true
   },
   "prior_run_id": "cd346781-4354-8329-b4ec-1b26842b4e12",
-  "updated_at": "2026-11-06T15:10:28.897Z",
-  "completed_at": null,
-  "lease_released_at": null,
+  "updated_at": "2026-11-06T15:12:49.481Z",
+  "completed_at": "2026-11-06T15:12:49.481Z",
+  "lease_released_at": "2026-11-06T15:12:49.481Z",
   "queue_reconciliation": {
     "queue_items": 63,
     "submitted_with_task_id": 15,
@@ -101,5 +115,5 @@
     "preferred_executor": "work",
     "route_generation": 3
   },
-  "lease_release_note": null
+  "lease_release_note": "Fresh read exact holder/acquired_at and generation; own lease release atomically committed with finished receipt; no TinyFish/Topview Create"
 }
