@@ -36,7 +36,15 @@
     "Validate and publish complete updated scenes and assets.",
     "Render and verify plain-language Sasha guide; upload guide and relevant instructions to confirmed folder; read back."
   ],
-  "generated_images": 0,
+  "generated_images": 1,
   "video_submissions": 0,
-  "credits_spent": 0
+  "credits_spent": 0,
+  "created_references": [
+    {
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png",
+      "sha256": "5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67",
+      "qc": "visual_reference_passed_not_approved"
+    }
+  ],
+  "updated_at": "2026-11-06T12:55:03+00:00"
 }

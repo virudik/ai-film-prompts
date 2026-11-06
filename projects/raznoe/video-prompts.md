@@ -2319,6 +2319,12 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 <a id="scene-3"></a>
 ## Сцена 3 — RESOURCE
 
+<!-- resource-mechanical-reference-upgrade:start -->
+<h3 id="scene-3-mechanical-references">Референсы точной механики · доработка 06.11</h3>
+<p>Новые постановочные входы для печати, крепления, захвата и пресса. Это отдельные референсные изображения, не реальные кадры готового видео. Новая редакция входов собирается; художественная приёмка не выполнена.</p>
+<div class="ref-grid"><figure><a href="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png" alt="A06: положение сопла, контакт тонкого экструдированного слоя; изделие не меняется." loading="lazy"></a><figcaption>A06_print-v2 · IMAGE 1 · PROP-print-layer-contact.png · reference-only, not_approved</figcaption></figure></div>
+<!-- resource-mechanical-reference-upgrade:end -->
+
 <!-- scene-meta: {"target_engine":"Grok Imagine Video","production_state":"DRAFT","duration_s":114,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","photoreal","landscape_16x9","reference_first","raznoe_scene_3","source_grok_imagine","native_19_114","references_only"]} -->
 
 **Контекст использования:** отдельный фотореалистичный ролик. Он не продолжает мультфильмы «Тихий маяк» и «Тихая планета» и не относится к Роскосмосу или Терра Тех. Вкладки выше по-прежнему хранят исходник Grok Imagine на 30 секунд, две генерации по 15 секунд. Это не уже снятый ролик Topview и не ролик Wan. Текущая нарезка к запуску — 19 самостоятельных native-клипов на 114 секунды в разделе ниже. Она дополняет ту же сцену, а не заводит новые номера.

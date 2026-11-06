@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T12:50:35+00:00",
-  "source_head": "d0198b9c87479d9165b288b4144894fade101c80",
-  "source_fingerprint": "9edea8b8e9ec4a9407aec91e6394256faa4c7b0f97fe62fae11701cb1de3c677",
+  "checked_at": "2026-11-06T12:55:03+00:00",
+  "source_head": "74d7a1d201097ea88340218ee6de3249814c0b18",
+  "source_fingerprint": "a25e722b351b5b1944c0bc040baa52174dde0ce0d7269d96b1d534d95582965e",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -15,14 +15,18 @@
     "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
     "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
     "status": "in_progress",
-    "last_completed": "Поручение принято; проверены официальный Magic9 Pro Max, папка Саша и жёлтая плашка собственного замка; технический план и руководство готовятся.",
+    "last_completed": "Сохранено 1/4 новых референсов RESOURCE с промптами и визуальным QC; PROP-print-layer-contact.png.",
     "next_action": "Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.",
-    "verified_at": "2026-11-06T12:46:47+00:00",
+    "verified_at": "2026-11-06T12:55:03+00:00",
     "blockers": [],
     "evidence": [
       {
         "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-        "sha256": "9f19658df753f6c79871c12d4cf5326d237a9c4c087094465216f697c1f499a8"
+        "sha256": "147f27664995fc7aae0e29f338d1b64a18cfa729bc3cc061cd26227c7d183539"
+      },
+      {
+        "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
+        "sha256": "8ae57010a86fc285dd8bcaac329e4aad49b09de0b9cc5f4a301f2c41eef028a2"
       }
     ],
     "read_next": [
@@ -31,10 +35,10 @@
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
       "anchor": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше",
-      "sha256": "f95f8fc04bb43a0f1cc27c2c04c37e244a19e5d510601468aa98424601429ae1"
+      "sha256": "5fe4ac09f220797bcfe076cdca9737f564a30923aae172cf566a6d8f39a4328c"
     }
   },
-  "checkpoint_text": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше\n\nwork_id: RAZNOE-RESOURCE-HONOR-SASHA-20261106\n\n- Новое прямое поручение владельца получено; улучшения промтов и недостающие референсы разрешены.\n- Последний флагман HONOR Magic9 Pro Max подтверждён первичными релизами HONOR и ARRI от 28.09.2026; изображения продукта собираются.\n- RESOURCE: выявлена несовместимость жёсткой рамной детали с командами «раскрыть захват»; готовится единая механика без морфа корпуса.\n- Папка Саша найдена, содержит существующие MP4; руководство готовится, существующие файлы и доступ сохраняются.\n- Предупреждение сайта: фактические health/automation/continue зелёные, жёлтая плашка показывает действующий общий замок.\n- Предыдущий этап опубликован bd80507f9 и проверен по HTTPS; новая работа не объявлена завершённой.\n\nСледующий шаг: Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.\n\nchecked_at: 2026-11-06T12:46:46+00:00\n",
+  "checkpoint_text": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше\n\nwork_id: RAZNOE-RESOURCE-HONOR-SASHA-20261106\n\n- Референсы RESOURCE: 1/4 сохранены с промптами, SHA и визуальным QC; последний PROP-print-layer-contact.png. Новые ролики не запускались.\n- Новое прямое поручение владельца получено; улучшения промтов и недостающие референсы разрешены.\n- Последний флагман HONOR Magic9 Pro Max подтверждён первичными релизами HONOR и ARRI от 28.09.2026; изображения продукта собираются.\n- RESOURCE: выявлена несовместимость жёсткой рамной детали с командами «раскрыть захват»; готовится единая механика без морфа корпуса.\n- Папка Саша найдена, содержит существующие MP4; руководство готовится, существующие файлы и доступ сохраняются.\n- Предупреждение сайта: фактические health/automation/continue зелёные, жёлтая плашка показывает действующий общий замок.\n- Предыдущий этап опубликован bd80507f9 и проверен по HTTPS; новая работа не объявлена завершённой.\n\nСледующий шаг: Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.\n\nchecked_at: 2026-11-06T12:46:46+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -225,13 +229,18 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "996edb54bbdd7dbeaaf366c0e1d1212c7e54c34eec712bc04fb0526b2aad480c",
-      "bytes": 9521
+      "sha256": "b44d61dc060019dd21834e5d13ab35f31da3e8327ed518e9d2b12194a8e5ad5c",
+      "bytes": 9519
+    },
+    {
+      "file": "projects/raznoe/references/scenes/scene-3/expansion/improvement-reference-manifest.json",
+      "sha256": "8ae57010a86fc285dd8bcaac329e4aad49b09de0b9cc5f4a301f2c41eef028a2",
+      "bytes": 1673
     },
     {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "702779d95e739afeb8903b3cc79045120db4989614e4cacd3c0fcfc1fce9667f",
-      "bytes": 37830
+      "sha256": "608eac38e3695cbdc306a991923e75ee9e784141f612bb0f6fac15a751666e41",
+      "bytes": 38041
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -240,18 +249,18 @@
     },
     {
       "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
-      "sha256": "9f19658df753f6c79871c12d4cf5326d237a9c4c087094465216f697c1f499a8",
-      "bytes": 2598
+      "sha256": "147f27664995fc7aae0e29f338d1b64a18cfa729bc3cc061cd26227c7d183539",
+      "bytes": 2926
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "b3073bbd40ab438f066db430041651b94dac99b84e090e440f0ae734c1171f1e",
-      "bytes": 593116
+      "sha256": "4965d040d1e5cdd0fefbfec6e4bd8b30ff815990fef5313acac78b5f87a5f745",
+      "bytes": 594298
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "d2c4419a1d19d0fb75e557d7864d46bb468fa359d22cb3b2720612e208f48a42",
-      "bytes": 18110
+      "sha256": "e899c88eb7b12f4e5007e0987a41fee15e01fc5e95f011076ea8ce5bd454ec3e",
+      "bytes": 18222
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -269,5 +278,5 @@
       "bytes": 1353640
     }
   ],
-  "packet_bytes": 6616
+  "packet_bytes": 6714
 }

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene": 3,
+  "purpose": "Author-requested mechanical continuity improvements",
+  "expected_image_count": 4,
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "PROP-print-layer-contact",
+      "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png",
+      "sha256": "5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67",
+      "width": 1672,
+      "height": 941,
+      "prompt_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.prompt.txt",
+      "source": "ChatGPT built-in imagegen",
+      "role": "A06: положение сопла, контакт тонкого экструдированного слоя; изделие не меняется.",
+      "editorial_status": "not_approved",
+      "qc": {
+        "visual_reference_check": "passed",
+        "checked_at": "2026-11-06T12:55:03+00:00",
+        "criteria": [
+          "Ровно та же рама и отверстия продукта",
+          "Сопло близко к поверхности и слой непосредственно контактирует",
+          "Нет сосульки, комка, стружки, сверления",
+          "Один одиночный кадр 16:9 без текста"
+        ],
+        "motion_audio_qc": false
+      },
+      "input_slot": {
+        "clip": "A06_print-v2",
+        "slot": "IMAGE 1"
+      },
+      "real_video_frame": false
+    }
+  ],
+  "updated_at": "2026-11-06T12:55:03+00:00",
+  "generated_image_count": 1,
+  "status": "reference_images_in_progress"
+}
