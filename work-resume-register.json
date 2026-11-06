@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-06T11:36:56+00:00",
+  "last_updated_at": "2026-11-06T12:14:12+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-06T11:36:56+00:00",
+      "updated_at": "2026-11-06T12:14:12+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -24,7 +24,7 @@
         "20:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Phase A healthy with actual Actions jobs successful. Phase B resolved one historical launcher-idle alert by subsequent ordinary/current Work runtime evidence and the live 6/6 scan; no repair, rerun, mail mutation, Create or credits.",
         "21:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next ready S64-WAN30. Ordinary actual run/latest result/receipt matched. Owner tasks open 0. No Create/retry/credits; phases A/B/C not due. Fresh canon-health status ok/warnings0/info10."
       ],
-      "next_action": "При6/6 готовить существующие реальные стыки: закончить непрерывный просмотр S52-R2-P1→P2 со звуком, затем подготовить S60-P2/S61-P2 из проверенных архивных оригиналов. При настоящем свободном слоте — fresh main/owner decisions, полный all-board scan, claims/task IDs, первая фактически готовая разрешённая сцена по priority (сейчас S49B1.21), собственная lease/CAS и UI Unlimited0. Сохранённые submittedIDs не повторять; S59-P3/S62-P2 ждут решений по QC.",
+      "next_action": "Сохранить проверенные материалы S60/S61 из предыдущего Work; затем закрыть доступные задачи linked-chat: параллельные инструкции/план, кнопка и HTTPS, технические правки HONOR/RESOURCE. Keep продолжить после защищённого входа Google. При свободном слоте — свежий полный preflight, первая готовая разрешённая сцена по priority; submitted/unknown не повторять.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -319,24 +319,23 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T11:36:56+00:00",
-        "last_completed": "Принята Work-смена epoch4;6/6 и15submittedIDs подтверждены; HH:55 восстановлен, Relay refreshed,3prompts точно перечитаны, оба маршрута робота сохранены.",
-        "next_action": "При6/6 готовить существующие реальные стыки: закончить непрерывный просмотр S52-R2-P1→P2 со звуком, затем подготовить S60-P2/S61-P2 из проверенных архивных оригиналов. При настоящем свободном слоте — fresh main/owner decisions, полный all-board scan, claims/task IDs, первая фактически готовая разрешённая сцена по priority (сейчас S49B1.21), собственная lease/CAS и UI Unlimited0. Сохранённые submittedIDs не повторять; S59-P3/S62-P2 ждут решений по QC.",
+        "verified_at": "2026-11-06T12:14:12+00:00",
+        "last_completed": "Прочитан linked-chat, повторно проверены14досок/630видео/6слотов и15submitted; фактический HH:55 после включения подтверждён, подготовлен план восстановления несохранённых стыков.",
+        "next_action": "Сохранить проверенные материалы S60/S61 из предыдущего Work; затем закрыть доступные задачи linked-chat: параллельные инструкции/план, кнопка и HTTPS, технические правки HONOR/RESOURCE. Keep продолжить после защищённого входа Google. При свободном слоте — свежий полный preflight, первая готовая разрешённая сцена по priority; submitted/unknown не повторять.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 06.11.2026 — приём Work, сверка доставки робота и восстановление продолжения",
-          "sha256": "4e4ba9b48b3263486870aa0707c0a2bb2975dc5de9644fa65a6ec508aa787ac6"
+          "anchor": "# 06.11.2026 — продолжение связанного Work-чата и сохранение стыков",
+          "sha256": "fd275c6ce312b21a16538dec0c109997247144c668eb778c0470ba3e0418bde5"
         },
         "evidence": [
           {
-            "file": "reports/work-continue-2026-11-06.json",
-            "sha256": "c28a35d8aa22b448f9d6208c941f9ef195e4e141e313e678c872e012e33a5d6d"
+            "file": "reports/work-continue-linked-chat-2026-11-06.json",
+            "sha256": "48c3614140a2288ded99eb4d8ea5ddaf07ea8407abacce4036ad69a7b8c58d10"
           }
         ],
         "read_next": [
           "ops/LAUNCHER-COORDINATION.md",
-          "ops/TOPVIEW-EVENT-WAKE.md",
-          "ops/topview-launch-queue.json"
+          "ops/TOPVIEW-FREE-LAUNCH.md"
         ],
         "blockers": []
       },

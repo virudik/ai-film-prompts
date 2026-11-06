@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "owner_request": "Продолжай после доделай задания этого чата",
+  "source_share_url": "https://chatgpt.com/share/6aedc24c-72f0-83eb-8fa5-53786fdf6366",
+  "source_head": "05c498a88fa943215c7d0c9c7a71830ca3c8b60a",
+  "started_at": "2026-11-06T12:14:12+00:00",
+  "execution_instance_id": "52421d0d-989e-479c-9fea-2a3fc9ce8f71",
+  "phase": "started",
+  "scan": {
+    "started_at": "2026-11-06T12:12:53.177Z",
+    "checked_at": "2026-11-06T12:13:20.122Z",
+    "complete": true,
+    "board_count": 14,
+    "page_count": 18,
+    "video_tasks": 630,
+    "occupied": 6,
+    "free": 0,
+    "creates": 0,
+    "new_claims": 0,
+    "pages": [
+      {
+        "board_id": "3db83056ccef4361a9563a4f77afa1d5",
+        "page": 1,
+        "total": 0,
+        "received": 0
+      },
+      {
+        "board_id": "6b246f75715f43be945f17b06bff9d88",
+        "page": 1,
+        "total": 16,
+        "received": 16
+      },
+      {
+        "board_id": "c934cec563ea45e1b37d12657821ebd5",
+        "page": 1,
+        "total": 0,
+        "received": 0
+      },
+      {
+        "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+        "page": 1,
+        "total": 0,
+        "received": 0
+      },
+      {
+        "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+        "page": 1,
+        "total": 11,
+        "received": 11
+      },
+      {
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+        "page": 1,
+        "total": 4,
+        "received": 4
+      },
+      {
+        "board_id": "db4b4d6d0abc4cb4b278ea80738639f2",
+        "page": 1,
+        "total": 32,
+        "received": 32
+      },
+      {
+        "board_id": "24a69085fab4497b9c1a52536252b63d",
+        "page": 1,
+        "total": 5,
+        "received": 5
+      },
+      {
+        "board_id": "0aafc553d8a049d2bc21221511293830",
+        "page": 1,
+        "total": 0,
+        "received": 0
+      },
+      {
+        "board_id": "9f8ec3c1d7294675bfb87fa75577dec2",
+        "page": 1,
+        "total": 35,
+        "received": 35
+      },
+      {
+        "board_id": "29d5b28f0e744b9eb6bfbee47efb6ff9",
+        "page": 1,
+        "total": 8,
+        "received": 8
+      },
+      {
+        "board_id": "dde2634b5fb54e789bb22dd4c95a75b6",
+        "page": 1,
+        "total": 22,
+        "received": 22
+      },
+      {
+        "board_id": "caa5d8898f14442ea37c3278d156b3fe",
+        "page": 1,
+        "total": 34,
+        "received": 34
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 1,
+        "total": 463,
+        "received": 100
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 2,
+        "total": 463,
+        "received": 100
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 3,
+        "total": 463,
+        "received": 100
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 4,
+        "total": 463,
+        "received": 100
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 5,
+        "total": 463,
+        "received": 63
+      }
+    ],
+    "submitted_reconciliation": [
+      {
+        "item_id": "S49A",
+        "task_id": "101221814fd5430697f697f95a3f4252",
+        "found": true,
+        "status": "init"
+      },
+      {
+        "item_id": "S28-A1-TEST-20261017",
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S42-SEED20-P2",
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "found": true,
+        "status": "init"
+      },
+      {
+        "item_id": "S56-SEED20-P1",
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S56-SEED20-P2",
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "found": true,
+        "status": "init"
+      },
+      {
+        "item_id": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S60-SEED20-P1",
+        "task_id": "025955aad2cf494da2b4104d26c36ed5",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S62-SEED20-P1",
+        "task_id": "0de1f663432646d294f409a22e20a26e",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S63-WAN30",
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "found": true,
+        "status": "init"
+      },
+      {
+        "item_id": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S64-WAN30",
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+        "found": true,
+        "status": "init"
+      },
+      {
+        "item_id": "S72-WAN30",
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "found": true,
+        "status": "success"
+      },
+      {
+        "item_id": "S71-WAN30",
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+        "found": true,
+        "status": "init"
+      }
+    ],
+    "unresolved_claims": []
+  },
+  "monitor": {
+    "action": "skip",
+    "primary": "robot",
+    "telemetry_written": false
+  },
+  "automation_followup": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "enabled": true,
+    "actual_run_id": "5875bfa9-b3b0-8331-bd52-de06190abfa5",
+    "scheduled_for": "2026-11-06T11:55:00Z",
+    "completed_at": "2026-11-06T12:01:00.437163Z",
+    "result": "complete_readonly_scan_6_of_6; blocked_lock/receipt_not_saved",
+    "disable_reason": "unknown; prior snapshot only proves disabled and latest_result_requires_user_action=true; no actor/cause audit available"
+  },
+  "plan": [
+    "Сохранить проверенные несохранённые S60/S61 provenance/PNG/manifests, сохранив QC gate.",
+    "Закрепить параллельный порядок Keep/промты.рудик.рф/рудик.рф в одном authority разделе и хендофе.",
+    "Проверить HTTPS и поднять кнопку праздника в rudik-site.",
+    "Исправить подтверждённые технические рассогласования пакетов HONOR/RESOURCE, не менять сюжет/approval/пустую очередь.",
+    "Сверить FUTURE-PLANS и сохранить место продолжения Keep."
+  ],
+  "keep": {
+    "status": "blocked_google_sign_in",
+    "new_notes_read": 0,
+    "new_notes_changed": 0,
+    "checkpoint_library_id": "libfile_2e9a039a97488191b088e7d342b51e2a",
+    "checkpoint_version": 44
+  }
+}

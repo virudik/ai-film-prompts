@@ -4,6 +4,163 @@
   "receipts": [
     {
       "schema_version": 1,
+      "project": "seregius",
+      "receipt_id": "work-52421d0d-989e-479c-9fea-2a3fc9ce8f71",
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "source_head": "05c498a88fa943215c7d0c9c7a71830ca3c8b60a",
+      "chat": {
+        "agent": "chatgpt:work:52421d0d-989e-479c-9fea-2a3fc9ce8f71",
+        "label": "ChatGPT Work — продолжение Разбор заметок Work",
+        "session_id": "work-continue-52421d0d-989e-479c-9fea-2a3fc9ce8f71",
+        "chat_id": null,
+        "identity_status": "unavailable"
+      },
+      "started_at": "2026-11-06T12:14:12+00:00",
+      "accepted_at": "2026-11-06T12:14:12+00:00",
+      "checks": [
+        {
+          "id": "fresh_main",
+          "result": "passed",
+          "evidence": "05c498a88fa943215c7d0c9c7a71830ca3c8b60a"
+        },
+        {
+          "id": "instructions",
+          "result": "passed",
+          "evidence": "short D7 valid15/15; task-specific coordination/canon lock/continue; full instruction read delegated before rule edit"
+        },
+        {
+          "id": "checkpoint",
+          "result": "passed",
+          "evidence": "shadow/current-checkpoint + resume-packet + work-resume-register selected work verified"
+        },
+        {
+          "id": "owner_inbox",
+          "result": "passed",
+          "evidence": "ops/owner-tasks.json read; open/taken0"
+        },
+        {
+          "id": "owner_decisions",
+          "result": "passed",
+          "evidence": "Supabase live query; pending/in_progress0; historical needs_owner Grok retained"
+        },
+        {
+          "id": "capabilities",
+          "result": "passed",
+          "evidence": "GitHub connector lock write/readback; Topview read-only all-board scan; CUA share read. Keep Google login blocked only Keep phase."
+        },
+        {
+          "id": "project_lock",
+          "result": "passed",
+          "evidence": "own exact holder chatgpt:work:52421d0d-989e-479c-9fea-2a3fc9ce8f71"
+        }
+      ],
+      "outcome": "accepted",
+      "first_action": {
+        "at": "2026-11-06T12:14:12+00:00",
+        "description": "Completed full read-only Topview scan and reconciled15submitted IDs",
+        "state": "completed",
+        "evidence": "reports/work-continue-linked-chat-2026-11-06.json"
+      },
+      "request_sha256": "4ed0468dd5b22e98bebc02473a6fb6b879db54a9838de9929c48846c51866189",
+      "checked_sources": [
+        {
+          "file": "AI-PROJECT-GUIDE.md",
+          "sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
+          "bytes": 39789
+        },
+        {
+          "file": "BACKUP-AI-RUNBOOK.md",
+          "sha256": "6b0a0ba95d23937c71d072fa96e278a6485a27391245834f32e05be9572812ac",
+          "bytes": 21763
+        },
+        {
+          "file": "NEW-CHAT-HANDOFF.md",
+          "sha256": "78038ceabd84d421f6e8700b74b04a6bbe6e127576f00ca8852364b9d6405a08",
+          "bytes": 35347
+        },
+        {
+          "file": "PROMPT-STYLE-GUIDE.md",
+          "sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+          "bytes": 81982
+        },
+        {
+          "file": "README-AI-SYNC.md",
+          "sha256": "164f1faf3fc2ffe8873176b36bc38d2e801c9a72782ca8582ad158ab42858ea6",
+          "bytes": 18336
+        },
+        {
+          "file": "SYNC-RUNBOOK.md",
+          "sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
+          "bytes": 130798
+        },
+        {
+          "file": "USER-GUIDE.md",
+          "sha256": "b115d684906c9cb5003d6493958af67d233d1d2cb5e216c8c7ed65d1e844053c",
+          "bytes": 84087
+        },
+        {
+          "file": "instruction-sync-status.json",
+          "sha256": "e1f66407e61d910d95eb286d1e3cd46ca1932e13fdcd9d4762ca75859bb48eca",
+          "bytes": 5135
+        },
+        {
+          "file": "monitor-role.json",
+          "sha256": "47c21b6d9470726545b00fa27d3077fc1d88f5cb3863e94a73237767ed5aafa1",
+          "bytes": 4486
+        },
+        {
+          "file": "ops/CONTINUE-PROTOCOL.md",
+          "sha256": "ae83542630c437e181de1d61aa4217c59aa99a865dcb5c429365f7af0960e2e9",
+          "bytes": 42588
+        },
+        {
+          "file": "ops/topview-launch-queue.json",
+          "sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+          "bytes": 366865
+        },
+        {
+          "file": "project-status.json",
+          "sha256": "09e46e093365c0aa52081f0a5ac7e1a1ee208a774d60692fc22ff97be0aafc98",
+          "bytes": 22503
+        },
+        {
+          "file": "reports/current-work-checkpoint.md",
+          "sha256": "e55591ec1220350252da080e0a1ddcbd83708dc8943b9225ebafca24a74af599",
+          "bytes": 25954
+        },
+        {
+          "file": "reports/work-continue-linked-chat-2026-11-06.json",
+          "sha256": "48c3614140a2288ded99eb4d8ea5ddaf07ea8407abacce4036ad69a7b8c58d10",
+          "bytes": 7156
+        },
+        {
+          "file": "shadow/current-checkpoint.md",
+          "sha256": "fded01a767fedcd8ecbb53fc97913e587e11b34f6f13020c57063dce9a02c8cc",
+          "bytes": 35148
+        },
+        {
+          "file": "shadow/takeover-brief.json",
+          "sha256": "0b3daaa8265265c7dbcbd2c1ff6dade977c8607bd2ffe72bbd78eda7e6c97364",
+          "bytes": 25158
+        },
+        {
+          "file": "video-prompts.md",
+          "sha256": "8ad272ade568b6cd13f946a61bf5d0bfcfb12259fcdb34620207c757020facf9",
+          "bytes": 1353640
+        },
+        {
+          "file": "work-resume-register.json",
+          "sha256": "fd866a557ac16af98b9ece2cc35544a84bdb3766ba36bccd7b1d7c45eac695f0",
+          "bytes": 98661
+        }
+      ],
+      "source_fingerprint": "b942156d14b5683da7da5e1cbb1fda70234af854daa782d1e3ddf6a6778d6c3d",
+      "recorded_at": "2026-11-06T12:14:12+00:00",
+      "source_scope": "Checkout HEAD plus source bytes in the same canonical transaction",
+      "execution_authorized": false
+    },
+    {
+      "schema_version": 1,
       "receipt_id": "continue-work-20261106-bd1397c6",
       "project": "seregius",
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
