@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T23:22:31.873Z",
+  "updated_at": "2026-11-06T05:55:16.981Z",
   "status": "relay_production_enabled",
   "event_automation_id": "6adc585e7ac08191bb93825117dc7213",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -964,14 +964,14 @@
       "issue_number": 372,
       "message_id": "244335152700542976",
       "relay_event_id": "evt_dce5b2907b900817d1731adfebc38eb0",
-      "checked_at": "2026-11-06T05:54:02.023Z",
-      "outcome": "started",
-      "reason": "All boards/pages scanned: 6 active videos. S72 result success; existing S49A init, Unlimited=true credits=0. No Create.",
+      "checked_at": "2026-11-06T05:55:16.981Z",
+      "outcome": "no_update",
+      "reason": "Fresh complete 14-board/20-page scan found 6/6 active videos. Result task S72 succeeded; Grok already submitted S49A task 101221814fd5430697f697f95a3f4252 (init, Unlimited0). All 15 submitted IDs reconciled. No claim or Create in this execution.",
       "task_ids": [
         "22dbd25cdd9f47cd9e44300e55f5e44f",
         "101221814fd5430697f697f95a3f4252"
       ],
-      "retryable": true,
+      "retryable": false,
       "source": "Agent Relay webhook",
       "runner": "chatgpt_event_trigger",
       "execution_instance_id": "98d70903-c10c-4328-a8c9-1fbfa957f21a",
@@ -979,10 +979,11 @@
       "run_id": null,
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
-        "state": "intake",
-        "stage": "scan_complete",
+        "state": "finished",
+        "stage": "finished",
         "started_at": "2026-11-06T05:54:02.023Z",
-        "updated_at": "2026-11-06T05:54:56.553Z"
+        "updated_at": "2026-11-06T05:55:16.981Z",
+        "finished_at": "2026-11-06T05:55:16.981Z"
       },
       "new_submissions": 0,
       "scan": {
@@ -1000,7 +1001,100 @@
         ]
       },
       "occupied_slots": 6,
-      "free_slots": 0
+      "free_slots": 0,
+      "queue_reconciliation": [
+        {
+          "id": "S49A",
+          "state": "submitted",
+          "task_id": "101221814fd5430697f697f95a3f4252",
+          "live_status": "init"
+        },
+        {
+          "id": "S28-A1-TEST-20261017",
+          "state": "submitted",
+          "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+          "live_status": "success"
+        },
+        {
+          "id": "S42-SEED20-P2",
+          "state": "submitted",
+          "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+          "live_status": "success"
+        },
+        {
+          "id": "S48-SEED20-P2",
+          "state": "submitted",
+          "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+          "live_status": "init"
+        },
+        {
+          "id": "S56-SEED20-P1",
+          "state": "submitted",
+          "task_id": "b15165813c0848939edbe8b3d3aed182",
+          "live_status": "success"
+        },
+        {
+          "id": "S56-SEED20-P2",
+          "state": "submitted",
+          "task_id": "be960f5e3bf54563aff663fed9da8906",
+          "live_status": "init"
+        },
+        {
+          "id": "S59-SEED20-P2",
+          "state": "submitted",
+          "task_id": "b0915b04173c414e9ac08652d34b7852",
+          "live_status": "success"
+        },
+        {
+          "id": "S60-SEED20-P1",
+          "state": "submitted",
+          "task_id": "025955aad2cf494da2b4104d26c36ed5",
+          "live_status": "success"
+        },
+        {
+          "id": "S61-SEED20-P1",
+          "state": "submitted",
+          "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+          "live_status": "success"
+        },
+        {
+          "id": "S62-SEED20-P1",
+          "state": "submitted",
+          "task_id": "0de1f663432646d294f409a22e20a26e",
+          "live_status": "success"
+        },
+        {
+          "id": "S63-WAN30",
+          "state": "submitted",
+          "task_id": "365cf639589a4a5da834d70193d5e8f6",
+          "live_status": "init"
+        },
+        {
+          "id": "S52-R2-SEED20-P1",
+          "state": "submitted",
+          "task_id": "c65c30d8cbe14e9eadec886276e62471",
+          "live_status": "success"
+        },
+        {
+          "id": "S64-WAN30",
+          "state": "submitted",
+          "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+          "live_status": "init"
+        },
+        {
+          "id": "S72-WAN30",
+          "state": "submitted",
+          "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+          "live_status": "success"
+        },
+        {
+          "id": "S71-WAN30",
+          "state": "submitted",
+          "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+          "live_status": "init"
+        }
+      ],
+      "next_action": "Monitor existing task IDs; next real wake/hourly cycle rescans all slots. Do not repeat S49A."
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",

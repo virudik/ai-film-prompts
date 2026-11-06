@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-05T18:56:51.876Z",
+  "last_updated_at": "2026-11-06T05:55:16.981Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-05T18:56:51.876Z",
+      "updated_at": "2026-11-06T05:55:16.981Z",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -24,7 +24,7 @@
         "20:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Phase A healthy with actual Actions jobs successful. Phase B resolved one historical launcher-idle alert by subsequent ordinary/current Work runtime evidence and the live 6/6 scan; no repair, rerun, mail mutation, Create or credits.",
         "21:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next ready S64-WAN30. Ordinary actual run/latest result/receipt matched. Owner tasks open 0. No Create/retry/credits; phases A/B/C not due. Fresh canon-health status ok/warnings0/info10."
       ],
-      "next_action": "При следующем подтверждённом освобождении слота: fresh main, решения владельца, полный all-board scan и сверка claims/task IDs; первая независимая готовая S64-WAN30 (0.9) под собственной lease/CAS и видимым Unlimited0. S63 уже submitted с task 365cf639589a4a5da834d70193d5e8f6 — не повторять. S52-P2 требует непрерывной проверки видео со звуком; S59-P3 и S62-P2 ждут решения по стыку.",
+      "next_action": "Monitor six existing active tasks; next wake/hourly performs fresh full scan. S49A already submitted; no duplicate Create.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -129,12 +129,141 @@
         "unknown_submissions": 0
       },
       "last_relay_event": {
-        "event_id": "result:0de1f663432646d294f409a22e20a26e",
-        "coalesced_event_id": "slots:92dc9e3a:8",
-        "checked_at": "2026-11-03T15:16:24.982Z",
-        "outcome": "submitted",
-        "receipt": "reports/topview-queue-2026-10-16/S56-SEED20-P2-20261103T151423Z.json",
-        "summary": "S56-P2 sent once, Seedance2.0 15s 720p Unlimited0; all14 boards scanned, 6/6 active."
+        "event_id": "result:22dbd25cdd9f47cd9e44300e55f5e44f",
+        "issue_number": 372,
+        "message_id": "244335152700542976",
+        "relay_event_id": "evt_dce5b2907b900817d1731adfebc38eb0",
+        "checked_at": "2026-11-06T05:55:16.981Z",
+        "outcome": "no_update",
+        "reason": "Fresh complete 14-board/20-page scan found 6/6 active videos. Result task S72 succeeded; Grok already submitted S49A task 101221814fd5430697f697f95a3f4252 (init, Unlimited0). All 15 submitted IDs reconciled. No claim or Create in this execution.",
+        "task_ids": [
+          "22dbd25cdd9f47cd9e44300e55f5e44f",
+          "101221814fd5430697f697f95a3f4252"
+        ],
+        "retryable": false,
+        "source": "Agent Relay webhook",
+        "runner": "chatgpt_event_trigger",
+        "execution_instance_id": "98d70903-c10c-4328-a8c9-1fbfa957f21a",
+        "route_generation": 3,
+        "run_id": null,
+        "run_id_reason": "Runtime run_id not exposed",
+        "execution": {
+          "state": "finished",
+          "stage": "finished",
+          "started_at": "2026-11-06T05:54:02.023Z",
+          "updated_at": "2026-11-06T05:55:16.981Z",
+          "finished_at": "2026-11-06T05:55:16.981Z"
+        },
+        "new_submissions": 0,
+        "scan": {
+          "complete": true,
+          "boards": 14,
+          "pages": 20,
+          "tasks": 1014,
+          "active_task_ids": [
+            "101221814fd5430697f697f95a3f4252",
+            "3ebe7c23db05479e9b6f762a75b832e7",
+            "365cf639589a4a5da834d70193d5e8f6",
+            "be960f5e3bf54563aff663fed9da8906",
+            "de8e44bb15d64dc7a4eb640d27a726e4",
+            "431180d384cc43bebe7afc702e4eb4e6"
+          ]
+        },
+        "occupied_slots": 6,
+        "free_slots": 0,
+        "queue_reconciliation": [
+          {
+            "id": "S49A",
+            "state": "submitted",
+            "task_id": "101221814fd5430697f697f95a3f4252",
+            "live_status": "init"
+          },
+          {
+            "id": "S28-A1-TEST-20261017",
+            "state": "submitted",
+            "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+            "live_status": "success"
+          },
+          {
+            "id": "S42-SEED20-P2",
+            "state": "submitted",
+            "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+            "live_status": "success"
+          },
+          {
+            "id": "S48-SEED20-P2",
+            "state": "submitted",
+            "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+            "live_status": "init"
+          },
+          {
+            "id": "S56-SEED20-P1",
+            "state": "submitted",
+            "task_id": "b15165813c0848939edbe8b3d3aed182",
+            "live_status": "success"
+          },
+          {
+            "id": "S56-SEED20-P2",
+            "state": "submitted",
+            "task_id": "be960f5e3bf54563aff663fed9da8906",
+            "live_status": "init"
+          },
+          {
+            "id": "S59-SEED20-P2",
+            "state": "submitted",
+            "task_id": "b0915b04173c414e9ac08652d34b7852",
+            "live_status": "success"
+          },
+          {
+            "id": "S60-SEED20-P1",
+            "state": "submitted",
+            "task_id": "025955aad2cf494da2b4104d26c36ed5",
+            "live_status": "success"
+          },
+          {
+            "id": "S61-SEED20-P1",
+            "state": "submitted",
+            "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+            "live_status": "success"
+          },
+          {
+            "id": "S62-SEED20-P1",
+            "state": "submitted",
+            "task_id": "0de1f663432646d294f409a22e20a26e",
+            "live_status": "success"
+          },
+          {
+            "id": "S63-WAN30",
+            "state": "submitted",
+            "task_id": "365cf639589a4a5da834d70193d5e8f6",
+            "live_status": "init"
+          },
+          {
+            "id": "S52-R2-SEED20-P1",
+            "state": "submitted",
+            "task_id": "c65c30d8cbe14e9eadec886276e62471",
+            "live_status": "success"
+          },
+          {
+            "id": "S64-WAN30",
+            "state": "submitted",
+            "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+            "live_status": "init"
+          },
+          {
+            "id": "S72-WAN30",
+            "state": "submitted",
+            "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+            "live_status": "success"
+          },
+          {
+            "id": "S71-WAN30",
+            "state": "submitted",
+            "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+            "live_status": "init"
+          }
+        ],
+        "next_action": "Monitor existing task IDs; next real wake/hourly cycle rescans all slots. Do not repeat S49A."
       },
       "last_observed_topview": {
         "checked_at": "2026-11-02T14:03:00.316Z",
@@ -262,7 +391,7 @@
           "preflight": "Full fresh all-board reconciliation first. If matching S62 task is found, adopt it and do not create duplicate. Otherwise one explicitly owner-authorized attempt with exact prompt/refs and Unlimited0 at verified free slot. New CAS claim required; consume allowance before Create; timeout consumes it and returns to submission_unknown."
         }
       },
-      "current_blocker": null,
+      "current_blocker": "All 6 physical video slots occupied (fresh full scan).",
       "retry_policy": "ops/TOPVIEW-RETRY.md",
       "retry_policy_receipt": "reports/topview-retry-policy-2026-10-30.json",
       "last_continuation_preflight_report": "reports/ordinary-launcher-recovery-2026-11-01.json",

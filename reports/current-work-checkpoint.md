@@ -1,3 +1,7 @@
+<!-- relay-current-start -->
+Текущий Relay: 2026-11-06T05:55:16.981Z, issue #372, result:22dbd25cdd9f47cd9e44300e55f5e44f; no_update. Полный скан 14 досок / 20 страниц / 1014 задач: 6/6 видео-слотов заняты. S72 success, S49A 101221814fd5430697f697f95a3f4252 init/Unlimited0; 15 submitted IDs сверены. Новых Create/claim: 0. Следующий шаг: наблюдать существующие задачи, повторить полный скан при следующем wake/hourly.
+<!-- relay-current-end -->
+
 # 05.11.2026 — цикл 20:55 МСК: Topview 6/6; фазы A/B выполнены
 
 work_id: TOPVIEW-SLOT-PRIORITY-20261024
