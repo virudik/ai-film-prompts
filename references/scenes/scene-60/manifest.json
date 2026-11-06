@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 60,
-  "updated_at": "2026-10-23T18:26:35.912877Z",
-  "status": "first_part_inputs_ready_second_part_waits_own_result",
+  "updated_at": "2026-11-06T11:43:53+00:00",
+  "status": "first_part_inputs_ready_second_part_pending_continuity_qc",
   "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
   "references": [
     {
@@ -201,7 +201,20 @@
     "source_item_id": "S60-SEED20-P1",
     "status": "required_not_available",
     "required": true,
-    "qc": "Actual final3s of ownP1 only; save private video, SHA256, frame and continuity review before launch."
+    "qc": "Real tail and final frame saved with source task ID and verified SHA; required launch input remains unavailable until continuous visual/audio QC passes.",
+    "prepared_candidate": "references/scenes/scene-60/S60-P1-continuity.json",
+    "preparation_status": "prepared_pending_visual_audio_qc"
   },
-  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof."
+  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof.",
+  "actual_s60_p1_continuity": {
+    "source_item_id": "S60-SEED20-P1",
+    "source_task_id": "025955aad2cf494da2b4104d26c36ed5",
+    "derivative_sha256": "25ef02d81397dfa7a4b384349ebff97cc710debb62227de2f7de4956322d2ea4",
+    "drive_file_id": "1eUg-GTBHYtFhIMGqUp2jdTsbNUjTCS1a",
+    "final_frame_path": "references/scenes/scene-60/S60-P1-final-frame.png",
+    "final_frame_sha256": "ddf2d57455ae30a25ae5448942162b04239403a7406dd8138ac2626e61bc2806",
+    "qc_report": "references/scenes/scene-60/S60-P1-continuity.json",
+    "qc_status": "pending_visual_audio_qc",
+    "launch_ready": false
+  }
 }

@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene_id": 3,
+  "title": "RESOURCE — активная native-нарезка",
+  "source_head": "05c498a88fa943215c7d0c9c7a71830ca3c8b60a",
+  "production_state": "DRAFT",
+  "editorial_status": "not_approved",
+  "execution_authorized": false,
+  "clip_count": 19,
+  "total_duration_s": 114,
+  "baseline": {
+    "path": "projects/raznoe/references/scenes/scene-3/expansion/manifest.json",
+    "sha256": "88c3f7d7b03c79825d1628c5055f6b81f652b9b2f46b61a2e1bb2d3502812ea6",
+    "clip_count": 19,
+    "total_duration_s": 116,
+    "role": "Исторический пакет до восьми точечных подстановок; не список активных входов."
+  },
+  "duration_changes": [
+    {
+      "clip_id": "A04_shred",
+      "previous_duration_s": 8,
+      "active_duration_s": 7
+    },
+    {
+      "clip_id": "C06_cycle",
+      "previous_duration_s": 6,
+      "active_duration_s": 5
+    }
+  ],
+  "notes": [
+    "Эта карта описывает опубликованные в master входы, не разрешает запуск и не подтверждает качество будущего видео.",
+    "Предыдущие промты, requests, baseline manifest и QA сохранены без изменений.",
+    "Request JSON — шаблоны исходной среды, не квитанции фактической отправки. Абсолютные reference_image_paths необходимо разрешить в текущей среде по указанным каноническим файлам и SHA перед применением.",
+    "Режим reference-only сохраняется. Монтажная зависимость не означает first/last-frame pin или обязательный видеовход."
+  ],
+  "clips": [
+    {
+      "clip_id": "A01_drop",
+      "active_version": "A01_drop",
+      "duration_s": 7,
+      "aspect_ratio": "16:9",
+      "depends_on": [],
+      "semantic_start": "Инженер у верстака с чертежом; пустая clear PET с синей крышкой на столе",
+      "semantic_end": "Та же бутылка с синей крышкой лежит внутри обычного тёмного бака; дроп завершён",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A01_drop.txt",
+      "prompt_sha256": "68cfad48fcec6605dfc3b73f75e8b083b5e1b187cfe5b362f39a5382711fb9a7",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A01_drop.json",
+      "request_template_sha256": "d2d87104230ec17769e6b8046f3b39e04be151e828417917e4a5d8542c7cc1b1",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png",
+          "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+          "role": "PRIMARY identity sheet only",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png",
+          "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+          "role": "workshop/drawing environment; ignore non-blue-cap bottle if present",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png",
+          "sha256": "371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01",
+          "role": "dark bin + clear blue-cap PET drop language",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "A02_retrieve",
+      "active_version": "A02_retrieve",
+      "duration_s": 8,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "A01_drop"
+      ],
+      "semantic_start": "Та же бутылка уже внутри тёмного бака; инженер у верстака",
+      "semantic_end": "Извлечение завершено: та же бутылка в его руке вне бака (ещё не у синего)",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A02_retrieve.txt",
+      "prompt_sha256": "d4961a549ec4333a8393fc57084fd43236c810064a2d698cd202222983fa7a5f",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A02_retrieve.json",
+      "request_template_sha256": "b53702242dee17fec91a41fe40e34eb9aff979532143ba299b03c36ae05ae17d",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png",
+          "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+          "role": "PRIMARY identity",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png",
+          "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+          "role": "workshop + drawing for realization glance",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png",
+          "sha256": "371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01",
+          "role": "dark bin continuity; bottle already inside at start",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 3,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-retrieved-clear-of-bin.png",
+          "sha256": "78203883ac23c6a4b76b7d5034d3ddf246240a8bf63a1890e3a51e395f3ef61c",
+          "role": "retrieval completed: bottle clear of dark bin in his hand",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "A02_blue",
+      "active_version": "A02_blue",
+      "duration_s": 7,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "A02_retrieve"
+      ],
+      "semantic_start": "Монтажный старт у синего контейнера: та же бутылка уже в руке (после видимого извлечения)",
+      "semantic_end": "Та же бутылка полностью внутри синего контейнера",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A02_blue.txt",
+      "prompt_sha256": "47d554e87007883ed51a7149e6657593a0ed6283fdd0ca5dbc3402d06de08573",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A02_blue.json",
+      "request_template_sha256": "1de17319f59f1a415b093c31538497142296f49924242031cc1ee5c277c47776",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png",
+          "sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921",
+          "role": "identity",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png",
+          "sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5",
+          "role": "workshop continuity",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-held-at-blue.png",
+          "sha256": "166f079ddecf845d2fd94e9d7f502f324f756fdc6cccc43c868df0201daa96c8",
+          "role": "start-state: holding blue-cap PET at blue bin",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 3,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png",
+          "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+          "role": "blue recycling container",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "A03_sort",
+      "active_version": "A03_sort",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "depends_on": [],
+      "semantic_start": "Уже на линии сортировки; инженер отсутствует",
+      "semantic_end": "Прозрачные/синие бутылки отобраны на линии",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A03_sort.txt",
+      "prompt_sha256": "9f38a3682fbdddd23603e1bdeb3bec6cb563b2810ad15de3a23f9769b72521db",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A03_sort.json",
+      "request_template_sha256": "da8980084718c9e8c13ccb8e50f41c29a9d927e4d4038ab343848aeb94dea021",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-compressed-45734.png",
+          "sha256": "3d428665a63eafaba0c52d6ad58bb7a67fac484268d60c59eab758bd424f672f",
+          "role": "female facility worker + bottles / PPE",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-line-45735.png",
+          "sha256": "c791a8970d715168064cf26b94e47eda508b521ff5a4ae20fdb7924680424f9b",
+          "role": "sorting line inspection",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "A04_shred",
+      "active_version": "A04_shred-v2",
+      "duration_s": 7,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "A03_sort"
+      ],
+      "semantic_start": "Пустая clear/blue PET у приёма шредера",
+      "semantic_end": "Бутылка затянута в зазор валков и разрушена; фрагменты после резки",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A04_shred-v2.txt",
+      "prompt_sha256": "0e55e479cfe81a96efc0d2eae38e8ecfd7efb8ff9dee65f07945357b2c08832f",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A04_shred-v2.json",
+      "request_template_sha256": "c7677b6460daf53cfc509ce09637ca692b833cc7d5c2a69cbf1f44463b0dec0c",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-shredder-ingestion-v2.png",
+          "sha256": "6b1badf4acb399511159a51e2ee4d888cd1ee4c2c0e8247a92df26aa4ad2e29c",
+          "role": "PRIMARY: bottle engaged in shredder nip / deformation",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "A05_material",
+      "active_version": "A05_material-v2",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "A04_shred"
+      ],
+      "semantic_start": "Поток/накопление острых clear/blue хлопьев-осколков",
+      "semantic_end": "Куча тех же хлопьев/осколков (не гранулы)",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A05_material-v2.txt",
+      "prompt_sha256": "ff78ba5088f1fc11fd5872007e5159c3d1f4e4b4d83cfa8cd93e3da21585a9c3",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A05_material-v2.json",
+      "request_template_sha256": "ebf97301e75e5e9d89be6f1bae87d701e979a04e2a95cf1984c561e3b2bf99e8",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-flakes-45733.png",
+          "sha256": "a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84",
+          "role": "ONLY material: irregular clear/blue PET flakes/shards",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "A06_print",
+      "active_version": "A06_print",
+      "duration_s": 8,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "A05_material"
+      ],
+      "semantic_start": "Идёт аддитивная печать открытого полимерного захвата",
+      "semantic_end": "Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/A06_print.txt",
+      "prompt_sha256": "6b672d00334040434e9d584abfc5f47f787bf4c68a84372bad496cabd319b227",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/A06_print.json",
+      "request_template_sha256": "5f675a9d168ca47866d3a28f5f6240b238661e98011f5f55448c350108f09928",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png",
+          "sha256": "45aa7b2f80271b2a5a2b7631a011c19b5fc95bf29f11332b9f2a9bcb3ee5325c",
+          "role": "PRIMARY: nozzle depositing a visible new polymer bead on open-frame gripper",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "role": "product design authority — matte polymer lattice gripper with blue inclusions",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png",
+          "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
+          "role": "printer/gantry environment only; ignore any coolant-stream look — extrusion is polymer bead, not liquid pour",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "B01_pickup",
+      "active_version": "B01_pickup",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "A06_print"
+      ],
+      "semantic_start": "Чистый сборочный цех; захват на столе",
+      "semantic_end": "Инженер в синей форме держит тот же полимерный захват",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B01_pickup.txt",
+      "prompt_sha256": "83f72cfe49206030df4f9b274030ac663ab66d798e8c0ae1d7bec8a446b1986d",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B01_pickup.json",
+      "request_template_sha256": "b95308320c2cab012363dca31ad6c9fdfeb15a552ed27f78296acbb7b98fc14b",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "role": "identity in blue workwear + clear safety glasses; same curly hair/beard type; do NOT reproduce multi-panel sheet; prefer blank chest patch over fake lettering",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "role": "polymer gripper product",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png",
+          "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
+          "role": "clean assembly hall atmosphere — NOT a collage",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "B02_install",
+      "active_version": "B02_install",
+      "duration_s": 8,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "B01_pickup"
+      ],
+      "semantic_start": "Захват подносят к креплению манипулятора спутника",
+      "semantic_end": "Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B02_install.txt",
+      "prompt_sha256": "4aa9c72bb5b1bed53966baa173aa76bce059e630168b78aa07a5ead3c205ee48",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B02_install.json",
+      "request_template_sha256": "5f7b400b07e1b6080648669738fcc5db260a1b4baf097444fb1d7ebd9caa2d4a",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "role": "blue-form identity; no multi-panel",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "role": "gripper design authority",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-seated-on-arm.png",
+          "sha256": "8e762aa4d33ececfe901362d595fcce03bdf0f13d9468e54fd02c0a96b9e97e0",
+          "role": "install language: gripper bolted/connected on white manipulator mount",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 3,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "satellite on stand body continuity",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 4,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "role": "orbital manipulator/satellite geometry language from source folder",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "B03_build",
+      "active_version": "B03_build",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "B02_install"
+      ],
+      "semantic_start": "Спутник на стенде частично собран",
+      "semantic_end": "Крышки/панели/манипулятор установлены последовательно",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B03_build.txt",
+      "prompt_sha256": "b18d3288153c0b197eee8644569c37f6fe654ce6b40d2abe296c6224bf1ae1dd",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B03_build.json",
+      "request_template_sha256": "4fb2431a284ef9f7ed470d265d3fde0f950a9aa9bae3ac6f64504a594503af8d",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "satellite on stand",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "role": "manipulator/satellite design language",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png",
+          "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
+          "role": "cleanroom atmosphere",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 3,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "role": "engineer identity IF visible",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "B04_check",
+      "active_version": "B04_check",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "B03_build"
+      ],
+      "semantic_start": "Инженер у аппарата",
+      "semantic_end": "Общий вид готового спутника с панелями и манипулятором",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B04_check.txt",
+      "prompt_sha256": "997124aa4a3c8de4abebf35472ba787ca864d5a43f1c796b4116d336e530e885",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B04_check.json",
+      "request_template_sha256": "30c9626ef1b5afc5ac521ca9a6a5ba8df9a5b373e30114f9f3353cb616ff96e6",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "role": "engineer identity",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "completed satellite look",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "role": "geometry language",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "B05_pad",
+      "active_version": "B05_pad",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [],
+      "semantic_start": "Ночь, ракета на старте",
+      "semantic_end": "Камера подчёркивает масштаб ракеты",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B05_pad.txt",
+      "prompt_sha256": "a8df3e416b44a07e0627e0395052d76f4c8d09b9219fee6ed0ba4c5f574c2a66",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B05_pad.json",
+      "request_template_sha256": "764bc537d6fdaf5f0408bd84200a4dc1a6c43ee7fb21b82e4f06a7dfb408630a",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-pad-16x9.png",
+          "sha256": "5c31341ea8f9a8e6daac1bdfa57c905e63eeb6982342e81c3fe8c07f95365475",
+          "role": "night pad/rocket atmosphere — dedicated still, not a collage",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "B06_liftoff",
+      "active_version": "B06_liftoff",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "B05_pad"
+      ],
+      "semantic_start": "Зажигание двигателей",
+      "semantic_end": "Ракета уходит вверх",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/B06_liftoff.txt",
+      "prompt_sha256": "6093aa9a6bd1cd0a22e0f9a0bb71ad301f537c2b0ae1502d83067c33aeb9f127",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/B06_liftoff.json",
+      "request_template_sha256": "9ebc17bd1702fd301a86d67007d7d48dd2ed4423cb53025a8fb61a18a73fe5f0",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-liftoff-16x9.png",
+          "sha256": "1679b2abd60e225561cf54daeaeac6a6ad1d35f0cf6f218374a04efe8c86ab97",
+          "role": "night liftoff plume/ascent atmosphere",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "C01_orbit",
+      "active_version": "C01_orbit-v2",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "B06_liftoff"
+      ],
+      "semantic_start": "Тот же аппарат на орбите; 2 панели уже раскрыты",
+      "semantic_end": "Облёт без смены числа панелей и без плывущего крепления руки",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C01_orbit-v2.txt",
+      "prompt_sha256": "81b9399c35897a6a6fc1a3c3a2cf15bb8b00bb4c475b91abf5a81536d459cb20",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C01_orbit-v2.json",
+      "request_template_sha256": "b0c51c35bd22972e6686771120f09ca165a70f718cfc417948b11e457b1f2cdb",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "PRIMARY locked orbit geometry: 2 wings deployed, fixed arm mount",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "assembly continuity ONLY — same 2-wing gold body family",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "C02_debris",
+      "active_version": "C02_debris-v2",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "C01_orbit"
+      ],
+      "semantic_start": "Тот же 2-крылый аппарат; облако металлического мусора",
+      "semantic_end": "Манипулятор начинает выдвигаться к обломку",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C02_debris-v2.txt",
+      "prompt_sha256": "4d2615f11816a51748bf86e53c8cabe8e63f4cabdbaf601f7031d7d7595299f9",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C02_debris-v2.json",
+      "request_template_sha256": "f6b18189aad82f770bd70a03e7f5d8bec9af80ce791d3fd75d83f0b01d1d20ef",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "locked 2-wing craft + fixed arm",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "C03_capture",
+      "active_version": "C03_capture-v2",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "C02_debris"
+      ],
+      "semantic_start": "Полимерный захват у обломка",
+      "semantic_end": "Обломок мягко зафиксирован тем же продуктом",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C03_capture-v2.txt",
+      "prompt_sha256": "2ce3e5fd5640b6f10d3c64df9523560cd6247e4fcc1d5d1e7fe152b77d237258",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C03_capture-v2.json",
+      "request_template_sha256": "ec59acd331aac6d849104813556de23256822ac5ba27d1f6f815760bf5923e85",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "craft/arm continuity",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "role": "PRODUCT design authority — same as B01/B02",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-capture-scrap.png",
+          "sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9",
+          "role": "capture action language",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "C04_recycle",
+      "active_version": "C04_recycle-v2",
+      "duration_s": 6,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "C03_capture"
+      ],
+      "semantic_start": "Фрагмент в пресс-модуле",
+      "semantic_end": "Прямоугольный блок сформирован",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C04_recycle-v2.txt",
+      "prompt_sha256": "d4cf9f562161c615e6b23817874732217f69abe324f60a937e007bf90e3ed6ba",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C04_recycle-v2.json",
+      "request_template_sha256": "f48b25d543de578b9e2c9dd941a1066c9dbdb4dd8a3e30e9527363c319dc0a7d",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png",
+          "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+          "role": "press→block",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "craft family continuity optional",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "C05_station",
+      "active_version": "C05_station-v2",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [
+        "C04_recycle"
+      ],
+      "semantic_start": "Широкий план оригинальной станции",
+      "semantic_end": "Отъезд с Землёй в кадре",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C05_station-v2.txt",
+      "prompt_sha256": "3782b1c9ceb0ecccb61134b22632bb134f1de00102068e848ce9de8ff8d073f4",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C05_station-v2.json",
+      "request_template_sha256": "e081648e50cd3c24542a3e4e64554857ba50c0f1c53c3484d4b62b661b2f6734",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png",
+          "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+          "role": "original fiction station only",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    },
+    {
+      "clip_id": "C06_cycle",
+      "active_version": "C06_cycle-v2",
+      "duration_s": 5,
+      "aspect_ratio": "16:9",
+      "depends_on": [],
+      "semantic_start": "ЦУП; одна бутылка; инженер в синей форме без надписи на груди",
+      "semantic_end": "Один завершённый бросок/укладка в синий бак",
+      "prompt_file": "projects/raznoe/references/scenes/scene-3/expansion/prompts/C06_cycle-v2.txt",
+      "prompt_sha256": "bcbffda18f2d8db1e98db77712af053222abce2e61cdceb1c1147a4cf301003b",
+      "request_template_file": "projects/raznoe/references/scenes/scene-3/expansion/requests/C06_cycle-v2.json",
+      "request_template_sha256": "80a5b91e7091dbd4d8986a1803b38798b424e1a5511f87370473093c335beb4a",
+      "references": [
+        {
+          "image_slot": 0,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-CLEAN-single.png",
+          "sha256": "9eb7d1708be2fb65ee414be3488ca92c1c13ab75abf5c79fb911421ab85381b4",
+          "role": "PRIMARY clean single identity; blank chest; no multi-panel; no letters",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 1,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png",
+          "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+          "role": "blue recycling bin",
+          "owner_approved": false
+        },
+        {
+          "image_slot": 2,
+          "file": "projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png",
+          "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+          "role": "monitor picture only",
+          "owner_approved": false
+        }
+      ],
+      "execute": false
+    }
+  ]
+}

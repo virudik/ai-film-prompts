@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-06T12:14:12+00:00",
-  "source_head": "05c498a88fa943215c7d0c9c7a71830ca3c8b60a",
-  "source_fingerprint": "a66bad3a137253cbb796c1bcb7e6e3422f7536038020373fc020cb04f9a78449",
+  "checked_at": "2026-11-06T12:28:53+00:00",
+  "source_head": "54e3d3ea01a9b8e1379eb16d8f7d5994977a2cf4",
+  "source_fingerprint": "1b8e08fb8ccc4dd721e3c5b6c0e74bf7395d98cd326090e6d970bfc7ad3f6204",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -35,27 +35,27 @@
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
     "status": "waiting_for_slot",
-    "last_completed": "Прочитан linked-chat, повторно проверены14досок/630видео/6слотов и15submitted; фактический HH:55 после включения подтверждён, подготовлен план восстановления несохранённых стыков.",
-    "next_action": "Сохранить проверенные материалы S60/S61 из предыдущего Work; затем закрыть доступные задачи linked-chat: параллельные инструкции/план, кнопка и HTTPS, технические правки HONOR/RESOURCE. Keep продолжить после защищённого входа Google. При свободном слоте — свежий полный preflight, первая готовая разрешённая сцена по priority; submitted/unknown не повторять.",
-    "verified_at": "2026-11-06T12:14:12+00:00",
+    "last_completed": "Подтверждены scan 6/6 и 15 submitted, реальный цикл HH:55; восстановлены материалы S60/S61; согласованы параллельные правила и технический пакет RESOURCE; кнопка rudik-site опубликована и проверена; вход Keep восстановлен. 475 тестов и проверки сайта/проектов пройдены.",
+    "next_action": "Слоты: при настоящем освобождении выполнить свежий полный preflight и первый готовый разрешённый item по priority (S49B), не повторять submitted. Стыки S52/S60/S61 уже сохранены, остаётся непрерывный визуальный просмотр со звуком перед READY. Keep продолжать по приватному checkpoint после восстановленного входа. По HONOR нужен выбор озвучки/изделия; 8 новых поддоменов HTTPS остаются неподтверждёнными.",
+    "verified_at": "2026-11-06T12:28:53+00:00",
     "blockers": [],
     "evidence": [
       {
         "file": "reports/work-continue-linked-chat-2026-11-06.json",
-        "sha256": "48c3614140a2288ded99eb4d8ea5ddaf07ea8407abacce4036ad69a7b8c58d10"
+        "sha256": "781eaf5f9195fe87f9e46c625f629f074caddcaff4d81f49dc0ce2e08e1a3220"
       }
     ],
     "read_next": [
-      "ops/LAUNCHER-COORDINATION.md",
-      "ops/TOPVIEW-FREE-LAUNCH.md"
+      "ops/TOPVIEW-FREE-LAUNCH.md",
+      "ops/LAUNCHER-COORDINATION.md"
     ],
     "checkpoint": {
       "file": "reports/current-work-checkpoint.md",
       "anchor": "# 06.11.2026 — продолжение связанного Work-чата и сохранение стыков",
-      "sha256": "fd275c6ce312b21a16538dec0c109997247144c668eb778c0470ba3e0418bde5"
+      "sha256": "8148ffd563025d08026a031bd50ad152e97b33e1e1762ef3df75716fb4403079"
     }
   },
-  "checkpoint_text": "# 06.11.2026 — продолжение связанного Work-чата и сохранение стыков\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Команда владельца: продолжить канон, после доделать share6aedc24c. Ссылка прочитана, задания сверены с main.\n- Короткий D7 приём: valid15/15, ready_for_resume=true; owner_decisions без pending/in_progress, открытых/взятых owner tasks нет. Для изменения общих инструкций выполняется полное командное чтение7документов.\n- Собственный свежий read-only скан:14досок/18страниц/630видео,6/6, все15submittedID найдены, unresolved claims0, новых Create0. Монитор skip; телеметрия робота не переписывалась.\n- HH:55 после восстановления действительно выполнился: run5875bfa9…, завершён06.11 12:01UTC,6/6; собственная квитанция того фонового цикла не сохранена из-за чужого lock. Причина прежнего отключения не установлена.\n- Несохранённые S60/S61 найдены и проверены технически; это ещё план переноса в main, не объявленный опубликованный результат.\n- Keep: защищённый вход Google требуется, заметки в этом чате не изменялись, существующий checkpoint обновлён доv44.\n- Исходный план и факты: reports/work-continue-linked-chat-2026-11-06.json.\n\nСледующий шаг: Сохранить проверенные материалы S60/S61 из предыдущего Work; затем закрыть доступные задачи linked-chat: параллельные инструкции/план, кнопка и HTTPS, технические правки HONOR/RESOURCE. Keep продолжить после защищённого входа Google. При свободном слоте — свежий полный preflight, первая готовая разрешённая сцена по priority; submitted/unknown не повторять.\n\nchecked_at: 2026-11-06T12:14:12+00:00\n",
+  "checkpoint_text": "# 06.11.2026 — продолжение связанного Work-чата и сохранение стыков\n\nwork_id: TOPVIEW-SLOT-PRIORITY-20261024\n\n- Приём D7 и последующее полное командное чтение 7 инструкций; foreground Work epoch 5. Shared-чат прочитан, исходный checkpoint опубликован bd2426592.\n- Свежий полный scan 14 досок / 18 страниц / 630 видео: 6/6, 15 submitted сверены, unknown 0, Create 0. Монитор skip, робот остаётся писателем телеметрии.\n- Реальный HH:55 после включения завершён 06.11 в 12:01 UTC (run 5875bfa9…);6/6, blocked_lock/receipt_not_saved. Причина прежнего выключения в доступных данных не записана.\n- S60/S61: сохранены настоящие последние 3 с в существующем Drive и проверенные final PNG / provenance / manifests в этой транзакции. Decode/SHA/pixel-match прошли. Полного просмотра со звуком нет, READY/очередь не менялись.\n- Параллельный порядок Keep/Серёгиус/сайты закреплён в AI-PROJECT-GUIDE; Keep добавлен P-14. Хендоф сокращён ниже 35000 байт с сохранением истории.\n- Рудик.рф: кнопка поднята,13 страниц, включая test, проверены; bc875408 и Pages 42216017874 success. Root/www/промты/ии HTTPS 200; 8 новых поддоменов HTTPS не подтверждён.\n- Разное: RESOURCE metadata 19/114 согласованы с 8 версиями v2; HONOR аудит сохранён, способ озвучки только предложен, генераций 0.\n- Keep: после первоначального authblocker вход штатно восстановлен; разбор возобновлён. Личные сведения/содержимое заметок в канон не переносились.\n- Доказательства и текущие результаты проверок: reports/work-continue-linked-chat-2026-11-06.json.\n\nСледующий шаг: Слоты: при настоящем освобождении выполнить свежий полный preflight и первый готовый разрешённый item по priority (S49B), не повторять submitted. Стыки S52/S60/S61 уже сохранены, остаётся непрерывный визуальный просмотр со звуком перед READY. Keep продолжать по приватному checkpoint после восстановленного входа. По HONOR нужен выбор озвучки/изделия; 8 новых поддоменов HTTPS остаются неподтверждёнными.\n\nchecked_at: 2026-11-06T12:23:49+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -149,8 +149,8 @@
     }
   ],
   "read_next": [
-    "ops/LAUNCHER-COORDINATION.md",
-    "ops/TOPVIEW-FREE-LAUNCH.md"
+    "ops/TOPVIEW-FREE-LAUNCH.md",
+    "ops/LAUNCHER-COORDINATION.md"
   ],
   "live_checks_required": [
     "Fresh main and canon lock before writing",
@@ -406,8 +406,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
-      "bytes": 39789
+      "sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+      "bytes": 42769
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -416,8 +416,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "78038ceabd84d421f6e8700b74b04a6bbe6e127576f00ca8852364b9d6405a08",
-      "bytes": 35347
+      "sha256": "11a4faff1ca82f943c31e3834b139aa0e4c9c3e7703daef05101a37a7715e348",
+      "bytes": 34939
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -441,8 +441,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "e1f66407e61d910d95eb286d1e3cd46ca1932e13fdcd9d4762ca75859bb48eca",
-      "bytes": 5135
+      "sha256": "3e1e25aac4f8d2ebd86e18ee82fc35e8b690e89f3b28748275558d06a0583f17",
+      "bytes": 5136
     },
     {
       "file": "monitor-role.json",
@@ -466,8 +466,8 @@
     },
     {
       "file": "reports/current-work-checkpoint.md",
-      "sha256": "e55591ec1220350252da080e0a1ddcbd83708dc8943b9225ebafca24a74af599",
-      "bytes": 25954
+      "sha256": "d8857d580696ad6866b17fc8b479a30dabd767445c229930d1f35b08d546d067",
+      "bytes": 26566
     },
     {
       "file": "reports/handoff-receipts.json",
@@ -476,17 +476,17 @@
     },
     {
       "file": "reports/work-continue-linked-chat-2026-11-06.json",
-      "sha256": "48c3614140a2288ded99eb4d8ea5ddaf07ea8407abacce4036ad69a7b8c58d10",
-      "bytes": 7156
+      "sha256": "781eaf5f9195fe87f9e46c625f629f074caddcaff4d81f49dc0ce2e08e1a3220",
+      "bytes": 10140
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "fded01a767fedcd8ecbb53fc97913e587e11b34f6f13020c57063dce9a02c8cc",
-      "bytes": 35148
+      "sha256": "7bf04f463b3c7b46882b33057a947fd163dd816849ae493c06d44f39e2f22166",
+      "bytes": 34740
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0b3daaa8265265c7dbcbd2c1ff6dade977c8607bd2ffe72bbd78eda7e6c97364",
+      "sha256": "a0454c1cd7f022ec1a18573c55582117251384646f768d69616b509831115fe9",
       "bytes": 25158
     },
     {
@@ -496,9 +496,9 @@
     },
     {
       "file": "work-resume-register.json",
-      "sha256": "fd866a557ac16af98b9ece2cc35544a84bdb3766ba36bccd7b1d7c45eac695f0",
-      "bytes": 98661
+      "sha256": "5e2d90188a94b304b188d2194cf4282e5cc6efb32b9b5f2a05e4066ab02f2c2a",
+      "bytes": 98983
     }
   ],
-  "packet_bytes": 7307
+  "packet_bytes": 8149
 }

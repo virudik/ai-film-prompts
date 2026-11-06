@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "scene_id": 61,
+  "prepared_at": "2026-11-06T11:36:56.874247+00:00",
+  "source_head": "65b73724d31e7462e29f57f1eec2516d3ec2415c",
+  "source_item_id": "S61-SEED20-P1",
+  "source_task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+  "prepared_for_item_id": "S61-SEED20-P2",
+  "source_identity": {
+    "registry": "topview-video-archive.json",
+    "registry_sha256": "0159b1cbc513c1242b7c48efdf818d5d4cb93d0e1de26da6ade8abb253d90e5f",
+    "filename": "c72c1ab4524e4f2f9d3a0272474f788a.mp4",
+    "drive_file_id": "1QuVIH37DVPmjSutbBTaVcAn1i-stWK88",
+    "drive_url": "https://drive.google.com/file/d/1QuVIH37DVPmjSutbBTaVcAn1i-stWK88/view",
+    "archived_at": "2026-11-05T20:05:40Z",
+    "download_method": "Google Drive connector metadata + fetch(download_raw_file=true, include_base64=false); authenticated top-level file_uri materialized in scratch",
+    "registry_sha256_and_size_verified": true,
+    "sha256": "f7ae1e9860d9edb9fc123d53d31c0d50d7015592a2cd22c1bf458a919be0425f",
+    "md5": "d80821b78f622ef47a3ee71a7a57047f",
+    "bytes": 11798155,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "frames": 361,
+    "video_duration_seconds": 15.041667,
+    "container_duration_seconds": 15.104,
+    "audio": {
+      "codec": "aac",
+      "sample_rate_hz": 32000,
+      "channels": 2
+    }
+  },
+  "derivative": {
+    "filename": "S61-P1-last3s.mp4",
+    "sha256": "f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a",
+    "md5": "4ed45bd7e327157f9e4207b2a6a709c3",
+    "bytes": 2137879,
+    "media_type": "video/mp4",
+    "duration_seconds": 3.0,
+    "fps": 24,
+    "frames": 72,
+    "width": 1280,
+    "height": 720,
+    "source_start_frame_zero_based": 289,
+    "source_end_frame_exclusive": 361,
+    "source_start_seconds": 12.041666666666666,
+    "source_end_seconds": 15.041666666666666,
+    "derivation": "Exact last72 real video frames (289..360 inclusive), matching source audio trim 12.041666666667..15.041666666667s; reset timestamps; H264 CRF16 yuv420p, AAC192k, faststart. No AI, interpolation, cropping, scaling or substitute content.",
+    "audio": {
+      "codec": "aac",
+      "sample_rate_hz": 32000,
+      "channels": 2,
+      "duration_seconds": 3.0
+    },
+    "private_upload_status": "uploaded_readback_sha256_verified",
+    "drive_file_id": "1sBOQrtNa4CH3nPuippf31U4fPsoWyEf5",
+    "public_git_binary_allowed": false,
+    "drive_url": "https://drive.google.com/file/d/1sBOQrtNa4CH3nPuippf31U4fPsoWyEf5/view?usp=drivesdk",
+    "drive_parent_folder_id": "1kmovLnBghkyBeh4-14c0IGZG-FL7iFOs",
+    "drive_readback": {
+      "name": "S61-P1-last3s.mp4",
+      "mime_type": "video/mp4",
+      "bytes": 2137879,
+      "parent_ids": [
+        "1kmovLnBghkyBeh4-14c0IGZG-FL7iFOs"
+      ],
+      "sha256": "f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a",
+      "sha256_verified_after_redownload": true,
+      "metadata_name_parent_size_verified": true,
+      "checked_at": "2026-11-06T11:38:56.836706+00:00"
+    }
+  },
+  "final_frame": {
+    "filename": "S61-P1-final-frame.png",
+    "sha256": "d1dbc94caa427cfd02fa2a61f1d79894924829357eb97b2eaa0e1911004e8934",
+    "md5": "43cd8a81b67be4f8182475a7cadfe69b",
+    "bytes": 1526772,
+    "source_frame_zero_based": 360,
+    "source_timestamp_seconds": 15.0,
+    "width": 1280,
+    "height": 720,
+    "format": "png",
+    "derivation": "Lossless PNG extracted directly from decoded final source video frame, no edits.",
+    "path": "references/scenes/scene-61/S61-P1-final-frame.png"
+  },
+  "qc": {
+    "status": "pending_visual_audio_qc",
+    "technical_decode": [
+      {
+        "file": "c72c1ab4524e4f2f9d3a0272474f788a.mp4",
+        "exit_code": 0,
+        "video_audio_decode_errors": 0
+      },
+      {
+        "file": "S61-P1-last3s.mp4",
+        "exit_code": 0,
+        "video_audio_decode_errors": 0
+      }
+    ],
+    "continuous_full_rate_viewed": false,
+    "audio_listened": false,
+    "visual_quality_passed": false,
+    "owner_approval": false,
+    "note": "Technical extraction and provenance only. No visual/audio approval inferred from decode success. Source state and actual transition must be reviewed before any launch readiness change.",
+    "limited_visual_review": {
+      "scope": "only the final source frame at15.000s was viewed as a still image",
+      "observation": "Single final-frame inspection only: three figures are present; blue blade foreground-left, purple blade deeper-left, red blade at right. Full movement, identities, required distance, blade-roll sequence and sound remain unverified.",
+      "continuity_pass_claimed": false
+    }
+  },
+  "launch_effect": {
+    "create_allowed": false,
+    "queue_changed": false,
+    "master_changed": false,
+    "slot_reserved": false,
+    "launch_readiness": "blocked_pending_full_continuity_qc"
+  },
+  "record_status": "prepared_pending_visual_audio_qc",
+  "recorded_at": "2026-11-06T11:43:53+00:00",
+  "recorded_against_head": "317e2bae267e95e30f88e032401ef71372e61203",
+  "execution_instance_id": "bd1397c6-535b-4ed1-8d8f-771cb7efd03d",
+  "canonical_metadata": {
+    "manifest_path": "references/scenes/scene-61/manifest.json",
+    "provenance_path": "references/scenes/scene-61/S61-P1-continuity.json",
+    "prepared_for_item_id": "S61-SEED20-P2",
+    "input_slot": "@Video1",
+    "accepted_as_launch_input": false
+  },
+  "recovery_verification": {
+    "checked_at": "2026-11-06T12:18:21+00:00",
+    "verified_against_head": "bd2426592a3b88d45c6525f7ffe2472d77b42757",
+    "execution_instance_id": "52421d0d-989e-479c-9fea-2a3fc9ce8f71",
+    "scope": "Original and derivative SHA/size/ffprobe/full technical decode rechecked; final PNG pixel-equal to source frame360; only final still visually reviewed. No real-time full playback or audio listening.",
+    "source_archive_match": true,
+    "final_frame_pixel_match": true,
+    "queue_and_master_unchanged": true
+  }
+}

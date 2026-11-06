@@ -7,7 +7,7 @@
   "source_head": "05c498a88fa943215c7d0c9c7a71830ca3c8b60a",
   "started_at": "2026-11-06T12:14:12+00:00",
   "execution_instance_id": "52421d0d-989e-479c-9fea-2a3fc9ce8f71",
-  "phase": "started",
+  "phase": "validated_pending_publication",
   "scan": {
     "started_at": "2026-11-06T12:12:53.177Z",
     "checked_at": "2026-11-06T12:13:20.122Z",
@@ -245,10 +245,87 @@
     "Сверить FUTURE-PLANS и сохранить место продолжения Keep."
   ],
   "keep": {
-    "status": "blocked_google_sign_in",
+    "status": "authenticated_review_in_progress",
     "new_notes_read": 0,
     "new_notes_changed": 0,
     "checkpoint_library_id": "libfile_2e9a039a97488191b088e7d342b51e2a",
-    "checkpoint_version": 44
+    "checkpoint_version": 44,
+    "authentication_verified_at": "2026-11-06T12:23:49+00:00",
+    "authentication_method": "secure_browserAuth; credentials never exposed; signed-in Keep UI verified",
+    "checkpoint_version_at_resume": 44
+  },
+  "updated_at": "2026-11-06T12:23:49+00:00",
+  "intake_mode": "short D7 accepted; full7 instructions read by team before instruction changes",
+  "continuity": {
+    "scenes": [
+      60,
+      61
+    ],
+    "source_originals_sha_verified": true,
+    "tails_exact_seconds": 3,
+    "tails_frames": 72,
+    "original_and_tail_decode_errors": 0,
+    "final_png_pixel_match": true,
+    "delivery": "existing private Drive tails retained; PNG/provenance/manifests saved by this transaction",
+    "full_visual_audio_qc": false,
+    "launch_ready": false,
+    "queue_changed": false,
+    "master_changed": false
+  },
+  "site": {
+    "repository": "virudik/rudik-site",
+    "button_commit": "bc875408462fcdc5d663a69f5c85f5f009e4b2bd",
+    "handoff_commit": "c61eac7459bd60b155bca56967aee8b41c67c05b",
+    "pages_run_id": 42216017874,
+    "pages_conclusion": "success",
+    "copies_verified": 13,
+    "gap_px": 8.4,
+    "click_toggle_verified": true,
+    "https_confirmed": [
+      "рудик.рф",
+      "www.рудик.рф",
+      "промты.рудик.рф",
+      "ии.рудик.рф"
+    ],
+    "https_unconfirmed": [
+      "алина.рудик.рф",
+      "маша.рудик.рф",
+      "виталик.рудик.рф",
+      "видео.рудик.рф",
+      "фото.рудик.рф",
+      "работа.рудик.рф",
+      "мои-видео.рудик.рф",
+      "обо-мне.рудик.рф"
+    ],
+    "https_unconfirmed_evidence": "CNAME virudik.github.io and HTTP200; HTTPS503 observed; no matching issuance in current certspotter CT result. Pages settings require GitHub login. DNS/Pages not changed."
+  },
+  "raznoe": {
+    "resource": "19/114 active-cut with8v2; metadata and START/END aligned; historical19/116 preserved",
+    "active_cut_sha256": "c703f4b50c533e3374460dfebfd74187004dbbec51a1cd961af113d8a5b3f9b5",
+    "honor": "36blocks/3moodPNGs reviewed;4missing spoken lines and8global AUDIO windows; proposals saved, HONOR master not changed",
+    "queue_changed": false,
+    "generations": 0,
+    "audit": "projects/raznoe/reports/scene3-scene4-audit-2026-11-06.md"
+  },
+  "instructions": {
+    "authority_section": "AI-PROJECT-GUIDE.md: Параллельная работа открытого Work",
+    "future_plan": "P-14 Keep added; C-01/C-04/C-08/G-05 refreshed with evidence",
+    "handoff_bytes": 34939,
+    "historical_entries_preserved": "archive/handoff-log.md",
+    "new_automations": 0
+  },
+  "validation": {
+    "unit_tests": {
+      "count": 475,
+      "result": "passed"
+    },
+    "site": "passed",
+    "projects": "passed",
+    "canon_health": {
+      "status": "ok",
+      "warnings": 0
+    },
+    "takeover_brief": "valid15/15",
+    "resume_packets": "root and raznoe ready"
   }
 }

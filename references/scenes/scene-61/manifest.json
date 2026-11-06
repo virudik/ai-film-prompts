@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 61,
-  "updated_at": "2026-10-23T15:46:54.711992Z",
-  "status": "first_part_inputs_ready_second_part_waits_own_result",
+  "updated_at": "2026-11-06T11:43:53+00:00",
+  "status": "first_part_inputs_ready_second_part_pending_continuity_qc",
   "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
   "references": [
     {
@@ -83,6 +83,19 @@
     "source_item_id": "S61-SEED20-P1",
     "status": "required_not_available",
     "required": true,
-    "qc": "Actual final3s of ownP1 only; save private video, SHA256, frame and continuity review before launch."
+    "qc": "Real tail and final frame saved with source task ID and verified SHA; required launch input remains unavailable until continuous visual/audio QC passes.",
+    "prepared_candidate": "references/scenes/scene-61/S61-P1-continuity.json",
+    "preparation_status": "prepared_pending_visual_audio_qc"
+  },
+  "actual_s61_p1_continuity": {
+    "source_item_id": "S61-SEED20-P1",
+    "source_task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+    "derivative_sha256": "f5be94c2474b66bcdf78351863ef2aa737b9475a31bd6f5ebd134f263ed0e15a",
+    "drive_file_id": "1sBOQrtNa4CH3nPuippf31U4fPsoWyEf5",
+    "final_frame_path": "references/scenes/scene-61/S61-P1-final-frame.png",
+    "final_frame_sha256": "d1dbc94caa427cfd02fa2a61f1d79894924829357eb97b2eaa0e1911004e8934",
+    "qc_report": "references/scenes/scene-61/S61-P1-continuity.json",
+    "qc_status": "pending_visual_audio_qc",
+    "launch_ready": false
   }
 }
