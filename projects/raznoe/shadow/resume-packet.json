@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T12:23:49+00:00",
-  "source_head": "8a70d3733a578a2c296a6d2f5f7c378888416b09",
-  "source_fingerprint": "980161e50cf3b7e9a1642e2aa2c6e1dfc7e1ab33b6b2a7c9d1e6cf59f5a6d262",
+  "checked_at": "2026-11-06T12:33:27+00:00",
+  "source_head": "cd1b33b5388e3235453648c11442db7994b9be30",
+  "source_fingerprint": "e7aeac8fc11a0efe7ad5004563a7842b561340e8594c99882abf26621c6bdace",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
@@ -199,8 +199,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "09e46e093365c0aa52081f0a5ac7e1a1ee208a774d60692fc22ff97be0aafc98",
-      "bytes": 22503
+      "sha256": "50b38e4c369e660d1413f88d277baec37f58fd85ef82c9500fe13d5ffc20a627",
+      "bytes": 22508
     },
     {
       "file": "projects/README.md",
@@ -229,8 +229,8 @@
     },
     {
       "file": "projects/raznoe/project-status.json",
-      "sha256": "87587c191ecbe47b33163a8858cac10729448c1c055206715e65e17acb0158a3",
-      "bytes": 9483
+      "sha256": "996edb54bbdd7dbeaaf366c0e1d1212c7e54c34eec712bc04fb0526b2aad480c",
+      "bytes": 9521
     },
     {
       "file": "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
