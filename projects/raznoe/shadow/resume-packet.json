@@ -3,30 +3,26 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T12:33:27+00:00",
-  "source_head": "cd1b33b5388e3235453648c11442db7994b9be30",
-  "source_fingerprint": "e7aeac8fc11a0efe7ad5004563a7842b561340e8594c99882abf26621c6bdace",
+  "checked_at": "2026-11-06T12:49:07+00:00",
+  "source_head": "c8fb61d46df3a5c30d7ad541a2bd44d46b7a1124",
+  "source_fingerprint": "3ea4445661fa142ce60b05073a909459cbea7defaed524c9c4002d485946e9ea",
   "status": "ready",
   "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": null,
   "reasons": [],
   "selected_work": {
-    "work_id": "RAZNOE-SCENE3-RESOURCE",
-    "title": "Сцена 3 RESOURCE на сайте, без видео",
-    "status": "awaiting_editorial_review",
-    "last_completed": "Техническая обвязка RESOURCE согласована с19/114 и8v2 без смены промтов/очереди; HONOR36блоков и3moodPNG разобраны, творческие предложения сохранены.",
-    "next_action": "До отправки RESOURCE продолжать художественный motion/audioQC существующих попыток; для HONOR выбрать озвучку и точное изделие по решению владельца. Генерации, приёмка и перерисовка без нового разрешения не выполняются.",
-    "verified_at": "2026-11-06T12:21:31+00:00",
+    "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
+    "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
+    "status": "in_progress",
+    "last_completed": "Поручение принято; проверены официальный Magic9 Pro Max, папка Саша и жёлтая плашка собственного замка; технический план и руководство готовятся.",
+    "next_action": "Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.",
+    "verified_at": "2026-11-06T12:46:47+00:00",
     "blockers": [],
     "evidence": [
       {
-        "file": "projects/raznoe/reports/scene3-scene4-audit-2026-11-06.md",
-        "sha256": "c6369e424e1d31a85a826910d52feee9cb6360c7c36a74c57f139e941d4952ed"
-      },
-      {
-        "file": "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
-        "sha256": "c703f4b50c533e3374460dfebfd74187004dbbec51a1cd961af113d8a5b3f9b5"
+        "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
+        "sha256": "9f19658df753f6c79871c12d4cf5326d237a9c4c087094465216f697c1f499a8"
       }
     ],
     "read_next": [
@@ -34,11 +30,11 @@
     ],
     "checkpoint": {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "anchor": "# 06.11.2026 — RESOURCE: согласование пакета; HONOR: предложения",
-      "sha256": "c174d938c04175d19b41bed66aa5e41a61b982f1353216e676bb639b9b7505bf"
+      "anchor": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше",
+      "sha256": "f95f8fc04bb43a0f1cc27c2c04c37e244a19e5d510601468aa98424601429ae1"
     }
   },
-  "checkpoint_text": "# 06.11.2026 — RESOURCE: согласование пакета; HONOR: предложения\n\nwork_id: RAZNOE-SCENE3-RESOURCE\n\nОснование: продолжить задания share6aedc24c, включая «посмотри как можно улучшить сцены с Хонор и бутылками».\n\n- Исправлена техническая обвязка RESOURCE по существующим v2: active-cut.json19/114,8v2, START/END C02–C05 и уже раскрытые панели C01. Промты, requests, изображения, очередь и approval не менялись.\n- Аудит HONOR36блоков и3moodPNG сохранён:4пропущенные реплики и8глобальных AUDIO окон. Перенос озвучки в общую дорожку — предложение, masterHONOR не менялся.\n- Исторический пакет19/116 сохранён; новая карта не является разрешением на отправку.\n- Доказательство: reports/scene3-scene4-audit-2026-11-06.md. Итог проверки/публикации — корневой reports/work-continue-linked-chat-2026-11-06.json.\n\nСледующий шаг: До отправки RESOURCE продолжать художественный motion/audioQC существующих попыток; для HONOR выбрать озвучку и точное изделие по решению владельца. Генерации, приёмка и перерисовка без нового разрешения не выполняются.\n",
+  "checkpoint_text": "# 06.11.2026 — доработка RESOURCE/HONOR и руководство Саше\n\nwork_id: RAZNOE-RESOURCE-HONOR-SASHA-20261106\n\n- Новое прямое поручение владельца получено; улучшения промтов и недостающие референсы разрешены.\n- Последний флагман HONOR Magic9 Pro Max подтверждён первичными релизами HONOR и ARRI от 28.09.2026; изображения продукта собираются.\n- RESOURCE: выявлена несовместимость жёсткой рамной детали с командами «раскрыть захват»; готовится единая механика без морфа корпуса.\n- Папка Саша найдена, содержит существующие MP4; руководство готовится, существующие файлы и доступ сохраняются.\n- Предупреждение сайта: фактические health/automation/continue зелёные, жёлтая плашка показывает действующий общий замок.\n- Предыдущий этап опубликован bd80507f9 и проверен по HTTPS; новая работа не объявлена завершённой.\n\nСледующий шаг: Завершить точные правки RESOURCE/HONOR и план недостающих кадров; получить официальные изображения Magic9 Pro Max, затем по одному создавать, проверять и сразу сохранять референсы. Подготовить и проверить руководство Саше, загрузить в подтверждённую папку Drive. Видео не запускать.\n\nchecked_at: 2026-11-06T12:46:46+00:00\n",
   "invariants": [
     {
       "id": "INV-AUTH",
@@ -214,8 +210,8 @@
     },
     {
       "file": "projects/raznoe/HANDOFF.md",
-      "sha256": "07cc9f2fbfc8bf867982b4d3a71772d603bad6fb36f760d8ec64767cabfbf669",
-      "bytes": 11825
+      "sha256": "3a35fc9a81799088822ae3d636b2a22fb144b4d681e562735228c9cbe29bec8c",
+      "bytes": 11496
     },
     {
       "file": "projects/raznoe/INSTRUCTIONS.md",
@@ -233,14 +229,9 @@
       "bytes": 9521
     },
     {
-      "file": "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
-      "sha256": "c703f4b50c533e3374460dfebfd74187004dbbec51a1cd961af113d8a5b3f9b5",
-      "bytes": 34464
-    },
-    {
       "file": "projects/raznoe/reports/current-work-checkpoint.md",
-      "sha256": "48e31496e56b98d2d98f04338aa506952e6f15f744d6588d28ed9ae853eb7ce2",
-      "bytes": 35928
+      "sha256": "702779d95e739afeb8903b3cc79045120db4989614e4cacd3c0fcfc1fce9667f",
+      "bytes": 37830
     },
     {
       "file": "projects/raznoe/reports/handoff-receipts.json",
@@ -248,9 +239,9 @@
       "bytes": 248
     },
     {
-      "file": "projects/raznoe/reports/scene3-scene4-audit-2026-11-06.md",
-      "sha256": "c6369e424e1d31a85a826910d52feee9cb6360c7c36a74c57f139e941d4952ed",
-      "bytes": 13678
+      "file": "projects/raznoe/reports/resource-honor-sasha-2026-11-06.json",
+      "sha256": "9f19658df753f6c79871c12d4cf5326d237a9c4c087094465216f697c1f499a8",
+      "bytes": 2598
     },
     {
       "file": "projects/raznoe/video-prompts.md",
@@ -259,8 +250,8 @@
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
-      "sha256": "7df7b4f8061e488f07245b56b211ac41b677dd77669e87cd76dfde5c64743986",
-      "bytes": 14401
+      "sha256": "d2c4419a1d19d0fb75e557d7864d46bb468fa359d22cb3b2720612e208f48a42",
+      "bytes": 18110
     },
     {
       "file": "shadow/current-checkpoint.md",
@@ -278,5 +269,5 @@
       "bytes": 1353640
     }
   ],
-  "packet_bytes": 6169
+  "packet_bytes": 6616
 }

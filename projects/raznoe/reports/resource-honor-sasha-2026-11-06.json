@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
+  "started_at": "2026-11-06T12:46:46+00:00",
+  "owner_quote": "Сцену с Бутылками и хонором доведи до совершенства. Дорисуй где нужно референсные изображения. Для хонора по их последней модели телефона. На сайте предупреждение висит. На диске в папку Саша скинь инструкции по ведению промтов, сцен и работе видео моделями. Напиши понятными словами для Саши файлик как этим всем пользоваться, как запускать видео, как самостоятельно писать сцены, промты, как делать картинки и как видео для его бутылок переработки отходов космическими спутниками.",
+  "status": "in_progress",
+  "authorization": {
+    "scene_prompt_reference_improvements": true,
+    "image_generation": "built-in ChatGPT only",
+    "paid_video_generation": false,
+    "change_drive_sharing": false
+  },
+  "honor_product": {
+    "model": "HONOR Magic9 Pro Max",
+    "official_announcement_date": "2026-09-28",
+    "sources": [
+      "https://www.honor.com/global/news/honor-magic9-launch/",
+      "https://www.arri.com/en/company/press/press-releases-2026/arri-honor-professional-cinematic-imaging-honor-magic9-pro-max"
+    ],
+    "geometry_reference_retrieval": "in_progress"
+  },
+  "drive_destination": {
+    "name": "Саша",
+    "folder_id": "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2",
+    "url": "https://drive.google.com/drive/folders/1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2",
+    "existing_files_preserved": true
+  },
+  "site_warning": {
+    "live_check": "health ok, automation ok, continuation ready; visible yellow banner is own live general canon lock",
+    "repair": "release own general lock after current canonical checkpoint; keep project lock for new work"
+  },
+  "next_actions": [
+    "Finish RESOURCE and HONOR prompt drafts and exact missing-reference plan.",
+    "Generate one required reference at a time, QC and save in canonical project before next.",
+    "Validate and publish complete updated scenes and assets.",
+    "Render and verify plain-language Sasha guide; upload guide and relevant instructions to confirmed folder; read back."
+  ],
+  "generated_images": 0,
+  "video_submissions": 0,
+  "credits_spent": 0
+}

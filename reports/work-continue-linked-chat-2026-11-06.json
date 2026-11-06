@@ -7,7 +7,7 @@
   "source_head": "05c498a88fa943215c7d0c9c7a71830ca3c8b60a",
   "started_at": "2026-11-06T12:14:12+00:00",
   "execution_instance_id": "52421d0d-989e-479c-9fea-2a3fc9ce8f71",
-  "phase": "validated_pending_publication",
+  "phase": "published_verified_keep_partial",
   "scan": {
     "started_at": "2026-11-06T12:12:53.177Z",
     "checked_at": "2026-11-06T12:13:20.122Z",
@@ -245,16 +245,37 @@
     "Сверить FUTURE-PLANS и сохранить место продолжения Keep."
   ],
   "keep": {
-    "status": "authenticated_review_in_progress",
-    "new_notes_read": 0,
-    "new_notes_changed": 0,
+    "status": "partial_review_saved",
+    "notes_read": 15,
+    "notes_changed_verified": 12,
+    "new_notes_found": 2,
+    "new_notes_classified": 1,
+    "labels_added": 13,
+    "service_labels_removed_before_rejection": 1,
+    "on_review_count": 442,
+    "reference_count": 495,
+    "active_note_count": 1443,
+    "archive_note_count": 10,
+    "unlabelled_known_minimum": 1,
+    "global_unlabelled_audit_complete": false,
     "checkpoint_library_id": "libfile_2e9a039a97488191b088e7d342b51e2a",
-    "checkpoint_version": 44,
-    "authentication_verified_at": "2026-11-06T12:23:49+00:00",
-    "authentication_method": "secure_browserAuth; credentials never exposed; signed-in Keep UI verified",
-    "checkpoint_version_at_resume": 44
+    "checkpoint_version": 46,
+    "checkpoint_saved_readback_verified": true,
+    "texts_attachments_archive_changed": false,
+    "blocked_actions": [
+      {
+        "action": "remove review label from nine reviewed bookmarks",
+        "reason": "automatic approval review rejected removal to preserve existing labels",
+        "safe_alternative_completed": "reference label added, prior labels preserved"
+      },
+      {
+        "action": "label one new film-related note",
+        "reason": "automatic approval review rejected processing film material excluded from Keep task",
+        "changes": 0
+      }
+    ]
   },
-  "updated_at": "2026-11-06T12:23:49+00:00",
+  "updated_at": "2026-11-06T12:45:48+00:00",
   "intake_mode": "short D7 accepted; full7 instructions read by team before instruction changes",
   "continuity": {
     "scenes": [
@@ -327,5 +348,59 @@
     },
     "takeover_brief": "valid15/15",
     "resume_packets": "root and raznoe ready"
-  }
+  },
+  "publication": {
+    "implementation_commit": "bd80507f9a23ff72c9322da7fc7742302cb2ae5a",
+    "readback_files": 28,
+    "readback_mismatches": 0,
+    "integration_run": 42218352086,
+    "integration_conclusion": "success",
+    "project_status_run": 42218352063,
+    "project_status_conclusion": "success",
+    "canon_health_run": 42218352150,
+    "canon_health_conclusion": "success",
+    "pages": "success_and_exact_https_readback",
+    "pages_run": 42218580707,
+    "pages_commit": "83e079a20fa63cf85c7c830b087907c213c6ee90",
+    "public_readback": [
+      {
+        "path": "references/scenes/scene-60/S60-P1-final-frame.png",
+        "status": 200,
+        "matches_local": true,
+        "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/references/scenes/scene-60/S60-P1-final-frame.png?verify=1793968815.6460564"
+      },
+      {
+        "path": "references/scenes/scene-61/S61-P1-final-frame.png",
+        "status": 200,
+        "matches_local": true,
+        "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/references/scenes/scene-61/S61-P1-final-frame.png?verify=1793968815.6475635"
+      },
+      {
+        "path": "projects/raznoe/references/scenes/scene-3/expansion/active-cut.json",
+        "status": 200,
+        "matches_local": true,
+        "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/projects/raznoe/references/scenes/scene-3/expansion/active-cut.json?verify=1793968815.6485596"
+      },
+      {
+        "path": "projects/raznoe/video-prompts.md",
+        "status": 200,
+        "matches_local": true,
+        "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/projects/raznoe/video-prompts.md?verify=1793968815.649475"
+      },
+      {
+        "path": "AI-PROJECT-GUIDE.md",
+        "status": 200,
+        "matches_local": true,
+        "url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/AI-PROJECT-GUIDE.md?verify=1793968815.650426"
+      }
+    ]
+  },
+  "remaining": [
+    "Keep review remains incomplete: 442 review labels; one known film note is excluded; safe theme additions only after automatic review refused label removal.",
+    "S52/S60/S61 require continuous visual/audio QC before launch readiness.",
+    "Eight new family subdomain HTTPS endpoints remain unconfirmed.",
+    "HONOR creative proposals are recorded; product/voice choice is required before future production, no generation authorized by this audit.",
+    "Topview queue waits for a real free slot; full new preflight required before submission."
+  ],
+  "followup_owner_request": "Довести RESOURCE и HONOR, включая референсы и последнюю модель телефона, проверить предупреждение сайта; подготовить и загрузить руководство и инструкции в папку Саша на Drive. Работа продолжается отдельно в проекте Разное."
 }

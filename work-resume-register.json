@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-06T12:28:53+00:00",
+  "last_updated_at": "2026-11-06T12:45:48+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-06T12:28:53+00:00",
+      "updated_at": "2026-11-06T12:45:48+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -24,7 +24,7 @@
         "20:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Phase A healthy with actual Actions jobs successful. Phase B resolved one historical launcher-idle alert by subsequent ordinary/current Work runtime evidence and the live 6/6 scan; no repair, rerun, mail mutation, Create or credits.",
         "21:55 MSK cycle 5 Nov: fresh complete 14-board/18-video-page scan found 628 videos and 6/6 active Unlimited0 on My First Board. All 13 submitted task IDs reconciled; no claimed/submitting/submission_unknown. Queue/readiness hashes matched; next ready S64-WAN30. Ordinary actual run/latest result/receipt matched. Owner tasks open 0. No Create/retry/credits; phases A/B/C not due. Fresh canon-health status ok/warnings0/info10."
       ],
-      "next_action": "Слоты: при настоящем освобождении выполнить свежий полный preflight и первый готовый разрешённый item по priority (S49B), не повторять submitted. Стыки S52/S60/S61 уже сохранены, остаётся непрерывный визуальный просмотр со звуком перед READY. Keep продолжать по приватному checkpoint после восстановленного входа. По HONOR нужен выбор озвучки/изделия; 8 новых поддоменов HTTPS остаются неподтверждёнными.",
+      "next_action": "Слоты: при настоящем освобождении выполнить свежий полный preflight и первый готовый разрешённый item по priority (S49B), не повторять submitted. Стыки S52/S60/S61 уже сохранены, остаётся непрерывный визуальный просмотр со звуком перед READY. Keep продолжать по приватному checkpoint v46: добавлять подтверждённые темы, сохранять прежние ярлыки, исключённые записи о фильме не обрабатывать. Новая доработка RESOURCE/HONOR и руководство Саше продолжаются по проектному checkpoint Разного; 8 новых поддоменов HTTPS остаются неподтверждёнными.",
       "canonical_refs": [
         "ops/TOPVIEW-FREE-LAUNCH.md",
         "ops/CONTINUE-PROTOCOL.md",
@@ -319,23 +319,23 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T12:28:53+00:00",
-        "last_completed": "Подтверждены scan 6/6 и 15 submitted, реальный цикл HH:55; восстановлены материалы S60/S61; согласованы параллельные правила и технический пакет RESOURCE; кнопка rudik-site опубликована и проверена; вход Keep восстановлен. 475 тестов и проверки сайта/проектов пройдены.",
-        "next_action": "Слоты: при настоящем освобождении выполнить свежий полный preflight и первый готовый разрешённый item по priority (S49B), не повторять submitted. Стыки S52/S60/S61 уже сохранены, остаётся непрерывный визуальный просмотр со звуком перед READY. Keep продолжать по приватному checkpoint после восстановленного входа. По HONOR нужен выбор озвучки/изделия; 8 новых поддоменов HTTPS остаются неподтверждёнными.",
+        "verified_at": "2026-11-06T12:45:48+00:00",
+        "last_completed": "Опубликованы и побайтно проверены материалы S60/S61 и RESOURCE, параллельные правила и хендоф; 475 тестов и серверные проверки прошли. Keep v46: 15 прочитано, 12 изменено, остаток442. Новое поручение RESOURCE/HONOR/Саша передано проектному продолжению.",
+        "next_action": "Слоты: при настоящем освобождении выполнить свежий полный preflight и первый готовый разрешённый item по priority (S49B), не повторять submitted. Стыки S52/S60/S61 уже сохранены, остаётся непрерывный визуальный просмотр со звуком перед READY. Keep продолжать по приватному checkpoint v46: добавлять подтверждённые темы, сохранять прежние ярлыки, исключённые записи о фильме не обрабатывать. Новая доработка RESOURCE/HONOR и руководство Саше продолжаются по проектному checkpoint Разного; 8 новых поддоменов HTTPS остаются неподтверждёнными.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# 06.11.2026 — продолжение связанного Work-чата и сохранение стыков",
-          "sha256": "8148ffd563025d08026a031bd50ad152e97b33e1e1762ef3df75716fb4403079"
+          "sha256": "e3b567d54ddf660459645a538dfa5840fc377e190dbceff4461aeae3f2cf1b61"
         },
         "evidence": [
           {
             "file": "reports/work-continue-linked-chat-2026-11-06.json",
-            "sha256": "781eaf5f9195fe87f9e46c625f629f074caddcaff4d81f49dc0ce2e08e1a3220"
+            "sha256": "658b6c87e843d396e60ff1d64ff80e192657243e8d4503fe49d0ff7b6ee974b8"
           }
         ],
         "read_next": [
           "ops/TOPVIEW-FREE-LAUNCH.md",
-          "ops/LAUNCHER-COORDINATION.md"
+          "projects/raznoe/HANDOFF.md"
         ],
         "blockers": []
       },
