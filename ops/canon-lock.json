@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:scene60-61-qc-20261106",
-  "task": "Review S60/S61 actual last3s frames and audio technical validity without submitting videos",
-  "acquired_at": "2026-11-06T18:12:36.934Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T18:14:07.311Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:root-handoff-cleanup-20261106",
+  "task": "Archive duplicated D7/control center summary to clear canon-health handoff-size warning",
+  "acquired_at": "2026-11-06T18:19:47.145Z",
+  "expires_at": "2026-11-06T18:31:47.145Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
