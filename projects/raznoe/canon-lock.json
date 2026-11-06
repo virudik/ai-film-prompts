@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "grok:7775f478-0302-4229-9aab-72306f76ab10",
-  "task": "Сцена 3 RESOURCE в Разном: публикация на сайте, без очереди и без видео",
-  "acquired_at": "2026-11-06T04:13:15Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T04:30:10Z",
+  "state": "held",
+  "holder": "grok:8899db3e-9af7-4977-8c78-a228694d43b1",
+  "task": "Сцена 4 HONOR в Разном: три концепт-кадра, без очереди и без видео",
+  "acquired_at": "2026-11-06T04:37:43Z",
+  "expires_at": "2026-11-06T06:07:43Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
