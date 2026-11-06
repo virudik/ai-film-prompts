@@ -19,11 +19,11 @@
 | 1 | [Тихий маяк — история Ярика](#scene-1) | Ярик, мама Лена, Соня, Анна Сергеевна, пёс Бублик, Варя | Мальчик с особенностями развития рассказывает о громком внутреннем мире и о людях, которые становятся его маяком. 4 ролика по 30 с (B1–B4) или 8 подсцен по 15 с (A1–A8) |
 | 2 | [Тихая планета — история Мирона](#scene-2) | Мирон, мама Вера, бабушка Нина, Дарья Андреевна, доктор Марк Львович, парикмахер Лиля, лошадь Туман | Мальчик с аутизмом рассказывает о громком мире, трудных днях, бабушке, которая нашла помощь, успехах, школе и надежде. Структура рилса, вертикаль 9:16, 4 ролика по 30 с или 8 по 15 с |
 | 3 | [RESOURCE](#scene-3) | Инженер мастерской и синей формы, работница сортировки | Фотореал 16:9. Исходник 2 × 15 с сохранён. Текущая нарезка — 19 native-клипов, 114 с: мастерская, завод, сборка, старт, орбита, постановочная станция, ЦУП. Не одобрено |
-| 4 | [HONOR](#scene-4) | изделие не выбрано; пустой прокси | Три ролика по 120 с: реализм, 3D, рисовка. Кадры только настроение. Не одобрено |
+| 4 | [HONOR](#scene-4) | Magic9 Pro Max выбран; продуктовый прокси до утверждения | Три ролика по 120 с: реализм, 3D, рисовка. Кадры только настроение. Не одобрено |
 
 ## Сцены в работе
 
-Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве, native-нарезка 19/114 опубликована отдельно от вкладок 2 × 15 с. Очередь Topview не менялась. Шесть native-попыток v1 лежат в папке Саши и не приняты. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — три ролика по 120 с каждый, not_approved; модель не выбрана. Старые космические сцены — в проекте «Роскосмос».
+Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве, native-нарезка 19/114 опубликована отдельно от вкладок 2 × 15 с. Очередь Topview не менялась. Шесть native-попыток v1 лежат в папке Саши и не приняты. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Сцена 4 HONOR — три ролика по 120 с каждый, not_approved; выбрана модель Magic9 Pro Max, точные продуктовые PNG ещё не утверждены. Старые космические сцены — в проекте «Роскосмос».
 
 <a id="misc-pricing"></a>
 ## Стоимость производства (простыми словами, редакция 03.11.2026, версия 3)
@@ -3533,11 +3533,13 @@ AVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos.
 
 **Контекст использования:** та же сцена 4. Теперь каждый из трёх вариантов — отдельный рекламный ролик на 120 секунд готового монтажа. Вместе это шесть минут предложений, не один фильм и не три новые сцены. Это не RESOURCE и не Роскосмос. Площадка не задана; старт — горизонталь 16:9. Тексты не сняты.
 
-**Концепт-кадры. Модель устройства не выбрана; продуктовый кадр требует утверждённых референсов.** Три PNG — только настроение. Они не фиксируют корпус и не покрывают двухминутную раскадровку.
+**Модель выбрана по поручению владельца 06.11.2026: HONOR Magic9 Pro Max (официальный анонс 28.09.2026).** Три существующих PNG — только настроение; в исходных видеогенерациях пока оставлен пустой compositing proxy, чтобы не выдумывать форму аппарата. Официальные изображения фронта/задней панели, ARRI-камер и вида 3/4 доступны [в списке источников](projects/raznoe/references/scenes/scene-4/official-product-source-links.json), но **не являются опубликованными PNG референсами проекта и не означают разрешение на коммерческое использование**.
 
 **Счёт времени, один вариант.** Модели в этом репозитории не собирают 120 с одним клипом. Wan 3.0 и тот же текст для Seedance 2.5 — клип до 30 с. Seedance 2.0 — клип до 15 с. Поэтому 4 × 30 = 120 и 8 × 15 = 120. Последние 3 с предыдущего клипа — вход для стыка, не вторая копия времени и не повод вычитать 3 с на каждом склее. Семь склеек по 3 с дали бы 99 с, если бы хвост повторялся и вырезался; в этой таблице повтора нет.
 
 **С чего пробовать:** по-прежнему 3D «Скульптурная сцена». Реализм второй. Рисовка третья.
+
+**Правило звука для всех трёх 120-секундных вариантов (редакция 06.11):** 15 исходных предложенных русских реплик сохранены дословно в [карте озвучки](projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json). Короткие 15/30-секундные видео генерируются **без речи и встроенного аудио**; голос, авторская музыка и эффекты собираются отдельными дорожками по **абсолютному времени фильма**. Так реплики, пересекающие границу клипа, не обрываются и не повторяются. Обе модели и все три варианта сохраняют прежний 120-секундный хронометраж. Это рабочая черновая схема, не утверждённый заказчиком дикторский текст.
 
 **Готовность:** DRAFT, not_approved. Очередь не менялась. Видео не запускалось. Короткий пакет на 30 с снят с активного мастера и лежит в архиве: `projects/raznoe/archive/scene-4/short-30s-2026-11-06.md`.
 
@@ -3554,7 +3556,7 @@ AVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos.
 | H-LOGO | логотип и шрифт только в монтаже | нет файла |
 | Кадры открытия, поворота и финала с изделием | отдельные рисунки планов двух минут | не заказывались |
 
-**Уточнить:** модель, аудитория, площадка, финальная длина, право на марку. Пожелание показать ролик коммерческой стороне — не установленный факт о компании.
+**Уточнить:** официальные права на фирменные изображения и логотип, аудитория, площадка, утверждение трёх 120-секундных вариантов и финального закадра. Пожелание показать ролик коммерческой стороне — не установленный факт о компании.
 
 ### 3D · Скульптурная сцена
 
@@ -3600,7 +3602,7 @@ AVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos.
 **Входы:** см. блок ниже. Клип 1 из 4, плёнка 0:00–0:30.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3633,8 +3635,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:12–0:18] «Одна нить.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3648,7 +3652,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 2 из 4, плёнка 0:30–1:00.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3682,8 +3686,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:32–0:40] «Она ищет форму.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3697,7 +3703,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 3 из 4, плёнка 1:00–1:30.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3731,8 +3737,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Silence except original quiet music and motivated ambience. No speech in this clip. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3746,7 +3754,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 4 из 4, плёнка 1:30–2:00.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3780,8 +3788,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:50–1:58] «Середина ждёт вещь, которую вы выберете.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3799,7 +3809,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 1 из 8, плёнка 0:00–0:15.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3831,8 +3841,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3846,7 +3858,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 2 из 8, плёнка 0:15–0:30.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3879,8 +3891,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3894,7 +3908,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 3 из 8, плёнка 0:30–0:45.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3927,8 +3941,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [0:32–0:40] «Она ищет форму.»
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3942,7 +3958,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 4 из 8, плёнка 0:45–1:00.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -3975,8 +3991,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -3990,7 +4008,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 5 из 8, плёнка 1:00–1:15.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4023,8 +4041,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4038,7 +4058,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 6 из 8, плёнка 1:15–1:30.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4071,8 +4091,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4086,7 +4108,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 7 из 8, плёнка 1:30–1:45.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4119,8 +4141,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4134,7 +4158,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 8 из 8, плёнка 1:45–2:00.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4167,8 +4191,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Treat the 120-second concept as one continuous sculptural installation with a single central hero axis and a consistent black studio horizon. Each clip takes one deliberate arc, dolly or locked shot; never swap the left/right order of gold, glass and pearl, and never cover the blank product proxy with a solid strip during the final hero hold.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:50–1:58] «Середина ждёт вещь, которую вы выберете.»
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4225,7 +4251,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 1 из 4, плёнка 0:00–0:30.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4258,8 +4284,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:08–0:16] «Город не ждёт.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4273,7 +4301,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 2 из 4, плёнка 0:30–1:00.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4307,8 +4335,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:40–0:50] «Кто-то всё же останавливается.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4322,7 +4352,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 3 из 4, плёнка 1:00–1:30.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4356,8 +4386,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:05–1:18] «Свет срывается с витрин и идёт за паузой.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4371,7 +4403,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 4 из 4, плёнка 1:30–2:00.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4405,8 +4437,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:50–1:58] «Пустое место — пока только обещание вечера.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4424,7 +4458,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 1 из 8, плёнка 0:00–0:15.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4456,8 +4490,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4471,7 +4507,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 2 из 8, плёнка 0:15–0:30.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4504,8 +4540,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4519,7 +4557,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 3 из 8, плёнка 0:30–0:45.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4552,8 +4590,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4567,7 +4607,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 4 из 8, плёнка 0:45–1:00.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4600,8 +4640,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4615,7 +4657,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 5 из 8, плёнка 1:00–1:15.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4648,8 +4690,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4663,7 +4707,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 6 из 8, плёнка 1:15–1:30.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4696,8 +4740,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4711,7 +4757,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 7 из 8, плёнка 1:30–1:45.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4744,8 +4790,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4759,7 +4807,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 8 из 8, плёнка 1:45–2:00.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4792,8 +4840,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:50–1:58] «Пустое место — пока только обещание вечера.»
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4850,7 +4900,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 1 из 4, плёнка 0:00–0:30.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4883,8 +4933,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:10–0:18] «Лист был пуст.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4898,7 +4950,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 2 из 4, плёнка 0:30–1:00.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4932,8 +4984,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [0:36–0:48] «Линия ошиблась и пошла снова.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4947,7 +5001,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 3 из 4, плёнка 1:00–1:30.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -4981,8 +5035,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:02–1:14] «Из штриха вышли крыши.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -4996,7 +5052,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 4 из 4, плёнка 1:30–2:00.
 
 ```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Wan 3.0 / Seedance 2.5 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5030,8 +5086,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Proposed author voice-over only, not an approved claim and not a product fact. Speak only these Russian lines, at those film times, and leave the rest of the clip without speech: [1:48–1:58] «Дальше место для вещи, не для нового штриха.» No extra sentence, no brand name, no specification. Original quiet music underneath. No known commercial track.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5049,7 +5107,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 1 из 8, плёнка 0:00–0:15.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5081,8 +5139,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5096,7 +5156,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 2 из 8, плёнка 0:15–0:30.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5129,8 +5189,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5144,7 +5206,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 3 из 8, плёнка 0:30–0:45.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5177,8 +5239,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5192,7 +5256,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 4 из 8, плёнка 0:45–1:00.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5225,8 +5289,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5240,7 +5306,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 5 из 8, плёнка 1:00–1:15.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5273,8 +5339,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:02–1:14] «Из штриха вышли крыши.»
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5288,7 +5356,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 6 из 8, плёнка 1:15–1:30.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5321,8 +5389,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5336,7 +5406,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 7 из 8, плёнка 1:30–1:45.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5369,8 +5439,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. None of the proposed lines fall in this clip.
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
@@ -5384,7 +5456,7 @@ Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No lett
 **Входы:** см. блок ниже. Клип 8 из 8, плёнка 1:45–2:00.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: off
 Optimized for Seedance 2.0 | One clip inside a 120-second edit | Not a finished film and not a single 120-second generation
 
 REFERENCES / AUTHORITY ORDER:
@@ -5417,8 +5489,10 @@ One clear change in this clip. Do not repeat the previous clip and do not freeze
 LIGHTING / MATERIALS:
 Stay inside this treatment's materials only.
 
+CAMERA / CONTINUITY: Keep the same street direction, fixed neon landmarks, left-right screen geography and one ANONYMOUS adult dark-coat silhouette (back/side only; face never shown). One motivated tracking move per clip. Do not invent a different hero or reveal an inconsistent face.
+
 AUDIO:
-Do not generate speech. The 3-second conditioning input is not a second copy of story time. Original quiet music and ambience only. No known commercial track. Editor may later place: [1:48–1:58] «Дальше место для вещи, не для нового штриха.»
+No native speech, music, or sound effects in this generated clip; output video picture only. The 120-second filmwide proposed Russian narration is a SEPARATE editing track in projects/raznoe/references/scenes/scene-4/filmwide-voiceover-120s.json. All cue times there use the whole film clock; none is a local 15s/30s clip time. Do not add spoken words or subtitles to the video.
 
 NEGATIVE PROMPT:
 Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, readable text, subtitles, captions, titles, logos, brand marks, watermarks, numbers, UI, a camera island, a notch, buttons, a finished handset, a slogan burned into the picture, product specifications, a battery icon, a waterproofing demonstration, an official endorsement, flags, a celebrity likeness, a replay of the previous clip. The dark rectangle, when present, stays a blank compositing proxy.
