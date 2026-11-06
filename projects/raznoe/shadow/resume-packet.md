@@ -3,7 +3,7 @@
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project raznoe`; разрешением на запуск не является.
 
 Состояние: needs_recovery
-Проверено: 2026-11-06T20:54:38+00:00
+Проверено: 2026-11-06T21:18:30+00:00
 Задача: не определена — 
 
 Последний подтверждённый этап: нет доказательств
@@ -46,4 +46,5 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
+- project master/status mismatch: raznoe
 - checkpoint anchor missing or ambiguous
