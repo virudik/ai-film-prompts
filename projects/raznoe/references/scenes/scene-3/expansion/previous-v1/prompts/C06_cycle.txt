@@ -1,0 +1,10 @@
+Photoreal live-action 16:9, about 6 seconds. Mission control closing beat.
+
+<IMAGE_0> blue-form engineer identity (no multi-panel). Prefer blank chest patch over fake lettering.
+<IMAGE_1> blue recycling container prop.
+<IMAGE_2> orbital station look for a large monitor image (picture only — no generated captions).
+
+STORY: engineer watches a monitor showing the orbital station; calmly takes an empty clear PET bottle and places it into the blue recycling container. End on the completed deposit.
+Do NOT generate slogan text or titles in-frame. Final phrase is edit-only: «Твой отсортированный мусор уже в пути. Очищаем планету. Очищаем орбиту».
+
+AVOID: crossfade; morph; slideshow; on-screen text; fake logos; letterbox.

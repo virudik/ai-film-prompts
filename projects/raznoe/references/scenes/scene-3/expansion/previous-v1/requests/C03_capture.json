@@ -1,0 +1,43 @@
+{
+  "clip_id": "C03_capture",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "C_orbit",
+  "parallel_ok": false,
+  "arguments": {
+    "filename": "C03_capture.mp4",
+    "duration": 6,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-satellite-manipulator-02.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/A-polymer-gripper-product.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-gripper-capture-scrap.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 6 seconds. Close capture.\n\n<IMAGE_0> manipulator/satellite continuity.\n<IMAGE_1> polymer open-frame gripper design authority.\n<IMAGE_2> polymer lattice gripper securing a metallic scrap — action language, not an exact frame copy. Keep gripper attached as end effector of the white arm when possible.\n\nSTORY: gripper opens, approaches a metallic scrap, gently secures it without a slam. Microgravity inertia. Keep the SAME polymer open-frame gripper — do not swap to a different claw. No logos.\n\nAVOID: crossfade; morph; letterbox; impact sparks as primary effect."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "PROP-satellite-manipulator-02.png",
+      "role": "manipulator/satellite continuity",
+      "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "A-polymer-gripper-product.png",
+      "role": "end-effector design authority",
+      "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "PROP-gripper-capture-scrap.png",
+      "role": "soft capture language: polymer lattice gripper holding metallic scrap — guide, not exact frame",
+      "sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9",
+      "owner_approved": false
+    }
+  ]
+}

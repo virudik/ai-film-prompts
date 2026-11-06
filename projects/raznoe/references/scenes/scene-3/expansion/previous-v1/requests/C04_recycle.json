@@ -1,0 +1,35 @@
+{
+  "clip_id": "C04_recycle",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_authorized_by": "t352u (generate as ready; deliver all attempts to Drive/Sasha; videoReview after)",
+  "launch_group": "C_orbit",
+  "parallel_ok": true,
+  "arguments": {
+    "filename": "C04_recycle.mp4",
+    "duration": 6,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-orbital-press-block.png",
+      "/workspace/RESOURCE-expansion-2026-11-06/assets/PROP-satellite-manipulator-02.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 6 seconds. Staged orbital recycling fiction — ONE process.\n\nPRIMARY <IMAGE_0>: compact orbital press compressing scrap into a neat rectangular metal building block; Earth in porthole OK.\n<IMAGE_1>: craft continuity if needed.\n\nSTORY: captured metal scrap is pressed into one rectangular building block. Show sequential mechanical pressing. END on the formed block.\nDo NOT also assemble the full station in this clip. Not the ISS. Cinematic speculation — not a claim of real on-orbit industrial certification. No logos/text.\n\nAVOID: instant finished station; crossfade; morph; letterbox; ISS modules."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "PROP-orbital-press-block.png",
+      "role": "PRIMARY press forming rectangular metal block in microgravity fiction",
+      "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "PROP-satellite-manipulator-02.png",
+      "role": "craft continuity optional",
+      "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+      "owner_approved": false
+    }
+  ]
+}

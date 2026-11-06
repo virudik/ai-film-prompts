@@ -1,0 +1,38 @@
+{
+  "clip_id": "A04_shred-v2",
+  "replaces": "A04_shred",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_group": "postqc_reject_fix",
+  "arguments": {
+    "filename": "A04_shred-v2.mp4",
+    "duration": 7,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/PROP-shredder-ingestion-v2.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 7 seconds. ONE shredding-ingestion test.\n\nREFERENCES (guides only — NOT exact first/last frames, NOT timed pins):\n<IMAGE_0> close ingestion: a clear PET bottle with blue cap is caught in the nip between rotating steel shredder discs/teeth and is being deformed/torn as it is drawn in.\n\nSTORY — minimal physics:\nSTART: empty clear/blue PET bottle(s) at the intake above the shredder nip.\nACTION: the bottle is mechanically gripped and DRAWN INTO the gap between the solid metal discs — plastic deforms and shreds where engaged. Fragments accumulate below only after material has passed the cutters.\nEND: crushed irregular PET fragments, not intact bottles below the rollers.\n\nCRITICAL PHYSICS: bottles must NOT pass through solid metal discs intact; must NOT bounce whole off the rollers without entering the nip; must NOT teleport into finished flakes. Empty dry PET preferred (no heavy water fountain).\n\nNo people. No logos/text. Hard cuts OK.\nAVOID: crossfade, morph, slideshow, collage, letterbox; fall-through; wall-bounce without capture."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "PROP-shredder-ingestion-v2.png",
+      "role": "PRIMARY: bottle engaged in shredder nip / deformation",
+      "sha256": "6b1badf4acb399511159a51e2ee4d888cd1ee4c2c0e8247a92df26aa4ad2e29c",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Пустая clear/blue PET у приёма шредера",
+    "semantic_end": "Бутылка затянута в зазор валков и разрушена; фрагменты после резки"
+  },
+  "qc_basis": {
+    "v1_file": "/workspace/RESOURCE-video/expanded-wave1/A04_shred-v1.mp4",
+    "v1_relative_timecodes": "0:02–0:04 whole bottles pass through solid metal discs without nip capture/deformation",
+    "assistant_qc": "reject",
+    "input_defect": "v1 FAC-shredder-45736 shows mid-air flying fragments / ambiguous intake — weak for ingestion physics",
+    "video_defect_with_that_input": "fall-through / bounce / instant scatter without mechanical capture",
+    "fix": "new ingestion-nip ref + single physics beat; 7s; remove ambiguous flying-fragment authority"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "clip_id": "C06_cycle-v2",
+  "replaces": "C06_cycle",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_group": "postqc_reject_fix",
+  "arguments": {
+    "filename": "C06_cycle-v2.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/ID-engineer-blue-form-CLEAN-single.png",
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/PROP-blue-bin-45731.png",
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/C-original-lattice-station.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds. Mission-control closing beat — ONE deposit.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\n<IMAGE_0> single waist-up photo of the engineer in dark blue work jacket with reflective chest stripe and clear safety glasses — curly dark brown hair, short beard, black watch. Chest patch is BLANK (no letters). Not a multi-panel sheet.\n\nREFERENCES (guides only — NOT exact frames):\n<IMAGE_1> blue recycling container prop.\n<IMAGE_2> orbital station image for a monitor picture only (no on-screen captions).\n\nSTORY — single continuous action, one camera idea:\nEngineer stands at mission control with a monitor showing the station in the background. He makes ONE calm placement of one empty clear PET bottle into the blue recycling container. END when the bottle is inside the bin.\n\nFORBIDDEN: repeating the throw; hard cut to a different hand/cuff for a second throw; bottle stretching/floating as jelly; any readable chest lettering (MOU..., РОСКОСМОС, etc.) — keep blank patch; slogan text in frame (edit-only later).\n\nKeep blue uniform. Official brand overlay is a later edit step, not generated text.\nAVOID: crossfade, morph, slideshow, letterbox; dual throws; pseudo-logos."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "ID-engineer-blue-form-CLEAN-single.png",
+      "role": "PRIMARY clean single identity; blank chest; no multi-panel; no letters",
+      "sha256": "9eb7d1708be2fb65ee414be3488ca92c1c13ab75abf5c79fb911421ab85381b4",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "PROP-blue-bin-45731.png",
+      "role": "blue recycling bin",
+      "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "C-original-lattice-station.png",
+      "role": "monitor picture only",
+      "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "ЦУП; одна бутылка; инженер в синей форме без надписи на груди",
+    "semantic_end": "Один завершённый бросок/укладка в синий бак"
+  },
+  "qc_basis": {
+    "v1_file": "/workspace/RESOURCE-video/expanded-wave1/C06_cycle-v1.mp4",
+    "v1_relative_timecodes": "first throw ~0:02–0:04; hard cut ~0:04 to different hand (no uniform cuff) and second throw; bottle stretches/floats ~3s; garbage MOU... lettering on uniform",
+    "assistant_qc": "reject",
+    "input_defect": "v1 identity ref was multi-panel sheet WITH readable РОСКОСМОС chest text — prompt asked blank patch but image supplied letters (image wins → MOU...)",
+    "video_defect_with_that_input": "double throw via cut + stretch + pseudo-text",
+    "fix": "clean single blank-chest identity; one continuous deposit; 5s; no multi-panel sheet"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "clip_id": "C03_capture-v2",
+  "replaces": "C03_capture",
+  "status": "STAGE3_READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "arguments": {
+    "filename": "C03_capture-v2.mp4",
+    "duration": 6,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/PROP-satellite-orbit-locked-v2.png",
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/A-polymer-gripper-product.png",
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/PROP-gripper-capture-scrap.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 6 seconds. Close capture.\n\n<IMAGE_0> locked craft / white arm continuity (2 wings).\n<IMAGE_1> polymer open-frame gripper product design authority (SAME as B01/B02 print product — do not invent a new claw).\n<IMAGE_2> polymer lattice gripper securing metallic scrap — action language only.\n\nSTORY: the polymer open-frame gripper as end effector opens, approaches scrap, gently secures it. Keep gripper attached to the white arm. Same product geometry as IMAGE_1. Microgravity. No logos.\nAVOID: crossfade; morph; letterbox; swapping to a different metal claw; panel growth."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "PROP-satellite-orbit-locked-v2.png",
+      "role": "craft/arm continuity",
+      "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "A-polymer-gripper-product.png",
+      "role": "PRODUCT design authority — same as B01/B02",
+      "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 2,
+      "file": "PROP-gripper-capture-scrap.png",
+      "role": "capture action language",
+      "sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Полимерный захват у обломка",
+    "semantic_end": "Обломок мягко зафиксирован тем же продуктом"
+  },
+  "note": "Keeps A-polymer-gripper-product; does not replace with a prettier unrelated gripper"
+}
