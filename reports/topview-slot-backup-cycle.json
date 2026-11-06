@@ -14,8 +14,8 @@
   "lease_commit": "6e3c79198d26aa3b317323701612383da68818c2",
   "started_at": "2026-11-06T18:56:38.924409Z",
   "receipt_started_at": "2026-11-06T19:04:58.844Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Read-only Topview connector all-owned-board all-video-pages",
@@ -34,36 +34,76 @@
       "success": 602,
       "init": 5,
       "fail": 23
-    }
+    },
+    "scope": "all_14_owned_boards_all_18_video_pages"
   },
   "slots": {
     "capacity": 6,
     "occupied": 5,
     "free": 1,
-    "complete_scan_verified": true
+    "complete_scan_verified": true,
+    "source": "read_only_Topview_connector_2026-11-06T19:00:51.190Z"
   },
   "selected_item": "S49B",
   "selected_item_priority": 1.21,
   "new_submissions": 0,
-  "browser_transport": "not_started_existing_unresolved_blocker",
+  "browser_transport": "not_used; previous TinyFish blocker unchanged and no verified restored native input transfer/Unlimited0",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "in_progress",
-  "blocker": "Previous verified S49B native-original-upload/Omni-reference/Unlimited0 blocker remains unresolved; no new evidence to repeat paid TinyFish.",
+  "outcome": "blocked_browser_input_unchanged",
+  "blocker": "S49B: previous native UI preflight failed to locate an exact original-image import/Omni-reference form and visible Unlimited0/credits0; this run found 1 free physical slot but no newly verified UI capability or new owner evidence, so no repeat paid TinyFish run and no Create.",
   "retryable": false,
   "acceptance": {
     "scheduled_runtime": true,
     "full_scan": true,
-    "tinyfish_current_session_verified_this_run": false,
-    "tinyfish_file_upload_verified": false,
+    "topview_read_only_verified": true,
+    "tinyfish_session_checked_this_run": false,
+    "tinyfish_current_file_upload_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
-    "verified_task_id_for_new_submission": false
+    "verified_new_task_id": false
   },
   "prior_run_id": "877e0d14-1534-832d-95eb-886345bf8f12",
-  "updated_at": "2026-11-06T19:04:58.844Z"
+  "updated_at": "2026-11-06T19:06:50.597Z",
+  "queued_candidate": "S49B",
+  "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
+  "queue_reconciliation": {
+    "checked_at": "2026-11-06T19:03:27.732Z",
+    "submitted_count": 15,
+    "submitted_task_ids_checked": 15,
+    "all_submitted_found": true,
+    "all_on_canonical_board": true,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "selected_item_state": "waiting_for_slot",
+    "selected_item_task_id": null
+  },
+  "owner_tasks": {
+    "open_count": 0,
+    "taken_count": 0
+  },
+  "bot_wake": {
+    "issue": 388,
+    "event_id": "slots:c48ed7e4:13",
+    "observed_at": "2026-11-06T18:00:27Z",
+    "status": "old_event_not_replayed_as_new_capacity"
+  },
+  "peer_status": {
+    "work_preferred": true,
+    "work_preference_verified_at": "2026-11-02T11:18:32.530Z",
+    "ordinary_last_run_id": "fc00476a-6d8c-8324-bc74-e9a57262a9be",
+    "work_hh55_last_run_id": "e078ef43-c998-832e-9bc6-d9e9151e96c4",
+    "work_hh55_recorded_status": "no_update",
+    "relay_last_run_id": "31efb020-4c98-832f-af97-79066ab8cd33",
+    "relay_recorded_status": "no_update"
+  },
+  "completed_at": "2026-11-06T19:06:50.597Z",
+  "checked_at": "2026-11-06T19:06:50.597Z",
+  "lease_released_at": "2026-11-06T19:06:50.597Z",
+  "finalization_note": "Exactly this execution lease released in same GitHub CAS commit as final receipt; no Create/claim, no paid UI call, no changed next_action"
 }

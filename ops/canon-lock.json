@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:ff47cd98-2db7-4fac-9fa5-7695b07d8099",
   "task": "Ordinary scheduled Seregius full all-board scan and receipt; no paid browser/Create while unresolved S49B input blocker",
   "acquired_at": "2026-11-06T19:04:00.227Z",
-  "expires_at": "2026-11-06T19:16:00.227Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T19:06:50.597Z",
   "rules": "ops/CANON-LOCK.md"
 }
