@@ -1323,6 +1323,246 @@
    "thumb_bytes": 28396,
    "src_sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736"
   },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 611738,
+   "thumb_bytes": 11934,
+   "src_sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/A-recycled-pet-pellets.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/A-recycled-pet-pellets.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1425906,
+   "thumb_bytes": 58360,
+   "src_sha256": "e1ff9c52506ab256cdfa70225d74c5efa6b1575b071ef449add9791ff8736a29"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1624100,
+   "thumb_bytes": 69648,
+   "src_sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-liftoff-16x9.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-liftoff-16x9.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 575622,
+   "thumb_bytes": 9522,
+   "src_sha256": "1679b2abd60e225561cf54daeaeac6a6ad1d35f0cf6f218374a04efe8c86ab97"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-pad-16x9.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-night-pad-16x9.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1036656,
+   "thumb_bytes": 25818,
+   "src_sha256": "5c31341ea8f9a8e6daac1bdfa57c905e63eeb6982342e81c3fe8c07f95365475"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1204578,
+   "thumb_bytes": 46654,
+   "src_sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1810168,
+   "thumb_bytes": 73796,
+   "src_sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-flakes-45733.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-flakes-45733.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1469809,
+   "thumb_bytes": 57530,
+   "src_sha256": "a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 965190,
+   "thumb_bytes": 28396,
+   "src_sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-shredder-45736.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-shredder-45736.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1761937,
+   "thumb_bytes": 75342,
+   "src_sha256": "56a06d44aa90121bec19b6be35fdf45e41a74640e1cf4252e99f8983b7960dfd"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-compressed-45734.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-compressed-45734.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1555464,
+   "thumb_bytes": 60346,
+   "src_sha256": "3d428665a63eafaba0c52d6ad58bb7a67fac484268d60c59eab758bd424f672f"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-line-45735.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-worker-line-45735.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1399673,
+   "thumb_bytes": 49326,
+   "src_sha256": "c791a8970d715168064cf26b94e47eda508b521ff5a4ae20fdb7924680424f9b"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 517921,
+   "thumb_bytes": 77844,
+   "src_sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-workshop-45726.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1080,
+   "src_height": 720,
+   "src_bytes": 1286943,
+   "thumb_bytes": 70184,
+   "src_sha256": "980ad135ba1749c9e70b262219302763d2e1c406d7cc01e2773b0f0969832921"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/LOC-workshop-45728.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1499209,
+   "thumb_bytes": 53830,
+   "src_sha256": "5f3cc782178e9eb023fb72cecb686a81ef15ae34155aa5ffed64bf4e02e348c5"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-black-bin-45729.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1425133,
+   "thumb_bytes": 47394,
+   "src_sha256": "371a5a11c50174241a826b9ecbc69ca4084e483280241ec4130c4d2063de5c01"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-blue-bin-45731.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1279,
+   "src_height": 720,
+   "src_bytes": 1386117,
+   "thumb_bytes": 45688,
+   "src_sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-held-at-blue.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-held-at-blue.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1209491,
+   "thumb_bytes": 42598,
+   "src_sha256": "166f079ddecf845d2fd94e9d7f502f324f756fdc6cccc43c868df0201daa96c8"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-retrieved-clear-of-bin.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-bottle-retrieved-clear-of-bin.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 913892,
+   "thumb_bytes": 27184,
+   "src_sha256": "78203883ac23c6a4b76b7d5034d3ddf246240a8bf63a1890e3a51e395f3ef61c"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-capture-scrap.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-capture-scrap.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1300656,
+   "thumb_bytes": 46716,
+   "src_sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-seated-on-arm.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-gripper-seated-on-arm.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 948299,
+   "thumb_bytes": 28404,
+   "src_sha256": "8e762aa4d33ececfe901362d595fcce03bdf0f13d9468e54fd02c0a96b9e97e0"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1205748,
+   "thumb_bytes": 43800,
+   "src_sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-extrusion-bead.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 966751,
+   "thumb_bytes": 28806,
+   "src_sha256": "45aa7b2f80271b2a5a2b7631a011c19b5fc95bf29f11332b9f2a9bcb3ee5325c"
+  },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1536,
+   "src_height": 864,
+   "src_bytes": 367873,
+   "thumb_bytes": 59930,
+   "src_sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e"
+  },
   "projects/raznoe/references/scenes/scene-4/01-honor-realism.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/01-honor-realism.png.webp",
    "width": 640,
