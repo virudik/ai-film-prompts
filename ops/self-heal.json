@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "lock-forgotten": {
+      "text": "Замок канона (chatgpt:ordinary:d793beda-169e-49a5-adf7-b595625ce027) истёк 06.11 16:31 UTC и не снят.",
+      "since": "2026-11-06T17:19:43Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-06T17:19:43Z",
+      "escalated_at": null
+    }
+  },
   "log": [
-    {
-      "at": "2026-11-03T09:49:26Z",
-      "kind": "fixed",
-      "key": "lock-forgotten",
-      "text": "Нашёл: Замок канона (chatgpt:ordinary:39ae97ba-d405-46cc-8942-230da452eb24) истёк 03.11 09:17 UTC и не снят. Сделал: снял просроченный замок канона."
-    },
     {
       "at": "2026-11-03T10:19:22Z",
       "kind": "resolved",
@@ -123,7 +125,13 @@
       "kind": "resolved",
       "key": "pages-lag",
       "text": "Прошло: Сайт показывает статус от 2026-11-06T14:30:37Z, а в main уже 2026-11-06T15:02:55Z (отставание 32 мин)."
+    },
+    {
+      "at": "2026-11-06T17:19:43Z",
+      "kind": "fixed",
+      "key": "lock-forgotten",
+      "text": "Нашёл: Замок канона (chatgpt:ordinary:d793beda-169e-49a5-adf7-b595625ce027) истёк 06.11 16:31 UTC и не снят. Сделал: снял просроченный замок канона."
     }
   ],
-  "changed_at": "2026-11-06T15:49:46Z"
+  "changed_at": "2026-11-06T17:19:43Z"
 }
