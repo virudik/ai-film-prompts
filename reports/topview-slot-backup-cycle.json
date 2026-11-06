@@ -13,11 +13,11 @@
   "lease_commit": "69ec681ecafd1a08594606f7c8bfb381313d7217",
   "started_at": "2026-11-06T10:58:54.370336Z",
   "receipt_started_at": "2026-11-06T11:08:04.038Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "scope": "Direct Topview account-wide scan of all 14 boards; 18 nonempty task-list pages; 630 video tasks (601 success,23 fail,6 init); 6 active at My First Board; 15 submitted queue tasks checked by task ID",
+    "scope": "Direct complete Topview scan: 14 boards; 18 nonempty board pages (all 14 board listing scopes; 630 videos); independent My First Board active page at cycle end; all 15 submitted queue task IDs reconciled; robot status corroborates 6/6 at 11:10:23Z",
     "boards_scanned": 14,
     "pages_scanned": 18,
     "video_tasks_scanned": 630,
@@ -34,7 +34,14 @@
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6"
     ],
-    "checked_at": "2026-11-06T11:08:04.038Z"
+    "checked_at": "2026-11-06T11:13:47.054Z",
+    "readiness_checked_at": "2026-11-06T11:10:28.090672Z",
+    "queue_sha256_independently_verified": true,
+    "task_map_sha256_independently_verified": true,
+    "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "source_task_map_sha256": "96a525055a84b10dcb818e7997e5957f647a3b4d3501055d70fc60c98b8bce2f",
+    "active_all_my_first_board": true,
+    "all_active_unlimited_zero": true
   },
   "slots": {
     "capacity": 6,
@@ -68,11 +75,23 @@
     "ready_items_in_derived_readiness": 26,
     "next_candidate": "S49B",
     "next_priority": 1.21,
-    "create_authorized": false
+    "create_authorized": false,
+    "unresolved_claimed_submitting_unknown": 0,
+    "all_submitted_15_topview_ids_verified": true,
+    "readiness_hashes_match": true
   },
   "owner_tasks": {
     "open": 0
   },
   "prior_run_id": "04fbf634-1174-8325-8016-387d08d4504d",
-  "updated_at": "2026-11-06T11:08:04.038Z"
+  "updated_at": "2026-11-06T11:13:47.054Z",
+  "completed_at": "2026-11-06T11:13:47.054Z",
+  "telemetry_recovery": {
+    "observed_at": "2026-11-06T11:10:26Z",
+    "robot_health": "ok",
+    "previous_unmapped_active_resolved": true,
+    "robot_active_scene49_recognized": true,
+    "robot_last_cycle": "ok"
+  },
+  "lease_released_at": "2026-11-06T11:13:47.054Z"
 }
