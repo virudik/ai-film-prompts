@@ -13,33 +13,47 @@
   "lease_commit": "da502b83eb115f2939cee46313bd4cfdb8e7f70e",
   "started_at": "2026-11-06T07:04:20.049235Z",
   "receipt_started_at": "2026-11-06T07:11:40.113Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
-    "complete": false,
-    "method": "Topview connector read-only scan underway",
-    "boards": null,
-    "pages": null,
-    "total_video_tasks": null,
-    "status_counts": null,
-    "active_task_ids": null,
-    "checked_at": null
+    "complete": true,
+    "method": "Direct read-only Topview connector full 14-board/18-page video scan",
+    "boards": 14,
+    "pages": 18,
+    "total_video_tasks": 630,
+    "status_counts": {
+      "success": 601,
+      "fail": 23,
+      "init": 6
+    },
+    "active_task_ids": [
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6"
+    ],
+    "scope": "14 boards; 18 paginated mediaType=video task pages; 630 videos; 15 submitted task IDs checked separately using get_board_task; final full-scan at 07:18Z",
+    "scan_started_at": "2026-11-06T07:18:16.304Z",
+    "checked_at": "2026-11-06T07:18:21.689Z",
+    "all_active_verified_unlimited_zero_720p_16_9": true
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false,
-    "observation_at": null
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true,
+    "observation_at": "2026-11-06T07:18:21.689Z"
   },
   "new_submissions": 0,
-  "browser_transport": "not_used_pending_scan",
+  "browser_transport": "not_used_no_free_slot",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "started",
+  "outcome": "no_free_slot_direct_full_scan",
   "blocker": null,
   "retryable": true,
   "task_ids": [],
@@ -49,8 +63,49 @@
     "tinyfish_file_transfer_verified": false,
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
-    "new_task_id_verified": false
+    "new_task_id_verified": false,
+    "previous_submitted_task_ids_verified": 15,
+    "all_6_active_unlimited_credits_zero": true
   },
-  "checked_at": "2026-11-06T07:11:40.113Z",
-  "completed_at": null
+  "checked_at": "2026-11-06T07:20:04.402Z",
+  "completed_at": "2026-11-06T07:20:04.402Z",
+  "peer_reconciliation": {
+    "ordinary_runtime_run_id": "e164a0e8-6814-832a-98cb-2036c47b4f78",
+    "relay_last_observed_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+    "work_hourly_last_observed_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c",
+    "work_hourly_enabled_observed": false,
+    "robot_telemetry_checked_at": "2026-11-06T05:40:25Z",
+    "robot_snapshot_stale_after_S49A": true
+  },
+  "queue_reconciliation": {
+    "queue_count": 63,
+    "queue_state_counts": {
+      "blocked_owner_decision": 1,
+      "submitted": 15,
+      "waiting_for_slot": 26,
+      "blocked_inputs": 21
+    },
+    "submitted_count": 15,
+    "submitted_task_ids_verified": 15,
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "next_candidate_item": "S49B",
+    "next_candidate_priority": 1.21,
+    "queue_updated_at": "2026-11-06T05:48:24Z",
+    "readiness_checked_at": "2026-11-06T05:48:42.605621Z",
+    "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "readiness_source_task_map_sha256": "ade6b25b4c49cb5547c7e56bccf8075b54ccd439290c300d3011b2f8681a0429",
+    "hashes_verified_in_this_run": true,
+    "verification": "raw UTF-8 SHA-256 independently calculated and compared to readiness; blob SHA rechecked before final write"
+  },
+  "owner_tasks_consistency": {
+    "open_or_taken": 0
+  },
+  "lease": {
+    "holder": "chatgpt:ordinary:fba75dfc-c291-47b3-a7fd-fc9ace330836",
+    "acquired_at": "2026-11-06T07:10:41.829Z",
+    "released_at": "2026-11-06T07:20:04.402Z",
+    "release": "exact_own_lease_same_CAS_commit"
+  }
 }
