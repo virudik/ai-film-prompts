@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:6e3c66d2-8520-4c57-9735-dbfb42a8a717",
-  "task": "Серёгиус: ordinary HH:00 full scan and cycle receipt",
-  "acquired_at": "2026-11-06T13:40:08.785Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T13:44:19.498Z",
+  "state": "held",
+  "holder": "chatgpt:work:97c0e05e-d1a3-41b1-ae27-ce94683a0ac6",
+  "task": "Серёгиус: закрытие проверки Images, доставка linkfix Саше, факты Continue",
+  "acquired_at": "2026-11-06T13:56:34.191213+00:00",
+  "expires_at": "2026-11-06T14:16:34.191213+00:00",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
