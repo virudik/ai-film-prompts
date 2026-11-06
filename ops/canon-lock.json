@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:ordinary:e803d4ba-7638-4927-85e6-a0c74a8caf66",
-  "task": "Ordinary scheduled Seregius full read-only slot scan, dedup and no-op cycle receipt; native TinyFish blocker unchanged",
-  "acquired_at": "2026-11-06T22:08:36.602Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T22:12:29.208Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:scene73-credits-20261107",
+  "task": "Owner request: new Seregius throne scene 73, closing credits plan and post-credits bridge; no Topview launch",
+  "acquired_at": "2026-11-06T22:22:48.872Z",
+  "expires_at": "2026-11-06T22:57:48.872Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
