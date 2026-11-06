@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "state": "held",
-  "holder": "chatgpt:work:93c791ea-000f-442e-90b9-13502501c5c1",
-  "task": "RESOURCE/HONOR: проверенные референсы и точные промпты; завершение прежних задач",
-  "acquired_at": "2026-11-06T14:17:02Z",
-  "expires_at": "2026-11-06T15:02:02Z",
+  "holder": "chatgpt:ordinary:honor-reference-20261106-1738",
+  "task": "Разное — официальная модель HONOR Magic9 Pro Max: текстовый reference-brief и безопасная коррекция блокеров сцены 4",
+  "acquired_at": "2026-11-06T17:37:14.585Z",
+  "expires_at": "2026-11-06T18:02:14.585Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
