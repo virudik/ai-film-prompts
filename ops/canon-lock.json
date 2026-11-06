@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt:work:98d70903-c10c-4328-a8c9-1fbfa957f21a",
-  "task": "Relay #372 receipt and slot reconciliation",
-  "acquired_at": "2026-11-06T05:53:40.871Z",
-  "expires_at": null,
-  "released_at": "2026-11-06T05:55:39.064Z",
+  "state": "held",
+  "holder": "chatgpt:ordinary:6d0be4f8-c7fd-4fc5-875e-611998c9def9",
+  "task": "Seregius ordinary HH:00 real read-only slot reconciliation and receipt",
+  "acquired_at": "2026-11-06T06:10:00.284Z",
+  "expires_at": "2026-11-06T06:25:00.284Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
