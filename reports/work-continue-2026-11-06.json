@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "seregius",
   "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
-  "stage": "intake_verified_followups_pending",
+  "stage": "shift_accepted_notifications_verified_preparing_continuity",
   "checked_at": "2026-11-06T11:26:13.016Z",
   "source_head": "66da02aa532fa99c77d3778f5a24bfe93c1b3971",
   "execution_instance_id": "bd1397c6-535b-4ed1-8d8f-771cb7efd03d",
@@ -372,5 +372,105 @@
     "Persist results and receipt, reread main and verify preflight.",
     "Observe existing tasks; at a genuine free slot fresh complete scan and selected ready authorized item only; no repeats of submitted S63/S64/S49A."
   ],
-  "foreground_epoch": 4
+  "foreground_epoch": 4,
+  "updated_at": "2026-11-06T11:34:16+00:00",
+  "latest_source_head": "65b73724d31e7462e29f57f1eec2516d3ec2415c",
+  "automations_after": {
+    "verified_at": "2026-11-06T11:33:32.777Z",
+    "automations": [
+      {
+        "id": "6acae6ab433481919e88665c520b8ef2",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+        "updated_at": "2026-11-06T11:32:06.254509+00:00",
+        "prompt_exact": true,
+        "prompt_prefix_preserved": true,
+        "runtime_last_run": {
+          "id": "0696a58c-bd14-8333-960c-4a7757864e1c",
+          "recorded_status": "completed",
+          "scheduled_for": "2026-11-05T19:55:00Z",
+          "started_at": "2026-11-05T19:53:48.336031Z",
+          "completed_at": "2026-11-05T20:05:08.115020Z",
+          "chat_ref": {
+            "type": "chatgpt",
+            "id": "6acae851-4f7c-83ed-a459-e371ce64a39f"
+          }
+        }
+      },
+      {
+        "id": "6adc585e7ac08191bb93825117dc7213",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nX-UNSCHEDULED:1\nEND:VEVENT",
+        "updated_at": "2026-11-06T11:32:09.673436+00:00",
+        "prompt_exact": true,
+        "prompt_prefix_preserved": true,
+        "runtime_last_run": {
+          "id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
+          "recorded_status": "completed",
+          "scheduled_for": "2026-11-06T06:54:59.786889Z",
+          "started_at": "2026-11-06T06:55:01.960301Z",
+          "completed_at": "2026-11-06T06:56:17.684716Z",
+          "chat_ref": {
+            "type": "chatgpt",
+            "id": "6adbf0f6-c40c-83eb-8d3a-8b2199600096"
+          }
+        }
+      },
+      {
+        "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART:20261031T181310Z\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+        "updated_at": "2026-11-06T11:31:54.859084+00:00",
+        "prompt_exact": true,
+        "prompt_prefix_preserved": true,
+        "runtime_last_run": {
+          "id": "c7bd9924-745c-8330-9258-e6af41716263",
+          "recorded_status": "completed",
+          "scheduled_for": "2026-11-06T11:00:00Z",
+          "started_at": "2026-11-06T10:58:54.370336Z",
+          "completed_at": "2026-11-06T11:20:50.904802Z",
+          "chat_ref": {
+            "type": "chatgpt",
+            "id": "6ae605c7-cb60-83ed-88ab-cdac32a3b684"
+          }
+        }
+      }
+    ],
+    "relay_subscription": [
+      {
+        "id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+        "event": "relay.message",
+        "arguments": {},
+        "agent": "chatgpt",
+        "delivery": "webhook",
+        "callback_host": "connectors.api.openai.com",
+        "active": true,
+        "status": "active",
+        "refresh_before": "2026-11-12T03:44:05.191Z",
+        "last_delivery_at": "2026-11-06T06:54:54.081Z",
+        "last_error": null,
+        "pending_deliveries": 0
+      }
+    ],
+    "recovery_prompt_append": "\n\nЦЕЛОСТНОСТЬ ПРОДОЛЖЕНИЯ (ops/CONTINUE-PROTOCOL.md и scripts/resume_state.py). Не меняй next_action выбранной активной работы отдельно от её recovery.next_action и привязанного checkpoint. При реальном изменении следующего шага в той же CAS-транзакции сохрани актуальную секцию reports/current-work-checkpoint.md и стабильное фактическое evidence, выполни resume_state.py --capture для того же work_id (либо точный API-эквивалент с SHA секции/evidence), пересобери resume packet и проверь continue_preflight: ready_for_resume=true. Обычный no-op не переписывает следующий шаг. Не связывай recovery только с постоянно меняющейся телеметрией, не выдумывай результат/время/ID. Незавершённые claims/task IDs сохраняются.",
+    "intake_commit": "e170f491468882c92b916b899a38c9d0690965a0",
+    "first_scheduled_cycle_after_restore": "not_yet_observed",
+    "current_chat_auto_wake": "unverified; existing handler conversation retained",
+    "robot_routing": "unchanged: Grok issue assignment plus ChatGPT Relay DM"
+  },
+  "validation": {
+    "relay_robot_recovery_tests_passed": 86,
+    "continue_launcher_tests_passed": 90,
+    "continue_preflight": "ready_for_resume=true; reasons=[]",
+    "notes": "No code change; existing two-channel robot routing preserved. No background run after re-enable claimed.",
+    "required_integration_tests_passed": 344,
+    "instruction_consistency": "ok; problems=[]",
+    "continue_ui_cases": "passed ready/stale/missing/unsafe/future-time and project isolation"
+  },
+  "next_preparation": {
+    "S52-R2-SEED20-P2": "Existing true last3s already saved; continuous playback with sound remains required. Do not recreate.",
+    "S60-SEED20-P2": "Download existing archived025955aad2cf494da2b4104d26c36ed5, verify SHA, prepare true last3s and last frame; visual/audio QC still required.",
+    "S61-SEED20-P2": "Download existing archivedc72c1ab4524e4f2f9d3a0272474f788a, verify SHA, prepare true last3s and last frame; visual/audio QC still required.",
+    "first_current_ready": "S49B priority1.21; only after a fresh free-slot/full preflight."
+  }
 }
