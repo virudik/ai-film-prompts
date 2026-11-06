@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "scene": 3,
+  "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
+  "updated_at": "2026-11-06T18:04:46.618Z",
+  "origin_active_cut_sha": "4ce258270d6eeb11ce74844f39b1a7ff931d68db",
+  "original_cut_19_clips_114s_preserved": true,
+  "original_prompts_requests_preserved": true,
+  "integrated_in_active_cut": false,
+  "submitted": 0,
+  "credits_spent": 0,
+  "editorial_status": "not_approved",
+  "items": [
+    {
+      "clip_id": "A06_print",
+      "revises": "A06_print",
+      "duration_s": 8,
+      "start": "Идёт аддитивная печать открытого полимерного захвата",
+      "end": "Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате",
+      "reference_count": 3,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png",
+          "sha256": "5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67",
+          "role": "PROP-print-layer-contact.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "role": "A-polymer-gripper-product.png"
+        },
+        {
+          "slot": 2,
+          "token": "<IMAGE_2>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png",
+          "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
+          "role": "FAC-polymer-print-45737.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 8 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png (sha256 5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67); canonical main; role: PROP-print-layer-contact.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png (sha256 aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0); canonical main; role: A-polymer-gripper-product.png\n\n<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/FAC-polymer-print-45737.png (sha256 802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736); canonical main; role: FAC-polymer-print-45737.png\n\nSTART: Идёт аддитивная печать открытого полимерного захвата\n\nACTION: Single nozzle extrudes a thin bead touching the EXISTING polymer lattice, adds one adherent layer, then lifts. Same diagonals and original holes; no drilling, resin pour, blob or extra object.\n\nEND: Виден новый слой/валик экструзии на формирующемся матовом полимерном захвате\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "B02_install",
+      "revises": "B02_install",
+      "duration_s": 8,
+      "start": "Захват подносят к креплению манипулятора спутника",
+      "end": "Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен",
+      "reference_count": 5,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "role": "ID-engineer-blue-form-01.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "role": "A-polymer-gripper-product.png"
+        },
+        {
+          "slot": 2,
+          "token": "<IMAGE_2>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png"
+        },
+        {
+          "slot": 3,
+          "token": "<IMAGE_3>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "B-satellite-assembly-stand.png"
+        },
+        {
+          "slot": 4,
+          "token": "<IMAGE_4>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png",
+          "sha256": "876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e",
+          "role": "PROP-satellite-manipulator-02.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 8 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png (sha256 a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587); canonical main; role: ID-engineer-blue-form-01.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png (sha256 aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0); canonical main; role: A-polymer-gripper-product.png\n\n<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png (sha256 fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4); canonical main; role: PROP-polymer-gripper-mounted-open.png\n\n<IMAGE_3> projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png (sha256 b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3); canonical main; role: B-satellite-assembly-stand.png\n\n<IMAGE_4> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png (sha256 876ca6777260f2ac89c9662c718aa276ae22205885c71790a8d7f1841583124e); canonical main; role: PROP-satellite-manipulator-02.png\n\nSTART: Захват подносят к креплению манипулятора спутника\n\nACTION: Blue-uniform engineer mounts same rigid lattice on the final white-arm flange using existing bolt holes. Separate interior steel jaws stay open; only the bolts tighten. Craft is unchanged and keeps TWO solar wings.\n\nEND: Тот же полимерный захват закреплён на манипуляторе; крепёж/стык проверен\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "B03_build",
+      "revises": "B03_build",
+      "duration_s": 6,
+      "start": "Спутник на стенде частично собран",
+      "end": "Крышки/панели/манипулятор установлены последовательно",
+      "reference_count": 4,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "B-satellite-assembly-stand.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png"
+        },
+        {
+          "slot": 2,
+          "token": "<IMAGE_2>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png",
+          "sha256": "5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac",
+          "role": "ATM-cleanroom-assembly-extra.png"
+        },
+        {
+          "slot": 3,
+          "token": "<IMAGE_3>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "role": "ID-engineer-blue-form-01.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 6 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png (sha256 b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3); canonical main; role: B-satellite-assembly-stand.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png (sha256 fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4); canonical main; role: PROP-polymer-gripper-mounted-open.png\n\n<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/ATM-cleanroom-assembly-extra.png (sha256 5de9f2952dc335a6e4b83e3c2d4618367d5959febb575ecfb5575226d062e9ac); canonical main; role: ATM-cleanroom-assembly-extra.png\n\n<IMAGE_3> projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png (sha256 a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587); canonical main; role: ID-engineer-blue-form-01.png\n\nSTART: Спутник на стенде частично собран\n\nACTION: Finish fitting covers and exactly two existing solar wings onto the same chassis, one arm, one correctly bolted rigid gripper. No assembling a second satellite or changing the housing shape.\n\nEND: Крышки/панели/манипулятор установлены последовательно\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "B04_check",
+      "revises": "B04_check",
+      "duration_s": 5,
+      "start": "Инженер у аппарата",
+      "end": "Общий вид готового спутника с панелями и манипулятором",
+      "reference_count": 3,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png",
+          "sha256": "a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587",
+          "role": "ID-engineer-blue-form-01.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "B-satellite-assembly-stand.png"
+        },
+        {
+          "slot": 2,
+          "token": "<IMAGE_2>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 5 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/ID-engineer-blue-form-01.png (sha256 a67908a4201bf73a8f764d0bed83c090fb8541619acc623fc97faa0cd6f8c587); canonical main; role: ID-engineer-blue-form-01.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png (sha256 b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3); canonical main; role: B-satellite-assembly-stand.png\n\n<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png (sha256 fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4); canonical main; role: PROP-polymer-gripper-mounted-open.png\n\nSTART: Инженер у аппарата\n\nACTION: Engineer visually checks the bolt flange and extends ONLY the white arm at a mechanical hinge, then steps aside. Wide hero view with unchanged chassis, exactly TWO panels and one rigid polymer gripper.\n\nEND: Общий вид готового спутника с панелями и манипулятором\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "C01_orbit",
+      "revises": "C01_orbit-v2",
+      "duration_s": 5,
+      "start": "Тот же аппарат на орбите; 2 панели уже раскрыты",
+      "end": "Облёт без смены числа панелей и без плывущего крепления руки",
+      "reference_count": 2,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "PROP-satellite-orbit-locked-v2.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "role": "B-satellite-assembly-stand.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 5 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png (sha256 db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b); canonical main; role: PROP-satellite-orbit-locked-v2.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/B-satellite-assembly-stand.png (sha256 b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3); canonical main; role: B-satellite-assembly-stand.png\n\nSTART: Тот же аппарат на орбите; 2 панели уже раскрыты\n\nACTION: Orbit smoothly around the already deployed two-panel craft; exactly two solar wings from first frame, one mounted manipulator. No panel deployment or growth during the shot.\n\nEND: Облёт без смены числа панелей и без плывущего крепления руки\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "C02_debris",
+      "revises": "C02_debris-v2",
+      "duration_s": 5,
+      "start": "Тот же 2-крылый аппарат; облако металлического мусора",
+      "end": "Манипулятор начинает выдвигаться к обломку",
+      "reference_count": 2,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "PROP-satellite-orbit-locked-v2.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png",
+          "sha256": "fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4",
+          "role": "PROP-polymer-gripper-mounted-open.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 5 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png (sha256 db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b); canonical main; role: PROP-satellite-orbit-locked-v2.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-mounted-open.png (sha256 fb5d9dd0062c558fe1783342379e2af1de373c2d1cd2a1f71ae4247fe3970db4); canonical main; role: PROP-polymer-gripper-mounted-open.png\n\nSTART: Тот же 2-крылый аппарат; облако металлического мусора\n\nACTION: One mounted white arm extends toward one irregular folded thin metal plate; the plate's torn tongue is still outside the gap between OPEN separate metal jaws. Frame rigid and unchanged. No contact yet.\n\nEND: Манипулятор начинает выдвигаться к обломку\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "C03_capture",
+      "revises": "C03_capture-v2",
+      "duration_s": 6,
+      "start": "Полимерный захват у обломка",
+      "end": "Обломок мягко зафиксирован тем же продуктом",
+      "reference_count": 3,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "PROP-satellite-orbit-locked-v2.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "role": "A-polymer-gripper-product.png"
+        },
+        {
+          "slot": 2,
+          "token": "<IMAGE_2>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png",
+          "sha256": "d378987cbe9e5b313e43572243c1e1984462064e6fe649bdc63e682dcfd0b5a3",
+          "role": "PROP-polymer-gripper-capture-contact.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 6 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png (sha256 db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b); canonical main; role: PROP-satellite-orbit-locked-v2.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/A-polymer-gripper-product.png (sha256 aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0); canonical main; role: A-polymer-gripper-product.png\n\n<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-polymer-gripper-capture-contact.png (sha256 d378987cbe9e5b313e43572243c1e1984462064e6fe649bdc63e682dcfd0b5a3); canonical main; role: PROP-polymer-gripper-capture-contact.png\n\nSTART: Полимерный захват у обломка\n\nACTION: Thin bent plate tongue enters the end opening without crossing polymer struts. Arm stops. ONLY TWO independent inner METAL jaws slide along short guides inward and clamp one plate. Rigid polymer frame never opens, bends, or detaches.\n\nEND: Обломок мягко зафиксирован тем же продуктом\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "C04_recycle",
+      "revises": "C04_recycle-v2",
+      "duration_s": 6,
+      "start": "Фрагмент в пресс-модуле",
+      "end": "Прямоугольный блок сформирован",
+      "reference_count": 3,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+          "sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
+          "status": "private_library_not_on_site",
+          "library_file_id": "libfile_097cf5615ae081919d2273523d3acac1",
+          "role": "PROP-press-scrap-loaded.png"
+        },
+        {
+          "slot": 1,
+          "token": "<IMAGE_1>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png",
+          "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+          "role": "PROP-orbital-press-block.png"
+        },
+        {
+          "slot": 2,
+          "token": "<IMAGE_2>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "role": "PROP-satellite-orbit-locked-v2.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 6 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png (sha256 6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4); private_library_not_on_site; role: PROP-press-scrap-loaded.png\n\n<IMAGE_1> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-orbital-press-block.png (sha256 dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160); canonical main; role: PROP-orbital-press-block.png\n\n<IMAGE_2> projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-orbit-locked-v2.png (sha256 db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b); canonical main; role: PROP-satellite-orbit-locked-v2.png\n\nSTART: Фрагмент в пресс-модуле\n\nACTION: One bent torn plate is already loaded between flat, rigid compression platens; upper platen descends on guides, plastically crushes the SAME metal into one rectangular block, then stops. No added mass, station assembly or arbitrary morph.\n\nEND: Прямоугольный блок сформирован\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "blocked_missing_public_png",
+      "execute_now": false,
+      "approved": false
+    },
+    {
+      "clip_id": "C05_station",
+      "revises": "C05_station-v2",
+      "duration_s": 5,
+      "start": "Широкий план оригинальной станции",
+      "end": "Отъезд с Землёй в кадре",
+      "reference_count": 1,
+      "references": [
+        {
+          "slot": 0,
+          "token": "<IMAGE_0>",
+          "path": "projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png",
+          "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+          "role": "C-original-lattice-station.png"
+        }
+      ],
+      "prompt": "Photoreal cinematic near-future science-fiction, 16:9, 5 seconds, single continuous clip. Scene 3 RESOURCE, unapproved draft. Not a real satellite recycling claim.\n\nREFERENCES / ORDER:\n\n<IMAGE_0> projects/raznoe/references/scenes/scene-3/expansion/assets/C-original-lattice-station.png (sha256 608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e); canonical main; role: C-original-lattice-station.png\n\nSTART: Широкий план оригинальной станции\n\nACTION: Reveal the already-built original fictional modular lattice station with Earth behind; camera retreats slightly. A recycled metal block is a conceptual material only, it must not magically transform into a whole station.\n\nEND: Отъезд с Землёй в кадре\n\nCAMERA: stable three-quarter view, one motivated movement; show physical contacts clearly and retain left-right screen direction.\n\nCONTINUITY: identity locks, same arm attachment, rigid closed polymer geometry, exactly 2 satellite wings, same plastic or single metal fragment across adjacent clips.\n\nAUDIO: only motivated ambience where physically possible; exterior vacuum is silent. No dialogue. Postproduction music/voiceover only.\n\nFORBIDDEN: morphs, teleporting objects, duplicate scraps/bottles, extra panels/jaws, new holes, frame opening, collision clipping, branded text, black bars, slogans and watermarks.\n\nEXECUTION: DRAFT ONLY. Do not generate until exact local image bytes/sha256 verified, visible zero-credit authorization and owner's explicit scope; C04 IMAGE0 missing from public repository.",
+      "draft_state": "ready_for_review_no_launch",
+      "execute_now": false,
+      "approved": false
+    }
+  ],
+  "next_action": "Upload PROP-press-scrap-loaded.png from verified Library file libfile_097cf5615ae081919d2273523d3acac1 to its canonical GitHub path, verify exact sha256 and public Pages, then review nine draft prompts, integrate refs without changing elapsed seconds or old v1 requests."
+}
