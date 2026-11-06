@@ -4,11 +4,11 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**02.11.2026 · 2 сцены к генерации/доработке · 24 полных текста промта (по 4 × 30 с + 8 × 15 с на сцену) · 59/59 референсов сохранены, не одобрены; обе сцены DRAFT, видео не запускались.**
+**06.11.2026 · 3 сцены к генерации/доработке · 29 полных текста промта (сцены 1–2: по 4 × 30 с + 8 × 15 с; сцена 3: исходник Grok Imagine 2 × 15 с и адаптации Wan 30 с + Seedance 2 × 15 с) · референсы сцен 1–2 и десять кадров сцены 3 сохранены, не одобрены; три сцены DRAFT, видео не запускались.**
 
 - **🛠️ 0** рабочих направлений W.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя полная синхронизация:** **02.11.2026 · оба сюжета и 24 промпта сохранены; 59/59 отдельных PNG прикреплены к персонажам, раскадровкам и сценам. Техническая готовность не означает художественного одобрения; видео не запускались.**
+- **Последняя полная синхронизация:** **06.11.2026 · сцена 3 RESOURCE добавлена отдельным фотореалом 16:9; сцены 1–2 не менялись; видео не запускались.**
 
 **Референсы · 02.11.2026:** **59/59** сохранены: сцена 1 — **26/26**, сцена 2 — **33/33**. Все `not_approved`, ожидают просмотра владельцем. [Исходное задание](projects/raznoe/references/GPT-TASK.md) · [реестр](projects/raznoe/references/generation-progress.json). **Разрешения на платные видео нет.**
 
@@ -18,10 +18,11 @@
 |---|---|---|---|
 | 1 | [Тихий маяк — история Ярика](#scene-1) | Ярик, мама Лена, Соня, Анна Сергеевна, пёс Бублик, Варя | Мальчик с особенностями развития рассказывает о громком внутреннем мире и о людях, которые становятся его маяком. 4 ролика по 30 с (B1–B4) или 8 подсцен по 15 с (A1–A8) |
 | 2 | [Тихая планета — история Мирона](#scene-2) | Мирон, мама Вера, бабушка Нина, Дарья Андреевна, доктор Марк Львович, парикмахер Лиля, лошадь Туман | Мальчик с аутизмом рассказывает о громком мире, трудных днях, бабушке, которая нашла помощь, успехах, школе и надежде. Структура рилса, вертикаль 9:16, 4 ролика по 30 с или 8 по 15 с |
+| 3 | [RESOURCE](#scene-3) | Инженер (лист 45726), работница сортировки | Фотореал 16:9, около 30 с: мастерская и синий контейнер, затем завод, шредер, хлопья и полимерный захват. Исходник Grok Imagine 2 × 15 с. Не одобрено |
 
 ## Сцены в работе
 
-Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Платных и бесплатных видеозапусков по этим сценам нет. Следующий шаг — художественная проверка и выбор клиентского объёма. Старые космические сцены — в проекте «Роскосмос».
+Сцены 1 и 2 — **DRAFT**; все **26/26** и **33/33** референсов технически готовы, но **not_approved**. Сцена 3 RESOURCE — отдельный фотореал 16:9, тоже **DRAFT** и **not_approved**; десять исходных кадров на месте, металлический финал только в архиве. Платных и бесплатных видеозапусков нет, очередь не менялась. Следующий шаг по сценам 1–2 — художественная проверка и выбор клиентского объёма. Старые космические сцены — в проекте «Роскосмос».
 
 <a id="misc-pricing"></a>
 ## Стоимость производства (простыми словами, редакция 03.11.2026, версия 3)
@@ -2313,3 +2314,470 @@ Fill the entire generated vertical 9:16 portrait frame edge to edge, 720×1280. 
 
 </div>
 </div>
+
+<a id="scene-3"></a>
+## Сцена 3 — RESOURCE
+
+<!-- scene-meta: {"target_engine":"Grok Imagine Video","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","photoreal","landscape_16x9","reference_first","raznoe_scene_3","source_grok_imagine"]} -->
+
+**Контекст использования:** отдельный фотореалистичный ролик около 30 секунд. Он не продолжает мультфильмы «Тихий маяк» и «Тихая планета» и не относится к Роскосмосу или Терра Тех. Опубликована только часть 1 из 3 исходной папки; части 2–3 не придуманы. Модель исходника — Grok Imagine Video, две генерации по 15 секунд. Это не уже снятый ролик Topview и не ролик Wan.
+
+**Что происходит:** инженер с кудрявыми тёмно-каштановыми волосами, короткой бородой и без очков смотрит чертёж в мастерской, роняет прозрачную бутылку в чёрный бак, передумывает, достаёт ту же бутылку и бросает её в синий контейнер. Конец первой части — бутылка входит в синий контейнер. Вторая часть начинается с этого кадра и монтажным переходом уходит на завод: работница сортирует бутылки, шредер, прозрачные и синие хлопья, промышленная 3D-печать открытого захвата для будущего спутникового манипулятора. Захват — матовый полимер со слоями и синими включениями, не фрезерованный металл. Главного инженера на заводе нет. Новых людей, логотипов и титров нет. Это постановочная картина, а не подтверждённая цепочка переработки.
+
+**Готовность:** DRAFT. Все десять кадров not_approved. Видео не запускалось и в очередь Topview не ставилось. Исправленный финал — `10-45737.png`. Прежний металлический кадр хранится только как `projects/raznoe/archive/scene-3/45737-old.png` и в галерею не входит.
+
+**Формат кадра:** у этой сцены свой горизонтальный кадр 16:9. Сцены 1 и 2 не переводились на этот формат.
+
+**Стык частей:** исходник требует вырезать последний кадр части 1 и поставить его точным первым кадром части 2. Так записана вкладка Grok Imagine. Вкладка Seedance 2.0 использует принятый для этого движка вход @Video1 — последние 3 секунды настоящего результата части 1; это адаптация, а не тихая подмена правила исходника и не команда на запуск. Пока части 1 нет, часть 2 запускать не из чего. Вкладка 30 секунд — один ролик: стык внутри, на 15-й секунде, без внешнего продолжения.
+
+**Дословный бриф:** [source-prompt.txt](projects/raznoe/references/scenes/scene-3/source/source-prompt.txt) · [Prompt.docx](projects/raznoe/references/scenes/scene-3/source/Prompt.docx). Заметки сборки не являются источником: `projects/raznoe/archive/scene-3/handoff.md`. Закадрового текста в брифе нет; русский текст озвучки не сочинялся и владельцу не приписан.
+
+**Порядок кадров:** 45726 лист · 45728 чертёж · 45729 чёрный бак · 45731 у синего контейнера · 45732 бросок · 45734 сортировка · 45735 работница · 45736 шредер · 45733 хлопья · 45737 полимерный захват.
+
+<div class="scene-ref-gallery"><figure><a href="projects/raznoe/references/scenes/scene-3/01-45726.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/01-45726.png" alt="45726 — не одобрено" loading="lazy"></a><figcaption>45726 · лист инженера · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/02-45728.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/02-45728.png" alt="45728 — не одобрено" loading="lazy"></a><figcaption>45728 · чертёж в мастерской · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/03-45729.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/03-45729.png" alt="45729 — не одобрено" loading="lazy"></a><figcaption>45729 · бутылка в чёрный бак · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/04-45731.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/04-45731.png" alt="45731 — не одобрено" loading="lazy"></a><figcaption>45731 · у синего контейнера · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/05-45732.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/05-45732.png" alt="45732 — не одобрено" loading="lazy"></a><figcaption>45732 · бросок в синий контейнер · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/06-45734.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/06-45734.png" alt="45734 — не одобрено" loading="lazy"></a><figcaption>45734 · сортировка, кипы бутылок · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/07-45735.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/07-45735.png" alt="45735 — не одобрено" loading="lazy"></a><figcaption>45735 · работница на линии · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/08-45736.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/08-45736.png" alt="45736 — не одобрено" loading="lazy"></a><figcaption>45736 · промышленный шредер · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/09-45733.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/09-45733.png" alt="45733 — не одобрено" loading="lazy"></a><figcaption>45733 · хлопья пластика · не одобрено</figcaption></figure><figure><a href="projects/raznoe/references/scenes/scene-3/10-45737.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/10-45737.png" alt="45737 — не одобрено" loading="lazy"></a><figcaption>45737 · полимерный захват на 3D-принтере · не одобрено</figcaption></figure></div>
+
+**Вкладки.** Первая открывается как исходник. Ни одна не отмечена в очереди.
+
+<div class="engine-tabs" data-scene="3">
+
+<div class="engine-pane" data-engine="Исходник Grok Imagine" data-duration="2 × 15 с">
+
+#### 3 · Grok Imagine Video часть 1 · 15 с
+
+**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-3/01-45726.png`; @Image2 = `projects/raznoe/references/scenes/scene-3/02-45728.png`; @Image3 = `projects/raznoe/references/scenes/scene-3/03-45729.png`; @Image4 = `projects/raznoe/references/scenes/scene-3/04-45731.png`; @Image5 = `projects/raznoe/references/scenes/scene-3/05-45732.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Grok Imagine Video | Photoreal science-technology promo; live-action cinematography, not a cartoon and not an already rendered clip
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — identity sheet of the main engineer only. Not a background and not a scene to reproduce as a collage. File: projects/raznoe/references/scenes/scene-3/01-45726.png.
+@Image2 — workshop: the engineer studies a large technical drawing. File: projects/raznoe/references/scenes/scene-3/02-45728.png.
+@Image3 — he drops the same transparent bottle into the ordinary black bin. File: projects/raznoe/references/scenes/scene-3/03-45729.png.
+@Image4 — he holds that bottle beside the large blue recycling container. File: projects/raznoe/references/scenes/scene-3/04-45731.png.
+@Image5 — the bottle is thrown into the blue container. File: projects/raznoe/references/scenes/scene-3/05-45732.png.
+Priority: Image1 owns face, hair, beard, body and clothing. Images 2–5 own only their named action, place and prop. Do not import a second engineer from the sheet. Do not show the factory in this part.
+This block is the source model pack. It is not a finished Topview or Wan render.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+The main engineer is a man in his mid-30s with curly dark brown hair, a short beard, light eyes and no glasses. He wears a black short-sleeve T-shirt with the exact red graphic already printed on the chest in the identity sheet, black track trousers with a pale side stripe, black sneakers, and a black wristwatch on his left wrist. Do not redesign, reinterpret, translate, simplify or replace that graphic. It is clothing, not a title card. Do not add glasses, a new logo, a caption or a second person in the workshop close-ups.
+
+ENVIRONMENT & MATERIAL LOCK:
+A slightly cluttered electronics workshop, daylight from the windows plus warm task light. One large technical drawing, tools, circuit boards and the same empty transparent bottle throughout. The ordinary bin is black. The recycling container is large and blue, near the workshop exit.
+The manufactured object is an open-frame mechanical gripper intended for a future satellite manipulator. It is matte recycled polymer with visible deposited layers and subtle blue and transparent inclusions, exactly as in the corrected still. The printer nozzle, rails and gantry may be metal. The workpiece is not metal. No CNC milling, no metal chips, no swarf, no sparks and no brushed-aluminium workpiece. This is cinematic fiction: do not claim a certified recycled-material traceability chain, a measured flight part or a real agency product.
+
+START STATE:
+The engineer sits at the workbench over the technical drawing. The transparent bottle is still on the bench, not yet in a bin.
+
+TIMELINE:
+[0:00–0:04] WORKSHOP. Medium-wide on the engineer studying the drawing, then a slow push toward his face and the sheet. Thoughtful, not theatrical.
+[0:04–0:07] CARELESS DROP. He picks up the empty transparent bottle and drops it into the black bin. The bottle falls with real weight. Match Image3 for that action only.
+[0:07–0:10] RETHINK. He looks back at the drawing, then down at the bin, pauses, and retrieves the same bottle. Close on the hand lifting it, then his face.
+[0:10–0:15] BLUE CONTAINER. He walks to the blue container and throws the same bottle in. Use Images 4 and 5 for the container, his stance and the throw. End on a close view of the bottle entering the blue container.
+
+END STATE:
+The final frame clearly shows the transparent bottle entering the blue recycling container. Compose it so the frame can be extracted and used as the exact first frame of part 2. No fade, no end card.
+
+CAMERA / SPACE:
+Landscape 16:9. The action shares one wide frame. No portrait crop, no side bars, no letterbox. One motivated push-in, then the drop, the retrieval and the walk to the container. No whip pans.
+
+PERFORMANCE:
+Natural attention and a quiet change of mind. One bottle, one engineer, no celebration.
+
+LIGHTING / MATERIALS:
+Daylight plus warm bench light. The bottle stays transparent. The blue container stays blue. Polymer layers stay matte. Blue inclusions stay inside the plastic, not as paint splatter on a metal part.
+
+AUDIO:
+Native room tone and motivated effects only: paper, a bottle, a bin, footsteps, then a conveyor, shredder and printer. No speech, no narration, no voice-over and no sung words. The source brief has no voice-over script; do not invent one. Keep the ending quiet enough that the bottle and container read clearly.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, split screen, poster, collage, a slideshow of the stills, on-screen text, subtitles, captions, titles, logos, watermark, institutional branding, extra people, the main engineer inside the factory, glasses on the engineer, a redesigned shirt graphic, a different bottle, metal milling of the gripper, CNC chips, metal swarf, sparks, a brushed-aluminium workpiece, a certified recycling claim, a real satellite component, identity drift, extra fingers, waxy skin, camera shake, invented narration, speech, singing.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 3 · Grok Imagine Video часть 2 · 15 с
+
+**Входы:** первый кадр — будущий извлечённый финальный кадр части 1, файла в репозитории нет. @Image1 = `projects/raznoe/references/scenes/scene-3/06-45734.png`; @Image2 = `projects/raznoe/references/scenes/scene-3/07-45735.png`; @Image3 = `projects/raznoe/references/scenes/scene-3/08-45736.png`; @Image4 = `projects/raznoe/references/scenes/scene-3/09-45733.png`; @Image5 = `projects/raznoe/references/scenes/scene-3/10-45737.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Grok Imagine Video | Photoreal science-technology promo; live-action cinematography, not a cartoon and not an already rendered clip
+
+REFERENCES / AUTHORITY ORDER:
+FIRST FRAME — upload the exact final frame extracted from part 1 at 15 seconds. It is not a file in the repository yet. It is mandatory and outranks every still for the opening composition, bottle, light and camera. Do not invent a different opening.
+@Image1 — sorting hall and compressed bottles. File: projects/raznoe/references/scenes/scene-3/06-45734.png.
+@Image2 — the female worker inspecting a transparent bottle on the line. Identity and clothing for the worker only. File: projects/raznoe/references/scenes/scene-3/07-45735.png.
+@Image3 — industrial plastic shredder. File: projects/raznoe/references/scenes/scene-3/08-45736.png.
+@Image4 — transparent and blue recycled flakes. File: projects/raznoe/references/scenes/scene-3/09-45733.png.
+@Image5 — corrected polymer finale: open-frame gripper under an industrial extruder, matte layers and blue inclusions. This still is already the polymer correction; do not turn it back into milled metal. File: projects/raznoe/references/scenes/scene-3/10-45737.png.
+Priority: the extracted first frame owns the opening. Image2 owns the worker. Image5 owns the gripper geometry and polymer material. The engineer identity sheet is not an input of this part.
+Part 2 of the source model pack. Continuity is the extracted final frame, not a video-tail continuation and not a Topview task.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+The sorting worker is a woman with brown hair tied in a ponytail, clear safety glasses, a navy coverall with reflective stripes and grey protective gloves, as in her reference stills. She is not the main engineer. The main engineer must not appear in this part: no curly hair, beard, black T-shirt or workshop. Do not add another worker.
+
+ENVIRONMENT & MATERIAL LOCK:
+A modern industrial recycling hall, then a clean additive-manufacturing cell. Transparent and blue bottles, a conveyor, a shredder, flakes, then the printer. The main engineer does not appear. No new people beyond the one worker.
+The manufactured object is an open-frame mechanical gripper intended for a future satellite manipulator. It is matte recycled polymer with visible deposited layers and subtle blue and transparent inclusions, exactly as in the corrected still. The printer nozzle, rails and gantry may be metal. The workpiece is not metal. No CNC milling, no metal chips, no swarf, no sparks and no brushed-aluminium workpiece. This is cinematic fiction: do not claim a certified recycled-material traceability chain, a measured flight part or a real agency product.
+
+START STATE:
+Start on the uploaded extracted final frame: the same transparent bottle is entering the same blue container, with the same light and camera. Do not replay part 1 and do not dissolve to a new opening.
+
+TIMELINE:
+[0:00–0:04] MATCH. Hold the entering bottle for a brief moment, then a cinematic match cut to bottles arriving on the sorting line. The worker inspects and sorts. The engineer is absent.
+[0:04–0:08] SHREDDER. Bottles enter the industrial shredder. Steel blades crush them into irregular fragments. Match Image3 for the machine.
+[0:08–0:11] FLAKES. Transparent and blue flakes pour into a metal collection container. Irregular, translucent, varied in size. Match Image4.
+[0:11–0:15] POLYMER PRINT. The industrial printer lays down the open-frame gripper. Show the nozzle depositing polymer, visible layer lines and blue inclusions. End on a cinematic close-up of the matte polymer part on the build plate.
+
+END STATE:
+Close on the newly printed polymer gripper. The frame reads as discarded plastic becoming an engineering material for a future satellite manipulator, without a title card.
+
+CAMERA / SPACE:
+Landscape 16:9. The action shares one wide frame. No portrait crop, no side bars, no letterbox. A match cut, then readable industrial moves. No portrait isolation of the worker.
+
+PERFORMANCE:
+The worker is focused and practical. The printer motion is continuous, not a frozen product shot until the last moment.
+
+LIGHTING / MATERIALS:
+Cool industrial light in the hall; cleaner light on the printer. Metal only on the machine, not on the gripper. Polymer layers stay matte. Blue inclusions stay inside the plastic, not as paint splatter on a metal part.
+
+AUDIO:
+Native room tone and motivated effects only: paper, a bottle, a bin, footsteps, then a conveyor, shredder and printer. No speech, no narration, no voice-over and no sung words. The source brief has no voice-over script; do not invent one. Carry the sound across the match cut. No restarted fanfare and no narrator.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, split screen, poster, collage, a slideshow of the stills, on-screen text, subtitles, captions, titles, logos, watermark, institutional branding, extra people, the main engineer inside the factory, glasses on the engineer, a redesigned shirt graphic, a different bottle, metal milling of the gripper, CNC chips, metal swarf, sparks, a brushed-aluminium workpiece, a certified recycling claim, a real satellite component, identity drift, extra fingers, waxy skin, camera shake, invented narration, speech, singing.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="wan30">
+
+#### 3 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-3/01-45726.png`; @Image2 = `projects/raznoe/references/scenes/scene-3/02-45728.png`; @Image3 = `projects/raznoe/references/scenes/scene-3/03-45729.png`; @Image4 = `projects/raznoe/references/scenes/scene-3/05-45732.png`; @Image5 = `projects/raznoe/references/scenes/scene-3/07-45735.png`; @Image6 = `projects/raznoe/references/scenes/scene-3/10-45737.png`. Кадры 45731, 45734, 45736 и 45733 остаются в галерее и в тексте таймлайна.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal science-technology promo; live-action cinematography, not a cartoon and not an already rendered clip
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — engineer identity only. File: projects/raznoe/references/scenes/scene-3/01-45726.png.
+@Image2 — workshop and drawing. File: projects/raznoe/references/scenes/scene-3/02-45728.png.
+@Image3 — drop into the black bin. File: projects/raznoe/references/scenes/scene-3/03-45729.png.
+@Image4 — throw into the blue container. File: projects/raznoe/references/scenes/scene-3/05-45732.png.
+@Image5 — worker on the sorting line. File: projects/raznoe/references/scenes/scene-3/07-45735.png.
+@Image6 — corrected polymer gripper on the printer. File: projects/raznoe/references/scenes/scene-3/10-45737.png.
+Priority: Image1 owns the engineer and Image5 owns the worker; never swap them. Image6 owns the polymer gripper. Six stills is the launch-slot budget of this 30-second adaptation. Gallery stills 45731, 45734, 45736 and 45733 stay in the scene gallery and are described in the timeline; they are not extra image slots here.
+Site adaptation: one 30-second clip. The source's two generations are joined inside this clip at 15 seconds. This text is not an already rendered video.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+The main engineer is a man in his mid-30s with curly dark brown hair, a short beard, light eyes and no glasses. He wears a black short-sleeve T-shirt with the exact red graphic already printed on the chest in the identity sheet, black track trousers with a pale side stripe, black sneakers, and a black wristwatch on his left wrist. Do not redesign, reinterpret, translate, simplify or replace that graphic. It is clothing, not a title card. Do not add glasses, a new logo, a caption or a second person in the workshop close-ups. The sorting worker is a woman with brown hair tied in a ponytail, clear safety glasses, a navy coverall with reflective stripes and grey protective gloves, as in her reference stills. She is not the main engineer. Never bring the engineer's face, beard, curly hair or black T-shirt into the factory.
+
+ENVIRONMENT & MATERIAL LOCK:
+A slightly cluttered electronics workshop, daylight from the windows plus warm task light. One large technical drawing, tools, circuit boards and the same empty transparent bottle throughout. The ordinary bin is black. The recycling container is large and blue, near the workshop exit. After the match, A modern industrial recycling hall, then a clean additive-manufacturing cell. Transparent and blue bottles, a conveyor, a shredder, flakes, then the printer. The main engineer does not appear. No new people beyond the one worker.
+The manufactured object is an open-frame mechanical gripper intended for a future satellite manipulator. It is matte recycled polymer with visible deposited layers and subtle blue and transparent inclusions, exactly as in the corrected still. The printer nozzle, rails and gantry may be metal. The workpiece is not metal. No CNC milling, no metal chips, no swarf, no sparks and no brushed-aluminium workpiece. This is cinematic fiction: do not claim a certified recycled-material traceability chain, a measured flight part or a real agency product.
+
+START STATE:
+The engineer is at the drawing. The bottle is on the bench.
+
+TIMELINE:
+[0:00–0:04] WORKSHOP. He studies the drawing; slow push-in.
+[0:04–0:07] He drops the transparent bottle into the black bin.
+[0:07–0:10] He rethinks and takes the same bottle back.
+[0:10–0:15] He throws it into the blue container. At 15 seconds the bottle is entering that container. No fade.
+[0:15–0:19] Match cut from that entry to the sorting line and the worker. The engineer is gone.
+[0:19–0:23] Bottles enter the shredder and break into fragments.
+[0:23–0:26] Transparent and blue flakes pour into a metal container.
+[0:26–0:30] The printer builds the open-frame polymer gripper. End on the matte layered part with blue inclusions.
+
+END STATE:
+Close-up of the polymer gripper on the printer bed, machine still settling. No end card.
+
+CAMERA / SPACE:
+Landscape 16:9. The action shares one wide frame. No portrait crop, no side bars, no letterbox. The 15-second point is an internal match cut, not a second generation and not an external frame upload.
+
+PERFORMANCE:
+Workshop: quiet realization. Factory: one worker, practical hands. No crowd.
+
+LIGHTING / MATERIALS:
+Warm workshop, then cool factory, then clean printer light. Same transparent bottle until it is shredded. Polymer layers stay matte. Blue inclusions stay inside the plastic, not as paint splatter on a metal part.
+
+AUDIO:
+Native room tone and motivated effects only: paper, a bottle, a bin, footsteps, then a conveyor, shredder and printer. No speech, no narration, no voice-over and no sung words. The source brief has no voice-over script; do not invent one. No voice-over at the internal cut.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, split screen, poster, collage, a slideshow of the stills, on-screen text, subtitles, captions, titles, logos, watermark, institutional branding, extra people, the main engineer inside the factory, glasses on the engineer, a redesigned shirt graphic, a different bottle, metal milling of the gripper, CNC chips, metal swarf, sparks, a brushed-aluminium workpiece, a certified recycling claim, a real satellite component, identity drift, extra fingers, waxy skin, camera shake, invented narration, speech, singing.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 3 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 = `projects/raznoe/references/scenes/scene-3/01-45726.png`; @Image2 = `projects/raznoe/references/scenes/scene-3/02-45728.png`; @Image3 = `projects/raznoe/references/scenes/scene-3/03-45729.png`; @Image4 = `projects/raznoe/references/scenes/scene-3/04-45731.png`; @Image5 = `projects/raznoe/references/scenes/scene-3/05-45732.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal science-technology promo; live-action cinematography, not a cartoon and not an already rendered clip
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — identity sheet of the main engineer only. Not a background and not a scene to reproduce as a collage. File: projects/raznoe/references/scenes/scene-3/01-45726.png.
+@Image2 — workshop: the engineer studies a large technical drawing. File: projects/raznoe/references/scenes/scene-3/02-45728.png.
+@Image3 — he drops the same transparent bottle into the ordinary black bin. File: projects/raznoe/references/scenes/scene-3/03-45729.png.
+@Image4 — he holds that bottle beside the large blue recycling container. File: projects/raznoe/references/scenes/scene-3/04-45731.png.
+@Image5 — the bottle is thrown into the blue container. File: projects/raznoe/references/scenes/scene-3/05-45732.png.
+Priority: Image1 owns face, hair, beard, body and clothing. Images 2–5 own only their named action, place and prop. Do not import a second engineer from the sheet. Do not show the factory in this part.
+Site adaptation of part 1 for Seedance 2.0. Same story as the Grok source. Not a rendered Topview clip.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+The main engineer is a man in his mid-30s with curly dark brown hair, a short beard, light eyes and no glasses. He wears a black short-sleeve T-shirt with the exact red graphic already printed on the chest in the identity sheet, black track trousers with a pale side stripe, black sneakers, and a black wristwatch on his left wrist. Do not redesign, reinterpret, translate, simplify or replace that graphic. It is clothing, not a title card. Do not add glasses, a new logo, a caption or a second person in the workshop close-ups.
+
+ENVIRONMENT & MATERIAL LOCK:
+A slightly cluttered electronics workshop, daylight from the windows plus warm task light. One large technical drawing, tools, circuit boards and the same empty transparent bottle throughout. The ordinary bin is black. The recycling container is large and blue, near the workshop exit.
+The manufactured object is an open-frame mechanical gripper intended for a future satellite manipulator. It is matte recycled polymer with visible deposited layers and subtle blue and transparent inclusions, exactly as in the corrected still. The printer nozzle, rails and gantry may be metal. The workpiece is not metal. No CNC milling, no metal chips, no swarf, no sparks and no brushed-aluminium workpiece. This is cinematic fiction: do not claim a certified recycled-material traceability chain, a measured flight part or a real agency product.
+
+START STATE:
+The engineer sits at the drawing. The bottle is on the bench.
+
+TIMELINE:
+[0:00–0:04] He studies the drawing; slow push-in.
+[0:04–0:07] He drops the transparent bottle into the black bin.
+[0:07–0:10] He retrieves that same bottle after a look back at the drawing.
+[0:10–0:15] He throws it into the blue container. Keep the bottle entering the container through the final 3 seconds, with continuous motion and no fade, so part 2 can take those seconds as @Video1.
+
+END STATE:
+The bottle is entering the blue container and still moving. No end card. The last 3 seconds stay continuous for the Seedance handoff.
+
+CAMERA / SPACE:
+Landscape 16:9. The action shares one wide frame. No portrait crop, no side bars, no letterbox. Keep the ending motion alive for the last 3 seconds.
+
+PERFORMANCE:
+A quiet, physical change of mind. One bottle.
+
+LIGHTING / MATERIALS:
+Daylight and warm task light. Polymer layers stay matte. Blue inclusions stay inside the plastic, not as paint splatter on a metal part.
+
+AUDIO:
+Native room tone and motivated effects only: paper, a bottle, a bin, footsteps, then a conveyor, shredder and printer. No speech, no narration, no voice-over and no sung words. The source brief has no voice-over script; do not invent one. No musical button at the cut.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, split screen, poster, collage, a slideshow of the stills, on-screen text, subtitles, captions, titles, logos, watermark, institutional branding, extra people, the main engineer inside the factory, glasses on the engineer, a redesigned shirt graphic, a different bottle, metal milling of the gripper, CNC chips, metal swarf, sparks, a brushed-aluminium workpiece, a certified recycling claim, a real satellite component, identity drift, extra fingers, waxy skin, camera shake, invented narration, speech, singing.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+#### 3 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — последние 3 секунды фактической части 1 этой сцены; до результата запуск запрещён. @Image1 = `projects/raznoe/references/scenes/scene-3/06-45734.png`; @Image2 = `projects/raznoe/references/scenes/scene-3/07-45735.png`; @Image3 = `projects/raznoe/references/scenes/scene-3/08-45736.png`; @Image4 = `projects/raznoe/references/scenes/scene-3/09-45733.png`; @Image5 = `projects/raznoe/references/scenes/scene-3/10-45737.png`.
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal science-technology promo; live-action cinematography, not a cartoon and not an already rendered clip
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last 3 seconds of the actual part 1 result of THIS scene. Absolute authority for the starting camera, bottle, container and motion. This is the Seedance handoff. It is not an extracted still, and it does not exist until part 1 has been generated. Do not launch this part before that.
+@Image1 — sorting hall and compressed bottles. File: projects/raznoe/references/scenes/scene-3/06-45734.png.
+@Image2 — the female worker inspecting a transparent bottle. File: projects/raznoe/references/scenes/scene-3/07-45735.png.
+@Image3 — industrial plastic shredder. File: projects/raznoe/references/scenes/scene-3/08-45736.png.
+@Image4 — transparent and blue recycled flakes. File: projects/raznoe/references/scenes/scene-3/09-45733.png.
+@Image5 — corrected polymer finale. File: projects/raznoe/references/scenes/scene-3/10-45737.png.
+Priority: actual @Video1 continuity first. Then Image2 for the worker and Image5 for the polymer gripper. Later stills must not reset the opening. The engineer sheet is not an input.
+Site adaptation of part 2. Seedance continuity is @Video1, the last 3 seconds of the real part 1. Do not describe this as the source's extracted-still method.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+The sorting worker is a woman with brown hair tied in a ponytail, clear safety glasses, a navy coverall with reflective stripes and grey protective gloves, as in her reference stills. She is not the main engineer. Never bring the engineer's face, beard, curly hair or black T-shirt into the factory.
+
+ENVIRONMENT & MATERIAL LOCK:
+A modern industrial recycling hall, then a clean additive-manufacturing cell. Transparent and blue bottles, a conveyor, a shredder, flakes, then the printer. The main engineer does not appear. No new people beyond the one worker.
+The manufactured object is an open-frame mechanical gripper intended for a future satellite manipulator. It is matte recycled polymer with visible deposited layers and subtle blue and transparent inclusions, exactly as in the corrected still. The printer nozzle, rails and gantry may be metal. The workpiece is not metal. No CNC milling, no metal chips, no swarf, no sparks and no brushed-aluminium workpiece. This is cinematic fiction: do not claim a certified recycled-material traceability chain, a measured flight part or a real agency product.
+
+START STATE:
+Start on the actual moving last seconds of @Video1, without replay or dissolve. Expected picture, subordinate to the real video: the transparent bottle entering the blue container.
+
+TIMELINE:
+[0:00–0:04] Continue that entry, then match-cut to the sorting line and the worker.
+[0:04–0:08] The shredder takes the bottles.
+[0:08–0:11] Flakes pour out.
+[0:11–0:15] The printer forms the polymer gripper. End close on the matte layered part.
+
+END STATE:
+Close-up of the polymer gripper on the build plate.
+
+CAMERA / SPACE:
+Landscape 16:9. The action shares one wide frame. No portrait crop, no side bars, no letterbox. Do not restart at the workshop. The engineer never enters.
+
+PERFORMANCE:
+Practical sorting, then the printer. No posed hero shot until the end.
+
+LIGHTING / MATERIALS:
+Cool hall, clean printer light, matte polymer. Polymer layers stay matte. Blue inclusions stay inside the plastic, not as paint splatter on a metal part.
+
+AUDIO:
+Native room tone and motivated effects only: paper, a bottle, a bin, footsteps, then a conveyor, shredder and printer. No speech, no narration, no voice-over and no sung words. The source brief has no voice-over script; do not invent one. Continue the sound of @Video1 into the match cut. No narrator.
+
+NEGATIVE PROMPT:
+Portrait crop, vertical portrait framing, side bars, letterbox, pillarbox, black bars, split screen, poster, collage, a slideshow of the stills, on-screen text, subtitles, captions, titles, logos, watermark, institutional branding, extra people, the main engineer inside the factory, glasses on the engineer, a redesigned shirt graphic, a different bottle, metal milling of the gripper, CNC chips, metal swarf, sparks, a brushed-aluminium workpiece, a certified recycling claim, a real satellite component, identity drift, extra fingers, waxy skin, camera shake, invented narration, speech, singing.
+
+FRAME FILL / NO BARS:
+Fill the entire generated horizontal 16:9 frame edge to edge, 1280×720. No letterbox, no pillarbox, no black bars, no borders and no empty margins. No portrait crop and no vertical picture inside the frame.
+```
+
+</div>
+
+</div>
+
+### Дословно из исходного брифа
+
+Ниже текст `source-prompt.txt` без правки. Вкладка Grok Imagine выше — та же история в карточках сайта. Вкладки Wan и Seedance — адаптации под длительность и стык этих движков. Фраза исходника про «исправление материала» относится к старому металлическому кадру; опубликованный `10-45737.png` уже показывает полимер.
+
+<pre class="source-brief"># BLOCK 1 — “RESOURCE”
+## Grok Imagine Video | 30 seconds total | 2 × 15-second generations
+
+### GLOBAL VISUAL RULES
+
+Create a photorealistic cinematic sequence for a high-end science and technology promotional film.
+
+- Aspect ratio: 16:9, landscape.
+- Visual quality: realistic live-action cinematography, natural human movement, physically accurate objects, detailed materials and believable industrial environments.
+- Maintain consistent lighting, colour grading and visual realism throughout both clips.
+- Use the uploaded images as visual references for the corresponding scenes. Do not create a collage or reproduce reference images as static slides.
+- Preserve the main engineer&#x27;s identity, face, hairstyle, beard, build and clothing exactly as shown in the character reference.
+- The main engineer is a man in his mid-30s with curly dark brown hair and a short beard. He wears a black T-shirt with the exact existing red band graphic, black trousers and a black wristwatch. No glasses.
+- Do not redesign, reinterpret or add elements to the graphic on his T-shirt.
+- Do not introduce the main engineer into the industrial recycling scenes.
+- No Roscosmos logos or other institutional branding in this block.
+- No subtitles, captions, voice-over text or generated titles. These will be added during editing.
+
+---
+
+# VIDEO 1 — THE IDEA AND THE FIRST STEP
+**Duration: 15 seconds**
+
+### Reference images to upload
+
+- `45726.png` — main character reference sheet. Use it to maintain the engineer&#x27;s exact appearance.
+- `45728.png` — engineer studying the technical drawing in his workshop.
+- `45729.png` — engineer dropping a plastic bottle into the ordinary waste bin.
+- `45731.png` — engineer holding the bottle near the blue recycling container.
+- `45732.png` — bottle being thrown into the blue recycling container.
+
+### Generation prompt
+
+Create a continuous 15-second photorealistic cinematic sequence using the uploaded reference images.
+
+**0–4 seconds — The workshop and the idea**
+
+A realistic, slightly cluttered electronics engineering workshop. The main engineer, matching the character reference exactly, is seated at his workbench, studying a large technical drawing. Electronic components, tools, circuit boards and plastic bottles are scattered around the desk. He looks thoughtful and focused.
+
+Begin with a medium-wide shot, then slowly move the camera closer to his face and the technical drawing. Natural daylight comes through the workshop windows, complemented by warm task lighting.
+
+**4–7 seconds — The careless action**
+
+The engineer casually picks up an empty transparent plastic water bottle and drops it into the ordinary black waste bin beneath his workbench.
+
+Use the uploaded image `45729.png` as the visual reference for this action. Show the bottle falling naturally into the bin. The movement must be physically realistic.
+
+**7–10 seconds — A change of mind**
+
+The engineer looks back at the technical drawing. A moment of realization appears on his face. He looks down at the waste bin, pauses, then retrieves the plastic bottle.
+
+Show a close-up of his hand taking the bottle out of the bin, followed by a brief shot of his thoughtful expression. The action should feel natural and motivated, not theatrical.
+
+**10–15 seconds — Choosing recycling**
+
+The engineer walks to the workshop exit, where a large blue recycling container is located. He approaches it and throws the same transparent plastic bottle into the container.
+
+Use `45731.png` and `45732.png` as visual references for the position of the container, the engineer and the throwing action.
+
+End with a close-up of the bottle entering the blue recycling container. The bottle must remain visually consistent with the bottle shown earlier.
+
+**IMPORTANT ENDING FRAME FOR CONTINUITY:**
+
+The final frame must clearly show the transparent plastic bottle entering the blue recycling container. Compose this frame so it can be extracted and reused as the first frame of Video 2.
+
+---
+
+# VIDEO 2 — FROM WASTE TO NEW MATERIAL
+**Duration: 15 seconds**
+
+### Reference images to upload
+
+- The extracted final frame of Video 1 — mandatory first-frame reference for continuity.
+- `45734.png` — recycling facility worker handling compressed plastic bottles.
+- `45735.png` — worker inspecting a plastic bottle on the sorting line.
+- `45736.png` — industrial plastic shredder.
+- `45733.png` — processed plastic flakes.
+- `45737.png` — industrial 3D printer and the geometry of the manufactured component.
+
+### Generation prompt
+
+Create a continuous 15-second photorealistic cinematic sequence.
+
+**MANDATORY CONTINUITY INSTRUCTION:**
+
+Use the extracted final frame of Video 1 as the exact first frame of this generation. The video must begin with the same transparent plastic bottle entering the same blue recycling container. Preserve the bottle&#x27;s appearance, lighting, camera angle and visual composition at the beginning.
+
+Continue the movement naturally, using a cinematic match cut to transition from the recycling container to an industrial recycling facility. The transition should visually connect the bottle in the container with plastic bottles arriving at the recycling line.
+
+**0–4 seconds — Industrial sorting**
+
+Inside a modern industrial plastic recycling facility, transparent and blue plastic bottles move along a conveyor belt.
+
+A female recycling facility worker, wearing dark blue industrial coveralls, protective gloves and transparent safety glasses, inspects and sorts the bottles.
+
+Use `45734.png` and `45735.png` as references for the worker, clothing, industrial environment and sorting process.
+
+The main engineer must not appear in this scene.
+
+**4–8 seconds — Shredding**
+
+Show plastic bottles entering a powerful industrial shredder. The rotating steel cutting blades crush and shred the bottles into small irregular fragments.
+
+Use `45736.png` as the visual reference for the shredder. Show realistic mechanical movement, material deformation and the accumulation of shredded plastic.
+
+**8–11 seconds — Recycled material**
+
+Show a close-up of transparent and blue plastic flakes pouring out of the processing machine into a metal collection container.
+
+Use `45733.png` as the reference for the colour, texture and appearance of the processed material.
+
+The flakes should look like real recycled plastic: irregular, translucent, with subtle variations in colour and size.
+
+**11–15 seconds — Manufacturing a new component**
+
+Transition to a modern industrial 3D printer operating in a clean manufacturing environment.
+
+The printer produces a functional open-frame mechanical gripper component intended for a future satellite manipulator.
+
+Use `45737.png` as the reference for the component&#x27;s geometry and the printer&#x27;s composition, but make one important material correction: the finished component must be made from recycled polymer, not metal.
+
+Show visible layers of deposited plastic, a slightly heterogeneous recycled-polymer texture and subtle blue and transparent inclusions. The component should retain a precise, functional engineering design.
+
+End on a cinematic close-up of the newly manufactured component on the printer platform.
+
+The final image should communicate that discarded plastic has become a useful engineering material for space technology.
+
+---
+
+## CONTINUITY AND EDITING REQUIREMENTS
+
+1. Generate Video 1 first.
+2. Extract its final frame at 15 seconds.
+3. Upload that frame as the mandatory first-frame reference when generating Video 2.
+4. Do not ask Grok to invent a different opening for Video 2. It must continue from the supplied frame.
+5. Use the character sheet `45726.png` as the identity reference throughout the workshop scenes. Do not use it as a scene or background.
+6. Use the industrial reference images only for their corresponding recycling scenes.
+7. Keep the same transparent plastic bottle visually consistent throughout Video 1.
+8. Do not show the main engineer in Video 2.
+9. Preserve the intended visual progression: ordinary waste → separate collection → industrial sorting → shredding → recycled plastic flakes → 3D-printed engineering component.
+</pre>

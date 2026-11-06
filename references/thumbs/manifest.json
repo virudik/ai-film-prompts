@@ -1223,6 +1223,106 @@
    "thumb_bytes": 51720,
    "src_sha256": "ed43061fe7c6a1a77b935a7c1e5bbf6ed549c35b3ced316bc3a95ccae83037a8"
   },
+  "projects/raznoe/references/scenes/scene-3/01-45726.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/01-45726.png.webp",
+   "width": 640,
+   "height": 427,
+   "src_width": 1536,
+   "src_height": 1024,
+   "src_bytes": 2474915,
+   "thumb_bytes": 70362,
+   "src_sha256": "01513f2f562a0123449194da6b0009724f5de6d7aea0bfde6a821e5d9e981447"
+  },
+  "projects/raznoe/references/scenes/scene-3/02-45728.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/02-45728.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2536369,
+   "thumb_bytes": 53704,
+   "src_sha256": "57f142e033008686a177724d4c72645d4f968ff56cee87a980f011b2c9298538"
+  },
+  "projects/raznoe/references/scenes/scene-3/03-45729.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/03-45729.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2377037,
+   "thumb_bytes": 47384,
+   "src_sha256": "d07e201c2bd080700a21d2764702ec1eb8aa1f9fa2b08d66e4d06ddcc7b6dcb5"
+  },
+  "projects/raznoe/references/scenes/scene-3/04-45731.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/04-45731.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2317631,
+   "thumb_bytes": 45520,
+   "src_sha256": "470f90373582c9964a3f8667d8d88477d0b83801bebdab94b55a44f0b6348de2"
+  },
+  "projects/raznoe/references/scenes/scene-3/05-45732.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/05-45732.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2301103,
+   "thumb_bytes": 45558,
+   "src_sha256": "a2930f221d1b8e1bf6e3ec8f51d81fc5d48a53bde596dd2f504a5d91c0a4c734"
+  },
+  "projects/raznoe/references/scenes/scene-3/06-45734.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/06-45734.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2565445,
+   "thumb_bytes": 60138,
+   "src_sha256": "f342d49694902f9ca53d273808d6ee9a88083a2b9a25b832f597ef0d60a8b884"
+  },
+  "projects/raznoe/references/scenes/scene-3/07-45735.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/07-45735.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2306140,
+   "thumb_bytes": 49346,
+   "src_sha256": "0e9351fcc64378f83ee67c6496119792217d2db38f1dcbb9e547559ee56c8341"
+  },
+  "projects/raznoe/references/scenes/scene-3/08-45736.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/08-45736.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3011472,
+   "thumb_bytes": 74864,
+   "src_sha256": "d5885fa641d8b823e84e85704f454f0023150400537167f2dbb9d1573d47efe5"
+  },
+  "projects/raznoe/references/scenes/scene-3/09-45733.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/09-45733.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2439508,
+   "thumb_bytes": 57232,
+   "src_sha256": "0602cb57b9029eea2966728f80cbeca75a663f5528f48ab1d4daaf8cc74f5776"
+  },
+  "projects/raznoe/references/scenes/scene-3/10-45737.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/10-45737.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 965190,
+   "thumb_bytes": 28396,
+   "src_sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736"
+  },
   "projects/raznoe/references/sonya-expressions.png": {
    "thumb": "references/thumbs/projects/raznoe/references/sonya-expressions.png.webp",
    "width": 640,
