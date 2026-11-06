@@ -13,11 +13,11 @@
   "lease_commit": "3e64c016148cdaa6f9bebe608d0b3005b557f6c0",
   "started_at": "2026-11-06T00:01:59.186606Z",
   "receipt_started_at": "2026-11-06T00:11:38.114Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
-    "source": "Topview read-only connector",
+    "source": "Topview read-only connector / all boards and pages",
     "scope": "14 boards / 18 video pages",
     "boards_scanned": 14,
     "pages_scanned": 18,
@@ -34,7 +34,17 @@
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6",
       "22dbd25cdd9f47cd9e44300e55f5e44f"
-    ]
+    ],
+    "first_scan_completed_at": "2026-11-06T00:07:00Z",
+    "active_parameters_verified": {
+      "all_six_on_target_board": true,
+      "read_method": "six independent read-only Topview get_board_task reads",
+      "useUnlimitMode": true,
+      "credits_cost": 0,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "verified_at": "2026-11-06T00:12:17.378Z"
+    }
   },
   "slots": {
     "capacity": 6,
@@ -54,7 +64,17 @@
     "next_ready": {
       "id": "S49A",
       "priority": 1.2
-    }
+    },
+    "state_counts": {
+      "blocked_owner_decision": 1,
+      "waiting_for_slot": 27,
+      "submitted": 14,
+      "blocked_inputs": 21
+    },
+    "all_submitted_found": true,
+    "source": "14 independent Topview read-only task detail checks",
+    "sha_method": "Exact UTF8 bytes SHA-256 via tested JS implementation",
+    "checked_owner_tasks_open": 0
   },
   "browser_transport": "not_used_no_free_slot",
   "tinyfish_run_ids": [],
@@ -69,9 +89,34 @@
   "retryable": true,
   "acceptance": {
     "hourly_execution": true,
+    "topview_readonly_complete": true,
     "tinyfish_login_this_run": false,
+    "tinyfish_ui_control_this_run": false,
     "tinyfish_file_upload": false,
     "unlimited_zero_preflight": false,
-    "task_id_of_new_submission_verified": false
-  }
+    "task_id_of_new_submission_verified": false,
+    "production_tinyfish_submission_verified": false
+  },
+  "finished_at": "2026-11-06T00:13:08.958Z",
+  "automation_checks": {
+    "self": {
+      "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "is_enabled": true,
+      "runtime_last_run_id": "9f333067-53e4-832d-aeff-d6095c8b6edb"
+    },
+    "relay": {
+      "id": "6adc585e7ac08191bb93825117dc7213",
+      "is_enabled": true,
+      "last_run_id": "d62b3913-0a54-8321-a22c-efc668fb40ae"
+    },
+    "hh55": {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "is_enabled": false,
+      "last_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c"
+    },
+    "preferred_executor": "work",
+    "work_recovery_evidence": "none verified"
+  },
+  "github_issue_context": "https://github.com/virudik/ai-film-prompts/issues/355; https://github.com/virudik/ai-film-prompts/issues/356 (historical wake events, not fresh free slots)",
+  "notes": "Live account-wide scan 629 video tasks confirmed six init; no paid TinyFish or Create, credits 0. Scheduled ordinary task unchanged. No new owner tasks; no Work-quota recovery evidence."
 }
