@@ -2,15 +2,34 @@
 
 Производный навигатор. Сначала свежий main и `python3 scripts/continue_preflight.py . --project seregius`; разрешением на запуск не является.
 
-Состояние: needs_recovery
-Проверено: 2026-11-06T11:14:41+00:00
-Задача: не определена — 
+Состояние: ready
+Проверено: 2026-11-06T11:28:09+00:00
+Задача: TOPVIEW-SLOT-PRIORITY-20261024 — Заполнение свободных Topview-слотов — задача №1
 
-Последний подтверждённый этап: нет доказательств
-Следующий шаг: восстановить конкретный пробел
+Последний подтверждённый этап: Полный приём и свежий scan14досок/630видео:6/6;15submittedID найдены; подтверждены оба маршрута робота и выявлен disabled HH:55.
+Следующий шаг: Завершить readback существующих Relay и HH:55, сохраняя Grok; наблюдать уже отправленные задачи. При настоящем свободном слоте — fresh main, owner decisions, полный all-board scan, сверка claims/task IDs и первый фактически готовый разрешённый item по живому priority под своей lease/CAS и UI Unlimited0. Уже отправленные S63, S64, S49A и прочие task IDs не повторять; S52-P2 требует просмотра настоящего стыка, S59-P3/S62-P2 — решения по QC.
 
 ## Контрольная точка
 
+# 06.11.2026 — приём Work, сверка доставки робота и восстановление продолжения
+
+work_id: TOPVIEW-SLOT-PRIORITY-20261024
+
+- Прямое поручение владельца: принять смену, параллельно продолжать Keep и работу хендофа/Topview; робот должен уведомлять ChatGPT также, сохранив Grok. Keep ведётся отдельной контрольной точкой; личные заметки в канон фильма не копируются.
+- Полный приём: 7 инструкций, CONTINUE-PROTOCOL и весь master прочитаны совместно; master SHA 8ad272ade568b6cd13f946a61bf5d0bfcfb12259fcdb34620207c757020facf9. Исходная ошибка recovery: текущий next_action от06.11 расходился с привязанным next_action от04.11; обновление выполнено по фактическому сегодняшнему скану.
+- Полный read-only scan: 14 досок, 18 страниц, 630 уникальных видео (601 success,6 init,23 fail),6/6 слотов. Все15submitted ID найдены; claimed/submitting/unknown=0. Новых Create/claim/расходов=0.
+- Робот уже имеет два маршрута: assigned GitHub issue для Grok и Relay DM chatgpt@cloud-239644772681871360. Настоящее событие S72/issue372 обработано ChatGPT06.11 05:55UTC; завершённый дубль не повторяется. Доставка именно в этот интерактивный чат отдельно не подтверждена.
+- Existing Relay enabled; HH:55 обнаружен disabled; ordinaryHH:00 enabled. Следующий этап — восстановить существующий HH:55 и подтвердить подписку, без нового расписания. Робот primary; monitor_role=skip, телеметрия не подменялась.
+- Собственная Work-смена session work-continue-bd1397c6-535b-4ed1-8d8f-771cb7efd03d, epoch4, route_generation3; preferred_executor не изменён. Actual chat ID инструментами не раскрыт.
+- Доказательства: reports/work-continue-2026-11-06.json.
+
+Следующий шаг: Завершить readback существующих Relay и HH:55, сохраняя Grok; наблюдать уже отправленные задачи. При настоящем свободном слоте — fresh main, owner decisions, полный all-board scan, сверка claims/task IDs и первый фактически готовый разрешённый item по живому priority под своей lease/CAS и UI Unlimited0. Уже отправленные S63, S64, S49A и прочие task IDs не повторять; S52-P2 требует просмотра настоящего стыка, S59-P3/S62-P2 — решения по QC.
+
+checked_at: 2026-11-06T11:26:41+00:00
+
+<!-- relay-current-start -->
+Текущий Relay: 2026-11-06T05:55:16.981Z, issue #372, result:22dbd25cdd9f47cd9e44300e55f5e44f; no_update. Полный скан 14 досок / 20 страниц / 1014 задач: 6/6 видео-слотов заняты. S72 success, S49A 101221814fd5430697f697f95a3f4252 init/Unlimited0; 15 submitted IDs сверены. Новых Create/claim: 0. Следующий шаг: наблюдать существующие задачи, повторить полный скан при следующем wake/hourly.
+<!-- relay-current-end -->
 
 ## Обязательные правила
 
@@ -32,6 +51,9 @@
 
 ## Прочитать под задачу
 
+- `ops/LAUNCHER-COORDINATION.md`
+- `ops/TOPVIEW-EVENT-WAKE.md`
+- `ops/topview-launch-queue.json`
 
 ## Перед действием
 
@@ -46,4 +68,4 @@ Existing task ID: inspect, never resubmit. Claim/unknown without receipt: reconc
 
 ## Пробелы
 
-- next action changed without a recovery checkpoint
+Нет ошибок локальной проверки. Живые проверки выше обязательны.

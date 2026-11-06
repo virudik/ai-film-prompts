@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+  "stage": "intake_verified_followups_pending",
+  "checked_at": "2026-11-06T11:26:13.016Z",
+  "source_head": "66da02aa532fa99c77d3778f5a24bfe93c1b3971",
+  "execution_instance_id": "bd1397c6-535b-4ed1-8d8f-771cb7efd03d",
+  "owner_request": "Прими смену по «продолжай», параллельно с заметками бери работу из хендофа и отслеживанию слотов Topview; робот должен писать ChatGPT также, сохраняя Grok.",
+  "intake": {
+    "mode": "full",
+    "reason": "next action changed without a recovery checkpoint",
+    "instructions": "All 7 canonical instructions and CONTINUE-PROTOCOL fully read by delegated canonical reviewer; task-specific protocols and live statuses read by primary.",
+    "master": {
+      "sha256": "8ad272ade568b6cd13f946a61bf5d0bfcfb12259fcdb34620207c757020facf9",
+      "coverage": "Lines 1-9589, four disjoint fully read ranges: 1-2400, 2401-4800, 4801-7200, 7201-9589. Delegated read-only reviews, no master changes."
+    }
+  },
+  "scan": {
+    "transport": "Topview read-only connector; mediaType=video; mode=all",
+    "complete": true,
+    "board_count": 14,
+    "page_count": 18,
+    "video_count": 630,
+    "unique_video_count": 630,
+    "status_counts": {
+      "success": 601,
+      "init": 6,
+      "fail": 23
+    },
+    "occupied": 6,
+    "capacity": 6,
+    "free": 0,
+    "pages": [
+      {
+        "board_id": "3db83056ccef4361a9563a4f77afa1d5",
+        "page": 1,
+        "received": 0,
+        "total": 0
+      },
+      {
+        "board_id": "6b246f75715f43be945f17b06bff9d88",
+        "page": 1,
+        "received": 16,
+        "total": 16
+      },
+      {
+        "board_id": "c934cec563ea45e1b37d12657821ebd5",
+        "page": 1,
+        "received": 0,
+        "total": 0
+      },
+      {
+        "board_id": "1cb8d0f6d11440ce9740bbafab36a6a5",
+        "page": 1,
+        "received": 0,
+        "total": 0
+      },
+      {
+        "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+        "page": 1,
+        "received": 11,
+        "total": 11
+      },
+      {
+        "board_id": "86c6cb46bf76400f93fea9c82d8e9b0f",
+        "page": 1,
+        "received": 4,
+        "total": 4
+      },
+      {
+        "board_id": "db4b4d6d0abc4cb4b278ea80738639f2",
+        "page": 1,
+        "received": 32,
+        "total": 32
+      },
+      {
+        "board_id": "24a69085fab4497b9c1a52536252b63d",
+        "page": 1,
+        "received": 5,
+        "total": 5
+      },
+      {
+        "board_id": "0aafc553d8a049d2bc21221511293830",
+        "page": 1,
+        "received": 0,
+        "total": 0
+      },
+      {
+        "board_id": "9f8ec3c1d7294675bfb87fa75577dec2",
+        "page": 1,
+        "received": 35,
+        "total": 35
+      },
+      {
+        "board_id": "29d5b28f0e744b9eb6bfbee47efb6ff9",
+        "page": 1,
+        "received": 8,
+        "total": 8
+      },
+      {
+        "board_id": "dde2634b5fb54e789bb22dd4c95a75b6",
+        "page": 1,
+        "received": 22,
+        "total": 22
+      },
+      {
+        "board_id": "caa5d8898f14442ea37c3278d156b3fe",
+        "page": 1,
+        "received": 34,
+        "total": 34
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 1,
+        "received": 100,
+        "total": 463
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 2,
+        "received": 100,
+        "total": 463
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 3,
+        "received": 100,
+        "total": 463
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 4,
+        "received": 100,
+        "total": 463
+      },
+      {
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "page": 5,
+        "received": 63,
+        "total": 463
+      }
+    ],
+    "active": [
+      {
+        "task_id": "101221814fd5430697f697f95a3f4252",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits_cost": 0
+      }
+    ],
+    "submitted_reconciliation": [
+      {
+        "task_id": "101221814fd5430697f697f95a3f4252",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "b15165813c0848939edbe8b3d3aed182",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "be960f5e3bf54563aff663fed9da8906",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "b0915b04173c414e9ac08652d34b7852",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "025955aad2cf494da2b4104d26c36ed5",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "0de1f663432646d294f409a22e20a26e",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "365cf639589a4a5da834d70193d5e8f6",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "c65c30d8cbe14e9eadec886276e62471",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "success",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits_cost": 0
+      },
+      {
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits_cost": 0
+      }
+    ],
+    "unresolved_claims": 0,
+    "new_claims": 0,
+    "creates": 0
+  },
+  "monitor": {
+    "action": "skip",
+    "primary": "robot",
+    "standby": "chatgpt",
+    "evidence": "scripts/monitor_role.py . --me chatgpt: primary age11.2min<180; no telemetry/heartbeat written"
+  },
+  "owner_inbox": {
+    "open": 0,
+    "taken": 0,
+    "owner_decisions": "No pending/in_progress decisions found; one historical needs_owner Grok item retained, no new permission inferred."
+  },
+  "relay": {
+    "chatgpt_address": "chatgpt@cloud-239644772681871360",
+    "enabled": true,
+    "production_enabled": true,
+    "robot_delivery": "Already two paths: assigned wake-issue to virudik for Grok; Relay DM for ChatGPT. No robot routing change needed.",
+    "historical_real_event": {
+      "event_id": "result:22dbd25cdd9f47cd9e44300e55f5e44f",
+      "relay_event_id": "evt_dce5b2907b900817d1731adfebc38eb0",
+      "message_id": "244335152700542976",
+      "issue": 372,
+      "processed_at": "2026-11-06T05:55:16.981Z",
+      "outcome": "no_update",
+      "receipt": "reports/topview-event-wake.json"
+    },
+    "subscription": {
+      "id": "sub_b7ceb61dc94f1783116dbe0e1a812088",
+      "active": true,
+      "last_delivery_at": "2026-11-06T06:54:54.081Z",
+      "current_chat_delivery": "unverified; existing automated handler is a separate conversation"
+    },
+    "duplicate_policy": "Historical completed event not replayed, no duplicate ACK or Create."
+  },
+  "automations_before": {
+    "relay": {
+      "id": "6adc585e7ac08191bb93825117dc7213",
+      "enabled": true
+    },
+    "work_hourly": {
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "enabled": false,
+      "last_recorded_run": "0696a58c-bd14-8333-960c-4a7757864e1c",
+      "latest_result_requires_user_action": true
+    },
+    "ordinary": {
+      "id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
+      "enabled": true
+    }
+  },
+  "plan": [
+    "Publish factual recovery checkpoint and Work foreground takeover under exact lease.",
+    "Restore existing Work HH:55 without a new timer; verify existing Relay subscription and retain Grok delivery.",
+    "Persist results and receipt, reread main and verify preflight.",
+    "Observe existing tasks; at a genuine free slot fresh complete scan and selected ready authorized item only; no repeats of submitted S63/S64/S49A."
+  ],
+  "foreground_epoch": 4
+}
