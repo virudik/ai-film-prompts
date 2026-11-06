@@ -1,67 +1,46 @@
 {
   "schema_version": 1,
   "project": "seregius",
+  "source": "ChatGPT hourly",
+  "runner": "chatgpt_scheduled_task",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
   "executor": "work",
-  "phase": "started",
-  "status": "in_progress",
-  "result": null,
-  "run_id": "0696a58c-bd14-8333-960c-4a7757864e1c",
+  "run_id": "6a8507ab-69d0-8328-966f-cbc87d3fc5c9",
+  "run_id_unavailable_reason": null,
   "runtime_run_id_source": "Automations.peek current last_run.id",
-  "execution_instance_id": "439c915d-9aa7-4df7-96f5-043bc77c07fc",
+  "execution_instance_id": "b636fded-79a7-4a72-9c83-78bc3dd5363a",
   "route_generation": 3,
-  "source_head": "acbb037637e973ceb0020a7f52e246650d7cc2f4",
-  "source_head_at_receipt_start": "3726cc68241aecf397c43c71817bae4cc2489d94",
-  "lease_commit": "3726cc68241aecf397c43c71817bae4cc2489d94",
-  "started_at": "2026-11-05T19:53:48.336031Z",
-  "receipt_started_at": "2026-11-05T19:55:50.872Z",
-  "completed_at": null,
-  "intake": {
-    "monitor_role": {
-      "status": "not_checked",
-      "reason": "current managed workspace has no repository checkout; scripts/monitor_role.py unavailable and heartbeat was not simulated"
-    }
-  },
-  "scan": {
-    "complete": false,
-    "boards_scanned": null,
-    "pages_scanned": null,
-    "video_tasks_scanned": null,
-    "status_counts": null,
-    "active_task_ids": null,
-    "scope": null
-  },
-  "slots": {
-    "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
-  },
-  "queue_reconciliation": {
-    "status": "pending"
-  },
+  "source_head": "3d3792b69f3c6e1395dd2d90491ca8bb588a5dd8",
+  "started_at": "2026-11-06T12:55:20.235232Z",
+  "checked_at": "2026-11-06T12:57:51.248Z",
+  "phase": "started",
+  "scan_complete": false,
+  "occupied_slots": null,
+  "free_slots": null,
+  "selected_item": null,
+  "task_ids": [],
+  "outcome": "started",
+  "blocker": null,
+  "retryable": true,
   "peer_reconciliation": {
-    "ordinary_actual_last_run_id": "0d4b2a49-90f8-8332-a5e8-f0cfea89c298",
-    "ordinary_status": "completed",
-    "ordinary_latest_result_run_id": null,
-    "ordinary_receipt_run_id": "0d4b2a49-90f8-8332-a5e8-f0cfea89c298",
-    "current_work_actual_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c"
+    "ordinary_actual_last_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
+    "ordinary_latest_result_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
+    "ordinary_receipt_run_id": "c7bd9924-745c-8330-9258-e6af41716263",
+    "status": "receipt_mismatch_for_latest_ordinary_run"
   },
+  "owner_tasks": "checked_open_0",
   "phases": {
-    "a": "not_due_22_55",
-    "b": "not_due_22_55",
-    "c": "not_due_thursday",
-    "owner_tasks": "pending"
+    "a": "not_due_15_55",
+    "b": "not_due_15_55",
+    "c": "not_due_friday"
   },
   "new_submissions": [],
   "topview_credits_spent": 0,
-  "blocker": null,
-  "retryable": false,
-  "notification": "pending",
   "lease": {
-    "holder": "chatgpt:work:439c915d-9aa7-4df7-96f5-043bc77c07fc",
-    "acquired_at": "2026-11-05T19:55:26.523Z",
-    "expires_at": "2026-11-05T20:25:26.523Z",
+    "holder": "chatgpt:work:b636fded-79a7-4a72-9c83-78bc3dd5363a",
+    "acquired_at": "2026-11-06T12:57:18Z",
+    "expires_at": "2026-11-06T13:42:18Z",
+    "lease_commit": "3d3792b69f3c6e1395dd2d90491ca8bb588a5dd8",
     "final_action": "release_pending"
   }
 }
