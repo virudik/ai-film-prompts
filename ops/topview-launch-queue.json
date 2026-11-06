@@ -93,7 +93,7 @@
       "canonical_prompt_sha256": "be0a3b101ea73796c5af87dce7e503e68ab2291a1dac67c6bf8e433a7c9dcc0a",
       "normalized_prompt_sha256": "d834b734184c5a3ad48852043e5e60349a3e61d2f10be3ca668ad5d87a8f69b6",
       "priority": 1.2,
-      "state": "claimed",
+      "state": "submitting",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -187,7 +187,18 @@
           "prompt_chars": 6200,
           "references_uploaded": 5,
           "form_path": "Омни-референс"
-        }
+        },
+        "submission_intent_id": "c33ce387-7b04-4630-9c52-add98474a0de",
+        "submission_intent_at": "2026-11-06T05:47:06Z",
+        "lease_holder": "grok:fb8ebe11-bf48-4c70-963b-98da1edc3e46",
+        "lease_acquired_at": "2026-11-06T05:42:45Z",
+        "replay_forbidden": true,
+        "provider_run_id": "grokbot-routine-e57554d4-e37d-5a96-849b-bb01ae42ed2d@2026-11-06T05:40:38.480Z",
+        "provider_run_key": "0cd9eb65a371f44e9577306b4d6dc7f583a1e609f119ff5284c6549f7da2e550",
+        "owner_event_keys": [],
+        "ledger_path": "ops/launcher-run-ledger.json",
+        "trigger": "wake",
+        "wake_issue": 372
       },
       "owner_review_required_after_item": null,
       "blocker": null,
