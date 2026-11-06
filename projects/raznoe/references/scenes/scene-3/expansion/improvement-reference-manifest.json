@@ -112,7 +112,22 @@
       "real_video_frame": false
     }
   ],
-  "updated_at": "2026-11-06T14:17:51+00:00",
+  "updated_at": "2026-11-06T18:07:30.095Z",
   "generated_image_count": 3,
-  "status": "reference_images_in_progress"
+  "status": "reference_images_in_progress",
+  "pending_references": [
+    {
+      "tag": "PROP-press-scrap-loaded",
+      "intended_path": "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-press-scrap-loaded.png",
+      "sha256": "6cf41a9dd1c90b323eacb4a7df22ef5463cfac0de70476c263f259852f8062d4",
+      "width": 1672,
+      "height": 941,
+      "library_file_id": "libfile_097cf5615ae081919d2273523d3acac1",
+      "editorial_status": "not_approved",
+      "canon_png_present": false,
+      "source": "built-in ChatGPT ImageGen",
+      "status": "pending_github_publish"
+    }
+  ],
+  "generated_private_library_image_count": 1
 }
