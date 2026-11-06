@@ -966,8 +966,11 @@
       "relay_event_id": "evt_dce5b2907b900817d1731adfebc38eb0",
       "checked_at": "2026-11-06T05:54:02.023Z",
       "outcome": "started",
-      "reason": "Authenticated event; reconciling existing S49A submission and global slots.",
-      "task_ids": [],
+      "reason": "All boards/pages scanned: 6 active videos. S72 result success; existing S49A init, Unlimited=true credits=0. No Create.",
+      "task_ids": [
+        "22dbd25cdd9f47cd9e44300e55f5e44f",
+        "101221814fd5430697f697f95a3f4252"
+      ],
       "retryable": true,
       "source": "Agent Relay webhook",
       "runner": "chatgpt_event_trigger",
@@ -977,11 +980,27 @@
       "run_id_reason": "Runtime run_id not exposed",
       "execution": {
         "state": "intake",
-        "stage": "intake",
+        "stage": "scan_complete",
         "started_at": "2026-11-06T05:54:02.023Z",
-        "updated_at": "2026-11-06T05:54:02.023Z"
+        "updated_at": "2026-11-06T05:54:56.553Z"
       },
-      "new_submissions": 0
+      "new_submissions": 0,
+      "scan": {
+        "complete": true,
+        "boards": 14,
+        "pages": 20,
+        "tasks": 1014,
+        "active_task_ids": [
+          "101221814fd5430697f697f95a3f4252",
+          "3ebe7c23db05479e9b6f762a75b832e7",
+          "365cf639589a4a5da834d70193d5e8f6",
+          "be960f5e3bf54563aff663fed9da8906",
+          "de8e44bb15d64dc7a4eb640d27a726e4",
+          "431180d384cc43bebe7afc702e4eb4e6"
+        ]
+      },
+      "occupied_slots": 6,
+      "free_slots": 0
     }
   ],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
