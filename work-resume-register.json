@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-06T13:58:27+00:00",
+  "last_updated_at": "2026-11-06T14:05:13+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-06T13:58:27+00:00",
+      "updated_at": "2026-11-06T14:05:13+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -319,13 +319,13 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T13:58:27+00:00",
-        "last_completed": "Проверен общий ChatGPT Images и снят прежний UI-блокер; завершённая работа перенесена с сохранением истории. Подтверждён linkfix существующего руководства Саше по трём Drive ID и SHA readback. Квитанции CONTINUE-001 уточнены без закрытия issue; основной фокус и текущие блокеры сохранены.",
+        "verified_at": "2026-11-06T14:05:13+00:00",
+        "last_completed": "Проверен общий ChatGPT Images и снят прежний UI-блокер; завершённая работа перенесена с сохранением истории. Подтверждён linkfix существующего руководства Саше по трём Drive ID и SHA readback. Квитанции CONTINUE-001 уточнены без закрытия issue; основной фокус и текущие блокеры сохранены. Дополнительно подтверждены success восьми Pages deployments и корректные AAAA/CAA; происхождение HTTPS 503 на origin не установлено.",
         "next_action": "При свободном слоте выполнить свежий полный preflight и взять готовый разрешённый item по priority; submitted не повторять. S52/S60/S61 ждут полного QC со звуком. Keep продолжать по приватному checkpoint. RESOURCE/HONOR доделывать под замком Разного. Проверить сертификаты/Pages восьми семейных поддоменов. Восемь файлов Саше доставлены; не дублировать.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
           "anchor": "# 06.11.2026 — общий Images проверен, ссылка руководства Саше исправлена",
-          "sha256": "280a398d9a1001b6c32d6e8a4f1a7ec7b601f6e8ec1a3b49a1fd5780d7e7c9bb"
+          "sha256": "8fce35f27985f2c9c5dd4b346e5912205349f023a292e5a77a708f191cb4be4a"
         },
         "evidence": [
           {
@@ -334,7 +334,7 @@
           },
           {
             "file": "reports/work-continue-linked-chat-2026-11-06.json",
-            "sha256": "48532af81d3312312c526324c5b282e3e37c5d22c610a7e72bf3e671ab75d859"
+            "sha256": "b56c05ba19787be18826d434f3e71dea09ca1b787c59680cc70a4473e4b270f8"
           }
         ],
         "read_next": [

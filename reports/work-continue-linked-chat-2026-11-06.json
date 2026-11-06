@@ -656,7 +656,305 @@
       "conclusion": "All 8 custom subdomains return upstream HTTPS 503 from the checking environment; HTTP routing, DNS CNAME and repository CNAME work. No corresponding SAN names found in the current Cert Spotter response. Actual origin peer certificates could not be retrieved; direct TLS probes fail at local DNS resolution. Certificate provisioning/deployment issue is plausible but not proven.",
       "pages_settings_access": "Cloud browser checked in dedicated tab 14: Pages settings returns 404 with Sign in / Sign up. Browser is unauthenticated. Status and error of certificate remain unreadable; no authentication attempted.",
       "tls_verification_disabled": false,
-      "changes": []
+      "changes": [],
+      "deployment_dns_followup": {
+        "event_id": "https-deployment-dns-20261106T140021Z",
+        "checked_at": "2026-11-06T14:00:21.511Z",
+        "dns_checked_at": "2026-11-06T14:00:01.599557+00:00",
+        "recorded_from_head": "8ee583d06f3b65f0a795d27989e2190eeba9d46c",
+        "read_only": true,
+        "verification_source": "delegated https_verify agent; saved connector run/job/log and DNS responses reviewed by delegated auditor",
+        "deployments": [
+          {
+            "repository": "virudik/alina-rudik-redirect",
+            "main_head_sha": "92666209cb03e6f4e6f4fc5d30d8957a46b8b101",
+            "run_id": 41841629512,
+            "run_url": "https://github.com/virudik/alina-rudik-redirect/actions/runs/41841629512",
+            "run_head_sha": "92666209cb03e6f4e6f4fc5d30d8957a46b8b101",
+            "completed_at": "2026-11-04T13:50:48Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          },
+          {
+            "repository": "virudik/masha-rudik-redirect",
+            "main_head_sha": "1f7bda4f42c6e9302e713dcf43f0e688503d9e90",
+            "run_id": 41841739644,
+            "run_url": "https://github.com/virudik/masha-rudik-redirect/actions/runs/41841739644",
+            "run_head_sha": "1f7bda4f42c6e9302e713dcf43f0e688503d9e90",
+            "completed_at": "2026-11-04T13:51:15Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          },
+          {
+            "repository": "virudik/vitalik-rudik-redirect",
+            "main_head_sha": "9f5b856fd4b956014f5c7fcab990d2be66e3f7bc",
+            "run_id": 41841834506,
+            "run_url": "https://github.com/virudik/vitalik-rudik-redirect/actions/runs/41841834506",
+            "run_head_sha": "9f5b856fd4b956014f5c7fcab990d2be66e3f7bc",
+            "completed_at": "2026-11-04T13:52:00Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          },
+          {
+            "repository": "virudik/video-rudik-redirect",
+            "main_head_sha": "fcd5a050fa9baedcb1825282b1b0d3d36d283706",
+            "run_id": 41841954557,
+            "run_url": "https://github.com/virudik/video-rudik-redirect/actions/runs/41841954557",
+            "run_head_sha": "fcd5a050fa9baedcb1825282b1b0d3d36d283706",
+            "completed_at": "2026-11-04T13:52:46Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          },
+          {
+            "repository": "virudik/foto-rudik-redirect",
+            "main_head_sha": "ad53fabae5cb7d2eb0fd33d5ed99469cef32cc5f",
+            "run_id": 41842053557,
+            "run_url": "https://github.com/virudik/foto-rudik-redirect/actions/runs/41842053557",
+            "run_head_sha": "ad53fabae5cb7d2eb0fd33d5ed99469cef32cc5f",
+            "completed_at": "2026-11-04T13:52:55Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          },
+          {
+            "repository": "virudik/rabota-rudik-redirect",
+            "main_head_sha": "6899a587ea9baceb31ac343bd2eefeeab4f138eb",
+            "run_id": 41842154789,
+            "run_url": "https://github.com/virudik/rabota-rudik-redirect/actions/runs/41842154789",
+            "run_head_sha": "6899a587ea9baceb31ac343bd2eefeeab4f138eb",
+            "completed_at": "2026-11-04T13:53:44Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          },
+          {
+            "repository": "virudik/moi-video-rudik-redirect",
+            "main_head_sha": "3983a4ce7c132f340cb294a9303ae4eb469b2f68",
+            "run_id": 41842351392,
+            "run_url": "https://github.com/virudik/moi-video-rudik-redirect/actions/runs/41842351392",
+            "run_head_sha": "3983a4ce7c132f340cb294a9303ae4eb469b2f68",
+            "completed_at": "2026-11-04T13:54:55Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          },
+          {
+            "repository": "virudik/obo-mne-rudik-redirect",
+            "main_head_sha": "9c816983683676bc802c36a485f0e753b4c86afe",
+            "run_id": 41842252385,
+            "run_url": "https://github.com/virudik/obo-mne-rudik-redirect/actions/runs/41842252385",
+            "run_head_sha": "9c816983683676bc802c36a485f0e753b4c86afe",
+            "completed_at": "2026-11-04T13:54:10Z",
+            "conclusion": "success",
+            "head_matches_main": true,
+            "available_run_count": 1,
+            "jobs_all_success": true,
+            "deploy_log_reported_success": true
+          }
+        ],
+        "dns": [
+          {
+            "host": "xn--80aaxll.xn--d1aigvp.xn--p1ai",
+            "display_host": "алина.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          },
+          {
+            "host": "xn--80aa8axc.xn--d1aigvp.xn--p1ai",
+            "display_host": "маша.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          },
+          {
+            "host": "xn--80adsbke1c.xn--d1aigvp.xn--p1ai",
+            "display_host": "виталик.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          },
+          {
+            "host": "xn--b1aedk6a.xn--d1aigvp.xn--p1ai",
+            "display_host": "видео.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          },
+          {
+            "host": "xn--n1aalg.xn--d1aigvp.xn--p1ai",
+            "display_host": "фото.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          },
+          {
+            "host": "xn--80aac6chp.xn--d1aigvp.xn--p1ai",
+            "display_host": "работа.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          },
+          {
+            "host": "xn----dtbgelcyqg.xn--d1aigvp.xn--p1ai",
+            "display_host": "мои-видео.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          },
+          {
+            "host": "xn----9sbn1afcb.xn--d1aigvp.xn--p1ai",
+            "display_host": "обо-мне.рудик.рф",
+            "dns_status": 0,
+            "cname_target": "virudik.github.io",
+            "aaaa": [
+              "2606:50c0:8000::153",
+              "2606:50c0:8001::153",
+              "2606:50c0:8002::153",
+              "2606:50c0:8003::153"
+            ],
+            "caa": [
+              "0 issue \"digicert.com\"",
+              "0 issue \"letsencrypt.org\"",
+              "0 issue \"sectigo.com\"",
+              "0 issuewild \"digicert.com\"",
+              "0 issuewild \"letsencrypt.org\"",
+              "0 issuewild \"sectigo.com\""
+            ],
+            "letsencrypt_permitted": true
+          }
+        ],
+        "conclusion": "Все восемь Pages deployments завершились success и совпадают с текущими main SHA своих репозиториев. AAAA соответствует GitHub Pages; CAA допускает letsencrypt.org. Ошибка build/deploy и обнаруженный CAA-запрет не подтверждены как причины HTTPS.",
+        "response_path_limit": "Ранее наблюдавшийся HTTPS 503 получен через envoy проверяющей среды. Это не диагностический ответ origin GitHub Pages и не доказательство ошибки, просрочки или отсутствия сертификата. Причина на origin не установлена; HTTPS-путь среды также не исключён.",
+        "certificate_state": "not_observed",
+        "access_limit": "GitHub Settings Pages требует входа; connector не предоставляет административный HTTPS certificate/domain health. Прямой TLS по проверенному IP завершился Network is unreachable до получения сертификата.",
+        "next_diagnostic_evidence": "Состояние HTTPS certificate и DNS check в авторизованном GitHub Settings Pages либо прямой TLS из среды с разрешённым соединением.",
+        "configuration_changes": [],
+        "workflow_reruns": 0,
+        "tls_verification_disabled": false,
+        "source_sha256": {
+          "deployment-dns-supplement.md": "3a2136f57ccb078fb3f72ec489d98c9b2d18d822a9c42c5098b3d721549cf794",
+          "github-deployment-audit.json": "54b6527c8332e49908243c0daef60dfa49ee496853b02cc08b82586533266d30",
+          "dns-aaaa-caa.json": "b40849b5a873e209b982bc4f4cdd7a283628190c308a91f4853ce00ff3ec3cd7"
+        },
+        "public_content_scope": "Only public repository/run URLs, commit SHAs, DNS answers and diagnostic conclusions; no raw logs, credentials, private headers or access tokens."
+      }
     },
     "sasha_delivery": {
       "project": "raznoe",
