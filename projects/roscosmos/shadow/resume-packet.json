@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "roscosmos",
   "project_name": "Роскосмос",
-  "checked_at": "2026-11-06T12:04:29+00:00",
-  "source_head": "822f8b326711e0484faebfbb5e121da5418d4cac",
-  "source_fingerprint": "8d82e8af9375f690b4cbe380cb865e028d14a34a1f3e70f9e1ddd73a96c663a9",
+  "checked_at": "2026-11-06T12:32:18+00:00",
+  "source_head": "524c95312e0dcc0c077219f843779c46e7031168",
+  "source_fingerprint": "cb3f72ace57dd37fa33e9871fa3f9b34109b590b42c7582a6bae400262ad4792",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -123,8 +123,8 @@
   "sources": [
     {
       "file": "AI-PROJECT-GUIDE.md",
-      "sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
-      "bytes": 39789
+      "sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
+      "bytes": 42769
     },
     {
       "file": "BACKUP-AI-RUNBOOK.md",
@@ -133,8 +133,8 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "78038ceabd84d421f6e8700b74b04a6bbe6e127576f00ca8852364b9d6405a08",
-      "bytes": 35347
+      "sha256": "11a4faff1ca82f943c31e3834b139aa0e4c9c3e7703daef05101a37a7715e348",
+      "bytes": 34939
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
@@ -158,8 +158,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "e1f66407e61d910d95eb286d1e3cd46ca1932e13fdcd9d4762ca75859bb48eca",
-      "bytes": 5135
+      "sha256": "3e1e25aac4f8d2ebd86e18ee82fc35e8b690e89f3b28748275558d06a0583f17",
+      "bytes": 5136
     },
     {
       "file": "monitor-role.json",
@@ -228,12 +228,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "fded01a767fedcd8ecbb53fc97913e587e11b34f6f13020c57063dce9a02c8cc",
-      "bytes": 35148
+      "sha256": "7bf04f463b3c7b46882b33057a947fd163dd816849ae493c06d44f39e2f22166",
+      "bytes": 34740
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "0b3daaa8265265c7dbcbd2c1ff6dade977c8607bd2ffe72bbd78eda7e6c97364",
+      "sha256": "a0454c1cd7f022ec1a18573c55582117251384646f768d69616b509831115fe9",
       "bytes": 25158
     },
     {
