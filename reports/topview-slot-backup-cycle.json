@@ -13,31 +13,47 @@
   "lease_commit": "61a77f6c45fa35c4071185e3d4404a95f71e4cda",
   "started_at": "2026-11-06T03:56:35.826765Z",
   "receipt_started_at": "2026-11-06T04:02:23.517Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
+    "method": "read-only GitHub Topview robot telemetry and checkpoint; no direct Topview connector available in this runtime",
     "complete": false,
-    "source": "pending",
-    "checked_at": null,
-    "scope": null
+    "checked_at": "2026-11-06T03:50:28Z",
+    "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
+    "independent_full_all_board_scan": false,
+    "latest_snapshot_consistent": true,
+    "active_task_ids": [
+      "22dbd25cdd9f47cd9e44300e55f5e44f",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "431180d384cc43bebe7afc702e4eb4e6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4"
+    ],
+    "status_counts": null,
+    "boards": null,
+    "pages": null,
+    "total_video_tasks": null,
+    "limitation": "Robot scope is owned board counts plus AI Film latest 100 and known active; not a direct complete 14-board/18-page scan in this run; telemetry checked ~15 minutes before final receipt"
   },
   "slots": {
     "capacity": 6,
-    "occupied": null,
-    "free": null,
-    "complete_scan_verified": false
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": false,
+    "observation_at": "2026-11-06T03:50:28Z"
   },
   "new_submissions": 0,
   "task_ids": [],
-  "browser_transport": "not_used",
+  "browser_transport": "not_used_no_verified_free_slot",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "pending",
+  "outcome": "no_free_slot_in_latest_robot_telemetry",
   "blocker": null,
-  "retryable": null,
+  "retryable": true,
   "acceptance": {
     "scheduled_hourly_execution": true,
     "tinyfish_interactive_signin_and_reversible_clicks": "historical_only",
@@ -45,5 +61,34 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
     "new_task_id_verified": false
+  },
+  "queue_reconciliation": {
+    "status": "queue_local_and_robot_telemetry_reconciled_not_direct_provider_scan",
+    "queue_count": 63,
+    "submitted_count": 14,
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "next_ready_item": "S49A",
+    "next_priority": 1.2,
+    "readiness_source_queue_sha256": "53ec38d8ae8db5b244cb3f871761b7915f691d1a5e5eddef490f1b59110baad0",
+    "readiness_source_task_map_sha256": "c0b4bb1305279f2282f44387f6f5235b1a933dbcd5c1a3605035b0f405f24e66",
+    "hashes_verified_in_this_run": true,
+    "hashes_verified_at": "2026-11-06T04:04:23.649Z",
+    "open_owner_tasks": 0
+  },
+  "peer_reconciliation": {
+    "ordinary_runtime_run_id": "4c09a1ee-0a74-8331-b7f2-14586ca2b11d",
+    "relay_last_observed_run_id": "d62b3913-0a54-8321-a22c-efc668fb40ae",
+    "work_hourly_last_observed_run_id": "0696a58c-bd14-8333-960c-4a7757864e1c",
+    "work_hourly_enabled_observed": false
+  },
+  "completed_at": "2026-11-06T04:06:24.876Z",
+  "checked_at": "2026-11-06T04:06:24.876Z",
+  "lease": {
+    "acquired_at": "2026-11-06T04:01:50.634Z",
+    "holder": "chatgpt:ordinary:91630e3b-9e9c-4a98-aee8-30057ac195f6",
+    "released_at": "2026-11-06T04:06:24.876Z",
+    "release": "exact_own_lease_same_CAS_commit"
   }
 }
