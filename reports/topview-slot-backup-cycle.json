@@ -3,22 +3,20 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "7b9592b9-4b98-457b-877a-8f2fb30b964f",
-  "run_id": "7200fc72-81a0-832f-915d-a066bea3cd2c",
-  "runtime_run_id_source": "Automations.peek current last_run.id, started_at 2026-11-06T02:30:18.839887Z",
-  "source_head": "d34be130c9e810b689733aae9cf9eeb9844007eb",
+  "execution_instance_id": "41b9190d-ac1d-4ccb-b7bd-ec90022ea9c0",
+  "run_id": "6d63d34c-7b04-8326-8ed5-16beb9f463ba",
+  "runtime_run_id_source": "Automations.peek last_run.id started 2026-11-06T03:03:08.602530Z; latest_result.run_id is older",
+  "source_head": "d2e42f9c7269b57bb6a8d72a75e4e10c06c91e83",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:7b9592b9-4b98-457b-877a-8f2fb30b964f",
-  "lease_acquired_at": "2026-11-06T02:38:52.260Z",
-  "lease_commit": "17da79a59b2ba222300bc471c5dff7e7c02a7b3d",
-  "started_at": "2026-11-06T02:30:18.839887Z",
-  "receipt_started_at": "2026-11-06T02:39:42.298Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:41b9190d-ac1d-4ccb-b7bd-ec90022ea9c0",
+  "lease_acquired_at": "2026-11-06T03:09:47.677Z",
+  "lease_commit": "6a0520f9adb31051ba3df3a7748f40c1177a4e72",
+  "started_at": "2026-11-06T03:03:08.602530Z",
+  "receipt_started_at": "2026-11-06T03:11:27.221Z",
+  "phase": "started",
+  "status": "running",
   "scan": {
-    "method": "read-only Topview connector all-board/all-page + 14 direct task verifications",
-    "started_at": "2026-11-06T02:30:20Z",
-    "finished_at": "2026-11-06T02:40:49Z",
+    "method": "read-only Topview connector 14-board 18-page",
     "complete": true,
     "boards": 14,
     "pages": 18,
@@ -35,87 +33,13 @@
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6",
       "22dbd25cdd9f47cd9e44300e55f5e44f"
-    ],
-    "rechecked_active_at": "2026-11-06T02:40:13Z"
+    ]
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
     "complete_scan_verified": true
-  },
-  "queue_reconciliation": {
-    "status": "verified",
-    "queue_count": 63,
-    "task_ids_verified": 14,
-    "task_ids": [
-      {
-        "item": "S28-A1-TEST-20261017",
-        "task_id": "4b7b972870a44dfbb29bd6c5e330a633"
-      },
-      {
-        "item": "S42-SEED20-P2",
-        "task_id": "4a1061e175054da2810ffef8ad9d31cd"
-      },
-      {
-        "item": "S48-SEED20-P2",
-        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4"
-      },
-      {
-        "item": "S56-SEED20-P1",
-        "task_id": "b15165813c0848939edbe8b3d3aed182"
-      },
-      {
-        "item": "S56-SEED20-P2",
-        "task_id": "be960f5e3bf54563aff663fed9da8906"
-      },
-      {
-        "item": "S59-SEED20-P2",
-        "task_id": "b0915b04173c414e9ac08652d34b7852"
-      },
-      {
-        "item": "S60-SEED20-P1",
-        "task_id": "025955aad2cf494da2b4104d26c36ed5"
-      },
-      {
-        "item": "S61-SEED20-P1",
-        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a"
-      },
-      {
-        "item": "S62-SEED20-P1",
-        "task_id": "0de1f663432646d294f409a22e20a26e"
-      },
-      {
-        "item": "S63-WAN30",
-        "task_id": "365cf639589a4a5da834d70193d5e8f6"
-      },
-      {
-        "item": "S52-R2-SEED20-P1",
-        "task_id": "c65c30d8cbe14e9eadec886276e62471"
-      },
-      {
-        "item": "S64-WAN30",
-        "task_id": "3ebe7c23db05479e9b6f762a75b832e7"
-      },
-      {
-        "item": "S72-WAN30",
-        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f"
-      },
-      {
-        "item": "S71-WAN30",
-        "task_id": "431180d384cc43bebe7afc702e4eb4e6"
-      }
-    ],
-    "open_claimed": 0,
-    "open_submitting": 0,
-    "open_submission_unknown": 0,
-    "readiness_queue_sha256": "53ec38d8ae8db5b244cb3f871761b7915f691d1a5e5eddef490f1b59110baad0",
-    "readiness_map_sha256": "e5618daf34f52763ae60cd505f9a355673d43e3c9f78ea961d07c43b2b1bb140",
-    "hashes_verified_at": "2026-11-06T02:36:49Z",
-    "hashes_unchanged": true,
-    "next_ready_item": "S49A",
-    "next_priority": 1.2,
-    "open_owner_tasks": 0
   },
   "new_submissions": 0,
   "task_ids": [],
@@ -127,9 +51,7 @@
   "topview_credits_cost": 0,
   "blocker": null,
   "retryable": false,
-  "outcome": "no_free_slot",
-  "completed_at": "2026-11-06T02:42:14.217Z",
-  "checked_at": "2026-11-06T02:42:14.217Z",
+  "outcome": "pending_final_receipt",
   "acceptance": {
     "scheduled_hourly_execution": true,
     "tinyfish_interactive_signin_and_reversible_clicks": "historical_only",
@@ -137,11 +59,5 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
     "new_task_id_verified": false
-  },
-  "lease": {
-    "acquired_at": "2026-11-06T02:38:52.260Z",
-    "holder": "chatgpt:ordinary:7b9592b9-4b98-457b-877a-8f2fb30b964f",
-    "released_at": "2026-11-06T02:42:14.217Z",
-    "release": "exact_own_lease_same_CAS_commit"
   }
 }
