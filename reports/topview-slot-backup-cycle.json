@@ -3,24 +3,24 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "6e3c66d2-8520-4c57-9735-dbfb42a8a717",
-  "run_id": "e30650ed-d768-8332-b274-558b7c263f83",
+  "execution_instance_id": "cd634b8f-6d05-4a1f-95f9-34c21d98e96b",
+  "run_id": "cd346781-4354-8329-b4ec-1b26842b4e12",
   "run_id_unavailable_reason": null,
   "runtime_run_id_source": "Automations.peek current last_run.id",
-  "source_head": "df3ae6688ee3254d953ea47f6ddf629973a12a64",
+  "source_head": "aa5211c5b6eeadd52e6846174fcc423c3be439cd",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:6e3c66d2-8520-4c57-9735-dbfb42a8a717",
-  "lease_acquired_at": "2026-11-06T13:40:08.785Z",
-  "lease_commit": "db50f73ab4fa701b338dde8aac317627c1e5c196",
-  "started_at": "2026-11-06T13:31:06.285683Z",
-  "receipt_started_at": "2026-11-06T13:41:10.894Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:cd634b8f-6d05-4a1f-95f9-34c21d98e96b",
+  "lease_acquired_at": "2026-11-06T14:08:18.612Z",
+  "lease_commit": "561534c3a030abc6731624d34ac828a2fedfc623",
+  "started_at": "2026-11-06T13:58:59.340260Z",
+  "receipt_started_at": "2026-11-06T14:09:18.238Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
     "direct_topview_scan_this_cycle": true,
-    "scope": "all 14 Topview boards / 18 video pages",
-    "source": "Topview connector read-only list_boards/list_board_tasks",
+    "scope": "14 boards / 18 video pages; 630 tasks",
+    "source": "Topview connector read-only",
     "boards_scanned": 14,
     "pages_scanned": 18,
     "video_tasks_scanned": 630,
@@ -37,8 +37,7 @@
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6"
     ],
-    "checked_at": "2026-11-06T13:35:48.662Z",
-    "checked_at_note": "All 18 direct read-only board task pages returned before the timestamp; no live UI Create.",
+    "checked_at": "2026-11-06T14:04:33.527Z",
     "source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
     "source_task_map_sha256": "bf158ba1038ea37a1b0bc2831d3f0c32ec742c10da77485a6493fa9029b24695",
     "queue_sha256_independently_verified": true,
@@ -46,14 +45,14 @@
     "readiness_checked_at": "2026-11-06T13:40:32.888256Z",
     "readiness_hashes_match": true,
     "latest_active_recheck_confirmed": true,
-    "latest_active_recheck_at_or_before": "2026-11-06T13:44:19.498Z"
+    "latest_active_recheck_at_or_before": "2026-11-06T14:07:45.646Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
     "complete_scan_verified": true,
-    "verified_from": "direct Topview connector: 14 boards / 18 pages / 630 video tasks; same 6 active IDs checked again on My First Board"
+    "verified_from": "Direct Topview full read-only 14-board scan, active IDs reconfirmed on My First Board"
   },
   "new_submissions": 0,
   "browser_transport": "not_invoked",
@@ -62,7 +61,7 @@
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
-  "outcome": "no_free_slot",
+  "outcome": "started",
   "blocker": null,
   "retryable": false,
   "task_ids": [],
@@ -77,9 +76,9 @@
     "upstream_full_scan": true
   },
   "prior_run_id": "e30650ed-d768-8332-b274-558b7c263f83",
-  "updated_at": "2026-11-06T13:44:19.498Z",
-  "completed_at": "2026-11-06T13:44:19.498Z",
-  "lease_released_at": "2026-11-06T13:44:19.498Z",
+  "updated_at": "2026-11-06T14:09:18.238Z",
+  "completed_at": null,
+  "lease_released_at": null,
   "queue_reconciliation": {
     "queue_items": 63,
     "submitted_with_task_id": 15,
@@ -93,14 +92,14 @@
   },
   "owner_tasks": {
     "open": 0,
-    "source": "ops/owner-tasks.json read-only"
+    "source": "ops/owner-tasks.json"
   },
   "peer_reconciliation": {
     "relay_automation_id": "6adc585e7ac08191bb93825117dc7213",
     "hourly_work_automation_id": "6acae6ab433481919e88665c520b8ef2",
-    "latest_hourly_work_run_id": "6a8507ab-69d0-8328-966f-cbc87d3fc5c9",
+    "latest_hourly_work_run_id": "1658357b-2320-8333-98ac-459762c93799",
+    "latest_relay_run_id": "ab14d4da-f638-8320-aa4c-770edc94d17d",
     "preferred_executor": "work",
     "route_generation": 3
-  },
-  "lease_release_note": "Exact holder and acquired_at verified immediately before atomic CAS; no Create, credits or TinyFish incurred."
+  }
 }
