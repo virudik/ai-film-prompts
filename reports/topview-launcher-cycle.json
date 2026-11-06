@@ -10,18 +10,25 @@
   "runtime_run_id_source": "Automations.peek current last_run.id",
   "execution_instance_id": "b636fded-79a7-4a72-9c83-78bc3dd5363a",
   "route_generation": 3,
-  "source_head": "3d3792b69f3c6e1395dd2d90491ca8bb588a5dd8",
+  "source_head": "89f9b6aa5da787249cf7eeb15d45853bc856ff81",
   "started_at": "2026-11-06T12:55:20.235232Z",
-  "checked_at": "2026-11-06T12:57:51.248Z",
-  "phase": "started",
-  "scan_complete": false,
-  "occupied_slots": null,
-  "free_slots": null,
+  "checked_at": "2026-11-06T13:01:25.250Z",
+  "phase": "finished",
+  "scan_complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "selected_item": null,
-  "task_ids": [],
-  "outcome": "started",
+  "task_ids": [
+    "101221814fd5430697f697f95a3f4252",
+    "3ebe7c23db05479e9b6f762a75b832e7",
+    "365cf639589a4a5da834d70193d5e8f6",
+    "be960f5e3bf54563aff663fed9da8906",
+    "de8e44bb15d64dc7a4eb640d27a726e4",
+    "431180d384cc43bebe7afc702e4eb4e6"
+  ],
+  "outcome": "no_free_slot",
   "blocker": null,
-  "retryable": true,
+  "retryable": false,
   "peer_reconciliation": {
     "ordinary_actual_last_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
     "ordinary_latest_result_run_id": "7c2a80cd-26e8-8327-8259-2bb577677327",
@@ -42,5 +49,48 @@
     "expires_at": "2026-11-06T13:42:18Z",
     "lease_commit": "3d3792b69f3c6e1395dd2d90491ca8bb588a5dd8",
     "final_action": "release_pending"
-  }
+  },
+  "completed_at": "2026-11-06T13:01:25.250Z",
+  "status": "completed",
+  "scan": {
+    "complete": true,
+    "boards_scanned": 14,
+    "pages_scanned": 18,
+    "video_tasks_scanned": 630,
+    "status_counts": {
+      "success": 601,
+      "init": 6,
+      "fail": 23
+    },
+    "active_task_ids": [
+      "101221814fd5430697f697f95a3f4252",
+      "3ebe7c23db05479e9b6f762a75b832e7",
+      "365cf639589a4a5da834d70193d5e8f6",
+      "be960f5e3bf54563aff663fed9da8906",
+      "de8e44bb15d64dc7a4eb640d27a726e4",
+      "431180d384cc43bebe7afc702e4eb4e6"
+    ],
+    "scope": "all Topview boards, all video pages"
+  },
+  "slots": {
+    "capacity": 6,
+    "occupied": 6,
+    "free": 0,
+    "complete_scan_verified": true
+  },
+  "next_ready_candidate": "S49B",
+  "result": "no_free_slot",
+  "queue_reconciliation": {
+    "status": "complete",
+    "submitted_task_ids_checked": 15,
+    "claimed": 0,
+    "submitting": 0,
+    "submission_unknown": 0,
+    "all_submitted_found": true
+  },
+  "monitor_role": {
+    "action": "skip",
+    "reason": "robot primary had verified healthy cycle at 2026-11-06T12:50:27Z; no telemetry heartbeat simulated"
+  },
+  "notification": "no_update"
 }
