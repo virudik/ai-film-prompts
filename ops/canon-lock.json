@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "grok:8899db3e-9af7-4977-8c78-a228694d43b1",
   "task": "Миниатюры сцены 4 HONOR",
   "acquired_at": "2026-11-06T04:37:44Z",
-  "expires_at": "2026-11-06T06:07:44Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T04:42:09Z",
   "rules": "ops/CANON-LOCK.md"
 }

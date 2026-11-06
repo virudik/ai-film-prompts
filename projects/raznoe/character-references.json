@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-11-06T04:20:00Z",
+  "updated_at": "2026-11-06T04:45:00Z",
   "source": "59/59 existing scene references recovered and registered; all not_approved; no video generated. 06.11.2026: сцена 3 RESOURCE, 10 поставленных кадров, not_approved; 45737 — полимер; старый металл вне галереи.",
   "characters": [
     {
@@ -1539,6 +1539,90 @@
       },
       "scenes": [
         3
+      ]
+    },
+    {
+      "id": "honor-mood-real",
+      "name": "Неоновый орбитал",
+      "kind": "mood_reference",
+      "notes": "Концепт-кадр. Модель устройства не выбрана; продуктовый кадр требует утверждённых референсов. Это не дизайн телефона.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-4/01-honor-realism.png",
+          "caption": "Неоновый орбитал · только настроение · не одобрено",
+          "sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e",
+          "width": 1280,
+          "height": 720,
+          "scenes": [
+            4
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_mood_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "owner-approved concept still, not a product reference"
+      },
+      "scenes": [
+        4
+      ]
+    },
+    {
+      "id": "honor-mood-3d",
+      "name": "Скульптурная сцена",
+      "kind": "mood_reference",
+      "notes": "Концепт-кадр. Модель устройства не выбрана; продуктовый кадр требует утверждённых референсов. Это не дизайн телефона.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-4/02-honor-3d.png",
+          "caption": "Скульптурная сцена · только настроение · не одобрено",
+          "sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24",
+          "width": 1280,
+          "height": 720,
+          "scenes": [
+            4
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_mood_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "owner-approved concept still, not a product reference"
+      },
+      "scenes": [
+        4
+      ]
+    },
+    {
+      "id": "honor-mood-drawn",
+      "name": "Штрих → мир",
+      "kind": "mood_reference",
+      "notes": "Концепт-кадр. Модель устройства не выбрана; продуктовый кадр требует утверждённых референсов. Это не дизайн телефона.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png",
+          "caption": "Штрих → мир · только настроение · не одобрено",
+          "sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
+          "width": 1280,
+          "height": 720,
+          "scenes": [
+            4
+          ],
+          "editorial_status": "not_approved",
+          "source_type": "supplied_mood_still"
+        }
+      ],
+      "editorial_status": "not_approved",
+      "provenance": {
+        "status": "supplied",
+        "source": "owner-approved concept still, not a product reference"
+      },
+      "scenes": [
+        4
       ]
     }
   ],

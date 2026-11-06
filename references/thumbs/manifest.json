@@ -1323,6 +1323,36 @@
    "thumb_bytes": 28396,
    "src_sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736"
   },
+  "projects/raznoe/references/scenes/scene-4/01-honor-realism.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/01-honor-realism.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1383042,
+   "thumb_bytes": 51218,
+   "src_sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e"
+  },
+  "projects/raznoe/references/scenes/scene-4/02-honor-3d.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/02-honor-3d.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 619834,
+   "thumb_bytes": 13000,
+   "src_sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24"
+  },
+  "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/03-honor-drawn.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1421451,
+   "thumb_bytes": 44116,
+   "src_sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d"
+  },
   "projects/raznoe/references/sonya-expressions.png": {
    "thumb": "references/thumbs/projects/raznoe/references/sonya-expressions.png.webp",
    "width": 640,

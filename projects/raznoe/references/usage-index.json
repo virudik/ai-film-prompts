@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "updated_at": "2026-11-06T04:20:00Z",
+  "updated_at": "2026-11-06T04:45:00Z",
   "generated_image_count": 59,
   "generated_orphans": [],
   "images": [
@@ -773,7 +773,41 @@
       "sha256": "802992aa667bd04bacb8e23e7a894a725eef8e1337951dc2feda0b94c2753736",
       "editorial_status": "not_approved",
       "source_id": "45737"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-4/01-honor-realism.png",
+      "scenes": [
+        4
+      ],
+      "roles": [
+        "mood_style_only"
+      ],
+      "sha256": "db0c1517d55c460eb78e698c7c4eddb5737fe3e0462d90d7c68502b629a5081e",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-4/02-honor-3d.png",
+      "scenes": [
+        4
+      ],
+      "roles": [
+        "mood_style_only"
+      ],
+      "sha256": "b661000edd39577bf516c5c7a3567b21597b96108cffe4ddddeaf611d0e04c24",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/raznoe/references/scenes/scene-4/03-honor-drawn.png",
+      "scenes": [
+        4
+      ],
+      "roles": [
+        "mood_style_only"
+      ],
+      "sha256": "2279000421fef277e1e7555498009f983f7a47e6943e549c75111b2ddf3b3e1d",
+      "editorial_status": "not_approved"
     }
   ],
-  "resource_scene_3_supplied": 10
+  "resource_scene_3_supplied": 10,
+  "honor_scene_4_mood_frames": 3
 }
