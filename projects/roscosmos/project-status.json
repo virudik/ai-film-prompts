@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/projects/roscosmos/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-11-06T11:02:42Z",
+  "synced_at": "2026-11-06T14:02:43Z",
   "revision_date": "05.11.2026",
   "master_declared_last_full_sync": "05.11.2026 · Терра Тех 26–30: пять восстановленных PNG ChatGPT на местах, прежние байты как *-old.png, 15 видеопромтов горизонтальные; очередь не менялась",
   "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
@@ -51,21 +51,21 @@
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-11-06T10:54:36.135Z",
+    "snapshot_at": "2026-11-06T12:23:49.342Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.135,
+    "age_hours_at_status_build": 1.648,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_copy_sha256": "cd2a433494410b09a061a3cf1566b8eae5ab3c87ce2e2f70e7a4286e7d73f432",
         "drive_copy_checked_at": "2026-11-06T10:54:36.135Z",
         "drive_copy_modified_at": "2026-11-06T10:54:25.659Z",
-        "github_blob": "a972c876c0725fc2031c3b1f783735fa329adc70",
-        "mirror_sha256": "cd2a433494410b09a061a3cf1566b8eae5ab3c87ce2e2f70e7a4286e7d73f432",
+        "github_blob": "a48bf1c4eade088256e52923c489e82d0bd56fad",
+        "mirror_sha256": "11a4faff1ca82f943c31e3834b139aa0e4c9c3e7703daef05101a37a7715e348",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -82,10 +82,10 @@
         "drive_copy_sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
         "drive_copy_checked_at": "2026-11-06T10:54:36.135Z",
         "drive_copy_modified_at": "2026-11-04T10:57:05.491Z",
-        "github_blob": "3a254d6a0124b310e3d5759656918311c67e2d38",
-        "mirror_sha256": "3ddcdcb91c7ab0ae29d128b1ae477abe4a1ea3e5b3e0a9d008500491e68de9fc",
+        "github_blob": "2d8351ab14665f0d946ca68d8f94d1d23caa328f",
+        "mirror_sha256": "c62976f8c2561633e3d9612bcda6bad706ef85a9ad1a5295e2e6e6513b6efca6",
         "match": true,
-        "drive_copy_match": true
+        "drive_copy_match": false
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
@@ -133,7 +133,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.135,
+      "age_hours": 1.648,
       "blocking": false
     },
     "topview_task_map": {
@@ -752,7 +752,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "05.11.2026",
-    "synced_at": "2026-11-06T11:02:42Z",
+    "synced_at": "2026-11-06T14:02:43Z",
     "canonical_master_sha256": "fa45616f9b78c3e1bdd9b42ff06c65c4360aebf6a0d30839ed0e031998c56835",
     "canonical_revision_sha256": "0f6b847e3444a8e8788fda59dd930f2408f5cdb7f880e0746594ac8c7a6e4fcb",
     "scene_count": 30,
