@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-06T18:22:11+00:00",
-  "source_head": "b1f27767932d3293bcee6b1b201e6248d9208e49",
-  "source_fingerprint": "a764dc121a6e151001bd6380dc4c0ae6e12e6d1efbd05ab4f758bed42a0ef6ba",
-  "status": "needs_recovery",
-  "ready_for_resume": false,
+  "checked_at": "2026-11-06T18:22:57+00:00",
+  "source_head": "2040fbdfbe5f373ba76b859d013f255e363ad8c6",
+  "source_fingerprint": "23cbd849de39940c964c5cfcdb2e74a10fdc19f7052cefa3ad44eae64b371dcf",
+  "status": "ready",
+  "ready_for_resume": true,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
@@ -31,10 +31,7 @@
     },
     "source_head": "3d10334098e115e91438df8b4f24b9a7f8264aba"
   },
-  "reasons": [
-    "brief was invalid at generation",
-    "instruction certificate mismatch: NEW-CHAT-HANDOFF.md"
-  ],
+  "reasons": [],
   "selected_work": {
     "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
     "title": "Заполнение свободных Topview-слотов — задача №1",
@@ -449,7 +446,7 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "a85681fccea045b7b671364749267e976d473b0b1522536a91523903b4f5f0da",
+      "sha256": "8afd04a91106f9697adef6f060a9cdfc917a868505008b2bb1424547ff973aea",
       "bytes": 5136
     },
     {
@@ -469,8 +466,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "5bb80988518c86b22a6b19d37dcf22463bd37d7ea883b8686607d62c8b8a13a2",
-      "bytes": 22504
+      "sha256": "6455d8a753e78d013e4f1f8c3966fb5ab630ae57934973ddde0f3f6450154d05",
+      "bytes": 22508
     },
     {
       "file": "reports/chatgpt-images-ui-check-2026-11-06.json",
@@ -499,8 +496,8 @@
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "09f222693ecc0402797bddf6bac973460224ddb2920f6deab3a69ce8da8df550",
-      "bytes": 25093
+      "sha256": "9b5e2588a378ecf211895bc652e3e8c80aa55b602047a3cfb011e6db25d45391",
+      "bytes": 25066
     },
     {
       "file": "video-prompts.md",
@@ -513,5 +510,5 @@
       "bytes": 98792
     }
   ],
-  "packet_bytes": 8372
+  "packet_bytes": 8391
 }
