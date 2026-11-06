@@ -3,26 +3,25 @@
   "project": "seregius",
   "source": "ChatGPT scheduled ordinary",
   "automation_id": "6ae5e9d563f88191aa6da7c9ba1e05a0",
-  "execution_instance_id": "8c3b2334-5b2f-45cd-9011-fd5c50bd4483",
+  "execution_instance_id": "55b4ee08-c697-42ff-8324-9a7b5eb5c560",
   "run_id": "1c70b3d2-767c-8331-adaa-2227340a3448",
   "run_id_unavailable_reason": null,
-  "runtime_run_id_source": "Automations.peek last_run.id, recorded_status=in_progress, scheduled_for=2026-11-06T20:00:00Z, started_at=2026-11-06T20:04:25.496431Z",
-  "source_head": "972f3fafe7aedfd9a019fdb271dd0493a32e0fe8",
+  "runtime_run_id_source": "Automations.peek last_run.id, scheduled_for=2026-11-06T20:00:00Z, started_at=2026-11-06T20:32:33.190540Z; provider surfaced same id in preceding receipt, uniqueness unverified",
+  "source_head": "48b23b11194f2c9f1614dd4fc2c6da8ba11def01",
   "route_generation": 3,
-  "lease_holder": "chatgpt:ordinary:8c3b2334-5b2f-45cd-9011-fd5c50bd4483",
-  "lease_acquired_at": "2026-11-06T20:12:04.242Z",
-  "lease_commit": "1a304327dd2ad44eaafda117cdd4f9168ab6f199",
-  "started_at": "2026-11-06T20:04:25.496431Z",
-  "receipt_started_at": "2026-11-06T20:13:09.969Z",
-  "phase": "finished",
-  "status": "completed",
+  "lease_holder": "chatgpt:ordinary:55b4ee08-c697-42ff-8324-9a7b5eb5c560",
+  "lease_acquired_at": "2026-11-06T20:38:01.752Z",
+  "lease_commit": "58c1de9e26854c62c30930aa49f57a8a74b769f7",
+  "started_at": "2026-11-06T20:32:33.190540Z",
+  "receipt_started_at": "2026-11-06T20:39:16.438Z",
+  "phase": "started",
+  "status": "in_progress",
   "scan": {
     "complete": true,
-    "source": "Read-only Topview connector all boards/all video pages",
+    "source": "Topview connector, read-only",
     "boards_scanned": 14,
     "pages_scanned": 18,
     "video_tasks_scanned": 630,
-    "checked_at": "2026-11-06T20:17:09.293Z",
     "active_task_ids": [
       "101221814fd5430697f697f95a3f4252",
       "3ebe7c23db05479e9b6f762a75b832e7",
@@ -31,31 +30,31 @@
       "de8e44bb15d64dc7a4eb640d27a726e4"
     ],
     "status_counts": {
-      "success": 602,
       "init": 5,
+      "success": 602,
       "fail": 23
     },
-    "scope": "all_14_owned_boards_all_18_video_pages"
+    "scope": "all_14_owned_boards_all_18_video_pages",
+    "scan_completed_before_lease_at": null
   },
   "slots": {
     "capacity": 6,
     "occupied": 5,
     "free": 1,
-    "complete_scan_verified": true,
-    "source": "read_only_Topview_connector_2026-11-06T20:17:09.293Z"
+    "complete_scan_verified": true
   },
   "selected_item": "S49B",
   "selected_item_priority": 1.21,
   "new_submissions": 0,
-  "browser_transport": "not_used; unchanged blocked native image import and Unlimited0",
+  "browser_transport": "not_used; existing TinyFish upload/Unlimited0 blocker unchanged",
   "tinyfish_run_ids": [],
   "tinyfish_steps": 0,
   "tinyfish_estimated_cost_usd": 0,
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "blocked_browser_input_unchanged",
-  "blocker": "S49B: one free physical slot but no new verified TinyFish native UI import of six original images or selected Unlimited0, 720p, 16:9, quantity1. No repeat paid UI run, no Create.",
+  "outcome": null,
+  "blocker": null,
   "retryable": false,
   "acceptance": {
     "scheduled_runtime": true,
@@ -67,49 +66,6 @@
     "tinyfish_production_submission_verified": false,
     "verified_new_task_id": false
   },
-  "prior_run_id": "fc00476a-6d8c-8324-bc74-e9a57262a9be",
-  "updated_at": "2026-11-06T20:22:07.288Z",
-  "queued_candidate": "S49B",
-  "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
-  "queue_reconciliation": {
-    "checked_at": "2026-11-06T20:14:25.284Z",
-    "submitted_count": 15,
-    "submitted_task_ids_checked": 15,
-    "all_submitted_found": true,
-    "all_on_canonical_board": true,
-    "claimed": 0,
-    "submitting": 0,
-    "submission_unknown": 0,
-    "selected_item_state": "waiting_for_slot",
-    "selected_item_task_id": null,
-    "readiness_queue_sha256_matches": true,
-    "readiness_task_map_sha256_matches": true,
-    "readiness_selected_ready": true
-  },
-  "owner_tasks": {
-    "open_count": 1,
-    "taken_count": 0,
-    "not_taken_in_slot_cycle": true,
-    "open_task_ids": [
-      "self-heal-run-failed-sync-from-drive-202611061920"
-    ]
-  },
-  "bot_wake": {
-    "event_id": "slots:c48ed7e4:14",
-    "observed_at": "2026-11-06T19:10:26Z",
-    "status": "old_event_not_replayed_as_new_capacity"
-  },
-  "peer_status": {
-    "work_preferred": true,
-    "work_preference_verified_at": "2026-11-02T11:18:32.530Z",
-    "ordinary_last_run_id": "1c70b3d2-767c-8331-adaa-2227340a3448",
-    "work_hh55_last_run_id": "49ea48dc-67ec-8325-91e9-11ffafd18787",
-    "work_hh55_recorded_status": "no_update",
-    "relay_last_run_id": "38764c1b-84e4-8333-9447-61a9443bea8b",
-    "relay_recorded_status": "no_update"
-  },
-  "completed_at": "2026-11-06T20:22:07.288Z",
-  "checked_at": "2026-11-06T20:22:07.288Z",
-  "lease_released_at": "2026-11-06T20:22:07.288Z",
-  "finalization_note": "Only exact execution lease released in atomic CAS with final receipt; no queue/claim/retry/next_action changes; no paid calls or Create."
+  "prior_run_id": "1c70b3d2-767c-8331-adaa-2227340a3448",
+  "updated_at": "2026-11-06T20:39:16.438Z"
 }
