@@ -13,8 +13,8 @@
   "lease_commit": "6a0520f9adb31051ba3df3a7748f40c1177a4e72",
   "started_at": "2026-11-06T03:03:08.602530Z",
   "receipt_started_at": "2026-11-06T03:11:27.221Z",
-  "phase": "started",
-  "status": "running",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "method": "read-only Topview connector 14-board 18-page",
     "complete": true,
@@ -33,7 +33,12 @@
       "de8e44bb15d64dc7a4eb640d27a726e4",
       "431180d384cc43bebe7afc702e4eb4e6",
       "22dbd25cdd9f47cd9e44300e55f5e44f"
-    ]
+    ],
+    "rechecked_active_at": "2026-11-06T03:14:04.444Z",
+    "finished_at": "2026-11-06T03:14:04.444Z",
+    "started_at": null,
+    "started_at_reason": "Connector requests began after recorded runtime start, but exact scanner start wall clock not captured.",
+    "scan_scope": "14 boards, 18 complete video pages, 629 unique tasks. All active independently rechecked."
   },
   "slots": {
     "capacity": 6,
@@ -51,7 +56,7 @@
   "topview_credits_cost": 0,
   "blocker": null,
   "retryable": false,
-  "outcome": "pending_final_receipt",
+  "outcome": "no_free_slot",
   "acceptance": {
     "scheduled_hourly_execution": true,
     "tinyfish_interactive_signin_and_reversible_clicks": "historical_only",
@@ -59,5 +64,86 @@
     "tinyfish_unlimited_zero_verified": false,
     "tinyfish_production_submission_verified": false,
     "new_task_id_verified": false
+  },
+  "queue_reconciliation": {
+    "status": "verified",
+    "queue_count": 63,
+    "task_ids_verified": 14,
+    "task_ids": [
+      {
+        "item": "S28-A1-TEST-20261017",
+        "task_id": "4b7b972870a44dfbb29bd6c5e330a633"
+      },
+      {
+        "item": "S42-SEED20-P2",
+        "task_id": "4a1061e175054da2810ffef8ad9d31cd"
+      },
+      {
+        "item": "S48-SEED20-P2",
+        "task_id": "de8e44bb15d64dc7a4eb640d27a726e4"
+      },
+      {
+        "item": "S56-SEED20-P1",
+        "task_id": "b15165813c0848939edbe8b3d3aed182"
+      },
+      {
+        "item": "S56-SEED20-P2",
+        "task_id": "be960f5e3bf54563aff663fed9da8906"
+      },
+      {
+        "item": "S59-SEED20-P2",
+        "task_id": "b0915b04173c414e9ac08652d34b7852"
+      },
+      {
+        "item": "S60-SEED20-P1",
+        "task_id": "025955aad2cf494da2b4104d26c36ed5"
+      },
+      {
+        "item": "S61-SEED20-P1",
+        "task_id": "c72c1ab4524e4f2f9d3a0272474f788a"
+      },
+      {
+        "item": "S62-SEED20-P1",
+        "task_id": "0de1f663432646d294f409a22e20a26e"
+      },
+      {
+        "item": "S63-WAN30",
+        "task_id": "365cf639589a4a5da834d70193d5e8f6"
+      },
+      {
+        "item": "S52-R2-SEED20-P1",
+        "task_id": "c65c30d8cbe14e9eadec886276e62471"
+      },
+      {
+        "item": "S64-WAN30",
+        "task_id": "3ebe7c23db05479e9b6f762a75b832e7"
+      },
+      {
+        "item": "S72-WAN30",
+        "task_id": "22dbd25cdd9f47cd9e44300e55f5e44f"
+      },
+      {
+        "item": "S71-WAN30",
+        "task_id": "431180d384cc43bebe7afc702e4eb4e6"
+      }
+    ],
+    "open_claimed": 0,
+    "open_submitting": 0,
+    "open_submission_unknown": 0,
+    "readiness_queue_sha256": "53ec38d8ae8db5b244cb3f871761b7915f691d1a5e5eddef490f1b59110baad0",
+    "readiness_map_sha256": "b3a76701393c60249b90a1228ad740f110eacf34805ad0ac118d97dda139caf5",
+    "hashes_verified_at": "2026-11-06T03:12:46.668Z",
+    "hashes_unchanged": true,
+    "next_ready_item": "S49A",
+    "next_priority": 1.2,
+    "open_owner_tasks": 0
+  },
+  "completed_at": "2026-11-06T03:15:38.085Z",
+  "checked_at": "2026-11-06T03:15:38.085Z",
+  "lease": {
+    "acquired_at": "2026-11-06T03:09:47.677Z",
+    "holder": "chatgpt:ordinary:41b9190d-ac1d-4ccb-b7bd-ec90022ea9c0",
+    "released_at": "2026-11-06T03:15:38.085Z",
+    "release": "exact_own_lease_same_CAS_commit"
   }
 }
