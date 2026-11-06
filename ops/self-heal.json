@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "pages-lag": {
+      "text": "Сайт показывает статус от 2026-11-06T23:00:32Z, а в main уже 2026-11-06T23:30:34Z (отставание 30 мин).",
+      "since": "2026-11-06T23:34:10Z",
+      "fixes": 1,
+      "last_fix_at": "2026-11-06T23:34:10Z",
+      "escalated_at": null
+    }
+  },
   "log": [
-    {
-      "at": "2026-11-05T03:49:20Z",
-      "kind": "fixed",
-      "key": "lock-forgotten",
-      "text": "Нашёл: Замок канона (chatgpt:ordinary:2f5a359d-cb00-4ae4-b082-15f197a262a0) истёк 05.11 03:15 UTC и не снят. Сделал: снял просроченный замок канона."
-    },
     {
       "at": "2026-11-05T04:19:30Z",
       "kind": "resolved",
@@ -123,7 +125,13 @@
       "kind": "resolved",
       "key": "run-failed-sync-from-drive",
       "text": "Прошло: Последний запуск «проверка канона и кнопок» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42277512140"
+    },
+    {
+      "at": "2026-11-06T23:34:10Z",
+      "kind": "fixed",
+      "key": "pages-lag",
+      "text": "Нашёл: Сайт показывает статус от 2026-11-06T23:00:32Z, а в main уже 2026-11-06T23:30:34Z (отставание 30 мин). Сделал: пересобрал сайт на GitHub Pages."
     }
   ],
-  "changed_at": "2026-11-06T19:49:40Z"
+  "changed_at": "2026-11-06T23:34:10Z"
 }
