@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-06T08:19:35Z",
+  "updated_at": "2026-11-06T10:12:38Z",
   "tasks": [
     {
       "id": "0948c546-0ea2-4443-9429-6dcf43bddc81",
@@ -202,9 +202,9 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Робот сканирует, но статус Topview на сайте не обновлялся 159 мин. Последнее решение робота: «hold — unmapped_active:10122181». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации. Робот уже запустил полный скан Topview 2026-11-06T07:49:34Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "open",
-      "taken_by": null,
-      "taken_at": null
+      "status": "taken",
+      "taken_by": "chatgpt:ordinary:965a152a-89f0-470d-9ba5-4984236a662c",
+      "taken_at": "2026-11-06T10:12:38Z"
     }
   ]
 }
