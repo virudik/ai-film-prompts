@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:resource-site-pointer-20261106",
   "task": "Link nine draft RESOURCE corrected reference-to-video prompt templates in scene 3 without changing live cut",
   "acquired_at": "2026-11-06T18:23:42.369Z",
-  "expires_at": "2026-11-06T18:33:42.369Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T18:24:58.428Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
