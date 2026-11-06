@@ -14,8 +14,8 @@
   "lease_commit": "76913673e254cd4606e762e9dd795cbdfe8303dc",
   "started_at": "2026-11-06T20:57:59.038250Z",
   "receipt_started_at": "2026-11-06T21:05:21.531Z",
-  "phase": "started",
-  "status": "in_progress",
+  "phase": "finished",
+  "status": "completed",
   "scan": {
     "complete": true,
     "source": "Topview connector, read-only",
@@ -34,9 +34,10 @@
       "success": 602,
       "fail": 23
     },
-    "scope": "all_14_owned_boards_all_18_video_pages",
+    "scope": "all_14_boards_18_pages_630_videos",
     "checked_at": "2026-11-06T21:05:21.531Z",
-    "timestamp_note": "Full all-board connector scan completed before this receipt; no browser/paid scan."
+    "timestamp_note": "Full all-board connector scan completed before this receipt; no browser/paid scan.",
+    "reference_scans_completed": true
   },
   "slots": {
     "capacity": 6,
@@ -55,8 +56,8 @@
   "tinyfish_confirmed_cost_usd": 0,
   "topview_credits_cost": 0,
   "task_ids": [],
-  "outcome": "scan_complete_gate_review_pending",
-  "blocker": "Prior authenticated TinyFish check did not expose native original-file import or selected Unlimited 0; no independent new evidence of UI change. No paid browser run without new evidence.",
+  "outcome": "blocked_browser_input_unchanged",
+  "blocker": "S49B: full current account scan 5/6 occupied, one free. Previous TinyFish native UI has not provided a valid import for the six exact image originals, and selected Unlimited0 with 720p/16:9/quantity1 remains unverified; no new evidence. No paid TinyFish, no Create.",
   "retryable": false,
   "acceptance": {
     "scheduled_runtime": true,
@@ -69,14 +70,14 @@
     "verified_new_task_id": false
   },
   "prior_run_id": "1c70b3d2-767c-8331-adaa-2227340a3448",
-  "updated_at": "2026-11-06T21:05:21.531Z",
-  "checked_at": "2026-11-06T21:05:21.531Z",
-  "completed_at": null,
-  "lease_released_at": null,
+  "updated_at": "2026-11-06T21:09:45.049Z",
+  "checked_at": "2026-11-06T21:09:45.049Z",
+  "completed_at": "2026-11-06T21:09:45.049Z",
+  "lease_released_at": "2026-11-06T21:09:45.049Z",
   "queue_sha": "4f880de6954ea55a77c4a720fa54556e424d8113",
   "queued_candidate": "S49B",
   "queue_reconciliation": {
-    "checked_at": "2026-11-06T21:05:21.531Z",
+    "checked_at": "2026-11-06T21:08:58.620Z",
     "submitted_count": 15,
     "submitted_task_ids_checked": 15,
     "all_submitted_found": true,
@@ -86,7 +87,14 @@
     "submission_unknown": 0,
     "selected_item_state": "waiting_for_slot",
     "selected_item_task_id": null,
-    "source_queue_unchanged_since_previous_verified_sha": true
+    "source_queue_unchanged_since_previous_verified_sha": true,
+    "readiness_source_queue_sha256": "879add3bf2a6befef4158e970730ce9f0a5c4fafe613ce070ff61abb72f9a218",
+    "readiness_source_task_map_sha256": "953308917b1e049521c24e2a906bb5a4fbcbff4700cd46a3b472593e8f3be272",
+    "readiness_selected_ready": true,
+    "queue_sha256_verified": true,
+    "task_map_sha256_verified": true,
+    "reference_item": "S72-WAN30",
+    "reference_historical_task_found": "22dbd25cdd9f47cd9e44300e55f5e44f"
   },
   "owner_tasks": {
     "open_count": 1,
@@ -94,7 +102,8 @@
     "not_taken_in_slot_cycle": true,
     "open_task_ids": [
       "self-heal-run-failed-sync-from-drive-202611061920"
-    ]
+    ],
+    "note": "Self-heal incident open; later GitHub sync-from-drive workflow run 42293320510 on 2026-11-06T21:02Z completed successfully, root cause not confirmed; left for scoped follow-up."
   },
   "bot_wake": {
     "event_id": "slots:c48ed7e4:15",
@@ -110,7 +119,8 @@
     "work_hh55_recorded_status": "no_update",
     "relay_last_run_id": "03890e64-7fb4-8320-aa91-6e3d4ade584d",
     "relay_recorded_status": "no_update",
-    "work_current_gui_and_quota_not_verified_in_this_cycle": true
+    "work_current_gui_and_quota_not_verified_in_this_cycle": true,
+    "preferred_executor": "work"
   },
-  "finalization_note": "One exact-lease CAS release with final receipt; no queue/claim/retry/next_action change; no paid TinyFish run or Topview Create."
+  "finalization_note": "No claim/intent/Create or retry changes. Exact own lease released atomically with final receipt. No change to next_action, resume checkpoint or Work preference. TinyFish transport not accepted for full production submission; unchanged blocker not paid-retried."
 }
