@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-11-06T22:42:47.462Z",
+  "updated_at": "2026-11-06T22:42:52.996Z",
   "tasks": [
     {
       "id": "0948c546-0ea2-4443-9429-6dcf43bddc81",
@@ -217,9 +217,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Последний запуск «проверка канона и кнопок» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/42277512140 Робот уже повторил упавший запуск «проверка канона и кнопок» 2026-11-06T18:49:45Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt:ordinary",
-      "taken_at": "2026-11-06T22:42:47.462Z"
+      "taken_at": "2026-11-06T22:42:47.462Z",
+      "result": "Ошибка sync-from-drive от 06.11 устранена автоматическим восстановлением. Подтверждены success запусков 42304154919, 42305425599 и 42305864747, self-heal.json.status=ok и project-status.health=ok после обновления мастера. Ручной повтор и изменение workflow не требуются.",
+      "result_commit": "eff22d811ff74fdec589f96101ae1d05842e211c",
+      "closed_at": "2026-11-06T22:42:52.996Z"
     }
   ]
 }
