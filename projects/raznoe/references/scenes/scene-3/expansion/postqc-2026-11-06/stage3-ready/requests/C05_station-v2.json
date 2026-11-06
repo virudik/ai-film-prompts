@@ -1,0 +1,30 @@
+{
+  "clip_id": "C05_station-v2",
+  "replaces": "C05_station",
+  "status": "STAGE3_READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "arguments": {
+    "filename": "C05_station-v2.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/C-original-lattice-station.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds.\n\n<IMAGE_0> original fictional orbital station — NOT the ISS.\n\nSTORY: wide shot of the original station over Earth; slow pullback. No logos/text. Do not copy ISS. Do not reinvent the satellite-from-C01 as this station.\nAVOID: crossfade; morph; letterbox; ISS likeness."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "C-original-lattice-station.png",
+      "role": "original fiction station only",
+      "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Широкий план оригинальной станции",
+    "semantic_end": "Отъезд с Землёй в кадре"
+  },
+  "note": "Station stays original fiction asset; not mixed with C01 craft"
+}

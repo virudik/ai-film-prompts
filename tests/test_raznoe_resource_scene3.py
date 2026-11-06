@@ -97,11 +97,22 @@ class RaznoeResourceScene3(unittest.TestCase):
     def test_native_116_cut_keeps_source_and_names_unaccepted_attempts(self):
         master = (ROOT / "projects/raznoe/video-prompts.md").read_text(encoding="utf-8")
         scene = master[master.find('<a id="scene-3"></a>'):master.find('<a id="scene-4"></a>')]
-        self.assertIn("### Native Grok · 19 клипов · 116 с", scene)
+        self.assertIn("### Native Grok · 19 клипов · 114 с", scene)
+        self.assertIn("A04_shred · 7 с", scene)
+        self.assertIn("C06_cycle · 5 с", scene)
+        self.assertIn("A04_shred-v2", scene)
+        self.assertIn("не доказывает", scene)
+        self.assertIn("монтажный пропуск", scene)
+        self.assertTrue((ROOT / "projects/raznoe/references/scenes/scene-3/expansion/prompts/A04_shred.txt").is_file())
+        self.assertTrue((ROOT / "projects/raznoe/references/scenes/scene-3/expansion/prompts/A04_shred-v2.txt").is_file())
+        self.assertNotEqual(
+            sha256(ROOT / "projects/raznoe/references/scenes/scene-3/expansion/prompts/A04_shred.txt"),
+            sha256(ROOT / "projects/raznoe/references/scenes/scene-3/expansion/prompts/A04_shred-v2.txt"),
+        )
         self.assertEqual(scene.count('class="native-prompt"'), 19)
         self.assertIn("A02_retrieve", scene)
-        self.assertLess(scene.find("A01_drop"), scene.find("A02_retrieve"))
-        self.assertLess(scene.find("A02_retrieve"), scene.find(">A02_blue"))
+        self.assertLess(scene.find('id="scene-3-native-A01_drop"'), scene.find('id="scene-3-native-A02_retrieve"'))
+        self.assertLess(scene.find('id="scene-3-native-A02_retrieve"'), scene.find('id="scene-3-native-A02_blue"'))
         self.assertIn("https://drive.google.com/drive/folders/1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2", scene)
         for name in (
             "A03_sort-v1",
@@ -113,7 +124,7 @@ class RaznoeResourceScene3(unittest.TestCase):
             "RESOURCE-part-1-15s.mp4",
         ):
             self.assertIn(name, scene)
-        self.assertIn("окончательного вердикта по A05 нет", scene)
+        self.assertIn("Ассистентский QC: отклонить", scene)
         self.assertIn("не принят", scene.lower())
         self.assertNotIn("Новых девятнадцати роликов нет", scene)
         self.assertNotIn('src="projects/raznoe/archive/scene-3/expansion-2026-11-06/', scene)
@@ -127,7 +138,11 @@ class RaznoeResourceScene3(unittest.TestCase):
         for path in (exp / "requests").glob("*.json"):
             args = json.loads(path.read_text(encoding="utf-8"))["arguments"]
             self.assertTrue(forbidden.isdisjoint(args), path.name)
-        self.assertEqual(len(list((exp / "prompts").glob("*.txt"))), 19)
+        names = {p.name for p in (exp / "prompts").glob("*.txt")}
+        self.assertEqual(len(names), 27)
+        self.assertIn("A01_drop.txt", names)
+        self.assertIn("A04_shred-v2.txt", names)
+        self.assertIn("C06_cycle-v2.txt", names)
 
 
 if __name__ == "__main__":

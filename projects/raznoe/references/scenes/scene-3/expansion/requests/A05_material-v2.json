@@ -1,0 +1,38 @@
+{
+  "clip_id": "A05_material-v2",
+  "replaces": "A05_material",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_group": "postqc_reject_fix",
+  "arguments": {
+    "filename": "A05_material-v2.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/FAC-flakes-45733.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds. ONE material state only.\n\nREFERENCES (guides only — NOT exact frames):\n<IMAGE_0> irregular sharp clear/blue recycled PET flakes / shards pouring or accumulating in a container.\n\nSTORY:\nShow only irregular recycled PET flakes/shards — sharp translucent clear and blue pieces — pouring and piling.\nEND on a pile of the SAME flake/shard form.\n\nFORBIDDEN in this clip: round smooth pellets/granules; any in-camera morph from shards into spheres; any second material family appearing without a hard cut (there is NO second beat — do not invent pellets).\n\nNo people. No logos/text.\nAVOID: crossfade, morph, slideshow, collage, letterbox; flake→pellet metamorphosis."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "FAC-flakes-45733.png",
+      "role": "ONLY material: irregular clear/blue PET flakes/shards",
+      "sha256": "a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Поток/накопление острых clear/blue хлопьев-осколков",
+    "semantic_end": "Куча тех же хлопьев/осколков (не гранулы)"
+  },
+  "qc_basis": {
+    "v1_file": "/workspace/RESOURCE-video/expanded-wave1/A05_material-v1.mp4",
+    "v1_relative_timecodes": "0:00–0:02 sharp clear/blue shards pour into a pile; 0:02–0:03 WITHOUT a hard cut the stream and the settled pile smoothly morph into smooth round granules; 0:03–0:05 spheres only",
+    "assistant_qc": "reject FINAL (parent re-review confirmed internal morph, not an allowed hard cut)",
+    "input_defect": "v1 fed BOTH flakes ref and pellets ref in one 5s clip with only optional-cut language — invites continuous morph",
+    "video_defect_with_that_input": "confirmed in-frame morph shards→pellets",
+    "fix": "pellets removed from this clip; flakes-only single state; pellets deferred to edit/later clip if needed"
+  }
+}

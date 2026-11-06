@@ -1,0 +1,87 @@
+[
+  {
+    "clip_id": "C02_debris-v2",
+    "replaces": "C02_debris",
+    "duration_s": 5,
+    "decision": "STAGE3_READY_TO_SEND",
+    "note": "Aligned to C01-v2 geometry; removed conflicting PROP-02 as sole/competing authority",
+    "refs": [
+      {
+        "IMAGE": 0,
+        "file": "PROP-satellite-orbit-locked-v2.png",
+        "role": "locked 2-wing craft + fixed arm",
+        "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+        "owner_approved": false
+      }
+    ]
+  },
+  {
+    "clip_id": "C03_capture-v2",
+    "replaces": "C03_capture",
+    "duration_s": 6,
+    "decision": "STAGE3_READY_TO_SEND",
+    "note": "Keeps A-polymer-gripper-product; does not replace with a prettier unrelated gripper",
+    "refs": [
+      {
+        "IMAGE": 0,
+        "file": "PROP-satellite-orbit-locked-v2.png",
+        "role": "craft/arm continuity",
+        "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+        "owner_approved": false
+      },
+      {
+        "IMAGE": 1,
+        "file": "A-polymer-gripper-product.png",
+        "role": "PRODUCT design authority — same as B01/B02",
+        "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+        "owner_approved": false
+      },
+      {
+        "IMAGE": 2,
+        "file": "PROP-gripper-capture-scrap.png",
+        "role": "capture action language",
+        "sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9",
+        "owner_approved": false
+      }
+    ]
+  },
+  {
+    "clip_id": "C04_recycle-v2",
+    "replaces": "C04_recycle",
+    "duration_s": 6,
+    "decision": "STAGE3_READY_TO_SEND",
+    "note": "Unchanged beat; craft ref swapped to locked geometry for continuity",
+    "refs": [
+      {
+        "IMAGE": 0,
+        "file": "PROP-orbital-press-block.png",
+        "role": "press→block",
+        "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+        "owner_approved": false
+      },
+      {
+        "IMAGE": 1,
+        "file": "PROP-satellite-orbit-locked-v2.png",
+        "role": "craft family continuity optional",
+        "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+        "owner_approved": false
+      }
+    ]
+  },
+  {
+    "clip_id": "C05_station-v2",
+    "replaces": "C05_station",
+    "duration_s": 5,
+    "decision": "STAGE3_READY_TO_SEND",
+    "note": "Station stays original fiction asset; not mixed with C01 craft",
+    "refs": [
+      {
+        "IMAGE": 0,
+        "file": "C-original-lattice-station.png",
+        "role": "original fiction station only",
+        "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+        "owner_approved": false
+      }
+    ]
+  }
+]

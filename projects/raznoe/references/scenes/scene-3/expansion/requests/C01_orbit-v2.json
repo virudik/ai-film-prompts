@@ -1,0 +1,46 @@
+{
+  "clip_id": "C01_orbit-v2",
+  "replaces": "C01_orbit",
+  "status": "READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "launch_group": "postqc_reject_fix",
+  "arguments": {
+    "filename": "C01_orbit-v2.mp4",
+    "duration": 5,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/PROP-satellite-orbit-locked-v2.png",
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/B-satellite-assembly-stand.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 5 seconds. Orbit flyaround — FIXED craft geometry.\n\nREFERENCES (guides only — NOT exact frames):\n<IMAGE_0> PRIMARY locked orbital craft: gold-MLI body, exactly TWO rectangular dark-blue solar wings already fully deployed left/right, white manipulator arm on a FIXED body mount. This is the only geometry authority.\n<IMAGE_1> cleanroom assembly body continuity for gold foil / arm / two-wing layout — supports IMAGE_0, must NOT introduce a different panel count or a different arm-root.\n\nSTORY:\nSTART with panels ALREADY deployed and locked (do NOT grow, sprout, or multiply panels). Slow orbital flyaround of the SAME craft above Earth. Arm root stays fixed on the body — no sliding attachment point. Vacuum, no aero motion. Not the ISS.\n\nFORBIDDEN: cross-shaped four-panel growth; third/fourth wing appearing; arm mount drifting along the hull; morphing between two different satellite designs.\n\nNo logos/text.\nAVOID: crossfade, morph, slideshow, letterbox."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "PROP-satellite-orbit-locked-v2.png",
+      "role": "PRIMARY locked orbit geometry: 2 wings deployed, fixed arm mount",
+      "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "B-satellite-assembly-stand.png",
+      "role": "assembly continuity ONLY — same 2-wing gold body family",
+      "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Тот же аппарат на орбите; 2 панели уже раскрыты",
+    "semantic_end": "Облёт без смены числа панелей и без плывущего крепления руки"
+  },
+  "qc_basis": {
+    "v1_file": "/workspace/RESOURCE-video/expanded-wave1/C01_orbit-v1.mp4",
+    "v1_relative_timecodes": "0:00–0:03 cross-shaped 4-panel structure grows; white arm attachment point drifts during flyaround",
+    "assistant_qc": "reject",
+    "input_defect": "v1 used TWO conflicting geometries at once: PROP-satellite-manipulator-02 (partial module + capture pose + different panel language) AND B-satellite-assembly-stand (2 side wings, folded arm) plus deploy language — hybrid/growth risk",
+    "video_defect_with_that_input": "panel multiplication + drifting arm root",
+    "fix": "single locked orbit still matching assembly 2-wing design; panels already deployed; no deploy-growth; 02 capture still removed from C01"
+  }
+}

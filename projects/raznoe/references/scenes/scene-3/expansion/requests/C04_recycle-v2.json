@@ -1,0 +1,38 @@
+{
+  "clip_id": "C04_recycle-v2",
+  "replaces": "C04_recycle",
+  "status": "STAGE3_READY_TO_SEND",
+  "tool": "cursor.GenerateVideo",
+  "execute_now": false,
+  "arguments": {
+    "filename": "C04_recycle-v2.mp4",
+    "duration": 6,
+    "aspect_ratio": "16:9",
+    "reference_image_paths": [
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/PROP-orbital-press-block.png",
+      "/workspace/RESOURCE-postqc-fixes-2026-11-06/assets/PROP-satellite-orbit-locked-v2.png"
+    ],
+    "prompt": "Photoreal live-action 16:9, about 6 seconds. Staged fiction — press only.\n\n<IMAGE_0> orbital press forming a rectangular metal building block.\n<IMAGE_1> optional craft continuity (same locked 2-wing family) if needed in background — must not become ISS.\n\nSTORY: scrap is pressed into one neat rectangular block. END on the formed block. Do NOT assemble the full station here. Not ISS. Speculative fiction, not a certification claim. No logos/text.\nAVOID: crossfade; morph; letterbox; instant finished station."
+  },
+  "ref_roles": [
+    {
+      "IMAGE": 0,
+      "file": "PROP-orbital-press-block.png",
+      "role": "press→block",
+      "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+      "owner_approved": false
+    },
+    {
+      "IMAGE": 1,
+      "file": "PROP-satellite-orbit-locked-v2.png",
+      "role": "craft family continuity optional",
+      "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+      "owner_approved": false
+    }
+  ],
+  "state_chain": {
+    "semantic_start": "Фрагмент в пресс-модуле",
+    "semantic_end": "Прямоугольный блок сформирован"
+  },
+  "note": "Unchanged beat; craft ref swapped to locked geometry for continuity"
+}

@@ -1,0 +1,14 @@
+Photoreal live-action 16:9, about 7 seconds. ONE shredding-ingestion test.
+
+REFERENCES (guides only — NOT exact first/last frames, NOT timed pins):
+<IMAGE_0> close ingestion: a clear PET bottle with blue cap is caught in the nip between rotating steel shredder discs/teeth and is being deformed/torn as it is drawn in.
+
+STORY — minimal physics:
+START: empty clear/blue PET bottle(s) at the intake above the shredder nip.
+ACTION: the bottle is mechanically gripped and DRAWN INTO the gap between the solid metal discs — plastic deforms and shreds where engaged. Fragments accumulate below only after material has passed the cutters.
+END: crushed irregular PET fragments, not intact bottles below the rollers.
+
+CRITICAL PHYSICS: bottles must NOT pass through solid metal discs intact; must NOT bounce whole off the rollers without entering the nip; must NOT teleport into finished flakes. Empty dry PET preferred (no heavy water fountain).
+
+No people. No logos/text. Hard cuts OK.
+AVOID: crossfade, morph, slideshow, collage, letterbox; fall-through; wall-bounce without capture.

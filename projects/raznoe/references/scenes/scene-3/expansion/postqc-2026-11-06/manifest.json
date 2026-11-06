@@ -1,0 +1,274 @@
+{
+  "pack_id": "RESOURCE-postqc-fixes-2026-11-06",
+  "purpose": "Point replacements after wave1 videoReview; does NOT rewrite in-flight wave2 or original expansion pack",
+  "do_not_touch": [
+    "A01_drop",
+    "A02_retrieve",
+    "A02_blue",
+    "A06_print",
+    "B01_pickup",
+    "B02_install",
+    "/workspace/RESOURCE-expansion-2026-11-06 (live)",
+    "/workspace/RESOURCE-native-wave1-2026-11-06"
+  ],
+  "qc_candidates_no_regen": [
+    "A03_sort",
+    "B05_pad"
+  ],
+  "v1_baseline_count_duration": {
+    "clips": 19,
+    "seconds": 116
+  },
+  "this_pack_clip_count_delta": 0,
+  "note_on_count": "Point v2 replacements keep same story slots; A05 still one clip (flakes-only). Total story clip count remains 19 when substitutions applied.",
+  "reject_fixes": [
+    {
+      "clip_id": "A04_shred-v2",
+      "replaces": "A04_shred",
+      "title": "Измельчение — захват в валки",
+      "duration_s": 7,
+      "decision": "READY_TO_SEND",
+      "launch_group": "postqc_reject_fix",
+      "semantic_start": "Пустая clear/blue PET у приёма шредера",
+      "semantic_end": "Бутылка затянута в зазор валков и разрушена; фрагменты после резки",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-shredder-ingestion-v2.png",
+          "role": "PRIMARY: bottle engaged in shredder nip / deformation",
+          "sha256": "6b1badf4acb399511159a51e2ee4d888cd1ee4c2c0e8247a92df26aa4ad2e29c",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A04_shred-v2.txt",
+      "request_file": "requests/A04_shred-v2.json",
+      "description_ru_file": "descriptions/A04_shred-v2.ru.md",
+      "qc_basis": {
+        "v1_file": "/workspace/RESOURCE-video/expanded-wave1/A04_shred-v1.mp4",
+        "v1_relative_timecodes": "0:02–0:04 whole bottles pass through solid metal discs without nip capture/deformation",
+        "assistant_qc": "reject",
+        "input_defect": "v1 FAC-shredder-45736 shows mid-air flying fragments / ambiguous intake — weak for ingestion physics",
+        "video_defect_with_that_input": "fall-through / bounce / instant scatter without mechanical capture",
+        "fix": "new ingestion-nip ref + single physics beat; 7s; remove ambiguous flying-fragment authority"
+      },
+      "execute": false
+    },
+    {
+      "clip_id": "A05_material-v2",
+      "replaces": "A05_material",
+      "title": "Хлопья — один материал без морфа",
+      "duration_s": 5,
+      "decision": "READY_TO_SEND",
+      "launch_group": "postqc_reject_fix",
+      "semantic_start": "Поток/накопление острых clear/blue хлопьев-осколков",
+      "semantic_end": "Куча тех же хлопьев/осколков (не гранулы)",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "FAC-flakes-45733.png",
+          "role": "ONLY material: irregular clear/blue PET flakes/shards",
+          "sha256": "a90be81fc9eacd17618ff5aabf0f8a75b6d3511539f2c575185a434e3fad4e84",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/A05_material-v2.txt",
+      "request_file": "requests/A05_material-v2.json",
+      "description_ru_file": "descriptions/A05_material-v2.ru.md",
+      "qc_basis": {
+        "v1_file": "/workspace/RESOURCE-video/expanded-wave1/A05_material-v1.mp4",
+        "v1_relative_timecodes": "0:00–0:02 sharp clear/blue shards pour into a pile; 0:02–0:03 WITHOUT a hard cut the stream and the settled pile smoothly morph into smooth round granules; 0:03–0:05 spheres only",
+        "assistant_qc": "reject FINAL (parent re-review confirmed internal morph, not an allowed hard cut)",
+        "input_defect": "v1 fed BOTH flakes ref and pellets ref in one 5s clip with only optional-cut language — invites continuous morph",
+        "video_defect_with_that_input": "confirmed in-frame morph shards→pellets",
+        "fix": "pellets removed from this clip; flakes-only single state; pellets deferred to edit/later clip if needed"
+      },
+      "execute": false
+    },
+    {
+      "clip_id": "C01_orbit-v2",
+      "replaces": "C01_orbit",
+      "title": "Спутник на орбите — одна геометрия",
+      "duration_s": 5,
+      "decision": "READY_TO_SEND",
+      "launch_group": "postqc_reject_fix",
+      "semantic_start": "Тот же аппарат на орбите; 2 панели уже раскрыты",
+      "semantic_end": "Облёт без смены числа панелей и без плывущего крепления руки",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-satellite-orbit-locked-v2.png",
+          "role": "PRIMARY locked orbit geometry: 2 wings deployed, fixed arm mount",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "B-satellite-assembly-stand.png",
+          "role": "assembly continuity ONLY — same 2-wing gold body family",
+          "sha256": "b5f736b9359e66ade029ab23b6a3000d6d36a2f9eb2bb0a8b3963659a04f3cb3",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C01_orbit-v2.txt",
+      "request_file": "requests/C01_orbit-v2.json",
+      "description_ru_file": "descriptions/C01_orbit-v2.ru.md",
+      "qc_basis": {
+        "v1_file": "/workspace/RESOURCE-video/expanded-wave1/C01_orbit-v1.mp4",
+        "v1_relative_timecodes": "0:00–0:03 cross-shaped 4-panel structure grows; white arm attachment point drifts during flyaround",
+        "assistant_qc": "reject",
+        "input_defect": "v1 used TWO conflicting geometries at once: PROP-satellite-manipulator-02 (partial module + capture pose + different panel language) AND B-satellite-assembly-stand (2 side wings, folded arm) plus deploy language — hybrid/growth risk",
+        "video_defect_with_that_input": "panel multiplication + drifting arm root",
+        "fix": "single locked orbit still matching assembly 2-wing design; panels already deployed; no deploy-growth; 02 capture still removed from C01"
+      },
+      "execute": false
+    },
+    {
+      "clip_id": "C06_cycle-v2",
+      "replaces": "C06_cycle",
+      "title": "Замыкание цикла — один бросок",
+      "duration_s": 5,
+      "decision": "READY_TO_SEND",
+      "launch_group": "postqc_reject_fix",
+      "semantic_start": "ЦУП; одна бутылка; инженер в синей форме без надписи на груди",
+      "semantic_end": "Один завершённый бросок/укладка в синий бак",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "ID-engineer-blue-form-CLEAN-single.png",
+          "role": "PRIMARY clean single identity; blank chest; no multi-panel; no letters",
+          "sha256": "9eb7d1708be2fb65ee414be3488ca92c1c13ab75abf5c79fb911421ab85381b4",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "PROP-blue-bin-45731.png",
+          "role": "blue recycling bin",
+          "sha256": "d85063e72eefb7a75e7a1309397ec1596f2dfb803db307231f92f9b00bd196c3",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "C-original-lattice-station.png",
+          "role": "monitor picture only",
+          "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+          "owner_approved": false
+        }
+      ],
+      "prompt_file": "prompts/C06_cycle-v2.txt",
+      "request_file": "requests/C06_cycle-v2.json",
+      "description_ru_file": "descriptions/C06_cycle-v2.ru.md",
+      "qc_basis": {
+        "v1_file": "/workspace/RESOURCE-video/expanded-wave1/C06_cycle-v1.mp4",
+        "v1_relative_timecodes": "first throw ~0:02–0:04; hard cut ~0:04 to different hand (no uniform cuff) and second throw; bottle stretches/floats ~3s; garbage MOU... lettering on uniform",
+        "assistant_qc": "reject",
+        "input_defect": "v1 identity ref was multi-panel sheet WITH readable РОСКОСМОС chest text — prompt asked blank patch but image supplied letters (image wins → MOU...)",
+        "video_defect_with_that_input": "double throw via cut + stretch + pseudo-text",
+        "fix": "clean single blank-chest identity; one continuous deposit; 5s; no multi-panel sheet"
+      },
+      "execute": false
+    }
+  ],
+  "stage3_ready": [
+    {
+      "clip_id": "C02_debris-v2",
+      "replaces": "C02_debris",
+      "duration_s": 5,
+      "decision": "STAGE3_READY_TO_SEND",
+      "note": "Aligned to C01-v2 geometry; removed conflicting PROP-02 as sole/competing authority",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-satellite-orbit-locked-v2.png",
+          "role": "locked 2-wing craft + fixed arm",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "owner_approved": false
+        }
+      ]
+    },
+    {
+      "clip_id": "C03_capture-v2",
+      "replaces": "C03_capture",
+      "duration_s": 6,
+      "decision": "STAGE3_READY_TO_SEND",
+      "note": "Keeps A-polymer-gripper-product; does not replace with a prettier unrelated gripper",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-satellite-orbit-locked-v2.png",
+          "role": "craft/arm continuity",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "A-polymer-gripper-product.png",
+          "role": "PRODUCT design authority — same as B01/B02",
+          "sha256": "aeb0526b4bd804851df6f1177b04b587f7cf1ecef5d5040b672559cc7659f6f0",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 2,
+          "file": "PROP-gripper-capture-scrap.png",
+          "role": "capture action language",
+          "sha256": "c399dbfb6a9e3e4955d337933cdbae9cf3bb3e00e17873c8496564910b7be8b9",
+          "owner_approved": false
+        }
+      ]
+    },
+    {
+      "clip_id": "C04_recycle-v2",
+      "replaces": "C04_recycle",
+      "duration_s": 6,
+      "decision": "STAGE3_READY_TO_SEND",
+      "note": "Unchanged beat; craft ref swapped to locked geometry for continuity",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "PROP-orbital-press-block.png",
+          "role": "press→block",
+          "sha256": "dc7d5670090653057e8af5c5632e7406a482919ddab5a42b899bfab3f98c7160",
+          "owner_approved": false
+        },
+        {
+          "IMAGE": 1,
+          "file": "PROP-satellite-orbit-locked-v2.png",
+          "role": "craft family continuity optional",
+          "sha256": "db71072ed75b454ead14d8e4a6ddf5c576959178ddd949c7c477811411560c7b",
+          "owner_approved": false
+        }
+      ]
+    },
+    {
+      "clip_id": "C05_station-v2",
+      "replaces": "C05_station",
+      "duration_s": 5,
+      "decision": "STAGE3_READY_TO_SEND",
+      "note": "Station stays original fiction asset; not mixed with C01 craft",
+      "refs": [
+        {
+          "IMAGE": 0,
+          "file": "C-original-lattice-station.png",
+          "role": "original fiction station only",
+          "sha256": "608aacc17bd40c768374ea21f3f0827c88b8a0131f44bcc373b47f14cc2b1e6e",
+          "owner_approved": false
+        }
+      ]
+    }
+  ],
+  "unchanged_without_finding": [
+    "B03_build",
+    "B04_check",
+    "B06_liftoff"
+  ],
+  "product_design_lock": "A-polymer-gripper-product.png remains design authority for B01/B02/C03 — not replaced by a new prettier gripper",
+  "generatevideo_policy": {
+    "reference_image_paths_only": true,
+    "forbidden": [
+      "image_path",
+      "last_frame_path",
+      "keyframes",
+      "resolution"
+    ],
+    "aspect_ratio": "16:9"
+  }
+}

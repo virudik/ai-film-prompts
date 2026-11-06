@@ -1,0 +1,13 @@
+Photoreal live-action 16:9, about 5 seconds. Orbit flyaround — FIXED craft geometry.
+
+REFERENCES (guides only — NOT exact frames):
+<IMAGE_0> PRIMARY locked orbital craft: gold-MLI body, exactly TWO rectangular dark-blue solar wings already fully deployed left/right, white manipulator arm on a FIXED body mount. This is the only geometry authority.
+<IMAGE_1> cleanroom assembly body continuity for gold foil / arm / two-wing layout — supports IMAGE_0, must NOT introduce a different panel count or a different arm-root.
+
+STORY:
+START with panels ALREADY deployed and locked (do NOT grow, sprout, or multiply panels). Slow orbital flyaround of the SAME craft above Earth. Arm root stays fixed on the body — no sliding attachment point. Vacuum, no aero motion. Not the ISS.
+
+FORBIDDEN: cross-shaped four-panel growth; third/fourth wing appearing; arm mount drifting along the hull; morphing between two different satellite designs.
+
+No logos/text.
+AVOID: crossfade, morph, slideshow, letterbox.
