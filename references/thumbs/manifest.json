@@ -1563,6 +1563,16 @@
    "thumb_bytes": 28806,
    "src_sha256": "45aa7b2f80271b2a5a2b7631a011c19b5fc95bf29f11332b9f2a9bcb3ee5325c"
   },
+  "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-print-layer-contact.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1960630,
+   "thumb_bytes": 29712,
+   "src_sha256": "5dac3ab1dda938e320a778b0520b339f814b06185ccdde9ad86f62c37d685b67"
+  },
   "projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/expansion/assets/PROP-satellite-manipulator-02.png.webp",
    "width": 640,
