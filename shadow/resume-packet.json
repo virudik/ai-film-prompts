@@ -3,9 +3,9 @@
   "generator": "continue-2.0",
   "project": "seregius",
   "project_name": "Серёгиус",
-  "checked_at": "2026-11-06T07:13:52+00:00",
-  "source_head": "143df16d2bf79edb16090f1fa2aac95e93489af1",
-  "source_fingerprint": "bbb2084231c248a1290049d121e18976de7ee798b0596bc2cca8d5b4999e6737",
+  "checked_at": "2026-11-06T07:33:23+00:00",
+  "source_head": "9d7f1b787259f3b3178a09a003b9a7f3f2ee9653",
+  "source_fingerprint": "b01d4aa5f00b8121d47676b9597cc64a60e96758787bea1a70bbca9fd33e761c",
   "status": "needs_recovery",
   "ready_for_resume": false,
   "execution_authorized": false,
@@ -392,13 +392,13 @@
     },
     {
       "file": "NEW-CHAT-HANDOFF.md",
-      "sha256": "1dbf40187fcbba7161db34b5b43128119052ce6a95387e2f6f2c558c176e05b2",
-      "bytes": 34212
+      "sha256": "cd2a433494410b09a061a3cf1566b8eae5ab3c87ce2e2f70e7a4286e7d73f432",
+      "bytes": 34575
     },
     {
       "file": "PROMPT-STYLE-GUIDE.md",
-      "sha256": "6fb121d01a25083572ca28b75ce949191a80faee7e771327ac488c059e4db943",
-      "bytes": 74992
+      "sha256": "2afe827fe839af546a0f7f4c1f36c57fcd976dd3f6fd8759ddf09ff265fa505d",
+      "bytes": 81982
     },
     {
       "file": "README-AI-SYNC.md",
@@ -407,8 +407,8 @@
     },
     {
       "file": "SYNC-RUNBOOK.md",
-      "sha256": "abb4393a26e5c78d1bd54d8f11ce8ea6d36235788cc3cb4f0d6ef3c1f6ca668c",
-      "bytes": 130398
+      "sha256": "244e9a47dc3e3b698c4472e83e4049b8700c03267324deed3925f4036888e874",
+      "bytes": 130798
     },
     {
       "file": "USER-GUIDE.md",
@@ -417,8 +417,8 @@
     },
     {
       "file": "instruction-sync-status.json",
-      "sha256": "0328ad1f81bcf0a76f7c77af44fccdee4dfea3726f2b25ed78584b8ab473f4fa",
-      "bytes": 5134
+      "sha256": "eef7d1f67b6356dc5285bbca4a919a11a220f2c57dc2f754824344090c719dbc",
+      "bytes": 5137
     },
     {
       "file": "monitor-role.json",
@@ -437,8 +437,8 @@
     },
     {
       "file": "project-status.json",
-      "sha256": "69e6ec2fbe3fa2cdca78e344747744cef134f005588eabe9dec909bc83291d9e",
-      "bytes": 22482
+      "sha256": "f8f8a3f0fb55df8fe199747f6bd5c08b211266c15a58269851a5bb0f1a7cbc45",
+      "bytes": 22483
     },
     {
       "file": "reports/current-work-checkpoint.md",
@@ -452,12 +452,12 @@
     },
     {
       "file": "shadow/current-checkpoint.md",
-      "sha256": "e0fe3f4a233b20f23568fe75ae631154acebd4bdd742dc3dfa74f980906a6daf",
-      "bytes": 34013
+      "sha256": "403850d138ad32d2a768a2b5a615ff980dc397e2fe70885ef4138f01c9dffdf6",
+      "bytes": 34376
     },
     {
       "file": "shadow/takeover-brief.json",
-      "sha256": "f99039dd096294bb3f18a4b7f11609a77067bfb9c029458b081e93af325d62c7",
+      "sha256": "94b870b6395558e32759fe56094099b8ca22666f96dd7e3b2003dba08219fb76",
       "bytes": 25150
     },
     {
