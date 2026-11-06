@@ -350,15 +350,35 @@
       "interactive_saved_signin_and_reversible_clicks": true,
       "file_upload_verified": false,
       "unlimited_zero_verified": false,
-      "scheduled_tinyfish_run_verified": false,
+      "scheduled_tinyfish_run_verified": true,
       "production_submission_verified": false,
-      "state": "configured_authorized_pending_real_production_acceptance"
+      "state": "live_ordinary_scheduled_preparation_blocked_input_no_create",
+      "latest_authenticated_board_check_at": "2026-11-06T18:08:08Z"
     },
     "automation_prompt_updated_at": "2026-10-31T19:43:29.364733+00:00",
     "new_automations": 0,
     "schedule_changed": false,
     "relay_changed": false,
-    "new_topview_submissions_in_configuration_change": 0
+    "new_topview_submissions_in_configuration_change": 0,
+    "latest_blocker": {
+      "item_id": "S49B",
+      "category": "blocked_browser_input",
+      "observed_at": "2026-11-06T18:08:08Z",
+      "run_id": "97f6704a-9c5d-4e59-b864-c3c4b849b25f",
+      "run_url": "https://agent.tinyfish.ai/runs/97f6704a-9c5d-4e59-b864-c3c4b849b25f",
+      "profile_id": "prof_0ac4618d0cf4456e",
+      "same_board_authenticated": true,
+      "precise_issue": "TinyFish native Topview UI navigation showed Agent Bot/Assets rather than the full Omni-reference composer. No native image file picker/import of six exact GitHub originals was accessible. Prompt not entered, settings and Unlimited0 not independently verified. No Create attempted.",
+      "prepared_input_count": 0,
+      "preflight_complete": false,
+      "unlimited_zero_verified": false,
+      "create_attempted": false,
+      "repeat_paid_check_without_new_evidence": false,
+      "retry_condition": "New verified native original-file upload path and Unlimited0 controls on exact My First Board, or an independently confirmed UI capability change; do not repeat the same paid step on hourly wakes.",
+      "credits_spent_topview": 0,
+      "estimated_tinyfish_cost_usd": 0.3565,
+      "confirmed_tinyfish_cost_usd": null
+    }
   },
   "grok_launcher": {
     "owner_request_id": "owner-20261101-grok-helper-launcher",
