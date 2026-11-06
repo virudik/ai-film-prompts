@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-11-06T13:37:48+00:00",
+  "last_updated_at": "2026-11-06T13:58:27+00:00",
   "active_work": [
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",
       "status": "waiting_for_slot",
-      "updated_at": "2026-11-06T13:37:48+00:00",
+      "updated_at": "2026-11-06T13:58:27+00:00",
       "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
       "completed": [
         "09:55 MSK check 29 Oct: full 13-board/19-page scan found 941 tasks and 5/6 active, but S62 stayed submission_unknown after its single browser-click timeout; no matching post-claim task was found, and canonical no-repeat policy blocked all further Create. Sampled 2fps QC of S28-A2 found critical face/hand occlusion at ~1.5–2.0s and weak amplitude; report saved, no owner approval or auto-retry. Phase A/B confirmed self-heal/project health ok, diagnosed Canon health runs 40826866588/40827062532/40827413477/40827874872, archived 3 terminal queue items, and verified canon-health ok/0 warnings.",
@@ -319,18 +319,22 @@
       },
       "recovery": {
         "schema_version": 1,
-        "verified_at": "2026-11-06T13:37:48+00:00",
-        "last_completed": "Сверены обе share-ветки; работа HH:55 подтверждена совпавшими runtime/result/канонической квитанцией. Выполнена повторная HTTPS-проверка с честным остатком8поддоменов. Подтверждена доставка8файлов Саше. Keep, полный QC стыков и доработка RESOURCE/HONOR остаются незавершёнными. Принята Work-смена epoch6.",
+        "verified_at": "2026-11-06T13:58:27+00:00",
+        "last_completed": "Проверен общий ChatGPT Images и снят прежний UI-блокер; завершённая работа перенесена с сохранением истории. Подтверждён linkfix существующего руководства Саше по трём Drive ID и SHA readback. Квитанции CONTINUE-001 уточнены без закрытия issue; основной фокус и текущие блокеры сохранены.",
         "next_action": "При свободном слоте выполнить свежий полный preflight и взять готовый разрешённый item по priority; submitted не повторять. S52/S60/S61 ждут полного QC со звуком. Keep продолжать по приватному checkpoint. RESOURCE/HONOR доделывать под замком Разного. Проверить сертификаты/Pages восьми семейных поддоменов. Восемь файлов Саше доставлены; не дублировать.",
         "checkpoint": {
           "file": "reports/current-work-checkpoint.md",
-          "anchor": "# 06.11.2026 — повторная сверка связанных чатов, HTTPS и доставки Саше",
-          "sha256": "94a062b09377f2211ce77547a09423a46a8656679986f359da2313e37d70eafb"
+          "anchor": "# 06.11.2026 — общий Images проверен, ссылка руководства Саше исправлена",
+          "sha256": "280a398d9a1001b6c32d6e8a4f1a7ec7b601f6e8ec1a3b49a1fd5780d7e7c9bb"
         },
         "evidence": [
           {
+            "file": "reports/chatgpt-images-ui-check-2026-11-06.json",
+            "sha256": "4db2d895f83a805f80f57d0b6584bb13a21e45e179e470a8e884d53a85900841"
+          },
+          {
             "file": "reports/work-continue-linked-chat-2026-11-06.json",
-            "sha256": "fa1c74f30613b5f1cf81118b23508767472f297618544e179321bb98e35f9bc8"
+            "sha256": "48532af81d3312312c526324c5b282e3e37c5d22c610a7e72bf3e671ab75d859"
           }
         ],
         "read_next": [
@@ -613,26 +617,6 @@
       "history": "archive/work-resume-register-archive.json#reconciled_work"
     },
     {
-      "work_id": "TOPVIEW-FRESHNESS-20261023",
-      "title": "Восстановить публикацию Topview и проверить общий экран изображений",
-      "status": "site_recovered_images_ui_blocked",
-      "updated_at": "2026-10-23T03:50:08.536Z",
-      "next_action": "Only native ChatGPT Images UI remains unverified. Resume that check if authorized access becomes available; do not bypass the browser host restriction or repeat folder-only checks as proof. Existing Seregius queue work can continue independently.",
-      "canonical_refs": [
-        "ops/ROBOT-TELEMETRY.md",
-        "reports/topview-freshness-repair-2026-10-23.json",
-        "reports/current-work-checkpoint.md"
-      ],
-      "completed": [
-        "Fixed strict reference-token normalization without accepting semantic prompt changes.",
-        "Fixed shallow checkout and stale queued checkout; real robot cycle healthy at 2026-10-23T03:43:18Z.",
-        "Verified deployed UI: synced, no Topview stale warning, 6/6 slots."
-      ],
-      "blocked": [
-        "Native Images UI: browser host policy denied chatgpt.com; Browser connector then removed."
-      ]
-    },
-    {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_global_capacity",
@@ -865,7 +849,7 @@
       "title": "Бесшовный переход между чатами AI Film",
       "status": "implemented_pending_real_new_chat_check",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "updated_at": "2026-10-27T13:41:13+00:00",
+      "updated_at": "2026-11-06T13:57:52.448009+00:00",
       "owner_authorization": {
         "quote": "внеси все улучшения",
         "at": "2026-10-27T12:57:38.222Z",
@@ -908,6 +892,28 @@
           "ops/CONTINUE-PROTOCOL.md"
         ],
         "blockers": []
+      },
+      "verification_followup": {
+        "checked_at": "2026-11-06T13:57:06.496331+00:00",
+        "status": "operational_receipts_verified_formal_new_chat_acceptance_unconfirmed",
+        "receipt_ids": [
+          "continue-work-20261104-49196c1c",
+          "continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1"
+        ],
+        "evidence": [
+          "reports/handoff-receipts.json",
+          "reports/work-continue-2026-11-04-49196c1c.json",
+          "d866fc6dfdf90eaedfd7f495a60030fdce440260"
+        ],
+        "observed": "Реальные приёмы и первые действия подтверждены; локальные UUID при chat_id=null сами по себе не доказывают отдельный физический чат.",
+        "issue": {
+          "url": "https://github.com/virudik/ai-film-prompts/issues/9",
+          "state": "open",
+          "updated_at": "2026-10-27T14:24:23Z",
+          "comments_count": 0,
+          "read_only": true
+        },
+        "acceptance_limit": "Независимое подтверждение нового физического чата, лишних вопросов, fallback и измерений контекста этой проверкой не получено. Issue не закрыт; комментарии не отправлены."
       }
     },
     {
@@ -1199,6 +1205,30 @@
     "Keep one writer for canonical changes; update with material work checkpoint"
   ],
   "completed_work": [
+    {
+      "work_id": "TOPVIEW-FRESHNESS-20261023",
+      "title": "Восстановить публикацию Topview и проверить общий экран изображений",
+      "status": "completed_verified_ui",
+      "updated_at": "2026-11-06T13:47:36.135Z",
+      "next_action": "Нет: восстановление публикации и отдельная проверка общего ChatGPT Images завершены. Основная очередь продолжается по текущему resume_focus.",
+      "canonical_refs": [
+        "ops/ROBOT-TELEMETRY.md",
+        "reports/topview-freshness-repair-2026-10-23.json",
+        "reports/current-work-checkpoint.md",
+        "reports/chatgpt-images-ui-check-2026-11-06.json"
+      ],
+      "completed": [
+        "Fixed strict reference-token normalization without accepting semantic prompt changes.",
+        "Fixed shallow checkout and stale queued checkout; real robot cycle healthy at 2026-10-23T03:43:18Z.",
+        "Verified deployed UI: synced, no Topview stale warning, 6/6 slots.",
+        "06.11.2026: в авторизованном ChatGPT через sidebar Images открыта /images; загружены Images, My images и 34 видимые кнопки сохранённых изображений. Проверены доступ и список; генерации, правки, удаление и приёмка не выполнялись."
+      ],
+      "blocked": [],
+      "completed_at": "2026-11-06T13:47:36.135Z",
+      "resolved_blockers": [
+        "Native Images UI: browser host policy denied chatgpt.com; Browser connector then removed."
+      ]
+    },
     {
       "work_id": "GROK-SHARED-OPS-20261101",
       "title": "Grok: защита повторов, общие входы и адресат сайта",
@@ -1543,36 +1573,6 @@
         "reports/chatgpt-project-instructions-2026-10-27.json"
       ],
       "completed_at": "2026-10-27T09:35:10.298311+00:00"
-    },
-    {
-      "work_id": "INSTRUCTION-RECONCILE-20261026",
-      "title": "Согласование инструкций, автоматизаций и архива входящих",
-      "status": "completed_verified_configuration",
-      "updated_at": "2026-10-26T10:48:26.003Z",
-      "owner_quote": "Исправь и сделай что нужно",
-      "scope": "Six findings from 26Oct instruction audit; preserve schedules, Relay subscription, scenes, queue and other projects.",
-      "completed": [
-        "Fresh canonical rules and automation prompts audited; separate canon lock acquired and read back.",
-        "Normalized certificate generation with a strict schema; archived legacy metadata verbatim and refreshed actual bootstrap hashes.",
-        "Added lossless closed-inbox archival before removal with atomic writes and a shared CAS commit; 6 failure/retry/preservation tests passed.",
-        "Aligned delegation, 3-hour rule, same-thread responses, telemetry role and canon-lock exceptions; updated three Project Instructions templates.",
-        "Removed stale scene dependencies and historical queue snapshots from active guidance; preserved cancelled history in archive.",
-        "Updated both existing Automations prompts and verified exact readback, enabled states, hourly schedule and the same single Relay subscription.",
-        "Added weekly live-settings consistency procedure/checker and CI tests. Full offline suite: 305 passed; subsequent focused checks: 13 passed; site validator and canon-health ok; D7 valid 15/15.",
-        "Published implementation 70afa416; exact readback of 28 files, five GitHub Actions checks successful, descendant Pages deployment successful with six exact HTTP readbacks; Notion pointer read back."
-      ],
-      "next_action": "Normal authorized project work from fresh main. Weekly consistency check is integrated. Installed ChatGPT/Claude Project settings remain unverified; the first real archive transfer must keep its own production evidence.",
-      "canonical_refs": [
-        "ops/OWNER-TASKS.md",
-        "ops/CANON-LOCK.md",
-        "ops/TOPVIEW-EVENT-WAKE.md",
-        "ops/AUTOMATION-CONSISTENCY.md",
-        "reports/instruction-consistency.json",
-        "reports/instruction-reconciliation-2026-10-26.json"
-      ],
-      "blockers": [],
-      "completed_at": "2026-10-26T10:48:26.003Z",
-      "implementation_commit": "70afa4169afb194b744edef5ec1245a0c59e0e46"
     }
   ],
   "archived_completed_work": "archive/work-resume-register-archive.json",

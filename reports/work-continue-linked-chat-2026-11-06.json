@@ -737,7 +737,67 @@
       "guide_pages": 8,
       "visual_qa": "all eight existing rendered pages inspected; no clipping or overlap",
       "existing_15_videos_preserved": true,
-      "sharing_changes": false
+      "sharing_changes": false,
+      "link_fix": {
+        "project": "raznoe",
+        "checked_at": "2026-11-06T13:40:26.776842+00:00",
+        "change": "Only corrected the RESOURCE scene URL; MD one replacement, DOCX hyperlink target only, PDF re-rendered",
+        "old_url": "https://virudik.github.io/ai-film-prompts/?p=raznoe#scene-3",
+        "corrected_url": "https://xn--l1adcem8c.xn--d1aigvp.xn--p1ai/index.html?project=raznoe#scene-3",
+        "routing_evidence": [
+          "projects/README.md:57",
+          "projects.js legacy p routing"
+        ],
+        "pages": 8,
+        "all_page_text_and_render_pixels_identical": true,
+        "all_eight_latest_page_pngs_visually_inspected": true,
+        "txt_files_contain_old_url": false,
+        "new_files_or_duplicates": 0,
+        "items": [
+          {
+            "name": "RESOURCE-guide.md",
+            "drive_id": "1sjVzlwS3ZZ9oTDlC-Tnp6qUWyFL6I3EE",
+            "url": "https://drive.google.com/file/d/1sjVzlwS3ZZ9oTDlC-Tnp6qUWyFL6I3EE/view?usp=drivesdk",
+            "parent_ids": [
+              "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2"
+            ],
+            "size_bytes": 28958,
+            "sha256": "b76d1a949aafdec3a856b1c6ce9a1d0d6947879f419418d7575d5f7875a9fdda",
+            "raw_readback_sha_match": true,
+            "library_file_id": "libfile_66f1c02dd2c08191b9cb3b9059b264fb",
+            "library_replacement": "succeeded",
+            "local_path": "/workspace/scratch/37388085a4e9/sasha-guide/RESOURCE-guide.md"
+          },
+          {
+            "name": "RESOURCE-guide.docx",
+            "drive_id": "1FLbfqU6uti3AfNqe1To_JGO6QBiSM2Rv",
+            "url": "https://docs.google.com/document/d/1FLbfqU6uti3AfNqe1To_JGO6QBiSM2Rv/edit?usp=drivesdk&ouid=110650040683759780059&rtpof=true&sd=true",
+            "parent_ids": [
+              "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2"
+            ],
+            "size_bytes": 49015,
+            "sha256": "931fc7528e38b8b3b998c43bb23d66a09f6b2f79c6748dc0e910f220fc6434c9",
+            "raw_readback_sha_match": true,
+            "library_file_id": "libfile_b4fef66639cc8191b52fdc7f91677563",
+            "library_replacement": "succeeded",
+            "local_path": "/workspace/scratch/37388085a4e9/sasha-guide/RESOURCE-guide.docx"
+          },
+          {
+            "name": "RESOURCE-guide.pdf",
+            "drive_id": "1fUfuFHUIJywbxL3KN2arRxQTn_KzLgz2",
+            "url": "https://drive.google.com/file/d/1fUfuFHUIJywbxL3KN2arRxQTn_KzLgz2/view?usp=drivesdk",
+            "parent_ids": [
+              "1FHwi_A1cpODMy2YAwggkkOneIdNA4vS2"
+            ],
+            "size_bytes": 163315,
+            "sha256": "2ed5d7569f7db55795920f821f477b0d1a427442b6fab7f632b77bd01382183f",
+            "raw_readback_sha_match": true,
+            "library_file_id": "libfile_188ff63ad46c8191ad63e3889784d154",
+            "library_replacement": "succeeded",
+            "local_path": "/workspace/scratch/37388085a4e9/sasha-guide/RESOURCE-guide.pdf"
+          }
+        ]
+      }
     },
     "continuity_qc": {
       "scenes": [
@@ -775,7 +835,9 @@
       "linked_chat_draft": "b810001e03cbf0e92ecca9ae4271afc9876eec9e849859969a6730ecb456145b",
       "https_report": "67219aface03968054d086e706a35cad20981910a70c7eacf81fd696566c5da4",
       "sasha_delivery": "bf09dac48aeb11692533c3c9712393fce6adfd2ac674db008f6b74373f061aec",
-      "hourly_peek_snapshot": "acca02f2561d7452ed37d4daa0e5bcbb462b9afeab200f8c561b011f49ecfe94"
+      "hourly_peek_snapshot": "acca02f2561d7452ed37d4daa0e5bcbb462b9afeab200f8c561b011f49ecfe94",
+      "chatgpt_images_ui": "1d057550f3abb976cc9199d9ebd0f6f475426c88cc358ed493e1e2211fdb5d76",
+      "sasha_guide_link_fix": "1d884643f3cd7c44b5c24b195a7d7e2283f0035ab06446eae5f2f864dce43f8c"
     },
     "validation": {
       "continue_recovery_and_preflight_unit_tests": {
@@ -801,6 +863,14 @@
       "queue_changed": false,
       "scheduled_peers_changed": false,
       "project_lease_respected": true
+    },
+    "chatgpt_images_ui": {
+      "checked_at": "2026-11-06T13:47:36.135Z",
+      "status": "completed_verified_ui",
+      "report": "reports/chatgpt-images-ui-check-2026-11-06.json",
+      "url": "https://chatgpt.com/images",
+      "visible_saved_items": 34,
+      "scope": "Authenticated Images/My images page and visible saved-image list; no image mutation or approval"
     }
   }
 }

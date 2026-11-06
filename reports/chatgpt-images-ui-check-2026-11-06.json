@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "work_id": "TOPVIEW-FRESHNESS-20261023",
+  "source_head": "3b9746ed7b6eba89d5f7959963a09d4e90faabbc",
+  "checked_at": "2026-11-06T13:47:36.135Z",
+  "result": "completed_verified_ui",
+  "observer": "root interactive Work agent; delegated auditor read the saved observation without repeating UI actions",
+  "observation": {
+    "project": "seregius",
+    "work_id": "TOPVIEW-FRESHNESS-20261023",
+    "checked_at": "2026-11-06T13:47:36.135Z",
+    "surface": "authenticated native ChatGPT Images UI via cloud browser",
+    "url": "https://chatgpt.com/images",
+    "observed": {
+      "heading": "Images",
+      "section": "My images",
+      "visible_saved_items": 34,
+      "examples": [
+        "Три героини: мама, бабушка и наставник",
+        "Мама Лена: палитра эмоций",
+        "Мама Лена: модельный лист персонажа",
+        "Галактический рок-концерт в ангаре"
+      ],
+      "generation_form_visible": true
+    },
+    "method": "Opened Images using the observed first-party sidebar button in signed-in ChatGPT, then observed the loaded accessibility tree. No folder-only substitute.",
+    "limits": "Verified page access and saved-image listing; no image creation, editing, deletion or approval through this UI.",
+    "result": "previous_ui_access_blocker_cleared",
+    "browser_part_completed": true
+  },
+  "source_observation_sha256": "1d057550f3abb976cc9199d9ebd0f6f475426c88cc358ed493e1e2211fdb5d76",
+  "interpretation": "Последний открытый пункт этой работы — доступ к общему ChatGPT Images — проверен. 34 означает видимые элементы загруженного списка, а не доказанное полное число всех изображений аккаунта.",
+  "prior_site_recovery": "Три ранее выполненных шага восстановления публикации подтверждены исторической записью реестра от 23.10.2026; новая проверка UI не является новым сканом Topview или проверкой его телеметрии.",
+  "previous_registry_entry": {
+    "work_id": "TOPVIEW-FRESHNESS-20261023",
+    "title": "Восстановить публикацию Topview и проверить общий экран изображений",
+    "status": "site_recovered_images_ui_blocked",
+    "updated_at": "2026-10-23T03:50:08.536Z",
+    "next_action": "Only native ChatGPT Images UI remains unverified. Resume that check if authorized access becomes available; do not bypass the browser host restriction or repeat folder-only checks as proof. Existing Seregius queue work can continue independently.",
+    "canonical_refs": [
+      "ops/ROBOT-TELEMETRY.md",
+      "reports/topview-freshness-repair-2026-10-23.json",
+      "reports/current-work-checkpoint.md"
+    ],
+    "completed": [
+      "Fixed strict reference-token normalization without accepting semantic prompt changes.",
+      "Fixed shallow checkout and stale queued checkout; real robot cycle healthy at 2026-10-23T03:43:18Z.",
+      "Verified deployed UI: synced, no Topview stale warning, 6/6 slots."
+    ],
+    "blocked": [
+      "Native Images UI: browser host policy denied chatgpt.com; Browser connector then removed."
+    ]
+  },
+  "registry_resolution": {
+    "from": "active_work",
+    "to": "completed_work",
+    "completed_history_limit": 10,
+    "overflow_archived_work_ids": [
+      "INSTRUCTION-RECONCILE-20261026"
+    ],
+    "resume_focus_identity_unchanged": true
+  },
+  "continue001_read_only_followup": {
+    "checked_at": "2026-11-06T13:57:06.496331+00:00",
+    "status": "operational_receipts_verified_formal_new_chat_acceptance_unconfirmed",
+    "receipt_ids": [
+      "continue-work-20261104-49196c1c",
+      "continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1"
+    ],
+    "evidence": [
+      "reports/handoff-receipts.json",
+      "reports/work-continue-2026-11-04-49196c1c.json",
+      "d866fc6dfdf90eaedfd7f495a60030fdce440260"
+    ],
+    "observed": "Реальные приёмы и первые действия подтверждены; локальные UUID при chat_id=null сами по себе не доказывают отдельный физический чат.",
+    "issue": {
+      "url": "https://github.com/virudik/ai-film-prompts/issues/9",
+      "state": "open",
+      "updated_at": "2026-10-27T14:24:23Z",
+      "comments_count": 0,
+      "read_only": true
+    },
+    "acceptance_limit": "Независимое подтверждение нового физического чата, лишних вопросов, fallback и измерений контекста этой проверкой не получено. Issue не закрыт; комментарии не отправлены."
+  },
+  "continue001_previous_registry_entry": {
+    "work_id": "CONTINUE-001",
+    "title": "Бесшовный переход между чатами AI Film",
+    "status": "implemented_pending_real_new_chat_check",
+    "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
+    "updated_at": "2026-10-27T13:41:13+00:00",
+    "owner_authorization": {
+      "quote": "внеси все улучшения",
+      "at": "2026-10-27T12:57:38.222Z",
+      "scope": "checkpoint integrity, stale register cleanup, explicit resume target, compact recovery packet, interrupted-action tests and site readiness"
+    },
+    "done": [
+      "Явный фокус, проверка SHA контрольных точек/доказательств, компактный пакет, индикатор сайта и защита незавершённых checkpoint от чистки реализованы.",
+      "Автоматические тесты восстановления проверяют отсутствие повторных отправок. Реальный будущий чат отдельно не проверен.",
+      "27.10: mechanism and receipt extended to all five projects; report reports/continue-multiproject-2026-10-27.json. Next real new-chat acceptance is still pending."
+    ],
+    "next_action": "При следующем настоящем новом чате проверить команду «Продолжай» и записать выбранную задачу/первое действие в issue #9; текущая техническая доработка завершена.",
+    "canonical_refs": [
+      "ops/CONTINUE-PROTOCOL.md",
+      "reports/continue-upgrade-2026-10-27.json"
+    ],
+    "project_instruction_trigger": "installed_and_read_back",
+    "project_instruction_evidence": "reports/chatgpt-project-instructions-2026-10-27.json",
+    "history": "archive/work-resume-register-archive.json#reconciled_work",
+    "constraints": [
+      "Не менять промпты/видеозапуски в рамках улучшения восстановления.",
+      "Сохранённая настройка и локальные тесты не доказывают исполнение будущего чата."
+    ],
+    "recovery": {
+      "schema_version": 1,
+      "verified_at": "2026-10-27T13:41:13+00:00",
+      "last_completed": "Улучшения опубликованы и проверены: 331 тест, серверные проверки, точный readback 36 файлов и рабочий индикатор на публичном сайте.",
+      "next_action": "При следующем настоящем новом чате проверить команду «Продолжай» и записать выбранную задачу/первое действие в issue #9; текущая техническая доработка завершена.",
+      "checkpoint": {
+        "file": "reports/current-work-checkpoint.md",
+        "anchor": "# Продолжай: публикация и проверка 27.10.2026",
+        "sha256": "f89ad3b20f575533d74ab9e991063d63479c6c37415f017d067fcf256a1cf737"
+      },
+      "evidence": [
+        {
+          "file": "reports/continue-upgrade-2026-10-27.json",
+          "sha256": "945679f0b9d3f16a90b568bd815120d96d63e3e57e4347a8c3401c03eed50b02"
+        }
+      ],
+      "read_next": [
+        "ops/CONTINUE-PROTOCOL.md"
+      ],
+      "blockers": []
+    }
+  },
+  "scope_limits": [
+    "No image generation/edit/delete/approval",
+    "No Topview submission",
+    "No automation, role, queue, project file or instruction changes",
+    "No issue comment or closure"
+  ],
+  "writer": {
+    "holder": "chatgpt:work:97c0e05e-d1a3-41b1-ae27-ce94683a0ac6",
+    "local_session_id": "97c0e05e-d1a3-41b1-ae27-ce94683a0ac6",
+    "chat_id": null,
+    "role": "delegated_auditor_for_current_Work",
+    "new_takeover_receipt_created": false
+  },
+  "validation": {
+    "continue_recovery_and_preflight_unit_tests": {
+      "count": 28,
+      "result": "passed"
+    },
+    "diff_check": "passed",
+    "resume_preflight": "ready_for_short and ready_for_resume",
+    "canon_health": "ok; warnings=0; info=12",
+    "historical_audit_data_preserved": true,
+    "root_focus_identity_preserved": true,
+    "unrelated_work_and_history_preserved": true,
+    "project_instruction_test_queue_role_files_unchanged": true
+  }
+}
