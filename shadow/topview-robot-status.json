@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-11-05T23:50:23Z",
+  "checked_at": "2026-11-06T00:00:27Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -67,8 +67,8 @@
       "model": "Wan 3.0",
       "scene_id": 72,
       "mapping": "task_map",
-      "queue_count": 812,
-      "wait_seconds": 20177,
+      "queue_count": 806,
+      "wait_seconds": 19573,
       "process_seconds": null
     },
     {
@@ -80,8 +80,8 @@
       "model": "Wan 3.0",
       "scene_id": 63,
       "mapping": "task_map",
-      "queue_count": 3601,
-      "wait_seconds": 158417,
+      "queue_count": 3609,
+      "wait_seconds": 157813,
       "process_seconds": null
     },
     {
@@ -93,8 +93,8 @@
       "model": "Wan 3.0",
       "scene_id": 64,
       "mapping": "task_map",
-      "queue_count": 3890,
-      "wait_seconds": 175696,
+      "queue_count": 3898,
+      "wait_seconds": 175093,
       "process_seconds": null
     },
     {
@@ -107,7 +107,7 @@
       "scene_id": 71,
       "mapping": "task_map",
       "queue_count": 1335,
-      "wait_seconds": 37456,
+      "wait_seconds": 36853,
       "process_seconds": null
     },
     {
@@ -119,8 +119,8 @@
       "model": "Seedance 2.0",
       "scene_id": 56,
       "mapping": "task_map",
-      "queue_count": 3312,
-      "wait_seconds": 141136,
+      "queue_count": 3320,
+      "wait_seconds": 140532,
       "process_seconds": null
     },
     {
@@ -132,8 +132,8 @@
       "model": "Seedance 2.0",
       "scene_id": 48,
       "mapping": "task_map",
-      "queue_count": 2438,
-      "wait_seconds": 89296,
+      "queue_count": 2446,
+      "wait_seconds": 88692,
       "process_seconds": null
     }
   ],
@@ -151,7 +151,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-11-05T23:30:25Z",
-    "monitor_age_minutes": 20,
+    "monitor_age_minutes": 30,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
