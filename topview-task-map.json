@@ -15,6 +15,15 @@
     "Owner-confirmed releases are stored as owner_released_task_ids. A released but still active Topview task stays in active_by_scene and the 6-slot public count until provider-terminal; do not re-add it to canonical slow."
   ],
   "active_by_scene": {
+    "48": [
+      "de8e44bb15d64dc7a4eb640d27a726e4"
+    ],
+    "49": [
+      "101221814fd5430697f697f95a3f4252"
+    ],
+    "56": [
+      "be960f5e3bf54563aff663fed9da8906"
+    ],
     "63": [
       "365cf639589a4a5da834d70193d5e8f6"
     ],
@@ -23,12 +32,6 @@
     ],
     "71": [
       "431180d384cc43bebe7afc702e4eb4e6"
-    ],
-    "56": [
-      "be960f5e3bf54563aff663fed9da8906"
-    ],
-    "48": [
-      "de8e44bb15d64dc7a4eb640d27a726e4"
     ]
   },
   "processed_tasks": [
