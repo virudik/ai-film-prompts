@@ -3,11 +3,11 @@
   "generator": "continue-2.0",
   "project": "raznoe",
   "project_name": "Разное",
-  "checked_at": "2026-11-06T17:34:29+00:00",
-  "source_head": "8eafbab9dcc7371fabc13217270352c96f890b6f",
-  "source_fingerprint": "57adae2b9e8cbc88a0ff9b8da78f6be701b66523b63daac7e808cdc0d143dd6f",
-  "status": "ready",
-  "ready_for_resume": true,
+  "checked_at": "2026-11-06T18:00:38+00:00",
+  "source_head": "240f6a7fe465aaf04dcd04d49834bffd65c1a4ec",
+  "source_fingerprint": "f5b62fbbd878380bb61da1a94674797be042ab0145e65f3722a93d5a3a5e4a36",
+  "status": "needs_recovery",
+  "ready_for_resume": false,
   "execution_authorized": false,
   "handoff_receipt": {
     "receipt_id": "raznoe-continue-20261106-93c791ea-000f-442e-90b9-13502501c5c1",
@@ -31,7 +31,9 @@
     },
     "source_head": "0107904bad80907682f4854768885b56d7d8d8da"
   },
-  "reasons": [],
+  "reasons": [
+    "project master/status mismatch: raznoe"
+  ],
   "selected_work": {
     "work_id": "RAZNOE-RESOURCE-HONOR-SASHA-20261106",
     "title": "Доработка RESOURCE/HONOR, референсы Magic9 Pro Max и руководство Саше",
@@ -277,8 +279,8 @@
     },
     {
       "file": "projects/raznoe/video-prompts.md",
-      "sha256": "fee8fabaafd8f105f4777de6a599dd39e785f7a2df56ec3a296fa6f97d9723bb",
-      "bytes": 595598
+      "sha256": "494959f5bcd7d53451b5d85ec19ceee0af1a268ed586d236a8595eb2ed92504c",
+      "bytes": 613105
     },
     {
       "file": "projects/raznoe/work-resume-register.json",
@@ -301,5 +303,5 @@
       "bytes": 1353952
     }
   ],
-  "packet_bytes": 7377
+  "packet_bytes": 7309
 }
