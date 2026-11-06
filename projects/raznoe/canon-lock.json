@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt:ordinary:raznoe-completion-20261106",
   "task": "RESOURCE: new press reference and v3 input plan; HONOR: official reference links and separate voiceover correction",
   "acquired_at": "2026-11-06T17:57:58.226Z",
-  "expires_at": "2026-11-06T18:42:58.226Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-11-06T18:08:29.091Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "raznoe"
 }
